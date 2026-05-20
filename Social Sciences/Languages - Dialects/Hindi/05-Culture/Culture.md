@@ -1,0 +1,103 @@
+---
+title: "Culture — Inde et Hindi"
+domain: "Social Sciences"
+subdomain: "Languages - Dialects > Hindi > 05-Culture"
+tags: [sciences-sociales, langues, hindi, culture, inde]
+date: "2026-04-01"
+---
+# Culture — Inde et Hindi
+
+## Le hindi dans le paysage linguistique indien
+
+L'Inde compte 22 langues officielles et plus de 1 600 langues recensées. Le hindi est la langue la plus parlée (600 millions de locuteurs), mais il n'est pas compris de tous — les États du sud (Tamil Nadu, Kerala, Karnataka) résistent souvent à l'usage du hindi.
+
+| Langue | Locuteurs | Région principale |
+|--------|----------|-------------------|
+| Hindi | ~600 M | Nord et centre (UP, MP, Rajasthan, Bihar, Haryana, Delhi) |
+| Bengali | ~100 M | Bengale-Occidental, Bangladesh |
+| Télougou | ~85 M | Andhra Pradesh, Telangana |
+| Marathi | ~80 M | Maharashtra |
+| Tamil | ~75 M | Tamil Nadu, Sri Lanka |
+| Anglais | officiel | Tout le pays (usage administratif et élite) |
+
+## La famille et la structure sociale
+
+### La famille commune (joint family)
+En Inde rurale et dans beaucoup de milieux urbains, plusieurs générations vivent sous le même toit. Cela influence profondément la langue :
+- Les termes de parenté sont très précis (oncle maternel ≠ oncle paternel)
+- S'adresser à un aîné par son prénom est impoli
+- Les décisions importantes se prennent en famille élargie
+
+### Le système d'adresse et le respect
+| Terme | Usage | Équivalent |
+|-------|-------|------------|
+| जी (ji) | Particule de respect ajoutée aux noms | "Monsieur / Madame" |
+| भैया (bhaiya) | Frère aîné / homme jeune | "Frère" affectif |
+| दीदी (didi) | Sœur aînée / femme jeune | "Sœur" affectif |
+| अंकल / आंटी | Adultes proches mais pas famille | Uncle / Auntie |
+| सर / मैडम | Milieu professionnel | Sir / Ma'am |
+
+## L'hospitalité — Atithi Devo Bhava
+
+**अतिथि देवो भव** (atithi devo bhava) — "L'invité est comme un dieu" est une maxime sanskrite qui structure l'hospitalité indienne.
+
+| Pratique | Description |
+|---------|-------------|
+| Offre de nourriture | Refuser de manger chez quelqu'un peut être vécu comme un affront — accepter toujours au moins symboliquement |
+| Thé systématique | Offrir du chai est le premier geste d'accueil obligatoire |
+| Partir trop vite | L'hôte insistera souvent pour que vous repartiez "encore une heure" |
+| Cadeaux | Apporter des douceurs (mithai) ou des fruits en visite est la norme |
+| Manger en dernier | Dans certaines familles, l'invité mange en premier, la famille après |
+
+## Diversité religieuse et impact linguistique
+
+L'Inde est l'un des pays les plus religieusement divers du monde. La religion teinte les expressions quotidiennes.
+
+| Vocabulaire | Origine | Usage |
+|------------|---------|-------|
+| इन्शाल्लाह (inshallah) | Arabe/islamique | Courant chez tous les indiens (= si Dieu le veut) |
+| भगवान जाने (Bhagwan jaane) | Hindou | Dieu sait (= sait jamais) |
+| राम राम | Hindou | Salutation / au revoir traditionnel |
+| खुदा हाफिज़ (Khuda Hafiz) | Perso-islamique | Au revoir (milieu musulman) |
+| वाहेगुरु (Waheguru) | Sikh | Expression de gratitude / merveille |
+
+## Fêtes majeures
+
+| Fête | Calendrier | Description |
+|------|-----------|-------------|
+| दीवाली (Diwali) | Oct-Nov | Fête des lumières. Cadeaux, feux d'artifice, douceurs |
+| होली (Holi) | Fév-Mar | Fête des couleurs. On se jette de la poudre colorée |
+| ईद (Eid) | Calendrier lunaire | Fête musulmane de fin du Ramadan |
+| दशहरा (Dussehra) | Oct | Victoire du bien sur le mal (Ram sur Ravana) |
+| नवरात्रि (Navratri) | Oct | 9 nuits de danse (Garba/Dandiya) |
+| क्रिसमस | 25 déc. | Fêté dans tout le pays, pas seulement par les chrétiens |
+| मकर संक्रांति | 14 jan. | Fête du soleil, cerfs-volants, sésame |
+
+## Nourriture et culture alimentaire
+
+La nourriture est un sujet de conversation central. Demander "खाना खाया?" (Khaana khaaya? — Tu as mangé ?) est une formule d'affection courante.
+
+| Concept | Description |
+|--------|-------------|
+| Végétarisme | ~40 % des Indiens sont végétariens (plus au nord). Mentionner son régime dès l'arrivée |
+| Manger avec la main droite | Tradition dans beaucoup de régions, surtout pour le pain et le riz |
+| Thali | Repas complet sur un plateau avec plusieurs petits plats — principe du repas équilibré |
+| Chai culture | Le thé masala (gingembre, cardamome, cannelle) est quasi sacré |
+| Paan | Feuille de bétel mâchée après le repas — tradition ancienne |
+
+## Bollywood comme outil d'apprentissage
+
+Le cinéma hindi (Bollywood) est une ressource pédagogique précieuse :
+- Les dialogues sont en hindi standard, compréhensible dans toute l'Inde du nord
+- Les chansons contiennent du vocabulaire courant répété
+- Les séries Netflix indiennes (Sacred Games, Panchayat, Delhi Crime) sont accessibles avec sous-titres
+
+## Gestes et communication non verbale
+
+| Geste | Sens |
+|-------|------|
+| Hochement de tête de gauche à droite (head wobble) | OUI, accord, compréhension (≠ "non" en Occident) |
+| Mains jointes (Namaste gesture) | Salutation respectueuse |
+| Main droite sur la poitrine | Sincérité, promesse, remerciement |
+| Toucher les pieds | Déférence extrême aux aînés |
+| Montrer quelque chose du doigt | Parfois impoli — préférer le menton ou toute la main |
