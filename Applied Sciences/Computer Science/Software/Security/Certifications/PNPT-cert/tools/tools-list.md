@@ -5,10 +5,9 @@ subdomain: "Computer Science > Security > PNPT"
 tags: [sciences-appliquées, informatique, sécurité, outils, pnpt]
 date: "2026-05-18"
 ---
-
 # Outils pour la PNPT
 
-Catalogue des outils à connaître, classés par phase de l'engagement. Référence rapide — pour le détail d'utilisation, voir les notes thématiques (01–20). À l'examen, mieux vaut maîtriser un outil de chaque catégorie que d'en connaître dix superficiellement.
+Catalogue des outils à connaître, classés par phase de l'engagement. Référence rapide pour le détail d'utilisation, voir les notes thématiques (01–20). À l'examen, mieux vaut maîtriser un outil de chaque catégorie que d'en connaître dix superficiellement.
 
 ## Reconnaissance & OSINT
 

@@ -406,4 +406,4 @@ $$C_1' = \frac{-y_2 f}{a W}, \quad C_2' = \frac{y_1 f}{a W}$$
 - [[Intégration]] -- les primitives sont essentielles pour résoudre les EDO
 - [[Espaces Euclidiens]] -- les systèmes différentiels utilisent l'algèbre linéaire
 - [[Polynômes]] -- l'équation caractéristique est un polynôme
-- [[Séries entières]] -- résolution d'EDO par séries entières (Math Spé)
+- [[Séries Entières]] -- résolution d'EDO par séries entières (Math Spé)

@@ -423,5 +423,5 @@ flowchart TD
 
 - [[Intégration]] -- le produit scalaire $L^2$ repose sur l'intégrale
 - [[Équations Différentielles]] -- les systèmes différentiels utilisent la diagonalisation orthogonale
-- [[Réduction des endomorphismes]] -- lien avec le théorème spectral
-- [[Matrices]] -- les matrices orthogonales sont un sous-groupe de $GL_n(\mathbb{R})$
+- [[Réduction des Endomorphismes]] -- lien avec le théorème spectral
+- [[Matrices et Déterminants]] -- les matrices orthogonales sont un sous-groupe de $GL_n(\mathbb{R})$

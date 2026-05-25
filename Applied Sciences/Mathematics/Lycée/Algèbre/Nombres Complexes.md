@@ -9,7 +9,7 @@ date: "2026-02-19"
 # Nombres Complexes
 
 > [!tip] Pourquoi les nombres complexes ?
-> Les nombres complexes sont nés d'un besoin : résoudre **toutes** les équations polynomiales. L'équation $x^2 + 1 = 0$ n'a pas de solution dans $\mathbb{R}$, mais elle en a deux dans $\mathbb{C}$ : $i$ et $-i$. Les nombres complexes interviennent en physique (électricité, mécanique quantique), en géométrie, et dans de nombreuses branches des [[Mathématiques]].
+> Les nombres complexes sont nés d'un besoin : résoudre **toutes** les équations polynomiales. L'équation $x^2 + 1 = 0$ n'a pas de solution dans $\mathbb{R}$, mais elle en a deux dans $\mathbb{C}$ : $i$ et $-i$. Les nombres complexes interviennent en physique (électricité, mécanique quantique), en géométrie, et dans de nombreuses branches des [[Index|mathématiques]].
 
 
 ## 1. L'ensemble $\mathbb{C}$ et la forme algébrique
@@ -543,6 +543,9 @@ $$\boxed{f \text{ est une similitude directe de centre } \Omega(0,2), \text{ de 
 
 ## Liens
 
-- [[Mathématiques]]
-- [[Géométrie Lycée]]
-- [[Probabilités et Statistiques]]
+- [[Index]] — vue d'ensemble du dossier Mathématiques
+- [[Géométrie Plane]] — interprétation géométrique des complexes (affixe, module, argument)
+- [[Trigonométrie]] — forme trigonométrique et formules d'Euler
+- [[Second Degré]] — résolution dans $\mathbb{C}$ des équations à coefficients réels
+- [[Polynômes]] — extension en Math Sup : racines, factorisation sur $\mathbb{C}$
+- [[Formulaire]] — formules d'addition, duplication, etc.

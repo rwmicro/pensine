@@ -43,6 +43,23 @@ Sites pour pratiquer la programmation, les algorithmes, le DevOps et le dévelop
 | [freeCodeCamp](https://www.freecodecamp.org/) | HTML, CSS, JS, Python, etc. |
 | [roadmap.sh](https://roadmap.sh/) | Feuilles de route par métier |
 
+## Cybersécurité & CTF
 
-## Analyse Forensic
-- https://www.stealthmole.com/
+| Site                                                  | Contenu                                                       |
+| ----------------------------------------------------- | ------------------------------------------------------------- |
+| [TryHackMe](https://tryhackme.com/)                   | Parcours guidés (offensif + défensif), excellent pour débuter |
+| [Hack The Box](https://www.hackthebox.com/)           | Machines à exploiter, niveau intermédiaire à avancé           |
+| [Root Me](https://www.root-me.org/)                   | Plateforme française, challenges variés (web, crypto, réseau) |
+| [PicoCTF](https://picoctf.org/)                       | CTF orienté pédagogie, idéal pour l'initiation                |
+| [OverTheWire](https://overthewire.org/wargames/)      | Wargames Linux/shell — Bandit pour les débutants              |
+| [PortSwigger Web Security Academy](https://portswigger.net/web-security) | Cours gratuits sur les vulnérabilités web (par les créateurs de Burp Suite) |
+
+## Renseignement et investigation (OSINT)
+
+| Site                                                            | Contenu                                                        |
+| --------------------------------------------------------------- | -------------------------------------------------------------- |
+| [Bellingcat Toolkit](https://bellingcat.gitbook.io/toolkit)     | Boîte à outils complète d'OSINT par les pros du domaine        |
+| [StealthMole](https://www.stealthmole.com/)                     | Renseignement sur le dark web et fuites de données (payant)    |
+| [IntelTechniques](https://inteltechniques.com/tools/)           | Collection d'outils de recherche par catégorie                 |
+
+Voir [[Security/OSINT/Website]] pour les outils de reconnaissance web et serveurs.

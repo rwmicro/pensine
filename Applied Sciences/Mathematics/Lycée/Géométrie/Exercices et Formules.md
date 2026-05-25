@@ -171,6 +171,9 @@ $$\boxed{H = \left(\frac{5}{3},\; \frac{1}{3},\; \frac{2}{3}\right), \quad d(M, 
 
 ## Liens
 
-- [[Mathématiques]]
-- [[Nombres Complexes]]
-- [[Probabilités et Statistiques]]
+- [[Index]] — vue d'ensemble du dossier Mathématiques
+- [[Géométrie Plane]] — théorie de la géométrie plane au Lycée
+- [[Géométrie dans l'Espace]] — extension en dimension 3
+- [[Trigonométrie]] — formules trigonométriques associées
+- [[Nombres Complexes]] — interprétation géométrique des complexes
+- [[Formulaire]] — toutes les formules mathématiques en un coup d'œil

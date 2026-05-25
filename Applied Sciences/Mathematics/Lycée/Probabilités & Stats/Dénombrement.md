@@ -11,7 +11,7 @@ date: "2026-02-22"
 Le dénombrement consiste à **compter** le nombre d'éléments d'un ensemble fini. C'est un outil indispensable en probabilités : pour calculer une probabilité, il faut souvent compter les cas favorables et les cas totaux.
 
 > [!quote] Prérequis
-> [[Ensembles et Nombres]], [[Probabilités et Statistiques]]
+> [[Ensembles et Nombres]], [[Probabilités]]
 
 
 ## Principes fondamentaux

@@ -350,5 +350,5 @@ $$\frac{b - a}{n}\sum_{k=0}^{n-1} f\!\left(a + k\frac{b-a}{n}\right) \xrightarro
 
 - [[Équations Différentielles]] -- l'intégration est au coeur de la résolution des EDO
 - [[Espaces Euclidiens]] -- le produit scalaire $L^2$ utilise l'intégrale
-- [[Séries numériques]] -- comparaison série-intégrale
-- [[Développements limités]] -- lien avec la formule de Taylor
+- [[Suites et Séries Numériques]] -- comparaison série-intégrale
+- [[Développements Limités]] -- lien avec la formule de Taylor

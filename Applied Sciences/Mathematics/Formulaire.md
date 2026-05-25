@@ -187,7 +187,7 @@ $$P(A) = \sum_i P(A|B_i) \cdot P(B_i)$$
 | Exponentielle | $\lambda$ | $1/\lambda$ | $1/\lambda^2$ |
 | Normale | $\mu, \sigma^2$ | $\mu$ | $\sigma^2$ |
 
-Voir [[Probabilités et Statistiques]], [[Probabilités Prépa]]
+Voir [[Probabilités]], [[Probabilités Prépa]]
 
 
 ## Séries de référence

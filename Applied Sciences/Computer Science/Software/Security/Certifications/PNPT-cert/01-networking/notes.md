@@ -5,10 +5,9 @@ subdomain: "Computer Science > Security > PNPT"
 tags: [sciences-appliquées, informatique, sécurité, networking, pentest, pnpt]
 date: "2026-05-18"
 ---
-
 # Networking Fundamentals
 
-Comprendre le réseau, ce n'est pas mémoriser des couches — c'est savoir, devant un paquet, à quel niveau il vit et qui peut l'intercepter. Un pentester qui connaît mal OSI confond une attaque ARP (couche 2) avec une attaque DNS (couche 7) et applique les mauvaises contre-mesures.
+Comprendre le réseau, ce n'est pas mémoriser des couches, c'est savoir devant un paquet, à quel niveau il vit et qui peut l'intercepter. Un pentester qui connaît mal OSI confond une attaque ARP (couche 2) avec une attaque DNS (couche 7) et applique les mauvaises contre-mesures.
 
 ## Modèle OSI : qui parle à qui
 

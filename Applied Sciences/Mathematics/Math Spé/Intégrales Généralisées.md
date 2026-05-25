@@ -10,7 +10,7 @@ date: "2026-02-16"
 
 ## Motivation
 
-En [[Mathématiques|analyse classique]], l'intégrale de Riemann est définie pour des fonctions bornées sur des segments $[a,b]$. Or, de nombreux problèmes exigent d'intégrer :
+En analyse classique, l'intégrale de Riemann est définie pour des fonctions bornées sur des segments $[a,b]$. Or, de nombreux problèmes exigent d'intégrer :
 
 - sur des **intervalles non bornés** : $\displaystyle\int_1^{+\infty} \frac{1}{x^2}\,dx$
 - des **fonctions non bornées** au voisinage d'un point : $\displaystyle\int_0^1 \frac{1}{\sqrt{x}}\,dx$
