@@ -155,4 +155,3 @@ For guidance check the comments in `/etc/crontab`, they're really useful. Inste
 
 The files for user crontabs are stored at location `/var/spool/cron/crontabs` and user root can access those.
 
-[← Question 1](q01-kernel-and-system-info.md) · [Index](Certifications/LFCS/notes.md) · [Question 3 →](q03-time-synchronisation-configuration.md)

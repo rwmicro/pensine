@@ -73,6 +73,3 @@ At the GRUB menu, press `e` on the entry and append to the `linux` line:
 
 Press `Ctrl+X` or `F10` to boot the modified entry once.
 
----
-
-[← Question 20](q20-user-and-group-limits.md) · [Index](Certifications/LFCS/notes.md) · [Question 22 →](q22-systemd-targets-and-services.md)

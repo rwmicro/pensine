@@ -12,7 +12,7 @@ Configure the number-of-processes limitation as a hard limit for user `jackie`.
 
 On the same server you should enforce that group `operators` can only ever log in once at the same time, use `maxlogins` for this.
 
-> ℹ️ It's not possible to test/verify the `maxlogins` after configuration due to how the server has been configured
+> It's not possible to test/verify the `maxlogins` after configuration due to how the server has been configured
 
 ## Solution
 
@@ -91,6 +91,3 @@ jackie          hard    nproc           1024
 
 We might not be able to test this setting due to how the server has been configured.
 
----
-
-[← Question 19](q19-regex-filter-out-log-lines.md) · [Index](Certifications/LFCS/notes.md) · [Question 21 →](q21-grub-bootloader.md)

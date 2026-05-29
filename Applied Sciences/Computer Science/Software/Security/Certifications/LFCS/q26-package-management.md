@@ -103,7 +103,3 @@ sudo dnf config-manager --add-repo https://example.com/repo.repo
 
 Debian: `/etc/apt/trusted.gpg.d/` or `/etc/apt/keyrings/`.
 RHEL: `rpm --import https://example.com/key.gpg`.
-
----
-
-[← Question 25](q25-sysctl-kernel-parameters.md) · [Index](Certifications/LFCS/notes.md) · [Question 27 →](q27-bash-scripting.md)

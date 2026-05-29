@@ -87,7 +87,3 @@ bg %1
 nohup ./long.sh &                 # survive shell logout
 disown %1                         # detach existing job
 ```
-
----
-
-[← Question 22](q22-systemd-targets-and-services.md) · [Index](Certifications/LFCS/notes.md) · [Question 24 →](q24-system-logs.md)

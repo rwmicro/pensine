@@ -170,6 +170,3 @@ Sector size (logical/physical): 512 bytes / 512 bytes
 
 I/O size (minimum/optimal): 512 bytes / 512 bytes
 
----
-
-[← Question 17](q17-openssh-configuration.md) · [Index](Certifications/LFCS/notes.md) · [Question 19 →](q19-regex-filter-out-log-lines.md)

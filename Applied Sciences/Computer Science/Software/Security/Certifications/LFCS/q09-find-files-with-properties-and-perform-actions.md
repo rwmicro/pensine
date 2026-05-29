@@ -90,7 +90,3 @@ root@data-001:/var/backup/backup-015$ ls large/ | wc -l
 root@data-001:/var/backup/backup-015$ ls compromised/ | wc -l
 12
 ```
-
----
-
-[← Question 8](q08-disk-management.md) · [Index](Certifications/LFCS/notes.md) · [Question 10 →](q10-sshfs-and-nfs.md)

@@ -175,6 +175,3 @@ sudo restorecon -Rv /var/www/site1
 sudo setsebool -P httpd_can_network_connect on
 ```
 
----
-
-[← Question 33](q33-dns-server.md) · [Index](Certifications/LFCS/notes.md) · [Question 35 →](q35-database-server.md)

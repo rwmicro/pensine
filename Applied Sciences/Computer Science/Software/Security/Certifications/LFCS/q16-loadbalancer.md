@@ -117,6 +117,3 @@ app2 special
 
 Above we see that requests to `web-srv1:8000` are sent to both `app1` and `app2`. And requests on `web-srv1:8001` are only sent to `app2` and path `/special`.
 
----
-
-[← Question 15](q15-build-and-install-from-source.md) · [Index](Certifications/LFCS/notes.md) · [Question 17 →](q17-openssh-configuration.md)

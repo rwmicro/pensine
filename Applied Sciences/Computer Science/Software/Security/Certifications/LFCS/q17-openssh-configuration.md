@@ -9,7 +9,7 @@ You need to perform OpenSSH server configuration changes on `data-002`. Users 
 2. Disable `PasswordAuthentication` for everyone but user `marta`
 3. Enable `Banner` with file `/etc/ssh/sshd-banner` for users `marta` and `cilla`
 
-> ℹ️ In case of misconfiguration you can still access the instance using `sudo lxc exec data-002 bash`
+> In case of misconfiguration you can still access the instance using `sudo lxc exec data-002 bash`
 
 ## Solution
 
@@ -99,6 +99,3 @@ Last login: Tue Nov  4 13:38:00 2025 from 192.168.10.1
 
 User `root` can still log in and does not see the banner message.
 
----
-
-[← Question 16](q16-loadbalancer.md) · [Index](Certifications/LFCS/notes.md) · [Question 18 →](q18-lvm-storage.md)

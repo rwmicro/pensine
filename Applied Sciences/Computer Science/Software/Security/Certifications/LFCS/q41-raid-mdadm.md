@@ -144,7 +144,3 @@ echo check  | sudo tee /sys/block/md0/md/sync_action
 echo repair | sudo tee /sys/block/md0/md/sync_action
 cat /sys/block/md0/md/mismatch_cnt
 ```
-
----
-
-[← Question 40](q40-swap-configuration.md) · [Index](Certifications/LFCS/notes.md) · [Question 42 →](q42-disk-quotas.md)

@@ -18,7 +18,7 @@ Your team selected you for this task because of your deep filesystem and disk/de
 A good way to start is probably to list existing disks:
 ```bash
 sudo fdisk -l
-...
+
 ```
 
 Disk /dev/vdb: 100 MiB, 104857600 bytes, 204800 sectors
@@ -60,8 +60,6 @@ Units: sectors of 1 * 512 = 512 bytes
 Sector size (logical/physical): 512 bytes / 512 bytes
 
 I/O size (minimum/optimal): 512 bytes / 512 bytes
-
-...
 
 Another way with good list style and information:
 ```bash
@@ -195,7 +193,3 @@ Well, only that one bad process! Hence we can finish this question with:
 sudo kill 6204 # your PID will be different
 sudo umount /mnt/app-4e9d7e1e
 ```
-
----
-
-[← Question 7](q07-network-packet-filtering.md) · [Index](Certifications/LFCS/notes.md) · [Question 9 →](q09-find-files-with-properties-and-perform-actions.md)

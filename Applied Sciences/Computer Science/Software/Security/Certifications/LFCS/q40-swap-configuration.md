@@ -116,7 +116,3 @@ Modern Linux Foundation guidance (LFCS-ish):
 - 64 GB RAM → 4 GB swap suffices
 
 If hibernation is required, swap must be **at least** RAM size.
-
----
-
-[← Question 39](q39-luks-encrypted-storage.md) · [Index](Certifications/LFCS/notes.md) · [Question 41 →](q41-raid-mdadm.md)

@@ -148,6 +148,3 @@ sudo mysqladmin status
 sudo mysqladmin shutdown
 ```
 
----
-
-[← Question 34](q34-apache-http-server.md) · [Index](Certifications/LFCS/notes.md) · [Question 36 →](q36-http-proxy.md)

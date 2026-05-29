@@ -117,6 +117,3 @@ server {
 }
 ```
 
----
-
-[← Question 35](q35-database-server.md) · [Index](Certifications/LFCS/notes.md) · [Question 37 →](q37-mail-aliases-and-postfix.md)

@@ -24,28 +24,28 @@
 
 ## Questions — simulateur killer.sh
 
-| # | Sujet | Serveur |
-|---|---|---|
-| 1 | [Kernel and System Info](q01-kernel-and-system-info.md) | `terminal` |
-| 2 | [CronJobs](q02-cronjobs.md) | `data-001` |
-| 3 | [Time synchronisation Configuration](q03-time-synchronisation-configuration.md) | `terminal` |
-| 4 | [Environment Variables](q04-environment-variables.md) | `terminal` |
-| 5 | [Archives and Compression](q05-archives-and-compression.md) | `data-001` |
-| 6 | [User, Groups and Sudoers](q06-user-groups-and-sudoers.md) | `app-srv1` |
-| 7 | [Network Packet Filtering](q07-network-packet-filtering.md) | `data-002` |
-| 8 | [Disk Management](q08-disk-management.md) | `terminal` |
-| 9 | [Find files with properties and perform actions](q09-find-files-with-properties-and-perform-actions.md) | `data-001` |
-| 10 | [SSHFS and NFS](q10-sshfs-and-nfs.md) | `terminal` |
-| 11 | [Docker Management](q11-docker-management.md) | `terminal` |
-| 12 | [Git Workflow](q12-git-workflow.md) | `terminal` |
-| 13 | [Runtime Security of processes](q13-runtime-security-of-processes.md) | `web-srv1` |
-| 14 | [Output redirection](q14-output-redirection.md) | `app-srv1` |
-| 15 | [Build and install from source](q15-build-and-install-from-source.md) | `app-srv1` |
-| 16 | [LoadBalancer](q16-loadbalancer.md) | `web-srv1` |
-| 17 | [OpenSSH Configuration](q17-openssh-configuration.md) | `data-002` |
-| 18 | [LVM Storage](q18-lvm-storage.md) | `terminal` |
-| 19 | [Regex, filter out log lines](q19-regex-filter-out-log-lines.md) | `web-srv1` |
-| 20 | [User and Group limits](q20-user-and-group-limits.md) | `web-srv1` |
+| #   | Sujet                                                                                                   | Serveur    |
+| --- | ------------------------------------------------------------------------------------------------------- | ---------- |
+| 1   | [Kernel and System Info](q01-kernel-and-system-info.md)                                                 | `terminal` |
+| 2   | [CronJobs](q02-cronjobs.md)                                                                             | `data-001` |
+| 3   | [Time synchronisation Configuration](q03-time-synchronisation-configuration.md)                         | `terminal` |
+| 4   | [Environment Variables](q04-environment-variables.md)                                                   | `terminal` |
+| 5   | [Archives and Compression](q05-archives-and-compression.md)                                             | `data-001` |
+| 6   | [User, Groups and Sudoers](q06-user-groups-and-sudoers.md)                                              | `app-srv1` |
+| 7   | [Network Packet Filtering](q07-network-packet-filtering.md)                                             | `data-002` |
+| 8   | [Disk Management](q08-disk-management.md)                                                               | `terminal` |
+| 9   | [Find files with properties and perform actions](q09-find-files-with-properties-and-perform-actions.md) | `data-001` |
+| 10  | [SSHFS and NFS](q10-sshfs-and-nfs.md)                                                                   | `terminal` |
+| 11  | [Docker Management](q11-docker-management.md)                                                           | `terminal` |
+| 12  | [Git Workflow](q12-git-workflow.md)                                                                     | `terminal` |
+| 13  | [Runtime Security of processes](q13-runtime-security-of-processes.md)                                   | `web-srv1` |
+| 14  | [Output redirection](q14-output-redirection.md)                                                         | `app-srv1` |
+| 15  | [Build and install from source](q15-build-and-install-from-source.md)                                   | `app-srv1` |
+| 16  | [LoadBalancer](q16-loadbalancer.md)                                                                     | `web-srv1` |
+| 17  | [OpenSSH Configuration](q17-openssh-configuration.md)                                                   | `data-002` |
+| 18  | [LVM Storage](q18-lvm-storage.md)                                                                       | `terminal` |
+| 19  | [Regex, filter out log lines](q19-regex-filter-out-log-lines.md)                                        | `web-srv1` |
+| 20  | [User and Group limits](q20-user-and-group-limits.md)                                                   | `web-srv1` |
 
 ## Questions complémentaires — curriculum officiel LFCS
 
@@ -62,6 +62,7 @@ Sujets du programme officiel non couverts par le simulateur. Énoncés inspirés
 | 25 | [Sysctl Kernel Parameters](q25-sysctl-kernel-parameters.md) |
 | 26 | [Package Management](q26-package-management.md) |
 | 27 | [Bash Scripting](q27-bash-scripting.md) |
+| 43 | [Kernel Modules](q43-kernel-modules.md) |
 
 ### Essential Commands & Users
 
@@ -70,6 +71,7 @@ Sujets du programme officiel non couverts par le simulateur. Énoncés inspirés
 | 28 | [Permissions, SUID/SGID and ACL](q28-permissions-and-acl.md) |
 | 29 | [Links and File Attributes](q29-links-and-file-attributes.md) |
 | 30 | [PAM Configuration](q30-pam-configuration.md) |
+| 44 | [SELinux and AppArmor (MAC)](q44-selinux-and-apparmor.md) |
 
 ### Networking
 
@@ -97,3 +99,11 @@ Sujets du programme officiel non couverts par le simulateur. Énoncés inspirés
 | 40 | [Swap Configuration](q40-swap-configuration.md) |
 | 41 | [Software RAID with mdadm](q41-raid-mdadm.md) |
 | 42 | [Disk Quotas](q42-disk-quotas.md) |
+
+### Distribution differences
+
+Les notes ci-dessus utilisent majoritairement l'outillage Debian/Ubuntu (apt, iptables, systemd-timesyncd). L'examen LFCS laisse choisir la distribution : cette note rassemble les équivalents RHEL (chrony, firewalld, nftables, dnf, SELinux).
+
+| # | Sujet |
+|---|---|
+| 45 | [RHEL vs Debian Equivalents](q45-rhel-vs-debian-equivalents.md) |

@@ -126,7 +126,3 @@ Jul 27 15:40:11 ubuntu2204 systemd[1]: systemd-timesyncd.service: Deactivated su
 Jul 27 15:40:11 ubuntu2204 systemd-timesyncd[161213]: Initial synchronization to time server 162.159.200.123:123 (0.pool.ntp.org).
 
 Server `0.pool.ntp.org` was used here which means our configuration change worked.
-
----
-
-[← Question 2](q02-cronjobs.md) · [Index](Certifications/LFCS/notes.md) · [Question 4 →](q04-environment-variables.md)

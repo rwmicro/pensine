@@ -8,7 +8,7 @@ There was a security alert which you need to follow up on. On server `web-srv1`
 
 End the process and remove the executable for those where this is true.
 
-> ℹ️ You can use `strace -p PID`
+> You can use `strace -p PID`
 
 ## Solution
 
@@ -87,7 +87,3 @@ root@web-srv1:~$ kill 3612 # your PID will be different!
 root@web-srv1:~$ ps aux | grep collector2
 root@web-srv1:~$ rm /bin/collector2
 ```
-
----
-
-[← Question 12](q12-git-workflow.md) · [Index](Certifications/LFCS/notes.md) · [Question 14 →](q14-output-redirection.md)

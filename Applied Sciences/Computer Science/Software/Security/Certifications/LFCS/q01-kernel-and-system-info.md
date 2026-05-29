@@ -33,6 +33,3 @@ The files should look like:
 # /opt/course/1/timezone
 UTC
 ```
-
-
-[Index](Certifications/LFCS/notes.md) · [Question 2 →](q02-cronjobs.md)

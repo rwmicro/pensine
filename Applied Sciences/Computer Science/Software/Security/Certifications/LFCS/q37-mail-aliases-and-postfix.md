@@ -150,6 +150,3 @@ Test:
 openssl s_client -connect localhost:993 -crlf
 ```
 
----
-
-[← Question 36](q36-http-proxy.md) · [Index](Certifications/LFCS/notes.md) · [Question 38 →](q38-kvm-virtualization.md)

@@ -125,6 +125,3 @@ echo '0 6 * * * root /usr/sbin/warnquota' | sudo tee /etc/cron.d/warnquota
 
 Mail templates: `/etc/warnquota.conf`.
 
----
-
-[← Question 41](q41-raid-mdadm.md) · [Index](Certifications/LFCS/notes.md)

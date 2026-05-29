@@ -131,7 +131,3 @@ user2@app-srv1:~$ sudo bash /root/dangerous.sh
 Sun Jun 11 17:54:20 UTC 2023
 dangerous
 ```
-
----
-
-[← Question 5](q05-archives-and-compression.md) · [Index](Certifications/LFCS/notes.md) · [Question 7 →](q07-network-packet-filtering.md)

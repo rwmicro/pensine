@@ -153,6 +153,3 @@ server=1.1.1.1
 sudo systemctl restart dnsmasq
 ```
 
----
-
-[← Question 32](q32-bonding-and-bridges.md) · [Index](Certifications/LFCS/notes.md) · [Question 34 →](q34-apache-http-server.md)

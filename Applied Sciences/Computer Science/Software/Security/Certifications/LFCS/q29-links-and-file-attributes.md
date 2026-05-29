@@ -85,6 +85,3 @@ setfattr -n user.note -v "hello" file
 setfattr -x user.note file
 ```
 
----
-
-[← Question 28](q28-permissions-and-acl.md) · [Index](Certifications/LFCS/notes.md) · [Question 30 →](q30-pam-configuration.md)

@@ -93,6 +93,3 @@ root@web-srv1:/var/log-collector/003$ cat /var/log-collector/003/server.log | gr
 
 The 44 we see above is the result we want.
 
----
-
-[← Question 18](q18-lvm-storage.md) · [Index](Certifications/LFCS/notes.md) · [Question 20 →](q20-user-and-group-limits.md)

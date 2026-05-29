@@ -137,7 +137,3 @@ sudo pamtester sshd alice authenticate
 | `pam_env.so` | set env vars from `/etc/security/pam_env.conf` |
 | `pam_mkhomedir.so` | create home dir on first login |
 | `pam_lastlog.so` | display last login info |
-
----
-
-[← Question 29](q29-links-and-file-attributes.md) · [Index](Certifications/LFCS/notes.md) · [Question 31 →](q31-network-configuration.md)

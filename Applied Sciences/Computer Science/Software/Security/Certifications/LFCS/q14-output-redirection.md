@@ -86,6 +86,3 @@ root@app-srv1:~$ cat /var/output-generator/4.out
 123
 ```
 
----
-
-[← Question 13](q13-runtime-security-of-processes.md) · [Index](Certifications/LFCS/notes.md) · [Question 15 →](q15-build-and-install-from-source.md)

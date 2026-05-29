@@ -111,7 +111,3 @@ touch: cannot touch '/nfs/terminal/share/new': Read-only file system
 ```
 
 Above we see that we were able to mount the required NFS export in read-only mode on `app-srv1`.
-
----
-
-[← Question 9](q09-find-files-with-properties-and-perform-actions.md) · [Index](Certifications/LFCS/notes.md) · [Question 11 →](q11-docker-management.md)

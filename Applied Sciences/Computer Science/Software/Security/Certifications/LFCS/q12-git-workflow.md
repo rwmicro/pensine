@@ -267,7 +267,3 @@ Changes to be committed:
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 logs/.keep
 ```
-
----
-
-[← Question 11](q11-docker-management.md) · [Index](Certifications/LFCS/notes.md) · [Question 13 →](q13-runtime-security-of-processes.md)

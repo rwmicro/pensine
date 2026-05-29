@@ -179,7 +179,3 @@ error: host not found         # output if ipv6 is disabled
 root@app-srv1:~$ /usr/bin/links -lookup ip6-localhost
 ::1                           # output if ipv6 is enabled
 ```
-
----
-
-[← Question 14](q14-output-redirection.md) · [Index](Certifications/LFCS/notes.md) · [Question 16 →](q16-loadbalancer.md)

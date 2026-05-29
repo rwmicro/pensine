@@ -148,6 +148,3 @@ sysctl -w net.ipv6.conf.all.accept_ra=0
 
 Disable IPv6: see [[q25-sysctl-kernel-parameters]].
 
----
-
-[← Question 30](q30-pam-configuration.md) · [Index](Certifications/LFCS/notes.md) · [Question 32 →](q32-bonding-and-bridges.md)

@@ -81,6 +81,3 @@ Even with systemd, classic `/var/log` files often remain (via `rsyslog`):
 
 Rotation is handled by `logrotate` — configs under `/etc/logrotate.d/`. Force a run with `sudo logrotate -f /etc/logrotate.conf`.
 
----
-
-[← Question 23](q23-process-management.md) · [Index](Certifications/LFCS/notes.md) · [Question 25 →](q25-sysctl-kernel-parameters.md)

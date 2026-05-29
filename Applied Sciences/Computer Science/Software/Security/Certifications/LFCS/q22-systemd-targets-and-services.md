@@ -76,6 +76,3 @@ sudo systemctl edit --full sshd.service              # full override
 
 Drop-ins live in `/etc/systemd/system/<unit>.d/override.conf` and take precedence over `/lib/systemd/system/<unit>` — never edit vendor files directly.
 
----
-
-[← Question 21](q21-grub-bootloader.md) · [Index](Certifications/LFCS/notes.md) · [Question 23 →](q23-process-management.md)

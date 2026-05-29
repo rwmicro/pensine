@@ -10,7 +10,7 @@ Store the new archive under `/imports/import001.tar.gz`. Compression should be 
 
 To make sure both archives contain the same files, write a list of their sorted contents into `/imports/import001.tar.bz2_list` and `/imports/import001.tar.gz_list`.
 
-> ℹ️ Do not modify or delete the original archive `import001.tar.bz2`
+> Do not modify or delete the original archive `import001.tar.bz2`
 
 ## Solution
 
@@ -26,7 +26,7 @@ total 1.5K
 ### Possibility 1 — (use the tar layer)
 We extract the `bzip2` archive and receive an uncompressed `tar` archive:
 
-> ℹ️ We can install `bzip2` via the package manager if not available
+> We can install `bzip2` via the package manager if not available
 ```bash
 root@data-001:/imports$ bunzip2 -k import001.tar.bz2
 root@data-001:/imports$ ls -lh
@@ -105,7 +105,3 @@ drwxr-xr-x 3 root root    3 Jul 16 13:28 ..
 -rw-r--r-- 1 root root  531 Jul 16 14:00 import001.tar.gz
 -rw-r--r-- 1 root root 1.2K Jul 16 14:07 import001.tar.gz_list
 ```
-
----
-
-[← Question 4](q04-environment-variables.md) · [Index](Certifications/LFCS/notes.md) · [Question 6 →](q06-user-groups-and-sudoers.md)

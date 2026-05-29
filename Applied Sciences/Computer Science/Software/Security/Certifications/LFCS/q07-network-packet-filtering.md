@@ -10,7 +10,7 @@ Server `data-002` is used for big data and provides internally used apis for v
 3. Port `6002` should only be accessible from IP `192.168.10.80` (server `data-001`)
 4. Block all outgoing traffic to IP `192.168.10.70` (server `app-srv1`)
 
-> ℹ️ In case of misconfiguration you can still access the instance using `sudo lxc exec data-002 bash`
+> In case of misconfiguration you can still access the instance using `sudo lxc exec data-002 bash`
 
 ## Solution
 
@@ -146,7 +146,3 @@ SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.1
 ```
 
 Above we can see that outgoing connections to `app-srv1` no longer work and they time out.
-
----
-
-[← Question 6](q06-user-groups-and-sudoers.md) · [Index](Certifications/LFCS/notes.md) · [Question 8 →](q08-disk-management.md)

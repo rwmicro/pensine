@@ -145,6 +145,3 @@ TMP=$(mktemp)
 trap 'rm -f "$TMP"' EXIT
 ```
 
----
-
-[← Question 26](q26-package-management.md) · [Index](Certifications/LFCS/notes.md) · [Question 28 →](q28-permissions-and-acl.md)

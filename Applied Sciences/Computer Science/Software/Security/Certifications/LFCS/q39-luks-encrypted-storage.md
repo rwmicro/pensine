@@ -118,6 +118,3 @@ sudo resize2fs /dev/mapper/secure-data
 sudo cryptsetup --debug open /dev/vdb test 2>&1 | grep slot
 ```
 
----
-
-[← Question 38](q38-kvm-virtualization.md) · [Index](Certifications/LFCS/notes.md) · [Question 40 →](q40-swap-configuration.md)

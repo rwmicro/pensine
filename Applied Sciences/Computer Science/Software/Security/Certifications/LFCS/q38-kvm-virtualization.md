@@ -139,7 +139,3 @@ sudo virt-sysprep -a image.qcow2          # remove machine-specific data
 ### LXC / containers via libvirt
 
 `libvirt` also drives LXC containers, but most LFCS questions use Docker (see [[q11-docker-management]]) or `systemd-nspawn`.
-
----
-
-[← Question 37](q37-mail-aliases-and-postfix.md) · [Index](Certifications/LFCS/notes.md) · [Question 39 →](q39-luks-encrypted-storage.md)

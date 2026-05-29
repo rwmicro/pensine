@@ -71,7 +71,3 @@ echo $TEST1 # variable NOT available in subprocesses
 echo $TEST2 # exported variable available in subprocesses
 test2
 ```
-
----
-
-[← Question 3](q03-time-synchronisation-configuration.md) · [Index](Certifications/LFCS/notes.md) · [Question 5 →](q05-archives-and-compression.md)

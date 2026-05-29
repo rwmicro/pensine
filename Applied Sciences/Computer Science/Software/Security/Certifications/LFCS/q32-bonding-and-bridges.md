@@ -135,7 +135,3 @@ Persistent (nmcli):
 ```bash
 nmcli con add type vlan con-name eth0.10 dev eth0 id 10 ip4 192.168.10.5/24
 ```
-
----
-
-[← Question 31](q31-network-configuration.md) · [Index](Certifications/LFCS/notes.md) · [Question 33 →](q33-dns-server.md)

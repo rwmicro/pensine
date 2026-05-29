@@ -108,7 +108,3 @@ sudo chown alice:dev file
 sudo chown -R alice /srv/alice          # recursive
 sudo chown --reference=template.txt file
 ```
-
----
-
-[← Question 27](q27-bash-scripting.md) · [Index](Certifications/LFCS/notes.md) · [Question 29 →](q29-links-and-file-attributes.md)

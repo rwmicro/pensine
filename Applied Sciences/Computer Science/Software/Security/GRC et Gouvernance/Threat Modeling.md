@@ -102,6 +102,16 @@ Datastore [DB MySQL] :
   E → EoP : un utilisateur peut-il accéder aux données d'un autre ? (→ Row-level security)
 ```
 
+## MITRE ATT&CK
+
+ATT&CK ne remplace pas STRIDE mais le complète : là où STRIDE catégorise les menaces de façon abstraite, ATT&CK fournit un catalogue de **TTP réellement observés** chez les attaquants. Trois matrices selon l'environnement :
+
+- **Enterprise** — réseaux d'entreprise (Windows, Linux, macOS, cloud, conteneurs)
+- **Mobile** — iOS, Android
+- **ICS** — systèmes industriels (SCADA, automates)
+
+Chaque technique documente : description, exemples de procédures (quels groupes APT l'ont utilisée), mitigations et indicateurs de détection. L'**ATT&CK Navigator** (`mitre-attack.github.io/attack-navigator/`) visualise les techniques en heatmap — utile pour cartographier la couverture de détection d'un SOC ou le profil d'un acteur de menace. Voir `[[Threat Modeling pour la détection (SOC)]]` pour cet usage défensif.
+
 ## DREAD — Scoring des menaces
 
 DREAD permet de prioriser les menaces identifiées avec STRIDE.
@@ -131,6 +141,19 @@ Seuils :
   1.5 - 1.9 : Moyen → backlog prioritaire
   < 1.5     : Faible → backlog standard
 ```
+
+### CVSS et matrice de risque
+
+DREAD est subjectif (et Microsoft l'a abandonné en interne au profit de CVSS et de la SDL). En pratique on s'appuie aussi sur :
+
+- **CVSS** (FIRST.org) — standard industriel de notation des vulnérabilités de 0 à 10, en trois métriques : **Base** (caractéristiques intrinsèques : vecteur, complexité, impact CIA), **Temporal** (maturité de l'exploit, disponibilité du patch), **Environmental** (criticité pour l'organisation).
+- **Matrice probabilité × impact** — la plus simple et la plus utilisée par les équipes :
+
+|  | Impact faible | Impact moyen | Impact critique |
+|---|---|---|---|
+| **Probabilité haute** | Moyen | Haut | Critique |
+| **Probabilité moyenne** | Faible | Moyen | Haut |
+| **Probabilité basse** | Accepté | Faible | Moyen |
 
 ## Arbres d'attaque
 
@@ -215,6 +238,22 @@ PASTA est un framework orienté risque métier, en 7 étapes.
   → Scoring des risques, priorisation
   → Plan de remédiation avec ROI (coût de la contre-mesure vs coût de l'incident)
 ```
+
+## Stratégies de traitement du risque
+
+Pour chaque menace priorisée, quatre réponses possibles — chaque contre-mesure doit être tracée jusqu'à la menace qu'elle adresse, afin de vérifier qu'aucune menace critique ne reste sans réponse :
+
+1. **Mitigate** — réduire le risque (chiffrement, input validation, WAF)
+2. **Transfer** — transférer le risque (assurance cyber, externalisation)
+3. **Accept** — accepter le risque (documenté, validé par le management)
+4. **Avoid** — supprimer la fonctionnalité qui crée le risque
+
+## Quand faire du threat modeling
+
+- **À la conception** d'un nouveau système ou d'une fonctionnalité (shift left)
+- **Lors d'un changement d'architecture** significatif (migration cloud, ajout d'un partenaire externe)
+- **Régulièrement** sur les systèmes critiques (annuellement au minimum)
+- **Après un incident**, pour vérifier si le modèle de menace était incomplet
 
 ## Intégration dans le SDLC
 

@@ -85,7 +85,3 @@ Within a directory, files are sorted by name — use `99-` prefix to override ve
 | `kernel.pid_max` | max PID |
 | `fs.file-max` | system-wide open file limit |
 | `kernel.panic` | seconds before reboot on panic |
-
----
-
-[← Question 24](q24-system-logs.md) · [Index](Certifications/LFCS/notes.md) · [Question 26 →](q26-package-management.md)
