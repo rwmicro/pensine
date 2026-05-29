@@ -21,7 +21,7 @@ date: "2026-04-14"
 
 ## Jurons atténués (niveau 1-2)
 
-| Juron | Arabe | Sens littéral | Usage |
+| Juron | Libanais | Sens littéral | Usage |
 |-------|-------|---------------|-------|
 | يلعن أبوه | yil3an abū | Que son père soit maudit | frustration générale, équivalent de "zut" fort |
 | يي | yeee | — | expression de surprise désagréable |
@@ -33,7 +33,7 @@ date: "2026-04-14"
 
 ## Qualificatifs péjoratifs (niveau 2-3)
 
-| Mot | Arabe | Sens | Gravité |
+| Mot | Libanais | Sens | Gravité |
 |-----|-------|------|---------|
 | غبي | ghabi | idiot | 2 |
 | أهبل | ahbal | débile | 2 |
@@ -48,7 +48,7 @@ date: "2026-04-14"
 
 ## Insultes directes (niveau 3-4)
 
-| Insulte | Arabe | Sens | Gravité |
+| Insulte | Libanais | Sens | Gravité |
 |---------|-------|------|---------|
 | شرموط | sharmūT (m.) | pute (insulte masculine) | 4 |
 | شرموطة | sharmūTa (f.) | pute (forme féminine) | 4 |
@@ -64,7 +64,7 @@ date: "2026-04-14"
 
 Le libanais possède des tournures élaborées dites `da3wa` (دعوة) — invocations négatives dirigées contre quelqu'un.
 
-| Malédiction | Arabe | Sens littéral |
+| Malédiction | Libanais | Sens littéral |
 |-------------|-------|---------------|
 | الله يلعنك | allah yil3anak | Que Dieu te maudisse |
 | يخرب بيتك | yikhrib beitak | Que ta maison s'effondre |

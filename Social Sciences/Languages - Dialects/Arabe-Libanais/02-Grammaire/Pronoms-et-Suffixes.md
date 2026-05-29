@@ -9,7 +9,7 @@ date: "2026-04-01"
 
 ## Pronoms personnels sujets
 
-| Personne | Arabe | Translitération |
+| Personne | Libanais | Translittération |
 |----------|-------|-----------------|
 | Je | أنا | ana |
 | Tu (m.) | إنت | inta |
@@ -24,7 +24,7 @@ date: "2026-04-01"
 
 Les suffixes possessifs s'attachent directement au nom. La forme du suffixe peut varier légèrement selon que le nom se termine par une consonne ou une voyelle.
 
-| Personne | Suffixe | Exemple avec بيت (beit, maison) | Translitération |
+| Personne | Suffixe | Exemple avec بيت (beit, maison) | Translittération |
 |----------|---------|--------------------------------|-----------------|
 | Mon / Ma | -i (-ti après ة) | بيتي | beiti |
 | Ton / Ta (m.) | -ak | بيتك | beitak |
@@ -51,7 +51,7 @@ Les mêmes suffixes s'attachent aux prépositions, ce qui est très fréquent en
 
 ### مع (ma3, avec)
 
-| Français | Arabe | Translitération |
+| Français | Libanais | Translittération |
 |----------|-------|-----------------|
 | Avec moi | معي | ma3i |
 | Avec toi (m.) | معك | ma3ak |
@@ -66,7 +66,7 @@ Les mêmes suffixes s'attachent aux prépositions, ce qui est très fréquent en
 
 3and + suffixe = "avoir" en libanais (il n'y a pas de verbe "avoir" séparé).
 
-| Français | Arabe | Translitération |
+| Français | Libanais | Translittération |
 |----------|-------|-----------------|
 | J'ai | عندي | 3indi |
 | Tu as (m.) | عندك | 3andak |
@@ -84,7 +84,7 @@ Exemples :
 
 ### على (3ala, sur / à)
 
-| Français | Arabe | Translitération |
+| Français | Libanais | Translittération |
 |----------|-------|-----------------|
 | Sur moi / à moi | عليّ | 3aleyye |
 | Sur toi (m.) | عليك | 3aleik |
@@ -94,7 +94,7 @@ Exemples :
 
 ### في (fi, dans / il y a)
 
-| Français | Arabe | Translitération |
+| Français | Libanais | Translittération |
 |----------|-------|-----------------|
 | En moi | فيّ | fiyye |
 | En toi (m.) | فيك | fīk |
@@ -106,7 +106,7 @@ Exemples :
 
 ### ل (la, pour / à)
 
-| Français | Arabe | Translitération |
+| Français | Libanais | Translittération |
 |----------|-------|-----------------|
 | Pour moi | إلي | ili |
 | Pour toi (m.) | إلك | ilak |
@@ -143,7 +143,7 @@ Exemples :
 
 ## Relatifs
 
-| Français | Libanais | Translitération |
+| Français | Libanais | Translittération |
 |----------|----------|-----------------|
 | Qui / que / dont (relatif général) | اللي | illi |
 

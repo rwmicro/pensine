@@ -21,7 +21,7 @@ Les emprunts libanais du français suivent des schèmes réguliers :
 
 Ces mots sont utilisés comme si c'était de l'arabe libanais, sans conscience de l'emprunt.
 
-| Mot français | Forme libanaise | Translitération | Domaine |
+| Mot français | Forme libanaise | Translittération | Domaine |
 |-------------|----------------|-----------------|---------|
 | Merci | مرسي | mersi | Politesse — concurrent de شكراً shukran dans l'usage courant |
 | Bonjour | بونجور | bonjour | Salutation alternative (surtout Achrafieh, bourgeoisie chrétienne) |
@@ -91,7 +91,7 @@ Ces mots sont utilisés comme si c'était de l'arabe libanais, sans conscience d
 
 L'anglais concurrence de plus en plus le français comme langue de prestige, notamment chez les jeunes hommes et dans la tech.
 
-| Anglais | Libanais | Translitération |
+| Anglais | Libanais | Translittération |
 |---------|----------|-----------------|
 | OK | أوكي | oki |
 | Cool | كول | kūl |

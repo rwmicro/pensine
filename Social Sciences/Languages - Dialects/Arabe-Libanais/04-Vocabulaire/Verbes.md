@@ -7,9 +7,9 @@ date: "2026-04-01"
 ---
 # Verbes Fréquents — Arabe Libanais
 
-Listes thématiques de verbes utiles, avec forme passée (huwe) et présente (ana) pour mémorisation rapide. Pour le **système de conjugaison** (préfixes, schèmes, tableaux complets), voir `02-Grammaire/Verbes.md`.
+Listes thématiques de verbes utiles, avec forme passée (huwe) et présente (ana) pour mémorisation rapide. Pour le **système de conjugaison** (préfixes, schèmes, tableaux complets), voir [[02-Grammaire/Verbes|Verbes (grammaire)]].
 
-Format : **Français** | **Passé** (translitération) | **Présent ana** (translitération)
+Format : **Français** | **Passé** (translittération) | **Présent ana** (translittération)
 
 ## Mouvements et déplacements
 

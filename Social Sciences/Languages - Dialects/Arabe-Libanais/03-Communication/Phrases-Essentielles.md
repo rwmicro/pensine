@@ -12,7 +12,7 @@ Registres : **F** = formel / **C** = courant / **I** = informel
 
 ## Salutations et formules de base
 
-| Français | Arabe libanais | Translitération | Registre |
+| Français | Libanais | Translittération | Registre |
 |----------|----------------|-----------------|----------|
 | Bonjour | مرحبا | mar7aba | C |
 | Bonjour (réponse) | مرحبتين | mar7abtein | C |
@@ -30,7 +30,7 @@ Registres : **F** = formel / **C** = courant / **I** = informel
 
 ## Politesse et remerciements
 
-| Français            | Arabe libanais | Translitération | Registre |
+| Français            | Libanais | Translittération | Registre |
 | ------------------- | -------------- | --------------- | -------- |
 | Merci               | شكراً / مرسي   | shukran / mersi | C        |
 | Merci beaucoup      | شكراً كتير     | shukran ktīr    | C        |
@@ -43,7 +43,7 @@ Registres : **F** = formel / **C** = courant / **I** = informel
 
 ## Présentation
 
-| Français                    | Arabe libanais       | Translitération              | Registre |
+| Français                    | Libanais             | Translittération              | Registre |
 | --------------------------- | -------------------- | ---------------------------- | -------- |
 | Je m'appelle...             | اسمي...              | ismi...                      | C        |
 | Comment tu t'appelles ?     | شو اسمك              | shu ismak (m.) / ismik (f.)  | C        |
@@ -54,7 +54,7 @@ Registres : **F** = formel / **C** = courant / **I** = informel
 
 ## Incompréhension et aide
 
-| Français | Arabe libanais | Translitération | Registre |
+| Français | Libanais | Translittération | Registre |
 |----------|----------------|-----------------|----------|
 | Je ne comprends pas | ما فهمت | mā fehimt | C |
 | Tu peux répéter ? | فيك تعيد | fīk t3īd | C |
@@ -66,7 +66,7 @@ Registres : **F** = formel / **C** = courant / **I** = informel
 
 ## Questions pratiques
 
-| Français | Arabe libanais | Translitération | Registre |
+| Français | Libanais | Translittération | Registre |
 |----------|----------------|-----------------|----------|
 | Où est... ? | وين هو... | wēn huwwe... | C |
 | Combien ça coûte ? | قديش | addēsh | C |
@@ -80,7 +80,7 @@ Registres : **F** = formel / **C** = courant / **I** = informel
 
 ## Nourriture et restaurant
 
-| Français | Arabe libanais | Translitération | Registre |
+| Français | Libanais | Translittération | Registre |
 |----------|----------------|-----------------|----------|
 | Je veux manger | بدي آكل | biddi ākul | C |
 | Bon appétit | صحتين | sa77tein | C — litt. "deux santés" |
@@ -90,7 +90,7 @@ Registres : **F** = formel / **C** = courant / **I** = informel
 
 ## Expressions indispensables
 
-| Français | Arabe libanais | Translitération | Registre |
+| Français | Libanais | Translittération | Registre |
 |----------|----------------|-----------------|----------|
 | Allez ! / Vite ! / OK | يلا | yalla | I — usage universel |
 | Mon cher / Mon ami (m.) | حبيبي | 7abībi | I — affectif |

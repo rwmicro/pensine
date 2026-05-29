@@ -7,7 +7,7 @@ date: "2026-04-01"
 ---
 # Verbes — Arabe Libanais
 
-Cette fiche traite du **système verbal** (racines, schèmes, conjugaisons complètes, tableaux de référence). Pour les listes thématiques de verbes utiles au quotidien, voir `04-Vocabulaire/Verbes.md`.
+Cette fiche traite du **système verbal** (racines, schèmes, conjugaisons complètes, tableaux de référence). Pour les listes thématiques de verbes utiles au quotidien, voir [[04-Vocabulaire/Verbes|Verbes fréquents]].
 
 ## Les racines trilitères
 
@@ -149,7 +149,7 @@ Les tableaux suivent le schème : **passé** / **présent b-** / **futur rah +**
 
 ### Verbes modaux et auxiliaires
 
-| Français | Libanais | Translitération | Construction |
+| Français | Libanais | Translittération | Construction |
 |----------|----------|-----------------|-------------|
 | Pouvoir / Être capable | فيك / بيقدر | fīk / bi2dar | فيك + verbe nu |
 | Devoir | لازم | lēzem | lēzem + verbe b- |

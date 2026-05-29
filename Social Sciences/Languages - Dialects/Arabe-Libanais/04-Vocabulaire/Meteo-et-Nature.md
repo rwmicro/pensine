@@ -9,7 +9,7 @@ date: "2026-04-14"
 
 ## Les saisons
 
-| Saison | Arabe | Translittération |
+| Saison | Libanais | Translittération |
 |--------|-------|------------------|
 | Printemps | الربيع | er-rabī3 |
 | Été | الصيف | eS-Seif |
@@ -20,7 +20,7 @@ date: "2026-04-14"
 
 ## Phénomènes météo
 
-| Français | Arabe | Translittération |
+| Français | Libanais | Translittération |
 |----------|-------|------------------|
 | Soleil | شمس | shams |
 | Nuage | غيمة | gheime |
@@ -71,7 +71,7 @@ date: "2026-04-14"
 
 ## Paysages et géographie
 
-| Français | Arabe | Translittération |
+| Français | Libanais | Translittération |
 |----------|-------|------------------|
 | Mer | بحر | ba7r |
 | Océan | محيط | mu7īT |
@@ -97,7 +97,7 @@ date: "2026-04-14"
 
 ## Arbres et végétation du Liban
 
-| Français | Arabe | Translittération | Note |
+| Français | Libanais | Translittération | Note |
 |----------|-------|------------------|------|
 | Cèdre | أرز | arz | emblème national |
 | Chêne | سنديان | sendyān | dominant en montagne |
@@ -114,7 +114,7 @@ date: "2026-04-14"
 
 ### Animaux domestiques
 
-| Français | Arabe | Translittération |
+| Français | Libanais | Translittération |
 |----------|-------|------------------|
 | Chien | كلب | kalb |
 | Chat | قطّة | 2aTTa |
@@ -130,7 +130,7 @@ date: "2026-04-14"
 
 ### Animaux sauvages
 
-| Français | Arabe | Translittération |
+| Français | Libanais | Translittération |
 |----------|-------|------------------|
 | Loup | ذيب | dīb |
 | Renard | تعلب | ta3lab |
@@ -143,7 +143,7 @@ date: "2026-04-14"
 
 ### Oiseaux et insectes
 
-| Français | Arabe | Translittération |
+| Français | Libanais | Translittération |
 |----------|-------|------------------|
 | Oiseau | عصفور | 3aSfūr |
 | Aigle | نسر | nisr |
@@ -162,7 +162,7 @@ date: "2026-04-14"
 
 ## Plantes et fleurs
 
-| Français | Arabe | Translittération |
+| Français | Libanais | Translittération |
 |----------|-------|------------------|
 | Fleur | زهرة | zahra |
 | Rose | وردة | warde |

@@ -27,7 +27,7 @@ La guerre civile libanaise (1975-1990) structure encore aujourd'hui la géograph
 
 ## Vocabulaire de la guerre
 
-| Mot | Arabe | Sens |
+| Mot | Libanais | Sens |
 |-----|-------|------|
 | الحرب | el-7arb | la guerre (la grande, celle de 75-90) |
 | الأحداث | el-a7dāth | "les événements" — périphrase pudique pour la guerre |

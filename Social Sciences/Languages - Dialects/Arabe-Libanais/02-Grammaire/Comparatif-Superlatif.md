@@ -81,7 +81,7 @@ Pour "le plus… de tous / parmi…" :
 
 Pour intensifier un adjectif sans comparaison, on utilise des adverbes.
 
-| Adverbe | Arabe | Usage |
+| Adverbe | Libanais | Usage |
 |---------|-------|-------|
 | كتير (ktīr) | très | usage universel, place après ou avant l'adjectif |
 | كتير كتير (ktīr ktīr) | vraiment très | emphase |

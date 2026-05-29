@@ -11,14 +11,14 @@ L'argot beyrouthin évolue rapidement sous l'influence de l'anglais, des réseau
 
 ## Argot généraliste
 
-| Argot | Arabe | Sens | Équivalent français |
+| Argot | Libanais | Sens | Équivalent français |
 |-------|-------|------|---------------------|
 | 3al 7ādi | ع الهادي | doucement, relax | tranquille, peinard |
 | false | فولس | mensonge / faux | c'est du flan |
 | mafia | مافيا | mafieux, magouilleur | — |
 | za3rān | زعران | voyou, racaille | racaille |
 | sha2i | شقي | malin / vif | futé |
-| sharmūT | شرموط | insulte vulgaire (voir Insultes) | — |
+| sharmūT | شرموط | insulte vulgaire (voir [[03-Communication/Insultes-et-Jurons|Insultes]]) | — |
 | 7ūt | حوت | baraqué, fort | bonhomme, tank |
 | k'teer | كتير | beaucoup, trop (intensif jeune) | grave, trop |
 | 7ayawān | حيوان | "animal" au sens de "ouf" | taré |

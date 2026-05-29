@@ -7,7 +7,7 @@ date: "2026-03-31"
 ---
 # Salutations — Arabe Libanais
 
-Les salutations libanaises sont souvent des échanges ritualisés multi-tours — connaître les paires question/réponse est essentiel. Cette fiche couvre les salutations en profondeur ; pour les phrases de survie tout-terrain, voir `Phrases-Essentielles.md`.
+Les salutations libanaises sont souvent des échanges ritualisés multi-tours — connaître les paires question/réponse est essentiel. Cette fiche couvre les salutations en profondeur ; pour les phrases de survie tout-terrain, voir [[03-Communication/Phrases-Essentielles|Phrases Essentielles]].
 
 ## Salutations principales et leurs réponses
 
@@ -23,14 +23,14 @@ Les salutations libanaises sont souvent des échanges ritualisés multi-tours �
 
 Le Libanais typique ne répond pas "bien" sèchement — l'échange de salutations est une démonstration de chaleur.
 
-| Question | Translitération | Sens |
+| Question | Translittération | Sens |
 |----------|-----------------|------|
 | كيفك ؟ | kīfak (m.) / kīfik (f.) | Comment vas-tu ? (courant) |
 | كيف الحال ؟ | kīf el-7āl | Comment ça va ? (neutre) |
 | شو أخبارك ؟ | shu akhbārak | Quoi de neuf ? (litt. "quelles nouvelles ?") |
 | إنت كيفك ؟ | inta kīfak | Et toi, comment vas-tu ? |
 
-| Réponse | Translitération | Sens |
+| Réponse | Translittération | Sens |
 |---------|-----------------|------|
 | منيح، الحمد لله | mnī7, el-7amdillah | Bien, Dieu merci |
 | تمام | tamēm | Impeccable / parfait |
@@ -40,7 +40,7 @@ Le Libanais typique ne répond pas "bien" sèchement — l'échange de salutatio
 
 ## Prise de congé
 
-| Expression | Translitération | Sens / usage |
+| Expression | Translittération | Sens / usage |
 |-----------|-----------------|-------------|
 | مع السلامة | ma3 el-salēme | Au revoir (universel) |
 | تصبح على خير | tSba7 3a khēr | Bonne nuit (à celui qui part) |
@@ -62,7 +62,7 @@ Le Libanais typique ne répond pas "bien" sèchement — l'échange de salutatio
 
 ## Salutations dans des contextes spécifiques
 
-| Contexte | Expression | Translitération |
+| Contexte | Expression | Translittération |
 |---------|-----------|-----------------|
 | Quelqu'un qui mange | صحتين | sa77tein (bon appétit) |
 | Réponse à sa77tein | الله يعطيك الصحة | allah ya3tīk es-si77a |

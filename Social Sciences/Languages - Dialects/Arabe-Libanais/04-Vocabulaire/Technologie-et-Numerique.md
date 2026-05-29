@@ -80,7 +80,7 @@ Le domaine numérique est massivement dominé par les emprunts anglais, parfois 
 
 Verbes anglais intégrés à la morphologie libanaise (forme II fa33al souvent).
 
-| Verbe | Arabe | Sens |
+| Verbe | Libanais | Sens |
 |-------|-------|------|
 | Cliquer | يكبس / يكلّك | yikbos / ykellik |
 | Taper | يطبع | yiTba3 |

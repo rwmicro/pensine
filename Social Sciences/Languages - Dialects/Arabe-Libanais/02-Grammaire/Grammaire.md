@@ -11,7 +11,7 @@ L'arabe libanais est un dialecte levantin simplifié par rapport à l'arabe stan
 
 ## Pronoms personnels
 
-| Personne | Pronom | Translitération | Notes |
+| Personne | Pronom | Translittération | Notes |
 |----------|--------|-----------------|-------|
 | Je | أنا | ana | |
 | Tu (masc.) | إنت | inta | |
@@ -41,7 +41,7 @@ Le présent/habitude est formé avec le préfixe **b-** attaché à la racine ve
 
 Le futur se forme avec la particule **رح** (rah) ou **رح** (raah) devant la forme brève du verbe.
 
-| Français | Arabe libanais | Translitération |
+| Français | Libanais | Translittération |
 |----------|----------------|-----------------|
 | Je vais manger | رح آكل | rah ākul |
 | Tu vas partir | رح تروح | rah trūh |
@@ -64,7 +64,7 @@ Deux formes principales de négation :
 ### mish — négation nominale et adjectivale
 **مش** (mish) nie les noms, adjectifs, et équivalents du verbe "être"
 
-| Français | Libanais | Translitération |
+| Français | Libanais | Translittération |
 |----------|----------|-----------------|
 | Je ne suis pas libanais | مش لبناني | mish libnāni |
 | Ce n'est pas bon | مش منيح | mish mnī7 |
@@ -89,7 +89,7 @@ Le passé est formé directement sur la racine verbale avec des suffixes personn
 
 **عم** (3am) + verbe avec b- indique l'action en cours (équivalent du gérondif).
 
-| Français | Libanais | Translitération |
+| Français | Libanais | Translittération |
 |----------|----------|-----------------|
 | Je suis en train de manger | عم بآكل | 3am bākul |
 | Il est en train de parler | عم يحكي | 3am yi7ki |
@@ -99,7 +99,7 @@ Le passé est formé directement sur la racine verbale avec des suffixes personn
 
 En libanais, le verbe "être" au présent n'est généralement pas exprimé — on juxtapose sujet et attribut :
 
-| Français | Libanais | Translitération |
+| Français | Libanais | Translittération |
 |----------|----------|-----------------|
 | Je suis étudiant | أنا طالب | ana tālib |
 | Elle est belle | هي حلوة | hiye 7élwe |
@@ -135,7 +135,7 @@ Tout nom est masculin ou féminin. Règle générale : les mots terminés en **-
 
 Les questions se forment souvent par l'intonation montante seule, ou avec des mots interrogatifs.
 
-| Français | Libanais | Translitération |
+| Français | Libanais | Translittération |
 |----------|----------|-----------------|
 | Quoi ? / Qu'est-ce que ? | شو | shu |
 | Qui ? | مين | mīn |

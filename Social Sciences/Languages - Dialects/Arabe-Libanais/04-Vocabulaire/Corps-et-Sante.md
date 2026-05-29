@@ -11,7 +11,7 @@ date: "2026-04-14"
 
 ### Tête et visage
 
-| Français | Arabe | Translittération |
+| Français | Libanais | Translittération |
 |----------|-------|------------------|
 | Tête | راس | rās |
 | Cheveux | شعر | sha3er |
@@ -30,7 +30,7 @@ date: "2026-04-14"
 
 ### Tronc et membres
 
-| Français | Arabe | Translittération |
+| Français | Libanais | Translittération |
 |----------|-------|------------------|
 | Cou | رقبة | ra2be |
 | Épaule | كتف | kitf |
@@ -51,7 +51,7 @@ date: "2026-04-14"
 
 ### Organes internes
 
-| Français | Arabe | Translittération |
+| Français | Libanais | Translittération |
 |----------|-------|------------------|
 | Cœur | قلب | 2alb |
 | Poumons | رئتين | ri2tēn |
@@ -68,7 +68,7 @@ date: "2026-04-14"
 
 ## Symptômes et états
 
-| Français | Arabe | Translittération |
+| Français | Libanais | Translittération |
 |----------|-------|------------------|
 | Mal à la tête | وجع راس | waja3 rās |
 | Mal au ventre | وجع بطن | waja3 baTn |
@@ -108,7 +108,7 @@ Structure : **3indi waja3 bi- + partie du corps** ou **bi-yūja3ni + partie du c
 
 ## Maladies courantes
 
-| Français | Arabe | Translittération |
+| Français | Libanais | Translittération |
 |----------|-------|------------------|
 | Diabète | السكّري | es-sukkari |
 | Hypertension | ضغط عالي | daght 3āli |
@@ -143,7 +143,7 @@ Structure : **3indi waja3 bi- + partie du corps** ou **bi-yūja3ni + partie du c
 
 ## Médicaments et soins
 
-| Français | Arabe | Translittération |
+| Français | Libanais | Translittération |
 |----------|-------|------------------|
 | Médicament | دوا | dawa |
 | Comprimé | حبّة | 7abbe |
@@ -161,7 +161,7 @@ Structure : **3indi waja3 bi- + partie du corps** ou **bi-yūja3ni + partie du c
 
 ## Spécialités médicales
 
-| Français | Arabe | Translittération |
+| Français | Libanais | Translittération |
 |----------|-------|------------------|
 | Généraliste | طبيب عام | Tabīb 3ām |
 | Dentiste | طبيب سنّان | Tabīb snān |
@@ -176,7 +176,7 @@ Structure : **3indi waja3 bi- + partie du corps** ou **bi-yūja3ni + partie du c
 
 ## Urgences
 
-| Français | Arabe | Translittération |
+| Français | Libanais | Translittération |
 |----------|-------|------------------|
 | Appelez une ambulance ! | اتصلو بسيارة إسعاف ! | ittaSlu bi-sayyārit is3āf! |
 | Au secours ! | النجدة ! | en-najde! |
@@ -187,7 +187,7 @@ Structure : **3indi waja3 bi- + partie du corps** ou **bi-yūja3ni + partie du c
 
 ## Hygiène et bien-être
 
-| Français | Arabe | Translittération |
+| Français | Libanais | Translittération |
 |----------|-------|------------------|
 | Se laver les mains | يغسل إيديه | yighsil īdē |
 | Se brosser les dents | يفرشي سنانه | yifarshi snāno |
@@ -198,7 +198,7 @@ Structure : **3indi waja3 bi- + partie du corps** ou **bi-yūja3ni + partie du c
 
 ## Formules de soutien et souhaits
 
-| Formule | Arabe | Usage |
+| Formule | Libanais | Usage |
 |---------|-------|-------|
 | سلامتك | salāmtak | Sois en bonne santé (à un malade) |
 | الله يشفيك | allah yishfīk | Que Dieu te guérisse |

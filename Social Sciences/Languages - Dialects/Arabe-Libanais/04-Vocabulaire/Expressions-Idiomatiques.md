@@ -11,7 +11,7 @@ Expressions figées dont le sens ne se déduit pas de la traduction littérale. 
 
 ## Corps et santé
 
-| Expression | Translitération | Sens littéral | Sens réel |
+| Expression | Translittération | Sens littéral | Sens réel |
 |-----------|----------------|---------------|-----------|
 | يسلمو إيديكي | yislamu eydēki | Que tes mains soient saines | Merci (à quelqu'un qui a cuisiné ou fabriqué quelque chose) |
 | على راسي | 3a rāsi | Sur ma tête | Avec plaisir / j'accepte avec honneur |
@@ -26,7 +26,7 @@ Expressions figées dont le sens ne se déduit pas de la traduction littérale. 
 
 ## Temps et circonstances
 
-| Expression | Translitération | Sens littéral | Sens réel |
+| Expression | Translittération | Sens littéral | Sens réel |
 |-----------|----------------|---------------|-----------|
 | مش هلق | mish halla2 | Pas maintenant | Ce n'est pas le bon moment |
 | عالماشي | 3al mēshi | En marchant | En passant / rapidement / sans effort |
@@ -39,7 +39,7 @@ Expressions figées dont le sens ne se déduit pas de la traduction littérale. 
 
 ## Argent et affaires
 
-| Expression | Translitération | Sens littéral | Sens réel |
+| Expression | Translittération | Sens littéral | Sens réel |
 |-----------|----------------|---------------|-----------|
 | ما في مصاري | mā fī maSāri | Il n'y a pas d'argent | Je suis fauché / on n'a pas de budget |
 | حساب مفتوح | 7sēb maftū7 | Compte ouvert | Tout est aux frais de quelqu'un d'autre |
@@ -49,7 +49,7 @@ Expressions figées dont le sens ne se déduit pas de la traduction littérale. 
 
 ## Relations et social
 
-| Expression | Translitération | Sens littéral | Sens réel |
+| Expression | Translittération | Sens littéral | Sens réel |
 |-----------|----------------|---------------|-----------|
 | حبيب 2albi | 7abīb 2albi | Amour de mon cœur | Mon très cher ami (très affectif) |
 | منّا ومنّكن | minna w minnkon | De nous et de vous | On est pareils / de la même famille / entre nous |
@@ -62,7 +62,7 @@ Expressions figées dont le sens ne se déduit pas de la traduction littérale. 
 
 ## Surprise et réactions
 
-| Expression | Translitération | Sens littéral | Sens réel |
+| Expression | Translittération | Sens littéral | Sens réel |
 |-----------|----------------|---------------|-----------|
 | شو هيك! | shu hēk! | Quoi comme ça ! | C'est incroyable ! / Pas possible ! |
 | لا يكون! | lā ykūn! | Que ce ne soit pas ! | Non, vraiment ? / C'est pas vrai ! |
@@ -75,7 +75,7 @@ Expressions figées dont le sens ne se déduit pas de la traduction littérale. 
 
 ## Hospitalité et invitations
 
-| Expression | Translitération | Sens littéral | Sens réel |
+| Expression | Translittération | Sens littéral | Sens réel |
 |-----------|----------------|---------------|-----------|
 | تفضّل / تفضّلي | tafaddal / tafaddali | Veuillez (entrer/prendre) | Entrez / asseyez-vous / servez-vous |
 | أنا عازمك | ana 3āzmak | Je t'ai invité | C'est ma tournée / j'insiste pour payer |
@@ -87,7 +87,7 @@ Expressions figées dont le sens ne se déduit pas de la traduction littérale. 
 
 L'usage du nom de Dieu est socialement neutre et non exclusivement religieux au Liban.
 
-| Expression | Translitération | Sens / usage |
+| Expression | Translittération | Sens / usage |
 |-----------|----------------|-------------|
 | والله | wallah | Vraiment / je jure (interjection universelle) |
 | إن شاء الله | inshallah | Peut-être / j'espère / probablement pas |

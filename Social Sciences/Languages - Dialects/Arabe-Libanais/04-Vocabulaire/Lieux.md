@@ -9,7 +9,7 @@ date: "2026-04-01"
 
 ## Directions
 
-| Français | Arabe | Translitération |
+| Français | Libanais | Translittération |
 |----------|-------|-----------------|
 | Droite | يمين | yamīn |
 | Gauche | شمال | shmēl |
@@ -31,7 +31,7 @@ date: "2026-04-01"
 
 ## Quartiers de Beyrouth
 
-| Quartier | Arabe | Caractère |
+| Quartier | Libanais | Caractère |
 |---------|-------|-----------|
 | Hamra | الحمرا | Commercial, universitaire, cosmopolite |
 | Gemmayzeh | الجميّزة | Bars, vie nocturne, art, bohème |
@@ -46,7 +46,7 @@ date: "2026-04-01"
 
 ## Lieux en ville
 
-| Français | Arabe | Translitération |
+| Français | Libanais | Translittération |
 |----------|-------|-----------------|
 | Rue | شارع | shāri3 |
 | Avenue | جادة | jādde |
@@ -62,7 +62,7 @@ date: "2026-04-01"
 
 ## Lieux publics
 
-| Français | Arabe | Translitération |
+| Français | Libanais | Translittération |
 |----------|-------|-----------------|
 | Hôpital | مستشفى | mustashfa |
 | Pharmacie | صيدلية | Seydaliyye |
@@ -83,7 +83,7 @@ date: "2026-04-01"
 
 ## Restauration et loisirs
 
-| Français | Arabe | Translitération |
+| Français | Libanais | Translittération |
 |----------|-------|-----------------|
 | Restaurant | مطعم | maT3am |
 | Café | كافيه | kāfē |
@@ -102,7 +102,7 @@ date: "2026-04-01"
 
 ## Transport
 
-| Français | Arabe | Translitération |
+| Français | Libanais | Translittération |
 |----------|-------|-----------------|
 | Taxi | تاكسي | tāksi |
 | Taxi collectif | سرفيس | sarvis |
@@ -118,7 +118,7 @@ date: "2026-04-01"
 
 ## Formules pour demander son chemin
 
-| Situation | Libanais | Translitération |
+| Situation | Libanais | Translittération |
 |-----------|----------|-----------------|
 | Où est... ? | وين هو / وين في... | wēn huwwe / wēn fī |
 | Comment aller à... ? | كيف بروح على... | kīf brū7 3a... |

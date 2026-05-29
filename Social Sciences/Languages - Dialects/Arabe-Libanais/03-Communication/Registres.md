@@ -84,7 +84,7 @@ La politesse formelle s'exprime par :
 
 Ces formules traversent tous les registres et toutes les communautés confessionnelles libanaises.
 
-| Formule | Arabe | Contexte |
+| Formule | Libanais | Contexte |
 |---------|-------|---------|
 | Inshallah | إن شاء الله | Espoir / incertitude polie / peut-être |
 | Hamdillah | الحمد لله | Réponse à "comment ça va" / gratitude |

@@ -38,18 +38,18 @@ date: "2026-04-23"
 
 ## Questions pratiques
 
-| Espagnol | Sens |
-|----------|------|
-| ¿Qué es esto? | Qu'est-ce que c'est ? |
-| ¿Quién es? | Qui est-ce ? |
-| ¿Dónde está...? | Où est... ? |
-| ¿Dónde están los baños? | Où sont les toilettes ? |
-| ¿Cuánto cuesta? | Combien ça coûte ? |
-| ¿Cuánto es? | C'est combien ? |
-| ¿Qué hora es? | Quelle heure est-il ? |
-| ¿A qué hora abre? | À quelle heure ça ouvre ? |
-| ¿A qué hora cierra? | À quelle heure ça ferme ? |
-| ¿Cuándo? | Quand ? |
+| Espagnol                | Sens                      |
+| ----------------------- | ------------------------- |
+| ¿Qué es esto?           | Qu'est-ce que c'est ?     |
+| ¿Quién es?              | Qui est-ce ?              |
+| ¿Dónde está...?         | Où est... ?               |
+| ¿Dónde están los baños? | Où sont les toilettes ?   |
+| ¿Cuánto cuesta?         | Combien ça coûte ?        |
+| ¿Cuánto es?             | C'est combien ?           |
+| ¿Qué hora es?           | Quelle heure est-il ?     |
+| ¿A qué hora abre?       | À quelle heure ça ouvre ? |
+| ¿A qué hora cierra?     | À quelle heure ça ferme ? |
+| ¿Cuándo?                | Quand ?                   |
 
 ## Directions
 

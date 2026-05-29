@@ -23,7 +23,7 @@ L'impératif libanais dérive de la forme présente **sans** le préfixe b-, ave
 
 ## Impératifs très fréquents
 
-| Français | Arabe | Translittération |
+| Français | Libanais | Translittération |
 |----------|-------|------------------|
 | Viens ! | تعا / تعي / تعو | ta3a / ta3i / ta3u |
 | Va-t'en ! | روح / روحي / روحو | rū7 / rū7i / rū7u |

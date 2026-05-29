@@ -7,13 +7,13 @@ date: "2026-03-31"
 ---
 # Alphabet et Prononciation — Arabe Libanais
 
-L'arabe libanais est un dialecte levantin. Il s'écrit en arabe standard (alphabet arabe) dans les contextes formels, mais à l'oral et dans les messages informels, on utilise souvent une **translitération latine avec chiffres** (arabizi/Franco-Arab). L'arabe libanais ne dispose pas d'orthographe dialectale officielle.
+L'arabe libanais est un dialecte levantin. Il s'écrit en arabe standard (alphabet arabe) dans les contextes formels, mais à l'oral et dans les messages informels, on utilise souvent une **translittération latine avec chiffres** (arabizi/Franco-Arab). L'arabe libanais ne dispose pas d'orthographe dialectale officielle.
 
 ## L'alphabet arabe — rappel
 
 L'arabe s'écrit de droite à gauche. 28 lettres, toutes consonnes — les voyelles courtes sont des signes diacritiques optionnels, rarement écrits.
 
-| Lettre isolée | Nom | Translitération | Son |
+| Lettre isolée | Nom | Translittération | Son |
 |--------------|-----|-----------------|-----|
 | ا | alef | a / ' | /aː/ ou support de hamza |
 | ب | ba | b | /b/ |
@@ -50,7 +50,7 @@ L'arabe s'écrit de droite à gauche. 28 lettres, toutes consonnes — les voyel
 - `2` = hamza/qaf (coup de glotte)
 - `3` = ayn, `7` = ḥa, `5` ou `kh` = kha (on privilégie `kh` pour la lisibilité)
 - `gh` = ghayn
-- Consonnes emphatiques : dans la romanisation courante libanaise, **on ne distingue pas** ص/س, ض/د, ط/ت, ظ/ز — on écrit simplement `s`, `d`, `t`, `z`. Les majuscules `S D T` peuvent signaler l'emphatique en pédagogie mais ne sont pas utilisées dans les listes de mots ici.
+- Consonnes emphatiques : la romanisation courante libanaise (arabizi) ne les distingue pas. **Mais dans les listes de vocabulaire de ce dossier, on signale l'emphatique par une majuscule** — `S` = ص, `D` = ض, `T` = ط, `Z` = ظ — pour la clarté pédagogique (ex. `eS-Seif` été, `baTn` ventre, `2aTTa` chatte). Le `s d t z` minuscule reste le son non-emphatique.
 - ث → `t` (fusion libanaise), ذ → `d` ou `z`, ظ → `z`
 
 ## Le système arabizi (chiffres pour les sons arabes)

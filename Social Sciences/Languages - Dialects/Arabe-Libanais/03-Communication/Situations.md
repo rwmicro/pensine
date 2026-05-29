@@ -7,7 +7,7 @@ date: "2026-04-01"
 ---
 # Dialogues en Situation — Arabe Libanais
 
-Dialogues authentiques avec translitération et traduction. Les répliques sont volontairement proches de l'oral naturel, avec code-switching là où il est courant.
+Dialogues authentiques avec translittération et traduction. Les répliques sont volontairement proches de l'oral naturel, avec code-switching là où il est courant.
 
 ## 1. Premier contact — se présenter
 

@@ -72,7 +72,7 @@ La France a exercé le mandat sur la Syrie et le Liban après la Première Guerr
 - Médecine et universités en français (Université Saint-Joseph, fondée 1875)
 
 **Résultat linguistique** :
-- Intégration massive de mots français dans le dialecte (voir Emprunts-Francais.md)
+- Intégration massive de mots français dans le dialecte (voir [[04-Vocabulaire/Emprunts-Francais|Emprunts Français]])
 - Habitude de code-switching bilingue systématique
 - Association du français avec le prestige et l'éducation, surtout dans les milieux chrétiens
 

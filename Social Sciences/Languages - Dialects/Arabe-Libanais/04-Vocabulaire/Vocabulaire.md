@@ -9,7 +9,7 @@ date: "2026-03-31"
 
 ## Chiffres
 
-| Chiffre | Arabe | Translitération |
+| Chiffre | Libanais | Translittération |
 |---------|-------|-----------------|
 | 0 | صفر | sifr |
 | 1 | واحد | wā7ed |
@@ -54,7 +54,7 @@ date: "2026-03-31"
 
 ## Jours de la semaine
 
-| Jour | Arabe | Translitération |
+| Jour | Libanais | Translittération |
 |------|-------|-----------------|
 | Lundi | الإثنين | el-itnēn |
 | Mardi | الثلاثاء | et-tlēta |
@@ -66,7 +66,7 @@ date: "2026-03-31"
 
 ## Famille
 
-| Français | Arabe | Translitération |
+| Français | Libanais | Translittération |
 |----------|-------|-----------------|
 | Père | أب / بابا | ab / baba |
 | Mère | أم / ماما | umm / mama |
@@ -85,7 +85,7 @@ date: "2026-03-31"
 
 ## Couleurs
 
-| Français | Arabe (m.) | Arabe (f.) | Translitération |
+| Français | Libanais (m.) | Libanais (f.) | Translittération |
 |----------|------------|------------|-----------------|
 | Rouge | أحمر | حمرا | a7mar / 7amra |
 | Bleu | أزرق | زرقا | azra2 / zar2a |
@@ -97,7 +97,7 @@ date: "2026-03-31"
 
 ## Corps humain
 
-| Français | Arabe | Translitération |
+| Français | Libanais | Translittération |
 |----------|-------|-----------------|
 | Tête | راس | rās |
 | Cheveux | شعر | sha3er |
@@ -112,7 +112,7 @@ date: "2026-03-31"
 
 ## Nourriture libanaise
 
-| Français | Arabe | Translitération |
+| Français | Libanais | Translittération |
 |----------|-------|-----------------|
 | Mezze | مزة | mazza |
 | Houmous | حمص | hummus |
@@ -130,7 +130,7 @@ date: "2026-03-31"
 
 ## Verbes essentiels
 
-| Français | Infinitif (racine) | Présent (ana) | Translitération |
+| Français | Infinitif (racine) | Présent (ana) | Translittération |
 |----------|-------------------|---------------|-----------------|
 | Être | — | (absent au présent) | — |
 | Avoir | — | عندي | 3indi |
@@ -150,7 +150,7 @@ date: "2026-03-31"
 
 ## Adjectifs courants
 
-| Français | Masc. | Fém. | Translitération |
+| Français | Masc. | Fém. | Translittération |
 |----------|-------|------|-----------------|
 | Bon / beau | منيح / حلو | منيحة / حلوة | mnī7 / 7élo — mnī7a / 7élwe |
 | Grand | كبير | كبيرة | kbīr / kbīre |
@@ -164,7 +164,7 @@ date: "2026-03-31"
 
 ## Mots de temps et lieu
 
-| Français | Arabe | Translitération |
+| Français | Libanais | Translittération |
 |----------|-------|-----------------|
 | Maintenant | هلق | halla2 |
 | Aujourd'hui | اليوم | el-yōm |

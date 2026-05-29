@@ -53,7 +53,7 @@ Exemples :
 
 ## Jours de la semaine
 
-| Jour | Arabe | Translittération |
+| Jour | Libanais | Translittération |
 |------|-------|------------------|
 | Lundi | الإتنين | el-itnēn |
 | Mardi | التلاتا | et-tlēta |
