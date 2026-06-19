@@ -5,7 +5,6 @@ subdomain: "Anthropology"
 tags: [sciences-sociales, anthropologie, ethnographie, terrain, observation-participante, méthodes]
 date: "2026-04-18"
 ---
-
 # Méthodes - Ethnographie et Terrain
 
 L'ethnographie — la description d'une société fondée sur une immersion prolongée — est la méthode distinctive de l'anthropologie. Ce qui sépare l'anthropologue du journaliste, du touriste ou du missionnaire, c'est la **durée** de l'immersion, la **rigueur** de l'observation et la **réflexivité** sur sa propre position.

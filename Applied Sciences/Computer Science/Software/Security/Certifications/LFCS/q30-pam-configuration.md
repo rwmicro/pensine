@@ -1,5 +1,47 @@
 # Question 30 — PAM Configuration
 
+## Notes d'apprentissage
+
+PAM (*Pluggable Authentication Modules*) est la couche qui décide **comment** un service authentifie et autorise un utilisateur. Au lieu que chaque programme (login, sshd, sudo) code sa propre logique, ils délèguent tous à PAM via des fichiers de configuration empilables.
+
+**Modèle mental : une pile de modules par service.**
+
+```
+/etc/pam.d/sshd
+   auth      ...  ┐
+   auth      ...  ├─ pile "auth"    : suis-je qui je prétends être ?
+   account   ...  ┤  pile "account" : ai-je le droit de me connecter ?
+   password  ...  ┤  pile "password": règles de changement de mot de passe
+   session   ...  ┘  pile "session" : préparer/clore la session
+```
+
+Chaque ligne appelle un **module** (`.so`) avec un **type** et un **contrôle**. PAM exécute la pile de haut en bas et combine les résultats.
+
+**Les quatre types** (les colonnes du tableau ci-dessous) répondent chacun à une question : `auth` (identité), `account` (validité du compte), `password` (changement de mdp), `session` (ouverture/fermeture).
+
+**Le contrôle décide quoi faire du résultat de chaque module :**
+
+| Contrôle | Comportement |
+|---|---|
+| `required` | doit réussir ; la pile continue quand même (échec discret) |
+| `requisite` | doit réussir ; **arrêt immédiat** en cas d'échec |
+| `sufficient` | succès → on s'arrête en succès |
+| `optional` | résultat ignoré sauf s'il est le seul module |
+
+**Les modules utiles à reconnaître :**
+- `pam_listfile.so` : autoriser/refuser selon une liste (bloquer `mallory`).
+- `pam_pwquality.so` : exiger longueur/complexité du mot de passe (`/etc/security/pwquality.conf`).
+- `pam_faillock.so` : verrouiller après N échecs (`pam_tally2` sur d'anciens systèmes).
+- `pam_limits.so` : applique `/etc/security/limits.conf` — voir [[q20-user-and-group-limits]].
+
+**La complexité avec `pwquality` : valeurs négatives = obligation.** `dcredit = -1` impose *au moins un chiffre* ; une valeur positive donnerait un *bonus* de longueur. Contre-intuitif, donc souvent piégé.
+
+**Pièges (sécurité critique)** :
+- Une faute dans un fichier `/etc/pam.d/` peut **verrouiller tout le monde dehors**, root compris. **Toujours garder une session root ouverte** en parallèle avant d'éditer, et tester avec `pamtester`.
+- Debian et RHEL ont des fichiers communs différents : `common-auth`/`common-password` (Debian) vs `system-auth`/`password-auth` (RHEL).
+- `pam_faillock` (RHEL 8+) remplace `pam_tally2` (déprécié) — connaître les deux.
+- L'ordre des lignes compte autant que leur contenu : `pam_listfile` doit être placé **tôt** dans la pile `auth`.
+
 ## Énoncé
 
 Solve this question on: `app-srv1`

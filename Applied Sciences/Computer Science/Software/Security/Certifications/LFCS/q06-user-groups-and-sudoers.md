@@ -1,5 +1,58 @@
 # Question 6 — User, Groups and Sudoers
 
+## Notes d'apprentissage
+
+La gestion des comptes repose sur trois fichiers et deux notions de groupe. C'est la base de la sécurité multi-utilisateurs.
+
+**Les fichiers du système de comptes :**
+
+| Fichier | Contenu | Lisible par |
+|---|---|---|
+| `/etc/passwd` | comptes : nom, UID, GID, home, shell | tous |
+| `/etc/shadow` | hashes des mots de passe + politique d'expiration | root only |
+| `/etc/group` | groupes et leurs membres | tous |
+
+Format d'une ligne `/etc/passwd` :
+```
+user1:x:1001:1001::/home/accounts/user1:/bin/bash
+  │   │  │    │   │         │              └ shell de login (/usr/sbin/nologin = pas de connexion)
+  │   │  │    │   │         └ répertoire home
+  │   │  │    │   └ GECOS (nom complet, optionnel)
+  │   │  │    └ GID = groupe PRINCIPAL
+  │   │  └ UID
+  │   └ x = mot de passe dans /etc/shadow
+  └ nom d'utilisateur
+```
+
+**Groupe principal vs groupes secondaires** — la distinction clé :
+- **Principal** (champ GID de `/etc/passwd`) : un seul, c'est le groupe propriétaire des fichiers que l'utilisateur crée. Changé avec `usermod -g`.
+- **Secondaires** (listés dans `/etc/group`) : autant qu'on veut, pour donner des droits supplémentaires. Définis avec `usermod -G` (remplace la liste) ou `usermod -aG` (**a**joute sans écraser — le `-a` est vital, l'oublier vide les autres groupes).
+
+**Les commandes (préférer aux édits manuels) :**
+```bash
+useradd -m -d /home/x -s /bin/bash -g dev -G op user2   # créer (m=créer home)
+usermod -g dev -d /home/x user1                         # modifier groupe principal + home
+usermod -aG docker user1                                # AJOUTER un groupe secondaire
+id user1 ; groups user1                                 # vérifier
+```
+Note : `adduser`/`addgroup` (Debian) sont des wrappers interactifs plus conviviaux ; `useradd`/`usermod` sont l'outillage portable et scriptable de l'examen.
+
+**sudoers : déléguer des droits root finement.** La syntaxe d'une règle :
+```
+user2  ALL=(root) NOPASSWD: /bin/bash /root/dangerous.sh
+  │     │    │       │             └ commande exacte autorisée (chemin absolu)
+  │     │    │       └ sans demander de mot de passe
+  │     │    └ peut s'exécuter en tant que (root)
+  │     └ sur quelles machines (ALL)
+  └ à qui s'applique la règle (un %nom = un groupe)
+```
+
+**Pièges** :
+- **Toujours éditer sudoers avec `visudo`**, jamais avec `vim` : `visudo` valide la syntaxe avant d'enregistrer. Une faute dans `/etc/sudoers` peut bloquer tout accès root définitivement.
+- Mieux que toucher `/etc/sudoers` : déposer un fichier dans `/etc/sudoers.d/` (`visudo -f /etc/sudoers.d/user2`).
+- `usermod -G` **sans** `-a` retire l'utilisateur de tous ses autres groupes secondaires.
+- Une règle sudoers doit pointer la commande **exactement** comme elle sera tapée (chemin absolu inclus), sinon elle ne s'applique pas.
+
 ## Énoncé
 
 Solve this question on: `app-srv1`

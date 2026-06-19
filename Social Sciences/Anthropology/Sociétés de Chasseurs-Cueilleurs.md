@@ -5,7 +5,6 @@ subdomain: "Anthropology"
 tags: [sciences-sociales, anthropologie, préhistoire, chasseurs-cueilleurs, paléolithique]
 date: "2026-04-18"
 ---
-
 # Sociétés de Chasseurs-Cueilleurs
 
 Les chasseurs-cueilleurs sont les groupes humains dont la subsistance repose sur la chasse, la peche et la cueillette de végétaux sauvages, sans agriculture ni élevage permanent. Ce mode de vie a été celui de **tous les humains pendant plus de 95 % de l'histoire de notre espèce** — de l'apparition de sapiens il y a ~300 000 ans jusqu'à la révolution agricole il y a ~10 000 ans.

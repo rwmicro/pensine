@@ -5,9 +5,7 @@ subdomain: "Anthropology"
 tags: [sciences-sociales, anthropologie]
 date: "2026-02-22"
 ---
-
 # Histoire de la Discipline
-
 
 ### Précurseurs (XVIe-XIXe)
 

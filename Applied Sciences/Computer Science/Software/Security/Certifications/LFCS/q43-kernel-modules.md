@@ -1,5 +1,39 @@
 # Question 43 — Kernel Modules
 
+## Notes d'apprentissage
+
+Le noyau Linux est *modulaire* : au lieu de tout embarquer en dur, il charge des **modules** (pilotes, systèmes de fichiers, protocoles réseau) à la demande. Cela garde le noyau léger et permet d'ajouter le support d'un matériel sans recompiler.
+
+**Modèle mental : du fichier `.ko` au noyau vivant.**
+
+```
+/lib/modules/$(uname -r)/*.ko   ──modprobe──►   noyau en cours d'exécution
+(modules disponibles sur disque)               (modules chargés, vus par lsmod)
+```
+
+Un module est un fichier `.ko` (*kernel object*). Chargé, il devient partie intégrante du noyau ; déchargé, il libère ses ressources.
+
+**`modprobe` plutôt que `insmod` — la distinction clé.** `modprobe` résout les **dépendances** automatiquement (via `modules.dep`) et travaille par nom ; `insmod`/`rmmod` sont bas niveau, exigent un chemin complet et ne gèrent aucune dépendance. Préférer **toujours** `modprobe`.
+
+```bash
+lsmod                 # modules chargés (vue de /proc/modules)
+modinfo NAME          # métadonnées + paramètres acceptés
+modprobe NAME         # charger (avec dépendances)
+modprobe -r NAME      # décharger (si non utilisé)
+```
+
+**Persistance : deux dossiers, deux rôles.**
+- `/etc/modules-load.d/*.conf` → modules à **charger au boot** (un nom par ligne).
+- `/etc/modprobe.d/*.conf` → **options**, alias, et **blacklist** (empêcher le chargement).
+
+**Blacklister n'est pas bloquer totalement.** `blacklist NAME` empêche le chargement *automatique* (par détection matérielle ou dépendance), mais un `modprobe NAME` manuel passe encore. Pour bloquer même le manuel : `install NAME /bin/false`.
+
+**Pièges** :
+- Un module déjà chargé reste actif malgré une blacklist tant qu'on ne redémarre pas (ou `modprobe -r`).
+- `modprobe -r` refuse de décharger un module **en cours d'utilisation** (compteur *used by* > 0 dans `lsmod`).
+- Si un module est intégré à l'initramfs, blacklister ne suffit pas : régénérer l'initramfs (`update-initramfs -u` / `dracut -f`).
+- Les paramètres au boot se mettent dans `/etc/modprobe.d/`, pas dans `/etc/modules-load.d/`.
+
 ## Énoncé
 
 Solve this question on: `terminal`

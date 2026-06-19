@@ -56,14 +56,14 @@ Souvent négligés au profit des macronutriments, les micronutriments (vitamines
 
 **Vitamines B (B1, B2, B3, B6, B12, Folates)**
 
-| Vitamine | Rôle sportif | Sources principales |
-|---|---|---|
-| B1 (Thiamine) | Métabolisme glucides, énergie | Céréales complètes, légumineuses |
-| B2 (Riboflavine) | Chaîne respiratoire, FAD/FMN | Produits laitiers, viande, œufs |
-| B3 (Niacine) | Synthèse NAD+, glycolyse | Viande, poisson, arachides |
-| B6 (Pyridoxine) | Métabolisme protéines, hémoglobine | Viande, banane, pomme de terre |
-| B12 (Cobalamine) | Hématies, myéline, énergie | Viandes, poissons, œufs (**végans : supplémenter**) |
-| Folates (B9) | Synthèse ADN, hématies | Légumes verts, légumineuses, foie |
+| Vitamine         | Rôle sportif                       | Sources principales                                 |
+| ---------------- | ---------------------------------- | --------------------------------------------------- |
+| B1 (Thiamine)    | Métabolisme glucides, énergie      | Céréales complètes, légumineuses                    |
+| B2 (Riboflavine) | Chaîne respiratoire, FAD/FMN       | Produits laitiers, viande, œufs                     |
+| B3 (Niacine)     | Synthèse NAD+, glycolyse           | Viande, poisson, arachides                          |
+| B6 (Pyridoxine)  | Métabolisme protéines, hémoglobine | Viande, banane, pomme de terre                      |
+| B12 (Cobalamine) | Hématies, myéline, énergie         | Viandes, poissons, œufs (**végans : supplémenter**) |
+| Folates (B9)     | Synthèse ADN, hématies             | Légumes verts, légumineuses, foie                   |
 
 **Vitamine C**
 - **Rôle** : synthèse collagène (tendons, ligaments), antioxydant, absorption fer

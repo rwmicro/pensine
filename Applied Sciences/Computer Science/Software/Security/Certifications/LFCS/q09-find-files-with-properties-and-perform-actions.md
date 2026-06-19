@@ -1,5 +1,47 @@
 # Question 9 — Find files with properties and perform actions
 
+## Notes d'apprentissage
+
+`find` est l'un des outils les plus puissants d'Unix : il parcourt une arborescence, **filtre** par critères, puis **agit** sur chaque résultat. Le maîtriser fait gagner un temps énorme à l'examen comme en production.
+
+**Modèle mental : `find [où] [critères] [action]`.**
+
+```bash
+find /var/backup  -type f -size +10k  -exec mv {} ./large \;
+     └─ où ────┘  └──── critères ───┘ └──── action ─────┘
+```
+
+Les critères s'enchaînent par un **ET implicite** : un fichier doit satisfaire tous les tests pour être retenu. `!` ou `-not` inverse un test ; `-o` est le OU.
+
+**Les critères fréquents :**
+
+| Critère | Signification |
+|---|---|
+| `-type f` / `-type d` | fichier / répertoire |
+| `-size +10k` / `-size -3k` | plus grand / plus petit que (k=Kio, M=Mio) |
+| `-perm 777` | permissions **exactement** 777 (`-perm -777` = au moins ces bits) |
+| `-name "*.log"` | nom (avec motif glob) |
+| `-mtime +30` | modifié il y a plus de 30 jours |
+| `! -newermt "01/01/2020"` | **pas** plus récent qu'une date = plus ancien |
+| `-maxdepth 1` | ne pas descendre dans les sous-dossiers |
+
+**Le `+` et le `-` devant les nombres** sont la source d'erreur classique : `+10k` = strictement plus grand, `-3k` = strictement plus petit, `10k` = exactement. Idem pour `-mtime`/`-perm`.
+
+**Deux formes d'`-exec` :**
+```bash
+find ... -exec rm {} \;     # lance la commande UNE FOIS PAR fichier  ({} = le fichier)
+find ... -exec rm {} +      # regroupe : UN SEUL appel avec tous les fichiers (plus rapide)
+```
+Le `\;` (point-virgule échappé) termine la commande dans la première forme.
+
+**Réflexe de sécurité : tester avant d'agir.** Lancer d'abord le `find` **sans** `-exec` (ou avec `-exec echo {} \;`) pour voir ce qui sera touché, vérifier le nombre avec `| wc -l`, puis seulement ajouter `rm`/`mv`. Une fois la suppression faite, c'est irréversible.
+
+**Pièges** :
+- `-maxdepth` doit venir **avant** les autres tests, sinon `find` avertit.
+- `-perm 777` (exact) ≠ `-perm -777` (contient au moins ces bits) ≠ `-perm /777` (au moins un de ces bits).
+- Les noms de fichiers avec espaces cassent les pipes ; `-exec` (qui ne passe pas par le shell) les gère correctement, contrairement à `... | xargs`.
+- `find ! -newermt "DATE"` cible les fichiers **plus anciens** que la date — relire l'énoncé pour le sens.
+
 ## Énoncé
 
 Solve this question on: `data-001`

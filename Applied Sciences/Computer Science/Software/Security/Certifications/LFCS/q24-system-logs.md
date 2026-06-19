@@ -1,5 +1,50 @@
 # Question 24 — System Logs
 
+## Notes d'apprentissage
+
+Sur un système systemd, le journal centralisé est tenu par **journald**. `journalctl` est l'outil pour l'interroger. Comprendre où vivent les logs et comment les filtrer est indispensable au diagnostic.
+
+**Modèle mental : journald, un journal binaire indexé.**
+
+```
+services, noyau, auth... ──► systemd-journald ──► journal binaire
+                                                   │
+                              journalctl ──────────┘  (filtrer, formater)
+```
+
+Contrairement aux vieux fichiers texte de `/var/log`, le journal est **binaire et structuré** : chaque entrée porte des métadonnées (unit, priorité, PID, boot…) qu'on peut filtrer précisément.
+
+**La grande question : volatile ou persistant ?** Par défaut, si `/var/log/journal/` n'existe pas, journald écrit dans `/run/log/journal/` — en **RAM**, donc **perdu au reboot**. Pour conserver les logs entre redémarrages :
+
+```
+Storage=volatile   → /run  (RAM, perdu au reboot)
+Storage=persistent → /var/log/journal/  (disque, conservé)   ◄── à configurer
+Storage=auto       → persistant SI le dossier /var/log/journal existe
+```
+
+On crée donc `/var/log/journal/` (ou on met `Storage=persistent` dans `/etc/systemd/journald.conf`) puis on redémarre journald. C'est le cœur de l'exercice.
+
+**Filtrer avec `journalctl` — les axes clés :**
+```bash
+journalctl -u nginx.service     # par unit
+journalctl -b / -b -1           # ce boot / le boot précédent
+journalctl -k                   # messages du noyau (= dmesg)
+journalctl -p err               # priorité ≤ erreur
+journalctl --since "2024-01-01" # par date
+journalctl -f                   # suivre en direct (tail -f)
+```
+Ces filtres se combinent (`-k -p err --since ...`).
+
+**Maîtriser la taille** : le journal peut grossir indéfiniment. `SystemMaxUse=200M` dans la conf, ou `journalctl --vacuum-size=200M` pour purger immédiatement.
+
+**Les fichiers texte coexistent encore** (via `rsyslog`) : `/var/log/syslog` (Debian) ou `/var/log/messages` (RHEL), `/var/log/auth.log` / `/var/log/secure` pour l'authentification. La **rotation** est gérée par `logrotate` (`/etc/logrotate.d/`).
+
+**Pièges** :
+- Sans `/var/log/journal/`, les logs disparaissent au reboot — vérifier `journalctl --disk-usage` et le réglage `Storage`.
+- Après modif de `journald.conf` : `systemctl restart systemd-journald`.
+- Noms de fichiers de log différents Debian/RHEL — voir [[q45-rhel-vs-debian-equivalents]].
+- `-b 0` = boot courant, `-b -1` = précédent : utile pour analyser un crash après redémarrage.
+
 ## Énoncé
 
 Solve this question on: `web-srv1`

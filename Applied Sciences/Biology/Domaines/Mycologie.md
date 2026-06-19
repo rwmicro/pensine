@@ -5,7 +5,6 @@ subdomain: "Biology > Domaines"
 tags: [sciences-appliquées, biologie, champignons, fungi, mycorhizes]
 date: "2026-02-22"
 ---
-
 # Mycologie
 
 La mycologie est l'étude des **champignons**. Longtemps classés à tort parmi les plantes, ils forment un **règne biologique à part** (Fungi), plus proche évolutivement des animaux que des végétaux — nous partageons un ancêtre commun avec eux il y a environ 1 milliard d'années. On estime à 2-4 millions le nombre d'espèces fongiques, dont seulement ~150 000 sont décrites.

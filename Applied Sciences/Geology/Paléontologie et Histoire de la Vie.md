@@ -36,15 +36,15 @@ flowchart LR
 
 ## Types de fossilisation
 
-| Type | Processus | Exemple emblématique |
-|---|---|---|
-| **Permineralisation** | Les minéraux dissous remplissent les pores | Bois pétrifié (Petrified Forest, Arizona) |
-| **Remplacement** | Le matériau original est dissous puis remplacé minéral par minéral | Pyritisation des ammonites, silicification |
-| **Moule et contre-moule** | Empreinte externe ou interne après dissolution de l'organisme | Coquillages dans le calcaire |
-| **Carbonisation** | Compression qui laisse un film de carbone | Empreintes de feuilles, fossiles de Burgess Shale |
-| **Inclusion** | Piégeage dans un milieu inerte | Insectes dans l'ambre, mammouths dans le permafrost sibérien |
-| **Ichnofossiles** | Traces, terriers, empreintes de pas, coprolithes (excréments fossilisés) | Pistes de dinosaures, terriers de vers |
-| **Biomarqueurs** | Molécules organiques résiduelles | Stéranes dans les schistes (preuves de vie il y a 1,6 Ga) |
+| Type                      | Processus                                                                | Exemple emblématique                                         |
+| ------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Permineralisation**     | Les minéraux dissous remplissent les pores                               | Bois pétrifié (Petrified Forest, Arizona)                    |
+| **Remplacement**          | Le matériau original est dissous puis remplacé minéral par minéral       | Pyritisation des ammonites, silicification                   |
+| **Moule et contre-moule** | Empreinte externe ou interne après dissolution de l'organisme            | Coquillages dans le calcaire                                 |
+| **Carbonisation**         | Compression qui laisse un film de carbone                                | Empreintes de feuilles, fossiles de Burgess Shale            |
+| **Inclusion**             | Piégeage dans un milieu inerte                                           | Insectes dans l'ambre, mammouths dans le permafrost sibérien |
+| **Ichnofossiles**         | Traces, terriers, empreintes de pas, coprolithes (excréments fossilisés) | Pistes de dinosaures, terriers de vers                       |
+| **Biomarqueurs**          | Molécules organiques résiduelles                                         | Stéranes dans les schistes (preuves de vie il y a 1,6 Ga)    |
 
 ## Gisements exceptionnels — les « Lagerstätten »
 

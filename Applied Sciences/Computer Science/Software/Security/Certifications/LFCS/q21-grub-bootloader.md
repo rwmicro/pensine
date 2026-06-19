@@ -1,5 +1,38 @@
 # Question 21 — GRUB and Bootloader
 
+## Notes d'apprentissage
+
+GRUB est le *bootloader* : le premier programme que le firmware charge, dont le rôle est de trouver un noyau, lui passer des paramètres, et lui donner la main. Comprendre cette chaîne permet de réparer une machine qui ne démarre plus.
+
+**Modèle mental : la séquence de démarrage.**
+
+```
+firmware (BIOS/UEFI) ──► GRUB ──► noyau Linux + initramfs ──► systemd (PID 1) ──► services
+                          │           │
+                          │           └ reçoit la "kernel command line" (cmdline)
+                          └ lit /boot/grub/grub.cfg, affiche le menu
+```
+
+**Le piège central : on n'édite JAMAIS `grub.cfg` à la main.** Ce fichier (`/boot/grub/grub.cfg`) est *généré*. La configuration se fait dans `/etc/default/grub`, puis on **régénère** :
+
+```
+/etc/default/grub  ──[ update-grub / grub-mkconfig ]──►  /boot/grub/grub.cfg
+(ce qu'on édite)                                          (ce qui est lu au boot)
+```
+
+Oublier la régénération = les changements n'ont aucun effet au prochain démarrage. C'est l'erreur la plus fréquente.
+
+**`GRUB_CMDLINE_LINUX` vs `GRUB_CMDLINE_LINUX_DEFAULT`** : le premier s'applique à **toutes** les entrées (y compris le mode rescue), le second seulement aux entrées normales. Choisir le bon selon que le paramètre doit valoir aussi en mode secours.
+
+**La kernel command line en lecture seule** : `/proc/cmdline` montre les paramètres avec lesquels le noyau actuel a réellement démarré — utile pour vérifier.
+
+**Pourquoi c'est vital en pratique** : éditer une entrée au menu GRUB (touche `e`) permet d'ajouter `single`, `systemd.unit=rescue.target` ou `init=/bin/bash` pour reprendre la main sur un système cassé ou dont on a perdu le mot de passe root. C'est l'outil de dépannage ultime — et donc aussi un point de sécurité physique (protéger GRUB par mot de passe).
+
+**Pièges** :
+- Pas de régénération (`update-grub`) après édition = aucun effet.
+- Les chemins diffèrent : `/boot/grub/grub.cfg` (Debian) vs `/boot/grub2/grub.cfg` (RHEL BIOS) vs `/boot/efi/...` (UEFI). Voir [[q45-rhel-vs-debian-equivalents]].
+- `grub-install` réinstalle le bootloader sur le disque ; à ne pas confondre avec la régénération de la config.
+
 ## Énoncé
 
 Solve this question on: `terminal`

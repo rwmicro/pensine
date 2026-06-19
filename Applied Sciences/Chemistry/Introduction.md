@@ -5,7 +5,6 @@ subdomain: "Chemistry"
 tags: [sciences-appliquées, chimie, atome, molécule, réactions, tableau-périodique]
 date: "2026-04-18"
 ---
-
 # Introduction à la Chimie
 
 La **chimie** est la science de la matière — elle étudie de quoi les choses sont faites, comment elles se transforment et pourquoi. Située à l'interface entre la physique (qui étudie les lois fondamentales) et la biologie (qui étudie le vivant), la chimie est souvent appelée la "science centrale" car presque toutes les autres sciences en dépendent.

@@ -1,5 +1,47 @@
 # Question 23 — Process Management
 
+## Notes d'apprentissage
+
+Un processus est un programme en cours d'exécution, identifié par un **PID**. L'administrateur doit savoir les retrouver, ajuster leur priorité, et leur envoyer des signaux.
+
+**Modèle mental : trouver → prioriser → signaler.**
+
+**1. Retrouver un processus.** Plusieurs angles d'attaque selon ce qu'on connaît :
+```bash
+ps aux                    # photo de tous les processus
+pgrep -u bob sleep        # PID par nom + utilisateur
+ss -tlnp | grep :8080     # quel processus écoute sur un port
+lsof -i :8080             # idem, autre outil
+```
+Relier un **port** à un **PID** (`ss -tlnp`) est un grand classique d'examen et de diagnostic réseau.
+
+**2. Prioriser : la niceness.** Le *nice* règle la part de CPU qu'un processus accepte de céder.
+```
+-20 ◄──────────── priorité ────────────► +19
+plus prioritaire        (0 = défaut)     plus "gentil" (cède le CPU)
+```
+Seul **root** peut *baisser* la valeur (rendre plus prioritaire). `nice` lance un processus avec une priorité, `renice` change celle d'un processus déjà en cours sans le tuer.
+
+**3. Signaler.** Un signal est un message asynchrone envoyé à un processus :
+
+| Signal | N° | Effet |
+|---|---|---|
+| `SIGHUP` | 1 | souvent « recharge ta config » |
+| `SIGINT` | 2 | Ctrl+C |
+| `SIGTERM` | 15 | arrêt **propre** (défaut de `kill`) |
+| `SIGKILL` | 9 | tue sans recours (non interceptable) |
+| `SIGSTOP`/`SIGCONT` | — | suspendre / reprendre |
+
+Réflexe : toujours `SIGTERM` d'abord (laisse le processus se fermer proprement), `SIGKILL` seulement s'il résiste.
+
+**Job control (premier/arrière-plan)** : `&` lance en arrière-plan, `jobs`/`fg`/`bg` gèrent les tâches du shell, `nohup`/`disown` les détachent pour survivre à la fermeture du terminal.
+
+**Pièges** :
+- `kill -9` (SIGKILL) ne laisse aucune chance au processus de nettoyer (fichiers temporaires, verrous) — dernier recours.
+- `renice` vers une valeur négative exige root ; un utilisateur ne peut qu'augmenter sa niceness (jamais la diminuer).
+- Tuer un processus supervisé (systemd) le fait **redémarrer** — voir [[q22-systemd-targets-and-services]] ; agir sur l'unit plutôt que sur le PID.
+- `pkill`/`killall` ciblent par nom : attention à ne pas en attraper plus que prévu (filtrer par `-u utilisateur`).
+
 ## Énoncé
 
 Solve this question on: `app-srv1`

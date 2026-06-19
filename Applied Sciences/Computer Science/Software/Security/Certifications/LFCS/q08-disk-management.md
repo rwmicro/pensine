@@ -1,5 +1,55 @@
 # Question 8 — Disk Management
 
+## Notes d'apprentissage
+
+Cet exercice mélange trois compétences distinctes : préparer un disque, lire l'occupation disque, et relier un processus au disque qui porte son exécutable. Le fil conducteur est le **chemin du périphérique au point de montage**.
+
+**Modèle mental : du bloc au répertoire.**
+
+```
+disque brut        partition/      système de        point de
+/dev/vdb     ──►   formatage    ──► fichiers     ──►  montage
+                   mkfs.ext4        (ext4, xfs...)    /mnt/backup-black
+```
+
+Un disque (`/dev/vdb`) n'est qu'un tableau d'octets. Pour y stocker des fichiers, il faut un **système de fichiers** (`mkfs.ext4`), puis le **monter** dans l'arborescence (`mount`). Tant qu'il n'est pas monté, son contenu est inaccessible.
+
+**Inventaire des disques :**
+```bash
+lsblk                 # arbre clair : disques, partitions, points de montage, tailles
+sudo fdisk -l         # détails bas niveau (secteurs, table de partition)
+blkid                 # UUID et type de système de fichiers de chaque périphérique
+```
+
+**Formater et monter :**
+```bash
+sudo mkfs.ext4 /dev/vdb                     # créer un système de fichiers ext4
+sudo mkdir -p /mnt/backup-black             # le point de montage doit exister
+sudo mount /dev/vdb /mnt/backup-black       # monter (temporaire, perdu au reboot)
+mount | grep vdb                            # vérifier
+```
+Pour un montage **persistant**, ajouter une ligne dans `/etc/fstab` (de préférence via l'UUID, pas le nom `/dev/vdX` qui peut changer).
+
+**Mesurer l'occupation — deux outils à ne pas confondre :**
+```bash
+df -h /point/de/montage    # espace LIBRE/utilisé d'un système de fichiers MONTÉ (disk free)
+du -sh /chemin             # taille RÉELLE d'un dossier en parcourant son contenu (disk usage)
+```
+`df` répond « combien reste-t-il sur ce disque » ; `du` répond « combien pèse ce dossier ».
+
+**Relier un processus à son disque** (étape 3) :
+```bash
+ps aux --sort=-%mem | head        # processus triés par mémoire décroissante
+ls -l /proc/<PID>/exe             # lien vers l'exécutable réel du processus
+df /proc/<PID>/exe                # sur quel système de fichiers il se trouve
+```
+On ne peut **démonter** (`umount`) un disque que si aucun fichier ouvert ne s'y trouve. `lsof /mnt/x` ou `fuser -m /mnt/x` listent ce qui bloque le démontage.
+
+**Pièges** :
+- `umount` échoue avec *target is busy* si un processus a un fichier ouvert dessus (y compris un shell positionné dans le dossier — sortir d'abord avec `cd`).
+- Formater **efface tout** : vérifier le bon `/dev/vdX` avant `mkfs`.
+- Un montage `mount` sans `/etc/fstab` ne survit pas au redémarrage.
+
 ## Énoncé
 
 Solve this question on: `terminal`

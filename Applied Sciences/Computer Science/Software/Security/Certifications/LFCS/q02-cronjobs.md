@@ -1,5 +1,42 @@
 # Question 2 — CronJobs
 
+## Notes d'apprentissage
+
+`cron` est le planificateur de tâches historique d'Unix : un démon qui réveille des commandes à des dates récurrentes. Le point clé de l'examen est de distinguer **deux mondes de crontabs** qui n'ont pas le même format.
+
+**Modèle mental : crontab système vs crontab utilisateur.**
+
+| | Crontab système | Crontab utilisateur |
+|---|---|---|
+| Emplacement | `/etc/crontab`, `/etc/cron.d/*` | `/var/spool/cron/crontabs/<user>` |
+| Édition | éditer le fichier directement | `crontab -e` (jamais à la main) |
+| Format | a un **champ utilisateur** en plus | **pas** de champ utilisateur |
+| Exécuté en tant que | l'utilisateur nommé dans la ligne | le propriétaire de la crontab |
+
+C'est toute la subtilité de cet exercice : déplacer un job de `/etc/crontab` vers `crontab -e` impose de **retirer le champ utilisateur**, sinon cron interprète le nom d'utilisateur comme le début de la commande et le job échoue.
+
+**Les cinq champs de temps** (mémoriser l'ordre est indispensable) :
+
+```
+┌── minute (0-59)
+│ ┌── heure (0-23)
+│ │ ┌── jour du mois (1-31)
+│ │ │ ┌── mois (1-12)
+│ │ │ │ ┌── jour de la semaine (0-6, dimanche=0 ou 7)
+│ │ │ │ │
+* * * * *  commande
+```
+
+`15 11 * * 1,4` = à 11h15, les lundis (1) et jeudis (4). On peut écrire `1,4` ou `mon,thu`.
+
+**Pourquoi `crontab -e` plutôt qu'éditer le fichier ?** `crontab -e` valide la syntaxe avant d'enregistrer et place le fichier au bon endroit avec les bons droits. Éditer `/var/spool/cron/crontabs/` à la main contourne cette sécurité.
+
+**Pièges** :
+- Pas de champ utilisateur dans une crontab utilisateur (l'erreur la plus fréquente de l'examen).
+- `cron` utilise un `PATH` minimal — toujours mettre des **chemins absolus** dans les commandes.
+- La sortie d'un job est envoyée par mail au propriétaire ; rediriger avec `>> /var/log/x.log 2>&1` pour la conserver (voir [[q14-output-redirection]]).
+- Pour des tâches liées au démarrage ou tolérantes au temps machine éteint, `systemd timers` est l'alternative moderne (voir [[q22-systemd-targets-and-services]]).
+
 ## Énoncé
 
 Solve this question on: `data-001`
@@ -150,8 +187,9 @@ asset-manager@data-001:~$ crontab -l
 ```
 
 For guidance check the comments in `/etc/crontab`, they're really useful. Instead of numbers for the days we can also use the actual names of days:
-
+```bash
 15 11 * * mon,thu bash /home/asset-manager/clean.sh   # also possible
+```
 
 The files for user crontabs are stored at location `/var/spool/cron/crontabs` and user root can access those.
 

@@ -1,5 +1,41 @@
 # Question 32 — Bonding and Bridges
 
+## Notes d'apprentissage
+
+Bonding et bridge combinent des interfaces réseau, mais dans des buts **opposés** : l'un pour la robustesse/débit, l'autre pour connecter des machines virtuelles. Ne pas les confondre est l'essentiel.
+
+**Modèle mental : agréger vs commuter.**
+
+```
+BOND (agrégation)                         BRIDGE (commutateur logiciel)
+eth1 ┐                                    eth3 ──┐
+     ├──► bond0 (1 IP)                           ├── br0 (switch virtuel)
+eth2 ┘   plusieurs liens physiques        VM1 ───┤        + IP
+         vus comme un seul                VM2 ───┘
+   → tolérance de panne / débit              → relie VM et physique sur le même L2
+```
+
+- **Bond** : plusieurs cartes physiques fusionnées en une interface logique pour la **redondance** (si un câble lâche, l'autre prend le relais) ou le **débit** cumulé.
+- **Bridge** : un commutateur Ethernet logiciel ; on y attache des interfaces (physiques et virtuelles) qui se retrouvent sur le **même segment réseau**. C'est le mécanisme standard pour brancher des VM (KVM, voir [[q38-kvm-virtualization]]).
+
+**Les modes de bonding** — le seul vraiment à retenir est `active-backup` :
+
+| Mode | Nom | Idée |
+|---|---|---|
+| 1 | `active-backup` | un lien actif, les autres en secours — **le plus fiable, sans config switch** |
+| 0 | `balance-rr` | round-robin (débit, mais peut désordonner) |
+| 4 | `802.3ad` | LACP — exige un switch compatible configuré |
+
+`active-backup` ne demande **aucune configuration côté switch**, d'où sa popularité pour la simple tolérance de panne. Les modes d'agrégation de débit (`802.3ad`) exigent un switch coopérant.
+
+**Le paramètre `miimon`** (ex. `miimon=100`) définit la fréquence (ms) de surveillance de l'état physique des liens — c'est lui qui détecte la coupure et bascule.
+
+**Pièges** :
+- Confondre bond (redondance/débit) et bridge (connecter des VM) est l'erreur conceptuelle classique.
+- `802.3ad` ne fonctionne que si le switch est configuré en LACP des deux côtés.
+- Les interfaces esclaves d'un bond/bridge ne portent **pas** d'IP propre : l'IP est sur `bond0`/`br0`.
+- Avec `nmcli`, il faut créer la maîtresse (`bond0`/`br0`) **puis** rattacher chaque esclave avec `master`, et activer toutes les connexions.
+
 ## Énoncé
 
 Solve this question on: `data-002`

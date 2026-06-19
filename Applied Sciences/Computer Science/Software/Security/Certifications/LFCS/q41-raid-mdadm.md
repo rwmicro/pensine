@@ -1,5 +1,45 @@
 # Question 41 — Software RAID with mdadm
 
+## Notes d'apprentissage
+
+Le RAID combine plusieurs disques en un seul volume logique pour la **redondance** (survivre à une panne disque) et/ou la **performance**. `mdadm` gère le RAID *logiciel* du noyau Linux, sans carte matérielle dédiée.
+
+**Modèle mental : les niveaux de RAID = un compromis capacité / vitesse / tolérance.**
+
+| Niveau | Disques min | Capacité utile | Tolérance | Idée |
+|---|---|---|---|---|
+| **0** (stripe) | 2 | 100 % | aucune | vitesse pure, **risqué** |
+| **1** (mirror) | 2 | 50 % | 1 disque | copie identique, **sûr** |
+| **5** (parité) | 3 | (N-1)/N | 1 disque | bon compromis |
+| **6** (double parité) | 4 | (N-2)/N | 2 disques | sécurité accrue |
+| **10** (1+0) | 4 | 50 % | selon | miroir + stripe |
+
+RAID-1 (cet exercice) écrit la même chose sur deux disques : si l'un meurt, l'autre continue, sans interruption.
+
+**Le cycle de vie d'un array :**
+```bash
+mdadm --create /dev/md0 --level=1 --raid-devices=2 /dev/vdd /dev/vde   # créer
+cat /proc/mdstat                          # état + reconstruction en cours
+mdadm --detail /dev/md0                   # détails complets
+mdadm --fail /dev/md0 /dev/vdd            # simuler une panne
+mdadm --remove /dev/md0 /dev/vdd          # retirer le disque mort
+mdadm --add /dev/md0 /dev/vdf             # ajouter le remplaçant → resync auto
+```
+`/proc/mdstat` est le tableau de bord : il montre l'état de chaque disque et la progression de la reconstruction (*resync*) après remplacement.
+
+**Persistance : le fichier de conf + l'initramfs.** Pour que l'array se réassemble au boot :
+```bash
+mdadm --detail --scan | sudo tee -a /etc/mdadm/mdadm.conf   # (/etc/mdadm.conf sur RHEL)
+sudo update-initramfs -u                                    # (dracut -f sur RHEL)
+```
+Puis monter le `/dev/md0` via `/etc/fstab` (formaté en xfs/ext4).
+
+**Pièges** :
+- RAID **n'est pas une sauvegarde** : il protège du crash matériel, pas de la suppression accidentelle ni du ransomware.
+- Oublier d'enregistrer l'array dans `mdadm.conf` + l'initramfs = il peut ne pas se remonter au boot (ou changer de nom `/dev/md127`).
+- Après `--add`, la resynchronisation prend du temps ; l'array est dégradé tant qu'elle n'est pas finie.
+- XFS ne rétrécit pas (voir [[q18-lvm-storage]]) ; LVM par-dessus RAID est une combinaison fréquente.
+
 ## Énoncé
 
 Solve this question on: `terminal`

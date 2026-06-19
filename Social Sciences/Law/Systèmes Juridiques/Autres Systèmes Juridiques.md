@@ -5,7 +5,6 @@ subdomain: "Law > Systèmes Juridiques"
 tags: [sciences-sociales, droit, droit-coutumier, droit-socialiste, systèmes-mixtes, pluralisme-juridique]
 date: "2026-04-18"
 ---
-
 # Autres Systèmes Juridiques
 
 Au-delà de la common law, du droit romano-germanique et du droit musulman, d'autres traditions juridiques structurent des sociétés entières. Souvent méconnus, le droit coutumier, le droit socialiste et les systèmes mixtes illustrent la diversité des manières dont les sociétés humaines organisent leurs règles de vie collective.

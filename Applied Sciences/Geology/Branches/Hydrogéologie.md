@@ -28,11 +28,11 @@ Un aquifère est une formation géologique capable de stocker et de transmettre 
 
 ### Types d'aquifères
 
-| Type | Structure | Caractéristiques |
-|---|---|---|
-| **Nappe libre (phréatique)** | Pas de couche imperméable au-dessus. La surface de la nappe fluctue avec les saisons | Facile d'accès (puits peu profonds), mais vulnérable à la pollution de surface |
-| **Nappe captive (confinée)** | Coincée entre deux couches imperméables (aquitards). L'eau est sous pression | Protégée de la pollution de surface, mais recharge lente. Peut jaillir spontanément (puits artésien) si la pression est suffisante |
-| **Nappe semi-captive** | Limitée par une couche semi-perméable (aquitard) qui permet une circulation lente | Intermédiaire entre libre et captive |
+| Type                         | Structure                                                                            | Caractéristiques                                                                                                                   |
+| ---------------------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
+| **Nappe libre (phréatique)** | Pas de couche imperméable au-dessus. La surface de la nappe fluctue avec les saisons | Facile d'accès (puits peu profonds), mais vulnérable à la pollution de surface                                                     |
+| **Nappe captive (confinée)** | Coincée entre deux couches imperméables (aquitards). L'eau est sous pression         | Protégée de la pollution de surface, mais recharge lente. Peut jaillir spontanément (puits artésien) si la pression est suffisante |
+| **Nappe semi-captive**       | Limitée par une couche semi-perméable (aquitard) qui permet une circulation lente    | Intermédiaire entre libre et captive                                                                                               |
 
 ### Propriétés hydrauliques
 

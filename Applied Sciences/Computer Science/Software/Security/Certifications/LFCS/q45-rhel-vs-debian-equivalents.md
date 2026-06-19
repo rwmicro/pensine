@@ -1,5 +1,42 @@
 # Question 45 — RHEL vs Debian Equivalents
 
+## Notes d'apprentissage
+
+L'examen LFCS laisse **choisir la distribution**. La plupart des notes ici utilisent l'outillage Debian/Ubuntu ; sur la famille RHEL (Rocky, AlmaLinux, Fedora…), plusieurs outils centraux diffèrent. Cette note est la carte de correspondance — savoir traduire une question d'une famille à l'autre.
+
+**Modèle mental : ce qui change vs ce qui est identique.**
+
+```
+IDENTIQUE partout (systemd) :  systemctl  journalctl  ip  ss  sysctl  LVM  mdadm  nmcli
+DIFFÉRENT selon la famille  :  paquets · pare-feu · synchro temps · MAC · réseau
+```
+
+Bonne nouvelle : tout ce qui repose sur systemd et le noyau est **commun**. Les différences se concentrent sur quelques sous-systèmes — c'est là qu'il faut connaître les deux.
+
+**Les correspondances à mémoriser :**
+
+| Domaine | Debian/Ubuntu | RHEL/Fedora |
+|---|---|---|
+| Paquets | `apt` / `dpkg` | `dnf` / `rpm` |
+| Pare-feu (façade) | `ufw` / `iptables` | `firewalld` (`firewall-cmd`) |
+| Filtrage (backend) | `nftables` / `iptables` | `nftables` / `iptables-nft` |
+| Synchro temps | `systemd-timesyncd` | `chronyd` (`chronyc`) |
+| MAC | AppArmor (`aa-status`) | SELinux (`getenforce`) |
+| Réseau | `netplan` / `ifupdown` | NetworkManager (`nmcli`) |
+| initramfs | `update-initramfs -u` | `dracut -f` |
+
+**Trois pièges de traduction les plus fréquents :**
+
+1. **`firewalld` ≠ iptables direct.** Il est *zone-based* : `--permanent` écrit la config mais n'agit qu'après `--reload`. Sans `--permanent`, la règle est *runtime* (perdue au reload/reboot). `--runtime-to-permanent` fige ce qu'on a testé à chaud.
+
+2. **`chrony` au lieu de `timesyncd`** (voir [[q03-time-synchronisation-configuration]]) : conf dans `/etc/chrony.conf`, `iburst` accélère la sync initiale, diagnostic avec `chronyc sources`/`tracking`. `timedatectl` reste commun aux deux.
+
+3. **`nftables` remplace `iptables`** (voir [[q07-network-packet-filtering]]) : syntaxe unifiée table/chaîne, commande `nft`. Sur les systèmes récents, `iptables` est souvent un *shim* `iptables-nft` qui traduit vers nftables — les vieilles règles marchent encore.
+
+**Le pont portable : `nmcli`.** NetworkManager est disponible sur les **deux** familles : c'est la façon la plus universelle de configurer le réseau de manière persistante (voir [[q31-network-configuration]]).
+
+**Stratégie d'examen** : choisir la distribution qu'on maîtrise le mieux, mais savoir reconnaître quand une question suppose implicitement l'autre famille (chemins, noms de services).
+
 ## Énoncé
 
 Solve this question on: `data-001` (RHEL family)

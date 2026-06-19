@@ -1,5 +1,42 @@
 # Question 36 — HTTP Proxy
 
+## Notes d'apprentissage
+
+Squid est un proxy HTTP : un intermédiaire par lequel passent les requêtes web des clients. Il filtre, met en cache et journalise les accès. Comprendre le sens du flux et la logique des ACL est l'essentiel.
+
+**Modèle mental : forward proxy vs reverse proxy.**
+
+```
+forward proxy (Squid ici) :  clients du LAN ──► Squid ──► Internet
+                             (contrôle la sortie des utilisateurs)
+
+reverse proxy (nginx q16) :  Internet ──► proxy ──► serveurs internes
+                             (protège/répartit l'entrée)
+```
+
+Un **forward proxy** se place devant les *clients* : il contrôle et filtre ce que les utilisateurs du réseau peuvent atteindre. C'est l'inverse du reverse proxy de [[q16-loadbalancer]] qui protège des *serveurs*.
+
+**La logique de Squid : ACL + règles `http_access`.** On définit d'abord des ensembles nommés (ACL), puis on autorise/refuse dans l'ordre :
+```squid
+acl lan_clients src 192.168.50.0/24        # définir un ensemble
+acl bad_sites dstdomain .example.com
+http_access deny bad_sites                  # refuser
+http_access allow lan_clients               # autoriser
+http_access deny all                        # tout le reste refusé
+```
+
+**L'ordre des `http_access` est décisif** — comme pour iptables, Squid évalue de haut en bas et **la première règle qui correspond gagne**. Une règle `deny` doit donc venir avant le `allow` correspondant, et un `deny all` final ferme tout ce qui n'a pas été explicitement autorisé.
+
+**Types d'ACL utiles** : `src` (IP source), `dstdomain` (domaine destination, le `.` initial = sous-domaines inclus), `port`, `proto`, `proxy_auth` (authentification).
+
+**Authentification** : Squid délègue à un *helper* (ex. `basic_ncsa_auth` + fichier `htpasswd`), activé via `auth_param` puis une ACL `proxy_auth`.
+
+**Pièges** :
+- L'ordre des `http_access` prime : un `allow` placé avant un `deny` rend ce dernier inutile.
+- Toujours terminer par `http_access deny all` (politique fermée par défaut).
+- Le `.` devant un domaine (`.example.com`) inclut les sous-domaines ; sans lui, seul le domaine exact correspond.
+- Après modification : `squid -k parse` (vérifier) puis `squid -k reconfigure` ou `systemctl reload squid`.
+
 ## Énoncé
 
 Solve this question on: `web-srv1`

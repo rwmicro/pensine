@@ -65,7 +65,7 @@ Le javanais a trois niveaux de politesse :
 |  Mangan  |   Makan    |   Manger   |
 |   Turu   |   Tidur    |   Dormir   |
 |  Lunga   |   Pergi    |   Partir   |
-|  Mulih   |   Pulang   |  Rentrer   |
+|  Mulih   |   Pulang   | Rentrer in |
 |  Kerja   |  Bekerja   | Travailler |
 |  Sinau   |  Belajar   |  Étudier   |
 |   Adus   |   Mandi    | Se doucher |

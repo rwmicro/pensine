@@ -1,5 +1,40 @@
 # Question 35 — Database Server
 
+## Notes d'apprentissage
+
+Installer et sécuriser un SGBD (MariaDB/MySQL) est un classique de l'administration. L'exercice couvre le cycle complet : installer, durcir, créer une base/utilisateur avec droits minimaux, exposer sur le réseau, sauvegarder.
+
+**Modèle mental : deux niveaux d'authentification.**
+
+```
+réseau ──► (1) le serveur écoute-t-il sur cette interface ?  (bind-address)
+       ──► (2) cet utilisateur@hôte a-t-il le droit ?         (GRANT)
+```
+
+Se connecter à distance suppose **les deux** : le serveur doit écouter sur la bonne interface (`bind-address`, par défaut `127.0.0.1` = local seulement) **et** l'utilisateur doit être autorisé depuis son hôte. Oublier l'un des deux = connexion refusée — piège récurrent.
+
+**`mysql_secure_installation`** : script de durcissement post-installation (mot de passe root, suppression des comptes anonymes et de la base `test`, désactivation du login root distant). Réflexe systématique sur un nouveau serveur.
+
+**Utilisateur = `nom@hôte`.** En MariaDB, l'identité inclut la provenance : `app@'localhost'` et `app@'%'` sont **deux comptes distincts**. Le `%` est un joker (n'importe quel hôte).
+```sql
+CREATE USER 'app'@'%' IDENTIFIED BY 'appsecret';
+GRANT SELECT, INSERT, UPDATE ON appdb.* TO 'app'@'%';   -- principe du moindre privilège
+FLUSH PRIVILEGES;
+```
+Le **principe du moindre privilège** : ne donner que `SELECT/INSERT/UPDATE`, jamais `ALL` ni `GRANT OPTION`, à un compte applicatif.
+
+**Sauvegarde logique avec `mysqldump`** : exporte la base en instructions SQL rejouables.
+```bash
+mysqldump appdb > /opt/course/35/appdb.sql      # sauvegarde
+mysql appdb < /opt/course/35/appdb.sql          # restauration
+```
+
+**Pièges** :
+- `bind-address = 127.0.0.1` (défaut) empêche **tout** accès distant, même avec un `GRANT` correct — il faut le passer à l'IP du LAN (ou `0.0.0.0`) puis redémarrer.
+- `app@'localhost'` ≠ `app@'%'` : créer le bon hôte selon d'où l'app se connecte.
+- Penser au pare-feu : le port 3306 doit être ouvert (voir [[q07-network-packet-filtering]]).
+- `FLUSH PRIVILEGES` après manipulation directe des tables de droits.
+
 ## Énoncé
 
 Solve this question on: `data-001`

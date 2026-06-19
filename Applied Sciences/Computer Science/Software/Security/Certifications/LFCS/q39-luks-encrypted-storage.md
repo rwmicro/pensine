@@ -1,5 +1,51 @@
 # Question 39 — LUKS Encrypted Storage
 
+## Notes d'apprentissage
+
+LUKS chiffre un disque au niveau bloc : sans la passphrase (ou une clé), les données sont illisibles, même en retirant physiquement le disque. C'est le chiffrement « at rest » standard sous Linux, géré par `cryptsetup`.
+
+**Modèle mental : une couche de déchiffrement entre le disque et le système de fichiers.**
+
+```
+/dev/vdb (chiffré, LUKS)
+    │  cryptsetup luksOpen + passphrase
+    ▼
+/dev/mapper/secure-data (vue déchiffrée, "en clair")
+    │  mkfs.ext4 / mount
+    ▼
+/mnt/secure (fichiers utilisables)
+```
+
+Point fondamental : on **ne formate ni ne monte jamais le périphérique chiffré directement**. On l'ouvre d'abord (`luksOpen`), ce qui crée un périphérique virtuel `/dev/mapper/<nom>` ; c'est *celui-là* qu'on formate et monte.
+
+**Le workflow complet :**
+```bash
+cryptsetup luksFormat /dev/vdb            # créer le conteneur (DÉTRUIT les données)
+cryptsetup luksOpen /dev/vdb secure-data  # ouvrir → /dev/mapper/secure-data
+mkfs.ext4 /dev/mapper/secure-data         # formater la vue déchiffrée
+mount /dev/mapper/secure-data /mnt/secure
+cryptsetup luksClose secure-data          # refermer
+```
+
+**Déverrouillage au boot : `/etc/crypttab` + `/etc/fstab`** — la combinaison à comprendre.
+
+```
+/etc/crypttab :  secure-data  UUID=...  none        luks   ← quoi déverrouiller, avec quoi
+/etc/fstab    :  /dev/mapper/secure-data  /mnt/secure  ext4  ← quoi monter, une fois ouvert
+```
+`crypttab` est consulté **avant** `fstab` : il déverrouille (demande la passphrase, ou lit un *key file*), puis `fstab` monte le `/dev/mapper/...` résultant. Mettre `none` comme source de clé = demander la passphrase au boot ; indiquer un fichier (`/root/secure.key`) = déverrouillage automatique.
+
+**Plusieurs clés (key slots).** LUKS gère jusqu'à 8 emplacements de clés : on peut ajouter un fichier-clé *en plus* de la passphrase, pour automatiser sans perdre l'accès manuel.
+```bash
+cryptsetup luksAddKey /dev/vdb /root/secure.key
+```
+
+**Pièges** :
+- `luksFormat` **écrase** tout : aucune récupération possible sans sauvegarde de l'en-tête (`luksHeaderBackup`).
+- Confondre `/dev/vdb` (chiffré) et `/dev/mapper/...` (clair) : `fstab` doit pointer le mapper, pas le disque brut.
+- Un fichier-clé en `none`/passphrase oublié = données perdues — d'où l'intérêt d'un second key slot.
+- Référencer le disque par **UUID** dans `crypttab` (le nom `/dev/vdX` peut changer).
+
 ## Énoncé
 
 Solve this question on: `terminal`

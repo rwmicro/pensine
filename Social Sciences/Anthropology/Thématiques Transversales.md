@@ -5,7 +5,6 @@ subdomain: "Anthropology"
 tags: [sciences-sociales, anthropologie, don, parenté, genre, rites-de-passage, globalisation]
 date: "2026-04-18"
 ---
-
 # Thématiques Transversales en Anthropologie
 
 Certains phénomènes traversent toutes les branches de l'anthropologie et toutes les sociétés humaines. Ce ne sont pas des "universaux" figés mais des questions que chaque culture résout à sa manière — et c'est précisément la diversité des réponses qui fait l'objet de l'anthropologie.

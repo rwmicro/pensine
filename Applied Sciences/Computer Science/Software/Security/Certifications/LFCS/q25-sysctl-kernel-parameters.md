@@ -1,5 +1,42 @@
 # Question 25 — Sysctl Kernel Parameters
 
+## Notes d'apprentissage
+
+`sysctl` lit et modifie les **paramètres du noyau en cours d'exécution** : routage, mémoire virtuelle, sécurité réseau… C'est le réglage fin du comportement du système, sans recompiler ni redémarrer.
+
+**Modèle mental : un paramètre = un fichier sous `/proc/sys/`.** La notation à points de sysctl reflète l'arborescence : les points deviennent des slashes.
+
+```
+net.ipv4.ip_forward   ◄────►   /proc/sys/net/ipv4/ip_forward
+   sysctl net.ipv4.ip_forward         cat /proc/sys/net/ipv4/ip_forward
+```
+
+**La distinction centrale : temporaire vs persistant.**
+
+```
+sysctl -w clé=valeur          → appliqué MAINTENANT, perdu au reboot
+echo v > /proc/sys/.../clé    → idem (écriture directe du fichier)
+
+fichier dans /etc/sysctl.d/   → PERSISTANT, rejoué à chaque boot
+   + sysctl --system          → appliquer tout de suite
+```
+
+C'est exactement le tri de l'exercice : `vm.swappiness` « pour cette session » = `sysctl -w` ; le forwarding/IPv6 « persistant » = un fichier `.conf`.
+
+**Pourquoi un fichier dans `/etc/sysctl.d/` plutôt que `/etc/sysctl.conf` ?** Même logique que partout en systemd : les fichiers drop-in sont plus propres, survivent aux mises à jour, et se chargent dans un ordre déterministe. Le préfixe numérique (`99-`) contrôle la priorité — le plus grand nombre gagne, d'où `99-` pour surcharger les défauts du système.
+
+**Paramètres à reconnaître** (sécurité et perf) :
+- `net.ipv4.ip_forward` : transforme la machine en routeur.
+- `net.ipv4.tcp_syncookies` : protection anti SYN-flood.
+- `net.ipv4.conf.all.rp_filter` : anti-spoofing (reverse path).
+- `vm.swappiness` (0–100) : agressivité du swap.
+
+**Pièges** :
+- Un `sysctl -w` n'est **pas** persistant : pour survivre au reboot, écrire un fichier `.conf` puis `sysctl --system` (ou `-p`).
+- Désactiver IPv6 demande souvent **trois** lignes (`all`, `default`, `lo`) — en oublier une laisse IPv6 actif quelque part.
+- `sysctl -n clé` affiche **uniquement** la valeur (pratique pour écrire dans un fichier sans le nom de la clé).
+- Lié au démarrage : `net.ipv4.ip_forward` était la question q01 en lecture seule.
+
 ## Énoncé
 
 Solve this question on: `terminal`

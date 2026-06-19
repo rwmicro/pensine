@@ -1,5 +1,49 @@
 # Question 38 — KVM Virtualization
 
+## Notes d'apprentissage
+
+KVM transforme le noyau Linux en hyperviseur. Combiné à QEMU (émulation matérielle) et libvirt (gestion), il permet de créer et piloter des machines virtuelles en ligne de commande.
+
+**Modèle mental : la pile de virtualisation.**
+
+```
+CPU (vmx/svm)  ──►  KVM (module noyau)  ──►  QEMU  ──►  libvirt (libvirtd)  ──►  virsh / virt-install
+matériel            accélération           émule le    API + démon de         outils en
+                    hardware               matériel    gestion (XML)          ligne de commande
+```
+
+- **KVM** : le module noyau qui exploite l'accélération matérielle du CPU.
+- **QEMU** : émule le matériel virtuel (disque, carte réseau…).
+- **libvirt** : couche de gestion qui décrit chaque VM en XML et expose `virsh`.
+
+**Pré-requis : le CPU doit supporter la virtualisation.** C'est la première vérification :
+```bash
+grep -Ec '(vmx|svm)' /proc/cpuinfo   # >0 = supporté (vmx=Intel, svm=AMD)
+lsmod | grep kvm                     # module kvm_intel / kvm_amd chargé
+```
+Sans `vmx`/`svm`, KVM ne peut pas accélérer (souvent : virtualisation désactivée dans le BIOS, ou VM imbriquée).
+
+**Le format de disque `qcow2`** (*QEMU Copy-On-Write*) : allocation paresseuse (ne prend que l'espace réellement utilisé), instantanés (*snapshots*) — préféré au format `raw` brut.
+```bash
+qemu-img create -f qcow2 /var/lib/libvirt/images/lfcs-vm1.qcow2 10G
+```
+
+**Piloter avec `virsh`** (le `systemctl` des VM) :
+```bash
+virsh list --all          # toutes les VM (en cours + arrêtées)
+virsh start / shutdown / destroy lfcs-vm1
+virsh dominfo lfcs-vm1
+virt-install ...          # définir une nouvelle VM
+```
+
+**Réseau** : par défaut, libvirt fournit un réseau **NAT** (`default`, 192.168.122.0/24) — les VM sortent vers l'extérieur mais ne sont pas joignables directement. Pour les exposer sur le LAN, on les attache à un **bridge** (voir [[q32-bonding-and-bridges]]).
+
+**Pièges** :
+- `grep vmx/svm` à 0 = pas d'accélération : vérifier le BIOS (Intel VT-x / AMD-V).
+- `virsh destroy` ne **supprime pas** la VM, il la « débranche » brutalement (= arrêt forcé) ; `virsh undefine` retire la définition.
+- Les images vivent dans `/var/lib/libvirt/images/` ; le démon `libvirtd` doit tourner.
+- NAT (sortie seule) vs bridge (intégration L2 au LAN) : choisir selon le besoin d'accès aux VM.
+
 ## Énoncé
 
 Solve this question on: `terminal`

@@ -5,7 +5,6 @@ subdomain: "Biology > Human"
 tags: [sciences-appliquées, biologie, biologie-humaine]
 date: "2026-02-28"
 ---
-
 # Évolution Humaine
 
 ## Homo sapiens parmi les hominidés

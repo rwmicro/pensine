@@ -1,5 +1,52 @@
 # Question 15 — Build and install from source
 
+## Notes d'apprentissage
+
+Installer depuis les sources, c'est compiler le code soi-même au lieu d'utiliser un paquet précompilé (`apt`/`dnf`). Utile quand le logiciel n'est pas packagé, qu'on veut une version précise ou des options de compilation particulières.
+
+**Modèle mental : le trio `configure / make / make install`.**
+
+```
+sources (.tar.bz2)
+   │  tar xjf
+   ▼
+./configure   ── détecte l'environnement, génère le Makefile selon vos options
+   │
+make          ── compile le code source en binaires
+   │
+make install  ── copie les binaires aux emplacements système (souvent en root)
+```
+
+C'est la chaîne « autotools » historique des projets C/C++. Chaque étape a un rôle distinct ; les sauter ou les inverser ne marche pas.
+
+**`./configure` : c'est là que les options se posent.** Il accepte des drapeaux qui pilotent la compilation :
+```bash
+./configure --help                   # lister TOUTES les options du projet
+./configure --prefix=/usr            # où sera installé (binaires dans /usr/bin)
+./configure --disable-ipv6           # désactiver une fonctionnalité
+./configure --enable-X --with-Y      # activer des options / lier des bibliothèques
+```
+`--prefix` est la clé pour contrôler l'emplacement final : `--prefix=/usr` met le binaire dans `/usr/bin`. Les `--disable-*`/`--enable-*` activent/désactivent des fonctionnalités à la compilation.
+
+**Pré-requis : les outils de build.** Il faut un compilateur et les en-têtes des dépendances, sinon `configure` ou `make` échoue :
+```bash
+sudo apt install build-essential        # gcc, make, etc. (Debian)
+sudo dnf groupinstall "Development Tools" # équivalent RHEL
+```
+
+**Vérifier le résultat :**
+```bash
+make install
+which links            # /usr/bin/links
+links -version
+```
+
+**Pièges** :
+- Lire le `README`/`INSTALL` de l'archive : chaque projet a ses spécificités.
+- `make install` écrit dans des emplacements système → souvent `sudo` nécessaire.
+- Une erreur en plein `make` vient presque toujours d'une **dépendance manquante** (un `*-dev`/`*-devel`) signalée plus tôt par `configure`.
+- Un logiciel installé depuis les sources **échappe au gestionnaire de paquets** : pas de mise à jour ni de désinstallation automatiques (`make uninstall` si fourni). Voir [[q26-package-management]].
+
 ## Énoncé
 
 Solve this question on: `app-srv1`

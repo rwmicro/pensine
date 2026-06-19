@@ -1,5 +1,54 @@
 # Question 5 — Archives and Compression
 
+## Notes d'apprentissage
+
+Sous Unix, **archiver** et **compresser** sont deux opérations distinctes — c'est l'idée fondamentale qui débloque tout cet exercice.
+
+**Modèle mental : deux couches empilées.**
+
+```
+fichiers  ──►  [ tar ]  ──►  une seule "tarball"  ──►  [ gzip/bzip2/xz ]  ──►  fichier compressé
+              archivage      (.tar, non compressé)        compression          (.tar.gz, .tar.bz2)
+```
+
+- `tar` (*tape archive*) **regroupe** plusieurs fichiers en un seul flux, en préservant arborescence, permissions et propriétaires. Il ne compresse rien.
+- `gzip`, `bzip2`, `xz` **compressent** un flux d'octets. Ils ne connaissent rien aux fichiers ni aux dossiers.
+
+C'est pourquoi `.tar.gz` (= tar puis gzip) est une convention si répandue. Convertir un `.tar.bz2` en `.tar.gz` revient donc à : décompresser la couche bzip2, puis recompresser la même couche tar en gzip — sans toucher au contenu.
+
+**Les options `tar` à connaître par cœur :**
+
+```bash
+tar -czf a.tar.gz dossier/    # Create gZip File  (créer)
+tar -xzf a.tar.gz             # eXtract           (extraire)
+tar -tzf a.tar.gz             # lisT              (lister sans extraire)
+tar -xf a.tar.gz -C /dest     # extraire vers un répertoire précis
+```
+
+Moyen mnémotechnique : **c**reate / e**x**tract / lis**t**, **f**ichier (toujours en dernier, suivi du nom), **z**=gzip / **j**=bzip2 / **J**=xz. `tar` détecte souvent le format automatiquement à l'extraction, mais l'expliciter ne nuit pas.
+
+**Niveau de compression :**
+
+```bash
+gzip --best fichier.tar          # -9, compression maximale (plus lent)
+tar -I 'gzip -9' -cf a.tar.gz -C dossier .   # passer une commande de compression à tar
+```
+
+`bzip2` compresse mieux que `gzip` mais plus lentement ; `xz` encore mieux mais encore plus lent. Compromis classique taille/vitesse.
+
+**Vérifier qu'une conversion a préservé le contenu :** comparer la liste triée des deux archives.
+
+```bash
+tar -tjf import001.tar.bz2 | sort > liste_bz2
+tar -tzf import001.tar.gz  | sort > liste_gz
+diff liste_bz2 liste_gz       # aucune différence = même contenu
+```
+
+**Pièges** :
+- `bunzip2 -k` : le `-k` (*keep*) **conserve** l'original, sinon il est supprimé — crucial quand l'énoncé interdit de modifier le fichier source.
+- L'ordre des lettres importe peu, mais `f` doit immédiatement précéder le nom de fichier.
+- La variable `GZIP=-9` est dépréciée ; préférer `tar -I 'gzip -9'`.
+
 ## Énoncé
 
 Solve this question on: `data-001`

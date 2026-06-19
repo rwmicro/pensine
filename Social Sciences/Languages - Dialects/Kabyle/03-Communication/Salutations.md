@@ -28,11 +28,11 @@ La grande majorité des Kabyles sont musulmans. Le salam arabe coexiste avec les
 
 ## Échange rituel — comment ça va
 
-| Question | Transcription | Sens |
-|---------|--------------|------|
-| ⵍⴰⴱⴰⵙ ? | Labas? | Ça va ? (le plus courant) |
-| ⵎⴰⵛⵉ ⵍⴰⴱⴰⵙ ? | Machi labas? | Ça va bien ? |
-| ⴷⴷⴰⵡⵉⵏ ⵙⴱⵉⵔⵏ ? | Ddawin sbiren? | Les nouvelles sont bonnes ? |
+| Question        | Transcription  | Sens                                    |
+| --------------- | -------------- | --------------------------------------- |
+| ⵍⴰⴱⴰⵙ ?         | Labas?         | Ça va ? (le plus courant)               |
+| ⵎⴰⵛⵉ ⵍⴰⴱⴰⵙ ?    | Machi labas?   | Ça va bien ?                            |
+| ⴷⴷⴰⵡⵉⵏ ⵙⴱⵉⵔⵏ ?  | Ddawin sbiren? | Les nouvelles sont bonnes ?             |
 | ⴰⵎⴻⴽⴽⵉ ⵜⴻⵍⵍⵉⴷ ? | Amekki tellid? | Comment tu vas ? (lit. "comment tu es") |
 
 | Réponse | Sens |

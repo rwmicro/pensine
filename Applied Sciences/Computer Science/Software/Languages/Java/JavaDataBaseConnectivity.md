@@ -9,10 +9,6 @@ date: "2026-02-16"
 # Definition
 
 JDB is a java module linking the database to a web interface. The module contains interfaces, classes and exceptions.
-
-![Objects](file:///./img/Untitle.png)
-
-
 ## Drivers
 
 Every application use a driver to communicate with a database, we have to link the driver to the application via the `Class` class and the method `forName(String path)`.

@@ -1,5 +1,55 @@
 # Question 11 — Docker Management
 
+## Notes d'apprentissage
+
+Un conteneur est un processus isolé qui embarque ses propres dépendances. À la différence d'une VM, il **partage le noyau de l'hôte** — d'où sa légèreté et son démarrage instantané.
+
+**Modèle mental : les trois objets Docker.**
+
+```
+Dockerfile  ──build──►  Image  ──run──►  Container
+(recette)               (modèle figé,    (instance vivante,
+                         en couches)      avec son état)
+```
+
+- **Dockerfile** : liste d'instructions pour construire une image.
+- **Image** : artefact en lecture seule, empilé en *couches*, identifié par `nom:tag` (ex. `nginx:alpine`).
+- **Container** : une exécution de l'image, avec sa propre couche d'écriture, son réseau, ses limites.
+
+**Cycle de vie et inspection :**
+```bash
+docker ps              # conteneurs EN COURS (-a pour inclure les arrêtés)
+docker stop NAME       # arrêt propre (SIGTERM puis SIGKILL)
+docker start/restart NAME
+docker logs NAME       # sortie du conteneur
+docker inspect NAME    # TOUTES les métadonnées en JSON (IP, volumes, env...)
+```
+`docker inspect` est la mine d'or de cet exercice : IP, montages, variables. On cible un champ précis avec `--format` :
+```bash
+docker inspect -f '{{.NetworkSettings.IPAddress}}' frontend_v2
+docker inspect -f '{{range .Mounts}}{{.Destination}}{{end}}' frontend_v2
+```
+
+**Lancer un conteneur — les drapeaux clés :**
+```bash
+docker run -d --name frontend_v3 --memory 30m -p 1234:80 nginx:alpine
+           │   │                  │            │
+           │   │                  │            └ -p HÔTE:CONTENEUR (mappage de port)
+           │   │                  └ --memory limite de RAM
+           │   └ --name nom du conteneur
+           └ -d détaché (tourne en arrière-plan)
+```
+
+**Le sens de `-p HÔTE:CONTENEUR`** est une erreur fréquente : le port de gauche est celui exposé sur la machine hôte, celui de droite est le port à l'intérieur du conteneur. `-p 1234:80` = « le 1234 de l'hôte mène au 80 de nginx ».
+
+**Volumes** : un conteneur est éphémère, sa couche d'écriture meurt avec lui. Un *volume* monte un stockage persistant à un chemin (`Destination`) dans le conteneur. `-v /hôte:/conteneur` ou volume nommé `-v nom:/conteneur`.
+
+**Pièges** :
+- `docker ps` ne montre pas les conteneurs arrêtés — ajouter `-a`.
+- Sans `-d`, le terminal reste attaché au conteneur.
+- Sans `--name`, Docker génère un nom aléatoire.
+- Inverser les ports de `-p` est l'erreur classique : hôte d'abord, conteneur ensuite.
+
 ## Énoncé
 
 Solve this question on: `terminal`

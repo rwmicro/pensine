@@ -5,7 +5,6 @@ subdomain: "Biology > Domaines"
 tags: [sciences-appliquées, biologie, génétique, adn, hérédité, crispr]
 date: "2026-02-22"
 ---
-
 # Génétique
 
 La génétique étudie comment les caractères se transmettent d'une génération à l'autre. Elle naît dans le jardin d'un monastère morave (Mendel, 1865), s'effondre puis renaît au début du XXe siècle, et explose après 1953 avec la découverte de la structure de l'ADN. Aujourd'hui, on sait lire un génome humain pour ~200 €, et on commence à le *réécrire*.

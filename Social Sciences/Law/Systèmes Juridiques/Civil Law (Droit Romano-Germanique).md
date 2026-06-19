@@ -5,7 +5,6 @@ subdomain: "Law > Systèmes Juridiques"
 tags: [sciences-sociales, droit, civil-law, droit-romain, codification, napoléon]
 date: "2026-04-18"
 ---
-
 # Civil Law (Droit Romano-Germanique)
 
 Le système de droit romano-germanique (ou *civil law*) est le système juridique le plus répandu dans le monde. Il tire ses racines du **droit romain** et se caractérise par la primauté de la **loi écrite**, organisée en **codes** systématiques. C'est le système en vigueur en Europe continentale, en Amérique latine, dans une grande partie de l'Afrique et de l'Asie.

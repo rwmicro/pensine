@@ -5,7 +5,6 @@ subdomain: "Biology"
 tags: [sciences-appliquées, biologie]
 date: "2024-09-13"
 ---
-
 # Les Acides Aminés
 
 Les acides aminés sont les briques de base des protéines. Le corps en a besoin pour construire les muscles, les enzymes, les hormones et à peu près tout ce qui fonctionne dans les cellules.

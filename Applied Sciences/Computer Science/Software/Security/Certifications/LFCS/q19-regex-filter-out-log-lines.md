@@ -1,5 +1,55 @@
 # Question 19 — Regex, filter out log lines
 
+## Notes d'apprentissage
+
+Les expressions régulières (*regex*) décrivent des motifs de texte. Couplées à `grep` (extraire) et `sed` (transformer), elles sont l'outil quotidien de l'analyse de logs.
+
+**Modèle mental : `grep` cherche, `sed` remplace.**
+- `grep` lit chaque ligne et **garde** celles qui correspondent au motif.
+- `sed` lit chaque ligne et peut la **modifier** (substitution `s/motif/remplacement/`).
+
+**Les métacaractères essentiels :**
+
+| Motif | Sens |
+|---|---|
+| `.` | n'importe quel caractère |
+| `.*` | n'importe quelle suite de caractères (y compris vide) |
+| `^` | début de ligne |
+| `$` | fin de ligne |
+| `[abc]` | un caractère parmi a, b, c |
+| `\|` | OU (en mode étendu) |
+| `+` `?` `{n}` | quantificateurs (en mode étendu `-E`) |
+
+**`^motif$` ancre toute la ligne.** « lignes commençant par `container.web`, finissant par `24h`, avec `Running` au milieu » se traduit directement :
+```
+^container.web.*Running.*24h$
+```
+Les ancres `^`/`$` évitent de capturer des lignes où le motif n'est qu'au milieu — c'est exactement le piège que l'énoncé tend (une URL `hacker-bot/1.2` qui n'est pas l'identité du navigateur).
+
+**`grep -E` (regex étendues) : à privilégier.** Sans `-E` (mode basique), `+`, `?`, `|`, `{}` doivent être échappés (`\+`). Avec `-E`, ils s'écrivent naturellement.
+```bash
+grep -E "/app/user.*hacker-bot/1.2" nginx.log > nginx.log.extracted
+grep -E "/app/user.*hacker-bot/1.2" nginx.log | wc -l    # toujours compter pour vérifier
+```
+
+**`sed` pour remplacer en place :**
+```bash
+sed 's/^container.web.*Running.*24h$/SENSITIVE LINE REMOVED/g' server.log   # vers stdout (test)
+sed -i 's/.../.../g' server.log                                             # -i = modifie le fichier
+```
+
+**La méthode sûre : tester, compter, sauvegarder, appliquer.**
+1. Lancer le `grep`/`sed` sans `-i` pour visualiser le résultat sur stdout.
+2. `| wc -l` pour confirmer le bon nombre de lignes.
+3. `cp server.log server.log.bak` — sauvegarde avant modification destructive.
+4. Seulement alors `sed -i`.
+
+**Pièges** :
+- `.` correspond à *n'importe quel* caractère, donc `container.web` matche aussi `containerXweb` ; pour un point littéral il faut `\.` (souvent toléré à l'examen, mais à connaître).
+- Sans `^`/`$`, le motif matche partout dans la ligne — source de faux positifs.
+- `sed -i` est **irréversible** : toujours une `.bak` d'abord.
+- En mode basique (sans `-E`), `+` et `|` ne sont pas spéciaux — d'où la préférence pour `grep -E` / `sed -E`.
+
 ## Énoncé
 
 Solve this question on: `web-srv1`

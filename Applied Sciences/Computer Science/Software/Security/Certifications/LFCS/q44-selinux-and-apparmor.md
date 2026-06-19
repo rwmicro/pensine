@@ -1,5 +1,47 @@
 # Question 44 — SELinux and AppArmor (MAC)
 
+## Notes d'apprentissage
+
+Le MAC (*Mandatory Access Control*) ajoute une couche de sécurité **au-dessus** des permissions Unix classiques. Différence fondamentale : même `root` est contraint par la politique. C'est ce qui limite les dégâts si un service est compromis.
+
+**Modèle mental : DAC vs MAC.**
+
+```
+DAC (permissions Unix)        MAC (SELinux / AppArmor)
+le PROPRIÉTAIRE décide    +   une POLITIQUE système décide, root inclus
+(rwx, chmod)                  (un service compromis ne peut sortir de son bac à sable)
+```
+
+Le DAC répond « le propriétaire autorise-t-il ? » ; le MAC ajoute « la politique du système l'autorise-t-elle ? ». Les **deux** doivent dire oui.
+
+**Deux implémentations, deux familles** (mutuellement exclusives en pratique) :
+
+| | SELinux (RHEL) | AppArmor (Debian) |
+|---|---|---|
+| Approche | **étiquettes** (labels) sur fichiers/processus | **chemins** (profils par binaire) |
+| Unité | contexte `user:role:type:level` | profil dans `/etc/apparmor.d/` |
+| Voir l'état | `getenforce` / `sestatus` | `aa-status` |
+
+**SELinux : tout est étiqueté.** Chaque fichier et processus porte un *contexte* ; le **type** est le cœur (« type enforcement ») : un processus en domaine `httpd_t` ne peut toucher que des fichiers `httpd_sys_content_t`. D'où le piège classique : déplacer le contenu web sans corriger l'étiquette → Apache refuse de servir.
+
+**Les trois modes** (le réflexe de diagnostic) :
+```
+Enforcing   → bloque ET journalise les violations
+Permissive  → journalise SEULEMENT (idéal pour debugger : "est-ce SELinux le coupable ?")
+Disabled    → désactivé (changement vers/depuis exige un reboot)
+```
+Méthode type : un service ne démarre qu'en permissive → c'est SELinux ; lire l'AVC (`ausearch`/`sealert`) et corriger le **contexte** (`semanage fcontext` + `restorecon`) ou un **booléen** (`setsebool -P`).
+
+**`chcon` vs `semanage`+`restorecon`** : `chcon` change un contexte *temporairement* (perdu au relabel) ; `semanage fcontext` enregistre la règle de façon *persistante*, appliquée par `restorecon`. Pour du durable, toujours le second.
+
+**AppArmor : par chemin.** Chaque profil liste ce qu'un binaire précis peut faire. Deux modes : **enforce** (bloque) et **complain** (journalise seulement, équivalent du permissive ciblé). `aa-complain`/`aa-enforce` basculent un profil.
+
+**Pièges** :
+- Passer SELinux de `disabled` à `enforcing` déclenche un **relabel complet** au reboot (long).
+- Sans `-P`, `setsebool` est perdu au reboot.
+- `chcon` est écrasé par un `restorecon`/relabel — non persistant.
+- Ne pas confondre les outils selon la distrib — voir [[q45-rhel-vs-debian-equivalents]]. Lié au confinement des processus : seccomp/strace en [[q13-runtime-security-of-processes]].
+
 ## Énoncé
 
 Solve this question on: `terminal`

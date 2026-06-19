@@ -1,5 +1,52 @@
 # Question 17 — OpenSSH Configuration
 
+## Notes d'apprentissage
+
+OpenSSH est la porte d'entrée distante de la quasi-totalité des serveurs Linux. Durcir sa configuration (`sshd`) est un classique de l'administration sécurisée.
+
+**Modèle mental : client vs serveur — ne pas confondre les fichiers.**
+
+| Fichier | Rôle |
+|---|---|
+| `/etc/ssh/sshd_config` | configuration du **serveur** (le démon `sshd`) |
+| `/etc/ssh/sshd_config.d/*.conf` | fragments de conf serveur (drop-in, recommandés) |
+| `/etc/ssh/ssh_config` + `~/.ssh/config` | configuration du **client** ssh |
+
+Le `d` de `sshd` = *daemon* = le serveur. Une faute fréquente est d'éditer `ssh_config` (client) en pensant configurer le serveur.
+
+**Privilégier les drop-in.** Plutôt que d'éditer le gros `sshd_config`, déposer un fichier dans `/etc/ssh/sshd_config.d/` : plus propre, survit aux mises à jour du paquet. (Encore faut-il que `sshd_config` contienne `Include /etc/ssh/sshd_config.d/*.conf`.)
+
+**Directives de durcissement courantes :**
+```sshd-config
+X11Forwarding no              # pas de transfert d'affichage graphique
+PasswordAuthentication no     # forcer l'authentification par clé
+PermitRootLogin no            # interdire la connexion directe en root
+Banner /etc/ssh/sshd-banner   # message affiché avant connexion
+```
+
+**Appliquer une règle à certains utilisateurs : les blocs `Match`.** C'est le mécanisme pour « désactiver les mots de passe sauf pour marta ». Les directives sous un `Match` ne s'appliquent qu'aux sessions correspondantes :
+```sshd-config
+PasswordAuthentication no          # règle globale par défaut
+Match User marta
+    PasswordAuthentication yes     # exception pour marta
+
+Match User marta,cilla
+    Banner /etc/ssh/sshd-banner    # bannière seulement pour ces deux-là
+```
+
+**Tester AVANT de redémarrer — la règle d'or :**
+```bash
+sshd -t                        # valider la syntaxe (rien = OK)
+sshd -T | grep -i x11forwarding   # afficher la config EFFECTIVE résolue
+systemctl reload ssh           # appliquer
+```
+
+**Pièges** :
+- Une erreur dans `sshd_config` + un `restart` = **plus aucun accès SSH**. Toujours `sshd -t` d'abord, garder une session ouverte, et un accès console de secours (`lxc exec`).
+- Les blocs `Match` s'étendent jusqu'au prochain `Match` ou la fin du fichier — l'indentation est cosmétique, c'est la position qui compte.
+- Après changement : `reload` suffit (plus doux que `restart`) ; les sessions en cours ne sont pas coupées.
+- `sshd -T` montre la config réellement appliquée, utile pour confirmer qu'un drop-in a bien été pris en compte.
+
 ## Énoncé
 
 Solve this question on: `data-002`

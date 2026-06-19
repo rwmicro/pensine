@@ -1,5 +1,36 @@
 # Question 3 — Time synchronisation Configuration
 
+## Notes d'apprentissage
+
+Une horloge juste n'est pas un détail : Kerberos, TLS, les logs corrélés entre machines, `cron` — tout dépend d'un temps cohérent. NTP (Network Time Protocol) synchronise l'horloge locale sur des serveurs de référence.
+
+**Modèle mental : stratum.** NTP est hiérarchique. Le stratum 0 = la source physique (horloge atomique, GPS). Le stratum 1 = serveurs directement reliés à ces sources. Stratum 2, 3… = serveurs qui se synchronisent sur le niveau au-dessus. Plus le stratum est bas, plus on est proche de la source. `0.pool.ntp.org` est un pool DNS qui distribue la charge sur des milliers de serveurs bénévoles.
+
+**Trois implémentations à ne pas confondre :**
+
+| Outil | Distribution | Fichier de conf |
+|---|---|---|
+| `systemd-timesyncd` | Debian/Ubuntu par défaut | `/etc/systemd/timesyncd.conf` |
+| `chrony` | RHEL/Fedora par défaut | `/etc/chrony/chrony.conf` |
+| `ntpd` | héritage, en déclin | `/etc/ntp.conf` |
+
+`timesyncd` est un client SNTP léger (il synchronise mais ne sert pas l'heure). `chrony` est plus complet et gère mieux les machines portables/intermittentes. Voir [[q45-rhel-vs-debian-equivalents]].
+
+**`NTP=` vs `FallbackNTP=`** dans `timesyncd.conf` : les serveurs `NTP=` sont essayés en premier ; `FallbackNTP=` ne sert que si aucun serveur principal ne répond. C'est le sens de la distinction « main / fallback » de l'énoncé.
+
+**Diagnostic et vérification :**
+
+```bash
+timedatectl                          # « System clock synchronized: yes » + service NTP actif
+timedatectl show-timesync --all      # détails du serveur en cours d'utilisation
+ntpdate -q 0.pool.ntp.org            # tester un serveur SANS modifier l'horloge (-q = query)
+```
+
+**Pièges** :
+- Après modification du `.conf`, **redémarrer le service** (`systemctl restart systemd-timesyncd`), sinon rien ne change.
+- Un domaine web (`www.google.com`) n'est **pas** un serveur NTP — `ntpdate -q` y échoue, c'est normal.
+- `timedatectl set-ntp true` doit être actif, sinon le service ne synchronise pas même bien configuré.
+
 ## Énoncé
 
 Solve this question on: `terminal`
@@ -11,8 +42,8 @@ Time synchronisation configuration needs to be updated:
 
 ## Solution
 
-> ℹ️ Use `man timesyncd.conf` for help
-A good idea would probably to take a look at the current situation:
+> Use `man timesyncd.conf` for help
+> A good idea would probably to take a look at the current situation:
 ```bash
 timedatectl
                Local time: Sun 2023-06-11 16:29:05 UTC

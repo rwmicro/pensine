@@ -1,5 +1,48 @@
 # Question 14 — Output redirection
 
+## Notes d'apprentissage
+
+Chaque processus naît avec **trois flux** standards. Les rediriger est un automatisme du shell, essentiel pour les logs, les scripts et le diagnostic.
+
+**Modèle mental : trois descripteurs de fichiers.**
+
+| Flux | Numéro | Rôle |
+|---|---|---|
+| `stdin` | 0 | entrée |
+| `stdout` | 1 | sortie normale |
+| `stderr` | 2 | sortie d'erreurs |
+
+La séparation stdout/stderr est volontaire : elle permet de filtrer les résultats sans mélanger les messages d'erreur. C'est pourquoi `commande | wc -l` ne compte que le stdout — les erreurs partent ailleurs.
+
+**Les opérateurs de redirection :**
+```bash
+cmd > fichier      # stdout ÉCRASE le fichier   (1> équivalent)
+cmd >> fichier     # stdout AJOUTE à la fin
+cmd 2> fichier     # stderr seul
+cmd > f 2>&1       # stdout PUIS stderr vers le même fichier
+cmd &> fichier     # raccourci bash : stdout + stderr
+cmd 2>&1 | less    # envoyer aussi stderr dans le pipe
+cmd > /dev/null    # jeter la sortie (le "trou noir")
+```
+
+**Le piège de l'ordre dans `> f 2>&1`.** `2>&1` signifie « envoie stderr là où va stdout *en ce moment* ». Donc :
+- `cmd > f 2>&1` (correct) : stdout va vers `f`, puis stderr suit stdout vers `f`.
+- `cmd 2>&1 > f` (faux) : stderr copie la destination *actuelle* de stdout (le terminal), **puis** stdout part vers `f` — stderr reste au terminal.
+
+L'ordre se lit de gauche à droite. C'est l'erreur la plus classique de tout l'exercice.
+
+**Le code de retour `$?`** : chaque commande renvoie un code de sortie (0 = succès, ≠0 = erreur). Il est stocké dans `$?` mais **écrasé par la commande suivante** :
+```bash
+output-generator        # lancer
+echo $? > 4.out         # capturer IMMÉDIATEMENT le code (avant toute autre commande)
+```
+
+**Pièges** :
+- `> ` écrase, `>>` ajoute — confondre les deux fait perdre des données.
+- `2>&1` doit venir **après** la redirection de stdout, pas avant.
+- `$?` ne reflète que la **dernière** commande : le capturer tout de suite.
+- Dans un pipe `a | b`, `$?` donne le code de `b` (le dernier) ; utiliser `${PIPESTATUS[@]}` pour les autres.
+
 ## Énoncé
 
 Solve this question on: `app-srv1`

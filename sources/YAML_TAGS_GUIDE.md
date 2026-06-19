@@ -4,7 +4,6 @@ domain: "sources"
 subdomain: "Templates"
 date: "2026-02-04"
 ---
-
 # Guide du système de tags et frontmatter YAML
 
 ## Qu'est-ce que le frontmatter YAML ?

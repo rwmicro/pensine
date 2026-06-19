@@ -1,5 +1,53 @@
 # Question 7 — Network Packet Filtering
 
+## Notes d'apprentissage
+
+`iptables` est le pare-feu historique de Linux : il filtre, redirige et bloque les paquets au niveau du noyau (sous-système *netfilter*). nftables le remplace progressivement (voir [[q45-rhel-vs-debian-equivalents]]), mais iptables reste au programme.
+
+**Modèle mental : tables → chaînes → règles.**
+
+```
+table filter (filtrage par défaut)        table nat (translation d'adresses/ports)
+├── INPUT    paquets À DESTINATION         ├── PREROUTING   avant routage (redirection entrante)
+│            de la machine                 ├── OUTPUT
+├── FORWARD  paquets QUI TRAVERSENT        └── POSTROUTING  après routage (masquerading sortant)
+│            (routage)
+└── OUTPUT   paquets ÉMIS par la machine
+```
+
+Chaque chaîne est une liste de règles **évaluées dans l'ordre, de haut en bas** : la première qui correspond décide (ACCEPT/DROP/…). Si aucune ne correspond, la **politique par défaut** de la chaîne s'applique. C'est pourquoi **l'ordre des règles est primordial**.
+
+**L'ordre compte : autoriser PUIS refuser.** Pour « ouvrir le port 6002 uniquement depuis une IP », on met d'abord la règle ACCEPT pour cette IP, puis une règle DROP générale. Inversé, le DROP attraperait tout en premier et l'ACCEPT ne servirait jamais.
+
+```bash
+iptables -A INPUT -i eth0 -p tcp --dport 6002 -s 192.168.10.80 -j ACCEPT  # 1) autoriser l'IP
+iptables -A INPUT -i eth0 -p tcp --dport 6002 -j DROP                      # 2) bloquer le reste
+```
+
+**Anatomie d'une règle :**
+```bash
+iptables -A INPUT -i eth0 -p tcp --dport 5000 -j DROP
+         │   │     │       │       │            └ -j cible : ACCEPT, DROP, REJECT, REDIRECT
+         │   │     │       │       └ --dport port de destination (--sport = source)
+         │   │     │       └ -p protocole (tcp/udp/icmp)
+         │   │     └ -i interface d'entrée (-o = sortie)
+         │   └ chaîne
+         └ -A ajoute à la fin (-I insère au début, -D supprime)
+```
+
+**DROP vs REJECT** : `DROP` ignore le paquet silencieusement (le client attend puis *timeout*) ; `REJECT` renvoie un refus explicite (*connection refused* immédiat). DROP est plus discret, REJECT plus « propre ».
+
+**Redirection de port (NAT)** : `REDIRECT` se place dans la chaîne `PREROUTING` de la table `nat` (`-t nat`), car la décision doit être prise *avant* le routage.
+```bash
+iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 6000 -j REDIRECT --to-port 6001
+```
+
+**Pièges** :
+- Les règles iptables sont **volatiles** : perdues au reboot. Persister avec `iptables-save`/`netfilter-persistent` ou `iptables-persistent`.
+- `-A` ajoute en fin de chaîne ; pour placer une règle avant les autres, utiliser `-I`.
+- Le trafic `localhost` n'est pas filtré par une règle `-i eth0` — d'où le fait que `curl localhost:5000` fonctionne encore après le DROP.
+- Une mauvaise règle peut vous **verrouiller hors SSH** : garder un accès console de secours (ici `lxc exec`).
+
 ## Énoncé
 
 Solve this question on: `data-002`

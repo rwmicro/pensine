@@ -5,7 +5,6 @@ subdomain: "Biology > Human"
 tags: [sciences-appliquées, biologie, biologie-humaine]
 date: "2025-01-15"
 ---
-
 # Hémophilie
 
 L'**hémophilie** est une maladie génétique rare qui empêche le sang de coaguler correctement. En cas de blessure, le saignement ne s'arrête pas normalement — y compris les saignements internes, qui sont les plus dangereux.

@@ -5,7 +5,6 @@ subdomain: "Biology"
 tags: [sciences-appliquées, biologie]
 date: "2026-02-04"
 ---
-
 ### Sleep cycle
 
 A good sleep cycle is important for overall health and well-being. A normal sleep cycle is composed of 4 to 6 cycles of 90 minutes. 
@@ -67,16 +66,8 @@ A complete sleep cycle progresses through these stages:
 - Decreased performance
 
 ### Recommended Sleep Duration
-
 - Adults: 7-9 hours
 - Teenagers: 8-10 hours
 - Children: 9-12 hours
 - Infants: 12-16 hours
 
-# See Also
-
-- [[Alzheimer]] - Sleep's role in preventing neurodegenerative diseases
-- [[Psychologie]] - Impact on mental health
-
-
-*Dernière mise à jour: 2026-01-01*

@@ -5,7 +5,6 @@ subdomain: "Biology > Domaines"
 tags: [sciences-appliquées, biologie]
 date: "2026-02-22"
 ---
-
 # Neurobiologie
 
 La **neurobiologie** (ou neurosciences) étudie le système nerveux — sa structure, son fonctionnement, son développement et ses pathologies. Elle cherche à comprendre comment les neurones traitent l'information et comment le cerveau produit le comportement, les émotions, la mémoire et la conscience.

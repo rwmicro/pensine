@@ -1,5 +1,50 @@
 # Question 28 — Permissions, SUID/SGID and ACL
 
+## Notes d'apprentissage
+
+Le modèle de permissions Unix repose sur **trois classes × trois droits**, plus des bits spéciaux, et peut être affiné par les ACL. C'est le mécanisme central de sécurité du système de fichiers.
+
+**Modèle mental : qui × quoi.**
+
+```
+-rwxr-x---
+│└┬┘└┬┘└┬┘
+│ │  │  └ others (autres)        : ---
+│ │  └ group (groupe)            : r-x
+│ └ user (propriétaire)          : rwx
+└ type (- fichier, d dossier, l lien)
+
+valeurs : r=4  w=2  x=1   →   rwx=7  rw-=6  r-x=5  r--=4
+```
+
+**Les bits spéciaux (le chiffre de tête)** — souvent oubliés, ils sont décisifs :
+
+| Bit | Valeur | Sur un fichier | Sur un dossier |
+|---|---|---|---|
+| SUID | 4 | s'exécute avec les droits du **propriétaire** | — |
+| SGID | 2 | s'exécute avec les droits du **groupe** | nouveaux fichiers **héritent du groupe** |
+| Sticky | 1 | — | seul le propriétaire peut supprimer (ex. `/tmp`) |
+
+Le **SGID sur un dossier** est la clé de l'exercice « les nouveaux fichiers héritent du groupe `dev` » : `chmod 2770`. Sans lui, un fichier prend le groupe principal de son créateur.
+
+**Quand le modèle classique ne suffit pas : les ACL.** Le modèle propriétaire/groupe/autres ne permet qu'**un** propriétaire et **un** groupe. Pour donner un droit à un utilisateur supplémentaire précis (« alice peut lire ce fichier »), on utilise les ACL POSIX :
+```bash
+setfacl -m u:alice:rw fichier      # ajouter un droit pour alice
+getfacl fichier                    # voir les ACL
+setfacl -d -m u:alice:rwx dossier  # ACL par défaut (héritée par les nouveaux fichiers)
+```
+Un `+` à la fin du mode dans `ls -l` (`-rw-rw----+`) signale la présence d'ACL.
+
+**Le piège SUID/sécurité.** Un binaire SUID root mal choisi = élévation de privilèges. `find / -perm -4000 -type f` liste les SUID — réflexe d'audit aussi bien offensif que défensif.
+
+**`umask`** définit les bits *retirés* des permissions par défaut (666 fichiers / 777 dossiers). `umask 027` → fichiers 640, dossiers 750.
+
+**Pièges** :
+- `-perm 644` (exact) ≠ `-perm -644` (au moins ces bits) ≠ `-perm /644` (au moins un) — voir [[q09-find-files-with-properties-and-perform-actions]].
+- `chmod -R g+rwX` : le **X majuscule** ne met le bit exécutable que sur les dossiers et fichiers déjà exécutables — évite de rendre tous les fichiers exécutables.
+- Les ACL exigent un système de fichiers monté avec l'option `acl` (par défaut sur ext4/xfs modernes).
+- Le « mask » ACL plafonne les droits effectifs des utilisateurs/groupes nommés — un droit ACL peut être bridé par le mask.
+
 ## Énoncé
 
 Solve this question on: `data-001`

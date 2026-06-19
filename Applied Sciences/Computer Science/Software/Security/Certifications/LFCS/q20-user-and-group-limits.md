@@ -1,5 +1,49 @@
 # Question 20 — User and Group limits
 
+## Notes d'apprentissage
+
+Les *ulimits* plafonnent les ressources qu'un utilisateur ou un processus peut consommer (nombre de processus, fichiers ouverts, mémoire…). Ils protègent le système contre l'épuisement, accidentel (boucle de `fork`) ou malveillant (*fork bomb*).
+
+**Modèle mental : limite douce (soft) vs limite dure (hard).**
+
+```
+        0 ───────────── soft ─────────── hard ──────► ∞
+                          │                │
+        l'utilisateur peut ajuster sa      l'utilisateur NE PEUT PAS
+        soft limit librement entre 0       dépasser la hard ; seul root
+        et la hard limit                   peut l'élever
+```
+
+- **soft** : la limite réellement appliquée, modifiable par l'utilisateur **jusqu'à** la hard.
+- **hard** : le plafond absolu ; seul root peut le relever.
+
+C'est tout l'enjeu de l'exercice : une soft limit posée dans `.bashrc` est contournable par l'utilisateur (`ulimit -S -u 1100`). Une hard limit dans `/etc/security/limits.conf` ne l'est pas.
+
+**Deux endroits, deux portées :**
+```bash
+ulimit -a                 # voir les limites de la session courante
+ulimit -S -u 1100         # modifier la SOFT (session, temporaire, contournable)
+ulimit -H -u              # afficher la HARD
+```
+Pour une limite **persistante et non contournable**, c'est `/etc/security/limits.conf` (ou un fichier dans `/etc/security/limits.d/`), appliqué au login par le module PAM `pam_limits.so` (voir [[q30-pam-configuration]]).
+
+**Syntaxe de `/etc/security/limits.conf` :**
+```
+<domaine>   <type>   <item>      <valeur>
+jackie      hard     nproc       1024
+@operators  hard     maxlogins   1
+*           soft     nofile      4096
+```
+- **domaine** : un utilisateur, `@groupe`, ou `*` (tous).
+- **type** : `soft`, `hard`, ou `-` (les deux).
+- **item** : `nproc` (nb de processus), `nofile` (fichiers ouverts), `maxlogins` (sessions simultanées), `fsize`, `as` (mémoire)…
+
+**Pièges** :
+- Une limite via `.bashrc` n'est **pas** une vraie limite système : l'utilisateur peut l'éditer ou la relever. La « bonne » façon est `limits.conf`.
+- `limits.conf` n'agit qu'aux **nouvelles** sessions de login (via PAM) — pas sur les processus déjà lancés.
+- `@nom` cible un **groupe** ; sans `@`, c'est un utilisateur.
+- Une soft limit ne peut jamais dépasser la hard ; définir d'abord la hard si on veut une soft élevée.
+
 ## Énoncé
 
 Solve this question on: `web-srv1`

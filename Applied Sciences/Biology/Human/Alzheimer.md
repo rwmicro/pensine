@@ -5,7 +5,6 @@ subdomain: "Biology > Human"
 tags: [sciences-appliquées, biologie, biologie-humaine]
 date: "2025-05-04"
 ---
-
 ### Définition
 La **maladie d'Alzheimer** est une maladie neurodégénérative progressive du cerveau, caractérisée par une détérioration des fonctions cognitives telles que la mémoire, le langage et le raisonnement, menant à une perte d'autonomie.
 

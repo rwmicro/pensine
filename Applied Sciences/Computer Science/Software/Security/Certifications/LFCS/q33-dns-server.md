@@ -1,5 +1,52 @@
 # Question 33 — DNS Server
 
+## Notes d'apprentissage
+
+Le DNS traduit les noms (`web-srv1.lfcs.lan`) en adresses IP. BIND9 est le serveur de référence. Cet exercice combine deux rôles distincts qu'il faut bien séparer dans sa tête.
+
+**Modèle mental : cache vs autorité.**
+
+```
+client ──► serveur BIND ┬─► CACHE : interroge l'Internet pour le compte du client,
+                        │           mémorise les réponses (résolveur récursif)
+                        └─► AUTORITÉ : détient lui-même les zones (lfcs.lan),
+                                       répond pour les noms qu'il possède
+```
+
+- **Caching-only** : le serveur ne possède aucune zone, il résout récursivement et met en cache. Accélère et mutualise les requêtes du réseau.
+- **Master zone** : le serveur fait *autorité* sur un domaine — c'est lui la source de vérité pour `lfcs.lan`.
+
+**Résolution directe vs inverse.** Le DNS répond à deux questions opposées :
+- **Directe** (zone normale, enregistrement `A`) : nom → IP (`web-srv1.lfcs.lan` → `192.168.50.10`).
+- **Inverse** (zone `in-addr.arpa`, enregistrement `PTR`) : IP → nom. Indispensable pour les logs, le mail, l'authentification.
+
+**Les types d'enregistrements à connaître :**
+
+| Type | Rôle |
+|---|---|
+| `A` / `AAAA` | nom → IPv4 / IPv6 |
+| `PTR` | IP → nom (résolution inverse) |
+| `CNAME` | alias d'un autre nom |
+| `MX` | serveur de courrier du domaine |
+| `NS` | serveurs DNS faisant autorité |
+| `SOA` | en-tête de zone (numéro de série, TTL…) |
+
+**Le numéro de série SOA — le piège n°1.** Chaque modification d'un fichier de zone **doit** s'accompagner d'une incrémentation du `serial` dans le SOA, sinon les serveurs secondaires ignorent le changement. Convention : `AAAAMMJJNN`.
+
+**Valider avant de recharger :**
+```bash
+named-checkconf                       # vérifier la syntaxe de la conf
+named-checkzone lfcs.lan /chemin/zone # vérifier un fichier de zone
+systemctl reload named  # ou bind9
+dig @serveur web-srv1.lfcs.lan        # tester depuis un client
+```
+
+**Pièges** :
+- Oublier d'incrémenter le `serial` SOA = changements invisibles pour les secondaires.
+- Service nommé différemment : `bind9` (Debian) vs `named` (RHEL) ; conf `/etc/bind/` vs `/etc/named.conf`.
+- Pour servir un réseau, il faut `listen-on` + `allow-query` corrects, sinon BIND ne répond qu'en local.
+- Tester avec `dig` (et non `ping`) : `dig` parle directement au serveur DNS et montre la réponse brute.
+
 ## Énoncé
 
 Solve this question on: `data-001`

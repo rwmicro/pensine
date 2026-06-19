@@ -5,7 +5,6 @@ subdomain: "Biology"
 tags: [sciences-appliquées, biologie]
 date: "2026-02-28"
 ---
-
 # L'Avenir d'Homo Sapiens
 
 ## Une espèce en train de se transformer

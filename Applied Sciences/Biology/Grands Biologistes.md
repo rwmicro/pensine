@@ -5,7 +5,6 @@ subdomain: "Biology"
 tags: [sciences-appliquées, biologie, darwin, mendel, crick, watson, crispr]
 date: "2026-04-18"
 ---
-
 # Grands Biologistes
 
 L'histoire de la biologie est celle d'une succession de révolutions conceptuelles : la classification du vivant, l'évolution, la génétique, la biologie moléculaire, la génomique. Chacune a transformé non seulement la science mais notre compréhension de ce que signifie être vivant.

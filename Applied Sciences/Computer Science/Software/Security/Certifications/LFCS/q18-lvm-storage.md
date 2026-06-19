@@ -1,5 +1,57 @@
 # Question 18 — LVM Storage
 
+## Notes d'apprentissage
+
+LVM (*Logical Volume Manager*) ajoute une couche d'abstraction entre les disques physiques et les systèmes de fichiers. Au lieu de partitions rigides, on obtient des volumes redimensionnables à chaud, répartis sur plusieurs disques.
+
+**Modèle mental : les trois étages de LVM.**
+
+```
+disques physiques        PV          VG              LV
+/dev/vdg, /dev/vdh  ──► Physical ──► Volume    ──►  Logical
+                        Volumes      Group           Volumes
+                        (pvcreate)   (vgcreate :     (lvcreate :
+                                      un "pool"        des "tranches"
+                                      d'espace)        formatables)
+```
+
+1. **PV** (Physical Volume) : un disque/partition initialisé pour LVM (`pvcreate`).
+2. **VG** (Volume Group) : un réservoir d'espace agrégeant un ou plusieurs PV (`vgcreate`).
+3. **LV** (Logical Volume) : une « partition » virtuelle taillée dans le VG, qu'on formate et monte (`lvcreate`).
+
+L'intérêt : un LV peut grandir tant que le VG a de l'espace libre, sans dépendre des frontières physiques d'un disque.
+
+**La règle des préfixes** — les commandes suivent les initiales :
+```
+pv* → Physical Volume   vg* → Volume Group   lv* → Logical Volume
+   pvs / pvdisplay         vgs / vgdisplay       lvs / lvdisplay   (afficher)
+   pvcreate                vgcreate              lvcreate          (créer)
+   pvremove                vgreduce/vgextend     lvremove/lvextend (modifier)
+```
+
+**Opérations de cet exercice :**
+```bash
+pvs ; vgs ; lvs                       # état actuel des trois niveaux
+vgreduce vol1 /dev/vdh                 # retirer un disque d'un VG
+pvremove /dev/vdh                      # (si on retire le PV de LVM)
+vgcreate vol2 /dev/vdh                 # nouveau VG sur ce disque
+lvcreate -L 50M -n p1 vol2             # LV de 50M nommé p1 dans vol2
+mkfs.ext4 /dev/vol2/p1                 # formater le LV
+```
+Un LV est accessible via `/dev/<VG>/<LV>` (ici `/dev/vol2/p1`).
+
+**Agrandir un volume** (cas fréquent en prod) se fait en deux temps : étendre le LV **puis** le système de fichiers.
+```bash
+lvextend -L +1G /dev/vol2/p1
+resize2fs /dev/vol2/p1        # ext4 ; xfs_growfs pour XFS
+```
+
+**Pièges** :
+- Avant `vgreduce`, le disque ne doit plus contenir de données actives (déplacer avec `pvmove` si nécessaire).
+- Agrandir le LV ne suffit pas : sans `resize2fs`/`xfs_growfs`, le système de fichiers ignore l'espace ajouté.
+- `-L 50M` = taille absolue ; `-L +50M` = ajout relatif. Confondre les deux est classique.
+- XFS ne peut **que grandir**, pas rétrécir — choix de système de fichiers à anticiper.
+
 ## Énoncé
 
 Solve this question on: `terminal`

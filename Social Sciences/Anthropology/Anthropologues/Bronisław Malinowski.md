@@ -5,7 +5,6 @@ subdomain: "Anthropology > Anthropologues"
 tags: [sciences-sociales, anthropologie]
 date: "2026-02-04"
 ---
-
 # Bronisław Malinowski (1884-1942)
 
 ## Biographie

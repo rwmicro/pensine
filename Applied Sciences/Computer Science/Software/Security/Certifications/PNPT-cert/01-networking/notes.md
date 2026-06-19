@@ -27,15 +27,15 @@ Chaque couche s'appuie sur celle du dessous et ne sait rien des autres. Quand un
         └──── câble / fibre / radio ─────────────┘
 ```
 
-| Couche | Nom          | Exemples                       | Surface d'attaque typique           |
-|--------|--------------|--------------------------------|-------------------------------------|
-| 7      | Application  | HTTP, FTP, SSH, DNS, SMTP      | Injections, auth, logique métier    |
-| 6      | Présentation | SSL/TLS, JPEG, ASCII           | TLS downgrade, padding oracle       |
-| 5      | Session      | NetBIOS, RPC                   | Détournement de session             |
-| 4      | Transport    | TCP, UDP                       | Scan de ports, SYN flood            |
-| 3      | Réseau       | IP, ICMP                       | Spoofing IP, routage                |
-| 2      | Liaison      | Ethernet, ARP, MAC             | ARP poisoning, MAC flooding         |
-| 1      | Physique     | Câbles, hubs                   | Accès physique, tap réseau          |
+| Couche | Nom          | Exemples                  | Surface d'attaque typique        |
+| ------ | ------------ | ------------------------- | -------------------------------- |
+| 7      | Application  | HTTP, FTP, SSH, DNS, SMTP | Injections, auth, logique métier |
+| 6      | Présentation | SSL/TLS, JPEG, ASCII      | TLS downgrade, padding oracle    |
+| 5      | Session      | NetBIOS, RPC              | Détournement de session          |
+| 4      | Transport    | TCP, UDP                  | Scan de ports, SYN flood         |
+| 3      | Réseau       | IP, ICMP                  | Spoofing IP, routage             |
+| 2      | Liaison      | Ethernet, ARP, MAC        | ARP poisoning, MAC flooding      |
+| 1      | Physique     | Câbles, hubs              | Accès physique, tap réseau       |
 
 **À retenir** : une attaque sur la couche N est invisible aux couches au-dessus. ARP poisoning intercepte tout HTTP non chiffré sans que l'application ne voie rien.
 

@@ -1,5 +1,50 @@
 # Question 22 — Systemd Targets and Services
 
+## Notes d'apprentissage
+
+systemd est le système d'init moderne (PID 1) : il démarre, supervise et ordonne tous les services. Tout y est une **unit** (unité), décrite par un fichier.
+
+**Modèle mental : units et targets.**
+
+```
+units :   .service (un démon)   .socket   .mount   .timer   .target ...
+                                                              │
+targets = groupes d'units = "états" du système (≈ anciens runlevels)
+   ex: multi-user.target = système complet sans interface graphique
+```
+
+Un *target* est un point de rassemblement : démarrer `graphical.target` entraîne `multi-user.target`, qui entraîne les services réseau, etc. Le `default.target` détermine l'état au démarrage.
+
+**Les deux verbes à ne pas confondre :**
+- **`enable`** = au **démarrage** (crée les liens pour lancer l'unit au boot). Persistant.
+- **`start`** = **maintenant** (lance l'unit dans la session courante). Temporaire.
+
+`systemctl enable --now nginx` fait les deux d'un coup. C'est la distinction la plus testée.
+
+**Trois états de blocage croissants :**
+
+| Action | Effet |
+|---|---|
+| `disable` | ne démarre plus au boot (mais lançable manuellement) |
+| `mask` | lié à `/dev/null` : **impossible** à démarrer, même comme dépendance |
+| `unmask` | annule le `mask` |
+
+**Personnaliser sans casser : les drop-in.** On ne modifie jamais un fichier d'unit fourni par le paquet (`/lib/systemd/system/`). On crée une surcharge avec `systemctl edit unit`, qui écrit dans `/etc/systemd/system/<unit>.d/override.conf`. Après toute édition manuelle d'un fichier d'unit : `systemctl daemon-reload`.
+
+**Inspection :**
+```bash
+systemctl status nginx          # état + dernières lignes de log
+systemctl is-enabled / is-active nginx
+systemctl --failed              # units en échec
+systemctl list-dependencies graphical.target
+```
+
+**Pièges** :
+- `enable` sans `start` (ou inversement) est l'erreur classique : « activé » ≠ « démarré ».
+- Après avoir édité un fichier `.service` à la main, oublier `daemon-reload` = changements ignorés.
+- `mask` est plus fort que `disable` ; un service masqué refuse de démarrer même tiré par une dépendance.
+- Les logs des units passent par journald — voir [[q24-system-logs]].
+
 ## Énoncé
 
 Solve this question on: `web-srv1`

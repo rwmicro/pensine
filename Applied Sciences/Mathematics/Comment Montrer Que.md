@@ -5,7 +5,6 @@ subdomain: "Mathematics"
 tags: [sciences-appliquées, mathématiques, méthodologie, exercices, recettes]
 date: "2026-05-20"
 ---
-
 # Comment Montrer Que…
 
 Face à une question d'exercice, le blocage initial vient rarement du manque de connaissance — il vient de **ne pas savoir par quel bout commencer**. Cette note est un index pratique : pour chaque type de question fréquente, elle indique la(les) méthode(s) standard à essayer. C'est un **réflexe à acquérir**, pas une vérité absolue : parfois la méthode standard ne marche pas, mais c'est presque toujours par là qu'il faut commencer.

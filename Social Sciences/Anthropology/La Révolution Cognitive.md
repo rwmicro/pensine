@@ -5,7 +5,6 @@ subdomain: "Anthropology"
 tags: [sciences-sociales, anthropologie, préhistoire, cognition, langage, sapiens]
 date: "2026-04-18"
 ---
-
 # La Révolution Cognitive (~70 000 ans)
 
 La révolution cognitive désigne la transformation radicale des capacités mentales d'Homo sapiens survenue il y a environ 70 000 ans. Elle n'est pas visible dans les fossiles (le volume crânien est stable depuis ~150 000 ans) mais ses effets sont spectaculaires : les sapiens commencent à produire des objets symboliques, à coloniser de nouveaux continents et à se comporter différemment de tous les autres animaux.

@@ -1,5 +1,45 @@
 # Question 37 — Mail Aliases and Postfix
 
+## Notes d'apprentissage
+
+Postfix est un MTA (*Mail Transfer Agent*) : il achemine le courrier. Sur un serveur, on ne configure souvent qu'un MTA **local** — pour que `cron`, les rapports système et les alertes puissent envoyer des mails internes.
+
+**Modèle mental : les trois agents du mail.**
+
+```
+MUA (client)  ──►  MTA (Postfix)  ──►  MDA  ──►  boîte aux lettres
+(rédige)           (achemine/route)    (livre)   /var/mail/<user>
+```
+
+**Local-only** signifie que Postfix n'écoute que sur `127.0.0.1` (`inet_interfaces = loopback-only`) : il ne reçoit pas de courrier d'Internet, il sert juste à distribuer le courrier *interne* à la machine. C'est la configuration la plus courante et la plus sûre pour un serveur applicatif.
+
+**Les alias : rediriger une adresse vers une ou plusieurs autres.** Le fichier `/etc/aliases` mappe un nom local vers des destinataires :
+```
+root:      alice                          # le courrier de root va à alice
+webmaster: alice
+devs:      alice, bob, team@example.com   # une liste de diffusion
+```
+Un alias peut pointer vers : un utilisateur local, plusieurs (liste), une adresse externe, un fichier, ou une commande.
+
+**L'étape qu'on oublie : `newaliases`.** Postfix ne lit pas `/etc/aliases` directement, mais sa version compilée `/etc/aliases.db`. Après toute modification :
+```bash
+sudo newaliases        # recompile aliases → aliases.db  (= postalias /etc/aliases)
+```
+Sans cela, les changements sont ignorés — piège quasi systématique.
+
+**Diagnostic de la file d'attente :**
+```bash
+mailq                  # courrier en attente (= postqueue -p)
+postfix flush          # forcer la tentative d'envoi
+tail -f /var/log/mail.log   # suivre l'acheminement
+```
+
+**Pièges** :
+- Oublier `newaliases` après avoir édité `/etc/aliases` = redirections inactives.
+- `local-only` : si Postfix écoute partout (`inet_interfaces = all`) sans relais sécurisé, on risque un *open relay* — danger de sécurité.
+- Après changement de `main.cf` : `postfix reload` (les alias n'ont besoin que de `newaliases`).
+- Tester avec `echo "corps" | mail -s "sujet" root` puis vérifier la boîte du destinataire réel.
+
 ## Énoncé
 
 Solve this question on: `app-srv1`

@@ -5,7 +5,6 @@ subdomain: "Anthropology > Anthropologues"
 tags: [sciences-sociales, anthropologie, geertz, interprétation, culture, anthropologie-symbolique]
 date: "2026-04-18"
 ---
-
 # Clifford Geertz (1926-2006)
 
 Clifford Geertz est l'anthropologue le plus influent de la seconde moitié du XXe siècle. En redéfinissant la culture comme un système de symboles à interpréter plutôt qu'un mécanisme à expliquer, il a transformé l'anthropologie d'une science qui cherche des lois en un art de la lecture — une herméneutique des sociétés humaines.

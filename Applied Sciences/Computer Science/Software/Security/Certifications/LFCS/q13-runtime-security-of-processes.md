@@ -1,5 +1,46 @@
 # Question 13 — Runtime Security of processes
 
+## Notes d'apprentissage
+
+Tout ce qu'un programme demande au noyau (ouvrir un fichier, créer un processus, envoyer un signal) passe par un **appel système** (*syscall*). Observer les syscalls d'un processus, c'est voir ce qu'il fait réellement, au-delà de son nom.
+
+**Modèle mental : le syscall, frontière entre programme et noyau.**
+
+```
+processus (espace utilisateur)
+      │  open(), read(), execve(), kill(), socket()...   ← syscalls
+      ▼
+   noyau (espace privilégié) ── exécute l'opération, renvoie un code
+```
+
+Un syscall comme `kill(666, SIGTERM)` signifie « envoyer le signal SIGTERM au PID 666 ». Surveiller ces appels permet de repérer un comportement interdit par une politique de sécurité.
+
+**`strace` : tracer les syscalls en direct.**
+```bash
+strace -p <PID>            # s'attacher à un processus en cours et voir ses syscalls
+strace -f commande         # tracer une commande ET ses processus enfants (-f = follow)
+strace -e trace=kill -p PID  # ne montrer que les syscalls "kill"
+strace -c -p PID           # résumé statistique par syscall
+```
+On laisse tourner quelques secondes pour capturer les appels périodiques. Ici, seul `collector2` émet un `kill(...)` — c'est le coupable.
+
+**Identifier puis neutraliser un processus :**
+```bash
+ps aux | grep collector             # PID + chemin de l'exécutable
+ls -l /proc/<PID>/exe               # chemin réel de l'exécutable (lien)
+kill <PID>                          # SIGTERM : demande d'arrêt propre
+kill -9 <PID>                       # SIGKILL : arrêt forcé (si SIGTERM ignoré)
+rm /bin/collector2                  # supprimer le binaire
+```
+
+**Les signaux courants** : `SIGTERM` (15, arrêt propre, par défaut), `SIGKILL` (9, tue sans recours), `SIGHUP` (1, souvent « recharge ta config »), `SIGSTOP`/`SIGCONT` (suspendre/reprendre).
+
+**Pièges** :
+- `strace` peut **ralentir fortement** le processus tracé — à éviter sur un service critique en production.
+- Un processus relancé par un superviseur (systemd, un parent) **réapparaît** après `kill` : supprimer le binaire et/ou désactiver le service, sinon il revient.
+- Tracer demande des privilèges (root, ou même utilisateur que le processus) ; `ptrace` peut être restreint par `kernel.yama.ptrace_scope`.
+- Lié à la sécurité d'exécution : seccomp (filtrage de syscalls) et le MAC, voir [[q44-selinux-and-apparmor]].
+
 ## Énoncé
 
 Solve this question on: `web-srv1`

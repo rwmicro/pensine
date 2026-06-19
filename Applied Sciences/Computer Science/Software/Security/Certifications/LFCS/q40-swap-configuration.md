@@ -1,5 +1,45 @@
 # Question 40 — Swap Configuration
 
+## Notes d'apprentissage
+
+Le swap est un espace disque qui sert d'extension à la RAM : quand la mémoire physique se remplit, le noyau y déplace des pages peu utilisées. Il évite l'arrêt brutal de processus (l'OOM killer) au prix de lenteurs.
+
+**Modèle mental : fichier de swap vs partition de swap.** Deux formes, même rôle :
+
+```
+swap = RAM "de secours" sur disque
+   ├─ fichier  (/swapfile)      → souple, redimensionnable, créé n'importe où
+   └─ partition (/dev/vdc1)     → historique, légèrement plus rapide, taille figée
+```
+
+Les deux passent par le **même trio de commandes** — c'est l'idée à retenir :
+```bash
+mkswap <cible>      # 1. "formater" en zone de swap
+swapon <cible>      # 2. activer (maintenant)
+swapoff <cible>     # désactiver
+```
+Pour un fichier, on le crée d'abord (`fallocate -l 1G /swapfile` + `chmod 600`) ; pour une partition, on la crée d'abord (`fdisk`). Ensuite, même `mkswap`/`swapon`.
+
+**Persistance : `/etc/fstab`.** `swapon` est temporaire ; pour réactiver au boot, une ligne dans fstab :
+```
+/swapfile     none  swap  sw           0 0
+/dev/vdc1     none  swap  sw,pri=10    0 0      # pri = priorité (plus haut = utilisé en premier)
+```
+
+**`vm.swappiness` règle l'agressivité** (0–100) : plus la valeur est haute, plus le noyau swappe tôt. Sur un serveur, on la baisse souvent (10–20) pour privilégier la RAM. C'est un paramètre sysctl — voir [[q25-sysctl-kernel-parameters]].
+
+**Inspecter :**
+```bash
+swapon --show        # zones de swap actives et leur priorité
+free -h              # RAM + swap utilisés
+```
+
+**Pièges** :
+- Un fichier de swap **doit** être en `chmod 600` et appartenir à root, sinon `swapon` refuse (avertissement de sécurité).
+- `swapon` seul ne survit pas au reboot : ligne `fstab` obligatoire pour la persistance.
+- `fallocate` peut échouer pour le swap sur certains FS (Btrfs) ; `dd if=/dev/zero ...` est l'alternative portable.
+- La priorité (`pri=`) départage plusieurs zones : utile pour préférer la partition rapide au fichier.
+
 ## Énoncé
 
 Solve this question on: `data-002`

@@ -5,7 +5,6 @@ subdomain: "Biology > Domaines"
 tags: [sciences-appliquées, biologie]
 date: "2026-02-22"
 ---
-
 # Physiologie Humaine
 
 La **physiologie humaine** étudie le fonctionnement du corps humain — comment ses organes et systèmes travaillent ensemble pour maintenir la vie. Elle cherche à comprendre les mécanismes qui sous-tendent chaque fonction vitale, du battement du cœur à la digestion en passant par la régulation de la température.

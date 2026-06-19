@@ -5,7 +5,6 @@ subdomain: "Law > Systèmes Juridiques"
 tags: [sciences-sociales, droit, charia, fiqh, islam, droit-religieux]
 date: "2026-04-18"
 ---
-
 # Droit Musulman (Charia)
 
 Le droit musulman est un système juridique fondé sur la **religion islamique**. La *charia* (littéralement "la voie", "le chemin") désigne l'ensemble des règles que Dieu a prescrites aux musulmans pour guider leur vie — elle couvre le culte, la morale, la vie familiale, les transactions commerciales et, dans certains cas, le droit pénal. Le *fiqh* (jurisprudence islamique) est l'effort humain d'interprétation de ces règles.

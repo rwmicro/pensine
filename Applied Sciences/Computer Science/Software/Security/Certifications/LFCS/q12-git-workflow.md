@@ -1,5 +1,51 @@
 # Question 12 — Git Workflow
 
+## Notes d'apprentissage
+
+Git suit l'historique d'un projet sous forme d'instantanés (*commits*). L'examen LFCS ne demande pas d'expertise Git, mais le flux de base : cloner, comparer des branches, fusionner, committer.
+
+**Modèle mental : trois zones.**
+
+```
+répertoire de travail  ──git add──►  index (staging)  ──git commit──►  dépôt (.git)
+(vos fichiers)                       (changements                      (historique
+                                      préparés)                         des commits)
+```
+
+Un fichier ne rejoint l'historique qu'après `git add` (le mettre en staging) **puis** `git commit`. C'est en deux temps : on choisit *quoi* committer, puis on committe.
+
+**Git fonctionne aussi en local.** On peut cloner un dépôt depuis un simple chemin de fichier, sans serveur distant :
+```bash
+git clone /repositories/auto-verifier ~/repositories/auto-verifier
+```
+
+**Branches : explorer et comparer sans fusionner.** Pour trouver dans quelle branche un fichier a une valeur donnée, on lit le fichier *sur* chaque branche sans changer de branche :
+```bash
+git branch -a                          # lister toutes les branches
+git show dev4:config.yaml              # contenu de config.yaml DANS la branche dev4
+git checkout dev5 -- config.yaml       # (autre approche) extraire un fichier d'une branche
+```
+
+**Fusionner (`merge`)** intègre l'historique d'une branche dans la branche courante :
+```bash
+git checkout main          # se placer sur la branche cible
+git merge dev5             # y intégrer dev5
+```
+On fusionne *vers* la branche sur laquelle on se trouve. Toujours `checkout` la cible d'abord.
+
+**Committer un dossier vide** : Git ne suit que des fichiers, pas des dossiers. Pour qu'un dossier `logs/` soit versionné, il faut y placer un fichier — convention : `.keep` ou `.gitkeep`.
+```bash
+mkdir logs && touch logs/.keep
+git add logs/.keep
+git commit -m "added log directory"
+```
+
+**Pièges** :
+- Un dossier vide n'est jamais committé — d'où l'astuce du fichier `.keep`.
+- `git merge` peut produire un *conflit* si les deux branches modifient les mêmes lignes ; il faut alors éditer, `git add`, puis `git commit`.
+- Vérifier l'état à tout moment avec `git status` et `git log --oneline --graph`.
+- `git config user.name`/`user.email` doivent être définis pour committer.
+
 ## Énoncé
 
 Solve this question on: `terminal`

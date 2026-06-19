@@ -5,7 +5,6 @@ subdomain: "Anthropology > Terrains"
 tags: [sciences-sociales, anthropologie]
 date: "2026-02-04"
 ---
-
 # Îles Trobriand
 
 ## Localisation

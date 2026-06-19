@@ -1,5 +1,51 @@
 # Question 42 — Disk Quotas
 
+## Notes d'apprentissage
+
+Les quotas limitent l'espace disque (et le nombre de fichiers) qu'un utilisateur ou un groupe peut consommer sur un système de fichiers. Ils empêchent qu'un seul utilisateur sature `/home` pour tout le monde.
+
+**Modèle mental : deux dimensions × deux seuils.**
+
+```
+                  blocs (espace)        inodes (nombre de fichiers)
+soft (souple)   ┌──────────────┐      ┌──────────────┐
+                │ dépassable     │      │ dépassable     │  pendant un "grace period"
+hard (dur)      │ JAMAIS dépassé │      │ JAMAIS dépassé │
+                └──────────────┘      └──────────────┘
+```
+
+On limite **deux ressources** (l'espace en *blocs*, et le nombre de fichiers en *inodes*) avec **deux seuils** chacune :
+- **soft** : peut être dépassée temporairement, pendant un *délai de grâce* (*grace period*) ; au-delà, blocage.
+- **hard** : plafond absolu, jamais franchissable.
+
+Cette structure soft/hard est la même logique que les ulimits de [[q20-user-and-group-limits]] — l'analogie aide à mémoriser.
+
+**Le workflow en trois temps :**
+```bash
+# 1. activer les quotas sur le FS : option de montage dans /etc/fstab
+#    usrquota,grpquota  →  puis remonter (mount -o remount /home)
+# 2. initialiser la base de comptage
+quotacheck -cugm /home
+quotaon /home
+# 3. fixer les limites
+setquota -u alice 500M 1G 1000 2000 /home   # soft/hard blocs, soft/hard inodes
+edquota -u alice                            # édition interactive
+```
+
+**Inspecter :**
+```bash
+quota -u alice          # quotas d'un utilisateur
+repquota /home          # rapport complet du système de fichiers
+```
+
+**La « technique du prototype »** : copier les quotas d'un utilisateur modèle vers les nouveaux comptes avec `edquota -p modele -u nouveau` — pratique pour appliquer un défaut commun.
+
+**Pièges** :
+- Les quotas doivent être **activés à deux endroits** : option de montage dans `/etc/fstab` (`usrquota`/`grpquota`) **et** `quotaon`. Oublier le remontage = quotas inactifs.
+- `quotacheck` doit idéalement tourner FS démonté ou en lecture seule pour un comptage exact.
+- Sur un FS **XFS**, les quotas se gèrent différemment (`xfs_quota`, options `uquota`/`gquota`) — pas de `quotacheck`.
+- Une limite soft sans *grace period* configuré se comporte presque comme une hard.
+
 ## Énoncé
 
 Solve this question on: `data-001`

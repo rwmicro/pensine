@@ -5,7 +5,6 @@ subdomain: "Biology > Domaines"
 tags: [sciences-appliquées, biologie]
 date: "2026-02-22"
 ---
-
 # Évolution
 
 L'**évolution** est le processus par lequel les caractéristiques héréditaires des populations vivantes se modifient au fil des générations. C'est le cadre unificateur de toute la biologie moderne — comme l'écrivait Theodosius Dobzhansky en 1973, *« rien n'a de sens en biologie sinon à la lumière de l'évolution »*.

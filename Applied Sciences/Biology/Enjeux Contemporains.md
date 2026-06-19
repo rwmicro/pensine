@@ -5,7 +5,6 @@ subdomain: "Biology"
 tags: [sciences-appliquées, biologie, crispr, climat, éthique]
 date: "2026-02-22"
 ---
-
 # Enjeux Contemporains en Biologie
 
 La biologie du XXIe siècle est sortie du laboratoire. Elle décide aujourd'hui de débats publics majeurs : peut-on modifier un embryon humain ? Comment ralentir la sixième extinction ? Faut-il breveter une séquence d'ADN ? Quatre grands fronts structurent ces enjeux.

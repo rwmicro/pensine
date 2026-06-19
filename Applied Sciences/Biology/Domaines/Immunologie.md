@@ -5,7 +5,6 @@ subdomain: "Biology > Domaines"
 tags: [sciences-appliquées, biologie]
 date: "2026-02-22"
 ---
-
 # Immunologie
 
 L'**immunologie** est la science qui étudie le système immunitaire — l'ensemble des mécanismes par lesquels un organisme se défend contre les agents pathogènes (bactéries, virus, parasites) et les cellules anormales (cancers).

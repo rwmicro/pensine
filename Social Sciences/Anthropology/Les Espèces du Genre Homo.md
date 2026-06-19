@@ -5,7 +5,6 @@ subdomain: "Anthropology"
 tags: [sciences-sociales, anthropologie]
 date: "2026-02-28"
 ---
-
 # Les Espèces du Genre Homo
 
 ## Un genre, plusieurs espèces

@@ -1,5 +1,44 @@
 # Question 34 — Apache HTTP Server
 
+## Notes d'apprentissage
+
+Apache (`httpd`) sert des sites web. L'exercice empile quatre briques classiques : hôte virtuel, authentification, HTTPS, restriction par IP. Comprendre l'organisation des fichiers de config est la clé.
+
+**Modèle mental : le virtual host, plusieurs sites sur une IP.** Un *vhost* permet à un même serveur de répondre différemment selon le nom de domaine demandé (`Host:` HTTP). C'est ainsi qu'une seule machine héberge plusieurs sites.
+
+```
+requête "site1.lfcs.lan"  ──► Apache lit l'en-tête Host ──► vhost site1 ──► /var/www/site1
+requête "site2.lfcs.lan"  ──►                            ──► vhost site2 ──► /var/www/site2
+```
+
+**Organisation des fichiers (Debian)** — le modèle « available/enabled » :
+```
+/etc/apache2/sites-available/   ← on y écrit les vhosts
+        │  a2ensite / a2dissite
+/etc/apache2/sites-enabled/     ← liens symboliques des vhosts actifs
+/etc/apache2/mods-available/    ← modules ; a2enmod ssl, a2enmod headers...
+```
+Sur RHEL c'est plus simple : tout fichier `.conf` dans `/etc/httpd/conf.d/` est chargé.
+
+**Activer une fonctionnalité = activer un module.** HTTPS exige `a2enmod ssl`, l'auth `mod_auth_basic`, etc. Oublier d'activer le module est l'erreur n°1.
+
+**Les quatre briques de l'exercice :**
+- **Auth Basic** : `htpasswd` crée un fichier d'utilisateurs/mots de passe, référencé dans le vhost par `AuthType Basic` + `Require valid-user`.
+- **HTTPS** : un certificat (ici auto-signé via `openssl`) + un vhost sur le port 443 avec `SSLEngine on`.
+- **Restriction par IP** : `Require ip 192.168.50.0/24` dans le bloc `<Directory>`/`<Location>`.
+
+**Valider avant de recharger :**
+```bash
+apache2ctl configtest     # ou: httpd -t  / apachectl -t
+systemctl reload apache2  # appliquer sans couper les connexions
+```
+
+**Pièges** :
+- Sur Debian, un vhost dans `sites-available/` n'est actif qu'après `a2ensite` + `reload`.
+- Activer le module SSL (`a2enmod ssl`) est indispensable avant tout vhost HTTPS.
+- `Require ip` (Apache 2.4) remplace l'ancienne syntaxe `Order/Allow/Deny` (2.2) — ne pas les mélanger.
+- Service et chemins diffèrent : `apache2`/`/etc/apache2` (Debian) vs `httpd`/`/etc/httpd` (RHEL) — voir [[q45-rhel-vs-debian-equivalents]]. Si SELinux est actif, le contexte des fichiers compte : voir [[q44-selinux-and-apparmor]].
+
 ## Énoncé
 
 Solve this question on: `web-srv1`
