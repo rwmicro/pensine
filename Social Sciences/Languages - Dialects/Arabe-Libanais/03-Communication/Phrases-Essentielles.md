@@ -12,38 +12,42 @@ Registres : **F** = formel / **C** = courant / **I** = informel
 
 ## Salutations et formules de base
 
-| Français | Libanais | Translittération | Registre |
-|----------|----------------|-----------------|----------|
-| Bonjour | مرحبا | mar7aba | C |
-| Bonjour (réponse) | مرحبتين | mar7abtein | C |
-| Salut | هلا | hala | I |
-| Bonjour (matin) | صباح الخير | sabā7 el-khēr | F/C |
-| Bonne soirée | مساء الخير | masā el-khēr | F/C |
-| Comment vas-tu ? (m.) | كيفك | kīfak | C |
-| Comment vas-tu ? (f.) | كيفك | kīfik | C |
-| Comment vas-tu ? (formel) | كيف حالك | kīf 7ālik | F |
-| Ça va, merci | منيح، شكراً | mnī7, shukran | C |
-| Ça va très bien | تمام | tamēm | C/I |
-| Au revoir | مع السلامة | ma3 el-salēme | C |
-| À bientôt | يلا باي | yalla bye | I |
-| Bonne nuit | تصبح على خير | tSba7 3a khēr | C |
+| Français                  | Libanais     | Translittération | Registre |
+| ------------------------- | ------------ | ---------------- | -------- |
+| Bonjour                   | مرحبا        | mar7aba          | C        |
+| Bonjour (réponse)         | مرحبتين      | mar7abtein       | C        |
+| Salut                     | هلا          | hala             | I        |
+| Bonjour (matin)           | صباح الخير   | sabā7 el-khēr    | F/C      |
+| Bonne soirée              | مساء الخير   | masā el-khēr     | F/C      |
+| Comment vas-tu ? (m.)     | كيفك         | kīfak            | C        |
+| Comment vas-tu ? (f.)     | كيفك         | kīfik            | C        |
+| Comment vas-tu ? (formel) | كيف حالك     | kīf 7ālik        | F        |
+| Ça va, merci              | منيح، شكراً  | mnī7, shukran    | C        |
+| Ça va très bien           | تمام         | tamēm            | C/I      |
+| Au revoir                 | مع السلامة   | ma3 el-salēme    | C        |
+| À bientôt                 | يلا باي      | yalla bye        | I        |
+| Bonne nuit                | تصبح على خير | tSba7 3a khēr    | C        |
+
+ايه منيح الحمد الله
+
+
 
 ## Politesse et remerciements
 
-| Français            | Libanais | Translittération | Registre |
-| ------------------- | -------------- | --------------- | -------- |
-| Merci               | شكراً / مرسي   | shukran / mersi | C        |
-| Merci beaucoup      | شكراً كتير     | shukran ktīr    | C        |
-| De rien             | عفواً          | 3afwan          | F/C      |
-| S'il vous plaît     | من فضلك        | min fadlak      | C        |
-| Pardon / Excuse-moi | عفواً / آسف    | 3afwan / āsif   | C        |
-| Ce n'est pas grave  | ما في شي       | mā fī shi       | C        |
-| Bien sûr            | طبعاً          | Tab3an          | C        |
-| D'accord            | تمام / أوك     | tamēm / ok      | C/I      |
+| Français            | Libanais     | Translittération | Registre |
+| ------------------- | ------------ | ---------------- | -------- |
+| Merci               | شكراً / مرسي | shukran / mersi  | C        |
+| Merci beaucoup      | شكراً كتير   | shukran ktīr     | C        |
+| De rien             | عفواً        | 3afwan           | F/C      |
+| S'il vous plaît     | من فضلك      | min fadlak       | C        |
+| Pardon / Excuse-moi | عفواً / آسف  | 3afwan / āsif    | C        |
+| Ce n'est pas grave  | ما في شي     | mā fī shi        | C        |
+| Bien sûr            | طبعاً        | Tab3an           | C        |
+| D'accord            | تمام / أوك   | tamēm / ok       | C/I      |
 
 ## Présentation
 
-| Français                    | Libanais             | Translittération              | Registre |
+| Français                    | Libanais             | Translittération             | Registre |
 | --------------------------- | -------------------- | ---------------------------- | -------- |
 | Je m'appelle...             | اسمي...              | ismi...                      | C        |
 | Comment tu t'appelles ?     | شو اسمك              | shu ismak (m.) / ismik (f.)  | C        |

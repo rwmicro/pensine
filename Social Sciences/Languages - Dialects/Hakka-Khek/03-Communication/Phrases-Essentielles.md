@@ -75,11 +75,11 @@ Variété Hakka de Kalimantan occidental (Borneo). Translittération phonétique
 
 ## Expressions utiles
 
-| Français | Hakka |
-|----------|-------|
-| C'est bien | Ngai oi |
-| Bravo | Ho ho |
-| Vraiment ? | Chin-hai mo? |
+| Français       | Hakka          |
+| -------------- | -------------- |
+| C'est bien     | Ngai oi        |
+| Bravo          | Ho ho          |
+| Vraiment ?     | Chin-hai mo?   |
 | Je ne sais pas | Ngai mang chai |
-| Peut-être | Kian-nai |
-| Attends | Tang yit ha |
+| Peut-être      | Kian-nai       |
+| Attends        | Tang yit ha    |

@@ -7,7 +7,7 @@ date: "2026-04-28"
 ---
 # Communication Non-Verbale — Gestes et Codes Culturels
 
-Apprendre une langue ne suffit pas — il faut aussi maîtriser les **codes non-verbaux** : gestes, distance physique, contact visuel, ponctualité, salutations physiques. Une erreur peut coûter une relation.
+Apprendre une langue ne suffit pas, il faut aussi maîtriser les **codes non-verbaux** : gestes, distance physique, contact visuel, ponctualité, salutations physiques. Une erreur peut coûter une relation.
 
 ## Les 5 dimensions de la communication non-verbale
 
@@ -30,7 +30,7 @@ Edward T. Hall a défini 4 zones, qui varient fortement selon les cultures.
 | Sociale | 120–360 cm | Connaissances, négociations |
 | Publique | 360+ cm | Conférence, public, formel |
 
-### Variations culturelles — distance personnelle confortable
+### Variations culturelles - distance personnelle confortable
 
 | Région | Distance habituelle | Caractéristique |
 |--------|---------------------|----------------|

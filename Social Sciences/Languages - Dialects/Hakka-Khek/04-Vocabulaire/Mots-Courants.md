@@ -12,15 +12,15 @@ date: "2025-12-31"
 
 ## Pronouns
 
-| English          | Hakka                    | Dialect Notes |
-|------------------|--------------------------|---------------|
-| I / Me           | ngai                     | [Universal] All dialects |
-| You (singular)   | nyi [WK] / ngi           | nyi more common in WK; both acceptable |
-| He / She / It    | ki [WK] / khi            | Regional variation |
-| We               | ngai-tew-sa [WK] / nga ngin | -tew-sa = plural marker |
-| Us               | tjhi'-ka / jhi ka        | Regional variations |
-| You (plural)     | nyi-tew-sa [WK]          | nyi + plural marker |
-| They             | ki-tew-sa [WK] / khi teu / khi teu ngin | Multiple forms used |
+| English        | Hakka                                   | Dialect Notes                          |
+| -------------- | --------------------------------------- | -------------------------------------- |
+| I / Me         | ngai                                    | [Universal] All dialects               |
+| You (singular) | nyi [WK] / ngi                          | nyi more common in WK; both acceptable |
+| He / She / It  | ki [WK] / khi                           | Regional variation                     |
+| We             | ngai-tew-sa [WK] / nga ngin             | -tew-sa = plural marker                |
+| Us             | tjhi'-ka / jhi ka                       | Regional variations                    |
+| You (plural)   | nyi-tew-sa [WK]                         | nyi + plural marker                    |
+| They           | ki-tew-sa [WK] / khi teu / khi teu ngin | Multiple forms used                    |
 
 ## Basic Responses
 

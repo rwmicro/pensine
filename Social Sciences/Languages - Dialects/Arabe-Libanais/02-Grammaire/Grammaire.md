@@ -11,16 +11,16 @@ L'arabe libanais est un dialecte levantin simplifié par rapport à l'arabe stan
 
 ## Pronoms personnels
 
-| Personne | Pronom | Translittération | Notes |
-|----------|--------|-----------------|-------|
-| Je | أنا | ana | |
-| Tu (masc.) | إنت | inta | |
-| Tu (fém.) | إنتِ | inti | |
-| Il | هو | huwe | |
-| Elle | هي | hiye | |
-| Nous | نحنا | nehna | |
-| Vous | إنتو | intu | |
-| Ils/Elles | هنّي | henni | pas de distinction genre au pluriel |
+| Personne   | Pronom | Translittération | Notes                               |
+| ---------- | ------ | ---------------- | ----------------------------------- |
+| Je         | أنا    | ana              |                                     |
+| Tu (masc.) | إنت    | inta             |                                     |
+| Tu (fém.)  | إنتِ   | inti             |                                     |
+| Il         | هو     | huwe             |                                     |
+| Elle       | هي     | hiye             |                                     |
+| Nous       | نحنا   | nehna            |                                     |
+| Vous       | إنتو   | intu             |                                     |
+| Ils/Elles  | هنّي   | henni            | pas de distinction genre au pluriel |
 
 ## Les verbes — présent avec préfixe b-
 

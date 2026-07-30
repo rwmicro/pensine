@@ -9,18 +9,19 @@ date: "2026-04-28"
 
 ## Oui / Non / Affirmations
 
-| Caractères | Pinyin | Sens |
-|-----------|--------|------|
-| 是 | shì | Oui (être) |
-| 对 | duì | Correct / Oui |
-| 是的 | shì de | Oui (formel) |
-| 好 | hǎo | OK / Bien |
-| 不 | bù | Non |
-| 不是 | bú shì | Non (négation de être) |
-| 不对 | bú duì | Faux / Non |
-| 没有 | méiyǒu | Non (négation passé) |
-| 也许 | yěxǔ | Peut-être |
-| 当然 | dāngrán | Bien sûr |
+| Caractères | Pinyin  | Sens                   |
+| ---------- | ------- | ---------------------- |
+| 是          | shì     | Oui (être)             |
+| 对          | duì     | Correct / Oui          |
+| 是的         | shì de  | Oui (formel)           |
+| 好          | hǎo     | OK / Bien              |
+| 不          | bù      | Non                    |
+| 不是         | bú shì  | Non (négation de être) |
+| 不对         | bú duì  | Faux / Non             |
+| 没有         | méiyǒu  | Non (négation passé)   |
+| 也许         | yěxǔ    | Peut-être              |
+| 当然         | dāngrán | Bien sûr               |
+哈哈 | | ahahah
 
 > Le mandarin n'a pas de "oui/non" universels comme en français. On répond avec **le verbe** ou sa négation. Question avec 是? → réponse 是 ou 不是.
 

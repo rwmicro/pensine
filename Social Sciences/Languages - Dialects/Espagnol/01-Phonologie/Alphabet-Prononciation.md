@@ -24,35 +24,35 @@ L'espagnol (*español* ou *castellano*) est une langue romane issue du latin vul
 
 L'alphabet espagnol est celui du latin plus la lettre **Ñ**. Depuis la réforme RAE de 2010, *ch* et *ll* ne sont plus considérés comme des lettres à part.
 
-| Lettre | Nom | Son (IPA) | Exemple | Sens |
-|--------|-----|----------|---------|------|
-| A a | a | /a/ | **a**mor | amour |
-| B b | be | /b/ ou /β/ | **b**ueno | bon |
-| C c | ce | /k/ (devant a,o,u) / /θ/ ou /s/ (devant e,i) | **c**asa / **c**ine | maison / cinéma |
-| D d | de | /d/ ou /ð/ | **d**ía | jour |
-| E e | e | /e/ | **e**scuela | école |
-| F f | efe | /f/ | **f**uego | feu |
-| G g | ge | /ɡ/ (devant a,o,u) / /x/ (devant e,i) | **g**ato / **g**ente | chat / gens |
-| H h | hache | muet | **h**ola | salut |
-| I i | i | /i/ | **i**sla | île |
-| J j | jota | /x/ — guttural | **j**ugar | jouer |
-| K k | ka | /k/ — emprunts | **k**ilo | kilo |
-| L l | ele | /l/ | **l**una | lune |
-| M m | eme | /m/ | **m**adre | mère |
-| N n | ene | /n/ | **n**oche | nuit |
-| Ñ ñ | eñe | /ɲ/ — "gn" de *champagne* | a**ñ**o | année |
-| O o | o | /o/ | **o**jo | œil |
-| P p | pe | /p/ | **p**an | pain |
-| Q q | cu | /k/ (toujours suivi de u muet) | **qu**e | que |
-| R r | erre | /ɾ/ ou /r/ | ca**r**o / **r**ojo | cher / rouge |
-| S s | ese | /s/ | **s**ol | soleil |
-| T t | te | /t/ | **t**iempo | temps |
-| U u | u | /u/ ou muet dans *gue/gui/que/qui* | **u**no | un |
-| V v | uve | /b/ ou /β/ (identique à B) | **v**ino | vin |
-| W w | uve doble | /w/ ou /b/ — emprunts | **w**eb | web |
-| X x | equis | /ks/, /x/ ou /s/ | ta**x**i / Mé**x**ico | taxi / Mexique |
-| Y y | ye / i griega | /j/ ou /ʝ/ | **y**o | je |
-| Z z | zeta | /θ/ (Espagne) ou /s/ (Amérique) | **z**apato | chaussure |
+| Lettre  | Nom           | Son (IPA)                                    | Exemple               | Sens            |
+| ------- | ------------- | -------------------------------------------- | --------------------- | --------------- |
+| ==A a== | a             | /a/                                          | **a**mor              | amour           |
+| ==B b== | be            | /b/ ou /β/                                   | **b**ueno             | bon             |
+| C c     | ce            | /k/ (devant a,o,u) / /θ/ ou /s/ (devant e,i) | **c**asa / **c**ine   | maison / cinéma |
+| D d     | de            | /d/ ou /ð/                                   | **d**ía               | jour            |
+| E e     | e             | /e/                                          | **e**scuela           | école           |
+| F f     | efe           | /f/                                          | **f**uego             | feu             |
+| G g     | ge            | /ɡ/ (devant a,o,u) / /x/ (devant e,i)        | **g**ato / **g**ente  | chat / gens     |
+| H h     | hache         | muet                                         | **h**ola              | salut           |
+| I i     | i             | /i/                                          | **i**sla              | île             |
+| J j     | jota          | /x/ — guttural                               | **j**ugar             | jouer           |
+| K k     | ka            | /k/ — emprunts                               | **k**ilo              | kilo            |
+| L l     | ele           | /l/                                          | **l**una              | lune            |
+| M m     | eme           | /m/                                          | **m**adre             | mère            |
+| N n     | ene           | /n/                                          | **n**oche             | nuit            |
+| Ñ ñ     | eñe           | /ɲ/ — "gn" de *champagne*                    | a**ñ**o               | année           |
+| O o     | o             | /o/                                          | **o**jo               | œil             |
+| P p     | pe            | /p/                                          | **p**an               | pain            |
+| Q q     | cu            | /k/ (toujours suivi de u muet)               | **qu**e               | que             |
+| R r     | erre          | /ɾ/ ou /r/                                   | ca**r**o / **r**ojo   | cher / rouge    |
+| S s     | ese           | /s/                                          | **s**ol               | soleil          |
+| T t     | te            | /t/                                          | **t**iempo            | temps           |
+| U u     | u             | /u/ ou muet dans *gue/gui/que/qui*           | **u**no               | un              |
+| V v     | uve           | /b/ ou /β/ (identique à B)                   | **v**ino              | vin             |
+| W w     | uve doble     | /w/ ou /b/ — emprunts                        | **w**eb               | web             |
+| X x     | equis         | /ks/, /x/ ou /s/                             | ta**x**i / Mé**x**ico | taxi / Mexique  |
+| Y y     | ye / i griega | /j/ ou /ʝ/                                   | **y**o                | je              |
+| Z z     | zeta          | /θ/ (Espagne) ou /s/ (Amérique)              | **z**apato            | chaussure       |
 
 ## Les cinq voyelles — piliers de l'espagnol
 

@@ -7,7 +7,7 @@ date: "2026-03-31"
 ---
 # Salutations — Arabe Libanais
 
-Les salutations libanaises sont souvent des échanges ritualisés multi-tours — connaître les paires question/réponse est essentiel. Cette fiche couvre les salutations en profondeur ; pour les phrases de survie tout-terrain, voir [[03-Communication/Phrases-Essentielles|Phrases Essentielles]].
+Les salutations libanaises sont souvent des échanges ritualisés multi-tours — connaître les paires question/réponse est essentiel. Cette fiche couvre les salutations en profondeur ; pour les phrases de survie tout-terrain, voir [[Social Sciences/Languages - Dialects/Arabe-Libanais/03-Communication/Phrases-Essentielles|Phrases Essentielles]].
 
 ## Salutations principales et leurs réponses
 

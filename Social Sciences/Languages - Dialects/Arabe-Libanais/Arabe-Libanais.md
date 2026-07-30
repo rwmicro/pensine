@@ -25,10 +25,10 @@ Point d'entrée du dossier. Objectif : **parler l'arabe libanais** (dialecte lev
 - [[02-Grammaire/Prepositions-et-Particules|Prépositions et Particules]]
 
 ## 03 — Communication
-- [[03-Communication/Phrases-Essentielles|Phrases Essentielles]] — phrases de survie tout-terrain
-- [[03-Communication/Salutations|Salutations]] — échanges ritualisés question/réponse
-- [[03-Communication/Situations|Dialogues en Situation]]
-- [[03-Communication/Registres|Registres]] — diglossie, code-switching
+- [[Social Sciences/Languages - Dialects/Arabe-Libanais/03-Communication/Phrases-Essentielles|Phrases Essentielles]] — phrases de survie tout-terrain
+- [[Social Sciences/Languages - Dialects/Arabe-Libanais/03-Communication/Salutations|Salutations]] — échanges ritualisés question/réponse
+- [[Social Sciences/Languages - Dialects/Arabe-Libanais/03-Communication/Situations|Dialogues en Situation]]
+- [[Social Sciences/Languages - Dialects/Arabe-Libanais/03-Communication/Registres|Registres]] — diglossie, code-switching
 - [[03-Communication/Argot-et-Jeunes|Argot et Langue des Jeunes]]
 - [[03-Communication/Insultes-et-Jurons|Insultes et Jurons]] (documentaire)
 
