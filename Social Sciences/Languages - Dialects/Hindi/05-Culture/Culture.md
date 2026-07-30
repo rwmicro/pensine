@@ -31,11 +31,11 @@ En Inde rurale et dans beaucoup de milieux urbains, plusieurs générations vive
 ### Le système d'adresse et le respect
 | Terme | Usage | Équivalent |
 |-------|-------|------------|
-| ==जी::hi== (ji) | Particule de respect ajoutée aux noms | "Monsieur / Madame" |
-| ==भैया::hi== (bhaiya) | Frère aîné / homme jeune | "Frère" affectif |
-| ==दीदी::hi== (didi) | Sœur aînée / femme jeune | "Sœur" affectif |
-| ==अंकल::hi== / ==आंटी::hi== | Adultes proches mais pas famille | Uncle / Auntie |
-| ==सर::hi== / ==मैडम::hi== | Milieu professionnel | Sir / Ma'am |
+| ![जी](audio/hi_male_f9ab02e39d92.mp3) (ji) | Particule de respect ajoutée aux noms | "Monsieur / Madame" |
+| ![भैया](audio/hi_male_e0a7443a04fe.mp3) (bhaiya) | Frère aîné / homme jeune | "Frère" affectif |
+| ![दीदी](audio/hi_male_dfc6bc8ffb69.mp3) (didi) | Sœur aînée / femme jeune | "Sœur" affectif |
+| ![अंकल](audio/hi_male_69eea6666281.mp3) / ![आंटी](audio/hi_male_9e38ff09811a.mp3) | Adultes proches mais pas famille | Uncle / Auntie |
+| ![सर](audio/hi_male_c2ddb4ccd604.mp3) / ![मैडम](audio/hi_male_e8dc99f5dde1.mp3) | Milieu professionnel | Sir / Ma'am |
 
 ## L'hospitalité — Atithi Devo Bhava
 
@@ -55,23 +55,23 @@ L'Inde est l'un des pays les plus religieusement divers du monde. La religion te
 
 | Vocabulaire | Origine | Usage |
 |------------|---------|-------|
-| ==इन्शाल्लाह::hi== (inshallah) | Arabe/islamique | Courant chez tous les indiens (= si Dieu le veut) |
-| ==भगवान जाने::hi== (Bhagwan jaane) | Hindou | Dieu sait (= sait jamais) |
-| ==राम राम::hi== | Hindou | Salutation / au revoir traditionnel |
-| ==खुदा हाफिज़::hi== (Khuda Hafiz) | Perso-islamique | Au revoir (milieu musulman) |
-| ==वाहेगुरु::hi== (Waheguru) | Sikh | Expression de gratitude / merveille |
+| ![इन्शाल्लाह](audio/hi_male_2d1c81bc4423.mp3) (inshallah) | Arabe/islamique | Courant chez tous les indiens (= si Dieu le veut) |
+| ![भगवान जाने](audio/hi_male_dde3d42ae349.mp3) (Bhagwan jaane) | Hindou | Dieu sait (= sait jamais) |
+| ![राम राम](audio/hi_male_810578a8f7d0.mp3) | Hindou | Salutation / au revoir traditionnel |
+| ![खुदा हाफिज़](audio/hi_male_babd07a347af.mp3) (Khuda Hafiz) | Perso-islamique | Au revoir (milieu musulman) |
+| ![वाहेगुरु](audio/hi_male_d08c0804a47c.mp3) (Waheguru) | Sikh | Expression de gratitude / merveille |
 
 ## Fêtes majeures
 
 | Fête | Calendrier | Description |
 |------|-----------|-------------|
-| ==दीवाली::hi== (Diwali) | Oct-Nov | Fête des lumières. Cadeaux, feux d'artifice, douceurs |
-| ==होली::hi== (Holi) | Fév-Mar | Fête des couleurs. On se jette de la poudre colorée |
-| ==ईद::hi== (Eid) | Calendrier lunaire | Fête musulmane de fin du Ramadan |
-| ==दशहरा::hi== (Dussehra) | Oct | Victoire du bien sur le mal (Ram sur Ravana) |
-| ==नवरात्रि::hi== (Navratri) | Oct | 9 nuits de danse (Garba/Dandiya) |
-| ==क्रिसमस::hi== | 25 déc. | Fêté dans tout le pays, pas seulement par les chrétiens |
-| ==मकर संक्रांति::hi== | 14 jan. | Fête du soleil, cerfs-volants, sésame |
+| ![दीवाली](audio/hi_male_52df483094f5.mp3) (Diwali) | Oct-Nov | Fête des lumières. Cadeaux, feux d'artifice, douceurs |
+| ![होली](audio/hi_male_c897ec258297.mp3) (Holi) | Fév-Mar | Fête des couleurs. On se jette de la poudre colorée |
+| ![ईद](audio/hi_male_6dbec32a571f.mp3) (Eid) | Calendrier lunaire | Fête musulmane de fin du Ramadan |
+| ![दशहरा](audio/hi_male_e1b765414d41.mp3) (Dussehra) | Oct | Victoire du bien sur le mal (Ram sur Ravana) |
+| ![नवरात्रि](audio/hi_male_df77781419e1.mp3) (Navratri) | Oct | 9 nuits de danse (Garba/Dandiya) |
+| ![क्रिसमस](audio/hi_male_1d46147940a3.mp3) | 25 déc. | Fêté dans tout le pays, pas seulement par les chrétiens |
+| ![मकर संक्रांति](audio/hi_male_cd80e1ecdc98.mp3) | 14 jan. | Fête du soleil, cerfs-volants, sésame |
 
 ## Nourriture et culture alimentaire
 
