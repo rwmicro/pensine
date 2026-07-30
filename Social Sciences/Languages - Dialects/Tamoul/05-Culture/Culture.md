@@ -34,12 +34,12 @@ Le tamoul est l'une des plus anciennes langues classiques encore vivantes. La li
 
 | Fête | Période | Description |
 |------|---------|-------------|
-| ==பொங்கல்::ta== (Pongal) | Jan 14-17 | Fête des récoltes — plat de riz sucré cuit en plein air, sanctification des vaches |
-| ==தைப்பூசம்::ta== (Thaipusam) | Jan-Fév | Pèlerinage à Murugan — kavadi (portage de fardeau) |
-| ==கார்த்திகை::ta== (Karthigai) | Nov-Déc | Fête des lumières — lampes à huile partout |
-| ==நவராத்திரி::ta== (Navaratri) | Oct | 9 nuits de décorations, kolu (présentoirs de poupées) |
-| ==ஆடி::ta== (Aadi) | Juil-Août | Mois sacré, offrandes à la déesse Mariamman |
-| ==தீபாவளி::ta== (Deepavali) | Oct-Nov | Fête des lumières (= Diwali dans le nord) |
+| ![பொங்கல்](audio/ta_male_355bb7702eb4.mp3) (Pongal) | Jan 14-17 | Fête des récoltes — plat de riz sucré cuit en plein air, sanctification des vaches |
+| ![தைப்பூசம்](audio/ta_male_57cb03163aba.mp3) (Thaipusam) | Jan-Fév | Pèlerinage à Murugan — kavadi (portage de fardeau) |
+| ![கார்த்திகை](audio/ta_male_b703fccfa5a7.mp3) (Karthigai) | Nov-Déc | Fête des lumières — lampes à huile partout |
+| ![நவராத்திரி](audio/ta_male_a74acf361101.mp3) (Navaratri) | Oct | 9 nuits de décorations, kolu (présentoirs de poupées) |
+| ![ஆடி](audio/ta_male_6dd394302a6f.mp3) (Aadi) | Juil-Août | Mois sacré, offrandes à la déesse Mariamman |
+| ![தீபாவளி](audio/ta_male_8696ec39ab17.mp3) (Deepavali) | Oct-Nov | Fête des lumières (= Diwali dans le nord) |
 
 ## Cuisine tamoule
 
@@ -82,7 +82,7 @@ Kollywood (Kodambakkam + Hollywood) est l'industrie cinématographique de Chenna
 | Valeur | Description |
 |--------|-------------|
 | Respect des aînés | Toucher les pieds, utiliser le pluriel de respect, ne jamais contredire un aîné en public |
-| Hospitalité | "==வாங்க::ta==, ==சாப்பிடுங்க::ta==" (Venez, mangez) — insistance à nourrir les invités |
+| Hospitalité | "![வாங்க](audio/ta_male_ae7501cc8ee1.mp3), ![சாப்பிடுங்க](audio/ta_male_3964e4a0fabc.mp3)" (Venez, mangez) — insistance à nourrir les invités |
 | Modestie | Ne pas se vanter directement — passer par la troisième personne ou l'humilité |
 | Famille | La famille nucléaire élargie reste l'unité sociale de base |
 | Mariage | Mariages arrangés encore courants — endogamie de caste souvent pratiquée |

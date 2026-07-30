@@ -30,7 +30,7 @@ Le **tamoul** (தமிழ் - tamiḻ) est une langue **dravidienne** parlée
 | **Usage** | Écriture formelle, littérature, journaux, discours officiels | Conversation quotidienne, films, TV informelle |
 | **Grammaire** | Conservatrice, complexe, archaïque | Simplifiée, innovations modernes |
 | **Vocabulaire** | Sanskrit emprunts, termes purs tamouls | Emprunts anglais, termes régionaux |
-| **Exemple (Je vais)** | ==நான் செல்கிறேன்::ta== (nāṉ celkiṟēṉ) | ==நான் போறேன்::ta== (nāṉ pōṟēṉ) |
+| **Exemple (Je vais)** | ![நான் செல்கிறேன்](audio/ta_male_90a5a4cc9323.mp3) (nāṉ celkiṟēṉ) | ![நான் போறேன்](audio/ta_male_fa773049b3e9.mp3) (nāṉ pōṟēṉ) |
 
 **Note pour apprenants :** Ce cours enseigne principalement le **tamoul parlé** (plus utile), avec mentions du littéraire.
 
@@ -40,7 +40,7 @@ Le **tamoul** (தமிழ் - tamiḻ) est une langue **dravidienne** parlée
 
 | Français (SVO) | Tamoul (SOV) | Translittération |
 |---------------|------------|-----------------|
-| **Je** mange du riz | **==நான்::ta==** ==சாதம்::ta== **==சாப்பிடுகிறேன்::ta==** | **Nāṉ** cātam **cāppiṭukiṟēṉ** |
+| **Je** mange du riz | **![நான்](audio/ta_male_0da8f4988388.mp3)** ![சாதம்](audio/ta_male_019d186eadbd.mp3) **![சாப்பிடுகிறேன்](audio/ta_male_50aad0fdcde3.mp3)** | **Nāṉ** cātam **cāppiṭukiṟēṉ** |
 | Sujet + Verbe + Objet | Sujet + Objet + Verbe | S + O + V |
 
 **Structure détaillée :**
@@ -58,19 +58,19 @@ Le **tamoul** (தமிழ் - tamiḻ) est une langue **dravidienne** parlée
 
 | Français | Tamoul | Translittération | Genre |
 |---------|--------|-----------------|-------|
-| Je | ==நான்::ta== | nāṉ | Neutre |
-| Tu (informel) | ==நீ::ta== | nī | Neutre |
-| Vous (formel, singulier) | ==நீங்கள்::ta== | nīṅkaḷ | Neutre |
-| Il | ==அவன்::ta== | avaṉ | Masculin (humain, informel) |
-| Il (formel/neutre) | ==அவர்::ta== | avar | Masculin (respect) |
-| Elle | ==அவள்::ta== | avaḷ | Féminin (humain, informel) |
-| Elle (formel) | ==அவர்::ta== | avar | Féminin (respect) |
-| Ça/Il/Elle (chose) | ==அது::ta== | atu | Neutre (non-humain) |
-| Nous (inclusif) | ==நாம்::ta== | nām | Inclusif (toi + moi) |
-| Nous (exclusif) | ==நாங்கள்::ta== | nāṅkaḷ | Exclusif (pas toi) |
-| Vous (pluriel) | ==நீங்கள்::ta== | nīṅkaḷ | Pluriel/Formel |
-| Ils/Elles (humains) | ==அவர்கள்::ta== | avarkaḷ | Humains |
-| Ils/Elles (choses) | ==அவை::ta== | avai | Non-humains |
+| Je | ![நான்](audio/ta_male_0da8f4988388.mp3) | nāṉ | Neutre |
+| Tu (informel) | ![நீ](audio/ta_male_26623a1c600d.mp3) | nī | Neutre |
+| Vous (formel, singulier) | ![நீங்கள்](audio/ta_male_a13c9da29f7f.mp3) | nīṅkaḷ | Neutre |
+| Il | ![அவன்](audio/ta_male_b592246da401.mp3) | avaṉ | Masculin (humain, informel) |
+| Il (formel/neutre) | ![அவர்](audio/ta_male_250f33203b98.mp3) | avar | Masculin (respect) |
+| Elle | ![அவள்](audio/ta_male_19a220dc0d1e.mp3) | avaḷ | Féminin (humain, informel) |
+| Elle (formel) | ![அவர்](audio/ta_male_250f33203b98.mp3) | avar | Féminin (respect) |
+| Ça/Il/Elle (chose) | ![அது](audio/ta_male_817bd6b2d892.mp3) | atu | Neutre (non-humain) |
+| Nous (inclusif) | ![நாம்](audio/ta_male_638494239d99.mp3) | nām | Inclusif (toi + moi) |
+| Nous (exclusif) | ![நாங்கள்](audio/ta_male_4d2dfe870b8d.mp3) | nāṅkaḷ | Exclusif (pas toi) |
+| Vous (pluriel) | ![நீங்கள்](audio/ta_male_a13c9da29f7f.mp3) | nīṅkaḷ | Pluriel/Formel |
+| Ils/Elles (humains) | ![அவர்கள்](audio/ta_male_c0f3a3920544.mp3) | avarkaḷ | Humains |
+| Ils/Elles (choses) | ![அவை](audio/ta_male_849ef592d09c.mp3) | avai | Non-humains |
 
 **Niveaux de Politesse :**
 - **நீ (nī)** : Très informel, enfants, amis très proches, animaux
@@ -106,18 +106,18 @@ Le tamoul a **trois genres** :
 
 | Singulier | Pluriel | Traduction |
 |-----------|---------|------------|
-| ==பையன்::ta== (paiyaṉ) | ==பையன்::ta==**==கள்::ta==** (paiyaṉ**kaḷ**) | garçons |
-| ==பெண்::ta== (peṇ) | ==பெண்::ta==**==கள்::ta==** (peṇ**kaḷ**) | femmes |
-| ==ஆசிரியர்::ta== (āciriyar) | ==ஆசிரியர்::ta==**==கள்::ta==** (āciriyar**kaḷ**) | professeurs |
+| ![பையன்](audio/ta_male_1274f00bd3ae.mp3) (paiyaṉ) | ![பையன்](audio/ta_male_1274f00bd3ae.mp3)**![கள்](audio/ta_male_7100bd8e7e3c.mp3)** (paiyaṉ**kaḷ**) | garçons |
+| ![பெண்](audio/ta_male_b463cdd4324b.mp3) (peṇ) | ![பெண்](audio/ta_male_b463cdd4324b.mp3)**![கள்](audio/ta_male_7100bd8e7e3c.mp3)** (peṇ**kaḷ**) | femmes |
+| ![ஆசிரியர்](audio/ta_male_e78364ee4a70.mp3) (āciriyar) | ![ஆசிரியர்](audio/ta_male_e78364ee4a70.mp3)**![கள்](audio/ta_male_7100bd8e7e3c.mp3)** (āciriyar**kaḷ**) | professeurs |
 
 #### Pour les Non-Humains
 **Suffixe :** **-கள்** (-kaḷ) ou **இன்** (-iṉ) selon le mot
 
 | Singulier | Pluriel | Traduction |
 |-----------|---------|------------|
-| ==புத்தகம்::ta== (puttakam) | ==புத்தகங்கள்::ta== (puttakaṅkaḷ) | livres |
-| ==மரம்::ta== (maram) | ==மரங்கள்::ta== (maraṅkaḷ) | arbres |
-| ==நாய்::ta== (nāy) | ==நாய்கள்::ta== (nāykaḷ) | chiens |
+| ![புத்தகம்](audio/ta_male_01efe8a596ef.mp3) (puttakam) | ![புத்தகங்கள்](audio/ta_male_d464fdf05b62.mp3) (puttakaṅkaḷ) | livres |
+| ![மரம்](audio/ta_male_5caaf94f9461.mp3) (maram) | ![மரங்கள்](audio/ta_male_a05eb3e8037c.mp3) (maraṅkaḷ) | arbres |
+| ![நாய்](audio/ta_male_a6faa0edae54.mp3) (nāy) | ![நாய்கள்](audio/ta_male_d51758b17e3e.mp3) (nāykaḷ) | chiens |
 
 **Règle d'euphonie :** Le suffixe peut changer selon la terminaison du mot (நாய் + கள் → நாய்கள்)
 
@@ -127,25 +127,25 @@ Le tamoul a **8 cas** formés par des **suffixes** (langue agglutinante).
 
 | Cas | Fonction | Suffixe (variable) | Exemple |
 |-----|----------|-------------------|---------|
-| **Nominatif** | Sujet | ∅ (rien) | ==மனிதன்::ta== (maṉitaṉ, l'homme) |
-| **Accusatif** | Objet direct | -==ஐ::ta== (-ai) | ==மனிதனை::ta== (maṉitaṉai, l'homme - objet) |
-| **Datif** | À, pour | -==க்கு::ta== (-kku) | ==மனிதனுக்கு::ta== (maṉitaṉukku, à l'homme) |
-| **Instrumental** | Avec, par | -==ஆல்::ta== (-āl) | ==மனிதனால்::ta== (maṉitaṉāl, par l'homme) |
-| **Ablatif** | De, depuis | -==இல் இருந்து::ta== (-il iruntu) | ==மனிதனிடமிருந்து::ta== (de l'homme) |
-| **Génitif** | De (possession) | -==உடைய::ta== (-uṭaiya) / -==இன்::ta== (-iṉ) | ==மனிதனின்::ta== (maṉitaṉiṉ, de l'homme) |
-| **Locatif** | Dans, sur | -==இல்::ta== (-il) | ==வீட்டில்::ta== (vīṭṭil, dans la maison) |
-| **Vocatif** | Ô (interpellation) | -==ஏ::ta== (-ē) | ==மனிதனே::ta==! (maṉitaṉē!, Ô homme!) |
+| **Nominatif** | Sujet | ∅ (rien) | ![மனிதன்](audio/ta_male_29d39ba6b34b.mp3) (maṉitaṉ, l'homme) |
+| **Accusatif** | Objet direct | -![ஐ](audio/ta_male_075e01b19339.mp3) (-ai) | ![மனிதனை](audio/ta_male_8eee1f5abeeb.mp3) (maṉitaṉai, l'homme - objet) |
+| **Datif** | À, pour | -![க்கு](audio/ta_male_a4f717fc2d4e.mp3) (-kku) | ![மனிதனுக்கு](audio/ta_male_5c2f23820a04.mp3) (maṉitaṉukku, à l'homme) |
+| **Instrumental** | Avec, par | -![ஆல்](audio/ta_male_5f69f0f9e32f.mp3) (-āl) | ![மனிதனால்](audio/ta_male_903f770e9420.mp3) (maṉitaṉāl, par l'homme) |
+| **Ablatif** | De, depuis | -![இல் இருந்து](audio/ta_male_75fec6d29669.mp3) (-il iruntu) | ![மனிதனிடமிருந்து](audio/ta_male_dbb5db185e15.mp3) (de l'homme) |
+| **Génitif** | De (possession) | -![உடைய](audio/ta_male_45bdc6f80e5a.mp3) (-uṭaiya) / -![இன்](audio/ta_male_9280b329f9aa.mp3) (-iṉ) | ![மனிதனின்](audio/ta_male_c389c8309ed5.mp3) (maṉitaṉiṉ, de l'homme) |
+| **Locatif** | Dans, sur | -![இல்](audio/ta_male_8c66a874becb.mp3) (-il) | ![வீட்டில்](audio/ta_male_03fea52fe5e7.mp3) (vīṭṭil, dans la maison) |
+| **Vocatif** | Ô (interpellation) | -![ஏ](audio/ta_male_3f847361a57e.mp3) (-ē) | ![மனிதனே](audio/ta_male_69697bc8b9dc.mp3)! (maṉitaṉē!, Ô homme!) |
 
 ### Exemples avec வீடு (vīṭu, maison)
 
 | Cas | Forme | Traduction |
 |-----|-------|------------|
-| Nominatif | ==வீடு::ta== | La maison (sujet) |
-| Accusatif | ==வீட்டை::ta== (vīṭṭai) | La maison (objet) |
-| Datif | ==வீட்டுக்கு::ta== (vīṭṭukku) | À la maison |
-| Instrumental | ==வீட்டால்::ta== (vīṭṭāl) | Par la maison |
-| Génitif | ==வீட்டின்::ta== (vīṭṭiṉ) | De la maison |
-| Locatif | ==வீட்டில்::ta== (vīṭṭil) | Dans la maison |
+| Nominatif | ![வீடு](audio/ta_male_16eba9539f64.mp3) | La maison (sujet) |
+| Accusatif | ![வீட்டை](audio/ta_male_c30e8dac36eb.mp3) (vīṭṭai) | La maison (objet) |
+| Datif | ![வீட்டுக்கு](audio/ta_male_6a47be27f574.mp3) (vīṭṭukku) | À la maison |
+| Instrumental | ![வீட்டால்](audio/ta_male_8d4dbeb39072.mp3) (vīṭṭāl) | Par la maison |
+| Génitif | ![வீட்டின்](audio/ta_male_04eb9d2421da.mp3) (vīṭṭiṉ) | De la maison |
+| Locatif | ![வீட்டில்](audio/ta_male_03fea52fe5e7.mp3) (vīṭṭil) | Dans la maison |
 
 **Note :** Les suffixes changent selon la terminaison du mot (sandhi).
 
@@ -155,12 +155,12 @@ Le tamoul utilise des **postpositions** (placées après le nom) plutôt que des
 
 | Français | Tamoul | Exemple |
 |---------|--------|---------|
-| Après | -==க்குப் பிறகு::ta== (-kkup piṟaku) | ==பள்ளிக்குப் பிறகு::ta== (après l'école) |
-| Avant | -==க்கு முன்::ta== (-kku muṉ) | ==சாப்பாட்டுக்கு முன்::ta== (avant le repas) |
-| Avec | -==உடன்::ta== (-uṭaṉ) | ==என்னுடன்::ta== (avec moi) |
-| Sans | -==இல்லாமல்::ta== (-illāmal) | ==பணம் இல்லாமல்::ta== (sans argent) |
-| Pour | -==க்காக::ta== (-kkāka) | ==உனக்காக::ta== (pour toi) |
-| À cause de | -==ஆல்::ta== (-āl) | ==மழையால்::ta== (à cause de la pluie) |
+| Après | -![க்குப் பிறகு](audio/ta_male_87b7a03a87eb.mp3) (-kkup piṟaku) | ![பள்ளிக்குப் பிறகு](audio/ta_male_e659880518d1.mp3) (après l'école) |
+| Avant | -![க்கு முன்](audio/ta_male_5d9c955fc14c.mp3) (-kku muṉ) | ![சாப்பாட்டுக்கு முன்](audio/ta_male_4e85d93cb319.mp3) (avant le repas) |
+| Avec | -![உடன்](audio/ta_male_5f5e9e6aacdc.mp3) (-uṭaṉ) | ![என்னுடன்](audio/ta_male_c18da022d0fa.mp3) (avec moi) |
+| Sans | -![இல்லாமல்](audio/ta_male_8cf91bca9f92.mp3) (-illāmal) | ![பணம் இல்லாமல்](audio/ta_male_cf0b0a635e86.mp3) (sans argent) |
+| Pour | -![க்காக](audio/ta_male_86ecb265a2b1.mp3) (-kkāka) | ![உனக்காக](audio/ta_male_4536a2a01b37.mp3) (pour toi) |
+| À cause de | -![ஆல்](audio/ta_male_5f69f0f9e32f.mp3) (-āl) | ![மழையால்](audio/ta_male_86664cb4c080.mp3) (à cause de la pluie) |
 
 ## Verbes
 
@@ -179,15 +179,15 @@ Racine + Suffixe Temporel + Suffixe Personnel
 
 | Tamoul | Translittération | Français |
 |--------|-----------------|----------|
-| ==போக::ta== | pōka | Aller |
-| ==வர::ta== | vara | Venir |
-| ==சாப்பிட::ta== | cāppiṭa | Manger |
-| ==குடிக்க::ta== | kuṭikka | Boire |
-| ==படிக்க::ta== | paṭikka | Lire/Étudier |
-| ==பேச::ta== | pēca | Parler |
-| ==எழுத::ta== | eḻuta | Écrire |
-| ==பார்க்க::ta== | pārkka | Voir |
-| ==கேட்க::ta== | kēṭka | Entendre/Demander |
+| ![போக](audio/ta_male_1c6b026fb0b4.mp3) | pōka | Aller |
+| ![வர](audio/ta_male_1c10f9c1054c.mp3) | vara | Venir |
+| ![சாப்பிட](audio/ta_male_616dc8667d49.mp3) | cāppiṭa | Manger |
+| ![குடிக்க](audio/ta_male_73a645575fa2.mp3) | kuṭikka | Boire |
+| ![படிக்க](audio/ta_male_cd9f6205255e.mp3) | paṭikka | Lire/Étudier |
+| ![பேச](audio/ta_male_5eb5812743b5.mp3) | pēca | Parler |
+| ![எழுத](audio/ta_male_cd2895879fc9.mp3) | eḻuta | Écrire |
+| ![பார்க்க](audio/ta_male_b8ad5ee6c0a0.mp3) | pārkka | Voir |
+| ![கேட்க](audio/ta_male_30686812ede8.mp3) | kēṭka | Entendre/Demander |
 
 ### Présent Simple
 
@@ -197,15 +197,15 @@ Racine + Suffixe Temporel + Suffixe Personnel
 
 | Pronom | Forme | Translittération | Français |
 |--------|-------|-----------------|----------|
-| ==நான்::ta== | ==போகிறேன்::ta== | pōkiṟēṉ | Je vais |
-| ==நீ::ta== | ==போகிறாய்::ta== | pōkiṟāy | Tu vas (informel) |
-| ==நீங்கள்::ta== | ==போகிறீர்கள்::ta== | pōkiṟīrkaḷ | Vous allez |
-| ==அவன்::ta== | ==போகிறான்::ta== | pōkiṟāṉ | Il va (masc.) |
-| ==அவள்::ta== | ==போகிறாள்::ta== | pōkiṟāḷ | Elle va |
-| ==அவர்::ta== | ==போகிறார்::ta== | pōkiṟār | Il/Elle va (formel) |
-| ==அது::ta== | ==போகிறது::ta== | pōkiṟatu | Ça va (neutre) |
-| ==நாம்::ta==/==நாங்கள்::ta== | ==போகிறோம்::ta== | pōkiṟōm | Nous allons |
-| ==அவர்கள்::ta== | ==போகிறார்கள்::ta== | pōkiṟārkaḷ | Ils/Elles vont |
+| ![நான்](audio/ta_male_0da8f4988388.mp3) | ![போகிறேன்](audio/ta_male_134d59fdd11d.mp3) | pōkiṟēṉ | Je vais |
+| ![நீ](audio/ta_male_26623a1c600d.mp3) | ![போகிறாய்](audio/ta_male_a2934475d42a.mp3) | pōkiṟāy | Tu vas (informel) |
+| ![நீங்கள்](audio/ta_male_a13c9da29f7f.mp3) | ![போகிறீர்கள்](audio/ta_male_9d7b8a8a9791.mp3) | pōkiṟīrkaḷ | Vous allez |
+| ![அவன்](audio/ta_male_b592246da401.mp3) | ![போகிறான்](audio/ta_male_18c111a3ad2f.mp3) | pōkiṟāṉ | Il va (masc.) |
+| ![அவள்](audio/ta_male_19a220dc0d1e.mp3) | ![போகிறாள்](audio/ta_male_d6409751250a.mp3) | pōkiṟāḷ | Elle va |
+| ![அவர்](audio/ta_male_250f33203b98.mp3) | ![போகிறார்](audio/ta_male_ef264d4b683c.mp3) | pōkiṟār | Il/Elle va (formel) |
+| ![அது](audio/ta_male_817bd6b2d892.mp3) | ![போகிறது](audio/ta_male_779139c4456b.mp3) | pōkiṟatu | Ça va (neutre) |
+| ![நாம்](audio/ta_male_638494239d99.mp3)/![நாங்கள்](audio/ta_male_4d2dfe870b8d.mp3) | ![போகிறோம்](audio/ta_male_dd1f1651d029.mp3) | pōkiṟōm | Nous allons |
+| ![அவர்கள்](audio/ta_male_c0f3a3920544.mp3) | ![போகிறார்கள்](audio/ta_male_93bab647b082.mp3) | pōkiṟārkaḷ | Ils/Elles vont |
 
 **Terminaisons personnelles :**
 - 1ère pers. sing. : **-ஏன்** (-ēṉ)
@@ -223,15 +223,15 @@ Racine + Suffixe Temporel + Suffixe Personnel
 
 | Pronom | Forme | Translittération | Français |
 |--------|-------|-----------------|----------|
-| ==நான்::ta== | ==போனேன்::ta== | pōṉēṉ | Je suis allé(e) |
-| ==நீ::ta== | ==போனாய்::ta== | pōṉāy | Tu es allé(e) |
-| ==நீங்கள்::ta== | ==போனீர்கள்::ta== | pōṉīrkaḷ | Vous êtes allé(e)(s) |
-| ==அவன்::ta== | ==போனான்::ta== | pōṉāṉ | Il est allé |
-| ==அவள்::ta== | ==போனாள்::ta== | pōṉāḷ | Elle est allée |
-| ==அவர்::ta== | ==போனார்::ta== | pōṉār | Il/Elle est allé(e) (formel) |
-| ==அது::ta== | ==போனது::ta== | pōṉatu | C'est allé (neutre) |
-| ==நாம்::ta==/==நாங்கள்::ta== | ==போனோம்::ta== | pōṉōm | Nous sommes allé(e)s |
-| ==அவர்கள்::ta== | ==போனார்கள்::ta== | pōṉārkaḷ | Ils/Elles sont allé(e)s |
+| ![நான்](audio/ta_male_0da8f4988388.mp3) | ![போனேன்](audio/ta_male_68ba43eda008.mp3) | pōṉēṉ | Je suis allé(e) |
+| ![நீ](audio/ta_male_26623a1c600d.mp3) | ![போனாய்](audio/ta_male_b3c5a6ac5ffd.mp3) | pōṉāy | Tu es allé(e) |
+| ![நீங்கள்](audio/ta_male_a13c9da29f7f.mp3) | ![போனீர்கள்](audio/ta_male_74b027b71e80.mp3) | pōṉīrkaḷ | Vous êtes allé(e)(s) |
+| ![அவன்](audio/ta_male_b592246da401.mp3) | ![போனான்](audio/ta_male_cb3ccba8bd9c.mp3) | pōṉāṉ | Il est allé |
+| ![அவள்](audio/ta_male_19a220dc0d1e.mp3) | ![போனாள்](audio/ta_male_9a13f1f760b4.mp3) | pōṉāḷ | Elle est allée |
+| ![அவர்](audio/ta_male_250f33203b98.mp3) | ![போனார்](audio/ta_male_87d85276e4d7.mp3) | pōṉār | Il/Elle est allé(e) (formel) |
+| ![அது](audio/ta_male_817bd6b2d892.mp3) | ![போனது](audio/ta_male_f9746a94c754.mp3) | pōṉatu | C'est allé (neutre) |
+| ![நாம்](audio/ta_male_638494239d99.mp3)/![நாங்கள்](audio/ta_male_4d2dfe870b8d.mp3) | ![போனோம்](audio/ta_male_f7ecde4e6ebb.mp3) | pōṉōm | Nous sommes allé(e)s |
+| ![அவர்கள்](audio/ta_male_c0f3a3920544.mp3) | ![போனார்கள்](audio/ta_male_22d304793f9b.mp3) | pōṉārkaḷ | Ils/Elles sont allé(e)s |
 
 **Suffixe passé :** **-ன்** (-ṉ) ou **-த்** (-t) selon le verbe (irrégulier, nécessite mémorisation)
 
@@ -243,15 +243,15 @@ Racine + Suffixe Temporel + Suffixe Personnel
 
 | Pronom | Forme | Translittération | Français |
 |--------|-------|-----------------|----------|
-| ==நான்::ta== | ==போவேன்::ta== | pōvēṉ | J'irai |
-| ==நீ::ta== | ==போவாய்::ta== | pōvāy | Tu iras |
-| ==நீங்கள்::ta== | ==போவீர்கள்::ta== | pōvīrkaḷ | Vous irez |
-| ==அவன்::ta== | ==போவான்::ta== | pōvāṉ | Il ira |
-| ==அவள்::ta== | ==போவாள்::ta== | pōvāḷ | Elle ira |
-| ==அவர்::ta== | ==போவார்::ta== | pōvār | Il/Elle ira (formel) |
-| ==அது::ta== | ==போவது::ta== | pōvatu | Ça ira |
-| ==நாம்::ta==/==நாங்கள்::ta== | ==போவோம்::ta== | pōvōm | Nous irons |
-| ==அவர்கள்::ta== | ==போவார்கள்::ta== | pōvārkaḷ | Ils/Elles iront |
+| ![நான்](audio/ta_male_0da8f4988388.mp3) | ![போவேன்](audio/ta_male_a9b70a8881b3.mp3) | pōvēṉ | J'irai |
+| ![நீ](audio/ta_male_26623a1c600d.mp3) | ![போவாய்](audio/ta_male_03e323184b75.mp3) | pōvāy | Tu iras |
+| ![நீங்கள்](audio/ta_male_a13c9da29f7f.mp3) | ![போவீர்கள்](audio/ta_male_e2dc8a629191.mp3) | pōvīrkaḷ | Vous irez |
+| ![அவன்](audio/ta_male_b592246da401.mp3) | ![போவான்](audio/ta_male_36c6b906cea7.mp3) | pōvāṉ | Il ira |
+| ![அவள்](audio/ta_male_19a220dc0d1e.mp3) | ![போவாள்](audio/ta_male_ce4feb2dfd2f.mp3) | pōvāḷ | Elle ira |
+| ![அவர்](audio/ta_male_250f33203b98.mp3) | ![போவார்](audio/ta_male_64f624a7c9f1.mp3) | pōvār | Il/Elle ira (formel) |
+| ![அது](audio/ta_male_817bd6b2d892.mp3) | ![போவது](audio/ta_male_6246f4c5625c.mp3) | pōvatu | Ça ira |
+| ![நாம்](audio/ta_male_638494239d99.mp3)/![நாங்கள்](audio/ta_male_4d2dfe870b8d.mp3) | ![போவோம்](audio/ta_male_d166c9544819.mp3) | pōvōm | Nous irons |
+| ![அவர்கள்](audio/ta_male_c0f3a3920544.mp3) | ![போவார்கள்](audio/ta_male_de2b9aa49747.mp3) | pōvārkaḷ | Ils/Elles iront |
 
 ### Impératif
 
@@ -259,10 +259,10 @@ Racine + Suffixe Temporel + Suffixe Personnel
 
 | Forme | Translittération | Français |
 |-------|-----------------|----------|
-| ==போ::ta==! | pō! | Va! (informel) |
-| ==போங்கள்::ta==! | pōṅkaḷ! | Allez! (formel/pluriel) |
-| ==சாப்பிடு::ta==! | cāppiṭu! | Mange! |
-| ==படி::ta==! | paṭi! | Lis!/Étudie! |
+| ![போ](audio/ta_male_7e82ef399ea0.mp3)! | pō! | Va! (informel) |
+| ![போங்கள்](audio/ta_male_d9ea0d6de227.mp3)! | pōṅkaḷ! | Allez! (formel/pluriel) |
+| ![சாப்பிடு](audio/ta_male_e6d2f31bece0.mp3)! | cāppiṭu! | Mange! |
+| ![படி](audio/ta_male_b1eea9f5ff4f.mp3)! | paṭi! | Lis!/Étudie! |
 
 ### Négation
 
@@ -285,9 +285,9 @@ Le tamoul a **deux verbes "être"** :
 
 | Pronom | Présent | Passé | Futur |
 |--------|---------|-------|-------|
-| ==நான்::ta== | ==இருக்கிறேன்::ta== (irukkiṟēṉ) | ==இருந்தேன்::ta== (iruntēṉ) | ==இருப்பேன்::ta== (iruppēṉ) |
-| ==நீ::ta== | ==இருக்கிறாய்::ta== (irukkiṟāy) | ==இருந்தாய்::ta== (iruntāy) | ==இருப்பாய்::ta== (iruppāy) |
-| ==அவன்::ta== | ==இருக்கிறான்::ta== (irukkiṟāṉ) | ==இருந்தான்::ta== (iruntāṉ) | ==இருப்பான்::ta== (iruppāṉ) |
+| ![நான்](audio/ta_male_0da8f4988388.mp3) | ![இருக்கிறேன்](audio/ta_male_14c5de3e4e45.mp3) (irukkiṟēṉ) | ![இருந்தேன்](audio/ta_male_0d24c37e122f.mp3) (iruntēṉ) | ![இருப்பேன்](audio/ta_male_7cddc2e7496b.mp3) (iruppēṉ) |
+| ![நீ](audio/ta_male_26623a1c600d.mp3) | ![இருக்கிறாய்](audio/ta_male_913d843f3cba.mp3) (irukkiṟāy) | ![இருந்தாய்](audio/ta_male_7b3da63114fe.mp3) (iruntāy) | ![இருப்பாய்](audio/ta_male_cfafa6bc978a.mp3) (iruppāy) |
+| ![அவன்](audio/ta_male_b592246da401.mp3) | ![இருக்கிறான்](audio/ta_male_4a813b2843d1.mp3) (irukkiṟāṉ) | ![இருந்தான்](audio/ta_male_bf829b1c02c9.mp3) (iruntāṉ) | ![இருப்பான்](audio/ta_male_c79c746c29a1.mp3) (iruppāṉ) |
 
 **Usage :** Localisation, état temporaire
 - நான் வீட்டில் இருக்கிறேன் (nāṉ vīṭṭil irukkiṟēṉ) = Je suis à la maison
@@ -356,14 +356,14 @@ Les adjectifs sont **invariables** (ne s'accordent pas en genre/nombre)
 
 | Français | Tamoul | Translittération | Exemple |
 |---------|--------|-----------------|---------|
-| Qui ? | ==யார்::ta==? | yār? | ==நீ யார்::ta==? (nī yār?, Qui es-tu?) |
-| Quoi ? | ==என்ன::ta==? | eṉṉa? | ==என்ன செய்கிறாய்::ta==? (Que fais-tu?) |
-| Où ? | ==எங்கே::ta==? | eṅkē? | ==நீ எங்கே போகிறாய்::ta==? (Où vas-tu?) |
-| Quand ? | ==எப்போது::ta==? | eppōtu? | ==எப்போது வருவாய்::ta==? (Quand viendras-tu?) |
-| Pourquoi ? | ==ஏன்::ta==? | ēṉ? | ==ஏன் வரவில்லை::ta==? (Pourquoi n'es-tu pas venu?) |
-| Comment ? | ==எப்படி::ta==? | eppaṭi? | ==நீ எப்படி இருக்கிறாய்::ta==? (Comment vas-tu?) |
-| Combien ? | ==எவ்வளவு::ta==? | evvaḷavu? | ==எவ்வளவு காசு::ta==? (Combien d'argent?) |
-| Quel/Quelle ? | ==எந்த::ta==? | enta? | ==எந்த புத்தகம்::ta==? (Quel livre?) |
+| Qui ? | ![யார்](audio/ta_male_d3f88617e070.mp3)? | yār? | ![நீ யார்](audio/ta_male_b6ac945b826f.mp3)? (nī yār?, Qui es-tu?) |
+| Quoi ? | ![என்ன](audio/ta_male_679e3362b39a.mp3)? | eṉṉa? | ![என்ன செய்கிறாய்](audio/ta_male_18d4abed2e1a.mp3)? (Que fais-tu?) |
+| Où ? | ![எங்கே](audio/ta_male_58f1df42197c.mp3)? | eṅkē? | ![நீ எங்கே போகிறாய்](audio/ta_male_9ea754068709.mp3)? (Où vas-tu?) |
+| Quand ? | ![எப்போது](audio/ta_male_d58396af17ab.mp3)? | eppōtu? | ![எப்போது வருவாய்](audio/ta_male_17d4080fe34d.mp3)? (Quand viendras-tu?) |
+| Pourquoi ? | ![ஏன்](audio/ta_male_0ce403aa6cea.mp3)? | ēṉ? | ![ஏன் வரவில்லை](audio/ta_male_6b5532fea06a.mp3)? (Pourquoi n'es-tu pas venu?) |
+| Comment ? | ![எப்படி](audio/ta_male_915b185cd56a.mp3)? | eppaṭi? | ![நீ எப்படி இருக்கிறாய்](audio/ta_male_cdd6968b4756.mp3)? (Comment vas-tu?) |
+| Combien ? | ![எவ்வளவு](audio/ta_male_42133a8cc97e.mp3)? | evvaḷavu? | ![எவ்வளவு காசு](audio/ta_male_012ac1d78c67.mp3)? (Combien d'argent?) |
+| Quel/Quelle ? | ![எந்த](audio/ta_male_1e4c19041410.mp3)? | enta? | ![எந்த புத்தகம்](audio/ta_male_35d279feacff.mp3)? (Quel livre?) |
 
 ## Participes et Formes Verbales Relatives
 
@@ -400,16 +400,16 @@ Les adjectifs sont **invariables** (ne s'accordent pas en genre/nombre)
 
 | Français | Tamoul | Translittération |
 |---------|--------|-----------------|
-| Maintenant | ==இப்போது::ta== | ippōtu |
-| Hier | ==நேற்று::ta== | nēṟṟu |
-| Aujourd'hui | ==இன்று::ta== | iṉṟu |
-| Demain | ==நாளை::ta== | nāḷai |
-| Toujours | ==எப்போதும்::ta== | eppōtum |
-| Jamais | ==ஒருபோதும் இல்லை::ta== | orupōtum illai |
-| Très | ==மிகவும்::ta== | mikavum |
-| Vite | ==விரைவாக::ta== | viraivāka |
-| Lentement | ==மெதுவாக::ta== | metuvāka |
-| Bien | ==நன்றாக::ta== | naṉṟāka |
+| Maintenant | ![இப்போது](audio/ta_male_75cfa77cc9a7.mp3) | ippōtu |
+| Hier | ![நேற்று](audio/ta_male_6c4ae5fd321a.mp3) | nēṟṟu |
+| Aujourd'hui | ![இன்று](audio/ta_male_876d0fa396fb.mp3) | iṉṟu |
+| Demain | ![நாளை](audio/ta_male_091ab9b60a29.mp3) | nāḷai |
+| Toujours | ![எப்போதும்](audio/ta_male_8e7fe5ef3998.mp3) | eppōtum |
+| Jamais | ![ஒருபோதும் இல்லை](audio/ta_male_67a26f10219d.mp3) | orupōtum illai |
+| Très | ![மிகவும்](audio/ta_male_b5bcd4202d7d.mp3) | mikavum |
+| Vite | ![விரைவாக](audio/ta_male_2b61d14db28e.mp3) | viraivāka |
+| Lentement | ![மெதுவாக](audio/ta_male_be7a8e44051d.mp3) | metuvāka |
+| Bien | ![நன்றாக](audio/ta_male_a3cb68dbd13c.mp3) | naṉṟāka |
 
 ## Particularités Grammaticales
 
@@ -441,12 +441,12 @@ Le **pluriel** peut indiquer le **respect** (comme "vous" en français).
 
 | Tamoul | Translittération | Français |
 |--------|-----------------|----------|
-| ==நான் சாப்பிடுகிறேன்::ta== | nāṉ cāppiṭukiṟēṉ | Je mange |
-| ==நீ எங்கே போகிறாய்::ta==? | nī eṅkē pōkiṟāy? | Où vas-tu? |
-| ==அவன் புத்தகம் படிக்கிறான்::ta== | avaṉ puttakam paṭikkiṟāṉ | Il lit un livre |
-| ==நாங்கள் நாளை வருவோம்::ta== | nāṅkaḷ nāḷai varuvōm | Nous viendrons demain |
-| ==இது என்ன::ta==? | itu eṉṉa? | Qu'est-ce que c'est? |
-| ==எனக்கு தமிழ் தெரியும்::ta== | eṉakku tamiḻ teriyum | Je connais le tamoul |
+| ![நான் சாப்பிடுகிறேன்](audio/ta_male_ce398ba667b5.mp3) | nāṉ cāppiṭukiṟēṉ | Je mange |
+| ![நீ எங்கே போகிறாய்](audio/ta_male_9ea754068709.mp3)? | nī eṅkē pōkiṟāy? | Où vas-tu? |
+| ![அவன் புத்தகம் படிக்கிறான்](audio/ta_male_f17761830566.mp3) | avaṉ puttakam paṭikkiṟāṉ | Il lit un livre |
+| ![நாங்கள் நாளை வருவோம்](audio/ta_male_594585c4eb29.mp3) | nāṅkaḷ nāḷai varuvōm | Nous viendrons demain |
+| ![இது என்ன](audio/ta_male_127bc6ac2a7e.mp3)? | itu eṉṉa? | Qu'est-ce que c'est? |
+| ![எனக்கு தமிழ் தெரியும்](audio/ta_male_9830b52d6bdf.mp3) | eṉakku tamiḻ teriyum | Je connais le tamoul |
 
 ## Ressources
 
