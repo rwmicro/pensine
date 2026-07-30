@@ -23,24 +23,24 @@ date: "2026-02-10"
 
 | Français | Indonésien |
 | :------: | :--------: |
-| Je m'appelle Martin | ==Nama saya Martin::id== |
-| Comment vous appelez-vous ? | ==Siapa nama Anda?::id== |
-| D'où venez-vous ? | ==Dari mana asal Anda?::id== |
-| Quel est votre métier ? | ==Apa pekerjaan Anda?::id== |
-| Où habitez-vous ? | ==Anda tinggal di mana?::id== |
-| Enchanté | ==Senang bertemu Anda::id== |
+| Je m'appelle Martin | ![Nama saya Martin](audio/id_male_c900c9b8f407.mp3) |
+| Comment vous appelez-vous ? | ![Siapa nama Anda?](audio/id_male_ab33590d5e36.mp3) |
+| D'où venez-vous ? | ![Dari mana asal Anda?](audio/id_male_900b4323aab2.mp3) |
+| Quel est votre métier ? | ![Apa pekerjaan Anda?](audio/id_male_06f5a914ed4e.mp3) |
+| Où habitez-vous ? | ![Anda tinggal di mana?](audio/id_male_be8b8591a7ca.mp3) |
+| Enchanté | ![Senang bertemu Anda](audio/id_male_79d8fec02ee3.mp3) |
 
 ### Informel
 
 | Français | Indonésien |
 | :------: | :--------: |
-| Je m'appelle Martin | ==Namaku Martin::id== / ==Aku Martin::id== |
-| Tu t'appelles comment ? | ==Siapa namamu?::id== / ==Namamu siapa?::id== |
-| Tu viens d'où ? | ==Dari mana?::id== / ==Asalnya dari mana?::id== |
-| Tu fais quoi dans la vie ? | ==Kerja apa?::id== |
-| Tu habites où ? | ==Kamu tinggal di mana?::id== |
-| Enchanté | ==Salam kenal::id== |
-| Je suis français | ==Aku orang Perancis::id== |
+| Je m'appelle Martin | ![Namaku Martin](audio/id_male_dad6add6cc5d.mp3) / ![Aku Martin](audio/id_male_175c3f78456e.mp3) |
+| Tu t'appelles comment ? | ![Siapa namamu?](audio/id_male_25f125c15548.mp3) / ![Namamu siapa?](audio/id_male_a8cda21bd124.mp3) |
+| Tu viens d'où ? | ![Dari mana?](audio/id_male_8158dff1ae5e.mp3) / ![Asalnya dari mana?](audio/id_male_29e02864de8f.mp3) |
+| Tu fais quoi dans la vie ? | ![Kerja apa?](audio/id_male_818fa1e59922.mp3) |
+| Tu habites où ? | ![Kamu tinggal di mana?](audio/id_male_acb4395256dc.mp3) |
+| Enchanté | ![Salam kenal](audio/id_male_03c496889275.mp3) |
+| Je suis français | ![Aku orang Perancis](audio/id_male_51234ef58c38.mp3) |
 
 ## Conversation Courante
 
@@ -69,12 +69,12 @@ date: "2026-02-10"
 
 | Français | Indonésien | Contexte |
 | :------: | :--------: | :------: |
-| Regarde ça ! | ==Lihat itu!::id== | Montrer quelque chose |
-| Qu'est-ce que tu fais ? | ==Ngapain kamu di sini?::id== | Demander |
-| Je peux venir avec toi ? | ==Boleh bareng gak?::id== | Demander permission |
-| Je veux me moucher | ==Mau buang ingus::id== | Besoin |
-| À la retraite | ==Pensiun::id== | État |
-| Professeur (université) | ==Dosen::id== | Titre |
+| Regarde ça ! | ![Lihat itu!](audio/id_male_71d848a40645.mp3) | Montrer quelque chose |
+| Qu'est-ce que tu fais ? | ![Ngapain kamu di sini?](audio/id_male_1b6f33186fbe.mp3) | Demander |
+| Je peux venir avec toi ? | ![Boleh bareng gak?](audio/id_male_723a989ad715.mp3) | Demander permission |
+| Je veux me moucher | ![Mau buang ingus](audio/id_male_e95669fdbea9.mp3) | Besoin |
+| À la retraite | ![Pensiun](audio/id_male_09d2d80ac59b.mp3) | État |
+| Professeur (université) | ![Dosen](audio/id_male_44cd0fa823d3.mp3) | Titre |
 
 ## Dialogues Types
 
@@ -127,25 +127,25 @@ B: Sama-sama.
 
 | Français | Indonésien | Contexte |
 | :------: | :--------: | :------: |
-| Vraiment ? | ==Beneran?::id== / ==Yang bener?::id== | Surprise |
-| C'est vrai ? | ==Emang iya?::id== | Doute |
-| Ah je comprends ! | ==Ohhh gitu!::id== | Compréhension |
-| Bien sûr | ==Iya dong::id== | Confirmation |
-| Je ne comprends pas | ==Gak paham::id== | Incompréhension |
-| C'est quoi ça ? | ==Apaan tuh?::id== | Question |
-| Pas de problème | ==Gapapa::id== | Rassurer |
+| Vraiment ? | ![Beneran?](audio/id_male_9411f502eb0e.mp3) / ![Yang bener?](audio/id_male_7034e25099a7.mp3) | Surprise |
+| C'est vrai ? | ![Emang iya?](audio/id_male_09339a6680d6.mp3) | Doute |
+| Ah je comprends ! | ![Ohhh gitu!](audio/id_male_d975a0a9611c.mp3) | Compréhension |
+| Bien sûr | ![Iya dong](audio/id_male_3707b9ae5850.mp3) | Confirmation |
+| Je ne comprends pas | ![Gak paham](audio/id_male_fa91caf7cb37.mp3) | Incompréhension |
+| C'est quoi ça ? | ![Apaan tuh?](audio/id_male_874419fab215.mp3) | Question |
+| Pas de problème | ![Gapapa](audio/id_male_0953783fc920.mp3) | Rassurer |
 
 ## Expressions Utiles
 
 | Français | Indonésien |
 | :------: | :--------: |
-| Au fait... | ==Ngomong-ngomong...::id== |
-| Doucement | ==Pelan-pelan dong::id== |
-| Ne fais pas ça | ==Gak boleh gitu::id== |
-| Une autre fois | ==Lain kali::id== |
-| Prépare-toi | ==Siap-siap!::id== |
-| Réveille-toi | ==Bangun!::id== |
-| Va dormir | ==Yaudah tidur aja::id== |
-| Je t'aime | ==Aku cinta kamu::id== |
-| Pauvre de toi | ==Kasihan::id== |
-| Menteur ! | ==Bohong!::id== |
+| Au fait... | ![Ngomong-ngomong...](audio/id_male_1278bacf332e.mp3) |
+| Doucement | ![Pelan-pelan dong](audio/id_male_ecaf52101e49.mp3) |
+| Ne fais pas ça | ![Gak boleh gitu](audio/id_male_0adaea2da61c.mp3) |
+| Une autre fois | ![Lain kali](audio/id_male_bb782ba99d89.mp3) |
+| Prépare-toi | ![Siap-siap!](audio/id_male_e14817dd73d1.mp3) |
+| Réveille-toi | ![Bangun!](audio/id_male_fc88ccdb2f27.mp3) |
+| Va dormir | ![Yaudah tidur aja](audio/id_male_24bbb704d1ea.mp3) |
+| Je t'aime | ![Aku cinta kamu](audio/id_male_c3ebd93d9548.mp3) |
+| Pauvre de toi | ![Kasihan](audio/id_male_c4e565e08df0.mp3) |
+| Menteur ! | ![Bohong!](audio/id_male_f1a694ee0868.mp3) |

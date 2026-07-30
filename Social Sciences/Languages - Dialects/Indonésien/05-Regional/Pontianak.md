@@ -20,19 +20,19 @@ date: "2026-02-04"
 
 | Pontianak | Indonésien Standard | Français |
 | :-------: | :-----------------: | :------: |
-| **Kek mane** | ==Bagaimana::id== | Comment |
-| **Ape** | ==Apa::id== | Quoi |
-| **Sape** | ==Siapa::id== | Qui |
-| **Bile** | ==Kapan::id== | Quand |
-| **Mane** | ==Mana::id== | Où |
-| **Nak** | ==Mau::id== | Vouloir |
-| **Dah** | ==Sudah::id== | Déjà |
-| **Belom** | ==Belum::id== | Pas encore |
-| **Tak** | ==Tidak::id== | Non |
-| **Ye** | ==Ya::id== | Oui |
-| **Nak gi mane?** | ==Mau pergi ke mana?::id== | Tu vas où ? |
-| **Kite** | ==Kita::id== | Nous |
-| **Die** | ==Dia::id== | Il/Elle |
+| **Kek mane** | ![Bagaimana](audio/id_male_5823689f03f7.mp3) | Comment |
+| **Ape** | ![Apa](audio/id_male_d2078488c897.mp3) | Quoi |
+| **Sape** | ![Siapa](audio/id_male_9d8f7c0f0bcb.mp3) | Qui |
+| **Bile** | ![Kapan](audio/id_male_e346c5731e46.mp3) | Quand |
+| **Mane** | ![Mana](audio/id_male_097467a2662f.mp3) | Où |
+| **Nak** | ![Mau](audio/id_male_48dc5cd4a2a9.mp3) | Vouloir |
+| **Dah** | ![Sudah](audio/id_male_5d4070db2a5a.mp3) | Déjà |
+| **Belom** | ![Belum](audio/id_male_1c1e5e77f39b.mp3) | Pas encore |
+| **Tak** | ![Tidak](audio/id_male_38464da00dca.mp3) | Non |
+| **Ye** | ![Ya](audio/id_male_4e87617dbb78.mp3) | Oui |
+| **Nak gi mane?** | ![Mau pergi ke mana?](audio/id_male_662ed81e2ab4.mp3) | Tu vas où ? |
+| **Kite** | ![Kita](audio/id_male_a1e966996394.mp3) | Nous |
+| **Die** | ![Dia](audio/id_male_4621e5271c4f.mp3) | Il/Elle |
 
 ### Expressions Locales
 

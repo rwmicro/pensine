@@ -125,14 +125,14 @@ date: "2026-02-04"
 
 | Indonésien | Français |
 | :--------: | :------: |
-| ==**Dilarang** merokok::id== | Interdit de fumer |
-| ==**Dibuat** di Indonesia::id== | Fabriqué en Indonésie |
-| ==**Ditulis** dalam bahasa Inggris::id== | Écrit en anglais |
-| ==**Dimakan** semut::id== | Mangé par les fourmis |
-| ==**Dicuri**::id== | Volé |
-| ==**Dijual**::id== | Vendu |
-| ==**Ditutup**::id== | Fermé |
-| ==**Dibuka**::id== | Ouvert |
+| ![**Dilarang** merokok](audio/id_male_05088ba6f5f0.mp3) | Interdit de fumer |
+| ![**Dibuat** di Indonesia](audio/id_male_48886cee01e1.mp3) | Fabriqué en Indonésie |
+| ![**Ditulis** dalam bahasa Inggris](audio/id_male_bceee13bf37f.mp3) | Écrit en anglais |
+| ![**Dimakan** semut](audio/id_male_9cd3f085163c.mp3) | Mangé par les fourmis |
+| ![**Dicuri**](audio/id_male_c12fa3fccc49.mp3) | Volé |
+| ![**Dijual**](audio/id_male_3dd942a2c151.mp3) | Vendu |
+| ![**Ditutup**](audio/id_male_04ddb96607ec.mp3) | Fermé |
+| ![**Dibuka**](audio/id_male_7542d34398bd.mp3) | Ouvert |
 
 ## Préfixe TER- (Résultatif / Superlatif)
 
@@ -181,11 +181,11 @@ date: "2026-02-04"
 
 | Indonésien | Français |
 | :--------: | :------: |
-| ==**Terbaca**::id== | Lisible |
-| ==**Terlihat**::id== | Visible |
-| ==**Terdengar**::id== | Audible |
-| ==Tidak **terlupakan**::id== | Inoubliable |
-| ==Tidak **tergantikan**::id== | Irremplaçable |
+| ![**Terbaca**](audio/id_male_d5b8ce2ae088.mp3) | Lisible |
+| ![**Terlihat**](audio/id_male_2a941cd1fefb.mp3) | Visible |
+| ![**Terdengar**](audio/id_male_529a1765a647.mp3) | Audible |
+| ![Tidak **terlupakan**](audio/id_male_5e509eddcd9a.mp3) | Inoubliable |
+| ![Tidak **tergantikan**](audio/id_male_ad3cdaaa9957.mp3) | Irremplaçable |
 
 ## Préfixe PE- / PEN- / PEM- / PENG- / PENY- (Nominalisateur)
 

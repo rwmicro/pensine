@@ -37,14 +37,14 @@ Ajoutez **"apakah"** au début ou utilisez l'intonation interrogative.
 
 | Mot interrogatif | Indonésien | Exemple |
 |------------------|------------|---------|
-| Qui | ==**siapa**::id== | **Siapa nama kamu?** = "Comment tu t'appelles ?" |
-| Quoi | ==**apa**::id== | **Apa itu?** = "Qu'est-ce que c'est ?" |
-| Où | ==**di mana**::id== | **Kamu tinggal di mana?** = "Où habites-tu ?" |
-| Quand | ==**kapan**::id== | **Kapan kamu pergi?** = "Quand pars-tu ?" |
-| Pourquoi | ==**mengapa::id== / ==kenapa**::id== | **Mengapa kamu sedih?** = "Pourquoi es-tu triste ?" |
-| Comment | ==**bagaimana::id== / ==gimana**::id== | **Bagaimana kabar kamu?** = "Comment vas-tu ?" |
-| Combien | ==**berapa**::id== | **Berapa harganya?** = "Combien ça coûte ?" |
-| Lequel | ==**yang mana**::id== | **Yang mana?** = "Lequel ?" |
+| Qui | ![**siapa**](audio/id_male_c717da738c82.mp3) | **Siapa nama kamu?** = "Comment tu t'appelles ?" |
+| Quoi | ![**apa**](audio/id_male_4861ab85cfb4.mp3) | **Apa itu?** = "Qu'est-ce que c'est ?" |
+| Où | ![**di mana**](audio/id_male_ea5e4a1f5b1b.mp3) | **Kamu tinggal di mana?** = "Où habites-tu ?" |
+| Quand | ![**kapan**](audio/id_male_8cfa4ac23d0c.mp3) | **Kapan kamu pergi?** = "Quand pars-tu ?" |
+| Pourquoi | ![**mengapa](audio/id_male_2507c603c531.mp3) / ![kenapa**](audio/id_male_0a991c782551.mp3) | **Mengapa kamu sedih?** = "Pourquoi es-tu triste ?" |
+| Comment | ![**bagaimana](audio/id_male_db24f514353c.mp3) / ![gimana**](audio/id_male_60fbf7014cde.mp3) | **Bagaimana kabar kamu?** = "Comment vas-tu ?" |
+| Combien | ![**berapa**](audio/id_male_9ff5c6183251.mp3) | **Berapa harganya?** = "Combien ça coûte ?" |
+| Lequel | ![**yang mana**](audio/id_male_1b4888251350.mp3) | **Yang mana?** = "Lequel ?" |
 
 ## 4. Négation
 

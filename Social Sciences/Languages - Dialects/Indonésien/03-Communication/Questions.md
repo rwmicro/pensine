@@ -78,11 +78,11 @@ date: "2026-02-04"
 
 | Français | Indonésien |
 | :------: | :--------: |
-| Oui | ==Ya::id== / ==Iya::id== |
-| Non | ==Tidak::id== / ==Gak::id== / ==Enggak::id== |
-| Peut-être | ==Mungkin::id== |
-| Je ne sais pas | ==Tidak tahu::id== / ==Gak tau::id== |
-| Je ne comprends pas | ==Tidak mengerti::id== / ==Gak paham::id== |
-| Bien sûr | ==Tentu saja::id== / ==Iya dong::id== |
-| Pas encore | ==Belum::id== |
-| Déjà | ==Sudah::id== |
+| Oui | ![Ya](audio/id_male_4e87617dbb78.mp3) / ![Iya](audio/id_male_5e82d5b80abe.mp3) |
+| Non | ![Tidak](audio/id_male_38464da00dca.mp3) / ![Gak](audio/id_male_e3b3719c77b3.mp3) / ![Enggak](audio/id_male_c657633abf4b.mp3) |
+| Peut-être | ![Mungkin](audio/id_male_74dda441f7d8.mp3) |
+| Je ne sais pas | ![Tidak tahu](audio/id_male_a295a7f36f06.mp3) / ![Gak tau](audio/id_male_ae6d74af0397.mp3) |
+| Je ne comprends pas | ![Tidak mengerti](audio/id_male_ffe59680a528.mp3) / ![Gak paham](audio/id_male_fa91caf7cb37.mp3) |
+| Bien sûr | ![Tentu saja](audio/id_male_cd0548c81e06.mp3) / ![Iya dong](audio/id_male_3707b9ae5850.mp3) |
+| Pas encore | ![Belum](audio/id_male_1c1e5e77f39b.mp3) |
+| Déjà | ![Sudah](audio/id_male_5d4070db2a5a.mp3) |

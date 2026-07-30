@@ -62,16 +62,16 @@ Le javanais a trois niveaux de politesse :
 
 | Javanais | Indonésien |  Français  |
 | :------: | :--------: | :--------: |
-| Mangan | ==Makan::id== | Manger |
-| Turu | ==Tidur::id== | Dormir |
-| Lunga | ==Pergi::id== | Partir |
-| Mulih | ==Pulang::id== | Rentrer in |
-| Kerja | ==Bekerja::id== | Travailler |
-| Sinau | ==Belajar::id== | Étudier |
-| Adus | ==Mandi::id== | Se doucher |
-| Mlaku | ==Jalan::id== | Marcher |
-| Lungguh | ==Duduk::id== | S'asseoir |
-| Tangi | ==Bangun::id== | Se lever |
+| Mangan | ![Makan](audio/id_male_0021cdeae531.mp3) | Manger |
+| Turu | ![Tidur](audio/id_male_2433cbe5550f.mp3) | Dormir |
+| Lunga | ![Pergi](audio/id_male_8bedc6f38b8d.mp3) | Partir |
+| Mulih | ![Pulang](audio/id_male_f5e828998767.mp3) | Rentrer in |
+| Kerja | ![Bekerja](audio/id_male_f358cf908957.mp3) | Travailler |
+| Sinau | ![Belajar](audio/id_male_feaee97eaa0f.mp3) | Étudier |
+| Adus | ![Mandi](audio/id_male_6823d92b6610.mp3) | Se doucher |
+| Mlaku | ![Jalan](audio/id_male_1fdbdddde06f.mp3) | Marcher |
+| Lungguh | ![Duduk](audio/id_male_1ec145c7c684.mp3) | S'asseoir |
+| Tangi | ![Bangun](audio/id_male_a25df32b9592.mp3) | Se lever |
 
 ## Expressions Populaires
 

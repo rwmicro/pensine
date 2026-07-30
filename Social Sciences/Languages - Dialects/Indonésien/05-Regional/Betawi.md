@@ -27,13 +27,13 @@ Le Betawi s'est formé au XVIIe siècle à Batavia (ancien nom de Jakarta) à pa
 
 |    Français     | Indonésien Standard |         Betawi         | Prononciation |
 | :-------------: | :-----------------: | :--------------------: | :-----------: |
-| Je | ==Saya::id== / ==Aku::id== | **Gue / Gua** | /guˈe/ |
-| Tu | ==Kamu::id== | **Lo / Lu** | /lo/ |
-| Il/Elle | ==Dia::id== | **Die** | /diˈe/ |
-| Nous (exclusif) | ==Kami::id== | **Kite** | /kiˈte/ |
-| Nous (inclusif) | ==Kita::id== | **Kite** | /kiˈte/ |
-| Vous | ==Kalian::id== | **Lo pada / Lo semua** | - |
-| Ils/Elles | ==Mereka::id== | **Mereka / Die orang** | - |
+| Je | ![Saya](audio/id_male_a5915b05d4e9.mp3) / ![Aku](audio/id_male_e0d2a04ecc65.mp3) | **Gue / Gua** | /guˈe/ |
+| Tu | ![Kamu](audio/id_male_171692f5da5a.mp3) | **Lo / Lu** | /lo/ |
+| Il/Elle | ![Dia](audio/id_male_4621e5271c4f.mp3) | **Die** | /diˈe/ |
+| Nous (exclusif) | ![Kami](audio/id_male_ececed995ffa.mp3) | **Kite** | /kiˈte/ |
+| Nous (inclusif) | ![Kita](audio/id_male_a1e966996394.mp3) | **Kite** | /kiˈte/ |
+| Vous | ![Kalian](audio/id_male_583d26b490aa.mp3) | **Lo pada / Lo semua** | - |
+| Ils/Elles | ![Mereka](audio/id_male_c0f1b20d9edb.mp3) | **Mereka / Die orang** | - |
 
 **Exemples :**
 - *Gue mau pergi* = Je veux partir
@@ -69,23 +69,23 @@ Le Betawi s'est formé au XVIIe siècle à Batavia (ancien nom de Jakarta) à pa
 
 | Français | Indonésien Standard | Betawi |
 | :------: | :-----------------: | :----: |
-| Quoi | ==Apa::id== | **Ape / Apaan** |
-| Pourquoi | ==Kenapa::id== / ==Mengapa::id== | **Kenape** |
-| Comment | ==Bagaimana::id== | **Gimane / Gimana** |
-| Comme ça | ==Begitu::id== | **Gitu** |
-| Oui | ==Ya::id== / ==Iya::id== | **Iye** |
-| Non | ==Tidak::id== | **Kagak / Nggak / Engga** |
-| Déjà | ==Sudah::id== | **Udeh / Udah** |
-| Pas encore | ==Belum::id== | **Belom** |
-| Là-bas | ==Di sana::id== | **Di sono** |
-| Ici | ==Di sini::id== | **Di sini / Sini** |
-| Maintenant | ==Sekarang::id== | **Sekarang / Skrg** |
-| Très | ==Sangat::id== | **Banget / Amat** |
-| Seulement | ==Hanya::id== / ==Saja::id== | **Doang / Aja** |
-| Avec | ==Dengan::id== | **Ama / Sama** |
-| Pour | ==Untuk::id== | **Buat** |
-| Encore | ==Masih::id== | **Masih** |
-| Aussi | ==Juga::id== | **Juga / Juge** |
+| Quoi | ![Apa](audio/id_male_d2078488c897.mp3) | **Ape / Apaan** |
+| Pourquoi | ![Kenapa](audio/id_male_677f15d098d1.mp3) / ![Mengapa](audio/id_male_f410632e9733.mp3) | **Kenape** |
+| Comment | ![Bagaimana](audio/id_male_5823689f03f7.mp3) | **Gimane / Gimana** |
+| Comme ça | ![Begitu](audio/id_male_9a7eb46a58ff.mp3) | **Gitu** |
+| Oui | ![Ya](audio/id_male_4e87617dbb78.mp3) / ![Iya](audio/id_male_5e82d5b80abe.mp3) | **Iye** |
+| Non | ![Tidak](audio/id_male_38464da00dca.mp3) | **Kagak / Nggak / Engga** |
+| Déjà | ![Sudah](audio/id_male_5d4070db2a5a.mp3) | **Udeh / Udah** |
+| Pas encore | ![Belum](audio/id_male_1c1e5e77f39b.mp3) | **Belom** |
+| Là-bas | ![Di sana](audio/id_male_1142199a5665.mp3) | **Di sono** |
+| Ici | ![Di sini](audio/id_male_5ccd67d0e08a.mp3) | **Di sini / Sini** |
+| Maintenant | ![Sekarang](audio/id_male_d1131e5a79d9.mp3) | **Sekarang / Skrg** |
+| Très | ![Sangat](audio/id_male_91298d08b9fa.mp3) | **Banget / Amat** |
+| Seulement | ![Hanya](audio/id_male_48555fe0cf19.mp3) / ![Saja](audio/id_male_fc10c9d1bee6.mp3) | **Doang / Aja** |
+| Avec | ![Dengan](audio/id_male_cb0e608d09ca.mp3) | **Ama / Sama** |
+| Pour | ![Untuk](audio/id_male_7a878c746ca9.mp3) | **Buat** |
+| Encore | ![Masih](audio/id_male_f68851d2779c.mp3) | **Masih** |
+| Aussi | ![Juga](audio/id_male_202993f5b03d.mp3) | **Juga / Juge** |
 
 ### Verbes Courants
 

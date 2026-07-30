@@ -63,31 +63,31 @@ En indonésien, le possessif se forme en ajoutant le pronom après le nom ou en 
 
 | Français | Indonésien | Exemple |
 | :------: | :--------: | :-----: |
-| Ceci / Celui-ci | ==Ini::id== | *Ini buku* = C'est un livre |
-| Cela / Celui-là | ==Itu::id== | *Itu rumah* = C'est une maison |
-| Ici | ==Di sini::id== / ==Sini::id== | *Di sini* = Ici |
-| Là | ==Di situ::id== / ==Situ::id== | *Di situ* = Là |
-| Là-bas | ==Di sana::id== / ==Sana::id== | *Di sana* = Là-bas |
+| Ceci / Celui-ci | ![Ini](audio/id_male_dc9a79c4f7da.mp3) | *Ini buku* = C'est un livre |
+| Cela / Celui-là | ![Itu](audio/id_male_d9e81ba23f7e.mp3) | *Itu rumah* = C'est une maison |
+| Ici | ![Di sini](audio/id_male_5ccd67d0e08a.mp3) / ![Sini](audio/id_male_58f0b91b1702.mp3) | *Di sini* = Ici |
+| Là | ![Di situ](audio/id_male_d600e56fa21e.mp3) / ![Situ](audio/id_male_0a6c05e362fd.mp3) | *Di situ* = Là |
+| Là-bas | ![Di sana](audio/id_male_1142199a5665.mp3) / ![Sana](audio/id_male_4e6a1c272561.mp3) | *Di sana* = Là-bas |
 
 ## Pronoms Interrogatifs
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Qui | ==Siapa::id== | /si.a.pa/ |
-| Quoi | ==Apa::id== | /a.pa/ |
-| Où | ==Di mana::id== / ==Mana::id== | /ma.na/ |
-| Quand | ==Kapan::id== | /ka.pan/ |
-| Pourquoi | ==Mengapa::id== / ==Kenapa::id== | /kə.na.pa/ |
-| Comment | ==Bagaimana::id== / ==Gimana::id== | /gi.ma.na/ |
-| Combien | ==Berapa::id== | /bə.ra.pa/ |
-| Lequel | ==Yang mana::id== | /jaŋ ma.na/ |
+| Qui | ![Siapa](audio/id_male_9d8f7c0f0bcb.mp3) | /si.a.pa/ |
+| Quoi | ![Apa](audio/id_male_d2078488c897.mp3) | /a.pa/ |
+| Où | ![Di mana](audio/id_male_173abcae20cf.mp3) / ![Mana](audio/id_male_097467a2662f.mp3) | /ma.na/ |
+| Quand | ![Kapan](audio/id_male_e346c5731e46.mp3) | /ka.pan/ |
+| Pourquoi | ![Mengapa](audio/id_male_f410632e9733.mp3) / ![Kenapa](audio/id_male_677f15d098d1.mp3) | /kə.na.pa/ |
+| Comment | ![Bagaimana](audio/id_male_5823689f03f7.mp3) / ![Gimana](audio/id_male_272a58eb0544.mp3) | /gi.ma.na/ |
+| Combien | ![Berapa](audio/id_male_674405a0a077.mp3) | /bə.ra.pa/ |
+| Lequel | ![Yang mana](audio/id_male_539c80779721.mp3) | /jaŋ ma.na/ |
 
 ## Pronoms Relatifs
 
 | Français | Indonésien | Exemple |
 | :------: | :--------: | :-----: |
-| Qui / Que / Lequel | ==Yang::id== | *Orang **yang** tinggi* = La personne qui est grande |
-| Dont | ==Yang::id== | *Buku **yang** kamu baca* = Le livre que tu lis |
+| Qui / Que / Lequel | ![Yang](audio/id_male_9b313930655c.mp3) | *Orang **yang** tinggi* = La personne qui est grande |
+| Dont | ![Yang](audio/id_male_9b313930655c.mp3) | *Buku **yang** kamu baca* = Le livre que tu lis |
 
 **Note :** *Yang* est un mot très polyvalent en indonésien, utilisé dans de nombreux contextes.
 
@@ -95,8 +95,8 @@ En indonésien, le possessif se forme en ajoutant le pronom après le nom ou en 
 
 | Français | Indonésien | Exemple |
 | :------: | :--------: | :-----: |
-| Soi-même | ==Sendiri::id== | *Aku pergi sendiri* = J'y vais seul |
-| Lui-même / Elle-même | ==Diri sendiri::id== | *Dia menyalahkan diri sendiri* = Il se blâme lui-même |
+| Soi-même | ![Sendiri](audio/id_male_5059af20584e.mp3) | *Aku pergi sendiri* = J'y vais seul |
+| Lui-même / Elle-même | ![Diri sendiri](audio/id_male_a6fba9578d90.mp3) | *Dia menyalahkan diri sendiri* = Il se blâme lui-même |
 
 ## Utilisation des Titres comme Pronoms
 
