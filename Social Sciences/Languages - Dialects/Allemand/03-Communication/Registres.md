@@ -123,12 +123,12 @@ C'est presque une **langue distincte**. Les Suisses **parlent** suisse-allemand 
 
 | Standard | Suisse-allemand | Sens |
 |----------|----------------|------|
-| Hallo / Guten Tag | ==Grüezi::de== / ==Hoi::de== | Bonjour |
-| Tschüss | ==Tschau::de== / ==Adieu::de== | Au revoir |
-| ja | ==jaa::de== / ==chli::de== | oui |
-| nicht | ==nöd::de== | ne pas |
-| ein bisschen | ==es bizeli::de== | un peu |
-| schön | ==schön::de== / ==tipptopp::de== | bien / parfait |
+| Hallo / Guten Tag | ![Grüezi](audio/de_male_49de62417b64.mp3) / ![Hoi](audio/de_male_11221f57e69c.mp3) | Bonjour |
+| Tschüss | ![Tschau](audio/de_male_8f589920d4e8.mp3) / ![Adieu](audio/de_male_05a3c79f2286.mp3) | Au revoir |
+| ja | ![jaa](audio/de_male_b61f9ac6fb0d.mp3) / ![chli](audio/de_male_e4f350c776f8.mp3) | oui |
+| nicht | ![nöd](audio/de_male_1800e5a3941a.mp3) | ne pas |
+| ein bisschen | ![es bizeli](audio/de_male_da71d86d2b9e.mp3) | un peu |
+| schön | ![schön](audio/de_male_f8bc944071b4.mp3) / ![tipptopp](audio/de_male_bd7a273cf7e9.mp3) | bien / parfait |
 
 > Un Allemand "moyen" comprend très difficilement le suisse-allemand parlé. Les Suisses, eux, comprennent l'allemand standard sans problème.
 
