@@ -26,8 +26,8 @@ L'alphabet espagnol est celui du latin plus la lettre **Ñ**. Depuis la réforme
 
 | Lettre  | Nom           | Son (IPA)                                    | Exemple               | Sens            |
 | ------- | ------------- | -------------------------------------------- | --------------------- | --------------- |
-| ==A a== | a             | /a/                                          | **a**mor              | amour           |
-| ==B b== | be            | /b/ ou /β/                                   | **b**ueno             | bon             |
+| **A a** | a             | /a/                                          | **a**mor              | amour           |
+| **B b** | be            | /b/ ou /β/                                   | **b**ueno             | bon             |
 | C c     | ce            | /k/ (devant a,o,u) / /θ/ ou /s/ (devant e,i) | **c**asa / **c**ine   | maison / cinéma |
 | D d     | de            | /d/ ou /ð/                                   | **d**ía               | jour            |
 | E e     | e             | /e/                                          | **e**scuela           | école           |
