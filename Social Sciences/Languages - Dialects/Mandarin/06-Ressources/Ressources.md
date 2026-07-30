@@ -90,8 +90,8 @@ Le **HSK** (汉语水平考试 *Hànyǔ Shuǐpíng Kǎoshì*) est le test offici
 |--------|--------|-----------|
 | **Mandarin Corner** | A1–B2 | Interviews authentiques avec sous-titres pinyin + caractères |
 | ChinesePod | Tous | Dialogues + explications |
-| Slow Chinese / ==慢速中文::zh== | Intermédiaire | Mandarin ralenti |
-| ==学中文::zh== (Learn Chinese with Litao) | Tous | Vlog éducatif |
+| Slow Chinese / ![慢速中文](audio/zh_male_14856766f0da.mp3) | Intermédiaire | Mandarin ralenti |
+| ![学中文](audio/zh_male_9b310202aea5.mp3) (Learn Chinese with Litao) | Tous | Vlog éducatif |
 | Yoyo Chinese | Débutant | Cours structurés gratuits |
 | Twins Chinese | Débutant | Sœurs jumelles, ambiance amicale |
 | Easy Chinese | A2-B1 | Interviews de rue, sous-titres trilingues |
@@ -146,21 +146,21 @@ Le **HSK** (汉语水平考试 *Hànyǔ Shuǐpíng Kǎoshì*) est le test offici
 
 | Titre | Année | Niveau linguistique |
 |-------|-------|-------------------|
-| *Adieu ma concubine* (==霸王别姬::zh==) | 1993 | B2 — registre opéra + dialogues 20ᵉ siècle |
-| *Vivre* (==活着::zh==) | 1994 | B1 — mandarin standard, dialogues clairs |
-| *Le Festin chinois* (==饮食男女::zh==) | 1994 | B1 — Ang Lee, mandarin de Taïwan |
-| *Hero* (==英雄::zh==) | 2002 | B2 — wuxia, registre soutenu |
+| *Adieu ma concubine* (![霸王别姬](audio/zh_male_7819394471ab.mp3)) | 1993 | B2 — registre opéra + dialogues 20ᵉ siècle |
+| *Vivre* (![活着](audio/zh_male_379fbfcd8e36.mp3)) | 1994 | B1 — mandarin standard, dialogues clairs |
+| *Le Festin chinois* (![饮食男女](audio/zh_male_7a9dff088fc2.mp3)) | 1994 | B1 — Ang Lee, mandarin de Taïwan |
+| *Hero* (![英雄](audio/zh_male_38b45b83ffc9.mp3)) | 2002 | B2 — wuxia, registre soutenu |
 
 ### Séries populaires
 
 | Titre | Genre | Note |
 |-------|-------|------|
-| ==庆余年::zh== (*Joy of Life*) | Historique fantasy | Très populaire, dialogues riches |
-| ==琅琊榜::zh== (*Nirvana in Fire*) | Historique politique | Mandarin de qualité, scénario complexe |
-| ==想见你::zh== (*Someday or One Day*) | Romance Taïwan | Mandarin de Taïwan, dialogues actuels |
-| ==三十而已::zh== (*Nothing But Thirty*) | Drame contemporain | Vie urbaine moderne — Shanghai |
-| ==山海情::zh== (*Minning Town*) | Drame social | Lutte contre la pauvreté rurale |
-| ==爱情公寓::zh== (*iPartment*) | Sitcom | Comédie urbaine — accessible et drôle |
+| ![庆余年](audio/zh_male_d1915426fde7.mp3) (*Joy of Life*) | Historique fantasy | Très populaire, dialogues riches |
+| ![琅琊榜](audio/zh_male_5eda79f89458.mp3) (*Nirvana in Fire*) | Historique politique | Mandarin de qualité, scénario complexe |
+| ![想见你](audio/zh_male_f7fe47977de1.mp3) (*Someday or One Day*) | Romance Taïwan | Mandarin de Taïwan, dialogues actuels |
+| ![三十而已](audio/zh_male_fff768ecc15a.mp3) (*Nothing But Thirty*) | Drame contemporain | Vie urbaine moderne — Shanghai |
+| ![山海情](audio/zh_male_8414c4e109b0.mp3) (*Minning Town*) | Drame social | Lutte contre la pauvreté rurale |
+| ![爱情公寓](audio/zh_male_bc28cad2b9d5.mp3) (*iPartment*) | Sitcom | Comédie urbaine — accessible et drôle |
 
 ### Plateformes
 
@@ -176,7 +176,7 @@ Le **HSK** (汉语水平考试 *Hànyǔ Shuǐpíng Kǎoshì*) est le test offici
 | Podcast | Niveau | Note |
 |---------|--------|------|
 | **ChinesePod** | Tous | Référence depuis 2005 |
-| **Slow Chinese (==慢速中文::zh==)** | A2–B1 | Mandarin ralenti, sujets culturels |
+| **Slow Chinese (![慢速中文](audio/zh_male_14856766f0da.mp3))** | A2–B1 | Mandarin ralenti, sujets culturels |
 | **Maomi Chinese** | A1–A2 | Très débutant |
 | **You Can Learn Chinese** | Tous | Discussions sur l'apprentissage |
 | **The Mandarin Story** | B1–B2 | Histoires racontées en mandarin |

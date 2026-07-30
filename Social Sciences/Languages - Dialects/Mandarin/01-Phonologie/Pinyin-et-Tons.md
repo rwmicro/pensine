@@ -17,8 +17,8 @@ Le mandarin (普通话 *pǔtōnghuà*, "langue commune", ou 国语 *guóyǔ* à 
 | Locuteurs natifs | ~920 millions (2026) |
 | Locuteurs totaux | ~1,1 milliard |
 | Pays officiels | Chine, Taïwan, Singapour |
-| Système d'écriture | Caractères chinois (==汉字::zh== *hànzì*) — pas d'alphabet |
-| Romanisation officielle | Pinyin (==拼音::zh==) — adoptée en 1958 en Chine continentale |
+| Système d'écriture | Caractères chinois (![汉字](audio/zh_male_0cbfd0df0ad8.mp3) *hànzì*) — pas d'alphabet |
+| Romanisation officielle | Pinyin (![拼音](audio/zh_male_e689fb159d04.mp3)) — adoptée en 1958 en Chine continentale |
 | Apprentissage | FSI classe le mandarin en catégorie V (~2200 h pour un anglophone) |
 
 ## Le pinyin — clé d'entrée pour les apprenants
@@ -27,9 +27,9 @@ Le pinyin n'est **pas l'écriture chinoise**. C'est un système de transcription
 
 | Composant | Description |
 |-----------|-------------|
-| Initiale (==声母::zh==) | Consonne de début de syllabe |
-| Finale (==韵母::zh==) | Voyelle ou diphtongue + finale nasale optionnelle |
-| Ton (==声调::zh==) | Hauteur et contour mélodique de la syllabe |
+| Initiale (![声母](audio/zh_male_f2d6476d660b.mp3)) | Consonne de début de syllabe |
+| Finale (![韵母](audio/zh_male_5131124e4148.mp3)) | Voyelle ou diphtongue + finale nasale optionnelle |
+| Ton (![声调](audio/zh_male_f9c0ac3f1d32.mp3)) | Hauteur et contour mélodique de la syllabe |
 
 > Une syllabe mandarine = **Initiale + Finale + Ton**. Sans le ton, le mot est ambigu.
 
@@ -141,11 +141,11 @@ C'est **la** caractéristique fondamentale du mandarin. Une même syllabe change
 
 | Ton | Symbole | Description | Exemple |
 |-----|---------|-------------|---------|
-| 1 | ā (tiret horizontal) | Aigu et soutenu, comme un signal continu | **mā** ==妈::zh== — maman |
-| 2 | á (accent montant) | Montant, comme une question | **má** ==麻::zh== — chanvre |
-| 3 | ǎ (caron, hochet) | Descendant puis montant | **mǎ** ==马::zh== — cheval |
-| 4 | à (accent descendant) | Descendant brusquement | **mà** ==骂::zh== — gronder |
-| neutre | a (sans signe) | Court, atone, dépend du contexte | **ma** ==吗::zh== — particule de question |
+| 1 | ā (tiret horizontal) | Aigu et soutenu, comme un signal continu | **mā** ![妈](audio/zh_male_b906af8d9fcd.mp3) — maman |
+| 2 | á (accent montant) | Montant, comme une question | **má** ![麻](audio/zh_male_e757354474ce.mp3) — chanvre |
+| 3 | ǎ (caron, hochet) | Descendant puis montant | **mǎ** ![马](audio/zh_male_a8f302eed216.mp3) — cheval |
+| 4 | à (accent descendant) | Descendant brusquement | **mà** ![骂](audio/zh_male_505fc8cac007.mp3) — gronder |
+| neutre | a (sans signe) | Court, atone, dépend du contexte | **ma** ![吗](audio/zh_male_5249557b82e7.mp3) — particule de question |
 
 ### Visualiser les tons
 
@@ -161,11 +161,11 @@ Neutre   :   ·       (bref, sans hauteur fixe)
 
 | Pinyin | Caractère | Sens |
 |--------|----------|------|
-| mā | ==妈::zh== | maman |
-| má | ==麻::zh== | chanvre |
-| mǎ | ==马::zh== | cheval |
-| mà | ==骂::zh== | gronder |
-| ma | ==吗::zh== | particule interrogative |
+| mā | ![妈](audio/zh_male_b906af8d9fcd.mp3) | maman |
+| má | ![麻](audio/zh_male_e757354474ce.mp3) | chanvre |
+| mǎ | ![马](audio/zh_male_a8f302eed216.mp3) | cheval |
+| mà | ![骂](audio/zh_male_505fc8cac007.mp3) | gronder |
+| ma | ![吗](audio/zh_male_5249557b82e7.mp3) | particule interrogative |
 
 > Les 5 syllabes "ma" sont entièrement différentes en mandarin. C'est pourquoi le ton est aussi crucial que la consonne.
 
@@ -179,8 +179,8 @@ Quand deux syllabes au 3ᵉ ton se suivent, la première devient 2ᵉ ton.
 
 | Écrit | Prononcé |
 |-------|----------|
-| nǐ hǎo (==你好::zh==) | ní hǎo |
-| hěn hǎo (==很好::zh==) | hén hǎo |
+| nǐ hǎo (![你好](audio/zh_male_7d1aca284d06.mp3)) | ní hǎo |
+| hěn hǎo (![很好](audio/zh_male_2aa544c099dc.mp3)) | hén hǎo |
 
 ### Règle de 不 (bù)
 
@@ -188,8 +188,8 @@ Quand deux syllabes au 3ᵉ ton se suivent, la première devient 2ᵉ ton.
 
 | Écrit | Prononcé |
 |-------|----------|
-| bù shì (==不是::zh==) | bú shì |
-| bù duì (==不对::zh==) | bú duì |
+| bù shì (![不是](audio/zh_male_c6fd53b5c97c.mp3)) | bú shì |
+| bù duì (![不对](audio/zh_male_e74f5c999e5a.mp3)) | bú duì |
 
 ### Règle de 一 (yī)
 
@@ -203,9 +203,9 @@ Quand deux syllabes au 3ᵉ ton se suivent, la première devient 2ᵉ ton.
 
 | Exemple | Prononcé |
 |---------|----------|
-| ==一天::zh== (un jour) | yì tiān |
-| ==一年::zh== (un an) | yì nián |
-| ==一个::zh== (un, classificateur) | yí gè |
+| ![一天](audio/zh_male_4fbc9a004aa4.mp3) (un jour) | yì tiān |
+| ![一年](audio/zh_male_1ab43d35cf41.mp3) (un an) | yì nián |
+| ![一个](audio/zh_male_d78afef11e4e.mp3) (un, classificateur) | yí gè |
 
 ## Le erhua (儿化) — phénomène pékinois
 
@@ -213,9 +213,9 @@ Quand deux syllabes au 3ᵉ ton se suivent, la première devient 2ᵉ ton.
 
 | Standard | Erhua | Sens |
 |----------|-------|------|
-| ==这里::zh== (zhèlǐ) | ==这儿::zh== (zhèr) | ici |
-| ==那里::zh== (nàlǐ) | ==那儿::zh== (nàr) | là-bas |
-| ==一点::zh== (yìdiǎn) | ==一点儿::zh== (yìdiǎnr) | un peu |
+| ![这里](audio/zh_male_a2b41d36a717.mp3) (zhèlǐ) | ![这儿](audio/zh_male_6f488206b875.mp3) (zhèr) | ici |
+| ![那里](audio/zh_male_76e693aa9fa4.mp3) (nàlǐ) | ![那儿](audio/zh_male_0c365d1cc2e6.mp3) (nàr) | là-bas |
+| ![一点](audio/zh_male_efd7ffb815c1.mp3) (yìdiǎn) | ![一点儿](audio/zh_male_bc7a6760fb23.mp3) (yìdiǎnr) | un peu |
 
 > Le erhua est rare dans le mandarin du sud (Taïwan, Shanghai, Canton) mais omniprésent à Pékin. Les apprenants peuvent l'éviter sans problème.
 
