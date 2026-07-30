@@ -102,13 +102,13 @@ Le roumain partage 70–75 % de son vocabulaire avec le français. Les connexion
 
 | Français | Roumain | Note |
 |----------|---------|------|
-| table | ==masă::ro== | — |
-| heure | ==oră::ro== | — |
-| école | ==școală::ro== | notez le ș |
-| fleur | ==floare::ro== | — |
-| neige | ==nea::ro== / ==zăpadă::ro== | deux mots selon le registre |
-| information | ==informație::ro== | quasi-identique |
-| université | ==universitate::ro== | quasi-identique |
-| télévision | ==televiziune::ro== | quasi-identique |
+| table | ![masă](audio/ro_male_9eb0ca0e97dc.mp3) | — |
+| heure | ![oră](audio/ro_male_4d13f812298a.mp3) | — |
+| école | ![școală](audio/ro_male_8e6208cace93.mp3) | notez le ș |
+| fleur | ![floare](audio/ro_male_da9e5cefd49a.mp3) | — |
+| neige | ![nea](audio/ro_male_ac754ab22796.mp3) / ![zăpadă](audio/ro_male_5ad13241b128.mp3) | deux mots selon le registre |
+| information | ![informație](audio/ro_male_bb11d6684728.mp3) | quasi-identique |
+| université | ![universitate](audio/ro_male_d3ee6f10aa6a.mp3) | quasi-identique |
+| télévision | ![televiziune](audio/ro_male_0f2f8a540850.mp3) | quasi-identique |
 
 > Un francophone peut comprendre ~40 % du roumain écrit dès le premier contact. C'est la base la plus solide pour progresser rapidement.
