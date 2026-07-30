@@ -107,11 +107,11 @@ Pour choisir un suffixe, regarder la **dernière voyelle de la racine** :
 
 | Aspect | Azéri | Turc |
 |--------|-------|------|
-| Lettre spéciale | ==Ə::az== | E (pas de Ə) |
-| Lettre Q |  / ==ɡ::az== / ==dur::az== | absent de l'alphabet |
-| Lettre X |  / ==x::az== / ==guttural::az== | absent de l'alphabet |
-| *Être* (présent) | ==-dır::az== / ==-dir::az== | -dır / -dir (courant) |
-| Vocabulaire | ==Plus d'emprunts russes et persans::az== | Plus d'emprunts arabes et français |
+| Lettre spéciale | ![Ə](audio/az_male_8601f2ef6f3e.mp3) | E (pas de Ə) |
+| Lettre Q |  / ![ɡ](audio/az_male_04d819d38509.mp3) / ![dur](audio/az_male_42815e2ade02.mp3) | absent de l'alphabet |
+| Lettre X |  / ![x](audio/az_male_2c527413818f.mp3) / ![guttural](audio/az_male_87d2dd6e9651.mp3) | absent de l'alphabet |
+| *Être* (présent) | ![-dır](audio/az_male_db682fc6d96f.mp3) / ![-dir](audio/az_male_f96000de3ddd.mp3) | -dır / -dir (courant) |
+| Vocabulaire | ![Plus d'emprunts russes et persans](audio/az_male_5d1f374199c3.mp3) | Plus d'emprunts arabes et français |
 
 > Un locuteur azéri comprend un Turc sans grande difficulté, mais l'inverse est plus ardu à cause du vocabulaire persan/russe et des sons /æ/, /x/, /ɣ/ absents en turc.
 

@@ -81,12 +81,12 @@ L'azéri parlé élide souvent des syllabes et utilise des emprunts russes, turc
 
 | Emprunt | Origine | Sens | Équivalent azéri pur |
 |---------|--------|------|---------------------|
-| spasiba | russe | merci | ==sağ ol::az== / ==təşəkkür edirəm::az== |
-| normalno | russe | ça va / normalement | ==yaxşıdır::az== |
-| davay | russe | allons ! / go ! | ==gedək::az== |
-| haraşo | russe | bien | ==yaxşı::az== |
-| paçti | russe | presque | ==demək olar::az== |
-| çıx yoldan | turc | pousse-toi | ==ol ordan::az== |
+| spasiba | russe | merci | ![sağ ol](audio/az_male_101632a8f35e.mp3) / ![təşəkkür edirəm](audio/az_male_28432717eadc.mp3) |
+| normalno | russe | ça va / normalement | ![yaxşıdır](audio/az_male_a9652724c729.mp3) |
+| davay | russe | allons ! / go ! | ![gedək](audio/az_male_6c3f5b4a36e8.mp3) |
+| haraşo | russe | bien | ![yaxşı](audio/az_male_9d9dd0db2357.mp3) |
+| paçti | russe | presque | ![demək olar](audio/az_male_87a04f6bddab.mp3) |
+| çıx yoldan | turc | pousse-toi | ![ol ordan](audio/az_male_da87326e3bfb.mp3) |
 
 > Les emprunts russes sont très présents chez les anciennes générations (héritage soviétique). Les jeunes incorporent plus d'anglais et de turc moderne.
 
