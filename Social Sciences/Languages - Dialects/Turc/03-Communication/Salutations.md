@@ -11,12 +11,12 @@ date: "2026-04-01"
 
 | Turc | Sens | Période / Usage |
 |------|------|----------------|
-| ==Merhaba::tr== | Bonjour / Salut | Universel, toute la journée |
-| ==Günaydın::tr== | Bonjour (matin) | Jusqu'à 12h environ |
-| ==İyi günler::tr== | Bonne journée | 12h–18h, légèrement formel |
-| ==İyi akşamlar::tr== | Bonsoir | Après 18h |
-| ==İyi geceler::tr== | Bonne nuit | Avant de dormir |
-| ==Selam::tr== | Salut (informel) | Entre amis |
+| ![Merhaba](audio/tr_male_b39c9e3910ab.mp3) | Bonjour / Salut | Universel, toute la journée |
+| ![Günaydın](audio/tr_male_65723e75ecda.mp3) | Bonjour (matin) | Jusqu'à 12h environ |
+| ![İyi günler](audio/tr_male_fb47429ade93.mp3) | Bonne journée | 12h–18h, légèrement formel |
+| ![İyi akşamlar](audio/tr_male_2137ebd331bb.mp3) | Bonsoir | Après 18h |
+| ![İyi geceler](audio/tr_male_424a1f5fa209.mp3) | Bonne nuit | Avant de dormir |
+| ![Selam](audio/tr_male_96ad732a7b16.mp3) | Salut (informel) | Entre amis |
 
 ## Salutation islamique
 
@@ -71,26 +71,26 @@ La Turquie est à majorité musulmane mais laïque. Le salam arabe est courant, 
 
 | Turc | Sens |
 |------|------|
-| ==Teşekkür ederim::tr== | Merci (formel) |
-| ==Teşekkürler::tr== | Merci (courant) |
-| ==Sağ ol::tr== | Merci (informel, litt. "sois sain") |
-| ==Rica ederim::tr== | De rien / Je vous en prie |
-| ==Bir şey değil::tr== | Ce n'est rien |
-| ==Lütfen::tr== | S'il vous plaît |
-| ==Pardon::tr== / ==Özür dilerim::tr== | Pardon / Je suis désolé(e) |
-| ==Affedersiniz::tr== | Excusez-moi (pour déranger) |
+| ![Teşekkür ederim](audio/tr_male_241efd1f00ae.mp3) | Merci (formel) |
+| ![Teşekkürler](audio/tr_male_7f5bfd191ad6.mp3) | Merci (courant) |
+| ![Sağ ol](audio/tr_male_e2ce2cce77bf.mp3) | Merci (informel, litt. "sois sain") |
+| ![Rica ederim](audio/tr_male_dc95e48f469f.mp3) | De rien / Je vous en prie |
+| ![Bir şey değil](audio/tr_male_4fa3e5524d6c.mp3) | Ce n'est rien |
+| ![Lütfen](audio/tr_male_e373e3bdca50.mp3) | S'il vous plaît |
+| ![Pardon](audio/tr_male_d78b057d9a10.mp3) / ![Özür dilerim](audio/tr_male_35666fecc6d9.mp3) | Pardon / Je suis désolé(e) |
+| ![Affedersiniz](audio/tr_male_ad842802baa3.mp3) | Excusez-moi (pour déranger) |
 
 ## Prises de congé
 
 | Turc | Sens | Registre |
 |------|------|---------|
-| ==Hoşça kalın::tr== | Au revoir (formel — dit par celui qui part) | Formel |
-| ==Güle güle::tr== | Au revoir (dit par celui qui reste) | Neutre |
-| ==Görüşürüz::tr== | À bientôt (on se reverra) | Courant |
-| ==Görüşmek üzere::tr== | À bientôt | Légèrement formel |
-| ==Sonra görüşürüz::tr== | On se voit après / à tout à l'heure | Informel |
-| ==İyi yolculuklar::tr== | Bon voyage | — |
-| ==Kolay gelsin::tr== | Bonne continuation au travail | litt. "que ça vienne facilement" |
+| ![Hoşça kalın](audio/tr_male_e08a854b3ecf.mp3) | Au revoir (formel — dit par celui qui part) | Formel |
+| ![Güle güle](audio/tr_male_824db1b86b54.mp3) | Au revoir (dit par celui qui reste) | Neutre |
+| ![Görüşürüz](audio/tr_male_39821fa68bbf.mp3) | À bientôt (on se reverra) | Courant |
+| ![Görüşmek üzere](audio/tr_male_0557db5145f9.mp3) | À bientôt | Légèrement formel |
+| ![Sonra görüşürüz](audio/tr_male_44fa28b086a5.mp3) | On se voit après / à tout à l'heure | Informel |
+| ![İyi yolculuklar](audio/tr_male_52710a1b16ed.mp3) | Bon voyage | — |
+| ![Kolay gelsin](audio/tr_male_dd96dc0290c4.mp3) | Bonne continuation au travail | litt. "que ça vienne facilement" |
 
 ## Vœux et hospitality
 
