@@ -74,15 +74,15 @@ Le malais a un système de pronoms multiples pour "tu/vous" qui encodent le regi
 
 | Mot | Malais (Malaisie) | Indonésien |
 |-----|-------------------|-----------|
-| Voiture | ==Kereta::ms== | Mobil |
-| Train | ==Kereta api::ms== | Kereta api |
-| Avion | ==Kapal terbang::ms== | Pesawat |
-| Hôpital | ==Hospital::ms== | Rumah sakit |
-| Toilettes | ==Tandas::ms== | Toilet / Kamar mandi |
-| Police | ==Polis::ms== | Polisi |
-| Merci (informel) | ==Terima kasih::ms== / ==TQ::ms== | Makasih |
-| Oui (informel) | ==Ya::ms== / ==Ye::ms== | Iya / Nggak non |
-| Cool/Super | ==Best::ms== | Keren / Mantap |
+| Voiture | ![Kereta](audio/ms_male_10925997e176.mp3) | Mobil |
+| Train | ![Kereta api](audio/ms_male_151b0eb64925.mp3) | Kereta api |
+| Avion | ![Kapal terbang](audio/ms_male_b53a0643b0e9.mp3) | Pesawat |
+| Hôpital | ![Hospital](audio/ms_male_ec86f9cdc2ba.mp3) | Rumah sakit |
+| Toilettes | ![Tandas](audio/ms_male_368ab8034a62.mp3) | Toilet / Kamar mandi |
+| Police | ![Polis](audio/ms_male_aea978b62872.mp3) | Polisi |
+| Merci (informel) | ![Terima kasih](audio/ms_male_f90acbf236ee.mp3) / ![TQ](audio/ms_male_08afa75cc251.mp3) | Makasih |
+| Oui (informel) | ![Ya](audio/ms_male_d67f1f10a3f5.mp3) / ![Ye](audio/ms_male_110aaaa860a9.mp3) | Iya / Nggak non |
+| Cool/Super | ![Best](audio/ms_male_be7d4709fef7.mp3) | Keren / Mantap |
 
 ## Expressions de la rue (Bahasa Pasar / Bahasa Rojak)
 

@@ -15,9 +15,9 @@ Ordre de base : **Sujet — Verbe — Objet** (comme en français)
 
 | Français | Malais | Notes |
 |----------|--------|-------|
-| Dia makan nasi. | ==Il mange du riz.::ms== | Ordre SVO direct |
-| Saya suka muzik. | ==J'aime la musique.::ms== | Pas d'article |
-| Buku itu besar. | ==Ce livre est grand.::ms== | Pas de verbe "être" |
+| Dia makan nasi. | ![Il mange du riz.](audio/ms_male_f1d679a7b6d9.mp3) | Ordre SVO direct |
+| Saya suka muzik. | ![J'aime la musique.](audio/ms_male_30c3c926e7e7.mp3) | Pas d'article |
+| Buku itu besar. | ![Ce livre est grand.](audio/ms_male_bfd88e489c4b.mp3) | Pas de verbe "être" |
 
 ## Les verbes — pas de conjugaison
 
@@ -129,14 +129,14 @@ Le malais utilise des classificateurs entre le nombre et le nom.
 
 | Mot interrogatif | Malais | Exemple |
 |-----------------|--------|---------|
-| Qu'est-ce que ? | ==Apa ?::ms== | Apa ini? (Qu'est-ce que c'est ?) |
-| Qui ? | ==Siapa ?::ms== | Siapa nama awak? (Quel est ton nom ?) |
-| Où ? | ==Di mana ?::ms== | Di mana tandas? (Où sont les toilettes ?) |
-| Quand ? | ==Bila ?::ms== / ==Bila-bila ?::ms== | Bila dia datang? (Quand vient-il ?) |
-| Comment ? | ==Bagaimana ?::ms== | Bagaimana keadaan awak? (Comment vas-tu ?) |
-| Pourquoi ? | ==Kenapa ?::ms== / ==Mengapa ?::ms== | Kenapa awak lambat? (Pourquoi tu es en retard ?) |
-| Combien ? (nombre) | ==Berapa ?::ms== | Berapa harganya? (Quel est le prix ?) |
-| Quel / Lequel ? | ==Yang mana ?::ms== | Yang mana awak suka? (Lequel tu aimes ?) |
+| Qu'est-ce que ? | ![Apa ?](audio/ms_male_08e8692c17a8.mp3) | Apa ini? (Qu'est-ce que c'est ?) |
+| Qui ? | ![Siapa ?](audio/ms_male_8c832a4c3a24.mp3) | Siapa nama awak? (Quel est ton nom ?) |
+| Où ? | ![Di mana ?](audio/ms_male_d1f3827f2d5f.mp3) | Di mana tandas? (Où sont les toilettes ?) |
+| Quand ? | ![Bila ?](audio/ms_male_d8462a7c377b.mp3) / ![Bila-bila ?](audio/ms_male_e64d45d958b1.mp3) | Bila dia datang? (Quand vient-il ?) |
+| Comment ? | ![Bagaimana ?](audio/ms_male_9ab0ed2889cf.mp3) | Bagaimana keadaan awak? (Comment vas-tu ?) |
+| Pourquoi ? | ![Kenapa ?](audio/ms_male_96ab9ec362e4.mp3) / ![Mengapa ?](audio/ms_male_c2e2f8d18af8.mp3) | Kenapa awak lambat? (Pourquoi tu es en retard ?) |
+| Combien ? (nombre) | ![Berapa ?](audio/ms_male_6de9751371f5.mp3) | Berapa harganya? (Quel est le prix ?) |
+| Quel / Lequel ? | ![Yang mana ?](audio/ms_male_be8de6fb5b2e.mp3) | Yang mana awak suka? (Lequel tu aimes ?) |
 
 La question fermée (oui/non) se forme par intonation montante ou avec **-kah** en fin de phrase :
 - Awak suka kopi**kah**? (Tu aimes le café ?)
