@@ -12,87 +12,87 @@ date: "2026-02-19"
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|
-| Ati / Hati | Hati / Jantung / Perasaan | Cœur / Foie / Sentiment |
-| Awak | Badan / Diri | Corps |
-| Pala' Langgar | Kepala yang rambutnya digunting acak-acakan | Tête rasée n'importe comment |
-| Caddok / Kaddok | Dahi yang menjorok kedalam | Front enfoncé |
-| Jandol | Dahi yang menonjol / Dahi yang luas | Front proéminent |
-| Sullah | Dahi yang luas karena rambut rontok | Front large (cheveux tombés) |
-| Panne / Pangge | Telinga berdesing akibat suara yang memekakkan | Oreille qui siffle |
-| Bullar | Mata rusak sebelah | Un œil abîmé |
-| Julling | Mata kanan dan kiri tidak bisa singkron | Yeux non synchronisés |
-| Jonga'k | Gusi dan gigi yang maju ke depan | Gencives et dents en avant |
-| Tukkak | Gigi tumbuh bertimpa | Dents qui se chevauchent |
-| Inggus / Ingusan | Lendir yang keluar dari lubang hidung | Morve |
-| Langgak | Kepala yang melihat keatas | Tête regardant en haut |
-| Lele'k / Tilele' | Posisi kepala yang miring | Tête penchée |
-| Engkong | Lengan tak bias diluruskan | Bras qui ne peut pas s'étirer |
-| Lappa' / Lappa' Ayam | Telapak / Kaki kosong tanpa sandal | Paume / Pieds nus |
-| Burrik | Pantat / bokong | Fesses |
-| Bahenol | Pantat gadis yang montok dan bergoyang-goyang saat berjalan | Fesses rebondies |
-| Jubbor | Dubur / lubang pantat | Anus |
-| Buntut | Ekor, Sebelum terahir | Queue |
-| Palat / Paller / Buttoh | Kelamin pria | Pénis |
-| Pepe'k / Coco' | Kelamin perempuan | Vagin |
-| Aurat | Bagian tubuh yang dilarang ditampilkan (Islam) / Alat kelamin | Parties intimes |
-| Belaran / Beraran parrut | Usus | Intestins |
+| ==Ati::ms== / ==Hati::ms== | Hati / Jantung / Perasaan | Cœur / Foie / Sentiment |
+| ==Awak::ms== | Badan / Diri | Corps |
+| ==Pala' Langgar::ms== | Kepala yang rambutnya digunting acak-acakan | Tête rasée n'importe comment |
+| ==Caddok::ms== / ==Kaddok::ms== | Dahi yang menjorok kedalam | Front enfoncé |
+| ==Jandol::ms== | Dahi yang menonjol / Dahi yang luas | Front proéminent |
+| ==Sullah::ms== | Dahi yang luas karena rambut rontok | Front large (cheveux tombés) |
+| ==Panne::ms== / ==Pangge::ms== | Telinga berdesing akibat suara yang memekakkan | Oreille qui siffle |
+| ==Bullar::ms== | Mata rusak sebelah | Un œil abîmé |
+| ==Julling::ms== | Mata kanan dan kiri tidak bisa singkron | Yeux non synchronisés |
+| ==Jonga'k::ms== | Gusi dan gigi yang maju ke depan | Gencives et dents en avant |
+| ==Tukkak::ms== | Gigi tumbuh bertimpa | Dents qui se chevauchent |
+| ==Inggus::ms== / ==Ingusan::ms== | Lendir yang keluar dari lubang hidung | Morve |
+| ==Langgak::ms== | Kepala yang melihat keatas | Tête regardant en haut |
+| ==Lele'k::ms== / ==Tilele'::ms== | Posisi kepala yang miring | Tête penchée |
+| ==Engkong::ms== | Lengan tak bias diluruskan | Bras qui ne peut pas s'étirer |
+| ==Lappa'::ms== / ==Lappa' Ayam::ms== | Telapak / Kaki kosong tanpa sandal | Paume / Pieds nus |
+| ==Burrik::ms== | Pantat / bokong | Fesses |
+| ==Bahenol::ms== | Pantat gadis yang montok dan bergoyang-goyang saat berjalan | Fesses rebondies |
+| ==Jubbor::ms== | Dubur / lubang pantat | Anus |
+| ==Buntut::ms== | Ekor, Sebelum terahir | Queue |
+| ==Palat::ms== / ==Paller::ms== / ==Buttoh::ms== | Kelamin pria | Pénis |
+| ==Pepe'k::ms== / ==Coco'::ms== | Kelamin perempuan | Vagin |
+| ==Aurat::ms== | Bagian tubuh yang dilarang ditampilkan (Islam) / Alat kelamin | Parties intimes |
+| ==Belaran::ms== / ==Beraran parrut::ms== | Usus | Intestins |
 
 ## Cheveux et poils
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|
-| Ikkal | Ikal / rambut bergelombang | Bouclé |
-| Botak | Rambut yang dipotong pendek | Cheveux coupés courts |
+| ==Ikkal::ms== | Ikal / rambut bergelombang | Bouclé |
+| ==Botak::ms== | Rambut yang dipotong pendek | Cheveux coupés courts |
 
 ## Traits physiques
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|
-| Kemol | Tembem | Joues rebondies |
-| Lampam | Tebal / tembem | Épais / Joufflu |
-| Gammok lempok | Gemuk menggemaskan | Grassouillet adorable |
-| Montok | Padat kenyal | Dense et ferme |
-| Bassar / Besar / Bassar panjang | Besar / Besar dan tinggi | Grand / Grand et haut |
-| Labbak / Labbas / Lebas | Besar / Terlampau matang | Grand / Trop mûr |
-| Kaccik / Singaccik | Kecil / Anak kecil semua | Petit |
-| Accie' | Sebutan untuk orang yang bertubuh sangat kecil | Personne très petite |
-| Jangkung / Jelangkung | Tinggi semampai | Grand et élancé |
-| Pippeh | Tipis | Mince |
-| Bicut | Benjol | Bosse |
-| Tompel | Tahi lalat di wajah / bagian tubuh | Grain de beauté |
-| Koreng / Korengan | Luka besar dan lebar | Grande plaie |
-| Liccak | Lecet | Éraflure |
-| Batto' | Luka bakar / sakit karena panas api | Brûlure |
+| ==Kemol::ms== | Tembem | Joues rebondies |
+| ==Lampam::ms== | Tebal / tembem | Épais / Joufflu |
+| ==Gammok lempok::ms== | Gemuk menggemaskan | Grassouillet adorable |
+| ==Montok::ms== | Padat kenyal | Dense et ferme |
+| ==Bassar::ms== / ==Besar::ms== / ==Bassar panjang::ms== | Besar / Besar dan tinggi | Grand / Grand et haut |
+| ==Labbak::ms== / ==Labbas::ms== / ==Lebas::ms== | Besar / Terlampau matang | Grand / Trop mûr |
+| ==Kaccik::ms== / ==Singaccik::ms== | Kecil / Anak kecil semua | Petit |
+| ==Accie'::ms== | Sebutan untuk orang yang bertubuh sangat kecil | Personne très petite |
+| ==Jangkung::ms== / ==Jelangkung::ms== | Tinggi semampai | Grand et élancé |
+| ==Pippeh::ms== | Tipis | Mince |
+| ==Bicut::ms== | Benjol | Bosse |
+| ==Tompel::ms== | Tahi lalat di wajah / bagian tubuh | Grain de beauté |
+| ==Koreng::ms== / ==Korengan::ms== | Luka besar dan lebar | Grande plaie |
+| ==Liccak::ms== | Lecet | Éraflure |
+| ==Batto'::ms== | Luka bakar / sakit karena panas api | Brûlure |
 
 ## Santé et maladies
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|
-| Kalinsamme | Deman flu dan pilek | Grippe et rhume |
-| Ayan | Epilepsi / Penyakit ayan | Épilepsie |
-| Cuttam | Pingsan / tidak sadarkan diri | Évanouissement |
-| Butta' | Buta | Aveugle |
-| Tulle'k (pakkak) | Pekak {kasar} | Sourd (vulgaire) |
-| Unggo'k | Rada-rada sakit | Un peu malade |
-| Gane | Bisul besar | Gros furoncle |
-| Asma | Nama (ilahi) / Asma (penyakit) | Nom (divin) / Asthme |
-| Haus | Dahaga | Soif |
-| Aus | Haus / Aus/Usang karena pemakaian | Soif / Usé |
-| Miang | Gatal / kegatalan | Démangeaison |
-| Lissoh / Lusoh | Badan kepanasan | Corps surchauffé |
-| Ngillok / Nyillo'k | Nyilu tulang /badan | Douleur osseuse |
-| Ngallu | Nyilu kepala / susah / pening | Mal de tête / Difficile |
-| Hangas | Gos-ngosan | Essoufflé |
-| Kapas-kapus | Kepas-kepos | Haletant |
-| Angngah | Terengah-engah / Tersengal | Haleter |
-| Angngas | Nafas berat | Respiration lourde |
-| Kallup | Belum di khitan | Pas encore circoncis |
-| Tanggal garang | Cukup umur / siap di khitan (u/ pria) | Âge suffisant / Prêt pour circoncision |
-| Sontet | Suntik | Injection |
-| Muntah | Muntah | Vomir |
-| Muek | Muntah sedikit | Vomir un peu |
-| Asap | Uang asap (wedding gift money) | Cadeau de mariage |
-| Asi | Air susu ibu | Lait maternel |
+| ==Kalinsamme::ms== | Deman flu dan pilek | Grippe et rhume |
+| ==Ayan::ms== | Epilepsi / Penyakit ayan | Épilepsie |
+| ==Cuttam::ms== | Pingsan / tidak sadarkan diri | Évanouissement |
+| ==Butta'::ms== | Buta | Aveugle |
+| ==Tulle'k::ms== | Pekak {kasar} | Sourd (vulgaire) |
+| ==Unggo'k::ms== | Rada-rada sakit | Un peu malade |
+| ==Gane::ms== | Bisul besar | Gros furoncle |
+| ==Asma::ms== | Nama (ilahi) / Asma (penyakit) | Nom (divin) / Asthme |
+| ==Haus::ms== | Dahaga | Soif |
+| ==Aus::ms== | Haus / Aus/Usang karena pemakaian | Soif / Usé |
+| ==Miang::ms== | Gatal / kegatalan | Démangeaison |
+| ==Lissoh::ms== / ==Lusoh::ms== | Badan kepanasan | Corps surchauffé |
+| ==Ngillok::ms== / ==Nyillo'k::ms== | Nyilu tulang /badan | Douleur osseuse |
+| ==Ngallu::ms== | Nyilu kepala / susah / pening | Mal de tête / Difficile |
+| ==Hangas::ms== | Gos-ngosan | Essoufflé |
+| ==Kapas-kapus::ms== | Kepas-kepos | Haletant |
+| ==Angngah::ms== | Terengah-engah / Tersengal | Haleter |
+| ==Angngas::ms== | Nafas berat | Respiration lourde |
+| ==Kallup::ms== | Belum di khitan | Pas encore circoncis |
+| ==Tanggal garang::ms== | Cukup umur / siap di khitan (u/ pria) | Âge suffisant / Prêt pour circoncision |
+| ==Sontet::ms== | Suntik | Injection |
+| ==Muntah::ms== | Muntah | Vomir |
+| ==Muek::ms== | Muntah sedikit | Vomir un peu |
+| ==Asap::ms== | Uang asap (wedding gift money) | Cadeau de mariage |
+| ==Asi::ms== | Air susu ibu | Lait maternel |
 
 
 **Source :** Dictionnaires Biack Sambas

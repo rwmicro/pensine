@@ -26,14 +26,14 @@ date: "2026-02-04"
 
 |  Javanais  |       Signification       |        Contexte        |
 | :--------: | :-----------------------: | :--------------------: |
-| **Monggo** | Je vous en prie / Allez-y |    Invitation polie    |
-|  **Wis**   |     Déjà / C'est fait     | Confirmer qu'on a fini |
-|  **Ora**   |            Non            |        Négation        |
-|  **Iyo**   |            Oui            |      Affirmation       |
-| **Piye?**  |         Comment ?         |        Question        |
-|  **Opo?**  |          Quoi ?           |        Question        |
-| **Sopo?**  |           Qui ?           |        Question        |
-|  **Ndak**  |            Non            |   Négation familière   |
+| **Monggo** | Je vous en prie / Allez-y | Invitation polie |
+| **Wis** | Déjà / C'est fait | Confirmer qu'on a fini |
+| **Ora** | Non | Négation |
+| **Iyo** | Oui | Affirmation |
+| **Piye?** | Comment ? | Question |
+| **Opo?** | Quoi ? | Question |
+| **Sopo?** | Qui ? | Question |
+| **Ndak** | Non | Négation familière |
 
 ### Niveaux de Langage Javanais
 
@@ -49,29 +49,29 @@ Le javanais a trois niveaux de politesse :
 
 | Français | Ngoko (bas) | Krama (haut) |
 | :------: | :---------: | :----------: |
-|  Manger  |   Mangan    |    Dhahar    |
-|  Boire   |   Ngombe    |   Ngunjuk    |
-|  Dormir  |    Turu     |     Sare     |
-|  Venir   |    Teko     |    Rawuh     |
-|  Parler  |   Ngomong   |    Matur     |
-|  Maison  |    Omah     |    Griya     |
-|    Je    |     Aku     |     Kula     |
-|    Tu    |    Kowe     | Panjenengan  |
+| Manger | Mangan | Dhahar |
+| Boire | Ngombe | Ngunjuk |
+| Dormir | Turu | Sare |
+| Venir | Teko | Rawuh |
+| Parler | Ngomong | Matur |
+| Maison | Omah | Griya |
+| Je | Aku | Kula |
+| Tu | Kowe | Panjenengan |
 
 ## Vocabulaire Javanais Utile
 
 | Javanais | Indonésien |  Français  |
 | :------: | :--------: | :--------: |
-|  Mangan  |   Makan    |   Manger   |
-|   Turu   |   Tidur    |   Dormir   |
-|  Lunga   |   Pergi    |   Partir   |
-|  Mulih   |   Pulang   | Rentrer in |
-|  Kerja   |  Bekerja   | Travailler |
-|  Sinau   |  Belajar   |  Étudier   |
-|   Adus   |   Mandi    | Se doucher |
-|  Mlaku   |   Jalan    |  Marcher   |
-| Lungguh  |   Duduk    | S'asseoir  |
-|  Tangi   |   Bangun   |  Se lever  |
+| Mangan | ==Makan::id== | Manger |
+| Turu | ==Tidur::id== | Dormir |
+| Lunga | ==Pergi::id== | Partir |
+| Mulih | ==Pulang::id== | Rentrer in |
+| Kerja | ==Bekerja::id== | Travailler |
+| Sinau | ==Belajar::id== | Étudier |
+| Adus | ==Mandi::id== | Se doucher |
+| Mlaku | ==Jalan::id== | Marcher |
+| Lungguh | ==Duduk::id== | S'asseoir |
+| Tangi | ==Bangun::id== | Se lever |
 
 ## Expressions Populaires
 

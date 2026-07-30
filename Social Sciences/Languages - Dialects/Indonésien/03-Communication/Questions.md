@@ -78,11 +78,11 @@ date: "2026-02-04"
 
 | Français | Indonésien |
 | :------: | :--------: |
-| Oui | Ya / Iya |
-| Non | Tidak / Gak / Enggak |
-| Peut-être | Mungkin |
-| Je ne sais pas | Tidak tahu / Gak tau |
-| Je ne comprends pas | Tidak mengerti / Gak paham |
-| Bien sûr | Tentu saja / Iya dong |
-| Pas encore | Belum |
-| Déjà | Sudah |
+| Oui | ==Ya::id== / ==Iya::id== |
+| Non | ==Tidak::id== / ==Gak::id== / ==Enggak::id== |
+| Peut-être | ==Mungkin::id== |
+| Je ne sais pas | ==Tidak tahu::id== / ==Gak tau::id== |
+| Je ne comprends pas | ==Tidak mengerti::id== / ==Gak paham::id== |
+| Bien sûr | ==Tentu saja::id== / ==Iya dong::id== |
+| Pas encore | ==Belum::id== |
+| Déjà | ==Sudah::id== |

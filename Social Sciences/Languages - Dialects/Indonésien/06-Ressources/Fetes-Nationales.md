@@ -12,51 +12,51 @@ date: "2026-02-04"
 
 | Date | Nom | Indonésien | Description |
 | :--: | :-: | :--------: | :---------: |
-| 1er Janvier | Nouvel An | Tahun Baru Masehi | Célébration du Nouvel An |
-| 17 Août | Jour de l'Indépendance | Hari Kemerdekaan | Indépendance de l'Indonésie (1945) |
-| 1er Juin | Jour du Pancasila | Hari Lahir Pancasila | Naissance de l'idéologie nationale |
-| 1er Mai | Fête du Travail | Hari Buruh | Journée internationale des travailleurs |
-| 20 Mai | Jour de l'Éveil National | Hari Kebangkitan Nasional | Commémoration du mouvement national |
-| 10 Novembre | Jour des Héros | Hari Pahlawan | Hommage aux héros indonésiens |
+| 1er Janvier | Nouvel An | ==Tahun Baru Masehi::id== | Célébration du Nouvel An |
+| 17 Août | Jour de l'Indépendance | ==Hari Kemerdekaan::id== | Indépendance de l'Indonésie (1945) |
+| 1er Juin | Jour du Pancasila | ==Hari Lahir Pancasila::id== | Naissance de l'idéologie nationale |
+| 1er Mai | Fête du Travail | ==Hari Buruh::id== | Journée internationale des travailleurs |
+| 20 Mai | Jour de l'Éveil National | ==Hari Kebangkitan Nasional::id== | Commémoration du mouvement national |
+| 10 Novembre | Jour des Héros | ==Hari Pahlawan::id== | Hommage aux héros indonésiens |
 
 ## Fêtes Musulmanes (dates variables selon le calendrier lunaire)
 
 | Fête | Indonésien | Description |
 | :--: | :--------: | :---------: |
-| Aïd el-Fitr | Idul Fitri / Lebaran | Fin du Ramadan - la plus grande fête en Indonésie |
-| Aïd el-Adha | Idul Adha | Fête du sacrifice |
-| Nouvel An islamique | Tahun Baru Islam | 1er Muharram |
-| Anniversaire du Prophète | Maulid Nabi Muhammad | Naissance du Prophète |
-| Isra et Miraj | Isra Miraj | Voyage nocturne du Prophète |
+| Aïd el-Fitr | ==Idul Fitri::id== / ==Lebaran::id== | Fin du Ramadan - la plus grande fête en Indonésie |
+| Aïd el-Adha | ==Idul Adha::id== | Fête du sacrifice |
+| Nouvel An islamique | ==Tahun Baru Islam::id== | 1er Muharram |
+| Anniversaire du Prophète | ==Maulid Nabi Muhammad::id== | Naissance du Prophète |
+| Isra et Miraj | ==Isra Miraj::id== | Voyage nocturne du Prophète |
 
 ## Fêtes Chrétiennes
 
 | Date | Nom | Indonésien | Description |
 | :--: | :-: | :--------: | :---------: |
-| 25 Décembre | Noël | Natal | Naissance de Jésus |
-| Variable | Vendredi Saint | Jumat Agung | Crucifixion de Jésus |
-| Variable | Pâques | Paskah | Résurrection de Jésus |
-| Variable | Ascension | Kenaikan Isa Almasih | Ascension de Jésus |
+| 25 Décembre | Noël | ==Natal::id== | Naissance de Jésus |
+| Variable | Vendredi Saint | ==Jumat Agung::id== | Crucifixion de Jésus |
+| Variable | Pâques | ==Paskah::id== | Résurrection de Jésus |
+| Variable | Ascension | ==Kenaikan Isa Almasih::id== | Ascension de Jésus |
 
 ## Fêtes Bouddhistes
 
 | Date | Nom | Indonésien | Description |
 | :--: | :-: | :--------: | :---------: |
-| Variable (Mai) | Waisak | Hari Raya Waisak | Naissance, illumination et mort de Bouddha |
+| Variable (Mai) | Waisak | ==Hari Raya Waisak::id== | Naissance, illumination et mort de Bouddha |
 
 ## Fêtes Hindoues
 
 | Date | Nom | Indonésien | Description |
 | :--: | :-: | :--------: | :---------: |
-| Variable (Mars) | Nyepi | Hari Raya Nyepi | Nouvel An hindou balinais - Jour du silence |
-| Variable | Galungan | Galungan | Victoire du bien sur le mal |
-| Variable | Kuningan | Kuningan | Fin de la période Galungan |
+| Variable (Mars) | Nyepi | ==Hari Raya Nyepi::id== | Nouvel An hindou balinais - Jour du silence |
+| Variable | Galungan | ==Galungan::id== | Victoire du bien sur le mal |
+| Variable | Kuningan | ==Kuningan::id== | Fin de la période Galungan |
 
 ## Fêtes Chinoises
 
 | Date | Nom | Indonésien | Description |
 | :--: | :-: | :--------: | :---------: |
-| Variable (Jan-Fév) | Nouvel An Chinois | Imlek / Tahun Baru Cina | Nouvel An lunaire chinois |
+| Variable (Jan-Fév) | Nouvel An Chinois | ==Imlek::id== / ==Tahun Baru Cina::id== | Nouvel An lunaire chinois |
 
 ## Traditions Spécifiques
 
@@ -93,14 +93,14 @@ Jour du silence complet :
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Fête | Hari raya | /ha.ri ra.ˈja/ |
-| Jour férié | Hari libur | /ha.ri li.ˈbur/ |
-| Vacances | Liburan | /li.bu.ˈran/ |
-| Cérémonie | Upacara | /u.pa.t͡ʃa.ˈra/ |
-| Tradition | Tradisi | /tra.di.ˈsi/ |
-| Prière | Doa / Sholat | /do.ˈa/ |
-| Jeûne | Puasa | /pu.a.ˈsa/ |
-| Ramadan | Ramadan / Bulan Puasa | /ra.ma.ˈdan/ |
-| Temple | Pura (hindou) / Vihara (bouddhiste) | /pu.ˈra/ |
-| Mosquée | Masjid | /mas.ˈdʒid/ |
-| Église | Gereja | /gə.rə.ˈdʒa/ |
+| Fête | ==Hari raya::id== | /ha.ri ra.ˈja/ |
+| Jour férié | ==Hari libur::id== | /ha.ri li.ˈbur/ |
+| Vacances | ==Liburan::id== | /li.bu.ˈran/ |
+| Cérémonie | ==Upacara::id== | /u.pa.t͡ʃa.ˈra/ |
+| Tradition | ==Tradisi::id== | /tra.di.ˈsi/ |
+| Prière | ==Doa::id== / ==Sholat::id== | /do.ˈa/ |
+| Jeûne | ==Puasa::id== | /pu.a.ˈsa/ |
+| Ramadan | ==Ramadan::id== / ==Bulan Puasa::id== | /ra.ma.ˈdan/ |
+| Temple | ==Pura::id== / ==Vihara::id== | /pu.ˈra/ |
+| Mosquée | ==Masjid::id== | /mas.ˈdʒid/ |
+| Église | ==Gereja::id== | /gə.rə.ˈdʒa/ |

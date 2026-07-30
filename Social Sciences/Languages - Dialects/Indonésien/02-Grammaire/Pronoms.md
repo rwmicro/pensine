@@ -15,11 +15,11 @@ date: "2026-02-04"
 | **Je** | Saya | Aku / Gue | *Gue* est du slang Jakarta |
 | **Tu** | Anda | Kamu / Lo | *Lo* est du slang Jakarta |
 | **Il / Elle** | Dia / Beliau | Dia | *Beliau* pour les aînés respectés |
-| | Ia | | *Ia* est littéraire/écrit |
+|  | Ia |  | *Ia* est littéraire/écrit |
 | **Nous** (exclusif) | Kami | Kami | N'inclut pas l'interlocuteur |
 | **Nous** (inclusif) | Kita | Kita | Inclut l'interlocuteur |
-| **Vous** (pluriel) | Anda sekalian | Kalian | |
-| | | Lo semua | Slang Jakarta |
+| **Vous** (pluriel) | Anda sekalian | Kalian |  |
+|  |  | Lo semua | Slang Jakarta |
 | **Ils / Elles** | Mereka | Mereka | Identique formel/informel |
 
 ### Différence Kami vs Kita
@@ -63,31 +63,31 @@ En indonésien, le possessif se forme en ajoutant le pronom après le nom ou en 
 
 | Français | Indonésien | Exemple |
 | :------: | :--------: | :-----: |
-| Ceci / Celui-ci | Ini | *Ini buku* = C'est un livre |
-| Cela / Celui-là | Itu | *Itu rumah* = C'est une maison |
-| Ici | Di sini / Sini | *Di sini* = Ici |
-| Là | Di situ / Situ | *Di situ* = Là |
-| Là-bas | Di sana / Sana | *Di sana* = Là-bas |
+| Ceci / Celui-ci | ==Ini::id== | *Ini buku* = C'est un livre |
+| Cela / Celui-là | ==Itu::id== | *Itu rumah* = C'est une maison |
+| Ici | ==Di sini::id== / ==Sini::id== | *Di sini* = Ici |
+| Là | ==Di situ::id== / ==Situ::id== | *Di situ* = Là |
+| Là-bas | ==Di sana::id== / ==Sana::id== | *Di sana* = Là-bas |
 
 ## Pronoms Interrogatifs
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Qui | Siapa | /si.a.pa/ |
-| Quoi | Apa | /a.pa/ |
-| Où | Di mana / Mana | /ma.na/ |
-| Quand | Kapan | /ka.pan/ |
-| Pourquoi | Mengapa / Kenapa | /kə.na.pa/ |
-| Comment | Bagaimana / Gimana | /gi.ma.na/ |
-| Combien | Berapa | /bə.ra.pa/ |
-| Lequel | Yang mana | /jaŋ ma.na/ |
+| Qui | ==Siapa::id== | /si.a.pa/ |
+| Quoi | ==Apa::id== | /a.pa/ |
+| Où | ==Di mana::id== / ==Mana::id== | /ma.na/ |
+| Quand | ==Kapan::id== | /ka.pan/ |
+| Pourquoi | ==Mengapa::id== / ==Kenapa::id== | /kə.na.pa/ |
+| Comment | ==Bagaimana::id== / ==Gimana::id== | /gi.ma.na/ |
+| Combien | ==Berapa::id== | /bə.ra.pa/ |
+| Lequel | ==Yang mana::id== | /jaŋ ma.na/ |
 
 ## Pronoms Relatifs
 
 | Français | Indonésien | Exemple |
 | :------: | :--------: | :-----: |
-| Qui / Que / Lequel | Yang | *Orang **yang** tinggi* = La personne qui est grande |
-| Dont | Yang | *Buku **yang** kamu baca* = Le livre que tu lis |
+| Qui / Que / Lequel | ==Yang::id== | *Orang **yang** tinggi* = La personne qui est grande |
+| Dont | ==Yang::id== | *Buku **yang** kamu baca* = Le livre que tu lis |
 
 **Note :** *Yang* est un mot très polyvalent en indonésien, utilisé dans de nombreux contextes.
 
@@ -95,8 +95,8 @@ En indonésien, le possessif se forme en ajoutant le pronom après le nom ou en 
 
 | Français | Indonésien | Exemple |
 | :------: | :--------: | :-----: |
-| Soi-même | Sendiri | *Aku pergi sendiri* = J'y vais seul |
-| Lui-même / Elle-même | Diri sendiri | *Dia menyalahkan diri sendiri* = Il se blâme lui-même |
+| Soi-même | ==Sendiri::id== | *Aku pergi sendiri* = J'y vais seul |
+| Lui-même / Elle-même | ==Diri sendiri::id== | *Dia menyalahkan diri sendiri* = Il se blâme lui-même |
 
 ## Utilisation des Titres comme Pronoms
 

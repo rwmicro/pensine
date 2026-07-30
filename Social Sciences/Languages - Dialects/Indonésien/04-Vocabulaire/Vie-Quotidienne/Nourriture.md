@@ -12,132 +12,132 @@ date: "2026-02-04"
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Nourriture | Makanan | - | /ma.ka.ˈnan/ |
-| Boisson | Minuman | - | /mi.nu.ˈman/ |
-| Petit-déjeuner | Sarapan | - | /sa.ra.ˈpan/ |
-| Déjeuner | Makan siang | - | /ma.kan si.ˈaŋ/ |
-| Dîner | Makan malam | - | /ma.kan ma.ˈlam/ |
-| Goûter | Cemilan | Snack | /t͡ʃə.mi.ˈlan/ |
-| Recette | Resep | - | /rə.ˈsɛp/ |
-| Menu | Menu | - | /mə.ˈnu/ |
+| Nourriture | ==Makanan::id== | - | /ma.ka.ˈnan/ |
+| Boisson | ==Minuman::id== | - | /mi.nu.ˈman/ |
+| Petit-déjeuner | ==Sarapan::id== | - | /sa.ra.ˈpan/ |
+| Déjeuner | ==Makan siang::id== | - | /ma.kan si.ˈaŋ/ |
+| Dîner | ==Makan malam::id== | - | /ma.kan ma.ˈlam/ |
+| Goûter | ==Cemilan::id== | Snack | /t͡ʃə.mi.ˈlan/ |
+| Recette | ==Resep::id== | - | /rə.ˈsɛp/ |
+| Menu | ==Menu::id== | - | /mə.ˈnu/ |
 
 ## Riz (Base de l'alimentation)
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Riz (dans le champ) | Padi | /pa.ˈdi/ |
-| Riz (cru) | Beras | /bə.ˈras/ |
-| Riz (cuit) | Nasi | /na.ˈsi/ |
-| Riz gluant | Ketan / Pulut | /kə.ˈtan/ |
-| Riz frit | Nasi goreng | /na.si go.ˈrəŋ/ |
-| Riz blanc | Nasi putih | /na.si pu.ˈtih/ |
-| Riz jaune | Nasi kuning | /na.si ku.ˈniŋ/ |
-| Bouillie de riz | Bubur | /bu.ˈbur/ |
+| Riz (dans le champ) | ==Padi::id== | /pa.ˈdi/ |
+| Riz (cru) | ==Beras::id== | /bə.ˈras/ |
+| Riz (cuit) | ==Nasi::id== | /na.ˈsi/ |
+| Riz gluant | ==Ketan::id== / ==Pulut::id== | /kə.ˈtan/ |
+| Riz frit | ==Nasi goreng::id== | /na.si go.ˈrəŋ/ |
+| Riz blanc | ==Nasi putih::id== | /na.si pu.ˈtih/ |
+| Riz jaune | ==Nasi kuning::id== | /na.si ku.ˈniŋ/ |
+| Bouillie de riz | ==Bubur::id== | /bu.ˈbur/ |
 
 ## Viandes et Protéines
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Viande | Daging | - | /da.ˈgiŋ/ |
-| Poulet | Ayam | - | /a.ˈjam/ |
-| Bœuf | Daging sapi | Sapi | /da.giŋ sa.ˈpi/ |
-| Porc | Babi | - | /ba.ˈbi/ |
-| Agneau | Domba | - | /dom.ˈba/ |
-| Chèvre | Kambing | - | /kam.ˈbiŋ/ |
-| Canard | Bebek | - | /bə.ˈbɛʔ/ |
-| Poisson | Ikan | - | /i.ˈkan/ |
-| Crevette | Udang | - | /u.ˈdaŋ/ |
-| Crabe | Kepiting | - | /kə.pi.ˈtiŋ/ |
-| Calamar | Cumi-cumi | - | /t͡ʃu.mi t͡ʃu.ˈmi/ |
-| Œuf | Telur | Telor | /tə.ˈlur/ |
-| Tofu | Tahu | - | /ta.ˈhu/ |
-| Tempeh | Tempe | - | /tɛm.ˈpɛ/ |
+| Viande | ==Daging::id== | - | /da.ˈgiŋ/ |
+| Poulet | ==Ayam::id== | - | /a.ˈjam/ |
+| Bœuf | ==Daging sapi::id== | Sapi | /da.giŋ sa.ˈpi/ |
+| Porc | ==Babi::id== | - | /ba.ˈbi/ |
+| Agneau | ==Domba::id== | - | /dom.ˈba/ |
+| Chèvre | ==Kambing::id== | - | /kam.ˈbiŋ/ |
+| Canard | ==Bebek::id== | - | /bə.ˈbɛʔ/ |
+| Poisson | ==Ikan::id== | - | /i.ˈkan/ |
+| Crevette | ==Udang::id== | - | /u.ˈdaŋ/ |
+| Crabe | ==Kepiting::id== | - | /kə.pi.ˈtiŋ/ |
+| Calamar | ==Cumi-cumi::id== | - | /t͡ʃu.mi t͡ʃu.ˈmi/ |
+| Œuf | ==Telur::id== | Telor | /tə.ˈlur/ |
+| Tofu | ==Tahu::id== | - | /ta.ˈhu/ |
+| Tempeh | ==Tempe::id== | - | /tɛm.ˈpɛ/ |
 
 ## Légumes
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Légume | Sayur | /sa.ˈjur/ |
-| Carotte | Wortel | /wor.ˈtɛl/ |
-| Tomate | Tomat | /to.ˈmat/ |
-| Pomme de terre | Kentang | /kən.ˈtaŋ/ |
-| Oignon | Bawang | /ba.ˈwaŋ/ |
-| Ail | Bawang putih | /ba.waŋ pu.ˈtih/ |
-| Échalote | Bawang merah | /ba.waŋ mə.ˈrah/ |
-| Chou | Kubis / Kol | /ku.ˈbis/ |
-| Épinard | Bayam | /ba.ˈjam/ |
-| Concombre | Timun / Mentimun | /ti.ˈmun/ |
-| Aubergine | Terong | /tə.ˈroŋ/ |
-| Haricot | Kacang | /ka.ˈt͡ʃaŋ/ |
-| Maïs | Jagung | /dʒa.ˈguŋ/ |
-| Champignon | Jamur | /dʒa.ˈmur/ |
-| Piment | Cabai / Cabe | /t͡ʃa.ˈbai/ |
-| Gingembre | Jahe | /dʒa.ˈhɛ/ |
-| Citronnelle | Serai | /sə.ˈrai/ |
+| Légume | ==Sayur::id== | /sa.ˈjur/ |
+| Carotte | ==Wortel::id== | /wor.ˈtɛl/ |
+| Tomate | ==Tomat::id== | /to.ˈmat/ |
+| Pomme de terre | ==Kentang::id== | /kən.ˈtaŋ/ |
+| Oignon | ==Bawang::id== | /ba.ˈwaŋ/ |
+| Ail | ==Bawang putih::id== | /ba.waŋ pu.ˈtih/ |
+| Échalote | ==Bawang merah::id== | /ba.waŋ mə.ˈrah/ |
+| Chou | ==Kubis::id== / ==Kol::id== | /ku.ˈbis/ |
+| Épinard | ==Bayam::id== | /ba.ˈjam/ |
+| Concombre | ==Timun::id== / ==Mentimun::id== | /ti.ˈmun/ |
+| Aubergine | ==Terong::id== | /tə.ˈroŋ/ |
+| Haricot | ==Kacang::id== | /ka.ˈt͡ʃaŋ/ |
+| Maïs | ==Jagung::id== | /dʒa.ˈguŋ/ |
+| Champignon | ==Jamur::id== | /dʒa.ˈmur/ |
+| Piment | ==Cabai::id== / ==Cabe::id== | /t͡ʃa.ˈbai/ |
+| Gingembre | ==Jahe::id== | /dʒa.ˈhɛ/ |
+| Citronnelle | ==Serai::id== | /sə.ˈrai/ |
 
 ## Fruits
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Fruit | Buah | /bu.ˈah/ |
-| Banane | Pisang | /pi.ˈsaŋ/ |
-| Mangue | Mangga | /maŋ.ˈga/ |
-| Orange | Jeruk | /dʒə.ˈruʔ/ |
-| Pomme | Apel | /a.ˈpɛl/ |
-| Raisin | Anggur | /aŋ.ˈgur/ |
-| Pastèque | Semangka | /sə.maŋ.ˈka/ |
-| Ananas | Nanas | /na.ˈnas/ |
-| Papaye | Pepaya | /pə.pa.ˈja/ |
-| Noix de coco | Kelapa | /kə.la.ˈpa/ |
-| Durian | Durian | /du.ri.ˈan/ |
-| Mangoustan | Manggis | /maŋ.ˈgis/ |
-| Ramboutan | Rambutan | /ram.bu.ˈtan/ |
-| Fruit du dragon | Buah naga | /bu.ah na.ˈga/ |
-| Avocat | Alpukat | /al.pu.ˈkat/ |
-| Citron vert | Jeruk nipis | /dʒə.ruʔ ni.ˈpis/ |
+| Fruit | ==Buah::id== | /bu.ˈah/ |
+| Banane | ==Pisang::id== | /pi.ˈsaŋ/ |
+| Mangue | ==Mangga::id== | /maŋ.ˈga/ |
+| Orange | ==Jeruk::id== | /dʒə.ˈruʔ/ |
+| Pomme | ==Apel::id== | /a.ˈpɛl/ |
+| Raisin | ==Anggur::id== | /aŋ.ˈgur/ |
+| Pastèque | ==Semangka::id== | /sə.maŋ.ˈka/ |
+| Ananas | ==Nanas::id== | /na.ˈnas/ |
+| Papaye | ==Pepaya::id== | /pə.pa.ˈja/ |
+| Noix de coco | ==Kelapa::id== | /kə.la.ˈpa/ |
+| Durian | ==Durian::id== | /du.ri.ˈan/ |
+| Mangoustan | ==Manggis::id== | /maŋ.ˈgis/ |
+| Ramboutan | ==Rambutan::id== | /ram.bu.ˈtan/ |
+| Fruit du dragon | ==Buah naga::id== | /bu.ah na.ˈga/ |
+| Avocat | ==Alpukat::id== | /al.pu.ˈkat/ |
+| Citron vert | ==Jeruk nipis::id== | /dʒə.ruʔ ni.ˈpis/ |
 
 ## Produits Laitiers et Autres
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Lait | Susu | /su.ˈsu/ |
-| Fromage | Keju | /kə.ˈdʒu/ |
-| Beurre | Mentega | /mən.tə.ˈga/ |
-| Yaourt | Yogurt | /jo.ˈgurt/ |
-| Pain | Roti | /ro.ˈti/ |
-| Nouilles | Mie | /mi/ |
-| Pâtes | Pasta | /pas.ˈta/ |
+| Lait | ==Susu::id== | /su.ˈsu/ |
+| Fromage | ==Keju::id== | /kə.ˈdʒu/ |
+| Beurre | ==Mentega::id== | /mən.tə.ˈga/ |
+| Yaourt | ==Yogurt::id== | /jo.ˈgurt/ |
+| Pain | ==Roti::id== | /ro.ˈti/ |
+| Nouilles | ==Mie::id== | /mi/ |
+| Pâtes | ==Pasta::id== | /pas.ˈta/ |
 
 ## Condiments et Épices
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Sel | Garam | /ga.ˈram/ |
-| Sucre | Gula | /gu.ˈla/ |
-| Poivre | Merica | /mə.ri.ˈt͡ʃa/ |
-| Sauce soja | Kecap | /kə.ˈt͡ʃap/ |
-| Sauce soja sucrée | Kecap manis | /kə.t͡ʃap ma.ˈnis/ |
-| Sauce piment | Sambal | /sam.ˈbal/ |
-| Huile | Minyak | /mi.ˈɲaʔ/ |
-| Vinaigre | Cuka | /t͡ʃu.ˈka/ |
-| Sauce cacahuète | Saus kacang | /saus ka.ˈt͡ʃaŋ/ |
+| Sel | ==Garam::id== | /ga.ˈram/ |
+| Sucre | ==Gula::id== | /gu.ˈla/ |
+| Poivre | ==Merica::id== | /mə.ri.ˈt͡ʃa/ |
+| Sauce soja | ==Kecap::id== | /kə.ˈt͡ʃap/ |
+| Sauce soja sucrée | ==Kecap manis::id== | /kə.t͡ʃap ma.ˈnis/ |
+| Sauce piment | ==Sambal::id== | /sam.ˈbal/ |
+| Huile | ==Minyak::id== | /mi.ˈɲaʔ/ |
+| Vinaigre | ==Cuka::id== | /t͡ʃu.ˈka/ |
+| Sauce cacahuète | ==Saus kacang::id== | /saus ka.ˈt͡ʃaŋ/ |
 
 ## Boissons
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Eau | Air | - | /a.ˈir/ |
-| Eau minérale | Air mineral | Aqua | /a.ir mi.nə.ˈral/ |
-| Thé | Teh | - | /tɛh/ |
-| Café | Kopi | - | /ko.ˈpi/ |
-| Jus | Jus | - | /dʒus/ |
-| Lait | Susu | - | /su.ˈsu/ |
-| Glace | Es | - | /ɛs/ |
-| Thé glacé | Es teh | Esteh | /ɛs tɛh/ |
-| Café glacé | Es kopi | Eskop | /ɛs ko.ˈpi/ |
-| Bière | Bir | - | /bir/ |
-| Vin | Anggur | Wine | /aŋ.ˈgur/ |
-| Soda | Soda | - | /so.ˈda/ |
+| Eau | ==Air::id== | - | /a.ˈir/ |
+| Eau minérale | ==Air mineral::id== | Aqua | /a.ir mi.nə.ˈral/ |
+| Thé | ==Teh::id== | - | /tɛh/ |
+| Café | ==Kopi::id== | - | /ko.ˈpi/ |
+| Jus | ==Jus::id== | - | /dʒus/ |
+| Lait | ==Susu::id== | - | /su.ˈsu/ |
+| Glace | ==Es::id== | - | /ɛs/ |
+| Thé glacé | ==Es teh::id== | Esteh | /ɛs tɛh/ |
+| Café glacé | ==Es kopi::id== | Eskop | /ɛs ko.ˈpi/ |
+| Bière | ==Bir::id== | - | /bir/ |
+| Vin | ==Anggur::id== | Wine | /aŋ.ˈgur/ |
+| Soda | ==Soda::id== | - | /so.ˈda/ |
 
 ## Plats Indonésiens Populaires
 

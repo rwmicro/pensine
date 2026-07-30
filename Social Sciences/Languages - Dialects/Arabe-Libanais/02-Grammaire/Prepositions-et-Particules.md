@@ -13,43 +13,43 @@ Les prépositions situent dans l'espace, le temps et la relation ; les particule
 
 | Français | Libanais | Translittération |
 |----------|----------|------------------|
-| Dans / avec (moyen) | بـ | bi- / b- |
-| Sur / à | عـ / على | 3a- / 3ala |
-| De (provenance) | من | min |
-| À / pour | لـ | la- / il- |
-| Avec (accompagnement) | مع | ma3 |
-| Chez | عند | 3and |
-| Entre | بين | bēn |
-| Sans | بلا | bala |
-| Au sujet de | عن | 3an |
-| Jusqu'à | لحدّ | la-7add |
-| Comme | متل | metel |
+| Dans / avec (moyen) | ==بـ::ar-lb== | bi- / b- |
+| Sur / à | ==عـ::ar-lb== / ==على::ar-lb== | 3a- / 3ala |
+| De (provenance) | ==من::ar-lb== | min |
+| À / pour | ==لـ::ar-lb== | la- / il- |
+| Avec (accompagnement) | ==مع::ar-lb== | ma3 |
+| Chez | ==عند::ar-lb== | 3and |
+| Entre | ==بين::ar-lb== | bēn |
+| Sans | ==بلا::ar-lb== | bala |
+| Au sujet de | ==عن::ar-lb== | 3an |
+| Jusqu'à | ==لحدّ::ar-lb== | la-7add |
+| Comme | ==متل::ar-lb== | metel |
 
 ## Prépositions de lieu
 
 | Français | Libanais | Translittération |
 |----------|----------|------------------|
-| Devant | قدّام | 2eddēm |
-| Derrière | ورا | wara |
-| Au-dessus / sur | فوق | fō2 |
-| En-dessous / sous | تحت | ta7et |
-| À côté de | جنب / حدّ | janb / 7add |
-| Autour de | حوالي | 7awēle |
-| En face de | قبال | 2bēl |
-| À l'intérieur | جوّا | jowwa |
-| À l'extérieur | برّا | barra |
-| Au milieu de | بنصّ | bi-noSS |
+| Devant | ==قدّام::ar-lb== | 2eddēm |
+| Derrière | ==ورا::ar-lb== | wara |
+| Au-dessus / sur | ==فوق::ar-lb== | fō2 |
+| En-dessous / sous | ==تحت::ar-lb== | ta7et |
+| À côté de | ==جنب::ar-lb== / ==حدّ::ar-lb== | janb / 7add |
+| Autour de | ==حوالي::ar-lb== | 7awēle |
+| En face de | ==قبال::ar-lb== | 2bēl |
+| À l'intérieur | ==جوّا::ar-lb== | jowwa |
+| À l'extérieur | ==برّا::ar-lb== | barra |
+| Au milieu de | ==بنصّ::ar-lb== | bi-noSS |
 
 ## Prépositions de temps
 
 | Français | Libanais | Translittération |
 |----------|----------|------------------|
-| Avant | قبل | 2able |
-| Après | بعد | ba3d |
-| Pendant | خلال | khilēl |
-| Depuis | من وقت | min wa2t |
-| Jusqu'à (temps) | لحتّى | la-7atta |
-| Vers (approximatif) | حوالي | 7awēle |
+| Avant | ==قبل::ar-lb== | 2able |
+| Après | ==بعد::ar-lb== | ba3d |
+| Pendant | ==خلال::ar-lb== | khilēl |
+| Depuis | ==من وقت::ar-lb== | min wa2t |
+| Jusqu'à (temps) | ==لحتّى::ar-lb== | la-7atta |
+| Vers (approximatif) | ==حوالي::ar-lb== | 7awēle |
 
 ## Prépositions + suffixes (exemple avec « ma3 », avec)
 
@@ -57,14 +57,14 @@ Comme les noms, les prépositions se collent aux suffixes possessifs :
 
 | Personne | Libanais | Translittération | Sens |
 |----------|----------|------------------|------|
-| moi | معي | ma3e | avec moi |
-| toi (m.) | معك | ma3ak | avec toi |
-| toi (f.) | معك | ma3ek | avec toi |
-| lui | معو | ma3o | avec lui |
-| elle | معا | ma3a | avec elle |
-| nous | معنا | ma3na | avec nous |
-| vous | معكن | ma3kon | avec vous |
-| eux | معن | ma3on | avec eux |
+| moi | ==معي::ar-lb== | ma3e | avec moi |
+| toi (m.) | ==معك::ar-lb== | ma3ak | avec toi |
+| toi (f.) | ==معك::ar-lb== | ma3ek | avec toi |
+| lui | ==معو::ar-lb== | ma3o | avec lui |
+| elle | ==معا::ar-lb== | ma3a | avec elle |
+| nous | ==معنا::ar-lb== | ma3na | avec nous |
+| vous | ==معكن::ar-lb== | ma3kon | avec vous |
+| eux | ==معن::ar-lb== | ma3on | avec eux |
 
 Le même mécanisme vaut pour `3and` (chez : `3ande`, `3andak`…), `min` (de : `minne`, `minnak`…), `la-` (à : `ile`, `ilak`, `ilo`…), `3a-` (`3aleyye`, `3aleik`, `3aleyy`…).
 
@@ -72,27 +72,27 @@ Le même mécanisme vaut pour `3and` (chez : `3ande`, `3andak`…), `min` (de : 
 
 | Français | Libanais | Translittération |
 |----------|----------|------------------|
-| Et | و | w / we |
-| Ou | أو | aw |
-| Mais | بس | bass |
-| Donc / alors | فـ / يعني | fa / ya3ne |
-| Aussi / également | كمان | kamēn |
-| Ni... ni | لا... ولا | la... wala |
-| Soit... soit | يا... يا | ya... ya |
+| Et | ==و::ar-lb== | w / we |
+| Ou | ==أو::ar-lb== | aw |
+| Mais | ==بس::ar-lb== | bass |
+| Donc / alors | ==فـ::ar-lb== / ==يعني::ar-lb== | fa / ya3ne |
+| Aussi / également | ==كمان::ar-lb== | kamēn |
+| Ni... ni | ==لا::ar-lb==... ==ولا::ar-lb== | la... wala |
+| Soit... soit | ==يا::ar-lb==... ==يا::ar-lb== | ya... ya |
 
 ## Particules de subordination
 
 | Français | Libanais | Translittération |
 |----------|----------|------------------|
-| Que (complétif) | إنّو | inno |
-| Parce que | لأنّو | la2anno |
-| Pour que / afin de | لحتّى / تـ | la-7atta / ta- |
-| Si (condition) | إذا | iza |
-| Quand / lorsque | لمّا / وقت | lamma / wa2t |
-| Bien que / même si | مع إنّو | ma3 inno |
-| Comme / puisque | بما إنّو | bima inno |
-| Avant que | قبل ما | 2able ma |
-| Après que | بعد ما | ba3d ma |
+| Que (complétif) | ==إنّو::ar-lb== | inno |
+| Parce que | ==لأنّو::ar-lb== | la2anno |
+| Pour que / afin de | ==لحتّى::ar-lb== / ==تـ::ar-lb== | la-7atta / ta- |
+| Si (condition) | ==إذا::ar-lb== | iza |
+| Quand / lorsque | ==لمّا::ar-lb== / ==وقت::ar-lb== | lamma / wa2t |
+| Bien que / même si | ==مع إنّو::ar-lb== | ma3 inno |
+| Comme / puisque | ==بما إنّو::ar-lb== | bima inno |
+| Avant que | ==قبل ما::ar-lb== | 2able ma |
+| Après que | ==بعد ما::ar-lb== | ba3d ma |
 
 Pour les conditionnelles (`iza`, `law`, `in`) en détail, voir [[02-Grammaire/Conditionnel-et-Iza|Conditionnel et Iza]].
 
@@ -100,11 +100,11 @@ Pour les conditionnelles (`iza`, `law`, `in`) en détail, voir [[02-Grammaire/Co
 
 | Français | Libanais | Translittération |
 |----------|----------|------------------|
-| C'est-à-dire / genre | يعني | ya3ne |
-| Bon / alors (transition) | طيّب | Tayyeb |
-| Voilà / tiens | هيّ / هاك | hayy / hēk |
-| Comme ça / ainsi | هيك | hēk |
-| Bien sûr | أكيد | akīd |
-| Peut-être | يمكن | yemken |
-| En tout cas | عالكلّ | 3al-kell |
-| Par contre | بالعكس | bil-3akes |
+| C'est-à-dire / genre | ==يعني::ar-lb== | ya3ne |
+| Bon / alors (transition) | ==طيّب::ar-lb== | Tayyeb |
+| Voilà / tiens | ==هيّ::ar-lb== / ==هاك::ar-lb== | hayy / hēk |
+| Comme ça / ainsi | ==هيك::ar-lb== | hēk |
+| Bien sûr | ==أكيد::ar-lb== | akīd |
+| Peut-être | ==يمكن::ar-lb== | yemken |
+| En tout cas | ==عالكلّ::ar-lb== | 3al-kell |
+| Par contre | ==بالعكس::ar-lb== | bil-3akes |

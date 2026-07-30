@@ -34,12 +34,12 @@ Le tamoul est l'une des plus anciennes langues classiques encore vivantes. La li
 
 | Fête | Période | Description |
 |------|---------|-------------|
-| பொங்கல் (Pongal) | Jan 14-17 | Fête des récoltes — plat de riz sucré cuit en plein air, sanctification des vaches |
-| தைப்பூசம் (Thaipusam) | Jan-Fév | Pèlerinage à Murugan — kavadi (portage de fardeau) |
-| கார்த்திகை (Karthigai) | Nov-Déc | Fête des lumières — lampes à huile partout |
-| நவராத்திரி (Navaratri) | Oct | 9 nuits de décorations, kolu (présentoirs de poupées) |
-| ஆடி (Aadi) | Juil-Août | Mois sacré, offrandes à la déesse Mariamman |
-| தீபாவளி (Deepavali) | Oct-Nov | Fête des lumières (= Diwali dans le nord) |
+| ==பொங்கல்::ta== (Pongal) | Jan 14-17 | Fête des récoltes — plat de riz sucré cuit en plein air, sanctification des vaches |
+| ==தைப்பூசம்::ta== (Thaipusam) | Jan-Fév | Pèlerinage à Murugan — kavadi (portage de fardeau) |
+| ==கார்த்திகை::ta== (Karthigai) | Nov-Déc | Fête des lumières — lampes à huile partout |
+| ==நவராத்திரி::ta== (Navaratri) | Oct | 9 nuits de décorations, kolu (présentoirs de poupées) |
+| ==ஆடி::ta== (Aadi) | Juil-Août | Mois sacré, offrandes à la déesse Mariamman |
+| ==தீபாவளி::ta== (Deepavali) | Oct-Nov | Fête des lumières (= Diwali dans le nord) |
 
 ## Cuisine tamoule
 
@@ -82,7 +82,7 @@ Kollywood (Kodambakkam + Hollywood) est l'industrie cinématographique de Chenna
 | Valeur | Description |
 |--------|-------------|
 | Respect des aînés | Toucher les pieds, utiliser le pluriel de respect, ne jamais contredire un aîné en public |
-| Hospitalité | "வாங்க, சாப்பிடுங்க" (Venez, mangez) — insistance à nourrir les invités |
+| Hospitalité | "==வாங்க::ta==, ==சாப்பிடுங்க::ta==" (Venez, mangez) — insistance à nourrir les invités |
 | Modestie | Ne pas se vanter directement — passer par la troisième personne ou l'humilité |
 | Famille | La famille nucléaire élargie reste l'unité sociale de base |
 | Mariage | Mariages arrangés encore courants — endogamie de caste souvent pratiquée |

@@ -16,143 +16,143 @@ date: "2026-02-04"
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Médecin | Dokter | Dokter | /dok.ˈtər/ |
-| Infirmier/ère | Perawat | Perawat | /pə.ra.ˈwat/ |
-| Dentiste | Dokter gigi | Dokter gigi | /dok.tər gi.ˈgi/ |
-| Pharmacien | Apoteker | Apoteker | /a.po.tə.ˈkər/ |
-| Sage-femme | Bidan | Bidan | /bi.ˈdan/ |
-| Chirurgien | Ahli bedah | - | /ah.li bə.ˈdah/ |
-| Psychologue | Psikolog | Psikolog | /psi.ko.ˈlog/ |
-| Vétérinaire | Dokter hewan | - | /dok.tər hə.ˈwan/ |
+| Médecin | ==Dokter::id== | Dokter | /dok.ˈtər/ |
+| Infirmier/ère | ==Perawat::id== | Perawat | /pə.ra.ˈwat/ |
+| Dentiste | ==Dokter gigi::id== | Dokter gigi | /dok.tər gi.ˈgi/ |
+| Pharmacien | ==Apoteker::id== | Apoteker | /a.po.tə.ˈkər/ |
+| Sage-femme | ==Bidan::id== | Bidan | /bi.ˈdan/ |
+| Chirurgien | ==Ahli bedah::id== | - | /ah.li bə.ˈdah/ |
+| Psychologue | ==Psikolog::id== | Psikolog | /psi.ko.ˈlog/ |
+| Vétérinaire | ==Dokter hewan::id== | - | /dok.tər hə.ˈwan/ |
 
 ### Éducation
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Professeur (école) | Guru | Guru | /gu.ˈru/ |
-| Professeur (université) | Dosen | Dosen | /do.ˈsən/ |
-| Instituteur | Guru SD | - | /gu.ru əs de/ |
-| Étudiant | Mahasiswa | - | /ma.ha.sis.ˈwa/ |
-| Étudiante | Mahasiswi | - | /ma.ha.sis.ˈwi/ |
-| Élève | Murid / Siswa | Murid | /mu.ˈrid/ |
-| Recteur | Rektor | - | /rək.ˈtor/ |
-| Directeur (école) | Kepala sekolah | Kepsek | /kə.pa.la sə.ko.ˈlah/ |
+| Professeur (école) | ==Guru::id== | Guru | /gu.ˈru/ |
+| Professeur (université) | ==Dosen::id== | Dosen | /do.ˈsən/ |
+| Instituteur | ==Guru SD::id== | - | /gu.ru əs de/ |
+| Étudiant | ==Mahasiswa::id== | - | /ma.ha.sis.ˈwa/ |
+| Étudiante | ==Mahasiswi::id== | - | /ma.ha.sis.ˈwi/ |
+| Élève | ==Murid::id== / ==Siswa::id== | Murid | /mu.ˈrid/ |
+| Recteur | ==Rektor::id== | - | /rək.ˈtor/ |
+| Directeur (école) | ==Kepala sekolah::id== | Kepsek | /kə.pa.la sə.ko.ˈlah/ |
 
 ### Commerce et Affaires
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Homme/Femme d'affaires | Pengusaha | Pengusaha | /pəŋ.u.sa.ˈha/ |
-| Commerçant | Pedagang | Pedagang | /pə.da.ˈgaŋ/ |
-| Vendeur | Penjual | - | /pən.dʒu.ˈal/ |
-| Caissier/ère | Kasir | Kasir | /ka.ˈsir/ |
-| Comptable | Akuntan | - | /a.kun.ˈtan/ |
-| Banquier | Bankir | - | /baŋ.ˈkir/ |
-| Manager | Manajer | - | /ma.na.ˈdʒər/ |
-| Directeur (entreprise) | Direktur | Bos | /di.rək.ˈtur/ |
-| Secrétaire | Sekretaris | Sekre | /sə.krə.ta.ˈris/ |
-| Entrepreneur | Wirausahawan | - | /wi.ra.u.sa.ha.ˈwan/ |
+| Homme/Femme d'affaires | ==Pengusaha::id== | Pengusaha | /pəŋ.u.sa.ˈha/ |
+| Commerçant | ==Pedagang::id== | Pedagang | /pə.da.ˈgaŋ/ |
+| Vendeur | ==Penjual::id== | - | /pən.dʒu.ˈal/ |
+| Caissier/ère | ==Kasir::id== | Kasir | /ka.ˈsir/ |
+| Comptable | ==Akuntan::id== | - | /a.kun.ˈtan/ |
+| Banquier | ==Bankir::id== | - | /baŋ.ˈkir/ |
+| Manager | ==Manajer::id== | - | /ma.na.ˈdʒər/ |
+| Directeur (entreprise) | ==Direktur::id== | Bos | /di.rək.ˈtur/ |
+| Secrétaire | ==Sekretaris::id== | Sekre | /sə.krə.ta.ˈris/ |
+| Entrepreneur | ==Wirausahawan::id== | - | /wi.ra.u.sa.ha.ˈwan/ |
 
 ### Artisanat et Services
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Cuisinier/Chef | Koki / Juru masak | Koki | /ko.ˈki/ |
-| Boulanger | Tukang roti | - | /tu.kaŋ ro.ˈti/ |
-| Boucher | Tukang daging | - | /tu.kaŋ da.ˈgiŋ/ |
-| Coiffeur | Tukang cukur | - | /tu.kaŋ t͡ʃu.ˈkur/ |
-| Coiffeuse | Penata rambut | - | /pə.na.ta ram.ˈbut/ |
-| Serveur/Serveuse | Pelayan | - | /pə.la.ˈjan/ |
-| Femme de ménage | Pembantu | PRT | /pəm.ban.ˈtu/ |
-| Gardien | Satpam | Satpam | /sat.ˈpam/ |
-| Chauffeur | Sopir | Sopir | /so.ˈpir/ |
-| Mécanicien | Montir | Montir | /mon.ˈtir/ |
+| Cuisinier/Chef | ==Koki::id== / ==Juru masak::id== | Koki | /ko.ˈki/ |
+| Boulanger | ==Tukang roti::id== | - | /tu.kaŋ ro.ˈti/ |
+| Boucher | ==Tukang daging::id== | - | /tu.kaŋ da.ˈgiŋ/ |
+| Coiffeur | ==Tukang cukur::id== | - | /tu.kaŋ t͡ʃu.ˈkur/ |
+| Coiffeuse | ==Penata rambut::id== | - | /pə.na.ta ram.ˈbut/ |
+| Serveur/Serveuse | ==Pelayan::id== | - | /pə.la.ˈjan/ |
+| Femme de ménage | ==Pembantu::id== | PRT | /pəm.ban.ˈtu/ |
+| Gardien | ==Satpam::id== | Satpam | /sat.ˈpam/ |
+| Chauffeur | ==Sopir::id== | Sopir | /so.ˈpir/ |
+| Mécanicien | ==Montir::id== | Montir | /mon.ˈtir/ |
 
 ### Construction et Technique
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Ouvrier | Buruh | Buruh | /bu.ˈruh/ |
-| Maçon | Tukang batu | - | /tu.kaŋ ba.ˈtu/ |
-| Menuisier | Tukang kayu | - | /tu.kaŋ ka.ˈju/ |
-| Électricien | Tukang listrik | - | /tu.kaŋ lis.ˈtrik/ |
-| Plombier | Tukang ledeng | - | /tu.kaŋ lə.ˈdəŋ/ |
-| Peintre (bâtiment) | Tukang cat | - | /tu.kaŋ t͡ʃat/ |
-| Ingénieur | Insinyur | - | /in.si.ˈɲur/ |
-| Architecte | Arsitek | - | /ar.si.ˈtək/ |
-| Soudeur | Tukang las | - | /tu.kaŋ las/ |
+| Ouvrier | ==Buruh::id== | Buruh | /bu.ˈruh/ |
+| Maçon | ==Tukang batu::id== | - | /tu.kaŋ ba.ˈtu/ |
+| Menuisier | ==Tukang kayu::id== | - | /tu.kaŋ ka.ˈju/ |
+| Électricien | ==Tukang listrik::id== | - | /tu.kaŋ lis.ˈtrik/ |
+| Plombier | ==Tukang ledeng::id== | - | /tu.kaŋ lə.ˈdəŋ/ |
+| Peintre (bâtiment) | ==Tukang cat::id== | - | /tu.kaŋ t͡ʃat/ |
+| Ingénieur | ==Insinyur::id== | - | /in.si.ˈɲur/ |
+| Architecte | ==Arsitek::id== | - | /ar.si.ˈtək/ |
+| Soudeur | ==Tukang las::id== | - | /tu.kaŋ las/ |
 
 ### Arts et Médias
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Artiste | Seniman | Seniman | /sə.ni.ˈman/ |
-| Chanteur/Chanteuse | Penyanyi | Penyanyi | /pə.ɲa.ˈɲi/ |
-| Musicien | Musisi | Musisi | /mu.si.ˈsi/ |
-| Acteur | Aktor | - | /ak.ˈtor/ |
-| Actrice | Aktris | - | /ak.ˈtris/ |
-| Danseur/Danseuse | Penari | Penari | /pə.na.ˈri/ |
-| Peintre (art) | Pelukis | - | /pə.lu.ˈkis/ |
-| Photographe | Fotografer | Fotografer | /fo.to.gra.ˈfər/ |
-| Journaliste | Wartawan | Wartawan | /war.ta.ˈwan/ |
-| Écrivain | Penulis | Penulis | /pə.nu.ˈlis/ |
-| Réalisateur | Sutradara | - | /su.tra.da.ˈra/ |
-| Présentateur TV | Pembawa acara | Host | /pəm.ba.wa a.t͡ʃa.ˈra/ |
+| Artiste | ==Seniman::id== | Seniman | /sə.ni.ˈman/ |
+| Chanteur/Chanteuse | ==Penyanyi::id== | Penyanyi | /pə.ɲa.ˈɲi/ |
+| Musicien | ==Musisi::id== | Musisi | /mu.si.ˈsi/ |
+| Acteur | ==Aktor::id== | - | /ak.ˈtor/ |
+| Actrice | ==Aktris::id== | - | /ak.ˈtris/ |
+| Danseur/Danseuse | ==Penari::id== | Penari | /pə.na.ˈri/ |
+| Peintre (art) | ==Pelukis::id== | - | /pə.lu.ˈkis/ |
+| Photographe | ==Fotografer::id== | Fotografer | /fo.to.gra.ˈfər/ |
+| Journaliste | ==Wartawan::id== | Wartawan | /war.ta.ˈwan/ |
+| Écrivain | ==Penulis::id== | Penulis | /pə.nu.ˈlis/ |
+| Réalisateur | ==Sutradara::id== | - | /su.tra.da.ˈra/ |
+| Présentateur TV | ==Pembawa acara::id== | Host | /pəm.ba.wa a.t͡ʃa.ˈra/ |
 
 ### Informatique et Tech
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Programmeur | Programmer | Programmer | /pro.gra.ˈmər/ |
-| Développeur | Developer | Dev | /də.və.lo.ˈpər/ |
-| Informaticien | Ahli IT | Orang IT | /ah.li i ti/ |
-| Designer | Desainer | Desainer | /də.sai.ˈnər/ |
-| Administrateur système | Admin sistem | Admin | /ad.min sis.ˈtəm/ |
-| Data scientist | Ilmuwan data | - | /il.mu.wan da.ˈta/ |
-| Content creator | Kreator konten | Konten kreator | /krə.a.tor kon.ˈtən/ |
-| Influencer | Influencer | Selebgram | /in.flu.ən.ˈsər/ |
+| Programmeur | ==Programmer::id== | Programmer | /pro.gra.ˈmər/ |
+| Développeur | ==Developer::id== | Dev | /də.və.lo.ˈpər/ |
+| Informaticien | ==Ahli IT::id== | Orang IT | /ah.li i ti/ |
+| Designer | ==Desainer::id== | Desainer | /də.sai.ˈnər/ |
+| Administrateur système | ==Admin sistem::id== | Admin | /ad.min sis.ˈtəm/ |
+| Data scientist | ==Ilmuwan data::id== | - | /il.mu.wan da.ˈta/ |
+| Content creator | ==Kreator konten::id== | Konten kreator | /krə.a.tor kon.ˈtən/ |
+| Influencer | ==Influencer::id== | Selebgram | /in.flu.ən.ˈsər/ |
 
 ### Forces de l'Ordre et Armée
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Policier | Polisi | Polisi | /po.li.ˈsi/ |
-| Soldat | Tentara | Tentara | /tən.ta.ˈra/ |
-| Pompier | Pemadam kebakaran | Damkar | /pə.ma.dam kə.ba.ka.ˈran/ |
-| Avocat | Pengacara | Pengacara | /pəŋ.a.t͡ʃa.ˈra/ |
-| Juge | Hakim | - | /ha.ˈkim/ |
-| Douanier | Petugas bea cukai | - | /pə.tu.gas bɛ.a t͡ʃu.ˈkai/ |
+| Policier | ==Polisi::id== | Polisi | /po.li.ˈsi/ |
+| Soldat | ==Tentara::id== | Tentara | /tən.ta.ˈra/ |
+| Pompier | ==Pemadam kebakaran::id== | Damkar | /pə.ma.dam kə.ba.ka.ˈran/ |
+| Avocat | ==Pengacara::id== | Pengacara | /pəŋ.a.t͡ʃa.ˈra/ |
+| Juge | ==Hakim::id== | - | /ha.ˈkim/ |
+| Douanier | ==Petugas bea cukai::id== | - | /pə.tu.gas bɛ.a t͡ʃu.ˈkai/ |
 
 ### Agriculture et Nature
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Agriculteur | Petani | Petani | /pə.ta.ˈni/ |
-| Pêcheur | Nelayan | Nelayan | /nə.la.ˈjan/ |
-| Éleveur | Peternak | - | /pə.tər.ˈnak/ |
-| Jardinier | Tukang kebun | - | /tu.kaŋ kə.ˈbun/ |
+| Agriculteur | ==Petani::id== | Petani | /pə.ta.ˈni/ |
+| Pêcheur | ==Nelayan::id== | Nelayan | /nə.la.ˈjan/ |
+| Éleveur | ==Peternak::id== | - | /pə.tər.ˈnak/ |
+| Jardinier | ==Tukang kebun::id== | - | /tu.kaŋ kə.ˈbun/ |
 
 ### Transport
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Pilote | Pilot | Pilot | /pi.ˈlot/ |
-| Hôtesse de l'air | Pramugari | - | /pra.mu.ga.ˈri/ |
-| Steward | Pramugara | - | /pra.mu.ga.ˈra/ |
-| Conducteur de bus | Sopir bus | - | /so.pir bus/ |
-| Conducteur Ojek | Tukang ojek | Driver ojol | /tu.kaŋ o.ˈdʒək/ |
-| Chauffeur Grab/Gojek | Driver online | Driver ojol | /drai.vər on.ˈlain/ |
-| Capitaine | Kapten | Kapten | /kap.ˈtən/ |
-| Marin | Pelaut | - | /pə.la.ˈut/ |
+| Pilote | ==Pilot::id== | Pilot | /pi.ˈlot/ |
+| Hôtesse de l'air | ==Pramugari::id== | - | /pra.mu.ga.ˈri/ |
+| Steward | ==Pramugara::id== | - | /pra.mu.ga.ˈra/ |
+| Conducteur de bus | ==Sopir bus::id== | - | /so.pir bus/ |
+| Conducteur Ojek | ==Tukang ojek::id== | Driver ojol | /tu.kaŋ o.ˈdʒək/ |
+| Chauffeur Grab/Gojek | ==Driver online::id== | Driver ojol | /drai.vər on.ˈlain/ |
+| Capitaine | ==Kapten::id== | Kapten | /kap.ˈtən/ |
+| Marin | ==Pelaut::id== | - | /pə.la.ˈut/ |
 
 ### Religion
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Imam | Imam | Ustadz | /i.ˈmam/ |
-| Prêtre | Pastor | Pastor | /pas.ˈtor/ |
-| Moine | Biksu | - | /bik.ˈsu/ |
-| Pasteur | Pendeta | - | /pən.de.ˈta/ |
+| Imam | ==Imam::id== | Ustadz | /i.ˈmam/ |
+| Prêtre | ==Pastor::id== | Pastor | /pas.ˈtor/ |
+| Moine | ==Biksu::id== | - | /bik.ˈsu/ |
+| Pasteur | ==Pendeta::id== | - | /pən.de.ˈta/ |
 
 
 ## Expressions Utiles
@@ -169,14 +169,14 @@ date: "2026-02-04"
 
 | Français | Indonésien |
 | :------: | :--------: |
-| Je suis médecin | Saya dokter / Aku dokter |
-| Je travaille comme... | Saya bekerja sebagai... |
-| Je travaille chez... | Saya bekerja di... |
-| Je suis au chômage | Saya pengangguran |
-| Je suis à la retraite | Saya sudah pensiun |
-| Je suis étudiant | Saya mahasiswa |
-| Je suis freelance | Saya freelancer / Saya kerja lepas |
-| Je suis mon propre patron | Saya wirausaha |
+| Je suis médecin | ==Saya dokter::id== / ==Aku dokter::id== |
+| Je travaille comme... | ==Saya bekerja sebagai...::id== |
+| Je travaille chez... | ==Saya bekerja di...::id== |
+| Je suis au chômage | ==Saya pengangguran::id== |
+| Je suis à la retraite | ==Saya sudah pensiun::id== |
+| Je suis étudiant | ==Saya mahasiswa::id== |
+| Je suis freelance | ==Saya freelancer::id== / ==Saya kerja lepas::id== |
+| Je suis mon propre patron | ==Saya wirausaha::id== |
 
 ### Slang / Argot
 
@@ -234,11 +234,11 @@ date: "2026-02-04"
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Bureau | Kantor | /kan.ˈtor/ |
-| Usine | Pabrik | /pab.ˈrik/ |
-| Hôpital | Rumah sakit | /ru.mah sa.ˈkit/ |
-| École | Sekolah | /sə.ko.ˈlah/ |
-| Magasin | Toko | /to.ˈko/ |
-| Restaurant | Restoran | /rəs.to.ˈran/ |
-| Chantier | Proyek | /pro.ˈjək/ |
-| Ferme | Pertanian | /pər.ta.ni.ˈan/ |
+| Bureau | ==Kantor::id== | /kan.ˈtor/ |
+| Usine | ==Pabrik::id== | /pab.ˈrik/ |
+| Hôpital | ==Rumah sakit::id== | /ru.mah sa.ˈkit/ |
+| École | ==Sekolah::id== | /sə.ko.ˈlah/ |
+| Magasin | ==Toko::id== | /to.ˈko/ |
+| Restaurant | ==Restoran::id== | /rəs.to.ˈran/ |
+| Chantier | ==Proyek::id== | /pro.ˈjək/ |
+| Ferme | ==Pertanian::id== | /pər.ta.ni.ˈan/ |

@@ -12,24 +12,24 @@ date: "2026-02-19"
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|
-| Kato' / Kato' sampak / Kato' lidder | Celana pendek / Celana dalam wanita / Celana dalam pria | Short / Culotte / Caleçon |
-| Kullot | Celana pendek | Short |
-| Selawar (seluar) | Celana dalam | Sous-vêtement |
-| Kotang | Kutang / BH | Soutien-gorge |
-| Panas kotang | (Baju) singlet | Débardeur |
-| Capal | Sendal | Sandale |
-| Selepar | Sandal jepit | Tongs |
-| Terompah | Sandal kayu / Mainan engkrak | Sandale en bois / Jeu de marelle |
-| Capel / Cappel / Penyappel | Caping / topi lebar untuk kesawah | Chapeau de rizière / Manique |
-| Somo | Topi / peci | Chapeau / Calotte |
-| Songkok | Peci solat | Calotte de prière |
-| Kungkong | Kalung | Collier |
-| Subbang | Anting-anting | Boucle d'oreille |
-| Awek | Selimut / Penutup | Couverture |
-| Gabbar | Kain selimut | Couverture |
-| Peracca'k | Kain sisa yang tidak terpakai / pakaian bekas | Chiffon / Vêtements usagés |
-| Bekumbo' / Ngumbo' | Menutup dengan kain / Menutupi / Berselimut | Se couvrir d'un tissu |
-| Lonsoran | Barang bekas / second | Seconde main |
+| ==Kato'::ms== / ==Kato' sampak::ms== / ==Kato' lidder::ms== | Celana pendek / Celana dalam wanita / Celana dalam pria | Short / Culotte / Caleçon |
+| ==Kullot::ms== | Celana pendek | Short |
+| ==Selawar::ms== | Celana dalam | Sous-vêtement |
+| ==Kotang::ms== | Kutang / BH | Soutien-gorge |
+| ==Panas kotang::ms== | (Baju) singlet | Débardeur |
+| ==Capal::ms== | Sendal | Sandale |
+| ==Selepar::ms== | Sandal jepit | Tongs |
+| ==Terompah::ms== | Sandal kayu / Mainan engkrak | Sandale en bois / Jeu de marelle |
+| ==Capel::ms== / ==Cappel::ms== / ==Penyappel::ms== | Caping / topi lebar untuk kesawah | Chapeau de rizière / Manique |
+| ==Somo::ms== | Topi / peci | Chapeau / Calotte |
+| ==Songkok::ms== | Peci solat | Calotte de prière |
+| ==Kungkong::ms== | Kalung | Collier |
+| ==Subbang::ms== | Anting-anting | Boucle d'oreille |
+| ==Awek::ms== | Selimut / Penutup | Couverture |
+| ==Gabbar::ms== | Kain selimut | Couverture |
+| ==Peracca'k::ms== | Kain sisa yang tidak terpakai / pakaian bekas | Chiffon / Vêtements usagés |
+| ==Bekumbo'::ms== / ==Ngumbo'::ms== | Menutup dengan kain / Menutupi / Berselimut | Se couvrir d'un tissu |
+| ==Lonsoran::ms== | Barang bekas / second | Seconde main |
 
 
 **Source :** Dictionnaires Biack Sambas

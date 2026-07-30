@@ -15,9 +15,9 @@ Ordre de base : **Sujet — Verbe — Objet** (comme en français)
 
 | Français | Malais | Notes |
 |----------|--------|-------|
-| Dia makan nasi. | Il mange du riz. | Ordre SVO direct |
-| Saya suka muzik. | J'aime la musique. | Pas d'article |
-| Buku itu besar. | Ce livre est grand. | Pas de verbe "être" |
+| Dia makan nasi. | ==Il mange du riz.::ms== | Ordre SVO direct |
+| Saya suka muzik. | ==J'aime la musique.::ms== | Pas d'article |
+| Buku itu besar. | ==Ce livre est grand.::ms== | Pas de verbe "être" |
 
 ## Les verbes — pas de conjugaison
 
@@ -129,14 +129,14 @@ Le malais utilise des classificateurs entre le nombre et le nom.
 
 | Mot interrogatif | Malais | Exemple |
 |-----------------|--------|---------|
-| Qu'est-ce que ? | Apa ? | Apa ini? (Qu'est-ce que c'est ?) |
-| Qui ? | Siapa ? | Siapa nama awak? (Quel est ton nom ?) |
-| Où ? | Di mana ? | Di mana tandas? (Où sont les toilettes ?) |
-| Quand ? | Bila ? / Bila-bila ? | Bila dia datang? (Quand vient-il ?) |
-| Comment ? | Bagaimana ? | Bagaimana keadaan awak? (Comment vas-tu ?) |
-| Pourquoi ? | Kenapa ? / Mengapa ? | Kenapa awak lambat? (Pourquoi tu es en retard ?) |
-| Combien ? (nombre) | Berapa ? | Berapa harganya? (Quel est le prix ?) |
-| Quel / Lequel ? | Yang mana ? | Yang mana awak suka? (Lequel tu aimes ?) |
+| Qu'est-ce que ? | ==Apa ?::ms== | Apa ini? (Qu'est-ce que c'est ?) |
+| Qui ? | ==Siapa ?::ms== | Siapa nama awak? (Quel est ton nom ?) |
+| Où ? | ==Di mana ?::ms== | Di mana tandas? (Où sont les toilettes ?) |
+| Quand ? | ==Bila ?::ms== / ==Bila-bila ?::ms== | Bila dia datang? (Quand vient-il ?) |
+| Comment ? | ==Bagaimana ?::ms== | Bagaimana keadaan awak? (Comment vas-tu ?) |
+| Pourquoi ? | ==Kenapa ?::ms== / ==Mengapa ?::ms== | Kenapa awak lambat? (Pourquoi tu es en retard ?) |
+| Combien ? (nombre) | ==Berapa ?::ms== | Berapa harganya? (Quel est le prix ?) |
+| Quel / Lequel ? | ==Yang mana ?::ms== | Yang mana awak suka? (Lequel tu aimes ?) |
 
 La question fermée (oui/non) se forme par intonation montante ou avec **-kah** en fin de phrase :
 - Awak suka kopi**kah**? (Tu aimes le café ?)

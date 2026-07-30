@@ -11,12 +11,12 @@ date: "2026-04-01"
 
 | Turc | Sens | Période / Usage |
 |------|------|----------------|
-| Merhaba | Bonjour / Salut | Universel, toute la journée |
-| Günaydın | Bonjour (matin) | Jusqu'à 12h environ |
-| İyi günler | Bonne journée | 12h–18h, légèrement formel |
-| İyi akşamlar | Bonsoir | Après 18h |
-| İyi geceler | Bonne nuit | Avant de dormir |
-| Selam | Salut (informel) | Entre amis |
+| ==Merhaba::tr== | Bonjour / Salut | Universel, toute la journée |
+| ==Günaydın::tr== | Bonjour (matin) | Jusqu'à 12h environ |
+| ==İyi günler::tr== | Bonne journée | 12h–18h, légèrement formel |
+| ==İyi akşamlar::tr== | Bonsoir | Après 18h |
+| ==İyi geceler::tr== | Bonne nuit | Avant de dormir |
+| ==Selam::tr== | Salut (informel) | Entre amis |
 
 ## Salutation islamique
 
@@ -71,26 +71,26 @@ La Turquie est à majorité musulmane mais laïque. Le salam arabe est courant, 
 
 | Turc | Sens |
 |------|------|
-| Teşekkür ederim | Merci (formel) |
-| Teşekkürler | Merci (courant) |
-| Sağ ol | Merci (informel, litt. "sois sain") |
-| Rica ederim | De rien / Je vous en prie |
-| Bir şey değil | Ce n'est rien |
-| Lütfen | S'il vous plaît |
-| Pardon / Özür dilerim | Pardon / Je suis désolé(e) |
-| Affedersiniz | Excusez-moi (pour déranger) |
+| ==Teşekkür ederim::tr== | Merci (formel) |
+| ==Teşekkürler::tr== | Merci (courant) |
+| ==Sağ ol::tr== | Merci (informel, litt. "sois sain") |
+| ==Rica ederim::tr== | De rien / Je vous en prie |
+| ==Bir şey değil::tr== | Ce n'est rien |
+| ==Lütfen::tr== | S'il vous plaît |
+| ==Pardon::tr== / ==Özür dilerim::tr== | Pardon / Je suis désolé(e) |
+| ==Affedersiniz::tr== | Excusez-moi (pour déranger) |
 
 ## Prises de congé
 
 | Turc | Sens | Registre |
 |------|------|---------|
-| Hoşça kalın | Au revoir (formel — dit par celui qui part) | Formel |
-| Güle güle | Au revoir (dit par celui qui reste) | Neutre |
-| Görüşürüz | À bientôt (on se reverra) | Courant |
-| Görüşmek üzere | À bientôt | Légèrement formel |
-| Sonra görüşürüz | On se voit après / à tout à l'heure | Informel |
-| İyi yolculuklar | Bon voyage | — |
-| Kolay gelsin | Bonne continuation au travail | litt. "que ça vienne facilement" |
+| ==Hoşça kalın::tr== | Au revoir (formel — dit par celui qui part) | Formel |
+| ==Güle güle::tr== | Au revoir (dit par celui qui reste) | Neutre |
+| ==Görüşürüz::tr== | À bientôt (on se reverra) | Courant |
+| ==Görüşmek üzere::tr== | À bientôt | Légèrement formel |
+| ==Sonra görüşürüz::tr== | On se voit après / à tout à l'heure | Informel |
+| ==İyi yolculuklar::tr== | Bon voyage | — |
+| ==Kolay gelsin::tr== | Bonne continuation au travail | litt. "que ça vienne facilement" |
 
 ## Vœux et hospitality
 

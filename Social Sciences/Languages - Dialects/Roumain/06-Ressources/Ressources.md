@@ -102,13 +102,13 @@ Le roumain partage 70–75 % de son vocabulaire avec le français. Les connexion
 
 | Français | Roumain | Note |
 |----------|---------|------|
-| table | masă | — |
-| heure | oră | — |
-| école | școală | notez le ș |
-| fleur | floare | — |
-| neige | nea / zăpadă | deux mots selon le registre |
-| information | informație | quasi-identique |
-| université | universitate | quasi-identique |
-| télévision | televiziune | quasi-identique |
+| table | ==masă::ro== | — |
+| heure | ==oră::ro== | — |
+| école | ==școală::ro== | notez le ș |
+| fleur | ==floare::ro== | — |
+| neige | ==nea::ro== / ==zăpadă::ro== | deux mots selon le registre |
+| information | ==informație::ro== | quasi-identique |
+| université | ==universitate::ro== | quasi-identique |
+| télévision | ==televiziune::ro== | quasi-identique |
 
 > Un francophone peut comprendre ~40 % du roumain écrit dès le premier contact. C'est la base la plus solide pour progresser rapidement.

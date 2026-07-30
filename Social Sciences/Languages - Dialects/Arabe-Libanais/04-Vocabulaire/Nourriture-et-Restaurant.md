@@ -13,92 +13,92 @@ La nourriture (`akl`) est centrale dans la culture libanaise. Refuser un plat pl
 
 | Français | Libanais | Translittération |
 |----------|----------|------------------|
-| Nourriture / manger | أكل | akl |
-| Manger (v.) | أكل / بياكل | akal / byēkol |
-| Boire (v.) | شرب / بيشرب | shereb / byeshrab |
-| Faim | جوع | jū3 |
-| J'ai faim | جوعان | jū3ān (m.) / jū3āne (f.) |
-| Soif | عطش | 3aTash |
-| J'ai soif | عطشان | 3aTshān (m.) / 3aTshāne (f.) |
-| Repas | وجبة | wajbe |
-| Petit-déjeuner | ترويقة | tarwī2a |
-| Déjeuner | غدا | ghada |
-| Dîner | عشا | 3asha |
-| Délicieux | طيّب | Tayyeb |
-| Délicieux (très) | زاكي | zēki |
+| Nourriture / manger | ==أكل::ar-lb== | akl |
+| Manger (v.) | ==أكل::ar-lb== / ==بياكل::ar-lb== | akal / byēkol |
+| Boire (v.) | ==شرب::ar-lb== / ==بيشرب::ar-lb== | shereb / byeshrab |
+| Faim | ==جوع::ar-lb== | jū3 |
+| J'ai faim | ==جوعان::ar-lb== | jū3ān (m.) / jū3āne (f.) |
+| Soif | ==عطش::ar-lb== | 3aTash |
+| J'ai soif | ==عطشان::ar-lb== | 3aTshān (m.) / 3aTshāne (f.) |
+| Repas | ==وجبة::ar-lb== | wajbe |
+| Petit-déjeuner | ==ترويقة::ar-lb== | tarwī2a |
+| Déjeuner | ==غدا::ar-lb== | ghada |
+| Dîner | ==عشا::ar-lb== | 3asha |
+| Délicieux | ==طيّب::ar-lb== | Tayyeb |
+| Délicieux (très) | ==زاكي::ar-lb== | zēki |
 
 ## Plats libanais typiques
 
 | Plat | Libanais | Description |
 |------|----------|-------------|
-| Houmous | حمّص | 7ommoS — purée de pois chiches, tahiné |
-| Moutabbal / baba ghanoush | متبّل | mutabbal — caviar d'aubergine |
-| Taboulé | تبّولة | tabbūle — persil, boulgour, tomate |
-| Fattouche | فتّوش | fattūsh — salade au pain grillé |
-| Kibbé | كبّة | kibbe — boulettes de boulgour et viande |
-| Manaïche | منقوشة | mana2īshe — galette au zaatar/fromage |
-| Falafel | فلافل | falēfel |
-| Chawarma | شاورما | shēwarma |
-| Feuilles de vigne | ورق عنب | wara2 3enab |
-| Labné | لبنة | labne — yaourt égoutté |
-| Halloumi | حلّوم | 7allūm — fromage grillé |
-| Maâmoul | معمول | ma3mūl — gâteaux fourrés (dattes, noix) |
+| Houmous | ==حمّص::ar-lb== | 7ommoS — purée de pois chiches, tahiné |
+| Moutabbal / baba ghanoush | ==متبّل::ar-lb== | mutabbal — caviar d'aubergine |
+| Taboulé | ==تبّولة::ar-lb== | tabbūle — persil, boulgour, tomate |
+| Fattouche | ==فتّوش::ar-lb== | fattūsh — salade au pain grillé |
+| Kibbé | ==كبّة::ar-lb== | kibbe — boulettes de boulgour et viande |
+| Manaïche | ==منقوشة::ar-lb== | mana2īshe — galette au zaatar/fromage |
+| Falafel | ==فلافل::ar-lb== | falēfel |
+| Chawarma | ==شاورما::ar-lb== | shēwarma |
+| Feuilles de vigne | ==ورق عنب::ar-lb== | wara2 3enab |
+| Labné | ==لبنة::ar-lb== | labne — yaourt égoutté |
+| Halloumi | ==حلّوم::ar-lb== | 7allūm — fromage grillé |
+| Maâmoul | ==معمول::ar-lb== | ma3mūl — gâteaux fourrés (dattes, noix) |
 
 ## Mezzé et table
 
 | Français | Libanais | Translittération |
 |----------|----------|------------------|
-| Mezzé (assortiment) | مزّة | mazze |
-| Pain | خبز | khebez |
-| Pain libanais | خبز مرقوق | khebez mar2ū2 |
-| Riz | رزّ | rezz |
-| Salade | سلطة | salaTa |
-| Viande | لحمة | la7me |
-| Poulet | جاج | jēj |
-| Poisson | سمك | samak |
-| Légumes | خضرة | khoDra |
-| Fruits | فواكه | fwēke |
+| Mezzé (assortiment) | ==مزّة::ar-lb== | mazze |
+| Pain | ==خبز::ar-lb== | khebez |
+| Pain libanais | ==خبز مرقوق::ar-lb== | khebez mar2ū2 |
+| Riz | ==رزّ::ar-lb== | rezz |
+| Salade | ==سلطة::ar-lb== | salaTa |
+| Viande | ==لحمة::ar-lb== | la7me |
+| Poulet | ==جاج::ar-lb== | jēj |
+| Poisson | ==سمك::ar-lb== | samak |
+| Légumes | ==خضرة::ar-lb== | khoDra |
+| Fruits | ==فواكه::ar-lb== | fwēke |
 
 ## Boissons
 
 | Français | Libanais | Translittération |
 |----------|----------|------------------|
-| Eau | مي | mayy |
-| Café | قهوة | 2ahwe |
-| Café (turc/libanais) | قهوة عربية | 2ahwe 3arabiyye |
-| Thé | شاي | shēy |
-| Jus | عصير | 3aSīr |
-| Bière | بيرا | bīra |
-| Vin | نبيد | nbīd |
-| Arak (anis) | عرق | 3ara2 |
-| Avec / sans sucre | بسكّر / بلا سكّر | bi-sokkar / bala sokkar |
+| Eau | ==مي::ar-lb== | mayy |
+| Café | ==قهوة::ar-lb== | 2ahwe |
+| Café (turc/libanais) | ==قهوة عربية::ar-lb== | 2ahwe 3arabiyye |
+| Thé | ==شاي::ar-lb== | shēy |
+| Jus | ==عصير::ar-lb== | 3aSīr |
+| Bière | ==بيرا::ar-lb== | bīra |
+| Vin | ==نبيد::ar-lb== | nbīd |
+| Arak (anis) | ==عرق::ar-lb== | 3ara2 |
+| Avec / sans sucre | ==بسكّر::ar-lb== / ==بلا سكّر::ar-lb== | bi-sokkar / bala sokkar |
 
 ## Au restaurant — phrases
 
 | Français | Libanais | Translittération |
 |----------|----------|------------------|
-| Une table pour deux | طاولة لتنين | Tāwle la-tnēn |
-| Le menu, svp | المنيو، من فضلك | el-menu, min faDlak |
-| Qu'est-ce que vous recommandez ? | شو بتنصحني ؟ | shu btinSa7ne? |
-| Je voudrais... | بدّي... | badde... |
-| Sans piment | بلا حرّ | bala 7arr |
-| Je suis végétarien | أنا نباتي | ana nabēte |
-| L'addition, svp | الحساب، من فضلك | el-7sēb, min faDlak |
-| C'était délicieux | كان كتير طيّب | kēn ktīr Tayyeb |
-| Bon appétit | صحتين | Sa7tein |
-| À ta santé (trinquer) | كاسك | kēsak |
+| Une table pour deux | ==طاولة لتنين::ar-lb== | Tāwle la-tnēn |
+| Le menu, svp | ==المنيو، من فضلك::ar-lb== | el-menu, min faDlak |
+| Qu'est-ce que vous recommandez ? | ==شو بتنصحني ؟::ar-lb== | shu btinSa7ne? |
+| Je voudrais... | ==بدّي::ar-lb==... | badde... |
+| Sans piment | ==بلا حرّ::ar-lb== | bala 7arr |
+| Je suis végétarien | ==أنا نباتي::ar-lb== | ana nabēte |
+| L'addition, svp | ==الحساب، من فضلك::ar-lb== | el-7sēb, min faDlak |
+| C'était délicieux | ==كان كتير طيّب::ar-lb== | kēn ktīr Tayyeb |
+| Bon appétit | ==صحتين::ar-lb== | Sa7tein |
+| À ta santé (trinquer) | ==كاسك::ar-lb== | kēsak |
 
 ## Goûts et états
 
 | Français | Libanais | Translittération |
 |----------|----------|------------------|
-| Sucré | حلو | 7elo |
-| Salé | مالح | mēle7 |
-| Épicé / piquant | حرّ | 7arr |
-| Amer | مرّ | morr |
-| Acide | حامض | 7āmeD |
-| Chaud (température) | سخن | sokhn |
-| Froid | بارد | bēred |
-| Cru | ني | nayy |
-| Cuit | مستوي | mestwe |
-| Rassasié / plein | شبعان | shab3ān |
+| Sucré | ==حلو::ar-lb== | 7elo |
+| Salé | ==مالح::ar-lb== | mēle7 |
+| Épicé / piquant | ==حرّ::ar-lb== | 7arr |
+| Amer | ==مرّ::ar-lb== | morr |
+| Acide | ==حامض::ar-lb== | 7āmeD |
+| Chaud (température) | ==سخن::ar-lb== | sokhn |
+| Froid | ==بارد::ar-lb== | bēred |
+| Cru | ==ني::ar-lb== | nayy |
+| Cuit | ==مستوي::ar-lb== | mestwe |
+| Rassasié / plein | ==شبعان::ar-lb== | shab3ān |

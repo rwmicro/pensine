@@ -13,34 +13,34 @@ Le malais s'écrit en **rumi** (alphabet latin, standard officiel) et en **jawi*
 
 | Lettre | Prononciation | Exemple malais |
 |--------|---------------|----------------|
-| A | /a/ ouvert, jamais /ə/ | **ada** (il y a) |
-| B | /b/ | **buku** (livre) |
-| C | /tʃ/ = "tch" | **cakap** (parler) |
-| D | /d/ | **duduk** (s'asseoir) |
-| E | /e/ ou /ə/ selon contexte | **enam** (six) / **emak** (mère) |
-| F | /f/ | **fikir** (penser) |
-| G | /g/ dur toujours | **gaji** (salaire) |
-| H | /h/ léger, souvent quasi-muet en fin de mot | **habis** (fini) |
-| I | /i/ | **ini** (ceci) |
-| J | /dʒ/ = "dj" | **jalan** (rue) |
-| K | /k/, quasi-occlusive glottale en fin de mot | **kamu** (tu) / **anak** (enfant) |
-| L | /l/ | **laut** (mer) |
-| M | /m/ | **makan** (manger) |
-| N | /n/ | **nama** (nom) |
-| Ng | /ŋ/ = "ng" de "ring" | **ngan** = **dengan** (avec) |
-| Ny | /ɲ/ = "gn" de "agneau" | **nyaman** (confortable) |
-| O | /o/ | **orang** (personne) |
-| P | /p/ | **pergi** (aller) |
-| R | /r/ roulé (alveolaire) | **rumah** (maison) |
-| S | /s/ | **saya** (je) |
-| Sy | /ʃ/ = "ch" français | **syarikat** (compagnie) |
-| T | /t/ | **tahu** (savoir) |
-| U | /u/ | **ubat** (médicament) |
-| V | /v/ (rare, emprunts) | **vitamin** |
-| W | /w/ | **waktu** (temps) |
-| X | /ks/ (rare) | |
-| Y | /j/ semi-voyelle | **ya** (oui) |
-| Z | /z/ | **zaman** (époque) |
+| A | /a/ ouvert, jamais /ə/ | ==**ada**::ms== |
+| B | /b/ | ==**buku**::ms== |
+| C | /tʃ/ = "tch" | ==**cakap**::ms== |
+| D | /d/ | ==**duduk**::ms== |
+| E | /e/ ou /ə/ selon contexte | ==**enam**::ms== / ==**emak**::ms== |
+| F | /f/ | ==**fikir**::ms== |
+| G | /g/ dur toujours | ==**gaji**::ms== |
+| H | /h/ léger, souvent quasi-muet en fin de mot | ==**habis**::ms== |
+| I | /i/ | ==**ini**::ms== |
+| J | /dʒ/ = "dj" | ==**jalan**::ms== |
+| K | /k/, quasi-occlusive glottale en fin de mot | ==**kamu**::ms== / ==**anak**::ms== |
+| L | /l/ | ==**laut**::ms== |
+| M | /m/ | ==**makan**::ms== |
+| N | /n/ | ==**nama**::ms== |
+| Ng | /ŋ/ = "ng" de "ring" | ==**ngan** = **dengan**::ms== |
+| Ny | /ɲ/ = "gn" de "agneau" | ==**nyaman**::ms== |
+| O | /o/ | ==**orang**::ms== |
+| P | /p/ | ==**pergi**::ms== |
+| R | /r/ roulé (alveolaire) | ==**rumah**::ms== |
+| S | /s/ | ==**saya**::ms== |
+| Sy | /ʃ/ = "ch" français | ==**syarikat**::ms== |
+| T | /t/ | ==**tahu**::ms== |
+| U | /u/ | ==**ubat**::ms== |
+| V | /v/ (rare, emprunts) | ==**vitamin**::ms== |
+| W | /w/ | ==**waktu**::ms== |
+| X | /ks/ (rare) |  |
+| Y | /j/ semi-voyelle | ==**ya**::ms== |
+| Z | /z/ | ==**zaman**::ms== |
 
 ## Points de prononciation importants
 
@@ -91,6 +91,6 @@ La phonologie du malais, de l'indonésien et du sambas est très similaire. Les 
 
 | Phénomène | Malais (Malaysia) | Indonésien | Sambas |
 |-----------|------------------|------------|--------|
-| K final | Occlusive glottale /ʔ/ | Plus souvent prononcé /k/ | /ʔ/ |
-| R | Roulé | Vibrant (variable) | Roulé |
-| E schwa | Fréquent | Présent | Présent |
+| K final | ==Occlusive glottale::ms== / ==ʔ::ms== /  | Plus souvent prononcé /k/ | /ʔ/ |
+| R | ==Roulé::ms== | Vibrant (variable) | Roulé |
+| E schwa | ==Fréquent::ms== | Présent | Présent |

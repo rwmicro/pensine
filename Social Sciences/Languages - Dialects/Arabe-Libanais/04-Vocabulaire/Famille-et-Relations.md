@@ -13,20 +13,20 @@ La famille (`3eile`) est au cœur de la vie sociale libanaise. Les termes de par
 
 | Français | Libanais | Translittération |
 |----------|----------|------------------|
-| Famille | عيلة | 3eile |
-| Père | بيّ | bayy |
-| Papa | بابا | bāba |
-| Mère | إمّ | imm |
-| Maman | ماما | māma |
-| Mes parents | أهلي | ahle |
-| Fils | إبن | ibn |
-| Fille (descendante) | بنت | bint |
-| Enfants | ولاد | wlēd |
-| Frère | أخ | akh |
-| Sœur | أخت | ekht |
-| Mon frère / ma sœur | خيّي / إختي | khayye / ekhte |
-| Mari | جوز | jōz |
-| Femme (épouse) | مرة / زوجة | mara / zōje |
+| Famille | ==عيلة::ar-lb== | 3eile |
+| Père | ==بيّ::ar-lb== | bayy |
+| Papa | ==بابا::ar-lb== | bāba |
+| Mère | ==إمّ::ar-lb== | imm |
+| Maman | ==ماما::ar-lb== | māma |
+| Mes parents | ==أهلي::ar-lb== | ahle |
+| Fils | ==إبن::ar-lb== | ibn |
+| Fille (descendante) | ==بنت::ar-lb== | bint |
+| Enfants | ==ولاد::ar-lb== | wlēd |
+| Frère | ==أخ::ar-lb== | akh |
+| Sœur | ==أخت::ar-lb== | ekht |
+| Mon frère / ma sœur | ==خيّي::ar-lb== / ==إختي::ar-lb== | khayye / ekhte |
+| Mari | ==جوز::ar-lb== | jōz |
+| Femme (épouse) | ==مرة::ar-lb== / ==زوجة::ar-lb== | mara / zōje |
 
 ## Parents possessifs (très fréquents)
 
@@ -34,62 +34,62 @@ Beaucoup de termes apparaissent collés à un suffixe. Exemples avec « mon / to
 
 | Français | Libanais | Translittération |
 |----------|----------|------------------|
-| Mon père | بيّي | bayye |
-| Ta mère | إمّك | immak |
-| Son frère (à lui) | خيّو | khayyo |
-| Ma sœur | إختي | ekhte |
-| Mon fils | إبني | ibne |
-| Ma fille | بنتي | binte |
+| Mon père | ==بيّي::ar-lb== | bayye |
+| Ta mère | ==إمّك::ar-lb== | immak |
+| Son frère (à lui) | ==خيّو::ar-lb== | khayyo |
+| Ma sœur | ==إختي::ar-lb== | ekhte |
+| Mon fils | ==إبني::ar-lb== | ibne |
+| Ma fille | ==بنتي::ar-lb== | binte |
 
 ## Grands-parents et côtés
 
 | Français | Libanais | Translittération |
 |----------|----------|------------------|
-| Grand-père | جدّ | jedd |
-| Grand-mère | ستّ / تيتا | sitt / tēta |
-| Oncle paternel | عمّ | 3amm |
-| Tante paternelle | عمّة | 3amme |
-| Oncle maternel | خال | khāl |
-| Tante maternelle | خالة | khāle |
-| Cousin (côté oncle pat.) | إبن عمّ | ibn 3amm |
-| Cousine (côté oncle pat.) | بنت عمّ | bint 3amm |
-| Neveu / nièce | إبن أخ / بنت أخت | ibn akh / bint ekht |
+| Grand-père | ==جدّ::ar-lb== | jedd |
+| Grand-mère | ==ستّ::ar-lb== / ==تيتا::ar-lb== | sitt / tēta |
+| Oncle paternel | ==عمّ::ar-lb== | 3amm |
+| Tante paternelle | ==عمّة::ar-lb== | 3amme |
+| Oncle maternel | ==خال::ar-lb== | khāl |
+| Tante maternelle | ==خالة::ar-lb== | khāle |
+| Cousin (côté oncle pat.) | ==إبن عمّ::ar-lb== | ibn 3amm |
+| Cousine (côté oncle pat.) | ==بنت عمّ::ar-lb== | bint 3amm |
+| Neveu / nièce | ==إبن أخ::ar-lb== / ==بنت أخت::ar-lb== | ibn akh / bint ekht |
 
 ## Belle-famille et mariage
 
 | Français | Libanais | Translittération |
 |----------|----------|------------------|
-| Beau-père | حمو | 7amu |
-| Belle-mère | حماة | 7amēt |
-| Gendre | صهر | Sehr |
-| Belle-fille / bru | كنّة | kinne |
-| Fiancé(e) | خطيب / خطيبة | khaTīb / khaTībe |
-| Mariage | عرس | 3eres |
-| Marié / mariée | عريس / عروس | 3arīs / 3arūs |
-| Divorcé(e) | مطلّق / مطلّقة | mTalla2 / mTal2a |
+| Beau-père | ==حمو::ar-lb== | 7amu |
+| Belle-mère | ==حماة::ar-lb== | 7amēt |
+| Gendre | ==صهر::ar-lb== | Sehr |
+| Belle-fille / bru | ==كنّة::ar-lb== | kinne |
+| Fiancé(e) | ==خطيب::ar-lb== / ==خطيبة::ar-lb== | khaTīb / khaTībe |
+| Mariage | ==عرس::ar-lb== | 3eres |
+| Marié / mariée | ==عريس::ar-lb== / ==عروس::ar-lb== | 3arīs / 3arūs |
+| Divorcé(e) | ==مطلّق::ar-lb== / ==مطلّقة::ar-lb== | mTalla2 / mTal2a |
 
 ## Amis et relations
 
 | Français | Libanais | Translittération |
 |----------|----------|------------------|
-| Ami(e) | رفيق / رفيقة | rfī2 / rfī2a |
-| Ami (copain) | صاحب / صاحبة | Sā7eb / Sā7be |
-| Voisin(e) | جار / جارة | jār / jāra |
-| Petit(e) ami(e) | حبيب / حبيبة | 7abīb / 7abībe |
-| Mon amour | حبيبي | 7abībe |
-| Les gens | ناس | nēs |
-| Quelqu'un | حدا | 7ada |
-| Personne (négatif) | ولا حدا | wala 7ada |
+| Ami(e) | ==رفيق::ar-lb== / ==رفيقة::ar-lb== | rfī2 / rfī2a |
+| Ami (copain) | ==صاحب::ar-lb== / ==صاحبة::ar-lb== | Sā7eb / Sā7be |
+| Voisin(e) | ==جار::ar-lb== / ==جارة::ar-lb== | jār / jāra |
+| Petit(e) ami(e) | ==حبيب::ar-lb== / ==حبيبة::ar-lb== | 7abīb / 7abībe |
+| Mon amour | ==حبيبي::ar-lb== | 7abībe |
+| Les gens | ==ناس::ar-lb== | nēs |
+| Quelqu'un | ==حدا::ar-lb== | 7ada |
+| Personne (négatif) | ==ولا حدا::ar-lb== | wala 7ada |
 
 ## États civils et âges
 
 | Français | Libanais | Translittération |
 |----------|----------|------------------|
-| Bébé | بيبي / رضيع | bēbe / raDī3 |
-| Enfant | ولد | walad |
-| Jeune | شاب / صبي | shēb / Sabe |
-| Adulte | بالغ | bēligh |
-| Vieux / âgé | كبير بالعمر | kbīr bil-3omr |
-| Célibataire | عازب / عزبا | 3ēzeb / 3azba |
-| Marié(e) | متجوّز / متجوّزة | mejjawwez / mejjawwze |
-| Enceinte | حبلى | 7eble |
+| Bébé | ==بيبي::ar-lb== / ==رضيع::ar-lb== | bēbe / raDī3 |
+| Enfant | ==ولد::ar-lb== | walad |
+| Jeune | ==شاب::ar-lb== / ==صبي::ar-lb== | shēb / Sabe |
+| Adulte | ==بالغ::ar-lb== | bēligh |
+| Vieux / âgé | ==كبير بالعمر::ar-lb== | kbīr bil-3omr |
+| Célibataire | ==عازب::ar-lb== / ==عزبا::ar-lb== | 3ēzeb / 3azba |
+| Marié(e) | ==متجوّز::ar-lb== / ==متجوّزة::ar-lb== | mejjawwez / mejjawwze |
+| Enceinte | ==حبلى::ar-lb== | 7eble |

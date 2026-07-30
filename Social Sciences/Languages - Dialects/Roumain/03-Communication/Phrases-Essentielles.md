@@ -13,91 +13,91 @@ Le roumain est une langue romane — un francophone avec de l'espagnol ou de l'i
 
 | Français | Roumain | Prononciation | Niveau |
 |----------|---------|---------------|--------|
-| Bonjour (général) | Bună ziua | /bunə ziua/ | F |
-| Bonjour (matin) | Bună dimineața | /bunə diminéatsa/ | F/C |
-| Bonsoir | Bună seara | /bunə séara/ | C |
-| Salut | Bună / Salut | /bunə/ | I |
-| Bonne nuit | Noapte bună | /noápte bunə/ | C |
-| Comment allez-vous ? | Ce mai faceți? | /tche mai fáchets/ | F |
-| Comment vas-tu ? | Ce mai faci? | /tche mai fách/ | I |
-| Bien, merci | Bine, mulțumesc | /bíne multsumέsk/ | C |
-| Au revoir | La revedere | /la revédere/ | F |
-| Salut (au revoir) | Pa! | /pa/ | I |
-| Oui | Da | /da/ | C |
-| Non | Nu | /nu/ | C |
-| Merci | Mulțumesc | /multsumέsk/ | C |
-| Merci beaucoup | Mulțumesc mult | | C |
-| S'il vous plaît | Vă rog | /və rog/ | F |
-| S'il te plaît | Te rog | /te rog/ | I |
-| De rien | Cu plăcere / N-ai pentru ce | | C |
-| Pardon | Scuzați-mă | /skuzátsimə/ | F |
-| Excuse-moi | Scuze / Iertare | | I |
+| Bonjour (général) | ==Bună ziua::ro== | /bunə ziua/ | F |
+| Bonjour (matin) | ==Bună dimineața::ro== | /bunə diminéatsa/ | F/C |
+| Bonsoir | ==Bună seara::ro== | /bunə séara/ | C |
+| Salut | ==Bună::ro== / ==Salut::ro== | /bunə/ | I |
+| Bonne nuit | ==Noapte bună::ro== | /noápte bunə/ | C |
+| Comment allez-vous ? | ==Ce mai faceți?::ro== | /tche mai fáchets/ | F |
+| Comment vas-tu ? | ==Ce mai faci?::ro== | /tche mai fách/ | I |
+| Bien, merci | ==Bine, mulțumesc::ro== | /bíne multsumέsk/ | C |
+| Au revoir | ==La revedere::ro== | /la revédere/ | F |
+| Salut (au revoir) | ==Pa!::ro== | /pa/ | I |
+| Oui | ==Da::ro== | /da/ | C |
+| Non | ==Nu::ro== | /nu/ | C |
+| Merci | ==Mulțumesc::ro== | /multsumέsk/ | C |
+| Merci beaucoup | ==Mulțumesc mult::ro== |  | C |
+| S'il vous plaît | ==Vă rog::ro== | /və rog/ | F |
+| S'il te plaît | ==Te rog::ro== | /te rog/ | I |
+| De rien | ==Cu plăcere::ro== / ==N-ai pentru ce::ro== |  | C |
+| Pardon | ==Scuzați-mă::ro== | /skuzátsimə/ | F |
+| Excuse-moi | ==Scuze::ro== / ==Iertare::ro== |  | I |
 
 ## Se présenter
 
 | Français | Roumain |
 |----------|---------|
-| Je m'appelle... | Mă cheamă ... / Sunt ... |
-| Comment t'appelles-tu ? | Cum te cheamă? |
-| Enchanté(e) | Încântat(ă) |
-| D'où venez-vous ? | De unde ești? |
-| Je viens de France | Sunt din Franța |
-| J'apprends le roumain | Învăț română |
-| Je parle un peu roumain | Vorbesc puțin română |
+| Je m'appelle... | ==Mă cheamă ...::ro== / ==Sunt ...::ro== |
+| Comment t'appelles-tu ? | ==Cum te cheamă?::ro== |
+| Enchanté(e) | ==Încântat::ro== |
+| D'où venez-vous ? | ==De unde ești?::ro== |
+| Je viens de France | ==Sunt din Franța::ro== |
+| J'apprends le roumain | ==Învăț română::ro== |
+| Je parle un peu roumain | ==Vorbesc puțin română::ro== |
 
 ## Communication
 
 | Français | Roumain |
 |----------|---------|
-| Je ne comprends pas | Nu înțeleg |
-| Répétez s'il vous plaît | Puteți repeta? |
-| Plus lentement | Mai încet, vă rog |
-| Parlez-vous français ? | Vorbiți franceză? |
-| Qu'est-ce que ça veut dire ? | Ce înseamnă asta? |
-| Comment dit-on ... en roumain ? | Cum se spune ... în română? |
+| Je ne comprends pas | ==Nu înțeleg::ro== |
+| Répétez s'il vous plaît | ==Puteți repeta?::ro== |
+| Plus lentement | ==Mai încet, vă rog::ro== |
+| Parlez-vous français ? | ==Vorbiți franceză?::ro== |
+| Qu'est-ce que ça veut dire ? | ==Ce înseamnă asta?::ro== |
+| Comment dit-on ... en roumain ? | ==Cum se spune ... în română?::ro== |
 
 ## Orientation
 
 | Français | Roumain |
 |----------|---------|
-| Où est... ? | Unde este ...? |
-| À gauche | La stânga |
-| À droite | La dreapta |
-| Tout droit | Înainte / Drept înainte |
-| C'est loin ? | E departe? |
-| Aidez-moi | Ajutați-mă |
+| Où est... ? | ==Unde este ...?::ro== |
+| À gauche | ==La stânga::ro== |
+| À droite | ==La dreapta::ro== |
+| Tout droit | ==Înainte::ro== / ==Drept înainte::ro== |
+| C'est loin ? | ==E departe?::ro== |
+| Aidez-moi | ==Ajutați-mă::ro== |
 
 ## Restaurant et achats
 
 | Français | Roumain |
 |----------|---------|
-| Je voudrais... | Aș dori ... / Vreau ... |
-| Combien ça coûte ? | Cât costă? |
-| C'est trop cher | E prea scump |
-| L'addition | Nota de plată / Bacul |
-| Délicieux ! | E delicios! |
-| Je suis végétarien(ne) | Sunt vegetarian(ă) |
-| Santé ! (trinquer) | Noroc! / Sănătate! |
+| Je voudrais... | ==Aș dori ...::ro== / ==Vreau ...::ro== |
+| Combien ça coûte ? | ==Cât costă?::ro== |
+| C'est trop cher | ==E prea scump::ro== |
+| L'addition | ==Nota de plată::ro== / ==Bacul::ro== |
+| Délicieux ! | ==E delicios!::ro== |
+| Je suis végétarien(ne) | ==Sunt vegetarian::ro== |
+| Santé ! (trinquer) | ==Noroc!::ro== / ==Sănătate!::ro== |
 
 ## Urgences
 
 | Français | Roumain |
 |----------|---------|
-| Au secours ! | Ajutor! |
-| Appelez la police | Chemați poliția |
-| Appelez une ambulance | Chemați ambulanța |
-| J'ai besoin d'un médecin | Am nevoie de un doctor |
-| Où sont les toilettes ? | Unde e toaleta? |
-| Je me sens mal | Nu mă simt bine |
+| Au secours ! | ==Ajutor!::ro== |
+| Appelez la police | ==Chemați poliția::ro== |
+| Appelez une ambulance | ==Chemați ambulanța::ro== |
+| J'ai besoin d'un médecin | ==Am nevoie de un doctor::ro== |
+| Où sont les toilettes ? | ==Unde e toaleta?::ro== |
+| Je me sens mal | ==Nu mă simt bine::ro== |
 
 ## Expressions utiles
 
 | Français | Roumain |
 |----------|---------|
-| Je ne sais pas | Nu știu |
-| Peut-être | Poate |
-| Bien sûr | Desigur / Sigur |
-| Bonne chance | Succes! / Noroc! |
-| Bravo | Bravo / Felicitări |
-| C'est dommage | Păcat |
-| Tant mieux | Cu atât mai bine |
+| Je ne sais pas | ==Nu știu::ro== |
+| Peut-être | ==Poate::ro== |
+| Bien sûr | ==Desigur::ro== / ==Sigur::ro== |
+| Bonne chance | ==Succes!::ro== / ==Noroc!::ro== |
+| Bravo | ==Bravo::ro== / ==Felicitări::ro== |
+| C'est dommage | ==Păcat::ro== |
+| Tant mieux | ==Cu atât mai bine::ro== |

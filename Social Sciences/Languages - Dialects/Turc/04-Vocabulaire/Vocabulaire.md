@@ -13,154 +13,154 @@ Vocabulaire thématique. Le turc est agglutinant — les suffixes s'accumulent s
 
 | FR | Turc | FR | Turc |
 |----|------|----|------|
-| 0 | Sıfır | 10 | On |
-| 1 | Bir | 11 | On bir |
-| 2 | İki | 20 | Yirmi |
-| 3 | Üç | 30 | Otuz |
-| 4 | Dört | 40 | Kırk |
-| 5 | Beş | 100 | Yüz |
-| 6 | Altı | 1 000 | Bin |
-| 7 | Yedi | 1 000 000 | Milyon |
-| 8 | Sekiz | Premier | Birinci |
-| 9 | Dokuz | Dernier | Sonuncu |
+| 0 | ==Sıfır::tr== | 10 | ==On::tr== |
+| 1 | ==Bir::tr== | 11 | ==On bir::tr== |
+| 2 | ==İki::tr== | 20 | ==Yirmi::tr== |
+| 3 | ==Üç::tr== | 30 | ==Otuz::tr== |
+| 4 | ==Dört::tr== | 40 | ==Kırk::tr== |
+| 5 | ==Beş::tr== | 100 | ==Yüz::tr== |
+| 6 | ==Altı::tr== | 1 000 | ==Bin::tr== |
+| 7 | ==Yedi::tr== | 1 000 000 | ==Milyon::tr== |
+| 8 | ==Sekiz::tr== | Premier | ==Birinci::tr== |
+| 9 | ==Dokuz::tr== | Dernier | ==Sonuncu::tr== |
 
 ## Famille
 
 | Français | Turc |
 |----------|------|
-| Père | Baba |
-| Mère | Anne |
-| Frère (aîné) | Ağabey / Abi |
-| Sœur (aînée) | Abla |
-| Frère (cadet) | Erkek kardeş |
-| Sœur (cadette) | Kız kardeş |
-| Fils | Oğul |
-| Fille | Kız |
-| Grand-père | Büyükbaba / Dede |
-| Grand-mère | Büyükanne / Babaanne / Anneanne |
-| Oncle (paternel) | Amca |
-| Tante (paternelle) | Hala |
-| Oncle (maternel) | Dayı |
-| Tante (maternelle) | Teyze |
-| Mari | Koca / Eş |
-| Femme | Karı / Eş |
+| Père | ==Baba::tr== |
+| Mère | ==Anne::tr== |
+| Frère (aîné) | ==Ağabey::tr== / ==Abi::tr== |
+| Sœur (aînée) | ==Abla::tr== |
+| Frère (cadet) | ==Erkek kardeş::tr== |
+| Sœur (cadette) | ==Kız kardeş::tr== |
+| Fils | ==Oğul::tr== |
+| Fille | ==Kız::tr== |
+| Grand-père | ==Büyükbaba::tr== / ==Dede::tr== |
+| Grand-mère | ==Büyükanne::tr== / ==Babaanne::tr== / ==Anneanne::tr== |
+| Oncle (paternel) | ==Amca::tr== |
+| Tante (paternelle) | ==Hala::tr== |
+| Oncle (maternel) | ==Dayı::tr== |
+| Tante (maternelle) | ==Teyze::tr== |
+| Mari | ==Koca::tr== / ==Eş::tr== |
+| Femme | ==Karı::tr== / ==Eş::tr== |
 
 ## Corps humain
 
 | Français | Turc |
 |----------|------|
-| Tête | Kafa / Baş |
-| Yeux | Gözler |
-| Nez | Burun |
-| Bouche | Ağız |
-| Oreille | Kulak |
-| Bras | Kol |
-| Main | El |
-| Jambe | Bacak |
-| Pied | Ayak |
-| Dos | Sırt |
-| Cœur | Kalp / Yürek |
+| Tête | ==Kafa::tr== / ==Baş::tr== |
+| Yeux | ==Gözler::tr== |
+| Nez | ==Burun::tr== |
+| Bouche | ==Ağız::tr== |
+| Oreille | ==Kulak::tr== |
+| Bras | ==Kol::tr== |
+| Main | ==El::tr== |
+| Jambe | ==Bacak::tr== |
+| Pied | ==Ayak::tr== |
+| Dos | ==Sırt::tr== |
+| Cœur | ==Kalp::tr== / ==Yürek::tr== |
 
 ## Couleurs
 
 | Français | Turc |
 |----------|------|
-| Rouge | Kırmızı |
-| Bleu | Mavi |
-| Vert | Yeşil |
-| Jaune | Sarı |
-| Blanc | Beyaz |
-| Noir | Siyah |
-| Orange | Turuncu |
-| Violet | Mor |
-| Rose | Pembe |
-| Gris | Gri |
-| Marron | Kahverengi |
+| Rouge | ==Kırmızı::tr== |
+| Bleu | ==Mavi::tr== |
+| Vert | ==Yeşil::tr== |
+| Jaune | ==Sarı::tr== |
+| Blanc | ==Beyaz::tr== |
+| Noir | ==Siyah::tr== |
+| Orange | ==Turuncu::tr== |
+| Violet | ==Mor::tr== |
+| Rose | ==Pembe::tr== |
+| Gris | ==Gri::tr== |
+| Marron | ==Kahverengi::tr== |
 
 ## Jours et temps
 
 | Français | Turc |
 |----------|------|
-| Lundi | Pazartesi |
-| Mardi | Salı |
-| Mercredi | Çarşamba |
-| Jeudi | Perşembe |
-| Vendredi | Cuma |
-| Samedi | Cumartesi |
-| Dimanche | Pazar |
-| Aujourd'hui | Bugün |
-| Hier | Dün |
-| Demain | Yarın |
-| Matin | Sabah |
-| Après-midi | Öğleden sonra |
-| Soir | Akşam |
-| Nuit | Gece |
+| Lundi | ==Pazartesi::tr== |
+| Mardi | ==Salı::tr== |
+| Mercredi | ==Çarşamba::tr== |
+| Jeudi | ==Perşembe::tr== |
+| Vendredi | ==Cuma::tr== |
+| Samedi | ==Cumartesi::tr== |
+| Dimanche | ==Pazar::tr== |
+| Aujourd'hui | ==Bugün::tr== |
+| Hier | ==Dün::tr== |
+| Demain | ==Yarın::tr== |
+| Matin | ==Sabah::tr== |
+| Après-midi | ==Öğleden sonra::tr== |
+| Soir | ==Akşam::tr== |
+| Nuit | ==Gece::tr== |
 
 ## Nourriture et boissons
 
 | Français | Turc |
 |----------|------|
-| Eau | Su |
-| Thé | Çay |
-| Café | Kahve |
-| Pain | Ekmek |
-| Riz | Pirinç / Pilav (cuit) |
-| Viande | Et |
-| Poulet | Tavuk |
-| Poisson | Balık |
-| Légumes | Sebze |
-| Fruits | Meyve |
-| Fromage | Peynir |
-| Sel | Tuz |
-| Sucre | Şeker |
-| Huile | Yağ |
+| Eau | ==Su::tr== |
+| Thé | ==Çay::tr== |
+| Café | ==Kahve::tr== |
+| Pain | ==Ekmek::tr== |
+| Riz | ==Pirinç::tr== / ==Pilav::tr== |
+| Viande | ==Et::tr== |
+| Poulet | ==Tavuk::tr== |
+| Poisson | ==Balık::tr== |
+| Légumes | ==Sebze::tr== |
+| Fruits | ==Meyve::tr== |
+| Fromage | ==Peynir::tr== |
+| Sel | ==Tuz::tr== |
+| Sucre | ==Şeker::tr== |
+| Huile | ==Yağ::tr== |
 
 ## Verbes essentiels
 
 | Français | Turc (infinitif) | 1ère pers. sing. présent |
 |----------|-----------------|--------------------------|
-| Être | Olmak | Ben'im (je suis) |
-| Avoir | Sahip olmak / var | Var |
-| Aller | Gitmek | Gidiyorum |
-| Venir | Gelmek | Geliyorum |
-| Vouloir | İstemek | İstiyorum |
-| Pouvoir | Yapabilmek | Yapabiliyorum |
-| Faire | Yapmak | Yapıyorum |
-| Parler | Konuşmak | Konuşuyorum |
-| Manger | Yemek | Yiyorum |
-| Boire | İçmek | İçiyorum |
-| Dormir | Uyumak | Uyuyorum |
-| Voir | Görmek | Görüyorum |
-| Savoir | Bilmek | Biliyorum |
-| Aimer | Sevmek | Seviyorum |
-| Acheter | Almak | Alıyorum |
+| Être | ==Olmak::tr== | Ben'im (je suis) |
+| Avoir | ==Sahip olmak::tr== / ==var::tr== | Var |
+| Aller | ==Gitmek::tr== | Gidiyorum |
+| Venir | ==Gelmek::tr== | Geliyorum |
+| Vouloir | ==İstemek::tr== | İstiyorum |
+| Pouvoir | ==Yapabilmek::tr== | Yapabiliyorum |
+| Faire | ==Yapmak::tr== | Yapıyorum |
+| Parler | ==Konuşmak::tr== | Konuşuyorum |
+| Manger | ==Yemek::tr== | Yiyorum |
+| Boire | ==İçmek::tr== | İçiyorum |
+| Dormir | ==Uyumak::tr== | Uyuyorum |
+| Voir | ==Görmek::tr== | Görüyorum |
+| Savoir | ==Bilmek::tr== | Biliyorum |
+| Aimer | ==Sevmek::tr== | Seviyorum |
+| Acheter | ==Almak::tr== | Alıyorum |
 
 ## Adjectifs courants
 
 | Français | Turc |
 |----------|------|
-| Grand | Büyük |
-| Petit | Küçük |
-| Beau | Güzel |
-| Nouveau | Yeni |
-| Vieux | Eski / Yaşlı |
-| Bon | İyi |
-| Mauvais | Kötü |
-| Chaud | Sıcak |
-| Froid | Soğuk |
-| Cher | Pahalı |
-| Bon marché | Ucuz |
-| Rapide | Hızlı |
-| Lent | Yavaş |
+| Grand | ==Büyük::tr== |
+| Petit | ==Küçük::tr== |
+| Beau | ==Güzel::tr== |
+| Nouveau | ==Yeni::tr== |
+| Vieux | ==Eski::tr== / ==Yaşlı::tr== |
+| Bon | ==İyi::tr== |
+| Mauvais | ==Kötü::tr== |
+| Chaud | ==Sıcak::tr== |
+| Froid | ==Soğuk::tr== |
+| Cher | ==Pahalı::tr== |
+| Bon marché | ==Ucuz::tr== |
+| Rapide | ==Hızlı::tr== |
+| Lent | ==Yavaş::tr== |
 
 ## Mots interrogatifs
 
 | Français | Turc | Exemple |
 |----------|------|---------|
-| Qui | Kim | Kim bu? (Qui est-ce ?) |
-| Quoi | Ne | Bu ne? (C'est quoi ?) |
-| Où | Nerede | Nerede? (Où ?) |
-| Quand | Ne zaman | Ne zaman? (Quand ?) |
-| Pourquoi | Neden / Niçin | Neden? (Pourquoi ?) |
-| Comment | Nasıl | Nasıl? (Comment ?) |
-| Combien | Ne kadar | Ne kadar? (Combien ?) |
+| Qui | ==Kim::tr== | Kim bu? (Qui est-ce ?) |
+| Quoi | ==Ne::tr== | Bu ne? (C'est quoi ?) |
+| Où | ==Nerede::tr== | Nerede? (Où ?) |
+| Quand | ==Ne zaman::tr== | Ne zaman? (Quand ?) |
+| Pourquoi | ==Neden::tr== / ==Niçin::tr== | Neden? (Pourquoi ?) |
+| Comment | ==Nasıl::tr== | Nasıl? (Comment ?) |
+| Combien | ==Ne kadar::tr== | Ne kadar? (Combien ?) |

@@ -12,100 +12,100 @@ date: "2026-02-04"
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Tête | Kepala | /kə.pa.ˈla/ |
-| Visage | Wajah / Muka | /wa.ˈdʒah/ |
-| Cheveux | Rambut | /ram.ˈbut/ |
-| Front | Dahi | /da.ˈhi/ |
-| Sourcil | Alis | /a.ˈlis/ |
-| Œil | Mata | /ma.ˈta/ |
-| Yeux | Mata | /ma.ˈta/ |
-| Paupière | Kelopak mata | /kə.lo.paʔ ma.ˈta/ |
-| Cil | Bulu mata | /bu.lu ma.ˈta/ |
-| Nez | Hidung | /hi.ˈduŋ/ |
-| Joue | Pipi | /pi.ˈpi/ |
-| Oreille | Telinga | /tə.li.ˈŋa/ |
-| Bouche | Mulut | /mu.ˈlut/ |
-| Lèvre | Bibir | /bi.ˈbir/ |
-| Langue | Lidah | /li.ˈdah/ |
-| Dent | Gigi | /gi.ˈgi/ |
-| Menton | Dagu | /da.ˈgu/ |
-| Moustache | Kumis | /ku.ˈmis/ |
-| Barbe | Jenggot | /dʒəŋ.ˈgot/ |
+| Tête | ==Kepala::id== | /kə.pa.ˈla/ |
+| Visage | ==Wajah::id== / ==Muka::id== | /wa.ˈdʒah/ |
+| Cheveux | ==Rambut::id== | /ram.ˈbut/ |
+| Front | ==Dahi::id== | /da.ˈhi/ |
+| Sourcil | ==Alis::id== | /a.ˈlis/ |
+| Œil | ==Mata::id== | /ma.ˈta/ |
+| Yeux | ==Mata::id== | /ma.ˈta/ |
+| Paupière | ==Kelopak mata::id== | /kə.lo.paʔ ma.ˈta/ |
+| Cil | ==Bulu mata::id== | /bu.lu ma.ˈta/ |
+| Nez | ==Hidung::id== | /hi.ˈduŋ/ |
+| Joue | ==Pipi::id== | /pi.ˈpi/ |
+| Oreille | ==Telinga::id== | /tə.li.ˈŋa/ |
+| Bouche | ==Mulut::id== | /mu.ˈlut/ |
+| Lèvre | ==Bibir::id== | /bi.ˈbir/ |
+| Langue | ==Lidah::id== | /li.ˈdah/ |
+| Dent | ==Gigi::id== | /gi.ˈgi/ |
+| Menton | ==Dagu::id== | /da.ˈgu/ |
+| Moustache | ==Kumis::id== | /ku.ˈmis/ |
+| Barbe | ==Jenggot::id== | /dʒəŋ.ˈgot/ |
 
 ## Corps Principal
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Corps | Tubuh / Badan | /tu.ˈbuh/ |
-| Cou | Leher | /lə.ˈhər/ |
-| Gorge | Tenggorokan | /təŋ.go.ro.ˈkan/ |
-| Épaule | Bahu | /ba.ˈhu/ |
-| Poitrine | Dada | /da.ˈda/ |
-| Sein | Payudara | /pa.ju.da.ˈra/ |
-| Dos | Punggung | /puŋ.ˈguŋ/ |
-| Ventre | Perut | /pə.ˈrut/ |
-| Nombril | Pusar | /pu.ˈsar/ |
-| Taille | Pinggang | /piŋ.ˈgaŋ/ |
-| Hanche | Pinggul | /piŋ.ˈgul/ |
-| Fesses | Bokong / Pantat | /bo.ˈkoŋ/ |
+| Corps | ==Tubuh::id== / ==Badan::id== | /tu.ˈbuh/ |
+| Cou | ==Leher::id== | /lə.ˈhər/ |
+| Gorge | ==Tenggorokan::id== | /təŋ.go.ro.ˈkan/ |
+| Épaule | ==Bahu::id== | /ba.ˈhu/ |
+| Poitrine | ==Dada::id== | /da.ˈda/ |
+| Sein | ==Payudara::id== | /pa.ju.da.ˈra/ |
+| Dos | ==Punggung::id== | /puŋ.ˈguŋ/ |
+| Ventre | ==Perut::id== | /pə.ˈrut/ |
+| Nombril | ==Pusar::id== | /pu.ˈsar/ |
+| Taille | ==Pinggang::id== | /piŋ.ˈgaŋ/ |
+| Hanche | ==Pinggul::id== | /piŋ.ˈgul/ |
+| Fesses | ==Bokong::id== / ==Pantat::id== | /bo.ˈkoŋ/ |
 
 ## Bras et Mains
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Bras | Lengan | /lə.ˈŋan/ |
-| Coude | Siku | /si.ˈku/ |
-| Poignet | Pergelangan tangan | /pər.gə.la.ŋan ta.ˈŋan/ |
-| Main | Tangan | /ta.ˈŋan/ |
-| Paume | Telapak tangan | /tə.la.paʔ ta.ˈŋan/ |
-| Doigt | Jari | /dʒa.ˈri/ |
-| Pouce | Ibu jari | /i.bu dʒa.ˈri/ |
-| Index | Jari telunjuk | /dʒa.ri tə.lun.ˈdʒuʔ/ |
-| Majeur | Jari tengah | /dʒa.ri tə.ˈŋah/ |
-| Annulaire | Jari manis | /dʒa.ri ma.ˈnis/ |
-| Auriculaire | Kelingking | /kə.liŋ.ˈkiŋ/ |
-| Ongle | Kuku | /ku.ˈku/ |
+| Bras | ==Lengan::id== | /lə.ˈŋan/ |
+| Coude | ==Siku::id== | /si.ˈku/ |
+| Poignet | ==Pergelangan tangan::id== | /pər.gə.la.ŋan ta.ˈŋan/ |
+| Main | ==Tangan::id== | /ta.ˈŋan/ |
+| Paume | ==Telapak tangan::id== | /tə.la.paʔ ta.ˈŋan/ |
+| Doigt | ==Jari::id== | /dʒa.ˈri/ |
+| Pouce | ==Ibu jari::id== | /i.bu dʒa.ˈri/ |
+| Index | ==Jari telunjuk::id== | /dʒa.ri tə.lun.ˈdʒuʔ/ |
+| Majeur | ==Jari tengah::id== | /dʒa.ri tə.ˈŋah/ |
+| Annulaire | ==Jari manis::id== | /dʒa.ri ma.ˈnis/ |
+| Auriculaire | ==Kelingking::id== | /kə.liŋ.ˈkiŋ/ |
+| Ongle | ==Kuku::id== | /ku.ˈku/ |
 
 ## Jambes et Pieds
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Jambe | Kaki | /ka.ˈki/ |
-| Cuisse | Paha | /pa.ˈha/ |
-| Genou | Lutut | /lu.ˈtut/ |
-| Mollet | Betis | /bə.ˈtis/ |
-| Cheville | Pergelangan kaki | /pər.gə.la.ŋan ka.ˈki/ |
-| Pied | Kaki | /ka.ˈki/ |
-| Talon | Tumit | /tu.ˈmit/ |
-| Orteil | Jari kaki | /dʒa.ri ka.ˈki/ |
-| Plante du pied | Telapak kaki | /tə.la.paʔ ka.ˈki/ |
+| Jambe | ==Kaki::id== | /ka.ˈki/ |
+| Cuisse | ==Paha::id== | /pa.ˈha/ |
+| Genou | ==Lutut::id== | /lu.ˈtut/ |
+| Mollet | ==Betis::id== | /bə.ˈtis/ |
+| Cheville | ==Pergelangan kaki::id== | /pər.gə.la.ŋan ka.ˈki/ |
+| Pied | ==Kaki::id== | /ka.ˈki/ |
+| Talon | ==Tumit::id== | /tu.ˈmit/ |
+| Orteil | ==Jari kaki::id== | /dʒa.ri ka.ˈki/ |
+| Plante du pied | ==Telapak kaki::id== | /tə.la.paʔ ka.ˈki/ |
 
 ## Organes Internes
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Cœur | Jantung | /dʒan.ˈtuŋ/ |
-| Poumon | Paru-paru | /pa.ru pa.ˈru/ |
-| Estomac | Lambung | /lam.ˈbuŋ/ |
-| Foie | Hati | /ha.ˈti/ |
-| Rein | Ginjal | /gin.ˈdʒal/ |
-| Intestin | Usus | /u.ˈsus/ |
-| Cerveau | Otak | /o.ˈtaʔ/ |
-| Os | Tulang | /tu.ˈlaŋ/ |
-| Muscle | Otot | /o.ˈtot/ |
-| Peau | Kulit | /ku.ˈlit/ |
-| Sang | Darah | /da.ˈrah/ |
-| Nerf | Saraf | /sa.ˈraf/ |
+| Cœur | ==Jantung::id== | /dʒan.ˈtuŋ/ |
+| Poumon | ==Paru-paru::id== | /pa.ru pa.ˈru/ |
+| Estomac | ==Lambung::id== | /lam.ˈbuŋ/ |
+| Foie | ==Hati::id== | /ha.ˈti/ |
+| Rein | ==Ginjal::id== | /gin.ˈdʒal/ |
+| Intestin | ==Usus::id== | /u.ˈsus/ |
+| Cerveau | ==Otak::id== | /o.ˈtaʔ/ |
+| Os | ==Tulang::id== | /tu.ˈlaŋ/ |
+| Muscle | ==Otot::id== | /o.ˈtot/ |
+| Peau | ==Kulit::id== | /ku.ˈlit/ |
+| Sang | ==Darah::id== | /da.ˈrah/ |
+| Nerf | ==Saraf::id== | /sa.ˈraf/ |
 
 ## Les Sens
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Vue | Penglihatan | /pəŋ.li.ha.ˈtan/ |
-| Ouïe | Pendengaran | /pən.də.ŋa.ˈran/ |
-| Odorat | Penciuman | /pən.t͡ʃi.u.ˈman/ |
-| Goût | Pengecapan | /pə.ŋə.t͡ʃa.ˈpan/ |
-| Toucher | Sentuhan | /sən.tu.ˈhan/ |
+| Vue | ==Penglihatan::id== | /pəŋ.li.ha.ˈtan/ |
+| Ouïe | ==Pendengaran::id== | /pən.də.ŋa.ˈran/ |
+| Odorat | ==Penciuman::id== | /pən.t͡ʃi.u.ˈman/ |
+| Goût | ==Pengecapan::id== | /pə.ŋə.t͡ʃa.ˈpan/ |
+| Toucher | ==Sentuhan::id== | /sən.tu.ˈhan/ |
 
 ## Expressions Utiles
 

@@ -57,38 +57,38 @@ date: "2026-02-04"
 
 | Français | Indonésien | Usage |
 | :------: | :--------: | :---: |
-| Salut ! | Halo! / Hai! / Yo! | Très courant |
-| Hey ! | Hei! / Eh! | Amical |
-| Quoi de neuf ? | Ada yang baru? | Entre amis |
-| Comment ça ? | Gimana? | Très informel |
-| Bye ! | Dadah! / Bye! | Courant |
-| À plus ! | Nanti ya! | Entre amis |
-| Ça roule ? | Gimana kabarnya? | Familier |
+| Salut ! | ==Halo!::id== / ==Hai!::id== / ==Yo!::id== | Très courant |
+| Hey ! | ==Hei!::id== / ==Eh!::id== | Amical |
+| Quoi de neuf ? | ==Ada yang baru?::id== | Entre amis |
+| Comment ça ? | ==Gimana?::id== | Très informel |
+| Bye ! | ==Dadah!::id== / ==Bye!::id== | Courant |
+| À plus ! | ==Nanti ya!::id== | Entre amis |
+| Ça roule ? | ==Gimana kabarnya?::id== | Familier |
 
 ## Réponses à "Apa kabar?"
 
 | Français | Indonésien |
 | :------: | :--------: |
-| Bien | Baik |
-| Très bien | Baik sekali |
-| Ça va | Baik-baik saja |
-| Pas mal | Lumayan |
-| Comme ci comme ça | Biasa saja |
-| Moi aussi je vais bien | Aku juga baik |
+| Bien | ==Baik::id== |
+| Très bien | ==Baik sekali::id== |
+| Ça va | ==Baik-baik saja::id== |
+| Pas mal | ==Lumayan::id== |
+| Comme ci comme ça | ==Biasa saja::id== |
+| Moi aussi je vais bien | ==Aku juga baik::id== |
 
 ## Souhaits
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Bonne chance | Semoga berhasil | /sə.mo.ga bər.ha.ˈsil/ |
-| Bon appétit | Selamat makan | /sə.la.mat ma.ˈkan/ |
-| Bonne nuit (pour dormir) | Selamat tidur | /sə.la.mat ti.ˈdur/ |
-| Bon voyage | Selamat jalan | /sə.la.mat dʒa.ˈlan/ |
-| Bon travail | Selamat bekerja | /sə.la.mat bə.kər.ˈdʒa/ |
-| Félicitations | Selamat | /sə.la.ˈmat/ |
-| Joyeux anniversaire | Selamat ulang tahun | /sə.la.mat u.laŋ ta.ˈhun/ |
-| Bonne année | Selamat Tahun Baru | /sə.la.mat ta.hun ba.ˈru/ |
-| Santé ! (trinquer) | Bersulang! | /bər.su.ˈlaŋ/ |
+| Bonne chance | ==Semoga berhasil::id== | /sə.mo.ga bər.ha.ˈsil/ |
+| Bon appétit | ==Selamat makan::id== | /sə.la.mat ma.ˈkan/ |
+| Bonne nuit (pour dormir) | ==Selamat tidur::id== | /sə.la.mat ti.ˈdur/ |
+| Bon voyage | ==Selamat jalan::id== | /sə.la.mat dʒa.ˈlan/ |
+| Bon travail | ==Selamat bekerja::id== | /sə.la.mat bə.kər.ˈdʒa/ |
+| Félicitations | ==Selamat::id== | /sə.la.ˈmat/ |
+| Joyeux anniversaire | ==Selamat ulang tahun::id== | /sə.la.mat u.laŋ ta.ˈhun/ |
+| Bonne année | ==Selamat Tahun Baru::id== | /sə.la.mat ta.hun ba.ˈru/ |
+| Santé ! (trinquer) | ==Bersulang!::id== | /bər.su.ˈlaŋ/ |
 
 ## Exemples de Dialogues
 

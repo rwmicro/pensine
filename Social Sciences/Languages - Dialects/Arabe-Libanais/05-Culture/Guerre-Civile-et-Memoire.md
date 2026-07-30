@@ -29,21 +29,21 @@ La guerre civile libanaise (1975-1990) structure encore aujourd'hui la géograph
 
 | Mot | Libanais | Sens |
 |-----|-------|------|
-| الحرب | el-7arb | la guerre (la grande, celle de 75-90) |
-| الأحداث | el-a7dāth | "les événements" — périphrase pudique pour la guerre |
-| الميليشيا | el-milīshia | la milice |
-| الحاجز | el-7ājez | le barrage (check-point) |
-| القناص | el-2annāS | le sniper |
-| الشارع الأخضر | esh-shāri3 el-akhdar | la "ligne verte" — ligne de démarcation Beyrouth Est/Ouest |
-| التهجير | et-tahjīr | le déplacement forcé (populations) |
-| المفقود | el-mafqūd | le disparu — ~17 000 cas non résolus |
-| الاختطاف | el-ikhtiTāf | enlèvement |
-| المخطوف | el-makhTūf | personne enlevée |
-| القصف | el-qaSf | bombardement |
-| الملجأ | el-malja2 | l'abri |
-| القذيفة | el-qazīfe | l'obus |
-| الاغتيال | el-ightiyāl | l'assassinat politique |
-| العبور | el-3ubūr | traverser (la ligne verte, au péril de sa vie) |
+| ==الحرب::ar-lb== | el-7arb | la guerre (la grande, celle de 75-90) |
+| ==الأحداث::ar-lb== | el-a7dāth | "les événements" — périphrase pudique pour la guerre |
+| ==الميليشيا::ar-lb== | el-milīshia | la milice |
+| ==الحاجز::ar-lb== | el-7ājez | le barrage (check-point) |
+| ==القناص::ar-lb== | el-2annāS | le sniper |
+| ==الشارع الأخضر::ar-lb== | esh-shāri3 el-akhdar | la "ligne verte" — ligne de démarcation Beyrouth Est/Ouest |
+| ==التهجير::ar-lb== | et-tahjīr | le déplacement forcé (populations) |
+| ==المفقود::ar-lb== | el-mafqūd | le disparu — ~17 000 cas non résolus |
+| ==الاختطاف::ar-lb== | el-ikhtiTāf | enlèvement |
+| ==المخطوف::ar-lb== | el-makhTūf | personne enlevée |
+| ==القصف::ar-lb== | el-qaSf | bombardement |
+| ==الملجأ::ar-lb== | el-malja2 | l'abri |
+| ==القذيفة::ar-lb== | el-qazīfe | l'obus |
+| ==الاغتيال::ar-lb== | el-ightiyāl | l'assassinat politique |
+| ==العبور::ar-lb== | el-3ubūr | traverser (la ligne verte, au péril de sa vie) |
 
 ## Acteurs et factions
 
@@ -86,26 +86,26 @@ Les obsèques deviennent des rassemblements politiques, surtout après un assass
 
 | Lieu | Résonance |
 |------|-----------|
-| **خط التماس** (khaTT et-tamāss) | "Ligne de contact" — frontière Est/Ouest à Beyrouth |
-| **البربير** (el-Barbīr) | Quartier sur la ligne verte, symbole du conflit |
-| **دوار السوديكو** (Dawwār es-Sōdēkō) | Rond-point stratégique sur la ligne verte |
-| **تل الزعتر** (Tall ez-Za3tar) | Camp palestinien rasé en 1976 |
-| **صبرا وشاتيلا** (Sabra w Shātīla) | Massacres de septembre 1982 |
-| **قانا** (Qāna) | Massacres de 1996 et 2006 |
-| **الحدث** (el-7adath) | Banlieue sud de Beyrouth, théâtre de combats |
-| **ميدان الشهداء** (Mīdān esh-Shuhadā2) | Place des Martyrs, détruite puis reconstruite |
-| **قصر بيت الدين** (Qasr Beit ed-Dīn) | Palais druze, symbole politique |
+| **==خط التماس::ar-lb==** (khaTT et-tamāss) | "Ligne de contact" — frontière Est/Ouest à Beyrouth |
+| **==البربير::ar-lb==** (el-Barbīr) | Quartier sur la ligne verte, symbole du conflit |
+| **==دوار السوديكو::ar-lb==** (Dawwār es-Sōdēkō) | Rond-point stratégique sur la ligne verte |
+| **==تل الزعتر::ar-lb==** (Tall ez-Za3tar) | Camp palestinien rasé en 1976 |
+| **==صبرا وشاتيلا::ar-lb==** (Sabra w Shātīla) | Massacres de septembre 1982 |
+| **==قانا::ar-lb==** (Qāna) | Massacres de 1996 et 2006 |
+| **==الحدث::ar-lb==** (el-7adath) | Banlieue sud de Beyrouth, théâtre de combats |
+| **==ميدان الشهداء::ar-lb==** (Mīdān esh-Shuhadā2) | Place des Martyrs, détruite puis reconstruite |
+| **==قصر بيت الدين::ar-lb==** (Qasr Beit ed-Dīn) | Palais druze, symbole politique |
 
 ## Formules courantes qui datent de la guerre
 
 | Expression | Sens | Origine |
 |-----------|------|---------|
-| أيام الحرب | ayyām el-7arb | "les jours de la guerre" — pour évoquer la période |
-| من وقت الحرب | min wa2t el-7arb | depuis la guerre (durable) |
-| رجعنا على الأيام السودا | rji3na 3a l-ayyām es-sōda | "on est revenus aux jours noirs" (signe d'inquiétude) |
-| الحمد لله ما قتل حدا | el-7amdillah mā 2atal 7ada | "Dieu merci personne n'est mort" (après un incident) |
-| يسلمو راسكم | yislamu rāskon | condoléances (litt. "que vos têtes soient saines") |
-| كنا عم نسمع القصف | kinna 3am nisma3 el-qaSf | "on entendait les bombardements" |
+| ==أيام الحرب::ar-lb== | ayyām el-7arb | "les jours de la guerre" — pour évoquer la période |
+| ==من وقت الحرب::ar-lb== | min wa2t el-7arb | depuis la guerre (durable) |
+| ==رجعنا على الأيام السودا::ar-lb== | rji3na 3a l-ayyām es-sōda | "on est revenus aux jours noirs" (signe d'inquiétude) |
+| ==الحمد لله ما قتل حدا::ar-lb== | el-7amdillah mā 2atal 7ada | "Dieu merci personne n'est mort" (après un incident) |
+| ==يسلمو راسكم::ar-lb== | yislamu rāskon | condoléances (litt. "que vos têtes soient saines") |
+| ==كنا عم نسمع القصف::ar-lb== | kinna 3am nisma3 el-qaSf | "on entendait les bombardements" |
 
 ## Tabous conversationnels
 

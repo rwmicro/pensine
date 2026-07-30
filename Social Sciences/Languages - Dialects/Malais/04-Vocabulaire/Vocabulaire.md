@@ -21,63 +21,63 @@ date: "2026-02-04"
 
 | Français | Malais | Contexte |
 | :---: | :---: | :--- |
-| Je / Moi | Saya | Formel, neutre |
-| Je / Moi | Aku | Informel, entre amis |
-| Tu / Toi | Awak | Formel |
-| Tu / Toi | Kamu | Informel |
-| Tu / Toi | Engkau / Kau | Informel, intime (entre proches) |
-| Vous (formel) | Anda | Très formel, communications officielles |
-| Il / Elle | Dia | Neutre (pas de genre) |
-| Nous | Kami | Exclusif (sans l'interlocuteur) |
-| Nous | Kita | Inclusif (avec l'interlocuteur) |
-| Vous (pluriel) | Awak semua / Kalian | Pluriel |
-| Ils / Elles | Mereka | Pluriel |
+| Je / Moi | ==Saya::ms== | Formel, neutre |
+| Je / Moi | ==Aku::ms== | Informel, entre amis |
+| Tu / Toi | ==Awak::ms== | Formel |
+| Tu / Toi | ==Kamu::ms== | Informel |
+| Tu / Toi | ==Engkau::ms== / ==Kau::ms== | Informel, intime (entre proches) |
+| Vous (formel) | ==Anda::ms== | Très formel, communications officielles |
+| Il / Elle | ==Dia::ms== | Neutre (pas de genre) |
+| Nous | ==Kami::ms== | Exclusif (sans l'interlocuteur) |
+| Nous | ==Kita::ms== | Inclusif (avec l'interlocuteur) |
+| Vous (pluriel) | ==Awak semua::ms== / ==Kalian::ms== | Pluriel |
+| Ils / Elles | ==Mereka::ms== | Pluriel |
 
 ## Salutations et Politesse
 
 | Français | Malais | Prononciation |
 | :---: | :---: | :--- |
-| Bonjour / Salut | Selamat pagi (matin) | Seulamat pagi |
-| | Selamat tengah hari (midi) | Seulamat teungah hari |
-| | Selamat petang (fin d'après-midi/début soirée) | Seulamat peutang |
-| | Selamat malam (nuit, dès 19h) | Seulamat malam |
-| Bonjour (général) | Apa khabar? | Apa kabar? |
-| Comment ça va ? | Apa khabar? | Apa kabar? |
-| Ça va bien | Khabar baik | Kabar baik |
-| Au revoir | Selamat tinggal (dit par celui qui part) | Seulamat tinggal |
-| | Selamat jalan (dit par celui qui reste) | Seulamat djalan |
-| Merci | Terima kasih | Teurima kasih |
-| Merci beaucoup | Terima kasih banyak | Teurima kasih bagnac |
-| De rien | Sama-sama | Sama-sama |
-| S'il vous plaît | Tolong / Sila | Tolong / Sila |
-| Excusez-moi | Maaf | Maaf |
-| Pardon | Maafkan saya | Maafkan saya |
+| Bonjour / Salut | ==Selamat pagi::ms== | Seulamat pagi |
+|  | ==Selamat tengah hari::ms== | Seulamat teungah hari |
+|  | ==Selamat petang::ms== | Seulamat peutang |
+|  | ==Selamat malam::ms== | Seulamat malam |
+| Bonjour (général) | ==Apa khabar?::ms== | Apa kabar? |
+| Comment ça va ? | ==Apa khabar?::ms== | Apa kabar? |
+| Ça va bien | ==Khabar baik::ms== | Kabar baik |
+| Au revoir | ==Selamat tinggal::ms== | Seulamat tinggal |
+|  | ==Selamat jalan::ms== | Seulamat djalan |
+| Merci | ==Terima kasih::ms== | Teurima kasih |
+| Merci beaucoup | ==Terima kasih banyak::ms== | Teurima kasih bagnac |
+| De rien | ==Sama-sama::ms== | Sama-sama |
+| S'il vous plaît | ==Tolong::ms== / ==Sila::ms== | Tolong / Sila |
+| Excusez-moi | ==Maaf::ms== | Maaf |
+| Pardon | ==Maafkan saya::ms== | Maafkan saya |
 
 ## Nombres
 
 | Chiffre | Malais | Prononciation |
 | :---: | :---: | :--- |
-| 0 | Kosong | Kosong |
-| 1 | Satu | Satou |
-| 2 | Dua | Doua |
-| 3 | Tiga | Tiga |
-| 4 | Empat | Empat |
-| 5 | Lima | Lima |
-| 6 | Enam | Eunam |
-| 7 | Tujuh | Toudjouh |
-| 8 | Lapan | Lapan |
-| 9 | Sembilan | Seumbilan |
-| 10 | Sepuluh | Seupoulouh |
-| 11 | Sebelas | Seubelas |
-| 12 | Dua belas | Doua belas |
-| 20 | Dua puluh | Doua poulouh |
-| 21 | Dua puluh satu | Doua poulouh satou |
-| 30 | Tiga puluh | Tiga poulouh |
-| 100 | Seratus | Seuratous |
-| 1000 | Seribu | Seuribou |
-| 10 000 | Sepuluh ribu | Seupoulouh ribou |
-| 100 000 | Seratus ribu | Seuratous ribou |
-| 1 000 000 | Sejuta | Seudjouta |
+| 0 | ==Kosong::ms== | Kosong |
+| 1 | ==Satu::ms== | Satou |
+| 2 | ==Dua::ms== | Doua |
+| 3 | ==Tiga::ms== | Tiga |
+| 4 | ==Empat::ms== | Empat |
+| 5 | ==Lima::ms== | Lima |
+| 6 | ==Enam::ms== | Eunam |
+| 7 | ==Tujuh::ms== | Toudjouh |
+| 8 | ==Lapan::ms== | Lapan |
+| 9 | ==Sembilan::ms== | Seumbilan |
+| 10 | ==Sepuluh::ms== | Seupoulouh |
+| 11 | ==Sebelas::ms== | Seubelas |
+| 12 | ==Dua belas::ms== | Doua belas |
+| 20 | ==Dua puluh::ms== | Doua poulouh |
+| 21 | ==Dua puluh satu::ms== | Doua poulouh satou |
+| 30 | ==Tiga puluh::ms== | Tiga poulouh |
+| 100 | ==Seratus::ms== | Seuratous |
+| 1000 | ==Seribu::ms== | Seuribou |
+| 10 000 | ==Sepuluh ribu::ms== | Seupoulouh ribou |
+| 100 000 | ==Seratus ribu::ms== | Seuratous ribou |
+| 1 000 000 | ==Sejuta::ms== | Seudjouta |
 
 **Système de construction :**
 - 11-19 : [Unité] + **belas** (ex: tiga belas = 13)
@@ -104,22 +104,22 @@ En malais, on redouble souvent le mot pour indiquer le pluriel :
 
 | Français | Malais | Notes |
 | :---: | :---: | :--- |
-| Père | Bapa / Ayah | Ayah plus informel |
-| Mère | Ibu / Emak | Emak plus informel |
-| Parents | Ibu bapa | |
-| Fils | Anak lelaki | Littéralement "enfant mâle" |
-| Fille | Anak perempuan | Littéralement "enfant femelle" |
-| Enfant | Anak | |
-| Frère aîné | Abang | |
-| Sœur aînée | Kakak | |
-| Frère cadet | Adik lelaki | |
-| Sœur cadette | Adik perempuan | |
-| Grand-père | Datuk | Aussi titre honorifique (cf. section Culture) |
-| Grand-mère | Nenek | |
-| Oncle | Bapa saudara / Pak cik | |
-| Tante | Ibu saudara / Mak cik | |
-| Cousin / Cousine | Sepupu | |
-| Mari / Femme | Suami / Isteri | |
+| Père | ==Bapa::ms== / ==Ayah::ms== | Ayah plus informel |
+| Mère | ==Ibu::ms== / ==Emak::ms== | Emak plus informel |
+| Parents | ==Ibu bapa::ms== |  |
+| Fils | ==Anak lelaki::ms== | Littéralement "enfant mâle" |
+| Fille | ==Anak perempuan::ms== | Littéralement "enfant femelle" |
+| Enfant | ==Anak::ms== |  |
+| Frère aîné | ==Abang::ms== |  |
+| Sœur aînée | ==Kakak::ms== |  |
+| Frère cadet | ==Adik lelaki::ms== |  |
+| Sœur cadette | ==Adik perempuan::ms== |  |
+| Grand-père | ==Datuk::ms== | Aussi titre honorifique (cf. section Culture) |
+| Grand-mère | ==Nenek::ms== |  |
+| Oncle | ==Bapa saudara::ms== / ==Pak cik::ms== |  |
+| Tante | ==Ibu saudara::ms== / ==Mak cik::ms== |  |
+| Cousin / Cousine | ==Sepupu::ms== |  |
+| Mari / Femme | ==Suami::ms== / ==Isteri::ms== |  |
 
 ## Vie Quotidienne
 
@@ -127,120 +127,120 @@ En malais, on redouble souvent le mot pour indiquer le pluriel :
 
 | Français | Malais | Notes |
 | :---: | :---: | :--- |
-| Nourriture | Makanan | |
-| Riz | Nasi | Aliment de base |
-| Nouilles | Mee | |
-| Pain | Roti | |
-| Viande | Daging | |
-| Poulet | Ayam | |
-| Poisson | Ikan | |
-| Légumes | Sayur | |
-| Fruit | Buah | |
-| Eau | Air | |
-| Thé | Teh | |
-| Café | Kopi | |
-| Lait | Susu | |
-| Jus | Jus | |
-| Piquant | Pedas | Caractéristique cuisine malaise |
-| Sucré | Manis | |
-| Salé | Masin | |
-| Amer | Pahit | |
-| Délicieux | Sedap | |
+| Nourriture | ==Makanan::ms== |  |
+| Riz | ==Nasi::ms== | Aliment de base |
+| Nouilles | ==Mee::ms== |  |
+| Pain | ==Roti::ms== |  |
+| Viande | ==Daging::ms== |  |
+| Poulet | ==Ayam::ms== |  |
+| Poisson | ==Ikan::ms== |  |
+| Légumes | ==Sayur::ms== |  |
+| Fruit | ==Buah::ms== |  |
+| Eau | ==Air::ms== |  |
+| Thé | ==Teh::ms== |  |
+| Café | ==Kopi::ms== |  |
+| Lait | ==Susu::ms== |  |
+| Jus | ==Jus::ms== |  |
+| Piquant | ==Pedas::ms== | Caractéristique cuisine malaise |
+| Sucré | ==Manis::ms== |  |
+| Salé | ==Masin::ms== |  |
+| Amer | ==Pahit::ms== |  |
+| Délicieux | ==Sedap::ms== |  |
 
 ### Lieux
 
 | Français | Malais | Notes |
 | :---: | :---: | :--- |
-| Maison | Rumah | |
-| École | Sekolah | |
-| Université | Universiti | |
-| Hôpital | Hospital | |
-| Marché | Pasar | |
-| Restaurant | Restoran | |
-| Mosquée | Masjid | Très important en Malaisie |
-| Temple | Kuil | |
-| Église | Gereja | |
-| Gare | Stesen keretapi | |
-| Aéroport | Lapangan terbang | |
-| Banque | Bank | |
-| Poste | Pejabat pos | |
-| Supermarché | Pasar raya | |
-| Rue | Jalan | |
-| Ville | Bandar / Kota | |
-| Village | Kampung | |
+| Maison | ==Rumah::ms== |  |
+| École | ==Sekolah::ms== |  |
+| Université | ==Universiti::ms== |  |
+| Hôpital | ==Hospital::ms== |  |
+| Marché | ==Pasar::ms== |  |
+| Restaurant | ==Restoran::ms== |  |
+| Mosquée | ==Masjid::ms== | Très important en Malaisie |
+| Temple | ==Kuil::ms== |  |
+| Église | ==Gereja::ms== |  |
+| Gare | ==Stesen keretapi::ms== |  |
+| Aéroport | ==Lapangan terbang::ms== |  |
+| Banque | ==Bank::ms== |  |
+| Poste | ==Pejabat pos::ms== |  |
+| Supermarché | ==Pasar raya::ms== |  |
+| Rue | ==Jalan::ms== |  |
+| Ville | ==Bandar::ms== / ==Kota::ms== |  |
+| Village | ==Kampung::ms== |  |
 
 ### Temps et Calendrier
 
 | Français | Malais | Notes |
 | :---: | :---: | :--- |
-| Jour | Hari | |
-| Semaine | Minggu | |
-| Mois | Bulan | Aussi "lune" |
-| Année | Tahun | |
-| Aujourd'hui | Hari ini | |
-| Hier | Semalam | |
-| Demain | Esok | |
-| Maintenant | Sekarang | |
-| Plus tard | Nanti | |
-| Matin | Pagi | |
-| Midi | Tengah hari | |
-| Après-midi | Petang | |
-| Soir | Malam | Aussi "nuit" |
+| Jour | ==Hari::ms== |  |
+| Semaine | ==Minggu::ms== |  |
+| Mois | ==Bulan::ms== | Aussi "lune" |
+| Année | ==Tahun::ms== |  |
+| Aujourd'hui | ==Hari ini::ms== |  |
+| Hier | ==Semalam::ms== |  |
+| Demain | ==Esok::ms== |  |
+| Maintenant | ==Sekarang::ms== |  |
+| Plus tard | ==Nanti::ms== |  |
+| Matin | ==Pagi::ms== |  |
+| Midi | ==Tengah hari::ms== |  |
+| Après-midi | ==Petang::ms== |  |
+| Soir | ==Malam::ms== | Aussi "nuit" |
 
 **Jours de la semaine :**
 | Français | Malais |
 | :---: | :---: |
-| Lundi | Hari Isnin |
-| Mardi | Hari Selasa |
-| Mercredi | Hari Rabu |
-| Jeudi | Hari Khamis |
-| Vendredi | Hari Jumaat |
-| Samedi | Hari Sabtu |
-| Dimanche | Hari Ahad |
+| Lundi | ==Hari Isnin::ms== |
+| Mardi | ==Hari Selasa::ms== |
+| Mercredi | ==Hari Rabu::ms== |
+| Jeudi | ==Hari Khamis::ms== |
+| Vendredi | ==Hari Jumaat::ms== |
+| Samedi | ==Hari Sabtu::ms== |
+| Dimanche | ==Hari Ahad::ms== |
 
 ## Couleurs
 
 | Français | Malais | Notes |
 | :---: | :---: | :--- |
-| Couleur | Warna | |
-| Blanc | Putih | |
-| Noir | Hitam | |
-| Rouge | Merah | |
-| Bleu | Biru | |
-| Jaune | Kuning | |
-| Vert | Hijau | Couleur de l'Islam |
-| Orange | Jingga / Oren | |
-| Violet | Ungu | |
-| Rose | Merah jambu | Littéralement "rouge rose" |
-| Marron | Coklat | Aussi "chocolat" |
-| Gris | Kelabu | |
+| Couleur | ==Warna::ms== |  |
+| Blanc | ==Putih::ms== |  |
+| Noir | ==Hitam::ms== |  |
+| Rouge | ==Merah::ms== |  |
+| Bleu | ==Biru::ms== |  |
+| Jaune | ==Kuning::ms== |  |
+| Vert | ==Hijau::ms== | Couleur de l'Islam |
+| Orange | ==Jingga::ms== / ==Oren::ms== |  |
+| Violet | ==Ungu::ms== |  |
+| Rose | ==Merah jambu::ms== | Littéralement "rouge rose" |
+| Marron | ==Coklat::ms== | Aussi "chocolat" |
+| Gris | ==Kelabu::ms== |  |
 
 ## Verbes Courants
 
 | Français | Malais | Exemple |
 | :---: | :---: | :--- |
-| Être | Adalah / Ialah | Saya adalah pelajar = Je suis étudiant |
-| Avoir | Ada / Mempunyai | Saya ada buku = J'ai un livre |
-| Aller | Pergi | Saya pergi ke sekolah = Je vais à l'école |
-| Venir | Datang | Dia datang dari rumah = Il vient de la maison |
-| Manger | Makan | Saya makan nasi = Je mange du riz |
-| Boire | Minum | Saya minum air = Je bois de l'eau |
-| Dormir | Tidur | Saya tidur awal = Je dors tôt |
-| Voir | Lihat / Melihat | Saya melihat kucing = Je vois un chat |
-| Entendre | Dengar | Saya dengar muzik = J'entends de la musique |
-| Parler | Cakap / Bercakap | Saya cakap Bahasa Melayu = Je parle malais |
-| Comprendre | Faham / Memahami | Saya faham = Je comprends |
-| Savoir | Tahu | Saya tahu = Je sais |
-| Aimer | Suka | Saya suka kopi = J'aime le café |
-| Vouloir | Mahu / Nak (informel) | Saya mahu pergi = Je veux aller |
-| Pouvoir | Boleh | Saya boleh datang = Je peux venir |
-| Devoir | Mesti / Harus | Saya mesti pergi = Je dois partir |
-| Travailler | Kerja / Bekerja | Saya bekerja di hospital = Je travaille à l'hôpital |
-| Étudier | Belajar | Saya belajar Bahasa Melayu = J'étudie le malais |
-| Acheter | Beli | Saya beli buku = J'achète un livre |
-| Vendre | Jual | Dia jual kereta = Il vend une voiture |
-| Donner | Beri / Memberi | Saya beri hadiah = Je donne un cadeau |
-| Prendre | Ambil | Saya ambil buku = Je prends un livre |
+| Être | ==Adalah::ms== / ==Ialah::ms== | Saya adalah pelajar = Je suis étudiant |
+| Avoir | ==Ada::ms== / ==Mempunyai::ms== | Saya ada buku = J'ai un livre |
+| Aller | ==Pergi::ms== | Saya pergi ke sekolah = Je vais à l'école |
+| Venir | ==Datang::ms== | Dia datang dari rumah = Il vient de la maison |
+| Manger | ==Makan::ms== | Saya makan nasi = Je mange du riz |
+| Boire | ==Minum::ms== | Saya minum air = Je bois de l'eau |
+| Dormir | ==Tidur::ms== | Saya tidur awal = Je dors tôt |
+| Voir | ==Lihat::ms== / ==Melihat::ms== | Saya melihat kucing = Je vois un chat |
+| Entendre | ==Dengar::ms== | Saya dengar muzik = J'entends de la musique |
+| Parler | ==Cakap::ms== / ==Bercakap::ms== | Saya cakap Bahasa Melayu = Je parle malais |
+| Comprendre | ==Faham::ms== / ==Memahami::ms== | Saya faham = Je comprends |
+| Savoir | ==Tahu::ms== | Saya tahu = Je sais |
+| Aimer | ==Suka::ms== | Saya suka kopi = J'aime le café |
+| Vouloir | ==Mahu::ms== / ==Nak::ms== | Saya mahu pergi = Je veux aller |
+| Pouvoir | ==Boleh::ms== | Saya boleh datang = Je peux venir |
+| Devoir | ==Mesti::ms== / ==Harus::ms== | Saya mesti pergi = Je dois partir |
+| Travailler | ==Kerja::ms== / ==Bekerja::ms== | Saya bekerja di hospital = Je travaille à l'hôpital |
+| Étudier | ==Belajar::ms== | Saya belajar Bahasa Melayu = J'étudie le malais |
+| Acheter | ==Beli::ms== | Saya beli buku = J'achète un livre |
+| Vendre | ==Jual::ms== | Dia jual kereta = Il vend une voiture |
+| Donner | ==Beri::ms== / ==Memberi::ms== | Saya beri hadiah = Je donne un cadeau |
+| Prendre | ==Ambil::ms== | Saya ambil buku = Je prends un livre |
 
 **Note :** Le malais ne conjugue pas les verbes comme le français. Les verbes restent invariables.
 
@@ -248,60 +248,60 @@ En malais, on redouble souvent le mot pour indiquer le pluriel :
 
 | Français | Malais | Contraire |
 | :---: | :---: | :--- |
-| Grand | Besar | Kecil (petit) |
-| Petit | Kecil | Besar (grand) |
-| Bon | Baik | Buruk (mauvais) |
-| Mauvais | Buruk / Jahat | Baik (bon) |
-| Beau | Cantik / Kacak | Hodoh (laid) — *cantik* s'applique aussi aux objets et paysages |
-| Nouveau | Baru | Lama (vieux) |
-| Vieux | Lama | Baru (nouveau) |
-| Jeune | Muda | Tua (vieux - personne) |
-| Chaud | Panas | Sejuk (froid) |
-| Froid | Sejuk | Panas (chaud) |
-| Rapide | Cepat | Lambat (lent) |
-| Lent | Lambat | Cepat (rapide) |
-| Facile | Mudah | Sukar (difficile) |
-| Difficile | Sukar | Mudah (facile) |
-| Fort | Kuat | Lemah (faible) |
-| Faible | Lemah | Kuat (fort) |
-| Riche | Kaya | Miskin (pauvre) |
-| Pauvre | Miskin | Kaya (riche) |
+| Grand | ==Besar::ms== | Kecil (petit) |
+| Petit | ==Kecil::ms== | Besar (grand) |
+| Bon | ==Baik::ms== | Buruk (mauvais) |
+| Mauvais | ==Buruk::ms== / ==Jahat::ms== | Baik (bon) |
+| Beau | ==Cantik::ms== / ==Kacak::ms== | Hodoh (laid) — *cantik* s'applique aussi aux objets et paysages |
+| Nouveau | ==Baru::ms== | Lama (vieux) |
+| Vieux | ==Lama::ms== | Baru (nouveau) |
+| Jeune | ==Muda::ms== | Tua (vieux - personne) |
+| Chaud | ==Panas::ms== | Sejuk (froid) |
+| Froid | ==Sejuk::ms== | Panas (chaud) |
+| Rapide | ==Cepat::ms== | Lambat (lent) |
+| Lent | ==Lambat::ms== | Cepat (rapide) |
+| Facile | ==Mudah::ms== | Sukar (difficile) |
+| Difficile | ==Sukar::ms== | Mudah (facile) |
+| Fort | ==Kuat::ms== | Lemah (faible) |
+| Faible | ==Lemah::ms== | Kuat (fort) |
+| Riche | ==Kaya::ms== | Miskin (pauvre) |
+| Pauvre | ==Miskin::ms== | Kaya (riche) |
 
 ## Questions Courantes
 
 | Français | Malais | Prononciation |
 | :---: | :---: | :--- |
-| Qu'est-ce que c'est ? | Apa ini? | Apa ini? |
-| Qui ? | Siapa? | Siapa? |
-| Quoi ? | Apa? | Apa? |
-| Où ? | Di mana? | Di mana? |
-| Quand ? | Bila? | Bila? |
-| Pourquoi ? | Mengapa? / Kenapa? | Meunga-pa? / Keu-napa? |
-| Comment ? | Bagaimana? | Bagaimana? |
-| Combien ? (quantité) | Berapa? | Beurapa? |
-| Quel / Quelle ? | Yang mana? | Yang mana? |
-| Combien ça coûte ? | Berapa harga? | Beurapa harga? |
-| Où est... ? | Di mana...? | Di mana...? |
-| Parlez-vous anglais ? | Awak cakap Bahasa Inggeris? | |
+| Qu'est-ce que c'est ? | ==Apa ini?::ms== | Apa ini? |
+| Qui ? | ==Siapa?::ms== | Siapa? |
+| Quoi ? | ==Apa?::ms== | Apa? |
+| Où ? | ==Di mana?::ms== | Di mana? |
+| Quand ? | ==Bila?::ms== | Bila? |
+| Pourquoi ? | ==Mengapa?::ms== / ==Kenapa?::ms== | Meunga-pa? / Keu-napa? |
+| Comment ? | ==Bagaimana?::ms== | Bagaimana? |
+| Combien ? (quantité) | ==Berapa?::ms== | Beurapa? |
+| Quel / Quelle ? | ==Yang mana?::ms== | Yang mana? |
+| Combien ça coûte ? | ==Berapa harga?::ms== | Beurapa harga? |
+| Où est... ? | ==Di mana...?::ms== | Di mana...? |
+| Parlez-vous anglais ? | ==Awak cakap Bahasa Inggeris?::ms== |  |
 
 ## Phrases Utiles
 
 | Français | Malais |
 | :---: | :---: |
-| Je ne comprends pas | Saya tidak faham |
-| Pouvez-vous répéter ? | Boleh ulang? |
-| Parlez plus lentement, s'il vous plaît | Tolong cakap perlahan-lahan |
-| Comment dit-on... en malais ? | Bagaimana nak cakap... dalam Bahasa Melayu? |
-| Je ne parle pas malais | Saya tak cakap Bahasa Melayu |
-| Je suis français(e) | Saya orang Perancis |
-| J'apprends le malais | Saya belajar Bahasa Melayu |
-| Quel est votre nom ? | Siapa nama awak? |
-| Je m'appelle... | Nama saya... |
-| Enchanté(e) | Selamat berkenalan |
-| Où sont les toilettes ? | Di mana tandas? |
-| Je suis perdu(e) | Saya sesat |
-| Au secours ! | Tolong! |
-| Attention ! | Awas! / Hati-hati! |
+| Je ne comprends pas | ==Saya tidak faham::ms== |
+| Pouvez-vous répéter ? | ==Boleh ulang?::ms== |
+| Parlez plus lentement, s'il vous plaît | ==Tolong cakap perlahan-lahan::ms== |
+| Comment dit-on... en malais ? | ==Bagaimana nak cakap... dalam Bahasa Melayu?::ms== |
+| Je ne parle pas malais | ==Saya tak cakap Bahasa Melayu::ms== |
+| Je suis français(e) | ==Saya orang Perancis::ms== |
+| J'apprends le malais | ==Saya belajar Bahasa Melayu::ms== |
+| Quel est votre nom ? | ==Siapa nama awak?::ms== |
+| Je m'appelle... | ==Nama saya...::ms== |
+| Enchanté(e) | ==Selamat berkenalan::ms== |
+| Où sont les toilettes ? | ==Di mana tandas?::ms== |
+| Je suis perdu(e) | ==Saya sesat::ms== |
+| Au secours ! | ==Tolong!::ms== |
+| Attention ! | ==Awas!::ms== / ==Hati-hati!::ms== |
 
 ## Expressions Malaises Typiques
 
@@ -314,7 +314,7 @@ En malais, on redouble souvent le mot pour indiquer le pluriel :
 | Boleh tahan | Peut tenir | Pas mal / Acceptable |
 | Terima kasih banyak-banyak | Merci beaucoup-beaucoup | Merci infiniment |
 | Jom! | Allez! | Allons-y! (informel) |
-| Alamak! | | Zut! / Oh non! (exclamation) |
+| Alamak! |  | Zut! / Oh non! (exclamation) |
 | Sikit-sikit | Un peu-un peu | Petit à petit |
 
 ## Vocabulaire Spécifique Malaisie
@@ -323,22 +323,22 @@ En malais, on redouble souvent le mot pour indiquer le pluriel :
 
 | Malais | Traduction | Description |
 | :---: | :---: | :--- |
-| Nasi lemak | Riz au lait de coco | Plat national malais |
-| Satay | Brochettes | Viande grillée avec sauce cacahuète |
-| Rendang | Curry sec | Viande mijotée aux épices |
-| Laksa | Soupe de nouilles | Soupe épicée malaise |
-| Roti canai | Pain plat | Pain feuilleté indien-malais |
-| Teh tarik | Thé tiré | Thé au lait très sucré |
-| Kuih | Gâteau | Pâtisseries traditionnelles |
+| ==Nasi lemak::ms== | Riz au lait de coco | Plat national malais |
+| ==Satay::ms== | Brochettes | Viande grillée avec sauce cacahuète |
+| ==Rendang::ms== | Curry sec | Viande mijotée aux épices |
+| ==Laksa::ms== | Soupe de nouilles | Soupe épicée malaise |
+| ==Roti canai::ms== | Pain plat | Pain feuilleté indien-malais |
+| ==Teh tarik::ms== | Thé tiré | Thé au lait très sucré |
+| ==Kuih::ms== | Gâteau | Pâtisseries traditionnelles |
 
 ### Culture et Société
 
 | Malais | Traduction | Notes |
 | :---: | :---: | :--- |
-| Adat | Coutume | Traditions malaises |
-| Kampung | Village | Aussi "quartier traditionnel" |
-| Bumiputera | Fils du sol | Malais de souche (statut politique) |
-| Dato' / Datuk | Titre honorifique | Équivalent de "Sir" |
-| Tudung | Voile | Hijab porté par les femmes musulmanes |
-| Baju kurung | Robe traditionnelle | Vêtement féminin malais |
-| Songkok | Chapeau noir | Coiffe masculine malaise |
+| ==Adat::ms== | Coutume | Traditions malaises |
+| ==Kampung::ms== | Village | Aussi "quartier traditionnel" |
+| ==Bumiputera::ms== | Fils du sol | Malais de souche (statut politique) |
+| ==Dato'::ms== / ==Datuk::ms== | Titre honorifique | Équivalent de "Sir" |
+| ==Tudung::ms== | Voile | Hijab porté par les femmes musulmanes |
+| ==Baju kurung::ms== | Robe traditionnelle | Vêtement féminin malais |
+| ==Songkok::ms== | Chapeau noir | Coiffe masculine malaise |

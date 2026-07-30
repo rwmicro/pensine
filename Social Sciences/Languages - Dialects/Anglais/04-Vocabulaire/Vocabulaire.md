@@ -14,53 +14,53 @@ date: "2025-12-31"
 
 | English | Français | Exemple |
 | :---: | :---: | :--- |
-| Yet | Cependant / Pourtant | He studied hard, yet he failed the exam |
-| Nevertheless | Néanmoins | The task was difficult; nevertheless, he completed it |
-| However | Cependant / Toutefois | She was tired. However, she continued working |
-| Although / Though | Bien que | Although it was raining, we went out |
-| Even though | Même si | Even though he's rich, he's unhappy |
-| Despite / In spite of | Malgré | Despite the rain, we went hiking |
-| Whereas | Alors que | She likes tea, whereas he prefers coffee |
-| While | Tandis que | While I agree, I have some concerns |
-| On the contrary | Au contraire | He's not lazy; on the contrary, he's very hardworking |
-| Conversely | Inversement | The north is wealthy; conversely, the south is poor |
+| ==Yet::en== | Cependant / Pourtant | He studied hard, yet he failed the exam |
+| ==Nevertheless::en== | Néanmoins | The task was difficult; nevertheless, he completed it |
+| ==However::en== | Cependant / Toutefois | She was tired. However, she continued working |
+| ==Although::en== / ==Though::en== | Bien que | Although it was raining, we went out |
+| ==Even though::en== | Même si | Even though he's rich, he's unhappy |
+| ==Despite::en== / ==In spite of::en== | Malgré | Despite the rain, we went hiking |
+| ==Whereas::en== | Alors que | She likes tea, whereas he prefers coffee |
+| ==While::en== | Tandis que | While I agree, I have some concerns |
+| ==On the contrary::en== | Au contraire | He's not lazy; on the contrary, he's very hardworking |
+| ==Conversely::en== | Inversement | The north is wealthy; conversely, the south is poor |
 
 ### Addition et Renforcement
 
 | English | Français | Exemple |
 | :---: | :---: | :--- |
-| Moreover | De plus / En outre | The plan is costly; moreover, it's impractical |
-| Furthermore | En outre / De surcroît | The evidence is clear; furthermore, it's irrefutable |
-| In addition | En plus | In addition to English, she speaks French |
-| Besides | En plus / D'ailleurs | Besides being smart, he's also kind |
-| Additionally | Additionnellement | Additionally, we need to consider the costs |
-| Likewise | De même / Pareillement | He was late; likewise, his brother arrived late |
-| Similarly | De façon similaire | Similarly, the results showed improvement |
+| ==Moreover::en== | De plus / En outre | The plan is costly; moreover, it's impractical |
+| ==Furthermore::en== | En outre / De surcroît | The evidence is clear; furthermore, it's irrefutable |
+| ==In addition::en== | En plus | In addition to English, she speaks French |
+| ==Besides::en== | En plus / D'ailleurs | Besides being smart, he's also kind |
+| ==Additionally::en== | Additionnellement | Additionally, we need to consider the costs |
+| ==Likewise::en== | De même / Pareillement | He was late; likewise, his brother arrived late |
+| ==Similarly::en== | De façon similaire | Similarly, the results showed improvement |
 
 ### Cause et Conséquence
 
 | English | Français | Exemple |
 | :---: | :---: | :--- |
-| Therefore | Par conséquent | He failed to study; therefore, he failed the exam |
-| Thus | Ainsi | The road was blocked, thus we took a detour |
-| Hence | D'où / Par conséquent | She's qualified; hence, she got the job |
-| Consequently | En conséquence | The storm was severe; consequently, flights were cancelled |
-| As a result | En résultat | As a result of his efforts, he succeeded |
-| Accordingly | En conséquence | He broke the rules; accordingly, he was punished |
-| For this reason | Pour cette raison | For this reason, we must act now |
+| ==Therefore::en== | Par conséquent | He failed to study; therefore, he failed the exam |
+| ==Thus::en== | Ainsi | The road was blocked, thus we took a detour |
+| ==Hence::en== | D'où / Par conséquent | She's qualified; hence, she got the job |
+| ==Consequently::en== | En conséquence | The storm was severe; consequently, flights were cancelled |
+| ==As a result::en== | En résultat | As a result of his efforts, he succeeded |
+| ==Accordingly::en== | En conséquence | He broke the rules; accordingly, he was punished |
+| ==For this reason::en== | Pour cette raison | For this reason, we must act now |
 
 ### Clarification et Exemple
 
 | English | Français | Exemple |
 | :---: | :---: | :--- |
-| Namely | À savoir / C'est-à-dire | I have one goal, namely to succeed |
-| In other words | En d'autres termes | In other words, we need more time |
-| That is (to say) | C'est-à-dire | She's bilingual, that is, she speaks two languages |
-| For instance | Par exemple | Many cities, for instance Paris, are beautiful |
-| For example | Par exemple | Some fruits, for example apples, are healthy |
-| Such as | Comme / Tel que | I like sports such as football and tennis |
-| Particularly | Particulièrement | I enjoy music, particularly jazz |
-| Specifically | Spécifiquement | We need help, specifically with funding |
+| ==Namely::en== | À savoir / C'est-à-dire | I have one goal, namely to succeed |
+| ==In other words::en== | En d'autres termes | In other words, we need more time |
+| ==That is::en== | C'est-à-dire | She's bilingual, that is, she speaks two languages |
+| ==For instance::en== | Par exemple | Many cities, for instance Paris, are beautiful |
+| ==For example::en== | Par exemple | Some fruits, for example apples, are healthy |
+| ==Such as::en== | Comme / Tel que | I like sports such as football and tennis |
+| ==Particularly::en== | Particulièrement | I enjoy music, particularly jazz |
+| ==Specifically::en== | Spécifiquement | We need help, specifically with funding |
 
 ## Verbes à Particules (Phrasal Verbs)
 
@@ -90,19 +90,19 @@ date: "2025-12-31"
 
 | English | ≠ Français | Vraie traduction anglaise |
 | :---: | :---: | :--- |
-| Actually | ≠ Actuellement (currently) | = En fait / En réalité |
-| Eventually | ≠ Éventuellement (possibly) | = Finalement / À terme |
-| Currently | ≠ Couramment (fluently) | = Actuellement |
-| Library | ≠ Librairie (bookstore) | = Bibliothèque |
-| Librairie | = Bookstore | ≠ Library |
-| Attend | ≠ Attendre (wait) | = Assister à |
-| Assist | ≠ Assister (attend) | = Aider |
-| Lecture | ≠ Lecture (reading) | = Conférence / Cours magistral |
-| Sensible | ≠ Sensible (sensitive) | = Raisonnable / Sensé |
-| Sensitive | ≠ Sensitif | = Sensible |
-| Comprehensive | ≠ Compréhensif (understanding) | = Complet / Exhaustif |
-| Sympathetic | ≠ Sympathique (nice) | = Compatissant |
-| Dramatic | ≠ Dramatique (tragic) | = Théâtral / Spectaculaire |
+| ==Actually::en== | ≠ Actuellement (currently) | === En fait::en== / ==En réalité::en== |
+| ==Eventually::en== | ≠ Éventuellement (possibly) | === Finalement::en== / ==À terme::en== |
+| ==Currently::en== | ≠ Couramment (fluently) | === Actuellement::en== |
+| ==Library::en== | ≠ Librairie (bookstore) | === Bibliothèque::en== |
+| ==Librairie::en== | = Bookstore | ==≠ Library::en== |
+| ==Attend::en== | ≠ Attendre (wait) | === Assister à::en== |
+| ==Assist::en== | ≠ Assister (attend) | === Aider::en== |
+| ==Lecture::en== | ≠ Lecture (reading) | === Conférence::en== / ==Cours magistral::en== |
+| ==Sensible::en== | ≠ Sensible (sensitive) | === Raisonnable::en== / ==Sensé::en== |
+| ==Sensitive::en== | ≠ Sensitif | === Sensible::en== |
+| ==Comprehensive::en== | ≠ Compréhensif (understanding) | === Complet::en== / ==Exhaustif::en== |
+| ==Sympathetic::en== | ≠ Sympathique (nice) | === Compatissant::en== |
+| ==Dramatic::en== | ≠ Dramatique (tragic) | === Théâtral::en== / ==Spectaculaire::en== |
 
 ## Expressions Idiomatiques
 

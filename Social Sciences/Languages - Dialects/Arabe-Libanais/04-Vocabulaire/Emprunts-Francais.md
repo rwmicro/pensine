@@ -23,69 +23,69 @@ Ces mots sont utilisés comme si c'était de l'arabe libanais, sans conscience d
 
 | Mot français | Forme libanaise | Translittération | Domaine |
 |-------------|----------------|-----------------|---------|
-| Merci | مرسي | mersi | Politesse — concurrent de شكراً shukran dans l'usage courant |
-| Bonjour | بونجور | bonjour | Salutation alternative (surtout Achrafieh, bourgeoisie chrétienne) |
-| Toilette | تواليت | twālet | Maison |
-| Salon | صالون | sālōn | Maison (pièce de réception) |
-| Garage | كراج | karāj | Maison — /g/ rendu par ك ou غ |
-| Balcon | بلكون | balkōn | Architecture |
-| Banque | بنك | bank | Finance |
-| Carte | كارت | kārt | Finance / papiers |
-| Chauffeur | شوفير | shufēr | Transport |
-| Taxi | تاكسي | tāksi | Transport |
-| Autobus | أوتوبيس | otobus | Transport |
-| Restaurant | ريستورانت | restorān | Restauration |
-| Café | كافيه | kāfē | Restauration |
-| Menu | مينو | menyū | Restauration |
-| Gâteau | قاطو | gātō | Pâtisserie |
-| Crème | كريم | krēm | Pâtisserie / cosmétique |
-| Chocolat | شوكولا | shokola | Alimentation |
-| Frigo | فريجيدير | frijider | Électroménager (de "Frigidaire") |
-| Télévision | تلفزيون | tilfizyon | Média |
-| Radio | راديو | rādyo | Média |
-| Téléphone | تلفون | tilfōn | Communication |
-| Portable | بورتابل | portābl | Communication |
-| Internet | إنترنت | internet | Technologie |
-| Docteur | دكتور | duktūr | Médecine / titre de respect |
-| Hôpital | أوبيتال | opitāl | Médecine |
-| Pharmacie | صيدلية | (arabe) / farmashye | Médecine |
-| Professeur | بروفيسور | profēsor | Éducation |
-| École | مدرسة | (arabe) | Éducation |
-| Classe | كلاس | klās | Éducation |
-| Bureau | بيرو | büro | Travail |
-| Rendez-vous | رندي فو | randevu | Travail / social |
-| Problème | بروبليم | problēm | Général |
-| Chance | شانس | shāns | Général |
-| Mode | موضة | (arabe) / mōd | Habillement |
-| Veste | جاكيت | jāket | Habillement |
+| Merci | ==مرسي::ar-lb== | mersi | Politesse — concurrent de ==شكراً::ar-lb== shukran dans l'usage courant |
+| Bonjour | ==بونجور::ar-lb== | bonjour | Salutation alternative (surtout Achrafieh, bourgeoisie chrétienne) |
+| Toilette | ==تواليت::ar-lb== | twālet | Maison |
+| Salon | ==صالون::ar-lb== | sālōn | Maison (pièce de réception) |
+| Garage | ==كراج::ar-lb== | karāj | Maison — /g/ rendu par ==ك::ar-lb== ou ==غ::ar-lb== |
+| Balcon | ==بلكون::ar-lb== | balkōn | Architecture |
+| Banque | ==بنك::ar-lb== | bank | Finance |
+| Carte | ==كارت::ar-lb== | kārt | Finance / papiers |
+| Chauffeur | ==شوفير::ar-lb== | shufēr | Transport |
+| Taxi | ==تاكسي::ar-lb== | tāksi | Transport |
+| Autobus | ==أوتوبيس::ar-lb== | otobus | Transport |
+| Restaurant | ==ريستورانت::ar-lb== | restorān | Restauration |
+| Café | ==كافيه::ar-lb== | kāfē | Restauration |
+| Menu | ==مينو::ar-lb== | menyū | Restauration |
+| Gâteau | ==قاطو::ar-lb== | gātō | Pâtisserie |
+| Crème | ==كريم::ar-lb== | krēm | Pâtisserie / cosmétique |
+| Chocolat | ==شوكولا::ar-lb== | shokola | Alimentation |
+| Frigo | ==فريجيدير::ar-lb== | frijider | Électroménager (de "Frigidaire") |
+| Télévision | ==تلفزيون::ar-lb== | tilfizyon | Média |
+| Radio | ==راديو::ar-lb== | rādyo | Média |
+| Téléphone | ==تلفون::ar-lb== | tilfōn | Communication |
+| Portable | ==بورتابل::ar-lb== | portābl | Communication |
+| Internet | ==إنترنت::ar-lb== | internet | Technologie |
+| Docteur | ==دكتور::ar-lb== | duktūr | Médecine / titre de respect |
+| Hôpital | ==أوبيتال::ar-lb== | opitāl | Médecine |
+| Pharmacie | ==صيدلية::ar-lb== | (arabe) / farmashye | Médecine |
+| Professeur | ==بروفيسور::ar-lb== | profēsor | Éducation |
+| École | ==مدرسة::ar-lb== | (arabe) | Éducation |
+| Classe | ==كلاس::ar-lb== | klās | Éducation |
+| Bureau | ==بيرو::ar-lb== | büro | Travail |
+| Rendez-vous | ==رندي فو::ar-lb== | randevu | Travail / social |
+| Problème | ==بروبليم::ar-lb== | problēm | Général |
+| Chance | ==شانس::ar-lb== | shāns | Général |
+| Mode | ==موضة::ar-lb== | (arabe) / mōd | Habillement |
+| Veste | ==جاكيت::ar-lb== | jāket | Habillement |
 
 ## Domaines fortement impactés par le français
 
 ### Cuisine et pâtisserie
 | Mot français | Libanais | Note |
 |-------------|----------|------|
-| Croissant | كروسان | kroasān |
-| Mille-feuille | ميل فوي | mīl fwēy |
-| Crêpe | كريب | krēp |
-| Tarte | تارت | tārt |
-| Glace (crème glacée) | غلاص / آيس كريم | glās (français) / āys krīm (anglais) |
+| Croissant | ==كروسان::ar-lb== | kroasān |
+| Mille-feuille | ==ميل فوي::ar-lb== | mīl fwēy |
+| Crêpe | ==كريب::ar-lb== | krēp |
+| Tarte | ==تارت::ar-lb== | tārt |
+| Glace (crème glacée) | ==غلاص::ar-lb== / ==آيس كريم::ar-lb== | glās (français) / āys krīm (anglais) |
 
 ### Architecture et urbanisme
 | Mot français | Libanais | Note |
 |-------------|----------|------|
-| Appartement | أبارتمان | apārtmān |
-| Immeuble | عمارة | (arabe) |
-| Avenue | أفينيو | avenyū |
-| Rue | شارع | shāri3 (arabe, pas un emprunt) |
+| Appartement | ==أبارتمان::ar-lb== | apārtmān |
+| Immeuble | ==عمارة::ar-lb== | (arabe) |
+| Avenue | ==أفينيو::ar-lb== | avenyū |
+| Rue | ==شارع::ar-lb== | shāri3 (arabe, pas un emprunt) |
 
 ### Expressions idiomatiques avec emprunts
 
 | Expression libanaise | Mélange | Sens |
 |---------------------|---------|------|
-| بدي آخد رندي فو | biddi ākhod randevu | Je veux prendre rendez-vous |
-| في بروبليم | fī problēm | Il y a un problème |
-| عندك شانس | 3andak shāns | Tu as de la chance |
-| روح على الفارماشي | rū7 3al farmashye | Va à la pharmacie |
+| ==بدي آخد رندي فو::ar-lb== | biddi ākhod randevu | Je veux prendre rendez-vous |
+| ==في بروبليم::ar-lb== | fī problēm | Il y a un problème |
+| ==عندك شانس::ar-lb== | 3andak shāns | Tu as de la chance |
+| ==روح على الفارماشي::ar-lb== | rū7 3al farmashye | Va à la pharmacie |
 
 ## Emprunts récents de l'anglais (pour comparer)
 
@@ -93,13 +93,13 @@ L'anglais concurrence de plus en plus le français comme langue de prestige, not
 
 | Anglais | Libanais | Translittération |
 |---------|----------|-----------------|
-| OK | أوكي | oki |
-| Cool | كول | kūl |
-| Sorry | سوري | sori |
-| Bye | باي | bye |
-| Text (SMS) | تكست | tekst |
-| App | آب | app |
-| WhatsApp | واتساب | wātsāp |
-| Selfie | سيلفي | selfie |
+| OK | ==أوكي::ar-lb== | oki |
+| Cool | ==كول::ar-lb== | kūl |
+| Sorry | ==سوري::ar-lb== | sori |
+| Bye | ==باي::ar-lb== | bye |
+| Text (SMS) | ==تكست::ar-lb== | tekst |
+| App | ==آب::ar-lb== | app |
+| WhatsApp | ==واتساب::ar-lb== | wātsāp |
+| Selfie | ==سيلفي::ar-lb== | selfie |
 
 > Le choix entre l'emprunt français et l'emprunt anglais est souvent générationnel et genré : les plus de 40 ans et les femmes tendent vers le français, les moins de 30 ans et les hommes vers l'anglais.

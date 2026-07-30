@@ -12,56 +12,56 @@ date: "2026-02-04"
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Voiture | Mobil | - | /mo.ˈbil/ |
-| Moto | Sepeda motor | Motor | /mo.ˈtor/ |
-| Vélo | Sepeda | - | /sə.pə.ˈda/ |
-| Bus | Bus | - | /bus/ |
-| Minibus | Angkot | - | /aŋ.ˈkot/ |
-| Taxi | Taksi | - | /tak.ˈsi/ |
-| Moto-taxi | Ojek | Gojek | /o.ˈdʒɛk/ |
-| Becak (pousse-pousse) | Becak | - | /bə.ˈt͡ʃaʔ/ |
-| Bajaj | Bajaj | - | /ba.ˈdʒadʒ/ |
-| Camion | Truk | - | /truk/ |
-| Ambulance | Ambulans | - | /am.bu.ˈlans/ |
+| Voiture | ==Mobil::id== | - | /mo.ˈbil/ |
+| Moto | ==Sepeda motor::id== | Motor | /mo.ˈtor/ |
+| Vélo | ==Sepeda::id== | - | /sə.pə.ˈda/ |
+| Bus | ==Bus::id== | - | /bus/ |
+| Minibus | ==Angkot::id== | - | /aŋ.ˈkot/ |
+| Taxi | ==Taksi::id== | - | /tak.ˈsi/ |
+| Moto-taxi | ==Ojek::id== | Gojek | /o.ˈdʒɛk/ |
+| Becak (pousse-pousse) | ==Becak::id== | - | /bə.ˈt͡ʃaʔ/ |
+| Bajaj | ==Bajaj::id== | - | /ba.ˈdʒadʒ/ |
+| Camion | ==Truk::id== | - | /truk/ |
+| Ambulance | ==Ambulans::id== | - | /am.bu.ˈlans/ |
 
 ## Transport en Commun
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Train | Kereta api | Kereta | /kə.rə.ta a.ˈpi/ |
-| Métro | MRT | - | /ɛm.ɛr.ˈtɛ/ |
-| TransJakarta (bus rapide) | Transjakarta | TJ | /trans.dʒa.kar.ˈta/ |
-| Commuter Line | KRL | - | /ka.ɛr.ˈɛl/ |
+| Train | ==Kereta api::id== | Kereta | /kə.rə.ta a.ˈpi/ |
+| Métro | ==MRT::id== | - | /ɛm.ɛr.ˈtɛ/ |
+| TransJakarta (bus rapide) | ==Transjakarta::id== | TJ | /trans.dʒa.kar.ˈta/ |
+| Commuter Line | ==KRL::id== | - | /ka.ɛr.ˈɛl/ |
 
 ## Transport Aérien et Maritime
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Avion | Pesawat | /pə.sa.ˈwat/ |
-| Hélicoptère | Helikopter | /hɛ.li.kop.ˈtɛr/ |
-| Bateau | Kapal | /ka.ˈpal/ |
-| Ferry | Feri | /fɛ.ˈri/ |
-| Bateau rapide | Speedboat | /spit.ˈbot/ |
-| Pirogue | Perahu | /pə.ra.ˈhu/ |
+| Avion | ==Pesawat::id== | /pə.sa.ˈwat/ |
+| Hélicoptère | ==Helikopter::id== | /hɛ.li.kop.ˈtɛr/ |
+| Bateau | ==Kapal::id== | /ka.ˈpal/ |
+| Ferry | ==Feri::id== | /fɛ.ˈri/ |
+| Bateau rapide | ==Speedboat::id== | /spit.ˈbot/ |
+| Pirogue | ==Perahu::id== | /pə.ra.ˈhu/ |
 
 ## Parties du Véhicule
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Roue | Roda | /ro.ˈda/ |
-| Pneu | Ban | /ban/ |
-| Moteur | Mesin | /mə.ˈsin/ |
-| Volant | Setir | /sə.ˈtir/ |
-| Frein | Rem | /rɛm/ |
-| Accélérateur | Gas | /gas/ |
-| Siège | Kursi | /kur.ˈsi/ |
-| Ceinture | Sabuk pengaman | /sa.buʔ pə.ŋa.ˈman/ |
-| Casque | Helm | /hɛlm/ |
-| Klaxon | Klakson | /klak.ˈson/ |
-| Phare | Lampu | /lam.ˈpu/ |
-| Rétroviseur | Kaca spion | /ka.t͡ʃa spi.ˈon/ |
-| Essence | Bensin | /bɛn.ˈsin/ |
-| Diesel | Solar | /so.ˈlar/ |
+| Roue | ==Roda::id== | /ro.ˈda/ |
+| Pneu | ==Ban::id== | /ban/ |
+| Moteur | ==Mesin::id== | /mə.ˈsin/ |
+| Volant | ==Setir::id== | /sə.ˈtir/ |
+| Frein | ==Rem::id== | /rɛm/ |
+| Accélérateur | ==Gas::id== | /gas/ |
+| Siège | ==Kursi::id== | /kur.ˈsi/ |
+| Ceinture | ==Sabuk pengaman::id== | /sa.buʔ pə.ŋa.ˈman/ |
+| Casque | ==Helm::id== | /hɛlm/ |
+| Klaxon | ==Klakson::id== | /klak.ˈson/ |
+| Phare | ==Lampu::id== | /lam.ˈpu/ |
+| Rétroviseur | ==Kaca spion::id== | /ka.t͡ʃa spi.ˈon/ |
+| Essence | ==Bensin::id== | /bɛn.ˈsin/ |
+| Diesel | ==Solar::id== | /so.ˈlar/ |
 
 ## Actions Liées au Transport
 
@@ -84,27 +84,27 @@ date: "2026-02-04"
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Gare | Stasiun | /sta.si.ˈun/ |
-| Aéroport | Bandara | /ban.da.ˈra/ |
-| Port | Pelabuhan | /pə.la.bu.ˈhan/ |
-| Arrêt de bus | Halte | /hal.ˈtə/ |
-| Terminal | Terminal | /tɛr.mi.ˈnal/ |
-| Station essence | SPBU / Pom bensin | /pom bɛn.ˈsin/ |
+| Gare | ==Stasiun::id== | /sta.si.ˈun/ |
+| Aéroport | ==Bandara::id== | /ban.da.ˈra/ |
+| Port | ==Pelabuhan::id== | /pə.la.bu.ˈhan/ |
+| Arrêt de bus | ==Halte::id== | /hal.ˈtə/ |
+| Terminal | ==Terminal::id== | /tɛr.mi.ˈnal/ |
+| Station essence | ==SPBU::id== / ==Pom bensin::id== | /pom bɛn.ˈsin/ |
 
 ## Vocabulaire Utile
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Billet | Tiket | /ti.ˈkɛt/ |
-| Aller simple | Sekali jalan | /sə.ka.li dʒa.ˈlan/ |
-| Aller-retour | Pulang pergi | /pu.laŋ pər.ˈgi/ |
-| Horaire | Jadwal | /dʒad.ˈwal/ |
-| Retard | Terlambat | /tər.lam.ˈbat/ |
-| Embouteillage | Macet | /ma.ˈt͡ʃɛt/ |
-| Accident | Kecelakaan | /kə.t͡ʃə.la.ka.ˈan/ |
-| Permis de conduire | SIM | /sim/ |
-| Feu rouge | Lampu merah | /lam.pu mə.ˈrah/ |
-| Panneau | Rambu | /ram.ˈbu/ |
+| Billet | ==Tiket::id== | /ti.ˈkɛt/ |
+| Aller simple | ==Sekali jalan::id== | /sə.ka.li dʒa.ˈlan/ |
+| Aller-retour | ==Pulang pergi::id== | /pu.laŋ pər.ˈgi/ |
+| Horaire | ==Jadwal::id== | /dʒad.ˈwal/ |
+| Retard | ==Terlambat::id== | /tər.lam.ˈbat/ |
+| Embouteillage | ==Macet::id== | /ma.ˈt͡ʃɛt/ |
+| Accident | ==Kecelakaan::id== | /kə.t͡ʃə.la.ka.ˈan/ |
+| Permis de conduire | ==SIM::id== | /sim/ |
+| Feu rouge | ==Lampu merah::id== | /lam.pu mə.ˈrah/ |
+| Panneau | ==Rambu::id== | /ram.ˈbu/ |
 
 ## Expressions Utiles
 

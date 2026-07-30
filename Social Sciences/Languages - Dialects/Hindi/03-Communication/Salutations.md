@@ -13,47 +13,47 @@ date: "2026-04-01"
 
 | Variante | Contexte | Note |
 |---------|---------|------|
-| नमस्ते (Namaste) | Universel | Le plus courant |
-| नमस्कार (Namaskar) | Plus formel, plus respectueux | Cérémonies, personnes âgées |
-| प्रणाम (Pranam) | Très respectueux | Aux aînés, gourous, parents |
+| ==नमस्ते::hi== (Namaste) | Universel | Le plus courant |
+| ==नमस्कार::hi== (Namaskar) | Plus formel, plus respectueux | Cérémonies, personnes âgées |
+| ==प्रणाम::hi== (Pranam) | Très respectueux | Aux aînés, gourous, parents |
 
 ## Salutations selon la religion
 
 | Salutation | Translitération | Religion | Réponse |
 |-----------|----------------|---------|---------|
-| नमस्ते | Namaste | Hindoue (universelle) | Namaste |
-| सत श्री अकाल | Sat Sri Akal | Sikhe | Sat Sri Akal |
-| अदाब | Adaab | Musulmane | Adaab / Salaam |
-| जय मसीह की | Jai Masih ki | Chrétienne | Jai Masih ki |
-| जय जिनेन्द्र | Jai Jinendra | Jaïne | Jai Jinendra |
+| ==नमस्ते::hi== | Namaste | Hindoue (universelle) | Namaste |
+| ==सत श्री अकाल::hi== | Sat Sri Akal | Sikhe | Sat Sri Akal |
+| ==अदाब::hi== | Adaab | Musulmane | Adaab / Salaam |
+| ==जय मसीह की::hi== | Jai Masih ki | Chrétienne | Jai Masih ki |
+| ==जय जिनेन्द्र::hi== | Jai Jinendra | Jaïne | Jai Jinendra |
 
 ## Échange rituel — Comment vas-tu ?
 
 | Question | Translitération | Sens |
 |---------|----------------|------|
-| आप कैसे हैं ? | Aap kaise hain? | Comment allez-vous ? (formel) |
-| तुम कैसे हो ? | Tum kaise ho? | Comment vas-tu ? (informel) |
-| क्या हाल है ? | Kya haal hai? | Comment ça va ? |
-| कैसा चल रहा है ? | Kaisa chal raha hai? | Comment ça se passe ? |
+| ==आप कैसे हैं::hi== ? | Aap kaise hain? | Comment allez-vous ? (formel) |
+| ==तुम कैसे हो::hi== ? | Tum kaise ho? | Comment vas-tu ? (informel) |
+| ==क्या हाल है::hi== ? | Kya haal hai? | Comment ça va ? |
+| ==कैसा चल रहा है::hi== ? | Kaisa chal raha hai? | Comment ça se passe ? |
 
 | Réponse | Translitération | Sens |
 |---------|----------------|------|
-| मैं ठीक हूँ, धन्यवाद | Main theek hoon, dhanyavaad | Je vais bien, merci |
-| बढ़िया ! | Badhiya! | Super ! |
-| ठीक-ठाक | Theek-thaak | Comme ci comme ça |
-| बस चल रहा है | Bas chal raha hai | Ça roule / on fait aller |
-| आपकी कृपा है | Aapki kripa hai | C'est votre bénédiction (très formel) |
+| ==मैं ठीक हूँ::hi==, ==धन्यवाद::hi== | Main theek hoon, dhanyavaad | Je vais bien, merci |
+| ==बढ़िया::hi== ! | Badhiya! | Super ! |
+| ==ठीक::hi==-==ठाक::hi== | Theek-thaak | Comme ci comme ça |
+| ==बस चल रहा है::hi== | Bas chal raha hai | Ça roule / on fait aller |
+| ==आपकी कृपा है::hi== | Aapki kripa hai | C'est votre bénédiction (très formel) |
 
 ## Prises de congé
 
 | Expression | Translitération | Sens / usage |
 |-----------|----------------|-------------|
-| नमस्ते | Namaste | Au revoir (même que bonjour) |
-| अलविदा | Alvida | Au revoir (formel, légèrement triste) |
-| फिर मिलेंगे | Phir milenge | On se reverra |
-| फिर मिलते हैं | Phir milte hain | À bientôt |
-| शुभ रात्रि | Shubh ratri | Bonne nuit (formel) |
-| राम राम | Ram Ram | Au revoir (usage rural/hindou traditionnel) |
+| ==नमस्ते::hi== | Namaste | Au revoir (même que bonjour) |
+| ==अलविदा::hi== | Alvida | Au revoir (formel, légèrement triste) |
+| ==फिर मिलेंगे::hi== | Phir milenge | On se reverra |
+| ==फिर मिलते हैं::hi== | Phir milte hain | À bientôt |
+| ==शुभ रात्रि::hi== | Shubh ratri | Bonne nuit (formel) |
+| ==राम राम::hi== | Ram Ram | Au revoir (usage rural/hindou traditionnel) |
 
 ## Le toucher des pieds — Pranam
 
@@ -67,10 +67,10 @@ Une coutume importante : les jeunes touchent les pieds des aînés (parents, ens
 
 | Moment | Hindi | Translitération |
 |--------|-------|-----------------|
-| Bonjour (matin) | सुप्रभात | Suprabhaat |
-| Bon après-midi | शुभ दोपहर | Shubh dopahar |
-| Bonsoir | शुभ संध्या | Shubh sandhya |
-| Bonne nuit | शुभ रात्रि | Shubh ratri |
+| Bonjour (matin) | ==सुप्रभात::hi== | Suprabhaat |
+| Bon après-midi | ==शुभ दोपहर::hi== | Shubh dopahar |
+| Bonsoir | ==शुभ संध्या::hi== | Shubh sandhya |
+| Bonne nuit | ==शुभ रात्रि::hi== | Shubh ratri |
 
 > Ces formules sont assez formelles/littéraires. Dans l'usage quotidien, Namaste s'utilise à toute heure.
 
@@ -78,8 +78,8 @@ Une coutume importante : les jeunes touchent les pieds des aînés (parents, ens
 
 | Expression | Translitération | Sens |
 |-----------|----------------|------|
-| आइए, बैठिए | Aaiye, baithiye | Entrez, asseyez-vous (formel) |
-| चाय लेंगे ? | Chai lenge? | Vous prendrez du thé ? |
-| खाना खाए बिना मत जाइए | Khaana khaaye bina mat jaaiye | Ne partez pas sans manger |
-| अतिथि देवो भव | Atithi devo bhava | L'invité est comme un dieu (maxime) |
-| घर जैसा समझिए | Ghar jaisa samajhiye | Faites comme chez vous |
+| ==आइए::hi==, ==बैठिए::hi== | Aaiye, baithiye | Entrez, asseyez-vous (formel) |
+| ==चाय लेंगे::hi== ? | Chai lenge? | Vous prendrez du thé ? |
+| ==खाना खाए बिना मत जाइए::hi== | Khaana khaaye bina mat jaaiye | Ne partez pas sans manger |
+| ==अतिथि देवो भव::hi== | Atithi devo bhava | L'invité est comme un dieu (maxime) |
+| ==घर जैसा समझिए::hi== | Ghar jaisa samajhiye | Faites comme chez vous |

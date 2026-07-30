@@ -41,12 +41,12 @@ L'Indonésie reconnaît officiellement 6 religions :
 
 | Religion | Population | Nom indonésien |
 | :------: | :--------: | :------------: |
-| Islam | ~87% | Islam |
-| Protestantisme | ~7% | Kristen Protestan |
-| Catholicisme | ~3% | Katolik |
-| Hindouisme | ~2% | Hindu |
-| Bouddhisme | ~1% | Buddha |
-| Confucianisme | <1% | Konghucu |
+| Islam | ~87% | ==Islam::id== |
+| Protestantisme | ~7% | ==Kristen Protestan::id== |
+| Catholicisme | ~3% | ==Katolik::id== |
+| Hindouisme | ~2% | ==Hindu::id== |
+| Bouddhisme | ~1% | ==Buddha::id== |
+| Confucianisme | <1% | ==Konghucu::id== |
 
 ## Arts Traditionnels
 

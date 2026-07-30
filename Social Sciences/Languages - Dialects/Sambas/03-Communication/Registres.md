@@ -21,10 +21,10 @@ Le Sambas (Bahasa Melayu Sambas) est un dialecte malais de Kalimantan occidental
 
 | Personne | Sambas dialectal | Malais standard |
 |----------|-----------------|-----------------|
-| Je | Aku / Ambo | Saya / Aku |
-| Tu | Kau / Nyawa | Awak / Kamu |
-| Il/Elle | Die / Iye | Dia |
-| Nous | Kite / Kami | Kita / Kami |
+| Je | ==Aku::ms== / ==Ambo::ms== | Saya / Aku |
+| Tu | ==Kau::ms== / ==Nyawa::ms== | Awak / Kamu |
+| Il/Elle | ==Die::ms== / ==Iye::ms== | Dia |
+| Nous | ==Kite::ms== / ==Kami::ms== | Kita / Kami |
 
 **Termes d'adresse** (similaires au malais standard) :
 - **Pak / Bapak** : homme adulte respectueux
@@ -58,14 +58,14 @@ L'Islam structure fortement le registre social Sambas :
 
 | Français | Sambas | Malais standard |
 |----------|--------|-----------------|
-| Beaucoup | Banyak / Bejibun | Banyak |
-| Petit | Cilik | Kecil |
-| Maintenant | Sekajap / Kini | Sekarang |
-| Ainsi / comme ça | Macam tu | Macam itu |
-| Vraiment | Sungguh / Betul betul | Betul |
-| Maison | Rumah | Rumah |
-| Riz | Nasi / Beras | Nasi |
-| Eau | Aek / Air | Air |
+| Beaucoup | ==Banyak::ms== / ==Bejibun::ms== | Banyak |
+| Petit | ==Cilik::ms== | Kecil |
+| Maintenant | ==Sekajap::ms== / ==Kini::ms== | Sekarang |
+| Ainsi / comme ça | ==Macam tu::ms== | Macam itu |
+| Vraiment | ==Sungguh::ms== / ==Betul betul::ms== | Betul |
+| Maison | ==Rumah::ms== | Rumah |
+| Riz | ==Nasi::ms== / ==Beras::ms== | Nasi |
+| Eau | ==Aek::ms== / ==Air::ms== | Air |
 
 ## Code-switching Sambas-Indonésien-Dayak
 

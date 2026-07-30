@@ -15,35 +15,35 @@ L'arabe s'écrit de droite à gauche. 28 lettres, toutes consonnes — les voyel
 
 | Lettre isolée | Nom   | Translitération | Son                                              |
 | ------------- | ----- | --------------- | ------------------------------------------------ |
-| ا             | alef  | a / '           | /aː/ ou support de hamza                         |
-| ب             | ba    | b               | /b/                                              |
-| ت             | ta    | t               | /t/                                              |
-| ث             | tha   | th              | /θ/ → /t/ ou /s/ en libanais                     |
-| ج             | jeem  | j               | /dʒ/                                             |
-| ح             | ha    | 7               | /ħ/ — h emphatique, friction gutturale           |
-| خ             | kha   | 5 / kh          | /x/ — comme "j" espagnol                         |
-| د             | dal   | d               | /d/                                              |
-| ذ             | dhal  | dh              | /ð/ → /d/ ou /z/ en libanais                     |
-| ر             | ra    | r               | /r/ roulé                                        |
-| ز             | zay   | z               | /z/                                              |
-| س             | seen  | s               | /s/                                              |
-| ش             | sheen | sh              | /ʃ/ = "ch" français                              |
-| ص             | sad   | S               | /sˤ/ — s emphatique                              |
-| ض             | dad   | D               | /dˤ/ — d emphatique                              |
-| ط             | ta    | T               | /tˤ/ — t emphatique                              |
-| ظ             | dha   | DH              | /ðˤ/ → /zˤ/ en libanais                          |
-| ع             | ayn   | 3               | /ʕ/ — voyelle gutturale sans équivalent français |
-| غ             | ghayn | gh              | /ɣ/ — r grasseyé parisien approximatif           |
-| ف             | fa    | f               | /f/                                              |
-| ق             | qaf   | 2 / q           | /q/ → **[ʔ]** coup de glotte en libanais         |
-| ك             | kaf   | k               | /k/                                              |
-| ل             | lam   | l               | /l/                                              |
-| م             | meem  | m               | /m/                                              |
-| ن             | noon  | n               | /n/                                              |
-| ه             | ha    | h               | /h/                                              |
-| و             | waw   | w / oo / ou     | /w/ ou /uː/                                      |
-| ي             | ya    | y / ee / i      | /j/ ou /iː/                                      |
-| ء             | hamza | 2 / '           | /ʔ/ coup de glotte                               |
+| ==ا::ar-lb== | alef | a / ' | /aː/ ou support de hamza |
+| ==ب::ar-lb== | ba | b | /b/ |
+| ==ت::ar-lb== | ta | t | /t/ |
+| ==ث::ar-lb== | tha | th | /θ/ → /t/ ou /s/ en libanais |
+| ==ج::ar-lb== | jeem | j | /dʒ/ |
+| ==ح::ar-lb== | ha | 7 | /ħ/ — h emphatique, friction gutturale |
+| ==خ::ar-lb== | kha | 5 / kh | /x/ — comme "j" espagnol |
+| ==د::ar-lb== | dal | d | /d/ |
+| ==ذ::ar-lb== | dhal | dh | /ð/ → /d/ ou /z/ en libanais |
+| ==ر::ar-lb== | ra | r | /r/ roulé |
+| ==ز::ar-lb== | zay | z | /z/ |
+| ==س::ar-lb== | seen | s | /s/ |
+| ==ش::ar-lb== | sheen | sh | /ʃ/ = "ch" français |
+| ==ص::ar-lb== | sad | S | /sˤ/ — s emphatique |
+| ==ض::ar-lb== | dad | D | /dˤ/ — d emphatique |
+| ==ط::ar-lb== | ta | T | /tˤ/ — t emphatique |
+| ==ظ::ar-lb== | dha | DH | /ðˤ/ → /zˤ/ en libanais |
+| ==ع::ar-lb== | ayn | 3 | /ʕ/ — voyelle gutturale sans équivalent français |
+| ==غ::ar-lb== | ghayn | gh | /ɣ/ — r grasseyé parisien approximatif |
+| ==ف::ar-lb== | fa | f | /f/ |
+| ==ق::ar-lb== | qaf | 2 / q | /q/ → **[ʔ]** coup de glotte en libanais |
+| ==ك::ar-lb== | kaf | k | /k/ |
+| ==ل::ar-lb== | lam | l | /l/ |
+| ==م::ar-lb== | meem | m | /m/ |
+| ==ن::ar-lb== | noon | n | /n/ |
+| ==ه::ar-lb== | ha | h | /h/ |
+| ==و::ar-lb== | waw | w / oo / ou | /w/ ou /uː/ |
+| ==ي::ar-lb== | ya | y / ee / i | /j/ ou /iː/ |
+| ==ء::ar-lb== | hamza | 2 / ' | /ʔ/ coup de glotte |
 
 ### Convention utilisée dans ce dossier
 
@@ -59,13 +59,13 @@ Les Libanais écrivent en romanisation avec des chiffres pour les sons sans équ
 
 | Chiffre | Son                   | Exemple    | Sens                |
 | ------- | --------------------- | ---------- | ------------------- |
-| 2       | ء hamza /ʔ/ ou ق qaf  | 2ana       | Je (ana)            |
-| 3       | ع ayn /ʕ/             | 3am / ba3d | en train de / après |
-| 5       | خ kha /x/             | 5abar      | nouvelle            |
-| 6       | ط ta emphatique /tˤ/  | 6aweel     | long                |
-| 7       | ح ha /ħ/              | 7elo       | beau                |
-| 8       | ou variante de gh     | rare       | —                   |
-| 9       | ص sad emphatique /sˤ/ | 9a7        | vrai                |
+| 2 | ==ء::ar-lb== hamza /ʔ/ ou ==ق::ar-lb== qaf | 2ana | Je (ana) |
+| 3 | ==ع::ar-lb== ayn /ʕ/ | 3am / ba3d | en train de / après |
+| 5 | ==خ::ar-lb== kha /x/ | 5abar | nouvelle |
+| 6 | ==ط::ar-lb== ta emphatique /tˤ/ | 6aweel | long |
+| 7 | ==ح::ar-lb== ha /ħ/ | 7elo | beau |
+| 8 | ou variante de gh | rare | — |
+| 9 | ==ص::ar-lb== sad emphatique /sˤ/ | 9a7 | vrai |
 
 ## Phonologie spécifique au libanais
 
@@ -83,9 +83,9 @@ Le libanais "monte" certaines voyelles longues :
 ### Simplification des consonnes interdentales
 | Standard | Libanais | Exemple |
 |----------|----------|---------|
-| ث /θ/ | /t/ | **ثلاثة** → **tlēte** (trois) |
-| ذ /ð/ | /d/ ou /z/ | **هذا** → **hayda** (celui-ci) |
-| ظ /ðˤ/ | /zˤ/ | → variante locale |
+| ==ث::ar-lb== /θ/ | /t/ | **==ثلاثة::ar-lb==** → **tlēte** (trois) |
+| ==ذ::ar-lb== /ð/ | /d/ ou /z/ | **==هذا::ar-lb==** → **hayda** (celui-ci) |
+| ==ظ::ar-lb== /ðˤ/ | /zˤ/ | → variante locale |
 
 ### Consonnes emphatiques (makharij)
 Les consonnes ص ض ط ظ sont pharyngalisées — elles "assombrissent" les voyelles voisines. Elles n'ont pas d'équivalent en français. S'acquièrent par écoute et imitation.

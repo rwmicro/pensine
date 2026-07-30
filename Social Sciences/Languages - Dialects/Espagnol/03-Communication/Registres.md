@@ -119,13 +119,13 @@ L'espagnol contemporain absorbe rapidement des termes anglais, surtout chez les 
 
 | Spanglish | Espagnol pur | Sens |
 |-----------|--------------|------|
-| parquear | estacionar / aparcar | garer |
-| chequear | verificar / revisar | vérifier |
-| clickear | hacer clic | cliquer |
-| el email | el correo electrónico | e-mail |
-| el WhatsApp | el WhatsApp | WhatsApp (anglicisme accepté) |
-| guglear | buscar en Google | googler |
-| rentear | alquilar | louer |
+| parquear | ==estacionar::es== / ==aparcar::es== | garer |
+| chequear | ==verificar::es== / ==revisar::es== | vérifier |
+| clickear | ==hacer clic::es== | cliquer |
+| el email | ==el correo electrónico::es== | e-mail |
+| el WhatsApp | ==el WhatsApp::es== | WhatsApp (anglicisme accepté) |
+| guglear | ==buscar en Google::es== | googler |
+| rentear | ==alquilar::es== | louer |
 
 ## SMS / Réseaux sociaux
 

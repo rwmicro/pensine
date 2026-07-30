@@ -18,12 +18,12 @@ Exemples MSA vs libanais :
 
 | Concept | MSA | Libanais |
 |---------|-----|----------|
-| Je veux | أريد (urīd) | بدي (biddi) |
-| Maintenant | الآن (al-ān) | هلق (halla2) |
-| Comment vas-tu ? | كيف حالك (kayfa 7āluk) | كيفك (kīfak) |
-| Maison | منزل (manzil) | بيت (beit) |
-| Beaucoup | كثيراً (kathīran) | كتير (ktīr) |
-| Voir | يرى (yarā) | يشوف (yshūf) |
+| Je veux | ==أريد::ar-lb== (urīd) | ==بدي::ar-lb== (biddi) |
+| Maintenant | ==الآن::ar-lb== (al-ān) | ==هلق::ar-lb== (halla2) |
+| Comment vas-tu ? | ==كيف حالك::ar-lb== (kayfa 7āluk) | ==كيفك::ar-lb== (kīfak) |
+| Maison | ==منزل::ar-lb== (manzil) | ==بيت::ar-lb== (beit) |
+| Beaucoup | ==كثيراً::ar-lb== (kathīran) | ==كتير::ar-lb== (ktīr) |
+| Voir | ==يرى::ar-lb== (yarā) | ==يشوف::ar-lb== (yshūf) |
 
 ### 2. Arabe libanais courant — dialecte urbain beyrouthin
 La langue du quotidien des Libanais éduqués. Mélange spontané d'arabe libanais, de français et d'anglais. C'est ce que vous entendrez dans les cafés, entre amis, en famille.
@@ -71,9 +71,9 @@ L'arabe libanais distingue le genre mais pas le niveau de politesse par les pron
 
 | Pronom | Usage |
 |--------|-------|
-| إنت (inta) — tu (m.) | neutre, s'utilise avec tout le monde |
-| إنتِ (inti) — tu (f.) | neutre, s'utilise avec tout le monde |
-| إنتو (intu) — vous (pl.) | pluriel uniquement, pas de vouvoiement singulier |
+| ==إنت::ar-lb== (inta) — tu (m.) | neutre, s'utilise avec tout le monde |
+| ==إنتِ::ar-lb== (inti) — tu (f.) | neutre, s'utilise avec tout le monde |
+| ==إنتو::ar-lb== (intu) — vous (pl.) | pluriel uniquement, pas de vouvoiement singulier |
 
 La politesse formelle s'exprime par :
 - Le ton et les formules choisies
@@ -86,16 +86,16 @@ Ces formules traversent tous les registres et toutes les communautés confession
 
 | Formule | Libanais | Contexte |
 |---------|-------|---------|
-| Inshallah | إن شاء الله | Espoir / incertitude polie / peut-être |
-| Hamdillah | الحمد لله | Réponse à "comment ça va" / gratitude |
-| Yalla | يلا | Allez / vite / OK (universel) |
-| Mabrook | مبروك | Félicitations |
-| Tslam / Tsalmīli | تسلم / تسلملي | Remerciement chaleureux (litt. "reste sain") |
-| Tkaram | تكرم | Hospitalité / "faites donc" / "vous m'honorez" |
-| Allah yir7amo | الله يرحمه | Condoléances (litt. "Dieu ait son âme") |
-| Bi salamtak | بسلامتك | "Bon retour" / après une maladie |
-| Sahha | صحة | Santé / après un repas ou un effort |
-| Sa77tein | صحتين | Bon appétit (litt. "deux santés") |
+| Inshallah | ==إن شاء الله::ar-lb== | Espoir / incertitude polie / peut-être |
+| Hamdillah | ==الحمد لله::ar-lb== | Réponse à "comment ça va" / gratitude |
+| Yalla | ==يلا::ar-lb== | Allez / vite / OK (universel) |
+| Mabrook | ==مبروك::ar-lb== | Félicitations |
+| Tslam / Tsalmīli | ==تسلم::ar-lb== / ==تسلملي::ar-lb== | Remerciement chaleureux (litt. "reste sain") |
+| Tkaram | ==تكرم::ar-lb== | Hospitalité / "faites donc" / "vous m'honorez" |
+| Allah yir7amo | ==الله يرحمه::ar-lb== | Condoléances (litt. "Dieu ait son âme") |
+| Bi salamtak | ==بسلامتك::ar-lb== | "Bon retour" / après une maladie |
+| Sahha | ==صحة::ar-lb== | Santé / après un repas ou un effort |
+| Sa77tein | ==صحتين::ar-lb== | Bon appétit (litt. "deux santés") |
 
 ## Mots de remplissage (fillers)
 
@@ -103,11 +103,11 @@ Ces mots structurent le discours oral libanais. Les maîtriser donne une fluidit
 
 | Mot | Usage | Équivalent français |
 |-----|-------|---------------------|
-| يعني (ya3ni) | hésitation / c'est-à-dire | "euh" / "genre" / "c'est-à-dire" |
-| يلا (yalla) | transition / accord / pression douce | "allez" / "bon" / "vas-y" |
-| هيك (hēk) | comme ça / ainsi | "comme ça" / "voilà" |
-| شو بدك (shu biddak) | qu'est-ce que tu veux (rhétorique) | "qu'est-ce que tu veux" |
-| بس (bass) | seulement / mais / stop | "mais" / "juste" / "suffisamment" |
-| هلق (halla2) | maintenant / alors | "maintenant" / "donc" |
-| لأ (la2) | non | non |
-| آه (āh) | oui | oui |
+| ==يعني::ar-lb== (ya3ni) | hésitation / c'est-à-dire | "euh" / "genre" / "c'est-à-dire" |
+| ==يلا::ar-lb== (yalla) | transition / accord / pression douce | "allez" / "bon" / "vas-y" |
+| ==هيك::ar-lb== (hēk) | comme ça / ainsi | "comme ça" / "voilà" |
+| ==شو بدك::ar-lb== (shu biddak) | qu'est-ce que tu veux (rhétorique) | "qu'est-ce que tu veux" |
+| ==بس::ar-lb== (bass) | seulement / mais / stop | "mais" / "juste" / "suffisamment" |
+| ==هلق::ar-lb== (halla2) | maintenant / alors | "maintenant" / "donc" |
+| ==لأ::ar-lb== (la2) | non | non |
+| ==آه::ar-lb== (āh) | oui | oui |

@@ -13,56 +13,56 @@ Phrases de base en dialecte Sambas, parlé dans le sultanat de Sambas (Kalimanta
 
 | Français | Sambas | Malais standard | Notes |
 |----------|--------|-----------------|-------|
-| Bonjour | Assalamualaikum | Assalamualaikum | Salutation islamique universelle |
-| Réponse | Wa'alaikumsalam | Wa'alaikumsalam | |
-| Comment vas-tu ? | Kemane kau? / Apa khabar? | Apa khabar? | Kemane = comment ça va |
-| Bien | Baik / Alhamdulillah | Baik, terima kasih | |
-| Au revoir | Assalamualaikum | Selamat tinggal | Même formule pour partir |
-| Oui | Iyo | Ya | |
-| Non | Indak / Dak | Tidak | Dak = forme contractée |
-| Merci | Terima kasih | Terima kasih | |
-| S'il te plaît | Tolong | Tolong | |
-| Pardon | Maaf | Maaf | |
+| Bonjour | ==Assalamualaikum::ms== | Assalamualaikum | Salutation islamique universelle |
+| Réponse | ==Wa'alaikumsalam::ms== | Wa'alaikumsalam |  |
+| Comment vas-tu ? | ==Kemane kau?::ms== / ==Apa khabar?::ms== | Apa khabar? | Kemane = comment ça va |
+| Bien | ==Baik::ms== / ==Alhamdulillah::ms== | Baik, terima kasih |  |
+| Au revoir | ==Assalamualaikum::ms== | Selamat tinggal | Même formule pour partir |
+| Oui | ==Iyo::ms== | Ya |  |
+| Non | ==Indak::ms== / ==Dak::ms== | Tidak | Dak = forme contractée |
+| Merci | ==Terima kasih::ms== | Terima kasih |  |
+| S'il te plaît | ==Tolong::ms== | Tolong |  |
+| Pardon | ==Maaf::ms== | Maaf |  |
 
 ## Se présenter
 
 | Français           | Sambas                     |
 | ------------------ | -------------------------- |
-| Je m'appelle...    | Namek aku ...              |
-| D'où viens-tu ?    | Dari manek kau?            |
-| Je viens de...     | Aku dari ...               |
-| Tu parles sambas ? | Kau ngomong Melayu Sambas? |
-| Un peu             | Sikit-sikit                |
+| Je m'appelle... | ==Namek aku ...::ms== |
+| D'où viens-tu ? | ==Dari manek kau?::ms== |
+| Je viens de... | ==Aku dari ...::ms== |
+| Tu parles sambas ? | ==Kau ngomong Melayu Sambas?::ms== |
+| Un peu | ==Sikit-sikit::ms== |
 
 ## Communication
 
 | Français | Sambas |
 |----------|--------|
-| Je ne comprends pas | Aku dak paham |
-| Répète s'il te plaît | Ulang lagi, tolong |
-| Plus lentement | Perlahan sikit |
-| Qu'est-ce que ça veut dire ? | Apa maknanya? |
+| Je ne comprends pas | ==Aku dak paham::ms== |
+| Répète s'il te plaît | ==Ulang lagi, tolong::ms== |
+| Plus lentement | ==Perlahan sikit::ms== |
+| Qu'est-ce que ça veut dire ? | ==Apa maknanya?::ms== |
 
 ## Vie quotidienne
 
 | Français | Sambas |
 |----------|--------|
-| As-tu mangé ? | Kau dah makan? |
-| J'ai mangé | Aku dah makan |
-| J'ai faim | Aku lapar |
-| J'ai soif | Aku haus |
-| C'est délicieux | Sedap betul! |
-| Où est... ? | Di mane ...? |
-| Combien ça coûte ? | Berape harge-nye? |
+| As-tu mangé ? | ==Kau dah makan?::ms== |
+| J'ai mangé | ==Aku dah makan::ms== |
+| J'ai faim | ==Aku lapar::ms== |
+| J'ai soif | ==Aku haus::ms== |
+| C'est délicieux | ==Sedap betul!::ms== |
+| Où est... ? | ==Di mane ...?::ms== |
+| Combien ça coûte ? | ==Berape harge-nye?::ms== |
 
 ## Expressions courantes
 
 | Français | Sambas |
 |----------|--------|
-| Vraiment ? | Sungguh ke? |
-| Bien sûr | Memang la |
-| Je ne sais pas | Aku dak tau |
-| D'accord | Iye / Okay |
-| Attends | Tunggu sekejap |
-| Vite | Cepat |
-| C'est bien | Bagus |
+| Vraiment ? | ==Sungguh ke?::ms== |
+| Bien sûr | ==Memang la::ms== |
+| Je ne sais pas | ==Aku dak tau::ms== |
+| D'accord | ==Iye::ms== / ==Okay::ms== |
+| Attends | ==Tunggu sekejap::ms== |
+| Vite | ==Cepat::ms== |
+| C'est bien | ==Bagus::ms== |

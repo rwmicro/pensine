@@ -20,49 +20,49 @@ L'alphabet turc utilise 29 lettres latines avec des caractères spéciaux:
 
 | Français | Turc | Prononciation |
 | :---: | :---: | :---: |
-| Bonjour | Merhaba | /mɛrˈhaba/ |
-| Bonne nuit | İyi geceler | /iˈji ɡɛdʒɛˈlɛɾ/ |
-| Salut (informel) | Selam | /sɛˈlam/ |
-| Au revoir | Hoşça kal | /hoʃˈtʃa kal/ |
-| Comment ça va? | Nasılsın? | /naˈsɯlsɯn/ |
-| Ça va bien | İyiyim | /iˈjijim/ |
-| Merci | Teşekkür ederim | /tɛʃɛkˈkyɾ ɛdɛˈɾim/ |
-| Merci (court) | Sağ ol | /saː ol/ |
-| S'il te plaît | Lütfen | /lytˈfɛn/ |
-| Oui | Evet | /ɛˈvɛt/ |
-| Non | Hayır | /haˈjɯɾ/ |
+| Bonjour | ==Merhaba::tr== | /mɛrˈhaba/ |
+| Bonne nuit | ==İyi geceler::tr== | /iˈji ɡɛdʒɛˈlɛɾ/ |
+| Salut (informel) | ==Selam::tr== | /sɛˈlam/ |
+| Au revoir | ==Hoşça kal::tr== | /hoʃˈtʃa kal/ |
+| Comment ça va? | ==Nasılsın?::tr== | /naˈsɯlsɯn/ |
+| Ça va bien | ==İyiyim::tr== | /iˈjijim/ |
+| Merci | ==Teşekkür ederim::tr== | /tɛʃɛkˈkyɾ ɛdɛˈɾim/ |
+| Merci (court) | ==Sağ ol::tr== | /saː ol/ |
+| S'il te plaît | ==Lütfen::tr== | /lytˈfɛn/ |
+| Oui | ==Evet::tr== | /ɛˈvɛt/ |
+| Non | ==Hayır::tr== | /haˈjɯɾ/ |
 
 ## Nombres (0-10)
 
 | Chiffre | Turc |
 | :---: | :---: |
-| 0 | sıfır |
-| 1 | bir |
-| 2 | iki |
-| 3 | üç |
-| 4 | dört |
-| 5 | beş |
-| 6 | altı |
-| 7 | yedi |
-| 8 | sekiz |
-| 9 | dokuz |
-| 10 | on |
+| 0 | ==sıfır::tr== |
+| 1 | ==bir::tr== |
+| 2 | ==iki::tr== |
+| 3 | ==üç::tr== |
+| 4 | ==dört::tr== |
+| 5 | ==beş::tr== |
+| 6 | ==altı::tr== |
+| 7 | ==yedi::tr== |
+| 8 | ==sekiz::tr== |
+| 9 | ==dokuz::tr== |
+| 10 | ==on::tr== |
 
 ## Nombres (11-100)
 
 | Chiffre | Turc | Règle |
 | :---: | :---: | :---: |
-| 11 | on bir | 10 + 1 |
-| 20 | yirmi | - |
-| 21 | yirmi bir | 20 + 1 |
-| 30 | otuz | - |
-| 40 | kırk | - |
-| 50 | elli | - |
-| 60 | altmış | - |
-| 70 | yetmiş | - |
-| 80 | seksen | - |
-| 90 | doksan | - |
-| 100 | yüz | - |
+| 11 | ==on bir::tr== | 10 + 1 |
+| 20 | ==yirmi::tr== | - |
+| 21 | ==yirmi bir::tr== | 20 + 1 |
+| 30 | ==otuz::tr== | - |
+| 40 | ==kırk::tr== | - |
+| 50 | ==elli::tr== | - |
+| 60 | ==altmış::tr== | - |
+| 70 | ==yetmiş::tr== | - |
+| 80 | ==seksen::tr== | - |
+| 90 | ==doksan::tr== | - |
+| 100 | ==yüz::tr== | - |
 
 **Pattern:** [dizaine] + [unité] (ex: yirmi bir = 21)
 
@@ -70,55 +70,55 @@ L'alphabet turc utilise 29 lettres latines avec des caractères spéciaux:
 
 | Français | Turc |
 | :---: | :---: |
-| Je | Ben |
-| Tu | Sen |
-| Il/Elle | O |
-| Nous | Biz |
-| Vous | Siz |
-| Ils/Elles | Onlar |
+| Je | ==Ben::tr== |
+| Tu | ==Sen::tr== |
+| Il/Elle | ==O::tr== |
+| Nous | ==Biz::tr== |
+| Vous | ==Siz::tr== |
+| Ils/Elles | ==Onlar::tr== |
 
 ## Verbes de Base (Infinitif = -mak/-mek)
 
 | Français | Turc | Forme polie (je) |
 | :---: | :---: | :---: |
-| Être | olmak | - |
-| Avoir | olmak (var/yok) | - |
-| Aller | gitmek | gidiyorum |
-| Venir | gelmek | geliyorum |
-| Faire | yapmak | yapıyorum |
-| Parler | konuşmak | konuşuyorum |
-| Manger | yemek | yiyorum |
-| Boire | içmek | içiyorum |
-| Vouloir | istemek | istiyorum |
-| Aimer | sevmek | seviyorum |
+| Être | ==olmak::tr== | - |
+| Avoir | ==olmak::tr== | - |
+| Aller | ==gitmek::tr== | gidiyorum |
+| Venir | ==gelmek::tr== | geliyorum |
+| Faire | ==yapmak::tr== | yapıyorum |
+| Parler | ==konuşmak::tr== | konuşuyorum |
+| Manger | ==yemek::tr== | yiyorum |
+| Boire | ==içmek::tr== | içiyorum |
+| Vouloir | ==istemek::tr== | istiyorum |
+| Aimer | ==sevmek::tr== | seviyorum |
 
 ## Phrases Essentielles
 
 | Français | Turc |
 | :---: | :---: |
-| Je m'appelle... | Benim adım... |
-| Comment tu t'appelles? | Adın ne? |
-| J'ai 21 ans | Yirmi bir yaşındayım |
-| Tu parles anglais? | İngilizce konuşuyor musun? |
-| Je ne comprends pas | Anlamıyorum |
-| Où est...? | ... nerede? |
-| Combien ça coûte? | Ne kadar? |
-| Excusez-moi | Affedersiniz |
-| Aidez-moi | Yardım edin |
-| Crois-moi / Franchement | Vallah |
+| Je m'appelle... | ==Benim adım...::tr== |
+| Comment tu t'appelles? | ==Adın ne?::tr== |
+| J'ai 21 ans | ==Yirmi bir yaşındayım::tr== |
+| Tu parles anglais? | ==İngilizce konuşuyor musun?::tr== |
+| Je ne comprends pas | ==Anlamıyorum::tr== |
+| Où est...? | ==... nerede?::tr== |
+| Combien ça coûte? | ==Ne kadar?::tr== |
+| Excusez-moi | ==Affedersiniz::tr== |
+| Aidez-moi | ==Yardım edin::tr== |
+| Crois-moi / Franchement | ==Vallah::tr== |
 
 ## Mots Utiles
 
 | Français | Turc |
 | :---: | :---: | 
-| Eau | Su |
-| Pain | Ekmek |
-| Nourriture | Yemek |
-| Maison | Ev |
-| Ami | Arkadaş |
-| Aujourd'hui | Bugün |
-| Demain | Yarın |
-| Hier | Dün |
+| Eau | ==Su::tr== |
+| Pain | ==Ekmek::tr== |
+| Nourriture | ==Yemek::tr== |
+| Maison | ==Ev::tr== |
+| Ami | ==Arkadaş::tr== |
+| Aujourd'hui | ==Bugün::tr== |
+| Demain | ==Yarın::tr== |
+| Hier | ==Dün::tr== |
 
 ## Particularités du Turc
 

@@ -74,15 +74,15 @@ Le malais a un système de pronoms multiples pour "tu/vous" qui encodent le regi
 
 | Mot | Malais (Malaisie) | Indonésien |
 |-----|-------------------|-----------|
-| Voiture | Kereta | Mobil |
-| Train | Kereta api | Kereta api |
-| Avion | Kapal terbang | Pesawat |
-| Hôpital | Hospital | Rumah sakit |
-| Toilettes | Tandas | Toilet / Kamar mandi |
-| Police | Polis | Polisi |
-| Merci (informel) | Terima kasih / TQ | Makasih |
-| Oui (informel) | Ya / Ye | Iya / Nggak non |
-| Cool/Super | Best | Keren / Mantap |
+| Voiture | ==Kereta::ms== | Mobil |
+| Train | ==Kereta api::ms== | Kereta api |
+| Avion | ==Kapal terbang::ms== | Pesawat |
+| Hôpital | ==Hospital::ms== | Rumah sakit |
+| Toilettes | ==Tandas::ms== | Toilet / Kamar mandi |
+| Police | ==Polis::ms== | Polisi |
+| Merci (informel) | ==Terima kasih::ms== / ==TQ::ms== | Makasih |
+| Oui (informel) | ==Ya::ms== / ==Ye::ms== | Iya / Nggak non |
+| Cool/Super | ==Best::ms== | Keren / Mantap |
 
 ## Expressions de la rue (Bahasa Pasar / Bahasa Rojak)
 

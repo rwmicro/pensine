@@ -199,9 +199,9 @@ Simple : placer **no** avant le verbe.
 
 | Espagnol | Français |
 |----------|---------|
-| No tengo **nada** | Je n'ai rien |
-| No conozco a **nadie** | Je ne connais personne |
-| **Nunca** digo **nada** | Je ne dis jamais rien |
+| ==No tengo **nada**::es== | Je n'ai rien |
+| ==No conozco a **nadie**::es== | Je ne connais personne |
+| ==**Nunca** digo **nada**::es== | Je ne dis jamais rien |
 
 ## Questions
 
@@ -209,23 +209,23 @@ Les questions en espagnol sont marquées par **deux points d'interrogation** : u
 
 | Espagnol | Français |
 |----------|---------|
-| ¿Cómo estás? | Comment vas-tu ? |
-| ¿De dónde eres? | D'où viens-tu ? |
-| ¿Cuánto cuesta? | Combien ça coûte ? |
-| ¿Qué hora es? | Quelle heure est-il ? |
+| ==¿Cómo estás?::es== | Comment vas-tu ? |
+| ==¿De dónde eres?::es== | D'où viens-tu ? |
+| ==¿Cuánto cuesta?::es== | Combien ça coûte ? |
+| ==¿Qué hora es?::es== | Quelle heure est-il ? |
 
 ## Mots interrogatifs
 
 | Espagnol | Français |
 |----------|---------|
-| ¿Qué? | Quoi ? |
-| ¿Quién? / ¿Quiénes? | Qui ? |
-| ¿Dónde? | Où ? |
-| ¿Adónde? | Où (direction) ? |
-| ¿De dónde? | D'où ? |
-| ¿Cuándo? | Quand ? |
-| ¿Cómo? | Comment ? |
-| ¿Por qué? | Pourquoi ? |
-| ¿Para qué? | Pour quoi faire ? |
-| ¿Cuánto? / ¿Cuántos? | Combien ? |
-| ¿Cuál? / ¿Cuáles? | Lequel ? |
+| ==¿Qué?::es== | Quoi ? |
+| ==¿Quién?::es== / ==¿Quiénes?::es== | Qui ? |
+| ==¿Dónde?::es== | Où ? |
+| ==¿Adónde?::es== | Où (direction) ? |
+| ==¿De dónde?::es== | D'où ? |
+| ==¿Cuándo?::es== | Quand ? |
+| ==¿Cómo?::es== | Comment ? |
+| ==¿Por qué?::es== | Pourquoi ? |
+| ==¿Para qué?::es== | Pour quoi faire ? |
+| ==¿Cuánto?::es== / ==¿Cuántos?::es== | Combien ? |
+| ==¿Cuál?::es== / ==¿Cuáles?::es== | Lequel ? |

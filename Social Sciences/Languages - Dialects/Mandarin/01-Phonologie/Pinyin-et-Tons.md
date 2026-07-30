@@ -17,8 +17,8 @@ Le mandarin (普通话 *pǔtōnghuà*, "langue commune", ou 国语 *guóyǔ* à 
 | Locuteurs natifs | ~920 millions (2026) |
 | Locuteurs totaux | ~1,1 milliard |
 | Pays officiels | Chine, Taïwan, Singapour |
-| Système d'écriture | Caractères chinois (汉字 *hànzì*) — pas d'alphabet |
-| Romanisation officielle | Pinyin (拼音) — adoptée en 1958 en Chine continentale |
+| Système d'écriture | Caractères chinois (==汉字::zh== *hànzì*) — pas d'alphabet |
+| Romanisation officielle | Pinyin (==拼音::zh==) — adoptée en 1958 en Chine continentale |
 | Apprentissage | FSI classe le mandarin en catégorie V (~2200 h pour un anglophone) |
 
 ## Le pinyin — clé d'entrée pour les apprenants
@@ -27,9 +27,9 @@ Le pinyin n'est **pas l'écriture chinoise**. C'est un système de transcription
 
 | Composant | Description |
 |-----------|-------------|
-| Initiale (声母) | Consonne de début de syllabe |
-| Finale (韵母) | Voyelle ou diphtongue + finale nasale optionnelle |
-| Ton (声调) | Hauteur et contour mélodique de la syllabe |
+| Initiale (==声母::zh==) | Consonne de début de syllabe |
+| Finale (==韵母::zh==) | Voyelle ou diphtongue + finale nasale optionnelle |
+| Ton (==声调::zh==) | Hauteur et contour mélodique de la syllabe |
 
 > Une syllabe mandarine = **Initiale + Finale + Ton**. Sans le ton, le mot est ambigu.
 
@@ -141,11 +141,11 @@ C'est **la** caractéristique fondamentale du mandarin. Une même syllabe change
 
 | Ton | Symbole | Description | Exemple |
 |-----|---------|-------------|---------|
-| 1 | ā (tiret horizontal) | Aigu et soutenu, comme un signal continu | **mā** 妈 — maman |
-| 2 | á (accent montant) | Montant, comme une question | **má** 麻 — chanvre |
-| 3 | ǎ (caron, hochet) | Descendant puis montant | **mǎ** 马 — cheval |
-| 4 | à (accent descendant) | Descendant brusquement | **mà** 骂 — gronder |
-| neutre | a (sans signe) | Court, atone, dépend du contexte | **ma** 吗 — particule de question |
+| 1 | ā (tiret horizontal) | Aigu et soutenu, comme un signal continu | **mā** ==妈::zh== — maman |
+| 2 | á (accent montant) | Montant, comme une question | **má** ==麻::zh== — chanvre |
+| 3 | ǎ (caron, hochet) | Descendant puis montant | **mǎ** ==马::zh== — cheval |
+| 4 | à (accent descendant) | Descendant brusquement | **mà** ==骂::zh== — gronder |
+| neutre | a (sans signe) | Court, atone, dépend du contexte | **ma** ==吗::zh== — particule de question |
 
 ### Visualiser les tons
 
@@ -161,11 +161,11 @@ Neutre   :   ·       (bref, sans hauteur fixe)
 
 | Pinyin | Caractère | Sens |
 |--------|----------|------|
-| mā | 妈 | maman |
-| má | 麻 | chanvre |
-| mǎ | 马 | cheval |
-| mà | 骂 | gronder |
-| ma | 吗 | particule interrogative |
+| mā | ==妈::zh== | maman |
+| má | ==麻::zh== | chanvre |
+| mǎ | ==马::zh== | cheval |
+| mà | ==骂::zh== | gronder |
+| ma | ==吗::zh== | particule interrogative |
 
 > Les 5 syllabes "ma" sont entièrement différentes en mandarin. C'est pourquoi le ton est aussi crucial que la consonne.
 
@@ -179,8 +179,8 @@ Quand deux syllabes au 3ᵉ ton se suivent, la première devient 2ᵉ ton.
 
 | Écrit | Prononcé |
 |-------|----------|
-| nǐ hǎo (你好) | ní hǎo |
-| hěn hǎo (很好) | hén hǎo |
+| nǐ hǎo (==你好::zh==) | ní hǎo |
+| hěn hǎo (==很好::zh==) | hén hǎo |
 
 ### Règle de 不 (bù)
 
@@ -188,8 +188,8 @@ Quand deux syllabes au 3ᵉ ton se suivent, la première devient 2ᵉ ton.
 
 | Écrit | Prononcé |
 |-------|----------|
-| bù shì (不是) | bú shì |
-| bù duì (不对) | bú duì |
+| bù shì (==不是::zh==) | bú shì |
+| bù duì (==不对::zh==) | bú duì |
 
 ### Règle de 一 (yī)
 
@@ -203,9 +203,9 @@ Quand deux syllabes au 3ᵉ ton se suivent, la première devient 2ᵉ ton.
 
 | Exemple | Prononcé |
 |---------|----------|
-| 一天 (un jour) | yì tiān |
-| 一年 (un an) | yì nián |
-| 一个 (un, classificateur) | yí gè |
+| ==一天::zh== (un jour) | yì tiān |
+| ==一年::zh== (un an) | yì nián |
+| ==一个::zh== (un, classificateur) | yí gè |
 
 ## Le erhua (儿化) — phénomène pékinois
 
@@ -213,9 +213,9 @@ Quand deux syllabes au 3ᵉ ton se suivent, la première devient 2ᵉ ton.
 
 | Standard | Erhua | Sens |
 |----------|-------|------|
-| 这里 (zhèlǐ) | 这儿 (zhèr) | ici |
-| 那里 (nàlǐ) | 那儿 (nàr) | là-bas |
-| 一点 (yìdiǎn) | 一点儿 (yìdiǎnr) | un peu |
+| ==这里::zh== (zhèlǐ) | ==这儿::zh== (zhèr) | ici |
+| ==那里::zh== (nàlǐ) | ==那儿::zh== (nàr) | là-bas |
+| ==一点::zh== (yìdiǎn) | ==一点儿::zh== (yìdiǎnr) | un peu |
 
 > Le erhua est rare dans le mandarin du sud (Taïwan, Shanghai, Canton) mais omniprésent à Pékin. Les apprenants peuvent l'éviter sans problème.
 

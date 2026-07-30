@@ -12,68 +12,68 @@ date: "2026-02-04"
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Famille | Keluarga | - | /kə.lu.ˈar.ga/ |
-| Parents | Orang tua | - | /o.raŋ tu.ˈa/ |
-| Père | Ayah / Bapak | Papa | /a.ˈjah/ |
-| Mère | Ibu | Mama | /ˈi.bu/ |
-| Enfant | Anak | - | /a.ˈnaʔ/ |
-| Fils | Anak laki-laki | - | /a.naʔ la.ki la.ˈki/ |
-| Fille | Anak perempuan | - | /a.naʔ pə.rəm.pu.ˈan/ |
-| Frère aîné | Kakak laki-laki | Kakak / Mas | /ka.ˈkaʔ/ |
-| Sœur aînée | Kakak perempuan | Kakak / Mbak | /ka.ˈkaʔ/ |
-| Frère cadet | Adik laki-laki | Adik | /a.ˈdiʔ/ |
-| Sœur cadette | Adik perempuan | Adik | /a.ˈdiʔ/ |
-| Frère/Sœur aîné(e) | Kakak | Kak | /ka.ˈkaʔ/ |
-| Frère/Sœur cadet(te) | Adik | Dik | /a.ˈdiʔ/ |
+| Famille | ==Keluarga::id== | - | /kə.lu.ˈar.ga/ |
+| Parents | ==Orang tua::id== | - | /o.raŋ tu.ˈa/ |
+| Père | ==Ayah::id== / ==Bapak::id== | Papa | /a.ˈjah/ |
+| Mère | ==Ibu::id== | Mama | /ˈi.bu/ |
+| Enfant | ==Anak::id== | - | /a.ˈnaʔ/ |
+| Fils | ==Anak laki-laki::id== | - | /a.naʔ la.ki la.ˈki/ |
+| Fille | ==Anak perempuan::id== | - | /a.naʔ pə.rəm.pu.ˈan/ |
+| Frère aîné | ==Kakak laki-laki::id== | Kakak / Mas | /ka.ˈkaʔ/ |
+| Sœur aînée | ==Kakak perempuan::id== | Kakak / Mbak | /ka.ˈkaʔ/ |
+| Frère cadet | ==Adik laki-laki::id== | Adik | /a.ˈdiʔ/ |
+| Sœur cadette | ==Adik perempuan::id== | Adik | /a.ˈdiʔ/ |
+| Frère/Sœur aîné(e) | ==Kakak::id== | Kak | /ka.ˈkaʔ/ |
+| Frère/Sœur cadet(te) | ==Adik::id== | Dik | /a.ˈdiʔ/ |
 
 ## Grands-Parents et Petits-Enfants
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Grand-père | Kakek | - | /ka.ˈkɛʔ/ |
-| Grand-mère | Nenek | - | /nə.ˈnɛʔ/ |
-| Grands-parents | Kakek nenek | - | /ka.kɛʔ nə.ˈnɛʔ/ |
-| Petit-fils | Cucu laki-laki | - | /t͡ʃu.ˈt͡ʃu/ |
-| Petite-fille | Cucu perempuan | - | /t͡ʃu.ˈt͡ʃu/ |
-| Petit-enfant | Cucu | - | /t͡ʃu.ˈt͡ʃu/ |
-| Arrière-grand-père | Buyut | - | /bu.ˈjut/ |
+| Grand-père | ==Kakek::id== | - | /ka.ˈkɛʔ/ |
+| Grand-mère | ==Nenek::id== | - | /nə.ˈnɛʔ/ |
+| Grands-parents | ==Kakek nenek::id== | - | /ka.kɛʔ nə.ˈnɛʔ/ |
+| Petit-fils | ==Cucu laki-laki::id== | - | /t͡ʃu.ˈt͡ʃu/ |
+| Petite-fille | ==Cucu perempuan::id== | - | /t͡ʃu.ˈt͡ʃu/ |
+| Petit-enfant | ==Cucu::id== | - | /t͡ʃu.ˈt͡ʃu/ |
+| Arrière-grand-père | ==Buyut::id== | - | /bu.ˈjut/ |
 
 ## Mariage et Couple
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Mari | Suami | - | /su.ˈa.mi/ |
-| Femme (épouse) | Istri | - | /is.ˈtri/ |
-| Époux/Épouse | Pasangan | - | /pa.sa.ˈŋan/ |
-| Fiancé(e) | Tunangan | - | /tu.na.ˈŋan/ |
-| Petit ami | Pacar (laki-laki) | - | /pa.ˈt͡ʃar/ |
-| Petite amie | Pacar (perempuan) | - | /pa.ˈt͡ʃar/ |
-| Marié | Menikah | Nikah | /mə.ni.ˈkah/ |
-| Célibataire | Lajang | - | /la.ˈdʒaŋ/ |
-| Divorcé | Cerai | - | /t͡ʃə.ˈrai/ |
-| Veuf/Veuve | Duda/Janda | - | /du.ˈda/ /dʒan.ˈda/ |
+| Mari | ==Suami::id== | - | /su.ˈa.mi/ |
+| Femme (épouse) | ==Istri::id== | - | /is.ˈtri/ |
+| Époux/Épouse | ==Pasangan::id== | - | /pa.sa.ˈŋan/ |
+| Fiancé(e) | ==Tunangan::id== | - | /tu.na.ˈŋan/ |
+| Petit ami | ==Pacar::id== | - | /pa.ˈt͡ʃar/ |
+| Petite amie | ==Pacar::id== | - | /pa.ˈt͡ʃar/ |
+| Marié | ==Menikah::id== | Nikah | /mə.ni.ˈkah/ |
+| Célibataire | ==Lajang::id== | - | /la.ˈdʒaŋ/ |
+| Divorcé | ==Cerai::id== | - | /t͡ʃə.ˈrai/ |
+| Veuf/Veuve | ==Duda::id== / ==Janda::id== | - | /du.ˈda/ /dʒan.ˈda/ |
 
 ## Famille Élargie
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Oncle | Paman / Om | /pa.ˈman/ |
-| Tante | Bibi / Tante | /bi.ˈbi/ |
-| Cousin(e) | Sepupu | /sə.pu.ˈpu/ |
-| Neveu | Keponakan (laki-laki) | /kə.po.na.ˈkan/ |
-| Nièce | Keponakan (perempuan) | /kə.po.na.ˈkan/ |
+| Oncle | ==Paman::id== / ==Om::id== | /pa.ˈman/ |
+| Tante | ==Bibi::id== / ==Tante::id== | /bi.ˈbi/ |
+| Cousin(e) | ==Sepupu::id== | /sə.pu.ˈpu/ |
+| Neveu | ==Keponakan::id== | /kə.po.na.ˈkan/ |
+| Nièce | ==Keponakan::id== | /kə.po.na.ˈkan/ |
 
 ## Belle-Famille
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Beau-père | Mertua laki-laki | /mər.tu.ˈa/ |
-| Belle-mère | Mertua perempuan | /mər.tu.ˈa/ |
-| Beaux-parents | Mertua | /mər.tu.ˈa/ |
-| Gendre | Menantu laki-laki | /mə.nan.ˈtu/ |
-| Belle-fille | Menantu perempuan | /mə.nan.ˈtu/ |
-| Beau-frère | Ipar laki-laki | /i.ˈpar/ |
-| Belle-sœur | Ipar perempuan | /i.ˈpar/ |
+| Beau-père | ==Mertua laki-laki::id== | /mər.tu.ˈa/ |
+| Belle-mère | ==Mertua perempuan::id== | /mər.tu.ˈa/ |
+| Beaux-parents | ==Mertua::id== | /mər.tu.ˈa/ |
+| Gendre | ==Menantu laki-laki::id== | /mə.nan.ˈtu/ |
+| Belle-fille | ==Menantu perempuan::id== | /mə.nan.ˈtu/ |
+| Beau-frère | ==Ipar laki-laki::id== | /i.ˈpar/ |
+| Belle-sœur | ==Ipar perempuan::id== | /i.ˈpar/ |
 
 ## Termes Javanais (courants en Indonésie)
 
@@ -86,12 +86,12 @@ date: "2026-02-04"
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Ami(e) | Teman | - | /tə.ˈman/ |
-| Meilleur(e) ami(e) | Sahabat | - | /sa.ha.ˈbat/ |
-| Voisin(e) | Tetangga | - | /tə.taŋ.ˈga/ |
-| Collègue | Rekan kerja | - | /rə.kan kər.ˈdʒa/ |
-| Camarade de classe | Teman sekelas | - | /tə.man sə.kə.ˈlas/ |
-| Connaissance | Kenalan | - | /kə.na.ˈlan/ |
+| Ami(e) | ==Teman::id== | - | /tə.ˈman/ |
+| Meilleur(e) ami(e) | ==Sahabat::id== | - | /sa.ha.ˈbat/ |
+| Voisin(e) | ==Tetangga::id== | - | /tə.taŋ.ˈga/ |
+| Collègue | ==Rekan kerja::id== | - | /rə.kan kər.ˈdʒa/ |
+| Camarade de classe | ==Teman sekelas::id== | - | /tə.man sə.kə.ˈlas/ |
+| Connaissance | ==Kenalan::id== | - | /kə.na.ˈlan/ |
 
 ## Expressions Utiles
 

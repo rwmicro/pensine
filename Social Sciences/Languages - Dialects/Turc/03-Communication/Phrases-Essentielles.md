@@ -13,92 +13,92 @@ Le turc est agglutinant : les suffixes s'accumulent sur les racines. Les phrases
 
 | Français | Turc | Prononciation | Niveau |
 |----------|------|---------------|--------|
-| Bonjour | Merhaba | /mɛr-ha-ba/ | C — toutes situations |
-| Bonjour (matin) | Günaydın | /gün-ay-dın/ | C |
-| Bonsoir | İyi akşamlar | /iyi ak-şam-lar/ | C |
-| Bonne nuit | İyi geceler | /iyi gé-dʒe-ler/ | C |
-| Salut | Selam | /se-lam/ | I |
-| Comment allez-vous ? | Nasılsınız? | /na-sıl-sı-nız/ | F |
-| Comment vas-tu ? | Nasılsın? | /na-sıl-sın/ | C/I |
-| Bien, merci | İyiyim, teşekkür ederim | /i-yi-yim/ | C |
-| Au revoir | Güle güle (dit par celui qui reste) | | C |
-| Au revoir (celui qui part) | Hoşça kalın | | F |
-| Bonne journée | İyi günler | | C |
-| Oui | Evet | /e-vet/ | C |
-| Non | Hayır | /ha-yır/ | C |
-| Merci | Teşekkür ederim | /te-şek-kür/ | F |
-| Merci (court) | Sağ ol / Teşekkürler | | C/I |
-| S'il vous plaît | Lütfen | /lüt-fen/ | C |
-| De rien | Bir şey değil / Rica ederim | | C/F |
-| Pardon | Özür dilerim | | F |
-| Excuse-moi | Pardon | | C (emprunt français) |
+| Bonjour | ==Merhaba::tr== | /mɛr-ha-ba/ | C — toutes situations |
+| Bonjour (matin) | ==Günaydın::tr== | /gün-ay-dın/ | C |
+| Bonsoir | ==İyi akşamlar::tr== | /iyi ak-şam-lar/ | C |
+| Bonne nuit | ==İyi geceler::tr== | /iyi gé-dʒe-ler/ | C |
+| Salut | ==Selam::tr== | /se-lam/ | I |
+| Comment allez-vous ? | ==Nasılsınız?::tr== | /na-sıl-sı-nız/ | F |
+| Comment vas-tu ? | ==Nasılsın?::tr== | /na-sıl-sın/ | C/I |
+| Bien, merci | ==İyiyim, teşekkür ederim::tr== | /i-yi-yim/ | C |
+| Au revoir | ==Güle güle::tr== |  | C |
+| Au revoir (celui qui part) | ==Hoşça kalın::tr== |  | F |
+| Bonne journée | ==İyi günler::tr== |  | C |
+| Oui | ==Evet::tr== | /e-vet/ | C |
+| Non | ==Hayır::tr== | /ha-yır/ | C |
+| Merci | ==Teşekkür ederim::tr== | /te-şek-kür/ | F |
+| Merci (court) | ==Sağ ol::tr== / ==Teşekkürler::tr== |  | C/I |
+| S'il vous plaît | ==Lütfen::tr== | /lüt-fen/ | C |
+| De rien | ==Bir şey değil::tr== / ==Rica ederim::tr== |  | C/F |
+| Pardon | ==Özür dilerim::tr== |  | F |
+| Excuse-moi | ==Pardon::tr== |  | C (emprunt français) |
 
 ## Se présenter
 
 | Français | Turc |
 |----------|------|
-| Je m'appelle... | Benim adım ... / Adım ... |
-| Quel est votre nom ? | Adınız ne? / Adın ne? |
-| Enchanté(e) | Memnun oldum |
-| D'où venez-vous ? | Nerelisiniz? / Nerelisin? |
-| Je viens de France | Fransalıyım |
-| J'apprends le turc | Türkçe öğreniyorum |
-| Je parle un peu turc | Biraz Türkçe biliyorum |
+| Je m'appelle... | ==Benim adım ...::tr== / ==Adım ...::tr== |
+| Quel est votre nom ? | ==Adınız ne?::tr== / ==Adın ne?::tr== |
+| Enchanté(e) | ==Memnun oldum::tr== |
+| D'où venez-vous ? | ==Nerelisiniz?::tr== / ==Nerelisin?::tr== |
+| Je viens de France | ==Fransalıyım::tr== |
+| J'apprends le turc | ==Türkçe öğreniyorum::tr== |
+| Je parle un peu turc | ==Biraz Türkçe biliyorum::tr== |
 
 ## Communication
 
 | Français | Turc |
 |----------|------|
-| Je ne comprends pas | Anlamıyorum |
-| Répétez s'il vous plaît | Tekrar söyler misiniz? |
-| Plus lentement | Daha yavaş, lütfen |
-| Parlez-vous français ? | Fransızca biliyor musunuz? |
-| Qu'est-ce que ça veut dire ? | Bu ne anlama geliyor? |
-| Comment dit-on ... en turc ? | Türkçe'de ... nasıl denir? |
+| Je ne comprends pas | ==Anlamıyorum::tr== |
+| Répétez s'il vous plaît | ==Tekrar söyler misiniz?::tr== |
+| Plus lentement | ==Daha yavaş, lütfen::tr== |
+| Parlez-vous français ? | ==Fransızca biliyor musunuz?::tr== |
+| Qu'est-ce que ça veut dire ? | ==Bu ne anlama geliyor?::tr== |
+| Comment dit-on ... en turc ? | ==Türkçe'de ... nasıl denir?::tr== |
 
 ## Orientation
 
 | Français | Turc |
 |----------|------|
-| Où est... ? | ... nerede? |
-| À gauche | Sola |
-| À droite | Sağa |
-| Tout droit | Düz gidin |
-| C'est loin ? | Uzak mı? |
-| Combien de minutes à pied ? | Yürüyerek kaç dakika? |
+| Où est... ? | ==... nerede?::tr== |
+| À gauche | ==Sola::tr== |
+| À droite | ==Sağa::tr== |
+| Tout droit | ==Düz gidin::tr== |
+| C'est loin ? | ==Uzak mı?::tr== |
+| Combien de minutes à pied ? | ==Yürüyerek kaç dakika?::tr== |
 
 ## Restaurant et achats
 
 | Français | Turc |
 |----------|------|
-| Je voudrais... | ... istiyorum / ... alayım |
-| Combien ça coûte ? | Fiyatı ne kadar? / Ne kadar? |
-| L'addition | Hesap lütfen |
-| Délicieux | Çok lezzetli |
-| Je suis végétarien(ne) | Vejeteryanım |
-| Santé ! | Şerefe! |
-| Bon appétit ! | Afiyet olsun! |
+| Je voudrais... | ==... istiyorum::tr== / ==... alayım::tr== |
+| Combien ça coûte ? | ==Fiyatı ne kadar?::tr== / ==Ne kadar?::tr== |
+| L'addition | ==Hesap lütfen::tr== |
+| Délicieux | ==Çok lezzetli::tr== |
+| Je suis végétarien(ne) | ==Vejeteryanım::tr== |
+| Santé ! | ==Şerefe!::tr== |
+| Bon appétit ! | ==Afiyet olsun!::tr== |
 
 ## Urgences
 
 | Français | Turc |
 |----------|------|
-| Au secours ! | İmdat! |
-| Feu ! | Yangın var! |
-| Appelez la police | Polis çağırın |
-| Appelez une ambulance | Ambulans çağırın |
-| J'ai besoin d'un médecin | Doktora ihtiyacım var |
-| Où sont les toilettes ? | Tuvalet nerede? |
+| Au secours ! | ==İmdat!::tr== |
+| Feu ! | ==Yangın var!::tr== |
+| Appelez la police | ==Polis çağırın::tr== |
+| Appelez une ambulance | ==Ambulans çağırın::tr== |
+| J'ai besoin d'un médecin | ==Doktora ihtiyacım var::tr== |
+| Où sont les toilettes ? | ==Tuvalet nerede?::tr== |
 
 ## Expressions utiles
 
 | Français | Turc |
 |----------|------|
-| Je ne sais pas | Bilmiyorum |
-| Peut-être | Belki |
-| Bien sûr | Tabii ki / Elbette |
-| Vraiment ? | Gerçekten mi? |
-| Ça ne fait rien | Olsun / Önemli değil |
-| Attends | Bir dakika |
-| Inchallah (si Dieu veut) | İnşallah |
-| Vallah (jure) | Vallahi (serment) |
+| Je ne sais pas | ==Bilmiyorum::tr== |
+| Peut-être | ==Belki::tr== |
+| Bien sûr | ==Tabii ki::tr== / ==Elbette::tr== |
+| Vraiment ? | ==Gerçekten mi?::tr== |
+| Ça ne fait rien | ==Olsun::tr== / ==Önemli değil::tr== |
+| Attends | ==Bir dakika::tr== |
+| Inchallah (si Dieu veut) | ==İnşallah::tr== |
+| Vallah (jure) | ==Vallahi::tr== |

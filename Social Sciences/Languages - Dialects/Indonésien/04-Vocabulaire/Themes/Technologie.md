@@ -16,56 +16,56 @@ date: "2026-02-04"
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Ordinateur | Komputer | Kompi | /kom.pu.ˈtər/ |
-| Ordinateur portable | Laptop | Leppi | /lap.ˈtop/ |
-| Écran | Layar | - | /la.ˈjar/ |
-| Clavier | Keyboard | Kibor | /ki.ˈbord/ |
-| Souris | Mouse | - | /maus/ |
-| Imprimante | Printer | - | /prin.ˈtər/ |
-| Scanner | Scanner | - | /skɛ.ˈnər/ |
-| Disque dur | Hard disk | Hardisk | /hard disk/ |
-| Clé USB | Flashdisk | FD | /flɛʃ disk/ |
-| Carte mémoire | Kartu memori | - | /kar.tu mə.mo.ˈri/ |
-| Webcam | Webcam | - | /wɛb kɛm/ |
-| Casque audio | Headset | - | /hɛd.ˈsɛt/ |
-| Écouteurs | Earphone | - | /ir.ˈfon/ |
-| Haut-parleur | Speaker | - | /spi.ˈkər/ |
-| Chargeur | Charger | Cas | /t͡ʃar.ˈdʒər/ |
-| Câble | Kabel | - | /ka.ˈbəl/ |
-| Batterie | Baterai | Batere | /ba.tə.ˈrai/ |
+| Ordinateur | ==Komputer::id== | Kompi | /kom.pu.ˈtər/ |
+| Ordinateur portable | ==Laptop::id== | Leppi | /lap.ˈtop/ |
+| Écran | ==Layar::id== | - | /la.ˈjar/ |
+| Clavier | ==Keyboard::id== | Kibor | /ki.ˈbord/ |
+| Souris | ==Mouse::id== | - | /maus/ |
+| Imprimante | ==Printer::id== | - | /prin.ˈtər/ |
+| Scanner | ==Scanner::id== | - | /skɛ.ˈnər/ |
+| Disque dur | ==Hard disk::id== | Hardisk | /hard disk/ |
+| Clé USB | ==Flashdisk::id== | FD | /flɛʃ disk/ |
+| Carte mémoire | ==Kartu memori::id== | - | /kar.tu mə.mo.ˈri/ |
+| Webcam | ==Webcam::id== | - | /wɛb kɛm/ |
+| Casque audio | ==Headset::id== | - | /hɛd.ˈsɛt/ |
+| Écouteurs | ==Earphone::id== | - | /ir.ˈfon/ |
+| Haut-parleur | ==Speaker::id== | - | /spi.ˈkər/ |
+| Chargeur | ==Charger::id== | Cas | /t͡ʃar.ˈdʒər/ |
+| Câble | ==Kabel::id== | - | /ka.ˈbəl/ |
+| Batterie | ==Baterai::id== | Batere | /ba.tə.ˈrai/ |
 
 ### Téléphones
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Téléphone | Telepon | Telpon | /tə.lə.ˈpon/ |
-| Téléphone portable | Telepon genggam | HP (hape) | /ha.ˈpe/ |
-| Smartphone | Smartphone | HP | /smart.ˈfon/ |
-| Carte SIM | Kartu SIM | - | /kar.tu sim/ |
-| Numéro de téléphone | Nomor telepon | Nomor HP | /no.mor tə.lə.ˈpon/ |
-| Signal | Sinyal | - | /si.ˈɲal/ |
-| Appel | Panggilan | - | /paŋ.gi.ˈlan/ |
-| SMS | SMS | - | /ɛs ɛm ɛs/ |
-| Appel manqué | Panggilan tak terjawab | Miscall | /mis.ˈkol/ |
-| Mode silencieux | Mode senyap | Silent | /mo.de sə.ˈɲap/ |
-| Fond d'écran | Wallpaper | - | /wol.pɛ.ˈpər/ |
-| Application | Aplikasi | Apk | /a.pli.ka.ˈsi/ |
-| Notification | Notifikasi | Notif | /no.ti.fi.ka.ˈsi/ |
+| Téléphone | ==Telepon::id== | Telpon | /tə.lə.ˈpon/ |
+| Téléphone portable | ==Telepon genggam::id== | HP (hape) | /ha.ˈpe/ |
+| Smartphone | ==Smartphone::id== | HP | /smart.ˈfon/ |
+| Carte SIM | ==Kartu SIM::id== | - | /kar.tu sim/ |
+| Numéro de téléphone | ==Nomor telepon::id== | Nomor HP | /no.mor tə.lə.ˈpon/ |
+| Signal | ==Sinyal::id== | - | /si.ˈɲal/ |
+| Appel | ==Panggilan::id== | - | /paŋ.gi.ˈlan/ |
+| SMS | ==SMS::id== | - | /ɛs ɛm ɛs/ |
+| Appel manqué | ==Panggilan tak terjawab::id== | Miscall | /mis.ˈkol/ |
+| Mode silencieux | ==Mode senyap::id== | Silent | /mo.de sə.ˈɲap/ |
+| Fond d'écran | ==Wallpaper::id== | - | /wol.pɛ.ˈpər/ |
+| Application | ==Aplikasi::id== | Apk | /a.pli.ka.ˈsi/ |
+| Notification | ==Notifikasi::id== | Notif | /no.ti.fi.ka.ˈsi/ |
 
 ### Autres Appareils
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Télévision | Televisi | TV (tivi) | /ti.ˈvi/ |
-| Télécommande | Remote | Remot | /ri.ˈmot/ |
-| Appareil photo | Kamera | - | /ka.mə.ˈra/ |
-| Console de jeux | Konsol game | - | /kon.sol gɛm/ |
-| Tablette | Tablet | Tab | /ta.ˈblɛt/ |
-| Montre connectée | Smartwatch | - | /smart.ˈwot͡ʃ/ |
-| Drone | Drone | - | /dron/ |
-| Power bank | Power bank | Powerbank | /pa.wər bɛŋk/ |
-| Routeur | Router | - | /ru.ˈtər/ |
-| Modem | Modem | - | /mo.ˈdɛm/ |
+| Télévision | ==Televisi::id== | TV (tivi) | /ti.ˈvi/ |
+| Télécommande | ==Remote::id== | Remot | /ri.ˈmot/ |
+| Appareil photo | ==Kamera::id== | - | /ka.mə.ˈra/ |
+| Console de jeux | ==Konsol game::id== | - | /kon.sol gɛm/ |
+| Tablette | ==Tablet::id== | Tab | /ta.ˈblɛt/ |
+| Montre connectée | ==Smartwatch::id== | - | /smart.ˈwot͡ʃ/ |
+| Drone | ==Drone::id== | - | /dron/ |
+| Power bank | ==Power bank::id== | Powerbank | /pa.wər bɛŋk/ |
+| Routeur | ==Router::id== | - | /ru.ˈtər/ |
+| Modem | ==Modem::id== | - | /mo.ˈdɛm/ |
 
 
 ## Internet
@@ -74,36 +74,36 @@ date: "2026-02-04"
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Internet | Internet | Inet | /in.tər.ˈnɛt/ |
-| Connexion | Koneksi | - | /ko.nɛk.ˈsi/ |
-| Wi-Fi | Wi-Fi | Wifai | /wai.ˈfai/ |
-| Mot de passe | Kata sandi | Password | /ka.ta san.ˈdi/ |
-| Site web | Situs web | Website | /si.tus wɛb/ |
-| Page | Halaman | - | /ha.la.ˈman/ |
-| Lien | Tautan | Link | /ta.u.ˈtan/ |
-| Télécharger | Mengunduh | Download | /daun.ˈlod/ |
-| Uploader | Mengunggah | Upload | /ap.ˈlod/ |
-| En ligne | Daring / Online | Online | /on.ˈlain/ |
-| Hors ligne | Luring / Offline | Offline | /of.ˈlain/ |
-| Navigateur | Peramban | Browser | /bra.u.ˈsər/ |
-| Moteur de recherche | Mesin pencari | - | /mə.sin pən.t͡ʃa.ˈri/ |
-| Rechercher | Mencari | Googling | /mən.t͡ʃa.ˈri/ |
-| Cliquer | Mengklik | Klik | /klik/ |
-| Faire défiler | Menggulir | Scroll | /skrol/ |
+| Internet | ==Internet::id== | Inet | /in.tər.ˈnɛt/ |
+| Connexion | ==Koneksi::id== | - | /ko.nɛk.ˈsi/ |
+| Wi-Fi | ==Wi-Fi::id== | Wifai | /wai.ˈfai/ |
+| Mot de passe | ==Kata sandi::id== | Password | /ka.ta san.ˈdi/ |
+| Site web | ==Situs web::id== | Website | /si.tus wɛb/ |
+| Page | ==Halaman::id== | - | /ha.la.ˈman/ |
+| Lien | ==Tautan::id== | Link | /ta.u.ˈtan/ |
+| Télécharger | ==Mengunduh::id== | Download | /daun.ˈlod/ |
+| Uploader | ==Mengunggah::id== | Upload | /ap.ˈlod/ |
+| En ligne | ==Daring::id== / ==Online::id== | Online | /on.ˈlain/ |
+| Hors ligne | ==Luring::id== / ==Offline::id== | Offline | /of.ˈlain/ |
+| Navigateur | ==Peramban::id== | Browser | /bra.u.ˈsər/ |
+| Moteur de recherche | ==Mesin pencari::id== | - | /mə.sin pən.t͡ʃa.ˈri/ |
+| Rechercher | ==Mencari::id== | Googling | /mən.t͡ʃa.ˈri/ |
+| Cliquer | ==Mengklik::id== | Klik | /klik/ |
+| Faire défiler | ==Menggulir::id== | Scroll | /skrol/ |
 
 ### Actions Internet
 
 | Français | Indonésien | Informel |
 | :------: | :--------: | :------: |
-| Se connecter | Masuk / Login | Login |
-| Se déconnecter | Keluar / Logout | Logout |
-| S'inscrire | Mendaftar | Daftar |
-| Partager | Membagikan | Share |
-| Sauvegarder | Menyimpan | Save |
-| Copier | Menyalin | Copy |
-| Coller | Menempel | Paste |
-| Supprimer | Menghapus | Delete |
-| Envoyer | Mengirim | Kirim |
+| Se connecter | ==Masuk::id== / ==Login::id== | Login |
+| Se déconnecter | ==Keluar::id== / ==Logout::id== | Logout |
+| S'inscrire | ==Mendaftar::id== | Daftar |
+| Partager | ==Membagikan::id== | Share |
+| Sauvegarder | ==Menyimpan::id== | Save |
+| Copier | ==Menyalin::id== | Copy |
+| Coller | ==Menempel::id== | Paste |
+| Supprimer | ==Menghapus::id== | Delete |
+| Envoyer | ==Mengirim::id== | Kirim |
 
 
 ## Réseaux Sociaux (Media Sosial / Medsos)
@@ -112,39 +112,39 @@ date: "2026-02-04"
 
 | Plateforme | Terme Indonésien |
 | :--------: | :--------------: |
-| Instagram | IG / Igeh |
-| TikTok | TikTok / Tiktok |
-| Twitter/X | Twitter |
-| Facebook | FB / Fesbuk |
-| YouTube | YT / Yutub |
-| WhatsApp | WA (wa-a) |
-| Telegram | TG / Tele |
-| LINE | LINE |
-| Discord | Diskord |
-| LinkedIn | LinkedIn |
+| Instagram | ==IG::id== / ==Igeh::id== |
+| TikTok | ==TikTok::id== / ==Tiktok::id== |
+| Twitter/X | ==Twitter::id== |
+| Facebook | ==FB::id== / ==Fesbuk::id== |
+| YouTube | ==YT::id== / ==Yutub::id== |
+| WhatsApp | ==WA::id== |
+| Telegram | ==TG::id== / ==Tele::id== |
+| LINE | ==LINE::id== |
+| Discord | ==Diskord::id== |
+| LinkedIn | ==LinkedIn::id== |
 
 ### Vocabulaire Réseaux Sociaux
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Compte | Akun | - | /a.ˈkun/ |
-| Profil | Profil | - | /pro.ˈfil/ |
-| Photo de profil | Foto profil | PP | /fo.to pro.ˈfil/ |
-| Abonné/Follower | Pengikut | Followers | /pə.ŋi.ˈkut/ |
-| S'abonner | Mengikuti | Follow | /fo.ˈlo/ |
-| Se désabonner | Berhenti mengikuti | Unfollow | /an.fo.ˈlo/ |
-| Publication | Postingan | Post | /pos.tiŋ.ˈan/ |
-| Story | Cerita | Story | /sto.ˈri/ |
-| J'aime | Suka | Like | /laik/ |
-| Commentaire | Komentar | Komen | /ko.mən.ˈtar/ |
-| Partager | Membagikan | Share | /ʃɛr/ |
-| Republier | Membagikan ulang | Repost | /ri.ˈpost/ |
-| Message privé | Pesan pribadi | DM | /di ɛm/ |
-| Hashtag | Tagar | Hashtag | /hɛʃ.ˈtɛg/ |
-| Tendance | Tren | Trending | /trɛn.ˈdiŋ/ |
-| Viral | Viral | Viral | /vi.ˈral/ |
-| En direct | Siaran langsung | Live | /laiv/ |
-| Filtre | Filter | - | /fil.ˈtər/ |
+| Compte | ==Akun::id== | - | /a.ˈkun/ |
+| Profil | ==Profil::id== | - | /pro.ˈfil/ |
+| Photo de profil | ==Foto profil::id== | PP | /fo.to pro.ˈfil/ |
+| Abonné/Follower | ==Pengikut::id== | Followers | /pə.ŋi.ˈkut/ |
+| S'abonner | ==Mengikuti::id== | Follow | /fo.ˈlo/ |
+| Se désabonner | ==Berhenti mengikuti::id== | Unfollow | /an.fo.ˈlo/ |
+| Publication | ==Postingan::id== | Post | /pos.tiŋ.ˈan/ |
+| Story | ==Cerita::id== | Story | /sto.ˈri/ |
+| J'aime | ==Suka::id== | Like | /laik/ |
+| Commentaire | ==Komentar::id== | Komen | /ko.mən.ˈtar/ |
+| Partager | ==Membagikan::id== | Share | /ʃɛr/ |
+| Republier | ==Membagikan ulang::id== | Repost | /ri.ˈpost/ |
+| Message privé | ==Pesan pribadi::id== | DM | /di ɛm/ |
+| Hashtag | ==Tagar::id== | Hashtag | /hɛʃ.ˈtɛg/ |
+| Tendance | ==Tren::id== | Trending | /trɛn.ˈdiŋ/ |
+| Viral | ==Viral::id== | Viral | /vi.ˈral/ |
+| En direct | ==Siaran langsung::id== | Live | /laiv/ |
+| Filtre | ==Filter::id== | - | /fil.ˈtər/ |
 
 ### Argot des Réseaux Sociaux
 
@@ -182,18 +182,18 @@ date: "2026-02-04"
 
 | Français | Indonésien | Informel |
 | :------: | :--------: | :------: |
-| Message | Pesan | - |
-| Envoyer un message | Mengirim pesan | Kirim pesan / Chat |
-| Répondre | Membalas | Balas |
-| Transférer | Meneruskan | Forward |
-| Message vocal | Pesan suara | Voice note / VN |
-| Appel vidéo | Panggilan video | Video call / Vidcall |
-| Groupe | Grup | - |
-| Sticker | Stiker | - |
-| GIF | GIF | - |
-| Emoji | Emoji | - |
-| Vu | Sudah dibaca | Read |
-| En train d'écrire | Sedang mengetik | Typing |
+| Message | ==Pesan::id== | - |
+| Envoyer un message | ==Mengirim pesan::id== | Kirim pesan / Chat |
+| Répondre | ==Membalas::id== | Balas |
+| Transférer | ==Meneruskan::id== | Forward |
+| Message vocal | ==Pesan suara::id== | Voice note / VN |
+| Appel vidéo | ==Panggilan video::id== | Video call / Vidcall |
+| Groupe | ==Grup::id== | - |
+| Sticker | ==Stiker::id== | - |
+| GIF | ==GIF::id== | - |
+| Emoji | ==Emoji::id== | - |
+| Vu | ==Sudah dibaca::id== | Read |
+| En train d'écrire | ==Sedang mengetik::id== | Typing |
 
 ### Abréviations Chat Indonésiennes
 
@@ -234,21 +234,21 @@ date: "2026-02-04"
 
 | Français | Indonésien | Informel |
 | :------: | :--------: | :------: |
-| Jeu vidéo | Permainan video | Game |
-| Jouer | Bermain | Main |
-| Joueur | Pemain | Player / Gamer |
-| Partie | Pertandingan | Match |
-| Niveau | Level | Level |
-| Personnage | Karakter | Chara |
-| Équipe | Tim | Team |
-| Adversaire | Lawan | Enemy |
-| Gagner | Menang | Win |
-| Perdre | Kalah | Lose |
-| Score | Skor | - |
-| Classement | Peringkat | Ranking |
-| Tournoi | Turnamen | Tournament |
-| Mode solo | Mode sendiri | Solo |
-| Multijoueur | Multipemain | Multiplayer |
+| Jeu vidéo | ==Permainan video::id== | Game |
+| Jouer | ==Bermain::id== | Main |
+| Joueur | ==Pemain::id== | Player / Gamer |
+| Partie | ==Pertandingan::id== | Match |
+| Niveau | ==Level::id== | Level |
+| Personnage | ==Karakter::id== | Chara |
+| Équipe | ==Tim::id== | Team |
+| Adversaire | ==Lawan::id== | Enemy |
+| Gagner | ==Menang::id== | Win |
+| Perdre | ==Kalah::id== | Lose |
+| Score | ==Skor::id== | - |
+| Classement | ==Peringkat::id== | Ranking |
+| Tournoi | ==Turnamen::id== | Tournament |
+| Mode solo | ==Mode sendiri::id== | Solo |
+| Multijoueur | ==Multipemain::id== | Multiplayer |
 
 ### Argot Gaming
 
@@ -278,21 +278,21 @@ date: "2026-02-04"
 
 | Français | Indonésien | Informel |
 | :------: | :--------: | :------: |
-| Acheter en ligne | Belanja online | Belanja online |
-| Panier | Keranjang | - |
-| Ajouter au panier | Tambah ke keranjang | - |
-| Commander | Memesan | Order |
-| Paiement | Pembayaran | - |
-| Livraison | Pengiriman | - |
-| Expédition | Pengiriman | - |
-| Suivi | Pelacakan | Tracking |
-| Avis/Review | Ulasan | Review |
-| Promo | Promo | - |
-| Code promo | Kode promo | - |
-| Gratuit | Gratis | - |
-| Soldes | Diskon | - |
-| Cashback | Cashback | - |
-| COD | Bayar di tempat | COD |
+| Acheter en ligne | ==Belanja online::id== | Belanja online |
+| Panier | ==Keranjang::id== | - |
+| Ajouter au panier | ==Tambah ke keranjang::id== | - |
+| Commander | ==Memesan::id== | Order |
+| Paiement | ==Pembayaran::id== | - |
+| Livraison | ==Pengiriman::id== | - |
+| Expédition | ==Pengiriman::id== | - |
+| Suivi | ==Pelacakan::id== | Tracking |
+| Avis/Review | ==Ulasan::id== | Review |
+| Promo | ==Promo::id== | - |
+| Code promo | ==Kode promo::id== | - |
+| Gratuit | ==Gratis::id== | - |
+| Soldes | ==Diskon::id== | - |
+| Cashback | ==Cashback::id== | - |
+| COD | ==Bayar di tempat::id== | COD |
 
 ### Plateformes E-commerce Indonésiennes
 
@@ -313,19 +313,19 @@ date: "2026-02-04"
 
 | Français | Indonésien | Informel |
 | :------: | :--------: | :------: |
-| Ça ne marche pas | Tidak berfungsi | Gak jalan |
-| Bug | Bug | Bug |
-| Plantage | Crash | Crash |
-| Redémarrer | Restart | Restart |
-| Mettre à jour | Memperbarui | Update |
-| Virus | Virus | - |
-| Spam | Spam | - |
-| Pirater | Meretas | Hack |
-| Bloqué | Diblokir | Di-block |
-| Connexion lente | Koneksi lambat | Lemot |
-| Pas de signal | Tidak ada sinyal | Gak ada sinyal |
-| Batterie faible | Baterai lemah | Lowbat |
-| Mémoire pleine | Memori penuh | - |
+| Ça ne marche pas | ==Tidak berfungsi::id== | Gak jalan |
+| Bug | ==Bug::id== | Bug |
+| Plantage | ==Crash::id== | Crash |
+| Redémarrer | ==Restart::id== | Restart |
+| Mettre à jour | ==Memperbarui::id== | Update |
+| Virus | ==Virus::id== | - |
+| Spam | ==Spam::id== | - |
+| Pirater | ==Meretas::id== | Hack |
+| Bloqué | ==Diblokir::id== | Di-block |
+| Connexion lente | ==Koneksi lambat::id== | Lemot |
+| Pas de signal | ==Tidak ada sinyal::id== | Gak ada sinyal |
+| Batterie faible | ==Baterai lemah::id== | Lowbat |
+| Mémoire pleine | ==Memori penuh::id== | - |
 
 ### Expressions
 

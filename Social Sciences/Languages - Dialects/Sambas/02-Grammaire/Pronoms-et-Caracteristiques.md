@@ -24,21 +24,21 @@ Le Melayu Sambas (Base Melayu Sambas ou Basè Sambas) est une langue malaise par
 ### Pronoms personnels
 | Sambas | Français | Indonésien |
 |--------|----------|------------|
-| kamek / aku / kolé | je / moi | saya / aku |
-| kau / direk / kitak | tu / toi / vous | kamu / awak |
-| die / nye | il / elle | dia |
+| ==kamek::ms== / ==aku::ms== / ==kolé::ms== | je / moi | saya / aku |
+| ==kau::ms== / ==direk::ms== / ==kitak::ms== | tu / toi / vous | kamu / awak |
+| ==die::ms== / ==nye::ms== | il / elle | dia |
 
 **Note:** *kolé* (je) et *niké* (tu) sont des emprunts au javanais en raison de la forte influence du Sultanat de Sambas.
 
 ### Pronoms démonstratifs
 | Sambas | Français | Usage |
 |--------|----------|-------|
-| itok | ceci | proche du locuteur |
-| iyé | cela | proche de l'interlocuteur |
-| sitok | ici | - |
-| siyé | là | légèrement plus proche que *sinon* |
-| sinon | là-bas | proche d'une tierce personne |
-| inun | cela / celui-là | - |
+| ==itok::ms== | ceci | proche du locuteur |
+| ==iyé::ms== | cela | proche de l'interlocuteur |
+| ==sitok::ms== | ici | - |
+| ==siyé::ms== | là | légèrement plus proche que *sinon* |
+| ==sinon::ms== | là-bas | proche d'une tierce personne |
+| ==inun::ms== | cela / celui-là | - |
 
 **Avec prépositions:**
 - di sinon = là-bas
@@ -48,10 +48,10 @@ Le Melayu Sambas (Base Melayu Sambas ou Basè Sambas) est une langue malaise par
 ### Pronoms interrogatifs
 | Sambas | Français | Usage |
 |--------|----------|-------|
-| apé | quoi | pour demander sur les objets |
-| sapé | qui | pour demander sur les personnes |
-| mané | où | pour s'enquérir des choix |
-| ngape | pourquoi | - |
+| ==apé::ms== | quoi | pour demander sur les objets |
+| ==sapé::ms== | qui | pour demander sur les personnes |
+| ==mané::ms== | où | pour s'enquérir des choix |
+| ==ngape::ms== | pourquoi | - |
 
 
 ## Mots courants
@@ -59,52 +59,52 @@ Le Melayu Sambas (Base Melayu Sambas ou Basè Sambas) est une langue malaise par
 ### Réponses de base
 | Sambas | Français | Indonésien |
 |--------|----------|------------|
-| aok / auk | oui | ya |
-| ndak / da'an / se'an | non | tidak |
+| ==aok::ms== / ==auk::ms== | oui | ya |
+| ==ndak::ms== / ==da'an::ms== / ==se'an::ms== | non | tidak |
 
 ### Verbes d'action
 | Sambas | Français | Indonésien |
 |--------|----------|------------|
-| ambe'k | prendre / saisir | ambil |
-| arau / ngarau | chasser / repousser | halau |
-| bajjang | tirer / étirer | tarik |
-| bantai | frapper / battre | pukul |
-| beajal | jouer | bermain |
-| bedako' | embrasser / câliner | memeluk |
-| beranyi | récolter le riz | panen padi |
-| berjalan | marcher | berjalan |
-| majoh | manger | makan |
-| maok / mauk | vouloir | mau |
-| ngael | pêcher | memancing |
-| pangkong | frapper | memukul |
-| punye / punnye | avoir / posséder | punya |
+| ==ambe'k::ms== | prendre / saisir | ambil |
+| ==arau::ms== / ==ngarau::ms== | chasser / repousser | halau |
+| ==bajjang::ms== | tirer / étirer | tarik |
+| ==bantai::ms== | frapper / battre | pukul |
+| ==beajal::ms== | jouer | bermain |
+| ==bedako'::ms== | embrasser / câliner | memeluk |
+| ==beranyi::ms== | récolter le riz | panen padi |
+| ==berjalan::ms== | marcher | berjalan |
+| ==majoh::ms== | manger | makan |
+| ==maok::ms== / ==mauk::ms== | vouloir | mau |
+| ==ngael::ms== | pêcher | memancing |
+| ==pangkong::ms== | frapper | memukul |
+| ==punye::ms== / ==punnye::ms== | avoir / posséder | punya |
 
 ### Adjectifs
 | Sambas | Français | Indonésien |
 |--------|----------|------------|
-| alus | fin / raffiné / délicat | halus |
-| ampol | léger (poids) | ringan |
-| ballo | fou / stupide | bodoh |
-| bassar / besar | grand | besar |
-| gatti' | dégoûtant | jijik |
-| kaccik | petit | kecil |
-| kemol | potelé / dodu | gemuk |
-| labbak | grand | besar |
-| lampus | épais / lourd | tebal |
-| lanjit | coquin / flirteur (femmes) | genit |
-| supan | timide / embarrassé | malu |
+| ==alus::ms== | fin / raffiné / délicat | halus |
+| ==ampol::ms== | léger (poids) | ringan |
+| ==ballo::ms== | fou / stupide | bodoh |
+| ==bassar::ms== / ==besar::ms== | grand | besar |
+| ==gatti'::ms== | dégoûtant | jijik |
+| ==kaccik::ms== | petit | kecil |
+| ==kemol::ms== | potelé / dodu | gemuk |
+| ==labbak::ms== | grand | besar |
+| ==lampus::ms== | épais / lourd | tebal |
+| ==lanjit::ms== | coquin / flirteur (femmes) | genit |
+| ==supan::ms== | timide / embarrassé | malu |
 
 ### Émotions et états
 | Sambas | Français | Indonésien |
 |--------|----------|------------|
-| baus | ennuyé / fatigué de | bosan |
-| bayya' | expression d'émerveillement | wow / hebat |
+| ==baus::ms== | ennuyé / fatigué de | bosan |
+| ==bayya'::ms== | expression d'émerveillement | wow / hebat |
 
 ### Mots divers
 | Sambas | Français | Indonésien |
 |--------|----------|------------|
-| urrang | personne | orang |
-| insanak | famille | keluarga |
+| ==urrang::ms== | personne | orang |
+| ==insanak::ms== | famille | keluarga |
 
 
 ## Famille et relations
@@ -112,51 +112,51 @@ Le Melayu Sambas (Base Melayu Sambas ou Basè Sambas) est une langue malaise par
 ### Parents et grands-parents
 | Sambas | Français | Indonésien |
 |--------|----------|------------|
-| uma'k / emak | mère | ibu |
-| ayah / apak | père | ayah / bapak |
-| nek uwan | grand-mère | nenek |
-| nek aki | grand-père | kakek |
+| ==uma'k::ms== / ==emak::ms== | mère | ibu |
+| ==ayah::ms== / ==apak::ms== | père | ayah / bapak |
+| ==nek uwan::ms== | grand-mère | nenek |
+| ==nek aki::ms== | grand-père | kakek |
 
 ### Fratrie (selon l'ordre de naissance)
 | Sambas | Français | Indonésien |
 |--------|----------|------------|
-| abang | frère aîné / titre honorifique | abang |
-| kakak | sœur aînée | kakak |
-| ade' / de' | frère/sœur cadet(te) | adik |
-| along | premier-né(e) | anak sulung |
-| angah | deuxième enfant | anak kedua |
-| ude | troisième enfant | anak ketiga |
-| accik / kaccik | quatrième enfant (petit) | anak keempat |
-| andah | cinquième enfant | anak kelima |
-| amo'k | sixième enfant (potelé) | anak keenam |
-| anjang | septième enfant (grand/élancé) | anak ketujuh |
-| alang | avant-dernier enfant | anak kedua terakhir |
+| ==abang::ms== | frère aîné / titre honorifique | abang |
+| ==kakak::ms== | sœur aînée | kakak |
+| ==ade'::ms== / ==de'::ms== | frère/sœur cadet(te) | adik |
+| ==along::ms== | premier-né(e) | anak sulung |
+| ==angah::ms== | deuxième enfant | anak kedua |
+| ==ude::ms== | troisième enfant | anak ketiga |
+| ==accik::ms== / ==kaccik::ms== | quatrième enfant (petit) | anak keempat |
+| ==andah::ms== | cinquième enfant | anak kelima |
+| ==amo'k::ms== | sixième enfant (potelé) | anak keenam |
+| ==anjang::ms== | septième enfant (grand/élancé) | anak ketujuh |
+| ==alang::ms== | avant-dernier enfant | anak kedua terakhir |
 
 ### Autres termes familiaux
 | Sambas | Français | Indonésien |
 |--------|----------|------------|
-| balu | veuf / veuve | janda / duda |
+| ==balu::ms== | veuf / veuve | janda / duda |
 
 
 ## Temps et expressions temporelles
 
 | Sambas | Français | Indonésien |
 |--------|----------|------------|
-| bahari | après-midi / soir | sore |
-| dalu | tard dans la nuit | malam hari |
-| dolo'k | autrefois / jadis | dahulu |
-| empoye | il y a longtemps | zaman dulu |
-| semari | hier | kemarin |
+| ==bahari::ms== | après-midi / soir | sore |
+| ==dalu::ms== | tard dans la nuit | malam hari |
+| ==dolo'k::ms== | autrefois / jadis | dahulu |
+| ==empoye::ms== | il y a longtemps | zaman dulu |
+| ==semari::ms== | hier | kemarin |
 
 
 ## Nourriture et cuisine
 
 | Sambas | Français | Indonésien |
 |--------|----------|------------|
-| apam | gâteau spécialité de Sambas | kue apam |
-| bogoh | personne avec gros appétit | pemakan besar |
-| cance | snack de Sambas à base de riz | camilan dari beras |
-| kumping | plat de riz transformé | olahan beras |
+| ==apam::ms== | gâteau spécialité de Sambas | kue apam |
+| ==bogoh::ms== | personne avec gros appétit | pemakan besar |
+| ==cance::ms== | snack de Sambas à base de riz | camilan dari beras |
+| ==kumping::ms== | plat de riz transformé | olahan beras |
 
 
 ## Objets et animaux
@@ -164,30 +164,30 @@ Le Melayu Sambas (Base Melayu Sambas ou Basè Sambas) est une langue malaise par
 ### Objets domestiques
 | Sambas | Français | Indonésien |
 |--------|----------|------------|
-| abe'k | bambou | bambu |
-| appan | marmite / ustensile de cuisine | periuk |
-| baki | plateau de service | baki |
-| bakol / baka' | panier en bambou tressé | bakul anyaman |
-| bandong | manioc | singkong |
-| behel | ardoise / tuile | genteng |
-| bopet | armoire / placard | lemari |
+| ==abe'k::ms== | bambou | bambu |
+| ==appan::ms== | marmite / ustensile de cuisine | periuk |
+| ==baki::ms== | plateau de service | baki |
+| ==bakol::ms== / ==baka'::ms== | panier en bambou tressé | bakul anyaman |
+| ==bandong::ms== | manioc | singkong |
+| ==behel::ms== | ardoise / tuile | genteng |
+| ==bopet::ms== | armoire / placard | lemari |
 
 ### Animaux
 | Sambas | Français | Indonésien |
 |--------|----------|------------|
-| jallu | crocodile | buaya |
+| ==jallu::ms== | crocodile | buaya |
 
 
 ## Exemples de phrases
 
 | Sambas | Français | Indonésien |
 |--------|----------|------------|
-| apé nang kau bawak iyé? | qu'as-tu apporté là-bas ? | apa yang kau bawa itu? |
-| kamek sik cayak apa kitak padah | je ne crois pas ce que tu dis | saya tidak percaya apa yang kamu katakan |
-| kamek diat kitak makin kacaklah | je te vois de plus en plus belle | saya lihat awak makin cantiklah |
-| kamek suka kitak | je t'aime bien | saya suka kamu |
-| kamek mauk pesan agik satu | je voudrais en commander un autre | saya mau pesan satu lagi |
-| yo udah masak din. makanlah, usah supan-supan | c'est déjà cuit. mangez, ne soyez pas timide | sudah masak. makanlah, jangan malu-malu |
+| ==apé nang kau bawak iyé?::ms== | qu'as-tu apporté là-bas ? | apa yang kau bawa itu? |
+| ==kamek sik cayak apa kitak padah::ms== | je ne crois pas ce que tu dis | saya tidak percaya apa yang kamu katakan |
+| ==kamek diat kitak makin kacaklah::ms== | je te vois de plus en plus belle | saya lihat awak makin cantiklah |
+| ==kamek suka kitak::ms== | je t'aime bien | saya suka kamu |
+| ==kamek mauk pesan agik satu::ms== | je voudrais en commander un autre | saya mau pesan satu lagi |
+| ==yo udah masak din. makanlah, usah supan-supan::ms== | c'est déjà cuit. mangez, ne soyez pas timide | sudah masak. makanlah, jangan malu-malu |
 
 
 ## Salutations (probablement similaires au malais standard)

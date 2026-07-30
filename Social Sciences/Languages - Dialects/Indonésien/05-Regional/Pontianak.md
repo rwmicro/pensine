@@ -20,19 +20,19 @@ date: "2026-02-04"
 
 | Pontianak | Indonésien Standard | Français |
 | :-------: | :-----------------: | :------: |
-| **Kek mane** | Bagaimana | Comment |
-| **Ape** | Apa | Quoi |
-| **Sape** | Siapa | Qui |
-| **Bile** | Kapan | Quand |
-| **Mane** | Mana | Où |
-| **Nak** | Mau | Vouloir |
-| **Dah** | Sudah | Déjà |
-| **Belom** | Belum | Pas encore |
-| **Tak** | Tidak | Non |
-| **Ye** | Ya | Oui |
-| **Nak gi mane?** | Mau pergi ke mana? | Tu vas où ? |
-| **Kite** | Kita | Nous |
-| **Die** | Dia | Il/Elle |
+| **Kek mane** | ==Bagaimana::id== | Comment |
+| **Ape** | ==Apa::id== | Quoi |
+| **Sape** | ==Siapa::id== | Qui |
+| **Bile** | ==Kapan::id== | Quand |
+| **Mane** | ==Mana::id== | Où |
+| **Nak** | ==Mau::id== | Vouloir |
+| **Dah** | ==Sudah::id== | Déjà |
+| **Belom** | ==Belum::id== | Pas encore |
+| **Tak** | ==Tidak::id== | Non |
+| **Ye** | ==Ya::id== | Oui |
+| **Nak gi mane?** | ==Mau pergi ke mana?::id== | Tu vas où ? |
+| **Kite** | ==Kita::id== | Nous |
+| **Die** | ==Dia::id== | Il/Elle |
 
 ### Expressions Locales
 

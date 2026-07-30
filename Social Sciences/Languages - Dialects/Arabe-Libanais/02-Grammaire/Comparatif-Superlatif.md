@@ -15,17 +15,17 @@ L'arabe libanais forme le comparatif par un schème morphologique **af3al** appl
 
 | Adjectif | Racine | Comparatif | Sens |
 |----------|--------|------------|------|
-| كبير (kbīr, grand) | k-b-r | أكبر (akbar) | plus grand |
-| صغير (zghīr, petit) | s-gh-r | أصغر (asghar) | plus petit |
-| طويل (twīl, long/grand) | t-w-l | أطول (atwal) | plus long |
-| قصير (2sīr, court) | q-s-r | أقصر (a2Sar) | plus court |
-| حلو (7élo, beau) | 7-l-w | أحلى (a7la) | plus beau |
-| منيح (mnī7, bon) | — | أحسن (a7san) — irrégulier | meilleur |
-| كتير (ktīr, beaucoup) | k-t-r | أكتر (aktar) | plus |
-| قديم (2dīm, vieux) | q-d-m | أقدم (a2dam) | plus ancien |
-| جديد (jdīd, nouveau) | j-d-d | أجدد (ajadd) | plus nouveau |
-| رخيص (rkhīS, bon marché) | r-kh-s | أرخص (arkhas) | moins cher |
-| غالي (ghāli, cher) | gh-l-w | أغلى (aghla) | plus cher |
+| ==كبير::ar-lb== (kbīr, grand) | k-b-r | ==أكبر::ar-lb== (akbar) | plus grand |
+| ==صغير::ar-lb== (zghīr, petit) | s-gh-r | ==أصغر::ar-lb== (asghar) | plus petit |
+| ==طويل::ar-lb== (twīl, long/grand) | t-w-l | ==أطول::ar-lb== (atwal) | plus long |
+| ==قصير::ar-lb== (2sīr, court) | q-s-r | ==أقصر::ar-lb== (a2Sar) | plus court |
+| ==حلو::ar-lb== (7élo, beau) | 7-l-w | ==أحلى::ar-lb== (a7la) | plus beau |
+| ==منيح::ar-lb== (mnī7, bon) | — | ==أحسن::ar-lb== (a7san) — irrégulier | meilleur |
+| ==كتير::ar-lb== (ktīr, beaucoup) | k-t-r | ==أكتر::ar-lb== (aktar) | plus |
+| ==قديم::ar-lb== (2dīm, vieux) | q-d-m | ==أقدم::ar-lb== (a2dam) | plus ancien |
+| ==جديد::ar-lb== (jdīd, nouveau) | j-d-d | ==أجدد::ar-lb== (ajadd) | plus nouveau |
+| ==رخيص::ar-lb== (rkhīS, bon marché) | r-kh-s | ==أرخص::ar-lb== (arkhas) | moins cher |
+| ==غالي::ar-lb== (ghāli, cher) | gh-l-w | ==أغلى::ar-lb== (aghla) | plus cher |
 
 > Le comparatif **ne s'accorde pas** en genre ni en nombre — forme unique pour tous.
 
@@ -35,20 +35,20 @@ On utilise **min** (من) pour introduire le terme de comparaison.
 
 | Français | Libanais | Translittération |
 |----------|----------|------------------|
-| Plus grand que toi | أكبر منّك | akbar minnak |
-| Mon frère est plus grand que moi | أخوي أكبر منّي | akhūyi akbar minni |
-| Beyrouth est plus grande que Byblos | بيروت أكبر من جبيل | Bayrūt akbar min Jbeil |
-| C'est moins cher que l'autre | أرخص من التاني | arkhas min et-tēni |
-| Elle est plus belle aujourd'hui | هي أحلى اليوم | hiye a7la el-yōm |
+| Plus grand que toi | ==أكبر منّك::ar-lb== | akbar minnak |
+| Mon frère est plus grand que moi | ==أخوي أكبر منّي::ar-lb== | akhūyi akbar minni |
+| Beyrouth est plus grande que Byblos | ==بيروت أكبر من جبيل::ar-lb== | Bayrūt akbar min Jbeil |
+| C'est moins cher que l'autre | ==أرخص من التاني::ar-lb== | arkhas min et-tēni |
+| Elle est plus belle aujourd'hui | ==هي أحلى اليوم::ar-lb== | hiye a7la el-yōm |
 
 ## Égalité et infériorité
 
 | Construction | Exemple | Sens |
 |--------------|---------|------|
-| زيّ (zayy) + nom | زيّك (zayyak) | comme toi |
-| متل (metl) + nom | متلي (metli) | comme moi |
-| قدّ (add) + nom | قدّك (addak) | de ta taille / autant que toi |
-| مش قدّ + nom | مش قدّو (mish addo) | pas à sa hauteur |
+| ==زيّ::ar-lb== (zayy) + nom | ==زيّك::ar-lb== (zayyak) | comme toi |
+| ==متل::ar-lb== (metl) + nom | ==متلي::ar-lb== (metli) | comme moi |
+| ==قدّ::ar-lb== (add) + nom | ==قدّك::ar-lb== (addak) | de ta taille / autant que toi |
+| ==مش قدّ::ar-lb== + nom | ==مش قدّو::ar-lb== (mish addo) | pas à sa hauteur |
 
 Exemples :
 - البيت زيّ بيتك (el-beit zayy beitak) — La maison est comme la tienne.
@@ -62,10 +62,10 @@ Forme la plus courante : le comparatif précède le nom déterminé.
 
 | Français | Libanais | Translittération |
 |----------|----------|------------------|
-| Le plus grand pays | أكبر بلد | akbar balad |
-| La plus belle fille | أحلى بنت | a7la bint |
-| Le meilleur restaurant | أحسن مطعم | a7san mat3am |
-| Le plus vieil ami | أقدم صاحب | a2dam Sā7eb |
+| Le plus grand pays | ==أكبر بلد::ar-lb== | akbar balad |
+| La plus belle fille | ==أحلى بنت::ar-lb== | a7la bint |
+| Le meilleur restaurant | ==أحسن مطعم::ar-lb== | a7san mat3am |
+| Le plus vieil ami | ==أقدم صاحب::ar-lb== | a2dam Sā7eb |
 
 ### 2. Comparatif + suffixe possessif ou préposition
 
@@ -73,9 +73,9 @@ Pour "le plus… de tous / parmi…" :
 
 | Français | Libanais | Translittération |
 |----------|----------|------------------|
-| Le plus grand d'entre eux | أكبرهن | akbarhon |
-| La meilleure du groupe | أحسنن | a7sanon |
-| Le plus cher de tous | الأغلى من كلهن | el-aghla min kellon |
+| Le plus grand d'entre eux | ==أكبرهن::ar-lb== | akbarhon |
+| La meilleure du groupe | ==أحسنن::ar-lb== | a7sanon |
+| Le plus cher de tous | ==الأغلى من كلهن::ar-lb== | el-aghla min kellon |
 
 ## Superlatif absolu — "très…"
 
@@ -83,11 +83,11 @@ Pour intensifier un adjectif sans comparaison, on utilise des adverbes.
 
 | Adverbe | Libanais | Usage |
 |---------|-------|-------|
-| كتير (ktīr) | très | usage universel, place après ou avant l'adjectif |
-| كتير كتير (ktīr ktīr) | vraiment très | emphase |
-| جداً (jiddan) | très (littéraire) | plus formel |
-| مرّة (marra) | fois / drôlement | informel, jeunes |
-| بزاف / كثير | beaucoup | plus rare |
+| ==كتير::ar-lb== (ktīr) | très | usage universel, place après ou avant l'adjectif |
+| ==كتير كتير::ar-lb== (ktīr ktīr) | vraiment très | emphase |
+| ==جداً::ar-lb== (jiddan) | très (littéraire) | plus formel |
+| ==مرّة::ar-lb== (marra) | fois / drôlement | informel, jeunes |
+| ==بزاف::ar-lb== / ==كثير::ar-lb== | beaucoup | plus rare |
 
 Exemples :
 - الأكل كتير طيب (el-akl ktīr Tayyib) — La nourriture est très bonne.
@@ -98,9 +98,9 @@ Exemples :
 
 | Expression | Translittération | Sens |
 |-----------|------------------|------|
-| أحسن شي | a7san shi | le mieux |
-| أسوأ شي | aswa2 shi | le pire |
-| أول شي | awwal shi | d'abord / première chose |
-| آخر شي | ākhir shi | en dernier / dernière chose |
-| أحلى من العسل | a7la min el-3asal | plus doux que le miel (compliment) |
-| أسرع من البرق | asra3 min el-bar2 | plus rapide que l'éclair |
+| ==أحسن شي::ar-lb== | a7san shi | le mieux |
+| ==أسوأ شي::ar-lb== | aswa2 shi | le pire |
+| ==أول شي::ar-lb== | awwal shi | d'abord / première chose |
+| ==آخر شي::ar-lb== | ākhir shi | en dernier / dernière chose |
+| ==أحلى من العسل::ar-lb== | a7la min el-3asal | plus doux que le miel (compliment) |
+| ==أسرع من البرق::ar-lb== | asra3 min el-bar2 | plus rapide que l'éclair |

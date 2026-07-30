@@ -12,113 +12,113 @@ date: "2026-02-04"
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Sport | Olahraga | - | /o.lah.ra.ˈga/ |
-| Jouer | Bermain | Main | /main/ |
-| Équipe | Tim | - | /tim/ |
-| Joueur | Pemain | - | /pə.ma.ˈin/ |
-| Entraîneur | Pelatih | Coach | /pə.la.ˈtih/ |
-| Arbitre | Wasit | - | /wa.ˈsit/ |
-| Match | Pertandingan | - | /pər.tan.di.ˈŋan/ |
-| Compétition | Kompetisi | - | /kom.pə.ti.ˈsi/ |
-| Champion | Juara | - | /dʒu.a.ˈra/ |
-| Médaille | Medali | - | /mə.da.ˈli/ |
-| Trophée | Piala | - | /pi.a.ˈla/ |
-| Score | Skor | - | /skor/ |
-| Gagner | Menang | - | /mə.ˈnaŋ/ |
-| Perdre | Kalah | - | /ka.ˈlah/ |
-| Match nul | Seri | - | /sə.ˈri/ |
+| Sport | ==Olahraga::id== | - | /o.lah.ra.ˈga/ |
+| Jouer | ==Bermain::id== | Main | /main/ |
+| Équipe | ==Tim::id== | - | /tim/ |
+| Joueur | ==Pemain::id== | - | /pə.ma.ˈin/ |
+| Entraîneur | ==Pelatih::id== | Coach | /pə.la.ˈtih/ |
+| Arbitre | ==Wasit::id== | - | /wa.ˈsit/ |
+| Match | ==Pertandingan::id== | - | /pər.tan.di.ˈŋan/ |
+| Compétition | ==Kompetisi::id== | - | /kom.pə.ti.ˈsi/ |
+| Champion | ==Juara::id== | - | /dʒu.a.ˈra/ |
+| Médaille | ==Medali::id== | - | /mə.da.ˈli/ |
+| Trophée | ==Piala::id== | - | /pi.a.ˈla/ |
+| Score | ==Skor::id== | - | /skor/ |
+| Gagner | ==Menang::id== | - | /mə.ˈnaŋ/ |
+| Perdre | ==Kalah::id== | - | /ka.ˈlah/ |
+| Match nul | ==Seri::id== | - | /sə.ˈri/ |
 
 ## Sports Collectifs
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Football | Sepak bola | /sə.paʔ bo.ˈla/ |
-| Basketball | Basket | /bas.ˈkɛt/ |
-| Volleyball | Bola voli | /bo.la vo.ˈli/ |
-| Handball | Bola tangan | /bo.la ta.ˈŋan/ |
-| Rugby | Rugbi | /rug.ˈbi/ |
-| Hockey | Hoki | /ho.ˈki/ |
-| Baseball | Bisbol | /bis.ˈbol/ |
+| Football | ==Sepak bola::id== | /sə.paʔ bo.ˈla/ |
+| Basketball | ==Basket::id== | /bas.ˈkɛt/ |
+| Volleyball | ==Bola voli::id== | /bo.la vo.ˈli/ |
+| Handball | ==Bola tangan::id== | /bo.la ta.ˈŋan/ |
+| Rugby | ==Rugbi::id== | /rug.ˈbi/ |
+| Hockey | ==Hoki::id== | /ho.ˈki/ |
+| Baseball | ==Bisbol::id== | /bis.ˈbol/ |
 
 ## Sports de Raquette
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Badminton | Bulu tangkis | /bu.lu taŋ.ˈkis/ |
-| Tennis | Tenis | /tɛ.ˈnis/ |
-| Tennis de table | Tenis meja | /tɛ.nis mə.ˈdʒa/ |
-| Squash | Skuas | /sku.ˈas/ |
+| Badminton | ==Bulu tangkis::id== | /bu.lu taŋ.ˈkis/ |
+| Tennis | ==Tenis::id== | /tɛ.ˈnis/ |
+| Tennis de table | ==Tenis meja::id== | /tɛ.nis mə.ˈdʒa/ |
+| Squash | ==Skuas::id== | /sku.ˈas/ |
 
 ## Sports de Combat
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Arts martiaux | Bela diri | /bə.la di.ˈri/ |
-| Pencak silat | Pencak silat | /pɛn.t͡ʃaʔ si.ˈlat/ |
-| Boxe | Tinju | /tin.ˈdʒu/ |
-| Karaté | Karate | /ka.ra.ˈtɛ/ |
-| Judo | Judo | /dʒu.ˈdo/ |
-| Taekwondo | Taekwondo | /tɛ.kwon.ˈdo/ |
-| Lutte | Gulat | /gu.ˈlat/ |
+| Arts martiaux | ==Bela diri::id== | /bə.la di.ˈri/ |
+| Pencak silat | ==Pencak silat::id== | /pɛn.t͡ʃaʔ si.ˈlat/ |
+| Boxe | ==Tinju::id== | /tin.ˈdʒu/ |
+| Karaté | ==Karate::id== | /ka.ra.ˈtɛ/ |
+| Judo | ==Judo::id== | /dʒu.ˈdo/ |
+| Taekwondo | ==Taekwondo::id== | /tɛ.kwon.ˈdo/ |
+| Lutte | ==Gulat::id== | /gu.ˈlat/ |
 
 ## Sports Aquatiques
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Natation | Renang | /rə.ˈnaŋ/ |
-| Plongée | Menyelam | /mə.ɲə.ˈlam/ |
-| Surf | Selancar | /sə.lan.ˈt͡ʃar/ |
-| Voile | Layar | /la.ˈjar/ |
-| Plongée sous-marine | Selam | /sə.ˈlam/ |
-| Ski nautique | Ski air | /ski a.ˈir/ |
-| Rafting | Arung jeram | /a.ruŋ dʒə.ˈram/ |
+| Natation | ==Renang::id== | /rə.ˈnaŋ/ |
+| Plongée | ==Menyelam::id== | /mə.ɲə.ˈlam/ |
+| Surf | ==Selancar::id== | /sə.lan.ˈt͡ʃar/ |
+| Voile | ==Layar::id== | /la.ˈjar/ |
+| Plongée sous-marine | ==Selam::id== | /sə.ˈlam/ |
+| Ski nautique | ==Ski air::id== | /ski a.ˈir/ |
+| Rafting | ==Arung jeram::id== | /a.ruŋ dʒə.ˈram/ |
 
 ## Sports Individuels
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Course | Lari | /la.ˈri/ |
-| Athlétisme | Atletik | /at.lɛ.ˈtik/ |
-| Cyclisme | Bersepeda | /bər.sə.pə.ˈda/ |
-| Gymnastique | Senam | /sə.ˈnam/ |
-| Escalade | Panjat tebing | /pan.dʒat tə.ˈbiŋ/ |
-| Golf | Golf | /golf/ |
-| Tir à l'arc | Memanah | /mə.ma.ˈnah/ |
-| Échecs | Catur | /t͡ʃa.ˈtur/ |
-| Yoga | Yoga | /jo.ˈga/ |
-| Fitness | Fitnes | /fit.ˈnɛs/ |
-| Musculation | Angkat beban | /aŋ.kat bə.ˈban/ |
+| Course | ==Lari::id== | /la.ˈri/ |
+| Athlétisme | ==Atletik::id== | /at.lɛ.ˈtik/ |
+| Cyclisme | ==Bersepeda::id== | /bər.sə.pə.ˈda/ |
+| Gymnastique | ==Senam::id== | /sə.ˈnam/ |
+| Escalade | ==Panjat tebing::id== | /pan.dʒat tə.ˈbiŋ/ |
+| Golf | ==Golf::id== | /golf/ |
+| Tir à l'arc | ==Memanah::id== | /mə.ma.ˈnah/ |
+| Échecs | ==Catur::id== | /t͡ʃa.ˈtur/ |
+| Yoga | ==Yoga::id== | /jo.ˈga/ |
+| Fitness | ==Fitnes::id== | /fit.ˈnɛs/ |
+| Musculation | ==Angkat beban::id== | /aŋ.kat bə.ˈban/ |
 
 ## Équipements
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Ballon | Bola | /bo.ˈla/ |
-| Raquette | Raket | /ra.ˈkɛt/ |
-| Casque | Helm | /hɛlm/ |
-| Gants | Sarung tangan | /sa.ruŋ ta.ˈŋan/ |
-| Chaussures de sport | Sepatu olahraga | /sə.pa.tu o.lah.ra.ˈga/ |
-| Maillot | Kaos | /ka.ˈos/ |
-| Short | Celana pendek | /t͡ʃə.la.na pən.ˈdɛʔ/ |
-| Piscine | Kolam renang | /ko.lam rə.ˈnaŋ/ |
-| Stade | Stadion | /sta.di.ˈon/ |
-| Salle de sport | Gym | /dʒim/ |
-| Terrain | Lapangan | /la.pa.ˈŋan/ |
+| Ballon | ==Bola::id== | /bo.ˈla/ |
+| Raquette | ==Raket::id== | /ra.ˈkɛt/ |
+| Casque | ==Helm::id== | /hɛlm/ |
+| Gants | ==Sarung tangan::id== | /sa.ruŋ ta.ˈŋan/ |
+| Chaussures de sport | ==Sepatu olahraga::id== | /sə.pa.tu o.lah.ra.ˈga/ |
+| Maillot | ==Kaos::id== | /ka.ˈos/ |
+| Short | ==Celana pendek::id== | /t͡ʃə.la.na pən.ˈdɛʔ/ |
+| Piscine | ==Kolam renang::id== | /ko.lam rə.ˈnaŋ/ |
+| Stade | ==Stadion::id== | /sta.di.ˈon/ |
+| Salle de sport | ==Gym::id== | /dʒim/ |
+| Terrain | ==Lapangan::id== | /la.pa.ˈŋan/ |
 
 ## Actions Sportives
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Courir | Lari | /la.ˈri/ |
-| Nager | Berenang | /bə.rə.ˈnaŋ/ |
-| Sauter | Lompat | /lom.ˈpat/ |
-| Lancer | Lempar | /lɛm.ˈpar/ |
-| Frapper | Pukul | /pu.ˈkul/ |
-| Tirer | Menembak | /mə.nɛm.ˈbaʔ/ |
-| Passer | Mengoper | /mə.ŋo.ˈpɛr/ |
-| Marquer (but) | Mencetak gol | /mən.t͡ʃɛ.taʔ gol/ |
-| S'entraîner | Berlatih | /bər.la.ˈtih/ |
-| S'échauffer | Pemanasan | /pə.ma.na.ˈsan/ |
+| Courir | ==Lari::id== | /la.ˈri/ |
+| Nager | ==Berenang::id== | /bə.rə.ˈnaŋ/ |
+| Sauter | ==Lompat::id== | /lom.ˈpat/ |
+| Lancer | ==Lempar::id== | /lɛm.ˈpar/ |
+| Frapper | ==Pukul::id== | /pu.ˈkul/ |
+| Tirer | ==Menembak::id== | /mə.nɛm.ˈbaʔ/ |
+| Passer | ==Mengoper::id== | /mə.ŋo.ˈpɛr/ |
+| Marquer (but) | ==Mencetak gol::id== | /mən.t͡ʃɛ.taʔ gol/ |
+| S'entraîner | ==Berlatih::id== | /bər.la.ˈtih/ |
+| S'échauffer | ==Pemanasan::id== | /pə.ma.na.ˈsan/ |
 
 ## Expressions Utiles
 

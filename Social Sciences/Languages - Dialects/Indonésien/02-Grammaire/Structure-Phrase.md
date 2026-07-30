@@ -37,14 +37,14 @@ Ajoutez **"apakah"** au début ou utilisez l'intonation interrogative.
 
 | Mot interrogatif | Indonésien | Exemple |
 |------------------|------------|---------|
-| Qui | **siapa** | **Siapa nama kamu?** = "Comment tu t'appelles ?" |
-| Quoi | **apa** | **Apa itu?** = "Qu'est-ce que c'est ?" |
-| Où | **di mana** | **Kamu tinggal di mana?** = "Où habites-tu ?" |
-| Quand | **kapan** | **Kapan kamu pergi?** = "Quand pars-tu ?" |
-| Pourquoi | **mengapa / kenapa** | **Mengapa kamu sedih?** = "Pourquoi es-tu triste ?" |
-| Comment | **bagaimana / gimana** | **Bagaimana kabar kamu?** = "Comment vas-tu ?" |
-| Combien | **berapa** | **Berapa harganya?** = "Combien ça coûte ?" |
-| Lequel | **yang mana** | **Yang mana?** = "Lequel ?" |
+| Qui | ==**siapa**::id== | **Siapa nama kamu?** = "Comment tu t'appelles ?" |
+| Quoi | ==**apa**::id== | **Apa itu?** = "Qu'est-ce que c'est ?" |
+| Où | ==**di mana**::id== | **Kamu tinggal di mana?** = "Où habites-tu ?" |
+| Quand | ==**kapan**::id== | **Kapan kamu pergi?** = "Quand pars-tu ?" |
+| Pourquoi | ==**mengapa::id== / ==kenapa**::id== | **Mengapa kamu sedih?** = "Pourquoi es-tu triste ?" |
+| Comment | ==**bagaimana::id== / ==gimana**::id== | **Bagaimana kabar kamu?** = "Comment vas-tu ?" |
+| Combien | ==**berapa**::id== | **Berapa harganya?** = "Combien ça coûte ?" |
+| Lequel | ==**yang mana**::id== | **Yang mana?** = "Lequel ?" |
 
 ## 4. Négation
 

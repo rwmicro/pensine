@@ -38,17 +38,17 @@ Le phénicien et l'araméen sont des langues sémitiques étroitement liées à 
 
 | Trait | Description | Exemple |
 |-------|-------------|---------|
-| Vocabulaire local | Certains mots libanais viennent de l'araméen, pas de l'arabe classique | شوب (shōb, chaleur), شب (shabb, jeune homme) — héritage levantin |
-| Phonologie | Conservation de certains sons araméens | |
-| Structure syllabique | Tendance à réduire les voyelles comme en araméen | كتاب (kitāb) → ktēb |
+| Vocabulaire local | Certains mots libanais viennent de l'araméen, pas de l'arabe classique | ==شوب::ar-lb== (shōb, chaleur), ==شب::ar-lb== (shabb, jeune homme) — héritage levantin |
+| Phonologie | Conservation de certains sons araméens |  |
+| Structure syllabique | Tendance à réduire les voyelles comme en araméen | ==كتاب::ar-lb== (kitāb) → ktēb |
 
 ### Influence de l'araméen — exemples concrets
 
 | Mot libanais | Arabe classique | Origine araméenne | Sens |
 |-------------|----------------|-------------------|------|
-| هيدا (hayda) | هذا (hādhā) | Forme araméenne | Celui-ci |
-| هيدي (haydi) | هذه (hādhihi) | Forme araméenne | Celle-ci |
-| تيتا (tēta) | جدة (jadda) | Terme affectif | Grand-mère |
+| ==هيدا::ar-lb== (hayda) | ==هذا::ar-lb== (hādhā) | Forme araméenne | Celui-ci |
+| ==هيدي::ar-lb== (haydi) | ==هذه::ar-lb== (hādhihi) | Forme araméenne | Celle-ci |
+| ==تيتا::ar-lb== (tēta) | ==جدة::ar-lb== (jadda) | Terme affectif | Grand-mère |
 
 ### Influence du turc ottoman (1516-1918)
 
@@ -56,11 +56,11 @@ Quatre siècles de domination ottomane ont laissé des traces lexicales, princip
 
 | Mot libanais | Origine turque | Sens |
 |-------------|---------------|------|
-| أوضة (ōda) | oda | Chambre |
-| طاسة (tāsse) | tas | Bol / tasse |
-| بقجة (ba2je) | bohça | Baluchon / bagage |
-| قهوة (ahwe) | kahve | Café (passé en turc depuis l'arabe, revenu modifié) |
-| جوخ (jōkh) | çuha | Tissu de laine |
+| ==أوضة::ar-lb== (ōda) | oda | Chambre |
+| ==طاسة::ar-lb== (tāsse) | tas | Bol / tasse |
+| ==بقجة::ar-lb== (ba2je) | bohça | Baluchon / bagage |
+| ==قهوة::ar-lb== (ahwe) | kahve | Café (passé en turc depuis l'arabe, revenu modifié) |
+| ==جوخ::ar-lb== (jōkh) | çuha | Tissu de laine |
 
 ### Le mandat français (1920-1943) et l'héritage linguistique
 
@@ -84,10 +84,10 @@ L'arabe levantin (dont fait partie le libanais) s'est différencié de l'arabe c
 
 | Arabe classique | Libanais | Règle |
 |-----------------|----------|-------|
-| ق /q/ | /ʔ/ (coup de glotte) | Shift phonologique levantin |
-| ث /θ/ | /t/ | Fusion avec t |
-| ذ /ð/ | /d/ ou /z/ | Fusion avec d |
-| ظ /ðˤ/ | /zˤ/ | Simplification |
+| ==ق::ar-lb== /q/ | /ʔ/ (coup de glotte) | Shift phonologique levantin |
+| ==ث::ar-lb== /θ/ | /t/ | Fusion avec t |
+| ==ذ::ar-lb== /ð/ | /d/ ou /z/ | Fusion avec d |
+| ==ظ::ar-lb== /ðˤ/ | /zˤ/ | Simplification |
 | Voyelles courtes complètes | Réduction / suppression | ktīr, mnī7 |
 
 ### Simplifications grammaticales
@@ -103,9 +103,9 @@ L'arabe levantin (dont fait partie le libanais) s'est différencié de l'arabe c
 
 | Innovation | Description | Exemple |
 |-----------|-------------|---------|
-| Préfixe b- | Marque le présent habituel (absent en MSA) | بشوف (bshūf) vs يشوف (yshūf) en MSA |
-| Rah + verbe | Futur (différent de MSA) | رح يجي (rah yīji) |
-| 3am + verbe | Progressif | عم بيحكي (3am bye7ki) |
+| Préfixe b- | Marque le présent habituel (absent en MSA) | ==بشوف::ar-lb== (bshūf) vs ==يشوف::ar-lb== (yshūf) en MSA |
+| Rah + verbe | Futur (différent de MSA) | ==رح يجي::ar-lb== (rah yīji) |
+| 3am + verbe | Progressif | ==عم بيحكي::ar-lb== (3am bye7ki) |
 | Hayda / Haydi | Démonstratifs (← araméen) | Au lieu de hādhā/hādhihi |
 
 ## Dialectes au sein du libanais

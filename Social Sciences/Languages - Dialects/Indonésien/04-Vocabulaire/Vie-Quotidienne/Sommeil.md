@@ -12,83 +12,83 @@ date: "2026-02-04"
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Dormir | Tidur | Bobo (enfantin) | /ti.ˈdur/ |
-| Sommeil | Tidur | - | /ti.ˈdur/ |
-| Fatigué | Lelah | Capek | /t͡ʃa.ˈpɛʔ/ |
-| Épuisé | Kelelahan | Capek banget | /kə.lə.la.ˈhan/ |
-| Somnolent | Mengantuk | Ngantuk | /ŋan.ˈtuʔ/ |
-| Se réveiller | Bangun | Bangun | /ba.ˈŋun/ |
-| Se lever | Bangun tidur | - | /ba.ŋun ti.ˈdur/ |
-| S'endormir | Tertidur | Ketiduran | /tər.ti.ˈdur/ |
-| Sieste | Tidur siang | - | /ti.dur si.ˈaŋ/ |
-| Bâiller | Menguap | Nguap | /mə.ŋu.ˈap/ |
-| Ronfler | Mendengkur | Ngorok | /mən.dəŋ.ˈkur/ |
+| Dormir | ==Tidur::id== | Bobo (enfantin) | /ti.ˈdur/ |
+| Sommeil | ==Tidur::id== | - | /ti.ˈdur/ |
+| Fatigué | ==Lelah::id== | Capek | /t͡ʃa.ˈpɛʔ/ |
+| Épuisé | ==Kelelahan::id== | Capek banget | /kə.lə.la.ˈhan/ |
+| Somnolent | ==Mengantuk::id== | Ngantuk | /ŋan.ˈtuʔ/ |
+| Se réveiller | ==Bangun::id== | Bangun | /ba.ˈŋun/ |
+| Se lever | ==Bangun tidur::id== | - | /ba.ŋun ti.ˈdur/ |
+| S'endormir | ==Tertidur::id== | Ketiduran | /tər.ti.ˈdur/ |
+| Sieste | ==Tidur siang::id== | - | /ti.dur si.ˈaŋ/ |
+| Bâiller | ==Menguap::id== | Nguap | /mə.ŋu.ˈap/ |
+| Ronfler | ==Mendengkur::id== | Ngorok | /mən.dəŋ.ˈkur/ |
 
 ## Literie et Chambre
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Lit | Tempat tidur | /tɛm.pat ti.ˈdur/ |
-| Matelas | Kasur | /ka.ˈsur/ |
-| Oreiller | Bantal | /ban.ˈtal/ |
-| Traversin | Guling | /gu.ˈliŋ/ |
-| Couverture | Selimut | /sə.li.ˈmut/ |
-| Drap | Seprai | /sə.ˈprai/ |
-| Taie d'oreiller | Sarung bantal | /sa.ruŋ ban.ˈtal/ |
-| Moustiquaire | Kelambu | /kə.lam.ˈbu/ |
-| Chambre | Kamar tidur | /ka.mar ti.ˈdur/ |
-| Réveil | Jam weker | /dʒam wɛ.ˈkɛr/ |
-| Lampe de chevet | Lampu tidur | /lam.pu ti.ˈdur/ |
+| Lit | ==Tempat tidur::id== | /tɛm.pat ti.ˈdur/ |
+| Matelas | ==Kasur::id== | /ka.ˈsur/ |
+| Oreiller | ==Bantal::id== | /ban.ˈtal/ |
+| Traversin | ==Guling::id== | /gu.ˈliŋ/ |
+| Couverture | ==Selimut::id== | /sə.li.ˈmut/ |
+| Drap | ==Seprai::id== | /sə.ˈprai/ |
+| Taie d'oreiller | ==Sarung bantal::id== | /sa.ruŋ ban.ˈtal/ |
+| Moustiquaire | ==Kelambu::id== | /kə.lam.ˈbu/ |
+| Chambre | ==Kamar tidur::id== | /ka.mar ti.ˈdur/ |
+| Réveil | ==Jam weker::id== | /dʒam wɛ.ˈkɛr/ |
+| Lampe de chevet | ==Lampu tidur::id== | /lam.pu ti.ˈdur/ |
 
 ## États et Sensations
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Avoir sommeil | Mengantuk | Ngantuk | /mə.ŋan.ˈtuʔ/ |
-| Bien dormi | Tidur nyenyak | - | /ti.dur ɲə.ˈɲaʔ/ |
-| Mal dormi | Kurang tidur | - | /ku.raŋ ti.ˈdur/ |
-| Insomnie | Insomnia | Susah tidur | /in.som.ni.ˈa/ |
-| Rêve | Mimpi | - | /mim.ˈpi/ |
-| Cauchemar | Mimpi buruk | - | /mim.pi bu.ˈruʔ/ |
-| Somnambuler | Tidur sambil jalan | - | /ti.dur sam.bil dʒa.ˈlan/ |
-| Parler en dormant | Mengigau | Ngigau | /mə.ŋi.ˈgau/ |
-| Être réveillé | Terbangun | Kebangun | /tər.ba.ˈŋun/ |
-| Être frais/reposé | Segar | - | /sə.ˈgar/ |
+| Avoir sommeil | ==Mengantuk::id== | Ngantuk | /mə.ŋan.ˈtuʔ/ |
+| Bien dormi | ==Tidur nyenyak::id== | - | /ti.dur ɲə.ˈɲaʔ/ |
+| Mal dormi | ==Kurang tidur::id== | - | /ku.raŋ ti.ˈdur/ |
+| Insomnie | ==Insomnia::id== | Susah tidur | /in.som.ni.ˈa/ |
+| Rêve | ==Mimpi::id== | - | /mim.ˈpi/ |
+| Cauchemar | ==Mimpi buruk::id== | - | /mim.pi bu.ˈruʔ/ |
+| Somnambuler | ==Tidur sambil jalan::id== | - | /ti.dur sam.bil dʒa.ˈlan/ |
+| Parler en dormant | ==Mengigau::id== | Ngigau | /mə.ŋi.ˈgau/ |
+| Être réveillé | ==Terbangun::id== | Kebangun | /tər.ba.ˈŋun/ |
+| Être frais/reposé | ==Segar::id== | - | /sə.ˈgar/ |
 
 ## Routine du Soir
 
 | Français | Indonésien | Informel |
 | :------: | :--------: | :------: |
-| Se préparer pour dormir | Bersiap tidur | - |
-| Mettre le pyjama | Pakai baju tidur | - |
-| Se brosser les dents | Sikat gigi | - |
-| Se laver le visage | Cuci muka | - |
-| Éteindre la lumière | Matikan lampu | Matiin lampu |
-| Lire au lit | Baca di tempat tidur | - |
-| Mettre le réveil | Pasang alarm | - |
+| Se préparer pour dormir | ==Bersiap tidur::id== | - |
+| Mettre le pyjama | ==Pakai baju tidur::id== | - |
+| Se brosser les dents | ==Sikat gigi::id== | - |
+| Se laver le visage | ==Cuci muka::id== | - |
+| Éteindre la lumière | ==Matikan lampu::id== | Matiin lampu |
+| Lire au lit | ==Baca di tempat tidur::id== | - |
+| Mettre le réveil | ==Pasang alarm::id== | - |
 
 ## Routine du Matin
 
 | Français | Indonésien | Informel |
 | :------: | :--------: | :------: |
-| Le réveil sonne | Alarm berbunyi | - |
-| Appuyer sur snooze | Tekan tunda | - |
-| Se réveiller | Bangun | - |
-| S'étirer | Meregangkan badan | - |
-| Se lever | Bangun dari tempat tidur | - |
-| Faire le lit | Merapikan tempat tidur | Beresin kasur |
+| Le réveil sonne | ==Alarm berbunyi::id== | - |
+| Appuyer sur snooze | ==Tekan tunda::id== | - |
+| Se réveiller | ==Bangun::id== | - |
+| S'étirer | ==Meregangkan badan::id== | - |
+| Se lever | ==Bangun dari tempat tidur::id== | - |
+| Faire le lit | ==Merapikan tempat tidur::id== | Beresin kasur |
 
 ## Problèmes de Sommeil
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Insomnie | Susah tidur | /su.sah ti.ˈdur/ |
-| Apnée du sommeil | Sleep apnea | /slip ap.ni.ˈa/ |
-| Ronflements | Dengkuran | /dəŋ.ku.ˈran/ |
-| Troubles du sommeil | Gangguan tidur | /gaŋ.gu.an ti.ˈdur/ |
-| Jet lag | Jet lag | /dʒɛt lɛg/ |
-| Privé de sommeil | Kurang tidur | /ku.raŋ ti.ˈdur/ |
-| Fatigue chronique | Kelelahan kronis | /kə.lə.la.han kro.ˈnis/ |
+| Insomnie | ==Susah tidur::id== | /su.sah ti.ˈdur/ |
+| Apnée du sommeil | ==Sleep apnea::id== | /slip ap.ni.ˈa/ |
+| Ronflements | ==Dengkuran::id== | /dəŋ.ku.ˈran/ |
+| Troubles du sommeil | ==Gangguan tidur::id== | /gaŋ.gu.an ti.ˈdur/ |
+| Jet lag | ==Jet lag::id== | /dʒɛt lɛg/ |
+| Privé de sommeil | ==Kurang tidur::id== | /ku.raŋ ti.ˈdur/ |
+| Fatigue chronique | ==Kelelahan kronis::id== | /kə.lə.la.han kro.ˈnis/ |
 
 ## Expressions Utiles
 

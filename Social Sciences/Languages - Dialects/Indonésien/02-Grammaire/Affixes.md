@@ -125,14 +125,14 @@ date: "2026-02-04"
 
 | Indonésien | Français |
 | :--------: | :------: |
-| **Dilarang** merokok | Interdit de fumer |
-| **Dibuat** di Indonesia | Fabriqué en Indonésie |
-| **Ditulis** dalam bahasa Inggris | Écrit en anglais |
-| **Dimakan** semut | Mangé par les fourmis |
-| **Dicuri** | Volé |
-| **Dijual** | Vendu |
-| **Ditutup** | Fermé |
-| **Dibuka** | Ouvert |
+| ==**Dilarang** merokok::id== | Interdit de fumer |
+| ==**Dibuat** di Indonesia::id== | Fabriqué en Indonésie |
+| ==**Ditulis** dalam bahasa Inggris::id== | Écrit en anglais |
+| ==**Dimakan** semut::id== | Mangé par les fourmis |
+| ==**Dicuri**::id== | Volé |
+| ==**Dijual**::id== | Vendu |
+| ==**Ditutup**::id== | Fermé |
+| ==**Dibuka**::id== | Ouvert |
 
 ## Préfixe TER- (Résultatif / Superlatif)
 
@@ -181,11 +181,11 @@ date: "2026-02-04"
 
 | Indonésien | Français |
 | :--------: | :------: |
-| **Terbaca** | Lisible |
-| **Terlihat** | Visible |
-| **Terdengar** | Audible |
-| Tidak **terlupakan** | Inoubliable |
-| Tidak **tergantikan** | Irremplaçable |
+| ==**Terbaca**::id== | Lisible |
+| ==**Terlihat**::id== | Visible |
+| ==**Terdengar**::id== | Audible |
+| ==Tidak **terlupakan**::id== | Inoubliable |
+| ==Tidak **tergantikan**::id== | Irremplaçable |
 
 ## Préfixe PE- / PEN- / PEM- / PENG- / PENY- (Nominalisateur)
 

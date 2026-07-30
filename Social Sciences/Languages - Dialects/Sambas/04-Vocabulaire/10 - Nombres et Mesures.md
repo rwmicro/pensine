@@ -12,20 +12,20 @@ date: "2026-02-19"
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|
-| Sutte' / Sigge' | Satu | Un |
-| Annam | Enam | Six |
+| ==Sutte'::ms== / ==Sigge'::ms== | Satu | Un |
+| ==Annam::ms== | Enam | Six |
 
 ## Mesures et quantités
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|
-| Batel | Media pengukur volume | Mesure de volume |
-| Gantang / Segantang | Media mengukur isi padi/beras / Padi sebanyak 5 kg | Mesure pour riz / 5kg de riz |
-| Nakar | Mengukur isi | Mesurer contenu |
-| Takarran | Ukuran | Mesure |
-| Dappak | Depa / sepanjang sebelah tangan | Brasse (mesure) |
-| Borong / Seborong tanah | Satuan ukuran luas / Tanah seluas 1/6 Ha | Unité de surface |
-| Segantang | Seukuran tertentu | Mesure spécifique |
+| ==Batel::ms== | Media pengukur volume | Mesure de volume |
+| ==Gantang::ms== / ==Segantang::ms== | Media mengukur isi padi/beras / Padi sebanyak 5 kg | Mesure pour riz / 5kg de riz |
+| ==Nakar::ms== | Mengukur isi | Mesurer contenu |
+| ==Takarran::ms== | Ukuran | Mesure |
+| ==Dappak::ms== | Depa / sepanjang sebelah tangan | Brasse (mesure) |
+| ==Borong::ms== / ==Seborong tanah::ms== | Satuan ukuran luas / Tanah seluas 1/6 Ha | Unité de surface |
+| ==Segantang::ms== | Seukuran tertentu | Mesure spécifique |
 
 
 **Source :** Dictionnaires Biack Sambas

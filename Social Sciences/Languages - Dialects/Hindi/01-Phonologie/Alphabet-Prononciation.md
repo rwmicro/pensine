@@ -16,17 +16,17 @@ Le hindi compte **11 voyelles** dans sa version standard. Chaque voyelle a deux 
 
 | Devanagari | Translittération | Prononciation approximative |
 |---|---|---|
-| अ | a | comme le 'a' de "about" (schwa, court) |
-| आ | aa / ā | 'a' long, comme dans "father" |
-| इ | i | 'i' court, comme dans "bit" |
-| ई | ii / ī | 'i' long, comme dans "feet" |
-| उ | u | 'ou' court, comme dans "put" |
-| ऊ | uu / ū | 'ou' long, comme dans "food" |
-| ऋ | ri / ṛ | 'ri' roulé (surtout dans les mots d'origine sanskrite) |
-| ए | e | 'é' comme dans "café" |
-| ऐ | ai | 'aï' comme dans "eye" (diphtongue) |
-| ओ | o | 'o' comme dans "go" |
-| औ | au | 'ao' comme dans "now" (diphtongue) |
+| ==अ::hi== | a | comme le 'a' de "about" (schwa, court) |
+| ==आ::hi== | aa / ā | 'a' long, comme dans "father" |
+| ==इ::hi== | i | 'i' court, comme dans "bit" |
+| ==ई::hi== | ii / ī | 'i' long, comme dans "feet" |
+| ==उ::hi== | u | 'ou' court, comme dans "put" |
+| ==ऊ::hi== | uu / ū | 'ou' long, comme dans "food" |
+| ==ऋ::hi== | ri / ṛ | 'ri' roulé (surtout dans les mots d'origine sanskrite) |
+| ==ए::hi== | e | 'é' comme dans "café" |
+| ==ऐ::hi== | ai | 'aï' comme dans "eye" (diphtongue) |
+| ==ओ::hi== | o | 'o' comme dans "go" |
+| ==औ::hi== | au | 'ao' comme dans "now" (diphtongue) |
 
 La distinction entre voyelles courtes et longues est phonémique : elle change le sens des mots. Par exemple : दिन (din, "jour") vs दीन (dīn, "pauvre").
 
@@ -40,19 +40,19 @@ Le hindi compte **33 consonnes** de base, organisées en groupes selon le point 
 
 | Groupe | Point d'articulation | Non-aspirée | Aspirée | Non-aspirée voisée | Aspirée voisée | Nasale |
 |---|---|---|---|---|---|---|
-| **Vélaires** | Arrière du palais | क (ka) | ख (kha) | ग (ga) | घ (gha) | ङ (ṅa) |
-| **Palatales** | Palais | च (cha) | छ (chha) | ज (ja) | झ (jha) | ञ (ña) |
-| **Rétroflexes** | Palais (langue recourbée) | ट (ṭa) | ठ (ṭha) | ड (ḍa) | ढ (ḍha) | ण (ṇa) |
-| **Dentales** | Dents | त (ta) | थ (tha) | द (da) | ध (dha) | न (na) |
-| **Labiales** | Lèvres | प (pa) | फ (pha) | ब (ba) | भ (bha) | म (ma) |
+| **Vélaires** | Arrière du palais | ==क::hi== (ka) | ==ख::hi== (kha) | ==ग::hi== (ga) | ==घ::hi== (gha) | ==ङ::hi== (ṅa) |
+| **Palatales** | Palais | ==च::hi== (cha) | ==छ::hi== (chha) | ==ज::hi== (ja) | ==झ::hi== (jha) | ==ञ::hi== (ña) |
+| **Rétroflexes** | Palais (langue recourbée) | ==ट::hi== (ṭa) | ==ठ::hi== (ṭha) | ==ड::hi== (ḍa) | ==ढ::hi== (ḍha) | ==ण::hi== (ṇa) |
+| **Dentales** | Dents | ==त::hi== (ta) | ==थ::hi== (tha) | ==द::hi== (da) | ==ध::hi== (dha) | ==न::hi== (na) |
+| **Labiales** | Lèvres | ==प::hi== (pa) | ==फ::hi== (pha) | ==ब::hi== (ba) | ==भ::hi== (bha) | ==म::hi== (ma) |
 
 ### Autres consonnes
 
 | Devanagari | Translittération | Type |
 |---|---|---|
-| य (ya), र (ra), ल (la), व (va) | Semi-voyelles | |
-| श (sha), ष (ṣha), स (sa) | Sifflantes | |
-| ह (ha) | Aspirée glottale | |
+| ==य::hi== (ya), ==र::hi== (ra), ==ल::hi== (la), ==व::hi== (va) | Semi-voyelles |  |
+| ==श::hi== (sha), ==ष::hi== (ṣha), ==स::hi== (sa) | Sifflantes |  |
+| ==ह::hi== (ha) | Aspirée glottale |  |
 
 ![](sources/images/consonants.gif)
 
@@ -73,11 +73,11 @@ Les consonnes rétroflexes (ट, ठ, ड, ढ, ण) se prononcent avec la point
 
 | Signe | Nom | Fonction |
 |---|---|---|
-| ं | **Anusvara** (bindu) | Nasalisation de la voyelle précédente |
-| ँ | **Chandrabindu** | Nasalisation plus légère |
-| ः | **Visarga** | Souffle aspiré après une voyelle (rare en hindi moderne) |
-| ् | **Halant** (virama) | Supprime la voyelle inhérente /a/ d'une consonne |
-| ॐ | **Om** | Symbole sacré, pas une lettre de l'alphabet courant |
+| ==ं::hi== | **Anusvara** (bindu) | Nasalisation de la voyelle précédente |
+| ==ँ::hi== | **Chandrabindu** | Nasalisation plus légère |
+| ==ः::hi== | **Visarga** | Souffle aspiré après une voyelle (rare en hindi moderne) |
+| ==्::hi== | **Halant** (virama) | Supprime la voyelle inhérente /a/ d'une consonne |
+| ==ॐ::hi== | **Om** | Symbole sacré, pas une lettre de l'alphabet courant |
 
 ## Consonnes empruntées (Nuqta)
 
@@ -85,11 +85,11 @@ Pour les sons empruntés à l'arabe, au persan et à l'anglais, le hindi ajoute 
 
 | Devanagari | Son | Origine |
 |---|---|---|
-| क़ (qa) | 'q' guttural | Arabe/Persan |
-| ख़ (kha) | 'kh' fricatif | Arabe/Persan (comme la jota espagnole) |
-| ग़ (gha) | 'gh' fricatif | Arabe/Persan |
-| ज़ (za) | 'z' | Anglais/Persan |
-| फ़ (fa) | 'f' | Anglais/Persan |
+| ==क़::hi== (qa) | 'q' guttural | Arabe/Persan |
+| ==ख़::hi== (kha) | 'kh' fricatif | Arabe/Persan (comme la jota espagnole) |
+| ==ग़::hi== (gha) | 'gh' fricatif | Arabe/Persan |
+| ==ज़::hi== (za) | 'z' | Anglais/Persan |
+| ==फ़::hi== (fa) | 'f' | Anglais/Persan |
 
 Dans la pratique courante, beaucoup de locuteurs hindi prononcent ces sons comme leurs équivalents non-nuqta (क pour क़, etc.).
 

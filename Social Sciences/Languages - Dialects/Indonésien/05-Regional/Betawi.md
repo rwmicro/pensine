@@ -27,13 +27,13 @@ Le Betawi s'est formé au XVIIe siècle à Batavia (ancien nom de Jakarta) à pa
 
 |    Français     | Indonésien Standard |         Betawi         | Prononciation |
 | :-------------: | :-----------------: | :--------------------: | :-----------: |
-|       Je        |     Saya / Aku      |     **Gue / Gua**      |    /guˈe/     |
-|       Tu        |        Kamu         |      **Lo / Lu**       |     /lo/      |
-|     Il/Elle     |         Dia         |        **Die**         |    /diˈe/     |
-| Nous (exclusif) |        Kami         |        **Kite**        |    /kiˈte/    |
-| Nous (inclusif) |        Kita         |        **Kite**        |    /kiˈte/    |
-|      Vous       |       Kalian        | **Lo pada / Lo semua** |       -       |
-|    Ils/Elles    |       Mereka        | **Mereka / Die orang** |       -       |
+| Je | ==Saya::id== / ==Aku::id== | **Gue / Gua** | /guˈe/ |
+| Tu | ==Kamu::id== | **Lo / Lu** | /lo/ |
+| Il/Elle | ==Dia::id== | **Die** | /diˈe/ |
+| Nous (exclusif) | ==Kami::id== | **Kite** | /kiˈte/ |
+| Nous (inclusif) | ==Kita::id== | **Kite** | /kiˈte/ |
+| Vous | ==Kalian::id== | **Lo pada / Lo semua** | - |
+| Ils/Elles | ==Mereka::id== | **Mereka / Die orang** | - |
 
 **Exemples :**
 - *Gue mau pergi* = Je veux partir
@@ -47,19 +47,19 @@ Le Betawi s'est formé au XVIIe siècle à Batavia (ancien nom de Jakarta) à pa
 
 |  Standard   | Betawi  |      Exemple       |
 | :---------: | :-----: | :----------------: |
-| a final → e | -a → -e |  *apa* → **ape**   |
-| a final → é | -a → -é |  *saya* → **gue**  |
-|    i → é    |         |  *ini* → **nih**   |
-|   au → o    |         | *kalau* → **kalo** |
-|   ai → e    |         | *pakai* → **pake** |
+| a final → e | -a → -e | *apa* → **ape** |
+| a final → é | -a → -é | *saya* → **gue** |
+| i → é |  | *ini* → **nih** |
+| au → o |  | *kalau* → **kalo** |
+| ai → e |  | *pakai* → **pake** |
 
 ### Changements de Consonnes
 
 |       Standard        | Betawi |       Exemple       |
 | :-------------------: | :----: | :-----------------: |
-|       r disparu       |        | *benar* → **bener** |
-|       h disparu       |        | *tahun* → **taon**  |
-| k final → ʔ (glottal) |        | *tidak* → **nggak** |
+| r disparu |  | *benar* → **bener** |
+| h disparu |  | *tahun* → **taon** |
+| k final → ʔ (glottal) |  | *tidak* → **nggak** |
 
 
 
@@ -69,43 +69,43 @@ Le Betawi s'est formé au XVIIe siècle à Batavia (ancien nom de Jakarta) à pa
 
 | Français | Indonésien Standard | Betawi |
 | :------: | :-----------------: | :----: |
-| Quoi | Apa | **Ape / Apaan** |
-| Pourquoi | Kenapa / Mengapa | **Kenape** |
-| Comment | Bagaimana | **Gimane / Gimana** |
-| Comme ça | Begitu | **Gitu** |
-| Oui | Ya / Iya | **Iye** |
-| Non | Tidak | **Kagak / Nggak / Engga** |
-| Déjà | Sudah | **Udeh / Udah** |
-| Pas encore | Belum | **Belom** |
-| Là-bas | Di sana | **Di sono** |
-| Ici | Di sini | **Di sini / Sini** |
-| Maintenant | Sekarang | **Sekarang / Skrg** |
-| Très | Sangat | **Banget / Amat** |
-| Seulement | Hanya / Saja | **Doang / Aja** |
-| Avec | Dengan | **Ama / Sama** |
-| Pour | Untuk | **Buat** |
-| Encore | Masih | **Masih** |
-| Aussi | Juga | **Juga / Juge** |
+| Quoi | ==Apa::id== | **Ape / Apaan** |
+| Pourquoi | ==Kenapa::id== / ==Mengapa::id== | **Kenape** |
+| Comment | ==Bagaimana::id== | **Gimane / Gimana** |
+| Comme ça | ==Begitu::id== | **Gitu** |
+| Oui | ==Ya::id== / ==Iya::id== | **Iye** |
+| Non | ==Tidak::id== | **Kagak / Nggak / Engga** |
+| Déjà | ==Sudah::id== | **Udeh / Udah** |
+| Pas encore | ==Belum::id== | **Belom** |
+| Là-bas | ==Di sana::id== | **Di sono** |
+| Ici | ==Di sini::id== | **Di sini / Sini** |
+| Maintenant | ==Sekarang::id== | **Sekarang / Skrg** |
+| Très | ==Sangat::id== | **Banget / Amat** |
+| Seulement | ==Hanya::id== / ==Saja::id== | **Doang / Aja** |
+| Avec | ==Dengan::id== | **Ama / Sama** |
+| Pour | ==Untuk::id== | **Buat** |
+| Encore | ==Masih::id== | **Masih** |
+| Aussi | ==Juga::id== | **Juga / Juge** |
 
 ### Verbes Courants
 
 | Français | Standard | Betawi | Exemple |
 | :------: | :------: | :----: | :-----: |
 | Manger | Makan | **Makan** | *Gue mau makan* |
-| Boire | Minum | **Minum / Nginum** | |
+| Boire | Minum | **Minum / Nginum** |  |
 | Dormir | Tidur | **Bobo** | *Gue mau bobo* |
-| Aller | Pergi | **Pergi / Cabut** | |
+| Aller | Pergi | **Pergi / Cabut** |  |
 | Rentrer | Pulang | **Balik** | *Gue balik dulu* |
-| Parler | Berbicara | **Ngomong** | |
-| Voir | Melihat | **Liat / Ngeliat** | |
+| Parler | Berbicara | **Ngomong** |  |
+| Voir | Melihat | **Liat / Ngeliat** |  |
 | Savoir | Tahu | **Tau** | *Gue gak tau* |
-| Pouvoir | Bisa | **Bisa** | |
-| Vouloir | Mau / Ingin | **Mau / Pengen** | |
-| Faire | Membuat | **Bikin** | |
-| Donner | Memberikan | **Kasih** | |
-| Prendre | Mengambil | **Ambil** | |
-| Attendre | Menunggu | **Nungguin** | |
-| Chercher | Mencari | **Nyari** | |
+| Pouvoir | Bisa | **Bisa** |  |
+| Vouloir | Mau / Ingin | **Mau / Pengen** |  |
+| Faire | Membuat | **Bikin** |  |
+| Donner | Memberikan | **Kasih** |  |
+| Prendre | Mengambil | **Ambil** |  |
+| Attendre | Menunggu | **Nungguin** |  |
+| Chercher | Mencari | **Nyari** |  |
 
 ### Adjectifs
 

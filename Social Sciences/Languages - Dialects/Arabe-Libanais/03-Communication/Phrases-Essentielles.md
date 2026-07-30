@@ -14,19 +14,19 @@ Registres : **F** = formel / **C** = courant / **I** = informel
 
 | Français                  | Libanais     | Translittération | Registre |
 | ------------------------- | ------------ | ---------------- | -------- |
-| Bonjour                   | مرحبا        | mar7aba          | C        |
-| Bonjour (réponse)         | مرحبتين      | mar7abtein       | C        |
-| Salut                     | هلا          | hala             | I        |
-| Bonjour (matin)           | صباح الخير   | sabā7 el-khēr    | F/C      |
-| Bonne soirée              | مساء الخير   | masā el-khēr     | F/C      |
-| Comment vas-tu ? (m.)     | كيفك         | kīfak            | C        |
-| Comment vas-tu ? (f.)     | كيفك         | kīfik            | C        |
-| Comment vas-tu ? (formel) | كيف حالك     | kīf 7ālik        | F        |
-| Ça va, merci              | منيح، شكراً  | mnī7, shukran    | C        |
-| Ça va très bien           | تمام         | tamēm            | C/I      |
-| Au revoir                 | مع السلامة   | ma3 el-salēme    | C        |
-| À bientôt                 | يلا باي      | yalla bye        | I        |
-| Bonne nuit                | تصبح على خير | tSba7 3a khēr    | C        |
+| Bonjour | ==مرحبا::ar-lb== | mar7aba | C |
+| Bonjour (réponse) | ==مرحبتين::ar-lb== | mar7abtein | C |
+| Salut | ==هلا::ar-lb== | hala | I |
+| Bonjour (matin) | ==صباح الخير::ar-lb== | sabā7 el-khēr | F/C |
+| Bonne soirée | ==مساء الخير::ar-lb== | masā el-khēr | F/C |
+| Comment vas-tu ? (m.) | ==كيفك::ar-lb== | kīfak | C |
+| Comment vas-tu ? (f.) | ==كيفك::ar-lb== | kīfik | C |
+| Comment vas-tu ? (formel) | ==كيف حالك::ar-lb== | kīf 7ālik | F |
+| Ça va, merci | ==منيح، شكراً::ar-lb== | mnī7, shukran | C |
+| Ça va très bien | ==تمام::ar-lb== | tamēm | C/I |
+| Au revoir | ==مع السلامة::ar-lb== | ma3 el-salēme | C |
+| À bientôt | ==يلا باي::ar-lb== | yalla bye | I |
+| Bonne nuit | ==تصبح على خير::ar-lb== | tSba7 3a khēr | C |
 
 ايه منيح الحمد الله
 
@@ -36,76 +36,76 @@ Registres : **F** = formel / **C** = courant / **I** = informel
 
 | Français            | Libanais     | Translittération | Registre |
 | ------------------- | ------------ | ---------------- | -------- |
-| Merci               | شكراً / مرسي | shukran / mersi  | C        |
-| Merci beaucoup      | شكراً كتير   | shukran ktīr     | C        |
-| De rien             | عفواً        | 3afwan           | F/C      |
-| S'il vous plaît     | من فضلك      | min fadlak       | C        |
-| Pardon / Excuse-moi | عفواً / آسف  | 3afwan / āsif    | C        |
-| Ce n'est pas grave  | ما في شي     | mā fī shi        | C        |
-| Bien sûr            | طبعاً        | Tab3an           | C        |
-| D'accord            | تمام / أوك   | tamēm / ok       | C/I      |
+| Merci | ==شكراً::ar-lb== / ==مرسي::ar-lb== | shukran / mersi | C |
+| Merci beaucoup | ==شكراً كتير::ar-lb== | shukran ktīr | C |
+| De rien | ==عفواً::ar-lb== | 3afwan | F/C |
+| S'il vous plaît | ==من فضلك::ar-lb== | min fadlak | C |
+| Pardon / Excuse-moi | ==عفواً::ar-lb== / ==آسف::ar-lb== | 3afwan / āsif | C |
+| Ce n'est pas grave | ==ما في شي::ar-lb== | mā fī shi | C |
+| Bien sûr | ==طبعاً::ar-lb== | Tab3an | C |
+| D'accord | ==تمام::ar-lb== / ==أوك::ar-lb== | tamēm / ok | C/I |
 
 ## Présentation
 
 | Français                    | Libanais             | Translittération             | Registre |
 | --------------------------- | -------------------- | ---------------------------- | -------- |
-| Je m'appelle...             | اسمي...              | ismi...                      | C        |
-| Comment tu t'appelles ?     | شو اسمك              | shu ismak (m.) / ismik (f.)  | C        |
-| Enchanté(e)                 | تشرفنا               | tsharrafna                   | F/C      |
-| D'où tu viens ?             | منين إنت             | mnēn inta / inti             | C        |
-| Je viens de France          | أنا من فرنسا         | ana min faransa              | C        |
-| J'apprends l'arabe libanais | عم بتعلم عربي لبناني | 3am bta3allam 3arabi libnāni | C        |
+| Je m'appelle... | ==اسمي::ar-lb==... | ismi... | C |
+| Comment tu t'appelles ? | ==شو اسمك::ar-lb== | shu ismak (m.) / ismik (f.) | C |
+| Enchanté(e) | ==تشرفنا::ar-lb== | tsharrafna | F/C |
+| D'où tu viens ? | ==منين إنت::ar-lb== | mnēn inta / inti | C |
+| Je viens de France | ==أنا من فرنسا::ar-lb== | ana min faransa | C |
+| J'apprends l'arabe libanais | ==عم بتعلم عربي لبناني::ar-lb== | 3am bta3allam 3arabi libnāni | C |
 
 ## Incompréhension et aide
 
 | Français | Libanais | Translittération | Registre |
 |----------|----------------|-----------------|----------|
-| Je ne comprends pas | ما فهمت | mā fehimt | C |
-| Tu peux répéter ? | فيك تعيد | fīk t3īd | C |
-| Plus lentement s'il te plaît | شوي شوي | shwayy shwayy | C |
-| Qu'est-ce que ça veut dire ? | شو يعني | shu ya3ni | C |
-| Je ne parle pas bien arabe | ما بحكي عربي منيح | mā be7ki 3arabi mnī7 | C |
-| Tu parles français ? | بتحكي فرنساوي | bte7ki faransāwi | C |
-| Ya3ni... (c-à-d, heu...) | يعني | ya3ni | I — mot de remplissage |
+| Je ne comprends pas | ==ما فهمت::ar-lb== | mā fehimt | C |
+| Tu peux répéter ? | ==فيك تعيد::ar-lb== | fīk t3īd | C |
+| Plus lentement s'il te plaît | ==شوي شوي::ar-lb== | shwayy shwayy | C |
+| Qu'est-ce que ça veut dire ? | ==شو يعني::ar-lb== | shu ya3ni | C |
+| Je ne parle pas bien arabe | ==ما بحكي عربي منيح::ar-lb== | mā be7ki 3arabi mnī7 | C |
+| Tu parles français ? | ==بتحكي فرنساوي::ar-lb== | bte7ki faransāwi | C |
+| Ya3ni... (c-à-d, heu...) | ==يعني::ar-lb== | ya3ni | I — mot de remplissage |
 
 ## Questions pratiques
 
 | Français | Libanais | Translittération | Registre |
 |----------|----------------|-----------------|----------|
-| Où est... ? | وين هو... | wēn huwwe... | C |
-| Combien ça coûte ? | قديش | addēsh | C |
-| C'est trop cher | غالي كتير | ghāli ktīr | C |
-| Je veux... | بدي | biddi... | C |
-| Je n'ai pas besoin | ما بدي | mā biddi | C |
-| Il y a... ? | في... | fī... | C |
-| Il n'y a pas | ما في | mā fī | C |
-| Quand ? | إيمتى | ēmta | C |
-| Où on va ? | وين رايحين | wēn rāy7īn | C |
+| Où est... ? | ==وين هو::ar-lb==... | wēn huwwe... | C |
+| Combien ça coûte ? | ==قديش::ar-lb== | addēsh | C |
+| C'est trop cher | ==غالي كتير::ar-lb== | ghāli ktīr | C |
+| Je veux... | ==بدي::ar-lb== | biddi... | C |
+| Je n'ai pas besoin | ==ما بدي::ar-lb== | mā biddi | C |
+| Il y a... ? | ==في::ar-lb==... | fī... | C |
+| Il n'y a pas | ==ما في::ar-lb== | mā fī | C |
+| Quand ? | ==إيمتى::ar-lb== | ēmta | C |
+| Où on va ? | ==وين رايحين::ar-lb== | wēn rāy7īn | C |
 
 ## Nourriture et restaurant
 
 | Français | Libanais | Translittération | Registre |
 |----------|----------------|-----------------|----------|
-| Je veux manger | بدي آكل | biddi ākul | C |
-| Bon appétit | صحتين | sa77tein | C — litt. "deux santés" |
-| C'est délicieux | كتير تيب | ktīr tayyib | C |
-| L'addition, s'il vous plaît | الحساب | el-7sēb | C |
-| Je t'invite | أنا عازمك | ana 3āzmak | C |
+| Je veux manger | ==بدي آكل::ar-lb== | biddi ākul | C |
+| Bon appétit | ==صحتين::ar-lb== | sa77tein | C — litt. "deux santés" |
+| C'est délicieux | ==كتير تيب::ar-lb== | ktīr tayyib | C |
+| L'addition, s'il vous plaît | ==الحساب::ar-lb== | el-7sēb | C |
+| Je t'invite | ==أنا عازمك::ar-lb== | ana 3āzmak | C |
 
 ## Expressions indispensables
 
 | Français | Libanais | Translittération | Registre |
 |----------|----------------|-----------------|----------|
-| Allez ! / Vite ! / OK | يلا | yalla | I — usage universel |
-| Mon cher / Mon ami (m.) | حبيبي | 7abībi | I — affectif |
-| Mon cher / Mon amie (f.) | حبيبتي | 7abībti | I — affectif |
-| Inch'Allah (si Dieu le veut) | إن شاء الله | inshallah | C — ≈ peut-être |
-| Dieu merci | الحمد لله | el-7amdillah | C |
-| Formule d'hospitalité | تكرم / تكرمي | tkaram / tkarami | C — "vous m'honorez" |
-| Vraiment ? | صحيح ؟ | sa7? | I |
-| C'est sympa / cool | كتير حلو | ktīr 7élo | I |
-| Pas de problème | ما في مشكل | mā fī mushkil | C |
-| Un peu | شوي | shwayy | C |
-| Beaucoup | كتير | ktīr | C |
-| Maintenant | هلق | halla2 | C |
-| Après | بعدين | ba3dēn | C |
+| Allez ! / Vite ! / OK | ==يلا::ar-lb== | yalla | I — usage universel |
+| Mon cher / Mon ami (m.) | ==حبيبي::ar-lb== | 7abībi | I — affectif |
+| Mon cher / Mon amie (f.) | ==حبيبتي::ar-lb== | 7abībti | I — affectif |
+| Inch'Allah (si Dieu le veut) | ==إن شاء الله::ar-lb== | inshallah | C — ≈ peut-être |
+| Dieu merci | ==الحمد لله::ar-lb== | el-7amdillah | C |
+| Formule d'hospitalité | ==تكرم::ar-lb== / ==تكرمي::ar-lb== | tkaram / tkarami | C — "vous m'honorez" |
+| Vraiment ? | ==صحيح ؟::ar-lb== | sa7? | I |
+| C'est sympa / cool | ==كتير حلو::ar-lb== | ktīr 7élo | I |
+| Pas de problème | ==ما في مشكل::ar-lb== | mā fī mushkil | C |
+| Un peu | ==شوي::ar-lb== | shwayy | C |
+| Beaucoup | ==كتير::ar-lb== | ktīr | C |
+| Maintenant | ==هلق::ar-lb== | halla2 | C |
+| Après | ==بعدين::ar-lb== | ba3dēn | C |

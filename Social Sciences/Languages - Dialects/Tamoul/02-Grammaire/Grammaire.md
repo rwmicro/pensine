@@ -30,7 +30,7 @@ Le **tamoul** (தமிழ் - tamiḻ) est une langue **dravidienne** parlée
 | **Usage** | Écriture formelle, littérature, journaux, discours officiels | Conversation quotidienne, films, TV informelle |
 | **Grammaire** | Conservatrice, complexe, archaïque | Simplifiée, innovations modernes |
 | **Vocabulaire** | Sanskrit emprunts, termes purs tamouls | Emprunts anglais, termes régionaux |
-| **Exemple (Je vais)** | நான் செல்கிறேன் (nāṉ celkiṟēṉ) | நான் போறேன் (nāṉ pōṟēṉ) |
+| **Exemple (Je vais)** | ==நான் செல்கிறேன்::ta== (nāṉ celkiṟēṉ) | ==நான் போறேன்::ta== (nāṉ pōṟēṉ) |
 
 **Note pour apprenants :** Ce cours enseigne principalement le **tamoul parlé** (plus utile), avec mentions du littéraire.
 
@@ -40,7 +40,7 @@ Le **tamoul** (தமிழ் - tamiḻ) est une langue **dravidienne** parlée
 
 | Français (SVO) | Tamoul (SOV) | Translittération |
 |---------------|------------|-----------------|
-| **Je** mange du riz | **நான்** சாதம் **சாப்பிடுகிறேன்** | **Nāṉ** cātam **cāppiṭukiṟēṉ** |
+| **Je** mange du riz | **==நான்::ta==** ==சாதம்::ta== **==சாப்பிடுகிறேன்::ta==** | **Nāṉ** cātam **cāppiṭukiṟēṉ** |
 | Sujet + Verbe + Objet | Sujet + Objet + Verbe | S + O + V |
 
 **Structure détaillée :**
@@ -58,19 +58,19 @@ Le **tamoul** (தமிழ் - tamiḻ) est une langue **dravidienne** parlée
 
 | Français | Tamoul | Translittération | Genre |
 |---------|--------|-----------------|-------|
-| Je | நான் | nāṉ | Neutre |
-| Tu (informel) | நீ | nī | Neutre |
-| Vous (formel, singulier) | நீங்கள் | nīṅkaḷ | Neutre |
-| Il | அவன் | avaṉ | Masculin (humain, informel) |
-| Il (formel/neutre) | அவர் | avar | Masculin (respect) |
-| Elle | அவள் | avaḷ | Féminin (humain, informel) |
-| Elle (formel) | அவர் | avar | Féminin (respect) |
-| Ça/Il/Elle (chose) | அது | atu | Neutre (non-humain) |
-| Nous (inclusif) | நாம் | nām | Inclusif (toi + moi) |
-| Nous (exclusif) | நாங்கள் | nāṅkaḷ | Exclusif (pas toi) |
-| Vous (pluriel) | நீங்கள் | nīṅkaḷ | Pluriel/Formel |
-| Ils/Elles (humains) | அவர்கள் | avarkaḷ | Humains |
-| Ils/Elles (choses) | அவை | avai | Non-humains |
+| Je | ==நான்::ta== | nāṉ | Neutre |
+| Tu (informel) | ==நீ::ta== | nī | Neutre |
+| Vous (formel, singulier) | ==நீங்கள்::ta== | nīṅkaḷ | Neutre |
+| Il | ==அவன்::ta== | avaṉ | Masculin (humain, informel) |
+| Il (formel/neutre) | ==அவர்::ta== | avar | Masculin (respect) |
+| Elle | ==அவள்::ta== | avaḷ | Féminin (humain, informel) |
+| Elle (formel) | ==அவர்::ta== | avar | Féminin (respect) |
+| Ça/Il/Elle (chose) | ==அது::ta== | atu | Neutre (non-humain) |
+| Nous (inclusif) | ==நாம்::ta== | nām | Inclusif (toi + moi) |
+| Nous (exclusif) | ==நாங்கள்::ta== | nāṅkaḷ | Exclusif (pas toi) |
+| Vous (pluriel) | ==நீங்கள்::ta== | nīṅkaḷ | Pluriel/Formel |
+| Ils/Elles (humains) | ==அவர்கள்::ta== | avarkaḷ | Humains |
+| Ils/Elles (choses) | ==அவை::ta== | avai | Non-humains |
 
 **Niveaux de Politesse :**
 - **நீ (nī)** : Très informel, enfants, amis très proches, animaux
@@ -106,18 +106,18 @@ Le tamoul a **trois genres** :
 
 | Singulier | Pluriel | Traduction |
 |-----------|---------|------------|
-| பையன் (paiyaṉ) | பையன்**கள்** (paiyaṉ**kaḷ**) | garçons |
-| பெண் (peṇ) | பெண்**கள்** (peṇ**kaḷ**) | femmes |
-| ஆசிரியர் (āciriyar) | ஆசிரியர்**கள்** (āciriyar**kaḷ**) | professeurs |
+| ==பையன்::ta== (paiyaṉ) | ==பையன்::ta==**==கள்::ta==** (paiyaṉ**kaḷ**) | garçons |
+| ==பெண்::ta== (peṇ) | ==பெண்::ta==**==கள்::ta==** (peṇ**kaḷ**) | femmes |
+| ==ஆசிரியர்::ta== (āciriyar) | ==ஆசிரியர்::ta==**==கள்::ta==** (āciriyar**kaḷ**) | professeurs |
 
 #### Pour les Non-Humains
 **Suffixe :** **-கள்** (-kaḷ) ou **இன்** (-iṉ) selon le mot
 
 | Singulier | Pluriel | Traduction |
 |-----------|---------|------------|
-| புத்தகம் (puttakam) | புத்தகங்கள் (puttakaṅkaḷ) | livres |
-| மரம் (maram) | மரங்கள் (maraṅkaḷ) | arbres |
-| நாய் (nāy) | நாய்கள் (nāykaḷ) | chiens |
+| ==புத்தகம்::ta== (puttakam) | ==புத்தகங்கள்::ta== (puttakaṅkaḷ) | livres |
+| ==மரம்::ta== (maram) | ==மரங்கள்::ta== (maraṅkaḷ) | arbres |
+| ==நாய்::ta== (nāy) | ==நாய்கள்::ta== (nāykaḷ) | chiens |
 
 **Règle d'euphonie :** Le suffixe peut changer selon la terminaison du mot (நாய் + கள் → நாய்கள்)
 
@@ -127,25 +127,25 @@ Le tamoul a **8 cas** formés par des **suffixes** (langue agglutinante).
 
 | Cas | Fonction | Suffixe (variable) | Exemple |
 |-----|----------|-------------------|---------|
-| **Nominatif** | Sujet | ∅ (rien) | மனிதன் (maṉitaṉ, l'homme) |
-| **Accusatif** | Objet direct | -ஐ (-ai) | மனிதனை (maṉitaṉai, l'homme - objet) |
-| **Datif** | À, pour | -க்கு (-kku) | மனிதனுக்கு (maṉitaṉukku, à l'homme) |
-| **Instrumental** | Avec, par | -ஆல் (-āl) | மனிதனால் (maṉitaṉāl, par l'homme) |
-| **Ablatif** | De, depuis | -இல் இருந்து (-il iruntu) | மனிதனிடமிருந்து (de l'homme) |
-| **Génitif** | De (possession) | -உடைய (-uṭaiya) / -இன் (-iṉ) | மனிதனின் (maṉitaṉiṉ, de l'homme) |
-| **Locatif** | Dans, sur | -இல் (-il) | வீட்டில் (vīṭṭil, dans la maison) |
-| **Vocatif** | Ô (interpellation) | -ஏ (-ē) | மனிதனே! (maṉitaṉē!, Ô homme!) |
+| **Nominatif** | Sujet | ∅ (rien) | ==மனிதன்::ta== (maṉitaṉ, l'homme) |
+| **Accusatif** | Objet direct | -==ஐ::ta== (-ai) | ==மனிதனை::ta== (maṉitaṉai, l'homme - objet) |
+| **Datif** | À, pour | -==க்கு::ta== (-kku) | ==மனிதனுக்கு::ta== (maṉitaṉukku, à l'homme) |
+| **Instrumental** | Avec, par | -==ஆல்::ta== (-āl) | ==மனிதனால்::ta== (maṉitaṉāl, par l'homme) |
+| **Ablatif** | De, depuis | -==இல் இருந்து::ta== (-il iruntu) | ==மனிதனிடமிருந்து::ta== (de l'homme) |
+| **Génitif** | De (possession) | -==உடைய::ta== (-uṭaiya) / -==இன்::ta== (-iṉ) | ==மனிதனின்::ta== (maṉitaṉiṉ, de l'homme) |
+| **Locatif** | Dans, sur | -==இல்::ta== (-il) | ==வீட்டில்::ta== (vīṭṭil, dans la maison) |
+| **Vocatif** | Ô (interpellation) | -==ஏ::ta== (-ē) | ==மனிதனே::ta==! (maṉitaṉē!, Ô homme!) |
 
 ### Exemples avec வீடு (vīṭu, maison)
 
 | Cas | Forme | Traduction |
 |-----|-------|------------|
-| Nominatif | வீடு | La maison (sujet) |
-| Accusatif | வீட்டை (vīṭṭai) | La maison (objet) |
-| Datif | வீட்டுக்கு (vīṭṭukku) | À la maison |
-| Instrumental | வீட்டால் (vīṭṭāl) | Par la maison |
-| Génitif | வீட்டின் (vīṭṭiṉ) | De la maison |
-| Locatif | வீட்டில் (vīṭṭil) | Dans la maison |
+| Nominatif | ==வீடு::ta== | La maison (sujet) |
+| Accusatif | ==வீட்டை::ta== (vīṭṭai) | La maison (objet) |
+| Datif | ==வீட்டுக்கு::ta== (vīṭṭukku) | À la maison |
+| Instrumental | ==வீட்டால்::ta== (vīṭṭāl) | Par la maison |
+| Génitif | ==வீட்டின்::ta== (vīṭṭiṉ) | De la maison |
+| Locatif | ==வீட்டில்::ta== (vīṭṭil) | Dans la maison |
 
 **Note :** Les suffixes changent selon la terminaison du mot (sandhi).
 
@@ -155,12 +155,12 @@ Le tamoul utilise des **postpositions** (placées après le nom) plutôt que des
 
 | Français | Tamoul | Exemple |
 |---------|--------|---------|
-| Après | -க்குப் பிறகு (-kkup piṟaku) | பள்ளிக்குப் பிறகு (après l'école) |
-| Avant | -க்கு முன் (-kku muṉ) | சாப்பாட்டுக்கு முன் (avant le repas) |
-| Avec | -உடன் (-uṭaṉ) | என்னுடன் (avec moi) |
-| Sans | -இல்லாமல் (-illāmal) | பணம் இல்லாமல் (sans argent) |
-| Pour | -க்காக (-kkāka) | உனக்காக (pour toi) |
-| À cause de | -ஆல் (-āl) | மழையால் (à cause de la pluie) |
+| Après | -==க்குப் பிறகு::ta== (-kkup piṟaku) | ==பள்ளிக்குப் பிறகு::ta== (après l'école) |
+| Avant | -==க்கு முன்::ta== (-kku muṉ) | ==சாப்பாட்டுக்கு முன்::ta== (avant le repas) |
+| Avec | -==உடன்::ta== (-uṭaṉ) | ==என்னுடன்::ta== (avec moi) |
+| Sans | -==இல்லாமல்::ta== (-illāmal) | ==பணம் இல்லாமல்::ta== (sans argent) |
+| Pour | -==க்காக::ta== (-kkāka) | ==உனக்காக::ta== (pour toi) |
+| À cause de | -==ஆல்::ta== (-āl) | ==மழையால்::ta== (à cause de la pluie) |
 
 ## Verbes
 
@@ -179,15 +179,15 @@ Racine + Suffixe Temporel + Suffixe Personnel
 
 | Tamoul | Translittération | Français |
 |--------|-----------------|----------|
-| போக | pōka | Aller |
-| வர | vara | Venir |
-| சாப்பிட | cāppiṭa | Manger |
-| குடிக்க | kuṭikka | Boire |
-| படிக்க | paṭikka | Lire/Étudier |
-| பேச | pēca | Parler |
-| எழுத | eḻuta | Écrire |
-| பார்க்க | pārkka | Voir |
-| கேட்க | kēṭka | Entendre/Demander |
+| ==போக::ta== | pōka | Aller |
+| ==வர::ta== | vara | Venir |
+| ==சாப்பிட::ta== | cāppiṭa | Manger |
+| ==குடிக்க::ta== | kuṭikka | Boire |
+| ==படிக்க::ta== | paṭikka | Lire/Étudier |
+| ==பேச::ta== | pēca | Parler |
+| ==எழுத::ta== | eḻuta | Écrire |
+| ==பார்க்க::ta== | pārkka | Voir |
+| ==கேட்க::ta== | kēṭka | Entendre/Demander |
 
 ### Présent Simple
 
@@ -197,15 +197,15 @@ Racine + Suffixe Temporel + Suffixe Personnel
 
 | Pronom | Forme | Translittération | Français |
 |--------|-------|-----------------|----------|
-| நான் | போகிறேன் | pōkiṟēṉ | Je vais |
-| நீ | போகிறாய் | pōkiṟāy | Tu vas (informel) |
-| நீங்கள் | போகிறீர்கள் | pōkiṟīrkaḷ | Vous allez |
-| அவன் | போகிறான் | pōkiṟāṉ | Il va (masc.) |
-| அவள் | போகிறாள் | pōkiṟāḷ | Elle va |
-| அவர் | போகிறார் | pōkiṟār | Il/Elle va (formel) |
-| அது | போகிறது | pōkiṟatu | Ça va (neutre) |
-| நாம்/நாங்கள் | போகிறோம் | pōkiṟōm | Nous allons |
-| அவர்கள் | போகிறார்கள் | pōkiṟārkaḷ | Ils/Elles vont |
+| ==நான்::ta== | ==போகிறேன்::ta== | pōkiṟēṉ | Je vais |
+| ==நீ::ta== | ==போகிறாய்::ta== | pōkiṟāy | Tu vas (informel) |
+| ==நீங்கள்::ta== | ==போகிறீர்கள்::ta== | pōkiṟīrkaḷ | Vous allez |
+| ==அவன்::ta== | ==போகிறான்::ta== | pōkiṟāṉ | Il va (masc.) |
+| ==அவள்::ta== | ==போகிறாள்::ta== | pōkiṟāḷ | Elle va |
+| ==அவர்::ta== | ==போகிறார்::ta== | pōkiṟār | Il/Elle va (formel) |
+| ==அது::ta== | ==போகிறது::ta== | pōkiṟatu | Ça va (neutre) |
+| ==நாம்::ta==/==நாங்கள்::ta== | ==போகிறோம்::ta== | pōkiṟōm | Nous allons |
+| ==அவர்கள்::ta== | ==போகிறார்கள்::ta== | pōkiṟārkaḷ | Ils/Elles vont |
 
 **Terminaisons personnelles :**
 - 1ère pers. sing. : **-ஏன்** (-ēṉ)
@@ -223,15 +223,15 @@ Racine + Suffixe Temporel + Suffixe Personnel
 
 | Pronom | Forme | Translittération | Français |
 |--------|-------|-----------------|----------|
-| நான் | போனேன் | pōṉēṉ | Je suis allé(e) |
-| நீ | போனாய் | pōṉāy | Tu es allé(e) |
-| நீங்கள் | போனீர்கள் | pōṉīrkaḷ | Vous êtes allé(e)(s) |
-| அவன் | போனான் | pōṉāṉ | Il est allé |
-| அவள் | போனாள் | pōṉāḷ | Elle est allée |
-| அவர் | போனார் | pōṉār | Il/Elle est allé(e) (formel) |
-| அது | போனது | pōṉatu | C'est allé (neutre) |
-| நாம்/நாங்கள் | போனோம் | pōṉōm | Nous sommes allé(e)s |
-| அவர்கள் | போனார்கள் | pōṉārkaḷ | Ils/Elles sont allé(e)s |
+| ==நான்::ta== | ==போனேன்::ta== | pōṉēṉ | Je suis allé(e) |
+| ==நீ::ta== | ==போனாய்::ta== | pōṉāy | Tu es allé(e) |
+| ==நீங்கள்::ta== | ==போனீர்கள்::ta== | pōṉīrkaḷ | Vous êtes allé(e)(s) |
+| ==அவன்::ta== | ==போனான்::ta== | pōṉāṉ | Il est allé |
+| ==அவள்::ta== | ==போனாள்::ta== | pōṉāḷ | Elle est allée |
+| ==அவர்::ta== | ==போனார்::ta== | pōṉār | Il/Elle est allé(e) (formel) |
+| ==அது::ta== | ==போனது::ta== | pōṉatu | C'est allé (neutre) |
+| ==நாம்::ta==/==நாங்கள்::ta== | ==போனோம்::ta== | pōṉōm | Nous sommes allé(e)s |
+| ==அவர்கள்::ta== | ==போனார்கள்::ta== | pōṉārkaḷ | Ils/Elles sont allé(e)s |
 
 **Suffixe passé :** **-ன்** (-ṉ) ou **-த்** (-t) selon le verbe (irrégulier, nécessite mémorisation)
 
@@ -243,15 +243,15 @@ Racine + Suffixe Temporel + Suffixe Personnel
 
 | Pronom | Forme | Translittération | Français |
 |--------|-------|-----------------|----------|
-| நான் | போவேன் | pōvēṉ | J'irai |
-| நீ | போவாய் | pōvāy | Tu iras |
-| நீங்கள் | போவீர்கள் | pōvīrkaḷ | Vous irez |
-| அவன் | போவான் | pōvāṉ | Il ira |
-| அவள் | போவாள் | pōvāḷ | Elle ira |
-| அவர் | போவார் | pōvār | Il/Elle ira (formel) |
-| அது | போவது | pōvatu | Ça ira |
-| நாம்/நாங்கள் | போவோம் | pōvōm | Nous irons |
-| அவர்கள் | போவார்கள் | pōvārkaḷ | Ils/Elles iront |
+| ==நான்::ta== | ==போவேன்::ta== | pōvēṉ | J'irai |
+| ==நீ::ta== | ==போவாய்::ta== | pōvāy | Tu iras |
+| ==நீங்கள்::ta== | ==போவீர்கள்::ta== | pōvīrkaḷ | Vous irez |
+| ==அவன்::ta== | ==போவான்::ta== | pōvāṉ | Il ira |
+| ==அவள்::ta== | ==போவாள்::ta== | pōvāḷ | Elle ira |
+| ==அவர்::ta== | ==போவார்::ta== | pōvār | Il/Elle ira (formel) |
+| ==அது::ta== | ==போவது::ta== | pōvatu | Ça ira |
+| ==நாம்::ta==/==நாங்கள்::ta== | ==போவோம்::ta== | pōvōm | Nous irons |
+| ==அவர்கள்::ta== | ==போவார்கள்::ta== | pōvārkaḷ | Ils/Elles iront |
 
 ### Impératif
 
@@ -259,10 +259,10 @@ Racine + Suffixe Temporel + Suffixe Personnel
 
 | Forme | Translittération | Français |
 |-------|-----------------|----------|
-| போ! | pō! | Va! (informel) |
-| போங்கள்! | pōṅkaḷ! | Allez! (formel/pluriel) |
-| சாப்பிடு! | cāppiṭu! | Mange! |
-| படி! | paṭi! | Lis!/Étudie! |
+| ==போ::ta==! | pō! | Va! (informel) |
+| ==போங்கள்::ta==! | pōṅkaḷ! | Allez! (formel/pluriel) |
+| ==சாப்பிடு::ta==! | cāppiṭu! | Mange! |
+| ==படி::ta==! | paṭi! | Lis!/Étudie! |
 
 ### Négation
 
@@ -285,9 +285,9 @@ Le tamoul a **deux verbes "être"** :
 
 | Pronom | Présent | Passé | Futur |
 |--------|---------|-------|-------|
-| நான் | இருக்கிறேன் (irukkiṟēṉ) | இருந்தேன் (iruntēṉ) | இருப்பேன் (iruppēṉ) |
-| நீ | இருக்கிறாய் (irukkiṟāy) | இருந்தாய் (iruntāy) | இருப்பாய் (iruppāy) |
-| அவன் | இருக்கிறான் (irukkiṟāṉ) | இருந்தான் (iruntāṉ) | இருப்பான் (iruppāṉ) |
+| ==நான்::ta== | ==இருக்கிறேன்::ta== (irukkiṟēṉ) | ==இருந்தேன்::ta== (iruntēṉ) | ==இருப்பேன்::ta== (iruppēṉ) |
+| ==நீ::ta== | ==இருக்கிறாய்::ta== (irukkiṟāy) | ==இருந்தாய்::ta== (iruntāy) | ==இருப்பாய்::ta== (iruppāy) |
+| ==அவன்::ta== | ==இருக்கிறான்::ta== (irukkiṟāṉ) | ==இருந்தான்::ta== (iruntāṉ) | ==இருப்பான்::ta== (iruppāṉ) |
 
 **Usage :** Localisation, état temporaire
 - நான் வீட்டில் இருக்கிறேன் (nāṉ vīṭṭil irukkiṟēṉ) = Je suis à la maison
@@ -356,14 +356,14 @@ Les adjectifs sont **invariables** (ne s'accordent pas en genre/nombre)
 
 | Français | Tamoul | Translittération | Exemple |
 |---------|--------|-----------------|---------|
-| Qui ? | யார்? | yār? | நீ யார்? (nī yār?, Qui es-tu?) |
-| Quoi ? | என்ன? | eṉṉa? | என்ன செய்கிறாய்? (Que fais-tu?) |
-| Où ? | எங்கே? | eṅkē? | நீ எங்கே போகிறாய்? (Où vas-tu?) |
-| Quand ? | எப்போது? | eppōtu? | எப்போது வருவாய்? (Quand viendras-tu?) |
-| Pourquoi ? | ஏன்? | ēṉ? | ஏன் வரவில்லை? (Pourquoi n'es-tu pas venu?) |
-| Comment ? | எப்படி? | eppaṭi? | நீ எப்படி இருக்கிறாய்? (Comment vas-tu?) |
-| Combien ? | எவ்வளவு? | evvaḷavu? | எவ்வளவு காசு? (Combien d'argent?) |
-| Quel/Quelle ? | எந்த? | enta? | எந்த புத்தகம்? (Quel livre?) |
+| Qui ? | ==யார்::ta==? | yār? | ==நீ யார்::ta==? (nī yār?, Qui es-tu?) |
+| Quoi ? | ==என்ன::ta==? | eṉṉa? | ==என்ன செய்கிறாய்::ta==? (Que fais-tu?) |
+| Où ? | ==எங்கே::ta==? | eṅkē? | ==நீ எங்கே போகிறாய்::ta==? (Où vas-tu?) |
+| Quand ? | ==எப்போது::ta==? | eppōtu? | ==எப்போது வருவாய்::ta==? (Quand viendras-tu?) |
+| Pourquoi ? | ==ஏன்::ta==? | ēṉ? | ==ஏன் வரவில்லை::ta==? (Pourquoi n'es-tu pas venu?) |
+| Comment ? | ==எப்படி::ta==? | eppaṭi? | ==நீ எப்படி இருக்கிறாய்::ta==? (Comment vas-tu?) |
+| Combien ? | ==எவ்வளவு::ta==? | evvaḷavu? | ==எவ்வளவு காசு::ta==? (Combien d'argent?) |
+| Quel/Quelle ? | ==எந்த::ta==? | enta? | ==எந்த புத்தகம்::ta==? (Quel livre?) |
 
 ## Participes et Formes Verbales Relatives
 
@@ -400,16 +400,16 @@ Les adjectifs sont **invariables** (ne s'accordent pas en genre/nombre)
 
 | Français | Tamoul | Translittération |
 |---------|--------|-----------------|
-| Maintenant | இப்போது | ippōtu |
-| Hier | நேற்று | nēṟṟu |
-| Aujourd'hui | இன்று | iṉṟu |
-| Demain | நாளை | nāḷai |
-| Toujours | எப்போதும் | eppōtum |
-| Jamais | ஒருபோதும் இல்லை | orupōtum illai |
-| Très | மிகவும் | mikavum |
-| Vite | விரைவாக | viraivāka |
-| Lentement | மெதுவாக | metuvāka |
-| Bien | நன்றாக | naṉṟāka |
+| Maintenant | ==இப்போது::ta== | ippōtu |
+| Hier | ==நேற்று::ta== | nēṟṟu |
+| Aujourd'hui | ==இன்று::ta== | iṉṟu |
+| Demain | ==நாளை::ta== | nāḷai |
+| Toujours | ==எப்போதும்::ta== | eppōtum |
+| Jamais | ==ஒருபோதும் இல்லை::ta== | orupōtum illai |
+| Très | ==மிகவும்::ta== | mikavum |
+| Vite | ==விரைவாக::ta== | viraivāka |
+| Lentement | ==மெதுவாக::ta== | metuvāka |
+| Bien | ==நன்றாக::ta== | naṉṟāka |
 
 ## Particularités Grammaticales
 
@@ -441,12 +441,12 @@ Le **pluriel** peut indiquer le **respect** (comme "vous" en français).
 
 | Tamoul | Translittération | Français |
 |--------|-----------------|----------|
-| நான் சாப்பிடுகிறேன் | nāṉ cāppiṭukiṟēṉ | Je mange |
-| நீ எங்கே போகிறாய்? | nī eṅkē pōkiṟāy? | Où vas-tu? |
-| அவன் புத்தகம் படிக்கிறான் | avaṉ puttakam paṭikkiṟāṉ | Il lit un livre |
-| நாங்கள் நாளை வருவோம் | nāṅkaḷ nāḷai varuvōm | Nous viendrons demain |
-| இது என்ன? | itu eṉṉa? | Qu'est-ce que c'est? |
-| எனக்கு தமிழ் தெரியும் | eṉakku tamiḻ teriyum | Je connais le tamoul |
+| ==நான் சாப்பிடுகிறேன்::ta== | nāṉ cāppiṭukiṟēṉ | Je mange |
+| ==நீ எங்கே போகிறாய்::ta==? | nī eṅkē pōkiṟāy? | Où vas-tu? |
+| ==அவன் புத்தகம் படிக்கிறான்::ta== | avaṉ puttakam paṭikkiṟāṉ | Il lit un livre |
+| ==நாங்கள் நாளை வருவோம்::ta== | nāṅkaḷ nāḷai varuvōm | Nous viendrons demain |
+| ==இது என்ன::ta==? | itu eṉṉa? | Qu'est-ce que c'est? |
+| ==எனக்கு தமிழ் தெரியும்::ta== | eṉakku tamiḻ teriyum | Je connais le tamoul |
 
 ## Ressources
 

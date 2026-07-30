@@ -12,112 +12,112 @@ date: "2026-02-04"
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Ville | Kota | - | /ko.ˈta/ |
-| Village | Desa | Kampung | /də.ˈsa/ |
-| Rue | Jalan | - | /dʒa.ˈlan/ |
-| Ruelle | Gang | - | /gaŋ/ |
-| Quartier | Lingkungan | - | /liŋ.ku.ˈŋan/ |
-| Place | Alun-alun | - | /a.lun a.ˈlun/ |
-| Parc | Taman | - | /ta.ˈman/ |
-| Pont | Jembatan | - | /dʒəm.ba.ˈtan/ |
-| Carrefour | Perempatan | - | /pə.rəm.pa.ˈtan/ |
-| Rond-point | Bundaran | - | /bun.da.ˈran/ |
-| Parking | Parkir | - | /par.ˈkir/ |
+| Ville | ==Kota::id== | - | /ko.ˈta/ |
+| Village | ==Desa::id== | Kampung | /də.ˈsa/ |
+| Rue | ==Jalan::id== | - | /dʒa.ˈlan/ |
+| Ruelle | ==Gang::id== | - | /gaŋ/ |
+| Quartier | ==Lingkungan::id== | - | /liŋ.ku.ˈŋan/ |
+| Place | ==Alun-alun::id== | - | /a.lun a.ˈlun/ |
+| Parc | ==Taman::id== | - | /ta.ˈman/ |
+| Pont | ==Jembatan::id== | - | /dʒəm.ba.ˈtan/ |
+| Carrefour | ==Perempatan::id== | - | /pə.rəm.pa.ˈtan/ |
+| Rond-point | ==Bundaran::id== | - | /bun.da.ˈran/ |
+| Parking | ==Parkir::id== | - | /par.ˈkir/ |
 
 ## Commerce
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Magasin | Toko | - | /to.ˈko/ |
-| Supermarché | Supermarket | - | /su.pər.mar.ˈkət/ |
-| Centre commercial | Mall | Mol | /mal/ |
-| Marché | Pasar | - | /pa.ˈsar/ |
-| Marché de nuit | Pasar malam | - | /pa.sar ma.ˈlam/ |
-| Épicerie | Warung | - | /wa.ˈruŋ/ |
-| Boulangerie | Toko roti | - | /to.ko ro.ˈti/ |
-| Boucherie | Toko daging | - | /to.ko da.ˈgiŋ/ |
-| Pharmacie | Apotek | - | /a.po.ˈtɛk/ |
-| Librairie | Toko buku | - | /to.ko bu.ˈku/ |
-| Kiosque | Kios | - | /ki.ˈos/ |
+| Magasin | ==Toko::id== | - | /to.ˈko/ |
+| Supermarché | ==Supermarket::id== | - | /su.pər.mar.ˈkət/ |
+| Centre commercial | ==Mall::id== | Mol | /mal/ |
+| Marché | ==Pasar::id== | - | /pa.ˈsar/ |
+| Marché de nuit | ==Pasar malam::id== | - | /pa.sar ma.ˈlam/ |
+| Épicerie | ==Warung::id== | - | /wa.ˈruŋ/ |
+| Boulangerie | ==Toko roti::id== | - | /to.ko ro.ˈti/ |
+| Boucherie | ==Toko daging::id== | - | /to.ko da.ˈgiŋ/ |
+| Pharmacie | ==Apotek::id== | - | /a.po.ˈtɛk/ |
+| Librairie | ==Toko buku::id== | - | /to.ko bu.ˈku/ |
+| Kiosque | ==Kios::id== | - | /ki.ˈos/ |
 
 ## Restauration
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Restaurant | Restoran | Resto | /rɛs.to.ˈran/ |
-| Café | Kafe | - | /ka.ˈfɛ/ |
-| Cantine | Kantin | - | /kan.ˈtin/ |
-| Warung (petit resto) | Warung | - | /wa.ˈruŋ/ |
-| Street food | Kaki lima | - | /ka.ki li.ˈma/ |
-| Bar | Bar | - | /bar/ |
-| Brasserie | Kedai | - | /kə.ˈdai/ |
+| Restaurant | ==Restoran::id== | Resto | /rɛs.to.ˈran/ |
+| Café | ==Kafe::id== | - | /ka.ˈfɛ/ |
+| Cantine | ==Kantin::id== | - | /kan.ˈtin/ |
+| Warung (petit resto) | ==Warung::id== | - | /wa.ˈruŋ/ |
+| Street food | ==Kaki lima::id== | - | /ka.ki li.ˈma/ |
+| Bar | ==Bar::id== | - | /bar/ |
+| Brasserie | ==Kedai::id== | - | /kə.ˈdai/ |
 
 ## Éducation
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| École | Sekolah | - | /sə.ko.ˈlah/ |
-| École primaire | SD (Sekolah Dasar) | - | /ɛs.ˈdɛ/ |
-| Collège | SMP | - | /ɛs.ɛm.ˈpɛ/ |
-| Lycée | SMA | - | /ɛs.ɛm.ˈa/ |
-| Université | Universitas | Kampus | /u.ni.vɛr.si.ˈtas/ |
-| Bibliothèque | Perpustakaan | Perpus | /pər.pus.ta.ka.ˈan/ |
-| Salle de classe | Kelas | - | /kə.ˈlas/ |
+| École | ==Sekolah::id== | - | /sə.ko.ˈlah/ |
+| École primaire | ==SD::id== | - | /ɛs.ˈdɛ/ |
+| Collège | ==SMP::id== | - | /ɛs.ɛm.ˈpɛ/ |
+| Lycée | ==SMA::id== | - | /ɛs.ɛm.ˈa/ |
+| Université | ==Universitas::id== | Kampus | /u.ni.vɛr.si.ˈtas/ |
+| Bibliothèque | ==Perpustakaan::id== | Perpus | /pər.pus.ta.ka.ˈan/ |
+| Salle de classe | ==Kelas::id== | - | /kə.ˈlas/ |
 
 ## Services Publics
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Hôpital | Rumah sakit | RS | /ru.mah sa.ˈkit/ |
-| Clinique | Klinik | - | /kli.ˈnik/ |
-| Poste de police | Kantor polisi | - | /kan.tor po.li.ˈsi/ |
-| Mairie | Balai kota | - | /ba.lai ko.ˈta/ |
-| Poste | Kantor pos | - | /kan.tor pos/ |
-| Banque | Bank | - | /baŋk/ |
-| Ambassade | Kedutaan | - | /kə.du.ta.ˈan/ |
-| Tribunal | Pengadilan | - | /pə.ŋa.di.ˈlan/ |
+| Hôpital | ==Rumah sakit::id== | RS | /ru.mah sa.ˈkit/ |
+| Clinique | ==Klinik::id== | - | /kli.ˈnik/ |
+| Poste de police | ==Kantor polisi::id== | - | /kan.tor po.li.ˈsi/ |
+| Mairie | ==Balai kota::id== | - | /ba.lai ko.ˈta/ |
+| Poste | ==Kantor pos::id== | - | /kan.tor pos/ |
+| Banque | ==Bank::id== | - | /baŋk/ |
+| Ambassade | ==Kedutaan::id== | - | /kə.du.ta.ˈan/ |
+| Tribunal | ==Pengadilan::id== | - | /pə.ŋa.di.ˈlan/ |
 
 ## Religion
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Mosquée | Masjid | /mas.ˈdʒid/ |
-| Église | Gereja | /gə.rə.ˈdʒa/ |
-| Temple (hindou) | Pura | /pu.ˈra/ |
-| Temple (bouddhiste) | Vihara | /vi.ha.ˈra/ |
-| Temple (chinois) | Klenteng | /klən.ˈtəŋ/ |
+| Mosquée | ==Masjid::id== | /mas.ˈdʒid/ |
+| Église | ==Gereja::id== | /gə.rə.ˈdʒa/ |
+| Temple (hindou) | ==Pura::id== | /pu.ˈra/ |
+| Temple (bouddhiste) | ==Vihara::id== | /vi.ha.ˈra/ |
+| Temple (chinois) | ==Klenteng::id== | /klən.ˈtəŋ/ |
 
 ## Transport
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Gare | Stasiun | - | /sta.si.ˈun/ |
-| Arrêt de bus | Halte bus | - | /hal.tə bus/ |
-| Aéroport | Bandara | - | /ban.da.ˈra/ |
-| Port | Pelabuhan | - | /pə.la.bu.ˈhan/ |
-| Station essence | Pom bensin | SPBU | /pom bɛn.ˈsin/ |
+| Gare | ==Stasiun::id== | - | /sta.si.ˈun/ |
+| Arrêt de bus | ==Halte bus::id== | - | /hal.tə bus/ |
+| Aéroport | ==Bandara::id== | - | /ban.da.ˈra/ |
+| Port | ==Pelabuhan::id== | - | /pə.la.bu.ˈhan/ |
+| Station essence | ==Pom bensin::id== | SPBU | /pom bɛn.ˈsin/ |
 
 ## Loisirs
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Cinéma | Bioskop | - | /bi.os.ˈkop/ |
-| Musée | Museum | - | /mu.sɛ.ˈum/ |
-| Stade | Stadion | - | /sta.di.ˈon/ |
-| Piscine | Kolam renang | - | /ko.lam rə.ˈnaŋ/ |
-| Salle de sport | Gym | - | /dʒim/ |
-| Discothèque | Klub malam | - | /klub ma.ˈlam/ |
-| Plage | Pantai | - | /pan.ˈtai/ |
+| Cinéma | ==Bioskop::id== | - | /bi.os.ˈkop/ |
+| Musée | ==Museum::id== | - | /mu.sɛ.ˈum/ |
+| Stade | ==Stadion::id== | - | /sta.di.ˈon/ |
+| Piscine | ==Kolam renang::id== | - | /ko.lam rə.ˈnaŋ/ |
+| Salle de sport | ==Gym::id== | - | /dʒim/ |
+| Discothèque | ==Klub malam::id== | - | /klub ma.ˈlam/ |
+| Plage | ==Pantai::id== | - | /pan.ˈtai/ |
 
 ## Hébergement
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Hôtel | Hotel | - | /ho.ˈtɛl/ |
-| Auberge | Penginapan | - | /pə.ŋi.na.ˈpan/ |
-| Guest house | Losmen | - | /los.ˈmɛn/ |
-| Appartement | Apartemen | - | /a.par.tə.ˈmɛn/ |
-| Kost (chambre étudiante) | Kost | - | /kos/ |
+| Hôtel | ==Hotel::id== | - | /ho.ˈtɛl/ |
+| Auberge | ==Penginapan::id== | - | /pə.ŋi.na.ˈpan/ |
+| Guest house | ==Losmen::id== | - | /los.ˈmɛn/ |
+| Appartement | ==Apartemen::id== | - | /a.par.tə.ˈmɛn/ |
+| Kost (chambre étudiante) | ==Kost::id== | - | /kos/ |
 
 ## Expressions Utiles
 

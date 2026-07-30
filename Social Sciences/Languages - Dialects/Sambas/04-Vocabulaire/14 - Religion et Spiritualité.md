@@ -12,19 +12,19 @@ date: "2026-02-19"
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|
-| Abbang | Azan / Mengumandangkan azan | Appel à la prière |
-| Adat | Kebiasaan / Tradisi / Sopan santun | Coutume / Tradition |
-| Antu | Hantu / Roh / Penampakan | Fantôme / Esprit |
-| Butte / Antu butte | Hantu mata sapi | Fantôme aux yeux de vache |
-| Arwah | Jiwa / Roh orang yang meninggal | Âme / Esprit du défunt |
-| Bomo | Dukun santet | Sorcier maléfique |
-| Aura | Sensasi subjektif sebelum kejang | Aura |
-| Asma | Nama (ilahi) | Nom (divin) |
-| Songkok | Peci solat | Calotte de prière |
-| Asar | Waktu shalat sore (Islam) | Prière de l'après-midi |
-| Ayat | Ayat Al-Quran / Pasal hukum / Pernyataan | Verset coranique / Clause |
-| Aum | Suara mengaum | Rugir |
-| Ayom | Melindungi / Ayomi | Protéger |
+| ==Abbang::ms== | Azan / Mengumandangkan azan | Appel à la prière |
+| ==Adat::ms== | Kebiasaan / Tradisi / Sopan santun | Coutume / Tradition |
+| ==Antu::ms== | Hantu / Roh / Penampakan | Fantôme / Esprit |
+| ==Butte::ms== / ==Antu butte::ms== | Hantu mata sapi | Fantôme aux yeux de vache |
+| ==Arwah::ms== | Jiwa / Roh orang yang meninggal | Âme / Esprit du défunt |
+| ==Bomo::ms== | Dukun santet | Sorcier maléfique |
+| ==Aura::ms== | Sensasi subjektif sebelum kejang | Aura |
+| ==Asma::ms== | Nama (ilahi) | Nom (divin) |
+| ==Songkok::ms== | Peci solat | Calotte de prière |
+| ==Asar::ms== | Waktu shalat sore (Islam) | Prière de l'après-midi |
+| ==Ayat::ms== | Ayat Al-Quran / Pasal hukum / Pernyataan | Verset coranique / Clause |
+| ==Aum::ms== | Suara mengaum | Rugir |
+| ==Ayom::ms== | Melindungi / Ayomi | Protéger |
 
 
 **Source :** Dictionnaires Biack Sambas

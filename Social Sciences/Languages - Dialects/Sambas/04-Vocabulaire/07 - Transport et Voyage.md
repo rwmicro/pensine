@@ -12,17 +12,17 @@ date: "2026-02-19"
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|
-| Bangkong | Perahu besar | Grand bateau |
-| Tongkang | Perahu besar | Grand bateau |
-| Linggang / Perahu belinggang | Goncang / Perahu oleng | Balancement / Bateau qui tangue |
-| Mare / Mare kumme / Da'an mare | Bergerak maju / berangkat / Berangkat kesawah / Tidak bergerak | Avancer / Partir aux rizières |
-| Bejanjang | Bepergian | Voyager |
-| Pelasser | Jalan-jalan / liburan | Se promener / Vacances |
-| Gerete | Sepeda | Vélo |
-| Gerattak | Jembatan | Pont |
-| Ingkalan | Dermaga / pangkalan pemandian di pinggir sungai | Quai / Lieu de bain |
-| Pitau | Kehilangan arah | Perdre direction |
-| Rudu (tuju) | Arah | Direction |
+| ==Bangkong::ms== | Perahu besar | Grand bateau |
+| ==Tongkang::ms== | Perahu besar | Grand bateau |
+| ==Linggang::ms== / ==Perahu belinggang::ms== | Goncang / Perahu oleng | Balancement / Bateau qui tangue |
+| ==Mare::ms== / ==Mare kumme::ms== / ==Da'an mare::ms== | Bergerak maju / berangkat / Berangkat kesawah / Tidak bergerak | Avancer / Partir aux rizières |
+| ==Bejanjang::ms== | Bepergian | Voyager |
+| ==Pelasser::ms== | Jalan-jalan / liburan | Se promener / Vacances |
+| ==Gerete::ms== | Sepeda | Vélo |
+| ==Gerattak::ms== | Jembatan | Pont |
+| ==Ingkalan::ms== | Dermaga / pangkalan pemandian di pinggir sungai | Quai / Lieu de bain |
+| ==Pitau::ms== | Kehilangan arah | Perdre direction |
+| ==Rudu::ms== | Arah | Direction |
 
 
 **Source :** Dictionnaires Biack Sambas

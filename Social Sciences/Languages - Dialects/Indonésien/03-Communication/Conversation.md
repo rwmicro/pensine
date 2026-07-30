@@ -23,24 +23,24 @@ date: "2026-02-10"
 
 | Français | Indonésien |
 | :------: | :--------: |
-| Je m'appelle Martin | Nama saya Martin |
-| Comment vous appelez-vous ? | Siapa nama Anda? |
-| D'où venez-vous ? | Dari mana asal Anda? |
-| Quel est votre métier ? | Apa pekerjaan Anda? |
-| Où habitez-vous ? | Anda tinggal di mana? |
-| Enchanté | Senang bertemu Anda |
+| Je m'appelle Martin | ==Nama saya Martin::id== |
+| Comment vous appelez-vous ? | ==Siapa nama Anda?::id== |
+| D'où venez-vous ? | ==Dari mana asal Anda?::id== |
+| Quel est votre métier ? | ==Apa pekerjaan Anda?::id== |
+| Où habitez-vous ? | ==Anda tinggal di mana?::id== |
+| Enchanté | ==Senang bertemu Anda::id== |
 
 ### Informel
 
 | Français | Indonésien |
 | :------: | :--------: |
-| Je m'appelle Martin | Namaku Martin / Aku Martin |
-| Tu t'appelles comment ? | Siapa namamu? / Namamu siapa? |
-| Tu viens d'où ? | Dari mana? / Asalnya dari mana? |
-| Tu fais quoi dans la vie ? | Kerja apa? |
-| Tu habites où ? | Kamu tinggal di mana? |
-| Enchanté | Salam kenal |
-| Je suis français | Aku orang Perancis |
+| Je m'appelle Martin | ==Namaku Martin::id== / ==Aku Martin::id== |
+| Tu t'appelles comment ? | ==Siapa namamu?::id== / ==Namamu siapa?::id== |
+| Tu viens d'où ? | ==Dari mana?::id== / ==Asalnya dari mana?::id== |
+| Tu fais quoi dans la vie ? | ==Kerja apa?::id== |
+| Tu habites où ? | ==Kamu tinggal di mana?::id== |
+| Enchanté | ==Salam kenal::id== |
+| Je suis français | ==Aku orang Perancis::id== |
 
 ## Conversation Courante
 
@@ -58,23 +58,23 @@ date: "2026-02-10"
 
 |          Français           |       Formel       |     Informel      |
 | :-------------------------: | :----------------: | :---------------: |
-|      J'ai besoin de...      | Saya memerlukan... |   Aku perlu...    |
-|         Je veux...          |   Saya ingin...    |    Aku mau...     |
-|          J'ai faim          |     Saya lapar     |     Aku lapar     |
-|          J'ai soif          |     Saya haus      |     Aku haus      |
-|       Je suis fatigué       |     Saya lelah     |     Aku capek     |
+| J'ai besoin de... | Saya memerlukan... | Aku perlu... |
+| Je veux... | Saya ingin... | Aku mau... |
+| J'ai faim | Saya lapar | Aku lapar |
+| J'ai soif | Saya haus | Aku haus |
+| Je suis fatigué | Saya lelah | Aku capek |
 | Je dois aller aux toilettes | Saya mau buang air | Aku mau ke toilet |
 
 ## Expressions Quotidiennes
 
 | Français | Indonésien | Contexte |
 | :------: | :--------: | :------: |
-| Regarde ça ! | Lihat itu! | Montrer quelque chose |
-| Qu'est-ce que tu fais ? | Ngapain kamu di sini? | Demander |
-| Je peux venir avec toi ? | Boleh bareng gak? | Demander permission |
-| Je veux me moucher | Mau buang ingus | Besoin |
-| À la retraite | Pensiun | État |
-| Professeur (université) | Dosen | Titre |
+| Regarde ça ! | ==Lihat itu!::id== | Montrer quelque chose |
+| Qu'est-ce que tu fais ? | ==Ngapain kamu di sini?::id== | Demander |
+| Je peux venir avec toi ? | ==Boleh bareng gak?::id== | Demander permission |
+| Je veux me moucher | ==Mau buang ingus::id== | Besoin |
+| À la retraite | ==Pensiun::id== | État |
+| Professeur (université) | ==Dosen::id== | Titre |
 
 ## Dialogues Types
 
@@ -127,25 +127,25 @@ B: Sama-sama.
 
 | Français | Indonésien | Contexte |
 | :------: | :--------: | :------: |
-| Vraiment ? | Beneran? / Yang bener? | Surprise |
-| C'est vrai ? | Emang iya? | Doute |
-| Ah je comprends ! | Ohhh gitu! | Compréhension |
-| Bien sûr | Iya dong | Confirmation |
-| Je ne comprends pas | Gak paham | Incompréhension |
-| C'est quoi ça ? | Apaan tuh? | Question |
-| Pas de problème | Gapapa (GPP) | Rassurer |
+| Vraiment ? | ==Beneran?::id== / ==Yang bener?::id== | Surprise |
+| C'est vrai ? | ==Emang iya?::id== | Doute |
+| Ah je comprends ! | ==Ohhh gitu!::id== | Compréhension |
+| Bien sûr | ==Iya dong::id== | Confirmation |
+| Je ne comprends pas | ==Gak paham::id== | Incompréhension |
+| C'est quoi ça ? | ==Apaan tuh?::id== | Question |
+| Pas de problème | ==Gapapa::id== | Rassurer |
 
 ## Expressions Utiles
 
 | Français | Indonésien |
 | :------: | :--------: |
-| Au fait... | Ngomong-ngomong... |
-| Doucement | Pelan-pelan dong |
-| Ne fais pas ça | Gak boleh gitu |
-| Une autre fois | Lain kali |
-| Prépare-toi | Siap-siap! |
-| Réveille-toi | Bangun! |
-| Va dormir | Yaudah tidur aja |
-| Je t'aime | Aku cinta kamu |
-| Pauvre de toi | Kasihan |
-| Menteur ! | Bohong! |
+| Au fait... | ==Ngomong-ngomong...::id== |
+| Doucement | ==Pelan-pelan dong::id== |
+| Ne fais pas ça | ==Gak boleh gitu::id== |
+| Une autre fois | ==Lain kali::id== |
+| Prépare-toi | ==Siap-siap!::id== |
+| Réveille-toi | ==Bangun!::id== |
+| Va dormir | ==Yaudah tidur aja::id== |
+| Je t'aime | ==Aku cinta kamu::id== |
+| Pauvre de toi | ==Kasihan::id== |
+| Menteur ! | ==Bohong!::id== |

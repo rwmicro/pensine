@@ -123,12 +123,12 @@ C'est presque une **langue distincte**. Les Suisses **parlent** suisse-allemand 
 
 | Standard | Suisse-allemand | Sens |
 |----------|----------------|------|
-| Hallo / Guten Tag | Grüezi / Hoi | Bonjour |
-| Tschüss | Tschau / Adieu | Au revoir |
-| ja | jaa / chli | oui |
-| nicht | nöd | ne pas |
-| ein bisschen | es bizeli | un peu |
-| schön | schön / tipptopp | bien / parfait |
+| Hallo / Guten Tag | ==Grüezi::de== / ==Hoi::de== | Bonjour |
+| Tschüss | ==Tschau::de== / ==Adieu::de== | Au revoir |
+| ja | ==jaa::de== / ==chli::de== | oui |
+| nicht | ==nöd::de== | ne pas |
+| ein bisschen | ==es bizeli::de== | un peu |
+| schön | ==schön::de== / ==tipptopp::de== | bien / parfait |
 
 > Un Allemand "moyen" comprend très difficilement le suisse-allemand parlé. Les Suisses, eux, comprennent l'allemand standard sans problème.
 

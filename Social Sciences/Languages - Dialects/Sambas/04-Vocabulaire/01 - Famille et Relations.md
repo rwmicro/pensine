@@ -12,50 +12,50 @@ date: "2026-02-19"
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|
-| Nek uwan | Nenek | Grand-mère |
-| Nek aki | Kakek | Grand-père |
-| Atok | Kakek / Nenek moyang | Grand-père / Ancêtre |
-| Uma'k / Emak | Ibu | Mère |
-| Ayah / Apa'k | Ayah / Orang tua laki-laki | Père |
-| Abang / Bang | Kakak laki-laki / Sapaan untuk pria dewasa | Frère aîné / Monsieur |
-| Ade' / De' | Adik | Frère/Sœur cadet(te) |
-| Pak tua'k | Paman | Oncle |
-| Angah | Paman/Bibi (gelar keluarga) | Oncle/Tante |
-| Petunggalan | Sepupu | Cousin(e) |
-| Cucco'k | Cucu | Petit-enfant |
-| Awang | Pemuda / Pria muda / Gelar bangsawan | Jeune homme / Titre |
-| Awe' | Wanita muda / Gadis | Jeune femme |
-| Dare / Nak dare | Gadis belia / Gadis perawan | Jeune fille / Vierge |
-| Kaba'k / Nak dare kaba' | Gadis perawan berumur yang kesulitan menemukan jodohnya | Vieille fille |
-| Biak | Anak (berusia belia) | Enfant (jeune) |
-| Ocon | Anak terahir | Dernier enfant |
-| Nek nongan | Anak paling manja | Enfant le plus gâté |
-| Balu | Janda / Duda | Veuve / Veuf |
-| Jannat | Almarhum | Défunt |
-| Insanak | Sanak saudara | Famille |
+| ==Nek uwan::ms== | Nenek | Grand-mère |
+| ==Nek aki::ms== | Kakek | Grand-père |
+| ==Atok::ms== | Kakek / Nenek moyang | Grand-père / Ancêtre |
+| ==Uma'k::ms== / ==Emak::ms== | Ibu | Mère |
+| ==Ayah::ms== / ==Apa'k::ms== | Ayah / Orang tua laki-laki | Père |
+| ==Abang::ms== / ==Bang::ms== | Kakak laki-laki / Sapaan untuk pria dewasa | Frère aîné / Monsieur |
+| ==Ade'::ms== / ==De'::ms== | Adik | Frère/Sœur cadet(te) |
+| ==Pak tua'k::ms== | Paman | Oncle |
+| ==Angah::ms== | Paman/Bibi (gelar keluarga) | Oncle/Tante |
+| ==Petunggalan::ms== | Sepupu | Cousin(e) |
+| ==Cucco'k::ms== | Cucu | Petit-enfant |
+| ==Awang::ms== | Pemuda / Pria muda / Gelar bangsawan | Jeune homme / Titre |
+| ==Awe'::ms== | Wanita muda / Gadis | Jeune femme |
+| ==Dare::ms== / ==Nak dare::ms== | Gadis belia / Gadis perawan | Jeune fille / Vierge |
+| ==Kaba'k::ms== / ==Nak dare kaba'::ms== | Gadis perawan berumur yang kesulitan menemukan jodohnya | Vieille fille |
+| ==Biak::ms== | Anak (berusia belia) | Enfant (jeune) |
+| ==Ocon::ms== | Anak terahir | Dernier enfant |
+| ==Nek nongan::ms== | Anak paling manja | Enfant le plus gâté |
+| ==Balu::ms== | Janda / Duda | Veuve / Veuf |
+| ==Jannat::ms== | Almarhum | Défunt |
+| ==Insanak::ms== | Sanak saudara | Famille |
 
 ## Ordre de naissance
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|
-| Along | Anak sulung | Premier-né(e) |
-| Angah | Anak kedua | Deuxième enfant |
-| Ude | Anak ketiga | Troisième enfant |
-| Accik / Kaccik | Anak keempat (kecil) | Quatrième enfant |
-| Andah | Anak kelima | Cinquième enfant |
-| Amo'k | Anak keenam (gemuk) | Sixième enfant (potelé) |
-| Anjang | Anak ketujuh (panjang) | Septième enfant |
-| Alang | Anak kedua terakhir | Avant-dernier enfant |
-| Maksu | Anak bungsu perempuan | Dernière fille (benjamine) |
-| Kak long | Kakak perempuan tertua | Grande sœur aînée |
+| ==Along::ms== | Anak sulung | Premier-né(e) |
+| ==Angah::ms== | Anak kedua | Deuxième enfant |
+| ==Ude::ms== | Anak ketiga | Troisième enfant |
+| ==Accik::ms== / ==Kaccik::ms== | Anak keempat (kecil) | Quatrième enfant |
+| ==Andah::ms== | Anak kelima | Cinquième enfant |
+| ==Amo'k::ms== | Anak keenam (gemuk) | Sixième enfant (potelé) |
+| ==Anjang::ms== | Anak ketujuh (panjang) | Septième enfant |
+| ==Alang::ms== | Anak kedua terakhir | Avant-dernier enfant |
+| ==Maksu::ms== | Anak bungsu perempuan | Dernière fille (benjamine) |
+| ==Kak long::ms== | Kakak perempuan tertua | Grande sœur aînée |
 
 ## Relations et affection
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|
-| Odeng | Sayang | Chéri(e) |
-| Ayang | Kekasih / Sayang | Bien-aimé(e) |
-| Asmara | Cinta romantis / Kasih sayang | Amour romantique |
-| Lekong | Selingkuhan | Amant(e) |
-| Bekanda' | Kiasan untuk orang yang selingkuh / main serong | Métaphore pour infidèle |
-| Dako' / Bedako' | Peluk / Berpelukan | Embrasser / S'embrasser |
+| ==Odeng::ms== | Sayang | Chéri(e) |
+| ==Ayang::ms== | Kekasih / Sayang | Bien-aimé(e) |
+| ==Asmara::ms== | Cinta romantis / Kasih sayang | Amour romantique |
+| ==Lekong::ms== | Selingkuhan | Amant(e) |
+| ==Bekanda'::ms== | Kiasan untuk orang yang selingkuh / main serong | Métaphore pour infidèle |
+| ==Dako'::ms== / ==Bedako'::ms== | Peluk / Berpelukan | Embrasser / S'embrasser |

@@ -13,21 +13,21 @@ Le contact prolongé avec le français a créé de nombreux emprunts en libanais
 
 | Mot libanais | Ce qu'un francophone entend | Sens réel en libanais |
 |-------------|----------------------------|----------------------|
-| **salōn** (صالون) | salle de bain (par association hasardeuse) | salon / pièce de réception |
-| **shāns** (شانس) | opportunité, chance de faire | uniquement "chance" au sens de sort favorable |
-| **mersi** (مرسي) | "mercy" anglais / pitié | uniquement merci (remerciement) |
-| **bonjour** (بونجور) | générique | salutation plutôt marquée socialement (bourgeoisie chrétienne, Achrafieh) — `mar7aba` est plus neutre |
-| **kāfē** (كافيه) | café (lieu) | café (lieu) — OK mais `ahwe` = café (boisson), à ne pas confondre |
-| **būro** (بيرو) | bureau (meuble) | bureau (pièce / lieu de travail) — le meuble se dit `Tāwle` |
-| **bank** (بنك) | banque (bâtiment ou institution) | principalement l'institution — le bâtiment est `far3 el-bank` |
+| **salōn** (==صالون::ar-lb==) | salle de bain (par association hasardeuse) | salon / pièce de réception |
+| **shāns** (==شانس::ar-lb==) | opportunité, chance de faire | uniquement "chance" au sens de sort favorable |
+| **mersi** (==مرسي::ar-lb==) | "mercy" anglais / pitié | uniquement merci (remerciement) |
+| **bonjour** (==بونجور::ar-lb==) | générique | salutation plutôt marquée socialement (bourgeoisie chrétienne, Achrafieh) — `mar7aba` est plus neutre |
+| **kāfē** (==كافيه::ar-lb==) | café (lieu) | café (lieu) — OK mais `ahwe` = café (boisson), à ne pas confondre |
+| **būro** (==بيرو::ar-lb==) | bureau (meuble) | bureau (pièce / lieu de travail) — le meuble se dit `Tāwle` |
+| **bank** (==بنك::ar-lb==) | banque (bâtiment ou institution) | principalement l'institution — le bâtiment est `far3 el-bank` |
 
 ## Faux-amis arabe/français dans les emprunts anglais
 
 | Mot libanais | Apparence | Réalité |
 |-------------|-----------|---------|
-| **klās** (كلاس) | classe sociale | principalement "cours / heure de classe" (scolaire) |
-| **fayn** (فاين) | fin (français) | "fine" anglais (bien, ça va) |
-| **nāys** (نايس) | — | "nice" anglais — jugement positif générique |
+| **klās** (==كلاس::ar-lb==) | classe sociale | principalement "cours / heure de classe" (scolaire) |
+| **fayn** (==فاين::ar-lb==) | fin (français) | "fine" anglais (bien, ça va) |
+| **nāys** (==نايس::ar-lb==) | — | "nice" anglais — jugement positif générique |
 | **bōy** / **gerl** | — | copain/copine romantique, pas ami générique |
 
 ## Mots libanais qui se ressemblent dangereusement
@@ -36,39 +36,39 @@ Le contact prolongé avec le français a créé de nombreux emprunts en libanais
 
 | Mot A | Sens A | Mot B | Sens B |
 |-------|--------|-------|--------|
-| **kīs** (كيس) | sac / poche | **keis** (كيس) | coup (physique) |
-| **7ubb** (حبّ) | amour | **7abb** (حبّ) | graine / pilule |
-| **daras** (درس) | étudier | **darras** (درّس) | enseigner |
-| **katab** (كتب) | écrire | **kattab** (كتّب) | faire écrire / dicter |
-| **akal** (أكل) | manger | **akil** (آكل) | en train de manger (participe) |
-| **beit** (بيت) | maison | **bayt** (en poésie) | vers poétique |
-| **sene** (سنة) | année | **sinn** (سنّ) | dent / âge |
-| **mayy** (مي) | eau | **may** (mai) | le mois |
-| **3in** (عين) | œil / source | **3an** (عن) | au sujet de |
-| **jāmi3** (جامع) | mosquée | **jāmi3a** (جامعة) | université |
-| **ma3a** (معا) | avec elle | **ma3** (مع) | avec |
-| **ma3na** (معنا) | avec nous | **ma3na** (معنى) | sens (signification) |
+| **kīs** (==كيس::ar-lb==) | sac / poche | **keis** (==كيس::ar-lb==) | coup (physique) |
+| **7ubb** (==حبّ::ar-lb==) | amour | **7abb** (==حبّ::ar-lb==) | graine / pilule |
+| **daras** (==درس::ar-lb==) | étudier | **darras** (==درّس::ar-lb==) | enseigner |
+| **katab** (==كتب::ar-lb==) | écrire | **kattab** (==كتّب::ar-lb==) | faire écrire / dicter |
+| **akal** (==أكل::ar-lb==) | manger | **akil** (==آكل::ar-lb==) | en train de manger (participe) |
+| **beit** (==بيت::ar-lb==) | maison | **bayt** (en poésie) | vers poétique |
+| **sene** (==سنة::ar-lb==) | année | **sinn** (==سنّ::ar-lb==) | dent / âge |
+| **mayy** (==مي::ar-lb==) | eau | **may** (mai) | le mois |
+| **3in** (==عين::ar-lb==) | œil / source | **3an** (==عن::ar-lb==) | au sujet de |
+| **jāmi3** (==جامع::ar-lb==) | mosquée | **jāmi3a** (==جامعة::ar-lb==) | université |
+| **ma3a** (==معا::ar-lb==) | avec elle | **ma3** (==مع::ar-lb==) | avec |
+| **ma3na** (==معنا::ar-lb==) | avec nous | **ma3na** (==معنى::ar-lb==) | sens (signification) |
 
 ### Racines proches, sens opposés
 
 | Racine 1 | Racine 2 | Piège |
 |----------|----------|-------|
-| خ-ل-ص (khalaS, terminer) | خ-ل-ص (khallas, libérer / achever) | forme II vs I |
-| ض-ر-ب (darab, frapper) | ض-ر-ب (darrab, s'entraîner / dresser) | forme II change tout |
-| ر-ف-ع (rafa3, lever) | ر-ف-ع (raffa3, promouvoir) | — |
-| ق-د-م (2addam, présenter) | ت-ق-د-م (t2addam, avancer) | II vs V |
+| ==خ::ar-lb==-==ل::ar-lb==-==ص::ar-lb== (khalaS, terminer) | ==خ::ar-lb==-==ل::ar-lb==-==ص::ar-lb== (khallas, libérer / achever) | forme II vs I |
+| ==ض::ar-lb==-==ر::ar-lb==-==ب::ar-lb== (darab, frapper) | ==ض::ar-lb==-==ر::ar-lb==-==ب::ar-lb== (darrab, s'entraîner / dresser) | forme II change tout |
+| ==ر::ar-lb==-==ف::ar-lb==-==ع::ar-lb== (rafa3, lever) | ==ر::ar-lb==-==ف::ar-lb==-==ع::ar-lb== (raffa3, promouvoir) | — |
+| ==ق::ar-lb==-==د::ar-lb==-==م::ar-lb== (2addam, présenter) | ==ت::ar-lb==-==ق::ar-lb==-==د::ar-lb==-==م::ar-lb== (t2addam, avancer) | II vs V |
 
 ## Pièges culinaires courants
 
 | Mot libanais | Ce que le francophone croit | Ce que c'est réellement |
 |-------------|---------------------------|------------------------|
-| **tabbūle** (تبولة) | "taboulé" version française (semoule + menthe) | salade de persil majoritaire avec peu de boulgour — le français est une déformation |
-| **ka3k** (كعك) | gâteau sec | pain/brioche en forme d'anneau, ou biscuit salé selon contexte |
-| **7alīb** (حليب) | yaourt (à cause de *helado*) | **lait** — le yaourt est `laban` |
-| **laban** (لبن) | lait (comme en MSA égyptien) | **yaourt** au Levant (inverse de l'égyptien) |
-| **ahwe** (قهوة) | café moulu pour cafetière | café arabe, très serré, servi dans de petites tasses |
-| **mazza** (مزة) | plat unique appelé "mezzé" | ensemble de petites assiettes à partager — jamais un plat |
-| **sharāb** (شراب) | boisson alcoolisée | toute boisson (y compris non-alcoolisée) — alcool = `khamra` ou `kuhūl` |
+| **tabbūle** (==تبولة::ar-lb==) | "taboulé" version française (semoule + menthe) | salade de persil majoritaire avec peu de boulgour — le français est une déformation |
+| **ka3k** (==كعك::ar-lb==) | gâteau sec | pain/brioche en forme d'anneau, ou biscuit salé selon contexte |
+| **7alīb** (==حليب::ar-lb==) | yaourt (à cause de *helado*) | **lait** — le yaourt est `laban` |
+| **laban** (==لبن::ar-lb==) | lait (comme en MSA égyptien) | **yaourt** au Levant (inverse de l'égyptien) |
+| **ahwe** (==قهوة::ar-lb==) | café moulu pour cafetière | café arabe, très serré, servi dans de petites tasses |
+| **mazza** (==مزة::ar-lb==) | plat unique appelé "mezzé" | ensemble de petites assiettes à partager — jamais un plat |
+| **sharāb** (==شراب::ar-lb==) | boisson alcoolisée | toute boisson (y compris non-alcoolisée) — alcool = `khamra` ou `kuhūl` |
 
 ## Pièges grammaticaux
 
@@ -108,9 +108,9 @@ Les noms inanimés au pluriel s'accordent au féminin singulier avec l'adjectif 
 
 | Piège | Description | Exemple |
 |-------|-------------|---------|
-| **ع (3)** prononcé `a` | confusion avec hamza | `3arab` ≠ `arab` — erreur mange le sens |
-| **ح (7)** prononcé `h` | H français insuffisant | `7ubb` ≠ `hubb` |
-| **ق (2)** prononcé `k` ou `q` | doit être un coup de glotte | `alb` (cœur) vs `kalb` (chien) — distinction critique |
+| **==ع::ar-lb== (3)** prononcé `a` | confusion avec hamza | `3arab` ≠ `arab` — erreur mange le sens |
+| **==ح::ar-lb== (7)** prononcé `h` | H français insuffisant | `7ubb` ≠ `hubb` |
+| **==ق::ar-lb== (2)** prononcé `k` ou `q` | doit être un coup de glotte | `alb` (cœur) vs `kalb` (chien) — distinction critique |
 | **Voyelles longues** | non marquées en arabizi | `sene` (année) vs `seene` (plus long = bolus) |
 | **Genre des adjectifs** | oubli du -e féminin | `hiye mnī7` (faux) → `hiye mnī7a` (correct) |
 
@@ -118,8 +118,8 @@ Les noms inanimés au pluriel s'accordent au féminin singulier avec l'adjectif 
 
 | Mot | Ce que ça ressemble | Sens réel |
 |-----|--------------------|-----------|
-| **ghurba** (غربة) | Europe | exil, vie loin du pays |
-| **muwāfa2a** (موافقة) | mafia | accord, acceptation |
-| **kāmel** (كامل) | caramel | complet, entier |
-| **muhimm** (مهم) | mime | important |
-| **sabt** (سبت) | septembre | samedi |
+| **ghurba** (==غربة::ar-lb==) | Europe | exil, vie loin du pays |
+| **muwāfa2a** (==موافقة::ar-lb==) | mafia | accord, acceptation |
+| **kāmel** (==كامل::ar-lb==) | caramel | complet, entier |
+| **muhimm** (==مهم::ar-lb==) | mime | important |
+| **sabt** (==سبت::ar-lb==) | septembre | samedi |

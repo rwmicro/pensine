@@ -78,11 +78,11 @@ Repas composé de nombreuses petites assiettes partagées. Le mezze peut inclure
 
 | Formule | Sens | Usage |
 |---------|------|-------|
-| صحتين (sa77tein) | Bon appétit (litt. "deux santés") | Avant/pendant le repas |
-| الله يعطيك الصحة | Que Dieu te donne la santé | Réponse à sa77tein |
-| كتير تيب (ktīr tayyib) | C'est très bon | Compliment au cuisiner |
-| يسلمو إيديكي | Merci pour tes mains (à une femme) | Compliment au cuisinier |
-| تفضل / تفضلي | Servez-vous / allez-y | Invitation à manger |
+| ==صحتين::ar-lb== (sa77tein) | Bon appétit (litt. "deux santés") | Avant/pendant le repas |
+| ==الله يعطيك الصحة::ar-lb== | Que Dieu te donne la santé | Réponse à sa77tein |
+| ==كتير تيب::ar-lb== (ktīr tayyib) | C'est très bon | Compliment au cuisiner |
+| ==يسلمو إيديكي::ar-lb== | Merci pour tes mains (à une femme) | Compliment au cuisinier |
+| ==تفضل::ar-lb== / ==تفضلي::ar-lb== | Servez-vous / allez-y | Invitation à manger |
 
 ## Références culturelles essentielles
 

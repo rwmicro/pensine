@@ -104,7 +104,7 @@ flowchart TD
 |----------|------------|
 | Priorité à l'oral | L'arabe libanais est une langue orale — commencer par écouter, pas par lire |
 | Dialecte dès le début | Ne pas passer par le MSA si l'objectif est le libanais conversationnel |
-| Audio natif obligatoire | Les sons emphatiques et le ayn (ع) s'acquièrent uniquement par imitation |
+| Audio natif obligatoire | Les sons emphatiques et le ayn (==ع::ar-lb==) s'acquièrent uniquement par imitation |
 | Fréquence > exhaustivité | Maîtriser 500 mots fréquents avant d'élargir |
 | Code-switching naturel | Accepter le français/anglais dans les conversations — c'est authentique |
 | Trouver un tandem libanais | HelloTalk, Tandem, ou communautés diaspora en France |

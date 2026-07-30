@@ -12,11 +12,11 @@ date: "2026-02-19"
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|
-| Apé khabar kitak? | Apa kabar kamu? | Comment vas-tu ? |
-| Kamek baik jak | Saya baik saja | Je vais bien |
-| Terima kasih | Terima kasih | Merci |
-| Selamat pagi | Selamat pagi | Bonjour (matin) |
-| Selamat bahari | Selamat sore | Bonsoir |
+| ==Apé khabar kitak?::ms== | Apa kabar kamu? | Comment vas-tu ? |
+| ==Kamek baik jak::ms== | Saya baik saja | Je vais bien |
+| ==Terima kasih::ms== | Terima kasih | Merci |
+| ==Selamat pagi::ms== | Selamat pagi | Bonjour (matin) |
+| ==Selamat bahari::ms== | Selamat sore | Bonsoir |
 
 ## 🗣️ Phrases courantes
 
@@ -24,83 +24,83 @@ date: "2026-02-19"
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|
-| Kamek maok majoh | Saya mau makan | Je veux manger |
-| Kitak mare kemane? | Kamu pergi kemana? | Où vas-tu ? |
-| Itto' ape? | Ini apa? | Qu'est-ce que c'est ? |
-| Iyé ape? | Itu apa? | Qu'est-ce que c'est (là-bas) ? |
-| Kamek sik ngarreti | Saya tidak mengerti | Je ne comprends pas |
-| Mane rumma' kitak? | Dimana rumah kamu? | Où est ta maison ? |
+| ==Kamek maok majoh::ms== | Saya mau makan | Je veux manger |
+| ==Kitak mare kemane?::ms== | Kamu pergi kemana? | Où vas-tu ? |
+| ==Itto' ape?::ms== | Ini apa? | Qu'est-ce que c'est ? |
+| ==Iyé ape?::ms== | Itu apa? | Qu'est-ce que c'est (là-bas) ? |
+| ==Kamek sik ngarreti::ms== | Saya tidak mengerti | Je ne comprends pas |
+| ==Mane rumma' kitak?::ms== | Dimana rumah kamu? | Où est ta maison ? |
 
 ### Phrases avec "kamek" (je/moi)
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|
-| Kamek suka kitak | Saya suka kamu | Je t'aime bien |
-| Kamek sayang kitak | Saya sayang kamu | Je t'aime |
-| Kamek diat kitak makin kacaklah | Saya lihat awak makin cantiklah | Je te vois de plus en plus belle |
-| Kamek sik cayak apa kitak padah | Saya tidak percaya apa yang kamu katakan | Je ne crois pas ce que tu dis |
-| Kamek mauk pesan agik satu | Saya mau pesan satu lagi | Je voudrais en commander un autre |
-| Kamek biak Sambas | Saya anak Sambas | Je suis de Sambas |
+| ==Kamek suka kitak::ms== | Saya suka kamu | Je t'aime bien |
+| ==Kamek sayang kitak::ms== | Saya sayang kamu | Je t'aime |
+| ==Kamek diat kitak makin kacaklah::ms== | Saya lihat awak makin cantiklah | Je te vois de plus en plus belle |
+| ==Kamek sik cayak apa kitak padah::ms== | Saya tidak percaya apa yang kamu katakan | Je ne crois pas ce que tu dis |
+| ==Kamek mauk pesan agik satu::ms== | Saya mau pesan satu lagi | Je voudrais en commander un autre |
+| ==Kamek biak Sambas::ms== | Saya anak Sambas | Je suis de Sambas |
 
 ### Phrases avec "kitak" (tu/toi/vous)
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|
-| Kitak bulak! | Kamu bohong! | Tu mens ! |
-| Kitak mare kemane? | Kamu pergi kemana? | Où vas-tu ? |
-| Kitak biak mane? | Kamu dari mana? | D'où viens-tu ? |
-| Apé khabar kitak? | Apa kabar kamu? | Comment vas-tu ? |
+| ==Kitak bulak!::ms== | Kamu bohong! | Tu mens ! |
+| ==Kitak mare kemane?::ms== | Kamu pergi kemana? | Où vas-tu ? |
+| ==Kitak biak mane?::ms== | Kamu dari mana? | D'où viens-tu ? |
+| ==Apé khabar kitak?::ms== | Apa kabar kamu? | Comment vas-tu ? |
 
 ## 🍚 Nourriture et repas
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|
-| Yo udah masak din. Makanlah, usah supan-supan | Sudah masak. Makanlah, jangan malu-malu | C'est déjà cuit. Mangez, ne soyez pas timide |
-| Se'an supan-supan | Jangan malu-malu | Ne sois pas timide |
-| Kamek maok majoh | Saya mau makan | Je veux manger |
-| Kamek mauk pesan agik satu | Saya mau pesan satu lagi | Je voudrais en commander un autre |
+| ==Yo udah masak din. Makanlah, usah supan-supan::ms== | Sudah masak. Makanlah, jangan malu-malu | C'est déjà cuit. Mangez, ne soyez pas timide |
+| ==Se'an supan-supan::ms== | Jangan malu-malu | Ne sois pas timide |
+| ==Kamek maok majoh::ms== | Saya mau makan | Je veux manger |
+| ==Kamek mauk pesan agik satu::ms== | Saya mau pesan satu lagi | Je voudrais en commander un autre |
 
 ## 🏠 À la maison et famille
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|
-| Mane rumma' kitak? | Dimana rumah kamu? | Où est ta maison ? |
-| Ade buda' bedako' di pingger danau | Ada orang berpelukan di pinggir danau | Il y a quelqu'un qui s'embrasse au bord du lac |
-| Inun insanak kamek | Itu keluarga saya | C'est ma famille |
+| ==Mane rumma' kitak?::ms== | Dimana rumah kamu? | Où est ta maison ? |
+| ==Ade buda' bedako' di pingger danau::ms== | Ada orang berpelukan di pinggir danau | Il y a quelqu'un qui s'embrasse au bord du lac |
+| ==Inun insanak kamek::ms== | Itu keluarga saya | C'est ma famille |
 
 ## 📱 Communication moderne
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|
-| Kamek nak ngajak kitak ngabas nek yah kat speta isok | Saya mau mengajak kamu menjenguk nenek di rumah sakit besok | Je veux t'inviter à visiter grand-mère à l'hôpital demain |
-| Sikpat kamek pegi, gik gago tok | Saya tidak bisa pergi, masih sibuk sekarang | Je ne peux pas y aller, je suis encore occupé maintenant |
-| Kamek kelaka dengan nyalah kat telepon tek | Saya berbicara dengan dia di telepon tadi | J'ai parlé avec lui/elle au téléphone tout à l'heure |
+| ==Kamek nak ngajak kitak ngabas nek yah kat speta isok::ms== | Saya mau mengajak kamu menjenguk nenek di rumah sakit besok | Je veux t'inviter à visiter grand-mère à l'hôpital demain |
+| ==Sikpat kamek pegi, gik gago tok::ms== | Saya tidak bisa pergi, masih sibuk sekarang | Je ne peux pas y aller, je suis encore occupé maintenant |
+| ==Kamek kelaka dengan nyalah kat telepon tek::ms== | Saya berbicara dengan dia di telepon tadi | J'ai parlé avec lui/elle au téléphone tout à l'heure |
 
 ## 🎯 Expressions de sentiment
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|
-| Kamek sayang kitak | Saya sayang kamu | Je t'aime |
-| Kamek suka kitak | Saya suka kamu | Je t'aime bien |
-| Kamek diat kitak makin kacaklah | Saya lihat awak makin cantiklah | Je te vois de plus en plus belle |
-| Kitak bulak! Kamek sik cayak apa kitak padah | Kamu bohong! Saya tidak percaya apa yang kamu katakan | Tu mens ! Je ne crois pas ce que tu dis |
+| ==Kamek sayang kitak::ms== | Saya sayang kamu | Je t'aime |
+| ==Kamek suka kitak::ms== | Saya suka kamu | Je t'aime bien |
+| ==Kamek diat kitak makin kacaklah::ms== | Saya lihat awak makin cantiklah | Je te vois de plus en plus belle |
+| ==Kitak bulak! Kamek sik cayak apa kitak padah::ms== | Kamu bohong! Saya tidak percaya apa yang kamu katakan | Tu mens ! Je ne crois pas ce que tu dis |
 
 ## 🗺️ Origine et localisation
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|
-| Kamek biak Sambas | Saya anak Sambas | Je suis de Sambas |
-| Kitak biak mane? | Kamu dari mana? | D'où viens-tu ? |
-| Di Ditebas | Di Tebas | À Tebas (district de Sambas) |
+| ==Kamek biak Sambas::ms== | Saya anak Sambas | Je suis de Sambas |
+| ==Kitak biak mane?::ms== | Kamu dari mana? | D'où viens-tu ? |
+| ==Di Ditebas::ms== | Di Tebas | À Tebas (district de Sambas) |
 
 ## 📚 Exemples de phrases du dictionnaire
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|
-| Apé nang kau bawak iyé? | Apa yang kau bawa itu? | Qu'as-tu apporté là-bas ? |
-| Biak nang kacék iyé adékku | Anak yang pendek itu adikku | Cet enfant petit est mon frère |
-| Buah nang mudoh ndakkan nyaman | Buah yang terlalu matang tidak enak | Les fruits trop mûrs ne sont pas bons |
-| Dié péraéh nang rajéng | Dia pedagang yang rajin | Il/elle est un(e) commerçant(e) diligent(e) |
+| ==Apé nang kau bawak iyé?::ms== | Apa yang kau bawa itu? | Qu'as-tu apporté là-bas ? |
+| ==Biak nang kacék iyé adékku::ms== | Anak yang pendek itu adikku | Cet enfant petit est mon frère |
+| ==Buah nang mudoh ndakkan nyaman::ms== | Buah yang terlalu matang tidak enak | Les fruits trop mûrs ne sont pas bons |
+| ==Dié péraéh nang rajéng::ms== | Dia pedagang yang rajin | Il/elle est un(e) commerçant(e) diligent(e) |
 
 
 **Sources :**

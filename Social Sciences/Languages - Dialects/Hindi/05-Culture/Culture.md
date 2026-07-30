@@ -31,11 +31,11 @@ En Inde rurale et dans beaucoup de milieux urbains, plusieurs générations vive
 ### Le système d'adresse et le respect
 | Terme | Usage | Équivalent |
 |-------|-------|------------|
-| जी (ji) | Particule de respect ajoutée aux noms | "Monsieur / Madame" |
-| भैया (bhaiya) | Frère aîné / homme jeune | "Frère" affectif |
-| दीदी (didi) | Sœur aînée / femme jeune | "Sœur" affectif |
-| अंकल / आंटी | Adultes proches mais pas famille | Uncle / Auntie |
-| सर / मैडम | Milieu professionnel | Sir / Ma'am |
+| ==जी::hi== (ji) | Particule de respect ajoutée aux noms | "Monsieur / Madame" |
+| ==भैया::hi== (bhaiya) | Frère aîné / homme jeune | "Frère" affectif |
+| ==दीदी::hi== (didi) | Sœur aînée / femme jeune | "Sœur" affectif |
+| ==अंकल::hi== / ==आंटी::hi== | Adultes proches mais pas famille | Uncle / Auntie |
+| ==सर::hi== / ==मैडम::hi== | Milieu professionnel | Sir / Ma'am |
 
 ## L'hospitalité — Atithi Devo Bhava
 
@@ -55,23 +55,23 @@ L'Inde est l'un des pays les plus religieusement divers du monde. La religion te
 
 | Vocabulaire | Origine | Usage |
 |------------|---------|-------|
-| इन्शाल्लाह (inshallah) | Arabe/islamique | Courant chez tous les indiens (= si Dieu le veut) |
-| भगवान जाने (Bhagwan jaane) | Hindou | Dieu sait (= sait jamais) |
-| राम राम | Hindou | Salutation / au revoir traditionnel |
-| खुदा हाफिज़ (Khuda Hafiz) | Perso-islamique | Au revoir (milieu musulman) |
-| वाहेगुरु (Waheguru) | Sikh | Expression de gratitude / merveille |
+| ==इन्शाल्लाह::hi== (inshallah) | Arabe/islamique | Courant chez tous les indiens (= si Dieu le veut) |
+| ==भगवान जाने::hi== (Bhagwan jaane) | Hindou | Dieu sait (= sait jamais) |
+| ==राम राम::hi== | Hindou | Salutation / au revoir traditionnel |
+| ==खुदा हाफिज़::hi== (Khuda Hafiz) | Perso-islamique | Au revoir (milieu musulman) |
+| ==वाहेगुरु::hi== (Waheguru) | Sikh | Expression de gratitude / merveille |
 
 ## Fêtes majeures
 
 | Fête | Calendrier | Description |
 |------|-----------|-------------|
-| दीवाली (Diwali) | Oct-Nov | Fête des lumières. Cadeaux, feux d'artifice, douceurs |
-| होली (Holi) | Fév-Mar | Fête des couleurs. On se jette de la poudre colorée |
-| ईद (Eid) | Calendrier lunaire | Fête musulmane de fin du Ramadan |
-| दशहरा (Dussehra) | Oct | Victoire du bien sur le mal (Ram sur Ravana) |
-| नवरात्रि (Navratri) | Oct | 9 nuits de danse (Garba/Dandiya) |
-| क्रिसमस | 25 déc. | Fêté dans tout le pays, pas seulement par les chrétiens |
-| मकर संक्रांति | 14 jan. | Fête du soleil, cerfs-volants, sésame |
+| ==दीवाली::hi== (Diwali) | Oct-Nov | Fête des lumières. Cadeaux, feux d'artifice, douceurs |
+| ==होली::hi== (Holi) | Fév-Mar | Fête des couleurs. On se jette de la poudre colorée |
+| ==ईद::hi== (Eid) | Calendrier lunaire | Fête musulmane de fin du Ramadan |
+| ==दशहरा::hi== (Dussehra) | Oct | Victoire du bien sur le mal (Ram sur Ravana) |
+| ==नवरात्रि::hi== (Navratri) | Oct | 9 nuits de danse (Garba/Dandiya) |
+| ==क्रिसमस::hi== | 25 déc. | Fêté dans tout le pays, pas seulement par les chrétiens |
+| ==मकर संक्रांति::hi== | 14 jan. | Fête du soleil, cerfs-volants, sésame |
 
 ## Nourriture et culture alimentaire
 

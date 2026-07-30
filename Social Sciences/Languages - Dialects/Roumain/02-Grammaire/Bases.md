@@ -18,74 +18,74 @@ L'alphabet roumain utilise l'alphabet latin avec des caractères spéciaux:
 
 |     Français      |    Roumain     | Moment          | Type     |
 | :---------------: | :------------: | --------------- | -------- |
-|  Salut / Bonjour  |      Bună      |                 | informel |
-|  Bonjour (matin)  | Bună dimineața | Avant midi      |          |
-| Bonjour (journée) |   Bună ziua    | Midi à 18h      |          |
-|      Bonsoir      |   Bună seara   | A partir de 18h |          |
-|    Bonne nuit     |  Noapte bună   | Avant de dormir |          |
-|     Au revoir     |    La revedere |                 | formel   |
-|       Salut       |      Pa!       |                 | informel |
+| Salut / Bonjour | ==Bună::ro== |  | informel |
+| Bonjour (matin) | ==Bună dimineața::ro== | Avant midi |  |
+| Bonjour (journée) | ==Bună ziua::ro== | Midi à 18h |  |
+| Bonsoir | ==Bună seara::ro== | A partir de 18h |  |
+| Bonne nuit | ==Noapte bună::ro== | Avant de dormir |  |
+| Au revoir | ==La revedere::ro== |  | formel |
+| Salut | ==Pa!::ro== |  | informel |
 
 ## Salutations et Politesse
 
 | Français | Roumain | Prononciation |
 | :---: | :---: | :---: |
-| Merci | Mulțumesc | /mul.t͡su'mesk/ |
-| Merci beaucoup | Mulțumesc mult | /mul.t͡su'mesk mult/ |
-| S'il vous plaît | Vă rog | /və roɡ/ |
-| Pardon / Excusez-moi | Scuzați-mă | /sku'zat͡sə mə/ |
-| Oui | Da | /da/ |
-| Non | Nu | /nu/ |
-| Comment allez-vous? | Ce mai faceți? | /t͡ʃe maj fa't͡ʃet͡s/ |
-| Je vais bien | Bine, mulțumesc | /bi.ne mul.t͡su'mesk/ |
-| De rien | Cu plăcere | /ku plə't͡ʃe.re/ |
+| Merci | ==Mulțumesc::ro== | /mul.t͡su'mesk/ |
+| Merci beaucoup | ==Mulțumesc mult::ro== | /mul.t͡su'mesk mult/ |
+| S'il vous plaît | ==Vă rog::ro== | /və roɡ/ |
+| Pardon / Excusez-moi | ==Scuzați-mă::ro== | /sku'zat͡sə mə/ |
+| Oui | ==Da::ro== | /da/ |
+| Non | ==Nu::ro== | /nu/ |
+| Comment allez-vous? | ==Ce mai faceți?::ro== | /t͡ʃe maj fa't͡ʃet͡s/ |
+| Je vais bien | ==Bine, mulțumesc::ro== | /bi.ne mul.t͡su'mesk/ |
+| De rien | ==Cu plăcere::ro== | /ku plə't͡ʃe.re/ |
 
 ## Nombres (0-10)
 
 | Chiffre | Roumain |
 | :---: | :---: |
-| 0 | zero |
-| 1 | unu / una (f) |
-| 2 | doi / două (f) |
-| 3 | trei |
-| 4 | patru |
-| 5 | cinci |
-| 6 | șase |
-| 7 | șapte |
-| 8 | opt |
-| 9 | nouă |
-| 10 | zece |
+| 0 | ==zero::ro== |
+| 1 | ==unu::ro== / ==una::ro== |
+| 2 | ==doi::ro== / ==două::ro== |
+| 3 | ==trei::ro== |
+| 4 | ==patru::ro== |
+| 5 | ==cinci::ro== |
+| 6 | ==șase::ro== |
+| 7 | ==șapte::ro== |
+| 8 | ==opt::ro== |
+| 9 | ==nouă::ro== |
+| 10 | ==zece::ro== |
 
 ## Nombres (11-100)
 
 | Chiffre | Roumain |
 | :---: | :---: |
-| 11 | unsprezece |
-| 12 | doisprezece |
-| 13 | treisprezece |
-| 20 | douăzeci |
-| 21 | douăzeci și unu |
-| 30 | treizeci |
-| 40 | patruzeci |
-| 50 | cincizeci |
-| 60 | șaizeci |
-| 70 | șaptezeci |
-| 80 | optzeci |
-| 90 | nouăzeci |
-| 100 | o sută |
+| 11 | ==unsprezece::ro== |
+| 12 | ==doisprezece::ro== |
+| 13 | ==treisprezece::ro== |
+| 20 | ==douăzeci::ro== |
+| 21 | ==douăzeci și unu::ro== |
+| 30 | ==treizeci::ro== |
+| 40 | ==patruzeci::ro== |
+| 50 | ==cincizeci::ro== |
+| 60 | ==șaizeci::ro== |
+| 70 | ==șaptezeci::ro== |
+| 80 | ==optzeci::ro== |
+| 90 | ==nouăzeci::ro== |
+| 100 | ==o sută::ro== |
 
 ## Pronoms Personnels
 
 | Français | Roumain (sujet) | Roumain (objet) |
 | :---: | :---: | :---: |
-| Je | Eu | mă/mie |
-| Tu | Tu | te/ție |
-| Il | El | îl/lui |
-| Elle | Ea | o/ei |
-| Nous | Noi | ne/nouă |
-| Vous | Voi | vă/vouă |
-| Ils | Ei | îi/lor |
-| Elles | Ele | le/lor |
+| Je | ==Eu::ro== | ==mă::ro== / ==mie::ro== |
+| Tu | ==Tu::ro== | ==te::ro== / ==ție::ro== |
+| Il | ==El::ro== | ==îl::ro== / ==lui::ro== |
+| Elle | ==Ea::ro== | ==o::ro== / ==ei::ro== |
+| Nous | ==Noi::ro== | ==ne::ro== / ==nouă::ro== |
+| Vous | ==Voi::ro== | ==vă::ro== / ==vouă::ro== |
+| Ils | ==Ei::ro== | ==îi::ro== / ==lor::ro== |
+| Elles | ==Ele::ro== | ==le::ro== / ==lor::ro== |
 
 ## Verbes de Base (Présent - 1ère personne)
 
@@ -108,42 +108,42 @@ L'alphabet roumain utilise l'alphabet latin avec des caractères spéciaux:
 
 | Français | Roumain |
 | :---: | :---: |
-| Comment tu t'appelles? | Cum te cheamă? |
-| Je m'appelle... | Mă cheamă... / Sunt... |
-| Enchanté(e) | Încântat(ă) |
-| Tu parles français? | Vorbiți franceză? |
-| Je ne comprends pas | Nu înțeleg |
-| Parlez plus lentement | Vorbiți mai încet |
-| Où est...? | Unde este...? |
-| Combien ça coûte? | Cât costă? |
-| J'ai besoin d'aide | Am nevoie de ajutor |
+| Comment tu t'appelles? | ==Cum te cheamă?::ro== |
+| Je m'appelle... | ==Mă cheamă...::ro== / ==Sunt...::ro== |
+| Enchanté(e) | ==Încântat::ro== |
+| Tu parles français? | ==Vorbiți franceză?::ro== |
+| Je ne comprends pas | ==Nu înțeleg::ro== |
+| Parlez plus lentement | ==Vorbiți mai încet::ro== |
+| Où est...? | ==Unde este...?::ro== |
+| Combien ça coûte? | ==Cât costă?::ro== |
+| J'ai besoin d'aide | ==Am nevoie de ajutor::ro== |
 
 ## Jours de la Semaine
 
 | Français | Roumain |
 | :---: | :---: |
-| Lundi | Luni |
-| Mardi | Marți |
-| Mercredi | Miercuri |
-| Jeudi | Joi |
-| Vendredi | Vineri |
-| Samedi | Sâmbătă |
-| Dimanche | Duminică |
+| Lundi | ==Luni::ro== |
+| Mardi | ==Marți::ro== |
+| Mercredi | ==Miercuri::ro== |
+| Jeudi | ==Joi::ro== |
+| Vendredi | ==Vineri::ro== |
+| Samedi | ==Sâmbătă::ro== |
+| Dimanche | ==Duminică::ro== |
 
 ## Mots Utiles
 
 | Français | Roumain |
 | :---: | :---: |
-| Eau | Apă |
-| Pain | Pâine |
-| Nourriture | Mâncare |
-| Maison | Casă |
-| Ami | Prieten |
-| Aujourd'hui | Astăzi |
-| Demain | Mâine |
-| Hier | Ieri |
-| Homme | Bărbat |
-| Femme | Femeie |
+| Eau | ==Apă::ro== |
+| Pain | ==Pâine::ro== |
+| Nourriture | ==Mâncare::ro== |
+| Maison | ==Casă::ro== |
+| Ami | ==Prieten::ro== |
+| Aujourd'hui | ==Astăzi::ro== |
+| Demain | ==Mâine::ro== |
+| Hier | ==Ieri::ro== |
+| Homme | ==Bărbat::ro== |
+| Femme | ==Femeie::ro== |
 
 ## Particularités du Roumain
 

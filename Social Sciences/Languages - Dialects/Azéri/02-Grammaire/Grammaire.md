@@ -23,12 +23,12 @@ L'azéri est une langue **agglutinante** : on empile les suffixes sur une racine
 
 | Français | Azéri | Note |
 |----------|-------|------|
-| Je | mən | — |
-| Tu | sən | informel |
-| Il / Elle / Ça | o | pas de genre |
-| Nous | biz | — |
-| Vous (formel / pluriel) | siz | formel sg. + pluriel |
-| Ils / Elles | onlar | — |
+| Je | ==mən::az== | — |
+| Tu | ==sən::az== | informel |
+| Il / Elle / Ça | ==o::az== | pas de genre |
+| Nous | ==biz::az== | — |
+| Vous (formel / pluriel) | ==siz::az== | formel sg. + pluriel |
+| Ils / Elles | ==onlar::az== | — |
 
 > Comme en français, le *siz* sert à la fois de vouvoiement singulier et de pluriel. Le *sən* est réservé aux amis, à la famille, aux enfants et animaux.
 
@@ -49,10 +49,10 @@ L'azéri marque la fonction du nom par des suffixes de cas, avec harmonie vocali
 
 | Azéri | Analyse | Français |
 |-------|---------|---------|
-| Mən evə gedirəm | Je + maison.DAT + vais | Je vais à la maison |
-| Mən evdə yaşayıram | Je + maison.LOC + vis | Je vis dans la maison |
-| Mən evdən gəlirəm | Je + maison.ABL + viens | Je viens de la maison |
-| Bu evin qapısı | Ce + maison.GÉN + porte.POSS3 | La porte de cette maison |
+| ==Mən evə gedirəm::az== | Je + maison.DAT + vais | Je vais à la maison |
+| ==Mən evdə yaşayıram::az== | Je + maison.LOC + vis | Je vis dans la maison |
+| ==Mən evdən gəlirəm::az== | Je + maison.ABL + viens | Je viens de la maison |
+| ==Bu evin qapısı::az== | Ce + maison.GÉN + porte.POSS3 | La porte de cette maison |
 
 ## Possession — suffixes possessifs
 
@@ -90,10 +90,10 @@ Action en cours, comme "I am doing" en anglais.
 
 | Azéri | Analyse | Français |
 |-------|---------|---------|
-| gəlirəm | gəl (venir) + ir + əm | je viens / je suis en train de venir |
-| oxuyursan | oxu (lire) + yur + san | tu lis |
-| yazır | yaz (écrire) + ır | il écrit |
-| içirik | iç (boire) + ir + ik | nous buvons |
+| ==gəlirəm::az== | gəl (venir) + ir + əm | je viens / je suis en train de venir |
+| ==oxuyursan::az== | oxu (lire) + yur + san | tu lis |
+| ==yazır::az== | yaz (écrire) + ır | il écrit |
+| ==içirik::az== | iç (boire) + ir + ik | nous buvons |
 
 ### Passé narratif — -dı / -di / -du / -dü
 
@@ -101,17 +101,17 @@ Action accomplie, vécue personnellement.
 
 | Azéri | Analyse | Français |
 |-------|---------|---------|
-| getdim | get (aller) + di + m | je suis allé |
-| gördün | gör (voir) + dü + n | tu as vu |
-| yazdı | yaz (écrire) + dı | il a écrit |
+| ==getdim::az== | get (aller) + di + m | je suis allé |
+| ==gördün::az== | gör (voir) + dü + n | tu as vu |
+| ==yazdı::az== | yaz (écrire) + dı | il a écrit |
 
 ### Futur — -acaq / -əcək
 
 | Azéri | Analyse | Français |
 |-------|---------|---------|
-| gələcəyəm | gəl + əcəy + əm | je viendrai |
-| gedəcəksən | get + əcək + sən | tu iras |
-| yazacaq | yaz + acaq | il écrira |
+| ==gələcəyəm::az== | gəl + əcəy + əm | je viendrai |
+| ==gedəcəksən::az== | get + əcək + sən | tu iras |
+| ==yazacaq::az== | yaz + acaq | il écrira |
 
 ## Négation verbale — -ma / -mə
 
@@ -136,16 +136,16 @@ Le suffixe négatif s'insère entre la racine et les suffixes de temps.
 
 | Azéri | Français |
 |-------|---------|
-| Nə? | Quoi ? |
-| Kim? | Qui ? |
-| Harada? | Où ? |
-| Haraya? | Où (direction) ? |
-| Haradan? | D'où ? |
-| Nə vaxt? / Nə zaman? | Quand ? |
-| Necə? | Comment ? |
-| Nə üçün? / Niyə? | Pourquoi ? |
-| Neçə? | Combien ? |
-| Hansı? | Lequel ? |
+| ==Nə?::az== | Quoi ? |
+| ==Kim?::az== | Qui ? |
+| ==Harada?::az== | Où ? |
+| ==Haraya?::az== | Où (direction) ? |
+| ==Haradan?::az== | D'où ? |
+| ==Nə vaxt?::az== / ==Nə zaman?::az== | Quand ? |
+| ==Necə?::az== | Comment ? |
+| ==Nə üçün?::az== / ==Niyə?::az== | Pourquoi ? |
+| ==Neçə?::az== | Combien ? |
+| ==Hansı?::az== | Lequel ? |
 
 ## Pluriel — -lar / -lər
 

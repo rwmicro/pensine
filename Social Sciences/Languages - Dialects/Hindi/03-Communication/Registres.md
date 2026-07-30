@@ -13,9 +13,9 @@ Le hindi a trois niveaux de politesse obligatoires, marqués principalement par 
 
 | Niveau | Pronom | Usage | Équivalent français |
 |--------|--------|-------|---------------------|
-| **Très informel** | तू (tū) | Enfants, animaux, amants très intimes, parfois Dieu | "tu" intime, peut être insultant entre adultes |
-| **Informel/Neutre** | तुम (tum) | Amis, famille, collègues du même rang | "tu" standard |
-| **Formel/Respectueux** | आप (āp) | Inconnus, aînés, supérieurs, professeurs, clients | "vous" |
+| **Très informel** | ==तू::hi== (tū) | Enfants, animaux, amants très intimes, parfois Dieu | "tu" intime, peut être insultant entre adultes |
+| **Informel/Neutre** | ==तुम::hi== (tum) | Amis, famille, collègues du même rang | "tu" standard |
+| **Formel/Respectueux** | ==आप::hi== (āp) | Inconnus, aînés, supérieurs, professeurs, clients | "vous" |
 
 > **Règle d'or :** Commencer systématiquement par **आप** avec un inconnu. Descendre vers **तुम** si l'autre le fait ou vous y invite.
 
@@ -23,52 +23,52 @@ Le hindi a trois niveaux de politesse obligatoires, marqués principalement par 
 
 | Personne | तू (très informel) | तुम (informel) | आप (formel) |
 |---------|-------------------|----------------|------------|
-| Tu | तू | तुम | आप |
-| Il/Elle | वो (vo) | वो / वह (vah) | आप / वे (ve) |
-| Votre | तेरा/तेरी (terā/terī) | तुम्हारा/तुम्हारी | आपका/आपकी |
+| Tu | ==तू::hi== | ==तुम::hi== | ==आप::hi== |
+| Il/Elle | ==वो::hi== (vo) | ==वो::hi== / ==वह::hi== (vah) | ==आप::hi== / ==वे::hi== (ve) |
+| Votre | ==तेरा::hi==/==तेरी::hi== (terā/terī) | ==तुम्हारा::hi==/==तुम्हारी::hi== | ==आपका::hi==/==आपकी::hi== |
 
 ## Verbes conjugués selon le registre
 
 | Verbe | तू | तुम | आप |
 |-------|-----|------|-----|
-| Être (es) | है (hai) | हो (ho) | हैं (haĩ) |
-| Aller (vas) | जाता है (jātā hai) | जाते हो (jāte ho) | जाते हैं (jāte haĩ) |
-| Savoir (sais) | जानता है (jāntā hai) | जानते हो (jānte ho) | जानते हैं (jānte haĩ) |
-| Faire (fais) | करता है (kartā hai) | करते हो (karte ho) | करते हैं (karte haĩ) |
+| Être (es) | ==है::hi== (hai) | ==हो::hi== (ho) | ==हैं::hi== (haĩ) |
+| Aller (vas) | ==जाता है::hi== (jātā hai) | ==जाते हो::hi== (jāte ho) | ==जाते हैं::hi== (jāte haĩ) |
+| Savoir (sais) | ==जानता है::hi== (jāntā hai) | ==जानते हो::hi== (jānte ho) | ==जानते हैं::hi== (jānte haĩ) |
+| Faire (fais) | ==करता है::hi== (kartā hai) | ==करते हो::hi== (karte ho) | ==करते हैं::hi== (karte haĩ) |
 
 ## Salutations et formules selon le registre
 
 | Situation | Formel (आप) | Courant (तुम) | Familier (तू) |
 |-----------|------------|---------------|---------------|
-| Bonjour | नमस्ते (Namaste) + आदाब | नमस्ते | अरे! / Haan |
-| Comment vas-tu | आप कैसे हैं? | तुम कैसे हो? | तू कैसा है? |
-| Réponse | बहुत अच्छा, आपका धन्यवाद | ठीक हूँ, तुम्हारा? | बढ़िया! तेरा? |
-| Au revoir | नमस्ते / फिर मिलेंगे | अच्छा, फिर मिलते हैं | चल, बाय |
-| Merci | बहुत धन्यवाद / शुक्रिया | धन्यवाद / शुक्रिया | Thanks / शुक्र है |
-| S'il vous plaît | कृपया (Kripayā) | ज़रा (Zarā) | यार (Yār) |
-| Excuse-moi | माफ़ कीजिएगा | माफ़ करना | Sorry |
+| Bonjour | ==नमस्ते::hi== (Namaste) + ==आदाब::hi== | ==नमस्ते::hi== | ==अरे::hi==! / Haan |
+| Comment vas-tu | ==आप कैसे हैं::hi==? | ==तुम कैसे हो::hi==? | ==तू कैसा है::hi==? |
+| Réponse | ==बहुत अच्छा::hi==, ==आपका धन्यवाद::hi== | ==ठीक हूँ::hi==, ==तुम्हारा::hi==? | ==बढ़िया::hi==! ==तेरा::hi==? |
+| Au revoir | ==नमस्ते::hi== / ==फिर मिलेंगे::hi== | ==अच्छा::hi==, ==फिर मिलते हैं::hi== | ==चल::hi==, ==बाय::hi== |
+| Merci | ==बहुत धन्यवाद::hi== / ==शुक्रिया::hi== | ==धन्यवाद::hi== / ==शुक्रिया::hi== | Thanks / ==शुक्र है::hi== |
+| S'il vous plaît | ==कृपया::hi== (Kripayā) | ==ज़रा::hi== (Zarā) | ==यार::hi== (Yār) |
+| Excuse-moi | ==माफ़ कीजिएगा::hi== | ==माफ़ करना::hi== | Sorry |
 
 ## Vocabulaire selon le registre
 
 | Mot | Formel | Courant | Informel/Argot |
 |-----|--------|---------|----------------|
-| Manger | भोजन करना (bhojan karnā) | खाना खाना (khānā khānā) | खाना (khānā) / खाना खाना |
-| Parler | वार्तालाप करना | बात करना (bāt karnā) | बात करना / बकवास करना |
-| Eau | जल (jal) | पानी (pānī) | पानी |
-| Maison | गृह (grih) | घर (ghar) | घर |
-| Femme | महिला (mahilā) / श्रीमती | औरत (aurat) | लड़की (larṛkī) |
-| Homme | पुरुष (puruṣ) | आदमी (ādmī) | बन्दा (bandā) |
-| Bien | उत्तम (uttam) | अच्छा (acchā) | बढ़िया (baṛhiyā) / मस्त |
-| Problème | समस्या (samasyā) | परेशानी (pareśānī) | झंझट (jhaṅjhaṭ) |
+| Manger | ==भोजन करना::hi== (bhojan karnā) | ==खाना खाना::hi== (khānā khānā) | ==खाना::hi== (khānā) / ==खाना खाना::hi== |
+| Parler | ==वार्तालाप करना::hi== | ==बात करना::hi== (bāt karnā) | ==बात करना::hi== / ==बकवास करना::hi== |
+| Eau | ==जल::hi== (jal) | ==पानी::hi== (pānī) | ==पानी::hi== |
+| Maison | ==गृह::hi== (grih) | ==घर::hi== (ghar) | ==घर::hi== |
+| Femme | ==महिला::hi== (mahilā) / ==श्रीमती::hi== | ==औरत::hi== (aurat) | ==लड़की::hi== (larṛkī) |
+| Homme | ==पुरुष::hi== (puruṣ) | ==आदमी::hi== (ādmī) | ==बन्दा::hi== (bandā) |
+| Bien | ==उत्तम::hi== (uttam) | ==अच्छा::hi== (acchā) | ==बढ़िया::hi== (baṛhiyā) / ==मस्त::hi== |
+| Problème | ==समस्या::hi== (samasyā) | ==परेशानी::hi== (pareśānī) | ==झंझट::hi== (jhaṅjhaṭ) |
 
 ## Formules d'invitation
 
 | Situation | Formel (आप) | Informel (तुम) |
 |-----------|------------|----------------|
-| Entrez | अंदर आइए | आओ |
-| Asseyez-vous | बैठिए | बैठो |
-| Mangez | खाइए | खाओ |
-| Buvez | पीजिए | पियो |
+| Entrez | ==अंदर आइए::hi== | ==आओ::hi== |
+| Asseyez-vous | ==बैठिए::hi== | ==बैठो::hi== |
+| Mangez | ==खाइए::hi== | ==खाओ::hi== |
+| Buvez | ==पीजिए::hi== | ==पियो::hi== |
 
 ## Points culturels
 

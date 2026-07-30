@@ -53,48 +53,48 @@ Comme le javanais, le sundanais a des niveaux de politesse :
 
 | Sundanais | Indonésien | Français |
 | :-------: | :--------: | :------: |
-| Abdi | Saya | Je (poli) |
-| Urang | Saya | Je (standard) |
-| Aing | Saya | Je (familier) |
-| Anjeun | Kamu | Tu/Vous (poli) |
-| Maneh | Kamu | Tu (familier) |
-| Naon? | Apa? | Quoi ? |
-| Saha? | Siapa? | Qui ? |
-| Iraha? | Kapan? | Quand ? |
-| Dimana? | Di mana? | Où ? |
-| Kumaha? | Bagaimana? | Comment ? |
-| Enya | Ya | Oui |
-| Henteu / Moal | Tidak | Non |
+| Abdi | ==Saya::id== | Je (poli) |
+| Urang | ==Saya::id== | Je (standard) |
+| Aing | ==Saya::id== | Je (familier) |
+| Anjeun | ==Kamu::id== | Tu/Vous (poli) |
+| Maneh | ==Kamu::id== | Tu (familier) |
+| Naon? | ==Apa?::id== | Quoi ? |
+| Saha? | ==Siapa?::id== | Qui ? |
+| Iraha? | ==Kapan?::id== | Quand ? |
+| Dimana? | ==Di mana?::id== | Où ? |
+| Kumaha? | ==Bagaimana?::id== | Comment ? |
+| Enya | ==Ya::id== | Oui |
+| Henteu / Moal | ==Tidak::id== | Non |
 
 ### Actions Courantes
 
 | Sundanais | Indonésien | Français |
 | :-------: | :--------: | :------: |
-| Dahar | Makan | Manger |
-| Nginum | Minum | Boire |
-| Sare | Tidur | Dormir |
-| Leumpang | Jalan | Marcher |
-| Lumpat | Lari | Courir |
-| Ngomong | Bicara | Parler |
-| Ngadangu | Mendengar | Entendre |
-| Ningali | Melihat | Voir |
-| Balik | Pulang | Rentrer |
-| Indit | Pergi | Partir |
+| Dahar | ==Makan::id== | Manger |
+| Nginum | ==Minum::id== | Boire |
+| Sare | ==Tidur::id== | Dormir |
+| Leumpang | ==Jalan::id== | Marcher |
+| Lumpat | ==Lari::id== | Courir |
+| Ngomong | ==Bicara::id== | Parler |
+| Ngadangu | ==Mendengar::id== | Entendre |
+| Ningali | ==Melihat::id== | Voir |
+| Balik | ==Pulang::id== | Rentrer |
+| Indit | ==Pergi::id== | Partir |
 
 ### Adjectifs
 
 | Sundanais | Indonésien | Français |
 | :-------: | :--------: | :------: |
-| Alus | Bagus | Beau/Bon |
-| Goréng | Jelek | Mauvais |
-| Gedé | Besar | Grand |
-| Leutik | Kecil | Petit |
-| Panas | Panas | Chaud |
-| Tiis | Dingin | Froid |
-| Ngeunah | Enak | Délicieux |
-| Hésé | Sulit | Difficile |
-| Gampang | Mudah | Facile |
-| Lami | Lama | Long (temps) |
+| Alus | ==Bagus::id== | Beau/Bon |
+| Goréng | ==Jelek::id== | Mauvais |
+| Gedé | ==Besar::id== | Grand |
+| Leutik | ==Kecil::id== | Petit |
+| Panas | ==Panas::id== | Chaud |
+| Tiis | ==Dingin::id== | Froid |
+| Ngeunah | ==Enak::id== | Délicieux |
+| Hésé | ==Sulit::id== | Difficile |
+| Gampang | ==Mudah::id== | Facile |
+| Lami | ==Lama::id== | Long (temps) |
 
 ## Expressions Populaires
 

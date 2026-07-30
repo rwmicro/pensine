@@ -38,15 +38,15 @@ Une étude complète a inventorié **300 proverbes Sambas Malay** classés comme
 
 | Sambas | Indonésien | Français | Signification |
 |--------|------------|----------|---------------|
-| Malu-malu kucing | Tingkah orang yang pura-pura malu padahal sebenarnya ingin | Timide comme un chat | Décrit quelqu'un qui fait semblant d'être timide mais désire vraiment quelque chose. Utilisé pour ceux qui sont amoureux mais timides pour exprimer leurs sentiments. |
+| ==Malu-malu kucing::ms== | Tingkah orang yang pura-pura malu padahal sebenarnya ingin | Timide comme un chat | Décrit quelqu'un qui fait semblant d'être timide mais désire vraiment quelque chose. Utilisé pour ceux qui sont amoureux mais timides pour exprimer leurs sentiments. |
 
 ### Autres proverbes mentionnés
 
 | Sambas | Type | Signification |
 |--------|------|---------------|
-| Miyang rabong | Proverbe | (Signification à rechercher) |
-| Rebung gatal | Proverbe | (Signification à rechercher) |
-| Abis sari makan sari | Proverbe | (Signification à rechercher) |
+| ==Miyang rabong::ms== | Proverbe | (Signification à rechercher) |
+| ==Rebung gatal::ms== | Proverbe | (Signification à rechercher) |
+| ==Abis sari makan sari::ms== | Proverbe | (Signification à rechercher) |
 
 ## 🐟 Thèmes dans les proverbes
 
@@ -64,13 +64,13 @@ Ces animaux symbolisent des expressions et figures de style qui enseignent la ve
 
 | Sambas | Signification |
 |--------|---------------|
-| (À compléter avec recherches futures) | |
+| (À compléter avec recherches futures) |  |
 
 ### Expressions idiomatiques
 
 | Sambas | Indonésien | Français | Usage |
 |--------|------------|----------|-------|
-| (À compléter avec recherches futures) | | | |
+| (À compléter avec recherches futures) |  |  |  |
 
 
 ## 📚 Notes pour recherches futures

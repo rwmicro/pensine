@@ -13,7 +13,7 @@ Le mandarin varie sur plusieurs axes :
 
 | Axe | Variation |
 |-----|----------|
-| Formalité | 你 vs 您 — choix de vocabulaire — structures plus longues |
+| Formalité | ==你::zh== vs ==您::zh== — choix de vocabulaire — structures plus longues |
 | Géographie | Mandarin du Nord (Pékin), du Sud-Est (Taïwan), de Singapour |
 | Génération | Vocabulaire jeune, anglicismes, internet slang |
 | Canal | Écrit littéraire vs oral familier vs SMS WeChat |
@@ -22,8 +22,8 @@ Le mandarin varie sur plusieurs axes :
 
 | Pronom | Pinyin | Usage |
 |--------|--------|-------|
-| 你 (nǐ) | Standard | Quasi-universel — ami, inconnu, jeune, contexte courant |
-| 您 (nín) | Respectueux | Personnes âgées, supérieurs, professeurs, clients, maîtres |
+| ==你::zh== (nǐ) | Standard | Quasi-universel — ami, inconnu, jeune, contexte courant |
+| ==您::zh== (nín) | Respectueux | Personnes âgées, supérieurs, professeurs, clients, maîtres |
 
 > Contrairement au français, **你 n'est pas grossier**. Il est neutre. **您 marque un respect explicite**, pas un vouvoiement par défaut.
 
@@ -31,27 +31,27 @@ Le mandarin varie sur plusieurs axes :
 
 | Situation | Pronom |
 |-----------|--------|
-| Parler à un grand-parent | 您 obligatoire |
-| Parler à son professeur (老师) | 您 |
-| Parler à un médecin, un fonctionnaire | 您 |
-| Au commerce, en tant que client | 你 (le commerçant dit 您) |
-| Entre collègues du même rang | 你 |
-| Avec un enfant | 你 |
+| Parler à un grand-parent | ==您::zh== obligatoire |
+| Parler à son professeur (==老师::zh==) | ==您::zh== |
+| Parler à un médecin, un fonctionnaire | ==您::zh== |
+| Au commerce, en tant que client | ==你::zh== (le commerçant dit ==您::zh==) |
+| Entre collègues du même rang | ==你::zh== |
+| Avec un enfant | ==你::zh== |
 
 ## Variantes lexicales — China continentale, Taïwan, Singapour
 
 | Concept | Chine continentale | Taïwan |
 |---------|-------------------|--------|
-| Pomme de terre | 土豆 (tǔdòu) | 馬鈴薯 (mǎlíngshǔ) |
-| Tomate | 西红柿 (xīhóngshì) | 番茄 (fānqié) |
-| Vélo | 自行车 (zìxíngchē) | 腳踏車 (jiǎotàchē) |
-| Métro | 地铁 (dìtiě) | 捷運 (jiéyùn) |
-| Taxi | 出租车 (chūzūchē) | 計程車 (jìchéngchē) |
-| Logiciel | 软件 (ruǎnjiàn) | 軟體 (ruǎntǐ) |
-| Mobile / portable | 手机 (shǒujī) | 手機 (shǒujī) — identique |
-| Ordinateur | 电脑 (diànnǎo) | 電腦 (identique en sens) |
-| Internet | 网络 (wǎngluò) | 網路 (wǎnglù) |
-| Sympa / cool | 酷 (kù) | 屌 (diǎo) — argot taïwanais |
+| Pomme de terre | ==土豆::zh== (tǔdòu) | ==馬鈴薯::zh== (mǎlíngshǔ) |
+| Tomate | ==西红柿::zh== (xīhóngshì) | ==番茄::zh== (fānqié) |
+| Vélo | ==自行车::zh== (zìxíngchē) | ==腳踏車::zh== (jiǎotàchē) |
+| Métro | ==地铁::zh== (dìtiě) | ==捷運::zh== (jiéyùn) |
+| Taxi | ==出租车::zh== (chūzūchē) | ==計程車::zh== (jìchéngchē) |
+| Logiciel | ==软件::zh== (ruǎnjiàn) | ==軟體::zh== (ruǎntǐ) |
+| Mobile / portable | ==手机::zh== (shǒujī) | ==手機::zh== (shǒujī) — identique |
+| Ordinateur | ==电脑::zh== (diànnǎo) | ==電腦::zh== (identique en sens) |
+| Internet | ==网络::zh== (wǎngluò) | ==網路::zh== (wǎnglù) |
+| Sympa / cool | ==酷::zh== (kù) | ==屌::zh== (diǎo) — argot taïwanais |
 
 > Les caractères diffèrent (simplifiés en Chine, traditionnels à Taïwan) ainsi que parfois le vocabulaire — mais l'intelligibilité reste totale à 95 %.
 
@@ -61,45 +61,45 @@ Le mandarin varie sur plusieurs axes :
 
 | Caractères | Pinyin | Sens |
 |-----------|--------|------|
-| 尊敬的 | zūnjìng de | Cher / Respecté (formule d'ouverture) |
-| 此致敬礼 | cǐzhì jìnglǐ | Salutations respectueuses (clôture) |
-| 敬启 | jìng qǐ | Pour information respectueuse |
-| 阁下 | géxià | Votre Excellence (très soutenu) |
-| 鄙人 | bǐrén | Moi (modeste) |
-| 阁下贵姓? | géxià guì xìng? | Quel est votre nom (formel) ? |
-| 久仰大名 | jiǔyǎng dàmíng | J'ai entendu parler de vous depuis longtemps |
+| ==尊敬的::zh== | zūnjìng de | Cher / Respecté (formule d'ouverture) |
+| ==此致敬礼::zh== | cǐzhì jìnglǐ | Salutations respectueuses (clôture) |
+| ==敬启::zh== | jìng qǐ | Pour information respectueuse |
+| ==阁下::zh== | géxià | Votre Excellence (très soutenu) |
+| ==鄙人::zh== | bǐrén | Moi (modeste) |
+| ==阁下贵姓::zh==? | géxià guì xìng? | Quel est votre nom (formel) ? |
+| ==久仰大名::zh== | jiǔyǎng dàmíng | J'ai entendu parler de vous depuis longtemps |
 
 ### Formel oral
 
 | Caractères | Pinyin | Sens |
 |-----------|--------|------|
-| 您好,请问... | nín hǎo, qǐng wèn... | Bonjour, puis-je demander... |
-| 麻烦您 | máfan nín | Désolé de vous déranger |
-| 不好意思,打扰一下 | bù hǎo yìsi, dǎrǎo yíxià | Excusez-moi, je vous dérange un instant |
-| 请问您是? | qǐng wèn nín shì? | Puis-je savoir qui vous êtes ? |
-| 失陪了 | shīpéi le | Je dois vous laisser (formel) |
+| ==您好::zh==,==请问::zh==... | nín hǎo, qǐng wèn... | Bonjour, puis-je demander... |
+| ==麻烦您::zh== | máfan nín | Désolé de vous déranger |
+| ==不好意思::zh==,==打扰一下::zh== | bù hǎo yìsi, dǎrǎo yíxià | Excusez-moi, je vous dérange un instant |
+| ==请问您是::zh==? | qǐng wèn nín shì? | Puis-je savoir qui vous êtes ? |
+| ==失陪了::zh== | shīpéi le | Je dois vous laisser (formel) |
 
 ### Courant — quotidien standard
 
 | Caractères | Pinyin | Sens |
 |-----------|--------|------|
-| 你好 | nǐ hǎo | Bonjour |
-| 谢谢 | xièxie | Merci |
-| 不客气 | bú kèqi | De rien |
-| 对不起 | duìbuqǐ | Désolé |
+| ==你好::zh== | nǐ hǎo | Bonjour |
+| ==谢谢::zh== | xièxie | Merci |
+| ==不客气::zh== | bú kèqi | De rien |
+| ==对不起::zh== | duìbuqǐ | Désolé |
 
 ### Familier / argot urbain
 
 | Caractères | Pinyin | Sens |
 |-----------|--------|------|
-| 哥们 | gēmen | Mon pote (homme à homme) |
-| 兄弟 | xiōngdì | Frère / pote |
-| 妹子 | mèizi | Meuf / nana |
-| 牛 / 牛逼 | niú / niúbī | Génial (vulgaire — *niúbī* surtout) |
-| 真棒! | zhēn bàng! | C'est super ! |
-| 太厉害了 | tài lìhai le | Trop fort ! |
-| 没事儿 | méi shìr | T'inquiète |
-| 走着 | zǒu zhe | On y va |
+| ==哥们::zh== | gēmen | Mon pote (homme à homme) |
+| ==兄弟::zh== | xiōngdì | Frère / pote |
+| ==妹子::zh== | mèizi | Meuf / nana |
+| ==牛::zh== / ==牛逼::zh== | niú / niúbī | Génial (vulgaire — *niúbī* surtout) |
+| ==真棒::zh==! | zhēn bàng! | C'est super ! |
+| ==太厉害了::zh== | tài lìhai le | Trop fort ! |
+| ==没事儿::zh== | méi shìr | T'inquiète |
+| ==走着::zh== | zǒu zhe | On y va |
 
 ## Émojis et expressions internet
 
@@ -107,18 +107,18 @@ L'argot internet chinois (网络用语 *wǎngluò yòngyǔ*) est extrêmement d�
 
 | Internet slang | Pinyin / Origine | Sens |
 |---------------|------------------|------|
-| 666 | liù liù liù | Bravo / "noice" (homonyme de 牛) |
+| 666 | liù liù liù | Bravo / "noice" (homonyme de ==牛::zh==) |
 | 233 | èr sān sān | Mort de rire (de l'émoticône lol) |
-| 哈哈 | hāhā | Haha |
-| 嘿嘿 | hēihēi | Hihi (sourire malin) |
-| 嗯 | n / ng | Oui (très court, chat) |
-| 卧槽 | wòcáo | "Putain !" (vulgaire) |
-| 牛批 | niú pī | Génial (un peu vulgaire) |
-| 不约而同 | bùyuē értóng | Sans accord, on est d'accord |
-| 网红 | wǎnghóng | Influenceur internet |
-| 翻墙 | fānqiáng | "Sauter le mur" — utiliser un VPN |
-| 盆友 | pényǒu | Pote (déformation de 朋友) |
-| 我去! | wǒ qù! | "J'y crois pas !" |
+| ==哈哈::zh== | hāhā | Haha |
+| ==嘿嘿::zh== | hēihēi | Hihi (sourire malin) |
+| ==嗯::zh== | n / ng | Oui (très court, chat) |
+| ==卧槽::zh== | wòcáo | "Putain !" (vulgaire) |
+| ==牛批::zh== | niú pī | Génial (un peu vulgaire) |
+| ==不约而同::zh== | bùyuē értóng | Sans accord, on est d'accord |
+| ==网红::zh== | wǎnghóng | Influenceur internet |
+| ==翻墙::zh== | fānqiáng | "Sauter le mur" — utiliser un VPN |
+| ==盆友::zh== | pényǒu | Pote (déformation de ==朋友::zh==) |
+| ==我去::zh==! | wǒ qù! | "J'y crois pas !" |
 
 ## Termes empruntés au pinyin numérique
 
@@ -126,12 +126,12 @@ Sur les claviers chinois, les utilisateurs tapent en pinyin sans les tons. Cela 
 
 | Code | Origine | Sens |
 |------|---------|------|
-| 520 | wǔ èr líng → 我爱你 | "Je t'aime" |
+| 520 | wǔ èr líng → ==我爱你::zh== | "Je t'aime" |
 | 521 | similaire | "Je t'aime aussi" |
 | 88 | bā bā → bāibāi | Tchao (bye-bye) |
-| 5201314 | 我爱你一生一世 | Je t'aime toute la vie |
-| 7456 | 气死我了 | Ça me met en rage |
-| 995 | 救救我 | Au secours |
+| 5201314 | ==我爱你一生一世::zh== | Je t'aime toute la vie |
+| 7456 | ==气死我了::zh== | Ça me met en rage |
+| 995 | ==救救我::zh== | Au secours |
 
 ## Variations dialectales et accents
 
@@ -143,7 +143,7 @@ Le mandarin standard (普通话) s'étend sur un territoire immense, avec des ac
 | Nord-Est (Dongbei) | Accent populaire, tonalité expressive |
 | Shanghai | Mandarin avec influence wu — moins de rétroflexes |
 | Guangzhou (Canton) | Mandarin avec influence cantonais — accent identifiable |
-| Sichuan / Chongqing | Tonalité différente, "pā" pour 把 |
+| Sichuan / Chongqing | Tonalité différente, "pā" pour ==把::zh== |
 | Taïwan | Pas de erhua, prononciation des rétroflexes adoucie, vocabulaire spécifique |
 | Singapour / Malaisie | Influences hokkien, malais, anglais |
 
@@ -153,14 +153,14 @@ Le mandarin a une diglossie marquée entre écrit formel et oral courant :
 
 | Concept | Écrit (书面语) | Oral (口语) |
 |---------|--------------|-----------|
-| très | 非常 / 极其 | 很 / 特别 |
-| mais | 然而 / 但是 | 不过 / 可是 |
-| parce que | 由于 / 因为 | 因为 |
-| donc | 因此 / 所以 | 所以 |
-| beaucoup | 许多 | 很多 |
-| à présent | 目前 | 现在 |
-| passer | 经过 | 过 |
-| avoir | 拥有 | 有 |
+| très | ==非常::zh== / ==极其::zh== | ==很::zh== / ==特别::zh== |
+| mais | ==然而::zh== / ==但是::zh== | ==不过::zh== / ==可是::zh== |
+| parce que | ==由于::zh== / ==因为::zh== | ==因为::zh== |
+| donc | ==因此::zh== / ==所以::zh== | ==所以::zh== |
+| beaucoup | ==许多::zh== | ==很多::zh== |
+| à présent | ==目前::zh== | ==现在::zh== |
+| passer | ==经过::zh== | ==过::zh== |
+| avoir | ==拥有::zh== | ==有::zh== |
 
 > L'écrit formel chinois conserve beaucoup de tournures du **chinois classique** (文言 *wényán*). Un journal lu à voix haute sonne très différent du parler du quotidien.
 
@@ -187,11 +187,11 @@ Le mandarin urbain moderne incorpore des anglicismes, surtout chez les jeunes ur
 | OK / okay | OK |
 | sorry | désolé |
 | call | appeler |
-| email | email (邮件) |
-| WeChat / 微信 | WeChat |
+| email | email (==邮件::zh==) |
+| WeChat / ==微信::zh== | WeChat |
 | review | revue |
 | present (verb) | présenter |
 | boss | patron |
-| office | bureau (办公室) |
+| office | bureau (==办公室::zh==) |
 
 > En milieu d'entreprise pékinois, on entend souvent "我去 review 一下这个 doc" (je vais reviewer ce doc).
