@@ -199,9 +199,9 @@ Simple : placer **no** avant le verbe.
 
 | Espagnol | Français |
 |----------|---------|
-| ==No tengo **nada**::es== | Je n'ai rien |
-| ==No conozco a **nadie**::es== | Je ne connais personne |
-| ==**Nunca** digo **nada**::es== | Je ne dis jamais rien |
+| ![No tengo **nada**](audio/es_male_3b827b44cb3d.mp3) | Je n'ai rien |
+| ![No conozco a **nadie**](audio/es_male_3a2c8f2ab1ab.mp3) | Je ne connais personne |
+| ![**Nunca** digo **nada**](audio/es_male_6d317c19c7e4.mp3) | Je ne dis jamais rien |
 
 ## Questions
 
@@ -209,23 +209,23 @@ Les questions en espagnol sont marquées par **deux points d'interrogation** : u
 
 | Espagnol | Français |
 |----------|---------|
-| ==¿Cómo estás?::es== | Comment vas-tu ? |
-| ==¿De dónde eres?::es== | D'où viens-tu ? |
-| ==¿Cuánto cuesta?::es== | Combien ça coûte ? |
-| ==¿Qué hora es?::es== | Quelle heure est-il ? |
+| ![¿Cómo estás?](audio/es_male_d201a9c4a8c2.mp3) | Comment vas-tu ? |
+| ![¿De dónde eres?](audio/es_male_3cd058dcea63.mp3) | D'où viens-tu ? |
+| ![¿Cuánto cuesta?](audio/es_male_5d34e5d84e6f.mp3) | Combien ça coûte ? |
+| ![¿Qué hora es?](audio/es_male_723b02bc6231.mp3) | Quelle heure est-il ? |
 
 ## Mots interrogatifs
 
 | Espagnol | Français |
 |----------|---------|
-| ==¿Qué?::es== | Quoi ? |
-| ==¿Quién?::es== / ==¿Quiénes?::es== | Qui ? |
-| ==¿Dónde?::es== | Où ? |
-| ==¿Adónde?::es== | Où (direction) ? |
-| ==¿De dónde?::es== | D'où ? |
-| ==¿Cuándo?::es== | Quand ? |
-| ==¿Cómo?::es== | Comment ? |
-| ==¿Por qué?::es== | Pourquoi ? |
-| ==¿Para qué?::es== | Pour quoi faire ? |
-| ==¿Cuánto?::es== / ==¿Cuántos?::es== | Combien ? |
-| ==¿Cuál?::es== / ==¿Cuáles?::es== | Lequel ? |
+| ![¿Qué?](audio/es_male_389e51390234.mp3) | Quoi ? |
+| ![¿Quién?](audio/es_male_69e37011f6b2.mp3) / ![¿Quiénes?](audio/es_male_690268928b28.mp3) | Qui ? |
+| ![¿Dónde?](audio/es_male_22b3e38110e8.mp3) | Où ? |
+| ![¿Adónde?](audio/es_male_56ff462d72c7.mp3) | Où (direction) ? |
+| ![¿De dónde?](audio/es_male_9f9c1af826d1.mp3) | D'où ? |
+| ![¿Cuándo?](audio/es_male_e1c1b6aaf103.mp3) | Quand ? |
+| ![¿Cómo?](audio/es_male_75322ed8ea77.mp3) | Comment ? |
+| ![¿Por qué?](audio/es_male_6b567f90dcdb.mp3) | Pourquoi ? |
+| ![¿Para qué?](audio/es_male_edad3ea967ed.mp3) | Pour quoi faire ? |
+| ![¿Cuánto?](audio/es_male_60835bab49fb.mp3) / ![¿Cuántos?](audio/es_male_a2a37e97b71d.mp3) | Combien ? |
+| ![¿Cuál?](audio/es_male_5b5f8a5ea260.mp3) / ![¿Cuáles?](audio/es_male_dd23ad70ec70.mp3) | Lequel ? |

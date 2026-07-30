@@ -119,13 +119,13 @@ L'espagnol contemporain absorbe rapidement des termes anglais, surtout chez les 
 
 | Spanglish | Espagnol pur | Sens |
 |-----------|--------------|------|
-| parquear | ==estacionar::es== / ==aparcar::es== | garer |
-| chequear | ==verificar::es== / ==revisar::es== | vérifier |
-| clickear | ==hacer clic::es== | cliquer |
-| el email | ==el correo electrónico::es== | e-mail |
-| el WhatsApp | ==el WhatsApp::es== | WhatsApp (anglicisme accepté) |
-| guglear | ==buscar en Google::es== | googler |
-| rentear | ==alquilar::es== | louer |
+| parquear | ![estacionar](audio/es_male_aaca736a396e.mp3) / ![aparcar](audio/es_male_7c8498820953.mp3) | garer |
+| chequear | ![verificar](audio/es_male_fbd722c27484.mp3) / ![revisar](audio/es_male_6979e7ab2049.mp3) | vérifier |
+| clickear | ![hacer clic](audio/es_male_fb0c71403a49.mp3) | cliquer |
+| el email | ![el correo electrónico](audio/es_male_47cf85feeea4.mp3) | e-mail |
+| el WhatsApp | ![el WhatsApp](audio/es_male_c8ae141f597e.mp3) | WhatsApp (anglicisme accepté) |
+| guglear | ![buscar en Google](audio/es_male_c3ee5e48863b.mp3) | googler |
+| rentear | ![alquilar](audio/es_male_9c3bfae5b00e.mp3) | louer |
 
 ## SMS / Réseaux sociaux
 
