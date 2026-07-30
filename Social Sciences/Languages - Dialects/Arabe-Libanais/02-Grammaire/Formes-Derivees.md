@@ -32,11 +32,11 @@ Racine nue avec voyelles variables (a-a, i-i, u-u). Valeur neutre, souvent trans
 
 | Verbe | Sens |
 |-------|------|
-| ==كتب::ar-lb== (katab) | écrire |
-| ==شرب::ar-lb== (shirib) | boire |
-| ==درس::ar-lb== (daras) | étudier |
-| ==فهم::ar-lb== (fihim) | comprendre |
-| ==سمع::ar-lb== (simi3) | entendre |
+| ![كتب](audio/ar-lb_male_e227e412dafb.mp3) (katab) | écrire |
+| ![شرب](audio/ar-lb_male_ee029a3cd862.mp3) (shirib) | boire |
+| ![درس](audio/ar-lb_male_6576d4bec5bd.mp3) (daras) | étudier |
+| ![فهم](audio/ar-lb_male_bc7b4ea80658.mp3) (fihim) | comprendre |
+| ![سمع](audio/ar-lb_male_a0301c4bd62e.mp3) (simi3) | entendre |
 
 ## Forme II — fa33al (redoublement de C₂)
 
@@ -44,11 +44,11 @@ Double la consonne centrale. Valeur intensive, causative, ou itérative.
 
 | Racine | Forme I | Forme II | Changement de sens |
 |--------|---------|----------|-------------------|
-| ==ع::ar-lb==-==ل::ar-lb==-==م::ar-lb== | ==عرف::ar-lb== 3irif (savoir) | ==علّم::ar-lb== 3allam (enseigner) | causatif : faire savoir |
-| ==ك::ar-lb==-==س::ar-lb==-==ر::ar-lb== | ==كسر::ar-lb== kasar (casser) | ==كسّر::ar-lb== kassar (briser en mille morceaux) | intensif |
-| ==د::ar-lb==-==ر::ar-lb==-==س::ar-lb== | ==درس::ar-lb== daras (étudier) | ==درّس::ar-lb== darras (enseigner) | causatif |
-| ==ف::ar-lb==-==ه::ar-lb==-==م::ar-lb== | ==فهم::ar-lb== fihim (comprendre) | ==فهّم::ar-lb== fahham (faire comprendre) | causatif |
-| ==ن::ar-lb==-==ظ::ar-lb==-==ف::ar-lb== | — | ==نظّف::ar-lb== naddaf (nettoyer) | forme dénominative |
+| ![ع](audio/ar-lb_male_17771ee07751.mp3)-![ل](audio/ar-lb_male_fc35d917c205.mp3)-![م](audio/ar-lb_male_38a765d53907.mp3) | ![عرف](audio/ar-lb_male_cb34eb6b3522.mp3) 3irif (savoir) | ![علّم](audio/ar-lb_male_f4daaf121a36.mp3) 3allam (enseigner) | causatif : faire savoir |
+| ![ك](audio/ar-lb_male_98e9e055efa5.mp3)-![س](audio/ar-lb_male_1af01b7c52a9.mp3)-![ر](audio/ar-lb_male_fdaef2c706d3.mp3) | ![كسر](audio/ar-lb_male_66d5fad5bac6.mp3) kasar (casser) | ![كسّر](audio/ar-lb_male_74f0d1217a66.mp3) kassar (briser en mille morceaux) | intensif |
+| ![د](audio/ar-lb_male_63f62e68c42a.mp3)-![ر](audio/ar-lb_male_fdaef2c706d3.mp3)-![س](audio/ar-lb_male_1af01b7c52a9.mp3) | ![درس](audio/ar-lb_male_6576d4bec5bd.mp3) daras (étudier) | ![درّس](audio/ar-lb_male_ef4e76d46e18.mp3) darras (enseigner) | causatif |
+| ![ف](audio/ar-lb_male_1d8d695e93d7.mp3)-![ه](audio/ar-lb_male_06fb873d755d.mp3)-![م](audio/ar-lb_male_38a765d53907.mp3) | ![فهم](audio/ar-lb_male_bc7b4ea80658.mp3) fihim (comprendre) | ![فهّم](audio/ar-lb_male_abd07b28966b.mp3) fahham (faire comprendre) | causatif |
+| ![ن](audio/ar-lb_male_ff954107b615.mp3)-![ظ](audio/ar-lb_male_afe1352e1164.mp3)-![ف](audio/ar-lb_male_1d8d695e93d7.mp3) | — | ![نظّف](audio/ar-lb_male_155cd431b845.mp3) naddaf (nettoyer) | forme dénominative |
 
 ## Forme III — fā3al (allongement)
 
@@ -56,12 +56,12 @@ Voyelle longue `ā` après C₁. Valeur de **réciprocité** ou d'action avec/ve
 
 | Racine | Forme III | Sens |
 |--------|-----------|------|
-| ==ك::ar-lb==-==ت::ar-lb==-==ب::ar-lb== | ==كاتب::ar-lb== kātab | correspondre avec |
-| ==ق::ar-lb==-==ت::ar-lb==-==ل::ar-lb== | ==قاتل::ar-lb== 2ātal | combattre contre |
-| ==س::ar-lb==-==ف::ar-lb==-==ر::ar-lb== | ==سافر::ar-lb== sēfar | voyager (avec idée d'accompagnement) |
-| ==ح::ar-lb==-==ك::ar-lb==-==ي::ar-lb== | ==حاكى::ar-lb== 7āka | parler à (imiter) |
-| ==س::ar-lb==-==ا::ar-lb==-==ع::ar-lb==-==د::ar-lb== | ==ساعد::ar-lb== sē3ad | aider |
-| ==ق::ar-lb==-==ا::ar-lb==-==ب::ar-lb==-==ل::ar-lb== | ==قابل::ar-lb== 2ābal | rencontrer |
+| ![ك](audio/ar-lb_male_98e9e055efa5.mp3)-![ت](audio/ar-lb_male_8b9fda98e1fd.mp3)-![ب](audio/ar-lb_male_dc46ac4b3d50.mp3) | ![كاتب](audio/ar-lb_male_afcbe71681d0.mp3) kātab | correspondre avec |
+| ![ق](audio/ar-lb_male_dbe99b2c824d.mp3)-![ت](audio/ar-lb_male_8b9fda98e1fd.mp3)-![ل](audio/ar-lb_male_fc35d917c205.mp3) | ![قاتل](audio/ar-lb_male_01027d4ab0bd.mp3) 2ātal | combattre contre |
+| ![س](audio/ar-lb_male_1af01b7c52a9.mp3)-![ف](audio/ar-lb_male_1d8d695e93d7.mp3)-![ر](audio/ar-lb_male_fdaef2c706d3.mp3) | ![سافر](audio/ar-lb_male_22ec29f8cc61.mp3) sēfar | voyager (avec idée d'accompagnement) |
+| ![ح](audio/ar-lb_male_d42d03caefad.mp3)-![ك](audio/ar-lb_male_98e9e055efa5.mp3)-![ي](audio/ar-lb_male_43fa4ff801b3.mp3) | ![حاكى](audio/ar-lb_male_21a998ace3d6.mp3) 7āka | parler à (imiter) |
+| ![س](audio/ar-lb_male_1af01b7c52a9.mp3)-![ا](audio/ar-lb_male_bdb55e584963.mp3)-![ع](audio/ar-lb_male_17771ee07751.mp3)-![د](audio/ar-lb_male_63f62e68c42a.mp3) | ![ساعد](audio/ar-lb_male_7b1394d2c23b.mp3) sē3ad | aider |
+| ![ق](audio/ar-lb_male_dbe99b2c824d.mp3)-![ا](audio/ar-lb_male_bdb55e584963.mp3)-![ب](audio/ar-lb_male_dc46ac4b3d50.mp3)-![ل](audio/ar-lb_male_fc35d917c205.mp3) | ![قابل](audio/ar-lb_male_606aeace9216.mp3) 2ābal | rencontrer |
 
 ## Forme V — tfa33al (réfléchi de II)
 
@@ -69,12 +69,12 @@ Préfixe **t-** + forme II. Valeur réfléchie ou passive de la forme II.
 
 | Forme II | Forme V | Sens |
 |----------|---------|------|
-| ==علّم::ar-lb== (enseigner) | ==تعلّم::ar-lb== (t3allam) | apprendre (s'enseigner) |
-| ==فهّم::ar-lb== (faire comprendre) | ==تفهّم::ar-lb== (tfahham) | comprendre peu à peu |
-| ==كلّم::ar-lb== (parler à) | ==تكلّم::ar-lb== (tkallam) | se mettre à parler (MSA — en libanais: 7aka) |
-| ==ذكّر::ar-lb== (rappeler) | ==تذكّر::ar-lb== (tzakkar) | se souvenir |
-| ==غيّر::ar-lb== (changer) | ==تغيّر::ar-lb== (tghayyar) | changer (intransitif) |
-| ==جوّز::ar-lb== (marier qqn) | ==تجوّز::ar-lb== (tjawwaz) | se marier |
+| ![علّم](audio/ar-lb_male_f4daaf121a36.mp3) (enseigner) | ![تعلّم](audio/ar-lb_male_6c55fa7d4bf4.mp3) (t3allam) | apprendre (s'enseigner) |
+| ![فهّم](audio/ar-lb_male_abd07b28966b.mp3) (faire comprendre) | ![تفهّم](audio/ar-lb_male_445ba61ba31d.mp3) (tfahham) | comprendre peu à peu |
+| ![كلّم](audio/ar-lb_male_0bb5d7de4b7e.mp3) (parler à) | ![تكلّم](audio/ar-lb_male_3f822e7c1ebc.mp3) (tkallam) | se mettre à parler (MSA — en libanais: 7aka) |
+| ![ذكّر](audio/ar-lb_male_239c77323beb.mp3) (rappeler) | ![تذكّر](audio/ar-lb_male_0dfcf491554d.mp3) (tzakkar) | se souvenir |
+| ![غيّر](audio/ar-lb_male_b5a0595c8393.mp3) (changer) | ![تغيّر](audio/ar-lb_male_e01f1b6936ed.mp3) (tghayyar) | changer (intransitif) |
+| ![جوّز](audio/ar-lb_male_8fd5d31ae9d7.mp3) (marier qqn) | ![تجوّز](audio/ar-lb_male_6a7fee35ae5b.mp3) (tjawwaz) | se marier |
 
 ## Forme VI — tfā3al (réciproque de III)
 
@@ -82,10 +82,10 @@ Préfixe **t-** + forme III. Réciprocité mutuelle entre plusieurs sujets.
 
 | Forme III | Forme VI | Sens |
 |-----------|----------|------|
-| ==قابل::ar-lb== (rencontrer) | ==تقابلو::ar-lb== (t2ābalu) | se rencontrer (l'un l'autre) |
-| ==ساعد::ar-lb== (aider) | ==تساعدو::ar-lb== (tsē3adu) | s'entraider |
-| ==حاسب::ar-lb== (régler compte) | ==تحاسبو::ar-lb== (t7āsabu) | régler leurs comptes mutuels |
-| ==شارك::ar-lb== (partager) | ==تشاركو::ar-lb== (tshārku) | se partager mutuellement |
+| ![قابل](audio/ar-lb_male_606aeace9216.mp3) (rencontrer) | ![تقابلو](audio/ar-lb_male_cdfddfae68c8.mp3) (t2ābalu) | se rencontrer (l'un l'autre) |
+| ![ساعد](audio/ar-lb_male_7b1394d2c23b.mp3) (aider) | ![تساعدو](audio/ar-lb_male_d189884c1978.mp3) (tsē3adu) | s'entraider |
+| ![حاسب](audio/ar-lb_male_d39b079578b8.mp3) (régler compte) | ![تحاسبو](audio/ar-lb_male_c428e0b329d7.mp3) (t7āsabu) | régler leurs comptes mutuels |
+| ![شارك](audio/ar-lb_male_f97a8c636fb4.mp3) (partager) | ![تشاركو](audio/ar-lb_male_4e350fffba22.mp3) (tshārku) | se partager mutuellement |
 
 ## Forme VII — infa3al (médio-passif)
 
@@ -93,11 +93,11 @@ Préfixe **in-**. Valeur passive ou médio-passive de la forme I.
 
 | Forme I | Forme VII | Sens |
 |---------|-----------|------|
-| ==كسر::ar-lb== (casser) | ==انكسر::ar-lb== (inkasar) | se casser / être cassé |
-| ==فتح::ar-lb== (ouvrir) | ==انفتح::ar-lb== (infata7) | s'ouvrir |
-| ==قفل::ar-lb== (fermer) | ==انقفل::ar-lb== (in2afal) | se fermer |
-| ==سرق::ar-lb== (voler) | ==انسرق::ar-lb== (insara2) | être volé |
-| ==قتل::ar-lb== (tuer) | ==انقتل::ar-lb== (in2atal) | être tué |
+| ![كسر](audio/ar-lb_male_66d5fad5bac6.mp3) (casser) | ![انكسر](audio/ar-lb_male_794715732dff.mp3) (inkasar) | se casser / être cassé |
+| ![فتح](audio/ar-lb_male_ebfb4a07cf07.mp3) (ouvrir) | ![انفتح](audio/ar-lb_male_d605417fe456.mp3) (infata7) | s'ouvrir |
+| ![قفل](audio/ar-lb_male_d88cd08600ec.mp3) (fermer) | ![انقفل](audio/ar-lb_male_fd8f692573e6.mp3) (in2afal) | se fermer |
+| ![سرق](audio/ar-lb_male_0729036b2b38.mp3) (voler) | ![انسرق](audio/ar-lb_male_778b976039af.mp3) (insara2) | être volé |
+| ![قتل](audio/ar-lb_male_8bbd5bb11f7a.mp3) (tuer) | ![انقتل](audio/ar-lb_male_54cf986804f9.mp3) (in2atal) | être tué |
 
 ## Forme VIII — ifta3al (réfléchi de I)
 
@@ -105,11 +105,11 @@ Infixe **-t-** après C₁. Valeur réfléchie ou réciproque sur la forme I.
 
 | Racine | Forme VIII | Sens |
 |--------|-----------|------|
-| ==ج::ar-lb==-==م::ar-lb==-==ع::ar-lb== | ==اجتمع::ar-lb== (ijtama3) | se réunir |
-| ==ش::ar-lb==-==ر::ar-lb==-==ك::ar-lb== | ==اشترك::ar-lb== (ishtarak) | participer / s'inscrire |
-| ==ن::ar-lb==-==ظ::ar-lb==-==ر::ar-lb== | ==انتظر::ar-lb== (ntazar) | attendre |
-| ==ع::ar-lb==-==د::ar-lb==-==ل::ar-lb== | ==اعتدل::ar-lb== (i3tadal) | s'équilibrer |
-| ==ف::ar-lb==-==ر::ar-lb==-==ق::ar-lb== | ==افترق::ar-lb== (ftara2) | se séparer |
+| ![ج](audio/ar-lb_male_7fe4a79c7581.mp3)-![م](audio/ar-lb_male_38a765d53907.mp3)-![ع](audio/ar-lb_male_17771ee07751.mp3) | ![اجتمع](audio/ar-lb_male_35e8334cc769.mp3) (ijtama3) | se réunir |
+| ![ش](audio/ar-lb_male_d4322ac80721.mp3)-![ر](audio/ar-lb_male_fdaef2c706d3.mp3)-![ك](audio/ar-lb_male_98e9e055efa5.mp3) | ![اشترك](audio/ar-lb_male_6cde3eb67aa1.mp3) (ishtarak) | participer / s'inscrire |
+| ![ن](audio/ar-lb_male_ff954107b615.mp3)-![ظ](audio/ar-lb_male_afe1352e1164.mp3)-![ر](audio/ar-lb_male_fdaef2c706d3.mp3) | ![انتظر](audio/ar-lb_male_389a9c333afb.mp3) (ntazar) | attendre |
+| ![ع](audio/ar-lb_male_17771ee07751.mp3)-![د](audio/ar-lb_male_63f62e68c42a.mp3)-![ل](audio/ar-lb_male_fc35d917c205.mp3) | ![اعتدل](audio/ar-lb_male_34323c873c48.mp3) (i3tadal) | s'équilibrer |
+| ![ف](audio/ar-lb_male_1d8d695e93d7.mp3)-![ر](audio/ar-lb_male_fdaef2c706d3.mp3)-![ق](audio/ar-lb_male_dbe99b2c824d.mp3) | ![افترق](audio/ar-lb_male_83c0ae6d1ede.mp3) (ftara2) | se séparer |
 
 ## Forme X — istaf3al (demander / chercher)
 
@@ -117,12 +117,12 @@ Préfixe **ista-**. Valeur "demander à / chercher à / considérer comme".
 
 | Racine | Forme X | Sens |
 |--------|---------|------|
-| ==ع::ar-lb==-==م::ar-lb==-==ل::ar-lb== | ==استعمل::ar-lb== (ista3mal) | utiliser (demander que ça serve) |
-| ==ق::ar-lb==-==ب::ar-lb==-==ل::ar-lb== | ==استقبل::ar-lb== (ista2bal) | accueillir (demander/recevoir) |
-| ==غ::ar-lb==-==ر::ar-lb==-==ب::ar-lb== | ==استغرب::ar-lb== (istaghrab) | trouver étrange |
-| ==ف::ar-lb==-==ه::ar-lb==-==م::ar-lb== | ==استفهم::ar-lb== (istafham) | chercher à comprendre |
-| ==ح::ar-lb==-==م::ar-lb==-==ل::ar-lb== | ==استحمل::ar-lb== (ista7mal) | supporter |
-| ==ر::ar-lb==-==ي::ar-lb==-==ح::ar-lb== | ==استراح::ar-lb== (istarā7) | se reposer (chercher le repos) |
+| ![ع](audio/ar-lb_male_17771ee07751.mp3)-![م](audio/ar-lb_male_38a765d53907.mp3)-![ل](audio/ar-lb_male_fc35d917c205.mp3) | ![استعمل](audio/ar-lb_male_c536c362ebd0.mp3) (ista3mal) | utiliser (demander que ça serve) |
+| ![ق](audio/ar-lb_male_dbe99b2c824d.mp3)-![ب](audio/ar-lb_male_dc46ac4b3d50.mp3)-![ل](audio/ar-lb_male_fc35d917c205.mp3) | ![استقبل](audio/ar-lb_male_2a5ad32c5dd3.mp3) (ista2bal) | accueillir (demander/recevoir) |
+| ![غ](audio/ar-lb_male_90fc9212513a.mp3)-![ر](audio/ar-lb_male_fdaef2c706d3.mp3)-![ب](audio/ar-lb_male_dc46ac4b3d50.mp3) | ![استغرب](audio/ar-lb_male_a08565dcd4d8.mp3) (istaghrab) | trouver étrange |
+| ![ف](audio/ar-lb_male_1d8d695e93d7.mp3)-![ه](audio/ar-lb_male_06fb873d755d.mp3)-![م](audio/ar-lb_male_38a765d53907.mp3) | ![استفهم](audio/ar-lb_male_a6b761293fef.mp3) (istafham) | chercher à comprendre |
+| ![ح](audio/ar-lb_male_d42d03caefad.mp3)-![م](audio/ar-lb_male_38a765d53907.mp3)-![ل](audio/ar-lb_male_fc35d917c205.mp3) | ![استحمل](audio/ar-lb_male_ae10788c4d36.mp3) (ista7mal) | supporter |
+| ![ر](audio/ar-lb_male_fdaef2c706d3.mp3)-![ي](audio/ar-lb_male_43fa4ff801b3.mp3)-![ح](audio/ar-lb_male_d42d03caefad.mp3) | ![استراح](audio/ar-lb_male_d183058713da.mp3) (istarā7) | se reposer (chercher le repos) |
 
 ## Tableau comparatif — une même racine dans plusieurs formes
 
@@ -130,23 +130,23 @@ Racine **ع-ل-م** (savoir) :
 
 | Forme | Verbe | Sens |
 |-------|-------|------|
-| I | ==عرف::ar-lb== 3irif | savoir |
-| II | ==علّم::ar-lb== 3allam | enseigner (causatif) |
-| V | ==تعلّم::ar-lb== t3allam | apprendre (réfléchi) |
-| VI | ==تعالمو::ar-lb== t3ālamu | se prétendre savants |
-| X | ==استعلم::ar-lb== ista3lam | s'informer |
+| I | ![عرف](audio/ar-lb_male_cb34eb6b3522.mp3) 3irif | savoir |
+| II | ![علّم](audio/ar-lb_male_f4daaf121a36.mp3) 3allam | enseigner (causatif) |
+| V | ![تعلّم](audio/ar-lb_male_6c55fa7d4bf4.mp3) t3allam | apprendre (réfléchi) |
+| VI | ![تعالمو](audio/ar-lb_male_2f6d14403043.mp3) t3ālamu | se prétendre savants |
+| X | ![استعلم](audio/ar-lb_male_c53f3191a39a.mp3) ista3lam | s'informer |
 
 Racine **ك-ت-ب** (écrire) :
 
 | Forme | Verbe | Sens |
 |-------|-------|------|
-| I | ==كتب::ar-lb== katab | écrire |
-| II | ==كتّب::ar-lb== kattab | faire écrire / dicter |
-| III | ==كاتب::ar-lb== kātab | correspondre |
-| VI | ==تكاتبو::ar-lb== tkātabu | se correspondre |
-| VII | ==انكتب::ar-lb== inkatab | être écrit |
-| VIII | ==اكتتب::ar-lb== iktatab | s'inscrire |
-| X | ==استكتب::ar-lb== istaktab | demander d'écrire |
+| I | ![كتب](audio/ar-lb_male_e227e412dafb.mp3) katab | écrire |
+| II | ![كتّب](audio/ar-lb_male_cb11149140a0.mp3) kattab | faire écrire / dicter |
+| III | ![كاتب](audio/ar-lb_male_afcbe71681d0.mp3) kātab | correspondre |
+| VI | ![تكاتبو](audio/ar-lb_male_7b2e570fee69.mp3) tkātabu | se correspondre |
+| VII | ![انكتب](audio/ar-lb_male_8abd5b96b977.mp3) inkatab | être écrit |
+| VIII | ![اكتتب](audio/ar-lb_male_c1668dd67deb.mp3) iktatab | s'inscrire |
+| X | ![استكتب](audio/ar-lb_male_81839f34c59f.mp3) istaktab | demander d'écrire |
 
 ## Méthode — deviner le sens d'un verbe inconnu
 

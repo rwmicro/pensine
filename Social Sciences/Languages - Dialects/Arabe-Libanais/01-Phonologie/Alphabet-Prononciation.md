@@ -15,35 +15,35 @@ L'arabe s'écrit de droite à gauche. 28 lettres, toutes consonnes — les voyel
 
 | Lettre isolée | Nom   | Translitération | Son                                              |
 | ------------- | ----- | --------------- | ------------------------------------------------ |
-| ==ا::ar-lb== | alef | a / ' | /aː/ ou support de hamza |
-| ==ب::ar-lb== | ba | b | /b/ |
-| ==ت::ar-lb== | ta | t | /t/ |
-| ==ث::ar-lb== | tha | th | /θ/ → /t/ ou /s/ en libanais |
-| ==ج::ar-lb== | jeem | j | /dʒ/ |
-| ==ح::ar-lb== | ha | 7 | /ħ/ — h emphatique, friction gutturale |
-| ==خ::ar-lb== | kha | 5 / kh | /x/ — comme "j" espagnol |
-| ==د::ar-lb== | dal | d | /d/ |
-| ==ذ::ar-lb== | dhal | dh | /ð/ → /d/ ou /z/ en libanais |
-| ==ر::ar-lb== | ra | r | /r/ roulé |
-| ==ز::ar-lb== | zay | z | /z/ |
-| ==س::ar-lb== | seen | s | /s/ |
-| ==ش::ar-lb== | sheen | sh | /ʃ/ = "ch" français |
-| ==ص::ar-lb== | sad | S | /sˤ/ — s emphatique |
-| ==ض::ar-lb== | dad | D | /dˤ/ — d emphatique |
-| ==ط::ar-lb== | ta | T | /tˤ/ — t emphatique |
-| ==ظ::ar-lb== | dha | DH | /ðˤ/ → /zˤ/ en libanais |
-| ==ع::ar-lb== | ayn | 3 | /ʕ/ — voyelle gutturale sans équivalent français |
-| ==غ::ar-lb== | ghayn | gh | /ɣ/ — r grasseyé parisien approximatif |
-| ==ف::ar-lb== | fa | f | /f/ |
-| ==ق::ar-lb== | qaf | 2 / q | /q/ → **[ʔ]** coup de glotte en libanais |
-| ==ك::ar-lb== | kaf | k | /k/ |
-| ==ل::ar-lb== | lam | l | /l/ |
-| ==م::ar-lb== | meem | m | /m/ |
-| ==ن::ar-lb== | noon | n | /n/ |
-| ==ه::ar-lb== | ha | h | /h/ |
-| ==و::ar-lb== | waw | w / oo / ou | /w/ ou /uː/ |
-| ==ي::ar-lb== | ya | y / ee / i | /j/ ou /iː/ |
-| ==ء::ar-lb== | hamza | 2 / ' | /ʔ/ coup de glotte |
+| ![ا](audio/ar-lb_male_bdb55e584963.mp3) | alef | a / ' | /aː/ ou support de hamza |
+| ![ب](audio/ar-lb_male_dc46ac4b3d50.mp3) | ba | b | /b/ |
+| ![ت](audio/ar-lb_male_8b9fda98e1fd.mp3) | ta | t | /t/ |
+| ![ث](audio/ar-lb_male_c7dbf125d8f5.mp3) | tha | th | /θ/ → /t/ ou /s/ en libanais |
+| ![ج](audio/ar-lb_male_7fe4a79c7581.mp3) | jeem | j | /dʒ/ |
+| ![ح](audio/ar-lb_male_d42d03caefad.mp3) | ha | 7 | /ħ/ — h emphatique, friction gutturale |
+| ![خ](audio/ar-lb_male_d20df39b4794.mp3) | kha | 5 / kh | /x/ — comme "j" espagnol |
+| ![د](audio/ar-lb_male_63f62e68c42a.mp3) | dal | d | /d/ |
+| ![ذ](audio/ar-lb_male_c99c66c47ab3.mp3) | dhal | dh | /ð/ → /d/ ou /z/ en libanais |
+| ![ر](audio/ar-lb_male_fdaef2c706d3.mp3) | ra | r | /r/ roulé |
+| ![ز](audio/ar-lb_male_a6e677d16cfa.mp3) | zay | z | /z/ |
+| ![س](audio/ar-lb_male_1af01b7c52a9.mp3) | seen | s | /s/ |
+| ![ش](audio/ar-lb_male_d4322ac80721.mp3) | sheen | sh | /ʃ/ = "ch" français |
+| ![ص](audio/ar-lb_male_702fc0880e0d.mp3) | sad | S | /sˤ/ — s emphatique |
+| ![ض](audio/ar-lb_male_d36b4d16e71e.mp3) | dad | D | /dˤ/ — d emphatique |
+| ![ط](audio/ar-lb_male_4c813ea543ea.mp3) | ta | T | /tˤ/ — t emphatique |
+| ![ظ](audio/ar-lb_male_afe1352e1164.mp3) | dha | DH | /ðˤ/ → /zˤ/ en libanais |
+| ![ع](audio/ar-lb_male_17771ee07751.mp3) | ayn | 3 | /ʕ/ — voyelle gutturale sans équivalent français |
+| ![غ](audio/ar-lb_male_90fc9212513a.mp3) | ghayn | gh | /ɣ/ — r grasseyé parisien approximatif |
+| ![ف](audio/ar-lb_male_1d8d695e93d7.mp3) | fa | f | /f/ |
+| ![ق](audio/ar-lb_male_dbe99b2c824d.mp3) | qaf | 2 / q | /q/ → **[ʔ]** coup de glotte en libanais |
+| ![ك](audio/ar-lb_male_98e9e055efa5.mp3) | kaf | k | /k/ |
+| ![ل](audio/ar-lb_male_fc35d917c205.mp3) | lam | l | /l/ |
+| ![م](audio/ar-lb_male_38a765d53907.mp3) | meem | m | /m/ |
+| ![ن](audio/ar-lb_male_ff954107b615.mp3) | noon | n | /n/ |
+| ![ه](audio/ar-lb_male_06fb873d755d.mp3) | ha | h | /h/ |
+| ![و](audio/ar-lb_male_d7e51e1ef675.mp3) | waw | w / oo / ou | /w/ ou /uː/ |
+| ![ي](audio/ar-lb_male_43fa4ff801b3.mp3) | ya | y / ee / i | /j/ ou /iː/ |
+| ![ء](audio/ar-lb_male_9326cec16c5f.mp3) | hamza | 2 / ' | /ʔ/ coup de glotte |
 
 ### Convention utilisée dans ce dossier
 
@@ -59,13 +59,13 @@ Les Libanais écrivent en romanisation avec des chiffres pour les sons sans équ
 
 | Chiffre | Son                   | Exemple    | Sens                |
 | ------- | --------------------- | ---------- | ------------------- |
-| 2 | ==ء::ar-lb== hamza /ʔ/ ou ==ق::ar-lb== qaf | 2ana | Je (ana) |
-| 3 | ==ع::ar-lb== ayn /ʕ/ | 3am / ba3d | en train de / après |
-| 5 | ==خ::ar-lb== kha /x/ | 5abar | nouvelle |
-| 6 | ==ط::ar-lb== ta emphatique /tˤ/ | 6aweel | long |
-| 7 | ==ح::ar-lb== ha /ħ/ | 7elo | beau |
+| 2 | ![ء](audio/ar-lb_male_9326cec16c5f.mp3) hamza /ʔ/ ou ![ق](audio/ar-lb_male_dbe99b2c824d.mp3) qaf | 2ana | Je (ana) |
+| 3 | ![ع](audio/ar-lb_male_17771ee07751.mp3) ayn /ʕ/ | 3am / ba3d | en train de / après |
+| 5 | ![خ](audio/ar-lb_male_d20df39b4794.mp3) kha /x/ | 5abar | nouvelle |
+| 6 | ![ط](audio/ar-lb_male_4c813ea543ea.mp3) ta emphatique /tˤ/ | 6aweel | long |
+| 7 | ![ح](audio/ar-lb_male_d42d03caefad.mp3) ha /ħ/ | 7elo | beau |
 | 8 | ou variante de gh | rare | — |
-| 9 | ==ص::ar-lb== sad emphatique /sˤ/ | 9a7 | vrai |
+| 9 | ![ص](audio/ar-lb_male_702fc0880e0d.mp3) sad emphatique /sˤ/ | 9a7 | vrai |
 
 ## Phonologie spécifique au libanais
 
@@ -83,9 +83,9 @@ Le libanais "monte" certaines voyelles longues :
 ### Simplification des consonnes interdentales
 | Standard | Libanais | Exemple |
 |----------|----------|---------|
-| ==ث::ar-lb== /θ/ | /t/ | **==ثلاثة::ar-lb==** → **tlēte** (trois) |
-| ==ذ::ar-lb== /ð/ | /d/ ou /z/ | **==هذا::ar-lb==** → **hayda** (celui-ci) |
-| ==ظ::ar-lb== /ðˤ/ | /zˤ/ | → variante locale |
+| ![ث](audio/ar-lb_male_c7dbf125d8f5.mp3) /θ/ | /t/ | **![ثلاثة](audio/ar-lb_male_0ca127172a75.mp3)** → **tlēte** (trois) |
+| ![ذ](audio/ar-lb_male_c99c66c47ab3.mp3) /ð/ | /d/ ou /z/ | **![هذا](audio/ar-lb_male_a752770ff9ea.mp3)** → **hayda** (celui-ci) |
+| ![ظ](audio/ar-lb_male_afe1352e1164.mp3) /ðˤ/ | /zˤ/ | → variante locale |
 
 ### Consonnes emphatiques (makharij)
 Les consonnes ص ض ط ظ sont pharyngalisées — elles "assombrissent" les voyelles voisines. Elles n'ont pas d'équivalent en français. S'acquièrent par écoute et imitation.

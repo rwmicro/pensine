@@ -38,17 +38,17 @@ Le phénicien et l'araméen sont des langues sémitiques étroitement liées à 
 
 | Trait | Description | Exemple |
 |-------|-------------|---------|
-| Vocabulaire local | Certains mots libanais viennent de l'araméen, pas de l'arabe classique | ==شوب::ar-lb== (shōb, chaleur), ==شب::ar-lb== (shabb, jeune homme) — héritage levantin |
+| Vocabulaire local | Certains mots libanais viennent de l'araméen, pas de l'arabe classique | ![شوب](audio/ar-lb_male_95ee8b2284b8.mp3) (shōb, chaleur), ![شب](audio/ar-lb_male_fc3d0bced7ed.mp3) (shabb, jeune homme) — héritage levantin |
 | Phonologie | Conservation de certains sons araméens |  |
-| Structure syllabique | Tendance à réduire les voyelles comme en araméen | ==كتاب::ar-lb== (kitāb) → ktēb |
+| Structure syllabique | Tendance à réduire les voyelles comme en araméen | ![كتاب](audio/ar-lb_male_a48d0fa109f5.mp3) (kitāb) → ktēb |
 
 ### Influence de l'araméen — exemples concrets
 
 | Mot libanais | Arabe classique | Origine araméenne | Sens |
 |-------------|----------------|-------------------|------|
-| ==هيدا::ar-lb== (hayda) | ==هذا::ar-lb== (hādhā) | Forme araméenne | Celui-ci |
-| ==هيدي::ar-lb== (haydi) | ==هذه::ar-lb== (hādhihi) | Forme araméenne | Celle-ci |
-| ==تيتا::ar-lb== (tēta) | ==جدة::ar-lb== (jadda) | Terme affectif | Grand-mère |
+| ![هيدا](audio/ar-lb_male_7b035b489abc.mp3) (hayda) | ![هذا](audio/ar-lb_male_a752770ff9ea.mp3) (hādhā) | Forme araméenne | Celui-ci |
+| ![هيدي](audio/ar-lb_male_485f1690e6be.mp3) (haydi) | ![هذه](audio/ar-lb_male_3ea456941cdb.mp3) (hādhihi) | Forme araméenne | Celle-ci |
+| ![تيتا](audio/ar-lb_male_48d9614184e8.mp3) (tēta) | ![جدة](audio/ar-lb_male_559038513dfb.mp3) (jadda) | Terme affectif | Grand-mère |
 
 ### Influence du turc ottoman (1516-1918)
 
@@ -56,11 +56,11 @@ Quatre siècles de domination ottomane ont laissé des traces lexicales, princip
 
 | Mot libanais | Origine turque | Sens |
 |-------------|---------------|------|
-| ==أوضة::ar-lb== (ōda) | oda | Chambre |
-| ==طاسة::ar-lb== (tāsse) | tas | Bol / tasse |
-| ==بقجة::ar-lb== (ba2je) | bohça | Baluchon / bagage |
-| ==قهوة::ar-lb== (ahwe) | kahve | Café (passé en turc depuis l'arabe, revenu modifié) |
-| ==جوخ::ar-lb== (jōkh) | çuha | Tissu de laine |
+| ![أوضة](audio/ar-lb_male_ee9318ea6954.mp3) (ōda) | oda | Chambre |
+| ![طاسة](audio/ar-lb_male_972f5f626e53.mp3) (tāsse) | tas | Bol / tasse |
+| ![بقجة](audio/ar-lb_male_70c5c3a3647d.mp3) (ba2je) | bohça | Baluchon / bagage |
+| ![قهوة](audio/ar-lb_male_a441ef7a5f76.mp3) (ahwe) | kahve | Café (passé en turc depuis l'arabe, revenu modifié) |
+| ![جوخ](audio/ar-lb_male_dd4482741c2b.mp3) (jōkh) | çuha | Tissu de laine |
 
 ### Le mandat français (1920-1943) et l'héritage linguistique
 
@@ -84,10 +84,10 @@ L'arabe levantin (dont fait partie le libanais) s'est différencié de l'arabe c
 
 | Arabe classique | Libanais | Règle |
 |-----------------|----------|-------|
-| ==ق::ar-lb== /q/ | /ʔ/ (coup de glotte) | Shift phonologique levantin |
-| ==ث::ar-lb== /θ/ | /t/ | Fusion avec t |
-| ==ذ::ar-lb== /ð/ | /d/ ou /z/ | Fusion avec d |
-| ==ظ::ar-lb== /ðˤ/ | /zˤ/ | Simplification |
+| ![ق](audio/ar-lb_male_dbe99b2c824d.mp3) /q/ | /ʔ/ (coup de glotte) | Shift phonologique levantin |
+| ![ث](audio/ar-lb_male_c7dbf125d8f5.mp3) /θ/ | /t/ | Fusion avec t |
+| ![ذ](audio/ar-lb_male_c99c66c47ab3.mp3) /ð/ | /d/ ou /z/ | Fusion avec d |
+| ![ظ](audio/ar-lb_male_afe1352e1164.mp3) /ðˤ/ | /zˤ/ | Simplification |
 | Voyelles courtes complètes | Réduction / suppression | ktīr, mnī7 |
 
 ### Simplifications grammaticales
@@ -103,9 +103,9 @@ L'arabe levantin (dont fait partie le libanais) s'est différencié de l'arabe c
 
 | Innovation | Description | Exemple |
 |-----------|-------------|---------|
-| Préfixe b- | Marque le présent habituel (absent en MSA) | ==بشوف::ar-lb== (bshūf) vs ==يشوف::ar-lb== (yshūf) en MSA |
-| Rah + verbe | Futur (différent de MSA) | ==رح يجي::ar-lb== (rah yīji) |
-| 3am + verbe | Progressif | ==عم بيحكي::ar-lb== (3am bye7ki) |
+| Préfixe b- | Marque le présent habituel (absent en MSA) | ![بشوف](audio/ar-lb_male_ba7929d1a293.mp3) (bshūf) vs ![يشوف](audio/ar-lb_male_2f76b4feb197.mp3) (yshūf) en MSA |
+| Rah + verbe | Futur (différent de MSA) | ![رح يجي](audio/ar-lb_male_97a41c7ffc5f.mp3) (rah yīji) |
+| 3am + verbe | Progressif | ![عم بيحكي](audio/ar-lb_male_c0a7ea2e3019.mp3) (3am bye7ki) |
 | Hayda / Haydi | Démonstratifs (← araméen) | Au lieu de hādhā/hādhihi |
 
 ## Dialectes au sein du libanais

@@ -78,11 +78,11 @@ Repas composé de nombreuses petites assiettes partagées. Le mezze peut inclure
 
 | Formule | Sens | Usage |
 |---------|------|-------|
-| ==صحتين::ar-lb== (sa77tein) | Bon appétit (litt. "deux santés") | Avant/pendant le repas |
-| ==الله يعطيك الصحة::ar-lb== | Que Dieu te donne la santé | Réponse à sa77tein |
-| ==كتير تيب::ar-lb== (ktīr tayyib) | C'est très bon | Compliment au cuisiner |
-| ==يسلمو إيديكي::ar-lb== | Merci pour tes mains (à une femme) | Compliment au cuisinier |
-| ==تفضل::ar-lb== / ==تفضلي::ar-lb== | Servez-vous / allez-y | Invitation à manger |
+| ![صحتين](audio/ar-lb_male_4d63406516a5.mp3) (sa77tein) | Bon appétit (litt. "deux santés") | Avant/pendant le repas |
+| ![الله يعطيك الصحة](audio/ar-lb_male_dcdfd475a7ac.mp3) | Que Dieu te donne la santé | Réponse à sa77tein |
+| ![كتير تيب](audio/ar-lb_male_d9875c6a6539.mp3) (ktīr tayyib) | C'est très bon | Compliment au cuisiner |
+| ![يسلمو إيديكي](audio/ar-lb_male_5283977eedaa.mp3) | Merci pour tes mains (à une femme) | Compliment au cuisinier |
+| ![تفضل](audio/ar-lb_male_346c6fde4dbd.mp3) / ![تفضلي](audio/ar-lb_male_c29e440167cb.mp3) | Servez-vous / allez-y | Invitation à manger |
 
 ## Références culturelles essentielles
 
