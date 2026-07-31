@@ -244,7 +244,7 @@ date: "2026-04-22"
 | ![isti](audio/az_male_e6761c5956df.mp3) | chaud |
 | ![soyuq](audio/az_male_02e0c3c87b10.mp3) | froid |
 | ![dadlı](audio/az_male_58dc3aa6af25.mp3) | délicieux |
-| ==gözəl::az== | beau |
+| ![gözəl](audio/az_male_1f4f57c7d8a5.mp3) | beau |
 | ![çirkin](audio/az_male_62791ef94bd8.mp3) | laid |
 | ![asan](audio/az_male_42856eccc249.mp3) | facile |
 | ![çətin](audio/az_male_54eff66a7d8f.mp3) | difficile |
