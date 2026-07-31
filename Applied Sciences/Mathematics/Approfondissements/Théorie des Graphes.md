@@ -150,6 +150,52 @@ flowchart TB
     end
 ```
 
+### Visualisation animée (Manim)
+
+> [!note] Ce que montre l'animation
+> Un petit graphe est exploré en **largeur (BFS)** depuis le sommet $A$. Les sommets se colorient couche par couche, dans l'ordre où la file (FIFO) les traite : d'abord $A$, puis ses voisins directs $\{B, C\}$, puis la couche suivante $\{D\}$, enfin $\{E, F\}$. Chaque couleur correspond à une distance (en nombre d'arêtes) croissante depuis la source — c'est pourquoi le BFS donne les plus courts chemins dans un graphe non pondéré.
+
+```manim
+# Rendu : manimgl bfs.py ParcoursBFS
+from manimlib import *
+
+
+class ParcoursBFS(Scene):
+    def construct(self):
+        # Sommets positionnés à la main, arêtes en liste
+        positions = {
+            "A": [-4, 1, 0], "B": [-2, 2, 0], "C": [-2, -1, 0],
+            "D": [0, 0.5, 0], "E": [2, 1.5, 0], "F": [2, -1, 0],
+        }
+        aretes = [("A", "B"), ("A", "C"), ("B", "D"), ("C", "D"),
+                  ("D", "E"), ("D", "F"), ("E", "F")]
+
+        lignes = VGroup(*[
+            Line(positions[a], positions[b], color=GREY_D) for a, b in aretes
+        ])
+        sommets, labels = {}, VGroup()
+        for nom, p in positions.items():
+            sommets[nom] = Dot(p, radius=0.25, color=GREY_B)
+            labels.add(Text(nom).scale(0.5).move_to(p))
+
+        self.play(ShowCreation(lignes))
+        self.play(*[GrowFromCenter(d) for d in sommets.values()], Write(labels))
+        self.wait()
+
+        # Ordre BFS depuis A, couche par couche : A | B C | D | E F
+        couches = [["A"], ["B", "C"], ["D"], ["E", "F"]]
+        couleurs = [YELLOW, BLUE, GREEN, RED]
+        for niveau, couleur in zip(couches, couleurs):
+            self.play(*[sommets[n].animate.set_color(couleur) for n in niveau],
+                      run_time=1)
+            self.wait(0.5)
+
+        note = Text("BFS : exploration couche par couche (file FIFO)")
+        note.scale(0.6).to_edge(UP)
+        self.play(Write(note))
+        self.wait(2)
+```
+
 ## 5. Plus courts chemins
 
 ### 5.1 Dijkstra (1956)

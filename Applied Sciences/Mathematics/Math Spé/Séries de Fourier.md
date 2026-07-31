@@ -159,6 +159,47 @@ $$f(t) = \frac{4}{\pi} \sum_{k=0}^{+\infty} \frac{\sin((2k+1)t)}{2k+1}$$
 >
 > D'où la **formule de Leibniz** : $\displaystyle\sum_{k=0}^{+\infty} \frac{(-1)^k}{2k+1} = \frac{\pi}{4}$
 
+### Visualisation animée (Manim)
+
+> [!note] Ce que montre l'animation
+> On superpose une à une les harmoniques pour construire la série de Fourier du créneau. La somme partielle $S_N$ part d'une simple sinusoïde ($S_1$) et, à mesure que $N$ augmente, épouse de mieux en mieux le signal carré. On voit aussi naître le **phénomène de Gibbs** : les oscillations près des discontinuités (en $0$ et $\pm\pi$) ne disparaissent jamais, illustrant l'absence de convergence uniforme.
+
+```manim
+# Rendu : manimgl fourier_creneau.py SommesPartiellesCreneau
+from manimlib import *
+import numpy as np
+
+
+class SommesPartiellesCreneau(Scene):
+    def construct(self):
+        axes = Axes(x_range=(-PI, PI, PI / 2), y_range=(-1.5, 1.5),
+                    height=5, width=12)
+        self.add(axes)
+
+        # Somme partielle du créneau : (4/pi) * somme des sin((2k+1)t)/(2k+1)
+        def partial_sum(N):
+            def s(t):
+                return (4 / PI) * sum(np.sin(k * t) / k for k in range(1, N + 1, 2))
+            return axes.get_graph(s, color=YELLOW)
+
+        graphe = partial_sum(1)
+        label = Tex("S_1").to_corner(UR).set_backstroke()
+        self.play(ShowCreation(graphe), Write(label))
+        self.wait()
+
+        for N in [3, 5, 11, 25, 51]:
+            nouveau = partial_sum(N)
+            nouveau_label = Tex(f"S_{{{N}}}").to_corner(UR).set_backstroke()
+            self.play(Transform(graphe, nouveau),
+                      Transform(label, nouveau_label), run_time=1.2)
+            self.wait(0.4)
+
+        note = Tex(r"S_N(t)=\frac{4}{\pi}\sum_{k=0}^{N}\frac{\sin((2k+1)t)}{2k+1}")
+        note.to_edge(UP).set_backstroke()
+        self.play(Write(note))
+        self.wait(2)
+```
+
 ### Fonction dent de scie
 
 $$f(t) = t \quad \text{sur } ]-\pi, \pi[$$

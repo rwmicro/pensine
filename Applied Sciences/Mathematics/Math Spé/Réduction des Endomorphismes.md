@@ -63,6 +63,46 @@ où $f(e_j) = \sum_{i=1}^n a_{ij} e_i$.
 > - $f(e_1) = 2e_1$ donc $\lambda_1 = 2$ est valeur propre et $e_1 \in E_2$.
 > - On résout $Ax = 3x$ : on trouve $E_3 = \mathrm{Vect}((1, 1))$.
 
+### Visualisation animée (Manim)
+
+> [!note] Ce que montre l'animation
+> On applique au plan l'endomorphisme de matrice $A = \begin{pmatrix}2&1\\1&2\end{pmatrix}$ (valeurs propres $3$ et $1$). Un vecteur **quelconque** (blanc) change de direction sous la transformation. En revanche, les **vecteurs propres** restent sur leur droite : la droite $\mathrm{Vect}(1,1)$ est seulement dilatée d'un facteur $\lambda = 3$, la droite $\mathrm{Vect}(1,-1)$ est invariante ($\lambda = 1$). « Garder sa direction » est exactement la définition d'un vecteur propre.
+
+```manim
+# Rendu : manimgl vecteurs_propres.py VecteursPropres
+from manimlib import *
+
+
+class VecteursPropres(Scene):
+    def construct(self):
+        plan = NumberPlane()
+        self.add(plan)
+
+        A = [[2, 1], [1, 2]]   # vp : 3 sur Vect(1,1), 1 sur Vect(1,-1)
+
+        # Droites propres (restent globalement sur elles-mêmes)
+        d1 = Line(plan.c2p(-4, -4), plan.c2p(4, 4), color=YELLOW)
+        d2 = Line(plan.c2p(-4, 4), plan.c2p(4, -4), color=TEAL)
+        # Vecteur propre (jaune) et vecteur quelconque (blanc)
+        propre = Arrow(plan.c2p(0, 0), plan.c2p(1, 1), buff=0, color=YELLOW)
+        quelconque = Arrow(plan.c2p(0, 0), plan.c2p(-1, 2), buff=0, color=WHITE)
+        self.add(d1, d2, propre, quelconque)
+        self.wait()
+
+        self.play(
+            ApplyMatrix(A, plan),
+            ApplyMatrix(A, d1), ApplyMatrix(A, d2),
+            ApplyMatrix(A, propre), ApplyMatrix(A, quelconque),
+            run_time=4,
+        )
+        self.wait()
+
+        note = Tex(r"A\vec{v}=\lambda\vec{v}\ :\ \text{le vecteur propre garde sa direction}")
+        note.to_corner(UL).set_backstroke()
+        self.play(Write(note))
+        self.wait(2)
+```
+
 
 ## 3. Polynôme caractéristique
 

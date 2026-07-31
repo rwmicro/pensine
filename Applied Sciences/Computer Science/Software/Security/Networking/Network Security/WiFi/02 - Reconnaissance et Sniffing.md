@@ -5,13 +5,10 @@ subdomain: "Computer Science > Security > Networking > Network Security > WiFi"
 tags: [sciences-appliquées, informatique, sécurité, réseau, wifi, recon, kismet, airodump, wardriving]
 date: "2026-05-17"
 ---
-
 # Reconnaissance et Sniffing WiFi
-
 Préalable à toute attaque : passer la carte en mode monitor, scanner les APs et clients, identifier les protocoles.
 
 ## Mise en mode monitor
-
 ```bash
 # Identifier la carte WiFi
 iwconfig
@@ -38,7 +35,6 @@ aireplay-ng --test wlan0mon   # → "Injection is working!"
 ```
 
 ## MAC spoofing
-
 ```bash
 # Changer la MAC (utile pour contourner un filtrage ou rester anonyme)
 ip link set wlan0 down
@@ -52,7 +48,6 @@ macchanger -s wlan0
 ```
 
 ## Scan passif avec airodump-ng
-
 ```bash
 # Scanner toutes les bandes (channel hopping auto)
 airodump-ng wlan0mon

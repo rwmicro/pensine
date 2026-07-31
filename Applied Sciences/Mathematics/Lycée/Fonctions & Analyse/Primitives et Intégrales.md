@@ -133,6 +133,48 @@ flowchart TD
     style F fill:#FFF9C4,stroke:#F9A825,color:#000
 ```
 
+### Visualisation animée (Manim)
+
+> [!note] Ce que montre l'animation
+> On approche l'aire sous la courbe par des **rectangles** (somme de Riemann). En affinant la subdivision ($\Delta x \to 0$), l'aire totale des rectangles tend vers la valeur exacte de l'intégrale $\int_a^b f(x)\,dx$. C'est la définition intuitive de l'intégrale comme « somme continue ».
+
+```manim
+# Rendu : manimgl riemann.py SommesDeRiemann
+from manimlib import *
+
+
+class SommesDeRiemann(Scene):
+    def construct(self):
+        def f(x):
+            return 0.2 * x**2 + 0.5
+
+        axes = Axes(x_range=(0, 5), y_range=(0, 6), height=6, width=10)
+        courbe = axes.get_graph(f, x_range=(0, 4), color=BLUE)
+        self.play(ShowCreation(axes), ShowCreation(courbe))
+
+        a, b = 0, 4  # bornes de l'intégrale
+
+        # On part d'une subdivision grossière (rectangles larges)
+        rects = axes.get_riemann_rectangles(
+            courbe, x_range=(a, b), dx=1.0, fill_opacity=0.6)
+        self.play(FadeIn(rects))
+        self.wait()
+
+        # On affine : dx -> 0, l'aire des rectangles converge vers l'intégrale
+        for dx in [0.5, 0.25, 0.1, 0.05]:
+            nouveaux = axes.get_riemann_rectangles(
+                courbe, x_range=(a, b), dx=dx, fill_opacity=0.6)
+            self.play(Transform(rects, nouveaux), run_time=1.2)
+            self.wait(0.3)
+
+        legende = Tex(
+            r"\sum_k f(x_k)\,\Delta x \;\xrightarrow[\Delta x \to 0]{}\;",
+            r"\int_a^b f(x)\,dx",
+        ).to_edge(UP).set_backstroke()
+        self.play(Write(legende))
+        self.wait(2)
+```
+
 
 ## 4. Propriétés de l'intégrale
 

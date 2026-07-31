@@ -29,6 +29,42 @@ $$AB = \sqrt{(x_B-x_A)^2 + (y_B-y_A)^2 + (z_B-z_A)^2}$$
 **Milieu :**
 $$I\left(\frac{x_A+x_B}{2}\;;\;\frac{y_A+y_B}{2}\;;\;\frac{z_A+z_B}{2}\right)$$
 
+### Visualisation animée (Manim)
+
+> [!note] Ce que montre l'animation
+> Un point $M(2, 3, 2)$ est repéré dans l'espace par son vecteur position $\overrightarrow{OM}$. Les trois segments en pointillés (rouge, vert, bleu) décomposent ce vecteur sur les axes : $\overrightarrow{OM} = x\,\vec{i} + y\,\vec{j} + z\,\vec{k}$. La caméra tourne pour donner la perception de la profondeur, ce qu'un schéma figé rend mal.
+
+```manim
+# Rendu : manimgl espace.py PointDansEspace
+from manimlib import *
+
+
+class PointDansEspace(Scene):
+    def construct(self):
+        axes = ThreeDAxes(x_range=(-1, 4), y_range=(-1, 4), z_range=(-1, 4))
+        self.add(axes)
+        frame = self.camera.frame
+        frame.reorient(-35, 75)          # azimut, élévation (degrés)
+
+        O = axes.c2p(0, 0, 0)
+        Mp = axes.c2p(2, 3, 2)
+        OM = Arrow(O, Mp, buff=0, color=YELLOW)
+        Mdot = Dot(Mp, color=YELLOW)
+
+        # Décomposition OM = x i + y j + z k (un segment par coordonnée)
+        px = DashedLine(O, axes.c2p(2, 0, 0), color=RED)
+        py = DashedLine(axes.c2p(2, 0, 0), axes.c2p(2, 3, 0), color=GREEN)
+        pz = DashedLine(axes.c2p(2, 3, 0), axes.c2p(2, 3, 2), color=BLUE)
+
+        titre = Text("OM = x i + y j + z k").to_edge(UP).fix_in_frame()
+
+        self.play(GrowArrow(OM), FadeIn(Mdot), FadeIn(titre))
+        self.play(ShowCreation(px), ShowCreation(py), ShowCreation(pz))
+        # Rotation de la caméra pour percevoir la 3D
+        self.play(frame.animate.reorient(40, 70), run_time=6)
+        self.wait()
+```
+
 
 ## 6. Vecteurs dans l'espace
 

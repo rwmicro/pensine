@@ -49,6 +49,7 @@ date: "2025-12-31"
 - Surveiller et punir — **Michel Foucault**
 - La Crise de la culture — **Hannah Arendt**
 - L'Obsolescence de l'homme — **Günther Anders**
+- La Société de la fatigue - **Buyung-Chul Han**
 # Politique / totalitarisme / idéologies / géopolitique
 - Les Origines du totalitarisme — **Hannah Arendt**
 - Socialisme utopique et socialisme scientifique — **Friedrich Engels**
@@ -78,6 +79,7 @@ date: "2025-12-31"
 - Le Capital au XXIe siècle — **Thomas Piketty**
 - Le Déclin de la petite bourgeoisie culturelle — **Élie Guéraut**
 - Féminicène — **Véra Nikolski**
+- Le loup bleu - **Yasushi Inoue**
 # Nature / vivant / relation au monde
 - Être un chêne — **Laurent Tillon**
 - Les Fantômes de la nuit — **Laurent Tillon**

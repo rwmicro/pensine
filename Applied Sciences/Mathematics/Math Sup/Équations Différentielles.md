@@ -30,6 +30,57 @@ Les équations différentielles ordinaires (EDO) modélisent l'évolution de sys
 > [!warning] Attention
 > Le théorème de Cauchy-Lipschitz est **admis** en MPSI. Il faut néanmoins en connaître l'énoncé précis et savoir l'utiliser : deux solutions d'une EDO linéaire qui coïncident en un point sont identiques.
 
+### Visualisation animée (Manim)
+
+> [!note] Ce que montre l'animation
+> Une EDO $y' = f(x, y)$ se lit géométriquement comme un **champ des pentes** : en chaque point du plan, on dessine un petit segment de pente $f(x, y)$. Une solution est alors une courbe **tangente à ce champ** en chacun de ses points. Sur l'exemple logistique $y' = y(1-y)$, les courbes solutions « suivent les flèches » et convergent vers l'équilibre $y = 1$ ; par chaque point initial passe une unique courbe — c'est la traduction visuelle de Cauchy-Lipschitz.
+
+```manim
+# Rendu : manimgl champ_pentes.py ChampDesPentes
+from manimlib import *
+import numpy as np
+
+
+class ChampDesPentes(Scene):
+    def construct(self):
+        # EDO autonome y' = f(x, y) = y(1 - y) : équation logistique
+        def f(x, y):
+            return y * (1 - y)
+
+        axes = Axes(x_range=(-3, 3, 1), y_range=(-0.5, 2, 0.5), height=6, width=11)
+        self.play(ShowCreation(axes))
+
+        # Champ des pentes : un segment de pente f(x,y) en chaque noeud de la grille
+        ux, uy = axes.x_axis.get_unit_size(), axes.y_axis.get_unit_size()
+        champ = VGroup()
+        for x in np.arange(-3, 3.01, 0.5):
+            for y in np.arange(-0.25, 2.01, 0.25):
+                d = np.array([ux, f(x, y) * uy, 0.0])
+                d = d / np.linalg.norm(d) * 0.18          # longueur visuelle fixe
+                c = axes.c2p(x, y)
+                champ.add(Line(c - d, c + d, color=BLUE_D, stroke_width=2))
+        self.play(ShowCreation(champ), run_time=2)
+
+        # Solutions d'équilibre (solutions constantes) : y = 0 et y = 1
+        eq0 = DashedLine(axes.c2p(-3, 0), axes.c2p(3, 0), color=RED)
+        eq1 = DashedLine(axes.c2p(-3, 1), axes.c2p(3, 1), color=RED)
+        self.play(ShowCreation(eq0), ShowCreation(eq1))
+
+        # Courbes solutions, une par condition initiale y(0) = y0
+        def solution(y0):
+            a = (1 - y0) / y0
+            return axes.get_graph(lambda x: 1 / (1 + a * np.exp(-x)), color=YELLOW)
+
+        for y0 in [0.1, 0.5]:
+            self.play(ShowCreation(solution(y0)),
+                      FadeIn(Dot(axes.c2p(0, y0), color=YELLOW)), run_time=1.5)
+
+        note = Tex(r"y'=f(x,y) : \text{les solutions sont tangentes au champ des pentes}")
+        note.to_edge(UP).set_backstroke()
+        self.play(Write(note))
+        self.wait(2)
+```
+
 
 ## 2. EDO linéaires du premier ordre
 

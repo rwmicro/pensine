@@ -5,7 +5,6 @@ subdomain: "Philosophy > Culture G > Les Grandes Questions"
 tags: [philosophie, liberté, existentialisme, politique, culture-générale]
 date: "2026-04-12"
 ---
-
 # Qu'est-ce que la liberté ?
 
 ## Idées clés

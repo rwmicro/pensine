@@ -207,6 +207,68 @@ $$E(X) = np, \quad V(X) = np(1-p), \quad \sigma(X) = \sqrt{np(1-p)}$$
 
 Lorsque $n$ est grand, la loi binomiale $\mathcal{B}(n, p)$ peut être approchée par une **loi normale**. C'est le théorème central limite en action.
 
+#### Visualisation animée (Manim)
+
+> [!note] Ce que montre l'animation
+> On dessine l'histogramme des probabilités $P(X = k)$ d'une loi binomiale $\mathcal{B}(n, p)$, puis on augmente $n$. Pour $n$ petit, l'histogramme est anguleux ; quand $n$ grandit, les barres épousent de mieux en mieux la **cloche de Gauss** (en jaune) de paramètres $\mu = np$ et $\sigma^2 = np(1-p)$. C'est le théorème de Moivre-Laplace rendu visible : $\mathcal{B}(n,p) \approx \mathcal{N}(np,\, np(1-p))$.
+
+```manim
+# Rendu : manimgl binomiale_normale.py BinomialeVersNormale
+from manimlib import *
+import numpy as np
+from math import comb
+
+
+class BinomialeVersNormale(Scene):
+    def construct(self):
+        p = 0.5
+        axes = Axes(x_range=(0, 30, 5), y_range=(0, 0.35, 0.1), height=6, width=11)
+        self.play(ShowCreation(axes))
+
+        def loi_binomiale(n):
+            # Histogramme des P(X = k) pour X ~ B(n, p)
+            barres = VGroup()
+            largeur = axes.x_axis.get_unit_size() * 0.9
+            for k in range(n + 1):
+                proba = comb(n, k) * p**k * (1 - p)**(n - k)
+                bas, haut = axes.c2p(k, 0), axes.c2p(k, proba)
+                hauteur = haut[1] - bas[1]
+                if hauteur <= 0:
+                    continue
+                barre = Rectangle(width=largeur, height=hauteur)
+                barre.set_fill(BLUE, 0.6).set_stroke(BLUE_E, 1)
+                barre.move_to((bas + haut) / 2)
+                barres.add(barre)
+            return barres
+
+        def loi_normale(n):
+            mu, sigma = n * p, np.sqrt(n * p * (1 - p))
+            return axes.get_graph(
+                lambda x: np.exp(-(x - mu)**2 / (2 * sigma**2)) / (sigma * np.sqrt(2 * PI)),
+                x_range=(max(0, mu - 4 * sigma), min(30, mu + 4 * sigma)),
+                color=YELLOW,
+            )
+
+        # n petit : histogramme anguleux
+        barres, courbe = loi_binomiale(6), loi_normale(6)
+        label = Tex("n = 6").to_corner(UR).set_backstroke()
+        self.play(FadeIn(barres), ShowCreation(courbe), Write(label))
+        self.wait()
+
+        # n grand : l'histogramme tend vers la cloche de Gauss
+        for n in [12, 30]:
+            nb, nc = loi_binomiale(n), loi_normale(n)
+            nl = Tex(f"n = {n}").to_corner(UR).set_backstroke()
+            self.play(Transform(barres, nb), Transform(courbe, nc),
+                      Transform(label, nl), run_time=1.5)
+            self.wait(0.5)
+
+        note = Tex(r"\mathcal{B}(n,p)\ \approx\ \mathcal{N}\!\left(np,\ np(1-p)\right)")
+        note.to_edge(UP).set_backstroke()
+        self.play(Write(note))
+        self.wait(2)
+```
+
 ### 8.2 Loi normale centrée réduite $\mathcal{N}(0, 1)$
 
 > [!important] Définition : Loi normale centrée réduite

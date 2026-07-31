@@ -228,6 +228,46 @@ flowchart TD
 >
 > On trouve $p_F(x) = x$ : le vecteur $(1,2,3)$ appartient déjà à $F$. En effet, $(1,2,3) = (1,0,1) + 2(0,1,1)$.
 
+### Visualisation animée (Manim)
+
+> [!note] Ce que montre l'animation
+> Un sous-espace $F$ (ici un plan passant par l'origine) et un vecteur $x$ extérieur à $F$. Le **projeté orthogonal** $p_F(x)$ (vert) est l'ombre de $x$ sur $F$, et le résidu $x - p_F(x)$ (rouge, en pointillés) est **orthogonal** à $F$. La caméra tourne pour montrer que ce résidu est bien perpendiculaire au plan : $p_F(x)$ est le point de $F$ le plus proche de $x$.
+
+```manim
+# Rendu : manimgl projection_orthogonale.py ProjectionSurPlan
+from manimlib import *
+
+
+class ProjectionSurPlan(Scene):
+    def construct(self):
+        axes = ThreeDAxes(x_range=(-3, 3), y_range=(-3, 3), z_range=(-3, 3))
+        self.add(axes)
+        frame = self.camera.frame
+        frame.reorient(-40, 70)
+
+        # F = plan xy (engendré par i et j), passant par l'origine
+        plan_F = Square(side_length=5)
+        plan_F.set_fill(BLUE, 0.2).set_stroke(BLUE, 2)
+        plan_F.move_to(axes.c2p(0, 0, 0))
+        self.play(ShowCreation(plan_F))
+
+        O = axes.c2p(0, 0, 0)
+        x_pt = axes.c2p(1.5, 1.0, 2.0)        # vecteur x, hors de F
+        pf_pt = axes.c2p(1.5, 1.0, 0.0)       # projeté = on annule la composante z
+        vx = Arrow(O, x_pt, buff=0, color=YELLOW)
+        vpf = Arrow(O, pf_pt, buff=0, color=GREEN)
+        residu = DashedLine(pf_pt, x_pt, color=RED)
+
+        self.play(GrowArrow(vx))
+        self.play(GrowArrow(vpf), ShowCreation(residu))
+
+        titre = Tex(r"x = p_F(x) + \underbrace{(x - p_F(x))}_{\perp\, F}")
+        titre.to_edge(UP).fix_in_frame()
+        self.play(Write(titre))
+        self.play(frame.animate.reorient(35, 65), run_time=6)
+        self.wait()
+```
+
 
 ## 6. Matrices orthogonales et groupe orthogonal
 

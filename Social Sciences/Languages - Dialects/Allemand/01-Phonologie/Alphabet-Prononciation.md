@@ -24,38 +24,38 @@ L'allemand (*Deutsch*) est une langue germanique occidentale, langue officielle 
 
 L'alphabet allemand reprend les 26 lettres latines + 4 caractères spéciaux : **ä**, **ö**, **ü**, et **ß** (eszett).
 
-| Lettre | Nom | Son (IPA) | Exemple |
-|--------|-----|----------|---------|
-| A a | a | /a/ | **A**bend (soir) |
-| Ä ä | a-Umlaut | /ɛ/ | **Ä**pfel (pommes) |
-| B b | be | /b/ ou /p/ en finale | **B**uch / Halb |
-| C c | tse | /ts/ devant e/i, /k/ ailleurs | **C**ello / **C**afé |
-| D d | de | /d/ ou /t/ en finale | **D**ank / Hund |
-| E e | e | /e/ ou /ə/ | **e**ssen / **e**inen |
-| F f | ef | /f/ | **F**reund (ami) |
-| G g | ge | /ɡ/ ou /k/ en finale | **G**ut / Tag |
-| H h | ha | /h/ aspiré | **H**aus (maison) |
-| I i | i | /i/ | **I**nsel (île) |
-| J j | jot | /j/ — "y" français | **J**a (oui) |
-| K k | ka | /k/ | **K**affee |
-| L l | el | /l/ | **L**iebe (amour) |
-| M m | em | /m/ | **M**utter (mère) |
-| N n | en | /n/ | **N**acht (nuit) |
-| O o | o | /o/ | **O**rt (lieu) |
-| Ö ö | o-Umlaut | /ø/ — "eu" de *peu* | sch**ö**n (beau) |
-| P p | pe | /p/ | **P**latz (place) |
-| Q q | ku | /kv/ (toujours suivi de u) | **Qu**elle (source) |
-| R r | er | /ʁ/ guttural | **R**eise (voyage) |
-| S s | es | /z/ devant voyelle, /s/ ailleurs | **S**onne / Haus |
-| ß | scharfes-S | /s/ — toujours sourd | Stra**ß**e (rue) |
-| T t | te | /t/ | **T**ag (jour) |
-| U u | u | /u/ — "ou" français | **U**nter (sous) |
-| Ü ü | u-Umlaut | /y/ — "u" français | **ü**ber (au-dessus) |
-| V v | fau | /f/ ou /v/ (rare) | **V**ater / **V**ase |
-| W w | we | /v/ | **W**asser (eau) |
-| X x | iks | /ks/ | He**x**e (sorcière) |
-| Y y | ypsilon | /y/ ou /j/ | T**y**p (type) / **Y**oga |
-| Z z | tset | /ts/ | **Z**eit (temps) |
+| Lettre | Nom        | Son (IPA)                        | Exemple                   |
+| ------ | ---------- | -------------------------------- | ------------------------- |
+| A a    | a          | /a/                              | **A**bend (soir)          |
+| Ä ä    | a-Umlaut   | /ɛ/                              | **Ä**pfel (pommes)        |
+| B b    | be         | /b/ ou /p/ en finale             | **B**uch / Halb           |
+| C c    | tse        | /ts/ devant e/i, /k/ ailleurs    | **C**ello / **C**afé      |
+| D d    | de         | /d/ ou /t/ en finale             | **D**ank / Hund           |
+| E e    | e          | /e/ ou /ə/                       | **e**ssen / **e**inen     |
+| F f    | ef         | /f/                              | **F**reund (ami)          |
+| G g    | ge         | /ɡ/ ou /k/ en finale             | **G**ut / Tag             |
+| H h    | ha         | /h/ aspiré                       | **H**aus (maison)         |
+| I i    | i          | /i/                              | **I**nsel (île)           |
+| J j    | jot        | /j/ — "y" français               | **J**a (oui)              |
+| K k    | ka         | /k/                              | **K**affee                |
+| L l    | el         | /l/                              | **L**iebe (amour)         |
+| M m    | em         | /m/                              | **M**utter (mère)         |
+| N n    | en         | /n/                              | **N**acht (nuit)          |
+| O o    | o          | /o/                              | **O**rt (lieu)            |
+| Ö ö    | o-Umlaut   | /ø/ — "eu" de *peu*              | sch**ö**n (beau)          |
+| P p    | pe         | /p/                              | **P**latz (place)         |
+| Q q    | ku         | /kv/ (toujours suivi de u)       | **Qu**elle (source)       |
+| R r    | er         | /ʁ/ guttural                     | **R**eise (voyage)        |
+| S s    | es         | /z/ devant voyelle, /s/ ailleurs | **S**onne / Haus          |
+| ß      | scharfes-S | /s/ — toujours sourd             | Stra**ß**e (rue)          |
+| T t    | te         | /t/                              | **T**ag (jour)            |
+| U u    | u          | /u/ — "ou" français              | **U**nter (sous)          |
+| Ü ü    | u-Umlaut   | /y/ — "u" français               | **ü**ber (au-dessus)      |
+| V v    | fau        | /f/ ou /v/ (rare)                | **V**ater / **V**ase      |
+| W w    | we         | /v/                              | **W**asser (eau)          |
+| X x    | iks        | /ks/                             | He**x**e (sorcière)       |
+| Y y    | ypsilon    | /y/ ou /j/                       | T**y**p (type) / **Y**oga |
+| Z z    | tset       | /ts/                             | **Z**eit (temps)          |
 
 ## Les 4 caractères spéciaux
 

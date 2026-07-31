@@ -215,6 +215,52 @@ Les courbes de $\exp$ et $\ln$ sont **symétriques par rapport à la droite** $y
 > - La tangente à $\exp$ en $x = 0$ a pour pente $1$ : la tangente à $\ln$ en $x = 1$ a aussi pour pente $1$.
 > - $\exp$ a une asymptote horizontale $y = 0$ en $-\infty$ : $\ln$ a une asymptote verticale $x = 0$.
 
+### Visualisation animée (Manim)
+
+> [!note] Ce que montre l'animation
+> On trace $e^x$, puis on fait apparaître $\ln x$ comme son **image miroir** par rapport à la première bissectrice $y = x$. Des couples de points symétriques — $(0, 1)$ sur $\exp$ et $(1, 0)$ sur $\ln$, ou $(1, e)$ et $(e, 1)$ — sont reliés par des segments perpendiculaires à $y = x$. C'est l'illustration géométrique du fait que $\ln$ est la **fonction réciproque** de $\exp$.
+
+```manim
+# Rendu : manimgl exp_ln.py ExpEtLogReciproques
+from manimlib import *
+import numpy as np
+
+
+class ExpEtLogReciproques(Scene):
+    def construct(self):
+        axes = Axes(x_range=(-4, 4), y_range=(-4, 4), height=7, width=7)
+        self.play(ShowCreation(axes))
+
+        # Première bissectrice y = x : l'axe de symétrie
+        bissectrice = DashedLine(axes.c2p(-4, -4), axes.c2p(4, 4), color=GREY_B)
+        self.play(ShowCreation(bissectrice))
+
+        # Courbe de l'exponentielle
+        c_exp = axes.get_graph(lambda x: np.exp(x), x_range=(-4, 1.38), color=BLUE)
+        lab_exp = Tex("e^x", color=BLUE).next_to(axes.c2p(1.3, np.exp(1.3)), RIGHT)
+        self.play(ShowCreation(c_exp), Write(lab_exp))
+        self.wait()
+
+        # Courbe du logarithme = image de exp par la symétrie d'axe y = x
+        c_ln = axes.get_graph(lambda x: np.log(x), x_range=(0.02, 4), color=GREEN)
+        lab_ln = Tex(r"\ln x", color=GREEN).next_to(axes.c2p(3.6, np.log(3.6)), UP)
+        reflet = c_exp.copy().set_color(GREEN)
+        self.play(Transform(reflet, c_ln), Write(lab_ln), run_time=3)
+        self.wait()
+
+        # Couples de points symétriques par rapport à y = x
+        for x, y in [(0, 1), (1, np.e)]:
+            A = Dot(axes.c2p(x, y), color=BLUE)
+            B = Dot(axes.c2p(y, x), color=GREEN)
+            lien = DashedLine(A.get_center(), B.get_center(), color=GREY_B)
+            self.play(FadeIn(A), FadeIn(B), ShowCreation(lien), run_time=0.8)
+
+        note = Tex(r"e^x \text{ et } \ln x : \text{ symétriques par rapport à } y=x")
+        note.to_edge(UP).set_backstroke()
+        self.play(Write(note))
+        self.wait(2)
+```
+
 
 ## 8. Fonction exponentielle de base $a$
 

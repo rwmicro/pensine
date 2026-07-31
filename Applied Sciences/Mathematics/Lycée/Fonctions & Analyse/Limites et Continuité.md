@@ -265,6 +265,60 @@ flowchart TD
 > - $f(0{,}75) \approx 0{,}172 > 0$ : la solution est dans $]0{,}5\,;\, 0{,}75[$
 > - Etc.
 
+### Visualisation animée (Manim)
+
+> [!note] Ce que montre l'animation
+> Comme $f(x) = x^3 + x - 1$ est **continue** et change de signe entre $a = 0$ ($f(0) = -1 < 0$) et $b = 1$ ($f(1) = 1 > 0$), le théorème des valeurs intermédiaires garantit qu'elle **traverse** la droite $y = 0$. L'animation exécute la **dichotomie** : à chaque étape on teste le signe au milieu de l'intervalle et on garde la moitié qui encadre la racine. Le crochet se resserre et le point $c$ tel que $f(c) = 0$ apparaît : on *voit* l'existence et l'unicité de la solution.
+
+```manim
+# Rendu : manimgl tvi_dichotomie.py TVIDichotomie
+from manimlib import *
+import numpy as np
+
+
+class TVIDichotomie(Scene):
+    def construct(self):
+        def f(x):
+            return x**3 + x - 1
+
+        axes = Axes(x_range=(0, 1, 0.25), y_range=(-1.5, 1.5, 0.5), height=6, width=10)
+        courbe = axes.get_graph(f, color=BLUE)
+        lab = Tex("f(x)=x^3+x-1", color=BLUE).next_to(axes.c2p(0.9, f(0.9)), UR)
+        self.play(ShowCreation(axes), ShowCreation(courbe), Write(lab))
+
+        # f continue, f(0) < 0 < f(1) : changement de signe
+        a, b = 0.0, 1.0
+        self.play(FadeIn(Dot(axes.c2p(a, f(a)), color=RED)),
+                  FadeIn(Dot(axes.c2p(b, f(b)), color=GREEN)))
+        niveau = DashedLine(axes.c2p(0, 0), axes.c2p(1, 0), color=GREY_B)  # y = k = 0
+        self.play(ShowCreation(niveau))
+
+        # Dichotomie : le crochet [a, b] se resserre autour de la racine
+        crochet = Line(axes.c2p(a, 0), axes.c2p(b, 0), color=YELLOW, stroke_width=8)
+        self.play(ShowCreation(crochet))
+        for _ in range(7):
+            m = (a + b) / 2
+            milieu = Dot(axes.c2p(m, 0), color=YELLOW, radius=0.04)
+            vert = DashedLine(axes.c2p(m, 0), axes.c2p(m, f(m)), color=GREY_B)
+            pt = Dot(axes.c2p(m, f(m)), color=YELLOW)
+            self.play(FadeIn(milieu), ShowCreation(vert), FadeIn(pt), run_time=0.4)
+            if f(m) > 0:
+                b = m
+            else:
+                a = m
+            nouveau = Line(axes.c2p(a, 0), axes.c2p(b, 0), color=YELLOW, stroke_width=8)
+            self.play(Transform(crochet, nouveau), FadeOut(vert), FadeOut(pt),
+                      run_time=0.4)
+
+        c = Dot(axes.c2p((a + b) / 2, 0), color=ORANGE)
+        lab_c = Tex("c", color=ORANGE).next_to(c, DOWN, buff=0.15)
+        self.play(FadeIn(c), Write(lab_c))
+        note = Tex(r"f \text{ continue},\ f(a)<0<f(b)\ \Rightarrow\ \exists\,c,\ f(c)=0")
+        note.to_edge(UP).set_backstroke()
+        self.play(Write(note))
+        self.wait(2)
+```
+
 
 ## 10. Exercices types corrigés
 

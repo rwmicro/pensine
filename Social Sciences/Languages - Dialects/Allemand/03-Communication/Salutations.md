@@ -9,18 +9,18 @@ date: "2026-04-28"
 
 ## Salutations selon le moment de la journée
 
-| Allemand | Sens | Période |
-|----------|------|---------|
-| ![Guten Morgen](audio/de_male_b3212abe3070.mp3) | Bonjour (matin) | Avant 11h |
-| ![Guten Tag](audio/de_male_13aab5401c8c.mp3) | Bonjour (journée) | 11h–18h |
-| ![Guten Abend](audio/de_male_d4edcc703005.mp3) | Bonsoir | Après 18h |
-| ![Gute Nacht](audio/de_male_ef2d01d16713.mp3) | Bonne nuit | Avant de dormir |
-| ![Hallo](audio/de_male_2e0828e9e637.mp3) | Salut | Universel, informel |
-| ![Tschüss](audio/de_male_3acf665facb4.mp3) | Salut (départ) | Informel |
-| ![Servus](audio/de_male_52879a799d1c.mp3) | Salut (Bavière, Autriche) | Régional |
-| ![Grüß Gott](audio/de_male_c61b54a4426b.mp3) | Bonjour (litt. "salue Dieu") | Sud — Bavière, Autriche, formel |
-| ![Moin](audio/de_male_2e93e170a7c1.mp3) / ![Moin moin](audio/de_male_86f4fe459caf.mp3) | Salut | Nord de l'Allemagne — toute la journée |
-| ![Grüezi](audio/de_male_49de62417b64.mp3) | Bonjour | Suisse alémanique |
+| Allemand                                                                               | Sens                         | Période                                |
+| -------------------------------------------------------------------------------------- | ---------------------------- | -------------------------------------- |
+| ![Guten Morgen](audio/de_male_b3212abe3070.mp3)                                        | Bonjour (matin)              | Avant 11h                              |
+| ![Guten Tag](audio/de_male_13aab5401c8c.mp3)                                           | Bonjour (journée)            | 11h–18h                                |
+| ![Guten Abend](audio/de_male_d4edcc703005.mp3)                                         | Bonsoir                      | Après 18h                              |
+| ![Gute Nacht](audio/de_male_ef2d01d16713.mp3)                                          | Bonne nuit                   | Avant de dormir                        |
+| ![Hallo](audio/de_male_2e0828e9e637.mp3)                                               | Salut                        | Universel, informel                    |
+| ![Tschüss](audio/de_male_3acf665facb4.mp3)                                             | Salut (départ)               | Informel                               |
+| ![Servus](audio/de_male_52879a799d1c.mp3)                                              | Salut (Bavière, Autriche)    | Régional                               |
+| ![Grüß Gott](audio/de_male_c61b54a4426b.mp3)                                           | Bonjour (litt. "salue Dieu") | Sud — Bavière, Autriche, formel        |
+| ![Moin](audio/de_male_2e93e170a7c1.mp3) / ![Moin moin](audio/de_male_86f4fe459caf.mp3) | Salut                        | Nord de l'Allemagne — toute la journée |
+| ![Grüezi](audio/de_male_49de62417b64.mp3)                                              | Bonjour                      | Suisse alémanique                      |
 
 > **Hallo** est le salut universel courant. **Guten Tag** est plus formel, idéal en commerce ou avec des inconnus.
 

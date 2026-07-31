@@ -101,6 +101,57 @@ $f$ est continue en $a$ si $\displaystyle\lim_{x \to a} f(x) = f(a)$. Les opéra
 > [!tip] Interprétation géométrique
 > Le gradient pointe dans la **direction de plus grande pente** de $f$. Sa norme est le taux de variation maximal.
 
+### Visualisation animée (Manim)
+
+> [!note] Ce que montre l'animation
+> On représente la surface $z = f(x, y) = 3\,e^{-(x^2+y^2)/2}$ (une « colline ») en fil de fer. En un point de la base, on dessine le **gradient** $\nabla f$ dans le plan $z = 0$ : il pointe vers la direction où la surface monte le plus vite (ici vers le sommet). La caméra tourne pour bien percevoir le relief. C'est l'interprétation clé : $\nabla f$ donne la **direction de plus grande pente**.
+
+```manim
+# Rendu : manimgl gradient_surface.py SurfaceEtGradient
+from manimlib import *
+import numpy as np
+
+
+class SurfaceEtGradient(Scene):
+    def construct(self):
+        axes = ThreeDAxes(x_range=(-3, 3), y_range=(-3, 3), z_range=(0, 3))
+        self.add(axes)
+        frame = self.camera.frame
+        frame.reorient(-45, 70)              # vue 3D initiale
+
+        # "Colline" z = f(x, y) = 3 exp(-(x^2 + y^2)/2)
+        def f(x, y):
+            return 3 * np.exp(-(x**2 + y**2) / 2)
+
+        # Surface en fil de fer : courbes à y fixe, puis à x fixe
+        wire = VGroup()
+        for y0 in np.arange(-2.5, 2.6, 0.5):
+            wire.add(ParametricCurve(lambda t, y0=y0: axes.c2p(t, y0, f(t, y0)),
+                                     t_range=(-2.5, 2.5, 0.1), color=BLUE_D))
+        for x0 in np.arange(-2.5, 2.6, 0.5):
+            wire.add(ParametricCurve(lambda t, x0=x0: axes.c2p(x0, t, f(x0, t)),
+                                     t_range=(-2.5, 2.5, 0.1), color=BLUE_D))
+        self.play(ShowCreation(wire), run_time=3)
+
+        # Gradient en un point de la base : nabla f = (-x f, -y f), dans le plan z = 0
+        x0, y0 = 1.2, 0.8
+        g = np.array([-x0 * f(x0, y0), -y0 * f(x0, y0)])
+        g = g / np.linalg.norm(g) * 1.3      # normalisé pour la lisibilité
+        base = Dot(axes.c2p(x0, y0, 0), color=YELLOW)
+        grad = Arrow(axes.c2p(x0, y0, 0), axes.c2p(x0 + g[0], y0 + g[1], 0),
+                     buff=0, color=YELLOW)
+        montee = DashedLine(axes.c2p(x0, y0, 0), axes.c2p(x0, y0, f(x0, y0)), color=GREY_B)
+        sommet = Dot(axes.c2p(x0, y0, f(x0, y0)), color=RED)
+        self.play(FadeIn(base), GrowArrow(grad),
+                  ShowCreation(montee), FadeIn(sommet))
+
+        titre = Tex(r"\nabla f \text{ : direction de plus grande pente}")
+        titre.fix_in_frame().to_edge(UP)
+        self.play(Write(titre))
+        self.play(frame.animate.reorient(30, 65), run_time=6)
+        self.wait()
+```
+
 ### 4.2 Matrice jacobienne
 
 > [!abstract] Définition

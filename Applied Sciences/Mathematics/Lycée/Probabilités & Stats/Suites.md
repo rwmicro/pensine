@@ -239,6 +239,52 @@ flowchart TD
 > $\ell = \sqrt{2 + \ell}$, donc $\ell^2 = 2 + \ell$, soit $\ell^2 - \ell - 2 = 0$.
 > $(\ell - 2)(\ell + 1) = 0$. Comme $u_n \geq 1$, on a $\ell = 2$.
 
+### Visualisation animée (Manim)
+
+> [!note] Ce que montre l'animation
+> Le **diagramme en toile d'araignée** (cobweb) construit géométriquement les termes d'une suite récurrente $u_{n+1} = f(u_n)$, ici $f(x) = \sqrt{2 + x}$. À chaque étape : on monte verticalement jusqu'à la courbe $y = f(x)$ (cela donne $u_{n+1}$), puis on se déplace horizontalement jusqu'à la droite $y = x$ (pour réinjecter $u_{n+1}$). L'escalier s'enroule vers le **point fixe** $\ell$ où $\ell = f(\ell)$ : on *voit* la convergence et pourquoi la limite est l'intersection des deux courbes.
+
+```manim
+# Rendu : manimgl suite_cobweb.py ConvergenceToileAraignee
+from manimlib import *
+import numpy as np
+
+
+class ConvergenceToileAraignee(Scene):
+    def construct(self):
+        # Suite récurrente u_{n+1} = f(u_n), avec f(x) = sqrt(2 + x), u0 = 0
+        def f(x):
+            return np.sqrt(2 + x)
+
+        axes = Axes(x_range=(0, 3, 1), y_range=(0, 3, 1), height=6, width=6)
+        courbe = axes.get_graph(f, x_range=(0, 3), color=BLUE)
+        diag = axes.get_graph(lambda x: x, x_range=(0, 3), color=GREY_B)   # y = x
+        lab_f = Tex(r"y=\sqrt{2+x}", color=BLUE).next_to(axes.c2p(2.6, f(2.6)), UR)
+        lab_d = Tex("y=x", color=GREY_B).next_to(axes.c2p(2.7, 2.7), DR)
+        self.play(ShowCreation(axes), ShowCreation(courbe), ShowCreation(diag),
+                  Write(lab_f), Write(lab_d))
+
+        # Construction de la toile d'araignée à partir de u0 = 0
+        u = 0.0
+        self.play(FadeIn(Dot(axes.c2p(u, 0), color=YELLOW)))
+        for _ in range(8):
+            v = f(u)
+            vert = Line(axes.c2p(u, u), axes.c2p(u, v), color=YELLOW)    # vers la courbe
+            horiz = Line(axes.c2p(u, v), axes.c2p(v, v), color=YELLOW)   # vers y = x
+            self.play(ShowCreation(vert), run_time=0.5)
+            self.play(ShowCreation(horiz), run_time=0.5)
+            u = v
+
+        # Point fixe : la limite ell = f(ell) = 2
+        ell = Dot(axes.c2p(2, 2), color=RED)
+        lab_ell = Tex(r"\ell = 2", color=RED).next_to(ell, UR).set_backstroke()
+        self.play(FadeIn(ell), Write(lab_ell))
+        note = Tex(r"u_{n+1}=f(u_n)\ \to\ \ell \quad\text{où}\quad \ell=f(\ell)")
+        note.to_edge(UP).set_backstroke()
+        self.play(Write(note))
+        self.wait(2)
+```
+
 
 ## 9. Suites adjacentes
 

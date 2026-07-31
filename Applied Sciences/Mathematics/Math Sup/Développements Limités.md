@@ -87,6 +87,51 @@ $$\cosh x = 1 + \frac{x^2}{2!} + \frac{x^4}{4!} + \cdots + \frac{x^{2n}}{(2n)!} 
 > - $\sin$ alterne les signes, $\sinh$ garde le $+$
 > - $\cos$ alterne les signes, $\cosh$ garde le $+$
 
+### Visualisation animée (Manim)
+
+> [!note] Ce que montre l'animation
+> On superpose à la courbe de $\sin x$ ses **polynômes de Taylor** d'ordre croissant. $T_1(x) = x$ ne colle qu'au voisinage immédiat de $0$ ; à mesure que l'ordre augmente, le polynôme épouse $\sin x$ sur un intervalle de plus en plus large. C'est l'idée centrale du DL : *approcher localement une fonction par un polynôme*, l'approximation s'améliorant avec l'ordre (mais restant locale — le polynôme finit toujours par diverger).
+
+```manim
+# Rendu : manimgl taylor_sin.py PolynomesDeTaylor
+from manimlib import *
+import numpy as np
+from math import factorial
+
+
+class PolynomesDeTaylor(Scene):
+    def construct(self):
+        axes = Axes(x_range=(-2 * PI, 2 * PI, PI / 2), y_range=(-3, 3),
+                    height=6, width=13)
+        sinus = axes.get_graph(np.sin, color=BLUE)
+        lab = Tex(r"\sin x", color=BLUE).next_to(axes.c2p(1.7 * PI, np.sin(1.7 * PI)), UP)
+        self.play(ShowCreation(axes), ShowCreation(sinus), Write(lab))
+
+        # Polynôme de Taylor de sin en 0, tronqué à l'ordre 2N+1
+        def taylor(N):
+            def T(x):
+                return sum((-1)**k * x**(2 * k + 1) / factorial(2 * k + 1)
+                           for k in range(N + 1))
+            return axes.get_graph(T, color=YELLOW)
+
+        approx = taylor(0)        # ordre 1 : T(x) = x
+        label = Tex("T_1(x) = x").to_corner(UL).set_backstroke()
+        self.play(ShowCreation(approx), Write(label))
+        self.wait()
+
+        for N, nom in [(1, "T_3"), (2, "T_5"), (3, "T_7"), (5, "T_{11}"), (8, "T_{17}")]:
+            nouveau = taylor(N)
+            nouveau_label = Tex(f"{nom}(x)").to_corner(UL).set_backstroke()
+            self.play(Transform(approx, nouveau),
+                      Transform(label, nouveau_label), run_time=1.3)
+            self.wait(0.4)
+
+        note = Tex(r"\sin x = \sum_{k=0}^{N} \frac{(-1)^k\,x^{2k+1}}{(2k+1)!} + o(x^{2N+1})")
+        note.to_edge(UP).set_backstroke()
+        self.play(Write(note))
+        self.wait(2)
+```
+
 
 ## Opérations sur les DL
 

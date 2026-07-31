@@ -228,6 +228,49 @@ $$z_1 z_2 = r_1 r_2 \left[\cos(\theta_1 + \theta_2) + i\sin(\theta_1 + \theta_2)
 > [!tip] Interprétation géométrique
 > Multiplier par $z_2$ revient à effectuer une **rotation** d'angle $\arg(z_2)$ combinée à une **homothétie** de rapport $|z_2|$ centrée en $O$.
 
+### Visualisation animée (Manim)
+
+> [!note] Ce que montre l'animation
+> Dans le plan complexe, on trace $z_1$ et $z_2$, puis leur produit $z_1 z_2$. On constate visuellement que les **modules se multiplient** (la flèche du produit est plus longue) et que les **arguments s'ajoutent** (l'angle du produit est la somme des deux angles) : multiplier par $z_2$, c'est tourner de $\arg(z_2)$ et dilater de $|z_2|$.
+
+```manim
+# Rendu : manimgl complexe_mult.py MultiplicationComplexe
+from manimlib import *
+
+
+class MultiplicationComplexe(Scene):
+    def construct(self):
+        plan = ComplexPlane(x_range=(-4, 4), y_range=(-3, 3))
+        plan.add_coordinate_labels()
+        self.play(ShowCreation(plan))
+
+        z1 = complex(1.6, 0.8)
+        z2 = complex(0.9, 1.2)
+        z3 = z1 * z2   # modules multipliés, arguments additionnés
+
+        def fleche(z, couleur, etiquette):
+            v = Arrow(plan.n2p(0), plan.n2p(z), buff=0, color=couleur)
+            lab = Tex(etiquette, color=couleur)
+            lab.next_to(plan.n2p(z), UR, buff=0.1).set_backstroke()
+            return VGroup(v, lab)
+
+        f1 = fleche(z1, BLUE, "z_1")
+        f2 = fleche(z2, GREEN, "z_2")
+        self.play(GrowArrow(f1[0]), Write(f1[1]))
+        self.play(GrowArrow(f2[0]), Write(f2[1]))
+        self.wait()
+
+        f3 = fleche(z3, YELLOW, "z_1 z_2")
+        self.play(GrowArrow(f3[0]), Write(f3[1]))
+
+        note = Tex(
+            r"|z_1 z_2| = |z_1|\,|z_2|", r"\qquad",
+            r"\arg(z_1 z_2) = \arg z_1 + \arg z_2",
+        ).to_edge(UP).set_backstroke()
+        self.play(Write(note))
+        self.wait(2)
+```
+
 
 ## 7. Forme exponentielle et formule d'Euler
 

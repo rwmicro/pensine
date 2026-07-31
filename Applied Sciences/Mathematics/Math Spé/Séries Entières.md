@@ -56,6 +56,51 @@ graph LR
 > - Si $|x| > R$ : la série **diverge grossièrement** ($a_n x^n \not\to 0$)
 > - Si $|x| = R$ : **pas de règle générale** (à étudier au cas par cas)
 
+### Visualisation animée (Manim)
+
+> [!note] Ce que montre l'animation
+> Sur l'exemple de la série géométrique $\sum x^n$ (rayon $R = 1$), on trace les sommes partielles $S_N(x)$ pour $N$ croissant. À l'**intérieur** du disque ($|x| < 1$), $S_N$ converge vers la fonction somme $\dfrac{1}{1-x}$ (en bleu). À l'**extérieur** ($|x| > 1$), les sommes partielles explosent et s'éloignent : on *voit* le rayon de convergence comme la frontière nette $x = \pm R$ entre convergence et divergence.
+
+```manim
+# Rendu : manimgl rayon_convergence.py RayonDeConvergence
+from manimlib import *
+import numpy as np
+
+
+class RayonDeConvergence(Scene):
+    def construct(self):
+        axes = Axes(x_range=(-2, 2, 0.5), y_range=(-2, 5, 1), height=6.5, width=11)
+        # Fonction somme 1/(1-x), tracée seulement là où la série converge
+        cible = axes.get_graph(lambda x: 1 / (1 - x), x_range=(-0.95, 0.9), color=BLUE)
+        self.play(ShowCreation(axes), ShowCreation(cible))
+
+        # Bornes du disque de convergence : x = -R et x = R (ici R = 1)
+        for x0, nom in [(-1, "-R"), (1, "R")]:
+            self.play(ShowCreation(DashedLine(axes.c2p(x0, -2), axes.c2p(x0, 5), color=RED)),
+                      Write(Tex(nom, color=RED).next_to(axes.c2p(x0, 5), UP)), run_time=0.6)
+
+        # Sommes partielles S_N(x) = somme des x^k pour k de 0 à N
+        def somme_partielle(N):
+            return axes.get_graph(lambda x: sum(x**k for k in range(N + 1)),
+                                  x_range=(-1.95, 1.95), color=YELLOW)
+
+        approx = somme_partielle(1)
+        label = Tex("S_1").to_corner(UL).set_backstroke()
+        self.play(ShowCreation(approx), Write(label))
+        self.wait()
+
+        for N in [3, 6, 10, 20]:
+            nl = Tex(f"S_{{{N}}}").to_corner(UL).set_backstroke()
+            self.play(Transform(approx, somme_partielle(N)),
+                      Transform(label, nl), run_time=1.2)
+            self.wait(0.3)
+
+        note = Tex(r"\sum_{n=0}^{N} x^n \xrightarrow{} \frac{1}{1-x}\ \text{si}\ |x|<R=1")
+        note.to_edge(UP).set_backstroke()
+        self.play(Write(note))
+        self.wait(2)
+```
+
 ### Calcul du rayon de convergence
 
 > [!abstract] Règle de d'Alembert (cas le plus fréquent)

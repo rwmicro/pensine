@@ -73,6 +73,60 @@ $$\boxed{\tan\theta = \frac{\sin\theta}{\cos\theta}} \quad \text{(définie si } 
 - $\sin$ est **impaire** : $\sin(-\theta) = -\sin\theta$
 - $\tan$ est **impaire** : $\tan(-\theta) = -\tan\theta$
 
+### Visualisation animée (Manim)
+
+> [!note] Ce que montre l'animation
+> Un point $M$ parcourt le **cercle trigonométrique**. À chaque instant, $\cos\theta$ est son abscisse (segment rouge sur $Ox$) et $\sin\theta$ son ordonnée (segment vert sur $Oy$), reliées au point par les projections en pointillés. On visualise directement $M = (\cos\theta, \sin\theta)$ et la relation $\cos^2\theta + \sin^2\theta = 1$ (le rayon reste de longueur $1$).
+
+```manim
+# Rendu : manimgl cercle_trigo.py CercleTrigonometrique
+from manimlib import *
+import numpy as np
+
+
+class CercleTrigonometrique(Scene):
+    def construct(self):
+        axes = Axes(x_range=(-1.5, 1.5), y_range=(-1.5, 1.5), height=6, width=6)
+        u = axes.x_axis.get_unit_size()           # 1 unité mathématique en pixels
+        cercle = Circle(radius=u, color=GREY_B).move_to(axes.c2p(0, 0))
+        self.play(ShowCreation(axes), ShowCreation(cercle))
+
+        theta = ValueTracker(0.6)
+
+        def M_point():
+            t = theta.get_value()
+            return axes.c2p(np.cos(t), np.sin(t))
+
+        # Rayon OM et point M (toujours sur le cercle, de norme 1)
+        rayon = always_redraw(lambda: Line(axes.c2p(0, 0), M_point(), color=YELLOW))
+        M = always_redraw(lambda: Dot(M_point(), color=YELLOW))
+
+        # cos(theta) : segment et projection (rouge)
+        cos_seg = always_redraw(lambda: Line(
+            axes.c2p(0, 0), axes.c2p(np.cos(theta.get_value()), 0),
+            color=RED, stroke_width=6))
+        proj_cos = always_redraw(lambda: DashedLine(
+            axes.c2p(np.cos(theta.get_value()), 0), M_point(), color=RED))
+
+        # sin(theta) : segment et projection (vert)
+        sin_seg = always_redraw(lambda: Line(
+            axes.c2p(0, 0), axes.c2p(0, np.sin(theta.get_value())),
+            color=GREEN, stroke_width=6))
+        proj_sin = always_redraw(lambda: DashedLine(
+            axes.c2p(0, np.sin(theta.get_value())), M_point(), color=GREEN))
+
+        legende = VGroup(
+            Tex(r"\cos\theta", color=RED),
+            Tex(r"\sin\theta", color=GREEN),
+        ).arrange(DOWN, aligned_edge=LEFT).to_corner(UR).set_backstroke()
+
+        self.add(cos_seg, sin_seg, proj_cos, proj_sin, rayon, M)
+        self.play(Write(legende))
+        # Un tour complet : theta varie de 0.6 à 0.6 + 2*pi
+        self.play(theta.animate.set_value(0.6 + TAU), run_time=8, rate_func=linear)
+        self.wait()
+```
+
 
 ## 4. Valeurs remarquables
 

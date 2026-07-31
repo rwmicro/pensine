@@ -66,6 +66,59 @@ Quand $h \to 0$, la sécante passant par $A$ et $M$ tend vers la **tangente** en
 - Si $f'(a) > 0$ : la tangente est **ascendante** (de gauche à droite).
 - Si $f'(a) < 0$ : la tangente est **descendante** (de gauche à droite).
 
+### Visualisation animée (Manim)
+
+> [!note] Ce que montre l'animation
+> Le point $A$ est fixe en $x = 2$ ; le point $M$ glisse sur la courbe et l'écart $h = x_M - a$ tend vers $0$. La **sécante** $(AM)$ — dont la pente est le taux d'accroissement — pivote alors continûment vers la **tangente** en $A$. On *voit* ainsi pourquoi $f'(a)$ est la pente limite de la sécante.
+
+```manim
+# Rendu : manimgl tangente.py TangenteLimiteSecantes
+from manimlib import *
+
+
+class TangenteLimiteSecantes(Scene):
+    def construct(self):
+        # f(x) = x^2 - 3x + 1 (l'exemple de la note), mise à l'échelle écran
+        def f(x):
+            return 0.5 * (x**2 - 3 * x + 1)
+
+        axes = Axes(x_range=(-1, 5), y_range=(-2, 4), height=6, width=11)
+        courbe = axes.get_graph(f, color=BLUE)
+        self.play(ShowCreation(axes), ShowCreation(courbe))
+
+        a = 2.0  # abscisse du point fixe A
+        A = Dot(axes.c2p(a, f(a)), color=YELLOW)
+        labelA = Tex("A").next_to(A, DR, buff=0.1)
+        self.play(FadeIn(A), Write(labelA))
+
+        # h : écart entre A et le point mobile M ; il va tendre vers 0
+        h = ValueTracker(2.5)
+
+        def get_M():
+            x = a + h.get_value()
+            return Dot(axes.c2p(x, f(x)), color=RED)
+
+        def get_secante():
+            x = a + h.get_value()
+            pente = (f(x) - f(a)) / (x - a)   # taux d'accroissement = pente sécante
+            return axes.get_graph(lambda t: f(a) + pente * (t - a), color=GREEN)
+
+        M = always_redraw(get_M)
+        secante = always_redraw(get_secante)
+        labelM = always_redraw(lambda: Tex("M").next_to(M, UR, buff=0.1))
+
+        self.play(FadeIn(M), ShowCreation(secante), Write(labelM))
+        self.wait()
+
+        # On fait tendre h vers 0 : la sécante (AM) pivote vers la tangente en A
+        self.play(h.animate.set_value(0.05), run_time=5)
+
+        titre = Tex(r"M \to A \;\Rightarrow\; \text{sécante} \to \text{tangente}")
+        titre.to_edge(UP).set_backstroke()
+        self.play(Write(titre))
+        self.wait(2)
+```
+
 
 ## 3. Fonction dérivée
 

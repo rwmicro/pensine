@@ -32,6 +32,56 @@ On a toujours $s(f, \sigma) \leqslant S(f, \sigma)$.
 > $$s(f, \sigma) \leqslant s(f, \sigma') \leqslant S(f, \sigma') \leqslant S(f, \sigma)$$
 > Autrement dit, raffiner une subdivision resserre l'encadrement.
 
+### Visualisation animée (Manim)
+
+> [!note] Ce que montre l'animation
+> Pour une fonction croissante, la **somme de Darboux inférieure** $s(f,\sigma)$ (rectangles verts, échantillon à gauche) sous-estime l'aire, et la **supérieure** $S(f,\sigma)$ (rectangles bleus, échantillon à droite) la surestime. En raffinant la subdivision, l'écart $S(f,\sigma) - s(f,\sigma)$ tend vers $0$ : les deux sommes se rejoignent vers l'intégrale, ce qui est précisément le critère d'intégrabilité de Riemann.
+
+```manim
+# Rendu : manimgl darboux.py SommesDeDarboux
+from manimlib import *
+
+
+class SommesDeDarboux(Scene):
+    def construct(self):
+        def f(x):
+            return 0.25 * x**2 + 0.4        # croissante sur [0.5, 4]
+
+        axes = Axes(x_range=(0, 4.5), y_range=(0, 6), height=6, width=10)
+        courbe = axes.get_graph(f, x_range=(0.5, 4), color=YELLOW)
+        self.play(ShowCreation(axes), ShowCreation(courbe))
+        a, b = 0.5, 4
+
+        def darboux(dx):
+            # f croissante : échantillon "gauche" = inf, "droite" = sup
+            bas = axes.get_riemann_rectangles(
+                courbe, x_range=(a, b), dx=dx, input_sample_type="left",
+                colors=(GREEN, GREEN), fill_opacity=0.5, stroke_width=1)
+            haut = axes.get_riemann_rectangles(
+                courbe, x_range=(a, b), dx=dx, input_sample_type="right",
+                colors=(BLUE, BLUE), fill_opacity=0.25, stroke_width=1)
+            return bas, haut
+
+        bas, haut = darboux(0.5)
+        self.play(FadeIn(haut), FadeIn(bas))
+        legende = VGroup(
+            Tex(r"s(f,\sigma)", color=GREEN),
+            Tex(r"S(f,\sigma)", color=BLUE),
+        ).arrange(DOWN, aligned_edge=LEFT).to_corner(UL).set_backstroke()
+        self.play(Write(legende))
+        self.wait()
+
+        for dx in [0.25, 0.1, 0.05]:
+            nb, nh = darboux(dx)
+            self.play(Transform(bas, nb), Transform(haut, nh), run_time=1.3)
+            self.wait(0.3)
+
+        note = Tex(r"S(f,\sigma) - s(f,\sigma) \xrightarrow[\|\sigma\| \to 0]{} 0")
+        note.to_edge(UP).set_backstroke()
+        self.play(Write(note))
+        self.wait(2)
+```
+
 ### 1.2. Fonctions en escalier
 
 > [!abstract] Définition -- Fonction en escalier

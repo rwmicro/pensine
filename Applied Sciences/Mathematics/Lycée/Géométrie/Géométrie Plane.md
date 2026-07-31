@@ -222,6 +222,46 @@ Pour tous vecteurs $\vec{u}$, $\vec{v}$, $\vec{w}$ et tout réel $k$ :
 > Le vecteur $\overrightarrow{AH}$ est la projection de $\overrightarrow{AM}$ sur $\overrightarrow{AB}$ :
 > $$\overrightarrow{AH} = \frac{\overrightarrow{AM} \cdot \overrightarrow{AB}}{\|\overrightarrow{AB}\|^2}\,\overrightarrow{AB}$$
 
+### Visualisation animée (Manim)
+
+> [!note] Ce que montre l'animation
+> On trace deux vecteurs $\vec{u}$ et $\vec{v}$ de même origine. Le **projeté orthogonal** $H$ de l'extrémité de $\vec{v}$ sur la droite portée par $\vec{u}$ donne le vecteur $\overrightarrow{OH}$ (en jaune), avec l'angle droit matérialisé par la hauteur en pointillés. Le produit scalaire vaut alors $\vec{u}\cdot\vec{v} = \|\vec{u}\|\times \overline{OH}$ : la projection est l'interprétation géométrique du produit scalaire.
+
+```manim
+# Rendu : manimgl projete.py ProjeteOrthogonal
+from manimlib import *
+import numpy as np
+
+
+class ProjeteOrthogonal(Scene):
+    def construct(self):
+        plan = NumberPlane(x_range=(-1, 6), y_range=(-1, 4))
+        self.play(ShowCreation(plan))
+        O = plan.c2p(0, 0)
+
+        uvec, vvec = np.array([4, 1]), np.array([2, 3])
+        u = Arrow(O, plan.c2p(*uvec), buff=0, color=BLUE)
+        v = Arrow(O, plan.c2p(*vvec), buff=0, color=GREEN)
+        ulab = Tex(r"\vec{u}", color=BLUE).next_to(plan.c2p(*uvec), DR, buff=0.1)
+        vlab = Tex(r"\vec{v}", color=GREEN).next_to(plan.c2p(*vvec), UL, buff=0.1)
+        self.play(GrowArrow(u), GrowArrow(v), Write(ulab), Write(vlab))
+        self.wait()
+
+        # Projeté orthogonal H de v sur la droite portée par u
+        t = np.dot(uvec, vvec) / np.dot(uvec, uvec)
+        Hp = plan.c2p(*(t * uvec))
+        proj = Arrow(O, Hp, buff=0, color=YELLOW)
+        hauteur = DashedLine(plan.c2p(*vvec), Hp, color=GREY_B)
+        Hdot = Dot(Hp, color=YELLOW)
+        Hlab = Tex("H").next_to(Hp, DOWN, buff=0.15)
+        self.play(ShowCreation(hauteur), GrowArrow(proj), FadeIn(Hdot), Write(Hlab))
+
+        formule = Tex(r"\vec{u}\cdot\vec{v} = \|\vec{u}\|\times \overline{OH}")
+        formule.to_edge(UP).set_backstroke()
+        self.play(Write(formule))
+        self.wait(2)
+```
+
 ### 4.7 Équation de cercle
 
 Dans un repère orthonormé, le cercle de centre $\Omega(a,b)$ et de rayon $r$ a pour équation :

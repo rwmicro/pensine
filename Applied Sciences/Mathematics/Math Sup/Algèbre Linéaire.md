@@ -184,6 +184,43 @@ Notations : $\mathcal{L}(E, F)$ désigne l'ensemble des applications linéaires 
 | Automorphisme | Endomorphisme bijectif |
 | Forme linéaire | $f : E \to K$ |
 
+### Visualisation animée (Manim)
+
+> [!note] Ce que montre l'animation
+> Une application linéaire $f(\vec{x}) = A\vec{x}$ déforme **tout le plan** de façon cohérente : les droites restent des droites, la grille reste une grille régulière, l'origine est fixe. Suivre les images des vecteurs de base $\vec{i}$ (vert) et $\vec{j}$ (rouge) suffit à décrire entièrement $f$ — ce sont les colonnes de la matrice $A$. C'est l'intuition fondamentale derrière « une application linéaire est déterminée par les images d'une base ».
+
+```manim
+# Rendu : manimgl transfo_lineaire.py TransformationLineaire
+from manimlib import *
+
+
+class TransformationLineaire(Scene):
+    def construct(self):
+        plan = NumberPlane()
+        self.add(plan)
+
+        # Vecteurs de la base canonique
+        i_hat = Arrow(plan.c2p(0, 0), plan.c2p(1, 0), buff=0, color=GREEN)
+        j_hat = Arrow(plan.c2p(0, 0), plan.c2p(0, 1), buff=0, color=RED)
+        self.add(i_hat, j_hat)
+        self.wait()
+
+        # A = [[2, 1], [1, 2]] : les colonnes sont f(i) et f(j)
+        A = [[2, 1], [1, 2]]
+        self.play(
+            ApplyMatrix(A, plan),
+            ApplyMatrix(A, i_hat),
+            ApplyMatrix(A, j_hat),
+            run_time=4,
+        )
+        self.wait()
+
+        note = Tex(r"f(\vec{x}) = A\vec{x},\quad A=\begin{pmatrix}2&1\\1&2\end{pmatrix}")
+        note.to_corner(UL).set_backstroke()
+        self.play(Write(note))
+        self.wait(2)
+```
+
 ### 5.2 Noyau et image
 
 > [!abstract] Définition
