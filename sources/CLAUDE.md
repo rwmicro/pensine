@@ -2,8 +2,8 @@
 title: "CLAUDE.md — Conventions du vault Pensine"
 domain: "Méta"
 subdomain: "Configuration"
-tags: [claude, conventions, vault, configuration]
-date: "2026-04-28"
+tags: [claude, conventions, vault, configuration, audio]
+date: "2026-07-31"
 ---
 # CLAUDE.md — Conventions du vault Pensine
 
@@ -44,7 +44,7 @@ date: "YYYY-MM-DD"
 pensine/
 ├── Applied Sciences/   # Sciences appliquées (Bio, Chem, CS, Math, Physics, Sport, Echecs...)
 ├── Social Sciences/    # Sciences sociales (Anthropo, Arts, Histoire, Langues, Philo...)
-└── sources/            # Templates et images
+└── sources/            # Templates, conventions et images
 ```
 
 ## Dossier `Languages - Dialects/`
@@ -58,6 +58,63 @@ Les langues suivent une structure standard 01-06 :
 - `06-Ressources/` — Anki, apps, livres, films
 
 Nommage des dossiers : **français** (Espagnol, Mandarin, Azerbaïdjanais, Turc, Roumain...).
+
+## Prononciation audio (feature du site learn-nebula)
+
+Les notes de langues peuvent embarquer des clips de prononciation, rendus en lecteurs audio sur le site learn-nebula.
+
+### Ajouter un audio
+
+Surligne le terme à prononcer avec la syntaxe :
+
+```
+==terme::code==            ex. ==Hola::es==   ==keefak::ar-lb==   ==你好::zh==
+==terme::code:female==     pour la voix féminine (male par défaut)
+```
+
+Puis lance le script de génération (ci-dessous). Le surlignage devient une image markdown audio :
+
+```
+![terme](audio/xxx.mp3)
+```
+
+Sur learn-nebula, `rehypeVaultAssets` (lib/markdown.ts) transforme toute image markdown à extension audio en lecteur audio « .pron », avec le `alt` comme label. Ne pas utiliser l'embed Obsidian `![[...]]` : le site ne le convertit pas en lecteur.
+
+### Où vivent les clips
+
+- Un sous-dossier `audio/` à côté de chaque note (chemin note-relative).
+- Stockés en git-lfs (`*.mp3` dans `.gitattributes`) — à committer (le site clone ce repo dans `content/posts/`).
+- `.tts_audio_cache/` est le cache maître local, gitignoré (ne pas committer).
+
+### Codes de langue
+
+| Code | Langue | | Code | Langue |
+|------|--------|-|------|--------|
+| `fr` | Français | | `ms` | Malais (+ Sambas via `::ms`) |
+| `es` | Espagnol | | `zh` | Mandarin |
+| `en` | Anglais | | `ar` | Arabe standard (+ Darija via `::ar`) |
+| `de` | Allemand | | `ar-lb` | Arabe libanais |
+| `tr` | Turc | | `hi` | Hindi |
+| `az` | Azéri | | `ta` | Tamoul |
+| `ro` | Roumain | | `id` | Indonésien |
+
+Non gérées par ElevenLabs, aucun audio possible : ouïghour, kabyle, hakka, tok pisin.
+
+### Générer
+
+Script : `~/Desktop/script_lang_pensine/script_TTS_langues.py` (ElevenLabs, modèle `eleven_v3`).
+
+```
+python script_TTS_langues.py "<dossier du vault, ou d'une langue>"
+```
+
+- Clé API : variable `ELEVENLABS_API_KEY`, ou fichier `.env` à côté du script.
+- Idempotent : une fois converti en `![...](audio/…)`, un terme n'est pas regénéré.
+- Attention : le `cache_key` n'inclut pas le voice_id. Si tu changes une voix, purge le `.tts_audio_cache/` et les dossiers `audio/` de la langue avant de relancer, sinon les anciens clips (mauvaise voix) sont réutilisés.
+
+### Mise en ligne
+
+Le build learn-nebula clone ce repo et fait `git lfs pull --include=*.mp3`. La feature audio est sur learn-nebula `main` (depuis la PR #26), donc pousser pensine publie directement les audios.
 
 ## Fichiers à ne jamais supprimer
 
