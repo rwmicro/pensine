@@ -9,7 +9,7 @@ date: "2026-02-22"
 # Concepts Fondamentaux
 
 
-*Pour les fiches déjà détaillées en dossier dédié, voir `Concepts/` (pour l'instant : Habitus, L'Ordre Imaginé, Les Hiérarchies Imaginées). Les autres concepts ci-dessous sont développés dans l'aperçu synthétique de cette note, ou pour les concepts durkheimiens/wébériens dans [[Les Pères Fondateurs]].*
+*Pour les fiches en dossier dédié, voir `Concepts/`. Socialisation, Stratification Sociale, Capital, Champ, Rôle Social, Déviance, Institution et Groupe Social sont développés dans l'aperçu synthétique ci-dessous.*
 
 ### Concepts Clés
 
@@ -22,17 +22,17 @@ date: "2026-02-22"
 - **[[Concepts/Habitus|Habitus]]** - Dispositions durables et transposables
 - **[[#Capital (Bourdieu)|Capital]]** - Économique, culturel, social, symbolique
 - **[[#Champ (Bourdieu)|Champ]]** - Espaces sociaux structurés
-- **Violence Symbolique** - Domination invisible (voir [[Fondateurs/Pierre Bourdieu#La violence symbolique|Bourdieu]])
+- **[[Violence Symbolique]]** - Domination invisible
 
 **Concepts durkheimiens:**
-- **Fait Social** - Extérieur, contraignant, général (voir [[Les Pères Fondateurs#Émile Durkheim (1858-1917)|Durkheim]])
-- **Solidarité** - Mécanique vs organique (voir [[Les Pères Fondateurs#Émile Durkheim (1858-1917)|Durkheim]])
-- **Anomie** - Dérèglement social (voir [[Les Pères Fondateurs#Émile Durkheim (1858-1917)|Durkheim]])
+- **[[Fait Social]]** - Extérieur, contraignant, général
+- **[[Solidarité]]** - Mécanique vs organique
+- **[[Anomie]]** - Dérèglement social
 
 **Concepts wébériens:**
-- **Rationalisation** - Désenchantement du monde (voir [[Les Pères Fondateurs#Max Weber (1864-1920)|Weber]])
-- **Domination** - Traditionnelle, charismatique, légale-rationnelle (voir [[Les Pères Fondateurs#Max Weber (1864-1920)|Weber]])
-- **Bureaucratie** - Organisation rationnelle (voir [[Les Pères Fondateurs#Max Weber (1864-1920)|Weber]])
+- **[[Rationalisation]]** - Désenchantement du monde
+- **[[Domination]]** - Traditionnelle, charismatique, légale-rationnelle
+- **[[Bureaucratie]]** - Organisation rationnelle
 
 **Autres:**
 - **[[#Rôle Social|Rôle Social]]** - Comportements attendus
