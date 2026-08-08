@@ -22,7 +22,7 @@ date: "2026-02-22"
 - **[[Concepts/Habitus|Habitus]]** - Dispositions durables et transposables
 - **[[#Capital (Bourdieu)|Capital]]** - Économique, culturel, social, symbolique
 - **[[#Champ (Bourdieu)|Champ]]** - Espaces sociaux structurés
-- **Violence Symbolique** - Domination invisible (voir [[Grands Courants Théoriques#Sociologie Critique Française (Bourdieu)|Bourdieu]])
+- **Violence Symbolique** - Domination invisible (voir [[Fondateurs/Pierre Bourdieu#La violence symbolique|Bourdieu]])
 
 **Concepts durkheimiens:**
 - **Fait Social** - Extérieur, contraignant, général (voir [[Les Pères Fondateurs#Émile Durkheim (1858-1917)|Durkheim]])

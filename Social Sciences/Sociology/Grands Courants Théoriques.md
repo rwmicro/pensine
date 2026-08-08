@@ -172,6 +172,8 @@ date: "2026-02-25"
 
 ### Sociologie Critique Française (Bourdieu)
 
+*Voir le développement complet : [[Fondateurs/Pierre Bourdieu]]*
+
 **Pierre Bourdieu (1930-2002):**
 - Sociologue le plus influent du XXe siècle (France)
 
