@@ -215,6 +215,8 @@ date: "2026-02-22"
 
 ### Sociologie Politique
 
+*Voir le développement complet : [[Thématiques/Sociologie Politique]]*
+
 **Pouvoir, domination:**
 - Weber (types de domination)
 - Foucault (pouvoir diffus)
@@ -234,6 +236,8 @@ date: "2026-02-22"
 - Theda Skocpol (*États et révolutions sociales*)
 
 ### Sociologie Économique
+
+*Voir le développement complet : [[Thématiques/Sociologie Économique]]*
 
 **Encastrement (embeddedness):**
 - Karl Polanyi (*La Grande Transformation*, 1944)
