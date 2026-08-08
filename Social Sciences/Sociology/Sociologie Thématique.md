@@ -177,6 +177,8 @@ date: "2026-02-22"
 
 ### Sociologie de la Santé
 
+*Voir le développement complet : [[Thématiques/Sociologie de la Santé]]*
+
 **Thèmes:**
 - Inégalités sociales de santé
 - Médicalisation de la société
@@ -191,6 +193,8 @@ date: "2026-02-22"
 - Michel Foucault (*Naissance de la clinique*)
 
 ### Sociologie de la Culture
+
+*Voir le développement complet : [[Thématiques/Sociologie de la Culture]]*
 
 **Culture savante vs culture populaire:**
 - Légitimité culturelle (Bourdieu)
