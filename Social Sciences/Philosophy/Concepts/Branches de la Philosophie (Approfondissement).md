@@ -420,3 +420,57 @@ Science du raisonnement valide : quelles inférences sont correctes ? Comment ar
 *Paradoxe Sorite*
 - Tas sable : Enlever grain, toujours tas ? (vague)
 
+
+### Philosophie Politique
+
+*Voir le développement complet : [[Philosophie Politique]]*
+
+**Définition**
+Fondements légitimes du pouvoir et de l'organisation collective : pourquoi obéir à l'État ? Qu'est-ce qu'une société juste ?
+
+**Questions Centrales**
+- Contrat social : Hobbes, Locke, Rousseau
+- Justice : Rawls (voile d'ignorance) vs Nozick (État minimal)
+- Grandes familles idéologiques : libéralisme, socialisme, anarchisme, communautarisme
+- Légitimité de la démocratie, pouvoir chez Foucault, réalisme chez Machiavel
+
+
+### Philosophie de l'Esprit
+
+*Voir le développement complet : [[Philosophie de l'Esprit]]*
+
+**Définition**
+Nature de la conscience et rapport esprit-corps : comment un cerveau physique produit-il une expérience subjective ?
+
+**Questions Centrales**
+- Dualisme (Descartes) vs physicalisme vs fonctionnalisme
+- Le problème difficile de la conscience (Chalmers), qualia, zombies philosophiques
+- Chambre chinoise (Searle), intentionnalité, intelligence artificielle
+- Identité personnelle à travers le temps (Locke, Parfit)
+
+
+### Philosophie du Langage
+
+*Voir le développement complet : [[Philosophie du Langage]]*
+
+**Définition**
+Comment les mots signifient et réfèrent : rapport entre langage, pensée et monde.
+
+**Questions Centrales**
+- Sens et référence (Frege), théorie des descriptions (Russell)
+- Jeux de langage et usage (second Wittgenstein)
+- Actes de langage (Austin, Searle), noms propres et nécessité (Kripke)
+
+
+### Philosophie de la Religion
+
+*Voir le développement complet : [[Philosophie de la Religion]]*
+
+**Définition**
+Examen rationnel de la croyance religieuse : Dieu existe-t-il ? Comment concilier un Dieu bon et le mal ?
+
+**Questions Centrales**
+- Preuves de l'existence de Dieu (ontologique, cosmologique, téléologique, morale) et leurs critiques
+- Le problème du mal et les théodicées
+- Foi et raison : fidéisme (Pascal, Kierkegaard) vs rationalisme théiste (Thomas d'Aquin)
+
