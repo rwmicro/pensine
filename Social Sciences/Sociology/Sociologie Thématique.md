@@ -28,6 +28,8 @@ date: "2026-02-22"
 
 ### Sociologie de l'Éducation
 
+*Voir le développement complet : [[Thématiques/Sociologie de l'Éducation]]*
+
 **Questions:**
 - Reproduction sociale (Bourdieu & Passeron)
 - Inégalités scolaires
@@ -43,6 +45,8 @@ date: "2026-02-22"
 - Bernard Lahire (dispositions, contextes)
 
 ### Sociologie du Travail
+
+*Voir le développement complet : [[Thématiques/Sociologie du Travail]]*
 
 **Taylorisme et organisation:**
 - Taylor, fordisme

@@ -25,7 +25,7 @@ L'**existentialisme** est un courant philosophique qui affirme que chaque être 
 
 - L'être humain est **fondamentalement libre**
 - Même dans les pires conditions, on conserve liberté intérieure
-- "Condamnés à être libres" ([[.Sartre|Sartre]])
+- "Condamnés à être libres" ([[Sartre]])
 - Ne pas choisir est déjà un choix
 
 ### 3. Responsabilité absolue
@@ -72,7 +72,7 @@ L'**existentialisme** est un courant philosophique qui affirme que chaque être 
 - Angoisse révèle le néant
 - Déchéance (Verfallen): se perdre dans le "On" (das Man)
 
-### Jean-Paul [[.Sartre|Sartre]] (1905-1980)
+### Jean-Paul [[Sartre]] (1905-1980)
 **Existentialisme athée humaniste**
 - "L'existence précède l'essence"
 - Liberté absolue et responsabilité totale
