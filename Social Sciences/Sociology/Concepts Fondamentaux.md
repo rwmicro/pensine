@@ -9,35 +9,35 @@ date: "2026-02-22"
 # Concepts Fondamentaux
 
 
-*Pour des fiches détaillées, voir le dossier [[Concepts/]].*
+*Pour les fiches déjà détaillées en dossier dédié, voir `Concepts/` (pour l'instant : Habitus, L'Ordre Imaginé, Les Hiérarchies Imaginées). Les autres concepts ci-dessous sont développés dans l'aperçu synthétique de cette note, ou pour les concepts durkheimiens/wébériens dans [[Les Pères Fondateurs]].*
 
 ### Concepts Clés
 
 **Processus sociaux:**
-- **[[Concepts/Socialisation|Socialisation]]** - Intériorisation des normes et valeurs
-- **[[Concepts/Stratification Sociale|Stratification Sociale]]** - Classes, inégalités, mobilité
-- **[[Concepts/Déviance|Déviance]]** - Transgression des normes
+- **[[#Socialisation|Socialisation]]** - Intériorisation des normes et valeurs
+- **[[#Stratification Sociale|Stratification Sociale]]** - Classes, inégalités, mobilité
+- **[[#Déviance|Déviance]]** - Transgression des normes
 
 **Concepts bourdieusiens:**
 - **[[Concepts/Habitus|Habitus]]** - Dispositions durables et transposables
-- **[[Concepts/Capital|Capital]]** - Économique, culturel, social, symbolique
-- **[[Concepts/Champ|Champ]]** - Espaces sociaux structurés
-- **[[Concepts/Violence Symbolique|Violence Symbolique]]** - Domination invisible
+- **[[#Capital (Bourdieu)|Capital]]** - Économique, culturel, social, symbolique
+- **[[#Champ (Bourdieu)|Champ]]** - Espaces sociaux structurés
+- **Violence Symbolique** - Domination invisible (voir [[Grands Courants Théoriques#Sociologie Critique Française (Bourdieu)|Bourdieu]])
 
 **Concepts durkheimiens:**
-- **[[Concepts/Fait Social|Fait Social]]** - Extérieur, contraignant, général
-- **[[Concepts/Solidarité|Solidarité]]** - Mécanique vs organique
-- **[[Concepts/Anomie|Anomie]]** - Dérèglement social
+- **Fait Social** - Extérieur, contraignant, général (voir [[Les Pères Fondateurs#Émile Durkheim (1858-1917)|Durkheim]])
+- **Solidarité** - Mécanique vs organique (voir [[Les Pères Fondateurs#Émile Durkheim (1858-1917)|Durkheim]])
+- **Anomie** - Dérèglement social (voir [[Les Pères Fondateurs#Émile Durkheim (1858-1917)|Durkheim]])
 
 **Concepts wébériens:**
-- **[[Concepts/Rationalisation|Rationalisation]]** - Désenchantement du monde
-- **[[Concepts/Domination|Domination]]** - Traditionnelle, charismatique, légale-rationnelle
-- **[[Concepts/Bureaucratie|Bureaucratie]]** - Organisation rationnelle
+- **Rationalisation** - Désenchantement du monde (voir [[Les Pères Fondateurs#Max Weber (1864-1920)|Weber]])
+- **Domination** - Traditionnelle, charismatique, légale-rationnelle (voir [[Les Pères Fondateurs#Max Weber (1864-1920)|Weber]])
+- **Bureaucratie** - Organisation rationnelle (voir [[Les Pères Fondateurs#Max Weber (1864-1920)|Weber]])
 
 **Autres:**
-- **[[Concepts/Rôle Social|Rôle Social]]** - Comportements attendus
-- **[[Concepts/Institution|Institution]]** - Structures sociales stabilisées
-- **[[Concepts/Groupe Social|Groupe Social]]** - Collectifs organisés
+- **[[#Rôle Social|Rôle Social]]** - Comportements attendus
+- **[[#Institution|Institution]]** - Structures sociales stabilisées
+- **[[#Groupe Social|Groupe Social]]** - Collectifs organisés
 
 ### Aperçu Synthétique
 

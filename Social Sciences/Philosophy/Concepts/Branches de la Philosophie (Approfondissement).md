@@ -9,6 +9,8 @@ date: "2026-03-05"
 
 ### Épistémologie
 
+*Voir le développement complet : [[Épistémologie]]*
+
 **Définition**
 Science de la connaissance : comment connaissons-nous ? Qu'est-ce que la vérité ? Quelles sont les limites du savoir ?
 
@@ -91,7 +93,7 @@ Science de la connaissance : comment connaissons-nous ? Qu'est-ce que la vérit�
 - Progrès par réfutations
 
 *Paradigmes* (Thomas Kuhn)
-- [[Paradigme de Kuhn]] : Révolutions scientifiques
+- [[Épistémologie#Kuhn : les paradigmes scientifiques|Paradigme de Kuhn]] : Révolutions scientifiques
 - Science normale vs. crises
 - Incommensurabilité paradigmes
 
@@ -220,17 +222,15 @@ Science du bien et du mal, du devoir : comment doit-on agir ? Qu'est-ce qu'une v
 *Bioéthique*
 - Avortement, euthanasie, clonage
 - Recherche embryons, modifications génétiques
-- [[Medicine/Médecine - Index#Éthique Médicale]]
 
 *Éthique Environnementale*
 - Droits nature, animaux ?
 - Anthropocentrisme vs. biocentrisme
-- [[Agriculture/Agriculture - Index]], [[Meteorology/Météorologie - Index#Changement Climatique]]
 
 *Éthique Économique*
 - Justice distributive (Rawls)
 - Responsabilité entreprises
-- [[Economy/Économie - Index]], [[Economy/Capitalisme de la finitude]]
+- [[Economy/Capitalisme de la finitude|Capitalisme de la finitude]]
 
 **Universalisme vs. Relativisme**
 - **Universalisme** : Principes moraux universels (voir [[Universalisme Moral]])
@@ -335,6 +335,8 @@ Philosophie de l'art et du beau : qu'est-ce que la beauté ? Qu'est-ce que l'art
 
 
 ### Logique
+
+*Voir le développement complet : [[Logique]]*
 
 **Définition**
 Science du raisonnement valide : quelles inférences sont correctes ? Comment argumenter rigoureusement ?

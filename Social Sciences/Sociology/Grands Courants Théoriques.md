@@ -41,6 +41,8 @@ date: "2026-02-25"
 
 ### Interactionnisme Symbolique
 
+*Voir le développement complet : [[Courants/Interactionnisme Symbolique]]*
+
 **Origine:**
 - École de Chicago (1920s-1940s)
 - Pragmatisme philosophique (Peirce, James, Dewey)
