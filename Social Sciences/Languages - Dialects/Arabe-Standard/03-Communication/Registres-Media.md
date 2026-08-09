@@ -25,11 +25,11 @@ Le fuṣḥā n'est pas un bloc uniforme : il varie sensiblement selon le contex
 
 | Concept moderne | Arabe | Translit. |
 |---|---|---|
-| Démocratie | ==ديمقراطِيّة::ar== | *dīmuqrāṭiyya* (emprunt direct, rare cas) |
-| Ordinateur | ==حاسوب::ar== | *ḥāsūb* (néologisme sur racine ح-س-ب "compter") |
-| Téléphone portable | ==هاتِف مَحْمول::ar== | *hātif maḥmūl* (litt. "téléphone porté") |
-| Internet | ==إِنْتَرْنِت / الشَّبَكة::ar== | *internet* / *ash-shabaka* ("le réseau") |
-| Mondialisation | ==عَوْلَمة::ar== | *ʿawlama* (néologisme sur ʿālam, "monde") |
+| Démocratie | ![ديمقراطِيّة](audio/ar_male_35c5dca2746e.mp3) | *dīmuqrāṭiyya* (emprunt direct, rare cas) |
+| Ordinateur | ![حاسوب](audio/ar_male_c275f8948ac5.mp3) | *ḥāsūb* (néologisme sur racine ![ح](audio/ar_male_d5aafd19532c.mp3)-![س](audio/ar_male_c434c8c47a78.mp3)-![ب](audio/ar_male_abe69d49b62b.mp3) "compter") |
+| Téléphone portable | ![هاتِف مَحْمول](audio/ar_male_b2e0547667eb.mp3) | *hātif maḥmūl* (litt. "téléphone porté") |
+| Internet | ![إِنْتَرْنِت / الشَّبَكة](audio/ar_male_ef844e3fcb72.mp3) | *internet* / *ash-shabaka* ("le réseau") |
+| Mondialisation | ![عَوْلَمة](audio/ar_male_08d0151eb884.mp3) | *ʿawlama* (néologisme sur ʿālam, "monde") |
 
 ## Diglossie dans un même discours : le code-switching médiatique
 
