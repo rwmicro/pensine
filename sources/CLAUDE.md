@@ -102,13 +102,16 @@ Non gérées par ElevenLabs, aucun audio possible : ouïghour, kabyle, hakka, to
 
 ### Générer
 
-Script : `~/Desktop/script_lang_pensine/script_TTS_langues.py` (ElevenLabs, modèle `eleven_v3`).
+Le tooling est dans **`sources/tts/`** : `highlighter.py` (surligne les tableaux) puis `script_TTS_langues.py` (génère l'audio, ElevenLabs, modèle `eleven_v3`). Détails : `sources/tts/README.md`.
 
 ```
-python script_TTS_langues.py "<dossier du vault, ou d'une langue>"
+cd sources/tts
+python highlighter.py "../../Social Sciences/Languages - Dialects" --apply   # surligne
+python script_TTS_langues.py "../../Social Sciences/Languages - Dialects/<Langue>"  # génère
 ```
 
-- Clé API : variable `ELEVENLABS_API_KEY`, ou fichier `.env` à côté du script.
+- Ajouter une langue = une ligne dans le `CONFIG` de `highlighter.py` et le `LANGUAGES` du script.
+- Clé API : variable `ELEVENLABS_API_KEY`, ou fichier `sources/tts/.env` (gitignoré).
 - Idempotent : une fois converti en `![...](audio/…)`, un terme n'est pas regénéré.
 - Attention : le `cache_key` n'inclut pas le voice_id. Si tu changes une voix, purge le `.tts_audio_cache/` et les dossiers `audio/` de la langue avant de relancer, sinon les anciens clips (mauvaise voix) sont réutilisés.
 
