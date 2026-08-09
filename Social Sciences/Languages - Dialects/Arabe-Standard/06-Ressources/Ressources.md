@@ -41,7 +41,7 @@ En pratique, la plupart des apprenants sérieux finissent par acquérir les deux
 
 ## Prononciation audio (feature learn-nebula)
 
-Ce dossier utilise le code de langue `ar` du système TTS du vault (voir `sources/CLAUDE.md`), distinct de `ar-lb` pour l'arabe libanais. Les termes surlignés avec `==terme::ar==` dans ce dossier peuvent être convertis en clips audio via `script_TTS_langues.py`, sur le même principe que pour les autres langues du vault.
+Ce dossier utilise le code de langue `ar` du système TTS du vault (voir `sources/CLAUDE.md`), distinct de `ar-lb` pour l'arabe libanais. Les termes surlignés avec `![terme](audio/ar_male_cb03d56ff745.mp3)` dans ce dossier peuvent être convertis en clips audio via `script_TTS_langues.py`, sur le même principe que pour les autres langues du vault.
 
 ## Pour aller plus loin dans le vault
 

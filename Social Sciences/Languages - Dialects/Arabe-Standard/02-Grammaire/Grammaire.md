@@ -33,8 +33,8 @@ Le fuṣḥā admet deux structures de phrase fondamentales, contrairement au fr
 
 | Type | Structure | Exemple |
 |---|---|---|
-| **Phrase nominale** (jumla ismiyya) | Sujet + Prédicat, **sans copule** au présent | البَيْتُ كَبيرٌ *al-baytu kabīrun* — "la maison [est] grande" |
-| **Phrase verbale** (jumla fi'liyya) | Verbe + Sujet + Complément (ordre VSO privilégié en fuṣḥā classique, SVO fréquent en usage moderne) | كَتَبَ الوَلَدُ رِسالةً *kataba l-waladu risālatan* — "a-écrit le-garçon une-lettre" |
+| **Phrase nominale** (jumla ismiyya) | Sujet + Prédicat, **sans copule** au présent | ![البَيْتُ كَبيرٌ](audio/ar_male_028a274c586e.mp3) *al-baytu kabīrun* — "la maison [est] grande" |
+| **Phrase verbale** (jumla fi'liyya) | Verbe + Sujet + Complément (ordre VSO privilégié en fuṣḥā classique, SVO fréquent en usage moderne) | ![كَتَبَ الوَلَدُ رِسالةً](audio/ar_male_4a2e6d772834.mp3) *kataba l-waladu risālatan* — "a-écrit le-garçon une-lettre" |
 
 Il n'existe pas de verbe "être" au présent en arabe : "je suis étudiant" se dit simplement أَنا طالِبٌ *anā ṭālibun* ("moi étudiant").
 
@@ -44,9 +44,9 @@ Trait le plus caractéristique du fuṣḥā face aux dialectes modernes (qui l'
 
 | Cas | Voyelle finale | Fonction | Exemple |
 |---|---|---|---|
-| **Nominatif** (marfū') | -u / -un | Sujet, attribut | البَيْتُ *al-baytu* (la maison, sujet) |
-| **Accusatif** (manṣūb) | -a / -an | Complément d'objet direct, de nombreux compléments circonstanciels | البَيْتَ *al-bayta* (la maison, COD) |
-| **Génitif** (majrūr) | -i / -in | Complément de nom, complément prépositionnel | البَيْتِ *al-bayti* (de la maison / dans la maison) |
+| **Nominatif** (marfū') | -u / -un | Sujet, attribut | ![البَيْتُ](audio/ar_male_c4f3c76149ef.mp3) *al-baytu* (la maison, sujet) |
+| **Accusatif** (manṣūb) | -a / -an | Complément d'objet direct, de nombreux compléments circonstanciels | ![البَيْتَ](audio/ar_male_562000bb4179.mp3) *al-bayta* (la maison, COD) |
+| **Génitif** (majrūr) | -i / -in | Complément de nom, complément prépositionnel | ![البَيْتِ](audio/ar_male_eac1c6b01fb9.mp3) *al-bayti* (de la maison / dans la maison) |
 
 Le **tanwīn** (les terminaisons -un/-an/-in, voir [[01-Phonologie/Alphabet-Prononciation#Les voyelles courtes|Voyelles courtes]]) marque l'indéfini ; sans tanwīn, un nom précédé de l'article ال *al-* (le/la) est défini. Ce système, omniprésent à l'écrit vocalisé et dans la récitation coranique, disparaît presque totalement à l'oral courant, même formel — la plupart des locuteurs contemporains ne le prononcent plus systématiquement en parlant, tout en le maîtrisant à l'écrit soutenu.
 
@@ -54,11 +54,11 @@ Le **tanwīn** (les terminaisons -un/-an/-in, voir [[01-Phonologie/Alphabet-Pron
 
 | Nombre | Marque | Exemple |
 |---|---|---|
-| **Singulier** | — | كِتاب *kitāb* (un livre) |
-| **Duel** (deux éléments exactement) | ‑ān (nominatif) / ‑ayn (accusatif-génitif) | كِتابانِ *kitābāni* / كِتابَيْنِ *kitābayni* (deux livres) |
-| **Pluriel régulier masculin** | ‑ūn / ‑īn | مُدَرِّسونَ *mudarrisūn* (professeurs) |
-| **Pluriel régulier féminin** | ‑āt | مُدَرِّساتٌ *mudarrisātun* (professeures) |
-| **Pluriel brisé (irrégulier)** | changement interne du schème, à mémoriser mot par mot | كِتاب → كُتُب *kitāb → kutub* (livre → livres) |
+| **Singulier** | — | ![كِتاب](audio/ar_male_51e261413c20.mp3) *kitāb* (un livre) |
+| **Duel** (deux éléments exactement) | ‑ān (nominatif) / ‑ayn (accusatif-génitif) | ![كِتابانِ](audio/ar_male_6841d0614dd7.mp3) *kitābāni* / ![كِتابَيْنِ](audio/ar_male_177a18c28d18.mp3) *kitābayni* (deux livres) |
+| **Pluriel régulier masculin** | ‑ūn / ‑īn | ![مُدَرِّسونَ](audio/ar_male_30420b5f37a3.mp3) *mudarrisūn* (professeurs) |
+| **Pluriel régulier féminin** | ‑āt | ![مُدَرِّساتٌ](audio/ar_male_c9f91936c546.mp3) *mudarrisātun* (professeures) |
+| **Pluriel brisé (irrégulier)** | changement interne du schème, à mémoriser mot par mot | ![كِتاب](audio/ar_male_51e261413c20.mp3) → ![كُتُب](audio/ar_male_e7b8515e1a07.mp3) *kitāb → kutub* (livre → livres) |
 
 Le **duel**, pleinement productif en fuṣḥā (tout nom peut recevoir une forme duelle dès qu'on parle de deux éléments précis), a quasiment disparu des dialectes modernes, où il ne subsiste que sur une poignée de mots figés (par exemple pour les parties du corps allant par paire).
 
@@ -70,8 +70,8 @@ Contrairement au français, la conjugaison arabe distingue avant tout deux **asp
 
 | Aspect | Valeur | Exemple (racine ك-ت-ب) |
 |---|---|---|
-| **Accompli** (al-māḍī) | Action achevée — proche du passé | كَتَبَ *kataba* (il a écrit) |
-| **Inaccompli** (al-muḍāri') | Action en cours ou non achevée — proche du présent/futur | يَكْتُبُ *yaktubu* (il écrit) |
+| **Accompli** (al-māḍī) | Action achevée — proche du passé | ![كَتَبَ](audio/ar_male_c4c9f7565e29.mp3) *kataba* (il a écrit) |
+| **Inaccompli** (al-muḍāri') | Action en cours ou non achevée — proche du présent/futur | ![يَكْتُبُ](audio/ar_male_f3d3a62c1263.mp3) *yaktubu* (il écrit) |
 
 L'inaccompli se conjugue par **préfixes et suffixes** combinés (contrairement à l'accompli, conjugué seulement par suffixes) :
 
@@ -90,15 +90,15 @@ Comme dans les dialectes, une racine trilitère de base (Forme I) peut être "au
 
 | Forme | Sens typique | Exemple (racine د-ر-س, "étudier") |
 |---|---|---|
-| I | sens de base | دَرَسَ *darasa* — il a étudié |
-| II (doublement de la 2e radicale) | causatif/intensif | دَرَّسَ *darrasa* — il a enseigné (fait étudier) |
+| I | sens de base | ![دَرَسَ](audio/ar_male_19f60f5a719f.mp3) *darasa* — il a étudié |
+| II (doublement de la 2e radicale) | causatif/intensif | ![دَرَّسَ](audio/ar_male_187c6a971087.mp3) *darrasa* — il a enseigné (fait étudier) |
 | III (allongement après 1re radicale) | réciprocité, effort vers | — |
-| IV (préfixe ʾa-) | causatif | أَدْرَسَ *adrasa* |
-| V (préfixe ta- + Forme II) | réfléchi/passif de II | تَدَرَّسَ *tadarrasa* |
+| IV (préfixe ʾa-) | causatif | ![أَدْرَسَ](audio/ar_male_492bc79bcaf3.mp3) *adrasa* |
+| V (préfixe ta- + Forme II) | réfléchi/passif de II | ![تَدَرَّسَ](audio/ar_male_cc502c45cdee.mp3) *tadarrasa* |
 | VI (préfixe ta- + Forme III) | réciproque | — |
-| VII (préfixe in-) | passif/réfléchi | اِنْدَرَسَ *indarasa* |
+| VII (préfixe in-) | passif/réfléchi | ![اِنْدَرَسَ](audio/ar_male_c9c61a738fb2.mp3) *indarasa* |
 | VIII (infixe ‑t‑ après 1re radicale) | réfléchi | — |
-| X (préfixe ista-) | demande, recherche de l'action | اِسْتَدْرَسَ *istadrasa* — approx. "il a cherché à étudier" |
+| X (préfixe ista-) | demande, recherche de l'action | ![اِسْتَدْرَسَ](audio/ar_male_d93edb0f979d.mp3) *istadrasa* — approx. "il a cherché à étudier" |
 
 Système identique dans son principe à celui décrit pour l'arabe libanais — voir [[Arabe-Libanais/02-Grammaire/Formes-Derivees|Formes Dérivées — Arabe Libanais]] — mais toutes les dix formes restent pleinement productives et enseignées systématiquement en fuṣḥā, alors que l'usage dialectal en a réduit et parfois refondu l'inventaire.
 
@@ -106,10 +106,10 @@ Système identique dans son principe à celui décrit pour l'arabe libanais — 
 
 | Contexte | Particule | Exemple |
 |---|---|---|
-| Phrase nominale, présent | لَيْسَ *laysa* | لَيْسَ الجَوُّ بارِداً *laysa l-jawwu bāridan* — "il ne fait pas froid" |
-| Verbe à l'accompli | ما *mā* | ما كَتَبَ *mā kataba* — "il n'a pas écrit" |
-| Verbe à l'inaccompli (présent) | لا *lā* | لا يَكْتُبُ *lā yaktubu* — "il n'écrit pas" |
-| Passé (avec jussif) | لَمْ *lam* + inaccompli jussif | لَمْ يَكْتُبْ *lam yaktub* — "il n'a pas écrit" |
-| Futur | لَنْ *lan* + inaccompli subjonctif | لَنْ يَكْتُبَ *lan yaktuba* — "il n'écrira pas" |
+| Phrase nominale, présent | ![لَيْسَ](audio/ar_male_8b1cb75ac51f.mp3) *laysa* | ![لَيْسَ الجَوُّ بارِداً](audio/ar_male_6836d02991de.mp3) *laysa l-jawwu bāridan* — "il ne fait pas froid" |
+| Verbe à l'accompli | ![ما](audio/ar_male_87ebff590e10.mp3) *mā* | ![ما كَتَبَ](audio/ar_male_2a554ce6bb08.mp3) *mā kataba* — "il n'a pas écrit" |
+| Verbe à l'inaccompli (présent) | ![لا](audio/ar_male_d46d980e52b9.mp3) *lā* | ![لا يَكْتُبُ](audio/ar_male_968597096cda.mp3) *lā yaktubu* — "il n'écrit pas" |
+| Passé (avec jussif) | ![لَمْ](audio/ar_male_ddc278c59d15.mp3) *lam* + inaccompli jussif | ![لَمْ يَكْتُبْ](audio/ar_male_e82621aaef92.mp3) *lam yaktub* — "il n'a pas écrit" |
+| Futur | ![لَنْ](audio/ar_male_e57a4fd8f777.mp3) *lan* + inaccompli subjonctif | ![لَنْ يَكْتُبَ](audio/ar_male_1ca0c2e1e29b.mp3) *lan yaktuba* — "il n'écrira pas" |
 
 Système plus riche et plus différencié selon le temps/aspect que la négation dialectale (voir [[Arabe-Libanais/02-Grammaire/Negation|Négation — Arabe Libanais]], centrée sur mā/mish).
