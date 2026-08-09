@@ -86,7 +86,7 @@ Ce vault parallèle est conçu pour la culture générale et la réflexion perso
 | Fichier Culture G | Note de référence vault |
 |---|---|
 | Stoïcisme — Culture G | [[Courants & Écoles/Stoïcisme]] |
-| Existentialisme — Culture G | [[Courants & Écoles/Existentialism]] |
+| Existentialisme — Culture G | [[Courants & Écoles/Existentialisme|Existentialisme]] |
 | Nietzsche — Culture G | [[Philosophes/Nietzsche]] |
 | Rationalisme & Empirisme | [[Courants & Écoles/Rationalisme]], [[Courants & Écoles/Empirisme]] |
 | Éthique | [[Courants & Écoles/Conséquentialisme]], [[Courants & Écoles/Utilitarisme]] |

@@ -8,7 +8,7 @@ date: "2026-04-12"
 
 # Existentialisme — Synthèse Culture G
 
-*Note : la fiche de référence complète se trouve dans [[Courants & Écoles/Existentialism]].*
+*Note : la fiche de référence complète se trouve dans [[Courants & Écoles/Existentialisme|Existentialisme]].*
 
 ## 5 idées à retenir
 

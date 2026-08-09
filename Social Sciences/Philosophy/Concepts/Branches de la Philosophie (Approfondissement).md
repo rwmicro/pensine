@@ -9,6 +9,8 @@ date: "2026-03-05"
 
 ### Épistémologie
 
+*Voir le développement complet : [[Épistémologie]]*
+
 **Définition**
 Science de la connaissance : comment connaissons-nous ? Qu'est-ce que la vérité ? Quelles sont les limites du savoir ?
 
@@ -91,7 +93,7 @@ Science de la connaissance : comment connaissons-nous ? Qu'est-ce que la vérit�
 - Progrès par réfutations
 
 *Paradigmes* (Thomas Kuhn)
-- [[Paradigme de Kuhn]] : Révolutions scientifiques
+- [[Épistémologie#Kuhn : les paradigmes scientifiques|Paradigme de Kuhn]] : Révolutions scientifiques
 - Science normale vs. crises
 - Incommensurabilité paradigmes
 
@@ -220,17 +222,15 @@ Science du bien et du mal, du devoir : comment doit-on agir ? Qu'est-ce qu'une v
 *Bioéthique*
 - Avortement, euthanasie, clonage
 - Recherche embryons, modifications génétiques
-- [[Medicine/Médecine - Index#Éthique Médicale]]
 
 *Éthique Environnementale*
 - Droits nature, animaux ?
 - Anthropocentrisme vs. biocentrisme
-- [[Agriculture/Agriculture - Index]], [[Meteorology/Météorologie - Index#Changement Climatique]]
 
 *Éthique Économique*
 - Justice distributive (Rawls)
 - Responsabilité entreprises
-- [[Economy/Économie - Index]], [[Economy/Capitalisme de la finitude]]
+- [[Economy/Capitalisme de la finitude|Capitalisme de la finitude]]
 
 **Universalisme vs. Relativisme**
 - **Universalisme** : Principes moraux universels (voir [[Universalisme Moral]])
@@ -336,6 +336,8 @@ Philosophie de l'art et du beau : qu'est-ce que la beauté ? Qu'est-ce que l'art
 
 ### Logique
 
+*Voir le développement complet : [[Logique]]*
+
 **Définition**
 Science du raisonnement valide : quelles inférences sont correctes ? Comment argumenter rigoureusement ?
 
@@ -417,4 +419,58 @@ Science du raisonnement valide : quelles inférences sont correctes ? Comment ar
 
 *Paradoxe Sorite*
 - Tas sable : Enlever grain, toujours tas ? (vague)
+
+
+### Philosophie Politique
+
+*Voir le développement complet : [[Philosophie Politique]]*
+
+**Définition**
+Fondements légitimes du pouvoir et de l'organisation collective : pourquoi obéir à l'État ? Qu'est-ce qu'une société juste ?
+
+**Questions Centrales**
+- Contrat social : Hobbes, Locke, Rousseau
+- Justice : Rawls (voile d'ignorance) vs Nozick (État minimal)
+- Grandes familles idéologiques : libéralisme, socialisme, anarchisme, communautarisme
+- Légitimité de la démocratie, pouvoir chez Foucault, réalisme chez Machiavel
+
+
+### Philosophie de l'Esprit
+
+*Voir le développement complet : [[Philosophie de l'Esprit]]*
+
+**Définition**
+Nature de la conscience et rapport esprit-corps : comment un cerveau physique produit-il une expérience subjective ?
+
+**Questions Centrales**
+- Dualisme (Descartes) vs physicalisme vs fonctionnalisme
+- Le problème difficile de la conscience (Chalmers), qualia, zombies philosophiques
+- Chambre chinoise (Searle), intentionnalité, intelligence artificielle
+- Identité personnelle à travers le temps (Locke, Parfit)
+
+
+### Philosophie du Langage
+
+*Voir le développement complet : [[Philosophie du Langage]]*
+
+**Définition**
+Comment les mots signifient et réfèrent : rapport entre langage, pensée et monde.
+
+**Questions Centrales**
+- Sens et référence (Frege), théorie des descriptions (Russell)
+- Jeux de langage et usage (second Wittgenstein)
+- Actes de langage (Austin, Searle), noms propres et nécessité (Kripke)
+
+
+### Philosophie de la Religion
+
+*Voir le développement complet : [[Philosophie de la Religion]]*
+
+**Définition**
+Examen rationnel de la croyance religieuse : Dieu existe-t-il ? Comment concilier un Dieu bon et le mal ?
+
+**Questions Centrales**
+- Preuves de l'existence de Dieu (ontologique, cosmologique, téléologique, morale) et leurs critiques
+- Le problème du mal et les théodicées
+- Foi et raison : fidéisme (Pascal, Kierkegaard) vs rationalisme théiste (Thomas d'Aquin)
 

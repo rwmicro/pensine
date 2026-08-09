@@ -1,7 +1,7 @@
 ---
 title: "Le Regard des Autres (Sartre)"
 domain: "Social Sciences"
-subdomain: "Philosophy > Philosophes"
+subdomain: "Philosophy > Concepts"
 tags: [sciences-sociales, philosophie]
 date: "2025-12-31"
 ---
