@@ -193,7 +193,7 @@ Nietzsche diagnostique le nihilisme mais propose de le **traverser** pour créer
 ## Relations Philosophiques
 
 - **Influencé par :** Schopenhauer (volonté), Grecs présocratiques (Héraclite), Wagner
-- **A influencé :** [[Existentialism|Existentialisme]] ([[Sartre]], [[Camus]]), Freud, Heidegger, [[Foucault]], Derrida, postmodernisme
+- **A influencé :** [[Existentialisme]] ([[Sartre]], [[Camus]]), Freud, Heidegger, [[Foucault]], Derrida, postmodernisme
 - **Mouvement :** Souvent classé avec l'existentialisme, bien qu'antérieur
 
 ## Héritage

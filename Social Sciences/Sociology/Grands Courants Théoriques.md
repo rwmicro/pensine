@@ -41,6 +41,8 @@ date: "2026-02-25"
 
 ### Interactionnisme Symbolique
 
+*Voir le développement complet : [[Courants/Interactionnisme Symbolique]]*
+
 **Origine:**
 - École de Chicago (1920s-1940s)
 - Pragmatisme philosophique (Peirce, James, Dewey)
@@ -169,6 +171,8 @@ date: "2026-02-25"
 - *L'Œuvre d'art à l'époque de sa reproductibilité technique*
 
 ### Sociologie Critique Française (Bourdieu)
+
+*Voir le développement complet : [[Fondateurs/Pierre Bourdieu]]*
 
 **Pierre Bourdieu (1930-2002):**
 - Sociologue le plus influent du XXe siècle (France)

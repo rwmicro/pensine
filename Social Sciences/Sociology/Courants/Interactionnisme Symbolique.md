@@ -96,6 +96,8 @@ Courant sociologique américain centré sur les interactions sociales et la cons
 
 ## Erving Goffman (1922-1982)
 
+*Voir le développement complet : [[Fondateurs/Erving Goffman]]*
+
 **Sociologue canadien:**
 - Formation à Chicago
 - Professeur à Berkeley puis Pennsylvanie

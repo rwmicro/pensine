@@ -12,6 +12,8 @@ Si Durkheim, Weber et Marx sont les fondateurs de la sociologie, la discipline a
 
 ## Pierre Bourdieu (1930-2002)
 
+*Voir le développement complet : [[Fondateurs/Pierre Bourdieu|Pierre Bourdieu]]*
+
 Le sociologue français le plus influent de la seconde moitié du XXe siècle. Sa question centrale : **comment les inégalités se reproduisent-elles malgré l'idéal méritocratique ?**
 
 ### Concepts clés
@@ -76,6 +78,8 @@ Sociologue espagnol, auteur de la trilogie *L'Ere de l'information* (1996-1998).
 | **Identité** | Face à la globalisation, les identités locales, religieuses et ethniques se renforcent comme formes de résistance |
 
 ## Erving Goffman (1922-1982)
+
+*Voir le développement complet : [[Fondateurs/Erving Goffman|Erving Goffman]]*
 
 Sociologue canadien, fondateur de l'**interactionnisme dramaturgique**. Il analyse la vie sociale comme un **théâtre** où chaque individu joue un rôle.
 

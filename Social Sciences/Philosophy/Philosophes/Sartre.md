@@ -10,7 +10,7 @@ date: "2025-12-31"
 
 ## Contexte Biographique
 
-Philosophe français, figure majeure de l'[[Existentialism|existentialisme]]. Écrivain, dramaturge, critique littéraire, militant politique. Compagnon de Simone de Beauvoir. Prix Nobel de littérature 1964 (qu'il a **refusé**). Intellectuel engagé : résistance, marxisme, décolonisation, Mai 68.
+Philosophe français, figure majeure de l'[[Existentialisme|existentialisme]]. Écrivain, dramaturge, critique littéraire, militant politique. Compagnon de Simone de Beauvoir. Prix Nobel de littérature 1964 (qu'il a **refusé**). Intellectuel engagé : résistance, marxisme, décolonisation, Mai 68.
 
 ## Œuvres Majeures
 
@@ -208,7 +208,7 @@ Rupture publique et violente après *L'Homme révolté* de Camus.
 
 - **Influencé par :** [[Nietzsche]], Heidegger, Husserl (phénoménologie), [[Hegel]], [[Marxisme|Marx]]
 - **A influencé :** Existentialisme français, [[Beauvoir]], Frantz Fanon, féminisme, mouvement de décolonisation
-- **Mouvement :** [[Existentialism|Existentialisme]] athée
+- **Mouvement :** [[Existentialisme]] athée
 
 ## Critiques
 
