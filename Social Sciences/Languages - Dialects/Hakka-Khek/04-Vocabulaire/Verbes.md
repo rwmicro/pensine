@@ -46,14 +46,14 @@ date: "2025-12-31"
 | Cook         | cu choi    |
 
 ### Work and Learning
-| English         | Hakka         | Dialect Notes |
-|-----------------|---------------|---------------|
-| Work            | jiu co se [WK] / cho se | Both forms used in WK |
-| Study (university) | kuliah [ID] | **Indonesian loanword!** |
-| Learn           | hok [WK] / khau shu | hok more common in ID Hakka |
-| Go to school    | thuk shu [WK] | Traditional term |
-| Test            | khau she [WK] | - |
-| Build           | hong shin [WK]| - |
+| English            | Hakka                   | Dialect Notes               |
+| ------------------ | ----------------------- | --------------------------- |
+| Work               | jiu co se [WK] / cho se | Both forms used in WK       |
+| Study (university) | kuliah [ID]             | **Indonesian loanword!**    |
+| Learn              | hok [WK] / khau shu     | hok more common in ID Hakka |
+| Go to school       | thuk shu [WK]           | Traditional term            |
+| Test               | khau she [WK]           | -                           |
+| Build              | hong shin [WK]          | -                           |
 
 ### Transactions
 | English   | Hakka         |
@@ -64,16 +64,16 @@ date: "2025-12-31"
 | Give      | phoi          |
 
 ### Other Actions
-| English      | Hakka         |
-|--------------|---------------|
-| Put          | piong         |
-| Search/look for | chim       |
-| Wait         | kai bui       |
-| Prepare      | cun phin      |
-| Do/make      | mek           |
-| Complete     | pau / co to   |
-| Die          | si            |
-| Forgot       | eng ki tet    |
+| English         | Hakka       |
+| --------------- | ----------- |
+| Put             | piong       |
+| Search/look for | chim        |
+| Wait            | kai bui     |
+| Prepare         | cun phin    |
+| Do/make         | mek         |
+| Complete        | pau / co to |
+| Die             | si          |
+| Forgot          | eng ki tet  |
 
 ### Personal Care
 | English      | Hakka         | Dialect Notes |

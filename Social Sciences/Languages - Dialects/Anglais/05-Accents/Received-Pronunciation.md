@@ -5,7 +5,6 @@ subdomain: "Languages - Dialects > Anglais > Accents"
 tags: [sciences-sociales, langues, anglais]
 date: "2025-06-26"
 ---
-
 # Received Pronunciation (RP)
 
 La Received Pronunciation, aussi appelée **"BBC English"** ou **"Queen's English"**, est l'accent standard du britannique. C'est l'accent qu'on entend dans les films britanniques classiques, à la BBC, ou chez les membres de la famille royale.
