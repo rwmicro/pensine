@@ -5,7 +5,6 @@ subdomain: "Computer Science > Architecture Logicielle"
 tags: [sciences-appliquées, informatique]
 date: "2026-02-24"
 ---
-
 # Architecture Logicielle
 
 L'architecture logicielle désigne la structure de haut niveau d'un système : ses composants, leurs responsabilités, leurs interactions, et les décisions structurantes qui guident tout le développement.

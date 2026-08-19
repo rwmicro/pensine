@@ -10,7 +10,6 @@ date: "2025-06-26"
 
 Le **Cockney** est l'accent et le dialecte des classes ouvrières de l'**East End de Londres**. Historiquement, un vrai Cockney est quelqu'un né à portée du son des cloches de l'église St Mary-le-Bow à Cheapside. Aujourd'hui, le terme désigne plus largement l'accent populaire londonien.
 
-
 ## Histoire
 
 - Origines au **XIXe siècle** dans les quartiers ouvriers du East End (Whitechapel, Stepney, Bethnal Green)

@@ -5,7 +5,6 @@ subdomain: "Languages - Dialects > Sambas"
 tags: [sciences-sociales, langues, sambas]
 date: "2025-06-26"
 ---
-
 # Histoire du Sambas
 
 Le Sambas est une langue (ou dialecte) de la famille **malayo-polynésienne**, parlée principalement dans la région de **Sambas**, au nord-ouest de Bornéo (province de Kalimantan Occidental, Indonésie).

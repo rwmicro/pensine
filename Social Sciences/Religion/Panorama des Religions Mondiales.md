@@ -5,7 +5,6 @@ subdomain: "Religion"
 tags: [sciences-sociales, religion, christianisme, islam, hindouisme, bouddhisme, judaïsme]
 date: "2026-04-16"
 ---
-
 # Panorama des Religions Mondiales
 
 Les religions structurent la vie de plus de 80 % de la population mondiale. Cette note présente les grandes familles religieuses, leurs fondements, leur géographie et leurs rapports.

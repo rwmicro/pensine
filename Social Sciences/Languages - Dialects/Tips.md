@@ -100,19 +100,6 @@ flowchart TD
 - Mettre les interfaces des applications (téléphone, ordinateur) dans la langue cible
 - Chercher des partenaires d'échange linguistique (tandem)
 
-## Structure des notes de langue dans ce vault
-
-Chaque langue suit la même structure :
-
-| Dossier | Contenu |
-|---------|---------|
-| `01-Phonologie/` | Alphabet, sons, prononciation, tons |
-| `02-Grammaire/` | Structure de phrase, pronoms, verbes, morphologie |
-| `03-Communication/` | **Phrases-Essentielles.md** + **Registres.md** + expressions |
-| `04-Vocabulaire/` | Vocabulaire thématique et par domaine |
-| `05-Culture/` | Histoire, culture, dialectes régionaux |
-| `06-Ressources/` | Liens, méthodes, certifications |
-
 ## En mémoire de laoshu505000
 
 https://www.youtube.com/watch?v=CKp8Q8F_4bc

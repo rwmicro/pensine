@@ -5,7 +5,7 @@ subdomain: "Languages - Dialects"
 tags: [sciences-sociales, langues, polyglottisme, strategies, apprentissage, methodologie]
 date: "2026-04-28"
 ---
-# Stratégies Polyglottes — Apprendre et Maintenir Plusieurs Langues
+# Stratégies Polyglottes - Apprendre et Maintenir Plusieurs Langues
 
 Apprendre et **maintenir** plusieurs langues simultanément ou en séquence demande des stratégies différentes de l'apprentissage d'une seule. Ce fichier rassemble les principes éprouvés par les polyglottes contemporains (Steve Kaufmann, Luca Lampariello, Olly Richards, Lýdia Machová, Stuart Jay Raj, Pablo Roman, Robin MacPherson...).
 
@@ -18,17 +18,6 @@ Apprendre et **maintenir** plusieurs langues simultanément ou en séquence dema
 | Bilingue équilibré | Maîtrise égale de 2 langues |
 | Bilingue dominant | Une langue plus forte que l'autre |
 | Multilingue passif | Comprend plusieurs langues mais ne parle qu'une ou deux |
-
-## Pourquoi apprendre plusieurs langues
-
-| Bénéfice | Recherches |
-|----------|-----------|
-| Cognition | Délai de la démence (Alzheimer) de 4-5 ans (Bialystok 2007) |
-| Flexibilité mentale | Meilleure attention sélective, switch de tâches |
-| Empathie culturelle | Accès direct aux mentalités d'autres peuples |
-| Ouverture professionnelle | Marché du travail plus large |
-| Voyage profond | Contact authentique vs touristique |
-| Plaisir intellectuel | Découverte continue, jeux d'esprit |
 
 ## Les 5 grands principes
 
