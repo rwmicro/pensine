@@ -3,7 +3,7 @@ title: "Animals and Nature"
 domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Vocabulary"
 tags: [sciences-sociales, langues, hakka]
-date: "2025-12-31"
+date: "2026-08-21"
 ---
 
 # Animals and Nature
@@ -23,6 +23,31 @@ date: "2025-12-31"
 | Turtle   | kui        |
 | Goat     | jong       |
 
+## Autres animaux [PTK]
+
+Source : liste de vocabulaire Pontianak, voir 05-Culture/Dialectes-Regionaux.md pour les sources détaillées.
+
+| English      | Hakka        |
+|--------------|--------------|
+| Tiger        | lo fu        |
+| Rabbit       | thu          |
+| Goose        | ngo          |
+| Dragon       | liung / liong |
+| Monkey       | hew          |
+| Lizard       | jam sa       |
+| Cockroach    | ki chat      |
+| Snake        | sa           |
+| Shark        | sak eng      |
+| Frog         | ha ma        |
+| Shrimp       | ha kung      |
+| Crab         | lo hai       |
+| Rat          | lo tjhu      |
+| Shrew        | tjhien tjhu  |
+| Mackerel/Spanish mackerel | ma kau eng |
+| Worm/caterpillar | tjhung   |
+| Fly          | bu jin       |
+| Mosquito     | mun          |
+
 ## Natural World
 
 | English      | Hakka      |
@@ -35,6 +60,7 @@ date: "2025-12-31"
 | Garden       | choi jan   |
 | Sun          | ngiat thew |
 | Moon/Month   | ngiat kong |
+| Tree         | su [PTK]   |
 
 ## Temperature and Conditions
 

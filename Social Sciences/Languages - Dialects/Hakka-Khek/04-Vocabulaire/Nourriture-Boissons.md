@@ -3,7 +3,7 @@ title: "Food and Drinks Vocabulary"
 domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Vocabulary"
 tags: [sciences-sociales, langues, hakka]
-date: "2025-12-31"
+date: "2026-08-21"
 ---
 
 # Food and Drinks Vocabulary
@@ -39,6 +39,11 @@ date: "2025-12-31"
 | Pear       | xiang li   |
 | Cassava    | fan su     |
 | Peanut     | thew       |
+| Grape      | fu tho [PTK] |
+| Apple      | phin kuo [PTK] |
+| Seed/pit   | fut [PTK]  |
+| Lychee (Singkawang) | lì-chi / lici [SKW] |
+| Kumquat, medicinal (Singkawang) | kim-kit / kingkit [SKW] |
 
 ## Drinks
 
@@ -65,6 +70,12 @@ date: "2025-12-31"
 |------------|------------|
 | Ice        | siet       |
 | Egg        | (to add)   |
+| Tofu (Singkawang) | 豆腐 thèu-fù / tofu [SKW] |
+| Chinese cabbage (Singkawang) | 白菜 pa̍k-tshói / pakcoi [SKW] |
+| Fermented black soybean paste (Singkawang) | 豆豉 thèu-shí / taosi [SKW] |
+| New Year cake (Singkawang) | 年糕 nyên-kao / nienkao [SKW] |
+| Round glutinous rice cake (Singkawang) | 饼 piàng / piang [SKW] |
+| Sea cucumber (Singkawang) | 海参 hòi-sem / hoisem [SKW] |
 
 ## Eating and Drinking Verbs
 
@@ -82,6 +93,7 @@ All use **sit** (eat/drink):
 | Drink tea               | sit tjha          |
 | Drink sweet tea         | sit thiam-tjha    |
 | Drink cold water        | sit lang-sui      |
+| Drink alcohol           | sit ciu [PTK]     |
 
 ## Food Preparation
 

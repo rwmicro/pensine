@@ -3,7 +3,7 @@ title: "Common Words and Basic Vocabulary"
 domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Vocabulary"
 tags: [sciences-sociales, langues, hakka]
-date: "2025-12-31"
+date: "2026-08-21"
 ---
 
 # Common Words and Basic Vocabulary
@@ -43,6 +43,21 @@ date: "2025-12-31"
 | How many          | ki to [WK] / kit-to / to-sau | - |
 | What time         | kit to tiam [WK] / jit to tiam | - |
 | How much (price)  | jit to lui [WK]              | Universal pattern |
+
+## Colors [WK]
+
+Source : vocabulaire généraliste West Kalimantan (ville non précisée), voir 05-Culture/Dialectes-Regionaux.md.
+
+| English | Hakka |
+|---------|-------|
+| Black   | bhu   |
+| White   | bhak  |
+| Yellow  | bong  |
+| Red     | fung  |
+| Green   | jhiang |
+| Blue    | lan   |
+
+**Attention (fung) :** ce mot a au moins trois sens attestés selon le ton et la ville — "rouge" dans ce tableau (source généraliste), mais "vent" en hakka de Singkawang et "enfumer" en hakka de Pontianak (ton 4). La romanisation utilisée ici ne note pas les tons — voir la mise en garde complète dans 05-Culture/Dialectes-Regionaux.md.
 
 ## Conjunctions and Connectors
 

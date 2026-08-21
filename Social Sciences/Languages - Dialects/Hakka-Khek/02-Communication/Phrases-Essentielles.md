@@ -3,7 +3,7 @@ title: "Phrases Essentielles — Hakka (West Kalimantan)"
 domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > 03-Communication"
 tags: [sciences-sociales, langues, hakka, survie, communication]
-date: "2026-03-27"
+date: "2026-08-21"
 ---
 # Phrases Essentielles — Hakka (West Kalimantan / Pontianak)
 
@@ -17,7 +17,7 @@ Variété Hakka de Kalimantan occidental (Borneo). Translittération phonétique
 | Comment vas-tu ? | Nyi ho mo? | Question standard |
 | Je vais bien | Ngai ho | Réponse standard |
 | Et toi ? | Nyi na? | |
-| As-tu mangé ? | Nyi sit pau mang? | Salutation culturelle typique |
+| As-tu mangé ? | Nyi sit pau mang? | Salutation culturelle typique. Variante attestée [PTK] : *Nyi sit fon mang?* (litt. "as-tu mangé du riz"), à ne pas confondre avec *shit fon*, forme Singkawang/Bangka [SKW] — voir 05-Culture/Dialectes-Regionaux.md |
 | J'ai mangé | Sit pau | Réponse affirmative |
 | Pas encore mangé | Ngai mang sit | |
 | Content de te voir | Fan hi nyi to nyi | |

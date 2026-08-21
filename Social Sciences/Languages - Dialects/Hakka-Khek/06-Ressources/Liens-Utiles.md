@@ -3,7 +3,7 @@ title: "Ressources d'Apprentissage Hakka"
 domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Resources"
 tags: [sciences-sociales, langues, hakka]
-date: "2025-12-31"
+date: "2026-08-21"
 ---
 
 # Ressources d'Apprentissage Hakka
@@ -27,3 +27,10 @@ date: "2025-12-31"
 ## Vidéos d'Apprentissage
 - [Vidéo 1](https://www.youtube.com/watch?v=rkXl05faExQ) - Leçon Hakka
 - [Vidéo 2](https://www.youtube.com/watch?v=hMMDVZzqAZk) - Prononciation et conversation
+
+## Sources académiques
+
+Plus rigoureuses que les blogs ci-dessus — utilisées pour distinguer les hakka de Pontianak et de Singkawang, voir 05-Culture/Dialectes-Regionaux.md pour le détail :
+- Huang, Su-chen (2013). *印尼坤甸客家話研究* [Pontianak Hakka Study]. Mémoire de master, National Central University (Taïwan) — accessible via l'article Wikipédia "Pontianak Hakka" (le mémoire lui-même est en accès institutionnel restreint).
+- Huang, Hui-chen (2008). *印尼山口洋客家話研究* [Study of Hakka in Singkawang, Indonesia]. Mémoire de master, National Central University (Taïwan) — accessible via l'article Wikipédia "Singkawang Hakka".
+- Pontoh, Manzhuur Daanisy Ahmad; Kabul, Assa Rahmawati (2023). "Kata Serapan dari Bahasa Hakka dalam Leksikon Bahasa Indonesia". *Semiotika*, 24(1), 118–132, Universitas Indonesia. Vocabulaire vérifié avec deux locutrices natives du hakka de Singkawang.

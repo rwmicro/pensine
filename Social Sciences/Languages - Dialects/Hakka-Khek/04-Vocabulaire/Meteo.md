@@ -3,7 +3,7 @@ title: "Weather and Temperature"
 domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Daily-Life"
 tags: [sciences-sociales, langues, hakka]
-date: "2025-12-31"
+date: "2026-08-21"
 ---
 
 # Weather and Temperature
@@ -38,6 +38,12 @@ B: Nyi khon ngai chut hon (See, I'm sweating)
 | Rain              | lok sui       |
 | Will rain         | boi lok sui   |
 | Sweat/sweating    | chut hon      |
+| Sun [PTK]         | nyit theu — variante de *ngiat thew* (voir Animaux-Nature.md) |
+| Cloud [PTK]       | jun           |
+| Thunder [PTK]     | lui kung      |
+| Fire [PTK]        | fo — même mot que "Light" (Mots-Essentiels.md) |
+
+**Attention (fung = vent) :** en hakka de Singkawang, "vent" se dit *fung* — le même mot signifie "enfumer" en hakka de Pontianak (ton 4) et "rouge" dans une source généraliste (voir Mots-Essentiels.md et 05-Culture/Dialectes-Regionaux.md pour le détail).
 
 ## Key Phrases
 

@@ -3,7 +3,7 @@ title: "Sentence Patterns and Grammar"
 domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Grammar"
 tags: [sciences-sociales, langues, hakka]
-date: "2025-12-31"
+date: "2026-08-21"
 ---
 
 # Sentence Patterns and Grammar
@@ -177,6 +177,28 @@ Time and location often come at the beginning or middle of sentence.
 
 5. **Li kian su tiam an thai, mak kai tu jiu**
    - This bookstore is very big, everything is available
+
+## Classificateurs numéraux [PTK]
+
+Provenance non vérifiée académiquement (source : aperçus de recherche Scribd, deux documents "Kamus Bahasa Khek" partagés en ligne — le site bloque la lecture directe automatisée, donc seuls des extraits ont pu être récupérés). À prendre avec plus de prudence que le reste de cette page.
+
+Comme en mandarin, un nombre + classificateur précède le nom compté ; le classificateur dépend de la forme/catégorie de l'objet.
+
+| Pattern | Exemple | Sens |
+|---|---|---|
+| jit cak + [objet rond/animal] | jit cak pat · jit cak tiaw · jit cak kui · jit cak pui | un fruit de goyavier · un oiseau · une tortue · une tasse |
+| [nombre] thew + [animal] | liong thew shu · sam thew cu · ng thew sha · shi thew ng | deux arbres · trois cochons · cinq serpents · quatre poissons |
+| [nombre] ki + [objet allongé] | pat ki pit · liong ki shu/thiat | huit crayons · deux morceaux de bois/de fer (travaillé) |
+| jit sung + [paire] | jit sung hai · jit sung khai | une paire de chaussures · une paire de baguettes |
+| jit liap | jit liap | un grain / une bille |
+| jit pau | jit pau | un paquet |
+| jit khut | jit khut | un bloc |
+| jit lin | jit lin | une fois |
+| jit khian | jit khian | un genre |
+| jit chen | jit chen | une couche |
+| jit fon | jit fon | une feuille (papier) |
+| jit thiau | jit thiau | un bâton |
+| jit phu | jit phu | un pas |
 
 ## Notes
 
