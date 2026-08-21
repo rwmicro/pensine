@@ -3,7 +3,7 @@ title: "Verbs and Actions"
 domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Vocabulary"
 tags: [sciences-sociales, langues, hakka]
-date: "2025-12-31"
+date: "2026-08-21"
 ---
 
 # Verbs and Actions
@@ -53,7 +53,6 @@ date: "2025-12-31"
 | Learn              | hok [WK] / khau shu     | hok more common in ID Hakka |
 | Go to school       | thuk shu [WK]           | Traditional term            |
 | Test               | khau she [WK]           | -                           |
-| Build              | hong shin [WK]          | -                           |
 
 ### Transactions
 | English   | Hakka         |
@@ -73,13 +72,14 @@ date: "2025-12-31"
 | Do/make         | mek         |
 | Complete        | pau / co to |
 | Die             | si          |
-| Forgot          | eng ki tet  |
+| Forgot          | eng ki tet / mong ki [PTK] |
 
 ### Personal Care
 | English      | Hakka         | Dialect Notes |
 |--------------|---------------|---------------|
 | Bathe        | se liong [WK] | Literally "wash body" |
 | Sleep        | soi muk [WK]  | Literally "close eyes" |
+| Wake up      | hong shin [PTK] | Corrected 2026-08-21: previously mislabeled "Build" under Work/Learning with no source — better-sourced material glosses it as "wake up" |
 
 ## Emotional and Mental Verbs
 
@@ -88,9 +88,19 @@ date: "2025-12-31"
 | Want         | oi [WK]       | [Universal] |
 | Like         | nyen [WK]     | [Universal] |
 | Think/feel   | chi to [WK] / men | men alternative form |
-| Remember     | siong [WK]    | ⚠️ **TONE DEPENDENT!** Can mean: think/want/remember/photo |
+| Remember     | siong [WK]    | **Attention : dépend du ton !** Can mean: think/want/remember/photo |
 
 **Important Note on "Siong":** This word demonstrates how critical tones are in Hakka! The same romanization "siong" can mean different things with different tones. Always listen to native speakers for the correct tone.
+
+## Autres verbes [PTK]
+
+| English            | Hakka          |
+|--------------------|----------------|
+| Live                | sang           |
+| Work (variant)      | co thew lu     |
+| Marry               | kiat fun       |
+| Be hungry           | ngo            |
+| Be thirsty          | hot sui        |
 
 ## Grammar Patterns
 

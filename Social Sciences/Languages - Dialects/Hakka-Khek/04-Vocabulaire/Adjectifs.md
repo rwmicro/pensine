@@ -3,7 +3,7 @@ title: "Adjectives and Descriptive Words"
 domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Vocabulary"
 tags: [sciences-sociales, langues, hakka]
-date: "2025-12-31"
+date: "2026-08-21"
 ---
 
 # Adjectives and Descriptive Words
@@ -36,6 +36,7 @@ date: "2025-12-31"
 | Old       | kiu           |
 | Expensive | kui           |
 | Cheap     | pian ngi      |
+| Poor      | khiung [PTK]  |
 
 ## Physical Sensations
 

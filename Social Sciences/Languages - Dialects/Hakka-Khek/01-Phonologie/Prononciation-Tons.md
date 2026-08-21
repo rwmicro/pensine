@@ -3,7 +3,7 @@ title: "Pronunciation and Tones in Hakka"
 domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Grammar"
 tags: [sciences-sociales, langues, hakka]
-date: "2025-12-31"
+date: "2026-08-21"
 ---
 
 # Pronunciation and Tones in Hakka
@@ -43,6 +43,17 @@ Hakka has many dialects and regional variations, particularly between:
 | One      | jit         | yit             |
 | Ten thousand | ban     | wan             |
 | You      | nyi         | ngi             |
+
+## Valeurs tonales documentées (Pontianak vs Singkawang)
+
+Le reste de cette page reste volontairement informel, faute de mieux — mais deux mémoires de master (National Central University, Taïwan) donnent enfin des valeurs tonales chiffrées pour les deux variétés de Kalimantan Ouest, chacune à 6 tons mais avec un système différent :
+
+| Variété | Valeurs tonales |
+|---|---|
+| Pontianak (Huang Su-chen, 2013) | 24 / 11 / 31 / 55 / 2 / 5 |
+| Singkawang (Huang Hui-chen, 2008) | 53 / 55 / 24 / 31 / 34 / 5 |
+
+Détails et sources complètes : voir 05-Culture/Dialectes-Regionaux.md.
 
 ## Relationship to Mandarin
 

@@ -3,7 +3,7 @@ title: "How to Introduce Yourself in Hakka"
 domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Essentials"
 tags: [sciences-sociales, langues, hakka]
-date: "2025-12-31"
+date: "2026-08-21"
 ---
 
 # How to Introduce Yourself in Hakka
@@ -12,7 +12,7 @@ date: "2025-12-31"
 
 ### In Hakka:
 ```
-Halo ngai miang Ali ☺
+Halo ngai miang Ali
 Ngai nyi sip nyi se (22), ngai Prancis bi hek.
 Li ha ngai kuliah Paris e bi, tapi sangha ngai jiu co se.
 Ngai sam (3) hiungthi. Ngai thi nyi lai ci.
@@ -24,7 +24,7 @@ Nasi Goreng Abu an ho sit.
 
 ### English Translation:
 ```
-Hello, my name is Ali ☺
+Hello, my name is Ali
 I am 22 years old, I live in France.
 Right now I study in Paris, but sometimes I work.
 I have 3 siblings. I'm the second child.
@@ -36,7 +36,7 @@ Nasi Goreng Abu is very good.
 
 ### French Translation:
 ```
-Bonjour, je m'appelle Ali ☺
+Bonjour, je m'appelle Ali
 J'ai 22 ans, je vis en France.
 En ce moment, j'étudie à Paris, mais parfois je travaille.
 J'ai 3 frères et sœurs. Je suis le deuxième enfant.
@@ -63,6 +63,8 @@ Le Nasi Goreng Abu est très bon.
 | I want to learn...               | Ngai oi hok...           |
 | I like to eat...                 | Ngai an nyen sit...      |
 | [Food] is very good              | [Food] an ho sit         |
+| How old are you? [PTK]           | Nyi ki to soi?           |
+| Are you married? [PTK]           | Nyi jiu kiat fun mang?   |
 
 ## Essential Vocabulary
 

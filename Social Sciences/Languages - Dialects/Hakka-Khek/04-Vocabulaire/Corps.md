@@ -3,7 +3,7 @@ title: "Human Body Parts"
 domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Vocabulary"
 tags: [sciences-sociales, langues, hakka]
-date: "2025-12-31"
+date: "2026-08-21"
 ---
 
 # Human Body Parts
@@ -15,7 +15,7 @@ date: "2025-12-31"
 | Head         | tew na          |
 | Hair         | thew na mo      |
 | Forehead     | nyak mun theuw  |
-| Face         | (see below)     |
+| Face         | mian [PTK]      |
 | Eye          | ngan cu         |
 | Eyes         | muk cu          |
 | Eyebrows     | muk li mou      |
