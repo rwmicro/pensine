@@ -3,7 +3,7 @@ title: "Common Words and Basic Vocabulary"
 domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Vocabulary"
 tags: [sciences-sociales, langues, hakka]
-date: "2026-08-21"
+date: "2026-08-23"
 ---
 
 # Common Words and Basic Vocabulary
@@ -225,3 +225,28 @@ Source : vocabulaire généraliste West Kalimantan (ville non précisée), voir 
 
 5. **Nyi nai bui?**
    - Where are you?
+
+## Mots tirés du corpus personnel (sens inférés, non vérifiés) [PTK]
+
+Ces mots viennent d'un corpus personnel de ~2000 phrases parallèles indonésien↔hakka de Pontianak
+(compilé 2015-2022, converti en dataset le 23/08/2026), pas des notes de vocabulaire ci-dessus. Ils
+n'apparaissaient dans aucun autre fichier du vault. **Le sens indiqué est déduit du contexte de
+plusieurs phrases, pas vérifié par un locuteur natif — à confirmer avant de s'y fier.**
+
+| Hakka | Sens probable | Fréquence dans le corpus | Notes |
+|---|---|---|---|
+| **hiau** | pouvoir, savoir faire (auxiliaire de capacité) | 296 | Apparaît dans quasi toutes les questions « Bisakah/Dapatkah...? » (« Peux-tu...? ») |
+| **khiun** | être/se trouver (à un endroit), proche de « ada »/« berada » | 206 | « lift khiun un sak » = l'ascenseur est là-bas |
+| **liak** | ce/cette/ceci (démonstratif) | 163 | « liak chiu » = ce bras ; « liak bie » = ici (litt. « cet endroit ») |
+| **bie** | endroit, lieu | 111 | Surtout en composé : liak bie = ici, khiun...bie = là-bas |
+| **kien** | chambre, pièce — et peut-être aussi un composant de « durée/moment » (cf. si kien = « du temps ») | 97 | Hypothèse : proche du chinois 間 (jiān), qui sert à la fois pour les pièces et le temps (時間) |
+| **nyia** | ton/votre (forme possessive de nyi) | 76 | « nyia senhicha » = votre réservation |
+| **nyip** | entrer | 40 | « hi nyip hilton » = entrer à l'hôtel Hilton ; « nyip nyia pin » = entrer ton code pin |
+| **tungsi** | truc, chose | 36 | Cohérent avec le composé cantonais/hakka 東西 (tung-si, litt. « est-ouest ») déjà connu pour ce sens |
+| **siw** | rendre service / donner (sens exact incertain) | 99 | Toujours après « then » (tolong) : « then siw ngai » = aide-moi / donne-moi |
+| **ti** | sens incertain — apparaît uniquement après « kong » (dire) : « kong ngai ti [question] » = « dis-moi [à propos de]... » | 56 | Peut-être lié à « savoir » (tahu) |
+| **met** | faire, entreprendre (auxiliaire de projet : « être en train de / prévoir de ») | 54 | « Ngai teu met ten pesta » = on est en train de préparer une fête |
+
+Liste complète (280 mots apparaissant ≥3 fois, y compris ceux ci-dessus non retenus faute de sens
+clair) : voir `vocab_gaps_report.md` dans le dossier du dataset
+(`/home/micro/Documents/hakka-dataset/`).
