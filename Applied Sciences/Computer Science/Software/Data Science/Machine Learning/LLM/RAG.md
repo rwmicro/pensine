@@ -5,8 +5,7 @@ subdomain: informatique / machine-learning / llm
 tags: [rag, llm, retrieval, embeddings, vector-database, prompt-engineering]
 date: 2026-03-22
 ---
-
-# RAG — Retrieval-Augmented Generation
+# RAG - Retrieval-Augmented Generation
 
 Le RAG est une architecture qui augmente un LLM avec une base de connaissance externe, récupérée dynamiquement au moment de l'inférence. Il permet de répondre à des questions précises sur des documents que le LLM n'a pas vus pendant l'entraînement, sans nécessiter de fine-tuning.
 
@@ -45,7 +44,7 @@ graph LR
     end
 ```
 
-## Étape 1 — Indexation
+## Étape 1 - Indexation
 
 ### Chunking
 

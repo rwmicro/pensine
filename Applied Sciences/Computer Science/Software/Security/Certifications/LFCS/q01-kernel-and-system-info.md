@@ -29,7 +29,9 @@ cat /etc/timezone     # fichier texte (Debian/Ubuntu)
 timedatectl           # vue complète et moderne (systemd) — voir q03
 ```
 
-**Piège** : `/etc/timezone` est un fichier propre à Debian. Sur RHEL, le fuseau est le lien symbolique `/etc/localtime → /usr/share/zoneinfo/...`. `timedatectl` et `date +%Z` fonctionnent partout — préfère-les.
+**Piège** : `/etc/timezone` est un fichier propre à Debian. Sur RHEL, le fuseau est le lien symbolique `/etc/localtime → /usr/share/zoneinfo/...`. `timedatectl`.
+
+`date +%Z` fonctionnent partout, à utiliser de préférence.
 
 ## Énoncé
 
