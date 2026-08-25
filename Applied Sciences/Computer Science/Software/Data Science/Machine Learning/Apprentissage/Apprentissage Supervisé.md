@@ -44,17 +44,52 @@ graph TB
     style REGR fill:#4CAF50,color:#fff
 ```
 ## La classification
-Prédiction d'une étiquette de classe discrète ou d'une catégorie. Pour classifier notre résultat nous utilisons la **Régression Logistique**. Cette fonction va donner en valeur de retour soit 1 soit 0 sous forme d'une  fonction sigmoid.
-- Régression Logistique 
-	- **Description** : Utilisée pour des problèmes de classification binaire mais techniquement considérée comme une régression.
 
-![ Fonction Sigmoid servant à classifier le résultat](https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Logistic-curve.svg/1537px-Logistic-curve.svg.png)
-### Exemple
-Toute les classification pouvant donner un résultat booléen.
-	- Prédire si un email est spam ou non.
-	- Male ou Female
-	- Chaud ou Froid
-	- Bon ou Mauvais
+Prédiction d'une étiquette de classe discrète ou d'une catégorie. Pour la classification binaire, l'algorithme de référence est la **Régression Logistique** : malgré son nom, c'est un classifieur, pas un modèle de régression au sens strict.
+
+### Régression Logistique
+
+**Principe** : le modèle calcule d'abord une combinaison linéaire des features $z = w^T x + b$ (comme une régression linéaire classique), puis écrase ce score dans l'intervalle $[0, 1]$ grâce à la fonction **sigmoïde** :
+
+$$\sigma(z) = \frac{1}{1 + e^{-z}}$$
+
+Le résultat $\sigma(z)$ s'interprète comme une **probabilité** $P(y=1 \mid x)$. La classe prédite dépend ensuite d'un seuil (généralement 0.5) :
+
+$$\hat{y} = \begin{cases} 1 & \text{si } \sigma(z) \geq 0.5 \\ 0 & \text{sinon} \end{cases}$$
+
+```mermaid
+graph LR
+    X["Features x"] --> LIN["Combinaison linéaire<br/>z = wᵀx + b"]
+    LIN --> SIG["Sigmoïde<br/>σ(z) = 1/(1+e⁻ᶻ)"]
+    SIG --> PROB["Probabilité P(y=1|x)<br/>entre 0 et 1"]
+    PROB --> SEUIL["Seuil (0.5)"]
+    SEUIL --> CLASS["Classe prédite<br/>0 ou 1"]
+
+    style SIG fill:#FF9800,color:#fff
+    style CLASS fill:#4CAF50,color:#fff
+```
+
+**Pourquoi la sigmoïde ?** Elle transforme un score non borné ($-\infty$ à $+\infty$) en probabilité, avec une transition douce — contrairement à une fonction en escalier, elle reste **dérivable partout**, ce qui permet d'entraîner le modèle par descente de gradient (voir plus bas).
+
+**Fonction de perte** : la régression logistique s'entraîne en minimisant la **Log Loss** (voir [[Fonctions de pertes]]), pas l'erreur quadratique — combiner sigmoïde et MSE donnerait une fonction de coût non convexe, difficile à optimiser.
+
+```python
+from sklearn.linear_model import LogisticRegression
+
+model = LogisticRegression()
+model.fit(X_train, y_train)
+proba = model.predict_proba(X_test)  # probabilités par classe
+pred = model.predict(X_test)         # classe (seuil 0.5 par défaut)
+```
+
+**Frontière de décision** : la régression logistique trace une frontière **linéaire** entre les classes. Pour des données non linéairement séparables, il faut ajouter des features polynomiales ou passer à un modèle non linéaire (SVM à noyau, arbres, réseaux de neurones).
+
+### Exemples
+
+Toute classification pouvant donner un résultat booléen :
+- Prédire si un email est spam ou non
+- Diagnostic médical (malade / sain)
+- Détection de fraude (frauduleux / légitime)
 ## La régression
 La régression est la prédiction d'une valeur continue.
 L'objectif est de trouver une courbe minimisant au maximum la distance entre les différents points. Nous pouvons utiliser plusieurs types de régressions :
@@ -71,7 +106,18 @@ L'objectif est de trouver une courbe minimisant au maximum la distance entre les
 	- **Exemple** : Prédire l'évolution des ventes d'un produit en fonction du temps.
 	
 
-![Regression](https://www.imsl.com/sites/default/files/image/2021-06/IMSL%20What%20is%20Regression%20Model%20Blog%20Feature.png)
+```mermaid
+graph LR
+    subgraph "Régression : minimiser la distance aux points"
+        direction TB
+        PTS["Nuage de points<br/>(x, y)"] --> FIT["Trouver la droite/courbe<br/>qui minimise l'erreur totale"]
+        FIT --> PRED["Prédire y pour<br/>un nouveau x"]
+    end
+
+    style FIT fill:#FF9800,color:#fff
+    style PRED fill:#4CAF50,color:#fff
+```
+
 ### Exemples
 - Prédiction des prix d'une maison
 - Prédiction des prix d'une action
@@ -237,6 +283,98 @@ svr = SVR(kernel='rbf', C=1.0, epsilon=0.1)
 - `C` : coût de la violation de marge (grand C = moins de violations, risque overfitting)
 - `gamma` : rayon du kernel RBF (grand gamma = décision très locale, overfitting)
 
+### Naive Bayes
+
+Classifieur **probabiliste** basé sur le théorème de Bayes, avec une hypothèse simplificatrice forte : les features sont **conditionnellement indépendantes** sachant la classe.
+
+$$P(y \mid x_1, \dots, x_n) \propto P(y) \prod_{i=1}^{n} P(x_i \mid y)$$
+
+- $P(y)$ : probabilité a priori de la classe (fréquence dans les données)
+- $P(x_i \mid y)$ : vraisemblance de chaque feature sachant la classe
+- On choisit la classe qui maximise ce produit
+
+**Pourquoi "naïve" ?** L'hypothèse d'indépendance est presque toujours fausse en pratique — dans un texte, les mots ne sont pas indépendants entre eux ("New" et "York" apparaissent ensemble bien plus souvent que par hasard. Pourtant l'algorithme reste étonnamment performant, en particulier en classification de texte, car ce qui compte pour classer correctement est souvent l'ordre de grandeur relatif entre classes, pas la probabilité exacte.
+
+```mermaid
+graph LR
+    X["Nouvelle donnée x"] --> P1["P(y=spam) × P(x₁|spam) × P(x₂|spam) × ..."]
+    X --> P2["P(y=non-spam) × P(x₁|non-spam) × P(x₂|non-spam) × ..."]
+    P1 --> COMP{"Comparer"}
+    P2 --> COMP
+    COMP --> OUT["Classe avec la<br/>probabilité la plus élevée"]
+
+    style OUT fill:#4CAF50,color:#fff
+```
+
+**Variantes :**
+
+| Variante | Type de features | Usage typique |
+|---|---|---|
+| **GaussianNB** | Continues, supposées gaussiennes | Données numériques génériques |
+| **MultinomialNB** | Comptages / fréquences (ex: TF-IDF, Bag-of-Words) | Classification de texte |
+| **BernoulliNB** | Binaires (présence/absence) | Texte avec présence de mots (pas leur fréquence) |
+
+```python
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.feature_extraction.text import CountVectorizer
+
+vectorizer = CountVectorizer()
+X_counts = vectorizer.fit_transform(textes)
+
+nb = MultinomialNB(alpha=1.0)  # alpha = lissage de Laplace (évite P=0)
+nb.fit(X_counts, y_train)
+```
+
+**Lissage de Laplace (`alpha`)** : sans lissage, une feature jamais vue pour une classe donne $P(x_i \mid y) = 0$, ce qui annule tout le produit. Le lissage ajoute un petit compte fictif à chaque feature pour éviter ce problème.
+
+| Avantages | Inconvénients |
+|-----------|---------------|
+| Très rapide à entraîner et à prédire | Hypothèse d'indépendance rarement vraie |
+| Fonctionne bien avec peu de données | Moins précis que des modèles plus riches sur des relations complexes |
+| Excellent baseline pour le texte (spam, sentiment) | Probabilités prédites souvent mal calibrées |
+
+### LDA (Linear Discriminant Analysis)
+
+L'**analyse discriminante linéaire** est à la fois un classifieur et une technique de réduction de dimensionnalité **supervisée**.
+
+**Principe** : trouver la combinaison linéaire des features qui **maximise la séparation entre classes**, en maximisant la variance *inter-classe* tout en minimisant la variance *intra-classe*.
+
+$$J(w) = \frac{\text{variance inter-classe}}{\text{variance intra-classe}} = \frac{w^T S_B w}{w^T S_W w}$$
+
+**LDA vs PCA — ne pas confondre :**
+
+| | PCA | LDA |
+|---|---|---|
+| **Type** | Non supervisée | Supervisée (utilise les labels) |
+| **Objectif** | Maximiser la variance totale des données | Maximiser la séparation entre classes |
+| **Ignore** | Les labels de classe | — |
+| **Dimensions max en sortie** | Jusqu'à min(n, p) | Jusqu'à K−1 (K = nombre de classes) |
+| **Usage** | Compression, visualisation générale | Classification, réduction de dimension pour données labellisées |
+
+```mermaid
+graph LR
+    subgraph "PCA (non supervisé)"
+        D1["Données"] --> AXE1["Axe de variance<br/>maximale (ignore les classes)"]
+    end
+    subgraph "LDA (supervisé)"
+        D2["Données + labels"] --> AXE2["Axe qui sépare<br/>le mieux les classes"]
+    end
+
+    style AXE2 fill:#4CAF50,color:#fff
+```
+
+**Hypothèses** : les classes suivent des distributions gaussiennes avec la **même matrice de covariance**. Si les covariances diffèrent significativement entre classes, préférer le **QDA** (Quadratic Discriminant Analysis), qui autorise une frontière de décision courbe plutôt que linéaire.
+
+```python
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+
+lda = LinearDiscriminantAnalysis(n_components=2)  # réduction à K-1 dimensions max
+X_lda = lda.fit_transform(X_train, y_train)  # supervisé : utilise y
+pred = lda.predict(X_test)
+```
+
+**Usage typique** : alternative légère et interprétable à la régression logistique quand les hypothèses gaussiennes sont raisonnables, ou comme étape de réduction de dimension avant un autre classifieur.
+
 ### Gradient Boosting (XGBoost, LightGBM)
 
 Construction séquentielle d'arbres où chaque arbre corrige les erreurs du précédent. Algorithme dominant sur les données tabulaires.
@@ -288,6 +426,8 @@ lgb_model = lgb.LGBMClassifier(
 | Decision Tree | Interprétable, pas de normalisation | Overfitting, instable | Règles métier explicites |
 | Random Forest | Robuste, feature importance | Mémoire, moins interprétable | Usage général, robustesse |
 | SVM | Efficace haute dimension, kernel trick | Lent sur grands datasets | Texte, images (avec features) |
+| Naive Bayes | Très rapide, marche avec peu de données | Hypothèse d'indépendance rarement vraie | Classification de texte, spam |
+| LDA | Interprétable, réduction de dimension supervisée incluse | Suppose des classes gaussiennes à covariance égale | Baseline gaussienne, prétraitement supervisé |
 | XGBoost/LGBM | Meilleur sur données tabulaires | Hyperparamètres nombreux | Compétitions Kaggle, données structurées |
 | Réseaux de neurones | Flexible, feature learning | Beaucoup de données, compute | Images, texte, séries temporelles |
 

@@ -2,17 +2,17 @@
 
 ## Notes d'apprentissage
 
-Une horloge juste n'est pas un détail : Kerberos, TLS, les logs corrélés entre machines, `cron` — tout dépend d'un temps cohérent. NTP (Network Time Protocol) synchronise l'horloge locale sur des serveurs de référence.
+Une horloge juste n'est pas un détail : Kerberos, TLS, les logs corrélés entre machines, `cron`, tout dépend d'un temps cohérent. NTP (Network Time Protocol) synchronise l'horloge locale sur des serveurs de référence.
 
 **Modèle mental : stratum.** NTP est hiérarchique. Le stratum 0 = la source physique (horloge atomique, GPS). Le stratum 1 = serveurs directement reliés à ces sources. Stratum 2, 3… = serveurs qui se synchronisent sur le niveau au-dessus. Plus le stratum est bas, plus on est proche de la source. `0.pool.ntp.org` est un pool DNS qui distribue la charge sur des milliers de serveurs bénévoles.
 
 **Trois implémentations à ne pas confondre :**
 
-| Outil | Distribution | Fichier de conf |
-|---|---|---|
+| Outil               | Distribution             | Fichier de conf               |
+| ------------------- | ------------------------ | ----------------------------- |
 | `systemd-timesyncd` | Debian/Ubuntu par défaut | `/etc/systemd/timesyncd.conf` |
-| `chrony` | RHEL/Fedora par défaut | `/etc/chrony/chrony.conf` |
-| `ntpd` | héritage, en déclin | `/etc/ntp.conf` |
+| `chrony`            | RHEL/Fedora par défaut   | `/etc/chrony/chrony.conf`     |
+| `ntpd`              | héritage, en déclin      | `/etc/ntp.conf`               |
 
 `timesyncd` est un client SNTP léger (il synchronise mais ne sert pas l'heure). `chrony` est plus complet et gère mieux les machines portables/intermittentes. Voir [[q45-rhel-vs-debian-equivalents]].
 
