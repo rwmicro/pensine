@@ -13,79 +13,79 @@ L'argot beyrouthin évolue rapidement sous l'influence de l'anglais, des réseau
 
 | Argot    | Libanais                                       | Sens                                                            | Équivalent français |
 | -------- | ---------------------------------------------- | --------------------------------------------------------------- | ------------------- |
-| 3al 7ādi | ![ع الهادي](ar-lb_male_a27e9703b409.mp3) | doucement, relax                                                | tranquille, peinard |
-| false    | ![فولس](ar-lb_male_7ff1c18e4877.mp3)     | mensonge / faux                                                 | c'est du flan       |
-| mafia    | ![مافيا](ar-lb_male_552408713c7b.mp3)    | mafieux, magouilleur                                            | —                   |
-| za3rān   | ![زعران](ar-lb_male_f8f586b6d4d3.mp3)    | voyou, racaille                                                 | racaille            |
-| sha2i    | ![شقي](ar-lb_male_c52959d1c65f.mp3)      | malin / vif                                                     | futé                |
-| sharmūT  | ![شرموط](ar-lb_male_651516d305a3.mp3)    | insulte vulgaire (voir [[Insultes-et-Jurons]]) | Insultes            |
-| 7ūt      | ![حوت](ar-lb_male_c552b177954f.mp3)      | baraqué, fort                                                   | bonhomme, tank      |
-| k'teer   | ![كتير](Social%20Sciences/Languages%20-%20Dialects/Arabe/Libanais/03-Communication/audio/ar-lb_male_9886c14fd341.mp3)     | beaucoup, trop (intensif jeune)                                 | grave, trop         |
-| 7ayawān  | ![حيوان](ar-lb_male_a4969e678af0.mp3)    | "animal" au sens de "ouf"                                       | taré                |
-| ghabi    | ![غبي](ar-lb_male_ec0b968d6133.mp3)      | idiot                                                           | con                 |
-| lazza2   | ![لزّق](ar-lb_male_87c6f84f1520.mp3)     | collant / lourd (personne)                                      | relou               |
-| 3arS     | ![عرص](ar-lb_male_6557102b76c9.mp3)      | insulte (maquereau, très vulgaire)                              | —                   |
+| 3al 7ādi | ![ع الهادي](audio/ar-lb_male_a27e9703b409.mp3) | doucement, relax                                                | tranquille, peinard |
+| false    | ![فولس](audio/ar-lb_male_7ff1c18e4877.mp3)     | mensonge / faux                                                 | c'est du flan       |
+| mafia    | ![مافيا](audio/ar-lb_male_552408713c7b.mp3)    | mafieux, magouilleur                                            | —                   |
+| za3rān   | ![زعران](audio/ar-lb_male_f8f586b6d4d3.mp3)    | voyou, racaille                                                 | racaille            |
+| sha2i    | ![شقي](audio/ar-lb_male_c52959d1c65f.mp3)      | malin / vif                                                     | futé                |
+| sharmūT  | ![شرموط](audio/ar-lb_male_651516d305a3.mp3)    | insulte vulgaire (voir [[Insultes-et-Jurons]]) | Insultes            |
+| 7ūt      | ![حوت](audio/ar-lb_male_c552b177954f.mp3)      | baraqué, fort                                                   | bonhomme, tank      |
+| k'teer   | ![كتير](audio/ar-lb_male_9886c14fd341.mp3)     | beaucoup, trop (intensif jeune)                                 | grave, trop         |
+| 7ayawān  | ![حيوان](audio/ar-lb_male_a4969e678af0.mp3)    | "animal" au sens de "ouf"                                       | taré                |
+| ghabi    | ![غبي](audio/ar-lb_male_ec0b968d6133.mp3)      | idiot                                                           | con                 |
+| lazza2   | ![لزّق](audio/ar-lb_male_87c6f84f1520.mp3)     | collant / lourd (personne)                                      | relou               |
+| 3arS     | ![عرص](audio/ar-lb_male_6557102b76c9.mp3)      | insulte (maquereau, très vulgaire)                              | —                   |
 
 ## Expressions jeunes très courantes
 
 | Expression | Translittération | Sens |
 |-----------|------------------|------|
-| ![يا زلمة](ar-lb_male_fe8c91bea7d6.mp3)! | ya zalame! | Mec ! (appel amical masculin) |
-| ![يا حج](ar-lb_male_aa473d86038d.mp3) | ya 7aj | Mec / frère (ironique, pour un jeune) |
-| ![شو يا معلّم](ar-lb_male_e9c8e4517011.mp3) | shu ya m3allem | Quoi, patron ? (appellation amicale) |
-| ![على كيفك](ar-lb_male_25132618b8d3.mp3) | 3ala keifak | Comme tu veux / peinard |
-| ![ما بيشرب مي](ar-lb_male_a8e685b11fd0.mp3) | mā byishrab mayy | "Il ne boit même pas d'eau" = il n'a aucune concession / pingre |
-| ![مخه رايح](ar-lb_male_24646ae901d0.mp3) | mukhkho rāye7 | "Son cerveau est parti" = il pète les plombs |
-| ![طاير عقلي](ar-lb_male_336e069de94c.mp3) | Tāyer 3a2li | "Mon esprit s'envole" = je n'en reviens pas |
-| ![قلبي وقع](ar-lb_male_1bd2eeff017d.mp3) | 2albi wu2i3 | "Mon cœur est tombé" = j'ai eu un choc |
-| ![تعا لعمّو](ar-lb_male_a1da6d04b035.mp3) | ta3a la-3ammo | "Viens chez tonton" = drague lourde/familière |
-| ![شو في ما في](ar-lb_male_9a59c43934f3.mp3) | shu fī mā fī | "Quoi de neuf ?" (registre amical) |
-| ![عم بطلع عنّي](ar-lb_male_ab9053aa30de.mp3) | 3am byeTla3 3anni | "Il me sort par les yeux" |
-| ![مخبّص](ar-lb_male_b77f15f2355d.mp3) | mkhabbaS | paumé, dans le chaos |
-| ![متل الملوك](ar-lb_male_b4a6caae5611.mp3) | metl el-mulūk | "comme les rois" = parfait, royal |
+| ![يا زلمة](audio/ar-lb_male_fe8c91bea7d6.mp3)! | ya zalame! | Mec ! (appel amical masculin) |
+| ![يا حج](audio/ar-lb_male_aa473d86038d.mp3) | ya 7aj | Mec / frère (ironique, pour un jeune) |
+| ![شو يا معلّم](audio/ar-lb_male_e9c8e4517011.mp3) | shu ya m3allem | Quoi, patron ? (appellation amicale) |
+| ![على كيفك](audio/ar-lb_male_25132618b8d3.mp3) | 3ala keifak | Comme tu veux / peinard |
+| ![ما بيشرب مي](audio/ar-lb_male_a8e685b11fd0.mp3) | mā byishrab mayy | "Il ne boit même pas d'eau" = il n'a aucune concession / pingre |
+| ![مخه رايح](audio/ar-lb_male_24646ae901d0.mp3) | mukhkho rāye7 | "Son cerveau est parti" = il pète les plombs |
+| ![طاير عقلي](audio/ar-lb_male_336e069de94c.mp3) | Tāyer 3a2li | "Mon esprit s'envole" = je n'en reviens pas |
+| ![قلبي وقع](audio/ar-lb_male_1bd2eeff017d.mp3) | 2albi wu2i3 | "Mon cœur est tombé" = j'ai eu un choc |
+| ![تعا لعمّو](audio/ar-lb_male_a1da6d04b035.mp3) | ta3a la-3ammo | "Viens chez tonton" = drague lourde/familière |
+| ![شو في ما في](audio/ar-lb_male_9a59c43934f3.mp3) | shu fī mā fī | "Quoi de neuf ?" (registre amical) |
+| ![عم بطلع عنّي](audio/ar-lb_male_ab9053aa30de.mp3) | 3am byeTla3 3anni | "Il me sort par les yeux" |
+| ![مخبّص](audio/ar-lb_male_b77f15f2355d.mp3) | mkhabbaS | paumé, dans le chaos |
+| ![متل الملوك](audio/ar-lb_male_b4a6caae5611.mp3) | metl el-mulūk | "comme les rois" = parfait, royal |
 
 ## Vocabulaire réseaux sociaux et numérique
 
 | Anglais | Libanais | Translittération |
 |---------|----------|------------------|
-| Story (Insta) | ![ستوري](Social%20Sciences/Languages%20-%20Dialects/Arabe/Libanais/03-Communication/audio/ar-lb_male_d4ed37b1cf2f.mp3) | stōri |
-| Post | ![بوست](Social%20Sciences/Languages%20-%20Dialects/Arabe/Libanais/03-Communication/audio/ar-lb_male_847a4d014a17.mp3) | post |
-| Like | ![لايك](Social%20Sciences/Languages%20-%20Dialects/Arabe/Libanais/03-Communication/audio/ar-lb_male_0a531513c1e3.mp3) | laike |
-| Follow | ![فولو](Social%20Sciences/Languages%20-%20Dialects/Arabe/Libanais/03-Communication/audio/ar-lb_male_69da3b79aff6.mp3) | folo |
-| Followers | ![فولورز](ar-lb_male_9524df0c9608.mp3) | folowerz |
-| DM / Direct | ![دي إم](Social%20Sciences/Languages%20-%20Dialects/Arabe/Libanais/03-Communication/audio/ar-lb_male_e23c1835abb6.mp3) | dī ēm |
-| Screenshot | ![سكرين شوت](ar-lb_male_5b9dfed5c2df.mp3) | scrīn shōt |
-| Crush | ![كراش](ar-lb_male_b755e6ce5890.mp3) | krash |
-| Vibe | ![فايب](ar-lb_male_61bc87b059d8.mp3) | fayb |
-| Ghost (verbe) | ![يعمل غوست](ar-lb_male_b02bd5b6f893.mp3) | ya3mol ghōst |
-| Stalker | ![ستوكر](ar-lb_male_4a9b23da78c6.mp3) | stoker |
-| Thirsty | ![ثيرستي](ar-lb_male_7a60f7a96f3e.mp3) | thirsty (utilisé tel quel) |
-| Mood | ![مود](ar-lb_male_828e2fee02d1.mp3) | mūd |
-| Flexer | ![يفلكس](ar-lb_male_5eb58d499d55.mp3) | yeflex |
+| Story (Insta) | ![ستوري](audio/ar-lb_male_d4ed37b1cf2f.mp3) | stōri |
+| Post | ![بوست](audio/ar-lb_male_847a4d014a17.mp3) | post |
+| Like | ![لايك](audio/ar-lb_male_0a531513c1e3.mp3) | laike |
+| Follow | ![فولو](audio/ar-lb_male_69da3b79aff6.mp3) | folo |
+| Followers | ![فولورز](audio/ar-lb_male_9524df0c9608.mp3) | folowerz |
+| DM / Direct | ![دي إم](audio/ar-lb_male_e23c1835abb6.mp3) | dī ēm |
+| Screenshot | ![سكرين شوت](audio/ar-lb_male_5b9dfed5c2df.mp3) | scrīn shōt |
+| Crush | ![كراش](audio/ar-lb_male_b755e6ce5890.mp3) | krash |
+| Vibe | ![فايب](audio/ar-lb_male_61bc87b059d8.mp3) | fayb |
+| Ghost (verbe) | ![يعمل غوست](audio/ar-lb_male_b02bd5b6f893.mp3) | ya3mol ghōst |
+| Stalker | ![ستوكر](audio/ar-lb_male_4a9b23da78c6.mp3) | stoker |
+| Thirsty | ![ثيرستي](audio/ar-lb_male_7a60f7a96f3e.mp3) | thirsty (utilisé tel quel) |
+| Mood | ![مود](audio/ar-lb_male_828e2fee02d1.mp3) | mūd |
+| Flexer | ![يفلكس](audio/ar-lb_male_5eb58d499d55.mp3) | yeflex |
 
 ## Verbes récents (empruntés à l'anglais, adaptés)
 
 | Verbe | Racine adaptée | Sens |
 |-------|---------------|------|
-| ![ستوقر](ar-lb_male_b8a3a378f617.mp3) (stawqar) | de "stalker" | stalker sur les réseaux |
-| ![ليّك](ar-lb_male_6727e4e0043b.mp3) (layyak) | de "like" | liker |
-| ![تويت](ar-lb_male_fc4538f03f2b.mp3) (tawwat) | de "tweet" | tweeter |
-| ![كرّز](ar-lb_male_5eddcaaa5ded.mp3) (karraz) | "to crash" | flasher sur qqn |
-| ![فاتر](ar-lb_male_086336836593.mp3) (fātar) | de "filter" | filtrer (Insta) |
+| ![ستوقر](audio/ar-lb_male_b8a3a378f617.mp3) (stawqar) | de "stalker" | stalker sur les réseaux |
+| ![ليّك](audio/ar-lb_male_6727e4e0043b.mp3) (layyak) | de "like" | liker |
+| ![تويت](audio/ar-lb_male_fc4538f03f2b.mp3) (tawwat) | de "tweet" | tweeter |
+| ![كرّز](audio/ar-lb_male_5eddcaaa5ded.mp3) (karraz) | "to crash" | flasher sur qqn |
+| ![فاتر](audio/ar-lb_male_086336836593.mp3) (fātar) | de "filter" | filtrer (Insta) |
 
 ## Interjections et ponctuations orales
 
 | Interjection | Usage |
 |-------------|-------|
-| ![طب](ar-lb_male_2f0fda41e080.mp3) | Tab | "OK, d'accord" / "bon" |
-| ![يعني](Social%20Sciences/Languages%20-%20Dialects/Arabe/Libanais/03-Communication/audio/ar-lb_male_131f711ab69b.mp3) | ya3ni | "c-à-d" / remplissage (comme "genre") |
-| ![أه والله](ar-lb_male_9ffc688224ea.mp3) | āh wallah | "oui, clairement" |
-| ![والله ؟](ar-lb_male_2bdca82f12d3.mp3) | wallah? | "vraiment ?" |
-| ![لأ ولا](ar-lb_male_b6147ebaf80c.mp3) | la2 wala | "non, mais non" |
-| ![يا عمي](ar-lb_male_769f5d30a6b7.mp3) | yā 3ammi | "oh mon pote" (litt. "mon oncle") |
-| ![يا خيي](ar-lb_male_54846fead701.mp3) | yā khayyi | "frérot" |
-| ![عنجد ؟](ar-lb_male_804dbe143ad6.mp3) | 3anjad? | "sérieux ?" |
-| ![شو يعني هيك](ar-lb_male_8e7460696905.mp3) | shu ya3ni hēk | "c'est quoi ce truc" |
+| ![طب](audio/ar-lb_male_2f0fda41e080.mp3) | Tab | "OK, d'accord" / "bon" |
+| ![يعني](audio/ar-lb_male_131f711ab69b.mp3) | ya3ni | "c-à-d" / remplissage (comme "genre") |
+| ![أه والله](audio/ar-lb_male_9ffc688224ea.mp3) | āh wallah | "oui, clairement" |
+| ![والله ؟](audio/ar-lb_male_2bdca82f12d3.mp3) | wallah? | "vraiment ?" |
+| ![لأ ولا](audio/ar-lb_male_b6147ebaf80c.mp3) | la2 wala | "non, mais non" |
+| ![يا عمي](audio/ar-lb_male_769f5d30a6b7.mp3) | yā 3ammi | "oh mon pote" (litt. "mon oncle") |
+| ![يا خيي](audio/ar-lb_male_54846fead701.mp3) | yā khayyi | "frérot" |
+| ![عنجد ؟](audio/ar-lb_male_804dbe143ad6.mp3) | 3anjad? | "sérieux ?" |
+| ![شو يعني هيك](audio/ar-lb_male_8e7460696905.mp3) | shu ya3ni hēk | "c'est quoi ce truc" |
 
 ## Phénomène du "Arabizi jeune"
 
@@ -116,7 +116,7 @@ Typique chez les 20-35 ans beyrouthins :
 | **bar hopper** | passer de bar en bar (très utilisé tel quel) |
 | **saydet el-jabal** | — littéralement "la dame de la montagne" = surnom affectueux pour les femmes druzes/chrétiennes traditionnelles |
 | **el-Dahiye** | le sud de Beyrouth (banlieue à majorité chiite, avec ses codes propres) |
-| **chiha** (![شيحا](ar-lb_male_20349b62d71d.mp3)) | — familier : "vieux machin" |
+| **chiha** (![شيحا](audio/ar-lb_male_20349b62d71d.mp3)) | — familier : "vieux machin" |
 | **ma3lūm** | évidemment / bien sûr (ton un peu traînant) |
 | **akhh** | juron frustré (juste "akh !") |
 

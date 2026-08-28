@@ -18,12 +18,12 @@ Exemples MSA vs libanais :
 
 | Concept | MSA | Libanais |
 |---------|-----|----------|
-| Je veux | ![أريد](ar-lb_male_40b5664c7ce4.mp3) (urīd) | ![بدي](Social%20Sciences/Languages%20-%20Dialects/Arabe/Libanais/03-Communication/audio/ar-lb_male_7a13e1817809.mp3) (biddi) |
-| Maintenant | ![الآن](ar-lb_male_30915af39402.mp3) (al-ān) | ![هلق](Social%20Sciences/Languages%20-%20Dialects/Arabe/Libanais/03-Communication/audio/ar-lb_male_8dbe6274343c.mp3) (halla2) |
-| Comment vas-tu ? | ![كيف حالك](ar-lb_male_dd91fabd36a9.mp3) (kayfa 7āluk) | ![كيفك](ar-lb_male_a80e37781f54.mp3) (kīfak) |
-| Maison | ![منزل](ar-lb_male_416f9f77ec0c.mp3) (manzil) | ![بيت](Social%20Sciences/Languages%20-%20Dialects/Arabe/Libanais/03-Communication/audio/ar-lb_male_3d375788f5cb.mp3) (beit) |
-| Beaucoup | ![كثيراً](ar-lb_male_36846a19b2a0.mp3) (kathīran) | ![كتير](Social%20Sciences/Languages%20-%20Dialects/Arabe/Libanais/03-Communication/audio/ar-lb_male_9886c14fd341.mp3) (ktīr) |
-| Voir | ![يرى](ar-lb_male_7b3081ac013e.mp3) (yarā) | ![يشوف](Social%20Sciences/Languages%20-%20Dialects/Arabe/Libanais/03-Communication/audio/ar-lb_male_2f76b4feb197.mp3) (yshūf) |
+| Je veux | ![أريد](audio/ar-lb_male_40b5664c7ce4.mp3) (urīd) | ![بدي](audio/ar-lb_male_7a13e1817809.mp3) (biddi) |
+| Maintenant | ![الآن](audio/ar-lb_male_30915af39402.mp3) (al-ān) | ![هلق](audio/ar-lb_male_8dbe6274343c.mp3) (halla2) |
+| Comment vas-tu ? | ![كيف حالك](audio/ar-lb_male_dd91fabd36a9.mp3) (kayfa 7āluk) | ![كيفك](audio/ar-lb_male_a80e37781f54.mp3) (kīfak) |
+| Maison | ![منزل](audio/ar-lb_male_416f9f77ec0c.mp3) (manzil) | ![بيت](audio/ar-lb_male_3d375788f5cb.mp3) (beit) |
+| Beaucoup | ![كثيراً](audio/ar-lb_male_36846a19b2a0.mp3) (kathīran) | ![كتير](audio/ar-lb_male_9886c14fd341.mp3) (ktīr) |
+| Voir | ![يرى](audio/ar-lb_male_7b3081ac013e.mp3) (yarā) | ![يشوف](audio/ar-lb_male_2f76b4feb197.mp3) (yshūf) |
 
 ### 2. Arabe libanais courant — dialecte urbain beyrouthin
 La langue du quotidien des Libanais éduqués. Mélange spontané d'arabe libanais, de français et d'anglais. C'est ce que vous entendrez dans les cafés, entre amis, en famille.
@@ -71,9 +71,9 @@ L'arabe libanais distingue le genre mais pas le niveau de politesse par les pron
 
 | Pronom | Usage |
 |--------|-------|
-| ![إنت](Social%20Sciences/Languages%20-%20Dialects/Arabe/Libanais/03-Communication/audio/ar-lb_male_62e8c3eb7a2e.mp3) (inta) — tu (m.) | neutre, s'utilise avec tout le monde |
-| ![إنتِ](Social%20Sciences/Languages%20-%20Dialects/Arabe/Libanais/03-Communication/audio/ar-lb_male_9de8d3240239.mp3) (inti) — tu (f.) | neutre, s'utilise avec tout le monde |
-| ![إنتو](Social%20Sciences/Languages%20-%20Dialects/Arabe/Libanais/03-Communication/audio/ar-lb_male_9cce374076bb.mp3) (intu) — vous (pl.) | pluriel uniquement, pas de vouvoiement singulier |
+| ![إنت](audio/ar-lb_male_62e8c3eb7a2e.mp3) (inta) — tu (m.) | neutre, s'utilise avec tout le monde |
+| ![إنتِ](audio/ar-lb_male_9de8d3240239.mp3) (inti) — tu (f.) | neutre, s'utilise avec tout le monde |
+| ![إنتو](audio/ar-lb_male_9cce374076bb.mp3) (intu) — vous (pl.) | pluriel uniquement, pas de vouvoiement singulier |
 
 La politesse formelle s'exprime par :
 - Le ton et les formules choisies
@@ -86,16 +86,16 @@ Ces formules traversent tous les registres et toutes les communautés confession
 
 | Formule | Libanais | Contexte |
 |---------|-------|---------|
-| Inshallah | ![إن شاء الله](Social%20Sciences/Languages%20-%20Dialects/Arabe/Libanais/03-Communication/audio/ar-lb_male_e2ce2ff30d61.mp3) | Espoir / incertitude polie / peut-être |
-| Hamdillah | ![الحمد لله](Social%20Sciences/Languages%20-%20Dialects/Arabe/Libanais/03-Communication/audio/ar-lb_male_ab1db12ff608.mp3) | Réponse à "comment ça va" / gratitude |
-| Yalla | ![يلا](ar-lb_male_0820f2b90153.mp3) | Allez / vite / OK (universel) |
-| Mabrook | ![مبروك](ar-lb_male_373d58c588d1.mp3) | Félicitations |
-| Tslam / Tsalmīli | ![تسلم](Social%20Sciences/Languages%20-%20Dialects/Arabe/Libanais/03-Communication/audio/ar-lb_male_f0eecb32c069.mp3) / ![تسلملي](ar-lb_male_24c31319f826.mp3) | Remerciement chaleureux (litt. "reste sain") |
-| Tkaram | ![تكرم](ar-lb_male_fd774a96f742.mp3) | Hospitalité / "faites donc" / "vous m'honorez" |
-| Allah yir7amo | ![الله يرحمه](ar-lb_male_812feaa6f37f.mp3) | Condoléances (litt. "Dieu ait son âme") |
-| Bi salamtak | ![بسلامتك](ar-lb_male_bee28c11c5b1.mp3) | "Bon retour" / après une maladie |
-| Sahha | ![صحة](ar-lb_male_e5a8fc5d4221.mp3) | Santé / après un repas ou un effort |
-| Sa77tein | ![صحتين](Social%20Sciences/Languages%20-%20Dialects/Arabe/Libanais/03-Communication/audio/ar-lb_male_4d63406516a5.mp3) | Bon appétit (litt. "deux santés") |
+| Inshallah | ![إن شاء الله](audio/ar-lb_male_e2ce2ff30d61.mp3) | Espoir / incertitude polie / peut-être |
+| Hamdillah | ![الحمد لله](audio/ar-lb_male_ab1db12ff608.mp3) | Réponse à "comment ça va" / gratitude |
+| Yalla | ![يلا](audio/ar-lb_male_0820f2b90153.mp3) | Allez / vite / OK (universel) |
+| Mabrook | ![مبروك](audio/ar-lb_male_373d58c588d1.mp3) | Félicitations |
+| Tslam / Tsalmīli | ![تسلم](audio/ar-lb_male_f0eecb32c069.mp3) / ![تسلملي](audio/ar-lb_male_24c31319f826.mp3) | Remerciement chaleureux (litt. "reste sain") |
+| Tkaram | ![تكرم](audio/ar-lb_male_fd774a96f742.mp3) | Hospitalité / "faites donc" / "vous m'honorez" |
+| Allah yir7amo | ![الله يرحمه](audio/ar-lb_male_812feaa6f37f.mp3) | Condoléances (litt. "Dieu ait son âme") |
+| Bi salamtak | ![بسلامتك](audio/ar-lb_male_bee28c11c5b1.mp3) | "Bon retour" / après une maladie |
+| Sahha | ![صحة](audio/ar-lb_male_e5a8fc5d4221.mp3) | Santé / après un repas ou un effort |
+| Sa77tein | ![صحتين](audio/ar-lb_male_4d63406516a5.mp3) | Bon appétit (litt. "deux santés") |
 
 ## Mots de remplissage (fillers)
 
@@ -103,11 +103,11 @@ Ces mots structurent le discours oral libanais. Les maîtriser donne une fluidit
 
 | Mot | Usage | Équivalent français |
 |-----|-------|---------------------|
-| ![يعني](Social%20Sciences/Languages%20-%20Dialects/Arabe/Libanais/03-Communication/audio/ar-lb_male_131f711ab69b.mp3) (ya3ni) | hésitation / c'est-à-dire | "euh" / "genre" / "c'est-à-dire" |
-| ![يلا](ar-lb_male_0820f2b90153.mp3) (yalla) | transition / accord / pression douce | "allez" / "bon" / "vas-y" |
-| ![هيك](Social%20Sciences/Languages%20-%20Dialects/Arabe/Libanais/03-Communication/audio/ar-lb_male_234df8c5d77d.mp3) (hēk) | comme ça / ainsi | "comme ça" / "voilà" |
-| ![شو بدك](ar-lb_male_c90b1076eb41.mp3) (shu biddak) | qu'est-ce que tu veux (rhétorique) | "qu'est-ce que tu veux" |
-| ![بس](Social%20Sciences/Languages%20-%20Dialects/Arabe/Libanais/03-Communication/audio/ar-lb_male_71132555ea24.mp3) (bass) | seulement / mais / stop | "mais" / "juste" / "suffisamment" |
-| ![هلق](Social%20Sciences/Languages%20-%20Dialects/Arabe/Libanais/03-Communication/audio/ar-lb_male_8dbe6274343c.mp3) (halla2) | maintenant / alors | "maintenant" / "donc" |
-| ![لأ](Social%20Sciences/Languages%20-%20Dialects/Arabe/Libanais/03-Communication/audio/ar-lb_male_f5a968fdbc18.mp3) (la2) | non | non |
-| ![آه](ar-lb_male_2105fb0d4170.mp3) (āh) | oui | oui |
+| ![يعني](audio/ar-lb_male_131f711ab69b.mp3) (ya3ni) | hésitation / c'est-à-dire | "euh" / "genre" / "c'est-à-dire" |
+| ![يلا](audio/ar-lb_male_0820f2b90153.mp3) (yalla) | transition / accord / pression douce | "allez" / "bon" / "vas-y" |
+| ![هيك](audio/ar-lb_male_234df8c5d77d.mp3) (hēk) | comme ça / ainsi | "comme ça" / "voilà" |
+| ![شو بدك](audio/ar-lb_male_c90b1076eb41.mp3) (shu biddak) | qu'est-ce que tu veux (rhétorique) | "qu'est-ce que tu veux" |
+| ![بس](audio/ar-lb_male_71132555ea24.mp3) (bass) | seulement / mais / stop | "mais" / "juste" / "suffisamment" |
+| ![هلق](audio/ar-lb_male_8dbe6274343c.mp3) (halla2) | maintenant / alors | "maintenant" / "donc" |
+| ![لأ](audio/ar-lb_male_f5a968fdbc18.mp3) (la2) | non | non |
+| ![آه](audio/ar-lb_male_2105fb0d4170.mp3) (āh) | oui | oui |

@@ -5,7 +5,6 @@ subdomain: "Languages - Dialects > Kabyle"
 tags: [sciences-sociales, langues, kabyle]
 date: "2026-02-04"
 ---
-
 # Mots Utiles en Kabyle
 
 ## Salutations
@@ -80,12 +79,13 @@ date: "2026-02-04"
 
 ## Expressions Utiles
 
-| Français | Kabyle |
-| :---: | :---: |
-| Comment tu t'appelles? | Amek isem-ik? |
-| Je m'appelle... | Isem-iw d... |
-| Tu parles kabyle? | Tettmeslayeḍ taqbaylit? |
-| Je ne comprends pas | Ur fhimeɣ ara |
-| Qu'est-ce que c'est? | D acu-t wa? |
-| Combien ça coûte? | Acḥal i yeswa? |
-| Où est...? | Anda yella...? |
+|        Français        |         Kabyle          |
+| :--------------------: | :---------------------: |
+| Comment tu t'appelles? |      Amek isem-ik?      |
+|    Je m'appelle...     |      Isem-iw d...       |
+|   Tu parles kabyle?    | Tettmeslayeḍ taqbaylit? |
+|     Je suis Kabyle     |     Nekini daqvayli     |
+|  Je ne comprends pas   |      Ur fhimeɣ ara      |
+|  Qu'est-ce que c'est?  |       D acu-t wa?       |
+|   Combien ça coûte?    |     Acḥal i yeswa?      |
+|       Où est...?       |     Anda yella...?      |

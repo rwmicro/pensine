@@ -29,21 +29,21 @@ La guerre civile libanaise (1975-1990) structure encore aujourd'hui la géograph
 
 | Mot | Libanais | Sens |
 |-----|-------|------|
-| ![الحرب](ar-lb_male_658eba6d5baf.mp3) | el-7arb | la guerre (la grande, celle de 75-90) |
-| ![الأحداث](ar-lb_male_4fa5c80a4047.mp3) | el-a7dāth | "les événements" — périphrase pudique pour la guerre |
-| ![الميليشيا](ar-lb_male_4b4243d2ac5f.mp3) | el-milīshia | la milice |
-| ![الحاجز](ar-lb_male_5990a4045764.mp3) | el-7ājez | le barrage (check-point) |
-| ![القناص](ar-lb_male_3923c8dd9417.mp3) | el-2annāS | le sniper |
-| ![الشارع الأخضر](ar-lb_male_fd46f22dfe28.mp3) | esh-shāri3 el-akhdar | la "ligne verte" — ligne de démarcation Beyrouth Est/Ouest |
-| ![التهجير](ar-lb_male_fff9b068e98c.mp3) | et-tahjīr | le déplacement forcé (populations) |
-| ![المفقود](ar-lb_male_60e5d149fcce.mp3) | el-mafqūd | le disparu — ~17 000 cas non résolus |
-| ![الاختطاف](ar-lb_male_0f23a7f532e0.mp3) | el-ikhtiTāf | enlèvement |
-| ![المخطوف](ar-lb_male_0fa19c22f67b.mp3) | el-makhTūf | personne enlevée |
-| ![القصف](ar-lb_male_d12d53c843e5.mp3) | el-qaSf | bombardement |
-| ![الملجأ](ar-lb_male_1c4b2ddc0cba.mp3) | el-malja2 | l'abri |
-| ![القذيفة](ar-lb_male_f3db2d647b04.mp3) | el-qazīfe | l'obus |
-| ![الاغتيال](ar-lb_male_29043cc60a59.mp3) | el-ightiyāl | l'assassinat politique |
-| ![العبور](ar-lb_male_0f3a4ef75c23.mp3) | el-3ubūr | traverser (la ligne verte, au péril de sa vie) |
+| ![الحرب](audio/ar-lb_male_658eba6d5baf.mp3) | el-7arb | la guerre (la grande, celle de 75-90) |
+| ![الأحداث](audio/ar-lb_male_4fa5c80a4047.mp3) | el-a7dāth | "les événements" — périphrase pudique pour la guerre |
+| ![الميليشيا](audio/ar-lb_male_4b4243d2ac5f.mp3) | el-milīshia | la milice |
+| ![الحاجز](audio/ar-lb_male_5990a4045764.mp3) | el-7ājez | le barrage (check-point) |
+| ![القناص](audio/ar-lb_male_3923c8dd9417.mp3) | el-2annāS | le sniper |
+| ![الشارع الأخضر](audio/ar-lb_male_fd46f22dfe28.mp3) | esh-shāri3 el-akhdar | la "ligne verte" — ligne de démarcation Beyrouth Est/Ouest |
+| ![التهجير](audio/ar-lb_male_fff9b068e98c.mp3) | et-tahjīr | le déplacement forcé (populations) |
+| ![المفقود](audio/ar-lb_male_60e5d149fcce.mp3) | el-mafqūd | le disparu — ~17 000 cas non résolus |
+| ![الاختطاف](audio/ar-lb_male_0f23a7f532e0.mp3) | el-ikhtiTāf | enlèvement |
+| ![المخطوف](audio/ar-lb_male_0fa19c22f67b.mp3) | el-makhTūf | personne enlevée |
+| ![القصف](audio/ar-lb_male_d12d53c843e5.mp3) | el-qaSf | bombardement |
+| ![الملجأ](audio/ar-lb_male_1c4b2ddc0cba.mp3) | el-malja2 | l'abri |
+| ![القذيفة](audio/ar-lb_male_f3db2d647b04.mp3) | el-qazīfe | l'obus |
+| ![الاغتيال](audio/ar-lb_male_29043cc60a59.mp3) | el-ightiyāl | l'assassinat politique |
+| ![العبور](audio/ar-lb_male_0f3a4ef75c23.mp3) | el-3ubūr | traverser (la ligne verte, au péril de sa vie) |
 
 ## Acteurs et factions
 
@@ -86,26 +86,26 @@ Les obsèques deviennent des rassemblements politiques, surtout après un assass
 
 | Lieu | Résonance |
 |------|-----------|
-| **![خط التماس](ar-lb_male_ead490f0fdd6.mp3)** (khaTT et-tamāss) | "Ligne de contact" — frontière Est/Ouest à Beyrouth |
-| **![البربير](ar-lb_male_3c2c4daaf2b5.mp3)** (el-Barbīr) | Quartier sur la ligne verte, symbole du conflit |
-| **![دوار السوديكو](ar-lb_male_3d2e4df0b936.mp3)** (Dawwār es-Sōdēkō) | Rond-point stratégique sur la ligne verte |
-| **![تل الزعتر](ar-lb_male_a6d88dcf78e6.mp3)** (Tall ez-Za3tar) | Camp palestinien rasé en 1976 |
-| **![صبرا وشاتيلا](ar-lb_male_d884c55d8d46.mp3)** (Sabra w Shātīla) | Massacres de septembre 1982 |
-| **![قانا](ar-lb_male_1e6da0c8469b.mp3)** (Qāna) | Massacres de 1996 et 2006 |
-| **![الحدث](ar-lb_male_5325a3572aca.mp3)** (el-7adath) | Banlieue sud de Beyrouth, théâtre de combats |
-| **![ميدان الشهداء](ar-lb_male_306d2f9342a3.mp3)** (Mīdān esh-Shuhadā2) | Place des Martyrs, détruite puis reconstruite |
-| **![قصر بيت الدين](ar-lb_male_cc94fb734f7e.mp3)** (Qasr Beit ed-Dīn) | Palais druze, symbole politique |
+| **![خط التماس](audio/ar-lb_male_ead490f0fdd6.mp3)** (khaTT et-tamāss) | "Ligne de contact" — frontière Est/Ouest à Beyrouth |
+| **![البربير](audio/ar-lb_male_3c2c4daaf2b5.mp3)** (el-Barbīr) | Quartier sur la ligne verte, symbole du conflit |
+| **![دوار السوديكو](audio/ar-lb_male_3d2e4df0b936.mp3)** (Dawwār es-Sōdēkō) | Rond-point stratégique sur la ligne verte |
+| **![تل الزعتر](audio/ar-lb_male_a6d88dcf78e6.mp3)** (Tall ez-Za3tar) | Camp palestinien rasé en 1976 |
+| **![صبرا وشاتيلا](audio/ar-lb_male_d884c55d8d46.mp3)** (Sabra w Shātīla) | Massacres de septembre 1982 |
+| **![قانا](audio/ar-lb_male_1e6da0c8469b.mp3)** (Qāna) | Massacres de 1996 et 2006 |
+| **![الحدث](audio/ar-lb_male_5325a3572aca.mp3)** (el-7adath) | Banlieue sud de Beyrouth, théâtre de combats |
+| **![ميدان الشهداء](audio/ar-lb_male_306d2f9342a3.mp3)** (Mīdān esh-Shuhadā2) | Place des Martyrs, détruite puis reconstruite |
+| **![قصر بيت الدين](audio/ar-lb_male_cc94fb734f7e.mp3)** (Qasr Beit ed-Dīn) | Palais druze, symbole politique |
 
 ## Formules courantes qui datent de la guerre
 
 | Expression | Sens | Origine |
 |-----------|------|---------|
-| ![أيام الحرب](ar-lb_male_9a07c34d1ec5.mp3) | ayyām el-7arb | "les jours de la guerre" — pour évoquer la période |
-| ![من وقت الحرب](ar-lb_male_831d91a3e6de.mp3) | min wa2t el-7arb | depuis la guerre (durable) |
-| ![رجعنا على الأيام السودا](ar-lb_male_f955f25f65b5.mp3) | rji3na 3a l-ayyām es-sōda | "on est revenus aux jours noirs" (signe d'inquiétude) |
-| ![الحمد لله ما قتل حدا](ar-lb_male_c6b059e286be.mp3) | el-7amdillah mā 2atal 7ada | "Dieu merci personne n'est mort" (après un incident) |
-| ![يسلمو راسكم](ar-lb_male_ed93f4c2817f.mp3) | yislamu rāskon | condoléances (litt. "que vos têtes soient saines") |
-| ![كنا عم نسمع القصف](ar-lb_male_5c8cd08de953.mp3) | kinna 3am nisma3 el-qaSf | "on entendait les bombardements" |
+| ![أيام الحرب](audio/ar-lb_male_9a07c34d1ec5.mp3) | ayyām el-7arb | "les jours de la guerre" — pour évoquer la période |
+| ![من وقت الحرب](audio/ar-lb_male_831d91a3e6de.mp3) | min wa2t el-7arb | depuis la guerre (durable) |
+| ![رجعنا على الأيام السودا](audio/ar-lb_male_f955f25f65b5.mp3) | rji3na 3a l-ayyām es-sōda | "on est revenus aux jours noirs" (signe d'inquiétude) |
+| ![الحمد لله ما قتل حدا](audio/ar-lb_male_c6b059e286be.mp3) | el-7amdillah mā 2atal 7ada | "Dieu merci personne n'est mort" (après un incident) |
+| ![يسلمو راسكم](audio/ar-lb_male_ed93f4c2817f.mp3) | yislamu rāskon | condoléances (litt. "que vos têtes soient saines") |
+| ![كنا عم نسمع القصف](audio/ar-lb_male_5c8cd08de953.mp3) | kinna 3am nisma3 el-qaSf | "on entendait les bombardements" |
 
 ## Tabous conversationnels
 
