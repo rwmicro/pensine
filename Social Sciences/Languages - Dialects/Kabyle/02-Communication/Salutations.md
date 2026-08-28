@@ -5,7 +5,7 @@ subdomain: "Languages - Dialects > Kabyle > 03-Communication"
 tags: [sciences-sociales, langues, kabyle, taqbaylit, communication, salutations, berbère]
 date: "2026-04-01"
 ---
-# Salutations — Kabyle (Taqbaylit)
+# Salutations - Kabyle (Taqbaylit)
 
 ## Salutations de base
 

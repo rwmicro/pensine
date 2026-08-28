@@ -11,22 +11,24 @@ Phrases de base en kabyle (écriture latine). Le tifinagh équivalent est indiqu
 
 ## Salutations
 
-| Français            | Kabyle                      | Tifinagh  | Notes                                    |
-| ------------------- | --------------------------- | --------- | ---------------------------------------- |
-| Bonjour (universel) | Azul                        | ⴰⵣⵓⵍ      | Matin, après-midi, soir                  |
-| Bienvenue           | Ansuf-ik (m) / Ansuf-im (f) |           | Selon le genre de la personne            |
-| Comment vas-tu ?    | Amek telliḍ?                |           |                                          |
-| Bien, merci         | Labes, tanemmirt            |           | Labes de l'arabe "lā ba's"               |
-| Pas mal             | Mačči d wahš                |           | Littéralement "pas mauvais"              |
-| Au revoir           | Ar tufat                    |           | Littéralement "à la prochaine clarté"    |
-| Bonne nuit          | Iḍes-ik yelhu               |           | Littéralement "que ton sommeil soit bon" |
-| Oui                 | Ih / Yah                    |           |                                          |
-| Non                 | Ala / Uhu                   |           |                                          |
-| Merci               | Tanemmirt                   | ⵜⴰⵏⴻⵎⵎⵉⵔⵜ |                                          |
-| Merci beaucoup      | Tanemmirt aṭas              |           |                                          |
-| S'il te plaît       | Bɣiɣ / Ma yella             |           |                                          |
-| Pardon / Excuse-moi | Smaḥ iyi                    |           | Littéralement "pardonne-moi"             |
-| De rien             | Ulac abrid                  |           |                                          |
+| Français            | Kabyle                                      | Tifinagh  | Notes                                    |
+| ------------------- | ------------------------------------------- | --------- | ---------------------------------------- |
+| Bonjour (universel) | Azul                                        | ⴰⵣⵓⵍ      | Matin, après-midi, soir                  |
+| Bienvenue           | Ansuf-ik (m) / Ansuf-im (f)                 |           | Selon le genre de la personne            |
+| Comment vas-tu ?    | Amek telliḍ? (Garçon) / Amek tgad ? (fille) |           |                                          |
+| Bien, merci         | Labes, tanemmirt                            |           | Labes de l'arabe "lā ba's"               |
+| Et toi ?            | ketchini ?                                  |           |                                          |
+| Pas mal             | Mačči d wahš                                |           | Littéralement "pas mauvais"              |
+| Au revoir           | Ar tufat                                    |           | Littéralement "à la prochaine clarté"    |
+| Bonne nuit          | Iḍes-ik yelhu / Id ameggaz                  |           | Littéralement "que ton sommeil soit bon" |
+| Dors Bien           | tirga yelhan                                |           |                                          |
+| Oui                 | Ih / Yah                                    |           |                                          |
+| Non                 | Ala / Uhu                                   |           |                                          |
+| Merci               | Tanemmirt / Sahit                           | ⵜⴰⵏⴻⵎⵎⵉⵔⵜ |                                          |
+| Merci beaucoup      | Tanemmirt aṭas                              |           |                                          |
+| S'il te plaît       | Bɣiɣ / Ma yella                             |           |                                          |
+| Pardon / Excuse-moi | Smaḥ iyi                                    |           | Littéralement "pardonne-moi"             |
+| De rien             | Ulac abrid / Ulach ughilif                  |           |                                          |
 
 ## Se présenter
 
@@ -87,13 +89,15 @@ Phrases de base en kabyle (écriture latine). Le tifinagh équivalent est indiqu
 
 ## Expressions utiles
 
-| Français                 | Kabyle            |
-| ------------------------ | ----------------- |
-| C'est vrai               | D tidett          |
-| C'est faux               | Mačči d tidett    |
-| Je ne sais pas           | Ur ssineɣ ara     |
-| Peut-être                | Yimken            |
-| Vraiment ?               | D tidett?         |
-| Bravo !                  | Ih, aywa !        |
-| Attention !              | Ẓẓu               |
-| Inchallah (si Dieu veut) | Akken yebɣa Rebbi |
+| Français                     | Kabyle            |
+| ---------------------------- | ----------------- |
+| C'est vrai                   | D tidett          |
+| C'est faux                   | Mačči d tidett    |
+| Je ne sais pas               | Ur ssineɣ ara     |
+| Peut-être                    | Yimken            |
+| Vraiment ?                   | D tidett?         |
+| Bravo !                      | Ih, aywa !        |
+| Attention !                  | Ẓẓu               |
+| Inchallah (si Dieu veut)     | Akken yebɣa Rebbi |
+| Rien                         | Ulach             |
+| on laisse faire on verra<br> | Kima jat jat      |

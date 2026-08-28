@@ -76,18 +76,18 @@ La voyelle **e** en kabyle est un schwa /ə/ — très bref, parfois à peine pr
 ## Tifinagh (écriture traditionnelle)
 
 | Latin | Tifinagh | Latin | Tifinagh |
-|-------|----------|-------|----------|
-| A | ⴰ | N | ⵏ |
-| B | ⴱ | Q | ⵇ |
-| G | ⴳ | R | ⵔ |
-| D | ⴷ | S | ⵙ |
-| F | ⴼ | T | ⵜ |
-| K | ⴽ | W | ⵡ |
-| L | ⵍ | X | ⵅ |
-| M | ⵎ | Y | ⵢ |
+| ----- | -------- | ----- | -------- |
+| A     | ⴰ        | N     | ⵏ        |
+| B     | ⴱ        | Q     | ⵇ        |
+| G     | ⴳ        | R     | ⵔ        |
+| D     | ⴷ        | S     | ⵙ        |
+| F     | ⴼ        | T     | ⵜ        |
+| K     | ⴽ        | W     | ⵡ        |
+| L     | ⵍ        | X     | ⵅ        |
+| M     | ⵎ        | Y     | ⵢ        |
+|       |          | Z     | ⵣ        |
 
 ## Accent et rythme
-
 Le kabyle est une langue à **accent de mot** plutôt qu'une langue tonale. L'accent est généralement prévisible.
 
 La **syllabation** est complexe car le kabyle tolère des groupes consonantiques importants : *taddart* (village), *axxam* (maison), *tameṭṭut* (femme).
