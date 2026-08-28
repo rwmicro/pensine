@@ -1,7 +1,7 @@
 ---
 title: "Dialogues en Situation — Azéri"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Azéri > 03-Communication"
+subdomain: "Languages - Dialects > Azéri > 02-Communication"
 tags: [sciences-sociales, langues, azeri, azerbaijani, communication, dialogues, situations]
 date: "2026-04-22"
 ---
@@ -32,8 +32,6 @@ Azéri parlé courant, avec traduction française.
 **Ofisiant :** Dörd manat.
 *Quatre manats.*
 
----
-
 ## 2. Prendre un taxi à Bakou
 
 **Sərnişin :** Salam, Səbail rayonuna getmək istəyirəm.
@@ -60,8 +58,6 @@ Azéri parlé courant, avec traduction française.
 **Sürücü :** Tıxac var. Otuz dəqiqə.
 *Il y a des embouteillages. Trente minutes.*
 
----
-
 ## 3. Au marché de Teze Bazar
 
 **Alıcı :** Salam, nar neçəyədir kilosu?
@@ -87,8 +83,6 @@ Azéri parlé courant, avec traduction française.
 
 **Satıcı :** Altı manat yetmiş.
 *Six manats soixante-dix.*
-
----
 
 ## 4. Visite chez une famille azérie
 
@@ -118,8 +112,6 @@ Azéri parlé courant, avec traduction française.
 
 **Ev sahibi :** Nuş olsun. Daha alın!
 *Bon appétit. Servez-vous encore !*
-
----
 
 ## 5. À la gare — acheter un billet de train
 
@@ -152,8 +144,6 @@ Azéri parlé courant, avec traduction française.
 
 **Kassir :** Üçüncü platforma. Yaxşı yol.
 *Voie numéro trois. Bon voyage.*
-
----
 
 ## 6. Demander son chemin dans la vieille ville
 

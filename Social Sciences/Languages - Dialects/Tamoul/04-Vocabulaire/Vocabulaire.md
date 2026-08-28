@@ -403,6 +403,6 @@ date: "2025-12-31"
 - **Glosbe** : Dictionnaire multilingue
 
 ## Liens
-- [[Alphabet]] - Écriture tamoule
-- [[Grammar]] - Grammaire tamoule
-- [[Languages - Dialects/Hindi/Vocabulary]] - Comparaison avec Hindi
+- [[Social Sciences/Languages - Dialects/Tamoul/01-Phonologie/Alphabet-Prononciation|Alphabet]] - Écriture tamoule
+- [[Social Sciences/Languages - Dialects/Tamoul/03-Grammaire/Grammaire|Grammaire]] - Grammaire tamoule
+- [[Social Sciences/Languages - Dialects/Hindi/04-Vocabulaire/Vocabulaire|Vocabulaire Hindi]] - Comparaison avec Hindi

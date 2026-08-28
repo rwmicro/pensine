@@ -1,7 +1,7 @@
 ---
 title: "Dialogues en Situation — Espagnol"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Espagnol > 03-Communication"
+subdomain: "Languages - Dialects > Espagnol > 02-Communication"
 tags: [sciences-sociales, langues, espagnol, spanish, communication, dialogues, situations]
 date: "2026-04-23"
 ---
@@ -32,8 +32,6 @@ Espagnol courant, registre neutre, traduction française sous chaque échange.
 **Camarero :** Ahora mismo os lo traigo.
 *Je vous apporte ça tout de suite.*
 
----
-
 ## 2. Prendre un taxi à Mexico
 
 **Pasajero :** Buenas tardes, ¿me lleva a la Condesa, por favor?
@@ -60,8 +58,6 @@ Espagnol courant, registre neutre, traduction française sous chaque échange.
 **Taxista :** Con mucho gusto.
 *Avec plaisir.*
 
----
-
 ## 3. Au marché (Amérique latine)
 
 **Clienta :** Buenas, ¿cómo está? ¿A cuánto el kilo de aguacate?
@@ -87,8 +83,6 @@ Espagnol courant, registre neutre, traduction française sous chaque échange.
 
 **Vendedor :** Cien pesos, mi reina. ¿Algo más?
 *Cent pesos, ma reine. Autre chose ?*
-
----
 
 ## 4. Visite chez une famille hispanique
 
@@ -125,8 +119,6 @@ Espagnol courant, registre neutre, traduction française sous chaque échange.
 **Anfitriona :** Muchas gracias, come todo lo que quieras.
 *Merci beaucoup, mange autant que tu veux.*
 
----
-
 ## 5. À la gare — acheter un billet de train
 
 **Cliente :** Buenos días, quisiera un billete para Barcelona.
@@ -155,8 +147,6 @@ Espagnol courant, registre neutre, traduction française sous chaque échange.
 
 **Cliente :** Muchas gracias.
 *Merci beaucoup.*
-
----
 
 ## 6. Demander son chemin en ville
 

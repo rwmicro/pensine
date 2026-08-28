@@ -1,7 +1,7 @@
 ---
 title: "Phrases Essentielles — Anglais"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Anglais > 03-Communication"
+subdomain: "Languages - Dialects > Anglais > 02-Communication"
 tags: [sciences-sociales, langues, anglais, survie, communication]
 date: "2026-03-27"
 ---

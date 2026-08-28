@@ -1,7 +1,7 @@
 ---
 title: "Phrases Essentielles — Malais"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Malais > 03-Communication"
+subdomain: "Languages - Dialects > Malais > 02-Communication"
 tags: [sciences-sociales, langues, malais, survie, communication]
 date: "2026-03-27"
 ---

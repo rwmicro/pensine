@@ -21,7 +21,7 @@ Le **tamoul** (தமிழ் - tamiḻ) est une langue **dravidienne** parlée
 - **Diglossie** marquée : Tamoul littéraire vs. parlé très différents
 - Une des plus anciennes langues vivantes (littérature de 2000+ ans)
 
-**Écriture :** [[Alphabet]] - Script tamoul (syllabaire)
+**Écriture :** [[Social Sciences/Languages - Dialects/Tamoul/01-Phonologie/Alphabet-Prononciation|Alphabet]] - Script tamoul (syllabaire)
 
 ## Diglossie : Tamoul Littéraire vs. Parlé
 
@@ -470,7 +470,7 @@ Le **pluriel** peut indiquer le **respect** (comme "vous" en français).
 - **Tamil Lessons by Kausalya** (prononciation)
 
 ## Liens
-- [[Alphabet]] - Script tamoul
-- [[Vocabulary]] - Vocabulaire de base
-- [[Languages - Dialects/Hindi/Grammar]] - Comparaison avec langue indo-aryenne
-- [[Languages - Dialects/Indonésien/Grammar/Sentence Structure]] - Autre langue SOV
+- [[Social Sciences/Languages - Dialects/Tamoul/01-Phonologie/Alphabet-Prononciation|Alphabet]] - Script tamoul
+- [[Social Sciences/Languages - Dialects/Tamoul/04-Vocabulaire/Vocabulaire|Vocabulaire]] - Vocabulaire de base
+- [[Social Sciences/Languages - Dialects/Hindi/03-Grammaire/Grammaire|Grammaire Hindi]] - Comparaison avec langue indo-aryenne
+- [[Social Sciences/Languages - Dialects/Indonésien/03-Grammaire/Structure-Phrase|Structure de phrase - Indonésien]] - Autre langue SOV

@@ -8,7 +8,7 @@ date: "2026-02-19"
 
 # Outils et Ustensiles - Sambas
 
-## 🔨 Outils agricoles
+## Outils agricoles
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|

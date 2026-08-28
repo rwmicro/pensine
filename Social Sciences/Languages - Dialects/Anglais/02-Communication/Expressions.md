@@ -165,5 +165,4 @@ date: "2025-12-31"
 - **Books:** *Oxford Dictionary of Idioms*, *The American Heritage Dictionary of Idioms*
 
 ## Links
-- [[Certification anglais Harvard]] - Academic English resources
-- [[Languages - Dialects/Anglais/Times/Present Simple]] - Grammar foundations
+- [[Certification-Anglais-Harvard]] - Academic English resources

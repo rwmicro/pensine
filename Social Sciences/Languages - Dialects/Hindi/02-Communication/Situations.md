@@ -1,7 +1,7 @@
 ---
 title: "Dialogues en Situation — Hindi"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Hindi > 03-Communication"
+subdomain: "Languages - Dialects > Hindi > 02-Communication"
 tags: [sciences-sociales, langues, hindi, communication, dialogues, situations]
 date: "2026-04-01"
 ---
@@ -33,8 +33,6 @@ date: "2026-04-01"
 **Das rupaye.**
 *Dix roupies.*
 
----
-
 ## 2. Prendre un auto-rickshaw
 
 **Passager :** भैया, कनॉट प्लेस चलोगे ?
@@ -61,8 +59,6 @@ date: "2026-04-01"
 **Traffic ke hisaab se — aadha ghanta.**
 *Selon le trafic — une demi-heure.*
 
----
-
 ## 3. Au marché — marchandage
 
 **Client :** यह आम कितने के हैं ?
@@ -88,8 +84,6 @@ date: "2026-04-01"
 **Vendeur :** लो जी। बहुत मीठे हैं, खाकर देखना।
 **Lo ji. Bahut meethe hain, khaakar dekhna.**
 *Voilà. Ils sont très sucrés, goûtez.*
-
----
 
 ## 4. Se présenter à une famille indienne
 
@@ -120,8 +114,6 @@ date: "2026-04-01"
 **Hôte :** वाह ! हिन्दी तो बहुत अच्छी बोलते हैं आप !
 **Waah! Hindi to bahut achhi bolte hain aap!**
 *Waouh ! Vous parlez très bien hindi !*
-
----
 
 ## 5. À la gare — acheter un billet
 

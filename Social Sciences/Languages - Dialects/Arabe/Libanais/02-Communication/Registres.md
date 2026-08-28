@@ -1,7 +1,7 @@
 ---
 title: "Registres — Arabe Libanais"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Arabe-Libanais > 03-Communication"
+subdomain: "Languages - Dialects > Arabe-Libanais > 02-Communication"
 tags: [sciences-sociales, langues, arabe, arabe-libanais, registres, diglossie]
 date: "2026-03-31"
 ---

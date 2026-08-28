@@ -1,7 +1,7 @@
 ---
 title: "Insultes et Jurons — Arabe Libanais"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Arabe-Libanais > 03-Communication"
+subdomain: "Languages - Dialects > Arabe-Libanais > 02-Communication"
 tags: [sciences-sociales, langues, arabe, arabe-libanais, insultes, registre-vulgaire]
 date: "2026-04-14"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Dialogues en Situation — Tamil"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Tamoul > 03-Communication"
+subdomain: "Languages - Dialects > Tamoul > 02-Communication"
 tags: [sciences-sociales, langues, tamil, communication, dialogues, situations]
 date: "2026-04-01"
 ---
@@ -35,8 +35,6 @@ Tamoul parlé (koccai Tamil). Phonétique en romanisation approximative.
 **Kanakku evvalavu?**
 *C'est combien l'addition ?*
 
----
-
 ## 2. Prendre un auto-rickshaw
 
 **Passager:** அண்ணா, மெரினா பீச் போவீங்களா ?
@@ -63,8 +61,6 @@ Tamoul parlé (koccai Tamil). Phonétique en romanisation approximative.
 **Enga kitta niruththanum?**
 *Où vous arrêter ?*
 
----
-
 ## 3. Au marché — acheter des légumes
 
 **Client:** கத்திரிக்காய் கிலோ எவ்வளவு ?
@@ -86,8 +82,6 @@ Tamoul parlé (koccai Tamil). Phonétique en romanisation approximative.
 **Client:** சரி, ரெண்டு கிலோ குடுங்க. தக்காளியும் வேணும்.
 **Sari, rendu kilo kuduga. Thakkaalyium venum.**
 *OK, donnez-m'en deux kilos. Je veux aussi des tomates.*
-
----
 
 ## 4. Rencontrer une famille tamoule
 
@@ -122,8 +116,6 @@ Tamoul parlé (koccai Tamil). Phonétique en romanisation approximative.
 **Invité:** கொஞ்சம் கொஞ்சமா கத்துக்கிட்டு இருக்கேன்.
 **Konjam konjamaa kaththukkittu irukkein.**
 *J'apprends petit à petit.*
-
----
 
 ## 5. À la gare — Chennai Central
 

@@ -1,7 +1,7 @@
 ---
 title: "Phrases Essentielles — Kabyle"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Kabyle > 03-Communication"
+subdomain: "Languages - Dialects > Kabyle > 02-Communication"
 tags: [sciences-sociales, langues, kabyle, survie, communication]
 date: "2026-03-27"
 ---

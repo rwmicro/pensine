@@ -1,7 +1,7 @@
 ---
 title: "Registres de Langue — Espagnol"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Espagnol > 03-Communication"
+subdomain: "Languages - Dialects > Espagnol > 02-Communication"
 tags: [sciences-sociales, langues, espagnol, spanish, communication, registres, dialectologie, sociolinguistique]
 date: "2026-04-23"
 ---

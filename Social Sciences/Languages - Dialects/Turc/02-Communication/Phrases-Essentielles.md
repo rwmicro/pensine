@@ -1,7 +1,7 @@
 ---
 title: "Phrases Essentielles — Turc"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Turc > 03-Communication"
+subdomain: "Languages - Dialects > Turc > 02-Communication"
 tags: [sciences-sociales, langues, turc, survie, communication]
 date: "2026-03-27"
 ---

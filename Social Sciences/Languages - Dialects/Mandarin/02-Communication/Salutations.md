@@ -1,7 +1,7 @@
 ---
 title: "Salutations — Mandarin"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Mandarin > 03-Communication"
+subdomain: "Languages - Dialects > Mandarin > 02-Communication"
 tags: [sciences-sociales, langues, mandarin, chinois, communication, salutations]
 date: "2026-04-28"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Dialogues en Situation — Arabe Libanais"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Arabe-Libanais > 03-Communication"
+subdomain: "Languages - Dialects > Arabe-Libanais > 02-Communication"
 tags: [sciences-sociales, langues, arabe, arabe-libanais, communication, dialogues, situations]
 date: "2026-04-01"
 ---
@@ -31,8 +31,6 @@ Dialogues authentiques avec translittération et traduction. Les répliques sont
 **A:** Shukran ktīr! Sar-li tlēt shhūr. Bass lēzem ita3allam ktīr.
 *Merci beaucoup ! Ça fait trois mois. Mais j'ai encore beaucoup à apprendre.*
 
----
-
 ## 2. Au café
 
 **Client:** صباح الخير! فيك تعطيني قهوة؟
@@ -58,8 +56,6 @@ Dialogues authentiques avec translittération et traduction. Les répliques sont
 **Serveur:** خمسة آلاف ليرة.
 **Serveur:** Khamse tlēf lira.
 *Cinq mille livres.*
-
----
 
 ## 3. Prendre un taxi / service
 
@@ -91,8 +87,6 @@ Dialogues authentiques avec translittération et traduction. Les répliques sont
 **Client:** Oki, yalla.
 *OK, allons-y.*
 
----
-
 ## 4. Au restaurant — commander un mezze
 
 **Serveur:** تفضلو، شو بتحبو تاكلو؟
@@ -118,8 +112,6 @@ Dialogues authentiques avec translittération et traduction. Les répliques sont
 **Client:** مي، من فضلك. وعصير ليمون لو سمحت.
 **Client:** Mayy, min fadlak. W 3aSīr leimūn law sama7t.
 *De l'eau, s'il te plaît. Et un jus de citron s'il te plaît.*
-
----
 
 ## 5. Chez le médecin
 
@@ -151,8 +143,6 @@ Dialogues authentiques avec translittération et traduction. Les répliques sont
 **Médecin:** Rah aktublak waSSfe. Khod ed-dawa tlēt marrāt bil-yōm ba3d el-akl.
 *Je vais t'écrire une ordonnance. Prends le médicament trois fois par jour après les repas.*
 
----
-
 ## 6. Shopping au marché
 
 **Client:** بكم هالتفاح؟
@@ -174,8 +164,6 @@ Dialogues authentiques avec translittération et traduction. Les répliques sont
 **Client:** شكراً حبيبي! بدي كمان كيلو بندورة وكيلو خيار.
 **Client:** Shukran 7abībi! Biddi kamān kīlo bandōra w kīlo khyār.
 *Merci mon ami ! Je veux aussi un kilo de tomates et un kilo de concombres.*
-
----
 
 ## 7. Se retrouver entre amis
 

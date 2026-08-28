@@ -8,7 +8,7 @@ date: "2026-02-19"
 
 # Maison et Objets Domestiques - Sambas
 
-## 🏠 Meubles et structure
+## Meubles et structure
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|

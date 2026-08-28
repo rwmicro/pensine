@@ -1,7 +1,7 @@
 ---
 title: "Registres du Sambas"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Sambas > 03-Communication"
+subdomain: "Languages - Dialects > Sambas > 02-Communication"
 tags: [sciences-sociales, langues, sambas, registres, sociolinguistique]
 date: "2026-03-27"
 ---

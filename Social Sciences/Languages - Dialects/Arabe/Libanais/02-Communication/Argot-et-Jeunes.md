@@ -1,7 +1,7 @@
 ---
 title: "Argot et Langue des Jeunes — Arabe Libanais"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Arabe-Libanais > 03-Communication"
+subdomain: "Languages - Dialects > Arabe-Libanais > 02-Communication"
 tags: [sciences-sociales, langues, arabe, arabe-libanais, argot, jeunes, reseaux-sociaux]
 date: "2026-04-14"
 ---

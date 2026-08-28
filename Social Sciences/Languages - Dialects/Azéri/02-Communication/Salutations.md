@@ -1,7 +1,7 @@
 ---
 title: "Salutations — Azéri"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Azéri > 03-Communication"
+subdomain: "Languages - Dialects > Azéri > 02-Communication"
 tags: [sciences-sociales, langues, azeri, azerbaijani, communication, salutations]
 date: "2026-04-22"
 ---

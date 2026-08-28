@@ -1,7 +1,7 @@
 ---
 title: "Dialogues en Situation — Bahasa Malaysia"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Malais > 03-Communication"
+subdomain: "Languages - Dialects > Malais > 02-Communication"
 tags: [sciences-sociales, langues, malais, malaisian, communication, dialogues, situations]
 date: "2026-04-01"
 ---
@@ -32,8 +32,6 @@ Bahasa Malaysia parlé, registre courant. Traduction française sous chaque éch
 **Pelayan :** Lapan ringgit sahaja.
 *Huit ringgit seulement.*
 
----
-
 ## 2. Prendre un grab / taxi
 
 **Penumpang (passager) :** Bang, ke KLCC boleh tak?
@@ -56,8 +54,6 @@ Bahasa Malaysia parlé, registre courant. Traduction française sous chaque éch
 
 **Penumpang :** Terima kasih. Berhenti depan pintu masuk utama, ya.
 *Merci. Arrêtez-vous devant l'entrée principale, hein.*
-
----
 
 ## 3. Au marché (pasar pagi)
 
@@ -82,8 +78,6 @@ Bahasa Malaysia parlé, registre courant. Traduction française sous chaque éch
 **Pembeli :** Takpe, ada beg sendiri.
 *Non merci, j'ai mon sac.*
 
----
-
 ## 4. Chez une famille malaise
 
 **Tuan rumah (hôte) :** Wah, lama tak jumpa! Jemput masuk, jemput masuk.
@@ -106,8 +100,6 @@ Bahasa Malaysia parlé, registre courant. Traduction française sous chaque éch
 
 **Tuan rumah :** Makan banyak-banyak, jangan segan.
 *Mangez bien, ne soyez pas gêné.*
-
----
 
 ## 5. À la clinique / pharmacie
 
@@ -134,8 +126,6 @@ Bahasa Malaysia parlé, registre courant. Traduction française sous chaque éch
 
 **Doktor :** Kalau tiga hari tak baik, datanglah balik.
 *Si dans trois jours ça ne va pas mieux, revenez.*
-
----
 
 ## 6. Demander son chemin
 

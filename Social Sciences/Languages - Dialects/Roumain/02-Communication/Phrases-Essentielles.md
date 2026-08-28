@@ -1,7 +1,7 @@
 ---
 title: "Phrases Essentielles — Roumain"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Roumain > 03-Communication"
+subdomain: "Languages - Dialects > Roumain > 02-Communication"
 tags: [sciences-sociales, langues, roumain, survie, communication]
 date: "2026-03-27"
 ---

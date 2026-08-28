@@ -8,7 +8,7 @@ date: "2026-02-19"
 
 # Nombres et Mesures - Sambas
 
-## 🔢 Nombres
+## Nombres
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|

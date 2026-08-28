@@ -1,7 +1,7 @@
 ---
 title: "Phrases Essentielles — Tamoul"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Tamoul > 03-Communication"
+subdomain: "Languages - Dialects > Tamoul > 02-Communication"
 tags: [sciences-sociales, langues, tamil, survie, communication]
 date: "2026-03-27"
 ---

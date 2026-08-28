@@ -8,7 +8,7 @@ date: "2026-02-19"
 
 # Corps Humain et Santé - Sambas
 
-## 🧍 Parties du corps
+## Parties du corps
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|

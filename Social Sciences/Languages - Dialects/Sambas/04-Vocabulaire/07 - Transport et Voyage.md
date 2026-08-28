@@ -8,7 +8,7 @@ date: "2026-02-19"
 
 # Transport et Voyage - Sambas
 
-## 🚣 Transport et voyage
+## Transport et voyage
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|

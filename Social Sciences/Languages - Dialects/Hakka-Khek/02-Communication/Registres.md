@@ -1,7 +1,7 @@
 ---
 title: "Registres du Hakka"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Hakka-Khek > 03-Communication"
+subdomain: "Languages - Dialects > Hakka-Khek > 02-Communication"
 tags: [sciences-sociales, langues, hakka, registres, sociolinguistique]
 date: "2026-03-27"
 ---

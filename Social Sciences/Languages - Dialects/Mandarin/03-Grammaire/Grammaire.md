@@ -1,7 +1,7 @@
 ---
 title: "Grammaire — Mandarin"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Mandarin > 02-Grammaire"
+subdomain: "Languages - Dialects > Mandarin > 03-Grammaire"
 tags: [sciences-sociales, langues, mandarin, chinois, grammaire, syntaxe]
 date: "2026-04-28"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Registres de Langue — Mandarin"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Mandarin > 03-Communication"
+subdomain: "Languages - Dialects > Mandarin > 02-Communication"
 tags: [sciences-sociales, langues, mandarin, chinois, communication, registres, sociolinguistique]
 date: "2026-04-28"
 ---

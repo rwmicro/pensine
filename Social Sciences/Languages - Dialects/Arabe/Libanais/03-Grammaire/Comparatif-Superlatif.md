@@ -1,7 +1,7 @@
 ---
 title: "Comparatif et Superlatif — Arabe Libanais"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Arabe-Libanais > 02-Grammaire"
+subdomain: "Languages - Dialects > Arabe-Libanais > 03-Grammaire"
 tags: [sciences-sociales, langues, arabe, arabe-libanais, grammaire, comparatif, superlatif]
 date: "2026-04-14"
 ---

@@ -8,7 +8,7 @@ date: "2026-02-19"
 
 # Nourriture et Boisson - Sambas
 
-## 🍚 Plats et aliments
+## Plats et aliments
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|

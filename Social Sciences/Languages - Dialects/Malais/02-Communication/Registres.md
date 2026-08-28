@@ -1,7 +1,7 @@
 ---
 title: "Registres du Malais — Anda / Awak / Kamu / Engkau"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Malais > 03-Communication"
+subdomain: "Languages - Dialects > Malais > 02-Communication"
 tags: [sciences-sociales, langues, malais, registres, politesse]
 date: "2026-03-27"
 ---

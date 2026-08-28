@@ -1,7 +1,7 @@
 ---
 title: "Pronoms et Caractéristiques — Sambas"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Sambas > 02-Grammaire"
+subdomain: "Languages - Dialects > Sambas > 03-Grammaire"
 tags: [sciences-sociales, langues, sambas, grammaire, pronoms]
 date: "2026-02-04"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Pronoms (Kata Ganti)"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Indonésien > 02-Grammaire"
+subdomain: "Languages - Dialects > Indonésien > 03-Grammaire"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
 ---

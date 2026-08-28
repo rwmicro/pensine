@@ -1,7 +1,7 @@
 ---
 title: "Registres du Kabyle"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Kabyle > 03-Communication"
+subdomain: "Languages - Dialects > Kabyle > 02-Communication"
 tags: [sciences-sociales, langues, kabyle, registres, sociolinguistique]
 date: "2026-03-27"
 ---

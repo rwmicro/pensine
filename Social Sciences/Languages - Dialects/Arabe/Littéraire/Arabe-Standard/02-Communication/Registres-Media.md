@@ -1,7 +1,7 @@
 ---
 title: "Registres et Arabe Médiatique — Arabe Standard"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Arabe-Standard > 03-Communication"
+subdomain: "Languages - Dialects > Arabe-Standard > 02-Communication"
 tags: [sciences-sociales, langues, arabe, arabe-standard, fusha, médias, registres]
 date: "2026-08-08"
 ---
