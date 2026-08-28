@@ -1,7 +1,7 @@
 ---
 title: "Dialogues en Situation — Anglais"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Anglais > 03-Communication"
+subdomain: "Languages - Dialects > Anglais > 02-Communication"
 tags: [sciences-sociales, langues, anglais, communication, dialogues, situations]
 date: "2026-04-01"
 ---
@@ -29,8 +29,6 @@ date: "2026-04-01"
 
 **Candidate:** Yes — could you tell me more about the team I'd be working with, and what does success look like in this role?
 
----
-
 ## 2. Chez le médecin (At the Doctor's)
 
 **Doctor:** Good morning. What seems to be the problem?
@@ -55,8 +53,6 @@ date: "2026-04-01"
 
 **Doctor:** Yes, just in case. Book one for next Friday at the desk on your way out.
 
----
-
 ## 3. Au restaurant (At a Restaurant)
 
 **Waiter:** Good evening. Do you have a reservation?
@@ -78,8 +74,6 @@ date: "2026-04-01"
 **Waiter:** Absolutely, I'll make a note of that. And for dessert, shall I come back with the menu later?
 
 **Customer:** Yes please, that would be great.
-
----
 
 ## 4. Faire des plans entre amis (Making Plans)
 
@@ -103,8 +97,6 @@ date: "2026-04-01"
 
 **B:** Done. I'll drop Lena a message too.
 
----
-
 ## 5. Demander son chemin (Asking for Directions)
 
 **Tourist:** Excuse me, sorry to bother you. Do you know how to get to the British Museum from here?
@@ -126,8 +118,6 @@ date: "2026-04-01"
 **Tourist:** Great, I'll walk then. Thank you!
 
 **Local:** No problem, enjoy your visit!
-
----
 
 ## 6. Au téléphone — appel professionnel (Phone Call)
 
@@ -152,8 +142,6 @@ date: "2026-04-01"
 **Caller:** No, that's everything. Thanks very much.
 
 **Receptionist:** Have a good day. Goodbye.
-
----
 
 ## 7. Shopping (At a Shop)
 

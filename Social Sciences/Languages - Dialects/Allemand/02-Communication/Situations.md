@@ -1,7 +1,7 @@
 ---
 title: "Dialogues en Situation — Allemand"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Allemand > 03-Communication"
+subdomain: "Languages - Dialects > Allemand > 02-Communication"
 tags: [sciences-sociales, langues, allemand, deutsch, communication, dialogues, situations]
 date: "2026-04-28"
 ---
@@ -38,8 +38,6 @@ Allemand standard (Hochdeutsch), registre neutre. Traduction française sous cha
 **Verkäuferin :** Danke, ebenfalls!
 *Merci, vous de même !*
 
----
-
 ## 2. Acheter un billet de S-Bahn / U-Bahn
 
 **Tourist :** Entschuldigung, ich möchte eine Fahrkarte zum Hauptbahnhof.
@@ -68,8 +66,6 @@ Allemand standard (Hochdeutsch), registre neutre. Traduction française sous cha
 
 **Tourist :** Vielen Dank!
 *Merci beaucoup !*
-
----
 
 ## 3. Au restaurant
 
@@ -118,8 +114,6 @@ Allemand standard (Hochdeutsch), registre neutre. Traduction française sous cha
 
 > **Note culturelle :** au restaurant allemand, on demande "*Zusammen oder getrennt?*". Payer séparément (*getrennt*) entre amis est très commun, sans gêne sociale.
 
----
-
 ## 4. Visite chez une famille allemande
 
 **Gastgeber :** Hallo! Schön, dass du da bist! Komm rein.
@@ -165,8 +159,6 @@ Allemand standard (Hochdeutsch), registre neutre. Traduction française sous cha
 
 > **Note culturelle :** *Ich bin satt* (je suis rassasié) est la formule polie pour dire qu'on n'en veut plus. Ne pas dire *Ich bin voll* (je suis plein) — peut être interprété comme "je suis bourré" en argot.
 
----
-
 ## 5. À la pharmacie
 
 **Apothekerin :** Guten Tag, kann ich Ihnen helfen?
@@ -201,8 +193,6 @@ Allemand standard (Hochdeutsch), registre neutre. Traduction française sous cha
 
 **Apothekerin :** Gute Besserung!
 *Prompt rétablissement !*
-
----
 
 ## 6. Demander son chemin à Berlin
 

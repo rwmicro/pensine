@@ -1,7 +1,7 @@
 ---
 title: "Grammaire — Arabe Standard"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Arabe-Standard > 02-Grammaire"
+subdomain: "Languages - Dialects > Arabe-Standard > 03-Grammaire"
 tags: [sciences-sociales, langues, arabe, arabe-standard, fusha, grammaire]
 date: "2026-08-08"
 ---

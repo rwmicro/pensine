@@ -1,7 +1,7 @@
 ---
 title: "Phrases Essentielles — Hakka (West Kalimantan)"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Hakka-Khek > 03-Communication"
+subdomain: "Languages - Dialects > Hakka-Khek > 02-Communication"
 tags: [sciences-sociales, langues, hakka, survie, communication]
 date: "2026-08-21"
 ---

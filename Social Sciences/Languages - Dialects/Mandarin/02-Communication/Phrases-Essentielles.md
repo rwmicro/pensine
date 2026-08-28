@@ -1,7 +1,7 @@
 ---
 title: "Phrases Essentielles — Mandarin"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Mandarin > 03-Communication"
+subdomain: "Languages - Dialects > Mandarin > 02-Communication"
 tags: [sciences-sociales, langues, mandarin, chinois, communication, phrases, voyage]
 date: "2026-04-28"
 ---

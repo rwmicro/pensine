@@ -183,5 +183,4 @@ Si l'objectif est une **certification reconnue internationalement**, voici les o
 
 ## Liens
 - [[Expressions]] - Idioms et expressions courantes
-- [[English/Times/Present Simple]] - Grammaire anglaise
-- [[Languages - Dialects/Anglais/Vocabulary]] - Vocabulaire thématique
+- [[Social Sciences/Languages - Dialects/Anglais/04-Vocabulaire/Vocabulaire|Vocabulaire]] - Vocabulaire thématique

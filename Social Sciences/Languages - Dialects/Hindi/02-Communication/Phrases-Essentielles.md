@@ -1,7 +1,7 @@
 ---
 title: "Phrases Essentielles — Hindi"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Hindi > 03-Communication"
+subdomain: "Languages - Dialects > Hindi > 02-Communication"
 tags: [sciences-sociales, langues, hindi, survie, communication]
 date: "2026-03-27"
 ---

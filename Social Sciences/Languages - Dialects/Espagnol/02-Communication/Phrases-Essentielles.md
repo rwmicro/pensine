@@ -1,7 +1,7 @@
 ---
 title: "Phrases Essentielles — Espagnol"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Espagnol > 03-Communication"
+subdomain: "Languages - Dialects > Espagnol > 02-Communication"
 tags: [sciences-sociales, langues, espagnol, spanish, communication, phrases, voyage]
 date: "2026-04-23"
 ---

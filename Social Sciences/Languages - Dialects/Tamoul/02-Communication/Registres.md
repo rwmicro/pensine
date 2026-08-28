@@ -1,7 +1,7 @@
 ---
 title: "Registres du Tamoul — Diglossie et niveaux de langue"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Tamoul > 03-Communication"
+subdomain: "Languages - Dialects > Tamoul > 02-Communication"
 tags: [sciences-sociales, langues, tamil, registres, diglossia]
 date: "2026-03-27"
 ---

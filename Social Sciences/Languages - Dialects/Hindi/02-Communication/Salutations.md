@@ -1,7 +1,7 @@
 ---
 title: "Salutations — Hindi"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Hindi > 03-Communication"
+subdomain: "Languages - Dialects > Hindi > 02-Communication"
 tags: [sciences-sociales, langues, hindi, communication, salutations]
 date: "2026-04-01"
 ---

@@ -8,7 +8,7 @@ date: "2026-02-19"
 
 # Religion et Spiritualité - Sambas
 
-## 🙏 Religion et spiritualité
+## Religion et spiritualité
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|

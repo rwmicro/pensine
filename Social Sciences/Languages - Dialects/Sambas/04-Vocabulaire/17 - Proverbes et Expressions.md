@@ -8,7 +8,7 @@ date: "2026-02-19"
 
 # Proverbes et Expressions - Sambas
 
-## 📖 À propos des proverbes Sambas (Peribahasa)
+## À propos des proverbes Sambas (Peribahasa)
 
 Les proverbes Sambas Malay sont un élément culturel important de la communauté Sambas. Historiquement, ils servaient à contrôler les attitudes avant l'existence des lois formelles, fonctionnant comme conseils, satires, compliments et langage diplomatique.
 
@@ -32,7 +32,7 @@ Une étude complète a inventorié **300 proverbes Sambas Malay** classés comme
 - Compliment : 20
 - Langage diplomatique : 5
 
-## 🐱 Proverbes avec animaux
+## Proverbes avec animaux
 
 ### Avec chat (kucing)
 
@@ -48,7 +48,7 @@ Une étude complète a inventorié **300 proverbes Sambas Malay** classés comme
 | ![Rebung gatal](audio/ms_male_651842600a3d.mp3) | Proverbe | (Signification à rechercher) |
 | ![Abis sari makan sari](audio/ms_male_473a42c1ec58.mp3) | Proverbe | (Signification à rechercher) |
 
-## 🐟 Thèmes dans les proverbes
+## Thèmes dans les proverbes
 
 Les proverbes Sambas utilisent un lexique de faune incluant :
 - **Poissons** (ikan)
@@ -58,7 +58,7 @@ Les proverbes Sambas utilisent un lexique de faune incluant :
 
 Ces animaux symbolisent des expressions et figures de style qui enseignent la vertu et des messages moraux.
 
-## 💬 Expressions courantes
+## Expressions courantes
 
 ### Expressions de sagesse
 
@@ -73,7 +73,7 @@ Ces animaux symbolisent des expressions et figures de style qui enseignent la ve
 | (À compléter avec recherches futures) |  |  |  |
 
 
-## 📚 Notes pour recherches futures
+## Notes pour recherches futures
 
 Les proverbes Sambas sont un patrimoine culturel en danger. Des recherches supplémentaires sont nécessaires pour documenter :
 

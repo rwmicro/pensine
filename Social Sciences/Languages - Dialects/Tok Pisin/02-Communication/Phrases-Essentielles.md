@@ -1,7 +1,7 @@
 ---
 title: "Phrases Essentielles — Tok Pisin"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Tok Pisin > 03-Communication"
+subdomain: "Languages - Dialects > Tok Pisin > 02-Communication"
 tags: [sciences-sociales, langues, tok-pisin, survie, communication]
 date: "2026-03-27"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Registres du Roumain — Tu vs Dumneavoastră"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Roumain > 03-Communication"
+subdomain: "Languages - Dialects > Roumain > 02-Communication"
 tags: [sciences-sociales, langues, roumain, registres, politesse]
 date: "2026-03-27"
 ---

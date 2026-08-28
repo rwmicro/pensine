@@ -8,7 +8,7 @@ date: "2026-02-19"
 
 # Vêtements et Accessoires - Sambas
 
-## 👕 Vêtements et accessoires
+## Vêtements et accessoires
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|

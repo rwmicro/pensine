@@ -1,7 +1,7 @@
 ---
 title: "Phrases Essentielles — Azéri"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Azéri > 03-Communication"
+subdomain: "Languages - Dialects > Azéri > 02-Communication"
 tags: [sciences-sociales, langues, azeri, azerbaijani, communication, phrases, voyage]
 date: "2026-04-22"
 ---

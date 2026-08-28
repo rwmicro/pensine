@@ -8,7 +8,7 @@ date: "2026-02-22"
 
 # Verbes d'Action - Sambas
 
-## 🗣️ Mouvements
+## Mouvements
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|

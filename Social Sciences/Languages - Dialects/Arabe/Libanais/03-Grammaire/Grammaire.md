@@ -1,7 +1,7 @@
 ---
 title: "Grammaire — Arabe Libanais"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Arabe-Libanais > 02-Grammaire"
+subdomain: "Languages - Dialects > Arabe-Libanais > 03-Grammaire"
 tags: [sciences-sociales, langues, arabe, arabe-libanais, grammaire]
 date: "2026-03-31"
 ---

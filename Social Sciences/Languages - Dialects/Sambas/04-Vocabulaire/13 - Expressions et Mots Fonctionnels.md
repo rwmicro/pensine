@@ -8,7 +8,7 @@ date: "2026-02-19"
 
 # Expressions et Mots Fonctionnels - Sambas
 
-## 💬 Affirmation et négation
+## Affirmation et négation
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|

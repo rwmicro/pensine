@@ -8,7 +8,7 @@ date: "2026-02-19"
 
 # Divers - Sambas
 
-## 🎯 États et positions
+## États et positions
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|

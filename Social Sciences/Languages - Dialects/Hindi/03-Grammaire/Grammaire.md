@@ -12,7 +12,7 @@ date: "2025-12-31"
 
 Le **hindi** (हिन्दी, *hindī*) est une langue indo-aryenne parlée par ~600 millions de locuteurs, principalement en Inde du Nord. C'est l'une des 22 langues officielles de l'Inde et la langue la plus parlée après le mandarin.
 
-**Écriture :** [[Alphabet]] - **Devanagari** (देवनागरी)
+**Écriture :** [[Social Sciences/Languages - Dialects/Hindi/01-Phonologie/Alphabet-Prononciation|Alphabet]] - **Devanagari** (देवनागरी)
 
 **Caractéristiques :**
 - Ordre des mots : **SOV** (Sujet-Objet-Verbe)

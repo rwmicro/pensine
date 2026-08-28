@@ -1,7 +1,7 @@
 ---
 title: "Dialogues en Situation — Mandarin"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Mandarin > 03-Communication"
+subdomain: "Languages - Dialects > Mandarin > 02-Communication"
 tags: [sciences-sociales, langues, mandarin, chinois, communication, dialogues, situations]
 date: "2026-04-28"
 ---
@@ -47,8 +47,6 @@ Mandarin courant, registre neutre. Caractères + pinyin + traduction française.
 *hǎo de, qǐng shāo děng.*
 *Très bien, un instant s'il vous plaît.*
 
----
-
 ## 2. Prendre un Didi (taxi) à Shanghai
 
 **司机 :** 你好,要去哪里?
@@ -78,8 +76,6 @@ Mandarin courant, registre neutre. Caractères + pinyin + traduction française.
 **司机 :** 当然可以。请系好安全带。
 *dāngrán kěyǐ. qǐng jì hǎo ānquándài.*
 *Bien sûr. Mettez votre ceinture, s'il vous plaît.*
-
----
 
 ## 3. Au marché de nuit (夜市)
 
@@ -114,8 +110,6 @@ Mandarin courant, registre neutre. Caractères + pinyin + traduction française.
 **商家 :** 三串羊肉十块,两串鸡肉十块,一共二十块。
 *sān chuàn yángròu shí kuài, liǎng chuàn jīròu shí kuài, yígòng èrshí kuài.*
 *Trois agneau 10 yuans, deux poulet 10 yuans, total 20 yuans.*
-
----
 
 ## 4. Visite chez une famille chinoise
 
@@ -155,8 +149,6 @@ Mandarin courant, registre neutre. Caractères + pinyin + traduction française.
 *wā, zhēn hǎochī! āyí shǒuyì zhēn bàng!*
 *Wah, c'est vraiment délicieux ! Tata, vous cuisinez super bien !*
 
----
-
 ## 5. À la gare ferroviaire — acheter un billet
 
 **乘客 :** 您好,我要买一张去北京的票。
@@ -194,8 +186,6 @@ Mandarin courant, registre neutre. Caractères + pinyin + traduction française.
 **乘客 :** 谢谢!
 *xièxie!*
 *Merci !*
-
----
 
 ## 6. Demander son chemin à Pékin
 

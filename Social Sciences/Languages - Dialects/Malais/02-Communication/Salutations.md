@@ -1,7 +1,7 @@
 ---
 title: "Salutations — Bahasa Malaysia"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Malais > 03-Communication"
+subdomain: "Languages - Dialects > Malais > 02-Communication"
 tags: [sciences-sociales, langues, malais, malaisian, communication, salutations]
 date: "2026-04-01"
 ---

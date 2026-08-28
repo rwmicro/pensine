@@ -1,7 +1,7 @@
 ---
 title: "Salutations — Roumain"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Roumain > 03-Communication"
+subdomain: "Languages - Dialects > Roumain > 02-Communication"
 tags: [sciences-sociales, langues, roumain, communication, salutations]
 date: "2026-04-01"
 ---

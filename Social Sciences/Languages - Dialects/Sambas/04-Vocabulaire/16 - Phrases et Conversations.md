@@ -8,7 +8,7 @@ date: "2026-02-19"
 
 # Phrases et Conversations - Sambas
 
-## 💬 Salutations et politesse
+## Salutations et politesse
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|
@@ -18,7 +18,7 @@ date: "2026-02-19"
 | ![Selamat pagi](audio/ms_male_af4dffc0ffcc.mp3) | Selamat pagi | Bonjour (matin) |
 | ![Selamat bahari](audio/ms_male_c3f20b23d7cb.mp3) | Selamat sore | Bonsoir |
 
-## 🗣️ Phrases courantes
+## Phrases courantes
 
 ### Expressions de base
 
@@ -51,7 +51,7 @@ date: "2026-02-19"
 | ![Kitak biak mane?](audio/ms_male_5d582d7341f3.mp3) | Kamu dari mana? | D'où viens-tu ? |
 | ![Apé khabar kitak?](audio/ms_male_18baaf51e819.mp3) | Apa kabar kamu? | Comment vas-tu ? |
 
-## 🍚 Nourriture et repas
+## Nourriture et repas
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|
@@ -60,7 +60,7 @@ date: "2026-02-19"
 | ![Kamek maok majoh](audio/ms_male_c0cc4326d691.mp3) | Saya mau makan | Je veux manger |
 | ![Kamek mauk pesan agik satu](audio/ms_male_adcbe65e037e.mp3) | Saya mau pesan satu lagi | Je voudrais en commander un autre |
 
-## 🏠 À la maison et famille
+## À la maison et famille
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|
@@ -68,7 +68,7 @@ date: "2026-02-19"
 | ![Ade buda' bedako' di pingger danau](audio/ms_male_268b6d2b0ae0.mp3) | Ada orang berpelukan di pinggir danau | Il y a quelqu'un qui s'embrasse au bord du lac |
 | ![Inun insanak kamek](audio/ms_male_adaed0718369.mp3) | Itu keluarga saya | C'est ma famille |
 
-## 📱 Communication moderne
+## Communication moderne
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|
@@ -76,7 +76,7 @@ date: "2026-02-19"
 | ![Sikpat kamek pegi, gik gago tok](audio/ms_male_73b327fb5a42.mp3) | Saya tidak bisa pergi, masih sibuk sekarang | Je ne peux pas y aller, je suis encore occupé maintenant |
 | ![Kamek kelaka dengan nyalah kat telepon tek](audio/ms_male_fb77309690d8.mp3) | Saya berbicara dengan dia di telepon tadi | J'ai parlé avec lui/elle au téléphone tout à l'heure |
 
-## 🎯 Expressions de sentiment
+## Expressions de sentiment
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|
@@ -85,7 +85,7 @@ date: "2026-02-19"
 | ![Kamek diat kitak makin kacaklah](audio/ms_male_9b4c554600b4.mp3) | Saya lihat awak makin cantiklah | Je te vois de plus en plus belle |
 | ![Kitak bulak! Kamek sik cayak apa kitak padah](audio/ms_male_90b382ed8a56.mp3) | Kamu bohong! Saya tidak percaya apa yang kamu katakan | Tu mens ! Je ne crois pas ce que tu dis |
 
-## 🗺️ Origine et localisation
+## Origine et localisation
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|
@@ -93,7 +93,7 @@ date: "2026-02-19"
 | ![Kitak biak mane?](audio/ms_male_5d582d7341f3.mp3) | Kamu dari mana? | D'où viens-tu ? |
 | ![Di Ditebas](audio/ms_male_05b6ad1f6197.mp3) | Di Tebas | À Tebas (district de Sambas) |
 
-## 📚 Exemples de phrases du dictionnaire
+## Exemples de phrases du dictionnaire
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|

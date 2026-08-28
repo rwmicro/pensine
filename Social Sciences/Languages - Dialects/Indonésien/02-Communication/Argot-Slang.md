@@ -1,7 +1,7 @@
 ---
 title: "Argot et Slang Indonésien (Bahasa Gaul)"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Indonésien > 03-Communication"
+subdomain: "Languages - Dialects > Indonésien > 02-Communication"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
 ---

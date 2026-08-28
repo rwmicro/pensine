@@ -8,7 +8,7 @@ date: "2026-02-19"
 
 # Nature - Sambas
 
-## 🌳 Plantes et arbres
+## Plantes et arbres
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|

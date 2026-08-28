@@ -1,7 +1,7 @@
 ---
 title: "Salutations — Turc"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Turc > 03-Communication"
+subdomain: "Languages - Dialects > Turc > 02-Communication"
 tags: [sciences-sociales, langues, turc, turkish, communication, salutations]
 date: "2026-04-01"
 ---

@@ -286,6 +286,6 @@ Lire des panneaux de rue tamouls (Google Street View - Chennai, Madurai)
 - Différences importantes (grammaire, vocabulaire)
 
 ## Liens
-- [[Grammar]] - Grammaire tamoule
-- [[Vocabulary]] - Vocabulaire de base
-- [[Languages - Dialects/Hindi/Alphabet]] - Comparaison avec Devanagari (même famille brahmi)
+- [[Social Sciences/Languages - Dialects/Tamoul/03-Grammaire/Grammaire|Grammaire]] - Grammaire tamoule
+- [[Social Sciences/Languages - Dialects/Tamoul/04-Vocabulaire/Vocabulaire|Vocabulaire]] - Vocabulaire de base
+- [[Social Sciences/Languages - Dialects/Hindi/01-Phonologie/Alphabet-Prononciation|Alphabet Hindi]] - Comparaison avec Devanagari (même famille brahmi)

@@ -8,7 +8,7 @@ date: "2026-02-19"
 
 # Adjectifs et Descriptions - Sambas
 
-## 🎭 Apparence physique
+## Apparence physique
 
 | Sambas | Indonésien | Français |
 |--------|------------|----------|

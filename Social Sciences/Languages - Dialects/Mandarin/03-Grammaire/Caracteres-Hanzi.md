@@ -1,7 +1,7 @@
 ---
 title: "Caractères Chinois (Hanzi) — Mandarin"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Mandarin > 02-Grammaire"
+subdomain: "Languages - Dialects > Mandarin > 03-Grammaire"
 tags: [sciences-sociales, langues, mandarin, chinois, hanzi, caracteres, ecriture, radicaux]
 date: "2026-04-28"
 ---
