@@ -5,7 +5,6 @@ subdomain: "Litterature > Ouvrages"
 tags: [sciences-sociales, littérature]
 date: "2026-02-22"
 ---
-
 **L'Insoutenable légèreté de l'être** (_Nesnesitelná lehkost bytí_ en tchèque) est un roman philosophique et existentiel écrit par Milan Kundera, publié en 1984. C'est une œuvre profonde qui explore les complexités de l'amour, de la liberté, et du poids des choix humains, dans le contexte de la Tchécoslovaquie communiste des années 1960 et 1970.
 
 ### Résumé

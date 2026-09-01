@@ -5,7 +5,6 @@ subdomain: "Languages - Dialects > Hakka-Khek > Resources"
 tags: [sciences-sociales, langues, hakka]
 date: "2025-12-31"
 ---
-
 # Hakka Quick Reference Guide
 
 ## Essential Phrases
@@ -101,16 +100,16 @@ date: "2025-12-31"
 
 ## Common Adjectives
 
-| English    | Hakka     |
-|------------|-----------|
-| Good       | ho        |
-| Very       | an        |
-| Big        | thai      |
-| Small      | se        |
-| Hot        | sau       |
-| Delicious  | ho sit    |
-| Happy      | fon hi    |
-| Beautiful  | an-ciang  |
+| English   | Hakka    |
+| --------- | -------- |
+| Good      | ho       |
+| Very      | an       |
+| Big       | thai     |
+| Small     | se       |
+| Hot       | sau      |
+| Delicious | ho sit   |
+| Happy     | fon hi   |
+| Beautiful | an-ciang |
 
 ## Family Terms
 

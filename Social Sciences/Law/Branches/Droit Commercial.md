@@ -5,7 +5,6 @@ subdomain: "Law > Branches"
 tags: [sciences-sociales, droit, droit-commercial, droit-des-affaires]
 date: "2026-04-16"
 ---
-
 # Droit Commercial (des Affaires)
 
 Le droit commercial régit les rapports entre commerçants, les actes de commerce et les entreprises. C'est une branche du droit privé qui déroge au droit civil par des règles plus souples et plus rapides, adaptées aux besoins du monde des affaires.

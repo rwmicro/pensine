@@ -5,12 +5,11 @@ subdomain: "Languages - Dialects > Hakka-Khek > Resources"
 tags: [sciences-sociales, langues, hakka]
 date: "2026-08-21"
 ---
-
 # Regional Dialects and Variations
 
 ## Overview of Hakka Dialects
 
-Hakka (客家話) is spoken across many regions with notable variations. This guide focuses on **Indonesian Hakka**, and specifically on the two documented West Kalimantan varieties: **Pontianak Hakka** and **Singkawang Hakka**, which are genuinely distinct dialects (not two names for the same thing — see below) and together are the primary material documented here.
+Hakka (客家話) is spoken across many regions with notable variations. This guide focuses on **Indonesian Hakka**, and specifically on the two documented West Kalimantan varieties: **Pontianak Hakka** and **Singkawang Hakka**, which are genuinely distinct dialects (not two names for the same thing, see below) and together are the primary material documented here.
 
 ## Major Hakka Dialect Groups
 
@@ -18,7 +17,7 @@ Hakka (客家話) is spoken across many regions with notable variations. This gu
 Primary focus of these materials.
 
 **Sub-dialects:**
-- **Pontianak Hakka** and **Singkawang Hakka** (both West Kalimantan, but distinct — see "Indonesian Hakka: Regional Breakdown" below)
+- **Pontianak Hakka** and **Singkawang Hakka** (both West Kalimantan, but distinct, see "Indonesian Hakka: Regional Breakdown" below)
 - **Bangka-Belitung Hakka**
 - **Other Indonesian regions**
 
@@ -49,7 +48,7 @@ Primary focus of these materials.
 
 ### Pontianak vs Singkawang : deux variétés distinctes, pas une seule
 
-Contrairement à ce que suggère l'étiquette générique "West Kalimantan Hakka", le hakka de Pontianak et celui de Singkawang sont deux variétés différentes (origine chinoise, tons, une partie du lexique hérité), même si les deux partagent une couche récente d'emprunts communs (teochew, cantonais, malais/indonésien). Sources : Huang, Su-chen (2013), *印尼坤甸客家話研究* [Pontianak Hakka Study], et Huang, Hui-chen (2008), *印尼山口洋客家話研究* [Study of Hakka in Singkawang, Indonesia] — deux mémoires de master, National Central University (Taïwan) ; voir "Sources académiques" ci-dessous.
+Contrairement à ce que suggère l'étiquette générique "West Kalimantan Hakka", le hakka de Pontianak et celui de Singkawang sont deux variétés différentes (origine chinoise, tons, une partie du lexique hérité), même si les deux partagent une couche récente d'emprunts communs (teochew, cantonais, malais/indonésien). 
 
 | | Pontianak (坤甸客語) | Singkawang (山口洋客語) |
 |---|---|---|
@@ -58,10 +57,7 @@ Contrairement à ce que suggère l'étiquette générique "West Kalimantan Hakka
 | Tons (valeurs) | 24 / 11 / 31 / 55 / 2 / 5 | 53 / 55 / 24 / 31 / 34 / 5 |
 | Locuteurs (recensement) | ~86 400 (2013) | ~103 400 (2012) |
 | Zone | Pontianak, Mempawah, Kubu Raya, Sekadau, Sintang, Sanggau | Singkawang, Sambas, Pemangkat, Bengkayang |
-
-**Point de vigilance :** le continuum dialectal réel est plus flou que ces étiquettes ne le suggèrent. Exemple concret : le mot *fung* signifie "enfumer" en hakka de Pontianak (ton 4) mais "vent" en hakka de Singkawang — et un blog pédagogique généraliste le donne par ailleurs comme "rouge" dans un sens différent. Autre exemple : "manger du riz" se dit *set fan* / *sit fon* dans le hakka proche de Meixian/Pontianak, mais *shit fon* est identifié par un contributeur de forum comme la forme Singkawang/Bangka — alors que des sources se réclamant de Pontianak utilisent pourtant aussi *sit fon*. Traitez les tags `[PTK]`/`[SKW]` ci-dessous comme "ce que la source déclare", pas comme une norme figée.
-
-Les sources communautaires généralistes (ex. belajarbahasahakka.blogspot.com, auteure "Meidy") couvrent tout le Kalimantan Ouest sans toujours préciser la ville : ce vocabulaire reste tagué `[WK]` (générique), pas `[PTK]`/`[SKW]`.
+Sources : Huang, Su-chen (2013), *印尼坤甸客家話研究* [Pontianak Hakka Study], et Huang, Hui-chen (2008), *印尼山口洋客家話研究* [Study of Hakka in Singkawang, Indonesia] - deux mémoires de master, National Central University (Taïwan) ; voir "Sources académiques" ci-dessous.
 
 **Distinguishing features (both varieties):**
 - Uses **jit** and **yit** interchangeably for "one"
@@ -111,5 +107,3 @@ To help you identify regional origins, we use these markers:
 - Huang, Su-chen (2013). *印尼坤甸客家話研究* [Pontianak Hakka Study]. Mémoire de master, National Central University (Taïwan) — cité via l'article Wikipédia "Pontianak Hakka".
 - Huang, Hui-chen (2008). *印尼山口洋客家話研究* [Study of Hakka in Singkawang, Indonesia]. Mémoire de master, National Central University (Taïwan) — cité via l'article Wikipédia "Singkawang Hakka".
 - Pontoh, Manzhuur Daanisy Ahmad; Kabul, Assa Rahmawati (2023). "Kata Serapan dari Bahasa Hakka dalam Leksikon Bahasa Indonesia". *Semiotika*, 24(1), 118–132, Universitas Indonesia — vocabulaire vérifié avec deux locutrices natives du hakka de Singkawang.
-
-Les deux thèses elles-mêmes sont en accès institutionnel restreint (Taïwan) ; les informations ci-dessus proviennent des synthèses qu'en font les articles Wikipédia correspondants et l'article Semiotika (en accès libre).

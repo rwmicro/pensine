@@ -5,7 +5,6 @@ subdomain: "Law > Branches"
 tags: [sciences-sociales, droit, droit-administratif, administration, état, service-public]
 date: "2026-04-18"
 ---
-
 # Droit Administratif
 
 Le droit administratif est la branche du droit public qui régit l'organisation et le fonctionnement de l'administration publique, ainsi que ses relations avec les administrés. C'est un droit fondamentalement **inégalitaire** : l'administration dispose de prérogatives que les particuliers n'ont pas (pouvoir d'exproprier, de réquisitionner, de sanctionner), mais en contrepartie elle est soumise à des obligations strictes.

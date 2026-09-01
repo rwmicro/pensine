@@ -7,7 +7,6 @@ date: "2026-02-22"
 ---
 # Droit Civil
 
-
 **Objet (Civil Law pays):**
 - Rapports entre particuliers
 - Personnes, famille, biens, obligations, successions
@@ -19,7 +18,6 @@ date: "2026-02-22"
 - Livre III: Acquisition de la propriété (successions, contrats, délits)
 
 **Thèmes:**
-
 **Personnes:**
 - Personnalité juridique (naissance - mort)
 - Capacité (majorité 18 ans généralement)

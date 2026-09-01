@@ -5,7 +5,6 @@ subdomain: "Languages - Dialects > Hakka-Khek > Resources"
 tags: [sciences-sociales, langues, hakka]
 date: "2026-08-21"
 ---
-
 # Ressources d'Apprentissage Hakka
 
 ## Dictionnaires et Vocabulaire

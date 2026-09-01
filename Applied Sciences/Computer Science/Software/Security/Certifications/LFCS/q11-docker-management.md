@@ -30,7 +30,7 @@ docker inspect -f '{{.NetworkSettings.IPAddress}}' frontend_v2
 docker inspect -f '{{range .Mounts}}{{.Destination}}{{end}}' frontend_v2
 ```
 
-**Lancer un conteneur — les drapeaux clés :**
+**Lancer un conteneur, les options clées :**
 ```bash
 docker run -d --name frontend_v3 --memory 30m -p 1234:80 nginx:alpine
            │   │                  │            │

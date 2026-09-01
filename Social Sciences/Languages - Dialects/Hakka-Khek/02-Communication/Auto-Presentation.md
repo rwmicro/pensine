@@ -5,7 +5,6 @@ subdomain: "Languages - Dialects > Hakka-Khek > Essentials"
 tags: [sciences-sociales, langues, hakka]
 date: "2026-08-21"
 ---
-
 # How to Introduce Yourself in Hakka
 
 ## Example Introduction

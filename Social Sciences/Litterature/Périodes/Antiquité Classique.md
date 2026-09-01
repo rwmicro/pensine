@@ -5,7 +5,6 @@ subdomain: "Litterature > Périodes"
 tags: [sciences-sociales, littérature, antiquité, grèce, rome, homère, tragédie]
 date: "2026-04-18"
 ---
-
 # Antiquité Classique
 
 La littérature antique (du VIIIe siècle av. J.-C. au Ve siècle ap. J.-C.) est le **fondement de toute la littérature occidentale**. Les Grecs inventent la plupart des genres littéraires (épopée, tragédie, comédie, histoire, philosophie, poésie lyrique) et les Romains les reprennent, les adaptent et les transmettent à l'Europe médiévale puis moderne. Lire Homère, Sophocle ou Virgile, c'est lire les textes que chaque génération d'écrivains depuis 2 500 ans a lus, imités et réinventés.

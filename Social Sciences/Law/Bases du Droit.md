@@ -5,7 +5,6 @@ subdomain: "Law"
 tags: [sciences-sociales, droit, fondamentaux]
 date: "2026-03-05"
 ---
-
 # Le Droit — Bases
 
 Le droit est l'ensemble des règles qui organisent la vie en société et que l'État peut faire respecter par la contrainte. C'est ce qui distingue une règle juridique d'une règle de politesse ou d'une règle morale : derrière le droit, il y a la possibilité d'une sanction publique.

@@ -5,7 +5,6 @@ subdomain: "Languages - Dialects > Hakka-Khek > Daily-Life"
 tags: [sciences-sociales, langues, hakka]
 date: "2025-12-31"
 ---
-
 # Food and Eating in Hakka
 
 ## Basic Conversation About Food

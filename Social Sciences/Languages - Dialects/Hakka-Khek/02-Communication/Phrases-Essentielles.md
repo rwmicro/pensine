@@ -11,24 +11,24 @@ Variété Hakka de Kalimantan occidental (Borneo). Translittération phonétique
 
 ## Salutations
 
-| Français | Hakka | Notes |
-|----------|-------|-------|
-| Bonjour / Salut | Hai / Halo | Emprunt anglais courant |
-| Comment vas-tu ? | Nyi ho mo? | Question standard |
-| Je vais bien | Ngai ho | Réponse standard |
-| Et toi ? | Nyi na? | |
-| As-tu mangé ? | Nyi sit pau mang? | Salutation culturelle typique. Variante attestée [PTK] : *Nyi sit fon mang?* (litt. "as-tu mangé du riz"), à ne pas confondre avec *shit fon*, forme Singkawang/Bangka [SKW] — voir 05-Culture/Dialectes-Regionaux.md |
-| J'ai mangé | Sit pau | Réponse affirmative |
-| Pas encore mangé | Ngai mang sit | |
-| Content de te voir | Fan hi nyi to nyi | |
-| Au revoir | Mang hoi / Bai bai | |
-| Bonne nuit | Mang an | |
-| Oui | He / Hai | |
-| Non | Ng | Son nasal court |
-| Merci | Kam shia | |
-| S'il te plaît | Nyi mang | |
-| Pardon | Tui eng chui | |
-| De rien | Mang guan xi | |
+| Français           | Hakka              | Notes                                                                                                                                                                                                                 |
+| ------------------ | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bonjour / Salut    | Hai / Halo         | Emprunt anglais courant                                                                                                                                                                                               |
+| Comment vas-tu ?   | Nyi ho mo?         | Question standard                                                                                                                                                                                                     |
+| Je vais bien       | Ngai ho            | Réponse standard                                                                                                                                                                                                      |
+| Et toi ?           | Nyi na?            |                                                                                                                                                                                                                       |
+| As-tu mangé ?      | Nyi sit pau mang?  | Salutation culturelle typique. Variante attestée [PTK] : *Nyi sit fon mang?* (litt. "as-tu mangé du riz"), à ne pas confondre avec *shit fon*, forme Singkawang/Bangka [SKW] — voir 05-Culture/Dialectes-Regionaux.md |
+| J'ai mangé         | Sit pau            | Réponse affirmative                                                                                                                                                                                                   |
+| Pas encore mangé   | Ngai mang sit      |                                                                                                                                                                                                                       |
+| Content de te voir | Fon hi nyi to nyi  |                                                                                                                                                                                                                       |
+| Au revoir          | Mang hoi / Bai bai |                                                                                                                                                                                                                       |
+| Bonne nuit         | Mang an            |                                                                                                                                                                                                                       |
+| Oui                | He / Hai           |                                                                                                                                                                                                                       |
+| Non                | Ng                 | Son nasal court                                                                                                                                                                                                       |
+| Merci              | Kam shia           |                                                                                                                                                                                                                       |
+| S'il te plaît      | Nyi mang           |                                                                                                                                                                                                                       |
+| Pardon             | Tui eng chui       |                                                                                                                                                                                                                       |
+| De rien            | Mang guan xi       |                                                                                                                                                                                                                       |
 
 ## Se présenter
 
