@@ -1,0 +1,1 @@
+Scanner les fichiers du dossier "A trier" et classer les mots, les phrases etc dans les fichiers qui conviennent puis ajouter ce vocabulaire dans le projet dataset hakka situé dans /home/micro/Desktop 

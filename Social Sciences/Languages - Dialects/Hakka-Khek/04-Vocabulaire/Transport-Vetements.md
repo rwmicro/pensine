@@ -5,7 +5,6 @@ subdomain: "Languages - Dialects > Hakka-Khek > Vocabulary"
 tags: [sciences-sociales, langues, hakka]
 date: "2025-12-31"
 ---
-
 # Transportation and Clothing
 
 ## Transportation

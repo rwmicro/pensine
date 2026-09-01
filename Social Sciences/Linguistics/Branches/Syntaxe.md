@@ -5,7 +5,6 @@ subdomain: "Linguistics > Branches"
 tags: [sciences-sociales, linguistique]
 date: "2026-02-22"
 ---
-
 # Syntaxe
 
 La **syntaxe** est la branche de la linguistique qui étudie comment les mots se combinent pour former des phrases grammaticalement correctes. Elle répond à la question : quelles règles régissent l'ordre et la structure des mots dans une langue ?

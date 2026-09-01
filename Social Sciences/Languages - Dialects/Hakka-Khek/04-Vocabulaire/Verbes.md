@@ -5,11 +5,9 @@ subdomain: "Languages - Dialects > Hakka-Khek > Vocabulary"
 tags: [sciences-sociales, langues, hakka]
 date: "2026-08-21"
 ---
-
 # Verbs and Actions
 
 **Dialect Note:** This is **West Kalimantan/Pontianak Indonesian Hakka [WK]**. Some verbs are unique to Indonesian Hakka communities.
-
 ## Movement Verbs
 
 | English   | Hakka         | Dialect Notes |
@@ -155,9 +153,7 @@ Use **mo** or **mang** for negation:
 
 10. **Co to pat tiam**
     - Finish at 8 o'clock
-
 ## Common Verb Combinations
-
 - **Sit pau mang** = Have you eaten? (already eaten not-yet)
 - **Hi khon hi** = Go watch a movie
 - **Cu choi** = Cook food

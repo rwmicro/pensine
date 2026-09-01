@@ -5,9 +5,7 @@ subdomain: "Languages - Dialects > Hakka-Khek > Grammar"
 tags: [sciences-sociales, langues, hakka]
 date: "2026-08-21"
 ---
-
 # Sentence Patterns and Grammar
-
 ## Basic Sentence Structure
 
 ### Simple Statement
@@ -20,7 +18,6 @@ date: "2026-08-21"
 | Ngai ho            | I am well         |
 
 ## Verb Patterns
-
 ### 1. Ongoing Action: jiu + Verb
 **Jiu** indicates an action currently happening or ongoing.
 

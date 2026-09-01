@@ -5,7 +5,6 @@ subdomain: "Law"
 tags: [sciences-sociales, droit]
 date: "2026-03-05"
 ---
-
 # Institutions Juridiques
 
 ### Tribunaux
@@ -18,6 +17,9 @@ date: "2026-03-05"
   - Pénal: Police, Correctionnel, Assises, Cour d'appel, Cassation
 - **Ordre administratif:**
   - TA (Tribunal Administratif), CAA, Conseil d'État
+  
+![](b2483933-25e9-4a84-a336-4477fd6ae6e3.png)
+
 
 **USA:**
 - Fédéral (Cours fédérales, Supreme Court)

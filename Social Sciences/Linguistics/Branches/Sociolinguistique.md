@@ -5,9 +5,7 @@ subdomain: "Linguistics > Branches"
 tags: [sciences-sociales, linguistique]
 date: "2026-02-22"
 ---
-
 # Sociolinguistique
-
 
 ### Variation Linguistique
 

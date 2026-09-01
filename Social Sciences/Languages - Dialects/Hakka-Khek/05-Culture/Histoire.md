@@ -5,13 +5,10 @@ subdomain: "Languages - Dialects > Hakka-Khek > Resources"
 tags: [sciences-sociales, langues, hakka, culture, histoire, diaspora]
 date: "2026-04-16"
 ---
-
 # Histoire et culture Hakka
-
 Les Hakka (客家, littéralement "familles invitées" ou "hôtes") sont un sous-groupe de l'ethnie Han, originaire du nord de la Chine. Leur histoire est marquée par des migrations successives vers le sud, provoquées par les invasions et les troubles politiques. Malgré des siècles de déplacements, les Hakka ont préservé une identité culturelle forte, une langue distincte et des traditions spécifiques.
 
 ## Origines et migrations
-
 Les Hakka sont originaires des plaines centrales de Chine (actuel Henan, Shaanxi). Cinq grandes vagues de migration les ont poussés vers le sud au fil des siècles :
 
 | Periode | Cause | Destination |
@@ -25,7 +22,6 @@ Les Hakka sont originaires des plaines centrales de Chine (actuel Henan, Shaanxi
 Le terme "Hakka" (客家, kèjiā) apparaît sous les Qing pour distinguer ces migrants des populations locales (本地, Punti / Bendi, "gens du lieu"). Il reflète leur statut de "nouveaux arrivants" dans des régions déjà habitées par d'autres groupes Han (Cantonais, Min, etc.).
 
 ## Population et géographie
-
 Les Hakka comptent environ **80 millions de personnes** dans le monde :
 
 | Region | Population estimée | Statut |
@@ -42,7 +38,6 @@ Les Hakka comptent environ **80 millions de personnes** dans le monde :
 Les Indonésiens d'origine chinoise sont appelés **Chindo** (Chinese Indonesian). Les Hakka représentent une part importante de cette communauté, notamment à Kalimantan et dans les îles de Bangka-Belitung.
 
 ## Architecture : les Tulou
-
 Les **Tulou** (土楼, "bâtiments de terre") du Fujian sont l'héritage architectural le plus célèbre des Hakka. Ce sont des habitations communautaires fortifiées, rondes ou carrées, en terre battue, pouvant abriter plusieurs dizaines de familles d'un même clan.
 
 Caractéristiques :
@@ -57,16 +52,16 @@ Les Tulou du Fujian sont inscrits au **patrimoine mondial de l'UNESCO** depuis 2
 ## Traditions et culture
 
 ### Traditions funéraires
-
 La tradition funéraire Hakka inclut la pratique du **double enterrement** :
 - Premier enterrement dans un cercueil
 - Après plusieurs années, les ossements sont exhumés, nettoyés et placés dans une urne en céramique en forme de jarre
 - L'urne est ensuite placée dans un lieu propice selon les principes du feng shui
 
+Cette urne constitue alors le lieu de repos définitif du défunt. Cette pratique a également été attestée chez les communautés hakka d'Indonésie, notamment dans le Kalimantan occidental, même si elle n'est plus systématiquement pratiquée aujourd'hui.
+
 Une pratique associée consiste à construire une petite boîte ou caisse contenant des objets que le défunt aimait ou pourrait utiliser dans l'au-delà. Après 49 jours (chiffre lié au bouddhisme), la boîte est brûlée et l'âme est considérée comme ayant rejoint le ciel avec ses souvenirs.
 
 ### Cuisine Hakka
-
 La cuisine Hakka est une cuisine de montagne, simple et rustique, née des conditions difficiles de la migration :
 
 | Plat | Description |
@@ -76,14 +71,6 @@ La cuisine Hakka est une cuisine de montagne, simple et rustique, née des condi
 | **Lei Cha** (擂茶) | Thé pilé aux herbes, graines de sésame et cacahuètes |
 | **Ban Mian** | Nouilles à la main dans un bouillon |
 | **Abacus Seeds** (算盘子) | Boulettes de taro en forme de perles d'abaque |
-
-La cuisine Hakka privilégie les saveurs salées et la conservation (salaisons, marinades, aliments fermentés), héritages d'un mode de vie nomade.
-
-### Valeurs culturelles
-
-- **Education** : les Hakka attachent une importance extrême à l'éducation et à la réussite par les études, héritage de leur statut de migrants devant se faire une place
-- **Solidarité clanique** : les associations Hakka (会馆, huiguan) structurent la vie communautaire dans la diaspora
-- **Travail des femmes** : contrairement à d'autres groupes Han, les femmes Hakka ne pratiquaient pas le bandage des pieds et participaient aux travaux des champs — une distinction sociale notable
 
 ## Hakka célèbres
 
