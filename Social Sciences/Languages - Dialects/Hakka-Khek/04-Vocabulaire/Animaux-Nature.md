@@ -82,3 +82,12 @@ Since many animals are also food sources:
 - Animals in Hakka culture often appear in food contexts
 - **Nyuk** = meat (when referring to animal as food)
 - Many animal words are similar to their sounds or Mandarin equivalents
+
+## Vocabulaire académique — Dictionnaire V3 (2026-09-02) [WK]
+
+Source : `Dictionnaire_Hakka_Pontianak_Singkawang_v3_FINAL_sans_HuggingFace.xlsx`, compilation basée sur les thèses Huang (2013 Pontianak / 2008-2009 Singkawang) et sources communautaires, avec système de confiance à 3 niveaux. Voir 05-Culture/Dialectes-Regionaux.md.
+
+| Français | Hakka | Confiance |
+|---|---|---|
+| tigre | lo-fu | communautaire attesté |
+| mouche | bu-jin | communautaire attesté |

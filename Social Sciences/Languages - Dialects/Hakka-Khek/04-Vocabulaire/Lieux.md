@@ -92,3 +92,27 @@ date: "2026-09-02"
 - **Ngai Pontianak bi hek** = I live in Pontianak (Ngai khun-thien bi hek)
 - **Hi Jakarta** = Go to Jakarta (Hi pa-sang)
 - **Ngai kuliah [city] e bi** = I study in [city]
+
+## Vocabulaire académique — Dictionnaire V3 (2026-09-02) [PTK]
+
+Source : `Dictionnaire_Hakka_Pontianak_Singkawang_v3_FINAL_sans_HuggingFace.xlsx`, compilation basée sur les thèses Huang (2013 Pontianak / 2008-2009 Singkawang) et sources communautaires, avec système de confiance à 3 niveaux. Voir 05-Culture/Dialectes-Regionaux.md.
+
+| Français | Hakka | Caractères | Confiance |
+|---|---|---|---|
+| cimetière | kung si san | 公司山 | académique primaire |
+| grand fleuve | kong | 港 | académique primaire |
+| ville | pu thew | 埔頭 | académique primaire |
+| montagne | jin kong |  | candidat, à vérifier |
+| allemand | pantik |  | candidat, à vérifier |
+
+## Vocabulaire académique — Dictionnaire V3 (2026-09-02) [SKW]
+
+Source : `Dictionnaire_Hakka_Pontianak_Singkawang_v3_FINAL_sans_HuggingFace.xlsx`, compilation basée sur les thèses Huang (2013 Pontianak / 2008-2009 Singkawang) et sources communautaires, avec système de confiance à 3 niveaux. Voir 05-Culture/Dialectes-Regionaux.md.
+
+| Français | Hakka | Caractères | Confiance |
+|---|---|---|---|
+| tombe / terrain funéraire | 地 | tʰi²⁴ | académique primaire |
+| ruelle | gang | kaŋ⁵ | académique primaire |
+| tombe, terrain funéraire | tʰi | 地 | candidat |
+| feng shui | foŋ-shui | 風水 | candidat |
+| langue chinoise / parler chinois | tʰoŋ-ŋin-fa | 唐人話 | candidat |

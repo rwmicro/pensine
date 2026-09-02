@@ -3,7 +3,7 @@ title: "Numbers in Hakka"
 domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Essentials"
 tags: [sciences-sociales, langues, hakka]
-date: "2025-12-31"
+date: "2026-09-02"
 ---
 
 # Numbers in Hakka
@@ -96,3 +96,12 @@ date: "2025-12-31"
 ### Pattern Notes
 - Larger numbers follow additive pattern: e.g., 1,500 = one thousand + five hundred
 - Compound numbers tend to use "yit" instead of "jit"
+
+## Vocabulaire académique — Dictionnaire V3 (2026-09-02) [PTK]
+
+Source : `Dictionnaire_Hakka_Pontianak_Singkawang_v3_FINAL_sans_HuggingFace.xlsx`, compilation basée sur les thèses Huang (2013 Pontianak / 2008-2009 Singkawang) et sources communautaires, avec système de confiance à 3 niveaux. Voir 05-Culture/Dialectes-Regionaux.md.
+
+| Français | Hakka | Caractères | Confiance |
+|---|---|---|---|
+| neuf | khiu | 九 | académique primaire |
+| dix mille | ban | 萬 | académique primaire |

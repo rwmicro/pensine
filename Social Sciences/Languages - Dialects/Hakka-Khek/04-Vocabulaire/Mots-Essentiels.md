@@ -278,3 +278,118 @@ quelques mots à sens net ont pu être confirmés :
 Liste complète (252 mots apparaissant ≥3 fois dans cette 2e passe) : voir `vocab_gaps_report.md` dans
 le dossier du dataset
 (`/home/micro/Desktop/hakka-dataset-code/`).
+
+## Vocabulaire académique — Dictionnaire V3 (2026-09-02) [SKW]
+
+Source : `Dictionnaire_Hakka_Pontianak_Singkawang_v3_FINAL_sans_HuggingFace.xlsx`, compilation basée sur les thèses Huang (2013 Pontianak / 2008-2009 Singkawang) et sources communautaires, avec système de confiance à 3 niveaux. Voir 05-Culture/Dialectes-Regionaux.md.
+
+| Français | Hakka | Caractères | Confiance |
+|---|---|---|---|
+| vêtements | sam-khu (sam⁵³-kʰu³¹) | 衫褲 | académique primaire |
+| gant | shiu-mat (shiu²⁴⁻²²-mat³⁴) | 手襪 | académique primaire |
+| lunettes | muk-kiaŋ (muk³⁴⁻³-kiaŋ³¹) | 目鏡 | académique primaire |
+| montre | shiu-piau (shiu²⁴⁻²²-piau⁵³) | 手錶 | académique primaire |
+| éclair / foudre | fo-sha (fo²²-sha⁵⁵) | 火蛇 | candidat |
+| œuf | 雞春 | kai⁵³-t͡sʰun⁵³ | académique primaire |
+| restaurant | 飯店 | fon²⁴-tiam²⁴⁻²² | académique primaire |
+| glace | 雪 | siet³⁴ | académique primaire |
+
+## Vocabulaire académique — Dictionnaire V3 (2026-09-02) [PTK]
+
+Source : `Dictionnaire_Hakka_Pontianak_Singkawang_v3_FINAL_sans_HuggingFace.xlsx`, compilation basée sur les thèses Huang (2013 Pontianak / 2008-2009 Singkawang) et sources communautaires, avec système de confiance à 3 niveaux. Voir 05-Culture/Dialectes-Regionaux.md.
+
+| Français | Hakka | Caractères | Confiance |
+|---|---|---|---|
+| personne, gens | nyin / ngin |  | académique primaire |
+| les gens | ngin-sa / nyin-sa |  | académique primaire |
+| livre | shu | 書 | académique primaire |
+| route, chemin | lu | 路 | académique primaire |
+| ordinateur portable | laptop |  | académique primaire |
+| manager | menejer |  | académique primaire |
+| conseil | nasihat |  | académique primaire |
+| minute | menit |  | académique primaire |
+| alarme | alarm |  | académique primaire |
+| indépendant / freelance | freelance |  | académique primaire |
+| steak | stik |  | académique primaire |
+| salade | salad |  | académique primaire |
+| surprise | kejutan |  | académique primaire |
+| architecture | arsitektur |  | académique primaire |
+| livre sterling | pound |  | académique primaire |
+| visite / tour | tur |  | académique primaire |
+| qui | masa |  | communautaire attesté |
+| comment; de quelle manière | nyiong pen |  | communautaire attesté |
+| quand | kitsi |  | communautaire attesté |
+| école | hok thong |  | communautaire attesté |
+| ciel; univers; Dieu | thian | 天 | communautaire attesté |
+| terre, sol | nai |  | communautaire attesté |
+| glace | siat |  | communautaire attesté |
+| année | nyian | 年 | communautaire attesté |
+| lit | min chong |  | communautaire attesté |
+| réfrigérateur | siat khui |  | communautaire attesté |
+| carte de crédit | kredit phai |  | communautaire attesté |
+| là-bas | un sak |  | candidat, à vérifier |
+| opérateur | operator |  | candidat, à vérifier |
+| alors; dans ce cas | ann yong |  | candidat, à vérifier |
+| ce n'est pas grave | engboi |  | candidat, à vérifier |
+| signer; faire une signature | fa ho |  | candidat, à vérifier |
+| faux; mauvais | phiang |  | candidat, à vérifier |
+| excusez-moi; pardon | cia mun |  | candidat, à vérifier |
+| important | an chun |  | candidat, à vérifier |
+| être là | khit sak |  | candidat, à vérifier |
+| peau? / surface? | piu |  | candidat, à vérifier |
+| direction opposée | en tui |  | candidat, à vérifier |
+| arrêter | cut |  | candidat, à vérifier |
+| avec; utiliser | jung |  | candidat, à vérifier |
+| quelques; certains | ha cak |  | candidat, à vérifier |
+| cadeau | kado |  | candidat, à vérifier |
+| profiter; apprécier | gi |  | candidat, à vérifier |
+| facture | tan |  | candidat, à vérifier |
+| serveur | then siu |  | candidat, à vérifier |
+| réservation | senhicha |  | candidat, à vérifier |
+| blé | gandum |  | candidat, à vérifier |
+| soufflé / gonflé | kembung |  | candidat, à vérifier |
+| vérifier / contrôler | khuin |  | candidat, à vérifier |
+| chambre deluxe | deluxe kien |  | candidat, à vérifier |
+| coin cuisine | mini-kitchen |  | candidat, à vérifier |
+| balcon | balkon |  | candidat, à vérifier |
+| visite | tur |  | candidat, à vérifier |
+| nous avons | ngai teu |  | candidat, à vérifier |
+| savon | sabun |  | candidat, à vérifier |
+| payer avec | phoi jung |  | candidat, à vérifier |
+| yen | yen |  | candidat, à vérifier |
+| appel téléphonique | kosi |  | candidat, à vérifier |
+| contrat | kontrak |  | candidat, à vérifier |
+| chaque année | caunyien |  | candidat, à vérifier |
+| copie | kopian |  | candidat, à vérifier |
+| objets trouvés | lost-and-found |  | candidat, à vérifier |
+| whisky | wiski |  | candidat, à vérifier |
+| paire | sung |  | candidat, à vérifier |
+| gant | siu mat | 手襪 | candidat, à vérifier |
+| comment / de quelle façon | chiong |  | candidat, à vérifier |
+| téléphoner | khau thien |  | candidat, à vérifier |
+| appel | kosi |  | candidat, à vérifier |
+| limon / citronnade | sonkit |  | candidat, à vérifier |
+| lait | nyiunen |  | candidat, à vérifier |
+| once | ons |  | candidat, à vérifier |
+| parfum | thung si |  | candidat, à vérifier |
+| bras | liak chiu |  | candidat, à vérifier |
+| ascenseur | lift |  | candidat, à vérifier |
+| gare | chika |  | candidat, à vérifier |
+| chose | tung si |  | candidat, à vérifier |
+| siège; place | chobi |  | candidat, à vérifier |
+| robe | khun |  | candidat, à vérifier |
+| prix | tolui |  | candidat, à vérifier |
+| cravate | lin tai |  | candidat, à vérifier |
+| petite cuisine | se cu |  | candidat, à vérifier |
+| balcon | thang ha |  | candidat, à vérifier |
+| chambre ordinaire | fu thung |  | candidat, à vérifier |
+| serviette | thiu |  | candidat, à vérifier |
+| guide / manuel | phu hok |  | candidat, à vérifier |
+
+## Vocabulaire académique — Dictionnaire V3 (2026-09-02) [PTK/SKW]
+
+Source : `Dictionnaire_Hakka_Pontianak_Singkawang_v3_FINAL_sans_HuggingFace.xlsx`, compilation basée sur les thèses Huang (2013 Pontianak / 2008-2009 Singkawang) et sources communautaires, avec système de confiance à 3 niveaux. Voir 05-Culture/Dialectes-Regionaux.md.
+
+| Français | Hakka | Caractères | Confiance |
+|---|---|---|---|
+| pantalon | khu | 褲 | académique primaire |

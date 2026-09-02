@@ -3,7 +3,7 @@ title: "Human Body Parts"
 domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Vocabulary"
 tags: [sciences-sociales, langues, hakka]
-date: "2026-08-21"
+date: "2026-09-02"
 ---
 
 # Human Body Parts
@@ -125,3 +125,29 @@ date: "2026-08-21"
 
 2. **Nyi khon ngai chut hon**
    - Look, I'm sweating (body-related)
+
+## Vocabulaire académique — Dictionnaire V3 (2026-09-02) [SKW]
+
+Source : `Dictionnaire_Hakka_Pontianak_Singkawang_v3_FINAL_sans_HuggingFace.xlsx`, compilation basée sur les thèses Huang (2013 Pontianak / 2008-2009 Singkawang) et sources communautaires, avec système de confiance à 3 niveaux. Voir 05-Culture/Dialectes-Regionaux.md.
+
+| Français | Hakka | Caractères | Confiance |
+|---|---|---|---|
+| corps | bu-shin (bu³³-shin⁵³) | 膴身 | académique primaire |
+| tête | tʰeu-na (tʰeu⁵-na⁵⁵) | 頭顱 | académique primaire |
+| œil | muk-tsu (muk³⁴⁻³-tsu⁵³) | 目珠 | académique primaire |
+| nez | pʰi-khuŋ (pʰi³¹-khuŋ⁵³) | 鼻空 | académique primaire |
+| poitrine | hiuŋ-pʰu (hiuŋ⁵³-pʰu⁵⁵) | 胸脯 | académique primaire |
+| oreille | ŋi-khuŋ (ŋi²⁴⁻²²-khuŋ⁵³) | 耳空 | académique primaire |
+| boucle d'oreille | ŋi-ban (ŋi²⁴⁻²²-ban⁵⁵) | 耳環 | académique primaire |
+| ventre, estomac | tu-shi | 肚子 | académique primaire |
+| ventre | 肚子 | tu²⁴⁻²²-shi²⁴ | académique primaire |
+
+## Vocabulaire académique — Dictionnaire V3 (2026-09-02) [PTK]
+
+Source : `Dictionnaire_Hakka_Pontianak_Singkawang_v3_FINAL_sans_HuggingFace.xlsx`, compilation basée sur les thèses Huang (2013 Pontianak / 2008-2009 Singkawang) et sources communautaires, avec système de confiance à 3 niveaux. Voir 05-Culture/Dialectes-Regionaux.md.
+
+| Français | Hakka | Confiance |
+|---|---|---|
+| fesses | si but | communautaire attesté |
+| œil | ngan chu | communautaire attesté |
+| oreiller | min thew | communautaire attesté |
