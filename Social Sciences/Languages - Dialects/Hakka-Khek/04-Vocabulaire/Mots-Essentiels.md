@@ -117,6 +117,7 @@ Source : vocabulaire généraliste West Kalimantan (ville non précisée), voir 
 | Sometimes        | sangha [WK]                | Universal |
 | Already          | pau [WK] / ho liau         | Both used |
 | Finished         | liau [WK] / co to          | co to = finish work |
+| Time (duration)  | sikien / si kien           | Source : corpus personnel Khek Pontianak (2026-09-02), confirme l'hypothèse posée sur "kien" ci-dessous |
 
 ## Common Nouns
 
@@ -139,6 +140,8 @@ Source : vocabulaire généraliste West Kalimantan (ville non précisée), voir 
 | Light        | fo               |
 | Paper        | tchi             |
 | Money        | lui              |
+| Dollar (currency) | dollar / dolar | Emprunt anglais direct, source : corpus personnel Khek Pontianak (2026-09-02) |
+| Luggage/Baggage | bagasi        | Emprunt à l'indonésien, source : corpus personnel Khek Pontianak (2026-09-02) |
 | Clock        | tiam / tiam cung |
 | Wristwatch   | siu piau         |
 
@@ -246,7 +249,7 @@ plusieurs phrases, pas vérifié par un locuteur natif — à confirmer avant de
 | **khiun** | être/se trouver (à un endroit), proche de « ada »/« berada » | 206 | « lift khiun un sak » = l'ascenseur est là-bas |
 | **liak** | ce/cette/ceci (démonstratif) | 163 | « liak chiu » = ce bras ; « liak bie » = ici (litt. « cet endroit ») |
 | **bie** | endroit, lieu | 111 | Surtout en composé : liak bie = ici, khiun...bie = là-bas |
-| **kien** | chambre, pièce — et peut-être aussi un composant de « durée/moment » (cf. si kien = « du temps ») | 97 | Hypothèse : proche du chinois 間 (jiān), qui sert à la fois pour les pièces et le temps (時間) |
+| **kien** | chambre, pièce — et aussi un composant de « durée/moment » (confirmé, voir mise à jour ci-dessous) | 97 | Proche du chinois 間 (jiān), qui sert à la fois pour les pièces et le temps (時間) |
 | **nyia** | ton/votre (forme possessive de nyi) | 76 | « nyia senhicha » = votre réservation |
 | **nyip** | entrer | 40 | « hi nyip hilton » = entrer à l'hôtel Hilton ; « nyip nyia pin » = entrer ton code pin |
 | **tungsi** | truc, chose | 36 | Cohérent avec le composé cantonais/hakka 東西 (tung-si, litt. « est-ouest ») déjà connu pour ce sens |
@@ -256,6 +259,22 @@ plusieurs phrases, pas vérifié par un locuteur natif — à confirmer avant de
 
 **Mise à jour (2026-09-02) :** l'hypothèse sur `ti` est confirmée par une source indépendante — `A trier/Song.md`, une chanson hakka avec traduction indonésienne ligne par ligne, s'ouvre sur *« Nyi ti ng ti mo ngai an thung sim »* / *« Kamu tau tidak kalau saya sakit hati »* (« Sais-tu ou non que j'ai le cœur brisé »). Le patron « X ti ng ti mo » (« X sait pas-sait Y ») confirme `ti` = savoir/tahu, et documente au passage `ng` comme particule de négation (homonyme du chiffre 5, voir `04-Vocabulaire/Nombres.md`) et `thung sim` = avoir le cœur brisé/sakit hati.
 
-Liste complète (280 mots apparaissant ≥3 fois, y compris ceux ci-dessus non retenus faute de sens
-clair) : voir `vocab_gaps_report.md` dans le dossier du dataset
+**Mise à jour (2026-09-02, 2e passe) :** après le classement de `A trier/Voc.md`, le vocabulaire déjà
+connu du vault est passé de 463 à 521 formes, donc une nouvelle analyse de fréquence sur le corpus
+(mêmes ~1985 phrases) ne laisse plus que 252 tokens inconnus apparaissant ≥3 fois (contre 280 avant).
+Le reste est très majoritairement des particules grammaticales/classificateurs ambigus hors contexte
+(ex. `ke`, `ai`, `chika`, `un`, `von`) — pas assez fiables pour être ajoutés sans locuteur natif. Seuls
+quelques mots à sens net ont pu être confirmés :
+- **sikien** (14 occurrences) = « du temps » (« ngai mo sikien » = je n'ai pas le temps) — confirme
+  l'hypothèse posée ci-dessus sur `kien`. Ajouté dans la table "Time Words" plus haut sur cette page.
+- **tathien** (11 occurrences) = téléphoner / appel téléphonique (« tathien nyin » = passer un appel).
+  Ajouté dans `Verbes.md`.
+- **tetto** (13 occurrences) = obtenir, récupérer. Ajouté dans `Verbes.md`.
+- **chito** (14 occurrences) n'est pas un mot nouveau : variante orthographique sans espace de `chi to`
+  (penser/ressentir), déjà connu dans `Verbes.md`.
+- **nyien** est probablement une variante orthographique de `nyen` (aimer/préférer) déjà connu dans
+  `Verbes.md`, pas un mot distinct.
+
+Liste complète (252 mots apparaissant ≥3 fois dans cette 2e passe) : voir `vocab_gaps_report.md` dans
+le dossier du dataset
 (`/home/micro/Desktop/hakka-dataset-code/`).

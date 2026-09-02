@@ -3,7 +3,7 @@ title: "Transportation and Clothing"
 domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Vocabulary"
 tags: [sciences-sociales, langues, hakka]
-date: "2025-12-31"
+date: "2026-09-02"
 ---
 # Transportation and Clothing
 
@@ -13,9 +13,10 @@ date: "2025-12-31"
 |---------------|-----------|-------------------|
 | Walking       | hang lu   | Literally "walk road" |
 | Car           | hi cha    |                   |
-| Train         | fo cha    | Literally "fire car" |
+| Train         | fo cha    | Literally "fire car" — "focha" (sans espace, corpus personnel 2026-09-02) est la même variante |
 | Bike          | kiok cha  | Literally "foot car" |
 | Plane         | fui ki    |                   |
+| Taxi          | taksi     | Emprunt à l'indonésien, source : corpus personnel Khek Pontianak (2026-09-02) |
 
 ## Clothing
 

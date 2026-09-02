@@ -3,7 +3,7 @@ title: "Places and Locations"
 domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Vocabulary"
 tags: [sciences-sociales, langues, hakka]
-date: "2025-12-31"
+date: "2026-09-02"
 ---
 
 # Places and Locations
@@ -45,6 +45,12 @@ date: "2025-12-31"
 | Pangkal Pinang     | pin-kong      |
 | Liat River         | liet-kong     |
 | Belinyu            | belijong      |
+
+### Other Countries
+
+| English | Hakka | Notes |
+|---------|-------|-------|
+| Japan   | nyitpun / nyip pun | Source : corpus personnel Khek Pontianak (2026-09-02) |
 
 ## Bridges and Landmarks (Jakarta)
 
