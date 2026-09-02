@@ -33,6 +33,7 @@ date: "2026-09-02"
 | Agree        | fo hi      |
 | Fight        | ta         |
 | Argue        | chau kau   |
+| Phone/call   | tathien    | Source : corpus personnel Khek Pontianak (2026-09-02) |
 
 ## Daily Actions
 
@@ -84,8 +85,9 @@ date: "2026-09-02"
 | English      | Hakka         | Dialect Notes |
 |--------------|---------------|---------------|
 | Want         | oi [WK]       | [Universal] |
-| Like         | nyen [WK]     | [Universal] |
-| Think/feel   | chi to [WK] / men | men alternative form |
+| Like         | nyen [WK]     | [Universal] — "nyien" (corpus personnel, 2026-09-02) est probablement la même variante orthographique |
+| Think/feel   | chi to [WK] / men | men alternative form — "chito" (sans espace, corpus personnel) est la même variante |
+| Get/obtain   | tetto         | Source : corpus personnel Khek Pontianak (2026-09-02) |
 | Remember     | siong [WK]    | **Attention : dépend du ton !** Can mean: think/want/remember/photo |
 
 **Important Note on "Siong":** This word demonstrates how critical tones are in Hakka! The same romanization "siong" can mean different things with different tones. Always listen to native speakers for the correct tone.
