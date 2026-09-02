@@ -184,21 +184,27 @@ Comme en mandarin, un nombre + classificateur précède le nom compté ; le clas
 | Pattern | Exemple | Sens |
 |---|---|---|
 | jit cak + [objet rond/animal] | jit cak pat · jit cak tiaw · jit cak kui · jit cak pui | un fruit de goyavier · un oiseau · une tortue · une tasse |
+| jit cak + [personne : famille] | jit cak lo pho · jit cak lo kung · jit cak se fo | une épouse · un mari · un enfant |
+| jit cak + [notion abstraite] | jit cak li pai · jit cak nyiat · jit cak nyian · jit cak muk phiau · jit cak thon thi · jit cak kok thu · jit cak ket ka · jit cak muk tit / mung · jit cak hok thong · jit cak si | une semaine · un mois · une année · un objectif · un groupe · un point de vue · un pays · un rêve · une école · un mot |
 | [nombre] thew + [animal] | liong thew shu · sam thew cu · ng thew sha · shi thew ng | deux arbres · trois cochons · cinq serpents · quatre poissons |
 | [nombre] ki + [objet allongé] | pat ki pit · liong ki shu/thiat | huit crayons · deux morceaux de bois/de fer (travaillé) |
 | jit sung + [paire] | jit sung hai · jit sung khai | une paire de chaussures · une paire de baguettes |
-| jit liap | jit liap | un grain / une bille |
-| jit pau | jit pau | un paquet |
-| jit khut | jit khut | un bloc |
-| jit lin | jit lin | une fois |
-| jit khian | jit khian | un genre |
-| jit chen | jit chen | une couche |
-| jit fon | jit fon | une feuille (papier) |
-| jit thiau | jit thiau | un bâton |
-| jit phu | jit phu | un pas |
-| jit cak + [personne/notion abstraite] | jit cak lo pho · jit cak lo kung · jit cak se fo · jit cak li pai · jit cak nyiat · jit cak nyian · jit cak muk phiau · jit cak thon thi · jit cak kok thu · jit cak ket ka · jit cak muk tit · jit cak mung · jit cak hok thong · jit cak si | une épouse · un mari · un enfant · une semaine · un mois · une année · un objectif · un groupe · un point de vue · un pays · un rêve · un rêve (aspiration) · une école · un mot |
-| jit nyit | jit nyit | un jour |
 | jit pun + [livre] | jit pun phu · jit pun shu | un cahier · un livre scolaire |
+
+**Classificateurs sans complément variable** (le mot est déjà complet en lui-même) :
+
+| Exemple | Sens |
+|---|---|
+| jit liap | un grain / une bille |
+| jit pau | un paquet |
+| jit khut | un bloc |
+| jit lin | une fois |
+| jit khian | un genre |
+| jit chen | une couche |
+| jit fon | une feuille (papier) |
+| jit thiau | un bâton |
+| jit phu | un pas |
+| jit nyit | un jour |
 
 ## Notes
 

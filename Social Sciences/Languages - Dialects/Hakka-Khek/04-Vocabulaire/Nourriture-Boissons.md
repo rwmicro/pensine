@@ -8,17 +8,25 @@ date: "2026-09-02"
 
 # Food and Drinks Vocabulary
 
+**Note :** entrées académiques (Dictionnaire V3, caractères/IPA) et emprunts communautaires intégrés
+ci-dessous ; sources complètes : voir `05-Culture/Dialectes-Regionaux.md`.
+
 ## Basic Foods
 
-| English         | Hakka         |
-|-----------------|---------------|
-| Rice (cooked)   | fan           |
-| Noodles         | mien          |
-| Kwe-tiau        | pan-thiau     |
-| Chicken rice    | kai-fon       |
-| Cake/bread      | pan           |
-| Vegetables      | choi          |
-| Meat            | nyuk          |
+| English         | Hakka             | Notes |
+|-----------------|--------------------|-------|
+| Rice (cooked) / Meal | fan / fon      | fon (飯) confirmé [WK] communautaire attesté, [SKW] académique primaire (fon²⁴) |
+| Rice porridge    | moi (moi⁵⁵) 糜     | [SKW] académique primaire |
+| Noodles          | mien / 麵 (mien²⁴) | [SKW] académique primaire confirme |
+| Kwe-tiau         | pan-thiau         | |
+| Chicken rice     | kai-fon           | |
+| Cake/bread       | pan               | |
+| Vegetables       | choi / tsʰoi (tsʰoi³¹) 菜 | [SKW] académique primaire confirme |
+| Meat             | nyuk              | |
+| Salt             | ziam (ziam⁵⁵) 鹽   | [SKW] académique primaire |
+| Sugar            | tʰoŋ (tʰoŋ⁵⁵) 糖   | [SKW] académique primaire |
+| Taste, flavor    | mui (mui²⁴) 味    | [SKW] académique primaire |
+| Snack, dim sum   | tiam-sim (tiam²⁴⁻²²-sim⁵³) 點心 | [SKW] académique primaire |
 
 ## Meats
 
@@ -28,46 +36,53 @@ date: "2026-09-02"
 | Beef          | nyiu nyuk       |
 | Fried chicken | cian kai nyuk   |
 
-## Fruits
+## Fruits and Vegetables
 
-| English    | Hakka      |
-|------------|------------|
-| Watermelon | si kua     |
-| Papaya     | muk kua    |
-| Banana     | kung ciau  |
-| Longan     | liu ngan   |
-| Pear       | xiang li   |
-| Cassava    | fan su     |
-| Peanut     | thew       |
-| Grape      | fu tho [PTK] |
-| Apple      | phin kuo [PTK] |
-| Seed/pit   | fut [PTK]  |
-| Lychee (Singkawang) | lì-chi / lici [SKW] |
-| Kumquat, medicinal (Singkawang) | kim-kit / kingkit [SKW] |
+| English    | Hakka       | Notes |
+|------------|--------------|-------|
+| Watermelon | si kua       | |
+| Papaya     | muk kua      | |
+| Banana     | kung ciau    | |
+| Longan     | liu ngan     | |
+| Pear       | xiang li     | |
+| Cassava    | fan su       | |
+| Peanut     | thew / ti thew (地豆) | ti thew : [PTK] académique primaire |
+| Grape      | fu tho [PTK] | |
+| Apple      | phin kuo [PTK] | |
+| Seed/pit   | fut [PTK]    | |
+| Mango      | sai (檨)     | [SKW] académique primaire |
+| Eggplant   | tiau-tsʰoi (tiau³¹-tsʰoi³¹) 吊菜 | [SKW] académique primaire |
+| Chili pepper | hiam-tsiau (hiam³³-tsiau⁵³) 薟椒 | [SKW] académique primaire |
+| Watermelon seeds | kue tsi (瓜子) | [PTK] académique primaire |
+| Lychee (Singkawang) | lì-chi / lici [SKW] | |
+| Kumquat, medicinal (Singkawang) | kim-kit / kingkit [SKW] | |
+| Chinese cabbage (Singkawang) | 白菜 pa̍k-tshói / pakcoi [SKW] | |
 
 ## Flours (source : A trier/Voc.md, 2026-09-02)
 
-| English            | Hakka       |
-|----------------------|-------------|
-| Wheat flour           | mian fun    |
-| Corn flour             | pao suk fun |
-| Rice flour             | mi fun      |
-| Glutinous rice flour   | nuo mi fun  |
-| Sago flour             | su fun      |
+| English            | Hakka       | Notes |
+|----------------------|-------------|-------|
+| Wheat (grain)          | gandum      | Dictionnaire V3, candidat à vérifier — distinct de "mian fun" (farine de blé) ci-dessous |
+| Wheat flour           | mian fun    | |
+| Corn flour             | pao suk fun | |
+| Rice flour             | mi fun      | |
+| Glutinous rice flour   | nuo mi fun  | |
+| Sago flour             | su fun      | |
 
 ## Drinks
 
 ### Non-Alcoholic
-| English         | Hakka        |
-|-----------------|--------------|
-| Water           | sui          |
-| Cold water      | lang-sui     |
-| Hot water       | kun sui      |
-| Tea             | tjha         |
-| Sweet tea       | thiam-tjha   |
-| Milk            | nen          |
-| Soy milk        | theu-fu-sui  |
-| Coffee          | kopi         |
+| English         | Hakka        | Notes |
+|-----------------|--------------|-------|
+| Water           | sui          | |
+| Cold water      | lang-sui     | |
+| Hot water       | kun sui      | |
+| Tea             | tjha         | |
+| Sweet tea       | thiam-tjha   | |
+| Milk            | nen / nyiunen | nyiunen = "nyiu" (vache) + "nen" (lait) ; corpus personnel Khek Pontianak |
+| Soy milk        | theu-fu-sui  | |
+| Coffee          | kopi         | |
+| Lemonade        | sonkit       | Dictionnaire V3, candidat à vérifier |
 
 ### Alcoholic
 | English  | Hakka |
@@ -76,16 +91,26 @@ date: "2026-09-02"
 
 ## Other Food Items
 
-| English    | Hakka      |
-|------------|------------|
-| Ice        | siet       |
-| Egg        | (to add)   |
-| Tofu (Singkawang) | 豆腐 thèu-fù / tofu [SKW] |
-| Chinese cabbage (Singkawang) | 白菜 pa̍k-tshói / pakcoi [SKW] |
-| Fermented black soybean paste (Singkawang) | 豆豉 thèu-shí / taosi [SKW] |
-| New Year cake (Singkawang) | 年糕 nyên-kao / nienkao [SKW] |
-| Round glutinous rice cake (Singkawang) | 饼 piàng / piang [SKW] |
-| Sea cucumber (Singkawang) | 海参 hòi-sem / hoisem [SKW] |
+| English    | Hakka      | Notes |
+|------------|------------|-------|
+| Ice        | siet / siat | |
+| Egg        | (to add)   | |
+| Salt (loanword) | semen (si³¹-men⁵⁵) | attention : "semen" ici = **ciment** en indonésien, pas le sel — probablement une erreur de collecte dans la source académique, à vérifier |
+| Potato     | kentang (kan⁵⁵-taŋ⁵³) | [PTK/SKW] académique primaire, emprunt indonésien |
+| Bread (loanword) | roti (lo⁵⁵-ti⁵³) | [SKW] académique primaire, emprunt indonésien |
+| Soy sauce  | shi yu / 豉油 (shi³¹-ziu⁵⁵) | [PTK/SKW] académique primaire, emprunt teochew |
+| Fruit (generic) | ko-tsi (果子) | [SKW] académique primaire |
+| Chives / vegetable | kʰai-tsʰoi (快菜) | [SKW] communautaire attesté |
+| Tofu (Singkawang) | 豆腐 thèu-fù / tofu [SKW] | |
+| Fermented black soybean paste (Singkawang) | 豆豉 thèu-shí / taosi [SKW] | |
+| New Year cake (Singkawang) | 年糕 nyên-kao / nienkao [SKW] | |
+| Round glutinous rice cake (Singkawang) | 饼 piàng / piang [SKW] | |
+| Sea cucumber (Singkawang) | 海参 hòi-sem / hoisem [SKW] | |
+
+**Attention ("semen") :** le Dictionnaire V3 liste "semen" (si³¹-men⁵⁵) comme emprunt académique
+primaire sans préciser le sens indonésien exact — "semen" signifie "ciment" en indonésien standard,
+pas "sel" (déjà couvert par *ziam* ci-dessus). Entrée conservée telle quelle en attendant vérification,
+probablement une erreur de la source.
 
 ## Eating and Drinking Verbs
 
@@ -107,10 +132,12 @@ All use **sit** (eat/drink):
 
 ## Food Preparation
 
-| English   | Hakka      |
-|-----------|------------|
-| Cooking   | cu choi    |
-| Fried     | cian       |
+| English   | Hakka      | Notes |
+|-----------|------------|-------|
+| Cooking   | cu choi    | |
+| Fried     | cian       | |
+| Try (food) / this (context-dependent) | chi | [PTK] candidat, à vérifier |
+| Tonight / now (context-dependent) | kim | [PTK] candidat, à vérifier |
 
 ## Taste Descriptors
 
@@ -162,49 +189,3 @@ All use **sit** (eat/drink):
 - **Kak** = with (to connect foods: fan kak choi = rice with vegetables)
 - **Pong** = with/and (connector)
 - Many Indonesian/Malay food words are borrowed (bakso, Nasi Goreng, etc.)
-
-## Vocabulaire académique — Dictionnaire V3 (2026-09-02) [SKW]
-
-Source : `Dictionnaire_Hakka_Pontianak_Singkawang_v3_FINAL_sans_HuggingFace.xlsx`, compilation basée sur les thèses Huang (2013 Pontianak / 2008-2009 Singkawang) et sources communautaires, avec système de confiance à 3 niveaux. Voir 05-Culture/Dialectes-Regionaux.md.
-
-| Français | Hakka | Caractères | Confiance |
-|---|---|---|---|
-| riz; repas | fon (fon²⁴) | 飯 | académique primaire |
-| bouillie de riz | moi (moi⁵⁵) | 糜 | académique primaire |
-| légume | tsʰoi (tsʰoi³¹) | 菜 | académique primaire |
-| sel | ziam (ziam⁵⁵) | 鹽 | académique primaire |
-| sucre | tʰoŋ (tʰoŋ⁵⁵) | 糖 | académique primaire |
-| en-cas, dim sum | tiam-sim | 點心 | académique primaire |
-| nouilles | 麵 | mien²⁴ | académique primaire |
-| en-cas | 點心 | tiam²⁴⁻²²-sim⁵³ | académique primaire |
-| goût | 味 | mui²⁴ | académique primaire |
-| aubergine | 吊菜 | tiau³¹-tsʰoi³¹ | académique primaire |
-| piment | 薟椒 | hiam³³-tsiau⁵³ | académique primaire |
-| sauce soja | 豉油 | shi³¹-ziu⁵⁵ | académique primaire |
-| fruit | 果子 | ko³¹-tsi³¹ | académique primaire |
-| mangue | 檨 | sai | académique primaire |
-| ciment | semen | si³¹-men⁵⁵ | académique primaire |
-| pomme de terre | kentang | kan⁵⁵-taŋ⁵³ | académique primaire |
-| pain | roti | lo⁵⁵-ti⁵³ | académique primaire |
-| ciboulette / légume | 快菜 | kʰai³¹-tsʰoi³¹ | communautaire attesté |
-
-## Vocabulaire académique — Dictionnaire V3 (2026-09-02) [PTK]
-
-Source : `Dictionnaire_Hakka_Pontianak_Singkawang_v3_FINAL_sans_HuggingFace.xlsx`, compilation basée sur les thèses Huang (2013 Pontianak / 2008-2009 Singkawang) et sources communautaires, avec système de confiance à 3 niveaux. Voir 05-Culture/Dialectes-Regionaux.md.
-
-| Français | Hakka | Caractères | Confiance |
-|---|---|---|---|
-| sauce soja | shi yu | 豉油 | académique primaire |
-| cacahuète | ti thew | 地豆 | académique primaire |
-| graines de melon | kue tsi | 瓜子 | académique primaire |
-| pomme de terre | kentang |  | académique primaire |
-| essayer; ceci selon contexte | chi |  | candidat, à vérifier |
-| ce soir / maintenant selon contexte | kim |  | candidat, à vérifier |
-
-## Vocabulaire académique — Dictionnaire V3 (2026-09-02) [WK]
-
-Source : `Dictionnaire_Hakka_Pontianak_Singkawang_v3_FINAL_sans_HuggingFace.xlsx`, compilation basée sur les thèses Huang (2013 Pontianak / 2008-2009 Singkawang) et sources communautaires, avec système de confiance à 3 niveaux. Voir 05-Culture/Dialectes-Regionaux.md.
-
-| Français | Hakka | Confiance |
-|---|---|---|
-| riz; repas | fon | communautaire attesté |

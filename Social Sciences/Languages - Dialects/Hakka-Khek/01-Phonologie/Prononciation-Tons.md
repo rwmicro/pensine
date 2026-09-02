@@ -5,7 +5,6 @@ subdomain: "Languages - Dialects > Hakka-Khek > Grammar"
 tags: [sciences-sociales, langues, hakka]
 date: "2026-08-21"
 ---
-
 # Pronunciation and Tones in Hakka
 
 ## Importance of Tones

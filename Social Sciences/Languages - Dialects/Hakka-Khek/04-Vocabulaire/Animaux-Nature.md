@@ -10,44 +10,44 @@ date: "2026-09-02"
 
 ## Common Animals
 
-| English  | Hakka      |
-|----------|------------|
-| Chicken  | kai        |
-| Pig      | cu         |
-| Cow      | nyiu / nyu |
-| Dog      | kew / khew |
-| Cat      | miaow / miau |
-| Bird     | tiau       |
-| Horse    | ma         |
-| Fish     | eng        |
-| Turtle   | kui        |
-| Goat     | jong       |
+| English  | Hakka         | Notes |
+|----------|----------------|-------|
+| Chicken  | kai            | |
+| Pig      | cu             | |
+| Cow      | nyiu / nyu     | |
+| Dog      | kew / khew     | |
+| Cat      | miaow / miau   | |
+| Bird     | tiau           | |
+| Horse    | ma             | |
+| Fish     | eng            | |
+| Turtle   | kui            | |
+| Goat     | jong           | |
+| Tiger    | lo fu / lo-fu  | Confirmé [WK] communautaire attesté |
 
 ## Autres animaux [PTK]
 
-Source : liste de vocabulaire Pontianak, voir 05-Culture/Dialectes-Regionaux.md pour les sources détaillées.
+Source : liste de vocabulaire Pontianak, voir `05-Culture/Dialectes-Regionaux.md` pour les sources détaillées.
 
-| English      | Hakka        |
-|--------------|--------------|
-| Tiger        | lo fu        |
-| Rabbit       | thu          |
-| Goose        | ngo          |
-| Dragon       | liung / liong |
-| Monkey       | hew          |
-| Lizard       | jam sa       |
-| Cockroach    | ki chat      |
-| Snake        | sa           |
-| Shark        | sak eng      |
-| Frog         | ha ma        |
-| Shrimp       | ha kung      |
-| Crab         | lo hai       |
-| Rat          | lo tjhu      |
-| Shrew        | tjhien tjhu  |
-| Mackerel/Spanish mackerel | ma kau eng |
-| Worm/caterpillar | tjhung   |
-| Fly          | bu jin       |
-| Mosquito     | mun          |
-| Tarantula    | khi fu       |
+| English      | Hakka        | Notes |
+|--------------|--------------|-------|
+| Rabbit       | thu          | |
+| Goose        | ngo          | |
+| Dragon       | liung / liong | |
+| Monkey       | hew          | |
+| Lizard       | jam sa       | |
+| Cockroach    | ki chat      | |
+| Snake        | sa           | |
+| Shark        | sak eng      | |
+| Frog         | ha ma        | |
+| Shrimp       | ha kung      | |
+| Crab         | lo hai       | |
+| Rat          | lo tjhu      | |
+| Shrew        | tjhien tjhu  | |
+| Mackerel/Spanish mackerel | ma kau eng | |
+| Worm/caterpillar | tjhung   | |
+| Fly          | bu jin / bu-jin | Confirmé [WK] communautaire attesté |
+| Mosquito     | mun          | |
+| Tarantula    | khi fu       | |
 
 ## Natural World
 
@@ -82,12 +82,3 @@ Since many animals are also food sources:
 - Animals in Hakka culture often appear in food contexts
 - **Nyuk** = meat (when referring to animal as food)
 - Many animal words are similar to their sounds or Mandarin equivalents
-
-## Vocabulaire académique — Dictionnaire V3 (2026-09-02) [WK]
-
-Source : `Dictionnaire_Hakka_Pontianak_Singkawang_v3_FINAL_sans_HuggingFace.xlsx`, compilation basée sur les thèses Huang (2013 Pontianak / 2008-2009 Singkawang) et sources communautaires, avec système de confiance à 3 niveaux. Voir 05-Culture/Dialectes-Regionaux.md.
-
-| Français | Hakka | Confiance |
-|---|---|---|
-| tigre | lo-fu | communautaire attesté |
-| mouche | bu-jin | communautaire attesté |
