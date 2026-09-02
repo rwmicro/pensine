@@ -114,3 +114,53 @@ Variété Hakka de Kalimantan occidental (Borneo). Translittération phonétique
 | Comment ça va ? (forme courte) | Ho mo? |
 | Tomber | Jau khut thung |
 | Fou / Folle | Siao |
+
+## Vocabulaire académique — Dictionnaire V3 (2026-09-02) [SKW]
+
+Source : `Dictionnaire_Hakka_Pontianak_Singkawang_v3_FINAL_sans_HuggingFace.xlsx`, compilation basée sur les thèses Huang (2013 Pontianak / 2008-2009 Singkawang) et sources communautaires, avec système de confiance à 3 niveaux. Voir 05-Culture/Dialectes-Regionaux.md.
+
+| Français | Hakka | Caractères | Confiance |
+|---|---|---|---|
+| avoir faim | tu-ki (tu²⁴⁻²²-ki⁵³) | 肚飢 | candidat |
+
+## Vocabulaire académique — Dictionnaire V3 (2026-09-02) [PTK]
+
+Source : `Dictionnaire_Hakka_Pontianak_Singkawang_v3_FINAL_sans_HuggingFace.xlsx`, compilation basée sur les thèses Huang (2013 Pontianak / 2008-2009 Singkawang) et sources communautaires, avec système de confiance à 3 niveaux. Voir 05-Culture/Dialectes-Regionaux.md.
+
+| Français | Hakka | Confiance |
+|---|---|---|
+| ainsi, comme ceci | a nyong | communautaire attesté |
+| Tu as déjà mangé ? | Nyi sit fon mang? | communautaire attesté |
+| Tu veux aller où ? | Oi hi na bui? | communautaire attesté |
+| Quelle heure est-il maintenant ? | Kin ha ki to tiam? | communautaire attesté |
+| Tu veux acheter quoi ? | Oi mai ma kai? | communautaire attesté |
+| Combien ça coûte ? | Ki to lui? | communautaire attesté |
+| Qu'est-ce que tu regardes ? | Nyi khon ma kai? | communautaire attesté |
+| Tu habites où ? | Nyi na bui het? | communautaire attesté |
+| Tu travailles où ? | Nyi cho thew lu abui? | communautaire attesté |
+| Il est encore très tôt | Han an co | communautaire attesté |
+| manger du riz | Sit fon | communautaire attesté |
+| manger du kwetiaw | Sit pan thiau | communautaire attesté |
+| manger du riz au poulet / riz mélangé | Sit kai fon | communautaire attesté |
+| boire du thé sucré | Sit thiam cha | communautaire attesté |
+| boire du lait de soja | Sit theu fu sui | communautaire attesté |
+| boire de l'eau froide | Sit lang sui | communautaire attesté |
+| merci | Kamchia | communautaire attesté |
+| excusez-moi / pardon | Cia mun | communautaire attesté |
+| reste calme | Piong thin loi | communautaire attesté |
+| bien sûr, monsieur | He wa, suk | communautaire attesté |
+| seulement pour le tourisme | Jang jiu hilau bie | communautaire attesté |
+| je veux le grand | Ngai oi thai ye | communautaire attesté |
+| je veux une cravate | Ngai oi lin tai | communautaire attesté |
+| je dois partir / je veux partir | Ngai oi chut | communautaire attesté |
+| je dors | Ngai soi muk | communautaire attesté |
+| je comprends | Ngai fun min | communautaire attesté |
+| j'ai acheté ce pantalon hier | Ngai mai liak fu chau pu nyit | communautaire attesté |
+| j'appelle le manager | Ngai khau thien menejer | communautaire attesté |
+| je voudrais vous demander conseil | Ngai oi tho nyia nasihat | communautaire attesté |
+| je veux faire une copie | Ngai oi co kopian | communautaire attesté |
+| Puis-je prendre une assurance ? | Ngai hiau kiam ki ha cak asuransi mo? | communautaire attesté |
+| Comment aller à ce restaurant ? | Nyiong pen hi ke sitkon? | communautaire attesté |
+| ce n'est rien | comai | candidat, à vérifier |
+| désolé / excusez-moi | tui engchuk | candidat, à vérifier |
+| face à la mer | con hoi | candidat, à vérifier |

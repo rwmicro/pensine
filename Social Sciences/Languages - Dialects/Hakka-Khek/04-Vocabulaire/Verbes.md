@@ -182,3 +182,61 @@ Use **mo** or **mang** for negation:
 - **Jiu co se** = Working
 - **Kong fa** = Speak language
 - **Mai pun nyi** = Buy for you
+
+## Vocabulaire académique — Dictionnaire V3 (2026-09-02) [SKW]
+
+Source : `Dictionnaire_Hakka_Pontianak_Singkawang_v3_FINAL_sans_HuggingFace.xlsx`, compilation basée sur les thèses Huang (2013 Pontianak / 2008-2009 Singkawang) et sources communautaires, avec système de confiance à 3 niveaux. Voir 05-Culture/Dialectes-Regionaux.md.
+
+| Français | Hakka | Caractères | Confiance |
+|---|---|---|---|
+| jouer | kau (kau²⁴) | 搞 | académique primaire |
+| se doucher | se-lioŋ (se²⁴-lioŋ⁵⁵) | 洗涼 | académique primaire |
+| fumer | shĭt-zian (shĭt³⁴-zian⁵³) | 食煙 | académique primaire |
+| fumer | shau-zian (shau³³-zian⁵³) | 燒煙 | académique primaire |
+| se brosser les dents | sot-ŋa (sot³⁴-ŋa⁵⁵) | 刷牙 | académique primaire |
+| errer, se promener | lau (lau⁵³) | 繞 | académique primaire |
+| uriner | o-ŋiau (o⁵³-ŋiau³¹) | 屙尿 | académique primaire |
+| déféquer | o-shi (o⁵³-shi²⁴) | 屙屎 | académique primaire |
+| se reposer | hiat-khĭun (hiat³⁴-khĭun³¹) | 歇睏 | académique primaire |
+| se reposer | hiu-sit (hiu⁵³-sit³⁴) | 休息 | académique primaire |
+| se réveiller | hoŋ-tsoŋ (hoŋ³¹-tsoŋ⁵⁵) | 䟘床 | académique primaire |
+| louer | tsi (tsi⁵³) | 租 | académique primaire |
+| lâcher | pioŋ-shiu (pioŋ³¹-shiu²⁴) | 放手 | académique primaire |
+| pleurer | kiau (kiau³¹) | 哭 | académique primaire |
+| respirer | tʰeu-hi (tʰeu²⁴-hi³¹) | 敨氣 | académique primaire |
+| marcher | haŋ (haŋ⁵⁵) | 行 | académique primaire |
+| courir | tseu (tseu²⁴) | 走 | académique primaire |
+| tirer | lai (lai⁵³) | 拉 | académique primaire |
+| prendre | na (na⁵³) | 拿 | académique primaire |
+| manger | shĭt-fon | 食飯 | académique primaire |
+| cuisiner | tsu-fon | 煮飯 | académique primaire |
+| dormir | shoi-muk | 睡目 | académique primaire |
+| lire, étudier | tʰuk-shu | 讀書 | académique primaire |
+| pousser | suŋ | 𢱤 | académique primaire |
+| tuer; abattre | 劏 | tʰoŋ⁵³ | académique primaire |
+
+## Vocabulaire académique — Dictionnaire V3 (2026-09-02) [PTK]
+
+Source : `Dictionnaire_Hakka_Pontianak_Singkawang_v3_FINAL_sans_HuggingFace.xlsx`, compilation basée sur les thèses Huang (2013 Pontianak / 2008-2009 Singkawang) et sources communautaires, avec système de confiance à 3 niveaux. Voir 05-Culture/Dialectes-Regionaux.md.
+
+| Français | Hakka | Confiance |
+|---|---|---|
+| pouvoir, être capable | boi | communautaire attesté |
+| entrer | lok | communautaire attesté |
+| couper | cien | candidat, à vérifier |
+| boucler / friser | metciu | candidat, à vérifier |
+| arranger; mettre en ordre | metchiang | candidat, à vérifier |
+| penser; croire | chito | candidat, à vérifier |
+| rétrécir | pien | candidat, à vérifier |
+| se souvenir; se rappeler | kitet | candidat, à vérifier |
+| garder; conserver | khon ho loi | candidat, à vérifier |
+| sortir | chut lau | candidat, à vérifier |
+
+## Vocabulaire académique — Dictionnaire V3 (2026-09-02) [WK]
+
+Source : `Dictionnaire_Hakka_Pontianak_Singkawang_v3_FINAL_sans_HuggingFace.xlsx`, compilation basée sur les thèses Huang (2013 Pontianak / 2008-2009 Singkawang) et sources communautaires, avec système de confiance à 3 niveaux. Voir 05-Culture/Dialectes-Regionaux.md.
+
+| Français | Hakka | Confiance |
+|---|---|---|
+| aller chercher; récupérer | ciap | communautaire attesté |
+| se reposer | hiu shit | communautaire attesté |

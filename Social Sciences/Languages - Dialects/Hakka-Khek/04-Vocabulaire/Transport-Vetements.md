@@ -37,3 +37,11 @@ date: "2026-09-02"
 - **Cha** (車) = vehicle/car
 - Many transportation words use **cha** as a suffix
 - **Hang lu** = walk (literally "walk road")
+
+## Vocabulaire académique — Dictionnaire V3 (2026-09-02) [PTK]
+
+Source : `Dictionnaire_Hakka_Pontianak_Singkawang_v3_FINAL_sans_HuggingFace.xlsx`, compilation basée sur les thèses Huang (2013 Pontianak / 2008-2009 Singkawang) et sources communautaires, avec système de confiance à 3 niveaux. Voir 05-Culture/Dialectes-Regionaux.md.
+
+| Français | Hakka | Confiance |
+|---|---|---|
+| ce pantalon | liak fu chau pu | candidat, à vérifier |

@@ -162,3 +162,49 @@ All use **sit** (eat/drink):
 - **Kak** = with (to connect foods: fan kak choi = rice with vegetables)
 - **Pong** = with/and (connector)
 - Many Indonesian/Malay food words are borrowed (bakso, Nasi Goreng, etc.)
+
+## Vocabulaire académique — Dictionnaire V3 (2026-09-02) [SKW]
+
+Source : `Dictionnaire_Hakka_Pontianak_Singkawang_v3_FINAL_sans_HuggingFace.xlsx`, compilation basée sur les thèses Huang (2013 Pontianak / 2008-2009 Singkawang) et sources communautaires, avec système de confiance à 3 niveaux. Voir 05-Culture/Dialectes-Regionaux.md.
+
+| Français | Hakka | Caractères | Confiance |
+|---|---|---|---|
+| riz; repas | fon (fon²⁴) | 飯 | académique primaire |
+| bouillie de riz | moi (moi⁵⁵) | 糜 | académique primaire |
+| légume | tsʰoi (tsʰoi³¹) | 菜 | académique primaire |
+| sel | ziam (ziam⁵⁵) | 鹽 | académique primaire |
+| sucre | tʰoŋ (tʰoŋ⁵⁵) | 糖 | académique primaire |
+| en-cas, dim sum | tiam-sim | 點心 | académique primaire |
+| nouilles | 麵 | mien²⁴ | académique primaire |
+| en-cas | 點心 | tiam²⁴⁻²²-sim⁵³ | académique primaire |
+| goût | 味 | mui²⁴ | académique primaire |
+| aubergine | 吊菜 | tiau³¹-tsʰoi³¹ | académique primaire |
+| piment | 薟椒 | hiam³³-tsiau⁵³ | académique primaire |
+| sauce soja | 豉油 | shi³¹-ziu⁵⁵ | académique primaire |
+| fruit | 果子 | ko³¹-tsi³¹ | académique primaire |
+| mangue | 檨 | sai | académique primaire |
+| ciment | semen | si³¹-men⁵⁵ | académique primaire |
+| pomme de terre | kentang | kan⁵⁵-taŋ⁵³ | académique primaire |
+| pain | roti | lo⁵⁵-ti⁵³ | académique primaire |
+| ciboulette / légume | 快菜 | kʰai³¹-tsʰoi³¹ | communautaire attesté |
+
+## Vocabulaire académique — Dictionnaire V3 (2026-09-02) [PTK]
+
+Source : `Dictionnaire_Hakka_Pontianak_Singkawang_v3_FINAL_sans_HuggingFace.xlsx`, compilation basée sur les thèses Huang (2013 Pontianak / 2008-2009 Singkawang) et sources communautaires, avec système de confiance à 3 niveaux. Voir 05-Culture/Dialectes-Regionaux.md.
+
+| Français | Hakka | Caractères | Confiance |
+|---|---|---|---|
+| sauce soja | shi yu | 豉油 | académique primaire |
+| cacahuète | ti thew | 地豆 | académique primaire |
+| graines de melon | kue tsi | 瓜子 | académique primaire |
+| pomme de terre | kentang |  | académique primaire |
+| essayer; ceci selon contexte | chi |  | candidat, à vérifier |
+| ce soir / maintenant selon contexte | kim |  | candidat, à vérifier |
+
+## Vocabulaire académique — Dictionnaire V3 (2026-09-02) [WK]
+
+Source : `Dictionnaire_Hakka_Pontianak_Singkawang_v3_FINAL_sans_HuggingFace.xlsx`, compilation basée sur les thèses Huang (2013 Pontianak / 2008-2009 Singkawang) et sources communautaires, avec système de confiance à 3 niveaux. Voir 05-Culture/Dialectes-Regionaux.md.
+
+| Français | Hakka | Confiance |
+|---|---|---|
+| riz; repas | fon | communautaire attesté |
