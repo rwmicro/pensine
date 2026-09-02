@@ -3,7 +3,7 @@ title: "Common Words and Basic Vocabulary"
 domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Vocabulary"
 tags: [sciences-sociales, langues, hakka]
-date: "2026-08-23"
+date: "2026-09-02"
 ---
 
 # Common Words and Basic Vocabulary
@@ -66,8 +66,15 @@ Source : vocabulaire généraliste West Kalimantan (ville non précisée), voir 
 | And / With  | kak        | [Universal] |
 | But         | tan he [WK] / tapi [ID] | tapi = Indonesian loanword |
 | Therefore   | anyong [WK] | - |
-| Because     | thet...ko theu [WK] | - |
+| Because     | thet...ko theu [WK] / jin bui | jin bui, source : A trier/Voc.md (2026-09-02) |
 | Or          | -          | Often borrowed from Indonesian |
+| For example | kong pha   | Source : A trier/Voc.md (2026-09-02) |
+| Usually / Habitual | pu thung | id. |
+| Maybe       | kho nen    | id. |
+| To help / please | pong mong | id. |
+| Arrogant    | cong khion | id. — adjectif, pas un connecteur, laissé ici avec le reste du lot |
+| Jealous     | eng kam nyian | id. |
+| Surely      | jin thin / thin | id. |
 
 ## Negation
 
@@ -244,9 +251,11 @@ plusieurs phrases, pas vérifié par un locuteur natif — à confirmer avant de
 | **nyip** | entrer | 40 | « hi nyip hilton » = entrer à l'hôtel Hilton ; « nyip nyia pin » = entrer ton code pin |
 | **tungsi** | truc, chose | 36 | Cohérent avec le composé cantonais/hakka 東西 (tung-si, litt. « est-ouest ») déjà connu pour ce sens |
 | **siw** | rendre service / donner (sens exact incertain) | 99 | Toujours après « then » (tolong) : « then siw ngai » = aide-moi / donne-moi |
-| **ti** | sens incertain — apparaît uniquement après « kong » (dire) : « kong ngai ti [question] » = « dis-moi [à propos de]... » | 56 | Peut-être lié à « savoir » (tahu) |
+| **ti** | savoir (confirmé, voir note ci-dessous) | 56 | « kong ngai ti [question] » = « dis-moi... » |
 | **met** | faire, entreprendre (auxiliaire de projet : « être en train de / prévoir de ») | 54 | « Ngai teu met ten pesta » = on est en train de préparer une fête |
+
+**Mise à jour (2026-09-02) :** l'hypothèse sur `ti` est confirmée par une source indépendante — `A trier/Song.md`, une chanson hakka avec traduction indonésienne ligne par ligne, s'ouvre sur *« Nyi ti ng ti mo ngai an thung sim »* / *« Kamu tau tidak kalau saya sakit hati »* (« Sais-tu ou non que j'ai le cœur brisé »). Le patron « X ti ng ti mo » (« X sait pas-sait Y ») confirme `ti` = savoir/tahu, et documente au passage `ng` comme particule de négation (homonyme du chiffre 5, voir `04-Vocabulaire/Nombres.md`) et `thung sim` = avoir le cœur brisé/sakit hati.
 
 Liste complète (280 mots apparaissant ≥3 fois, y compris ceux ci-dessus non retenus faute de sens
 clair) : voir `vocab_gaps_report.md` dans le dossier du dataset
-(`/home/micro/Documents/hakka-dataset/`).
+(`/home/micro/Desktop/hakka-dataset-code/`).

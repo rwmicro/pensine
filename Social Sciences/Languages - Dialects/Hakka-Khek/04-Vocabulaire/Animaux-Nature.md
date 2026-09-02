@@ -3,7 +3,7 @@ title: "Animals and Nature"
 domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Vocabulary"
 tags: [sciences-sociales, langues, hakka]
-date: "2026-08-21"
+date: "2026-09-02"
 ---
 
 # Animals and Nature
@@ -47,6 +47,7 @@ Source : liste de vocabulaire Pontianak, voir 05-Culture/Dialectes-Regionaux.md 
 | Worm/caterpillar | tjhung   |
 | Fly          | bu jin       |
 | Mosquito     | mun          |
+| Tarantula    | khi fu       |
 
 ## Natural World
 

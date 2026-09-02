@@ -3,7 +3,7 @@ title: "Phrases Essentielles — Hakka (West Kalimantan)"
 domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > 02-Communication"
 tags: [sciences-sociales, langues, hakka, survie, communication]
-date: "2026-08-21"
+date: "2026-09-02"
 ---
 # Phrases Essentielles — Hakka (West Kalimantan / Pontianak)
 
@@ -83,3 +83,34 @@ Variété Hakka de Kalimantan occidental (Borneo). Translittération phonétique
 | Je ne sais pas | Ngai mang chai |
 | Peut-être      | Kian-nai       |
 | Attends        | Tang yit ha    |
+
+## Salutations selon le moment de la journée (source : A trier/Voc.md, 2026-09-02)
+
+| Français | Hakka |
+|---|---|
+| Bonjour (le matin) | Co on |
+| Bonjour (l'après-midi) | Ciu on |
+| Bonsoir | Am on |
+| À bientôt | Cai kien |
+
+## Phrases supplémentaires (source : A trier/Voc.md, 2026-09-02)
+
+| Français | Hakka |
+|---|---|
+| Je ne vais pas bien aujourd'hui | Ngai kimi mo hao |
+| Tu exagères | Nyi thet ko fen |
+| Tu es fatigué(e) ? | Nyi boi hot mo |
+| Non (variante) | Ng boi |
+| Il n'y en a pas | Boi mo |
+| Pas de problème | Mo wun ti |
+| Celui-ci / Celle-ci | Lia cak |
+| Celui-là / Celle-là | Kai cak |
+| Où es-tu ? | Nyi choi a bui |
+| Tu es fou/folle | Nyi pot khong a |
+| Je plains pour lui/elle | Choi ko ki |
+| Mangeons ensemble | Khiung ha sit fon hang |
+| Je t'aime beaucoup | Ngai an siak ki |
+| Combien ? (forme courte) | Ki to |
+| Comment ça va ? (forme courte) | Ho mo? |
+| Tomber | Jau khut thung |
+| Fou / Folle | Siao |
