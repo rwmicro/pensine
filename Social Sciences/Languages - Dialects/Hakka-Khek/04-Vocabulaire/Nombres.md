@@ -23,7 +23,7 @@ date: "2026-09-02"
 | 6       | liuk [WK]  | [Universal] |
 | 7       | chit [WK] / tjit | Spelling variations |
 | 8       | pat [WK]   | [Universal] |
-| 9       | kiu [WK]   | [Universal] |
+| 9       | kiu [WK] / khiu (九) | [Universal]; khiu confirmé par Dictionnaire V3, académique primaire |
 | 10      | sip [WK]   | [Universal]; ship alternative spelling |
 
 ## Teens (11-19)
@@ -70,7 +70,7 @@ date: "2026-09-02"
 | 121       | jit pak nyi sip jit [WK]     | - |
 | 1,000     | jit chien [WK] / yit-chien   | Both forms used |
 | 1,500     | yit-chien-eng-pak [WK]       | eng = 5 in compounds |
-| 10,000    | jit ban [WK] / yit-wan       | ban [ID]; wan closer to Mandarin |
+| 10,000    | jit ban [WK] / yit-wan / ban (萬) | ban [ID]; wan closer to Mandarin; ban (萬) confirmé par Dictionnaire V3, académique primaire |
 | 100,000   | jit pak chien [WK]           | - |
 | 1,000,000 | jit thiau [WK] / yit-thiau   | - |
 
@@ -78,7 +78,7 @@ date: "2026-09-02"
 
 - **Pak** = hundred [Universal]
 - **Chien** = thousand [Universal]
-- **Ban [ID/WK]** / **Wan [TW/CN]** = ten thousand (regional difference!)
+- **Ban/Wan** = ten thousand — regional difference, see "Ban vs Wan" below
 - **Thiau** = million [Universal]
 
 ## Notes on Regional Variations
@@ -96,12 +96,3 @@ date: "2026-09-02"
 ### Pattern Notes
 - Larger numbers follow additive pattern: e.g., 1,500 = one thousand + five hundred
 - Compound numbers tend to use "yit" instead of "jit"
-
-## Vocabulaire académique — Dictionnaire V3 (2026-09-02) [PTK]
-
-Source : `Dictionnaire_Hakka_Pontianak_Singkawang_v3_FINAL_sans_HuggingFace.xlsx`, compilation basée sur les thèses Huang (2013 Pontianak / 2008-2009 Singkawang) et sources communautaires, avec système de confiance à 3 niveaux. Voir 05-Culture/Dialectes-Regionaux.md.
-
-| Français | Hakka | Caractères | Confiance |
-|---|---|---|---|
-| neuf | khiu | 九 | académique primaire |
-| dix mille | ban | 萬 | académique primaire |

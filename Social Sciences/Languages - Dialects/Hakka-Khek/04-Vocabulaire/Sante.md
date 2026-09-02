@@ -37,16 +37,16 @@ Note sur "thiam n&au" : orthographe telle quelle dans la source, probablement un
 
 ## Soins et actions
 
-| English         | Hakka       |
-|-------------------|-------------|
-| Doctor             | ji sen      |
-| Injection           | ta sim      |
-| Operation / Surgery | khoi to     |
-| Medication          | jok         |
-| Filter (eau, etc.)  | min ten     |
-| Smoke (cigarette)   | pok jan     |
-| Sport / Exercise    | jun thung   |
-| Blood               | tiam tiam   |
+| English         | Hakka       | Notes |
+|-------------------|-------------|-------|
+| Doctor             | ji sen      | |
+| Injection           | ta sim      | |
+| Operation / Surgery | khoi to     | |
+| Medication          | jok         | |
+| Filter (eau, etc.)  | min ten     | |
+| Smoke (cigarette)   | pok jan / shĭt-zian (shĭt³⁴-zian⁵³) 食煙 / shau-zian (shau³³-zian⁵³) 燒煙 | Deux synonymes SKW académiques primaires en plus de pok jan |
+| Sport / Exercise    | jun thung   | |
+| Blood               | tiam tiam   | |
 
 ## Notes
 

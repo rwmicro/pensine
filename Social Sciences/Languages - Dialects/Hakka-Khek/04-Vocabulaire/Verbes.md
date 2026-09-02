@@ -7,119 +7,142 @@ date: "2026-09-02"
 ---
 # Verbs and Actions
 
-**Dialect Note:** This is **West Kalimantan/Pontianak Indonesian Hakka [WK]**. Some verbs are unique to Indonesian Hakka communities.
+**Dialect Note:** This is primarily **West Kalimantan/Pontianak Indonesian Hakka [WK]**, with a
+Singkawang academic layer (caractères + IPA, Dictionnaire V3) integrated below where it overlaps or
+adds new verbs. Sources complètes : voir `05-Culture/Dialectes-Regionaux.md`.
+
 ## Movement Verbs
 
-| English   | Hakka         | Dialect Notes |
-|-----------|---------------|---------------|
-| Go        | hi [WK]       | [Universal] |
-| Walk      | hang lu [WK]  | [Universal] Literally "walk road" |
-| Sit       | cho [WK]      | [Universal] |
-| Stand up  | khi [WK]      | [Universal] |
-| Jump      | phiau [WK] / thiau | Regional variation |
-| Dance     | thiau bu [WK] | thiau = jump/dance |
-| Fly       | pui [WK]      | [Universal] |
-| Return    | con [WK]      | [Universal] Go home |
+| English   | Hakka                          | Notes |
+|-----------|----------------------------------|-------|
+| Go        | hi [WK]                         | [Universal] |
+| Walk      | hang lu [WK] / haŋ (haŋ⁵⁵) 行     | [SKW] académique primaire confirme la racine "haŋ" |
+| Sit       | cho [WK]                        | [Universal] |
+| Stand up  | khi [WK]                        | [Universal] |
+| Jump      | phiau [WK] / thiau               | Regional variation |
+| Dance     | thiau bu [WK]                   | thiau = jump/dance |
+| Fly       | pui [WK]                        | [Universal] |
+| Return    | con [WK]                        | [Universal] Go home |
+| Run       | cew / tseu (tseu²⁴) 走            | tseu : [SKW] académique primaire, probable variante de "cew" (source : A trier/Voc.md, colonnes Hakka/Indonésien inversées pour cette entrée — vérifié) |
+| Get out of the way | hang khoy               | Source : A trier/Voc.md |
+| Wander, stroll | lau (lau⁵³) 繞               | [SKW] académique primaire — homonyme apparent de "lau" = et/avec (Français) trouvé ailleurs, sens distinct |
+| Pull      | lai (lai⁵³) 拉                   | [SKW] académique primaire |
+| Push      | suŋ (𢱤)                         | [SKW] académique primaire |
+| Enter     | lok / nyip                       | lok : [PTK] communautaire attesté ; nyip : sens inféré du corpus personnel (voir § Annexe, `Mots-Essentiels.md`) — deux mots distincts pour "entrer" |
+| Rent      | tsi (tsi⁵³) 租                   | [SKW] académique primaire |
 
 ## Communication Verbs
 
-| English      | Hakka      |
-|--------------|------------|
-| Speak        | kong fa    |
-| Sing         | chong ko   |
-| See/watch    | khon       |
-| Meet         | nyi / siong nyi |
-| Disagree     | mo tet     |
-| Agree        | fo hi      |
-| Fight        | ta         |
-| Argue        | chau kau   |
-| Phone/call   | tathien    | Source : corpus personnel Khek Pontianak (2026-09-02) |
+| English      | Hakka             | Notes |
+|--------------|--------------------|-------|
+| Speak        | kong fa            | |
+| Sing         | chong ko           | |
+| See/watch    | khon               | |
+| Meet         | nyi / siong nyi    | |
+| Disagree     | mo tet             | |
+| Agree        | fo hi              | |
+| Fight        | ta                 | |
+| Argue        | chau kau           | |
+| Phone/call   | tathien            | Source : corpus personnel Khek Pontianak (2026-09-02) |
+| Cry          | kiau (kiau³¹) 哭    | [SKW] académique primaire |
+| Breathe      | tʰeu-hi (tʰeu²⁴-hi³¹) 敨氣 | [SKW] académique primaire |
 
 ## Daily Actions
 
 ### Eating and Drinking
-| English      | Hakka      |
-|--------------|------------|
-| Eat          | sit        |
-| Drink        | jim        |
-| Cook         | cu choi    |
+| English      | Hakka            | Notes |
+|--------------|-------------------|-------|
+| Eat          | sit / shĭt-fon (食飯, avec "riz") | |
+| Drink        | jim               | |
+| Cook         | cu choi / tsu-fon (煮飯) | |
 
 ### Work and Learning
-| English            | Hakka                   | Dialect Notes               |
-| ------------------ | ----------------------- | --------------------------- |
+| English            | Hakka                   | Notes               |
+| ------------------ | ------------------------ | --------------------------- |
 | Work               | jiu co se [WK] / cho se | Both forms used in WK       |
-| Study (university) | kuliah [ID]             | **Indonesian loanword!**    |
-| Learn              | hok [WK] / khau shu     | hok more common in ID Hakka |
-| Go to school       | thuk shu [WK]           | Traditional term            |
-| Test               | khau she [WK]           | -                           |
+| Study (university) | kuliah [ID]              | **Indonesian loanword!**    |
+| Learn               | hok [WK] / khau shu     | hok more common in ID Hakka |
+| Go to school / read, study | thuk shu [WK] / tʰuk-shu (讀書) | Traditional term ; tʰuk-shu confirmé [SKW] académique primaire, sens un peu plus large ("lire, étudier") |
+| Test                | khau she [WK]           | -                            |
 
 ### Transactions
-| English   | Hakka         |
-|-----------|---------------|
-| Buy       | mai           |
-| Sell      | to lo mai     |
-| Pay       | bon / phoi    |
-| Give      | phoi          |
+| English   | Hakka         | Notes |
+|-----------|----------------|-------|
+| Buy       | mai            | |
+| Sell      | to lo mai      | |
+| Pay       | bon / phoi     | |
+| Give      | phoi           | |
+| Play      | kau (kau²⁴) 搞  | [SKW] académique primaire |
 
 ### Other Actions
-| English         | Hakka       |
-| --------------- | ----------- |
-| Put             | piong       |
-| Search/look for | chim        |
-| Wait            | kai bui     |
-| Prepare         | cun phin    |
-| Do/make         | mek         |
-| Complete        | pau / co to |
-| Die             | si          |
-| Forgot          | eng ki tet / mong ki [PTK] |
+| English         | Hakka             | Notes |
+| --------------- | ------------------ | ----- |
+| Put             | piong              | |
+| Search/look for | chim               | |
+| Wait            | kai bui            | |
+| Prepare         | cun phin           | |
+| Do/make         | mek                | |
+| Complete        | pau / co to        | |
+| Die             | si                 | Homonyme de "si" = paresseux (`Adjectifs.md`), probablement distingué par le ton |
+| Forgot          | eng ki tet / mong ki [PTK] | Littéralement "ne pas se souvenir" — voir "kitet" ci-dessous |
+| Remember        | kitet              | [PTK] candidat, à vérifier — racine partagée avec "eng ki tet" (oublier) ci-dessus |
+| Shrink          | pien               | [PTK] candidat, à vérifier |
+| Cut             | cien               | [PTK] candidat, à vérifier |
+| Curl (hair)     | metciu             | [PTK] candidat, à vérifier |
+| Arrange, tidy   | metchiang          | [PTK] candidat, à vérifier |
+| Keep, preserve  | khon ho loi        | [PTK] candidat, à vérifier |
+| Go out, exit    | chut lau           | [PTK] candidat, à vérifier |
+| Kill, slaughter | tʰoŋ⁵³ (劏)          | [SKW] académique primaire |
+| Take            | na (na⁵³) 拿        | [SKW] académique primaire — distinct de "kiam" (prendre, ci-dessous) |
+| Fetch, go get   | ciap               | Dictionnaire V3, communautaire attesté |
+| Let go          | pioŋ-shiu (pioŋ³¹-shiu²⁴) 放手 | [SKW] académique primaire |
 
 ### Personal Care
-| English      | Hakka         | Dialect Notes |
-|--------------|---------------|---------------|
-| Bathe        | se liong [WK] | Literally "wash body" |
-| Sleep        | soi muk [WK]  | Literally "close eyes" |
-| Wake up      | hong shin [PTK] | Corrected 2026-08-21: previously mislabeled "Build" under Work/Learning with no source — better-sourced material glosses it as "wake up" |
+| English       | Hakka                                  | Notes |
+|---------------|------------------------------------------|-------|
+| Bathe         | se liong [WK] / se-lioŋ (洗涼)             | Literally "wash body" ; se-lioŋ confirmé [SKW] académique primaire |
+| Brush teeth   | sot-ŋa (刷牙)                             | [SKW] académique primaire |
+| Sleep         | soi muk [WK] / shoi-muk (睡目)             | Literally "close eyes" ; confirmé [SKW] académique primaire |
+| Rest          | hiat-khĭun (歇睏) / hiu-sit (休息) / hiu shit [WK] | Trois synonymes attestés (Dictionnaire V3 + communautaire) |
+| Wake up       | hong shin [PTK] / hoŋ-tsoŋ (䟘床)          | Corrected 2026-08-21: previously mislabeled "Build" — better-sourced material glosses it as "wake up". hoŋ-tsoŋ (Singkawang) est une forme différente, pas juste une variante orthographique |
+| Urinate       | onio / o-ŋiau (屙尿)                       | onio (Pontianak, source A trier/Voc.md) et o-ŋiau (Singkawang, académique) sont manifestement le même mot |
+| Defecate      | osi / o-shi (屙屎)                         | Même remarque : osi (Pontianak) et o-shi (Singkawang, académique) se confirment mutuellement |
+| Wear          | cok                                       | Source : A trier/Voc.md |
 
 ## Emotional and Mental Verbs
 
-| English      | Hakka         | Dialect Notes |
-|--------------|---------------|---------------|
+| English      | Hakka         | Notes |
+|--------------|---------------|-------|
 | Want         | oi [WK]       | [Universal] |
-| Like         | nyen [WK]     | [Universal] — "nyien" (corpus personnel, 2026-09-02) est probablement la même variante orthographique |
-| Think/feel   | chi to [WK] / men | men alternative form — "chito" (sans espace, corpus personnel) est la même variante |
+| Like         | nyen [WK] / nyien | nyien (corpus personnel, 2026-09-02) est probablement la même variante orthographique |
+| Think/feel   | chi to [WK] / men / chito | men alternative form ; "chito" (sans espace, corpus personnel ET Dictionnaire V3 candidat [PTK]) confirme la même variante par deux sources indépendantes |
 | Get/obtain   | tetto         | Source : corpus personnel Khek Pontianak (2026-09-02) |
 | Remember     | siong [WK]    | **Attention : dépend du ton !** Can mean: think/want/remember/photo |
+| Believe, trust | siong sin | Source : A trier/Voc.md |
+| Be able to (able, capable) | boi | [PTK] communautaire attesté — mot très polysémique en hakka (sert aussi de marqueur d'accompli/futur négatif ailleurs), sens précis à confirmer selon contexte |
 
 **Important Note on "Siong":** This word demonstrates how critical tones are in Hakka! The same romanization "siong" can mean different things with different tones. Always listen to native speakers for the correct tone.
 
 ## Autres verbes [PTK]
 
-| English            | Hakka          |
-|--------------------|----------------|
-| Live                | sang           |
-| Work (variant)      | co thew lu     |
-| Marry               | kiat fun       |
-| Be hungry           | ngo            |
-| Be thirsty          | hot sui        |
+Source : liste de vocabulaire Pontianak, voir `05-Culture/Dialectes-Regionaux.md` pour les sources détaillées.
 
-## Verbes tirés d'une compilation personnelle (source : A trier/Voc.md, 2026-09-02)
-
-| English              | Hakka           | Notes |
-|-----------------------|-----------------|-------|
-| Run                    | cew             | Colonnes Hakka/Indonésien inversées dans la source pour cette entrée — vérifié |
-| Cannot                 | em boi          | Distinct de "mo tet" (désaccord) et "hiau" (savoir faire) |
-| Don't want             | mo oi / mo'oi   | |
-| Show off / brag        | sa kai / ka khiang | |
-| Get out of the way     | hang khoy       | |
-| Fight / struggle       | a sa mang       | Distinct de "ta" (se battre physiquement) |
-| Can't do anything      | mo fan fa       | |
-| Wear                   | cok             | |
-| Take                   | kiam            | Confirme l'hypothèse posée le 2026-08-23 dans Mots-Essentiels.md (« kiam ki ha cak asuransi » = prendre de l'assurance) |
-| Lie                    | pian            | |
-| Divorce                | phon khoi       | |
-| Open                   | khoy            | Variante de "khoi" (déjà connu dans "Khoi mun" = ouvre la porte) |
-| Urinate                | onio            | Distinct de la phrase "oi o nyiau" (vouloir uriner) |
-| Defecate                | osi             | Distinct de la phrase "oi o si" (vouloir déféquer) |
+| English            | Hakka          | Notes |
+|--------------------|-----------------|-------|
+| Live                | sang           | |
+| Work (variant)      | co thew lu     | |
+| Marry               | kiat fun       | |
+| Be hungry           | ngo            | |
+| Be thirsty          | hot sui        | |
+| Cannot              | em boi         | Source A trier/Voc.md — distinct de "mo tet" (désaccord) et "hiau" (savoir faire, voir `Mots-Essentiels.md`) |
+| Don't want          | mo oi / mo'oi  | Source A trier/Voc.md |
+| Show off / brag     | sa kai / ka khiang | Source A trier/Voc.md |
+| Fight / struggle    | a sa mang      | Source A trier/Voc.md — distinct de "ta" (se battre physiquement) |
+| Can't do anything   | mo fan fa      | Source A trier/Voc.md |
+| Take                | kiam           | Source A trier/Voc.md — confirme l'hypothèse posée le 2026-08-23 dans `Mots-Essentiels.md` (« kiam ki ha cak asuransi » = prendre de l'assurance) |
+| Lie                 | pian           | Source A trier/Voc.md |
+| Divorce             | phon khoi      | Source A trier/Voc.md |
+| Open                | khoy           | Source A trier/Voc.md — variante de "khoi" (déjà connu dans "Khoi mun" = ouvre la porte) |
 
 ## Grammar Patterns
 
@@ -143,7 +166,7 @@ Use **mo** or **mang** for negation:
 - **Siong + verb** = feel like/want to...
 - **Nyen + verb** = like to...
 
-## Examples:
+## Examples
 
 1. **Ngai oi sit**
    - I want to eat
@@ -174,6 +197,7 @@ Use **mo** or **mang** for negation:
 
 10. **Co to pat tiam**
     - Finish at 8 o'clock
+
 ## Common Verb Combinations
 - **Sit pau mang** = Have you eaten? (already eaten not-yet)
 - **Hi khon hi** = Go watch a movie
@@ -182,61 +206,3 @@ Use **mo** or **mang** for negation:
 - **Jiu co se** = Working
 - **Kong fa** = Speak language
 - **Mai pun nyi** = Buy for you
-
-## Vocabulaire académique — Dictionnaire V3 (2026-09-02) [SKW]
-
-Source : `Dictionnaire_Hakka_Pontianak_Singkawang_v3_FINAL_sans_HuggingFace.xlsx`, compilation basée sur les thèses Huang (2013 Pontianak / 2008-2009 Singkawang) et sources communautaires, avec système de confiance à 3 niveaux. Voir 05-Culture/Dialectes-Regionaux.md.
-
-| Français | Hakka | Caractères | Confiance |
-|---|---|---|---|
-| jouer | kau (kau²⁴) | 搞 | académique primaire |
-| se doucher | se-lioŋ (se²⁴-lioŋ⁵⁵) | 洗涼 | académique primaire |
-| fumer | shĭt-zian (shĭt³⁴-zian⁵³) | 食煙 | académique primaire |
-| fumer | shau-zian (shau³³-zian⁵³) | 燒煙 | académique primaire |
-| se brosser les dents | sot-ŋa (sot³⁴-ŋa⁵⁵) | 刷牙 | académique primaire |
-| errer, se promener | lau (lau⁵³) | 繞 | académique primaire |
-| uriner | o-ŋiau (o⁵³-ŋiau³¹) | 屙尿 | académique primaire |
-| déféquer | o-shi (o⁵³-shi²⁴) | 屙屎 | académique primaire |
-| se reposer | hiat-khĭun (hiat³⁴-khĭun³¹) | 歇睏 | académique primaire |
-| se reposer | hiu-sit (hiu⁵³-sit³⁴) | 休息 | académique primaire |
-| se réveiller | hoŋ-tsoŋ (hoŋ³¹-tsoŋ⁵⁵) | 䟘床 | académique primaire |
-| louer | tsi (tsi⁵³) | 租 | académique primaire |
-| lâcher | pioŋ-shiu (pioŋ³¹-shiu²⁴) | 放手 | académique primaire |
-| pleurer | kiau (kiau³¹) | 哭 | académique primaire |
-| respirer | tʰeu-hi (tʰeu²⁴-hi³¹) | 敨氣 | académique primaire |
-| marcher | haŋ (haŋ⁵⁵) | 行 | académique primaire |
-| courir | tseu (tseu²⁴) | 走 | académique primaire |
-| tirer | lai (lai⁵³) | 拉 | académique primaire |
-| prendre | na (na⁵³) | 拿 | académique primaire |
-| manger | shĭt-fon | 食飯 | académique primaire |
-| cuisiner | tsu-fon | 煮飯 | académique primaire |
-| dormir | shoi-muk | 睡目 | académique primaire |
-| lire, étudier | tʰuk-shu | 讀書 | académique primaire |
-| pousser | suŋ | 𢱤 | académique primaire |
-| tuer; abattre | 劏 | tʰoŋ⁵³ | académique primaire |
-
-## Vocabulaire académique — Dictionnaire V3 (2026-09-02) [PTK]
-
-Source : `Dictionnaire_Hakka_Pontianak_Singkawang_v3_FINAL_sans_HuggingFace.xlsx`, compilation basée sur les thèses Huang (2013 Pontianak / 2008-2009 Singkawang) et sources communautaires, avec système de confiance à 3 niveaux. Voir 05-Culture/Dialectes-Regionaux.md.
-
-| Français | Hakka | Confiance |
-|---|---|---|
-| pouvoir, être capable | boi | communautaire attesté |
-| entrer | lok | communautaire attesté |
-| couper | cien | candidat, à vérifier |
-| boucler / friser | metciu | candidat, à vérifier |
-| arranger; mettre en ordre | metchiang | candidat, à vérifier |
-| penser; croire | chito | candidat, à vérifier |
-| rétrécir | pien | candidat, à vérifier |
-| se souvenir; se rappeler | kitet | candidat, à vérifier |
-| garder; conserver | khon ho loi | candidat, à vérifier |
-| sortir | chut lau | candidat, à vérifier |
-
-## Vocabulaire académique — Dictionnaire V3 (2026-09-02) [WK]
-
-Source : `Dictionnaire_Hakka_Pontianak_Singkawang_v3_FINAL_sans_HuggingFace.xlsx`, compilation basée sur les thèses Huang (2013 Pontianak / 2008-2009 Singkawang) et sources communautaires, avec système de confiance à 3 niveaux. Voir 05-Culture/Dialectes-Regionaux.md.
-
-| Français | Hakka | Confiance |
-|---|---|---|
-| aller chercher; récupérer | ciap | communautaire attesté |
-| se reposer | hiu shit | communautaire attesté |

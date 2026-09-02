@@ -20,10 +20,13 @@ date: "2026-09-02"
 
 ## Clothing
 
-| English | Hakka   |
-|---------|---------|
-| Shirt   | samfou  |
-| Pants   | fou     |
+| English      | Hakka           | Notes |
+|--------------|------------------|-------|
+| Shirt        | samfou           | |
+| Pants        | fou / khu / liak fu chau pu | khu : [PTK/SKW] académique primaire (褲) ; "liak fu chau pu" (ces pantalons) : Dictionnaire V3, candidat à vérifier |
+| Clothes (general) | sam-khu (sam⁵³-kʰu³¹) 衫褲 | [PTK/SKW] académique primaire — littéralement "haut-pantalon" |
+| Glove        | siu mat / shiu-mat (shiu²⁴⁻²²-mat³⁴) 手襪 | siu mat = candidat à vérifier ; shiu-mat = [SKW] académique primaire, même mot |
+| Glasses      | muk-kiaŋ (muk³⁴⁻³-kiaŋ³¹) 目鏡 | [SKW] académique primaire |
 
 ## Related Verbs
 
@@ -37,11 +40,3 @@ date: "2026-09-02"
 - **Cha** (車) = vehicle/car
 - Many transportation words use **cha** as a suffix
 - **Hang lu** = walk (literally "walk road")
-
-## Vocabulaire académique — Dictionnaire V3 (2026-09-02) [PTK]
-
-Source : `Dictionnaire_Hakka_Pontianak_Singkawang_v3_FINAL_sans_HuggingFace.xlsx`, compilation basée sur les thèses Huang (2013 Pontianak / 2008-2009 Singkawang) et sources communautaires, avec système de confiance à 3 niveaux. Voir 05-Culture/Dialectes-Regionaux.md.
-
-| Français | Hakka | Confiance |
-|---|---|---|
-| ce pantalon | liak fu chau pu | candidat, à vérifier |

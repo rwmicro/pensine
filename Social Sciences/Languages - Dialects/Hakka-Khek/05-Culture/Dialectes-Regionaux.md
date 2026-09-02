@@ -48,7 +48,7 @@ Primary focus of these materials.
 
 ### Pontianak vs Singkawang : deux variétés distinctes, pas une seule
 
-Contrairement à ce que suggère l'étiquette générique "West Kalimantan Hakka", le hakka de Pontianak et celui de Singkawang sont deux variétés différentes (origine chinoise, tons, une partie du lexique hérité), même si les deux partagent une couche récente d'emprunts communs (teochew, cantonais, malais/indonésien). 
+Contrairement à ce que suggère l'étiquette générique "West Kalimantan Hakka", le hakka de Pontianak et celui de Singkawang sont deux variétés différentes (origine chinoise, tons, une partie du lexique hérité), même si les deux partagent une couche récente d'emprunts communs (teochew, cantonais, malais/indonésien).
 
 | | Pontianak (坤甸客語) | Singkawang (山口洋客語) |
 |---|---|---|
@@ -57,6 +57,7 @@ Contrairement à ce que suggère l'étiquette générique "West Kalimantan Hakka
 | Tons (valeurs) | 24 / 11 / 31 / 55 / 2 / 5 | 53 / 55 / 24 / 31 / 34 / 5 |
 | Locuteurs (recensement) | ~86 400 (2013) | ~103 400 (2012) |
 | Zone | Pontianak, Mempawah, Kubu Raya, Sekadau, Sintang, Sanggau | Singkawang, Sambas, Pemangkat, Bengkayang |
+
 Sources : Huang, Su-chen (2013), *印尼坤甸客家話研究* [Pontianak Hakka Study], et Huang, Hui-chen (2008), *印尼山口洋客家話研究* [Study of Hakka in Singkawang, Indonesia] - deux mémoires de master, National Central University (Taïwan) ; voir "Sources académiques" ci-dessous.
 
 **Distinguishing features (both varieties):**
@@ -86,6 +87,13 @@ Sources : Huang, Su-chen (2013), *印尼坤甸客家話研究* [Pontianak Hakka 
 | **Ten thousand** | ban | wan | wan closer to Mandarin |
 | **Two** | nyi | liong | liong used in some contexts |
 
+### Vocabulaire culturel isolé (Dictionnaire V3)
+
+| Français | Hakka | Zone | Confiance |
+|---|---|---|---|
+| Fête de départ | pesta perpisahan | Pontianak | académique primaire |
+| Fête des Lanternes | 正月半 (tsaŋ³¹-ŋiat⁵-pan³¹) | Singkawang | académique primaire |
+
 ## Dialect Markers Used in These Materials
 
 To help you identify regional origins, we use these markers:
@@ -106,32 +114,4 @@ To help you identify regional origins, we use these markers:
 - Huang, Su-chen (2013). *印尼坤甸客家話研究* [Pontianak Hakka Study]. Mémoire de master, National Central University (Taïwan) — cité via l'article Wikipédia "Pontianak Hakka".
 - Huang, Hui-chen (2008). *印尼山口洋客家話研究* [Study of Hakka in Singkawang, Indonesia]. Mémoire de master, National Central University (Taïwan) — cité via l'article Wikipédia "Singkawang Hakka".
 - Pontoh, Manzhuur Daanisy Ahmad; Kabul, Assa Rahmawati (2023). "Kata Serapan dari Bahasa Hakka dalam Leksikon Bahasa Indonesia". *Semiotika*, 24(1), 118–132, Universitas Indonesia — vocabulaire vérifié avec deux locutrices natives du hakka de Singkawang.
-
-### Dictionnaire V3 (compilation compagne, 2026-09-02)
-
-`Dictionnaire_Hakka_Pontianak_Singkawang_v3_FINAL_sans_HuggingFace.xlsx` (dans `A trier/`) est une
-compilation de 601 entrées construite à partir des mêmes deux thèses Huang, avec un système de
-confiance à 3 niveaux (★★★★★ académique primaire, ★★★★☆ communautaire attesté, ★★★☆☆ candidat
-corpus à vérifier) et des tons IPA précis par mot pour une partie des entrées Singkawang. Le fichier
-indique explicitement avoir retiré les données déjà présentes dans le dataset HF `rwm1cr0/hakka-khek`
-à la demande de l'utilisateur — c'est une vérification indépendante, pas une resucée.
-
-**Point de vigilance sur ce fichier** : la plupart des entrées citent des codes source `S3`/`S4`/`S5`/`S6`
-qui ne sont **jamais définis** dans l'onglet Sources du fichier (qui ne documente que S1, S2, R1, R2,
-A3). Ce n'est pas résolu ici — traiter ces citations comme partiellement non vérifiables.
-
-## Vocabulaire académique — Dictionnaire V3 (2026-09-02) [PTK]
-
-Source : `Dictionnaire_Hakka_Pontianak_Singkawang_v3_FINAL_sans_HuggingFace.xlsx`, compilation basée sur les thèses Huang (2013 Pontianak / 2008-2009 Singkawang) et sources communautaires, avec système de confiance à 3 niveaux. Voir 05-Culture/Dialectes-Regionaux.md.
-
-| Français | Hakka | Confiance |
-|---|---|---|
-| fête de départ | pesta perpisahan | académique primaire |
-
-## Vocabulaire académique — Dictionnaire V3 (2026-09-02) [SKW]
-
-Source : `Dictionnaire_Hakka_Pontianak_Singkawang_v3_FINAL_sans_HuggingFace.xlsx`, compilation basée sur les thèses Huang (2013 Pontianak / 2008-2009 Singkawang) et sources communautaires, avec système de confiance à 3 niveaux. Voir 05-Culture/Dialectes-Regionaux.md.
-
-| Français | Hakka | Caractères | Confiance |
-|---|---|---|---|
-| fête des Lanternes | 正月半 | tsaŋ³¹-ŋiat⁵-pan³¹ | académique primaire |
+- `Dictionnaire_Hakka_Pontianak_Singkawang_v3_FINAL_sans_HuggingFace.xlsx` (dans `A trier/`, 2026-09-02) : compilation compagne de 601 entrées construite à partir des mêmes deux thèses Huang, système de confiance à 3 niveaux (★★★★★ académique primaire, ★★★★☆ communautaire attesté, ★★★☆☆ candidat corpus à vérifier), tons IPA précis pour une partie des entrées Singkawang. Exclut délibérément les données déjà présentes dans le dataset HF `rwm1cr0/hakka-khek` (vérification indépendante, pas une resucée). **Point de vigilance :** la plupart des entrées citent des codes source `S3`/`S4`/`S5`/`S6` qui ne sont jamais définis dans l'onglet Sources du fichier — traiter ces citations comme partiellement non vérifiables.
