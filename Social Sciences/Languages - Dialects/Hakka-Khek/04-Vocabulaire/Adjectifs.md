@@ -3,7 +3,7 @@ title: "Adjectives and Descriptive Words"
 domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Vocabulary"
 tags: [sciences-sociales, langues, hakka]
-date: "2026-08-21"
+date: "2026-09-02"
 ---
 
 # Adjectives and Descriptive Words
@@ -26,6 +26,21 @@ date: "2026-08-21"
 | Very big  | an thai       |
 | Small     | se / seh / siau |
 | Long      | chong         |
+| Skinny    | shew          |
+| Fat       | fui           |
+
+## Personnalité et comportement (source : A trier/Voc.md, 2026-09-02)
+
+| Hakka | Français |
+|---|---|
+| ham sep | radin / avare |
+| bai | radin / pelit (synonyme de ham sep) |
+| lo sit | honnête |
+| ho nyin | bonne personne |
+| fai nyin | mauvaise personne |
+| nung kau | en désordre, brouillon |
+| sip sip | mouillé |
+| si | paresseux — **attention, homonyme** : `si` = mourir (Verbes.md) existe déjà pour un sens totalement différent ; probablement deux mots distincts qui partagent la même romanisation sans distinction de ton |
 
 ## Quality and Condition
 

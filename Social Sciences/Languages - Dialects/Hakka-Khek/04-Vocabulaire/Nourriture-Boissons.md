@@ -3,7 +3,7 @@ title: "Food and Drinks Vocabulary"
 domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Vocabulary"
 tags: [sciences-sociales, langues, hakka]
-date: "2026-08-21"
+date: "2026-09-02"
 ---
 
 # Food and Drinks Vocabulary
@@ -44,6 +44,16 @@ date: "2026-08-21"
 | Seed/pit   | fut [PTK]  |
 | Lychee (Singkawang) | lì-chi / lici [SKW] |
 | Kumquat, medicinal (Singkawang) | kim-kit / kingkit [SKW] |
+
+## Flours (source : A trier/Voc.md, 2026-09-02)
+
+| English            | Hakka       |
+|----------------------|-------------|
+| Wheat flour           | mian fun    |
+| Corn flour             | pao suk fun |
+| Rice flour             | mi fun      |
+| Glutinous rice flour   | nuo mi fun  |
+| Sago flour             | su fun      |
 
 ## Drinks
 

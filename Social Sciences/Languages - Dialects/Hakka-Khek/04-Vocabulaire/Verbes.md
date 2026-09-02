@@ -3,7 +3,7 @@ title: "Verbs and Actions"
 domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Vocabulary"
 tags: [sciences-sociales, langues, hakka]
-date: "2026-08-21"
+date: "2026-09-02"
 ---
 # Verbs and Actions
 
@@ -99,6 +99,25 @@ date: "2026-08-21"
 | Marry               | kiat fun       |
 | Be hungry           | ngo            |
 | Be thirsty          | hot sui        |
+
+## Verbes tirés d'une compilation personnelle (source : A trier/Voc.md, 2026-09-02)
+
+| English              | Hakka           | Notes |
+|-----------------------|-----------------|-------|
+| Run                    | cew             | Colonnes Hakka/Indonésien inversées dans la source pour cette entrée — vérifié |
+| Cannot                 | em boi          | Distinct de "mo tet" (désaccord) et "hiau" (savoir faire) |
+| Don't want             | mo oi / mo'oi   | |
+| Show off / brag        | sa kai / ka khiang | |
+| Get out of the way     | hang khoy       | |
+| Fight / struggle       | a sa mang       | Distinct de "ta" (se battre physiquement) |
+| Can't do anything      | mo fan fa       | |
+| Wear                   | cok             | |
+| Take                   | kiam            | Confirme l'hypothèse posée le 2026-08-23 dans Mots-Essentiels.md (« kiam ki ha cak asuransi » = prendre de l'assurance) |
+| Lie                    | pian            | |
+| Divorce                | phon khoi       | |
+| Open                   | khoy            | Variante de "khoi" (déjà connu dans "Khoi mun" = ouvre la porte) |
+| Urinate                | onio            | Distinct de la phrase "oi o nyiau" (vouloir uriner) |
+| Defecate                | osi             | Distinct de la phrase "oi o si" (vouloir déféquer) |
 
 ## Grammar Patterns
 

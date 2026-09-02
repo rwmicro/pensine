@@ -30,6 +30,8 @@ Sources détaillées (thèses, article Semiotika) : voir 05-Culture/Dialectes-Re
 
 *Correction (2026-08-21) : `asuk` était étiqueté "aunt" par erreur — c'est un oncle (frère aîné du père), pas une tante. Corrigé à partir d'une source mieux sourcée (voir Dialectes-Regionaux.md).*
 
+*Conflit non résolu (2026-09-02) : une compilation personnelle indépendante (`A trier/Voc.md`) donne `akhiu` = oncle du **côté maternel**, alors que la ligne ci-dessus (source Pontianak/Singkawang académique) dit "frère cadet du père" (côté **paternel**). Les deux sources du même auteur se contredisent — non tranché, à vérifier auprès d'un locuteur natif.*
+
 ## Singkawang [SKW]
 
 Termes de parenté et emprunts, avec caractères chinois et romanisation Pha̍k-fa-sṳ (source : article Semiotika 2023, vérifié avec deux locutrices natives) :

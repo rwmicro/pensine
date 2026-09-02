@@ -3,7 +3,7 @@ title: "Sentence Patterns and Grammar"
 domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Grammar"
 tags: [sciences-sociales, langues, hakka]
-date: "2026-08-21"
+date: "2026-09-02"
 ---
 # Sentence Patterns and Grammar
 ## Basic Sentence Structure
@@ -196,6 +196,9 @@ Comme en mandarin, un nombre + classificateur précède le nom compté ; le clas
 | jit fon | jit fon | une feuille (papier) |
 | jit thiau | jit thiau | un bâton |
 | jit phu | jit phu | un pas |
+| jit cak + [personne/notion abstraite] | jit cak lo pho · jit cak lo kung · jit cak se fo · jit cak li pai · jit cak nyiat · jit cak nyian · jit cak muk phiau · jit cak thon thi · jit cak kok thu · jit cak ket ka · jit cak muk tit · jit cak mung · jit cak hok thong · jit cak si | une épouse · un mari · un enfant · une semaine · un mois · une année · un objectif · un groupe · un point de vue · un pays · un rêve · un rêve (aspiration) · une école · un mot |
+| jit nyit | jit nyit | un jour |
+| jit pun + [livre] | jit pun phu · jit pun shu | un cahier · un livre scolaire |
 
 ## Notes
 
