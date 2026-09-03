@@ -1,84 +1,84 @@
 ---
-title: "Histoire et culture Hakka"
+title: "Hakka History and Culture"
 domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Resources"
 tags: [sciences-sociales, langues, hakka, culture, histoire, diaspora]
-date: "2026-04-16"
+date: "2026-09-03"
 ---
-# Histoire et culture Hakka
-Les Hakka (客家, littéralement "familles invitées" ou "hôtes") sont un sous-groupe de l'ethnie Han, originaire du nord de la Chine. Leur histoire est marquée par des migrations successives vers le sud, provoquées par les invasions et les troubles politiques. Malgré des siècles de déplacements, les Hakka ont préservé une identité culturelle forte, une langue distincte et des traditions spécifiques.
+# Hakka History and Culture
+The Hakka (客家, literally "guest families" or "guests") are a Han Chinese subgroup originating in northern China. Their history is marked by successive migrations south, driven by invasions and political upheaval. Despite centuries of displacement, the Hakka have preserved a strong cultural identity, a distinct language, and specific traditions.
 
-## Origines et migrations
-Les Hakka sont originaires des plaines centrales de Chine (actuel Henan, Shaanxi). Cinq grandes vagues de migration les ont poussés vers le sud au fil des siècles :
+## Origins and Migrations
+The Hakka originate from the central plains of China (present-day Henan, Shaanxi). Five major waves of migration pushed them south over the centuries:
 
-| Periode | Cause | Destination |
+| Period | Cause | Destination |
 |---|---|---|
-| IVe siècle (chute des Jin occidentaux) | Invasions des peuples du nord (les Cinq Barbares) | Hubei, Jiangxi |
-| IXe siècle (fin des Tang) | Rebellions (An Lushan, Huang Chao) | Jiangxi, Fujian |
-| XIIe siècle (chute des Song du Nord) | Invasion Jurchen (Jin) | Fujian, Guangdong |
-| XVIIe siècle (chute des Ming) | Invasion mandchoue (Qing) | Guangdong, Guangxi, Sichuan, Taiwan |
-| XIXe siècle | Guerres des clans Hakka-Punti, Révolte des Taiping | Asie du Sud-Est, outre-mer |
+| 4th century (fall of the Western Jin) | Invasions by northern peoples (the Five Barbarians) | Hubei, Jiangxi |
+| 9th century (end of the Tang) | Rebellions (An Lushan, Huang Chao) | Jiangxi, Fujian |
+| 12th century (fall of the Northern Song) | Jurchen (Jin) invasion | Fujian, Guangdong |
+| 17th century (fall of the Ming) | Manchu (Qing) invasion | Guangdong, Guangxi, Sichuan, Taiwan |
+| 19th century | Hakka-Punti clan wars, Taiping Rebellion | Southeast Asia, overseas |
 
-Le terme "Hakka" (客家, kèjiā) apparaît sous les Qing pour distinguer ces migrants des populations locales (本地, Punti / Bendi, "gens du lieu"). Il reflète leur statut de "nouveaux arrivants" dans des régions déjà habitées par d'autres groupes Han (Cantonais, Min, etc.).
+The term "Hakka" (客家, kèjiā) emerged under the Qing to distinguish these migrants from local populations (本地, Punti / Bendi, "local people"). It reflects their status as "newcomers" in regions already inhabited by other Han groups (Cantonese, Min, etc.).
 
-## Population et géographie
-Les Hakka comptent environ **80 millions de personnes** dans le monde :
+## Population and Geography
+There are roughly **80 million Hakka people** worldwide:
 
-| Region | Population estimée | Statut |
+| Region | Estimated Population | Status |
 |---|---|---|
-| **Guangdong** (Meizhou, Heyuan, Huizhou) | ~30 millions | Berceau Hakka, Meizhou considéré comme la "capitale" |
-| **Fujian** (ouest) | ~5 millions | Zone Hakka historique |
-| **Jiangxi** (sud) | ~10 millions | Zone Hakka historique |
-| **Taiwan** | ~4,5 millions | 2e groupe après les Hoklo (Min Nan) |
-| **Indonésie** | ~3-5 millions | Kalimantan (Bornéo), Java, Bangka-Belitung |
-| **Malaisie** | ~2 millions | Sabah, Sarawak, péninsule |
-| **Thaïlande** | ~1 million | Bangkok et provinces |
-| **Ile Maurice, Réunion** | Communautés significatives | Présence ancienne (XIXe siècle) |
+| **Guangdong** (Meizhou, Heyuan, Huizhou) | ~30 million | Hakka heartland, Meizhou considered the "capital" |
+| **Fujian** (west) | ~5 million | Historic Hakka area |
+| **Jiangxi** (south) | ~10 million | Historic Hakka area |
+| **Taiwan** | ~4.5 million | 2nd largest group after the Hoklo (Min Nan) |
+| **Indonesia** | ~3-5 million | Kalimantan (Borneo), Java, Bangka-Belitung |
+| **Malaysia** | ~2 million | Sabah, Sarawak, the peninsula |
+| **Thailand** | ~1 million | Bangkok and the provinces |
+| **Mauritius, Réunion** | Significant communities | Long-established presence (19th century) |
 
-Les Indonésiens d'origine chinoise sont appelés **Chindo** (Chinese Indonesian). Les Hakka représentent une part importante de cette communauté, notamment à Kalimantan et dans les îles de Bangka-Belitung.
+Indonesians of Chinese descent are called **Chindo** (Chinese Indonesian). The Hakka make up a significant part of this community, particularly in Kalimantan and the Bangka-Belitung islands.
 
-## Architecture : les Tulou
-Les **Tulou** (土楼, "bâtiments de terre") du Fujian sont l'héritage architectural le plus célèbre des Hakka. Ce sont des habitations communautaires fortifiées, rondes ou carrées, en terre battue, pouvant abriter plusieurs dizaines de familles d'un même clan.
+## Architecture: The Tulou
+The **Tulou** (土楼, "earthen buildings") of Fujian are the most famous architectural legacy of the Hakka. These are fortified communal dwellings, round or square, made of rammed earth, capable of housing several dozen families of the same clan.
 
-Caractéristiques :
-- Murs extérieurs de terre battue de 1 à 2 mètres d'épaisseur, résistants aux attaques
-- Structure circulaire avec cour intérieure ouverte
-- 3 à 5 étages, le rez-de-chaussée servant de cuisine et stockage
-- Conception défensive : une seule entrée, pas de fenêtres au rez-de-chaussée
-- Vie communautaire : les familles du même clan vivent ensemble, partagent les espaces communs
+Characteristics:
+- Outer rammed-earth walls 1 to 2 meters thick, resistant to attack
+- Circular structure with an open inner courtyard
+- 3 to 5 stories, with the ground floor used as kitchen and storage
+- Defensive design: a single entrance, no windows on the ground floor
+- Communal living: families of the same clan live together and share common spaces
 
-Les Tulou du Fujian sont inscrits au **patrimoine mondial de l'UNESCO** depuis 2008.
+The Fujian Tulou have been inscribed as a **UNESCO World Heritage Site** since 2008.
 
-## Traditions et culture
+## Traditions and Culture
 
-### Traditions funéraires
-La tradition funéraire Hakka inclut la pratique du **double enterrement** :
-- Premier enterrement dans un cercueil
-- Après plusieurs années, les ossements sont exhumés, nettoyés et placés dans une urne en céramique en forme de jarre
-- L'urne est ensuite placée dans un lieu propice selon les principes du feng shui
+### Funeral Traditions
+Hakka funeral tradition includes the practice of **double burial**:
+- First burial in a coffin
+- After several years, the bones are exhumed, cleaned, and placed in a jar-shaped ceramic urn
+- The urn is then placed in an auspicious location according to feng shui principles
 
-Cette urne constitue alors le lieu de repos définitif du défunt. Cette pratique a également été attestée chez les communautés hakka d'Indonésie, notamment dans le Kalimantan occidental, même si elle n'est plus systématiquement pratiquée aujourd'hui.
+This urn then becomes the deceased's final resting place. This practice has also been documented among Hakka communities in Indonesia, particularly in West Kalimantan, although it is no longer systematically practiced today.
 
-Une pratique associée consiste à construire une petite boîte ou caisse contenant des objets que le défunt aimait ou pourrait utiliser dans l'au-delà. Après 49 jours (chiffre lié au bouddhisme), la boîte est brûlée et l'âme est considérée comme ayant rejoint le ciel avec ses souvenirs.
+A related practice involves building a small box or chest containing objects the deceased loved or might use in the afterlife. After 49 days (a number tied to Buddhism), the box is burned and the soul is considered to have joined heaven along with its memories.
 
-### Cuisine Hakka
-La cuisine Hakka est une cuisine de montagne, simple et rustique, née des conditions difficiles de la migration :
+### Hakka Cuisine
+Hakka cuisine is a mountain cuisine, simple and rustic, born from the difficult conditions of migration:
 
-| Plat | Description |
+| Dish | Description |
 |---|---|
-| **Ngiong Tew Foo** (酿豆腐) | Tofu farci à la viande de porc, plat emblématique |
-| **Kiu Nyuk** (扣肉) | Poitrine de porc braisée, plat de fête |
-| **Lei Cha** (擂茶) | Thé pilé aux herbes, graines de sésame et cacahuètes |
-| **Ban Mian** | Nouilles à la main dans un bouillon |
-| **Abacus Seeds** (算盘子) | Boulettes de taro en forme de perles d'abaque |
+| **Ngiong Tew Foo** (酿豆腐) | Tofu stuffed with pork, a signature dish |
+| **Kiu Nyuk** (扣肉) | Braised pork belly, a festive dish |
+| **Lei Cha** (擂茶) | Pounded tea with herbs, sesame seeds, and peanuts |
+| **Ban Mian** | Hand-pulled noodles in broth |
+| **Abacus Seeds** (算盘子) | Taro dumplings shaped like abacus beads |
 
-## Hakka célèbres
+## Famous Hakka People
 
-| Personnalité | Domaine |
+| Person | Field |
 |---|---|
-| **Sun Yat-sen** (孫中山) | Père de la République de Chine (1912) |
-| **Deng Xiaoping** (邓小平) | Dirigeant de la RPC, architecte de l'ouverture économique |
-| **Lee Kuan Yew** (李光耀) | Premier ministre fondateur de Singapour |
-| **Hong Xiuquan** (洪秀全) | Chef de la révolte des Taiping (1850-1864) |
-| **Thaksin Shinawatra** | Premier ministre de Thaïlande (origine Hakka) |
-| **Yap Ah Loy** (叶亚来) | Fondateur de Kuala Lumpur |
+| **Sun Yat-sen** (孫中山) | Father of the Republic of China (1912) |
+| **Deng Xiaoping** (邓小平) | Leader of the PRC, architect of economic opening |
+| **Lee Kuan Yew** (李光耀) | Founding Prime Minister of Singapore |
+| **Hong Xiuquan** (洪秀全) | Leader of the Taiping Rebellion (1850-1864) |
+| **Thaksin Shinawatra** | Prime Minister of Thailand (of Hakka descent) |
+| **Yap Ah Loy** (叶亚来) | Founder of Kuala Lumpur |

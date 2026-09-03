@@ -5,7 +5,6 @@ subdomain: "Languages - Dialects > Hakka-Khek > Social"
 tags: [sciences-sociales, langues, hakka]
 date: "2025-12-31"
 ---
-
 # Making Plans and Appointments
 
 ## Planning to Watch a Movie

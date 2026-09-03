@@ -5,7 +5,6 @@ subdomain: "Languages - Dialects > Hakka-Khek > Daily-Life"
 tags: [sciences-sociales, langues, hakka]
 date: "2026-08-21"
 ---
-
 # Weather and Temperature
 
 ## Basic Weather Conversation
@@ -33,18 +32,16 @@ B: Nyi khon ngai chut hon (See, I'm sweating)
 | So hot            | sau to        |
 
 ### Weather Conditions
-| English           | Hakka         | Notes |
-|-------------------|---------------|-------|
-| Rain              | lok sui       | |
-| Will rain         | boi lok sui   | |
-| Sweat/sweating    | chut hon      | |
-| Sun [PTK]         | nyit theu     | Variante de *ngiat thew* (voir Animaux-Nature.md) |
-| Cloud [PTK]       | jun           | |
-| Thunder [PTK]     | lui kung      | |
-| Fire [PTK]        | fo            | Même mot que "Light" (Mots-Essentiels.md) |
-| Lightning         | fo-sha (fo²²-sha⁵⁵) 火蛇 | Dictionnaire V3, candidat à vérifier — littéralement "serpent de feu" |
-
-**Attention (fung = vent) :** en hakka de Singkawang, "vent" se dit *fung* — le même mot signifie "enfumer" en hakka de Pontianak (ton 4) et "rouge" dans une source généraliste (voir Mots-Essentiels.md et 05-Culture/Dialectes-Regionaux.md pour le détail).
+| English        | Hakka       |
+| -------------- | ----------- |
+| Rain           | lok sui     |
+| Will rain      | boi lok sui |
+| Sweat/sweating | chut hon    |
+| Sun [PTK]      | nyit theu   |
+| Cloud [PTK]    | jun         |
+| Thunder [PTK]  | lui kung    |
+| Fire [PTK]     | fo          |
+| Lightning      | fo-sha      |
 
 ## Key Phrases
 

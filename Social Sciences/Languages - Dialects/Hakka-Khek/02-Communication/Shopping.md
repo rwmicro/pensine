@@ -5,7 +5,6 @@ subdomain: "Languages - Dialects > Hakka-Khek > Social"
 tags: [sciences-sociales, langues, hakka]
 date: "2025-12-31"
 ---
-
 # Shopping and Buying Things
 
 ## Buying a Book at a Store
@@ -132,7 +131,6 @@ Common price expressions:
    - I give you 125,000
 
 ## Notes
-
 - **Siong** can mean "think," "want," or "remember" depending on context
 - **Tiam** can mean "store," "time," or "quiet" - context is key
 - **Pun nyi** = for you (when doing something for someone)
