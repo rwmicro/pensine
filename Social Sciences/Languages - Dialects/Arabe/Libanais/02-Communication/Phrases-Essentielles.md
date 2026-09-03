@@ -12,25 +12,21 @@ Registres : **F** = formel / **C** = courant / **I** = informel
 
 ## Salutations et formules de base
 
-| Français                  | Libanais     | Translittération | Registre |
-| ------------------------- | ------------ | ---------------- | -------- |
-| Bonjour | ![مرحبا](audio/ar-lb_male_3612a31ad7aa.mp3) | mar7aba | C |
-| Bonjour (réponse) | ![مرحبتين](audio/ar-lb_male_aff8a6c02d85.mp3) | mar7abtein | C |
-| Salut | ![هلا](audio/ar-lb_male_34e32cc07127.mp3) | hala | I |
-| Bonjour (matin) | ![صباح الخير](audio/ar-lb_male_b0e8d87781cf.mp3) | sabā7 el-khēr | F/C |
-| Bonne soirée | ![مساء الخير](audio/ar-lb_male_b0a024cbb0c4.mp3) | masā el-khēr | F/C |
-| Comment vas-tu ? (m.) | ![كيفك](audio/ar-lb_male_a80e37781f54.mp3) | kīfak | C |
-| Comment vas-tu ? (f.) | ![كيفك](audio/ar-lb_male_a80e37781f54.mp3) | kīfik | C |
-| Comment vas-tu ? (formel) | ![كيف حالك](audio/ar-lb_male_dd91fabd36a9.mp3) | kīf 7ālik | F |
-| Ça va, merci | ![منيح، شكراً](audio/ar-lb_male_52b4e90b1da9.mp3) | mnī7, shukran | C |
-| Ça va très bien | ![تمام](audio/ar-lb_male_d51626cdabb2.mp3) | tamēm | C/I |
-| Au revoir | ![مع السلامة](audio/ar-lb_male_354826c3721f.mp3) | ma3 el-salēme | C |
-| À bientôt | ![يلا باي](audio/ar-lb_male_0700216c17c5.mp3) | yalla bye | I |
-| Bonne nuit | ![تصبح على خير](audio/ar-lb_male_5b25a67beb44.mp3) | tSba7 3a khēr | C |
-
-ايه منيح الحمد الله
-
-
+| Français                  | Libanais                                           | Translittération | Registre |
+| ------------------------- | -------------------------------------------------- | ---------------- | -------- |
+| Bonjour                   | ![مرحبا](audio/ar-lb_male_3612a31ad7aa.mp3)        | mar7aba          | C        |
+| Bonjour (réponse)         | ![مرحبتين](audio/ar-lb_male_aff8a6c02d85.mp3)      | mar7abtein       | C        |
+| Salut                     | ![هلا](audio/ar-lb_male_34e32cc07127.mp3)          | hala             | I        |
+| Bonjour (matin)           | ![صباح الخير](audio/ar-lb_male_b0e8d87781cf.mp3)   | sabā7 el-khēr    | F/C      |
+| Bonne soirée              | ![مساء الخير](audio/ar-lb_male_b0a024cbb0c4.mp3)   | masā el-khēr     | F/C      |
+| Comment vas-tu ? (m.)     | ![كيفك](audio/ar-lb_male_a80e37781f54.mp3)         | kīfak            | C        |
+| Comment vas-tu ? (f.)     | ![كيفك](audio/ar-lb_male_a80e37781f54.mp3)         | kīfik            | C        |
+| Comment vas-tu ? (formel) | ![كيف حالك](audio/ar-lb_male_dd91fabd36a9.mp3)     | kīf 7ālik        | F        |
+| Ça va, merci              | ![منيح، شكراً](audio/ar-lb_male_52b4e90b1da9.mp3)  | mnī7, shukran    | C        |
+| Ça va très bien           | ![تمام](audio/ar-lb_male_d51626cdabb2.mp3)         | tamēm            | C/I      |
+| Au revoir                 | ![مع السلامة](audio/ar-lb_male_354826c3721f.mp3)   | ma3 el-salēme    | C        |
+| À bientôt                 | ![يلا باي](audio/ar-lb_male_0700216c17c5.mp3)      | yalla bye        | I        |
+| Bonne nuit                | ![تصبح على خير](audio/ar-lb_male_5b25a67beb44.mp3) | tSba7 3a khēr    | C        |
 
 ## Politesse et remerciements
 
