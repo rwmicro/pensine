@@ -5,9 +5,9 @@ subdomain: "Languages - Dialects > Arabe-Libanais > 02-Communication"
 tags: [sciences-sociales, langues, arabe, arabe-libanais, insultes, registre-vulgaire]
 date: "2026-04-14"
 ---
-# Insultes et Jurons — Arabe Libanais
+# Insultes et Jurons - Arabe Libanais
 
-> **Avertissement** : cette fiche est documentaire. L'objectif est de comprendre ce qu'on peut entendre dans la rue, un film ou une dispute familiale. **Aucune de ces expressions ne doit être produite par un apprenant non-natif** — le ton, le dosage et le contexte sont tellement codés que même une insulte bien traduite sonnera fausse ou offensera gravement.
+> **Avertissement** : cette fiche est documentaire. L'objectif est de comprendre ce qu'on peut entendre dans la rue, un film ou une dispute familiale. **Aucune de ces expressions ne doit être produite par un apprenant non-natif**, le ton, le dosage et le contexte sont tellement codés que même une insulte bien traduite sonnera fausse ou offensera gravement.
 
 ## Échelle de gravité
 
