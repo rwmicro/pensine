@@ -9,24 +9,24 @@ date: "2026-09-02"
 
 ## Transportation
 
-| English       | Hakka     | Notes              |
-|---------------|-----------|-------------------|
-| Walking       | hang lu   | Literally "walk road" |
-| Car           | hi cha    |                   |
-| Train         | fo cha    | Literally "fire car" — "focha" (sans espace, corpus personnel 2026-09-02) est la même variante |
-| Bike          | kiok cha  | Literally "foot car" |
-| Plane         | fui ki    |                   |
-| Taxi          | taksi     | Emprunt à l'indonésien, source : corpus personnel Khek Pontianak (2026-09-02) |
+| English | Hakka    |
+| ------- | -------- |
+| Walking | hang lu  |
+| Car     | hi cha   |
+| Train   | fo cha   |
+| Bike    | kiok cha |
+| Plane   | fui ki   |
+| Taxi    | taksi    |
 
 ## Clothing
 
-| English      | Hakka           | Notes |
-|--------------|------------------|-------|
-| Shirt        | samfou           | |
-| Pants        | fou / khu / liak fu chau pu | khu : [PTK/SKW] académique primaire (褲) ; "liak fu chau pu" (ces pantalons) : Dictionnaire V3, candidat à vérifier |
-| Clothes (general) | sam-khu (sam⁵³-kʰu³¹) 衫褲 | [PTK/SKW] académique primaire — littéralement "haut-pantalon" |
-| Glove        | siu mat / shiu-mat (shiu²⁴⁻²²-mat³⁴) 手襪 | siu mat = candidat à vérifier ; shiu-mat = [SKW] académique primaire, même mot |
-| Glasses      | muk-kiaŋ (muk³⁴⁻³-kiaŋ³¹) 目鏡 | [SKW] académique primaire |
+| English           | Hakka                       |
+| ----------------- | --------------------------- |
+| Shirt             | samfou                      |
+| Pants             | fou / khu / liak fu chau pu |
+| Clothes (general) | sam-khu  衫褲                 |
+| Glove             | siu mat / shiu-mat  手襪      |
+| Glasses           | muk-kiang  目鏡               |
 
 ## Related Verbs
 

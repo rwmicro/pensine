@@ -1,73 +1,72 @@
 ---
-title: "Registres du Hakka"
+title: "Hakka Registers"
 domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > 02-Communication"
 tags: [sciences-sociales, langues, hakka, registres, sociolinguistique]
-date: "2026-03-27"
+date: "2026-09-03"
 ---
-# Registres du Hakka (West Kalimantan)
+# Hakka Registers (West Kalimantan)
 
-Le hakka de Kalimantan occidental n'a pas de système de registre grammatical complexe comme le japonais ou le javanais. La politesse s'exprime essentiellement par le vocabulaire, la formule choisie et les attitudes culturelles.
+West Kalimantan Hakka doesn't have a complex grammatical register system like Japanese or Javanese. Politeness is expressed mainly through vocabulary, the chosen phrasing, and cultural attitudes.
+## Language Levels
 
-## Niveaux de langue
-
-| Niveau | Contexte | Caractéristiques |
+| Level | Context | Characteristics |
 |--------|---------|-----------------|
-| **Hakka traditionnel** | Aînés, contexte familial traditionnel, rituels | Hakka plus conservateur, termes anciens |
-| **Hakka courant** | Conversation quotidienne entre locuteurs | Mix hakka + malais + indonésien + anglais |
-| **Code-switching** | Jeunes, milieu urbain (Pontianak) | Mélange libre hakka-malais-indonésien |
+| **Traditional Hakka** | Elders, traditional family settings, rituals | More conservative Hakka, older terms |
+| **Everyday Hakka** | Daily conversation between speakers | Mix of Hakka + Malay + Indonesian + English |
+| **Code-switching** | Young people, urban settings (Pontianak) | Free mix of Hakka-Malay-Indonesian |
 
-## Formules de politesse
+## Polite Expressions
 
-Le hakka utilise des **particules et formules** pour marquer la politesse :
+Hakka uses **particles and set phrases** to mark politeness:
 
-| Situation | Formel/Respectueux | Courant | Informel |
+| Situation | Formal/Respectful | Everyday | Informal |
 |-----------|---------------------|---------|----------|
-| Bonjour | Nyi ho, lao-zong | Nyi ho | Hai / Halo |
-| Comment vas-tu ? | Nyi ho mo? (avec ton posé) | Nyi ho mo? | Gimana? (malais informel) |
-| Merci | Kam shia nyi | Kam shia | Makasih (malais) |
-| S'il te plaît | Nyi mang shu... | Nyi mang | Tolong (malais) |
+| Hello | Nyi ho, lao-zong | Nyi ho | Hai / Halo |
+| How are you? | Nyi ho mo? (with measured tone) | Nyi ho mo? | Gimana? (informal Malay) |
+| Thank you | Kam shia nyi | Kam shia | Makasih (Malay) |
+| Please | Nyi mang shu... | Nyi mang | Tolong (Malay) |
 
-## Termes d'adresse selon la relation
+## Address Terms by Relationship
 
-| Relation | Terme hakka | Équivalent |
+| Relationship | Hakka Term | Equivalent |
 |----------|------------|-----------|
-| Grand-père | Ah-gong | 阿公 |
-| Grand-mère | Ah-ma | 阿媽 |
-| Père | Ah-pa | 阿爸 |
-| Mère | Ah-ma / A-ni | 阿媽 |
-| Oncle aîné (père) | Pah-pah | 伯伯 |
-| Tante aînée (père) | Pah-mu | 伯母 |
-| Oncle cadet (père) | Shu-shu | 叔叔 |
-| Homme âgé (inconnu) | Lao-zong | Monsieur/Vieux |
-| Femme âgée (inconnue) | Lao-nyi | Madame/Vieille |
-| Ami | Peng-yu | Ami |
+| Grandfather | Ah-gong | 阿公 |
+| Grandmother | Ah-ma | 阿媽 |
+| Father | Ah-pa | 阿爸 |
+| Mother | Ah-ma / A-ni | 阿媽 |
+| Uncle (father's older brother) | Pah-pah | 伯伯 |
+| Aunt (father's older brother's wife) | Pah-mu | 伯母 |
+| Uncle (father's younger brother) | Shu-shu | 叔叔 |
+| Older man (stranger) | Lao-zong | Sir/Old man |
+| Older woman (stranger) | Lao-nyi | Ma'am/Old woman |
+| Friend | Peng-yu | Friend |
 
-## Code-switching : la réalité de la communication
+## Code-switching: The Reality of Communication
 
-Dans la communauté hakka de Kalimantan occidental, le code-switching est la norme :
+In the West Kalimantan Hakka community, code-switching is the norm:
 
-**Exemple de conversation typique :**
+**Typical conversation example:**
 > *"Nyi ho mo? Nyi mang sit? Ayo pergi makan, ada nasi goreng bagus di sana."*
-> ("Comment tu vas ? T'as mangé ? Allons manger, il y a un bon nasi goreng là-bas.")
+> ("How are you? Have you eaten? Let's go eat, there's good fried rice over there.")
 
-Le malais et l'indonésien sont utilisés pour tout ce qui concerne la vie moderne, les institutions, le commerce. Le hakka reste pour les relations familiales et communautaires.
+Malay and Indonesian are used for anything related to modern life, institutions, and business. Hakka remains the language of family and community relationships.
 
-## Comparaison hakka vs mandarin vs malais (termes courants)
+## Hakka vs Mandarin vs Malay Comparison (Common Terms)
 
-| Français | Hakka | Mandarin | Malais/Indonésien |
+| English | Hakka | Mandarin | Malay/Indonesian |
 |----------|-------|----------|-------------------|
-| Manger | Sit | Chī (吃) | Makan |
-| Eau | Shui | Shuǐ (水) | Air |
-| Maison | Ok / Uk | Fángzi (房子) | Rumah |
-| Bon/Bien | Ho | Hǎo (好) | Baik |
-| Je | Ngai | Wǒ (我) | Saya |
-| Tu | Nyi | Nǐ (你) | Kamu |
+| Eat | Sit | Chī (吃) | Makan |
+| Water | Shui | Shuǐ (水) | Air |
+| House | Ok / Uk | Fángzi (房子) | Rumah |
+| Good/Well | Ho | Hǎo (好) | Baik |
+| I | Ngai | Wǒ (我) | Saya |
+| You | Nyi | Nǐ (你) | Kamu |
 
-## Remarques culturelles
+## Cultural Notes
 
-**La question "As-tu mangé ?"** (Nyi sit pau mang?) est la salutation hakka/chinoise par excellence. Ne pas y répondre directement est malpoli. Si vous n'avez pas mangé, cela peut entraîner une invitation sincère à manger.
+**The question "Have you eaten?"** (Nyi sit pau mang?) is the quintessential Hakka/Chinese greeting. Not answering it directly is considered impolite. If you haven't eaten, it may lead to a sincere invitation to eat.
 
-**L'usage des termes de parenté** pour des non-membres de la famille (lao-zong, peng-yu, etc.) est normal et marque la chaleur communautaire.
+**Using kinship terms** for non-family members (lao-zong, peng-yu, etc.) is normal and reflects community warmth.
 
-**Comparer avec le mandarin** peut aider — beaucoup de termes hakka sont proches du mandarin archaïque ou ont des équivalents transparents.
+**Comparing with Mandarin** can help — many Hakka terms are close to archaic Mandarin or have transparent equivalents.

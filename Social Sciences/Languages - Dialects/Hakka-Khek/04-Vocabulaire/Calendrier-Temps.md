@@ -8,8 +8,6 @@ date: "2026-09-02"
 
 # Calendar and Time in Hakka
 
-**Dialect Note:** This is **West Kalimantan/Pontianak Indonesian Hakka [WK]**. Calendar terms are generally universal across Hakka dialects. Entrées académiques (Dictionnaire V3) intégrées ci-dessous ; sources complètes : voir `05-Culture/Dialectes-Regionaux.md`.
-
 ## Days of the Week
 
 | English   | Hakka    |
@@ -56,26 +54,21 @@ date: "2026-09-02"
 
 ## Time Expressions
 
-| English                  | Hakka                            | Notes |
-|---------------------------|-----------------------------------|-------|
-| Today                     | kinyit / kin-nyit / kin pu nyit   | |
-| Yesterday                 | chu punyit / nyit [PTK] / tjha pu-ngit [WK] | nyit, tjha pu-ngit : Dictionnaire V3, communautaire attesté |
-| Tomorrow                  | sau-co / hien kong-ngit [WK]      | hien kong-ngit : Dictionnaire V3, communautaire attesté |
-| Now / Right now           | li ha / kin-to / kin-ha           | |
-| Sometimes                 | sangha                            | |
-| It is still morning       | an an co                          | |
-| It is already afternoon   | ciu liau                          | |
-| Return in the evening     | am con                            | |
-| This evening / last night | pu am                             | [PTK] candidat, à vérifier (sens selon contexte) |
-| Already (completed)       | ho liau / pau / kin to            | kin to : [PTK] communautaire attesté |
-| What time?                | kit to tiam                       | |
-| At 3 o'clock               | sam tiam                         | |
-| At 8 pm                    | pat tiam am                      | |
-
+| English                   | Hakka                                       |
+| ------------------------- | ------------------------------------------- |
+| Today                     | kinyit / kin-nyit / kin pu nyit             |
+| Yesterday                 | chu punyit / nyit [PTK] / tjha pu-ngit [WK] |
+| Tomorrow                  | sau-co / hien kong-ngit [WK]                |
+| Now / Right now           | li ha / kin-to / kin-ha                     |
+| Sometimes                 | sangha                                      |
+| It is still morning       | an an co                                    |
+| It is already afternoon   | ciu liau                                    |
+| Return in the evening     | am con                                      |
+| This evening / last night | pu am                                       |
+| Already (completed)       | ho liau / pau / kin to                      |
+| What time?                | kit to tiam                                 |
+| At 3 o'clock              | sam tiam                                    |
+| At 8 pm                   | pat tiam am                                 |
 ## Notes
-
 - **Tiam** can mean "time" or "o'clock" depending on context
 - **Pau** = completed/accomplished/already
-- "Hier" et "demain" ont chacun deux formes attestées distinctes (Pontianak *nyit*/*sau-co* vs. une
-  variante communautaire *tjha pu-ngit*/*hien kong-ngit*) — sans doute des synonymes régionaux plutôt
-  que des erreurs, à confirmer.

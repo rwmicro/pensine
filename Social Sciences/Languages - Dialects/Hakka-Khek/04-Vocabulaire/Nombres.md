@@ -5,26 +5,23 @@ subdomain: "Languages - Dialects > Hakka-Khek > Essentials"
 tags: [sciences-sociales, langues, hakka]
 date: "2026-09-02"
 ---
-
 # Numbers in Hakka
-
-**Dialect Note:** This is **West Kalimantan/Pontianak Indonesian Hakka [WK]**. Regional variations are noted below.
 
 ## Basic Numbers (0-10)
 
-| English | Hakka/Khek | Dialect Notes |
-|---------|------------|---------------|
-| 0       | khung [WK] / lang | Both used in WK |
-| 1       | jit [WK] / yit | jit in counting; yit in compounds (yit-pak) |
-| 2       | nyi [WK] / liong | nyi for counting; liong in some contexts |
-| 3       | sam [WK]   | [Universal] |
-| 4       | si [WK] / shi | Both spellings used |
-| 5       | ng [WK] / eng | ng more common in WK; eng alternative |
-| 6       | liuk [WK]  | [Universal] |
-| 7       | chit [WK] / tjit | Spelling variations |
-| 8       | pat [WK]   | [Universal] |
-| 9       | kiu [WK] / khiu (九) | [Universal]; khiu confirmé par Dictionnaire V3, académique primaire |
-| 10      | sip [WK]   | [Universal]; ship alternative spelling |
+| English | Hakka/Khek          | Dialect Notes                               |
+| ------- | ------------------- | ------------------------------------------- |
+| 0       | khung [WK] / lang   |                                             |
+| 1       | jit [WK] / yit      | jit in counting; yit in compounds (yit-pak) |
+| 2       | nyi [WK] / liong    | nyi for counting; liong in some contexts    |
+| 3       | sam [WK]            |                                             |
+| 4       | si [WK] / shi       | Both spellings used                         |
+| 5       | ng [WK] / eng       | ng more common in WK; eng alternative       |
+| 6       | liuk [WK]           |                                             |
+| 7       | chit [WK] / tjit    | Spelling variations                         |
+| 8       | pat [WK]            |                                             |
+| 9       | kiu [WK] / khiu (九) |                                             |
+| 10      | sip [WK]            | ship alternative spelling                   |
 
 ## Teens (11-19)
 
@@ -60,19 +57,19 @@ date: "2026-09-02"
 
 ## Hundreds and Thousands
 
-| Number    | Hakka                        | Dialect Notes |
-|-----------|------------------------------|---------------|
-| 100       | jit pak [WK] / yit-pak       | yit-pak in formal/compound forms |
-| 101       | pak khung jit [WK]           | - |
-| 110       | pak jit [WK]                 | - |
-| 111       | pak jit jit [WK]             | - |
-| 120       | jit pak nyi sip [WK]         | - |
-| 121       | jit pak nyi sip jit [WK]     | - |
-| 1,000     | jit chien [WK] / yit-chien   | Both forms used |
-| 1,500     | yit-chien-eng-pak [WK]       | eng = 5 in compounds |
-| 10,000    | jit ban [WK] / yit-wan / ban (萬) | ban [ID]; wan closer to Mandarin; ban (萬) confirmé par Dictionnaire V3, académique primaire |
-| 100,000   | jit pak chien [WK]           | - |
-| 1,000,000 | jit thiau [WK] / yit-thiau   | - |
+| Number    | Hakka                            | Dialect Notes                             |
+| --------- | -------------------------------- | ----------------------------------------- |
+| 100       | jit pak [WK] / yit-pak           | yit-pak in formal/compound forms          |
+| 101       | pak khung jit [WK]               |                                           |
+| 110       | pak jit [WK]                     |                                           |
+| 111       | pak jit jit [WK]                 |                                           |
+| 120       | jit pak nyi sip [WK]             |                                           |
+| 121       | jit pak nyi sip jit [WK]         |                                           |
+| 1,000     | jit chien [WK] / yit-chien       | Both forms used                           |
+| 1,500     | yit-chien-eng-pak [WK]           | eng = 5 in compounds                      |
+| 10,000    | jit ban [WK] / yit-wan / ban (萬) | ban [ID]; wan closer to Mandarin; ban (萬) |
+| 100,000   | jit pak chien [WK]               |                                           |
+| 1,000,000 | jit thiau [WK] / yit-thiau       |                                           |
 
 ## Key Terms
 

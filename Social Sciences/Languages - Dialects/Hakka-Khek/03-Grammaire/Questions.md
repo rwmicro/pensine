@@ -5,7 +5,6 @@ subdomain: "Languages - Dialects > Hakka-Khek > Grammar"
 tags: [sciences-sociales, langues, hakka]
 date: "2025-12-31"
 ---
-
 # Question Forms in Hakka
 
 ## Basic Question Pattern: Statement + mo?

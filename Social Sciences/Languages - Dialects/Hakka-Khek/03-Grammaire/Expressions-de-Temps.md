@@ -5,7 +5,6 @@ subdomain: "Languages - Dialects > Hakka-Khek > Grammar"
 tags: [sciences-sociales, langues, hakka]
 date: "2025-12-31"
 ---
-
 # Time Expressions and Tenses
 
 ## Time Words
@@ -164,11 +163,11 @@ A: Sam tiam (3 pm)
 
 ## Time-Related Question Patterns
 
-| Question                | Answer Pattern          | English                    |
-|-------------------------|-------------------------|----------------------------|
-| Kit to tiam?            | [Number] tiam           | What time? → 3 o'clock     |
-| Co to jit to tiam?      | Co to [number] tiam     | When finish? → Finish at 8 |
-| Kinyit jiu co se mo?    | Jiu/Mo co se kinyit     | Working today? → Yes/No    |
+| Question             | Answer Pattern      | English                    |
+| -------------------- | ------------------- | -------------------------- |
+| Kit to tiam?         | [Number] tiam       | What time? → 3 o'clock     |
+| Co to jit to tiam?   | Co to [number] tiam | When finish? → Finish at 8 |
+| Kinyit jiu co se mo? | Jiu/Mo co se kinyit | Working today? → Yes/No    |
 
 ## Example Sentences with Time
 

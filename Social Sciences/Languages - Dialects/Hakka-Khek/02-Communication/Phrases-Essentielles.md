@@ -1,153 +1,147 @@
 ---
-title: "Phrases Essentielles — Hakka (West Kalimantan)"
+title: "Essential Phrases — Hakka (West Kalimantan)"
 domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > 02-Communication"
 tags: [sciences-sociales, langues, hakka, survie, communication]
-date: "2026-09-02"
+date: "2026-09-03"
 ---
-# Phrases Essentielles — Hakka (West Kalimantan / Pontianak)
+# Essential Phrases — Hakka (West Kalimantan / Pontianak)
 
-Variété Hakka de Kalimantan occidental (Borneo). Translittération phonétique informelle. Certaines
-lignes ci-dessous portent la mention **(Dictionnaire V3)** : sourcées du dictionnaire compagnon basé
-sur les thèses académiques Huang (voir `05-Culture/Dialectes-Regionaux.md` pour la méthodologie et
-les niveaux de confiance) — indiqué entre parenthèses quand la confiance n'est pas "communautaire
-attesté" par défaut.
+## Greetings
 
-## Salutations
+| English                 | Hakka                                | Notes                                                                |
+| ------------------------ | ------------------------------------ | ---------------------------------------------------------------------------- |
+| Hello / Hi               | Hai / Halo                           | Common English loanword                                                      |
+| Good morning              | Co on                                |                                                                              |
+| It's still very early     | Han an co                            |                                                                              |
+| Good afternoon            | Ciu on                               |                                                                              |
+| Good evening               | Am on                                |                                                                              |
+| How are you?              | Nyi ho mo? / Ho mo?                  | Ho mo? = short form                                                          |
+| I'm well                 | Ngai ho                              |                                                                              |
+| And you?                 | Nyi na?                              |                                                                              |
+| Have you eaten?           | Nyi sit pau mang?                    | Typical cultural greeting. Attested variant [PTK]: *Nyi sit fon mang?*        |
+| I've eaten                | Sit pau                              |                                                                              |
+| Not eaten yet             | Ngai mang sit                        |                                                                              |
+| Good to see you            | Fon hi nyi to nyi                    |                                                                              |
+| Goodbye                  | Mang hoi / Bai bai                   |                                                                              |
+| See you soon               | Cai kien                             |                                                                              |
+| Good night                | Mang an                              |                                                                              |
+| Yes                      | He / Hai                             |                                                                              |
+| No                        | Ng / Ng boi                          | Ng: short nasal sound                                                        |
+| Thank you                 | Kam shia / Kamchia                   |                                                                              |
+| Please                   | Nyi mang                             |                                                                              |
+| Sorry / Excuse me         | Tui eng chui / Cia mun / Tui engchuk |                                                                              |
+| You're welcome             | Mang guan xi                         |                                                                              |
 
-| Français               | Hakka               | Notes |
-| ----------------------- | --------------------| ----- |
-| Bonjour / Salut         | Hai / Halo          | Emprunt anglais courant |
-| Bonjour (le matin)      | Co on                | |
-| Il est encore très tôt  | Han an co            | Dictionnaire V3, communautaire attesté |
-| Bonjour (l'après-midi)  | Ciu on               | |
-| Bonsoir                 | Am on                | |
-| Comment vas-tu ?        | Nyi ho mo? / Ho mo?  | Ho mo? = forme courte |
-| Je vais bien            | Ngai ho              | |
-| Et toi ?                | Nyi na?              | |
-| As-tu mangé ?           | Nyi sit pau mang?    | Salutation culturelle typique. Variante attestée [PTK] : *Nyi sit fon mang?* (litt. "as-tu mangé du riz", confirmée communautaire — Dictionnaire V3), à ne pas confondre avec *shit fon*, forme Singkawang/Bangka [SKW] — voir `05-Culture/Dialectes-Regionaux.md` |
-| J'ai mangé              | Sit pau              | |
-| Pas encore mangé        | Ngai mang sit        | |
-| Content de te voir      | Fon hi nyi to nyi    | |
-| Au revoir               | Mang hoi / Bai bai   | |
-| À bientôt                | Cai kien             | |
-| Bonne nuit               | Mang an              | |
-| Oui                      | He / Hai             | |
-| Non                      | Ng / Ng boi          | Ng : son nasal court |
-| Merci                    | Kam shia / Kamchia   | Kamchia (Dictionnaire V3) — même mot que "kamsia" (`Shopping.md`), variante orthographique |
-| S'il te plaît            | Nyi mang             | |
-| Pardon / Excusez-moi     | Tui eng chui / Cia mun / Tui engchuk | Cia mun (Dictionnaire V3) ; Tui engchuk (Dictionnaire V3, candidat à vérifier) |
-| De rien                  | Mang guan xi         | |
+## Introducing Yourself
 
-## Se présenter
+| English              | Hakka                       |
+| --------------------- | --------------------------- |
+| My name is...          | Ngai miang ...              |
+| What's your name?      | Nyi mai miang?               |
+| Where are you from?    | Nyi abui loi?                |
+| I'm from...            | Ngai ... loi                |
+| I'm learning Hakka      | Ngai hok Hak-ka-fa           |
+| Do you speak Hakka?     | Nyi woi kong Hak-ka-fa mo?    |
+| Just a little           | Chi-pit nyet OR jit tit       |
 
-| Français            | Hakka                      |
-| -------------------- | --------------------------- |
-| Je m'appelle...      | Ngai miang ...              |
-| Quel est ton nom ?   | Nyi mai miang?              |
-| D'où viens-tu ?      | Nyi abui loi?               |
-| Je viens de...       | Ngai ... loi                |
-| J'apprends le hakka  | Ngai hok Hak-ka-fa          |
-| Tu parles hakka ?    | Nyi woi kong Hak-ka-fa mo?  |
-| Un peu seulement     | Chi-pit nyet OR jit tit     |
+## Basic Communication
 
-## Communication de base
+| English                        | Hakka                   |
+| -------------------------------- | ----------------------- |
+| I don't understand                | Ngai mang miang-pak      |
+| I understand                     | Ngai fun min             |
+| Please repeat that                | Ngai kong to nyi thian    |
+| More slowly                      | Man man kong              |
+| What does that mean?              | Chi yi-si mai a?          |
+| How do you say ... in Hakka?      | ... Hak-ka-fa kong mai?    |
+| It's nothing                     | Comai                     |
+| What time is it right now?        | Kin ha ki to tiam?         |
+| What are you looking at?          | Nyi khon ma kai?           |
 
-| Français                       | Hakka                    |
-|----------------------------------|----------------------------|
-| Je ne comprends pas              | Ngai mang miang-pak        |
-| Je comprends                     | Ngai fun min                |
-| Répète s'il te plaît             | Ngai kong to nyi thian      |
-| Plus lentement                   | Man man kong                |
-| Qu'est-ce que ça veut dire ?     | Chi yi-si mai a?            |
-| Comment dit-on ... en hakka ?    | ... Hak-ka-fa kong mai?     |
-| Ce n'est rien                    | Comai                       |
-| Quelle heure est-il maintenant ? | Kin ha ki to tiam?          |
-| Qu'est-ce que tu regardes ?      | Nyi khon ma kai?            |
+## Directions
 
-## Orientation
+| English                            | Hakka                    |
+|----------------------------------------|--------------------------|
+| Where is...?                           | ... abui het?              |
+| Where are you?                         | Nyi choi a bui?              |
+| Where do you live?                     | Nyi na bui het?              |
+| Where do you work?                     | Nyi cho thew lu abui?        |
+| Where do you want to go?               | Oi hi na bui?                |
+| How do I get to this restaurant?       | Nyiong pen hi ke sitkon?     |
+| Left                                   | Tso phan                     |
+| Right                                  | Yu phan                      |
+| Straight ahead                         | Chiok lok hi                  |
+| Facing the sea                         | Con hoi                       |
+| Is it far?                             | Far mo?                       |
 
-| Français                          | Hakka                  |
-|--------------------------------------|--------------------------|
-| Où est... ?                          | ... abui het?             |
-| Où es-tu ?                           | Nyi choi a bui?            |
-| Tu habites où ?                      | Nyi na bui het?            |
-| Tu travailles où ?                   | Nyi cho thew lu abui?      |
-| Tu veux aller où ?                   | Oi hi na bui?              |
-| Comment aller à ce restaurant ?      | Nyiong pen hi ke sitkon?   |
-| À gauche                             | Tso phan                   |
-| À droite                             | Yu phan                    |
-| Tout droit                           | Chiok lok hi                |
-| Face à la mer                        | Con hoi                     |
-| C'est loin ?                         | Far mo?                     |
+## Restaurant and Food
 
-## Restaurant et nourriture
+| English                                | Hakka                    |
+|--------------------------------------------|----------------------------|
+| I'm hungry                                 | Ngai gi oi / Tu-ki [SKW]    |
+| It's delicious                             | Ngai oi chi                 |
+| I'd like...                                | Ngai oi ...                 |
+| Water                                      | Shui                        |
+| Rice                                       | Fan                         |
+| Eat rice                                   | Sit fon                     |
+| Eat kwetiau                                | Sit pan thiau                |
+| Eat chicken rice / mixed rice              | Sit kai fon                  |
+| Drink sweet tea                            | Sit thiam cha                |
+| Drink soy milk                             | Sit theu fu sui               |
+| Drink cold water                           | Sit lang sui                  |
+| Let's eat together                         | Khiung ha sit fon hang         |
+| How much?                                  | Gei cho?                     |
 
-| Français                             | Hakka                   |
+## Shopping and Prices
+
+| English                          | Hakka                        |
+|---------------------------------------|------------------------------|
+| What do you want to buy?              | Oi mai ma kai?                 |
+| How much does it cost?                | Ki to lui? / Ki to (short form) |
+| I want the big one                    | Ngai oi thai ye                 |
+| I want a necktie                      | Ngai oi lin tai                 |
+| I bought these pants yesterday        | Ngai mai liak fu chau pu nyit   |
+
+## Errands and Business
+
+| English                                  | Hakka                          |
+|------------------------------------------------|------------------------------------|
+| I'm calling the manager                        | Ngai khau thien menejer            |
+| I'd like to ask you for advice                 | Ngai oi tho nyia nasihat           |
+| I want to make a copy                          | Ngai oi co kopian                  |
+| Can I take out insurance?                      | Ngai hiau kiam ki ha cak asuransi mo? |
+
+## Feelings and Opinions
+
+| English                            | Hakka                    |
 |------------------------------------------|----------------------------|
-| J'ai faim                                | Ngai gi oi / Tu-ki [SKW]    |
-| C'est délicieux                          | Ngai oi chi                 |
-| Je voudrais...                           | Ngai oi ...                 |
-| De l'eau                                 | Shui                        |
-| Du riz                                   | Fan                         |
-| Manger du riz                            | Sit fon                     |
-| Manger du kwetiau                        | Sit pan thiau                |
-| Manger du riz au poulet / riz mélangé    | Sit kai fon                  |
-| Boire du thé sucré                       | Sit thiam cha                |
-| Boire du lait de soja                    | Sit theu fu sui               |
-| Boire de l'eau froide                    | Sit lang sui                  |
-| Mangeons ensemble                        | Khiung ha sit fon hang         |
-| Combien ?                                | Gei cho?                     |
+| I'm not doing well today                  | Ngai kimi mo hao            |
+| Are you tired?                            | Nyi boi hot mo               |
+| I feel sorry for him/her                  | Choi ko ki                   |
+| I love you a lot                          | Ngai an siak ki               |
+| You're crazy                              | Nyi pot khong a               |
+| Crazy                                     | Siao                          |
 
-## Achats et prix
+## Useful Expressions
 
-| Français                        | Hakka                     |
-|-------------------------------------|------------------------------|
-| Tu veux acheter quoi ?              | Oi mai ma kai?                |
-| Combien ça coûte ?                  | Ki to lui? / Ki to (forme courte) |
-| Je veux le grand                    | Ngai oi thai ye                |
-| Je veux une cravate                 | Ngai oi lin tai                |
-| J'ai acheté ce pantalon hier        | Ngai mai liak fu chau pu nyit  |
-
-## Démarches et affaires
-
-| Français                                | Hakka                          |
-|----------------------------------------------|------------------------------------|
-| J'appelle le manager                        | Ngai khau thien menejer            |
-| Je voudrais vous demander conseil            | Ngai oi tho nyia nasihat           |
-| Je veux faire une copie                      | Ngai oi co kopian                  |
-| Puis-je prendre une assurance ?              | Ngai hiau kiam ki ha cak asuransi mo? |
-
-## Sentiments et jugements
-
-| Français                          | Hakka                   |
-|----------------------------------------|----------------------------|
-| Je ne vais pas bien aujourd'hui        | Ngai kimi mo hao            |
-| Tu es fatigué(e) ?                     | Nyi boi hot mo               |
-| Je plains pour lui/elle                | Choi ko ki                   |
-| Je t'aime beaucoup                     | Ngai an siak ki               |
-| Tu es fou/folle                        | Nyi pot khong a               |
-| Fou / Folle                            | Siao                          |
-
-## Expressions utiles
-
-| Français              | Hakka             |
-| ----------------------- | -------------------- |
-| C'est bien              | Ngai oi               |
-| Bravo                   | Ho ho                 |
-| Vraiment ?              | Chin-hai mo?           |
-| Je ne sais pas          | Ngai mang chai         |
-| Peut-être               | Kian-nai               |
-| Attends                 | Tang yit ha             |
-| Ainsi, comme ceci       | A nyong                 |
-| Tu exagères             | Nyi thet ko fen          |
-| Il n'y en a pas         | Boi mo                   |
-| Pas de problème         | Mo wun ti                 |
-| Reste calme             | Piong thin loi             |
-| Bien sûr, monsieur      | He wa, suk                  |
-| Seulement pour le tourisme | Jang jiu hilau bie        |
-| Je dois partir / je veux partir | Ngai oi chut          |
-| Je dors                 | Ngai soi muk               |
-| Celui-ci / Celle-ci     | Lia cak                     |
-| Celui-là / Celle-là     | Kai cak                      |
-| Tomber                  | Jau khut thung                 |
+| English                | Hakka             |
+| ------------------------ | -------------------- |
+| That's good               | Ngai oi               |
+| Well done                 | Ho ho                 |
+| Really?                   | Chin-hai mo?           |
+| I don't know               | Ngai mang chai         |
+| Maybe                     | Kian-nai               |
+| Wait                      | Tang yit ha             |
+| Like this, that's how it is | A nyong                 |
+| You're exaggerating        | Nyi thet ko fen          |
+| There isn't any             | Boi mo                   |
+| No problem                 | Mo wun ti                 |
+| Stay calm                  | Piong thin loi             |
+| Of course, sir              | He wa, suk                  |
+| Just for tourism            | Jang jiu hilau bie        |
+| I have to go / I want to go | Ngai oi chut          |
+| I'm sleeping                | Ngai soi muk               |
+| This one                   | Lia cak                     |
+| That one                   | Kai cak                      |
+| To fall                    | Jau khut thung                 |

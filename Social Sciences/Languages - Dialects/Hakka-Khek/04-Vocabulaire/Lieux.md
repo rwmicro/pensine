@@ -3,13 +3,9 @@ title: "Places and Locations"
 domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Vocabulary"
 tags: [sciences-sociales, langues, hakka]
-date: "2026-09-02"
+date: "2026-09-03"
 ---
-
 # Places and Locations
-
-**Note :** entrées académiques (Dictionnaire V3) intégrées ci-dessous ; sources complètes voir
-`05-Culture/Dialectes-Regionaux.md`.
 
 ## Indonesian Cities and Regions
 
@@ -51,9 +47,9 @@ date: "2026-09-02"
 
 ### Other Countries
 
-| English | Hakka | Notes |
-|---------|-------|-------|
-| Japan   | nyitpun / nyip pun | Source : corpus personnel Khek Pontianak (2026-09-02) |
+| English | Hakka              |
+| ------- | ------------------ |
+| Japan   | nyitpun / nyip pun |
 
 ## Bridges and Landmarks (Jakarta)
 
@@ -73,24 +69,23 @@ date: "2026-09-02"
 
 ## Geography and Landmarks
 
-| English            | Hakka                              | Notes |
-|----------------------|--------------------------------------|-------|
-| Cemetery              | kung si san / 公司山                 | [PTK] académique primaire |
-| Large river           | kong / 港                            | [PTK] académique primaire |
-| Town                  | pu thew / 埔頭                        | [PTK] académique primaire |
-| Mountain              | jin kong                             | [PTK] candidat, à vérifier |
-| Grave, burial ground  | tʰi (tʰi²⁴) / 地                      | [SKW] académique primaire — deux variantes de tri (Hakka/Caractères) fusionnées ici |
-| Alley                 | gang (kaŋ⁵)                          | [SKW] académique primaire, emprunt indonésien |
-| Feng shui             | foŋ-shui / 風水                       | [SKW] candidat |
-| Chinese language      | tʰoŋ-ŋin-fa / 唐人話                  | [SKW] candidat |
-| German (nationality)  | pantik                               | [PTK] candidat, à vérifier |
+| English              | Hakka              |
+| -------------------- | ------------------ |
+| Cemetery             | kung si san / 公司山  |
+| Large river          | kong / 港           |
+| Town                 | pu thew / 埔頭       |
+| Mountain             | jin kong           |
+| Grave, burial ground | ti / 地             |
+| Alley                | gang               |
+| Feng shui            | fong-shui / 風水     |
+| Chinese language     | tong-ngin-fa / 唐人話 |
+| German (nationality) | pantik             |
 
 ## Notes on Geographical Terms
 
-- **-kong** often appears in city names (Palembang = khiu-kong, Bangka = pin-kong) — homonyme du
-  "grand fleuve" *kong* (港) ci-dessus, cohérent (rivière → toponyme)
+- **-kong** often appears in city names (Palembang = khiu-kong, Bangka = pin-kong) — a homonym of "big river" *kong* (港) above, consistent (river → place name)
 - **-khiau** = bridge
-- **-pu-thew** = town (old town = lo-pu-thew, new town = sin-pu-thew) — cohérent avec "town = pu thew" ci-dessus
+- **-pu-thew** = town (old town = lo-pu-thew, new town = sin-pu-thew), consistent with "town = pu thew" above
 - **-jan** = building/hospital
 - Many place names are phonetic adaptations of Indonesian/Malay names
 

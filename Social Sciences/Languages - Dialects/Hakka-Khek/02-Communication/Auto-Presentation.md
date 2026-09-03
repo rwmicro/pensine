@@ -3,7 +3,7 @@ title: "How to Introduce Yourself in Hakka"
 domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Essentials"
 tags: [sciences-sociales, langues, hakka]
-date: "2026-08-21"
+date: "2026-09-03"
 ---
 # How to Introduce Yourself in Hakka
 
@@ -31,18 +31,6 @@ I have one older brother and one younger brother.
 I want to learn Hakka.
 I like to eat Nasi Goreng Abu.
 Nasi Goreng Abu is very good.
-```
-
-### French Translation:
-```
-Bonjour, je m'appelle Ali
-J'ai 22 ans, je vis en France.
-En ce moment, j'étudie à Paris, mais parfois je travaille.
-J'ai 3 frères et sœurs. Je suis le deuxième enfant.
-J'ai un frère aîné et un frère cadet.
-Je veux apprendre le Hakka.
-J'aime manger du Nasi Goreng Abu.
-Le Nasi Goreng Abu est très bon.
 ```
 
 ## Key Phrases for Introductions

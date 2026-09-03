@@ -5,21 +5,20 @@ subdomain: "Languages - Dialects > Hakka-Khek > Essentials"
 tags: [sciences-sociales, langues, hakka]
 date: "2025-12-31"
 ---
-
 # Greetings and Basic Politeness
 
 **Dialect Note:** This is **West Kalimantan/Pontianak Indonesian Hakka [WK]**. Greetings are generally similar across all Hakka dialects, with minor pronunciation differences.
 
 ## Essential Greetings
 
-| French                    | English               | Hakka              |
-|---------------------------|-----------------------|--------------------|
-| Salut                     | Hello                 | Hai / Halo         |
-| Comment allez-vous ?      | How are you?          | Nyi ho mo?         |
-| Je vais bien              | I'm well              | ngai ho            |
-| Et vous ?                 | And you?              | nyi na?            |
-| Merci                     | Thank you             | Kam shia           |
-| De rien                   | You're welcome        | Kam shia           |
+| English               | Hakka              |
+|-----------------------|--------------------|
+| Hello                 | Hai / Halo         |
+| How are you?          | Nyi ho mo?         |
+| I'm well              | ngai ho            |
+| And you?              | nyi na?            |
+| Thank you             | Kam shia           |
+| You're welcome        | Kam shia           |
 
 ## Asking About Well-being
 

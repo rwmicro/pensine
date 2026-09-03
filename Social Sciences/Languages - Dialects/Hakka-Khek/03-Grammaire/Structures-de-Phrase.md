@@ -3,7 +3,7 @@ title: "Sentence Patterns and Grammar"
 domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Grammar"
 tags: [sciences-sociales, langues, hakka]
-date: "2026-09-02"
+date: "2026-09-03"
 ---
 # Sentence Patterns and Grammar
 ## Basic Sentence Structure
@@ -175,36 +175,34 @@ Time and location often come at the beginning or middle of sentence.
 5. **Li kian su tiam an thai, mak kai tu jiu**
    - This bookstore is very big, everything is available
 
-## Classificateurs numéraux [PTK]
+## Numeral Classifiers [PTK]
 
-Provenance non vérifiée académiquement (source : aperçus de recherche Scribd, deux documents "Kamus Bahasa Khek" partagés en ligne — le site bloque la lecture directe automatisée, donc seuls des extraits ont pu être récupérés). À prendre avec plus de prudence que le reste de cette page.
+As in Mandarin, a number + classifier precedes the counted noun; the classifier depends on the shape/category of the object.
 
-Comme en mandarin, un nombre + classificateur précède le nom compté ; le classificateur dépend de la forme/catégorie de l'objet.
-
-| Pattern | Exemple | Sens |
+| Pattern | Example | Meaning |
 |---|---|---|
-| jit cak + [objet rond/animal] | jit cak pat · jit cak tiaw · jit cak kui · jit cak pui | un fruit de goyavier · un oiseau · une tortue · une tasse |
-| jit cak + [personne : famille] | jit cak lo pho · jit cak lo kung · jit cak se fo | une épouse · un mari · un enfant |
-| jit cak + [notion abstraite] | jit cak li pai · jit cak nyiat · jit cak nyian · jit cak muk phiau · jit cak thon thi · jit cak kok thu · jit cak ket ka · jit cak muk tit / mung · jit cak hok thong · jit cak si | une semaine · un mois · une année · un objectif · un groupe · un point de vue · un pays · un rêve · une école · un mot |
-| [nombre] thew + [animal] | liong thew shu · sam thew cu · ng thew sha · shi thew ng | deux arbres · trois cochons · cinq serpents · quatre poissons |
-| [nombre] ki + [objet allongé] | pat ki pit · liong ki shu/thiat | huit crayons · deux morceaux de bois/de fer (travaillé) |
-| jit sung + [paire] | jit sung hai · jit sung khai | une paire de chaussures · une paire de baguettes |
-| jit pun + [livre] | jit pun phu · jit pun shu | un cahier · un livre scolaire |
+| jit cak + [round object/animal] | jit cak pat · jit cak tiaw · jit cak kui · jit cak pui | a guava · a bird · a turtle · a cup |
+| jit cak + [person: family] | jit cak lo pho · jit cak lo kung · jit cak se fo | a wife · a husband · a child |
+| jit cak + [abstract notion] | jit cak li pai · jit cak nyiat · jit cak nyian · jit cak muk phiau · jit cak thon thi · jit cak kok thu · jit cak ket ka · jit cak muk tit / mung · jit cak hok thong · jit cak si | a week · a month · a year · a goal · a group · a point of view · a country · a dream · a school · a word |
+| [number] thew + [animal] | liong thew shu · sam thew cu · ng thew sha · shi thew ng | two trees · three pigs · five snakes · four fish |
+| [number] ki + [elongated object] | pat ki pit · liong ki shu/thiat | eight pencils · two pieces of wood/worked metal |
+| jit sung + [pair] | jit sung hai · jit sung khai | a pair of shoes · a pair of chopsticks |
+| jit pun + [book] | jit pun phu · jit pun shu | a notebook · a school book |
 
-**Classificateurs sans complément variable** (le mot est déjà complet en lui-même) :
+**Classifiers with no variable complement** (the word is already complete on its own):
 
-| Exemple | Sens |
+| Example | Meaning |
 |---|---|
-| jit liap | un grain / une bille |
-| jit pau | un paquet |
-| jit khut | un bloc |
-| jit lin | une fois |
-| jit khian | un genre |
-| jit chen | une couche |
-| jit fon | une feuille (papier) |
-| jit thiau | un bâton |
-| jit phu | un pas |
-| jit nyit | un jour |
+| jit liap | a grain / a bead |
+| jit pau | a package |
+| jit khut | a block |
+| jit lin | one time |
+| jit khian | a type |
+| jit chen | a layer |
+| jit fon | a sheet (paper) |
+| jit thiau | a stick |
+| jit phu | a step |
+| jit nyit | a day |
 
 ## Notes
 
