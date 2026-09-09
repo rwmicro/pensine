@@ -22,13 +22,10 @@ Le droit administratif est la branche du droit public qui régit l'organisation 
 ## Principes fondamentaux
 
 ### Le principe de légalité
-
 L'administration est soumise au droit : elle ne peut agir que dans le cadre fixé par les textes (Constitution, lois, règlements, traités). Tout acte administratif peut être contesté devant un juge. C'est l'**Etat de droit** : le pouvoir est limité par le droit, y compris celui qui fait le droit.
 
 ### La hiérarchie des normes
-
 L'administration doit respecter une pyramide :
-
 1. Constitution et bloc de constitutionnalité
 2. Traités internationaux et droit européen
 3. Lois
@@ -36,9 +33,7 @@ L'administration doit respecter une pyramide :
 5. Règlements (décrets, arrêtés)
 
 Un décret contraire à une loi est illégal. Un arrêté municipal contraire à un décret est illégal.
-
 ### Le recours pour excès de pouvoir
-
 Le citoyen peut demander au juge administratif d'**annuler** un acte administratif illégal. C'est le recours pour excès de pouvoir (REP) — inventé par le Conseil d'Etat français, il est considéré comme l'une des plus grandes conquêtes du droit public. Le juge vérifie :
 - La compétence de l'auteur de l'acte
 - La forme et la procédure
@@ -47,22 +42,20 @@ Le citoyen peut demander au juge administratif d'**annuler** un acte administrat
 - Le détournement de pouvoir
 
 ### La responsabilité administrative
-
 L'Etat peut être condamné à indemniser les préjudices qu'il cause :
 
-| Type | Fondement | Exemple |
-|---|---|---|
-| **Responsabilité pour faute** | Faute de service (fonctionnement défectueux du service) | Erreur médicale dans un hopital public, retard abusif dans une décision |
+| Type                          | Fondement                                                | Exemple                                                                            |
+| ----------------------------- | -------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| **Responsabilité pour faute** | Faute de service (fonctionnement défectueux du service)  | Erreur médicale dans un hopital public, retard abusif dans une décision            |
 | **Responsabilité sans faute** | Risque ou rupture d'égalité devant les charges publiques | Dommage causé par des travaux publics, préjudice lié à une vaccination obligatoire |
 
 ## Le dualisme juridictionnel francais
-
 La France a un système unique : deux ordres de juridiction séparés.
 
-| Ordre | Compétence | Juridiction suprême |
-|---|---|---|
-| **Judiciaire** | Litiges entre particuliers, droit pénal | Cour de cassation |
-| **Administratif** | Litiges impliquant l'administration | Conseil d'Etat |
+| Ordre             | Compétence                              | Juridiction suprême |
+| ----------------- | --------------------------------------- | ------------------- |
+| **Judiciaire**    | Litiges entre particuliers, droit pénal | Cour de cassation   |
+| **Administratif** | Litiges impliquant l'administration     | Conseil d'Etat      |
 
 Le Tribunal des conflits tranche les conflits de compétence entre les deux ordres.
 

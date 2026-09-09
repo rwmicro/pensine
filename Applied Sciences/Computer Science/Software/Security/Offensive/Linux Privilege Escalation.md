@@ -5,12 +5,11 @@ subdomain: informatique / sécurité
 tags: [privilege-escalation, linux, privesc, pentest, ctf, sécurité]
 date: 2026-03-22
 ---
-
 # Linux Privilege Escalation
 
 L'escalade de privilèges Linux consiste à passer d'un utilisateur à faibles droits (www-data, service, utilisateur standard) vers root. C'est une étape fondamentale du pentest et des CTF après avoir obtenu un premier accès.
 
-## Énumération initiale — toujours commencer ici
+## Énumération initiale - toujours commencer ici
 
 ```bash
 # Identité et contexte
