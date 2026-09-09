@@ -5,7 +5,6 @@ subdomain: informatique / sécurité / réseau / fondamentaux
 tags: [dns, dnssec, rebinding, amplification, zone-transfer, sécurité, réseau]
 date: 2026-03-22
 ---
-
 # DNS en profondeur
 
 ## Architecture DNS

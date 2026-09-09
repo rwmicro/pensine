@@ -6,11 +6,8 @@ tags: [sciences-sociales, langues, hakka]
 date: "2026-09-03"
 ---
 # How to Introduce Yourself in Hakka
-
 ## Example Introduction
-
 ### In Hakka:
-```
 Halo ngai miang Ali
 Ngai nyi sip nyi se (22), ngai Prancis bi hek.
 Li ha ngai kuliah Paris e bi, tapi sangha ngai jiu co se.
@@ -19,10 +16,7 @@ Ngai jiu jit cak ako jit cak lo thai.
 Ngai oi hok Bahasa khek.
 Ngai an nyen sit Nasi Goreng Abu.
 Nasi Goreng Abu an ho sit.
-```
-
 ### English Translation:
-```
 Hello, my name is Ali
 I am 22 years old, I live in France.
 Right now I study in Paris, but sometimes I work.
@@ -31,8 +25,6 @@ I have one older brother and one younger brother.
 I want to learn Hakka.
 I like to eat Nasi Goreng Abu.
 Nasi Goreng Abu is very good.
-```
-
 ## Key Phrases for Introductions
 
 | English                          | Hakka                    |
