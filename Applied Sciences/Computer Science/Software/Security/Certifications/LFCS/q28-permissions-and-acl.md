@@ -4,18 +4,17 @@
 
 Le modèle de permissions Unix repose sur **trois classes × trois droits**, plus des bits spéciaux, et peut être affiné par les ACL. C'est le mécanisme central de sécurité du système de fichiers.
 
-**Modèle mental : qui × quoi.**
-
-```
--rwxr-x---
-│└┬┘└┬┘└┬┘
-│ │  │  └ others (autres)        : ---
-│ │  └ group (groupe)            : r-x
-│ └ user (propriétaire)          : rwx
-└ type (- fichier, d dossier, l lien)
-
-valeurs : r=4  w=2  x=1   →   rwx=7  rw-=6  r-x=5  r--=4
-```
+> [!tip] Modèle mental : qui × quoi
+> ```
+> -rwxr-x---
+> │└┬┘└┬┘└┬┘
+> │ │  │  └ others (autres)        : ---
+> │ │  └ group (groupe)            : r-x
+> │ └ user (propriétaire)          : rwx
+> └ type (- fichier, d dossier, l lien)
+>
+> valeurs : r=4  w=2  x=1   →   rwx=7  rw-=6  r-x=5  r--=4
+> ```
 
 **Les bits spéciaux (le chiffre de tête)** — souvent oubliés, ils sont décisifs :
 
@@ -35,15 +34,16 @@ setfacl -d -m u:alice:rwx dossier  # ACL par défaut (héritée par les nouveaux
 ```
 Un `+` à la fin du mode dans `ls -l` (`-rw-rw----+`) signale la présence d'ACL.
 
-**Le piège SUID/sécurité.** Un binaire SUID root mal choisi = élévation de privilèges. `find / -perm -4000 -type f` liste les SUID — réflexe d'audit aussi bien offensif que défensif.
+> [!warning] Le piège SUID/sécurité
+> Un binaire SUID root mal choisi = élévation de privilèges. `find / -perm -4000 -type f` liste les SUID — réflexe d'audit aussi bien offensif que défensif.
 
 **`umask`** définit les bits *retirés* des permissions par défaut (666 fichiers / 777 dossiers). `umask 027` → fichiers 640, dossiers 750.
 
-**Pièges** :
-- `-perm 644` (exact) ≠ `-perm -644` (au moins ces bits) ≠ `-perm /644` (au moins un) — voir [[q09-find-files-with-properties-and-perform-actions]].
-- `chmod -R g+rwX` : le **X majuscule** ne met le bit exécutable que sur les dossiers et fichiers déjà exécutables — évite de rendre tous les fichiers exécutables.
-- Les ACL exigent un système de fichiers monté avec l'option `acl` (par défaut sur ext4/xfs modernes).
-- Le « mask » ACL plafonne les droits effectifs des utilisateurs/groupes nommés — un droit ACL peut être bridé par le mask.
+> [!warning] Pièges
+> - `-perm 644` (exact) ≠ `-perm -644` (au moins ces bits) ≠ `-perm /644` (au moins un) — voir [[q09-find-files-with-properties-and-perform-actions]].
+> - `chmod -R g+rwX` : le **X majuscule** ne met le bit exécutable que sur les dossiers et fichiers déjà exécutables — évite de rendre tous les fichiers exécutables.
+> - Les ACL exigent un système de fichiers monté avec l'option `acl` (par défaut sur ext4/xfs modernes).
+> - Le « mask » ACL plafonne les droits effectifs des utilisateurs/groupes nommés — un droit ACL peut être bridé par le mask.
 
 ## Énoncé
 

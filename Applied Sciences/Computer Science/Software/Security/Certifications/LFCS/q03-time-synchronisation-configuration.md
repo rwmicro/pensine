@@ -4,7 +4,8 @@
 
 Une horloge juste n'est pas un détail : Kerberos, TLS, les logs corrélés entre machines, `cron`, tout dépend d'un temps cohérent. NTP (Network Time Protocol) synchronise l'horloge locale sur des serveurs de référence.
 
-**Modèle mental : stratum.** NTP est hiérarchique. Le stratum 0 = la source physique (horloge atomique, GPS). Le stratum 1 = serveurs directement reliés à ces sources. Stratum 2, 3… = serveurs qui se synchronisent sur le niveau au-dessus. Plus le stratum est bas, plus on est proche de la source. `0.pool.ntp.org` est un pool DNS qui distribue la charge sur des milliers de serveurs bénévoles.
+> [!tip] Modèle mental : stratum
+> NTP est hiérarchique. Le stratum 0 = la source physique (horloge atomique, GPS). Le stratum 1 = serveurs directement reliés à ces sources. Stratum 2, 3… = serveurs qui se synchronisent sur le niveau au-dessus. Plus le stratum est bas, plus on est proche de la source. `0.pool.ntp.org` est un pool DNS qui distribue la charge sur des milliers de serveurs bénévoles.
 
 **Trois implémentations à ne pas confondre :**
 
@@ -26,10 +27,10 @@ timedatectl show-timesync --all      # détails du serveur en cours d'utilisatio
 ntpdate -q 0.pool.ntp.org            # tester un serveur SANS modifier l'horloge (-q = query)
 ```
 
-**Pièges** :
-- Après modification du `.conf`, **redémarrer le service** (`systemctl restart systemd-timesyncd`), sinon rien ne change.
-- Un domaine web (`www.google.com`) n'est **pas** un serveur NTP — `ntpdate -q` y échoue, c'est normal.
-- `timedatectl set-ntp true` doit être actif, sinon le service ne synchronise pas même bien configuré.
+> [!warning] Pièges
+> - Après modification du `.conf`, **redémarrer le service** (`systemctl restart systemd-timesyncd`), sinon rien ne change.
+> - Un domaine web (`www.google.com`) n'est **pas** un serveur NTP — `ntpdate -q` y échoue, c'est normal.
+> - `timedatectl set-ntp true` doit être actif, sinon le service ne synchronise pas même bien configuré.
 
 ## Énoncé
 

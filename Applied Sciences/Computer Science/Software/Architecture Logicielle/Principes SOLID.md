@@ -16,6 +16,9 @@ Les principes SOLID sont cinq règles de conception orientée objet formulées p
 
 Une "raison de changer" correspond à un acteur ou un groupe de parties prenantes (ex : le service comptabilité, le service RH).
 
+> [!important] Idée clé
+> "Une seule responsabilité" ne veut pas dire "une seule méthode" — une classe peut avoir plusieurs méthodes tant qu'elles servent toutes le même acteur. Le vrai test du SRP : si deux acteurs différents peuvent demander une modification de la même classe pour des raisons indépendantes, c'est une violation.
+
 **Violation** :
 
 ```python
@@ -137,6 +140,9 @@ def verifier_surface(rectangle: Rectangle):
 
 verifier_surface(Carre(3, 3))  # AssertionError : 25 ≠ 20
 ```
+
+> [!warning] Piège
+> `Carre` hérite bien de `Rectangle` du point de vue du type, mais viole son **contrat comportemental** : modifier `largeur` seule change aussi `hauteur`, ce qu'aucun appelant de `Rectangle` n'attend. L'héritage syntaxique (is-a en apparence) ne garantit pas la substituabilité — c'est tout l'enjeu du LSP.
 
 **Respecté** :
 
@@ -315,6 +321,9 @@ utilisateur.commande.paiement.carte.numero
 # Respecté : délégation
 utilisateur.obtenir_numero_carte()
 ```
+
+> [!tip] Pourquoi ça compte
+> Un "train wreck" couple le code appelant à toute la chaîne d'objets intermédiaires : si `commande.paiement` change de structure, chaque appelant distant casse. La délégation isole ce changement dans une seule méthode.
 
 ### Code smells courants
 

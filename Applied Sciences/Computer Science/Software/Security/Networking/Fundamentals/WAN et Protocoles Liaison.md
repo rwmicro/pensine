@@ -85,6 +85,9 @@ Router(config)#username RemoteRouter password MotDePasse
 - Le mot de passe **n'est jamais transmis** — seul un hash MD5 est échangé
 - Ré-authentification périodique possible pendant la session
 
+> [!important] Pourquoi CHAP résiste au rejeu là où PAP échoue
+> PAP envoie le mot de passe lui-même — intercepté une fois, il est réutilisable indéfiniment. CHAP envoie un hash calculé à partir d'un challenge **aléatoire à chaque authentification** : même en capturant une réponse, un attaquant ne peut pas la rejouer, puisque le prochain challenge sera différent.
+
 ```
 Authenticator → Peer : Challenge (nombre aléatoire)
 Peer → Authenticator : Response = MD5(ID + Secret + Challenge)
@@ -183,6 +186,9 @@ RouterA ──── DLCI 102 ──── Switch ──── DLCI 201 ──�
 ### CIR — Committed Information Rate
 
 Le débit garanti par l'opérateur. Le trafic au-delà du CIR est marqué DE=1 et peut être rejeté en cas de congestion.
+
+> [!tip] Idée à retenir
+> Le CIR n'est pas une limite dure comme un débit maximal classique — dépasser le CIR (dans les limites de Be) fonctionne normalement tant qu'il n'y a pas de congestion sur le réseau de l'opérateur. C'est seulement en cas de congestion que le trafic marqué DE=1 est rejeté en priorité, d'où l'intérêt de bien dimensionner Bc/Be selon la tolérance à la perte de l'application.
 
 | Paramètre | Description |
 |-----------|-------------|

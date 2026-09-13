@@ -72,7 +72,8 @@ crackmapexec smb IP -u user -p pass --shares       # avec creds
 nxc smb IP -u user -p pass --shares                # nxc = nouveau nom de cme
 ```
 
-**Null session** : `smbclient -U "" -N //IP/IPC$` — sur des Windows pas patchés, on récupère users, groupes, politique de mots de passe.
+> [!tip] Null session
+> `smbclient -U "" -N //IP/IPC$` — sur des Windows pas patchés, on récupère users, groupes, politique de mots de passe.
 
 ## HTTP/HTTPS (80, 443)
 
@@ -87,7 +88,8 @@ ffuf -u http://IP/FUZZ -w wordlist                # alternative rapide
 ffuf -u http://IP -H "Host: FUZZ.cible.com" -w hostnames.txt -fs SIZE_BASELINE
 ```
 
-**À tester systématiquement** : `/robots.txt`, `/.git/`, `/.env`, `/backup/`, `/admin/`, `/api/`. Un `.git` exposé donne tout le code source.
+> [!tip] À tester systématiquement
+> `/robots.txt`, `/.git/`, `/.env`, `/backup/`, `/admin/`, `/api/`. Un `.git` exposé donne tout le code source.
 
 ## FTP (21)
 
@@ -110,7 +112,8 @@ hydra -l user -P wordlist.txt ssh://IP    # brute force (bruyant, lockout possib
 python3 ssh-user-enum.py -U users.txt IP
 ```
 
-**Brute force SSH = risqué** : fail2ban et alerting le détectent. Préférer des credentials trouvés ailleurs.
+> [!warning] Brute force SSH = risqué
+> fail2ban et alerting le détectent. Préférer des credentials trouvés ailleurs.
 
 ## DNS (53)
 
@@ -128,7 +131,8 @@ nmap --script=smtp-enum-users IP
 nmap --script=smtp-commands IP                   # commandes acceptées
 ```
 
-**Commandes VRFY/EXPN** : sur de vieux serveurs mail, elles confirment l'existence d'un utilisateur sans authentification. Donne une liste valide pour phishing ou brute force ailleurs.
+> [!tip] Commandes VRFY/EXPN
+> Sur de vieux serveurs mail, elles confirment l'existence d'un utilisateur sans authentification. Donne une liste valide pour phishing ou brute force ailleurs.
 
 ## SNMP (161 UDP)
 
@@ -187,7 +191,8 @@ crackmapexec mssql IP -u user -p pass -q "SELECT @@version"
 > enum_impersonate                      # users qu'on peut impersonner
 ```
 
-**`xp_cmdshell` = RCE Windows** si on est sysadmin sur le SQL Server.
+> [!warning] `xp_cmdshell` = RCE Windows
+> Si on est sysadmin sur le SQL Server.
 
 ## MySQL (3306)
 
@@ -214,7 +219,8 @@ showmount -e IP                                  # lister les exports
 mkdir /mnt/nfs && mount -t nfs IP:/share /mnt/nfs
 ```
 
-**`no_root_squash`** dans `/etc/exports` côté serveur = on monte le share en tant que root local et on a droits root sur les fichiers. Privesc classique : créer un binaire SUID-root et l'exécuter.
+> [!warning] `no_root_squash`
+> Dans `/etc/exports` côté serveur = on monte le share en tant que root local et on a droits root sur les fichiers. Privesc classique : créer un binaire SUID-root et l'exécuter.
 
 ## Redis (6379)
 
@@ -225,7 +231,8 @@ redis-cli -h IP
   > keys *
 ```
 
-**RCE Redis** : si Redis tourne en root sans auth, écrire une clé SSH dans `/root/.ssh/authorized_keys` via `CONFIG SET dir + SAVE`.
+> [!warning] RCE Redis
+> Si Redis tourne en root sans auth, écrire une clé SSH dans `/root/.ssh/authorized_keys` via `CONFIG SET dir + SAVE`.
 
 ## NTP (123) et IPMI (623)
 
@@ -237,13 +244,15 @@ nmap -sU -p 123 --script=ntp-info IP
 nmap -sU -p 623 --script=ipmi-version,ipmi-cipher-zero IP
 ```
 
-**Cipher zero IPMI** = auth bypass complet, dump des hashes possibles. Bug ancien mais encore présent sur des serveurs oubliés.
+> [!warning] Cipher zero IPMI
+> Auth bypass complet, dump des hashes possibles. Bug ancien mais encore présent sur des serveurs oubliés.
 
 ## Pièges courants
 
-- **Ne pas prendre "anonymous=non" comme final** : tester avec un compte trivial (guest, anonymous, admin/admin) avant de conclure.
-- **Les outils CrackMapExec/nxc sont parfois renommés** : `crackmapexec` est devenu `nxc` (NetExec). Garder les deux en tête.
-- **Le rate-limiting peut fausser l'énumération** : un service avec rate-limit fait passer pour fermé un port en réalité ouvert. Toujours scanner deux fois si doute.
-- **null sessions** sont désactivées sur Windows récents (>= Server 2008 par défaut). Mais on les voit encore sur du legacy.
-- **SNMP v3** est chiffré et nécessite auth — `snmpwalk -v2c` échoue alors. Tester `v3` séparément.
-- **Toujours noter les versions exactes** : "Apache 2.4.41" ≠ "Apache 2.4.49". Une seule version a Path Traversal critique (CVE-2021-41773). Sans la version exacte on rate les CVE.
+> [!warning] Pièges courants
+> - **Ne pas prendre "anonymous=non" comme final** : tester avec un compte trivial (guest, anonymous, admin/admin) avant de conclure.
+> - **Les outils CrackMapExec/nxc sont parfois renommés** : `crackmapexec` est devenu `nxc` (NetExec). Garder les deux en tête.
+> - **Le rate-limiting peut fausser l'énumération** : un service avec rate-limit fait passer pour fermé un port en réalité ouvert. Toujours scanner deux fois si doute.
+> - **null sessions** sont désactivées sur Windows récents (>= Server 2008 par défaut). Mais on les voit encore sur du legacy.
+> - **SNMP v3** est chiffré et nécessite auth — `snmpwalk -v2c` échoue alors. Tester `v3` séparément.
+> - **Toujours noter les versions exactes** : "Apache 2.4.41" ≠ "Apache 2.4.49". Une seule version a Path Traversal critique (CVE-2021-41773). Sans la version exacte on rate les CVE.

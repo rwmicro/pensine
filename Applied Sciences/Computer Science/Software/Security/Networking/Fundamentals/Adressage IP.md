@@ -5,7 +5,6 @@ subdomain: informatique / sécurité / réseau / fondamentaux
 tags: [sciences-appliquées, informatique, sécurité, réseau, ipv4, subnetting, cidr]
 date: 2026-03-22
 ---
-
 # Adressage IP et Subnetting
 
 ## Structure d'une adresse IPv4
@@ -90,7 +89,15 @@ Hôtes utilisables : 2^(32-24) - 2 = 254
 | /31 | 255.255.255.254 | 0 (2) | RFC 3021 : liens p2p |
 | /32 | 255.255.255.255 | 1 | Hôte unique (route statique) |
 
+> [!warning] Piège classique
+> Le calcul standard « hôtes utilisables = 2^(32-préfixe) − 2 » suppose qu'on retranche toujours l'adresse réseau et le broadcast. Ça casse pour /31 (RFC 3021 : les 2 adresses sont utilisables sur un lien point-à-point, pas d'adresse réseau/broadcast dédiée) et pour /32 (une seule adresse, utilisée telle quelle pour une route statique vers un hôte unique).
+
 ## Calcul de subnetting
+
+> [!tip] Méthode générale
+> 1. Déterminer ce qui est demandé : un **nombre de sous-réseaux** (emprunter x bits côté réseau) ou un **nombre d'hôtes** (garder y bits côté hôte, avec 2^y − 2 ≥ hôtes voulus).
+> 2. En déduire le nouveau préfixe : `/nouveau = /24 + x` (sous-réseaux) ou `/nouveau = 32 − y` (hôtes).
+> 3. La taille de chaque bloc est `256 / 2^x` (pour un découpage dans un /24) — les sous-réseaux s'enchaînent par sauts réguliers de cette taille.
 
 ### Méthode par puissance de 2
 
@@ -158,6 +165,9 @@ Attribution VLSM :
 10.0.5.64/28   → DMZ             (10.0.5.65 – 10.0.5.78)
 10.0.5.80/30   → Lien WAN        (10.0.5.81 – 10.0.5.82)
 ```
+
+> [!tip] Ordre d'allocation
+> Toujours attribuer **du plus grand bloc au plus petit** (ici Production avant Lien WAN). Faire l'inverse fragmente l'espace d'adressage disponible et empêche souvent de caser les gros blocs restants sur une frontière de puissance de 2 valide.
 
 ## NAT — Network Address Translation
 

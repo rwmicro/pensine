@@ -10,6 +10,9 @@ date: "2025-02-15"
 
 Metasploit est le framework de test d'intrusion le plus utilisé au monde. Il centralise les exploits, payloads, et outils de post-exploitation en une interface unifiée.
 
+> [!important] Distinction clé
+> Un **exploit** déclenche une vulnérabilité, un **payload** est le code exécuté une fois l'exploit réussi, un module **auxiliary** (scan, bruteforce) n'exploite rien — cette séparation explique pourquoi le même exploit peut se combiner avec des dizaines de payloads différents (`set PAYLOAD ...`).
+
 ## Architecture
 
 ```
@@ -113,6 +116,9 @@ Cible → Attaquant
 ```
 Attaquant → Cible
 ```
+
+> [!tip] Quand choisir l'un ou l'autre
+> Le reverse shell est le choix par défaut car il traverse les firewalls sortants (souvent permissifs) sans qu'il faille ouvrir un port sur la cible. Le bind shell devient utile quand la cible n'a pas de sortie réseau (règles egress strictes) mais accepte des connexions entrantes.
 
 ### Payloads courants
 
@@ -464,3 +470,6 @@ resource /tmp/setup.rc
 | `getsystem` | `SeImpersonatePrivilege` sur des comptes non-service |
 | `hashdump` | Accès à LSASS ; Event 4688 avec lsass comme target |
 | Persistence | Nouveaux services (Event 7045), Run keys (Event 4657) |
+
+> [!warning] Rappel de cadre
+> Ces techniques ne sont légitimes que dans un cadre autorisé (pentest sous contrat, CTF, lab perso) — `hashdump`, `getsystem` et la persistence laissent des traces détectables par un EDR/SOC et doivent toujours être utilisés avec l'accord explicite du propriétaire du système.

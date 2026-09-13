@@ -41,7 +41,8 @@ Obtenir un shell `www-data` ou `nobody`, c'est une chose. Devenir root, c'est ce
    └─────────────────────┘
 ```
 
-**Règle d'or** : essayer dans l'ordre. Un `sudo -l` qui retourne une commande GTFOBins fait gagner trois heures par rapport à un kernel exploit.
+> [!tip] Règle d'or
+> Essayer dans l'ordre de l'arbre ci-dessus. Un `sudo -l` qui retourne une commande GTFOBins fait gagner trois heures par rapport à un kernel exploit.
 
 ## Outils d'énumération automatique
 
@@ -235,12 +236,11 @@ cat /etc/os-release
 
 **pwnkit** (CVE-2021-4034 — Polkit/pkexec) marche sur des tonnes de systèmes encore non patchés. À tester systématiquement.
 
-## Pièges courants
-
-- **`sudo -l` peut demander un mot de passe** : sans creds, on ne sait pas ce qu'on peut faire. Essayer avec un mot de passe trouvé ailleurs.
-- **GTFOBins n'est pas magique** : la commande proposée peut être bloquée par AppArmor/SELinux. Tester d'autres variantes.
-- **Cron qui ne se déclenche pas** : vérifier que cron tourne (`systemctl status cron`) et que le PATH du crontab inclut tes binaires.
-- **NFS no_root_squash sur Linux récent** : depuis Debian 11+, le default est `root_squash`. Le vecteur reste valable seulement si explicitement désactivé.
-- **Kernel exploits + binaire mal compilé** = panic kernel. Compiler sur une VM avec exactement la même version de glibc que la cible.
-- **Capabilities affichées par `getcap` peuvent ignorer les ambient/inheritable** : utiliser `getpcaps <PID>` sur un processus en cours pour les vraies capabilities effectives.
-- **`/bin/sh` n'est pas toujours bash** sur Linux moderne (souvent `dash`). Certains payloads bash-spécifiques échouent — utiliser `bash -c` explicitement.
+> [!warning] Pièges courants
+> - **`sudo -l` peut demander un mot de passe** : sans creds, on ne sait pas ce qu'on peut faire. Essayer avec un mot de passe trouvé ailleurs.
+> - **GTFOBins n'est pas magique** : la commande proposée peut être bloquée par AppArmor/SELinux. Tester d'autres variantes.
+> - **Cron qui ne se déclenche pas** : vérifier que cron tourne (`systemctl status cron`) et que le PATH du crontab inclut tes binaires.
+> - **NFS no_root_squash sur Linux récent** : depuis Debian 11+, le default est `root_squash`. Le vecteur reste valable seulement si explicitement désactivé.
+> - **Kernel exploits + binaire mal compilé** = panic kernel. Compiler sur une VM avec exactement la même version de glibc que la cible.
+> - **Capabilities affichées par `getcap` peuvent ignorer les ambient/inheritable** : utiliser `getpcaps <PID>` sur un processus en cours pour les vraies capabilities effectives.
+> - **`/bin/sh` n'est pas toujours bash** sur Linux moderne (souvent `dash`). Certains payloads bash-spécifiques échouent — utiliser `bash -c` explicitement.

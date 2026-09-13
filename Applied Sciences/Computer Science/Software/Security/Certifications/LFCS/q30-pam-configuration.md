@@ -4,16 +4,15 @@
 
 PAM (*Pluggable Authentication Modules*) est la couche qui décide **comment** un service authentifie et autorise un utilisateur. Au lieu que chaque programme (login, sshd, sudo) code sa propre logique, ils délèguent tous à PAM via des fichiers de configuration empilables.
 
-**Modèle mental : une pile de modules par service.**
-
-```
-/etc/pam.d/sshd
-   auth      ...  ┐
-   auth      ...  ├─ pile "auth"    : suis-je qui je prétends être ?
-   account   ...  ┤  pile "account" : ai-je le droit de me connecter ?
-   password  ...  ┤  pile "password": règles de changement de mot de passe
-   session   ...  ┘  pile "session" : préparer/clore la session
-```
+> [!tip] Modèle mental : une pile de modules par service
+> ```
+> /etc/pam.d/sshd
+>    auth      ...  ┐
+>    auth      ...  ├─ pile "auth"    : suis-je qui je prétends être ?
+>    account   ...  ┤  pile "account" : ai-je le droit de me connecter ?
+>    password  ...  ┤  pile "password": règles de changement de mot de passe
+>    session   ...  ┘  pile "session" : préparer/clore la session
+> ```
 
 Chaque ligne appelle un **module** (`.so`) avec un **type** et un **contrôle**. PAM exécute la pile de haut en bas et combine les résultats.
 
@@ -36,11 +35,11 @@ Chaque ligne appelle un **module** (`.so`) avec un **type** et un **contrôle**.
 
 **La complexité avec `pwquality` : valeurs négatives = obligation.** `dcredit = -1` impose *au moins un chiffre* ; une valeur positive donnerait un *bonus* de longueur. Contre-intuitif, donc souvent piégé.
 
-**Pièges (sécurité critique)** :
-- Une faute dans un fichier `/etc/pam.d/` peut **verrouiller tout le monde dehors**, root compris. **Toujours garder une session root ouverte** en parallèle avant d'éditer, et tester avec `pamtester`.
-- Debian et RHEL ont des fichiers communs différents : `common-auth`/`common-password` (Debian) vs `system-auth`/`password-auth` (RHEL).
-- `pam_faillock` (RHEL 8+) remplace `pam_tally2` (déprécié) — connaître les deux.
-- L'ordre des lignes compte autant que leur contenu : `pam_listfile` doit être placé **tôt** dans la pile `auth`.
+> [!warning] Pièges (sécurité critique)
+> - Une faute dans un fichier `/etc/pam.d/` peut **verrouiller tout le monde dehors**, root compris. **Toujours garder une session root ouverte** en parallèle avant d'éditer, et tester avec `pamtester`.
+> - Debian et RHEL ont des fichiers communs différents : `common-auth`/`common-password` (Debian) vs `system-auth`/`password-auth` (RHEL).
+> - `pam_faillock` (RHEL 8+) remplace `pam_tally2` (déprécié) — connaître les deux.
+> - L'ordre des lignes compte autant que leur contenu : `pam_listfile` doit être placé **tôt** dans la pile `auth`.
 
 ## Énoncé
 

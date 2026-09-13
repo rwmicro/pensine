@@ -90,6 +90,9 @@ Les propriétés ACID garantissent la fiabilité des transactions dans les SGBDR
 
 Plus le niveau est élevé, plus l'isolation est forte mais plus les performances diminuent.
 
+> [!warning] Piège
+> READ COMMITTED (le niveau par défaut de PostgreSQL et Oracle) autorise le non-repeatable read : relire la même ligne deux fois dans une même transaction peut donner des valeurs différentes si une autre transaction a commité entre-temps. Un code qui suppose une valeur stable pendant toute la transaction doit explicitement demander REPEATABLE READ ou SERIALIZABLE.
+
 ## Théorème CAP
 
 Pour une base de données distribuée, il est impossible de garantir simultanément les trois propriétés suivantes :
@@ -105,6 +108,9 @@ En pratique, les partitions réseau sont inévitables → il faut choisir entre 
 - **CP** (cohérence + partition) : MongoDB, HBase, Zookeeper — préfèrent l'indisponibilité à l'incohérence
 - **AP** (disponibilité + partition) : Cassandra, DynamoDB, CouchDB — acceptent une cohérence éventuelle
 - **CA** (cohérence + disponibilité) : impossible en vrai distribué
+
+> [!important] Idée clé
+> CAP ne s'applique **qu'en cas de partition réseau** — le reste du temps, un système peut très bien être cohérent et disponible. Le choix CP/AP ne porte donc que sur ce qui se passe pendant l'incident, pas sur le comportement normal du système.
 
 ## Extension PACELC
 
@@ -138,3 +144,6 @@ Complète CAP : même sans partition, il existe un compromis entre **Latence** e
 | Big Data, analytics en colonnes | Colonnes larges | Cassandra, HBase |
 | Recherche full-text | Search engine | Elasticsearch |
 | Application mobile embarquée | Relationnel léger | SQLite |
+
+> [!tip] Méthode
+> Partir des requêtes qu'on doit exécuter, pas des données à stocker. Un modèle relationnel bien normalisé mais qui exige 5 jointures pour l'affichage le plus fréquent est un signal qu'un document ou une dénormalisation ciblée serait plus adapté à cet usage précis.

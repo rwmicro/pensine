@@ -10,6 +10,9 @@ date: 2026-03-22
 
 Les APIs (REST, GraphQL, gRPC) constituent la colonne vertébrale des applications modernes. Elles représentent une surface d'attaque critique car elles exposent directement la logique métier et les données.
 
+> [!important] Différence avec le Top 10 web classique
+> Le Top 10 API existe séparément du Top 10 OWASP web car les failles y sont dominées par les problèmes d'**autorisation** (BOLA, BFLA) plutôt que par l'injection : une API bien protégée contre le XSS/SQLi peut rester totalement ouverte si elle ne vérifie pas que l'appelant a le droit d'accéder à CET objet précis.
+
 ## OWASP API Security Top 10 (2023)
 
 | # | Vulnérabilité | Description |
@@ -61,6 +64,9 @@ def get_order(order_id):
 # Utiliser des UUIDs plutôt que des IDs séquentiels
 # → rend l'énumération difficile mais ne remplace pas la vérification
 ```
+
+> [!warning] Piège fréquent
+> Passer d'IDs séquentiels à des UUIDs est souvent présenté comme un correctif à BOLA — c'est une fausse impression de sécurité. Ça rend l'énumération plus difficile, mais si un attaquant obtient un seul UUID d'objet (fuite, IDOR ailleurs), l'absence de vérification côté serveur reste exploitable. La seule vraie protection est le contrôle d'autorisation à chaque accès.
 
 ## API5 — Broken Function Level Authorization
 
@@ -126,6 +132,9 @@ GraphQL présente des risques spécifiques par rapport à REST.
 ### Introspection
 
 Par défaut, GraphQL expose son schéma complet via l'introspection.
+
+> [!tip] Méthode de reconnaissance GraphQL
+> L'introspection donne gratuitement la cartographie complète de l'API (types, champs, mutations) — inutile de deviner les endpoints comme en REST. Toujours commencer un test GraphQL par une requête d'introspection avant de chercher des vulnérabilités spécifiques.
 
 ```bash
 # Récupérer le schéma entier

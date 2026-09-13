@@ -48,6 +48,9 @@ Le client Docker est l'outil utilisé par les utilisateurs pour contrôler les c
 |-v cheminverslerepertoire:chemindansleconteneur|Spécifier un bind mount|
 |—hostname|Change le nom d’hôte du conteneur|
 
+> [!warning] Piège
+> Sans `--rm`, chaque `docker run` laisse un conteneur arrêté sur le disque même après usage — `docker ps -a` finit par lister des dizaines de conteneurs morts. Utile de garder `--rm` par défaut pour les conteneurs jetables (tests, débogage ponctuel), et de le retirer seulement quand on veut inspecter les logs/l'état après coup.
+
 # Persistance des données
 
 La persistance des données sert à conserver des données entre les différents conteneurs. Il existe deux moyens de conserver des données sur docker : les **volumes** et les **bind mounts**.
@@ -67,6 +70,9 @@ Les volumes est le moyen le plus utilisé pour stocker des données à ce jour. 
 ## Les Bind mounts
 
 Nous rendons ici disponible un repertoire de la machine hôte vers le conteneur.
+
+> [!tip] Volume ou bind mount ?
+> Un volume est géré par Docker (portable, indépendant de la structure de l'hôte) — à préférer pour les données persistantes d'une application (base de données, uploads). Un bind mount pointe vers un chemin précis de l'hôte — utile en développement pour monter le code source et voir les changements en direct, mais couple le conteneur à la structure de fichiers de cette machine précise.
 
 # Création d’une image docker
 

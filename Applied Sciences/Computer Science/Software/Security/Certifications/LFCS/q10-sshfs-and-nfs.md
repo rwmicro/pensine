@@ -4,15 +4,14 @@
 
 Monter un système de fichiers **distant** le fait apparaître comme un dossier local : les applications travaillent dessus sans savoir qu'il est sur une autre machine. Deux approches au programme, aux philosophies opposées.
 
-**SSHFS vs NFS — le bon outil selon le contexte :**
-
-| | SSHFS | NFS |
-|---|---|---|
-| Transport | par-dessus SSH (chiffré) | protocole dédié (port 2049) |
-| Mise en place | côté **client** uniquement | serveur (`/etc/exports`) + client |
-| Authentification | comptes SSH existants | basée sur l'IP/réseau |
-| Usage typique | ponctuel, ad hoc, à travers Internet | partages permanents en LAN |
-| Performance | correcte | élevée |
+> [!tip] SSHFS vs NFS — le bon outil selon le contexte
+> | | SSHFS | NFS |
+> |---|---|---|
+> | Transport | par-dessus SSH (chiffré) | protocole dédié (port 2049) |
+> | Mise en place | côté **client** uniquement | serveur (`/etc/exports`) + client |
+> | Authentification | comptes SSH existants | basée sur l'IP/réseau |
+> | Usage typique | ponctuel, ad hoc, à travers Internet | partages permanents en LAN |
+> | Performance | correcte | élevée |
 
 **SSHFS** réutilise une connexion SSH — rien à configurer côté serveur, juste un accès SSH valide.
 ```bash
@@ -42,12 +41,12 @@ sudo mkdir -p /nfs/terminal/share
 sudo mount terminal:/nfs/share /nfs/terminal/share
 ```
 
-**Pièges** :
-- Le point de montage local doit **exister** avant de monter (`mkdir -p`).
-- Côté NFS, oublier `exportfs -ra` après avoir édité `/etc/exports` = le partage n'est pas pris en compte.
-- Un export `ro` rend toute écriture impossible côté client (*Read-only file system*) — c'est le comportement attendu, pas un bug.
-- Pour persister au reboot : ligne dans `/etc/fstab` (avec le type `nfs` ou `fuse.sshfs`).
-- Debugger la connectivité NFS : `nc -v serveur 2049` vérifie que le port répond.
+> [!warning] Pièges
+> - Le point de montage local doit **exister** avant de monter (`mkdir -p`).
+> - Côté NFS, oublier `exportfs -ra` après avoir édité `/etc/exports` = le partage n'est pas pris en compte.
+> - Un export `ro` rend toute écriture impossible côté client (*Read-only file system*) — c'est le comportement attendu, pas un bug.
+> - Pour persister au reboot : ligne dans `/etc/fstab` (avec le type `nfs` ou `fuse.sshfs`).
+> - Debugger la connectivité NFS : `nc -v serveur 2049` vérifie que le port répond.
 
 ## Énoncé
 

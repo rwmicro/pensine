@@ -26,6 +26,9 @@ Découpage du texte en unités (tokens) :
 - **Sous-mots** (BPE, WordPiece) : `"tokenisation"` → `["token", "##isa", "##tion"]`
 - **Caractères** : robustesse aux fautes, vocabulaire minimal
 
+> [!tip] Pourquoi les sous-mots dominent aujourd'hui
+> Une tokenisation par mot entier a un vocabulaire fixe : tout mot inconnu (nom propre, faute, néologisme) devient un token `[UNK]` et perd son sens. La tokenisation par caractères évite ce problème mais produit des séquences très longues, coûteuses à traiter. Le découpage en sous-mots (BPE, WordPiece) est le compromis retenu par la quasi-totalité des modèles modernes (BERT, GPT) : vocabulaire raisonnable, aucun mot totalement hors-vocabulaire.
+
 **Normalisation**
 - Lowercasing : `"Chat"` → `"chat"`
 - Stemming : `"mangeons"` → `"mang"` (racine brute)
@@ -81,8 +84,8 @@ graph LR
 hₜ = tanh(Wₕ · hₜ₋₁ + Wₓ · xₜ + b)
 ```
 
-**Problème du gradient qui disparaît**
-Lors de la rétropropagation dans le temps (BPTT), les gradients sont multipliés à chaque pas. Pour de longues séquences, ils tendent vers 0 → le réseau "oublie" les dépendances lointaines.
+> [!warning] Problème du gradient qui disparaît
+> Lors de la rétropropagation dans le temps (BPTT), les gradients sont multipliés à chaque pas. Pour de longues séquences, ils tendent vers 0 → le réseau "oublie" les dépendances lointaines. C'est cette limite précise que le LSTM a été conçu pour résoudre (voir ci-dessous).
 
 ## LSTM — Long Short-Term Memory
 
@@ -157,7 +160,8 @@ graph LR
 **Encodeur** : compresse la séquence source en un vecteur de contexte fixe
 **Décodeur** : génère la séquence cible token par token, conditionné par ce vecteur
 
-**Limitation** : le vecteur de contexte est un goulot d'étranglement — toute l'information de l'entrée doit tenir dans un seul vecteur.
+> [!warning] Limitation
+> Le vecteur de contexte est un goulot d'étranglement — toute l'information de l'entrée doit tenir dans un seul vecteur de taille fixe, quelle que soit la longueur de la phrase source. Pour des phrases longues, l'information des premiers tokens se dilue avant d'atteindre le décodeur. C'est précisément ce que le mécanisme d'attention (ci-dessous) résout.
 
 ## Mécanisme d'attention (Bahdanau, 2015)
 

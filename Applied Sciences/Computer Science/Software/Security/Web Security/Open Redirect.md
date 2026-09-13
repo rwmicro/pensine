@@ -24,6 +24,9 @@ https://site.com/login?next=https://site-pirate.com/faux-login
 
 La confiance vient du fait que le domaine initial (`site.com`) est légitime. Les filtres anti-phishing par email laissent souvent passer ces liens.
 
+> [!important] Pourquoi c'est sous-estimé
+> Seul, l'open redirect est souvent noté "low" en bug bounty. Mais il est rarement isolé : chaîné avec OAuth, SSRF ou une fuite de token dans le Referer (voir "Impact et chaînage"), il devient un maillon d'un exploit critique. Toujours évaluer son impact via ce qu'il permet de chaîner, pas isolément.
+
 ## Paramètres courants à tester
 
 ```
@@ -71,6 +74,9 @@ https://site.com@attaquant.com/                     # navigateurs vont sur attaq
 ?next=%68%74%74%70%73%3a%2f%2f%61%74%74%61%71%75%61%6e%74%2e%63%6f%6d
 ?next=https:%2f%2fattaquant.com                    # double-encodage du /
 ```
+
+> [!warning] Piège fréquent
+> Un filtre qui vérifie juste "l'URL contient le nom de domaine légitime" (`if "site.com" in url`) est cassé par construction — `site.com` peut apparaître n'importe où dans une URL malveillante (sous-domaine, path, query string) sans jamais être le vrai hôte de destination. La seule vérification fiable est de parser l'URL et comparer le `netloc`/hostname exact à une liste blanche.
 
 ### Bypass avec fragments
 
@@ -135,6 +141,9 @@ Referer: https://site.com/reset?token=ABC123
 ```
 
 ## Détection
+
+> [!tip] Méthode de test
+> Tester systématiquement chaque paramètre suspect avec un domaine externe contrôlé, puis vérifier l'en-tête `Location` de la réponse — mais aussi les redirections côté client (`meta refresh`, `window.location`) que les scanners orientés serveur ratent souvent.
 
 ```bash
 # Test manuel basique

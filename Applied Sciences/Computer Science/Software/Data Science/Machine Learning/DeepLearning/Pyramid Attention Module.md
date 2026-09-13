@@ -18,6 +18,9 @@ En segmentation sémantique, il faut comprendre une image à **plusieurs niveaux
 
 Les CNN classiques perdent progressivement les détails fins en empilant les couches. Le PAM résout ce problème.
 
+> [!important] Idée clé
+> Un CNN classique doit choisir un compromis unique entre résolution et contexte à chaque couche. Le PAM évite ce compromis en traitant plusieurs échelles **en parallèle** et en laissant un mécanisme d'attention décider, pour chaque région, quelle échelle est la plus informative — plutôt que de fusionner les échelles à poids fixes.
+
 ```mermaid
 graph TB
     subgraph "Le défi de la segmentation sémantique"
@@ -105,6 +108,9 @@ Le module GAU utilise l'attention globale pour guider le **sur-échantillonnage*
 | **PSPNet** | Pyramid Pooling | Bon contexte global | Attention limitée |
 | **DeepLab** | Atrous convolutions | Flexible | Coûteux en calcul |
 | **PAN** | Pyramid Attention | Contexte + détails + attention | Plus complexe |
+
+> [!tip] Méthode de choix
+> Contrainte de simplicité/rapidité → FCN ou U-Net. Détails fins prioritaires (imagerie médicale) → U-Net. Contexte global prioritaire sur une scène complexe → PSPNet ou DeepLab. Besoin des deux à la fois et le coût de calcul n'est pas critique → PAN.
 
 ## Segmentation sémantique : rappel
 

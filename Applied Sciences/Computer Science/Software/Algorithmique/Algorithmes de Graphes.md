@@ -10,6 +10,9 @@ date: "2026-02-24"
 
 Les graphes modélisent des relations entre entités : réseaux sociaux, cartes routières, internet, dépendances logicielles. Maîtriser leurs algorithmes est fondamental en informatique.
 
+> [!important] Idée clé
+> Le choix de l'algorithme ne dépend pas du problème seul ("plus court chemin") mais des propriétés du graphe : pondéré ou non, poids négatifs ou non, dense ou creux. Utiliser Dijkstra sur un graphe à poids négatifs ne plante pas forcément, mais donne un résultat silencieusement faux.
+
 ## Rappel : types de graphes
 
 | Type | Description | Exemple |
@@ -132,7 +135,8 @@ def reconstruire_chemin(predecesseurs, arrivee):
 
 Complexité : O((V + E) log V) avec un tas binaire.
 
-Limitation : ne fonctionne pas avec des poids négatifs.
+> [!warning] Piège
+> Dijkstra suppose que le chemin le plus court trouvé jusqu'à un sommet ne peut plus être amélioré une fois ce sommet extrait du tas — une hypothèse qui s'effondre dès qu'un poids négatif existe. Sur un tel graphe, l'algorithme termine sans erreur mais peut renvoyer une distance trop grande. Utiliser Bellman-Ford dans ce cas.
 
 ## Algorithme de Bellman-Ford
 
@@ -311,3 +315,7 @@ def a_cycle_oriente(graphe):
 | Floyd-Warshall | Toutes les paires | O(V³) | Oui |
 | Prim | MST | O(E log V) | N/A |
 | Kruskal | MST | O(E log E) | N/A |
+
+> [!tip] Méthode de choix rapide
+> 1. Pas de poids → BFS. Poids positifs → Dijkstra. Poids négatifs → Bellman-Ford. Toutes les paires → Floyd-Warshall.
+> 2. Arbre couvrant minimal : Prim sur graphe dense, Kruskal sur graphe creux (le tri des arêtes domine moins le coût).

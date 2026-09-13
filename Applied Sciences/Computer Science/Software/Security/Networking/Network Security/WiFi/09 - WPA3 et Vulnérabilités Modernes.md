@@ -2,7 +2,7 @@
 title: "WPA3 et Vulnérabilités Modernes"
 domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Network Security > WiFi"
-tags: [sciences-appliquées, informatique, sécurité, réseau, wifi, wpa3, sae, krack, dragonblood, fragattacks, owe]
+tags: [sciences-appliquées, informatique, sécurité, réseau, wifi, wpa3, sae, krack, dragonblood, fragattacks, owe, kr00k, ocv, twt]
 date: "2026-05-17"
 ---
 
@@ -102,6 +102,25 @@ git clone https://github.com/vanhoefm/dragondrain-and-time
 
 **Patch** : hostapd/wpa_supplicant ≥ 2.10, mises à jour vendor (Apple, Samsung, Cisco).
 
+### Kr00k (2019) — la clé qui tombe à zéro
+
+**CVE-2019-15126** — découverte par ESET. Touche les puces Wi-Fi **Broadcom et Cypress**, présentes dans énormément d'appareils : iPhone, iPad, Samsung Galaxy, Raspberry Pi 3, Amazon Echo, et même certains points d'accès Asus/Huawei.
+
+**Image simple** : imagine que ton téléphone est en train d'écrire une lettre chiffrée pendant qu'il se déconnecte du Wi-Fi. Sur ces puces bugguées, au moment de la déconnexion, la puce **efface la clé de chiffrement avant d'avoir fini d'envoyer** — du coup les derniers mots de la lettre partent chiffrés avec une clé "vide" (que tout le monde connaît), donc lisibles par n'importe qui à l'écoute.
+
+**Comment un attaquant en profite** : il force une déconnexion (par exemple avec du deauth, cf. [[07 - DoS et MDK4]]), puis écoute juste après — ces quelques paquets "de fin" sont récupérables en clair.
+
+```bash
+# PoC (nécessite carte en mode monitor + injection)
+git clone https://github.com/hexway/krook_poc
+python3 kr00k_poc.py -i wlan0mon -b AA:BB:CC:DD:EE:FF -c CLIENT_MAC
+# Force une déassociation puis capture les paquets "post-déassoc" chiffrés en clé nulle
+```
+
+**Ce qu'on récupère** : pas grand-chose à chaque fois (quelques dizaines à centaines d'octets), mais en répétant la déconnexion en boucle, ça peut suffire à fuiter des bouts de requêtes DNS ou HTTP.
+
+**Point important** : ce n'est **pas un défaut de WPA2 ou WPA3** — le protocole est correct. C'est un bug dans la puce elle-même. Donc le correctif ne dépend pas du protocole Wi-Fi utilisé, mais d'une mise à jour du firmware de la puce (faite par Apple, Samsung, Google... en 2019-2020).
+
 ### Downgrade Transition (WPA3-Transition)
 
 En mode transition (WPA2 + WPA3 simultanément), un Evil Twin **WPA2-only** avec le même SSID peut forcer un client à se rabattre sur WPA2.
@@ -142,6 +161,30 @@ sudo ./fragattack.py wlan0 ping
 ```
 
 **Patch** : Linux kernel ≥ 5.12, iOS ≥ 14.6, Windows updates 2021-05, firmware AP vendor.
+
+### Multi-channel MitM (bypass OCV) — l'espion qui change de fréquence
+
+**Image simple** : imagine deux personnes qui se parlent par talkie-walkie sur le canal 6. Un attaquant avec deux talkie-walkies se met au milieu : il capte ce qui est dit sur le canal 6, et le retransmet en vrai sur le canal 11 vers l'AP. Chacun des deux pense parler directement à l'autre sur "son" canal — en réalité tout passe par l'attaquant, qui peut lire (et modifier) le message au passage.
+
+**Pourquoi ça marche** : avant WPA3, ni le client ni l'AP ne vérifient **sur quel canal une trame a vraiment été reçue**. Le chiffrement protège le contenu, mais pas le fait qu'on ait changé de canal en cours de route. PMF ne détecte rien non plus, puisque les trames elles-mêmes sont valides.
+
+**La correction** : **OCV (Operating Channel Validation)**, ajoutée dans WPA3. L'AP et le client se mettent d'accord sur le canal utilisé et vérifient ensuite que chaque trame vient bien de ce canal — une trame relayée depuis un autre canal est rejetée.
+
+```
+# hostapd.conf — activer OCV
+ocv=1
+ieee80211w=2      # PMF requis, prérequis d'OCV
+```
+
+C'est le même genre de problème que le contournement d'isolation client vu dans [[12 - Contournement Isolation Client (AirSnitch)]] : une vérification qu'on pensait implicite (ici, le canal ; là-bas, l'identité du client) n'était en fait jamais faite.
+
+### TWT Sleep Deprivation (Wi-Fi 6/6E) — empêcher le client de dormir
+
+**Contexte** : le **Target Wake Time** (802.11ax / Wi-Fi 6) permet à un appareil de dire à l'AP "je me rendors, réveille-moi dans X secondes" pour économiser sa batterie — utile pour les objets connectés sur batterie.
+
+**L'attaque** : un attaquant qui falsifie ou rejoue ces négociations peut soit empêcher l'appareil de dormir (batterie vidée en continu), soit au contraire décaler son réveil pour qu'il rate des données. Aucune trame deauth ou disassoc n'est utilisée — donc les systèmes de détection classiques, calibrés pour repérer des floods de deauth, ne voient rien passer.
+
+**État actuel** : pas de correctif standardisé. En pratique, il faut ajouter la surveillance des négociations TWT anormalement fréquentes aux métriques déjà suivies (cf. [[11 - Defense et Detection#Monitoring continu]]).
 
 ## SAE-PT (Hash-to-Element)
 

@@ -25,6 +25,11 @@ Community strings par défaut (à tester impérativement) :
   community, manager, monitor, admin, ...
 ```
 
+> [!warning] Piège fréquent
+> Un accès en lecture seule (`public`) est déjà une fuite d'information sérieuse — noms d'hôtes, table de routage, processus en cours, parfois utilisateurs et partages Windows via des MIB propriétaires. Le sous-estimer parce que "ce n'est que de la lecture" fait rater une bonne partie de la reconnaissance possible avant même de chercher un accès en écriture.
+
+
+
 ## Ports et protocoles
 
 ```
@@ -32,6 +37,9 @@ UDP 161 — agents SNMP (requêtes Get/Set)
 UDP 162 — traps SNMP (notifications envoyées par l'équipement)
 TCP 161/162 — SNMP over TCP (rare)
 ```
+
+> [!tip] Méthode d'énumération
+> Commencer toujours par `snmpwalk -v2c -c public <IP> 1.3.6.1.2.1.1` (sysDescr, très souvent accessible) avant d'explorer des branches plus profondes — ça confirme en une commande si `public` fonctionne et donne déjà l'OS/version du service sans avoir à parcourir l'arbre MIB entier.
 
 ## Énumération
 

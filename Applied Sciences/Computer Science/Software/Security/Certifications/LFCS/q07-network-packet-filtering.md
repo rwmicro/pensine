@@ -4,16 +4,15 @@
 
 `iptables` est le pare-feu historique de Linux : il filtre, redirige et bloque les paquets au niveau du noyau (sous-système *netfilter*). nftables le remplace progressivement (voir [[q45-rhel-vs-debian-equivalents]]), mais iptables reste au programme.
 
-**Modèle mental : tables → chaînes → règles.**
-
-```
-table filter (filtrage par défaut)        table nat (translation d'adresses/ports)
-├── INPUT    paquets À DESTINATION         ├── PREROUTING   avant routage (redirection entrante)
-│            de la machine                 ├── OUTPUT
-├── FORWARD  paquets QUI TRAVERSENT        └── POSTROUTING  après routage (masquerading sortant)
-│            (routage)
-└── OUTPUT   paquets ÉMIS par la machine
-```
+> [!tip] Modèle mental : tables → chaînes → règles
+> ```
+> table filter (filtrage par défaut)        table nat (translation d'adresses/ports)
+> ├── INPUT    paquets À DESTINATION         ├── PREROUTING   avant routage (redirection entrante)
+> │            de la machine                 ├── OUTPUT
+> ├── FORWARD  paquets QUI TRAVERSENT        └── POSTROUTING  après routage (masquerading sortant)
+> │            (routage)
+> └── OUTPUT   paquets ÉMIS par la machine
+> ```
 
 Chaque chaîne est une liste de règles **évaluées dans l'ordre, de haut en bas** : la première qui correspond décide (ACCEPT/DROP/…). Si aucune ne correspond, la **politique par défaut** de la chaîne s'applique. C'est pourquoi **l'ordre des règles est primordial**.
 
@@ -42,11 +41,11 @@ iptables -A INPUT -i eth0 -p tcp --dport 5000 -j DROP
 iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 6000 -j REDIRECT --to-port 6001
 ```
 
-**Pièges** :
-- Les règles iptables sont **volatiles** : perdues au reboot. Persister avec `iptables-save`/`netfilter-persistent` ou `iptables-persistent`.
-- `-A` ajoute en fin de chaîne ; pour placer une règle avant les autres, utiliser `-I`.
-- Le trafic `localhost` n'est pas filtré par une règle `-i eth0` — d'où le fait que `curl localhost:5000` fonctionne encore après le DROP.
-- Une mauvaise règle peut vous **verrouiller hors SSH** : garder un accès console de secours (ici `lxc exec`).
+> [!warning] Pièges
+> - Les règles iptables sont **volatiles** : perdues au reboot. Persister avec `iptables-save`/`netfilter-persistent` ou `iptables-persistent`.
+> - `-A` ajoute en fin de chaîne ; pour placer une règle avant les autres, utiliser `-I`.
+> - Le trafic `localhost` n'est pas filtré par une règle `-i eth0` — d'où le fait que `curl localhost:5000` fonctionne encore après le DROP.
+> - Une mauvaise règle peut vous **verrouiller hors SSH** : garder un accès console de secours (ici `lxc exec`).
 
 ## Énoncé
 

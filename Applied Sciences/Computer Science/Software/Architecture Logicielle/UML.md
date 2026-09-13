@@ -146,6 +146,9 @@ Equipe ◇──────── Joueur
 
 La `Equipe` contient des `Joueur`s, mais un `Joueur` peut exister sans `Equipe`.
 
+> [!important] Agrégation vs composition
+> Les deux relations se dessinent presque pareil (losange) et sont souvent confondues. Le test qui tranche : si l'objet "tout" est détruit, l'objet "partie" survit-il ? Oui → agrégation (losange creux). Non → composition (losange plein).
+
 #### Composition
 
 Losange plein côté "tout". Relation forte — la partie ne peut exister sans le tout.
@@ -178,6 +181,9 @@ public class Commande {
     }
 }
 ```
+
+> [!warning] Piège
+> Association et dépendance se distinguent par la durée du lien, pas par sa force apparente : une association est un attribut durable (`Client` garde une référence à ses `Commande`s), une dépendance est une utilisation ponctuelle dans une méthode (ici, `Facture` n'est jamais stocké dans `Commande`). Confondre les deux fait dessiner des diagrammes qui suggèrent un couplage permanent là où il n'y en a pas.
 
 ### Diagramme de classes complet — exemple e-commerce
 
@@ -421,3 +427,6 @@ public class CompteBancaire {
 | Comment se déroule un processus ou algorithme ? | Activité |
 | Dans quels états peut se trouver un objet ? | Machine à états |
 | Comment sont déployés les composants ? | Déploiement |
+
+> [!tip] Méthode
+> Ne pas chercher à produire tous les diagrammes UML pour un projet — choisir uniquement ceux qui répondent à une question que l'équipe se pose vraiment. Un diagramme de classes pour un domaine simple, ou un diagramme de séquence pour un flux déjà évident dans le code, n'apporte rien.

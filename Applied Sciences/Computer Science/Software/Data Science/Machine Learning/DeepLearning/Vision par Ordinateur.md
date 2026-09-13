@@ -86,6 +86,9 @@ graph LR
 
 **SSD (Single Shot Detector)** : similaire à YOLO mais utilise des feature maps à plusieurs échelles (comme FPN).
 
+> [!tip] Méthode de choix
+> Précision maximale prioritaire, temps réel non requis (analyse offline, imagerie médicale) → Faster R-CNN. Temps réel requis (vidéo, embarqué) → YOLO ou SSD. La différence de vitesse (~5 FPS vs 30-60+ FPS) vient directement du nombre d'étapes : proposer des régions puis les classer, contre tout prédire en une seule passe.
+
 ### Feature Pyramid Network (FPN)
 
 Combine des features à différentes résolutions pour détecter des objets de toutes tailles :
@@ -112,6 +115,9 @@ Image → [C2, C3, C4, C5]   (backbone, résolution décroissante)
 ```
 IoU = Aire(A ∩ B) / Aire(A ∪ B)
 ```
+
+> [!warning] Piège fréquent
+> Un seuil IoU trop bas pour le NMS supprime des détections d'objets **distincts** mais proches (ex : deux personnes qui se chevauchent partiellement) en les traitant comme des doublons. Un seuil trop haut laisse passer trop de boîtes redondantes pour le même objet. Le choix du seuil (souvent 0.4-0.5) dépend directement de la densité attendue des objets dans la scène.
 
 ## Segmentation
 
@@ -180,6 +186,9 @@ backbone.fc.requires_grad_(True)  # Seulement la tête
 for param in backbone.parameters():
     param.requires_grad = True
 ```
+
+> [!tip] Pourquoi geler puis dégeler progressivement
+> Dégeler tout le backbone immédiatement, avec une tête finale encore aléatoire, produit de gros gradients d'erreur qui remontent et détruisent les features déjà apprises sur ImageNet (voir [[Fine Tuning|catastrophic forgetting]]). Entraîner d'abord la tête seule (backbone gelé) la stabilise avant de risquer de perturber le reste du réseau.
 
 **Backbones courants :**
 

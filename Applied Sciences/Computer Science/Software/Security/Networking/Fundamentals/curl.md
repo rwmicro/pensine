@@ -144,7 +144,12 @@ curl -s https://example.com/script.sh | bash  # Dangereux ! Vérifier avant d'ex
 # Désactiver la vérification du certificat (non sécurisé — labs uniquement)
 curl -k https://self-signed.example.com
 curl --insecure https://self-signed.example.com
+```
 
+> [!warning] Piège fréquent
+> `-k`/`--insecure` désactive toute vérification de certificat, y compris la détection d'un vrai MITM — pas seulement les erreurs de certificat auto-signé en lab. Un script ou un cron job qui traîne un `-k` en production rend toute la connexion TLS silencieusement inutile sans qu'aucune erreur ne le signale.
+
+```bash
 # Utiliser une CA bundle personnalisée
 curl --cacert /path/to/ca-bundle.crt https://example.com
 
@@ -218,6 +223,9 @@ curl -v https://example.com 2>&1 | grep "Connected to"
 # Forcer une IP (résoudre un hostname vers une IP spécifique)
 curl --resolve example.com:443:1.2.3.4 https://example.com
 ```
+
+> [!tip] Méthode de debug
+> Face à un comportement curl inattendu, commencer par `-v` (voir la requête et la réponse complètes) avant d'ajouter des options à l'aveugle — la plupart des erreurs (mauvais header, redirection non suivie, certificat refusé) sont visibles dans la sortie verbose et évitent de deviner.
 
 ## Usage pour la sécurité
 

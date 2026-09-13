@@ -28,6 +28,9 @@ Sources de délai :
 
 **Gigue (Jitter)** : variation du délai entre les paquets successifs. Particulièrement dommageable pour la voix et la vidéo.
 
+> [!important] Distinction clé
+> La voix tolère mal le délai et la gigue mais tolère une perte de paquets occasionnelle (l'oreille comble les micro-coupures) ; les données tolèrent mal la perte (un octet manquant corrompt un fichier) mais s'accommodent d'un délai plus long (TCP retransmet). C'est cette différence de tolérance, pas juste "la voix est prioritaire", qui justifie des files d'attente distinctes par type de trafic.
+
 ## Types de trafic
 
 | Type | Sensibilité | Caractéristiques |
@@ -136,3 +139,6 @@ interface GigabitEthernet0/0
 |-----------|-------------|-------|
 | Policing | Abandonne ou re-marque les paquets dépassant le débit | Côté réseau (FAI) |
 | Shaping | Retarde les paquets dépassant le débit (file d'attente) | Côté client |
+
+> [!tip] Comment choisir
+> Le policing convient là où la latence ajoutée par une file d'attente serait pire que de simplement perdre l'excédent (backbone opérateur à fort débit). Le shaping convient côté client, où lisser le trafic (au prix d'un peu de délai) évite de déclencher les retransmissions TCP qui aggraveraient encore la congestion.

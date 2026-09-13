@@ -10,6 +10,9 @@ date: "2026-02-25"
 
 Active Directory (AD) est le service d'annuaire de Microsoft qui centralise l'authentification et l'autorisation dans les environnements Windows. Sa compromission équivaut à la compromission totale du domaine. C'est pourquoi AD est la cible privilégiée des attaquants dans les intrusions d'entreprise.
 
+> [!important] Idée clé
+> AD n'a pas de périmètre unique à défendre — c'est un graphe de relations (utilisateurs, groupes, ACL, trusts) où n'importe quel chemin menant à Domain Admin compte. D'où l'intérêt d'outils comme BloodHound qui raisonnent en chemins d'attaque plutôt qu'en vulnérabilités isolées.
+
 ## Architecture AD — rappels essentiels
 
 ```
@@ -59,7 +62,8 @@ Active Directory (AD) est le service d'annuaire de Microsoft qui centralise l'au
    └───────────────────────────────────────────────┘
 ```
 
-**À retenir** : les **GPO** sont liées aux **OU**, qui contiennent les **objets**. Compromettre la modification d'une GPO appliquée à l'OU des serveurs = exécution sur tous les serveurs. Compromettre un **Trust** = pivot vers un autre domaine.
+> [!tip] À retenir
+> Les **GPO** sont liées aux **OU**, qui contiennent les **objets**. Compromettre la modification d'une GPO appliquée à l'OU des serveurs = exécution sur tous les serveurs. Compromettre un **Trust** = pivot vers un autre domaine.
 
 Composants clés pour la sécurité :
 - **NTDS.dit** : base de données AD (hashes des mots de passe, stockée sur les DCs)
@@ -480,13 +484,14 @@ Get-MgServicePrincipal -All | ForEach-Object {
 
 ## Pièges courants
 
-- **Compter sur les groupes pour mesurer l'exposition** : un user qui n'est pas dans "Domain Admins" peut quand même y arriver via une chaîne d'ACL de 4-5 étapes. BloodHound révèle ces chemins, pas un audit manuel.
-- **NTDS.dit récupérable hors-ligne via VSS** : un attaquant avec accès admin local sur un DC peut faire une shadow copy (`vssadmin create shadow`) et copier NTDS.dit sans déclencher les alertes "dump LSASS". À monitorer en plus.
-- **Comptes de service avec mots de passe humains** : si `svc_sql` a un mot de passe défini par un humain au lieu d'être un MSA/gMSA, il est Kerberoastable et son hash craque vite. Migration gMSA = quick win.
-- **Mots de passe en clair dans SYSVOL (legacy GPP)** : les Group Policy Preferences chiffraient avec une clé publique → déchiffrement trivial. Patché en 2014 mais SYSVOL historique peut encore contenir des `groups.xml`.
-- **Pré-authentification Kerberos désactivée par défaut sur des comptes legacy** : ces comptes sont AS-REP roastable. À identifier (`Get-DomainUser -PreauthNotRequired`) et activer.
-- **Tier model jamais implémenté** : si les Domain Admins se loguent sur des postes utilisateurs (Tier 2), leurs credentials se retrouvent en mémoire → Mimikatz suffit. Tier 0 = DCs, Tier 1 = serveurs, Tier 2 = postes, jamais croiser.
-- **LAPS pas activé** : sans LAPS, un mot de passe admin local identique sur 500 machines = compromettre une = compromettre toutes (pass-the-hash en chaîne). Activation LAPS = un des plus gros gains de sécurité AD.
-- **Trust avec SID History** : un trust mal configuré (sans SID Filtering) permet d'injecter un SID Domain Admin du domaine cible dans un TGT du domaine source. Vérifier `netdom trust /quarantine`.
-- **MachineAccountQuota = 10 par défaut** : tout user du domaine peut créer 10 comptes machine. Ouvre la porte à RBCD. Mettre à 0 si pas de besoin métier.
-- **Azure AD Connect = compte synchronisé surprivilégié** : le compte de sync a souvent des droits DCSync implicites. Cible n°1 pour passer du on-prem au cloud.
+> [!warning] Pièges courants
+> - **Compter sur les groupes pour mesurer l'exposition** : un user qui n'est pas dans "Domain Admins" peut quand même y arriver via une chaîne d'ACL de 4-5 étapes. BloodHound révèle ces chemins, pas un audit manuel.
+> - **NTDS.dit récupérable hors-ligne via VSS** : un attaquant avec accès admin local sur un DC peut faire une shadow copy (`vssadmin create shadow`) et copier NTDS.dit sans déclencher les alertes "dump LSASS". À monitorer en plus.
+> - **Comptes de service avec mots de passe humains** : si `svc_sql` a un mot de passe défini par un humain au lieu d'être un MSA/gMSA, il est Kerberoastable et son hash craque vite. Migration gMSA = quick win.
+> - **Mots de passe en clair dans SYSVOL (legacy GPP)** : les Group Policy Preferences chiffraient avec une clé publique → déchiffrement trivial. Patché en 2014 mais SYSVOL historique peut encore contenir des `groups.xml`.
+> - **Pré-authentification Kerberos désactivée par défaut sur des comptes legacy** : ces comptes sont AS-REP roastable. À identifier (`Get-DomainUser -PreauthNotRequired`) et activer.
+> - **Tier model jamais implémenté** : si les Domain Admins se loguent sur des postes utilisateurs (Tier 2), leurs credentials se retrouvent en mémoire → Mimikatz suffit. Tier 0 = DCs, Tier 1 = serveurs, Tier 2 = postes, jamais croiser.
+> - **LAPS pas activé** : sans LAPS, un mot de passe admin local identique sur 500 machines = compromettre une = compromettre toutes (pass-the-hash en chaîne). Activation LAPS = un des plus gros gains de sécurité AD.
+> - **Trust avec SID History** : un trust mal configuré (sans SID Filtering) permet d'injecter un SID Domain Admin du domaine cible dans un TGT du domaine source. Vérifier `netdom trust /quarantine`.
+> - **MachineAccountQuota = 10 par défaut** : tout user du domaine peut créer 10 comptes machine. Ouvre la porte à RBCD. Mettre à 0 si pas de besoin métier.
+> - **Azure AD Connect = compte synchronisé surprivilégié** : le compte de sync a souvent des droits DCSync implicites. Cible n°1 pour passer du on-prem au cloud.

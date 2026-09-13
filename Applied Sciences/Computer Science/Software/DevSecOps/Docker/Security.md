@@ -28,6 +28,9 @@ FROM gcr.io/distroless/python3-debian12
 FROM python:3.12-alpine
 ```
 
+> [!warning] Piège Alpine
+> Alpine utilise musl libc au lieu de glibc — certains paquets Python/Node avec des dépendances natives compilées échouent à l'installation ou se comportent différemment (résolution DNS notamment). Distroless évite ce piège tout en gardant une surface d'attaque minimale, au prix d'un débogage plus difficile (pas de shell).
+
 ### Dockerfile sécurisé
 
 ```dockerfile
@@ -145,6 +148,9 @@ Les capabilities décomposent les privilèges root en unités granulaires.
 docker inspect <id> | jq '.[0].HostConfig.CapAdd, .[0].HostConfig.CapDrop'
 ```
 
+> [!tip] Méthode
+> Partir de `--cap-drop ALL` puis n'ajouter que les capabilities réellement nécessaires (`--cap-add`), plutôt que de partir des capabilities par défaut de Docker (déjà restreintes par rapport à root, mais encore trop larges pour la plupart des applications).
+
 ### Profils seccomp
 
 Seccomp filtre les appels système disponibles pour le container.
@@ -179,6 +185,9 @@ docker run --security-opt seccomp=seccomp.json monapp:latest
 ## Gestion des secrets
 
 ### Ce qu'il ne faut pas faire
+
+> [!warning] Pourquoi ENV/ARG ne protègent rien
+> Une valeur passée par `ENV` ou `ARG` reste lisible en clair par `docker history` ou `docker inspect`, même après le build — elle fait partie des métadonnées de l'image, pas seulement de son exécution. Ce n'est pas une question de "où on regarde" mais un principe : ces mécanismes n'ont jamais été conçus pour des secrets.
 
 ```dockerfile
 # NE JAMAIS mettre des secrets dans le Dockerfile

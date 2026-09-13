@@ -172,6 +172,12 @@ useEffect(() => { ... }, []);     // S'exécute une seule fois au montage
 useEffect(() => { ... }, [id]);   // S'exécute quand id change
 ```
 
+> [!warning] Piège des closures obsolètes (stale closures)
+> Une fonction définie dans `useEffect(..., [])` capture les valeurs de state/props telles qu'elles étaient **au moment du premier rendu** — si elle lit une variable qui change ensuite sans être dans le tableau de dépendances, elle continuera à lire l'ancienne valeur indéfiniment. La règle du linter `exhaustive-deps` existe précisément pour repérer ces dépendances manquantes.
+
+> [!tip] Pourquoi la fonction de nettoyage (`return () => {...}`)
+> Sans elle, un `fetch` lancé pour un `userId` qui change rapidement (l'utilisateur navigue vite) peut résoudre **après** qu'un effet plus récent a démarré, et écraser un état déjà à jour avec une réponse obsolète. Le flag `annule` (ou un `AbortController`) évite cette course.
+
 ### useContext
 
 Partage des données sans passer des props à travers tous les niveaux (prop drilling).
@@ -441,6 +447,9 @@ src/
 - Préférer les composants stateless (sans état) quand possible
 - Éviter la mutation directe de l'état (toujours utiliser la fonction setter)
 - Fournir des `key` uniques et stables dans les listes (jamais l'index si la liste peut changer)
+
+> [!warning] Pourquoi pas l'index comme key
+> React utilise `key` pour savoir quel élément du DOM correspond à quel élément de la liste entre deux rendus. Avec l'index, insérer ou supprimer un élément en milieu de liste décale tous les index suivants — React associe alors le mauvais state (inputs contrôlés, animations) au mauvais élément, même si le rendu visuel semble correct au premier coup d'œil.
 - Extraire la logique dans des hooks personnalisés pour la réutiliser
 
 ## Comparaison React vs alternatives

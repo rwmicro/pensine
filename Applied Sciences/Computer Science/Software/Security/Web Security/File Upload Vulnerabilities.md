@@ -10,6 +10,9 @@ date: 2026-03-22
 
 Les vulnérabilités d'upload de fichiers permettent à un attaquant de téléverser des fichiers non autorisés sur le serveur cible. Dans le meilleur cas pour l'attaquant, cela mène à l'exécution de code distant (RCE) via un webshell.
 
+> [!important] Trois couches de vérification, trois angles de bypass
+> Une application peut valider l'extension, le Content-Type, et les magic bytes — un attaquant compétent teste les trois indépendamment, car chacun est falsifiable côté client sans rapport avec les autres (renommer un fichier, modifier un en-tête Burp, ou cacher un payload après de vrais magic bytes valides).
+
 ## Impact selon le contexte
 
 | Scénario | Impact |
@@ -66,6 +69,9 @@ shell.php%00.jpg   # %00 = null byte, PHP 5.3 → tronque à shell.php
 shell.PHP
 shell.PhP
 ```
+
+> [!warning] Piège fréquent
+> Une liste noire d'extensions interdites (`.php`, `.php5`...) est presque toujours incomplète — la liste des extensions exécutables par Apache/Nginx selon leur configuration est longue et évolutive. Seule une **liste blanche** stricte d'extensions autorisées (`.jpg`, `.png`...) élimine la classe entière de bypass.
 
 ### Bypass du Content-Type
 
@@ -191,6 +197,9 @@ t1.join(); t2.join()
 ```
 
 ## Méthodologie de test
+
+> [!tip] Ordre d'attaque logique
+> Tester du plus simple au plus contourné : d'abord l'extension brute, puis Content-Type, puis magic bytes/polyglot — chaque échec révèle quelle couche de validation existe réellement et guide le bypass suivant.
 
 ```
 1. Upload normal → noter l'URL du fichier

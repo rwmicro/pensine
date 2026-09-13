@@ -41,7 +41,8 @@ Le RL est formalisé comme un **MDP** (Markov Decision Process), défini par :
 - $R(s, a)$ : **récompense** obtenue
 - $\gamma$ : facteur de **discount** ($0 \leq \gamma \leq 1$)
 
-**Propriété de Markov :** l'état futur ne dépend que de l'état présent, pas de l'historique.
+> [!important] Propriété de Markov
+> L'état futur ne dépend que de l'état présent, pas de l'historique qui y a mené. C'est une hypothèse forte : si l'état ne capture pas toute l'information pertinente du passé (ex : la vitesse en plus de la position), le problème n'est plus un vrai MDP et les garanties théoriques des algorithmes ci-dessous ne tiennent plus.
 
 ### Le facteur de discount $\gamma$
 
@@ -73,6 +74,9 @@ $$a = \begin{cases} \text{action aléatoire} & \text{avec probabilité } \vareps
 
 - $\varepsilon$ commence **haut** (beaucoup d'exploration) et **décroît** au fil du temps
 - Exemple : $\varepsilon = 1.0 \to 0.01$ sur 100 000 étapes
+
+> [!tip] Pourquoi décroître $\varepsilon$ plutôt que le fixer
+> En début d'entraînement, l'agent ne connaît rien de l'environnement : ses estimations $Q(s,a)$ sont peu fiables, autant explorer beaucoup. Une fois les bonnes actions identifiées, continuer à explorer autant gaspille de la récompense sur des actions déjà connues comme mauvaises — d'où la décroissance progressive vers l'exploitation.
 
 ## Fonctions de valeur
 
@@ -157,6 +161,9 @@ Similaire au Q-Learning mais **on-policy** : il utilise l'action réellement pri
 $$Q(s, a) \leftarrow Q(s, a) + \alpha \left[ r + \gamma Q(s', a') - Q(s, a) \right]$$
 
 Différence clé : utilise $Q(s', a')$ (action réelle) au lieu de $\max_{a'} Q(s', a')$ (meilleure action).
+
+> [!warning] Ne pas confondre on-policy et off-policy
+> Q-Learning apprend la valeur de la politique **optimale**, même s'il explore avec une politique différente (ex : $\varepsilon$-greedy) — off-policy. SARSA apprend la valeur de la politique **réellement suivie**, exploration comprise — on-policy. Conséquence pratique : dans un environnement à risque (ex : un robot près d'un précipice), SARSA apprend une politique plus prudente parce qu'il tient compte du risque d'explorer, contrairement à Q-Learning qui suppose un comportement optimal futur.
 
 #### Deep Q-Network (DQN)
 

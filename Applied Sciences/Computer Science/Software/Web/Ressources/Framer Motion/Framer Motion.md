@@ -488,6 +488,9 @@ function MyApp({ Component, pageProps }) {
    - ❌ width, height, top, left
    - ✅ transform, opacity
 
+> [!important] Pourquoi cette distinction
+> Animer `width`/`height`/`top`/`left` force le navigateur à recalculer le layout de la page à chaque frame (reflow), alors que `transform`/`opacity` s'exécutent sur le compositeur GPU sans toucher au layout — une différence qui devient visible (saccades) dès que l'animation est complexe ou que la page contient beaucoup d'éléments.
+
 3. **Use will-change sparingly**
    ```jsx
    <motion.div style={{ willChange: "transform" }} />
@@ -500,6 +503,9 @@ function MyApp({ Component, pageProps }) {
    const shouldReduceMotion = useReducedMotion()
    const duration = shouldReduceMotion ? 0 : 0.5
    ```
+
+> [!tip] Pourquoi ne pas l'ignorer
+> `useReducedMotion` reflète le réglage système "réduire les animations", activé par des utilisateurs sujets aux troubles vestibulaires (nausée, vertige déclenchés par le mouvement) — ce n'est pas une simple préférence esthétique. L'ignorer peut rendre une interface littéralement inutilisable pour ces utilisateurs, pas seulement moins agréable.
 
 ## Integration avec Next.js
 

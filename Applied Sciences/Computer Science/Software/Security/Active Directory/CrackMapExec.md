@@ -10,6 +10,9 @@ date: 2026-03-22
 
 CrackMapExec (CME / NetExec) est un couteau suisse pour les tests en environnement Active Directory. Il permet d'énumérer, tester des credentials, exécuter des commandes et collecter des informations sur des réseaux Windows à grande échelle.
 
+> [!tip] Lire les résultats
+> `[+]` signifie que les credentials testés sont valides sur la machine ; `(Pwn3d!)` signifie en plus que ce compte a les droits admin local sur cette machine précise — c'est ce deuxième marqueur qui indique qu'une exécution de commande ou un dump SAM est possible.
+
 ```bash
 # Installation (NetExec — fork actif de CME)
 pip3 install netexec
@@ -155,6 +158,9 @@ nxc mssql 192.168.1.0/24
 ```
 
 ## Password Spraying
+
+> [!warning] Piège fréquent
+> Un password spray mal dosé peut verrouiller tous les comptes du domaine (déni de service auto-infligé). Toujours vérifier la politique de lockout AVANT (`--password-not-required` ou une requête LDAP sur `lockoutThreshold`) et rester nettement en dessous du seuil, avec `--delay`/`--jitter` pour espacer les tentatives.
 
 ```bash
 # Password spray sur tout un domaine (ATTENTION : risque de lockout)

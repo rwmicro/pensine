@@ -85,6 +85,9 @@ train(model_prepared, ...)
 model_quantized = torch.quantization.convert(model_prepared)
 ```
 
+> [!tip] PTQ ou QAT ?
+> PTQ est quasi gratuit (pas de réentraînement) et suffit dans la majorité des cas jusqu'à INT8. En dessous (INT4 et moins), la perte de précision PTQ devient souvent trop importante — QAT, plus coûteux car il demande de réentraîner, récupère une bonne partie de cette précision en habituant le modèle à la quantization pendant l'entraînement lui-même.
+
 **Voir aussi** : [Quantization.md] pour les méthodes spécifiques aux LLM (bitsandbytes, GGUF, AWQ)
 
 ## Pruning (Élagage)
@@ -111,7 +114,9 @@ prune.global_unstructured(parameters_to_prune,
 ```
 
 **Avantage :** taux de compression élevé
-**Inconvénient :** la sparsité non-structurée est difficile à accélérer sur GPU standard
+
+> [!warning] Piège fréquent
+> La sparsité non-structurée réduit le nombre de paramètres non nuls, mais un GPU standard reste optimisé pour du calcul matriciel dense — il n'accélère pas automatiquement le calcul juste parce que la matrice contient des zéros. Sans hardware ou kernels spécialisés (sparse tensor cores), un modèle "pruné à 50%" peut tourner à la même vitesse qu'avant. Le pruning structuré (ci-dessous) est ce qui donne une accélération réelle sur du matériel standard.
 
 ### Pruning structuré
 
@@ -233,6 +238,9 @@ Modèle complet (FP32)
     → Distillation (réentraîner l'étudiant)
     → Quantization INT8 (déploiement)
 ```
+
+> [!tip] Ordre d'application
+> Toujours pruner et distiller **avant** de quantizer. Le pruning et la distillation modifient la structure/les poids du modèle et bénéficient de la pleine précision pour bien s'entraîner ; la quantization est une conversion finale à faible coût qui se fait sur le modèle déjà optimisé, juste avant déploiement.
 
 **Impact typique combiné :**
 

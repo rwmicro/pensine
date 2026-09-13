@@ -73,6 +73,9 @@ Quantification **après** l'entraînement, sans ré-entraîner le modèle.
 **Avantages :** rapide, ne nécessite pas de données d'entraînement
 **Inconvénients :** perte de qualité plus importante, surtout en dessous de 8 bits
 
+> [!warning] Piège fréquent
+> En dessous de 4 bits, la dégradation cesse d'être linéaire et peut devenir brutale sur certaines tâches (raisonnement complexe, arithmétique) même si les benchmarks génériques semblent peu affectés — toujours valider sur les tâches réelles visées, pas seulement sur un score moyen, avant de descendre à INT3/INT2 en production.
+
 #### Quantification symétrique
 Le zéro correspond exactement au zéro quantifié :
 $$x_q = \text{round}\left(\frac{x}{s}\right), \quad s = \frac{\max(|x|)}{2^{b-1} - 1}$$
@@ -155,7 +158,8 @@ La quantification entraîne une perte de qualité, mais elle est souvent **accep
 | INT4 | Faible à modérée (~1-3%) | Bon pour les modèles > 7B |
 | INT3/INT2 | Significative | Uniquement si ressources très limitées |
 
-> **Règle générale :** plus un modèle est grand, mieux il tolère la quantification. Un modèle 70B en 4-bit sera souvent meilleur qu'un modèle 7B en 16-bit.
+> [!tip] Règle générale
+> Plus un modèle est grand, mieux il tolère la quantification. Un modèle 70B en 4-bit sera souvent meilleur qu'un modèle 7B en 16-bit — à budget mémoire égal, préférer un plus grand modèle plus quantifié plutôt qu'un plus petit modèle en haute précision.
 
 ## Ressources
 

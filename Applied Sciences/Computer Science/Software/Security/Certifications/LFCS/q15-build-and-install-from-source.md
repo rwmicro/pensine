@@ -4,18 +4,17 @@
 
 Installer depuis les sources, c'est compiler le code soi-même au lieu d'utiliser un paquet précompilé (`apt`/`dnf`). Utile quand le logiciel n'est pas packagé, qu'on veut une version précise ou des options de compilation particulières.
 
-**Modèle mental : le trio `configure / make / make install`.**
-
-```
-sources (.tar.bz2)
-   │  tar xjf
-   ▼
-./configure   ── détecte l'environnement, génère le Makefile selon vos options
-   │
-make          ── compile le code source en binaires
-   │
-make install  ── copie les binaires aux emplacements système (souvent en root)
-```
+> [!tip] Modèle mental : le trio `configure / make / make install`
+> ```
+> sources (.tar.bz2)
+>    │  tar xjf
+>    ▼
+> ./configure   ── détecte l'environnement, génère le Makefile selon vos options
+>    │
+> make          ── compile le code source en binaires
+>    │
+> make install  ── copie les binaires aux emplacements système (souvent en root)
+> ```
 
 C'est la chaîne « autotools » historique des projets C/C++. Chaque étape a un rôle distinct ; les sauter ou les inverser ne marche pas.
 
@@ -41,11 +40,11 @@ which links            # /usr/bin/links
 links -version
 ```
 
-**Pièges** :
-- Lire le `README`/`INSTALL` de l'archive : chaque projet a ses spécificités.
-- `make install` écrit dans des emplacements système → souvent `sudo` nécessaire.
-- Une erreur en plein `make` vient presque toujours d'une **dépendance manquante** (un `*-dev`/`*-devel`) signalée plus tôt par `configure`.
-- Un logiciel installé depuis les sources **échappe au gestionnaire de paquets** : pas de mise à jour ni de désinstallation automatiques (`make uninstall` si fourni). Voir [[q26-package-management]].
+> [!warning] Pièges
+> - Lire le `README`/`INSTALL` de l'archive : chaque projet a ses spécificités.
+> - `make install` écrit dans des emplacements système → souvent `sudo` nécessaire.
+> - Une erreur en plein `make` vient presque toujours d'une **dépendance manquante** (un `*-dev`/`*-devel`) signalée plus tôt par `configure`.
+> - Un logiciel installé depuis les sources **échappe au gestionnaire de paquets** : pas de mise à jour ni de désinstallation automatiques (`make uninstall` si fourni). Voir [[q26-package-management]].
 
 ## Énoncé
 

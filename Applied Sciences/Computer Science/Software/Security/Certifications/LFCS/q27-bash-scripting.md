@@ -4,21 +4,20 @@
 
 Un script bash automatise une suite de commandes. L'enjeu à l'examen n'est pas d'écrire du code élégant, mais du code **robuste** : qui échoue proprement, vérifie ses entrées, et journalise.
 
-**Modèle mental : un script est un programme avec entrées, traitement, sorties.**
+> [!tip] Modèle mental : un script est un programme avec entrées, traitement, sorties
+> ```
+> arguments ($1, $2...)  ──►  vérifications  ──►  traitement  ──►  code de sortie + logs
+>                             (garde-fous)                          (exit 0/1)
+> ```
 
-```
-arguments ($1, $2...)  ──►  vérifications  ──►  traitement  ──►  code de sortie + logs
-                            (garde-fous)                          (exit 0/1)
-```
-
-**Le squelette défensif à connaître par cœur :**
-```bash
-#!/usr/bin/env bash
-set -euo pipefail    # la ligne qui sauve
-```
-- `set -e` : s'arrêter à la première commande qui échoue.
-- `set -u` : erreur si une variable non définie est utilisée (attrape les fautes de frappe).
-- `set -o pipefail` : un pipe échoue si **n'importe quel** maillon échoue (sinon seul le dernier compte).
+> [!important] Le squelette défensif à connaître par cœur
+> ```bash
+> #!/usr/bin/env bash
+> set -euo pipefail    # la ligne qui sauve
+> ```
+> - `set -e` : s'arrêter à la première commande qui échoue.
+> - `set -u` : erreur si une variable non définie est utilisée (attrape les fautes de frappe).
+> - `set -o pipefail` : un pipe échoue si **n'importe quel** maillon échoue (sinon seul le dernier compte).
 
 Sans ces options, un script continue malgré les erreurs et peut faire des dégâts silencieux. C'est la première chose qu'un correcteur regarde.
 
@@ -41,11 +40,11 @@ Le **code de sortie** est le contrat du script : `0` = succès, `≠0` = échec.
 "${var:-defaut}" # valeur par défaut si vide
 ```
 
-**Pièges** :
-- Oublier les guillemets autour des variables = bugs avec espaces et globbing.
-- `[ ]` (POSIX) vs `[[ ]]` (bash) : préférer `[[ ]]`, plus sûr (pas de découpage de mots).
-- Un script doit renvoyer un code de sortie cohérent, surtout s'il est appelé par cron (voir [[q02-cronjobs]]) ou systemd.
-- `trap '...' EXIT` garantit le nettoyage (fichiers temporaires) même en cas d'erreur.
+> [!warning] Pièges
+> - Oublier les guillemets autour des variables = bugs avec espaces et globbing.
+> - `[ ]` (POSIX) vs `[[ ]]` (bash) : préférer `[[ ]]`, plus sûr (pas de découpage de mots).
+> - Un script doit renvoyer un code de sortie cohérent, surtout s'il est appelé par cron (voir [[q02-cronjobs]]) ou systemd.
+> - `trap '...' EXIT` garantit le nettoyage (fichiers temporaires) même en cas d'erreur.
 
 ## Énoncé
 

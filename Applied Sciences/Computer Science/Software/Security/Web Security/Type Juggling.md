@@ -10,6 +10,9 @@ date: 2026-03-22
 
 Le type juggling exploite le comportement des langages à typage dynamique qui convertissent implicitement les types lors de comparaisons. Une comparaison "lâche" peut produire des résultats inattendus exploitables pour bypasser des vérifications.
 
+> [!important] Idée clé
+> Le problème n'est jamais visible dans la logique métier — `if ($token == $expected)` a l'air parfaitement correct à la lecture. La faille vient entièrement de la sémantique de l'opérateur `==`, qui décide unilatéralement de convertir les types avant de comparer.
+
 ## PHP — Comparaison lâche (`==`)
 
 PHP est particulièrement affecté. L'opérateur `==` effectue des conversions de type avant de comparer.
@@ -59,6 +62,9 @@ if ($_POST['token'] == $token) {
 // SHA1 magic hashes
 "0e07766915004133176347055865026311692244"  // SHA1 de "10932435112"
 ```
+
+> [!warning] Piège fréquent
+> Un hash au format hexadécimal ressemble à une chaîne inoffensive — mais si sa valeur commence par `0e` suivi uniquement de chiffres, PHP (< 8.0) l'interprète en notation scientifique (0 × 10ⁿ = 0) lors d'une comparaison `==`. Deux hashes "magiques" différents deviennent alors égaux entre eux, et à l'entier `0`.
 
 ```php
 // Autre bypass — si password_verify est remplacé par ==
@@ -180,6 +186,9 @@ bool(0) == False   # True
 # mais : if not session['is_admin'] → "0" est truthy → pas de bypass ici
 # Cependant : if session['is_admin'] == False → "0" != False en Python → OK
 ```
+
+> [!tip] Méthode de test
+> Sur tout champ comparé côté serveur (token, mot de passe, rôle), essayer de forcer son type : entier `0`, booléen `true`, tableau vide via `champ[]=x` en formulaire, ou objet JSON `{"champ": true}`. Si le comportement de l'application change entre `"chaîne normale"` et ces valeurs, une comparaison lâche est probablement en jeu.
 
 ## Cas réels et impact
 

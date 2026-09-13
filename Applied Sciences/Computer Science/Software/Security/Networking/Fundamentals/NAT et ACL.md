@@ -151,6 +151,12 @@ Router(config-if)#ip access-group FILTRAGE_WEB in
 - Une ACL **étendue** doit être placée près de la **source**
 - Une seule ACL par interface, par direction (in ou out)
 
+> [!warning] Piège fréquent
+> La première correspondance gagne, même si une règle plus bas serait plus adaptée — une ACL mal ordonnée (règle large en premier) rend toutes les règles suivantes inatteignables. Toujours placer les règles les plus spécifiques avant les plus générales, et se rappeler que le `deny any` implicite en fin de liste bloque tout ce qui n'a été explicitement autorisé par aucune règle précédente.
+
+> [!tip] Où placer chaque type d'ACL
+> Une ACL standard ne voit que la source, donc si elle est placée trop près de la source, elle bloque du trafic qui aurait dû atteindre d'autres destinations légitimes — d'où la règle "standard près de la destination". Une ACL étendue connaît déjà la destination et le port, donc rien n'empêche de bloquer au plus tôt, près de la source, pour économiser de la bande passante inutile sur le reste du chemin.
+
 ### Vérification
 
 ```cisco

@@ -36,6 +36,9 @@ Let's Encrypt vérifie que tu contrôles bien le domaine via un *challenge* ACME
 | **DNS-01** | Certbot demande d'ajouter un enregistrement `TXT _acme-challenge.example.com` | Wildcards, domaines internes, pas de port 80 accessible |
 | **TLS-ALPN-01** | Négociation TLS sur le port 443 | Cas où seul le 443 est ouvert |
 
+> [!tip] Comment choisir
+> HTTP-01 est le plus simple mais exige le port 80 ouvert et ne fonctionne pas pour un wildcard. DNS-01 est le seul qui fonctionne sans exposer de port et le seul qui gère les wildcards — mais impose un accès (API ou manuel) à la zone DNS. En pratique : HTTP-01 par défaut, DNS-01 dès qu'un wildcard ou un environnement interne sans port 80 est en jeu.
+
 ## Certificat simple (HTTP-01)
 
 ```bash
@@ -82,6 +85,9 @@ dns_cloudflare_api_token = <TOKEN_SCOPED_ZONE_DNS_EDIT>
 
 Certbot installe un timer systemd ou une tâche cron qui tente un renouvellement 2 fois par jour. Un certificat n'est renouvelé qu'à partir de 30 jours avant expiration.
 
+> [!important] Le renouvellement seul ne suffit pas
+> Certbot renouvelle le fichier de certificat, mais ne recharge pas automatiquement le service qui l'utilise (nginx, apache) sauf si un `--deploy-hook` est configuré. Sans ce hook, le serveur continue de servir l'ancien certificat en mémoire jusqu'à son propre redémarrage — un renouvellement "réussi" en apparence peut donc ne rien changer en pratique.
+
 ```bash
 # Test à blanc (ne renouvelle pas réellement)
 sudo certbot renew --dry-run
@@ -119,6 +125,9 @@ sudo certbot delete --cert-name example.com
 - **5 certificats identiques (mêmes noms) par semaine** — attention si un script boucle
 - **300 *new orders* par compte toutes les 3 heures**
 - En cas d'échec répété, utiliser l'environnement de staging : `--staging` (certificats non valides mais sans quota)
+
+> [!warning] Piège
+> Ces quotas sont par **domaine enregistré** (eTLD+1), pas par sous-domaine — tester en boucle sur `test1.example.com`, `test2.example.com`... consomme le même quota que sur un seul nom. Une fois le quota de production atteint, il faut attendre la fenêtre glissante (jusqu'à une semaine) : toujours débugger avec `--staging` avant de lancer des tentatives répétées en prod.
 
 ## Pièges fréquents
 

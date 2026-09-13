@@ -28,6 +28,9 @@ Exemples :
 (&(objectClass=user)(sAMAccountName=alice))
 ```
 
+> [!important] Différence avec l'injection SQL
+> Le SQL utilise des guillemets et des mots-clés (`OR`, `--`) ; LDAP utilise une syntaxe à **parenthèses imbriquées**. Le principe de l'injection reste le même (casser la structure logique voulue), mais les payloads visent à fermer prématurément une parenthèse pour changer un `ET` en `OU` toujours vrai.
+
 ## Code vulnérable et injections
 
 ```python
@@ -57,6 +60,9 @@ Autres payloads de bypass :
   *                     → wildcard → correspond à tous les utilisateurs
   admin)(password=*))(& → contourne la vérification du mot de passe
 ```
+
+> [!tip] Comment construire un payload de bypass
+> Compter les parenthèses ouvrantes déjà présentes dans le filtre cible et fermer exactement ce nombre avant d'ajouter sa propre logique `(|(...)`. C'est ce comptage, pas la mémorisation de payloads tout faits, qui permet d'adapter l'attaque à un filtre inconnu.
 
 ```bash
 # Formulaire de login — tests d'injection
@@ -216,6 +222,9 @@ ldap_filter = f"(uid={safe_username})"
 $safe = ldap_escape($_POST['username'], "", LDAP_ESCAPE_FILTER);
 $filter = "(&(uid=$safe)(objectClass=person))";
 ```
+
+> [!warning] Piège fréquent
+> `escape_filter_chars` protège le **filtre de recherche**, mais si l'entrée utilisateur est aussi utilisée pour construire un DN (Distinguished Name, ex. `CN={username},DC=...`), il faut un échappement différent et spécifique au DN — les deux contextes ont des règles d'échappement distinctes, échapper l'un ne protège pas l'autre.
 
 ```
 Règles générales :

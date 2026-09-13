@@ -36,6 +36,12 @@ date: "2025-03-14"
 - **SPF (Sender Policy Framework)** : Définit les serveurs autorisés à envoyer des mails au nom d’un domaine.
 - **DMARC (Domain-based Message Authentication, Reporting & Conformance)** : Combine SPF et DKIM pour améliorer la protection contre l’usurpation d’identité.
 
+> [!important] Distinction clé
+> SPF valide l'**enveloppe** du mail (le serveur émetteur), DKIM valide le **contenu** (signature du corps et des headers), et DMARC ne fait rien de nouveau lui-même — il dit juste au destinataire quoi faire (rejeter, quarantaine, rien) quand SPF et/ou DKIM échouent. Un domaine avec SPF et DKIM configurés mais sans DMARC laisse chaque fournisseur de messagerie décider seul de la politique à appliquer.
+
+> [!warning] Piège fréquent
+> SPF seul ne protège pas contre l'usurpation d'affichage : un attaquant peut passer SPF en envoyant depuis son propre domaine mail, tout en affichant un nom d'expéditeur qui ressemble à celui d'une entreprise connue. Seul DMARC en mode `reject`, combiné à un `From` correctement vérifié, ferme réellement cette voie.
+
 ### Chiffrement du contenu des e-mails
 
 - **PGP (Pretty Good Privacy) / GPG (Gnu Privacy Guard)** : Chiffrement de bout en bout des e-mails.

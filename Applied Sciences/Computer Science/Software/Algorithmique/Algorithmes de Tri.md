@@ -10,6 +10,9 @@ date: "2026-02-24"
 
 Le tri est l'une des opérations les plus fondamentales en informatique. Comprendre ses algorithmes permet de saisir des concepts clés : récursion, diviser-pour-régner, stabilité, complexité.
 
+> [!important] Idée clé
+> Il n'existe pas de "meilleur" tri dans l'absolu. Le bon choix dépend de contraintes concrètes : la stabilité est-elle requise, la mémoire auxiliaire est-elle disponible, les données sont-elles déjà presque triées ? Deux tris en O(n log n) peuvent avoir des comportements très différents selon ces contraintes.
+
 ## Concepts préliminaires
 
 **Tri en place** : l'algorithme trie sans utiliser de tableau auxiliaire (ou avec O(1) espace supplémentaire).
@@ -157,6 +160,9 @@ def partitionner(arr, gauche, droite):
 
 Stable : non. En place : oui (O(log n) pile d'appels). Usage : le plus rapide en pratique sur des données aléatoires. Utiliser un pivot aléatoire pour éviter le pire cas.
 
+> [!warning] Piège fréquent
+> L'implémentation ci-dessus choisit toujours le dernier élément comme pivot. Sur un tableau **déjà trié** (ou trié à l'envers), ce choix dégénère systématiquement en O(n²) — le pire cas n'est pas un cas rare, c'est un cas très commun en pratique (logs, données déjà partiellement ordonnées). D'où l'importance d'un pivot aléatoire ou de la médiane de trois.
+
 ## Tri par tas (Heap Sort)
 
 Principe : construire un tas-max, extraire successivement le maximum.
@@ -248,6 +254,9 @@ Complexité : O(n) meilleur cas (tableau déjà trié), O(n log n) moyen et pire
 | Timsort | O(n) | O(n log n) | O(n log n) | O(n) | Oui | Non |
 
 ## Règles de choix
+
+> [!tip] Méthode
+> Poser les questions dans cet ordre : type de données (entiers bornés ?), taille (petite → insertion sort), état initial (presque trié → Timsort/insertion), contrainte de stabilité, puis contrainte de mémoire. L'arbre ci-dessous formalise cet ordre.
 
 ```mermaid
 flowchart TD

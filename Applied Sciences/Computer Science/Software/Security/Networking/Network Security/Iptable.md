@@ -54,7 +54,12 @@ iptables -t nat -L -n -v       # Table NAT
 iptables -P INPUT DROP         # Tout bloquer par défaut
 iptables -P FORWARD DROP
 iptables -P OUTPUT ACCEPT
+```
 
+> [!warning] Piège fréquent
+> Passer `INPUT` à `DROP` sur une session SSH distante **avant** d'avoir ajouté la règle qui autorise le port 22 coupe immédiatement sa propre connexion, sans façon de la rouvrir à distance. Toujours ajouter la règle d'autorisation SSH avant de changer la politique par défaut, ou tester dans une session console/hors-bande.
+
+```bash
 # Ajouter une règle (fin de chaîne)
 iptables -A INPUT -p tcp --dport 22 -j ACCEPT
 
@@ -89,6 +94,9 @@ Le module `state` (ou `conntrack`) suit l'état des connexions. C'est le cœur d
 | ESTABLISHED | Connexion déjà établie (dans les deux sens) |
 | RELATED | Connexion liée (ex: FTP data, ICMP errors) |
 | INVALID | Paquet ne correspondant à aucun état connu |
+
+> [!important] Pourquoi ESTABLISHED,RELATED est la règle qui simplifie tout
+> Sans suivi d'état, il faudrait écrire une règle explicite pour chaque flux de retour possible sur chaque port éphémère utilisé côté client. Avec conntrack, une seule règle `ESTABLISHED,RELATED -j ACCEPT` autorise tout le trafic de retour légitime d'une connexion initiée en sortie, sans jamais avoir à ouvrir un port entrant pour ça — c'est ce qui permet une politique `INPUT DROP` par défaut sans casser les connexions normales.
 
 ```bash
 # Permettre les connexions établies (retour du trafic légitime)

@@ -104,7 +104,8 @@ Pensée : Maintenant je peux calculer...
 | **Max tokens** | — | Limite la longueur de la réponse |
 | **Stop sequences** | — | Arrêter la génération à certains tokens |
 
-**Règle pratique** : pour des tâches factuelles → temperature basse (0-0.3). Pour des tâches créatives → temperature plus haute (0.7-1.0).
+> [!tip] Règle pratique
+> Pour des tâches factuelles → temperature basse (0-0.3). Pour des tâches créatives → temperature plus haute (0.7-1.0).
 
 ### Pièges Courants
 
@@ -128,7 +129,8 @@ Bon     : "Liste 5 avantages de Linux pour les développeurs.
            Format : tableau markdown avec colonnes Avantage | Description | Exemple."
 ```
 
-**Ignorer les contraintes de contexte** : les LLM ont des fenêtres de contexte limitées — envoyer trop de texte dégrade la qualité sur les dernières parties.
+> [!warning] Ignorer les contraintes de contexte
+> Les LLM ont des fenêtres de contexte limitées, et même en dessous de cette limite, la qualité d'attention se dégrade sur l'information noyée au milieu d'un contexte très long ("lost in the middle") — envoyer trop de texte dilue la pertinence des passages qui comptent vraiment, plutôt que de simplement "donner plus de contexte".
 
 ### Évaluation des Prompts
 

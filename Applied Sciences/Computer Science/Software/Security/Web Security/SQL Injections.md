@@ -22,6 +22,9 @@ Une application vulnérable construit sa requête SQL en collant directement l'e
 query = "SELECT * FROM users WHERE username = '" + username + "'"
 ```
 
+> [!important] Idée clé
+> La requête n'est vulnérable que parce que l'entrée utilisateur devient elle-même une partie du **code SQL** au lieu de rester une simple donnée. Échapper les caractères spéciaux réduit le risque mais ne change pas cette confusion fondamentale — seules les requêtes paramétrées séparent réellement code et données.
+
 Si l'utilisateur tape `admin' OR '1'='1`, la requête devient :
 ```sql
 SELECT * FROM users WHERE username = 'admin' OR '1'='1'
@@ -45,6 +48,9 @@ SELECT * FROM users WHERE username = 'admin' OR '1'='1'
 
 ### Out-of-band
 Extraire les données via un canal différent (DNS, HTTP vers un serveur contrôlé).
+
+> [!warning] Piège fréquent
+> Une application "sans message d'erreur SQL visible" n'est pas forcément sûre — le blind SQLi (boolean ou time-based) n'a besoin d'aucune sortie visible pour extraire des données bit par bit. L'absence de retour direct ne veut pas dire absence de vulnérabilité.
 
 
 ## Exemples d'exploits classiques
@@ -71,6 +77,9 @@ admin'--
 ' UNION SELECT LOAD_FILE('/etc/passwd'), NULL --
 ```
 
+
+> [!tip] Méthode de test rapide
+> Sur chaque paramètre, tester dans l'ordre : un guillemet simple seul (`'`) pour provoquer une erreur SQL visible, puis `' OR '1'='1` pour un bypass logique, puis `' AND SLEEP(5)--` pour confirmer en aveugle si les deux premiers ne donnent rien.
 
 ## Impacts d'une injection SQL réussie
 

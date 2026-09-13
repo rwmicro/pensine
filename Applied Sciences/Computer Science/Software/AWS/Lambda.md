@@ -16,6 +16,9 @@ Lambda est le service de calcul serverless d'AWS. On déploie du code (fonctions
 
 **Modèle d'exécution** : chaque invocation de Lambda peut s'exécuter sur une instance fraîche (cold start) ou réutiliser une instance déjà initialisée (warm start). Lambda gère automatiquement le scaling de 0 à des milliers d'instances simultanées.
 
+> [!important] Stateless et idempotent, pas par choix mais par contrainte
+> Rien ne garantit qu'une invocation retombe sur la même instance que la précédente, ni même qu'elle ne soit exécutée qu'une seule fois (retry automatique en cas d'erreur asynchrone). Une fonction qui suppose l'inverse — stocker un état en mémoire, ou traiter deux fois la même commande comme une erreur — finira par produire des bugs difficiles à reproduire en local.
+
 ## Déclencheurs (Triggers)
 
 Lambda peut être invoqué par de nombreux services AWS :
@@ -131,9 +134,15 @@ Resources:
 
 **Mémoire** : de 128 Mo à 10 Go. La puissance CPU allouée est proportionnelle à la mémoire. Doubler la mémoire double le CPU mais double aussi le coût par milliseconde. À tester pour trouver le bon compromis.
 
+> [!tip] Contre-intuitif mais fréquent
+> Augmenter la mémoire allouée peut **réduire** la facture totale : si le CPU supplémentaire divise le temps d'exécution par plus que le facteur de coût, le coût total (durée × prix par Go-seconde) baisse. Toujours mesurer plutôt que supposer qu'allouer moins de mémoire est automatiquement moins cher.
+
 **Timeout** : maximum 15 minutes (900 s). Pour les traitements longs, préférer une architecture asynchrone (SQS + Lambda + Step Functions).
 
 **Stockage temporaire /tmp** : jusqu'à 10 Go. Persistant pendant la durée de vie de l'instance Lambda (warm invocations). Réinitialisé sur les cold starts.
+
+> [!warning] Piège
+> `/tmp` peut sembler persistant en test (plusieurs invocations qui retrouvent le même fichier sur une instance warm) — mais ce comportement disparaît dès qu'un cold start survient ou qu'AWS route l'invocation vers une autre instance. Ne jamais s'appuyer sur `/tmp` pour autre chose qu'un cache éphémère reconstructible.
 
 ## Lifecycle — Cold start vs Warm start
 

@@ -72,6 +72,9 @@ Initiateur → Autre : ACK
 
 **Implications sécurité** : UDP ne valide pas l'IP source → utilisé pour les attaques d'amplification DDoS (DNS amplification, NTP monlist, Memcached).
 
+> [!important] Pourquoi UDP est exploitable pour l'amplification
+> UDP n'a pas de handshake : contrairement à TCP où falsifier la source empêche de recevoir la réponse (le SYN-ACK part vers la vraie IP falsifiée, pas vers l'attaquant), un attaquant en UDP peut usurper l'IP de la victime et faire répondre un service tiers directement vers elle. C'est cette absence de connexion, pas juste "UDP est moins sécurisé", qui rend l'amplification possible.
+
 ## Fonctions de la couche Transport
 
 La couche Transport (couche 4 du modèle OSI) assure la communication de bout en bout entre processus applicatifs.
@@ -299,6 +302,9 @@ Client → Serveur : Finished
 - `TLS_AES_128_GCM_SHA256`
 
 **TLS 1.2 et antérieur** : déprécié (SHA-1, RC4, export ciphers). PCI DSS exige TLS 1.2 minimum depuis 2018.
+
+> [!warning] Piège fréquent
+> "TLS activé" ne veut pas dire "TLS sécurisé" — un serveur peut accepter TLS 1.0 avec RC4 tout en affichant un cadenas dans le navigateur. Toujours vérifier la version et les suites cryptographiques négociées (`nmap --script ssl-enum-ciphers`), pas seulement la présence de HTTPS.
 
 **Vérification** :
 ```bash

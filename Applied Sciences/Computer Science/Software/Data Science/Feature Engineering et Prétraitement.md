@@ -5,9 +5,7 @@ subdomain: informatique / machine-learning
 tags: [feature-engineering, prétraitement, normalisation, données, machine-learning]
 date: 2026-03-22
 ---
-
 # Feature Engineering et Prétraitement des Données
-
 Le feature engineering est souvent plus déterminant que le choix de l'algorithme. Un bon feature engineering peut transformer un modèle médiocre en un excellent modèle ; un mauvais peut rendre inutile le meilleur des algorithmes.
 
 ## Pipeline de prétraitement
@@ -125,6 +123,9 @@ Assigne un entier à chaque catégorie : `rouge=0`, `vert=1`, `bleu=2`.
 **Usage :** variables ordinales (taille: S < M < L < XL) ou arbres de décision (insensibles à l'ordre arbitraire).
 **Attention :** induit un ordre artificiel, incompatible avec la régression logistique.
 
+> [!warning] Piège fréquent
+> Appliquer le Label Encoding à une variable **nominale** (sans ordre naturel, ex: couleur) fait croire au modèle qu'il existe une relation d'ordre (`bleu=2 > rouge=0`) là où il n'y en a aucune. Un modèle linéaire ou une régression logistique interprétera cet ordre artificiel comme un signal — réserver le Label Encoding aux variables ordinales ou aux modèles à base d'arbres.
+
 ### Target Encoding
 
 Remplace chaque catégorie par la moyenne de la variable cible pour cette catégorie.
@@ -171,7 +172,8 @@ robust = RobustScaler()
 X_robust = robust.fit_transform(X_train)
 ```
 
-**Règle critique** : `fit` uniquement sur le train set, `transform` sur train et test. Sinon data leakage.
+> [!warning] Règle critique
+> `fit` uniquement sur le train set, `transform` sur train et test. Appliquer `fit_transform` sur l'ensemble des données avant de splitter fait fuiter des statistiques du test set (moyenne, min/max) dans l'entraînement — un data leakage discret mais réel.
 
 ## Feature Engineering
 
@@ -301,7 +303,8 @@ model = RandomForestClassifier(class_weight='balanced')
 
 ## Erreurs courantes (Data Leakage)
 
-Le data leakage se produit lorsque des informations du futur contaminent l'entraînement.
+> [!important] Idée clé
+> Le data leakage se produit lorsque des informations du futur — ou du test set — contaminent l'entraînement.
 
 | Type | Exemple | Solution |
 |---|---|---|

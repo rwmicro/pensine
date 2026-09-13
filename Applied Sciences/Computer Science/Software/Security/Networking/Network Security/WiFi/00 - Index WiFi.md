@@ -12,7 +12,7 @@ Cartographie complète du domaine WiFi — fondamentaux, attaques offensives, ou
 ## Théorie
 
 - [[01 - Fondamentaux 802.11]] — Standards, trames, bandes, modes d'authentification, protocoles de sécurité
-- [[09 - WPA3 et Vulnérabilités Modernes]] — SAE, OWE, KRACK, Dragonblood, FragAttacks
+- [[09 - WPA3 et Vulnérabilités Modernes]] — SAE, OWE, KRACK, Dragonblood, FragAttacks, Kr00k, bypass OCV, TWT sleep deprivation
 
 ## Reconnaissance
 
@@ -22,9 +22,10 @@ Cartographie complète du domaine WiFi — fondamentaux, attaques offensives, ou
 
 - [[03 - Attaques WPA2-PSK]] — Capture handshake, PMKID, cracking aircrack/hashcat, WEP
 - [[04 - Attaques WPS]] — Reaver, Bully, Pixie Dust, Wash
-- [[05 - Evil Twin et Phishing]] — Rogue AP, captive portal, fluxion, wifiphisher
+- [[05 - Evil Twin et Phishing]] — Rogue AP, captive portal, fluxion, wifiphisher, TunnelCrack, bypass portail captif
 - [[06 - Attaques WPA2-Enterprise]] — eaphammer, hostapd-wpe, Karma/MANA, PEAP-MSCHAPv2
-- [[07 - DoS et MDK4]] — Deauth, beacon flood, auth flood, WIDS confusion
+- [[07 - DoS et MDK4]] — Deauth, beacon flood, auth flood, WIDS confusion, CSA flood
+- [[12 - Contournement Isolation Client (AirSnitch)]] — Abus GTK, gateway bouncing, vol de port L2, broadcast reflection
 
 ## Frameworks et automatisation
 

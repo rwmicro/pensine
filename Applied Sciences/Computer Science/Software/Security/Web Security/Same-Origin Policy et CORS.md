@@ -12,6 +12,9 @@ date: 2026-03-22
 
 La Same-Origin Policy est le mécanisme de sécurité fondamental des navigateurs. Elle empêche un script d'une origine d'accéder aux ressources d'une autre origine.
 
+> [!important] SOP vs CORS
+> La SOP est la restriction par défaut (bloquer). CORS est le mécanisme qui **assouplit** cette restriction quand le serveur le demande explicitement. Une mauvaise configuration CORS n'est donc jamais un bug du navigateur — c'est toujours le serveur qui a explicitement autorisé ce qui n'aurait pas dû l'être.
+
 ### Définition d'une origine
 
 Deux URLs partagent la même origine si et seulement si le **schéma**, le **domaine** et le **port** sont identiques.
@@ -157,6 +160,9 @@ def add_cors(response):
     return response
 ```
 
+> [!warning] Piège fréquent
+> Refléter dynamiquement l'`Origin` reçu semble pratique pour "supporter plusieurs domaines" sans maintenir de liste — mais ça revient à autoriser **toutes** les origines tout en gardant l'illusion d'une restriction, puisque `Access-Control-Allow-Origin` accepte alors n'importe quelle valeur envoyée par l'attaquant. Seule une whitelist explicite (comparaison stricte) protège réellement.
+
 ```javascript
 // Exploitation depuis evil.com
 fetch('https://api.victime.com/profile', {
@@ -214,6 +220,9 @@ Access-Control-Allow-Credentials: true
 ```
 
 ## Test et détection
+
+> [!tip] Méthode de test
+> Envoyer des `Origin` volontairement suspectes (un domaine totalement étranger, `null`, une variation proche du domaine légitime) et vérifier si `Access-Control-Allow-Origin` les reflète telles quelles dans la réponse — c'est le signal direct d'une validation absente ou trop permissive.
 
 ```bash
 # Test de reflection d'origin

@@ -35,6 +35,9 @@ Un hyperviseur est un logiciel qui permet à une machine physique (Physical Mach
 
 Le SDN sépare le **plan de contrôle** (control plane) du **plan de données** (data plane) pour accroître la flexibilité et permettre l'automatisation.
 
+> [!important] Idée clé
+> Dans un réseau traditionnel, chaque équipement calcule ses propres décisions de routage indépendamment (plan de contrôle distribué). Le SDN centralise ce calcul dans un contrôleur unique qui pousse ensuite les règles de forwarding vers les équipements — ceux-ci ne font plus qu'exécuter des instructions, sans plus décider eux-mêmes. C'est cette centralisation qui permet de programmer le comportement du réseau entier depuis un seul point.
+
 ### Plans d'un équipement réseau
 
 **Plan de contrôle** : "cerveau" de l'équipement. Détermine le forwarding des paquets. Contient les tables de routage (IPv4/IPv6), les tables de topologie OSPF/EIGRP, les tables STP, les tables ARP. Traité par le CPU.
@@ -85,6 +88,9 @@ Ansible est l'un des outils d'automatisation réseau les plus utilisés. Il perm
 - Communication via SSH (pas d'agent sur les nœuds gérés)
 - Idempotence : un playbook peut être rejoué sans effet négatif sur un système déjà configuré
 - Playbooks écrits en YAML, lisibles et auto-documentés
+
+> [!tip] Pourquoi l'idempotence compte
+> Un playbook idempotent peut être rejoué en toute sécurité après un échec partiel, une dérive de configuration, ou juste pour vérifier l'état — sans risque de dupliquer une règle ou de casser une config déjà correcte. C'est ce qui distingue l'automatisation déclarative (« voici l'état voulu ») d'un script impératif (« exécute ces commandes »), qui lui rejouerait bêtement chaque action à chaque exécution.
 
 ```yaml
 # Exemple de playbook Ansible

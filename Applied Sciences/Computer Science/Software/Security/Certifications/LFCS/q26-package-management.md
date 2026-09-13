@@ -4,13 +4,12 @@
 
 Un gestionnaire de paquets installe des logiciels, **résout leurs dépendances** et trace ce qui appartient à quoi. L'examen LFCS laisse choisir la distribution : il faut connaître les **deux familles**.
 
-**Modèle mental : deux niveaux par famille.**
-
-```
-                 haut niveau (réseau, dépôts, dépendances)   bas niveau (un paquet local)
-Debian/Ubuntu :  apt / apt-get                                dpkg
-RHEL/Fedora   :  dnf (ex-yum)                                 rpm
-```
+> [!tip] Modèle mental : deux niveaux par famille
+> ```
+>                  haut niveau (réseau, dépôts, dépendances)   bas niveau (un paquet local)
+> Debian/Ubuntu :  apt / apt-get                                dpkg
+> RHEL/Fedora   :  dnf (ex-yum)                                 rpm
+> ```
 
 L'outil **haut niveau** (`apt`, `dnf`) parle aux **dépôts** distants, télécharge et résout les dépendances automatiquement. L'outil **bas niveau** (`dpkg`, `rpm`) manipule un paquet déjà présent et **n'installe pas** les dépendances — il sert surtout à *interroger* le système.
 
@@ -33,11 +32,11 @@ Les deux questions « qui possède ce fichier » et « quels fichiers ce paquet 
 - Debian : `/etc/apt/sources.list` + `/etc/apt/sources.list.d/*.list`.
 - RHEL : `/etc/yum.repos.d/*.repo`.
 
-**Pièges** :
-- `dpkg`/`rpm` n'installent **pas** les dépendances → un `dpkg -i x.deb` peut laisser des dépendances cassées (réparer avec `apt -f install`).
-- Sur Debian, lancer `apt update` (rafraîchir l'index) avant `apt install`, sinon versions périmées.
-- Un logiciel compilé depuis les sources échappe au gestionnaire (voir [[q15-build-and-install-from-source]]).
-- `apt remove` garde les fichiers de config ; `apt purge` les efface aussi.
+> [!warning] Pièges
+> - `dpkg`/`rpm` n'installent **pas** les dépendances → un `dpkg -i x.deb` peut laisser des dépendances cassées (réparer avec `apt -f install`).
+> - Sur Debian, lancer `apt update` (rafraîchir l'index) avant `apt install`, sinon versions périmées.
+> - Un logiciel compilé depuis les sources échappe au gestionnaire (voir [[q15-build-and-install-from-source]]).
+> - `apt remove` garde les fichiers de config ; `apt purge` les efface aussi.
 
 ## Énoncé
 

@@ -15,6 +15,9 @@ L'**ARP Poisoning** (ou ARP Spoofing) est une attaque réseau qui consiste à en
 
 Le protocole ARP n'a **aucun mécanisme d'authentification**. N'importe quelle machine sur le réseau peut envoyer une réponse ARP, et les autres machines la croiront sans vérification.
 
+> [!important] Idée clé
+> Ce n'est pas une faille dans une implémentation particulière — c'est le protocole ARP lui-même, conçu dans les années 1980 pour un réseau de confiance, qui n'a jamais prévu de mécanisme de vérification. Aucun correctif logiciel ne peut "réparer" ARP ; seules des mesures externes (DAI, 802.1X, chiffrement) compensent cette absence structurelle.
+
 
 ## Ce que ça permet : l'attaque MITM
 
@@ -81,6 +84,9 @@ wireshark capture.pcap
 ## SSL Stripping
 
 Pour contourner HTTPS, l'attaquant peut tenter un **SSL Stripping** : dégrader la connexion HTTPS en HTTP entre la victime et lui-même, tout en maintenant HTTPS avec le serveur.
+
+> [!warning] Piège fréquent
+> SSL Stripping ne fonctionne que si la victime tape l'URL sans `https://` ou clique un lien HTTP — un site qui force la redirection HTTPS dès la première visite reste vulnérable à ce tout premier échange non protégé. Seul HSTS avec préchargement (`preload`, intégré aux listes des navigateurs) élimine cette fenêtre, puisque le navigateur refuse alors HTTP sans même essayer.
 
 Contre-mesure : **HSTS** (HTTP Strict Transport Security) — le navigateur refuse les connexions HTTP sur les domaines déclarés HSTS.
 

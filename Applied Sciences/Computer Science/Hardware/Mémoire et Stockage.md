@@ -26,6 +26,9 @@ Vitesse ↓      Stockage réseau (NAS) ~ms         Illimité       Coût ↓↓
 
 Principe fondamental : on essaie de garder les données fréquemment utilisées dans les niveaux les plus rapides (caches).
 
+> [!important] Idée clé
+> Chaque niveau de la hiérarchie n'existe que parce que le niveau plus rapide au-dessus est trop cher/petit pour tout contenir — la hiérarchie mémoire est un compromis économique autant que technique. Cache-t-on plus de données rapidement accessibles ? On paie en coût par Go. Veut-on du stockage massif bon marché ? On paie en latence.
+
 ## RAM — Mémoire vive
 
 La RAM (Random Access Memory) est la mémoire principale de l'ordinateur. Elle est volatile (les données sont perdues à l'extinction).
@@ -128,6 +131,9 @@ Les SSD stockent les données dans des cellules NAND flash. Chaque cellule mémo
 
 Le goulot d'étranglement de SATA est le protocole lui-même (conçu pour les HDD). NVMe (Non-Volatile Memory Express) est un protocole conçu spécifiquement pour les SSD.
 
+> [!tip] Méthode
+> HDD pour le stockage froid à très bas coût par Go (archives, gros volumes rarement lus) ; SATA SSD pour un compromis prix/vitesse correct ; NVMe pour tout ce qui est sensible à la latence (système, bases de données, jeux).
+
 ## HDD — Hard Disk Drive
 
 Stockage magnétique rotatif. Les données sont stockées sous forme de magnétisation sur des plateaux métalliques tournant à 5400-15000 RPM.
@@ -162,6 +168,9 @@ RAID (Redundant Array of Independent Disks) combine plusieurs disques pour amél
 **Reconstruction** : après remplacement d'un disque défaillant en RAID 5/6, le RAID se reconstruit en recalculant les données manquantes. Pendant la reconstruction, le risque de défaillance d'un second disque est élevé (plusieurs heures/jours pour les grands volumes). C'est pourquoi RAID 6 est préféré pour les grands volumes.
 
 **RAID n'est pas une sauvegarde** : le RAID protège contre une panne matérielle, pas contre les suppressions accidentelles, les corruptions logicielles ou les sinistres.
+
+> [!warning] Piège
+> Un `rm -rf` accidentel ou un ransomware se propage identiquement sur tous les disques d'un RAID (miroir ou parité) — la redondance RAID protège contre la panne d'un disque physique, pas contre une erreur logique qui s'écrit sur tous les disques à la fois. Seule une vraie sauvegarde (hors ligne ou versionnée) protège de ce scénario.
 
 ## Stockage Cloud et en réseau
 

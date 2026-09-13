@@ -10,6 +10,9 @@ date: 2026-03-22
 
 GraphQL est un langage de requête pour API qui remplace REST. Sa flexibilité et sa puissance introduisent des vecteurs d'attaque spécifiques absents des API REST classiques.
 
+> [!important] Pourquoi GraphQL change la donne
+> En REST, chaque endpoint est un point d'attaque séparé à découvrir. En GraphQL, un **seul endpoint** expose potentiellement tout le graphe de données de l'application — la difficulté se déplace de "trouver les endpoints" à "comprendre la profondeur et la complexité de ce qu'on peut demander en une requête".
+
 ## Rappel GraphQL
 
 ```graphql
@@ -91,6 +94,9 @@ inql -t https://target.com/graphql -o ./graphql_schema/
 curl "https://target.com/graphql?query=%7B__schema%7Btypes%7Bname%7D%7D%7D"
 ```
 
+> [!warning] Piège fréquent
+> Désactiver l'introspection donne une fausse impression que le schéma est caché. Les suggestions d'erreur ("Did you mean 'user'?") permettent de le reconstruire champ par champ (voir Clairvoyance ci-dessous) — désactiver l'introspection réduit la surface de découverte facile, mais n'est pas une protection contre un attaquant déterminé.
+
 ## IDOR et BOLA via GraphQL
 
 ```graphql
@@ -159,6 +165,9 @@ curl -X POST https://target.com/graphql \
   a3: login(username: "admin", password: "pass3") { token }
 }
 ```
+
+> [!tip] Méthode de reconnaissance
+> Toujours commencer par l'introspection (ou Clairvoyance si désactivée) pour obtenir la carte complète du schéma avant de chercher des failles spécifiques — contrairement à REST où l'énumération d'endpoints est le point de départ.
 
 ## Nested Queries — DOS par profondeur
 

@@ -109,6 +109,9 @@ Solutions : stall (attendre), forwarding/bypassing (transmettre le résultat dir
 
 Solution : prédiction de branchement. Le CPU prédit si un branchement sera pris ou non et continue à remplir le pipeline. En cas d'erreur de prédiction : flush du pipeline + pénalité de 10-20 cycles. Les CPUs modernes ont des prédicteurs avec > 95% de précision.
 
+> [!important] Idée clé
+> Les trois types de hazards ont la même cause profonde : le pipeline suppose que les instructions sont indépendantes et peuvent avancer en parallèle. Dès qu'une dépendance réelle existe (donnée, branchement, ressource), cette hypothèse se brise et le CPU doit soit attendre, soit deviner.
+
 **Aléa structurel (Structural Hazard)** : deux instructions veulent utiliser la même ressource matérielle simultanément.
 
 Solution : duplication des ressources (plusieurs ALUs, ports mémoire).
@@ -127,6 +130,9 @@ Solution : duplication des ressources (plusieurs ALUs, ports mémoire).
 
 Note : les CPUs x86-64 modernes (Intel, AMD) traduisent en interne les instructions CISC complexes en micro-opérations RISC-like. Le x86-64 visible est CISC, mais l'exécution interne est RISC.
 
+> [!tip] Méthode
+> RISC vs CISC n'est plus vraiment un choix de conception aujourd'hui vu la convergence interne — la question pertinente est plutôt le rapport performance/watt (ARM domine en mobile) vs l'écosystème logiciel existant (x86 domine sur desktop/serveur par inertie historique, pas par supériorité technique intrinsèque).
+
 ## Superscalarité et Out-of-Order Execution
 
 ### Superscalarité
@@ -140,6 +146,9 @@ Le CPU réordonne les instructions pour minimiser les stalls, tout en respectant
 ### Exécution spéculative
 
 Le CPU exécute des instructions "à l'avance" sans être sûr qu'elles seront nécessaires (prédiction de branchement, spéculation de mémoire). Si la prédiction était fausse, les résultats sont annulés. C'est à l'origine des failles Spectre et Meltdown (2018).
+
+> [!warning] Piège
+> "Annuler les résultats" d'une exécution spéculative fausse n'efface pas tous les effets de bord — l'état du cache, lui, reste modifié par l'instruction spéculative avant l'annulation. Spectre/Meltdown exploitent précisément cette fuite : mesurer les temps d'accès au cache révèle indirectement des données qui n'auraient jamais dû être lues.
 
 ## Niveaux de cache
 

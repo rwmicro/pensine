@@ -10,6 +10,9 @@ date: 2026-03-22
 
 Le subdomain takeover se produit quand un sous-domaine pointe (via CNAME) vers un service externe qui n'est plus actif. Un attaquant peut alors revendiquer ce service et prendre le contrôle du sous-domaine.
 
+> [!important] Différence avec les autres failles web
+> Ce n'est pas un bug dans le code de l'application — c'est une faille **d'hygiène DNS/infrastructure** : un enregistrement DNS oublié après la suppression d'un service tiers. Aucun scanner de code source ne la détecte ; elle se trouve en auditant les enregistrements DNS eux-mêmes.
+
 ## Mécanisme
 
 ```
@@ -100,6 +103,9 @@ def check_takeover(subdomain):
         pass
     return False
 ```
+
+> [!tip] Méthode de détection
+> S'appuyer sur des empreintes connues (voir tableau ci-dessus) plutôt que de deviner : chaque service a un message d'erreur caractéristique quand la ressource référencée par le CNAME n'existe plus. Croiser la résolution CNAME avec ces empreintes automatise la détection à grande échelle sur une liste de sous-domaines.
 
 ## Exploitation
 
@@ -201,3 +207,6 @@ dig +short CNAME staging.example.com | xargs -I{} curl -s https://{} | grep -i "
 # 2. Puis supprimer le service externe
 # (jamais l'inverse)
 ```
+
+> [!warning] Piège fréquent
+> L'ordre des opérations lors d'une décommission est ce qui crée la faille : supprimer le service externe **avant** le CNAME laisse une fenêtre — même courte — où le sous-domaine pointe vers une ressource libre à réclamer. Inverser l'ordre (DNS d'abord) élimine la fenêtre d'exposition.

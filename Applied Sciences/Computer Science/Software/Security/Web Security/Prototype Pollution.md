@@ -10,6 +10,9 @@ date: 2026-03-22
 
 Le Prototype Pollution est une vulnérabilité spécifique à JavaScript qui permet de modifier le prototype d'objets de base (`Object.prototype`), affectant tous les objets de l'application. Elle peut mener à la modification de comportement de l'application, des bypass d'authentification, ou du RCE côté serveur (Node.js).
 
+> [!important] Ce qui la rend unique
+> Contrairement à une injection classique qui affecte une requête ou un objet précis, polluer `Object.prototype` affecte **tous les objets de l'application, présents et futurs**, y compris ceux créés bien après l'attaque et sans rapport apparent avec elle — c'est ce qui rend l'impact difficile à circonscrire.
+
 ## Modèle de prototype JavaScript
 
 ```javascript
@@ -93,6 +96,9 @@ payload.constructor.prototype.isAdmin = true;
 {"constructor": {"prototype": {"isAdmin": true}}}
 ```
 
+> [!warning] Piège fréquent
+> Filtrer uniquement la clé `__proto__` dans une fonction de merge ne suffit pas — `constructor.prototype` atteint exactement le même objet global par un chemin différent. Toute défense doit bloquer les deux vecteurs (et idéalement toute clé commençant par `__`).
+
 ## Impacts côté client (navigateur)
 
 ### Bypass d'authentification
@@ -164,6 +170,9 @@ Object.prototype.__defineGetter__ = function(prop, func) { return func(); };
 ```
 
 ## Détection
+
+> [!tip] Méthode de détection
+> Envoyer un payload polluant une clé arbitraire (`{"__proto__": {"test": "123"}}`), puis effectuer une requête totalement indépendante qui renvoie un objet vide (`{}`). Si `test` apparaît sur cet objet sans rapport, la pollution a réussi et affecte bien tout le processus.
 
 ```bash
 # Test manuel dans Burp — ajouter __proto__ dans la requête

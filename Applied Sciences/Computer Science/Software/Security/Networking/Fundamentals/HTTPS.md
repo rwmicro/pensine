@@ -20,6 +20,9 @@ Sans HTTPS, tout ce que tu envoies sur un site web voyage en **clair** sur le r�
 
 HTTPS **chiffre** la communication pour que même intercepté, le trafic soit illisible.
 
+> [!important] Ce que HTTPS ne protège pas
+> HTTPS garantit la confidentialité et l'intégrité du **contenu**, mais pas l'anonymat de la connexion : l'IP de destination reste visible sur le réseau, et sans Encrypted Client Hello (ECH), le nom de domaine visé (SNI) circule aussi en clair pendant le handshake. Un observateur réseau ne lit pas le contenu, mais voit souvent quel site est contacté.
+
 
 ## Comment ça fonctionne
 
@@ -63,6 +66,9 @@ C'est la **carte d'identité** du serveur. Il contient :
 - La signature d'une **CA** (Certificate Authority) de confiance — ex: Let's Encrypt, DigiCert
 
 Sans certificat valide → le navigateur affiche un avertissement "Connexion non sécurisée".
+
+> [!warning] Piège fréquent
+> Cliquer sur "Continuer quand même" face à un avertissement de certificat n'est pas une simple formalité : ça désactive la seule vérification qui garantit que le serveur en face est bien celui attendu. C'est exactement le scénario qu'exploite une attaque MITM avec un certificat auto-signé.
 
 
 ## HTTP vs HTTPS en pratique

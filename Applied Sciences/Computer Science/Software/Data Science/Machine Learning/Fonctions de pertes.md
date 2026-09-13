@@ -39,6 +39,9 @@ graph TD
     style LOGLOSS fill:#E91E63,color:#fff
 ```
 
+> [!important] Idée clé
+> La fonction de perte définit ce que le modèle considère comme une "bonne" prédiction pendant l'entraînement — deux modèles avec la même architecture mais des pertes différentes optimisent des objectifs différents. Le choix n'est jamais neutre : il détermine notamment la sensibilité aux outliers (MSE vs MAE) et la façon dont les erreurs rares sont traitées (Cross-Entropy vs Focal Loss).
+
 ## 1. Erreur quadratique moyenne (Mean Squared Error, MSE)
 
 - **Définition** : La MSE mesure la moyenne des carrés des erreurs, c’est-à-dire la différence entre les valeurs prédites et les valeurs réelles.
@@ -92,6 +95,9 @@ graph TD
 - **Avantages** : Fournit une mesure asymétrique de la divergence entre deux distributions.
 - **Inconvénients** : Peut être infinie si Q(i) = 0 et P(i) ≠ 0.
 
+> [!warning] Piège fréquent
+> La KL Divergence n'est **pas symétrique** : $D_{KL}(P \| Q) \neq D_{KL}(Q \| P)$ en général. Le sens compte — dans un VAE, on calcule $D_{KL}(q(z|x) \| p(z))$ et pas l'inverse, ce qui n'est pas un détail de notation mais change ce qui est réellement pénalisé (voir [[Autoencoders]]).
+
 ## 6. Huber Loss
 
 - **Définition** : Combine les avantages de la MSE et de la MAE, étant quadratique pour les petites erreurs et linéaire pour les grandes erreurs.
@@ -138,6 +144,9 @@ $$L = (1-y) \frac{1}{2}D^2 + y \cdot \frac{1}{2}\max(0, m-D)^2$$
 $$L = \max(0, \|f_a - f_p\|^2 - \|f_a - f_n\|^2 + \alpha)$$
 
 **Utilisé dans** : FaceNet, Siamese networks, recherche d'images similaires.
+
+> [!tip] Lien avec les embeddings modernes
+> C'est exactement le principe d'entraînement des modèles d'embedding de texte modernes (voir [[Embeddings]]) : rapprocher les paires sémantiquement liées, éloigner les paires non liées. Contrastive Loss et Triplet Loss ne sont pas propres à la vision.
 
 ## Implémentation PyTorch
 

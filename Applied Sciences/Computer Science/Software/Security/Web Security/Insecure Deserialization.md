@@ -22,6 +22,9 @@ l'application peut reconstruire un objet malveillant.
 
 Les "gadget chains" sont des séquences d'appels de méthodes légitimes déclenchées automatiquement lors de la désérialisation (constructeurs, `__wakeup__`, `readObject`) qui, enchaînées, produisent un effet malveillant.
 
+> [!important] Différence avec les autres injections
+> Ici, aucun code "malveillant" n'est injecté au sens strict : l'attaquant assemble des appels à du **code déjà présent et légitime** dans les bibliothèques chargées par l'application (d'où "gadget chain"). C'est pour ça que la protection ne peut pas reposer sur la détection de payloads connus — il faut empêcher la désérialisation non fiable elle-même.
+
 ## Java
 
 ### Format natif (ObjectInputStream)
@@ -182,6 +185,9 @@ JSON    : @class, @type, $type (hints de type pour Jackson, Gson, Json.NET)
 XML     : xsi:type="" dans les attributs (XMLDecoder)
 ```
 
+> [!tip] Méthode d'identification
+> Repérer d'abord le **format de sérialisation** via ces signatures d'octets avant de choisir l'outil de génération de payload (ysoserial, phpggc...) — chaque langage a son propre format et ses propres gadget chains, inutile de tester à l'aveugle.
+
 ### Jackson (Java JSON)
 
 ```java
@@ -212,6 +218,12 @@ public class SafeObjectInputStream extends ObjectInputStream {
         return super.resolveClass(desc);
     }
 }
+```
+
+> [!warning] Piège fréquent
+> Une liste **noire** de classes dangereuses connues (comme certains correctifs rapides) reste contournable dès qu'une nouvelle gadget chain est publiée sur une bibliothèque non encore blacklistée. Seule une liste **blanche** de classes explicitement attendues élimine la classe de vulnérabilité, pas seulement les exploits déjà connus.
+
+```java
 
 // Utiliser des agents de sécurité : SerialKiller, NotSoSerial
 // Agent à ajouter au JVM : -javaagent:serialkiller.jar

@@ -5,7 +5,7 @@ subdomain: "Languages - Dialects"
 tags: [sciences-sociales, langues, typologie, comparaison, grammaire]
 date: "2026-04-28"
 ---
-# Comparaison Typologique — Les 16 Langues du Vault
+# Comparaison Typologique - Les 16 Langues du Vault
 
 Tableau de référence pour comparer les langues du vault selon leurs grandes caractéristiques typologiques. Utile pour repérer les similitudes (transferts positifs) et les différences (zones de difficulté).
 

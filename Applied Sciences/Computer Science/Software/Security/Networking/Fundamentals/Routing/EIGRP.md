@@ -34,6 +34,11 @@ DUAL est l'algorithme qui permet à EIGRP de trouver le meilleur chemin et un ch
 | Reported Distance (RD) | Coût annoncé par un voisin pour atteindre la destination |
 | Condition de faisabilité | RD du FS < FD du Successor actuel |
 
+> [!important] Pourquoi la condition de faisabilité évite les boucles
+> Un Feasible Successor n'est accepté que si sa distance annoncée (RD) est strictement inférieure à la distance actuelle du meilleur chemin (FD) — cela garantit mathématiquement que ce voisin ne route pas déjà via le routeur local pour atteindre la destination. Sans cette condition, on risquerait une boucle de routage entre les deux routeurs.
+
+
+
 ## Métrique EIGRP
 
 La métrique EIGRP est un composite de plusieurs paramètres :
@@ -132,3 +137,6 @@ debug eigrp packets            ! Débogage (attention en production)
 | Standard | Ouvert | Ouvert (RFC 2328) | Cisco (RFC 7868) |
 | Load balancing | Égal seulement | Égal seulement | Égal et inégal |
 | Complexité | Simple | Moyenne | Moyenne |
+
+> [!warning] Piège fréquent
+> Le "AS" dans `router eigrp 10` n'est pas un vrai numéro de système autonome BGP — c'est un identifiant arbitraire qui doit juste être identique sur tous les routeurs EIGRP du même domaine de routage pour qu'ils forment des adjacences. Deux routeurs avec des numéros différents ne deviendront jamais voisins EIGRP, même sur le même lien.

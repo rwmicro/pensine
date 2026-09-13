@@ -10,6 +10,9 @@ date: 2026-03-23
 
 Au-delà du Golden Ticket, Active Directory offre de nombreux mécanismes de persistance qui survivent aux rotations de mots de passe, aux réinitialisations de comptes, et parfois même à la restauration de sauvegardes. Ces techniques ciblent les mécanismes internes d'AD.
 
+> [!important] Idée clé
+> Chaque technique ci-dessous exploite un mécanisme qui existe pour une raison légitime (restauration, réplication, compatibilité) mais qui, une fois détourné, contourne la logique normale de "changer le mot de passe = couper l'accès". Comme le résume la dernière section : aucune persistance n'est parfaitement invisible, seulement plus ou moins bruyante.
+
 ## Skeleton Key
 
 Backdoor du processus LSASS du DC : un mot de passe maître unique fonctionne pour tous les comptes.
@@ -233,13 +236,14 @@ Général :
 
 ## Pièges courants
 
-- **DSRM password change non répliqué** : le compte DSRM (Directory Services Restore Mode) est local au DC. Son hash ne se réplique pas. Donc compromettre un DC ne donne PAS automatiquement DSRM sur les autres. À configurer DC par DC.
-- **Skeleton Key disparaît au reboot** : c'est une modification en mémoire de LSASS. Un redémarrage du DC = perte du Skeleton Key. À combiner avec une persistance qui survit au reboot.
-- **AdminSDHolder backdoor surveillée** : modifier l'ACL d'AdminSDHolder est détecté par les outils comme Purple Knight. Les changements se propagent toutes les heures à tous les comptes protégés → effet "trop visible".
-- **Golden Ticket invalidé par double rotation krbtgt** : si l'admin sait qu'il y a eu compromission et fait `Reset-KrbtgtKeys.ps1` deux fois (la rotation simple ne suffit pas, à cause de l'historique), tous les Golden tombent.
-- **Silver Ticket "infini" mais limité au service** : un Silver Ticket est valide jusqu'à l'expiration configurée (souvent 10 ans), mais seulement sur LE service ciblé. Pour un service-one, c'est durable. Pour un accès large, il en faut plusieurs.
-- **Compte machine "krbtgt fake"** : créer un compte machine personnalisé qu'on contrôle puis l'ajouter aux Domain Admins est une persistance simple mais loggée à la création.
-- **SID History injection** : ajouter un SID Domain Admin dans le SID History d'un compte = accès admin permanent. Mais visible avec `Get-ADUser -Properties SIDHistory`.
-- **Persistance via GPO** : créer une scheduled task dans une GPO appliquée aux DCs = exécution récurrente en SYSTEM. Détectable via audit GPO changes.
-- **Certificate persistence sans validation IdP** : un cert valide émis par AD CS reste exploitable jusqu'à expiration même si le user est désactivé. Toujours révoquer les certs lors d'un offboarding.
-- **Mécanismes "discrets" qui marquent les logs** : presque toutes les techniques de persistance laissent au moins UNE trace (event log, modification AD, ACL changée). La "persistance furtive" parfaite n'existe pas — on choisit le moins détecté pour la durée voulue.
+> [!warning] Pièges courants
+> - **DSRM password change non répliqué** : le compte DSRM (Directory Services Restore Mode) est local au DC. Son hash ne se réplique pas. Donc compromettre un DC ne donne PAS automatiquement DSRM sur les autres. À configurer DC par DC.
+> - **Skeleton Key disparaît au reboot** : c'est une modification en mémoire de LSASS. Un redémarrage du DC = perte du Skeleton Key. À combiner avec une persistance qui survit au reboot.
+> - **AdminSDHolder backdoor surveillée** : modifier l'ACL d'AdminSDHolder est détecté par les outils comme Purple Knight. Les changements se propagent toutes les heures à tous les comptes protégés → effet "trop visible".
+> - **Golden Ticket invalidé par double rotation krbtgt** : si l'admin sait qu'il y a eu compromission et fait `Reset-KrbtgtKeys.ps1` deux fois (la rotation simple ne suffit pas, à cause de l'historique), tous les Golden tombent.
+> - **Silver Ticket "infini" mais limité au service** : un Silver Ticket est valide jusqu'à l'expiration configurée (souvent 10 ans), mais seulement sur LE service ciblé. Pour un service-one, c'est durable. Pour un accès large, il en faut plusieurs.
+> - **Compte machine "krbtgt fake"** : créer un compte machine personnalisé qu'on contrôle puis l'ajouter aux Domain Admins est une persistance simple mais loggée à la création.
+> - **SID History injection** : ajouter un SID Domain Admin dans le SID History d'un compte = accès admin permanent. Mais visible avec `Get-ADUser -Properties SIDHistory`.
+> - **Persistance via GPO** : créer une scheduled task dans une GPO appliquée aux DCs = exécution récurrente en SYSTEM. Détectable via audit GPO changes.
+> - **Certificate persistence sans validation IdP** : un cert valide émis par AD CS reste exploitable jusqu'à expiration même si le user est désactivé. Toujours révoquer les certs lors d'un offboarding.
+> - **Mécanismes "discrets" qui marquent les logs** : presque toutes les techniques de persistance laissent au moins UNE trace (event log, modification AD, ACL changée). La "persistance furtive" parfaite n'existe pas — on choisit le moins détecté pour la durée voulue.

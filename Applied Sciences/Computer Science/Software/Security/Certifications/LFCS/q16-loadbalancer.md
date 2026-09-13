@@ -4,13 +4,12 @@
 
 Un *reverse proxy* reçoit les requêtes des clients et les transmet à un ou plusieurs serveurs en arrière-plan. Quand il répartit la charge entre plusieurs backends, on parle de *load balancer*. Nginx fait les deux.
 
-**Modèle mental : reverse proxy vs load balancer.**
-
-```
-                 ┌──► backend (1 seul)        = reverse proxy
-client ──► nginx ┤
-                 └──► backend A / B / C ...    = load balancer (répartition)
-```
+> [!tip] Modèle mental : reverse proxy vs load balancer
+> ```
+>                  ┌──► backend (1 seul)        = reverse proxy
+> client ──► nginx ┤
+>                  └──► backend A / B / C ...    = load balancer (répartition)
+> ```
 
 - **`proxy_pass`** vers une seule cible = simple transfert (étape « port 8001 → :2222/special »).
 - **`upstream`** (groupe de serveurs) + `proxy_pass` vers ce groupe = répartition de charge (étape « port 8000 »).
@@ -51,11 +50,11 @@ nginx -t                 # TESTER la config avant de recharger (indispensable)
 systemctl reload nginx   # recharger sans coupure
 ```
 
-**Pièges** :
-- **Toujours `nginx -t`** avant `reload` : une faute de syntaxe empêche le rechargement et peut couper le service.
-- Le slash final de `proxy_pass` change le comportement de réécriture de l'URI — attention à `/special`.
-- Sur Debian, ne pas oublier le lien dans `sites-enabled/` ; un fichier dans `sites-available/` seul n'est pas chargé.
-- Ne pas modifier la config des apps existantes (1111/2222) : le LB est une couche au-dessus.
+> [!warning] Pièges
+> - **Toujours `nginx -t`** avant `reload` : une faute de syntaxe empêche le rechargement et peut couper le service.
+> - Le slash final de `proxy_pass` change le comportement de réécriture de l'URI — attention à `/special`.
+> - Sur Debian, ne pas oublier le lien dans `sites-enabled/` ; un fichier dans `sites-available/` seul n'est pas chargé.
+> - Ne pas modifier la config des apps existantes (1111/2222) : le LB est une couche au-dessus.
 
 ## Énoncé
 

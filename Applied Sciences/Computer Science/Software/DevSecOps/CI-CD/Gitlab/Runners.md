@@ -29,6 +29,9 @@ gitlab-runner start
 
 Here is the link from the Official GitLab Documentation for a Linux install : https://docs.gitlab.com/runner/install/linux-manually.html
 
+> [!warning] Piège
+> Un runner partagé/self-hosted exécute le code de n'importe quel job qui lui est assigné avec les droits de son propre utilisateur système — un pipeline malveillant (fork PR, dépendance compromise) peut donc lire tout ce que ce compte peut lire. Isoler les runners par niveau de confiance (projets internes vs forks externes) plutôt que d'en avoir un seul partagé par tout le groupe.
+
 ## Registering your Runner
 
 Once you’ve installed gitlab-runner on your system, you now have to register it as a runner. To do so, follow these steps:

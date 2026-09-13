@@ -10,6 +10,9 @@ date: 2026-03-22
 
 ADCS est l'infrastructure PKI intégrée à Active Directory. Des mauvaises configurations des Certificate Templates permettent d'obtenir des certificats au nom d'autres utilisateurs ou d'usurper des identités jusqu'au Domain Admin. Les vulnérabilités ESC1-ESC8 ont été documentées par Will Schroeder et Lee Christensen (SpectreOps, 2021).
 
+> [!important] Idée clé
+> Toutes les variantes ESC1-ESC8 reviennent à la même question : **qui contrôle l'identité inscrite dans le certificat, et qui peut approuver la requête ?** Un certificat avec Client Authentication vaut un mot de passe — quiconque peut en obtenir un au nom d'un compte cible obtient l'équivalent d'un TGT pour ce compte.
+
 ## Concepts fondamentaux
 
 ```
@@ -313,12 +316,13 @@ Détection :
 
 ## Pièges courants
 
-- **ESC1 vs ESC6 — différence subtile** : ESC1 = template autorise SAN supply (`ENROLLEE_SUPPLIES_SUBJECT`). ESC6 = CA accepte SAN supply globalement (`EDITF_ATTRIBUTESUBJECTALTNAME2`). ESC6 est rare mais permet de bypass des templates non-ESC1.
-- **Manager Approval ou Authorized Signatures** : un template peut sembler vulnérable ESC1 mais nécessiter une approbation manuelle ou une signature d'enrollment agent. Lire la sortie complète de `certipy find`.
-- **Template `User` par défaut** : ne pas confondre avec un template custom modifiable. Les templates par défaut Microsoft sont généralement bien configurés, mais les templates dupliqués pour personnalisation finissent souvent en ESC1.
-- **Persistance via PKINIT** : un certificat émis pour un compte reste valide même si le mot de passe change (jusqu'à expiration du cert). `certipy auth` avec un certificat permet de récupérer le hash NT actuel à chaque utilisation.
-- **ESC8 nécessite SMB Signing désactivé sur le serveur ADCS** : si IIS sur l'ADCS est en HTTPS strict avec EPA, le relay HTTP → HTTPS échoue. Tester `ntlmrelayx --no-validate-privs`.
-- **SAN UPN vs SAN DNS** : pour s'authentifier comme un user, mettre `-upn user@cible.com`. Pour un compte machine, mettre `-dns COMPUTER.cible.com` ET `-upn COMPUTER$@cible.com`. Erreur classique.
-- **Certipy nécessite des heures synchronisées** : Kerberos exige une fenêtre de 5 minutes max d'écart. Si le Kali a une horloge décalée par rapport au DC, `certipy auth` échoue. `ntpdate dc.cible.com`.
-- **CRL et CT logs** : certains environnements monitoring loggent les certificats émis (Certificate Transparency interne). Émettre un cert "admin" = trace dans le CRL. Préférer Shadow Credentials qui ne passe pas par AD CS.
-- **DC Authentication template** : récupérer un cert via `DomainController` template = peut s'authentifier comme le DC$ → DCSync immédiat. Mais aussi très repérable (qui demande un cert DC ?).
+> [!warning] Pièges courants
+> - **ESC1 vs ESC6 — différence subtile** : ESC1 = template autorise SAN supply (`ENROLLEE_SUPPLIES_SUBJECT`). ESC6 = CA accepte SAN supply globalement (`EDITF_ATTRIBUTESUBJECTALTNAME2`). ESC6 est rare mais permet de bypass des templates non-ESC1.
+> - **Manager Approval ou Authorized Signatures** : un template peut sembler vulnérable ESC1 mais nécessiter une approbation manuelle ou une signature d'enrollment agent. Lire la sortie complète de `certipy find`.
+> - **Template `User` par défaut** : ne pas confondre avec un template custom modifiable. Les templates par défaut Microsoft sont généralement bien configurés, mais les templates dupliqués pour personnalisation finissent souvent en ESC1.
+> - **Persistance via PKINIT** : un certificat émis pour un compte reste valide même si le mot de passe change (jusqu'à expiration du cert). `certipy auth` avec un certificat permet de récupérer le hash NT actuel à chaque utilisation.
+> - **ESC8 nécessite SMB Signing désactivé sur le serveur ADCS** : si IIS sur l'ADCS est en HTTPS strict avec EPA, le relay HTTP → HTTPS échoue. Tester `ntlmrelayx --no-validate-privs`.
+> - **SAN UPN vs SAN DNS** : pour s'authentifier comme un user, mettre `-upn user@cible.com`. Pour un compte machine, mettre `-dns COMPUTER.cible.com` ET `-upn COMPUTER$@cible.com`. Erreur classique.
+> - **Certipy nécessite des heures synchronisées** : Kerberos exige une fenêtre de 5 minutes max d'écart. Si le Kali a une horloge décalée par rapport au DC, `certipy auth` échoue. `ntpdate dc.cible.com`.
+> - **CRL et CT logs** : certains environnements monitoring loggent les certificats émis (Certificate Transparency interne). Émettre un cert "admin" = trace dans le CRL. Préférer Shadow Credentials qui ne passe pas par AD CS.
+> - **DC Authentication template** : récupérer un cert via `DomainController` template = peut s'authentifier comme le DC$ → DCSync immédiat. Mais aussi très repérable (qui demande un cert DC ?).

@@ -10,6 +10,9 @@ date: 2026-03-22
 
 Mimikatz est l'outil de référence pour l'extraction de credentials depuis la mémoire Windows. Développé par Benjamin Delpy, il exploite la façon dont Windows stocke les credentials dans LSASS (Local Security Authority Subsystem Service).
 
+> [!important] Idée clé
+> Mimikatz ne casse aucun chiffrement — il lit des secrets que LSASS garde nécessairement en mémoire (en clair ou sous une forme réversible) pour authentifier l'utilisateur sans lui redemander son mot de passe à chaque action. C'est pour ça que Credential Guard (isoler LSASS dans une enclave inaccessible) le neutralise complètement, alors que patcher LSASS ou l'obfusquer non.
+
 ## Prérequis et lancement
 
 ```powershell
@@ -211,13 +214,14 @@ Détection :
 
 ## Pièges courants
 
-- **`sekurlsa::logonpasswords` sans `privilege::debug`** : la commande échoue silencieusement si SeDebugPrivilege n'est pas activé. Toujours `privilege::debug` en premier — succès = "Privilege '20' OK".
-- **WDigest désactivé = pas de cleartext** : depuis Windows 8.1, WDigest est désactivé par défaut. `logonpasswords` ne retourne plus les mots de passe en clair, juste les hashes NT. Activer WDigest via registre (`UseLogonCredential=1`) + reconnexion utilisateur = cleartext de nouveau.
-- **Compiled-in detection** : Defender détecte Mimikatz par signature même obfusqué basique. Pour bypass : compilation custom depuis sources, strings remplacées, ou utiliser `pypykatz` (Python, parse un dump LSASS hors-ligne).
-- **Dump LSASS avec procdump et parser hors-ligne** : `procdump64.exe -ma lsass.exe` puis sur Kali `pypykatz lsa minidump lsass.dmp`. Procdump est signé Microsoft = pas détecté. Approche standard en 2026.
-- **`sekurlsa::pth` ouvre un nouveau processus** : la commande Pass-the-Hash via Mimikatz lance un nouveau `cmd.exe` avec le contexte usurpé. Cela ouvre un cmd visible. Pour furtivité, préférer Impacket depuis Kali.
-- **DCSync depuis un compte non-DA** : possible si l'ACL `Replicating Directory Changes` est accordée. `lsadump::dcsync` ne plante pas, mais peut requérir aussi `Replicating Directory Changes All`. BloodHound révèle qui en dispose.
-- **Golden Ticket avec mauvaise endianness du SID** : le `/sid` doit être au format `S-1-5-21-X-Y-Z` (3 RID), PAS avec le RID final. Erreur classique : copier-coller le SID complet d'un user.
-- **`kerberos::ptt` accepte les .kirbi et .ccache** : selon la version, certains tickets refusent d'être injectés en raison de validation PAC. Vérifier ensuite avec `klist`.
-- **Credential Guard activé = LSASS isolé** : Windows 10/11 Enterprise + Credential Guard chiffre LSASS dans un VTL. Mimikatz ne peut plus lire les secrets. Détectable avec `DeviceGuardSmartStatus` PowerShell.
-- **Mimikatz 32-bit vs 64-bit** : sur un Windows x64, utiliser `mimikatz.exe` (x64). La version x86 ne peut pas dumper LSASS x64.
+> [!warning] Pièges courants
+> - **`sekurlsa::logonpasswords` sans `privilege::debug`** : la commande échoue silencieusement si SeDebugPrivilege n'est pas activé. Toujours `privilege::debug` en premier — succès = "Privilege '20' OK".
+> - **WDigest désactivé = pas de cleartext** : depuis Windows 8.1, WDigest est désactivé par défaut. `logonpasswords` ne retourne plus les mots de passe en clair, juste les hashes NT. Activer WDigest via registre (`UseLogonCredential=1`) + reconnexion utilisateur = cleartext de nouveau.
+> - **Compiled-in detection** : Defender détecte Mimikatz par signature même obfusqué basique. Pour bypass : compilation custom depuis sources, strings remplacées, ou utiliser `pypykatz` (Python, parse un dump LSASS hors-ligne).
+> - **Dump LSASS avec procdump et parser hors-ligne** : `procdump64.exe -ma lsass.exe` puis sur Kali `pypykatz lsa minidump lsass.dmp`. Procdump est signé Microsoft = pas détecté. Approche standard en 2026.
+> - **`sekurlsa::pth` ouvre un nouveau processus** : la commande Pass-the-Hash via Mimikatz lance un nouveau `cmd.exe` avec le contexte usurpé. Cela ouvre un cmd visible. Pour furtivité, préférer Impacket depuis Kali.
+> - **DCSync depuis un compte non-DA** : possible si l'ACL `Replicating Directory Changes` est accordée. `lsadump::dcsync` ne plante pas, mais peut requérir aussi `Replicating Directory Changes All`. BloodHound révèle qui en dispose.
+> - **Golden Ticket avec mauvaise endianness du SID** : le `/sid` doit être au format `S-1-5-21-X-Y-Z` (3 RID), PAS avec le RID final. Erreur classique : copier-coller le SID complet d'un user.
+> - **`kerberos::ptt` accepte les .kirbi et .ccache** : selon la version, certains tickets refusent d'être injectés en raison de validation PAC. Vérifier ensuite avec `klist`.
+> - **Credential Guard activé = LSASS isolé** : Windows 10/11 Enterprise + Credential Guard chiffre LSASS dans un VTL. Mimikatz ne peut plus lire les secrets. Détectable avec `DeviceGuardSmartStatus` PowerShell.
+> - **Mimikatz 32-bit vs 64-bit** : sur un Windows x64, utiliser `mimikatz.exe` (x64). La version x86 ne peut pas dumper LSASS x64.

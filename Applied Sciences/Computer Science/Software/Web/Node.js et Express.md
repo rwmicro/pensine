@@ -34,6 +34,9 @@ Callbacks  I/O Operations (async)
 
 **Moins adapté pour** : calcul intensif CPU (bloque l'event loop), applications nécessitant du parallélisme natif.
 
+> [!warning] Piège
+> Une seule fonction synchrone lourde (tri d'un très gros tableau, calcul cryptographique, boucle CPU-bound) bloque l'event loop **pour toutes les requêtes en cours**, pas seulement celle qui l'a déclenchée — Node.js étant mono-thread pour le JavaScript, aucune autre requête n'est traitée pendant ce calcul. Déporter ce genre de traitement vers un `worker_thread` ou un service séparé plutôt que de l'exécuter dans le thread principal.
+
 ### npm — Node Package Manager
 
 ```bash
@@ -233,6 +236,9 @@ app.use('/api/v1/clients', router);
 
 Le middleware est une fonction `(req, res, next)` qui s'exécute dans le pipeline de traitement de la requête.
 
+> [!important] L'ordre d'enregistrement fait la logique
+> Express exécute les middlewares dans l'ordre exact de leur `app.use()`/`app.get()` — un middleware d'authentification enregistré *après* les routes qu'il est censé protéger ne les protège pas. C'est aussi pourquoi le middleware de gestion des erreurs (4 paramètres) doit être enregistré en dernier : Express le repère à sa signature, mais il ne peut intercepter que les erreurs des middlewares déclarés avant lui.
+
 ```javascript
 // Middleware global (s'applique à toutes les routes)
 app.use((req, res, next) => {
@@ -364,6 +370,9 @@ DATABASE_URL=postgresql://user:pass@localhost:5432/madb
 JWT_SECRET=super_secret_key_changez_moi
 NODE_ENV=development
 ```
+
+> [!warning] Piège
+> Un `.env` non listé dans `.gitignore` dès la création du projet finit presque toujours par être commité une fois, même par accident — et rester dans l'historique git même après suppression du fichier. Ajouter `.env` au `.gitignore` avant le premier commit, pas après.
 
 ```javascript
 require('dotenv').config();  // À appeler le plus tôt possible

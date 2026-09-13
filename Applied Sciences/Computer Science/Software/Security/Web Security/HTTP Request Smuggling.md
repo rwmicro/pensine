@@ -40,6 +40,9 @@ Hello\r\n
 
 La RFC dit que si les deux sont présents, TE prime sur CL. Mais tous les serveurs ne respectent pas cette règle.
 
+> [!important] Idée clé
+> La faille n'existe pas parce qu'un serveur interprète mal le protocole isolément, mais parce que **front-end et back-end ne sont pas d'accord entre eux** sur où s'arrête une requête. Chacun, pris séparément, peut sembler se comporter correctement.
+
 ## Types de vulnérabilités
 
 ### CL.TE — Front-end lit CL, Back-end lit TE
@@ -78,6 +81,9 @@ SMUGGLED
 
 - Front-end : lit en chunked, voit 8 octets "SMUGGLED" puis "0" → fin
 - Back-end : lit CL=3, prend "8\r\n" comme corps → "SMUGGLED\r\n0\r\n\r\n" reste en buffer
+
+> [!tip] Mnémonique pour la nomenclature
+> Dans "CL.TE", le premier terme est ce que lit le **front-end**, le second ce que lit le **back-end** — utile pour ne pas confondre CL.TE et TE.CL en lisant une CVE ou un rapport.
 
 ### TE.TE — Deux serveurs lisent TE, mais l'un est désactivable
 
@@ -217,3 +223,6 @@ Solutions architecturales :
 4. Désactiver le keep-alive entre front-end et back-end
 5. Normaliser toutes les requêtes au niveau du front-end (rejeter TE si CL présent)
 ```
+
+> [!warning] Piège fréquent
+> Corriger un seul des deux serveurs (par exemple ne rejeter l'ambiguïté que côté front-end) ne suffit pas si le back-end reste joignable par un autre chemin (load balancer secondaire, accès direct). La cohérence doit être garantie **de bout en bout**, pas sur un seul maillon de la chaîne.

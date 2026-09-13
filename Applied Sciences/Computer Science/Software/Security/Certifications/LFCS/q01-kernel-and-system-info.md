@@ -12,12 +12,13 @@ uname -a     # tout : noyau + hostname + architecture + date de build
 uname -m     # architecture matérielle (x86_64, aarch64...)
 ```
 
-**Modèle mental : `/proc/sys` = les réglages vivants du noyau.** Tout ce qui est sous `/proc/sys/` est un paramètre du noyau modifiable à chaud. Chaque fichier = un réglage. Le chemin reflète la hiérarchie de `sysctl` : `net.ipv4.ip_forward` ↔ `/proc/sys/net/ipv4/ip_forward`.
-
-```bash
-cat /proc/sys/net/ipv4/ip_forward   # lecture brute du fichier
-sysctl net.ipv4.ip_forward          # même valeur, via l'outil dédié
-```
+> [!tip] Modèle mental : `/proc/sys` = les réglages vivants du noyau
+> Tout ce qui est sous `/proc/sys/` est un paramètre du noyau modifiable à chaud. Chaque fichier = un réglage. Le chemin reflète la hiérarchie de `sysctl` : `net.ipv4.ip_forward` ↔ `/proc/sys/net/ipv4/ip_forward`.
+>
+> ```bash
+> cat /proc/sys/net/ipv4/ip_forward   # lecture brute du fichier
+> sysctl net.ipv4.ip_forward          # même valeur, via l'outil dédié
+> ```
 
 `ip_forward = 1` signifie que la machine route les paquets entre interfaces (comportement d'un routeur, pas d'un poste classique). Voir [[q25-sysctl-kernel-parameters]] pour rendre ces réglages persistants.
 
@@ -29,9 +30,8 @@ cat /etc/timezone     # fichier texte (Debian/Ubuntu)
 timedatectl           # vue complète et moderne (systemd) — voir q03
 ```
 
-**Piège** : `/etc/timezone` est un fichier propre à Debian. Sur RHEL, le fuseau est le lien symbolique `/etc/localtime → /usr/share/zoneinfo/...`. `timedatectl`.
-
-`date +%Z` fonctionnent partout, à utiliser de préférence.
+> [!warning] Piège
+> `/etc/timezone` est un fichier propre à Debian. Sur RHEL, le fuseau est le lien symbolique `/etc/localtime → /usr/share/zoneinfo/...`. `timedatectl` et `date +%Z` fonctionnent partout, à utiliser de préférence.
 
 ## Énoncé
 

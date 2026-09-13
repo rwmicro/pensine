@@ -12,6 +12,8 @@ Kubernetes (K8s) est un **orchestrateur de conteneurs** : il automatise le dépl
 
 En résumé : là où Docker gère un conteneur sur une machine, Kubernetes gère des dizaines de conteneurs sur des dizaines de machines.
 
+> [!important] Ce que Kubernetes garantit vraiment
+> Kubernetes ne fait pas juste "démarrer des conteneurs" — il maintient en continu un **état désiré** : si un Pod meurt, un nœud tombe, ou une image doit changer, le Controller Manager corrige l'écart automatiquement, sans intervention humaine. C'est cette boucle de réconciliation permanente, pas le simple déploiement initial, qui est le cœur du système.
 
 ## Architecture
 
@@ -58,6 +60,9 @@ spec:
 ### Deployment
 Gère les Pods : assure qu'il y en a toujours le bon nombre, gère les mises à jour.
 
+> [!tip] Pourquoi ne jamais créer un Pod nu en production
+> Un Pod créé directement n'est surveillé par aucun contrôleur — s'il meurt, rien ne le relance. Un Deployment ajoute cette surveillance (via un ReplicaSet) et gère en plus les mises à jour progressives et le rollback. Un Pod nu n'a de sens que pour du débogage ponctuel.
+
 ```yaml
 apiVersion: apps/v1
 kind: Deployment
@@ -90,6 +95,9 @@ Expose les Pods sur le réseau (ils ont des IPs changeantes — le Service donne
 ### ConfigMap & Secret
 - **ConfigMap** : configuration non sensible (variables d'env, fichiers config)
 - **Secret** : données sensibles (mots de passe, tokens) — encodées en base64
+
+> [!warning] Piège
+> Base64 est un **encodage**, pas un chiffrement — n'importe qui avec un accès en lecture au Secret peut le décoder en une commande (`base64 -d`). Un Secret Kubernetes natif protège seulement contre une lecture accidentelle, pas contre un accès malveillant à etcd ou à l'API. Voir [[Sécurité Kubernetes]] pour les vraies protections (chiffrement etcd, Vault).
 
 ### Namespace
 Isolation logique dans le cluster (comme des dossiers pour organiser les ressources).

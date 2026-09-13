@@ -10,6 +10,9 @@ date: 2026-03-22
 
 BloodHound est un outil d'analyse graphique des environnements Active Directory. Il modélise les relations entre objets AD (utilisateurs, groupes, ordinateurs, GPO) et identifie automatiquement les chemins d'attaque vers des cibles à hauts privilèges (Domain Admins, DC).
 
+> [!important] Idée clé
+> BloodHound ne cherche pas des vulnérabilités — il modélise AD comme un graphe de relations (`MemberOf`, `AdminTo`, `GenericAll`...) et calcule le plus court chemin entre "où je suis" et "Domain Admin". C'est un changement de paradigme : au lieu d'auditer chaque objet isolément, on cherche des chemins d'attaque à travers leurs relations combinées.
+
 ## Architecture
 
 ```
@@ -205,13 +208,14 @@ Hardening des chemins d'attaque :
 
 ## Pièges courants
 
-- **Collecte partielle = chemins manquants** : `SharpHound -c Default` ne ramasse pas les sessions ni les LocalGroup. Toujours `-c All` (plus lent, mais complet). Sans sessions, "Find Shortest Path to Domain Admins" rate des chemins critiques.
-- **SharpHound vs bloodhound.py — données différentes** : SharpHound (Windows) collecte plus que bloodhound.py (Linux) sur les sessions. Si possible, faire les deux et fusionner.
-- **Cache stale** : BloodHound interroge un cache local. Si on importe de nouvelles données sans clear, les chemins sont obsolètes. Toujours "Clear database" entre deux engagements.
-- **Edge "HasSession" éphémère** : une session BloodHound = un user était connecté à un moment. Six heures après, le user n'est probablement plus là. Recoller la collecte avant exploitation.
-- **Custom queries vs canned queries** : les requêtes prédéfinies couvrent les cas classiques. Les chemins exotiques (cross-trust, ACL chains avec 6+ étapes) demandent du Cypher manuel.
-- **`AdminTo` vs `CanRDP`** : AdminTo = admin local sur la machine (exécution code SYSTEM). CanRDP = peut se connecter en RDP mais pas forcément admin. Bien lire le edge type.
-- **`DCSync` peut être trompeur** : BloodHound annonce DCSync via les permissions ACL classiques (`Replicating Directory Changes`, `Replicating Directory Changes All`). Mais il manque parfois des chemins indirects via ACL groupes/OUs imbriqués.
-- **GenericAll sur ordinateur ≠ admin local** : GenericAll dans AD = modifier l'objet AD. Pour devenir admin local, il faut combiner avec RBCD ou Shadow Credentials. BloodHound montre `GenericAll → ResourceBasedConstrainedDelegation → AdminTo`.
-- **Volume de données pour grands AD** : sur un AD avec 50000 users, SharpHound peut prendre 30+ minutes et générer des Go. Filtrer par OU ou domain si possible.
-- **AzureHound pour Entra ID** : BloodHound on-prem ne couvre PAS Azure AD / Entra ID. Pour le cloud, utiliser AzureHound. Les graphes peuvent être merged dans BloodHound Community Edition.
+> [!warning] Pièges courants
+> - **Collecte partielle = chemins manquants** : `SharpHound -c Default` ne ramasse pas les sessions ni les LocalGroup. Toujours `-c All` (plus lent, mais complet). Sans sessions, "Find Shortest Path to Domain Admins" rate des chemins critiques.
+> - **SharpHound vs bloodhound.py — données différentes** : SharpHound (Windows) collecte plus que bloodhound.py (Linux) sur les sessions. Si possible, faire les deux et fusionner.
+> - **Cache stale** : BloodHound interroge un cache local. Si on importe de nouvelles données sans clear, les chemins sont obsolètes. Toujours "Clear database" entre deux engagements.
+> - **Edge "HasSession" éphémère** : une session BloodHound = un user était connecté à un moment. Six heures après, le user n'est probablement plus là. Recoller la collecte avant exploitation.
+> - **Custom queries vs canned queries** : les requêtes prédéfinies couvrent les cas classiques. Les chemins exotiques (cross-trust, ACL chains avec 6+ étapes) demandent du Cypher manuel.
+> - **`AdminTo` vs `CanRDP`** : AdminTo = admin local sur la machine (exécution code SYSTEM). CanRDP = peut se connecter en RDP mais pas forcément admin. Bien lire le edge type.
+> - **`DCSync` peut être trompeur** : BloodHound annonce DCSync via les permissions ACL classiques (`Replicating Directory Changes`, `Replicating Directory Changes All`). Mais il manque parfois des chemins indirects via ACL groupes/OUs imbriqués.
+> - **GenericAll sur ordinateur ≠ admin local** : GenericAll dans AD = modifier l'objet AD. Pour devenir admin local, il faut combiner avec RBCD ou Shadow Credentials. BloodHound montre `GenericAll → ResourceBasedConstrainedDelegation → AdminTo`.
+> - **Volume de données pour grands AD** : sur un AD avec 50000 users, SharpHound peut prendre 30+ minutes et générer des Go. Filtrer par OU ou domain si possible.
+> - **AzureHound pour Entra ID** : BloodHound on-prem ne couvre PAS Azure AD / Entra ID. Pour le cloud, utiliser AzureHound. Les graphes peuvent être merged dans BloodHound Community Edition.

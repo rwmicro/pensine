@@ -71,6 +71,9 @@ Structure : ligne de statut (version + code + message), en-têtes, ligne vide, c
 
 **Idempotente** : appeler N fois produit le même effet qu'une fois. **Sûre** : ne modifie pas l'état du serveur.
 
+> [!important] Idempotent ne veut pas dire "sans effet"
+> DELETE est idempotent (supprimer une ressource déjà supprimée ne change rien de plus) mais pas sûr (elle modifie l'état, la première fois). C'est cette distinction qui justifie qu'un navigateur ou un proxy puisse rejouer automatiquement une requête GET échouée sans risque, mais jamais un POST.
+
 ## Codes de statut
 
 ### 1xx — Informatifs
@@ -94,6 +97,9 @@ Structure : ligne de statut (version + code + message), en-têtes, ligne vide, c
 - `400 Bad Request` : requête malformée
 - `401 Unauthorized` : authentification requise (nom trompeur : c'est de l'authentification)
 - `403 Forbidden` : authentifié mais non autorisé
+
+> [!warning] Piège de nommage
+> Malgré son nom, `401` signifie « tu n'es pas authentifié » (ou tes credentials sont invalides), alors que `403` signifie « tu es bien identifié, mais tu n'as pas le droit ». Renvoyer 403 à un utilisateur non connecté au lieu de 401 lui fait croire à tort qu'il est identifié mais bloqué.
 - `404 Not Found` : ressource inexistante
 - `405 Method Not Allowed` : méthode non supportée sur cette route
 - `409 Conflict` : conflit d'état (version concurrente)
@@ -159,6 +165,9 @@ Cache-Control: no-cache
 # Indiquer que le contenu ne change jamais (assets versionnés)
 Cache-Control: public, max-age=31536000, immutable
 ```
+
+> [!warning] Piège de nommage
+> `no-cache` ne veut pas dire "ne pas mettre en cache" — il autorise le cache mais impose une revalidation avant chaque réutilisation (souvent via ETag). C'est `no-store` qui interdit tout stockage. Confondre les deux fait soit fuiter des données sensibles (utiliser `no-cache` pour des données privées), soit imposer des revalidations inutiles (utiliser `no-store` par excès de prudence).
 
 ### Revalidation avec ETag
 

@@ -4,12 +4,11 @@
 
 Sous Unix, **archiver** et **compresser** sont deux opérations distinctes — c'est l'idée fondamentale qui débloque tout cet exercice.
 
-**Modèle mental : deux couches empilées.**
-
-```
-fichiers  ──►  [ tar ]  ──►  une seule "tarball"  ──►  [ gzip/bzip2/xz ]  ──►  fichier compressé
-              archivage      (.tar, non compressé)        compression          (.tar.gz, .tar.bz2)
-```
+> [!tip] Modèle mental : deux couches empilées
+> ```
+> fichiers  ──►  [ tar ]  ──►  une seule "tarball"  ──►  [ gzip/bzip2/xz ]  ──►  fichier compressé
+>               archivage      (.tar, non compressé)        compression          (.tar.gz, .tar.bz2)
+> ```
 
 - `tar` (*tape archive*) **regroupe** plusieurs fichiers en un seul flux, en préservant arborescence, permissions et propriétaires. Il ne compresse rien.
 - `gzip`, `bzip2`, `xz` **compressent** un flux d'octets. Ils ne connaissent rien aux fichiers ni aux dossiers.
@@ -44,10 +43,10 @@ tar -tzf import001.tar.gz  | sort > liste_gz
 diff liste_bz2 liste_gz       # aucune différence = même contenu
 ```
 
-**Pièges** :
-- `bunzip2 -k` : le `-k` (*keep*) **conserve** l'original, sinon il est supprimé — crucial quand l'énoncé interdit de modifier le fichier source.
-- L'ordre des lettres importe peu, mais `f` doit immédiatement précéder le nom de fichier.
-- La variable `GZIP=-9` est dépréciée ; préférer `tar -I 'gzip -9'`.
+> [!warning] Pièges
+> - `bunzip2 -k` : le `-k` (*keep*) **conserve** l'original, sinon il est supprimé — crucial quand l'énoncé interdit de modifier le fichier source.
+> - L'ordre des lettres importe peu, mais `f` doit immédiatement précéder le nom de fichier.
+> - La variable `GZIP=-9` est dépréciée ; préférer `tar -I 'gzip -9'`.
 
 ## Énoncé
 

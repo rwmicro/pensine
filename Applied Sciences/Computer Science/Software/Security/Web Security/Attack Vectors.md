@@ -10,6 +10,9 @@ date: "2024-11-01"
 
 Les vecteurs d'attaque web sont les chemins empruntés par un attaquant pour compromettre une application. Cette note couvre les catégories majeures de l'OWASP Top 10 et les techniques associées.
 
+> [!important] Le point commun
+> Presque toutes ces failles partagent la même cause racine : une donnée qui vient de l'utilisateur (URL, formulaire, en-tête, cookie) est traitée comme si elle était de confiance — interprétée comme du code (SQL, shell, HTML/JS) au lieu d'être traitée comme une simple valeur. Identifier "où l'entrée finit-elle par être interprétée" est la première question à se poser face à n'importe laquelle de ces catégories.
+
 ## Injections
 
 ### SQL Injection
@@ -32,6 +35,9 @@ SELECT * FROM users WHERE username = 'admin'--' AND password = '...'
 ```
 
 **Contre-mesures :** requêtes paramétrées (prepared statements), ORM, validation stricte des entrées, principe du moindre privilège sur le compte DB.
+
+> [!warning] Piège fréquent
+> Échapper les guillemets (`addslashes`, `mysql_real_escape_string`) donne une fausse impression de sécurité — certains encodages ou contextes (requêtes numériques sans guillemets, second-order injection) contournent l'échappement. Seules les **requêtes paramétrées** séparent réellement le code SQL des données.
 
 ### Command Injection
 
@@ -143,6 +149,9 @@ POST /api/fetch
 {"url": "file:///etc/passwd"}
 # Lit des fichiers locaux via le schéma file://
 ```
+
+> [!tip] Où chercher un SSRF
+> Tout endroit où le serveur récupère une ressource à partir d'une URL fournie (fournie même indirectement : webhook, aperçu de lien, import d'image, export PDF depuis une page web) est un candidat. Le réflexe : essayer de rediriger cette requête vers `127.0.0.1`, un port interne connu, ou une adresse de métadonnées cloud.
 
 **Contre-mesures :** liste blanche des domaines autorisés, bloquer les IPs privées et metadata endpoints, désactiver les schémas non-HTTP.
 

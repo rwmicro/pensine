@@ -106,10 +106,15 @@ Contrôle qui peut accéder au bucket.
   }]
 }
 ```
-→ Rend tous les objets publics en lecture.
+
+> [!warning] Piège
+> `"Principal": "*"` rend **tous les objets publics en lecture**, sans distinction — une erreur de configuration S3 parmi les plus fréquentes en audit de sécurité cloud. Toujours vérifier le Principal avant de déployer une bucket policy avec `"Effect": "Allow"`.
 
 ### IAM Roles
 Méthode recommandée pour les applications AWS — pas de clés dans le code.
+
+> [!tip] Pourquoi préférer les rôles IAM
+> Une clé d'accès codée en dur (ou même en variable d'environnement) est un secret permanent qui peut fuiter. Un rôle IAM attaché à l'instance/service ne délivre que des credentials temporaires, jamais stockés ni visibles dans le code.
 
 
 ## Fonctionnalités utiles

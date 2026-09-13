@@ -14,6 +14,9 @@ Les Graph Neural Networks sont des réseaux de neurones conçus pour opérer dir
 
 Les architectures classiques (CNN, RNN) supposent des données structurées (grilles, séquences). Les graphes brisent ces hypothèses :
 
+> [!important] Contrainte fondamentale
+> Un graphe n'a pas d'ordre canonique entre ses nœuds — renuméroter les nœuds ne change pas le graphe. Toute opération d'un GNN doit donc être **invariante par permutation** (agrégation par somme, moyenne ou attention plutôt que concaténation ordonnée) : c'est la contrainte de conception qui distingue un GNN d'un CNN ou d'un RNN classique.
+
 | Propriété | Grille (image) | Séquence (texte) | Graphe |
 |---|---|---|---|
 | Structure | Régulière, fixe | Ordonnée | Irrégulière, variable |
@@ -139,7 +142,8 @@ h_G = READOUT({hᵥ : v ∈ V})
 
 ## Limites des GNN
 
-**Surissage (Over-smoothing)** : avec trop de couches, toutes les représentations de nœuds convergent vers la même valeur → perte de discrimination. En pratique, 2-3 couches suffisent souvent.
+> [!warning] Surissage (Over-smoothing)
+> Avec trop de couches, toutes les représentations de nœuds convergent vers la même valeur → perte de discrimination. Contre-intuitif par rapport aux CNN (où empiler des couches aide presque toujours) : en GNN, chaque couche supplémentaire mélange l'information avec un voisinage plus large, jusqu'à tout uniformiser. En pratique, 2-3 couches suffisent souvent — empiler davantage dégrade la performance plutôt que de l'améliorer.
 
 **Goulot d'étranglement (Bottleneck)** : pour atteindre des nœuds distants, l'information doit passer par tous les nœuds intermédiaires, se compressant à chaque couche.
 
@@ -165,3 +169,6 @@ h_G = READOUT({hᵥ : v ∈ V})
 | GAT | Attention apprise | Interprétable, sélectif | Coût mémoire |
 | GraphSAGE | Mean/Max/LSTM | Scalable, inductif | Pas d'attention |
 | GIN | Somme + MLP | Maximalement expressif | Plus complexe |
+
+> [!tip] Méthode de choix
+> Graphe homogène, besoin de rapidité → GCN. Voisins d'importance inégale (ex : réseau social avec relations fortes/faibles) → GAT. Graphe massif ou nœuds jamais vus à l'entraînement (inductive) → GraphSAGE. Tâche qui exige de distinguer des structures fines (isomorphisme de sous-graphes) → GIN.

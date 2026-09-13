@@ -4,17 +4,16 @@
 
 LUKS chiffre un disque au niveau bloc : sans la passphrase (ou une clé), les données sont illisibles, même en retirant physiquement le disque. C'est le chiffrement « at rest » standard sous Linux, géré par `cryptsetup`.
 
-**Modèle mental : une couche de déchiffrement entre le disque et le système de fichiers.**
-
-```
-/dev/vdb (chiffré, LUKS)
-    │  cryptsetup luksOpen + passphrase
-    ▼
-/dev/mapper/secure-data (vue déchiffrée, "en clair")
-    │  mkfs.ext4 / mount
-    ▼
-/mnt/secure (fichiers utilisables)
-```
+> [!tip] Modèle mental : une couche de déchiffrement entre le disque et le système de fichiers
+> ```
+> /dev/vdb (chiffré, LUKS)
+>     │  cryptsetup luksOpen + passphrase
+>     ▼
+> /dev/mapper/secure-data (vue déchiffrée, "en clair")
+>     │  mkfs.ext4 / mount
+>     ▼
+> /mnt/secure (fichiers utilisables)
+> ```
 
 Point fondamental : on **ne formate ni ne monte jamais le périphérique chiffré directement**. On l'ouvre d'abord (`luksOpen`), ce qui crée un périphérique virtuel `/dev/mapper/<nom>` ; c'est *celui-là* qu'on formate et monte.
 
@@ -40,11 +39,11 @@ cryptsetup luksClose secure-data          # refermer
 cryptsetup luksAddKey /dev/vdb /root/secure.key
 ```
 
-**Pièges** :
-- `luksFormat` **écrase** tout : aucune récupération possible sans sauvegarde de l'en-tête (`luksHeaderBackup`).
-- Confondre `/dev/vdb` (chiffré) et `/dev/mapper/...` (clair) : `fstab` doit pointer le mapper, pas le disque brut.
-- Un fichier-clé en `none`/passphrase oublié = données perdues — d'où l'intérêt d'un second key slot.
-- Référencer le disque par **UUID** dans `crypttab` (le nom `/dev/vdX` peut changer).
+> [!warning] Pièges
+> - `luksFormat` **écrase** tout : aucune récupération possible sans sauvegarde de l'en-tête (`luksHeaderBackup`).
+> - Confondre `/dev/vdb` (chiffré) et `/dev/mapper/...` (clair) : `fstab` doit pointer le mapper, pas le disque brut.
+> - Un fichier-clé en `none`/passphrase oublié = données perdues — d'où l'intérêt d'un second key slot.
+> - Référencer le disque par **UUID** dans `crypttab` (le nom `/dev/vdX` peut changer).
 
 ## Énoncé
 

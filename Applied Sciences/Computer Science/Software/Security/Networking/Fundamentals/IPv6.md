@@ -32,6 +32,9 @@ Une adresse IPv6 = **128 bits**, écrite en **8 blocs de 16 bits** séparés par
 → 2001:db8:85a3::8a2e:370:7334
 ```
 
+> [!warning] Piège fréquent
+> `::` ne peut apparaître **qu'une seule fois** dans une adresse — sinon le nombre de blocs qu'elle représente devient ambigu. `2001::db8::1` n'est pas une adresse IPv6 valide, même si chaque suite de zéros prise séparément semblait correcte à compresser.
+
 ## Types d'adresses IPv6
 
 | Type               | Préfixe     | Description                          |
@@ -50,6 +53,9 @@ Une adresse IPv6 = **128 bits**, écrite en **8 blocs de 16 bits** séparés par
 | Notation      | Décimale pointée (192.168.1.1) | Hexadécimale (2001:db8::1)                     |
 | Broadcast     | Oui                            | Non (remplacé par multicast)                   |
 | NAT           | Nécessaire (manque d'adresses) | Inutile (adresses en abondance)                |
+
+> [!important] Idée clé
+> "Pas besoin de NAT" ne veut pas dire "pas besoin de pare-feu". En IPv4, le NAT masquait accidentellement les machines internes (aucune IP publique à cibler) ; en IPv6, chaque machine peut avoir une IP publique routable, donc un firewall qui filtre explicitement le trafic entrant devient indispensable là où on comptait implicitement sur le NAT.
 | Configuration | Manuel ou DHCP                 | Auto-configuration (SLAAC)                     |
 | En-tête       | Complexe                       | Simplifié et fixe                              |
 | IPSec         | Optionnel                      | Intégré nativement                             |

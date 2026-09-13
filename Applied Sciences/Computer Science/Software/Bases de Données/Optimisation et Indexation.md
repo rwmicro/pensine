@@ -10,6 +10,9 @@ date: "2026-02-25"
 
 L'optimisation des bases de données est l'art d'accélérer les requêtes et d'améliorer les performances globales du système. La compréhension des index est centrale.
 
+> [!important] Idée clé
+> Un index accélère la lecture au prix de l'écriture (chaque INSERT/UPDATE doit aussi mettre à jour l'index) et de l'espace disque. Indexer une colonne n'est jamais gratuit — c'est un pari que les lectures sur cette colonne seront plus fréquentes et plus critiques que le coût ajouté aux écritures.
+
 ## Comprendre les plans d'exécution
 
 Avant d'optimiser, comprendre comment la base exécute la requête.
@@ -49,6 +52,9 @@ LIMIT 10;
 `Actual time=0.041..1.234` : temps réel de démarrage et total.
 
 Si `rows` estimé est très différent de `rows` réel, les statistiques sont obsolètes → lancer `ANALYZE`.
+
+> [!tip] Méthode de lecture d'un plan
+> Lire l'arbre du nœud le plus profond (le plus indenté) vers le nœud racine — c'est l'ordre réel d'exécution. Comparer systématiquement `rows` estimé et `actual rows` : un grand écart signale des statistiques obsolètes qui faussent tout le reste des décisions du planificateur (choix de jointure, ordre des tables).
 
 ## Index
 
@@ -152,6 +158,9 @@ SELECT * FROM clients WHERE LOWER(email) = 'alice@x.com';
 CREATE INDEX idx_email_lower ON clients (LOWER(email));
 SELECT * FROM clients WHERE LOWER(email) = 'alice@x.com';
 ```
+
+> [!warning] Piège fréquent
+> Un index B-tree ne peut être utilisé que si la colonne apparaît "nue" dans le prédicat. Toute fonction appliquée à la colonne (`YEAR(...)`, `LOWER(...)`) rend l'index invisible au planificateur, sauf à créer explicitement un index fonctionnel sur cette même expression.
 
 ### Pagination efficace
 

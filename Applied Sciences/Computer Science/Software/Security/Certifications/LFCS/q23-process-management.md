@@ -4,7 +4,8 @@
 
 Un processus est un programme en cours d'exécution, identifié par un **PID**. L'administrateur doit savoir les retrouver, ajuster leur priorité, et leur envoyer des signaux.
 
-**Modèle mental : trouver → prioriser → signaler.**
+> [!tip] Modèle mental
+> Trouver → prioriser → signaler.
 
 **1. Retrouver un processus.** Plusieurs angles d'attaque selon ce qu'on connaît :
 ```bash
@@ -36,11 +37,11 @@ Réflexe : toujours `SIGTERM` d'abord (laisse le processus se fermer proprement)
 
 **Job control (premier/arrière-plan)** : `&` lance en arrière-plan, `jobs`/`fg`/`bg` gèrent les tâches du shell, `nohup`/`disown` les détachent pour survivre à la fermeture du terminal.
 
-**Pièges** :
-- `kill -9` (SIGKILL) ne laisse aucune chance au processus de nettoyer (fichiers temporaires, verrous) — dernier recours.
-- `renice` vers une valeur négative exige root ; un utilisateur ne peut qu'augmenter sa niceness (jamais la diminuer).
-- Tuer un processus supervisé (systemd) le fait **redémarrer** — voir [[q22-systemd-targets-and-services]] ; agir sur l'unit plutôt que sur le PID.
-- `pkill`/`killall` ciblent par nom : attention à ne pas en attraper plus que prévu (filtrer par `-u utilisateur`).
+> [!warning] Pièges
+> - `kill -9` (SIGKILL) ne laisse aucune chance au processus de nettoyer (fichiers temporaires, verrous) — dernier recours.
+> - `renice` vers une valeur négative exige root ; un utilisateur ne peut qu'augmenter sa niceness (jamais la diminuer).
+> - Tuer un processus supervisé (systemd) le fait **redémarrer** — voir [[q22-systemd-targets-and-services]] ; agir sur l'unit plutôt que sur le PID.
+> - `pkill`/`killall` ciblent par nom : attention à ne pas en attraper plus que prévu (filtrer par `-u utilisateur`).
 
 ## Énoncé
 

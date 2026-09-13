@@ -10,9 +10,9 @@ date: "2026-04-18"
 
 ## Qu'est-ce que l'anthropologie ?
 
-Du grec *anthropos* (humain) et *logos* (étude), l'anthropologie est la science de l'être humain dans sa totalité — biologique, culturelle, linguistique, historique. Elle se distingue des autres sciences humaines par son **approche holiste** (elle considère l'humain comme un tout, pas un fragment) et par sa **méthode comparative** (elle étudie la diversité des sociétés pour comprendre ce qui est universel et ce qui est particulier).
+Du grec *anthropos* (humain) et *logos* (étude), l'anthropologie est la science de l'être humain dans sa totalité, biologique, culturelle, linguistique, historique. Elle se distingue des autres sciences humaines par son **approche holiste** (elle considère l'humain comme un tout, pas un fragment) et par sa **méthode comparative** (elle étudie la diversité des sociétés pour comprendre ce qui est universel et ce qui est particulier).
 
-L'anthropologie pose une question fondamentale : **qu'est-ce qui fait de nous des humains ?** Et elle y répond en montrant que la réponse varie selon les sociétés — ce qui est "naturel" pour les uns est culturel, et inversement.
+L'anthropologie pose une question fondamentale : **qu'est-ce qui fait de nous des humains ?** Et elle y répond en montrant que la réponse varie selon les sociétés, ce qui est "naturel" pour les uns est culturel, et inversement.
 
 ## Les quatre champs (tradition américaine)
 

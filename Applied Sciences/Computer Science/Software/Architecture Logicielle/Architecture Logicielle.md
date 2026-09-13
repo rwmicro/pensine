@@ -32,6 +32,9 @@ Une architecture est évaluée selon des critères non fonctionnels :
 
 Ces attributs sont souvent en tension. Augmenter la disponibilité via la redondance augmente la complexité.
 
+> [!important] Idée clé
+> Il n'existe pas de style architectural universellement "meilleur" — chaque style optimise certains attributs de qualité au prix d'autres. Le monolithe optimise la simplicité au prix de la scalabilité granulaire ; les microservices font l'inverse. Le bon choix dépend des contraintes réelles (taille d'équipe, besoin de scaling), pas d'une préférence de mode.
+
 ## Styles architecturaux
 
 ### Monolithique
@@ -120,6 +123,9 @@ Voir le fichier dédié `Microservices.md`.
 | Time to market | Un monolithe se développe plus vite au départ |
 | Budget infrastructure | Les microservices coûtent plus cher à opérer |
 
+> [!warning] Piège fréquent
+> Adopter les microservices "parce que Netflix le fait" sans en avoir le besoin (petite équipe, domaine encore mal compris) importe toute leur complexité opérationnelle sans les bénéfices — voir [[Microservices]] section "Quand ne PAS utiliser les microservices".
+
 ## Couplage et cohésion
 
 **Couplage** : degré de dépendance entre deux modules. Un couplage fort signifie qu'un changement dans A force un changement dans B. On cherche un couplage faible.
@@ -153,6 +159,9 @@ Quatre niveaux de diagrammes emboîtés (Simon Brown) :
 ## Architecture Decision Records (ADR)
 
 Document court capturant une décision architecturale : contexte, décision, alternatives, conséquences. Les ADR vivent dans le dépôt (`docs/adr/`) et constituent la mémoire du projet.
+
+> [!tip] Pourquoi ça vaut le coup
+> Sans ADR, le "pourquoi" d'une décision structurante se perd dès que la personne qui l'a prise quitte le projet — le code montre le "quoi", jamais les alternatives écartées ni les raisons de l'écarter.
 
 ```
 # ADR-001 : PostgreSQL comme base de données principale

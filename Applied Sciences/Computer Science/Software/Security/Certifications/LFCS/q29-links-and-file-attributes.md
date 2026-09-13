@@ -4,14 +4,13 @@
 
 Pour comprendre les liens, il faut d'abord comprendre l'**inode** : la structure qui contient les métadonnées d'un fichier (permissions, propriétaire, taille, pointeurs vers les blocs de données). Le nom du fichier n'est qu'une **étiquette** dans un répertoire qui pointe vers un inode.
 
-**Modèle mental : nom → inode → données.**
-
-```
-répertoire           inode (n°1234)          blocs de données
-"passwd"  ─────────► [ métadonnées +  ─────► [ contenu réel ]
-"hard-passwd" ─────►   nb de liens ]
-                       (2 noms → même inode)
-```
+> [!tip] Modèle mental : nom → inode → données
+> ```
+> répertoire           inode (n°1234)          blocs de données
+> "passwd"  ─────────► [ métadonnées +  ─────► [ contenu réel ]
+> "hard-passwd" ─────►   nb de liens ]
+>                        (2 noms → même inode)
+> ```
 
 **Lien dur (hard link) vs lien symbolique (symlink)** — la distinction fondamentale :
 
@@ -33,11 +32,11 @@ lsattr fichier         # afficher les attributs
 ```
 L'attribut `i` (immuable) protège un fichier critique (`/etc/resolv.conf` régénéré sans cesse) : il faut explicitement retirer `+i` avant toute modification, même en root. `a` (append-only) est utile pour des logs inviolables.
 
-**Pièges** :
-- `+i` bloque **tout**, y compris root — d'où l'intérêt (et le piège : « pourquoi je ne peux pas éditer ce fichier ? » → `lsattr`).
-- Un lien dur ne peut pas franchir une frontière de système de fichiers (inodes propres à chaque FS) ni viser un dossier.
-- `ls -l` affiche un symlink cassé en rouge ; `readlink -f` résout le chemin réel.
-- Inode ≠ contenu : copier un fichier crée un **nouvel** inode ; le déplacer dans le même FS le conserve.
+> [!warning] Pièges
+> - `+i` bloque **tout**, y compris root — d'où l'intérêt (et le piège : « pourquoi je ne peux pas éditer ce fichier ? » → `lsattr`).
+> - Un lien dur ne peut pas franchir une frontière de système de fichiers (inodes propres à chaque FS) ni viser un dossier.
+> - `ls -l` affiche un symlink cassé en rouge ; `readlink -f` résout le chemin réel.
+> - Inode ≠ contenu : copier un fichier crée un **nouvel** inode ; le déplacer dans le même FS le conserve.
 
 ## Énoncé
 

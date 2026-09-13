@@ -4,13 +4,12 @@
 
 OpenSSH est la porte d'entrée distante de la quasi-totalité des serveurs Linux. Durcir sa configuration (`sshd`) est un classique de l'administration sécurisée.
 
-**Modèle mental : client vs serveur — ne pas confondre les fichiers.**
-
-| Fichier | Rôle |
-|---|---|
-| `/etc/ssh/sshd_config` | configuration du **serveur** (le démon `sshd`) |
-| `/etc/ssh/sshd_config.d/*.conf` | fragments de conf serveur (drop-in, recommandés) |
-| `/etc/ssh/ssh_config` + `~/.ssh/config` | configuration du **client** ssh |
+> [!tip] Modèle mental : client vs serveur — ne pas confondre les fichiers
+> | Fichier | Rôle |
+> |---|---|
+> | `/etc/ssh/sshd_config` | configuration du **serveur** (le démon `sshd`) |
+> | `/etc/ssh/sshd_config.d/*.conf` | fragments de conf serveur (drop-in, recommandés) |
+> | `/etc/ssh/ssh_config` + `~/.ssh/config` | configuration du **client** ssh |
 
 Le `d` de `sshd` = *daemon* = le serveur. Une faute fréquente est d'éditer `ssh_config` (client) en pensant configurer le serveur.
 
@@ -41,11 +40,11 @@ sshd -T | grep -i x11forwarding   # afficher la config EFFECTIVE résolue
 systemctl reload ssh           # appliquer
 ```
 
-**Pièges** :
-- Une erreur dans `sshd_config` + un `restart` = **plus aucun accès SSH**. Toujours `sshd -t` d'abord, garder une session ouverte, et un accès console de secours (`lxc exec`).
-- Les blocs `Match` s'étendent jusqu'au prochain `Match` ou la fin du fichier — l'indentation est cosmétique, c'est la position qui compte.
-- Après changement : `reload` suffit (plus doux que `restart`) ; les sessions en cours ne sont pas coupées.
-- `sshd -T` montre la config réellement appliquée, utile pour confirmer qu'un drop-in a bien été pris en compte.
+> [!warning] Pièges
+> - Une erreur dans `sshd_config` + un `restart` = **plus aucun accès SSH**. Toujours `sshd -t` d'abord, garder une session ouverte, et un accès console de secours (`lxc exec`).
+> - Les blocs `Match` s'étendent jusqu'au prochain `Match` ou la fin du fichier — l'indentation est cosmétique, c'est la position qui compte.
+> - Après changement : `reload` suffit (plus doux que `restart`) ; les sessions en cours ne sont pas coupées.
+> - `sshd -T` montre la config réellement appliquée, utile pour confirmer qu'un drop-in a bien été pris en compte.
 
 ## Énoncé
 

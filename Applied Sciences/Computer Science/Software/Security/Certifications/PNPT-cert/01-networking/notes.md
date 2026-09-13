@@ -37,7 +37,8 @@ Chaque couche s'appuie sur celle du dessous et ne sait rien des autres. Quand un
 | 2      | Liaison      | Ethernet, ARP, MAC        | ARP poisoning, MAC flooding      |
 | 1      | Physique     | Câbles, hubs              | Accès physique, tap réseau       |
 
-**À retenir** : une attaque sur la couche N est invisible aux couches au-dessus. ARP poisoning intercepte tout HTTP non chiffré sans que l'application ne voie rien.
+> [!important] À retenir
+> Une attaque sur la couche N est invisible aux couches au-dessus. ARP poisoning intercepte tout HTTP non chiffré sans que l'application ne voie rien.
 
 ## TCP vs UDP
 
@@ -59,7 +60,8 @@ Client                    Serveur
   │  ─── datagramme ──►      │     pas de réponse garantie
 ```
 
-**Conséquence pratique** : un scan TCP voit clairement les ports ouverts (SYN-ACK reçu). Un scan UDP est lent et imprécis — si rien ne répond, le port peut être ouvert OU filtré.
+> [!tip] Conséquence pratique
+> Un scan TCP voit clairement les ports ouverts (SYN-ACK reçu). Un scan UDP est lent et imprécis — si rien ne répond, le port peut être ouvert OU filtré.
 
 ## Ports courants
 
@@ -105,7 +107,8 @@ Calcul rapide :
   /30 →   4 adresses    (lien point-à-point)
 ```
 
-**Adresses non utilisables** : la première (adresse réseau) et la dernière (broadcast). Donc `/24` = 254 hôtes utilisables, pas 256.
+> [!warning] Adresses non utilisables
+> La première (adresse réseau) et la dernière (broadcast). Donc `/24` = 254 hôtes utilisables, pas 256.
 
 ### Plages privées (RFC 1918)
 
@@ -117,8 +120,9 @@ Ces plages ne sont pas routées sur Internet. Si tu vois ces IPs sur ton scan ex
 
 ## Pièges courants
 
-- **TCP open ≠ service exploitable** : un port 22 ouvert ne dit rien de la version SSH ni de l'auth acceptée. Toujours fingerprinter (`nmap -sV`).
-- **UDP "open|filtered"** : nmap ne sait pas trancher sans réponse. Utiliser `--script` pour les services UDP courants (SNMP, DNS, NTP, IPMI).
-- **HTTPS ne protège que la couche 7** : un attaquant en MITM ARP voit toujours les destinations (SNI dans le ClientHello, IPs, tailles de paquets).
-- **NAT ne sécurise pas** : c'est de la traduction d'adresses, pas un pare-feu. Beaucoup confondent.
-- **Le routeur par défaut est .1 par convention, pas par règle** — sur des réseaux mal configurés, la passerelle peut être .254 ou autre.
+> [!warning] Pièges courants
+> - **TCP open ≠ service exploitable** : un port 22 ouvert ne dit rien de la version SSH ni de l'auth acceptée. Toujours fingerprinter (`nmap -sV`).
+> - **UDP "open|filtered"** : nmap ne sait pas trancher sans réponse. Utiliser `--script` pour les services UDP courants (SNMP, DNS, NTP, IPMI).
+> - **HTTPS ne protège que la couche 7** : un attaquant en MITM ARP voit toujours les destinations (SNI dans le ClientHello, IPs, tailles de paquets).
+> - **NAT ne sécurise pas** : c'est de la traduction d'adresses, pas un pare-feu. Beaucoup confondent.
+> - **Le routeur par défaut est .1 par convention, pas par règle** — sur des réseaux mal configurés, la passerelle peut être .254 ou autre.

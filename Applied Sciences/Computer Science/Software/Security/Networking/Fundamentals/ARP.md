@@ -16,6 +16,9 @@ Sur un réseau local, les données circulent via des **adresses MAC** (adresses 
 
 ARP résout ce problème : il traduit une IP en MAC.
 
+> [!important] Distinction clé
+> ARP n'est pas un protocole IP : il opère à la frontière entre couche 2 (liaison) et couche 3 (réseau), et ses trames ne franchissent jamais un routeur. C'est pour ça qu'ARP ne fonctionne que sur un même réseau local (même domaine de broadcast) — deux machines sur des sous-réseaux différents ne se résolvent jamais directement en ARP, elles passent par la passerelle.
+
 ## Fonctionnement
 
 ```
@@ -60,6 +63,9 @@ Attaqué :    PC → Attaquant → Routeur → Internet
                   (MITM : Man In The Middle)
 ```
 
+> [!warning] Piège fréquent
+> ARP n'a aucune authentification par conception : n'importe quelle machine du réseau peut répondre à une requête qui ne lui était pas destinée, et les réponses ARP non sollicitées (*gratuitous*) sont acceptées sans vérification par la plupart des systèmes. Ce n'est pas un bug d'implémentation à corriger — c'est le protocole lui-même qui est intrinsèquement vulnérable, d'où la nécessité de contre-mesures externes (DAI, chiffrement).
+
 **Outil** : `arpspoof`, `ettercap`, `bettercap`
 
 ```bash
@@ -74,6 +80,9 @@ arpspoof -i eth0 -t 192.168.1.10 192.168.1.1
 - **ARP statique** — entrées manuelles non modifiables (pas pratique à grande échelle)
 - **Chiffrement** (TLS/HTTPS) — même si intercepté, les données restent illisibles
 - **Surveillance réseau** — détecter les changements d'adresses MAC suspects
+
+> [!tip] Détecter un ARP poisoning en cours
+> Comparer la MAC associée à l'IP de la passerelle dans son cache (`arp -n`) à intervalles réguliers. Un changement de MAC sans redémarrage du routeur, ou deux IPs différentes répondant à la même MAC, sont les signaux les plus fiables — plus fiable qu'un outil dédié quand on n'en a pas sous la main.
 
 ## ARP vs RARP vs GARP
 

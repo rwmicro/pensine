@@ -16,6 +16,9 @@ date: "2026-02-25"
 
 **Microservices** : 2012-2014 — popularisé par Netflix, Amazon, Martin Fowler. Services petits, indépendants, déployables séparément, organisés autour des capacités métier.
 
+> [!important] Distinction clé avec SOA
+> SOA et microservices décomposent tous deux en services, mais SOA centralise l'intégration dans un bus d'entreprise (ESB) partagé — un point de couplage et de défaillance commun. Les microservices communiquent directement (HTTP, messages) sans intermédiaire central, ce qui réduit le couplage mais déplace la complexité vers l'observabilité.
+
 ## Caractéristiques
 
 **Faiblement couplés** : un service peut être modifié, déployé ou redémarré sans affecter les autres.
@@ -202,6 +205,9 @@ Service Livraison échoue → Stock libéré → Remboursement
 
 **Orchestration** : un orchestrateur central coordonne les étapes et gère les compensations.
 
+> [!tip] Chorégraphie vs orchestration
+> La chorégraphie évite un point central mais rend le flux global difficile à visualiser (il faut lire le code de chaque service pour comprendre l'enchaînement). L'orchestration centralise la logique dans un seul endroit lisible, au prix d'un composant supplémentaire à maintenir. Préférer l'orchestration dès que la saga a plus de 3-4 étapes.
+
 ### Strangler Fig Pattern
 
 Migration progressive d'un monolithe vers des microservices. On ajoute un proxy devant le monolithe, puis on extrait progressivement des fonctionnalités vers de nouveaux services. Le monolithe est "étranglé" progressivement jusqu'à disparaître.
@@ -252,5 +258,8 @@ async def obtenir_commande(id: int):
 - Application simple ou incertitude sur le domaine métier — impossible de définir de bons bounded contexts avant de comprendre le domaine
 - Faible charge — le scaling granulaire n'apporte rien
 - Pas de culture DevOps — les microservices nécessitent CI/CD mature, monitoring, déploiements automatisés
+
+> [!warning] Piège fréquent
+> Découper en microservices avant de bien comprendre le domaine métier fige des frontières de service qui se révèlent souvent mauvaises — corriger un mauvais découpage de services distribués (données déjà séparées, contrats d'API déjà consommés) coûte bien plus cher que corriger un mauvais découpage de modules dans un monolithe.
 
 Conseil : commencer avec un monolithe bien structuré (modulaire), puis extraire des services quand des besoins de scaling indépendant ou d'organisation en équipes séparées émergent.

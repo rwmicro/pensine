@@ -4,15 +4,14 @@
 
 Les *ulimits* plafonnent les ressources qu'un utilisateur ou un processus peut consommer (nombre de processus, fichiers ouverts, mémoire…). Ils protègent le système contre l'épuisement, accidentel (boucle de `fork`) ou malveillant (*fork bomb*).
 
-**Modèle mental : limite douce (soft) vs limite dure (hard).**
-
-```
-        0 ───────────── soft ─────────── hard ──────► ∞
-                          │                │
-        l'utilisateur peut ajuster sa      l'utilisateur NE PEUT PAS
-        soft limit librement entre 0       dépasser la hard ; seul root
-        et la hard limit                   peut l'élever
-```
+> [!tip] Modèle mental : limite douce (soft) vs limite dure (hard)
+> ```
+>         0 ───────────── soft ─────────── hard ──────► ∞
+>                           │                │
+>         l'utilisateur peut ajuster sa      l'utilisateur NE PEUT PAS
+>         soft limit librement entre 0       dépasser la hard ; seul root
+>         et la hard limit                   peut l'élever
+> ```
 
 - **soft** : la limite réellement appliquée, modifiable par l'utilisateur **jusqu'à** la hard.
 - **hard** : le plafond absolu ; seul root peut le relever.
@@ -38,11 +37,11 @@ jackie      hard     nproc       1024
 - **type** : `soft`, `hard`, ou `-` (les deux).
 - **item** : `nproc` (nb de processus), `nofile` (fichiers ouverts), `maxlogins` (sessions simultanées), `fsize`, `as` (mémoire)…
 
-**Pièges** :
-- Une limite via `.bashrc` n'est **pas** une vraie limite système : l'utilisateur peut l'éditer ou la relever. La « bonne » façon est `limits.conf`.
-- `limits.conf` n'agit qu'aux **nouvelles** sessions de login (via PAM) — pas sur les processus déjà lancés.
-- `@nom` cible un **groupe** ; sans `@`, c'est un utilisateur.
-- Une soft limit ne peut jamais dépasser la hard ; définir d'abord la hard si on veut une soft élevée.
+> [!warning] Pièges
+> - Une limite via `.bashrc` n'est **pas** une vraie limite système : l'utilisateur peut l'éditer ou la relever. La « bonne » façon est `limits.conf`.
+> - `limits.conf` n'agit qu'aux **nouvelles** sessions de login (via PAM) — pas sur les processus déjà lancés.
+> - `@nom` cible un **groupe** ; sans `@`, c'est un utilisateur.
+> - Une soft limit ne peut jamais dépasser la hard ; définir d'abord la hard si on veut une soft élevée.
 
 ## Énoncé
 

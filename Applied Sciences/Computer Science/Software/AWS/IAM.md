@@ -39,6 +39,9 @@ aws iam list-users
 
 **Bonne pratique** : ne pas utiliser le compte root AWS pour le travail quotidien. Créer un utilisateur IAM avec les permissions nécessaires. Activer MFA sur le compte root.
 
+> [!warning] Piège fréquent
+> Le compte root ne peut être restreint par **aucune** politique IAM — il a un accès total et illimité, y compris pour fermer le compte ou changer les moyens de facturation. Un compromis du root est donc irrattrapable par des permissions IAM ; le seul rempart est le MFA et le fait de ne jamais l'utiliser au quotidien.
+
 ### Groupes (Groups)
 
 Regroupent des utilisateurs pour leur attribuer des permissions communes.
@@ -69,6 +72,9 @@ aws sts assume-role \
 
 # Résultat : credentials temporaires (AccessKeyId + SecretAccessKey + SessionToken)
 ```
+
+> [!tip] Rôles vs clés d'accès
+> Les rôles délivrent des credentials qui expirent (15 min à 12h) et ne transitent jamais par un fichier ou une variable stockée durablement — contrairement à une clé d'accès qui reste valide indéfiniment jusqu'à rotation manuelle. Pour tout ce qui s'exécute dans AWS (EC2, Lambda, ECS), toujours préférer un rôle attaché à la ressource plutôt que des clés en dur.
 
 ### Service Accounts
 
@@ -106,6 +112,9 @@ Une politique est un document JSON définissant les permissions.
   ]
 }
 ```
+
+> [!important] Ordre d'évaluation IAM
+> Par défaut tout est refusé (deny implicite). Un `Allow` explicite lève ce refus — mais un `Deny` explicite, où qu'il apparaisse (policy identité, policy de ressource, SCP), l'emporte toujours sur n'importe quel `Allow`. C'est ce qui permet aux SCPs de servir de garde-fou infranchissable au niveau organisation.
 
 **Effect** : `Allow` ou `Deny`. Un `Deny` explicite l'emporte toujours sur un `Allow`.
 

@@ -10,6 +10,9 @@ date: 2026-03-22
 
 Les vulnérabilités DOM-based se produisent entièrement côté client : les données malveillantes passent d'une **source** contrôlable à un **sink** dangereux sans jamais traverser le serveur. Elles ne sont pas détectables par les scanners côté serveur.
 
+> [!important] Différence avec le XSS réfléchi/stocké
+> Dans un XSS réfléchi ou stocké, le payload transite par le serveur (dans l'URL renvoyée, ou en base). Dans un DOM XSS, le serveur ne voit jamais le payload malveillant — tout se joue en JavaScript côté navigateur. Un WAF ou une sanitisation côté serveur est donc totalement aveugle à ce type de faille.
+
 ## Sources et Sinks
 
 ```
@@ -103,6 +106,9 @@ ws.onmessage = (event) => {
 
 Technique qui exploite la possibilité de contrôler des variables globales JavaScript via des éléments HTML ayant des `id` ou `name` spécifiques.
 
+> [!warning] Piège fréquent
+> On pense généralement que sans `<script>` injectable, il n'y a pas d'exploitation possible. Le DOM Clobbering prouve le contraire : de simples balises HTML autorisées par un filtre anti-XSS trop permissif (`<a>`, `<img>`, `<form>`) suffisent à écraser des variables JavaScript globales que le code de la page croit fiables.
+
 ### Principe
 
 ```html
@@ -189,6 +195,9 @@ window.location = next;  // Pas de validation
 ```
 
 ## Détection
+
+> [!tip] Méthode générale
+> Suivre chaque **source** contrôlable (`location.hash`, `postMessage`...) dans le code JS et vérifier où sa valeur finit par atterrir. Si elle arrive dans un **sink** dangereux (`innerHTML`, `eval`...) sans passer par une fonction de sanitisation entre les deux, c'est exploitable — peu importe la complexité du chemin entre les deux.
 
 ```bash
 # Outils de scan DOM XSS

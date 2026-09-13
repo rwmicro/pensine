@@ -4,15 +4,14 @@
 
 Les quotas limitent l'espace disque (et le nombre de fichiers) qu'un utilisateur ou un groupe peut consommer sur un système de fichiers. Ils empêchent qu'un seul utilisateur sature `/home` pour tout le monde.
 
-**Modèle mental : deux dimensions × deux seuils.**
-
-```
-                  blocs (espace)        inodes (nombre de fichiers)
-soft (souple)   ┌──────────────┐      ┌──────────────┐
-                │ dépassable     │      │ dépassable     │  pendant un "grace period"
-hard (dur)      │ JAMAIS dépassé │      │ JAMAIS dépassé │
-                └──────────────┘      └──────────────┘
-```
+> [!tip] Modèle mental : deux dimensions × deux seuils
+> ```
+>                   blocs (espace)        inodes (nombre de fichiers)
+> soft (souple)   ┌──────────────┐      ┌──────────────┐
+>                 │ dépassable     │      │ dépassable     │  pendant un "grace period"
+> hard (dur)      │ JAMAIS dépassé │      │ JAMAIS dépassé │
+>                 └──────────────┘      └──────────────┘
+> ```
 
 On limite **deux ressources** (l'espace en *blocs*, et le nombre de fichiers en *inodes*) avec **deux seuils** chacune :
 - **soft** : peut être dépassée temporairement, pendant un *délai de grâce* (*grace period*) ; au-delà, blocage.
@@ -40,11 +39,11 @@ repquota /home          # rapport complet du système de fichiers
 
 **La « technique du prototype »** : copier les quotas d'un utilisateur modèle vers les nouveaux comptes avec `edquota -p modele -u nouveau` — pratique pour appliquer un défaut commun.
 
-**Pièges** :
-- Les quotas doivent être **activés à deux endroits** : option de montage dans `/etc/fstab` (`usrquota`/`grpquota`) **et** `quotaon`. Oublier le remontage = quotas inactifs.
-- `quotacheck` doit idéalement tourner FS démonté ou en lecture seule pour un comptage exact.
-- Sur un FS **XFS**, les quotas se gèrent différemment (`xfs_quota`, options `uquota`/`gquota`) — pas de `quotacheck`.
-- Une limite soft sans *grace period* configuré se comporte presque comme une hard.
+> [!warning] Pièges
+> - Les quotas doivent être **activés à deux endroits** : option de montage dans `/etc/fstab` (`usrquota`/`grpquota`) **et** `quotaon`. Oublier le remontage = quotas inactifs.
+> - `quotacheck` doit idéalement tourner FS démonté ou en lecture seule pour un comptage exact.
+> - Sur un FS **XFS**, les quotas se gèrent différemment (`xfs_quota`, options `uquota`/`gquota`) — pas de `quotacheck`.
+> - Une limite soft sans *grace period* configuré se comporte presque comme une hard.
 
 ## Énoncé
 

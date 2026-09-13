@@ -27,6 +27,9 @@ Syslog est un protocole standard pour la journalisation des événements réseau
 | 6 | Informational | Message informatif |
 | 7 | Debug | Messages de débogage |
 
+> [!tip] Méthode pour retenir l'ordre
+> Plus le niveau est **bas**, plus l'événement est **grave** — c'est l'inverse de l'intuition (on associe souvent "haut niveau" à "urgent"). Configurer `logging trap warning` (niveau 4) capture les niveaux 0 à 4 inclus, pas seulement les avertissements eux-mêmes.
+
 **Configuration Syslog Cisco** :
 ```cisco
 ! Configurer le serveur Syslog
@@ -79,6 +82,9 @@ Router(config)#snmp-server user admin ADMIN v3 auth sha MonMotDePasse priv aes 1
 Router#show snmp
 Router#show snmp community
 ```
+
+> [!warning] Piège fréquent
+> SNMPv1/v2c transmettent la community string **en clair** sur le réseau, y compris en mode `rw` (lecture/écriture) — un attaquant qui la capture peut reconfigurer l'équipement. Beaucoup de matériel garde encore `public`/`private` par défaut : c'est une des premières choses à vérifier lors d'un audit réseau. SNMPv3 avec authentification et chiffrement (`auth sha ... priv aes`) doit être préféré dès que possible.
 
 ### NetFlow
 

@@ -54,6 +54,9 @@ graph LR
 - **Méthode du coude (Elbow method)** : tracer l'inertie en fonction de K, chercher le "coude"
 - **Silhouette Score** : mesure la qualité de séparation des clusters (entre -1 et 1, plus c'est haut mieux c'est)
 
+> [!warning] Piège fréquent
+> K-Means suppose des clusters **sphériques de tailles comparables** — c'est une hypothèse forte, pas un détail technique. Sur des clusters de formes allongées, imbriquées ou de densités très différentes, K-Means découpe mal même avec le bon K. Vérifier la forme des données (visualisation, PCA) avant de s'y fier, ou préférer DBSCAN.
+
 | Avantages | Inconvénients |
 |-----------|---------------|
 | Simple et rapide | Il faut choisir K à l'avance |
@@ -141,6 +144,9 @@ Technique de visualisation en 2D/3D qui préserve les **distances locales**.
 | **Reproductibilité** | Déterministe | Stochastique (varie selon le seed) |
 | **Utilisation** | Réduction + analyse | Visualisation uniquement |
 
+> [!warning] Piège fréquent
+> Les distances entre clusters visibles sur un plot t-SNE ne sont **pas interprétables** — deux clusters qui semblent proches ou une taille de cluster qui semble grande ne reflètent rien de fiable sur les distances réelles dans l'espace d'origine. t-SNE préserve les voisinages locaux, pas la géométrie globale : ne jamais en tirer de conclusion quantitative, seulement une intuition qualitative de regroupement.
+
 ### UMAP (Uniform Manifold Approximation and Projection)
 
 Alternative moderne à t-SNE :
@@ -186,6 +192,9 @@ graph TD
 ## Détection d'anomalies
 
 Identifier des points de données qui **dévient significativement** du comportement normal. Utilisé en détection de fraude, monitoring de systèmes, contrôle qualité, cybersécurité.
+
+> [!tip] Méthode de choix
+> Pas de features labellisées et beaucoup de dimensions → **Isolation Forest** (rapide, scalable). Structure locale importante et dataset petit/moyen → **LOF**. Relations non-linéaires complexes (images, séquences) → **Autoencoder**. Anomalies déjà mêlées au clustering en cours → les points "bruit" de **DBSCAN**.
 
 ### Isolation Forest
 

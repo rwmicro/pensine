@@ -4,12 +4,11 @@
 
 Les variables d'environnement configurent le comportement des programmes sans toucher à leur code (`PATH`, `LANG`, `HOME`, proxies…). Comprendre **leur portée** est le cœur de cet exercice.
 
-**Modèle mental : variable de shell vs variable d'environnement.**
-
-```bash
-VAR=valeur          # variable de SHELL : visible dans ce shell uniquement
-export VAR=valeur   # variable d'ENVIRONNEMENT : héritée par tous les processus enfants
-```
+> [!tip] Modèle mental : variable de shell vs variable d'environnement
+> ```bash
+> VAR=valeur          # variable de SHELL : visible dans ce shell uniquement
+> export VAR=valeur   # variable d'ENVIRONNEMENT : héritée par tous les processus enfants
+> ```
 
 La différence se joue à `export`. Sans `export`, la variable existe dans le shell courant mais **disparaît** dès qu'on lance un sous-processus. Avec `export`, elle est copiée dans l'environnement de chaque enfant.
 
@@ -43,10 +42,10 @@ set                   # lister TOUT (shell + environnement + fonctions)
 printenv VAR          # afficher une variable d'environnement précise
 ```
 
-**Pièges** :
-- `VAR = valeur` (avec espaces) est une **erreur** : bash y voit une commande `VAR`. Toujours `VAR=valeur` sans espace.
-- `env | grep VAR` ne montre **pas** les variables non exportées — utiliser `set` pour celles-ci.
-- Modifier `~/.bashrc` ne prend effet qu'aux nouveaux shells (ou après `source ~/.bashrc`).
+> [!warning] Pièges
+> - `VAR = valeur` (avec espaces) est une **erreur** : bash y voit une commande `VAR`. Toujours `VAR=valeur` sans espace.
+> - `env | grep VAR` ne montre **pas** les variables non exportées — utiliser `set` pour celles-ci.
+> - Modifier `~/.bashrc` ne prend effet qu'aux nouveaux shells (ou après `source ~/.bashrc`).
 
 ## Énoncé
 

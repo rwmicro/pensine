@@ -42,6 +42,9 @@ Un paquet IP est constitué d'un en-tête (20 à 60 octets) suivi des données.
 | Protocol | 8 bits | 6=TCP, 17=UDP, 1=ICMP, 89=OSPF |
 | Source/Dest | 32 bits | Adresses IP émetteur et destinataire |
 
+> [!tip] Comment traceroute exploite le TTL
+> Chaque routeur décrémente le TTL de 1 ; quand il atteint 0, le paquet est rejeté avec un ICMP Time Exceeded renvoyé à la source. Traceroute envoie des paquets avec TTL=1, puis 2, puis 3... — chaque routeur intermédiaire "s'expose" en répondant, ce qui révèle le chemin complet saut par saut.
+
 ## Espace d'adressage
 
 IPv4 utilise des adresses de 32 bits → 2³² = 4 294 967 296 adresses théoriques. En pratique, beaucoup sont réservées.
@@ -132,6 +135,9 @@ route print
 2. En cas d'égalité de préfixe → choisir la métrique la plus faible
 3. En cas d'égalité de métrique → ECMP (Equal-Cost Multi-Path)
 ```
+
+> [!warning] Piège fréquent
+> Une route plus spécifique gagne **toujours**, même si sa métrique est pire — la longueur du préfixe prime sur la métrique, qui ne départage qu'entre routes de même spécificité. Une route statique /32 mal ajoutée peut ainsi silencieusement court-circuiter tout un plan de routage dynamique soigneusement métrique.
 
 ## Protocoles associés
 
