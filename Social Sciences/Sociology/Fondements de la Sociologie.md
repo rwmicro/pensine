@@ -36,6 +36,9 @@ Sa **loi des trois états** : toute société passe par trois stades de pensée 
 
 Le stade positif est l'horizon de la sociologie : comprendre la société par l'observation, pas par la spéculation.
 
+> [!warning] Piège
+> Le positivisme de Comte n'est pas une neutralité scientifique discrète — c'est une doctrine de progrès presque prophétique : Comte pense qu'une fois au stade positif, l'humanité peut être réorganisée rationnellement, au point de fonder plus tard une "Religion de l'Humanité" avec ses propres rites. Utile à savoir pour ne pas présenter la loi des trois états comme une simple observation empirique neutre — c'est aussi un projet politique et moral du XIXe siècle.
+
 ## L'objet de la sociologie
 
 ### Qu'étudie la sociologie ?
@@ -78,6 +81,9 @@ Exemple : le taux de suicide d'un pays ne s'explique pas par les motifs individu
 Le point de départ est l'**individu et le sens qu'il donne à son action**. La société n'est pas une entité au-dessus des individus — elle est le résultat de millions d'actions individuelles orientées les unes vers les autres.
 
 Exemple : le capitalisme ne s'explique pas seulement par des forces économiques mais par l'*ethos* protestant (Weber, *L'Ethique protestante et l'esprit du capitalisme*) — les croyances individuelles ont des effets collectifs.
+
+> [!important] Idée clé
+> Cette opposition holisme/individualisme n'est pas propre à la sociologie — c'est la même tension qui oppose structuralisme et existentialisme en philosophie, ou objectivisme et subjectivisme chez [[Fondateurs/Pierre Bourdieu|Bourdieu]]. Repérer ce clivage structure/acteur est un réflexe transférable : à peu près chaque théoricien des sciences humaines se positionne, explicitement ou non, quelque part sur cet axe.
 
 ### Au-delà de l'opposition
 

@@ -33,6 +33,9 @@ Formule la plus célèbre de Weber pour caractériser ce processus : le **désen
 
 Le désenchantement ne signifie pas que chaque individu, personnellement, cesse de croire au sacré — il désigne un processus civilisationnel : les institutions, l'économie, le droit, la science fonctionnent de moins en moins en référence à des justifications magiques ou religieuses, et de plus en plus selon des procédures rationnelles autonomes, indépendantes de toute croyance particulière.
 
+> [!warning] Piège
+> "Rationalisation" chez Weber ne veut pas dire "amélioration" ou "progrès" — c'est un terme descriptif, pas normatif. Une procédure peut être parfaitement rationnelle au sens wébérien (calculable, prévisible, impersonnelle) et produire des résultats absurdes ou inhumains : c'est précisément le sens de l'image de la "cage de fer" plus bas, où la rationalisation devient elle-même une contrainte qui échappe à tout contrôle rationnel sur ses fins.
+
 ## Les quatre types de rationalité (typologie complète)
 
 Weber distingue plusieurs formes de rationalité, dont la généralisation caractérise la modernisation occidentale — reprenant et précisant sa typologie de l'action sociale.

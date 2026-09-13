@@ -14,6 +14,9 @@ Forme d'organisation analysée en profondeur par Max Weber comme l'incarnation i
 
 Weber décrit la bureaucratie comme un **type idéal** : un modèle conceptuel épuré, rarement réalisé à la perfection dans la réalité, mais qui permet de comprendre la logique commune aux administrations d'État modernes, aux grandes entreprises et aux organisations complexes en général.
 
+> [!warning] Piège
+> "Type idéal" ne veut pas dire "modèle à atteindre" ou "meilleure forme possible" — c'est un outil méthodologique neutre (voir [[Fondateurs/Max Weber#Types idéaux|Types idéaux]]), pas un jugement de valeur. Weber peut décrire la bureaucratie comme type idéal tout en la critiquant sévèrement (la "cage de fer" plus bas) : "idéal" renvoie ici à "idée" épurée, pas à "idéal" au sens moral du terme.
+
 | Caractéristique | Contenu |
 |---|---|
 | **Hiérarchie des fonctions** | Chaque poste est subordonné clairement à un poste supérieur, dans une chaîne de commandement précise |

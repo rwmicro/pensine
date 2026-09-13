@@ -65,6 +65,9 @@ Fondateur de la sociologie scientifique française et figure majeure de la disci
    - **Contrainte:** S'impose (sanctions si transgression)
    - **Généralité:** Collectif, diffus dans la société
 
+> [!warning] Piège
+> Les trois critères doivent être réunis, pas pris isolément — sinon "fait social" devient un mot fourre-tout pour "tout ce qui est partagé". Un goût culturel largement répandu n'est pas forcément contraignant ; une règle de politesse contraignante mais purement locale (une famille) n'est pas assez générale. C'est la combinaison extériorité + contrainte + généralité qui distingue un fait social d'une simple régularité statistique.
+
 2. **"Traiter les faits sociaux comme des choses":**
    - Objectivation
    - Observation externe
@@ -118,6 +121,9 @@ Fondateur de la sociologie scientifique française et figure majeure de la disci
    - Transitions rapides (boom économique ou krach)
    - Divorce (dérèglement familial)
 
+> [!important] Idée clé
+> Égoïste et anomique sont souvent confondus car les deux renvoient à un manque de régulation — mais ils portent sur deux axes distincts de la typologie. L'égoïste manque de liens sociaux (axe **intégration** : appartenir à un groupe qui donne du sens). L'anomique manque de normes qui limitent les désirs (axe **régulation** : des règles qui fixent ce qu'on peut légitimement vouloir). On peut être fortement intégré mais anomique (une crise économique frappe une communauté soudée) ou peu intégré mais régulé.
+
 4. **Suicide fataliste:**
    - (Mentionné en note de bas de page)
    - Régulation excessive, oppression
@@ -156,6 +162,9 @@ Fondateur de la sociologie scientifique française et figure majeure de la disci
    - Totem = emblème du clan
    - Clan vénère en réalité la société elle-même
    - **"Dieu, c'est la société transfigurée et pensée symboliquement"**
+
+> [!tip] Méthode
+> Ne pas lire cette thèse comme une dénonciation ("la religion n'est qu'une illusion masquant la société"). Durkheim fait le contraire : il prend la religion très au sérieux comme phénomène réel, parce qu'elle capte quelque chose de vrai — la force du groupe telle qu'elle est vécue par ses membres pendant l'effervescence collective. Le sacré n'est pas une erreur à corriger, c'est l'expérience authentique (mais mal identifiée) d'une force sociale bien réelle.
 
 5. **Fonction de la religion:**
    - Renforcer cohésion sociale

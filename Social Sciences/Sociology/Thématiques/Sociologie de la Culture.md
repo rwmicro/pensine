@@ -27,13 +27,22 @@ Pierre Bourdieu (*La Distinction*, 1979) constitue l'ouvrage fondateur du champ 
 
 Depuis les années 1990, un constat empirique vient nuancer le modèle bourdieusien de la distinction stricte : Richard Peterson observe, notamment aux États-Unis, l'émergence d'un nouveau profil culturel chez les catégories socialement les plus favorisées — l'**omnivore culturel**, qui ne se contente plus de consommer exclusivement de la culture "légitime" (opéra, art contemporain) mais revendique aussi, et parfois avec fierté, une appréciation de formes culturelles autrefois jugées "populaires" (musique country, cuisine de rue, culture geek). Cette **omnivorité** devient elle-même, paradoxalement, un nouveau marqueur de distinction sociale — la capacité à apprécier ET la culture légitime ET une diversité de cultures populaires, avec discernement, signale un capital culturel encore plus étendu que la seule maîtrise de la culture légitime traditionnelle. Ce constat nuance, sans l'invalider entièrement, la thèse bourdieusienne d'une opposition binaire stricte entre goûts légitimes et goûts populaires.
 
+> [!warning] Piège
+> Ne pas lire l'omnivorisme comme la preuve que "les frontières de classe dans la culture ont disparu" — c'est l'inverse : la capacité à circuler *avec discernement* entre culture légitime et culture populaire (savoir quelle série ou quel rappeur il est socialement valorisé d'apprécier, et lesquels non) redevient elle-même un marqueur de compétence sociale, réservé à ceux qui maîtrisent déjà les codes de la légitimité culturelle. Peterson déplace la frontière de classe, il ne la supprime pas.
+
 ## Institution et définition sociale de l'art (Howard Becker)
 
 Howard Becker (*Les Mondes de l'art*, 1982) — voir [[Sociology/Grands Courants Théoriques#Interactionnisme Symbolique|Interactionnisme Symbolique]] — déplace l'analyse de l'œuvre d'art isolée vers le **monde de l'art** comme réseau de coopération collective : une œuvre n'existe socialement comme "art" que par la coopération d'un vaste ensemble d'acteurs (artistes, mais aussi critiques, galeristes, techniciens, fournisseurs de matériaux, publics) organisés selon des conventions partagées, souvent invisibles, qui définissent ce qui compte comme œuvre achevée, comme talent reconnu, comme innovation légitime plutôt que comme erreur ou provocation gratuite.
 
+> [!tip] Méthode
+> Cette approche explique un phénomène que la seule analyse de l'œuvre ne peut pas expliquer : pourquoi un "art brut" ou un artiste "outsider" techniquement comparable à un artiste consacré reste rarement reconnu — non par manque de qualité intrinsèque, mais faute d'être inséré dans le réseau de coopération (galeristes, critiques, institutions) qui produit collectivement le statut d'œuvre d'art.
+
 ## Démocratisation vs "démographisation" culturelle
 
 Débat récurrent en sociologie française de la culture, notamment depuis les enquêtes répétées du Ministère de la Culture sur les pratiques culturelles des Français : les politiques publiques de démocratisation culturelle (multiplication des équipements culturels, gratuité, éducation artistique) ont-elles réellement démocratisé l'accès à la culture légitime entre les classes sociales, ou ont-elles surtout permis une **démocratisation quantitative** (plus de monde fréquente les musées et les théâtres en valeur absolue) sans réduire l'écart relatif de fréquentation entre catégories sociales, qui reste statistiquement très marqué au profit des catégories favorisées et diplômées ? Les enquêtes successives penchent plutôt vers ce second constat, plus pessimiste que l'ambition initiale des politiques de démocratisation culturelle portées en France depuis André Malraux.
+
+> [!important] Idée clé
+> Distinguer démocratisation (réduction de l'écart *relatif* entre classes sociales) et démocratisation quantitative (hausse de la fréquentation en *valeur absolue*, écart relatif inchangé) est le même type de piège méthodologique que la "démocratisation ségrégative" en sociologie de l'éducation — voir [[Sociologie de l'Éducation#Massification et Démocratisation]] : un accès élargi peut masquer, plutôt que réduire, une inégalité structurelle qui se redéplace ailleurs (ici, quel type d'équipement culturel ; là, quelle filière scolaire).
 
 ## Auteurs de référence
 

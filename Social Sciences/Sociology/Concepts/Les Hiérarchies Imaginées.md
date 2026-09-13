@@ -91,3 +91,6 @@ Ces récits occultent le rôle du capital hérité, des réseaux sociaux, des di
 Toutes les différences humaines ne sont pas des hiérarchies imaginées. Certaines différences biologiques existent (force musculaire moyenne, susceptibilité à certaines maladies). La question pertinente n'est pas "existe-t-il des différences ?" mais "ces différences justifient-elles une hiérarchie sociale et politique ?".
 
 La réponse de l'éthique moderne est non : les différences biologiques justifient des adaptations pratiques (médecine personnalisée, équipements sportifs séparés), pas une inégalité de droits, de dignité ou d'opportunités.
+
+> [!important] Idée clé
+> C'est exactement le raisonnement que critique Bourdieu sous le nom de [[Violence Symbolique|violence symbolique]] : une hiérarchie devient la plus difficile à contester quand les dominés eux-mêmes en intériorisent les catégories de perception au point de la percevoir comme naturelle. Les deux concepts décrivent le même mécanisme de naturalisation, à deux échelles différentes — celle des grandes hiérarchies historiques ici, celle du quotidien (école, langage, goût) chez Bourdieu.

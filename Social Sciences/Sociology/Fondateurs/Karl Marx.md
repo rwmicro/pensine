@@ -164,6 +164,9 @@ INFRASTRUCTURE (forces productives + rapports de production)
 - Contradiction entre forces productives et rapports de production
 - Lutte des classes
 
+> [!warning] Piège
+> Le schéma infrastructure → superstructure est souvent lu comme un déterminisme économique strict ("tout se réduit à l'économie"), objection reprise plus loin dans les Critiques. Marx lui-même est plus nuancé dans ses textes tardifs : la superstructure a une autonomie relative et peut rétroagir sur l'infrastructure (le droit, l'État peuvent freiner ou accélérer des transformations économiques). C'est surtout le marxisme vulgaire de la Seconde Internationale qui a figé le schéma en causalité mécanique à sens unique.
+
 ### Lutte des Classes
 
 **Principe:**
@@ -178,6 +181,9 @@ INFRASTRUCTURE (forces productives + rapports de production)
 - **Classe en soi:** Position objective dans rapports de production
 - **Classe pour soi:** Conscience de ses intérêts, organisation politique
 - Prolétariat doit devenir classe pour soi pour faire la révolution
+
+> [!tip] Méthode
+> La distinction en soi/pour soi est réutilisable au-delà du marxisme : elle sépare la position structurelle objective (qui partage les mêmes contraintes) de la conscience collective de cette position (qui s'organise autour). [[Fondateurs/Pierre Bourdieu|Bourdieu]] retrouve une tension proche entre classe objective (définie par le volume/structure du capital) et mobilisation effective des groupes sociaux — sans reprendre le schéma révolutionnaire de Marx.
 
 **Mission historique du prolétariat:**
 - Classe universelle
@@ -203,6 +209,9 @@ INFRASTRUCTURE (forces productives + rapports de production)
 **Critique:**
 - Idéologie ne tombe pas du ciel
 - Correspond aux intérêts matériels de la classe dominante
+
+> [!important] Idée clé
+> Ne pas confondre avec le sens courant du mot ("un système d'idées", neutre). Chez Marx, "idéologie" désigne spécifiquement une représentation qui masque son origine sociale et se présente comme naturelle, universelle ou évidente — c'est le mécanisme de dissimulation qui définit le terme, pas le simple fait d'avoir des idées politiques.
 
 ### Aliénation (concept jeune Marx)
 

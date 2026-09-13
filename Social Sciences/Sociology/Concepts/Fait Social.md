@@ -25,6 +25,9 @@ Durkheim définit le fait social par trois caractères qui, ensemble, le disting
 
 Cette prescription ne signifie pas que le social serait matériel comme un objet physique — elle exige seulement d'étudier les phénomènes sociaux de l'extérieur, par l'observation empirique méthodique, sans les expliquer par les intentions ou les représentations subjectives des individus, à la manière dont un physicien étudie un phénomène naturel sans s'interroger sur "ce que ça fait" d'être une pierre qui tombe.
 
+> [!tip] Méthode
+> Pour repérer un fait social dans un exemple concret, chercher les trois caractères ensemble, pas séparément : une mode vestimentaire est générale (beaucoup de gens la suivent) mais peu contraignante (ne pas la suivre n'entraîne pas de sanction réelle) — elle est donc un fait social faible. Le port de vêtements tout court, en revanche, est extérieur, général ET fortement contraignant (nudité publique sanctionnée) : fait social fort. La force du fait social se mesure à l'intensité de la sanction encourue, pas à sa seule fréquence statistique.
+
 ## Exemples types
 
 ```

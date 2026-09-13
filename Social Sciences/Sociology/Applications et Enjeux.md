@@ -37,6 +37,9 @@ Michael Burawoy (*Pour la sociologie publique*, 2005) propose de distinguer quat
 | **Politique** | Décideurs, institutions | Fournir des expertises, des évaluations |
 | **Publique** | Citoyens, médias, société civile | Démocratiser le savoir sociologique |
 
+> [!warning] Piège
+> La "neutralité axiologique" wébérienne n'est pas elle-même neutre : choisir de décrire sans juger est déjà une position — celle qui consiste à traiter les rapports de domination comme un objet parmi d'autres plutôt que comme un problème à dénoncer. S'en tenir à cette posture face à une inégalité flagrante est un choix politique déguisé en rigueur scientifique, ce que la sociologie critique (Bourdieu) reproche précisément à l'école wébérienne.
+
 ## Les grands enjeux contemporains
 
 ### Inégalités et stratification
@@ -49,6 +52,9 @@ Les inégalités augmentent dans la plupart des pays développés depuis les ann
 | **Reproduction sociale** | Bourdieu : le capital culturel (maitrise de la langue légitime, culture générale) se transmet de parent à enfant aussi surement que le capital économique |
 | **Intersectionnalité** | Crenshaw (1989) : les oppressions (classe, race, genre) ne s'additionnent pas — elles se croisent et produisent des expériences spécifiques |
 | **Déclassement** | Peugny : la peur du déclassement (descendre dans l'échelle sociale par rapport à ses parents) structure les comportements politiques |
+
+> [!important] Idée clé
+> Le r > g de Piketty et la conversion des capitaux chez Bourdieu (voir [[Concepts Fondamentaux#Capital (Bourdieu)|Capital]]) décrivent le même mécanisme sous deux formes : dans les deux cas, ce qu'on possède déjà (capital financier ou capital culturel/social hérité) rapporte plus que ce qu'on produit par son propre travail — l'origine sociale pèse donc plus lourd que le mérite individuel, quelle que soit la variable mesurée.
 
 ### Numérique et société
 

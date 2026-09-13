@@ -39,6 +39,9 @@ date: "2026-02-25"
 - Sous-estime conflits, changements
 - Téléologie (expliquer par fonction = circulaire)
 
+> [!tip] Méthode
+> La distinction fonctions manifestes/latentes de Merton est précisément sa réponse à la critique de circularité téléologique. Une fonction manifeste est l'effet voulu et reconnu (une danse de la pluie renforce la cohésion... en principe pour faire pleuvoir). Une fonction latente est un effet réel mais non intentionnel et non reconnu par les acteurs (la danse de la pluie renforce en fait la cohésion du groupe, indépendamment de la pluie). Chercher systématiquement la fonction latente d'une pratique est le réflexe fonctionnaliste le plus productif.
+
 ### Interactionnisme Symbolique
 
 *Voir le développement complet : [[Courants/Interactionnisme Symbolique]]*
@@ -117,6 +120,9 @@ date: "2026-02-25"
 - Sous-estime agency (capacité d'action)
 - Anhistorique
 
+> [!warning] Piège
+> Foucault est classé ici par commodité mais se désigne lui-même comme **post**-structuraliste, pas structuraliste : contrairement à Lévi-Strauss (structures inconscientes stables, quasi universelles) ou Althusser (structures économiques déterminantes), son pouvoir est diffus, instable, historiquement situé et productif plutôt que seulement répressif — il n'y a pas de structure fixe à décoder derrière les pratiques, seulement des rapports de force en perpétuel réagencement.
+
 ### Individualisme Méthodologique
 
 **Principe:**
@@ -142,6 +148,9 @@ date: "2026-02-25"
 - Atomisme
 - Rationalité limitée (Simon)
 - Sous-estime normes, culture
+
+> [!important] Idée clé
+> Les "effets pervers" de Boudon sont le miroir individualiste des fonctions latentes de Merton : même intérêt pour des résultats collectifs non voulus, mais génétique opposée. Merton part du système et cherche ce qu'une pratique fait pour lui, sans intention des acteurs. Boudon part des individus rationnels et montre comment leurs choix cohérents s'agrègent en un résultat que personne n'a choisi (ex. embouteillage : chacun optimise son trajet, tous ralentissent).
 
 ### Théorie Critique (École de Francfort)
 

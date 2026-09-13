@@ -64,6 +64,9 @@ Coquard étudie **ceux qui restent** dans les campagnes populaires frappées par
 
 **Valeur:** Dans un contexte de déclin, ce capital devient la principale ressource face au manque de capital économique et scolaire.
 
+> [!important] Idée clé
+> Le capital d'autochtonie n'est pas un cinquième capital ajouté aux quatre de Bourdieu (voir [[Concepts Fondamentaux#Capital (Bourdieu)|Capital]]) — c'est une variante locale du capital social, dont la valeur dépend entièrement du territoire : hors de la zone rurale étudiée, la "connaissance du territoire" et le "réseau familial dense" ne valent rien. Ce qui est spécifique, c'est que ce capital devient central précisément parce que les autres (économique, scolaire) manquent.
+
 ### 3. Sociabilité Locale Masculine
 
 **Lieux de sociabilité:**
@@ -236,6 +239,9 @@ Comment parler de populations stigmatisées sans les stigmatiser davantage?
 **Didier Eribon** (*Retour à Reims*):
 - Similarité: classes populaires, vote RN, mémoire ouvrière
 - Différence: Eribon parle de **ceux qui sont partis**, Coquard de **ceux qui restent**
+
+> [!warning] Piège
+> Ce n'est pas un simple détail biographique — les deux livres tirent des conclusions différentes du même monde social parce qu'ils enquêtent sur deux populations aux logiques opposées : Eribon (parti) surinterprète facilement le départ comme émancipation et le reste comme échec, alors que Coquard montre que rester peut être un choix rationnel valorisant un capital (d'autochtonie) invisible depuis la position de celui qui est parti.
 
 **Édouard Louis** (*En finir avec Eddy Bellegueule*):
 - Similarité: violence sociale, masculinité populaire

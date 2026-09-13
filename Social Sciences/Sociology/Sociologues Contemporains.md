@@ -33,6 +33,9 @@ Le sociologue français le plus influent de la seconde moitié du XXe siècle. S
 - *La Distinction* (1979) : les gouts (musique, cuisine, sport) ne sont pas personnels — ils sont socialement déterminés et servent à marquer les frontières de classe
 - *La Domination masculine* (1998) : le genre comme système de domination intériorisé par les deux sexes
 
+> [!warning] Piège
+> La violence symbolique n'est pas de la manipulation consciente ni de la contrainte physique — c'est ce qui explique pourquoi les dominés y participent sans s'en rendre compte, voire y adhèrent (ex. le goût scolaire des classes populaires pour des filières qui les orientent vers des positions subalternes). Confondre ce mécanisme avec une simple "propagande" des dominants revient à manquer tout l'intérêt du concept.
+
 ## Anthony Giddens (1938-)
 
 Sociologue britannique, auteur de la **théorie de la structuration** — tentative de dépasser l'opposition entre holisme (la société détermine l'individu) et individualisme (l'individu crée la société).
@@ -56,6 +59,9 @@ Sociologue polonais-britannique, théoricien de la **modernité liquide**.
 | **Vie liquide** | Vivre dans un monde où les conditions d'action changent avant que les modes d'action ne puissent se consolider en habitudes |
 
 Bauman est aussi l'auteur de *Modernité et Holocauste* (1989) : l'Holocauste n'est pas une regression vers la barbarie mais un produit de la modernité (bureaucratie, rationalité instrumentale, obéissance à l'autorité).
+
+> [!important] Idée clé
+> Bauman et Beck (ci-dessous) sont souvent cités ensemble comme "théoriciens de l'incertitude moderne", mais leur diagnostic diffère : pour Bauman, c'est la **dissolution des structures** (institutions, liens stables) qui produit l'insécurité ; pour Beck, c'est au contraire la **production de nouveaux risques** par la modernité elle-même (nucléaire, climat) qui échappe à tout contrôle institutionnel. L'un parle d'un manque de solidité, l'autre d'un excès de dangers fabriqués.
 
 ## Ulrich Beck (1944-2015)
 
@@ -109,3 +115,6 @@ Sociologue français, héritier critique de Bourdieu. Il pousse la sociologie à
 | **L'homme pluriel** | Un même individu peut être cultivé au travail et regarder de la téléréalité chez lui — ses dispositions varient selon les contextes |
 | **Contexturalisme** | Les dispositions s'activent ou se désactivent selon le contexte — l'habitus n'est pas un bloc monolithique |
 | **Enfances de classe** (2019) | Enquête massive sur les inégalités dans l'enfance en France : comment la classe sociale façonne tous les aspects de la vie d'un enfant (langage, santé, loisirs, sommeil) |
+
+> [!tip] Méthode
+> Lahire n'est pas un disciple qui prolonge Bourdieu — il le critique de l'intérieur. Là où l'habitus bourdieusien tend à produire des comportements cohérents et stables (le "sens du jeu" d'une classe sociale), Lahire montre par l'enquête empirique que les dispositions d'un même individu varient selon les contextes, parfois jusqu'à la contradiction. Utile pour ne pas traiter "l'habitus" comme un concept figé dans toute réponse de dissertation.

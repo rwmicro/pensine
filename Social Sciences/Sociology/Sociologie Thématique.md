@@ -144,6 +144,9 @@ date: "2026-02-22"
 - Butler: performativité du genre
 - Socialisation différenciée
 
+> [!warning] Piège
+> "Performativité" ne veut pas dire qu'on choisit consciemment son genre comme un costume — c'est l'inverse : le genre se constitue par la répétition d'actes normés (gestes, discours, présentation de soi) au point de produire l'illusion d'une identité stable préexistante. C'est un processus largement non intentionnel et contraint par des normes sociales, pas un acte de volonté individuelle libre.
+
 **Thèmes:**
 - Division sexuelle du travail
 - Inégalités professionnelles (plafond de verre)
@@ -243,6 +246,9 @@ date: "2026-02-22"
 - Karl Polanyi (*La Grande Transformation*, 1944)
 - Mark Granovetter (1985)
 - Économie encastrée dans le social
+
+> [!tip] Méthode
+> L'encastrement est l'équivalent, en sociologie économique, du geste durkheimien : refuser de traiter "le marché" comme un mécanisme naturel autonome (l'hypothèse implicite de l'économie néoclassique) pour montrer qu'il repose sur des institutions, des normes et des réseaux sociaux concrets. Utile comme réflexe général : chaque fois qu'un phénomène est présenté comme purement "naturel" ou "rationnel" en soi, chercher ce qu'il doit à des structures sociales invisibilisées.
 
 **Thèmes:**
 - Marchés, réseaux

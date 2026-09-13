@@ -42,6 +42,9 @@ Exemples classiques : les enquêtes de l'INSEE (emploi, budget des ménages), le
 | Objectivité apparente | Corrélation ≠ causalité |
 | Détection de régularités invisibles à l'oeil nu | Ne capte pas le sens que les acteurs donnent à leurs pratiques |
 
+> [!warning] Piège
+> "Corrélation ≠ causalité" est répété comme un mantra mais le piège concret le plus fréquent en sociologie est le sens de la causalité, pas son absence : le diplôme corrèle avec la réussite professionnelle, mais est-ce le diplôme qui cause la réussite, ou un troisième facteur (origine sociale, réseau familial) qui cause à la fois l'accès au diplôme et la réussite ? D'où l'intérêt des analyses multivariées ("toutes choses égales par ailleurs") — mais même elles ne peuvent contrôler que les variables qu'on a pensé à mesurer.
+
 ## Méthodes qualitatives
 
 ### L'entretien
@@ -64,6 +67,9 @@ Conversation guidée entre le chercheur et un ou plusieurs interlocuteurs. L'obj
 | **Ethnographie** | Immersion longue (mois, années) avec description dense | Beaud et Pialoux, *Retour sur la condition ouvrière* (usine Peugeot) |
 
 L'observation participante pose un paradoxe : plus le chercheur participe, mieux il comprend — mais plus il risque de perdre sa distance critique (le *going native*).
+
+> [!important] Idée clé
+> Ce paradoxe n'est qu'un cas particulier d'une exigence méthodologique plus générale : la réflexivité de [[Fondateurs/Pierre Bourdieu|Bourdieu]] (rupture avec les prénotions, objectivation de sa propre position). L'observation participante rend la rupture particulièrement difficile parce que le chercheur adopte littéralement le point de vue indigène qu'il doit ensuite objectiver — d'où l'importance de tenir un journal de terrain qui documente aussi ses propres réactions, pas seulement celles des enquêtés.
 
 ### L'analyse documentaire
 

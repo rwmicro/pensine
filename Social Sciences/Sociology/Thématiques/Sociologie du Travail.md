@@ -34,6 +34,9 @@ date: "2026-02-04"
    - Rapports de concurrence
    - Exploitation (bourgeoisie/prolétariat)
 
+> [!warning] Piège
+> L'aliénation marxiste n'est pas un ressenti subjectif ("je n'aime pas mon travail") — c'est une structure objective indépendante du vécu du travailleur : même un ouvrier qui déclare être satisfait de son poste reste, pour Marx, structurellement aliéné tant qu'il ne possède ni le produit, ni le processus, ni le sens de son activité. On peut être aliéné et se sentir bien, ou non-aliéné et souffrir — les deux plans ne se recouvrent pas automatiquement.
+
 **Plus-value:**
 - Travailleur produit plus de valeur que son salaire
 - Appropriation par le capitaliste = exploitation
@@ -69,6 +72,9 @@ date: "2026-02-04"
    - Inégalités non justifiées par mérite
    - Héritage, privilèges bloquent talents
    - Injustice, inefficacité
+
+> [!important] Idée clé
+> Les deux formes pathologiques sont des défaillances opposées de la même solidarité organique, pas des variantes d'un même problème : l'anomie, c'est un manque de règles (le lien social se défait faute de régulation) ; la contrainte, c'est un excès de règles injustes (le lien social existe mais il est faussé par des inégalités non méritées). Durkheim ne critique donc pas la division du travail en soi — seulement ses ratés dans un sens ou dans l'autre.
 
 ### Max Weber - Rationalisation
 
@@ -237,6 +243,9 @@ date: "2026-02-04"
 - Intensification travail
 - Stress, pression constante
 - Précarisation (sous-traitance)
+
+> [!tip] Méthode
+> Le toyotisme promet plus d'autonomie (groupes autonomes, polyvalence) tout en intensifiant le contrôle (flux tendu, zéro défaut, amélioration continue) — c'est exactement le mécanisme que Linhart nommera plus tard "injonctions paradoxales" ou "autonomie contrôlée" (voir plus bas). Utile de relier les deux pour montrer une continuité entre les critiques du post-fordisme et les analyses contemporaines du management.
 
 **Modèle suédois (Volvo):**
 - Îlots de production

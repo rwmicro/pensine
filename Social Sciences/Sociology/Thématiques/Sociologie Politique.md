@@ -17,6 +17,9 @@ La sociologie politique étudie empiriquement le pouvoir, l'État, les partis, l
 
 **Bourdieu** : le **pouvoir symbolique** — voir [[Sociology/Concepts/Violence Symbolique|Violence Symbolique]] — s'exerce par la capacité à imposer une vision légitime du monde social, indépendamment de toute coercition physique visible ; le champ politique lui-même fonctionne, pour Bourdieu, comme un espace de concurrence pour le monopole de la parole légitime sur les affaires communes, largement réservé à des professionnels dotés d'un capital politique spécifique.
 
+> [!important] Idée clé
+> Ces trois grilles ne sont pas concurrentes mais répondent à des questions différentes : Weber demande *sur quoi repose la légitimité du pouvoir d'État*, Foucault demande *où circule le pouvoir en dehors de l'État* (et pourquoi il produit plutôt qu'il ne réprime seulement), Bourdieu demande *comment le pouvoir se fait oublier en tant que pouvoir*. Une bonne analyse de cas mobilise souvent les trois à des échelles différentes plutôt que de choisir entre elles.
+
 ## Sociologie électorale et comportement de vote
 
 **Les déterminants sociaux du vote** : depuis les premières grandes enquêtes électorales américaines (l'école de Columbia, Paul Lazarsfeld) et françaises, la sociologie électorale établit que le choix électoral n'est jamais un pur choix rationnel individuel isolé — il est fortement corrélé à la position sociale (classe, niveau d'éducation, religion, lieu de résidence, génération), même si cette corrélation s'est affaiblie avec le temps dans plusieurs démocraties occidentales (phénomène parfois désigné comme "dé-alignement" électoral).
@@ -31,6 +34,9 @@ La sociologie politique étudie empiriquement le pouvoir, l'État, les partis, l
 
 **Sidney Tarrow et Doug McAdam** développent le concept de **structure des opportunités politiques** : la probabilité qu'une mobilisation émerge et réussisse dépend fortement du contexte politique institutionnel (ouverture ou fermeture du système politique, alliés potentiels au sein des élites, division des élites au pouvoir, capacité répressive de l'État) — un même niveau de mécontentement social peut ainsi produire des mobilisations très différentes selon le contexte politique dans lequel il s'exprime.
 
+> [!tip] Méthode
+> Ces trois théories forment une progression logique, pas trois écoles rivales à mémoriser séparément : Tilly répond à "quelles formes prend la protestation" (répertoires), McCarthy et Zald répondent à "pourquoi le mécontentement ne suffit pas" (ressources), Tarrow et McAdam répondent à "pourquoi le même mécontentement échoue ici et réussit là" (opportunités). Chacune comble ce que la précédente laissait sans réponse.
+
 ## Révolutions : une sociologie comparée
 
 Theda Skocpol (*États et révolutions sociales*, 1979) propose une analyse comparative structurelle des grandes révolutions modernes (France 1789, Russie 1917, Chine 1949), s'écartant des explications centrées sur l'idéologie révolutionnaire ou l'intention des acteurs pour privilégier les **conditions structurelles** communes : crise fiscale et militaire de l'État (souvent liée à une défaite ou à une pression internationale), révolte paysanne autonome capable de désorganiser l'ordre rural existant, et division des classes dominantes elles-mêmes, qui affaiblit leur capacité de résistance coordonnée. Sa thèse la plus discutée : les révolutions ne sont pas "faites" intentionnellement par des révolutionnaires selon un plan préétabli — elles surviennent quand ces conditions structurelles convergent, les acteurs révolutionnaires prenant ensuite le contrôle d'un processus déjà largement enclenché par l'effondrement de l'État ancien.
@@ -42,6 +48,9 @@ La sociologie politique étudie le nationalisme non comme un donné naturel mais
 ## Populisme : une logique politique, pas seulement une pathologie
 
 Chantal Mouffe et Ernesto Laclau développent une théorie du **populisme** qui s'écarte de sa lecture strictement péjorative dominante dans le débat public : pour eux, le populisme est une **logique politique** structurante, qui construit un clivage entre "le peuple" et "l'élite" (plutôt qu'entre classes économiques, comme dans l'analyse marxiste classique) — logique susceptible d'être mobilisée aussi bien par la droite que par la gauche radicale, et qui répondrait, selon Mouffe, à un déficit démocratique réel des démocraties représentatives contemporaines plutôt qu'à une simple manipulation démagogique des masses.
+
+> [!warning] Piège
+> Ne pas confondre cette définition analytique (une logique discursive qui construit un clivage peuple/élite, neutre sur le fond idéologique) avec l'usage médiatique courant du mot "populiste" comme synonyme de démagogique ou d'irrationnel. Pour Mouffe et Laclau, un mouvement peut être populiste ET démocratiquement légitime — les deux jugements sont indépendants.
 
 ## Auteurs de référence
 

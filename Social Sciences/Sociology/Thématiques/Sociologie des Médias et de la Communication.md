@@ -13,6 +13,9 @@ Les médias ne se contentent pas de transmettre une information neutre sur un mo
 
 Theodor Adorno et Max Horkheimer (*Dialectique de la Raison*, 1947) forgent le concept d'**industrie culturelle** pour décrire la production standardisée, à l'échelle industrielle, des biens culturels (cinéma, radio, musique populaire) dans le capitalisme du XXe siècle — voir [[Sociology/Grands Courants Théoriques#Théorie Critique (École de Francfort)|Théorie Critique]]. Contrairement à l'art authentique, qui garderait une dimension critique et une singularité irréductible, les produits de l'industrie culturelle sont conçus selon des formules répétitives et prévisibles, visant moins à éveiller la réflexion qu'à produire une consommation passive et une évasion qui détourne des contradictions sociales réelles — thèse élitiste et pessimiste, largement débattue et nuancée depuis, notamment par les études culturelles anglo-saxonnes qui insisteront davantage sur la capacité des publics à réinterpréter activement les contenus qu'on leur propose.
 
+> [!warning] Piège
+> Adorno et Horkheimer partagent avec Bourdieu (voir [[Sociologie de la Culture#La légitimité culturelle et la distinction (Bourdieu)|Bourdieu]]) l'idée que la culture de masse n'est pas neutre — mais leur critique est presque inverse dans son fondement : Adorno juge la culture de masse mauvaise en soi (standardisée, abrutissante), alors que Bourdieu refuse justement de hiérarchiser les goûts en eux-mêmes et analyse plutôt comment n'importe quelle culture, "légitime" ou "populaire", sert de marqueur social. Ne pas les confondre dans une dissertation qui citerait "la critique sociologique de la culture de masse".
+
 ## L'espace public selon Habermas
 
 Jürgen Habermas (*L'Espace public*, 1962) retrace l'émergence, au XVIIIe siècle européen, d'une sphère publique bourgeoise (salons, cafés, presse d'opinion) où des citoyens privés délibèrent rationnellement des affaires communes, indépendamment de l'autorité étatique — matrice historique de la démocratie moderne — voir [[Philosophy/Philosophes/Habermas|Habermas]]. Sa thèse la plus discutée : cet espace public délibératif se dégrade progressivement au XXe siècle sous l'effet des médias de masse et des techniques de relations publiques, se transformant en un lieu de mise en scène et de consommation passive de l'opinion plutôt que de délibération active entre citoyens égaux.
@@ -27,6 +30,9 @@ Jürgen Habermas (*L'Espace public*, 1962) retrace l'émergence, au XVIIIe sièc
 
 **Les théories de la réception active** : contre les modèles à effets forts, les études de réception (notamment Stuart Hall et le modèle "encodage/décodage") montrent que les publics ne reçoivent jamais un message médiatique de façon passive et uniforme — ils le réinterprètent activement selon leur propre position sociale, leurs codes culturels et leurs intérêts, produisant des lectures parfois très éloignées de l'intention initiale de l'émetteur (lecture "dominante", "négociée" ou franchement "oppositionnelle").
 
+> [!important] Idée clé
+> Ces quatre théories forment une chronologie de raffinement, pas quatre options concurrentes à choisir : la seringue hypodermique suppose un public totalement passif, l'agenda-setting nuance en distinguant influence sur les sujets vs sur les opinions, la cultivation ajoute la dimension cumulative de l'exposition répétée, la réception active renverse enfin la passivité du public en variable elle-même socialement déterminée. Situer une théorie sur cet axe passif→actif aide à mémoriser ce qui la distingue des autres.
+
 ## Bourdieu et le champ journalistique
 
 Pierre Bourdieu (*Sur la télévision*, 1996) applique son cadre théorique — voir [[Sociology/Fondateurs/Pierre Bourdieu|Bourdieu]] — au journalisme, analysé comme un **champ** spécifique, structuré par sa propre logique de concurrence (l'audimat, la rapidité, la recherche du scoop) et de plus en plus soumis, selon lui, à la contrainte de l'économie et à une logique de divertissement (l'"infotainment") qui menace l'autonomie du champ journalistique vis-à-vis du champ économique et affaiblit sa capacité critique.
@@ -34,6 +40,9 @@ Pierre Bourdieu (*Sur la télévision*, 1996) applique son cadre théorique — 
 ## Réseaux sociaux et transformation de l'espace public numérique
 
 **Bulles de filtre et chambres d'écho** : les algorithmes de recommandation des plateformes numériques, en personnalisant les contenus proposés à chaque utilisateur selon ses préférences passées, tendraient à enfermer chacun dans un environnement informationnel homogène, renforçant ses opinions préexistantes plutôt que de l'exposer à des points de vue contradictoires — thèse influente (Eli Pariser) mais dont l'ampleur réelle est débattue empiriquement par plusieurs études plus récentes, qui nuancent l'automaticité de ce mécanisme.
+
+> [!warning] Piège
+> Une partie de la nuance empirique vient d'une confusion à éviter : l'homogénéité du fil d'actualité d'un utilisateur peut venir de l'algorithme (bulle de filtre au sens strict) OU du fait que l'utilisateur choisit lui-même de suivre des comptes qui lui ressemblent (homophilie sociale, phénomène antérieur à Internet). Les études qui nuancent la thèse de Pariser montrent souvent que le second mécanisme pèse au moins autant que le premier — attribuer toute la polarisation au seul algorithme est une simplification.
 
 **Nouvelles formes de mobilisation** : les réseaux sociaux ont joué un rôle documenté dans l'organisation de mouvements sociaux contemporains (Printemps arabe 2011, #MeToo, Gilets jaunes, Black Lives Matter), permettant une coordination rapide, décentralisée, sans structure organisationnelle centrale préalable — configuration nouvelle par rapport aux mouvements sociaux classiques étudiés par la sociologie politique du XXe siècle — voir [[Sociologie Politique]].
 

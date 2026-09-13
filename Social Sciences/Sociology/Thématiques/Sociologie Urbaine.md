@@ -21,11 +21,17 @@ Dans les années 1920-1940, l'École de Chicago fait de la ville en pleine expan
 
 **Louis Wirth** (*Le phénomène urbain comme mode de vie*, 1938) systématise l'analyse : l'urbanisme comme mode de vie (*urbanism as a way of life*) se caractérise par trois traits structurels — la **taille** (grand nombre d'habitants, rendant impossible la connaissance mutuelle de tous), la **densité** (favorisant la spécialisation des rôles et l'anonymat) et l'**hétérogénéité** (diversité sociale, ethnique, culturelle) — combinaison qui produit des relations sociales plus superficielles, contractuelles et fonctionnelles que dans les communautés rurales traditionnelles.
 
+> [!warning] Piège
+> Le vocabulaire de "l'écologie urbaine" (compétition, succession, zones "naturelles") a été critiqué après coup pour son déterminisme biologisant : présenter la ségrégation spatiale comme le résultat d'une compétition quasi naturelle entre groupes masque le rôle actif des politiques publiques, de la discrimination au logement et des rapports de pouvoir — ce que la section suivante sur la ségrégation vient précisément corriger.
+
 **Les enquêtes ethnographiques classiques** : William Foote Whyte (*Street Corner Society*, 1943) étudie par observation participante l'organisation sociale interne d'un quartier italo-américain pauvre de Boston, révélant une structure sociale ordonnée et cohérente là où le regard extérieur ne percevait que "désorganisation" ; Thomas et Znaniecki (*The Polish Peasant in Europe and America*, 1918-1920) étudient les transformations de la famille paysanne polonaise au contact de l'immigration urbaine américaine, œuvre fondatrice de la méthode biographique en sociologie.
 
 ## Ségrégation spatiale et inégalités urbaines
 
 **La ségrégation résidentielle** : la répartition spatiale des groupes sociaux dans la ville n'est jamais un simple effet du hasard ou des seules préférences individuelles — elle résulte de mécanismes structurels (prix du foncier, discrimination au logement, politiques publiques d'urbanisme, réseaux de transport) qui concentrent spatialement les inégalités sociales, ethniques et raciales. Loïc Wacquant (*Parias urbains*, 2006) compare, dans une perspective critique, les ghettos noirs américains et les banlieues françaises stigmatisées, montrant que malgré des trajectoires historiques différentes, les deux configurations produisent une **stigmatisation territoriale** qui s'ajoute aux désavantages économiques et sociaux déjà subis par leurs habitants — vivre à telle adresse devient, en soi, un facteur supplémentaire de discrimination (à l'embauche, au logement, dans les représentations médiatiques).
+
+> [!important] Idée clé
+> La stigmatisation territoriale est une application spatiale directe de la [[Sociology/Concepts/Violence Symbolique|violence symbolique]] bourdieusienne : le jugement porté sur un quartier ("cité", "ghetto") finit par être intériorisé par ses propres habitants, qui peuvent eux-mêmes reproduire ce discours sur leur lieu de vie — l'adresse devient une catégorie de perception imposée, pas seulement subie de l'extérieur.
 
 **La gentrification** : processus par lequel des populations aisées et éduquées (souvent qualifiées de "classes créatives" par Richard Florida, dont la thèse a été largement critiquée pour son manque de nuance sociale) réinvestissent des quartiers populaires centraux, dans un mouvement souvent lié à la reconversion des espaces industriels désindustrialisés — entraînant la hausse des loyers et, progressivement, le déplacement des habitants populaires historiques vers la périphérie. Ce processus soulève des débats normatifs vifs : renouvellement urbain bénéfique (mixité sociale, revitalisation économique) ou nouvelle forme de dépossession spatiale des classes populaires ?
 
@@ -40,6 +46,9 @@ Manuel Castells déplace, à partir des années 1990, l'analyse urbaine vers l'�
 ## Jane Jacobs : la critique de l'urbanisme fonctionnaliste
 
 Jane Jacobs (*Déclin et survie des grandes villes américaines*, 1961), urbaniste et activiste plus que sociologue de formation, critique vigoureusement l'urbanisme moderniste de l'après-guerre (zonage fonctionnel strict, tours isolées, grands ensembles) qui, selon elle, détruit la vitalité sociale organique des quartiers traditionnels. Elle défend la **mixité fonctionnelle** (habitat, commerce, bureaux mêlés dans un même quartier), la densité modérée et les rues animées comme conditions d'une vie urbaine sûre et vivante — la surveillance informelle exercée par les habitants et commerçants ("des yeux sur la rue") remplaçant avantageusement, selon elle, la surveillance policière ou architecturale planifiée.
+
+> [!warning] Piège
+> Ironie souvent relevée par la suite : les quartiers "vivants", denses et mixtes que Jacobs défendait contre l'urbanisme fonctionnaliste sont devenus, des décennies plus tard, précisément le type de quartier le plus recherché par la gentrification (voir plus haut) — son éloge de la vitalité de quartier a fini par nourrir la hausse des loyers qu'elle cherchait à éviter.
 
 ## Auteurs de référence
 

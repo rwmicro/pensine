@@ -79,6 +79,9 @@ Robert K. Merton reprend le concept dans les années 1930-1940 pour l'appliquer 
 
 Cette typologie déplace le concept d'anomie de Durkheim (un état social de dérèglement, mesuré objectivement, par exemple par le taux de suicide) vers une explication de la **déviance individuelle** comme réponse structurée, non pathologique, à une contradiction sociale objective — l'innovation déviante (la criminalité économique) n'est pas un dysfonctionnement irrationnel mais une adaptation logique à un système qui promet à tous un but qu'il ne rend accessible qu'à certains — voir [[Sociology/Concepts Fondamentaux#Déviance|Déviance]].
 
+> [!warning] Piège
+> Durkheim et Merton emploient le même mot pour deux objets différents : chez Durkheim, l'anomie est un état de la société (le taux de suicide grimpe indépendamment de qui compose la population) ; chez Merton, c'est une position structurelle qui explique un comportement individuel (l'innovation, le ritualisme). Confondre les deux fait dire à tort que "Merton précise Durkheim" — il déplace en réalité le concept d'un niveau macro à un niveau méso, avec un objet d'explication différent (le taux de suicide vs la délinquance).
+
 ## Distinction avec l'usage courant du terme
 
 Dans le langage courant, "anomie" est parfois employé, de façon imprécise, comme synonyme vague de "désordre social" ou de "chaos". Le sens sociologique est plus précis : il ne s'agit pas de l'absence totale de règles, mais d'un **affaiblissement de la force régulatrice** des normes existantes, dans un contexte où les anciennes règles ne fonctionnent plus mais où de nouvelles ne se sont pas encore stabilisées — état généralement transitoire, propre aux périodes de mutation rapide plutôt qu'à une absence permanente d'ordre social.

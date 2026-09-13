@@ -22,6 +22,9 @@ Un ordre imaginé est une réalité partagée qui n'existe que parce qu'un grand
 
 La confusion entre ces niveaux est source d'erreurs de raisonnement. Traiter la nation comme si elle était aussi objective que la lune, c'est oublier qu'elle est une construction — ce qui ne signifie pas qu'elle est sans puissance.
 
+> [!warning] Piège
+> "Imaginé" ne veut pas dire "faux" ou "mensonger" — c'est l'erreur la plus fréquente à la lecture de ce concept. Un ordre imaginé produit des effets aussi réels qu'un fait objectif (on peut mourir pour une nation, être ruiné par une hyperinflation) : ce qui est construit, c'est la croyance qui le fait tenir, pas la réalité de ses conséquences. Le proche parent sociologique de cette notion est le [[Concepts/Fait Social|fait social]] de Durkheim — extérieur et contraignant, bien que non biologique.
+
 ## Exemples d'ordres imaginés
 
 **L'argent** : un billet de 50 euros est un morceau de papier imprimé. Sa valeur n'est pas dans la matière mais dans la confiance collective que des millions de personnes lui accordent. Si cette confiance s'effondre (hyperinflation, crise de change), le billet redevient du papier. L'argent est peut-être la fiction collective la plus réussie de l'humanité.

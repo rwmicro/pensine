@@ -22,6 +22,9 @@ date: "2025-12-31"
 3. Ne souffre **pas de trouble psychiatrique majeur** expliquant le retrait (schizophrénie, dépression sévère)
 4. Retrait **volontaire** (pas dû à handicap physique)
 
+> [!important] Idée clé
+> Le critère 3 (exclure un trouble psychiatrique majeur) n'est pas un détail clinique périphérique — il définit le hikikomori comme phénomène **social** plutôt que psychiatrique individuel. C'est exactement le geste méthodologique de Durkheim dans *Le Suicide* : refuser d'expliquer un phénomène apparemment individuel par la psychologie individuelle, pour chercher plutôt les forces sociales (pression scolaire, honte, conformisme) qui le produisent à grande échelle.
+
 ### Degrés de Sévérité
 
 **Hikikomori complet:**
@@ -224,6 +227,9 @@ date: "2025-12-31"
 - Précarité jeunesse
 - Internet/jeux vidéo
 - Individualisme
+
+> [!warning] Piège
+> Attention à l'effet loupe du vocabulaire : parce que le Japon a nommé et documenté le phénomène en premier (Saito, 1998), on risque de le traiter comme une exception culturelle exotique alors que des formes comparables existent partout sous d'autres étiquettes ("reclus sociaux", "basement dwellers"). Le nom précède souvent la reconnaissance du phénomène ailleurs — ne pas confondre spécificité du terme et spécificité du phénomène lui-même.
 
 ## Traitements et Prise en Charge
 
