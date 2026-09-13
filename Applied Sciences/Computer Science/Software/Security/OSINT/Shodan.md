@@ -208,6 +208,9 @@ Règle pratique : chercher sans se connecter, puis contacter le propriétaire po
 - **Surveillance** : recherches Shodan régulières sur son propre périmètre + Shodan Monitor.
 - **Opt-out** : possible mais nécessite de prouver le contrôle du domaine (robots.txt ne suffit pas).
 
+> [!warning] Piège
+> L'absence d'un asset dans Shodan ne prouve pas qu'il est sécurisé — cela signifie seulement qu'il n'a pas répondu sur les ports scannés au moment du dernier passage (Shodan ne scanne pas tous les ports sur toutes les IPs à chaque cycle). Un faux sentiment de sécurité basé sur "on n'apparaît pas sur Shodan" est une erreur d'attack surface management courante : l'absence de preuve n'est pas la preuve d'absence.
+
 ## Plans et tarifs
 
 | Niveau | Contenu |

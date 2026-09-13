@@ -55,6 +55,9 @@ L'attaquant peut :
 sans connaître la clé AES
 ```
 
+> [!important] Idée clé
+> L'attaque ne casse jamais AES — elle exploite le fait que l'oracle répond sur le **padding**, pas sur le contenu. Le serveur croit ne révéler qu'un détail de formatage anodin ; en réalité chaque réponse oui/non est un bit d'information sur `AES_Dec(bloc)`, et 256 requêtes suffisent à récupérer un octet entier du texte intermédiaire, sans jamais connaître la clé.
+
 ### Déchiffrement bit par bit
 
 ```
@@ -152,6 +155,9 @@ Pour changer P2[i] en une valeur souhaitée :
 C1'[i] = C1[i] XOR P2[i] XOR target_value
 → Envoyer C1' → P2[i] est maintenant target_value
 ```
+
+> [!warning] Piège
+> Le bit-flipping ne nécessite même pas d'oracle de padding — juste de connaître (ou deviner) le texte clair à un endroit donné. C'est le même principe qui rend dangereux tout chiffrement CBC sans authentification : un attaquant qui connaît la structure du message (`role=user`) peut le falsifier (`role=admi[n]`) sans jamais déchiffrer ni casser la clé.
 
 ### POODLE (SSLv3 — padding oracle historique)
 

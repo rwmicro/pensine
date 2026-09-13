@@ -10,6 +10,9 @@ date: 2026-03-22
 
 Nuclei est un scanner de vulnérabilités basé sur des templates YAML. Chaque template décrit comment détecter une vulnérabilité spécifique. Il est rapide, extensible, et dispose d'une bibliothèque publique de milliers de templates.
 
+> [!warning] Piège
+> Nuclei ne détecte que ce pour quoi un template existe — contrairement à un moteur heuristique (Nessus), l'absence de résultat ne veut pas dire "pas de vulnérabilité", juste "pas de template correspondant". D'où l'importance de `-update-templates` avant chaque scan, et de ne jamais présenter un scan Nuclei propre comme une preuve d'absence de vulnérabilités.
+
 ## Installation et mise à jour
 
 ```bash

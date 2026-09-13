@@ -22,6 +22,9 @@ Le Red Team simule des attaquants réels pour tester les défenses d'une organis
 | Équipes alertées | Souvent oui | Non (test réaliste) |
 | Livrables | Rapport de vulnérabilités | Rapport d'objectifs atteints + lacunes défensives |
 
+> [!important] Idée clé
+> Un pentest mesure la surface de vulnérabilités, un Red Team mesure la capacité de détection et de réponse. Un système peut avoir zéro vulnérabilité critique trouvée en pentest mais échouer complètement à un Red Team si l'attaquant atteint son objectif sans jamais déclencher d'alerte — ce sont deux questions différentes ("combien de failles ?" vs "l'organisation s'en rendrait-elle compte ?"), pas deux niveaux d'intensité du même exercice.
+
 ## Méthodologie Red Team
 
 ```mermaid
@@ -217,6 +220,9 @@ Indicateurs de mouvement latéral :
 Règle : "Si une machine non-administrateur fait du SMB vers 5+ machines en 1 heure → alerte"
 ```
 
+> [!tip] Méthode
+> Détecter le mouvement latéral par outil (signature Impacket, service PSEXESVC) est fragile — un attaquant change d'outil et la règle devient aveugle. Détecter par comportement (volume de connexions SMB depuis un poste non-admin, quel que soit l'outil derrière) survit au changement d'outil, car le comportement — se déplacer d'une machine à l'autre — est structurel à l'objectif de l'attaquant, pas à son implémentation.
+
 ## Purple Team — Collaboration offensive/défensive
 
 Le Purple Team fait travailler Red et Blue ensemble pour améliorer les capacités de détection.
@@ -283,3 +289,6 @@ docker run -p 2222:2222 cowrie/cowrie
 # Honeyfile — fichier nommé "passwords.txt" ou "vpn-credentials.docx"
 # avec un canarytoken embarqué → ping si ouvert
 ```
+
+> [!important] Idée clé
+> Un honeytoken n'a de valeur que parce qu'il ne devrait **jamais** être utilisé par un acteur légitime — c'est ce qui rend son alerte quasi certaine (très peu de faux positifs), contrairement à une règle SIEM comportementale qui doit distinguer une activité légitime bruyante d'une activité malveillante rare. C'est le seul mécanisme de détection dont la précision approche 100 % par construction.

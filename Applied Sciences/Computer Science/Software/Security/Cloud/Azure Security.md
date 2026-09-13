@@ -61,6 +61,9 @@ curl -X POST "https://login.microsoftonline.com/organizations/oauth2/v2.0/token"
     -d "grant_type=urn:ietf:params:oauth:grant-type:device_code&client_id=d3590ed6-52b3-4102-aeff-aad2292ab01c&device_code=<device_code>"
 ```
 
+> [!warning] Piège
+> Le Device Code Flow contourne toute politique de phishing basée sur l'URL ou le domaine : la victime se rend sur le vrai `microsoft.com/devicelogin`, avec le vrai certificat Microsoft. Rien dans l'URL ne trahit l'attaque — seul le contexte (pourquoi me demande-t-on de rentrer ce code ?) peut alerter la victime.
+
 ### MFA Fatigue / Push Spam
 
 ```bash
@@ -93,6 +96,9 @@ sekurlsa::cloudap  # Récupère les tokens PRT (Primary Refresh Token)
 $prt = Get-AADIntUserPRTToken
 New-AADIntAccessTokenForAzureCoreManagement -PRTToken $prt
 ```
+
+> [!important] Idée clé
+> Le PRT est à Azure ce que le TGT est à Kerberos : un jeton de confiance de longue durée qui permet de regénérer des tokens d'accès pour n'importe quelle ressource sans ré-authentification. Voler un PRT équivaut à voler l'identité complète de l'utilisateur sur tout l'écosystème Microsoft.
 
 ## Énumération avec Graph API
 
@@ -204,6 +210,9 @@ az ad app show --id <app-id>
 az ad app credential reset --id <app-id>
 # → Récupérer un token en tant que cette application → droits Global Admin
 ```
+
+> [!warning] Piège
+> Ce chemin d'escalade illustre un principe général : un rôle qui peut modifier des **applications** ayant elles-mêmes des rôles élevés hérite indirectement de ces rôles. Toujours auditer les permissions *transitives* (via les objets qu'un rôle peut modifier), pas seulement les permissions directes accordées à l'utilisateur.
 
 ## Outils
 

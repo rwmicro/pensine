@@ -41,6 +41,9 @@ L'accès initial, c'est le moment-charnière d'un pentest externe : on passe de 
 
 ## Password Spraying
 
+> [!important] Idée clé
+> Le spraying inverse la logique du brute force : au lieu d'essayer beaucoup de mots de passe sur UN compte (ce qui déclenche un lockout en quelques tentatives), on essaie UN mot de passe sur TOUS les comptes. Chaque compte individuel ne voit donc qu'une tentative isolée — largement sous le seuil de lockout et souvent sous le seuil de détection SIEM basé sur un compte unique.
+
 ### Construction de la wordlist d'utilisateurs
 
 L'OSINT donne les noms d'employés. Reste à deviner le format d'email/username.
@@ -120,6 +123,9 @@ Fortinet, Pulse, Citrix — souvent via Burp Intruder ou modules dédiés. Locko
    Documenter chaque essai  → timestamp + user + password + résultat
                               utile pour le rapport et pour ne pas re-spray
 ```
+
+> [!tip] Méthode
+> L'espacement dans le temps n'est pas qu'une précaution anti-lockout — c'est aussi ce qui empêche la corrélation côté détection. Un SOC qui alerte sur "N échecs de connexion en M minutes par compte" ne verra jamais un spray suffisamment lent, même avec des dizaines de comptes touchés au total.
 
 ## Credentials issus de breaches
 

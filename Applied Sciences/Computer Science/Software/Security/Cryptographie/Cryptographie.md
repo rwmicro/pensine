@@ -55,6 +55,9 @@ Les **modes d'opération** déterminent comment AES est appliqué à des message
 
 GCM (Galois/Counter Mode) est le mode recommandé car il fournit **AEAD** (Authenticated Encryption with Associated Data) : chiffrement + MAC en une seule opération.
 
+> [!important] Idée clé
+> Avant l'AEAD, chiffrer et authentifier étaient deux étapes séparées (chiffrer puis calculer un HMAC à part) — une source classique d'erreurs d'implémentation (voir [[Padding Oracle Attack]]). GCM fusionne les deux en une seule primitive : impossible d'oublier de vérifier l'intégrité avant de faire confiance au déchiffré.
+
 ```python
 from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 import os
@@ -114,6 +117,9 @@ clair = cle_privee.decrypt(chiffre, padding.OAEP(...))
 ```
 
 En pratique, RSA ne chiffre pas directement les données (trop lent) — il chiffre une **clé symétrique** AES. C'est le principe des enveloppes chiffrées.
+
+> [!tip] Méthode
+> C'est le schéma general de tout chiffrement "hybride" en cryptographie appliquée : l'asymétrique (RSA, DH, ECDH) sert uniquement à s'échanger une clé courte, le symétrique (AES) fait le travail lourd sur les données. TLS, PGP, SSH suivent tous ce même patron pour la même raison — l'asymétrique est des ordres de grandeur plus lent.
 
 ### Échange de clés Diffie-Hellman (DH)
 
@@ -287,6 +293,9 @@ Vulnérabilités communes :
 - **`alg: none`** : certaines libs acceptent un JWT sans signature
 - **Confusion RS256/HS256** : un JWT signé RS256 peut être falsifié si le serveur accepte HS256 avec la clé publique comme secret
 - **Absence de vérification de l'expiration** (`exp`)
+
+> [!warning] Piège
+> La confusion RS256/HS256 vient du fait que les deux algorithmes utilisent le même champ `alg` mais des modèles de confiance opposés : RS256 vérifie avec une clé *publique*, HS256 avec une clé *secrète*. Si le serveur fait confiance à l'`alg` fourni par le token plutôt que de l'imposer côté serveur, un attaquant peut signer un faux JWT en HS256 en utilisant la clé publique RSA (publique donc connue) comme secret HMAC.
 
 ## PGP et sécurité des emails
 

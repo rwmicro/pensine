@@ -26,6 +26,9 @@ NOM="monde"
 echo "Bonjour, $NOM"
 ```
 
+> [!warning] Piège
+> `set -e` n'arrête pas le script dans tous les cas : il est ignoré dans la condition d'un `if`/`while`, dans le membre gauche d'un `&&`/`||`, et dans une commande d'un pipeline (sauf avec `pipefail`, qui ne regarde que le code de sortie final du pipe, pas les erreurs intermédiaires si elles sont suivies d'une commande qui réussit). Ne jamais compter sur `-e` seul pour un script critique — vérifier explicitement les codes de retour aux points sensibles.
+
 **Permissions d'exécution** :
 ```bash
 chmod +x mon_script.sh
@@ -129,6 +132,9 @@ saluer "Martin"
 resultat=$(saluer "Alice")  # Capturer la sortie
 ```
 
+> [!warning] Piège
+> `local var=$(commande)` masque le code de retour de `commande` : c'est `local` lui-même qui définit le code de sortie de la ligne (quasi toujours 0), pas la substitution de commande. Avec `set -e`, une commande qui échoue dans cette forme ne fera donc **pas** planter le script. Séparer la déclaration et l'affectation (`local var; var=$(commande)`) pour préserver le code de retour réel.
+
 ### Gestion des Erreurs
 
 ```bash
@@ -149,6 +155,9 @@ nettoyer() {
 trap nettoyer EXIT          # Exécuter nettoyer à la sortie
 trap 'erreur "Ligne $LINENO"' ERR  # Afficher la ligne d'erreur
 ```
+
+> [!tip] Méthode
+> `trap ... EXIT` se déclenche sur **toute** sortie du script — succès, `exit 1`, ou signal — contrairement à `ERR` qui ne réagit qu'aux échecs. C'est le bon endroit pour du nettoyage garanti (fichiers temporaires, verrous) : pas besoin de dupliquer l'appel dans chaque chemin de sortie possible.
 
 ### Exemples Pratiques
 

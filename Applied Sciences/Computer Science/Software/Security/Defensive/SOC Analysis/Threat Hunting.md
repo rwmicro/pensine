@@ -16,6 +16,9 @@ Les outils de détection automatique (EDR, SIEM) sont efficaces contre les menac
 
 Le threat hunter cherche des signaux faibles : comportements anormaux qui ne déclenchent pas d'alerte mais indiquent une présence malveillante.
 
+> [!important] Idée clé
+> Le SIEM détecte ce qu'on lui a explicitement dit de détecter — une règle ne peut alerter que sur un pattern déjà connu et formalisé. Le threat hunting comble exactement l'angle mort inverse : chercher ce que personne n'a encore pensé à écrire en règle. C'est un processus fondamentalement humain et exploratoire, pas une automatisation en attente d'être écrite — dès qu'une chasse trouve un pattern reproductible, elle redevient une règle SIEM et cesse d'être de la chasse.
+
 ## Modèles de maturité
 
 | Niveau | Caractéristiques |
@@ -98,6 +101,9 @@ index=windows EventCode=4688
 | stats count by ProcessName, ParentProcessName
 | sort count asc
 ```
+
+> [!warning] Piège
+> Stacking et Long Tail Analysis partent du principe que le malveillant est rare — mais un attaquant qui vise spécifiquement une organisation connaît souvent cette logique et évite les processus rares, préférant se fondre dans des outils déjà fréquents sur l'environnement (LOLBins, voir plus bas). Ces techniques trouvent bien l'anomalie statistique, pas nécessairement l'attaquant le plus discret — elles doivent se combiner avec une chasse par hypothèse ciblée, pas s'y substituer.
 
 ### Clustering / Baseline
 
@@ -201,6 +207,9 @@ Le résultat d'une chasse réussie doit être transformé en règle automatique 
 ```
 Chasse (manuel) → Pattern identifié → Règle Sigma → Intégration SIEM → Alerte automatique
 ```
+
+> [!tip] Méthode
+> Ce schéma est la boucle qui justifie l'investissement en threat hunting : sans cette dernière étape, chaque chasse ne profite qu'une seule fois, et le même pattern devra être rechassé manuellement la prochaine fois qu'il apparaît. Mesurer le succès d'un programme de hunting par le nombre de règles produites (pas seulement le nombre de menaces trouvées) force cette conversion systématique.
 
 ```yaml
 # Règle Sigma issue d'une chasse sur certutil

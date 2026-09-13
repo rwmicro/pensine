@@ -12,6 +12,9 @@ LOLBAS (Living Off The Land Binaries And Scripts) et GTFOBins sont des référen
 
 L'avantage : ces binaires sont signés par Microsoft ou font partie de la distribution Linux → évitent les signatures AV et les listes noires.
 
+> [!important] Idée clé
+> Bloquer ces binaires n'est pas une option — `certutil`, `rundll32`, `find`, `awk` sont nécessaires au fonctionnement normal du système. La défense doit donc se déplacer du "quel binaire tourne" vers "comment il est invoqué" : chaîne parent-enfant de processus, arguments de ligne de commande, contexte (un `certutil -urlcache` lancé par Word est suspect, le même lancé par un script d'admin planifié ne l'est pas).
+
 ## LOLBAS — Windows
 
 Référence : https://lolbas-project.github.io
@@ -245,6 +248,9 @@ find / -perm -u=s -type f 2>/dev/null
 getcap -r / 2>/dev/null
 # → /usr/bin/python3 cap_setuid=ep → escalade garantie
 python3 -c "import os; os.setuid(0); os.system('/bin/bash')"
+
+> [!warning] Piège
+> Les capabilities Linux sont souvent oubliées dans une énumération classique parce qu'elles ne se voient ni avec `find -perm -u=s` (SUID) ni avec `sudo -l` — un binaire avec `cap_setuid=ep` donne un accès root équivalent à un SUID root sans jamais apparaître dans ces deux vérifications standards. `getcap -r /` est une étape à part entière, pas une variante de la recherche SUID.
 
 # 4. Variables d'environnement (PATH, LD_PRELOAD) avec sudo
 sudo -l | grep env_keep

@@ -72,3 +72,6 @@ Cette attaque nécessite un **accès physique** à la machine. Elle est donc sur
 - Machines en environnement non sécurisé
 
 Sur les systèmes cloud, l'hyperviseur protège généralement le bootloader.
+
+> [!important] Idée clé
+> Cette attaque illustre la notion de "chaîne de confiance" du démarrage : chaque étape (BIOS/UEFI → bootloader → kernel → OS) doit vérifier l'intégrité de la suivante. Sans mot de passe GRUB ni Secure Boot, la chaîne est rompue dès la deuxième étape — tout ce qui vient après (chiffrement disque compris, si la clé est dérivée au boot) devient discutable.

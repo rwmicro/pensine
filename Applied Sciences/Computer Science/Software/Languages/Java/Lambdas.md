@@ -206,11 +206,17 @@ IntFunction<int[]>      factory2 = int[]::new;
 | `Classe::methodeStatique` | `(args) -> Classe.methodeStatique(args)` |
 | `instance::methodeInstance` | `(args) -> instance.methodeInstance(args)` |
 | `Classe::methodeInstance` | `(obj, args) -> obj.methodeInstance(args)` |
+
+> [!warning] Piège
+> La forme 3 (`Classe::methodeInstance`) surprend souvent : `String::compareTo` a l'air de prendre un seul paramètre comme `String::toUpperCase`, mais dans un contexte `Comparator<String>` (deux paramètres attendus), le premier argument devient le récepteur implicite (`this`) et le second l'argument réel de `compareTo`. La forme utilisée dépend entièrement du type fonctionnel cible (l'interface attendue), pas de la syntaxe elle-même.
 | `Classe::new` | `(args) -> new Classe(args)` |
 
 ## Closures et portée lexicale
 
 Une lambda peut capturer des variables extérieures, à condition qu'elles soient **effectivement finales** (effectively final : non modifiées après leur affectation initiale).
+
+> [!important] Idée clé
+> Cette contrainte n'est pas arbitraire : une lambda Java capture la **valeur** d'une variable locale au moment de la création (copie), pas une référence vivante vers la variable elle-même — contrairement aux closures JavaScript par exemple. Autoriser une variable locale modifiable créerait une incohérence entre ce que voit la lambda et ce que voit le code englobant après modification. D'où le contournement classique : utiliser un tableau à une case (`int[] compteur = {0}`) ou un champ d'objet, tous deux mutables sans que la référence elle-même change.
 
 ```java
 String message = "Bonjour"; // effectively final

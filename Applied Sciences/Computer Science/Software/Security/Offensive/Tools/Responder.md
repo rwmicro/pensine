@@ -42,6 +42,9 @@ WPAD (Web Proxy Auto-Discovery)
 7. L'attaquant casse le hash hors ligne ou le relaie
 ```
 
+> [!important] Idée clé
+> Ce n'est pas une faille au sens strict : LLMNR/NBT-NS/mDNS sont des mécanismes de *fallback* volontairement conçus pour répondre quand le DNS échoue. Le problème est que "répondre" n'importe qui peut le faire — le protocole n'authentifie jamais celui qui prétend être la ressource demandée. C'est pour ça qu'il n'y a pas de "patch" : la seule vraie protection est de désactiver ces fallbacks.
+
 ## Utilisation de base
 
 ```bash
@@ -87,6 +90,9 @@ john ntlmv2_hashes.txt --wordlist=rockyou.txt --format=netntlmv2
 ## NTLM Relay — sans casser le hash
 
 Au lieu de capturer et casser le hash, on peut le relayer directement vers une autre machine.
+
+> [!tip] Méthode
+> Le relais rend la complexité du mot de passe de la victime totalement indifférente — on n'a jamais besoin de l'inverser, seulement de rejouer l'authentification en direct. C'est pour ça que le relais est presque toujours préféré au craquage hors ligne quand SMB signing est désactivé sur la cible : plus rapide, et fonctionne même avec un mot de passe fort.
 
 ```bash
 # Désactiver SMB et HTTP dans Responder (pour que ntlmrelayx les intercepte)

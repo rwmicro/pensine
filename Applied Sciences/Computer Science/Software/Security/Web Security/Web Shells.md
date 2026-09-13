@@ -49,6 +49,9 @@ proc_open($cmd, ...);
 `$cmd`;  // Backtick operator
 ```
 
+> [!warning] Piège
+> `disable_functions` dans `php.ini` est une défense en profondeur utile mais pas étanche : il ne bloque que les fonctions listées explicitement, et un attaquant peut souvent contourner la liste via des extensions PHP moins connues (`mail()` avec des paramètres additionnels, `imap_open()`, `mysqli` UDF), ou via `LD_PRELOAD`/`dl()` sur de vieilles configurations. Le considérer comme suffisant à lui seul est une erreur — il doit se combiner avec l'isolation du process PHP (conteneur, utilisateur non-privilégié, syscalls filtrés).
+
 ### ASPX (.NET)
 
 ```aspx
@@ -254,6 +257,9 @@ aide --check
 ```
 
 ## Contre-mesures
+
+> [!important] Idée clé
+> Parmi les contre-mesures ci-dessous, une seule est structurelle plutôt que probabiliste : stocker les uploads hors du document root. Même un shell uploadé avec succès ne peut jamais s'exécuter s'il n'est physiquement pas servable par le serveur web — alors que le filtrage d'extension, la vérification MIME ou le renommage aléatoire sont tous contournables individuellement (cf. les techniques de bypass plus haut) et ne font que réduire la probabilité, pas fermer la classe de vulnérabilité.
 
 ```
 Côté serveur web :

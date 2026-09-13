@@ -40,9 +40,15 @@ Avant toute chose, lire intégralement le **programme policy** :
 
 Tester hors scope ou ignorer les règles = ban de la plateforme et potentiellement des poursuites légales.
 
+> [!warning] Piège
+> Un sous-domaine découvert en recon n'est pas automatiquement in-scope juste parce qu'il pointe vers l'infrastructure de la cible — s'il pointe vers un CDN, un SaaS tiers ou un asset explicitement exclu de la policy, le tester revient à attaquer un système qui n'a jamais donné son autorisation.
+
 ## Phase 1 — Reconnaissance
 
 La recon est la phase la plus importante. Plus la surface d'attaque est cartographiée, plus les chances de trouver une vulnérabilité sur un asset oublié sont élevées.
+
+> [!important] Idée clé
+> En bug bounty, la différenciation ne se joue presque jamais sur la technique d'exploitation (bien connue, documentée) mais sur la recon : trouver un asset oublié ou mal protégé que les milliers d'autres chasseurs n'ont pas vu.
 
 ### Enumération de sous-domaines
 
@@ -222,6 +228,9 @@ Recommandation de correction :
 - Surestimer la sévérité (Self-XSS n'est pas un Critical)
 - Envoyer un scan automatique brut (nuclei output) sans validation manuelle
 - Soumettre un duplicata sans vérifier les rapports existants (disclosed)
+
+> [!tip] Méthode
+> Un rapport se juge sur sa reproductibilité, pas sur la gravité perçue de la faille : un triager qui doit deviner une étape manquante ferme le rapport ou le rétrograde, même si la vulnérabilité est réelle et sérieuse.
 
 ## Workflow quotidien
 

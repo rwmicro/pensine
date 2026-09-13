@@ -29,6 +29,9 @@ long compte = noms.stream()           // source
 
 Un stream **ne modifie jamais la source** et ne peut être consommé qu'une seule fois.
 
+> [!warning] Piège
+> Réutiliser un stream après une opération terminale (l'appeler une seconde fois, ou stocker la référence pour la réutiliser plus tard) lève une `IllegalStateException`. Un stream n'est pas une collection qu'on peut relire — c'est une recette d'exécution à usage unique. Pour retraiter les mêmes données plusieurs fois, il faut recréer un nouveau stream depuis la source (`liste.stream()` à chaque fois), pas réutiliser l'objet stream.
+
 ## Création d'un stream
 
 ```java
@@ -238,6 +241,9 @@ Stream.of("Alice", "Bob").forEach(System.out::println);
 
 `Optional<T>` est un conteneur qui encapsule soit une valeur, soit son absence. Il évite les `NullPointerException`.
 
+> [!warning] Piège
+> `Optional` a été conçu pour les **types de retour** de méthode, pas pour les champs de classe ni les paramètres de méthode. L'utiliser comme type de champ ajoute une indirection inutile (l'objet peut déjà être `null` par nature) et complique la sérialisation ; en paramètre, il oblige l'appelant à emballer une valeur simple. La bonne pratique reste : méthode qui peut ne rien retourner → `Optional<T>` en retour ; ailleurs → `null` classique ou validation explicite.
+
 ```java
 Optional<String> opt = Stream.of("", "Alice", "Bob")
     .filter(s -> !s.isEmpty())
@@ -281,6 +287,9 @@ Stream.of(1, 2, 3, 4, 5)
 ```
 
 Les streams parallèles utilisent le `ForkJoinPool.commonPool()`. Ils sont bénéfiques pour des opérations coûteuses sur de grandes collections. Les opérations doivent être **sans effets de bord** et **associatives** (pour `reduce`). `forEachOrdered` garantit l'ordre mais réduit le parallélisme.
+
+> [!warning] Piège
+> Paralléliser un stream sur une petite collection (quelques centaines d'éléments) est souvent **plus lent** que la version séquentielle : le coût de découpage des tâches et de synchronisation via le `ForkJoinPool` commun dépasse le gain. Paralléliser sans mesurer est un anti-pattern classique — `parallelStream()` n'est pas un "mode rapide" à activer par défaut, c'est un compromis à valider par benchmark sur le volume de données réel.
 
 ## Opérations sur les streams de primitifs
 

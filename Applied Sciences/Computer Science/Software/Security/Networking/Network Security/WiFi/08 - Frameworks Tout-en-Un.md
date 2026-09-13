@@ -10,6 +10,9 @@ date: "2026-05-17"
 
 Outils qui orchestrent les briques (airmon, airodump, aireplay, hashcat, hostapd...) derrière un menu unique. Gain de temps énorme en audit, mais comprendre les étapes manuelles ([[03 - Attaques WPA2-PSK]], [[05 - Evil Twin et Phishing]]) reste essentiel.
 
+> [!warning] Piège
+> Un framework qui échoue silencieusement (mauvais chipset, driver instable, canal occupé) est beaucoup plus dur à déboguer si on ne connaît que le menu et pas les commandes qu'il exécute derrière. Apprendre les étapes manuelles d'abord n'est pas qu'une question pédagogique — c'est ce qui permet de diagnostiquer un échec d'airgeddon/wifite en 30 secondes plutôt qu'en 30 minutes.
+
 ## airgeddon — menu interactif Bash
 
 Framework de référence en français/anglais. Couvre presque toutes les attaques.

@@ -39,6 +39,9 @@ Recherche d'IP exposées, de ports ouverts, de services fingerprint-és.
 
 **Astuce** : un même actif vu par Shodan, Censys et FOFA renvoie souvent des résultats complémentaires — les trois scanners ne couvrent pas exactement les mêmes plages d'adresses.
 
+> [!warning] Piège
+> Les résultats de ces scanners sont un instantané du dernier passage du crawler, pas une vue en temps réel — un service fermé ou reconfiguré depuis peut encore apparaître comme exposé, et inversement un service tout juste ouvert peut ne pas encore être indexé. Un résultat Shodan/Censys est un point de départ à vérifier, jamais une preuve définitive de l'état actuel de la cible.
+
 ## Historique des certificats SSL
 
 Les certificats X.509 sont publics (Certificate Transparency logs depuis 2018). On peut donc lister tous les sous-domaines historiquement certifiés pour un domaine.

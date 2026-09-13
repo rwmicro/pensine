@@ -66,6 +66,9 @@ kubectl auth can-i create pods                # Créer des pods ?
 kubectl auth can-i "*" "*"                    # Droits complets ?
 ```
 
+> [!tip] Méthode
+> `kubectl auth can-i --list` est le premier réflexe après toute compromission d'un pod ou vol de token — il donne immédiatement la surface d'attaque exacte sans avoir à deviner les permissions RBAC configurées.
+
 ## Exploitation des mauvaises configurations RBAC
 
 ### Trop de droits sur les ressources
@@ -107,6 +110,9 @@ EOF
 kubectl exec -it attacker-pod -- /bin/sh
 # → Accès root au noeud via chroot /host
 ```
+
+> [!important] Idée clé
+> Le vrai risque RBAC n'est presque jamais la lecture de secrets — c'est la permission de **créer des pods**. Un ServiceAccount qui peut créer des pods peut se créer un pod privilégié avec `hostPID`/`hostNetwork`, ce qui équivaut à un accès root complet au noeud. "Create pods" mérite la même prudence que "cluster-admin".
 
 ### Rôles dangereux courants
 
@@ -154,6 +160,9 @@ ls /var/run/docker.sock
 docker ps                             # Contrôle du daemon Docker du noeud
 docker run -v /:/hostfs alpine chroot /hostfs /bin/sh  # Shell root sur le noeud
 ```
+
+> [!warning] Piège
+> Monter `/var/run/docker.sock` dans un conteneur, même non privilégié, équivaut à donner un accès root au noeud — le daemon Docker s'exécute lui-même en root et exécute sans discrimination ce qu'on lui demande. C'est l'un des montages les plus dangereux et pourtant les plus courants (souvent pour des outils de CI/CD "Docker-in-Docker").
 
 ### Abus du kubelet (port 10250)
 

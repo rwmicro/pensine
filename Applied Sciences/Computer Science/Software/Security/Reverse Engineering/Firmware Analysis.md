@@ -51,6 +51,9 @@ flashrom -p ch341a_spi -r firmware.bin     # Lire la puce flash SPI
 # Bus Pirate → SPI flash → dump du firmware
 ```
 
+> [!warning] Piège
+> Un port UART ouvert donnant directement un shell root sans authentification est extrêmement courant sur l'IoT grand public — le fabricant le laisse actif pour le débogage en usine et l'oublie en production. C'est souvent le chemin le plus rapide vers un accès complet, largement avant toute analyse du firmware lui-même : vérifier l'UART avant de démonter la puce flash.
+
 ## Extraction et analyse avec Binwalk
 
 ```bash
@@ -225,6 +228,9 @@ r2 firmware_extracted_binary
    → /cgi-bin/debug_tool → RCE direct
    → Port TCP/UDP caché en écoute
 ```
+
+> [!important] Idée clé
+> Ces vulnérabilités sont si fréquentes en IoT parce que les toolchains embarquées (compilateurs MIPS/ARM historiques pour ces plateformes) n'activent souvent aucune des protections modernes vues en [[Binary Exploitation]] — pas d'ASLR, pas de stack canary, pas de NX par défaut. Un bug qui serait juste un crash sur un binaire Linux desktop moderne devient une RCE triviale sur un routeur ou une caméra IP.
 
 ## Outils de l'écosystème
 

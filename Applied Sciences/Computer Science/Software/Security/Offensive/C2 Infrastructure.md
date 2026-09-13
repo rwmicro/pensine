@@ -34,6 +34,9 @@ Protocoles de communication C2 :
   Slack/Teams  : C2 via APIs SaaS (très difficile à détecter)
 ```
 
+> [!important] Idée clé
+> Le redirecteur n'est pas qu'un proxy technique : c'est un fusible. Sa seule fonction est d'encaisser la détection à la place du team server — s'il est identifié et bloqué, l'opérateur en déploie un autre en quelques minutes, alors que la compromission du team server ferait tomber toute la campagne (identité de l'opérateur, historique des sessions, accès aux agents). Toute décision d'architecture C2 découle de ce principe : jamais exposer directement ce qui est coûteux à remplacer.
+
 ## Frameworks C2 principaux
 
 ### Cobalt Strike
@@ -225,6 +228,9 @@ Fonctionnement avec Cloudflare :
 Note : Cloudflare et AWS ont en grande partie bloqué le domain fronting
        → Des alternatives existent (Cloudflare Workers, Azure CDN, censys domains)
 ```
+
+> [!warning] Piège
+> Le blocage du domain fronting par les CDN a fermé cette technique précise, mais pas le problème qu'elle exploitait : l'asymétrie entre ce que le TLS montre (SNI) et ce que le serveur reçoit réellement (header Host). Côté défense, la bonne question n'est donc pas "le domain fronting classique fonctionne-t-il encore ?" mais "est-ce que je vérifie la cohérence SNI/Host sur mon trafic sortant ?" — chaque nouvelle variante (Workers, CDN alternatifs) rejoue la même faille sous une autre forme.
 
 ```
 Catégories de domaines pour C2 :

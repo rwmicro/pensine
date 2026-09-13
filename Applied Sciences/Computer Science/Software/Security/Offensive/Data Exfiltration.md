@@ -10,6 +10,9 @@ date: 2026-03-22
 
 L'exfiltration de données est le transfert non autorisé d'informations depuis un système compromis vers une infrastructure contrôlée par l'attaquant, en contournant les contrôles de sécurité (DLP, firewall, IDS).
 
+> [!important] Idée clé
+> Le choix du canal n'est jamais une question de bande passante mais de crédibilité : chaque technique ci-dessous détourne un protocole que le trafic sortant légitime utilise déjà (DNS pour la résolution, HTTPS pour le web, SMTP pour les mails). L'attaquant ne cherche pas le canal le plus rapide, mais celui qui se noie le mieux dans le bruit ambiant du réseau ciblé.
+
 ## Exfiltration via DNS
 
 Avantage : le DNS est rarement bloqué en sortie et peu surveillé. Les données sont encodées dans les noms de domaine.
@@ -176,6 +179,12 @@ openssl enc -aes-256-cbc -in sensitive.tar.gz -out encrypted.bin -k password
 # Renommage d'extension (pour les DLP basés sur les types de fichiers)
 mv sensitive.pdf photo.jpg
 # (contournement basique → les DLP modernes vérifient les magic bytes)
+```
+
+> [!warning] Piège
+> Renommer une extension ne trompe que les contrôles les plus naïfs (filtrage par extension déclarée). Un DLP correctement configuré inspecte les magic bytes / la signature réelle du fichier, pas son nom — d'où l'intérêt des techniques de fragmentation et de chiffrement juste au-dessus, qui cassent la signature elle-même plutôt que de la maquiller.
+
+```bash
 
 # Fragmentation et encodage Base64
 cat sensitive.pdf | base64 | split -l 1000 - chunk_

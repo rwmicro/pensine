@@ -139,6 +139,9 @@ index=windows EventCode=3
 
 Un SIEM non maintenu génère un volume d'alertes qui noie les vrais incidents — c'est l'**alert fatigue**.
 
+> [!warning] Piège
+> Ajouter des règles de détection augmente la couverture mais dégrade mécaniquement le ratio signal/bruit si chaque règle n'est pas tunée individuellement. La métrique qui compte n'est pas le nombre de règles actives mais leur taux de faux positifs pris une par une — une seule règle bruyante peut suffire à faire ignorer toute la file d'alertes par les analystes.
+
 ### Stratégies de réduction
 
 ```
@@ -215,3 +218,6 @@ Anomalie : Alice se connecte à 3h du matin depuis une IP roumaine
 ```
 
 Les solutions UEBA utilisent du machine learning (isolation forest, LSTM, clustering) sur les logs d'accès, les déplacements de données et l'activité des comptes.
+
+> [!tip] Méthode
+> Une baseline UEBA n'est pas figée : un changement de poste, un nouveau projet ou une réorganisation modifie légitimement le comportement d'un utilisateur. Sans réentraînement périodique, la baseline devient obsolète et génère ses propres faux positifs — le modèle a besoin du même tuning continu qu'une règle de corrélation classique, pas d'un "et on n'y touche plus" une fois déployé.

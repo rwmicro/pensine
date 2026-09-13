@@ -40,6 +40,9 @@ DFS (Dynamic Frequency Selection) impose à l'AP de céder le canal si un radar 
 
 Les trames management sont **non chiffrées** par défaut et exploitables (deauth, beacon flood, evil twin). PMF (802.11w) corrige ce défaut.
 
+> [!important] Idée clé
+> C'est la faille structurelle qui sous-tend presque toutes les attaques WiFi actives (deauth, evil twin, rogue AP) : le chiffrement WPA2/WPA3 protège les données, mais historiquement pas la signalisation qui organise la connexion elle-même. PMF ferme cette porte pour les trames critiques (deauth/disassoc), d'où son statut obligatoire en WPA3.
+
 ## Types de réseaux sans fil
 
 | Type | Portée | Application | Exemples |
@@ -69,6 +72,9 @@ Les trames management sont **non chiffrées** par défaut et exploitables (deaut
 | WPA2-Enterprise | AES-CCMP | 802.1X (EAP) | Robuste si bien configuré |
 | WPA3-Personal | AES-CCMP | SAE | Résistant au brute-force offline |
 | WPA3-Enterprise | AES-256-GCMP | 802.1X + PMF obligatoire | État de l'art |
+
+> [!tip] Méthode
+> Ce tableau se lit comme une frise de corrections successives : WEP casse par IV trop court, WPA/TKIP corrige mais garde RC4, WPA2 passe à AES mais laisse le PSK brute-forçable offline, WPA3/SAE corrige enfin ce dernier point avec un échange authentifié résistant au dictionnaire hors ligne. Chaque génération corrige la faille structurelle de la précédente sans forcément anticiper la suivante.
 
 ## Architecture d'un réseau Wi-Fi infrastructure
 

@@ -34,6 +34,9 @@ graph LR
 - Comptes de solutions de sauvegarde
 - Comptes "break glass" d'urgence
 
+> [!important] Idée clé
+> Le coffre-fort réduit l'**exposition** des credentials (personne ne les voit en clair), mais ne réduit pas le **rayon d'explosion** d'un compte compromis. C'est le rôle du JIT (limiter la durée) et de JEA (limiter les commandes) — les trois mécanismes attaquent des risques différents et se combinent plutôt qu'ils ne se remplacent.
+
 ## Coffre-fort de credentials (Password Vault)
 
 Le coffre-fort est le composant central du PAM : il stocke, génère et fait tourner automatiquement les mots de passe.
@@ -108,6 +111,9 @@ $params = @{
 }
 New-MgRoleManagementDirectoryRoleAssignmentScheduleRequest -BodyParameter $params
 ```
+
+> [!tip] Méthode
+> JIT et JEA sont orthogonaux, pas redondants : JIT répond à "pendant combien de temps ?", JEA répond à "pour faire quoi ?". Un admin peut avoir un accès JIT de 2h mais rester limité par JEA à `Restart-Service` sur trois services précis — les deux couches se cumulent.
 
 ## Just-Enough-Access (JEA)
 
@@ -199,6 +205,9 @@ New-ADServiceAccount -Name "gMSA-AppService" `
 # Assigner à un service Windows (remplace les credentials manuels)
 Set-ADServiceAccount -Identity "gMSA-AppService" -TrustedForDelegation $false
 ```
+
+> [!warning] Piège
+> Un gMSA élimine le risque de mot de passe faible ou partagé, mais pas le risque de réplication AD : un attaquant avec des droits DCSync (`Replicating Directory Changes`) peut extraire le mot de passe géré du gMSA exactement comme il extrairait n'importe quel hash NTLM. Le gMSA protège contre le vol de credentials, pas contre une compromission déjà au niveau du contrôleur de domaine.
 
 ## Détection des abus de comptes privilégiés
 

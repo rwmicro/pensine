@@ -25,6 +25,9 @@ L'investigation numérique Windows vise à reconstituer les actions passées sur
 8. Médias de sauvegarde
 ```
 
+> [!important] Idée clé
+> L'ordre de volatilité (RFC 3227) n'est pas une checklist arbitraire : chaque action de collecte perturbe le système, donc on collecte toujours du plus fragile vers le plus stable, pour ne jamais risquer de perdre une preuve volatile en acquérant une preuve qui, elle, aurait pu attendre.
+
 ### Acquisition mémoire
 
 ```powershell
@@ -196,6 +199,9 @@ Contient tous les exécutables avec date de dernière modification
 Outil : AppCompatCacheParser.exe (Eric Zimmermann)
 AppCompatCacheParser.exe -f SYSTEM --csv .
 ```
+
+> [!warning] Piège
+> Shimcache prouve la **présence** d'un fichier sur le disque à une date donnée, pas son **exécution**. C'est une confusion fréquente en investigation : un binaire listé dans Shimcache a pu être simplement copié ou scanné par un antivirus sans jamais tourner. Pour prouver l'exécution, il faut corroborer avec Amcache (hash + première exécution) ou Prefetch.
 
 ### Amcache
 

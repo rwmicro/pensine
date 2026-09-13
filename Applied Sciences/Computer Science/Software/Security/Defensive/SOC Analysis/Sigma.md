@@ -16,6 +16,9 @@ Sigma est un langage de détection de menaces open-source conçu pour décrire d
 2. **Compatibilité Multi-SIEM** :
    - Les règles Sigma peuvent être converties en requêtes spécifiques pour différents SIEM, comme Elasticsearch, Splunk, IBM QRadar, et bien d'autres, grâce à des outils de conversion.
 
+> [!warning] Piège
+> La portabilité Sigma est **syntaxique**, pas sémantique : la conversion suppose que les champs référencés (`EventID`, `Image`, `TargetImage`...) existent bien sous ce nom dans les logs réellement ingérés par le SIEM cible. Sans le bon pipeline de mapping (`-p splunk_windows`, par exemple), une règle convertie peut compiler sans erreur et ne matcher silencieusement jamais rien, faute de correspondance de champs.
+
 3. **Communauté Active** :
    - Sigma bénéficie d'une communauté active qui contribue régulièrement à l'amélioration du langage et au développement de nouvelles règles de détection. Cela permet de rester à jour avec les dernières menaces et techniques d'attaque.
 
@@ -104,6 +107,9 @@ Voici une liste plus détaillée des options possibles pour une règle Sigma, en
 10. `falsepositives` :
     - **Description** : Les cas possibles de faux positifs.
     - **Exemple** : "Des administrateurs légitimes peuvent exécuter PowerShell à partir de répertoires non standard pour des tâches d'administration."
+
+> [!tip] Méthode
+> Le champ `falsepositives` n'est pas de la documentation accessoire : c'est ce qui permet à un analyste Tier 1 de clôturer rapidement une alerte sans escalader, en comparant le contexte observé aux cas connus. Une règle sans ce champ rempli force systématiquement une investigation manuelle, même pour des déclenchements bénins récurrents.
 
 11. `level` :
     - **Description** : Le niveau de criticité de la règle.

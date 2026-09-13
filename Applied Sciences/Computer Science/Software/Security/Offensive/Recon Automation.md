@@ -12,6 +12,9 @@ La reconnaissance automatisée permet de cartographier la surface d'attaque d'un
 
 ## Phase 1 — Découverte de sous-domaines
 
+> [!important] Idée clé
+> L'ordre passif puis actif n'est pas arbitraire : les sources passives (CT logs, DNS historique) ne touchent jamais l'infrastructure cible, donc aucune alerte, aucun log, aucun risque de sortir du scope avant même d'avoir confirmé ce qui est réellement en scope. Ne passer à l'actif (brute-force DNS, scan) qu'une fois la surface déjà bien cartographiée limite le bruit généré côté cible.
+
 ### Sources passives (sans envoyer de trafic à la cible)
 
 ```bash
@@ -253,3 +256,6 @@ curl https://target.com/robots.txt
 # Ne pas tester des services tiers
 # Signaler rapidement les vulnérabilités critiques
 ```
+
+> [!warning] Piège
+> Une recon automatisée agressive (nuclei sans `-rl`, ffuf sans délai, scan de tous les sous-domaines en parallèle) peut suffire à déclencher un WAF, un ban IP, voire à dégrader un service en prod — ce qui devient un incident hors scope même en bug bounty légal. La vitesse des outils modernes rend cette limite facile à dépasser sans s'en rendre compte.

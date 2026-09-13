@@ -22,6 +22,9 @@ Les développeurs pensent en termes de chemins valides ; les attaquants exploite
 - Chemins non gérés provoquant des crashes ou des comportements undefined
 - Fuites d'informations (divulgation de mémoire, paths internes)
 
+> [!important] Idée clé
+> Le fuzzing ne cherche pas des bugs connus — il explore des chemins d'exécution que personne, ni le développeur ni l'attaquant, n'avait anticipé. C'est la différence avec un test manuel ou un scanner de vulnérabilités classique : ceux-ci vérifient des cas prévus (y compris des cas limites connus), alors que le fuzzing génère des entrées hors de toute anticipation humaine.
+
 ### Types de fuzzers
 
 | Type | Description | Exemples |
@@ -187,6 +190,9 @@ afl-tmin -i corpus_out/crashes/id:000000 -o minimized -- ./target_afl @@
 - `hangs` : inputs dépassant le timeout
 - `exec speed` : throughput (viser > 1000 exec/s)
 - `stability` : cohérence de la couverture (< 90% = problème)
+
+> [!tip] Méthode
+> Une `stability` basse ne signifie pas que le fuzzer est mal configuré, mais que le programme cible a un comportement non déterministe (adresses mémoire non initialisées, aléa interne, threads concurrents) — le même input produit une couverture de code différente selon l'exécution. AFL++ perd alors sa boussole principale (la couverture guide la mutation), donc corriger la source de non-déterminisme (fixer les seeds aléatoires, désactiver le threading) est souvent plus rentable que d'augmenter le nombre d'exécutions.
 
 ### libFuzzer — Fuzzing en-process
 

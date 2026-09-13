@@ -66,6 +66,9 @@ switch (mois) {
 
 Le fall-through est parfois intentionnel (regrouper plusieurs cases) mais souvent source de bugs quand le `break` est oublié par inadvertance.
 
+> [!tip] Méthode
+> Le fall-through n'est pas un détail d'implémentation isolé — c'est la raison principale pour laquelle Java a ajouté les switch expressions (Java 14+, plus bas) : en supprimant le comportement "tombe dans le case suivant par défaut", toute une classe de bugs disparaît structurellement plutôt que par discipline du développeur.
+
 ## Switch sur String (Java 7+)
 
 ```java
@@ -209,6 +212,9 @@ double surface(Forme f) {
     };
 }
 ```
+
+> [!important] Idée clé
+> L'exhaustivité n'est utile que parce que `permits` limite les implémenteurs possibles de `Forme` à un ensemble fermé et connu à la compilation. Si une quatrième forme est ajoutée plus tard (`record Losange(...) implements Forme`), le `switch` ci-dessus devient une **erreur de compilation** tant qu'un case n'est pas ajouté — contrairement à une interface non scellée, où l'oubli ne serait détecté qu'à l'exécution (ou jamais).
 
 ### Avec guards (when)
 

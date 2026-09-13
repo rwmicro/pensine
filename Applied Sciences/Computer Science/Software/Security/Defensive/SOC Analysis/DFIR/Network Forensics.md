@@ -149,6 +149,9 @@ tshark -r capture.pcap --export-objects http,/tmp/http_files/
 
 ### C2 (Command & Control)
 
+> [!tip] Méthode
+> Les frameworks C2 modernes (Cobalt Strike, Sliver...) ajoutent volontairement du **jitter** (variation aléatoire de l'intervalle de beaconing) pour casser une détection naïve basée sur une périodicité parfaitement fixe. Chercher plutôt une **distribution resserrée** des intervalles autour d'une moyenne — le jitter réduit la régularité mais ne l'élimine jamais complètement.
+
 ```bash
 # Connexions périodiques régulières (beaconing)
 # Trafic toutes les X secondes vers la même IP = C2 potentiel
@@ -167,6 +170,9 @@ tshark -r capture.pcap -Y "tcp.flags.syn==1 && tcp.flags.ack==0" \
 tshark -r capture.pcap -Y "tls.handshake.type==1" \
     -T fields -e ip.dst -e tls.handshake.extensions_server_name
 ```
+
+> [!warning] Piège
+> Sur du trafic chiffré (TLS/HTTPS — la grande majorité aujourd'hui), inutile de chercher des credentials ou des payloads en clair dans le PCAP : le signal exploitable n'est plus le contenu mais les **métadonnées** (SNI, JA3/JA3S, taille et timing des paquets, certificat). L'analyse réseau moderne se fait de plus en plus "à l'aveugle du contenu".
 
 ## Zeek (anciennement Bro)
 

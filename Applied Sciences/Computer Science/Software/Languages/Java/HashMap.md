@@ -20,6 +20,9 @@ Clé "alice" → hashCode() → 1234567 → 1234567 % 16 = 7 → bucket[7] → e
 
 **Facteur de charge** : quand le taux de remplissage dépasse 0.75 (par défaut), la capacité est doublée (rehashing). Le rehashing recopie toutes les entrées dans le nouveau tableau — O(n) ponctuel, O(1) amorti.
 
+> [!tip] Méthode
+> 0.75 est un compromis, pas une constante magique : un facteur plus bas (ex. 0.5) réduit les collisions et accélère `get`/`put` au prix de plus de mémoire gaspillée en buckets vides ; un facteur plus haut économise la mémoire mais dégrade les performances. Si la taille finale est connue à l'avance, fixer la capacité initiale (`new HashMap<>(tailleEstimée)`) évite plusieurs rehashings successifs pendant le remplissage.
+
 ## Importer et créer
 
 ```java
@@ -199,6 +202,9 @@ Pour que HashMap fonctionne correctement, les objets utilisés comme clés doive
 1. Implémenter `equals()` de façon cohérente
 2. Implémenter `hashCode()` tel que : si `a.equals(b)` alors `a.hashCode() == b.hashCode()`
 3. Être immuables (ou leurs champs utilisés dans `hashCode`/`equals` ne doivent pas changer après insertion)
+
+> [!warning] Piège
+> Le hash d'un objet est calculé une seule fois, au moment de l'insertion, pour déterminer son bucket. S'il change ensuite (champ muté), la clé ne bouge pas physiquement de bucket — elle devient irretrouvable : `get()` recalcule le hash actuel, cherche au mauvais endroit, et échoue silencieusement (pas d'exception, juste `null`). D'où la règle : clés immuables, ou au minimum des champs utilisés dans `hashCode()` qui ne changent jamais après insertion.
 
 ```java
 // Mauvais exemple : utiliser un objet mutable comme clé

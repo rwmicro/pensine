@@ -13,6 +13,9 @@ Outils de découverte de ressources web par force brute : répertoires, fichiers
 
 ffuf est plus flexible et performant que Gobuster. Le mot-clé `FUZZ` marque l'emplacement d'injection.
 
+> [!tip] Méthode
+> Filtrer par taille de réponse (`-fs`/`-fc` sur la taille) est plus fiable que filtrer par code HTTP : beaucoup d'applications renvoient un 200 générique pour toutes les routes inexistantes (SPA, custom error page), ce qui rend le filtrage par statut inutile. Toujours faire une requête sur un chemin qui n'existe sûrement pas pour calibrer la taille "normale" avant de lancer le fuzzing complet.
+
 ### Découverte de répertoires et fichiers
 
 ```bash
@@ -213,6 +216,9 @@ gobuster vhost -u https://target.com \
 # Générer des wordlists personnalisées
 cewl https://target.com -d 3 -m 5 -w wordlist.txt  # À partir du site lui-même
 ```
+
+> [!warning] Piège
+> Une wordlist plus grosse n'est pas toujours meilleure : au-delà du temps passé, un fuzzing trop bruyant peut déclencher un WAF/rate-limiting et fausser tous les résultats suivants (faux négatifs en cascade). Mieux vaut commencer petit (`common.txt`) et n'escalader que si le contexte le justifie.
 
 ## Comparaison
 

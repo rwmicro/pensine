@@ -48,6 +48,9 @@ Glossaire de référence des acronymes et termes rencontrés dans le quotidien d
 
 **IOA** (*Indicator of Attack*) — indicateur comportemental plus résilient qu'un IOC (ex. "processus Word qui lance PowerShell avec encoded command"). Reste pertinent même si les binaires changent.
 
+> [!important] Idée clé
+> La distinction IOC/IOA n'est pas que terminologique : elle correspond directement à la **Pyramid of Pain** (voir plus bas). Bâtir sa détection sur des IOCs (hash, IP) offre une protection qui expire en heures — l'attaquant change trivialement d'infrastructure. Détecter des IOA/TTPs vise le sommet de la pyramide : coûteux à contourner, parce que ça oblige l'attaquant à changer de méthode, pas juste d'outil.
+
 **CTI** (*Cyber Threat Intelligence*) — renseignement sur les menaces, décliné en trois niveaux :
 - **Stratégique** : tendances, acteurs, géopolitique (pour direction)
 - **Tactique** : TTPs, campagnes (pour SOC et chasse)

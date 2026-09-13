@@ -51,6 +51,9 @@ Hashes de fichiers ←← Trivial à changer
 
 Bloquer un hash est inutile (l'attaquant recompile). Détecter les TTPs (techniques de l'adversaire) est beaucoup plus efficace.
 
+> [!important] Idée clé
+> La pyramide mesure une asymétrie de coût, pas seulement une difficulté technique : changer un hash prend une commande, changer un TTP (par exemple abandonner PowerShell pour l'exécution) demande de reconstruire une partie de la chaîne d'attaque, parfois de réentraîner l'opérateur humain. C'est pour ça qu'une détection basée sur les TTPs reste valable des mois voire des années, alors qu'un feed d'IOCs (hashes, IPs) se périme en jours.
+
 ## MITRE ATT&CK
 
 ATT&CK (Adversarial Tactics, Techniques & Common Knowledge) est une base de connaissances des comportements d'attaquants observés dans des environnements réels.
@@ -184,6 +187,9 @@ Plateforme open source de partage d'IOCs. Les événements MISP contiennent des 
 | TLP:GREEN | Communauté de sécurité |
 | TLP:CLEAR | Public |
 
+> [!warning] Piège
+> TLP est une étiquette de confiance, pas un contrôle technique — rien n'empêche mécaniquement de transférer un événement MISP marqué TLP:RED. Le respecter est une question de discipline et de contrat social entre analystes : le violer une fois (même par erreur, en republiant un IOC TLP:AMBER dans un rapport public) peut couper définitivement l'accès de l'organisation aux partages futurs de la source.
+
 ## Cycle de vie du renseignement
 
 ```
@@ -194,3 +200,6 @@ Plateforme open source de partage d'IOCs. Les événements MISP contiennent des 
 5. Diffusion  → rapport, feed SIEM, IOCs dans les outils
 6. Feedback   → évaluation de la pertinence, ajustement
 ```
+
+> [!tip] Méthode
+> L'étape Feedback est celle qui saute le plus souvent en pratique — une fois le rapport diffusé, personne ne revient vérifier si l'intelligence a réellement servi à quelque chose (détection déclenchée, décision prise). Sans ce retour, le cycle dérive vers la production de rapports pour le volume plutôt que pour l'impact, ce qui est le symptôme classique d'une fonction TI qui perd sa valeur avec le temps.

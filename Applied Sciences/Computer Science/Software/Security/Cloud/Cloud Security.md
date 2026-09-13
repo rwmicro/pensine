@@ -36,6 +36,9 @@ graph TD
 
 **Règle clé** : le cloud provider sécurise le cloud, le client sécurise ce qu'il y met.
 
+> [!important] Idée clé
+> La quasi-totalité des "12 risques cloud majeurs" ci-dessous (mauvaises configs, IAM trop permissif, manque de visibilité) sont en réalité des défaillances côté **client** du modèle de responsabilité partagée — pas des failles du provider. C'est pour ça que la sécurité cloud ressemble plus à de l'hygiène de configuration qu'à de la défense contre des exploits.
+
 ## Les 12 risques cloud majeurs (CSA)
 
 | # | Risque | Description |
@@ -98,6 +101,9 @@ aws ec2 modify-instance-metadata-options \
   --http-tokens required \
   --instance-id i-1234567890abcdef0
 ```
+
+> [!warning] Piège
+> IMDSv2 (token requis) ferme le SSRF classique, mais ne protège pas contre un attaquant qui a déjà un accès shell/RCE sur l'instance — dans ce cas il peut simplement demander le token lui-même. IMDSv2 casse la chaîne "SSRF distant → credentials", pas "compromission locale → credentials".
 
 **Rôles avec trust policy trop larges**
 ```json
@@ -298,6 +304,9 @@ aws guardduty create-detector --enable --finding-publishing-frequency FIFTEEN_MI
 - Appel API depuis une IP suspecte (Tor, VPN)
 - Pic de coûts (cryptomining)
 ```
+
+> [!tip] Méthode
+> Les logs CloudTrail ne servent à rien sans alerting actif dessus — beaucoup d'incidents cloud sont découverts des semaines après coup en repassant sur des logs qui contenaient déjà l'info. Configurer les alertes de la liste ci-dessus *avant* d'en avoir besoin, pas après coup pendant une investigation.
 
 ## Chiffrement au repos et en transit
 

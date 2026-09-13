@@ -41,6 +41,9 @@ Couches de sécurité macOS :
     → Accessible via security CLI ou API Security.framework
 ```
 
+> [!important] Idée clé
+> SIP ne protège pas contre la compromission initiale, il limite ce qu'un attaquant peut faire *après* — même avec un accès root complet, il ne peut pas modifier les binaires système pour s'y implanter durablement. C'est une défense en profondeur post-exploitation (empêcher la persistance système), pas un rempart d'entrée : Gatekeeper et TCC jouent ce rôle-là, chacun à une étape différente de la chaîne.
+
 ## Reconnaissance et énumération
 
 ```bash
@@ -235,6 +238,9 @@ osascript -e 'tell application "Finder" to POSIX file "/etc/hosts"'
 # Finder a Full Disk Access → executer des opérations via Finder via AppleScript
 ```
 
+> [!warning] Piège
+> TCC accorde des permissions à une **application**, pas à l'utilisateur — l'attaque ne consiste jamais à casser TCC directement, mais à détourner une app qui a déjà obtenu la confiance de l'utilisateur (Finder, Terminal, iTerm2) pour agir en son nom. C'est un problème de délégation de confiance : auditer TCC signifie auditer quelles apps ont des accès étendus, pas seulement vérifier que TCC "fonctionne".
+
 ## Exploitation applicative macOS
 
 ```bash
@@ -256,6 +262,12 @@ __attribute__((constructor)) void evil_init() {
 }
 EOF
 gcc -dynamiclib -o /usr/local/lib/libexample.dylib evil.c
+```
+
+> [!tip] Méthode
+> Le dylib hijacking exploite la même logique que le DLL hijacking Windows ou le PATH hijacking Linux : un binaire qui cherche une dépendance à un emplacement writable par l'utilisateur, sans vérifier son intégrité. Le pattern à chercher n'est pas spécifique à macOS — sur n'importe quel OS, `otool -L` / `ldd` / `Dependency Walker` révèle les chemins de recherche, et un chemin writable avant le vrai emplacement système est le signal d'alerte.
+
+```
 
 # Vérifier les applications non signées
 spctl -a -t exec -vv /Applications/App.app

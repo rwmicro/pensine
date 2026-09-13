@@ -201,6 +201,9 @@ Corrélation & Alertes
 Visualisation & Reporting
 ```
 
+> [!tip] Méthode
+> Le goulot d'étranglement réel d'un pipeline de logs n'est presque jamais la corrélation ou le stockage — c'est le **parsing/normalisation**. Un log mal parsé (champs non extraits, timestamp mal reconnu) devient invisible pour les règles de détection en aval, même si le SIEM l'a bien ingéré : la donnée est présente mais inexploitable.
+
 ### Parsing et normalisation
 
 Objectif : transformer des logs hétérogènes en un format structuré commun.
@@ -321,6 +324,9 @@ sudo journalctl --verify
 # Signer les logs avec HMAC
 # Forward immédiatement vers un SIEM hors de portée de l'attaquant
 ```
+
+> [!warning] Piège
+> Détecter *a posteriori* qu'un log a été effacé (Event 1102) ne restaure pas la preuve perdue — ça confirme juste qu'il y a eu obstruction. La seule vraie protection est **structurelle** : forwarder les logs vers un système que l'attaquant ne contrôle pas, avant qu'il n'ait le temps de les effacer sur la machine compromise. Un logging local seul n'est jamais une garantie.
 
 ## Collecte et transport
 

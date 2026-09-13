@@ -130,6 +130,9 @@ mdk4 wlan0mon m -t AA:BB:CC:DD:EE:FF -j -w 1 -s 2
 # N'affecte que WPA-TKIP (pas WPA2-CCMP/AES)
 ```
 
+> [!important] Idée clé
+> C'est un mécanisme de *défense* retourné contre lui-même : le blackout de 60s existe pour protéger TKIP contre un vrai forgeage de trames (2 MIC invalides = signe d'attaque probable), mais comme il se déclenche sur la simple apparence d'un MIC invalide, un attaquant peut le provoquer à volonté sans jamais casser la clé. Le même schéma — une protection légitime détournée en DoS — se retrouve dans le lockout WPS ou les rate-limiters d'authentification mal calibrés.
+
 ### Mode e — EAPOL flood
 
 Cible WPA2-Enterprise : sature le serveur RADIUS de demandes EAPOL.
@@ -215,6 +218,9 @@ Les attaques DoS WiFi sont illégales dans la plupart des juridictions, **même 
 - son propre matériel
 - des engagements pentest avec autorisation écrite
 - CTF / labs isolés (HackTheBox, OffSec)
+
+> [!warning] Piège
+> "Tester sur son propre AP" ne veut pas dire "sans impact sur les autres" : un deauth broadcast ou un beacon flood affecte tout le voisinage radio sur le même canal, pas seulement le réseau ciblé. Même en appartement isolé, un test mal calibré peut couper le Wi-Fi des voisins — ce qui reste illégal indépendamment de l'intention.
 
 ## Voir aussi
 

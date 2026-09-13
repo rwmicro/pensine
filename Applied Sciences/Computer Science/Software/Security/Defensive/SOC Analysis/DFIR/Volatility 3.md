@@ -27,6 +27,9 @@ alias vol="python3 /opt/volatility3/vol.py"
 
 **Contrairement à Volatility 2, Volatility 3 ne nécessite pas de profil OS.** Il détecte automatiquement le système d'exploitation depuis le dump.
 
+> [!important] Idée clé
+> Volatility 2 exigeait un profil précompilé correspondant exactement à la build du noyau cible — inutilisable si le profil n'existait pas encore pour un Windows tout juste patché. Volatility 3 résout les structures noyau dynamiquement via des symboles (ISF, PDB téléchargés à la volée), ce qui le rend utilisable sur un système à peine sorti sans attendre qu'un profil soit publié.
+
 ## Syntaxe générale
 
 ```bash
@@ -198,6 +201,9 @@ vol -f dump.mem windows.malfind --pid 1234
 - `MZ` header = Portable Executable injecté (process hollowing ou DLL injection)
 - Shellcode : instructions x86/x64 sans MZ header (souvent du code de stager)
 - `PAGE_EXECUTE_READWRITE` = mémoire RWX (suspect, sauf JIT)
+
+> [!tip] Méthode
+> Ne jamais lancer `malfind` en premier réflexe sur un dump volumineux — c'est lent et bruyant en isolation. Le workflow qui converge le plus vite part de `pstree` + `netscan` pour repérer les processus anormaux (parent inattendu, connexion suspecte), puis ne lance `malfind --pid` que sur ces PID ciblés pour confirmer.
 
 ### Secrets et credentials
 

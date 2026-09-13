@@ -41,6 +41,9 @@ REST (Representational State Transfer) est un style architectural pour concevoir
 |----------|-------------|
 | **Client-Server** | Séparation stricte client/serveur, développement indépendant |
 | **Stateless** | Chaque requête contient toutes les informations nécessaires ; le serveur ne conserve pas d'état de session entre les requêtes |
+
+> [!important] Idée clé
+> Le statelessness n'est pas qu'une contrainte de design, c'est ce qui rend le scaling horizontal trivial : n'importe quelle instance de l'application peut traiter n'importe quelle requête, puisqu'aucune ne dépend d'un état stocké en mémoire sur un serveur précis. Un load balancer peut router librement sans "sticky session". C'est aussi pour ça que l'authentification REST typique repose sur un token (JWT) envoyé à chaque requête plutôt que sur une session serveur.
 | **Uniform Interface** | Ressources identifiées par URI ; manipulation via représentations HTTP standard |
 | **Layered System** | Le client ne sait pas s'il communique directement avec le serveur ou via un intermédiaire (cache, load balancer) |
 
@@ -99,6 +102,9 @@ public class UserController {
     }
 }
 ```
+
+> [!warning] Piège
+> L'injection par champ (`@Autowired` sur un attribut, comme ci-dessus) fonctionne mais est déconseillée par la doc Spring elle-même : elle empêche de déclarer le champ `final`, cache les dépendances réelles de la classe (invisibles depuis l'extérieur), et complique les tests unitaires (impossible d'injecter un mock sans démarrer le contexte Spring ou recourir à la réflexion). L'injection par constructeur est la pratique recommandée.
 
 ## Spring Data JPA — Persistance
 

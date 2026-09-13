@@ -29,6 +29,9 @@ Hash de fichier → VirusTotal → IOCs liés → Infrastructure C2
 4. Domaine → crt.sh → sous-domaines cachés
 5. Sous-domaine dev → technologies exposées → CVEs applicables
 
+> [!important] Idée clé
+> Le pivoting, pas un outil précis, est la compétence centrale de l'OSINT : chaque type de donnée (email, IP, hash, username) est une porte d'entrée vers un graphe de relations, et la qualité d'une investigation se mesure à la capacité de sauter d'une source à l'autre sans perdre le fil. Un débutant collecte des données isolées ; un investigateur expérimenté construit un graphe où chaque nouvelle donnée réduit l'incertitude sur les précédentes.
+
 ### Corrélation de données
 
 Relier des informations de sources différentes pour reconstruire une image complète :
@@ -89,6 +92,9 @@ Comptes fictifs créés pour effectuer des recherches sans exposer sa vraie iden
 7. Ne jamais se connecter depuis la même IP que les vraies activités
 
 **Attention** : l'usage de sock puppets à des fins malveillantes est illégal. Usage légitime : investigations journalistiques, sécurité, tests.
+
+> [!warning] Piège
+> VPN, Tor et une identité fabriquée protègent l'adresse IP et l'identité déclarée, mais pas le **style d'écriture** : tournures de phrases, fautes récurrentes, heures d'activité habituelles et vocabulaire technique peuvent suffire à relier un sock puppet à l'identité réelle de l'investigateur par stylométrie — une technique de désanonymisation que l'OpSec réseau ne couvre pas du tout.
 
 ### Traces à éviter
 

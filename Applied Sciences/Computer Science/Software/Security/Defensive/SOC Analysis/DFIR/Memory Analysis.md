@@ -106,6 +106,9 @@ vol.py -f memdump.raw windows.envars --pid 1234
 vol.py -f memdump.raw windows.dlllist --pid 1234
 ```
 
+> [!important] Idée clé
+> `pslist` parcourt une liste chaînée que le noyau maintient pour suivre les processus actifs — un rootkit DKOM peut délier son propre EPROCESS de cette liste pour disparaître, sans arrêter le processus. `psscan` scanne la mémoire physique brute à la recherche de la signature (pool tag) des structures EPROCESS, indépendamment de tout chaînage. La divergence entre les deux, pas l'un ou l'autre isolément, est le vrai signal d'un processus caché.
+
 ### Réseau
 
 ```bash
@@ -156,6 +159,9 @@ vol.py -f memdump.raw windows.malfind
 # Extraire le code suspect pour analyse statique
 vol.py -f memdump.raw windows.malfind --dump
 ```
+
+> [!warning] Piège
+> `malfind` repose sur une heuristique (mémoire exécutable sans fichier disque associé) qui produit aussi des faux positifs légitimes : moteurs JIT (navigateurs, .NET, PowerShell), packers de logiciels commerciaux, ou allocations `VirtualAlloc` normales. Un résultat `malfind` doit être corrélé avec `cmdline`, `dlllist` et le contexte réseau avant conclusion — ce n'est jamais une preuve à lui seul.
 
 ### Dump de processus
 

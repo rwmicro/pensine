@@ -31,6 +31,9 @@ L'OSINT (Open Source Intelligence) est la collecte et l'analyse d'informations d
 | Légalité | Toujours légal si source publique | Dépend du contexte |
 | Usage recommandé | Reconnaissance initiale | Phase approfondie avec autorisation |
 
+> [!tip] Méthode
+> L'ordre passif → actif n'est pas qu'une convention pédagogique : chaque requête active (scan DNS, connexion Shodan directe) laisse une trace exploitable par la cible pour détecter la reconnaissance en cours. Épuiser les sources passives d'abord maximise l'information récoltée avant que la cible ait la moindre chance de remarquer l'investigation — la bascule vers l'actif est un choix qui a un coût, pas une étape systématique.
+
 ## Reconnaissance d'un domaine / organisation
 
 ### DNS
@@ -83,6 +86,9 @@ curl -s "https://crt.sh/?q=%25.example.com&output=json" | \
 curl -s "https://crt.sh/?q=%25.example.com&output=json" | \
     jq -r '.[].name_value' | sort -u | grep -v "^*"
 ```
+
+> [!important] Idée clé
+> Certificate Transparency n'est pas une fuite d'information contournable — c'est une obligation permanente imposée aux autorités de certification depuis 2018 (tous les navigateurs majeurs la vérifient). Un sous-domaine interne (`vpn-admin.example.com`) qui obtient un certificat TLS valide, même une seule fois, reste indexé dans les logs CT **pour toujours**, y compris s'il est ensuite désactivé. Côté défense, c'est un angle mort structurel qu'aucune configuration DNS privée ne peut corriger.
 
 ### Infrastructure IP
 

@@ -10,6 +10,9 @@ date: "2026-02-25"
 
 Catalogue des outils OSINT organisés par catégorie, avec usage pratique et commandes.
 
+> [!tip] Méthode
+> La plupart de ces outils interrogent en réalité un petit nombre de sources communes (WHOIS, Certificate Transparency, moteurs de recherche, APIs comme Shodan/Hunter) sous des interfaces différentes. Plutôt que d'apprendre dix outils en surface, mieux vaut maîtriser les sources sous-jacentes (cf. [[Méthodologie OSINT]]) — un nouvel outil se comprend alors en quelques minutes puisqu'il ne fait qu'agréger ou automatiser des requêtes déjà connues.
+
 ## Frameworks tout-en-un
 
 ### Maltego

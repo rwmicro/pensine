@@ -156,6 +156,9 @@ public static void ajouterEntiers(List<? super Integer> liste) {
 | Écrire dans la collection | `? super T` | **C**onsumer **S**uper |
 | Lire et écrire | `T` (paramètre borné) | pas de wildcard |
 
+> [!important] Idée clé
+> PECS n'est pas arbitraire : avec `? extends T`, le compilateur sait seulement que chaque élément **est un** T (ou sous-type), donc lire est sûr, mais il ne peut pas garantir qu'ajouter un T précis respecte le type réel de la liste — `add` est donc interdit (sauf `null`). Avec `? super T`, le compilateur sait que la liste peut recevoir un T (elle accepte T ou un super-type), donc écrire est sûr, mais lire ne peut retourner qu'un `Object` générique puisque le type exact réel est inconnu.
+
 ```java
 // Copier les éléments de src vers dst
 public static <T> void copier(List<? extends T> src, List<? super T> dst) {
@@ -168,6 +171,9 @@ public static <T> void copier(List<? extends T> src, List<? super T> dst) {
 ## Type Erasure
 
 Java implémente les génériques par **effacement de type** : à la compilation, les paramètres de type sont remplacés par leur borne (`Object` si non borné, ou la borne supérieure). Le bytecode ne contient plus d'information de type générique.
+
+> [!tip] Méthode
+> L'effacement de type est un choix de compatibilité, pas une limitation technique arbitraire : Java 5 devait rester compatible avec des bibliothèques déjà compilées en bytecode pré-générique. Le prix payé pour cette rétrocompatibilité est visible plus bas (pas de `new T[]`, pas de `instanceof List<String>`) — toute l'information de type générique n'existe qu'à la compilation, jamais à l'exécution.
 
 ```java
 // Code source

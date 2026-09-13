@@ -32,6 +32,9 @@ Bindings IAM : {membre} a {rôle} sur {ressource}
   Héritage vers le bas : un rôle au niveau Project s'applique à toutes les ressources du projet
 ```
 
+> [!important] Idée clé
+> L'héritage IAM se fait uniquement vers le bas (Organization → Folder → Project → Resource) et les bindings sont **additifs** — pas de "deny" explicite en IAM standard. Un droit accordé n'importe où au-dessus d'une ressource s'applique, ce qui rend l'audit des permissions effectives bien plus complexe qu'un simple `get-iam-policy` au niveau projet.
+
 ## Reconnaissance et énumération
 
 ```bash
@@ -119,6 +122,9 @@ curl -H "Authorization: Bearer $TOKEN" \
     "https://storage.googleapis.com/storage/v1/b?project=PROJECT_ID"
 ```
 
+> [!tip] Méthode
+> Exactement le même angle mort que le metadata server AWS (169.254.169.254) — une convention de facto partagée par tous les clouds majeurs : une IP link-local non routable, accessible sans authentification depuis l'intérieur d'une VM. Toute compromission de VM cloud commence par vérifier si cette IP répond.
+
 ## Escalade de privilèges IAM
 
 ```
@@ -164,6 +170,9 @@ gcloud functions deploy evil-func \
     --entry-point handler \
     --service-account admin-sa@PROJECT.iam.gserviceaccount.com
 ```
+
+> [!warning] Piège
+> `iam.serviceAccounts.actAs` est la permission la plus sous-estimée de GCP : elle ne donne accès à rien directement, mais permet d'agir *en tant que* n'importe quel Service Account autorisé — donc d'hériter silencieusement de tous ses droits. Un audit IAM qui ne regarde que les rôles "admin" évidents rate systématiquement ce vecteur.
 
 ## Clés de Service Account exposées
 

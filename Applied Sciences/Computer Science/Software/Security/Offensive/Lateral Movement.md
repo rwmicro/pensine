@@ -38,6 +38,9 @@ xfreerdp /v:192.168.1.20 /u:Administrator /pth:ntlm_hash /d:domaine
 # Le serveur compare directement le hash → pas besoin du clair
 ```
 
+> [!important] Idée clé
+> PtH, PtT et Overpass-the-Hash sont trois variantes du même principe : Windows authentifie via un dérivé du secret (hash NTLM ou ticket Kerberos), jamais le mot de passe en clair. Voler ce dérivé suffit donc à s'authentifier — le mot de passe original n'a jamais besoin d'être craqué.
+
 ## Pass-the-Ticket (PtT)
 
 Utiliser un ticket Kerberos (TGT ou TGS) volé pour s'authentifier.
@@ -231,3 +234,6 @@ Outils de détection :
   - Windows Defender Credential Guard (protège LSASS)
   - Protected Users Group (désactive NTLM, limite Kerberos)
 ```
+
+> [!warning] Piège
+> Le mouvement latéral réussi ne génère quasiment jamais d'échec d'authentification (4625) — c'est le piège classique pour un défenseur qui ne surveille que les logons échoués. Les événements pertinents (4624, 4648) sont des connexions *réussies* qui se noient dans le bruit des connexions admin légitimes ; c'est le volume et le contexte (poste source inhabituel, horaire, compte) qui font la différence, pas l'événement seul.

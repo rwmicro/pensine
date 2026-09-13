@@ -58,6 +58,9 @@ graph LR
 | M9 | Insecure Data Storage | SharedPreferences non chiffrées, SQLite en clair |
 | M10 | Insufficient Cryptography | Algorithmes faibles, mauvaise gestion des clés |
 
+> [!tip] Méthode
+> Ce classement OWASP a changé d'ordre entre les versions précédentes et celle-ci : M1 est passé du stockage insécurisé aux credentials mal gérées, signe que la majorité des incidents mobiles récents viennent moins du stockage local (assez bien compris aujourd'hui) que de la gestion des identifiants et de la chaîne de dépendances (SDK tiers, M2). En audit, ne pas se limiter au checklist historique — vérifier en priorité les SDK publicitaires/analytics tiers, souvent négligés.
+
 ## Stockage insécurisé — Android
 
 ```java
@@ -137,6 +140,9 @@ func urlSession(_ session: URLSession,
 
 **Contournement du pinning (test) :** Frida, objection, SSL Kill Switch 2, Proxyman.
 
+> [!important] Idée clé
+> Le certificate pinning protège contre un attaquant qui contrôle le réseau (MITM, faux point d'accès, CA compromis) — pas contre un attaquant qui contrôle l'appareil lui-même. Sur un appareil rooté/jailbreaké ou sous le contrôle de l'analyste (Frida hook), le pinning se contourne systématiquement puisque le code de vérification tourne côté client, dans un environnement que l'attaquant maîtrise entièrement.
+
 ## Jailbreak et Root
 
 ### Détection du jailbreak (iOS)
@@ -176,6 +182,9 @@ boolean isRooted() {
 ```
 
 **SafetyNet / Play Integrity API** : solution Google plus robuste pour attester l'intégrité de l'appareil.
+
+> [!warning] Piège
+> Les détections de jailbreak/root codées dans l'app elle-même (recherche de fichiers, tentative d'exécution de `su`) ne sont jamais qu'une couche de friction — l'attaquant lit le même code source que le défenseur. Play Integrity API et sa contrepartie iOS (App Attest) sont plus robustes car l'attestation est signée par un composant hors de portée de l'app (Secure Enclave côté serveur Google/Apple), pas vérifiée par du code que l'attaquant peut patcher.
 
 ## Analyse d'applications mobiles
 

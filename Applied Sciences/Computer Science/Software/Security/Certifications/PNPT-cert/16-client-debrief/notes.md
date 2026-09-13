@@ -33,6 +33,9 @@ Un débrief réussi navigue entre deux registres sans choisir un seul.
 
 **Règle d'or** : commencer business, descendre dans la technique progressivement, remonter en business pour les remédiations.
 
+> [!important] Idée clé
+> Le vrai risque n'est pas de mal doser business et technique — c'est de perdre l'auditoire dès les deux premières minutes. Une fois qu'un DSI décroche sur du jargon, il n'écoute plus les remédiations, même excellentes. D'où la règle "business d'abord" : elle sécurise l'attention avant de la dépenser en détail technique.
+
 ## Format de l'examen PNPT
 
 Après les 5 jours de pentest + 2 jours de rédaction :
@@ -80,6 +83,9 @@ C'est le cœur de la présentation. Montrer l'enchaînement complet en 5–6 ét
 Pour chaque étape : une slide, un screenshot clé, et l'impact ("à ce stade, l'attaquant pourrait déjà...").
 
 **Langage** : vulgariser sans simplifier à l'excès. Pas "j'ai DCSync le hash du krbtgt", mais "j'ai extrait l'équivalent du trousseau maître du domaine, ce qui permet de générer des identifiants pour n'importe quel utilisateur".
+
+> [!tip] Méthode
+> Vulgariser sans perdre la substance : remplacer le nom de la technique par son effet concret, jamais par une approximation floue. La phrase reste vraie et vérifiable point par point — c'est cette rigueur-là, pas le vocabulaire employé, qui convainc un assesseur pentester senior que tu as réellement compris ce que tu as fait.
 
 ### 4. Remédiations (3–4 min)
 

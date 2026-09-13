@@ -10,6 +10,9 @@ date: "2026-05-17"
 
 Le hardware conditionne tout : monitor mode, injection, bandes supportées, sensibilité. Un mauvais choix de carte rend la plupart des attaques impossibles.
 
+> [!important] Idée clé
+> Le critère qui prime sur toutes les specs marketing (puissance, MIMO, prix) est l'ouverture du pilote. Un chipset Broadcom FullMAC très performant sur le papier est souvent inutilisable en pentest parce que le firmware propriétaire bride le mode monitor et l'injection — mieux vaut un vieux Atheros AR9271 avec `ath9k_htc` en open-source qu'un chipset récent mal supporté sous Linux.
+
 ## Critères de sélection
 
 | Critère | Pourquoi |
@@ -113,6 +116,9 @@ Exemple :
 ```
 
 En pratique : obstacles, multipath, bruit ambiant → **portée réelle ÷ 5 à 10**.
+
+> [!warning] Piège
+> Le calcul en espace libre suppose une ligne de vue directe sans aucun obstacle — un scénario quasiment jamais rencontré hors désert ou toit dégagé. Utiliser ce chiffre théorique pour planifier un audit (ex. "je capte à 500 m donc je positionne le matériel là") mène systématiquement à une déception ; ne s'en servir que comme borne haute absolue.
 
 ### Connecteurs
 

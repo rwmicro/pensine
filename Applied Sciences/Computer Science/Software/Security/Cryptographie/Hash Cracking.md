@@ -102,6 +102,9 @@ hashcat -m 1000 -a 0 hashes.txt rockyou.txt -r rules/dive.rule  # Plus exhaustif
 hashcat -m 1000 -a 0 hashes.txt rockyou.txt -r rules/best64.rule -r rules/toggles1.rule
 ```
 
+> [!tip] Méthode
+> Les règles battent presque toujours le brute-force pur en pratique : un humain ne choisit pas un mot de passe uniformément au hasard dans l'espace des caractères, il part d'un mot connu et le transforme (majuscule initiale, `!` final, année en suffixe). Les règles encodent ces habitudes et réduisent l'espace de recherche de plusieurs ordres de grandeur par rapport à `-a 3`.
+
 ### Attaque brute-force avec masque (mode 3)
 
 ```bash
@@ -241,6 +244,9 @@ Cas d'usage résiduel :
 RainbowCrack (si disponible) :
 rcrack . -h NTLM_HASH        # Chercher dans les tables
 ```
+
+> [!important] Idée clé
+> Le salt ne rend pas un mot de passe individuel plus difficile à casser — il empêche la **réutilisation** du travail de cassage entre comptes et entre bases de données. Sans salt, casser "123456" une fois casse instantanément tous les comptes qui partagent ce hash ; avec salt, chaque compte est une attaque indépendante, même pour le mot de passe le plus faible du monde.
 
 ## Bonnes pratiques défensives
 

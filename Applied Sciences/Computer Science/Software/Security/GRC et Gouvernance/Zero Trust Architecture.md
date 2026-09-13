@@ -36,6 +36,9 @@ graph LR
 **Problème du modèle traditionnel :**
 Une fois à l'intérieur du réseau (via VPN, compromission périphérique), l'attaquant peut se déplacer librement. 80% des attaques exploitent des comptes légitimes.
 
+> [!important] Idée clé
+> Le changement de paradigme n'est pas "plus de vérifications" mais "vérifier en continu plutôt qu'une seule fois à l'entrée". Le modèle périmétrique traite la confiance comme un événement (authentifié = fiable jusqu'à déconnexion) ; Zero Trust la traite comme un état réévalué à chaque requête — c'est ce qui rend un compte compromis en cours de session détectable, pas seulement un login frauduleux.
+
 ## Les 3 piliers du Zero Trust
 
 ### 1. Vérifier explicitement
@@ -140,6 +143,9 @@ graph LR
 | Performance | Hairpinning, latence | Accès direct et optimisé |
 | Device trust | Généralement ignoré | Vérification de la posture |
 
+> [!warning] Piège
+> ZTNA réduit le rayon d'action d'un compte compromis (accès à une application, pas à tout le segment réseau) mais ne rend pas le phishing ou le vol de credentials inutile pour l'attaquant — il reste rentable de compromettre une identité, juste moins dévastateur. Zero Trust est une réduction de blast radius, pas une élimination du risque identitaire ; le MFA résistant au phishing (FIDO2) reste indispensable en complément.
+
 ## SASE — Secure Access Service Edge
 
 Architecture cloud qui combine réseau WAN et sécurité en un service unifié.
@@ -215,3 +221,6 @@ Phase 4 — Applications et données (ongoing)
   → CASB pour les applications cloud
   → Chiffrement au repos systématique
 ```
+
+> [!tip] Méthode
+> L'ordre des phases n'est pas arbitraire : l'identité (Phase 1) est le prérequis de tout le reste, car la micro-segmentation et le ZTNA (Phase 3) s'appuient sur une identité déjà fiable pour prendre leurs décisions d'accès. Sauter directement à la segmentation réseau sans base identitaire solide (MFA généralisé, SSO) revient à construire des murs internes sans savoir qui a le droit de les franchir.

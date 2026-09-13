@@ -68,6 +68,9 @@ cp /etc/shadow /tmp/shadow_copy
 
 **GTFOBins** (`gtfobins.github.io`) : référence de tous les binaires Unix exploitables pour l'escalade de privilèges via SUID, sudo, capabilities.
 
+> [!warning] Piège
+> Trouver un binaire SUID ne suffit pas — il faut vérifier sur GTFOBins qu'il permet réellement d'exécuter une commande arbitraire (shell, lecture/écriture de fichier). Beaucoup de binaires SUID (`ping`, `mount` bien configuré...) n'offrent aucun chemin d'exploitation utilisable malgré le bit SUID.
+
 ## Sudo
 
 ```bash
@@ -109,6 +112,9 @@ sudo LD_PRELOAD=/tmp/privesc.so /usr/bin/any_command_sudo_allows
 ## Capabilities
 
 Les capabilities Linux donnent des droits précis à des binaires sans leur donner root complet.
+
+> [!important] Idée clé
+> Les capabilities sont pensées comme une alternative plus fine et plus sûre au SUID (principe du moindre privilège), mais en pratique elles sont moins auditées par les admins — donc souvent oubliées lors du durcissement, alors qu'une capability comme `cap_setuid+ep` équivaut à un accès root complet.
 
 ```bash
 # Lister les capabilities
@@ -172,6 +178,9 @@ cat ~/.ssh/authorized_keys
 ## Kernel exploits
 
 En dernier recours (risque de crash du système).
+
+> [!warning] Piège
+> Un exploit kernel peut planter la machine cible, et en environnement client (pentest réel) ça compte comme un incident de production. Épuiser systématiquement les vecteurs de mauvaise configuration (sudo, SUID, cron, credentials) avant d'y recourir n'est pas qu'une question d'ordre pédagogique — c'est une question de discrétion et de sécurité de l'engagement.
 
 ```bash
 # Version du kernel

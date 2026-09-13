@@ -14,6 +14,9 @@ disque brut        partition/      système de        point de
 
 Un disque (`/dev/vdb`) n'est qu'un tableau d'octets. Pour y stocker des fichiers, il faut un **système de fichiers** (`mkfs.ext4`), puis le **monter** dans l'arborescence (`mount`). Tant qu'il n'est pas monté, son contenu est inaccessible.
 
+> [!important] Idée clé
+> Le point de montage n'est qu'une indirection : monter un disque sur un répertoire qui contient déjà des fichiers ne les supprime pas, il les rend juste invisibles tant que le montage est actif. C'est une source de confusion classique en prod (« où sont passés mes fichiers ? ») — toujours vérifier qu'un point de montage est vide avant d'y monter quoi que ce soit.
+
 **Inventaire des disques :**
 ```bash
 lsblk                 # arbre clair : disques, partitions, points de montage, tailles
@@ -45,10 +48,10 @@ df /proc/<PID>/exe                # sur quel système de fichiers il se trouve
 ```
 On ne peut **démonter** (`umount`) un disque que si aucun fichier ouvert ne s'y trouve. `lsof /mnt/x` ou `fuser -m /mnt/x` listent ce qui bloque le démontage.
 
-**Pièges** :
-- `umount` échoue avec *target is busy* si un processus a un fichier ouvert dessus (y compris un shell positionné dans le dossier — sortir d'abord avec `cd`).
-- Formater **efface tout** : vérifier le bon `/dev/vdX` avant `mkfs`.
-- Un montage `mount` sans `/etc/fstab` ne survit pas au redémarrage.
+> [!warning] Pièges
+> - `umount` échoue avec *target is busy* si un processus a un fichier ouvert dessus (y compris un shell positionné dans le dossier — sortir d'abord avec `cd`).
+> - Formater **efface tout** : vérifier le bon `/dev/vdX` avant `mkfs`.
+> - Un montage `mount` sans `/etc/fstab` ne survit pas au redémarrage.
 
 ## Énoncé
 

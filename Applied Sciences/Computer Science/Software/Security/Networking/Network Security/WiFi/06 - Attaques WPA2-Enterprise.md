@@ -47,6 +47,9 @@ WPA2-Enterprise utilise **802.1X** : l'authentification est déléguée à un se
 3. Le client envoie alors son hash MSCHAPv2 dans **notre** tunnel
 4. MSCHAPv2 = NT-Hash en challenge/response → cassable offline (NetNTLMv1)
 
+> [!important] Idée clé
+> Le tunnel TLS de PEAP protège le contenu de la conversation, mais seulement si le client vérifie *qui* est de l'autre côté — exactement comme un site HTTPS reste vulnérable au phishing si l'utilisateur ignore l'avertissement de certificat. EAP-TLS élimine ce problème par construction en exigeant une authentification mutuelle (client ET serveur par certificat), là où PEAP-MSCHAPv2 ne protège que la moitié de l'échange par défaut.
+
 ## Capture de credentials — hostapd-wpe
 
 ```bash
@@ -163,6 +166,9 @@ hashcat -m 5500 hash.txt -a 3 ?u?l?l?l?l?l?l?l?l?d?d?d?d?s
 ## Après le crack : pivoter dans l'AD
 
 Le username/password Wi-Fi est souvent le **même que le compte Windows** (intégré AD).
+
+> [!warning] Piège
+> C'est ce qui transforme une attaque "juste WiFi" en compromission de domaine complète : casser PEAP-MSCHAPv2 ne donne pas seulement un accès réseau, ça donne les identifiants AD de l'utilisateur. Le risque WiFi Enterprise doit donc être évalué à l'échelle du SI entier, pas comme un problème isolé au périmètre radio.
 
 ```bash
 # Validation via LDAP

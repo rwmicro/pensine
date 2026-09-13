@@ -65,6 +65,9 @@ Target → Scope → Add (définir les cibles)
 Proxy → Options → "Intercept only in-scope items" ← Pour ne pas intercepter tout le trafic
 ```
 
+> [!warning] Piège
+> Un scope mal défini (oublié, trop large, ou sans exclusion de `/logout`) mène soit à intercepter/attaquer des domaines hors périmètre d'engagement (problème contractuel et légal en pentest réel), soit à se déconnecter en boucle pendant les tests. Toujours vérifier le scope avant de lancer Intruder ou le Scanner actif.
+
 ## Proxy — Interception
 
 ```
@@ -166,6 +169,9 @@ Issues panel :
 ```
 Burp Collaborator = serveur externe contrôlé par Burp pour détecter les interactions réseau.
 Utile pour : SSRF, XXE, Blind SQLi, Blind XSS, Log4Shell, SSTI sans output.
+
+> [!important] Idée clé
+> Toutes ces vulnérabilités partagent un point commun : la réponse HTTP ne confirme rien, l'effet se produit ailleurs (une requête sortante du serveur vers un domaine que vous contrôlez). Sans canal OOB, elles sont invisibles — d'où l'intérêt de tester systématiquement l'injection d'un domaine Collaborator même quand rien d'anormal n'apparaît dans la réponse.
 
 Burp → Collaborator → Copy to clipboard
 → Utiliser l'URL/domaine Collaborator dans les payloads
