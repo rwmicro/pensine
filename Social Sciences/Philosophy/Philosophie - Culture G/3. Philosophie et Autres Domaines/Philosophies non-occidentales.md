@@ -41,6 +41,9 @@ Le bouddhisme est souvent présenté comme une religion — mais ses fondements 
 | Interdépendance de tous les phénomènes | Spinoza : tout est modes d'une substance unique |
 | Libération par le détachement | Épictète : liberté par la dichotomie du contrôle |
 
+> [!important] Idée clé
+> Cette convergence entre traditions sans contact historique direct (Hume n'a pas lu de bouddhisme) n'est probablement pas un hasard : plusieurs traditions arrivent indépendamment à une conception anti-substantialiste du moi parce que l'introspection elle-même, poussée assez loin, ne trouve jamais de noyau stable — seulement des perceptions qui se succèdent. C'est un argument phénoménologique convergent, pas un emprunt culturel.
+
 **Figures importantes :**
 - *Nāgārjuna* (IIe s. ap. J.-C.) — philosophie de la vacuité (*śūnyatā*) : rien n'existe par soi-même, tout dépend de conditions.
 - *Dogen* (XIIIe s., Japon) — bouddhisme zen. "Étudier le Bouddhisme, c'est s'étudier soi-même."
@@ -90,6 +93,9 @@ Confucius (551–479 av. J.-C.) est contemporain de Socrate. Sa pensée fonde un
 La pensée africaine est diverse et ne peut pas être réduite à un système unique. *Ubuntu* est un concept issu des cultures bantoues d'Afrique australe qui a été philosophiquement développé.
 
 **Ubuntu :** *Umuntu ngumuntu ngabantu* (zulu) — "Je suis parce que nous sommes." L'identité personnelle n'est pas donnée isolément mais constituée par les relations. L'être humain est fondamentalement relationnel, communautaire.
+
+> [!warning] Piège
+> Réduire Ubuntu à "collectivisme contre individualisme" en fait une simple préférence politique parmi d'autres — et manque le point. La thèse est ontologique, pas seulement politique : elle affirme que la relation précède l'individu dans l'ordre de l'être (je n'existe pas d'abord comme atome qui *ensuite* choisit d'entrer en relation), pas seulement qu'il faudrait privilégier le groupe par choix de valeurs.
 
 **Implications philosophiques :**
 - Contre l'individualisme libéral occidental (Locke, Rawls) : je ne suis pas d'abord un individu qui *ensuite* entre en relation. Les relations me constituent.

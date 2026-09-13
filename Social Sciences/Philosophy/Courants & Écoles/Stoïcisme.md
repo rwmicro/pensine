@@ -55,6 +55,9 @@ Le stoïcisme est une école philosophique fondée à Athènes vers 300 av. J.-C
 
 **Conséquence:** Se concentrer uniquement sur ce qu'on contrôle, accepter le reste avec sérénité.
 
+> [!warning] Piège
+> Ne pas lire la dichotomie du contrôle comme « ne te soucie pas de ce que tu ne contrôles pas », ce qui glisserait vers l'indifférence pratique. Le stoïcien agit pleinement sur les externes (santé, réputation, résultats) — la dichotomie porte sur où placer sa paix intérieure, pas sur où placer son effort. On vise l'excellence de l'action, sans faire dépendre son bonheur du résultat, qui lui échappe toujours en partie.
+
 ### 2. Vivre Selon la Nature (Logos)
 
 **La Nature** = Raison universelle (Logos) qui gouverne le cosmos.
@@ -85,6 +88,9 @@ Accepter et **aimer** tout ce qui arrive, car tout fait partie de l'ordre ration
 > "Ne demande pas que les événements arrivent comme tu le souhaites, mais souhaite qu'ils arrivent comme ils arrivent, et tu seras en paix." - **Épictète**
 
 > "N'espère pas que les événements se produisent comme tu veux. Décide plutôt de vouloir qu'ils se produisent comme ils se produisent, et tu seras heureux." - **Épictète**
+
+> [!important] Idée clé
+> L'amor fati porte sur ce qui est déjà arrivé, pas sur ce qui reste à décider. Aimer son destin ne dispense pas d'agir de toutes ses forces avant que l'issue soit fixée — la dichotomie du contrôle s'applique en amont (agir sur ce qui dépend de soi), l'amor fati en aval (accepter ce qui, une fois joué, ne dépend plus de personne).
 
 ### 5. Premeditatio Malorum - Visualisation Négative
 
@@ -230,6 +236,9 @@ Avant de réagir émotionnellement, faire une pause et examiner la situation rat
 | Vertu + raison | Vertu seule (rejet raison formelle) |
 | Vivre en société | Rejet conventions sociales |
 | Acceptation | Provocation |
+
+> [!important] Idée clé
+> Ces écoles ne diffèrent pas seulement par leur style de vie mais par toute la chaîne de justification : les stoïciens fondent l'éthique sur une physique (l'univers est rationnellement ordonné, donc vivre selon la raison = vivre selon la nature) ; les épicuriens sur une physique matérialiste opposée (atomes, hasard, absence de providence) ; les cyniques rejettent l'idée même qu'une théorie physique soit nécessaire pour fonder l'éthique — la vertu se prouve par la pratique, pas par la démonstration.
 
 ## Malentendus sur le Stoïcisme
 

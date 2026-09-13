@@ -35,6 +35,9 @@ Jean-François Lyotard donne au terme sa formulation philosophique de référenc
 
 À la place, Lyotard décrit une multiplication de **petits récits** (*petits récits* locaux, provisoires, sans prétention universelle) et une légitimation du savoir scientifique qui repose de plus en plus sur la performativité technique (l'efficacité, la puissance de calcul) plutôt que sur la vérité ou l'émancipation — anticipation, dès 1979, de débats aujourd'hui centraux sur la marchandisation numérique du savoir.
 
+> [!warning] Piège
+> Ne pas lire « incrédulité à l'égard des métarécits » comme « il n'y a plus de vérité, tout se vaut ». La cible de Lyotard est précise : les récits qui prétendent légitimer universellement tout le savoir (le progrès, l'émancipation historique). Un énoncé scientifique local (« cette molécule a telle propriété ») peut rester parfaitement valide sans le cadre légitimateur global qui l'englobait autrefois.
+
 ## Baudrillard : simulacres et hyperréalité
 
 Jean Baudrillard pousse le diagnostic vers une théorie de la disparition du réel dans la société de consommation et de communication de masse.
@@ -57,9 +60,15 @@ Au-delà de la philosophie stricte, "postmoderne" désigne dès les années 1970
 
 **[[Habermas]]** mène la critique la plus systématique du postmodernisme depuis la théorie critique : abandonner tout critère universel de vérité et de validité argumentative, dit-il, revient à saper les fondements rationnels sur lesquels toute critique sociale — y compris celle des postmodernes eux-mêmes — doit s'appuyer pour être autre chose qu'une posture esthétique sans prise sur le réel. Pour Habermas, le projet des Lumières n'a pas échoué : il reste "inachevé", et la tâche philosophique est de le mener à terme plutôt que de l'abandonner.
 
+> [!important] Idée clé
+> L'argument de Habermas suit une structure qu'on retrouve ailleurs dans l'histoire de la philosophie (voir la critique du principe de vérification dans [[Positivisme Logique]]) : montrer qu'une position sape la condition même de sa propre formulation. Si toute critique sociale doit renoncer aux critères universels de vérité et de validité, la critique postmoderne des grands récits perd elle-même son autorité argumentative — elle ne serait plus qu'une préférence esthétique parmi d'autres.
+
 ## L'affaire Sokal (1996)
 
 Le physicien Alan Sokal publie dans la revue *Social Text* un article délibérément absurde ("Transgresser les frontières : vers une herméneutique transformative de la gravitation quantique"), mêlant un jargon pseudo-scientifique à des citations réelles de Lacan, Baudrillard, Deleuze et Irigaray, pour tester si la revue publierait un texte creux dès lors qu'il flattait les présupposés postmodernes du comité de lecture. L'article est accepté et publié — Sokal révèle immédiatement la supercherie, provoquant un scandale international ("Sokal affair") qui alimente durablement l'accusation d'un usage rhétorique, non rigoureux, de concepts scientifiques par une partie de la philosophie postmoderne française.
+
+> [!warning] Piège
+> Ne pas généraliser l'affaire Sokal en « preuve que toute la philosophie postmoderne est vide ». Sokal cible précisément l'usage décoratif et inexact de concepts scientifiques par certains auteurs, dans une revue particulière non relue par des pairs à l'époque — ce n'est pas une réfutation des arguments philosophiques de fond de Lyotard, Baudrillard ou Derrida, qui doivent être discutés sur leur propre terrain.
 
 ## Postmodernisme et politique : ambiguïtés
 

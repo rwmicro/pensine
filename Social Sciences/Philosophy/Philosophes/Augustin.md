@@ -44,6 +44,9 @@ Les *Confessions* (397-400) sont une oeuvre sans précédent : un récit à la p
 
 Episode célèbre (Livre II) : à 16 ans, Augustin vole des poires dans un verger — non par faim, non par gourmandise (les poires étaient mauvaises), mais pour le **plaisir de transgresser**. Il analyse cet acte pour montrer que le mal n'est pas toujours la recherche d'un bien dévié — il peut être aimé pour lui-même, comme une forme de liberté perverse.
 
+> [!important] Idée clé
+> Cet épisode anodin porte tout le poids de la théorie augustinienne du mal développée plus bas : si le vol des poires était motivé par la faim, ce serait un bien mal recherché (privation classique). Le fait qu'il n'y ait *aucun* motif positif est ce qui intéresse Augustin — la preuve expérimentale que la volonté humaine peut se détourner du bien sans aucune compensation, par pur amour du interdit.
+
 ## Philosophie du temps
 
 Le Livre XI des *Confessions* contient l'une des analyses les plus profondes du temps de toute la philosophie :
@@ -65,6 +68,9 @@ Le temps n'existe que **dans l'âme** (*in anima*). Il y a trois temps, mais tou
 | Le futur | **Attente** (*expectatio*) — présent du futur |
 
 Le temps est une **distension de l'âme** (*distentio animi*) : l'âme s'étend entre mémoire et attente, et c'est cette extension qui constitue la durée. Husserl, Heidegger et Ricoeur reconnaitront en Augustin le premier phénoménologue du temps.
+
+> [!tip] Méthode
+> Ce qui rend cette solution si moderne : Augustin ne cherche pas le temps *dans le monde* (comme une propriété du mouvement des astres, à la façon d'Aristote) mais dans la *conscience qui le vit*. Ce déplacement — du temps objectif au temps vécu — est exactement le geste que la phénoménologie du XXe siècle reprendra pour son propre compte.
 
 ## Le problème du mal
 
@@ -93,6 +99,9 @@ Le moine Pélage affirme que l'homme peut se sauver par ses propres efforts mora
 | La grâce est-elle nécessaire ? | Absolument — sans elle, pas de salut | Utile mais non nécessaire |
 
 La doctrine augustinienne de la grâce aura des conséquences immenses : elle influencera Luther, Calvin et toute la Réforme protestante.
+
+> [!warning] Piège
+> Ne pas lire ce débat comme "liberté contre déterminisme" au sens moderne. Augustin ne nie jamais que l'homme choisisse librement — le problème est que, depuis le péché originel, cette liberté est *unilatéralement orientée vers le mal* sans la grâce (*non posse non peccare*, "ne pas pouvoir ne pas pécher"). C'est une thèse sur la direction de la volonté corrompue, pas sur l'existence du libre arbitre lui-même.
 
 ### La prédestination
 

@@ -22,6 +22,9 @@ L'**universalisme moral** est la position éthique selon laquelle il existe des 
 | Jugement moral interculturel possible | Pas de critique légitime entre cultures |
 | Exemple: Torture est **toujours** mal | Exemple: Torture mal **dans notre culture** |
 
+> [!important] Idée clé
+> Le vrai clivage n'est pas "y a-t-il des règles morales partagées entre cultures" (empiriquement, oui — cf. Donald Brown plus bas) mais "ces règles partagées sont-elles vraies indépendamment de nous, ou juste des convergences accidentelles". L'universalisme est une thèse sur le **statut** de la morale (objective vs conventionnelle), pas une thèse sur la **fréquence** de l'accord moral.
+
 ## Fondements de l'Universalisme
 
 ### 1. Universalisme Religieux
@@ -65,6 +68,9 @@ L'**universalisme moral** est la position éthique selon laquelle il existe des 
 - **Catégorique** (inconditionnelle, pas de "si...")
 - **Universelle** (même loi pour tous les êtres rationnels)
 - **Nécessaire** (pas de exceptions)
+
+> [!warning] Piège
+> Ne pas confondre l'universalisme kantien avec l'universalisme utilitariste (section 4 plus bas) : les deux disent "valable pour tous", mais Kant universalise la **règle d'action** (le devoir), l'utilitarisme universalise le **calcul des conséquences** (le bien-être). Un même acte peut donc être universellement interdit chez Kant et universellement permis chez Bentham — l'universalisme n'est pas une école unique, c'est une exigence formelle que plusieurs théories rivales remplissent chacune à leur façon.
 
 ### 3. Universalisme des Droits Humains
 
@@ -215,6 +221,9 @@ Si universalisme était vrai, ne devrait-il pas y avoir consensus?
 - Droits basiques
 
 Sans imposer conception complète du bien.
+
+> [!tip] Méthode
+> Face à un cas concret (voile, excision, peine de mort...), se demander systématiquement : est-ce que je défends une règle **substantielle** précise (universalisme fort, façon Kant) ou une **procédure** minimale de dialogue (universalisme faible, façon Rawls/Habermas) ? La plupart des désaccords entre universalistes viennent de ce qu'ils ne se situent pas au même niveau — pas d'un vrai désaccord sur le fond.
 
 ## Applications Pratiques
 

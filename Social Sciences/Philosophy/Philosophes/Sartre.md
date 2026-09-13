@@ -71,6 +71,9 @@ Un serveur joue trop bien son rôle, adoptant gestes mécaniques. Il s'identifie
 
 **Salaud :** Celui qui vit dans la mauvaise foi, refuse sa liberté, se cache derrière son rôle social, ses valeurs toutes faites.
 
+> [!warning] Piège
+> La mauvaise foi n'est pas mentir à autrui — c'est se mentir à soi-même tout en sachant, quelque part, la vérité qu'on fuit. Ce paradoxe (comment être à la fois trompeur et trompé ?) est un problème philosophique classique posé par ce concept, pas un simple synonyme de "déni".
+
 ### En-soi et Pour-soi
 
 **En-soi** (être-en-soi) :
@@ -88,6 +91,9 @@ Un serveur joue trop bien son rôle, adoptant gestes mécaniques. Il s'identifie
 - Existe dans la distance à soi, la projection vers l'avenir
 
 **Tension :** L'humain voudrait être en-soi (stable, défini) tout en restant pour-soi (conscient). **Impossible** — source d'angoisse.
+
+> [!important] Idée clé
+> Cette tension en-soi/pour-soi est la source de la formule « l'homme est une passion inutile » : on voudrait être fondé comme une chose (en-soi) tout en restant libre (pour-soi) — un désir structurellement voué à l'échec, puisque les deux modes d'être sont incompatibles par définition.
 
 ### Le Regard des Autres
 
@@ -203,6 +209,9 @@ Sartre et [[Camus]] (autre existentialiste français) se sont brouillés en 1952
 | La fin peut justifier les moyens | Révolte sans meurtre |
 
 Rupture publique et violente après *L'Homme révolté* de Camus.
+
+> [!tip] Méthode
+> Pour un devoir, éviter de réduire l'opposition Sartre/Camus à "pessimiste vs optimiste" — l'axe réel porte sur la justification de la violence : la fin justifie-t-elle les moyens (Sartre, tenté par le marxisme) ou la révolte doit-elle refuser le meurtre par cohérence avec son propre refus de l'absurde comme justification (Camus, *L'Homme révolté*) ?
 
 ## Relations Philosophiques
 

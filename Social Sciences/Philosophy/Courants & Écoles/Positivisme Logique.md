@@ -42,6 +42,9 @@ Critère central proposé pour distinguer le sens du non-sens : **une propositio
 
 Conséquence directe du principe de vérification sur la métaéthique : puisque les jugements moraux ("voler est mal") ne sont ni vérifiables empiriquement ni des tautologies logiques, ils ne peuvent être des énoncés de fait. A.J. Ayer (*Langage, vérité et logique*, 1936) en tire la théorie **émotiviste** : un jugement moral n'exprime rien d'autre qu'une attitude émotionnelle du locuteur, une approbation ou une désapprobation, comparable à une exclamation ("Voler, boo !") — sans valeur de vérité propre, ni vrai ni faux, puisqu'il ne décrit aucun fait — voir [[Concepts/Branches de la Philosophie (Approfondissement)#Éthique|Métaéthique]].
 
+> [!warning] Piège
+> Ne pas confondre émotivisme et nihilisme moral pratique. Ayer ne dit pas que la morale n'a pas d'importance — il dit seulement qu'un jugement moral n'énonce pas un fait vérifiable sur le monde. On peut être émotiviste en théorie et rester profondément engagé moralement en pratique : l'exclamation « Voler, boo ! » exprime un vrai rejet, elle n'en est pas moins sincère pour n'être pas un fait.
+
 ## L'effondrement du critère de vérification
 
 Le positivisme logique se heurte, en quelques années, à une objection qui s'avère fatale : **le principe de vérification lui-même échoue à son propre test**.
@@ -66,6 +69,9 @@ D'autres difficultés s'accumulent : les lois scientifiques universelles ("tous 
 ## Le positivisme logique en exil
 
 La montée du nazisme disperse le Cercle de Vienne : Schlick est assassiné par un ancien étudiant en 1936 ; la plupart des autres membres, dont plusieurs sont juifs ou de gauche, émigrent aux États-Unis et au Royaume-Uni. Carnap, Feigl et Hempel s'installent dans les universités américaines, où leurs travaux irriguent durablement l'empirisme logique anglo-saxon et la philosophie des sciences, sous une forme progressivement assouplie (**empirisme logique**) qui abandonne les prétentions les plus rigides du programme viennois initial.
+
+> [!important] Idée clé
+> Ironie rarement soulignée : le mouvement qui voulait exclure la métaphysique et l'éthique normative comme « dénuées de sens » a dû fuir un régime politique dont la condamnation morale ne pouvait, selon ses propres critères stricts (vérificationnisme, émotivisme), jamais être formulée comme un fait vrai ou faux — seulement comme une exclamation d'attitude. Le cadre théorique du Cercle peinait à rendre compte de la gravité de ce qu'il fuyait.
 
 ## Héritage malgré l'échec
 

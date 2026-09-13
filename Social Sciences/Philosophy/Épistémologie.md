@@ -78,6 +78,9 @@ Edmund Gettier publie en 1963 un article de trois pages qui bouleverse deux mill
 
 La coïncidence entre la justification et la vérité n'est pas de la connaissance. Le problème de Gettier a généré des décennies de tentatives de raffiner la définition — sans solution consensuelle à ce jour.
 
+> [!important] Idée clé
+> Ce que Gettier démontre vraiment, c'est que justification et vérité peuvent coïncider par pure chance — et qu'aucune rustine ajoutée depuis 60 ans n'a réussi à exclure ce type de chance sans en créer un autre. C'est en soi un résultat informatif sur les limites des théories purement internalistes de la connaissance (qui ne regardent que l'état interne du sujet, pas son lien causal réel avec le monde).
+
 **Réponses proposées :**
 - Ajouter une condition "pas de fausses croyances intermédiaires" (Harman)
 - Exiger un lien causal entre la vérité et la croyance (Goldman)
@@ -218,6 +221,9 @@ Karl Popper (*La Logique de la Découverte Scientifique*, 1934) propose une solu
 ```
 
 **Limite :** La thèse de Duhem-Quine montre qu'on ne peut jamais falsifier une théorie isolée — toute expérience teste un ensemble d'hypothèses auxiliaires. Une falsification apparente peut toujours être absorbée en révisant une hypothèse périphérique.
+
+> [!warning] Piège
+> Utiliser la falsifiabilité comme un simple test binaire ("cet énoncé est-il falsifiable, oui ou non ?") ignore Duhem-Quine : en pratique, une théorie n'est jamais testée seule, mais toujours accompagnée d'hypothèses auxiliaires (calibration des instruments, théories de fond). Le jugement de falsification est donc holiste, pas atomique — c'est pour cela que deux scientifiques honnêtes peuvent voir la même anomalie et choisir de réviser des hypothèses différentes.
 
 ## Kuhn : les paradigmes scientifiques
 

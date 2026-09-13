@@ -43,6 +43,9 @@ Diogène parcourait Athènes en plein jour avec une lanterne allumée. Quand on 
 
 **Signification:** Il cherchait un être humain authentique, vivant selon sa vraie nature, et non selon les apparences sociales.
 
+> [!important] Idée clé
+> Chez Diogène, la philosophie n'est jamais un discours *sur* la vertu — c'est un acte, une performance publique. Toutes les anecdotes qui suivent (la lanterne, le poulet plumé, le tonneau) ne sont pas des illustrations pédagogiques ajoutées après coup : elles *sont* la philosophie cynique elle-même, qui refuse justement de se réduire à une théorie abstraite qu'on pourrait lire sans la vivre.
+
 ### Alexandre le Grand
 
 Alexandre, admirateur de Diogène, vint le voir alors qu'il se chauffait au soleil:
@@ -105,6 +108,9 @@ Pour briser les tabous sociaux, Diogène:
 
 **But:** Démontrer que la honte est une construction sociale, pas naturelle.
 
+> [!warning] Piège
+> Ne pas réduire ces provocations à de la simple transgression gratuite : chaque geste vise une convention précise que Diogène juge arbitraire (la pudeur, la propriété, le statut social). C'est une méthode argumentative — la démonstration par l'acte — pas un mode de vie chaotique ; retenir cette logique évite de le confondre avec le "cynisme" moderne (voir tableau plus bas), qui n'a plus rien d'un projet philosophique cohérent.
+
 ## Concepts Clés
 
 ### Askêsis (Exercice Spirituel)
@@ -156,6 +162,9 @@ Diogène inverse les valeurs conventionnelles:
 | Liberté de parole courageuse | Critique destructrice |
 
 Le cynisme moderne a **perverti** le sens original du terme.
+
+> [!tip] Méthode
+> Pour ne pas confondre les deux : demander si la posture critique observée vise à *libérer* celui qui la tient (cynisme antique — se rendre invulnérable en réduisant ses besoins) ou à *disqualifier autrui* sans engagement personnel (cynisme moderne — dénoncer sans rien risquer soi-même). Le premier est une ascèse, le second souvent une posture confortable.
 
 ## Relations Philosophiques
 

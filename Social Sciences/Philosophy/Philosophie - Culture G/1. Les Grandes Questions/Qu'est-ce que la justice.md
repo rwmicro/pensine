@@ -20,6 +20,9 @@ date: "2026-04-12"
 
 5. **Justice comme liberté** (Libertarisme, Nozick) : la seule justice est le respect des droits naturels individuels — vie, liberté, propriété. Toute redistribution forcée (même progressive) est une violation de la justice, même si elle réduit les inégalités.
 
+> [!warning] Piège
+> Ces cinq conceptions ne se classent pas sur un simple axe gauche/droite : Rawls (voile d'ignorance) et l'utilitarisme semblent tous deux "progressistes", mais s'opposent frontalement — Rawls protège les plus défavorisés même au prix du bonheur collectif total, l'utilitarisme peut sacrifier une minorité si la somme globale augmente.
+
 ## Repères historiques
 
 - **Thrasymaque** (chez Platon) : "La justice n'est rien d'autre que l'intérêt du plus fort." C'est l'interlocuteur que Socrate doit réfuter dans *La République* — et c'est la position de départ de toute réflexion sur la justice.
@@ -28,6 +31,9 @@ date: "2026-04-12"
 - **Rawls** (1971) : révolution copernicienne en philosophie politique. Le voile d'ignorance comme procédure d'impartialité. Les inégalités ne sont justes que si elles améliorent la situation des plus défavorisés.
 - **Nozick** (*Anarchie, État et utopie*, 1974) : critique de Rawls. Toute redistribution forcée viole les droits de ceux dont on prélève les ressources. L'État minimal (protection des droits) est le seul État juste.
 - **Amartya Sen** (*L'Idée de justice*, 2009) : la justice ne peut se fonder sur un seul principe idéal. Il faut comparer des situations réelles et réduire les injustices concrètes, sans attendre un accord universel sur les principes.
+
+> [!important] Idée clé
+> Thrasymaque ("la justice est l'intérêt du plus fort") n'est pas un simple repoussoir historique — c'est la position que toute théorie de la justice doit réfuter pour être crédible : si la justice n'est que le nom donné par les puissants à leurs propres intérêts, la question elle-même perd son sens.
 
 ## Ressources
 

@@ -151,6 +151,9 @@ Face au doute absolu, Descartes trouve **une certitude inébranlable** :
 
 **Limite :** Le *cogito* prouve seulement que **moi, en tant que pensée, j'existe**. Pas encore le monde extérieur.
 
+> [!important] Idée clé
+> Le cogito n'est pas un syllogisme ("je pense, or tout ce qui pense existe, donc j'existe") — Descartes insiste que c'est une intuition immédiate : au moment même où je doute, l'acte de douter se donne comme existant, sans inférence nécessaire. C'est ce qui le rend, selon lui, insaisissable même par le doute le plus radical (le malin génie) : douter, c'est déjà penser, donc déjà être.
+
 ## Le Dualisme Cartésien
 
 ### Deux Substances Distinctes
@@ -188,6 +191,9 @@ Descartes distingue radicalement **deux types de réalités** :
 - Problème philosophique non résolu (comment le non-matériel agit sur le matériel ?)
 - Base neurologique fausse
 
+> [!warning] Piège
+> Localiser l'interaction dans la glande pinéale ne résout rien du problème conceptuel — ça ne fait que déplacer la question "comment l'immatériel agit-il sur le matériel ?" à un endroit précis du cerveau, sans expliquer le mécanisme lui-même. C'est une réponse anatomique à une question métaphysique : elle satisfait la curiosité sur le "où" sans toucher au "comment".
+
 ## Les Preuves de l'Existence de Dieu
 
 Descartes propose **trois preuves** de l'existence de Dieu dans les *Méditations*.
@@ -201,6 +207,9 @@ Descartes propose **trois preuves** de l'existence de Dieu dans les *Méditation
 4. Donc, un être parfait (Dieu) doit exister pour avoir mis cette idée en moi
 
 **Type :** Preuve **a posteriori** (à partir de l'expérience - l'idée de Dieu en moi)
+
+> [!tip] Méthode
+> Pour ne pas confondre les trois preuves : la première part d'une idée présente en moi et remonte à sa cause (a posteriori, sur le modèle des quatre causes d'[[Philosophy/Aristote|Aristote]]) ; la troisième (ontologique) part de la seule définition de Dieu, sans passer par l'expérience (a priori, la même structure que la critique kantienne visera juste après). Repérer ce critère — part-on d'un fait constaté ou d'une simple définition ? — permet de classer n'importe quelle preuve de l'existence de Dieu rencontrée ailleurs.
 
 ### 2. Preuve par la Conservation de Mon Existence
 

@@ -49,6 +49,9 @@ Pascal observe que les hommes fuient systématiquement le repos et la solitude �
 
 Ce diagnostic, resitué dans son contexte janséniste (l'homme déchu incapable de se sauver par ses propres forces), annonce des analyses très postérieures sur l'anesthésie existentielle des sociétés modernes par l'occupation permanente et le divertissement de masse.
 
+> [!important] Idée clé
+> Le divertissement n'est pas critiqué par Pascal comme un simple défaut moral (la paresse, la frivolité) — c'est une stratégie de fuite structurellement nécessaire face à une vérité insupportable (la misère et la mortalité de l'homme). On ne peut pas y renoncer par un simple effort de volonté : il faudrait d'abord accepter de regarder en face ce que le divertissement sert justement à éviter.
+
 ## Le pari
 
 Pascal aborde la question de Dieu non comme un théorème à démontrer mais comme une **décision à prendre sous incertitude radicale** — voir [[Philosophy/Philosophie de la Religion|Philosophie de la Religion]]. La raison seule ne peut trancher si Dieu existe ("Dieu est ou il n'est pas [...] la raison n'y peut rien déterminer") ; pourtant, s'abstenir de choisir revient déjà à un choix (vivre comme si Dieu n'existait pas).
@@ -69,6 +72,9 @@ Pascal aborde la question de Dieu non comme un théorème à démontrer mais com
 **L'argument de l'espérance mathématique** : même si la probabilité que Dieu existe est très faible mais non nulle, l'espérance de gain (probabilité × gain) est infinie dès lors que le gain espéré (le salut éternel) est infini — un calcul rationnel de mise en jeu doit donc parier sur l'existence de Dieu, quelle que soit la faiblesse de la probabilité de départ. Pascal ajoute une dimension pratique : celui qui ne "croit" pas encore mais souhaite parier rationnellement doit adopter les pratiques de la foi (messe, prières, eau bénite) — l'habitude et la pratique produisant, avec le temps, la croyance elle-même ("cela vous fera croire et vous abêtira", au sens de dompter l'orgueil de la raison qui prétend tout décider seule).
 
 **Limites de l'argument**, souvent relevées : le "problème des dieux multiples" (pourquoi parier précisément sur le Dieu chrétien plutôt que sur toute autre divinité offrant un salut concurrent ?) et le caractère intéressé, presque mercantile, d'une foi fondée sur le calcul de gain plutôt que sur une conviction de vérité.
+
+> [!warning] Piège
+> Le pari n'est pas une preuve de l'existence de Dieu — Pascal admet explicitement que la raison ne peut rien trancher sur ce point. C'est un argument pragmatique sur la *rationalité de la décision de croire* sous incertitude radicale, structurellement proche d'un calcul d'espérance, pas une démonstration théologique classique (contrairement aux preuves cosmologiques ou ontologiques).
 
 ## Contexte : jansénisme et Port-Royal
 

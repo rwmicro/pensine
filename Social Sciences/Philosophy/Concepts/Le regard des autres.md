@@ -44,6 +44,9 @@ Le **regard d'autrui** (*the gaze*) est un concept clé de [[Sartre]] développ�
 
 **Révélation :** Ma honte ne vient pas de ma conscience morale interne, mais du **regard virtuel de l'autre**. C'est autrui qui révèle ma dimension d'objet.
 
+> [!important] Idée clé
+> Ce n'est pas le fait d'être effectivement vu qui compte, mais la simple possibilité de l'être. Le bruit de pas ne prouve rien — la honte surgit avant toute vérification. Autrui n'est donc pas d'abord perçu comme un objet du monde parmi d'autres, mais comme un sujet dont le regard menace ma propre position de sujet : c'est une inversion, pas une simple addition d'un observateur.
+
 ## Phénomènes Associés
 
 ### La Honte
@@ -135,6 +138,9 @@ Les relations humaines sont fondamentalement **conflictuelles** selon Sartre :
 
 Chaque amant veut **posséder** la liberté de l'autre, ce qui est contradictoire.
 
+> [!warning] Piège
+> Ne pas réduire ce paradoxe à un simple constat psychologique du type « l'amour est compliqué ». Chez Sartre, c'est une impossibilité structurelle : vouloir la liberté de l'autre tout en voulant se l'approprier est contradictoire par nature, indépendamment du couple ou des circonstances — aucun « bon choix de partenaire » ne peut la résoudre.
+
 ## Regard et Mauvaise Foi
 
 Le regard d'autrui peut être un prétexte pour la **mauvaise foi** :
@@ -161,6 +167,9 @@ Frantz Fanon appliquera cette analyse au regard colonial dans *Peau noire, masqu
 1. **Pessimisme excessif ?** Toute relation est-elle conflit ?
 2. **Amour réciproque impossible ?** Sartre ignore peut-être la possibilité d'intersubjectivité authentique
 3. **Reconnaissance mutuelle** ([[Hegel]]) : Le regard peut aussi être reconnaissance égalitaire, pas seulement objectification
+
+> [!important] Idée clé
+> La différence avec Hegel n'est pas cosmétique. Chez Hegel, la dialectique du maître et de l'esclave peut se dépasser vers une reconnaissance mutuelle égalitaire. Chez Sartre, le conflit est une structure ontologique permanente du rapport à autrui — il n'y a pas de synthèse qui le résorbe, d'où son pessimisme relationnel assumé.
 
 **Philosophes critiques :**
 - **Merleau-Ponty :** Propose une intersubjectivité plus positive

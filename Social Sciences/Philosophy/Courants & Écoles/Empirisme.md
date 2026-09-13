@@ -120,6 +120,9 @@ L'**empirisme** (du grec *empeiria* = expérience) est une doctrine philosophiqu
 - La **forme** d'une pomme existe objectivement (qualité première)
 - La **couleur rouge** dépend de notre perception (qualité seconde)
 
+> [!warning] Piège
+> Ne pas confondre « qualité seconde » et « illusion ». Locke ne dit pas que le rouge n'existe pas — il dit que la couleur dépend de la relation entre l'objet et un percevant (structure de sa surface, œil humain), alors que l'étendue existerait telle quelle même sans observateur. C'est une distinction relationnelle, pas une hiérarchie réel/illusoire.
+
 #### Critique de la Substance
 
 **Problème :** Nous ne percevons **jamais** la substance en soi, seulement ses qualités.
@@ -216,6 +219,9 @@ L'**empirisme** (du grec *empeiria* = expérience) est une doctrine philosophiqu
 - La science (basée sur la causalité) n'a **pas de fondement rationnel solide**
 - Seulement une **croyance** fondée sur l'habitude
 
+> [!important] Idée clé
+> C'est le moment où l'empirisme se retourne contre lui-même : la méthode qui fonde toute connaissance sur l'observation ne peut pas observer la nécessité causale — seulement la succession répétée de deux événements. Poussé jusqu'au bout, l'empirisme sape le concept même sur lequel repose la science qu'il voulait légitimer.
+
 #### Le Problème de l'Induction
 
 **Question :** Pourquoi croyons-nous que le futur ressemblera au passé ?
@@ -289,6 +295,9 @@ L'**empirisme** (du grec *empeiria* = expérience) est une doctrine philosophiqu
 2. Trop restrictif : Élimine des énoncés scientifiques légitimes (lois universelles non vérifiables exhaustivement)
 
 **Karl Popper** propose un critère alternatif : **Falsifiabilité** (une théorie est scientifique si elle est réfutable).
+
+> [!tip] Méthode
+> Repérer ce schéma ailleurs : chaque fois qu'une théorie propose un critère universel pour trier le sens du non-sens, demander si le critère lui-même passe son propre test. Le principe de vérification échoue à sa propre épreuve — un problème structurel qui revient dans d'autres tentatives de démarcation (la falsifiabilité de Popper évite cet écueil en se présentant comme une convention méthodologique, pas un critère de sens).
 
 
 ## Empirisme Contemporain

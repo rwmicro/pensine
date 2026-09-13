@@ -76,6 +76,9 @@ Le **conséquentialisme** est une famille de théories éthiques qui jugent la m
 
 **Problème:** Impossible en pratique de calculer tout cela précisément.
 
+> [!warning] Piège
+> Le problème n'est pas seulement « difficile à calculer en pratique » — c'est une objection structurelle. Le calcul suppose que le bonheur soit une grandeur unique, commensurable entre individus. Rien ne garantit que l'intensité de plaisir d'une personne soit comparable à celle d'une autre. Les critiques suivantes (Rawls, valeur intrinsèque) dérivent toutes de cette faille initiale.
+
 ## Exemples d'Application
 
 ### Exemple 1: Le Tramway (Trolley Problem)
@@ -87,6 +90,9 @@ Un tramway fou va tuer 5 personnes sur la voie. Vous pouvez actionner un levier 
 - 1 < 5 donc c'est le choix moral
 
 **Objection déontologique ([[Universalisme Moral|Kant]]):** Tuer activement une personne innocente est toujours mal, peu importe les conséquences.
+
+> [!tip] Méthode
+> Le dilemme ne cherche pas à savoir « quel choix est le bon » — il isole la distinction entre tuer activement et laisser mourir (act/omission distinction). Le même bilan chiffré (1 mort contre 5) donne des réponses opposées selon qu'on agit ou qu'on s'abstient : c'est cet écart d'intuition, pas le nombre de morts, que le dilemme est fait pour révéler.
 
 ### Exemple 2: Mentir pour Sauver des Vies
 
@@ -166,6 +172,9 @@ Un médecin a 5 patients mourants (chacun besoin d'un organe). Un homme en bonne
 **John Rawls:** Le conséquentialisme traite les personnes comme des **récipients** de bonheur/souffrance interchangeables. Il ignore que ce sont des **individus séparés** avec leurs propres vies.
 
 Sacrifier un innocent pour le bien collectif = traiter cet individu comme simple moyen.
+
+> [!important] Idée clé
+> Cette critique de Rawls est la plus profonde de toutes car elle n'attaque pas la difficulté pratique du calcul, mais sa logique même : additionner le bonheur de plusieurs personnes comme si c'était une seule masse ignore qu'aucune personne ne vit la somme — chacune ne vit que sa propre part. C'est un problème de principe, pas de précision.
 
 ### 5. Problème de la Valeur Intrinsèque
 

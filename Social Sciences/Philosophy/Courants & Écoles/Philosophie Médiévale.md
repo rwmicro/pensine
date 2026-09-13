@@ -31,6 +31,9 @@ Toute la philosophie médiévale tourne autour d'une question : **quel est le ra
 | La double vérité | Raison et foi peuvent aboutir à des conclusions différentes, toutes deux valables | Averroïstes latins (Siger de Brabant) |
 | Séparation radicale | La raison ne peut rien prouver en matière de foi | Guillaume d'Ockham |
 
+> [!warning] Piège
+> L'image populaire du Moyen Âge comme époque de « foi aveugle » sans raisonnement est l'inverse de la réalité universitaire médiévale. La scolastique est l'une des périodes les plus formellement rigoureuses de l'histoire de la philosophie — la méthode de la *quaestio* impose de formuler les objections les plus fortes possibles avant d'y répondre, contrairement à beaucoup de débats modernes qui esquivent l'objection la plus difficile.
+
 ## Figures majeures
 
 ### Augustin d'Hippone (354-430)
@@ -87,6 +90,9 @@ Franciscain anglais, figure centrale de la scolastique tardive. Il détruit la s
 
 Le nominalisme d'Ockham prépare la modernité : si les universaux n'existent pas, la connaissance porte sur les individus et l'expérience — c'est le terreau de l'empirisme (Locke, Hume) et de la science moderne.
 
+> [!warning] Piège
+> Le « rasoir d'Ockham » n'est pas un critère de vérité (« l'explication la plus simple est toujours la vraie ») mais un principe méthodologique de parcimonie explicative : entre deux théories qui expliquent également bien les faits, préférer celle qui postule le moins d'entités. Rien ne garantit que le monde soit effectivement simple — le rasoir guide la recherche, il ne la conclut pas.
+
 ## La querelle des universaux
 
 Le débat le plus célèbre de la scolastique : **les universaux (humanité, blancheur, justice) existent-ils réellement ou ne sont-ils que des mots ?**
@@ -99,6 +105,9 @@ Le débat le plus célèbre de la scolastique : **les universaux (humanité, bla
 | **Nominalisme** | Les universaux ne sont que des noms (*nomina*), des sons. Seuls les individus existent | Ockham |
 
 Ce débat est capital : le nominalisme conduit à l'empirisme moderne, le réalisme modéré fonde le thomisme, le conceptualisme prépare Kant.
+
+> [!important] Idée clé
+> Cette querelle médiévale n'est pas un débat clos et daté — elle structure encore la philosophie des mathématiques contemporaine. Le platonisme mathématique (les nombres existent indépendamment de l'esprit) reprend le réalisme des universaux ; le nominalisme mathématique (les nombres ne sont que des fictions utiles) reprend directement la position d'Ockham. Le vocabulaire a changé, le problème est identique.
 
 ## La scolastique : méthode
 

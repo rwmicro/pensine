@@ -16,7 +16,13 @@ La philosophie politique pose la question la plus fondamentale de la vie en comm
 
 1. **Pourquoi obéir à l'État ?** Hobbes : pour éviter la guerre de tous contre tous (peur). Locke : parce qu'on y consent (contrat). Rousseau : parce qu'on est gouverné par des lois qu'on s'est données à soi-même. Anarchisme : jamais, aucune autorité n'est légitime.
 
+> [!important] Idée clé
+> Chaque réponse découle d'une anthropologie différente, pas d'un désaccord sur la politique elle-même : ce qu'on pense de l'état de nature (l'homme y est-il un loup pour l'homme, raisonnable, ou bon ?) détermine mécaniquement la conclusion politique. Repérer la prémisse sur la "nature humaine" avant de juger la conclusion évite de débattre des symptômes plutôt que de la cause.
+
 2. **Qu'est-ce qu'un État légitime ?** Critères possibles : le consentement (contrat social), la justice (Rawls), l'efficacité (utilitarisme), la tradition (conservatisme), la protection des libertés naturelles (libertarisme).
+
+> [!warning] Piège
+> "Se mettre derrière le voile d'ignorance" est souvent utilisé au quotidien comme simple synonyme d'empathie ("et si tu étais à sa place ?"). Chez Rawls, c'est beaucoup plus strict : l'individu ignore *tout* de sa propre situation future (richesse, talents, valeurs, religion) et raisonne en pur agent rationnel cherchant à se prémunir contre le pire cas. Un exercice d'empathie partielle n'a pas la même force démonstrative.
 
 3. **Liberté et égalité sont-elles compatibles ?** Plus de liberté économique (libertarisme) tend à produire plus d'inégalité. Plus d'égalité (socialisme) tend à contraindre certaines libertés. Ce tension est le moteur des débats politiques depuis 1789.
 

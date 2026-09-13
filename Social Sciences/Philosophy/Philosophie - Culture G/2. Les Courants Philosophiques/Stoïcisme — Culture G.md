@@ -22,12 +22,18 @@ date: "2026-04-12"
 
 5. **Cosmopolitisme** — Les stoïciens sont les premiers à se déclarer "citoyens du monde". Tous les humains partagent la même raison ; il n'existe pas de hiérarchie naturelle entre peuples. Marc Aurèle gouvernait un empire tout en cultivant cette fraternité universelle dans son journal intime.
 
+> [!warning] Piège
+> Le "malentendu courant" détaillé plus bas mérite d'être gardé en tête dès maintenant : la dichotomie du contrôle n'est pas une invitation à la passivité généralisée. On agit pleinement sur ce qui dépend de nous (l'effort, la préparation, le jugement) — seul le résultat final échappe au contrôle. Confondre les deux transforme le stoïcisme en fatalisme, ce qu'il n'est pas.
+
 ## Connexions philosophiques
 
 - **Avec le bouddhisme** : détachement des désirs, acceptation de l'impermanence, travail sur le jugement intérieur. Convergences remarquables malgré des histoires totalement séparées.
 - **Avec Kant** : la primauté du devoir moral sur le bonheur immédiat, l'autonomie de la volonté.
 - **Avec l'existentialisme** : la responsabilité radicale chez Sartre (nous sommes nos choix) fait écho à la dichotomie du contrôle — mais Sartre rejette tout cosmos rationnel.
 - **Avec la TCC** : la thérapie cognitive-comportementale (Aaron Beck, Albert Ellis) s'inspire directement d'Épictète : "Ce ne sont pas les événements qui nous troublent, mais les jugements que nous en faisons."
+
+> [!tip] Méthode
+> Ce rapprochement avec la TCC est le point d'entrée le plus efficace pour un devoir contemporain : la phrase d'Épictète citée ci-dessus est littéralement le postulat fondateur de la TCC moderne, vingt siècles avant sa formalisation clinique.
 
 ## Ressources
 

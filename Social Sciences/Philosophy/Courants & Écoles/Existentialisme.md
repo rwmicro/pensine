@@ -21,6 +21,9 @@ L'**existentialisme** est un courant philosophique qui affirme que chaque être 
 - Pas de "plan divin" ou de "nature humaine" universelle
 - Chaque individu est responsable de ce qu'il devient
 
+> [!important] Idée clé
+> « L'existence précède l'essence » n'est pas juste une manière optimiste de dire « on peut changer » — c'est un renversement métaphysique précis. Pour la tradition classique, l'essence (ce qu'est une chose) précède et détermine son existence : un couteau existe pour trancher, une « nature humaine » existerait avant l'individu. Sartre inverse ce rapport — rien ne précède l'existence humaine, donc rien ne la détermine par avance. L'essence (qui je suis) est un résultat, jamais un point de départ.
+
 ### 2. Liberté radicale
 
 - L'être humain est **fondamentalement libre**
@@ -55,6 +58,9 @@ L'**existentialisme** est un courant philosophique qui affirme que chaque être 
 - Trois stades de vie: esthétique, éthique, religieux
 - "La vérité est subjective"
 - Saut de la foi irrationnel mais nécessaire
+
+> [!warning] Piège
+> Kierkegaard est souvent cité comme « premier existentialiste » au même titre que Sartre ou Camus, mais son cadre reste théiste : l'angoisse mène au saut de la foi, pas à l'absurde assumé sans Dieu. La « vérité subjective » ne signifie pas « chacun a sa vérité » (relativisme) — elle désigne l'engagement personnel dans une vérité qui existe indépendamment de soi (la foi chrétienne), pas son invention.
 
 ### Friedrich [[Nietzsche|Nietzsche]] (1844-1900)
 **Existentialisme athée radical**
@@ -184,6 +190,9 @@ L'existentialisme s'exprime souvent mieux en **littérature** qu'en traités:
 - "L'homme n'existe pas" (Lévi-Strauss, Foucault)
 - Structures sociales, linguistiques déterminent l'individu
 - Illusion de la liberté absolue
+
+> [!important] Idée clé
+> Cette critique est la plus dangereuse pour l'existentialisme car elle ne dit pas « vous avez tort sur un point » mais « votre prémisse de départ est fausse » : la liberté radicale suppose un sujet transparent à lui-même, choisissant en pleine conscience. Foucault et Lévi-Strauss répondent que ce sujet est lui-même un effet de structures (langage, inconscient, rapports de pouvoir) antérieures à tout choix — on ne choisit pas depuis nulle part.
 
 ## Héritage et Influence
 

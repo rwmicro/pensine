@@ -84,6 +84,9 @@ Premiers philosophes grecs : ils cherchent à expliquer la nature (*physis*) san
 
 **Tension fondatrice :** Héraclite (tout change) vs Parménide (rien ne change) — cette tension structure encore la métaphysique.
 
+> [!important] Idée clé
+> Cette tension n'est pas réglée au 5e siècle av. J.-C. et ne reste pas un simple point de départ historique — elle revient à chaque bifurcation majeure de la frise : la dialectique de Hegel (devenir qui se réconcilie avec la raison), la question heideggérienne de l'Être face au devenir technique, l'éternel retour de Nietzsche. Lire la frise comme une seule discussion qui se poursuit, plutôt que comme une suite de sujets indépendants, la rend beaucoup plus lisible.
+
 ### L'Âge d'Or Grec (–450 à –322)
 
 | Philosophe | Dates | Œuvres clés | Contribution majeure |
@@ -214,6 +217,9 @@ La philosophie se met au service de la théologie (*philosophia ancilla theologi
 | Raison vs Corps/Instinct | Platon, Descartes | Nietzsche, Merleau-Ponty | Phénoménologie |
 | Sens vs Absurde | Hegel, Marx | Camus, Sartre | Viktor Frankl (sens choisi) |
 | Être vs Devenir | Parménide | Héraclite | Hegel, Heidegger |
+
+> [!tip] Méthode
+> Ce tableau de tensions est un bon outil diagnostique : face à un nouveau philosophe, chercher d'abord de quel côté de chaque ligne il se situe et pourquoi la "synthèse" précédente (souvent Kant ou Hegel) ne le satisfait pas. C'est en général le chemin le plus rapide pour le situer sur la carte plutôt que d'apprendre sa doctrine isolément.
 
 ## Ressources
 

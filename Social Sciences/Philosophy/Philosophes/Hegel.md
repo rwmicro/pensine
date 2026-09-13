@@ -47,6 +47,9 @@ L'*Aufhebung* est le mouvement central : supprimer et conserver à la fois. La n
 
 **Exemple :** L'enfant (thèse) nie ses parents (antithèse) à l'adolescence, mais la synthèse n'est pas le retour à l'enfance — c'est l'adulte qui intègre les deux moments.
 
+> [!warning] Piège
+> Réduire la dialectique hégélienne au triptyque "thèse-antithèse-synthèse" masque l'essentiel : ce n'est pas un mécanisme qu'on applique de l'extérieur à n'importe quel sujet, c'est le mouvement que la *chose elle-même* accomplit en se révélant contradictoire avec elle-même. L'*Aufhebung* — supprimer **et** conserver dans le même geste — est le vrai point technique, pas le triptyque.
+
 ### L'Esprit (*Geist*)
 
 L'Esprit est le principe fondamental de la réalité chez Hegel — non pas un dieu transcendant mais l'auto-déploiement de la Raison dans le monde et dans l'histoire.
@@ -83,6 +86,9 @@ Deux consciences de soi s'affrontent. Pour se prouver sa propre liberté, chacun
 - L'esclave **devient** plus libre que le maître, parce qu'il se réalise dans le travail
 
 Marx inversa ce schéma : la lutte des classes comme moteur de l'histoire.
+
+> [!tip] Méthode
+> Suivre ce passage précis (maître/esclave) à travers ses relectures est une bonne clé pour comprendre pourquoi Hegel irrigue autant de penseurs différents : [[Marxisme|Marx]] y voit un modèle économique (le travail comme émancipation), [[Sartre]] un modèle du regard d'autrui (*L'Être et le Néant*), Kojève une anthropologie du désir de reconnaissance. Même texte, trois lectures incompatibles.
 
 ### Philosophie de l'Histoire
 

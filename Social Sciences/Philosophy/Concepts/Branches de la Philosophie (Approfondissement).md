@@ -43,6 +43,9 @@ Science de la connaissance : comment connaissons-nous ? Qu'est-ce que la vérit�
 - **Révolution Copernicienne** : Objet se conforme à esprit, pas inverse
 - Voir [[Kant]]
 
+> [!important] Idée clé
+> Le criticisme kantien n'est pas un compromis entre rationalisme et empirisme (« un peu de raison, un peu d'expérience »). C'est un déplacement de la question elle-même : au lieu de demander si l'esprit se conforme à l'objet, Kant demande si l'objet se conforme aux structures de l'esprit — la « révolution copernicienne ». Les deux camps cherchaient où se trouve la vérité ; Kant cherche comment la connaissance est possible.
+
 **Théories de la Vérité**
 
 *Correspondance*
@@ -71,6 +74,9 @@ Science de la connaissance : comment connaissons-nous ? Qu'est-ce que la vérit�
 *Problème de Gettier*
 - Croyance vraie justifiée ≠ toujours connaissance
 - Cas : Justification par chance
+
+> [!warning] Piège
+> Gettier ne détruit pas la définition « croyance vraie justifiée » (JTB) — il montre seulement qu'elle n'est pas *suffisante*. Une croyance peut être vraie et justifiée tout en tenant à la chance, sans que la justification soit ce qui la rend vraie. Le problème reste ouvert : qu'ajouter à JTB pour exclure ce genre de coïncidence ?
 
 *Problème Induction*
 - Hume : Expériences passées → futur (pas logiquement justifié)
@@ -196,6 +202,9 @@ Science du bien et du mal, du devoir : comment doit-on agir ? Qu'est-ce qu'une v
   - Sacrifices individus pour collectif ?
   - Difficultés calcul, prédiction
 - Voir [[Utilitarisme]]
+
+> [!warning] Piège
+> Confusion fréquente : déontologie ≠ « règles rigides », conséquentialisme ≠ « sans principes ». La vraie ligne de partage porte sur ce qui rend un acte moral — l'intention/la nature de l'acte (Kant) contre le résultat produit (utilitarisme). Le dilemme du tramway l'illustre : la déontologie interdit de pousser quelqu'un même pour sauver cinq vies (tuer reste mal en soi), le conséquentialisme l'autoriserait si le bilan net est positif.
 
 *Éthique du Care*
 - **Principe** : Attention, sollicitude, relations

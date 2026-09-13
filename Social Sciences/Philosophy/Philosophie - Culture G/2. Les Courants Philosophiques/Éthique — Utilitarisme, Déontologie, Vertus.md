@@ -20,6 +20,9 @@ L'éthique philosophique répond à la question "Comment doit-on agir ?" Trois t
   ÉTHIQUE DES VERTUS → par le caractère de l'AGENT (quelle personne suis-je ?)
 ```
 
+> [!important] Idée clé
+> Ces trois traditions ne répondent pas exactement à la même question — l'utilitarisme et la déontologie demandent "que dois-je faire ?" (une action à juger), l'éthique des vertus demande "qui dois-je être ?" (un caractère à cultiver). C'est pourquoi le tableau de conflits plus bas peut donner trois réponses différentes à un même cas sans qu'aucune ne soit simplement "fausse".
+
 ## Utilitarisme — 4 idées clés
 
 1. **Principe d'utilité** (Bentham) : la bonne action est celle qui produit le plus grand bonheur pour le plus grand nombre. Le bonheur (plaisir moins douleur) est le seul critère moral objectif. La souffrance et le plaisir peuvent en principe être calculés (*calcul hédonique*).
@@ -89,6 +92,9 @@ L'éthique philosophique répond à la question "Comment doit-on agir ?" Trois t
 - Version 1 (Foot, 1967) : actionner un aiguillage pour dévier un tramway d'une voie à cinq vers une voie à une personne. La plupart disent *oui*.
 - Version 2 (Thomson, 1985) : pousser un homme corpulent du haut d'un pont pour que son corps arrête le tramway. La plupart disent *non*. Pourtant le calcul utilitaire est identique (1 mort vs 5).
 - Ce n'est pas incohérence : la déontologie explique la différence. Dans le cas 2, on utilise la personne comme *moyen*, ce que Kant interdit.
+
+> [!warning] Piège
+> Ce contraste entre les deux versions du trolley est l'exemple classique pour montrer qu'un jugement moral intuitif n'est pas toujours incohérent malgré un calcul identique — retenir l'explication kantienne (utiliser une personne comme moyen) plutôt que de conclure simplement "les gens sont irrationnels", erreur fréquente en copie.
 
 **Actualité :**
 - *Voitures autonomes* : si un accident est inévitable, l'IA doit-elle sacrifier le passager pour épargner cinq piétons ? Qui programme ce choix ? Utilitarisme intégré dans le code — mais aucune société ne l'accepte explicitement.

@@ -31,6 +31,9 @@ Nietzsche distingue deux réactions possibles face à cet effondrement des valeu
 
 Le nihilisme n'est donc pas, chez Nietzsche, un point d'arrivée définitif mais un **passage** — dangereux, potentiellement destructeur (il redoute explicitement que le XXe siècle soit celui de guerres immenses menées au nom d'idéologies nihilistes déguisées), mais aussi l'occasion d'une création de valeurs entièrement nouvelles, non plus fondées sur un arrière-monde transcendant mais sur l'affirmation de la vie elle-même — voir [[Nietzsche]].
 
+> [!warning] Piège
+> Ne pas confondre le nihilisme actif avec un simple éloge de la destruction. Nietzsche vise la destruction des valeurs devenues creuses en vue de créer du neuf — pas la destruction comme fin en soi. Le contresens inverse (lire Nietzsche comme précurseur glorifiant la force et la table rase violente) a d'ailleurs été activement construit par l'appropriation nazie de son œuvre, contre l'intention explicite du texte.
+
 ## Formes de nihilisme
 
 | Type | Portée | Exemple de thèse |
@@ -51,6 +54,9 @@ L'existentialisme du XXe siècle se construit largement comme une tentative de t
 ## Distinction avec le relativisme et le postmodernisme
 
 Le nihilisme est parfois confondu, à tort, avec le [[Postmodernisme]] ou le relativisme culturel : ces derniers contestent l'existence de vérités et de valeurs *universelles et absolues*, sans nécessairement nier toute valeur ou tout sens (des valeurs peuvent rester réelles et contraignantes en tant que constructions sociales ou choix existentiels assumés, sans être pour autant transcendantes ou éternelles). Le nihilisme, en son sens le plus strict, va plus loin : il affirme l'absence pure et simple de toute valeur, y compris relative ou construite.
+
+> [!important] Idée clé
+> Ce distinguo est le test opérationnel pour repérer un vrai nihilisme : une position nie-t-elle toute valeur, ou seulement les valeurs absolues et transcendantes (tout en acceptant des valeurs relatives, construites, choisies) ? La plupart des positions qu'on qualifie hâtivement de « nihilistes » (relativisme culturel, constructivisme) sont en réalité anti-fondationnalistes, pas nihilistes au sens strict.
 
 ## Critiques du nihilisme
 

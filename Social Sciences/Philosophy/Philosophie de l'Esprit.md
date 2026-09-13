@@ -50,6 +50,9 @@ Le fonctionnalisme domine la philosophie de l'esprit analytique depuis les anné
 | **Le spectre inversé** | — | Deux personnes fonctionnellement identiques pourraient avoir des qualia différents (le rouge de l'une = le vert de l'autre) sans que rien ne le trahisse |
 | **Le zombie philosophique** | Chalmers | On peut concevoir un être physiquement et fonctionnellement identique à un humain, mais dépourvu de toute expérience subjective — s'il est concevable, le fonctionnel n'épuise pas le mental |
 
+> [!important] Idée clé
+> Ces trois objections partagent une même structure logique, malgré leurs mises en scène différentes : chacune décrit un scénario où le rôle fonctionnel est intégralement préservé, mais où quelque chose (la compréhension, la qualité du vécu, l'expérience elle-même) manque quand même. Repérer ce schéma commun évite de les traiter comme trois arguments indépendants à mémoriser séparément.
+
 ## Le problème difficile de la conscience
 
 David Chalmers (1995) distingue deux types de problèmes.
@@ -85,6 +88,9 @@ Même en connaissant tout de la biologie et de l'écholocation d'une chauve-sour
            qui ne se réduisent pas aux faits physiques
            → le physicalisme est incomplet
 ```
+
+> [!warning] Piège
+> Il est tentant de conclure directement "Mary apprend quelque chose de nouveau → donc le dualisme est vrai". Mais le physicalisme non-réductionniste bloque précisément cette inférence : il accepte que Mary apprend une nouvelle *façon de connaître* un fait déjà entièrement physique (voir l'expérience directement plutôt que de la décrire), sans que cela crée un nouveau fait non-physique. Le débat porte exactement sur ce point de bascule, pas sur l'expérience elle-même.
 
 ## Réponses physicalistes au problème difficile
 

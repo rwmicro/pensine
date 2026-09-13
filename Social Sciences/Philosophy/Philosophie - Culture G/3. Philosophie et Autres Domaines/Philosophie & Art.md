@@ -16,6 +16,9 @@ L'art résiste aux catégories ordinaires de la connaissance. Ce n'est ni vrai n
 
 1. **Qu'est-ce que le beau ?** La beauté est-elle une propriété objective des choses (un coucher de soleil *est* beau) ou un jugement subjectif (il *me* semble beau) ? Kant propose une troisième voie : universalité subjective.
 
+> [!important] Idée clé
+> "Universalité subjective" n'est pas une contradiction dans les termes : Kant ne dit pas que le beau est à la fois objectif et subjectif, mais qu'un jugement esthétique, tout en partant d'un sentiment purement individuel (subjectif), prétend légitimement à l'accord de tous (universel) — sans pouvoir le prouver par un concept. C'est une catégorie à part, ni la vérité scientifique ni le simple goût ("j'aime le chocolat").
+
 2. **Qu'est-ce que l'art ?** Tout peut-il être de l'art (*Fontaine* de Duchamp, 1917 — un urinoir signé) ? Y a-t-il des critères ? Ou l'art est-il défini par les institutions artistiques (le *monde de l'art* d'Arthur Danto) ?
 
 3. **L'art a-t-il une fonction ?** Platon l'expulse de la cité idéale (dangereux, mensonger, corrupteur de l'âme). Aristote le réhabilite : la tragédie produit une *catharsis* (purification des émotions). Pour Hegel, l'art est une forme de la manifestation de l'Esprit absolu.
@@ -37,6 +40,9 @@ L'art résiste aux catégories ordinaires de la connaissance. Ce n'est ni vrai n
 **Nietzsche** (*La Naissance de la tragédie*, 1872) : deux forces — Apollon (forme, clarté, ordre) et Dionysos (chaos, ivresse, extase). La grande art est leur synthèse. La tragédie grecque était cela. Socrate et Platon l'ont détruite en imposant la raison pure. La musique de Wagner (selon le Nietzsche de 1872) pouvait la ressusciter — Nietzsche se ravisa plus tard.
 
 **Danto et le monde de l'art** : *Brillo Box* de Warhol (1964) est visuellement identique aux boîtes Brillo industrielles. Qu'est-ce qui en fait de l'art ? Non pas ses propriétés visuelles mais sa relation à une *théorie de l'art* et une *atmosphère institutionnelle*. C'est le "monde de l'art" (critiques, galeristes, musées, théoriciens) qui définit ce qui est art.
+
+> [!tip] Méthode
+> Ce déplacement (chercher une propriété intrinsèque à l'objet → chercher son rapport à un contexte institutionnel) est un mouvement philosophique réutilisable au-delà de l'art : qu'est-ce qu'un délit, qu'est-ce qu'une monnaie, qu'est-ce qu'un mariage ? Dans chaque cas, la définition par les propriétés physiques échoue et c'est la reconnaissance par une institution qui fait la différence.
 
 ## Ressources
 

@@ -23,6 +23,9 @@ Dans *Théorie de l'agir communicationnel* (1981), Habermas distingue deux orien
 
 Habermas ne prétend pas que l'agir stratégique soit toujours illégitime (le marché, par exemple, en relève structurellement) — mais il défend que l'agir communicationnel constitue le fondement originaire du langage humain, et qu'une société ne peut fonctionner durablement sans préserver des espaces où cet agir reste possible.
 
+> [!important] Idée clé
+> Ne pas confondre cette distinction avec une opposition morale (manipulation = mal, sincérité = bien). C'est une distinction structurelle : la question n'est pas "cet acteur est-il honnête ?" mais "cette sphère de la vie sociale est-elle *encore* coordonnée par l'entente mutuelle, ou déjà colonisée par une logique de résultat ?" — voir plus bas la thèse de la colonisation du monde vécu.
+
 ## L'éthique de la discussion
 
 Habermas reformule l'impératif catégorique kantien (voir [[Kant]]) en un principe procédural, non plus solitaire mais **intersubjectif** : une norme n'est valide que si tous ceux qui pourraient être concernés par elle pourraient l'accepter comme participants à une discussion rationnelle, menée dans des conditions idéales de communication.
@@ -45,6 +48,9 @@ Habermas reformule l'impératif catégorique kantien (voir [[Kant]]) en un princ
 ```
 
 Ce principe fonde une conception **délibérative** de la démocratie : la légitimité d'une décision collective ne vient pas seulement du vote final, mais de la qualité — inclusive, rationnelle, non biaisée par le pouvoir ou l'argent — du processus de discussion publique qui l'a précédée.
+
+> [!warning] Piège
+> La "situation de parole idéale" n'est pas un état empirique que Habermas croit atteignable — aucune discussion réelle ne satisfait ces conditions parfaitement. C'est un **idéal régulateur, contrefactuel** : la mesure à laquelle on compare une discussion réelle pour juger de sa légitimité, pas une description de ce qui existe.
 
 ## L'espace public (Öffentlichkeit)
 

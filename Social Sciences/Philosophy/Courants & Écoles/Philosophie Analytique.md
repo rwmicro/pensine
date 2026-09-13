@@ -44,6 +44,9 @@ Conséquence : la **métaphysique**, l'**éthique** et la **théologie** sont **
 
 Le positivisme logique s'effondre sous ses propres critères : le principe de vérification lui-même n'est ni analytique ni empiriquement vérifiable — il est donc dépourvu de sens selon ses propres règles.
 
+> [!warning] Piège
+> Ne pas assimiler « philosophie analytique » à « positivisme logique » — erreur fréquente. Le positivisme logique n'est qu'une phase de vingt ans qui s'est effondrée sur elle-même ; l'essentiel de la philosophie analytique contemporaine (philosophie de l'esprit, métaphysique, éthique) n'adopte plus ce critère de vérification et traite sans complexe des questions que les positivistes auraient jugées dénuées de sens.
+
 ### 3. La philosophie du langage ordinaire (1940-1960)
 
 Le second Wittgenstein (*Recherches philosophiques*, 1953) et les philosophes d'Oxford (Austin, Ryle, Strawson) abandonnent le langage idéal pour étudier le **langage ordinaire** tel qu'il est effectivement utilisé.
@@ -54,6 +57,9 @@ Le second Wittgenstein (*Recherches philosophiques*, 1953) et les philosophes d'
 | **J.L. Austin** | Actes de langage (*speech acts*) : dire "je vous déclare mariés" ne décrit pas un fait — c'est un acte (*performatif*) |
 | **Gilbert Ryle** | *The Concept of Mind* (1949) : le dualisme corps/esprit est une "erreur de catégorie" — comme chercher l'université après avoir visité tous les bâtiments |
 | **P.F. Strawson** | Réhabilitation de la métaphysique descriptive |
+
+> [!important] Idée clé
+> L'« erreur de catégorie » de Ryle dépasse largement le problème corps-esprit : c'est un diagnostic général applicable à toute confusion qui traite un concept d'un certain type (une manière d'organiser des faits) comme s'il désignait une chose du même ordre que les éléments qu'il organise — chercher « l'esprit » en plus du cerveau et du comportement répète l'erreur de chercher « l'université » en plus des bâtiments, des étudiants et des professeurs.
 
 ### 4. La philosophie analytique mature (1960-aujourd'hui)
 
@@ -89,6 +95,9 @@ La philosophie analytique utilise massivement les **expériences de pensée** (*
 ### La distinction analytique/synthétique
 
 Héritée de Kant mais reformulée par le positivisme logique, cette distinction est attaquée par **Quine** ("Two Dogmas of Empiricism", 1951) : il n'y a pas de frontière nette entre les vérités de définition et les vérités d'expérience. Nos croyances forment un **réseau** (*web of belief*) qui fait face à l'expérience comme un tout.
+
+> [!warning] Piège
+> Cette attaque de Quine n'est pas un détail technique — si la frontière analytique/synthétique s'effondre, c'est tout l'édifice du positivisme logique (qui reposait sur elle pour distinguer sens et non-sens) qui perd son fondement, ainsi que la distinction kantienne a priori/a posteriori dont elle hérite. Peu d'articles de philosophie du XXe siècle ont eu un effet aussi corrosif sur tout un système.
 
 ## Analytique vs continentale
 

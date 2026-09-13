@@ -21,6 +21,9 @@ date: "2026-04-12"
 
 5. **Liberté intérieure** (Stoïcisme, Épictète) : même esclave ou emprisonné, la vie intérieure reste libre. Ce qui dépend de nous — jugements, désirs, réactions — ne peut jamais être enchaîné. Épictète, né esclave, incarne cette liberté radicalement intérieure.
 
+> [!warning] Piège
+> Ne pas confondre le compatibilisme (Hume, Spinoza, Kant sur ce point précis) avec un simple compromis mou entre liberté et déterminisme — c'est une thèse forte : la liberté n'a jamais consisté à échapper à la causalité, seulement à agir selon ses propres raisons plutôt que sous contrainte externe.
+
 ## Repères historiques
 
 - **Spinoza** : la liberté est compréhension de la nécessité. Plus nous comprenons les lois qui nous gouvernent, plus nous sommes libres — non pas malgré le déterminisme, mais à travers lui.
@@ -28,6 +31,9 @@ date: "2026-04-12"
 - **Hegel** : la liberté n'est pas l'arbitraire du choix mais la réalisation de soi dans des institutions rationnelles (famille, société civile, État). "La liberté substantielle."
 - **Mill** : *harm principle* — la liberté individuelle ne peut être limitée que pour prévenir le tort fait à autrui. Sinon, l'individu est souverain sur lui-même.
 - **Foucault** : les disciplines modernes (école, prison, hôpital, psychiatrie) produisent des sujets qui intériorisent leur propre surveillance. Le "panoptique" de Bentham comme métaphore d'une liberté illusoire.
+
+> [!tip] Méthode
+> Berlin (négative/positive) et Sartre (liberté absolue) répondent à des questions différentes : Berlin demande "de quoi suis-je libre ?" (un rapport à autrui/l'État), Sartre demande "suis-je libre malgré moi ?" (un rapport à soi-même) — les mélanger fait perdre des points en dissertation.
 
 ## Ressources
 

@@ -26,6 +26,9 @@ Ce n'est pas un mouvement unifié mais un *climax* intellectuel produit par plus
 
 5. **Rhizome vs arbre** (Deleuze & Guattari, *Mille Plateaux*, 1980) : la pensée occidentale organise le savoir en *arbres* — hiérarchies, origines, racines, branches. Un modèle alternatif : le *rhizome* (comme les racines de fougère ou les réseaux mycéliens) — des connexions horizontales, multiples, sans centre ni périphérie, sans début ni fin. La pensée en réseau contre la pensée en pyramide.
 
+> [!important] Idée clé
+> Ces cinq idées partagent une structure commune : chacune montre qu'une chose qu'on croyait neutre ou donnée (les grands récits, le sens d'un texte, la connaissance, la réalité médiatique, l'organisation du savoir) est en fait construite et devrait être interrogée — le postmodernisme est moins une doctrine qu'une méthode de suspicion généralisée.
+
 ## Les figures majeures
 
 | Philosophe | Idée centrale | Œuvre clé |
@@ -85,6 +88,9 @@ Ce n'est pas un mouvement unifié mais un *climax* intellectuel produit par plus
 
 **Auto-critique :**
 - Si tout savoir est perspectival et produit par le pouvoir, comment la théorie postmoderne elle-même échappe-t-elle à cette critique ? C'est la classique question de l'autoréférence.
+
+> [!warning] Piège
+> Cette objection d'autoréférence n'est pas un point gagnant définitif — Foucault et Derrida l'assument explicitement : ils ne prétendent jamais parler depuis nulle part. La vraie question à trancher en dissertation est de savoir si assumer sa propre perspective annule ou non la force critique de l'argument.
 
 ## Questions ouvertes
 

@@ -39,6 +39,9 @@ Le **rationalisme** (du latin *ratio* = raison) est une doctrine philosophique s
 - Connaître = **se souvenir** de ce que l'âme savait déjà
 - **Preuve** : L'esclave du *Ménon* "découvre" des vérités géométriques par questionnement (sans enseignement empirique)
 
+> [!important] Idée clé
+> Ne pas prendre l'anamnèse au pied de la lettre (une vie antérieure de l'âme) pour rejeter tout l'argument. Le point philosophique survit à la mythologie : l'esclave du *Ménon* montre qu'on peut faire émerger, par questionnement pur, des vérités géométriques nécessaires sans qu'on les lui ait enseignées empiriquement — un argument sérieux en faveur de structures cognitives a priori, indépendamment de la théorie de la réincarnation qui l'habille chez Platon.
+
 **Allégorie de la Caverne :**
 - Les prisonniers voient des ombres (monde sensible)
 - Le philosophe sort de la caverne et voit le soleil (Idée du Bien, connaissance rationnelle)
@@ -164,6 +167,9 @@ Voir [[Spinoza]] pour détails complets.
 **Déterminisme rationnel :**
 - Comprendre l'univers = Déduire toutes choses de la nature de Dieu
 - Connaissance du 3e genre (**science intuitive**) = Saisir les choses *sub specie aeternitatis* (sous l'aspect de l'éternité)
+
+> [!warning] Piège
+> « Pas de libre arbitre » chez Spinoza ne veut pas dire résignation passive. La liberté spinoziste consiste à comprendre les causes nécessaires de nos affects et actions plutôt qu'à y échapper — un homme libre n'est pas un homme sans causes, c'est un homme qui agit à partir d'idées adéquates (compréhension rationnelle) plutôt que d'affects subis passivement. Comprendre la nécessité est déjà, pour Spinoza, une forme d'émancipation.
 
 #### Critique de l'Empirisme
 
@@ -338,6 +344,9 @@ Voir [[Spinoza]] pour détails complets.
 | **Confiance dans les sens** | Méfiance (trompeurs) | Confiance (source unique) |
 | **Figures** | Descartes, Spinoza, Leibniz | Locke, Berkeley, Hume |
 | **Géographie** | Continental (France, Allemagne, Pays-Bas) | Britannique |
+
+> [!important] Idée clé
+> Ce clivage historique se prolonge directement dans le débat contemporain inné/acquis en sciences cognitives (voir plus bas la section sur Chomsky) — la question « d'où viennent nos concepts fondamentaux » n'a jamais quitté la philosophie, elle a juste changé de vocabulaire (idées innées → dispositions génétiques, raison pure → architecture cognitive).
 
 
 ## Applications et Influences

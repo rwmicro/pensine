@@ -16,6 +16,9 @@ Montaigne ouvre les *Essais* par un avertissement inhabituel pour l'époque : il
 
 > "Je n'ai pas plus fait mon livre que mon livre m'a fait."
 
+> [!tip] Méthode
+> La forme de l'essai n'est pas un simple habillage littéraire du contenu sceptique — elle en est la mise en pratique. Un traité systématique affirmerait des conclusions stables ; l'essai, par définition, met une pensée à l'épreuve sans garantir son point d'arrivée. Chez Montaigne, la forme *est* l'argument philosophique.
+
 ## Le scepticisme du "Que sais-je ?"
 
 Dans l'*Apologie de Raymond Sebond*, le plus long et le plus philosophique des chapitres des *Essais*, Montaigne développe une critique radicale des prétentions de la raison humaine à la certitude — reprenant et actualisant le scepticisme antique de Pyrrhon (voir [[Épistémologie#Scepticisme|Scepticisme]]).
@@ -47,6 +50,9 @@ Dans le chapitre *Des cannibales*, Montaigne relate (d'après des récits de voy
 > "Chacun appelle barbarie ce qui n'est pas de son usage [...] nous n'avons autre mire de la vérité et de la raison que l'exemple et idée des opinions et usances du pays où nous sommes."
 
 Ce relativisme précoce — comparer les cultures sans présupposer la supériorité automatique de la sienne — préfigure des questionnements que l'anthropologie moderne développera systématiquement des siècles plus tard, et fait de Montaigne l'un des premiers penseurs européens à interroger de l'intérieur l'ethnocentrisme de sa propre civilisation.
+
+> [!warning] Piège
+> Le relativisme de Montaigne n'est pas "toutes les coutumes se valent, tout est permis" — il ne cesse pas de juger (il continue d'appeler "barbarie" la torture judiciaire européenne). Ce qu'il retire, c'est la présomption que sa propre culture fournit le point de vue neutre à partir duquel juger les autres — une nuance qui distingue le relativisme méthodologique du relativisme moral total.
 
 ## L'éducation : former un jugement, pas remplir une mémoire
 

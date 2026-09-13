@@ -28,6 +28,9 @@ L'apport le plus original d'Avicenne à la métaphysique est la distinction entr
 **Essence et existence**
 Corollaire majeur : chez tout étant sauf Dieu, l'**essence** (ce qu'est une chose — la "chevalinité" du cheval) est distincte de son **existence** (le fait qu'elle soit réellement). Seul en Dieu essence et existence coïncident absolument. Cette distinction essence/existence, reprise et retravaillée par Thomas d'Aquin, deviendra un pilier de la métaphysique scolastique latine — voir [[Thomas d'Aquin]].
 
+> [!important] Idée clé
+> Cette distinction est ce qui permet à Avicenne de prouver Dieu sans passer par un premier moteur physique (à la façon d'Aristote) : puisque penser l'essence d'un cheval ne me dit rien sur son existence réelle, tout étant fini a besoin d'une cause externe qui "ajoute" l'existence à son essence — sauf un être où penser l'essence *revient à* affirmer l'existence. C'est un argument purement conceptuel, indépendant de toute observation du mouvement.
+
 ## Théorie de l'âme
 
 **L'argument de l'homme volant (*l'homme suspendu dans le vide*)**
@@ -45,6 +48,9 @@ Corollaire majeur : chez tout étant sauf Dieu, l'**essence** (ce qu'est une cho
 ```
 Cette expérience de pensée, souvent rapprochée du *cogito* cartésien six siècles plus tard, établit pour Avicenne l'immatérialité et la substantialité de l'âme rationnelle — sans pour autant nier l'union étroite de l'âme et du corps dans la vie ordinaire.
 
+> [!warning] Piège
+> Ne pas assimiler trop vite cet argument au *cogito* de [[Descartes]] : Descartes cherche une certitude épistémique inébranlable (que sais-je avec certitude ?), Avicenne cherche à démontrer un fait métaphysique sur la nature de l'âme (l'âme est une substance distincte du corps). Le rapprochement est utile pour mémoriser l'argument, mais les deux philosophes répondent à des questions différentes.
+
 **Hiérarchie des facultés de l'âme** (héritée d'Aristote, systématisée) : âme végétative (nutrition, croissance, reproduction, partagée avec les plantes), âme animale (sensation, mouvement, partagée avec les animaux), âme rationnelle (intellect, propre à l'humain) — avec, au sommet, l'**intellect agent**, principe séparé qui illumine l'intellect humain et le fait passer de la puissance à l'acte de connaître (theme repris et durci par [[Averroès]]).
 
 ## Logique et médecine
@@ -58,6 +64,9 @@ Cette expérience de pensée, souvent rapprochée du *cogito* cartésien six si�
 - **Vers l'Europe latine** : traduit dès le XIIe siècle (école de Tolède), Avicenne devient une autorité incontournable de la scolastique naissante — Albert le Grand et Thomas d'Aquin le discutent constamment, l'adoptant sur la distinction essence/existence tout en rejetant l'éternité du monde
 - **Critique par al-Ghazali** : dans *L'Incohérence des philosophes* (*Tahafut al-Falasifa*), le théologien mystique accuse Avicenne d'hérésie sur trois points (éternité du monde, connaissance divine limitée aux universaux, négation de la résurrection corporelle) — débat majeur de la pensée islamique classique, auquel [[Averroès]] répondra un siècle plus tard
 - **Filiation directe** : la distinction essence/existence, l'argument de contingence pour l'existence de Dieu, et l'expérience de l'homme volant comptent parmi les contributions les plus durables et les plus discutées de la philosophie médiévale, musulmane comme chrétienne
+
+> [!tip] Méthode
+> Retenir l'opposition structurante avec [[Averroès]] plus tard dans le vault : Avicenne accepte le prisme néoplatonicien (émanation, intellect agent séparé) qu'Averroès rejettera précisément comme une contamination d'Aristote — leur désaccord n'est pas de détail, c'est un désaccord sur la méthode même de lecture des textes grecs.
 
 ## Citations
 

@@ -65,6 +65,9 @@ L'éthique, l'esthétique, le sens de la vie, la mystique — tout ce qui compte
 
 > "Ce dont on ne peut parler, il faut le taire." (Proposition 7, dernière du livre)
 
+> [!important] Idée clé
+> Le Cercle de Vienne lira cette proposition comme une condamnation de la métaphysique (ce qui est indicible n'a pas de sens et ne compte pas). Wittgenstein la voulait presque à l'inverse : l'indicible (éthique, esthétique, mystique) est précisément ce qui compte le plus — le livre entier sert à tracer les limites du dicible pour laisser voir ce qui les dépasse.
+
 ### Influence du Tractatus
 
 Le **Cercle de Vienne** (Carnap, Schlick, Neurath) s'empare du *Tractatus* pour fonder le **positivisme logique** : seules les propositions vérifiables empiriquement ou les tautologies logiques ont du sens. Tout le reste (métaphysique, éthique, théologie) est dépourvu de sens.
@@ -104,6 +107,9 @@ Les choses que nous appelons "jeux" (échecs, football, patience, jeu de mots) n
 
 Cela détruit l'essentialisme platonicien : il n'y a pas d'essence du "jeu", du "langage", ou de la "beauté". Il y a des usages, des cas, des ressemblances.
 
+> [!warning] Piège
+> Ne pas réduire cette idée à "les définitions sont floues, tant pis" — c'est une thèse anti-essentialiste précise : chercher LA propriété commune à tous les jeux (ou à tout concept général) est une erreur de méthode, pas un échec de rigueur. C'est un argument contre le platonisme des concepts, pas un renoncement à la clarté.
+
 **4. L'argument du langage privé**
 
 Wittgenstein démontre qu'un **langage purement privé** (dont seul le locuteur pourrait comprendre les termes) est impossible. Si je nomme "S" une sensation interne, sans aucun critère public de vérification, je ne peux jamais savoir si j'utilise "S" correctement. Suivre une règle exige un critère public — le langage est essentiellement social.
@@ -125,6 +131,9 @@ La philosophie ne résout pas des problèmes — elle les **dissout** en montran
 | Les problèmes philosophiques ont une solution définitive | Les problèmes philosophiques sont des confusions à dissoudre |
 | Style : aphorismes numérotés, architectonique | Style : remarques, exemples, dialogues imaginaires |
 | Influence : positivisme logique | Influence : philosophie du langage ordinaire |
+
+> [!tip] Méthode
+> Point de passage obligé pour tout devoir sur Wittgenstein : montrer que ce n'est pas juste "un changement d'avis" mais que les deux philosophies répondent à la même question (qu'est-ce que la signification ?) par des méthodes opposées — l'une cherche une structure logique unique, l'autre la dissout en une pluralité d'usages.
 
 ## Héritage
 

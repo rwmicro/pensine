@@ -19,6 +19,9 @@ Le structuralisme prend sa source dans la linguistique de Ferdinand de Saussure 
 
 Cette méthode — chercher un système de différences plutôt que des essences isolées — est ensuite exportée bien au-delà de la linguistique.
 
+> [!important] Idée clé
+> Ce qui unifie tous les structuralismes (linguistique, anthropologique, marxiste, foucaldien), ce n'est pas un objet commun mais une même méthode : remplacer la question "qu'est-ce que c'est en soi ?" par "quelle est sa position dans un système de différences ?". Retenir cette méthode explique pourquoi Lévi-Strauss, Althusser et le premier Foucault peuvent être classés ensemble malgré des objets d'étude sans rapport apparent.
+
 ## Lévi-Strauss : l'anthropologie structurale
 
 Claude Lévi-Strauss applique la méthode saussurienne à l'anthropologie — voir [[Sociology/Grands Courants Théoriques#Structuralisme|Structuralisme en sociologie]].
@@ -41,6 +44,9 @@ Louis Althusser relit Marx contre toute interprétation humaniste ou historicist
 
 **L'archéologie du savoir** (*Les Mots et les Choses*, 1966) : à chaque époque correspond un *épistémè* — une configuration inconsciente qui rend possibles certains savoirs et en exclut d'autres, indépendamment de la volonté des savants eux-mêmes. L'"homme" comme objet de savoir (sujet de la psychologie, de l'économie, des sciences humaines) est une invention récente, datée, qui pourrait "s'effacer, comme à la limite de la mer un visage de sable" — formule qui annonce déjà un projet moins statique que le structuralisme classique.
 
+> [!warning] Piège
+> Foucault lui-même a toujours refusé l'étiquette "structuraliste" — la classer ici est un raccourci pédagogique commode, pas une auto-identification. La différence est réelle : un épistémè, contrairement à une structure saussurienne, change d'une époque à l'autre sans loi de transformation identifiable — c'est déjà un pas vers l'histoire des ruptures plutôt que vers un système intemporel.
+
 **La généalogie du pouvoir** (*Surveiller et Punir*, 1975) : Foucault délaisse ensuite l'archéologie pure pour une **généalogie** (empruntée à Nietzsche) qui retrace comment les pratiques et les institutions se sont historiquement formées à travers des rapports de force, non des structures figées. Le passage du supplice public à l'enfermement disciplinaire (le **panoptique** de Bentham comme modèle architectural de la surveillance intériorisée) illustre une nouvelle économie du pouvoir : moins spectaculaire, plus diffuse, productive de normes et de savoirs (le "biopouvoir") plutôt que simplement répressive.
 
 ## Derrida et la déconstruction
@@ -50,6 +56,9 @@ Jacques Derrida pousse la logique structuraliste (le sens par différence, jamai
 **La différance** (néologisme fusionnant "différer" au sens spatial et "différer" au sens temporel) : le sens d'un signe n'est jamais pleinement présent ni fixé — il est toujours renvoyé à d'autres signes, dans une chaîne infinie de renvois qui ne se referme jamais sur une signification stable et définitive.
 
 **La déconstruction** : méthode de lecture qui traque, dans les textes philosophiques eux-mêmes, les hiérarchies binaires implicites qu'ils présupposent sans les interroger (parole/écriture, présence/absence, nature/culture, homme/femme) — et montre que le terme censé être second et dérivé (l'écriture par rapport à la parole, par exemple) est en réalité la condition du terme censé être premier. Objectif : déstabiliser la "métaphysique de la présence" qui, selon Derrida, traverse toute la philosophie occidentale depuis Platon.
+
+> [!tip] Méthode
+> Pour ne pas confondre "déconstruire" avec "détruire" ou "critiquer de l'extérieur" (confusion très répandue dans l'usage courant du mot) : la déconstruction travaille toujours *depuis l'intérieur* du texte, avec ses propres ressources conceptuelles — elle ne lui oppose pas une thèse rivale, elle montre que le texte se contredit déjà lui-même dès qu'on prend au sérieux ce qu'il présuppose sans le dire.
 
 ## Critiques du structuralisme et du post-structuralisme
 

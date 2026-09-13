@@ -104,6 +104,9 @@ Prendre une conviction forte — par exemple "la liberté d'expression doit êtr
 
 Face à une décision qui affecte d'autres personnes — une règle à poser, un jugement à porter — imaginer qu'on ne sait pas quelle place on occupera dans le résultat. Quelle règle est-ce qu'on choisirait ?
 
+> [!warning] Piège
+> L'exercice est faussé s'il reste confortable : la tentation naturelle est de substituer une version idéalisée de soi-même ("si j'étais pauvre, je continuerais quand même à valoriser le mérite") plutôt que d'accepter une ignorance réelle sur qui on serait. Si la règle choisie ressemble trop à celle qu'on aurait choisie en pensant à sa propre situation actuelle, l'exercice n'a probablement pas été fait sérieusement.
+
 ### Éternel retour de Nietzsche comme boussole
 
 Avant de prendre une décision importante : "Voudrais-je, si cette vie devait se répéter infiniment, avoir fait ce choix ?" Non comme paralysie, mais comme révélateur de ce qu'on valorise vraiment.

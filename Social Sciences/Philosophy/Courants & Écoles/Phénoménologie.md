@@ -32,6 +32,9 @@ Mathématicien de formation, Husserl fonde la phénoménologie dans les *Recherc
 
 **La réduction phénoménologique** (*epoché*) : mettre "entre parenthèses" la question de l'existence réelle du monde — suspendre les préjugés pour décrire purement comment les choses se donnent à la conscience.
 
+> [!warning] Piège
+> Ne pas confondre l'epoché husserlienne avec le doute cartésien. Descartes suspend sa croyance dans le monde extérieur pour chercher une certitude indubitable au-delà (le cogito). Husserl ne doute de rien — il met la question de l'existence réelle entre parenthèses pour décrire comment le monde apparaît, sans jamais prétendre trouver un fondement plus certain derrière l'expérience.
+
 **Noèse et noème :**
 - *Noèse* : l'acte de conscience (percevoir, imaginer, juger)
 - *Noème* : le contenu visé par cet acte (l'objet tel que perçu, imaginé, jugé)
@@ -54,6 +57,9 @@ Mathématicien de formation, Husserl fonde la phénoménologie dans les *Recherc
 **Heidegger et la technologie :** La modernité est dominée par l'*Enframing* (*Gestell*) — toute réalité devient "fonds disponible", matière à exploiter. La technique n'est pas neutre — elle révèle le monde comme stock de ressources.
 
 **Controverse politique :** Heidegger a adhéré au NSDAP (1933), a été recteur de Fribourg sous le nazisme, n'a jamais exprimé de regrets. Les *Cahiers noirs* publiés en 2014 révèlent une pensée antisémite. Ce n'invalide pas sa philosophie mais impose une lecture critique.
+
+> [!important] Idée clé
+> Le Dasein n'est pas un synonyme savant d'« être humain » au sens biologique. C'est un mode d'être précis : celui d'un étant pour qui sa propre existence est en question, qui a toujours déjà une compréhension — même confuse — de ce que signifie être. Un caillou ou un animal ne se rapportent pas à leur être de cette façon ; eux sont, sans avoir à l'être.
 
 ### Maurice Merleau-Ponty (1908-1961) — La Phénoménologie du Corps
 
@@ -112,6 +118,9 @@ La phénoménologie a profondément marqué :
 | Conscience incarnée, située | Sujet rationnel, désincorporé |
 | Heidegger, Merleau-Ponty, Husserl | Russell, Frege, Wittgenstein |
 | Tradition continentale | Tradition anglo-saxonne |
+
+> [!warning] Piège
+> Ce tableau simplifie une frontière plus poreuse qu'il n'y paraît. Merleau-Ponty dialogue explicitement avec la psychologie expérimentale ; à l'inverse, des analytiques comme Dennett ou Chalmers traitent frontalement la conscience incarnée. La division analytique/continentale est autant institutionnelle et stylistique (langue, revues, méthodes de citation) que strictement doctrinale.
 
 ## Ressources
 

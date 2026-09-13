@@ -56,6 +56,9 @@ Locke distingue deux sources d'expérience :
 
 Le rouge n'est pas dans la tomate — c'est un effet produit dans notre esprit par certaines propriétés physiques de la tomate.
 
+> [!warning] Piège
+> "Produites dans l'esprit" ne veut pas dire "illusoires" ou "fausses" — les qualités secondes correspondent bien à des propriétés physiques réelles de l'objet (la structure de surface de la tomate qui réfléchit certaines longueurs d'onde). Ce qui est relatif à l'observateur, c'est leur caractère *qualitatif* (l'expérience du rouge), pas leur base physique.
+
 ### État de Nature et Droit Naturel
 
 **Contre Hobbes** (état de nature = guerre de tous contre tous) : Locke postule un état de nature régi par la **loi naturelle** — une loi rationnelle, accessible à tous les hommes, qui interdit de nuire à autrui dans sa vie, sa liberté et ses biens.
@@ -75,6 +78,9 @@ Les hommes quittent l'état de nature pour protéger leurs droits naturels — n
 > "Le travail de son corps et l'œuvre de ses mains lui appartiennent en propre."
 
 **Limite :** On peut acquérir de la propriété seulement s'il en reste assez pour les autres et si rien ne se gâte (*proviso* lockéen).
+
+> [!important] Idée clé
+> Ce *proviso* est la pièce la plus contestée de toute la théorie : il justifie l'appropriation privée tant qu'il "en reste assez pour les autres" — mais dès que les terres deviennent rares, la condition cesse d'être remplie. Nozick le durcira pour défendre la propriété privée quasi sans limite ; Marx et les critiques socialistes y verront au contraire la preuve que l'accumulation réelle a toujours déjà violé la condition qui la légitimait.
 
 ### Gouvernement Limité et Droit de Résistance
 
