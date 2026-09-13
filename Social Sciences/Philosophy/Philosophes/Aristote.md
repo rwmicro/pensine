@@ -60,6 +60,9 @@ La **cause finale** est la plus importante pour Aristote : tout être naturel te
 
 Cette distinction explique le mouvement, la croissance, et le changement — problèmes laissés irrésolus par Parménide et Platon.
 
+> [!important] Idée clé
+> Acte et puissance sont la réponse d'Aristote au problème que Parménide jugeait insoluble : comment quelque chose peut-il changer sans que "l'être" devienne "le non-être" ? En distinguant ce qu'une chose est *en acte* de ce qu'elle est *en puissance*, Aristote rend le changement pensable sans contradiction — la graine ne "devient" pas arbre à partir de rien, elle réalise une potentialité déjà présente en elle.
+
 ### Substance et Accident
 
 - **Substance** (*ousia*) : Ce qui existe en soi (un homme particulier, ce cheval)
@@ -93,6 +96,9 @@ Au-delà du syllogisme, l'*Organon* distingue la démonstration scientifique (à
 | Orgueil excessif | Juste fierté | Pusillanimité |
 
 Les vertus s'acquièrent par l'**habitude** (*ethos* → *éthique*) et la **pratique**, pas seulement par la connaissance intellectuelle.
+
+> [!warning] Piège
+> Le "juste milieu" n'est pas une moyenne arithmétique fixe entre deux extrêmes — c'est un milieu *relatif à la personne et à la situation* (« relatif à nous », comme le dit Aristote lui-même en citation plus bas). Le courage d'un soldat expérimenté et celui d'une recrue ne se situent pas au même point objectif ; confondre juste milieu et tiédeur systématique est un contresens fréquent.
 
 **La phronèsis** (prudence, sagesse pratique) est la vertu maîtresse : la capacité à discerner ce qu'il faut faire dans chaque situation particulière. Elle ne s'apprend pas dans les livres — elle se forme par l'expérience vécue.
 
@@ -145,6 +151,9 @@ Au sommet de la métaphysique aristotélicienne :
 - Attire tout le reste par désir — cause finale du cosmos
 
 Cette notion influencera profondément la théologie chrétienne, juive et musulmane médiévale.
+
+> [!tip] Méthode
+> Retenir le lien entre les quatre causes et le Premier Moteur : celui-ci n'est pas une cause efficiente (il ne "pousse" pas l'univers comme une force mécanique) mais une **cause finale** — il attire le mouvement du monde par désir, comme un objet aimé attire l'amant sans le toucher. C'est cette lecture, reprise par [[Thomas d'Aquin]], qui permettra d'articuler Aristote avec un Dieu créateur sans le réduire à une simple pièce mécanique de l'univers.
 
 ## Citations Célèbres
 

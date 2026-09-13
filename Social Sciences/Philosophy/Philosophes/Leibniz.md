@@ -41,6 +41,9 @@ Si les monades n'interagissent jamais réellement entre elles, comment expliquer
 
 Cette solution évite le problème de l'interaction esprit-corps qui hantait Descartes (voir [[Philosophy/Philosophie de l'Esprit|Philosophie de l'Esprit]]), au prix d'un déterminisme total inscrit dès la création.
 
+> [!important] Idée clé
+> L'harmonie préétablie ne *résout* pas le problème de l'interaction esprit-corps, elle le *dissout* : au lieu d'expliquer comment deux substances hétérogènes agissent l'une sur l'autre, Leibniz nie simplement qu'une telle interaction ait jamais lieu. Repérer ce mouvement — nier la prémisse plutôt que répondre à la question — est une clé de lecture utile pour d'autres philosophes aussi (Hume avec la causalité, par exemple).
+
 ## Le meilleur des mondes possibles
 
 Dans la *Théodicée* (1710), Leibniz affronte le problème du mal — voir [[Philosophy/Philosophie de la Religion|Philosophie de la Religion]]. Sa réponse : Dieu, avant la création, envisage dans son entendement une infinité de mondes possibles, tous logiquement cohérents ; sa bonté et sa sagesse infinies le conduisent nécessairement à actualiser celui qui contient le plus grand équilibre de perfection et de variété — même s'il comporte du mal, ce mal est la condition nécessaire d'un bien plus grand ailleurs dans le système (un défaut local peut être requis pour une harmonie globale supérieure, comme une dissonance ponctuelle sert la beauté d'ensemble d'une composition musicale).
@@ -52,6 +55,9 @@ Cet optimisme métaphysique sera moqué par Voltaire dans *Candide* (1759, le pe
 Principe méthodologique central de tout le système leibnizien : **rien n'arrive sans qu'il y ait une raison suffisante pour que cela soit ainsi plutôt qu'autrement** — y compris pour l'existence du monde lui-même. Formulé dans une question restée célèbre : *"Pourquoi y a-t-il quelque chose plutôt que rien ?"* — question reprise depuis comme l'une des interrogations métaphysiques les plus radicales qui soient, encore débattue en cosmologie philosophique contemporaine.
 
 **Identité des indiscernables** : deux substances qui partageraient exactement toutes leurs propriétés seraient en réalité une seule et même substance — il ne peut exister deux feuilles rigoureusement identiques dans tout l'univers, car Dieu n'aurait aucune raison suffisante de les différencier autrement.
+
+> [!tip] Méthode
+> Le principe de raison suffisante est un réflexe philosophique réutilisable au-delà de Leibniz : face à n'importe quel état de fait, se demander "pourquoi ceci plutôt qu'autre chose ?" force à rendre explicites des présupposés qu'on laisse d'ordinaire implicites — c'est l'ancêtre direct de la question contemporaine "pourquoi y a-t-il quelque chose plutôt que rien ?" en cosmologie philosophique.
 
 ## Vérités de raison et vérités de fait
 

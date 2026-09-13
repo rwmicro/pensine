@@ -30,6 +30,9 @@ Heidegger refuse le vocabulaire traditionnel ("sujet", "conscience", "homme") ca
 
 Le monde n'est pas d'abord un ensemble d'objets neutres que je contemplerais : il m'apparaît d'abord comme un réseau d'outils **à-portée-de-la-main** (*zuhanden*) organisés en fonction de mes projets — le marteau n'est perçu comme "objet" (*vorhanden*, présent-sous-la-main, étudié en soi) que lorsqu'il se casse et cesse de fonctionner. La théorie (regarder les choses comme de purs objets) est dérivée d'un rapport pratique, familier, plus originaire.
 
+> [!important] Idée clé
+> Le renversement est épistémologique, pas seulement descriptif : depuis Descartes, la tradition part du sujet qui *observe* puis se demande comment il peut connaître un monde extérieur. Heidegger inverse l'ordre de priorité — l'usage familier et pratique précède et rend possible l'observation théorique, jamais l'inverse. Un marteau qui fonctionne bien est presque invisible en tant qu'"objet" ; c'est sa panne qui le fait apparaître comme chose.
+
 ## L'existence comme souci
 
 Le Dasein se distingue de toute autre chose : il n'a pas une essence fixée d'avance, il **a à être** son être — il existe (*ex-sistere*, se tenir hors de soi, en projet). D'où la formule, reprise et retournée par Sartre : "l'essence du Dasein réside dans son existence".
@@ -48,6 +51,9 @@ Dans la vie quotidienne, le Dasein se perd dans l'anonymat de "ce que l'on fait"
 Ce qui peut arracher le Dasein à l'anonymat du "On", c'est la confrontation avec sa propre mort — non comme événement biologique futur, mais comme **possibilité la plus propre, indépassable et non-relative à autrui** : personne ne peut mourir à ma place. L'**angoisse** (distincte de la peur, qui a toujours un objet précis) révèle cette finitude et met le Dasein face au néant qui sous-tend toute son existence — l'angoisse n'a "peur de rien" de particulier, elle dévoile l'étrangeté du fait même d'exister.
 
 Assumer résolument cette finitude (la "résolution devant-anticipatrice") est la voie vers l'**authenticité** (*Eigentlichkeit*) : exister à partir de ses propres possibilités plutôt qu'à partir de ce que "on" attend.
+
+> [!warning] Piège
+> Ne pas lire l'authenticité comme une liste de choix de vie "rebelles" ou individualistes opposés au conformisme social — c'est un contresens fréquent. L'authenticité chez Heidegger est une relation *formelle* à sa propre finitude et à ses propres possibilités, pas un contenu moral ou un style de vie particulier ; on peut très bien occuper la même position sociale qu'avant tout en l'habitant authentiquement.
 
 ## La technique
 

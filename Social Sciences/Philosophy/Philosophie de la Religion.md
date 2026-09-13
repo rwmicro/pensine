@@ -28,6 +28,9 @@ La philosophie de la religion examine par la raison les questions posées par la
 ```
 Critique classique (Kant) : l'existence n'est pas un prédicat qui ajoute une perfection à un concept — dire qu'une chose "existe" ne l'enrichit pas conceptuellement (100 thalers réels ne contiennent pas plus de propriétés que 100 thalers simplement pensés, ils ne diffèrent que par leur statut d'existence).
 
+> [!important] Idée clé
+> Cette objection de Kant dépasse largement le débat religieux : c'est le même geste qu'il utilise contre toute la métaphysique rationaliste (Descartes, Leibniz) qui prétend déduire l'existence de quelque chose à partir de sa seule définition. Repérer cette structure — "définir quelque chose comme parfait/nécessaire, puis en déduire son existence" — permet de reconnaître l'argument ontologique sous d'autres formes ailleurs en philosophie.
+
 **L'argument cosmologique (Thomas d'Aquin, les "cinq voies")** — voir [[Thomas d'Aquin]]
 Tout ce qui existe a une cause ; cette chaîne de causes ne peut remonter à l'infini ; il doit donc exister une **cause première incausée** — que l'on nomme Dieu. Variante contemporaine : l'argument *kalam* (Craig) — l'univers a commencé à exister (Big Bang), tout ce qui commence à exister a une cause, donc l'univers a une cause transcendante.
 Critique : pourquoi la chaîne causale ne pourrait-elle pas être infinie ? Et pourquoi la cause première devrait-elle avoir les attributs d'un Dieu personnel (bonté, conscience) plutôt qu'être une simple nécessité physique ?
@@ -69,6 +72,9 @@ L'objection la plus puissante à l'existence d'un Dieu à la fois omnipotent, om
 
 **Le mal comme argument athée contemporain**
 Le "problème du mal évidentiel" (Rowe) ne prétend pas prouver une contradiction logique stricte, mais soutient que la quantité et l'intensité de certaines souffrances (un faon brûlant lentement dans un incendie de forêt, sans témoin ni leçon morale à en tirer) rendent hautement improbable l'existence d'un Dieu bienveillant — même si ce n'est pas strictement impossible.
+
+> [!warning] Piège
+> Les théodicées classiques (libre arbitre, formation de l'âme) répondent presque toutes à la version *logique* du problème du mal (y a-t-il contradiction stricte ?), pas à sa version *évidentielle* (la quantité de souffrance sans finalité apparente rend-elle Dieu improbable ?). Une théodicée qui dissout la contradiction logique n'a donc pas pour autant répondu à l'objection de Rowe — les deux problèmes se ressemblent mais exigent des réponses différentes.
 
 ## Foi et raison
 

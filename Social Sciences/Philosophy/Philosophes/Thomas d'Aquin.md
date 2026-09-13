@@ -69,6 +69,9 @@ Dans la *Somme théologique* (I, q. 2, a. 3), Thomas propose cinq arguments rati
 
 Chaque voie conclut : "et cela, tous l'appellent Dieu."
 
+> [!warning] Piège
+> Les cinq voies ne sont pas des preuves au sens mathématique (Thomas ne prétend jamais démontrer l'existence de Dieu comme un théorème) — ce sont des arguments probables partant de l'expérience sensible, ce qui explique pourquoi Kant pourra plus tard objecter qu'elles dépassent les limites légitimes de la raison sans que cela invalide leur structure interne.
+
 ## Concepts philosophiques clés
 
 ### Essence et existence
@@ -76,6 +79,9 @@ Chaque voie conclut : "et cela, tous l'appellent Dieu."
 La distinction la plus originale de Thomas : dans tout être créé, l'**essence** (ce qu'il est) est distincte de l'**existence** (le fait qu'il est). Un cheval pourrait ne pas exister — son essence ne contient pas l'existence. Seul Dieu est l'être dont l'essence *est* d'exister (*ipsum esse subsistens*).
 
 Cette distinction explique pourquoi le monde n'est pas nécessaire : Dieu seul existe nécessairement, tout le reste est contingent (créé librement).
+
+> [!important] Idée clé
+> Cette distinction essence/existence est l'innovation la plus originale de Thomas par rapport à Aristote : elle permet de penser une création libre et contingente du monde (rien ne "devait" exister) tout en gardant un Dieu nécessaire — sans elle, la théologie chrétienne de la création s'accorderait mal avec la métaphysique aristotélicienne de l'éternité du monde.
 
 ### Analogie de l'être
 
@@ -102,6 +108,9 @@ Thomas refuse l'opposition entre raison et foi. Sa position :
 - D'autres ne sont accessibles que par la **foi** (Trinité, Incarnation, résurrection)
 - Les deux ne peuvent jamais se contredire car elles viennent de la même source (Dieu)
 - La philosophie est la "servante de la théologie" (*ancilla theologiae*) — elle prépare et éclaire la foi sans la remplacer
+
+> [!tip] Méthode
+> Retenir cette formule non comme une subordination méprisante mais comme une division du travail : la raison prépare le terrain (existence de Dieu, morale naturelle), la foi révèle ce que la raison seule ne peut atteindre (Trinité, Incarnation) — les deux domaines ne se contredisent jamais chez Thomas parce qu'ils viennent de la même source.
 
 ## Le thomisme après Thomas
 

@@ -20,6 +20,9 @@ date: "2026-04-12"
 
 5. **Science et paradigmes** (Karl Popper, Thomas Kuhn) : Popper propose la *falsifiabilité* comme critère de démarcation scientifique — une théorie est scientifique si elle peut être réfutée. Kuhn nuance : la science avance non par réfutations rationnelles mais par *révolutions* où un paradigme entier est abandonné pour un autre.
 
+> [!warning] Piège
+> Le problème de Gettier n'est pas un détail technique : depuis 1963, aucune rustine (ajouter une 4e condition à JTB) n'a résisté à de nouveaux contre-exemples. Retenir que "croyance vraie justifiée" reste la définition de référence pour un devoir, mais qu'elle est officiellement insuffisante — un point souvent ignoré par les non-spécialistes.
+
 ## Repères historiques
 
 - **Socrate** : "Je sais que je ne sais rien" — la conscience de son ignorance est le début de la vraie connaissance. La maïeutique (art d'accoucher les esprits) plutôt que d'enseigner.
@@ -29,6 +32,9 @@ date: "2026-04-12"
 - **Kant** (*Critique de la Raison Pure*, 1781) : synthèse du rationalisme et de l'empirisme. Jugements synthétiques a priori — les mathématiques sont vrais universellement mais informatives.
 - **Popper** (*La Logique de la découverte scientifique*, 1934) : falsifiabilité. La science progresse en éliminant les théories réfutées, non en les confirmant.
 - **Kuhn** (*La Structure des révolutions scientifiques*, 1962) : paradigmes, science normale, crises, révolutions. La science est sociale et historique.
+
+> [!tip] Méthode
+> Pour situer un auteur rapidement : rationalisme et empirisme répondent tous deux à "d'où vient la connaissance ?", Popper et Kuhn répondent à "comment la connaissance scientifique progresse-t-elle ?" — deux questions différentes qu'on confond facilement en dissertation.
 
 ## Ressources
 

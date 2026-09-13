@@ -77,6 +77,9 @@ L'implication est fausse *uniquement* quand la prémisse est vraie et la conclus
     Implication causale (langage)     : "parce que", "donc"
 ```
 
+> [!warning] Piège
+> La plupart des "erreurs de logique" reprochées dans un débat courant ne sont pas des erreurs de logique formelle — elles viennent de ce qu'on confond implication matérielle et implication causale. "S'il pleut, la rue est mouillée" en langage courant sous-entend un lien de causalité ; en logique formelle, p → q ne dit rien sur *pourquoi* q suit de p, seulement que le couple (vrai, faux) n'arrive jamais.
+
 ## Syllogismes (Aristote)
 
 Le syllogisme est la forme d'argument déductif fondamentale, formalisée par Aristote dans l'*Organon*.
@@ -167,6 +170,12 @@ Distinction fondamentale que le langage courant confond souvent.
 
   ARGUMENT SOLIDE  : valide ET toutes les prémisses sont vraies
   (sound)
+```
+
+> [!important] Idée clé
+> La logique formelle garantit la validité (la forme), jamais la solidité (le contenu) — c'est pourquoi un argument parfaitement logique peut aboutir à une conclusion fausse : il suffit qu'une prémisse le soit. La plupart des désaccords "logiques" entre deux personnes ne portent pas sur la forme de l'argument (souvent valide des deux côtés) mais sur la vérité de ses prémisses — un point qu'aucune logique formelle ne peut trancher seule.
+
+```
 
   ┌─────────────────────────────────────────────────────┐
   │             Tous les arguments possibles            │
@@ -326,6 +335,9 @@ Un sophisme est un argument qui *semble* valide mais ne l'est pas. Les repérer 
   Conséquence philosophique : il n'existera jamais de système formel
   complet et cohérent capable de capturer toute la vérité mathématique.
 ```
+
+> [!tip] Méthode
+> La construction de Gödel est une version formalisée et rigoureuse du paradoxe du menteur vu plus haut ("cette proposition est indémontrable" au lieu de "cette proposition est fausse") — retenir ce parallèle aide à comprendre *pourquoi* l'incomplétude est inévitable : tout système assez puissant pour parler de lui-même peut reconstruire, en interne, une version de ce paradoxe d'auto-référence.
 
 **Turing (1912–1954)** — Le problème de la halte : on ne peut pas construire un programme général qui détermine si n'importe quel programme terminera ou tournera indéfiniment. Lien direct avec le 1er théorème de Gödel.
 

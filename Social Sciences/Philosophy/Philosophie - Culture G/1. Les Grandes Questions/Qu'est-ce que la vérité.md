@@ -20,6 +20,9 @@ date: "2026-04-12"
 
 5. **Vérité et pouvoir** (Foucault) : les régimes de vérité sont construits socialement. Ce qui est admis comme vrai dans une société dépend des institutions, des discours et des rapports de pouvoir qui définissent les frontières du dicible et du croyable.
 
+> [!important] Idée clé
+> Correspondance, cohérence et pragmatisme ne sont pas trois réponses concurrentes à la même question : ce sont trois **critères** différents pour juger qu'une proposition est vraie — rien n'empêche qu'une proposition scientifique satisfasse les trois à la fois. Le perspectivisme nietzschéen et le pouvoir foucaldien, eux, remettent en cause l'idée même d'un critère neutre.
+
 ## Repères historiques
 
 - **Platon** distingue *doxa* (opinion, savoir fluctuant du monde sensible) et *episteme* (connaissance vraie, stable, des Formes éternelles). La caverne illustre la confusion entre ombres et réalité.
@@ -28,6 +31,9 @@ date: "2026-04-12"
 - **Kant** radicalise le problème : nous ne connaissons jamais les choses en soi (*noumènes*), mais seulement les phénomènes tels que notre esprit les structure à travers l'espace, le temps et les catégories de l'entendement.
 - **Nietzsche** retourne le problème : la "volonté de vérité" est elle-même une valeur morale à interroger — pourquoi voulons-nous la vérité plutôt que l'erreur utile ?
 - **Tarski** (1935) donne une définition formelle : la convention T — "'La neige est blanche' est vrai si et seulement si la neige est blanche" — qui évite les paradoxes du menteur.
+
+> [!warning] Piège
+> Le perspectivisme de Nietzsche ("il n'y a pas de faits, seulement des interprétations") est souvent confondu avec le relativisme ("tout se vaut") — Nietzsche précise lui-même que les interprétations ne se valent pas toutes, seulement qu'aucune n'est neutre. La nuance est cruciale pour ne pas caricaturer sa position en dissertation.
 
 ## Ressources
 

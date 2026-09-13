@@ -20,6 +20,9 @@ date: "2026-04-12"
 
 5. **Création de sens existentielle** (Sartre, Camus, Frankl) : dans un monde absurde, le bonheur ne se trouve pas mais se construit. Viktor Frankl, survivant d'Auschwitz, montre que même dans l'horreur absolue, trouver un sens permet de supporter l'insupportable.
 
+> [!important] Idée clé
+> Aristote et Épicure semblent proches (tous deux opposés au plaisir frénétique) mais divergent sur un point décisif : pour Aristote le bonheur est **actif** et social (on ne peut être heureux seul, hors de la cité), pour Épicure il est plutôt **retrait** et tranquillité (le sage épicurien se tient à l'écart du tumulte politique).
+
 ## Repères historiques
 
 - **Aristote** : la *vita activa* — le bonheur est dans l'action vertueuse, pas dans la contemplation passive ni dans la richesse. Il est aussi *politique* : on ne peut être heureux seul.
@@ -28,6 +31,9 @@ date: "2026-04-12"
 - **Kant** : le bonheur n'est pas le fondement de la morale — agir par devoir peut exiger de sacrifier son bonheur immédiat. Mais la morale pose Dieu comme garant d'une harmonie finale entre vertu et bonheur.
 - **Mill** : distingue les plaisirs supérieurs (intellectuels, moraux) et inférieurs (physiques). "Mieux vaut être Socrate insatisfait que fou satisfait."
 - **Viktor Frankl** (*Man's Search for Meaning*, 1946) : la logothérapie — le bonheur ne peut être poursuivi directement, il émerge comme conséquence du fait de trouver un sens à sa vie.
+
+> [!warning] Piège
+> Frankl ne dit pas que la souffrance rend heureux, ni qu'il faut chercher le bonheur directement — sa thèse (dans la lignée de Nietzsche : "qui a un pourquoi vivre peut supporter presque tous les comment") est que le bonheur est un **effet secondaire** du sens trouvé, jamais un but qu'on atteint en le visant directement.
 
 ## Ressources
 

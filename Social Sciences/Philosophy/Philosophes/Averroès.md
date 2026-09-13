@@ -38,6 +38,9 @@ Un siècle après Avicenne, le théologien al-Ghazali avait publié *L'Incohére
 
 Cette position est souvent résumée, de façon simplificatrice, comme la thèse de la "double vérité" (une vérité philosophique et une vérité religieuse distinctes et indépendantes) — mais Averroès lui-même défend l'**unité** de la vérité, pas sa duplication : il n'y a qu'une vérité, atteinte par deux voies de rigueur inégale.
 
+> [!warning] Piège
+> L'étiquette "double vérité" qu'on lui accole est en réalité une invention polémique de ses adversaires latins du XIIIe siècle, pas sa propre position — la nuance compte : Averroès n'aurait jamais accepté qu'une chose soit "vraie en philosophie, fausse en théologie" ; il affirme au contraire qu'un texte religieux qui semble contredire une démonstration doit être *réinterprété*, jamais qu'il reste vrai malgré la contradiction.
+
 ## L'intellect matériel unique : la thèse la plus controversée
 
 Sur la théorie aristotélicienne de l'intellect (*De Anima*, livre III), Averroès défend une position radicale et très discutée : l'**intellect matériel** (la faculté de recevoir les formes intelligibles) est **unique et séparé**, partagé par toute l'humanité, et non une faculté individuelle propre à chaque âme.
@@ -60,6 +63,9 @@ Sur la théorie aristotélicienne de l'intellect (*De Anima*, livre III), Averro
 
 Cette thèse ("monopsychisme") sera jugée incompatible avec l'immortalité personnelle de l'âme enseignée par le christianisme comme par l'islam, et vaudra à Averroès une condamnation posthume retentissante en Europe (elle figure explicitement parmi les 219 thèses condamnées à Paris en 1277, aux côtés d'autres propositions "averroïstes").
 
+> [!important] Idée clé
+> Cette thèse suit logiquement du projet même d'Averroès : en épurant Aristote de tout ajout néoplatonicien (contre [[Avicenne]]), il retrouve un Aristote pour qui l'intellect, en tant que forme pure sans matière individualisante, ne peut logiquement pas se multiplier en autant d'âmes qu'il y a d'individus — la fidélité stricte au texte le mène à une conclusion que ni le christianisme ni l'islam ne peuvent accepter.
+
 ## Réception paradoxale : plus lu en Europe qu'en terre d'Islam
 
 Ironie de l'histoire intellectuelle : après Averroès, la falsafa décline en terre d'Islam sunnite, tandis que son œuvre connaît une seconde vie, considérable, en Europe latine puis juive.
@@ -68,6 +74,9 @@ Ironie de l'histoire intellectuelle : après Averroès, la falsafa décline en t
 - **Thomas d'Aquin** engage un dialogue critique constant avec Averroès (le "Commentateur"), l'utilisant comme grille de lecture d'Aristote tout en réfutant point par point le monopsychisme dans son traité *De l'unité de l'intellect contre les averroïstes* — voir [[Thomas d'Aquin]]
 - **Maïmonide**, philosophe juif contemporain né lui aussi à Cordoue, partage avec Averroès le même problème (concilier révélation et philosophie aristotélicienne) et s'en inspire directement dans le *Guide des égarés*
 - **Averroïsme padouan** : l'université de Padoue perpétue une tradition averroïste jusqu'à la Renaissance, nourrissant des débats qui préparent, en partie, l'émancipation de la philosophie naturelle vis-à-vis de la théologie
+
+> [!tip] Méthode
+> Pour situer Averroès face à [[Avicenne]] et [[Thomas d'Aquin]] : les trois partagent le même problème (concilier révélation et raison aristotélicienne) mais choisissent des solutions incompatibles entre elles — émanation atemporelle chez Avicenne, séparation stricte des trois voies d'accès chez Averroès, harmonisation point par point chez Thomas. Utile de les lire en triangle plutôt qu'isolément.
 
 ## Pourquoi ce nom compte dans l'histoire de la philosophie
 

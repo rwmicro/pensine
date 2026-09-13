@@ -56,6 +56,9 @@ Inspiré de [[Nietzsche]], Foucault développe la **généalogie** : recherche d
 
 > "Le pouvoir produit du savoir. Il n'y a pas de relation de pouvoir sans constitution d'un champ de savoir."
 
+> [!warning] Piège
+> "Le savoir-pouvoir n'est jamais neutre" ne veut pas dire chez Foucault "toute connaissance est un mensonge au service des puissants" — contresens fréquent. La médecine *produit* réellement des effets (elle soigne), mais la manière dont elle découpe ses catégories (qui est malade, qui est fou) n'est jamais un simple décalque neutre du réel : elle est aussi façonnée par des rapports de pouvoir. Les deux ne s'excluent pas.
+
 ### Surveiller et Punir — Le Panoptique
 
 *Surveiller et Punir* (1975) retrace la naissance de la prison moderne au XIXe siècle. Avant, la punition était spectaculaire (supplice public). Après : discrète, normalisante, intérieure.
@@ -73,6 +76,9 @@ Foucault généralise ce modèle à toutes les institutions modernes :
 | Prison | Isolement, observation, réforme de l'âme |
 
 **La discipline** produit des **corps dociles** — non par violence directe mais par normalisation, surveillance intériorisée, examen permanent.
+
+> [!important] Idée clé
+> Le point décisif du panoptique n'est pas la surveillance elle-même mais son *incertitude* : le détenu ne sait jamais s'il est observé à cet instant précis, donc il se comporte *comme si* il l'était en permanence. Le pouvoir disciplinaire le plus efficace n'a même plus besoin d'un surveillant réel — il suffit que la possibilité d'être vu soit intériorisée. C'est ce mécanisme, pas la simple présence de caméras, que Foucault généralise à l'école, l'usine, l'hôpital.
 
 > "Est-il surprenant que la prison ressemble aux usines, aux écoles, aux casernes, aux hôpitaux, qui tous ressemblent aux prisons ?"
 
@@ -99,6 +105,9 @@ Le sujet n'est pas réprimé — il est *produit* par des dispositifs de savoir-
 Dans ses derniers cours au Collège de France, Foucault se tourne vers l'Antiquité grecque et romaine pour explorer les **pratiques de soi** : comment les individus se forment eux-mêmes comme sujets moraux.
 
 La liberté n'est pas donnée — elle se **pratique** : exercices spirituels, examen de conscience, askèse. Ce Foucault tardif est paradoxalement proche des stoïciens.
+
+> [!tip] Méthode
+> Ce dernier virage résout une objection souvent adressée à Foucault : si le sujet est entièrement produit par des dispositifs de savoir-pouvoir, où reste-t-il une place pour la résistance ou la liberté ? Le souci de soi répond en localisant une marge de manœuvre non pas *contre* le pouvoir (il ne disparaît jamais) mais *dans* la relation que l'individu entretient avec lui-même — un déplacement, pas une contradiction avec l'œuvre antérieure.
 
 ## Citations Célèbres
 

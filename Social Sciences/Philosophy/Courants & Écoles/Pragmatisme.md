@@ -30,6 +30,9 @@ Peirce, logicien de formation, ne réduit jamais la vérité elle-même au simpl
 
 **L'abduction** : Peirce identifie, à côté de la déduction et de l'induction, un troisième type d'inférence — l'**inférence à la meilleure explication**, qui part d'un fait surprenant et formule l'hypothèse la plus plausible pour en rendre compte, avant même toute vérification — voir [[Logique#Raisonnement déductif, inductif et abductif|Logique]].
 
+> [!important] Idée clé
+> L'abduction n'est pas une curiosité logique isolée : c'est le mécanisme par lequel toute hypothèse scientifique naît (un fait surprenant appelle une explication plausible, testée ensuite par déduction et induction), et le même schéma structure le diagnostic médical ou le débogage informatique — partir d'un symptôme ou d'un bug surprenant pour formuler la cause la plus plausible avant de la vérifier.
+
 ## James : la vérité comme ce qui fonctionne
 
 William James popularise et radicalise le pragmatisme dans des conférences largement diffusées (*Pragmatism*, 1907), lui donnant une portée existentielle que Peirce n'avait pas visée.
@@ -40,6 +43,9 @@ William James popularise et radicalise le pragmatisme dans des conférences larg
 Une croyance est vraie si, et dans la mesure où, adopter cette croyance "fonctionne" — produit des résultats satisfaisants dans l'expérience, résout des problèmes, s'accorde avec le reste de nos croyances établies. Cette conception, souvent caricaturée comme un simple relativisme opportuniste ("est vrai ce qui m'arrange"), défend en réalité une thèse plus précise : nos croyances sont des outils, testés continuellement par leurs conséquences dans l'action, et non des miroirs passifs d'une réalité qu'on contemplerait de l'extérieur.
 
 **Application à la religion** : dans *Les Variétés de l'expérience religieuse* (1902), James applique sa méthode à la croyance religieuse — indépendamment de toute preuve métaphysique de l'existence de Dieu, il examine les *fruits* concrets de la foi dans la vie des croyants (paix intérieure, force morale, transformation du caractère) comme critère pragmatique légitime d'évaluation, prolongeant à sa manière le pari de [[Pascal]].
+
+> [!warning] Piège
+> Ne pas réduire le critère jamesien à « si ça fait du bien, crois-le ». James n'évalue pas un confort émotionnel immédiat mais des fruits concrets et durables, observables dans la conduite et le caractère sur le long terme — un critère testable et révisable, pas une permission de croire n'importe quoi pour se rassurer.
 
 ## Dewey : instrumentalisme et démocratie
 
@@ -66,6 +72,9 @@ Le pragmatisme américain trouve un écho tardif mais influent dans la **sociolo
 | **Conception de la vérité** | Correspondance vérifiable à des faits | Ce qui "fonctionne", convergence idéale de l'enquête (Peirce) |
 
 Voir [[Positivisme Logique]].
+
+> [!important] Idée clé
+> Positivisme logique et pragmatisme partagent une même méfiance envers la métaphysique spéculative coupée de toute vérification — mais ils divergent radicalement sur le sort de l'éthique et de la religion : le positivisme les déclare dénuées de sens, le pragmatisme les garde dans le champ évaluable, à condition de les juger par leurs effets concrets plutôt que par leur correspondance à une réalité transcendante.
 
 ## Citations
 

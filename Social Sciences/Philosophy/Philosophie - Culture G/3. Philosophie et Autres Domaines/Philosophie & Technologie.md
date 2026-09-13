@@ -20,6 +20,9 @@ date: "2026-04-12"
 
 5. **Responsabilité et algorithmes** : quand un algorithme décide (crédit bancaire, récidive pénale, tri CV), qui est responsable ? La décision algorithmique est opaque, non contestable, non éthique au sens classique — elle ne délibère pas. Cela pose un problème fondamental pour l'éthique kantienne et la justice démocratique.
 
+> [!warning] Piège
+> L'opacité d'un algorithme n'implique pas automatiquement une absence de responsabilité humaine — la vraie question philosophique n'est pas "l'algorithme est-il conscient de décider" (il ne l'est pas) mais si la transparence procédurale (pouvoir expliquer *comment* une décision a été prise) peut remplacer la délibération individuelle comme fondement de légitimité. Confondre les deux fait perdre de vue où se loge réellement le problème.
+
 ## La philosophie de l'esprit et l'IA
 
 **Le test de Turing :**
@@ -32,6 +35,9 @@ Imaginez quelqu'un enfermé dans une pièce qui reçoit des symboles chinois, ap
 - La chambre chinoise est trop simpliste : la conscience émerge du *système entier*, pas d'un élément.
 - La conscience nécessite une *intégration de l'information* (théorie IIT de Tononi).
 - La conscience est liée à une *architecture biologique* spécifique — le substrat compte.
+
+> [!important] Idée clé
+> Cette expérience de pensée n'est pas propre à l'IA : c'est le même argument que Searle et Chalmers utilisent en philosophie de l'esprit contre le fonctionnalisme (voir [[Philosophie de l'Esprit]]) — appliquer un raisonnement de simulation vs compréhension à un domaine concret (l'IA) permet de tester si l'argument tient au-delà de l'expérience de pensée abstraite.
 
 **La question difficile** (Chalmers) : même si on explique tous les processus computationnels du cerveau, il reste inexpliqué *pourquoi* cela produit une expérience subjective — la "rougeur" du rouge, la douleur de la douleur. C'est le *hard problem of consciousness*.
 

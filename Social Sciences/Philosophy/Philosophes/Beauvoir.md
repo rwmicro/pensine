@@ -44,6 +44,9 @@ La phrase la plus célèbre du *Deuxième Sexe* est aussi sa thèse centrale.
 
 **Application de l'existentialisme :** L'existence précède l'essence ([[Sartre]]). De même que l'être humain en général n'a pas d'essence prédéterminée, la femme n'a pas de nature féminine figée — elle se crée, ou plutôt, elle est *créée* par un système social qui la conditionne.
 
+> [!important] Idée clé
+> C'est un déplacement subtil mais décisif par rapport à Sartre : chez lui, "l'existence précède l'essence" décrit une liberté qui se crée elle-même. Chez Beauvoir, la femme ne se crée pas librement sa "féminité" — elle est *façonnée* par autrui (éducation, culture, institutions) avant même de pouvoir choisir. La thèse est donc autant une dénonciation des limites de la liberté sartrienne pour les femmes qu'une application de l'existentialisme.
+
 ### L'Autre Absolu — La Femme comme Altérité
 
 Dans toutes les cultures étudiées, l'homme se pose comme **Sujet**, comme norme universelle ; la femme est l'**Autre** — le pôle négatif, le second sexe, ce par rapport à quoi l'homme se définit.
@@ -64,6 +67,9 @@ La femme, dans les sociétés patriarcales, est assignée à l'immanence : gross
 
 **Ce n'est pas inévitable :** en changeant les conditions économiques, sociales et culturelles, on libère les femmes vers la transcendance.
 
+> [!warning] Piège
+> Ne pas confondre "immanence" chez Beauvoir avec passivité individuelle ou paresse — c'est une catégorie structurelle qui décrit une position sociale imposée, pas un trait de caractère. L'erreur classique est de lire l'opposition immanence/transcendance comme un jugement moral sur les femmes elles-mêmes, alors qu'elle vise le système qui les y assigne.
+
 ### Pour une Morale de l'Ambiguïté
 
 Contre le stoïcisme (qui nie l'ambiguïté en acceptant tout) et contre le nihilisme (qui s'en désespère), Beauvoir propose une éthique qui assume l'ambiguïté de la condition humaine :
@@ -83,6 +89,9 @@ Beauvoir ouvre la voie à ce qu'on appellera le **féminisme de la deuxième vag
 - La libération passe par l'indépendance économique et l'égalité institutionnelle
 
 **Limites critiquées :** Sa perspective reste universaliste et bourgeoise — elle ignore les femmes noires, colonisées, pauvres dont la condition diffère radicalement. Ce sera la critique des féministes postcoloniales (hooks, Spivak) et intersectionnelles.
+
+> [!tip] Méthode
+> Ce débat reproduit, à l'intérieur du féminisme, la tension universalisme/particularisme qu'on retrouve dans toute la philosophie morale (cf. [[Universalisme Moral]]) : Beauvoir pose une condition féminine commune par-delà les cultures, les critiques intersectionnelles répondent que cette "communauté" efface des différences de race et de classe tout aussi structurantes. Le même schéma argumentatif revient dans quasi tous les débats sur l'universalisme d'une catégorie sociale.
 
 **Judith Butler** (*Gender Trouble*, 1990) part de Beauvoir pour radicaliser : si le genre est performance, même le sexe biologique est une construction.
 

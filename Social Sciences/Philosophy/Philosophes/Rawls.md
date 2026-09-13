@@ -42,6 +42,9 @@ Rawls renoue avec la tradition du contrat social (Hobbes, Locke, Rousseau) mais 
 
 **Pourquoi cette procédure garantit l'équité** : Rawls appelle sa théorie "justice comme équité" (*justice as fairness*) précisément parce que les principes choisis dans ces conditions d'impartialité radicale sont, par construction, équitables — nul ne peut favoriser son propre groupe puisqu'il ne sait pas lequel est le sien. Un individu rationnel, dans cette situation, adopterait une stratégie prudente proche du **maximin** : maximiser le sort du pire scénario possible (puisqu'il pourrait, une fois le voile levé, se retrouver être le plus défavorisé de la société qu'il vient de concevoir).
 
+> [!important] Idée clé
+> Le choix du maximin (plutôt que, par exemple, maximiser l'espérance moyenne de bien-être) n'est pas neutre — c'est l'hypothèse la plus contestée de toute la théorie. Elle suppose une aversion au risque très forte sous incertitude radicale sur sa propre identité future. Un individu moins averse au risque pourrait rationnellement préférer parier sur une société plus inégalitaire mais à moyenne plus élevée.
+
 ## Les deux principes de justice
 
 | Principe | Contenu | Priorité |
@@ -76,6 +79,9 @@ Robert Nozick (*Anarchie, État et Utopie*, 1974), collègue de Rawls à Harvard
 ```
 
 Nozick en conclut que seul un **État minimal** (protection contre la violence, le vol, la fraude, exécution des contrats) est justifiable — toute redistribution fiscale au-delà équivaut, selon lui, à du travail forcé.
+
+> [!warning] Piège
+> L'exemple de Wilt Chamberlain ne prouve la conclusion de Nozick que si le point de départ D1 était lui-même légitimement acquis. Or, historiquement, la plupart des répartitions initiales (conquête, colonisation, dépossession) ne satisfont pas le propre critère d'acquisition juste que Nozick exige — faille que ses critiques (dont Rawls lui-même) exploitent pour retourner l'argument contre l'État minimal.
 
 ## Extension : le droit des peuples
 

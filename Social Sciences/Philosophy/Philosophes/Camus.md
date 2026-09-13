@@ -47,6 +47,9 @@ L'absurde naît de la **rencontre** entre deux réalités incompatibles :
 
 **L'absurde ne réside ni dans l'homme ni dans le monde** — il naît de leur confrontation. Le monde n'est pas absurde en lui-même : c'est l'homme qui exige du sens et rencontre le silence.
 
+> [!important] Idée clé
+> C'est le point que ratent le plus souvent les lectures rapides de Camus : "absurde" ne veut pas dire "le monde est chaotique ou insensé en soi" mais "il y a un décalage irréductible entre ce que je demande au monde (du sens) et ce qu'il me donne (le silence)". Sans l'exigence humaine de sens, il n'y aurait tout simplement pas d'absurde — juste un monde neutre.
+
 **Les trois réponses possibles :**
 1. **Le suicide physique** : supprimer la tension en supprimant soi-même. Lâcheté intellectuelle — évite le problème.
 2. **Le suicide philosophique** (Kierkegaard, Chestov) : le "saut" religieux — croire en Dieu pour donner du sens. Honnêteté intellectuelle trahie.
@@ -60,6 +63,9 @@ Sisyphe, condamné par les dieux à rouler éternellement son rocher, ne peut pa
 
 Ce bonheur n'est pas la résignation — c'est la **révolte lucide**. Sisyphe reprend le rocher en sachant. Sa conscience de la condition est sa victoire.
 
+> [!warning] Piège
+> Ne pas lire "il faut imaginer Sisyphe heureux" comme une invitation au stoïcisme (accepter son sort avec sérénité) — la différence est précisément la lucidité maintenue. Sisyphe n'accepte pas sa condition comme juste ou naturelle (ce que ferait un stoïcien) : il continue de la voir comme absurde tout en la vivant pleinement. Le bonheur vient de la conscience, pas de la résignation.
+
 L'absurde ne se résout pas — il se vit.
 
 ### La Révolte — *L'Homme révolté*
@@ -71,6 +77,9 @@ L'absurde ne se résout pas — il se vit.
 **La révolution** : prétend refaire le monde de fond en comble au nom d'un absolu (la classe, la race, la nation). En absolutisant la fin, elle justifie tous les moyens — et produit de nouveaux opprimés. Toutes les révolutions finissent en terreur.
 
 **Critique du marxisme révolutionnaire :** Camus refuse que la promesse du futur autorise les crimes du présent.
+
+> [!tip] Méthode
+> Pour situer ce débat dans le vault : Camus reproche au marxisme révolutionnaire exactement ce que l'utilitarisme se reproche parfois à lui-même (cf. la Repugnant Conclusion dans [[Utilitarisme]]) — sacrifier des individus réels au nom d'un total futur hypothétique. La révolte, chez Camus, fixe une limite morale que l'absolu révolutionnaire refuse de se donner.
 
 > "Je me révolte, donc nous sommes."
 

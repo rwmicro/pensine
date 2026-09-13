@@ -60,6 +60,9 @@ La distinction entre monde sensible et monde intelligible est le cœur du platon
 
 Les Formes ne sont pas des concepts mentaux : elles existent indépendamment des esprits qui les pensent. C'est l'**idéalisme platonicien**.
 
+> [!warning] Piège
+> Ne pas confondre cet "idéalisme" (thèse ontologique : la réalité fondamentale est faite d'entités abstraites et intelligibles, non de matière) avec le sens courant du mot ("avoir des idéaux", être utopiste). L'idéalisme platonicien est une position sur *ce qui existe réellement*, pas une attitude morale ou politique.
+
 **La Forme du Bien** (*to agathon*) occupe le sommet de la hiérarchie des Formes. Comme le soleil rend les choses visibles dans le monde sensible, le Bien rend les Formes intelligibles et leur confère leur existence. C'est l'**analogie du Soleil** (*La République*, Livre VI).
 
 ## Allégorie de la Caverne (*La République*, Livre VII)
@@ -111,6 +114,9 @@ La cité idéale reproduit la tripartition de l'âme :
 | Producteurs | Désirs | Tempérance | Produire |
 
 **La condition du philosophe-roi** : gouverner ne doit pas être désiré pour lui-même. Seul celui qui préfère la vérité au pouvoir peut exercer le pouvoir sans le corrompre. Le philosophe gouverne *parce qu'il le doit*, non parce qu'il le veut.
+
+> [!tip] Méthode
+> Le parallèle âme/cité n'est pas une simple analogie décorative : c'est la méthode argumentative de *La République*. Platon élargit une question difficile à observer (qu'est-ce que la justice dans une âme individuelle ?) en une question plus visible "en grand" (qu'est-ce que la justice dans une cité ?) pour ensuite ramener les conclusions à l'échelle individuelle — clé pour comprendre pourquoi l'essentiel du texte porte sur la politique alors que la question initiale est éthique.
 
 **Critique de la démocratie** : Platon se méfie profondément de la démocratie. L'égalité entre non-égaux (le sage et l'ignorant) est une injustice. La démocratie produit la démagogie, puis la tyrannie. Le procès de Socrate — condamné par 501 citoyens — reste sa preuve.
 

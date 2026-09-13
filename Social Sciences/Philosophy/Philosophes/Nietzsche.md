@@ -79,6 +79,9 @@ Exemples :
 - L'ascète se dominant lui-même
 - Même la souffrance volontaire (ascétisme) est volonté de puissance sur soi
 
+> [!tip] Méthode
+> Lire ce concept comme une réponse directe à Schopenhauer plutôt qu'isolément : Schopenhauer voyait dans la Volonté (aveugle, souffrante) la réalité ultime dont il fallait chercher à s'échapper par le renoncement. Nietzsche garde la Volonté comme principe fondamental mais en inverse le signe — au lieu de la fuir, il faut l'affirmer et la déployer.
+
 ### Éternel Retour (*Ewige Wiederkehr*)
 
 Pensée-test ultime : et si tu devais **revivre ta vie exactement à l'identique, infiniment** ?
@@ -129,6 +132,9 @@ Deux forces dans l'art et la vie :
    - Point de passage vers l'Übermensch
 
 Nietzsche diagnostique le nihilisme mais propose de le **traverser** pour créer du nouveau sens.
+
+> [!important] Idée clé
+> Mort de Dieu → nihilisme actif → Übermensch → éternel retour ne sont pas quatre concepts séparés à mémoriser isolément, mais les étapes d'un seul arc : constater l'effondrement des valeurs transcendantes, détruire activement ce qui reste de l'ancien système, créer de nouvelles valeurs affirmatives, et se donner un critère (vouloir revivre éternellement) pour juger si ces nouvelles valeurs affirment vraiment la vie.
 
 ### Perspectivisme
 

@@ -54,6 +54,9 @@ Avant Kant, deux écoles s'opposaient :
 - **Avant Kant :** On pensait que l'esprit se conforme aux objets (passivité)
 - **Avec Kant :** Les objets se conforment à notre esprit (activité)
 
+> [!important] Idée clé
+> Mal comprise, cette formule fait croire que Kant réduit le monde à une invention de l'esprit. Ce n'est pas la *matière* de l'expérience (le contenu sensoriel brut) que l'esprit produit, mais sa *forme* — l'espace, le temps, la causalité sont les conditions structurantes sans lesquelles aucune expérience cohérente ne serait possible, pas des contenus qu'on invente librement.
+
 **Formule célèbre :**
 > "Les pensées sans contenu sont vides, les intuitions sans concepts sont aveugles."
 
@@ -159,6 +162,9 @@ Kant identifie **12 catégories** regroupées en 4 classes :
 **Critique :**
 - Trop abstrait, ignore les émotions et les circonstances
 - Rigorisme excessif (ex: doit-on dire la vérité à un assassin cherchant sa victime ?)
+
+> [!tip] Méthode
+> Le cas de l'assassin est un bon test pour vérifier qu'on a compris l'impératif catégorique : la question n'est pas "cette règle produit-elle un bon résultat ici ?" (raisonnement conséquentialiste) mais "puis-je vouloir universellement la maxime que je suis en train de suivre ?". Kant assume la conclusion rigoriste précisément parce que sa morale ne raisonne jamais cas par cas.
 
 ## Philosophie Politique
 

@@ -38,6 +38,9 @@ Le XVIIe et XVIIIe siècle voient s'affronter deux visions radicalement opposée
 
 **Figures :** Locke (Angleterre, 1632-1704) · Berkeley (Irlande, 1685-1753) · Hume (Écosse, 1711-1776)
 
+> [!important] Idée clé
+> Remarquer la symétrie : le rationalisme échoue sur l'origine des idées innées (comment prouver qu'une idée est vraiment "gravée" en nous et non apprise très tôt ?), l'empirisme échoue sur la causalité (Hume montre qu'on ne l'observe jamais, seulement des successions) — Kant ne "réconcilie" pas les deux camps, il montre que chacun a raison sur un point précis et tort sur un autre.
+
 ## La synthèse kantienne
 
 Kant, "réveillé par Hume de son sommeil dogmatique", refuse de choisir entre les deux camps.
@@ -57,6 +60,9 @@ Kant, "réveillé par Hume de son sommeil dogmatique", refuse de choisir entre l
   Connaissance = expérience structurée
   par des formes a priori de l'esprit
 ```
+
+> [!tip] Méthode
+> Pour situer un exemple concret dans ce débat, poser une question simple : la connaissance en jeu peut-elle être obtenue par la seule pensée (mathématiques → rationalisme), ou faut-il nécessairement une observation du monde (biologie → empirisme) ? Les cas mixtes (physique théorique) sont précisément ce que Kant essaie d'expliquer.
 
 ## Ressources
 

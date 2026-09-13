@@ -43,6 +43,9 @@ Deux concepts organisent toute l'analyse machiavélienne de l'action politique r
 
 Machiavel estime qu'un prince rigide, attaché à une seule méthode, réussit tant que les circonstances lui sont favorables et échoue dès qu'elles changent — la virtù suprême est la **flexibilité** : savoir être cruel ou clément, généreux ou avare, selon ce que la situation exige, sans s'enfermer dans une image fixe de soi.
 
+> [!important] Idée clé
+> Paradoxe central de Machiavel : la constance de caractère, généralement vue comme une vertu, devient chez lui une faiblesse politique. Ce n'est pas la vertu morale qui est visée, mais la rigidité — un prince "vertueux" au sens traditionnel (toujours généreux, toujours clément) est, pour Machiavel, structurellement plus vulnérable qu'un prince adaptable.
+
 ## Être craint ou être aimé ?
 
 L'une des questions les plus citées (et déformées) du *Prince* :
@@ -58,6 +61,9 @@ Machiavel nuance immédiatement : le prince doit éviter d'être **haï**, ce qu
 Le terme "machiavélique", entré dans la langue courante pour désigner la ruse cynique et amorale, trahit une lecture partielle du *Prince*, isolée du reste de l'œuvre.
 
 **Les Discours sur la première décade de Tite-Live** (rédigés en partie à la même période) défendent au contraire, longuement, la supériorité du **gouvernement républicain** sur la monarchie pour la stabilité et la grandeur d'un État dans la durée — un peuple bien organisé, avec des lois et des contre-pouvoirs, y est jugé plus sage et plus fiable sur la durée qu'un prince seul, aussi vertueux soit-il. Machiavel, patriote florentin ayant servi la République avant sa chute, écrit *Le Prince* dans un contexte particulier : l'Italie fragmentée, ravagée par les invasions étrangères (françaises, espagnoles), et l'ouvrage se termine par un appel patriotique à un prince capable d'unifier et de libérer l'Italie — texte de circonstance autant que traité intemporel.
+
+> [!tip] Méthode
+> Cas d'école pour ne jamais juger un auteur sur un seul texte isolé de son corpus : *Le Prince* seul donne l'image d'un cynique amoral ; lu à côté des *Discours*, il montre un républicain convaincu écrivant un manuel de circonstance. Le contexte de rédaction (disgrâce politique, appel à un mécène) change le statut du texte sans effacer la cohérence de la pensée sous-jacente.
 
 ## Réception et postérité
 

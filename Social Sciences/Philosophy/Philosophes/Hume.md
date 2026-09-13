@@ -55,6 +55,9 @@ C'est la contribution philosophique la plus célèbre de Hume. Nous voyons const
 
 **Conséquence :** La science décrit des régularités observées, non des nécessités métaphysiques. Kant prend ce problème très au sérieux et y répond dans la *Critique de la raison pure*.
 
+> [!important] Idée clé
+> Hume ne nie pas que le monde a des causes — il n'est pas sceptique sur l'existence de la causalité, mais sur notre *justification* à croire en une connexion nécessaire. C'est un point épistémologique (que pouvons-nous savoir ?), pas une thèse métaphysique sur ce qui existe réellement.
+
 ### Le Problème de l'Induction
 
 Si la causalité n'est qu'habitude, le raisonnement inductif (du particulier au général) n'est jamais logiquement justifié.
@@ -81,6 +84,9 @@ Le moi est un **faisceau de perceptions** (*bundle*) en flux continu — non une
 - "Il ne faut pas blesser les humains" → VALEUR
 
 Ce passage du descriptif au normatif exige un saut logique injustifié. Toute éthique fondée sur des faits naturels (darwinisme social, naturalisme) commet cette erreur.
+
+> [!warning] Piège
+> La guillotine de Hume ne condamne pas toute éthique naturaliste en bloc — elle pointe le saut logique *quand il est fait sans prémisse normative explicite*. Un raisonnement du type "les humains souffrent, et la souffrance évitable est mauvaise, donc il ne faut pas blesser" ne commet pas l'erreur : la valeur y est posée dès le départ, pas dérivée en douce du seul fait.
 
 ### Sentimentalisme Moral
 

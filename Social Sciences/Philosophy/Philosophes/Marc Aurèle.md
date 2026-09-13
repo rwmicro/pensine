@@ -47,6 +47,9 @@ Distinguer ce qui dépend de nous de ce qui n'en dépend pas:
 
 > "Tu as pouvoir sur ton esprit, non sur les événements extérieurs. Réalise cela et tu trouveras la force."
 
+> [!important] Idée clé
+> Cette dichotomie est la racine logique de tout le reste : l'amor fati, le memento mori et la décomposition rationnelle plus bas ne sont pas des techniques indépendantes, ce sont des applications répétées d'un seul principe — rediriger systématiquement l'attention vers ce qui dépend de nous (le jugement) et la détourner de ce qui n'en dépend pas.
+
 ### Amor Fati (Amour du Destin)
 
 Accepter et **aimer** ce qui arrive, même les difficultés:
@@ -168,6 +171,9 @@ Platon rêvait de [[Platon|philosophes-rois]] gouvernant avec sagesse. Marc Aur�
 - **Réalité:** Guerres permanentes, esclavage, gladiateurs, exécutions
 
 Marc Aurèle incarne la difficulté de vivre selon ses principes dans un monde imparfait.
+
+> [!warning] Piège
+> Ne pas lire l'échec de Commode ou les guerres continuelles comme une réfutation du stoïcisme de Marc Aurèle — c'est exactement l'erreur que la dichotomie du contrôle interdit de commettre. Le caractère de son fils, l'issue des guerres, la conduite d'autrui : tout cela relève de ce qui *ne dépend pas de lui*. Le stoïcisme ne promet jamais de bons résultats extérieurs, seulement la qualité du jugement et de l'action propres.
 
 ## Relations Philosophiques
 

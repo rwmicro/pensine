@@ -53,6 +53,9 @@ Né à Trèves (Prusse) dans une famille juive convertie au protestantisme. Doct
 
 La superstructure n'est pas autonome — elle reflète et justifie les intérêts de la classe dominante (l'idéologie).
 
+> [!warning] Piège
+> Ne pas lire ce schéma comme un déterminisme mécanique où la superstructure serait un pur reflet passif, sans effet en retour. Engels précisera plus tard (lettres des années 1890) que l'infrastructure détermine « en dernière instance » seulement — droit, art, idées ont leur propre inertie et peuvent influencer en retour l'économie. Le marxisme vulgaire a souvent aplati cette nuance en simple causalité à sens unique.
+
 ### La Lutte des Classes
 
 L'histoire de toute société jusqu'à nos jours est l'histoire de la **lutte des classes** (*Manifeste*).
@@ -80,6 +83,9 @@ Développée dans les *Manuscrits de 1844*, l'aliénation est la condition du tr
 
 L'aliénation n'est pas psychologique — elle est structurelle, inscrite dans les rapports de production capitalistes.
 
+> [!important] Idée clé
+> Ce concept prolonge la dialectique hégélienne du maître et de l'esclave (voir [[Idéalisme Allemand]]) : chez Hegel, c'est en transformant la matière par le travail que l'esclave se libère intérieurement. Marx inverse le diagnostic pour le capitalisme — le travail qui devrait être le lieu de la réalisation de soi devient, quand son produit et son processus appartiennent à un autre, le lieu même de la dépossession de soi.
+
 ### La Plus-Value
 
 **Théorie de la valeur-travail** (héritée de Ricardo) : la valeur d'une marchandise est déterminée par le temps de travail socialement nécessaire à sa production.
@@ -87,6 +93,9 @@ L'aliénation n'est pas psychologique — elle est structurelle, inscrite dans l
 **La plus-value** (*Mehrwert*) : le capitaliste paie au travailleur la valeur de sa force de travail (salaire de subsistance) mais fait travailler le travailleur plus longtemps que nécessaire pour reproduire ce salaire. La différence — le *surtravail* — produit la plus-value appropriée par le capital.
 
 **Exemple :** Un travailleur reproduit la valeur de son salaire en 4 heures mais travaille 8 heures. Les 4 heures supplémentaires produisent de la valeur pour le capitaliste — c'est la source du profit.
+
+> [!warning] Piège
+> Ne pas réduire la plus-value à une « arnaque » individuelle d'un patron malhonnête. Pour Marx, l'exploitation est structurelle et existe même si chaque capitaliste paie un salaire « juste » au prix du marché — c'est le mécanisme même de l'échange (achat de la force de travail à sa valeur, mais usage de cette force au-delà de cette valeur) qui produit le profit, pas une fraude sur le contrat.
 
 ### L'Idéologie
 

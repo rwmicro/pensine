@@ -51,6 +51,9 @@ Rousseau s'oppose à [[Locke|Locke]] et surtout à Hobbes : l'état de nature n'
 
 La civilisation, la propriété, la comparaison avec autrui (*amour-propre*) ont corrompu cette bonté naturelle. L'inégalité sociale est artificielle, non naturelle.
 
+> [!warning] Piège
+> Rousseau n'a jamais prôné un "retour à l'état de nature" — c'est un contresens fréquent (le raccourci du "bon sauvage" lui est même étranger dans cette formulation). Il présente l'état de nature comme un point de comparaison logique, définitivement perdu ; son vrai projet politique, le *Contrat Social*, cherche à reconstruire une légitimité *à l'intérieur* de la société, pas à en sortir.
+
 ### L'Amour de Soi vs l'Amour-Propre
 
 Distinction fondamentale :
@@ -87,6 +90,9 @@ Le *Contrat Social* (1762) cherche un contrat légitime qui réconcilie liberté
 **La liberté morale** : en obéissant à la loi qu'on s'est prescrite à soi-même (la volonté générale), on n'obéit pas à une contrainte extérieure — on est libre.
 
 **Problème :** Qui interprète la volonté générale ? Rousseau n'a pas de réponse satisfaisante. Ce silence a permis aux Jacobins de se proclamer interprètes de la volonté générale pendant la Terreur.
+
+> [!important] Idée clé
+> Cette ambiguïté n'est pas un détail technique — c'est le point exact où deux lectures de Rousseau, démocratique et totalitaire, divergent à partir du même texte. Comparer avec [[Rawls]], qui contourne le problème par une procédure (le voile d'ignorance) plutôt qu'en misant sur une "volonté" collective substantielle à interpréter.
 
 ### Éducation Naturelle — *Émile*
 

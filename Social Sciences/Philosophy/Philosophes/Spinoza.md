@@ -149,6 +149,9 @@ DIEU/NATURE (Substance unique)
           └── Modes : Esprits, idées
 ```
 
+> [!important] Idée clé
+> Cette structure explique pourquoi, chez Spinoza, il n'y a pas d'âme séparée du corps qui pourrait survivre ou interagir causalement avec lui (contra [[Descartes]]) : esprit et corps sont deux expressions parallèles de la même chose, jamais deux substances en interaction.
+
 ## Déterminisme Absolu
 
 ### Tout est Nécessaire
@@ -168,6 +171,9 @@ DIEU/NATURE (Substance unique)
 
 **Analogie célèbre :**
 > "Une pierre qui tombe, si elle était consciente, croirait qu'elle tombe librement."
+
+> [!warning] Piège
+> Ne pas confondre ce déterminisme avec un fatalisme résigné : Spinoza ne dit pas "rien ne sert d'agir", il dit que la liberté consiste justement à comprendre les causes qui nous déterminent — plus on comprend, plus on agit "depuis sa propre nature" plutôt que d'être ballotté par des causes extérieures incomprises.
 
 ### Liberté Véritable
 
@@ -239,6 +245,9 @@ Imagination → Raison → Science Intuitive = **Libération progressive**
 | **Servitude** | **Liberté** |
 
 **Objectif moral :** Passer des passions aux actions (par la connaissance).
+
+> [!tip] Méthode
+> Cette distinction passions/actions est la clé pour comprendre toute l'*Éthique* : le programme spinoziste entier consiste à transformer des affects subis (passions, servitude) en affects compris (actions, liberté) — pas à supprimer les émotions, mais à les rendre adéquates.
 
 ## Éthique : La Béatitude
 

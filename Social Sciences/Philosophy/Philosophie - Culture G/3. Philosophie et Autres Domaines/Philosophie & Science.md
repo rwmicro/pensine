@@ -16,6 +16,9 @@ La philosophie des sciences pose des questions que la science seule ne peut pas 
 
 1. **Démarcation** : qu'est-ce qui sépare la science de la non-science ? Popper : la *falsifiabilité*. Kuhn : l'appartenance à une communauté qui partage un paradigme. Feyerabend : rien — il n'existe pas de méthode universelle.
 
+> [!important] Idée clé
+> Les trois réponses ne sont pas de simples variantes : elles désaccordent sur l'existence même d'une frontière nette. Popper pense qu'il existe un critère logique tranchant. Kuhn déplace le critère du logique au sociologique (une frontière existe, mais elle est faite de pratiques de communauté, pas de règles formelles). Feyerabend nie qu'il y ait une frontière à tracer. Savoir laquelle de ces trois positions on discute évite de répondre à côté.
+
 2. **Réalisme vs instrumentalisme** : les entités théoriques (électrons, quarks, champs quantiques) *existent-elles vraiment*, ou ne sont-ce que des fictions utiles pour prédire ? Le réaliste dit que la science décrit le monde tel qu'il est. L'instrumentaliste dit qu'elle produit des modèles efficaces, sans engagement sur la réalité.
 
 3. **Induction et confirmation** : comment une accumulation d'observations peut-elle justifier une loi générale ? Hume a montré que l'induction n'est pas logiquement valide (le futur peut différer du passé). Popper répond : la science ne confirme jamais, elle réfute.
@@ -61,6 +64,9 @@ La philosophie des sciences pose des questions que la science seule ne peut pas 
 
 **Pseudo-sciences :**
 - *Astrologie* : fait des prédictions, mais ne peut pas être réfutée (on réinterprète toujours pour maintenir la cohérence). Non falsifiable selon Popper.
+
+> [!warning] Piège
+> Ce n'est pas que l'astrologie ne fait *jamais* de prédiction précise en théorie — c'est qu'en pratique, chaque échec est absorbé par une réinterprétation ad hoc plutôt que par un abandon de la théorie. La falsifiabilité de Popper n'est donc pas qu'une propriété logique de l'énoncé : c'est aussi une question de discipline de la communauté qui l'utilise — un critère qui se vérifie autant dans la pratique que dans la forme de l'énoncé.
 - *Homéopathie* : les études qui la testent sérieusement ne trouvent pas d'effet au-delà du placebo. Elle survit socialement malgré les réfutations scientifiques — Kuhn expliquerait cela par une communauté qui maintient un paradigme concurrent.
 
 **Actualité :**

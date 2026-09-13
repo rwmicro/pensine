@@ -101,6 +101,9 @@ Bentham propose de **quantifier** le bonheur selon **7 critères** :
 
 **Critique (Mill) :** Ignorer les qualités différentes des plaisirs réduit l'humain à l'animal.
 
+> [!important] Idée clé
+> La différence Bentham/Mill n'est pas un détail historique : c'est le clivage qui structure tout l'utilitarisme depuis 200 ans. Bentham est cohérent mais choquant (un plaisir simple et intense "vaut" autant qu'un plaisir raffiné) ; Mill est intuitif mais fragile (son critère de "supériorité" — ce que préfèrent ceux qui ont connu les deux — présuppose déjà la conclusion qu'il veut démontrer, cf. le "Problème" noté plus bas).
+
 #### Applications Pratiques
 
 **Réforme juridique :**
@@ -386,6 +389,9 @@ Bentham propose de **quantifier** le bonheur selon **7 critères** :
 - La justice ne se réduit pas à l'utilité totale
 - Principe de différence : Inégalités justifiées seulement si elles profitent aux plus démunis
 
+> [!tip] Méthode
+> Pour situer rapidement une critique de l'utilitarisme, se demander ce qu'elle reproche exactement : (1) qu'on ne puisse pas mesurer le bonheur (problème épistémique), (2) qu'il sacrifie des individus au nom du total (problème des droits), ou (3) qu'il ignore comment ce total est réparti (problème distributif, ici). Ce sont trois objections indépendantes — une réponse à l'une ne répond pas aux deux autres.
+
 ### 5. Repugnant Conclusion (Conclusion Répugnante)
 
 **Paradoxe de Derek Parfit :**
@@ -397,6 +403,9 @@ Bentham propose de **quantifier** le bonheur selon **7 critères** :
 **Conclusion utilitariste :** Z est **meilleure** que A (total plus élevé).
 
 **Problème :** Contre-intuitif, "répugnant" (Parfit).
+
+> [!warning] Piège
+> Ce paradoxe révèle une ambiguïté cachée dans "maximiser le bonheur" : maximiser le **total** (additionner) et maximiser la **moyenne** (diviser par le nombre de personnes) donnent des réponses opposées dès qu'on fait varier la population elle-même — pas seulement sa répartition. Vérifier systématiquement, face à un argument utilitariste, lequel des deux critères est mobilisé : beaucoup de désaccords "sur l'utilitarisme" sont en réalité des désaccords entre ces deux versions.
 
 **Réponses :**
 - Rejeter l'utilitarisme total

@@ -54,6 +54,9 @@ Du grec *maieutikê* (art de l'accouchement), en référence au métier de sa m�
 
 **Pas d'enseigner**, mais de faire **découvrir** à l'interlocuteur qu'il ne sait pas vraiment ce qu'il croit savoir. C'est le premier pas vers la vraie sagesse.
 
+> [!important] Idée clé
+> La maïeutique ne vise pas à transmettre un savoir tout fait — elle présuppose que la vérité est déjà en l'interlocuteur (doctrine de la réminiscence reprise par [[Platon]]) et que le rôle du philosophe est de la faire émerger, jamais de l'imposer.
+
 ## Philosophie de Socrate
 
 ### Le Savoir et l'Ignorance
@@ -70,6 +73,9 @@ Socrate est le **plus sage** selon l'oracle de Delphes, précisément parce qu'i
 - Celui qui agit mal ignore ce qu'est le bien véritable
 
 **Conséquence:** L'éducation morale est primordiale. On peut enseigner la vertu en enseignant la connaissance du bien.
+
+> [!warning] Piège
+> Cette thèse choque l'intuition morale ordinaire, qui suppose qu'on peut savoir le bien et choisir librement le mal (faiblesse de volonté, *akrasia*). [[Aristote]] rejettera justement l'intellectualisme moral socratique sur ce point précis.
 
 ### La Vie Examinée
 
@@ -126,6 +132,9 @@ Dans le *Criton*, son ami Criton lui propose de s'enfuir. Socrate refuse:
 - Boit la cigüe calmement
 - Dernières paroles: "Criton, nous devons un coq à Asclépios" (dieu de la guérison - la mort guérit de la vie?)
 - Meurt entouré de ses disciples en discutant de l'immortalité de l'âme
+
+> [!tip] Méthode
+> Le refus de s'évader (*Criton*) et la provocation au procès (*Apologie*) illustrent la même cohérence : Socrate applique à lui-même l'exigence de la vie examinée jusqu'à la mort — la cohérence entre le dire et le faire est la vraie leçon, pas seulement les doctrines.
 
 ## Héritage et Influence
 

@@ -65,6 +65,9 @@ Philosophe, théoricien politique et industriel allemand, co-auteur de la pensé
 
 Bien avant Le Play ou Booth, Engels invente une démarche que la sociologie urbaine reprendra à la fin du siècle.
 
+> [!important] Idée clé
+> Ce texte de 1845, écrit avant même la rencontre théorique complète avec Marx, montre que la méthode empirique d'Engels précède et nourrit la théorie — l'ordre est souvent présenté à l'envers (la théorie marxiste appliquée ensuite à des faits), alors qu'ici l'observation directe du terrain (les quartiers ouvriers de Manchester) vient *avant* la systématisation conceptuelle.
+
 ### L'anthropologie matérialiste
 
 *L'Origine de la famille, de la propriété privée et de l'État* (1884) prolonge les travaux de l'ethnologue américain Lewis H. Morgan (*Ancient Society*, 1877). Engels y soutient que :
@@ -88,6 +91,9 @@ Cette extension a été vivement contestée :
 - Lukács et l'École de Francfort la rejettent — la dialectique ne vaut que pour l'histoire humaine
 - Althusser parle d'une « régression » par rapport à Marx
 - Les marxistes soviétiques en feront au contraire le canon du *Diamat* (matérialisme dialectique d'État)
+
+> [!warning] Piège
+> Le vrai enjeu de cette querelle n'est pas un détail d'école mais une question de portée : Marx applique la dialectique à l'histoire humaine, un domaine traversé par des contradictions sociales et des acteurs conscients — étendre la même logique à la nature physique (l'eau qui bout) suppose que le monde matériel obéit aussi à des "contradictions", une thèse beaucoup plus forte et contestable que le matérialisme historique lui-même.
 
 ### Le travail et l'hominisation
 
@@ -123,6 +129,9 @@ Engels supervise la fondation de la **Deuxième Internationale** (Paris, 1889) q
 - À l'inverse, **Terrell Carver, Tristram Hunt** récusent cette « décharge » et montrent la continuité intellectuelle des deux hommes — Engels lui-même refusait toute originalité revendiquée
 
 Le débat reste ouvert. Il oppose en filigrane un Marx « humaniste, dialectique, ouvert » à un Engels « positiviste, scientiste, fermé » — partage commode mais largement reconstruit *a posteriori*.
+
+> [!tip] Méthode
+> Face à toute affirmation "le marxisme dit que...", vérifier systématiquement si la source est Marx lui-même, Engels, ou le marxisme soviétique codifié après eux (*Diamat*) — ce sont trois strates différentes, parfois en tension, souvent amalgamées sous une même étiquette "marxisme" alors qu'elles répondent à des projets distincts (théorie critique, vulgarisation militante, doctrine d'État).
 
 
 ## Postérité

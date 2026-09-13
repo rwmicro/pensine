@@ -35,6 +35,9 @@ Locke distinguait qualités primaires (étendue, forme, mouvement — supposées
 
 **Que reste-t-il alors ?** Pour Berkeley, seuls existent des **esprits** (qui perçoivent et qui pensent, *percipient*) et des **idées** (ce qui est perçu). Ce qu'on appelle "un objet" (une pomme) n'est rien d'autre qu'une collection régulière d'idées sensibles (couleur rouge, forme ronde, goût sucré, résistance au toucher) que l'habitude nous fait regrouper sous un même nom — pas une substance matérielle cachée derrière ces apparences.
 
+> [!important] Idée clé
+> Berkeley ne nie jamais l'existence du monde sensible (la pomme est bien là, rouge et sucrée) — il nie seulement qu'il faille postuler, *en plus* de ce qu'on perçoit, une matière invisible qui le "supporterait". C'est un argument de rasoir d'Ockham : pourquoi ajouter une entité qu'on ne perçoit jamais et dont rien dans l'expérience ne prouve l'existence ?
+
 ## Objections classiques et réponses
 
 **"Si personne ne regarde l'arbre dans la forêt, cesse-t-il d'exister ?"**
@@ -42,6 +45,9 @@ Réponse de Berkeley : non, car même en l'absence de tout esprit fini pour le p
 
 **"L'idéalisme de Berkeley n'est-il pas une absurdité que le simple bon sens réfute ?**
 Samuel Johnson, selon une anecdote célèbre, prétendit "réfuter" Berkeley en donnant un violent coup de pied dans une pierre ("*I refute it thus*"). Cette réponse manque la cible : Berkeley ne nie jamais que la pierre soit dure, résistante, douloureuse au pied — il nie seulement qu'il existe, *en plus* de ces qualités perçues, une substance matérielle inerte et inconnaissable qui les "supporterait". Pour Berkeley, c'est au contraire le matérialisme (une matière qu'on ne perçoit jamais mais qu'on postule quand même) qui est spéculatif et invérifiable — l'immatérialisme, lui, se veut plus proche du sens commun, débarrassé d'une hypothèse philosophique superflue.
+
+> [!warning] Piège
+> L'anecdote du coup de pied de Johnson est l'exemple le plus cité de réfutation qui rate sa cible en philosophie — utile à retenir en soi : elle confond "nier l'existence de la matière" avec "nier la dureté ressentie", alors que Berkeley affirme la seconde et ne nie que la première.
 
 ## Motivation : contre le scepticisme et l'athéisme
 
@@ -52,6 +58,9 @@ Berkeley, évêque anglican, ne développe pas l'immatérialisme par goût de la
 **Hume** reprend la méthode empiriste de Berkeley (partir strictement de ce qui est donné dans l'expérience) mais en retire le recours à Dieu comme garant, poussant le scepticisme empiriste plus loin encore — jusqu'à douter de la substance du moi lui-même, pas seulement de la matière — voir [[Hume]].
 
 **Kant** cite Berkeley comme représentant d'un "idéalisme dogmatique" qu'il entend dépasser par son propre "idéalisme transcendantal" : pour Kant, l'espace et le temps sont des formes a priori de la sensibilité (ni choses en soi, ni simples idées dans un esprit fini ou divin) — voir [[Kant]].
+
+> [!tip] Méthode
+> Pour distinguer les trois positions sur la matière rapidement : Locke garde une matière réelle mais partiellement inconnaissable ; Berkeley la supprime entièrement au profit de l'esprit qui perçoit ; Kant refuse les deux extrêmes — il garde une "chose en soi" inconnaissable (contre Berkeley) tout en faisant de l'espace et du temps des structures de notre esprit, non des propriétés du monde (contre Locke).
 
 **Idéalisme philosophique indien** : *Philosophies non-occidentales* (Culture G) relève la convergence frappante entre l'esse est percipi berkeleyen et le Vedanta non-dualiste indien, où le monde phénoménal (*Maya*) n'a de réalité que relative à la conscience absolue (*Brahman*) — deux traditions indépendantes aboutissant à des structures argumentatives voisines.
 

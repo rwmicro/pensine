@@ -22,6 +22,9 @@ date: "2026-04-12"
 
 5. **L'engagement** (Sartre) : la liberté implique une responsabilité politique. L'intellectuel doit prendre position, agir pour la justice — la neutralité est aussi un choix. En choisissant pour soi, on choisit une image de l'humanité entière.
 
+> [!warning] Piège
+> Ne pas confondre l'existentialisme sartrien (athée, la liberté vient du vide laissé par l'absence de Dieu) avec l'existentialisme kierkegaardien (chrétien, la liberté s'exerce justement dans le "saut de la foi") — les deux partagent le vocabulaire (angoisse, choix, authenticité) mais partent de prémisses opposées sur l'existence de Dieu.
+
 ## Les figures majeures en un regard
 
 | Philosophe | Courant | Œuvre clé | Idée centrale |
@@ -39,6 +42,9 @@ date: "2026-04-12"
 - **Avec la phénoménologie** (Husserl) : l'existentialisme hérite de la méthode phénoménologique — décrire l'expérience vécue de la conscience plutôt que de construire des systèmes abstraits.
 - **Avec le postmodernisme** : Sartre et Nietzsche ont ouvert la voie à Foucault, Derrida, Deleuze en critiquant les essences, les fondements et les grands récits.
 - **Avec la psychothérapie existentielle** (Irvin Yalom, Rollo May, Viktor Frankl) : les "conditions ultimes" de l'existence (liberté, mort, solitude, sens) comme matériau thérapeutique.
+
+> [!tip] Méthode
+> Pour un devoir, l'existentialisme se définit mieux par sa méthode que par ses conclusions : tous ces penseurs partent de l'expérience vécue concrète (angoisse, mort, absurde) plutôt que d'un système abstrait — c'est ce qui les distingue du rationalisme classique autant que du positivisme.
 
 ## Ressources
 

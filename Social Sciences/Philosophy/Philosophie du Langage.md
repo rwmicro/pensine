@@ -32,6 +32,9 @@ Gottlob Frege distingue deux dimensions d'une expression : sa **référence** (*
 
 Conséquence : la signification d'une phrase ne se réduit pas à ce dont elle parle — elle inclut la manière dont on y accède.
 
+> [!important] Idée clé
+> Ce qui ressemble à un problème *psychologique* (comment peut-on croire une chose à propos de Vénus sans croire la même chose formulée autrement ?) est en réalité résolu par un outil *linguistique* : distinguer sens et référence évite de faire appel à une explication sur l'esprit. C'est un déplacement méthodologique que Kripke reprendra ensuite pour d'autres problèmes.
+
 **La théorie des descriptions (Russell, 1905)**
 
 "Le roi de France est chauve" semble présupposer l'existence d'un roi de France. Russell montre par l'analyse logique que la phrase affirme en réalité trois choses : il existe un x tel que x est roi de France, il n'y en a qu'un, et cet x est chauve. Comme la première clause est fausse, la phrase entière est fausse (et non "sans valeur de vérité") — la structure logique profonde diffère de la forme grammaticale de surface.
@@ -58,6 +61,9 @@ Dans le *Tractatus Logico-Philosophicus* (1921), Wittgenstein pense que le langa
 ```
 
 **Le paradoxe de la règle** : suivre une règle (par exemple, "+2") ne peut jamais être garanti par la règle elle-même — n'importe quelle suite d'actions passées est compatible avec une infinité de règles différentes. Ce qui fixe l'usage correct, c'est une pratique partagée, une "forme de vie" communautaire, pas une justification logique interne à l'esprit individuel.
+
+> [!tip] Méthode
+> Face à un concept qui résiste à toute définition par conditions nécessaires et suffisantes (comme "jeu"), la sortie wittgensteinienne consiste à arrêter de chercher une essence commune et à chercher plutôt des ressemblances de famille qui se chevauchent entre cas clairs — un réflexe utile chaque fois qu'une définition rigide se met à multiplier les contre-exemples.
 
 ## Les actes de langage
 

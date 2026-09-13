@@ -38,6 +38,9 @@ Les théories du contrat social partent toutes d'une expérience de pensée : à
 
 Voir [[Hobbes]], [[Locke]], [[Rousseau]].
 
+> [!important] Idée clé
+> Les trois récits de l'état de nature ne sont pas des hypothèses historiques que l'anthropologie pourrait confirmer ou réfuter — ce sont des dispositifs philosophiques (des expériences de pensée) conçus pour isoler ce qui, dans l'autorité politique, est justifiable par la raison plutôt que reçu par tradition. Leur tester la véracité empirique ("y a-t-il vraiment eu une guerre de tous contre tous ?") revient à manquer leur fonction argumentative.
+
 **La volonté générale (Rousseau)**
 Rousseau distingue la volonté générale (ce qui est bon pour la communauté comme telle) de la simple somme des volontés particulières (l'addition des intérêts privés). Obéir à la loi qu'on s'est soi-même donnée collectivement, ce n'est pas perdre sa liberté — c'est la forme que prend la liberté en société. Critique classique : comment garantir que la loi votée exprime vraiment l'intérêt général et non la tyrannie de la majorité ?
 
@@ -72,6 +75,9 @@ Le premier principe est prioritaire sur le second : on ne peut pas sacrifier la 
 
 **Critique de Nozick** (*Anarchie, État et Utopie*, 1974) : la redistribution voulue par Rawls viole la propriété légitimement acquise. Pour Nozick, une répartition est juste si son *procédé* d'acquisition et de transfert est juste — peu importe le résultat final (théorie "historique" de la justice, contre la théorie "de résultat" de Rawls). L'État doit se limiter à un rôle minimal (protection, contrats, propriété) : l'"État minimal" libertarien.
 
+> [!warning] Piège
+> Résumer ce débat à "plus vs moins de redistribution" fait perdre la ligne de fracture réelle : Rawls et Nozick ne mesurent pas la justice avec le même instrument. Rawls juge un *état du monde* (la répartition finale est-elle acceptable ?), Nozick juge un *procédé* (chaque transfert a-t-il été libre et légitime ?). Deux théories peuvent être en désaccord total sur la politique tout en s'accordant que l'autre applique son critère de façon cohérente.
+
 ## Les grandes familles idéologiques
 
 | Courant | Principe central | Figures |
@@ -103,6 +109,9 @@ Le premier principe est prioritaire sur le second : on ne peut pas sacrifier la 
 
 **Le pouvoir chez Foucault** — voir [[Foucault]]
 Foucault déplace la question : au lieu de se demander qui détient légitimement le pouvoir, il analyse comment le pouvoir *produit* des sujets, des savoirs, des normes, de façon diffuse (dans les prisons, les hôpitaux, les écoles), pas seulement au sommet de l'État. Le pouvoir n'est pas qu'une contrainte négative — il est productif.
+
+> [!tip] Méthode
+> Ce déplacement rend la question "qui détient le pouvoir légitimement ?" presque hors-sujet pour Foucault — la bonne question devient "comment telle pratique (l'examen scolaire, le dossier médical, l'interrogatoire) fabrique-t-elle des normes que personne n'a explicitement décidées ?" Utile pour repérer quand un texte glisse du registre normatif (que devrait faire l'État) au registre généalogique (comment le pouvoir opère en fait).
 
 **Machiavel et le réalisme politique** — voir [[Machiavel]]
 Contre la tradition qui décrit le prince idéal, Machiavel décrit le prince réel : la politique obéit à sa propre logique (conserver le pouvoir), distincte de la morale privée. D'où la distinction entre éthique de conviction (agir selon ses principes, quoi qu'il en coûte) et éthique de responsabilité (assumer les conséquences de ses actes) — reprise plus tard par Weber.

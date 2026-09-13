@@ -18,6 +18,9 @@ Kant a établi que nous ne connaissons jamais les choses en soi (les **noumènes
 
 Johann Gottlieb Fichte (1762-1814) supprime la chose en soi kantienne et fait du **Moi** le principe absolu et auto-fondateur de toute la philosophie (*Doctrine de la science*, 1794). Le Moi se pose lui-même (thèse), puis pose un Non-Moi qui s'oppose à lui (antithèse — le monde, la nature, l'obstacle), avant que Moi et Non-Moi ne se limitent réciproquement dans une synthèse. Cette structure ternaire (thèse/antithèse/synthèse), souvent associée à Hegel dans la vulgarisation, trouve chez Fichte sa première formulation systématique. Le monde extérieur n'est plus une donnée indépendante mais une production de l'activité du Moi lui-même, condition pour que le sujet puisse s'y affirmer moralement comme libre et agissant.
 
+> [!warning] Piège
+> Le triptyque thèse/antithèse/synthèse est presque toujours attribué à Hegel dans la vulgarisation — c'est en réalité Fichte qui lui donne sa première formulation systématique. Hegel lui-même n'utilise quasiment jamais ce vocabulaire exact dans ses textes matures ; sa dialectique procède par des figures plus complexes que ce schéma ternaire simplifié.
+
 ## Schelling : la philosophie de la nature
 
 Friedrich Schelling (1775-1854) reproche à Fichte de faire de la nature un simple obstacle pour le Moi, sans valeur propre. Il développe une **philosophie de la nature** où celle-ci n'est pas la simple matière inerte de la physique mécaniste, mais un "esprit visible", en développement, dont l'esprit humain conscient constitue l'aboutissement le plus élevé — nature et esprit sont deux faces d'un seul et même Absolu, identiques en leur fond (**philosophie de l'identité**). Schelling influencera profondément le Romantisme allemand par cette vision organiciste et vivante de la nature, contre le mécanisme des Lumières.
@@ -71,6 +74,9 @@ Toute l'histoire humaine est, pour Hegel, le processus par lequel l'Esprit (prin
   → Reconnaissance réciproque, non asymétrique,
     comme condition véritable de la liberté.
 ```
+
+> [!important] Idée clé
+> Le paradoxe central : ce n'est pas la domination qui rend libre, c'est le travail. Le Maître, en se contentant de jouir sans transformer le monde, reste dépendant et stagnant. L'Esclave, en transformant la matière, développe une maîtrise réelle du monde et de lui-même — la liberté se construit par l'effort sur les choses, pas par la possession d'autrui. C'est cette inversion qui séduira Marx : la classe qui travaille porte en elle le potentiel d'émancipation, pas celle qui domine.
 
 Cette dialectique influencera directement Marx (la lutte des classes comme rapport de domination structurellement instable) et, au XXe siècle, la philosophie française de la reconnaissance (Kojève, Sartre, Fanon appliquant la dialectique au rapport colonial).
 

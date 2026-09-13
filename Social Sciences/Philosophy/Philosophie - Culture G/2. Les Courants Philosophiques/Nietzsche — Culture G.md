@@ -22,6 +22,9 @@ date: "2026-04-12"
 
 5. **Le perspectivisme n'est pas le relativisme** : "Il n'y a pas de faits, seulement des interprétations." Ce n'est pas : "toutes les opinions se valent." C'est : toute connaissance est produite depuis un point de vue situé — il n'existe pas de "vue de nulle part". Plus on accumule de perspectives différentes sur un objet, plus on l'approche. Ce qui est visé, c'est la richesse des interprétations, pas leur égalité.
 
+> [!important] Idée clé
+> Ces cinq idées se tiennent ensemble : la mort de Dieu crée le vide (1), l'Übermensch est celui qui répond à ce vide en créant ses propres valeurs (2) par la volonté de puissance (3), et l'éternel retour est le test pour savoir si ces valeurs sont vraiment assumées (4) — le perspectivisme (5) est la condition épistémologique qui rend tout ce projet possible (aucune vérité imposée d'en haut).
+
 ## La morale des maîtres et des esclaves — l'idée la plus provocatrice
 
 Nietzsche distingue deux types de morale dans l'histoire :
@@ -36,6 +39,9 @@ Nietzsche distingue deux types de morale dans l'histoire :
 La morale judéo-chrétienne, selon Nietzsche, est une "révolte des esclaves" : les faibles ont renversé les valeurs aristocratiques en sacralisant leur propre faiblesse (humilité, pitié, égalité). Cette inversion a empoisonné la culture occidentale en lui faisant haïr la force, la différence, la créativité.
 
 **Attention :** Nietzsche n'appelle pas à opprimer les faibles. Il critique une *structure morale* qui nie la vie au nom de valeurs réactives.
+
+> [!warning] Piège
+> Insistons, car c'est historiquement le contresens le plus grave (via la récupération nazie) : lire cette critique comme un appel à la force brute contre les faibles. C'est une critique généalogique d'une structure morale, pas un programme politique — Nietzsche méprisait autant l'antisémitisme que le nationalisme allemand de son temps.
 
 ## Connexions philosophiques
 

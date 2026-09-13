@@ -19,6 +19,9 @@ Dans le *Léviathan* (1651), Hobbes imagine la condition des hommes en l'absence
 - Trois causes de conflit : la **compétition** (pour les ressources rares), la **défiance** (chacun doit se prémunir préventivement contre l'attaque d'autrui), et la **fierté** (le désir de réputation, de gloire)
 - En l'absence de pouvoir commun capable de contraindre chacun, ces causes produisent inévitablement un état de guerre généralisée — non pas des combats permanents, mais une **disposition** permanente au conflit, comme le mauvais temps ne consiste pas en pluie continue mais en la tendance persistante à pleuvoir
 
+> [!important] Idée clé
+> L'état de nature n'est pas une thèse historique ou anthropologique ("les hommes préhistoriques vivaient ainsi") — Hobbes lui-même le précise comme expérience de pensée. C'est un raisonnement logique : *si* on retire tout pouvoir commun, *alors* ces conséquences suivent nécessairement. Confondre les deux fait manquer la force de l'argument.
+
 **La formule la plus célèbre de la philosophie politique**
 > "Dans un tel état, il n'y a pas de place pour l'industrie [...] pas de culture de la terre, pas de navigation [...] pas d'arts, pas de lettres, pas de société, et, ce qui est le pire de tout, une crainte continuelle, et le danger d'une mort violente ; et la vie de l'homme est solitaire, pauvre, désagréable, brutale et courte."
 
@@ -45,6 +48,9 @@ La raison — la **loi naturelle** (*lex naturalis*), dont le premier précepte 
 Contrairement à Locke, qui limitera le pouvoir politique et justifiera un droit de résistance, Hobbes soutient que la souveraineté doit être **absolue, indivisible et irrévocable** pour être efficace : un pouvoir divisé (entre plusieurs organes qui pourraient s'opposer) ou révocable (que les sujets pourraient reprendre à volonté) recréerait précisément l'instabilité et le risque de guerre civile que le contrat visait à éliminer. Une fois le contrat conclu, les sujets ne peuvent reprocher au souverain ses décisions : ils en sont eux-mêmes, collectivement, les auteurs par autorisation — le souverain n'est lui-même partie à aucun contrat, il en est seulement le bénéficiaire institué par les sujets entre eux.
 
 **La seule limite** : le droit à l'auto-préservation étant inaliénable (on ne peut renoncer par contrat au droit de résister à qui menace directement sa vie), un sujet peut légitimement désobéir à un ordre qui le condamnerait lui-même à mort ou à un péril immédiat — brèche étroite, mais réelle, dans l'absolutisme hobbesien.
+
+> [!warning] Piège
+> Ne pas lire Hobbes comme un défenseur de la tyrannie pour elle-même : l'absolutisme n'est pas une fin, c'est un moyen déduit de la peur de la guerre civile. Le Léviathan ne tire sa légitimité que de sa capacité à protéger — un souverain qui échoue à protéger perd, dans la logique même de Hobbes, la raison d'être de son pouvoir.
 
 ## Matérialisme et méthode géométrique
 
