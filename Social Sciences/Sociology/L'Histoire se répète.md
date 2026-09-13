@@ -50,6 +50,9 @@ date: "2025-12-31"
 - Révolutions: inégalités + élites déconnectées + étincelle
 - Bulles financières: euphorie → aveuglement → krach
 
+> [!warning] Piège
+> Ce genre de pattern à trois éléments (crise + bouc émissaire + homme providentiel) est dangereusement facile à retrouver a posteriori dans presque n'importe quelle période trouble — c'est le risque méthodologique inverse du biais de confirmation cité plus bas. Un pattern qui explique tout, y compris des contre-exemples en forçant un peu la grille de lecture, n'est pas falsifiable et perd sa valeur explicative.
+
 ## Antithèse: L'Histoire Ne se Répète Pas (Linéaire/Mutation)
 
 ### Arguments Contre la Répétition
@@ -97,6 +100,9 @@ date: "2025-12-31"
 - Histoire suit spirale ascendante
 - Retour apparent à situations passées **mais à niveau supérieur**
 - Exemple: Nationalisme XIXe ≠ Nationalisme XXIe (contexte tech différent)
+
+> [!important] Idée clé
+> Ce modèle en spirale n'est pas un compromis neutre entre thèse et antithèse — c'est le schéma dialectique hégélien, repris ensuite par [[Fondateurs/Karl Marx|Marx]], qui présuppose que l'histoire a un sens et une direction ("niveau supérieur"). C'est justement ce présupposé téléologique qui fait l'objet de critiques (voir la note sur Marx) : rien ne garantit que la répétition mène vers le "mieux" plutôt que vers un simple recommencement à un autre niveau de complexité.
 
 ### Facteurs de Répétition
 

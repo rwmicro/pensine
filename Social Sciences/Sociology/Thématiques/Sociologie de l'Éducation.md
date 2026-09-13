@@ -85,6 +85,9 @@ Branche de la sociologie étudiant les systèmes éducatifs, les pratiques scola
 - Mérite individuel masque privilèges sociaux
 - Légitimation des hiérarchies
 
+> [!important] Idée clé
+> Ce que Bourdieu appelle "don naturel" n'est jamais un mensonge délibéré — c'est un effet réel de la socialisation précoce : l'enfant de milieu bourgeois n'a pas plus de mérite, mais il a déjà intériorisé sans effort conscient des codes que l'école valorise et prend pour un talent inné. Le tour de force du concept est de montrer que la méritocratie peut fonctionner honnêtement en apparence tout en reproduisant les inégalités.
+
 #### La Reproduction (1970)
 
 **Sous-titre:** *Éléments pour une théorie du système d'enseignement*
@@ -160,6 +163,9 @@ Branche de la sociologie étudiant les systèmes éducatifs, les pratiques scola
 **Rationalité limitée:**
 - Non irrationalité, mais calculs différents selon contexte
 
+> [!warning] Piège
+> Boudon n'annule pas Bourdieu — il ajoute un mécanisme complémentaire, pas concurrent. Les inégalités primaires (capital culturel, façonnage des dispositions dès l'enfance) sont bourdieusiennes ; les inégalités secondaires (choix scolaires selon un calcul coût/bénéfice différent par classe) sont propres à Boudon. Présenter les deux comme des théories qui s'excluent est une erreur fréquente en dissertation — elles opèrent à des étapes différentes du parcours scolaire.
+
 **Effets pervers:**
 - Massification scolaire → Inflation des diplômes
 - Diplôme = course, dévaluation
@@ -181,6 +187,9 @@ Branche de la sociologie étudiant les systèmes éducatifs, les pratiques scola
 **Critique:**
 - Accusé de "déficit" (vs "différence")
 - Dichotomie trop stricte?
+
+> [!tip] Méthode
+> La distinction "déficit vs différence" est une clé de lecture qui revient dans plusieurs débats sociologiques (langage, culture, éducation) : un modèle "déficit" traite le code populaire comme un manque à combler par rapport à la norme dominante, un modèle "différence" le traite comme un système linguistique cohérent en soi, ni supérieur ni inférieur. Bernstein a été lu comme "déficitariste" alors que son objectif initial était de décrire, pas de hiérarchiser — la critique porte autant sur la réception de sa théorie que sur la théorie elle-même.
 
 ### Curriculum caché
 

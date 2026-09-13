@@ -13,6 +13,9 @@ La sociologie des migrations étudie les déplacements de populations à travers
 
 Thomas et Znaniecki (*The Polish Peasant in Europe and America*, 1918-1920) étudient, à partir de correspondances et de récits de vie, comment l'émigration transforme la structure familiale et communautaire des paysans polonais installés aux États-Unis — travail fondateur qui établit la méthode biographique comme outil privilégié de la sociologie des migrations, en donnant une voix directe aux migrants eux-mêmes plutôt que de les traiter comme de simples statistiques agrégées. Robert Park, théoricien de l'écologie urbaine — voir [[Sociologie Urbaine]] — développe le concept d'**homme marginal** (*marginal man*) : l'individu migrant, pris entre deux cultures sans appartenir pleinement ni à l'une ni à l'autre, vivrait une tension psychologique et sociale spécifique, mais aussi, selon Park, une position d'observateur privilégié susceptible d'une créativité et d'une lucidité particulières sur les deux mondes qu'il traverse.
 
+> [!tip] Méthode
+> Comparer cette lecture de la position "entre deux mondes" à celle de Sayad plus bas : Park (optimiste, années 1920) y voit un potentiel de lucidité créatrice ; Sayad (critique, 1999) y voit une double absence structurellement douloureuse. Même position sociale décrite, tonalité opposée — utile pour illustrer comment le regard théorique du sociologue oriente l'interprétation d'un même fait social.
+
 ## Intégration, assimilation, multiculturalisme : trois modèles concurrents
 
 | Modèle | Principe | Critique principale |
@@ -20,6 +23,9 @@ Thomas et Znaniecki (*The Polish Peasant in Europe and America*, 1918-1920) étu
 | **Assimilation** | Le migrant abandonne progressivement les traits culturels de sa société d'origine pour adopter ceux de la société d'accueil, jusqu'à devenir indiscernable de la population majoritaire | Modèle jugé souvent trop linéaire et unidirectionnel ; ignore les phénomènes de résistance culturelle et de conservation des liens identitaires sur plusieurs générations |
 | **Intégration** | Le migrant s'insère dans les institutions communes (travail, école, citoyenneté) sans nécessairement abandonner ses particularités culturelles privées | Modèle dominant du discours républicain français, dont les critiques soulignent le décalage fréquent avec les discriminations réelles vécues sur le marché du travail et du logement |
 | **Multiculturalisme** | La société d'accueil reconnaît et valorise institutionnellement la diversité culturelle des groupes migrants, plutôt que d'exiger leur fusion dans une culture commune unique | Modèle dominant au Canada, débattu en Europe ; critiqué par certains pour un risque de "communautarisme" fragmentant la cohésion sociale, défendu par d'autres comme plus respectueux du pluralisme réel des sociétés contemporaines |
+
+> [!important] Idée clé
+> Ces trois modèles ne sont pas de purs choix idéologiques à départager — ce sont aussi des modèles empiriques qui prédisent des trajectoires différentes (vitesse d'accès à l'emploi, maintien des réseaux communautaires, taux de mariages mixtes). Un pays peut afficher officiellement un modèle (intégration républicaine en France) tout en produisant dans les faits des dynamiques plus proches d'un autre modèle (ségrégation résidentielle proche de l'assimilation ratée) — le décalage entre discours institutionnel et trajectoires réelles est lui-même un objet d'étude.
 
 ## Abdelmalek Sayad et la "double absence"
 
@@ -34,6 +40,9 @@ Sociologue franco-algérien, proche collaborateur de Bourdieu, Abdelmalek Sayad 
 ## La question de la seconde génération
 
 Les enfants de migrants, nés ou grandis majoritairement dans le pays d'accueil, constituent un objet d'étude spécifique : contrairement à leurs parents, ils ne vivent pas eux-mêmes l'expérience de la migration, mais héritent souvent d'une position sociale ambivalente — pleinement citoyens et socialisés dans la culture du pays d'accueil, mais parfois toujours perçus (et discriminés) comme "étrangers" par une partie de la société majoritaire, indépendamment de leur nationalité juridique. Les études sur l'"assimilation segmentée" (Portes et Zhou) montrent que la trajectoire de la seconde génération n'est pas uniforme : elle dépend fortement du contexte de réception (discrimination, ségrégation résidentielle, qualité des réseaux communautaires disponibles), certains groupes connaissant une mobilité ascendante rapide, d'autres un enlisement dans des positions sociales précaires.
+
+> [!warning] Piège
+> L'"assimilation segmentée" contredit l'intuition la plus répandue selon laquelle chaque génération s'intègre mécaniquement mieux que la précédente. Portes et Zhou montrent que ce n'est pas automatique : selon le contexte de réception, la seconde génération peut au contraire régresser socialement par rapport à ses parents (enlisement dans des quartiers ségrégués, réseaux communautaires appauvris) — l'intégration n'est pas une ligne droite ascendante garantie par le simple écoulement du temps.
 
 ## Racisme et discrimination
 

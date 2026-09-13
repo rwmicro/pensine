@@ -13,6 +13,9 @@ La sociologie du genre étudie comment les différences perçues entre hommes et
 
 Distinction fondatrice du champ, popularisée à partir des années 1970 (Ann Oakley, dans le sillage des travaux antérieurs de Margaret Mead) : le **sexe** désigne les caractéristiques biologiques (anatomiques, chromosomiques, hormonales), tandis que le **genre** désigne les rôles, comportements, attributs et identités socialement construits et attribués différemment aux hommes et aux femmes selon les sociétés et les époques. Cette distinction permet de poser une question devenue centrale : dans quelle mesure les différences de comportement observées entre hommes et femmes relèvent-elles de la nature, et dans quelle mesure de l'apprentissage social ?
 
+> [!warning] Piège
+> "Socialement construit" ne veut pas dire "arbitraire" ni "facile à changer" — une norme peut être une construction sociale tout en étant profondément intériorisée, stable sur plusieurs générations et coûteuse à transgresser individuellement. Confondre construction sociale et fragilité/facilité de changement est une erreur fréquente en dissertation.
+
 **Margaret Mead** (*Mœurs et sexualité en Océanie*, 1935), dans une étude comparative de trois sociétés de Nouvelle-Guinée, montre une variabilité considérable des rôles de genre attribués aux hommes et aux femmes selon les cultures — chez les Tchambuli notamment, une répartition des tempéraments "masculin" et "féminin" inversée par rapport aux stéréotypes occidentaux de l'époque — argument précoce, bien que méthodologiquement contesté par des travaux ultérieurs, en faveur de la construction culturelle plutôt que purement biologique du genre.
 
 ## La socialisation différenciée
@@ -43,6 +46,9 @@ Judith Butler (*Trouble dans le genre*, 1990) propose une théorisation influent
 ```
 
 Cette thèse, issue de la philosophie et largement reprise en sociologie, ouvre la voie à une critique de la binarité homme/femme comme catégorie naturelle fixe, et nourrit directement les études queer contemporaines — qui interrogent aussi bien le genre que l'orientation sexuelle comme catégories socialement construites plutôt que des essences biologiques figées.
+
+> [!important] Idée clé
+> Contresens fréquent : la performativité ne veut pas dire qu'on "choisit" librement son genre chaque matin comme on choisirait un costume. Les actes qui constituent le genre sont largement contraints et répétés sous la pression de normes sociales — la théorie décrit un mécanisme de production presque automatique de l'illusion d'identité stable, pas un acte de liberté individuelle consciente.
 
 ## Masculinités et hégémonie masculine (Raewyn Connell)
 
@@ -75,6 +81,9 @@ Concept introduit par la juriste et théoricienne Kimberlé Crenshaw (1989) pour
 ```
 
 Ce concept, né dans le contexte juridique et militant afro-féministe américain, est aujourd'hui largement mobilisé en sociologie pour analyser la façon dont classe, genre et race se combinent dans la production des inégalités sociales contemporaines.
+
+> [!tip] Méthode
+> Retenir l'intersectionnalité comme un argument contre un modèle **additif** des discriminations (sexisme + racisme = double discrimination mesurable séparément) au profit d'un modèle où l'intersection crée une position qualitativement différente, pas juste quantitativement plus lourde. C'est cette différence de nature, pas seulement de degré, qui rend la discrimination des femmes noires parfois invisible aux outils juridiques conçus pour traiter chaque catégorie isolément.
 
 ## Auteurs de référence
 

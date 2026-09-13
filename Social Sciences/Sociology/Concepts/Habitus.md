@@ -15,6 +15,9 @@ Concept central de la sociologie de Pierre Bourdieu, désignant un système de d
 **En termes simples:**
 L'habitus, c'est l'ensemble des habitudes, réflexes et manières d'être qu'on a incorporés sans s'en rendre compte — façonnés par notre milieu social, notre famille, notre éducation. C'est le "sens pratique" : savoir instinctivement comment se comporter dans un contexte donné, sans avoir besoin d'y réfléchir consciemment.
 
+> [!warning] Piège
+> Ne pas confondre habitus et simple "habitude" (routine consciente qu'on peut décrire et changer à volonté, comme se brosser les dents). L'habitus est structurel et largement inconscient : on ne peut pas lister ses propres schèmes de perception comme on liste ses habitudes, et il continue à produire des jugements (goût, malaise, aisance) même quand on cherche activement à s'en défaire — d'où la difficulté des transfuges de classe évoquée plus bas.
+
 **Formule de Bourdieu:**
 > "Structures structurées prédisposées à fonctionner comme structures structurantes"
 
@@ -160,6 +163,9 @@ L'habitus, c'est l'ensemble des habitudes, réflexes et manières d'être qu'on 
 - Mobilité sociale ascendante
 - Migration
 - Reconversions professionnelles
+
+> [!example] Exemple
+> Un transfuge de classe devenu universitaire peut maîtriser parfaitement les codes académiques (langage, références culturelles) tout en ressentant un malaise physique persistant dans les dîners mondains de ses nouveaux collègues — signe que l'habitus primaire (formé dans l'enfance) reste actif au niveau corporel même quand l'habitus secondaire a rattrapé le nouveau milieu au niveau cognitif.
 
 ## Critiques
 

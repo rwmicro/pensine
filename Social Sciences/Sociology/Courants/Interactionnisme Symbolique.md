@@ -48,6 +48,9 @@ Courant sociologique américain centré sur les interactions sociales et la cons
 - **Me (Moi):** Attitudes organisées des autres intériorisées, contrôle social
 - Dialogue intérieur I/Me = processus social internalisé
 
+> [!warning] Piège
+> Ne pas confondre avec le Ça/Moi/Surmoi freudien, même air de famille apparent. Chez Mead, le Me n'est pas une instance répressive fixée dans l'enfance : c'est littéralement la société qui pense en nous à chaque instant, se reconstruisant à chaque interaction. Le I n'est pas non plus une pulsion biologique — c'est la part imprévisible de la réponse à ce Me, jamais figée d'avance.
+
 **Prise de rôle (Role-taking):**
 - Capacité de se mettre à la place d'autrui
 - Anticiper réactions d'autrui
@@ -190,6 +193,9 @@ Courant sociologique américain centré sur les interactions sociales et la cons
 **Thèse centrale:**
 - **"La déviance n'est pas une qualité de l'acte commis, mais la conséquence de l'application par d'autres de règles et de sanctions à un 'transgresseur'"**
 - Ce n'est pas l'acte intrinsèquement, mais la réaction sociale qui crée la déviance
+
+> [!important] Idée clé
+> Contresens fréquent : Becker ne dit pas que l'acte n'a pas eu lieu ou que "rien n'est vraiment mal". Il dit que le même acte peut être ignoré, toléré ou puni selon qui le commet et qui l'observe — la déviance est donc une propriété de la relation entre l'acte et son observateur social, pas une propriété intrinsèque de l'acte. D'où l'intérêt de regarder les entrepreneurs de morale plutôt que le "déviant" lui-même.
 
 **Entrepreneurs de morale:**
 - **Créateurs de normes:** Imposent nouvelles règles (croisades morales)
@@ -355,6 +361,9 @@ Courant sociologique américain centré sur les interactions sociales et la cons
 **Réponses:**
 - Certains interactionnistes intègrent macro (Strauss: négociation de l'ordre)
 - Micro et macro ne s'excluent pas
+
+> [!tip] Méthode
+> Même structure de critique que celle adressée à l'[[Existentialisme|existentialisme sartrien]] par le structuralisme : accuser un cadre centré sur l'acteur de présupposer un sujet trop libre, sans voir les structures qui précèdent ses choix. Utile pour situer l'interactionnisme sur l'axe agency/structure face à [[Fondateurs/Pierre Bourdieu|Bourdieu]], qui tente justement de dépasser cette opposition avec l'habitus.
 
 ### Relativisme
 

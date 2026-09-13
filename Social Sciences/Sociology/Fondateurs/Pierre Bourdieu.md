@@ -37,6 +37,9 @@ Concept central, hérité (et retravaillé) d'Aristote et de la scolastique méd
 
 **Caractéristiques** : durable (formé précocement, résistant au changement), transposable (un même habitus s'exprime dans des domaines très différents — façon de parler, de se tenir, de manger, goûts culturels), largement inconscient (il ne s'agit ni d'un calcul rationnel ni d'une règle explicitement suivie, mais d'automatismes incorporés jusque dans le corps — la **hexis corporelle**), générateur de régularités sans déterminisme mécanique strict (l'habitus produit des pratiques improvisées, adaptées à chaque situation, à la manière d'une grammaire qui permet d'engendrer des phrases nouvelles sans jamais les avoir répétées).
 
+> [!warning] Piège
+> Contresens le plus fréquent : traiter l'habitus comme un simple synonyme de "conditionnement" ou de "programme social" qui exécuterait des comportements prévisibles. Bourdieu choisit explicitement la métaphore grammaticale pour éviter ce sens — comme une grammaire permet de produire des phrases jamais entendues auparavant tout en restant reconnaissablement "de cette langue", l'habitus engendre des pratiques nouvelles et improvisées, pas un script figé. Le déterminisme porte sur les régularités statistiques observées, pas sur chaque action individuelle.
+
 ## Capital et champ
 
 **Les quatre formes de capital**
@@ -49,6 +52,9 @@ Concept central, hérité (et retravaillé) d'Aristote et de la scolastique méd
 | **Symbolique** | Reconnaissance, prestige, honneur — tout capital qui, une fois perçu et reconnu comme légitime par les autres, produit un pouvoir propre | Réputation, titre honorifique |
 
 Ces capitaux sont **convertibles** (le capital économique peut acheter une scolarité privée productrice de capital culturel, qui ouvre des réseaux producteurs de capital social) — mécanisme central de la **reproduction** des inégalités à travers les générations, sous des formes qui échappent à la transmission directe et visible de l'argent.
+
+> [!important] Idée clé
+> C'est cette conversion qui fait toute la force critique de la théorie : l'argent, une fois transformé en diplôme ou en goût "raffiné", ne se voit plus comme de l'argent. L'avantage hérité se présente alors comme un mérite personnel (bon goût, intelligence, aisance naturelle) — la conversion entre capitaux est le mécanisme précis par lequel une inégalité de départ se déguise en méritocratie.
 
 **Le champ** est un espace social relativement autonome (champ littéraire, scientifique, politique, journalistique, sportif...), structuré par des rapports de force entre positions dominantes et dominées, avec ses propres règles du jeu (le *nomos*, spécifique à chaque champ) et ses enjeux propres. Chaque champ requiert un capital spécifique pour y occuper une position dominante (le capital scientifique ne vaut rien, tel quel, dans le champ artistique). L'**illusio** désigne l'adhésion, généralement non questionnée, aux enjeux d'un champ — croire que "ça vaut la peine de jouer le jeu" (consacrer sa vie à la recherche, à l'art, au sport de haut niveau) est la condition même pour y entrer et y investir.
 
@@ -73,6 +79,9 @@ Concept le plus politiquement chargé de l'appareil bourdieusien : une forme de 
   valorisent le masculin — la domination fonctionne
   d'autant mieux qu'elle ne se vit pas comme contrainte.
 ```
+
+> [!warning] Piège
+> Ne pas réduire à la "fausse conscience" marxiste (une illusion qui masquerait la vérité aux dominés). Pour Bourdieu, les dominés ne se trompent pas sur des faits — ils appliquent des catégories de perception qui sont elles-mêmes façonnées par la structure sociale qu'elles servent à percevoir. Il n'y a donc pas de point de vue "non biaisé" caché sous l'illusion qu'il suffirait de révéler : c'est la structure même de la perception qui est en jeu, pas une information manquante.
 
 ## Les œuvres majeures
 

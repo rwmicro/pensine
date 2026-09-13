@@ -31,6 +31,9 @@ Dans les sociétés traditionnelles (segmentaires, peu différenciées — clans
 
 Avec l'industrialisation, l'urbanisation et l'essor de la **division du travail social**, les individus se spécialisent de plus en plus — chacun exerce une fonction distincte et devient, précisément à cause de cette différence, dépendant des autres pour satisfaire ses besoins (le boulanger a besoin du médecin qui a besoin de l'agriculteur qui a besoin du boulanger). Paradoxe central de la thèse durkheimienne : c'est la **différenciation croissante**, et non la similitude, qui produit désormais le lien social — à l'image d'un organisme biologique, où des organes différents (cœur, poumons, foie) sont solidaires précisément parce qu'ils remplissent des fonctions différentes et complémentaires.
 
+> [!warning] Piège
+> Ne pas confondre "solidarité" au sens durkheimien (mécanisme objectif d'interdépendance, mesurable par le type de droit dominant) et "solidarité" au sens courant (sentiment d'entraide, chaleur communautaire). La solidarité organique peut parfaitement régner dans une société où les individus ne se sentent pas particulièrement proches les uns des autres — elle décrit une dépendance fonctionnelle, pas une émotion collective.
+
 **Le droit restitutif comme indicateur** : dans les sociétés à solidarité organique, le droit dominant vise moins à punir symboliquement qu'à **rétablir** une situation (contrat rompu, dommage causé) — signe que la conscience collective s'est affaiblie et diversifiée au profit d'une régulation plus technique et fonctionnelle des rapports entre individus différenciés.
 
 ## La question posée par Durkheim : la division du travail crée-t-elle nécessairement la cohésion ?

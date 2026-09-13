@@ -64,6 +64,9 @@ La violence symbolique se distingue de la simple manipulation idéologique en ce
 - **Déterminisme** : comme pour l'habitus (voir [[Habitus]]), le concept est accusé de laisser peu de place à la résistance et à la réflexivité des dominés — s'ils sont structurellement incapables de percevoir leur propre domination, comment expliquer les mouvements de contestation sociale historiquement observés (mouvements ouvriers, féministes) ?
 - **Réponse de Bourdieu** : la sociologie elle-même, en objectivant scientifiquement ces mécanismes, constitue un outil de dévoilement possible — la réflexivité sociologique n'est pas automatique ni spontanée, mais elle n'est pas non plus par principe impossible
 
+> [!tip] Méthode
+> Avant d'invoquer la violence symbolique pour expliquer un phénomène, vérifier qu'on est bien face à une *méconnaissance* (le dominé ne perçoit pas la domination comme telle) et non à une simple contrainte matérielle assumée comme telle (accepter un travail pénible faute d'alternative n'est pas de la violence symbolique, sauf si la personne perçoit sa situation comme méritée ou normale). Le concept perd sa force explicative s'il devient un synonyme générique de "toute forme d'inégalité subie".
+
 ## Citations
 
 > "La violence symbolique s'accomplit à travers un acte de connaissance et de méconnaissance qui échappe au contrôle de la conscience et de la volonté." (Bourdieu)

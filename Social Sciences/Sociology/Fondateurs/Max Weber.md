@@ -35,6 +35,9 @@ Sociologue, économiste et philosophe allemand, figure majeure de la sociologie 
 - Affinités électives entre éthique protestante (calvinisme) et esprit du capitalisme moderne
 - Non causalité simple, mais convergence culturelle
 
+> [!warning] Piège
+> Erreur classique de dissertation : réduire la thèse à "le protestantisme a causé le capitalisme". Weber choisit précisément le terme d'"affinité élective" (emprunté à Goethe) pour éviter ce schéma causal à sens unique — c'est l'inverse méthodologique du matérialisme historique de [[Fondateurs/Karl Marx|Marx]], qui fait dériver les idées des rapports de production. Weber montre une convergence, pas une déduction.
+
 **Calvinisme et prédestination:**
 - Doctrine de la prédestination absolue (Jean Calvin)
 - Salut ou damnation décidé par Dieu de toute éternité
@@ -153,6 +156,9 @@ Sociologue, économiste et philosophe allemand, figure majeure de la sociologie 
 - Types de domination
 - Types d'action
 
+> [!important] Idée clé
+> Un type idéal n'est ni une moyenne statistique ni un idéal à atteindre (le mot "idéal" trompe) — c'est une exagération délibérée de certains traits pour construire un point de comparaison. Aucune bureaucratie réelle n'est purement impersonnelle, aucune action n'est purement zweckrational : le type sert justement à mesurer l'écart entre le cas concret et la construction théorique, pas à décrire directement la réalité.
+
 ### Domination Légitime (Herrschaft)
 
 **Définition:**
@@ -176,6 +182,9 @@ Sociologue, économiste et philosophe allemand, figure majeure de la sociologie 
    - **Administration:** Disciples, compagnons choisis par le chef
    - **Instabilité:** Problème de succession, routinisation du charisme
    - **Révolutionnaire:** Rupture avec l'ordre établi
+
+> [!tip] Méthode
+> Bon réflexe analytique face à un mouvement né autour d'un fondateur charismatique (religieux, politique, parfois une entreprise) : chercher le moment de la "routinisation du charisme" — quand la légitimité personnelle du chef doit se transformer en règles stables (souvent domination traditionnelle ou légale-rationnelle) pour survivre à sa disparition. C'est le point de bascule le plus révélateur, pas la phase fondatrice elle-même.
 
 3. **Domination légale-rationnelle:**
    - **Fondement:** Règles légales impersonnelles, rationnellement établies

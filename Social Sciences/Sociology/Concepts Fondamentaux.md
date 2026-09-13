@@ -145,6 +145,9 @@ date: "2026-02-22"
 - Jeu avec le rôle
 - Cynisme vs sincérité
 
+> [!tip] Méthode
+> Ne pas confondre "rôle" et "personnalité" : le rôle est une attente sociale attachée à une position (le rôle de professeur existe indépendamment de qui l'occupe), la distance au rôle est la marge que l'individu garde entre ce qu'il *est* et ce qu'il *joue*. C'est cette marge qui permet à Goffman de penser l'acteur social sans tomber dans le pur déterminisme du rôle.
+
 ### Déviance
 
 **Définition:**
@@ -163,6 +166,9 @@ date: "2026-02-22"
 - **Conflictualiste:**
   - Normes = domination
   - Criminalisation différentielle
+
+> [!warning] Piège
+> Ces trois approches ne répondent pas à la même question et ne s'excluent donc pas : le fonctionnalisme demande "à quoi sert la déviance pour la société", l'interactionnisme "comment un acte devient-il déviant" (la réaction sociale, pas l'acte en lui-même), le conflictualisme "qui a le pouvoir de définir la norme". Les opposer terme à terme dans une dissertation est une erreur fréquente — elles opèrent à des niveaux d'analyse différents.
 
 ### Institution
 

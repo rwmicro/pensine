@@ -23,6 +23,9 @@ Dans *La Mise en scène de la vie quotidienne* (1959), Goffman propose une méta
 
 **La gestion des impressions** (*impression management*) : chaque acteur social cherche activement à orienter l'image qu'il donne de lui-même, par le contrôle de son apparence (vêtements, posture), de sa "façade" (le décor, les accessoires qui accompagnent le rôle) et de son discours — non par pur calcul cynique, mais parce que la coopération de tous les participants à maintenir une définition cohérente de la situation est la condition même que l'interaction sociale puisse se dérouler sans heurt.
 
+> [!important] Idée clé
+> Contrairement à une lecture rapide de la métaphore théâtrale, les coulisses ne donnent pas accès à un "vrai moi" caché derrière le masque social. Pour Goffman il n'y a pas de moi pré-social à démasquer : les coulisses sont juste une autre scène, avec un autre public (les collègues plutôt que les clients) et d'autres règles de représentation. Le moi n'existe que comme produit des interactions, jamais en dehors d'elles.
+
 ## Face et rituels d'interaction
 
 Dans *Les Rites d'interaction* (1967), Goffman analyse les interactions ordinaires à travers le prisme du rituel — au sens où chaque échange, même le plus banal, obéit à des règles implicites de politesse qui protègent la **face** de chacun.
@@ -32,6 +35,9 @@ Dans *Les Rites d'interaction* (1967), Goffman analyse les interactions ordinair
 ## Institutions totales et stigmate
 
 **Asiles** (1961), fruit d'une enquête ethnographique menée en observation participante dans un hôpital psychiatrique de Washington, introduit le concept d'**institution totale** : un lieu où un grand nombre d'individus, coupés du reste de la société pour une période appréciable, mènent ensemble une vie recluse et formellement administrée (prisons, casernes, hôpitaux psychiatriques, couvents, camps).
+
+> [!warning] Piège
+> Ne pas fusionner avec le pouvoir disciplinaire de Foucault, malgré le dialogue réel entre les deux (voir Héritage) et l'objet commun. Goffman reste au niveau de l'expérience interactionnelle vécue par l'interné — comment l'identité se recompose au contact d'un régime uniforme. Foucault s'intéresse au dispositif de pouvoir lui-même — comment le savoir médical/pénal produit et légitime cette surveillance à l'échelle de toute une société, bien au-delà des murs d'un asile.
 
 **La carrière morale du patient** : Goffman décrit comment l'entrée dans une institution totale implique un processus systématique de "mortification du moi" — dépouillement des attributs identitaires antérieurs (vêtements personnels, objets, nom parfois remplacé par un numéro), soumission à un régime uniforme, qui vise à produire un individu "traitable" par l'institution, indépendamment de la pertinence thérapeutique réelle de ce processus pour sa condition initiale.
 

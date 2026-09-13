@@ -41,17 +41,26 @@ La sociologie économique conteste l'hypothèse centrale de l'économie néoclas
 
 **La force des liens faibles** (Granovetter, 1973) : étude empirique devenue classique montrant que, contre l'intuition, ce sont souvent les **liens faibles** (connaissances éloignées, contacts occasionnels) plutôt que les liens forts (famille proche, amis intimes) qui apportent l'information la plus utile pour trouver un emploi — parce que les liens forts, densément connectés entre eux, ont tendance à partager déjà la même information redondante, tandis que les liens faibles donnent accès à des réseaux sociaux distincts et à une information nouvelle.
 
+> [!warning] Piège
+> "Force des liens faibles" ne veut pas dire "avoir beaucoup de contacts" — un réseau immense de liens faibles tous connectés entre eux (donc redondants) n'apporte pas plus d'information qu'un petit réseau dense. Ce qui compte, c'est que le lien faible serve de **pont** vers un cluster social distinct, inaccessible autrement — la valeur vient de la diversité structurelle du réseau, pas de sa taille.
+
 ## Sociologie des marchés et des organisations
 
 **Neil Fligstein** développe une sociologie politique des marchés : loin d'être des mécanismes purement spontanés d'ajustement de l'offre et de la demande, les marchés sont, pour Fligstein, des **constructions sociales et politiques** — ils requièrent des règles de propriété, des normes de concurrence, des structures de gouvernance établies et défendues activement par des acteurs économiques et étatiques, qui cherchent à stabiliser leur position dominante en façonnant les règles du jeu marchand plutôt que de simplement les subir.
 
 **Viviana Zelizer** étudie la **sociologie de la monnaie** et de la consommation, montrant que l'argent, loin d'être un pur équivalent général neutre et interchangeable comme le postule la théorie économique classique, est en pratique constamment **différencié socialement** selon son origine et sa destination — l'argent gagné au travail, hérité, ou reçu en cadeau n'est ni dépensé ni géré de la même manière, malgré une valeur monétaire objectivement identique ; les ménages "étiquettent" mentalement et socialement des sommes d'argent pourtant fongibles (l'argent "des vacances", l'argent "des enfants") — phénomène que l'économie comportementale redécouvrira plus tard sous le nom de "comptabilité mentale".
 
+> [!tip] Méthode
+> Bien distinguer fongibilité économique (un euro vaut toujours un euro, peu importe sa provenance) et fongibilité sociale (l'euro "hérité" n'est pas traité comme l'euro "du salaire" dans les pratiques réelles des ménages). Zelizer montre que la seconde l'emporte souvent sur la première dans le comportement effectif — argument utile contre toute théorie qui suppose l'argent parfaitement interchangeable.
+
 ## Le nouvel esprit du capitalisme (Boltanski et Chiapello)
 
 Luc Boltanski et Ève Chiapello (*Le Nouvel Esprit du capitalisme*, 1999) analysent comment le capitalisme, système économique par ailleurs dénué de justification morale intrinsèque évidente pour ceux qui y participent, a besoin en permanence de mobiliser un **esprit** — un ensemble de justifications idéologiques qui rendent l'engagement dans le travail capitaliste désirable et légitime aux yeux des acteurs eux-mêmes.
 
 **Leur thèse centrale** : le capitalisme contemporain (à partir des années 1980-1990) a intégré et récupéré, à son propre profit, une partie des critiques qui lui avaient été adressées lors des mouvements de mai 1968 — en particulier la **critique artiste** (contre l'aliénation, la hiérarchie rigide, le manque d'autonomie et de créativité au travail). Le management moderne, en réponse, a promu de nouvelles valeurs (autonomie, projet, réseau, créativité, flexibilité) qui reprennent le vocabulaire même de la contestation soixante-huitarde, tout en le retournant au service d'une intensification et d'une précarisation accrues du travail — la "critique artiste" aurait ainsi été partiellement neutralisée en étant absorbée comme nouvel "esprit" légitimant du capitalisme flexible contemporain, tandis que la "critique sociale" plus classique (inégalités, exploitation) peinerait, selon les auteurs, à retrouver une prise équivalente.
+
+> [!important] Idée clé
+> Même logique que la critique foucaldienne du pouvoir qui "produit" plutôt qu'il ne réprime — voir [[Sociologie Politique#Pouvoir et domination : les trois grilles classiques|Sociologie Politique]] : le capitalisme n'écrase pas la contestation de 1968 par la force, il l'absorbe et la retourne en ressource de légitimation. Un système de pouvoir qui neutralise une critique en l'intégrant est souvent plus robuste qu'un système qui la réprime frontalement, car il désarme l'opposition sans produire de martyrs ni de ressentiment visible.
 
 ## La sociologie pragmatique française : les cités de Boltanski et Thévenot
 

@@ -42,6 +42,9 @@ date: "2026-02-22"
 - Projet utopique tardif
 - Remplacer religion traditionnelle par culte de l'Humanité
 
+> [!warning] Piège
+> Ne pas traiter la Religion de l'Humanité comme une lubie tardive sans rapport avec le "vrai" Comte scientifique. C'est la conséquence logique de son projet : si le stade positif remplace la religion comme mode d'explication du monde, il faut bien quelque chose pour remplir la fonction sociale unificatrice que la religion assurait (cf. plus tard [[Fondateurs/Émile Durkheim|Durkheim]] sur la fonction du sacré) — Comte tente d'y répondre lui-même plutôt que de laisser la question ouverte.
+
 ### Émile Durkheim (1858-1917)
 
 **Fondateur de la sociologie scientifique française:**
@@ -203,6 +206,9 @@ date: "2026-02-22"
 - Proche et lointain simultanément
 - Objectivité, mobilité
 
+> [!important] Idée clé
+> "L'étranger" chez Simmel n'est pas défini par un degré d'éloignement (un pur inconnu) mais par une combinaison précise : assez proche pour participer au groupe, assez extérieur pour ne pas être capturé par ses évidences. Cette position hybride explique pourquoi l'étranger reçoit souvent des confidences ou un rôle d'arbitre neutre — il n'est lié par aucune des loyautés internes du groupe. Préfigure la "force des liens faibles" de Granovetter (voir [[Grands Courants Théoriques#Sociologie des réseaux|Sociologie des réseaux]]) : la position structurale intermédiaire a une valeur informationnelle propre.
+
 **Métropole et vie mentale:**
 - Stimulation excessive → Attitude blasée
 - Anonymat urbain
@@ -210,4 +216,7 @@ date: "2026-02-22"
 **Influences:**
 - Microsociologie, interactionnisme symbolique
 - Goffman, École de Chicago
+
+> [!tip] Méthode
+> Simmel est le moins "canonique" des quatre ici mais c'est lui qui inaugure l'échelle d'analyse opposée à Durkheim et Marx : plutôt que d'étudier la société comme totalité (fait social, mode de production), il étudie les formes récurrentes de relation (conflit, échange, subordination) indépendamment de leur contenu concret. C'est cette bascule vers le micro-niveau, plus que ses concepts précis, qui fait de lui l'ancêtre direct de l'École de Chicago et de [[Fondateurs/Erving Goffman|Goffman]].
 

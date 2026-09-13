@@ -29,6 +29,9 @@ Constat le plus robuste et le plus constant de ce champ, vérifié dans la quasi
   hiérarchique diminue.
 ```
 
+> [!warning] Piège
+> Le point le plus contre-intuitif du gradient social n'est pas "les pauvres sont en moins bonne santé que les riches" (attendu) mais que l'effet est **continu sur toute la hiérarchie**, y compris entre catégories aisées et non pauvres au sens strict (cadres moyens vs cadres supérieurs, par exemple). Cela invalide une explication purement matérielle par le manque d'accès aux soins — Marmot en conclut que c'est le degré de contrôle sur ses conditions de vie et de travail, pas seulement le revenu, qui structure la santé.
+
 **Les mécanismes explicatifs** sont multiples et cumulatifs : accès inégal aux soins (même dans les systèmes à couverture universelle, à cause de la distance, du renoncement aux soins pour raisons financières indirectes, de la moindre familiarité avec les codes du système de santé), conditions de travail plus pénibles et plus exposées aux risques physiques dans les catégories populaires, habitudes de vie elles-mêmes socialement déterminées (alimentation, tabac, activité physique — dont la distribution sociale n'est pas un pur choix individuel mais reflète des contraintes économiques et culturelles), et **stress chronique** lié à l'insécurité économique et au manque de contrôle sur ses conditions de vie et de travail (thèse centrale des études de Marmot sur le gradient social).
 
 ## La médicalisation de la société
@@ -58,6 +61,9 @@ Michel Foucault (*Naissance de la clinique*, 1963) analyse historiquement l'éme
 
 **Débat sur la médicalisation** : le processus n'est pas univoque — il peut représenter un progrès réel (meilleure prise en charge de souffrances autrefois ignorées, comme la dépression ou le TDAH) autant qu'un risque de surdiagnostic, de dépendance excessive à l'expertise médicale, ou de dépolitisation de problèmes qui auraient aussi (ou plutôt) des causes sociales — la souffrance au travail, par exemple, médicalisée sous forme de burn-out individuel, peut masquer des causes organisationnelles et collectives qui appelleraient une réponse politique plutôt que seulement thérapeutique.
 
+> [!important] Idée clé
+> Ce dernier point est un cas particulier d'un mécanisme sociologique plus général : traiter comme un problème individuel (médical, psychologique) ce qui a des causes structurelles revient à dépolitiser la question — on soigne la personne plutôt que de transformer les conditions qui la rendent malade. Le même raisonnement s'applique ailleurs dans le vault chaque fois qu'un problème social est reformulé en défaillance individuelle.
+
 ## Le rôle de malade (Talcott Parsons)
 
 Talcott Parsons (*The Social System*, 1951) analyse la maladie non comme un simple fait biologique mais comme un **rôle social** régi par des droits et des obligations réciproques — voir [[Sociology/Grands Courants Théoriques#Fonctionnalisme|Fonctionnalisme]].
@@ -76,6 +82,9 @@ Erving Goffman (*Asiles*, 1961) applique le concept d'**institution totale** —
 ## Eliot Freidson et la profession médicale
 
 Eliot Freidson (*La Profession médicale*, 1970) analyse la médecine comme une **profession dominante**, caractérisée par un monopole légal sur la définition de la maladie et sa prise en charge, une forte autonomie professionnelle (contrôle du recrutement, de la formation et de l'évaluation par les pairs plutôt que par des instances extérieures) et un prestige social élevé qui la distingue des autres professions du soin (infirmières, aides-soignants), reléguées à un rôle subordonné dans la hiérarchie des professions de santé.
+
+> [!tip] Méthode
+> On peut relire Freidson avec le vocabulaire bourdieusien de champ (voir [[Sociology/Fondateurs/Pierre Bourdieu|Bourdieu]]) : la profession médicale fonctionne comme un champ qui détient le monopole de la définition légitime de la maladie, exactement comme le champ scientifique détient le monopole de la définition légitime du savoir — le "capital" en jeu est ici le diplôme et l'accréditation par les pairs.
 
 ## Représentations sociales de la maladie
 

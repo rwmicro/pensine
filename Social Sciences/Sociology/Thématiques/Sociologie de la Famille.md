@@ -13,6 +13,9 @@ La famille est l'institution la plus universellement présente dans les sociét�
 
 **Le mythe de la grande famille rurale préindustrielle** : une idée reçue, longtemps reprise même en sociologie, voulait que l'industrialisation ait fait éclater une "famille élargie" traditionnelle (plusieurs générations sous le même toit) en "famille nucléaire" isolée (parents et enfants seulement). Les travaux historiques (Peter Laslett, École de Cambridge) ont largement nuancé ce récit : la famille nucléaire résidentielle était déjà répandue en Europe occidentale bien avant l'industrialisation — ce qui change surtout, avec la modernisation, c'est la **fonction économique** de la famille (elle cesse d'être une unité de production agricole ou artisanale autosuffisante) et son rapport à l'État et au marché du travail.
 
+> [!warning] Piège
+> Ce mythe reste vivant en dehors de la sociologie — le discours politique sur le "retour aux valeurs familiales traditionnelles" présuppose souvent un âge d'or de la grande famille multigénérationnelle qui n'a, empiriquement, jamais été la norme statistique en Europe occidentale. Utile de le mentionner pour désamorcer un lieu commun avant même de discuter des transformations réelles de la famille.
+
 **La désinstitutionalisation** (François de Singly) : la famille contemporaine se caractérise par un affaiblissement du cadre institutionnel contraignant (mariage indissoluble, rôles fixés par la tradition, autorité patriarcale incontestée) au profit d'une **individualisation** croissante — chaque membre de la famille, y compris l'enfant, est de plus en plus reconnu comme un individu avec ses besoins et sa trajectoire propre, et non seulement comme l'occupant d'un rôle familial prédéfini. Singly parle de "familles relationnelles" : le lien familial se fonde de plus en plus sur la qualité de la relation vécue plutôt que sur l'obligation institutionnelle.
 
 ## Diversification des formes familiales
@@ -42,6 +45,9 @@ Malgré l'entrée massive des femmes sur le marché du travail salarié au cours
 
 **La charge mentale** : concept popularisé (notamment par la bande dessinée d'Emma, *Fallait demander*, 2017) mais théorisé antérieurement en sociologie, désignant le travail invisible d'anticipation, de planification et de coordination des tâches domestiques et parentales — souvent assumé de façon disproportionnée par les femmes, indépendamment même de la répartition de l'exécution matérielle des tâches.
 
+> [!important] Idée clé
+> Ne pas confondre avec la "double journée" ci-dessus : la double journée mesure un temps d'exécution (qui passe l'aspirateur, qui va chercher les enfants), la charge mentale mesure un travail cognitif antérieur et souvent invisible (savoir qu'il faut acheter du dentifrice, penser au rendez-vous médical). Un couple peut répartir équitablement l'exécution des tâches tout en laissant la charge mentale intégralement portée par un seul membre — c'est précisément ce que le concept permet de rendre visible.
+
 ## Socialisation familiale et transmission
 
 La famille est le principal **agent de socialisation primaire** (voir [[Sociology/Concepts Fondamentaux#Socialisation|Socialisation]]) : c'est en son sein que l'enfant acquiert son langage, ses premiers repères normatifs, son rapport initial au monde social. Bernard Lahire (*Enfances de classe*, 2019) montre, par une enquête massive, à quel point la classe sociale des parents façonne des dimensions très concrètes et précoces de la vie de l'enfant — langage, rythmes de sommeil, alimentation, exposition aux écrans, pratiques de loisirs — bien avant même l'entrée à l'école, où ces écarts précoces se traduiront en inégalités scolaires — voir [[Sociologie de l'Éducation]].
@@ -53,6 +59,9 @@ La famille est le principal **agent de socialisation primaire** (voir [[Sociolog
 **Du mariage institution au mariage électif** : le mariage, autrefois souvent arrangé par les familles pour des raisons économiques et sociales (alliance, transmission du patrimoine), devient progressivement, à partir du XVIIIe-XIXe siècle en Europe, un choix individuel fondé sur le sentiment amoureux — transformation qu'Anthony Giddens rattache à l'émergence de la "relation pure", fondée sur la seule satisfaction relationnelle mutuelle et donc, structurellement, plus fragile et révisable qu'un lien institutionnel contraignant.
 
 **La fragilisation du lien conjugal** : la hausse du divorce dans la plupart des sociétés occidentales depuis les années 1960-70 est souvent lue non comme un simple "déclin" moral de la famille, mais comme la conséquence logique de cette individualisation — un couple fondé sur le sentiment personnel plutôt que sur l'obligation institutionnelle est, par construction, moins durable dans le temps, tout en étant potentiellement plus satisfaisant tant qu'il dure.
+
+> [!tip] Méthode
+> Ce raisonnement est le même que celui d'Ulrich Beck sur l'individualisation — voir [[Sociology/Sociologues Contemporains#Ulrich Beck (1944-2015)|Beck]] : la hausse du divorce n'est pas un signe de "crise morale" mais la conséquence logique d'un mécanisme social plus large (le déclin des appartenances traditionnelles au profit de trajectoires individuelles) qui touche aussi bien la famille que le travail ou la religion.
 
 ## Auteurs de référence
 
