@@ -4,13 +4,12 @@
 
 Git suit l'historique d'un projet sous forme d'instantanés (*commits*). L'examen LFCS ne demande pas d'expertise Git, mais le flux de base : cloner, comparer des branches, fusionner, committer.
 
-**Modèle mental : trois zones.**
-
-```
-répertoire de travail  ──git add──►  index (staging)  ──git commit──►  dépôt (.git)
-(vos fichiers)                       (changements                      (historique
-                                      préparés)                         des commits)
-```
+> [!tip] Modèle mental : trois zones
+> ```
+> répertoire de travail  ──git add──►  index (staging)  ──git commit──►  dépôt (.git)
+> (vos fichiers)                       (changements                      (historique
+>                                       préparés)                         des commits)
+> ```
 
 Un fichier ne rejoint l'historique qu'après `git add` (le mettre en staging) **puis** `git commit`. C'est en deux temps : on choisit *quoi* committer, puis on committe.
 
@@ -40,11 +39,11 @@ git add logs/.keep
 git commit -m "added log directory"
 ```
 
-**Pièges** :
-- Un dossier vide n'est jamais committé — d'où l'astuce du fichier `.keep`.
-- `git merge` peut produire un *conflit* si les deux branches modifient les mêmes lignes ; il faut alors éditer, `git add`, puis `git commit`.
-- Vérifier l'état à tout moment avec `git status` et `git log --oneline --graph`.
-- `git config user.name`/`user.email` doivent être définis pour committer.
+> [!warning] Pièges
+> - Un dossier vide n'est jamais committé — d'où l'astuce du fichier `.keep`.
+> - `git merge` peut produire un *conflit* si les deux branches modifient les mêmes lignes ; il faut alors éditer, `git add`, puis `git commit`.
+> - Vérifier l'état à tout moment avec `git status` et `git log --oneline --graph`.
+> - `git config user.name`/`user.email` doivent être définis pour committer.
 
 ## Énoncé
 

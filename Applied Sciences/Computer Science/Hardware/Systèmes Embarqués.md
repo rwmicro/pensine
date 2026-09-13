@@ -21,6 +21,9 @@ Un système embarqué est un système informatique spécialisé, intégré dans 
 | **Interaction matérielle** | GPIO, ADC, DAC, bus (UART, SPI, I2C, CAN) |
 | **Absence d'OS complet** | Bare-metal ou RTOS léger |
 
+> [!important] Idée clé
+> Un RTOS ne garantit pas des réponses "rapides" mais des réponses **prévisibles dans un délai borné** — un OS généraliste (Linux) peut être en moyenne plus rapide qu'un RTOS, mais son pire cas n'est pas borné, ce qui le rend inutilisable pour du hard real-time (airbag, contrôle moteur) où le dépassement d'un délai est une défaillance, pas une lenteur.
+
 ## Architecture d'un microcontrôleur
 
 Un microcontrôleur (MCU) intègre sur une seule puce le processeur, la mémoire et les périphériques.
@@ -311,6 +314,12 @@ void vTask_LED(void *pvParameters) {
 
 // Stack overflow (très courant sur MCU avec RAM limitée)
 // → Activer configCHECK_FOR_STACK_OVERFLOW dans FreeRTOSConfig.h
+```
+
+> [!warning] Piège fréquent
+> Sur un MCU avec quelques dizaines de Ko de RAM, chaque tâche FreeRTOS réserve sa propre pile dès sa création — sous-dimensionner cette pile (pour économiser la RAM déjà rare) est la cause de bug la plus commune en embarqué, souvent silencieuse jusqu'à ce qu'un appel plus profond que d'habitude écrase la mémoire adjacente.
+
+```c
 void vApplicationStackOverflowHook(TaskHandle_t xTask, char *pcTaskName) {
     // Traiter l'erreur fatale
     __BKPT(0);   // breakpoint
@@ -351,3 +360,6 @@ HAL_IWDG_Refresh(&hiwdg);  // Rafraîchir régulièrement (sinon reset)
 | Communication interceptée | TLS mutuellement authentifié (mTLS) |
 | Side-channel (power analysis) | Masquage, implémentations constantes en temps |
 | Hardcoded credentials | Provisionnement individuel à la fabrication |
+
+> [!tip] Méthode de debug
+> Sur MCU, on ne peut pas juste "ajouter un print" comme en développement classique — la console série (UART) ou Segger RTT sont les seuls retours disponibles sans matériel de debug. Un sonde JTAG/SWD (ST-Link, J-Link) avec GDB reste le seul moyen d'inspecter l'état réel (registres, breakpoints) quand le comportement bare-metal diverge du code source.

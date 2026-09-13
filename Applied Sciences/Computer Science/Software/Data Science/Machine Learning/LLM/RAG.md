@@ -196,11 +196,13 @@ graph LR
 | Compétences comportementales | Non | Oui (format, ton, style) |
 | Connaissances factuelles | Oui | Risque de mémorisation erronée |
 
-**Règle pratique** : RAG pour les connaissances, fine-tuning pour les comportements.
+> [!tip] Règle pratique
+> RAG pour les connaissances, fine-tuning pour les comportements. Les deux se combinent : un modèle fine-tuné pour adopter un ton/format donné, alimenté par du RAG pour les faits à jour.
 
 ## Limitations
 
-- **Chunk-boundary problem** : une information coupée entre deux chunks peut ne jamais être récupérée entière
-- **Out-of-context** : si la réponse nécessite de raisonner sur l'ensemble du corpus (pas un seul passage)
-- **Qualité des embeddings** : un embedding faible produit un mauvais retrieval même avec un bon LLM
-- **Latence** : deux étapes (retrieve + generate) ajoutent de la latence
+> [!warning] Limitations
+> - **Chunk-boundary problem** : une information coupée entre deux chunks peut ne jamais être récupérée entière.
+> - **Out-of-context** : si la réponse nécessite de raisonner sur l'ensemble du corpus (pas un seul passage), le retrieval top-k ne suffit pas.
+> - **Qualité des embeddings** : un embedding faible produit un mauvais retrieval même avec un bon LLM — le goulot d'étranglement est souvent en amont du modèle de génération.
+> - **Latence** : deux étapes (retrieve + generate) ajoutent de la latence par rapport à une génération directe.

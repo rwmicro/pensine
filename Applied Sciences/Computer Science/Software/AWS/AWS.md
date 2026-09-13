@@ -12,6 +12,9 @@ date: "2026-02-16"
 
 Amazon Web Services est la plateforme cloud la plus complète et largement adoptée, offrant plus de 200 services couvrant calcul, stockage, bases de données, networking, ML, et plus encore.
 
+> [!important] Repère pour s'orienter
+> Ce fichier est une carte du territoire AWS, pas un manuel : chaque service listé ici a (ou devrait avoir) sa propre note détaillée — voir [[EC2]], [[Bucket S3]], [[IAM]], [[Lambda]], [[VPC]]. Utile pour retrouver rapidement le nom du bon service selon le besoin, pas pour apprendre à le configurer.
+
 ## Services fondamentaux
 
 ### Compute
@@ -180,6 +183,9 @@ Amazon Web Services est la plateforme cloud la plus complète et largement adopt
 - Pilot Light
 - Warm Standby
 - Multi-Region Active-Active
+
+> [!tip] Choisir sa stratégie de DR
+> Ces quatre options sont classées par RTO/coût croissant : Backup and Restore est le moins cher mais le plus lent à restaurer, Multi-Region Active-Active est quasi instantané mais double l'infrastructure et son coût en continu. Le bon choix dépend du RTO/RPO exigé par le métier, pas d'une préférence technique.
 
 ### Microservices
 - ECS/EKS pour containers

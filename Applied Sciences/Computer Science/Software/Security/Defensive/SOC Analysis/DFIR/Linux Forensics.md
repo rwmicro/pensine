@@ -10,6 +10,9 @@ date: 2026-03-22
 
 ## Ordre de volatilité et collecte initiale
 
+> [!important] Idée clé
+> L'ordre de collecte n'est pas arbitraire : il suit l'ordre de volatilité (RFC 3227) — la mémoire vive disparaît au premier redémarrage, les connexions réseau actives évoluent seconde par seconde, alors que le disque reste stable. Collecter dans le mauvais ordre (ex. éteindre la machine avant de dumper la RAM) détruit des preuves irrécupérables.
+
 ```bash
 # 1. Mémoire vive — capturer avant tout
 avml /tmp/memory.lime                     # AVML (Azure Volatile Memory Library)
@@ -230,6 +233,12 @@ cat /home/*/.zsh_history 2>/dev/null
 # Alternative — chercher des commandes dans les logs
 grep "sudo" /var/log/auth.log
 grep "CMD" /var/log/auth.log  # Commandes sudo
+```
+
+> [!warning] Piège fréquent
+> L'historique bash est trivial à effacer (`history -c`, `HISTFILE=/dev/null`) — son absence n'est pas une preuve d'innocence, c'est souvent un indicateur en soi. Toujours croiser avec les logs auth.log/journald (`sudo`, `CMD`) qui sont plus difficiles à purger sans laisser de trace de la purge elle-même.
+
+```bash
 
 # .viminfo — fichiers ouverts avec vim
 cat /root/.viminfo

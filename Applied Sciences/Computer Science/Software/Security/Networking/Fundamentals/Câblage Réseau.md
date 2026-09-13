@@ -62,6 +62,9 @@ Configuration :
 
 **Remarque** : les équipements modernes avec Auto-MDIX détectent automatiquement et ajustent, rendant le câble croisé souvent inutile.
 
+> [!warning] Piège fréquent
+> La distinction droit/croisé reste souvent enseignée comme une règle stricte alors qu'Auto-MDIX (standard sur le matériel depuis ~2010) la rend obsolète en pratique — un câble droit fonctionne aujourd'hui presque partout, y compris switch-à-switch. Utile à connaître pour un examen ou du matériel ancien, pas pour du câblage moderne.
+
 ### Câble console (Rollover)
 
 Câble série utilisé pour accéder à la console de configuration des équipements Cisco (routeurs, switches). Configuration inversée d'une extrémité à l'autre.
@@ -77,6 +80,9 @@ Câble série utilisé pour accéder à la console de configuration des équipem
 | Bande passante | Partagée | Dédiée par port |
 | Performance | Diminue avec le nombre d'équipements | Stable |
 | Usage actuel | Quasi-disparu | Standard |
+
+> [!important] Distinction clé
+> Le hub partage une seule bande passante et un seul domaine de collision entre tous ses ports — brancher plus de machines dessus ralentit tout le monde. Le switch isole chaque port dans son propre domaine de collision et n'envoie la trame qu'au bon port (grâce à sa table MAC) : ajouter des machines n'a quasiment pas d'impact sur les autres.
 
 ## Catégories de câbles UTP
 

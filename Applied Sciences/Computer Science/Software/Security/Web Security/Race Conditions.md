@@ -10,6 +10,9 @@ date: 2026-03-22
 
 Une race condition (ou TOCTOU — Time Of Check / Time Of Use) survient quand un système effectue plusieurs opérations en supposant qu'elles sont séquentielles, alors qu'elles peuvent être exécutées simultanément. En sécurité web, elles permettent souvent de contourner des vérifications métier ou des limites de ressources.
 
+> [!important] Idée clé
+> Le code n'a **aucun bug visible en lecture** — chaque étape prise isolément est correcte. La faille n'existe que dans la fenêtre temporelle entre la vérification et l'action, invisible sauf en pensant explicitement en termes de concurrence.
+
 ## Principe fondamental
 
 ```
@@ -57,6 +60,9 @@ def apply_promo(user_id, promo_code):
     return "Promo appliquée"
 ```
 
+> [!warning] Piège fréquent
+> `time.sleep(0.1)` ici sert seulement à rendre la fenêtre de vulnérabilité visible pour la démonstration — en production, la latence naturelle d'une requête base de données suffit largement à créer cette même fenêtre. Ne pas conclure "pas de sleep dans le code = pas de race condition possible".
+
 ### 2. Multi-step sequence racing
 
 Exploiter la fenêtre entre deux étapes d'un processus multi-étapes.
@@ -82,6 +88,9 @@ Solution HTTP/2 : multiplexer plusieurs requêtes dans un seul paquet TCP
 → Le serveur les reçoit et les traite véritablement simultanément
 → Fenêtre de race condition maximisée
 ```
+
+> [!tip] Pourquoi préférer le single-packet au multi-threading naïf
+> Des threads Python classiques (comme dans l'exemple `use_promo` plus bas) restent sujets au jitter réseau — les requêtes arrivent presque, mais pas exactement, en même temps, ce qui réduit le taux de succès sur des fenêtres de race très courtes. La technique single-packet élimine ce jitter en forçant le serveur à traiter les requêtes comme réellement simultanées.
 
 ## Exploitation avec Turbo Intruder (Burp Suite)
 

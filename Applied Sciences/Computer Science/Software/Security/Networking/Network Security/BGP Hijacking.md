@@ -84,6 +84,9 @@ AS666 annonce 54.239.25.0/24 (préfixe plus spécifique /24 > /16)
 → Tout le trafic vers ce /24 est redirigé vers AS666, même si l'AS_PATH est plus long
 ```
 
+> [!important] Pourquoi le more-specific hijack est imparable sans RPKI
+> La règle "préfixe le plus spécifique gagne" prime sur toutes les autres règles de sélection de route, y compris un AS_PATH plus court ou une meilleure réputation. Un attaquant n'a donc même pas besoin de manipuler l'AS_PATH ou de convaincre qui que ce soit — annoncer un sous-bloc suffit à capter le trafic de tous les AS qui ne valident pas l'origine (RPKI).
+
 #### 3. AS Path Manipulation
 
 ```
@@ -152,6 +155,9 @@ Fonctionnement :
   Invalid : préfixe/AS ne correspondent pas → rejeter
   NotFound : aucun ROA → politique locale (souvent accepté par défaut)
 ```
+
+> [!warning] Piège fréquent
+> RPKI ne protège que contre l'usurpation de l'**origine** (quel AS a le droit d'annoncer ce préfixe) — il ne vérifie rien sur le reste de l'AS_PATH. Un attaquant qui insère son propre AS légitimement en aval d'un AS autorisé (AS Path Manipulation) peut encore passer un contrôle RPKI Valid. C'est BGPsec, encore peu déployé, qui viserait à signer le chemin complet.
 
 ```bash
 # Vérifier le statut RPKI d'un préfixe

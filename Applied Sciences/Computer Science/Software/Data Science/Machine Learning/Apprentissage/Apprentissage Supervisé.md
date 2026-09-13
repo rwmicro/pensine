@@ -200,7 +200,10 @@ knn = KNeighborsClassifier(n_neighbors=5, metric='euclidean')
 knn.fit(X_train_scaled, y_train)
 ```
 
-**Hyperparamètres** : `k` (plus grand = frontière + lisse, risque underfitting), métrique de distance. **Normaliser** les features est essentiel (sinon les features à grande échelle dominent).
+**Hyperparamètres** : `k` (plus grand = frontière + lisse, risque underfitting), métrique de distance.
+
+> [!warning] Piège fréquent
+> k-NN et SVM reposent sur des **distances entre points** — sans normalisation, une feature à grande échelle (ex : revenu en euros, 0-100 000) écrase totalement une feature à petite échelle (ex : âge, 0-100) dans le calcul de distance, même si cette dernière est plus informative. Toujours standardiser avant d'utiliser ces algorithmes ; les modèles à base d'arbres (Random Forest, XGBoost) n'ont pas ce problème.
 
 ### Arbres de décision (Decision Trees)
 
@@ -293,7 +296,8 @@ $$P(y \mid x_1, \dots, x_n) \propto P(y) \prod_{i=1}^{n} P(x_i \mid y)$$
 - $P(x_i \mid y)$ : vraisemblance de chaque feature sachant la classe
 - On choisit la classe qui maximise ce produit
 
-**Pourquoi "naïve" ?** L'hypothèse d'indépendance est presque toujours fausse en pratique — dans un texte, les mots ne sont pas indépendants entre eux ("New" et "York" apparaissent ensemble bien plus souvent que par hasard. Pourtant l'algorithme reste étonnamment performant, en particulier en classification de texte, car ce qui compte pour classer correctement est souvent l'ordre de grandeur relatif entre classes, pas la probabilité exacte.
+> [!important] Pourquoi "naïve" ?
+> L'hypothèse d'indépendance est presque toujours fausse en pratique — dans un texte, les mots ne sont pas indépendants entre eux ("New" et "York" apparaissent ensemble bien plus souvent que par hasard). Pourtant l'algorithme reste étonnamment performant, en particulier en classification de texte, car ce qui compte pour classer correctement est souvent l'ordre de grandeur relatif entre classes, pas la probabilité exacte.
 
 ```mermaid
 graph LR
@@ -430,6 +434,9 @@ lgb_model = lgb.LGBMClassifier(
 | LDA | Interprétable, réduction de dimension supervisée incluse | Suppose des classes gaussiennes à covariance égale | Baseline gaussienne, prétraitement supervisé |
 | XGBoost/LGBM | Meilleur sur données tabulaires | Hyperparamètres nombreux | Compétitions Kaggle, données structurées |
 | Réseaux de neurones | Flexible, feature learning | Beaucoup de données, compute | Images, texte, séries temporelles |
+
+> [!tip] Méthode de choix rapide
+> Toujours commencer par un modèle simple et interprétable (régression logistique, arbre peu profond) comme baseline avant d'aller vers du plus complexe. Sur données tabulaires structurées, XGBoost/LightGBM bat presque toujours les réseaux de neurones à quantité de données égale — réserver le deep learning aux données non structurées (images, texte, séquences) ou aux très gros volumes.
 
 ## Pipeline ML pratique
 

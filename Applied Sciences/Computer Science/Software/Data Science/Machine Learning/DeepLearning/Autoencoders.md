@@ -35,7 +35,8 @@ graph LR
 **Fonction de perte :** erreur de reconstruction
 $$\mathcal{L} = ||x - \hat{x}||^2 = \sum_i (x_i - \hat{x}_i)^2$$
 
-Le réseau apprend les features les plus **importantes** pour pouvoir reconstruire — c'est une forme de **compression avec perte**.
+> [!important] Idée clé
+> Le réseau apprend les features les plus **importantes** pour pouvoir reconstruire — c'est une forme de **compression avec perte**. Le goulot d'étranglement (code latent plus petit que l'entrée) est ce qui force cet apprentissage : sans lui, le réseau pourrait simplement recopier l'entrée sans rien apprendre d'utile.
 
 ## Types d'autoencoders
 
@@ -137,7 +138,8 @@ La **KL Divergence** est cruciale : elle force l'espace latent à être **régul
 
 ### Le reparameterization trick
 
-Problème : l'échantillonnage $z \sim q(z|x)$ n'est **pas différentiable** — on ne peut pas rétro-propager.
+> [!warning] Pourquoi c'est nécessaire
+> L'échantillonnage $z \sim q(z|x)$ n'est **pas différentiable** — on ne peut pas rétro-propager à travers une opération aléatoire directement.
 
 Solution : réécrire l'échantillonnage comme :
 $$z = \mu + \sigma \odot \varepsilon, \quad \varepsilon \sim \mathcal{N}(0, I)$$
@@ -166,4 +168,5 @@ Le caractère aléatoire est isolé dans $\varepsilon$ (qui ne dépend pas des p
 | **Espace latent** | Structuré, interprétable | Non structuré |
 | **Évaluation** | ELBO (objectif clair) | Pas de métrique simple |
 
-> Les VAE produisent des images plus **floues** mais offrent un espace latent **structuré**. Les GAN produisent des images plus **nettes** mais sont plus difficiles à entraîner.
+> [!tip] Comment choisir
+> Besoin d'un espace latent exploitable pour interpoler, comparer ou contrôler des données → VAE. Besoin uniquement de la meilleure qualité visuelle possible, sans exploiter la structure de l'espace latent → GAN (ou diffusion, voir [[GAN|GAN vs Modèles de Diffusion]]).

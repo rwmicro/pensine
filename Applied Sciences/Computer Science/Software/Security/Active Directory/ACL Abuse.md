@@ -10,6 +10,9 @@ date: 2026-03-22
 
 Les ACL (Access Control Lists) d'Active Directory définissent qui peut faire quoi sur chaque objet. Des ACL mal configurées permettent à un utilisateur faiblement privilégié de prendre le contrôle d'objets sensibles (comptes admin, groupes, DC).
 
+> [!important] Idée clé
+> L'abus d'ACL n'exploite aucune faille logicielle — c'est une mauvaise configuration de permissions, souvent le chemin le plus court vers Domain Admin car il n'y a rien à patcher. C'est pour ça que BloodHound (qui cartographie ces droits) est souvent plus rentable qu'un scan de vulnérabilités classique.
+
 ## Concepts fondamentaux
 
 ```
@@ -208,11 +211,12 @@ Hardening :
 
 ## Pièges courants
 
-- **GenericAll ≠ GenericWrite** : GenericAll inclut tous les droits (modifier ACL, reset password, write properties). GenericWrite permet de modifier les propriétés mais pas l'ACL. Lire précisément ce que BloodHound annonce.
-- **WriteDACL est plus fort que WriteOwner** : avec WriteOwner, il faut d'abord changer le propriétaire (action loggée) puis modifier l'ACL. WriteDACL fait l'ACL directement.
-- **Targeted Kerberoasting trahi par le SPN** : ajouter un SPN à un user, faire Kerberoast, puis OUBLIER de retirer le SPN = trace évidente d'attaque. Toujours `Set-DomainObject -Clear serviceprincipalname` après.
-- **Reset de mot de passe = casse l'utilisateur** : changer le mot de passe d'un compte actif fait perdre l'accès au légitime utilisateur, qui appelle le helpdesk dans l'heure. Bruit max. Préférer Shadow Credentials, qui passe inaperçu.
-- **ACL héritées** : un objet hérite des ACL de son OU parent par défaut. Modifier l'ACL d'une OU = effet en cascade sur tous les objets. Très puissant mais très bruyant.
-- **AdminSDHolder** : les comptes "protégés" (Domain Admins, etc.) ont leurs ACL réécrites toutes les 60 minutes depuis l'AdminSDHolder. Modifier l'ACL d'un Domain Admin directement = sera annulé. Modifier AdminSDHolder = persistance discrète mais détectable.
-- **BloodHound ne reflète que ce qu'il a collecté** : si la collecte SharpHound était partielle (filtre OU, manque session), des chemins existent mais sont invisibles. Toujours `-c All` pour la collecte complète.
-- **PowerView vs PowerView_dev** : deux versions co-existent. Les cmdlets diffèrent (`Get-NetUser` vs `Get-DomainUser`). Beaucoup de tutos mélangent. Utiliser PowerView_dev (PowerSploit moderne).
+> [!warning] Pièges courants
+> - **GenericAll ≠ GenericWrite** : GenericAll inclut tous les droits (modifier ACL, reset password, write properties). GenericWrite permet de modifier les propriétés mais pas l'ACL. Lire précisément ce que BloodHound annonce.
+> - **WriteDACL est plus fort que WriteOwner** : avec WriteOwner, il faut d'abord changer le propriétaire (action loggée) puis modifier l'ACL. WriteDACL fait l'ACL directement.
+> - **Targeted Kerberoasting trahi par le SPN** : ajouter un SPN à un user, faire Kerberoast, puis OUBLIER de retirer le SPN = trace évidente d'attaque. Toujours `Set-DomainObject -Clear serviceprincipalname` après.
+> - **Reset de mot de passe = casse l'utilisateur** : changer le mot de passe d'un compte actif fait perdre l'accès au légitime utilisateur, qui appelle le helpdesk dans l'heure. Bruit max. Préférer Shadow Credentials, qui passe inaperçu.
+> - **ACL héritées** : un objet hérite des ACL de son OU parent par défaut. Modifier l'ACL d'une OU = effet en cascade sur tous les objets. Très puissant mais très bruyant.
+> - **AdminSDHolder** : les comptes "protégés" (Domain Admins, etc.) ont leurs ACL réécrites toutes les 60 minutes depuis l'AdminSDHolder. Modifier l'ACL d'un Domain Admin directement = sera annulé. Modifier AdminSDHolder = persistance discrète mais détectable.
+> - **BloodHound ne reflète que ce qu'il a collecté** : si la collecte SharpHound était partielle (filtre OU, manque session), des chemins existent mais sont invisibles. Toujours `-c All` pour la collecte complète.
+> - **PowerView vs PowerView_dev** : deux versions co-existent. Les cmdlets diffèrent (`Get-NetUser` vs `Get-DomainUser`). Beaucoup de tutos mélangent. Utiliser PowerView_dev (PowerSploit moderne).

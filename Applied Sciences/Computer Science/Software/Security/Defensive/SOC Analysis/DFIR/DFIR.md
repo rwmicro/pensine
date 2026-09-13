@@ -10,6 +10,9 @@ date: "2025-02-15"
 
 Le DFIR regroupe deux disciplines complémentaires : la **réponse à incident** (contenir et éradiquer une menace active) et la **forensique numérique** (analyser les preuves numériques après coup). En pratique, elles se chevauchent : l'analyste collecte des preuves pendant la réponse.
 
+> [!important] Idée clé
+> Répondre vite (isoler, éradiquer) et préserver les preuves (copies forensiques, chaîne de custody) sont deux objectifs qui peuvent se contredire — redémarrer une machine pour la nettoyer détruit la mémoire vive. La discipline DFIR consiste précisément à séquencer les deux sans sacrifier l'un pour l'autre.
+
 ## Phases d'une réponse à incident
 
 Le cadre le plus utilisé est celui du NIST (SP 800-61) :
@@ -157,3 +160,6 @@ psort.py -o dynamic timeline.plaso "date > '2024-01-01' AND date < '2024-02-01'"
 ```
 
 Les horodatages NTFS (Windows) se décomposent en quatre timestamps par fichier : `$STANDARD_INFORMATION` (visible) et `$FILE_NAME` (plus difficile à manipuler). Une discordance entre les deux peut indiquer un **timestomping** (manipulation des horodatages par un attaquant).
+
+> [!warning] Piège fréquent
+> Un attaquant qui modifie les timestamps visibles (`$STANDARD_INFORMATION`, via des outils comme `timestomp`) laisse presque toujours `$FILE_NAME` intact, car ce second jeu de timestamps est plus difficile d'accès. Ne vérifier que les dates affichées par l'explorateur (`$STANDARD_INFORMATION`) fait rater ces manipulations.

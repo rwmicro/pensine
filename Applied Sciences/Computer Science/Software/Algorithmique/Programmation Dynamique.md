@@ -18,6 +18,9 @@ Un problème est soluble par DP s'il possède deux propriétés :
 
 **Sous-structure optimale** : la solution optimale du problème se construit à partir des solutions optimales de ses sous-problèmes.
 
+> [!important] Distinction clé
+> Diviser-pour-régner (tri fusion, Karatsuba) et DP partagent la sous-structure optimale, mais diffèrent sur les sous-problèmes : indépendants dans un cas (pas de cache utile), chevauchants dans l'autre (le cache change tout). Si les sous-problèmes ne se répètent jamais, la mémoïsation n'apporte rien.
+
 ## Approches
 
 ### Mémoïsation (top-down)
@@ -244,12 +247,16 @@ print(edit_distance("kitten", "sitting"))  # 3
 
 ## Méthode générale pour résoudre un problème DP
 
-1. Identifier si le problème a des sous-problèmes chevauchants et une sous-structure optimale
-2. Définir l'état : qu'est-ce que dp[i] (ou dp[i][j]) représente ?
-3. Écrire la relation de récurrence
-4. Identifier les cas de base
-5. Choisir top-down ou bottom-up
-6. Optimiser l'espace si possible (souvent un tableau 1D suffit au lieu de 2D)
+> [!tip] Démarche en 6 étapes
+> 1. Identifier si le problème a des sous-problèmes chevauchants et une sous-structure optimale
+> 2. Définir l'état : qu'est-ce que dp[i] (ou dp[i][j]) représente ?
+> 3. Écrire la relation de récurrence
+> 4. Identifier les cas de base
+> 5. Choisir top-down ou bottom-up
+> 6. Optimiser l'espace si possible (souvent un tableau 1D suffit au lieu de 2D)
+
+> [!warning] Piège fréquent
+> La majorité des bugs en DP viennent d'une définition d'état imprécise (étape 2) ou de cas de base oubliés (étape 4) — pas de la récurrence elle-même. Avant de coder, vérifier que l'état dp[i] a une signification unique et non ambiguë (ex : "valeur max" ou "nombre de façons", pas les deux à la fois).
 
 ## Problèmes classiques supplémentaires
 

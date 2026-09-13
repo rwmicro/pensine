@@ -129,7 +129,12 @@ FROM commandes
 GROUP BY client_id
 HAVING SUM(total) > 500
 ORDER BY total_achats DESC;
+```
 
+> [!important] WHERE vs HAVING
+> WHERE filtre les lignes **avant** le regroupement (il ne peut donc pas référencer un agrégat comme `SUM(total)`) ; HAVING filtre les groupes **après** agrégation. Utiliser WHERE quand c'est possible : filtrer tôt réduit le nombre de lignes à agréger, donc plus rapide que filtrer après coup avec HAVING.
+
+```sql
 -- Fonctions de fenêtrage (Window Functions)
 SELECT
     nom,
@@ -515,4 +520,5 @@ SELECT REGEXP_REPLACE(telephone, '[^0-9]', '', 'g') AS tel_propre FROM clients;
 8. LIMIT/OFFSET — paginer
 ```
 
-Comprendre cet ordre explique pourquoi on ne peut pas utiliser un alias de SELECT dans un WHERE (l'alias n'est pas encore calculé à ce stade).
+> [!warning] Piège fréquent
+> Comprendre cet ordre explique pourquoi on ne peut pas utiliser un alias de SELECT dans un WHERE (l'alias n'est pas encore calculé à ce stade) — mais qu'on peut l'utiliser dans ORDER BY (calculé après SELECT). La même logique explique pourquoi WHERE ne peut pas filtrer sur un agrégat alors que HAVING le peut.

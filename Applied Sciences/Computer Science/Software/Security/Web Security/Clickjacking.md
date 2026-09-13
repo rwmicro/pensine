@@ -10,6 +10,9 @@ date: 2026-03-22
 
 Le clickjacking (ou UI redressing) est une attaque qui trompe l'utilisateur en lui faisant cliquer sur des éléments d'une page qu'il ne voit pas, superposés sous une interface apparemment anodine.
 
+> [!important] Différence avec le XSS et le CSRF
+> Le clickjacking n'injecte aucun code et ne forge aucune requête forgée à distance — il détourne une **action légitime que la victime authentifiée effectue elle-même**, via un vrai clic sur le vrai site cible (caché dans l'iframe). C'est une attaque de confiance visuelle, pas d'injection de données.
+
 ## Principe
 
 ```html
@@ -77,10 +80,11 @@ Exploite les événements drag-and-drop pour faire glisser du contenu sensible (
 
 ## Conditions requises
 
-Pour qu'une page soit vulnérable au clickjacking :
-1. La cible doit être embeddable dans un `<iframe>` (pas de `X-Frame-Options`)
-2. L'action sensible ne doit pas nécessiter de saisie clavier
-3. L'action sensible doit être possible depuis un compte authentifié (cookies envoyés dans l'iframe)
+> [!tip] Checklist rapide de vulnérabilité
+> Pour qu'une page soit vulnérable au clickjacking, les trois conditions doivent être réunies :
+> 1. La cible doit être embeddable dans un `<iframe>` (pas de `X-Frame-Options`)
+> 2. L'action sensible ne doit pas nécessiter de saisie clavier
+> 3. L'action sensible doit être possible depuis un compte authentifié (cookies envoyés dans l'iframe)
 
 ## Test de vulnérabilité
 
@@ -184,6 +188,9 @@ if (top !== self) {
 <iframe src="cible.com" sandbox="allow-scripts">
 // allow-scripts sans allow-top-navigation → le frame busting échoue
 ```
+
+> [!warning] Piège fréquent
+> Le frame busting JavaScript donne une impression de protection mais se contourne trivialement (attribut `sandbox`, désactivation JS, ou simplement en interceptant l'événement `beforeunload`). Les seules protections fiables sont côté serveur : en-têtes `X-Frame-Options` ou `Content-Security-Policy: frame-ancestors`.
 
 ### Attribut sandbox (côté intégrateur)
 

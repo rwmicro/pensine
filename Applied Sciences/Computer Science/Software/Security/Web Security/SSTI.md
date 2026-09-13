@@ -5,10 +5,12 @@ subdomain: informatique / sécurité / web
 tags: [ssti, template-injection, rce, jinja2, twig, web, sécurité]
 date: 2026-03-22
 ---
-
-# SSTI — Server-Side Template Injection
+# SSTI - Server-Side Template Injection
 
 Le Server-Side Template Injection (SSTI) survient quand une entrée utilisateur est directement concaténée dans un template avant son rendu, au lieu d'être passée comme variable. Il peut mener à de l'exécution de code arbitraire (RCE) sur le serveur.
+
+> [!important] Distinction clé
+> Une injection SQL exploite une syntaxe de requête ; une SSTI exploite un **langage de template Turing-complet**, capable de naviguer dans l'arbre d'objets du langage hôte (`__class__`, `__globals__`...). C'est pour ça que l'impact va souvent jusqu'au RCE complet, alors qu'une simple injection dans du HTML "s'arrêterait" à du XSS.
 
 ## Principe
 
@@ -20,7 +22,7 @@ def greet():
     template = f"Bonjour {name} !"           # ← Concaténation directe
     return render_template_string(template)   # ← name est rendu comme du code Jinja2
 
-# Code SÛRET — name est une variable, pas du code
+# Code SÛR — name est une variable, pas du code
 @app.route("/greet")
 def greet():
     name = request.args.get("name")
@@ -32,6 +34,11 @@ def greet():
 # Si l'URL /greet?name={{7*7}} retourne "Bonjour 49 !"
 # → Le moteur de template interprète l'expression → SSTI confirmé
 ```
+
+> [!tip] Méthode générale de détection
+> 1. Injecter une expression mathématique inoffensive (`{{7*7}}`, `${7*7}`...) dans chaque point d'entrée (paramètres, headers, cookies).
+> 2. Si le résultat calculé (`49`) apparaît dans la réponse, le moteur interprète l'entrée comme du code.
+> 3. Affiner avec un test différenciant (`{{7*'7'}}`) pour identifier précisément le moteur avant de choisir un payload d'exploitation.
 
 ## Arbre de décision pour identifier le moteur
 
@@ -191,6 +198,9 @@ python tplmap.py -u "https://site.com/greet?name=*"
 ```
 
 ## Contre-mesures
+
+> [!warning] Piège fréquent
+> Échapper les guillemets ou filtrer quelques mots-clés (`class`, `mro`, `subclasses`) ne suffit pas — comme le montre la section "Bypass de filtres" ci-dessus, l'attaquant peut réécrire l'accès via l'encodage ou les dictionnaires. La seule protection fiable est de **ne jamais laisser une entrée utilisateur devenir du code de template** : elle doit toujours être passée comme variable, jamais concaténée dans la chaîne du template elle-même.
 
 ```python
 # Ne JAMAIS interpoler des données utilisateur dans un template string

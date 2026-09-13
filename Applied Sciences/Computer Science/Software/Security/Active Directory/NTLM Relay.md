@@ -10,6 +10,9 @@ date: 2026-03-23
 
 Le NTLM relay consiste à relayer une authentification NTLM capturée vers un autre service pour s'y authentifier sans connaître le mot de passe. C'est l'une des attaques les plus dévastatrices en environnement Active Directory, pouvant mener directement au compromis du domaine.
 
+> [!important] Distinction clé
+> Le relay NTLM ne casse rien et ne vole aucun hash à cracker — l'attaquant se contente de se placer au milieu d'une authentification en cours et de la retransmettre en temps réel vers une cible différente de celle prévue par la victime. C'est le SMB Signing (ou l'EPA côté HTTP/LDAP) qui empêche ce détournement, pas la force du mot de passe.
+
 ## Rappel du protocole NTLM
 
 ```
@@ -241,14 +244,15 @@ Détection :
 
 ## Pièges courants
 
-- **NTLM Relay vs Pass-the-Hash — différence cruciale** : Pass-the-Hash réutilise un hash NTLM connu pour s'authentifier. NTLM Relay **n'a pas besoin du hash** — on intercepte et on relaie l'auth en temps réel vers une cible. Pas de cracking, pas de hash extrait.
-- **SMB Signing requis = relay vers SMB impossible** : Windows 10/11 client a SMB Signing requis par défaut. Les Servers, généralement non. Toujours `nxc smb 192.168.1.0/24 --gen-relay-list` pour identifier les cibles vulnérables avant de lancer Responder.
-- **Désactiver SMB et HTTP dans Responder.conf** : sinon Responder gère lui-même les sessions et ne les relaie pas. Erreur classique qui fait que ntlmrelayx ne reçoit rien.
-- **Relay vers le même hôte = impossible** : on ne peut pas relayer une auth de `host-A` vers `host-A` lui-même (Microsoft a patché ça avec MS08-068). Le relai ne marche qu'entre hôtes différents.
-- **EPA bloque le relay HTTP → LDAPS** : Extended Protection for Authentication lie l'authentification au canal TLS. Si activée sur LDAPS ou ADCS, le relay HTTPS échoue. Vérifier dans IIS / paramètres Exchange.
-- **mitm6 fait des dégâts** : redirige tout le DNS IPv6 du réseau → casse les apps qui utilisent IPv6 (Microsoft Teams, Edge, certains services internes). À ne pas laisser tourner en continu sur un grand réseau.
-- **Comptes machines (ne finissant pas par $) vs Comptes user** : un relay réussi avec un compte machine donne un shell SYSTEM sur la cible. Avec un compte user admin local, idem. Avec un compte user non-admin, on n'a que les droits limités du user.
-- **PetitPotam patché partiellement** : la version sans creds (anonyme) ne marche plus sur Windows récents. Mais avec un compte de base du domaine, ça marche encore. Bug de "feature", pas de "code".
-- **ntlmrelayx `--target-port` pour les services non-standards** : si l'auth tombe sur un AD CS sur port 8443 au lieu de 443, sans `--target-port 8443`, ça échoue silencieusement. Bien spécifier.
-- **`-c` pour exécution de commande, `-e` pour script** : confusion classique des options. `-c "powershell ..."` exécute une commande shell. `-e payload.exe` exécute un binaire local sur la cible relayée. Lire la sortie.
-- **Drop the MIC (CVE-2019-1040)** : permet de bypass le MIC (Message Integrity Check) NTLM, donc relay même sur des services protégés. À tester systématiquement avec `--remove-mic`.
+> [!warning] Pièges courants
+> - **NTLM Relay vs Pass-the-Hash — différence cruciale** : Pass-the-Hash réutilise un hash NTLM connu pour s'authentifier. NTLM Relay **n'a pas besoin du hash** — on intercepte et on relaie l'auth en temps réel vers une cible. Pas de cracking, pas de hash extrait.
+> - **SMB Signing requis = relay vers SMB impossible** : Windows 10/11 client a SMB Signing requis par défaut. Les Servers, généralement non. Toujours `nxc smb 192.168.1.0/24 --gen-relay-list` pour identifier les cibles vulnérables avant de lancer Responder.
+> - **Désactiver SMB et HTTP dans Responder.conf** : sinon Responder gère lui-même les sessions et ne les relaie pas. Erreur classique qui fait que ntlmrelayx ne reçoit rien.
+> - **Relay vers le même hôte = impossible** : on ne peut pas relayer une auth de `host-A` vers `host-A` lui-même (Microsoft a patché ça avec MS08-068). Le relai ne marche qu'entre hôtes différents.
+> - **EPA bloque le relay HTTP → LDAPS** : Extended Protection for Authentication lie l'authentification au canal TLS. Si activée sur LDAPS ou ADCS, le relay HTTPS échoue. Vérifier dans IIS / paramètres Exchange.
+> - **mitm6 fait des dégâts** : redirige tout le DNS IPv6 du réseau → casse les apps qui utilisent IPv6 (Microsoft Teams, Edge, certains services internes). À ne pas laisser tourner en continu sur un grand réseau.
+> - **Comptes machines (ne finissant pas par $) vs Comptes user** : un relay réussi avec un compte machine donne un shell SYSTEM sur la cible. Avec un compte user admin local, idem. Avec un compte user non-admin, on n'a que les droits limités du user.
+> - **PetitPotam patché partiellement** : la version sans creds (anonyme) ne marche plus sur Windows récents. Mais avec un compte de base du domaine, ça marche encore. Bug de "feature", pas de "code".
+> - **ntlmrelayx `--target-port` pour les services non-standards** : si l'auth tombe sur un AD CS sur port 8443 au lieu de 443, sans `--target-port 8443`, ça échoue silencieusement. Bien spécifier.
+> - **`-c` pour exécution de commande, `-e` pour script** : confusion classique des options. `-c "powershell ..."` exécute une commande shell. `-e payload.exe` exécute un binaire local sur la cible relayée. Lire la sortie.
+> - **Drop the MIC (CVE-2019-1040)** : permet de bypass le MIC (Message Integrity Check) NTLM, donc relay même sur des services protégés. À tester systématiquement avec `--remove-mic`.

@@ -66,6 +66,9 @@ graph LR
     style DEP fill:#4CAF50,color:#fff
 ```
 
+> [!warning] Piège fréquent
+> Le split train/test (étape 4) doit se faire **avant** tout `fit` de scaler/encoder du prétraitement (étape 3) — inverser l'ordre laisse fuiter des statistiques du test set dans l'entraînement, un data leakage discret qui gonfle artificiellement les métriques de validation (voir [[Feature Engineering et Prétraitement]]).
+
 | Étape | Ce qu'il faut faire | Note détaillée |
 |---|---|---|
 | 1-2. Problème & données | Définir la tâche, la métrique de succès, collecter suffisamment de données de qualité | — |
@@ -154,12 +157,13 @@ Pour les grands modèles de langage spécifiquement, voir le dossier `LLM/` : [[
 
 ## Bonnes pratiques
 
-1. **Toujours splitter les données** (train/validation/test) avant tout prétraitement
-2. **Fit le scaler/encoder uniquement sur le train**, jamais sur le test (data leakage — voir [[Feature Engineering et Prétraitement]])
-3. **Commencer simple** — un modèle baseline avant d'optimiser
-4. **Cross-valider** pour une estimation robuste de la performance
-5. **Surveiller les métriques adaptées à la tâche**, pas seulement l'accuracy (voir [[Métriques d'Évaluation]])
-6. **Documenter et versionner** — code (Git), données (DVC), expériences (MLflow, Weights & Biases)
+> [!tip] Bonnes pratiques
+> 1. **Toujours splitter les données** (train/validation/test) avant tout prétraitement.
+> 2. **Fit le scaler/encoder uniquement sur le train**, jamais sur le test (data leakage — voir [[Feature Engineering et Prétraitement]]).
+> 3. **Commencer simple** — un modèle baseline avant d'optimiser.
+> 4. **Cross-valider** pour une estimation robuste de la performance.
+> 5. **Surveiller les métriques adaptées à la tâche**, pas seulement l'accuracy (voir [[Métriques d'Évaluation]]).
+> 6. **Documenter et versionner** — code (Git), données (DVC), expériences (MLflow, Weights & Biases).
 
 ## Déploiement de modèles
 

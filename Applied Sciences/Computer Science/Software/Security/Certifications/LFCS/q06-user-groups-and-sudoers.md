@@ -24,9 +24,9 @@ user1:x:1001:1001::/home/accounts/user1:/bin/bash
   └ nom d'utilisateur
 ```
 
-**Groupe principal vs groupes secondaires** — la distinction clé :
-- **Principal** (champ GID de `/etc/passwd`) : un seul, c'est le groupe propriétaire des fichiers que l'utilisateur crée. Changé avec `usermod -g`.
-- **Secondaires** (listés dans `/etc/group`) : autant qu'on veut, pour donner des droits supplémentaires. Définis avec `usermod -G` (remplace la liste) ou `usermod -aG` (**a**joute sans écraser — le `-a` est vital, l'oublier vide les autres groupes).
+> [!important] Groupe principal vs groupes secondaires — la distinction clé
+> - **Principal** (champ GID de `/etc/passwd`) : un seul, c'est le groupe propriétaire des fichiers que l'utilisateur crée. Changé avec `usermod -g`.
+> - **Secondaires** (listés dans `/etc/group`) : autant qu'on veut, pour donner des droits supplémentaires. Définis avec `usermod -G` (remplace la liste) ou `usermod -aG` (**a**joute sans écraser — le `-a` est vital, l'oublier vide les autres groupes).
 
 **Les commandes (préférer aux édits manuels) :**
 ```bash
@@ -47,11 +47,11 @@ user2  ALL=(root) NOPASSWD: /bin/bash /root/dangerous.sh
   └ à qui s'applique la règle (un %nom = un groupe)
 ```
 
-**Pièges** :
-- **Toujours éditer sudoers avec `visudo`**, jamais avec `vim` : `visudo` valide la syntaxe avant d'enregistrer. Une faute dans `/etc/sudoers` peut bloquer tout accès root définitivement.
-- Mieux que toucher `/etc/sudoers` : déposer un fichier dans `/etc/sudoers.d/` (`visudo -f /etc/sudoers.d/user2`).
-- `usermod -G` **sans** `-a` retire l'utilisateur de tous ses autres groupes secondaires.
-- Une règle sudoers doit pointer la commande **exactement** comme elle sera tapée (chemin absolu inclus), sinon elle ne s'applique pas.
+> [!warning] Pièges
+> - **Toujours éditer sudoers avec `visudo`**, jamais avec `vim` : `visudo` valide la syntaxe avant d'enregistrer. Une faute dans `/etc/sudoers` peut bloquer tout accès root définitivement.
+> - Mieux que toucher `/etc/sudoers` : déposer un fichier dans `/etc/sudoers.d/` (`visudo -f /etc/sudoers.d/user2`).
+> - `usermod -G` **sans** `-a` retire l'utilisateur de tous ses autres groupes secondaires.
+> - Une règle sudoers doit pointer la commande **exactement** comme elle sera tapée (chemin absolu inclus), sinon elle ne s'applique pas.
 
 ## Énoncé
 

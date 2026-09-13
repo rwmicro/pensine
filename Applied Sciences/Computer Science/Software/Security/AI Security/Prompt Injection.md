@@ -10,6 +10,9 @@ date: 2026-03-22
 
 Les Large Language Models (LLMs) introduisent de nouvelles surfaces d'attaque. L'injection de prompt est la vulnérabilité la plus répandue : un attaquant manipule le modèle pour ignorer ses instructions système ou exécuter des actions non autorisées. L'OWASP LLM Top 10 recense les risques principaux.
 
+> [!important] Idée clé
+> Un LLM ne distingue pas structurellement "instructions" et "données" — tout est du texte dans le même contexte. Contrairement à une injection SQL qui exploite un bug de parsing, l'injection de prompt exploite une limite fondamentale de l'architecture actuelle des LLMs : c'est pour ça qu'il n'existe pas de correctif définitif, seulement des atténuations en profondeur.
+
 ## OWASP LLM Top 10
 
 | # | Vulnérabilité | Description |
@@ -78,6 +81,9 @@ for payload in INJECTION_PAYLOADS:
 ## Injection de Prompt Indirecte
 
 Le contenu externe (pages web, fichiers, emails) contient des instructions qui sont traitées par le LLM comme des commandes.
+
+> [!warning] Piège fréquent
+> L'injection indirecte est plus dangereuse que la directe car la victime n'est pas l'attaquant : c'est l'utilisateur légitime qui déclenche l'attaque sans le savoir, simplement en demandant au LLM de résumer un document ou une page web compromise. Auditer "que peut faire mon agent" ne suffit pas — il faut aussi auditer "quelles sources non fiables mon agent lit-il".
 
 ```
 Scénario — Agent LLM avec accès au web :

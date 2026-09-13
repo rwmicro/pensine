@@ -156,7 +156,8 @@ Start-Process "C:\Windows\System32\computerdefaults.exe"
 Akagi64.exe 23 C:\Temp\reverse.exe
 ```
 
-**Pourquoi ces binaires précis** : `fodhelper.exe` et `computerdefaults.exe` sont auto-elevate sans prompt. Ils consultent `HKCU\...\ms-settings\Shell\Open\command` au démarrage → on y injecte notre commande, qui s'exécute en High Integrity.
+> [!tip] Pourquoi ces binaires précis
+> `fodhelper.exe` et `computerdefaults.exe` sont auto-elevate sans prompt. Ils consultent `HKCU\...\ms-settings\Shell\Open\command` au démarrage → on y injecte notre commande, qui s'exécute en High Integrity.
 
 ## Services mal configurés
 
@@ -319,13 +320,12 @@ Si `SeLoadDriverPrivilege` est dispo, on peut charger un driver signé mais vuln
 
 Référence : loldrivers.io — catalogue de drivers vulnérables signés.
 
-## Pièges courants
-
-- **`whoami /priv` montre les privilèges "désactivés"** : un privilège listé n'est pas forcément actif. `SeImpersonate` Disabled = inutile en l'état. Mais souvent il suffit de l'activer en code.
-- **Potato attacks ne marchent plus partout** : JuicyPotato (original) ne marche pas sur Server 2019+. Utiliser PrintSpoofer/GodPotato selon la version. GodPotato est le plus universel aujourd'hui.
-- **AccessChk demande EULA** : `accesschk.exe /accepteula` au premier lancement. Sinon il bloque.
-- **Defender détecte tous les outils standards** : winPEAS, mimikatz, SharpDPAPI sont signés rouge. Versions obfusquées disponibles (winPEAS-ofs), ou compiler depuis sources avec strings modifiées.
-- **`runas /savecred` nécessite que le cred soit déjà stocké par l'utilisateur** : sinon on a juste un prompt mot de passe.
-- **WiFi en clair** marche aussi sans admin → check rapide en early enum.
-- **UAC bypass via registre peut être journalisé** par les EDR modernes : Defender ATP, CrowdStrike détectent les modifs `ms-settings` suspectes. UACME a des techniques plus furtives.
-- **Le bit High Integrity ne suffit pas pour DCSync** : il faut être Domain Admin (ou avoir l'ACL spécifique). High Integrity local ≠ Domain Admin.
+> [!warning] Pièges courants
+> - **`whoami /priv` montre les privilèges "désactivés"** : un privilège listé n'est pas forcément actif. `SeImpersonate` Disabled = inutile en l'état. Mais souvent il suffit de l'activer en code.
+> - **Potato attacks ne marchent plus partout** : JuicyPotato (original) ne marche pas sur Server 2019+. Utiliser PrintSpoofer/GodPotato selon la version. GodPotato est le plus universel aujourd'hui.
+> - **AccessChk demande EULA** : `accesschk.exe /accepteula` au premier lancement. Sinon il bloque.
+> - **Defender détecte tous les outils standards** : winPEAS, mimikatz, SharpDPAPI sont signés rouge. Versions obfusquées disponibles (winPEAS-ofs), ou compiler depuis sources avec strings modifiées.
+> - **`runas /savecred` nécessite que le cred soit déjà stocké par l'utilisateur** : sinon on a juste un prompt mot de passe.
+> - **WiFi en clair** marche aussi sans admin → check rapide en early enum.
+> - **UAC bypass via registre peut être journalisé** par les EDR modernes : Defender ATP, CrowdStrike détectent les modifs `ms-settings` suspectes. UACME a des techniques plus furtives.
+> - **Le bit High Integrity ne suffit pas pour DCSync** : il faut être Domain Admin (ou avoir l'ACL spécifique). High Integrity local ≠ Domain Admin.

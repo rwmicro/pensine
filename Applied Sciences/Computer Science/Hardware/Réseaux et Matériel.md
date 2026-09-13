@@ -38,6 +38,9 @@ Les périphériques communiquent avec le CPU et la RAM via des bus internes.
 | PCIe 5.0 | ~4 Go/s | ~64 Go/s |
 | PCIe 6.0 | ~8 Go/s | ~128 Go/s |
 
+> [!important] Idée clé
+> Un GPU ou un SSD NVMe annoncé "PCIe 4.0 x16" ne va pas forcément à sa vitesse maximale théorique — s'il est branché sur un slot qui ne fournit que x4 lanes, ou si le CPU/chipset ne peut allouer que peu de lanes au total, la bande passante réelle est celle du goulot le plus étroit de la chaîne, pas celle de la carte seule.
+
 **USB (Universal Serial Bus)** : bus série pour périphériques externes.
 
 | Standard | Vitesse max | Alimentation |
@@ -67,6 +70,9 @@ La carte mère (motherboard) est le circuit imprimé principal qui connecte tous
 
 **Slots** : emplacement pour les composants.
 - **DIMM** : slots RAM. DDR4 et DDR5 ne sont pas interchangeables.
+
+> [!warning] Piège
+> DDR4 et DDR5 ont des encoches physiquement différentes (impossible de forcer l'une dans l'autre), mais l'erreur fréquente est de croire qu'une carte mère "compatible DDR5" accepte aussi de la DDR4 en secours — ce n'est jamais le cas, le contrôleur mémoire du CPU ne gère qu'un seul standard.
 - **PCIe x16** : GPU, cartes de capture
 - **M.2** : SSD NVMe (ou SATA selon le slot)
 - **PCIe x1** : cartes réseau, son, contrôleurs
@@ -144,6 +150,9 @@ RDMA (Remote Direct Memory Access) over Converged Ethernet : accès direct à la
 | Arbre | Hiérarchie de switches | Scalable, simple | Goulots d'étranglement en haut |
 
 En pratique, les datacenters utilisent une topologie Spine-Leaf (deux couches de switches) pour garantir la même latence entre n'importe quelles deux machines.
+
+> [!tip] Pourquoi Spine-Leaf domine en datacenter
+> Une topologie en arbre classique crée des goulots d'étranglement en haut de la hiérarchie ; Spine-Leaf garantit que tout trafic ne traverse jamais plus de 2 sauts (leaf → spine → leaf), quelle que soit la paire de machines — une propriété critique pour le trafic est-ouest massif entre serveurs, dominant dans le cloud moderne.
 
 ## Équipements réseau
 

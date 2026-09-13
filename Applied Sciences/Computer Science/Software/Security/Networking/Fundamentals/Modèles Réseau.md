@@ -10,6 +10,9 @@ date: 2026-03-22
 
 Les modèles de référence permettent de comprendre et de décomposer la communication réseau en couches indépendantes. Ils sont fondamentaux pour diagnostiquer des problèmes, concevoir des architectures et comprendre où s'applique chaque mécanisme de sécurité.
 
+> [!important] OSI vs TCP/IP
+> OSI est un modèle **théorique** à 7 couches, conçu pour décrire n'importe quelle architecture réseau — c'est la référence pédagogique. TCP/IP à 4 couches est le modèle **réellement implémenté** sur Internet ; ses 3 couches supérieures d'OSI (Application/Présentation/Session) y sont fusionnées en une seule, parce qu'en pratique un seul protocole (HTTP, DNS...) gère souvent les trois fonctions à la fois.
+
 ## Modèle OSI (7 couches)
 
 ```mermaid
@@ -246,6 +249,9 @@ Physique     : Bits sur le câble
 ```
 
 À la réception, chaque couche retire son en-tête avant de passer au niveau supérieur (désencapsulation).
+
+> [!tip] Méthode pour lire une capture réseau
+> Face à un paquet Wireshark, l'encapsulation donne l'ordre de lecture des en-têtes du plus externe au plus interne : Ethernet → IP → TCP/UDP → protocole applicatif. Un problème de connectivité se diagnostique en général en descendant les couches (l'appli répond-elle ? le port est-il ouvert ? le routage fonctionne-t-il ?), pas en remontant.
 
 ## Où s'applique la sécurité ?
 

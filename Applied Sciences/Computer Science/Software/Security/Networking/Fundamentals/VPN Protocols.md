@@ -10,6 +10,9 @@ date: 2026-03-22
 
 Un VPN (Virtual Private Network) crée un tunnel chiffré entre deux points sur un réseau public. Le choix du protocole détermine les performances, la sécurité et la compatibilité.
 
+> [!warning] Piège fréquent
+> PPTP reste parfois proposé par défaut sur du vieux matériel ou des configurations héritées pour sa simplicité et sa vitesse — mais son chiffrement MPPE/RC4 est cassé depuis longtemps. "Ça marche et c'est rapide" n'est pas un signal de sécurité ; un VPN dont le protocole est obsolète n'apporte quasiment aucune protection réelle.
+
 ## Comparaison générale
 
 | Protocole | Couche OSI | Chiffrement | Performance | Complexité | Usage principal |
@@ -174,6 +177,9 @@ Modes IPSec :
 Transport : chiffre uniquement le payload IP (en-tête IP visible)
 Tunnel    : chiffre le paquet IP entier (en-tête IP original caché dans un nouveau paquet)
 ```
+
+> [!important] Distinction clé
+> Le mode transport protège une communication entre deux hôtes qui parlent IPSec eux-mêmes (host-to-host) ; le mode tunnel encapsule le paquet original entier et masque même les adresses IP source/destination réelles, ce qui en fait le mode requis pour un VPN site-à-site où des passerelles chiffrent le trafic pour des machines qui n'ont elles-mêmes aucune notion d'IPSec.
 
 ### IKEv2 — phases de négociation
 

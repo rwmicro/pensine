@@ -20,6 +20,9 @@ ping -s 1472 -M do 10.0.0.1     # test MTU (1472 + 28 = 1500)
 
 Utilité : vérifier qu'un hôte répond, mesurer la latence (RTT) et le taux de perte. Attention : beaucoup de firewalls bloquent ICMP — pas de réponse ne signifie pas "hôte down".
 
+> [!warning] Piège fréquent
+> Un ping sans réponse ne prouve rien à lui seul — ça peut être l'hôte injoignable, ou simplement ICMP filtré. Toujours croiser avec un test de port applicatif (`nc -zv`, `curl`) avant de conclure qu'un serveur est down.
+
 ### traceroute / tracert — chemin réseau
 
 ```bash
@@ -144,6 +147,9 @@ src net 192.168.1.0/24
 ```
 
 À appliquer **avant** la capture si le volume est élevé — sinon Wireshark sature.
+
+> [!tip] Méthode générale de capture
+> Capturer large avec un filtre BPF minimal (juste l'hôte ou le port d'intérêt), puis affiner avec les filtres d'affichage une fois la capture terminée — un filtre de capture trop restrictif fait perdre des paquets qu'on découvre plus tard nécessaires (retransmissions, ARP, DNS liés).
 
 ## Nmap — scanner réseau
 

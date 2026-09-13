@@ -47,6 +47,9 @@ Le coût OSPF = `100 000 000 / Bande passante (bps)`
 
 **Ajustement recommandé** : `auto-cost reference-bandwidth 10000` pour tenir compte du Gigabit et 10 GbE.
 
+> [!warning] Piège fréquent
+> Sans cet ajustement, Gigabit Ethernet et Fast Ethernet ont tous les deux un coût de 1 (le calcul plafonne à cette valeur pour toute bande passante ≥ 100 Mbps par défaut) — OSPF ne distingue alors plus les deux liens et peut choisir un chemin Fast Ethernet à la place d'un lien Gigabit disponible. `auto-cost reference-bandwidth` doit être identique sur **tous** les routeurs de la zone, sinon les calculs de coût deviennent incohérents entre eux.
+
 ### Aires OSPF (Areas)
 
 OSPF utilise un système hiérarchique d'**aires** pour limiter la propagation des LSA sur les grands réseaux.
@@ -88,6 +91,9 @@ Sur les réseaux multi-accès (Ethernet), OSPF élit un **Designated Router (DR)
 - Avec DR : n-1 adjacences (tous parlent au DR, DR diffuse)
 - **BDR** (Backup DR) : prend le relais si le DR tombe
 - Élection : priorité la plus haute (défaut = 1), puis Router ID le plus élevé
+
+> [!tip] Pourquoi le DR existe
+> Sans DR, chaque routeur échangerait ses LSA avec tous les autres sur le segment — n(n-1)/2 adjacences pour n routeurs devient vite ingérable (10 routeurs → 45 adjacences). En centralisant l'échange sur le DR, chaque routeur n'a qu'une adjacence à maintenir, et le DR se charge de diffuser l'information à tous.
 
 ### Configuration Cisco
 

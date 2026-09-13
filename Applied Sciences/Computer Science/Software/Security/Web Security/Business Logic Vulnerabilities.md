@@ -10,6 +10,9 @@ date: 2026-03-22
 
 Les vulnérabilités de logique métier sont des failles dans la conception et l'implémentation des flux applicatifs. Contrairement aux injections ou au XSS, elles ne sont pas détectables par des scanners automatiques — elles nécessitent de comprendre comment l'application est censée fonctionner, puis de trouver comment l'en faire dévier.
 
+> [!important] Différence avec les failles techniques
+> Une injection SQL est une faille dans l'implémentation (le code ne fait pas ce qu'il devrait). Une faille de logique métier est une faille dans la **conception** : le code fait exactement ce qui a été prévu, mais ce qui a été prévu ne couvre pas tous les cas d'usage malveillants. C'est pour ça qu'un scanner automatique ne la trouve jamais — il ne connaît pas les règles métier attendues.
+
 ## Catégories principales
 
 ### 1. Manipulation de prix et de transactions
@@ -102,6 +105,9 @@ PUT /profile
 {"username": "alice", "is_admin": true}
 ```
 
+> [!warning] Piège fréquent
+> Le mass assignment n'est pas visible en lisant l'endpoint : le code semble correct ("mettre à jour le profil"). Le danger vient de la structure du modèle de données elle-même — tant qu'un champ sensible (`is_admin`, `role`, `balance`) existe sur le même objet que les champs modifiables par l'utilisateur, il est candidat au mass assignment sauf liste blanche explicite des champs acceptés.
+
 ### 7. Contournement des limites
 
 ```
@@ -140,6 +146,9 @@ GET /search?query=admin@site.com
 ```
 
 ## Méthodologie de test
+
+> [!tip] Le réflexe à avoir
+> Pour chaque écran ou API, se demander : "Qu'est-ce que le développeur a supposé que l'utilisateur ferait toujours ?" (suivre les étapes dans l'ordre, ne pas modifier les champs cachés, ne pas répéter une action). Chaque hypothèse implicite non vérifiée côté serveur est un candidat d'exploitation.
 
 ```
 1. Mapper le workflow complet

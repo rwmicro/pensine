@@ -26,6 +26,9 @@ graph LR
 
 **Clé de cache (cache key) :** ce qui identifie une entrée dans le cache. Par défaut : méthode + URL + Host. Les en-têtes non-clés (non-keyed) ne font pas partie de la clé mais influencent la réponse.
 
+> [!important] La source du problème
+> Le danger vient toujours du même décalage : un en-tête influence la réponse générée par l'origin, mais ne fait **pas partie** de ce qui identifie l'entrée en cache. Le cache stocke donc une réponse sous une clé "générique" qui a en réalité été fabriquée à partir d'une donnée contrôlée par l'attaquant.
+
 ## Web Cache Poisoning
 
 ### Principe
@@ -109,6 +112,9 @@ document.getElementById('title').innerHTML = lang;  // XSS reflété
 // Si ce paramètre fait partie de la cache key → empoisonnement possible
 ```
 
+> [!warning] Piège fréquent
+> Poisoning et Deception sont souvent confondus car tous deux exploitent un cache — mais leurs mécanismes sont inversés : le poisoning fait en sorte que **le cache stocke un contenu attaquant** servi à tout le monde, la deception fait en sorte que **le cache stocke un contenu victime** que l'attaquant peut ensuite lire lui-même. Confondre les deux fait chercher la mauvaise cause racine.
+
 ## Web Cache Deception
 
 ### Principe (inverse du poisoning)
@@ -166,6 +172,9 @@ curl -v "https://site.com/account/fake.css"  # sans cookie cette fois
 | Victime | Tous les utilisateurs qui accèdent à l'URL | L'utilisateur ciblé (via lien piégé) |
 | Impact | XSS mass, redirection, credential theft | Fuite de données personnelles |
 | Cache entry | Empoisonnée par l'attaquant | Contient les données de la victime |
+
+> [!tip] Méthode de test
+> Ajouter un en-tête (`X-Forwarded-Host`, `X-Forwarded-Scheme`...) avec une valeur unique et vérifier s'il est réfléchi dans la réponse — puis toujours utiliser un cache-buster (paramètre unique par test) pour ne pas empoisonner accidentellement une vraie page pendant les essais.
 
 ## Détection avec Param Miner (Burp)
 

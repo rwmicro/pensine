@@ -55,7 +55,8 @@ Le principe dominant est l'**apprentissage contrastif** : entraîner le modèle 
 | **Produit scalaire** | $A \cdot B$ | Équivalent au cosinus si les vecteurs sont déjà normalisés (norme = 1) ; plus rapide à calculer |
 | **Distance euclidienne** | $\|A - B\|$ | Utile quand la magnitude porte de l'information (rare en NLP) |
 
-**Règle pratique** : utiliser la mesure pour laquelle le modèle a été entraîné (indiquée dans sa documentation) — mélanger une mesure non prévue avec un modèle donné dégrade silencieusement la qualité des résultats.
+> [!tip] Règle pratique
+> Utiliser la mesure pour laquelle le modèle a été entraîné (indiquée dans sa documentation) — mélanger une mesure non prévue avec un modèle donné dégrade silencieusement la qualité des résultats, sans erreur explicite.
 
 ## Types d'embeddings
 
@@ -109,10 +110,11 @@ Technique récente : le modèle est entraîné avec un objectif qui concentre l'
 
 ## Pièges courants
 
-- **Incompatibilité entre modèles** : un vecteur produit par le modèle A n'est jamais comparable à un vecteur produit par le modèle B — les espaces ne sont pas alignés. Changer de modèle d'embedding impose de **ré-indexer toute la base vectorielle**.
-- **Normalisation** : certains modèles exigent une normalisation L2 explicite avant de calculer un simple produit scalaire comme proxy du cosinus — vérifier la documentation du modèle avant d'optimiser les calculs.
-- **Troncature silencieuse** : un texte plus long que la fenêtre de contexte du modèle d'embedding est coupé sans avertissement, d'où l'importance du chunking en amont (voir [[RAG]]).
-- **Fausse proximité sémantique** : deux phrases peuvent être proches en embedding sans être équivalentes en sens — la négation en est l'exemple classique ("j'aime ce film" et "je n'aime pas ce film" restent souvent très proches car le sujet dominant est identique).
+> [!warning] Pièges courants
+> - **Incompatibilité entre modèles** : un vecteur produit par le modèle A n'est jamais comparable à un vecteur produit par le modèle B — les espaces ne sont pas alignés. Changer de modèle d'embedding impose de **ré-indexer toute la base vectorielle**.
+> - **Normalisation** : certains modèles exigent une normalisation L2 explicite avant de calculer un simple produit scalaire comme proxy du cosinus — vérifier la documentation du modèle avant d'optimiser les calculs.
+> - **Troncature silencieuse** : un texte plus long que la fenêtre de contexte du modèle d'embedding est coupé sans avertissement, d'où l'importance du chunking en amont (voir [[RAG]]).
+> - **Fausse proximité sémantique** : deux phrases peuvent être proches en embedding sans être équivalentes en sens — la négation en est l'exemple classique ("j'aime ce film" et "je n'aime pas ce film" restent souvent très proches car le sujet dominant est identique).
 
 ## Liens
 

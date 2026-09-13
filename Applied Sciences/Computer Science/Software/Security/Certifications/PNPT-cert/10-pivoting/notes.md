@@ -101,7 +101,8 @@ proxychains evil-winrm -i 10.10.10.5 -u user -p pass
 proxychains curl http://10.10.10.5
 ```
 
-**Limite SOCKS** : pas d'ICMP. Donc pas de ping, pas de scan `-sn` nmap. Toujours `-sT -Pn` à travers proxychains.
+> [!warning] Limite SOCKS
+> Pas d'ICMP. Donc pas de ping, pas de scan `-sn` nmap. Toujours `-sT -Pn` à travers proxychains.
 
 ## Chisel
 
@@ -148,7 +149,8 @@ nmap 10.10.10.0/24
 evil-winrm -i 10.10.10.5 -u user -p pass
 ```
 
-**Avantage majeur** : ICMP fonctionne, tu peux pinger, scanner -sn, faire du UDP — exactement comme si tu étais sur le réseau.
+> [!tip] Avantage majeur
+> ICMP fonctionne, tu peux pinger, scanner -sn, faire du UDP — exactement comme si tu étais sur le réseau.
 
 ## sshuttle
 
@@ -162,7 +164,8 @@ nmap 10.10.10.5
 ssh user@10.10.10.5
 ```
 
-**Limite** : nécessite Python sur le pivot, et root sur ta machine (pour modifier la table de routage).
+> [!warning] Limite
+> Nécessite Python sur le pivot, et root sur ta machine (pour modifier la table de routage).
 
 ## Tableau de décision
 
@@ -176,9 +179,10 @@ ssh user@10.10.10.5
 
 ## Pièges courants
 
-- **Proxychains ne fait pas ICMP** : `proxychains ping` échoue. Utiliser `-sT -Pn` sur nmap, ou passer à Ligolo.
-- **DNS leak** : par défaut, proxychains fait les résolutions DNS localement → tes requêtes DNS révèlent qui tu cibles. Activer `proxy_dns` dans la config.
-- **Performance** : SOCKS sur SSH est lent. Pour des scans massifs, Ligolo ou sshuttle sont bien meilleurs.
-- **Chisel binaire est gros** (~10 Mo) — peut être détecté lors du dépôt. Préférer un transfert SMB ou exécution en mémoire.
-- **Tunnel qui meurt sans warning** : si le pivot perd la connexion, tes outils plantent silencieusement. Toujours vérifier le tunnel avant un long scan (`ss -tn | grep <port>`).
-- **Pivot oublié** : à la fin de l'engagement, tuer le tunnel et nettoyer les fichiers déposés sur le pivot — sinon c'est une backdoor laissée en place.
+> [!warning] Pièges courants
+> - **Proxychains ne fait pas ICMP** : `proxychains ping` échoue. Utiliser `-sT -Pn` sur nmap, ou passer à Ligolo.
+> - **DNS leak** : par défaut, proxychains fait les résolutions DNS localement → tes requêtes DNS révèlent qui tu cibles. Activer `proxy_dns` dans la config.
+> - **Performance** : SOCKS sur SSH est lent. Pour des scans massifs, Ligolo ou sshuttle sont bien meilleurs.
+> - **Chisel binaire est gros** (~10 Mo) — peut être détecté lors du dépôt. Préférer un transfert SMB ou exécution en mémoire.
+> - **Tunnel qui meurt sans warning** : si le pivot perd la connexion, tes outils plantent silencieusement. Toujours vérifier le tunnel avant un long scan (`ss -tn | grep <port>`).
+> - **Pivot oublié** : à la fin de l'engagement, tuer le tunnel et nettoyer les fichiers déposés sur le pivot — sinon c'est une backdoor laissée en place.

@@ -84,7 +84,8 @@ graph TB
 
 $$\mathcal{L} = \mathbb{E}_{t, x_0, \epsilon}\left[ ||\epsilon - \epsilon_\theta(x_t, t)||^2 \right]$$
 
-Le modèle apprend à **prédire le bruit** ajouté, pas directement l'image.
+> [!important] Pourquoi prédire le bruit plutôt que l'image ?
+> Prédire directement $x_0$ à partir d'une image très bruitée est un problème mal posé (beaucoup d'images plausibles). Prédire le bruit $\epsilon$ ajouté est un problème mieux conditionné : à chaque petit pas de débruitage, la tâche est simple et locale, ce qui rend l'ensemble du processus itératif stable.
 
 ## Le réseau U-Net
 
@@ -141,6 +142,9 @@ $$\hat{\epsilon} = \epsilon_\theta(x_t, \varnothing) + s \cdot (\epsilon_\theta(
 - $c$ : le conditionnement (texte)
 - $\varnothing$ : pas de conditionnement
 - $s$ : guidance scale (typiquement 7-12, plus haut = plus fidèle au prompt mais moins divers)
+
+> [!tip] Compromis du guidance scale
+> Un $s$ trop bas donne des images peu fidèles au prompt mais variées ; un $s$ trop élevé sur-sature les couleurs et réduit la diversité en poussant le modèle à ignorer toute alternative plausible à la description. Il n'y a pas de valeur universelle — ajuster selon le sujet et le style recherché.
 
 ## Latent Diffusion (Stable Diffusion)
 

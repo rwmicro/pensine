@@ -22,6 +22,9 @@ Découverte → CVE assignée → Publication → Exploitation → Patch disponi
 
 **Zero-day** : vulnérabilité exploitée avant qu'un patch soit disponible. Délai médian entre découverte et exploitation dans la wild : quelques jours à quelques semaines pour les vulnérabilités critiques (Log4Shell exploité < 24h après publication).
 
+> [!warning] Piège fréquent
+> "Zero-day" ne veut pas dire "sans patch officiel" mais "exploité avant que le défenseur ait eu le temps de patcher" — une CVE publiée avec patch disponible peut rester un zero-day *pour vous* si vous n'avez pas encore déployé le correctif. Le compte à rebours commence à la publication, pas à votre prise de connaissance.
+
 ## CVE, CWE et NVD
 
 ### CVE (Common Vulnerabilities and Exposures)
@@ -105,6 +108,9 @@ Lecture :
 ### EPSS (Exploit Prediction Scoring System)
 
 Complément au CVSS : probabilité (0-100%) qu'une vulnérabilité soit exploitée dans les 30 prochains jours dans la wild. Une CVE Critical avec EPSS de 0.1% est moins urgente qu'une CVE Medium avec EPSS de 85%.
+
+> [!important] CVSS ne mesure pas l'urgence
+> CVSS note la **gravité théorique** d'une vulnérabilité (impact si exploitée), pas la **probabilité réelle** qu'elle le soit. Patcher uniquement par ordre de score CVSS revient à ignorer que la plupart des CVE Critical ne sont jamais exploitées dans la wild, pendant qu'une CVE Medium avec un exploit public actif l'est massivement. EPSS comble ce manque.
 
 ## Processus de gestion des vulnérabilités
 

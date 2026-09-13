@@ -26,7 +26,8 @@ Un rapport de pentest a deux lectorats distincts qui ne lisent pas les mêmes se
                                                        "Reproduire ?"
 ```
 
-**Conséquence pratique** : l'Executive Summary ne doit JAMAIS contenir de jargon technique. Si le DG voit "CVE-2024-1234" ou "NTLM relay", il ferme le PDF. Les findings techniques, eux, peuvent et doivent être précis.
+> [!important] Conséquence pratique
+> L'Executive Summary ne doit JAMAIS contenir de jargon technique. Si le DG voit "CVE-2024-1234" ou "NTLM relay", il ferme le PDF. Les findings techniques, eux, peuvent et doivent être précis.
 
 ## Structure type d'un rapport
 
@@ -170,12 +171,11 @@ Le cœur du rapport. Une fiche par vulnérabilité significative.
      - GhostWriter (collaboration équipe pentest)
 ```
 
-## Pièges courants
-
-- **Executive Summary trop technique** : si la première phrase contient un acronyme, le DG ferme.
-- **Findings sans screenshot** : "j'ai fait X" sans preuve = pas crédible.
-- **Sévérité incohérente** : marquer en "Critique" une vuln sans démontrer d'impact = perte de crédibilité sur tout le rapport.
-- **Remédiation vague** : "appliquer les bonnes pratiques" n'est pas une remédiation. Toujours donner les étapes.
-- **Mélanger les langues** : si le rapport est en français, garder le français partout (sauf termes techniques sans équivalent comme "Pass-the-Hash").
-- **Oublier l'annexe Chaîne d'attaque** : c'est la section que les pentesters apprécient le plus dans les rapports qu'ils lisent. Souvent omise par flemme.
-- **Rapport rendu sans relecture** : 24 heures de pause avant de relire change tout. À l'examen PNPT, le délai post-test est court mais existe — l'utiliser.
+> [!warning] Pièges courants
+> - **Executive Summary trop technique** : si la première phrase contient un acronyme, le DG ferme.
+> - **Findings sans screenshot** : "j'ai fait X" sans preuve = pas crédible.
+> - **Sévérité incohérente** : marquer en "Critique" une vuln sans démontrer d'impact = perte de crédibilité sur tout le rapport.
+> - **Remédiation vague** : "appliquer les bonnes pratiques" n'est pas une remédiation. Toujours donner les étapes.
+> - **Mélanger les langues** : si le rapport est en français, garder le français partout (sauf termes techniques sans équivalent comme "Pass-the-Hash").
+> - **Oublier l'annexe Chaîne d'attaque** : c'est la section que les pentesters apprécient le plus dans les rapports qu'ils lisent. Souvent omise par flemme.
+> - **Rapport rendu sans relecture** : 24 heures de pause avant de relire change tout. À l'examen PNPT, le délai post-test est court mais existe — l'utiliser.

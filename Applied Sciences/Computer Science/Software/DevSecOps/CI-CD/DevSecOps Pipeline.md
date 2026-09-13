@@ -22,6 +22,9 @@ Le coût de correction d'une vulnérabilité multiplie par 10 à chaque étape :
 - Trouvée en test : 10x
 - Trouvée en production : 100x
 
+> [!important] Pourquoi shift left plutôt que "scanner à la fin"
+> Ce n'est pas une question de rigueur mais d'économie : un scan final trouve les mêmes vulnérabilités qu'un scan précoce, mais après que le code a été mergé, déployé et parfois même exposé — le coût de correction inclut alors le rollback, l'incident, et la communication, pas seulement le patch.
+
 ## Étapes du pipeline sécurisé
 
 ```
@@ -30,6 +33,9 @@ Commit → SAST → SCA → Build → DAST → Image Scan → Deploy → RASP/mo
 Secrets  Linting  CVE  Artefact  API      Container
 Scan    statique  Deps  signing  Tests    vulns
 ```
+
+> [!tip] Pourquoi cet ordre précis
+> Le scan de secrets passe en premier parce qu'un secret déjà commité doit être révoqué immédiatement, indépendamment du reste du pipeline. SAST vient avant SCA/build parce qu'il ne coûte que le temps de lecture du code, alors que DAST nécessite une application déjà buildée et déployée — plus tard, donc plus cher si un problème bloque la suite.
 
 ## 1. Pre-commit (poste du développeur)
 
@@ -330,6 +336,9 @@ Framework de niveaux de sécurité pour la supply chain :
 | SLSA 4 | Build hermétique, revue de code à deux personnes |
 
 ### Bonnes pratiques supply chain
+
+> [!warning] Piège
+> Un tag comme `@v4` n'est pas un identifiant immuable — le mainteneur (ou un attaquant ayant compromis son compte) peut le refaire pointer vers un autre commit à tout moment. Ta CI exécuterait alors ce nouveau code sans qu'aucun diff ne passe par une revue. Seul le digest SHA garantit que le code exécuté est bien celui audité.
 
 ```yaml
 # Épingler les actions GitHub par digest SHA (pas par tag)

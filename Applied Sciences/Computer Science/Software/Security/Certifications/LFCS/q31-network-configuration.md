@@ -4,15 +4,14 @@
 
 Configurer le réseau, c'est attribuer une adresse IP, définir une passerelle (route par défaut) et un résolveur DNS. La difficulté de l'examen : **plusieurs gestionnaires** coexistent selon la distribution, mais un seul commande réellement l'interface.
 
-**Modèle mental : l'outil de diagnostic vs l'outil de configuration persistante.**
-
-```
-ip / ss          → LIRE l'état et configurer TEMPORAIREMENT (perdu au reboot)
-NetworkManager   → configuration PERSISTANTE (nmcli)         ◄─┐
-Netplan          → configuration PERSISTANTE (YAML, Ubuntu)    ├─ selon la distrib
-systemd-networkd → configuration PERSISTANTE (.network)        │
-/etc/network/interfaces → legacy Debian                       ◄┘
-```
+> [!tip] Modèle mental : l'outil de diagnostic vs l'outil de configuration persistante
+> ```
+> ip / ss          → LIRE l'état et configurer TEMPORAIREMENT (perdu au reboot)
+> NetworkManager   → configuration PERSISTANTE (nmcli)         ◄─┐
+> Netplan          → configuration PERSISTANTE (YAML, Ubuntu)    ├─ selon la distrib
+> systemd-networkd → configuration PERSISTANTE (.network)        │
+> /etc/network/interfaces → legacy Debian                       ◄┘
+> ```
 
 La commande `ip` est **toujours** disponible pour observer et tester, mais ses changements sont volatils. Pour persister, il faut passer par le gestionnaire de la machine. **Identifier lequel est actif** est la première étape (souvent NetworkManager sur RHEL/desktop, Netplan sur Ubuntu server).
 
@@ -32,12 +31,12 @@ ip neigh       # table ARP (voisins)
 
 **Le hostname** se règle avec `hostnamectl set-hostname` (persistant, écrit `/etc/hostname`). Penser à cohérence avec `/etc/hosts`.
 
-**Pièges** :
-- `ip addr add` est **temporaire** — un reboot l'efface ; pour persister, utiliser le gestionnaire (nmcli/netplan/...).
-- `netplan try` applique avec **rollback automatique** si on perd la connexion — filet de sécurité précieux en SSH.
-- Configurer deux gestionnaires sur la même interface crée des conflits ; n'en piloter qu'un.
-- La MAC est en lecture seule dans `/sys/class/net/<iface>/address`.
-- Diagnostic réseau : `ping` (joignabilité), `dig`/`host` (DNS), `traceroute`/`mtr` (chemin), `tcpdump` (capture).
+> [!warning] Pièges
+> - `ip addr add` est **temporaire** — un reboot l'efface ; pour persister, utiliser le gestionnaire (nmcli/netplan/...).
+> - `netplan try` applique avec **rollback automatique** si on perd la connexion — filet de sécurité précieux en SSH.
+> - Configurer deux gestionnaires sur la même interface crée des conflits ; n'en piloter qu'un.
+> - La MAC est en lecture seule dans `/sys/class/net/<iface>/address`.
+> - Diagnostic réseau : `ping` (joignabilité), `dig`/`host` (DNS), `traceroute`/`mtr` (chemin), `tcpdump` (capture).
 
 ## Énoncé
 

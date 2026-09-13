@@ -19,6 +19,9 @@ date: "2026-02-25"
 
 Un **IDS** observe une copie du trafic (via un TAP ou un port SPAN) — il ne peut pas bloquer mais ne génère pas de latence. Un **IPS** est dans le chemin des paquets — il peut bloquer mais introduit de la latence et peut générer des faux positifs bloquants.
 
+> [!important] Le vrai compromis IDS vs IPS
+> Ce n'est pas juste "IPS = IDS qui bloque en plus" : passer en ligne (inline) change la nature du risque. Un faux positif sur un IDS génère une alerte ignorable ; le même faux positif sur un IPS bloque du trafic légitime — c'est pour ça qu'un IPS se déploie presque toujours en mode détection seule (`DetectionOnly`) le temps de valider les règles avant d'activer le blocage.
+
 ## Méthodes de détection
 
 | Méthode | Principe | Avantages | Limites |
@@ -265,6 +268,9 @@ SecRuleUpdateTargetById 942100 "!ARGS:description"
 ### Contournement de WAF (bypass techniques)
 
 Connaître les contournements permet de mieux configurer les WAF :
+
+> [!tip] Le principe derrière tous ces bypass
+> Un WAF à base de signatures compare le payload à des patterns connus **avant normalisation complète** — double encodage, casse mixte, commentaires SQL insérés au milieu d'un mot-clé exploitent tous le même angle mort : la donnée que le WAF inspecte n'est pas exactement celle que l'application interprète après décodage. D'où l'intérêt d'une défense en profondeur (requêtes préparées, échappement côté appli) plutôt que de compter sur le WAF seul.
 
 ```
 SQLi bypass :

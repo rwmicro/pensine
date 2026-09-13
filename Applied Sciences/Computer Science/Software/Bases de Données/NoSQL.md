@@ -22,6 +22,9 @@ Les bases relationnelles ont dominé pendant des décennies, mais vers 2006-2010
 
 NoSQL signifie "Not Only SQL" — pas "pas de SQL". Beaucoup de ces bases proposent maintenant un langage de requête similaire à SQL.
 
+> [!important] Idée clé
+> "Sans schéma" ne veut pas dire "sans structure" — ça veut dire que le schéma est appliqué par l'application plutôt que par la base. MongoDB accepte des documents de formes différentes dans une même collection, mais un code applicatif cohérent finit toujours par imposer une forme implicite. Le flou vient du moment où le schéma est vérifié (écriture vs lecture), pas de son absence.
+
 ## Bases clé-valeur
 
 Le modèle le plus simple : une clé (identifiant unique) associée à une valeur opaque.
@@ -229,6 +232,9 @@ LIMIT 100;
 - Une table = une requête
 - La partition key doit distribuer les données uniformément
 
+> [!warning] Piège
+> Modéliser Cassandra comme une base relationnelle (une table par entité, jointures applicatives) mène à des requêtes qui scannent toutes les partitions — exactement ce que Cassandra est censé éviter. Il faut souvent dupliquer les mêmes données dans plusieurs tables, une par pattern de requête.
+
 **Cas d'usage** : IoT (milliards de mesures), logs, historique d'événements, messagerie, métriques de monitoring.
 
 ## Bases graphe
@@ -323,3 +329,6 @@ curl -X GET "localhost:9200/articles/_search" -H 'Content-Type: application/json
 - On fait de la recherche full-text (Elasticsearch)
 - On ingère des millions d'événements par seconde (Cassandra, Kafka)
 - La disponibilité prime sur la cohérence stricte
+
+> [!tip] Méthode
+> Choisir le type NoSQL par le pattern d'accès dominant, pas par la popularité : lookup direct par clé → clé-valeur ; documents variables lus en bloc → document ; requêtes par colonne sur gros volumes → colonnes larges ; traversée de relations → graphe.

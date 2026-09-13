@@ -4,14 +4,13 @@
 
 Tout ce qu'un programme demande au noyau (ouvrir un fichier, créer un processus, envoyer un signal) passe par un **appel système** (*syscall*). Observer les syscalls d'un processus, c'est voir ce qu'il fait réellement, au-delà de son nom.
 
-**Modèle mental : le syscall, frontière entre programme et noyau.**
-
-```
-processus (espace utilisateur)
-      │  open(), read(), execve(), kill(), socket()...   ← syscalls
-      ▼
-   noyau (espace privilégié) ── exécute l'opération, renvoie un code
-```
+> [!tip] Modèle mental : le syscall, frontière entre programme et noyau
+> ```
+> processus (espace utilisateur)
+>       │  open(), read(), execve(), kill(), socket()...   ← syscalls
+>       ▼
+>    noyau (espace privilégié) ── exécute l'opération, renvoie un code
+> ```
 
 Un syscall comme `kill(666, SIGTERM)` signifie « envoyer le signal SIGTERM au PID 666 ». Surveiller ces appels permet de repérer un comportement interdit par une politique de sécurité.
 
@@ -35,11 +34,11 @@ rm /bin/collector2                  # supprimer le binaire
 
 **Les signaux courants** : `SIGTERM` (15, arrêt propre, par défaut), `SIGKILL` (9, tue sans recours), `SIGHUP` (1, souvent « recharge ta config »), `SIGSTOP`/`SIGCONT` (suspendre/reprendre).
 
-**Pièges** :
-- `strace` peut **ralentir fortement** le processus tracé — à éviter sur un service critique en production.
-- Un processus relancé par un superviseur (systemd, un parent) **réapparaît** après `kill` : supprimer le binaire et/ou désactiver le service, sinon il revient.
-- Tracer demande des privilèges (root, ou même utilisateur que le processus) ; `ptrace` peut être restreint par `kernel.yama.ptrace_scope`.
-- Lié à la sécurité d'exécution : seccomp (filtrage de syscalls) et le MAC, voir [[q44-selinux-and-apparmor]].
+> [!warning] Pièges
+> - `strace` peut **ralentir fortement** le processus tracé — à éviter sur un service critique en production.
+> - Un processus relancé par un superviseur (systemd, un parent) **réapparaît** après `kill` : supprimer le binaire et/ou désactiver le service, sinon il revient.
+> - Tracer demande des privilèges (root, ou même utilisateur que le processus) ; `ptrace` peut être restreint par `kernel.yama.ptrace_scope`.
+> - Lié à la sécurité d'exécution : seccomp (filtrage de syscalls) et le MAC, voir [[q44-selinux-and-apparmor]].
 
 ## Énoncé
 

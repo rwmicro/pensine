@@ -32,7 +32,8 @@ C:\
 └── ProgramData\           ← config système partagée entre utilisateurs
 ```
 
-**À retenir** : `SAM` est verrouillé tant que Windows tourne — on ne peut pas juste le copier. Il faut soit booter sur un live USB, soit utiliser `reg save` (admin), soit dumper la mémoire avec Mimikatz.
+> [!important] À retenir
+> `SAM` est verrouillé tant que Windows tourne — on ne peut pas juste le copier. Il faut soit booter sur un live USB, soit utiliser `reg save` (admin), soit dumper la mémoire avec Mimikatz.
 
 ## Commandes de reconnaissance locale
 
@@ -47,7 +48,8 @@ net localgroup administrators
 net user <user> /domain  # info sur un user du domaine
 ```
 
-**Pourquoi `whoami /all`** : la liste des privilèges (`SeImpersonatePrivilege`, `SeDebugPrivilege`, etc.) révèle des chemins de privesc. `SeImpersonate` = Potato attacks possibles.
+> [!tip] Pourquoi `whoami /all`
+> La liste des privilèges (`SeImpersonatePrivilege`, `SeDebugPrivilege`, etc.) révèle des chemins de privesc. `SeImpersonate` = Potato attacks possibles.
 
 ## Réseau et processus
 
@@ -112,7 +114,8 @@ Set-ExecutionPolicy Bypass -Scope Process    ← session courante
 powershell -enc <base64>         ← script encodé, contourne aussi le logging basique
 ```
 
-**Pourquoi `IEX` est central** : il exécute du code téléchargé sans jamais écrire de fichier. C'est invisible aux AV qui scannent le disque. Évidemment, les EDR modernes hookent `IEX` lui-même — voir AV/EDR Evasion.
+> [!tip] Pourquoi `IEX` est central
+> Il exécute du code téléchargé sans jamais écrire de fichier. C'est invisible aux AV qui scannent le disque. Évidemment, les EDR modernes hookent `IEX` lui-même — voir AV/EDR Evasion.
 
 ## Énumération Active Directory basique
 
@@ -130,9 +133,10 @@ Pour de l'énumération sérieuse, on utilise **PowerView** ou **BloodHound** �
 
 ## Pièges courants
 
-- **`whoami /all` peut être restreint** — sur des sessions très limitées, certaines infos ne sortent pas. Utiliser `net user %username%` en complément.
-- **`systeminfo` est lent** mais indispensable — patcher Windows non patché = privesc kernel quasi assurée (essayer Watson/wesng pour identifier les CVE).
-- **`reg save SAM` nécessite des droits admin** — sans, on ne récupère pas les hashes. Si on est limité, dumper depuis la mémoire (Mimikatz) ou via `vssadmin` (shadow copy).
-- **PowerShell logge tout depuis la version 5** : ScriptBlockLogging et Transcription peuvent enregistrer tes commandes. Vérifier `Get-Item HKLM:\Software\Policies\Microsoft\Windows\PowerShell\*`.
-- **`net user /domain` échoue hors domaine** — on est sur une machine standalone ou Workgroup. Vérifier avec `systeminfo | findstr /B "Domain"`.
-- **Les chemins `C:\Users\...` peuvent être en français** : `Utilisateurs` au lieu de `Users` sur Windows FR. Toujours vérifier avec `dir C:\`.
+> [!warning] Pièges courants
+> - **`whoami /all` peut être restreint** — sur des sessions très limitées, certaines infos ne sortent pas. Utiliser `net user %username%` en complément.
+> - **`systeminfo` est lent** mais indispensable — patcher Windows non patché = privesc kernel quasi assurée (essayer Watson/wesng pour identifier les CVE).
+> - **`reg save SAM` nécessite des droits admin** — sans, on ne récupère pas les hashes. Si on est limité, dumper depuis la mémoire (Mimikatz) ou via `vssadmin` (shadow copy).
+> - **PowerShell logge tout depuis la version 5** : ScriptBlockLogging et Transcription peuvent enregistrer tes commandes. Vérifier `Get-Item HKLM:\Software\Policies\Microsoft\Windows\PowerShell\*`.
+> - **`net user /domain` échoue hors domaine** — on est sur une machine standalone ou Workgroup. Vérifier avec `systeminfo | findstr /B "Domain"`.
+> - **Les chemins `C:\Users\...` peuvent être en français** : `Utilisateurs` au lieu de `Users` sur Windows FR. Toujours vérifier avec `dir C:\`.

@@ -10,6 +10,9 @@ date: "2026-02-25"
 
 Le scanning est la phase de reconnaissance active : on envoie des paquets vers une cible pour cartographier son infrastructure (ports, services, versions, vulnérabilités). C'est la base de tout audit de sécurité et test d'intrusion.
 
+> [!warning] Piège fréquent
+> Un scan agressif (`-T4`/`-T5`, `-p-` sur beaucoup d'hôtes) peut saturer des équipements réseau fragiles (imprimantes, IoT, anciens firewalls) et causer un déni de service involontaire, même sans intention malveillante. Toujours adapter la vitesse et la portée du scan au contexte (production vs lab), pas seulement à ce que le ROE autorise légalement.
+
 ## Nmap — Référence complète
 
 ### Types de scans
@@ -20,6 +23,12 @@ nmap -sS 192.168.1.1
 
 # TCP Connect scan (sans root, moins furtif)
 nmap -sT 192.168.1.1
+```
+
+> [!important] Pourquoi -sS est plus furtif que -sT
+> Le SYN scan envoie un SYN et, en recevant le SYN-ACK, répond directement par un RST au lieu de compléter le handshake — la connexion n'est jamais établie au niveau applicatif, donc rien n'apparaît dans les logs applicatifs du service (seulement au niveau noyau/firewall). Le Connect scan utilise l'appel système `connect()` standard, qui complète le handshake et se retrouve donc journalisé comme une vraie connexion.
+
+```bash
 
 # UDP scan (lent, nécessite root)
 nmap -sU 192.168.1.1

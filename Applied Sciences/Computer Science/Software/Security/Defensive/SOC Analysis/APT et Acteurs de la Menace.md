@@ -10,6 +10,9 @@ date: 2026-03-22
 
 Les APT (Advanced Persistent Threats) sont des acteurs sophistiqués — généralement étatiques — qui conduisent des campagnes d'espionnage ou de sabotage sur le long terme. Connaître leurs TTPs permet d'orienter la détection et les investissements de sécurité.
 
+> [!important] Idée clé
+> Chaque vendor (Microsoft, Mandiant, CrowdStrike) donne un nom différent au même groupe — ne pas confondre "plusieurs acteurs" avec "plusieurs noms pour un même acteur". Toujours vérifier la table de correspondance avant de comparer des rapports de sources différentes.
+
 ## Classification des acteurs
 
 ```mermaid
@@ -161,7 +164,8 @@ graph TD
     style ttps fill:#9c27b0,color:#fff
 ```
 
-**Implication pratique :** Construire des règles de détection basées sur les TTPs est plus résilient que bloquer des IP/hashs qui changent quotidiennement.
+> [!tip] Implication pratique
+> Construire des règles de détection basées sur les TTPs est plus résilient que bloquer des IP/hashs qui changent quotidiennement.
 
 ## Ransomware-as-a-Service (RaaS)
 

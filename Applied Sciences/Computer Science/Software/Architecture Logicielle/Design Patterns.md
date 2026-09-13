@@ -12,6 +12,9 @@ Les design patterns (patrons de conception) sont des solutions réutilisables à
 
 Un pattern n'est pas du code copier-coller, mais un modèle conceptuel qu'on adapte au contexte.
 
+> [!important] Idée clé
+> Un pattern décrit une **relation entre objets**, pas une classe précise à recopier. Reconnaître qu'un problème correspond à Strategy ou à Observer compte plus que mémoriser l'implémentation exacte — la même intention peut s'exprimer très différemment selon le langage (closures en Python/JS au lieu de classes).
+
 ## Patterns Créationnels
 
 Traitent de la création d'objets, en découplant le système du comment et du qui crée les objets.
@@ -39,6 +42,9 @@ assert config1 is config2  # True
 ```
 
 Quand l'utiliser : registre de configuration, pool de connexions, gestionnaire de logs. Anti-pattern si surutilisé (rend le code difficile à tester).
+
+> [!warning] Piège fréquent
+> Le Singleton introduit un état global caché : deux tests qui utilisent la même instance peuvent se contaminer l'un l'autre si l'un modifie l'état avant l'autre. C'est la raison principale pour laquelle il est déconseillé en excès — préférer l'injection de dépendances quand c'est possible.
 
 ### Factory Method
 
@@ -826,3 +832,6 @@ class Personnage {
 | Réutiliser des objets coûteux | Object Pool |
 | Boucle principale d'un jeu | Game Loop |
 | Entités composables sans héritage | Entity-Component System |
+
+> [!tip] Méthode
+> Partir du problème concret (pas du pattern) : "j'ai besoin de créer des objets sans connaître leur type exact" mène naturellement à Factory Method, jamais l'inverse. Chercher un pattern à appliquer avant d'avoir identifié le problème est un signe de sur-ingénierie.

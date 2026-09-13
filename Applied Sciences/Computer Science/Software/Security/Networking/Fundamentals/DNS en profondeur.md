@@ -44,6 +44,9 @@ ns1.example.com → Resolver : C'est 93.184.216.34 (TTL: 3600)
 Resolver → Client : 93.184.216.34
 ```
 
+> [!important] Récursif vs itératif
+> Le client fait une résolution **récursive** : il pose une seule question au resolver et attend la réponse finale. Le resolver, lui, fait une résolution **itérative** : il interroge root puis TLD puis autoritaire, chacun ne répondant que "je ne sais pas, demande à X". C'est cette différence de rôle qui explique pourquoi le resolver porte toute la charge de la marche dans la hiérarchie.
+
 ## Types d'enregistrements DNS
 
 | Type | Usage | Exemple |
@@ -81,6 +84,9 @@ dig -x 93.184.216.34
 
 Le transfert de zone permet à un serveur secondaire de copier la zone entière depuis le serveur primaire. Mal configuré, il expose toute l'infrastructure DNS.
 
+> [!tip] Méthode de reconnaissance
+> Tester systématiquement l'AXFR sur chaque serveur de noms listé (`dig NS target.com` d'abord, puis `dig AXFR @chaque-ns target.com`) — un seul serveur secondaire mal configuré suffit à exposer toute la zone, même si les autres sont correctement restreints.
+
 ```bash
 # Tenter un transfert de zone (reconnaissance)
 dig AXFR @ns1.target.com target.com
@@ -104,6 +110,9 @@ Contre-mesure :
 ## DNSSEC
 
 DNSSEC ajoute une couche de signature cryptographique pour garantir l'authenticité et l'intégrité des réponses DNS.
+
+> [!warning] Piège fréquent
+> DNSSEC **authentifie** les réponses, il ne les **chiffre** pas — n'importe qui qui écoute le trafic voit toujours les requêtes et réponses en clair. Confondre les deux fait croire à tort que DNSSEC protège la confidentialité des recherches DNS ; c'est DNS over TLS/HTTPS (DoT/DoH) qui répond à ce besoin-là.
 
 ### Enregistrements DNSSEC
 

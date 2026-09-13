@@ -12,6 +12,9 @@ date: "2026-02-04"
 
 Docker est une plateforme de conteneurisation qui permet d'empaqueter des applications et leurs dépendances dans des conteneurs isolés, portables et légers.
 
+> [!important] Idée clé
+> Un conteneur n'est pas une VM allégée : il ne virtualise pas le matériel, il **partage le kernel de l'hôte** et isole le processus par des mécanismes du kernel Linux (namespaces, cgroups). C'est ce qui explique à la fois sa légèreté (pas d'OS à démarrer) et sa limite (un conteneur Linux ne peut pas faire tourner un kernel Windows).
+
 ## Concepts fondamentaux
 
 ### Conteneurs vs Machines Virtuelles
@@ -255,6 +258,9 @@ docker-compose ps
    USER node
    ```
 
+> [!warning] Pourquoi c'est important
+> Un processus root dans le conteneur n'est isolé du root de l'hôte que par les namespaces — une faille de conteneur à hôte (container breakout) donne alors directement les pleins pouvoirs sur la machine hôte. Avec un utilisateur non-root, la même faille limite l'attaquant aux droits de cet utilisateur, même après l'évasion.
+
 2. **Scanner les vulnérabilités**
    ```bash
    docker scan mon-image
@@ -285,6 +291,9 @@ docker-compose ps
    # Puis copier le reste
    COPY . .
    ```
+
+> [!tip] Pourquoi cet ordre précis
+> Docker invalide le cache d'une layer dès que son contenu change, **et toutes les layers suivantes avec elle**. Copier `package.json` avant le reste du code fait que modifier un fichier source ne réinvalide pas `npm ci` (layer coûteuse) — seule la dernière `COPY . .` est refaite. Inverser l'ordre ferait réinstaller toutes les dépendances à chaque changement de code.
 
 3. **Images légères**
    - Alpine plutôt que Ubuntu

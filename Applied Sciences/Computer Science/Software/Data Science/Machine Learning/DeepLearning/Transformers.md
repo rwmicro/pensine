@@ -141,6 +141,9 @@ graph TB
 | **Feed-Forward** | Réseau dense appliqué indépendamment à chaque position |
 | **Add & Norm** | Connexion résiduelle + normalisation (stabilise l'entraînement) |
 
+> [!warning] Pourquoi le masque est indispensable
+> Sans le masque de causalité, le décodeur pourrait "voir" le token qu'il est censé prédire pendant l'entraînement (puisque toute la séquence cible est présente pour calculer l'attention en parallèle) — il apprendrait à recopier plutôt qu'à prédire, et serait inutilisable en génération réelle où les tokens futurs n'existent pas encore.
+
 ### Positional Encoding
 
 Les Transformers n'ayant pas de récurrence, il faut **injecter l'information de position** :
@@ -149,6 +152,9 @@ $$PE_{(pos, 2i)} = \sin\left(\frac{pos}{10000^{2i/d}}\right)$$
 $$PE_{(pos, 2i+1)} = \cos\left(\frac{pos}{10000^{2i/d}}\right)$$
 
 Les modèles modernes utilisent souvent des **positional embeddings apprenables** ou **RoPE** (Rotary Position Embedding).
+
+> [!important] Pourquoi c'est nécessaire
+> L'attention seule est **invariante par permutation** : sans information de position, "le chat mange le poisson" et "le poisson mange le chat" produiraient des représentations identiques token par token (mêmes mots, ordre ignoré). Le positional encoding est ce qui réintroduit la notion d'ordre que le mécanisme d'attention ignore par construction.
 
 ## Les trois familles de Transformers
 
@@ -179,6 +185,9 @@ graph TB
 | **Encoder-only** | Voit toute la séquence en même temps (bidirectionnel) | Classification, NER, recherche sémantique | BERT, RoBERTa |
 | **Decoder-only** | Génère token par token (autorégressif) | Génération de texte, chatbots, code | GPT-4, Claude, LLaMA |
 | **Encoder-Decoder** | Encode l'entrée, décode la sortie | Traduction, résumé | T5, BART |
+
+> [!tip] Méthode de choix
+> Tâche de compréhension où toute la séquence est disponible d'un coup (classification, recherche, NER) → encoder-only. Génération libre où le futur n'est pas encore connu (chat, code, texte créatif) → decoder-only. Transformation d'une séquence complète vers une autre de longueur différente (traduction, résumé) → encoder-decoder.
 
 ## Les modèles marquants
 

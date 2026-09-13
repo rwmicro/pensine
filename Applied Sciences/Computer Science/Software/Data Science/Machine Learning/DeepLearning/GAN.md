@@ -65,7 +65,8 @@ graph TD
     style STEP3 fill:#4CAF50,color:#fff
 ```
 
-**Équilibre de Nash :** l'entraînement converge quand D ne peut plus distinguer le vrai du faux ($D(x) = 0.5$ partout) et G produit des données indiscernables de la réalité.
+> [!important] Équilibre de Nash
+> L'entraînement converge quand D ne peut plus distinguer le vrai du faux ($D(x) = 0.5$ partout) et G produit des données indiscernables de la réalité. En pratique cet équilibre est instable et rarement atteint proprement — c'est la source des problèmes d'entraînement listés ci-dessous.
 
 ## Variantes principales
 
@@ -119,6 +120,9 @@ graph TB
 | Problème | Description | Solutions |
 |----------|-------------|----------|
 | **Mode Collapse** | G ne génère que quelques types d'images | WGAN, mini-batch discrimination, unrolled GAN |
+
+> [!warning] Comprendre le mode collapse
+> G n'est récompensé que pour tromper D, pas pour couvrir toute la diversité des données réelles — s'il trouve un seul type d'image qui trompe systématiquement D, il n'a aucune incitation à en générer d'autres. Une bonne performance de D à un instant donné ne garantit donc pas une bonne diversité de G : toujours évaluer avec une métrique de diversité (ex : nombre de modes couverts), pas seulement la qualité visuelle.
 | **Instabilité d'entraînement** | D ou G domine, oscillations | WGAN-GP, spectral normalization, progressive training |
 | **Vanishing Gradients** | D trop fort, G ne reçoit plus de signal | Utiliser des loss alternatives (Wasserstein, least squares) |
 | **Évaluation difficile** | Pas de métrique de perte simple | FID (Fréchet Inception Distance), IS (Inception Score) |

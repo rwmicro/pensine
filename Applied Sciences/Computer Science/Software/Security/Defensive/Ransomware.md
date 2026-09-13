@@ -10,6 +10,9 @@ date: "2026-04-16"
 
 Le ransomware est la menace la plus destructrice en cybersécurité actuelle. Un ransomware chiffre les données d'une victime et exige une rançon (généralement en crypto-monnaie) pour fournir la clé de déchiffrement. Depuis 2019, les groupes majeurs pratiquent la **double extorsion** : chiffrement + exfiltration des données avec menace de publication.
 
+> [!important] Idée clé
+> La double extorsion change fondamentalement la défense : avoir de bonnes sauvegardes protège contre le chiffrement, mais ne protège pas contre la fuite des données déjà exfiltrées avant le chiffrement. La prévention de l'accès initial et de l'exfiltration compte donc autant que la capacité à restaurer.
+
 ## Chaîne d'attaque typique
 
 La plupart des opérations ransomware suivent un schéma prévisible, souvent étalé sur **plusieurs jours à plusieurs semaines** entre l'accès initial et le chiffrement :
@@ -128,6 +131,9 @@ wbadmin delete catalog -quiet
 ## Réponse à incident
 
 ### Premières 30 minutes
+
+> [!warning] Piège fréquent
+> Le réflexe est d'éteindre les machines touchées pour "arrêter les dégâts" — c'est souvent une erreur : ça détruit les artefacts en mémoire (clés de chiffrement parfois encore présentes, processus malveillants actifs) qui auraient pu aider l'investigation ou même la récupération. Isoler du réseau, pas éteindre.
 
 1. **Contenir** — isoler les machines touchées du réseau (pas les éteindre, la RAM contient des artefacts)
 2. **Évaluer l'étendue** — combien de machines, quels segments, le DC est-il compromis ?

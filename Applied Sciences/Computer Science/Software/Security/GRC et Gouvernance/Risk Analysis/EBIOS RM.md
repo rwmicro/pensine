@@ -19,6 +19,9 @@ EBIOS RM part des **scénarios de menaces réalistes** plutôt que d'une liste e
 
 L'objectif : identifier ce que des adversaires concrets pourraient faire contre un système précis, et décider comment s'en protéger.
 
+> [!important] Différence avec une analyse de risque classique
+> Une approche par checklist de vulnérabilités répond à "qu'est-ce qui pourrait être exploité ?" — exhaustive mais indifférenciée. EBIOS RM répond d'abord à "qui voudrait m'attaquer et pourquoi ?" puis ne creuse que les chemins d'attaque pertinents pour ces adversaires précis. Résultat : moins exhaustif sur le papier, mais bien plus actionnable.
+
 
 ## Les 5 ateliers
 
@@ -213,6 +216,9 @@ Risque résiduel après traitement : 2 × 2 = Risque MODÉRÉ → ACCEPTÉ
 
 Décision : Réduire (actions 1-4) + Transférer (assurance cyber)
 ```
+
+> [!tip] Méthode de l'atelier 5
+> Le risque résiduel n'est jamais nul — l'objectif n'est pas d'atteindre 0 mais de faire passer le couple vraisemblance × gravité sous le seuil d'acceptabilité défini par la direction. Une fois ce seuil atteint, le risque restant est formellement **accepté**, documenté, et revu périodiquement — pas ignoré.
 
 ## Intégration avec MITRE ATT&CK
 

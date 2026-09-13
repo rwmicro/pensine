@@ -4,16 +4,15 @@
 
 LVM (*Logical Volume Manager*) ajoute une couche d'abstraction entre les disques physiques et les systèmes de fichiers. Au lieu de partitions rigides, on obtient des volumes redimensionnables à chaud, répartis sur plusieurs disques.
 
-**Modèle mental : les trois étages de LVM.**
-
-```
-disques physiques        PV          VG              LV
-/dev/vdg, /dev/vdh  ──► Physical ──► Volume    ──►  Logical
-                        Volumes      Group           Volumes
-                        (pvcreate)   (vgcreate :     (lvcreate :
-                                      un "pool"        des "tranches"
-                                      d'espace)        formatables)
-```
+> [!tip] Modèle mental : les trois étages de LVM
+> ```
+> disques physiques        PV          VG              LV
+> /dev/vdg, /dev/vdh  ──► Physical ──► Volume    ──►  Logical
+>                         Volumes      Group           Volumes
+>                         (pvcreate)   (vgcreate :     (lvcreate :
+>                                       un "pool"        des "tranches"
+>                                       d'espace)        formatables)
+> ```
 
 1. **PV** (Physical Volume) : un disque/partition initialisé pour LVM (`pvcreate`).
 2. **VG** (Volume Group) : un réservoir d'espace agrégeant un ou plusieurs PV (`vgcreate`).
@@ -46,11 +45,11 @@ lvextend -L +1G /dev/vol2/p1
 resize2fs /dev/vol2/p1        # ext4 ; xfs_growfs pour XFS
 ```
 
-**Pièges** :
-- Avant `vgreduce`, le disque ne doit plus contenir de données actives (déplacer avec `pvmove` si nécessaire).
-- Agrandir le LV ne suffit pas : sans `resize2fs`/`xfs_growfs`, le système de fichiers ignore l'espace ajouté.
-- `-L 50M` = taille absolue ; `-L +50M` = ajout relatif. Confondre les deux est classique.
-- XFS ne peut **que grandir**, pas rétrécir — choix de système de fichiers à anticiper.
+> [!warning] Pièges
+> - Avant `vgreduce`, le disque ne doit plus contenir de données actives (déplacer avec `pvmove` si nécessaire).
+> - Agrandir le LV ne suffit pas : sans `resize2fs`/`xfs_growfs`, le système de fichiers ignore l'espace ajouté.
+> - `-L 50M` = taille absolue ; `-L +50M` = ajout relatif. Confondre les deux est classique.
+> - XFS ne peut **que grandir**, pas rétrécir — choix de système de fichiers à anticiper.
 
 ## Énoncé
 

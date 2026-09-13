@@ -7,7 +7,6 @@ date: "2025-12-31"
 ---
 # Home and Daily Activities
 ## Asking Where Someone Is
-
 ```
 Q: Nyi nai bui? (Where are you?)
 A: Ngai buk kha (I'm at home)

@@ -10,6 +10,9 @@ date: 2026-03-22
 
 Les bases de données NoSQL (MongoDB, Redis, CouchDB, Cassandra) utilisent des formats de requêtes différents du SQL, mais restent vulnérables aux injections si les entrées utilisateur sont mal filtrées.
 
+> [!important] Différence avec l'injection SQL
+> L'injection SQL casse une syntaxe textuelle (guillemets, commentaires). L'injection NoSQL (MongoDB) exploite le fait que la requête est déjà une **structure de données** (JSON) — l'attaquant n'a pas besoin d'échapper quoi que ce soit, il lui suffit d'envoyer un objet (`{"$ne": ""}`) là où une simple chaîne était attendue.
+
 ## MongoDB
 
 ### Opérateurs de requête (vecteurs d'attaque)
@@ -118,6 +121,9 @@ while True:
 
 print(f"[+] Mot de passe : {found}")
 ```
+
+> [!tip] Méthode de détection générale
+> Remplacer systématiquement chaque paramètre censé être une simple chaîne par un objet JSON contenant un opérateur (`{"$ne": null}`, `{"$gt": ""}`). Si le comportement de l'application change (authentification réussie, résultats différents), la requête accepte des objets bruts sans validation de type.
 
 ### Énumération d'utilisateurs
 
@@ -235,6 +241,12 @@ if (error) return res.status(400).send("Invalid input");
 
 // Ne jamais accepter d'objets là où une string est attendue
 // Si password est un objet {$ne: ""} → l'erreur de validation le rejette
+```
+
+> [!warning] Piège fréquent
+> Valider seulement la présence des champs (`required()`) sans forcer leur **type** laisse la porte ouverte : un schéma qui vérifie juste "password existe" accepte toujours un objet `{"$ne": ""}` comme valeur de password. Le type doit être vérifié explicitement (`Joi.string()`), pas seulement la présence.
+
+```javascript
 
 // Mongoose — ne pas utiliser req.body directement
 // Mauvais

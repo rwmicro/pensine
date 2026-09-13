@@ -93,7 +93,8 @@ bloodhound-python -u user -p pass -d cible.com -ns DC_IP -c all
 # Puis import dans BloodHound GUI → graphes d'attaque
 ```
 
-**Pourquoi BloodHound est central** : il modélise l'AD comme un graphe. "Shortest path from owned principal to Domain Admins" répond automatiquement à la question "quel est le chemin d'attaque ?". Sans BloodHound, on fait ce travail à la main, mal.
+> [!tip] Pourquoi BloodHound est central
+> Il modélise l'AD comme un graphe. "Shortest path from owned principal to Domain Admins" répond automatiquement à la question "quel est le chemin d'attaque ?". Sans BloodHound, on fait ce travail à la main, mal.
 
 ## Attaques sans credentials initiaux
 
@@ -139,7 +140,8 @@ sudo ntlmrelayx.py -tf targets.txt -smb2support -c "whoami"
 sudo ntlmrelayx.py -tf targets.txt -smb2support --dump
 ```
 
-**Condition** : `SMB signing` non requis sur la cible relayée. Sur Windows 10/11 client, signing requis par défaut. Sur Servers, souvent non.
+> [!warning] Condition
+> `SMB signing` non requis sur la cible relayée. Sur Windows 10/11 client, signing requis par défaut. Sur Servers, souvent non.
 
 ### mitm6 — IPv6 DNS Takeover
 
@@ -271,10 +273,11 @@ secretsdump.py -ntds ntds.dit -system system.hive LOCAL
 
 ## Pièges courants
 
-- **Responder en pleine journée** : sur un réseau actif, les requêtes LLMNR pleuvent → on capte vite. Mais on perturbe aussi les vraies résolutions et on se fait remarquer.
-- **mitm6 casse IPv6 du réseau** : tous les Windows qui demandent IPv6 viennent vers toi. Sur un grand réseau, c'est un DoS. Limiter avec `--ignore-nofqdn` et un domaine cible précis.
-- **Kerberoasting AES256 (mode 19700) est BEAUCOUP plus lent à cracker** que RC4 (13100). Si tu vois `$krb5tgs$23$` = RC4 (rapide), `$krb5tgs$18$` = AES256.
-- **PsExec dépose un service temporaire** → loggé en event ID 7045. Préférer WMI ou WinRM quand possible.
-- **Golden Ticket avec mauvais SID** : le SID du domaine doit être correct. `whoami /user` sur un compte du domaine donne le SID, garder les 21-X-Y-Z (le RID final change).
-- **DCSync depuis un compte non-DA** : possible si ACL `Replicating Directory Changes` accordée. BloodHound le révèle. C'est une privesc en soi.
-- **Le compte krbtgt a deux historiques** : changer le mot de passe une fois ne suffit pas, car les Golden Tickets utilisent l'ancien hash encore valide. Il faut le changer deux fois rapidement.
+> [!warning] Pièges courants
+> - **Responder en pleine journée** : sur un réseau actif, les requêtes LLMNR pleuvent → on capte vite. Mais on perturbe aussi les vraies résolutions et on se fait remarquer.
+> - **mitm6 casse IPv6 du réseau** : tous les Windows qui demandent IPv6 viennent vers toi. Sur un grand réseau, c'est un DoS. Limiter avec `--ignore-nofqdn` et un domaine cible précis.
+> - **Kerberoasting AES256 (mode 19700) est BEAUCOUP plus lent à cracker** que RC4 (13100). Si tu vois `$krb5tgs$23$` = RC4 (rapide), `$krb5tgs$18$` = AES256.
+> - **PsExec dépose un service temporaire** → loggé en event ID 7045. Préférer WMI ou WinRM quand possible.
+> - **Golden Ticket avec mauvais SID** : le SID du domaine doit être correct. `whoami /user` sur un compte du domaine donne le SID, garder les 21-X-Y-Z (le RID final change).
+> - **DCSync depuis un compte non-DA** : possible si ACL `Replicating Directory Changes` accordée. BloodHound le révèle. C'est une privesc en soi.
+> - **Le compte krbtgt a deux historiques** : changer le mot de passe une fois ne suffit pas, car les Golden Tickets utilisent l'ancien hash encore valide. Il faut le changer deux fois rapidement.

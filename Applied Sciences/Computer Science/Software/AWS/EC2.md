@@ -66,6 +66,9 @@ pending → running → stopping → stopped → starting → running
 
 **terminated** : instance supprimée définitivement. Volume EBS root supprimé par défaut.
 
+> [!warning] Piège fréquent
+> Par défaut, le volume EBS **root** est supprimé avec l'instance à la terminaison (`DeleteOnTermination=true`) — mais pas les volumes EBS additionnels attachés. Si des données critiques sont sur le root volume, vérifier ce flag ou faire un snapshot avant de terminer une instance.
+
 ```bash
 # Lancer une instance
 aws ec2 run-instances \
@@ -248,6 +251,9 @@ systemctl enable --now nginx
 
 Chaque instance peut interroger ses propres métadonnées sans credentials.
 
+> [!important] IMDSv1 vs IMDSv2
+> IMDSv1 répond à une simple requête GET, sans authentification — une faille SSRF côté application suffit alors à en extraire les credentials IAM du rôle attaché. IMDSv2 exige d'abord un token via PUT, ce qu'une requête SSRF classique (souvent limitée au GET) ne peut pas reproduire. Toujours forcer IMDSv2 (`HttpTokens: required`) sur les instances en production.
+
 ```bash
 # IMDSv2 (recommandé — protège contre les attaques SSRF)
 TOKEN=$(curl -X PUT "http://169.254.169.254/latest/api/token" \
@@ -274,3 +280,6 @@ curl -H "X-aws-ec2-metadata-token: $TOKEN" \
 | Dedicated Host | Serveur physique dédié | Variable |
 
 **Spot Instances** : instances interruptibles avec 2 minutes de préavis. Idéales pour les workloads tolérants aux interruptions : calcul scientifique, rendering, Big Data, CI/CD.
+
+> [!tip] Comment choisir un type d'instance
+> Partir du goulot d'étranglement de l'application, pas du prix : CPU-bound (encodage, calcul) → famille `c` ; RAM-bound (cache, BDD in-memory) → famille `r` ; charge variable/imprévisible (dev, petits sites) → famille `t` burstable. Choisir une famille mal adaptée coûte souvent plus cher qu'une instance plus grosse mais bien dimensionnée.

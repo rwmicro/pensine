@@ -10,6 +10,9 @@ date: 2026-03-23
 
 Les relations d'approbation (trusts) entre domaines et forêts Active Directory permettent à des utilisateurs d'un domaine d'accéder aux ressources d'un autre. Ces relations créent des vecteurs d'escalade latérale permettant de passer d'un domaine compromis à un domaine parent ou à une forêt entière.
 
+> [!important] Idée clé
+> Un trust n'est pas symétrique en confiance ni forcément transitif — compromettre un domaine enfant peu sécurisé peut suffire à remonter jusqu'au domaine parent via la clé de trust ou le SID History, même si le parent lui-même est bien protégé.
+
 ## Concepts — Trusts AD
 
 ```
@@ -237,11 +240,12 @@ Détection :
 
 ## Pièges courants
 
-- **Direction du trust ≠ direction de la confiance** : si `domain-A` "trusts" `domain-B`, les utilisateurs de `domain-B` peuvent accéder aux ressources de `domain-A` (et non l'inverse). La direction de la flèche dans `nltest` est l'inverse de l'intuition. Toujours vérifier avec `Get-DomainTrust` quel mode "Bidirectional" est clair.
-- **Forest Trust = transitif, External Trust = non** : un Forest Trust permet de naviguer toute la forêt distante. Un External Trust ne couvre QUE le domaine ciblé. Sortir d'un External Trust nécessite un nouveau trust.
-- **SID Filtering désactivé entre Parent/Child** : par défaut, dans une même forêt, le SID Filtering n'est pas appliqué entre parent et enfants. Compromettre un domaine enfant = injecter Enterprise Admin via SID History dans le parent.
-- **SID Filtering peut être désactivé sur External Trust** : `netdom trust /Quarantine:no` (souvent fait pour résoudre des problèmes legacy) ouvre la porte à SID History injection cross-forest.
-- **Selective Authentication** : sur un Forest Trust en Selective Auth, les users distants ne peuvent accéder QU'aux ressources où on leur a explicitement donné le droit "Allowed to Authenticate". Beaucoup moins permissif que Forest Trust standard.
-- **Domain Trust transitivity** : si A trusts B, et B trusts C, alors A ne trusts PAS forcément C. Sauf cas spécifiques (Forest Trust within forest = transitive, External = non-transitive).
-- **Compte krbtgt de chaque domaine** : compromis un krbtgt dans un domaine = Golden Ticket UNIQUEMENT pour ce domaine. Pas cross-domain. Pour pivoter, il faut le krbtgt de chaque cible.
-- **Trust account** : entre deux domaines, il existe un compte de service caché (`DOMAIN$`). Son hash crackable permet de forger des TGT inter-domaines. Vu rarement, mais possible avec DCSync sur les deux DCs.
+> [!warning] Pièges courants
+> - **Direction du trust ≠ direction de la confiance** : si `domain-A` "trusts" `domain-B`, les utilisateurs de `domain-B` peuvent accéder aux ressources de `domain-A` (et non l'inverse). La direction de la flèche dans `nltest` est l'inverse de l'intuition. Toujours vérifier avec `Get-DomainTrust` quel mode "Bidirectional" est clair.
+> - **Forest Trust = transitif, External Trust = non** : un Forest Trust permet de naviguer toute la forêt distante. Un External Trust ne couvre QUE le domaine ciblé. Sortir d'un External Trust nécessite un nouveau trust.
+> - **SID Filtering désactivé entre Parent/Child** : par défaut, dans une même forêt, le SID Filtering n'est pas appliqué entre parent et enfants. Compromettre un domaine enfant = injecter Enterprise Admin via SID History dans le parent.
+> - **SID Filtering peut être désactivé sur External Trust** : `netdom trust /Quarantine:no` (souvent fait pour résoudre des problèmes legacy) ouvre la porte à SID History injection cross-forest.
+> - **Selective Authentication** : sur un Forest Trust en Selective Auth, les users distants ne peuvent accéder QU'aux ressources où on leur a explicitement donné le droit "Allowed to Authenticate". Beaucoup moins permissif que Forest Trust standard.
+> - **Domain Trust transitivity** : si A trusts B, et B trusts C, alors A ne trusts PAS forcément C. Sauf cas spécifiques (Forest Trust within forest = transitive, External = non-transitive).
+> - **Compte krbtgt de chaque domaine** : compromis un krbtgt dans un domaine = Golden Ticket UNIQUEMENT pour ce domaine. Pas cross-domain. Pour pivoter, il faut le krbtgt de chaque cible.
+> - **Trust account** : entre deux domaines, il existe un compte de service caché (`DOMAIN$`). Son hash crackable permet de forger des TGT inter-domaines. Vu rarement, mais possible avec DCSync sur les deux DCs.

@@ -10,6 +10,9 @@ date: "2026-02-24"
 
 La complexité algorithmique mesure la quantité de ressources consommées par un algorithme en fonction de la taille de l'entrée. Elle permet de comparer des algorithmes indépendamment du matériel ou du langage.
 
+> [!important] Idée clé
+> La complexité ne mesure pas un temps en secondes, mais la **vitesse de croissance** du coût quand l'entrée grandit. Un algorithme O(n²) sur une entrée minuscule peut être plus rapide en pratique qu'un O(n log n) mal implémenté — Big O décrit le comportement asymptotique, pas la performance réelle sur une taille donnée.
+
 ## Notations asymptotiques
 
 ### Big O — borne supérieure (pire cas)
@@ -113,6 +116,9 @@ for i in range(n):
 # Nombre d'opérations : n + (n-1) + ... + 1 = n(n+1)/2 → O(n²)
 ```
 
+> [!warning] Piège fréquent
+> La boucle interne fait de moins en moins de tours à chaque itération de la boucle externe — on est tenté de croire que c'est "moins que O(n²)". Mais une somme d'entiers de 1 à n vaut n(n+1)/2, qui reste **O(n²)** : diviser par une constante (ici 2) ne change jamais la classe de complexité.
+
 ## Meilleur cas, cas moyen, pire cas
 
 ```python
@@ -203,12 +209,15 @@ Pour les récurrences de la forme T(n) = aT(n/b) + O(n^d) :
 | d = log_b(a) | O(n^d · log n) |
 | d < log_b(a) | O(n^(log_b a)) |
 
+> [!tip] Méthode d'application
+> 1. Identifier **a** (combien d'appels récursifs), **b** (par quel facteur la taille diminue) et **d** (le coût hors récursion).
+> 2. Comparer d à log_b(a) — c'est ce rapport, pas les valeurs brutes, qui détermine le terme dominant.
+
 Application au tri fusion : a=2, b=2, d=1 → log₂(2) = 1 = d → O(n log n)
 
 ## Pièges courants
 
-**Ignorer les constantes peut induire en erreur en pratique.** O(100n) est O(n), mais peut être plus lent qu'O(n²) pour de petits n.
-
-**L'espace et le temps sont souvent en compromis.** La mémoïsation améliore le temps au prix de l'espace.
-
-**L'amortissement** : certaines opérations coûtent O(n) ponctuellement mais O(1) amorti sur une séquence (ex : ajout en fin de liste dynamique).
+> [!warning] Erreurs classiques
+> - **Ignorer les constantes** peut induire en erreur en pratique : O(100n) reste O(n) en notation, mais peut être plus lent qu'O(n²) pour de petits n — Big O ne dit rien sur le seuil où l'algorithme "asymptotiquement meilleur" devient réellement meilleur.
+> - **Espace et temps sont souvent en compromis** : la mémoïsation améliore le temps au prix de l'espace (voir l'exemple Fibonacci ci-dessus).
+> - **L'amortissement** trompe l'analyse au cas par cas : certaines opérations coûtent O(n) ponctuellement mais O(1) amorti sur une séquence (ex : ajout en fin de liste dynamique qui double sa capacité).

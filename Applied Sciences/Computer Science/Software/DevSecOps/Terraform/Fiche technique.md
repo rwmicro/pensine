@@ -10,12 +10,18 @@ date: "2025-05-04"
 
 Terraform (HashiCorp) est un outil d'**Infrastructure as Code** (IaC) qui permet de provisionner et gérer des ressources cloud de manière déclarative et reproductible.
 
+> [!important] Déclaratif, pas impératif
+> On décrit l'état final souhaité (« il doit exister une instance t2.micro »), pas la suite d'actions pour y arriver. Terraform calcule lui-même le diff entre l'état actuel et l'état voulu (`terraform plan`) et détermine les opérations nécessaires — créer, modifier en place, ou détruire-recréer selon la ressource.
+
 ### Commandes utiles `v1.8`
 - `terraform init` -> initialisation de la config
 - `terraform validate` -> Validation de la config
 - `terraform plan` -> Visualiser les modifications qui seront appliquées
 - `terraform apply` -> Appliquer les modifications
 - `terraform destroy` -> Détruire les modifications
+
+> [!warning] Piège
+> `terraform apply` sans avoir lu le `plan` correspondant peut détruire et recréer une ressource de production quand un attribut modifié force un remplacement (ex. changer l'AZ d'une instance) — Terraform le signale dans le plan (`-/+`), mais rien n'empêche de l'appliquer sans le lire. Toujours lire le plan avant d'appliquer, surtout sur un environnement partagé.
 - `terraform fmt` -> Formater les fichiers `.tf` à la syntaxe Terraform
 - `terraform output`
    - Extraire les valeurs des sorties définies dans le fichier de configuration.

@@ -4,13 +4,13 @@
 
 Le swap est un espace disque qui sert d'extension à la RAM : quand la mémoire physique se remplit, le noyau y déplace des pages peu utilisées. Il évite l'arrêt brutal de processus (l'OOM killer) au prix de lenteurs.
 
-**Modèle mental : fichier de swap vs partition de swap.** Deux formes, même rôle :
-
-```
-swap = RAM "de secours" sur disque
-   ├─ fichier  (/swapfile)      → souple, redimensionnable, créé n'importe où
-   └─ partition (/dev/vdc1)     → historique, légèrement plus rapide, taille figée
-```
+> [!tip] Modèle mental : fichier de swap vs partition de swap
+> Deux formes, même rôle :
+> ```
+> swap = RAM "de secours" sur disque
+>    ├─ fichier  (/swapfile)      → souple, redimensionnable, créé n'importe où
+>    └─ partition (/dev/vdc1)     → historique, légèrement plus rapide, taille figée
+> ```
 
 Les deux passent par le **même trio de commandes** — c'est l'idée à retenir :
 ```bash
@@ -34,11 +34,11 @@ swapon --show        # zones de swap actives et leur priorité
 free -h              # RAM + swap utilisés
 ```
 
-**Pièges** :
-- Un fichier de swap **doit** être en `chmod 600` et appartenir à root, sinon `swapon` refuse (avertissement de sécurité).
-- `swapon` seul ne survit pas au reboot : ligne `fstab` obligatoire pour la persistance.
-- `fallocate` peut échouer pour le swap sur certains FS (Btrfs) ; `dd if=/dev/zero ...` est l'alternative portable.
-- La priorité (`pri=`) départage plusieurs zones : utile pour préférer la partition rapide au fichier.
+> [!warning] Pièges
+> - Un fichier de swap **doit** être en `chmod 600` et appartenir à root, sinon `swapon` refuse (avertissement de sécurité).
+> - `swapon` seul ne survit pas au reboot : ligne `fstab` obligatoire pour la persistance.
+> - `fallocate` peut échouer pour le swap sur certains FS (Btrfs) ; `dd if=/dev/zero ...` est l'alternative portable.
+> - La priorité (`pri=`) départage plusieurs zones : utile pour préférer la partition rapide au fichier.
 
 ## Énoncé
 

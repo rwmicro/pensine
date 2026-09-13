@@ -54,7 +54,8 @@ netdiscover -r 192.168.1.0/24         # passif si pas d'option -p
 nmap -sn --send-eth 192.168.1.0/24
 ```
 
-**Pourquoi ARP scan bat ping sweep en local** : ARP est obligatoire pour communiquer sur Ethernet. Un firewall hôte peut bloquer ICMP, mais ne peut pas bloquer l'ARP sans se déconnecter du réseau.
+> [!tip] Pourquoi ARP scan bat ping sweep en local
+> ARP est obligatoire pour communiquer sur Ethernet. Un firewall hôte peut bloquer ICMP, mais ne peut pas bloquer l'ARP sans se déconnecter du réseau.
 
 ## Scan de ports
 
@@ -93,7 +94,8 @@ nmap -sU --top-ports 50 IP
 nmap -T2 -f --data-length 25 IP
 ```
 
-**À retenir** : `nmap -T4 -p-` d'abord pour avoir la liste, puis `nmap -sC -sV` ciblé sur les ports ouverts. Lancer `-sC -sV -p-` direct est inutilement lent.
+> [!important] À retenir
+> `nmap -T4 -p-` d'abord pour avoir la liste, puis `nmap -sC -sV` ciblé sur les ports ouverts. Lancer `-sC -sV -p-` direct est inutilement lent.
 
 ## Énumération DNS
 
@@ -113,7 +115,8 @@ fierce --domain cible.com
 gobuster dns -d cible.com -w wordlist.txt
 ```
 
-**Zone transfer** = misconfig classique. Un DNS qui répond à AXFR depuis n'importe quelle IP donne instantanément toute la cartographie interne. Ça vaut toujours la peine d'essayer.
+> [!tip] Zone transfer = misconfig classique
+> Un DNS qui répond à AXFR depuis n'importe quelle IP donne instantanément toute la cartographie interne. Ça vaut toujours la peine d'essayer.
 
 ## Énumération web
 
@@ -131,7 +134,8 @@ ffuf -u http://IP/FUZZ -w wordlist.txt
 ffuf -u "http://IP/page.php?FUZZ=value" -w params.txt -fs SIZE_BASELINE
 ```
 
-**Pourquoi ffuf/feroxbuster > gobuster aujourd'hui** : plus rapides, meilleur filtrage des faux positifs (option `-fs` pour exclure une taille de réponse, `-fc` pour un code).
+> [!tip] Pourquoi ffuf/feroxbuster > gobuster aujourd'hui
+> Plus rapides, meilleur filtrage des faux positifs (option `-fs` pour exclure une taille de réponse, `-fc` pour un code).
 
 ## Énumération par service
 
@@ -152,9 +156,10 @@ Documenter au fur et à mesure est non négociable. Sur un engagement avec 50 h�
 
 ## Pièges courants
 
-- **`-p-` est lent** : sur une cible avec firewall, prévoir du temps ou paralléliser plusieurs cibles avec `-iL targets.txt`.
-- **Les ports "filtered" ne sont pas "fermés"** : un firewall les drop sans répondre. Parfois un autre type de scan (`-sA` ACK) révèle la règle de filtrage.
-- **UDP est piégeux** : "open|filtered" = pas de réponse. Combiner avec des scripts NSE spécifiques au service suspect.
-- **Le rate-limiting nmap** : `-T4` est ok sur réseau interne, `-T5` peut perdre des paquets et créer des faux négatifs.
-- **Trop scanner = se faire bloquer** : sur des cibles externes, un scan agressif déclenche le WAF/IDS et bannit ton IP. Adapter `-T` et `--max-rate`.
-- **Ne jamais oublier IPv6** : `nmap -6 ...`. Beaucoup de cibles ont des services IPv6 non filtrés alors que l'IPv4 est verrouillée.
+> [!warning] Pièges courants
+> - **`-p-` est lent** : sur une cible avec firewall, prévoir du temps ou paralléliser plusieurs cibles avec `-iL targets.txt`.
+> - **Les ports "filtered" ne sont pas "fermés"** : un firewall les drop sans répondre. Parfois un autre type de scan (`-sA` ACK) révèle la règle de filtrage.
+> - **UDP est piégeux** : "open|filtered" = pas de réponse. Combiner avec des scripts NSE spécifiques au service suspect.
+> - **Le rate-limiting nmap** : `-T4` est ok sur réseau interne, `-T5` peut perdre des paquets et créer des faux négatifs.
+> - **Trop scanner = se faire bloquer** : sur des cibles externes, un scan agressif déclenche le WAF/IDS et bannit ton IP. Adapter `-T` et `--max-rate`.
+> - **Ne jamais oublier IPv6** : `nmap -6 ...`. Beaucoup de cibles ont des services IPv6 non filtrés alors que l'IPv4 est verrouillée.

@@ -84,6 +84,9 @@ GET /api/v1/produits?categorie=informatique&prix_min=100&prix_max=500
 
 **PUT vs PATCH** : PUT remplace entièrement la ressource (les champs absents sont supprimés/remis à défaut). PATCH ne modifie que les champs fournis.
 
+> [!warning] Piège fréquent
+> Utiliser PUT en envoyant seulement les champs modifiés (comme un PATCH) efface silencieusement tous les champs omis côté serveur — un comportement souvent découvert en production plutôt qu'en test, quand un client envoie un objet partiel par erreur ou par optimisation.
+
 ## Codes de réponse HTTP
 
 ### 2xx — Succès
@@ -178,6 +181,9 @@ GET /api/v1/produits?categorie=informatique&prix_min=100&prix_max=500
 
 La stratégie URL path (`/v1/`, `/v2/`) est la plus courante et la plus claire.
 
+> [!important] Versionner n'est pas gratuit
+> Chaque version active doit être maintenue en parallèle (bugs de sécurité corrigés partout, pas seulement sur la dernière). Une API qui accumule les versions sans jamais en retirer finit par payer un coût de maintenance croissant — prévoir une politique de dépréciation (durée de support, header `Sunset`) dès la première version.
+
 ## Pagination
 
 ### Offset/Limit
@@ -187,6 +193,9 @@ GET /api/clients?offset=40&limit=20  # Page 3 de 20
 ```
 
 Simple à comprendre mais inefficace pour les grandes tables (SQL `OFFSET 1000000` lit et ignore 1 million de lignes).
+
+> [!tip] Quand basculer vers keyset
+> Offset/limit reste acceptable tant que les pages restent proches du début ou que la table est petite. Dès qu'une pagination profonde sur une grande table devient un usage réel (pas juste un cas limite théorique), le coût de `OFFSET` croît linéairement avec la position — keyset pagination (ci-dessous) devient alors nécessaire, au prix de perdre le saut direct à une page arbitraire.
 
 ### Keyset Pagination (Cursor-based)
 

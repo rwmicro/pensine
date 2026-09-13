@@ -78,6 +78,9 @@ CREATE TABLE inscriptions (
 
 Recommandation : utiliser des clés surrogates (SERIAL/UUID) comme clé primaire, et des contraintes UNIQUE sur les clés naturelles.
 
+> [!warning] Piège
+> Une clé naturelle qui semble immuable (email, numéro de sécurité sociale) peut changer un jour — et si elle est utilisée comme clé primaire, ce changement se propage à toutes les clés étrangères qui la référencent. Une clé surrogate ne change jamais de sens, même si les attributs métier associés évoluent.
+
 ## Intégrité
 
 ### Intégrité de domaine
@@ -189,6 +192,12 @@ INSCRIPTION(etudiant_id, prof)
 ### Dénormalisation
 
 En pratique, on dénormalise parfois pour des raisons de performance : on accepte de la redondance contrôlée pour éviter des jointures coûteuses. Les data warehouses sont généralement fortement dénormalisés (schéma en étoile ou en flocon).
+
+> [!important] Idée clé
+> Normaliser élimine la redondance et les anomalies de mise à jour ; dénormaliser réintroduit de la redondance pour gagner en vitesse de lecture. Ce n'est pas une erreur de dénormaliser — c'est un compromis délibéré, à ne prendre qu'après avoir mesuré un vrai problème de performance, pas par anticipation.
+
+> [!tip] Méthode pour trouver la forme normale violée
+> Chercher d'abord une valeur non atomique dans une cellule (1NF), puis un attribut qui ne dépend que d'une partie d'une clé composite (2NF), puis un attribut qui dépend d'un autre attribut non-clé plutôt que de la clé elle-même (3NF). S'arrêter à la première violation trouvée — c'est elle qui cause l'anomalie observée.
 
 ## Algèbre relationnelle
 

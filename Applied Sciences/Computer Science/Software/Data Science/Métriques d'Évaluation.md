@@ -33,7 +33,9 @@ Réel Négatif            FP                TN
 ```
 Accuracy = (TP + TN) / (TP + TN + FP + FN)
 ```
-*Problème* : trompeuse sur les données déséquilibrées. 99% d'accuracy si on prédit toujours la classe majoritaire à 99%.
+
+> [!warning] Piège classique
+> Trompeuse sur les données déséquilibrées : 99% d'accuracy si on prédit toujours la classe majoritaire à 99%, sans avoir rien appris de discriminant. Toujours vérifier la distribution des classes avant de se fier à l'accuracy seule.
 
 **Précision**
 ```
@@ -91,6 +93,9 @@ graph LR
 ### Courbe Précision-Rappel (PR Curve)
 
 Préférée à la ROC quand les classes sont très déséquilibrées (peu de positifs). L'AUC-PR est plus informative dans ce cas.
+
+> [!important] Pourquoi la ROC trompe sur données déséquilibrées
+> Le taux de faux positifs (axe X de la ROC) est divisé par le nombre de vrais négatifs, très nombreux quand les classes sont déséquilibrées — un grand nombre de faux positifs reste donc numériquement petit en proportion, et l'AUC-ROC peut sembler excellente alors que la precision réelle du modèle est mauvaise. La PR Curve n'a pas ce biais car elle ne fait jamais intervenir les vrais négatifs.
 
 ### Classification multiclasse
 
@@ -201,6 +206,9 @@ Perplexité = exp(-1/N × Σ log P(wᵢ | contexte))
 - Perplexité faible → modèle assigne des probabilités élevées aux bons mots
 - Comparable seulement sur le même vocabulaire et tokenizer
 - GPT-3 : ~20 sur WikiText-103
+
+> [!warning] Piège fréquent
+> Comparer la perplexité de deux modèles utilisant des tokenizers différents n'a **aucun sens** — un vocabulaire plus fin (plus de tokens, unités plus petites) change mécaniquement l'échelle de la perplexité, indépendamment de la qualité réelle du modèle.
 
 ### BERTScore
 

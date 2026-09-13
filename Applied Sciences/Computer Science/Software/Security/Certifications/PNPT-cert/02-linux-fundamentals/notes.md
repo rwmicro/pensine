@@ -39,7 +39,8 @@ uname -a                     # noyau + architecture
 id                           # qui je suis + mes groupes (clé en privesc)
 ```
 
-**Pourquoi `id` est important** : en pentest, dès que tu obtiens un shell, c'est la première commande à lancer. Elle te dit ton UID, ton GUID, et surtout tes groupes secondaires — appartenir au groupe `docker` ou `lxd` = root immédiat.
+> [!tip] Pourquoi `id` est important
+> En pentest, dès que tu obtiens un shell, c'est la première commande à lancer. Elle te dit ton UID, ton GUID, et surtout tes groupes secondaires — appartenir au groupe `docker` ou `lxd` = root immédiat.
 
 ## Permissions
 
@@ -65,7 +66,8 @@ chmod 600 ~/.ssh/id_rsa      # rw------- : clé privée, lisible uniquement par 
 chmod u+s /usr/bin/binaire   # bit SUID : exécuter avec les droits du propriétaire (souvent root)
 ```
 
-**À retenir** : un binaire SUID root mal configuré = privilege escalation. La commande `find / -perm -4000 2>/dev/null` liste tous les SUID — c'est un réflexe en post-exploitation.
+> [!important] À retenir
+> Un binaire SUID root mal configuré = privilege escalation. La commande `find / -perm -4000 2>/dev/null` liste tous les SUID — c'est un réflexe en post-exploitation.
 
 ## Utilisateurs et authentification
 
@@ -89,7 +91,8 @@ alice:x:1001:1001:Alice Martin,,,:/home/alice:/bin/bash
   nom d'utilisateur
 ```
 
-**Piège courant** : un compte avec UID 0 et un nom différent de `root` = backdoor classique. Regarder les UID 0 multiples (`awk -F: '$3==0 {print $1}' /etc/passwd`) est un réflexe défensif.
+> [!warning] Piège courant
+> Un compte avec UID 0 et un nom différent de `root` = backdoor classique. Regarder les UID 0 multiples (`awk -F: '$3==0 {print $1}' /etc/passwd`) est un réflexe défensif.
 
 ## Services et processus
 
@@ -128,8 +131,9 @@ scp fichier user@cible:/tmp/
 
 ## Pièges courants
 
-- **`cat /etc/shadow` échoue silencieusement sans sudo** — ne pas conclure que le fichier n'existe pas.
-- **`find / -name ...` génère des tonnes d'erreurs** — toujours rediriger : `find / -name "*.conf" 2>/dev/null`.
-- **`locate` peut renvoyer un cache obsolète** — `updatedb` met à jour la base mais nécessite root et peut être désactivé.
-- **`/tmp` est world-writable** — n'y laisser jamais de fichiers sensibles, et inversement, c'est un endroit privilégié pour déposer des binaires d'attaque.
-- **Le shell par défaut peut être `sh` au lieu de `bash`** — certains scripts bash échouent silencieusement. Vérifier avec `echo $SHELL`.
+> [!warning] Pièges courants
+> - **`cat /etc/shadow` échoue silencieusement sans sudo** — ne pas conclure que le fichier n'existe pas.
+> - **`find / -name ...` génère des tonnes d'erreurs** — toujours rediriger : `find / -name "*.conf" 2>/dev/null`.
+> - **`locate` peut renvoyer un cache obsolète** — `updatedb` met à jour la base mais nécessite root et peut être désactivé.
+> - **`/tmp` est world-writable** — n'y laisser jamais de fichiers sensibles, et inversement, c'est un endroit privilégié pour déposer des binaires d'attaque.
+> - **Le shell par défaut peut être `sh` au lieu de `bash`** — certains scripts bash échouent silencieusement. Vérifier avec `echo $SHELL`.

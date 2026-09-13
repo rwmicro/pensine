@@ -5,10 +5,11 @@ subdomain: informatique / machine-learning
 tags: [biais-variance, régularisation, overfitting, underfitting, généralisation, machine-learning]
 date: 2026-08-24
 ---
-
 # Biais-Variance et Régularisation
-
 Un modèle qui obtient un excellent score sur ses données d'entraînement mais s'effondre sur des données nouvelles n'a rien appris d'utile. Comprendre **pourquoi** un modèle généralise mal — et pas seulement le constater — est la clé pour choisir le bon remède : plus de données, un modèle différent, ou de la régularisation.
+
+> [!important] Idée clé
+> Biais et variance ne sont pas deux défauts indépendants à corriger séparément : ce sont les deux faces d'un même compromis. Réduire l'un augmente presque toujours l'autre, le but n'est jamais de les annuler tous les deux, mais de trouver le point où leur somme (l'erreur de généralisation) est minimale.
 
 ## Sous-apprentissage et sur-apprentissage : rappel
 
@@ -50,10 +51,10 @@ $$\text{Erreur} = \underbrace{\text{Biais}^2}_{\text{modèle trop simple}} + \un
 
 **Analogie du tir à la cible :**
 
-| | Biais faible | Biais élevé |
-|---|---|---|
-| **Variance faible** | Tirs groupés au centre — bon modèle | Tirs groupés, mais loin du centre — sous-apprentissage |
-| **Variance élevée** | Tirs dispersés, centrés en moyenne — sur-apprentissage | Tirs dispersés et loin du centre — pire cas |
+|                     | Biais faible                                           | Biais élevé                                            |
+| ------------------- | ------------------------------------------------------ | ------------------------------------------------------ |
+| **Variance faible** | Tirs groupés au centre, bon modèle                     | Tirs groupés, mais loin du centre — sous-apprentissage |
+| **Variance élevée** | Tirs dispersés, centrés en moyenne — sur-apprentissage | Tirs dispersés et loin du centre — pire cas            |
 
 ```mermaid
 graph TD
@@ -102,6 +103,9 @@ graph LR
 | **Underfitting** (biais élevé) | Modèle plus complexe, plus de features, plus d'epochs, réduire la régularisation |
 | **Overfitting** (variance élevée) | Plus de données, régularisation (ci-dessous), simplifier le modèle, cross-validation, dropout, early stopping |
 
+> [!warning] Piège fréquent
+> Face à un mauvais score de validation, le réflexe est souvent d'ajouter de la régularisation par défaut. Mais si le diagnostic réel est un **underfitting** (erreur déjà élevée sur le train), ajouter de la régularisation aggrave le problème — elle réduit encore la capacité d'un modèle qui manquait déjà de capacité. Toujours diagnostiquer avant de traiter.
+
 ## Régularisation : le principe général
 
 La régularisation ajoute une **contrainte ou une pénalité** au modèle pour réduire sa variance, au prix d'un léger biais supplémentaire — un échange délibéré, presque toujours favorable quand le modèle overfit.
@@ -122,7 +126,8 @@ $$\mathcal{L}_{\text{lasso}} = \mathcal{L}_{\text{originale}} + \lambda \sum_{i}
 
 **Effet** : pousse certains coefficients **exactement à zéro** — Lasso réalise donc une **sélection de features** automatique (voir [[Feature Engineering et Prétraitement]]).
 
-**Pourquoi L1 produit de la parcimonie et pas L2 ?** Intuition géométrique : la région de contrainte de L1 est un losange (des coins pointus sur les axes), celle de L2 est un cercle. Le point optimal de la fonction de perte, projeté sur cette région, tombe plus souvent exactement sur un axe (coefficient nul) avec le losange qu'avec le cercle.
+> [!tip] Pourquoi L1 produit de la parcimonie et pas L2 ?
+> Intuition géométrique : la région de contrainte de L1 est un losange (des coins pointus sur les axes), celle de L2 est un cercle. Le point optimal de la fonction de perte, projeté sur cette région, tombe plus souvent exactement sur un axe (coefficient nul) avec le losange qu'avec le cercle.
 
 ```mermaid
 graph LR

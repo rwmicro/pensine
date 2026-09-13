@@ -19,6 +19,9 @@ Entraîner un modèle de deep learning depuis zéro nécessite :
 
 Le fine-tuning permet de **réutiliser les connaissances** déjà acquises par un modèle existant et de les adapter à moindre coût.
 
+> [!important] Distinction clé
+> Transfer learning est le principe général (réutiliser un modèle pré-entraîné) ; fine-tuning en est une forme spécifique où l'on continue réellement l'entraînement (au moins partiellement) plutôt que de figer tout le backbone.
+
 ```mermaid
 graph LR
     subgraph "Entraînement classique"
@@ -133,6 +136,9 @@ $$W' = W + \Delta W = W + BA$$
 - Pas de latence supplémentaire en inférence (on fusionne $W + BA$)
 - Facilement interchangeable (on peut stocker plusieurs adaptateurs LoRA)
 
+> [!tip] Choisir le rang r
+> Un rang trop faible (r=1-2) peut manquer de capacité pour des adaptations complexes ; un rang trop élevé se rapproche du fine-tuning complet sans en garder les bénéfices. En pratique, r=8 à 16 suffit pour la plupart des adaptations de style/domaine ; monter à 32-64 seulement pour des tâches qui demandent d'apprendre des connaissances nouvelles substantielles.
+
 #### QLoRA (Quantized LoRA)
 
 Combine la **quantification** du modèle de base avec LoRA :
@@ -169,14 +175,10 @@ Combine la **quantification** du modèle de base avec LoRA :
 | **Warmup** | 5-10% des steps | Montée progressive du learning rate |
 | **Weight decay** | 0.01 à 0.1 | Régularisation |
 
-### Pièges à éviter
-
-- **Catastrophic forgetting** : le modèle oublie ses connaissances d'origine en s'adaptant trop à la nouvelle tâche
-  - Solution : learning rate faible, régularisation, dégel progressif
-- **Overfitting** : le modèle mémorise le dataset de fine-tuning
-  - Solution : data augmentation, early stopping, dropout
-- **Learning rate trop élevé** : détruit les poids pré-entraînés
-  - Solution : commencer très bas, utiliser un warmup
+> [!warning] Pièges à éviter
+> - **Catastrophic forgetting** : le modèle oublie ses connaissances d'origine en s'adaptant trop à la nouvelle tâche → learning rate faible, régularisation, dégel progressif.
+> - **Overfitting** : le modèle mémorise le dataset de fine-tuning → data augmentation, early stopping, dropout.
+> - **Learning rate trop élevé** : détruit les poids pré-entraînés en une ou deux étapes → commencer très bas, utiliser un warmup.
 
 ## Quand choisir quelle méthode ?
 

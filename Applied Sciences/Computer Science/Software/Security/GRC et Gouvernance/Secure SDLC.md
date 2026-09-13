@@ -10,6 +10,9 @@ date: 2026-03-22
 
 Le Secure Software Development Lifecycle (Secure SDLC) intègre la sécurité à chaque phase du cycle de développement, plutôt que de l'ajouter en fin de projet. Le coût de correction d'une vulnérabilité est 100× plus faible si détectée en conception qu'en production.
 
+> [!important] Idée clé
+> Un pentest juste avant la mise en production trouve les mêmes classes de failles qu'un threat modeling en conception, mais à un coût de correction beaucoup plus élevé (architecture déjà figée, code déjà écrit). Le Secure SDLC ne remplace pas le pentest final : il déplace l'essentiel de la détection le plus tôt possible dans le cycle.
+
 ## Intégration de la sécurité dans le SDLC
 
 ```mermaid
@@ -204,6 +207,9 @@ secret = client.get_secret_value(SecretId='myapp/api-key')
 ### SAST — Static Application Security Testing
 
 Analyse le code source sans exécuter le programme.
+
+> [!tip] SAST, SCA, DAST — trois analyses complémentaires, pas interchangeables
+> SAST lit le code source à la recherche de patterns dangereux (mais ne voit pas les vulnérabilités runtime). SCA (plus bas) vérifie les dépendances tierces contre des CVE connues (mais ignore le code que vous avez écrit vous-même). DAST (plus bas) attaque l'application en cours d'exécution comme le ferait un pentester (mais ne voit pas la ligne de code fautive). Un pipeline mature combine les trois — aucun ne couvre le périmètre des deux autres.
 
 | Outil | Langage | Intégration |
 |---|---|---|

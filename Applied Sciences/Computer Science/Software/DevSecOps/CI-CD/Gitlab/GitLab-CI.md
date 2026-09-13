@@ -82,6 +82,9 @@ deploy_job:
 
 Les variables sensibles (comme les tokens API) peuvent être ajoutées dans les paramètres de projet sous **Settings > CI/CD > Variables** et marquées comme "Protected" ou "Masked".
 
+> [!warning] Piège
+> "Masked" cache seulement la valeur dans les logs — ça n'empêche pas un job d'y accéder. "Protected" restreint la variable aux pipelines lancés depuis une branche/tag protégé. Une variable sensible non protégée reste exploitable par n'importe quel job sur n'importe quelle branche, y compris une branche créée par un contributeur externe sur un dépôt public.
+
 #### 3. Artifacts et Caches
 
 ##### 3.1. Artifacts
@@ -157,6 +160,9 @@ test_job:
 
 Les jobs peuvent dépendre d'autres jobs.
 
+> [!important] `needs` change l'ordre d'exécution
+> Sans `needs`, les jobs d'un stage attendent que **tout** le stage précédent se termine avant de démarrer (exécution par stages, séquentielle). Avec `needs`, un job démarre dès que ses dépendances explicites sont terminées, même si d'autres jobs du même stage précédent tournent encore — ça transforme le pipeline linéaire en graphe (DAG), souvent plus rapide.
+
 ```yaml
 deploy_job:
   stage: deploy
@@ -199,6 +205,9 @@ include:
 - **Pipeline Stages** : Divisez les pipelines en stages logiques (build, test, deploy).
 
 ##### 7.3. Gestion des Erreurs
+
+> [!tip] Usage typique
+> Réserver `allow_failure: true` aux jobs informatifs (linting non bloquant, tests expérimentaux) — l'utiliser sur un job de sécurité ou de test critique revient à rendre cette vérification cosmétique : le pipeline passera au vert même si elle échoue.
 
 Utilisez `allow_failure` pour permettre à certains jobs d'échouer sans interrompre tout le pipeline.
 

@@ -21,7 +21,8 @@ Un LLM seul ne fait que produire du texte : il ne peut ni consulter une base de 
 
 ## Function Calling : le mécanisme
 
-Le LLM **n'exécute jamais rien lui-même** — c'est l'idée reçue la plus courante à corriger. Il décide *quoi* appeler et *avec quels arguments* ; l'exécution, la sécurité et les effets de bord restent entièrement sous la responsabilité de l'application hôte.
+> [!important] Idée reçue à corriger
+> Le LLM **n'exécute jamais rien lui-même**. Il décide *quoi* appeler et *avec quels arguments* ; l'exécution, la sécurité et les effets de bord restent entièrement sous la responsabilité de l'application hôte.
 
 **Déroulement :**
 
@@ -134,11 +135,12 @@ Coût à garder en tête : chaque agent supplémentaire multiplie le nombre d'ap
 
 ## Pièges et risques
 
-- **Boucles infinies** : un agent qui ne converge jamais vers une condition d'arrêt. Toujours fixer un nombre maximal d'itérations.
-- **Hallucination d'appels d'outils** : le modèle invente un nom de fonction ou des arguments invalides. Valider strictement le schéma et renvoyer l'erreur au modèle pour qu'il corrige, plutôt que de planter silencieusement.
-- **Prompt injection via les résultats d'outils** : une page web ou un document récupéré par un outil peut contenir des instructions cachées destinées à détourner l'agent ("ignore tes instructions précédentes..."). Traiter tout contenu externe comme non fiable, ne jamais accorder d'action destructive sans confirmation humaine.
-- **Coût et latence** : une tâche à 10 étapes peut coûter 10 fois plus qu'une réponse directe — ne pas donner un agent à un problème qui se résout avec un seul prompt.
-- **Sur-ingénierie** : la tentation d'ajouter des outils et des agents à un problème simple. Commencer par le function calling unique, ne monter en boucle d'agent que si la tâche l'exige réellement.
+> [!warning] Pièges et risques
+> - **Boucles infinies** : un agent qui ne converge jamais vers une condition d'arrêt. Toujours fixer un nombre maximal d'itérations.
+> - **Hallucination d'appels d'outils** : le modèle invente un nom de fonction ou des arguments invalides. Valider strictement le schéma et renvoyer l'erreur au modèle pour qu'il corrige, plutôt que de planter silencieusement.
+> - **Prompt injection via les résultats d'outils** : une page web ou un document récupéré par un outil peut contenir des instructions cachées destinées à détourner l'agent ("ignore tes instructions précédentes..."). Traiter tout contenu externe comme non fiable, ne jamais accorder d'action destructive sans confirmation humaine.
+> - **Coût et latence** : une tâche à 10 étapes peut coûter 10 fois plus qu'une réponse directe — ne pas donner un agent à un problème qui se résout avec un seul prompt.
+> - **Sur-ingénierie** : la tentation d'ajouter des outils et des agents à un problème simple. Commencer par le function calling unique, ne monter en boucle d'agent que si la tâche l'exige réellement.
 
 ## Évaluer un agent
 

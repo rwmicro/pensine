@@ -108,11 +108,13 @@ graph TD
 - Chinchilla : optimum à ~20 tokens d'entraînement par paramètre
 - → LLaMA 3 (8B) entraîné sur 15 000 B tokens dépasse GPT-3 (175B)
 
+> [!important] Ce que Chinchilla a corrigé
+> Avant 2022, la course était surtout à plus de paramètres (GPT-3 : 175B). Chinchilla a montré que la plupart des grands modèles de l'époque étaient **sous-entraînés** par rapport à leur taille — un modèle plus petit mais entraîné sur beaucoup plus de tokens peut surpasser un modèle plus gros mais sous-alimenté en données, à budget de calcul égal.
+
 ### Limites des LLM
 
-**Hallucinations** : génèrent des informations fausses avec confiance
-- Cause : optimisent la vraisemblance du texte, pas la vérité factuelle
-- Solutions partielles : RAG, grounding, chain-of-thought
+> [!warning] Hallucinations
+> Les LLM génèrent des informations fausses avec confiance parce qu'ils optimisent la **vraisemblance du texte**, pas la vérité factuelle — un énoncé faux mais grammaticalement et statistiquement plausible n'est pas distingué d'un énoncé vrai par l'objectif d'entraînement. Solutions partielles : [[RAG]], grounding, chain-of-thought.
 
 **Fenêtre de contexte** : mémoire limitée à la fenêtre courante
 - Tout contexte hors fenêtre est oublié

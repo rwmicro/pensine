@@ -56,7 +56,8 @@ dig cible.com any
 dig axfr @ns.cible.com cible.com  # zone transfer (rarement permis, jackpot si oui)
 ```
 
-**Pourquoi crt.sh est magique** : depuis 2018, tous les certificats SSL doivent être publiés dans Certificate Transparency logs. Donc tout sous-domaine qui a un jour eu un certificat (même expiré) est trouvable. `dev-staging.cible.com`, `vpn-old.cible.com`, etc.
+> [!tip] Pourquoi crt.sh est magique
+> Depuis 2018, tous les certificats SSL doivent être publiés dans Certificate Transparency logs. Donc tout sous-domaine qui a un jour eu un certificat (même expiré) est trouvable. `dev-staging.cible.com`, `vpn-old.cible.com`, etc.
 
 ## Personnes et emails
 
@@ -76,7 +77,8 @@ récupérer 200 noms d'employés, on a 200 emails valides → cibles de phishing
 ou d'AS-REP Roasting si on accède au DC.
 ```
 
-**HaveIBeenPwned + DeHashed** : croiser ces emails avec les bases de fuites. Un mot de passe d'il y a 5 ans peut encore servir (réutilisation = constante humaine).
+> [!tip] HaveIBeenPwned + DeHashed
+> Croiser ces emails avec les bases de fuites. Un mot de passe d'il y a 5 ans peut encore servir (réutilisation = constante humaine).
 
 ## Google Dorking
 
@@ -92,7 +94,8 @@ intext:"password" site:cible.com         Mots de passe en clair
 ext:log site:cible.com                   Logs exposés
 ```
 
-**Astuce** : combiner avec la Wayback Machine. Un fichier sensible supprimé du site est souvent encore dans `web.archive.org`.
+> [!tip] Astuce
+> Combiner avec la Wayback Machine. Un fichier sensible supprimé du site est souvent encore dans `web.archive.org`.
 
 ## Réseaux sociaux et identité
 
@@ -105,10 +108,10 @@ sherlock <username>
 crosslinked -f '{first}.{last}@cible.com' -l 'Cible Corp' -o employees.txt
 ```
 
-**LinkedIn** = mine d'or pour AD :
-- Noms d'employés → username probable (`prenom.nom`)
-- Technologies citées dans les offres d'emploi → stack interne
-- Photos avec badges visibles → format des badges, accès physique
+> [!important] LinkedIn = mine d'or pour AD
+> - Noms d'employés → username probable (`prenom.nom`)
+> - Technologies citées dans les offres d'emploi → stack interne
+> - Photos avec badges visibles → format des badges, accès physique
 
 ## Métadonnées de fichiers
 
@@ -141,8 +144,9 @@ Voir `[[Shodan]]` pour les requêtes avancées.
 
 ## Pièges courants
 
-- **OSINT passif ≠ totalement invisible** : certaines requêtes (Shodan en lookup direct, crt.sh, certains scans archive.org) laissent des traces. Le vrai "passif" se limite à ce qui ne touche jamais l'infrastructure cible.
-- **Données obsolètes** : un sous-domaine trouvé dans crt.sh peut ne plus pointer nulle part. Toujours vérifier avec `dig` avant d'investir.
-- **LinkedIn applique du rate-limiting et bannit les profils suspects** — utiliser un compte dédié, jamais le pro réel du pentester.
-- **Les fuites HIBP sont des hashes ou des plaintexts ?** Vérifier la nature de la fuite. Un hash bcrypt non cracké n'est pas immédiatement exploitable.
-- **L'OSINT n'est pas un pré-requis seulement initial** : pendant l'engagement, revenir à l'OSINT (par exemple LinkedIn pour comprendre la hiérarchie sociale après accès aux emails) reste utile.
+> [!warning] Pièges courants
+> - **OSINT passif ≠ totalement invisible** : certaines requêtes (Shodan en lookup direct, crt.sh, certains scans archive.org) laissent des traces. Le vrai "passif" se limite à ce qui ne touche jamais l'infrastructure cible.
+> - **Données obsolètes** : un sous-domaine trouvé dans crt.sh peut ne plus pointer nulle part. Toujours vérifier avec `dig` avant d'investir.
+> - **LinkedIn applique du rate-limiting et bannit les profils suspects** — utiliser un compte dédié, jamais le pro réel du pentester.
+> - **Les fuites HIBP sont des hashes ou des plaintexts ?** Vérifier la nature de la fuite. Un hash bcrypt non cracké n'est pas immédiatement exploitable.
+> - **L'OSINT n'est pas un pré-requis seulement initial** : pendant l'engagement, revenir à l'OSINT (par exemple LinkedIn pour comprendre la hiérarchie sociale après accès aux emails) reste utile.

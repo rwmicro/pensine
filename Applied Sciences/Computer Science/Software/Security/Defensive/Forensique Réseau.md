@@ -10,6 +10,9 @@ date: 2026-03-23
 
 La forensique réseau consiste à capturer, enregistrer et analyser le trafic réseau pour détecter des incidents, reconstituer des attaques, ou extraire des artefacts. Elle est complémentaire à la forensique système (mémoire, disque).
 
+> [!important] Idée clé
+> Contrairement à la forensique disque/mémoire, le trafic réseau n'existe que pendant qu'il transite — sans capture active (PCAP, NetFlow, logs Zeek) au moment de l'incident, la preuve est perdue pour toujours. D'où l'intérêt de capturer en continu plutôt que d'essayer de reconstituer après coup.
+
 ## Capture de trafic
 
 ### tcpdump — Capture en ligne de commande
@@ -151,6 +154,9 @@ for line in sys.stdin:
 ```
 
 ### Beaconing C2
+
+> [!tip] Méthode
+> Le beaconing se repère par la régularité, pas par le contenu : chercher des connexions vers le même hôte à intervalles quasi constants (± un peu de jitter), avec des tailles de requête similaires — RITA et Zeek automatisent ce calcul statistique plutôt que de le faire à l'œil sur des logs bruts.
 
 ```bash
 # Beaconing — connexions HTTP/HTTPS périodiques vers un C2

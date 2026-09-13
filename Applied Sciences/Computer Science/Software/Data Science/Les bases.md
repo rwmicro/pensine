@@ -77,6 +77,9 @@ $$x_{std} = \frac{x - \mu}{\sigma}$$
 ### Accuracy (Taux de précision)
 $$\text{Accuracy} = \frac{\text{Prédictions correctes}}{\text{Total des prédictions}}$$
 
+> [!warning] Piège classique
+> Sur des classes déséquilibrées (ex : 99% de cas négatifs), un modèle qui prédit toujours "négatif" obtient 99% d'accuracy sans avoir rien appris. L'accuracy seule est trompeuse dès que les classes ne sont pas équilibrées — préférer precision/recall/F1 ou le PR-AUC.
+
 ### Matrice de confusion (classification binaire)
 
 |  | **Prédit Positif** | **Prédit Négatif** |
@@ -87,6 +90,9 @@ $$\text{Accuracy} = \frac{\text{Prédictions correctes}}{\text{Total des prédic
 - **Precision** = $\frac{VP}{VP + FP}$ — Parmi les prédits positifs, combien le sont vraiment ?
 - **Recall** = $\frac{VP}{VP + FN}$ — Parmi les réels positifs, combien a-t-on trouvés ?
 - **F1-Score** = $2 \times \frac{Precision \times Recall}{Precision + Recall}$ — Moyenne harmonique
+
+> [!tip] Comment choisir entre precision et recall ?
+> Se demander lequel des deux types d'erreur coûte le plus cher. Un faux négatif en dépistage médical (rater une maladie) est souvent bien plus grave qu'un faux positif (examen complémentaire inutile) → prioriser le **recall**. À l'inverse, un faux positif dans un filtre anti-spam (email légitime supprimé) coûte plus cher qu'un faux négatif (spam qui passe) → prioriser la **precision**.
 
 ## Réflexions sur l'IA
 

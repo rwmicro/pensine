@@ -10,6 +10,9 @@ date: "2026-02-25"
 
 La conformité réglementaire encadre les pratiques de sécurité informatique via des normes et lois contraignantes. Les principaux référentiels sont ISO 27001, GDPR, PCI DSS et SOC 2.
 
+> [!important] Obligatoire vs contractuel
+> Seul le RGPD est une obligation légale (loi européenne, sanctions par une autorité publique). ISO 27001, PCI DSS et SOC 2 sont des exigences contractuelles — imposées par un client, un partenaire ou un acquéreur bancaire, pas par la loi. Ne pas confondre "non conforme PCI DSS" (perte de contrat) et "non conforme RGPD" (amende jusqu'à 4% du CA mondial).
+
 ## ISO 27001:2022
 
 ### Présentation
@@ -145,6 +148,12 @@ Découverte violation
     72 heures
         ↓
 Notification à l'autorité de contrôle (CNIL)
+```
+
+> [!warning] Piège fréquent
+> Les 72 heures courent à partir de la **découverte** de la violation, pas de sa survenue réelle — une violation qui a eu lieu il y a 3 mois mais découverte aujourd'hui doit être notifiée sous 72h à partir d'aujourd'hui. Le délai concerne la notification à l'autorité, pas l'analyse complète : une notification initiale incomplète, complétée ensuite, est acceptée par la CNIL.
+
+```
         ↓
 Risque élevé pour les personnes ?
   ↓ Oui              ↓ Non

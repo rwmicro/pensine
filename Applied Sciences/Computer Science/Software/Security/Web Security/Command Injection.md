@@ -10,6 +10,9 @@ date: 2026-03-22
 
 L'injection de commandes OS (Command Injection) permet à un attaquant d'exécuter des commandes système arbitraires sur le serveur hôte en injectant des métacaractères shell dans des paramètres traités par des fonctions d'exécution de commandes.
 
+> [!important] Différence avec l'injection SQL
+> L'injection SQL exploite la syntaxe d'un langage de requête ; la command injection exploite directement l'**interpréteur shell du système d'exploitation**. C'est pour ça que l'impact va typiquement jusqu'au contrôle total du serveur (reverse shell), pas seulement à la base de données.
+
 ## Principe
 
 ```python
@@ -124,6 +127,9 @@ ping 8.8.8.8%00; id           # Rare mais testé
 POST body: ip=8.8.8.8%0aid
 ```
 
+> [!tip] Méthode de détection en aveugle
+> Quand aucune sortie n'est visible dans la réponse, injecter une commande à délai mesurable (`; sleep 5`) : un temps de réponse anormalement long confirme l'exécution, sans avoir besoin de voir le résultat. C'est la même logique que le blind SQLi time-based.
+
 ## Blind Command Injection — exfiltration
 
 ```bash
@@ -227,7 +233,12 @@ result = subprocess.run(["ping", "-c", "1", host], capture_output=True, timeout=
 $host = escapeshellarg($_GET['host']);
 system("ping -c 1 " . $host);
 # escapeshellarg() entoure l'argument de guillemets simples et échappe les '
+```
 
+> [!warning] Piège fréquent
+> `escapeshellarg()` protège contre l'injection de métacaractères, mais ne valide pas que l'argument a un sens légitime (un `host` pourrait rester une chaîne exploitable ailleurs, ex. dans le programme appelé). La whitelist stricte par format attendu (ici une regex d'IP) reste la défense la plus fiable — l'échappement est un filet de sécurité, pas une validation.
+
+```php
 # Méthode préférée : utiliser des bibliothèques natives (pas de shell)
 # Au lieu de ping via shell → utiliser une bibliothèque de ping native
 # Au lieu de convert via ImageMagick CLI → utiliser l'API PHP d'ImageMagick (Imagick)

@@ -4,13 +4,12 @@
 
 Le MAC (*Mandatory Access Control*) ajoute une couche de sécurité **au-dessus** des permissions Unix classiques. Différence fondamentale : même `root` est contraint par la politique. C'est ce qui limite les dégâts si un service est compromis.
 
-**Modèle mental : DAC vs MAC.**
-
-```
-DAC (permissions Unix)        MAC (SELinux / AppArmor)
-le PROPRIÉTAIRE décide    +   une POLITIQUE système décide, root inclus
-(rwx, chmod)                  (un service compromis ne peut sortir de son bac à sable)
-```
+> [!tip] Modèle mental : DAC vs MAC
+> ```
+> DAC (permissions Unix)        MAC (SELinux / AppArmor)
+> le PROPRIÉTAIRE décide    +   une POLITIQUE système décide, root inclus
+> (rwx, chmod)                  (un service compromis ne peut sortir de son bac à sable)
+> ```
 
 Le DAC répond « le propriétaire autorise-t-il ? » ; le MAC ajoute « la politique du système l'autorise-t-elle ? ». Les **deux** doivent dire oui.
 
@@ -36,11 +35,11 @@ Méthode type : un service ne démarre qu'en permissive → c'est SELinux ; lire
 
 **AppArmor : par chemin.** Chaque profil liste ce qu'un binaire précis peut faire. Deux modes : **enforce** (bloque) et **complain** (journalise seulement, équivalent du permissive ciblé). `aa-complain`/`aa-enforce` basculent un profil.
 
-**Pièges** :
-- Passer SELinux de `disabled` à `enforcing` déclenche un **relabel complet** au reboot (long).
-- Sans `-P`, `setsebool` est perdu au reboot.
-- `chcon` est écrasé par un `restorecon`/relabel — non persistant.
-- Ne pas confondre les outils selon la distrib — voir [[q45-rhel-vs-debian-equivalents]]. Lié au confinement des processus : seccomp/strace en [[q13-runtime-security-of-processes]].
+> [!warning] Pièges
+> - Passer SELinux de `disabled` à `enforcing` déclenche un **relabel complet** au reboot (long).
+> - Sans `-P`, `setsebool` est perdu au reboot.
+> - `chcon` est écrasé par un `restorecon`/relabel — non persistant.
+> - Ne pas confondre les outils selon la distrib — voir [[q45-rhel-vs-debian-equivalents]]. Lié au confinement des processus : seccomp/strace en [[q13-runtime-security-of-processes]].
 
 ## Énoncé
 

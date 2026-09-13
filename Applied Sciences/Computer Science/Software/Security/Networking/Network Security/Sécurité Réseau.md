@@ -80,9 +80,15 @@ Les VLAN segmentent le réseau au niveau 2 (Ethernet) sans matériel physique s�
 
 Limites : un VLAN n'est pas un firewall. Le trafic inter-VLAN passe par un routeur ou un firewall L3 — c'est là que le filtrage se fait.
 
+> [!warning] Piège fréquent
+> Traiter la segmentation VLAN comme une mesure de sécurité suffisante en soi est une erreur classique — un VLAN isole des domaines de broadcast, pas des risques. Un attaquant qui compromet une machine du VLAN peut encore atteindre tout ce que le routage inter-VLAN autorise ; c'est le firewall L3 entre les VLANs, pas le VLAN lui-même, qui fait office de contrôle de sécurité.
+
 ### Zero Trust
 
 Le modèle **Zero Trust** (formalisé par John Kindervag, Forrester, 2010) part du principe qu'aucun réseau interne n'est de confiance.
+
+> [!important] Ce qui change vraiment avec Zero Trust
+> Le modèle périmétrique classique fait confiance à tout ce qui est "dedans" (LAN) et se méfie de tout ce qui est "dehors" — une fois la frontière franchie, un attaquant se déplace librement. Zero Trust supprime cette notion de frontière de confiance : chaque requête est vérifiée indépendamment de sa provenance, ce qui limite le mouvement latéral même après une compromission initiale.
 
 Principes :
 - **Never trust, always verify** — chaque requête est authentifiée et autorisée, même depuis le LAN

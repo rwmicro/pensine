@@ -10,6 +10,9 @@ date: 2026-03-22
 
 Le path traversal (traversée de répertoire) exploite l'utilisation de chemins de fichiers contrôlés par l'utilisateur pour accéder à des fichiers en dehors du répertoire prévu. La séquence `../` remonte d'un niveau dans l'arborescence.
 
+> [!important] Path traversal vs LFI
+> Le path traversal permet de **lire** n'importe quel fichier accessible. Le LFI (Local File Inclusion) va plus loin : le fichier lu est ensuite **exécuté comme du code** par l'application (`include` en PHP). C'est cette différence qui transforme une simple fuite d'information en RCE potentiel.
+
 ## Principe
 
 ```
@@ -100,6 +103,9 @@ Résultat : open("/var/www/uploads/../../../etc/passwd")
 # Résidu : .../etc/passwd → pas de / → inoffensif ?
 # Mais : "..././etc/passwd" → après replace("..", "") → "./etc/passwd" (traversal minimal)
 ```
+
+> [!warning] Piège fréquent
+> Un simple `.replace("../", "")` en une passe est presque toujours contournable — l'attaquant imbrique les séquences (`....//`) pour qu'une suppression unique laisse un `../` résiduel. Ne jamais essayer de "nettoyer" une entrée dangereuse : valider le chemin final résolu (voir Contre-mesures) est la seule approche fiable.
 
 ## LFI (Local File Inclusion) — exécution de code
 
@@ -209,6 +215,9 @@ python lfisuite.py
 ```
 
 ## Contre-mesures
+
+> [!tip] Méthode fiable
+> Ne jamais essayer de détecter ou filtrer les séquences dangereuses. Résoudre le chemin absolu réel (`realpath`) après concaténation, puis vérifier qu'il commence toujours par le répertoire de base autorisé — cette vérification post-résolution rend inutile toute variante d'encodage ou d'imbrication du payload.
 
 ```python
 # Python — validation stricte du chemin résolu

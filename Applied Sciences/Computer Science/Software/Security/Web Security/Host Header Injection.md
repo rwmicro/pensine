@@ -10,6 +10,9 @@ date: 2026-03-22
 
 L'injection d'en-tête Host exploite le fait que certaines applications utilisent la valeur de l'en-tête HTTP `Host` pour construire des URLs (liens de réinitialisation de mot de passe, redirections, ressources absolues) sans la valider. Un attaquant peut substituer l'en-tête pour faire pointer ces URLs vers son infrastructure.
 
+> [!important] Idée clé
+> Le `Host` est un en-tête HTTP **entièrement contrôlé par le client** — rien n'oblige un attaquant à envoyer la valeur "attendue". Toute logique serveur qui fait confiance à cet en-tête pour construire une URL absolue traite en réalité une donnée utilisateur comme une donnée de configuration fiable.
+
 ## Principe
 
 ```
@@ -48,6 +51,9 @@ X-HTTP-Host-Override: attaquant.com
 Forwarded: host=attaquant.com
 X-Original-Host: attaquant.com
 ```
+
+> [!warning] Piège fréquent
+> Corriger uniquement l'en-tête `Host` (via `ALLOWED_HOSTS` par exemple) ne suffit pas si l'application ou un proxy intermédiaire fait aussi confiance à `X-Forwarded-Host` ou aux en-têtes équivalents — il faut valider ou ignorer explicitement toute la famille d'en-têtes alternatifs, pas seulement le principal.
 
 ### Ambiguïté de parsing
 
@@ -115,6 +121,9 @@ Host: vpn.site.com
 ```
 
 ## Détection
+
+> [!tip] Méthode de détection
+> Déclencher une action qui génère une URL absolue visible (réinitialisation de mot de passe, en-tête de réponse, lien dans un email) en modifiant le `Host` envoyé, puis vérifier si la valeur injectée réapparaît dans cette URL.
 
 ```bash
 # Test basique avec curl

@@ -10,6 +10,9 @@ date: 2026-03-23
 
 Kerberos est le protocole d'authentification central d'Active Directory. Ses mécanismes de tickets exposent plusieurs vecteurs d'attaque allant du cracking hors ligne (Kerberoasting, AS-REP Roasting) à la falsification de tickets (Golden/Silver Ticket) et à la délégation non contrainte.
 
+> [!important] Distinction clé
+> Ces attaques se répartissent en deux familles très différentes : celles qui **craquent un secret hors ligne** (Kerberoasting, AS-REP Roasting — pas de lockout, silencieuses) et celles qui **forgent directement un ticket** à partir d'un hash déjà obtenu (Golden/Silver Ticket — accès immédiat, pas de cracking). Confondre les deux fait perdre du temps sur la mauvaise approche.
+
 ## Rappel du protocole Kerberos
 
 ```
@@ -337,13 +340,14 @@ Détection :
 
 ## Pièges courants
 
-- **Kerberoasting vs AS-REP Roasting — confusion classique** : Kerberoasting cible des comptes **avec SPN** (besoin d'être authentifié pour demander un TGS). AS-REP Roasting cible des comptes **sans pré-auth** (`DONT_REQUIRE_PREAUTH`, possible sans creds). Les modes hashcat sont différents (13100 vs 18200).
-- **Format de hash Kerberoast change avec l'encryption type** : `$krb5tgs$23$` = RC4-HMAC (crack rapide), `$krb5tgs$18$` = AES256 (très lent). Beaucoup ratent un crack parce qu'ils utilisent le mauvais mode hashcat (`-m 19700` pour AES256).
-- **Compte machine = mot de passe 120 caractères aléatoires** : Kerberoasting un compte machine ne donne quasiment jamais rien (mot de passe non humain). Cibler uniquement les comptes avec SPN qui sont des **comptes humains** convertis en comptes de service.
-- **Pré-auth Kerberos désactivée mais compte verrouillé** : un compte AS-REP roastable mais désactivé ne donne rien. Toujours filtrer `userAccountControl` pour les comptes actifs.
-- **Golden Ticket avec krbtgt rotation insuffisante** : changer le mot de passe krbtgt UNE FOIS ne suffit pas — Windows garde l'historique des 2 derniers mots de passe pour la résilience. Il faut changer **deux fois** rapidement pour invalider les Golden Tickets existants.
-- **Silver Ticket invisible côté DC** : contrairement à un Golden, un Silver Ticket ne touche jamais le DC (forge un TGS, pas un TGT). Les logs côté DC ne montrent rien. Détection seulement côté service ciblé.
-- **Unconstrained Delegation = TOUS les TGT entrants** : pas seulement ceux des admins. Mais c'est l'attente d'une connexion d'admin qui rend l'attaque utile. Combiner avec PrinterBug ou PetitPotam pour forcer le DC$ à se connecter.
-- **PAC validation et signature** : depuis les CVE 2022 (CVE-2022-37967), Microsoft a renforcé les signatures PAC. Certains Golden/Silver Tickets old-school échouent maintenant. Toujours forger avec les signatures correctes (`/sids` et `/groups` cohérents avec le domaine).
-- **`klist` montre les tickets mais ne les valide pas** : un ticket peut apparaître valide dans `klist` mais être rejeté par le service à l'usage. Tester avec un service réel (`dir \\target\C$`).
-- **AES tickets requièrent la salt correcte** : pour forger un ticket AES, il faut la salt Kerberos exacte du compte (`USERNAMEdomain.com` pour user, `host/COMPUTERNAME.domain.comDOMAIN.COM` pour machine). Une salt incorrecte = signature invalide.
+> [!warning] Pièges courants
+> - **Kerberoasting vs AS-REP Roasting — confusion classique** : Kerberoasting cible des comptes **avec SPN** (besoin d'être authentifié pour demander un TGS). AS-REP Roasting cible des comptes **sans pré-auth** (`DONT_REQUIRE_PREAUTH`, possible sans creds). Les modes hashcat sont différents (13100 vs 18200).
+> - **Format de hash Kerberoast change avec l'encryption type** : `$krb5tgs$23$` = RC4-HMAC (crack rapide), `$krb5tgs$18$` = AES256 (très lent). Beaucoup ratent un crack parce qu'ils utilisent le mauvais mode hashcat (`-m 19700` pour AES256).
+> - **Compte machine = mot de passe 120 caractères aléatoires** : Kerberoasting un compte machine ne donne quasiment jamais rien (mot de passe non humain). Cibler uniquement les comptes avec SPN qui sont des **comptes humains** convertis en comptes de service.
+> - **Pré-auth Kerberos désactivée mais compte verrouillé** : un compte AS-REP roastable mais désactivé ne donne rien. Toujours filtrer `userAccountControl` pour les comptes actifs.
+> - **Golden Ticket avec krbtgt rotation insuffisante** : changer le mot de passe krbtgt UNE FOIS ne suffit pas — Windows garde l'historique des 2 derniers mots de passe pour la résilience. Il faut changer **deux fois** rapidement pour invalider les Golden Tickets existants.
+> - **Silver Ticket invisible côté DC** : contrairement à un Golden, un Silver Ticket ne touche jamais le DC (forge un TGS, pas un TGT). Les logs côté DC ne montrent rien. Détection seulement côté service ciblé.
+> - **Unconstrained Delegation = TOUS les TGT entrants** : pas seulement ceux des admins. Mais c'est l'attente d'une connexion d'admin qui rend l'attaque utile. Combiner avec PrinterBug ou PetitPotam pour forcer le DC$ à se connecter.
+> - **PAC validation et signature** : depuis les CVE 2022 (CVE-2022-37967), Microsoft a renforcé les signatures PAC. Certains Golden/Silver Tickets old-school échouent maintenant. Toujours forger avec les signatures correctes (`/sids` et `/groups` cohérents avec le domaine).
+> - **`klist` montre les tickets mais ne les valide pas** : un ticket peut apparaître valide dans `klist` mais être rejeté par le service à l'usage. Tester avec un service réel (`dir \\target\C$`).
+> - **AES tickets requièrent la salt correcte** : pour forger un ticket AES, il faut la salt Kerberos exacte du compte (`USERNAMEdomain.com` pour user, `host/COMPUTERNAME.domain.comDOMAIN.COM` pour machine). Une salt incorrecte = signature invalide.

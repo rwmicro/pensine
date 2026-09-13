@@ -35,6 +35,9 @@ graph LR
 - State en local → perdu si la machine disparaît
 - State contient des secrets (mots de passe, tokens) → ne pas committer dans git
 
+> [!warning] Piège
+> Le state contient les valeurs des ressources **en clair**, y compris les attributs marqués `sensitive` dans le code — `sensitive` masque seulement l'affichage dans les logs `plan`/`apply`, pas le contenu du fichier state. Un `terraform.tfstate` committé par erreur dans git expose donc potentiellement tous les secrets qu'il référence, même si le code source, lui, semblait propre.
+
 ### Remote State (Recommandé en Équipe)
 
 Stocker le state dans un backend distant pour le partager et le verrouiller.
@@ -51,6 +54,9 @@ terraform {
   }
 }
 ```
+
+> [!tip] Pourquoi le verrouillage est essentiel
+> Sans `dynamodb_table` (ou équivalent), rien n'empêche deux `terraform apply` simultanés de lire le même state, calculer des plans différents, puis écrire chacun leur résultat — le second écrase le premier et corrompt l'état réel connu de l'infrastructure. Le lock transforme ce risque de concurrence en simple attente (le second `apply` patiente que le premier libère le verrou).
 
 **Autres backends courants** :
 - **Terraform Cloud / HCP Terraform** : solution officielle HashiCorp
@@ -102,6 +108,9 @@ resource "aws_instance" "app" {
   }
 }
 ```
+
+> [!warning] Piège
+> Les workspaces partagent le même code, le même backend et souvent les mêmes credentials — une erreur de commande (`terraform workspace select` oublié) peut appliquer un changement destiné à `dev` directement sur `prod`, sans qu'aucune barrière technique ne l'empêche. Pour prod, préférer une isolation plus stricte (voir ci-dessous) plutôt que de compter sur la discipline humaine.
 
 **Limites des workspaces** :
 - Partagent le même code et backend — pas une isolation totale

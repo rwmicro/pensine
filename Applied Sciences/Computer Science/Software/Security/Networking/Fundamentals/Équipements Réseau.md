@@ -44,6 +44,9 @@ ALLOW src:192.168.1.0/24 dst:any port:80,443
 DENY src:any dst:any port:23
 ```
 
+> [!important] Distinction clé
+> Le stateful inspection ne se contente pas de filtrer par ports/IPs comme le packet filtering : il suit l'état de chaque connexion (établie, en attente, fermée) et n'autorise le trafic de retour que s'il correspond à une connexion sortante légitime. C'est ce qui permet des règles simples ("autoriser le trafic sortant") sans devoir ouvrir explicitement les ports de retour.
+
 ## Cisco IOS — Modes CLI
 
 Cisco IOS organise ses commandes en plusieurs modes d'accès. La commande `?` liste les commandes disponibles dans le mode courant.
@@ -149,6 +152,9 @@ STP (IEEE 802.1D) prévient les boucles de commutation dans les topologies redon
 ### Fonctionnement
 
 STP bloque les liens redondants tout en maintenant une connexion physique de secours. En cas de défaillance du lien actif, le lien bloqué est réactivé.
+
+> [!warning] Piège fréquent
+> Un port en état Blocking ou Listening **reçoit** déjà les BPDU — il n'est pas physiquement coupé, seulement empêché de transmettre du trafic utilisateur. Confondre "port bloqué" avec "port inactif" fait sous-estimer l'impact d'une reconfiguration STP mal maîtrisée (le port peut basculer en Forwarding dès que la topologie change).
 
 ### Types de ports STP
 

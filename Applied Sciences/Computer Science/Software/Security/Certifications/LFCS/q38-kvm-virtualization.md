@@ -4,13 +4,12 @@
 
 KVM transforme le noyau Linux en hyperviseur. Combiné à QEMU (émulation matérielle) et libvirt (gestion), il permet de créer et piloter des machines virtuelles en ligne de commande.
 
-**Modèle mental : la pile de virtualisation.**
-
-```
-CPU (vmx/svm)  ──►  KVM (module noyau)  ──►  QEMU  ──►  libvirt (libvirtd)  ──►  virsh / virt-install
-matériel            accélération           émule le    API + démon de         outils en
-                    hardware               matériel    gestion (XML)          ligne de commande
-```
+> [!tip] Modèle mental : la pile de virtualisation
+> ```
+> CPU (vmx/svm)  ──►  KVM (module noyau)  ──►  QEMU  ──►  libvirt (libvirtd)  ──►  virsh / virt-install
+> matériel            accélération           émule le    API + démon de         outils en
+>                     hardware               matériel    gestion (XML)          ligne de commande
+> ```
 
 - **KVM** : le module noyau qui exploite l'accélération matérielle du CPU.
 - **QEMU** : émule le matériel virtuel (disque, carte réseau…).
@@ -38,11 +37,11 @@ virt-install ...          # définir une nouvelle VM
 
 **Réseau** : par défaut, libvirt fournit un réseau **NAT** (`default`, 192.168.122.0/24) — les VM sortent vers l'extérieur mais ne sont pas joignables directement. Pour les exposer sur le LAN, on les attache à un **bridge** (voir [[q32-bonding-and-bridges]]).
 
-**Pièges** :
-- `grep vmx/svm` à 0 = pas d'accélération : vérifier le BIOS (Intel VT-x / AMD-V).
-- `virsh destroy` ne **supprime pas** la VM, il la « débranche » brutalement (= arrêt forcé) ; `virsh undefine` retire la définition.
-- Les images vivent dans `/var/lib/libvirt/images/` ; le démon `libvirtd` doit tourner.
-- NAT (sortie seule) vs bridge (intégration L2 au LAN) : choisir selon le besoin d'accès aux VM.
+> [!warning] Pièges
+> - `grep vmx/svm` à 0 = pas d'accélération : vérifier le BIOS (Intel VT-x / AMD-V).
+> - `virsh destroy` ne **supprime pas** la VM, il la « débranche » brutalement (= arrêt forcé) ; `virsh undefine` retire la définition.
+> - Les images vivent dans `/var/lib/libvirt/images/` ; le démon `libvirtd` doit tourner.
+> - NAT (sortie seule) vs bridge (intégration L2 au LAN) : choisir selon le besoin d'accès aux VM.
 
 ## Énoncé
 

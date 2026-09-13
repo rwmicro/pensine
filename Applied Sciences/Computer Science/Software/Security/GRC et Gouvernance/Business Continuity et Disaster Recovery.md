@@ -32,6 +32,9 @@ Temps maximal acceptable pour remettre le système en service.
 - RTO = 0 : haute disponibilité permanente (basculement automatique)
 - RTO = 4h : le système peut être indisponible 4h maximum
 
+> [!important] Ne pas confondre RPO et RTO
+> RPO répond à "combien de données peut-on perdre ?" (regarde vers le passé, dimensionne la fréquence de sauvegarde). RTO répond à "combien de temps peut-on être en panne ?" (regarde vers l'avenir, dimensionne l'architecture de reprise). Un RPO court n'implique pas un RTO court : on peut avoir des sauvegardes très fréquentes mais une restauration lente.
+
 ```mermaid
 graph LR
     subgraph "Timeline d'un incident"
@@ -210,6 +213,12 @@ aws s3 ls s3://my-backups/ --recursive | tail -20  # Dernière sauvegarde
 # Option B : Nettoyage (si backup impossible)
 # RISQUÉ — l'attaquant peut avoir des backdoors
 # Réserver aux systèmes sans données critiques
+```
+
+> [!warning] Piège fréquent
+> Restaurer un backup sans vérifier qu'il n'est pas déjà compromis peut réintroduire la persistance de l'attaquant (le ransomware a pu dormir plusieurs semaines avant de se déclencher). Toujours identifier le point de compromission initial avant de choisir depuis quelle sauvegarde restaurer — restaurer la sauvegarde de la veille ne sert à rien si l'attaquant était déjà présent depuis un mois.
+
+```bash
 
 # PHASE 4 : Hardening post-incident
 # Changer TOUS les mots de passe (AD compris)

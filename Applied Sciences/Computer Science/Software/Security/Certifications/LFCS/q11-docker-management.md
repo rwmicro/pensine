@@ -4,13 +4,12 @@
 
 Un conteneur est un processus isolé qui embarque ses propres dépendances. À la différence d'une VM, il **partage le noyau de l'hôte** — d'où sa légèreté et son démarrage instantané.
 
-**Modèle mental : les trois objets Docker.**
-
-```
-Dockerfile  ──build──►  Image  ──run──►  Container
-(recette)               (modèle figé,    (instance vivante,
-                         en couches)      avec son état)
-```
+> [!tip] Modèle mental : les trois objets Docker
+> ```
+> Dockerfile  ──build──►  Image  ──run──►  Container
+> (recette)               (modèle figé,    (instance vivante,
+>                          en couches)      avec son état)
+> ```
 
 - **Dockerfile** : liste d'instructions pour construire une image.
 - **Image** : artefact en lecture seule, empilé en *couches*, identifié par `nom:tag` (ex. `nginx:alpine`).
@@ -44,11 +43,11 @@ docker run -d --name frontend_v3 --memory 30m -p 1234:80 nginx:alpine
 
 **Volumes** : un conteneur est éphémère, sa couche d'écriture meurt avec lui. Un *volume* monte un stockage persistant à un chemin (`Destination`) dans le conteneur. `-v /hôte:/conteneur` ou volume nommé `-v nom:/conteneur`.
 
-**Pièges** :
-- `docker ps` ne montre pas les conteneurs arrêtés — ajouter `-a`.
-- Sans `-d`, le terminal reste attaché au conteneur.
-- Sans `--name`, Docker génère un nom aléatoire.
-- Inverser les ports de `-p` est l'erreur classique : hôte d'abord, conteneur ensuite.
+> [!warning] Pièges
+> - `docker ps` ne montre pas les conteneurs arrêtés — ajouter `-a`.
+> - Sans `-d`, le terminal reste attaché au conteneur.
+> - Sans `--name`, Docker génère un nom aléatoire.
+> - Inverser les ports de `-p` est l'erreur classique : hôte d'abord, conteneur ensuite.
 
 ## Énoncé
 

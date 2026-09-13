@@ -102,7 +102,8 @@ aws ec2 create-nat-gateway \
 | Performance | Jusqu'à 100 Gbit/s | Limité par le type d'instance |
 | Prix | ~0.045$/h + transfert | Instance EC2 + transfert |
 
-Préférer NAT Gateway sauf pour des besoins de contrôle très spécifiques.
+> [!tip] Choix par défaut
+> Préférer NAT Gateway sauf pour des besoins de contrôle très spécifiques (ex. inspection de paquets custom). Une NAT Instance ajoute de la gestion (patch, scaling, SPOF) pour un gain de contrôle rarement exploité en pratique.
 
 ### Tables de routage
 
@@ -161,6 +162,9 @@ Internet
 
 **Stateless NACL** : les règles entrantes et sortantes doivent être définies séparément. Ex : pour une connexion HTTP entrante sur le port 80, il faut une règle entrante (port 80) ET une règle sortante pour les ports éphémères (1024-65535).
 
+> [!warning] Piège fréquent
+> Configurer une NACL comme un Security Group (juste la règle entrante) casse le trafic de retour, car une NACL ne "se souvient" pas qu'une connexion a été initiée — chaque direction doit être autorisée explicitement. Un Security Group n'a pas ce problème car il est stateful.
+
 ```bash
 # Exemple NACL : bloquer une IP malveillante
 aws ec2 create-network-acl-entry \
@@ -192,7 +196,8 @@ aws ec2 create-route \
     --vpc-peering-connection-id pcx-12345
 ```
 
-**Limitation** : le peering n'est pas transitif. Si A est peeré avec B et B avec C, A ne voit pas C.
+> [!important] Non transitif
+> Le peering n'est pas transitif : si A est peeré avec B et B avec C, A ne voit pas C. C'est précisément cette limite qui justifie le Transit Gateway ci-dessous dès qu'il faut connecter plus de 2-3 VPCs entre eux.
 
 ## Transit Gateway
 

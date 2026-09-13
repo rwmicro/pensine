@@ -135,7 +135,8 @@ optimizer = optim.Adam(model.parameters(), lr=1e-3, betas=(0.9, 0.999))
 
 ## Initialisation des poids
 
-Initialiser tous les poids à **zéro** est un piège classique : tous les neurones d'une couche calculeraient exactement la même chose et apprendraient de façon identique (symétrie jamais brisée).
+> [!warning] Piège classique
+> Initialiser tous les poids à **zéro** semble neutre mais casse l'entraînement : tous les neurones d'une couche calculeraient exactement la même chose et recevraient le même gradient, donc apprendraient de façon identique indéfiniment (symétrie jamais brisée). Une initialisation aléatoire est nécessaire, mais son échelle compte aussi — d'où Xavier et He ci-dessous.
 
 | Méthode | Principe | Adaptée à |
 |---|---|---|
@@ -144,9 +145,10 @@ Initialiser tous les poids à **zéro** est un piège classique : tous les neuro
 
 ## Problèmes courants
 
-- **Vanishing gradient** : dans un réseau profond avec sigmoïde/tanh, les gradients se multiplient à chaque couche en remontant — s'ils sont chacun < 1, le produit tend vers 0 et les premières couches n'apprennent presque plus. ReLU atténue ce problème ; les connexions résiduelles (voir [[CNN]] — ResNet) et la Batch Normalization le combattent aussi.
-- **Exploding gradient** : l'inverse — les gradients grandissent de façon incontrôlée. Solution courante : le **gradient clipping** (plafonner la norme du gradient).
-- **Neurones morts (dead ReLU)** : un neurone ReLU dont l'entrée reste négative ne produit plus jamais de gradient et cesse d'apprendre. Leaky ReLU ou GELU limitent ce risque.
+> [!warning] Pièges classiques
+> - **Vanishing gradient** : dans un réseau profond avec sigmoïde/tanh, les gradients se multiplient à chaque couche en remontant — s'ils sont chacun < 1, le produit tend vers 0 et les premières couches n'apprennent presque plus. ReLU atténue ce problème ; les connexions résiduelles (voir [[CNN]] — ResNet) et la Batch Normalization le combattent aussi.
+> - **Exploding gradient** : l'inverse — les gradients grandissent de façon incontrôlée. Solution courante : le **gradient clipping** (plafonner la norme du gradient).
+> - **Neurones morts (dead ReLU)** : un neurone ReLU dont l'entrée reste négative ne produit plus jamais de gradient et cesse d'apprendre. Leaky ReLU ou GELU limitent ce risque.
 
 ## Régularisation spécifique au deep learning
 

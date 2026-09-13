@@ -10,6 +10,9 @@ date: "2025-03-08"
 
 L'ingénierie de la détection (Detection Engineering, DE) est la discipline qui consiste à concevoir, implémenter, tester et maintenir des règles de détection pour identifier des comportements malveillants dans les systèmes d'information. Elle s'oppose à une approche réactive en professionnalisant la création de détections.
 
+> [!important] Idée clé
+> Une détection n'est jamais "terminée" — elle a un cycle de vie complet (créer, tester, tuner, surveiller, retirer) comme du code en production. Une règle jamais retestée après un changement d'environnement devient silencieusement obsolète (trop de faux positifs ignorés, ou pire, un taux de vrais positifs qui chute sans que personne ne le remarque).
+
 ## Philosophie et approche
 
 ### Detection-as-Code (DaC)
@@ -159,6 +162,9 @@ Contre-partie défensive d'ATT&CK : catalogue de techniques de défense mappées
 ## Écriture de règles Sigma
 
 Sigma est un format de règles de détection générique, convertible vers n'importe quel SIEM (Splunk, Elastic, QRadar, Azure Sentinel, etc.).
+
+> [!warning] Piège fréquent
+> La section `falsepositives` n'est pas une formalité optionnelle — une règle sur `-EncodedCommand` PowerShell sans exclusion pour SCCM/Ansible génère un flot d'alertes ignorées par les analystes, qui finissent par désactiver la règle entière plutôt que de la tuner.
 
 ### Structure d'une règle Sigma
 

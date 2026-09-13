@@ -434,6 +434,9 @@ Deux environnements, switch instantané
 
 Déploiement progressif à un sous-ensemble
 
+> [!tip] Comment choisir
+> Rolling Update convient à la majorité des cas (aucune infra supplémentaire). Blue-Green permet un rollback instantané (juste re-basculer le routage) mais double temporairement les ressources. Canary limite le rayon d'impact d'un bug en le testant sur un sous-ensemble réel d'utilisateurs avant généralisation — le plus prudent, mais aussi le plus lent à déployer complètement.
+
 ## Sécurité
 
 ### RBAC (Role-Based Access Control)
@@ -509,6 +512,9 @@ spec:
         cpu: "500m"
 ```
 
+> [!warning] Piège
+> Sans `limits`, un conteneur peut consommer toute la mémoire du nœud et faire tomber d'autres Pods avec lui (OOMKiller au niveau du nœud, pas seulement du conteneur). Sans `requests`, le Scheduler ne peut pas garantir qu'un nœud a assez de ressources avant d'y placer le Pod. Les deux sont nécessaires, pas seulement l'un ou l'autre.
+
 ### Health Checks
 
 ```yaml
@@ -528,6 +534,9 @@ spec:
       initialDelaySeconds: 5
       periodSeconds: 5
 ```
+
+> [!important] Liveness vs Readiness — pas la même question
+> `livenessProbe` répond à « ce conteneur est-il bloqué et doit-il être redémarré ? » — un échec entraîne un restart. `readinessProbe` répond à « ce conteneur peut-il recevoir du trafic maintenant ? » — un échec le retire juste du Service sans le redémarrer. Confondre les deux (ex. mettre la même logique sur les deux) peut provoquer des redémarrages en boucle pour un problème qui ne demandait qu'un retrait temporaire du trafic.
 
 ### Labels et Annotations
 

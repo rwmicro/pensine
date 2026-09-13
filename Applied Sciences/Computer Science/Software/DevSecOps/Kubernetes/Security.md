@@ -10,6 +10,9 @@ date: "2025-05-04"
 
 La sécurité Kubernetes se structure selon le modèle des **4C** : Cloud, Cluster, Container, Code. Chaque couche doit être sécurisée indépendamment — une vulnérabilité au niveau Code peut être atténuée par les couches supérieures, mais une mauvaise configuration Cluster expose toutes les applications.
 
+> [!important] Sens de la dépendance entre couches
+> Les couches internes (Code) dépendent de la sécurité des couches externes (Cluster, Cloud), mais pas l'inverse : un excellent code sécurisé ne protège rien si le Cluster autorise l'accès anonyme à l'API server, ni si le Cloud expose etcd sur internet. Auditer de l'extérieur vers l'intérieur, pas l'inverse.
+
 ## Modèle des 4C
 
 ```
@@ -75,6 +78,9 @@ rules:
     resources: ["deployments"]
     verbs: ["get", "list"]
 ```
+
+> [!tip] Méthode
+> Écrire les Roles à partir du besoin réel (quels verbes, sur quelles resources précises), jamais en partant d'un wildcard qu'on restreindrait "plus tard" — ce plus tard n'arrive presque jamais. `kubectl auth can-i` permet de vérifier après coup qu'un ServiceAccount n'a accès qu'à ce qui est prévu.
 
 Vérifier les permissions d'un sujet :
 ```bash
@@ -186,6 +192,9 @@ Les `Secret` Kubernetes sont encodés en base64 (pas chiffrés) et stockés en c
 # Un Secret est trivial à décoder
 kubectl get secret mon-secret -o jsonpath='{.data.password}' | base64 -d
 ```
+
+> [!warning] Piège
+> N'importe qui ayant un accès en lecture à etcd — ou aux permissions RBAC `get secrets` — peut décoder n'importe quel Secret en une commande. Ce n'est pas une faille corrigeable côté application : c'est un choix de conception de Kubernetes. Les alternatives ci-dessous (chiffrement etcd, Vault) sont la vraie protection, pas une option cosmétique.
 
 ### Chiffrement at-rest de etcd
 

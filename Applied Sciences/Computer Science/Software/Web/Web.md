@@ -12,6 +12,9 @@ date: "2026-02-16"
 
 Technologies et frameworks pour le développement web moderne.
 
+> [!important] Repère pour s'orienter
+> Ce fichier est une carte du territoire web, pas un manuel — chaque brique listée mérite sa propre note pour être vraiment apprise (voir [[HTTP en profondeur]], [[REST et API Design]], [[Node.js et Express]], [[React.js]]). Utile pour situer une techno dans l'écosystème, pas pour apprendre à s'en servir.
+
 ## Contenu de cette section
 
 ### Frameworks JavaScript

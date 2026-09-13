@@ -40,7 +40,8 @@ result.plot()  # Affiche les 4 composantes
 
 ## Stationnarité
 
-Un processus est **stationnaire** si sa moyenne, variance et autocovariance ne dépendent pas du temps. C'est une hypothèse requise par de nombreux modèles statistiques.
+> [!important] Idée clé
+> Un processus est **stationnaire** si sa moyenne, variance et autocovariance ne dépendent pas du temps. C'est une hypothèse requise par de nombreux modèles statistiques (ARIMA notamment) — les appliquer sur une série non stationnaire sans la retraiter donne des prévisions biaisées, même si le modèle "s'entraîne" sans erreur apparente.
 
 **Test ADF (Augmented Dickey-Fuller) :**
 ```python
@@ -80,6 +81,9 @@ Modèle paramétrique avec trois composantes :
 | p (AR) | Ordre autorégressif | Pic sur PACF |
 | d (I) | Ordre de différenciation | Nombre de diff pour stationnarité |
 | q (MA) | Ordre Moving Average | Pic sur ACF |
+
+> [!tip] Méthode de lecture des corrélogrammes
+> Un ACF qui décroît lentement (pas de coupure nette) signale une série non stationnaire — différencier avant d'aller plus loin. Une fois stationnaire, une coupure nette de l'ACF après le lag k suggère MA(k) ; une coupure nette de la PACF après le lag k suggère AR(k). En pratique, `auto_arima` automatise cette lecture, mais comprendre le principe aide à valider son résultat.
 
 ```
 ARMA(p,q) : yₜ = c + Σᵢφᵢyₜ₋ᵢ + εₜ + Σⱼθⱼεₜ₋ⱼ
@@ -208,7 +212,8 @@ graph LR
     data --> test[Test\n2024-2025]
 ```
 
-**Jamais de validation croisée K-Fold classique** : violerait la causalité temporelle.
+> [!warning] Piège fréquent
+> Jamais de validation croisée K-Fold classique sur une série temporelle : un split aléatoire mélange passé et futur entre train et validation, ce qui viole la causalité temporelle et donne des scores de validation artificiellement optimistes — le modèle a alors "vu" des données futures pendant l'entraînement.
 
 **Walk-forward validation** :
 ```

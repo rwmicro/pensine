@@ -26,6 +26,9 @@ Routeur A → Routeur B → Routeur C → Destination
 
 La **métrique** de RIP = nombre de sauts. Maximum : **15 hops**. À 16 = destination considérée inaccessible.
 
+> [!important] Pourquoi 15 sauts et pas l'infini
+> RIP fixe volontairement une limite basse pour contenir le problème du *count to infinity* : quand une route disparaît, des routeurs qui se répondent mutuellement peuvent s'annoncer une métrique qui augmente indéfiniment sans jamais détecter la panne. En plafonnant à 16 = inaccessible, RIP borne le temps que ce problème peut durer, au prix d'une limite qui rend le protocole inutilisable sur un grand réseau.
+
 
 ## Versions
 
@@ -108,6 +111,9 @@ debug ip rip
 Le routing statique est configuré manuellement par l'administrateur réseau. Il ne s'adapte pas automatiquement aux changements de topologie. Adapté aux petits réseaux stables.
 
 Le routing dynamique (RIP, OSPF, EIGRP) met à jour automatiquement les tables de routage lorsque la topologie change.
+
+> [!tip] Comment choisir
+> Une route statique a une distance administrative meilleure (plus fiable aux yeux du routeur) que n'importe quel protocole dynamique — elle prime donc automatiquement si les deux existent vers la même destination. C'est utile pour une route par défaut ou un lien de secours stable, mais dangereux si oubliée après un changement de topologie : elle continue d'être préférée même si elle n'est plus optimale.
 
 ### Configuration de routage statique (Cisco)
 

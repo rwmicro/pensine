@@ -60,6 +60,9 @@ Bash, or the **Bourne Again SHell**, is a Unix shell and command language that i
 | `$1` to `$9` | Positional arguments (1 to 9) |
 | `$#`      | Number of arguments                |
 | `$@`      | All arguments as a list            |
+
+> [!warning] Piège
+> `$*` et `$@` semblent identiques mais divergent une fois entre guillemets : `"$@"` développe chaque argument comme un mot séparé (préserve les espaces internes), alors que `"$*"` les fusionne en une seule chaîne. Dans une boucle `for arg in "$@"`, c'est presque toujours `"$@"` qu'il faut utiliser pour traiter correctement des arguments contenant des espaces.
 | `$?`      | Exit status of last command        |
 | `$$`      | Process ID of current shell        |
 

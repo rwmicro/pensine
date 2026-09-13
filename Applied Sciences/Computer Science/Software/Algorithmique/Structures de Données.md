@@ -10,6 +10,9 @@ date: "2026-02-24"
 
 Une structure de données est une façon d'organiser et stocker des données pour permettre des opérations efficaces. Le choix de la structure détermine les complexités des opérations fondamentales.
 
+> [!important] Idée clé
+> Il n'y a pas de structure universellement "rapide" : chaque structure fait un compromis entre accès, insertion et suppression. Un tableau accède vite mais insère lentement en tête ; une liste chaînée fait l'inverse. Choisir une structure, c'est choisir quelle opération on optimise au prix des autres.
+
 ## Tableaux
 
 ### Tableau statique
@@ -227,6 +230,9 @@ def rechercher(racine, val):  # O(h) où h est la hauteur
 
 BST auto-équilibré. Le facteur d'équilibre (hauteur gauche − hauteur droite) reste dans {-1, 0, 1}. Des rotations (simple gauche/droite, double) maintiennent l'équilibre après chaque insertion ou suppression.
 
+> [!tip] Quand s'équilibrer coûte plus qu'il ne rapporte
+> Un BST simple suffit quand les insertions arrivent dans un ordre déjà aléatoire (il reste équilibré naturellement). L'auto-équilibrage (AVL, Rouge-Noir) devient nécessaire seulement quand l'ordre d'insertion peut être adversarial ou trié — sinon les rotations ajoutent un coût pour un bénéfice nul.
+
 ### Tas (Heap)
 
 Arbre binaire complet satisfaisant la propriété de tas :
@@ -267,6 +273,9 @@ def hachage(cle, taille):
 ### Facteur de charge
 
 load_factor = n / capacité. Quand il dépasse un seuil (~0.75), on redimensionne (rehashing) : O(n) ponctuel, O(1) amorti.
+
+> [!warning] Piège
+> Le O(1) moyen d'une table de hachage repose entièrement sur une bonne distribution des clés. Avec une mauvaise fonction de hachage (ou des clés adversariales), toutes les clés peuvent finir dans le même bucket, dégradant la recherche en O(n) — un scénario exploité par certaines attaques par déni de service (hash flooding).
 
 ## Graphes
 

@@ -14,6 +14,9 @@ Les **CNN** (Convolutional Neural Networks) sont une catégorie de réseaux de n
 
 Un réseau de neurones classique (fully connected) ne peut pas traiter efficacement des images : une image de 256x256 pixels en couleur représente **196 608 paramètres** par neurone de la première couche. Les CNN résolvent ce problème grâce au **partage de poids** et aux **connexions locales**.
 
+> [!important] Idée clé
+> Un même filtre (quelques dizaines de paramètres) glisse sur toute l'image au lieu d'avoir un poids différent par pixel — le partage de poids. Ça part du principe qu'un motif utile (un bord, une texture) est pertinent où qu'il apparaisse dans l'image, ce qui réduit drastiquement le nombre de paramètres par rapport à un réseau dense.
+
 ```mermaid
 graph LR
     A[Image d'entrée] --> B[Convolution + ReLU]
@@ -58,6 +61,9 @@ $$S(i, j) = (I * K)(i, j) = \sum_m \sum_n I(i+m,\; j+n) \cdot K(m, n)$$
 **Taille de sortie :**
 $$O = \frac{W - K + 2P}{S} + 1$$
 - $W$ : taille de l'entrée, $K$ : taille du filtre, $P$ : padding, $S$ : stride
+
+> [!warning] Piège fréquent
+> Cette formule ne donne un entier que si $(W - K + 2P)$ est divisible par $S$ — sinon la taille de sortie doit être arrondie (généralement vers le bas), ce qui peut désaligner les couches suivantes si elle n'est pas vérifiée à la conception du réseau. C'est une source classique d'erreurs de dimension lors de l'écriture manuelle d'une architecture CNN.
 
 ```mermaid
 graph TB
@@ -200,6 +206,9 @@ timeline
 **Connexion résiduelle :**
 $$y = F(x) + x$$
 Le réseau n'apprend que le **résidu** $F(x)$, ce qui est plus facile à optimiser.
+
+> [!tip] Intuition
+> Sans skip connection, un réseau très profond doit apprendre une fonction identité couche par couche si ajouter des couches ne doit pas nuire — ce qui est étonnamment difficile à optimiser. Avec `y = F(x) + x`, il suffit que le réseau apprenne `F(x) ≈ 0` pour repasser en identité : un point de départ beaucoup plus facile à atteindre par la descente de gradient.
 
 ```mermaid
 graph LR

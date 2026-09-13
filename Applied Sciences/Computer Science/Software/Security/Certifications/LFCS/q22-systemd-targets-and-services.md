@@ -4,14 +4,13 @@
 
 systemd est le système d'init moderne (PID 1) : il démarre, supervise et ordonne tous les services. Tout y est une **unit** (unité), décrite par un fichier.
 
-**Modèle mental : units et targets.**
-
-```
-units :   .service (un démon)   .socket   .mount   .timer   .target ...
-                                                              │
-targets = groupes d'units = "états" du système (≈ anciens runlevels)
-   ex: multi-user.target = système complet sans interface graphique
-```
+> [!tip] Modèle mental : units et targets
+> ```
+> units :   .service (un démon)   .socket   .mount   .timer   .target ...
+>                                                               │
+> targets = groupes d'units = "états" du système (≈ anciens runlevels)
+>    ex: multi-user.target = système complet sans interface graphique
+> ```
 
 Un *target* est un point de rassemblement : démarrer `graphical.target` entraîne `multi-user.target`, qui entraîne les services réseau, etc. Le `default.target` détermine l'état au démarrage.
 
@@ -39,11 +38,11 @@ systemctl --failed              # units en échec
 systemctl list-dependencies graphical.target
 ```
 
-**Pièges** :
-- `enable` sans `start` (ou inversement) est l'erreur classique : « activé » ≠ « démarré ».
-- Après avoir édité un fichier `.service` à la main, oublier `daemon-reload` = changements ignorés.
-- `mask` est plus fort que `disable` ; un service masqué refuse de démarrer même tiré par une dépendance.
-- Les logs des units passent par journald — voir [[q24-system-logs]].
+> [!warning] Pièges
+> - `enable` sans `start` (ou inversement) est l'erreur classique : « activé » ≠ « démarré ».
+> - Après avoir édité un fichier `.service` à la main, oublier `daemon-reload` = changements ignorés.
+> - `mask` est plus fort que `disable` ; un service masqué refuse de démarrer même tiré par une dépendance.
+> - Les logs des units passent par journald — voir [[q24-system-logs]].
 
 ## Énoncé
 

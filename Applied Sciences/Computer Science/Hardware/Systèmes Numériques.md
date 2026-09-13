@@ -54,6 +54,9 @@ Les systèmes numériques traitent l'information sous forme de valeurs discrète
 0x1F4 = 0001 1111 0100 = 500
 ```
 
+> [!tip] Méthode de conversion hexadécimal ↔ binaire
+> Découper l'hexadécimal en groupes de 4 bits et convertir chaque chiffre indépendamment (pas besoin de repasser par le décimal) — c'est la seule base où cette correspondance directe fonctionne, car 16 = 2⁴.
+
 **Python pour les conversions** :
 
 ```python
@@ -113,6 +116,9 @@ Vérification : 11111011 = -128 + 64 + 32 + 16 + 8 + 0 + 2 + 1 = -5 ✓
 
 **Astuce** : le bit de poids fort est le bit de signe. Si MSB=1, le nombre est négatif.
 
+> [!important] Idée clé
+> Le complément à 2 est universel en pratique parce qu'il permet d'additionner des entiers signés et non signés avec le **même circuit matériel** (l'ALU ne fait pas de distinction) — contrairement au signe-magnitude ou au complément à 1, qui nécessitent une logique spéciale pour gérer le signe.
+
 **Overflow** : dépasser la plage représentable. Sur 8 bits signés, 127 + 1 = -128 (overflow). En C/C++, l'overflow d'entiers signés est un comportement indéfini.
 
 ```python
@@ -164,6 +170,9 @@ float('nan') == float('nan')  # False ! NaN n'est jamais égal à lui-même
 import math
 math.isclose(0.1 + 0.2, 0.3)  # True (comparaison avec tolérance)
 ```
+
+> [!warning] Piège fréquent
+> 0.1 et 0.2 n'ont pas de représentation binaire finie exacte (comme 1/3 en décimal) — l'erreur d'arrondi est inhérente au format IEEE 754, pas un bug d'un langage en particulier. Ne jamais comparer des flottants avec `==` ; utiliser une tolérance (`math.isclose`) ou, pour l'argent, un type décimal exact (`Decimal` en Python).
 
 ## Portes logiques
 
