@@ -56,6 +56,9 @@ Sans PMF :  attaquant injecte deauth → client se déconnecte
 Avec PMF :  client vérifie le MIC → deauth non signée rejetée
 ```
 
+> [!important] Idée clé
+> PMF ne chiffre pas les trames management, il les **authentifie** — un attaquant peut toujours voir qu'une trame deauth existe, mais ne peut plus en forger une valide sans connaître la clé de session. C'est la même logique que la signature SMB contre le relais NTLM : empêcher la falsification, pas l'observation.
+
 | Mode | Comportement |
 |------|--------------|
 | Disabled | Aucune protection (par défaut WPA2 ancien) |
@@ -122,6 +125,9 @@ network={
 ## Wireless Intrusion Detection System (WIDS)
 
 Détecte deauth massives, beacon flood, rogue APs, SSID dupliqués.
+
+> [!warning] Piège
+> Un WIDS détecte et alerte, il ne bloque rien par nature (contrairement à PMF qui empêche activement l'attaque) — sans quelqu'un ou une automatisation pour agir sur l'alerte (isoler le rogue, notifier les utilisateurs), la détection seule ne réduit pas le risque. La valeur d'un WIDS dépend entièrement du processus de réponse à incident qui le suit.
 
 ### Kismet (open-source)
 

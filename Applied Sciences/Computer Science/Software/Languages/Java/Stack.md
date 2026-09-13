@@ -14,6 +14,9 @@ Une pile est une structure de données abstraite qui suit le principe **LIFO** (
 
 Java fournit une classe `Stack<E>` dans `java.util`, héritée de `Vector`. Cet héritage est considéré comme une erreur de conception : `Stack` hérite de toutes les méthodes de `Vector` (accès par index, insertion au milieu), ce qui viole la sémantique LIFO d'une pile et expose des opérations qui ne devraient pas exister sur une pile.
 
+> [!warning] Piège
+> Le problème n'est pas seulement sémantique : `Vector` synchronise chaque méthode individuellement (verrou pris et relâché à chaque `push`/`pop`), même en contexte mono-thread où cette synchronisation ne sert à rien. C'est un coût de performance payé pour une garantie de thread-safety qui, en pratique, ne protège même pas les séquences d'opérations (un `peek` suivi d'un `pop` peut être entrelacé par un autre thread entre les deux appels).
+
 ```java
 import java.util.Stack;
 
@@ -57,6 +60,9 @@ System.out.println(pile.pop());   // "b"
 System.out.println(pile.isEmpty()); // false
 System.out.println(pile.size());    // 1
 ```
+
+> [!warning] Piège
+> Contrairement à `Stack` (qui autorise `null` via `Vector`), `ArrayDeque` interdit les éléments `null` et lève une `NullPointerException` sur `push(null)`. C'est volontaire : `null` est réservé comme valeur de retour pour signaler "vide" dans les méthodes sûres (`pollFirst()`, `peekFirst()`) — l'autoriser comme élément créerait une ambiguïté entre "la pile est vide" et "l'élément au sommet est null".
 
 ### Méthodes Deque utilisées comme Stack
 

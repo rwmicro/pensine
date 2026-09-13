@@ -29,6 +29,9 @@ Autres méthodes :
   Fréquences audio : insérer des sons hors spectre audible
 ```
 
+> [!important] Idée clé
+> "Invisible à l'œil" ne veut pas dire "indétectable" : remplacer systématiquement les LSB par des données aléatoires (au lieu du bruit naturel du capteur) change la distribution statistique de l'image, ce que les outils de steganalyse (StegDetect) détectent sans même extraire le message. La vraie discrétion stéganographique doit préserver les propriétés statistiques du support, pas seulement tromper l'œil.
+
 ## Analyse d'images — CTF
 
 ### Métadonnées
@@ -207,6 +210,9 @@ stegoveritas image.png         # Analyse complète automatique
 # Stegseek — bruteforce steghide (ultra-rapide)
 stegseek image.jpg rockyou.txt  # Cracker le mot de passe steghide
 ```
+
+> [!tip] Méthode
+> L'ordre du workflow ci-dessous n'est pas arbitraire : il va du moins coûteux (métadonnées, strings) vers le plus coûteux (bruteforce de mot de passe steghide), et du plus général (binwalk sur n'importe quel fichier) vers le plus spécifique (zsteg pour PNG). Épuiser les vérifications rapides avant de lancer un bruteforce qui peut tourner des heures.
 
 ## Workflow CTF
 

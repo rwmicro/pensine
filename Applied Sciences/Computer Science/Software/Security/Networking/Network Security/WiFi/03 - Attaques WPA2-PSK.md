@@ -32,6 +32,9 @@ PMK = PBKDF2(PSK, SSID, 4096, 256)
 
 Avec les 4 messages capturés + ESSID + MACs, on peut **vérifier offline** si une PSK candidate produit le bon MIC.
 
+> [!important] Idée clé
+> C'est ce qui rend l'attaque "silencieuse" après la capture : une fois le handshake obtenu, plus aucun paquet n'est envoyé vers l'AP ou le client — tout le brute-force se fait localement en recalculant le MIC pour chaque candidat. L'AP ne voit donc jamais les milliards de tentatives, contrairement à une attaque online (WPS, login web) qui, elle, est détectable et rate-limitable.
+
 ## Capture du handshake
 
 ```bash
@@ -88,6 +91,9 @@ hashcat -m 22000 pmkid.hc22000 /usr/share/wordlists/rockyou.txt
 
 **Avantage** : pas besoin d'attendre ou de deauth (silencieux, plus rapide).
 **Limite** : ne fonctionne pas si l'AP/802.11r est correctement configuré (PMKID absent ou aléatoire).
+
+> [!tip] Méthode
+> Contrairement au handshake classique qui nécessite qu'un client légitime se (ré)associe, le PMKID est envoyé par l'AP dès le tout premier message — donc sans deauth ni attente. En pratique, toujours tenter PMKID en premier (`hcxdumptool`), et ne basculer vers la capture de handshake classique que si l'AP ne le fournit pas.
 
 ## Cracking — aircrack-ng
 

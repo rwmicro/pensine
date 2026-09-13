@@ -13,6 +13,9 @@ nmap is a command line interface port scanner.
 # Why nmap choose to scan these ports ?
 By default, nmap creates a map of the most frequently used ports. If the user performs a simple `nmap IP` scan. The command will scan the 1000 most used ports. You can find this map in the `/usr/share/nmap/nmap-services` file.
 
+> [!warning] Piège
+> Un scan par défaut (top 1000) rate systématiquement les services déplacés sur un port non-standard — une pratique courante en pentest réel pour échapper justement aux scans rapides. Pour un audit exhaustif, `-p-` (tous les ports) est nécessaire, quitte à accepter le temps de scan supplémentaire.
+
 ## Scanning Options
 
 | **Nmap Option**      | **Description**                                                        |
@@ -66,7 +69,10 @@ By default, nmap creates a map of the most frequently used ports. If the user pe
 
 
 ## Available scirpts
-Nmap proposes a lot of script for specific usage each. 
+Nmap proposes a lot of script for specific usage each.
+
+> [!warning] Piège
+> Les catégories `Intrusive`, `Exploit` et `Dos` peuvent activement perturber ou faire planter un service (voire un système industriel fragile). En engagement client, ne les lancer que si les règles d'engagement l'autorisent explicitement — `-sC`/`--script=default` reste `safe` par construction.
 
 |**Category**|**Description**|**Example Scripts**|
 |---|---|---|

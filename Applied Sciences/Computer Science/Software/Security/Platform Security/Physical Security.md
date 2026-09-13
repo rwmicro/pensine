@@ -52,6 +52,9 @@ MIFARE Classic (très répandu) :
   → Pratiquement tous les lecteurs MIFARE Classic sont vulnérables
 ```
 
+> [!important] Idée clé
+> MIFARE Classic n'est pas resté vulnérable par manque d'alternatives — DESFire existait déjà — mais parce que le coût de migration (remplacer tous les badges et lecteurs d'un site) dépasse souvent, dans l'esprit des décideurs, le risque perçu d'un clonage physique. C'est un cas classique où la vulnérabilité technique est connue et documentée depuis 15+ ans, et où le vrai obstacle à la correction est organisationnel, pas cryptographique.
+
 ```bash
 # Proxmark3 — outil de référence pour l'audit RFID/NFC
 
@@ -134,6 +137,9 @@ Serrures "sécurisées" :
   Serrures électroniques → souvent des mécanismes de secours exploitables
 ```
 
+> [!tip] Méthode
+> "Résistant au picking" et "sécurisé" ne sont pas synonymes — une serrure haut de gamme peut être quasi impossible à crocheter tout en restant vulnérable au bypass (shimming, under-the-door, carte de crédit) si la porte elle-même est mal installée. Auditer une serrure sans regarder l'ensemble porte + gâche + dormant donne une fausse impression de sécurité basée sur le seul mécanisme interne.
+
 ## USB Drops et HID Attacks
 
 ```
@@ -147,6 +153,9 @@ Payloads USB courants :
   → OMG Cable / O.MG : câble Lightning/USB-C avec implant WiFi intégré
   → Bash Bunny : MITM USB, HID, mass storage combinés
 ```
+
+> [!warning] Piège
+> Un Rubber Ducky ne "hacke" rien techniquement — il émule un clavier USB, un périphérique auquel l'OS fait confiance par construction (sinon on ne pourrait taper aucune commande). Aucun antivirus ne bloque "quelqu'un qui tape très vite au clavier" : la seule défense efficace est de contrôler l'accès physique au port lui-même (whitelist de périphériques, ports désactivés), pas une détection logicielle du contenu.
 
 ```bash
 # Rubber Ducky — script (Ducky Script)

@@ -197,6 +197,10 @@ while True:
 ## Fonctions
 
 ```python
+> [!warning] Piège
+> Un argument par défaut **mutable** (`def f(items=[])`) est évalué **une seule fois**, à la définition de la fonction — pas à chaque appel. La même liste est alors partagée et modifiée entre tous les appels qui n'en fournissent pas une explicitement, ce qui produit un état qui persiste silencieusement d'un appel à l'autre. Règle : ne jamais utiliser `[]`, `{}` ou une instance mutable comme valeur par défaut — utiliser `None` et créer l'objet à l'intérieur de la fonction.
+
+```python
 # Paramètres positionnels, valeur par défaut, *args, **kwargs
 def creer_profil(nom, age=0, *tags, **meta):
     return {"nom": nom, "age": age, "tags": tags, "meta": meta}
@@ -283,6 +287,9 @@ animaux: list[Animal] = [Chien("Rex", 3, "Berger"), Chat("Mimi", 5)]
 for a in animaux:
     print(f"{a.nom} dit : {a.parler()}")
 ```
+
+> [!warning] Piège
+> `Animal` ci-dessus définit `__eq__` sans définir `__hash__` — Python met alors automatiquement `__hash__` à `None`, rendant les instances **non-hashables** : impossible de les mettre dans un `set` ou comme clé de `dict`. Dès qu'une classe redéfinit `__eq__`, elle doit aussi redéfinir `__hash__` explicitement (cohérent avec les champs utilisés dans `__eq__`), sauf si l'objet doit rester délibérément non-hashable.
 
 ### Méthodes spéciales (dunder methods)
 

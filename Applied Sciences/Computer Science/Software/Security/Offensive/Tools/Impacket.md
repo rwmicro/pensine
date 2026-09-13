@@ -39,6 +39,9 @@ export KRB5CCNAME=ticket.ccache
 <script>.py -aesKey <aes_key> domaine/utilisateur@cible
 ```
 
+> [!important] Idée clé
+> Les quatre modes d'authentification illustrent le principe central du mouvement latéral en AD : une fois un secret dérivé obtenu (hash NTLM, clé AES, ticket Kerberos), le mot de passe en clair n'est plus jamais nécessaire. C'est pour ça que "cracker" un hash n'est souvent pas l'objectif — le pass-the-hash/pass-the-ticket suffit à rejouer l'authentification.
+
 ## Extraction de credentials
 
 ### secretsdump — dump des hashes et secrets
@@ -118,6 +121,9 @@ impacket-wmiexec domaine/admin:password@192.168.1.10
 # Moins bruyant que psexec (pas de service créé)
 impacket-wmiexec -hashes :ntlm_hash domaine/admin@192.168.1.10
 ```
+
+> [!tip] Méthode
+> Le choix entre psexec/wmiexec/smbexec/atexec est avant tout une question d'OPSEC : chacun laisse une trace différente (création de service Windows, tâche planifiée, artefact WMI...) que l'EDR ou le SOC cible peut détecter. En engagement furtif, privilégier wmiexec ou atexec ; psexec reste le plus fiable mais aussi le plus bruyant.
 
 ### smbexec — exécution via SMB (sans upload de fichier)
 

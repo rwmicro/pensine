@@ -24,6 +24,9 @@ graph LR
     prep --> detect --> contain --> eradicate --> recover --> lessons
 ```
 
+> [!important] Idée clé
+> L'ordre confinement → éradication n'est pas arbitraire : éradiquer trop tôt (tuer le process, supprimer les fichiers) détruit des preuves forensiques et peut alerter un attaquant encore actif, qui bascule alors sur un canal de persistance de secours avant qu'on ait cartographié l'étendue réelle de la compromission. Confiner d'abord achète le temps d'investiguer sans perdre le contrôle de la situation.
+
 ## Playbook 1 — Ransomware
 
 ### Indicateurs de compromission
@@ -239,6 +242,9 @@ grep -i "UNION\|SELECT\|DROP\|INSERT" /var/log/nginx/access.log
 3. Impliquer les RH et le service juridique dès le début
 4. En cas de départ confirmé : révoquer tous les accès simultanément
 5. Auditer les accès des 30-90 jours précédents
+
+> [!warning] Piège
+> Contrairement aux playbooks précédents où la rapidité de confinement prime, l'insider threat inverse la priorité : désactiver le compte trop tôt alerte la personne surveillée, qui peut alors accélérer l'exfiltration, détruire des preuves, ou simplement nier avec un dossier incomplet. La discrétion initiale n'est pas de la prudence excessive, c'est la condition pour avoir un dossier solide avant d'agir.
 ```
 
 ## Communication de crise

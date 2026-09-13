@@ -59,6 +59,9 @@ Avantages de la chaîne :
 - Flexibilité : plusieurs Intermediate CA pour des usages différents
 ```
 
+> [!important] Idée clé
+> La chaîne existe pour limiter le rayon d'explosion d'une compromission : la Root CA, gardée hors ligne, ne signe presque jamais rien directement — seulement quelques Intermediate CA. Si une Intermediate est compromise, révoquer *cette seule* CA suffit ; la Root reste intacte et n'a jamais eu besoin d'être exposée en ligne.
+
 ## Inspection de certificats
 
 ```bash
@@ -236,6 +239,9 @@ certipy auth -pfx administrator.pfx -domain domaine.local
 # Relay vers http://CA-SERVER/certsrv/certfnsh.asp
 ntlmrelayx -t http://CA-SERVER/certsrv/certfnsh.asp -smb2support --adcs
 ```
+
+> [!warning] Piège
+> ESC1 casse la PKI par la couche applicative, pas par la crypto : le template autorise le demandeur à choisir son propre SAN, donc à demander un certificat "pour" `administrator@domaine.local` en étant authentifié comme un utilisateur lambda. La CA signe honnêtement un certificat qui ment sur l'identité — la confiance PKI repose entièrement sur la configuration du template, pas sur la robustesse de RSA/ECDSA.
 
 ## TLS — configuration sécurisée
 

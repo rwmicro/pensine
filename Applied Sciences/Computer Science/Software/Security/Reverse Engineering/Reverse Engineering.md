@@ -176,6 +176,9 @@ exeinfope malware.exe
 upx -d malware_upx.exe -o malware_unpacked.exe
 ```
 
+> [!tip] Méthode
+> Une entropie élevée signale de la compression ou du chiffrement, pas forcément du packing malveillant — un binaire légitime avec des ressources compressées (images, assets) aura aussi des sections à haute entropie. Croiser avec d'autres indices (peu de sections, imports quasi vides, point d'entrée dans une section writable) avant de conclure.
+
 ## Analyse dynamique
 
 L'analyse dynamique exécute le binaire dans un environnement contrôlé pour observer son comportement.
@@ -322,6 +325,9 @@ Obfuscation :
    → Documenter dans MISP ou un rapport
 ```
 
+> [!important] Idée clé
+> L'analyse statique et dynamique se complètent, elles ne se remplacent pas : le statique montre tout ce que le programme *pourrait* faire (y compris du code mort ou jamais atteint en pratique), le dynamique montre seulement ce qu'il *fait réellement* dans ce run précis. Un malware peut cacher 90 % de ses capacités derrière une condition jamais déclenchée en sandbox (date, langue système, présence d'un fichier spécifique) — d'où l'intérêt de revenir au statique après l'observation dynamique.
+
 ## Techniques Anti-Analyse et leur Contournement
 
 Les malwares modernes implémentent des défenses contre l'analyse. Comprendre ces techniques est essentiel pour les contourner.
@@ -424,6 +430,9 @@ const char* sandbox_processes[] = {
 - Utiliser des sandboxes "renforcées" avec artefacts mimant un vrai PC (FlareVM, CAPE)
 - Modifier les chaînes de caractères identifiables dans la VM
 - Utiliser une vraie machine physique (bare-metal) pour l'analyse
+
+> [!warning] Piège
+> Un malware qui ne détecte aucun artefact de VM ne prouve pas qu'il est inoffensif — il peut simplement être **sandbox-aware par comportement** (attendre 5 minutes, vérifier l'absence de mouvement de souris) plutôt que par détection d'environnement. Un rapport sandbox "propre" après un run court est souvent un faux négatif, pas une preuve d'innocuité.
 
 **Comportements sandbox-aware :**
 ```c

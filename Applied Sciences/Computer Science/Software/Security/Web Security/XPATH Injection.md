@@ -87,6 +87,9 @@ Autres payloads classiques :
   admin' or position()=1 or 'x'='y
 ```
 
+> [!important] Idée clé
+> XPath 1.0 n'a pas d'équivalent du commentaire SQL (`--` ou `#`) pour neutraliser la fin de la requête — c'est pourquoi les payloads XPath doivent systématiquement rester **grammaticalement valides jusqu'au bout** de l'expression (d'où l'opérateur d'union `|` pour ajouter des noeuds plutôt que "commenter" la suite). C'est une différence structurelle avec l'injection SQL, pas juste une variation de syntaxe.
+
 ```bash
 # Tests manuels sur un formulaire de login
 curl -X POST https://target.com/login \
@@ -293,6 +296,9 @@ def escape_xpath(s):
         parts = s.split("'")
         return "concat('" + "', \"'\", '".join(parts) + "')"
 ```
+
+> [!warning] Piège
+> L'échappement manuel (ci-dessus) reste fragile : il faut anticiper toutes les combinaisons de guillemets simples et doubles, et un oubli suffit à rouvrir l'injection. C'est structurellement le même problème que l'échappement manuel en SQL — la paramétrisation (contre-mesure 1, variables XPath) élimine la classe de bug entière, l'échappement ne fait que réduire la probabilité de l'exploiter.
 
 ```
 Règles générales :

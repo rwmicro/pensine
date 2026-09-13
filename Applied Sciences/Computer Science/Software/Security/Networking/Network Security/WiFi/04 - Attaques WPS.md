@@ -23,6 +23,9 @@ PIN = D1 D2 D3 D4 D5 D6 D7 C
 Total : 11 000 essais → ~quelques heures à 1 essai/seconde
 ```
 
+> [!important] Idée clé
+> C'est un exemple classique d'erreur de conception cryptographique : découper un secret en deux moitiés vérifiables *indépendamment* détruit son entropie combinée. Si les 8 chiffres avaient été validés en un seul bloc, l'espace de recherche resterait à 10^8 — au lieu de ça, chaque moitié se brute-force séparément, d'où le passage à seulement 11 000 essais.
+
 ## Identifier les APs avec WPS activé
 
 ```bash
@@ -74,6 +77,9 @@ Le PIN sert ensuite à récupérer **directement la PSK** (le client négocie la
 ## Pixie Dust Attack — exploitation des nonces
 
 Sur de nombreux chipsets (Ralink, Realtek, Broadcom anciens), les nonces utilisés dans l'échange WPS sont **prédictibles** (RNG faible ou null). Cela permet de calculer le PIN **hors ligne** en quelques secondes, sans 11 000 tentatives.
+
+> [!important] Idée clé
+> Même famille de problème que Kr00k ou les nonces IV de WEP : un générateur de nombres aléatoires faible ou prévisible ruine la sécurité d'un protocole par ailleurs correct sur le papier. Le "correctif" n'est jamais dans le protocole WPS lui-même, mais dans le firmware du chipset — d'où la persistance du problème sur du matériel jamais mis à jour.
 
 ```bash
 # Reaver mode Pixie Dust

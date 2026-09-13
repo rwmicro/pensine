@@ -46,6 +46,9 @@ Deployment Server (gestion de config)
 index=windows sourcetype=WinEventLog:Security EventCode=4625
 ```
 
+> [!tip] Méthode
+> Toujours filtrer sur `index` et `sourcetype` en premier dans une recherche, avant toute condition métier — Splunk restreint alors le volume de données à scanner avant d'appliquer les filtres suivants, ce qui change la vitesse d'une recherche de plusieurs ordres de grandeur sur un environnement volumineux. Une recherche qui commence par une condition sur un champ extrait (`Account_Name=*admin*`) sans `index=` scanne potentiellement tous les index disponibles.
+
 ### Champs automatiques
 
 Splunk extrait automatiquement :
@@ -316,6 +319,9 @@ index=proxy
 | sort variance
 ```
 
+> [!important] Idée clé
+> Cette détection cherche une **régularité** statistique (faible variance dans le volume par heure), pas un volume élevé — c'est ce qui la distingue d'une simple détection de gros trafic. Un C2 qui beacon toutes les X secondes produit un motif presque parfaitement stable dans le temps, alors qu'un usage humain normal est naturellement irrégulier (pauses, horaires de travail). C'est la régularité elle-même qui est l'anomalie, pas la quantité de données échangées.
+
 ### Exfiltration de données
 
 ```spl
@@ -419,6 +425,9 @@ Le Risk-Based Alerting (RBA) attribue des scores de risque aux entités :
 | eval risk_object=Account_Name, risk_object_type="user"
 | sendalert risk_notifier
 ```
+
+> [!important] Idée clé
+> Le Risk-Based Alerting change la logique de détection d'un modèle binaire (une règle se déclenche → alerte) à un modèle cumulatif (chaque signal ajoute du risque à une entité, l'alerte se déclenche quand le total dépasse un seuil). Ça permet de capturer un attaquant dont chaque action individuelle est trop faible pour déclencher une règle seule, mais dont la combinaison (login inhabituel + accès à un partage sensible + horaire atypique) dépasse le seuil de risque cumulé — une approche impossible avec des règles indépendantes classiques.
 
 ## Administration
 

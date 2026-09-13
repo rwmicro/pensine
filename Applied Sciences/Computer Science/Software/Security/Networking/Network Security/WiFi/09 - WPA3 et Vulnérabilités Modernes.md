@@ -41,6 +41,9 @@ Client                              AP
 
 Chaque échange dépend d'un secret éphémère → impossible de rejouer ou bruteforcer hors ligne sans nouvelles interactions.
 
+> [!important] Idée clé
+> SAE ne rend pas le brute-force impossible, il le déplace : de "offline, illimité, invisible" (WPA2, cf. [[03 - Attaques WPA2-PSK]]) à "online, limité par le rate-limiting de l'AP, détectable". C'est le même changement de paradigme que WPS Pixie Dust vs PIN bruteforce classique — la vraie protection n'est pas cryptographique mais architecturale (obliger chaque tentative à passer par l'AP).
+
 ## WPA3-Enterprise
 
 - AES-256-GCMP (au lieu de CCMP)
@@ -63,6 +66,9 @@ Remplace les hotspots "Open" non chiffrés. Diffie-Hellman entre client et AP po
 **CVE-2017-13077 à 13088** — Mathy Vanhoef.
 
 **Principe** : pendant le 4-way handshake WPA2, si l'attaquant rejoue le message 3, le client **réinstalle la même clé** mais avec un compteur de nonce réinitialisé → réutilisation de nonce → décryption partielle possible.
+
+> [!warning] Piège
+> La faille vient d'une fonctionnalité de fiabilité tout à fait légitime : le message 3 est retransmis si l'AP ne reçoit pas l'ACK à temps (perte réseau possible), et le standard n'avait simplement jamais précisé que le client ne devait pas réinitialiser son nonce à chaque réinstallation. Un exemple de plus où une logique de robustesse réseau, pensée sans le bon modèle de menace, devient une faille de sécurité.
 
 **Impact** :
 - Décrypter du trafic chiffré (TKIP : injection possible)

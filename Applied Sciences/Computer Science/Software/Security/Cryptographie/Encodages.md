@@ -101,6 +101,9 @@ base64.urlsafe_b64decode("SGVsbG8rV29ybGQ=")
 # eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiYWxpY2UifQ.signature
 ```
 
+> [!tip] Méthode
+> Base64 est reconnaissable même sans contexte : longueur multiple de 4, alphabet restreint `[A-Za-z0-9+/=]`, et souvent un padding `=`/`==` en fin de chaîne. C'est le premier réflexe face à une chaîne suspecte — avant même d'essayer hex ou URL-encoding, qui laissent des marqueurs plus évidents (`%XX`, caractères non-imprimables).
+
 ## URL Encoding (Percent Encoding)
 
 Encode les caractères non-ASCII ou réservés dans les URLs sous la forme `%XX`.
@@ -174,6 +177,9 @@ unicodedata.normalize('NFKC', 'ﬁle')  # → 'file'
 # '/' → 0x2F (normal) ou 0xC0 0xAF (overlong invalide)
 # CVE-2000-0884 : IIS acceptait les encodages overlong → traversée de répertoire
 ```
+
+> [!warning] Piège
+> Les filtres de sécurité qui comparent des chaînes brutes échouent silencieusement face à Unicode : deux séquences d'octets différentes (NFC vs NFD, ligature vs caractères séparés) peuvent représenter visuellement le même texte. Un WAF qui filtre "fi" littéral laisse passer la ligature `ﬁ` (U+FB01), que le navigateur normalise ensuite en "fi" — le filtre et le rendu final ne voient pas la même chaîne.
 
 ## HTML Encoding
 

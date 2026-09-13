@@ -16,6 +16,9 @@ Le protocole SMTP (1982) n'a **aucune authentification native** de l'expéditeur
 
 Les trois mécanismes SPF, DKIM et DMARC ont été ajoutés progressivement (2003–2015) pour combler cette lacune, en s'appuyant sur le **DNS** comme source de vérité.
 
+> [!important] Idée clé
+> Ce ne sont pas trois protections indépendantes mais un empilement où chacune comble la faille de la précédente : SPF authentifie le chemin réseau (Return-Path), DKIM authentifie le contenu (signature), et DMARC relie les deux au domaine que l'utilisateur voit réellement (`From:`) — sans DMARC, un mail peut passer SPF et DKIM tout en usurpant visuellement l'expéditeur.
+
 ## SPF — Sender Policy Framework
 
 ### Principe
@@ -43,6 +46,9 @@ example.com.  IN TXT  "v=spf1 ip4:203.0.113.0/24 include:_spf.google.com include
 - SPF vérifie le **Return-Path** (enveloppe SMTP), pas le **From:** affiché à l'utilisateur. Un attaquant peut avoir un Return-Path légitime mais un From: usurpé.
 - **Limite de 10 lookups DNS** — les `include:` s'enchaînent et comptent chacun. Au-delà de 10, le SPF échoue silencieusement. Outil de vérification : `mxtoolbox.com/spf.aspx`.
 - **Transfert d'email** : quand un mail est forwarded, l'IP source change et SPF échoue → c'est ARC (Authenticated Received Chain) qui corrige ce cas.
+
+> [!warning] Piège
+> SPF vérifie le domaine du **Return-Path**, pas celui du **From:** affiché à l'utilisateur — c'est la faille exploitée par de nombreux spoofings : un attaquant enregistre son propre domaine avec un SPF valide (`-all` inclus), l'utilise comme Return-Path, et met un `From:` usurpé complètement différent. SPF seul passe ; sans DMARC pour imposer l'alignement entre les deux domaines, l'usurpation visuelle réussit.
 
 ## DKIM — DomainKeys Identified Mail
 

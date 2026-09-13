@@ -51,6 +51,9 @@ C:\Program Files\My Service\myservice.exe  ← Binaire légitime
 → Au prochain démarrage du service → exécution de notre binaire en SYSTEM
 ```
 
+> [!important] Idée clé
+> La faille n'est pas dans le service lui-même mais dans l'algorithme de résolution de chemin de Windows : sans guillemets, un chemin avec espaces est ambigu, et Windows essaie chaque segment comme exécutable possible avant le chemin complet. C'est un problème de parsing, pas de permissions — d'où sa persistance dans du code legacy jamais réécrit.
+
 ```powershell
 # Trouver les services avec chemins non quotés
 wmic service get name,displayname,pathname,startmode |
@@ -118,6 +121,9 @@ Find-PathDLLHijack
 
 Si l'utilisateur possède le privilege `SeImpersonatePrivilege` (comptes de service IIS, SQL Server), il peut usurper l'identité d'un token SYSTEM.
 
+> [!important] Idée clé
+> Tous les "Potato" (PrintSpoofer, GodPotato, JuicyPotato, RoguePotato) exploitent le même principe : forcer un service SYSTEM (via COM/RPC ou un serveur NTLM local) à s'authentifier auprès de l'attaquant, puis usurper le token obtenu grâce à `SeImpersonatePrivilege`. Seul le vecteur pour déclencher l'authentification SYSTEM change d'un outil à l'autre — c'est pour ça qu'il en existe autant de variantes selon la version de Windows.
+
 ```powershell
 # Vérifier les privileges
 whoami /priv
@@ -162,6 +168,9 @@ reg query "HKLM\Software\ORL\WinVNC3\Password"              # VNC
 ## UAC Bypass
 
 L'UAC (User Account Control) demande une confirmation avant d'exécuter des actions à hauts privilèges. Certaines techniques le contournent sans fenêtre de dialogue.
+
+> [!warning] Piège
+> Microsoft ne considère pas l'UAC comme une frontière de sécurité (*security boundary*) — c'est une couche de confort/consentement, pas une protection contre un attaquant déjà exécuté avec les droits de l'utilisateur. D'où le fait que Microsoft patche rarement ces bypasses comme des CVE : le modèle de menace officiel les exclut.
 
 ```powershell
 # Vérifier le niveau UAC

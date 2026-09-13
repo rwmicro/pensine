@@ -133,6 +133,9 @@ Idée : la victime est déjà connectée à son vrai AP. On la **deauth en boucl
 
 Vérification : on a déjà capturé un handshake de la vraie AP. La PSK saisie est testée localement avec `aircrack-ng` — si elle valide, elle est correcte.
 
+> [!tip] Méthode
+> Comme la vérification se fait entièrement côté attaquant (contre le handshake déjà capturé), c'est l'attaquant qui contrôle totalement le message "mot de passe incorrect" affiché à la victime — il peut le déclencher à volonté pour la faire ressaisir plusieurs fois et confirmer la PSK par recoupement, ou pour paraître plus crédible qu'un vrai portail qui échouerait rarement plusieurs fois de suite.
+
 ## Fluxion — Evil Twin + captive portal automatisé
 
 Framework Bash interactif. Workflow complet :
@@ -198,6 +201,9 @@ wifiphisher -aI wlan0 -jI wlan1 \
 ## Evilginx2 — vol de tokens MFA
 
 Reverse proxy qui intercepte les sessions HTTPS authentifiées (cookies de session, tokens OAuth). Combiné avec un Evil Twin → bypass MFA.
+
+> [!important] Idée clé
+> Ce n'est pas du phishing de mot de passe classique : le MFA n'est jamais "cassé", il est laissé se dérouler normalement entre la victime et le vrai service, pendant qu'Evilginx2 (positionné au milieu) vole le cookie de session **émis après** cette authentification réussie. Le modèle mental à retenir : au-delà du mot de passe et du second facteur, c'est la session elle-même qui devient la cible.
 
 ```bash
 # Phishlets pour Office365, Google, Github, etc.

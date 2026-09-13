@@ -37,6 +37,9 @@ Le web est aujourd'hui le premier vecteur d'accès initial — bien avant le phi
 
 À chaque flèche, demander : "que se passe-t-il si je modifie ce qui passe ?". C'est ça, le réflexe pentest web.
 
+> [!important] Idée clé
+> Presque toutes les vulnérabilités web ci-dessous se ramènent à la même question : **où l'application fait-elle confiance à une donnée qui vient du client alors qu'elle devrait la revalider côté serveur ?** SQLi, XSS, IDOR, SSRF ne sont que des variations sur ce point de confiance mal placé — c'est pour ça qu'apprendre le réflexe compte plus que mémoriser dix payloads.
+
 ## OWASP Top 10 (2021)
 
 | #  | Vulnérabilité                          | Idée centrale                              |
@@ -289,6 +292,9 @@ GET /api/users/1001/profile → /api/users/1002/profile
 - IDs encodés (base64, UUID prédictible)
 - API endpoints non documentés (visibles dans le JS minifié)
 - Méthodes HTTP différentes (GET interdit mais PUT/DELETE oui)
+
+> [!tip] Méthode
+> IDOR n'est pas une catégorie OWASP à part — c'est le symptôme le plus courant de **Broken Access Control** (#1 du Top 10). Utile pour le rapport de pentest : classer la faille sous la bonne catégorie montre qu'on comprend la cause (contrôle d'accès manquant), pas juste l'observation (l'ID change dans l'URL).
 
 ## JWT (JSON Web Tokens)
 

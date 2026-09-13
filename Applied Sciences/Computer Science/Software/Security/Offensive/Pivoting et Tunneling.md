@@ -33,6 +33,9 @@ Sens des connexions :
   Reverse          → pivot initie la connexion vers l'attaquant (passe les firewalls sortants)
 ```
 
+> [!important] Idée clé
+> Le choix entre forward et reverse — comme celui entre SSH, Chisel (HTTP) ou DNS tunneling — dépend d'une seule question : qu'est-ce que le firewall de la cible laisse sortir ? Les règles sortantes sont presque toujours plus permissives que les règles entrantes, ce qui explique pourquoi la quasi-totalité des techniques de ce fichier reposent sur une connexion initiée depuis le pivot vers l'attaquant, jamais l'inverse.
+
 ## SSH Tunneling
 
 SSH est le vecteur de pivoting le plus simple quand un accès SSH est disponible.
@@ -280,3 +283,6 @@ Défenses réseau :
   ✓ Surveiller les connexions ICMP volumineuses (anomalie)
   ✓ Désactiver SSH depuis les serveurs DMZ vers internet
 ```
+
+> [!warning] Piège
+> Aucun de ces outils n'est détectable par sa seule présence sur le disque — Chisel, ligolo, dnscat2 ne sont pas malveillants par nature, ce sont des binaires légitimes de tunneling. Ce qui trahit le pivoting, c'est l'anomalie comportementale (un serveur qui initie du SSH sortant qu'il n'a jamais fait, un volume DNS incohérent avec son rôle) — la détection doit chercher l'usage inhabituel, pas une signature de fichier.

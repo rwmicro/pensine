@@ -20,6 +20,9 @@ L'isolation peut être appliquée (ou pas) indépendamment à trois niveaux — 
 | B | Routage IP (L3) | Règles de forwarding entre clients au niveau de la passerelle |
 | C | Commutation L2 | Tables MAC-vers-port de l'AP (apprentissage du pont) |
 
+> [!important] Idée clé
+> Cette table à trois couches est la raison pour laquelle "l'isolation client est activée" ne veut souvent rien dire de précis : un AP peut parfaitement bloquer la couche C (commutation) sans jamais filtrer la couche A (GTK partagée) ou la B (routage IP), ce qui suffit à un attaquant qui vise la bonne couche. D'où le constat des chercheurs — chaque routeur testé était troué sur au moins une des trois.
+
 ## Techniques d'attaque
 
 ### 1. Abus de GTK (Group Temporal Key)
@@ -85,6 +88,9 @@ Sur les réseaux d'entreprise multi-AP, l'attaquant utilise deux interfaces radi
 4. **Relayage uplink** — Restauration de port + relayage inter-NIC (techniques 8, 9)
 
 Résultat mesuré par les chercheurs : MitM bidirectionnel établi en **~2 secondes**, avec seulement **1,7 % de perte de paquets** à 10 Mbps en conditions idéales.
+
+> [!tip] Méthode
+> Le chaînage illustre pourquoi corriger une seule des 9 techniques ne suffit jamais : le MitM complet combine une technique différente pour chaque direction (downlink/uplink) et chaque étape (interception/réinjection), donc bloquer le vol de port (technique 6) laisse le Gateway Bouncing (technique 5) et l'abus GTK (technique 1) disponibles pour construire une chaîne alternative.
 
 ## Défenses et mitigations
 

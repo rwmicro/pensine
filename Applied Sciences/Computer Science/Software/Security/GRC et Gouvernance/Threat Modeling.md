@@ -102,6 +102,9 @@ Datastore [DB MySQL] :
   E → EoP : un utilisateur peut-il accéder aux données d'un autre ? (→ Row-level security)
 ```
 
+> [!tip] Méthode
+> STRIDE s'applique élément par élément du DFD, pas au système entier d'un coup — les six catégories n'ont pas toutes de sens pour chaque type d'élément (la Répudiation concerne surtout les flux et les processus, rarement un simple datastore statique). Appliquer bêtement les six lettres à chaque brique produit une liste de non-questions ; l'intérêt de STRIDE vient de la confrontation à un DFD précis.
+
 ## MITRE ATT&CK
 
 ATT&CK ne remplace pas STRIDE mais le complète : là où STRIDE catégorise les menaces de façon abstraite, ATT&CK fournit un catalogue de **TTP réellement observés** chez les attaquants. Trois matrices selon l'environnement :
@@ -144,7 +147,12 @@ Seuils :
 
 ### CVSS et matrice de risque
 
-DREAD est subjectif (et Microsoft l'a abandonné en interne au profit de CVSS et de la SDL). En pratique on s'appuie aussi sur :
+DREAD est subjectif (et Microsoft l'a abandonné en interne au profit de CVSS et de la SDL).
+
+> [!warning] Piège
+> Le problème de DREAD n'est pas la formule (moyenne de 5 scores) mais que chaque score est une estimation humaine sans référentiel commun — deux évaluateurs peuvent légitimement donner 1 et 3 à l'*Exploitability* de la même vulnérabilité selon leur expérience. CVSS résout ça en fixant des critères précis et vérifiables (vecteur d'attaque réseau/local, complexité mesurée) plutôt que des impressions — préférer CVSS dès que la priorisation doit être défendue devant plusieurs parties prenantes.
+
+En pratique on s'appuie aussi sur :
 
 - **CVSS** (FIRST.org) — standard industriel de notation des vulnérabilités de 0 à 10, en trois métriques : **Base** (caractéristiques intrinsèques : vecteur, complexité, impact CIA), **Temporal** (maturité de l'exploit, disponibilité du patch), **Environmental** (criticité pour l'organisation).
 - **Matrice probabilité × impact** — la plus simple et la plus utilisée par les équipes :
@@ -206,6 +214,9 @@ for threat, params in threats.items():
     risk = params["prob"] * params["impact"]
     print(f"{threat}: risque = {risk:.1f}, coût attaquant = ${params['cost_attacker']}")
 ```
+
+> [!important] Idée clé
+> La distinction AND/OR change complètement la stratégie de défense : un nœud OR (plusieurs chemins indépendants vers le même objectif, comme les trois façons d'obtenir des credentials admin) signifie qu'il faut fermer *toutes* les branches pour bloquer l'attaque, alors qu'un nœud AND (compromettre le compte admin ET bypasser le MFA) signifie qu'il suffit de casser un seul maillon de la chaîne pour arrêter ce chemin précis. Prioriser la défense des nœuds AND est souvent plus rentable qu'essayer de fermer tous les OR.
 
 ## PASTA — Process for Attack Simulation and Threat Analysis
 

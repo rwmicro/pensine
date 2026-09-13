@@ -561,6 +561,9 @@ public class Counter {
 }
 ```
 
+> [!important] Idée clé
+> `synchronized` ne se contente pas d'empêcher deux threads d'exécuter le bloc en même temps (exclusion mutuelle) — il garantit aussi la **visibilité mémoire** : les modifications faites par un thread dans un bloc synchronisé sont visibles par le thread suivant qui entre dans un bloc synchronisé sur le même verrou. Sans ce second effet, un thread pourrait lire une valeur obsolète de `count` mise en cache dans son CPU, même sans conflit d'écriture simultanée.
+
 ### ExecutorService
 
 ```java
@@ -572,6 +575,9 @@ executor.submit(() -> {
 
 executor.shutdown();
 ```
+
+> [!warning] Piège
+> `shutdown()` empêche de nouvelles tâches d'être soumises mais **n'attend pas** que les tâches en cours se terminent — le programme peut continuer (et se terminer) avant qu'elles aient fini. Pour bloquer jusqu'à la fin réelle, il faut `executor.awaitTermination(timeout, unit)` après `shutdown()`, ou `shutdownNow()` si l'arrêt doit être immédiat (il tente d'interrompre les tâches en cours, sans garantie).
 
 ## Frameworks populaires
 

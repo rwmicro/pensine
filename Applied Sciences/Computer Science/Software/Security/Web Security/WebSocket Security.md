@@ -64,6 +64,9 @@ ws.onmessage = function(event) {
 - L'authentification est basée sur les cookies (envoyés automatiquement)
 - Le serveur ne vérifie pas l'en-tête `Origin` du handshake
 
+> [!important] Idée clé
+> Le CSWSH existe parce que la politique de same-origin du navigateur (CORS) s'applique aux requêtes `fetch`/XHR, mais **pas** à l'établissement d'une connexion WebSocket — `new WebSocket(url)` depuis n'importe quelle origine peut initier le handshake, cookies inclus. Contrairement au CSRF classique, il n'existe pas de protection automatique équivalente aux tokens CSRF standards : la vérification de l'`Origin` doit être codée manuellement côté serveur.
+
 **Test :**
 ```bash
 # Vérifier si le serveur valide l'Origin
@@ -122,6 +125,9 @@ ws.onmessage = function(msg) {
 ### 4. Manque de limitation de débit (Rate Limiting)
 
 Les WebSockets maintiennent une connexion persistante — un client peut envoyer des milliers de messages par seconde sans les limites HTTP habituelles.
+
+> [!warning] Piège
+> Les protections anti-DoS pensées pour HTTP (rate limiting par requête, WAF sur les routes) ne couvrent généralement pas les messages échangés à l'intérieur d'une connexion WebSocket déjà établie — de son point de vue, c'est une seule "requête" longue durée. Le rate limiting doit être réimplémenté au niveau applicatif, message par message, à l'intérieur du handler `onmessage`.
 
 ```javascript
 // Attaque : envoyer des milliers de messages pour saturer le serveur

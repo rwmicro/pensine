@@ -44,6 +44,9 @@ OAuth résout un problème précis : "comment laisser une app tierce accéder à
 
 **Pourquoi quatre acteurs et pas trois ?** Parce que séparer l'Authorization Server du Resource Server permet à un même Authorization Server (ex. Google) de protéger plusieurs APIs distinctes (Gmail, Drive, Calendar), et de gérer les consentements de façon centralisée. C'est aussi ce qui rend OAuth réutilisable comme système SSO via OIDC.
 
+> [!tip] Méthode
+> Pour retrouver le flow de mémoire, suivre le sens des flèches du diagramme ci-dessus plutôt que d'apprendre les noms de paramètres par cœur : c'est toujours *redirect → code → échange → token*, et PKCE/state se greffent sur les points où un attaquant pourrait intercepter ou rejouer une étape.
+
 ## OAuth 2.0
 
 ### Acteurs
@@ -135,6 +138,9 @@ Utilisé par les Smart TV, CLI tools (GitHub CLI, AWS CLI).
 
 - **Implicit** : retourne l'access token directement dans le fragment URI — vulnérable à la fuite de tokens, remplacé par PKCE
 - **ROPC** : l'application reçoit les credentials utilisateur — viole le principe de délégation
+
+> [!important] Idée clé
+> PKCE est une "preuve de possession" — le même patron qu'un nonce ou un challenge-response ailleurs en sécurité : on ne peut pas empêcher l'interception du code d'autorisation, alors on rend le code inutile sans un secret (`code_verifier`) que seul le client légitime possède, jamais transmis sur le réseau avant l'étape finale.
 
 ## OpenID Connect (OIDC)
 
@@ -284,6 +290,9 @@ L'attaquant duplique le nœud signé et insère un nœud malveillant. Si le SP v
 → Parseur A lit : "admin@company.com"  (authentification admin)
 → Parseur B lit : "admin@company.com"  (logique métier)
 ```
+
+> [!warning] Piège
+> XSW n'est pas un bug spécifique à SAML — c'est une instance d'un anti-pattern général en sécurité : vérifier une chose (la signature d'un nœud) puis utiliser une autre chose (les attributs d'un nœud différent). Le même défaut de conception apparaît dans la confusion d'algorithme JWT (vérifier avec une clé, faire confiance à l'`alg` déclaré par l'attaquant) — toujours s'assurer que ce qui est vérifié et ce qui est utilisé sont rigoureusement le même objet.
 
 ## Bonnes pratiques
 

@@ -22,6 +22,9 @@ Le SOAR orchestre des workflows de sécurité entre outils hétérogènes et aut
 
 En pratique, SIEM et SOAR sont complémentaires et souvent couplés (Splunk SOAR, Microsoft Sentinel + Logic Apps, IBM QRadar + SOAR).
 
+> [!important] Idée clé
+> Le SIEM répond à "que s'est-il passé ?", le SOAR répond à "que fait-on maintenant ?" — la distinction n'est pas cosmétique : un SIEM parfait qui génère la bonne alerte à la bonne seconde ne sert à rien si personne (humain ou automatisation) n'agit dessus avant que l'attaquant ait terminé. Le SOAR existe parce que la détection seule ne réduit jamais le temps de réponse, seule l'action le fait.
+
 ## Composants d'un SOAR
 
 ### Playbooks (Runbooks automatisés)
@@ -49,6 +52,9 @@ Alerte SIEM : "Login depuis une IP de réputation faible"
     → Fermer l'alerte (FP probable)
     → Ajouter à la whitelist
 ```
+
+> [!warning] Piège
+> Une action automatique bloquante (révoquer une session, bloquer une IP) sur un faux positif a un coût réel et immédiat — un cadre légitime en déplacement bloqué en pleine négociation, par exemple — alors qu'un faux négatif manqué a un coût différé et incertain. Cette asymétrie pousse naturellement à calibrer les seuils d'automatisation de façon conservatrice au démarrage (privilégier l'enrichissement et la review humaine), puis à ne durcir vers le blocage automatique qu'une fois le taux de faux positifs mesuré et bas.
 
 ### Intégrations (Connectors)
 
@@ -183,3 +189,6 @@ response = requests.post(
 - **Versionner** les playbooks dans git
 - **Audit trail** : chaque action automatique doit être tracée (qui, quoi, quand)
 - **Escalade claire** : définir les seuils au-delà desquels un humain doit prendre la main
+
+> [!tip] Méthode
+> Le taux d'automatisation (% d'alertes traitées sans intervention humaine) est une métrique facile à gonfler artificiellement — il suffit de fermer plus d'alertes automatiquement comme "FP probable" sans vérification suffisante. Le suivre isolément incite à l'automatisation aveugle ; le croiser systématiquement avec le taux de faux positifs (qui doit rester bas) révèle si l'automatisation ferme correctement les alertes ou si elle masque des incidents réels sous le tapis.

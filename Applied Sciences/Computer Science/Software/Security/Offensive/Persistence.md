@@ -10,6 +10,9 @@ date: 2026-03-22
 
 La persistance consiste à maintenir un accès à un système compromis après un redémarrage ou une reconnexion. Un attaquant réel ne veut pas re-exploiter une vulnérabilité à chaque fois.
 
+> [!important] Idée clé
+> La quasi-totalité des mécanismes ci-dessous ne créent pas un nouveau point d'exécution — ils détournent un mécanisme d'exécution automatique déjà légitime et déjà présent sur le système (clé de registre, tâche planifiée, résolution COM, abonnement WMI, PAM). C'est ce qui les rend difficiles à repérer par simple recherche de fichiers suspects : côté détection, la question à se poser est toujours « qu'est-ce qui démarre tout seul ici, et est-ce que je peux expliquer pourquoi ? » plutôt que « qu'est-ce qui a l'air malveillant ? ».
+
 ## Windows — Mécanismes de persistance
 
 ### Registre — Run Keys
@@ -135,6 +138,9 @@ mimikatz# kerberos::golden /user:Administrator /domain:domaine.local /sid:S-1-5-
 mimikatz# misc::skeleton
 # → Tous les utilisateurs peuvent maintenant s'authentifier avec le mot de passe "mimikatz"
 ```
+
+> [!warning] Piège
+> Une seule réinitialisation du mot de passe KRBTGT ne suffit pas à invalider un Golden Ticket déjà forgé : Active Directory conserve l'ancien hash en historique et continue à l'accepter pendant une période de transition. Il faut roter le mot de passe **deux fois** pour purger cet historique et rendre les tickets forgés avec l'ancien hash réellement inutilisables.
 
 ### Compte admin local caché
 

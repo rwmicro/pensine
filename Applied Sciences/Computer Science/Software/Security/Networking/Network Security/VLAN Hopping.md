@@ -26,6 +26,9 @@ Trunk port  : port switchport en mode trunk — transporte plusieurs VLANs tagu�
 Native VLAN : VLAN dont les trames passent sur un trunk SANS tag (défaut : VLAN 1)
 ```
 
+> [!important] Idée clé
+> Les deux techniques de VLAN hopping n'exploitent pas une faille du protocole 802.1Q ou de DTP — elles exploitent des valeurs par défaut pensées pour la commodité de configuration (native VLAN = VLAN 1, ports en "dynamic desirable"/"dynamic auto"). Le durcissement consiste donc à désactiver ce qui est pratique par défaut, pas à corriger un bug.
+
 ## Technique 1 — Double Tagging
 
 Exploite le fait que le native VLAN est envoyé sans tag sur les trunks, et que certains switches "dépouillent" le premier tag 802.1Q.
@@ -58,6 +61,9 @@ Mécanisme :
 Limitation : unidirectionnel — la réponse de la victime ne passe pas par ce chemin
 (sauf si on utilise un proxy ou un C2 dans la DMZ)
 ```
+
+> [!warning] Piège
+> Parce que le Double Tagging est unidirectionnel, ce n'est pas un vecteur de MitM classique — c'est surtout utile pour de l'injection aveugle (DoS, UDP spoofing) ou pour atteindre un implant déjà présent dans le VLAN cible qui, lui, répondra par un chemin normal.
 
 ```bash
 # Scapy — forger une trame double-taggée

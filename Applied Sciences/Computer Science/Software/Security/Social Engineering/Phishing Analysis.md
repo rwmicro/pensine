@@ -65,6 +65,9 @@ Authentication-Results: mx.company.com;
 
 Outils : **MXToolbox Header Analyzer**, **Google Admin Toolbox**, `msgconvert` (pour `.msg` → `.eml`).
 
+> [!tip] Méthode
+> Toujours lire les `Received:` de bas en haut — c'est l'ordre chronologique réel : le premier serveur à avoir reçu le mail est en bas de la liste, le dernier (le vôtre) en haut. Un attaquant peut falsifier les en-têtes qu'il ajoute lui-même, mais pas ceux ajoutés par les serveurs légitimes traversés après — cherchez la rupture dans la chaîne.
+
 ### 3. Analyser les URLs
 
 **Ne jamais cliquer directement.** Extraire les URLs du code source HTML.
@@ -81,6 +84,9 @@ Techniques de masquage courantes :
 - **URL shortener** : `bit.ly/xyz123`
 - **Data URI** : `data:text/html;base64,...`
 - **Redirections chaînées** : Google redirect, LinkedIn redirect
+
+> [!warning] Piège
+> Survoler un lien ne suffit pas contre les redirections chaînées : l'URL affichée peut être un domaine de confiance (`google.com/url?q=...`) qui redirige ensuite vers le site malveillant. Il faut décoder le paramètre de redirection, pas seulement lire le domaine de premier niveau.
 
 **Analyse safe** :
 
@@ -192,6 +198,9 @@ Un playbook phishing typique :
 3. **Décision** : si score VirusTotal > 3 détections → malveillant
 4. **Réponse** : bloquer le domaine dans le proxy, purger l'email de toutes les boîtes, notifier l'utilisateur
 5. **Clôture** : créer un IOC dans la plateforme CTI, fermer le ticket
+
+> [!important] Idée clé
+> Le triage phishing est un exercice de vitesse, pas de certitude absolue. Un playbook qui bloque et purge dès un score de suspicion suffisant limite les dégâts pendant que l'analyse continue — attendre une confirmation à 100 % avant d'agir laisse le temps à la campagne de se propager à d'autres boîtes.
 
 ## Références
 

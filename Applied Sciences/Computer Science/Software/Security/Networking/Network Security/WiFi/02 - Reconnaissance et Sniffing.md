@@ -115,6 +115,9 @@ tshark -r probes.pcapng -Y "wlan.fc.type_subtype == 4" \
 
 Cas d'usage : récupérer un nom de réseau domestique d'une cible (utile pour préparer un Evil Twin).
 
+> [!warning] Piège
+> La PNL (Preferred Network List) diffusée en clair est aussi un problème de vie privée en soi — elle permet de tracer un appareil et de déduire les lieux fréquentés par son propriétaire (domicile, travail, hôtels visités) sans jamais s'associer au réseau. C'est précisément pour ça qu'iOS/Android randomisent désormais la MAC source des probe requests par défaut.
+
 ## Kismet — sniffer/IDS sans fil
 
 ```bash
@@ -133,6 +136,9 @@ Avantages de kismet vs airodump :
 - Logging structuré (pcap, json, kismetdb)
 - Plugins (GPS, alerts WIDS)
 - Détection de probes flood, deauth flood
+
+> [!tip] Méthode
+> airodump-ng est un outil de capture ponctuelle (on lance, on regarde, on arrête), Kismet est pensé comme un IDS permanent en tâche de fond — c'est cette différence d'usage, pas seulement les fonctionnalités, qui justifie de garder les deux : airodump pour une recon ciblée rapide, Kismet pour une surveillance continue (détection de rogue AP, wardriving).
 
 ## Wardriving
 

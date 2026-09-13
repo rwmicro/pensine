@@ -153,6 +153,9 @@ Collaboration structurée entre Red et Blue pour maximiser l'amélioration :
 3. Ajustement des détections si angle mort
 4. Documentation dans la base de connaissances
 
+> [!important] Idée clé
+> Le vrai livrable d'un exercice Purple Team n'est pas le rapport — c'est la **nouvelle règle de détection** (ou la correction d'une règle existante) qui ferme l'angle mort constaté. Un exercice qui se termine sans changement dans le contenu de détection (Sigma, SIEM) n'a produit que de la documentation, pas de l'amélioration réelle.
+
 ### Vulnerability Management Team
 
 - Scans de vulnérabilités réguliers (Nessus, Qualys)
@@ -240,3 +243,6 @@ Chaque shift comporte :
 - Au minimum 2 analystes par shift (couverture mutuelle)
 
 La nuit, le volume d'alertes est généralement plus faible mais les attaques nocturnes sont fréquentes (exploitation des fuseaux horaires différents).
+
+> [!warning] Piège
+> Le modèle en tiers peut échouer dans les deux sens : un Tier 1 qui escalade trop (par prudence excessive) noie le Tier 2 et augmente le MTTR global ; un Tier 1 qui escalade trop peu (par excès de confiance) clôture des vrais positifs comme faux positifs. Le taux de FP et le MTTA seuls ne distinguent pas ces deux dérives — il faut aussi suivre le taux de réouverture d'incidents clôturés par le Tier 1.

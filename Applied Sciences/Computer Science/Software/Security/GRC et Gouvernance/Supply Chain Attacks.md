@@ -50,6 +50,9 @@ Impact réel (2021) :
   → Exécution de code arbitraire dans les environnements de build internes
 ```
 
+> [!important] Idée clé
+> La faille n'est pas dans le code d'un package précis mais dans une hypothèse de confiance implicite du gestionnaire de packages : "le numéro de version le plus élevé gagne", sans distinguer la provenance (registre public vs privé). C'est un problème de conception du système de résolution de dépendances, pas un bug ponctuel — d'où la nécessité de le corriger au niveau configuration (forcer la priorité au registre privé) plutôt que package par package.
+
 ```bash
 # Découverte des noms de packages internes
 # 1. Fichiers package.json, requirements.txt, pom.xml exposés
@@ -194,6 +197,9 @@ Lessons apprises :
   → Signing des binaires + transparence (SBOM)
   → Détection : monitoring des connexions depuis les serveurs de monitoring eux-mêmes
 ```
+
+> [!warning] Piège
+> Un binaire signé avec un certificat légitime n'est pas synonyme de code sain — SUNBURST était signé par le vrai certificat SolarWinds parce que l'attaquant avait compromis le build system *avant* la signature, pas le certificat lui-même. La signature garantit "ce binaire vient bien de ce build pipeline", pas "ce build pipeline n'a pas été compromis". C'est pourquoi l'isolation du build environment compte autant que la signature.
 
 ## Défenses et bonnes pratiques
 

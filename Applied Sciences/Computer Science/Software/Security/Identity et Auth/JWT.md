@@ -40,6 +40,9 @@ Un JWT (RFC 7519) est un token auto-porteur : il contient lui-même les informat
 
 **Pourquoi c'est stateless** : le Resource Server n'a pas besoin de consulter l'Auth Server à chaque requête. Il vérifie la signature avec la clé publique (RS256) ou le secret partagé (HS256) et fait confiance au contenu du JWT. Avantage : scalabilité. Inconvénient : impossible de révoquer un JWT côté serveur sans infrastructure additionnelle.
 
+> [!important] Idée clé
+> Le statelessness du JWT est un compromis, pas un avantage pur : en échange de la scalabilité (pas de lookup base de données à chaque requête), le serveur perd tout contrôle sur le token une fois émis. C'est la cause racine du problème de révocation traité plus bas — pas un détail d'implémentation séparé, mais la conséquence directe du choix architectural stateless.
+
 ## Structure
 
 Un JWT est composé de trois parties séparées par des points, chacune encodée en Base64URL (pas de padding, URL-safe) :
@@ -235,6 +238,9 @@ BASE64URL(Header).BASE64URL(Encrypted Key).BASE64URL(IV).BASE64URL(Ciphertext).B
 ```
 
 Utiliser JWE quand le payload contient des données confidentielles qui doivent rester opaques même pour les parties tierces.
+
+> [!tip] Méthode
+> Beaucoup d'équipes sécurité recommandent de ne PAS utiliser de JWT comme token de session côté navigateur, précisément à cause du problème de révocation ci-dessus — un identifiant de session opaque (référence vers un état côté serveur, révocable instantanément) reste souvent le choix le plus sûr pour ce cas d'usage. Le JWT garde son intérêt pour les échanges service-à-service ou les tokens très courts.
 
 ## Stockage et transmission
 

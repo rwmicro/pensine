@@ -18,6 +18,9 @@ Côté SOC, le threat modeling ne sert pas à concevoir un système sécurisé m
 2. Pour chaque menace STRIDE identifiée, se demander **quel artefact de log elle produirait** (event Windows, log proxy, NetFlow, télémétrie EDR).
 3. Vérifier qu'une **règle de détection** existe pour cet artefact — sinon, c'est un angle mort à combler. Voir `[[Detection Engineering]]` et `[[Sigma]]`.
 
+> [!tip] Méthode
+> Partir des trust boundaries plutôt que de la liste complète des TTPs ATT&CK évite l'écueil classique : vouloir tout détecter d'un coup. Chaque frontière de confiance ne concentre qu'un sous-ensemble de techniques plausibles — c'est un filtre naturel pour prioriser le backlog de détection.
+
 ## MITRE ATT&CK Navigator comme carte de couverture
 
 C'est l'outil central du threat modeling défensif (`mitre-attack.github.io/attack-navigator/`) :
@@ -25,6 +28,9 @@ C'est l'outil central du threat modeling défensif (`mitre-attack.github.io/atta
 - Cartographier en **heatmap** les techniques (TTP) que l'on sait détecter aujourd'hui.
 - Superposer le **profil d'un acteur de menace** pertinent (cf. `[[APT et Acteurs de la Menace]]` et `[[Threat Intelligence]]`) pour prioriser : on couvre d'abord les techniques des adversaires qui nous ciblent réellement.
 - Le différentiel entre « ce que fait l'adversaire » et « ce qu'on détecte » donne la **feuille de route de détection**.
+
+> [!important] Idée clé
+> Ce différentiel (heatmap adversaire − heatmap détection) *est* le livrable du threat modeling défensif — pas la heatmap seule. Une couverture affichée à "70% des techniques ATT&CK" ne veut rien dire sans savoir lesquelles manquent et si elles correspondent aux TTPs des acteurs qui ciblent réellement l'organisation.
 
 ## Priorisation par le risque
 

@@ -31,6 +31,9 @@ Le modèle traditionnel Red vs Blue souffre de plusieurs problèmes :
 
 Le Purple Teaming résout ces problèmes en créant une **boucle de feedback immédiate** : attaque, observation, correction, re-test.
 
+> [!important] Idée clé
+> Le vrai changement n'est pas la collaboration en elle-même mais l'inversion de l'objectif de la Red Team : en mode Purple, elle n'essaie plus de rester furtive pour "gagner", elle cherche activement les techniques bruyantes et documentées — c'est justement ce que la Blue Team a besoin de voir pour calibrer ses règles. Un Red Team classique qui évite le bruit optimise pour le mauvais objectif du point de vue de la détection.
+
 ## Déroulement d'un exercice Purple Team
 
 ### 1. Planification
@@ -186,6 +189,9 @@ detection:
     condition: selection and not filter
 level: critical
 ```
+
+> [!warning] Piège
+> Le `filter` qui exclut les comptes machine des DC (`endswith '$'` + `contains 'DC'`) est indispensable pour éviter le bruit de la réplication légitime, mais c'est aussi le point exact qu'un attaquant peut viser pour passer inaperçu — un compte machine compromis avec un nom contenant "DC" contournerait cette règle. Tester spécifiquement ce cas lors du cycle Purple Team (Red Team simule depuis un compte nommé pour matcher le filtre) fait partie de la validation, pas seulement le test du cas nominal.
 
 ## Mesurer la couverture
 

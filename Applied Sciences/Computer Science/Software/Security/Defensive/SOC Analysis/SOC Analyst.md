@@ -48,6 +48,9 @@ Un **analyste SOC** (Security Operations Center) est un professionnel de la cybe
 
 **Fournisseurs de services** : organisations comme les hébergeurs, registrars ou webmail providers qui soutiennent involontairement l'infrastructure Type 1 ou Type 2.
 
+> [!important] Idée clé
+> Cette distinction Type 1/Type 2 conditionne l'action possible sur un IOC : bloquer une IP Type 1 (serveur de l'attaquant) le gêne réellement, bloquer une IP Type 2 (machine compromise d'un tiers innocent) ne fait que le pousser à changer d'infrastructure louée — sans jamais l'atteindre. Savoir à quel type appartient un IOC avant d'agir évite de gaspiller un blocage sur un relais interchangeable.
+
 
 ## Niveaux dans un SOC (Tiers)
 
@@ -56,6 +59,9 @@ Un **analyste SOC** (Security Operations Center) est un professionnel de la cybe
 | **Tier 1** | Triage des alertes, surveillance de premier niveau |
 | **Tier 2** | Investigation approfondie des incidents escaladés |
 | **Tier 3** | Threat hunting proactif, forensique avancée, corrélation |
+
+> [!tip] Méthode
+> Le Tier 1 n'est pas un simple filtre avant le "vrai" travail des Tiers 2/3 — un mauvais triage en Tier 1 (fermer trop vite un faux positif qui n'en est pas un, ou au contraire escalader systématiquement) détermine directement la charge et la fiabilité des niveaux suivants. La qualité d'un SOC se juge autant sur la justesse du triage initial que sur la sophistication de l'investigation avancée.
 
 
 ## Outils courants

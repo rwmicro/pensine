@@ -96,6 +96,9 @@ Ce n'est pas un CTF — c'est une simulation réaliste d'environnement d'entrepr
               (AV evasion validée en local d'abord)
 ```
 
+> [!tip] Méthode
+> Ces cinq règles ne sont pas des conseils indépendants — elles protègent toutes contre le même risque : découvrir un problème trop tard pour le corriger. Documenter en temps réel évite de perdre une preuve ; lire le scope avant de scanner évite un échec qu'on ne peut plus annuler ; valider un payload en local évite de griller sa fenêtre d'action en le testant en direct sur la cible.
+
 ## Conseils critiques
 
 ### Pendant le pentest
@@ -131,6 +134,9 @@ Ce n'est pas un CTF — c'est une simulation réaliste d'environnement d'entrepr
 - Oubli des remédiations ou remédiations vagues
 - Dépasser le temps du débrief
 - Payloads non évadés détectés par Defender → blocage de l'attaque
+
+> [!important] Idée clé
+> La plupart de ces erreurs ont la même origine : traiter la PNPT comme un CTF (vitesse, exploitation pure) plutôt que comme un engagement réel (scope, documentation, communication client). La technique compte, mais le format est conçu pour sanctionner celui qui l'oublie.
 
 ## Préparation : labs recommandés
 

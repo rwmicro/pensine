@@ -22,6 +22,9 @@
 6. Impossible de redémarrer un serveur individuellement. En cas de problème, la seule solution est de redémarrer le simulateur complet via le menu *Restart Session*.
 7. Ce simulateur ne couvre pas tous les sujets du programme officiel LFCS — les questions 21+ complètent le curriculum.
 
+> [!warning] Piège
+> Les règles 5 et 6 se combinent mal : pas de ssh imbriqué (on ne peut agir sur un serveur que depuis `terminal`) et pas de redémarrage individuel (une casse force à relancer toute la session). Donc avant toute commande destructive sur `web-srv1`/`app-srv1`/`data-00X` — reboot, modification réseau, service critique — mieux vaut réfléchir depuis `terminal` avant de se connecter, plutôt que de tester en direct sur le serveur.
+
 ## Questions — simulateur killer.sh
 
 | #   | Sujet                                                                                                   | Serveur    |
@@ -103,6 +106,9 @@ Sujets du programme officiel non couverts par le simulateur. Énoncés inspirés
 ### Distribution differences
 
 Les notes ci-dessus utilisent majoritairement l'outillage Debian/Ubuntu (apt, iptables, systemd-timesyncd). L'examen LFCS laisse choisir la distribution : cette note rassemble les équivalents RHEL (chrony, firewalld, nftables, dnf, SELinux).
+
+> [!tip] Méthode
+> Plutôt que d'apprendre deux jeux de commandes en parallèle, repérer d'abord les outils communs aux deux familles (`systemctl`, `ip`, `mount`, `timedatectl`) — ils marchent à l'identique partout et couvrent une bonne partie de l'examen. Ne mémoriser les équivalents spécifiques (table ci-dessous) que pour ce qui reste vraiment distro-dépendant.
 
 | # | Sujet |
 |---|---|

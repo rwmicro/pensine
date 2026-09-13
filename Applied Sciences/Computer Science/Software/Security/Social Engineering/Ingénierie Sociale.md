@@ -24,6 +24,9 @@ Robert Cialdini (Influence, 1984) identifie les leviers de persuasion utilisés 
 | **Sympathie** | Cible plus coopérative envers quelqu'un qu'elle apprécie | Usurper l'identité d'un ami ou collègue |
 | **Engagement** | Obtenir un petit oui pour en obtenir un grand | Foot-in-the-door technique |
 
+> [!important] Idée clé
+> Tous ces leviers visent la même cible : court-circuiter la réflexion (System 2) pour rester en mode automatique (System 1). Urgence, peur et autorité marchent ensemble car chacune réduit un peu plus le temps que la victime s'accorde avant d'agir — c'est la combinaison, pas un seul levier isolé, qui rend une attaque efficace.
+
 ## Phishing
 
 Le phishing est l'envoi massif d'emails frauduleux imitant des entités légitimes.
@@ -67,6 +70,9 @@ HTML encoding : &#x61;&#x6D;&#x61;&#x7A;&#x6F;&#x6E;.com
 - Pièce jointe inattendue (`.docm`, `.xlsm`, `.lnk`, `.iso`, `.zip`)
 - Lien vers une page de connexion sans HTTPS valide
 - Requête inhabituelle hors des processus normaux
+
+> [!tip] Méthode
+> Survoler un lien n'est fiable que si on lit l'URL de destination réelle en entier, pas juste le début — un domaine légitime peut apparaître au début d'une URL malveillante (`microsoft.com.evil.site.com`) ou en paramètre d'une redirection légitime détournée (`google.com/url?q=https://evil.com`).
 
 ## Spear Phishing
 
@@ -128,6 +134,9 @@ IBAN : FR76 xxxx xxxx xxxx"
 
 Statistiques : pertes mondiales BEC > 50 milliards $ (FBI IC3)
 ```
+
+> [!warning] Piège
+> Le BEC est souvent le scénario le plus dangereux justement parce qu'il n'y a **aucun payload technique** — pas de pièce jointe, pas de lien malveillant, rien à détecter par un antivirus ou un filtre de contenu. Seule la vérification humaine hors-bande (rappeler sur un numéro connu, jamais celui fourni dans l'email) arrête ce type d'attaque.
 
 ## Vishing (Voice Phishing)
 

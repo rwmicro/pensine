@@ -117,6 +117,9 @@ swaks --to victime@target.com \
 # Si _dmarc.subdomain.example.com n'existe pas → pas de DMARC → email possible
 ```
 
+> [!important] Idée clé
+> Toutes ces techniques exploitent le même principe : SPF/DKIM/DMARC protègent un domaine précis, pas toute sa surface (sous-domaines, services tiers autorisés, alignement relaxed). Auditer un domaine cible signifie vérifier chaque sous-domaine et chaque `include:` individuellement — un domaine principal bien protégé peut avoir un sous-domaine oublié qui casse toute la chaîne. Voir [[Email Security (SPF, DKIM, DMARC)]] pour le détail défensif de chaque mécanisme.
+
 ### Infrastructure de phishing
 
 ```bash
@@ -175,6 +178,9 @@ swaks --to external@gmail.com \
 # Scanner avec nmap
 nmap -p 25 --script smtp-open-relay target.com
 ```
+
+> [!warning] Piège
+> Un open relay n'a besoin d'aucune vulnérabilité logicielle — c'est une pure erreur de configuration (le serveur accepte de relayer pour des domaines qu'il n'héberge pas). Il reste exploitable même si SPF/DKIM/DMARC sont parfaitement configurés sur le domaine cible, puisque l'email part réellement du serveur légitime : SPF le validera.
 
 ### Brute-force SMTP
 

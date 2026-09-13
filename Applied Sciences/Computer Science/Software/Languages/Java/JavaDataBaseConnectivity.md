@@ -40,6 +40,9 @@ try {con.close();} catch(Exception e2) {} // Not the best but there's no other w
 
 > Always close the connection with the method `close()`
 
+> [!tip] Méthode
+> Le pattern `try/catch/finally` avec fermeture manuelle montré ci-dessus est fragile (le commentaire "Not the best" ne ment pas) : depuis Java 7, `try-with-resources` (`try (Connection con = DriverManager.getConnection(...)) { ... }`) ferme automatiquement la connexion même en cas d'exception, sans bloc `finally` imbriqué à écrire soi-même.
+
 
 # Statements
 
@@ -67,6 +70,9 @@ This method is used when our query is missing some elements. For exemple if we w
 To send a select to a database we use `executeQuery()`
 
 For the rest we use `executeUpdate()`
+
+> [!important] Idée clé
+> `PreparedStatement` n'est pas qu'une commodité de syntaxe pour les valeurs manquantes : les `?` sont envoyés séparément de la requête et jamais interprétés comme du SQL par le moteur de base de données. C'est la défense principale contre l'injection SQL (cf. [[SQL Injections]]) — contrairement à `Statement`, où concaténer une entrée utilisateur dans la requête est dangereux par construction.
 
 ```java
 String query = "INSERT INTO table VALUES (?,?,?)";
@@ -160,6 +166,9 @@ If several queries work on the same table this can cause validity problems. To p
 |Connection.TRANSACTION_READ_COMMITTED|Guarantees that a data has been committed previously by someone.|2|
 |Connection.TRANSACTION_REPEATABLE_READ|Guarantees that the data cannot change if a second read is done in the same transaction.|4|
 |Connection.TRANSACTION_SERIALIZABLE|If a transaction tries to do an operation not compatible with the first one, it is blocked.|8|
+
+> [!warning] Piège
+> Plus le niveau d'isolation monte (READ_UNCOMMITTED → SERIALIZABLE), plus les garanties de cohérence augmentent, mais plus le verrouillage est agressif et la concurrence chute. SERIALIZABLE par défaut partout est une erreur de performance courante — le niveau doit être choisi requête par requête selon ce qui peut vraiment mal tourner (lecture sale, lecture non répétable, phantom read), pas appliqué par réflexe.
 
 ### _Exemple_
 

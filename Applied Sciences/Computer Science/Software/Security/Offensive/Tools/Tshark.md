@@ -8,6 +8,9 @@ date: "2025-02-15"
 
 TShark is a text-based tool, and it is suitable for data carving, in-depth packet analysis, and automation with scripts. This strength and flexibility come out of the nature of the CLI tools, as the produced/processed data can be pipelined to additional tools. The most common tools used in packet analysis are listed below.
 
+> [!important] Idée clé
+> L'intérêt de tshark n'est pas de remplacer Wireshark pour la lecture manuelle — c'est de rendre l'analyse réseau scriptable. `-T fields -e` extrait un champ précis sur des milliers de paquets pour le piper vers `grep`/`awk`/`jq`, ce qu'une interface graphique ne permet pas d'automatiser.
+
 ### **Caractéristiques principales**
 
 - **Analyse réseau en ligne de commande** : Permet de capturer et d'inspecter des paquets réseau sans interface graphique.

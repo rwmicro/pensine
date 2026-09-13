@@ -45,6 +45,9 @@ Niveau 1 : Contrôle (PLCs, DCS)
 Niveau 0 : Processus physique (capteurs, actionneurs)
 ```
 
+> [!important] Idée clé
+> La DMZ industrielle n'est pas un simple pare-feu entre deux réseaux — elle formalise le fait qu'aucun système ne devrait avoir de connexion directe entre IT et OT, l'Historian étant volontairement le seul point de passage contrôlé. Dès qu'un système IT (poste de maintenance, laptop technicien) obtient une connexion directe au niveau 1-2 en contournant cette DMZ, tout le modèle Purdue s'effondre — c'est exactement le chemin emprunté dans la plupart des incidents IT→OT documentés.
+
 ## Protocoles industriels
 
 Conçus pour la fiabilité et le temps réel, pas pour la sécurité.
@@ -126,6 +129,9 @@ Intention : désactiver les systèmes de sécurité d'une usine pétrochimique
 Résultat : arrêt accidentel de l'usine → attaque découverte avant catastrophe
 ```
 
+> [!important] Idée clé
+> Stuxnet et TRITON partagent le même principe au-delà de leur cible différente : compromettre non pas le processus physique directement, mais la **couche qui rapporte l'état de ce processus** aux humains — falsifier les valeurs affichées aux opérateurs (Stuxnet), ou neutraliser le système de sécurité censé arrêter le processus en cas d'anomalie (TRITON). L'attaque la plus dangereuse en ICS n'est pas celle qui casse un équipement, c'est celle qui empêche les humains et les systèmes de sécurité de s'en apercevoir à temps.
+
 ## Spécificités de la sécurité OT
 
 ### Contraintes fondamentales
@@ -157,6 +163,9 @@ Compensations :
 - Application whitelisting
 - Monitoring comportemental des processus
 ```
+
+> [!warning] Piège
+> En OT, l'absence de patching n'est pas une négligence à corriger mais une contrainte structurelle à compenser — un équipement qui pilote un processus physique 24/7 ne peut pas redémarrer pour un correctif comme un serveur web. La vraie défense ICS repose donc sur les contrôles compensatoires (segmentation, IDS passif, whitelisting), pas sur l'espoir d'atteindre un SLA de patch à 30 jours comme en IT classique.
 
 ## Mesures de sécurité ICS
 

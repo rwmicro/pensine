@@ -79,6 +79,9 @@ public class LectureStdin {
 
 ### Piège classique : nextInt() et nextLine()
 
+> [!important] Idée clé
+> Toutes les méthodes `nextXxx()` (sauf `nextLine()`) ne consomment que le token, jamais le séparateur qui le suit. Le symptôme (une `nextLine()` qui semble "sauter" une entrée) n'est pas un bug de `nextLine()` — c'est la méthode précédente qui a laissé le `\n` en attente dans le buffer interne.
+
 `nextInt()` consomme le nombre mais laisse le caractère de fin de ligne (`\n`) dans le buffer. Le `nextLine()` suivant lira immédiatement cette ligne vide.
 
 ```java
@@ -196,6 +199,9 @@ try (Scanner sc = new Scanner(new File("data.txt"))) {
 ```
 
 Attention : fermer un `Scanner` sur `System.in` ferme également le flux `System.in`, le rendant inutilisable pour le reste du programme.
+
+> [!warning] Piège
+> Ce n'est pas une particularité de `Scanner` mais de tout wrapper autour d'un flux partagé : fermer un `Scanner(System.in)` ferme le descripteur de fichier sous-jacent, pas seulement l'objet `Scanner`. Un second `new Scanner(System.in)` créé après coup pointera vers un flux déjà fermé. En pratique : un seul `Scanner` sur `System.in` par programme, jamais fermé avant la fin, ou pas fermé du tout (JVM le fait à la terminaison).
 
 ## Comparaison Scanner vs BufferedReader vs Console
 

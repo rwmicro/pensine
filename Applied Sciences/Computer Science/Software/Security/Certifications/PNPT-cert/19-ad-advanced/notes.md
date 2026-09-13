@@ -10,6 +10,9 @@ date: "2026-05-18"
 
 Suite de `09-active-directory`. On y trouve les attaques modernes qui distinguent un pentesteur réel d'un script kiddie : ACL abuse, AD CS (ESC1–ESC8), coercion, delegation, et les CVE qu'il faut connaître par cœur. Ces techniques sont aussi celles qui marchent encore en 2026 sur la majorité des environnements AD, parce qu'elles exploitent la complexité de l'AD plus que des bugs corrigeables.
 
+> [!important] Idée clé
+> ACL abuse, ESC1-8, coercion et delegation ne sont pas quatre familles indépendantes : ce sont quatre façons d'exploiter le même problème de fond — l'AD accorde du pouvoir via des chaînes de délégation (permissions, templates, comptes de confiance) que personne n'audite dans leur ensemble. Chaque permission prise isolément semble anodine ; c'est leur composition qui ouvre le chemin vers Domain Admin.
+
 ## Où chaque technique s'insère
 
 ```
@@ -180,6 +183,9 @@ Rubeus.exe asktgt /user:victim /certificate:CERT_BASE64 /password:CERT_PASS \
 ## AD Certificate Services — ESC1 à ESC8
 
 Très fréquent, souvent oublié à l'audit. AD CS = autorité de certification de l'AD. Si un template est mal configuré, on peut demander un certificat au nom d'un autre user (souvent un admin).
+
+> [!tip] Méthode
+> Pour retenir les ESC sans les confondre, classer par où se situe la faiblesse plutôt que par numéro : ESC1/ESC2/ESC3 = le **template** autorise trop (subject arbitraire, usage universel, enrollment pour autrui) ; ESC4 = l'**ACL du template** est trop permissive (on le reconfigure en ESC1) ; ESC6/ESC7 = la **CA elle-même** est mal durcie ; ESC8 = le **protocole d'enrollment** (HTTP non signé) est attaquable par relay, indépendamment de toute mauvaise config de template.
 
 ```bash
 # Énumérer les templates vulnérables
