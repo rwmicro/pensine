@@ -39,6 +39,9 @@ date: "2026-02-22"
 - Altérations: ♯ (dièse, +1/2 ton), ♭ (bémol, -1/2 ton), ♮ (bécarre, annule)
 - Enharmonie: Do♯ = Ré♭ (même son, noms différents)
 
+> [!warning] Piège
+> "Même son, noms différents" n'est vrai qu'en tempérament égal (le compromis moderne, cf. [[Baroque]]). En intonation juste — accordage basé sur les ratios purs de [[Musique Antique|Pythagore]] — Do♯ et Ré♭ sont deux fréquences légèrement différentes. L'enharmonie est une commodité de notation devenue réalité acoustique seulement parce qu'on a uniformisé l'accordage.
+
 **Rythme:**
 - **Valeurs de notes:**
   - Ronde (whole note) = 4 temps
@@ -138,6 +141,9 @@ date: "2026-02-22"
   - Rompue: V → vi (surprise)
   - Évitée: V → autre que I
 
+> [!important] Idée clé
+> Toute la syntaxe tonale (tension puis résolution) repose sur la relation dominante→tonique — et c'est justement ce que les modes grecs (Dorien, Phrygien, Mixolydien, décrits plus haut à propos de la [[Musique Antique]]) n'ont pas de la même façon : sans sensible qui "tire" fortement vers la tonique, ils ne créent pas cet appel à la résolution. C'est pour ça que le blues ou le rock en mode mixolydien "flotte" différemment d'une progression tonale classique.
+
 **Progressions harmoniques courantes:**
 - **I - IV - V - I** (blues, rock)
 - **I - V - vi - IV** ("progression pop" - Pachelbel, Axis of Awesome)
@@ -174,6 +180,9 @@ date: "2026-02-22"
 - **Canon:** Imitation stricte décalée
 - **Fugue:** Forme complexe avec sujet, réponse, contre-sujet
   - Exposition, développement, strette
+
+> [!tip] Méthode
+> Ne pas confondre canon et fugue malgré leur air de famille (les deux font entrer les voix en imitation décalée) : le canon reprend le même matériau à l'identique du début à la fin (comme *Frère Jacques*), tandis que la fugue développe librement son sujet après l'exposition — épisodes, contre-sujets, modulations — la fugue est une forme, le canon une technique stricte.
 
 ### Forme Musicale
 

@@ -35,6 +35,9 @@ date: "2026-02-22"
 - Production/modification électrique du son
 - Synthétiseurs, guitare électrique, theremin, ondes Martenot
 
+> [!important] Idée clé
+> Hornbostel-Sachs classe par *mécanisme de production du son*, pas par matière ni par famille d'orchestre traditionnelle — c'est ce qui explique des cas contre-intuitifs : le piano est un cordophone (frappé), pas une percussion, malgré son mode de jeu au clavier qui le range visuellement du côté des instruments "qu'on tape".
+
 ### Familles d'Orchestre Symphonique
 
 **Cordes:**
@@ -90,6 +93,9 @@ date: "2026-02-22"
 - Bois (anche) mais en laiton
 - Soprano, alto, ténor, baryton
 - Jazz, musique classique moderne
+
+> [!tip] Méthode
+> Même logique que pour le piano plus haut : le saxophone est en laiton mais reste un instrument à vent classé "bois" (anche simple, même famille de production sonore que la clarinette) — dans la taxonomie orchestrale occidentale, "cuivres" et "bois" désignent l'origine historique/mode d'émission du son, pas le matériau réel de l'instrument.
 
 **Batterie (drum kit):**
 - Invention XXe siècle

@@ -17,6 +17,9 @@ date: "2026-02-22"
 - Chromatisme accru
 - Virtuosité (Paganini, Liszt)
 
+> [!important] Idée clé
+> Le Romantisme n'a pas de date de rupture nette avec le [[Classicisme]] : l'"individualité" et l'intensité émotionnelle qu'on lui attribue sont déjà à l'œuvre dans le Beethoven tardif (voir sa 9e symphonie, ses derniers quatuors). Schubert est décrit plus bas comme "dernier classique, premier romantique" précisément parce que cette bascule est un continuum, pas un seuil.
+
 **Premiers romantiques allemands:**
 
 **Franz Schubert (1797-1828):**
@@ -154,6 +157,9 @@ date: "2026-02-22"
   - Révolution de l'opéra
   - Gesamtkunstwerk (œuvre d'art totale)
   - Leitmotiv (thème récurrent)
+
+> [!tip] Méthode
+> Un leitmotiv n'est pas qu'un "thème qui revient" — il se transforme (harmonie, orchestration, tempo) au fil du drame pour suivre l'évolution psychologique du personnage ou de l'idée qu'il représente, et peut se combiner à d'autres leitmotive pour signaler un lien narratif sans un mot chanté. C'est la technique qui préfigure directement le langage de la musique de film du XXe siècle.
   - Mélodie infinie
   - Chromatisme extrême
   
@@ -191,6 +197,9 @@ date: "2026-02-22"
   - Symphonies, quatuors
 
 - Autres: Balakirev, Cui
+
+> [!warning] Piège
+> Les Cinq ne rejettent pas la technique occidentale au profit d'un folklore "pur" — ils utilisent l'harmonie et les formes occidentales, mais refusent la tutelle esthétique allemande (contrepoint savant, conservatoires germaniques) au profit de sujets et de couleurs russes. Nationalisme musical ≠ repli technique, c'est un choix de sujet et de langage harmonique, pas un rejet des outils.
 
 **Piotr Ilitch Tchaïkovski (1840-1893):**
 - Pas membre des Cinq (style plus occidental)

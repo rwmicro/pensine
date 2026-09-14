@@ -36,6 +36,9 @@ date: "2026-02-22"
 - **Stravinsky:** *Rite of Spring* - violence orchestrale
 - **Mahler:** Orchestres immenses
 
+> [!tip] Méthode
+> Orchestrer, ce n'est pas décider "quel instrument joue quoi" mais comment les timbres se combinent : le même accord voicé aigu-léger (bois) ou grave-dense (cuivres/cordes graves) change complètement sa fonction perçue — tension, repos, menace. Deux orchestrateurs peuvent partir de la même partition de piano et produire des effets opposés selon ces choix.
+
 **Techniques:**
 - **Doublure:** Renforcer avec plusieurs instruments
 - **Contrepoint orchestral:** Lignes indépendantes
@@ -51,6 +54,9 @@ date: "2026-02-22"
 3. **Editing:** Nettoyage, quantization
 4. **Mixing:** Balance, EQ, compression, effets, panoramique
 5. **Mastering:** Finalisation, cohérence, volume
+
+> [!warning] Piège
+> Confusion fréquente chez les débutants : le mixage équilibre les pistes individuelles entre elles (volumes relatifs, EQ, panoramique) ; le mastering travaille sur le fichier stéréo final déjà mixé, pour assurer sa cohérence sur différents systèmes d'écoute. Masteriser une piste mal mixée n'arrange rien — ça amplifie les défauts au lieu de les corriger, car l'étape ne peut plus isoler les pistes individuelles.
 
 **Techniques:**
 - Microphones (dynamique, condensateur, ruban)

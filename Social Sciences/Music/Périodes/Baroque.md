@@ -17,6 +17,9 @@ date: "2026-02-22"
 - Tonalité majeur/mineur établie
 - Virtuosité
 
+> [!important] Idée clé
+> La basse continue est l'élément le plus structurant du style baroque, plus que l'ornementation ou le contraste : elle impose une texture mélodie-accompagnée (une ligne de basse chiffrée que le claveciniste/organiste réalise librement) qui remplace la polyphonie à voix égales de la [[Renaissance]]. C'est ce changement de texture, pas juste le vocabulaire harmonique, qui sépare vraiment les deux périodes.
+
 **Naissance de l'opéra:**
 - Camerata florentine (fin XVIe)
 - Recréer le drame grec
@@ -87,6 +90,9 @@ date: "2026-02-22"
   
   **Œuvres pour clavier:**
   - *Le Clavier bien tempéré* (1722, 1742) - 48 préludes et fugues (toutes tonalités)
+
+> [!warning] Piège
+> "Bien tempéré" ne veut pas dire "tempérament égal" (les 12 demi-tons parfaitement identiques utilisés aujourd'hui) : à l'époque de Bach, plusieurs tempéraments inégaux circulaient, où chaque tonalité gardait une couleur légèrement différente. L'œuvre démontre qu'on peut jouer dans les 24 tonalités avec un tempérament *praticable*, pas qu'elles sonnent toutes identiques — cf. [[Théorie Musicale Fondamentale]] sur l'enharmonie.
   - Variations Goldberg (1741) - 30 variations monumentales
   - Toccatas, partitas, suites françaises/anglaises
   - *L'Art de la fugue* (inachevé) - somme du contrepoint

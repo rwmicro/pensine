@@ -20,6 +20,9 @@ date: "2026-02-22"
     - Expressionnisme intense
   - Dodécaphonique (1923-):
     - **Série de 12 tons:** Chaque note chromatique utilisée une fois, aucune hiérarchie
+
+> [!important] Idée clé
+> Le dodécaphonisme n'est pas une provocation gratuite : c'est une réponse systémique à un problème réel — le chromatisme de la fin du [[Romantisme]] (Wagner, Mahler) avait tellement saturé et affaibli la hiérarchie tonale (tonique/dominante) qu'elle ne "tirait" plus nulle part. Schoenberg formalise l'aboutissement logique : si aucune note n'est plus vraiment centrale, autant l'assumer et interdire toute hiérarchie par construction.
     - Suite pour piano op. 25 (1923)
     - Concerto pour violon, pour piano
 - Exil aux USA (1933, juif)
@@ -138,6 +141,9 @@ date: "2026-02-22"
 **Aléatoire et Indéterminisme:**
 - **John Cage (1912-1992):**
   - *4'33"* (1952) - silence, sons ambiants
+
+> [!warning] Piège
+> *4'33"* n'est pas "une pièce silencieuse" — c'est même le contraire du propos. Cage part du constat (vérifié en chambre anéchoïque) qu'un silence absolu n'existe pas pour un être vivant : on entend toujours son propre corps ou l'environnement. La pièce ne demande pas d'écouter le rien, mais de réentendre comme musique les sons ambiants qu'on filtre habituellement — toux, chaise qui grince, respiration de la salle.
   - Piano préparé (objets dans les cordes)
   - Opérations de hasard (I Ching)
   - Philosophie zen
@@ -152,6 +158,9 @@ date: "2026-02-22"
 **Minimalisme (USA, 1960s-):**
 - Répétition, processus graduel, tonalité modale
 - Réaction contre complexité sérielle
+
+> [!tip] Méthode
+> Ne pas réduire le minimalisme à "de la musique simple qui se répète" — le terme clé est *processus* : chez Reich (déphasage progressif entre deux lignes identiques) ou Riley (*In C*, motifs joués en boucle à des rythmes légèrement décalés d'un musicien à l'autre), c'est l'évolution graduelle et audible du processus lui-même qui est l'objet musical, pas la répétition en tant que telle.
 
 - **Steve Reich (1936-):**
   - *Music for 18 Musicians* (1976)

@@ -16,6 +16,9 @@ date: "2026-02-22"
 - Mélodie accompagnée (vs polyphonie baroque)
 - Galant style puis Sturm und Drang
 
+> [!warning] Piège
+> "Classicisme" est une étiquette rétrospective (fin XIXe) — Haydn et Mozart ne se pensaient pas "classiques". Ne pas confondre non plus avec le sens courant de "musique classique" (= tout ce qui n'est pas pop/rock) : ici c'est une période précise (1750-1820), aussi étroite que le [[Baroque]] ou le [[Romantisme]].
+
 **Pré-classiques:**
 - Fils de Bach: C.P.E. Bach (1714-1788) - Empfindsamer Stil, fantaisies
 - École de Mannheim: innovations orchestrales
@@ -81,6 +84,9 @@ date: "2026-02-22"
 - **Symphonies:**
   - 3 "Eroica" (1803) - révolution (dédiée puis retirée à Napoléon)
   - 5 (1808) - "destin frappe à la porte", ut mineur → ut majeur
+
+> [!important] Idée clé
+> L'arc mineur→majeur de la 5e n'est pas qu'un effet dramatique isolé : c'est un changement de logique narrative. Le [[Baroque]] traite une pièce entière dans une seule "affect" stable (théorie des affects) ; Beethoven fait de la symphonie un récit qui se transforme d'un mouvement à l'autre. Cette bascule est un des marqueurs qui annoncent le [[Romantisme]].
   - 6 "Pastorale" (1808) - programme, nature
   - 7 (1812) - "apothéose de la danse" (Wagner)
 - Concerto pour piano n°5 "Empereur" (1811)

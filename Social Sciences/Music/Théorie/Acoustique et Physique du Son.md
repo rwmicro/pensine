@@ -49,6 +49,9 @@ date: "2026-02-22"
 - **Release:** Extinction
 - Influence la reconnaissance de l'instrument
 
+> [!important] Idée clé
+> Le timbre n'est pas déterminé que par le spectre harmonique statique — le transitoire d'attaque (les premières millisecondes, bruit d'archet, souffle) pèse souvent plus lourd dans la reconnaissance d'un instrument. Coupe l'attaque d'un enregistrement (piano, trompette) et il devient étonnamment difficile de distinguer les instruments à l'oreille, alors que le corps du son (sustain) reste intact.
+
 ### Acoustique Architecturale
 
 **Réverbération:**
@@ -79,4 +82,7 @@ date: "2026-02-22"
 - Ratios simples = consonant (2:1 octave, 3:2 quinte)
 - Ratios complexes = dissonant
 - Culturellement conditionné (partiellement)
+
+> [!warning] Piège
+> Les ratios simples de [[Musique Antique|Pythagore]] (2:1, 3:2...) ne racontent qu'une partie de l'histoire : la consonance perçue dépend aussi de la "rugosité" psychoacoustique (Helmholtz) — deux fréquences trop proches battent et sonnent dissonantes même sans rapport mathématique complexe, un phénomène physiologique (bande critique de l'oreille), pas seulement numérique.
 
