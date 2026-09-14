@@ -22,6 +22,9 @@ date: "2026-03-05"
 - Pattern moteur spécifique au sport
 - Transfert limité entre disciplines différentes
 
+> [!warning] Piège
+> Le transfert entre qualités physiques est plus limité qu'on le croit : être fort au squat ne rend pas automatiquement plus rapide au sprint, car le pattern moteur, la vitesse d'exécution et le système énergétique sollicité diffèrent. L'entraînement croisé développe des qualités générales (VO2max, force de base) mais jamais la compétence spécifique du geste sportif visé.
+
 **Principe d'Individualisation**
 - Réponse à l'entraînement varie selon individu
 - Génétique, historique, âge, sexe, récupération
@@ -96,4 +99,7 @@ date: "2026-03-05"
 - **Functional Overreaching** : fatigue temporaire (jours-semaines), bénéfique si suivi récupération
 - **Non-Functional Overreaching** : fatigue prolongée (semaines-mois)
 - **Overtraining Syndrome** : épuisement systémique (mois), nécessite arrêt total
+
+> [!important] Idée clé
+> Le surentraînement n'est presque jamais causé par une séance isolée trop dure — le functional overreaching fait justement partie du processus normal (c'est le stimulus qui précède la surcompensation). Le vrai basculement vers l'overtraining se produit quand ce stress s'accumule sans récupération suffisante sur des semaines : le problème n'est pas l'intensité d'un jour donné, mais le déficit chronique entre stress total et récupération totale.
 

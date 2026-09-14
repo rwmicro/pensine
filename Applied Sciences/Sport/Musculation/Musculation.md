@@ -41,6 +41,9 @@ Guide complet sur la musculation, l'entraînement en force et le développement 
 - Temps sous tension optimal
 - Fréquence: 2-3 fois par semaine par groupe musculaire
 
+> [!tip] Méthode
+> La plage 8-12 reps est une convention pratique, pas une limite biologique stricte : l'hypertrophie se produit sur une plage bien plus large (5-30 reps) tant que la série est menée proche de l'échec musculaire (voir [[Musculation et Force]]). Utile pour varier les stimulus sans changer d'objectif.
+
 ### Types d'entraînement
 
 - **Force**: 1-5 répétitions, charges lourdes

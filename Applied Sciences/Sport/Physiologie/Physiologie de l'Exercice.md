@@ -39,6 +39,9 @@ date: "2026-03-05"
 - Proportion varie selon intensité et durée
 - Entraînement spécifique développe systèmes ciblés
 
+> [!important] Idée clé
+> Les "durées" citées pour chaque système (0-10s, 10s-2min, >2min) ne signifient pas que les autres systèmes sont inactifs en dehors — les trois tournent dès la première seconde d'effort. Ce qui change, c'est lequel domine la production d'énergie à un instant donné. Un sprint de 10 secondes utilise majoritairement l'ATP-CP, mais le système aérobie contribue déjà, en arrière-plan, à la récupération entre les efforts.
+
 ```mermaid
 graph LR
     subgraph ATP ["ATP-CP — 0 à 10 s"]
@@ -123,6 +126,9 @@ graph LR
 - Sprinters d'élite : ~70-80% type II
 - Marathoniens d'élite : ~70-80% type I
 - Entraînement peut convertir IIx ↔ IIa mais pas I ↔ II
+
+> [!warning] Piège
+> On ne peut pas "transformer" un profil de sprinter en profil de marathonien à force d'entraînement d'endurance, ni l'inverse : la marge de manœuvre entraînable se limite à l'axe IIx↔IIa (fibres rapides qui deviennent plus ou moins oxydatives). La frontière type I / type II, elle, reste largement fixée génétiquement — l'entraînement optimise ce qu'on a, il ne réécrit pas la distribution de départ.
 
 | Caractéristique | Type I (Lentes) | Type IIa (Intermédiaires) | Type IIx (Rapides) |
 |---|---|---|---|

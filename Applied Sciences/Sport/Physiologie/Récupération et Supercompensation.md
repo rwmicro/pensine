@@ -29,6 +29,9 @@ graph LR
 - Trop tard (après retour baseline) → désentraînement, progression nulle
 - Au bon moment (pic de supercompensation) → progression optimale
 
+> [!tip] Méthode
+> La VFC (variabilité de la fréquence cardiaque) est un indicateur avancé de récupération — elle bouge avant que la fatigue devienne visible en performance. La fréquence cardiaque de repos, elle, est un indicateur retardé : quand elle grimpe, le déficit de récupération est souvent déjà installé depuis plusieurs jours. Suivre la VFC permet d'ajuster le timing du prochain stimulus avant que la baisse de performance ne soit mesurable.
+
 ### Phases de Récupération
 
 **Récupération immédiate (0–30 min)**
@@ -42,6 +45,9 @@ graph LR
 - Alimentation : fenêtre anabolique (glucides + protéines dans 2h)
 - Inflammation contrôlée : processus naturel de réparation — ne pas systématiquement bloquer
 - Stress thermique : froid (récupération active) vs chaud (relaxation, circulation)
+
+> [!warning] Piège
+> Prendre des anti-inflammatoires (AINS) systématiquement après chaque séance pour "récupérer plus vite" peut jouer contre l'objectif recherché : l'inflammation post-effort n'est pas qu'un dommage à supprimer, c'est en partie le signal qui déclenche la réparation et l'adaptation musculaire. La bloquer chroniquement peut émousser les gains d'entraînement à long terme, même si elle soulage la douleur à court terme.
 
 **Récupération à long terme (24h–7j)**
 - Adaptation structurelle : hypertrophie, renforcement tendons/os

@@ -26,6 +26,9 @@ Les adducteurs sont situés sur **la partie médiale de la cuisse, entre le bas
 
 Les ischio-jambiers se situent sur la partie postérieure de la cuisse et sont également composés de plusieurs muscles, dont les principaux sont le **biceps fémoral, le semi-tendineux et le semi-membraneux**. Ces muscles ont comme action principale la flexion de la jambe au niveau du genou et l’extension de la cuisse. Ils jouent un rôle essentiel dans la **stabilité du genou et sont particulièrement sollicités lors des activités de saut, de sprint et de flexion du buste**.
 
+> [!warning] Piège
+> Les ischio-jambiers sont bi-articulaires (ils traversent la hanche ET le genou), contrairement aux quadriceps qui n'agissent principalement qu'au genou. C'est cette double action qui les rend particulièrement sujets aux claquages en sprint : ils sont étirés en flexion de hanche pendant que le genou s'étend, un allongement combiné qu'aucun exercice mono-articulaire (leg curl) ne reproduit complètement — d'où l'intérêt d'exercices comme le soulevé de terre jambes tendues pour les préparer à ce stress spécifique.
+
 ## Séance de musculation pour muscler ses jambes
 
 Voici une séance de musculation spécialement conçue pour muscler tes jambes en ciblant les quadriceps, les adducteurs et les ischio-jambiers.
@@ -112,6 +115,9 @@ Pour réaliser cet exercice :
 - Contrôle le mouvement en descendant lentement la plateforme vers toi et repousse-la à la position de départ en contractant tes quadriceps.
 
 La presse est particulièrement efficace pour développer la force et l’endurance de tes quadriceps.
+
+> [!tip] Méthode
+> La presse permet de charger lourd avec moins de stress lombaire que le squat, mais ce confort a un coût : le dos étant calé contre le dossier, le core ne travaille plus comme stabilisateur du tronc — un rôle central du squat libre. La presse est un bon complément pour surcharger les quadriceps sans fatigue systémique, pas un remplaçant complet du squat pour qui cherche aussi le transfert fonctionnel.
 # Musculation
 
 

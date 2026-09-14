@@ -8,6 +8,9 @@ date: "2025-05-04"
 
 **Fréquence** : Faites 3 séries de 8 à 12 répétitions pour chaque exercice, avec 30 à 60 secondes de repos entre les séries.
 
+> [!warning] Piège
+> Les mouvements de poussée au-dessus de la tête (développé épaules) et de tirage (rowing) sont les deux exercices où le bas du dos compense le plus souvent une épaule ou un dos faible : cambrer pour "aider" à pousser plus haut, ou se redresser au lieu de tirer avec les omoplates. Le signe à surveiller n'est pas la charge soulevée mais la stabilité du tronc pendant le mouvement — si le dos bouge pour compenser, la charge est trop lourde pour la technique actuelle.
+
 **A. Développé épaules (Overhead Press)**
 - Muscles ciblés : épaules, triceps.
 - Instructions :
