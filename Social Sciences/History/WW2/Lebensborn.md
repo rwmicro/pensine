@@ -34,6 +34,9 @@ Dans le contexte de l'idéologie nazie sur le **déclin démographique** de la "
 
 **Réalité:** Outil de sélection raciale et d'endoctrinement.
 
+> [!warning] Piège
+> Le fait que certaines mères allemandes soient entrées volontairement dans le programme ne fait pas du Lebensborn allemand un dispositif « moins grave » que la germanisation forcée de Pologne — c'est un mécanisme différent au service du même projet. Le consentement individuel d'une mère n'efface pas le tri eugéniste à l'entrée (exclusion des Juifs, Roms, handicapés) ni la fonction du programme dans l'idéologie raciale d'ensemble. Volontaire ne veut pas dire hors de la logique génocidaire.
+
 ### 3. "Aryanisation" de l'Allemagne
 
 - Sélection génétique stricte des parents
@@ -174,6 +177,9 @@ Quelques foyers créés pour enfants de soldats allemands et femmes locales.
 - MAIS: enlèvements d'enfants reconnus comme crimes de guerre (non attribués directement à Lebensborn)
 
 **Controverse:** Décision critiquée - programme clairement lié à idéologie raciale nazie.
+
+> [!important] Idée clé
+> L'acquittement de Nuremberg illustre une limite structurelle du droit pénal appliqué à un système : un tribunal juge des actes précis et prouvables (l'enlèvement d'un enfant identifié), pas une architecture idéologique diffuse (un programme de « purification raciale » par la natalité). Le Lebensborn allemand a pu échapper à la qualification de crime précisément parce qu'il opérait par consentement apparent et procédures médicales — la même chose qui le rend difficile à juger le rend, historiquement, tout aussi révélateur de la manière dont un système génocidaire peut se draper de formes légales et charitables.
 
 ## Chiffres Clés
 

@@ -61,6 +61,9 @@ En 1884, dans la fièvre du **partage de l'Afrique** et de l'expansion coloniale
 
 La frontière administrative traverse l'île selon une ligne arbitraire tracée à Berlin. Les peuples qui vivaient de part et d'autre sont désormais sujets d'États différents.
 
+> [!important] Idée clé
+> Cette ligne droite sur une carte européenne, indifférente aux plus de 800 langues et aux clans qu'elle sépare, est le même mécanisme qui découpe l'Afrique la même décennie (cf. [[../Les Empires|Les Empires]]) : la « fièvre du partage » traite le territoire comme une surface vide à négocier entre puissances, pas comme un espace déjà densément habité et organisé. Les conflits tribaux des Hautes Terres et la fracture de Bougainville, un siècle plus tard, portent encore la trace de ce découpage initial.
+
 ### La Nouvelle-Guinée allemande
 
 L'Allemagne concède d'abord l'administration à une société commerciale, la **German New Guinea Company**, avant de reprendre le contrôle direct en 1899. L'économie coloniale repose sur les **plantations de copra** (noix de coco séchée), puis de caoutchouc et de café.
@@ -177,6 +180,9 @@ La PNG est extraordinairement riche en matières premières : cuivre, or, pétro
 | Gaz naturel | LNG Project (ExxonMobil) | Richesses captées par élites, peu d'impact local |
 
 Ce paradoxe — richesse des sous-sols, pauvreté de surface — illustre la **malédiction des ressources** : les revenus extractifs renforcent les élites et la corruption sans diffuser vers la population.
+
+> [!warning] Piège
+> Le conflit de Bougainville n'est pas un simple « conflit ethnique » comme le résument souvent les récits médiatiques de l'époque — c'est un conflit déclenché par une structure économique précise (les bénéfices d'une mine captés loin des communautés qui en subissent les dégâts) qui existait déjà avant même l'indépendance de 1975. La malédiction des ressources n'est donc pas propre à la PNG post-coloniale : c'est une continuité directe du modèle d'extraction hérité de la période coloniale allemande et australienne.
 
 ### Défis politiques et sociaux
 

@@ -34,6 +34,9 @@ La complexité du terrain et des règles en faisait un sport tactique, très dif
 
 Quand le serveur lançait la balle, il criait **"Tenez !"** — signifiant "attention !", "prenez !". Les Anglais qui ont découvert ce sport au contact des Français ont prononcé ce mot à leur façon : **"tennis"** — et le nom est resté.
 
+> [!tip] Méthode
+> Un nom qui survit à la disparition de la chose qu'il désignait à l'origine est un bon indice archéologique : "tennis" garde la trace d'un jeu français quasi oublié aujourd'hui, de la même façon qu'un mot de vocabulaire peut trahir l'histoire d'un contact culturel bien après que l'événement lui-même s'est effacé de la mémoire collective.
+
 
 ## Le Serment du Jeu de Paume (1789)
 
@@ -42,3 +45,6 @@ Le moment le plus célèbre de l'histoire du jeu de paume n'est pas sportif. Le 
 Là, ils prêtent serment de **ne pas se séparer avant d'avoir donné une constitution à la France**.
 
 C'est l'un des actes fondateurs de la Révolution française.
+
+> [!important] Idée clé
+> Si le moment le plus célèbre de l'histoire du jeu de paume n'est pas sportif, ce n'est pas un hasard : la salle est choisie parce que c'est l'un des rares espaces couverts de Versailles capable d'accueillir plusieurs centaines de députés debout. Les grands moments symboliques de l'histoire se logent souvent dans des infrastructures ordinaires détournées de leur usage, pas dans des lieux conçus pour l'occasion.

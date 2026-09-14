@@ -59,6 +59,9 @@ date: "2025-12-31"
 - Changement de nom: **Territoire Français des Afars et des Issas** (TFAI)
 - Tensions ethniques Afar/Issa instrumentalisées
 
+> [!warning] Piège
+> Le clivage Afar/Issa n'est pas une "haine ancestrale" réactivée par hasard : c'est une frontière coloniale qui a figé deux populations aux logiques historiques différentes (nomades pastoraux vs commerçants côtiers liés à la Somalie) dans un seul territoire, puis l'administration française a joué l'une contre l'autre pour maintenir son contrôle (cf. le même schéma dans [[Kurdes/Histoire]]). La guerre civile de 1991-1994 est l'héritage direct de ce montage, pas un simple "réveil ethnique".
+
 ## Indépendance (27 juin 1977)
 
 ### Marche vers l'Indépendance
@@ -147,6 +150,9 @@ date: "2025-12-31"
 5. **Italie** - Base aérienne
 
 **Conséquence:** Djibouti = **hub militaire mondial**
+
+> [!important] Idée clé
+> Djibouti n'a presque aucune ressource naturelle et un territoire aride quasi inhabitable — sa valeur stratégique ne vient pas de ce qu'il contient mais de sa position sur une carte : verrou du Bab-el-Mandeb, seul débouché maritime de l'Éthiopie. Le pays a bâti son économie non pas en produisant, mais en **louant sa géographie** à cinq puissances rivales simultanément — un modèle rentier fondé sur l'immobilité, pas sur l'exportation.
 
 ### Économie Moderne
 

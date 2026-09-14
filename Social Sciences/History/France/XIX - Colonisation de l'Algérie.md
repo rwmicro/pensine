@@ -13,6 +13,9 @@ date: "2026-02-04"
 ### Le Prétexte : L'Incident du Coup d'Éventail (1827)
 En 1830, le roi **Charles X** cherche à redorer son blason politique en France. Le prétexte de l'invasion est un incident diplomatique survenu en 1827 : le dey d'Alger, Hussein Dey, frappe le consul français Pierre Deval d'un coup d'éventail lors d'une dispute concernant une dette de blé impayée.
 
+> [!tip] Méthode
+> Distinguer prétexte et cause (cf. [[Histoire#Causalité Historique|Histoire — Causalité Historique]]) : le coup d'éventail est ce qu'on invoque au moment des faits, la cause réelle est ce qui aurait produit l'invasion même sans cet incident — ici la crise de légitimité de Charles X, qui a besoin d'un succès militaire extérieur juste avant les Trois Glorieuses. Le test pratique : l'événement invoqué aurait-il suffi seul, dans un autre contexte politique ?
+
 ### La Prise d'Alger (5 juillet 1830)
 - **14 juin 1830** : Débarquement du corps expéditionnaire français à Sidi-Ferruch (37 000 hommes)
 - **5 juillet 1830** : Capitulation d'Alger, signature de la Convention de capitulation garantissant le respect des biens et de la religion des habitants
@@ -59,6 +62,9 @@ Pratique consistant à enfumer vivantes des populations réfugiées dans des gro
 - Pélissier fait allumer des feux à l'entrée pendant toute la nuit
 - **Résultat : environ 800 à 1 000 morts** (hommes, femmes, enfants)
 - Scandale en France, mais Pélissier est promu
+
+> [!warning] Piège
+> "Scandale en France, mais promu" n'est pas une contradiction — c'est la preuve que les enfumades n'étaient pas des dérapages individuels d'officiers isolés, mais une méthode de guerre tolérée, voire récompensée, par la hiérarchie. Traiter ces épisodes comme des "excès" isole la violence de la doctrine (Bugeaud) qui la rendait systématique.
 
 **Enfumade des grottes du Dahra - Colonel de Saint-Arnaud :**
 - Méthode similaire employée par le futur maréchal de Saint-Arnaud
@@ -130,6 +136,9 @@ Promulgué en **1881**, appliqué jusqu'en **1944** :
 - Abolit le Code de l'indigénat
 - Accorde la citoyenneté à 65 000 musulmans (élite)
 - Maintient le double collège électoral (inégalité électorale)
+
+> [!important] Idée clé
+> Le "paradoxe algérien" n'est pas une incohérence administrative mais la structure même du système colonial : l'Algérie est juridiquement la France (départements, pas colonie), ce qui rend l'exclusion des musulmans de la citoyenneté encore plus explicitement discriminatoire qu'une simple domination coloniale classique — on ne peut pas invoquer "un territoire étranger" pour justifier l'inégalité, puisque le territoire est légalement français.
 
 ## Inégalités Structurelles
 

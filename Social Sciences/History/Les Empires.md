@@ -43,6 +43,9 @@ Pourquoi les empires tendent-ils à l'expansion ? Plusieurs mécanismes :
 
 **Dynamique interne** : les élites militaires ont besoin de guerres pour maintenir leur statut et s'enrichir. La paix prolongée menace leur position.
 
+> [!example] Exemple
+> La logique du « Lebensraum » nazie (cf. [[../WW2/Montée du nazisme|Montée du nazisme]]) recycle explicitement ces mécanismes — sécurité par la profondeur stratégique et légitimation idéologique (l'espace vital comme destin civilisationnel) — pour justifier une expansion impériale au XXᵉ siècle, alors même que l'ère des empires coloniaux touchait à sa fin. La forme impériale ne disparaît pas avec la décolonisation : elle se reformule dans des idéologies qui se présentent pourtant comme anti-impériales.
+
 ## Le paradoxe impérial
 
 Les empires sont à la fois des instruments d'oppression et des vecteurs de diffusion culturelle. Cette tension est irréductible.
@@ -60,6 +63,9 @@ Les empires sont à la fois des instruments d'oppression et des vecteurs de diff
 - Mélanges culturels, artistiques, religieux inédits
 
 L'argument gêne : peut-on valoriser l'héritage culturel d'un empire sans minimiser sa violence ? Peut-on condamner sa brutalité sans nier ses effets culturels durables ?
+
+> [!warning] Piège
+> Ce n'est pas un équilibre à trouver entre deux colonnes égales — la destruction et la transmission ne se compensent pas, elles se produisent souvent *par le même acte*. La route romaine qui facilite le commerce est la même qui achemine les légions de répression ; l'alphabétisation coloniale qui ouvre l'accès au savoir est le même geste qui efface la langue maternelle. Séparer « ce qui est bien » de « ce qui est mal » dans un même processus historique est une simplification commode, pas une description fidèle.
 
 ## L'homogénéisation culturelle
 

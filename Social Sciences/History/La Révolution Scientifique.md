@@ -37,6 +37,9 @@ La méthode scientifique n'est pas née en un jour. Elle s'élabore progressivem
 
 Le philosophe Karl Popper a formalisé au XXe siècle le critère de **réfutabilité** : une théorie scientifique doit pouvoir être mise en défaut par l'observation. Ce qui ne peut pas être réfuté n'est pas de la science.
 
+> [!tip] Méthode
+> La réfutabilité est le test le plus rapide pour repérer une pseudo-science : demander "quelle observation, si elle se produisait, prouverait cette théorie fausse ?". Si aucune réponse n'est possible — la théorie s'ajuste toujours après coup pour "expliquer" n'importe quel résultat — ce n'est pas de la science au sens de Popper, quel que soit le vocabulaire employé.
+
 ## Les révolutions intellectuelles majeures
 
 | Période | Rupture | Figures |
@@ -68,6 +71,9 @@ La révolution scientifique n'a pas prospéré dans un vide politique. Elle s'es
 - Débouchés applicatifs qui justifient l'investissement
 
 Les grandes expéditions scientifiques du XVIIIe siècle (Cook, Humboldt, Darwin avec le Beagle) sont aussi des expéditions d'exploration coloniale. Les naturalistes décrivent et classifient les espèces des colonies ; ils cartographient aussi les ressources exploitables.
+
+> [!warning] Piège
+> Cette alliance historique science-empire ne rend pas la méthode scientifique elle-même impérialiste : c'est une contingence de financement et de logistique (qui payait les expéditions coûteuses ?), pas une conséquence logique de la falsifiabilité ou de l'expérimentation. Confondre l'origine sociale d'une méthode avec sa validité épistémique est une erreur classique — la boussole reste précise même inventée pour naviguer vers des colonies.
 
 ## Science et idéologie
 

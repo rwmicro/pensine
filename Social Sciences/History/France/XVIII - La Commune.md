@@ -42,6 +42,9 @@ L'opération échoue : les soldats fraternisent avec la population. Deux génér
 
 Paris est laissée à elle-même. Le **Comité central de la Garde nationale** prend le contrôle de la ville.
 
+> [!important] Idée clé
+> La Commune n'est pas née d'un plan insurrectionnel prémédité : c'est le retrait raté de Thiers, pas une prise de pouvoir organisée, qui crée le vide que le Comité central occupe. Beaucoup de grands épisodes révolutionnaires suivent ce schéma — l'événement fondateur est une défaillance du pouvoir en place plus qu'une victoire de ceux qui le remplacent (cf. le 18 mars 1848 en Sicile, ou la chute du Shah en 1979).
+
 ### Élection de la Commune (26 mars 1871)
 
 Des élections municipales à Paris portent au pouvoir un Conseil de la Commune dominé par des révolutionnaires : blanquistes, jacobins, proudhoniens, membres de la Première Internationale.
@@ -78,6 +81,9 @@ S'ensuit une semaine de combats de rue d'une violence extrême :
 - ~ 880 morts côté versaillais
 - 38 000 arrestations
 - 10 000 condamnations dont 4 500 à la déportation en **Nouvelle-Calédonie**
+
+> [!warning] Piège
+> Un bilan "longtemps minoré par la République" n'est pas un détail statistique : c'est un schéma récurrent chaque fois que le vainqueur écrit l'histoire officielle — même mécanisme que les bilans contestés de [[XX - Guerre d'Algérie#Phase 1|Sétif (1945)]] ou de l'Anfal kurde. Un chiffre "officiel" bas et une estimation indépendante nettement plus haute sont souvent le signe d'un pouvoir qui a intérêt à minimiser sa propre répression.
 
 ## Mémoire et postérité
 

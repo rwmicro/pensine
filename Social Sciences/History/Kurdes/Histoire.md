@@ -42,6 +42,9 @@ Mais le traité n'est jamais ratifié. La guerre d'indépendance turque menée p
 
 C'est le moment fondateur du "problème kurde" contemporain : un peuple coupé en quatre par des frontières qu'il n'a pas négociées.
 
+> [!important] Idée clé
+> Sèvres montre que le droit international ne crée pas d'États, il ne fait que ratifier des rapports de force déjà établis sur le terrain. Un traité signé et un Kurdistan "prévu sur le papier" (articles 62-64) n'ont eu aucun poids face à une armée turque victorieuse : Lausanne n'a pas trahi Sèvres, il a simplement acté la réalité militaire que Sèvres avait ignorée.
+
 ## La République de Mahabad (1946)
 
 Premier — et bref — État kurde de l'histoire moderne.
@@ -79,6 +82,9 @@ Huit phases d'opérations militaires combinant :
 **Halabja (16 mars 1988)** : épisode le plus connu, bombardement chimique (gaz moutarde, sarin, tabun) qui tue **5 000 civils kurdes** en quelques heures.
 
 **Bilan total Anfal : 50 000 à 180 000 morts** selon les estimations. Reconnu comme **génocide** par la justice irakienne post-Saddam (2007) et par plusieurs parlements (Royaume-Uni 2013, Suède 2012, Norvège 2012).
+
+> [!warning] Piège
+> Ces dates de reconnaissance (2007, 2012, 2013) ne sont pas la date des faits (1988) : elles marquent le moment où la qualification est devenue politiquement possible, souvent après la chute du régime responsable. La reconnaissance d'un génocide est elle-même un acte politique différé, pas une simple constatation historique automatique — le même décalage se retrouve pour le génocide arménien ou le Holodomor.
 
 ### Autonomie et Région du Kurdistan irakien
 

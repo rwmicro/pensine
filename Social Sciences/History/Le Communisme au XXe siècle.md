@@ -22,6 +22,9 @@ Le **communisme** comme régime politique et historique se distingue du **marxis
 
 Marx n'a jamais vu de régime communiste ; tous ceux qui se réclament de lui surgissent après sa mort. La question — *« Marx est-il responsable du goulag ? »* — reste l'une des plus débattues du siècle.
 
+> [!warning] Piège
+> Les deux camps de ce débat glissent souvent d'un niveau à l'autre du tableau ci-dessus sans le dire. « Le socialisme n'a jamais été vraiment essayé » traite le régime comme une trahison de l'utopie — mais alors pourquoi tant de mouvements différents ont-ils convergé vers la même terreur ? Et « le goulag est la conséquence logique du *Capital* » traite le corpus théorique comme s'il contenait déjà le régime — en sautant justement l'étape historique (léninisme, stalinisme) qui a fait le travail. Les deux argumentations gagnent en solidité en distinguant explicitement *quel* niveau du tableau elles accusent ou défendent.
+
 
 ## 1917 : la rupture bolchevique
 
@@ -46,6 +49,9 @@ Lénine ajoute au marxisme trois éléments décisifs qui définiront tout le co
 - **L'impérialisme, stade suprême du capitalisme** (1916) — la révolution peut éclater dans le « maillon faible » (Russie agraire) plutôt que dans les pays industriels avancés
 
 Cette dernière thèse justifie *a posteriori* le décalage entre les prédictions de Marx (révolution en Angleterre, Allemagne) et la géographie réelle des révolutions communistes (Russie, Chine, Cuba, Vietnam).
+
+> [!important] Idée clé
+> Le parti d'avant-garde n'est pas un détail organisationnel : c'est une rupture avec Marx, qui attendait une révolution *spontanée* du prolétariat conscient de ses propres intérêts. En posant qu'une minorité de professionnels doit apporter la conscience révolutionnaire « de l'extérieur », Lénine crée la structure de pouvoir (un parti qui sait mieux que la classe qu'il représente) qui rendra plus tard possibles le culte du chef et la terreur d'État — bien avant que Staline n'en fasse un usage systématique.
 
 
 ## L'Internationale communiste (Komintern, 1919-1943)
