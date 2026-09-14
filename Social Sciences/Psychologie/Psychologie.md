@@ -276,9 +276,15 @@ La **psychologie** (du grec *psyché* = âme/esprit et *logos* = étude) est la 
 - Manque de preuves empiriques
 - Mais influence culturelle majeure
 
+> [!warning] Piège
+> "Non falsifiable" (Popper) et "réfutée empiriquement" sont deux critiques différentes qu'on confond souvent. La première dit que la théorie ne peut pas être testée donc pas être qualifiée de scientifique ; la seconde dirait qu'elle a été testée et s'est révélée fausse. La psychanalyse subit surtout la première critique, pas la seconde.
+
 ### Crise de la Réplication
 - Beaucoup d'études psychologiques ne se répliquent pas (Stanford Prison Experiment contesté)
 - Réforme méthodologique en cours
+
+> [!important] Idée clé
+> Deux problèmes distincts se cachent sous "crise de la réplication" : des études rigoureuses qui ne se répliquent pas dans de nouveaux échantillons (ego depletion, power poses), et des démonstrations jamais vraiment contrôlées au départ (Stanford Prison Experiment, mise en scène avec instructions aux "gardiens"). Le second cas n'est pas un échec de réplication mais un problème de validité initiale.
 
 ### Psychologie Positive (Seligman)
 - Focus sur le bien-être, pas seulement les troubles

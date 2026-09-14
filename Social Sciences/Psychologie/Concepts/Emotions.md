@@ -33,6 +33,9 @@ Les émotions ont évolué parce qu'elles ont de la valeur adaptative. Elles ne 
 
 **L'erreur de Descartes (Damasio)** : Damasio a étudié des patients avec lésions du cortex préfrontal ventromédian. Leur raisonnement reste intact, mais leurs émotions sont abolies — et ils deviennent *incapables de prendre des décisions*. Les émotions fournissent des valeurs aux options ; sans elles, toutes les options se valent.
 
+> [!warning] Piège
+> "Les émotions aident à décider" ne veut pas dire "plus d'émotion = meilleure décision". Damasio montre qu'une absence totale d'émotion paralyse le jugement, mais une émotion trop intense (panique, colère) le dégrade tout autant — la relation est en U inversé, pas linéaire.
+
 ## Composantes d'une émotion
 
 ```
@@ -166,6 +169,9 @@ Les émotions complexes requièrent conscience de soi, normes sociales et cognit
 
 **Honte vs culpabilité** : distinction capitale en psychologie clinique. La honte ("je suis mauvais") est plus destructrice que la culpabilité ("j'ai fait quelque chose de mauvais"). La culpabilité pousse à réparer ; la honte pousse au retrait ou à l'attaque.
 
+> [!important] Idée clé
+> Cette bascule honte/attaque éclaire un symptôme du [[Trouble de la personnalité limite (borderline)]] : la colère intense et inappropriée (critère DSM-5) s'explique souvent par une honte non métabolisée qui se transforme en attaque plutôt qu'en réparation, faute de pouvoir tolérer le sentiment global de "je suis mauvais".
+
 ## Régulation émotionnelle
 
 ```
@@ -188,6 +194,9 @@ Les émotions complexes requièrent conscience de soi, normes sociales et cognit
 ```
 
 **La réévaluation cognitive** est la stratégie la mieux validée empiriquement. Changer l'interprétation d'une situation (un échec comme apprentissage, une critique comme information utile) réduit l'intensité émotionnelle sans effets secondaires négatifs — contrairement à la suppression.
+
+> [!tip] Méthode
+> Le moment d'application change tout : la réévaluation fonctionne parce qu'elle intervient *avant* que la réponse physiologique complète se soit déployée, en modifiant l'évaluation cognitive en amont. La suppression intervient trop tard, une fois la réaction émotionnelle déjà lancée — d'où son coût physiologique plus élevé pour un résultat moins bon.
 
 ## Intelligence émotionnelle (Goleman)
 

@@ -25,6 +25,9 @@ Le désir est une tension vers un objet que l'on se représente comme source de 
 
 Le *désir* est une tension passive vers un objet — un état d'âme, une inclination ("je désire voyager"). La *volonté* est une décision active d'agir — un acte de la conscience, une détermination ("je décide de voyager"). La philosophie et la psychologie s'accordent sur cette distinction, mais divergent sur le rapport entre les deux.
 
+> [!important] Idée clé
+> L'écart entre les deux est précisément ce qu'Aristote nomme l'*akrasia* (faiblesse de la volonté) : agir contre son propre jugement, désirer une chose tout en sachant qu'elle est mauvaise. Ce n'est ni un manque de désir ni un manque de raison — c'est l'échec de la volonté à faire prévaloir le jugement sur l'inclination.
+
 ## Perspectives philosophiques
 
 ### Platon : désir et raison
@@ -146,6 +149,9 @@ La *libido* est l'énergie psychique du désir. Le conflit psychique oppose :
   Désir    : ce qui reste entre besoin et demande = le manque irreductible
 ```
 
+> [!warning] Piège
+> Ne pas confondre le manque lacanien avec les "désirs vains" d'Épicure : ces derniers sont contingents et peuvent être éliminés par la sagesse (renoncer à la gloire, au pouvoir infini). Le manque chez Lacan est structurel — il ne porte sur aucun objet en particulier et ne disparaît donc jamais, même par renoncement ; combler un désir révèle simplement un nouveau manque.
+
 ## Perspectives psychologiques
 
 ### Maslow : pyramide des besoins
@@ -208,6 +214,9 @@ Trois besoins psychologiques fondamentaux sont universels :
 ```
 
 **Conséquences :** rivalité (quand le même objet est désiré), violence (escalade du conflit), bouc émissaire (transfert de la violence sur un tiers). La publicité construit délibérément des modèles pour déclencher le désir mimétique.
+
+> [!example] Exemple
+> Voir [[Captologie]] pour le versant technique de ce mécanisme : preuve sociale ("X personnes ont acheté ceci"), témoignages, ambassadeurs de marque — autant de stratégies qui fabriquent industriellement des médiateurs de désir au sens de Girard.
 
 ## Paradoxes et limites du désir
 

@@ -43,6 +43,9 @@ Le **biais d'autocomplaisance** (self-serving bias) est la tendance à **s'attri
 
 **Rarement:** Échec attribué à manque de capacité personnelle.
 
+> [!important] Idée clé
+> Ce biais a un jumeau inversé quand on juge les autres : face à l'échec d'autrui, on attribue spontanément la cause à des traits internes et stables ("il est incompétent") plutôt qu'à la situation — c'est l'erreur fondamentale d'attribution. Les deux biais opèrent en même temps et se renforcent : je m'excuse par la situation, je t'accuse par ta personnalité — voir l'effet acteur-observateur plus bas, qui est la version symétrique de ce même mécanisme.
+
 ## Exemples Concrets
 
 ### Sport
@@ -183,6 +186,9 @@ Noter objectivement succès/échecs et leurs causes.
 ### Thérapie
 **Dépression:** Biais inversé (échecs internes, succès externes).
 **TCC:** Corriger attributions dysfonctionnelles.
+
+> [!warning] Piège
+> Ce renversement en dépression est une donnée clinique importante trop souvent ignorée dans la vulgarisation du biais : le self-serving bias n'est donc pas universellement "câblé" chez tout le monde — c'est un pattern associé à la santé mentale ordinaire. Son absence ou son inversion (tout m'est imputable, rien n'est à mon crédit) est elle-même un signal clinique, pas juste un trait de modestie ou d'humilité.
 
 ### Éducation
 **Étudiants:** Biais empêche apprentissage.
