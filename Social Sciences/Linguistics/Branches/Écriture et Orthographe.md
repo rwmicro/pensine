@@ -39,6 +39,9 @@ date: "2026-02-22"
 **Autres:**
 - Syllabogrammes + logogrammes: **Sumérien cunéiforme**, **Maya**, **Japonais** (kanji + kana)
 
+> [!warning] Piège
+> "Logographique" ne veut pas dire "idéographique" (représenter directement une idée, sans passer par la langue). Un caractère chinois note un morphème d'une langue précise, avec sa prononciation — ce n'est pas un pictogramme universel lisible sans connaître le chinois. L'idée d'une écriture "purement conceptuelle" est un mythe romantique du XIXe siècle.
+
 ### Orthographe
 
 **Orthographes profondes vs superficielles:**
@@ -47,6 +50,9 @@ date: "2026-02-22"
 - **Profonde (opaque):** Irrégularités
   - Anglais, français, tibétain
   - Raisons: étymologie, histoire, emprunts
+
+> [!important] Idée clé
+> Une orthographe "opaque" n'est pas une orthographe mal conçue — c'est une orthographe qui fige l'histoire de la langue au lieu de suivre sa prononciation actuelle. Le "s" de "temps" ou le "gh" muet de l'anglais "night" sont des fossiles visibles d'un état de langue antérieur : ils coûtent en apprentissage mais préservent des liens étymologiques et une lisibilité inter-dialectale (un mot s'écrit pareil même si sa prononciation régionale varie).
 
 **Réformes orthographiques:**
 - Allemande (1996)

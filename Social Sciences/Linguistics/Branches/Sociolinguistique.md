@@ -16,6 +16,9 @@ date: "2026-02-22"
 - Politique: Langue vs dialecte
   - "Une langue est un dialecte avec une armée et une marine"
 
+> [!important] Idée clé
+> La distinction langue/dialecte n'est pas linguistique mais politique : le norvégien et le suédois, mutuellement intelligibles, sont deux "langues" (deux États) ; le mandarin et le cantonais, mutuellement inintelligibles à l'oral, sont deux "dialectes" du chinois (un seul État, une écriture commune). Le critère réel est le statut et la reconnaissance, pas la distance structurelle — un point qui rejoint la construction du "peuple" et de la nation en [[Sociologie Politique]].
+
 **Registres (styles):**
 - Formel, informel, familier, vulgaire
 - Code-switching (alternance)
@@ -45,6 +48,9 @@ date: "2026-02-22"
 - **H (High):** Prestige, formel, écrit (arabe standard)
 - **L (Low):** Quotidien, oral (dialectes arabes)
 - Exemples: Suisse allemande, Grèce
+
+> [!warning] Piège
+> Diglossie ne veut pas dire bilinguisme : dans un cas de bilinguisme classique, les deux langues peuvent en principe remplir les mêmes fonctions (l'une ou l'autre, selon la préférence du locuteur) ; en diglossie, chaque variété est **cantonnée** à des fonctions précises et non interchangeables (le H ne s'emploie jamais pour parler à ses enfants, le L jamais dans un texte officiel). C'est la répartition fonctionnelle rigide qui définit la diglossie, pas la simple coexistence de deux variétés.
 
 **Interférence et transfert:**
 - Influence L1 sur L2 (accent, calques)

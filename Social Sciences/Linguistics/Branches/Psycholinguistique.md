@@ -29,6 +29,9 @@ date: "2026-02-22"
 - **Interactionniste:** Interaction sociale (Vygotsky, Bruner)
 - **Usage-based (Tomasello):** Construction à partir d'input, pas UG
 
+> [!important] Idée clé
+> Ce tableau de théories résume en miroir tout le débat exposé dans [[Noam Chomsky]] : innéisme radical (grammaire universelle) contre constructivisme/usage-based (tout s'apprend de l'input). Ce n'est pas un débat clos — c'est la version linguistique du débat nature/culture en psychologie du développement.
+
 **Période critique:**
 - Sensibilité maximale (enfance)
 - Cas de Genie (enfant isolée, acquisition limitée après découverte à 13 ans)
@@ -69,6 +72,9 @@ date: "2026-02-22"
 - **Aire de Wernicke:** Compréhension (temporal gauche)
   - Lésion → aphasie de Wernicke (fluente mais incohérente)
 - Connexions (faisceau arqué)
+
+> [!warning] Piège
+> Le modèle Broca-production / Wernicke-compréhension, hérité du XIXe siècle, est une simplification pédagogique utile mais dépassée par l'imagerie moderne : les aphasies de Broca touchent aussi la compréhension de phrases syntaxiquement complexes, et le traitement du langage mobilise un réseau bien plus distribué que ces deux seules aires. Le retenir comme point de départ, pas comme carte définitive du cerveau.
 
 **Latéralisation:**
 - ~95% des droitiers: langage à gauche

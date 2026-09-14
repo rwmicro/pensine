@@ -78,6 +78,9 @@ date: "2026-02-22"
 - Distribution complémentaire ou libre
 - Ex: [r] roulé vs [ʁ] uvulaire en français (variantes régionales)
 
+> [!important] Idée clé
+> Phonétique et phonologie étudient les mêmes sons avec deux questions différentes : la phonétique décrit ce qui est physiquement produit/perçu (etic — vrai indépendamment de toute langue), la phonologie décrit ce qui est **fonctionnellement distinctif** dans une langue donnée (emic). [r] roulé et [ʁ] uvulaire sont phonétiquement différents mais phonologiquement identiques en français (même phonème /ʁ/) — alors qu'en arabe une distinction comparable pourrait changer le sens du mot.
+
 **Traits distinctifs:**
 - Jakobson, Chomsky & Halle (*The Sound Pattern of English*, 1968)
 - Binaires: [±voisé], [±nasal], [±antérieur]
@@ -108,6 +111,9 @@ date: "2026-02-22"
     - mā (mère), má (chanvre), mǎ (cheval), mà (insulter)
   - Cantonais: 6-9 tons
   - Langues africaines, sud-est asiatiques
+
+> [!warning] Piège
+> Une langue "tonale" n'a rien d'exotique dans son fonctionnement : le ton y joue exactement le rôle que joue la qualité vocalique en français (distinguer "pain" de "pin" par le timbre de la voyelle). Le mandarin ne "chante" pas plus que le français ne "chante" avec ses voyelles — c'est juste un paramètre phonologique différent porteur de sens.
 
 ### Phonétique Acoustique
 

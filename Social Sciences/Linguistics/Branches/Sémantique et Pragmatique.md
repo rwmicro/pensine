@@ -30,6 +30,9 @@ date: "2026-02-22"
 - **Polysémie:** Un mot, plusieurs sens liés
   - "Tête": partie du corps, chef, début (tête de liste)
 
+> [!warning] Piège
+> La frontière entre homonymie et polysémie n'est pas toujours nette : elle dépend de l'origine historique (deux mots distincts qui convergent phonétiquement, ou un seul mot dont le sens s'est étendu), une information que les locuteurs n'ont généralement pas. Les dictionnaires tranchent souvent de façon quelque peu arbitraire (une entrée ou plusieurs) — "tête" est un cas clair de polysémie, mais beaucoup de cas réels sont ambigus.
+
 **Traits sémantiques:**
 - Décomposition en traits
 - Chat: [+animal], [+félin], [+domestique], [-humain]
@@ -92,6 +95,9 @@ date: "2026-02-22"
 - **Implicatures:** Inférences tirées du respect/violation des maximes
   - "A: Tu viens au ciné? B: J'ai un examen demain."
   - Implicature: Non (violation apparente de Relation, mais pertinent par inférence)
+
+> [!important] Idée clé
+> Une maxime "violée" n'est presque jamais une erreur de communication — c'est le mécanisme même par lequel on communique du sens implicite. Le principe de Grice n'est pas "respectez toujours ces règles", mais "les interlocuteurs présument que vous les respectez, donc toute entorse apparente est interprétée comme porteuse d'un message supplémentaire". C'est ce présupposé de coopération, pas la maxime elle-même, qui fait tout le travail.
 
 **Présuppositions:**
 - Informations prises pour acquises

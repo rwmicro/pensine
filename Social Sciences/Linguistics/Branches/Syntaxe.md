@@ -75,6 +75,9 @@ Par exemple, "Le chat mange la souris" est grammatical en français (ordre SVO),
   - ~9%
 - **VOS, OVS, OSV:** Rares
 
+> [!warning] Piège
+> SVO (l'ordre du français/anglais) n'a rien de "naturel" ou de logique par défaut — SOV est en réalité légèrement plus fréquent dans les langues du monde. L'intuition qu'un ordre serait plus "normal" qu'un autre est un simple biais de familiarité avec sa propre langue, pas un fait typologique.
+
 **Corrélations typologiques (Greenberg):**
 - SVO/VSO → Prépositions (avant le nom)
 - SOV → Postpositions (après le nom)
@@ -101,6 +104,9 @@ Par exemple, "Le chat mange la souris" est grammatical en français (ordre SVO),
 - Économie, minimalisation
 - Merge (fusion), Move (déplacement)
 - Interface syntaxe-sémantique
+
+> [!tip] Méthode
+> Ces trois modèles (transformationnel → P&P → minimaliste) ne sont pas des théories concurrentes mais l'évolution d'une même recherche portée par [[Noam Chomsky]] sur plusieurs décennies — chacun simplifie l'appareil formel du précédent tout en gardant l'intuition centrale (structure profonde/surface, puis principes/paramètres, puis Merge). Utile pour situer une lecture de grammaire générative dans le temps.
 
 ### Grammaires de Dépendance
 

@@ -36,6 +36,9 @@ Un **créole** est un pidgin qui a acquis des locuteurs natifs. Quand des enfant
 
 La frontière entre les deux n'est pas toujours tranchée : la **créolisation** est un processus graduel.
 
+> [!important] Idée clé
+> Le critère qui sépare pidgin et créole n'est pas la complexité de la langue en soi, mais l'existence de **locuteurs natifs**. Un pidgin peut très bien remplir toutes ses fonctions sans jamais se complexifier grammaticalement — ce qui déclenche l'enrichissement, c'est qu'un enfant l'acquiert comme langue maternelle et comble lui-même les manques grammaticaux (cf. la période critique en [[Psycholinguistique]]).
+
 ### Langue véhiculaire (lingua franca)
 
 Toute langue — pidgin, créole, ou langue naturelle — utilisée comme moyen de communication entre personnes de langues maternelles différentes. L'anglais est aujourd'hui la grande lingua franca internationale ; le swahili l'est en Afrique de l'Est. Tous les pidgins sont des lingua francas, mais l'inverse n'est pas vrai.
@@ -94,6 +97,9 @@ Quasi-universelle dans les pidgins et créoles, souvent héritée des langues su
 Le linguiste **Derek Bickerton** a proposé dans les années 1980 une thèse radicale : les créoles du monde entier partagent des structures grammaticales similaires (marqueurs de temps-aspect, complémentation, mouvements wh-) non pas parce qu'ils ont une même source, mais parce que ces structures correspondent à un **programme bio-linguistique inné** — un câblage grammatical universel qui s'exprime quand les enfants créolophones acquièrent la langue.
 
 Cette hypothèse, séduisante, a été fortement contestée. Les créoles présentent en réalité beaucoup plus de variation qu'elle ne le prédit. La simplification commune s'explique aussi bien par des universaux d'apprentissage des L2 et par des structures partagées des langues substrate.
+
+> [!warning] Piège
+> Le débat bioprogram vs substrate rejoue, sur les créoles, le même clivage inné/acquis que la controverse [[Noam Chomsky|Chomsky]]-Tomasello sur l'acquisition du langage en général (grammaire universelle innée vs construction à partir de l'input). Ce n'est pas une coïncidence : les créoles ont longtemps servi de terrain de preuve privilégié pour trancher ce débat, précisément parce qu'ils "naissent" sous les yeux des linguistes.
 
 ### La thèse du substrate (Mervyn Alleyne, Michel DeGraff)
 

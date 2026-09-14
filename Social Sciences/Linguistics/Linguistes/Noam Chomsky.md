@@ -141,6 +141,9 @@ Linguiste, philosophe et intellectuel américain. Révolutionne la linguistique 
 - Grammaire mentale
 - Idéalisée, parfaite
 
+> [!warning] Piège
+> Ne pas confondre la distinction compétence/performance de Chomsky avec celle, plus ancienne, de langue/parole chez Saussure — elles se recoupent mais ne sont pas identiques : Saussure pensait la langue comme un fait social partagé par une communauté, Chomsky pense la compétence comme un état mental individuel, biologiquement ancré. Deux façons différentes de sortir la linguistique du simple recueil de données observables.
+
 **Performance:**
 - Usage réel
 - Erreurs, hésitations, limitations (mémoire, fatigue)
@@ -159,6 +162,9 @@ Linguiste, philosophe et intellectuel américain. Révolutionne la linguistique 
 
 **Critique:**
 - Sous-estime richesse input? (usage-based theories)
+
+> [!important] Idée clé
+> La pauvreté du stimulus est l'argument charnière de tout l'édifice chomskyen : si elle tient, l'innéisme s'impose presque logiquement ; si l'input est en réalité plus riche et plus structuré qu'estimé (comme le soutiennent les approches usage-based, cf. [[Psycholinguistique]]), toute la nécessité d'une Grammaire Universelle s'effondre avec elle. Comprendre ce débat, c'est comprendre pourquoi un seul argument empirique fait basculer 60 ans de théorie linguistique.
 
 ### Récursivité
 
