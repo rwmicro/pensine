@@ -42,6 +42,9 @@ Quand les deux rois ont roqué du même côté, l'attaque directe est risquée �
 
 **Exemple classique** : aile dame dans la Sicilienne — Blancs attaquent en g/h, Noirs en c/d.
 
+> [!warning] Piège
+> L'attaque de minorité vise des cases, pas des pions. Le but n'est pas de gagner du matériel mais de forcer une faiblesse structurelle permanente (pion isolé ou arriéré) que l'adversaire devra défendre jusqu'en finale — voir [[Stratégie Positionnelle#Structure de Pions|structure de pions]]. Avancer les pions sans ce plan clair ne fait qu'affaiblir sa propre position.
+
 ### Rois Roqués de Côtés Opposés
 
 C'est la situation la plus explosive : chaque camp attaque avec ses pions sans exposer son propre roi.
@@ -81,6 +84,9 @@ La case f7 (noirs) ou f2 (blancs) est la plus vulnérable de la partie — défe
 - **Fourchette du cavalier en f7** : Cf7 gagne Tour + Cavalier contre Roi (fourchette royale)
 - **Attaque Fried Liver** : Ouverture italienne, Cf7 Rxf7 Dd5+ sacrifice pièce pour initiative
 - **Fried Liver** : 1.e4 e5 2.Cf3 Cc6 3.Fc4 Cf6 4.Cg5 d5 5.exd5 Cxd5?! 6.Cxf7!
+
+> [!important] Idée clé
+> Un sacrifice sur f7 n'est objectivement bon que s'il génère assez d'initiative pour compenser la pièce donnée — beaucoup de sacrifices "classiques" appris par cœur sont en réalité réfutés par une défense précise. Le calculer plutôt que le jouer par réflexe évite de perdre une pièce pour rien contre un adversaire qui connaît la parade.
 
 ### Signaux d'Alarme Défensifs
 

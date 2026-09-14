@@ -18,6 +18,9 @@ date: "2026-02-22"
 5. **Ne pas bouger la même pièce deux fois** (sauf nécessité)
 6. **Connecter les Tours**
 
+> [!important] Idée clé
+> Ces six principes sont des heuristiques nées de positions ouvertes classiques — pas des lois. Les ouvertures hypermodernes (Réti, Alekhine) violent délibérément "contrôler le centre avec des pions" pour le contrôler à distance depuis les fianchettos. Un débutant doit les suivre à la lettre ; un joueur confirmé sait pourquoi elles existent, ce qui lui permet de les enfreindre à bon escient.
+
 ### Ouvertures Blancs
 
 **Ouvertures e4 (Ouvertes)**
@@ -69,4 +72,7 @@ date: "2026-02-22"
 - Bases de données : ChessBase, Lichess Opening Explorer
 - Livres : *My System* (Nimzowitsch), séries "Starting Out", "Dangerous Weapons"
 - Vidéos : ChessNetwork, GothamChess, Daniel Naroditsky
+
+> [!tip] Méthode
+> Mémoriser des coups sans comprendre le plan derrière s'effondre dès que l'adversaire sort de la théorie — ce qui arrive vite en dessous de 2000 Elo. Mieux vaut connaître à fond les 8-10 premiers coups d'un répertoire étroit et savoir *pourquoi* chaque coup est joué, que réciter 20 coups de 5 ouvertures différentes sans idée derrière.
 

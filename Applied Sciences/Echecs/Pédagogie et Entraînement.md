@@ -23,6 +23,9 @@ date: "2026-02-22"
 - Plans milieu de partie
 - Finales courantes (Tour+Pion, Roi+Pion)
 
+> [!warning] Piège
+> Le piège classique de ce niveau est d'investir tout son temps dans les ouvertures (satisfaisant, mesurable) et de négliger les finales (ingrat, abstrait) — alors que la majorité des parties entre joueurs de ce niveau se décident sur des erreurs de finale élémentaire, pas sur un désavantage d'ouverture.
+
 **Avancé (1800-2200)**
 - Théorie ouvertures approfondie
 - Calcul complexe, combinaisons
@@ -49,6 +52,9 @@ date: "2026-02-22"
 - Sans moteur d'abord (trouver erreurs soi-même)
 - Puis vérifier avec moteur
 - Noter patterns erreurs récurrents
+
+> [!important] Idée clé
+> Ouvrir le moteur en premier court-circuite l'apprentissage : il donne la meilleure ligne sans jamais forcer à comprendre *pourquoi* son propre jugement s'est trompé. L'analyse sans moteur développe le jugement positionnel ; le moteur ne sert qu'à vérifier après coup, pas à remplacer la réflexion.
 
 **Travail Ouvertures**
 - Construire répertoire
