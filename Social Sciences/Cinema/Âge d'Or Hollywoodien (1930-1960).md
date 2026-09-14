@@ -27,6 +27,9 @@ date: "2026-02-22"
 - Arrêt Paramount (1948) - Antitrust, démantèlement
 - Télévision (1950s) - Concurrence
 
+> [!important] Idée clé
+> L'arrêt Paramount ne visait pas les studios pour leur taille, mais pour l'intégration verticale elle-même : posséder à la fois la production, la distribution ET les salles créait un conflit d'intérêt structurel (les studios pouvaient imposer leurs propres films aux salles qu'ils possédaient). Sans cette séparation forcée, le modèle économique qui a rendu le star system et la production en chaîne rentables s'effondre — la fin du Studio System n'est pas un déclin culturel mais une conséquence directe de ce démantèlement juridique.
+
 ### Code Hays (1930-1968)
 
 **Censure:**
@@ -34,6 +37,9 @@ date: "2026-02-22"
 - Interdictions: sexualité explicite, violence gratuite, blasphème
 - Crime doit être puni
 - Contournements créatifs
+
+> [!tip] Méthode
+> Le Code Hays illustre un phénomène récurrent en histoire de l'art : la contrainte de censure a poussé les réalisateurs vers la suggestion (dialogues à double sens, ellipses, symboles) plutôt que vers l'absence de contenu. Le film noir naît en partie de cette contrainte — l'ombre et le hors-champ remplacent ce que la censure interdit de montrer frontalement.
 
 ### Genres Classiques
 

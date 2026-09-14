@@ -37,6 +37,9 @@ date: "2026-02-22"
 
 **Autres:** Brian De Palma, Terrence Malick, Robert Altman
 
+> [!warning] Piège
+> Le Nouvel Hollywood est souvent présenté comme un âge d'or artistique détruit par les blockbusters — mais Lucas et Spielberg en faisaient partie intégrante. *Star Wars* et *Les Dents de la mer* ne sont pas venus après le mouvement pour le tuer : ce sont des films du Nouvel Hollywood dont le succès commercial a redéfini les priorités des studios, mettant fin aux conditions (petits budgets, contrôle créatif) qui avaient permis le mouvement lui-même.
+
 ### Blockbusters et Franchises
 
 **Années 1980-2000:**
@@ -74,4 +77,7 @@ date: "2026-02-22"
 **Christopher Nolan (1970-):**
 - *Memento* (2000), *Inception* (2010), *Interstellar* (2014)
 - Structures complexes, grand spectacle
+
+> [!tip] Méthode
+> Ces réalisateurs sont des "auteurs" au sens de la [[Mouvements/Cinéma d'Auteur International|politique des auteurs]] (vision personnelle reconnaissable) tout en travaillant parfois avec des budgets de blockbuster (Nolan) — la distinction auteur/studio n'est pas une opposition de budget mais de contrôle créatif final.
 

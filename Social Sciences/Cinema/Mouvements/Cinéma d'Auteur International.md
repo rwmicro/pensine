@@ -27,6 +27,9 @@ date: "2026-02-22"
 - Noir et blanc (souvent)
 - Introspection, symbolisme
 
+> [!warning] Piège
+> L'"existentialisme" de Bergman est souvent cité de façon vague — au sens strict de [[Existentialisme|Sartre]] (l'existence précède l'essence, liberté radicale), ses films portent moins sur ce point que sur le silence de Dieu et l'angoisse de la mort, des thèmes plus proches de Kierkegaard (voir [[Existentialisme]]) que de l'existentialisme athée sartrien.
+
 ### Federico Fellini (1920-1993) - Italie
 
 **Univers onirique:**
@@ -68,6 +71,9 @@ date: "2026-02-22"
 **Influence:**
 - Western (Ford admire), George Lucas (*Star Wars*)
 
+> [!example] Exemple
+> Boucle d'influence rarement soulignée : Kurosawa admirait le western de Ford et l'a fusionné avec les codes du théâtre japonais pour créer le film de samouraïs ; ce cinéma a ensuite influencé le Nouvel Hollywood (Lucas s'inspire de *La Forteresse cachée* pour *Star Wars*) — le western revient donc à l'écran américain après un détour par le Japon, méconnaissable mais généalogiquement continu.
+
 ### Yasujirō Ozu (1903-1963) - Japon
 
 **Minimalisme:**
@@ -79,4 +85,7 @@ date: "2026-02-22"
 - *Voyage à Tokyo* (1953) - Parents visitent enfants (indifférence)
 - *Printemps tardif* (1949)
 - *Floating Weeds* (1959)
+
+> [!tip] Méthode
+> Les plans fixes et la caméra basse d'Ozu ne sont pas un manque de moyens ou de dynamisme : c'est un refus délibéré de la grammaire hollywoodienne (mouvements de caméra, champ-contrechamp classique). Lire ce minimalisme comme "ennuyeux" est le contresens le plus fréquent — il s'agit d'une syntaxe visuelle alternative cohérente, pas d'une absence de style.
 

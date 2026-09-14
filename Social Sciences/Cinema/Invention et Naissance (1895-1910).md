@@ -26,6 +26,9 @@ date: "2026-02-22"
 - Plans fixes, courtes durées
 - "Le cinéma est une invention sans avenir" (Louis Lumière, apocryphe)
 
+> [!warning] Piège
+> Cette citation est presque certainement apocryphe (aucune source primaire ne l'atteste) mais elle circule comme un fait historique dans de nombreux ouvrages — un bon rappel que les citations mémorables et les faits historiques ne sont pas la même chose. Même chose pour la panique du public à *L'Arrivée d'un train* : l'anecdote est plausible mais largement mythologisée a posteriori.
+
 ### Georges Méliès (1861-1938)
 
 **Magie et fiction:**
@@ -46,6 +49,9 @@ date: "2026-02-22"
 - Première Guerre mondiale, concurrence
 - Ruine, oubli
 - Redécouverte tardive
+
+> [!important] Idée clé
+> Lumière et Méliès posent, dès 1895-1902, les deux pôles fondateurs du cinéma qui structurent encore la discipline aujourd'hui : capter le réel (documentaire) vs construire une fiction par trucage (narration). Ce n'est pas une simple différence de sujet — ce sont deux réponses opposées à la question "à quoi sert cette machine ?", et le cinéma n'a jamais vraiment tranché entre les deux.
 
 ### Cinéma Primitif
 
