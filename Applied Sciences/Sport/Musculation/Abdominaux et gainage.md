@@ -39,6 +39,9 @@ flowchart TB
 
 **Principe clé** : un bon core travaille en **anti-mouvement** (résister à la rotation, à la flexion, à l'extension du tronc) plus qu'en *production* de mouvement. C'est pourquoi le gainage statique est aussi efficace que le crunch dynamique.
 
+> [!important] Idée clé
+> Cette logique d'anti-mouvement explique pourquoi le core est sollicité dans quasi tous les mouvements de musculation (squat, soulevé de terre, développé) sans exercice dédié : à chaque fois qu'une charge cherche à faire fléchir, tourner ou basculer le tronc, c'est le core qui résiste pour transmettre la force entre le haut et le bas du corps. Un exercice d'isolation (crunch) muscle le grand droit, mais c'est le travail anti-mouvement qui protège la colonne sous charge.
+
 ## Exercices au poids du corps
 
 ### Gainage frontal (planche)
@@ -123,5 +126,8 @@ flowchart TB
 - **Mal au cou pendant les crunchs ?** → la nuque doit être détendue, on ne tire pas sur la tête avec les mains. Préférer le gainage si la douleur persiste.
 - **Mal au bas du dos ?** → souvent un signe que le grand droit fait le travail à la place du transverse. Revenir aux exercices isométriques (planche, hollow body, bird-dog).
 - **Diastase abdominale** (post-grossesse) : éviter les crunchs et sit-ups classiques, qui peuvent aggraver la séparation des grands droits. Travailler d'abord le transverse en respiration profonde.
+
+> [!warning] Piège
+> La diastase n'est pas propre au post-partum : une pression intra-abdominale mal gérée (apnée, "pousser" le ventre au lieu de le stabiliser) peut créer ou aggraver un écartement des grands droits chez n'importe qui, notamment en musculation lourde. Le réflexe de "gonfler" le ventre en poussant sous charge (au lieu de le rentrer/stabiliser) est une erreur technique fréquente et invisible à l'œil nu.
 - **Pas d'apnée** : la pression abdominale doit être contrôlée par la respiration, pas bloquée — sauf sur des efforts maximaux ponctuels (et là, avec une vraie technique).
 - **Les abdos visibles ne se construisent pas, ils se révèlent** : aucun exercice ne « brûle » la graisse abdominale localement. Visibilité = % de masse grasse + génétique de répartition.

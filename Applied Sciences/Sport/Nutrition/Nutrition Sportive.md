@@ -41,6 +41,9 @@ date: "2026-03-05"
   - Avant coucher : caséine (digestion lente)
 - **Leucine** : acide aminé clé déclencheur synthèse protéique (2-3g par repas)
 
+> [!tip] Méthode
+> La leucine agit comme un seuil (leucine threshold) plutôt que comme une dose proportionnelle : en dessous d'environ 2-3g par prise, la synthèse protéique musculaire n'est pas maximalement déclenchée, quelle que soit la quantité totale de protéines ingérée. C'est pourquoi répartir les protéines en 3-5 prises suffisamment riches en leucine est plus efficace qu'un unique gros repas protéiné en fin de journée.
+
 **Lipides (Fats)**
 - **Fonction** : hormones (testostérone), membrane cellulaire, énergie (efforts prolongés)
 - **Besoins** : 0,8-1,5 g/kg/jour (20-35% apport calorique total)
@@ -95,6 +98,9 @@ date: "2026-03-05"
 - **BCAA** : utile seulement si apport protéique insuffisant
 - **Glutamine** : récupération (bénéfice marginal si alimentation correcte)
 - **HMB** : anti-catabolisme (utile surtout débutants/déficit calorique)
+
+> [!warning] Piège
+> La condition "utile seulement si apport protéique insuffisant" est presque toujours fausse en pratique : n'importe quelle protéine complète (viande, œufs, whey) contient déjà plus de BCAA qu'un shake dédié. Payer pour des BCAA en plus d'un apport protéique déjà suffisant ne fait qu'ajouter une source redondante des mêmes acides aminés.
 
 **Marketing sans Preuve Solide**
 - Boosters testostérone naturels (tribulus, etc.) : inefficaces

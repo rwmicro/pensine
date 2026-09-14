@@ -22,11 +22,17 @@ Le corps suit une loi simple : calories entrantes vs calories sortantes.
 | **Maintien** | Equilibre | 0 |
 | **Sèche** (cut) | Déficit calorique | -300 à -500 kcal/jour en dessous de la maintenance |
 
+> [!tip] Méthode
+> Un surplus calorique reste un surplus calorique quelle que soit la source : manger "propre" (riz, poulet, brocoli) en excès fait grossir la masse grasse tout autant qu'un excès de fast-food à calories égales. La qualité des aliments influence la satiété, la santé et la composition en micronutriments — pas la prise de graisse, qui suit uniquement le bilan calorique total.
+
 Le **métabolisme de base** (calories brûlées au repos) dépend du poids, de la taille, de l'âge et du sexe. Les formules (Harris-Benedict, Mifflin-St Jeor) donnent une estimation. Le **TDEE** (Total Daily Energy Expenditure) ajoute l'activité physique.
 
 ### Balance azotée
 
 La croissance musculaire (hypertrophie) dépend de la **balance azotée** : le corps doit synthétiser plus de protéines musculaires (anabolisme) qu'il n'en dégrade (catabolisme). Une balance azotée positive nécessite un apport protéique suffisant et régulier.
+
+> [!warning] Piège
+> "Plus de protéines" n'est pas linéairement "plus de muscle" : au-delà d'environ 2,2 g/kg/jour, l'organisme oxyde le surplus comme source d'énergie ou le stocke, sans gain supplémentaire de synthèse protéique musculaire. La balance azotée est un plancher à atteindre, pas un levier à maximiser indéfiniment — au-delà, c'est le volume/intensité d'entraînement qui pilote la croissance, plus l'assiette.
 
 ## Macronutriments
 

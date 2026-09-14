@@ -21,6 +21,9 @@ date: "2026-03-05"
 - Fonctionnelle pour le sport
 - Exemple : squat profondeur complète contrôlé
 
+> [!important] Idée clé
+> La mobilité inclut la flexibilité mais ne s'y réduit pas : on peut être très flexible passivement (un kiné qui pousse la jambe très haut) sans pouvoir contrôler activement cette amplitude soi-même. C'est cet écart entre amplitude passive et amplitude active contrôlée qui cause la majorité des blessures — le corps atteint une position qu'il ne sait pas stabiliser.
+
 ### Types d'Étirements
 
 **Statiques**
@@ -28,6 +31,9 @@ date: "2026-03-05"
 - **Quand** : après entraînement, séances dédiées
 - **Éviter** avant effort intense (↓force et puissance temporairement)
 - Amélioration flexibilité long terme
+
+> [!warning] Piège
+> L'habitude de "s'échauffer" avec des étirements statiques longs avant un effort explosif ou lourd est contre-productive : l'étirement statique maintenu réduit temporairement la capacité du muscle à générer de la force (effet mesuré jusqu'à 30-60 minutes après). Réserver le statique à la fin de séance ou à des créneaux dédiés, et utiliser le dynamique en échauffement.
 
 **Dynamiques**
 - Mouvements contrôlés dans amplitude croissante

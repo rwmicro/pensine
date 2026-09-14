@@ -85,6 +85,9 @@ L'exercice intense génère des radicaux libres (stress oxydatif). Une réponse 
 
 **Recommandation** : couvrir les besoins via l'alimentation (fruits, légumes colorés) plutôt que par la supplémentation massive en vitamines C et E.
 
+> [!warning] Piège
+> Prendre des antioxydants en supplément (vitamine C/E à haute dose) immédiatement après l'entraînement peut atténuer les adaptations recherchées — le stress oxydatif généré par l'exercice n'est pas qu'un dommage à neutraliser, c'est en partie le signal qui déclenche la biogenèse mitochondriale et les autres adaptations à l'entraînement. Supprimer ce signal revient à s'entraîner sans laisser le corps enregistrer l'effort.
+
 ### Évaluation et Déficiences Courantes
 
 **Analyses à demander (bilan sportif)** :

@@ -60,6 +60,9 @@ date: "2026-03-05"
 - Volume très élevé par séance, fréquence faible (1×/semaine)
 - Moins optimal que fréquence plus élevée
 
+> [!warning] Piège
+> Le bro split reste le plus populaire culturellement (historiquement associé aux bodybuilders professionnels) alors que la recherche montre qu'à volume hebdomadaire égal, une fréquence de 2×/semaine minimum par groupe musculaire produit une hypertrophie au moins équivalente, souvent supérieure. Le vrai levier n'est pas "quel split" mais "quelle fréquence par muscle" — un Full Body ou un Upper/Lower bien construit rattrape ou dépasse un Bro Split pour la plupart des pratiquants naturels.
+
 **Programmes Spécifiques**
 - **Starting Strength** (Mark Rippetoe) : débutants, focus force
 - **StrongLifts 5×5** : simple, progression linéaire
@@ -73,6 +76,9 @@ date: "2026-03-05"
 - **Reps** : 1-5
 - **Repos** : 3-5 minutes
 - **Adaptations** : neuronales (coordination, recrutement) > hypertrophie
+
+> [!important] Idée clé
+> À très faible répétition, le gain de force dépasse largement le gain de taille musculaire parce que l'adaptation est majoritairement neuronale : meilleure coordination intermusculaire, recrutement d'un plus grand nombre d'unités motrices, meilleure synchronisation. C'est pourquoi deux personnes avec la même masse musculaire peuvent soulever des charges très différentes — la force n'est pas seulement une fonction de la taille du muscle, mais de la capacité du système nerveux à le mobiliser pleinement.
 
 **Lifts de Force (Powerlifting)**
 - **Squat** (Back Squat) : barre sur trapèzes
