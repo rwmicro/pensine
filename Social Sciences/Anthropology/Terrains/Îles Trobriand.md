@@ -193,6 +193,9 @@ Le **Kula** est un vaste réseau d'**échange cérémoniel** reliant les îles T
 - Motivation : honneur, renommée, relations sociales
 - Économie **encastrée** dans le social (Polanyi)
 
+> [!important] Idée clé
+> Le Kula est le cas fondateur de l'anthropologie économique : il démontre par l'exemple que l'*homo economicus* (l'individu qui maximise rationnellement son profit) n'est pas une donnée universelle de la nature humaine, mais le produit d'une économie de marché historiquement située. Chez les Trobriandais, l'économie est « encastrée » dans les rapports sociaux — c'est l'inverse dans les sociétés de marché, où le social tend à s'organiser autour de l'économie.
+
 ### Kula Contemporain
 
 **Persistance** :
@@ -223,6 +226,9 @@ Le **Kula** est un vaste réseau d'**échange cérémoniel** reliant les îles T
 - Possiblement **affirmation sociale** : filiation = culture, pas biologie
 - Cohérent avec matrilinéarité
 
+> [!warning] Piège
+> La lecture « ils ignorent la biologie de la reproduction » (celle de Malinowski) est aujourd'hui jugée trop littérale et légèrement coloniale. La lecture dominante actuelle : les Trobriandais savent très bien ce qu'il en est physiologiquement, mais affirment délibérément que seule la filiation matrilinéaire compte socialement — une façon de dire que l'appartenance au clan n'est pas une question de sang.
+
 ### Complexe Nucléaire (vs Œdipien)
 
 **Critique de Freud** :
@@ -234,6 +240,9 @@ Le **Kula** est un vaste réseau d'**échange cérémoniel** reliant les îles T
 - Sœur du père = objet de tabou (inceste)
 - Configuration familiale différente → psychologie différente
 - Freud = ethnocentrique (famille nucléaire patriarcale européenne)
+
+> [!example] Exemple
+> C'est l'un des cas d'école les plus cités où une donnée ethnographique unique met en échec une théorie psychologique prétendument universelle. Malinowski ne dit pas que Freud a tort sur tout — il montre que le complexe qu'il décrit dépend d'une configuration familiale précise (autorité + affection réunies dans la même personne, le père), absente à Trobriand où elles sont réparties entre deux figures distinctes (oncle/père).
 
 ### Sexualité
 

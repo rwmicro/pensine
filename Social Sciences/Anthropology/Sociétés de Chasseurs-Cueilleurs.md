@@ -79,6 +79,9 @@ Données issues des études sur les Hadza et les San :
 
 Cette perspective remet en question le récit du "progrès" comme amélioration linéaire du bien-être. Mais elle a ses limites : les populations étudiées par Sahlins vivaient dans des environnements relativement favorables, et la violence interpersonnelle est statistiquement élevée dans certains groupes.
 
+> [!important] Idée clé
+> Sahlins n'a pas seulement fait un constat empirique : son article de 1966 est aussi une intervention politique, publié en pleine guerre froide, qui retourne l'accusation de « primitivité » contre le capitalisme lui-même — si l'abondance se mesure au désir satisfait plutôt qu'à la production, ce sont les sociétés de marché qui produisent la rareté en multipliant les désirs. Un angle à ne pas lire comme une simple donnée neutre.
+
 ## Croyances et rapport au monde
 
 Les sociétés de chasseurs-cueilleurs pratiquent généralement des formes d'**animisme** : le monde est peuplé d'esprits, d'entités, de forces auxquels on s'adresse par le rituel. Il n'existe pas de frontière nette entre le monde humain et le monde animal ou végétal.
@@ -102,6 +105,9 @@ La question de la violence est politiquement chargée. Deux thèses s'affrontent
 | **Rousseau** | Le "bon sauvage" vit en harmonie, la violence est un produit de la civilisation et de la propriété |
 
 Les données archéologiques et ethnographiques suggèrent une **réalité intermédiaire**. Les taux de mortalité violente, estimés à partir des traces osseuses, sont souvent plus élevés en proportion que dans les Etats modernes — mais avec une énorme variabilité selon les régions et les périodes. Certains groupes sont très peu violents, d'autres très guerriers.
+
+> [!warning] Piège
+> « Réalité intermédiaire » ne veut pas dire « Hobbes et Rousseau avaient à moitié raison chacun ». L'énorme variabilité entre groupes suggère plutôt que la question elle-même est mal posée : chercher UN état de nature universel de l'humain suppose qu'il existe une nature humaine fixe indépendante de l'écologie et de la démographie locales, ce que les données contredisent directement.
 
 La transition vers l'agriculture n'a pas fait disparaitre la violence — elle l'a organisée différemment, à plus grande échelle.
 

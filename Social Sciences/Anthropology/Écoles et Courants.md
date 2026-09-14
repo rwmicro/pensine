@@ -26,6 +26,9 @@ date: "2026-02-22"
 - Conservateur (tout a fonction = légitime status quo)
 - Sous-estime conflits, changements
 
+> [!warning] Piège
+> Malinowski et Radcliffe-Brown sont tous deux étiquetés « fonctionnalistes », mais ils répondent à des questions différentes. Malinowski explique une pratique par les besoins qu'elle satisfait *pour l'individu* (fonctionnalisme biopsychologique). Radcliffe-Brown l'explique par ce qu'elle maintient *dans la structure sociale* (fonctionnalisme structurel) — l'individu n'y est presque jamais l'unité d'analyse. Les confondre, c'est manquer pourquoi Radcliffe-Brown a davantage influencé la sociologie que la psychologie.
+
 ### Structuralisme
 
 **Lévi-Strauss:**
@@ -36,6 +39,9 @@ date: "2026-02-22"
 - Anhistorique
 - Déterminisme
 - Complexité réduite à oppositions binaires
+
+> [!important] Idée clé
+> La méthode des oppositions binaires n'est pas une invention de [[Lévi-Strauss]] pour l'anthropologie — c'est un import direct de la linguistique structurale de Saussure et Jakobson (cf. [[Histoire de la Discipline]]). Le structuralisme anthropologique traite les mythes et les systèmes de parenté comme des langues : ce qui compte n'est jamais un élément isolé, mais sa position dans un système d'oppositions (cru/cuit, nature/culture).
 
 ### Culture et Personnalité
 
@@ -54,6 +60,9 @@ date: "2026-02-22"
 **Critique:**
 - Stéréotypes
 - Mead: Données contestées (Freeman)
+
+> [!example] Exemple
+> La controverse Mead/Freeman n'est pas un simple différend de terrain. Freeman a publié sa réfutation en 1983, cinq ans après la mort de Mead, et le débat a immédiatement été récupéré politiquement : les conservateurs l'ont utilisé pour discréditer l'idée que les comportements sexuels et l'adolescence sont culturellement construits, pas biologiquement fixés. Un cas d'école sur la manière dont une dispute méthodologique peut devenir une arme idéologique.
 
 ### Écologie Culturelle
 

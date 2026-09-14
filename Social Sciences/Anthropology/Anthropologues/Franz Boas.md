@@ -51,6 +51,9 @@ Boas formule le principe fondateur de l'anthropologie moderne : **chaque culture
 
 Cela ne signifie pas que "tout se vaut" (reproche fréquent). Cela signifie que pour comprendre une pratique, il faut d'abord la situer dans le système de significations de la société qui la pratique. Juger avant de comprendre, c'est faire de l'ethnocentrisme, pas de la science.
 
+> [!warning] Piège
+> La confusion persiste bien au-delà de Boas : le relativisme **méthodologique** (une règle de suspension du jugement, valable *pendant l'analyse*, pour comprendre une pratique avant de la juger) est régulièrement confondu avec le relativisme **moral** (aucune pratique ne serait objectivement critiquable). Boas défend le premier, jamais le second — suspendre son jugement pour comprendre n'interdit pas de porter un jugement ensuite, en connaissance de cause.
+
 ### Le particularisme historique
 
 Chaque culture est le produit de son **histoire particulière** — contacts, emprunts, adaptations, innovations locales. Il n'y a pas de loi universelle du développement culturel. Pour Boas, la seule méthode valide est l'étude détaillée de cas particuliers, pas la construction de grands systèmes théoriques.
@@ -81,6 +84,9 @@ Boas structure l'anthropologie américaine en **quatre sous-disciplines** intég
 | **Linguistique** | Langues, leurs structures, leur lien avec la pensée |
 
 L'idée est que l'humain est un tout — on ne peut pas séparer sa biologie de sa culture, ni sa culture de sa langue, ni son présent de son passé.
+
+> [!tip] Méthode
+> Ce découpage en quatre champs intégrés est la marque distinctive de l'anthropologie américaine (héritage direct de Boas) — dans la tradition britannique et française, ces champs sont restés des disciplines largement séparées (anthropologie sociale, archéologie, linguistique). Utile pour situer une référence : un texte qui traite biologie et culture comme un même objet d'étude vient presque toujours de cette lignée boasienne.
 
 ## Travail de terrain chez les Kwakiutl
 

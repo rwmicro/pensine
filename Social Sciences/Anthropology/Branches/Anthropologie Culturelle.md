@@ -128,6 +128,9 @@ L'approche **holiste** considère la culture comme un système intégré où cha
 - Catégories analytiques de l'anthropologue
 - Comparaison objective
 
+> [!tip] Méthode
+> Ni l'emic ni l'etic ne sont "la vérité neutre" par défaut : rapporter uniquement les catégories emic (ce que les acteurs disent d'eux-mêmes) risque de naturaliser leur propre idéologie ; imposer uniquement des catégories etic risque d'écraser leur sens local sous une grille occidentale. La bonne pratique ethnographique fait dialoguer les deux — documenter l'emic, puis analyser avec des outils etic explicites, sans jamais confondre l'un pour l'autre.
+
 ## Thématiques Majeures
 
 ### Parenté et Famille
@@ -229,6 +232,9 @@ L'approche **holiste** considère la culture comme un système intégré où cha
 - Infrastructure économique et superstructure idéologique
 - Conflits et contradictions
 - Domination et résistance
+
+> [!important] Idée clé
+> Ces courants ne sont pas des options interchangeables mais une succession de réactions, chacun corrigeant l'angle mort du précédent : le fonctionnalisme explique tout par des besoins présents mais ignore l'histoire et le changement ; le structuralisme cherche des lois universelles mais efface le sujet et l'événement ; le culturalisme et l'anthropologie symbolique réintroduisent le sens vécu et l'interprétation — au prix, chacun, d'un nouveau problème de vérifiabilité (cf. [[Clifford Geertz]]).
 
 ## Anthropologie Contemporaine
 

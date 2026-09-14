@@ -50,6 +50,9 @@ Document central de l'ethnographie. L'anthropologue note quotidiennement :
 
 La distinction entre observation et interprétation est cruciale mais difficile à maintenir. Le journal est un document brut, non publié, mais c'est la matière première de toute monographie.
 
+> [!warning] Piège
+> « Noter ce qu'on a vu » n'est jamais une opération neutre : ce qu'un anthropologue remarque, juge digne d'être noté ou laisse de côté dépend déjà de ses catégories culturelles et théoriques de départ. Il n'existe pas d'observation pure sans interprétation préalable — c'est pourquoi le journal de terrain inclut explicitement les biais et émotions du chercheur plutôt que de prétendre à l'objectivité.
+
 ### Les entretiens
 
 | Type | Principe | Usage |
@@ -84,6 +87,9 @@ Cette distinction (Kenneth Pike, 1954) est fondamentale :
 
 L'anthropologue doit maitriser les deux : comprendre ce que les gens disent qu'ils font (emic) et analyser ce qu'ils font réellement et pourquoi (etic). La tension entre les deux est productive, pas un problème à résoudre.
 
+> [!tip] Méthode
+> Un bon réflexe pour ne pas confondre les deux niveaux : la catégorie emic est ce que dirait un informateur, la catégorie etic est ce que dirait l'anthropologue dans son rapport. Exemple classique du Kula ([[Îles Trobriand]]) : « on échange par tradition et par respect des partenaires » (emic) vs « le système crée des alliances inter-insulaires qui limitent la guerre » (etic, analyse de Malinowski).
+
 ## La réflexivité
 
 Depuis les années 1980 (tournant postmoderne, *Writing Culture* de James Clifford et George Marcus, 1986), l'anthropologie insiste sur la **réflexivité** : l'anthropologue doit interroger sa propre position.
@@ -95,6 +101,9 @@ Questions réflexives :
 - Qui parle dans ma monographie — moi ou les gens que j'étudie ?
 
 La publication posthume du *Journal d'ethnographe* de Malinowski (1967) a été un choc : le fondateur de l'observation participante y exprime frustration, racisme et mépris pour ses informateurs. Le journal a montré que l'objectivité du terrain est un idéal, pas une réalité — et que la reconnaitre est plus honnête que la prétendre.
+
+> [!warning] Piège
+> Ne pas conclure de ce scandale que les travaux de Malinowski sur les [[Îles Trobriand]] seraient donc invalides — le journal révèle ses sentiments privés, pas des erreurs factuelles dans ses monographies publiées. La leçon retenue par la discipline (cf. tournant réflexif dans [[Histoire de la Discipline]]) a été d'exiger plus de transparence méthodologique, pas de rejeter les données.
 
 ## Ethique du terrain
 

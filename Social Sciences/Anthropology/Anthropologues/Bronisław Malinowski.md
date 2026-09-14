@@ -36,6 +36,9 @@ Malinowski transforme radicalement la pratique anthropologique en quittant la "v
 **Citation célèbre** :
 > "L'objectif final est de saisir le point de vue de l'indigène, sa relation à la vie, de réaliser sa vision de son monde."
 
+> [!important] Idée clé
+> La rupture n'est pas seulement méthodologique (aller sur le terrain plutôt qu'interroger des informateurs depuis la véranda), elle est épistémologique : avant Malinowski, l'anthropologue était un théoricien de cabinet qui recevait des données collectées par d'autres (missionnaires, administrateurs coloniaux). L'observation participante fait de la collecte et de l'analyse la même personne — ce qui crée en retour un nouveau problème, jamais résolu depuis : comment être à la fois acteur immergé et observateur neutre ?
+
 ### Le Terrain Trobriandais (1915-1918)
 
 Malinowski passe **près de deux ans cumulés** aux îles Trobriand (Papouasie-Nouvelle-Guinée), établissant un nouveau standard pour le travail de terrain.
@@ -80,6 +83,9 @@ Malinowski développe une théorie **fonctionnaliste** expliquant la culture par
 3. **Besoins intégratifs (symboliques)** :
    - Religion, magie, art, mythologie, rituel
    - Donnent sens et cohérence à l'existence
+
+> [!warning] Piège
+> Le fonctionnalisme malinowskien est difficile à réfuter — et c'est justement ce qu'on lui reproche : si toute institution a forcément une fonction (sinon elle disparaîtrait), l'explication devient circulaire et non falsifiable. Trouver *une* fonction à une pratique ne prouve pas qu'elle en soit la cause ; beaucoup d'institutions persistent par inertie, par contrainte de pouvoir, ou en tant que vestige d'un contexte disparu — pas parce qu'elles répondent encore à un besoin actif.
 
 ### Critique de l'Évolutionnisme
 
@@ -208,6 +214,9 @@ Synthèse théorique du fonctionnalisme malinowskien.
 - Négligence du changement et de l'histoire
 - Négligence des conflits et dysfonctions
 - Perspective consensualiste
+
+> [!tip] Méthode
+> Ce point de bascule (les années 1950-1960) sépare deux grandes familles de l'anthropologie du XXe siècle : le fonctionnalisme de Malinowski explique une pratique par les besoins *présents* qu'elle satisfait (approche synchronique, pragmatique), tandis que le structuralisme de [[Claude Lévi-Strauss]] cherche des structures inconscientes *universelles* indépendantes des besoins locaux. Les deux rejettent l'évolutionnisme, mais pour des raisons opposées — l'un par pragmatisme fonctionnel, l'autre par primat de la structure sur l'histoire.
 
 **Pratiques de terrain** :
 - Journal intime révèle ses préjugés

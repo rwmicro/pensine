@@ -72,6 +72,9 @@ La culture repose sur des **symboles** : signes dont la signification est social
 - Varie entre cultures
 - Ex : couleur du deuil (noir en Occident, blanc en Chine)
 
+> [!tip] Méthode
+> "Arbitraire" ne veut pas dire "au hasard" ou "n'importe quoi" — une fois qu'une convention s'installe dans une communauté linguistique/culturelle, elle devient contraignante pour chaque locuteur individuel (on ne choisit pas de renommer le deuil en blanc du jour au lendemain). L'arbitraire est collectif et historique, pas individuel et libre — c'est ce qui rend un symbole culturel à la fois conventionnel dans son origine et coercitif dans son usage.
+
 ### 4. Intégrée (Systémique)
 
 La culture forme un **système** dont les parties sont interconnectées.
@@ -172,6 +175,9 @@ Aspects **intangibles** : idées, croyances, normes.
 **Débat** :
 - **Universalistes** : accent sur similitudes humaines
 - **Relativistes** : accent sur différences culturelles
+
+> [!warning] Piège
+> La liste de Murdock elle-même a été critiquée comme un point aveugle du relativisme : elle définit les universaux avec des catégories analytiques occidentales ("religion", "famille", "art") qui ne recoupent pas nécessairement les découpages conceptuels des sociétés étudiées. Chercher des universaux avec des catégories non universelles risque de retrouver, comme par magie, ce qu'on a mis dans la grille de lecture au départ — un problème méthodologique distinct du débat universalisme/relativisme lui-même.
 
 ### Variations Culturelles
 
