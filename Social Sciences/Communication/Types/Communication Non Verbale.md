@@ -27,6 +27,9 @@ pie title Impact d'un message (Mehrabian)
 
 **Note** : Cette règle s'applique principalement aux communications émotionnelles
 
+> [!warning] Piège
+> Cette précision est essentielle et souvent oubliée : Mehrabian a mesuré des situations de *désaccord entre le verbal et le non-verbal* sur un ressenti — pas la communication en général. Citer "93% de l'impact est non verbal" pour justifier qu'un contenu technique ou factuel importe peu est une extrapolation que les données ne soutiennent pas.
+
 ### Éléments du non-verbal
 
 **Posture**
@@ -42,6 +45,9 @@ pie title Impact d'un message (Mehrabian)
 **Expression faciale**
 - 6 émotions universelles (Ekman) : Joie, tristesse, colère, peur, dégoût, surprise
 - Micro-expressions (< 0,5 sec)
+
+> [!important] Idée clé
+> L'universalité stricte des 6 émotions d'Ekman est aujourd'hui contestée — des travaux plus récents (notamment ceux de Lisa Feldman Barrett) montrent que le lien entre une configuration faciale précise et une émotion précise varie davantage selon les cultures et les contextes que ne le supposait Ekman dans les années 1960-70. Utile comme repère, pas comme loi universelle.
 
 **Contact visuel**
 - Maintenir le contact : confiance, écoute

@@ -29,6 +29,9 @@ date: "2026-02-22"
 - **Convaincre** → Ethos + Logos (appel à la raison)
 - **Persuader** → Pathos (appel à l'émotion)
 
+> [!warning] Piège
+> Cette dichotomie convaincre/persuader est une simplification pédagogique commode, pas une frontière étanche : dans un vrai discours, ethos/logos/pathos agissent presque toujours ensemble (voir [[Rhétorique et Argumentation]]). Un argument purement logique sans aucun pathos ne persuade souvent personne, même s'il « convainc » sur le papier.
+
 ### Types d'arguments
 
 #### Arguments de cadrage
@@ -57,6 +60,9 @@ Présenter la réalité en insistant sur certains aspects favorables et en minor
 - Référence à des institutions crédibles
 
 **Attention** : L'argument d'autorité peut être un sophisme si mal utilisé
+
+> [!tip] Méthode
+> Un argument d'autorité est valide seulement si l'autorité citée s'exprime *dans son domaine de compétence* et que le consensus des pairs la soutient. Un prix Nobel de physique qui donne son avis sur la nutrition n'a pas plus de poids qu'un inconnu — c'est là que l'argument d'autorité bascule en sophisme (voir [[Sophismes et Manipulation]]).
 
 #### Arguments d'analogie
 

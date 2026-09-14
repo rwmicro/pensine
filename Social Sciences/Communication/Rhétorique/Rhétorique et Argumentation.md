@@ -34,6 +34,9 @@ flowchart TB
 
 Un discours qui n'a que du *logos* (rapport technique) ennuie ; que de l'*ethos* (« moi je sais ») paraît autoritaire ; que du *pathos* (mélodrame) paraît manipulateur. L'équilibre fait l'orateur efficace.
 
+> [!warning] Piège
+> L'ethos ne se décrète pas — il se construit dans le discours (ou se hérite d'une réputation extérieure). Un orateur qui dit « croyez-moi, je suis un expert » sans le démontrer par son raisonnement produit l'effet inverse : un appel à l'ethos explicite sonne comme un aveu de faiblesse du logos.
+
 ### Les cinq canons de la rhétorique
 
 L'ensemble du travail oratoire, du brouillon à la performance :
@@ -62,6 +65,9 @@ D'où la distinction décisive :
 - **Auditoire particulier** : un public concret avec ses présupposés (un jury populaire, un colloque scientifique, un meeting militant)
 
 Le bon argument est *adapté* à son auditoire — ce qui convainc un physicien ne convainc pas un poète.
+
+> [!important] Idée clé
+> L'auditoire universel n'est jamais un public réel qu'on pourrait convoquer — c'est un idéal régulateur, une fiction méthodologique qui sert à juger si un argument dépasse les préjugés d'un public particulier. Même fonction que les idées régulatrices chez [[Kant]] : un horizon qu'on ne peut jamais atteindre, mais qui oriente le jugement.
 
 ### Stephen Toulmin — le modèle argumentatif (1958)
 
@@ -103,6 +109,9 @@ Un sophisme est un argument qui *semble* valide mais qui ne l'est pas. Les recon
 | **Post hoc, ergo propter hoc** | confondre succession et causalité | « J'ai pris ce médicament et je me suis senti mieux — il marche » (peut-être un effet placebo) |
 | **Appel à l'autorité abusif** | citer une autorité hors de son domaine | « Einstein croyait en Dieu, donc Dieu existe » |
 | **Argument circulaire** | la conclusion sert de prémisse | « La Bible est vraie parce qu'elle est la parole de Dieu, et on le sait parce que la Bible le dit » |
+
+> [!tip] Méthode
+> Le sophisme le plus difficile à repérer n'est jamais celui de l'adversaire — c'est le sien propre. La liste ci-dessus sert d'abord de miroir : avant de crier « homme de paille » ou « pente glissante » à un contradicteur, se demander si son propre dernier argument tenait vraiment debout.
 
 ## Pensée critique — la boîte à outils
 
