@@ -24,6 +24,9 @@ Le **droit privé** régit les rapports entre les personnes privées (individus,
 | **Juridiction** | Tribunaux administratifs, Conseil d'Etat | Tribunaux judiciaires, Cour de cassation |
 | **Source principale** | Constitution, lois, règlements, jurisprudence administrative | Code civil, Code de commerce, contrats |
 
+> [!warning] Piège
+> Cette summa divisio est une spécificité des pays de tradition civiliste, pas une loi universelle du droit. Les pays de common law (Royaume-Uni, Etats-Unis) n'ont pas de juridiction administrative séparée : un même juge, avec les mêmes règles de preuve, tranche qu'un litige oppose l'Etat ou deux particuliers. Présenter la dualité public/privé comme "la" structure du droit, c'est prendre le cas français pour la norme.
+
 ## Branches du droit public
 
 | Branche | Objet |
@@ -71,6 +74,9 @@ Certaines matières empruntent aux deux ordres :
 | **Droit de l'environnement** | Réglementation publique (normes d'émission) + responsabilité civile (pollueur-payeur) |
 | **Droit de la santé** | Hôpitaux publics (droit administratif) + médecine libérale (droit privé) |
 
+> [!important] Idée clé
+> Le droit pénal est le meilleur révélateur de ce que "public" et "privé" veulent vraiment dire ici : ce n'est pas une question de qui sont les parties (un vol oppose deux particuliers), mais de qui a le pouvoir de sanctionner et au nom de quoi. Une infraction reste un acte entre personnes privées, mais c'est la société — via le ministère public — qui poursuit, parce que l'ordre public est jugé menacé. La classification suit la logique du pouvoir, pas celle des protagonistes.
+
 ## Dualité juridictionnelle en France
 
 La France a un système juridictionnel dual, directement lié à la distinction public/privé :
@@ -97,3 +103,6 @@ La frontière entre public et privé s'estompe progressivement :
 - **Publicisation du droit privé** : l'Etat intervient de plus en plus dans les rapports privés (droit du travail, droit de la consommation, régulation financière)
 - **Droit de l'Union européenne** : ne respecte pas la distinction et s'impose aux deux ordres
 - **Droits fondamentaux** : la CEDH s'applique aussi aux rapports entre personnes privées (effet horizontal)
+
+> [!tip] Méthode
+> Le droit de l'UE qui "ignore" la distinction n'est pas une anomalie à expliquer — c'est le signe que public/privé n'est pas une catégorie logique nécessaire du droit, mais un outil pédagogique et institutionnel hérité de l'histoire française (justifier l'existence d'un juge administratif séparé). Un système juridique cohérent peut parfaitement s'en passer.

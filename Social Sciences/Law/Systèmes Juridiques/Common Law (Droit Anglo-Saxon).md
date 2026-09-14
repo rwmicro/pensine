@@ -29,10 +29,16 @@ Le principe fondamental de la common law : **les décisions des tribunaux supér
 |---|---|
 | **Ratio decidendi** | La raison de la décision — le principe juridique qui fonde le jugement. C'est la partie contraignante du précédent |
 | **Obiter dictum** | Remarque incidente du juge — non contraignante mais souvent persuasive |
+
+> [!warning] Piège
+> Confondre *ratio decidendi* et *obiter dictum* est l'erreur classique en lecture d'arrêt de common law : seule la *ratio* fait précédent contraignant, un *obiter* — même prononcé par une haute juridiction — ne lie personne, aussi convaincant soit-il. Identifier laquelle des deux on lit est la première étape avant de citer un arrêt comme faisant autorité.
 | **Distinguishing** | Technique permettant à un juge d'écarter un précédent en montrant que les faits de son cas sont suffisamment différents |
 | **Overruling** | Renversement d'un précédent par une cour supérieure (ou parfois par la même cour). Rare et solennel |
 
 La Cour suprême des Etats-Unis peut renverser ses propres précédents — ce qu'elle a fait par exemple dans *Brown v. Board of Education* (1954, fin de la ségrégation scolaire, renversant *Plessy v. Ferguson* de 1896) ou dans *Dobbs v. Jackson* (2022, renversant *Roe v. Wade* de 1973 sur l'avortement).
+
+> [!example] Exemple
+> *Dobbs* est un bon exemple pour désamorcer une image trop mécanique de la common law : le système n'est pas un empilement figé de précédents qu'on applique automatiquement, c'est une pratique de prudence — *stare decisis* — que la cour suprême peut lever quand elle juge le précédent erroné dès l'origine. Le précédent engage, il n'enchaîne pas définitivement.
 
 ## Le système accusatoire (*adversarial system*)
 
@@ -54,6 +60,9 @@ L'Equity est un corps de règles parallèle, né de l'insuffisance de la common 
 | Droit de propriété (*legal title*) | Trust : séparation entre propriété juridique et propriété bénéficiaire |
 
 Le **trust** est l'invention la plus originale de l'Equity : une personne (le *trustee*) détient un bien au nom d'une autre (le *beneficiary*). Le concept n'existe pas en droit romano-germanique et reste difficile à traduire.
+
+> [!important] Idée clé
+> Le trust révèle une différence structurelle profonde entre les deux traditions : la common law admet une propriété "dédoublée" (titre légal chez le *trustee*, bénéfice économique chez le *beneficiary*), alors que le droit romano-germanique conçoit la propriété comme un bloc unique et indivisible (article 544 du Code civil français). C'est pour ça que le trust reste difficile à transposer — pas un problème de traduction, un problème de structure conceptuelle.
 
 ## Diffusion géographique
 

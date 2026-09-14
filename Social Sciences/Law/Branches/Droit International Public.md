@@ -10,6 +10,9 @@ date: "2026-04-18"
 
 Le droit international public (DIP) est l'ensemble des règles juridiques qui régissent les relations entre les **sujets de droit international** — principalement les Etats et les organisations internationales. C'est un droit sans législateur central, sans police mondiale, sans tribunal obligatoire : il repose sur le **consentement des Etats**, ce qui fait à la fois sa force (les Etats s'engagent librement) et sa faiblesse (ils peuvent ignorer leurs engagements).
 
+> [!important] Idée clé
+> Cette absence de contrainte centrale distingue structurellement le DIP du [[Droit International Privé|droit international privé]] : le DIP privé organise les rapports *entre particuliers* à l'intérieur d'ordres juridiques nationaux qui, eux, disposent bien d'un appareil de sanction. Le droit international public, lui, régit des sujets (les Etats) qui n'ont par définition aucune autorité supérieure à eux — d'où sa dépendance structurelle au consentement plutôt qu'à la contrainte.
+
 ## Les sources du droit international
 
 L'article 38 du Statut de la Cour internationale de Justice (CIJ) énumère les sources :
@@ -83,6 +86,9 @@ La **Cour pénale internationale** (CPI, La Haye, 2002) juge les individus (pas 
 - **Crime d'agression** : recours illicite à la force armée par un Etat
 
 Limite : les grandes puissances (Etats-Unis, Russie, Chine) ne reconnaissent pas la CPI.
+
+> [!warning] Piège
+> Ne pas confondre CPI et CIJ : la Cour pénale internationale juge des *individus* pour des crimes (génocide, crimes de guerre...), tandis que la Cour internationale de justice (mentionnée plus haut) tranche des différends entre *Etats* et ne prononce aucune sanction pénale. Ce sont deux institutions distinctes, toutes deux siégeant à La Haye, ce qui alimente la confusion.
 
 ## Les organisations internationales
 

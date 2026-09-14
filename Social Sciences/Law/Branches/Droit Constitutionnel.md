@@ -36,6 +36,9 @@ Une Constitution est l'ensemble des règles qui définissent :
 
 Certaines constitutions contiennent des clauses d'éternité : des dispositions qui ne peuvent pas être révisées. La Loi fondamentale allemande (art. 79-3) interdit de réviser la dignité humaine, la démocratie et le fédéralisme.
 
+> [!important] Idée clé
+> Une clause d'éternité est un paradoxe assumé : le pouvoir constituant dérivé (qui tire toute sa légitimité de la Constitution) se voit interdire de toucher à certains articles de cette même Constitution — il est plus limité que le texte qui le crée. C'est une réponse directe à un traumatisme historique précis (l'Allemagne après 1933 : Hitler est arrivé légalement au pouvoir en révisant les équilibres institutionnels de Weimar).
+
 ## La séparation des pouvoirs
 
 Théorisée par **Montesquieu** (*De l'esprit des lois*, 1748) : pour éviter la tyrannie, le pouvoir doit arrêter le pouvoir. Trois fonctions doivent être séparées :
@@ -67,6 +70,9 @@ Constitution rédigée sous l'impulsion du général de Gaulle. Originalité : u
 
 Le risque de la **cohabitation** : quand le Président et la majorité parlementaire sont de bords opposés (1986-1988, 1993-1995, 1997-2002). Le pouvoir réel bascule alors vers le Premier ministre.
 
+> [!warning] Piège
+> Le régime semi-présidentiel français n'est ni un régime présidentiel « affaibli » ni un régime parlementaire « avec un Président en plus » — c'est un régime à géométrie variable dont le centre de gravité du pouvoir se déplace selon la configuration électorale. En cohabitation, la France fonctionne presque comme un régime parlementaire classique ; hors cohabitation, le Président concentre des pouvoirs qu'aucun régime présidentiel pur (voir le tableau ci-dessus) ne lui accorderait, faute de dissolution/motion de censure chez ce dernier.
+
 ## Le contrôle de constitutionnalité
 
 Qui vérifie que les lois respectent la Constitution ?
@@ -77,6 +83,9 @@ Qui vérifie que les lois respectent la Constitution ?
 | **Européen** (concentré) | Cour constitutionnelle spécialisée | Seule cette cour peut déclarer une loi inconstitutionnelle | France (Conseil constitutionnel), Allemagne (Bundesverfassungsgericht), Italie |
 
 En France, la **QPC** (Question Prioritaire de Constitutionnalité, 2010) permet à tout justiciable de contester la constitutionnalité d'une loi à l'occasion d'un procès — un progrès majeur pour les droits fondamentaux.
+
+> [!tip] Méthode
+> Avant 2010, le Conseil constitutionnel français ne contrôlait les lois qu'*a priori* (avant promulgation, sur saisine politique) — une loi déjà en vigueur depuis des décennies restait hors de portée même si elle violait la Constitution. La QPC ajoute un contrôle *a posteriori*, ouvert au citoyen : retenir ce couple a priori/a posteriori est la clé pour comparer les systèmes de contrôle de constitutionnalité entre pays.
 
 ## Droits fondamentaux
 

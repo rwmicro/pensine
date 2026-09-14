@@ -20,6 +20,9 @@ Toute situation internationale privée pose trois questions dans cet ordre :
 | **2. Loi applicable** | Quelle loi nationale s'applique au fond ? | Succession d'un Français décédé au Brésil : loi française ou brésilienne ? |
 | **3. Reconnaissance des jugements** | Un jugement étranger peut-il être exécuté ici ? | Jugement de divorce prononcé au Maroc : reconnu en France ? |
 
+> [!tip] Méthode
+> L'ordre de ces trois questions n'est pas arbitraire : il suit la chronologie réelle d'un litige. On détermine d'abord *qui* juge (compétence), puis *avec quelle loi* ce tribunal tranche (loi applicable) — et ce n'est que dans un second pays, plus tard, que se pose la question de faire reconnaître ce jugement ailleurs. Confondre l'ordre revient à répondre à une question avant qu'elle ne se pose juridiquement.
+
 ## Conflit de lois
 
 ### Méthode des règles de conflit
@@ -40,6 +43,9 @@ Le DIP ne tranche pas directement le litige : il désigne la loi nationale appli
 Problème classique : la règle de conflit française désigne la loi anglaise, mais la règle de conflit anglaise renvoie à la loi française. C'est le **renvoi**.
 
 La France accepte le renvoi au premier degré (si le droit étranger désigne le droit français, on applique le droit français) mais refuse le renvoi au second degré (si le droit étranger désigne un troisième droit, on s'arrête).
+
+> [!warning] Piège
+> Le renvoi n'a de sens que parce que chaque pays a ses propres règles de conflit de lois — un piège classique est d'oublier que la « loi anglaise » désignée par la règle de conflit française inclut, en réalité, les règles de conflit anglaises elles-mêmes (pas seulement le droit interne anglais). C'est cette inclusion qui crée la boucle que le mécanisme du renvoi doit trancher.
 
 ### L'ordre public international
 

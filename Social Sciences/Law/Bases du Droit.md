@@ -33,6 +33,9 @@ flowchart TB
 
 **Mémo** : le droit objectif est le moule ; les droits subjectifs sont les objets qu'on en tire.
 
+> [!important] Idée clé
+> Cette distinction n'est pas un simple classement scolaire : elle explique pourquoi on peut avoir un droit subjectif « sur le papier » sans pouvoir l'exercer. Le droit objectif garantit l'existence de la règle, mais l'effectivité d'un droit subjectif dépend de mécanismes concrets (juge, sanction, moyens). Un droit constitutionnel proclamé (voir [[Droit Constitutionnel]]) peut rester lettre morte s'il n'est adossé à aucun recours.
+
 ## Les trois fonctions du droit
 
 ### 1. Ordonner la société
@@ -82,3 +85,6 @@ Les deux disent ce qu'on « doit » faire, mais ne se confondent pas.
 - *Adultère* : immoral pour beaucoup, n'est plus une infraction en France depuis 1975
 
 **Influences mutuelles** : le droit s'inspire souvent de la morale dominante (interdiction du meurtre), et inversement la loi peut faire évoluer les mœurs (interdiction des châtiments corporels à l'école, mariage pour tous). La frontière est historique, jamais figée.
+
+> [!warning] Piège
+> Confondre légalité et légitimité morale est une erreur de raisonnement classique — dans les deux sens. « C'est légal » ne veut pas dire « c'est juste » (l'esclavage fut légal), et « c'est immoral pour moi » ne fonde pas à lui seul une interdiction (l'adultère). Le droit pénal (voir [[Droit du Travail]] pour un cas où la loi protège justement contre un rapport de force inégal) tranche par la contrainte publique, pas par la conscience individuelle.
