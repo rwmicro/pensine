@@ -33,6 +33,9 @@ L'opposition est le concept le plus important des finales de pions. Deux rois so
 
 **Opposition lointaine** : les rois sont séparés par 3 ou 5 cases sur la même ligne/colonne. Le même principe s'applique : celui qui n'a pas le trait finira par obtenir l'opposition directe si les deux rois avancent l'un vers l'autre.
 
+> [!tip] Méthode
+> Pour savoir vite qui a l'opposition sans compter les cases une à une : si le nombre de cases entre les deux rois est impair, celui qui n'est pas au trait l'a. Astuce de calcul rapide : comptez la parité de la somme des colonnes + rangées des deux rois — si elle est paire, les rois sont en opposition (rectiligne ou diagonale).
+
 ### Le zugzwang
 
 Le **zugzwang** (de l'allemand "contrainte de jouer") est une situation où tout coup légal détériore la position du joueur au trait. Si on pouvait passer son tour, on le ferait — mais les règles l'interdisent.
@@ -105,6 +108,9 @@ Un pion **passé** est un pion qu'aucun pion adverse ne peut bloquer ou capturer
 ### Pion passé protégé
 
 Un pion passé **protégé** est un pion passé défendu par un autre pion. Il est extrêmement fort car il ne nécessite pas la protection du roi — le roi est libre d'aller attaquer les pions adverses sur l'autre aile.
+
+> [!important] Idée clé
+> Le lien avec le zugzwang est direct : un pion passé protégé oblige souvent le roi défenseur à rester statique pour ne pas céder la case d'arrêt, pendant que le roi attaquant seul décide du rythme du jeu ailleurs. C'est la traduction concrète, en finale de pions, de l'avantage d'espace.
 
 ```
   . . . . . . . .

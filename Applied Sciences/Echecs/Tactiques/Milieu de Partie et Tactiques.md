@@ -15,12 +15,18 @@ date: "2026-02-22"
 - Pièce ne peut bouger sans exposer pièce plus valuable derrière
 - Absolu (Roi) vs relatif (Dame, Tour)
 
+> [!warning] Piège
+> Un clouage absolu (devant le roi) immobilise réellement la pièce — c'est une règle du jeu. Un clouage relatif (devant une dame ou une tour) n'est qu'une dissuasion : la pièce clouée PEUT légalement bouger, elle risque seulement de perdre la pièce derrière. Traiter les deux de la même façon fait rater des tactiques où la pièce "clouée" bouge quand même parce que le gain compense la perte.
+
 **Enfilade (Skewer)**
 - Inverse du clouage : pièce valuable forcée bouger, exposant pièce derrière
 
 **Fourchette (Fork)**
 - Pièce attaque 2+ pièces simultanément
 - Cavalier particulièrement efficace (fourchette royale : Roi+Dame)
+
+> [!important] Idée clé
+> Le cavalier excelle en fourchette pour une raison structurelle, pas esthétique : contrairement au fou, à la tour ou à la dame, il attaque des cases sans "passer" par les cases intermédiaires — il peut donc bondir sur une case protégée par une pièce à distance sans jamais entrer dans son champ d'action, et frapper deux cibles qu'aucune autre pièce ne peut viser en même temps depuis cette case.
 
 **Attaque Double**
 - 2 menaces simultanées

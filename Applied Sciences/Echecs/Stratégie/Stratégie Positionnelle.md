@@ -32,6 +32,9 @@ date: "2026-02-22"
 - Pas de pions amis colonnes adjacentes
 - Faiblesse potentielle (cible), mais peut contrôler cases
 
+> [!warning] Piège
+> "Pion isolé = mauvais" est une simplification excessive. Le pion isolé du dame (IQP) offre souvent un espace dynamique et des colonnes ouvertes pour les tours en échange de sa faiblesse statique — il est fort en milieu de partie (activité des pièces) et faible en finale (cible sans soutien). Le juger hors du nombre de pièces restantes est une erreur classique.
+
 **Pions Doublés**
 - 2+ pions même colonne
 - Généralement faiblesse (immobilité)
@@ -65,6 +68,9 @@ date: "2026-02-22"
 **Prophylaxie (Nimzowitsch)**
 - Prévenir plans adverses
 - "Pourquoi ce coup menace-t-il ? Comment l'empêcher ?"
+
+> [!important] Idée clé
+> La prophylaxie est contre-intuitive parce qu'elle consiste à jouer un coup qui ne fait "rien" pour soi-même — pas de menace, pas de développement — dans le seul but de retirer une option à l'adversaire *avant* qu'il ne la joue. Les joueurs faibles ne pensent qu'à leur propre plan ; les joueurs forts alternent systématiquement entre "que puis-je faire" et "que veut faire l'adversaire".
 
 **Zugzwang**
 - Obligation bouger est désavantage

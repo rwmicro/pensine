@@ -31,6 +31,9 @@ date: "2026-02-22"
 - Dame = 9
 - Roi = infini (objectif du jeu)
 
+> [!warning] Piège
+> Ces valeurs sont des repères moyens, pas des constantes physiques. Un fou vaut nettement plus qu'un cavalier en finale ouverte à pions des deux ailes, et l'inverse en position fermée verrouillée. Compter mécaniquement les points sans regarder la structure de pions est l'erreur la plus commune des débutants pour juger un échange.
+
 ### Mouvements des Pièces
 
 **Roi**
@@ -61,6 +64,9 @@ date: "2026-02-22"
 - **Promotion** : atteint 8e rangée → Dame/Tour/Fou/Cavalier
 - **Prise en passant** : capture pion adverse ayant avancé 2 cases
 
+> [!warning] Piège
+> Le droit de prise en passant n'existe qu'au coup immédiatement suivant l'avance de deux cases — un coup plus tard, il est perdu définitivement, même si la position semble identique. Beaucoup de joueurs découvrent cette règle en la ratant, jamais en la sur-utilisant.
+
 ### Objectif et Fin de Partie
 
 **Échec et Mat**
@@ -70,6 +76,9 @@ date: "2026-02-22"
 **Pat**
 - Joueur au trait n'a aucun coup légal mais n'est pas en échec
 - Nulle
+
+> [!important] Idée clé
+> Le pat n'est pas qu'une curiosité de règlement : c'est la ressource de sauvetage principale du camp en infériorité matérielle. Voir [[Finales de Pions#L'exception du pion de tour (pion a ou h)|le pion de tour coincé dans le coin]] — le camp faible cherche activement le pat plutôt que de subir passivement la défaite.
 
 **Autres Nulles**
 - Matériel insuffisant (Roi seul vs Roi seul, etc.)

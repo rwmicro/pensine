@@ -28,6 +28,9 @@ Exemple schématique (Blancs gagnent) :
 
 **Principe clé** : la tour se place sur la 4e rangée (ou 5e) pour écarter le roi ennemi des échecs perpétuels.
 
+> [!important] Idée clé
+> Lucena fonctionne parce que le "pont" transforme un échec latéral (qui empêcherait normalement la promotion) en une interposition : la tour se glisse entre le roi et la ligne d'échec, tout en restant assez loin pour ne pas être capturée au coup suivant. C'est un des rares cas en finale où la tour protège activement le roi au lieu de l'inverse.
+
 ### Position de Philidor (Nulle)
 
 Situation : le camp faible défend avec roi et tour contre roi, tour et pion.
@@ -45,6 +48,9 @@ Exemple :
 
 **À ne pas faire** : placer la tour derrière le pion adverse — le roi ennemi avance alors en bouclier.
 
+> [!warning] Piège
+> L'erreur classique du camp faible est de placer sa tour *devant* le pion adverse (sur son chemin) au lieu de sur la 6e rangée derrière la ligne d'échec. Cela semble bloquer le pion mais l'attaquant chasse la tour avec le pion lui-même, perdant le tempo qui aurait dû servir à donner des échecs.
+
 ### Coupure du Roi
 
 **Coupure verticale** (colonnes) : empêcher le roi adverse de rejoindre le pion
@@ -59,6 +65,9 @@ Exemple :
 |---|---|
 | Tour active | La tour doit contrôler maximum de cases, ne pas être passive |
 | Tour derrière le pion passé | Qu'il soit ami ou ennemi — principe de Nimzowitsch |
+
+> [!tip] Méthode
+> Ce principe surprend car il vaut dans les deux sens : derrière SON pion passé, la tour le pousse en le protégeant tout le long de sa marche ; derrière le pion passé ADVERSE, elle le bloque et gagne en portée à mesure qu'il avance (chaque case gagnée par le pion ouvre plus de colonne à la tour derrière lui).
 | 7e rangée | Tour sur la 7e rangée = très forte (attaque pions non avancés) |
 | Roi actif | En finale de tours, le roi devient une pièce combattante |
 | Deux tours sur 7e | Quasi toujours décisif |

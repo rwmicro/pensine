@@ -25,6 +25,9 @@ Les Blancs commencent toujours la partie et ont donc l'initiative. Les ouverture
    - **Description** : Les Blancs sacrifient un pion pour obtenir un développement rapide et une initiative au centre.
    - 
 
+> [!warning] Piège
+> Le nom "gambit" fait croire à un vrai sacrifice matériel — en pratique le pion c4 est presque toujours regagné quelques coups plus tard (le pion d5 avancé manque de soutien). Le vrai enjeu n'est pas le pion, c'est qui contrôle le centre une fois les pièces développées.
+
 4. **Attaque Anglaise** :
    - **Mouvements** : 1. c4
    - **Description** : Une ouverture flexible qui permet aux Blancs de contrôler le centre et de développer leurs pièces de manière harmonieuse.
@@ -53,3 +56,6 @@ Les Noirs réagissent aux mouvements des Blancs et cherchent à égaliser la pos
    - **Description** : Une ouverture dynamique où les Noirs cherchent à déstabiliser le centre des Blancs avec une poussée de pion en d5.
 
 En résumé, les ouvertures pour les Blancs visent à prendre l'initiative et à contrôler le centre, tandis que les ouvertures pour les Noirs visent à neutraliser l'initiative des Blancs et à préparer une contre-attaque. Le choix de l'ouverture dépend donc de la couleur que vous jouez et de votre style de jeu.
+
+> [!important] Idée clé
+> Le classement par couleur masque le vrai critère de choix : le type de position qui en résulte (ouverte/tactique vs fermée/positionnelle), pas la couleur elle-même. La Sicilienne et la Française sont deux réponses à 1.e4 pour les Noirs mais mènent à des univers stratégiques opposés — le choix dépend du style du joueur, pas de sa couleur.

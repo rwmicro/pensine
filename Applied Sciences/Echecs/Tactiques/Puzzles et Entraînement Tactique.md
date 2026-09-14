@@ -23,6 +23,9 @@ La tactique s'entraîne — comme un muscle. Résoudre des puzzles quotidienneme
 - La reconnaissance de motifs représente ~80% de la force tactique pratique
 - Même les Grands Maîtres font des puzzles quotidiens (Carlsen, Nepo)
 
+> [!warning] Piège
+> Ce chiffre de 80% mesure la reconnaissance en contexte de puzzle isolé (on sait qu'il y a une combinaison à trouver) — en partie réelle, il faut d'abord remarquer que la position *contient* une tactique, sans indice préalable. La force en puzzle ne transfère pas automatiquement en force pratique tant qu'on ne s'entraîne pas aussi sur ses propres parties, où rien ne signale qu'un coup fort existe.
+
 ### Méthode de Résolution
 
 ```mermaid
@@ -104,6 +107,9 @@ Les études sont des compositions artificielles (pas forcément tirées de parti
 - Développe la patience et la précision
 
 **Compositeurs célèbres :** Troïtzky (études de cavaliers), Reti, Grigoriev (finales de pions)
+
+> [!important] Idée clé
+> Les études diffèrent des puzzles tactiques dans leur pédagogie : un puzzle tiré d'une partie récompense la reconnaissance de motif ("j'ai déjà vu ce pattern"), une étude récompense le calcul pur car sa solution est souvent une seule idée jamais rencontrée ailleurs — voir par exemple la [[Finales de Pions#La triangulation|triangulation]], un thème typique d'étude qui ne "ressemble" à rien d'intuitif avant de l'avoir compris.
 
 ### Tracker de Progression
 
