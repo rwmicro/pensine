@@ -26,12 +26,18 @@ date: "2026-02-22"
 - **Corridors écologiques** : connectivité entre aires (déplacements, flux génétiques)
 - **Gestion communautaire** : implication populations locales (savoirs traditionnels, bénéfices partagés)
 
+> [!warning] Piège
+> Le pourcentage de surface protégée (16% terres) ne dit rien de son efficacité réelle : beaucoup d'aires protégées sont des « parcs papier » — délimités légalement mais sans moyens de surveillance ni application (braconnage, exploitation illégale persistants). Comparer les objectifs Aichi entre pays sans vérifier le niveau de protection effective (catégories UICN Ia-VI ci-dessus) surestime systématiquement les progrès de conservation.
+
 **Conservation Ex Situ**
 - **Zoos et aquariums** : conservation espèces menacées
   - Programmes d'élevage (studbooks)
   - Réintroductions : oryx d'Arabie, condor de Californie
 - **Jardins botaniques** : banques de graines (Svalbard Global Seed Vault)
 - **Cryoconservation** : génomes, tissus
+
+> [!important] Idée clé
+> La conservation ex situ n'est presque jamais une solution en soi — un zoo ou une banque de graines ne fait que suspendre l'horloge en attendant qu'un habitat viable existe à nouveau. Un programme d'élevage réussi sans réintroduction possible (habitat détruit, cause d'extinction non traitée) ne fait que retarder l'extinction, pas l'empêcher ; c'est pourquoi la conservation in situ reste la priorité et l'ex situ un filet de sécurité.
 
 **Restauration Écologique**
 - Reconstruction écosystèmes dégradés
@@ -49,6 +55,9 @@ date: "2026-02-22"
 - **Convention Diversité Biologique (CBD, 1992)** : Rio
   - Objectifs Aichi (2020, largement ratés)
   - Protocole Nagoya : accès ressources génétiques
+
+> [!tip] Méthode
+> CITES régule le commerce international d'espèces (un tigre qui traverse une frontière) mais ne protège rien à l'intérieur d'un pays — un État peut légalement autoriser la chasse d'une espèce Annexe I sur son propre territoire tant qu'il n'en exporte pas les produits. Confondre régulation du commerce et protection de l'espèce elle-même est une erreur fréquente en lisant ces conventions.
 - **Convention Ramsar (1971)** : zones humides
 - **CMS** : espèces migratrices
 - **Convention Patrimoine Mondial (UNESCO)** : sites naturels exceptionnels

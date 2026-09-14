@@ -23,6 +23,9 @@ L'impact environnemental du numérique se répartit entre trois postes principau
 
 Le constat essentiel : **la fabrication pèse plus que l'usage**. Un smartphone neuf a déjà généré 80 % de son empreinte carbone totale avant même d'être allumé.
 
+> [!important] Idée clé
+> Ce ratio inverse le réflexe intuitif de sobriété : optimiser sa consommation d'énergie (baisser la luminosité, fermer les onglets) a un effet marginal comparé à simplement garder son appareil plus longtemps. Le levier le plus efficace n'est pas comportemental à l'usage mais dans la durée de vie du matériel — cohérent avec le point "allonger la durée de vie des terminaux" plus bas.
+
 ## Data centers
 
 Les data centers consomment environ **1 à 1,5 % de l'électricité mondiale** (200-250 TWh/an). Leur consommation se décompose en :
@@ -48,6 +51,9 @@ PUE = Énergie totale du data center / Énergie consommée par les serveurs
 | 1,4-1,6 | Moyen (data centers classiques) |
 | 2,0+ | Inefficace (ancien, mal conçu) |
 
+> [!warning] Piège
+> Le PUE mesure un ratio d'efficacité interne (énergie totale / énergie serveurs), pas l'empreinte carbone réelle du data center. Un data center islandais au PUE médiocre mais alimenté 100% géothermie/hydraulique peut avoir une empreinte carbone bien plus faible qu'un hyperscaler au PUE excellent (1,1) mais raccordé à un réseau électrique majoritairement fossile. Le mix énergétique local compte souvent plus que l'efficacité de refroidissement.
+
 ### Solutions de refroidissement
 
 | Technique | Principe | Exemple |
@@ -68,6 +74,9 @@ L'intelligence artificielle a un impact énergétique croissant et préoccupant 
 | **Eau** | L'entraînement de GPT-3 a consommé ~700 000 litres d'eau pour le refroidissement |
 
 La course aux modèles toujours plus grands amplifie cette tendance. Les techniques de compression (quantization, distillation, pruning) permettent de réduire l'empreinte de l'inférence.
+
+> [!tip] Méthode
+> Pour un modèle largement déployé, l'inférence cumulée finit presque toujours par dépasser le coût d'entraînement — un entraînement de 1 300 MWh est ponctuel, mais des millions de requêtes quotidiennes s'accumulent sans limite. D'où l'intérêt disproportionné porté à l'optimisation de l'inférence (quantization) plutôt qu'à celle de l'entraînement dans les benchmarks d'impact environnemental des LLM en production, cf. [[Applied Sciences/Computer Science/Software/Data Science/Machine Learning/LLM/Quantization|Quantization]].
 
 ## Minerais et terres rares
 

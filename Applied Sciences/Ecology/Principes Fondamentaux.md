@@ -25,10 +25,16 @@ date: "2026-02-22"
 - **Niche écologique** : rôle fonctionnel, "profession" (quoi mange, quand, comment)
   - Théorie Gause : deux espèces ne peuvent occuper exactement même niche (exclusion compétitive)
 
+> [!important] Idée clé
+> Habitat répond à "où", niche répond à "comment il vit" — deux espèces peuvent partager exactement le même habitat (une même forêt) sans jamais entrer en compétition directe si leurs niches diffèrent (l'une chasse la nuit, l'autre le jour ; l'une se nourrit au sol, l'autre en canopée). L'exclusion compétitive de Gause ne s'applique qu'à la niche, pas à l'habitat — confondre les deux fait mal interpréter des cas de coexistence apparente.
+
 **Facteurs Limitants**
 - **Loi du minimum (Liebig)** : croissance limitée par ressource la plus rare
 - **Loi de tolérance (Shelford)** : organisme a optimum et limites pour chaque facteur
 - Exemples : phosphore (lacs), eau (déserts), lumière (forêts), température
+
+> [!tip] Méthode
+> Ces deux lois se combinent plutôt qu'elles ne s'opposent : Liebig identifie *quelle* ressource limite la croissance à un instant donné (la plus rare relativement au besoin), Shelford précise que cette même ressource devient limitante aussi bien par excès que par défaut (trop d'eau tue une plante de désert autant qu'un manque). Le facteur limitant n'est donc jamais fixe : il change selon la saison, le lieu, et peut même s'inverser (l'eau, rare en été, devient un excès limitant en cas d'inondation).
 
 ### Interactions Écologiques
 
@@ -94,6 +100,9 @@ date: "2026-02-22"
 - 90% perdue en respiration, chaleur, excrétion
 - Pyramides : nombres, biomasse, énergie
 - Explique pourquoi peu de super-prédateurs
+
+> [!warning] Piège
+> La "règle des 10%" est une moyenne pédagogique, pas une constante physique : le rendement réel varie de 2% à plus de 40% selon les écosystèmes (les milieux aquatiques, où les proies sont presque entièrement digestibles, transfèrent souvent plus d'énergie que les milieux terrestres, où beaucoup de biomasse végétale — bois, cellulose — reste indigeste). C'est cette perte cumulative, quel que soit le taux exact, qui explique structurellement pourquoi les chaînes trophiques dépassent rarement 4-5 niveaux : trop peu d'énergie subsiste au-delà.
 
 **Chaînes et Réseaux Trophiques**
 - **Chaîne alimentaire** : séquence linéaire (herbe → lapin → renard)

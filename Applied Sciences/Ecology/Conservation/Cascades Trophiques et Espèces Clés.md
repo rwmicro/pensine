@@ -38,6 +38,9 @@ graph TD
 
 **La rivière a littéralement changé de cours** — les berges stabilisées par la végétation ont modifié la géomorphologie. Ce phénomène est appelé une **cascade trophique** — les effets descendent et remontent dans le réseau alimentaire.
 
+> [!important] Idée clé
+> Le mécanisme dominant à Yellowstone n'est pas la réduction numérique des cerfs (les loups n'en ont tué qu'une fraction) mais la « landscape of fear » : les cerfs ont changé de comportement, évitant les vallées où ils sont vulnérables, ce qui a laissé la végétation riveraine repousser. Un prédateur clé de voûte agit autant par la peur qu'il inspire que par la prédation directe — un détail qui change radicalement l'estimation de son impact.
+
 ### Qu'est-ce qu'une Espèce Clé de Voûte ?
 
 Concept introduit par Robert Paine (1969) — expérience sur l'étoile de mer *Pisaster* en zone intertidale :
@@ -45,6 +48,9 @@ Concept introduit par Robert Paine (1969) — expérience sur l'étoile de mer *
 - Avec l'étoile → diversité maintenue
 
 **Critère** : coefficient d'impact communautaire élevé (impact / biomasse).
+
+> [!warning] Piège
+> « Espèce clé de voûte » ne veut pas dire « espèce dominante » — c'est même l'inverse : l'étoile de mer *Pisaster* représentait une biomasse minime par rapport aux moules qu'elle régulait. Ne pas confondre avec les « espèces fondatrices » (coraux, kelp) qui structurent l'habitat par leur simple abondance physique — deux mécanismes différents (impact disproportionné vs masse structurante) qui produisent tous deux des effondrements en cascade si l'espèce disparaît.
 
 ### Types d'Espèces Clés
 
@@ -79,6 +85,9 @@ Concept introduit par Robert Paine (1969) — expérience sur l'étoile de mer *
 | **Bottom-up** (ascendante) | Plante → herbivore → prédateur | Variation production primaire | Phytoplancton ↓ → zoo ↓ → poissons ↓ |
 
 **Trophic downgrading** (Terborgh et al.) : la disparition des grands prédateurs — trend mondial — déstabilise les écosystèmes terrestres et marins.
+
+> [!tip] Méthode
+> Pour diagnostiquer si une perturbation observée est top-down ou bottom-up, regarder par où le changement a commencé : une chute de production primaire (sécheresse, réchauffement des eaux) précédant l'effondrement des populations signe du bottom-up ; une disparition de prédateur suivie d'une explosion des herbivores/proies signe du top-down. Les deux peuvent se superposer, ce qui complique l'attribution de cause dans les écosystèmes réels.
 
 ### Exemples Majeurs dans le Monde
 

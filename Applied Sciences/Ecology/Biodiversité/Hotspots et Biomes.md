@@ -49,6 +49,9 @@ Un **hotspot** (Conservation International) doit satisfaire deux critères :
 1. Abriter au moins **1 500 espèces de plantes vasculaires endémiques** (>0,5% total mondial)
 2. Avoir perdu **70%+ de sa végétation originelle**
 
+> [!warning] Piège
+> Un hotspot n'est pas simplement « une zone très riche en espèces » — c'est l'intersection de la richesse endémique **et** de la menace. L'Amazonie, pourtant la forêt la plus biodiverse au monde, n'est un hotspot que sur ses marges (elle n'a pas encore perdu 70% de son couvert) ; le bassin méditerranéen, moins riche en absolu, en est un précisément parce qu'il a déjà perdu l'essentiel de sa végétation d'origine. Le critère sert à prioriser l'urgence de conservation, pas à mesurer la biodiversité brute.
+
 **Hotspots majeurs** :
 
 | Région | Pays principaux | Endémisme | Pression |
@@ -72,6 +75,9 @@ Alfred Russel Wallace (1858) observe une **discontinuité faunique** abrupte ent
 
 Cause : pendant les glaciations, Bornéo était rattaché à l'Asie (Sundaland) mais Célèbes ne l'a jamais été. La ligne de Wallace marque cette frontière paléogéographique, toujours visible dans la faune actuelle.
 
+> [!important] Idée clé
+> La ligne de Wallace montre que la répartition de la biodiversité n'est pas dictée que par le climat (contrairement à la logique des biomes ci-dessus) : deux zones à quelques centaines de kilomètres, sous le même climat équatorial, hébergent des faunes radicalement différentes parce qu'elles n'ont jamais été connectées par voie terrestre. L'histoire géologique pèse autant que les conditions actuelles.
+
 ### Gradient de Biodiversité Latitudinal
 
 La diversité des espèces est maximale aux tropiques et diminue vers les pôles.
@@ -93,6 +99,9 @@ Les îles hébergent une proportion disproportionnée d'espèces endémiques, ma
 - Petite île + loin = moins d'espèces
 
 **Applications** : conception des réserves naturelles (taille, forme, corridors).
+
+> [!tip] Méthode
+> La théorie de MacArthur & Wilson justifie une règle de conception contre-intuitive : à surface protégée égale, une seule grande réserve retient généralement plus d'espèces que plusieurs petites réserves dispersées (débat « SLOSS » — Single Large Or Several Small), parce que l'extinction locale grimpe vite sous un seuil de superficie. D'où l'importance des corridors écologiques, qui reconnectent artificiellement des fragments trop petits en un ensemble fonctionnellement plus grand.
 
 **Extinctions insulaires historiques** :
 - Dodo (Maurice, XVIIe) — rats + chasse

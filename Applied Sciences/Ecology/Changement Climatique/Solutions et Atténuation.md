@@ -18,6 +18,9 @@ Face au changement climatique, deux stratégies complémentaires s'imposent : **
 - NDC (Nationally Determined Contributions) : engagements nationaux révisés tous les 5 ans
 - Financement : 100 milliards $/an des pays riches vers pays en développement (objectif non atteint en 2020)
 
+> [!warning] Piège
+> Contrairement à Kyoto (1997), l'Accord de Paris n'impose aucune obligation contraignante de résultat : les NDC sont fixés librement par chaque pays et leur non-respect n'entraîne aucune sanction. C'est un mécanisme de transparence et de pression par le cumul des engagements (« ratchet mechanism »), pas un traité qui force la réduction des émissions — d'où l'écart persistant entre trajectoire annoncée et trajectoire réelle.
+
 **GIEC (Groupe d'experts Intergouvernemental sur l'Évolution du Climat)**
 - Synthèse de la littérature scientifique
 - Rapports AR6 (2021-2022) : base de référence des politiques climatiques
@@ -79,6 +82,9 @@ graph TD
   - Capacité 2023 : <0,01 Mt/an (besoin : 10 Gt/an)
 - **BECCS** : bioénergie + CCS (controversé, compétition terres agricoles)
 
+> [!important] Idée clé
+> L'écart entre capacité actuelle de DAC (<0,01 Mt/an) et besoin projeté (10 Gt/an) est un facteur d'un million — pas une question de mise à l'échelle progressive mais un changement d'ordre de grandeur qui n'a jamais été réalisé pour aucune technologie industrielle en si peu de temps. C'est pourquoi le GIEC classe la capture technologique comme complément marginal, pas comme solution principale, contrairement à sa place dans le débat public.
+
 ### Adaptation
 
 L'adaptation est inévitable pour les 1,1°C déjà acquis, et nécessaire pour les impacts futurs.
@@ -121,3 +127,6 @@ L'adaptation est inévitable pour les 1,1°C déjà acquis, et nécessaire pour 
 **Solutionnisme technologique seul** : les solutions techniques sont nécessaires mais insuffisantes sans changements systémiques (consommation, alimentation, mobilité).
 
 **Individualisation** : reporter la responsabilité sur le consommateur plutôt que sur les systèmes (énergie, transport, industrie).
+
+> [!tip] Méthode
+> Ces quatre pièges ne s'excluent pas — ils se combinent souvent dans un même discours (une entreprise communique sur le bilan carbone individuel de ses clients tout en maintenant son activité principale inchangée : individualisation + greenwashing). Le bon réflexe pour évaluer une annonce climatique est de vérifier si elle touche au système (énergie, réglementation, infrastructure) ou seulement au comportement individuel affiché.

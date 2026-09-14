@@ -29,6 +29,9 @@ date: "2026-02-22"
   - **r-stratèges** : reproduction rapide, nombreuse, mortalité élevée (insectes, souris)
   - **K-stratèges** : reproduction lente, peu descendants, soins parentaux (éléphants, humains)
 
+> [!warning] Piège
+> r et K ne sont pas deux catégories étanches mais les deux pôles d'un spectre continu, et la classification dépend du contexte écologique, pas seulement de la taille de l'espèce : un rongeur des îles sans prédateur peut évoluer vers une stratégie plus K (reproduction ralentie) simplement parce que la pression de sélection change. Confondre "grande taille" et "K-stratège" fait rater des contre-exemples fréquents (certains poissons énormes restent r-stratèges avec des millions d'œufs).
+
 **Régulation des Populations**
 - **Densité-dépendante** : compétition, prédation, maladies
 - **Densité-indépendante** : climat, catastrophes
@@ -48,6 +51,9 @@ date: "2026-02-22"
 - **Secondaire** : recolonisation après perturbation (feu, coupe)
   - Plus rapide, sol présent
 - **Climax** : communauté mature, stable (théorie discutée)
+
+> [!tip] Méthode
+> La théorie du climax (Clements, début XXe) supposait un point d'équilibre unique et déterministe vers lequel toute succession converge inévitablement — l'écologie moderne la juge trop rigide : les perturbations (feux, tempêtes) sont si fréquentes que beaucoup d'écosystèmes n'atteignent jamais un "climax" stable et restent en mosaïque de stades successionnels (cf. hypothèse de la perturbation intermédiaire ci-dessous). Le climax reste utile comme référence théorique, pas comme description empirique fidèle.
 
 **Perturbations**
 - **Hypothèse perturbation intermédiaire** : diversité maximale à niveaux modérés
@@ -71,6 +77,9 @@ date: "2026-02-22"
 - **Productivité primaire brute (PPB)** : photosynthèse totale
 - **Productivité primaire nette (PPN)** : PPB - respiration plantes
   - Biomasse disponible herbivores
+
+> [!important] Idée clé
+> La PPN, pas la PPB, est le vrai "budget" énergétique disponible pour le reste de l'écosystème — c'est ce qui reste après que la plante a payé son propre métabolisme. Une forêt tropicale a une PPB énorme mais une part importante repart en respiration (entretien d'une biomasse gigantesque) ; comparer des écosystèmes uniquement sur la PPB surestime ce qu'ils offrent réellement au reste de la chaîne trophique.
 - **Productivité secondaire** : biomasse consommateurs
 - **Facteurs** : lumière, eau, nutriments, température
 - **Zones très productives** : forêts tropicales, estuaires, récifs coralliens
