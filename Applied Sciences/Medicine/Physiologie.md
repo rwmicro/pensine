@@ -24,6 +24,9 @@ Maintien d'un environnement intérieur stable malgré variations externes.
 - **Rétroaction Positive** : Amplification (rare)
   - Exemple : Accouchement (ocytocine)
 
+> [!important] Idée clé
+> La rétroaction positive est rare précisément parce qu'elle est instable par construction : elle amplifie l'écart au lieu de le corriger, donc elle ne peut pas servir à *maintenir* un état stable — seulement à déclencher un événement qui doit se terminer vite (accouchement, cascade de coagulation, potentiel d'action). L'homéostasie, par définition, repose presque toujours sur la rétroaction négative.
+
 **Variables Régulées**
 - Température corporelle : 37°C (98.6°F)
 - pH sanguin : 7.35-7.45
@@ -104,6 +107,9 @@ Maintien d'un environnement intérieur stable malgré variations externes.
 3. **Hyperpolarisation** : Brève, -90 mV
 4. **Période Réfractaire** : Impossible nouveau PA
 
+> [!warning] Piège
+> Le potentiel d'action obéit à la loi du « tout ou rien » : en dessous du seuil de déclenchement, rien ne se passe ; au-dessus, l'amplitude est toujours la même, quelle que soit l'intensité du stimulus. L'information sur l'intensité n'est donc pas codée dans la taille du signal mais dans sa **fréquence** (plus le stimulus est fort, plus les PA se succèdent vite) — piège classique de confondre amplitude variable et fréquence variable.
+
 **Synapse**
 - **Électrique** : Jonctions gap (rare)
 - **Chimique** : Neurotransmetteurs
@@ -122,4 +128,7 @@ Maintien d'un environnement intérieur stable malgré variations externes.
 - **Thyroïdien** : TRH → TSH → T3/T4
 - **Surrénalien** : CRH → ACTH → Cortisol
 - **Gonadique** : GnRH → LH/FSH → Hormones sexuelles
+
+> [!tip] Méthode
+> Les quatre axes suivent tous le même patron hiérarchique (hypothalamus → hypophyse → glande périphérique), avec un même mécanisme de rétrocontrôle négatif : l'hormone finale (cortisol, T3/T4, hormones sexuelles) inhibe en retour l'hypothalamus et l'hypophyse. Une fois ce schéma compris pour un axe, les trois autres se déduisent par analogie plutôt que par mémorisation séparée.
 

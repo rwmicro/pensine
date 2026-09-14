@@ -26,6 +26,9 @@ date: "2026-02-22"
 - **Daltonisme** : Vision couleurs
 - **Dystrophie Musculaire Duchenne** : Dystrophine, faiblesse musculaire progressive
 
+> [!important] Idée clé
+> Ces maladies touchent presque exclusivement les hommes pour une raison mécanique, pas biologique au sens fort : un homme (XY) n'a qu'un seul exemplaire du chromosome X, donc un seul allèle défectueux suffit à provoquer la maladie (hémizygotie). Une femme (XX) possède deux X — un allèle sain compense généralement l'allèle muté, elle devient porteuse asymptomatique plutôt que malade. Cf. [[Hémophilie]] pour le détail du mécanisme.
+
 **Maladies Chromosomiques**
 - **Trisomie 21** (Syndrome de Down) : 3 chromosomes 21
   - Retard mental, traits faciaux, cardiopathie
@@ -35,6 +38,9 @@ date: "2026-02-22"
 **Maladies Mitochondriales**
 - Transmission maternelle (mitochondries ovule)
 - Neuropathies, myopathies
+
+> [!tip] Méthode
+> La transmission strictement maternelle (le spermatozoïde n'apporte quasiment pas de mitochondries à l'embryon) en fait un outil de généalogie génétique complémentaire du chromosome Y : l'ADN mitochondrial trace la lignée maternelle sur des générations, exactement comme le Y trace la lignée paternelle — les deux ne se mélangent jamais par recombinaison, contrairement au reste du génome.
 
 ### Diagnostic Génétique
 
@@ -74,4 +80,7 @@ date: "2026-02-22"
 - Édition génome précise (voir [[Biology/Biologie#Génétique]])
 - Potentiel thérapeutique énorme
 - Questions éthiques (modification germinale)
+
+> [!warning] Piège
+> Toutes les thérapies géniques listées plus haut (immunodéficiences, hémophilie, Luxturna, CAR-T) sont **somatiques** — elles ne modifient que les cellules du patient traité, rien n'est transmis à sa descendance. Seule la modification **germinale** (cellules reproductrices ou embryon précoce) pose le problème éthique de l'affaire He Jiankui, cf. [[Enjeux Contemporains]]. Confondre les deux fait paraître risquée une thérapie qui ne l'est pas sur ce plan.
 

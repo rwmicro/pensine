@@ -26,6 +26,10 @@ L'anatomie est l'étude de la structure du corps humain et de ses parties. Elle 
 
 **Système Squelettique**
 - **206 os** chez l'adulte
+
+> [!example] Exemple
+> Un nourrisson naît avec environ 300 pièces osseuses — le chiffre baisse avec l'âge parce que des os séparés (crâne, bassin, colonne) fusionnent en grandissant, pas parce qu'on en perd. Le nombre « 206 » n'est donc pas fixe universellement : il varie aussi selon les os sésamoïdes surnuméraires (ex. rotule) présents ou non selon les individus.
+
 - **Fonctions** : Support, protection, production cellules sanguines (moelle), stockage minéraux
 - **Types d'os** : Longs (fémur), courts (carpe), plats (crâne), irréguliers (vertèbres)
 - **Articulations** : 
@@ -54,6 +58,10 @@ L'anatomie est l'étude de la structure du corps humain et de ses parties. Elle 
   - Artères : Sang oxygéné du cœur (sauf pulmonaire)
   - Veines : Sang désoxygéné vers cœur (sauf pulmonaire)
   - Capillaires : Échanges tissulaires
+
+> [!warning] Piège
+> « Artère » ne veut pas dire « sang oxygéné » par définition — c'est une question de sens de circulation (cœur → périphérie), pas de composition. L'artère pulmonaire transporte du sang désoxygéné vers les poumons, et la veine pulmonaire ramène du sang oxygéné : les deux exceptions citées ne sont pas des anomalies, elles révèlent la vraie règle.
+
 - **Sang** : ~5-6 litres chez adulte
   - Globules rouges (érythrocytes) : Transport O₂
   - Globules blancs (leucocytes) : Défense immunitaire
@@ -79,6 +87,10 @@ L'anatomie est l'étude de la structure du corps humain et de ses parties. Elle 
 **Système Nerveux**
 - **Système Nerveux Central (SNC)** :
   - **Cerveau** : ~86 milliards de neurones
+
+> [!tip] Méthode
+> Le chiffre « 86 milliards » (Herculano-Houzel, 2009) a corrigé le mythe très répandu des « 100 milliards de neurones » — une estimation jamais vérifiée, répétée pendant des décennies sans nouvelle mesure. Bon réflexe général : se méfier des chiffres ronds cités sans source dans la vulgarisation scientifique.
+
     - Cortex cérébral : Pensée, conscience
     - Cervelet : Coordination motrice
     - Tronc cérébral : Fonctions vitales
