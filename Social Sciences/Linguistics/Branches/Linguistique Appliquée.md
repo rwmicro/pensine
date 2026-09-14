@@ -18,6 +18,9 @@ date: "2026-02-22"
 - **Communicative:** Interaction authentique, fluidité > précision
 - **TBLT (Task-Based):** Tâches signifiantes
 
+> [!warning] Piège
+> "Communicative > précision" ne veut pas dire "la grammaire ne compte pas". La méthode communicative retarde la correction explicite pour ne pas bloquer la fluidité, elle ne l'élimine pas — un apprenant qui fossilise ses erreurs faute de retour n'a pas progressé, il a juste appris à parler vite et faux.
+
 **CECRL (Cadre Européen):**
 - Niveaux A1, A2, B1, B2, C1, C2
 
@@ -43,6 +46,9 @@ date: "2026-02-22"
 - Variation (dialectes, erreurs)
 - Contexte, pragmatique
 - Langues peu dotées
+
+> [!important] Idée clé
+> Les "défis" listés ici (ambiguïté, contexte, pragmatique) sont précisément ce que les transformers ([[LLM — Architectures et Fonctionnement]]) ont mieux résolu que les approches statistiques par n-grammes — pas en codant des règles linguistiques explicites, mais en apprenant des représentations contextuelles ([[Embeddings]]) où le sens d'un mot dépend de son environnement, une idée qui rejoint directement la sémantique compositionnelle et les champs sémantiques.
 
 ### Orthophonie
 

@@ -41,6 +41,9 @@ date: "2026-02-22"
   - Français: beef, pork, mutton
 - Néologismes: Internet, smartphone
 
+> [!important] Idée clé
+> Ce qui rend la reconstruction historique possible n'est pas que les langues changent, mais que le changement phonétique est **régulier** : un son donné évolue de la même façon dans tous les mots où il apparaît, dans une langue et une période données (hypothèse néogrammairienne, "les lois phonétiques n'ont pas d'exception"). Sans cette régularité, comparer des mots entre langues ne prouverait rien — c'est elle qui permet de distinguer une vraie correspondance d'une simple coïncidence.
+
 ### Méthode Comparative
 
 **Reconstruction:**
@@ -63,6 +66,9 @@ date: "2026-02-22"
 **Correspondances régulières:**
 - Permettent de distinguer apparentement vs emprunt
 - Français "père", espagnol "padre", italien "padre" < latin "pater"
+
+> [!warning] Piège
+> Une ressemblance entre deux mots ne prouve rien à elle seule — elle peut venir d'un emprunt (comme "café" quasi identique dans des dizaines de langues sans lien de parenté), d'un hasard (basque "gizon" et un mot sans rapport ailleurs), ou d'un faux ami historique. Seule une **correspondance systématique** sur de nombreux mots, avec des règles de changement cohérentes, distingue la parenté généalogique du simple contact — c'est tout l'enjeu de la [[Familles de Langues|classification en familles]].
 
 ### Langues Mortes et Déchiffrement
 

@@ -16,6 +16,9 @@ Les linguistes regroupent les langues en **familles** selon :
 - **Des similitudes grammaticales ou lexicales** (ex. : "mère" en français, "mother" en anglais, "mutter" en allemand). 
 - **Des preuves historiques** (textes anciens, reconstructions comme le _proto-indo-européen_).
 
+> [!warning] Piège
+> Une ressemblance lexicale isolée ne prouve pas une parenté — elle peut venir d'un emprunt ou d'un hasard (cf. [[Linguistique Historique#Méthode Comparative|la méthode comparative]]). Seule une correspondance systématique et régulière sur de nombreux mots permet de distinguer une vraie famille de langues d'une simple coïncidence ou d'un contact commercial.
+
 ## **1. Indo-Européen : La Famille la Plus Étendue**
 
 _~440 langues, 3 milliards de locuteurs (la moitié de la population mondiale !)_
@@ -152,6 +155,9 @@ _Langues **sans parenté connue** avec d’autres familles._
 - **Burushaski** : Parlé au **Pakistan**.
 - **Sumérien** : **Éteint**, langue de la Mésopotamie ancienne (écriture cunéiforme).
 - **Aïnou** : Langue des **Aïnous** (Japon), quasi éteinte.
+
+> [!important] Idée clé
+> "Isolat" ne signifie pas "langue primitive" ou "langue simple" — le basque a une morphologie verbale d'une complexité comparable aux langues polysynthétiques amérindiennes. Un isolat est simplement une langue dont on n'a trouvé aucune parente suffisamment proche pour établir une famille — un fait sur l'état de nos connaissances historiques, pas sur la langue elle-même.
 
 ## **Synthèse : Ce qu’il Faut Retenir**
 

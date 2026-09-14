@@ -23,6 +23,9 @@ date: "2026-02-22"
 - **Lexical (morphème racine):** Sens plein (chant-, donn-)
 - **Grammatical:** Fonction grammaticale (-s pluriel, -ait imparfait)
 
+> [!warning] Piège
+> Le morphème n'est pas la syllabe : "chats" fait une seule syllabe mais deux morphèmes (chat + -s), et "cinéma" fait quatre syllabes pour un seul morphème (pas de découpage en sens). Confondre les deux fait rater l'essentiel : la morphologie découpe selon le **sens**, pas selon le **son**.
+
 ### Affixes
 
 **Position:**
@@ -96,4 +99,7 @@ date: "2026-02-22"
 - Inuktitut, mohawk, nahuatl
 - Exemple (yupik): "tuntussuqatarniksaitengqiggtuq"
   - "Il n'a encore jamais dit qu'il allait chasser le renne"
+
+> [!important] Idée clé
+> Cette typologie (isolante/agglutinante/fusionnelle/polysynthétique) décrit des **tendances dominantes**, pas des catégories étanches — aucune langue naturelle n'est purement l'une ou l'autre. Le français mélange de l'isolant (ordre des mots porte beaucoup de sens) et du fusionnel résiduel (conjugaison) ; l'anglais a dérivé du fusionnel vers l'isolant en perdant ses désinences historiques. C'est un axe de description, pas une boîte.
 
