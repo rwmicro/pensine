@@ -14,6 +14,9 @@ date: "2026-02-23"
 - Fragmentation, ironie
 - Remise en cause grands récits
 
+> [!important] Idée clé
+> "Grands récits" est un concept précis (Lyotard, *La Condition postmoderne*, 1979, cf. [[Postmodernisme]]) : ce sont les récits qui légitimaient le savoir et le progrès moderne — l'émancipation par la raison des Lumières, la marche de l'Histoire chez Marx. Le postmodernisme ne dit pas "il n'y a plus d'histoires", il dit qu'aucune histoire ne peut plus prétendre englober et légitimer toutes les autres.
+
 ### Auteurs Majeurs
 
 **USA**
@@ -25,6 +28,9 @@ date: "2026-02-23"
 **Amérique Latine - Réalisme Magique**
 - **Gabriel García Márquez** (1927-2014, Colombie): *Cent Ans de Solitude* (1967)
   - Macondo, merveilleux quotidien
+
+> [!warning] Piège
+> Ne pas confondre réalisme magique et fantastique : dans le fantastique classique, le surnaturel provoque hésitation et doute chez le personnage et le lecteur (Todorov). Dans le réalisme magique, le surnaturel est traité avec le même ton neutre que le quotidien — personne dans *Cent Ans de Solitude* ne s'étonne qu'un personnage monte au ciel en étendant du linge. L'absence d'étonnement narratif est le vrai marqueur du genre.
 - **Isabel Allende** (1942-, Chili): *La Maison aux Esprits*
 - **Mario Vargas Llosa** (1936-, Pérou): *La Ville et les Chiens*
 

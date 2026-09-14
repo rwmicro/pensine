@@ -28,6 +28,12 @@ L'écriture, presque clinique, refuse le pathos pour décrire la lente destructi
 
 Levi ne cherche ni à juger ni à émouvoir : il veut **témoigner** pour permettre de comprendre. Il distingue les "sauvés" et les "noyés", explique la mécanique sociale du Lager, et formule l'hypothèse que le camp n'est pas une parenthèse de l'humain mais une expérience révélatrice de ce dont l'humain est capable.
 
+> [!important] Idée clé
+> La distinction « sauvés/noyés » est délibérément dérangeante : elle ne dit pas que les survivants étaient moralement meilleurs, mais souvent le contraire — que la survie dépendait davantage de la capacité à s'adapter au système du camp (parfois au prix de compromis) que de la vertu. C'est ce qui rend le livre irréductible à un simple récit édifiant de résistance morale.
+
+> [!tip] Méthode
+> Le choix stylistique — écriture clinique, absence de pathos — est lui-même un argument : Levi refuse l'émotion facile, qui permettrait au lecteur de « consommer » l'horreur puis de s'en distancier. La sobriété force à rester avec les faits, sans échappatoire cathartique.
+
 Le livre est devenu, avec *L'Espèce humaine* de Robert Antelme (1947) et plus tard *Les Bienveillantes* (récit fictionnel), une référence centrale de la littérature concentrationnaire.
 
 ## Suite

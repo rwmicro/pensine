@@ -22,6 +22,9 @@ Trois précurseurs majeurs ouvrent la voie avant que le mouvement ne se constitu
 
 - **Edgar Allan Poe** (traduit par Baudelaire) : la poésie comme accès à un monde surnaturel
 - **Charles Baudelaire** : la théorie des **correspondances** — les sens communiquent entre eux, le monde visible est le symbole d'une réalité spirituelle
+
+> [!important] Idée clé
+> Les correspondances ne sont pas une simple figure de style (la métaphore synesthésique) : Baudelaire les pense comme une vraie thèse métaphysique héritée de Swedenborg — le monde sensible est littéralement le chiffre d'un ordre spirituel caché. C'est ce qui distingue le symbole symboliste d'une image poétique ordinaire : il renvoie à quelque chose de réel, pas seulement d'évocateur.
 - **Richard Wagner** : l'idée d'oeuvre d'art totale (*Gesamtkunstwerk*), fusion de musique, poésie et drame
 
 ## Le manifeste (1886)
@@ -122,5 +125,8 @@ Le symbolisme comme mouvement organisé s'éteint vers 1900, mais son influence 
 
 - **Paul Valéry** prolonge l'héritage mallarméen dans la première moitié du XXe siècle
 - Le **surréalisme** (Breton, Eluard) hérite de Rimbaud : exploration de l'inconscient, écriture automatique
+
+> [!warning] Piège
+> Le surréalisme ne reprend qu'une moitié de l'héritage symboliste : le dérèglement des sens et l'exploration de l'inconscient, oui — mais il abandonne la croyance en une réalité spirituelle cachée derrière le symbole. Pour Breton, l'inconscient n'est pas le voile d'un au-delà mystique (comme chez Mallarmé) mais une structure psychique immanente — la rupture avec la religiosité implicite du symbolisme est nette.
 - La **poésie moderne** tout entière descend du symbolisme : le vers libre, l'image comme mode de connaissance, le refus de la description plate
 - **T.S. Eliot** et **Ezra Pound** reconnaissent explicitement leur dette envers les symbolistes français

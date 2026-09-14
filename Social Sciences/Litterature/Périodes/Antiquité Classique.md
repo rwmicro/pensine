@@ -32,6 +32,9 @@ Née à Athènes au Ve siècle av. J.-C. dans le cadre des fêtes religieuses en
 | **Sophocle** | ~496-406 av. J.-C. | *Oedipe Roi*, *Antigone*, *Electre*, *Ajax* | Perfection formelle. Héros solitaire face au destin. *Oedipe Roi* est pour Aristote la tragédie parfaite. *Antigone* pose le conflit entre loi divine et loi humaine |
 | **Euripide** | ~480-406 av. J.-C. | *Médée*, *Les Bacchantes*, *Hippolyte*, *Les Troyennes* | Plus psychologique, plus réaliste. Donne la parole aux femmes, aux esclaves, aux victimes de guerre. Questionne les dieux. Le plus "moderne" des trois |
 
+> [!warning] Piège
+> Les trois tragiques ne partagent pas la même vision du rapport entre l'homme et le destin — erreur fréquente qui aplatit « la tragédie grecque » en un bloc homogène. Chez Eschyle, la faute est souvent héréditaire (malédiction familiale). Chez Sophocle, le héros agit en pleine conscience mais reste broyé par un ordre qui le dépasse (Œdipe cherche la vérité et se détruit lui-même en la trouvant). Chez Euripide, les dieux eux-mêmes sont questionnés, remis en cause moralement — la tragédie devient presque une critique de la théologie traditionnelle.
+
 ### La comédie
 
 | Auteur | Type | Oeuvres | Caractéristiques |
@@ -61,6 +64,9 @@ Les Romains admirent et imitent les Grecs, mais créent aussi des formes propres
 ### L'épopée
 
 **Virgile** (70-19 av. J.-C.) — le plus grand poète latin. Son *Enéide* (12 chants, 9 896 vers) raconte le voyage d'Enée depuis la chute de Troie jusqu'à la fondation de Rome. C'est à la fois une Odyssée (voyage) et une Iliade (guerre). L'Enéide est un poème politique : elle légitime le pouvoir d'Auguste en le rattachant aux origines mythiques de Rome.
+
+> [!important] Idée clé
+> Virgile ne cherche pas seulement à égaler Homère : l'Enéide inverse la trajectoire homérique. L'Odyssée ramène un héros chez lui après la guerre ; l'Enéide envoie un héros vaincu (Troie détruite) fonder une nouvelle patrie. L'épopée romaine transforme la défaite en origine — ce qui sert directement le projet politique d'Auguste, légitimer un pouvoir né dans la guerre civile.
 
 ### La poésie
 

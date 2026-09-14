@@ -25,12 +25,18 @@ Epopées en vers qui célèbrent les exploits guerriers des héros chrétiens �
 | Oeuvre | Date | Contenu |
 |---|---|---|
 | **La Chanson de Roland** | ~1100 | Le chef-d'oeuvre du genre. Récit de la mort de Roland à Roncevaux (778). Thèmes : honneur féodal, foi chrétienne contre l'Islam, sacrifice héroïque. Roland refuse de sonner l'olifant pour appeler Charlemagne — son orgueil le tue |
+
+> [!important] Idée clé
+> La faute de Roland (refuser l'aide par excès d'honneur) n'est pas un simple défaut de caractère : c'est la démesure du héros épique, un motif qu'on retrouve dans l'*hubris* de la tragédie grecque (cf. [[Antiquité Classique]]) — le trait même qui fait la grandeur du héros est ce qui cause sa perte. La geste médiévale hérite de cette logique tragique sans le savoir.
 | **Le Cycle de Guillaume d'Orange** | XIIe s. | Exploits de Guillaume au court nez contre les Sarrasins |
 | **Le Cycle de la Croisade** | XIIe-XIIIe s. | Récits inspirés des croisades |
 
 ## Le roman courtois (XIIe-XIIIe siècle)
 
 Le **roman** nait au XIIe siècle — le mot désigne un texte écrit en langue romane (français), par opposition au latin. Les romans courtois mettent en scène l'**amour courtois** (*fin'amor*) : l'amour du chevalier pour une dame inaccessible, souvent l'épouse de son seigneur. L'amour est un service, une épreuve, un perfectionnement moral.
+
+> [!warning] Piège
+> L'amour courtois est un **code littéraire**, pas un témoignage sur les mœurs réelles du Moyen Âge. C'est une convention poétique aux règles strictes (inaccessibilité de la dame, souffrance sublimée, service quasi-religieux) qui codifie le désir en le mettant en scène — pas une description de pratiques amoureuses effectivement répandues dans la société féodale.
 
 | Auteur | Oeuvres | Apport |
 |---|---|---|
@@ -65,6 +71,9 @@ Le plus grand écrivain du Moyen Âge — et l'un des plus grands de tous les te
 | Partie | Contenu |
 |---|---|
 | **Enfer** (*Inferno*) | Guidé par Virgile, Dante descend les neuf cercles de l'Enfer. Chaque cercle punit un péché avec une logique de contrapasso (la punition reflète le péché) |
+
+> [!tip] Méthode
+> Le *contrapasso* est la clé de lecture de tout l'Enfer : chaque châtiment est une image inversée ou amplifiée du péché lui-même (les devins ont la tête retournée pour n'avoir voulu voir que l'avenir, les flatteurs pataugent dans l'excrément qu'ils ont produit en paroles). Repérer la logique du contrapasso permet de déchiffrer le sens moral de chaque cercle sans annotation externe.
 | **Purgatoire** (*Purgatorio*) | Montagne à sept corniches où les âmes se purifient |
 | **Paradis** (*Paradiso*) | Guidé par Béatrice (son amour idéalisé), Dante s'élève vers la vision de Dieu |
 

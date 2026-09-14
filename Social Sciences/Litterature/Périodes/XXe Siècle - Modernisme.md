@@ -30,6 +30,9 @@ date: "2026-02-23"
 *Allemagne*
 - **Franz Kafka** (1883-1924): *La Métamorphose*, *Le Procès*, *Le Château*
   - Absurde, kafkaïen, bureaucratie aliénante
+
+> [!warning] Piège
+> "Kafkaïen" et "absurde" (au sens camusien, cf. [[Camus]]) ne désignent pas la même chose. Chez Camus, l'absurde naît du silence du monde face à la demande de sens de l'homme — il n'y a rien à comprendre. Chez Kafka, il y a toujours une logique, une procédure, une hiérarchie — mais totalement opaque et inaccessible au personnage. Le kafkaïen est un excès de sens caché, pas une absence de sens.
 - **Thomas Mann** (1875-1955): *La Montagne Magique*, *Mort à Venise*
 
 *USA*
@@ -83,6 +86,9 @@ date: "2026-02-23"
 - **Alain Robbe-Grillet** (1922-2008): *Les Gommes*
 - **Nathalie Sarraute** (1900-1999): *Tropismes*
 - Refus psychologie, intrigue traditionnelle
+
+> [!important] Idée clé
+> Le refus de la psychologie n'est pas un manque d'ambition mais une thèse : les tenants du Nouveau Roman jugent la psychologie de personnage (motivations claires, intériorité cohérente) comme une convention artificielle du XIXe siècle. En la retirant, ils placent le lecteur en position d'enquêteur qui doit reconstruire le sens à partir des surfaces (objets, gestes) plutôt que le recevoir tout fait — proche, dans sa démarche, du structuralisme naissant à la même époque.
 
 **Beat Generation** (USA)
 - **Jack Kerouac** (1922-1969): *Sur la Route*

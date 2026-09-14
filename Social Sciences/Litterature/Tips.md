@@ -42,6 +42,9 @@ Quelques méthodes pour lire de façon active et retenir vraiment ce qu'on lit.
 2. **2ème lecture** : analytique, annoter, questionner
 3. **3ème lecture** : synthétique, résumer et relier à d'autres idées
 
+> [!tip] Méthode
+> Les 3 lectures fonctionnent parce qu'elles forcent une récupération active à chaque passage (se souvenir de la structure sans la relire en entier) plutôt qu'une relecture passive — c'est le même principe que la répétition espacée : se resservir de ce qu'on a déjà compris ancre mieux que le réexposer à l'identique.
+
 **Poser des questions au texte**
 - *Qu'est-ce que l'auteur essaie de prouver ?*
 - *Quelles preuves apporte-t-il ?*

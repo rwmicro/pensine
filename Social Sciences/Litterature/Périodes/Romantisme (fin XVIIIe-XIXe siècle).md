@@ -14,6 +14,9 @@ date: "2026-02-23"
 - Individu, génie, moi lyrique
 - Mélancolie, mal du siècle
 
+> [!important] Idée clé
+> Ce renversement (émotion > raison) n'est pas un simple changement de goût esthétique : c'est la réaction directe contre le programme des [[Lumières (XVIIIe siècle)|Lumières]] du siècle précédent. Là où Voltaire et Kant faisaient de la raison critique l'instrument du progrès, les romantiques y voient une froideur qui a asséché le rapport au monde — le romantisme réhabilite justement ce que les Lumières voulaient discipliner.
+
 ### France
 
 **Poésie**
@@ -40,6 +43,9 @@ date: "2026-02-23"
 - **Percy Shelley** (1792-1822): *Prométhée Délivré*
 - **John Keats** (1795-1821): Odes
 - **Mary Shelley** (1797-1851): *Frankenstein* (1818) - premier roman science-fiction
+
+> [!warning] Piège
+> *Frankenstein* n'est pas une histoire de monstre effrayant : la créature naît innocente et ne devient violente qu'après avoir été abandonnée et rejetée par son créateur. Le vrai sujet du roman est la responsabilité du créateur envers ce qu'il crée — Victor Frankenstein est le personnage moralement en faute, pas sa créature.
 - **Emily Brontë** (1818-1848): *Les Hauts de Hurlevent*
 - **Charlotte Brontë** (1816-1855): *Jane Eyre*
 
