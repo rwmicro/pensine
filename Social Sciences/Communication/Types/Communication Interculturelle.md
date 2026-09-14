@@ -38,6 +38,9 @@ Geert Hofstede (1928-2020), psychologue néerlandais, a analysé les valeurs de 
 - Les cultures nationales ne sont pas homogènes (un Parisien et un paysan breton ne partagent pas les mêmes valeurs)
 - Les données datent des années 1970 — les cultures évoluent
 - Risque de stéréotypes : les dimensions décrivent des tendances statistiques, pas des individus
+
+> [!warning] Piège
+> C'est l'erreur écologique : une moyenne nationale sur 116 000 employés ne prédit rien sur la personne précise en face de soi. Un Japonais collectiviste-en-moyenne peut être l'individu le plus individualiste de la pièce. Les dimensions de Hofstede orientent une attente statistique, elles ne dispensent jamais d'observer la personne réelle.
 - Les entreprises multinationales créent leurs propres cultures internes
 
 ## Cultures à contexte fort vs faible (Edward T. Hall)
@@ -52,6 +55,9 @@ Edward T. Hall (1914-2009), anthropologue américain, propose l'une des distinct
 | Japon, Chine, Corée, pays arabes, France, Espagne, Amérique latine | Etats-Unis, Allemagne, Pays-Bas, pays scandinaves, Suisse |
 
 Exemple classique : un manager américain demande à un collègue japonais "Pouvez-vous terminer ce rapport pour vendredi ?" Le Japonais répond "Ce sera difficile" avec un sourire. L'Américain entend "Je vais essayer". Le Japonais a dit non.
+
+> [!important] Idée clé
+> Le malentendu n'est pas une question de vocabulaire mal traduit — les deux interlocuteurs comprennent parfaitement les mots. Ce qui diffère, c'est *où* chaque culture place le poids de la signification : dans le contenu explicite (faible contexte) ou dans la manière de le dire (fort contexte). Un dictionnaire ne résout jamais ce type de malentendu.
 
 ## Le rapport au temps (Hall)
 
@@ -73,6 +79,9 @@ La gestion de l'**espace personnel** varie culturellement :
 | **Personnelle** | 45 cm - 1,2 m | Amis, collègues. La distance standard en conversation varie : très proche au Brésil, plus grande en Finlande |
 | **Sociale** | 1,2 m - 3,6 m | Relations formelles |
 | **Publique** | > 3,6 m | Conférences, discours |
+
+> [!tip] Méthode
+> Inutile de mémoriser les centimètres exacts par pays — la compétence réelle consiste à observer en temps réel : si l'interlocuteur recule d'un pas après chaque pas qu'on avance, la zone confortable vient d'être franchie. Ajuster à la réaction, pas à la règle apprise.
 
 ## Communication non verbale interculturelle
 

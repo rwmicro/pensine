@@ -38,6 +38,9 @@ Un sophisme est un argument qui semble logique mais contient un défaut caché, 
 - "Après cela, donc à cause de cela"
 - Confondre corrélation et causalité
 
+> [!example] Exemple
+> Le mythe (démenti depuis) du lien vaccin-autisme est né d'un post hoc : des symptômes du spectre autistique apparaissent souvent au même âge que le calendrier vaccinal infantile, donc succession temporelle a été lue comme causalité — sans qu'aucun mécanisme causal ni corrélation statistique robuste n'existe.
+
 **Appel à l'ignorance**
 - "On n'a pas prouvé que c'est faux, donc c'est vrai"
 
@@ -50,4 +53,7 @@ Un sophisme est un argument qui semble logique mais contient un défaut caché, 
 - **Vérification des faits** : Fact-checking systématique
 - **Reconnaissance des biais** : [[../Psychologie/Biais]]
 - **Demander des preuves** : "Quelle est votre source ?"
+
+> [!tip] Méthode
+> La question la plus rentable n'est pas « est-ce vrai ? » mais « qu'est-ce qui me ferait changer d'avis ? ». Si aucune preuve imaginable ne pourrait faire vaciller une position, ce n'est plus un argument rationnel mais une croyance protégée — signal d'alerte plus fiable que la liste des sophismes elle-même.
 

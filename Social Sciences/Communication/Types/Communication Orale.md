@@ -27,6 +27,9 @@ Il existe 3 profils principaux :
    - Préfèrent écouter
    - Risque : être ignoré, ne pas faire valoir ses idées
 
+> [!tip] Méthode
+> Ces trois profils ne sont pas des traits de personnalité fixes mais des tendances qui se déplacent selon l'enjeu et le contexte : un verbomoteur en réunion informelle peut devenir mutique face à un public hostile. Utile pour s'observer soi-même situation par situation, pas pour s'étiqueter une fois pour toutes.
+
 ### Règles de prise de parole
 
 **En situation réelle** : Prendre la parole **au moins 5 fois**
@@ -55,4 +58,7 @@ Il existe 3 profils principaux :
 [Incitation] Je propose qu'on révise notre plan marketing dès la semaine prochaine.
 [Résonance] Si nous agissons maintenant, nous pouvons inverser la tendance avant la fin de l'année.
 ```
+
+> [!warning] Piège
+> Appliquer FOSIR à chaque intervention, même anodine, produit un discours mécanique et prévisible. C'est un canevas pour les moments à enjeu (prise de parole préparée, argumentation en réunion), pas un script à suivre dans un échange spontané.
 

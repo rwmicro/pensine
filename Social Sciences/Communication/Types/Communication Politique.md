@@ -32,9 +32,12 @@ date: "2026-02-22"
 - Gestion crise, image
 
 **Techniques**
-- Framing (cadrage) → [[Communication#Arguments de cadrage|voir]]
+- Framing (cadrage) → [[Rhétorique et Arguments#Arguments de cadrage|voir]]
 - Dog whistle (message codé)
 - Astroturfing (fausse mobilisation citoyenne)
+
+> [!warning] Piège
+> Le dog whistle ne fonctionne que par son déni possible : le message doit rester assez ambigu pour que l'émetteur puisse dire « je n'ai jamais dit ça » à qui n'a pas capté le code, tout en étant limpide pour l'audience visée. C'est cette déniabilité structurelle qui le distingue d'un simple message codé ou d'un jargon de niche.
 
 ### Propagande
 
@@ -52,4 +55,7 @@ date: "2026-02-22"
 - Neveu de Freud
 - *Propaganda* (1928) : manipulation opinion publique
 - Campagnes : Lucky Strike (femmes fumeuses), bacon-œufs
+
+> [!important] Idée clé
+> Bernays ne voyait pas la manipulation de masse comme un dérapage à éviter mais comme une nécessité démocratique assumée : pour lui, le grand public est trop irrationnel pour se gouverner directement (thèse héritée des théories freudiennes de l'inconscient de son oncle), donc une élite éclairée doit "fabriquer le consentement". Les RP modernes naissent de cette prémisse ouvertement anti-démocratique, pas d'un idéal de transparence.
 

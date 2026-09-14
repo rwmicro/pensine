@@ -28,6 +28,9 @@ flowchart LR
 
 **Arbitraire du signe** : aucun lien naturel entre /arbr/ et l'idée d'arbre — les Anglais disent *tree*, les Allemands *Baum*. La preuve par la diversité des langues.
 
+> [!warning] Piège
+> « Arbitraire » ne veut pas dire « chaotique » ou « au choix de chacun ». Le signe est arbitraire à sa création, mais devient immédiatement contraignant pour tout locuteur : personne ne peut décider seul de renommer « arbre ». C'est un système collectif figé, pas une liberté individuelle — voir la distinction langue/parole juste en dessous.
+
 **Langue vs parole** : la *langue* est le système collectif (le code partagé) ; la *parole*, son usage individuel et concret. Comme la différence entre les règles des échecs et une partie particulière.
 
 ### Charles Sanders Peirce (1839-1914) — le signe triadique
@@ -52,6 +55,9 @@ flowchart TD
 | **Indice** | connexion causale ou physique | fumée → feu ; empreinte → pas ; fièvre → maladie |
 | **Symbole** | convention pure | mot, drapeau, croix religieuse, panneau STOP |
 
+> [!tip] Méthode
+> Ces trois catégories ne s'excluent pas : le panneau STOP est un symbole (le mot « STOP » est conventionnel) mais sa forme octogonale rouge fonctionne comme une icône reconnaissable même sans lire le mot, de nuit ou à distance. Face à un signe réel, chercher lequel des trois registres domine plutôt que forcer un classement unique.
+
 ### Roland Barthes (1915-1980) — la sémiologie de la culture
 
 Applique Saussure aux objets culturels (publicités, mode, lutte, cuisine). Dans *Mythologies* (1957), il décortique les mythes ordinaires : le steak-frites, la DS Citroën, le visage de Garbo.
@@ -66,6 +72,9 @@ Applique Saussure aux objets culturels (publicités, mode, lutte, cuisine). Dans
 
 Pour Barthes, le mythe est une connotation qui se fait passer pour une dénotation — c'est-à-dire qui *naturalise* une idéologie.
 
+> [!important] Idée clé
+> Décoder une publicité ou une image, c'est toujours faire le même geste en deux temps : isoler ce qui est montré littéralement (dénotation), puis demander quelle évidence culturelle ce choix précis fait passer pour naturelle (connotation). C'est la méthode, pas seulement la théorie, que lègue Barthes.
+
 ## Analyse de discours — du signe au pouvoir
 
 L'analyse de discours ne demande plus *que veut dire ce mot ?* mais *qui peut dire quoi, dans quel cadre, avec quels effets ?*
@@ -78,6 +87,9 @@ Dans *L'Ordre du discours* (1971), Foucault montre que tout discours est régul�
 - **Volonté de vérité** : seuls les énoncés conformes aux institutions (science, justice) ont valeur de vérité
 
 **Exemple concret** : au XIXe siècle, le discours médical sur l'« hystérie » féminine n'était pas neutre — il définissait ce qu'une femme normale devait être, et pathologisait l'écart.
+
+> [!warning] Piège
+> Foucault ne dit pas que le discours médical mentait ou manipulait consciemment — c'est plus dérangeant que ça : les médecins de l'époque étaient sincères. Le pouvoir ne fonctionne pas seulement par mensonge répressif, il fonctionne en produisant ce qui compte comme vrai, sérieux, scientifique (cf. [[Domination]] chez Bourdieu — le pouvoir le plus efficace ne s'exerce jamais consciemment).
 
 ### Norman Fairclough — Critical Discourse Analysis (CDA)
 

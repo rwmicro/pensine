@@ -31,6 +31,9 @@ flowchart LR
 
 **Limites** : modèle linéaire et unidirectionnel — il ignore le **feedback**, le **contexte** et le **sens**. Très bon pour les machines, insuffisant pour les humains.
 
+> [!important] Idée clé
+> Shannon a explicitement conçu ce modèle pour l'ingénierie du signal, pas pour le sens : dans sa théorie, un télégramme aléatoire et une déclaration d'amour transportent potentiellement la même « quantité d'information ». Appliquer tel quel ce modèle à la communication humaine importe silencieusement l'idée que communiquer = transmettre un contenu fixe — exactement ce que Jakobson et Palo Alto vont contester plus bas.
+
 ## Modèle de Jakobson (1960) — les six fonctions du langage
 
 Roman Jakobson, linguiste russe, enrichit Shannon-Weaver en remarquant que chaque élément de la communication peut devenir le **centre** du message. Six éléments → six fonctions.
@@ -63,6 +66,9 @@ flowchart TB
 | **Poétique** | le message lui-même | « *Veni, vidi, vici* », slogans rimés, poésie — la forme compte autant que le sens |
 
 Plusieurs fonctions sont toujours présentes à la fois ; ce qui change, c'est laquelle **domine**. Un poème met la fonction poétique au premier plan, une publicité la conative, une dispute amoureuse l'émotive.
+
+> [!tip] Méthode
+> Face à n'importe quel texte ou discours, ne pas chercher à cocher les six fonctions — chercher laquelle écrase les autres. C'est cette fonction dominante, pas l'inventaire complet, qui explique pourquoi le message produit l'effet qu'il produit.
 
 ## École de Palo Alto (années 1950-60) — la communication comme système
 
@@ -98,6 +104,9 @@ Concept central de Bateson, étudié à l'origine sur la schizophrénie. C'est u
 2. La victime ne peut ni commenter la contradiction ni quitter le champ relationnel
 
 **Exemple** : une mère qui dit à son enfant « viens m'embrasser » avec un corps raide qui se recule. S'il vient, il sent le rejet ; s'il ne vient pas, il viole l'injonction. Toute réponse est perdante. Répété mille fois, ce schéma peut produire des troubles graves.
+
+> [!warning] Piège
+> Le terme est employé à tort pour toute contradiction agaçante ("mon patron me dit d'être autonome mais critique chaque décision que je prends seul"). Une vraie double contrainte exige la condition 2 : impossibilité de nommer la contradiction ou de quitter la relation. Si on peut dire « tu me demandes deux choses contradictoires » sans risque, ce n'est pas une double contrainte au sens de Bateson — juste un désaccord ordinaire.
 
 ## Comment choisir le bon modèle
 
