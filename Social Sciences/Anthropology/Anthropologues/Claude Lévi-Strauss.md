@@ -68,6 +68,9 @@ L'esprit humain structure le monde par **oppositions binaires** :
 
 Ces oppositions ne sont pas universelles en contenu, mais le **processus** d'opposition binaire l'est.
 
+> [!warning] Piège
+> Contresens fréquent : croire que Lévi-Strauss dit que les gens *pensent consciemment* par paires cru/cuit, chaud/froid. Ce n'est pas une théorie de la pensée individuelle mais une théorie des structures inconscientes qui organisent les systèmes symboliques (mythes, parenté, classifications) — le sujet qui raisonne n'a pas accès à ces structures, tout comme un locuteur n'a pas besoin de connaître la grammaire générative pour parler correctement (parallèle direct avec Saussure/Chomsky, cf. [[Noam Chomsky]]).
+
 ## Contributions Majeures
 
 ### Parenté et Alliance
@@ -125,6 +128,9 @@ Ces oppositions ne sont pas universelles en contenu, mais le **processus** d'opp
 - L'histoire n'est pas le moteur fondamental
 - Structures inconscientes précèdent l'agentivité historique
 - Débat célèbre structuralisme vs existentialisme
+
+> [!important] Idée clé
+> Ce débat avec Sartre reproduit à l'échelle anthropologique la critique structuraliste de l'[[Existentialisme]] déjà vue en philosophie : si l'existence précède l'essence et que l'homme se choisit librement (Sartre), alors l'histoire — faite de choix humains — est le moteur du sens. Lévi-Strauss répond que ces « choix » sont eux-mêmes produits par des structures inconscientes antérieures à tout sujet conscient — l'histoire n'est donc pas la scène première du sens, mais un effet de structures plus profondes.
 
 ### Mythologiques (1964-1971)
 

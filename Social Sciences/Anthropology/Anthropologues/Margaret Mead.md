@@ -54,6 +54,9 @@ Le débat fait rage pendant des décennies. L'état actuel du consensus :
 - Freeman a **exagéré** la réfutation et utilisé des méthodes polémiques
 - La question fondamentale de Mead (la culture façonne-t-elle le vécu de l'adolescence ?) reste **validée** par des décennies de recherche interculturelle
 
+> [!warning] Piège
+> Cette controverse est souvent citée de façon tronquée dans les débats publics — soit pour "démolir" Mead et l'anthropologie culturelle en bloc, soit pour ignorer les vraies limites méthodologiques (terrain court, quelques informatrices adolescentes). Le consensus nuancé ci-dessus ne sert ni l'un ni l'autre camp : c'est justement ce qui en fait un bon exemple de la différence entre un débat scientifique réel et sa récupération polémique.
+
 ## Sex and Temperament (1935)
 
 Mead étudie trois sociétés de Nouvelle-Guinée pour tester si les tempéraments masculin et féminin sont universels :
@@ -67,6 +70,9 @@ Mead étudie trois sociétés de Nouvelle-Guinée pour tester si les tempéramen
 **Conclusion** : les tempéraments que l'Occident attribue aux hommes (agressivité) et aux femmes (douceur) ne sont pas innés mais **culturellement construits**. Chaque société crée ses propres modèles de masculinité et de féminité.
 
 Ce livre est l'un des textes fondateurs du féminisme de la seconde vague. Si les rôles de genre sont culturels, ils peuvent être changés.
+
+> [!important] Idée clé
+> Mead montre la variabilité *interculturelle* des rôles de genre (une société les attribue autrement qu'une autre), ce qui est différent de la thèse plus radicale de la performativité du genre (cf. [[Thématiques/Sociologie du Genre]]) selon laquelle le genre n'est jamais une propriété stable des individus mais un effet répété de la performance elle-même — Mead ouvre la porte à cette idée sans la formuler : elle montre que le contenu varie, pas encore que la catégorie même est instable.
 
 ## Méthode et innovations
 

@@ -204,6 +204,9 @@ La **primatologie** étudie nos plus proches parents, les primates non-humains, 
 - Vulnérabilité du dos
 - Ralentissement de la locomotion
 
+> [!important] Idée clé
+> Ce "dilemme obstétrical" (bassin étroit pour marcher efficacement vs tête large pour un gros cerveau) est le meilleur exemple du principe que l'évolution n'optimise jamais un trait isolément mais négocie un compromis entre contraintes concurrentes. Sa solution n'est pas un bassin qui s'élargit indéfiniment (ce qui nuirait à la bipédie) mais une naissance plus précoce, avec un cerveau encore largement immature — ce qui explique la néoténie humaine et l'exceptionnelle dépendance sociale prolongée du nourrisson, mentionnée plus loin comme conséquence de l'encéphalisation.
+
 ### Encéphalisation (2,5 millions d'années - présent)
 
 **Augmentation du volume cérébral** :
@@ -257,6 +260,9 @@ La **primatologie** étudie nos plus proches parents, les primates non-humains, 
 - Variation génétique humaine est clinale (gradients)
 - Plus de diversité intra-groupe qu'inter-groupe
 - Catégories raciales sont des constructions sociales
+
+> [!warning] Piège
+> L'argument "plus de variation intra-groupe qu'inter-groupe" (Lewontin, 1972) est correct pour un locus génétique isolé, mais ne suffit pas seul à trancher le débat : la critique statistique d'A.W.F. Edwards (2003) montre qu'en combinant simultanément de nombreux loci, des algorithmes de clustering retrouvent une structure géographique assez fidèle aux populations continentales. Cela ne réhabilite pas les "races" comme catégories biologiques discrètes (les frontières restent floues et cliniques, pas nettes) — mais l'argument de Lewontin seul, souvent cité comme preuve définitive, est plus fragile qu'il n'y paraît.
 
 **Histoire** :
 - Anthropométrie raciste (XIXe-XXe siècle)

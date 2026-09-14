@@ -28,6 +28,9 @@ date: "2026-02-22"
 - Ethnocentrisme (Europe = sommet)
 - Données secondaires (pas de terrain)
 
+> [!warning] Piège
+> L'évolutionnisme unilinéaire n'est pas qu'une erreur académique datée : le vocabulaire de « pays développés » vs « pays en voie de développement », encore courant aujourd'hui, est l'héritier direct de cette échelle à un seul barreau menant vers l'Europe industrielle. Repérer cette filiation aide à voir pourquoi l'anthropologie contemporaine évite ce vocabulaire.
+
 ### Révolution du Terrain (début XXe)
 
 **Franz Boas (1858-1942) - USA:**
@@ -47,6 +50,9 @@ date: "2026-02-22"
 - Fonctionnalisme structurel
 - Andaman, Australie aborigène
 - Société = organisme, fonctions
+
+> [!tip] Méthode
+> Ces trois fondateurs donnent trois réponses différentes à la même question — comment rendre l'anthropologie scientifique ? Boas répond par l'histoire particulière de chaque culture (particularisme historique), Malinowski et Radcliffe-Brown par l'observation systématique du présent (fonctionnalisme). C'est cette divergence qui explique pourquoi les traditions américaine, britannique et française restent distinctes aujourd'hui (cf. [[Définitions et Domaines]]).
 
 ### Structuralisme (mid-XXe)
 
@@ -78,6 +84,9 @@ date: "2026-02-22"
 - Ethnographie = texte littéraire
 - Autorité ethnographique questionnée
 - Polyphonie, voix multiples
+
+> [!warning] Piège
+> Le tournant réflexif est souvent lu (à tort) comme une auto-démolition de la discipline — « l'anthropologie n'est qu'un discours colonial, donc elle ne vaut rien ». La lecture correcte est inverse : c'est une exigence méthodologique accrue (rendre explicite sa position plutôt que prétendre à une objectivité impossible), pas un abandon de la rigueur. Cf. la publication du journal de Malinowski dans [[Méthodes - Ethnographie et Terrain]].
 
 ### Anthropologie Contemporaine
 

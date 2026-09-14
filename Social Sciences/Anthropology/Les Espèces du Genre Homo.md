@@ -24,6 +24,9 @@ L'Homo sapiens n'est pas apparu ex nihilo. Pendant plusieurs millions d'années,
 
 Ma = millions d'années.
 
+> [!warning] Piège
+> Ce tableau donne une impression de classification stable, mais le statut taxonomique de plusieurs de ces espèces est activement débattu — notamment si *Homo habilis* appartient vraiment au genre *Homo* ou serait mieux classé dans *Australopithecus*. Les frontières entre espèces du genre Homo reposent sur des fossiles rares et fragmentaires : la certitude du tableau est un artefact de présentation, pas un consensus définitif.
+
 ## L'Homo neanderthalensis
 
 Les Néandertaliens sont l'espèce sœur la mieux connue de sapiens. Ils avaient :
@@ -49,6 +52,9 @@ Deux grandes thèses s'affrontent pour expliquer la disparition des autres espè
 
 L'analyse génétique a tranché en faveur de l'hybridation. Les humains non africains portent environ **1 à 4 % d'ADN néandertalien**. Les populations mélanésiennes et australiennes aborigènes portent jusqu'à **4 à 6 % d'ADN dénisovien**. Le métissage a bien eu lieu, même s'il fut limité.
 
+> [!tip] Méthode
+> Ce débat illustre un basculement méthodologique important en anthropologie physique : un désaccord que les fossiles seuls ne pouvaient pas trancher (les squelettes ne montrent pas de « pourcentage d'hybridation ») a été résolu par la génétique. Depuis les années 2010, l'ADN ancien est devenu une source de preuve au moins aussi centrale que l'archéologie classique.
+
 ## Pourquoi sapiens a survécu
 
 Aucune certitude, mais plusieurs hypothèses :
@@ -64,3 +70,6 @@ Aucune certitude, mais plusieurs hypothèses :
 ## Une solitude récente
 
 Pendant presque toute son histoire, sapiens a vécu entouré d'autres espèces humaines. La solitude actuelle de notre espèce — être la seule espèce du genre Homo — est une exception, pas la règle. Cette solitude récente explique peut-être notre difficulté à concevoir que d'autres êtres pourraient être "humains" sans être "nous".
+
+> [!important] Idée clé
+> Être seuls aujourd'hui n'explique pas pourquoi sapiens a survécu (c'est une conséquence, pas une cause) — ne pas confondre l'état actuel avec le mécanisme qui y a mené. Voir [[La Révolution Cognitive]] pour l'hypothèse la plus solide sur ce qui a réellement fait la différence (langage et fictions collectives).

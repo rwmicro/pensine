@@ -23,6 +23,9 @@ Mauss démontre que le don n'est jamais gratuit. Dans toutes les sociétés, il 
 
 Le don crée du **lien social** là où le marché crée de l'indifférence. Acheter un objet met fin à la relation. Recevoir un don l'ouvre.
 
+> [!important] Idée clé
+> Mauss ne décrit pas un pur altruisme : le don est un système d'obligation aussi contraignant qu'un contrat, simplement dissimulé sous l'apparence de la générosité libre. C'est ce paradoxe (donner « librement » ce qu'on est en réalité obligé de donner) qui a inspiré la lecture de Bourdieu en termes de [[Violence Symbolique]] — la méconnaissance de la contrainte fait partie du mécanisme.
+
 ### Exemples ethnographiques
 
 | Système | Société | Fonctionnement |
@@ -51,6 +54,9 @@ La parenté est le système d'organisation sociale le plus fondamental dans les 
 ### La prohibition de l'inceste
 
 Pour Lévi-Strauss, la prohibition de l'inceste est le passage fondamental de la nature à la culture. Elle n'est pas d'abord une règle biologique (les animaux pratiquent l'évitement de l'inceste sans règle) mais une **règle d'échange** : interdire de se marier à l'intérieur du groupe oblige à nouer des alliances avec d'autres groupes. L'exogamie crée le tissu social.
+
+> [!warning] Piège
+> Ne pas confondre la thèse de [[Lévi-Strauss]] avec une explication par l'évitement des risques génétiques de la consanguinité — c'est précisément ce qu'il rejette. Son argument est structural : l'inceste est prohibé non parce qu'il serait biologiquement nocif, mais parce qu'un groupe qui garderait ses femmes/hommes pour lui-même ne créerait aucune alliance avec l'extérieur. La prohibition est positive (elle oblige à échanger), pas seulement négative (elle interdit).
 
 ### Systèmes terminologiques
 
@@ -99,6 +105,9 @@ Si les tempéraments genrés variaient d'une société à l'autre, c'est qu'ils 
 
 - **Gayle Rubin** (1975) : le "système sexe/genre" — chaque société transforme le sexe biologique en genre social selon ses propres règles
 - **Judith Butler** (1990) : le genre n'est pas un état mais une **performance** — il est produit par la répétition d'actes culturels
+
+> [!tip] Méthode
+> « Performance » chez Butler ne veut pas dire qu'on choisit son genre le matin comme un rôle de théâtre conscient — c'est l'inverse : la répétition constante d'actes culturels (gestes, vêtements, langage) *produit* l'illusion d'un genre stable et naturel, sans qu'aucun sujet n'ait décidé de le « jouer ». Confondre performance et choix délibéré est le contresens le plus fréquent sur cette théorie.
 - **Troisièmes genres** : de nombreuses sociétés reconnaissent des catégories au-delà du binaire homme/femme — les *hijra* en Inde, les *fa'afafine* à Samoa, les *two-spirit* chez certains Amérindiens
 
 ## Globalisation et anthropologie

@@ -37,6 +37,9 @@ Un vervet peut crier "attention, aigle" ou "attention, serpent" — des signaux 
 
 Un chimpanzé peut apprendre à utiliser des symboles pour désigner des objets réels. Il ne peut pas coordonner 1 000 congénères autour d'un mythe partagé.
 
+> [!important] Idée clé
+> La différence cruciale n'est pas entre « signal » et « symbole » (un chimpanzé entraîné en manipule aussi), mais entre un signe qui renvoie à une chose présente ou observable et un signe qui renvoie à une entité qui n'existe que parce qu'on y croit collectivement. C'est cette deuxième capacité — pas le vocabulaire en soi — qui rend possible l'argent, le droit ou une nation.
+
 ## La fiction comme technologie sociale
 
 C'est l'argument central de Yuval Noah Harari (*Sapiens*) : **la capacité à croire collectivement en des fictions est la clé du succès de sapiens**.
@@ -89,6 +92,9 @@ A partir de ~70 000 ans, sapiens quitte l'Afrique et colonise en quelques millé
 ### Extinction de la mégafaune
 
 A chaque fois que sapiens arrive sur un nouveau continent, une vague d'extinctions suit. En Australie, 24 des 24 espèces de mégafaune de plus de 50 kg disparaissent après l'arrivée des premiers humains. En Amérique du Nord, 34 des 47 genres de grands mammifères disparaissent. Ces animaux, n'ayant pas évolué avec un prédateur aussi efficace et coordonné, n'avaient pas développé de comportements de fuite adaptés.
+
+> [!warning] Piège
+> Cette corrélation temporelle (arrivée de sapiens → extinctions) est souvent présentée comme une preuve causale univoque (hypothèse du « Blitzkrieg »), mais le débat reste ouvert : un changement climatique concomitant a pu affaiblir ces espèces indépendamment de la chasse. Les deux causes ne s'excluent pas — la coïncidence chronologique ne suffit pas à trancher leur poids relatif.
 
 ### Diversité culturelle
 

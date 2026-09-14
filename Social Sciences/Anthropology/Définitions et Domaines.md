@@ -27,6 +27,9 @@ Franz Boas a structuré l'anthropologie américaine en quatre sous-disciplines i
 
 Cette structure en quatre champs est spécifique aux Etats-Unis. En France et en Grande-Bretagne, les traditions sont distinctes.
 
+> [!warning] Piège
+> En France, le mot « ethnologue » est souvent utilisé dans le langage courant (et même dans des offres d'emploi) comme simple synonyme d'« anthropologue ». Au sens strict défini plus bas, ce n'est pas la même chose : un ethnologue compare plusieurs sociétés pour dégager des régularités, un ethnographe en décrit une seule sur le terrain. Confondre les trois niveaux fait perdre la logique de la discipline.
+
 ## Traditions nationales
 
 | Tradition | Nom | Accent | Figures fondatrices |
@@ -58,11 +61,17 @@ Le concept central de la discipline. Les définitions varient selon les écoles 
 | **Geertz** (1973) | "Toiles de signification" tissées par l'homme — la culture est un texte à interpréter |
 | **Lévi-Strauss** | La culture est un système de règles inconscientes (comme la grammaire d'une langue) |
 
+> [!important] Idée clé
+> Tylor et Lévi-Strauss ne donnent pas juste deux définitions différentes du même objet — ils présupposent deux épistémologies incompatibles. Pour Tylor, la culture est une liste de contenus observables qu'on peut inventorier (approche empiriste). Pour [[Lévi-Strauss]], c'est une grammaire invisible qui génère ces contenus (approche structuraliste) : on ne l'observe jamais directement, on la reconstruit à partir de ses effets, comme en linguistique.
+
 ### Ethnocentrisme et relativisme culturel
 
 L'**ethnocentrisme** est le réflexe universel de juger les autres cultures selon les critères de la sienne — considérer ses propres pratiques comme "normales" et celles des autres comme "bizarres" ou "arriérées".
 
 Le **relativisme culturel** (Boas) est le principe méthodologique inverse : suspendre son jugement pour comprendre chaque culture dans son propre contexte. Ce n'est pas un relativisme moral ("tout se vaut") mais une posture de recherche : comprendre avant de juger.
+
+> [!tip] Méthode
+> Le relativisme culturel est une discipline de terrain, pas une conviction permanente : l'anthropologue suspend son jugement le temps de comprendre un système de l'intérieur, puis peut très bien le juger ensuite (en tant que citoyen, pas en tant que chercheur). Le confondre avec un relativisme moral absolu est le contresens le plus fréquent fait à Boas.
 
 ### Altérité
 

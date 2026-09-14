@@ -52,6 +52,9 @@ L'anthropologie sociale britannique émerge au début du XXe siècle avec des fi
 
 **Note** : Cette distinction tend à s'estomper aujourd'hui, beaucoup parlent d'**anthropologie socioculturelle**.
 
+> [!important] Idée clé
+> Cette scission géographique reflète une divergence théorique de fond, pas juste une différence d'accent : la tradition britannique hérite de [[Émile Durkheim]] et pense la société comme un système de relations objectivement observables (d'où l'ambition structuro-fonctionnaliste d'une science sociale comparable aux sciences naturelles) ; la tradition américaine hérite de [[Franz Boas]] et se méfie des généralisations comparatives au profit de la reconstitution historique de chaque culture particulière.
+
 ## Concepts Fondamentaux
 
 ### Structure Sociale
@@ -135,6 +138,9 @@ La **parenté** est centrale en anthropologie sociale, organisant les relations 
 - Système logique cohérent
 - Explication de l'infortune
 - Oracle du poison comme institution juridique
+
+> [!warning] Piège
+> "Rationalité de la pensée magique" ne veut pas dire que la sorcellerie azande *fonctionne* au sens occidental (causalité physique) — Evans-Pritchard montre que le système de croyance est **rationnel dans sa cohérence interne** (chaque échec de l'oracle a une explication qui préserve le système, chaque malheur trouve une cause) sans jamais trancher la question de sa vérité empirique. Confondre les deux, c'est soit rejeter la sorcellerie comme "simplement irrationnelle" (ethnocentrisme), soit y voir une science alternative valide (relativisme mal posé) — Evans-Pritchard refuse les deux.
 
 **Mary Douglas** : *Purity and Danger* (1966)
 - Pollution et tabou

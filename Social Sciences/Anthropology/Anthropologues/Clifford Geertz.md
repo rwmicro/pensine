@@ -51,6 +51,9 @@ Le concept central de Geertz, emprunté au philosophe Gilbert Ryle. Ryle disting
 
 La thin description enregistre le comportement. La thick description en déchiffre la **signification** — le contexte, l'intention, le code culturel qui donne sens au geste. L'anthropologie, pour Geertz, doit produire des descriptions denses.
 
+> [!warning] Piège
+> "Thick" ne veut pas dire "plus détaillée" au sens quantitatif (plus de faits, plus de mesures) — c'est un changement de nature de l'explication, pas de degré. Une description behavioriste ultra-précise du mouvement de la paupière resterait une *thin description* tant qu'elle ignore le code culturel qui en fait un clin d'œil complice plutôt qu'un tic. Confondre les deux, c'est croire qu'accumuler des données résout le problème herméneutique — alors que le problème est justement qu'aucune quantité de données comportementales ne donne accès au sens sans interprétation.
+
 ## Le combat de coqs balinais
 
 L'essai "Deep Play: Notes on the Balinese Cockfight" (1972) est le texte anthropologique le plus célèbre du XXe siècle.
@@ -111,6 +114,9 @@ Geertz compare l'islam au **Maroc** et en **Indonésie** — deux sociétés mus
 | **Pas de structure** | Geertz ignore les rapports de pouvoir, les inégalités, l'économie politique (critique marxiste) |
 | **Auteur omniscient** | L'anthropologue interprète la culture des autres comme un critique littéraire interprète un roman — mais les "personnages" sont des êtres humains qui pourraient contester l'interprétation |
 | **L'écriture cache le pouvoir** | Les post-modernes (James Clifford, *Writing Culture*, 1986) montrent que la description dense est aussi un acte d'autorité — qui décide ce que le texte "signifie" ? |
+
+> [!important] Idée clé
+> Cette critique de la falsifiabilité est le miroir inversé de celle qu'on adresse au fonctionnalisme de [[Bronisław Malinowski|Malinowski]] : le fonctionnalisme est irréfutable parce qu'on peut toujours trouver *une* fonction à une pratique ; l'interprétation geertzienne est irréfutable parce qu'on peut toujours trouver *un* sens à un symbole. Les deux grandes écoles rivales de l'anthropologie du XXe siècle butent, chacune à sa manière, sur le même problème méthodologique : comment distinguer une explication vraie d'une explication simplement plausible et bien racontée ?
 
 ## Héritage
 
