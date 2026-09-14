@@ -32,6 +32,9 @@ date: "2026-02-22"
 - Diversité ↑ vers équateur (gradient latitudinal)
 - Hypothèses : énergie solaire, stabilité climatique, surface, spéciation
 
+> [!warning] Piège
+> « Biodiversité » se réduit souvent dans l'usage courant au seul niveau spécifique (nombre d'espèces). Mais un écosystème peut perdre l'essentiel de sa biodiversité génétique (donc sa capacité d'adaptation future) tout en gardant le même nombre d'espèces apparentes — c'est ce qui arrive avec l'agriculture intensive : peu d'espèces cultivées, mais chacune avec une base génétique effondrée (quelques variétés commerciales remplaçant des milliers de cultivars locaux).
+
 ### Services Écosystémiques
 
 **Classification (Millennium Ecosystem Assessment, 2005)**
@@ -77,6 +80,9 @@ date: "2026-02-22"
 | 5 | Crétacé-Paléogène | -66 | ~76% dont dinosaures | Astéroïde Chicxulub + volcanism |
 | 6 | **Actuelle (Anthropocène)** | **Aujourd'hui** | **100–1000× taux naturel** | **Activité humaine** |
 
+> [!tip] Méthode
+> Le « taux de fond » (background rate) n'est pas une extrapolation théorique : il se calcule à partir du registre fossile (durée de vie moyenne d'une espèce avant extinction naturelle, de l'ordre du million d'années). Comparer le taux actuel à ce repère, plutôt qu'à un chiffre absolu d'espèces disparues, est ce qui permet de qualifier la crise actuelle de « sixième extinction » au même titre que les cinq du registre géologique.
+
 1. **Ordovicien** (-445 Ma) : 85% espèces
 2. **Dévonien** (-375 Ma) : 75%
 3. **Permien** (-252 Ma) : 96% marines, 70% terrestres (la plus grande)
@@ -92,6 +98,9 @@ date: "2026-02-22"
   - **P**opulation humaine (pression)
   - **O**verharvesting (surexploitation : chasse, pêche, commerce)
   - + **C**limate change (changement climatique, cause croissante)
+
+> [!important] Idée clé
+> Contrairement à la perception publique qui place le changement climatique en tête, la destruction directe de l'habitat (déforestation, conversion agricole, urbanisation) reste de loin la première cause d'extinction actuelle — le climat est une menace croissante mais encore secondaire pour la majorité des espèces. Confondre les deux mène à des priorités de conservation mal calibrées.
 
 **Statut UICN (Union Internationale Conservation Nature)**
 

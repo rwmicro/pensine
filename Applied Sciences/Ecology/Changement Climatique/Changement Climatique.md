@@ -16,6 +16,9 @@ date: "2026-02-22"
 - **Naturel** : +33°C (sans = -18°C moyenne)
 - **Gaz principaux** : H₂O (vapeur), CO₂, CH₄ (méthane), N₂O, O₃, CFC
 
+> [!warning] Piège
+> L'effet de serre naturel n'est pas le problème — sans lui, la Terre serait invivable (-18°C). Le problème climatique est l'**incrément anthropique** qui s'ajoute à cet équilibre préexistant : renforcer une couverture déjà nécessaire au point de déséquilibrer le système, pas créer un phénomène nouveau. Cette distinction évite l'argument fallacieux « le CO₂ est naturel donc inoffensif ».
+
 **Causes Anthropiques**
 
 ```mermaid
@@ -43,6 +46,9 @@ pie title Émissions mondiales de GES (équivalent CO₂)
 - **Négatifs (atténuation)** :
   - + CO₂ → + photosynthèse (saturation possible)
   - + vapeur → + nuages → + réflexion solaire (complexe)
+
+> [!important] Idée clé
+> Ce qui rend le système climatique dangereux n'est pas la moyenne des feedbacks mais leur asymétrie : les rétroactions positives (fonte, permafrost, albédo) sont bien quantifiées et dominent à moyen terme, tandis que les négatives (nuages, saturation photosynthétique) restent incertaines et plafonnent vite. Le système n'a pas de mécanisme d'autorégulation fiable à l'échelle de temps qui nous concerne.
 
 ### Observations et Projections
 
@@ -99,4 +105,7 @@ pie title Émissions mondiales de GES (équivalent CO₂)
   - Calottes Groenland, Antarctique Ouest → engagement multi-mètres niveau mer
   - Permafrost → libération massive CH₄
 - Seuils : probablement entre +1,5 et +2°C
+
+> [!warning] Piège
+> Un point de bascule n'est pas un pic qu'on peut redescendre en inversant la tendance qui l'a causé : au-delà du seuil, l'AMOC ou l'Amazonie basculent vers un nouvel état stable different (hystérésis) — il ne suffit pas de revenir à +1,4°C pour que la forêt repousse ou que la circulation océanique reprenne son cours d'origine. C'est ce qui distingue un tipping point d'un simple dommage réversible.
 
