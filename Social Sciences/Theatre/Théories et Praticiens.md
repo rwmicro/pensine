@@ -21,6 +21,9 @@ date: "2026-02-22"
 - **Sous-texte** : ce qui n'est pas dit mais ressenti
 - Influence mondiale, base des formations
 
+> [!tip] Méthode
+> Le "sous-texte" stanislavskien précède et influence la psychanalyse théâtrale, il n'en découle pas — Stanislavski développe son système dès les années 1900-1910, en observant des acteurs, pas en appliquant une théorie freudienne. Le rapprochement fréquent avec Freud est une lecture rétrospective, utile pédagogiquement mais historiquement inexacte.
+
 ### Bertolt Brecht (1898-1956)
 
 **Théâtre Épique vs Dramatique**
@@ -35,6 +38,9 @@ date: "2026-02-22"
   - Éclairage visible
   - Adresse directe au public
 - But : spectateur pense au lieu de ressentir, conscientisation politique
+
+> [!warning] Piège
+> "Distanciation" ne veut pas dire "rendre le spectacle froid ou ennuyeux" — c'est un contresens fréquent. Le but n'est pas de supprimer l'émotion mais d'empêcher qu'elle se substitue à la réflexion critique : Brecht voulait des spectacles vivants, souvent drôles (chansons, gags), mais qui rappellent sans cesse au public qu'il regarde une construction, pas la réalité.
 
 **Gestus**
 - Geste social : attitude corporelle révélant rapports sociaux
@@ -59,6 +65,9 @@ date: "2026-02-22"
   - **Immédiat** : vivant, présent
 - Recherche universalité, interculturalité
 - *Mahabharata* (9h), *La Tempête*, *La Tragédie de Carmen*
+
+> [!important] Idée clé
+> Les 4 types de théâtre de Brook ne sont pas des catégories d'œuvres mais des états possibles d'une même représentation — un même spectacle peut glisser du "mortel" (routine, absence de présence) au "immédiat" (vivant, ici et maintenant) selon la qualité d'attention des acteurs ce soir-là. C'est un outil de diagnostic pour la répétition, pas une typologie de styles.
 - Bouffes du Nord (Paris) : lieu simple, relation directe
 
 ### Jerzy Grotowski (voir plus haut)

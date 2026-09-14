@@ -17,6 +17,9 @@ date: "2026-02-22"
 - Ton élevé, langue noble
 - Réflexion sur condition humaine, justice, liberté
 
+> [!warning] Piège
+> La catharsis n'est pas "ressentir moins" mais "ressentir pleinement pour se purger" — un contresens fréquent la confond avec un apaisement par distance émotionnelle. C'est l'inverse exact du projet de Brecht (distanciation, cf. [[Théories et Praticiens]]) : Aristote veut l'identification et l'émotion intense, Brecht veut les empêcher pour forcer la réflexion critique.
+
 **Évolution**
 - **Antique** : fatalité, hubris, intervention divine
 - **Classique** : règles strictes, bienséance (pas de mort sur scène)
@@ -72,6 +75,9 @@ date: "2026-02-22"
 - Ibsen, Tchekhov : réalisme psychologique
 - Problèmes sociaux contemporains
 - Ambiguïté morale
+
+> [!tip] Méthode
+> Pour situer une pièce dans ces trois genres, ne pas se fier au ton (une comédie peut être grinçante) mais à la structure de résolution : la tragédie se referme sur une fatalité assumée, la comédie sur un rétablissement de l'ordre social, le drame sur une ambiguïté qui ne se referme pas — c'est précisément ce refus de conclusion nette qui définit le genre depuis Diderot.
 
 ### Formes Spécifiques
 

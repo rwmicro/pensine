@@ -21,6 +21,9 @@ date: "2026-02-22"
 - **Centres Dramatiques Nationaux (CDN)** : 38 en France, décentralisation
 - **Festival d'Avignon** (1947, Jean Vilar) : rendez-vous majeur, In + Off
 
+> [!important] Idée clé
+> Le réseau des CDN n'est pas une simple addition de salles — c'est un choix politique délibéré (Jean Vilar, Malraux, années 1960) de traiter le théâtre comme service public au même titre que l'école, avec mission de démocratisation culturelle inscrite dans le cahier des charges. Le contraste avec Broadway (modèle commercial, rentabilité par la billetterie) n'est donc pas qu'une différence de taille mais de finalité : service public vs industrie du divertissement.
+
 **Belgique**
 - **Théâtre National de la Communauté française** (Bruxelles)
 - **Théâtre royal du Parc** (Bruxelles)

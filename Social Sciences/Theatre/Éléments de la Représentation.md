@@ -41,6 +41,9 @@ date: "2026-02-22"
 - **Constantin Stanislavski** (Théâtre d'Art de Moscou, 1898) : réalisme psychologique
 - **Metteur en scène** devient créateur à part entière
 
+> [!important] Idée clé
+> Pendant des siècles, "monter" une pièce ne demandait pas de créateur unifié — l'auteur ou l'acteur principal dirigeait sommairement, le texte suffisait à porter le sens. L'émergence du metteur en scène comme artiste autonome coïncide avec la crise de la représentation réaliste (Antoine) : quand on cesse de croire que le texte "parle de lui-même", quelqu'un doit décider comment le faire parler.
+
 **Fonctions du Metteur en Scène**
 - Interprétation texte
 - Direction d'acteurs
@@ -80,6 +83,9 @@ date: "2026-02-22"
 - **Grotowski - Théâtre Pauvre**
   - Acteur saint, dépouillement
   - Corps expressif, voix
+
+> [!warning] Piège
+> Le "Method Acting" américain (Strasberg) n'est pas juste la traduction anglaise du système Stanislavski — c'est une radicalisation qui isole la mémoire affective (revivre une émotion personnelle passée) au détriment des autres outils du système (objectif, sous-texte, actions physiques). Stanislavski lui-même s'est éloigné de la mémoire affective en fin de carrière, la jugeant psychologiquement risquée, au profit de la méthode des actions physiques — voir [[Théories et Praticiens]].
 
 **Présence Scénique**
 - Énergie, concentration
