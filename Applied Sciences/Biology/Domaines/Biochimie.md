@@ -69,6 +69,8 @@ Les deux sont couplés : l'énergie libérée par le catabolisme alimente l'anab
 
 L'ATP est la "monnaie énergétique" de la cellule. Chaque réaction qui nécessite de l'énergie consomme de l'ATP (hydrolysé en ADP + Pi), et les réactions qui libèrent de l'énergie rechargent l'ATP.
 
+> [!warning] Piège
+> L'ATP n'est pas une réserve d'énergie comme le glycogène ou les triglycérides — c'est un vecteur à rotation rapide. Une cellule humaine ne stocke que quelques secondes d'ATP à un instant donné ; chaque molécule est hydrolysée et régénérée des milliers de fois par jour. L'énergie « stockée » sur le long terme est ailleurs (lipides, glycogène) ; l'ATP ne fait que la faire transiter vers les réactions qui en ont besoin.
 
 ## La respiration cellulaire
 
@@ -95,6 +97,8 @@ Les pyruvates sont convertis en acétyl-CoA, puis oxydés en CO₂ ; produit des
 ### Chaîne respiratoire (phosphorylation oxydative)
 Les coenzymes réduits cèdent leurs électrons ; l'énergie est utilisée pour synthétiser l'ATP via l'ATP synthase. L'O₂ est l'accepteur final des électrons → eau.
 
+> [!important] Idée clé
+> Les électrons ne se transforment pas directement en ATP — l'étape intermédiaire cruciale est un gradient de protons (chimiosmose, théorie de Mitchell). Le transport d'électrons pompe des H⁺ vers l'espace intermembranaire ; c'est leur reflux à travers l'ATP synthase (comme une turbine) qui phosphoryle l'ADP en ATP. C'est pour ça qu'un découplant chimique (comme le 2,4-DNP) qui rend la membrane perméable aux protons bloque la production d'ATP sans arrêter le transport d'électrons — la chaîne tourne « à vide ».
 
 ## La photosynthèse
 

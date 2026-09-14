@@ -82,6 +82,8 @@ La **méiose** produit 4 cellules filles **haploïdes** (n chromosomes) généti
 
 La **recombinaison génétique** (enjambement) lors de la méiose I génère la diversité génétique.
 
+> [!warning] Piège
+> La méiose ne « coupe pas en deux » en une seule étape — c'est précisément ce qui la rend confuse. La méiose I sépare les paires homologues (une cellule 2n devient deux cellules n, chacune avec des chromosomes encore dupliqués en 2 chromatides), puis la méiose II sépare les chromatides sœurs comme une mitose classique. Sans la méiose I, il n'y aurait pas de brassage des allèles parentaux — c'est elle, pas la méiose II, qui est à l'origine de l'essentiel de la diversité génétique.
 
 ## Cycle cellulaire et cancer
 
@@ -99,3 +101,6 @@ Les **mitochondries** et les **chloroplastes** seraient d'anciens procaryotes "a
 - Leur propre système de ribosomes
 - Leur double membrane
 - Ils se reproduisent par fission binaire comme des bactéries
+
+> [!important] Idée clé
+> La théorie endosymbiotique n'est pas juste une anecdote sur l'origine des organites — elle implique que la cellule eucaryote elle-même est le produit d'une fusion entre organismes autrefois indépendants, pas d'une évolution graduelle depuis une cellule procaryote unique. Voir [[Évolution]] : c'est un des rares cas bien documentés où l'évolution procède par symbiose plutôt que par accumulation lente de mutations.

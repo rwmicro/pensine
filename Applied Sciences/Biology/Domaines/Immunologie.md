@@ -35,6 +35,8 @@ La **deuxième ligne de défense**, plus lente (plusieurs jours) mais très pré
 | Lymphocytes T auxiliaires | Coordination | Activent B et T cytotoxiques |
 | Cellules mémoire | Mémoire | Réponse rapide lors d'une 2e exposition |
 
+> [!important] Idée clé
+> Les lymphocytes T auxiliaires (CD4+) ne combattent aucun pathogène directement — leur rôle est purement de coordination, activer B et T cytotoxiques. C'est pour ça que le VIH, qui cible spécifiquement ces cellules (cf. section *Immunodéficiences*), ne provoque pas une faiblesse immunitaire partielle mais un effondrement de tout le système adaptatif : sans le chef d'orchestre, ni les anticorps ni les cellules tueuses ne sont correctement mobilisés.
 
 ## Les anticorps
 
@@ -54,6 +56,9 @@ Après une première infection, des **cellules mémoire** persistent des années
 - Souvent suffisante pour prévenir la maladie
 
 La **vaccination** exploite ce principe : on expose le système immunitaire à un antigène inoffensif (pathogène affaibli, protéine, ARNm) pour créer une mémoire sans provoquer la maladie.
+
+> [!warning] Piège
+> Un vaccin à ARNm ne modifie pas le génome de la cellule. L'ARNm injecté sert uniquement de patron temporaire pour fabriquer une protéine (ex. la protéine Spike du SARS-CoV-2), il est dégradé en quelques jours par les enzymes cellulaires, et il n'entre jamais dans le noyau — seul l'ADN chromosomique s'y trouve, et l'ARNm n'a pas la machinerie (transcriptase inverse) pour s'y intégrer.
 
 
 ## Maladies auto-immunes

@@ -53,6 +53,9 @@ En réalité, les relations sont plus complexes — on parle de **réseau trophi
 
 **Flux d'énergie :** l'énergie diminue à chaque niveau trophique (~10% est transférée au niveau suivant, le reste est dissipé en chaleur).
 
+> [!important] Idée clé
+> Cette perte de ~90% à chaque niveau, pas une limite biologique arbitraire, explique pourquoi les chaînes alimentaires dépassent rarement 4-5 maillons : au-delà, il ne reste plus assez d'énergie pour soutenir une population viable au niveau suivant. C'est aussi pourquoi manger des végétaux est énergétiquement bien plus efficace que manger de la viande — chaque niveau trophique traversé jette ~90% de l'énergie disponible.
+
 **Pyramide écologique :**
 ```
 Producteurs        : 10 000 kg
@@ -77,6 +80,9 @@ CO₂ atmosphérique ←→ Photosynthèse → Matière organique → Respiratio
 L'augmentation du CO₂ atmosphérique due aux combustibles fossiles est la principale cause du **réchauffement climatique**.
 
 ### Cycle de l'azote
+
+> [!warning] Piège
+> L'azote est l'élément le plus abondant de l'atmosphère (78% en volume) et pourtant c'est souvent le facteur limitant de la croissance végétale — un paradoxe apparent. La raison : la triple liaison N≡N est extrêmement stable, donc inaccessible telle quelle aux plantes malgré son abondance. Seules certaines bactéries savent la rompre (fixation), ce qui fait de cette étape le vrai goulot d'étranglement du cycle, pas la quantité d'azote disponible dans l'air.
 
 L'azote atmosphérique (N₂) doit être "fixé" pour être utilisable par les plantes :
 - **Fixation** : bactéries fixatrices (Rhizobium dans les légumineuses) → NH₃
@@ -120,3 +126,6 @@ On estime que le taux d'extinction actuel est **100 à 1 000 fois** supérieur a
   - Ex. : friche → arbustes → forêt pionnière → forêt mature
 - **Effets de bord** : les zones de contact entre deux habitats sont particulièrement riches en biodiversité
 - **Espèces clés de voûte** : espèces dont la disparition entraîne l'effondrement d'un écosystème (ex. : les loups dans les parcs américains)
+
+> [!tip] Méthode
+> Une espèce clé de voûte n'est pas forcément l'espèce la plus nombreuse ou la plus grande de l'écosystème — c'est le critère le plus trompeur pour l'identifier. À Yellowstone, les loups représentaient une biomasse minime comparée aux wapitis, mais leur réintroduction en 1995 a déclenché une cascade trophique complète (moins de surpâturage → régénération des arbres → retour des castors → changement du cours des rivières). L'effet d'une espèce sur l'écosystème se mesure à son rôle fonctionnel, pas à son abondance.

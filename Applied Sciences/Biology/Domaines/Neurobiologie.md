@@ -38,6 +38,9 @@ Le **potentiel d'action** est le signal électrique qui parcourt l'axone. Il fon
 
 La vitesse de conduction varie de 0,5 m/s (fibres non myélinisées) à 120 m/s (fibres myélinisées).
 
+> [!important] Idée clé
+> Le « tout ou rien » ne signifie pas que l'information transmise est binaire — un stimulus intense ne produit pas un potentiel d'action plus grand (l'amplitude est fixe), mais des potentiels d'action plus fréquents. C'est le **codage fréquentiel** : l'intensité d'une sensation est portée par la fréquence de décharge du neurone, pas par la taille de chaque signal électrique.
+
 
 ## La synapse et les neurotransmetteurs
 
@@ -57,6 +60,9 @@ La **synapse** est la zone de communication entre deux neurones (ou entre un neu
 | **Sérotonine** | Humeur, sommeil, appétit |
 | **Acétylcholine** | Mémoire, muscle (jonction neuromusculaire) |
 | **Noradrénaline** | Éveil, attention, stress |
+
+> [!warning] Piège
+> La dopamine n'est pas la « molécule du plaisir » comme le veut la vulgarisation — les études (Berridge & Robinson) distinguent le *wanting* (désir, motivation à agir, porté par la dopamine) du *liking* (plaisir ressenti à l'obtention, porté surtout par les opioïdes endogènes). La dopamine monte en anticipation d'une récompense, pas seulement à sa réception — c'est ce qui explique son rôle central dans l'addiction : elle pousse à rechercher, pas seulement à apprécier.
 
 
 ## Organisation du système nerveux

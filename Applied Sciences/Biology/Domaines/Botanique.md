@@ -40,6 +40,12 @@ L'étude des plantes et de leur biologie.
 - **Éthylène** : Maturation des fruits
 - **Acide abscissique** : Réponse au stress
 
+> [!example] Exemple
+> L'éthylène est un gaz simple (C₂H₄, deux atomes de carbone) — contre-intuitif pour une hormone, catégorie qu'on associe spontanément à des molécules complexes type stéroïdes ou peptides. C'est pour ça qu'un fruit mûr accélère le mûrissement des fruits voisins dans un même sac : l'éthylène diffuse librement dans l'air ambiant, contrairement aux hormones animales qui circulent dans un système clos (sang).
+
+> [!tip] Méthode
+> Les stomates des feuilles sont un compromis, pas un simple orifice pour la photosynthèse : les ouvrir laisse entrer le CO₂ mais laisse aussi échapper l'eau par transpiration. Une plante en stress hydrique ferme ses stomates — ce qui protège contre la dessiccation mais bloque aussi la photosynthèse. C'est ce compromis, pas la lumière disponible, qui limite souvent la croissance des plantes en climat sec.
+
 **Applications**
 - Agriculture et horticulture
 - Médecine (aspirine du saule, taxol de l'if)
