@@ -226,10 +226,16 @@ L'**histoire** (du grec *historia* = enquête, récit) est la discipline qui ét
 - Distinction cause/prétexte
 - Exemple : [[WW2/Invasion of Poland]] (prétexte) vs. causes profondes (Traité de Versailles)
 
+> [!tip] Méthode
+> Test pratique pour trier cause et prétexte : l'événement invoqué aurait-il suffi seul, dans un autre contexte, à déclencher la même réaction ? Si non, c'est un prétexte qui habille une cause plus profonde déjà mûre — voir [[France/XIX - Colonisation de l'Algérie|le coup d'éventail de 1827]] pour un cas concret appliqué.
+
 ### Anachronisme
 **Erreur :** Projeter nos valeurs actuelles sur le passé
 
 **Exemple :** Juger l'esclavage antique avec notre morale actuelle
+
+> [!warning] Piège
+> Le piège inverse existe aussi : invoquer "l'anachronisme" pour évacuer tout jugement moral sur le passé, ce qui finit par excuser n'importe quoi au nom du contexte de l'époque. L'historien navigue entre deux excès — comprendre sans juger n'est pas la même chose que refuser de nommer une violence structurelle (cf. le débat mémoriel autour de la colonisation, [[France/XIX - Colonisation de l'Algérie]]).
 
 ### Longue Durée vs. Événement
 - **Braudel** : Trois temporalités (temps long, conjoncture, événement)

@@ -33,6 +33,9 @@ C'est un **État non reconnu** : il se gouverne lui-même depuis 1990, mais aucu
 - **Guerre civile** en 1992 (quelques mois) entre forces moldaves et séparatistes soutenus par l'armée russe (14e armée)
 - **Cessez-le-feu** signé en juillet 1992 — la Transnistrie devient de facto indépendante
 
+> [!warning] Piège
+> « De facto indépendante » ne veut pas dire autonome de Moscou — c'est l'inverse. L'indépendance vis-à-vis de la Moldavie s'accompagne d'une dépendance totale envers la Russie (présence militaire, subventions énergétiques, reconnaissance de la monnaie). Le terme masque une réalité : ces territoires ne sont pas des États souverains émergents, mais des zones où un État tiers maintient une influence durable sans les coûts et la visibilité d'une annexion formelle.
+
 ### Depuis 1992
 - Gel du conflit — ni résolution politique ni reprise des hostilités
 - Présence militaire russe permanente (~1 500 soldats de la 14e armée)
@@ -64,3 +67,6 @@ C'est un **État non reconnu** : il se gouverne lui-même depuis 1990, mais aucu
 | Ossétie du Sud | Géorgie | Russie |
 | Kosovo | Serbie | Occident |
 | Haut-Karabakh | Azerbaïdjan | (Arménie, repris en 2023) |
+
+> [!important] Idée clé
+> Quatre des cinq cas de ce tableau sont soutenus par la même puissance. Ce n'est pas une coïncidence géographique : le « conflit gelé » est une doctrine de politique étrangère russe reproduite délibérément dans l'ex-URSS — un territoire séparatiste maintenu dans un entre-deux juridique donne à Moscou un levier permanent sur le pays « hôte » (veto de fait sur son adhésion à l'UE/OTAN) sans jamais avoir à assumer le coût d'une annexion pleine.

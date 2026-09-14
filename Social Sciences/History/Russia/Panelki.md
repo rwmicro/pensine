@@ -27,6 +27,9 @@ Ils incarnent la réponse soviétique à une crise du logement massive : après 
 
 Surnommés **"Khrouchtchevki"** (хрущёвки) en référence au dirigeant Nikita Khrouchtchev qui lança ce programme massif. L'objectif était que chaque famille soviétique ait **son propre appartement**, aussi petit soit-il — c'était un vrai progrès par rapport aux *kommunalki* (appartements partagés entre plusieurs familles).
 
+> [!warning] Piège
+> Une durée de vie prévue de 25 ans qui atteint aujourd'hui 60-70 ans n'est pas un signe de robustesse imprévue — c'est le symptôme classique d'une solution d'urgence devenue permanente faute d'alternative politique ou budgétaire pour la remplacer. Le provisoire soviétique rejoint ici une dynamique universelle des crises du logement : ce qui est construit « pour tenir en attendant mieux » finit par structurer durablement le paysage urbain, bien après que la crise qui l'a motivé a disparu.
+
 ### Ère Brejnev (1964–1982) — Les "Brejnevki"
 
 | Caractéristique | Détail |

@@ -57,6 +57,9 @@ Les premières villes industrielles (Manchester, Birmingham, Leeds) sont marqué
 
 Adam Smith avait théorisé les gains de productivité de la **division du travail** (*La Richesse des nations*, 1776). Karl Marx en a décrit le coût humain : l'**aliénation** — le travailleur devient étranger à son propre travail, ne voyant jamais le produit fini et ne comprenant pas le sens de sa tâche.
 
+> [!warning] Piège
+> Ne pas réduire l'aliénation marxiste à "être mal payé" : c'est un concept structurel, pas salarial. Un ouvrier bien payé qui ne contrôle ni le rythme, ni le sens, ni le produit de son travail reste aliéné au sens de Marx — inversement, un artisan pauvre mais maître de son processus ne l'est pas. La confusion entre pauvreté et aliénation est l'erreur de lecture la plus fréquente de ce concept.
+
 Le travail des enfants est massif dans les premières décennies : des enfants de 6-8 ans travaillent dans les mines et les filatures. Les premières lois de protection (en Grande-Bretagne à partir de 1833) résultent de luttes sociales prolongées.
 
 ### La classe ouvrière et les luttes sociales
@@ -96,6 +99,9 @@ La révolution industrielle transforme la **perception du temps**. Les société
 - La journée divisée en unités de temps vendues au patron
 
 La **montre** de poche, puis la **montre-bracelet**, deviennent des objets de masse au XIXe siècle. Le temps devient une ressource à gérer, à optimiser, à ne pas "perdre". Cette conception du temps comme capital est elle-même un produit de l'industrialisation.
+
+> [!important] Idée clé
+> Ce mécanisme prolonge celui de la [[La Révolution Agricole|révolution agricole]], où l'écriture était née pour comptabiliser les surplus de grain. Les deux révolutions inventent une nouvelle abstraction quantifiable et appropriable (le surplus stocké, puis le temps de travail) — c'est cette capacité à mesurer et posséder une ressource jusque-là vécue sans compte (la récolte, le rythme naturel des saisons) qui rend possibles à la fois l'accumulation de richesse et les hiérarchies sociales qui en découlent.
 
 ## Un bilan ambigu
 

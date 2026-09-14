@@ -71,6 +71,9 @@ date: "2025-12-31"
   - Estimations d'historiens (Stora, Branche) : 5 000 à 12 000
 - Radicalisation des deux côtés, point de non-retour du conflit
 
+> [!warning] Piège
+> Un écart d'un facteur 10 entre bilan officiel et estimation de la partie adverse n'est pas propre à Philippeville — c'est la norme dans ce conflit (voir aussi le bilan du massacre de Sétif plus bas). Chaque camp a intérêt à manipuler le chiffre dans un sens : l'occupant pour minimiser sa répression, l'insurgé pour maximiser l'indignation internationale. Le nombre "vrai" se situe presque toujours entre les deux bornes officielles, jamais à l'une d'elles.
+
 ### Phase 2: Bataille d'Alger (1957)
 
 **FLN à Alger:**
@@ -88,6 +91,9 @@ date: "2025-12-31"
 - Victoire militaire française (réseau détruit)
 - Défaite morale (torture dénoncée internationalement)
 - Scandale: témoignages Alleg (*La Question*), Vidal-Naquet
+
+> [!important] Idée clé
+> La Bataille d'Alger illustre un schéma classique de la guerre contre-insurrectionnelle : gagner tactiquement (le réseau FLN est démantelé) en perdant stratégiquement (la torture révélée retourne l'opinion internationale et achève de délégitimer la présence française). Le film de Pontecorvo capture précisément cette tension — victoire militaire et défaite politique ne s'annulent pas, la seconde finit par l'emporter sur le temps long.
 
 ### Phase 3: Guerre Totale (1958-1960)
 

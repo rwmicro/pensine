@@ -56,6 +56,9 @@ La révolution agricole est souvent présentée comme un progrès évident : les
 
 Le paradoxe : **la révolution agricole a amélioré le sort de l'espèce (plus d'individus), mais a souvent dégradé le sort de l'individu**.
 
+> [!important] Idée clé
+> Ce paradoxe espèce/individu n'est pas propre à l'agriculture — il se reproduit à l'identique lors de la [[La Révolution Industrielle|révolution industrielle]] (richesse matérielle moyenne en hausse, conditions de l'ouvrier d'usine dégradées par rapport à l'artisan) : chaque grande transition économique de l'histoire humaine semble suivre le même schéma, où le "progrès" se mesure à l'échelle du groupe, jamais garanti à l'échelle de la personne qui le vit.
+
 ## "Le blé a domestiqué les humains"
 
 Cette formulation provocatrice renverse la perspective habituelle. Du point de vue du blé (*Triticum aestivum*), la révolution agricole est un succès évolutif extraordinaire : une espèce qui occupait quelques milliers d'hectares au Proche-Orient il y a 10 000 ans couvre aujourd'hui 220 millions d'hectares à travers le monde. C'est l'une des plantes les plus répandues sur Terre.
@@ -83,3 +86,6 @@ Les données archéologiques suggèrent que la violence interpersonnelle létale
 ## Irréversibilité
 
 Une fois engagé dans l'agriculture, il est très difficile pour un groupe de faire marche arrière. Les populations agricoles croissent plus vite que les populations de chasseurs-cueilleurs. En cas de compétition pour les terres, les agriculteurs — plus nombreux — finissent par déplacer les chasseurs-cueilleurs. C'est ce qui s'est produit sur l'ensemble des continents habités : non pas parce que l'agriculture était "meilleure" pour l'individu, mais parce qu'elle était "meilleure" pour la multiplication du groupe.
+
+> [!tip] Méthode
+> Ce mécanisme d'irréversibilité est un cliquet démographique, pas un choix rationnel répété : dès qu'un groupe voisin adopte l'agriculture, tous les autres sont contraints de suivre ou de disparaître numériquement, indépendamment de leurs préférences individuelles. Utile pour repérer le même type de dynamique ailleurs — une innovation n'a pas besoin d'être meilleure pour la personne pour devenir universelle, il suffit qu'elle avantage la reproduction du groupe qui l'adopte.

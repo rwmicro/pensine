@@ -61,6 +61,9 @@ La **Wehrmacht** est l'armée régulière de l'Allemagne nazie (1935–1945). El
 
 La **Waffen-SS** est une force militaire distincte, sous commandement SS (Heinrich Himmler), avec sa propre hiérarchie :
 
+> [!important] Idée clé
+> Cette hiérarchie parallèle n'est pas une simple redondance bureaucratique : dupliquer une chaîne de commandement militaire sous contrôle du parti (et non de l'État) est un mécanisme classique de sécurisation du pouvoir totalitaire — l'armée régulière (Heer) reste soumise à un serment traditionnel et à une culture d'officiers pré-nazie, tandis que la Waffen-SS, recrutée et formée idéologiquement par le régime, sert de garantie que la force armée ne puisse jamais se retourner contre le parti.
+
 | SS | Équivalent Wehrmacht |
 |----|---------------------|
 | Reichsführer-SS | Generalfeldmarschall |

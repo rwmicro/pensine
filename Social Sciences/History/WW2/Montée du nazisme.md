@@ -82,6 +82,9 @@ date: "2025-12-31"
 - Écrit *Mein Kampf* en prison
 - **Leçon:** Prendre pouvoir **légalement**, pas par coup d'État
 
+> [!important] Idée clé
+> C'est le tournant stratégique le plus sous-estimé de toute l'ascension nazie. Un putsch raté enseigne à Hitler que la force brute échoue face à un État encore fonctionnel, mais que ce même État, une fois affaibli par la crise, peut être conquis de l'intérieur par ses propres règles (élections, nomination constitutionnelle, article 48). Le nazisme de 1933 n'est pas un coup de force qui a réussi là où celui de 1923 avait échoué — c'est une stratégie entièrement différente, qui exploite la légalité au lieu de la contourner.
+
 ## Le Parti Nazi (NSDAP)
 
 ### Origines
@@ -281,6 +284,9 @@ date: "2025-12-31"
 - Croit pouvoir **manipuler Hitler**
 - "Nous l'avons embauché" (*"Wir haben ihn uns engagiert"*)
 - Erreur fatale
+
+> [!warning] Piège
+> Ce calcul — « nous le contrôlons, il nous sert de marchepied » — n'est pas une bêtise isolée de Von Papen : c'est un schéma récurrent de l'histoire politique (élites conservatrices croyant instrumentaliser un mouvement radical pour écraser un adversaire commun, avant d'être elles-mêmes marginalisées). Le point aveugle n'est pas de sous-estimer Hitler comme individu, mais de sous-estimer qu'un mouvement de masse organisé n'a pas besoin de ses alliés élitaires une fois au pouvoir.
 
 **Industriels et Junkers:**
 - Financent partiellement nazis

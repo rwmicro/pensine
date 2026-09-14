@@ -237,6 +237,9 @@ Les Arabes constituent la très large majorité de la population syrienne, mais 
 - Instrumentalisation de la peur des minorités
 - Slogan du régime : "Assad ou le chaos"
 
+> [!important] Idée clé
+> Gouverner avec une minorité (~25% de la population) n'est viable que si cette minorité craint davantage l'alternative que le régime lui-même — la survie politique dépend donc moins de la popularité que de l'entretien actif de cette peur chez les alliés minoritaires. C'est un mécanisme qu'on retrouve dans d'autres régimes de coalition minoritaire (l'apartheid sud-africain, certains régimes coloniaux tardifs) : la répression de la majorité n'est pas un effet secondaire, elle est la condition qui maintient la coalition minoritaire soudée.
+
 ### La Fragmentation de l'Opposition (2011-2024)
 
 #### Opposition Modérée (affaiblie)
@@ -298,6 +301,9 @@ Les Arabes constituent la très large majorité de la population syrienne, mais 
 - Les zones contrôlées par le régime sont devenues plus **alaouites/chiites** (départs sunnites)
 - Le nord-ouest (Idlib) est devenu quasi-exclusivement **sunnite** (concentration de déplacés)
 - Le nord-est est devenu plus **kurde** (autonomie du Rojava)
+
+> [!warning] Piège
+> Ne pas lire cette homogénéisation comme le retour d'une « séparation naturelle » des communautés après un conflit qui aurait révélé des divisions préexistantes. C'est l'inverse : avant 2011, Homs, Alep et Damas étaient des villes largement mixtes. La carte confessionnelle de 2024 n'est pas la photographie d'une Syrie « vraie » retrouvée sous le vernis du régime laïque — c'est le résultat direct de déplacements forcés et de nettoyage ethnique délibérés.
 
 ## Perspectives d'Avenir
 

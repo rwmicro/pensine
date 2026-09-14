@@ -37,6 +37,9 @@ Liés à la Pologne par des traités d'alliance, la France et le Royaume-Uni dé
 
 Mais ils n'attaquent **pas immédiatement** : c'est le début de la **"drôle de guerre"** — 8 mois de quasi-inaction à l'Ouest pendant que la Pologne se fait écraser.
 
+> [!warning] Piège
+> Ne pas lire cette inaction comme un simple manque de volonté ou une trahison de l'alliance. La France et le Royaume-Uni n'ont ni l'armée mobilisée ni le plan offensif prêt en septembre 1939 — leur stratégie repose sur le blocus économique à long terme, pas sur une offensive immédiate. C'est une erreur de calcul stratégique (sous-estimer la vitesse de la Blitzkrieg à venir), pas une simple lâcheté politique envers la Pologne.
+
 ![Une de Paris-Soir — 3 septembre 1939](sources/images/PARIS-SOIR-3-09-1939.jpg)
 
 ### 17 septembre 1939 — L'attaque soviétique
@@ -67,6 +70,9 @@ Le 5 octobre, Hitler assiste au défilé de la victoire dans une Varsovie en rui
 - **Le gouvernement polonais en exil** se reconstitue à Londres
 - **L'armée polonaise** continue le combat en France, puis en Grande-Bretagne
 - **Début de la Shoah** en territoire polonais occupé : la Pologne compte 3,3 millions de Juifs, la plus grande communauté d'Europe
+
+> [!important] Idée clé
+> Ce n'est pas un hasard géographique si la Shoah s'organise principalement en Pologne occupée plutôt qu'en Allemagne même : la partition de 1939 place le nazisme en contact direct avec la plus grande concentration juive d'Europe, loin du regard de l'opinion publique allemande, sur un territoire déjà classé comme « espace de germanisation » (cf. [[Lebensborn]]). La géographie de l'invasion dessine, sans le dire encore, la géographie du génocide à venir.
 
 
 ## Pour approfondir

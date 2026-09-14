@@ -45,6 +45,9 @@ La *Gazette* remplit trois fonctions pour le pouvoir :
 
 Renaudot écrit : "L'histoire est le récit des choses advenues ; la Gazette, le bruit qui court." En réalité, la *Gazette* publie les nouvelles que le pouvoir veut voir publiées.
 
+> [!warning] Piège
+> Ne pas confondre "premier journal français" et "naissance de la presse libre" — ce sont deux généalogies opposées. La *Gazette* naît comme instrument de propagande d'État, pas comme contre-pouvoir : c'est l'inverse de la fonction qu'on associe spontanément au journalisme aujourd'hui. La presse française ne rejoint la trajectoire "presse = liberté" que près de 250 ans plus tard, avec la loi de 1881.
+
 ## Contexte européen
 
 La France n'est pas pionnière. La presse périodique naît presque simultanément dans plusieurs pays européens :
@@ -58,6 +61,9 @@ La France n'est pas pionnière. La presse périodique naît presque simultanéme
 | **France** | *Gazette* | 1631 | Sous contrôle royal |
 
 Les Pays-Bas sont le centre de la presse libre en Europe au XVIIe siècle : pas de censure préalable, gazettes en français imprimées à Amsterdam et diffusées dans toute l'Europe francophone, y compris clandestinement en France.
+
+> [!important] Idée clé
+> Le contraste France/Pays-Bas n'est pas un hasard éditorial : il suit directement le degré de centralisation politique. Une monarchie absolue qui concentre le pouvoir a structurellement besoin de contrôler l'information pour le conserver ; une république marchande décentralisée n'a pas le même intérêt ni les mêmes moyens de censure. La liberté de la presse est d'abord une conséquence de la structure de l'État, pas un choix culturel isolé.
 
 ## Le régime des privilèges
 

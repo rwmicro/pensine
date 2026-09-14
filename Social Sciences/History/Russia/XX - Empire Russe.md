@@ -25,6 +25,9 @@ Pierre Ier est obsédé par une idée : faire de la Russie une puissance europé
 
 **Limites :** le servage reste intact. La modernisation est superficielle — elle touche l'élite, pas la paysannerie.
 
+> [!important] Idée clé
+> Ce schéma — moderniser l'appareil d'État et militaire tout en laissant intactes les structures sociales qui bloquent une vraie transformation — se répète à chaque tentative de réforme russe jusqu'en 1917 (Catherine II, Alexandre II) et au-delà. La modernisation par le haut sans changement des rapports de production en bas crée une puissance militaire réelle sur une base économique fragile, un écart qui finit toujours par se payer (défaites de Crimée 1856, du Japon 1905, de 1917).
+
 
 ## L'ère des tsarines (1725–1762)
 
@@ -77,6 +80,9 @@ Sous le choc de la défaite en Crimée, Alexandre II engage les plus grandes ré
 - Développement du chemin de fer
 
 **Fin tragique :** Malgré (ou à cause de) ses réformes, il est assassiné en 1881 par des révolutionnaires populistes. Son successeur Nicolas II, traumatisé, inversera toutes les réformes libérales.
+
+> [!warning] Piège
+> « Malgré (ou à cause de) » n'est pas une hésitation rhétorique gratuite : c'est le paradoxe de Tocqueville appliqué à la Russie — les régimes les plus dangereux pour eux-mêmes sont ceux qui commencent à réformer, car la réforme fait naître des attentes (ici, une émancipation paysanne perçue comme incomplète, sans terre) que le régime ne peut ensuite satisfaire ni retirer sans crise. Ce n'est pas l'immobilisme qui a tué Alexandre II, mais le mouvement.
 
 
 ## La chute de l'Empire (1881–1917)
