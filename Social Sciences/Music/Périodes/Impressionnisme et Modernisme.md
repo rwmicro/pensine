@@ -33,6 +33,9 @@ date: "2026-02-22"
 - "Musicien français" contre hégémonie germanique
 - Influence jazz, Messiaen, minimalisme
 
+> [!warning] Piège
+> Debussy détestait l'étiquette "impressionniste" pour sa musique — terme de critique d'art (péjoratif à l'origine, pour Monet) plaqué sur lui par des journalistes musicaux. Il s'en réclamait plutôt du symbolisme littéraire (Mallarmé, Verlaine). Utile de le savoir avant de comparer trop vite avec [[Impressionnisme]] en peinture.
+
 **Maurice Ravel (1875-1937):**
 - Orchestrateur génial
 - Précision horlogère, nostalgie
@@ -58,4 +61,7 @@ date: "2026-02-22"
 - Réaction contre Wagner et impressionnisme
 - Cocteau (poète)
 - Membres: Poulenc, Milhaud, Honegger, Auric, Durey, Tailleferre
+
+> [!tip] Méthode
+> Ne pas chercher un style musical commun aux Six : le nom vient d'un article de journaliste (Henri Collet, 1920) qui les a groupés par amitié et posture anti-Wagner/anti-impressionniste, pas par esthétique partagée — Milhaud (polytonalité, jazz) et Poulenc (néoclassique, mélodique) sonnent très différemment.
 

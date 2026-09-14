@@ -41,12 +41,18 @@ La Grèce est la première civilisation à développer une **théorie musicale**
 
 Cette découverte fonde l'idée que la musique est régie par les mathématiques — et que l'univers lui-même est musical. Les pythagoriciens parlent de l'"**harmonie des sphères**" : les planètes, en tournant, produiraient une musique cosmique inaudible à l'oreille humaine. Cette idée traverse Platon, le Moyen Âge, Kepler (*Harmonices Mundi*, 1619) et influence encore la pensée occidentale.
 
+> [!important] Idée clé
+> Ces ratios simples restent la base théorique de la consonance encore aujourd'hui (cf. [[Acoustique et Physique du Son]]), mais l'accordage "juste" qui en découle strictement pose un problème pratique : il ne permet pas de moduler librement entre tonalités. C'est ce problème — pas une lubie esthétique — qui mènera des siècles plus tard au tempérament égal du [[Baroque]] (Bach, *Clavier bien tempéré*), un compromis qui sacrifie la pureté pythagoricienne à la flexibilité.
+
 ### La doctrine de l'ethos
 
 Pour les Grecs, la musique a un **pouvoir direct sur l'âme** et le caractère. C'est la doctrine de l'*ethos* :
 - **Platon** (*La République*) : certains modes doivent être interdits dans la cité idéale car ils amollissent les citoyens. Seuls les modes dorien (courage) et phrygien (modération) sont acceptables. La musique est un outil d'éducation politique
 - **Aristote** (*Politique*) : plus nuancé — la musique a aussi une fonction de catharsis (purification des émotions), de divertissement et de détente intellectuelle
 - Le mythe d'**Orphée** incarne ce pouvoir : sa lyre charme les animaux, les arbres, les pierres, et convainc même Hadès de libérer Eurydice
+
+> [!warning] Piège
+> Platon n'interdit pas certains modes parce qu'ils "sonneraient mal" au sens esthétique moderne — sa doctrine de l'*ethos* est une théorie politique de l'éducation : la musique façonne directement le caractère du citoyen, donc un mode "mou" produirait des citoyens mous. Lire ce passage comme un jugement de goût plutôt qu'un programme civique fait perdre l'essentiel de l'argument.
 
 ### Instruments
 
