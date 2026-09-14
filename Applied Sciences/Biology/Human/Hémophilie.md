@@ -41,6 +41,9 @@ L'hémophilie A et B sont des maladies **récessives liées au chromosome X**.
 - Les **hommes** (XY) sont **malades** s'ils héritent du X défectueux (ils n'ont pas de X de secours)
 - Résultat : l'hémophilie touche presque exclusivement les hommes (1 garçon sur 5 000–10 000)
 
+> [!important] Idée clé
+> Ne pas confondre avec l'avantage hétérozygote (cf. résistance au paludisme dans [[Évolution Humaine]]) : ici, être porteuse hétérozygote n'apporte aucun bénéfice adaptatif, c'est une pure question d'arithmétique chromosomique — la femme a un second X qui compense, l'homme n'en a pas. Le gène n'est maintenu dans la population par aucune pression sélective favorable, contrairement à l'hémoglobine S.
+
 
 ## Symptômes selon la sévérité
 
@@ -69,3 +72,6 @@ L'hémophilie est célèbre dans l'histoire pour avoir touché les familles roya
 - Sa petite-fille **Alix** (tsarine Alexandra de Russie) transmet le gène à son fils **Alexis Romanov** — dont la maladie ouvre la porte à l'influence de Raspoutine
 
 C'est pourquoi on l'a longtemps appelée **"la maladie royale"**.
+
+> [!warning] Piège
+> Aucun ancêtre connu de la reine Victoria n'était porteur ou atteint — son cas est presque certainement une **mutation de novo** (mutation spontanée dans un de ses gamètes, pas héritée). C'est un rappel utile : une maladie génétique récessive n'implique pas forcément une lignée porteuse antérieure, elle peut apparaître de zéro à chaque génération par mutation aléatoire.

@@ -41,6 +41,8 @@ En 1858, il reçoit un manuscrit d'**Alfred Russel Wallace**, naturaliste travai
 
 Sur de nombreuses générations, ce filtre modifie la composition de la population : c'est la **descendance avec modification**.
 
+> [!warning] Piège
+> « La survie du plus fort » (Spencer, pas Darwin) fait croire à une compétition physique brutale. Le critère réel est la **reproduction différentielle** : un individu chétif mais qui laisse plus de descendants fertiles est mieux sélectionné qu'un individu robuste et stérile. La *fitness* évolutive se mesure en descendants viables, pas en force ou en survie individuelle.
 
 ## Les preuves de l'évolution
 
@@ -65,6 +67,9 @@ La sélection naturelle n'est qu'un des moteurs. La **génétique des population
 | **Dérive génétique** | Variation aléatoire des fréquences, surtout en petite population | Effet fondateur, goulot d'étranglement |
 | **Flux génique** | Échange de gènes entre populations par migration | Recolonisation d'un milieu après extinction locale |
 | **Recombinaison** | Brasse les combinaisons d'allèles à chaque génération | Méiose et reproduction sexuée |
+
+> [!important] Idée clé
+> La dérive génétique n'est pas un mécanisme secondaire à la sélection naturelle — dans les petites populations, elle peut la dominer complètement. Un allèle légèrement délétère peut se fixer par pur hasard (aucun rapport avec un avantage adaptatif), et un allèle avantageux peut disparaître avant même d'avoir eu la chance de se répandre. C'est le contre-exemple direct à l'idée reçue que « si un trait persiste, c'est qu'il devait être adaptatif ».
 
 À ces mécanismes s'ajoutent des dynamiques particulières : **sélection sexuelle** (paon, andouillers du cerf), **co-évolution** (plantes / pollinisateurs, hôte / parasite), **sélection équilibrante** (maintien du polymorphisme), **radiation adaptative** (colonisation rapide de niches vacantes).
 

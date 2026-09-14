@@ -62,6 +62,9 @@ flowchart LR
 
 Le mycélium étend la surface d'absorption racinaire d'un facteur 100 à 1 000. Cas extrême : la **truffe noire du Périgord** (*Tuber melanosporum*) pousse exclusivement en symbiose avec le chêne ou le noisetier — d'où l'impossibilité de la cultiver hors sol.
 
+> [!warning] Piège
+> La symbiose mycorhizienne n'est pas un pacte fixe et altruiste — c'est un échange dont les termes varient selon le contexte. Quand une plante a peu à offrir (faible photosynthèse) ou que le champignon peut prélever plus qu'il ne rend, la relation peut glisser vers un parasitisme discret côté champignon. Parler de « coopération » masque une dynamique en réalité négociée en continu, pas un contrat stable entre espèces.
+
 ### Le « Wood Wide Web »
 
 Les recherches de Suzanne Simard (années 1990, confirmées depuis) ont montré que les mycéliums forment un réseau qui **relie les arbres entre eux** : ils s'échangent du carbone, de l'eau, et même des signaux chimiques d'alerte (insectes ravageurs, sécheresse). Une forêt mature n'est pas une collection d'arbres mais un **superorganisme**.
@@ -125,3 +128,6 @@ Production industrielle d'enzymes (lessives, alimentaire), de biocarburants, de 
 | **Gyromitre** (*Gyromitra esculenta*) | Gyromitrine | Toxique, jadis considéré comestible |
 
 **Règle d'or** : ne jamais consommer un champignon sans identification certaine — la confusion entre l'**amanite phalloïde** (mortelle) et certains **agarics** comestibles est responsable de la majorité des intoxications graves chaque automne en Europe.
+
+> [!warning] Piège
+> Les tests populaires (une cuillère en argent qui noircit, un champignon rongé par les limaces donc « sûr », la peau qui pèle facilement) n'ont aucune valeur scientifique et ont causé des morts. L'amanite phalloïde est mangée avec appétit par les limaces et les tests chimiques improvisés ne détectent pas les amatoxines. Seule une identification botanique fiable (espèce par espèce) protège réellement.

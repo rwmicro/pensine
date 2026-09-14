@@ -22,6 +22,9 @@ Depuis les années 2010, plusieurs technologies permettent de manipuler le vivan
 
 **Cas emblématique CRISPR** — En 2023, la FDA américaine et la MHRA britannique ont approuvé *Casgevy*, première thérapie CRISPR commercialisée, qui traite la drépanocytose. Coût : ~2,2 millions de dollars par patient. La technologie marche — la question devient *qui y aura accès ?*
 
+> [!important] Idée clé
+> Casgevy et l'affaire He Jiankui ne posent pas le même problème éthique, bien que les deux utilisent CRISPR : Casgevy édite des cellules souches sanguines *somatiques* du patient (modification non transmissible, limitée à lui), tandis que He Jiankui a édité des embryons *germinaux* (modification transmise à toute la descendance). Le moratoire international de 2018 vise spécifiquement l'édition germinale — l'édition somatique, elle, est un marché en expansion normale.
+
 ## Santé publique — pandémies et résistances
 
 ### Pandémies
@@ -38,6 +41,9 @@ L'OMS classe la résistance antimicrobienne (AMR) parmi les **dix principales me
 - Usage massif d'antibiotiques en élevage (~70 % de la consommation mondiale)
 - Prescriptions humaines abusives (rhumes viraux traités par antibiotiques)
 - Sous-investissement R&D (aucune nouvelle classe majeure depuis 1987)
+
+> [!warning] Piège
+> Les antibiotiques ne "s'usent" pas et les bactéries ne "s'habituent" pas au sens où un individu développerait une tolérance — c'est de la sélection darwinienne pure : dans une population bactérienne, quelques mutants résistants préexistent déjà par hasard avant tout traitement ; l'antibiotique élimine les sensibles et laisse le champ libre aux résistants, qui se multiplient. Plus l'usage est massif et mal ciblé, plus vite cette sélection opère — d'où le lien direct avec la surconsommation en élevage.
 
 ### Maladies chroniques
 

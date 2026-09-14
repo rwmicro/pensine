@@ -24,6 +24,9 @@ Il y a environ 6 millions d'années, une lignée de grands singes africains se s
 
 Homo sapiens est aujourd'hui la seule espèce humaine survivante. Cette domination exclusive est récente à l'échelle géologique.
 
+> [!warning] Piège
+> Ce tableau contredit l'image populaire d'une évolution en ligne droite ("le singe qui devient homme" façon frise de progrès) : six espèces humaines coexistaient, ce qui montre un buisson de lignées parallèles, pas une échelle avec l'humain moderne au sommet prédestiné. Homo sapiens n'était qu'une branche parmi d'autres — sa survie exclusive est un résultat contingent, pas un aboutissement logique de l'évolution.
+
 ## Caractéristiques biologiques distinctives
 
 Notre cerveau est disproportionné par rapport à notre corps. Le cerveau humain représente environ 2 à 3 % de la masse corporelle mais consomme 25 % de l'énergie totale de l'organisme au repos. Cette hypertrophie cérébrale est une anomalie évolutive coûteuse, possible seulement grâce à des adaptations conjointes :
@@ -67,5 +70,8 @@ L'évolution biologique d'Homo sapiens ne s'est pas arrêtée. Des adaptations r
 - La **tolérance au lactose** à l'âge adulte (sélection chez les populations d'éleveurs)
 - La **résistance au paludisme** (hémoglobine S dans certaines populations africaines)
 - La **pigmentation variable** de la peau selon la latitude (compromis entre protection UV et synthèse de vitamine D)
+
+> [!tip] Méthode
+> L'hémoglobine S illustre un piège classique de génétique : elle ne protège du paludisme que chez les *hétérozygotes* (une seule copie du gène) ; les *homozygotes* développent la drépanocytose, maladie grave. C'est un avantage hétérozygote typique — le gène persiste dans la population parce que son bénéfice collectif (protection du plus grand nombre) dépasse son coût individuel (maladie chez une minorité d'homozygotes).
 
 Cependant, depuis la révolution industrielle et surtout depuis la médecine moderne, la sélection naturelle sur l'espèce humaine est profondément perturbée : des traits autrefois létaux deviennent compatibles avec la survie et la reproduction.

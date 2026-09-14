@@ -48,6 +48,9 @@ La plupart des régulations fonctionnent par **rétroaction négative** : la ré
 
 *Exemple : glycémie trop haute → pancréas sécrète de l'insuline → cellules captent le glucose → glycémie redescend.*
 
+> [!warning] Piège
+> Ne pas confondre rétroaction négative et effet négatif : "négative" décrit seulement le sens de la correction (elle s'oppose au stimulus), pas une conséquence désagréable. Il existe aussi des rétroactions positives (la réponse amplifie la perturbation) — rares en physiologie normale car instables, mais essentielles ponctuellement : les contractions utérines à l'accouchement s'auto-amplifient jusqu'à la naissance, pas de retour à l'équilibre.
+
 
 ## Le système cardiovasculaire
 
@@ -119,3 +122,6 @@ Les **reins** filtrent environ 180 L de sang par jour. Ils produisent ~1,5 L d'u
 - **Filtration glomérulaire** : sang filtré sous pression dans la capsule de Bowman
 - **Réabsorption tubulaire** : récupération des substances utiles (glucose, eau, ions)
 - **Sécrétion** : élimination active de certains déchets dans le tubule
+
+> [!important] Idée clé
+> Filtrer 180 L/jour pour n'en excréter que 1,5 L semble un gaspillage énorme (99% réabsorbé), mais c'est le prix du contrôle fin : filtrer sans discernement puis réabsorber sélectivement permet au rein d'ajuster précisément chaque substance indépendamment (garder tout le glucose, ajuster le sodium selon l'apport, etc.), ce qu'une filtration "économe" en amont ne permettrait pas.

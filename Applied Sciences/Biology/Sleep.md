@@ -34,6 +34,9 @@ A complete sleep cycle progresses through these stages:
 3. **Stage 3 (N3)** - Deep sleep / Slow-wave sleep (15-25%)
 4. **REM** - Rapid Eye Movement (20-25%)
 
+> [!warning] Piège
+> Ces pourcentages masquent une asymétrie importante : le sommeil profond (N3) domine en première moitié de nuit, tandis que le sommeil paradoxal (REM) s'allonge progressivement vers le matin. Se coucher tard ou écourter la nuit ne réduit donc pas le sommeil "uniformément" — ça ampute disproportionnellement le REM (mémoire émotionnelle, créativité), qui arrive plus tard dans le cycle.
+
 ### Functions of Sleep
 
 **Physical Restoration**
@@ -47,6 +50,9 @@ A complete sleep cycle progresses through these stages:
 - Learning enhancement
 - Emotional regulation
 - Toxin removal from brain (glymphatic system)
+
+> [!important] Idée clé
+> Le système glymphatique n'est actif à pleine capacité que pendant le sommeil profond (N3) — les espaces entre les cellules cérébrales s'élargissent, permettant au liquide céphalo-rachidien de rincer les déchets métaboliques, dont la protéine β-amyloïde. C'est un lien direct et sous-estimé entre dette de sommeil chronique et risque accru de maladies neurodégénératives (voir [[Alzheimer]]) — pas juste une corrélation vague "bien dormir c'est bon pour le cerveau".
 
 ### Sleep Hygiene
 

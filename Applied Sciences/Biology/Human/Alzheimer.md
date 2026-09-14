@@ -50,6 +50,9 @@ Ces enzymes sont donc cruciales dans la formation des plaques amyloïdes
 #### **Protéine Ta**
 La protéine Tau stabilise normalement les microtubules dans les neurone. Dans la maladie d'Alzheimer, elle devient anormalement phosphorylée, formant des enchevêtrements neurofibrillaires qui perturbent le transport neuronal et conduisent à la mort cellulaire.
 
+> [!important] Idée clé
+> "Alzheimer = plaques amyloïdes" est une simplification trompeuse : ce sont en réalité deux pathologies distinctes qui se superposent — les plaques Aβ (extracellulaires, entre les neurones) et les enchevêtrements Tau (intracellulaires, dans les neurones). Elles apparaissent à des moments différents et selon des trajectoires spatiales différentes dans le cerveau ; c'est d'ailleurs la propagation de Tau, plus que celle des plaques, qui corrèle le mieux avec la sévérité clinique.
+
 #### **Autres enzyme**
 Des études ont identifié d'autres enzymes impliquées dans la maladie, telles que la nicastrine, composant du complexe γ-sécrétase, et des enzymes associées à l'inflammation et au stress oxydatif.
 
@@ -60,6 +63,9 @@ Des études ont identifié d'autres enzymes impliquées dans la maladie, telles 
 - ***Donanemab** : anticorps monoclonal ciblant les plaques amyloïdes, ayant montré une réduction significative de l'accumulation de ces plaques et un ralentissement du déclin cognitif dans les essais cliniques.
 
 - ***Lecanemab** : autre anticorps monoclonal visant les formes solubles de l'Aβ, approuvé dans certains pays pour les stades précoces de la maladie.
+
+> [!warning] Piège
+> Le donanemab et le lecanemab éliminent bien les plaques amyloïdes visibles en imagerie — mais leur effet clinique sur le déclin cognitif reste modeste (ralentissement de l'ordre de 20-30%, pas d'arrêt ni d'inversion). Ce décalage nourrit un vrai débat scientifique : l'hypothèse amyloïde (les plaques comme cause première) est peut-être incomplète, la cascade Tau/neuro-inflammation jouant un rôle plus déterminant que prévu.
 
 #### **Biomarqueurs et diagnostic précoce**
 

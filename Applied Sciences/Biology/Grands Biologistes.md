@@ -29,6 +29,9 @@ L'histoire de la biologie est celle d'une succession de révolutions conceptuell
 | **Gregor Mendel** | 1822-1884 | Moine augustin. Expériences sur l'hybridation des pois dans son jardin de monastère (Brno, Moravie). Découvre les **lois de l'hérédité** : caractères dominants et récessifs, ségrégation, assortiment indépendant. Publié en 1866 — totalement ignoré pendant 35 ans, redécouvert en 1900. Fondateur de la génétique |
 | **Louis Pasteur** | 1822-1895 | Réfute la génération spontanée, fonde la **microbiologie**. Pasteurisation, théorie des germes (les maladies sont causées par des micro-organismes), vaccins (rage, charbon). Avec Robert Koch, il révolutionne la médecine |
 
+> [!warning] Piège
+> Lamarck n'est pas "le savant qui s'est trompé" par opposition à Darwin qui aurait "eu raison" — les deux partagent l'intuition juste que les espèces évoluent, mais divergent sur le mécanisme. Lamarck imagine une transmission directe des caractères acquis (le cou de la girafe s'allonge par l'effort, puis se transmet) ; Darwin explique la même variation par sélection d'individus déjà variables au hasard, sans effort ni intention. L'épigénétique moderne redonne d'ailleurs un peu de crédit à des mécanismes proches du lamarckisme, sans valider son mécanisme original.
+
 ## Biologie moléculaire (XXe siècle)
 
 | Biologiste | Dates | Contributions |
@@ -36,6 +39,9 @@ L'histoire de la biologie est celle d'une succession de révolutions conceptuell
 | **Thomas Hunt Morgan** | 1866-1945 | Prouve que les gènes sont portés par les chromosomes (expériences sur la mouche *Drosophila*). Cartographie les premiers gènes. Nobel 1933 |
 | **Alexander Fleming** | 1881-1955 | Découvre la **pénicilline** (1928) — par accident (une moisissure contamine une boite de Petri et tue les bactéries). Premier antibiotique. Avec Florey et Chain (qui la rendent utilisable), Nobel 1945 |
 | **Rosalind Franklin** | 1920-1958 | Cristallographe. Sa "Photo 51" (diffraction aux rayons X de l'ADN) fournit la preuve expérimentale de la structure en double hélice. Watson et Crick utilisent cette image — sans son autorisation — pour construire leur modèle. Morte à 37 ans d'un cancer (probablement lié à l'exposition aux rayons X). Pas de Nobel (attribué à titre posthume, règle du Nobel interdisant les prix posthumes) |
+
+> [!important] Idée clé
+> Le cas Franklin illustre une limite structurelle du système Nobel, pas seulement un oubli individuel : la règle anti-posthume signifie que mourir avant la reconnaissance efface mécaniquement toute chance de prix, indépendamment de la contribution réelle. À comparer avec Karikó plus bas, dont les mêmes travaux ont été ignorés pendant des décennies — mais elle a survécu jusqu'à la reconnaissance.
 | **James Watson & Francis Crick** | 1928- / 1916-2004 | Découvrent la structure en **double hélice** de l'ADN (1953). "Nous avons découvert le secret de la vie" (Crick, au pub Eagle de Cambridge). Nobel 1962. Cette découverte ouvre l'ère de la biologie moléculaire |
 | **Barbara McClintock** | 1902-1992 | Découvre les **transposons** ("gènes sauteurs") dans le maïs — des segments d'ADN qui se déplacent dans le génome. Ignorée pendant 30 ans car le concept est trop radical. Nobel 1983 |
 | **Jacques Monod & François Jacob** | 1910-1976 / 1920-2013 | Découvrent la **régulation génétique** : les gènes peuvent être activés ou désactivés (modèle de l'opéron lac). "Tout ce qui est vrai pour *E. coli* est vrai pour l'éléphant" (Monod). Nobel 1965 |

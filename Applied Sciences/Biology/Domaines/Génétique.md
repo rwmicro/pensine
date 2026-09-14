@@ -55,6 +55,9 @@ flowchart LR
 - 4 bases possibles, 3 par codon → 64 codons
 - 20 acides aminés naturels
 - Code « dégénéré » : plusieurs codons codent souvent le même acide aminé (redondance protectrice)
+
+> [!important] Idée clé
+> Cette redondance n'est pas distribuée au hasard : les codons synonymes pour un même acide aminé diffèrent presque toujours sur leur 3ᵉ base (« position oscillante »). Résultat : la mutation ponctuelle la plus fréquente (substitution sur cette 3ᵉ base) reste souvent silencieuse. Le code génétique s'est donc structuré pour amortir l'effet des erreurs les plus courantes — une robustesse, pas un hasard.
 - 1 codon « start » (AUG, méthionine) et 3 codons « stop » (UAA, UAG, UGA)
 
 | Codon | Acide aminé | Symbole |
@@ -129,6 +132,9 @@ Modification de la séquence d'ADN. Peut être neutre, bénéfique ou pathogène
 L'expression des gènes peut être modifiée sans changer l'ADN — par **méthylation** de l'ADN ou modification des **histones** (protéines autour desquelles l'ADN s'enroule). Ces marques épigénétiques peuvent être influencées par l'environnement (stress, alimentation) et parfois être transmises sur une génération.
 
 **Cas célèbre** : étude de l'**hiver de la faim** néerlandais (1944-1945). Les enfants conçus pendant cette famine ont des marques épigénétiques modifiées que l'on retrouve encore chez leurs petits-enfants — preuve d'une transmission transgénérationnelle.
+
+> [!warning] Piège
+> L'épigénétique n'est pas un retour discret du lamarckisme (hérédité des caractères acquis) — la plupart des marques épigénétiques sont effacées et réinitialisées à chaque génération (dans les gamètes et tôt dans l'embryon). Les cas de transmission trans-générationnelle documentés chez l'humain, comme l'hiver de la faim, restent l'exception et le mécanisme précis fait encore débat — ne pas généraliser à « l'expérience des parents modifie durablement les gènes des enfants ».
 
 ### Génie génétique
 

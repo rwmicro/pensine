@@ -43,6 +43,9 @@ Exemples : Alanine, Glycine, Sérine, Acide glutamique, Acide aspartique…
 Normalement produits par le corps, mais **pas en quantité suffisante** en cas de stress ou de maladie.
 Exemples : Glutamine, Arginine, Cystéine, Tyrosine
 
+> [!important] Idée clé
+> "Essentiel" en nutrition ne veut pas dire "important" — un acide aminé non-essentiel est tout aussi vital pour la survie que les essentiels, la distinction porte uniquement sur qui le fabrique (l'alimentation ou le corps). Le cas conditionnel le montre bien : la glutamine passe de "non essentielle" à "essentielle" simplement parce que la demande dépasse temporairement la capacité de synthèse — le statut dépend du contexte physiologique, pas d'une hiérarchie d'importance biologique.
+
 
 ## Structure chimique
 
@@ -60,6 +63,9 @@ H — C — COOH
 ```
 
 La liaison entre deux acides aminés s'appelle une **liaison peptidique**.
+
+> [!tip] Méthode
+> Toute la diversité fonctionnelle des protéines (enzyme, hormone, structure) vient de cette seule chaîne latérale R qui varie d'un acide aminé à l'autre — le squelette NH₂-C-COOH est strictement identique pour les 20. Un seul changement d'acide aminé dans une séquence de centaines peut donc suffire à casser une fonction entière (c'est le mécanisme derrière de nombreuses maladies génétiques, ex. la drépanocytose vient d'un seul acide aminé substitué dans l'hémoglobine).
 
 
 ## Sources alimentaires

@@ -66,6 +66,9 @@ L'IA étroite (systèmes capables de surpasser l'humain dans des tâches spécif
 
 L'**intelligence artificielle générale** (IAG) — un système capable d'apprendre et de raisonner dans n'importe quel domaine comme un humain — n'existe pas encore, mais est l'objectif déclaré de plusieurs programmes de recherche.
 
+> [!tip] Méthode
+> Se méfier du "comme un humain" dans la définition de l'IAG : rien n'impose qu'une intelligence générale non-biologique pense selon des catégories humaines (émotions, intentions, conscience de soi). Une IAG pourrait être générale dans ses capacités sans être humaine dans sa cognition — ce qui complique justement les questions de droits et de conscience évoquées plus bas : sur quels critères les juger si le point de comparaison humain ne s'applique pas ?
+
 Si une IAG est créée, les implications sont sans précédent :
 - Une intelligence non biologique potentiellement capable d'auto-amélioration itérative
 - La fin du monopole cognitif humain sur la planète
@@ -74,6 +77,9 @@ Si une IAG est créée, les implications sont sans précédent :
 ## Le défi du vieillissement
 
 La mort par vieillissement n'est pas une loi de la physique. C'est un programme biologique — le résultat de l'évolution, qui ne "sélectionne" pas pour la longévité au-delà de l'âge reproducteur.
+
+> [!warning] Piège
+> "Programme biologique" laisse entendre que le vieillissement est activement organisé par l'évolution — ce n'est pas tout à fait exact. La théorie dominante (pléiotropie antagoniste) dit plutôt que des gènes bénéfiques en début de vie (fertilité, croissance) ont des effets délétères tardifs que la sélection naturelle "ignore" simplement, faute de pression au-delà de l'âge reproducteur. Le vieillissement n'est donc pas voulu par l'évolution — il est juste invisible pour elle.
 
 Plusieurs équipes de recherche travaillent sur les mécanismes du vieillissement cellulaire :
 - Raccourcissement des **télomères** (extrémités des chromosomes)
