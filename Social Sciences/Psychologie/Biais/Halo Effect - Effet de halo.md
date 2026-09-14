@@ -40,6 +40,9 @@ Une qualité négative contamine tout le reste.
 - **Erreur visible** → Tout le travail de la personne est remis en question
 - **Accent étranger** → Perçu comme moins intelligent
 
+> [!warning] Piège
+> Toute inférence d'un trait à un autre n'est pas un biais : certains traits corrèlent réellement (la conscienciosité prédit modestement la fiabilité). L'effet de halo, c'est spécifiquement l'inférence *sans preuve*, appliquée à des traits qui n'ont logiquement aucun lien avec l'indice observé (l'apparence physique ne prédit pas l'honnêteté).
+
 ## Origines: Edward Thorndike (1920)
 
 **Étude originale:**
@@ -48,6 +51,9 @@ Une qualité négative contamine tout le reste.
 - Improbable que toutes ces qualités soient liées
 
 **Conclusion:** Les évaluateurs laissaient **une impression générale** biaiser leurs jugements spécifiques.
+
+> [!important] Idée clé
+> Le résultat de Thorndike n'est pas juste "les gens sont indulgents avec les gens qu'ils aiment" — c'est plus profond : des critères censés être **indépendants** (apparence, leadership, intelligence) se sont retrouvés fortement corrélés dans les notes, alors qu'ils ne devraient pas l'être dans la réalité. C'est la signature statistique du halo : une variable cachée (l'impression globale) contamine des mesures qui prétendent être distinctes.
 
 ## Domaines d'Application
 
@@ -151,6 +157,9 @@ Premier trait observé pèse plus lourd (lié au halo).
 ### Stéréotypes
 Généralisation basée sur appartenance groupe (ethnie, genre).
 
+> [!important] Idée clé
+> Le halo part d'une information *individuelle* réellement observée chez la personne (son diplôme, son sourire) et la généralise abusivement à d'autres traits de cette même personne. Le stéréotype part d'une *catégorie* (genre, origine) sans aucune information individuelle. On peut donc être victime des deux en même temps, mais ce ne sont pas le même mécanisme.
+
 ## Conséquences
 
 ### Positives (pour bénéficiaires)
@@ -190,6 +199,9 @@ Reconnaître qu'on y est tous sujets.
 - Copies d'examen numérotées (pas de nom)
 - Auditions musicales derrière rideau
 
+> [!warning] Piège
+> Le blind review supprime le nom mais pas forcément tous les vecteurs du halo : une écriture soignée, un CV bien mis en page, ou même l'ordre de passage (les premiers auditionnés sont statistiquement mieux notés) peuvent recréer un halo par un autre canal. L'anonymisation du nom est nécessaire mais rarement suffisante à elle seule.
+
 ### 4. Données Objectives
 Privilégier faits mesurables vs impressions.
 
@@ -215,6 +227,9 @@ JFK perçu plus compétent après débat TV vs Nixon (apparence).
 **Halo négatif initial peut être renversé:**
 - Surprise positive après attentes basses
 - Effet "comeback"
+
+> [!tip] Méthode
+> Avant de conclure à un vrai effet "comeback", vérifier qu'il ne s'agit pas d'une simple régression vers la moyenne : une performance très faible au premier essai a statistiquement plus de chances de remonter au second, indépendamment de tout changement réel de qualité.
 
 ## Éthique
 

@@ -12,6 +12,9 @@ L'**Ennéagramme** (du grec *ennea* = neuf, *gramma* = figure) est un système d
 
 Contrairement à d'autres systèmes (comme le MBTI basé sur Jung), l'Ennéagramme se concentre sur les **motivations inconscientes** et les **mécanismes de défense** plutôt que sur les comportements observables.
 
+> [!warning] Piège
+> L'Ennéagramme, comme le MBTI, est **typologique** : il range les individus dans des boîtes discrètes (on *est* un type 4, pas un autre). Le seul modèle de personnalité avec une validation psychométrique solide, le Big Five, est **dimensionnel** : chacun se situe sur des continuums (plus ou moins névrosé, plus ou moins ouvert). Cette différence de structure, pas seulement l'absence d'études, explique pourquoi l'Ennéagramme reste hors du champ académique validé.
+
 ## La figure de l'Ennéagramme
 
 ```
@@ -136,6 +139,9 @@ Traits caractéristiques :
 - Loyauté envers les groupes et autorités
 - Doute constant, besoin de réassurance
 - Type le plus courant (~25 % de la population)
+
+> [!important] Idée clé
+> Un type qui rassemble un quart de la population interroge la cohérence du modèle : si les neuf types étaient des catégories réellement distinctes et équilibrées, on attendrait une répartition plus proche de l'uniforme. Ce déséquilibre suggère soit un biais de sur-identification (les items du Type 6 sont formulés de façon assez large pour parler à beaucoup de monde — effet Barnum), soit que les types ne sont pas vraiment orthogonaux entre eux.
 
 Deux sous-types :
 - **6 phobique** : fuit le danger, soumission à l'autorité
@@ -304,6 +310,9 @@ Exemple pour le Type 4 :
      faire la même chose pour des raisons très différentes)
   → Ignorer les ailes, flèches et niveaux
 ```
+
+> [!tip] Méthode
+> Un signal d'alerte concret et mesurable : les tests d'auto-identification à l'Ennéagramme montrent une fiabilité test-retest faible — refaire le test à quelques semaines d'intervalle change fréquemment le résultat. Ce n'est pas rédhibitoire pour un outil de réflexion personnelle, mais ça devrait tempérer toute affirmation du type "je suis définitivement un 4".
 
 ## Critiques et limites
 

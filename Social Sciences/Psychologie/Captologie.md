@@ -38,6 +38,9 @@ Pour qu'un comportement se produise, il faut **simultanément**:
 
 **Principe clé:** Si l'un des trois manque, le comportement ne se produit pas.
 
+> [!warning] Piège
+> Un déclencheur (notification, rappel) envoyé sans motivation suffisante ne provoque pas l'action — il produit de l'irritation ou l'effet inverse (désinstallation, désactivation des notifications). Beaucoup de produits multiplient les triggers en pensant résoudre un problème de capacité ou de motivation, alors que le levier est ailleurs.
+
 ## Stratégies de Persuasion Technologique
 
 ### 1. Réduction (Simplification)
@@ -117,6 +120,9 @@ Pour qu'un comportement se produise, il faut **simultanément**:
 - **Notifications** (renforcement intermittent)
 
 **Effet:** Créé habitudes via renforcement.
+
+> [!example] Exemple
+> Les notifications les plus addictives ne préviennent pas à intervalle fixe mais selon un renforcement à ratio variable — le même mécanisme que le levier d'une machine à sous : on ne sait jamais si le prochain check apportera une récompense (un like, un match), ce qui pousse à vérifier bien plus souvent qu'un signal prévisible.
 
 ### 8. Preuve Sociale
 
@@ -241,6 +247,9 @@ Pour qu'un comportement se produise, il faut **simultanément**:
 
 **5. Intention:**
 - Persuasion pour bien (santé) vs profit (addiction)?
+
+> [!important] Idée clé
+> Le critère le plus opérant pour trancher persuasion légitime vs manipulation n'est pas l'intention affichée mais un test simple : la personne agirait-elle de même si le mécanisme lui était expliqué en détail ? Une technique qui perd son efficacité dès qu'elle est révélée (dark pattern, urgence artificielle) est par définition manipulatoire — une technique qui reste efficace même connue (rappel de santé, simplification honnête) ne l'est pas.
 
 ### Régulation
 

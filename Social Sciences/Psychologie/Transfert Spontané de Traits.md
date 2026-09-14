@@ -38,6 +38,9 @@ Le **transfert spontané de traits** est un phénomène psychologique par lequel
 
 **Important:** Effet se produit **même si** auditer sait rationnellement que A parlait de quelqu'un d'autre.
 
+> [!important] Idée clé
+> C'est ce qui distingue ce phénomène d'un simple biais de raisonnement corrigible par la réflexion : la correction consciente ("je sais qu'elle parlait de Paul, pas d'elle-même") ne bloque pas l'association automatique déjà formée en mémoire. Le savoir explicite et l'impression implicite coexistent sans se contredire — un des cas les plus nets où "savoir" ne suffit pas à "ne pas ressentir".
+
 ## Expériences Classiques
 
 ### Paradigme Expérimental
@@ -85,6 +88,9 @@ Le **transfert spontané de traits** est un phénomène psychologique par lequel
 - "Mon ex est vraiment manipulateur" → Perçu comme potentiellement manipulateur
 
 **Conséquence:** **Médisance se retourne contre le médisant**
+
+> [!warning] Piège
+> Ne pas confondre cet effet avec le jugement conscient "c'est un médisant, donc peu fiable" — celui-là est un raisonnement explicite sur la fiabilité de la source. Le transfert spontané de traits opère même sans ce raisonnement : l'auditeur associe directement le trait négatif ("manipulateur") au locuteur, indépendamment de toute conclusion sur son honnêteté.
 
 ## Applications Pratiques
 
@@ -166,6 +172,9 @@ Le **transfert spontané de traits** est un phénomène psychologique par lequel
 
 **Différence:** Projection = défense psychologique consciente ou inconsciente du locuteur.
 
+> [!tip] Méthode
+> Question utile pour distinguer les deux sur le terrain : le trait décrit est-il vrai ou faux chez le locuteur, et le locuteur y croit-il ? Si le locuteur ment ou se ment à lui-même sur son propre trait refoulé → projection. Si le locuteur dit une vérité banale sur un tiers et que c'est *l'auditeur* qui, sans le vouloir, la lui recolle dessus → transfert spontané de traits. Ce n'est pas la même personne qui se trompe dans les deux cas.
+
 ### Transfert Spontané de Traits
 
 **Définition:** Phénomène de perception chez l'**auditeur**, pas défense du locuteur.
@@ -211,6 +220,9 @@ Le **transfert spontané de traits** est un phénomène psychologique par lequel
 **3. Séparation comportement/personne:**
 - "Son action était inappropriée" vs "Il est inapproprié"
 
+> [!tip] Méthode
+> Le point n'est pas seulement d'adoucir le propos : le transfert opère sur le *mot-trait* lui-même, indépendamment du contexte grammatical qui l'entoure. Éliminer complètement les adjectifs de trait ("malhonnête", "manipulateur") au profit de descriptions factuelles de l'action protège mieux que n'importe quelle formulation nuancée qui garde le mot.
+
 ### Écoute Critique
 
 **Conscience du biais:**
@@ -224,6 +236,9 @@ Le **transfert spontané de traits** est un phénomène psychologique par lequel
 
 **Halo Effect:**
 - Un trait influence jugement global (voir [[Halo Effect - Effet de halo]])
+
+> [!important] Idée clé
+> Les deux biais portent sur des cibles différentes : l'effet de halo fait déborder un trait *observé chez une personne* sur le jugement de ses *autres* traits (même personne, même source). Le transfert spontané de traits fait déborder un trait *décrit à propos d'un tiers* sur le jugement de *celui qui en parle* (trait et cible n'ont initialement aucun rapport).
 
 **Confirmation Bias:**
 - Chercher preuves confirmant impression initiale (voir [[Biais de confirmation]])

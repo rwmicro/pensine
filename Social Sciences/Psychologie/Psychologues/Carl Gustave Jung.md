@@ -73,11 +73,17 @@ Les archétypes sont des **formes vides** — des structures de l'inconscient co
 | **Le Vieil Homme Sage** | Le guide intérieur, le mentor | Merlin, Gandalf, le guru |
 | **L'Enfant divin** | Le renouveau, la potentialité | Le Christ enfant, Moïse sauvé des eaux |
 
+> [!warning] Piège
+> Ne pas confondre la Persona avec la "vraie personnalité" : c'est un masque social sciemment ajusté selon le contexte (rôle professionnel, image publique), un outil d'adaptation nécessaire et non un mensonge en soi. Le problème thérapeutique n'est pas d'avoir une Persona, mais de s'y identifier totalement et de perdre contact avec ce qu'il y a derrière.
+
 ### L'Ombre en détail
 
 L'Ombre est l'archétype le plus important en thérapie. Elle contient tout ce que le Moi refuse d'admettre : agressivité, sexualité, faiblesse, cruauté. Ce qui est refoulé ne disparait pas — il est projeté sur les autres. La haine irrationnelle envers un individu ou un groupe est souvent la projection de sa propre Ombre.
 
 Le travail analytique consiste à **intégrer l'Ombre** — non pas devenir mauvais, mais reconnaitre sa part d'ombre pour cesser d'être gouverné par elle.
+
+> [!important] Idée clé
+> Cette projection est un cas particulier d'un phénomène plus large étudié empiriquement en psychologie sociale : voir [[Transfert Spontané de Traits]]. Différence clé : la projection de l'Ombre est une défense motivée (on refuse consciemment ou non ses propres traits) ; le transfert spontané de traits n'est pas une défense mais un biais de perception automatique chez celui qui *écoute*, indépendant de toute motivation du locuteur.
 
 ## L'individuation
 
@@ -115,6 +121,9 @@ Dans *Types psychologiques* (1921), Jung distingue deux **attitudes** et quatre 
 Chaque individu a une **fonction dominante** et une **fonction inférieure** (la moins développée, souvent source de conflits). L'individuation passe par le développement des fonctions négligées.
 
 Cette théorie a inspiré le **MBTI** (Myers-Briggs Type Indicator), le test de personnalité le plus utilisé au monde (bien que critiqué par la psychologie académique pour son manque de validité scientifique).
+
+> [!tip] Méthode
+> Le MBTI simplifie fortement Jung : il transforme des fonctions hiérarchisées (dominante, auxiliaire, tertiaire, inférieure) en simples préférences binaires, et ajoute un axe Jugement/Perception absent de la théorie originale. Le modèle jungien décrit une dynamique de développement de la psyché ; le MBTI décrit une typologie statique.
 
 ## Symboles, rêves et alchimie
 

@@ -26,6 +26,9 @@ La première difficulté est conceptuelle. Le bonheur recouvre au moins deux dim
 
 Les études psychologiques modernes cherchent à mesurer ces trois dimensions, avec des outils distincts.
 
+> [!important] Idée clé
+> Le choix de l'outil change la réponse : le bonheur hédoniste se mesure en temps réel (*experience sampling* — interroger les gens plusieurs fois par jour sur leur ressenti immédiat), tandis que le bonheur évaluatif et l'eudémonie se mesurent rétrospectivement, par un jugement global sur sa vie. Ces deux méthodes donnent parfois des résultats contradictoires pour une même personne.
+
 ## L'adaptation hédonique
 
 L'un des résultats les plus robustes de la psychologie du bonheur est l'**adaptation hédonique** : les humains s'habituent rapidement à leur situation, bonne ou mauvaise, et reviennent à un niveau de base relativement stable.
@@ -35,6 +38,9 @@ Des études classiques montrent que :
 - Des personnes ayant subi un accident grave et une paralysie retrouvent elles aussi un niveau comparable à leur état antérieur après quelques années
 
 Ce mécanisme adaptatif a une valeur évolutive : il permet de s'ajuster à de nouvelles conditions sans être paralysé indéfiniment par les pertes ni rendu incapable d'agir par la satisfaction. Son coût : il signifie que l'accumulation de richesse ou de confort n'apporte pas un bonheur cumulatif proportionnel.
+
+> [!tip] Méthode
+> Voir [[Désirs]] pour le mécanisme symétrique côté désir : le "tapis roulant hédonique" et le cycle de Schopenhauer (désir → satisfaction éphémère → ennui → nouveau désir) décrivent la même adaptation, vue du côté de ce qu'on veut plutôt que de ce qu'on ressent.
 
 ## Le paradoxe de Easterlin
 
@@ -46,6 +52,9 @@ Explications possibles :
 - Le bonheur est **relatif** : ce qui compte n'est pas le niveau absolu de richesse mais la position relative dans la société (je suis plus heureux si je gagne plus que mes voisins, même si tout le monde s'enrichit)
 - Au-delà d'un certain seuil, la richesse supplémentaire apporte peu — les besoins fondamentaux (sécurité, alimentation, logement, santé) étant satisfaits
 - La croissance économique s'accompagne d'effets négatifs qui compensent ses bénéfices (stress, perte de temps libre, inégalités perçues, isolement social)
+
+> [!warning] Piège
+> Le paradoxe d'Easterlin est souvent cité comme un fait établi — il est en réalité contesté. Des travaux ultérieurs (Stevenson & Wolfers, 2008) trouvent une relation log-linéaire entre revenu et bien-être qui persiste même aux niveaux de richesse élevés, y compris entre pays. Le débat reste ouvert sur l'ampleur de l'effet, pas sur son existence complète.
 
 ## Étaient-ils plus heureux ?
 

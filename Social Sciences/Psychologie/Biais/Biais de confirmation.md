@@ -123,6 +123,9 @@ Règle à tester: "Si voyelle d'un côté, chiffre pair de l'autre."
 
 **Leçon:** On cherche à **confirmer** plutôt qu'à **réfuter**.
 
+> [!important] Idée clé
+> Le test de Wason révèle le mécanisme exact du biais : logiquement, une règle "si P alors Q" n'est infirmée que par un cas où P est vrai et Q faux. Retourner "4" ne peut jamais réfuter la règle (rien n'interdit qu'un chiffre pair ait une consonne derrière), seul "7" le peut. Le réflexe majoritaire de vérifier E et 4 montre qu'on cherche spontanément des cas qui confirmeraient la règle, pas ceux qui pourraient la casser — exactement l'inverse de la démarche de falsification de Popper.
+
 ### Expérience de Lord, Ross & Lepper (1979)
 
 **Protocole:**
@@ -257,6 +260,9 @@ Investisseurs cherchent confirmations, ignorent signaux d'alarme (bulles spécul
 Même apprendre l'existence du biais de confirmation peut être sujet au biais de confirmation.
 
 **Exemple:** "Oui le biais de confirmation existe, je l'observe **chez les autres**" (mais pas chez soi).
+
+> [!warning] Piège
+> Ne pas confondre biais de confirmation et [[Biais de cadrage]] : le cadrage déforme la perception d'une information déjà reçue (même donnée, présentation différente), tandis que la confirmation agit en amont, sur le *choix* des informations qu'on va chercher, retenir ou accepter. Un même événement peut être la victime des deux biais successivement — d'abord un tri sélectif de ce qu'on regarde, puis un cadrage de ce qu'on a retenu.
 
 ## Ressources
 

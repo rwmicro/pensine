@@ -44,6 +44,8 @@ Retour lent à la ligne de base
 
 Ce n'est pas de la manipulation — c'est une **souffrance réelle et intense**.
 
+> [!important] Idée clé
+> Intensité et régulation sont deux mécanismes distincts : sentir plus fort et mettre plus de temps à revenir à l'état de base ne s'expliquent pas par le même circuit. Voir [[Emotions]] pour la distinction entre l'intensité d'une réaction émotionnelle et la capacité à la réguler — le TPL touche les deux, mais on peut avoir l'un sans l'autre.
 
 ## Le "splitting" (pensée binaire)
 
@@ -55,6 +57,8 @@ Mécanisme de défense majeur : le monde est vu en tout blanc ou tout noir.
 
 Cela rend les relations intimes particulièrement difficiles.
 
+> [!warning] Piège
+> Ne pas confondre ce splitting avec l'alternance idéalisation/dévalorisation du narcissisme : chez le borderline, elle est motivée par la terreur de l'abandon et l'absence d'image de soi stable ; chez le narcissique, elle protège une image grandiose menacée. Le comportement observable se ressemble, le déclencheur et la fonction diffèrent.
 
 ## Causes et facteurs de risque
 
@@ -96,6 +100,8 @@ Contrairement aux idées reçues, le TPL **s'améliore significativement** avec 
 - La DBT a des taux de succès élevés
 - La rémission est possible
 
+> [!tip] Méthode
+> Le module "Tolérance à la détresse" de la DBT ne cherche pas à supprimer la douleur mais à survivre à la crise sans geste irréversible : la compétence se mesure à ce qu'on évite de faire pendant le pic émotionnel, pas à la disparition du pic lui-même.
 
 ## À distinguer
 

@@ -40,6 +40,9 @@ Ce biais viole le principe de **rationalité invariance** qui postule qu'un choi
 
 **Point crucial:** A = C et B = D mathématiquement. Seul le cadrage change.
 
+> [!important] Idée clé
+> L'inversion de préférence entre les deux cadrages n'est pas un hasard : elle suit la théorie des perspectives (Kahneman & Tversky). Face à un gain, on devient averse au risque (préférer le certain) ; face à une perte équivalente, on devient chercheur de risque (préférer le pari). Le biais de cadrage n'est donc pas juste "la présentation compte" — c'est la conséquence directe et prévisible de cette asymétrie gain/perte.
+
 ## Types de Cadrage
 
 ### 1. Cadrage Positif vs Négatif (Valence Framing)
@@ -82,6 +85,9 @@ Ce biais viole le principe de **rationalité invariance** qui postule qu'un choi
 **Exemple:**
 - "Ce produit coûte 100€" vs "Ce produit coûte 100€ au lieu de 200€"
 - Ancrage sur prix de référence
+
+> [!warning] Piège
+> Ne pas confondre cadrage et mensonge : dans l'expérience de la maladie asiatique, les deux formulations sont rigoureusement vraies et mathématiquement identiques. Le biais de cadrage opère même sans aucune déformation factuelle — c'est ce qui le rend redoutable en marketing/politique : on peut manipuler sans jamais mentir.
 
 ## Ressources
 
