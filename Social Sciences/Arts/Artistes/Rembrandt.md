@@ -35,6 +35,9 @@ Rembrandt obtient cet effet par :
 - Un **empâtement** épais dans les zones éclairées (la lumière a du relief) et des zones d'ombre noyées dans des bruns profonds
 - Une palette réduite (bruns, dorés, rouges sombres) qui concentre l'attention sur la lumière
 
+> [!important] Idée clé
+> La comparaison avec Caravage est le meilleur repère pour situer Rembrandt : chez Caravage la lumière vient de l'extérieur, comme un projecteur théâtral qui isole un instant dramatique ; chez Rembrandt elle semble sourdre de l'intérieur du sujet lui-même, comme si elle exprimait sa conscience. Le clair-obscur de Rembrandt est donc psychologique là où celui de Caravage est scénique.
+
 ## Oeuvres majeures
 
 ### Portraits de groupe
@@ -64,6 +67,9 @@ Rembrandt est un lecteur assidu de la Bible. Ses scènes bibliques ne sont pas d
 Rembrandt a peint, dessiné et gravé environ **80 autoportraits** sur 40 ans — le plus long journal visuel d'un être humain avant la photographie. Des autoportraits de jeunesse (costumes, poses théâtrales, expérimentations d'éclairage) aux derniers (visage ravagé, regard direct, aucune complaisance), c'est un document unique sur le vieillissement, la perte et la lucidité.
 
 L'autoportrait de 1659 (National Gallery, Londres) montre un homme fatigué après la faillite, qui regarde le spectateur sans hostilité ni apitoiement — juste une présence.
+
+> [!tip] Méthode
+> Pour lire les autoportraits de Rembrandt, ne pas chercher la ressemblance flatteuse : le but n'est jamais l'image sociale du peintre à succès, mais un journal de l'usure du temps sur un visage. Comparer un autoportrait de jeunesse et un tardif donne, à lui seul, un cours accéléré sur l'évolution de sa technique — du lissé au pâteux.
 
 ## Gravure
 

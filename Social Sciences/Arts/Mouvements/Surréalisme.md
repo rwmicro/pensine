@@ -29,6 +29,9 @@ C'est en 1924 que Breton donne au mouvement son acte de naissance avec le *Manif
 
 Le mot capital est **automatisme**. Il s'agit de laisser la main écrire ou dessiner sans que la volonté consciente intervienne, le plus vite possible, sans réfléchir ni corriger. Ce flot brut, non censuré, est tenu pour la matière première de l'art : ce que l'esprit livre quand on cesse de le surveiller.
 
+> [!important] Idée clé
+> L'automatisme surréaliste n'est pas un simple culte du hasard : Breton le présente comme une méthode d'accès à une vérité psychique plus profonde que la réalité consciente, directement héritée de Freud. C'est là que le surréalisme se sépare de Dada, qui le précède et que Breton rejette pour cette raison précise — Dada détruit sans reconstruire, le surréalisme prétend atteindre quelque chose de positif derrière le chaos apparent.
+
 ## Une boîte à outils pour piéger l'inconscient
 
 La grande originalité du surréalisme est d'avoir inventé tout un arsenal de techniques destinées à court-circuiter la raison et à faire surgir le hasard ou l'inconscient. L'**écriture automatique** en est le modèle : écrire d'un trait, sans plan ni rature, comme sous la dictée — c'est ainsi que Breton et Soupault composent *Les Champs magnétiques* (1920), premier texte automatique. Le **cadavre exquis** transpose le procédé au collectif : chacun ajoute un mot ou un fragment de dessin sans voir ce que les autres ont écrit, et le résultat absurde — « Le cadavre exquis boira le vin nouveau », phrase qui donna son nom au jeu — révèle des images qu'aucun esprit seul n'aurait produites.
@@ -43,6 +46,9 @@ Sous l'unité du programme, le surréalisme visuel se partage en deux voies oppo
 
 La première est le **surréalisme automatique**, ou abstrait. Le peintre laisse sa main tracer des formes libres, sans sujet préétabli, et le résultat est organique, fluide, biomorphique. **Joan Miró** en est le maître : un univers de signes, de formes mouvantes et de couleurs vives posées sur des fonds neutres, à mi-chemin entre le dessin d'enfant et l'abstraction pure. **André Masson** pratique le dessin automatique chargé de violence érotique, **Yves Tanguy** peuple des plaines désertiques de formes molles et minérales indéfinissables, et **Roberto Matta** ouvre des espaces cosmiques dont les explosions de formes influenceront l'expressionnisme abstrait américain.
 
+> [!tip] Méthode
+> Face à une toile surréaliste, la question à se poser est : la technique est-elle elle-même laissée au hasard (Miró, Masson — surréalisme automatique) ou la technique est-elle d'un réalisme photographique appliqué à un sujet impossible (Dalí, Magritte — surréalisme onirique) ? C'est la distinction la plus utile pour classer n'importe quel peintre du mouvement en un coup d'œil.
+
 ![Le Carnaval d'Arlequin de Joan Miró](https://upload.wikimedia.org/wikipedia/en/2/2d/The_Harlequin%27s_Carnival.jpg)
 *Joan Miró, Le Carnaval d'Arlequin (1924-1925). Le versant automatique du surréalisme : une foule de petites créatures et de signes flotte dans un espace ludique. Miró laisse surgir les formes plutôt qu'il ne les compose, créant un monde poétique entre rêve enfantin et abstraction.*
 
@@ -56,6 +62,9 @@ La seconde voie est le **surréalisme figuratif**, ou onirique. Ici, on peint de
 Trois figures résument à elles seules les tensions du mouvement. **Salvador Dalí** (1904-1989) en est le plus célèbre et le plus controversé : virtuose, provocateur compulsif, paranoïaque méthodique. Sa méthode paranoïaque-critique fait naître ces images doubles où le regard hésite sans cesse. Mais son obsession de l'argent et ses sympathies pour Franco lui valent d'être exclu du groupe par Breton en 1934 — lequel le rebaptise cruellement « Avida Dollars », anagramme de Salvador Dalí.
 
 **René Magritte** (1898-1967) est en tout point son contraire. Pas d'excès, pas de mise en scène de soi : il vit comme un paisible bourgeois belge, costume et chapeau melon, et peint des tableaux qui interrogent en silence le rapport entre les mots, les images et les choses. Son œuvre est une véritable philosophie visuelle : qu'est-ce que représenter ? Peut-on confondre l'image et l'objet ?
+
+> [!example] Exemple
+> « Ceci n'est pas une pipe » est un cas d'école de la distinction signe/référent qui traverse toute la [[Philosophie du Langage]] du XXe siècle : Magritte ne dément pas le sujet du tableau, il rappelle qu'une image reste une image — un signifiant peint, jamais l'objet lui-même.
 
 ![La Trahison des images de René Magritte](https://upload.wikimedia.org/wikipedia/en/b/b9/MagrittePipe.jpg)
 *René Magritte, La Trahison des images (1929). Sous une pipe peinte avec application, la légende affirme : « Ceci n'est pas une pipe. » Et c'est vrai — ce n'est qu'une image de pipe. En une phrase, Magritte démonte la confiance que nous accordons à la représentation. Tout son art tient dans ce vertige logique.*

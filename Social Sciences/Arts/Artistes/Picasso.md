@@ -55,6 +55,9 @@ Avec Georges Braque, Picasso invente le cubisme analytique : l'objet est décomp
 
 L'idée fondamentale : un tableau n'est pas une fenêtre sur le monde (perspective depuis la Renaissance) mais un objet plat qui reconstruit le monde selon sa propre logique.
 
+> [!important] Idée clé
+> Le cubisme analytique n'est pas une déformation gratuite : c'est une tentative de peindre la connaissance qu'on a d'un objet (sa forme sous tous les angles) plutôt que l'image qu'on en a depuis un seul point de vue fixe — une intuition assez proche, dans un registre totalement différent, de la distinction kantienne entre le phénomène (l'objet tel qu'il nous apparaît) et la chose en soi.
+
 Oeuvres : *Portrait d'Ambroise Vollard* (1910), *Ma Jolie* (1911-1912), *L'Homme à la guitare* (1911).
 
 ### Cubisme synthétique (1912-1914)
@@ -62,6 +65,9 @@ Oeuvres : *Portrait d'Ambroise Vollard* (1910), *Ma Jolie* (1911-1912), *L'Homme
 Inversion du processus : au lieu de déconstruire l'objet, on le reconstruit à partir de fragments. Introduction du **collage** (papier journal, papier peint, tissu) — première irruption du réel dans la peinture. L'art n'a plus besoin de ressembler à quoi que ce soit : il peut intégrer n'importe quel matériau.
 
 Oeuvres : *Nature morte à la chaise cannée* (1912, premier collage), *Guitare* (1913, sculpture en tôle et fil de fer).
+
+> [!warning] Piège
+> Le cubisme synthétique n'est pas un "retour en arrière" plus facile après l'abstraction du cubisme analytique — c'est le mouvement inverse, tout aussi radical : au lieu de partir du réel pour le fragmenter, on part de fragments (y compris des matériaux bruts, via le collage) pour construire un objet nouveau. C'est cette seconde logique, pas la première, qui ouvrira la voie à l'assemblage et à l'art contemporain.
 
 ### Période classique (1917-1924)
 

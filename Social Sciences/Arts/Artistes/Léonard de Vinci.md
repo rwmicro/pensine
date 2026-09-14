@@ -52,6 +52,9 @@ Sa technique signature : transitions douces et vaporeuses entre lumière et ombr
 ### Chiaroscuro (clair-obscur)
 Contrastes forts entre lumière et obscurité pour créer du volume et du relief. Modèle les visages et les corps.
 
+> [!warning] Piège
+> Sfumato et clair-obscur sont souvent confondus : le clair-obscur oppose lumière et ombre pour sculpter le volume (Caravage puis Rembrandt le pousseront à l'extrême dramatique), tandis que le sfumato dissout précisément la frontière entre les deux — pas de ligne de contour, seulement une transition continue. C'est le sfumato, pas le clair-obscur, qui donne à la Joconde son sourire insaisissable.
+
 ### Perspective atmosphérique
 Les objets lointains sont représentés plus pâles et bleutés, imitant l'effet de l'atmosphère sur les distances. Visible dans les arrière-plans de ses tableaux — notamment le paysage énigmatique de la Joconde.
 
@@ -113,6 +116,9 @@ Il étudie aussi la géologie (stratification des roches), l'optique (camera obs
 Léonard est un génie dispersé : ses savoirs sont immenses mais non publiés de son vivant. Ses carnets sont redécouverts des siècles après sa mort — son **impact scientifique direct fut donc limité**, même si ses peintures eurent une influence majeure et immédiate.
 
 Ses inventions sont souvent irréalisables avec la technologie de l'époque. Son hélicoptère, par exemple, ne fonctionnerait pas — mais l'ingéniosité conceptuelle est là.
+
+> [!important] Idée clé
+> Le paradoxe le plus profond de Léonard n'est pas qu'il ait eu des idées en avance sur son temps — beaucoup d'esprits en ont — mais qu'il n'ait jamais rien publié. Son influence scientifique réelle est donc restée quasi nulle avant la redécouverte de ses carnets au XIXe siècle, alors que son influence picturale (sfumato, composition pyramidale) se transmet immédiatement à ses contemporains. Le génie universel a eu deux héritages complètement asynchrones.
 
 
 ## Héritage

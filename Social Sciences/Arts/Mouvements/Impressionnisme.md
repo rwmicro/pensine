@@ -36,6 +36,9 @@ Le premier est l'**obsession de la lumière**. Le véritable sujet d'un tableau 
 
 Le deuxième principe est une **révolution dans la couleur**. Les impressionnistes bannissent le noir de leurs ombres : dans la nature, une ombre n'est pas noire mais colorée, souvent bleue ou violette, car elle reçoit la lumière réfléchie du ciel et des objets voisins. Surtout, ils ne mélangent plus leurs couleurs sur la palette mais les juxtaposent en touches pures sur la toile, laissant l'**œil du spectateur** opérer le mélange à distance. Une surface qui paraît verte se révèle, de près, faite de touches jaunes et bleues distinctes. C'est le « mélange optique », et c'est ce qui donne aux toiles leur vibration scintillante.
 
+> [!warning] Piège
+> Ne pas confondre le « mélange optique » des impressionnistes avec le pointillisme de Seurat : les impressionnistes juxtaposent des touches libres et irrégulières en confiant à l'œil le soin de les fondre à distance, de façon empirique et instinctive. Seurat, lui, systématise ce principe en petits points calibrés selon la théorie scientifique des couleurs de Chevreul — c'est une méthode rigoureuse, pas juste une touche plus petite.
+
 Le troisième principe est la **touche visible et la peinture en plein air**. Le coup de pinceau n'est plus dissimulé sous un lissage soigneux : il reste apparent, rapide, presque esquissé. Cette matière affirmée donne l'impression d'une scène attrapée à la volée — ce qui était d'ailleurs le cas, puisque les peintres travaillaient désormais dehors, sur le motif, pour saisir les effets atmosphériques avant qu'ils ne changent. Ce « non-fini » revendiqué était précisément ce que les critiques reprochaient comme un inachèvement.
 
 ![La Classe de danse de Degas](https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Edgar_Degas_-_The_Ballet_Class_-_Google_Art_Project.jpg/1280px-Edgar_Degas_-_The_Ballet_Class_-_Google_Art_Project.jpg)
@@ -56,6 +59,9 @@ L'impressionnisme n'est pas une doctrine uniforme mais une communauté de tempé
 *Pierre-Auguste Renoir, Bal du moulin de la Galette (1876). Observez les taches claires sur les vêtements et le sol : ce sont les rayons de soleil filtrés par les arbres, peints comme des touches autonomes. La joie de vivre et la lumière mobile résument tout Renoir.*
 
 **Edgar Degas** (1834-1917) est un cas à part, presque un intrus dans le groupe. Il déteste l'étiquette « impressionniste », ne peint jamais en plein air et se considère avant tout comme un dessinateur classique. Mais il partage le goût de la vie moderne et de l'instantané. Ses danseuses de l'Opéra, ses courses de chevaux, ses femmes à leur toilette sont saisis dans des cadrages audacieux, décentrés, coupés par le bord du tableau — un regard directement inspiré de la photographie et des estampes japonaises. Maître absolu du pastel, c'est un perfectionniste misanthrope dont les compositions, sous leur apparente spontanéité, sont d'une rigueur extrême.
+
+> [!important] Idée clé
+> Degas illustre une confusion fréquente : on range sous "impressionnisme" tout peintre qui a exposé avec le groupe, alors que le terme désigne d'abord une méthode (peinture en plein air, touche visible, obsession de la lumière changeante). Degas rejette cette méthode point par point — il peint en atelier, dessine avant tout, ne cherche pas l'effet de lumière fugace — mais partage le sujet (la vie moderne) et le regard (cadrage photographique). Le mouvement se définit autant par une sensibilité commune que par une technique unique.
 
 À leurs côtés gravitent d'autres figures essentielles. **Camille Pissarro** (1830-1903), le doyen, est le seul à participer aux huit expositions ; mentor généreux, il guidera Cézanne et Gauguin et expérimentera même le pointillisme avant d'y renoncer. **Alfred Sisley** (1839-1899), paysagiste d'une fidélité absolue à l'impressionnisme, peint les bords de l'Île-de-France avec une douceur constante, sans jamais connaître le succès de son vivant.
 

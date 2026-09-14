@@ -28,6 +28,9 @@ Définir "l'art" est un problème que personne n'a résolu de manière définiti
 | **Adorno** (1970) | L'art authentique **résiste** à la société marchande. L'industrie culturelle (cinéma commercial, musique pop) transforme l'art en marchandise et neutralise sa force critique. | *Théorie esthétique*. Défense de l'art difficile (Schoenberg, Beckett, Kafka) contre le divertissement de masse. |
 | **Arthur Danto** (1964) | Ce qui fait qu'un objet est de l'art, c'est le **monde de l'art** (institutions, théories, histoire) qui l'entoure. Les *Brillo Boxes* de Warhol sont de l'art parce qu'elles sont présentées comme telles dans un contexte artistique. | Théorie institutionnelle. L'art ne se définit plus par ses propriétés visuelles mais par son contexte. Danto annonce aussi la "fin de l'art" : tout peut être de l'art, il n'y a plus de direction historique. |
 
+> [!warning] Piège
+> Ne pas lire ce tableau comme une succession de réponses qui s'annulent : chaque théorie répond en réalité à une question légèrement différente. Platon et Aristote demandent "l'art dit-il le vrai ou le faux ?", Kant demande "qu'est-ce qui rend un jugement esthétique universel ?", Danto demande "qu'est-ce qui fait qu'un objet compte comme art ?". Les théories divergent souvent parce qu'elles ne répondent pas à la même question, pas parce que l'une réfute l'autre.
+
 ### La question de la beauté
 
 La beauté n'est plus le critère de l'art depuis le XXe siècle, mais elle reste une question philosophique centrale.
@@ -39,6 +42,9 @@ La beauté n'est plus le critère de l'art depuis le XXe siècle, mais elle rest
 | **Le Pittoresque** | L'irrégulier, le rugueux, le charmant dans sa variété. La ruine, le paysage sauvage | William Gilpin, Uvedale Price (XVIIIe siècle anglais) |
 | **Le Grotesque** | Le monstrueux, le difforme, le mélange des registres (comique et horrible). Gargouilles, Bosch, Goya | Victor Hugo (*préface de Cromwell*, 1827), Mikhaïl Bakhtine (le carnavalesque) |
 | **Le Camp** | L'excès, l'artifice, le "tellement mauvais que c'est bon". Art qui exagère intentionnellement | Susan Sontag (*Notes on Camp*, 1964) |
+
+> [!tip] Méthode
+> Beau, sublime, pittoresque et grotesque ne sont pas des synonymes gradués d'"esthétiquement réussi" — ce sont des catégories qui décrivent des expériences différentes : le beau apaise, le sublime écrase avant d'élever, le grotesque mêle volontairement le répulsif et le comique. Un tableau peut être raté au sens du beau classique et parfaitement réussi au sens du sublime ou du grotesque.
 
 ## Histoire de l'art comme discipline
 
@@ -60,6 +66,9 @@ L'histoire de l'art n'est pas seulement un récit chronologique des styles. C'es
 | **Psychanalyse** | L'oeuvre exprime l'inconscient de l'artiste (Freud) ou les structures symboliques universelles (Lacan). L'art sublime les pulsions | Freud (analyse de Léonard de Vinci, 1910), Ernst Kris, Jacques Lacan |
 | **Féminisme** | Interroge l'absence des femmes dans le canon artistique et les représentations du corps féminin. Pourquoi pas de "grandes femmes artistes" ? | Linda Nochlin ("Why Have There Been No Great Women Artists?", 1971), Griselda Pollock, les Guerrilla Girls |
 | **Postcolonialisme** | Critique le récit eurocentrique de l'histoire de l'art. Les "arts premiers" ne sont pas des étapes primitives mais des traditions autonomes. Questionne le pillage et l'exposition des oeuvres colonisées | Edward Said (*Orientalism*, 1978), Homi Bhabha, débats sur la restitution des oeuvres (rapport Sarr-Savoy, 2018) |
+
+> [!important] Idée clé
+> Ces méthodes ne sont pas de simples "écoles" concurrentes qu'il faudrait choisir : elles répondent à des questions différentes sur une même œuvre — le formalisme demande "comment est-ce construit ?", l'iconologie "que signifie le sujet ?", la sociologie de l'art "qui a produit ceci et pour qui ?". Un bon commentaire d'œuvre combine souvent plusieurs de ces grilles plutôt que d'en choisir une seule. Voir aussi [[Sociologie de la Culture]] pour le versant sociologique développé plus en détail.
 
 ## Critique d'art
 

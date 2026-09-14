@@ -44,6 +44,9 @@ Deux tombeaux avec quatre allégories du temps : *Le Jour* et *La Nuit* (tombeau
 **Esclaves / Prisonniers** (1513-1534, Louvre et Accademia)
 Figures inachevées qui semblent lutter pour émerger du marbre brut. Le *non finito* (inachevé) de Michel-Ange, longtemps considéré comme un défaut, est aujourd'hui vu comme une expression de la tension entre la forme idéale et la matière qui la retient.
 
+> [!tip] Méthode
+> Le *non finito* est un bon test de lecture : face à une sculpture inachevée de Michel-Ange, la question n'est pas "pourquoi n'a-t-il pas terminé ?" mais "que gagne l'œuvre à rester inachevée ?" — chez les Esclaves, c'est précisément la lutte visible contre la pierre qui fait sens ; un fini poli aurait annulé l'effet.
+
 **Moïse** (1515, San Pietro in Vincoli, Rome)
 Destiné au tombeau de Jules II (projet réduit de 40 statues à 7). Puissance physique monumentale. Deux "cornes" sur la tête — traduction littérale d'un passage de la Vulgate (*cornuta*, qui pouvait signifier "rayonnante" en hébreu).
 
@@ -88,6 +91,9 @@ Le vestibule et son escalier monumental : colonnes encastrées dans le mur (au l
 ## La *terribilità*
 
 Le mot italien *terribilità* est indissociable de Michel-Ange. Il désigne une puissance terrible, une énergie surhumaine qui émane de ses figures — muscles tendus, regards intenses, corps qui semblent trop grands pour l'espace qui les contient. Ce n'est pas de la violence mais une tension intérieure qui ne se résout jamais.
+
+> [!warning] Piège
+> Ne pas confondre la *terribilità* avec de la violence représentée : les figures de Michel-Ange ne sont presque jamais montrées en train de se battre. La tension est purement interne — des corps au repos ou en position statique mais dont chaque muscle semble prêt à exploser. C'est une tension de potentiel, pas d'action.
 
 ## Michel-Ange et Léonard de Vinci
 
