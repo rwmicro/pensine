@@ -68,6 +68,9 @@ date: "2026-02-22"
   - **CD8+ (T cytotoxique)** : Destruction cellules infectées/cancéreuses
 - **Reconnaissance** : Récepteur TCR + CMH (Complexe Majeur Histocompatibilité)
 
+> [!important] Idée clé
+> L'immunité innée et l'immunité adaptative ne sont pas deux systèmes redondants mais un compromis vitesse/précision : l'innée réagit en minutes mais reconnaît des motifs génériques (PAMPs) partagés par des familles entières de pathogènes ; l'adaptative prend des jours à s'activer (sélection clonale) mais cible un antigène précis et garde la mémoire. Sans l'innée pour gagner du temps au début de l'infection, l'adaptative arriverait souvent trop tard.
+
 **Anticorps (Immunoglobulines)**
 - **Structure** : 2 chaînes lourdes + 2 chaînes légères (forme Y)
 - **Classes** :
@@ -113,6 +116,9 @@ Exposition contrôlée à antigène pour générer mémoire immunitaire sans mal
 - **ARNm** : COVID-19 (Pfizer, Moderna)
   - Innovation majeure, production rapide
 
+> [!warning] Piège
+> L'ARNm vaccinal ne modifie pas l'ADN et n'entre jamais dans le noyau de la cellule — il reste dans le cytoplasme, sert de simple instruction temporaire pour fabriquer une protéine virale, puis est dégradé en quelques jours (mécanisme normal de dégradation de l'ARN messager). La confusion vient du nom « ARN messager », souvent associé à tort à une modification génétique permanente.
+
 **Calendrier Vaccinal**
 - Nourrissons : DTaP (diphtérie-tétanos-coqueluche), ROR, hépatite B
 - Adultes : Rappels tétanos (10 ans), grippe annuelle (>65 ans)
@@ -133,6 +139,9 @@ Exposition contrôlée à antigène pour générer mémoire immunitaire sans mal
   - Lupus Érythémateux Disséminé : Multiples organes
   - Polyarthrite Rhumatoïde : Articulations
 - **Mécanismes** : Perte tolérance au soi
+
+> [!tip] Méthode
+> Pour situer une maladie auto-immune, se demander d'abord si l'attaque cible un organe précis (diabète de type 1 → seuls les îlots pancréatiques) ou circule dans tout le corps (lupus → tous les organes selon où se déposent les complexes immuns). Cette distinction organe-spécifique/systémique prédit directement la présentation clinique : symptômes localisés dans le premier cas, symptômes tournants et diffus dans le second.
 
 **Allergies (Hypersensibilités)**
 - **Type I** (Immédiate) : IgE, mastocytes (pollen, arachide, venin)

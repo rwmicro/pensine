@@ -23,6 +23,9 @@ Dans les pays développés, ce sont désormais elles qui dominent — pas les mi
 | **Diabète** | ~540 millions d'adultes | x2 depuis 1990 |
 | **Maladies respiratoires chroniques** (BPCO, asthme) | ~545 millions | ~3,2 M morts/an |
 
+> [!important] Idée clé
+> C'est la **transition épidémiologique** : à mesure qu'un pays s'enrichit et maîtrise les maladies infectieuses (eau potable, vaccins, antibiotiques), l'espérance de vie augmente — ce qui donne mécaniquement plus de temps aux maladies chroniques (cardiovasculaires, cancer) pour se développer. Le « fardeau » ne grandit donc pas seulement parce qu'on vit plus mal, mais aussi parce qu'on vit plus longtemps.
+
 **Facteurs communs** : tabac, alcool, sédentarité, alimentation ultra-transformée, pollution de l'air. La prévention pèserait davantage que les traitements — mais elle est politiquement plus lente à mettre en œuvre.
 
 ### Maladies infectieuses — pas finies
@@ -70,6 +73,9 @@ flowchart TB
 | **Non-maléficence** | « D'abord ne pas nuire » | Refuser un traitement plus risqué que le bénéfice attendu |
 | **Justice** | éthique moderne (Rawls) | Allocation équitable des ressources (greffons, lits de réanimation, doses de vaccin) |
 
+> [!warning] Piège
+> Le « principisme » de Beauchamp et Childress est souvent présenté comme une méthode de calcul (peser les 4 principes et trancher), mais les auteurs eux-mêmes n'ont jamais fixé de hiérarchie entre eux — contrairement à une éthique déontologique kantienne (la règle prime toujours) ou utilitariste (le résultat prime toujours), cf. [[Utilitarisme]] et [[Kant]]. Le cadre sert à structurer le débat, pas à le résoudre mécaniquement.
+
 Ces principes entrent parfois en **conflit** — c'est précisément là que la décision devient éthique :
 - Un Témoin de Jéhovah refuse une transfusion vitale : autonomie vs bienfaisance
 - Réanimer un grand vieillard polypathologique : bienfaisance vs non-maléficence (acharnement thérapeutique)
@@ -100,6 +106,9 @@ Un débat majeur de toutes les sociétés vieillissantes. La position varie radi
 ### Modifications embryonnaires
 
 L'affaire **He Jiankui** (Chine, 2018) — premières naissances de bébés CRISPR — a déclenché un moratoire international de fait. Les comités d'éthique (Académies nationales, OMS) maintiennent que les modifications **germinales** (transmissibles à la descendance) ne sont pas acceptables tant que les risques ne sont pas maîtrisés.
+
+> [!important] Idée clé
+> La distinction qui structure tout le débat éthique n'est pas « CRISPR oui/non » mais **somatique vs germinal** (cf. [[Génétique Médicale]]) : une modification somatique (ex. CAR-T contre un cancer) ne concerne qu'un individu consentant et meurt avec lui ; une modification germinale se transmet à toute sa descendance sans qu'elle ait pu consentir — c'est ce transfert de risque à des personnes non encore nées qui justifie un traitement éthique radicalement différent.
 
 ### Discrimination génétique
 

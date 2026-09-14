@@ -56,6 +56,9 @@ date: "2026-02-22"
 - **DL50** : Dose létale pour 50%
 - **Index Thérapeutique** : DL50/DE50 (sécurité)
 
+> [!important] Idée clé
+> Un index thérapeutique étroit ne veut pas dire « médicament dangereux » mais « marge d'erreur faible entre dose utile et dose toxique » — c'est pour ça que des médicaments aussi communs que le paracétamol ou la digoxine nécessitent un dosage précis et une attention aux interactions, alors que d'autres (pénicilline) tolèrent un large surdosage sans risque vital.
+
 **Types d'Agents**
 - **Agoniste** : Active récepteur
 - **Antagoniste** : Bloque récepteur
@@ -78,6 +81,9 @@ date: "2026-02-22"
 - **Macrolides** : Azithromycine, érythromycine
 - **Fluoroquinolones** : Ciprofloxacine (ADN gyrase)
 - **Résistance** : Problème majeur (voir [[Biology/Biologie#Microbiologie]])
+
+> [!warning] Piège
+> La résistance bactérienne n'est pas causée par le corps du patient qui « s'habitue » à l'antibiotique (idée reçue fréquente) — c'est une sélection darwinienne au niveau de la population bactérienne : les souches résistantes survivent et se multiplient pendant qu'un traitement mal suivi (dose insuffisante, arrêt précoce) laisse justement le temps aux moins sensibles de proliférer. Cf. [[Enjeux Contemporains]] pour l'ampleur du problème (10M morts/an projetés d'ici 2050).
 
 **Antihypertenseurs**
 - **IEC** (Inhibiteurs Enzyme Conversion) : Captopril
@@ -117,4 +123,7 @@ date: "2026-02-22"
 **Interactions Médicamenteuses**
 - **Pharmacocinétiques** : Inhibition/induction P450
 - **Pharmacodynamiques** : Effets additifs/antagonistes
+
+> [!example] Exemple
+> Le pamplemousse est l'exemple classique d'interaction pharmacocinétique invisible : il inhibe le CYP3A4 intestinal, l'enzyme qui dégrade de nombreux médicaments avant leur absorption — résultat, la dose qui arrive réellement dans le sang peut doubler ou tripler sans que rien ne change sur l'ordonnance. Un jus de fruit peut donc transformer une dose normale en surdosage.
 
