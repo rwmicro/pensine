@@ -10,6 +10,9 @@ date: "2025-12-31"
 
 L'islam s'est divisé en plusieurs branches dès les premières décennies suivant la mort du prophète Mahomet en 632. La division principale concerne la question de la succession légitime et l'autorité religieuse.
 
+> [!important] Idée clé
+> La question de fond n'est pas "qui doit diriger" mais "d'où vient la légitimité de diriger" — et c'est ce qui structure encore les deux branches aujourd'hui. Pour les sunnites, la légitimité vient du consensus de la communauté (un calife peut être élu/désigné). Pour les chiites, elle vient de la filiation directe avec le Prophète (seul un descendant d'Ali, investi d'une connaissance spirituelle transmise, peut guider). Ce n'est donc pas un désaccord sur une personne (Ali) mais sur la source même de l'autorité religieuse.
+
 ### Les Deux Branches Principales
 
 #### 1. Le Sunnisme
@@ -296,6 +299,9 @@ L'islam s'est divisé en plusieurs branches dès les premières décennies suiva
 - Financé par le pétrole saoudien
 - Influence mondiale via écoles, mosquées
 
+> [!warning] Piège
+> "Wahhabisme" et "salafisme" sont souvent utilisés comme synonymes mais ne le sont pas strictement : le wahhabisme est le mouvement historique saoudien spécifique fondé par Ibn Abd al-Wahhab, tandis que le salafisme est une orientation plus large (retour aux "pieux ancêtres", *salaf*) qui existait avant lui et qui compte aujourd'hui des courants non-saoudiens, y compris certains critiques de la monarchie saoudienne elle-même. Tout salafiste n'est pas wahhabite au sens strict, même si les deux se recoupent largement en pratique.
+
 #### Ahmadiyya
 
 **Origine:**
@@ -347,6 +353,9 @@ L'islam s'est divisé en plusieurs branches dès les premières décennies suiva
 - Politique plus que théologie
 - Identités nationales et ethniques
 - Ressources et pouvoir régional
+
+> [!tip] Méthode
+> Face à un conflit qualifié de "sunnite-chiite" dans l'actualité, vérifier d'abord s'il recouvre une rivalité géopolitique (Arabie Saoudite/Iran, accès aux ressources, alliances régionales) plutôt qu'un désaccord doctrinal actif — la plupart des tensions contemporaines sont d'abord politiques et mobilisent l'identité confessionnelle comme marqueur, pas l'inverse. Une majorité de sunnites et de chiites cohabitent sans conflit là où les enjeux de pouvoir régional ne s'en mêlent pas.
 
 ### Démographie
 

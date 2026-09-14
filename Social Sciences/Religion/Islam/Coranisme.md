@@ -18,6 +18,9 @@ Les coranistes, aussi appelés "Quraniyoon" ou "Ahl al-Quran" (les gens du Coran
 - Certaines pratiques issues de la Sunna ne sont pas mentionnées dans le Coran
 - Dieu aurait rendu le Coran complet et détaillé, sans nécessiter d'autres sources
 
+> [!important] Idée clé
+> Le geste coraniste ("texte fondateur seul contre tradition humaine accumulée") est structurellement le même que le *Sola Scriptura* protestant face à la tradition catholique — voir [[Christianisme/Branches#3. Le Protestantisme|le Protestantisme]]. Ce n'est pas un hasard : chaque fois qu'une religion scripturaire accumule des siècles de commentaires et d'autorités intermédiaires, un mouvement de retour au texte seul finit par émerger pour contester leur légitimité.
+
 ### Contexte historique
 
 Bien que des tendances similaires aient existé dans l'histoire islamique, le mouvement coraniste moderne émerge principalement aux 19e et 20e siècles, notamment:
@@ -38,6 +41,9 @@ Le coranisme est considéré comme hétérodoxe par la majorité des écoles isl
 - Les hadiths sont nécessaires pour comprendre le contexte de révélation du Coran
 - Certaines prescriptions coraniques nécessitent des explications pratiques
 - La tradition prophétique fait partie intégrante de la religion islamique
+
+> [!tip] Méthode
+> L'objection la plus concrète des critiques : le Coran ordonne de prier sans préciser combien de fois par jour, ni les gestes, ni les horaires — ce sont les hadiths qui fixent les cinq prières quotidiennes et leur déroulement. Un coraniste cohérent doit donc soit reconstruire ces pratiques autrement à partir du seul texte coranique, soit accepter qu'une partie de la pratique islamique quotidienne vient nécessairement d'ailleurs que du Coran.
 
 ### Diffusion
 

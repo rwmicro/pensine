@@ -43,6 +43,9 @@ Après la destruction du Second Temple:
 - Élaboration du Talmud de Jérusalem (vers 400) et de Babylone (vers 500)
 - Le judaïsme se transforme d'une religion sacrificielle en une religion de l'étude et de la prière
 
+> [!important] Idée clé
+> Ce basculement de 70 apr. J.-C. explique la survie même du judaïsme là où d'autres cultes antiques ont disparu avec leur temple. Une religion centrée sur un lieu unique (sacrifice à Jérusalem) meurt avec sa destruction ; une religion devenue portable — centrée sur un texte et une pratique communautaire reproductibles partout — survit à l'exil. La synagogue et le Talmud sont les réponses structurelles à cette catastrophe, pas de simples adaptations mineures.
+
 ### Moyen Âge (500-1500)
 
 #### Âge d'or en terre d'Islam (8e-12e siècles)
@@ -58,6 +61,9 @@ Après la destruction du Second Temple:
 #### Développement du judaïsme ashkénaze et séfarade
 - Ashkénazes: Europe centrale et de l'Est
 - Séfarades: péninsule ibérique, puis Afrique du Nord et Empire ottoman après les expulsions
+
+> [!warning] Piège
+> Ashkénaze/séfarade n'est pas une distinction religieuse (les deux suivent la même Torah et le même Talmud) mais géographique et rituelle — prononciation de l'hébreu, mélodies liturgiques, coutumes culinaires (kitniyot à Pessah), style de piyyoutim. Confondre cette distinction avec une différence de branche (orthodoxe/réformé, qui elle est doctrinale) est une erreur fréquente.
 
 ### Période moderne (1500-1900)
 

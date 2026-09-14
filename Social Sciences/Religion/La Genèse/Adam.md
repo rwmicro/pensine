@@ -21,6 +21,9 @@ Selon Genèse 2:7, une version plus détaillée raconte:
 **Étymologie:**
 Le nom "Adam" (אָדָם en hébreu) vient de "adamah" (אֲדָמָה), qui signifie "terre" ou "sol rouge", soulignant le lien entre l'humanité et la terre.
 
+> [!important] Idée clé
+> Les deux récits ne sont pas de simples redites : le premier (1:26-27) crée l'homme et la femme simultanément, "à l'image de Dieu" — une affirmation théologique sur la dignité égale des deux sexes. Le second (2:7 et suivants) les crée successivement, l'un à partir de l'autre — une affirmation différente sur la relation entre eux. Voir [[Histoire]] pour la question de savoir pourquoi la Genèse contient deux récits de création distincts (hypothèse documentaire).
+
 ### Le Jardin d'Éden
 
 Dieu place Adam dans le jardin d'Éden avec pour mission de le cultiver et de le garder. Il peut manger de tous les arbres, sauf de l'arbre de la connaissance du bien et du mal, sous peine de mort.
@@ -71,6 +74,9 @@ Dieu place des chérubins avec une épée flamboyante à l'entrée du jardin pou
 - Adam (آدم) est considéré comme le premier prophète
 - Le Coran raconte une histoire similaire mais sans notion de péché originel transmis
 - La responsabilité est individuelle; chacun est responsable de ses propres actes
+
+> [!warning] Piège
+> Un même récit fondateur produit trois théologies incompatibles sur un point central : pour le christianisme, la faute d'Adam est héréditaire et justifie la nécessité d'un rédempteur (Jésus) ; pour le judaïsme et l'islam, chaque être est jugé sur ses propres actes, sans transmission de culpabilité. Ce n'est donc pas un détail d'interprétation mais une divergence structurelle sur la nature humaine elle-même — bonne par défaut ou marquée par une faute originelle.
 
 **Interprétations modernes:**
 - Lectures symboliques: Adam représente l'éveil de la conscience humaine

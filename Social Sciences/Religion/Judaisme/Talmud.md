@@ -67,6 +67,9 @@ Le Talmud (תלמוד, "étude" ou "enseignement") est l'un des textes les plus 
 - Conditions plus favorables pour l'étude
 - Plus détaillé et sophistiqué
 
+> [!important] Idée clé
+> Le Bavli est devenu la référence non parce qu'il serait géographiquement ou historiquement plus proche des origines (c'est l'inverse : la Palestine est le lieu d'origine), mais parce que ses académies ont bénéficié de conditions politiques plus stables sous domination perse que sous domination romaine puis byzantine. L'autorité d'un texte religieux dépend ici autant des conditions matérielles de sa production que de son contenu.
+
 ### Contenu
 
 #### Halakha (Loi)
@@ -105,6 +108,9 @@ Le Talmud (תלמוד, "étude" ou "enseignement") est l'un des textes les plus 
 - Folklore et superstitions
 - Médecine et sciences
 - Histoire
+
+> [!warning] Piège
+> Ne pas confondre "non-normatif" et "sans importance" : l'aggada n'a pas force de loi, mais elle transmet la vision du monde, l'éthique et l'imaginaire du judaïsme rabbinique tout autant que la halakha. Un lecteur pressé qui saute l'aggada pour n'étudier que les passages juridiques manque une bonne moitié de ce que le Talmud cherche à transmettre.
 
 ### Grandes Figures Talmudiques
 
@@ -173,6 +179,9 @@ Le Talmud (תלמוד, "étude" ou "enseignement") est l'un des textes les plus 
 - Débat et discussion intense
 - Mémorisation extensive
 - Cycles d'étude: Daf Yomi (page par jour, cycle de 7,5 ans)
+
+> [!tip] Méthode
+> La havruta n'est pas un simple travail de groupe pédagogique — c'est une méthode où le désaccord est structurellement recherché : chaque binôme argumente des positions opposées pour faire émerger le sens par friction, plutôt que par transmission d'un maître vers un élève passif. Voir [[Socrate]] pour un parallèle structurel (le dialogue comme méthode, pas le cours magistral), même si les objectifs diffèrent — la maïeutique vise la vérité, l'étude talmudique vise la halakha applicable.
 
 **Page Talmudique Standard:**
 - Mishna au centre

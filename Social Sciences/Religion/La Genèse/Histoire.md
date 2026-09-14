@@ -94,6 +94,12 @@ Joseph, fils préféré de Jacob, est vendu en esclavage en Égypte par ses frè
 - Datation: débats entre lecture traditionnelle (Moïse vers 1400 av. J.-C.) et approche critique (composition progressive entre le 10e et le 5e siècle av. J.-C.)
 - Influences mésopotamiennes visibles (récit du déluge similaire à l'épopée de Gilgamesh)
 
+> [!important] Idée clé
+> L'hypothèse documentaire explique précisément pourquoi le texte contient des doublets et des incohérences apparentes (deux récits de création, deux généalogies) : ce ne sont pas des erreurs de copiste mais la trace de traditions distinctes (yahviste, élohiste, sacerdotale, deutéronomiste) fusionnées par des rédacteurs postérieurs. Voir [[Adam]] pour un exemple concret de doublet expliqué par cette hypothèse.
+
+> [!warning] Piège
+> La ressemblance avec l'épopée de Gilgamesh (déluge, arche, envoi d'oiseaux) ne signifie pas que la Genèse "copie" un mythe mésopotamien au sens d'un plagiat — elle indique un fonds narratif commun au Proche-Orient ancien, que chaque tradition réécrit avec sa propre théologie (chez Gilgamesh, les dieux détruisent par caprice ; dans la Genèse, Dieu détruit par justice morale puis s'engage par alliance à ne jamais recommencer).
+
 ### Thèmes théologiques majeurs
 
 1. **Monothéisme:** Un seul Dieu créateur de tout

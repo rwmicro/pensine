@@ -16,6 +16,9 @@ Le sikhisme est une religion monothéiste fondée par Guru Nanak (1469-1539) au 
 
 Le Pendjab du XVe siècle est un carrefour entre l'hindouisme (majoritaire) et l'islam (dominant politiquement depuis les sultanats de Delhi). Les mouvements *bhakti* (dévotion hindoue) et *soufi* (mystique islamique) prêchent tous deux un accès direct à Dieu, sans intermédiaire clérical. Nanak s'inscrit dans cette effervescence spirituelle mais crée quelque chose de nouveau.
 
+> [!warning] Piège
+> Réduire le sikhisme à "un mélange d'hindouisme et d'islam" est une erreur répandue mais rejetée par les sikhs eux-mêmes — Nanak ne synthétise pas deux religions existantes, il affirme une révélation propre ("Il n'y a ni hindou ni musulman") qui dépasse les deux cadres plutôt que de les combiner. Le rejet des castes, de l'idolâtrie et du système des avatars rompt aussi nettement avec l'hindouisme que le refus d'un texte unique clos et d'une autorité califale rompt avec l'islam.
+
 ### La vie de Guru Nanak
 
 | Date | Evenement |
@@ -94,6 +97,9 @@ Dieu n'a pas de forme, pas de genre, pas de nom exclusif — il est au-delà de 
 ## Le Khalsa
 
 En 1699, Guru Gobind Singh crée le **Khalsa** ("les Purs"), la communauté des sikhs initiés par le baptême (*amrit*). Le récit fondateur : le Guru demande à la foule qui est prêt à mourir pour la foi. Cinq hommes (*Panj Piare*, "les cinq bien-aimés") se portent volontaires. Il les baptise et se fait baptiser par eux en retour — abolissant la hiérarchie entre Guru et disciple.
+
+> [!important] Idée clé
+> Ce geste — le Guru se faisant baptiser par ses propres disciples — est le pivot théologique qui prépare la fin de la lignée des Gurus humains : si l'autorité spirituelle peut circuler du disciple vers le maître, elle peut aussi se transférer entièrement à un texte (le Guru Granth Sahib en 1708). L'abolition symbolique de la hiérarchie Guru/disciple annonce l'abolition littérale du Guru humain lui-même.
 
 ### Les cinq articles de foi (5 K)
 

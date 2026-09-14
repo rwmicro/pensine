@@ -80,6 +80,9 @@ Le christianisme s'est divisé en plusieurs branches au cours de son histoire, p
 - Communion sous les deux espèces pour tous
 - Théologie mystique plutôt que scolastique
 
+> [!important] Idée clé
+> Le "Filioque" n'est pas un détail liturgique mais le vrai nœud théologique du schisme : Rome a ajouté unilatéralement au Credo que l'Esprit Saint procède "du Père ET du Fils" (filioque), alors que l'Orient maintient qu'il procède du Père seul. Derrière ce mot latin se joue la question de l'égalité des trois personnes de la Trinité — la primauté papale n'a fait que cristalliser une rupture déjà amorcée sur ce point depuis des siècles.
+
 #### 3. Le Protestantisme
 
 **Origine:**
@@ -93,6 +96,9 @@ Le christianisme s'est divisé en plusieurs branches au cours de son histoire, p
 3. **Sola Gratia**: salut par la grâce seule
 4. **Solus Christus**: Christ seul médiateur
 5. **Soli Deo Gloria**: gloire à Dieu seul
+
+> [!warning] Piège
+> "Protestant" n'est pas une doctrine mais un principe d'autorité (Sola Scriptura) qui recouvre des théologies parfois incompatibles entre elles — la prédestination calviniste et le libre-arbitre arminien-méthodiste, par exemple, s'opposent frontalement sur la question du salut. Ne pas confondre non plus "protestant" et "évangélique" : l'évangélisme est un mouvement transconfessionnel (né au 18e siècle, centré sur la conversion personnelle) qui traverse plusieurs dénominations protestantes sans s'y réduire.
 
 **Caractéristiques communes:**
 - Environ 900 millions de fidèles
@@ -175,6 +181,9 @@ Le christianisme s'est divisé en plusieurs branches au cours de son histoire, p
 - **Disciples du Christ**
 - **Église de Jésus-Christ des Saints des Derniers Jours (Mormons)**: considérés par beaucoup comme une religion distincte
 - **Témoins de Jéhovah**: considérés par beaucoup comme hétérodoxes
+
+> [!tip] Méthode
+> Mormons et Témoins de Jéhovah ne sont pas des dénominations protestantes mais des mouvements **restaurationnistes** : ils ne revendiquent pas une réforme du christianisme existant (comme Luther ou Calvin) mais la restauration d'un christianisme originel perdu, via une révélation nouvelle (Livre de Mormon) ou une réinterprétation totale de la doctrine trinitaire (rejetée par les Témoins). C'est ce qui explique pourquoi ils s'écartent du tronc "Sola Scriptura" commun aux autres branches protestantes.
 
 ### Églises Orientales Anciennes
 

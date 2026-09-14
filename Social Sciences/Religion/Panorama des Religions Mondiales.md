@@ -9,6 +9,9 @@ date: "2026-04-16"
 
 Les religions structurent la vie de plus de 80 % de la population mondiale. Cette note présente les grandes familles religieuses, leurs fondements, leur géographie et leurs rapports.
 
+> [!warning] Piège
+> Ces chiffres d'adhérents comptent l'identification déclarée (naissance, culture, recensement), pas la pratique ou la croyance réelle — un "catholique" français peut n'avoir jamais mis les pieds à la messe. Comparer directement ces pourcentages à des taux de pratique religieuse effective (comme la sécularisation évoquée plus bas) mène à des conclusions fausses : l'écart entre identification et pratique est énorme et varie fortement selon les religions et les régions.
+
 ## Vue d'ensemble
 
 | Religion | Fondateur / Origine | Date | Adherents (2024) | % mondial | Texte sacré principal |
@@ -72,6 +75,9 @@ L'islam naît en Arabie au VIIe siècle avec la révélation du Coran au prophè
 | **Ibadisme** | ~1 % | Branche distincte, majoritaire à Oman |
 | **Soufisme** | transversal | Dimension mystique et spirituelle de l'islam, présent dans le sunnisme et le chiisme |
 
+> [!important] Idée clé
+> Le schisme sunnite/chiite n'est pas né d'un désaccord théologique sur Dieu ou le Coran (les deux partagent l'essentiel de la doctrine) mais d'une question de succession politique après la mort de Muhammad : qui devait diriger la communauté — un calife élu/consensuel (position sunnite) ou un descendant direct du Prophète par Ali (position chiite) ? La divergence doctrinale (rôle des imams, infaillibilité) s'est construite après coup, sur cette fracture d'origine politique.
+
 ## Les religions indiennes
 
 ### Hindouisme
@@ -130,6 +136,9 @@ Les religions traditionnelles (africaines, amérindiennes, océaniennes, sibéri
 - **Chamanisme** : un intermédiaire (chaman) communique avec le monde des esprits par la transe
 - **Oralité** : pas de texte sacré écrit, transmission par les rituels, les chants et les récits
 - **Syncrétisme** : coexistence fréquente avec les religions monothéistes (vaudou haïtien = religion yoruba + catholicisme)
+
+> [!example] Exemple
+> Le syncrétisme n'est pas propre aux "religions traditionnelles" — le sikhisme (voir [[Sikhisme]]) naît lui-même à la croisée de l'hindouisme et de l'islam, bien qu'il refuse d'être vu comme une simple fusion des deux. La différence est que le vaudou haïtien juxtapose deux systèmes sans les unifier théologiquement, alors que le sikhisme construit une théologie monothéiste nouvelle et cohérente à partir de cette rencontre.
 
 ## Géographie des religions
 

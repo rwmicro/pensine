@@ -52,6 +52,9 @@ date: "2026-02-22"
 - Jésus non reconnu comme Messie/Dieu
 - Attente Messie continue
 
+> [!important] Idée clé
+> Le rejet n'est pas seulement "Jésus n'est pas le bon candidat" — c'est structurel. Le monothéisme juif (Shema : "Écoute Israël, l'Éternel est Un") exclut par principe toute pluralité au sein de la divinité, même conçue comme trois personnes d'une seule substance. La Trinité n'est pas un détail théologique en trop : elle contredit la définition même de l'unité divine que le judaïsme pose comme fondement.
+
 ### Pratiques
 
 **Sabbat** (Shabbat)
@@ -94,6 +97,9 @@ date: "2026-02-22"
 - **Reconstructionniste** : Judaïsme comme civilisation évolutive
 - **Hassidisme** : Mysticisme (Loubavitch, etc.)
 - **Karaïsme** : Torah seule (rejet Talmud)
+
+> [!warning] Piège
+> Réformé et Reconstructionniste sont souvent confondus car tous deux libéraux, mais leur logique diffère : le Réformé garde l'idée d'un Dieu révélant une loi qu'on peut réinterpréter, alors que le Reconstructionniste (Mordecai Kaplan) redéfinit le judaïsme comme civilisation culturelle évolutive — Dieu y est reconçu, pas seulement la loi. Le karaïsme, lui, n'est pas "plus libéral" : au contraire, en rejetant le Talmud il est souvent plus littéraliste sur le texte biblique que l'orthodoxie rabbinique.
 
 ### Fêtes
 

@@ -32,6 +32,9 @@ Les yeshivot trouvent leur origine dans l'Antiquité, mais se développent surto
 - Cours magistraux (shiurim) donnés par les rabbins
 - Horaires intensifs: souvent 10-15 heures par jour
 
+> [!tip] Méthode
+> L'essentiel du temps d'étude en yeshiva n'est pas passé à écouter un cours (shiur), qui reste minoritaire, mais en havruta autonome — ce qui inverse le modèle scolaire occidental classique où le cours magistral domine et le travail entre pairs est secondaire. Voir [[Talmud#Méthode d'étude|Talmud]] pour le détail de cette méthode.
+
 ### Types de yeshivot
 
 **Yeshiva Ketana (petite yeshiva):**
@@ -78,5 +81,8 @@ En Israël, les yeshivot suscitent des débats sur:
 - Le financement public des institutions religieuses
 - L'absence d'études séculières dans certaines yeshivot haredim
 - L'intégration des diplômés dans le marché du travail
+
+> [!important] Idée clé
+> Ce débat n'est pas anecdotique : il oppose deux légitimités difficiles à concilier dans un État qui se veut à la fois juif et démocratique — le service militaire universel comme fondement de la citoyenneté égalitaire, et l'étude de la Torah comme activité que la tradition orthodoxe considère elle-même essentielle à la survie spirituelle du peuple (parfois formulée comme équivalente à une défense, non militaire, de la nation).
 
 ![Yeshiva](https://static.timesofisrael.com/fr/uploads/2023/10/F230919ALA08.jpeg)
