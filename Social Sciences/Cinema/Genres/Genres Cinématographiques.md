@@ -28,6 +28,9 @@ date: "2026-02-22"
 **Révisions:**
 - *Impitoyable* (Eastwood, 1992) - Déconstruction
 
+> [!important] Idée clé
+> Le western spaghetti de Leone n'est pas juste un western tourné en Italie avec un budget réduit : c'est une lecture ironique et distanciée du mythe fordien (héros ambigus, violence stylisée sans morale claire), qui prépare la déconstruction explicite d'*Impitoyable* trente ans plus tard. Le genre se retourne progressivement sur ses propres conventions plutôt que de simplement les répéter.
+
 ### Film Noir
 
 **USA (1940s-1950s):**
@@ -49,6 +52,9 @@ date: "2026-02-22"
 **Néo-noir:**
 - *Chinatown* (Polanski, 1974)
 - *Blade Runner* (Ridley Scott, 1982)
+
+> [!warning] Piège
+> Un débat non tranché parmi les critiques : le film noir est-il un genre (défini par son sujet — détectives, crime) ou un style visuel (clair-obscur, cadrages obliques) applicable à n'importe quel genre ? *Blade Runner* est classé à la fois en science-fiction et en néo-noir précisément parce qu'il emprunte l'esthétique noir sans en partager le sujet classique — un bon indice que "style" décrit mieux le noir que "genre".
 
 ### Science-Fiction
 

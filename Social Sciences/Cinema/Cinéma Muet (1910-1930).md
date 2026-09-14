@@ -21,6 +21,9 @@ date: "2026-02-22"
   - Révolution technique (montage, échelle)
   - Mais: raciste (glorification KKK)
   - Controverse permanente
+
+> [!warning] Piège
+> *Naissance d'une nation* pose un problème récurrent en histoire du cinéma : séparer l'innovation formelle (montage parallèle, gros plan, grammaire narrative encore utilisée aujourd'hui) du contenu idéologique qu'elle sert. Le film n'est pas important "malgré" son racisme ou "à cause" de lui — les deux sont indissociables du geste technique (le montage parallèle y construit littéralement la peur raciale comme suspense).
 - *Intolérance* (1916) - Réponse aux critiques, 4 histoires parallèles
 
 ### Cinéma Soviétique - Montage
@@ -47,6 +50,9 @@ date: "2026-02-22"
 **Vsevolod Poudovkine (1893-1953):**
 - Montage plus narratif qu'Eisenstein
 
+> [!important] Idée clé
+> Le "montage des attractions" d'Eisenstein n'est pas juste un style plus rapide que celui de Griffith — c'est une théorie opposée du montage. Griffith enchaîne les plans pour raconter une histoire de façon continue (montage narratif) ; Eisenstein les fait entrer en collision pour produire une idée que ni l'un ni l'autre plan ne contient seul (montage dialectique — deux images créent un troisième sens). Voir [[Théorie/Théorie et Langage du Cinéma|Théorie et Langage du Cinéma]] pour la distinction montage narratif/expressif.
+
 ### Expressionnisme Allemand
 
 **Contexte:**
@@ -68,6 +74,9 @@ date: "2026-02-22"
 **Influence:**
 - Film noir américain (Lang, Wilder émigrés)
 - Horreur, science-fiction
+
+> [!example] Exemple
+> L'expressionnisme allemand n'a pas "influencé" le film noir américain par simple admiration esthétique : ce sont en grande partie les mêmes personnes qui l'ont transposé. Fritz Lang et Billy Wilder ont fui l'Allemagne nazie et importé directement leur vocabulaire visuel (clair-obscur, ombres, angles obliques) dans les studios hollywoodiens des années 1940 — l'exil politique explique la continuité stylistique mieux qu'une notion vague d'influence.
 
 ### Burlesque Américain
 
