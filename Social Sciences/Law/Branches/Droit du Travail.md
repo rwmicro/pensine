@@ -33,6 +33,9 @@ Trois éléments caractérisent le contrat de travail :
 2. **Rémunération** : l'employeur verse un salaire
 3. **Lien de subordination** : le salarié est sous l'autorité de l'employeur — c'est le critère déterminant
 
+> [!important] Idée clé
+> Le lien de subordination prime sur la qualification donnée par les parties : appeler quelqu'un « indépendant » dans un contrat ne suffit pas s'il reçoit en réalité des directives, des horaires imposés et un contrôle de son travail. C'est ce critère — pas le nom du contrat — que les juges utilisent pour requalifier une relation en salariat (voir plus bas la question de l'ubérisation).
+
 ### Types de contrats
 
 | Contrat | Caractéristiques | Usage |
@@ -63,6 +66,9 @@ L'employeur ne peut pas licencier librement — il doit justifier d'une **cause 
 La procédure est encadrée : convocation à entretien préalable, délai de réflexion, notification motivée par lettre recommandée, respect du préavis, indemnités de licenciement.
 
 Le licenciement sans cause réelle et sérieuse est sanctionné par les prud'hommes (indemnités plafonnées depuis les ordonnances Macron 2017 — le "barème Macron", très contesté).
+
+> [!warning] Piège
+> La charge de la preuve n'est pas à sens unique : en cas de litige, le doute profite au salarié (art. L1235-1 du Code du travail), mais c'est bien l'employeur qui doit démontrer que le motif invoqué est réel et sérieux — pas au salarié de prouver son innocence. Ce renversement partiel de la logique probatoire habituelle découle directement du principe protecteur énoncé en introduction.
 
 ## Représentation du personnel
 

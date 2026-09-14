@@ -34,6 +34,9 @@ Le droit coutumier est encore vivant dans de nombreuses régions du monde :
 
 Dans la plupart des pays où il existe, le droit coutumier cohabite avec le droit étatique (et parfois le droit religieux). Cette coexistence crée un **pluralisme juridique** — plusieurs ordres normatifs s'appliquent aux mêmes personnes, parfois de manière contradictoire. Exemple : une femme peut hériter selon le Code civil mais être exclue de l'héritage selon la coutume locale.
 
+> [!important] Idée clé
+> Le pluralisme juridique n'est pas une curiosité marginale de pays "en retard" — il révèle que l'idée "un territoire = un seul système de règles" est elle-même une construction moderne et occidentale (l'Etat-nation centralisé), pas une évidence universelle. Historiquement, la coexistence de plusieurs ordres normatifs est la norme ; le monopole étatique du droit est l'exception récente.
+
 ## Le droit socialiste
 
 Le droit socialiste est le système juridique des Etats marxistes-léninistes. Il a constitué un troisième grand système mondial pendant la Guerre froide, avant de s'effondrer avec l'URSS.
@@ -58,6 +61,9 @@ Le droit socialiste est le système juridique des Etats marxistes-léninistes. I
 
 Après la chute de l'URSS (1991), les pays d'Europe de l'Est ont massivement adopté le modèle romano-germanique (nouveaux codes civils, cours constitutionnelles, intégration à l'UE).
 
+> [!warning] Piège
+> Dire que le droit chinois "intègre des éléments de common law" (zones économiques spéciales, Hong Kong) peut faire croire à une convergence vers l'Etat de droit occidental. Mais le principe fondateur — le Parti reste au-dessus du droit — n'a pas changé : l'ouverture technique du système (règles de contrat, propriété intellectuelle) coexiste avec l'absence de séparation des pouvoirs. Modernisation des outils juridiques ne veut pas dire libéralisation politique.
+
 ## Les systèmes mixtes
 
 De nombreux pays combinent des éléments de plusieurs traditions juridiques. Ces systèmes mixtes sont souvent le produit de l'histoire coloniale.
@@ -77,5 +83,8 @@ De nombreux pays combinent des éléments de plusieurs traditions juridiques. Ce
 | Tradition | Caractéristiques | Application actuelle |
 |---|---|---|
 | **Droit canonique** (christianisme) | Droit interne de l'Eglise catholique. *Codex Iuris Canonici* (1983). Régit les sacrements, le clergé, les biens de l'Eglise | L'Etat du Vatican. Influence historique sur le droit occidental (mariage, universités) |
-| **Halakha** (judaïsme) | Loi juive tirée de la Torah et du Talmud. Règles de vie quotidienne (kashrout, shabbat, mariage) | Israël : le mariage et le divorce sont régis par les tribunaux rabbiniques. Pas de mariage civil |
+| **Halakha** (judaïsme) | Loi juive tirée de la Torah et du Talmud. Règles de vie quotidienne (kashrout, shabbat, mariage) | Israël : le mariage et le divorce sont régis par les tribunaux rabbiniques. Pas de mariage civil (cf. [[Talmud]]) |
+
+> [!example] Exemple
+> Israël est un contre-exemple utile à l'idée que sécularisation du droit de la famille = condition d'une démocratie moderne : c'est une démocratie parlementaire avec élections, presse libre et contrôle judiciaire, mais sans mariage civil interne — les couples qui veulent l'éviter se marient à l'étranger (souvent à Chypre) pour que l'Etat reconnaisse ensuite l'union.
 | **Droit hindou** | Basé sur le *dharma* (devoir). Textes : *Dharmashastra*, *Manusmriti*. Régit le mariage, l'adoption, l'héritage selon la caste | Inde : le *Hindu Marriage Act* (1955) a modernisé le droit hindou. Le système des castes est officiellement aboli mais socialement présent |

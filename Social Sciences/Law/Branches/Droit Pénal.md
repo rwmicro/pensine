@@ -20,6 +20,9 @@ Le droit pénal est la branche du droit qui définit les **infractions** (compor
 - L'interprétation stricte de la loi pénale : en cas de doute, on interprète en faveur du prévenu
 - La non-rétroactivité : on ne peut pas être puni pour un acte qui n'était pas interdit au moment où il a été commis. Exception : la **rétroactivité in mitius** — une loi plus douce s'applique immédiatement
 
+> [!warning] Piège
+> La rétroactivité *in mitius* n'est pas une entorse au principe de légalité, c'est ce qui révèle son but réel. Si le principe visait seulement la sécurité juridique (savoir à l'avance ce qui est puni), il interdirait toute rétroactivité, dans les deux sens. Le fait qu'on autorise la rétroactivité favorable montre que le vrai objectif est de protéger l'individu contre l'Etat — jamais l'inverse.
+
 ### Présomption d'innocence
 
 Toute personne est considérée innocente tant qu'elle n'a pas été déclarée coupable par un tribunal. C'est à l'accusation (le ministère public) de prouver la culpabilité — pas à l'accusé de prouver son innocence.
@@ -49,6 +52,9 @@ Pour qu'il y ait infraction, trois éléments doivent être réunis :
 | **Crimes** | Grave | Cour d'assises (avec jury populaire) | Réclusion criminelle (jusqu'à perpétuité) | Meurtre, assassinat, viol, acte de terrorisme, crime contre l'humanité |
 
 La distinction est fondamentale : elle détermine la juridiction compétente, la procédure applicable, les délais de prescription et la sévérité des peines.
+
+> [!important] Idée clé
+> Cette tripartition contravention/délit/crime n'est pas universelle — beaucoup de pays (Etats-Unis, Royaume-Uni) n'ont que deux catégories (*misdemeanor*/*felony*). Ce qui compte vraiment derrière la classification française, c'est qui juge : un juge unique pour les contraventions, des magistrats professionnels pour les délits, un jury populaire pour les crimes. Plus la peine encourue est lourde, plus le pouvoir de juger se déplace du magistrat de carrière vers les citoyens.
 
 ## Les peines
 
@@ -106,3 +112,6 @@ Abolie en France en 1981 (loi Badinter). Abolie dans 142 pays dans le monde. Mai
 | **France (inquisitoire)** | Le juge dirige l'enquête et recherche activement la vérité. Le juge d'instruction est une figure centrale |
 | **Common law (accusatoire)** | Le juge est un arbitre entre l'accusation et la défense. Le procès est un combat (*adversarial system*). Le jury a un rôle central |
 | **Etats-Unis** | *Plea bargaining* (négociation de plaidoyer) : 90%+ des affaires sont réglées sans procès — l'accusé plaide coupable en échange d'une peine réduite |
+
+> [!tip] Méthode
+> Piège classique : "inquisitoire" ne veut pas dire "présomption de culpabilité". La distinction porte sur qui mène l'enquête (un juge d'instruction actif vs deux parties qui s'affrontent devant un arbitre), pas sur qui doit prouver quoi. Dans les deux systèmes, c'est l'accusation qui porte la charge de la preuve — le terme "inquisitoire" trompe parce qu'il évoque à tort l'Inquisition.

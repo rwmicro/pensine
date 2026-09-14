@@ -20,6 +20,9 @@ date: "2026-03-05"
 - Constitutionnalité (Conseil constitutionnel France, Cour suprême USA)
 - Conventionnalité (conformité aux traités)
 
+> [!important] Idée clé
+> Une pyramide des normes sans mécanisme de contrôle n'est qu'une déclaration d'intention. Ce qui rend la hiérarchie de Kelsen effective, c'est l'existence d'un juge habilité à annuler une norme inférieure contraire à une norme supérieure — sans ça, rien n'empêche concrètement une loi ordinaire de violer la Constitution.
+
 ### Loi
 
 **Élaboration (démocratie):**
@@ -42,6 +45,9 @@ date: "2026-03-05"
 **Cours suprêmes:**
 - Harmonisation, évolution du droit
 - Cassation (France), Supreme Court (USA)
+
+> [!warning] Piège
+> Dire que la jurisprudence n'est qu'une "source secondaire" en civil law (cf. `Interprétation, comble lacunes` ci-dessus) est vrai en théorie mais trompeur en pratique : un arrêt de cassation qui fixe une interprétation est suivi par toutes les juridictions inférieures, sous peine de cassation systématique. La différence avec la common law n'est pas "contraignant vs non contraignant" mais "contraignant par la doctrine du précédent" vs "contraignant par la pression hiérarchique".
 
 ### Doctrine
 

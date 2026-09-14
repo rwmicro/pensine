@@ -17,6 +17,9 @@ Le système de droit romano-germanique (ou *civil law*) est le système juridiqu
 | **Moyen Âge** (XIIe-XVe s.) | Redécouverte du droit romain dans les universités (Bologne, Paris). Les glossateurs puis les commentateurs en font un droit savant enseigné dans toute l'Europe — le *ius commune* |
 | **Droit naturel** (XVIIe-XVIIIe s.) | Grotius, Pufendorf, Domat : le droit doit être fondé sur la raison universelle. Préparation intellectuelle de la codification |
 | **Codification napoléonienne** (1804) | Le **Code civil** de Napoléon (2 281 articles) unifie le droit français. Clair, systématique, exporté dans toute l'Europe par les conquêtes napoléoniennes. Napoléon dira : "Ma vraie gloire, ce n'est pas d'avoir gagné quarante batailles ; ce que rien n'effacera, c'est mon Code civil" |
+
+> [!important] Idée clé
+> Codifier n'est jamais un acte neutre de mise en ordre : avant 1804, la France appliquait des coutumes locales différentes (droit écrit au sud, droit coutumier au nord). Unifier le droit dans un code unique, c'était aussi éliminer les pouvoirs juridiques locaux (seigneuries, parlements régionaux) au profit de l'Etat central — la codification est un outil politique autant que technique.
 | **XIXe-XXe siècles** | Le modèle napoléonien inspire le BGB allemand (1900), plus théorique et abstrait, qui influence à son tour le Japon, la Grèce, la Turquie |
 
 ## Caractéristiques
@@ -27,6 +30,9 @@ Le système de droit romano-germanique (ou *civil law*) est le système juridiqu
 | **Codification** | Le droit est organisé en codes thématiques : Code civil, Code pénal, Code de commerce, Code du travail. Chaque code couvre systématiquement un domaine |
 | **Raisonnement déductif** | Le juge part de la règle générale (le texte) et l'applique au cas particulier — du général au particulier |
 | **Jurisprudence secondaire** | Les décisions des tribunaux ne sont pas formellement contraignantes pour les autres juges (pas de *stare decisis*). En pratique, la jurisprudence des cours suprêmes est très influente |
+
+> [!warning] Piège
+> "Pas formellement contraignante" ne veut pas dire "sans effet" : un juge du fond qui s'écarte systématiquement de la position de la Cour de cassation s'expose à voir ses jugements cassés en boucle. La différence avec la common law n'est donc pas binaire (contraignant/pas contraignant) mais de mécanisme — hiérarchie disciplinaire de fait contre doctrine formelle du précédent.
 | **Doctrine** | Les écrits des universitaires (professeurs de droit) ont une influence réelle sur l'interprétation du droit — plus que dans les pays de common law |
 | **Juge inquisitoire** | En procédure pénale, le juge joue un rôle actif dans la recherche de la vérité (par opposition au système accusatoire de la common law) |
 
@@ -60,3 +66,6 @@ Le droit romano-germanique est le système dominant dans :
 | **Précédent** | Pas formellement contraignant | Contraignant (*stare decisis*) |
 
 En pratique, les deux systèmes convergent : les pays de civil law accordent de plus en plus d'importance à la jurisprudence, et les pays de common law légifèrent de plus en plus par *statutes* (lois écrites).
+
+> [!tip] Méthode
+> Pour comparer deux systèmes juridiques sans se perdre dans les étiquettes, une seule question compte vraiment : où se situe, en dernier ressort, le pouvoir de trancher un cas non prévu par le texte ? En civil law, en théorie chez le législateur (le juge "applique") ; en common law, explicitement chez le juge (il "crée" le droit cas par cas). La convergence pratique ne change pas cette différence de légitimité affichée.

@@ -29,6 +29,9 @@ L'article L.121-1 du Code de commerce définit le commerçant comme "celui qui e
 
 Le commerçant a des obligations spécifiques : immatriculation au Registre du Commerce et des Sociétés (RCS), tenue d'une comptabilité, ouverture d'un compte bancaire professionnel.
 
+> [!tip] Méthode
+> Pour comprendre pourquoi le droit commercial existe comme régime séparé du [[Droit Civil]], retenir un seul principe directeur : la rapidité prime sur le formalisme. Chaque règle du droit commercial (preuve libre, contrats oraux, tribunaux spécialisés) s'explique par ce besoin de fluidifier les échanges — c'est un droit fait pour le rythme des affaires, pas pour la protection prudente du particulier.
+
 ## Formes juridiques des sociétés
 
 | Forme | Associés | Capital | Responsabilité | Usage typique |
@@ -94,6 +97,9 @@ Quand une entreprise ne peut plus payer ses dettes, le droit commercial organise
 | **Liquidation judiciaire** | Redressement manifestement impossible | Vente des actifs et répartition entre créanciers |
 
 L'ordre de paiement des créanciers (privilèges) est crucial : salariés > Trésor public > créanciers garantis (hypothèque, nantissement) > créanciers chirographaires (non garantis).
+
+> [!warning] Piège
+> Une garantie (hypothèque, nantissement) ne place pas automatiquement son titulaire en tête de liste : les salariés et le Trésor public passent devant, par superprivilège légal, quel que soit le montage contractuel. Un créancier « garanti » peut donc repartir les mains vides si la masse à répartir est absorbée par les rangs supérieurs — la garantie protège contre les autres créanciers chirographaires, pas contre l'ordre légal.
 
 ## Juridiction commerciale
 

@@ -20,6 +20,9 @@ La science des sources (*usul al-fiqh*) hiérarchise quatre fondements :
 | **Ijma** (consensus) | Accord unanime des savants musulmans (*ulama*) d'une époque sur une question juridique | Source forte mais rare en pratique — les savants ne s'accordent pas souvent |
 | **Qiyas** (analogie) | Raisonnement par analogie : appliquer à une situation nouvelle la règle d'une situation similaire déjà tranchée par le Coran ou la Sunna | Exemple : l'interdiction du vin (Coran) est étendue par analogie à toutes les substances intoxicantes |
 
+> [!tip] Méthode
+> Le *qiyas* est la clé pour comprendre comment un corpus fixé au VIIe siècle continue de trancher des questions que ses auteurs n'ont jamais envisagées (drogues de synthèse, finance moderne). Ce n'est pas une entorse au texte mais une méthode d'interprétation prévue dès l'origine — la question n'est donc jamais "le texte permet-il d'innover ?" mais "l'analogie proposée est-elle juridiquement valide ?".
+
 D'autres sources secondaires existent : *istihsan* (préférence juridique), *maslaha* (intérêt général), *urf* (coutume locale).
 
 ## Les écoles juridiques (madhhab)
@@ -40,6 +43,9 @@ L'Islam n'a pas de magistère central (pas de pape). Plusieurs écoles d'interpr
 | Ecole | Caractéristique | Diffusion |
 |---|---|---|
 | **Jafarite** (chiite duodécimain) | Reconnait les imams comme interprètes légitimes après le Prophète. L'*ijtihad* (effort d'interprétation) reste ouvert — les mujtahids contemporains peuvent émettre de nouvelles opinions | Iran, Irak, Liban, Bahreïn |
+
+> [!important] Idée clé
+> L'existence de quatre écoles sunnites et d'une école chiite majoritaire ne traduit pas un désaccord théologique sur la foi (les cinq piliers sont partagés) mais un désaccord méthodologique sur comment interpréter les sources — quelle place laisser au raisonnement humain face au texte. Hanafite et Hanbalite, par exemple, se situent aux deux extrêmes de ce curseur, sans que l'un ou l'autre remette en cause le dogme central.
 
 ## Les domaines du droit
 
@@ -62,6 +68,9 @@ L'application de la charia varie radicalement d'un pays à l'autre :
 | **Statut personnel uniquement** | Egypte, Maroc, Jordanie, Indonésie, Malaisie | La charia s'applique au mariage, au divorce, à l'héritage. Le droit pénal et commercial suit des codes d'inspiration occidentale |
 | **Système mixte** | Pakistan, Nigeria (Nord), Soudan | Application variable selon les régions ou les populations |
 | **Séparation** | Turquie, Tunisie, Albanie | Etat laïc : la charia n'a pas de rôle dans le droit positif. La Turquie a adopté le Code civil suisse en 1926 (réformes d'Atatürk) |
+
+> [!warning] Piège
+> Confondre "pays à majorité musulmane" et "charia appliquée au pénal" est l'erreur la plus fréquente sur ce sujet. Le tableau ci-dessus montre que la majorité des cas se situe dans la ligne "statut personnel uniquement" : mariage et héritage suivent la charia, mais le droit pénal et commercial reste d'inspiration occidentale (codes napoléoniens souvent). Seule une minorité de pays (Arabie Saoudite, Iran) applique les *hudud* comme droit pénal positif.
 
 ## Finance islamique
 

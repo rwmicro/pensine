@@ -24,6 +24,9 @@ Le droit administratif est la branche du droit public qui régit l'organisation 
 ### Le principe de légalité
 L'administration est soumise au droit : elle ne peut agir que dans le cadre fixé par les textes (Constitution, lois, règlements, traités). Tout acte administratif peut être contesté devant un juge. C'est l'**Etat de droit** : le pouvoir est limité par le droit, y compris celui qui fait le droit.
 
+> [!important] Idée clé
+> Le paradoxe apparent — l'Etat crée la loi et s'y soumet lui-même — n'en est pas un si on distingue les rôles : l'administration qui *applique* la règle n'est pas le même organe que le Parlement qui la *vote* (voir la séparation des pouvoirs dans [[Droit Constitutionnel]]). C'est précisément parce que ces fonctions sont séparées que l'auto-limitation devient contraignante et non symbolique.
+
 ### La hiérarchie des normes
 L'administration doit respecter une pyramide :
 1. Constitution et bloc de constitutionnalité
@@ -60,6 +63,9 @@ La France a un système unique : deux ordres de juridiction séparés.
 Le Tribunal des conflits tranche les conflits de compétence entre les deux ordres.
 
 Cette dualité vient de la Révolution française : les révolutionnaires, méfiants envers les juges de l'Ancien Régime (les Parlements), ont interdit aux tribunaux ordinaires de juger l'administration. L'administration s'est donc jugée elle-même (justice retenue), avant que le Conseil d'Etat ne devienne un vrai juge indépendant (justice déléguée, arret Cadot, 1889).
+
+> [!warning] Piège
+> Ce dualisme n'est pas une exigence universelle de l'Etat de droit — c'est une singularité historique française (voir le tableau de comparaison internationale ci-dessous). Le Royaume-Uni prouve qu'on peut contrôler l'administration efficacement (*judicial review*) sans juridiction séparée. Ne pas présenter le modèle français comme « la » solution à la question posée par le [[Droit Constitutionnel|contrôle du pouvoir]].
 
 ## Comparaison internationale
 

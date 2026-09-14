@@ -40,3 +40,9 @@ date: "2026-02-22"
 - **Responsabilité civile:** Réparer dommages
   - Délictuelle (faute)
   - Contractuelle
+
+> [!important] Idée clé
+> La distinction délictuelle/contractuelle n'est pas cosmétique : on ne peut normalement pas invoquer les deux pour un même fait (principe du non-cumul). Si un contrat existe entre les parties, la responsabilité contractuelle prime et exclut la délictuelle — la victime ne choisit pas le régime le plus avantageux.
+
+> [!warning] Piège
+> « Responsabilité civile » ≠ « droit civil » au sens large : c'est un mécanisme de réparation qui existe aussi hors droit civil pur (ex. responsabilité administrative, voir [[Droit Administratif]]). Ne pas confondre la logique de réparation (indemniser une victime) avec la logique pénale de sanction (punir un coupable) — un même fait peut déclencher les deux, jugés par des voies séparées.
