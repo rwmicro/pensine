@@ -20,6 +20,9 @@ date: "2026-02-22"
 - Numina (forces divines)
 - Divinités abstraites (Concordia, Pietas, Virtus)
 
+> [!important] Idée clé
+> Avant l'emprunt aux Grecs, la religion romaine primitive n'a presque pas de mythologie narrative — les numina sont des forces impersonnelles liées à un acte précis (ouvrir une porte, labourer), pas des personnages avec une biographie. C'est un contrat de bons rapports (*do ut des* : je donne pour que tu donnes) bien plus qu'un récit du monde — voir la distinction sacré/récit dans [[Qu'est-ce qu'un Mythe]].
+
 ### Panthéon Romain
 
 **Principaux dieux (= Grecs):**
@@ -27,6 +30,9 @@ date: "2026-02-22"
 - Junon = Héra
 - Neptune = Poséidon
 - Mars = Arès (mais plus important à Rome - père de Romulus)
+
+> [!warning] Piège
+> "Mars = Arès" n'est vrai que pour l'identification cultuelle romaine tardive (*interpretatio romana*) — leurs fonctions divergent. Arès est un dieu grec mineur et peu aimé (violence brute) ; Mars est, avant même sa fusion avec Arès, une divinité agraire archaïque associée à la fertilité des champs et à la protection de Rome, ce qui explique sa place bien plus centrale.
 - Vénus = Aphrodite
 - Minerve = Athéna
 - Apollon = Apollon (nom identique)
@@ -53,4 +59,7 @@ date: "2026-02-22"
 - Fondent Rome (753 av. J.-C., légende)
 - Romulus tue Remus (dispute)
 - Enlèvement des Sabines
+
+> [!tip] Méthode
+> Ce mythe fondateur n'est pas un simple récit d'origine : c'est une charte politique au sens de Malinowski (voir [[Fonctions et Interprétations]]) qui légitime des institutions bien réelles — le fratricide fondateur justifie l'autorité absolue et sans partage du pouvoir romain, l'enlèvement des Sabines "explique" et normalise l'intégration forcée de peuples voisins dans la cité.
 

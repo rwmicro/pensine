@@ -14,6 +14,9 @@ Ce document complète la note principale sur la mythologie nordique en détailla
 
 La mythologie nordique nous est parvenue grâce à des textes rédigés en Islande aux XIIe-XIIIe siècles — soit **200 à 300 ans après la christianisation** de la Scandinavie. Ce décalage signifie que nos sources sont écrites par des chrétiens qui rapportent (et parfois réinterprètent) les croyances de leurs ancêtres païens.
 
+> [!warning] Piège
+> Ce filtre chrétien n'est pas propre au corpus nordique — la mythologie celtique souffre du même problème et pour la même raison (voir [[Autres Mythologies]]). Snorri va jusqu'à présenter les dieux nordiques comme d'anciens rois divinisés après coup (évhémérisme) dans la *Heimskringla* — une lecture qui dit autant sur la théologie chrétienne du XIIIe siècle que sur les croyances païennes d'origine.
+
 ### Les Eddas
 
 | Texte | Auteur / Date | Contenu |
@@ -76,6 +79,9 @@ La cosmologie nordique organise l'univers autour de l'arbre-monde **Yggdrasil** 
 | **Elfes** (*álfar*) | Elfes lumineux (beaux, associés à la fertilité) et elfes sombres (souterrains, proches des nains) | Mal définis dans les sources — la distinction avec les nains est floue. Le culte des elfes (*álfablót*) est attesté en Scandinavie |
 | **Valkyries** | Vierges guerrières au service d'Odin | Choisissent les guerriers tombés au combat et les conduisent au **Valhalla** (salle des morts au combat dans Asgard). Les Valkyries servent l'hydromel aux einherjar (guerriers élus) en attendant le Ragnarök |
 | **Nornes** | Trois soeurs divines au pied d'Yggdrasil | **Urd** (le passé), **Verdandi** (le présent), **Skuld** (l'avenir). Elles filent le destin de chaque être vivant et arrosent les racines d'Yggdrasil. Même les dieux sont soumis au destin que les Nornes tissent |
+
+> [!important] Idée clé
+> Que les dieux eux-mêmes soient soumis au destin des Nornes — et condamnés à mourir au Ragnarök — distingue radicalement la théologie nordique des panthéons où les dieux sont par définition éternels et tout-puissants (grec, égyptien). C'est une cosmologie fondamentalement tragique : même Odin, malgré toute sa sagesse accumulée, ne peut échapper à sa propre fin annoncée.
 | **Einherjar** | Guerriers morts au combat | Festoient au Valhalla et s'entrainent chaque jour au combat (ils se tuent mutuellement puis ressuscitent). Combattront aux côtés d'Odin lors du Ragnarök |
 | **Draugr** | Morts-vivants | Morts qui refusent de rester dans leurs tombeaux. Dotés d'une force surhumaine, ils gardent leurs trésors funéraires |
 

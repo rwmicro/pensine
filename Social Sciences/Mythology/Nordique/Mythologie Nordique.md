@@ -27,6 +27,9 @@ date: "2026-02-22"
   - Crâne = ciel
   - Cerveau = nuages
 
+> [!important] Idée clé
+> Le monde façonné à partir du corps démembré d'un géant primordial n'est pas une bizarrerie nordique isolée — même motif avec Purusha dans les Veda ou Pangu en Chine (voir "Sacrifice fondateur" dans [[Qu'est-ce qu'un Mythe]]). L'idée sous-jacente : la création exige une mort, l'ordre du monde naît d'un corps sacrifié.
+
 **Neuf Mondes:**
 - **Asgard:** Dieux Ases
 - **Midgard:** Humains
@@ -72,6 +75,9 @@ date: "2026-02-22"
   - Hel (déesse des morts)
 - Responsable mort de Baldr
 - Enchaîné (venin serpent), libéré au Ragnarök
+
+> [!warning] Piège
+> Ne pas lire Loki comme un "Satan" nordique. C'est un **trickster** (voir [[Fonctions et Interprétations]]) : un être ambigu, ni bon ni mauvais, qui transgresse par ruse et crée souvent des biens précieux par accident (les objets magiques des dieux naissent de ses paris). Le catégoriser comme incarnation du mal projette une grille chrétienne binaire sur une figure morale bien plus ambivalente.
 
 **Baldr:**
 - Dieu lumineux, beau, bon
@@ -119,6 +125,9 @@ date: "2026-02-22"
 - Monde renaît, vert
 - Baldr revient
 - Nouveaux humains (Líf et Lífþrasir - survivants cachés dans arbre)
+
+> [!tip] Méthode
+> Le Ragnarök n'est ni un Apocalypse chrétien (fin définitive, jugement) ni un éternel retour d'Eliade (répétition rituelle) — c'est une fin **unique mais suivie d'un monde neuf**, un temps linéaire avec un seul cycle de destruction/renaissance. Comparer avec les Yugas hindous ([[Mythologie Indienne (Hindoue)]]), qui eux tournent indéfiniment.
 
 ### Héros et Sagas
 

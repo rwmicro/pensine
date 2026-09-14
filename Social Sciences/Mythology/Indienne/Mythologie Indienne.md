@@ -32,6 +32,9 @@ La Trimurti est la triple forme du divin — trois dieux qui incarnent les trois
 | **Fonction** | Création de l'univers. Brahma crée le monde à chaque cycle cosmique |
 | **Iconographie** | Quatre têtes (tournées vers les quatre directions), quatre bras, assis sur un lotus né du nombril de Vishnou |
 | **Paradoxe** | Malgré son rôle cosmique, Brahma est très peu vénéré. Il n'a qu'un temple majeur dans toute l'Inde (Pushkar, Rajasthan). Selon un mythe, Shiva l'a maudit pour son orgueil |
+
+> [!warning] Piège
+> Ne pas déduire l'importance cultuelle d'un dieu de son rôle narratif ou cosmologique — Brahma a la fonction la plus fondamentale (créer l'univers) et pourtant presque aucun culte vivant. Ce découplage entre statut mythologique et pratique religieuse réelle est exactement ce que Malinowski pointe avec la fonction de "charte" du mythe (voir [[Fonctions et Interprétations]]) : un récit peut structurer la cosmologie sans structurer la dévotion quotidienne.
 | **Consort** | Sarasvati (déesse du savoir, des arts et de la musique) |
 
 ### Vishnou — le Préservateur
@@ -56,6 +59,9 @@ La Trimurti est la triple forme du divin — trois dieux qui incarnent les trois
 | **Krishna** | Berger, roi, aurige | La figure la plus aimée. Enfant espiègle, amant divin (avec Radha), conseiller d'Arjuna dans la Bhagavad Gita |
 | **Bouddha** | Le Bouddha historique | Selon certaines traditions, le Bouddha est un avatar de Vishnou (interprétation controversée) |
 | **Kalki** | Cavalier blanc | L'avatar futur qui apparaitra à la fin du Kali Yuga pour détruire le mal et inaugurer un nouvel âge d'or |
+
+> [!important] Idée clé
+> Le modèle de l'avatar est **répétitif et cyclique** (Vishnou intervient à chaque menace majeure sur le dharma, encore et encore), à l'opposé du modèle chrétien d'une incarnation unique et définitive. C'est cohérent avec la cosmologie hindoue elle-même — voir les Yugas plus bas — où rien n'est jamais réglé une fois pour toutes.
 
 ### Shiva — le Destructeur / Transformateur
 
@@ -98,3 +104,6 @@ La cosmologie hindoue opère à des échelles de temps vertigineuses :
 - A la fin de la vie de Brahma, tout est réabsorbé dans Vishnou — puis un nouveau Brahma nait, et tout recommence
 
 Ces chiffres, remarquablement proches de l'âge réel de la Terre (~4,5 milliards d'années) et de l'univers (~13,8 milliards d'années), ont frappé les scientifiques modernes.
+
+> [!warning] Piège
+> Résister à la tentation d'y voir une "science ancienne avant l'heure" : ces durées ne sortent pas d'une observation empirique mais d'une combinaison numérologique de cycles cosmiques théoriques (yugas, kalpas) — la proximité avec l'âge réel de l'univers est une coïncidence frappante, pas une preuve de connaissance astronomique avancée.

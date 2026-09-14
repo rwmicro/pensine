@@ -19,6 +19,9 @@ Pourquoi des cultures qui n'ont jamais été en contact racontent-elles des myth
 | **Fonctionnalisme** (Malinowski) | À quoi sert le mythe dans la société ? | À légitimer les institutions et les rites |
 | **Comparatisme** (Dumézil, Campbell) | Pourquoi tant de récits se ressemblent-ils ? | Héritage culturel commun ou structure narrative universelle |
 
+> [!tip] Méthode
+> Ces quatre lectures ne s'excluent pas — elles répondent à des questions différentes sur le même mythe. Œdipe peut être à la fois une charte fonctionnaliste (justifier l'interdit de l'inceste), une opposition structurale (sur/sous-évaluation des liens du sang) et un désir refoulé freudien. Le choix de l'outil dépend de ce qu'on cherche à expliquer, pas d'une vérité unique à trouver.
+
 ## Analyses structuralistes — Claude Lévi-Strauss (1908-2009)
 
 Pour Lévi-Strauss, un mythe n'est pas une histoire « primitive » mais un **mode de pensée** qui résout symboliquement des contradictions que la société ne peut résoudre dans la réalité.
@@ -41,6 +44,9 @@ L'idée forte : les mythes sont les **mathématiques de l'esprit primitif** — 
 Le mythe est une expression collective de l'inconscient, exactement comme le rêve l'est pour l'individu.
 
 **Le complexe d'Œdipe** — exemple emblématique. Freud reprend la tragédie de Sophocle : Œdipe tue son père Laïos et épouse sa mère Jocaste sans le savoir. Pour Freud, ce mythe résonne universellement parce qu'il dramatise un désir refoulé chez tout enfant (s'unir à la mère, éliminer le père rival).
+
+> [!warning] Piège
+> Lecture souvent déformée : Freud ne dit pas qu'Œdipe *désire* consciemment son crime — au contraire, tout le ressort de la tragédie de Sophocle est qu'Œdipe fait absolument tout pour l'éviter (il fuit ses parents adoptifs, croyant fuir ses vrais parents) et tombe dedans malgré lui. C'est précisément cette part inéluctable, agissant à l'insu du sujet, que Freud rapproche du refoulement inconscient — pas une envie assumée.
 
 ### Carl Gustav Jung (1875-1961)
 
@@ -80,6 +86,9 @@ Philologue français. En comparant les mythologies indo-européennes (védique, 
 | **3. Fécondité, abondance** | production, agriculture | Aśvins | Quirinus | Freyr |
 
 Cette tripartition reflète, selon Dumézil, l'organisation sociale ancienne (prêtres / guerriers / producteurs) — qu'on retrouvera dans les **trois ordres médiévaux** (oratores, bellatores, laboratores).
+
+> [!important] Idée clé
+> Le pari de Dumézil n'est pas juste de repérer des trios de dieux (n'importe quel panthéon peut en fournir trois) mais de montrer que la **même structure fonctionnelle** organise mythes, sociétés et vocabulaire à travers toute la famille indo-européenne — preuve d'un héritage commun remontant à un peuple préhistorique unique, pas d'une coïncidence narrative.
 
 ### Joseph Campbell (1904-1987) — le voyage du héros
 
