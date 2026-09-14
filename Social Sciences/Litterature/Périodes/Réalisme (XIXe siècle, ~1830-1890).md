@@ -14,6 +14,9 @@ date: "2026-02-23"
 - Critique sociale
 - Style sobre, description précise
 
+> [!warning] Piège
+> Ne pas confondre avec le [[Naturalisme (fin XIXe)|naturalisme]] qui suit chronologiquement : le réalisme observe et critique la société sans revendiquer de méthode scientifique — Balzac ou Stendhal restent dans l'analyse morale et sociale, alors que Zola prétendra démontrer un déterminisme causal de l'hérédité et du milieu.
+
 ### France
 
 - **Stendhal** (1783-1842): *Le Rouge et le Noir* (1830), *La Chartreuse de Parme*
@@ -24,6 +27,9 @@ date: "2026-02-23"
 - **Gustave Flaubert** (1821-1880): *Madame Bovary* (1857)
   - Précision style ("mot juste"), réalisme psychologique
   - Bovarysme (insatisfaction romantique)
+
+> [!important] Idée clé
+> Le bovarysme n'est pas propre à Emma : c'est le risque que court tout lecteur de fictions romantiques — vivre par procuration des passions littéraires jusqu'à ce que la réalité, forcément plus terne, déçoive. Flaubert écrit un roman réaliste qui met en garde contre les effets du romantisme qu'il a lui-même dévoré adolescent — le réalisme comme autocritique de la littérature par elle-même.
 - **Guy de Maupassant** (1850-1893): Nouvelles (*Boule de Suif*, *Le Horla*)
 
 ### Angleterre

@@ -12,6 +12,9 @@ Le siècle des Lumières (*Aufklärung* en allemand, *Enlightenment* en anglais)
 
 Kant résume le mouvement en une formule : *Sapere aude* — "Ose penser par toi-même" (*Qu'est-ce que les Lumières ?*, 1784).
 
+> [!warning] Piège
+> Ne pas confondre la "raison" des Lumières avec le courant philosophique du [[Rationalisme]] (Descartes, Spinoza, Leibniz). Les Lumières regroupent aussi bien des héritiers du rationalisme continental que des empiristes anglais (Locke, Hume) — leur point commun n'est pas une théorie de la connaissance particulière, mais l'exigence de soumettre toute autorité (religieuse, politique, traditionnelle) à l'examen critique.
+
 ## Les idées centrales
 
 | Idée | Contenu |
@@ -40,6 +43,9 @@ Voltaire combat aussi par l'action : il intervient dans les affaires judiciaires
 ### Jean-Jacques Rousseau (1712-1778)
 
 L'anti-Voltaire. Si Voltaire est un homme de salon, Rousseau est un solitaire. Si Voltaire fait confiance à la civilisation, Rousseau la suspecte. Leur brouille est l'un des grands drames intellectuels du siècle.
+
+> [!important] Idée clé
+> L'opposition Voltaire/Rousseau n'est pas qu'une querelle de personnes : elle trace la ligne de faille qui traversera tout le siècle suivant. Voltaire incarne la confiance des Lumières dans le progrès par la raison appliquée aux institutions ; Rousseau, en soutenant que la civilisation corrompt plutôt qu'elle n'élève, prépare déjà la réaction romantique (cf. [[Romantisme (fin XVIIIe-XIXe siècle)]]) contre les Lumières elles-mêmes.
 
 | Oeuvre | Genre | Thèse |
 |---|---|---|
@@ -90,3 +96,6 @@ Les Lumières ne sont pas seulement un mouvement littéraire — elles préparen
 - La **Révolution américaine** (1776) : la Déclaration d'indépendance reprend Locke et Montesquieu
 - La **Révolution française** (1789) : la Déclaration des droits de l'homme et du citoyen est le résumé politique des Lumières
 - L'**abolition de l'esclavage**, la **laïcité**, les **droits de l'homme** : des combats qui commencent au XVIIIe siècle et continuent aujourd'hui
+
+> [!warning] Piège
+> Les Lumières ne débouchent pas mécaniquement sur la démocratie libérale. La **volonté générale** de Rousseau — fondement du *Contrat social* — sera invoquée aussi bien pour légitimer le suffrage universel que la Terreur jacobine (au nom du peuple contre les "ennemis de la volonté générale"). Un même corpus philosophique peut nourrir des lectures politiques opposées.

@@ -32,6 +32,9 @@ Codifiée par Boileau dans son *Art poétique* (1674), inspirée d'Aristote :
 
 Ces règles sont moins des dogmes que des idéaux : Corneille les respecte avec liberté, Racine les pousse à la perfection, Molière s'en affranchit souvent dans ses comédies.
 
+> [!tip] Méthode
+> Bon repère pour ne pas confondre les trois auteurs : Corneille fait triompher la volonté sur la passion (ses héros choisissent), Racine fait triompher la passion sur la volonté (ses héros savent et ne peuvent pas résister), Molière refuse la tragédie et montre des personnages prisonniers non du destin ou de la passion mais d'un seul trait de caractère poussé à l'absurde (l'avarice, l'hypocrisie).
+
 ## Le théâtre
 
 ### Pierre Corneille (1606-1684)
@@ -84,3 +87,6 @@ Jean-Baptiste Poquelin, dit Molière, est le plus grand auteur comique de la lit
 Tradition typiquement française : des auteurs qui observent les comportements humains avec une lucidité impitoyable.
 - **La Rochefoucauld** (*Maximes*, 1665) : "Nos vertus ne sont, le plus souvent, que des vices déguisés". L'amour-propre comme moteur caché de toutes les actions humaines
 - **La Bruyère** (*Les Caractères*, 1688) : portraits satiriques des types sociaux de son époque — l'avare, le distrait, le courtisan, le pédant
+
+> [!warning] Piège
+> Ne pas confondre les moralistes classiques avec des philosophes moraux au sens strict — ils ne construisent pas de système éthique, ils observent et décrivent les comportements humains avec une lucidité désabusée. « Moraliste » signifie ici « qui observe les mœurs », pas « qui prescrit une morale ».

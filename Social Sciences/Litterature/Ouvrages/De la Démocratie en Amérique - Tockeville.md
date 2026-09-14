@@ -30,6 +30,9 @@ Danger paradoxal de la démocratie : la majorité peut opprimer les minorités a
 - Celui qui pense différemment n'est pas persécuté physiquement, mais socialement marginalisé
 - La pression conformiste peut être plus efficace que la censure
 
+> [!warning] Piège
+> Ne pas confondre la « tyrannie de la majorité » avec une tyrannie légale ou institutionnelle — Tocqueville insiste sur le fait que le mécanisme est social, pas juridique : rien n'empêche formellement de penser autrement, mais la pression du conformisme suffit à étouffer la dissidence sans qu'aucune loi n'ait été votée. C'est une critique de la démocratie par un défenseur de la démocratie, pas un plaidoyer anti-démocratique.
+
 ### 2. L'individualisme démocratique
 
 L'égalité isole les individus. Chacun se concentre sur sa petite sphère (famille, travail) et se retire de la vie publique.
@@ -44,6 +47,9 @@ Tocqueville décrit un danger nouveau, différent des tyrannies classiques :
 > *"Un pouvoir immense et tutélaire [...] Il est absolu, détaillé, régulier, prévoyant et doux."*
 
 Un État bienveillant qui prend en charge tous les besoins des citoyens — mais en échange de leur participation politique. Les citoyens restent enfants.
+
+> [!important] Idée clé
+> Le despotisme doux est plus difficile à combattre qu'une tyrannie classique précisément parce qu'il ne se présente jamais comme un ennemi : il rend service, il protège, il « aide ». Résister suppose de refuser une aide réelle — un choix bien plus difficile que de résister à une oppression visible. Rapprocher du pouvoir disciplinaire chez [[Foucault]], théorisé un siècle plus tard sur un mécanisme analogue : un pouvoir qui produit des sujets dociles plutôt que de les réprimer.
 
 ### 4. Les contrepoids nécessaires
 

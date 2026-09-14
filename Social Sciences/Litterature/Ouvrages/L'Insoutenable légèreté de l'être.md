@@ -19,6 +19,9 @@ Le roman s'articule autour de quatre personnages principaux :
 ### Thèmes principaux
 
 1. **La légèreté et le poids** : Kundera oppose la légèreté de vivre sans attaches (exemplifiée par Tomáš et Sabina) au poids des responsabilités et des engagements (symbolisés par Tereza). Cette opposition est inspirée par la philosophie de Nietzsche, notamment l'idée de l'_éternel retour_.
+
+> [!important] Idée clé
+> Le titre s'appuie sur un renversement de l'éternel retour nietzschéen. Chez Nietzsche, l'idée que tout se répète infiniment donne du poids à chaque instant — il faut vouloir revivre sa vie à l'identique. Kundera fait l'inverse : puisque rien ne se répète (l'existence n'a lieu qu'une fois), rien n'a de poids. C'est l'unicité, et non la répétition, qui rend la vie « légère » — et insupportable à la fois.
     
 2. **L'amour et la liberté** : Le roman explore les tensions entre l'amour, souvent vécu comme une restriction, et la liberté individuelle, source d'épanouissement mais aussi de solitude.
     
@@ -30,6 +33,9 @@ Le roman s'articule autour de quatre personnages principaux :
 ### Structure
 
 Le récit n'est pas strictement linéaire. Kundera mélange les pensées philosophiques, les réflexions métaphysiques et les événements de la vie des personnages. Cette structure met en lumière les dilemmes universels, dépassant le cadre de l'intrigue.
+
+> [!tip] Méthode
+> Kundera revendique lui-même ce mélange essai/roman comme une forme spécifique (le « roman polyphonique » ou « roman d'idées ») plutôt qu'un défaut de construction — utile pour ne pas juger le livre avec les critères d'un roman classique à intrigue linéaire.
 
 ### Symboles marquants
 

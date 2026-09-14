@@ -10,11 +10,17 @@ date: "2026-04-16"
 
 Le naturalisme est un mouvement littéraire né en France dans les années 1860-1870, principalement porté par Emile Zola. Il prolonge le réalisme en y ajoutant une ambition scientifique : appliquer la méthode expérimentale à la littérature pour montrer comment l'hérédité et le milieu social déterminent le comportement humain.
 
+> [!warning] Piège
+> "Prolonger" le réalisme ne veut pas dire "faire la même chose en plus appliqué" : le naturalisme ajoute une thèse que le [[Réalisme (XIXe siècle, ~1830-1890)|réalisme]] n'a pas — un déterminisme explicite, quasi scientifique, de l'hérédité et du milieu. Balzac ou Stendhal observent et critiquent la société ; Zola prétend en démontrer les mécanismes causaux comme un expérimentateur.
+
 ## Origines et contexte
 
 Le naturalisme naît dans un contexte de foi dans la science. Trois influences majeures :
 
 - **Le positivisme** d'Auguste Comte : seuls les faits observables ont une valeur de connaissance
+
+> [!warning] Piège
+> Ne pas confondre ce positivisme comtien (une philosophie de l'histoire des sciences, XIXe siècle) avec le [[Positivisme Logique]] du Cercle de Vienne (XXe siècle, critère de vérifiabilité du sens). Zola s'inspire du premier, qui affirme que la société progresse par étapes vers la connaissance scientifique — pas du second, postérieur de 50 ans.
 - **Le transformisme** de Darwin (*De l'origine des espèces*, 1859) : l'homme est un produit de l'évolution naturelle
 - **La médecine expérimentale** de Claude Bernard (*Introduction à la médecine expérimentale*, 1865) : Zola transpose directement cette méthode à la littérature
 

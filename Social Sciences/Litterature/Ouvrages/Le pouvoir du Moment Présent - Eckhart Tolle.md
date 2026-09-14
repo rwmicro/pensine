@@ -18,6 +18,9 @@ Eckhart Tolle (né Ulrich Leonard Tolle, 1948, Allemagne) vit une crise dépress
 
 La souffrance humaine vient de l'**identification au mental** : l'esprit produit un flux incessant de pensées (regrets sur le passé, anxiétés sur le futur) qui nous coupe du seul moment réel — le présent. Tolle propose de se désidentifier de ce flux en devenant un **observateur** de ses propres pensées.
 
+> [!tip] Méthode
+> Pour situer ce livre intellectuellement, le comparer non pas à la psychologie mais à la tradition du non-soi (*anatta*) bouddhiste et à l'Advaita Vedanta : Tolle popularise une thèse métaphysique ancienne — l'ego comme construction plutôt qu'entité réelle — sous une forme accessible, sans les cadres philosophiques qui la rendaient rigoureuse dans ces traditions.
+
 ## Concepts clés
 
 | Concept | Explication |
@@ -68,6 +71,9 @@ Tolle puise dans plusieurs traditions sans se revendiquer d'aucune :
 - **Simplification excessive** : la souffrance psychique a des causes biologiques et sociales que la simple "présence" ne peut pas résoudre (dépression clinique, traumatismes)
 - **Dimension sociale absente** : le livre traite la souffrance comme un problème individuel et intérieur, sans aborder les causes structurelles (pauvreté, oppression, injustice)
 - **Ton prescriptif** : malgré la forme dialoguée, l'approche est directive — il y a une "bonne" façon de vivre (dans le présent) et une "mauvaise" (dans le mental)
+
+> [!warning] Piège
+> La critique la plus sérieuse n'est pas que le livre soit « trop simple » mais qu'il confond deux problèmes différents : la souffrance existentielle ordinaire (rumination, anxiété), que la présence peut effectivement apaiser, et la souffrance clinique (dépression, trauma), qui a des causes biologiques et nécessite un traitement. Les présenter comme un seul problème résolu par une seule pratique est risqué.
 
 ## Postérité
 

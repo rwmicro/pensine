@@ -19,6 +19,9 @@ Neil Postman (1931–2003) est un intellectuel américain, critique des médias 
 
 Postman dit : **la forme du média conditionne le contenu**. Et la télévision, de par sa nature, transforme tout en divertissement — y compris la politique, l'éducation, la religion.
 
+> [!important] Idée clé
+> La formule « la forme du média conditionne le contenu » vient de McLuhan (« le médium est le message ») — Postman en fait une critique morale plutôt que neutre : certains médias (l'écrit) favorisent structurellement la pensée rationnelle et linéaire, d'autres (l'image) favorisent l'émotion et la fragmentation, indépendamment du contenu qu'on y met. Ce n'est donc jamais un problème de « mauvais programmes » — même la meilleure émission éducative reste soumise à la grammaire du médium.
+
 
 ## Idées clés
 
@@ -31,6 +34,9 @@ Postman observe la formule des présentateurs TV entre deux sujets : *"Now... th
 
 ### 3. La politique comme show business
 À la TV, ce qui compte ce n'est plus le programme politique mais l'**image** du candidat. JFK a battu Nixon au débat de 1960 parce qu'il était plus photogénique — ceux qui l'ont écouté à la radio pensaient que Nixon avait gagné.
+
+> [!warning] Piège
+> Ne pas réduire la thèse à « la télé rend bête » — Postman vise une dégradation structurelle du discours public lui-même : même un sujet sérieux traité sérieusement à la télé perd en cohérence, parce que le format impose la discontinuité et le divertissement, quel que soit le sérieux des intervenants.
 
 ### 4. L'éducation télévisée est un oxymore
 Sesame Street et les émissions éducatives habituent les enfants à apprendre en s'amusant, sans effort. Résultat : ils deviennent incapables de supporter une vraie leçon.

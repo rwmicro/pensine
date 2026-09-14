@@ -19,6 +19,9 @@ L'humanisme est le mouvement intellectuel fondateur de la Renaissance. Les human
 | **Retour aux sources (*ad fontes*)** | Lire les textes anciens dans leur langue originale (grec, latin, hébreu), purifiés des erreurs de copie médiévales |
 | **Education libérale** | Former un homme complet : lettres, sciences, arts, langues, exercice physique. L'idéal du *vir bonus* |
 | **Dignité de l'homme** | Pic de la Mirandole (*De la dignité de l'homme*, 1486) : l'homme est libre de se faire lui-même — il n'est pas prisonnier de sa nature |
+
+> [!important] Idée clé
+> C'est le renversement exact de l'anthropologie médiévale (cf. [[Moyen Âge (Ve-XVe siècle)]]), où la place de l'homme dans la hiérarchie divine est fixée d'avance. Pic de la Mirandole invente une idée qui deviendra centrale bien plus tard : l'homme sans nature déterminée, qui se crée lui-même — préfigure de loin la formule sartrienne "l'existence précède l'essence" (cf. [[Existentialisme]]).
 | **Esprit critique** | Erasme : la raison et le libre examen contre le dogmatisme. Lorenzo Valla démontre que la Donation de Constantin (qui justifiait le pouvoir temporel du pape) est un faux |
 
 ## Italie : le berceau
@@ -46,6 +49,9 @@ Inventeur de l'**essai** comme genre littéraire. Ses *Essais* (3 livres, 107 ch
 | Thème | Pensée |
 |---|---|
 | **Scepticisme** | "Que sais-je ?" — la devise de Montaigne. La raison humaine est faillible, les certitudes sont des illusions |
+
+> [!warning] Piège
+> Le scepticisme de Montaigne n'est pas un relativisme nihiliste ("rien n'a de sens", cf. [[Nihilisme]]) : c'est une méthode d'humilité qui continue à chercher, juger, comparer — il suspend le jugement définitif sans renoncer à penser. C'est le sens du *Que sais-je* : une question ouverte, pas une capitulation.
 | **Relativisme culturel** | *Des Cannibales* : les "sauvages" du Brésil ne sont pas plus barbares que les Européens qui se massacrent pour des questions de religion. Précurseur de l'anthropologie |
 | **Connaissance de soi** | "Je suis moi-même la matière de mon livre". L'introspection comme méthode philosophique |
 | **Education** | "Mieux vaut une tête bien faite que bien pleine". Critique du bourrage de crâne scolastique |
@@ -79,6 +85,9 @@ William Shakespeare est probablement le plus grand écrivain de la littérature 
 ### Pourquoi Shakespeare est-il universel ?
 
 Sa force tient à la **profondeur psychologique** de ses personnages : Hamlet n'est pas un "type" mais un être humain complexe, contradictoire, vivant. Shakespeare comprend l'ambition (Macbeth), la jalousie (Othello), l'amour (Roméo), le pouvoir (Richard III), la folie (Lear) avec une acuité qui n'a pas vieilli.
+
+> [!tip] Méthode
+> Chaque grande tragédie shakespearienne s'organise autour d'un même schéma qu'on retrouve dans l'épopée médiévale (cf. le callout sur [[Moyen Âge (Ve-XVe siècle)|Roland]]) et la tragédie antique : une qualité du héros (l'ambition de Macbeth, la confiance de Lear) devient, poussée à l'extrême, la cause de sa perte. Chercher ce trait pivot est souvent le moyen le plus rapide d'entrer dans une tragédie de Shakespeare.
 
 ## Espagne : Cervantes (1547-1616)
 
