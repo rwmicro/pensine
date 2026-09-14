@@ -41,6 +41,9 @@ En 1945, Albert Einstein crée le fonds Einstein en coopération avec l'Ambidjan
 **Déclin:**
 Le projet n'a jamais vraiment réussi. La majorité des Juifs soviétiques préféraient les grandes villes. Avec la création d'Israël en 1948 et les persécutions staliniennes, la population juive a progressivement quitté la région.
 
+> [!important] Idée clé
+> Birobidjan et Israël incarnent deux réponses concurrentes à la "question juive" du début du XXe siècle, fondées sur des définitions opposées de l'identité juive : le projet soviétique la traite comme une identité nationale-culturelle laïque (langue yiddish, folklore, sans religion ni lien à la terre historique), tandis que le sionisme la fonde sur un lien religieux et historique à une terre précise. L'échec relatif du premier face au second n'est pas qu'une question de moyens — c'est aussi que peu de Juifs se reconnaissaient dans une identité purement séculière déconnectée de la terre d'Israël.
+
 ![Image de la ville de Birobidja](https://upload.wikimedia.org/wikipedia/commons/4/4e/Birobidjan_mainsquare.jpg)
 
 ### Royaumes et États historiques
@@ -53,6 +56,9 @@ Le royaume du sud après la division. Capitale: Jérusalem. Détruit par les Bab
 
 #### Royaume hasmonéen (140-37 av. J.-C.)
 État juif indépendant après la révolte des Maccabées contre les Séleucides. Dernier royaume juif indépendant avant la création d'Israël en 1948.
+
+> [!tip] Méthode
+> Entre la fin du royaume hasmonéen (37 av. J.-C.) et 1948, il s'écoule environ 2000 ans sans souveraineté politique juive sur ce territoire — un intervalle utile à garder en tête pour ne pas confondre continuité *historique/religieuse* (le lien ininterrompu à la terre dans la liturgie et la mémoire juives) et continuité *étatique* (l'État moderne d'Israël est une création politique du XXe siècle, pas la restauration ininterrompue d'un même État). Les deux affirmations sont vraies séparément mais répondent à des questions différentes.
 
 ### Projets territoriaux non aboutis
 

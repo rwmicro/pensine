@@ -38,6 +38,9 @@ Ce sont les croyances fondamentales que tout musulman doit professer :
 | Pilier | Contenu |
 |---|---|
 | **Allah** | Dieu unique, tout-puissant, miséricordieux, créateur de tout. Le concept de *tawhid* (unicité divine) est le coeur de l'islam — la Trinité chrétienne est considérée comme une forme de polythéisme |
+
+> [!warning] Piège
+> Ce jugement islamique sur la Trinité ne vient pas d'une méconnaissance du dogme chrétien mais d'un désaccord frontal sur sa cohérence logique : le christianisme insiste que Dieu reste strictement un (voir [[Christianisme]] sur la distinction Trinité/Incarnation), tandis que l'islam juge que distinguer trois "personnes" divines revient nécessairement à en poser plusieurs. Ce n'est donc pas une confusion mais deux définitions rivales de ce que "un seul Dieu" veut dire.
 | **Les anges** | Créatures de lumière. Gabriel (révélation), Mikail (providence), Israfil (trompette du Jugement), Azrael (mort) |
 | **Les livres révélés** | Torah (Moïse), Psaumes (David), Evangile (Jésus), **Coran** (Muhammad). Le Coran est le dernier et le seul non altéré |
 | **Les prophètes** | De Adam à Muhammad, en passant par Noé, Abraham, Moïse et Jésus (*Issa*). Muhammad est le "sceau des prophètes" — le dernier |
@@ -86,6 +89,9 @@ La **charia** (littéralement "le chemin vers la source") est la loi islamique, 
 | *Makruh* (déconseillé) | Le divorce (permis mais détesté par Dieu selon un hadith) |
 | *Haram* (interdit) | Le porc, l'alcool, l'usure (*riba*), les jeux de hasard, l'idolâtrie |
 
+> [!warning] Piège
+> "La charia" au singulier fait croire à un code pénal unique et fixe — en pratique c'est un vaste corpus interprétatif (voir les quatre écoles juridiques ci-dessous) dont l'application concrète varie énormément selon les pays et les époques : peine, procédure, et même définition du *haram* diffèrent entre une école hanafite libérale et une école hanbalite littéraliste. Ce qu'un État désigne comme "charia appliquée" est toujours un choix parmi des interprétations concurrentes, pas l'exécution mécanique d'un texte univoque.
+
 La charia n'est pas un code figé : elle est interprétée par les **juristes** (*fuqaha*) à travers quatre grandes écoles sunnites :
 
 | Ecole | Fondateur | Méthode | Géographie |
@@ -127,6 +133,9 @@ La civilisation islamique produit l'une des plus grandes floraisons intellectuel
 | **Mathématiques** | Al-Khwarizmi invente l'algèbre (*al-jabr*) et l'algorithme (qui porte son nom). Transmission des chiffres indo-arabes à l'Europe |
 | **Médecine** | Avicenne (*Ibn Sina*) : le *Canon de la médecine* est le manuel de référence en Europe jusqu'au XVIIe siècle |
 | **Philosophie** | Averroès (*Ibn Rushd*) : commentaires d'Aristote qui relancent la philosophie en Europe. Al-Farabi, Al-Ghazali |
+
+> [!important] Idée clé
+> [[Averroès]] et [[Avicenne]] ne sont pas des figures secondaires de la philosophie occidentale mais le pont par lequel Aristote lui-même est revenu en Europe latine — ses textes grecs avaient été perdus, et ce sont leurs traductions et commentaires arabes, traduits à leur tour en latin, qui ont permis à des penseurs comme Thomas d'Aquin de reconstruire une philosophie aristotélicienne chrétienne. Sans ce relais, la scolastique médiévale européenne aurait eu un tout autre visage.
 | **Astronomie** | Observatoires, tables astronomiques, astrolabe perfectionné |
 | **Architecture** | Mosquées, palais, jardins : Alhambra (Grenade), mosquée de Cordoue, Samarkand |
 

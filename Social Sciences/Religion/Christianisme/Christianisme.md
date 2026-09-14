@@ -24,6 +24,9 @@ Ses disciples proclament sa **résurrection** trois jours après sa mort. Cet é
 
 Paul de Tarse (~5-67), pharisien converti après une vision du Christ ressuscité sur le chemin de Damas, est le véritable architecte du christianisme comme religion universelle. C'est lui qui ouvre le mouvement aux non-juifs (les "Gentils") en déclarant que la foi en Christ, et non la circoncision ou la Loi juive, suffit pour le salut. Ses lettres (Epitres) constituent la plus ancienne partie du Nouveau Testament (~50-60 ap. J.-C.).
 
+> [!important] Idée clé
+> Paul n'a jamais rencontré Jésus de son vivant — sa théologie (mort rédemptrice, résurrection, salut par la foi) précède même la rédaction des Evangiles et repose sur sa vision du Christ ressuscité, pas sur les enseignements terrestres de Jésus. C'est la distinction que fait la recherche historique entre le "Jésus historique" (prédicateur juif galiléen) et le "Christ de la foi" (figure théologique élaborée après sa mort, largement par Paul) — deux objets d'étude différents, pas la même source.
+
 ### Séparation avec le judaïsme
 
 La rupture est progressive : destruction du Temple de Jérusalem par les Romains (70 ap. J.-C.), exclusion des judéo-chrétiens des synagogues, développement d'une théologie proprement chrétienne (Trinité, divinité du Christ). Au IIe siècle, le christianisme et le judaïsme rabbinique sont deux religions distinctes.
@@ -37,6 +40,9 @@ La rupture est progressive : destruction du Temple de Jérusalem par les Romains
 | **Rédemption** | L'humanité est pécheresse depuis la chute d'Adam (péché originel). Jésus, par sa mort sur la croix, rachète les péchés de l'humanité. Sa résurrection ouvre le chemin du salut |
 | **Résurrection** | Jésus est ressuscité corporellement le troisième jour. Les chrétiens croient à la résurrection des morts à la fin des temps |
 | **Jugement dernier** | Le Christ reviendra pour juger les vivants et les morts. Les justes accèdent à la vie éternelle, les damnés à la perdition |
+
+> [!warning] Piège
+> Trinité et Incarnation répondent à deux questions différentes, souvent confondues : la Trinité concerne la nature de *Dieu* (un en trois personnes, Nicée 325), l'Incarnation concerne la nature du *Christ* (pleinement Dieu et pleinement homme, Chalcédoine 451). Ce sont deux débats distincts, séparés de 126 ans et de plusieurs conciles houleux (dont celui d'Ephèse en 431) — pas la même controverse sous deux noms.
 
 ## La Bible
 
@@ -107,6 +113,9 @@ Hérité du judaïsme. 39 livres (canon protestant) à 46 (canon catholique, ave
 | 1517 | **Réforme protestante** : Luther, puis Calvin, Zwingli, les anabaptistes |
 | 1545-1563 | **Concile de Trente** : Contre-Réforme catholique |
 | 1962-1965 | **Vatican II** : ouverture de l'Eglise catholique à la modernité (liturgie en langue locale, dialogue interreligieux, liberté religieuse) |
+
+> [!tip] Méthode
+> Pour situer une doctrine chrétienne dans le temps, repérer d'abord *quel* schisme elle précède ou suit : les dogmes de Nicée (325) et Chalcédoine (451) sont antérieurs aux grandes ruptures et donc communs aux trois branches (catholique, orthodoxe, orientale ancienne) ; tout ce qui distingue spécifiquement Rome de Constantinople date du Grand Schisme (1054) ; tout ce qui distingue les protestants des deux autres date de la Réforme (1517).
 
 ## Le christianisme aujourd'hui
 

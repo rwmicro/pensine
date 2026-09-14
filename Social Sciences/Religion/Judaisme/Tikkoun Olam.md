@@ -24,6 +24,9 @@ Ce n'est pas attendre que Dieu répare le monde. C'est **agir soi-même** comme 
 - Développée dans la **Kabbale** (mysticisme juif) au XVIe siècle, notamment par **Isaac Louria** à Safed (Israël)
 - Dans la tradition lurianique : le monde a été "brisé" lors de la création (*Shvirat HaKelim* — brisure des vases) et des étincelles divines sont dispersées. L'humain doit les rassembler par ses actes bons.
 
+> [!warning] Piège
+> L'usage contemporain ("justice sociale", "écologie", "engagement citoyen") est une extension moderne, pas le sens originel. Dans la Mishna, tikkoun olam désigne des ajustements légaux pragmatiques pour la stabilité sociale (ex. protéger les créanciers) ; chez Louria, c'est une opération cosmique et mystique de réparation métaphysique. Le sens militant actuel — souvent revendiqué comme "le vrai sens juif de la justice" — est une réinterprétation du XXe siècle, largement portée par le judaïsme réformé américain.
+
 
 ## Application concrète
 

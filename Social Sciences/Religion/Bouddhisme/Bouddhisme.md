@@ -25,6 +25,9 @@ Le bouddhisme est une tradition spirituelle fondée sur l'enseignement de Siddha
 
 Le Bouddha n'est ni un dieu ni un prophète. C'est un homme qui a atteint l'Eveil par ses propres efforts et qui enseigne le chemin aux autres. Tout être humain peut devenir un Bouddha.
 
+> [!important] Idée clé
+> C'est la différence structurelle avec les religions abrahamiques : il n'y a pas de révélation venue d'en haut à croire, mais une méthode vérifiable par l'expérience de chacun. Le Bouddha invite explicitement à ne pas croire ses paroles sur autorité, mais à les tester — ce qui rapproche le bouddhisme autant d'une psychologie appliquée que d'une religion au sens occidental du terme.
+
 ## Les Quatre Nobles Vérités
 
 C'est le coeur de l'enseignement bouddhique, exposé dans le premier sermon du Bouddha :
@@ -87,6 +90,9 @@ La **renaissance** (*punarbhava*) n'est pas la réincarnation d'une âme : puisq
 
 Le cycle des renaissances (*samsara*) se poursuit jusqu'à l'atteinte du nirvana.
 
+> [!warning] Piège
+> Le karma bouddhique n'est ni un jugement moral extérieur ni un destin figé — contrairement à l'usage populaire occidental ("c'est son karma"), qui le confond avec une justice cosmique ou une fatalité. C'est un mécanisme causal impersonnel : même les bouddhas ne peuvent effacer le karma d'autrui, seulement enseigner la voie pour cesser d'en produire.
+
 ## Les trois véhicules
 
 Le bouddhisme s'est divisé en trois grandes traditions, chacune se considérant comme le véhicule (*yana*) le plus adapté vers l'Eveil :
@@ -120,6 +126,9 @@ Le bouddhisme s'est divisé en trois grandes traditions, chacune se considérant
 | **Lignée** | Transmission directe de maitre (*lama*) à disciple. Le Dalai-Lama est le chef spirituel des Gelugpa |
 | **Géographie** | Tibet, Bhoutan, Mongolie, régions himalayennes |
 | **Caractère** | Esotérique, accent sur la transformation des émotions en sagesse |
+
+> [!warning] Piège
+> En Occident, "bouddhisme" évoque souvent le seul Zen — une sous-tradition d'une sous-tradition (Mahayana → Zen), pratiquée par une minorité des bouddhistes dans le monde. Le Theravada, majoritaire en Asie du Sud-Est, a une pratique et une doctrine sensiblement différentes (pas de vacuité universelle, idéal de l'arhat plutôt que du bodhisattva).
 
 ## Méditation
 

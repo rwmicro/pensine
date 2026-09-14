@@ -42,6 +42,9 @@ Le polythéisme est **relativement tolérant** : chaque groupe peut avoir ses di
 
 Cette tolérance structurelle a une limite : la résistance du monothéisme. Les Romains, qui toléraient tous les cultes, ont persécuté les juifs et les chrétiens — non par intolérance religieuse abstraite, mais parce que ces groupes refusaient de reconnaître les dieux de l'Empire.
 
+> [!important] Idée clé
+> Rome ne demandait pas d'abandonner sa foi mais de sacrifier au culte impérial — un acte politique de loyauté, pas une conversion de croyance. Le polythéisme antique traitait la religion comme un ensemble de pratiques collectives, pas comme un système de vérités exclusives : un juif ou un chrétien aurait pu garder son dieu et sacrifier aussi à celui de l'empereur sans contradiction logique de leur point de vue — c'est précisément ce qu'ils refusaient, par fidélité au *premier commandement* de n'avoir qu'un seul Dieu.
+
 ## Le monothéisme
 
 Le monothéisme affirme qu'il n'existe qu'un seul Dieu, créateur et souverain de l'univers. Cette idée transforme radicalement le rapport à la religion : si Dieu est unique, universel et tout-puissant, alors sa loi s'applique à tous les humains, en tout lieu et en tout temps.
@@ -54,6 +57,9 @@ Le monothéisme affirme qu'il n'existe qu'un seul Dieu, créateur et souverain d
 - Intolérance relative à l'égard des autres dieux : ils sont faux, dangereux, ou des démons
 
 Le paradoxe du monothéisme : il affirme qu'un Dieu bon et tout-puissant gouverne le monde, tout en observant l'existence du mal et de la souffrance. Ce problème (la **théodicée**) n'a pas de solution entièrement satisfaisante, et les religions monothéistes ont développé des réponses variées (libre arbitre, épreuve divine, mystère insondable).
+
+> [!tip] Méthode
+> Pour comparer rapidement deux traditions monothéistes, demander comment chacune résout la théodicée — c'est souvent plus révélateur que la comparaison des rituels. Le judaïsme tend vers le mystère insondable et le questionnement (Job), le christianisme vers le péché originel et le libre arbitre, l'islam vers la soumission à une volonté divine qui dépasse la catégorie humaine du "juste". Ce ne sont pas des variantes d'une même réponse mais des choix théologiques distincts.
 
 Les trois grandes religions monothéistes abrahamiques :
 
@@ -90,6 +96,9 @@ Une perspective anthropologique permet d'identifier des **systèmes de croyance 
 **Le capitalisme** : foi dans la croissance, le marché comme mécanisme providentiel d'allocation, le crédit comme pari sur un futur meilleur, le PIB comme indicateur de salut collectif.
 
 Qualifier ces systèmes de "religions" est une provocation analytique. Elle pointe le fait que même les sociétés sécularisées structurent leur vie collective autour de récits transcendants — la vérité n'a pas remplacé la foi, elle a changé d'objet.
+
+> [!warning] Piège
+> Cette analogie fonctionnaliste (la religion définie par sa fonction sociale plutôt que par la croyance en un dieu) vient directement de Durkheim, pas d'une observation neutre — voir [[Émile Durkheim]] et [[Fait Social]]. Elle est puissante pour analyser la cohésion sociale, mais elle efface ce qui distingue justement une religion (transcendance, rituel du sacré, rapport à la mort) d'une simple idéologie partagée — à manier comme un outil d'analyse, pas comme une équivalence littérale.
 
 ## La fonction sociale des religions
 

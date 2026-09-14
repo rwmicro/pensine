@@ -34,6 +34,9 @@ Le mot "hindouisme" lui-même est récent — forgé par les Britanniques au XIX
 
 > *Tat Tvam Asi* — "Tu es Cela" (Chandogya Upanishad)
 
+> [!warning] Piège
+> "Atman = Brahman" n'est pas une thèse partagée par tout l'hindouisme mais la position spécifique de l'école *Advaita* (non-dualisme, Shankara) — la plus connue en Occident, pas la seule. Le *Dvaita* de Madhva affirme au contraire que l'âme individuelle reste éternellement distincte de Dieu, même libérée (cf. tableau des écoles Vedanta plus bas). Assimiler moksha à une fusion panthéiste universelle, c'est confondre une école avec l'ensemble.
+
 ### Dharma, Karma, Samsara, Moksha
 
 | Concept | Signification |
@@ -57,6 +60,9 @@ L'hindouisme ne rejette pas la vie mondaine — il l'organise en quatre buts lé
 ## Les divinités
 
 L'hindouisme est souvent décrit comme polythéiste (des milliers de dieux), mais la théologie est plus subtile : les multiples dieux sont des **manifestations** d'une réalité unique (Brahman). L'image traditionnelle parle de "33 millions de dieux" — chiffre symbolique pour dire que le divin se manifeste partout.
+
+> [!important] Idée clé
+> Le terme technique est "hénothéisme" (ou monisme théiste) : un dévot peut se consacrer exclusivement à Krishna ou Shiva sans nier les autres dieux, parce qu'ils sont vus comme des facettes d'une même réalité ultime — ni polythéisme au sens grec (dieux distincts et rivaux), ni monothéisme exclusif. À l'inverse, le [[Bouddhisme|bouddhisme]], né dans le même contexte indien, rejette jusqu'à l'existence d'un Brahman ou d'un atman derrière les phénomènes.
 
 ### La Trimurti
 
@@ -127,6 +133,9 @@ Le système social hindou traditionnel divise la société en quatre catégories
 En dessous : les **Dalits** (autrefois "intouchables"), hors du système, assignés aux tâches considérées comme impures. Gandhi les nomme *Harijans* ("enfants de Dieu"). B.R. Ambedkar (lui-même dalit, rédacteur de la Constitution indienne) combat le système et se convertit au bouddhisme en 1956.
 
 Le système des castes est **officiellement aboli** par la Constitution indienne (1950) mais persiste socialement, notamment dans les mariages et la vie rurale.
+
+> [!warning] Piège
+> Ne pas confondre *varna* et *jati*. Le *varna* est le schéma théorique à quatre catégories décrit ci-dessus, d'origine scripturaire. Le *jati* est la réalité sociale vécue : plusieurs milliers de groupes endogames locaux, liés à un métier ou une région, dont le classement précis dans les quatre varna est souvent flou ou contesté. C'est le jati, pas le varna, qui détermine concrètement mariage et statut social au quotidien.
 
 ## Les quatre voies vers la libération
 
