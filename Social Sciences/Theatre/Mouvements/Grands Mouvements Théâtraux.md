@@ -58,6 +58,9 @@ date: "2026-02-22"
 - Langage corporel, cris, lumière violente
 - Peu réalisé de son vivant mais influence immense (Living Theatre, Grotowski, Brook)
 
+> [!warning] Piège
+> "Cruauté" chez Artaud n'a rien à voir avec la violence ou le sadisme au sens courant — c'est une exigence de rigueur et de nécessité absolue, comme la cruauté d'un chirurgien ou d'une loi physique. Le théâtre doit frapper le spectateur avec la même inévitabilité qu'une catastrophe naturelle, pas le divertir en étant méchant.
+
 ### Théâtre Pauvre - Jerzy Grotowski
 
 **Jerzy Grotowski** (Pologne, 1933-1999)
@@ -87,4 +90,7 @@ date: "2026-02-22"
 - Brésil, années 1970
 - Théâtre-forum : spectateurs interviennent, proposent solutions
 - Outil libération, conscientisation
+
+> [!important] Idée clé
+> Boal part explicitement de Brecht (théâtre comme outil de conscientisation politique) mais va plus loin : chez Brecht le spectateur reste spectateur, distancié mais passif ; chez Boal (concept de "spect-acteur") il monte littéralement sur scène et modifie l'action — la distanciation devient intervention directe.
 

@@ -53,6 +53,9 @@ date: "2026-03-05"
 - **Structure** : péripétie, reconnaissance, pathos
 - Influence théorie dramatique pendant 2000 ans
 
+> [!important] Idée clé
+> La Poétique n'est pas un manuel normatif écrit pour dicter comment écrire une tragédie — c'est une analyse a posteriori de ce qui, chez les tragédiens déjà célèbres (surtout Sophocle), produit l'effet catharsis. Les "règles" qu'on en a tirées plus tard (notamment les trois unités classiques françaises) sont des extrapolations postérieures, pas des prescriptions d'Aristote lui-même — il ne mentionne explicitement que l'unité d'action.
+
 ### Moyen Âge (Ve-XVe siècles)
 
 **Théâtre Religieux**
@@ -82,6 +85,9 @@ date: "2026-03-05"
 - **Types fixes** : Arlequin, Pantalon, Colombine, Polichinelle, Dottore...
 - Masques, lazzi (gags physiques)
 - Influence européenne considérable
+
+> [!tip] Méthode
+> Les types fixes de la Commedia dell'Arte (le vieillard avare, le valet rusé, les jeunes amoureux) sont l'ancêtre direct des archétypes de la sitcom moderne — même logique de personnages reconnaissables d'un canevas à l'autre, permettant l'improvisation sur une structure connue du public.
 
 **Angleterre Élisabéthaine et Jacobéenne**
 - **William Shakespeare** (1564-1616) : génie absolu
@@ -200,6 +206,9 @@ date: "2026-03-05"
   - *L'Anniversaire*, *Le Gardien*
   - Menace, pauses, non-dit, "pintéresque"
 - **Caractéristiques** : situations absurdes, langage décomposé, pas d'action causale, humour noir
+
+> [!warning] Piège
+> "Absurde" ici ne veut pas dire "n'importe quoi" mais désigne une position philosophique précise : l'absence de sens objectif de l'existence, théorisée par Camus dans *Le Mythe de Sisyphe* (voir [[Camus]]) — Godot qui n'arrive jamais n'est pas un gag, c'est la mise en scène littérale de l'attente sans objet final. Ionesco et Beckett dramatisent une thèse philosophique, ils ne se contentent pas d'être fantaisistes.
 
 **Autres Grands Dramaturges XXe**
 - **Luigi Pirandello** (Italie, 1867-1936)

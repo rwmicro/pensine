@@ -17,6 +17,9 @@ date: "2026-02-22"
 - Fragmentation, simultanéité
 - **Exemples** : Romeo Castellucci, Jan Fabre, Forced Entertainment
 
+> [!warning] Piège
+> "Post-dramatique" ne signifie pas "expérimental" au sens vague — c'est un critère précis (Lehmann) : l'absence de centralité du texte/fable comme organisateur du spectacle. Une pièce peut être formellement très expérimentale (vidéo, non-linéarité) tout en restant "dramatique" si un texte structure encore le sens ; à l'inverse une forme d'apparence classique peut être post-dramatique si l'image ou la performance prime sur la fable.
+
 **Écriture de Plateau**
 - Création collective
 - Texte émerge des improvisations, non pré-écrit
@@ -30,6 +33,9 @@ date: "2026-02-22"
 - Témoignages réels, enregistrements
 - **Rimini Protokoll** (Allemagne) : non-acteurs, experts
 - **Milo Rau** : reconstitutions procès, événements
+
+> [!important] Idée clé
+> Le théâtre verbatim/documentaire porte une tension éthique propre : utiliser la parole réelle de personnes réelles (témoignages, procès) comme matériau artistique pose la question du consentement et de la déformation — contrairement à la fiction, on ne peut pas dire "les personnages ne représentent personne en particulier".
 
 **Théâtre Immersif**
 - Public déambule, participe
