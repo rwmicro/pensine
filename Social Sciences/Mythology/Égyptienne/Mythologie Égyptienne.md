@@ -12,6 +12,9 @@ date: "2026-02-25"
 
 **Plusieurs versions (Héliopolis, Memphis, Hermopolis, Thèbes):**
 
+> [!tip] Méthode
+> Ces cosmogonies concurrentes ne sont pas des versions "fausses" les unes des autres à départager — chaque grand centre religieux (Héliopolis, Memphis...) promeut sa propre divinité locale comme origine première, souvent pour des raisons politiques (asseoir le prestige de son clergé). Lire l'Égypte ancienne suppose d'accepter plusieurs récits d'origine simultanément valides, sans chercher une orthodoxie unique.
+
 **Héliopolis (dominante):**
 - **Noun:** Océan primordial, chaos aquatique
 - **Atoum/Rê:** Dieu solaire, auto-engendré
@@ -37,6 +40,9 @@ date: "2026-02-25"
 - Conçoit Horus
 - Devient roi des morts (Douat)
 - Juge les âmes (pesée du cœur)
+
+> [!important] Idée clé
+> Osiris démembré puis ressuscité végétalement (il est associé au cycle des crues du Nil et des récoltes) rejoint le grand thème de la mort-renaissance qu'on retrouve chez Dionysos "né deux fois" ([[Mythologie Grecque]]) — la différence est qu'Osiris ne revient jamais parmi les vivants : sa résurrection le fait roi des morts, pas roi retrouvé.
 
 **Isis:**
 - Magie, maternité, protection
@@ -83,6 +89,9 @@ date: "2026-02-25"
 - Thot enregistre
 - Si cœur léger (vie juste): accès champs d'Ialou (paradis)
 - Si lourd: dévoré par Ammout (monstre hybride)
+
+> [!warning] Piège
+> Ne pas plaquer une grille chrétienne enfer/paradis là-dessus : il n'y a pas d'enfer de souffrance éternelle en Égypte ancienne. Le cœur lourd dévoré par Ammout signifie l'**anéantissement total** (la seconde mort, la disparition définitive du nom et de l'âme) — pas un châtiment sans fin. La pire peine égyptienne, c'est de cesser d'exister, pas de souffrir éternellement.
 
 **Momification:**
 - Préserver corps pour vie éternelle

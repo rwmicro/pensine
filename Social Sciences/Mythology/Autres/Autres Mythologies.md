@@ -29,6 +29,9 @@ date: "2026-02-25"
 **Amaterasu:**
 - Déesse solaire suprême
 - Ancêtre famille impériale japonaise
+
+> [!important] Idée clé
+> Faire descendre la lignée impériale d'Amaterasu n'est pas un détail religieux anecdotique — c'est une fonction de légitimation du pouvoir au sens de Malinowski (voir [[Fonctions et Interprétations]]), au même titre que les pharaons "fils de Rê" ([[Mythologie Égyptienne]]) : le mythe fonde l'autorité politique en la rattachant au divin.
 - Susanoo (frère) la terrorise, elle se cache dans grotte
   - Monde dans ténèbres
   - Dieux l'attirent dehors (miroir, rire)
@@ -48,6 +51,9 @@ date: "2026-02-25"
 **Sources:**
 - Fragmentaires (transmission orale, christianisation)
 - Textes irlandais médiévaux
+
+> [!warning] Piège
+> Même problème méthodologique que pour la mythologie nordique (voir [[Mythologie Nordique - Compléments]]) : les textes irlandais qui nous transmettent ces mythes ont été mis par écrit par des moines chrétiens, des siècles après la conversion — la mythologie celtique nous parvient donc doublement filtrée, et les fragments gaulois/bretons sont trop maigres pour la corriger.
 
 **Cycles irlandais:**
 - **Mythologique:** Tuatha Dé Danann (tribus de déesse Dana)

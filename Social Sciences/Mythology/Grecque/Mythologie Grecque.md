@@ -45,6 +45,9 @@ date: "2026-02-22"
 - Titans enfermés au Tartare
 - Zeus = roi des dieux
 
+> [!important] Idée clé
+> Le schéma castration/dévoration → renversement du père par le fils n'est pas propre à la Grèce : on le retrouve démembré chez Ymir ([[Mythologie Nordique]]) et dans la lutte des générations divines ailleurs. C'est l'un des grands invariants indo-européens que Dumézil et Lévi-Strauss analysent (voir [[Fonctions et Interprétations]]).
+
 ### Olympiens (12 Dieux Principaux)
 
 **Zeus (Jupiter):**
@@ -154,11 +157,17 @@ date: "2026-02-22"
 - Vérité révélée, Jocaste se suicide, Œdipe s'aveugle
 - Théorie freudienne (complexe d'Œdipe)
 
+> [!warning] Piège
+> Le mythe original ne raconte pas un désir assumé : Œdipe fait tout pour échapper à la prophétie et s'y précipite malgré lui. Voir [[Fonctions et Interprétations]] pour la nuance sur la lecture freudienne — le ressort tragique, c'est l'inéluctable agissant à l'insu du héros, pas un fantasme conscient.
+
 ### Guerre de Troie
 
 **Sources:**
 - Homère: *Iliade* (colère Achille), *Odyssée* (retour Ulysse)
 - Cycle troyen (perdu sauf fragments)
+
+> [!tip] Méthode
+> Piège de lecture classique : l'*Iliade* ne raconte pas les 10 ans de guerre ni la chute de Troie — seulement quelques semaines de la dernière année, centrées sur la colère d'Achille. Le cheval de Troie, la mort de Pâris, la prise de la ville viennent du Cycle troyen perdu (connu via des résumés tardifs), pas d'Homère lui-même.
 
 **Causes:**
 - Jugement de Pâris (pomme "à la plus belle": Aphrodite choisie)

@@ -34,6 +34,9 @@ Le mythe est un récit qui possède plusieurs caractéristiques :
 
 La frontière entre ces genres est poreuse : un mythe peut devenir un conte quand la société qui le portait perd sa religion (les mythes grecs deviennent des "histoires" pour nous). Un conte peut conserver des traces d'anciens mythes (Cendrillon et le motif de la transformation).
 
+> [!tip] Méthode
+> Pour classer rapidement un récit, poser trois questions dans l'ordre : est-il tenu pour vrai par une communauté (sacré) ou reconnu comme fiction ? Se situe-t-il dans un temps historique ou "avant le temps" ? Les acteurs sont-ils des dieux/ancêtres ou des humains ordinaires ? Un "oui, historique, humains" donne une légende ; un "non, hors du temps, dieux" donne un mythe.
+
 ## Les fonctions du mythe
 
 ### Mircea Eliade (1907-1986)
@@ -48,6 +51,9 @@ Historien des religions roumain, auteur de *Le Sacré et le Profane* (1957) et *
 | **Ontologie** | Le mythe dit ce qui **est vraiment réel** — le profane est une dégradation du sacré |
 
 Le concept central d'Eliade est l'***éternel retour*** : les sociétés archaiques ne conçoivent pas le temps comme une ligne (progrès) mais comme un **cycle** — le rituel ramène périodiquement au temps des origines.
+
+> [!warning] Piège
+> Ne pas confondre cet éternel retour avec celui de [[Nietzsche]] — même expression, sens opposé. Chez Eliade, c'est une **description anthropologique** : les sociétés archaïques échappent à l'angoisse du temps linéaire en répétant rituellement l'origine. Chez Nietzsche, c'est une **épreuve éthique personnelle** : accepter de revivre sa vie à l'identique, infiniment, sans échappatoire rituelle possible.
 
 ### Joseph Campbell (1904-1987)
 
@@ -70,6 +76,9 @@ Campbell montre que ce schéma se retrouve dans les mythes de toutes les culture
 Anthropologue français, fondateur de l'**anthropologie structurale**. Pour Lévi-Strauss, le mythe n'est pas un récit naif qui "explique" le monde — c'est un système logique qui organise la pensée. Les mythes fonctionnent par **oppositions binaires** : nature/culture, cru/cuit, vie/mort, masculin/féminin. L'analyse structurale décompose le mythe en "mythèmes" (unités minimales de sens) et révèle sa structure logique sous-jacente.
 
 Son oeuvre majeure, les *Mythologiques* (4 volumes, 1964-1971), analyse des centaines de mythes amérindiens pour montrer qu'ils forment un vaste système de transformations logiques.
+
+> [!important] Idée clé
+> C'est la même méthode structurale que [[Claude Lévi-Strauss]] applique à la parenté et au totémisme en anthropologie (voir [[Écoles et Courants]]) : chercher la grammaire logique sous le contenu apparent, qu'il s'agisse d'un mythe, d'un système de mariage ou d'une classification d'animaux.
 
 ### Fonctions sociales et politiques
 
