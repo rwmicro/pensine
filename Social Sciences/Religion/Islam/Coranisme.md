@@ -19,7 +19,7 @@ Les coranistes, aussi appelés "Quraniyoon" ou "Ahl al-Quran" (les gens du Coran
 - Dieu aurait rendu le Coran complet et détaillé, sans nécessiter d'autres sources
 
 > [!important] Idée clé
-> Le geste coraniste ("texte fondateur seul contre tradition humaine accumulée") est structurellement le même que le *Sola Scriptura* protestant face à la tradition catholique — voir [[Christianisme/Branches#3. Le Protestantisme|le Protestantisme]]. Ce n'est pas un hasard : chaque fois qu'une religion scripturaire accumule des siècles de commentaires et d'autorités intermédiaires, un mouvement de retour au texte seul finit par émerger pour contester leur légitimité.
+> Le geste coraniste ("texte fondateur seul contre tradition humaine accumulée") est structurellement le même que le *Sola Scriptura* protestant face à la tradition catholique — voir [[Christianisme/Branches#Le protestantisme|le Protestantisme]]. Ce n'est pas un hasard : chaque fois qu'une religion scripturaire accumule des siècles de commentaires et d'autorités intermédiaires, un mouvement de retour au texte seul finit par émerger pour contester leur légitimité.
 
 ### Contexte historique
 
