@@ -71,9 +71,10 @@ L'**histoire** (du grec *historia* = enquête, récit) est la discipline qui ét
 - **Siècle des Lumières** (XVIIIe) : Raison, tolérance, [[Kant]], Voltaire, Rousseau
 
 **Événements clés France :**
-- [[History/France/XVI - François 1er/Renaissance et François 1er]] (1515-1547)
-- [[XVII - 1er Journal en France]]
-- [[XVIII - La Commune]] (Commune de Paris, 1871)
+- [[France/01 - Jeu de Paume|François 1er et le Jeu de Paume]] (1515-1547)
+- [[France/02 - Naissance de la presse en France]]
+- [[France/03 - Ancien Régime et Louis XIV]]
+- [[France/04 - La Révolution française]] (1789-1799)
 
 ### 5. Époque Contemporaine (1789 - Aujourd'hui)
 **Début :** Révolution française (1789)
@@ -85,13 +86,15 @@ L'**histoire** (du grec *historia* = enquête, récit) est la discipline qui ét
 - Nationalisme
 
 **XXe siècle :**
-- Première Guerre mondiale (1914-1918)
-- Révolution russe (1917) : [[XX - Empire Russe]]
+- Première Guerre mondiale (1914-1918) : [[France/07 - Première Guerre mondiale (France)]]
+- Révolution russe (1917) : [[Russia/01 - Empire Russe]]
 - Crise de 1929
 - Montée des totalitarismes : [[WW2/Montée du nazisme]]
-- Seconde Guerre mondiale (1939-1945)
+- Seconde Guerre mondiale (1939-1945) : [[France/08 - Vichy, Occupation et Résistance]] (côté France)
 - Guerre Froide (1947-1991)
-- Décolonisation (années 1950-1970)
+- Décolonisation (années 1950-1970) : [[France/09 - Décolonisation hors Algérie]], [[France/10 - Guerre d'Algérie]]
+- Fondation de la Ve République (1958) : [[France/11 - La Ve République et De Gaulle]]
+- Mai 68 : [[France/12 - Mai 68]]
 - Mondialisation
 
 **XXIe siècle :**
@@ -111,8 +114,9 @@ L'**histoire** (du grec *historia* = enquête, récit) est la discipline qui ét
 - [[WW2/Hierarchy in the German Army]] : Structure militaire allemande
 
 #### Guerres Coloniales
-- [[France/XIX - Colonisation de l'Algérie]] (1830-1962)
-- [[France/XX - Guerre d'Algérie]] (1954-1962)
+- [[France/05 - Colonisation de l'Algérie]] (1830-1962)
+- [[France/10 - Guerre d'Algérie]] (1954-1962)
+- [[France/09 - Décolonisation hors Algérie]] : guerre d'Indochine (1946-1954), Madagascar (1947), décolonisation négociée d'Afrique (1960)
 
 ### Colonisation et Décolonisation
 
@@ -125,14 +129,15 @@ L'**histoire** (du grec *historia* = enquête, récit) est la discipline qui ét
 
 **Décolonisation :**
 - 1947 : Indépendance de l'Inde
-- 1954-1962 : [[France/XX - Guerre d'Algérie]]
-- 1960 : "Année de l'Afrique" (17 pays africains indépendants)
+- 1946-1954 : Guerre d'Indochine, voir [[France/09 - Décolonisation hors Algérie]]
+- 1954-1962 : [[France/10 - Guerre d'Algérie]]
+- 1960 : "Année de l'Afrique" (14 pays africains francophones indépendants, voir [[France/09 - Décolonisation hors Algérie]])
 
 ### Révolutions
 
 | Révolution | Année | Impact |
 |-----------|-------|--------|
-| **Révolution française** | 1789 | Droits de l'homme, fin monarchie absolue |
+| **[[France/04 - La Révolution française\|Révolution française]]** | 1789 | Droits de l'homme, fin monarchie absolue |
 | **Révolution industrielle** | ~1760-1840 | Capitalisme, urbanisation |
 | **Révolution russe** | 1917 | Communisme, URSS |
 | **Révolution chinoise** | 1949 | Mao, communisme chinois |
@@ -151,15 +156,22 @@ L'**histoire** (du grec *historia* = enquête, récit) est la discipline qui ét
 ## Zones Géographiques
 
 ### France
-- [[France/XVI - François 1er/Renaissance et François 1er]]
-- [[France/XVII - 1er Journal en France]]
-- [[France/XVIII - La Commune]]
-- [[France/XIX - Colonisation de l'Algérie]]
-- [[France/XX - Guerre d'Algérie]]
+- [[France/01 - Jeu de Paume]]
+- [[France/02 - Naissance de la presse en France]]
+- [[France/03 - Ancien Régime et Louis XIV]]
+- [[France/04 - La Révolution française]]
+- [[France/05 - Colonisation de l'Algérie]]
+- [[France/06 - La Commune]]
+- [[France/07 - Première Guerre mondiale (France)]]
+- [[France/08 - Vichy, Occupation et Résistance]]
+- [[France/09 - Décolonisation hors Algérie]]
+- [[France/10 - Guerre d'Algérie]]
+- [[France/11 - La Ve République et De Gaulle]]
+- [[France/12 - Mai 68]]
 
 ### Russie
-- [[Russia/XX - Empire Russe]]
-- [[Russia/Panelki]] : Urbanisme soviétique
+- [[Russia/01 - Empire Russe]]
+- [[Russia/02 - Panelki]] : Urbanisme soviétique
 
 ### Afrique
 - [[Djibouti/Histoire]]
@@ -227,7 +239,7 @@ L'**histoire** (du grec *historia* = enquête, récit) est la discipline qui ét
 - Exemple : [[WW2/Invasion of Poland]] (prétexte) vs. causes profondes (Traité de Versailles)
 
 > [!tip] Méthode
-> Test pratique pour trier cause et prétexte : l'événement invoqué aurait-il suffi seul, dans un autre contexte, à déclencher la même réaction ? Si non, c'est un prétexte qui habille une cause plus profonde déjà mûre — voir [[France/XIX - Colonisation de l'Algérie|le coup d'éventail de 1827]] pour un cas concret appliqué.
+> Test pratique pour trier cause et prétexte : l'événement invoqué aurait-il suffi seul, dans un autre contexte, à déclencher la même réaction ? Si non, c'est un prétexte qui habille une cause plus profonde déjà mûre — voir [[France/05 - Colonisation de l'Algérie|le coup d'éventail de 1827]] pour un cas concret appliqué.
 
 ### Anachronisme
 **Erreur :** Projeter nos valeurs actuelles sur le passé
@@ -235,7 +247,7 @@ L'**histoire** (du grec *historia* = enquête, récit) est la discipline qui ét
 **Exemple :** Juger l'esclavage antique avec notre morale actuelle
 
 > [!warning] Piège
-> Le piège inverse existe aussi : invoquer "l'anachronisme" pour évacuer tout jugement moral sur le passé, ce qui finit par excuser n'importe quoi au nom du contexte de l'époque. L'historien navigue entre deux excès — comprendre sans juger n'est pas la même chose que refuser de nommer une violence structurelle (cf. le débat mémoriel autour de la colonisation, [[France/XIX - Colonisation de l'Algérie]]).
+> Le piège inverse existe aussi : invoquer "l'anachronisme" pour évacuer tout jugement moral sur le passé, ce qui finit par excuser n'importe quoi au nom du contexte de l'époque. L'historien navigue entre deux excès — comprendre sans juger n'est pas la même chose que refuser de nommer une violence structurelle (cf. le débat mémoriel autour de la colonisation, [[France/05 - Colonisation de l'Algérie]]).
 
 ### Longue Durée vs. Événement
 - **Braudel** : Trois temporalités (temps long, conjoncture, événement)
@@ -307,15 +319,22 @@ L'**histoire** (du grec *historia* = enquête, récit) est la discipline qui ét
 - [[WW2/Recommendations]] - Ressources WWII
 
 ### France
-- [[France/XVI - François 1er/Renaissance et François 1er]]
-- [[France/XVII - 1er Journal en France]]
-- [[France/XVIII - La Commune]]
-- [[France/XIX - Colonisation de l'Algérie]]
-- [[France/XX - Guerre d'Algérie]]
+- [[France/01 - Jeu de Paume]]
+- [[France/02 - Naissance de la presse en France]]
+- [[France/03 - Ancien Régime et Louis XIV]]
+- [[France/04 - La Révolution française]]
+- [[France/05 - Colonisation de l'Algérie]]
+- [[France/06 - La Commune]]
+- [[France/07 - Première Guerre mondiale (France)]]
+- [[France/08 - Vichy, Occupation et Résistance]]
+- [[France/09 - Décolonisation hors Algérie]]
+- [[France/10 - Guerre d'Algérie]]
+- [[France/11 - La Ve République et De Gaulle]]
+- [[France/12 - Mai 68]]
 
 ### Monde
-- [[Russia/XX - Empire Russe]]
-- [[Russia/Panelki]]
+- [[Russia/01 - Empire Russe]]
+- [[Russia/02 - Panelki]]
 - [[Djibouti/Histoire]]
 - [[Kurdes/Histoire]]
 - [[Syrie/Répartition Ethnique]]

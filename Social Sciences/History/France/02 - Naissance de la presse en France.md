@@ -4,9 +4,13 @@ domain: "Social Sciences"
 subdomain: "History > France"
 tags: [sciences-sociales, histoire, france, presse, XVIIe-siècle, médias]
 date: "2026-04-16"
+period: "1611-1881"
 ---
 
 # Naissance de la presse en France (XVIIe siècle)
+
+![Portrait de Théophraste Renaudot](images/02-theophraste-renaudot.jpg)
+*Portrait de Théophraste Renaudot — statuette anonyme, XIXe siècle, Musée Carnavalet. Licence CC0, source : Wikimedia Commons / Paris Musées.*
 
 La presse périodique naît en France au début du XVIIe siècle, dans un contexte de centralisation monarchique. Contrairement à l'Angleterre ou aux Pays-Bas où la presse se développe dans une relative liberté, la presse française naît sous le contrôle étroit du pouvoir royal, qui en fait un outil de gouvernement.
 

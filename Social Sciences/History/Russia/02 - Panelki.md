@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "History > Russia"
 tags: [sciences-sociales, histoire, russie]
 date: "2025-01-15"
+period: "1950-1991"
 ---
 
 # Les Panelki — Immeubles soviétiques préfabriqués
