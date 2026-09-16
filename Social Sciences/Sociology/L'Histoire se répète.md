@@ -125,7 +125,7 @@ date: "2025-12-31"
 **Cycles Révolutionnaires France:**
 - 1789: Révolution
 - 1848: Révolution ("Printemps des Peuples")
-- 1871: [[XVIII - La Commune|Commune]]
+- 1871: [[06 - La Commune|Commune]]
 - 1968: Mai 68
 → Mais contextes, résultats, méthodes totalement différents
 

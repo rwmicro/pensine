@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "History > Russia"
 tags: [sciences-sociales, histoire, russie]
 date: "2025-06-05"
+period: "1682-1917"
 ---
 
 # L'Empire Russe (XVIIIe–XIXe siècle)

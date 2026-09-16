@@ -4,9 +4,13 @@ domain: "Social Sciences"
 subdomain: "History > France"
 tags: [sciences-sociales, histoire, france]
 date: "2025-06-05"
+period: "1871"
 ---
 
 # La Commune de Paris (18 mars — 28 mai 1871)
+
+![Barricade de la Commune, place Vendôme](images/06-barricade-commune-vendome.jpg)
+*Barricade de la Commune, place Vendôme, rue de la Paix — photographie anonyme, 1871. Crédit BHVP/Roger-Viollet. Domaine public, source : Wikimedia Commons.*
 
 La Commune de Paris est une insurrection populaire et un gouvernement révolutionnaire qui dirige la capitale française pendant 72 jours, du 18 mars au 28 mai 1871. C'est l'un des épisodes fondateurs du mouvement ouvrier moderne, écrasé dans le sang lors de la **Semaine sanglante**.
 
@@ -83,7 +87,7 @@ S'ensuit une semaine de combats de rue d'une violence extrême :
 - 10 000 condamnations dont 4 500 à la déportation en **Nouvelle-Calédonie**
 
 > [!warning] Piège
-> Un bilan "longtemps minoré par la République" n'est pas un détail statistique : c'est un schéma récurrent chaque fois que le vainqueur écrit l'histoire officielle — même mécanisme que les bilans contestés de [[XX - Guerre d'Algérie#Phase 1|Sétif (1945)]] ou de l'Anfal kurde. Un chiffre "officiel" bas et une estimation indépendante nettement plus haute sont souvent le signe d'un pouvoir qui a intérêt à minimiser sa propre répression.
+> Un bilan "longtemps minoré par la République" n'est pas un détail statistique : c'est un schéma récurrent chaque fois que le vainqueur écrit l'histoire officielle — même mécanisme que les bilans contestés de [[10 - Guerre d'Algérie#Phase 1|Sétif (1945)]] ou de l'Anfal kurde. Un chiffre "officiel" bas et une estimation indépendante nettement plus haute sont souvent le signe d'un pouvoir qui a intérêt à minimiser sa propre répression.
 
 ## Mémoire et postérité
 
