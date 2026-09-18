@@ -3,7 +3,8 @@ title: "Les Branches du Christianisme"
 domain: "Social Sciences"
 subdomain: "Religion > Christianisme"
 tags: [sciences-sociales, religion, christianisme, catholicisme, orthodoxie, protestantisme, oecumenisme]
-date: "2026-09-15"
+date: "2025-12-31"
+updated: "2026-09-15"
 ---
 
 # Les Branches du Christianisme
