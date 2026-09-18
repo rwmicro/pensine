@@ -335,6 +335,7 @@ L'assembleur pur est rare. Trois formes d'articulation avec un langage de haut n
 - [[Systèmes Numériques]] — représentation binaire, complément à deux, logique booléenne
 - [[Gestion de la Mémoire]] — pagination, mémoire virtuelle et espace d'adressage d'un processus
 - [[Fondamentaux]] — format ELF, chargement d'un exécutable, frontière utilisateur/noyau
+- [[Appels Système]] — le franchissement de la frontière noyau, convention et coût
 - [[Reverse Engineering]] — lire et comprendre un binaire dont on n'a pas la source
 - [[Binary Exploitation]] — exploitation des débordements et contournement des protections
 - [[Linux Privilege Escalation]] — élévation de privilèges, dont les vulnérabilités noyau
