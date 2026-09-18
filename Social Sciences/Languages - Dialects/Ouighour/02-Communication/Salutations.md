@@ -1,3 +1,10 @@
+---
+title: "Salutations"
+domain: "Social Sciences"
+subdomain: "Languages - Dialects > Ouighour > 02-Communication"
+tags: [sciences-sociales, langues, ouighour, communication, salutations]
+date: "2026-08-20"
+---
 # Salutations : rituels d'ouverture et de clôture
 
 ## Saluer selon le moment

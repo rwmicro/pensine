@@ -1,3 +1,10 @@
+---
+title: "Bases de la Langue Ouïghoure — Sommaire"
+domain: "Social Sciences"
+subdomain: "Languages - Dialects > Ouighour"
+tags: [sciences-sociales, langues, ouighour, index]
+date: "2026-07-30"
+---
 # Bases de la langue ouïghoure
 
 Dossier d'initiation à l'ouïghour (uyghurchä / ئۇيغۇرچە), langue turcique karlouke parlée au Xinjiang et dans sa diaspora.

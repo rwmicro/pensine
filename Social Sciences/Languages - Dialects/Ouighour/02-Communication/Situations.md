@@ -1,3 +1,10 @@
+---
+title: "Situations Pratiques"
+domain: "Social Sciences"
+subdomain: "Languages - Dialects > Ouighour > 02-Communication"
+tags: [sciences-sociales, langues, ouighour, communication]
+date: "2026-08-20"
+---
 # Situations pratiques
 
 ## Au marché ou dans une échoppe

@@ -1,3 +1,10 @@
+---
+title: "Les Registres de Langue"
+domain: "Social Sciences"
+subdomain: "Languages - Dialects > Ouighour > 02-Communication"
+tags: [sciences-sociales, langues, ouighour, communication, registres]
+date: "2026-08-20"
+---
 # Les registres de langue : nommer, adresser, respecter
 
 ## Le tutoiement et le vouvoiement grammaticalisés

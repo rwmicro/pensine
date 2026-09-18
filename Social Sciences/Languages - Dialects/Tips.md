@@ -114,7 +114,7 @@ Polyglotte qui maîtrisait plus de 50 langues, dont plusieurs dialectes africain
 - Lingualism (ressources arabes et langues du Moyen-Orient) : https://lingualism.com/
 
 ### Référence linguistique et démographique
-- Situation des langues par pays : https://www.axl.cefan.ulaval.ca/index.html
+- Situation des langues par pays : https://www.axl.cefan.ulaval.ca
 
 ### Ressources spécifiques
 - Apprentissage du chinois : https://drive.google.com/drive/folders/1yc3CJQDbhxJZdNLAYVTgtUZS5Znw8rRP

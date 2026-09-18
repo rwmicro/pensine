@@ -1,3 +1,10 @@
+---
+title: "La Prononciation — Harmonie Vocalique"
+domain: "Social Sciences"
+subdomain: "Languages - Dialects > Ouighour > 01-Phonologie"
+tags: [sciences-sociales, langues, ouighour, phonologie, prononciation]
+date: "2026-07-30"
+---
 # La prononciation : l'harmonie vocalique au cœur du système
 
 ## Un principe organisateur : l'harmonie vocalique

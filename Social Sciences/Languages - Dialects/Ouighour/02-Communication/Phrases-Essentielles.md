@@ -1,3 +1,10 @@
+---
+title: "Phrases Essentielles"
+domain: "Social Sciences"
+subdomain: "Languages - Dialects > Ouighour > 02-Communication"
+tags: [sciences-sociales, langues, ouighour, communication]
+date: "2026-08-20"
+---
 # Phrases essentielles pour un premier contact
 
 ## Se présenter
