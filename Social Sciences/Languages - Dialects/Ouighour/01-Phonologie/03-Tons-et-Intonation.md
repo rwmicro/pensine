@@ -1,3 +1,10 @@
+---
+title: "Tons et Intonation"
+domain: "Social Sciences"
+subdomain: "Languages - Dialects > Ouighour > 01-Phonologie"
+tags: [sciences-sociales, langues, ouighour, phonologie]
+date: "2026-07-30"
+---
 # Tons et intonation : lever une méprise fréquente
 
 ## L'ouïghour n'est pas une langue à tons

@@ -1,3 +1,10 @@
+---
+title: "Ressources pour l'Apprentissage"
+domain: "Social Sciences"
+subdomain: "Languages - Dialects > Ouighour > 06-Ressources"
+tags: [sciences-sociales, langues, ouighour, ressources]
+date: "2026-07-30"
+---
 # Ressources pour poursuivre l'apprentissage
 
 ## Répétition espacée : construire son deck Anki

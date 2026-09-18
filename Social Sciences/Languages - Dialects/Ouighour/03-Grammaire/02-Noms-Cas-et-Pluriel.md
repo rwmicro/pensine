@@ -1,3 +1,10 @@
+---
+title: "Les Noms — Cas et Pluriel"
+domain: "Social Sciences"
+subdomain: "Languages - Dialects > Ouighour > 03-Grammaire"
+tags: [sciences-sociales, langues, ouighour, grammaire]
+date: "2026-08-20"
+---
 # Les noms : pluriel, possession et système casuel
 
 ## Le pluriel

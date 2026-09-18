@@ -1,3 +1,10 @@
+---
+title: "Le Verbe — Temps, Aspect et Personne"
+domain: "Social Sciences"
+subdomain: "Languages - Dialects > Ouighour > 03-Grammaire"
+tags: [sciences-sociales, langues, ouighour, grammaire, verbes]
+date: "2026-08-20"
+---
 # Le verbe : temps, aspect et personne
 
 ## Structure générale

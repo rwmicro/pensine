@@ -1,3 +1,10 @@
+---
+title: "L'Alphabet Ouïghour"
+domain: "Social Sciences"
+subdomain: "Languages - Dialects > Ouighour > 01-Phonologie"
+tags: [sciences-sociales, langues, ouighour, phonologie, alphabet]
+date: "2026-07-30"
+---
 # L'alphabet ouïghour
 
 ## Une langue, trois écritures

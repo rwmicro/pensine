@@ -1,3 +1,10 @@
+---
+title: "Morphologie et Agglutination"
+domain: "Social Sciences"
+subdomain: "Languages - Dialects > Ouighour > 03-Grammaire"
+tags: [sciences-sociales, langues, ouighour, grammaire, morphologie]
+date: "2026-08-20"
+---
 # Morphologie : le génie agglutinant de l'ouïghour
 
 ## Un principe de construction par empilement
