@@ -32,7 +32,7 @@ date: "2026-02-22"
 - Gestion crise, image
 
 **Techniques**
-- Framing (cadrage) → [[Rhétorique et Arguments#Arguments de cadrage|voir]]
+- Framing (cadrage) → [[Rhétorique et Argumentation#Arguments de cadrage|voir]]
 - Dog whistle (message codé)
 - Astroturfing (fausse mobilisation citoyenne)
 
