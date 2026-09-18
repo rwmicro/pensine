@@ -37,6 +37,13 @@ Un discours qui n'a que du *logos* (rapport technique) ennuie ; que de l'*ethos*
 > [!warning] Piège
 > L'ethos ne se décrète pas — il se construit dans le discours (ou se hérite d'une réputation extérieure). Un orateur qui dit « croyez-moi, je suis un expert » sans le démontrer par son raisonnement produit l'effet inverse : un appel à l'ethos explicite sonne comme un aveu de faiblesse du logos.
 
+Une distinction pédagogique commode, dérivée de cette triade :
+- **Convaincre** → mobiliser ethos + logos (appel à la raison)
+- **Persuader** → mobiliser le pathos (appel à l'émotion)
+
+> [!tip] Méthode
+> Cette dichotomie convaincre/persuader n'est pas une frontière étanche : dans un vrai discours, les trois leviers agissent presque toujours ensemble. Un argument purement logique sans aucun pathos ne persuade souvent personne, même s'il « convainc » sur le papier.
+
 ### Les cinq canons de la rhétorique
 
 L'ensemble du travail oratoire, du brouillon à la performance :
@@ -94,6 +101,44 @@ flowchart LR
 Le grand intérêt du modèle : il met en évidence la **garantie**, souvent implicite. La plupart des désaccords ne portent pas sur les faits, mais sur la règle qui permet d'en tirer une conclusion.
 
 **Exercice mental** : quand quelqu'un vous donne un argument, demandez-vous *quelle règle invisible* relie ses données à sa conclusion. C'est souvent là que se joue le débat.
+
+## Types d'arguments
+
+Au-delà de la triade aristotélicienne, quelques familles d'arguments reviennent constamment en pratique — utiles pour nommer précisément ce qu'on lit ou ce qu'on écrit.
+
+### Arguments de cadrage
+
+Présenter la réalité en insistant sur certains aspects favorables et en minorant les aspects défavorables, sans forcément énoncer de faux.
+
+- **Description** orientée
+- **Définition** des termes à son avantage
+- **Dissociation** : séparer des concepts liés pour isoler ce qui arrange
+
+**Exemple** : « réduction des effectifs » vs « licenciements massifs » ; « dommages collatéraux » vs « victimes civiles » — même fait, cadrage différent.
+
+### Arguments de communauté
+
+Appel aux valeurs partagées, aux normes sociales, au bien commun — l'argument tire sa force du fait que l'auditoire y adhère déjà, pas d'une démonstration.
+
+### Arguments d'autorité
+
+S'appuyer sur une personne reconnue, une étude, une institution crédible.
+
+> [!tip] Méthode
+> Un argument d'autorité est valide seulement si l'autorité citée s'exprime *dans son domaine de compétence* et que le consensus des pairs la soutient. Un prix Nobel de physique qui donne son avis sur la nutrition n'a pas plus de poids qu'un inconnu — c'est là que l'argument d'autorité bascule en sophisme (voir [[Sophismes et Manipulation]] et l'« appel à l'autorité abusif » ci-dessous).
+
+### Arguments d'analogie
+
+Comparer deux situations pour transférer un jugement de l'une à l'autre (« si A ressemble à B, alors... »). Ex. : « le cerveau est comme un ordinateur », « l'État est comme un navire qui a besoin d'un capitaine ».
+
+L'analogie éclaire mais ne prouve rien : sa force dépend entièrement de la pertinence du point de comparaison — un mauvais point commun rend l'argument fallacieux (fausse analogie).
+
+## Validation des arguments
+
+Avant d'accepter un argument fondé sur des faits, toujours remonter aux sources :
+- **Sources primaires** : données brutes, études originales
+- **Sources secondaires** : analyses, synthèses de ces données
+- Vérifier la **crédibilité** et l'**indépendance** de la source — qui la finance, quel intérêt a-t-elle à cette conclusion ?
 
 ## Sophismes — l'argumentation déloyale
 
