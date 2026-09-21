@@ -26,7 +26,7 @@ graph LR
     subgraph iOS
         i_kernel[XNU Kernel / Darwin]
         i_kernel --> i_sec[Secure Enclave]
-        i_kernel --> i_sand[Sandbox Seatbelt\n(profils par app)]
+        i_kernel --> i_sand["Sandbox Seatbelt\n(profils par app)"]
         i_sand --> i_app[Application]
         i_sign[Code Signing\nobligatoire]
         i_boot[Secure Boot Chain]

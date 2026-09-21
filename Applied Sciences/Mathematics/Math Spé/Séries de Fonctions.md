@@ -108,8 +108,8 @@ Soit $(f_n)_{n \geq 0}$ une suite de fonctions de $I$ dans $\mathbb{R}$. On s'in
 flowchart TD
     A["Convergence NORMALE<br/>∑ ‖fₙ‖∞ converge"] ==> B["Convergence UNIFORME<br/>sup|Sₙ - S| → 0"]
     B ==> C["Convergence SIMPLE<br/>∀x, Sₙ(x) → S(x)"]
-    A -- "Réciproque FAUSSE" -.-> D["Contre-ex : ∑(-1)ⁿ/n<br/>sur un singleton"]
-    B -- "Réciproque FAUSSE" -.-> E["Contre-ex : fₙ = xⁿ/n<br/>sur [0,1]"]
+    A -. "Réciproque FAUSSE" .-> D["Contre-ex : ∑(-1)ⁿ/n<br/>sur un singleton"]
+    B -. "Réciproque FAUSSE" .-> E["Contre-ex : fₙ = xⁿ/n<br/>sur [0,1]"]
 ```
 
 > [!important] Convergence normale implique convergence uniforme

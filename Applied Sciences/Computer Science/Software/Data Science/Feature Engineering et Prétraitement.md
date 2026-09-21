@@ -150,9 +150,9 @@ Non nécessaire pour les arbres de décision et forêts aléatoires.
 ```mermaid
 graph TD
     dist{Distribution ?}
-    dist -->|Gaussienne| std[Standardisation\nz = (x - μ) / σ]
-    dist -->|Non-gaussienne| minmax[Min-Max\nx' = (x - min)/(max - min)]
-    dist -->|Beaucoup d'outliers| robust[Robust Scaler\n(IQR)]
+    dist -->|Gaussienne| std["Standardisation\nz = (x - μ) / σ"]
+    dist -->|Non-gaussienne| minmax["Min-Max\nx' = (x - min)/(max - min)"]
+    dist -->|"Beaucoup d'outliers"| robust["Robust Scaler\n(IQR)"]
     dist -->|Loi de puissance| log[Transformation log]
 ```
 

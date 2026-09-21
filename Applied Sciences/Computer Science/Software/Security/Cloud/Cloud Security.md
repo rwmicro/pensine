@@ -20,13 +20,13 @@ graph TD
     end
 
     subgraph "Zone partagée"
-        os[Système d'exploitation\nIaaS = client / PaaS = partagé]
+        os["Système d'exploitation\nIaaS = client / PaaS = partagé"]
         network_ctrl[Contrôles réseau]
     end
 
     subgraph "Responsabilité du client"
         data[Données\net leur chiffrement]
-        iam[Gestion des identités\net accès (IAM)]
+        iam["Gestion des identités\net accès (IAM)"]
         app[Applications]
         config[Configuration\ndes services]
     end
