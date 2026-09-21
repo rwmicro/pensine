@@ -2,7 +2,7 @@
 title: "Systèmes Embarqués"
 domain: "Applied Sciences"
 subdomain: "Computer Science > Hardware"
-tags: [sciences-appliquées, informatique]
+tags: [sciences-appliquées, informatique, embarqué, microcontrôleur, rtos, arm, iot, temps-réel]
 date: "2026-02-25"
 ---
 
@@ -28,25 +28,26 @@ Un système embarqué est un système informatique spécialisé, intégré dans 
 
 Un microcontrôleur (MCU) intègre sur une seule puce le processeur, la mémoire et les périphériques.
 
+```mermaid
+flowchart TD
+    subgraph MCU["Microcontrôleur — tout sur une seule puce"]
+        CPU["Cœur CPU"]
+        FLASH["Flash — le code<br/>quelques centaines de Ko"]
+        RAM["RAM — les données<br/>quelques dizaines de Ko"]
+        BUS{{"Bus interne — AHB / APB"}}
+        PERIPH["GPIO · UART · SPI · I2C · Timer · ADC · DMA"]
+        CPU --- BUS
+        FLASH --- BUS
+        RAM --- BUS
+        BUS --- PERIPH
+    end
 ```
-┌─────────────────────────────────────────────────┐
-│              MICROCONTRÔLEUR                     │
-│                                                  │
-│  ┌──────────┐   ┌──────────┐   ┌─────────────┐  │
-│  │   CPU    │   │  Flash   │   │    RAM      │  │
-│  │  Core    │   │ (code)   │   │  (données)  │  │
-│  └────┬─────┘   │ 256KB    │   │  64KB       │  │
-│       │         └──────────┘   └─────────────┘  │
-│  ┌────┴──────────────────────────────────────┐   │
-│  │              Bus interne (AHB/APB)        │   │
-│  └───┬──────┬──────┬──────┬──────┬──────┬───┘   │
-│     GPIO  UART   SPI   I2C  Timer  ADC   DMA     │
-└─────────────────────────────────────────────────┘
-```
+
+C'est cette intégration qui définit le microcontrôleur : là où un ordinateur répartit processeur, mémoire et contrôleurs sur une carte mère traversée de bus externes — voir [[Composants et Bus]] —, le MCU rassemble tout sur quelques millimètres carrés. D'où son prix, sa consommation, et la disparition de toute frontière entre le programme et le matériel qu'il pilote.
 
 ### ARM Cortex-M
 
-Architecture ARM Cortex-M domine le marché des MCUs (STM32, nRF52, RP2040, ESP32).
+L'architecture ARM Cortex-M domine le marché des MCU (STM32, nRF52, RP2040, ESP32). C'est une architecture Harvard, aux antipodes des choix décrits dans [[Architecture des Processeurs]] : pas de cache sur les petits modèles, pas d'exécution hors ordre, pas de spéculation — parce que tout cela rendrait le temps d'exécution imprévisible, et que la prévisibilité prime ici sur le débit.
 
 | Famille | Caractéristiques | Usage |
 |---|---|---|
@@ -65,7 +66,7 @@ Registres ARM Cortex-M :
 
 ## Programmation bare-metal (C/C++)
 
-Sans système d'exploitation, le programme tourne directement sur le matériel.
+Sans système d'exploitation, le programme tourne directement sur le matériel. Il n'y a ni appel système ni séparation utilisateur/noyau — la distinction fondatrice décrite dans [[Appels Système]] n'existe tout simplement pas : le code applicatif écrit directement dans les registres des périphériques, projetés en mémoire (MMIO). Chaque bit manipulé ci-dessous correspond à une broche physique ou à une fonction matérielle.
 
 ### Vecteur d'interruption et démarrage
 
@@ -157,14 +158,18 @@ void EXTI0_IRQHandler(void) {
 
 Communication série asynchrone, point à point.
 
-```
-TX ──→ RX   (données)
-RX ←── TX
-GND ── GND
+| Fil | Raccordement | Rôle |
+|---|---|---|
+| TX | Vers le RX du correspondant | Données émises |
+| RX | Depuis le TX du correspondant | Données reçues |
+| GND | Commun aux deux | Référence de tension, indispensable |
 
+```
 Trame : [START(0)] [D0..D7] [PARITY] [STOP(1)]
 Débits courants : 9600, 115200, 921600 bauds
 ```
+
+Le croisement TX/RX est l'erreur de câblage la plus fréquente, et elle est silencieuse : rien ne signale une liaison mal reliée, on observe simplement l'absence de données.
 
 ```c
 // Initialisation UART (registres directs)
@@ -211,7 +216,7 @@ Bus différentiel robuste pour environnements industriels et automobiles (sans m
 
 ## RTOS (Real-Time Operating System)
 
-Un RTOS fournit un ordonnanceur préemptif qui garantit les délais d'exécution des tâches.
+Un RTOS fournit un ordonnanceur préemptif qui garantit les délais d'exécution des tâches. Les mécanismes sont ceux de [[Processus et Threads]] et de [[Concurrence et Synchronisation]], réduits à l'essentiel et dimensionnés pour quelques kilo-octets de RAM.
 
 ### Concepts fondamentaux
 
@@ -363,3 +368,15 @@ HAL_IWDG_Refresh(&hiwdg);  // Rafraîchir régulièrement (sinon reset)
 
 > [!tip] Méthode de debug
 > Sur MCU, on ne peut pas juste "ajouter un print" comme en développement classique — la console série (UART) ou Segger RTT sont les seuls retours disponibles sans matériel de debug. Un sonde JTAG/SWD (ST-Link, J-Link) avec GDB reste le seul moyen d'inspecter l'état réel (registres, breakpoints) quand le comportement bare-metal diverge du code source.
+
+## À lire ensuite
+
+- [[Architecture des Processeurs]] — pourquoi un cœur embarqué renonce au cache et à la spéculation
+- [[Composants et Bus]] — l'organisation équivalente sur une machine généraliste
+- [[Systèmes Numériques]] — niveaux logiques, registres et manipulation de bits
+- [[Concurrence et Synchronisation]] — sémaphores, mutex et inversion de priorité en détail
+- [[Processus et Threads]] — ordonnancement et préemption sur système généraliste
+- [[Démarrage et Bootloader]] — U-Boot et device tree sur plateformes ARM
+- [[Firmware Analysis]] — extraction et rétro-ingénierie d'un firmware embarqué
+- [[ICS-SCADA Security]] — ces systèmes exposés en milieu industriel
+- [[Binary Exploitation]] — débordements de pile, dont le cas embarqué est le plus silencieux

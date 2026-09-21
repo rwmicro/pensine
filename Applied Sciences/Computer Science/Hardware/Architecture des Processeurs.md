@@ -2,205 +2,186 @@
 title: "Architecture des Processeurs"
 domain: "Applied Sciences"
 subdomain: "Computer Science > Hardware"
-tags: [sciences-appliquées, informatique]
+tags: [sciences-appliquées, informatique, processeur, cpu, pipeline, cache, spéculation, gpu]
 date: "2026-02-24"
 ---
 
 # Architecture des Processeurs
 
-Un processeur (CPU — Central Processing Unit) est le cerveau d'un ordinateur. Il exécute les instructions des programmes en effectuant des opérations arithmétiques, logiques et de contrôle.
+Un processeur exécute des instructions. Dit ainsi, le sujet paraît simple, et il l'était : le 8086 de 1978 lisait une instruction, l'exécutait, passait à la suivante. Un cœur moderne fait la même chose — avec quelque chose comme un milliard de transistors de plus. Cette note cherche à expliquer où sont passés ces transistors.
 
-## Architecture de von Neumann
+La réponse tient en un fait unique, et tout le reste en découle.
 
-Proposée en 1945, elle est la base de quasiment tous les ordinateurs modernes.
+> [!important] Idée clé — le mur de la mémoire
+> Depuis quarante ans, la vitesse des processeurs a crû bien plus vite que celle de la mémoire. Un cœur actuel exécute plusieurs instructions par nanoseconde ; un accès à la mémoire principale coûte environ cent nanosecondes. Le processeur peut donc passer **plusieurs centaines de cycles à ne rien faire** en attendant une donnée.
+>
+> Presque tout ce qui distingue un processeur moderne d'un 8086 est une réponse à ce déséquilibre. Caches, pipeline, exécution hors ordre, spéculation, préchargement, multithreading matériel, et jusqu'au GPU : ce ne sont pas sept inventions indépendantes, ce sont sept réponses à une seule question — **que faire du processeur pendant qu'il attend ?** Lire la suite comme un catalogue de fonctionnalités, c'est en manquer la logique.
 
-```
-┌──────────────────────────────────────┐
-│              Mémoire                  │
-│    (instructions + données mélangées) │
-└───────────────┬──────────────────────┘
-                │ bus
-┌───────────────▼──────────────────────┐
-│                CPU                    │
-│  ┌───────────┐   ┌─────────────────┐  │
-│  │    ALU    │   │   Unité Ctrl    │  │
-│  │ (calculs) │   │ (décodage instr)│  │
-│  └───────────┘   └─────────────────┘  │
-│  ┌─────────────────────────────────┐  │
-│  │          Registres              │  │
-│  └─────────────────────────────────┘  │
-└──────────────────────────────────────┘
-         │
-   Périphériques E/S
+## Le modèle de base et son goulot
+
+L'architecture de von Neumann, proposée en 1945, range instructions et données dans une même mémoire, atteinte par un même bus.
+
+```mermaid
+flowchart TD
+    M["Mémoire unique — instructions et données mélangées"]
+    B{{"Bus partagé : le goulot d'étranglement"}}
+    C["Processeur — unité de contrôle, ALU, registres"]
+    E["Périphériques d'entrée/sortie"]
+    M <--> B
+    B <--> C
+    C <--> E
 ```
 
-**Limitation de von Neumann** : le goulot d'étranglement von Neumann — le bus partagé entre instructions et données limite les performances. Solutions modernes : caches séparés L1i (instructions) et L1d (données).
+Le **goulot de von Neumann** est là : un seul chemin pour aller chercher l'instruction *et* la donnée sur laquelle elle opère. Tant que processeur et mémoire allaient à la même vitesse, la contrainte restait théorique. Elle est devenue la contrainte dominante.
 
-**Architecture Harvard** : sépare physiquement les mémoires d'instructions et de données. Utilisée dans les microcontrôleurs (Arduino, PIC) et les DSP. Permet des accès simultanés aux deux mémoires.
+L'**architecture Harvard** sépare physiquement les deux mémoires, ce qui permet d'y accéder simultanément. Elle reste la règle sur les microcontrôleurs et les DSP, où le déterminisme prime — voir [[Systèmes Embarqués]]. Les processeurs généralistes ont retenu un compromis : une mémoire unique, mais des caches de premier niveau séparés, `L1i` pour les instructions et `L1d` pour les données. Harvard au plus près du cœur, von Neumann au-delà.
 
-## Composants d'un CPU
+## Ce qu'il y a dans un cœur
 
-### Unité Arithmétique et Logique (ALU)
+**L'unité arithmétique et logique (ALU)** effectue les opérations entières : addition, soustraction, opérations booléennes, décalages, comparaisons. Les calculs à virgule flottante reviennent à une unité distincte, la FPU, et les opérations vectorielles à des unités SIMD. Le détail des représentations manipulées figure dans [[Systèmes Numériques]].
 
-Effectue les opérations de base : addition, soustraction, ET, OU, XOR, décalages binaires, comparaisons. Les opérations à virgule flottante sont souvent déléguées à une FPU (Floating Point Unit) séparée.
+**L'unité de contrôle** lit l'instruction désignée par le compteur ordinal, la décode et pilote les autres unités.
 
-### Unité de Contrôle (Control Unit)
+**Les registres** sont les seuls emplacements où le processeur calcule réellement. Ils sont peu nombreux — seize registres généraux sur x86-64 — et cette rareté est la contrainte structurante de la programmation bas niveau. La table complète des registres x86-64, de leurs sous-registres et de leurs rôles conventionnels figure dans [[Assembleur x86-64]].
 
-Décode les instructions et coordonne les autres composants. Elle lit l'instruction pointée par le registre IP (Instruction Pointer), la décode, génère les signaux de contrôle appropriés.
+| Registre | Rôle |
+|---|---|
+| `rax` – `rdx`, `rsi`, `rdi`, `r8` – `r15` | Usage général, avec des conventions d'appel par rôle |
+| `rsp` | Sommet de la pile |
+| `rbp` | Base du cadre de pile courant |
+| `rip` | Compteur ordinal : adresse de la prochaine instruction |
+| `rflags` | Drapeaux positionnés par les comparaisons et les calculs |
 
-### Registres
+## Réponse 1 — le pipeline : ne pas attendre la fin pour commencer
 
-Mémoire ultra-rapide intégrée au CPU. Quelques dizaines à quelques centaines de registres selon l'architecture.
+Exécuter une instruction se décompose en étapes qui mobilisent des circuits différents. Plutôt que de laisser quatre étages inactifs pendant que le cinquième travaille, on les enchaîne comme une chaîne de montage.
 
-Registres x86-64 principaux :
+| Cycle | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|---|---|---|---|---|---|---|---|
+| Instruction 1 | IF | ID | EX | MEM | WB | | |
+| Instruction 2 | | IF | ID | EX | MEM | WB | |
+| Instruction 3 | | | IF | ID | EX | MEM | WB |
 
-| Registre | Taille | Usage traditionnel |
-|---|---|---|
-| RAX | 64 bits | Accumulateur, valeur de retour |
-| RBX | 64 bits | Base pointer |
-| RCX | 64 bits | Compteur de boucle |
-| RDX | 64 bits | Données, E/S |
-| RSP | 64 bits | Stack pointer (sommet de pile) |
-| RBP | 64 bits | Base pointer (frame actuel) |
-| RSI | 64 bits | Source index |
-| RDI | 64 bits | Destination index |
-| RIP | 64 bits | Instruction pointer (PC) |
-| R8-R15 | 64 bits | Usage général (x86-64 seulement) |
-| RFLAGS | 64 bits | Drapeaux (zéro, retenue, signe, overflow) |
+`IF` lecture de l'instruction, `ID` décodage et lecture des registres, `EX` exécution, `MEM` accès mémoire, `WB` écriture du résultat.
 
-Les registres sont aussi accessibles en 32 bits (EAX), 16 bits (AX) et 8 bits (AL, AH) pour la compatibilité.
+Le débit, non la latence, est ce que le pipeline améliore : chaque instruction prend toujours cinq cycles, mais il en sort une par cycle. Les cœurs actuels comptent quinze à vingt étages.
 
-## Pipeline d'instructions
+### Les aléas
 
-Le pipeline permet d'exécuter plusieurs instructions simultanément en les divisant en étapes.
+Le pipeline repose sur une hypothèse, et cette hypothèse est fausse une fois sur cinq.
 
-Pipeline classique à 5 étages (RISC) :
+**Aléa de données** — une instruction a besoin d'un résultat qui n'est pas encore écrit.
 
-```
-Cycle :  1   2   3   4   5   6   7   8
-Instr 1: IF  ID  EX  MEM WB
-Instr 2:     IF  ID  EX  MEM WB
-Instr 3:         IF  ID  EX  MEM WB
-Instr 4:             IF  ID  EX  MEM WB
-
-IF  = Instruction Fetch — lecture de l'instruction en mémoire
-ID  = Instruction Decode — décodage et lecture des registres
-EX  = Execute — exécution dans l'ALU
-MEM = Memory access — lecture/écriture en mémoire
-WB  = Write Back — écriture du résultat dans le registre
+```assembly
+add r1, r2, r3    ; r1 = r2 + r3
+sub r4, r1, r5    ; r4 = r1 - r5  →  r1 pas encore disponible
 ```
 
-En théorie, avec 5 étages, on traite jusqu'à 5 instructions simultanément.
+Parades : suspendre le pipeline, ou faire suivre le résultat directement de l'étage `EX` vers l'instruction suivante sans passer par les registres — le *forwarding* —, ou laisser le compilateur réordonner.
 
-### Hazards (aléas)
+**Aléa de contrôle** — un branchement conditionnel rend indéterminée l'adresse des instructions suivantes, alors que le pipeline les a déjà chargées. La parade est la **prédiction de branchement** : le processeur parie, et continue. Les prédicteurs actuels dépassent 95 % de réussite ; le prix d'une erreur est la vidange du pipeline, soit dix à vingt cycles perdus.
 
-Situations qui empêchent le pipeline de progresser normalement.
-
-**Aléa de données (Data Hazard)** : une instruction dépend du résultat d'une instruction précédente non encore terminée.
-
-```
-ADD R1, R2, R3    # R1 = R2 + R3
-SUB R4, R1, R5    # R4 = R1 - R5 → R1 pas encore disponible !
-```
-
-Solutions : stall (attendre), forwarding/bypassing (transmettre le résultat directement sans passer par WB), réordonnancement des instructions par le compilateur.
-
-**Aléa de contrôle (Control Hazard)** : les branchements conditionnels (if, boucles) invalident les instructions déjà dans le pipeline.
-
-Solution : prédiction de branchement. Le CPU prédit si un branchement sera pris ou non et continue à remplir le pipeline. En cas d'erreur de prédiction : flush du pipeline + pénalité de 10-20 cycles. Les CPUs modernes ont des prédicteurs avec > 95% de précision.
+**Aléa structurel** — deux instructions réclament la même ressource matérielle au même cycle. Parade : dupliquer les unités.
 
 > [!important] Idée clé
-> Les trois types de hazards ont la même cause profonde : le pipeline suppose que les instructions sont indépendantes et peuvent avancer en parallèle. Dès qu'une dépendance réelle existe (donnée, branchement, ressource), cette hypothèse se brise et le CPU doit soit attendre, soit deviner.
+> Les trois aléas ont la même cause profonde : le pipeline suppose que les instructions sont indépendantes et peuvent avancer en parallèle. Dès qu'une dépendance réelle existe — de donnée, de contrôle, de ressource —, cette hypothèse se brise, et il ne reste que deux issues : **attendre, ou deviner**. Toute l'histoire des processeurs modernes est celle du déplacement du curseur vers la seconde.
 
-**Aléa structurel (Structural Hazard)** : deux instructions veulent utiliser la même ressource matérielle simultanément.
+## Réponse 2 — le cache : rapprocher les données
 
-Solution : duplication des ressources (plusieurs ALUs, ports mémoire).
+Si la mémoire est lointaine, on en garde une copie proche. Le cache fonctionne parce que les programmes réels n'accèdent pas à la mémoire au hasard : ils reviennent sur les mêmes données, et ils lisent des données voisines. Ces deux régularités — localité temporelle et localité spatiale — sont ce qui rend le cache efficace, et leur absence est ce qui rend certains algorithmes lents malgré une complexité théorique correcte.
 
-## RISC vs CISC
+La hiérarchie complète, les latences par niveau, les politiques d'écriture et de remplacement sont traitées dans [[Mémoire et Stockage]].
 
-| Dimension | RISC | CISC |
-|---|---|---|
-| Signification | Reduced Instruction Set Computer | Complex Instruction Set Computer |
-| Instructions | Peu nombreuses, taille fixe | Nombreuses, taille variable |
-| Complexité | Dans le compilateur | Dans le matériel |
-| Exemples | ARM, RISC-V, MIPS, PowerPC | x86, x86-64, VAX |
-| Pipeline | Simple, régulier | Complexe |
-| Mémoire | Load/Store uniquement | Opérations directes sur mémoire |
-| Performances | Élevées par MHz sur code simple | Meilleur code dense |
+Ce qu'il faut en retenir ici : les caches `L1` et `L2` sont privés à chaque cœur, le `L3` est partagé. Cette asymétrie crée un problème propre au multicœur — deux cœurs peuvent détenir des copies divergentes d'une même ligne —, résolu par un protocole de cohérence matériel de type MESI, dont les conséquences visibles pour le programmeur sont détaillées dans [[Concurrence et Synchronisation]].
 
-Note : les CPUs x86-64 modernes (Intel, AMD) traduisent en interne les instructions CISC complexes en micro-opérations RISC-like. Le x86-64 visible est CISC, mais l'exécution interne est RISC.
+## Réponse 3 — exécuter plus, et par avance
 
-> [!tip] Méthode
-> RISC vs CISC n'est plus vraiment un choix de conception aujourd'hui vu la convergence interne — la question pertinente est plutôt le rapport performance/watt (ARM domine en mobile) vs l'écosystème logiciel existant (x86 domine sur desktop/serveur par inertie historique, pas par supériorité technique intrinsèque).
+**La superscalarité** duplique les unités d'exécution pour émettre plusieurs instructions par cycle. Un cœur haut de gamme actuel en émet six à huit.
 
-## Superscalarité et Out-of-Order Execution
+**L'exécution hors ordre** va plus loin : le processeur maintient une réserve d'instructions décodées et exécute celles dont les opérandes sont prêts, sans respecter l'ordre du programme. Un tampon de réordonnancement rétablit l'ordre au moment d'écrire les résultats, de sorte que le programme observe une exécution séquentielle qui n'a jamais eu lieu. C'est précisément ce qui permet de continuer à travailler pendant qu'une instruction attend la mémoire.
 
-### Superscalarité
-
-Un CPU superscalaire peut émettre et exécuter plusieurs instructions par cycle d'horloge en dupliquant les unités d'exécution. Un Core i9 peut émettre jusqu'à 6 micro-ops par cycle.
-
-### Exécution hors ordre (Out-of-Order Execution)
-
-Le CPU réordonne les instructions pour minimiser les stalls, tout en respectant les dépendances. Il maintient un pool d'instructions prêtes à être exécutées (Reorder Buffer) et les exécute dans l'ordre optimal.
-
-### Exécution spéculative
-
-Le CPU exécute des instructions "à l'avance" sans être sûr qu'elles seront nécessaires (prédiction de branchement, spéculation de mémoire). Si la prédiction était fausse, les résultats sont annulés. C'est à l'origine des failles Spectre et Meltdown (2018).
+**L'exécution spéculative** franchit le dernier pas : le processeur exécute des instructions dont il ignore encore si elles seront nécessaires, en se fiant à la prédiction de branchement. Si le pari est perdu, les résultats sont annulés.
 
 > [!warning] Piège
-> "Annuler les résultats" d'une exécution spéculative fausse n'efface pas tous les effets de bord — l'état du cache, lui, reste modifié par l'instruction spéculative avant l'annulation. Spectre/Meltdown exploitent précisément cette fuite : mesurer les temps d'accès au cache révèle indirectement des données qui n'auraient jamais dû être lues.
+> « Annuler les résultats » n'efface pas tous les effets. Les registres et la mémoire sont restaurés, mais **l'état du cache, lui, garde la trace** des lignes chargées pendant l'exécution spéculative. Spectre et Meltdown (2018) exploitent exactement cette asymétrie : en mesurant les temps d'accès au cache, on déduit indirectement des données qu'on n'avait pas le droit de lire. L'atténuation KPTI, décrite dans [[Appels Système]], est l'une des conséquences durables de cette classe d'attaques — et l'une des rares où une optimisation de performance a dû être partiellement défaite.
 
-## Niveaux de cache
+## Réponse 4 — plusieurs cœurs, plusieurs fils
 
-Le cache est une mémoire rapide entre le CPU et la RAM, exploitant la localité temporelle et spatiale.
+**Le multicœur** place plusieurs cœurs complets sur la même puce, chacun avec ses registres et ses caches privés, partageant le `L3` et l'accès à la mémoire. C'est une réponse à la limite de fréquence : la chaleur dissipée croît bien plus vite que la fréquence, ce qui a arrêté la course au gigahertz vers 2005.
 
-| Niveau | Taille typique | Latence | Partagé |
-|---|---|---|---|
-| Registres | ~1 Ko | ~0.3 ns (1 cycle) | Non — par cœur |
-| L1 (instructions + données) | 32-64 Ko | ~1 ns (4 cycles) | Non — par cœur |
-| L2 | 256 Ko – 1 Mo | ~3-10 ns (12 cycles) | Non — par cœur |
-| L3 (Last Level Cache) | 8-64 Mo | ~30-40 ns (40 cycles) | Partagé entre cœurs |
-| RAM (DRAM) | 8-256 Go | ~60-100 ns (200 cycles) | Partagée |
-| SSD NVMe | To | ~0.1 ms | Partagé |
-| HDD | To | ~5-10 ms | Partagé |
+**Le multithreading simultané** (Hyper-Threading chez Intel, SMT chez AMD) présente deux fils logiques par cœur physique. Chacun a ses registres propres, mais ils partagent les unités d'exécution.
 
-**Localité temporelle** : si une donnée est accédée, elle le sera probablement à nouveau bientôt → garder en cache.
+> [!tip] À retenir
+> Le SMT découle directement du mur de la mémoire. Quand un fil bloque sur un défaut de cache, ses unités d'exécution restent inoccupées pendant des centaines de cycles — le second fil s'en sert. Le gain, de 15 à 30 % sur des charges parallèles, mesure donc à peu près **le temps que le premier fil passait à attendre**. Corollaire : sur une charge mono-fil bien optimisée, qui ne rate presque jamais le cache, le SMT n'apporte rien et peut nuire par pollution du cache partagé.
 
-**Localité spatiale** : si une donnée est accédée, les données voisines le seront probablement → charger des lignes de cache entières (64 octets).
+## Le GPU : cacher la latence au lieu de la combattre
 
-## Fréquence, IPC et TDP
-
-**Fréquence (GHz)** : nombre de cycles par seconde. Plus de cycles = plus d'instructions potentielles. Mais augmenter la fréquence augmente la chaleur quadratiquement.
-
-**IPC (Instructions Per Cycle)** : nombre moyen d'instructions exécutées par cycle. Dépend de l'architecture. Un Cortex-A78 exécute plus d'instructions par cycle qu'un Pentium 4 à même fréquence.
-
-**Performances = Fréquence × IPC × Nombre de cœurs** (simplification)
-
-**TDP (Thermal Design Power)** : puissance thermique maximale en watts. Un CPU 125W TDP dissipe jusqu'à 125W qu'il faut évacuer.
-
-## Multi-core et Hyper-Threading
-
-**Multi-core** : plusieurs cœurs physiques sur le même die. Chaque cœur est un CPU complet avec ses propres registres et caches L1/L2. Les cœurs se partagent le cache L3 et l'accès à la RAM.
-
-**HyperThreading (Intel) / SMT (AMD)** : présente 2 threads logiques par cœur physique. Chaque thread a ses propres registres et un reorder buffer, mais partage les unités d'exécution. Gain de 15-30% sur les charges parallèles, perte potentielle sur les charges à thread unique intense.
-
-## GPU vs CPU
+Le processeur généraliste dépense l'essentiel de ses transistors à réduire la latence d'un fil unique : caches profonds, prédicteurs, exécution hors ordre. Le GPU fait le pari inverse — il **accepte** la latence et la rend invisible en ayant toujours d'autres fils à exécuter.
 
 | Critère | CPU | GPU |
 |---|---|---|
-| Cœurs | 8-64 cœurs puissants | Milliers de cœurs simples |
-| Optimisé pour | Tâches séquentielles complexes | Calcul parallèle massif |
-| Cache | Grand (L3 jusqu'à 64 Mo) | Petit mais très haute bande passante |
-| Mémoire | RAM (DDR5) | VRAM (GDDR6, HBM) |
-| Usage | Logique générale, OS, BDD | Rendu 3D, ML, calcul scientifique |
-| Architecture | Quelques threads très rapides | Milliers de threads modestes (SIMD) |
+| Cœurs | Quelques dizaines, complexes | Des milliers, simples |
+| Stratégie face à la latence | La réduire : caches, spéculation, hors-ordre | La masquer : changer de fil instantanément |
+| Cache | Grand, jusqu'à 64 Mo de L3 | Petit, mais bande passante mémoire énorme |
+| Mémoire | RAM (DDR5) | VRAM (GDDR6, HBM), de 500 Go/s à plusieurs To/s |
+| Modèle d'exécution | Quelques fils rapides, indépendants | Milliers de fils exécutant la même instruction (SIMD) |
+| Domaine | Logique générale, branchements, systèmes | Calcul régulier massivement parallèle |
 
-## Architectures récentes
+Ce choix a un prix : le GPU n'est performant que si les fils font tous la même chose. Un branchement qui sépare les fils d'un même groupe force l'exécution successive des deux chemins — la *divergence*, principal piège de la programmation GPU.
 
-| Architecture | Entreprise | Usage | Points clés |
-|---|---|---|---|
-| x86-64 (Zen 5) | AMD | Desktop/Serveur | Haute performance, IPC élevé |
-| x86-64 (Core Ultra) | Intel | Desktop/Laptop | Hybride Performance+Efficiency cores |
-| ARMv9 (Cortex-X4) | ARM | Mobile, Apple Silicon | Excellent rapport perf/watt |
-| Apple M4 | Apple | Mac, iPad | Architecture unifiée CPU+GPU+NPU |
-| RISC-V | Open Source | Embarqué, IoT | ISA libre, croissance forte |
+```c
+// CUDA — addition de vecteurs : un fil par élément
+__global__ void additionner(float* a, float* b, float* c, int n) {
+    int idx = blockIdx.x * blockDim.x + threadIdx.x;
+    if (idx < n) c[idx] = a[idx] + b[idx];
+}
+
+additionner<<<(n + 1023) / 1024, 1024>>>(d_a, d_b, d_c, n);
+```
+
+L'apprentissage automatique tient dans ce cadre presque parfaitement : une multiplication matricielle est régulière, sans branchement, et arbitrairement parallèle. D'où les accélérateurs dédiés — TPU de Google, Neural Engine d'Apple, cartes NVIDIA de série H et B — qui poussent la logique plus loin en abandonnant la généralité restante. Voir [[Machine Learning]] et [[Quantization]].
+
+## RISC contre CISC
+
+| Dimension | RISC | CISC |
+|---|---|---|
+| Jeu d'instructions | Réduit, taille fixe | Étendu, taille variable |
+| Complexité | Dans le compilateur | Dans le matériel |
+| Accès mémoire | Load/store uniquement | Opérations directes en mémoire |
+| Densité du code | Faible | Élevée |
+| Représentants | ARM, RISC-V, MIPS, PowerPC | x86, x86-64 |
+
+> [!tip] À retenir
+> L'opposition est largement historique. Les processeurs x86-64 actuels décodent leurs instructions CISC en micro-opérations internes de facture RISC : l'interface visible est CISC, l'exécution ne l'est pas. La question pertinente aujourd'hui n'est plus la philosophie du jeu d'instructions mais le **rapport performance/watt** — où ARM domine, ce qui explique son emprise sur le mobile puis son arrivée sur le portable et le serveur — et l'**inertie de l'écosystème logiciel**, qui explique la persistance de x86 sur le poste de travail. Le cas de RISC-V ajoute une troisième variable, la liberté de licence du jeu d'instructions.
+
+## Mesurer un processeur
+
+**La fréquence** donne le nombre de cycles par seconde. Elle ne dit rien seule : la dissipation thermique croît beaucoup plus vite qu'elle, ce qui borne la montée en fréquence.
+
+**L'IPC**, nombre moyen d'instructions par cycle, mesure l'efficacité de la microarchitecture — donc la qualité des réponses décrites plus haut. Un cœur moderne dépasse largement un Pentium 4 à fréquence égale, uniquement par l'IPC.
+
+**Le TDP** exprime la puissance thermique à évacuer, en watts. C'est le budget dans lequel tout le reste doit tenir.
+
+En première approximation, la performance vaut le produit *fréquence × IPC × nombre de cœurs* — approximation qui ne vaut que pour des charges effectivement parallélisables, la [[Complexité et Big O]] et la part séquentielle du programme fixant le plafond réel.
+
+## Les grandes familles actuelles
+
+Plutôt que de suivre des références commerciales qui changent chaque année, il est plus utile de retenir les partis pris de conception.
+
+| Approche | Principe | Où on la rencontre |
+|---|---|---|
+| x86-64 haute performance | IPC maximal, grands caches, budget thermique large | Poste de travail, serveur |
+| Cœurs hybrides | Cœurs performants et cœurs efficients sur la même puce, l'ordonnanceur répartissant selon la charge | Portables, mobile |
+| ARM à mémoire unifiée | CPU, GPU et accélérateur neuronal partageant une même mémoire, sans copie entre eux | Apple Silicon, mobile haut de gamme |
+| RISC-V | Jeu d'instructions libre de droits, modulaire | Embarqué, IoT, recherche |
+
+## À lire ensuite
+
+- [[Mémoire et Stockage]] — la hiérarchie complète, des registres au stockage réseau
+- [[Systèmes Numériques]] — ce que manipule réellement l'ALU : binaire, complément à deux, IEEE 754
+- [[Assembleur x86-64]] — les registres et les instructions vus du côté du programmeur
+- [[Composants et Bus]] — comment le processeur est relié au reste de la machine
+- [[Concurrence et Synchronisation]] — cohérence des caches et conséquences visibles du multicœur
+- [[Appels Système]] — le coût du franchissement noyau et l'héritage de Spectre
+- [[Systèmes Embarqués]] — l'architecture Harvard et les processeurs contraints
+- [[Binary Exploitation]] — exploitation des canaux auxiliaires ouverts par la spéculation
