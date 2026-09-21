@@ -14,13 +14,13 @@ La vision par ordinateur (Computer Vision) est le domaine qui permet aux machine
 
 ```mermaid
 graph TD
-    image[Image d'entrée]
-    image --> classif[Classification\n'C'est un chat']
-    image --> detect[Détection d'objets\n'Chat à (x,y,w,h)']
-    image --> seg[Segmentation sémantique\n'Chaque pixel = classe']
-    image --> inst[Segmentation d'instances\n'Chaque instance délimitée']
-    image --> pose[Estimation de pose\n'Squelette humain']
-    image --> depth[Estimation de profondeur\n'Carte de profondeur']
+    image["Image d'entrée"]
+    image --> classif["Classification\n'C'est un chat'"]
+    image --> detect["Détection d'objets\n'Chat à (x,y,w,h)'"]
+    image --> seg["Segmentation sémantique\n'Chaque pixel = classe'"]
+    image --> inst["Segmentation d'instances\n'Chaque instance délimitée'"]
+    image --> pose["Estimation de pose\n'Squelette humain'"]
+    image --> depth["Estimation de profondeur\n'Carte de profondeur'"]
 
     style classif fill:#5ba3d9,color:#fff
     style detect fill:#e07b39,color:#fff

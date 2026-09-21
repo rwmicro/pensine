@@ -164,7 +164,7 @@ graph TD
     data --> student[Étudiant\nPetit modèle\nà entraîner]
     teacher -->|"Logits doux\n(soft targets)"| loss_kd[Loss Distillation\nKL Divergence]
     data -->|Labels durs| loss_ce[Loss Classification\nCross-Entropy]
-    loss_kd --> total[Loss totale\nα·L_CE + (1-α)·L_KD]
+    loss_kd --> total["Loss totale\nα·L_CE + (1-α)·L_KD"]
     loss_ce --> total
     total --> student
 ```

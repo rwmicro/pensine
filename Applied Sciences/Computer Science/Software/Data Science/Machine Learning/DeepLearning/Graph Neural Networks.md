@@ -128,9 +128,9 @@ hᵥˡ = σ( W · CONCAT(hᵥˡ⁻¹, AGG({hᵤˡ⁻¹ : u ∈ N(v)})) )
 ```mermaid
 graph TD
     taches[Tâches GNN]
-    taches --> node[Classification de nœuds\nex: type d'utilisateur\ndans un réseau social]
+    taches --> node["Classification de nœuds\nex: type d'utilisateur\ndans un réseau social"]
     taches --> link[Prédiction de lien\nex: recommandation\nconnexion future]
-    taches --> graph[Classification de graphes\nex: molécule toxique\nou non]
+    taches --> clsgraph[Classification de graphes\nex: molécule toxique\nou non]
     taches --> gen[Génération de graphes\nex: molécule optimale]
 ```
 

@@ -173,7 +173,7 @@ Les groupes criminels modernes opèrent comme des entreprises.
 
 ```mermaid
 graph LR
-    dev[Développeurs\n(core team)\ncréent le malware\n+ infrastructure]
+    dev["Développeurs\n(core team)\ncréent le malware\n+ infrastructure"]
     aff[Affiliés\nconductent les\nattaques]
     vic[Victimes]
     ransom[Rançon payée]

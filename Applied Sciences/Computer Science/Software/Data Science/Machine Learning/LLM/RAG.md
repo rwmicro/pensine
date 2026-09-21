@@ -26,13 +26,13 @@ Le RAG répond à ces problèmes en récupérant les passages pertinents *avant*
 
 ```mermaid
 graph LR
-    subgraph Indexation (offline)
+    subgraph "Indexation (offline)"
         docs[Documents\nbruts] --> chunk[Chunking]
         chunk --> embed[Embedding\nModel]
         embed --> vdb[(Vector\nDatabase)]
     end
 
-    subgraph Inférence (online)
+    subgraph "Inférence (online)"
         q[Question\nutilisateur] --> qembed[Embedding\nde la question]
         qembed --> search[Recherche\npar similarité]
         vdb --> search
