@@ -66,6 +66,11 @@ date: "2026-02-22"
 - [brackets] pour transcription phonétique
 - /slashes/ pour transcription phonologique
 
+```widget:trapeze-vocalique
+```
+
+Le trapèze reproduit la position de la langue dans la bouche : l'horizontale va de l'antérieur au postérieur, la verticale du fermé à l'ouvert. C'est ce qu'un tableau ne peut pas montrer — **l'espace vocalique est continu**, et les voyelles d'une langue y occupent des positions, pas des cases. Deux langues peuvent découper ce même espace tout autrement.
+
 ### Phonologie
 
 **Phonème:**

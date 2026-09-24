@@ -145,6 +145,11 @@ L'équilibre de Nash n'est pas nécessairement Pareto-optimal. C'est préciséme
 - L'équilibre peut être Pareto-inefficace — rationnel individuellement, mauvais collectivement
 - Requiert une rationalité commune et des connaissances mutuelles fortes
 
+```widget:theorie-jeux
+```
+
+Les cases surlignées sont les équilibres de Nash : aucun joueur n'y gagne à dévier seul. Le dilemme du prisonnier est le cas où cet équilibre unique est pourtant moins bon pour les deux que la coopération — modifier les gains montre à partir de quand la structure du jeu bascule.
+
 ## Lire et résoudre un jeu
 
 ### Lire une matrice de gains

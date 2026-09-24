@@ -99,6 +99,12 @@ class AttracteurDeLorenz(ThreeDScene):
 > [!tip] L'universalité de Feigenbaum
 > Le rapport entre intervalles de bifurcations successifs tend vers une **constante universelle** $\delta \approx 4{,}669$, identique pour des systèmes très différents. Le chaos a des lois quantitatives.
 
+```widget:logistique
+r: 3.2
+```
+
+Faire croître *r* montre la cascade de doublements de période : point fixe, puis cycle de 2, de 4, de 8, jusqu'à ce que la période cesse d'exister vers 3,5699. Le diagramme du bas situe la valeur courante dans l'ensemble — et les fenêtres blanches au milieu du chaos, notamment celle de période 3, se voient à l'œil nu.
+
 ## 5. Le chaos dans la nature
 
 | Système | Manifestation du chaos |

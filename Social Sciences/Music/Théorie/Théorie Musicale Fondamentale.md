@@ -82,6 +82,12 @@ date: "2026-02-22"
 - Renverser un intervalle: 9 - intervalle original
 - Tierce majeure → Sixte mineure
 
+```widget:intervalle
+interval: Quinte juste
+```
+
+La quinte tempérée n'est pas la quinte juste : elle en diffère de deux cents, ce qui paraît négligeable jusqu'à ce qu'on les superpose. Les deux fréquences produisent alors une pulsation lente, environ un demi-battement par seconde — **c'est exactement ce qu'écoute un accordeur**. Sur la tierce majeure, l'écart atteint quatorze cents et devient franchement audible : c'est le prix payé pour pouvoir jouer dans toutes les tonalités avec douze notes.
+
 ### Gammes et Modes
 
 **Gamme majeure:**
