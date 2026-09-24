@@ -14,32 +14,20 @@ OAuth 2.0 est un framework d'**autorisation** (délégation d'accès) — il per
 
 OAuth résout un problème précis : "comment laisser une app tierce accéder à mes données sans lui donner mon mot de passe ?". Quatre rôles distincts, qui interagissent dans un ordre strict.
 
-```
-                    ┌────────────────────────┐
-                    │   Resource Owner       │
-                    │   (Alice, l'utilisateur)│
-                    └─────────┬──────────────┘
-                              │
-                              │ "Je veux laisser
-                              │  l'app X accéder à
-                              │  mon calendrier."
-                              ▼
-   ┌──────────────────┐                    ┌──────────────────────┐
-   │  Client          │                    │ Authorization Server │
-   │  (l'app X qui    │ ──── 1. redirect ──►│ (Google, Auth0,      │
-   │   veut accéder)  │                    │  Keycloak, etc.)     │
-   │                  │ ◄──── 2. code ──── │                      │
-   │                  │ ──── 3. code  ────►│ (Alice s'authentifie │
-   │                  │ ◄──── 4. token ─── │  + consent)          │
-   └────────┬─────────┘                    └──────────────────────┘
-            │
-            │ 5. Authorization: Bearer eyJ...
-            ▼
-   ┌──────────────────┐
-   │ Resource Server  │
-   │ (Google Calendar │
-   │  API)            │
-   └──────────────────┘
+```mermaid
+sequenceDiagram
+    actor A as Alice, propriétaire
+    participant C as Client, l'application
+    participant AS as Serveur d'autorisation
+    participant RS as Serveur de ressources
+    A->>C: Laisse l'app accéder à mon calendrier
+    C->>AS: 1. Redirection vers l'autorisation
+    AS->>A: Authentification et consentement
+    AS->>C: 2. Code d'autorisation
+    C->>AS: 3. Échange du code, avec PKCE
+    AS->>C: 4. Jeton d'accès
+    C->>RS: 5. Authorization Bearer
+    RS->>C: Ressource protégée
 ```
 
 **Pourquoi quatre acteurs et pas trois ?** Parce que séparer l'Authorization Server du Resource Server permet à un même Authorization Server (ex. Google) de protéger plusieurs APIs distinctes (Gmail, Drive, Calendar), et de gérer les consentements de façon centralisée. C'est aussi ce qui rend OAuth réutilisable comme système SSO via OIDC.
