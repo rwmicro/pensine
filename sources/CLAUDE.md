@@ -158,6 +158,11 @@ bits: 32
 | `matrice-2d` | `a`, `b`, `c`, `d` | Matrice 2×2 comme transformation du plan : déterminant, directions propres |
 | `logistique` | `r` | Suite logistique, orbite et diagramme de bifurcation |
 | `theorie-jeux` | `payoffs` (`3,3 \| 0,5 \| 5,0 \| 1,1`), `r1`, `r2`, `c1`, `c2` | Matrice de gains, équilibres de Nash, optimalité de Pareto |
+| `harmonie-vocalique` | `stem` | Harmonie vocalique turque : un suffixe prend sa voyelle du radical |
+| `ton` | `syllables` (`ni3 hao3`) | Contours de hauteur et sandhi tonal du mandarin |
+| `racine-arabe` | `root`, `translit` | Famille de mots dérivés d'une racine trilitère par les schèmes |
+| `abugida` | — | Composition devanagari : consonne + signe vocalique → syllabe |
+| `ordre-des-mots` | — | Ordre des constituants SVO / SOV / VSO selon la langue |
 
 ### Fonctionnement
 

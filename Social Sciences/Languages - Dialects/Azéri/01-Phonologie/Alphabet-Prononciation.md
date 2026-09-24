@@ -88,6 +88,12 @@ Comme en turc, l'azéri est régi par l'**harmonie vocalique** : les voyelles d'
 | Antérieures | e, ə, i, ö, ü | ev-**lər** (maisons), güz**ə**l (beau) |
 | Postérieures | a, ı, o, u | kitab-**lar** (livres), oğ**l**an (garçon) |
 
+```widget:harmonie-vocalique
+stem: ev
+```
+
+L'azéri partage l'harmonie vocalique du turc à quelques nuances près. Le widget applique les règles turques : il rend le mécanisme, pas le détail de chaque suffixe azéri.
+
 ### Règle pratique
 
 Pour choisir un suffixe, regarder la **dernière voyelle de la racine** :

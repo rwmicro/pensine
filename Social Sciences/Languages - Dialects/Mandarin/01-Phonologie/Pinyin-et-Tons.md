@@ -149,13 +149,11 @@ C'est **la** caractéristique fondamentale du mandarin. Une même syllabe change
 
 ### Visualiser les tons
 
+```widget:ton
+syllables: ni3 hao3
 ```
-Ton 1 (¯) :  ─────── (haut, continu)
-Ton 2 (ˊ) :  ╱       (du milieu vers le haut)
-Ton 3 (ˇ) :  ╲╱      (descend puis remonte)
-Ton 4 (ˋ) :  ╲       (du haut vers le bas, sec)
-Neutre   :   ·       (bref, sans hauteur fixe)
-```
+
+Le contour dessine la hauteur dans le temps, ce qu'une description verbale peine à rendre. Surtout, il fait apparaître le **sandhi tonal** : deux troisièmes tons qui se suivent ne se prononcent pas tels quels — le premier devient un deuxième. `nǐ hǎo` s'écrit avec deux tons 3 et se dit `ní hǎo`. La règle vaut aussi pour `bù` et `yī` devant un quatrième ton.
 
 ### L'exemple classique
 
