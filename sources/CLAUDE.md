@@ -163,6 +163,10 @@ bits: 32
 | `racine-arabe` | `root`, `translit` | Famille de mots dérivés d'une racine trilitère par les schèmes |
 | `abugida` | — | Composition devanagari : consonne + signe vocalique → syllabe |
 | `ordre-des-mots` | — | Ordre des constituants SVO / SOV / VSO selon la langue |
+| `depistage` | `prevalence`, `sensibilite`, `specificite` | Valeur prédictive d'un test : pourquoi un bon test dépiste mal une maladie rare |
+| `pharmacocinetique` | `dose`, `intervalle`, `demiVie` | Concentration plasmatique, accumulation, délai jusqu'au plateau |
+| `cadrage` | — | Fait subir l'effet de cadrage au lecteur avant de le nommer |
+| `tcl` | `loi`, `n` | Théorème central limite : distribution des moyennes, erreur-type en 1/√n |
 
 ### Fonctionnement
 

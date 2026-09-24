@@ -41,6 +41,14 @@ date: "2026-02-22"
 - **Rénale** : Filtration glomérulaire, sécrétion tubulaire
 - **Biliaire** : Bile → intestin → fèces
 - **Pulmonaire** : Gaz anesthésiques, alcool
+```widget:pharmacocinetique
+dose: 100
+intervalle: 8
+demiVie: 6
+```
+
+La courbe en dents de scie monte jusqu'à un plateau puis oscille entre un pic et un creux. Deux faits que les définitions seules ne donnent pas : le plateau est atteint après environ **cinq demi-vies quelle que soit la dose** — doubler la dose double la hauteur, pas la vitesse, d'où l'intérêt d'une dose de charge —, et raccourcir l'intervalle resserre l'écart pic-creux sans changer le délai.
+
 - **Demi-vie (t½)** : Temps pour réduire concentration de 50%
 
 ### Pharmacodynamique
