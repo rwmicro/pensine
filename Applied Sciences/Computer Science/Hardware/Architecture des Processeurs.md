@@ -83,6 +83,12 @@ Parades : suspendre le pipeline, ou faire suivre le résultat directement de l'�
 
 **Aléa structurel** — deux instructions réclament la même ressource matérielle au même cycle. Parade : dupliquer les unités.
 
+```widget:pipeline
+forwarding: true
+```
+
+Le programme enchaîne une lecture mémoire puis deux instructions qui en dépendent. Désactiver le renvoi de résultat fait passer l'exécution de 9 à 14 cycles — et la suspension qui subsiste même avec le renvoi est l'**aléa charge-utilisation**, que rien ne peut supprimer : la donnée n'existe qu'après l'étage MEM.
+
 > [!important] Idée clé
 > Les trois aléas ont la même cause profonde : le pipeline suppose que les instructions sont indépendantes et peuvent avancer en parallèle. Dès qu'une dépendance réelle existe — de donnée, de contrôle, de ressource —, cette hypothèse se brise, et il ne reste que deux issues : **attendre, ou deviner**. Toute l'histoire des processeurs modernes est celle du déplacement du curseur vers la seconde.
 

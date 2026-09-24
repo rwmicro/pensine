@@ -63,6 +63,12 @@ graph LR
     C1 --> LOG --> LIN --> NL --> Q --> EXP --> FAC
 ```
 
+```widget:complexite
+exp: 10
+```
+
+Le tableau ci-dessus donne les classes ; le widget donne les nombres. Faire varier *n* montre où l'asymptotique cesse d'être théorique — et, sur les petites entrées, pourquoi les constantes décident encore.
+
 ## Analyse de boucles
 
 ### Boucle simple — O(n)

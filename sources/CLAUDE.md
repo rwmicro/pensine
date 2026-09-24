@@ -138,9 +138,19 @@ bits: 32
 
 | Nom | Paramètres | Ce qu'il montre |
 |---|---|---|
-| `ieee754` | `value`, `bits` (32 ou 64) | Décomposition signe/exposant/mantisse, valeur exacte stockée, écart avec la saisie. Bits cliquables |
-| `complement2` | `value`, `bits` (4 à 32) | Même motif binaire lu comme signé et non signé, recette « inverser puis +1 » pas à pas |
-| `cache-locality` | `size`, `line`, `capacity` | Parcours d'un tableau en lignes ou en colonnes, défauts de cache avec éviction LRU |
+| `ieee754` | `value`, `bits` (32 ou 64) | Décomposition signe/exposant/mantisse, valeur exacte stockée. Bits cliquables |
+| `complement2` | `value`, `bits` (4 à 32) | Même motif lu comme signé et non signé, recette « inverser puis +1 » |
+| `cache-locality` | `size`, `line`, `capacity` | Parcours en lignes ou en colonnes, défauts de cache avec éviction LRU |
+| `subnet` | `value`, `prefix` | Frontière réseau/hôte sur les 32 bits, masque, diffusion, plage utilisable |
+| `hash-avalanche` | `value`, `algo` | Effet d'avalanche : un caractère change, la moitié des bits de l'empreinte bascule |
+| `encodage` | `value` | Un texte en UTF-8, hexadécimal, base64, URL, double URL et entités HTML |
+| `boutisme` | `value`, `bits` (16, 32, 64) | Disposition des octets en petit et grand boutiste, avec les décalages |
+| `regex` | `pattern`, `flags`, `text` | Correspondances surlignées et groupes capturés. `\n` dans `text` = saut de ligne |
+| `seuil` | `threshold` | Seuil de décision, matrice de confusion, précision, rappel, F1 |
+| `complexite` | `exp` (n = 2^exp) | Opérations et temps par classe de complexité, effet des constantes |
+| `table-verite` | `expr`, `compare` | Table de vérité et test d'équivalence. Opérateurs `! & | ^` et parenthèses |
+| `cadre-pile` | — | Cadre de pile pas à pas au fil d'un appel, `rsp` et `rbp` suivis |
+| `pipeline` | `forwarding` | Pipeline à 5 étages, aléa charge-utilisation, effet du renvoi de résultat |
 
 ### Fonctionnement
 
