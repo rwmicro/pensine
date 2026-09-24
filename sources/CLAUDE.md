@@ -151,6 +151,13 @@ bits: 32
 | `table-verite` | `expr`, `compare` | Table de vérité et test d'équivalence. Opérateurs `! & | ^` et parenthèses |
 | `cadre-pile` | — | Cadre de pile pas à pas au fil d'un appel, `rsp` et `rbp` suivis |
 | `pipeline` | `forwarding` | Pipeline à 5 étages, aléa charge-utilisation, effet du renvoi de résultat |
+| `intervalle` | `interval`, `base` | Gamme juste contre tempérament égal, **à l'écoute** : battements, cents |
+| `echiquier` | `fen`, `moves` | Position d'échecs, coups en notation de cases (e2e4), avance pas à pas |
+| `trapeze-vocalique` | `vowels` (`sym:antériorité,aperture,arrondie`) | Espace vocalique continu et traits articulatoires |
+| `punnett` | `parent1`, `parent2`, `dominant` | Croisement mendélien ou lié à l'X, proportions génotypiques |
+| `matrice-2d` | `a`, `b`, `c`, `d` | Matrice 2×2 comme transformation du plan : déterminant, directions propres |
+| `logistique` | `r` | Suite logistique, orbite et diagramme de bifurcation |
+| `theorie-jeux` | `payoffs` (`3,3 \| 0,5 \| 5,0 \| 1,1`), `r1`, `r2`, `c1`, `c2` | Matrice de gains, équilibres de Nash, optimalité de Pareto |
 
 ### Fonctionnement
 
