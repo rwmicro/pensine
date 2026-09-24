@@ -13,6 +13,13 @@ Cette fiche traite du **système verbal** (racines, schèmes, conjugaisons compl
 
 La quasi-totalité des verbes arabes dérivent d'une **racine de trois consonnes** (rarement 4). Les voyelles insérées dans cette racine indiquent le temps, le mode, la personne. Reconnaître les racines permet de déduire le sens de mots inconnus.
 
+```widget:racine-arabe
+root: كتب
+translit: k t b
+```
+
+Changer la racine régénère toute la famille. C'est le mécanisme qui rend l'arabe déductible : rencontrer un mot inconnu bâti sur une racine connue, c'est déjà en deviner le domaine de sens.
+
 Exemples de familles de mots depuis une même racine :
 
 | Racine | Verbe | Nom | Adjectif |

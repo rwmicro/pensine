@@ -67,6 +67,12 @@ Identiques aux voyelles allemandes et proches du français :
 
 **La règle la plus importante du turc.** Les suffixes s'accordent avec la dernière voyelle du radical selon deux axes :
 
+```widget:harmonie-vocalique
+stem: ev
+```
+
+Empiler les suffixes montre ce que les deux tableaux ci-dessous décrivent : **le suffixe n'a pas de voyelle propre, il la reçoit du radical**. Le pluriel est tantôt `-lar`, tantôt `-ler`, et c'est la même règle qui décide. Le locatif ajoute une seconde règle, l'assourdissement du `d` en `t` après consonne sourde : `ev` donne `evde`, mais `kitap` donne `kitapta`.
+
 **Axe antérieur/postérieur :**
 
 | Voyelle du mot | Suffixe utilise |
