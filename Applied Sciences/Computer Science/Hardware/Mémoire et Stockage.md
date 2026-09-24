@@ -87,6 +87,14 @@ gcc -O1 -o bench bench.c                    # -O1 : optimiser sans éliminer les
 perf stat -e cache-misses,cache-references ./bench
 ```
 
+```widget:cache-locality
+size: 12
+line: 8
+capacity: 4
+```
+
+Le tableau est rangé ligne par ligne en mémoire, et chaque case colorée est une case déjà lue ; la teinte plus soutenue marque les lignes encore présentes dans le cache. En parcours par lignes, un défaut survient tous les huit accès — la taille de la ligne de cache. En parcours par colonnes, chaque accès tombe dans une ligne différente et, le cache étant borné, celle dont on aurait besoin au tour suivant a déjà été évincée : **un défaut par accès, soit huit fois plus de trafic mémoire pour le même travail**.
+
 > [!warning] Piège
 > Cette démonstration ne fonctionne pas en Python. Une liste de listes n'est pas un bloc contigu — c'est un tableau de pointeurs vers des objets dispersés dans le tas — et surtout le coût de l'interpréteur domine si largement celui des accès mémoire que l'effet de cache en devient invisible. Il faut un langage compilé opérant sur des données contiguës, ou `numpy`, qui alloue bien un bloc unique. Chercher à illustrer le cache en Python pur enseigne le bon principe avec un outil qui ne peut pas le montrer.
 

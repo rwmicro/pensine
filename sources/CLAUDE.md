@@ -119,6 +119,35 @@ python script_TTS_langues.py "../../Social Sciences/Languages - Dialects/<Langue
 
 Le build learn-nebula clone ce repo et fait `git lfs pull --include=*.mp3`. La feature audio est sur learn-nebula `main` (depuis la PR #26), donc pousser pensine publie directement les audios.
 
+## Widgets interactifs (feature du site learn-nebula)
+
+Certaines notes embarquent des widgets manipulables, rendus sur learn-nebula et laissés en bloc de code lisible dans Obsidian.
+
+### Syntaxe
+
+Un bloc de code dont le langage est `widget:<nom>`, avec un corps en `clé: valeur` :
+
+````
+```widget:ieee754
+value: 0.1
+bits: 32
+```
+````
+
+### Widgets disponibles
+
+| Nom | Paramètres | Ce qu'il montre |
+|---|---|---|
+| `ieee754` | `value`, `bits` (32 ou 64) | Décomposition signe/exposant/mantisse, valeur exacte stockée, écart avec la saisie. Bits cliquables |
+| `complement2` | `value`, `bits` (4 à 32) | Même motif binaire lu comme signé et non signé, recette « inverser puis +1 » pas à pas |
+| `cache-locality` | `size`, `line`, `capacity` | Parcours d'un tableau en lignes ou en colonnes, défauts de cache avec éviction LRU |
+
+### Fonctionnement
+
+`rehypeWidgets` (learn-nebula, `lib/markdown.ts`) transforme le bloc en point de montage, que `public/js/widgets.js` hydrate. Un nom inconnu reste affiché comme un bloc de code — une coquille est donc visible, jamais silencieuse. Sans JavaScript, une ligne de repli remplace le widget.
+
+Ajouter un widget = une entrée dans `WIDGETS` et `WIDGET_FALLBACK` (`lib/markdown.ts`), un constructeur dans `BUILDERS` (`public/js/widgets.js`), et les styles `.w-*` dans `assets/css/main.css`.
+
 ## Fichiers à ne jamais supprimer
 
 - `Social Sciences/Languages - Dialects/Indonésien/.claude/` — configuration Claude

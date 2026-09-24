@@ -118,6 +118,13 @@ Vérification : 11111011 = -128 + 64 + 32 + 16 + 8 + 0 + 2 + 1 = -5 ✓
 
 **Astuce** : le bit de poids fort est le bit de signe. Si MSB=1, le nombre est négatif.
 
+```widget:complement2
+value: -5
+bits: 8
+```
+
+Le bouton « Inverser puis +1 » déroule la recette pas à pas. La ligne *lu comme non signé* et la ligne *lu comme signé* montrent que les bits ne changent jamais : seule change la convention de lecture, et c'est exactement ce que le processeur ignore.
+
 > [!important] Idée clé
 > Le complément à 2 est universel en pratique parce qu'il permet d'additionner des entiers signés et non signés avec le **même circuit matériel** (l'ALU ne fait pas de distinction) — contrairement au signe-magnitude ou au complément à 1, qui nécessitent une logique spéciale pour gérer le signe.
 
@@ -172,6 +179,13 @@ float('nan') == float('nan')  # False ! NaN n'est jamais égal à lui-même
 import math
 math.isclose(0.1 + 0.2, 0.3)  # True (comparaison avec tolérance)
 ```
+
+```widget:ieee754
+value: 0.1
+bits: 32
+```
+
+Le widget ci-dessus décompose un flottant en ses trois champs. Saisir `0.1` montre le point essentiel : la valeur réellement stockée n'est pas 0,1 mais 0,100000001490116119384765625 en simple précision. Cliquer un bit de la mantisse fait apparaître le pas de quantification — l'écart minimal entre deux flottants représentables à cet ordre de grandeur.
 
 > [!warning] Piège fréquent
 > 0.1 et 0.2 n'ont pas de représentation binaire finie exacte (comme 1/3 en décimal) — l'erreur d'arrondi est inhérente au format IEEE 754, pas un bug d'un langage en particulier. Ne jamais comparer des flottants avec `==` ; utiliser une tolérance (`math.isclose`) ou, pour l'argent, un type décimal exact (`Decimal` en Python).
