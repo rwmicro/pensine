@@ -60,6 +60,13 @@ Non routables sur Internet — réservées aux réseaux internes :
 192.168.0.0/16      192.168.0.0 – 192.168.255.255  (65 536 hôtes)
 ```
 
+```widget:subnet
+value: 192.168.10.5
+prefix: 24
+```
+
+Bouger le curseur déplace la frontière entre partie réseau et partie hôte. C'est le point que la notation décimale du masque masque : **un préfixe est une position dans les 32 bits**, pas une soustraction.
+
 ## Notation CIDR
 
 CIDR (Classless Inter-Domain Routing) remplace le système de classes par un préfixe de longueur variable.

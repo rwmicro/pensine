@@ -58,6 +58,12 @@ On server `web-srv1` there are two log files that need to be worked with:
 1. File `/var/log-collector/003/nginx.log`: extract all log lines where URLs start with `/app/user` and that were accessed by browser identity `hacker-bot/1.2`. Write only those lines into `/var/log-collector/003/nginx.log.extracted`
 2. File `/var/log-collector/003/server.log`: replace all lines starting with `container.web`, ending with `24h` and that have the word `Running` anywhere in-between with: `SENSITIVE LINE REMOVED`
 
+```widget:regex
+pattern: ^(\S+) \S+ \S+ \[([^\]]+)\] "(\w+) ([^"]*)" (\d{3})
+text: 10.0.0.4 - - [22/Sep/2026:10:14:02] "GET /admin HTTP/1.1" 403\n10.0.0.9 - - [22/Sep/2026:10:14:05] "POST /login HTTP/1.1" 200\n10.0.0.4 - - [22/Sep/2026:10:14:09] "GET /admin HTTP/1.1" 403
+flags: gm
+```
+
 ## Solution
 
 First we find the files in the specified location

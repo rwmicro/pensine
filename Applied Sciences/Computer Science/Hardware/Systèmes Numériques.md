@@ -233,6 +233,13 @@ Lois de De Morgan :
 ¬(A · B) = ¬A + ¬B    (NAND = OR des compléments)
 ```
 
+```widget:table-verite
+expr: !(A & B)
+compare: !A | !B
+```
+
+Les deux colonnes de droite vérifient une loi de De Morgan ligne à ligne. Remplacer les expressions permet de tester n'importe quelle équivalence jusqu'à quatre variables.
+
 **Simplification** : réduire une expression booléenne pour minimiser le nombre de portes.
 
 ```
