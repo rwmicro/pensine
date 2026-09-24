@@ -13,25 +13,17 @@ La sécurité cloud regroupe les pratiques, outils et architectures pour protég
 ## Modèle de responsabilité partagée
 
 ```mermaid
-graph TD
-    subgraph "Responsabilité du fournisseur"
-        physical[Infrastructure physique\ndatacenters, réseau, hardware]
-        hypervisor[Hyperviseur\nvirtualisation]
-    end
-
-    subgraph "Zone partagée"
-        os["Système d'exploitation\nIaaS = client / PaaS = partagé"]
-        network_ctrl[Contrôles réseau]
-    end
-
-    subgraph "Responsabilité du client"
-        data[Données\net leur chiffrement]
-        iam["Gestion des identités\net accès (IAM)"]
-        app[Applications]
-        config[Configuration\ndes services]
-    end
-
-    physical --> hypervisor --> os --> data
+block-beta
+  columns 1
+  block:f["Responsabilité du fournisseur"]
+    f1["Infrastructure physique"] f2["Hyperviseur"]
+  end
+  block:p["Zone partagée"]
+    p1["Système d'exploitation"] p2["Contrôles réseau"]
+  end
+  block:c["Responsabilité du client"]
+    c1["Données"] c2["IAM"] c3["Applications"] c4["Configuration"]
+  end
 ```
 
 **Règle clé** : le cloud provider sécurise le cloud, le client sécurise ce qu'il y met.

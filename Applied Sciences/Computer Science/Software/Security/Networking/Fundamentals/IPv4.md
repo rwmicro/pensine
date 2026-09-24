@@ -14,20 +14,22 @@ IPv4 (Internet Protocol version 4) est le protocole d'adressage fondamental d'In
 
 Un paquet IP est constitué d'un en-tête (20 à 60 octets) suivi des données.
 
-```
- 0                   1                   2                   3
- 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|Version|  IHL  |    DSCP   |ECN|         Total Length          |
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|         Identification        |Flags|    Fragment Offset       |
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|  Time to Live |    Protocol   |        Header Checksum        |
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|                       Source Address                          |
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|                    Destination Address                        |
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+```mermaid
+packet-beta
+0-3: "Version"
+4-7: "IHL"
+8-13: "DSCP"
+14-15: "ECN"
+16-31: "Longueur totale"
+32-47: "Identification"
+48-50: "Flags"
+51-63: "Décalage de fragment"
+64-71: "TTL"
+72-79: "Protocole"
+80-95: "Somme de contrôle d'en-tête"
+96-127: "Adresse source"
+128-159: "Adresse destination"
+160-191: "Options (présentes si IHL > 5)"
 ```
 
 | Champ | Taille | Description |
