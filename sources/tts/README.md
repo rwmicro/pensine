@@ -53,6 +53,7 @@ python script_TTS_langues.py --list-voices     # lister les voix du compte
   relancer, sinon les anciens clips (mauvaise voix) sont réutilisés.
 
 ## Mise en ligne
-mp3 stockés en git-lfs (`*.mp3` dans `.gitattributes`), à committer. Le build
-learn-nebula fait `git lfs pull --include=*.mp3` (déjà sur `main`), donc pousser
-pensine publie les audios.
+mp3 stockés en git **normal** (plus en git-lfs : le budget LFS du compte était
+épuisé et le build ne recevait que des fichiers pointeurs), à committer. Le build
+learn-nebula les récupère avec le clone, donc pousser pensine publie les audios.
+Ne pas remettre `*.mp3` dans `.gitattributes`.
