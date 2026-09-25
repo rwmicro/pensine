@@ -7,64 +7,43 @@ date: "2026-02-22"
 ---
 # Finales
 
+La finale commence quand il reste peu de pièces et que les rois peuvent sortir sans danger. Le calcul y devient plus concret, et quelques dizaines de positions théoriques décident de beaucoup de parties. Deux notes détaillent les familles les plus fréquentes : [[Finales de Pions]] et [[Finales de Tours]].
 
-### Finales Élémentaires
+## Mats élémentaires
 
-**Roi + Dame vs Roi**
-- Mat forcé, maximum 10 coups
+Ce sont les finales où un camp n'a plus que son roi. Chaque mat forcé se gagne en un nombre de coups limité, à condition de connaître la méthode.
 
-**Roi + Tour vs Roi**
-- Mat forcé, méthode boîte
-
-**Roi + 2 Fous vs Roi**
-- Mat forcé (complexe)
-
-**Roi + Fou + Cavalier vs Roi**
-- Mat forcé (très complexe, rare)
-
-**Roi + 2 Cavaliers vs Roi**
-- Mat impossible (sauf adversaire coopère)
+| Matériel | Résultat | Nombre de coups maximal |
+|---|---|---|
+| Roi et dame contre roi | Mat forcé | 10 |
+| Roi et tour contre roi | Mat forcé, par la méthode de la « boîte » qui rétrécit la zone du roi adverse | 16 |
+| Roi et deux fous contre roi | Mat forcé, dans un coin | 19 |
+| Roi, fou et cavalier contre roi | Mat forcé, mais seulement dans un coin de la couleur du fou ; difficile | 33 |
+| Roi et deux cavaliers contre roi | Pas de mat forcé : le roi qui se défend correctement l'évite toujours | |
 
 > [!warning] Piège
-> Intuitivement, deux pièces mineures de plus que l'adversaire devraient suffire à mater — mais deux cavaliers seuls ne peuvent pas forcer le mat contre un roi qui se défend correctement : ils manquent de la portée à distance (fou, tour, dame) nécessaire pour restreindre le roi adverse sans lui laisser une case de fuite au moment critique. C'est le seul cas de matériel largement supérieur qui ne gagne pas.
+> Intuitivement, deux pièces mineures de plus que l'adversaire devraient suffire à mater. Pourtant deux cavaliers seuls ne forcent pas le mat : au moment critique, ils ne peuvent pas à la fois restreindre le roi adverse et lui retirer sa dernière case de fuite sans lui laisser un pat. C'est l'exemple le plus frappant d'un matériel largement supérieur qui ne gagne pas, mais pas le seul : un fou et un pion de tour ne gagnent pas non plus quand le fou ne contrôle pas la case de promotion.
 
-**Roi + Pion vs Roi**
-- Dépend opposition, case clé, règle carré
-- Zugzwang crucial
+## Finales de pions
 
-### Finales de Pions
+Roi et pion contre roi dépend de trois notions : l'**opposition**, les **cases clés** et la **règle du carré**. Avec plus de pions, s'y ajoutent la percée, la triangulation et le pion passé éloigné. Tout est détaillé dans [[Finales de Pions]].
 
-**Opposition**
-- Rois face à face, nombre impair de cases entre
-- Directe (1 case), lointaine (3, 5...)
-- Qui a opposition a avantage
+## Finales de pièces mineures
 
-**Règle du Carré**
-- Pion passé : si Roi adverse peut entrer dans carré imaginaire, il rattrape pion
-
-**Percée (Breakthrough)**
-- Sacrifier pions pour créer pion passé
-
-### Finales avec Pièces Mineures
-
-**Fou vs Fou (Couleurs Opposées)**
-- Tendance nulle (même +1-2 pions)
+**Fous de couleurs opposées.** Ces finales tendent fortement vers la nulle, même avec un ou deux pions de plus.
 
 > [!important] Idée clé
-> Cette nullité tient à un mécanisme précis, pas à un hasard statistique : le camp faible place son roi et son fou sur les cases de la couleur que son fou contrôle, créant une forteresse que le camp fort ne peut pénétrer — son propre fou (de l'autre couleur) ne peut jamais attaquer ces cases. Plus il y a de pièces sur l'échiquier, moins cet effet joue (les tours peuvent contourner la forteresse).
+> Cette nullité tient à un mécanisme précis, pas à un hasard statistique. Le camp faible bloque les pions adverses sur les cases de la couleur de son fou, où le fou adverse, prisonnier de l'autre couleur, ne peut jamais les attaquer. Plus il reste de pièces sur l'échiquier, moins cet effet joue : les tours peuvent contourner la forteresse.
 
-**Fou vs Cavalier**
-- Fou meilleur si position ouverte, pions des 2 flancs
-- Cavalier meilleur si position fermée, pions bloqués
+**Fou contre cavalier.** Le fou est meilleur dans une position ouverte, avec des pions sur les deux ailes, parce qu'il passe d'un côté à l'autre en un coup. Le cavalier est meilleur dans une position fermée, avec des pions bloqués, surtout s'ils sont sur la couleur du fou.
 
-**Tour + Pion(s) vs Tour**
-- Philidor, Lucena : positions théoriques à connaître
-- Pont de Lucena : technique gain
+## Finales de tours
 
-### Principes Généraux Finales
+Ce sont les plus fréquentes. Les deux positions à connaître sont **Lucena**, où le camp fort gagne en construisant un « pont », et **Philidor**, où le camp faible annule en tenant la 6e rangée puis en donnant des échecs par derrière. Voir [[Finales de Tours]].
 
-1. **Activer Roi** : pièce la plus puissante en finale
-2. **Créer pions passés**
-3. **Tour derrière pions passés** (siens ou adverses)
-4. **2 faiblesses** : attaquer de 2 côtés
+## Principes généraux
 
+1. **Activer le roi** : en finale, c'est une pièce forte, qui doit se centraliser.
+2. **Créer des pions passés**, et les pousser.
+3. **Placer les tours derrière les pions passés**, amis ou adverses.
+4. **Jouer sur deux faiblesses** : une seule faiblesse se défend, deux faiblesses éloignées débordent la défense.
