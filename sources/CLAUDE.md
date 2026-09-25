@@ -119,6 +119,61 @@ python script_TTS_langues.py "../../Social Sciences/Languages - Dialects/<Langue
 
 Le build learn-nebula clone ce repo et fait `git lfs pull --include=*.mp3`. La feature audio est sur learn-nebula `main` (depuis la PR #26), donc pousser pensine publie directement les audios.
 
+## Widgets interactifs (feature du site learn-nebula)
+
+Certaines notes embarquent des widgets manipulables, rendus sur learn-nebula et laissés en bloc de code lisible dans Obsidian.
+
+### Syntaxe
+
+Un bloc de code dont le langage est `widget:<nom>`, avec un corps en `clé: valeur` :
+
+````
+```widget:ieee754
+value: 0.1
+bits: 32
+```
+````
+
+### Widgets disponibles
+
+| Nom | Paramètres | Ce qu'il montre |
+|---|---|---|
+| `ieee754` | `value`, `bits` (32 ou 64) | Décomposition signe/exposant/mantisse, valeur exacte stockée. Bits cliquables |
+| `complement2` | `value`, `bits` (4 à 32) | Même motif lu comme signé et non signé, recette « inverser puis +1 » |
+| `cache-locality` | `size`, `line`, `capacity` | Parcours en lignes ou en colonnes, défauts de cache avec éviction LRU |
+| `subnet` | `value`, `prefix` | Frontière réseau/hôte sur les 32 bits, masque, diffusion, plage utilisable |
+| `hash-avalanche` | `value`, `algo` | Effet d'avalanche : un caractère change, la moitié des bits de l'empreinte bascule |
+| `encodage` | `value` | Un texte en UTF-8, hexadécimal, base64, URL, double URL et entités HTML |
+| `boutisme` | `value`, `bits` (16, 32, 64) | Disposition des octets en petit et grand boutiste, avec les décalages |
+| `regex` | `pattern`, `flags`, `text` | Correspondances surlignées et groupes capturés. `\n` dans `text` = saut de ligne |
+| `seuil` | `threshold` | Seuil de décision, matrice de confusion, précision, rappel, F1 |
+| `complexite` | `exp` (n = 2^exp) | Opérations et temps par classe de complexité, effet des constantes |
+| `table-verite` | `expr`, `compare` | Table de vérité et test d'équivalence. Opérateurs `! & | ^` et parenthèses |
+| `cadre-pile` | — | Cadre de pile pas à pas au fil d'un appel, `rsp` et `rbp` suivis |
+| `pipeline` | `forwarding` | Pipeline à 5 étages, aléa charge-utilisation, effet du renvoi de résultat |
+| `intervalle` | `interval`, `base` | Gamme juste contre tempérament égal, **à l'écoute** : battements, cents |
+| `echiquier` | `fen`, `moves` | Position d'échecs, coups en notation de cases (e2e4), avance pas à pas |
+| `trapeze-vocalique` | `vowels` (`sym:antériorité,aperture,arrondie`) | Espace vocalique continu et traits articulatoires |
+| `punnett` | `parent1`, `parent2`, `dominant` | Croisement mendélien ou lié à l'X, proportions génotypiques |
+| `matrice-2d` | `a`, `b`, `c`, `d` | Matrice 2×2 comme transformation du plan : déterminant, directions propres |
+| `logistique` | `r` | Suite logistique, orbite et diagramme de bifurcation |
+| `theorie-jeux` | `payoffs` (`3,3 \| 0,5 \| 5,0 \| 1,1`), `r1`, `r2`, `c1`, `c2` | Matrice de gains, équilibres de Nash, optimalité de Pareto |
+| `harmonie-vocalique` | `stem` | Harmonie vocalique turque : un suffixe prend sa voyelle du radical |
+| `ton` | `syllables` (`ni3 hao3`) | Contours de hauteur et sandhi tonal du mandarin |
+| `racine-arabe` | `root`, `translit` | Famille de mots dérivés d'une racine trilitère par les schèmes |
+| `abugida` | — | Composition devanagari : consonne + signe vocalique → syllabe |
+| `ordre-des-mots` | — | Ordre des constituants SVO / SOV / VSO selon la langue |
+| `depistage` | `prevalence`, `sensibilite`, `specificite` | Valeur prédictive d'un test : pourquoi un bon test dépiste mal une maladie rare |
+| `pharmacocinetique` | `dose`, `intervalle`, `demiVie` | Concentration plasmatique, accumulation, délai jusqu'au plateau |
+| `cadrage` | — | Fait subir l'effet de cadrage au lecteur avant de le nommer |
+| `tcl` | `loi`, `n` | Théorème central limite : distribution des moyennes, erreur-type en 1/√n |
+
+### Fonctionnement
+
+`rehypeWidgets` (learn-nebula, `lib/markdown.ts`) transforme le bloc en point de montage, que `public/js/widgets.js` hydrate. Un nom inconnu reste affiché comme un bloc de code — une coquille est donc visible, jamais silencieuse. Sans JavaScript, une ligne de repli remplace le widget.
+
+Ajouter un widget = une entrée dans `WIDGETS` et `WIDGET_FALLBACK` (`lib/markdown.ts`), un constructeur dans `BUILDERS` (`public/js/widgets.js`), et les styles `.w-*` dans `assets/css/main.css`.
+
 ## Fichiers à ne jamais supprimer
 
 - `Social Sciences/Languages - Dialects/Indonésien/.claude/` — configuration Claude

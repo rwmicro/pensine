@@ -49,6 +49,13 @@ flowchart TB
 > [!warning] Pourquoi diviser par $n-1$ pour la variance ?
 > La variance empirique $\frac{1}{n}\sum(X_i - \bar{X})^2$ est **biaisée** : elle sous-estime $\sigma^2$ car on utilise $\bar{X}$ au lieu de $\mu$. Diviser par $n-1$ corrige ce biais (correction de Bessel).
 
+```widget:tcl
+loi: exponentielle
+n: 1
+```
+
+La courbe bleue est la gaussienne que prédit le théorème, jamais ajustée aux données. Partir d'une loi franchement asymétrique, ou même d'une Bernoulli qui ne prend que deux valeurs, ne change rien : dès que *n* grandit, la distribution des moyennes s'y conforme. L'écart-type se resserre en 1/√n, ce qui explique pourquoi quadrupler un échantillon ne divise la marge d'erreur que par deux.
+
 ## 2. Théorèmes limites — pourquoi ça marche
 
 ### 2.1 Loi des grands nombres

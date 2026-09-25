@@ -15,8 +15,8 @@ Zero Trust est un modèle de sécurité fondé sur le principe "ne jamais faire 
 ```mermaid
 graph LR
     subgraph "Modèle traditionnel (Castle and Moat)"
-        ext1[Internet\n(non fiable)] -->|Pare-feu| dmz[DMZ]
-        dmz --> internal[Réseau interne\n(tout est fiable)]
+        ext1["Internet\n(non fiable)"] -->|Pare-feu| dmz[DMZ]
+        dmz --> internal["Réseau interne\n(tout est fiable)"]
         internal --> dc[Data Center\nRessources]
     end
 ```
@@ -122,7 +122,7 @@ graph LR
     user[Utilisateur] -->|HTTPS| iap[Identity-Aware Proxy]
     iap -->|Vérif. identité| idp[IdP / SSO]
     iap -->|Vérif. appareil| mdm[MDM / Endpoint Check]
-    iap -->|Si autorisé| app[Application\n(non exposée directement)]
+    iap -->|Si autorisé| app["Application\n(non exposée directement)"]
 ```
 
 **Solutions :**

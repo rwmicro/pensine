@@ -41,6 +41,11 @@ Un accès à la RAM coûte donc cent fois un accès au cache L1, et davantage en
 
 Ce ne sont pas seize registres plus des variantes : ce sont les **mêmes** registres vus par une fenêtre plus étroite. Écrire dans `al` modifie les huit bits de poids faible de `rax` et laisse le reste intact. Les quatre premiers offrent en plus un accès aux bits 8 à 15 sous les noms `ah`, `bh`, `ch`, `dh`, héritage de l'architecture 16 bits.
 
+```widget:boutisme
+value: 0x0A0B0C0D
+bits: 32
+```
+
 > [!warning] Piège
 > Écrire dans un registre 32 bits **remet à zéro les 32 bits hauts** du registre 64 bits correspondant. `mov eax, 1` met `rax` à 1, pas seulement ses 32 bits bas. Cette règle ne vaut que pour les écritures 32 bits : `mov al, 1` et `mov ax, 1` préservent, eux, le reste du registre. C'est l'asymétrie la plus déroutante de l'architecture, et elle explique pourquoi les compilateurs émettent si souvent `xor eax, eax` là où on attendrait `xor rax, rax` — l'encodage est plus court et l'effet identique.
 
@@ -231,6 +236,11 @@ Une fois `rbp` installé, il ne bouge plus de toute la fonction. Il devient le r
 | `[rbp+8]` | Adresse de retour, empilée par `call` |
 | `[rbp]` | Ancien `rbp`, sauvegardé par le prologue |
 | `[rbp-8]`, `[rbp-16]`… | Variables locales de la fonction courante |
+
+```widget:cadre-pile
+```
+
+Avancer pas à pas montre ce que chaque instruction fait à la pile, et où pointent `rsp` et `rbp` à chaque instant.
 
 > [!important] Idée clé
 > **Les décalages positifs remontent vers l'appelant, les négatifs descendent dans la fonction courante.** C'est toute la logique du cadre de pile, et c'est ce qui permet à un désassembleur — ou à un lecteur humain — de reconstituer la signature et les variables locales d'une fonction dont on n'a pas le code source. Une instruction `mov DWORD [rbp-4], edi` se lit sans ambiguïté : le premier argument, entier 32 bits, est recopié dans la première variable locale.

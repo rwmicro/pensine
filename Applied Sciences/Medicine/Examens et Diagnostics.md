@@ -59,6 +59,14 @@ date: "2026-02-22"
 - **Marqueurs Tumoraux** : PSA (prostate), CA 125 (ovaire)
 
 > [!warning] Piège
+```widget:depistage
+prevalence: 0.1
+sensibilite: 99
+specificite: 99
+```
+
+Le carré représente dix mille personnes. Avec une maladie touchant une personne sur mille et un test fiable à 99 % dans les deux sens, **cent dix tests reviennent positifs et dix seulement correspondent à un vrai malade** : neuf positifs sur dix sont faux. Le test n'est pas mauvais, ce sont les bien-portants qui sont écrasants en nombre — un petit pourcentage d'un grand effectif dépasse un grand pourcentage d'un petit. C'est ce qui rend un dépistage de masse si différent d'un test posé sur une population déjà suspecte, et c'est la raison du callout ci-dessous.
+
 > Un marqueur tumoral élevé ne veut pas dire cancer, et un marqueur normal ne l'exclut pas — le PSA augmente aussi avec une simple hypertrophie bénigne de la prostate ou une infection urinaire. Ces tests servent surtout au *suivi* d'un cancer déjà diagnostiqué (efficacité du traitement, rechute), rarement au dépistage seul à cause de leur faible spécificité.
 
 **Microbiologie**

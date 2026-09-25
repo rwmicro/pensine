@@ -65,6 +65,12 @@ Spécificité = TN / (TN + FP)
 ```
 "Parmi les vrais négatifs, combien ai-je correctement identifiés ?" (opposé du rappel)
 
+```widget:seuil
+threshold: 0.5
+```
+
+Le seuil de décision n'est pas donné par le modèle, il se choisit. Le déplacer montre l'arbitrage : **on ne peut pas améliorer la précision et le rappel en même temps**, on déplace le curseur entre les deux selon ce que coûte une erreur de chaque type.
+
 ### Courbe ROC et AUC
 
 La courbe ROC (Receiver Operating Characteristic) illustre le compromis Rappel / Taux de faux positifs en faisant varier le seuil de décision.

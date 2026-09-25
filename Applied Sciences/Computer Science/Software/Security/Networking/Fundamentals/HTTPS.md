@@ -27,13 +27,14 @@ HTTPS **chiffre** la communication pour que même intercepté, le trafic soit il
 ## Comment ça fonctionne
 
 ### Les couches réseau (du plus bas au plus haut)
-```
-Application   →   HTTP (les données : pages web, requêtes)
-                  ↕ chiffré par TLS
-Sécurité      →   TLS / SSL (chiffrement de la session)
-Transport     →   TCP (fiabilité de la transmission)
-Réseau        →   IP (routage des paquets)
-Physique      →   Ethernet / Wi-Fi (transmission physique)
+```mermaid
+block-beta
+  columns 1
+  a["Application — HTTP : pages, requêtes"]
+  b["Sécurité — TLS : chiffrement de la session"]
+  c["Transport — TCP : fiabilité"]
+  d["Réseau — IP : routage"]
+  e["Physique — Ethernet, Wi-Fi"]
 ```
 
 > HTTP circule **à l'intérieur** de TLS — ce n'est pas l'inverse. TLS enveloppe HTTP, pas l'autre.
@@ -43,18 +44,19 @@ Physique      →   Ethernet / Wi-Fi (transmission physique)
 
 Avant d'échanger des données, le navigateur et le serveur négocient une session sécurisée :
 
-```
-Client                          Serveur
-  |                                |
-  |--- ClientHello --------------->|  "Voici les chiffrements que je supporte"
-  |                                |
-  |<-- ServerHello + Certificat ---|  "Voici mon certificat SSL (signé par une CA)"
-  |                                |
-  |--- Vérification certificat     |  Le navigateur vérifie que la CA est de confiance
-  |                                |
-  |--- Échange de clés ----------->|  Génération d'une clé de session partagée
-  |                                |
-  |<====== Trafic chiffré ========>|  La communication est maintenant sécurisée
+```mermaid
+sequenceDiagram
+    participant C as Client
+    participant S as Serveur
+    C->>S: ClientHello — suites de chiffrement supportées
+    S->>C: ServerHello — suite retenue
+    S->>C: Certificat, signé par une autorité
+    Note over C: Vérification de la chaîne de confiance
+    C->>S: Échange de clés
+    Note over C,S: Clé de session partagée établie
+    C->>S: Finished, déjà chiffré
+    S->>C: Finished, déjà chiffré
+    C-->>S: Trafic HTTP chiffré
 ```
 
 

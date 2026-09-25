@@ -79,6 +79,8 @@ class ForceDeCoriolis(Scene):
         Omega = 0.6
         plateau = Circle(radius=3.2, color=GREY_B).move_to(ORIGIN)
         centre = Dot(ORIGIN, color=WHITE)
+        # Déclaré avant le always_redraw ci-dessous, qui le capture
+        t = ValueTracker(0.0)
         # Repères du plateau tournant (deux diamètres)
         rep = always_redraw(lambda: VGroup(
             Line(ORIGIN, 3.2 * np.array([np.cos(Omega * t.get_value()), np.sin(Omega * t.get_value()), 0]), color=GREY),
@@ -86,7 +88,6 @@ class ForceDeCoriolis(Scene):
         ))
         self.add(plateau, rep, centre)
 
-        t = ValueTracker(0.0)
         v = 1.3
         # On dessine la trace dans le référentiel TOURNANT (ce que voit l'observateur)
         trace = VMobject(color=RED)

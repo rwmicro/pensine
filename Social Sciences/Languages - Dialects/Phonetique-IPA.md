@@ -20,22 +20,10 @@ L'**Alphabet Phonétique International** (API, ou IPA en anglais) est un systèm
 
 ## Voyelles — le trapèze vocalique
 
+```widget:trapeze-vocalique
 ```
-            FRONT      CENTRAL      BACK
-        +-----------+----------+-----------+
-HAUT    |  i  y     |    ɨ ʉ   |   ɯ  u    |  fermées
-        |           |          |           |
-        |  ɪ  ʏ     |          |     ʊ     |
-        |           |          |           |
-MOYEN   |  e  ø     |    ə     |   ɤ  o    |  mi-fermées
-        |           |          |           |
-        |  ɛ  œ     |    ɜ     |   ʌ  ɔ    |  mi-ouvertes
-        |           |          |           |
-        |  æ        |    ɐ     |           |
-BAS     |  a  ɶ     |          |   ɑ  ɒ    |  ouvertes
-        +-----------+----------+-----------+
-                                 (lèvres : non arrondies | arrondies)
-```
+
+Le trapèze n'est pas une grille mais une carte de la bouche : l'horizontale suit la position de la langue d'avant en arrière, la verticale son élévation. **L'espace est continu** — les voyelles d'une langue y occupent des positions, et deux langues découpent ce même espace autrement. C'est pourquoi une voyelle étrangère s'entend mal : on la range dans la case la plus proche de sa propre langue.
 
 ### Voyelles essentielles à connaître
 

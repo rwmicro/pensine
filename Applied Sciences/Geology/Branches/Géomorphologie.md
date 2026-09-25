@@ -19,7 +19,7 @@ flowchart LR
     Meteorisation -->|transport| Erosion[Érosion]
     Erosion -->|dépôt| Sediment[Sédimentation]
     Sediment -->|enfouissement<br/>compaction| Roches[Roches sédimentaires]
-    Roches -.->|nouveau soulèvement.-> Relief
+    Roches -.->|nouveau soulèvement| Relief
 ```
 
 Deux forces s'opposent en permanence :

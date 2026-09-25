@@ -2,13 +2,15 @@
 title: "Systèmes Numériques"
 domain: "Applied Sciences"
 subdomain: "Computer Science > Hardware"
-tags: [sciences-appliquées, informatique]
+tags: [sciences-appliquées, informatique, binaire, logique, ieee-754, circuits, booléen]
 date: "2026-02-25"
 ---
 
 # Systèmes Numériques
 
-Les systèmes numériques traitent l'information sous forme de valeurs discrètes. Comprendre comment les nombres sont représentés et comment les circuits les manipulent est fondamental pour l'informatique bas niveau.
+Les systèmes numériques traitent l'information sous forme de valeurs discrètes. Un ordinateur ne connaît que des tensions hautes et basses ; tout le reste — entiers, nombres réels, textes, images — est une convention d'interprétation posée par-dessus.
+
+Cette note décrit ces conventions et les circuits qui les manipulent. C'est le socle de tout ce qui se trouve au-dessus : ce que l'ALU calcule dans [[Architecture des Processeurs]], ce que les registres contiennent dans [[Assembleur x86-64]], ce que décrit le VHDL dans [[Composants et Bus]].
 
 ## Systèmes de numération
 
@@ -116,10 +118,17 @@ Vérification : 11111011 = -128 + 64 + 32 + 16 + 8 + 0 + 2 + 1 = -5 ✓
 
 **Astuce** : le bit de poids fort est le bit de signe. Si MSB=1, le nombre est négatif.
 
+```widget:complement2
+value: -5
+bits: 8
+```
+
+Le bouton « Inverser puis +1 » déroule la recette pas à pas. La ligne *lu comme non signé* et la ligne *lu comme signé* montrent que les bits ne changent jamais : seule change la convention de lecture, et c'est exactement ce que le processeur ignore.
+
 > [!important] Idée clé
 > Le complément à 2 est universel en pratique parce qu'il permet d'additionner des entiers signés et non signés avec le **même circuit matériel** (l'ALU ne fait pas de distinction) — contrairement au signe-magnitude ou au complément à 1, qui nécessitent une logique spéciale pour gérer le signe.
 
-**Overflow** : dépasser la plage représentable. Sur 8 bits signés, 127 + 1 = -128 (overflow). En C/C++, l'overflow d'entiers signés est un comportement indéfini.
+**Débordement** : dépasser la plage représentable. Sur 8 bits signés, 127 + 1 donne -128. En C et C++, le débordement d'un entier signé est un *comportement indéfini* — le compilateur a le droit de supposer qu'il n'arrive jamais et d'optimiser en conséquence, ce qui fait disparaître des tests de sécurité écrits pour le détecter. C'est une classe de vulnérabilité à part entière, traitée dans [[Binary Exploitation]].
 
 ```python
 import ctypes
@@ -171,6 +180,13 @@ import math
 math.isclose(0.1 + 0.2, 0.3)  # True (comparaison avec tolérance)
 ```
 
+```widget:ieee754
+value: 0.1
+bits: 32
+```
+
+Le widget ci-dessus décompose un flottant en ses trois champs. Saisir `0.1` montre le point essentiel : la valeur réellement stockée n'est pas 0,1 mais 0,100000001490116119384765625 en simple précision. Cliquer un bit de la mantisse fait apparaître le pas de quantification — l'écart minimal entre deux flottants représentables à cet ordre de grandeur.
+
 > [!warning] Piège fréquent
 > 0.1 et 0.2 n'ont pas de représentation binaire finie exacte (comme 1/3 en décimal) — l'erreur d'arrondi est inhérente au format IEEE 754, pas un bug d'un langage en particulier. Ne jamais comparer des flottants avec `==` ; utiliser une tolérance (`math.isclose`) ou, pour l'argent, un type décimal exact (`Decimal` en Python).
 
@@ -197,7 +213,7 @@ A  B  AND  OR  XOR  NAND  NOR
 1  1   1    1   0     0    0
 ```
 
-**NAND et NOR sont universels** : avec seulement des portes NAND (ou seulement NOR), on peut construire n'importe quel circuit. C'est important pour la fabrication de circuits intégrés.
+**NAND et NOR sont universels** : la porte NAND seule, répétée, suffit à construire n'importe quel circuit — y compris un processeur complet. Cette propriété n'est pas une curiosité théorique : fabriquer un circuit intégré revient à répéter un motif identique des milliards de fois, et n'avoir qu'un seul motif à maîtriser simplifie radicalement le procédé.
 
 ## Algèbre de Boole
 
@@ -216,6 +232,13 @@ Lois de De Morgan :
 ¬(A + B) = ¬A · ¬B    (NOR = AND des compléments)
 ¬(A · B) = ¬A + ¬B    (NAND = OR des compléments)
 ```
+
+```widget:table-verite
+expr: !(A & B)
+compare: !A | !B
+```
+
+Les deux colonnes de droite vérifient une loi de De Morgan ligne à ligne. Remplacer les expressions permet de tester n'importe quelle équivalence jusqu'à quatre variables.
 
 **Simplification** : réduire une expression booléenne pour minimiser le nombre de portes.
 
@@ -256,7 +279,17 @@ Sorties : Somme = A ⊕ B ⊕ Cin
           Cout = A·B + Cin·(A⊕B)
 ```
 
-On chaîne 8 additionneurs complets pour additionner deux octets.
+```mermaid
+flowchart LR
+    A(["A"]) --> X["XOR"]
+    B(["B"]) --> X
+    A --> E["AND"]
+    B --> E
+    X --> S(["Somme"])
+    E --> C(["Retenue"])
+```
+
+On chaîne 8 additionneurs complets pour additionner deux octets. La retenue devant se propager d'un étage au suivant, le temps de calcul croît avec le nombre de bits — c'est cette propagation qui fixe, en dernier ressort, la fréquence maximale d'un processeur.
 
 ### Multiplexeur (MUX)
 
@@ -288,7 +321,7 @@ Capture la valeur de l'entrée D à chaque front d'horloge. Élimine l'état ind
 
 ### Registre
 
-N bascules D montées en parallèle pour mémoriser N bits simultanément. Un registre 64 bits = 64 bascules D.
+N bascules D montées en parallèle pour mémoriser N bits simultanément. Un registre 64 bits, c'est 64 bascules D — les mêmes `rax` et `rsp` manipulés dans [[Assembleur x86-64]] sont, physiquement, des rangées de bascules.
 
 ### Compteur
 
@@ -327,3 +360,13 @@ def toggle_bit(n, i): return n ^ (1 << i)
 # Compter les bits à 1 (popcount)
 bin(42).count('1')   # 3
 ```
+
+## À lire ensuite
+
+- [[Architecture des Processeurs]] — ce que l'ALU fait de ces représentations
+- [[Assembleur x86-64]] — registres, opérations bit à bit et drapeaux vus du programmeur
+- [[Composants et Bus]] — ASIC, FPGA et description matérielle en VHDL
+- [[Systèmes Embarqués]] — manipulation directe de bits sur registres matériels
+- [[Mémoire et Stockage]] — boutisme et disposition des octets en mémoire
+- [[Encodages]] — des octets aux caractères : ASCII, UTF-8, Base64
+- [[Binary Exploitation]] — débordements d'entiers comme classe de vulnérabilité
