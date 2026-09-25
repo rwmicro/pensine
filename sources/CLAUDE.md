@@ -35,7 +35,7 @@ date: "YYYY-MM-DD"
 - **Pas d'emojis** dans le contenu
 - Tables markdown pour les comparaisons
 - Blocs de code pour les exemples
-- Diagrammes mermaid pour les sujets visuels (cycles, flux, hiérarchies, proportions)
+- Diagrammes mermaid pour les sujets visuels — voir « Diagrammes et animations » pour le choix du type
 - **Pas de section "Voir aussi"** — ces sections ont été supprimées en masse
 
 ## Structure du vault
@@ -118,6 +118,76 @@ python script_TTS_langues.py "../../Social Sciences/Languages - Dialects/<Langue
 ### Mise en ligne
 
 Le build learn-nebula clone ce repo et fait `git lfs pull --include=*.mp3`. La feature audio est sur learn-nebula `main` (depuis la PR #26), donc pousser pensine publie directement les audios.
+
+## Diagrammes et animations
+
+### Choisir le type de diagramme
+
+Un `flowchart` est le réflexe par défaut, et c'est un défaut : sur les 297 diagrammes du vault, 282 en sont encore. Un flux ne convient qu'à ce qui *s'enchaîne*. Le reste a son type.
+
+| Contenu | Type |
+|---|---|
+| Étapes, causalité, hiérarchie | `flowchart` |
+| Échange entre deux parties, protocole | `sequenceDiagram` |
+| Automate, cycle de vie, transitions | `stateDiagram-v2` |
+| Format binaire, en-tête de protocole | `packet-beta` |
+| Couches, plan mémoire, blocs alignés | `block-beta` |
+| Chronologie datée | `timeline` |
+| Carte d'un sujet, arborescence libre | `mindmap` |
+| Proportions d'un tout | `pie` |
+| Positionnement sur deux axes | `quadrantChart` |
+
+`graph` est l'ancien nom de `flowchart` — les deux coexistent dans le vault, `flowchart` pour les nouveaux.
+
+Un schéma fait à la main en caractères semi-graphiques est presque toujours un de ces types qui s'ignore.
+
+### Pièges de syntaxe
+
+Quatre causes ont cassé 14 diagrammes, qui s'affichaient en boîte d'erreur :
+
+- **Libellés non quotés.** Parenthèses, apostrophes et crochets cassent le parseur. Règle simple : tout libellé qui n'est pas purement lettres, chiffres et espaces se met entre guillemets — `A["Cache L1 (32 Ko)"]`.
+- **Saut de ligne.** `\n` dans un libellé quoté, pas `<br>`.
+- **Mots réservés en identifiant de nœud.** Un nœud nommé `graph` suffit à tout faire échouer. Préfixer en cas de doute.
+- **Arêtes.** `-.->|label|` prend sa barre fermante, et on ne mélange pas deux syntaxes d'arête (`--` avec `-.->`) sur la même ligne.
+
+Le pré-rendu mermaid de learn-nebula est un gate de build : un diagramme qui ne parse pas fait échouer la CI du site. Une coquille ne passe donc pas inaperçue, mais elle bloque la mise en ligne.
+
+### Animations manim
+
+Un bloc ` ```manim ` porte une scène **manimgl** (`from manimlib import *`), précédée en commentaire de la commande qui la rend.
+
+````
+```manim
+# Rendu : manimgl charge_rc.py ChargeDechargeRC
+from manimlib import *
+
+
+class ChargeDechargeRC(Scene):
+    def construct(self):
+        ...
+```
+````
+
+**Le rendu est retrouvé par empreinte du code.** `rehypeManim` calcule le SHA-256 de la source détourée, garde les 16 premiers caractères hexadécimaux et cherche `_manim/<empreinte>.mp4` (aussi `.gif`, `.png`, `.webm`). Sans fichier correspondant, le bloc retombe en source repliée « (no cached render) ».
+
+Conséquence à garder en tête : **modifier un seul caractère de la scène change l'empreinte**. L'ancienne vidéo devient orpheline et la note perd sa figure en silence. Toute retouche impose donc de regénérer, puis de supprimer le `.mp4` devenu orphelin.
+
+État actuel : 39 animations, 39 rendus, 21 Mo, aucun orphelin.
+
+#### Regénérer
+
+```
+xvfb-run -a manimgl scene.py NomDeLaScene -w --video_dir <dossier>
+```
+
+`xvfb-run` n'est pas optionnel : manimgl ouvre un contexte OpenGL à l'import et échoue sans serveur X, même en écriture de fichier.
+
+Quatre préalables, à refaire sur toute machine neuve :
+
+- en-têtes de développement **pango** et **cairo**, sans quoi `manimpango` ne se construit pas ;
+- collections TeX Live `dsfont`, `tipa`, `calligra`, `wasysym`, `pifont`, `ctex` ;
+- `mktexlsr` après toute installation TeX — un paquet présent sur le disque reste invisible à `kpsewhich` tant que l'index kpathsea n'est pas régénéré ;
+- **`\usepackage[safe]{tipa}`** dans `manimlib/tex_templates.yml` (les deux occurrences). Sans l'option `safe`, tipa détourne `\|`, `\;` et `\!`, ce qui fait échouer toute scène qui s'en sert — six d'un coup ici.
 
 ## Widgets interactifs (feature du site learn-nebula)
 
