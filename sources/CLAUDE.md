@@ -83,7 +83,7 @@ Sur learn-nebula, `rehypeVaultAssets` (lib/markdown.ts) transforme toute image m
 ### Où vivent les clips
 
 - Un sous-dossier `audio/` à côté de chaque note (chemin note-relative).
-- Stockés en git-lfs (`*.mp3` dans `.gitattributes`) — à committer (le site clone ce repo dans `content/posts/`).
+- Stockés en git normal (**pas** en git-lfs : budget LFS épuisé en sept. 2026) — à committer (le site clone ce repo dans `content/posts/`). Seuls les `.apkg` restent en LFS.
 - `.tts_audio_cache/` est le cache maître local, gitignoré (ne pas committer).
 
 ### Codes de langue
@@ -117,7 +117,7 @@ python script_TTS_langues.py "../../Social Sciences/Languages - Dialects/<Langue
 
 ### Mise en ligne
 
-Le build learn-nebula clone ce repo et fait `git lfs pull --include=*.mp3`. La feature audio est sur learn-nebula `main` (depuis la PR #26), donc pousser pensine publie directement les audios.
+Le build learn-nebula clone ce repo (les mp3 arrivent avec le clone, sans LFS). La feature audio est sur learn-nebula `main` (depuis la PR #26), donc pousser pensine publie directement les audios.
 
 ## Diagrammes et animations
 
