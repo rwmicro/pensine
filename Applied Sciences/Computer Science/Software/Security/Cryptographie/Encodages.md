@@ -58,6 +58,12 @@ AC ED 00 05   → Java serialisé
 4D 5A         → PE (exécutable Windows, MZ)
 ```
 
+```widget:encodage
+value: Bonjour <monde>
+```
+
+Le même texte sous tous ses habillages. Comparer les lignes *URL* et *Double URL* : c'est exactement le décalage qu'exploite une attaque par double encodage, quand un filtre décode une fois et la couche suivante une seconde.
+
 ## Base64
 
 Encode des données binaires en ASCII printable en utilisant 64 caractères (A-Z, a-z, 0-9, +, /). Chaque groupe de 3 octets → 4 caractères. Le padding `=` complète si nécessaire.

@@ -15,11 +15,11 @@ La continuité d'activité (BC) et la reprise après sinistre (DR) sont les deux
 ```mermaid
 graph LR
     incident[Incident\nmajeur]
-    incident --> rpo[RPO\nDonnées perdues\n(combien de temps\nd'historique ?)"]
-    incident --> rto[RTO\nTemps d'indisponibilité\n(combien de temps\npour reprendre ?)"]
+    incident --> rpo["RPO\nDonnées perdues\n(combien de temps\nd'historique ?)"]
+    incident --> rto["RTO\nTemps d'indisponibilité\n(combien de temps\npour reprendre ?)"]
 
     rpo --> backup[Politique de\nsauvegarde]
-    rto --> dr[Plan de\nReprise d'Activité]
+    rto --> dr["Plan de\nReprise d'Activité"]
 ```
 
 **RPO — Recovery Point Objective**
@@ -38,8 +38,8 @@ Temps maximal acceptable pour remettre le système en service.
 ```mermaid
 graph LR
     subgraph "Timeline d'un incident"
-        last_backup[Dernière\nsauvegarde] -->|RPO\n(données perdues)| incident2[Incident]
-        incident2 -->|RTO\n(temps de reprise)| restored[Système\nrestaré]
+        last_backup[Dernière\nsauvegarde] -->|"RPO\n(données perdues)"| incident2[Incident]
+        incident2 -->|"RTO\n(temps de reprise)"| restored[Système\nrestaré]
     end
 ```
 

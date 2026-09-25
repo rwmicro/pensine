@@ -172,6 +172,12 @@ h = hashlib.pbkdf2_hmac("sha256", b"mot_de_passe", sel, 600000)
 
 ### Hachage de mots de passe
 
+```widget:hash-avalanche
+value: bonjour
+```
+
+Changer un seul caractère fait basculer environ la moitié des bits de l'empreinte. C'est l'**effet d'avalanche**, et c'est ce qui rend impossible de deviner une entrée proche à partir d'une empreinte proche — il n'existe pas d'empreintes proches.
+
 Le hachage de mots de passe nécessite des fonctions **intentionnellement lentes** avec sel :
 
 | Algorithme | Paramètres | Recommandation |

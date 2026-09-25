@@ -32,6 +32,11 @@ Tableau de référence pour comparer les langues du vault selon leurs grandes ca
 
 ## Ordre des mots (de la phrase principale)
 
+```widget:ordre-des-mots
+```
+
+La même phrase, les mêmes trois constituants, une place différente. Ce n'est pas le sens qui change mais l'ordre — et le sujet précède presque toujours l'objet, quelle que soit la langue : c'est la position du verbe qui distingue les types.
+
 ### SVO (Sujet–Verbe–Objet)
 
 Le plus commun mondialement. La majorité des langues du vault.

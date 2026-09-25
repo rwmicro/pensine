@@ -101,6 +101,14 @@ Gregor Mendel (1822-1884), moine augustin, croise des pois dans son jardin de Br
 - Génotype AB → phénotype AB (les deux s'expriment)
 - Génotype OO → phénotype O
 
+```widget:punnett
+parent1: Aa
+parent2: Aa
+dominant: A
+```
+
+Le croisement de deux hétérozygotes donne la proportion 1 : 2 : 1 des génotypes, et 3 : 1 des phénotypes si A domine. Modifier les génotypes parentaux suffit à retrouver chacune des lois de Mendel.
+
 ## Mutations — quand le code change
 
 Modification de la séquence d'ADN. Peut être neutre, bénéfique ou pathogène.

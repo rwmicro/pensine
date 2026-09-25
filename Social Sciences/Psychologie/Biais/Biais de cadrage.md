@@ -20,6 +20,11 @@ La **formulation** d'une question, d'un choix ou d'une information influence not
 
 Ce biais viole le principe de **rationalité invariance** qui postule qu'un choix rationnel devrait être indépendant de sa formulation.
 
+```widget:cadrage
+```
+
+Répondre aux deux questions avant de lire la section suivante, qui en donne la clé. Elles décrivent exactement les mêmes issues.
+
 ## Expérience Classique: Kahneman & Tversky (1981)
 
 ### Problème de la Maladie Asiatique

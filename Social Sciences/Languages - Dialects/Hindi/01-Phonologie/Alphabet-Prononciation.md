@@ -32,6 +32,11 @@ La distinction entre voyelles courtes et longues est phonémique : elle change l
 
 ![](sources/images/vowels.gif)
 
+```widget:abugida
+```
+
+Une consonne devanagari porte déjà un /a/ ; un signe vocalique le remplace. Les tableaux listent les formes obtenues, jamais l'assemblage — or c'est l'assemblage qui est la règle. À noter que la mātrā de `i` s'écrit **à gauche** de la consonne alors qu'elle se prononce après, et que le virāma supprime purement la voyelle.
+
 ## Consonnes (Vyanjan)
 
 Le hindi compte **33 consonnes** de base, organisées en groupes selon le point d'articulation — une classification héritée de la grammaire sanskrite, remarquablement systématique.

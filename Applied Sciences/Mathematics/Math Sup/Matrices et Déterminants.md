@@ -247,6 +247,15 @@ $$\det\begin{pmatrix} a_{1,1} & * & \cdots & * \\ 0 & a_{2,2} & \cdots & * \\ \v
 Le déterminant d'une matrice triangulaire (supérieure ou inférieure) est le **produit de ses coefficients diagonaux**.
 
 
+```widget:matrice-2d
+a: 1
+b: 1
+c: 0
+d: 2
+```
+
+Une matrice n'est pas un tableau de nombres, c'est une transformation du plan. Le **déterminant est le facteur par lequel l'aire est multipliée** : le voir passer par zéro, c'est voir le plan s'écraser sur une droite, donc comprendre pourquoi un déterminant nul signifie non inversible. Les tirets orange marquent les directions propres, celles que la transformation laisse sur leur propre droite.
+
 ## 8. Développement selon une ligne ou colonne
 
 ### 8.1 Cofacteurs

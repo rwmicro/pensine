@@ -45,6 +45,14 @@ L'hémophilie A et B sont des maladies **récessives liées au chromosome X**.
 > Ne pas confondre avec l'avantage hétérozygote (cf. résistance au paludisme dans [[Évolution Humaine]]) : ici, être porteuse hétérozygote n'apporte aucun bénéfice adaptatif, c'est une pure question d'arithmétique chromosomique — la femme a un second X qui compense, l'homme n'en a pas. Le gène n'est maintenu dans la population par aucune pression sélective favorable, contrairement à l'hémoglobine S.
 
 
+```widget:punnett
+parent1: XHXh
+parent2: XHY
+dominant: XH
+```
+
+Une mère conductrice et un père sain : la moitié des filles sont conductrices, la moitié des garçons atteints. C'est la signature d'une transmission liée à l'X.
+
 ## Symptômes selon la sévérité
 
 | Sévérité | Taux facteur | Symptômes |

@@ -36,6 +36,13 @@ L'opposition est le concept le plus important des finales de pions. Deux rois so
 > [!tip] Méthode
 > Pour savoir vite qui a l'opposition sans compter les cases une à une : si le nombre de cases entre les deux rois est impair, celui qui n'est pas au trait l'a. Astuce de calcul rapide : comptez la parité de la somme des colonnes + rangées des deux rois — si elle est paire, les rois sont en opposition (rectiligne ou diagonale).
 
+```widget:echiquier
+fen: 8/8/8/4k3/8/4K3/4P3/8 w - - 0 1
+moves: e3d4 e5d6 e2e4 d6e6 d4e3
+```
+
+L'opposition ne se comprend pas en notation. Avancer coup par coup montre ce que la règle recouvre : le roi contraint de céder le passage est celui qui a le trait.
+
 ### Le zugzwang
 
 Le **zugzwang** (de l'allemand "contrainte de jouer") est une situation où tout coup légal détériore la position du joueur au trait. Si on pouvait passer son tour, on le ferait — mais les règles l'interdisent.

@@ -126,12 +126,16 @@ hᵥˡ = σ( W · CONCAT(hᵥˡ⁻¹, AGG({hᵤˡ⁻¹ : u ∈ N(v)})) )
 ## Tâches sur les graphes
 
 ```mermaid
-graph TD
-    taches[Tâches GNN]
-    taches --> node[Classification de nœuds\nex: type d'utilisateur\ndans un réseau social]
-    taches --> link[Prédiction de lien\nex: recommandation\nconnexion future]
-    taches --> graph[Classification de graphes\nex: molécule toxique\nou non]
-    taches --> gen[Génération de graphes\nex: molécule optimale]
+mindmap
+  root((Tâches GNN))
+    Classification de nœuds
+      type d'utilisateur dans un réseau social
+    Prédiction de lien
+      recommandation d'une connexion future
+    Classification de graphes
+      molécule toxique ou non
+    Génération de graphes
+      molécule optimale
 ```
 
 **Readout (graph-level prediction)** : pour obtenir une représentation du graphe entier, agréger toutes les représentations de nœuds :
