@@ -56,7 +56,7 @@ Rappelé au pouvoir en partie par les partisans de l'Algérie française, De Gau
 
 ## La politique de grandeur
 
-Sur la scène internationale, De Gaulle mène une politique d'indépendance nationale vis-à-vis des deux blocs de la Guerre froide. La France se dote de l'arme nucléaire (premier essai en 1960) pour garantir son autonomie stratégique — la « force de frappe ». En 1966, De Gaulle retire la France du commandement militaire intégré de l'OTAN, tout en restant dans l'Alliance atlantique, pour affirmer une capacité de décision indépendante des États-Unis. Il cultive aussi des relations avec l'URSS et la Chine populaire, qu'il reconnaît officiellement dès 1964, et prend des positions remarquées comme son soutien affiché à l'indépendance du Québec en 1967 (« Vive le Québec libre ! »).
+Sur la scène internationale, De Gaulle mène une politique d'indépendance nationale vis-à-vis des deux blocs de la [[Guerre froide]]. La France se dote de l'arme nucléaire (premier essai en 1960) pour garantir son autonomie stratégique — la « force de frappe ». En 1966, De Gaulle retire la France du commandement militaire intégré de l'OTAN, tout en restant dans l'Alliance atlantique, pour affirmer une capacité de décision indépendante des États-Unis. Il cultive aussi des relations avec l'URSS et la Chine populaire, qu'il reconnaît officiellement dès 1964, et prend des positions remarquées comme son soutien affiché à l'indépendance du Québec en 1967 (« Vive le Québec libre ! »).
 
 ## Mai 68 et la fin du gaullisme
 

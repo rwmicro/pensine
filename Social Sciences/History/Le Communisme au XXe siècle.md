@@ -8,7 +8,7 @@ date: "2026-05-17"
 
 # Le Communisme au XXe siècle
 
-Le **communisme** comme régime politique et historique se distingue du **marxisme** comme corpus théorique : il en est une réalisation partielle, contestée, et déformée. De 1917 à 1991, le communisme a gouverné jusqu'à un tiers de la population mondiale, structuré la Guerre froide, et laissé un bilan qui reste l'un des plus discutés du siècle.
+Le **communisme** comme régime politique et historique se distingue du **marxisme** comme corpus théorique : il en est une réalisation partielle, contestée, et déformée. De 1917 à 1991, le communisme a gouverné jusqu'à un tiers de la population mondiale, structuré la [[Guerre froide]], et laissé un bilan qui reste l'un des plus discutés du siècle.
 
 
 ## Chronologie
@@ -239,7 +239,7 @@ Le chiffre global proposé par Courtois — **85 à 100 millions de morts** — 
 - alphabétisation massive
 - système de santé public universel
 - pleine emploi (formel)
-- accès aux études, mobilité sociale dans la première génération
+- accès aux études, [[Mobilité Sociale|mobilité sociale]] dans la première génération
 - égalité de genre formelle (mais souvent symbolique)
 
 À leur passif :
@@ -266,7 +266,7 @@ L'arrivée au pouvoir de partis nostalgiques (Russie unie en Russie, alliances n
 - **École totalitaire** (Arendt, Friedrich, Brzezinski, Furet) — communisme et nazisme comme variantes d'un même type, le **totalitarisme** ; controverse autour de la *thèse de l'unicité* (Nolte) ou de la *symétrie* (Furet, *Le Passé d'une illusion*, 1995)
 - **École révisionniste** (Fitzpatrick, Getty) — refuser le modèle « totalitaire » qui fait du peuple un pur objet ; étudier la société soviétique « par en bas »
 - **Furet vs. Hobsbawm** — débat français/britannique sur le bilan du XXᵉ siècle : « court XXᵉ siècle » d'âge des extrêmes (Hobsbawm) vs. « siècle des illusions » (Furet)
-- **Livre noir du communisme** (Courtois, 1997) — succès international mais critiques méthodologiques (inflation des chiffres, comparaison contestée avec la Shoah)
+- **Livre noir du communisme** (Courtois, 1997) — succès international mais critiques méthodologiques (inflation des chiffres, comparaison contestée avec la [[Shoah]])
 - **Historiographie chinoise** — accès difficile aux archives, débats sur le bilan du maoïsme largement censurés en RPC
 
 La question de fond reste : *Le communisme historique est-il une dévoiement du projet marxien (« le socialisme n'a jamais été essayé ») ou son aboutissement logique ?* Les réponses divisent encore aujourd'hui historiens, philosophes et acteurs politiques.

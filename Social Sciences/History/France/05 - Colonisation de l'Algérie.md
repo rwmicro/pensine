@@ -203,7 +203,7 @@ La mémoire de cette violence coloniale — enfumades, massacres, humiliations q
 ## Citations Historiques
 
 > "Je crois […] que le droit de la guerre nous autorise à ravager le pays et que nous devons le faire, soit en détruisant les moissons à l'époque de la récolte, soit dans tous les temps en faisant de ces incursions rapides qu'on nomme razzias et qui ont pour objet de s'emparer des hommes ou des troupeaux."
-> — Alexis de Tocqueville, *Travail sur l'Algérie* (1841)
+> — [[Alexis de Tocqueville]], *Travail sur l'Algérie* (1841)
 
 > "Tous les bons militaires que j'ai l'honneur de commander sont prévenus par moi-même que, s'il leur arrive de m'amener un Arabe vivant, ils recevront une volée de coups de plat de sabre."
 > — Capitaine de Montagnac, *Lettres d'un soldat* (1843)
