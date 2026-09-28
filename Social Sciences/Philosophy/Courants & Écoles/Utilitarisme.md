@@ -21,6 +21,28 @@ L'**utilitarisme** est une théorie morale **conséquentialiste** selon laquelle
 - **Agrégation** : Le bonheur de chacun compte également (égalitarisme moral)
 - **Maximisation** : Vise le **maximum** de bonheur total
 
+## Chronologie
+
+```mermaid
+timeline
+    title L'utilitarisme
+    section Précurseurs
+        IVe-IIIe s. av. J.-C. : Épicure, hédonisme
+        1725 : Hutcheson, le plus grand bonheur du plus grand nombre
+        1758 : Helvétius, De l'esprit
+        1764 : Beccaria, Des délits et des peines
+    section Utilitarisme classique
+        1789 : Bentham, Introduction aux principes de morale
+        1859 : Mill, De la liberté
+        1863 : Mill, L'Utilitarisme
+        1869 : Mill, L'Assujettissement des femmes
+    section Débats contemporains
+        1973 : Smart et Williams, Utilitarianism For and Against
+        1975 : Singer, La Libération animale
+        1984 : Parfit, Reasons and Persons
+        2015 : MacAskill, Doing Good Better
+```
+
 ## Origines et Précurseurs
 
 ### Antiquité : Épicure (341-270 av. J.-C.)

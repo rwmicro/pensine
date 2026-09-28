@@ -19,6 +19,27 @@ Le **rationalisme** (du latin *ratio* = raison) est une doctrine philosophique s
 - **Rationalisme** : Certaines connaissances sont **innées** ou dérivées de la **raison pure**
 - **Empirisme** : Toute connaissance provient de l'**expérience sensorielle**
 
+## Chronologie
+
+```mermaid
+timeline
+    title Le rationalisme
+    section Antiquité
+        VIe s. av. J.-C. : Pythagore, tout est nombre
+        IVe s. av. J.-C. : Platon, théorie des Idées et réminiscence
+    section Rationalisme classique
+        1623 : Galilée, Il Saggiatore
+        1637 : Descartes, Discours de la méthode
+        1641 : Descartes, Méditations métaphysiques
+        1677 : Spinoza, Éthique, parution posthume
+        1704 : Leibniz, Nouveaux Essais, publiés en 1765
+        1710 : Leibniz, Théodicée
+        1714 : Leibniz, Monadologie
+    section Héritages
+        1781 : Kant, Critique de la raison pure
+        1957 : Chomsky, Structures syntaxiques
+```
+
 ## Origines Historiques
 
 ### Antiquité : Platon et Pythagore

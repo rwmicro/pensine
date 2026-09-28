@@ -18,7 +18,22 @@ Ce vault parallèle est conçu pour la culture générale et la réflexion perso
 - `4. Frises Chronologiques/` — Vue d'ensemble historique. Pour situer un philosophe dans son époque.
 - `5. Réflexions Personnelles/` — Espace de travail. Pour écrire, pas pour lire.
 
----
+## Chronologie
+
+```mermaid
+timeline
+    title Grandes périodes de la philosophie
+    section Antiquité
+        -600 à -450 : Présocratiques
+        -450 à -322 : Âge d'or grec
+        -322 à +200 : Philosophie hellénistique
+    section Moyen Âge
+        Ve-XVe s. : Philosophie médiévale
+    section Modernité
+        XVe-XVIIIe s. : Rationalisme, empirisme, Lumières
+    section Époque contemporaine
+        XIXe-XXIe s. : Ruptures, phénoménologie, analytique
+```
 
 ## Parcours de lecture selon l'objectif
 
@@ -46,8 +61,6 @@ Ce vault parallèle est conçu pour la culture générale et la réflexion perso
 ### Découvrir d'autres traditions (1h30)
 1. `3. Philosophie et Autres Domaines/Philosophies non-occidentales.md`
 2. `4. Frises Chronologiques/Frise de la Philosophie Occidentale.md` (section Antiquité pour comparaison)
-
----
 
 ## Tous les fichiers
 
@@ -78,8 +91,6 @@ Ce vault parallèle est conçu pour la culture générale et la réflexion perso
 
 ### 5. Réflexions Personnelles
 - [[5. Réflexions Personnelles/Pistes de Réflexion Personnelle]]
-
----
 
 ## Correspondances avec le vault principal
 

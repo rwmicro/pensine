@@ -20,6 +20,27 @@ L'**empirisme** (du grec *empeiria* = expérience) est une doctrine philosophiqu
 - **Rationalisme** : Certaines connaissances sont innées ou dérivées de la raison pure
 - **Empirisme** : Aucune connaissance innée, tout vient de l'expérience
 
+## Chronologie
+
+```mermaid
+timeline
+    title L'empirisme
+    section Antiquité
+        IVe s. av. J.-C. : Aristote, la connaissance part des sens
+    section Empirisme britannique
+        1620 : Bacon, Novum Organum
+        1690 : Locke, Essai sur l'entendement humain
+        1710 : Berkeley, Traité des principes de la connaissance
+        1739-1740 : Hume, Traité de la nature humaine
+        1748 : Hume, Enquête sur l'entendement humain
+        1781 : Kant, Critique de la raison pure
+    section Empirisme logique et après
+        1929 : Manifeste du Cercle de Vienne
+        1932 : Carnap, Le dépassement de la métaphysique
+        1936 : Ayer, Langage, vérité et logique
+        1951 : Quine, Deux dogmes de l'empirisme
+```
+
 ## Origines Historiques
 
 ### Antiquité
