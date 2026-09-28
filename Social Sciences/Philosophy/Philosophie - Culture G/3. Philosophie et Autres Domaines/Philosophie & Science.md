@@ -14,7 +14,7 @@ La philosophie des sciences pose des questions que la science seule ne peut pas 
 
 ## 5 questions centrales
 
-1. **Démarcation** : qu'est-ce qui sépare la science de la non-science ? Popper : la *falsifiabilité*. Kuhn : l'appartenance à une communauté qui partage un paradigme. Feyerabend : rien — il n'existe pas de méthode universelle.
+1. **Démarcation** : qu'est-ce qui sépare la science de la non-science ? [[Popper]] : la *falsifiabilité*. Kuhn : l'appartenance à une communauté qui partage un paradigme. Feyerabend : rien — il n'existe pas de méthode universelle.
 
 > [!important] Idée clé
 > Les trois réponses ne sont pas de simples variantes : elles désaccordent sur l'existence même d'une frontière nette. Popper pense qu'il existe un critère logique tranchant. Kuhn déplace le critère du logique au sociologique (une frontière existe, mais elle est faite de pratiques de communauté, pas de règles formelles). Feyerabend nie qu'il y ait une frontière à tracer. Savoir laquelle de ces trois positions on discute évite de répondre à côté.

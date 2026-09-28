@@ -12,7 +12,7 @@ date: "2026-04-12"
 
 1. **Eudémonisme** (Aristote, *Éthique à Nicomaque*) : le bonheur (*eudaimonia*) n'est pas un état passager de plaisir mais l'épanouissement durable de l'être humain selon ses capacités propres. Bonheur = vivre et agir selon la vertu. Il est l'activité de l'âme en accord avec l'excellence.
 
-2. **Hédonisme épicurien** (Épicure, IVe siècle av. J.-C.) : le bonheur est la *tranquillité de l'âme* (*ataraxie*) et l'absence de douleur (*aponie*). Non pas la jouissance frénétique, mais le plaisir calme — amitié, philosophie, simplicité. "Il faut faire provision de plaisirs simples."
+2. **Hédonisme épicurien** ([[Épicure]], IVe siècle av. J.-C.) : le bonheur est la *tranquillité de l'âme* (*ataraxie*) et l'absence de douleur (*aponie*). Non pas la jouissance frénétique, mais le plaisir calme — amitié, philosophie, simplicité. "Il faut faire provision de plaisirs simples."
 
 3. **Ataraxie stoïcienne** (Épictète, Marc Aurèle) : le bonheur vient de la vertu et de l'acceptation de ce qui échappe à notre contrôle. Vouloir changer ce qu'on ne peut pas changer, voilà la source de tout malheur. La seule vraie richesse est intérieure.
 
@@ -38,7 +38,7 @@ date: "2026-04-12"
 ## Ressources
 
 **Podcasts :**
-- France Culture, *Les Chemins de la Philosophie* — série "Le bonheur" avec Épicure, Aristote et Schopenhauer. Disponible en réécoute.
+- France Culture, *Les Chemins de la Philosophie* — série "Le bonheur" avec Épicure, Aristote et [[Schopenhauer]]. Disponible en réécoute.
 - France Culture, *Avoir raison avec…* — émissions sur Épictète, Marc Aurèle.
 - *The Happiness Lab* (Laurie Santos, podcast anglophone) — psychologie positive et philosophie du bonheur. Accessible et documenté.
 

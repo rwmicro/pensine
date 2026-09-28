@@ -36,7 +36,7 @@ timeline
 
 ### La révolte contre l'idéalisme
 
-A la fin du XIXe siècle, la philosophie britannique est dominée par l'**idéalisme hégélien** (Bradley, McTaggart) : la réalité est un tout organique, l'absolu est spirituel, les distinctions logiques sont des apparences. Bertrand Russell et G.E. Moore se révoltent contre ce monisme en affirmant le **réalisme** : les choses existent indépendamment de la pensée, et l'analyse logique peut les décrire avec précision.
+A la fin du XIXe siècle, la philosophie britannique est dominée par l'**idéalisme hégélien** (Bradley, McTaggart) : la réalité est un tout organique, l'absolu est spirituel, les distinctions logiques sont des apparences. [[Russell|Bertrand Russell]] et G.E. Moore se révoltent contre ce monisme en affirmant le **réalisme** : les choses existent indépendamment de la pensée, et l'analyse logique peut les décrire avec précision.
 
 ### Frege et la logique moderne
 
@@ -128,7 +128,7 @@ Héritée de Kant mais reformulée par le positivisme logique, cette distinction
 | Clarté, précision, arguments formels | Profondeur, style littéraire, intuition |
 | Problèmes circonscrits | Grands systèmes, vision du monde |
 | Langage, logique, science | Existence, histoire, pouvoir |
-| Russell, Wittgenstein, Quine, Rawls | Heidegger, Sartre, Foucault, Derrida |
+| Russell, Wittgenstein, Quine, Rawls | Heidegger, Sartre, Foucault, [[Derrida]] |
 | Anglo-saxonne (Oxford, Harvard, Princeton) | France, Allemagne |
 
 Cette division, apparue au début du XXe siècle, s'estompe progressivement depuis les années 1990. De nombreux philosophes contemporains refusent l'étiquette et travaillent aux frontières.

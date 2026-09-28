@@ -33,7 +33,7 @@ timeline
 
 Groupe de philosophes, logiciens et scientifiques réunis autour de Moritz Schlick à l'Université de Vienne dans les années 1920 (Rudolf Carnap, Otto Neurath, Herbert Feigl, avec Alfred J. Ayer pour la diffusion britannique). Leur *Manifeste* (1929) affiche un projet explicite : refonder la philosophie sur le modèle des sciences empiriques, en rupture avec toute la tradition métaphysique allemande (l'idéalisme, mais aussi Heidegger, cible désignée de leurs attaques).
 
-**Racines intellectuelles** : le positivisme du XIXe siècle (Auguste Comte — voir [[Sociology/Fondements de la Sociologie|Comte]]), l'empirisme britannique (Hume, Mill), et surtout la logique nouvelle de Frege, Russell et le premier Wittgenstein, dont le *Tractatus Logico-Philosophicus* (1921) sert de texte de référence, bien que Wittgenstein lui-même ait pris ses distances avec les conclusions que le Cercle en tirait — voir [[Philosophie du Langage]].
+**Racines intellectuelles** : le positivisme du XIXe siècle (Auguste Comte — voir [[Sociology/Fondements de la Sociologie|Comte]]), l'empirisme britannique (Hume, Mill), et surtout la logique nouvelle de Frege, [[Russell]] et le premier Wittgenstein, dont le *Tractatus Logico-Philosophicus* (1921) sert de texte de référence, bien que Wittgenstein lui-même ait pris ses distances avec les conclusions que le Cercle en tirait — voir [[Philosophie du Langage]].
 
 ## Le principe de vérification
 
@@ -83,7 +83,7 @@ Le positivisme logique se heurte, en quelques années, à une objection qui s'av
     vérification est lui-même dénué de sens.
 ```
 
-D'autres difficultés s'accumulent : les lois scientifiques universelles ("tous les métaux se dilatent à la chaleur") ne sont, à proprement parler, jamais vérifiables de façon concluante (on ne peut observer tous les cas passés et futurs) — seulement confirmables partiellement, ce qui affaiblit considérablement le critère. Karl Popper propose une alternative influente : remplacer la vérification par la **falsifiabilité** comme critère de démarcation entre science et non-science — voir [[Épistémologie#Popper : la falsifiabilité|Popper]]. Willard Van Orman Quine, dans "Deux dogmes de l'empirisme" (1951), attaque directement la distinction analytique/synthétique elle-même, pilier du positivisme logique — voir [[Philosophie Analytique]].
+D'autres difficultés s'accumulent : les lois scientifiques universelles ("tous les métaux se dilatent à la chaleur") ne sont, à proprement parler, jamais vérifiables de façon concluante (on ne peut observer tous les cas passés et futurs) — seulement confirmables partiellement, ce qui affaiblit considérablement le critère. [[Popper|Karl Popper]] propose une alternative influente : remplacer la vérification par la **falsifiabilité** comme critère de démarcation entre science et non-science — voir [[Épistémologie#Popper : la falsifiabilité|Popper]]. Willard Van Orman Quine, dans "Deux dogmes de l'empirisme" (1951), attaque directement la distinction analytique/synthétique elle-même, pilier du positivisme logique — voir [[Philosophie Analytique]].
 
 ## Le positivisme logique en exil
 

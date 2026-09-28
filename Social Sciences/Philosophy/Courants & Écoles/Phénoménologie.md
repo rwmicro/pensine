@@ -10,7 +10,7 @@ date: "2026-04-12"
 
 ## Définition
 
-La **phénoménologie** est un courant philosophique fondé par Edmund Husserl au début du XXe siècle. Son objet est l'étude des **phénomènes tels qu'ils apparaissent à la conscience** — non les choses en soi (comme en métaphysique) ni les structures du cerveau (comme en psychologie), mais la structure de l'expérience vécue.
+La **phénoménologie** est un courant philosophique fondé par [[Husserl|Edmund Husserl]] au début du XXe siècle. Son objet est l'étude des **phénomènes tels qu'ils apparaissent à la conscience** — non les choses en soi (comme en métaphysique) ni les structures du cerveau (comme en psychologie), mais la structure de l'expérience vécue.
 
 > "Retourner aux choses elles-mêmes" (*Zu den Sachen selbst*)
 
@@ -128,7 +128,7 @@ La phénoménologie a profondément marqué :
 - **Psychiatrie** : antipsychiatrie (Laing), phénoménologie clinique
 - **Sciences sociales** : Bourdieu (habitus comme corps socialisé), sociologie phénoménologique (Schutz, Berger)
 - **Sciences cognitives** : *enactivisme* (Varela, Thompson) — la cognition est incarnée
-- **Philosophie continentale** : [[Sartre]], [[Beauvoir]], Derrida, Ricœur
+- **Philosophie continentale** : [[Sartre]], [[Beauvoir]], [[Derrida]], Ricœur
 
 ## Comparaison avec la Philosophie Analytique
 
@@ -136,7 +136,7 @@ La phénoménologie a profondément marqué :
 |---------------|----------------------|
 | Description de l'expérience vécue | Analyse logique du langage |
 | Conscience incarnée, située | Sujet rationnel, désincorporé |
-| Heidegger, Merleau-Ponty, Husserl | Russell, Frege, Wittgenstein |
+| Heidegger, Merleau-Ponty, Husserl | [[Russell]], Frege, Wittgenstein |
 | Tradition continentale | Tradition anglo-saxonne |
 
 > [!warning] Piège

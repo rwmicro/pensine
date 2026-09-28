@@ -82,7 +82,7 @@ timeline
 - Saut de la foi irrationnel mais nécessaire
 
 > [!warning] Piège
-> Kierkegaard est souvent cité comme « premier existentialiste » au même titre que Sartre ou Camus, mais son cadre reste théiste : l'angoisse mène au saut de la foi, pas à l'absurde assumé sans Dieu. La « vérité subjective » ne signifie pas « chacun a sa vérité » (relativisme) — elle désigne l'engagement personnel dans une vérité qui existe indépendamment de soi (la foi chrétienne), pas son invention.
+> [[Kierkegaard]] est souvent cité comme « premier existentialiste » au même titre que Sartre ou Camus, mais son cadre reste théiste : l'angoisse mène au saut de la foi, pas à l'absurde assumé sans Dieu. La « vérité subjective » ne signifie pas « chacun a sa vérité » (relativisme) — elle désigne l'engagement personnel dans une vérité qui existe indépendamment de soi (la foi chrétienne), pas son invention.
 
 ### Friedrich [[Nietzsche|Nietzsche]] (1844-1900)
 **Existentialisme athée radical**
@@ -196,7 +196,7 @@ L'existentialisme s'exprime souvent mieux en **littérature** qu'en traités:
 ## Critiques de l'Existentialisme
 
 ### Critique marxiste
-- Trop individualiste, ignore luttes collectives et classes sociales
+- Trop individualiste, ignore luttes collectives et [[Stratification et Classes Sociales|classes sociales]]
 - Sartre tentera synthèse existentialisme/marxisme (échec relatif)
 
 ### Critique religieuse

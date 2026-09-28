@@ -52,7 +52,7 @@ L'absurde naît de la **rencontre** entre deux réalités incompatibles :
 
 **Les trois réponses possibles :**
 1. **Le suicide physique** : supprimer la tension en supprimant soi-même. Lâcheté intellectuelle — évite le problème.
-2. **Le suicide philosophique** (Kierkegaard, Chestov) : le "saut" religieux — croire en Dieu pour donner du sens. Honnêteté intellectuelle trahie.
+2. **Le suicide philosophique** ([[Kierkegaard]], Chestov) : le "saut" religieux — croire en Dieu pour donner du sens. Honnêteté intellectuelle trahie.
 3. **La révolte** : vivre *malgré* l'absurde, sans espoir ni résignation — la seule réponse honnête.
 
 ### Sisyphe — La Révolte Absurde

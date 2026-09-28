@@ -69,7 +69,7 @@ Sa thèse de la **colonisation du monde vécu** : dans la modernité tardive, la
 
 ## Le débat avec la postmodernité
 
-Habermas défend, contre les penseurs français associés au "postmodernisme" (Lyotard, Foucault, Derrida), l'inachèvement plutôt que l'échec du **projet des Lumières** : la raison moderne n'a pas failli en soi, elle a été partiellement détournée vers sa seule forme instrumentale (technique, bureaucratique) au détriment de sa dimension communicationnelle et émancipatrice, qu'il s'agit de réactiver plutôt que d'abandonner. Il accuse la déconstruction postmoderne de saper les fondements rationnels (universalité, vérité, validité argumentative) sans lesquels toute critique sociale — y compris celle que les postmodernes eux-mêmes formulent — perd sa légitimité et sombre dans une performance auto-contradictoire.
+Habermas défend, contre les penseurs français associés au "postmodernisme" (Lyotard, Foucault, [[Derrida]]), l'inachèvement plutôt que l'échec du **projet des Lumières** : la raison moderne n'a pas failli en soi, elle a été partiellement détournée vers sa seule forme instrumentale (technique, bureaucratique) au détriment de sa dimension communicationnelle et émancipatrice, qu'il s'agit de réactiver plutôt que d'abandonner. Il accuse la déconstruction postmoderne de saper les fondements rationnels (universalité, vérité, validité argumentative) sans lesquels toute critique sociale — y compris celle que les postmodernes eux-mêmes formulent — perd sa légitimité et sombre dans une performance auto-contradictoire.
 
 ## Héritage et influence contemporaine
 

@@ -84,7 +84,7 @@ La philosophie politique pose la question la plus fondamentale de la vie en comm
 
 ## Questions ouvertes
 
-- Une démocratie peut-elle se défendre contre des forces qui veulent la détruire par les urnes ? (Paradoxe de la tolérance de Popper)
+- Une démocratie peut-elle se défendre contre des forces qui veulent la détruire par les urnes ? (Paradoxe de la tolérance de [[Popper]])
 - Les droits humains universels (Déclaration de 1948) sont-ils une imposition des valeurs occidentales au reste du monde — ou un minimum moral transculturel ?
 - L'État-nation est-il encore la bonne échelle pour la politique, face aux crises mondiales (changement climatique, pandémies, IA) ?
 - Peut-on avoir une démocratie saine dans une société d'extrême inégalité économique ? (Rousseau dirait non — les inégalités corrompent la volonté générale.)

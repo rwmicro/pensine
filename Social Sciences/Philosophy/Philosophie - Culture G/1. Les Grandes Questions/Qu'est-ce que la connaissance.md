@@ -18,7 +18,7 @@ date: "2026-04-12"
 
 4. **La synthèse kantienne** : Kant "réveillé par Hume de son sommeil dogmatique" propose la révolution copernicienne. Ce ne sont pas nos représentations qui s'adaptent aux objets, mais les objets qui s'adaptent à notre esprit. Les catégories a priori (espace, temps, causalité) structurent toute expérience possible. Nous ne connaissons que les phénomènes, jamais les choses en soi.
 
-5. **Science et paradigmes** (Karl Popper, Thomas Kuhn) : Popper propose la *falsifiabilité* comme critère de démarcation scientifique — une théorie est scientifique si elle peut être réfutée. Kuhn nuance : la science avance non par réfutations rationnelles mais par *révolutions* où un paradigme entier est abandonné pour un autre.
+5. **Science et paradigmes** ([[Popper|Karl Popper]], Thomas Kuhn) : Popper propose la *falsifiabilité* comme critère de démarcation scientifique — une théorie est scientifique si elle peut être réfutée. Kuhn nuance : la science avance non par réfutations rationnelles mais par *révolutions* où un paradigme entier est abandonné pour un autre.
 
 > [!warning] Piège
 > Le problème de Gettier n'est pas un détail technique : depuis 1963, aucune rustine (ajouter une 4e condition à JTB) n'a résisté à de nouveaux contre-exemples. Retenir que "croyance vraie justifiée" reste la définition de référence pour un devoir, mais qu'elle est officiellement insuffisante — un point souvent ignoré par les non-spécialistes.

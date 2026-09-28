@@ -299,7 +299,7 @@ Un sophisme est un argument qui *semble* valide mais ne l'est pas. Les repérer 
     et la distinction entre objet-langage et méta-langage (Tarski)
 ```
 
-**Le paradoxe de Russell**
+**Le paradoxe de [[Russell]]**
 ```
   Soit R l'ensemble de tous les ensembles qui ne se contiennent pas eux-mêmes.
   R ∈ R ?

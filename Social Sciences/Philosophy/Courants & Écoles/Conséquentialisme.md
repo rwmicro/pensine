@@ -76,7 +76,7 @@ timeline
 
 - **Minimiser la souffrance** plutôt que maximiser le bonheur
 - Éviter le mal est plus important que produire le bien
-- Karl Popper: "Minimiser la souffrance évitable"
+- [[Popper|Karl Popper]]: "Minimiser la souffrance évitable"
 
 ### 4. Conséquentialisme des Préférences
 

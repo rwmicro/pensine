@@ -290,7 +290,7 @@ Sans imposer conception complète du bien.
 - Islam: "Nul n'est croyant s'il ne désire pour son frère ce qu'il désire pour lui-même"
 - Bouddhisme: "Ne blesse pas autrui comme tu ne voudrais pas être blessé"
 - Hindouisme: "Ne fais pas aux autres ce qui te causerait de la peine"
-- Confucianisme: "Ne fais pas à autrui ce que tu ne voudrais pas qu'on te fasse"
+- [[Confucianisme]]: "Ne fais pas à autrui ce que tu ne voudrais pas qu'on te fasse"
 
 **Argument:** Convergence religieuse suggère vérité morale universelle.
 
