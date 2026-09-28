@@ -14,7 +14,7 @@ L'Azerbaïdjan se situe au croisement du monde turcique, persan et russe — hé
 | Fait | Détail |
 |------|--------|
 | Population | ~10 millions (Azerbaïdjan) + ~20 millions (Azerbaïdjan iranien) |
-| Religion | ~85 % musulmans chiites, ~15 % sunnites — islam modéré, laïcité constitutionnelle |
+| Religion | ~85 % musulmans chiites, ~15 % sunnites — islam modéré, [[Laïcité\|laïcité]] constitutionnelle |
 | Ressources | Pétrole et gaz (mer Caspienne) — économie basée sur l'hydrocarbure |
 | Géographie | Caucase du Sud, entre Russie, Iran, Géorgie, Arménie, Turquie |
 | Surnom | "Pays du feu" (*Odlar Yurdu*) — flammes naturelles des gisements de gaz |

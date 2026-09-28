@@ -38,12 +38,12 @@ L'allemand n'est pas la culture d'un seul pays mais de **plusieurs nations disti
 | Période | Événement |
 |---------|----------|
 | 800 | Charlemagne — empereur du Saint-Empire romain germanique |
-| 1517 | Martin Luther — Réforme protestante (Wittenberg) |
+| 1517 | Martin Luther — [[Réforme protestante]] (Wittenberg) |
 | 1618-1648 | Guerre de Trente Ans — dévastation, Westphalie |
 | 1740-1786 | Frédéric II le Grand de Prusse |
 | 1871 | Unification allemande sous Bismarck (IIᵉ Reich) |
 | 1914-1918 | Première Guerre mondiale |
-| 1933-1945 | Régime nazi, Seconde Guerre mondiale, Shoah |
+| 1933-1945 | Régime nazi, Seconde Guerre mondiale, [[Shoah]] |
 | 1945 | Capitulation, occupation alliée |
 | 1949-1989 | Division : RFA (Ouest) et RDA (Est) |
 | 1989 | Chute du mur de Berlin |
@@ -154,7 +154,7 @@ L'Autriche a inscrit la **culture des cafés viennois** au patrimoine UNESCO (20
 |-----------|--------|
 | Immanuel Kant (1724-1804) | Critique de la raison pure, impératif catégorique |
 | G.W.F. Hegel (1770-1831) | Dialectique, Esprit absolu |
-| Arthur Schopenhauer (1788-1860) | Philosophie du pessimisme, volonté |
+| [[Schopenhauer|Arthur Schopenhauer]] (1788-1860) | Philosophie du pessimisme, volonté |
 | Friedrich Nietzsche (1844-1900) | Volonté de puissance, surhomme, "Dieu est mort" |
 | Karl Marx (1818-1883) | Matérialisme historique, critique du capital |
 | Sigmund Freud (1856-1939) | Psychanalyse — Vienne |

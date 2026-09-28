@@ -169,7 +169,7 @@ La **psychologie** (du grec *psyché* = âme/esprit et *logos* = étude) est la 
 - **Principe :** L'inconscient détermine le comportement
 - **Concepts :** Ça/Moi/Surmoi, refoulement, complexe d'Œdipe, [[Désirs]]
 - **Méthode :** Libre association, interprétation des rêves
-- **Critique :** Non falsifiable (Popper), manque de preuves empiriques
+- **Critique :** Non falsifiable ([[Popper]]), manque de preuves empiriques
 - **Héritage :** Psychothérapie, culture populaire
 
 ### 5. Humanisme (Rogers, Maslow)

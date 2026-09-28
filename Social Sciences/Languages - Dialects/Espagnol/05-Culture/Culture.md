@@ -71,7 +71,7 @@ L'Espagne est un pays plurinational avec quatre langues officielles :
 | Guatemala | Héritage maya, tradition textile |
 | Bolivie | Andes, coca, culture plurinationale |
 | Paraguay | Guarani co-officiel, Chaco |
-| Uruguay | Tango, laïcité, progressisme |
+| Uruguay | Tango, [[Laïcité\|laïcité]], progressisme |
 | République dominicaine | Merengue, bachata, beisbol |
 
 ## Religion

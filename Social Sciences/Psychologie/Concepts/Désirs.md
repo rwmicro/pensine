@@ -150,7 +150,7 @@ La *libido* est l'énergie psychique du désir. Le conflit psychique oppose :
 ```
 
 > [!warning] Piège
-> Ne pas confondre le manque lacanien avec les "désirs vains" d'Épicure : ces derniers sont contingents et peuvent être éliminés par la sagesse (renoncer à la gloire, au pouvoir infini). Le manque chez Lacan est structurel — il ne porte sur aucun objet en particulier et ne disparaît donc jamais, même par renoncement ; combler un désir révèle simplement un nouveau manque.
+> Ne pas confondre le manque lacanien avec les "désirs vains" d'[[Épicure]] : ces derniers sont contingents et peuvent être éliminés par la sagesse (renoncer à la gloire, au pouvoir infini). Le manque chez Lacan est structurel — il ne porte sur aucun objet en particulier et ne disparaît donc jamais, même par renoncement ; combler un désir révèle simplement un nouveau manque.
 
 ## Perspectives psychologiques
 
@@ -226,7 +226,7 @@ On s'habitue rapidement aux nouveautés. Le niveau de bonheur subjectif revient 
 
 ### Paradoxe du désir
 
-Désirer rend malheureux (Schopenhauer). Ne pas désirer rend la vie vide de sens. La résolution partielle : désirer le *processus* plutôt que seulement le résultat (Csikszentmihalyi : le *flow*).
+Désirer rend malheureux ([[Schopenhauer]]). Ne pas désirer rend la vie vide de sens. La résolution partielle : désirer le *processus* plutôt que seulement le résultat (Csikszentmihalyi : le *flow*).
 
 ### Le bonheur hédonique vs eudémonique
 

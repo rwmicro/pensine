@@ -40,7 +40,7 @@ Des études classiques montrent que :
 Ce mécanisme adaptatif a une valeur évolutive : il permet de s'ajuster à de nouvelles conditions sans être paralysé indéfiniment par les pertes ni rendu incapable d'agir par la satisfaction. Son coût : il signifie que l'accumulation de richesse ou de confort n'apporte pas un bonheur cumulatif proportionnel.
 
 > [!tip] Méthode
-> Voir [[Désirs]] pour le mécanisme symétrique côté désir : le "tapis roulant hédonique" et le cycle de Schopenhauer (désir → satisfaction éphémère → ennui → nouveau désir) décrivent la même adaptation, vue du côté de ce qu'on veut plutôt que de ce qu'on ressent.
+> Voir [[Désirs]] pour le mécanisme symétrique côté désir : le "tapis roulant hédonique" et le cycle de [[Schopenhauer]] (désir → satisfaction éphémère → ennui → nouveau désir) décrivent la même adaptation, vue du côté de ce qu'on veut plutôt que de ce qu'on ressent.
 
 ## Le paradoxe de Easterlin
 

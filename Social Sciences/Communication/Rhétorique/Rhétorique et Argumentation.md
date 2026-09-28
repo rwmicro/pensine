@@ -8,7 +8,7 @@ date: "2026-02-22"
 
 # Rhétorique et Argumentation
 
-La **rhétorique** est l'art ancien de persuader. Née dans la Grèce antique pour former les citoyens à plaider au tribunal et à débattre à l'agora, elle est restée pendant deux millénaires une discipline reine — avant d'être éclipsée par les sciences exactes, puis réhabilitée au XXe siècle sous la forme moderne de la **théorie de l'argumentation**.
+La **rhétorique** est l'art ancien de persuader. Née dans la [[Grèce antique]] pour former les citoyens à plaider au tribunal et à débattre à l'agora, elle est restée pendant deux millénaires une discipline reine — avant d'être éclipsée par les sciences exactes, puis réhabilitée au XXe siècle sous la forme moderne de la **théorie de l'argumentation**.
 
 ## La rhétorique classique — Aristote
 

@@ -80,7 +80,7 @@ Données issues des études sur les Hadza et les San :
 Cette perspective remet en question le récit du "progrès" comme amélioration linéaire du bien-être. Mais elle a ses limites : les populations étudiées par Sahlins vivaient dans des environnements relativement favorables, et la violence interpersonnelle est statistiquement élevée dans certains groupes.
 
 > [!important] Idée clé
-> Sahlins n'a pas seulement fait un constat empirique : son article de 1966 est aussi une intervention politique, publié en pleine guerre froide, qui retourne l'accusation de « primitivité » contre le capitalisme lui-même — si l'abondance se mesure au désir satisfait plutôt qu'à la production, ce sont les sociétés de marché qui produisent la rareté en multipliant les désirs. Un angle à ne pas lire comme une simple donnée neutre.
+> Sahlins n'a pas seulement fait un constat empirique : son article de 1966 est aussi une intervention politique, publié en pleine [[Guerre froide|guerre froide]], qui retourne l'accusation de « primitivité » contre le capitalisme lui-même — si l'abondance se mesure au désir satisfait plutôt qu'à la production, ce sont les sociétés de marché qui produisent la rareté en multipliant les désirs. Un angle à ne pas lire comme une simple donnée neutre.
 
 ## Croyances et rapport au monde
 
@@ -93,7 +93,7 @@ Les sociétés de chasseurs-cueilleurs pratiquent généralement des formes d'**
 | **Chamanisme** | Le chamane est médiateur entre le monde des vivants et celui des esprits. Sa légitimité est personnelle (capacité de transe, efficacité rituelle), non institutionnelle |
 | **Réciprocité symbolique** | Un chasseur peut négocier spirituellement avec l'esprit du cerf avant de le tuer |
 
-L'animisme n'est pas une religion au sens monothéiste — il n'y a ni clergé institutionnel, ni dogme figé, ni texte sacré. C'est une façon de rendre intelligible un monde complexe et imprévisible.
+L'[[Animisme et Chamanisme|animisme]] n'est pas une religion au sens monothéiste — il n'y a ni clergé institutionnel, ni dogme figé, ni texte sacré. C'est une façon de rendre intelligible un monde complexe et imprévisible.
 
 ## La violence
 
