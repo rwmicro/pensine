@@ -15,7 +15,7 @@ Philosophe, économiste, sociologue et révolutionnaire allemand. Figure fondame
 **Parcours:**
 - Né à Trèves (Rhénanie prussienne), famille juive convertie au protestantisme
 - Études de droit puis philosophie (Université de Berlin)
-- Thèse sur Démocrite et Épicure (1841)
+- Thèse sur Démocrite et [[Épicure]] (1841)
 - Journaliste (*Rheinische Zeitung*, *Neue Rheinische Zeitung*)
 - Exils successifs: Paris (1843), Bruxelles (1845), Londres (1849-1883)
 - Pauvreté, soutien de Friedrich Engels
@@ -151,7 +151,7 @@ INFRASTRUCTURE (forces productives + rapports de production)
 
 **Rapports de production:**
 - Relations sociales de production (propriété, exploitation)
-- Définissent les classes sociales
+- Définissent les [[Stratification et Classes Sociales|classes sociales]]
 
 **Modes de production (succession historique):**
 1. Communisme primitif

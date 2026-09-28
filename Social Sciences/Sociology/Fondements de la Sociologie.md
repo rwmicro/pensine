@@ -19,7 +19,7 @@ La sociologie nait de la conjonction de trois séismes qui ébranlent l'ordre an
 | Bouleversement | Conséquences | Questions posées |
 |---|---|---|
 | **Révolution française** (1789) | Effondrement de l'Ancien Régime, égalité formelle, instabilité politique | Qu'est-ce qui fait tenir une société ensemble quand Dieu et le roi ne suffisent plus ? |
-| **Révolution industrielle** (1780-1850) | Urbanisation massive, prolétariat, misère ouvrière, nouvelles classes sociales | Pourquoi le progrès technique produit-il autant de souffrance ? |
+| **Révolution industrielle** (1780-1850) | Urbanisation massive, prolétariat, misère ouvrière, nouvelles [[Stratification et Classes Sociales\|classes sociales]] | Pourquoi le progrès technique produit-il autant de souffrance ? |
 | **Sécularisation** | Recul de l'autorité religieuse, montée de la science, rationalisme | Qui définit les normes morales si ce n'est plus l'Eglise ? |
 
 ### Auguste Comte (1798-1857) : le mot et le projet
@@ -48,7 +48,7 @@ Le stade positif est l'horizon de la sociologie : comprendre la société par l'
 | **Les faits sociaux** (Durkheim) | Le suicide, la religion, la division du travail — des phénomènes qui s'imposent aux individus de l'extérieur |
 | **L'action sociale** (Weber) | Les motivations des acteurs, le sens qu'ils donnent à leurs actes |
 | **Les institutions** | Famille, école, Etat, religion, entreprise — les structures qui organisent la vie collective |
-| **La stratification** | Classes sociales, inégalités, mobilité sociale |
+| **La stratification** | Classes sociales, inégalités, [[Mobilité Sociale\|mobilité sociale]] |
 | **Les normes et les valeurs** | Ce qui est considéré comme "normal", "déviant", "juste", "honteux" dans une société donnée |
 | **La socialisation** | Comment les individus intériorisent les règles de leur société (famille, école, pairs, médias) |
 | **Le changement social** | Modernisation, urbanisation, mondialisation, mouvements sociaux |

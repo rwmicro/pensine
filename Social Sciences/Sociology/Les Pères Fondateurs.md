@@ -9,16 +9,17 @@ date: "2026-02-22"
 # Les Pères Fondateurs
 
 
-*Pour les fiches en dossier dédié, voir `Fondateurs/` (Durkheim, Marx, Weber). Comte et Simmel sont pour l'instant développés uniquement ci-dessous.*
+*Pour les fiches en dossier dédié, voir `Fondateurs/` (Durkheim, Marx, Weber, Simmel, Tocqueville). Comte est pour l'instant développé uniquement ci-dessous.*
 
 ### Fondateurs
 
 **Les Classiques:**
 - **[[#Auguste Comte (1798-1857)|Auguste Comte]] (1798-1857)** - Fondateur du positivisme et de la sociologie
+- **[[Fondateurs/Alexis de Tocqueville|Alexis de Tocqueville]] (1805-1859)** - Démocratie, égalité des conditions, individualisme
 - **[[Fondateurs/Émile Durkheim|Émile Durkheim]] (1858-1917)** - Fait social, solidarité, suicide, religion
 - **[[Fondateurs/Karl Marx|Karl Marx]] (1818-1883)** - Matérialisme historique, lutte des classes
 - **[[Fondateurs/Max Weber|Max Weber]] (1864-1920)** - Sociologie compréhensive, rationalisation
-- **[[#Georg Simmel (1858-1918)|Georg Simmel]] (1858-1918)** - Formes sociales, sociologie formelle
+- **[[Fondateurs/Georg Simmel|Georg Simmel]] (1858-1918)** - Formes sociales, sociologie formelle
 
 ### Aperçu Synthétique
 

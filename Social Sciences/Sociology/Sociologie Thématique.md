@@ -88,7 +88,7 @@ date: "2026-02-22"
 - Ville créative, métropolisation
 
 **Auteurs:**
-- Simmel (*Métropole et vie mentale*)
+- [[Georg Simmel|Simmel]] (*Métropole et vie mentale*)
 - Wirth (*Le phénomène urbain comme mode de vie*)
 - Jane Jacobs (*Déclin et survie des grandes villes américaines*)
 - Henri Lefebvre (*Le Droit à la ville*)
@@ -109,7 +109,7 @@ date: "2026-02-22"
 - Nouveaux mouvements religieux, sectes
 - Religion civile (Bellah)
 - Fondamentalismes
-- Laïcité
+- [[Laïcité]]
 
 **Auteurs:**
 - Durkheim (*Formes élémentaires*)
@@ -214,7 +214,7 @@ date: "2026-02-22"
 **Auteurs:**
 - Bourdieu (*La Distinction*)
 - Richard Hoggart (*La Culture du pauvre*)
-- Howard Becker (*Les Mondes de l'art*)
+- [[Howard Becker]] (*Les Mondes de l'art*)
 
 ### Sociologie Politique
 
@@ -259,5 +259,22 @@ date: "2026-02-22"
 **Auteurs:**
 - Max Weber (*Économie et société*)
 - Neil Fligstein, Viviana Zelizer
-- Luc Boltanski & Ève Chiapello (*Le Nouvel Esprit du capitalisme*)
+- [[Luc Boltanski]] & Ève Chiapello (*Le Nouvel Esprit du capitalisme*)
 
+### Stratification et Classes Sociales
+
+*Voir le développement complet : [[Thématiques/Stratification et Classes Sociales]]*
+
+Comment une société hiérarchise ses membres : classes chez Marx, classe, statut et parti chez Weber, espace social chez Bourdieu, et mesure des inégalités de revenu et de patrimoine.
+
+### Mobilité Sociale
+
+*Voir le développement complet : [[Thématiques/Mobilité Sociale]]*
+
+Mesure du passage d'une position sociale à une autre d'une génération à l'autre : mobilité absolue et relative, fluidité sociale, débat sur la méritocratie.
+
+### Sociologie de la Déviance
+
+*Voir le développement complet : [[Thématiques/Sociologie de la Déviance]]*
+
+Comment une société définit, produit et sanctionne la transgression des normes, de l'anomie de Durkheim et Merton à l'étiquetage de Howard Becker.

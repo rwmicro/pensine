@@ -25,7 +25,7 @@ date: "2026-02-25"
   - **L**atency/pattern maintenance (culture, famille)
 - Variables structurelles (pattern variables)
 
-**Robert K. Merton (1910-2003):**
+**[[Robert K. Merton]] (1910-2003):**
 - Fonctionnalisme modéré
 - Théories de moyenne portée (vs grandes théories)
 - **Concepts:**
@@ -189,7 +189,7 @@ date: "2026-02-25"
 **Œuvres:**
 - *Les Héritiers* (1964, avec Passeron): Reproduction scolaire
 - *La Reproduction* (1970): Violence symbolique, capital culturel
-- *La Distinction* (1979): Goûts, styles de vie, classes sociales
+- *La Distinction* (1979): Goûts, styles de vie, [[Stratification et Classes Sociales|classes sociales]]
 - *Ce que parler veut dire* (1982): Langage et pouvoir symbolique
 - *Homo Academicus* (1984): Champ universitaire
 - *Les Règles de l'art* (1992): Champ littéraire
@@ -224,7 +224,7 @@ date: "2026-02-25"
 - Indexicalité, réflexivité
 
 **Sociologie pragmatique:**
-- Française (Boltanski, Thévenot)
+- Française ([[Luc Boltanski|Boltanski]], Thévenot)
 - Capacités critiques des acteurs
 - Cités (ordres de grandeur): industrielle, marchande, domestique, civique, opinion, inspirée
 
