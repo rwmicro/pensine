@@ -123,7 +123,7 @@ Le build learn-nebula clone ce repo (les mp3 arrivent avec le clone, sans LFS). 
 
 ### Choisir le type de diagramme
 
-Un `flowchart` est le réflexe par défaut, et c'est un défaut : sur les 343 diagrammes du vault, 282 en sont encore. Un flux ne convient qu'à ce qui *s'enchaîne*. Le reste a son type.
+Un `flowchart` est le réflexe par défaut, et c'est un défaut : sur les 399 diagrammes du vault, 285 en sont encore. Un flux ne convient qu'à ce qui *s'enchaîne*. Le reste a son type.
 
 | Contenu | Type |
 |---|---|
