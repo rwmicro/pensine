@@ -50,10 +50,10 @@ date: "2026-02-22"
 
 **Western:**
 - *La Chevauchée fantastique* (John Ford, 1939)
-- Voir [[Genres/Western|Western]]
+- Voir [[Genres Cinématographiques#Western|Western]]
 
 **Film Noir:**
-- Voir [[Genres/Film Noir|Film Noir]]
+- Voir [[Genres Cinématographiques#Film Noir|Film Noir]]
 
 **Mélodrame:**
 - Douglas Sirk: *Tout ce que le ciel permet* (1955)
@@ -66,7 +66,7 @@ date: "2026-02-22"
 
 **Alfred Hitchcock (1899-1980):**
 - "Maître du suspense"
-- Voir [[Réalisateurs/Alfred Hitchcock|Hitchcock]]
+- Voir Hitchcock
 
 **Billy Wilder (1906-2002):**
 - *Sunset Boulevard* (1950)

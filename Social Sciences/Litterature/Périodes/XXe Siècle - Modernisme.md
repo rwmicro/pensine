@@ -68,7 +68,7 @@ date: "2026-02-23"
 
 ### Après-Guerre (1945-1970)
 
-**Existentialisme** (voir [[Philosophy/Existentialism]])
+**Existentialisme** (voir [[Existentialisme]])
 
 *France*
 - **Jean-Paul Sartre** (1905-1980): *La Nausée*, *Les Mouches*, *Huis Clos*

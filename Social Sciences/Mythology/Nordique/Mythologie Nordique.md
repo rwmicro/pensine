@@ -127,7 +127,7 @@ date: "2026-02-22"
 - Nouveaux humains (Líf et Lífþrasir - survivants cachés dans arbre)
 
 > [!tip] Méthode
-> Le Ragnarök n'est ni un Apocalypse chrétien (fin définitive, jugement) ni un éternel retour d'Eliade (répétition rituelle) — c'est une fin **unique mais suivie d'un monde neuf**, un temps linéaire avec un seul cycle de destruction/renaissance. Comparer avec les Yugas hindous ([[Mythologie Indienne (Hindoue)]]), qui eux tournent indéfiniment.
+> Le Ragnarök n'est ni un Apocalypse chrétien (fin définitive, jugement) ni un éternel retour d'Eliade (répétition rituelle) — c'est une fin **unique mais suivie d'un monde neuf**, un temps linéaire avec un seul cycle de destruction/renaissance. Comparer avec les Yugas hindous ([[Mythologie Indienne|Mythologie Indienne (Hindoue)]]), qui eux tournent indéfiniment.
 
 ### Héros et Sagas
 

@@ -118,7 +118,7 @@ swaks --to victime@target.com \
 ```
 
 > [!important] Idée clé
-> Toutes ces techniques exploitent le même principe : SPF/DKIM/DMARC protègent un domaine précis, pas toute sa surface (sous-domaines, services tiers autorisés, alignement relaxed). Auditer un domaine cible signifie vérifier chaque sous-domaine et chaque `include:` individuellement — un domaine principal bien protégé peut avoir un sous-domaine oublié qui casse toute la chaîne. Voir [[Email Security (SPF, DKIM, DMARC)]] pour le détail défensif de chaque mécanisme.
+> Toutes ces techniques exploitent le même principe : SPF/DKIM/DMARC protègent un domaine précis, pas toute sa surface (sous-domaines, services tiers autorisés, alignement relaxed). Auditer un domaine cible signifie vérifier chaque sous-domaine et chaque `include:` individuellement — un domaine principal bien protégé peut avoir un sous-domaine oublié qui casse toute la chaîne. Voir [[Email Security|Email Security (SPF, DKIM, DMARC)]] pour le détail défensif de chaque mécanisme.
 
 ### Infrastructure de phishing
 

@@ -13,7 +13,7 @@ date: "2026-02-22"
 
 **Transmission Autosomique Récessive**
 - **Mucoviscidose** : CFTR (chlore), sécrétions épaisses
-- **Drépanocytose** : Hémoglobine S, anémie (voir [[Biology/Biologie#Génétique]])
+- **Drépanocytose** : Hémoglobine S, anémie (voir [[Génétique]])
 - **Phénylcétonurie** : Phénylalanine hydroxylase, retard mental si non traité
 
 **Transmission Autosomique Dominante**
@@ -77,7 +77,7 @@ date: "2026-02-22"
 - **Cancer** : CAR-T cells (lymphome)
 
 **CRISPR-Cas9**
-- Édition génome précise (voir [[Biology/Biologie#Génétique]])
+- Édition génome précise (voir [[Génétique]])
 - Potentiel thérapeutique énorme
 - Questions éthiques (modification germinale)
 
