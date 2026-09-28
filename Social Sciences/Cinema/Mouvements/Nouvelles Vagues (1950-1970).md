@@ -51,7 +51,7 @@ date: "2026-02-22"
 - Politique des auteurs (réalisateur = auteur)
 
 > [!important] Idée clé
-> À l'origine, la "politique des auteurs" des *Cahiers du cinéma* est une prise de position polémique : elle sert à défendre des réalisateurs de studio américains méprisés par la critique française (Hitchcock, Hawks — voir [[Genres/Film Noir]]) en affirmant qu'ils étaient de vrais auteurs malgré le système industriel. Ce n'est qu'ensuite, notamment via la reformulation anglo-saxonne (Andrew Sarris, "auteur theory"), que la notion a durci en grille de classement quasi systématique — voir [[Cinéma d'Auteur International]] pour son héritage international.
+> À l'origine, la "politique des auteurs" des *Cahiers du cinéma* est une prise de position polémique : elle sert à défendre des réalisateurs de studio américains méprisés par la critique française (Hitchcock, Hawks — voir [[Genres Cinématographiques#Film Noir|Film Noir]]) en affirmant qu'ils étaient de vrais auteurs malgré le système industriel. Ce n'est qu'ensuite, notamment via la reformulation anglo-saxonne (Andrew Sarris, "auteur theory"), que la notion a durci en grille de classement quasi systématique — voir [[Cinéma d'Auteur International]] pour son héritage international.
 
 **Caractéristiques:**
 - Budgets légers

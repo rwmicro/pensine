@@ -29,7 +29,7 @@ date: "2026-02-22"
 **Intelligence Artificielle**
 - Diagnostic assisté (imagerie, pathologie)
 - Prédiction risques
-- Découverte médicaments (voir [[Advanced Topics#Artificial Intelligence (Advanced)]])
+- Découverte médicaments
 
 **Organes sur Puce**
 - Modèles 3D organes miniatures

@@ -51,7 +51,7 @@ Un sophisme est un argument qui semble logique mais contient un défaut caché, 
 
 - **Pensée critique** : Analyser les arguments
 - **Vérification des faits** : Fact-checking systématique
-- **Reconnaissance des biais** : [[../Psychologie/Biais]]
+- **Reconnaissance des biais** : [[Biais de cadrage]], [[Self-serving bias - Biais d'autocomplaisance|biais d'autocomplaisance]]
 - **Demander des preuves** : "Quelle est votre source ?"
 
 > [!tip] Méthode

@@ -9,7 +9,7 @@ date: "2026-02-22"
 # Communication Interpersonnelle
 
 
-### Communication Non-Verbale → [[Communication#Communication non verbale|détails]]
+### Communication Non-Verbale → [[Communication Non Verbale|détails]]
 
 **Mehrabian (7-38-55)** : impact message
 - 7% verbal, 38% vocal, 55% visuel

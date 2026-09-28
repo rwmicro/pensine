@@ -247,4 +247,4 @@ Commercial support is available at
 
 ---
 
-[← Question 10](q10-sshfs-and-nfs.md) · [Index](Certifications/LFCS/notes.md) · [Question 12 →](q12-git-workflow.md)
+[← Question 10](q10-sshfs-and-nfs.md) · [Index](notes.md) · [Question 12 →](q12-git-workflow.md)

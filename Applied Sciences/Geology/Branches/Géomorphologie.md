@@ -181,4 +181,4 @@ Vastes surfaces planes en altitude — Tibet (4 500 m), Plateau du Colorado (Gra
 - **Karst et stockage CO₂** : altération des roches silicatées = puits naturel de carbone
 - **Permafrost en dégel** : nouvelles formes (thermokarst), libération de méthane
 
-Voir [[Pétrologie et Cycle des Roches]] pour le contexte plus large des roches, et [[Risques Géologiques]] pour les conséquences sur les populations.
+Voir Pétrologie et Cycle des Roches pour le contexte plus large des roches, et Risques Géologiques pour les conséquences sur les populations.

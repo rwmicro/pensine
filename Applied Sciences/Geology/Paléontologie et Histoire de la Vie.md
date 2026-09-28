@@ -114,4 +114,4 @@ La paléontologie ne se résume plus à creuser :
 - **Paléogénétique** : extraire de l'ADN ancien (jusqu'à ~1 Ma en permafrost — Néandertal, mammouth, ours des cavernes)
 - **Modélisation biomécanique** : simuler la marche d'un *T. rex* ou la morsure d'un mégalodon
 
-Voir [[Temps Géologique et Stratigraphie]] pour le détail des ères et périodes.
+Voir Temps Géologique et Stratigraphie pour le détail des ères et périodes.

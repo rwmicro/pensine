@@ -18,7 +18,7 @@ date: "2026-03-05"
 - **Ordre administratif:**
   - TA (Tribunal Administratif), CAA, Conseil d'État
   
-![](b2483933-25e9-4a84-a336-4477fd6ae6e3.png)
+![Pyramide des normes du droit français](sources/images/Droit/b2483933-25e9-4a84-a336-4477fd6ae6e3.png)
 
 
 **USA:**
