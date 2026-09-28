@@ -11,6 +11,29 @@ date: "2026-05-17"
 Le **communisme** comme régime politique et historique se distingue du **marxisme** comme corpus théorique : il en est une réalisation partielle, contestée, et déformée. De 1917 à 1991, le communisme a gouverné jusqu'à un tiers de la population mondiale, structuré la Guerre froide, et laissé un bilan qui reste l'un des plus discutés du siècle.
 
 
+## Chronologie
+
+```mermaid
+timeline
+    title Le communisme au pouvoir, 1917-1991
+    section Révolution et stalinisme
+        1917 : Révolution russe
+        1922 : Création de l'URSS
+        1924 : Mort de Lénine, ascension de Staline
+        1936-1938 : Grandes Purges
+    section Expansion
+        1944-1948 : Régimes communistes en Europe de l'Est
+        1949 : République populaire de Chine
+        1956 : Rapport Khrouchtchev : Insurrection de Budapest
+        1959 : Castro renverse Batista à Cuba
+        1966-1976 : Révolution culturelle
+        1975-1979 : Khmers rouges au Cambodge
+    section Effondrement
+        1985 : Gorbatchev au pouvoir
+        1989 : Chute du mur de Berlin
+        1991 : Dissolution de l'URSS
+```
+
 ## Marxisme et communisme : une distinction essentielle
 
 | Niveau | Définition |

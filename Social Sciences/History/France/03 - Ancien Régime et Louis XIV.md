@@ -15,6 +15,27 @@ period: "1610-1789"
 
 On appelle Ancien Régime la société française telle qu'elle existe avant 1789 : une monarchie de droit divin, où le roi tient son pouvoir de Dieu et n'en répond à aucune assemblée élue, et une société divisée en trois ordres juridiquement inégaux — le clergé, la noblesse et le tiers état, ce dernier regroupant l'immense majorité de la population sans bénéficier d'aucun privilège fiscal. Cette organisation, héritée du Moyen Âge, atteint son expression la plus achevée sous le règne de Louis XIV.
 
+## Chronologie
+
+```mermaid
+timeline
+    title L'Ancien Régime, de Richelieu à 1789
+    section Avant le règne personnel
+        1624-1642 : Richelieu ministre principal
+        1628 : Siège de La Rochelle
+        1643 : Mort de Louis XIII, régence d'Anne d'Autriche
+        1648-1653 : La Fronde
+    section Le règne personnel de Louis XIV
+        1661 : Mort de Mazarin, Louis XIV gouverne seul
+        1682 : La cour s'installe à Versailles
+        1685 : Révocation de l'édit de Nantes
+        1701-1714 : Guerre de Succession d'Espagne
+    section La crise
+        1715 : Avènement de Louis XV
+        1778-1783 : Soutien aux insurgents américains
+        1789 : Convocation des États généraux
+```
+
 ## La centralisation par Richelieu (1624-1642)
 
 Avant Louis XIV, c'est le cardinal de Richelieu, ministre principal de Louis XIII, qui pose les bases de l'État centralisé. Il abaisse le pouvoir politique et militaire des grands nobles, écrase les révoltes protestantes après le siège de La Rochelle (1628), et met en place les intendants — des administrateurs royaux envoyés dans les provinces pour contourner les seigneurs locaux. C'est aussi Richelieu qui accorde à Théophraste Renaudot le privilège d'imprimer *La Gazette* (voir [[02 - Naissance de la presse en France]]), preuve que le contrôle de l'information fait déjà partie, dès cette époque, des outils de la centralisation monarchique.

@@ -15,6 +15,24 @@ period: "1914-1918"
 
 La Première Guerre mondiale mobilise la France entière pendant plus de quatre ans et transforme durablement sa société. C'est le premier conflit de l'histoire du pays qui engage des millions de soldats dans une guerre industrielle, et le premier dont le bilan humain — près d'1,4 million de morts français — laisse une génération entière traumatisée.
 
+## Chronologie
+
+```mermaid
+timeline
+    title La France dans la Grande Guerre
+    section 1914
+        28 juin 1914 : Attentat de Sarajevo
+        3 août 1914 : La France entre en guerre
+        6-12 septembre 1914 : Bataille de la Marne
+    section Guerre d'usure
+        Février-décembre 1916 : Bataille de Verdun
+        1917 : Chemin des Dames et mutineries
+        1917 : Entrée en guerre des États-Unis
+    section Victoire
+        11 novembre 1918 : Armistice de Rethondes
+        1919 : Traité de Versailles, retour de l'Alsace-Lorraine
+```
+
 ## Le déclenchement : de l'attentat à la guerre générale (juin-août 1914)
 
 L'assassinat de l'archiduc François-Ferdinand, héritier du trône austro-hongrois, à Sarajevo le 28 juin 1914, déclenche une crise diplomatique qui dégénère en guerre générale par le jeu des alliances : l'Autriche-Hongrie déclare la guerre à la Serbie, la Russie mobilise pour soutenir les Serbes, l'Allemagne déclare la guerre à la Russie puis à la France, dont elle envahit le territoire en violant la neutralité de la Belgique. La France se retrouve en guerre le 3 août 1914.

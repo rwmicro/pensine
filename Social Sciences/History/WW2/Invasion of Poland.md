@@ -11,6 +11,22 @@ date: "2025-02-15"
 L'invasion de la Pologne marque le **début de la Seconde Guerre mondiale**. En moins de 5 semaines, le pays est écrasé entre deux fronts et disparaît de la carte de l'Europe.
 
 
+## Chronologie
+
+```mermaid
+timeline
+    title La campagne de Pologne, 1939
+    section Préparation
+        23 août 1939 : Pacte Molotov-Ribbentrop
+    section Invasion
+        1er septembre 1939 : L'Allemagne envahit la Pologne
+        3 septembre 1939 : La France et le Royaume-Uni déclarent la guerre
+        17 septembre 1939 : L'URSS envahit la Pologne par l'est
+    section Défaite
+        28 septembre 1939 : Capitulation de Varsovie
+        5 octobre 1939 : Défilé de la victoire devant Hitler
+```
+
 ## Contexte
 
 **Le pacte Molotov-Ribbentrop (23 août 1939)**

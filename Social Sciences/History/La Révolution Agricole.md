@@ -22,6 +22,23 @@ La révolution agricole est la transition par laquelle des sociétés de chasseu
 
 Elle n'est pas un événement soudain mais une **transition sur des millénaires**, parfois réversible : certains groupes ont adopté l'agriculture puis y ont renoncé.
 
+## Chronologie
+
+```mermaid
+timeline
+    title Les foyers de la révolution agricole
+    section Proche-Orient
+        -10000 : Blé, orge et lentilles au Croissant fertile
+        -8000 : Chèvre et mouton domestiqués
+    section Foyers indépendants
+        -7000 : Riz et millet en Chine : Taro et ignames en Nouvelle-Guinée : Porc
+        -6000 : Bœuf
+        -4000 : Cheval dans les steppes eurasiennes
+    section Vers l'État
+        -3200 : Premières tablettes comptables sumériennes
+        -3000 : Maïs, haricots et courges en Amérique centrale : Sorgho et mil en Afrique subsaharienne
+```
+
 ## La domestication
 
 Domestiquer une espèce, c'est la modifier génétiquement par sélection artificielle sur des générations pour la rendre utile à l'humain.

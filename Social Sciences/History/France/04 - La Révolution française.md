@@ -15,6 +15,29 @@ period: "1789-1799"
 
 La Révolution française met fin en dix ans à un système politique et social vieux de plusieurs siècles (voir [[03 - Ancien Régime et Louis XIV]]). Elle ne se joue pas en un seul mouvement : elle traverse des phases très différentes, d'un projet de monarchie constitutionnelle modérée en 1789 à la Terreur en 1793, avant de refluer vers une réaction conservatrice puis le pouvoir personnel de Napoléon Bonaparte.
 
+## Chronologie
+
+```mermaid
+timeline
+    title La Révolution française, 1789-1799
+    section 1789
+        17 juin 1789 : Le tiers état se proclame Assemblée nationale
+        20 juin 1789 : Serment du Jeu de Paume
+        14 juillet 1789 : Prise de la Bastille
+        4 août 1789 : Abolition des privilèges
+        26 août 1789 : Déclaration des droits de l'homme
+    section Monarchie constitutionnelle
+        Juin 1791 : Fuite du roi et arrestation à Varennes
+        Avril 1792 : Guerre contre l'Autriche
+        10 août 1792 : Prise des Tuileries
+        22 septembre 1792 : Proclamation de la République
+    section Terreur et réaction
+        21 janvier 1793 : Exécution de Louis XVI
+        27 juillet 1794 : Chute de Robespierre, 9 thermidor
+        1795 : Début du Directoire
+        9 novembre 1799 : Coup d'État du 18 brumaire
+```
+
 ## La crise financière et la convocation des États généraux (1788-1789)
 
 Au bord de la banqueroute après des décennies de guerres coûteuses, Louis XVI se résout à convoquer les États généraux, une assemblée des trois ordres qui ne s'était plus réunie depuis 1614. Le tiers état, qui représente l'immense majorité de la population mais ne dispose que d'un tiers des voix, réclame que le vote se fasse par tête et non par ordre — ce qui, mécaniquement, donnerait la majorité au tiers état allié à une partie du bas clergé. Face au refus royal, les députés du tiers état se proclament le 17 juin 1789 Assemblée nationale, seule habilitée selon eux à représenter la nation.

@@ -14,6 +14,28 @@ period: "1871"
 
 La Commune de Paris est une insurrection populaire et un gouvernement révolutionnaire qui dirige la capitale française pendant 72 jours, du 18 mars au 28 mai 1871. C'est l'un des épisodes fondateurs du mouvement ouvrier moderne, écrasé dans le sang lors de la **Semaine sanglante**.
 
+## Chronologie
+
+```mermaid
+timeline
+    title De Sedan à la Semaine sanglante
+    section La défaite
+        19 juillet 1870 : Déclaration de guerre à la Prusse
+        2 septembre 1870 : Capitulation de Sedan
+        4 septembre 1870 : Proclamation de la République
+        19 septembre 1870 : Début du siège de Paris
+        28 janvier 1871 : Armistice
+        8 février 1871 : Élection d'une Assemblée monarchiste
+    section La Commune
+        18 mars 1871 : Affaire des canons de Montmartre
+        26 mars 1871 : Élection du Conseil de la Commune
+        28 mars 1871 : Proclamation de la Commune
+    section L'écrasement
+        21 mai 1871 : Les Versaillais entrent dans Paris
+        28 mai 1871 : Fusillades au mur des Fédérés
+        1880 : Amnistie des Communards
+```
+
 ## Contexte : la défaite de 1870
 
 ### La guerre franco-prussienne
@@ -47,7 +69,7 @@ L'opération échoue : les soldats fraternisent avec la population. Deux génér
 Paris est laissée à elle-même. Le **Comité central de la Garde nationale** prend le contrôle de la ville.
 
 > [!important] Idée clé
-> La Commune n'est pas née d'un plan insurrectionnel prémédité : c'est le retrait raté de Thiers, pas une prise de pouvoir organisée, qui crée le vide que le Comité central occupe. Beaucoup de grands épisodes révolutionnaires suivent ce schéma — l'événement fondateur est une défaillance du pouvoir en place plus qu'une victoire de ceux qui le remplacent (cf. le 18 mars 1848 en Sicile, ou la chute du Shah en 1979).
+> La Commune n'est pas née d'un plan insurrectionnel prémédité : c'est le retrait raté de Thiers, pas une prise de pouvoir organisée, qui crée le vide que le Comité central occupe. Beaucoup de grands épisodes révolutionnaires suivent ce schéma — l'événement fondateur est une défaillance du pouvoir en place plus qu'une victoire de ceux qui le remplacent (cf. le soulèvement de Palerme en janvier 1848, ou la chute du Shah en 1979).
 
 ### Élection de la Commune (26 mars 1871)
 

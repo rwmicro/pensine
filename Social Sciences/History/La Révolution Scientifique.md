@@ -14,6 +14,25 @@ La révolution scientifique désigne la transformation profonde de la façon don
 
 La date symbolique de départ est 1543 : la publication du *De revolutionibus* de Copernic (héliocentrisme) et du *De humani corporis fabrica* de Vésale (anatomie par dissection). Deux disciplines différentes, une même rupture : **observer le monde réel plutôt que de faire confiance aux autorités héritées**.
 
+## Chronologie
+
+```mermaid
+timeline
+    title Les grandes ruptures scientifiques
+    section XVIe-XVIIe siècle
+        1543 : Copernic, héliocentrisme : Vésale, anatomie par dissection
+        1628 : Circulation sanguine, Harvey
+        1687 : Mécanique universelle, Newton
+    section XVIIIe siècle
+        1753 : Classification du vivant, Linné
+        1769 : Machine à vapeur de James Watt
+        1789 : Chimie moderne, Lavoisier
+    section XIXe-XXe siècle
+        1859 : Évolution par sélection naturelle, Darwin
+        1905-1916 : Relativité restreinte et générale, Einstein
+        1953 : Structure de l'ADN
+```
+
 ## L'innovation fondamentale : admettre l'ignorance
 
 Toutes les grandes traditions intellectuelles antérieures — religions, philosophies, traditions orales — partageaient une conviction : **les grandes vérités sont déjà connues**. Elles sont dans les textes sacrés, dans la sagesse des ancêtres, dans la révélation divine. La tâche du savant est d'interpréter ces vérités, pas d'en produire de nouvelles.
@@ -70,7 +89,7 @@ La révolution scientifique n'a pas prospéré dans un vide politique. Elle s'es
 - Accès à de nouveaux spécimens, nouvelles plantes, nouvelles données géographiques
 - Débouchés applicatifs qui justifient l'investissement
 
-Les grandes expéditions scientifiques du XVIIIe siècle (Cook, Humboldt, Darwin avec le Beagle) sont aussi des expéditions d'exploration coloniale. Les naturalistes décrivent et classifient les espèces des colonies ; ils cartographient aussi les ressources exploitables.
+Les grandes expéditions scientifiques des XVIIIe et XIXe siècles (Cook, Humboldt, Darwin avec le Beagle) sont aussi des expéditions d'exploration coloniale. Les naturalistes décrivent et classifient les espèces des colonies ; ils cartographient aussi les ressources exploitables.
 
 > [!warning] Piège
 > Cette alliance historique science-empire ne rend pas la méthode scientifique elle-même impérialiste : c'est une contingence de financement et de logistique (qui payait les expéditions coûteuses ?), pas une conséquence logique de la falsifiabilité ou de l'expérimentation. Confondre l'origine sociale d'une méthode avec sa validité épistémique est une erreur classique — la boussole reste précise même inventée pour naviguer vers des colonies.

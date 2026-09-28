@@ -15,6 +15,28 @@ period: "1958-1969"
 
 La Ve République, qui régit toujours la vie politique française aujourd'hui, naît directement de la crise algérienne (voir [[10 - Guerre d'Algérie]]). Elle est pensée comme une réponse structurelle à l'instabilité chronique de la IVe République, incapable de gérer durablement une crise majeure sans changer de gouvernement.
 
+## Chronologie
+
+```mermaid
+timeline
+    title La République gaullienne, 1958-1969
+    section Fondation
+        13 mai 1958 : Crise d'Alger, appel à De Gaulle
+        Septembre 1958 : Constitution adoptée par référendum
+    section Algérie et grandeur
+        1960 : Premier essai nucléaire français
+        Avril 1961 : Putsch des généraux
+        1962 : Accords d'Évian
+        1962 : Élection du président au suffrage universel
+        1964 : Reconnaissance de la Chine populaire
+        1966 : Retrait du commandement intégré de l'OTAN
+        1967 : Vive le Québec libre
+    section Fin du gaullisme
+        Mai 1968 : Crise de Mai 68
+        Juin 1968 : Victoire gaulliste aux législatives
+        Avril 1969 : Échec du référendum, démission
+```
+
 ## La crise du 13 mai 1958
 
 Le 13 mai 1958, à Alger, des manifestants et des militaires, craignant que le gouvernement de Paris ne négocie l'abandon de l'Algérie française, prennent d'assaut le siège du gouvernement général et forment un Comité de salut public. L'armée en Algérie menace ouvertement d'agir contre les institutions de la métropole si le pouvoir civil ne se ressaisit pas. Dans ce climat de quasi-coup d'État, le président René Coty fait appel au général de Gaulle, retiré de la vie politique depuis 1953, comme seul recours capable d'éviter une guerre civile ou un coup de force militaire.

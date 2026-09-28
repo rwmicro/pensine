@@ -12,6 +12,30 @@ period: "1682-1917"
 L'Empire russe est l'une des plus grandes puissances mondiales de son époque, s'étendant sur trois continents. Il naît véritablement avec les réformes de Pierre le Grand et s'effondre en 1917 avec la révolution bolchevique.
 
 
+## Chronologie
+
+```mermaid
+timeline
+    title L'Empire russe, de Pierre le Grand à 1917
+    section XVIIIe siècle
+        1682 : Avènement de Pierre le Grand
+        1703 : Fondation de Saint-Pétersbourg
+        1755 : Fondation de l'Université de Moscou
+        1762 : Avènement de Catherine II
+        1773-1775 : Révolte de Pougatchev
+    section Guerres et réaction
+        1812 : Invasion française et retraite de Napoléon
+        1815 : Congrès de Vienne
+        Décembre 1825 : Révolte des Décembristes
+        1853-1856 : Guerre de Crimée
+    section Réformes et chute
+        1861 : Abolition du servage
+        1881 : Assassinat d'Alexandre II
+        1905 : Défaite contre le Japon et révolution
+        Février 1917 : Abdication de Nicolas II
+        Octobre 1917 : Prise du pouvoir bolchevique
+```
+
 ## Pierre le Grand (1682–1725) — La modernisation forcée
 
 Pierre Ier est obsédé par une idée : faire de la Russie une puissance européenne moderne. Il voyage incognito en Europe occidentale pour apprendre de ses voisins, revient, et impose ses réformes par la force.
@@ -80,7 +104,7 @@ Sous le choc de la défaite en Crimée, Alexandre II engage les plus grandes ré
 - Réforme militaire
 - Développement du chemin de fer
 
-**Fin tragique :** Malgré (ou à cause de) ses réformes, il est assassiné en 1881 par des révolutionnaires populistes. Son successeur Nicolas II, traumatisé, inversera toutes les réformes libérales.
+**Fin tragique :** Malgré (ou à cause de) ses réformes, il est assassiné en 1881 par des révolutionnaires populistes. Son fils et successeur Alexandre III, traumatisé, inversera toutes les réformes libérales.
 
 > [!warning] Piège
 > « Malgré (ou à cause de) » n'est pas une hésitation rhétorique gratuite : c'est le paradoxe de Tocqueville appliqué à la Russie — les régimes les plus dangereux pour eux-mêmes sont ceux qui commencent à réformer, car la réforme fait naître des attentes (ici, une émancipation paysanne perçue comme incomplète, sans terre) que le régime ne peut ensuite satisfaire ni retirer sans crise. Ce n'est pas l'immobilisme qui a tué Alexandre II, mais le mouvement.

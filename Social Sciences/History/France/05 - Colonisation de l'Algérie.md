@@ -14,6 +14,29 @@ period: "1830-1962"
 ![Portrait de l'émir Abd el-Kader](images/05-abd-el-kader.jpg)
 *Portrait de l'émir Abd el-Kader — photographie d'Émile Tourtin, 1885, Bibliothèque nationale de France. Domaine public, source : Wikimedia Commons.*
 
+## Chronologie
+
+```mermaid
+timeline
+    title La colonisation de l'Algérie, 1830-1954
+    section Conquête
+        5 juillet 1830 : Prise d'Alger
+        1832 : Abd el-Kader proclamé émir
+        1837 : Traité de la Tafna
+        1840 : Conquête totale, Bugeaud gouverneur
+        Juin 1845 : Enfumades des Ouled Riah
+        23 décembre 1847 : Reddition d'Abd el-Kader
+    section Colonisation de peuplement
+        1863 : Sénatus-consulte sur la propriété
+        Mars 1871 : Révolte de Mokrani
+        1881 : Code de l'indigénat
+    section Nationalisme
+        1926 : Étoile Nord-Africaine de Messali Hadj
+        1944 : Abolition du Code de l'indigénat
+        8 mai 1945 : Massacre de Sétif
+        1er novembre 1954 : Toussaint Rouge
+```
+
 ## Contexte et Début de la Conquête
 
 ### Le Prétexte : L'Incident du Coup d'Éventail (1827)
@@ -133,7 +156,7 @@ En mars 1871, Mokrani, bachaga des Medjana, se soulève, bientôt rejoint par le
 
 ### Répression et Conséquences
 
-La répression, particulièrement féroce dans le contexte de l'écrasement simultané de la Commune de Paris en juillet 1871 (voir [[06 - La Commune]]), se solde par la confiscation de 450 000 hectares aux tribus déclarées « rebelles », une amende collective de 36 millions de francs-or, ainsi que des exécutions et des déportations vers la Nouvelle-Calédonie.
+La répression, particulièrement féroce dans le contexte de l'écrasement simultané de la Commune de Paris en mai 1871 (voir [[06 - La Commune]]), se solde par la confiscation de 450 000 hectares aux tribus déclarées « rebelles », une amende collective de 36 millions de francs-or, ainsi que des exécutions et des déportations vers la Nouvelle-Calédonie.
 
 ## La Montée du Nationalisme Algérien
 

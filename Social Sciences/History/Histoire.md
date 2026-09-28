@@ -20,6 +20,30 @@ L'**histoire** (du grec *historia* = enquête, récit) est la discipline qui ét
 
 ## Grandes Périodes Historiques
 
+```mermaid
+timeline
+    title Les cinq grandes périodes
+    section Préhistoire
+        -3 millions : Paléolithique, âge de la pierre taillée
+        -10000 : Néolithique, révolution agricole
+    section Antiquité
+        -3300 : Invention de l'écriture en Mésopotamie
+        476 : Chute de l'Empire romain d'Occident
+    section Moyen Âge
+        622 : Hégire
+        800 : Couronnement de Charlemagne
+        1054 : Schisme d'Orient
+        1347-1353 : Peste noire
+    section Époque moderne
+        1492 : Découverte de l'Amérique
+        1517 : Réforme protestante
+        1789 : Révolution française
+    section Époque contemporaine
+        1914-1918 : Première Guerre mondiale
+        1939-1945 : Seconde Guerre mondiale
+        1947-1991 : Guerre froide
+```
+
 ### 1. Préhistoire (~3 millions d'années - 3300 av. J.-C.)
 **Caractéristique :** Absence d'écriture
 
@@ -63,7 +87,7 @@ L'**histoire** (du grec *historia* = enquête, récit) est la discipline qui ét
 **Fin :** Révolution française (1789)
 
 **Caractéristiques :**
-- **Renaissance** (XVe-XVIe) : Humanisme, [[1452 - 1519 - Leonard de Vinci]]
+- **Renaissance** (XVe-XVIe) : Humanisme, [[Léonard de Vinci]]
 - **Réforme protestante** (1517) : Luther, Calvin
 - **Grandes découvertes** : Colonisation des Amériques
 - **Monarchies absolues** : Louis XIV (France), absolutisme
@@ -169,6 +193,26 @@ L'**histoire** (du grec *historia* = enquête, récit) est la discipline qui ét
 - [[France/11 - La Ve République et De Gaulle]]
 - [[France/12 - Mai 68]]
 
+```mermaid
+timeline
+    title La série France, notes 01 à 12
+    section Époque moderne
+        1527 : 01 Jeu de Paume
+        1631 : 02 Naissance de la presse
+        1661-1715 : 03 Ancien Régime et Louis XIV
+    section De 1789 à 1871
+        1789-1799 : 04 Révolution française
+        1830 : 05 Colonisation de l'Algérie
+        1871 : 06 La Commune
+    section XXe siècle
+        1914-1918 : 07 Première Guerre mondiale
+        1940-1944 : 08 Vichy, Occupation et Résistance
+        1946-1960 : 09 Décolonisation hors Algérie
+        1954-1962 : 10 Guerre d'Algérie
+        1958-1969 : 11 Ve République et De Gaulle
+        1968 : 12 Mai 68
+```
+
 ### Russie
 - [[Russia/01 - Empire Russe]]
 - [[Russia/02 - Panelki]] : Urbanisme soviétique
@@ -188,12 +232,11 @@ L'**histoire** (du grec *historia* = enquête, récit) est la discipline qui ét
 - [[WW2/Invasion of Poland]]
 - [[WW2/Lebensborn]]
 - [[WW2/Hierarchy in the German Army]]
-- [[WW2/Recommendations]] : Ressources sur la Seconde Guerre mondiale
 
 ## Figures Historiques
 
 ### Philosophes et Penseurs
-- [[1452 - 1519 - Leonard de Vinci]] : Renaissance, génie universel
+- [[Léonard de Vinci]] : Renaissance, génie universel
 - [[Philosophy/Socrate]] : Philosophie antique
 - [[Philosophy/Platon]] : Idéalisme
 - [[Philosophy/Aristote]] : Logique, science
@@ -311,12 +354,11 @@ L'**histoire** (du grec *historia* = enquête, récit) est la discipline qui ét
 ## Liens Internes
 
 ### Périodes et Thèmes
-- [[1452 - 1519 - Leonard de Vinci]] - Renaissance
+- [[Léonard de Vinci]] - Renaissance
 - [[WW2/Montée du nazisme]] - Années 1930
 - [[WW2/Invasion of Poland]] - Début WWII
 - [[WW2/Lebensborn]] - Programme nazi
 - [[WW2/Hierarchy in the German Army]] - Structure militaire
-- [[WW2/Recommendations]] - Ressources WWII
 
 ### France
 - [[France/01 - Jeu de Paume]]

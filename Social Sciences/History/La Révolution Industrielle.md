@@ -29,6 +29,25 @@ La chaîne d'implications : charbon → vapeur → machines textiles → filatur
 
 ## Chronologie
 
+```mermaid
+timeline
+    title Les phases de la révolution industrielle
+    section Première industrialisation
+        1760-1840 : Vapeur et métier mécanique : Textile, charbon, fer
+        1769 : Machine à vapeur perfectionnée par Watt
+        1776 : La Richesse des nations d'Adam Smith
+        1811-1816 : Luddisme
+        1833 : Premières lois sur le travail des enfants
+    section Deuxième industrialisation
+        1840-1914 : Chemin de fer, acier, électricité, chimie
+        1909 : Synthèse de l'ammoniac par Fritz Haber
+    section Industrialisation mondiale
+        1914-1970 : Pétrole, moteur à explosion, électronique
+        1919 : Journée de 8 heures en France
+        1936 : Congés payés en France
+        1945 : Sécurité sociale
+```
+
 | Phase | Période | Technologies clés | Secteurs |
 |---|---|---|---|
 | Première industrialisation | 1760 – 1840 | Machine à vapeur, métier à tisser mécanique | Textile, charbon, fer |

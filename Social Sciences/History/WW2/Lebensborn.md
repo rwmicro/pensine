@@ -16,6 +16,21 @@ Le **Lebensborn e.V.** (association "Fontaine de Vie" ou "Source de Vie") était
 **Fondateur:** Heinrich Himmler, Reichsführer-SS
 **Dissous:** Mai 1945
 
+## Chronologie
+
+```mermaid
+timeline
+    title Le Lebensborn et ses suites
+    section Le programme
+        12 décembre 1935 : Création par Himmler
+        1935-1945 : Foyers en Allemagne puis en pays occupés
+        Mai 1945 : Dissolution
+    section L'après-guerre
+        1947-1948 : Procès à Nuremberg, acquittement de la plupart
+        1998-2005 : Excuses officielles du gouvernement norvégien
+        2005 : Compensations financières en Norvège
+```
+
 ## Objectifs Officiels
 
 ### 1. Augmenter la Natalité Aryenne
