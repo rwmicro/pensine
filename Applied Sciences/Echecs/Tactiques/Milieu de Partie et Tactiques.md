@@ -8,70 +8,47 @@ date: "2026-02-22"
 
 # Milieu de Partie et Tactiques
 
+Le milieu de partie se décide le plus souvent par la tactique : une suite de coups forcés qui gagne du matériel ou mate. Ces suites reposent sur un petit nombre de motifs, qu'il faut savoir reconnaître d'un coup d'œil.
 
-### Motifs Tactiques Fondamentaux
+## Motifs tactiques fondamentaux
 
-**Clouage (Pin)**
-- Pièce ne peut bouger sans exposer pièce plus valuable derrière
-- Absolu (Roi) vs relatif (Dame, Tour)
+**Le clouage.** Une pièce ne peut pas bouger sans exposer une pièce plus précieuse placée derrière elle, sur la même ligne. Le clouage est **absolu** quand la pièce de derrière est le roi, **relatif** quand c'est une dame, une tour ou une pièce non défendue.
 
 > [!warning] Piège
-> Un clouage absolu (devant le roi) immobilise réellement la pièce — c'est une règle du jeu. Un clouage relatif (devant une dame ou une tour) n'est qu'une dissuasion : la pièce clouée PEUT légalement bouger, elle risque seulement de perdre la pièce derrière. Traiter les deux de la même façon fait rater des tactiques où la pièce "clouée" bouge quand même parce que le gain compense la perte.
+> Un clouage absolu (devant le roi) immobilise réellement la pièce : c'est une règle du jeu. Un clouage relatif n'est qu'une dissuasion : la pièce clouée PEUT légalement bouger, elle risque seulement de perdre la pièce derrière. Traiter les deux de la même façon fait rater des tactiques où la pièce « clouée » bouge quand même, parce que le gain compense la perte.
 
-**Enfilade (Skewer)**
-- Inverse du clouage : pièce valuable forcée bouger, exposant pièce derrière
+**L'enfilade.** C'est le clouage inversé : la pièce la plus précieuse est devant. Attaquée, elle doit s'écarter et découvre la pièce qui se trouvait derrière elle.
 
-**Fourchette (Fork)**
-- Pièce attaque 2+ pièces simultanément
-- Cavalier particulièrement efficace (fourchette royale : Roi+Dame)
+**La fourchette.** Une pièce en attaque deux ou plus en même temps. Le cavalier y excelle, et sa fourchette la plus redoutée attaque le roi et la dame à la fois.
 
 > [!important] Idée clé
-> Le cavalier excelle en fourchette pour une raison structurelle, pas esthétique : contrairement au fou, à la tour ou à la dame, il attaque des cases sans "passer" par les cases intermédiaires — il peut donc bondir sur une case protégée par une pièce à distance sans jamais entrer dans son champ d'action, et frapper deux cibles qu'aucune autre pièce ne peut viser en même temps depuis cette case.
+> Le cavalier excelle en fourchette pour une raison structurelle. Son attaque ne peut pas être interceptée, puisqu'il saute, et elle n'est jamais réciproque : un cavalier qui attaque une dame ou une tour ne peut pas être pris par elle en retour. Il peut donc se poser sur une case que ses cibles ne contrôlent pas, et frapper deux pièces qu'une pièce à longue portée ne viserait pas sans s'exposer.
 
-**Attaque Double**
-- 2 menaces simultanées
-- Échec + menace autre pièce = très fort
+**L'attaque double.** Deux menaces créées par un même coup, pas forcément par la même pièce. Un échec combiné à une menace sur une autre pièce est particulièrement fort, puisque l'adversaire doit d'abord parer l'échec.
 
-**Attaque Découverte**
-- Bouger pièce révèle attaque pièce derrière
-- **Échec découvert** : très puissant
+**L'attaque à la découverte.** Une pièce s'écarte et démasque l'attaque d'une pièce à longue portée placée derrière elle. Quand la pièce démasquée donne échec, c'est un **échec à la découverte**, et la pièce qui s'écarte est libre de faire ce qu'elle veut, même une capture.
 
-**Déviation**
-- Forcer pièce défensive quitter poste
+**La déviation.** On force une pièce défensive à quitter son poste, par une capture ou une menace qu'elle doit parer, pour exploiter ce qu'elle défendait.
 
-**Attraction/Déviation**
-- Attirer pièce vers case défavorable
+**L'attraction.** On force une pièce, souvent le roi, à venir sur une case où elle subira une fourchette, un clouage ou un mat. C'est le plus souvent un sacrifice sur cette case.
 
-**Interception**
-- Couper ligne d'action pièce adverse
+**L'interception.** On place une pièce sur la ligne d'action d'une pièce adverse pour couper sa défense.
 
-**Sacrifice**
-- Donner matériel pour avantage positionnel ou attaque décisive
-- Sacrifice de Dame spectaculaire
+**Le sacrifice.** On donne du matériel pour obtenir mieux : une attaque décisive, un avantage positionnel durable, ou une combinaison qui regagne davantage.
 
-### Combinaisons
+## Combinaisons
 
-**Définition**
-- Séquence forcée de coups menant à avantage tangible
-- Calcul précis nécessaire
+Une combinaison est une suite de coups forcés qui mène à un avantage tangible. Parce qu'elle est forcée, on peut la calculer jusqu'au bout. Parce qu'elle commence souvent par un sacrifice, il faut la calculer jusqu'au bout.
 
-**Exemples Célèbres**
-- **Partie Immortelle** (Anderssen vs Kieseritzky, 1851) : sacrifices Tour+Dame
-- **Partie Toujours Jeune** (Anderssen vs Dufresne, 1852)
-- **"Sacrifice de la Dame Immortelle"** (Levitsky vs Marshall, 1912)
+Trois parties célèbres montrent jusqu'où peut aller une combinaison :
+- **L'Immortelle** (Anderssen contre Kieseritzky, Londres 1851) : les Blancs donnent un fou, les deux tours puis la dame, et matent avec leurs pièces mineures.
+- **La Toujours Jeune** (Anderssen contre Dufresne, Berlin 1852).
+- **La partie des pièces d'or** (Levitsky contre Marshall, Breslau 1912), conclue par le coup de dame ...Dg3!!, qui se donne sur trois prises possibles.
 
-### Calcul et Visualisation
+## Calcul et visualisation
 
-**Arbre de Variations**
-- Calculer coups candidats
-- Branches (variations), profondeur
-- Éliminer coups faibles, analyser prometteurs
+**L'arbre de variantes.** On commence par lister les coups candidats, en priorité les coups forcés : échecs, captures, menaces. On examine ensuite chaque branche, on élimine vite les coups faibles et on approfondit les prometteurs.
 
-**Visualisation**
-- "Vision d'aveugle" : calculer sans bouger pièces
-- Entraînement : résoudre problèmes tactiques
+**La visualisation.** Calculer sans bouger les pièces demande de « voir » la position plusieurs coups plus loin. Elle se travaille en résolvant des problèmes sans échiquier, puis en jouant à l'aveugle.
 
-**Outils**
-- **Tactics Trainer** : Lichess, Chess.com, ChessTempo
-- **Puzzles** : quotidiens, thématiques
-
+**Les outils.** Les entraîneurs tactiques de Lichess, de Chess.com et de ChessTempo proposent des problèmes quotidiens et thématiques ; voir [[Puzzles et Entraînement Tactique]].
