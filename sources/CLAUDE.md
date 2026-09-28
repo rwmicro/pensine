@@ -51,8 +51,8 @@ pensine/
 
 Les langues suivent une structure standard 01-06 :
 - `01-Phonologie/` — alphabet, prononciation, tons
-- `02-Grammaire/`
-- `03-Communication/` — Phrases-Essentielles, Salutations, Registres, Situations
+- `02-Communication/` — Phrases-Essentielles, Salutations, Registres, Situations
+- `03-Grammaire/`
 - `04-Vocabulaire/`
 - `05-Culture/`
 - `06-Ressources/` — Anki, apps, livres, films
