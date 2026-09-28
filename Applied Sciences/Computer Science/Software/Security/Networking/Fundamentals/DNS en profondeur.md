@@ -1,9 +1,9 @@
 ---
-title: DNS en profondeur
-domain: sciences-appliquées
-subdomain: informatique / sécurité / réseau / fondamentaux
+title: "DNS en profondeur"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Networking > Fundamentals"
 tags: [dns, dnssec, rebinding, amplification, zone-transfer, sécurité, réseau]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 # DNS en profondeur
 

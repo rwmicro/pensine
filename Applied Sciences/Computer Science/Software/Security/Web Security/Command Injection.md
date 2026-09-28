@@ -1,9 +1,9 @@
 ---
-title: Command Injection
-domain: sciences-appliquées
-subdomain: informatique / sécurité / web
+title: "Command Injection"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Web Security"
 tags: [command-injection, rce, os, shell, web, sécurité]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Command Injection

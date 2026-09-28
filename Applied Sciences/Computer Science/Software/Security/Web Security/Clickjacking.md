@@ -1,9 +1,9 @@
 ---
-title: Clickjacking et UI Redressing
-domain: sciences-appliquées
-subdomain: informatique / sécurité / web
+title: "Clickjacking et UI Redressing"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Web Security"
 tags: [clickjacking, ui-redressing, iframe, csp, sécurité, web]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Clickjacking et UI Redressing

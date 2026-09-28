@@ -1,9 +1,9 @@
 ---
-title: SNMP
-domain: sciences-appliquées
-subdomain: informatique / sécurité / réseau / fondamentaux
+title: "SNMP"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Networking > Fundamentals"
 tags: [snmp, réseau, énumération, community-string, sécurité, pentest]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # SNMP

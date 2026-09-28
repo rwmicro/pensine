@@ -1,9 +1,9 @@
 ---
-title: Data Exfiltration
-domain: sciences-appliquées
-subdomain: informatique / sécurité
+title: "Data Exfiltration"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Offensive"
 tags: [exfiltration, data, dns, http, icmp, steganographie, sécurité, red-team]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Data Exfiltration

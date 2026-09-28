@@ -1,9 +1,9 @@
 ---
-title: File Upload Vulnerabilities
-domain: sciences-appliquées
-subdomain: informatique / sécurité / web
+title: "File Upload Vulnerabilities"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Web Security"
 tags: [file-upload, rce, webshell, bypass, web, sécurité]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # File Upload Vulnerabilities

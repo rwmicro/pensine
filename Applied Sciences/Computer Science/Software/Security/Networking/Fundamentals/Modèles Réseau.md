@@ -1,9 +1,9 @@
 ---
-title: Modèles Réseau — OSI et TCP/IP
-domain: sciences-appliquées
-subdomain: informatique / sécurité / réseau / fondamentaux
+title: "Modèles Réseau — OSI et TCP/IP"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Networking > Fundamentals"
 tags: [sciences-appliquées, informatique, sécurité, réseau, osi, tcp-ip, protocoles]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Modèles Réseau — OSI et TCP/IP

@@ -1,9 +1,9 @@
 ---
-title: Web Shells
-domain: sciences-appliquées
-subdomain: informatique / sécurité / web
+title: "Web Shells"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Web Security"
 tags: [webshell, post-exploitation, php, upload, sécurité, web, pentest]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Web Shells

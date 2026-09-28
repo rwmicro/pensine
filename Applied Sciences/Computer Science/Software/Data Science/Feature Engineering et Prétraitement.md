@@ -1,9 +1,9 @@
 ---
-title: Feature Engineering et Prétraitement des Données
-domain: sciences-appliquées
-subdomain: informatique / machine-learning
+title: "Feature Engineering et Prétraitement des Données"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Data Science"
 tags: [feature-engineering, prétraitement, normalisation, données, machine-learning]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 # Feature Engineering et Prétraitement des Données
 Le feature engineering est souvent plus déterminant que le choix de l'algorithme. Un bon feature engineering peut transformer un modèle médiocre en un excellent modèle ; un mauvais peut rendre inutile le meilleur des algorithmes.

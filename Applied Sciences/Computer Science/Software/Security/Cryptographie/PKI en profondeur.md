@@ -1,9 +1,9 @@
 ---
-title: PKI en profondeur
-domain: sciences-appliquées
-subdomain: informatique / sécurité
+title: "PKI en profondeur"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Cryptographie"
 tags: [pki, certificats, tls, x509, ca, crl, ocsp, sécurité]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # PKI en profondeur

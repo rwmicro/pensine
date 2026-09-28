@@ -1,9 +1,9 @@
 ---
-title: Azure Security
-domain: sciences-appliquées
-subdomain: informatique / sécurité / cloud
+title: "Azure Security"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Cloud"
 tags: [azure, entra-id, cloud, pentest, sécurité, active-directory]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Azure Security

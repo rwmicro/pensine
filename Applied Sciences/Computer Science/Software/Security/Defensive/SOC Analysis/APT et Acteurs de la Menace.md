@@ -1,9 +1,9 @@
 ---
-title: APT et Acteurs de la Menace
-domain: sciences-appliquées
-subdomain: informatique / sécurité / threat-intelligence
+title: "APT et Acteurs de la Menace"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Defensive > SOC Analysis"
 tags: [apt, threat-actor, threat-intelligence, mitre, cyberwarfare, soc]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # APT et Acteurs de la Menace

@@ -1,9 +1,9 @@
 ---
-title: VLAN Hopping
-domain: sciences-appliquées
-subdomain: informatique / sécurité / réseau / sécurité réseau
+title: "VLAN Hopping"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Networking > Network Security"
 tags: [vlan, hopping, réseau, switch, 802.1q, sécurité, pentest]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # VLAN Hopping

@@ -1,9 +1,9 @@
 ---
-title: Windows Privilege Escalation
-domain: sciences-appliquées
-subdomain: informatique / sécurité
+title: "Windows Privilege Escalation"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Offensive"
 tags: [privilege-escalation, windows, privesc, pentest, ctf, sécurité]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Windows Privilege Escalation

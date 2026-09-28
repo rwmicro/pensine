@@ -1,9 +1,9 @@
 ---
-title: Prototype Pollution
-domain: sciences-appliquées
-subdomain: informatique / sécurité / web
+title: "Prototype Pollution"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Web Security"
 tags: [prototype-pollution, javascript, nodejs, web, sécurité]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Prototype Pollution

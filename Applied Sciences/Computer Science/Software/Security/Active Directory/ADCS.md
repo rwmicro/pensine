@@ -1,9 +1,9 @@
 ---
-title: ADCS — Active Directory Certificate Services
-domain: sciences-appliquées
-subdomain: informatique / sécurité
+title: "ADCS — Active Directory Certificate Services"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Active Directory"
 tags: [adcs, active-directory, pki, certipy, esc1, esc8, certificates, pentest, sécurité]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # ADCS — Active Directory Certificate Services

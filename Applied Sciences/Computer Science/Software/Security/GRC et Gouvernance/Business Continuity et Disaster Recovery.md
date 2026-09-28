@@ -1,9 +1,9 @@
 ---
-title: Business Continuity et Disaster Recovery
-domain: sciences-appliquées
-subdomain: informatique / sécurité
+title: "Business Continuity et Disaster Recovery"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > GRC et Gouvernance"
 tags: [bcdr, disaster-recovery, business-continuity, rpo, rto, backup, résilience]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Business Continuity et Disaster Recovery

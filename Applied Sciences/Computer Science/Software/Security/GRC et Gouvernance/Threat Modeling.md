@@ -1,9 +1,9 @@
 ---
-title: Threat Modeling
-domain: sciences-appliquées
-subdomain: informatique / sécurité
+title: "Threat Modeling"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > GRC et Gouvernance"
 tags: [threat-modeling, stride, dread, attack-trees, secure-design, sécurité, architecture]
-date: 2026-03-23
+date: "2026-03-23"
 ---
 
 # Threat Modeling

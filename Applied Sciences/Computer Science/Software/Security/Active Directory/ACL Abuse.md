@@ -1,9 +1,9 @@
 ---
-title: ACL Abuse
-domain: sciences-appliquées
-subdomain: informatique / sécurité
+title: "ACL Abuse"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Active Directory"
 tags: [acl, active-directory, dacl, escalade-de-privilèges, sécurité, pentest]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # ACL Abuse

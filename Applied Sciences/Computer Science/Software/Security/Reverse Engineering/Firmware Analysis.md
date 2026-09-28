@@ -1,9 +1,9 @@
 ---
-title: Firmware Analysis
-domain: sciences-appliquées
-subdomain: informatique / sécurité
+title: "Firmware Analysis"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Reverse Engineering"
 tags: [firmware, iot, binwalk, ghidra, analyse-binaire, sécurité, reverse-engineering]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Firmware Analysis
