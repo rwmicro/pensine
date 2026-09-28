@@ -1,9 +1,9 @@
 ---
-title: Séries Temporelles
-domain: sciences-appliquées
-subdomain: informatique / machine-learning
+title: "Séries Temporelles"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Data Science > Machine Learning > Apprentissage"
 tags: [séries-temporelles, time-series, arima, lstm, prévision, machine-learning]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Séries Temporelles

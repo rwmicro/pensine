@@ -1,9 +1,9 @@
 ---
-title: NLP et Traitement du Langage Naturel
-domain: sciences-appliquées
-subdomain: informatique / machine-learning
+title: "NLP et Traitement du Langage Naturel"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Data Science > Machine Learning > Apprentissage"
 tags: [nlp, rnn, lstm, gru, seq2seq, attention, embeddings, machine-learning]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # NLP et Traitement du Langage Naturel

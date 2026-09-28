@@ -1,9 +1,9 @@
 ---
-title: Network Forensics
-domain: sciences-appliquées
-subdomain: informatique / sécurité / dfir
+title: "Network Forensics"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Defensive > SOC Analysis > DFIR"
 tags: [forensics, réseau, dfir, pcap, wireshark, investigation, sécurité]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Network Forensics

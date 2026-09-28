@@ -1,9 +1,9 @@
 ---
-title: Physical Security
-domain: sciences-appliquées
-subdomain: informatique / sécurité / platform-security
+title: "Physical Security"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Platform Security"
 tags: [physical-security, rfid, lock-picking, tailgating, usb-drop, red-team, sécurité]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Physical Security

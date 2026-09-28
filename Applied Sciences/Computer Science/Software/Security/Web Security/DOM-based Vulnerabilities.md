@@ -1,9 +1,9 @@
 ---
-title: DOM-based Vulnerabilities
-domain: sciences-appliquées
-subdomain: informatique / sécurité / web
+title: "DOM-based Vulnerabilities"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Web Security"
 tags: [dom, xss, dom-clobbering, javascript, client-side, sécurité, web]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # DOM-based Vulnerabilities

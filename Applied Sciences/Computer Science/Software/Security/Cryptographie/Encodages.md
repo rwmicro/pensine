@@ -1,9 +1,9 @@
 ---
-title: Encodages
-domain: sciences-appliquées
-subdomain: informatique / sécurité
+title: "Encodages"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Cryptographie"
 tags: [encodage, base64, hex, ascii, unicode, url-encoding, sécurité]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Encodages

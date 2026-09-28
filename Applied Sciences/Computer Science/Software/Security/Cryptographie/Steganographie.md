@@ -1,9 +1,9 @@
 ---
-title: Steganographie
-domain: sciences-appliquées
-subdomain: informatique / sécurité / cryptographie
+title: "Steganographie"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Cryptographie"
 tags: [steganographie, ctf, stegano, image, audio, sécurité]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Steganographie

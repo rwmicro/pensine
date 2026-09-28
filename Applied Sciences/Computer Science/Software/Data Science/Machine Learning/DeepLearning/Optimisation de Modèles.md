@@ -1,9 +1,9 @@
 ---
-title: Optimisation de Modèles — Pruning, Distillation, Quantization
-domain: sciences-appliquées
-subdomain: informatique / machine-learning / deep-learning
+title: "Optimisation de Modèles — Pruning, Distillation, Quantization"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Data Science > Machine Learning > DeepLearning"
 tags: [optimisation, pruning, distillation, quantization, edge-ai, deep-learning]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Optimisation de Modèles

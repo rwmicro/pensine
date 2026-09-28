@@ -1,9 +1,9 @@
 ---
-title: Lateral Movement
-domain: sciences-appliquées
-subdomain: informatique / sécurité
+title: "Lateral Movement"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Offensive"
 tags: [lateral-movement, active-directory, smb, wmi, rdp, pass-the-hash, sécurité, pentest]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Lateral Movement

@@ -1,9 +1,9 @@
 ---
-title: SMTP et Email Attacks
-domain: sciences-appliquées
-subdomain: informatique / sécurité
+title: "SMTP et Email Attacks"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Social Engineering"
 tags: [smtp, email, spf, dkim, dmarc, spoofing, phishing, sécurité]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # SMTP et Email Attacks

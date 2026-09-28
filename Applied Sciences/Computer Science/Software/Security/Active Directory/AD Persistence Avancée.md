@@ -1,9 +1,9 @@
 ---
-title: AD Persistence Avancée
-domain: sciences-appliquées
-subdomain: informatique / sécurité
+title: "AD Persistence Avancée"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Active Directory"
 tags: [active-directory, persistence, skeleton-key, dsrm, adminsdholder, golden-gmsa, pentest, sécurité]
-date: 2026-03-23
+date: "2026-03-23"
 ---
 
 # AD Persistence Avancée

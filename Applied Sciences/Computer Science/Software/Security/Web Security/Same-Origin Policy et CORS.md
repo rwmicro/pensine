@@ -1,9 +1,9 @@
 ---
-title: Same-Origin Policy et CORS
-domain: sciences-appliquées
-subdomain: informatique / sécurité / web
+title: "Same-Origin Policy et CORS"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Web Security"
 tags: [sop, cors, same-origin, web, sécurité, api]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Same-Origin Policy et CORS

@@ -1,9 +1,9 @@
 ---
-title: Prompt Injection et LLM Security
-domain: sciences-appliquées
-subdomain: informatique / sécurité / ai-security
+title: "Prompt Injection et LLM Security"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > AI Security"
 tags: [llm, prompt-injection, ai-security, owasp, jailbreak, sécurité, ia]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Prompt Injection et LLM Security

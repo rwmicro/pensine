@@ -1,9 +1,9 @@
 ---
-title: Path Traversal
-domain: sciences-appliquées
-subdomain: informatique / sécurité / web
+title: "Path Traversal"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Web Security"
 tags: [path-traversal, lfi, directory-traversal, web, sécurité]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Path Traversal

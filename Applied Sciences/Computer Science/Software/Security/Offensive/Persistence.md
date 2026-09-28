@@ -1,9 +1,9 @@
 ---
-title: Persistence
-domain: sciences-appliquées
-subdomain: informatique / sécurité
+title: "Persistence"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Offensive"
 tags: [persistence, windows, linux, backdoor, sécurité, pentest, red-team]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Persistence

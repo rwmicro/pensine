@@ -1,9 +1,9 @@
 ---
-title: Pivoting et Tunneling
-domain: sciences-appliquées
-subdomain: informatique / sécurité
+title: "Pivoting et Tunneling"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Offensive"
 tags: [pivoting, tunneling, chisel, ligolo, ssh, proxychains, pentest, sécurité]
-date: 2026-03-23
+date: "2026-03-23"
 ---
 
 # Pivoting et Tunneling

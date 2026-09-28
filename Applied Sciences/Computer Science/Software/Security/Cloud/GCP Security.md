@@ -1,9 +1,9 @@
 ---
-title: GCP Security
-domain: sciences-appliquées
-subdomain: informatique / sécurité / cloud
+title: "GCP Security"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Cloud"
 tags: [gcp, google-cloud, iam, cloud-security, metadata-server, pentest, sécurité]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # GCP Security

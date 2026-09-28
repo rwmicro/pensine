@@ -1,9 +1,9 @@
 ---
-title: Secure SDLC — Développement Sécurisé
-domain: sciences-appliquées
-subdomain: informatique / sécurité
+title: "Secure SDLC — Développement Sécurisé"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > GRC et Gouvernance"
 tags: [sdlc, secure-coding, sast, dast, threat-modeling, devops, sécurité]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Secure SDLC — Développement Sécurisé

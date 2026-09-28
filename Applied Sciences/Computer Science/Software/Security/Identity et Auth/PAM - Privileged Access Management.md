@@ -1,9 +1,9 @@
 ---
-title: PAM — Privileged Access Management
-domain: sciences-appliquées
-subdomain: informatique / sécurité
+title: "PAM — Privileged Access Management"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Identity et Auth"
 tags: [pam, iam, privileged-access, zero-trust, active-directory, sécurité]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # PAM — Privileged Access Management

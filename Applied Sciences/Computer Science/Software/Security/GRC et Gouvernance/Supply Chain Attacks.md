@@ -1,9 +1,9 @@
 ---
-title: Supply Chain Attacks
-domain: sciences-appliquées
-subdomain: informatique / sécurité
+title: "Supply Chain Attacks"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > GRC et Gouvernance"
 tags: [supply-chain, dependency-confusion, typosquatting, solarwinds, ci-cd, sécurité]
-date: 2026-03-23
+date: "2026-03-23"
 ---
 
 # Supply Chain Attacks

@@ -1,9 +1,9 @@
 ---
-title: Nuclei
-domain: sciences-appliquées
-subdomain: informatique / sécurité / offensive / outils
+title: "Nuclei"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Offensive > Tools"
 tags: [nuclei, scanner, templates, pentest, sécurité, outils, bug-bounty]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Nuclei

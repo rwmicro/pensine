@@ -1,9 +1,9 @@
 ---
-title: IPv4
-domain: sciences-appliquées
-subdomain: informatique / sécurité / réseau / fondamentaux
+title: "IPv4"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Networking > Fundamentals"
 tags: [sciences-appliquées, informatique, sécurité, ipv4, réseau, protocole]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # IPv4

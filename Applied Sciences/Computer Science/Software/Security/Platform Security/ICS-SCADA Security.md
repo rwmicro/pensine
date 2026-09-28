@@ -1,9 +1,9 @@
 ---
-title: Sécurité ICS/SCADA — Systèmes Industriels
-domain: sciences-appliquées
-subdomain: informatique / sécurité / platform-security
+title: "Sécurité ICS/SCADA — Systèmes Industriels"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Platform Security"
 tags: [ics, scada, ot, industrial, infrastructure-critique, sécurité]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Sécurité ICS/SCADA — Systèmes Industriels
