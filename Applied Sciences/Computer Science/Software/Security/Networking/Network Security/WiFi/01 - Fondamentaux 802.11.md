@@ -95,8 +95,3 @@ Les trames management sont **non chiffrées** par défaut et exploitables (deaut
 - **BSSID** : MAC de l'AP (identifiant unique)
 - **ESSID** : nom du réseau (humain)
 - **SSID** : terme générique pour le nom
-
-## Voir aussi
-
-- [[02 - Reconnaissance et Sniffing]]
-- [[09 - WPA3 et Vulnérabilités Modernes]]

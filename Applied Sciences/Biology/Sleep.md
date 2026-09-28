@@ -1,10 +1,13 @@
 ---
-title: "See Also"
+title: "Sleep"
 domain: "Applied Sciences"
 subdomain: "Biology"
 tags: [sciences-appliquées, biologie]
 date: "2026-02-04"
 ---
+
+# Sleep
+
 ### Sleep cycle
 
 A good sleep cycle is important for overall health and well-being. A normal sleep cycle is composed of 4 to 6 cycles of 90 minutes. 

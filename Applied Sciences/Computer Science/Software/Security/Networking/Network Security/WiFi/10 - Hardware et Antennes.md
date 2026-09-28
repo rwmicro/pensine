@@ -169,9 +169,3 @@ sudo iw reg set US
 ```
 
 **Note** : forcer un domaine plus permissif que le sien est illégal en émission. Restez en `FR`/`EU` hors lab isolé.
-
-## Voir aussi
-
-- [[02 - Reconnaissance et Sniffing]] — mise en monitor, tests
-- [[05 - Evil Twin et Phishing]] — setup 2 cartes
-- [[11 - Defense et Detection]] — WIDS hardware

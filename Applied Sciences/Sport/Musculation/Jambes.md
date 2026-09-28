@@ -118,7 +118,7 @@ La presse est particulièrement efficace pour développer la force et l’endura
 
 > [!tip] Méthode
 > La presse permet de charger lourd avec moins de stress lombaire que le squat, mais ce confort a un coût : le dos étant calé contre le dossier, le core ne travaille plus comme stabilisateur du tronc — un rôle central du squat libre. La presse est un bon complément pour surcharger les quadriceps sans fatigue systémique, pas un remplaçant complet du squat pour qui cherche aussi le transfert fonctionnel.
-# Musculation
+## Musculation
 
 
 Pecs :

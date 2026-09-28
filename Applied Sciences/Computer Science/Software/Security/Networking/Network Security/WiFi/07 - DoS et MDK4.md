@@ -221,10 +221,3 @@ Les attaques DoS WiFi sont illégales dans la plupart des juridictions, **même 
 
 > [!warning] Piège
 > "Tester sur son propre AP" ne veut pas dire "sans impact sur les autres" : un deauth broadcast ou un beacon flood affecte tout le voisinage radio sur le même canal, pas seulement le réseau ciblé. Même en appartement isolé, un test mal calibré peut couper le Wi-Fi des voisins — ce qui reste illégal indépendamment de l'intention.
-
-## Voir aussi
-
-- [[03 - Attaques WPA2-PSK]] — deauth comme catalyseur du handshake
-- [[05 - Evil Twin et Phishing]] — DoS + AP rogue
-- [[09 - WPA3 et Vulnérabilités Modernes]] — PMF et limites
-- [[11 - Defense et Detection]] — activer PMF et WIDS

@@ -6,6 +6,8 @@ tags: [sciences-sociales, langues, kabyle]
 date: "2025-06-26"
 ---
 
+# Origines et identité
+
 La langues kabyle est issue de l'alphabet Tifinagh 
 La langue **kabyle** (ou **tamaziɣt taqvaylit**, en kabyle) est une **langue berbère** appartenant à la famille afro-asiatique. Elle est parlée principalement en **Kabylie**, une région montagneuse du nord de l’Algérie, mais aussi par une importante diaspora kabyle à travers le monde, notamment en France.
 
@@ -33,7 +35,6 @@ La langue **kabyle** (ou **tamaziɣt taqvaylit**, en kabyle) est une **langue be
 - Il existe une distinction entre masculin/féminin et singulier/pluriel.
 - Verbes et noms ont une morphologie complexe, mais très logique pour les locuteurs.
 
-# Origines et identité
 
 La culture kabyle appartient à l'ensemble culturel berbère (amazigh), au même titre que celles des Chaouis, Touaregs, Chenouis ou Mozabites. Les Kabyles forment une ethnie berbère originaire de la Kabylie, une région montagneuse du nord de l’Algérie, à l’est d’Alger, bordée au nord par la Méditerranée et au sud par les Hauts Plateaux. La Kabylie est reconnue pour son histoire de résistance et son rôle central dans les mouvements pour la reconnaissance de l’identité amazighe en Algérie et en Afrique du Nord
 

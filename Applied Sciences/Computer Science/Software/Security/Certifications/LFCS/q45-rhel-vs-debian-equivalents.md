@@ -111,8 +111,6 @@ sudo systemctl enable --now nftables
 
 The `iptables` command on RHEL 8+/Debian 11+ is usually the `iptables-nft` shim that translates to nftables under the hood, so old rules still work.
 
----
-
 ## Cross-distribution cheat sheet
 
 | Task | Debian / Ubuntu | RHEL / Fedora |
