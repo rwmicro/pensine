@@ -8,7 +8,7 @@ date: "2026-05-29"
 
 # Threat Modeling pour la détection (SOC)
 
-> Pour le cadre général (4 questions de Shostack, DFD, STRIDE, DREAD, PASTA, arbres d'attaque, CVSS, intégration SDLC), voir la note canonique `[[Threat Modeling]]`. Cette note se concentre sur l'**usage défensif** du threat modeling côté SOC : transformer un modèle de menace en couverture de détection.
+> Pour le cadre général (4 questions de Shostack, DFD, STRIDE, DREAD, PASTA, arbres d'attaque, CVSS, intégration SDLC), voir la note canonique [[Threat Modeling]] `[[Threat Modeling]]`. Cette note se concentre sur l'**usage défensif** du threat modeling côté SOC : transformer un modèle de menace en couverture de détection.
 
 Côté SOC, le threat modeling ne sert pas à concevoir un système sécurisé mais à répondre à une question opérationnelle : **« contre quelles techniques d'attaque sommes-nous capables de détecter, et où sont nos angles morts ? »**
 
@@ -35,9 +35,3 @@ C'est l'outil central du threat modeling défensif (`mitre-attack.github.io/atta
 ## Priorisation par le risque
 
 Le SOC priorise ses efforts de détection avec les mêmes outils que la note canonique — **CVSS**, **matrice probabilité × impact**, et les **stratégies de traitement** (mitigate / transfer / accept / avoid) — mais appliqués à la *capacité de détection* plutôt qu'à la vulnérabilité elle-même : une technique à fort impact et fréquemment utilisée par les APT du secteur passe en tête du backlog de detection engineering.
-
-## Voir aussi
-
-- `[[Threat Modeling]]` — cadre général (conception sécurisée, frameworks)
-- `[[Detection Engineering]]`, `[[Sigma]]`, `[[Threat Hunting]]`
-- `[[Threat Intelligence]]`, `[[APT et Acteurs de la Menace]]`

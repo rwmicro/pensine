@@ -5,6 +5,9 @@ subdomain: "Languages - Dialects > Hakka-Khek > Vocabulary"
 tags: [sciences-sociales, langues, hakka]
 date: "2026-09-03"
 ---
+
+# Family Vocabulary
+
 ## Pontianak [PTK]
 
 |                             English                             |   Hakka/Khek    |

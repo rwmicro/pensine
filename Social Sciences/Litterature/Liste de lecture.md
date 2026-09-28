@@ -19,7 +19,7 @@ date: "2025-12-31"
 - Si c'est un homme — **Primo Levi**
 - La Route de la Kolyma — **Nicolas Werth**
 - Le Monde d'hier — **Stefan Zweig**
-# Romans existentiels / psychologiques / métaphysiques
+## Romans existentiels / psychologiques / métaphysiques
 - Le Procès — **Franz Kafka**
 - La Colonie pénitentiaire — **Franz Kafka**
 - Le Sang noir — **Louis Guilloux**
@@ -35,7 +35,7 @@ date: "2025-12-31"
 - La Condition humaine — **André Malraux**
 - Le Rivage des Syrtes — **Julien Gracq**
 - Cent ans de solitude — **Gabriel García Márquez**
-# Philosophie / théorie critique / anthropologie philosophique
+## Philosophie / théorie critique / anthropologie philosophique
 - La Part maudite — **Georges Bataille**
 - Rendre le monde indisponible — **Hartmut Rosa**
 - Dialectique de la raison — **Theodor Adorno & Max Horkheimer**
@@ -50,7 +50,7 @@ date: "2025-12-31"
 - La Crise de la culture — **Hannah Arendt**
 - L'Obsolescence de l'homme — **Günther Anders**
 - La Société de la fatigue - **Buyung-Chul Han**
-# Politique / totalitarisme / idéologies / géopolitique
+## Politique / totalitarisme / idéologies / géopolitique
 - Les Origines du totalitarisme — **Hannah Arendt**
 - Socialisme utopique et socialisme scientifique — **Friedrich Engels**
 - Les Damnés de la terre — **Frantz Fanon**
@@ -62,7 +62,7 @@ date: "2025-12-31"
 - Louis XI — **Paul Murray Kendall**
 - Magellan — **Stefan Zweig**
 - Les Bienveillantes — **Jonathan Littell**
-# Écologie / énergie / technique / décroissance
+## Écologie / énergie / technique / décroissance
 - Le Monde sans fin — **Jean-Marc Jancovici**
 - Ressources, un défi pour l'humanité — **Philippe Bihouix**
 - Homo Confort — **Stefano Boni**
@@ -72,7 +72,7 @@ date: "2025-12-31"
 - Le Système technicien — **Jacques Ellul**
 - Prosperity without Growth — **Tim Jackson**
 - Walden ou la Vie dans les bois — **Henry David Thoreau**
-# Anthropologie / sociologie / civilisations
+## Anthropologie / sociologie / civilisations
 - De l'inégalité parmi les sociétés — **Jared Diamond**
 - Le Troisième Chimpanzé — **Jared Diamond**
 - La Grande Transformation — **Karl Polanyi**
@@ -80,11 +80,11 @@ date: "2025-12-31"
 - Le Déclin de la petite bourgeoisie culturelle — **Élie Guéraut**
 - Féminicène — **Véra Nikolski**
 - Le loup bleu - **Yasushi Inoue**
-# Nature / vivant / relation au monde
+## Nature / vivant / relation au monde
 - Être un chêne — **Laurent Tillon**
 - Les Fantômes de la nuit — **Laurent Tillon**
 - La Possession du monde — **Sylvain Tesson**
-# Science-fiction / dystopies / spéculation civilisationnelle
+## Science-fiction / dystopies / spéculation civilisationnelle
 - Solaris — **Stanisław Lem**
 - Les Dépossédés — **Ursula K. Le Guin**
 - La Main gauche de la nuit — **Ursula K. Le Guin**
@@ -99,6 +99,6 @@ date: "2025-12-31"
 - Hypérion — **Dan Simmons**
 - Neuromancien — **William Gibson**
 - Fondation — **Isaac Asimov**
-# Ressources externes
+## Ressources externes
 - [Les indispensables de Sciences Po - SensCritique](https://www.senscritique.com/liste/les_indispensables_de_sciences_po/62288?utm_source=chatgpt.com)
 - [Socialisme utopique et socialisme scientifique (texte intégral)](https://www.marxists.org/francais/marx/80-utopi/utopie.pdf?utm_source=chatgpt.com)

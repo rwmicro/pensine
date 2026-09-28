@@ -44,7 +44,7 @@ try {con.close();} catch(Exception e2) {} // Not the best but there's no other w
 > Le pattern `try/catch/finally` avec fermeture manuelle montré ci-dessus est fragile (le commentaire "Not the best" ne ment pas) : depuis Java 7, `try-with-resources` (`try (Connection con = DriverManager.getConnection(...)) { ... }`) ferme automatiquement la connexion même en cas d'exception, sans bloc `finally` imbriqué à écrire soi-même.
 
 
-# Statements
+## Statements
 
 A statement is used to send queries to the database. They exists multiple statements.
 
@@ -97,7 +97,7 @@ int[] count = stmt.executeBatch();
 ```
 
 
-# Result Set
+## Result Set
 
 The `executeQuery()` method returns a `ResultSet` of the query.
 
@@ -119,7 +119,7 @@ System.out.println(n + " " + p + " " + a);
 ```
 
 
-# Table infos
+## Table infos
 
 In JDBC we can get table infos with the interface`DatabaseMetaData`.
 
@@ -154,7 +154,7 @@ System.out.println("This table contains" + nbCols + " columns.");
 ```
 
 
-# Transactions
+## Transactions
 
 By default each query get immediately a result after the `execute` method being executed. This approach can be conflictual. If a query return an error by the half of his execution, this may cause some problems. To counter this, we can choose the manner to commit our queries (manually or automatically) via the method `setAutoCommit(boolean result)`. If an error occur during the process we have to rollback, we use then the `rollback()` method.
 

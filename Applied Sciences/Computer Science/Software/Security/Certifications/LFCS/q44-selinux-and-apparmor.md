@@ -135,8 +135,6 @@ sudo sealert -a /var/log/audit/audit.log   # human-readable, suggests fixes (set
 ```
 A common exam pattern: a service fails to start *only* when SELinux is enforcing → set it permissive to confirm it's SELinux, then read the AVC and fix the context or boolean.
 
----
-
 ## AppArmor (Debian family)
 
 AppArmor is **path-based** (not label-based): each profile (under `/etc/apparmor.d/`) lists the files and capabilities a specific binary may use. Modes are **enforce** (block + log) or **complain** (log only).

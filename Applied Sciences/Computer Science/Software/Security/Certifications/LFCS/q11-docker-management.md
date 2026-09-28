@@ -253,6 +253,4 @@ Commercial support is available at
 </html>
 ```
 
----
-
 [← Question 10](q10-sshfs-and-nfs.md) · [Index](notes.md) · [Question 12 →](q12-git-workflow.md)

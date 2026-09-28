@@ -1,16 +1,18 @@
 ---
-title: "Why nmap choose to scan these ports ?"
+title: "nmap"
 domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Offensive > Tools"
 tags: [sciences-appliquées, informatique, sécurité, réseau]
 date: "2025-02-15"
 ---
 
+# nmap
+
 nmap is a command line interface port scanner. 
 
 > A ttl of 128 means that the operating system is probably Windows
 
-# Why nmap choose to scan these ports ?
+## Why nmap choose to scan these ports ?
 By default, nmap creates a map of the most frequently used ports. If the user performs a simple `nmap IP` scan. The command will scan the 1000 most used ports. You can find this map in the `/usr/share/nmap/nmap-services` file.
 
 > [!warning] Piège

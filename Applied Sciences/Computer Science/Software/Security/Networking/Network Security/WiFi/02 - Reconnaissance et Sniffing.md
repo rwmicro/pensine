@@ -184,9 +184,3 @@ AA:BB:...:FF       CC:DD:...:11       -45   1e- 1   0     320     MaisonSSID
 
 - `(not associated)` = client en cours de scan, non rattaché à un AP
 - `Probes` = SSIDs que le client a déjà recherchés (utile pour Karma)
-
-## Voir aussi
-
-- [[03 - Attaques WPA2-PSK]] — capture du handshake après recon
-- [[06 - Attaques WPA2-Enterprise]] — Karma exploite les probes
-- [[10 - Hardware et Antennes]] — cartes supportant injection/monitor
