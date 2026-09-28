@@ -68,7 +68,7 @@ L'évolution stylistique est visible : les premières scènes (Noé, peintes en 
 
 ### Le Jugement dernier (1536-1541)
 
-Peint sur le mur d'autel de la Sixtine, 25 ans après le plafond. L'atmosphère est radicalement différente : le sac de Rome (1527) et la Réforme protestante ont assombri le climat spirituel. 
+Peint sur le mur d'autel de la Sixtine, 25 ans après le plafond. L'atmosphère est radicalement différente : le sac de Rome (1527) et la [[Réforme protestante]] ont assombri le climat spirituel. 
 
 Plus de 300 figures tourbillonnent autour d'un Christ-juge musculeux qui sépare les élus (à gauche, montant) des damnés (à droite, descendant vers l'enfer). Les corps sont nus, tordus, terrifiés. Le peintre se représente lui-même dans la peau écorchée de saint Barthélemy — autoportrait de souffrance.
 

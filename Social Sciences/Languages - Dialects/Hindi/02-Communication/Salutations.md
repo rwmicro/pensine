@@ -9,7 +9,7 @@ date: "2026-04-01"
 
 ## Salutation principale — Namaste
 
-**नमस्ते** (Namaste) est la salutation universelle en hindi. Elle traverse tous les contextes (formel, informel), toutes les religions et toutes les classes sociales. Elle s'accompagne traditionnellement des mains jointes devant la poitrine (anjali mudra).
+**नमस्ते** (Namaste) est la salutation universelle en hindi. Elle traverse tous les contextes (formel, informel), toutes les religions et toutes les [[Stratification et Classes Sociales|classes sociales]]. Elle s'accompagne traditionnellement des mains jointes devant la poitrine (anjali mudra).
 
 | Variante | Contexte | Note |
 |---------|---------|------|

@@ -8,7 +8,7 @@ date: "2026-02-22"
 
 # De la Démocratie en Amérique — Alexis de Tocqueville (1835–1840)
 
-Alexis de Tocqueville (1805–1859) est un aristocrate français qui voyage aux États-Unis en 1831 pour observer le système pénitentiaire américain. Il en revient avec une analyse bien plus vaste : une réflexion fondamentale sur ce qu'est la démocratie, ses forces et ses dangers.
+[[Alexis de Tocqueville]] (1805–1859) est un aristocrate français qui voyage aux États-Unis en 1831 pour observer le système pénitentiaire américain. Il en revient avec une analyse bien plus vaste : une réflexion fondamentale sur ce qu'est la démocratie, ses forces et ses dangers.
 
 *De la Démocratie en Amérique* est publié en deux volumes (1835 et 1840). C'est l'un des textes politiques les plus importants du XIXe siècle, toujours d'actualité.
 

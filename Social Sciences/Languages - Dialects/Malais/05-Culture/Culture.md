@@ -14,7 +14,7 @@ La Malaisie est officiellement une société multiraciale composée de trois gra
 | Communauté | % Population | Langue maternelle | Religion dominante |
 |-----------|-------------|-------------------|-------------------|
 | Melayu (Malais) | ~67 % | Bahasa Malaysia | Islam |
-| Cina (Chinois) | ~23 % | Cantonais, Mandarin, Hokkien, Hakka | Bouddhisme, Taoïsme |
+| Cina (Chinois) | ~23 % | Cantonais, Mandarin, Hokkien, Hakka | Bouddhisme, [[Taoïsme]] |
 | India | ~7 % | Tamil, Malayalam, Telugu | Hindouisme |
 | Autres (Dayak, Kadazan...) | ~3 % | Langues locales | Animisme, Christianisme |
 

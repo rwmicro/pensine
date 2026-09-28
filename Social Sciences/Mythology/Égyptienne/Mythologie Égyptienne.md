@@ -13,7 +13,7 @@ date: "2026-02-25"
 **Plusieurs versions (Héliopolis, Memphis, Hermopolis, Thèbes):**
 
 > [!tip] Méthode
-> Ces cosmogonies concurrentes ne sont pas des versions "fausses" les unes des autres à départager — chaque grand centre religieux (Héliopolis, Memphis...) promeut sa propre divinité locale comme origine première, souvent pour des raisons politiques (asseoir le prestige de son clergé). Lire l'Égypte ancienne suppose d'accepter plusieurs récits d'origine simultanément valides, sans chercher une orthodoxie unique.
+> Ces cosmogonies concurrentes ne sont pas des versions "fausses" les unes des autres à départager — chaque grand centre religieux (Héliopolis, Memphis...) promeut sa propre divinité locale comme origine première, souvent pour des raisons politiques (asseoir le prestige de son clergé). Lire l'[[Égypte ancienne]] suppose d'accepter plusieurs récits d'origine simultanément valides, sans chercher une orthodoxie unique.
 
 **Héliopolis (dominante):**
 - **Noun:** Océan primordial, chaos aquatique
