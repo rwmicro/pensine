@@ -32,7 +32,7 @@ Langue : **kurde**, famille indo-iranienne, principalement deux dialectes : kurm
 
 ## Le tournant manqué : Sèvres et Lausanne (1920–1923)
 
-À la fin de la Première Guerre mondiale, le démantèlement de l'Empire ottoman semble ouvrir la voie à un État kurde.
+À la fin de la Première Guerre mondiale, le démantèlement de l'[[Empire ottoman]] semble ouvrir la voie à un État kurde.
 
 **Traité de Sèvres (10 août 1920)** : signé entre les Alliés et le sultan ottoman, il prévoit explicitement (articles 62 à 64) la création d'un Kurdistan autonome au sud-est de l'Anatolie, avec possibilité d'indépendance si la Société des Nations le constate dans un délai d'un an.
 

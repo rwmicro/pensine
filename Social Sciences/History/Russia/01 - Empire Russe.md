@@ -67,7 +67,7 @@ Après la mort de Pierre le Grand, la Russie traverse une période d'instabilit�
 Catherine II s'impose après avoir fait déposer (et tuer) son mari Pierre III. Allemande de naissance, elle correspond avec Voltaire et Diderot, invite ce dernier à Saint-Pétersbourg.
 
 **Réalisations :**
-- Extension du territoire (victoires contre l'Empire ottoman et la Suède)
+- Extension du territoire (victoires contre l'[[Empire ottoman]] et la Suède)
 - Partages de la Pologne avec la Prusse et l'Autriche
 - Codification des lois, réforme administrative
 - Développement de l'instruction publique pour la noblesse
@@ -107,7 +107,7 @@ Sous le choc de la défaite en Crimée, Alexandre II engage les plus grandes ré
 **Fin tragique :** Malgré (ou à cause de) ses réformes, il est assassiné en 1881 par des révolutionnaires populistes. Son fils et successeur Alexandre III, traumatisé, inversera toutes les réformes libérales.
 
 > [!warning] Piège
-> « Malgré (ou à cause de) » n'est pas une hésitation rhétorique gratuite : c'est le paradoxe de Tocqueville appliqué à la Russie — les régimes les plus dangereux pour eux-mêmes sont ceux qui commencent à réformer, car la réforme fait naître des attentes (ici, une émancipation paysanne perçue comme incomplète, sans terre) que le régime ne peut ensuite satisfaire ni retirer sans crise. Ce n'est pas l'immobilisme qui a tué Alexandre II, mais le mouvement.
+> « Malgré (ou à cause de) » n'est pas une hésitation rhétorique gratuite : c'est le paradoxe de [[Alexis de Tocqueville|Tocqueville]] appliqué à la Russie — les régimes les plus dangereux pour eux-mêmes sont ceux qui commencent à réformer, car la réforme fait naître des attentes (ici, une émancipation paysanne perçue comme incomplète, sans terre) que le régime ne peut ensuite satisfaire ni retirer sans crise. Ce n'est pas l'immobilisme qui a tué Alexandre II, mais le mouvement.
 
 
 ## La chute de l'Empire (1881–1917)

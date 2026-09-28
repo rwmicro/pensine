@@ -85,7 +85,7 @@ Le 5 octobre, Hitler assiste au défilé de la victoire dans une Varsovie en rui
 - **La Pologne disparaît** : divisée entre Allemagne (ouest) et URSS (est)
 - **Le gouvernement polonais en exil** se reconstitue à Londres
 - **L'armée polonaise** continue le combat en France, puis en Grande-Bretagne
-- **Début de la Shoah** en territoire polonais occupé : la Pologne compte 3,3 millions de Juifs, la plus grande communauté d'Europe
+- **Début de la [[Shoah]]** en territoire polonais occupé : la Pologne compte 3,3 millions de Juifs, la plus grande communauté d'Europe
 
 > [!important] Idée clé
 > Ce n'est pas un hasard géographique si la Shoah s'organise principalement en Pologne occupée plutôt qu'en Allemagne même : la partition de 1939 place le nazisme en contact direct avec la plus grande concentration juive d'Europe, loin du regard de l'opinion publique allemande, sur un territoire déjà classé comme « espace de germanisation » (cf. [[Lebensborn]]). La géographie de l'invasion dessine, sans le dire encore, la géographie du génocide à venir.

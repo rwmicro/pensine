@@ -49,8 +49,8 @@ timeline
 | Empire romain | 27 av. J.-C. – 476 apr. J.-C. | Du Maroc à la Mésopotamie |
 | Empire han (Chine) | 206 av. J.-C. – 220 apr. J.-C. | Chine + Asie centrale |
 | Empire arabe/islamique | 632 – 750 apr. J.-C. | Espagne → Inde |
-| Empire mongol | 1206 – 1368 | Plus grand empire contigu |
-| Empire ottoman | 1299 – 1922 | Moyen-Orient, Balkans, Afrique du Nord |
+| [[Empire mongol]] | 1206 – 1368 | Plus grand empire contigu |
+| [[Empire ottoman]] | 1299 – 1922 | Moyen-Orient, Balkans, Afrique du Nord |
 | Empire espagnol | XVIe – XIXe s. | Amériques, Philippines, Europe |
 | Empire britannique | XVIIe – XXe s. | Le plus étendu de l'histoire |
 

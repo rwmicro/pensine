@@ -54,7 +54,7 @@ La méthode scientifique n'est pas née en un jour. Elle s'élabore progressivem
 5. **Conclusion** : confirmer, infirmer ou affiner l'hypothèse
 6. **Réplication** : d'autres chercheurs reproduisent l'expérience
 
-Le philosophe Karl Popper a formalisé au XXe siècle le critère de **réfutabilité** : une théorie scientifique doit pouvoir être mise en défaut par l'observation. Ce qui ne peut pas être réfuté n'est pas de la science.
+Le philosophe [[Popper|Karl Popper]] a formalisé au XXe siècle le critère de **réfutabilité** : une théorie scientifique doit pouvoir être mise en défaut par l'observation. Ce qui ne peut pas être réfuté n'est pas de la science.
 
 > [!tip] Méthode
 > La réfutabilité est le test le plus rapide pour repérer une pseudo-science : demander "quelle observation, si elle se produisait, prouverait cette théorie fausse ?". Si aucune réponse n'est possible — la théorie s'ajuste toujours après coup pour "expliquer" n'importe quel résultat — ce n'est pas de la science au sens de Popper, quel que soit le vocabulaire employé.

@@ -72,8 +72,8 @@ timeline
 **Caractéristiques :**
 - Féodalité en Europe
 - Expansion de l'Islam (VIIe-VIIIe siècles)
-- Croisades (1095-1291)
-- Grands empires : Byzantin, Califats arabes, Empire mongol
+- [[Les Croisades|Croisades]] (1095-1291)
+- Grands empires : Byzantin, Califats arabes, [[Empire mongol]]
 - Renaissance du XIIe siècle (universités)
 
 **Événements clés :**
@@ -171,11 +171,34 @@ timeline
 
 | Événement | Période | Victimes | Lien |
 |-----------|---------|----------|------|
-| **Génocide arménien** | 1915-1923 | 1-1,5 million | Empire ottoman |
+| **Génocide arménien** | 1915-1923 | 1-1,5 million | [[Empire ottoman]] |
 | **Shoah** | 1941-1945 | 6 millions de Juifs | [[WW2/Lebensborn]] (contexte nazi) |
 | **Holodomor** | 1932-1933 | 3-5 millions | Famine organisée Ukraine (Staline) |
 | **Génocide cambodgien** | 1975-1979 | 1,5-2 millions | Khmers rouges (Pol Pot) |
 | **Génocide rwandais** | 1994 | 800 000-1 million | Tutsis et Hutus modérés |
+
+## Notes par période
+
+### Antiquité
+- [[Égypte ancienne]]
+- [[Grèce antique]]
+- [[Rome antique]]
+
+### Moyen Âge
+- [[Empire byzantin]]
+- [[Les Croisades]]
+- [[Empire mongol]]
+
+### Époque moderne
+- [[La Renaissance]]
+- [[Réforme protestante]]
+- [[Traite atlantique]]
+
+### XXe siècle
+- [[Shoah]]
+- [[Guerre froide]]
+- [[Construction européenne]]
+- [[Conflit israélo-palestinien]]
 
 ## Zones Géographiques
 
@@ -217,12 +240,22 @@ timeline
 - [[Russia/01 - Empire Russe]]
 - [[Russia/02 - Panelki]] : Urbanisme soviétique
 
+### Amériques
+- [[Histoire des États-Unis]]
+
+### Asie
+- [[Histoire de la Chine]]
+- [[Histoire du Japon]]
+- [[Histoire de l'Inde]]
+
 ### Afrique
 - [[Djibouti/Histoire]]
 
 ### Moyen-Orient
 - [[Syrie/Répartition Ethnique]] : Contexte conflit syrien
 - [[Kurdes/Histoire]] : Peuple sans État
+- [[Empire ottoman]]
+- [[Conflit israélo-palestinien]]
 
 ### Europe de l'Est
 - [[Pridnestrovie - Transnistrie]] : État non reconnu
@@ -232,6 +265,7 @@ timeline
 - [[WW2/Invasion of Poland]]
 - [[WW2/Lebensborn]]
 - [[WW2/Hierarchy in the German Army]]
+- [[Shoah]]
 
 ## Figures Historiques
 
@@ -305,7 +339,7 @@ timeline
 ### Histoire et Politique
 - Usages politiques de l'histoire (nationalisme, légitimation)
 - Lois mémorielles (loi Gayssot en France)
-- Négationnisme (Shoah, génocides)
+- Négationnisme ([[Shoah]], génocides)
 
 ### Histoire et Identité
 - Construction des identités nationales
