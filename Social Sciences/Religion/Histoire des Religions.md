@@ -16,7 +16,7 @@ Cette fonction stabilisatrice est aussi une fonction de contrôle : la religion 
 
 ## L'animisme : la religion des chasseurs-cueilleurs
 
-L'animisme est probablement la forme de spiritualité la plus ancienne et la plus universellement répandue. Il repose sur la conviction que tous les êtres — animaux, plantes, rochers, rivières, phénomènes météorologiques — sont habités par des esprits ou des forces auxquels on peut s'adresser.
+L'[[Animisme et Chamanisme|animisme]] est probablement la forme de spiritualité la plus ancienne et la plus universellement répandue. Il repose sur la conviction que tous les êtres — animaux, plantes, rochers, rivières, phénomènes météorologiques — sont habités par des esprits ou des forces auxquels on peut s'adresser.
 
 **Caractéristiques de l'animisme :**
 
@@ -81,7 +81,7 @@ Plusieurs grandes traditions religieuses n'ont pas de dieu personnel créateur m
 
 **Le bouddhisme** (~Ve s. av. J.-C.) : fondé sur l'enseignement de Siddhartha Gautama, il affirme que la souffrance résulte de l'attachement et peut être surmontée par la pratique du détachement (Huit Noble Chemin). Pas de dieu créateur, mais une loi cosmique (dharma) et un état à atteindre (nirvana).
 
-**Le confucianisme** : moins une religion qu'un code éthique et social, structurant les relations entre individus et garantissant l'harmonie sociale.
+**Le [[Confucianisme|confucianisme]]** : moins une religion qu'un code éthique et social, structurant les relations entre individus et garantissant l'harmonie sociale.
 
 ## Les religions séculières modernes
 
