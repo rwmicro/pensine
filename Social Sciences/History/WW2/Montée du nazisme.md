@@ -275,7 +275,7 @@ date: "2025-12-31"
 
 ### Intrigues et Manœuvres
 
-**Hindenburg (Président, 84 ans):**
+**Hindenburg (Président, 85 ans):**
 - Maréchal WWI, conservateur
 - Méprise Hitler ("caporal bohémien")
 - Mais entourage le pousse à composer avec nazis
@@ -371,14 +371,26 @@ Hitler insiste: prise pouvoir **légale** (après échec putsch 1923)
 
 ## Chronologie Rapide
 
-- **1918:** Défaite, abdication Kaiser
-- **1919:** Traité Versailles, naissance NSDAP
-- **1923:** Hyperinflation, Putsch Brasserie (échec)
-- **1924-1929:** Stabilisation, nazis marginaux
-- **1929:** Krach Wall Street
-- **1930:** Percée électorale (18%)
-- **1932:** Apogée électoral (37%)
-- **30 jan 1933:** Hitler Chancelier
+```mermaid
+timeline
+    title La montée du nazisme, 1918-1933
+    section Défaite et crises
+        9 novembre 1918 : Abdication de Guillaume II
+        11 novembre 1918 : Armistice
+        28 juin 1919 : Traité de Versailles
+        1920 : Putsch de Kapp : Le DAP devient le NSDAP
+        1923 : Occupation de la Ruhr et hyperinflation
+        8-9 novembre 1923 : Putsch de la Brasserie à Munich
+    section Années dorées
+        1924 : Plan Dawes
+        1926 : Entrée de l'Allemagne à la SDN
+        Mai 1928 : NSDAP à 2,6 %
+    section Conquête du pouvoir
+        Octobre 1929 : Krach de Wall Street
+        Septembre 1930 : Percée nazie à 18,3 %
+        Juillet 1932 : NSDAP premier parti avec 37,3 %
+        30 janvier 1933 : Hitler nommé chancelier
+```
 
 ## Leçons Historiques
 

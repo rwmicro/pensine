@@ -154,6 +154,28 @@ Pour Ankara, les YPG ne sont qu'une extension du PKK, donc une organisation terr
 
 ## Tableau récapitulatif chronologique
 
+```mermaid
+timeline
+    title Les Kurdes, un peuple sans État
+    section Frontières imposées
+        1920-1923 : Sèvres prévoit un Kurdistan : Lausanne enterre le projet
+        1925 : Révolte de Cheikh Saïd écrasée
+        1937-1938 : Massacre de Dersim
+        1946 : République de Mahabad, 11 mois
+    section Guérillas et génocide
+        1978-1984 : Fondation du PKK : Début de la guérilla en Turquie
+        1988 : Anfal et Halabja en Irak
+        1991 : Zone d'exclusion aérienne au nord de l'Irak
+        1999 : Capture d'Öcalan
+    section Autonomies
+        2005 : La Constitution irakienne reconnaît le KRG
+        2012 : Autonomie kurde en Syrie, le Rojava
+        2014-2015 : Bataille de Kobané
+        2017 : Référendum d'indépendance kurde irakien rejeté
+        2018-2019 : Occupation turque d'Afrin : Chute de Baghouz
+        2025 : Annonce de la dissolution du PKK
+```
+
 | Date | Événement |
 |---|---|
 | 1920 | Traité de Sèvres prévoit un Kurdistan |

@@ -15,6 +15,20 @@ period: "1527-1789"
 Le **jeu de paume** est le sport de raquette le plus ancien d'Europe, ancêtre direct du tennis. Né en France au Moyen Âge, il était pratiqué dans les cours royales et les monastères. **François Ier** l'institutionnalise en 1527 en codifiant ses règles et en faisant construire des salles dédiées.
 
 
+## Chronologie
+
+```mermaid
+timeline
+    title Le jeu de paume, du cloître au serment
+    section Un sport
+        XIIe siècle : Jeu à mains nues dans les cours des monastères
+        1527 : François Ier codifie le jeu : Construction des premiers tripots
+        XVIIe-XVIIIe siècle : Apogée, plus de 1 800 tripots à Paris
+    section Un symbole
+        20 juin 1789 : Serment du Jeu de Paume à Versailles
+        1790-1792 : Esquisse du Serment par Jacques-Louis David
+```
+
 ## Origine et histoire
 
 - **XIIe siècle** : pratiqué d'abord à mains nues (d'où "paume"), dans les cours des monastères. Puis avec des gants, enfin avec une raquette.

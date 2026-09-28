@@ -110,15 +110,25 @@ Du côté des soutiens à l'indépendance figurent Jean-Paul Sartre, Frantz Fano
 
 ## Chronologie
 
-- **1er nov 1954 :** Toussaint Rouge, début guerre
-- **20 août 1955 :** Massacre Philippeville
-- **1957 :** Bataille d'Alger
-- **13 mai 1958 :** Putsch, retour De Gaulle
-- **16 sept 1959 :** De Gaulle propose autodétermination
-- **1960-1961 :** OAS créée, attentats
-- **18 mars 1962 :** Accords d'Évian
-- **19 mars 1962 :** Cessez-le-feu
-- **5 juillet 1962 :** Indépendance Algérie
+```mermaid
+timeline
+    title La guerre d'Algérie, 1954-1962
+    section Insurrection
+        1er novembre 1954 : Toussaint Rouge, début de la guerre
+        20 août 1955 : Massacres de Philippeville et répression
+        1957 : Bataille d'Alger
+    section Crise française
+        13 mai 1958 : Putsch d'Alger, retour de De Gaulle
+        16 septembre 1959 : De Gaulle propose l'autodétermination
+        1959-1960 : Plan Challe
+        1960-1961 : Création de l'OAS, attentats
+    section Sortie de guerre
+        18 mars 1962 : Accords d'Évian
+        19 mars 1962 : Cessez-le-feu
+        8 avril 1962 : Référendum en France
+        1er juillet 1962 : Référendum d'autodétermination en Algérie
+        5 juillet 1962 : Indépendance de l'Algérie
+```
 
 ## Ressources
 

@@ -13,6 +13,21 @@ La **Transnistrie** (officiellement *République moldave du Pridnestrovie*) est 
 C'est un **État non reconnu** : il se gouverne lui-même depuis 1990, mais aucun membre de l'ONU ne le reconnaît officiellement comme pays indépendant.
 
 
+## Chronologie
+
+```mermaid
+timeline
+    title La Transnistrie, un conflit gelé
+    section Sécession
+        1990 : La Transnistrie se gouverne elle-même
+        1991 : Effondrement de l'URSS, indépendance moldave
+        1992 : Guerre entre Moldavie et séparatistes
+        Juillet 1992 : Cessez-le-feu, indépendance de facto
+    section Conflit gelé
+        Depuis 1992 : Présence militaire russe permanente
+        2022 : Invasion russe de l'Ukraine : Explosions en Transnistrie
+```
+
 ## Situation géographique
 
 - **Localisation** : bande de terre entre la Moldavie (à l'ouest) et l'Ukraine (à l'est)

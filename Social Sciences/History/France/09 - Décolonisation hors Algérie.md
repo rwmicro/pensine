@@ -15,6 +15,24 @@ period: "1946-1962"
 
 L'Algérie n'est qu'une partie de l'empire colonial français : la France administre au sortir de la Seconde Guerre mondiale un ensemble de territoires en Indochine, en Afrique du Nord, en Afrique subsaharienne, à Madagascar et dans les Antilles. Contrairement à l'Algérie (voir [[05 - Colonisation de l'Algérie]] et [[10 - Guerre d'Algérie]]), qui se solde par huit ans de guerre, la décolonisation du reste de l'empire suit deux trajectoires très différentes : une guerre longue et perdue en Indochine, et une indépendance largement négociée en Afrique subsaharienne.
 
+## Chronologie
+
+```mermaid
+timeline
+    title La décolonisation française hors Algérie
+    section Indochine
+        2 septembre 1945 : Hô Chi Minh proclame l'indépendance
+        1946 : Début de la guerre d'Indochine
+        7 mai 1954 : Chute de Diên Biên Phu
+        Juillet 1954 : Accords de Genève
+    section Madagascar
+        Mars 1947 : Insurrection malgache
+    section Afrique subsaharienne
+        1956 : Loi-cadre Defferre
+        1958 : Retour du général de Gaulle
+        1960 : Année de l'Afrique, quatorze indépendances
+```
+
 ## La guerre d'Indochine (1946-1954)
 
 Dès la fin de la Seconde Guerre mondiale, le Việt Minh, mouvement nationaliste et communiste dirigé par Hô Chi Minh, proclame l'indépendance du Vietnam le 2 septembre 1945. La France, qui entend restaurer son autorité coloniale, entre en guerre contre ce mouvement à partir de 1946. Le conflit s'enlise pendant huit ans dans une guérilla que l'armée française, mieux équipée mais mal adaptée au terrain et de plus en plus isolée politiquement, ne parvient pas à briser.
