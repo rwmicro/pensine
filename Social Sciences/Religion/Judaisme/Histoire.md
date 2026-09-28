@@ -53,14 +53,14 @@ Après la destruction du Second Temple:
 - Grands penseurs: Maïmonide, Juda Halevi, Ibn Gabirol
 
 #### Persécutions en Europe chrétienne
-- Croisades (1096-1291): massacres de communautés juives
+- [[Les Croisades|Croisades]] (1096-1291): massacres de communautés juives
 - Expulsions: Angleterre (1290), France (1306 et 1394), Espagne (1492), Portugal (1497)
 - Ghettos et restrictions
 - Accusations de meurtre rituel et de profanation d'hosties
 
 #### Développement du judaïsme ashkénaze et séfarade
 - Ashkénazes: Europe centrale et de l'Est
-- Séfarades: péninsule ibérique, puis Afrique du Nord et Empire ottoman après les expulsions
+- Séfarades: péninsule ibérique, puis Afrique du Nord et [[Empire ottoman]] après les expulsions
 
 > [!warning] Piège
 > Ashkénaze/séfarade n'est pas une distinction religieuse (les deux suivent la même Torah et le même Talmud) mais géographique et rituelle — prononciation de l'hébreu, mélodies liturgiques, coutumes culinaires (kitniyot à Pessah), style de piyyoutim. Confondre cette distinction avec une différence de branche (orthodoxe/réformé, qui elle est doctrinale) est une erreur fréquente.

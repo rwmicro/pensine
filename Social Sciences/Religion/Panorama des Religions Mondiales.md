@@ -127,7 +127,19 @@ Les **cinq K** (signes distinctifs des Sikhs baptisés) : Kesh (cheveux non coup
 
 **Géographie** : Pendjab indien (~20 millions), diaspora (Canada, Royaume-Uni, Etats-Unis).
 
+### Jaïnisme
+
+*Voir le développement complet : [[Jaïnisme]]*
+
+## Les religions d'Asie de l'Est et de Perse
+
+- [[Taoïsme]] et [[Confucianisme]] : les deux grandes traditions chinoises, souvent pratiquées ensemble avec le bouddhisme
+- [[Shintoïsme]] : culte des kami au Japon
+- [[Zoroastrisme]] : religion de la Perse ancienne, aujourd'hui portée par de petites communautés en Iran et en Inde
+
 ## Religions traditionnelles et animisme
+
+*Voir le développement complet : [[Religions traditionnelles africaines]] et [[Animisme et Chamanisme]]*
 
 Les religions traditionnelles (africaines, amérindiennes, océaniennes, sibériennes) partagent des traits communs malgré leur grande diversité :
 
@@ -151,12 +163,12 @@ Les religions traditionnelles (africaines, amérindiennes, océaniennes, sibéri
 | Afrique subsaharienne | Christianisme + Islam + religions traditionnelles |
 | Asie du Sud | Hindouisme (Inde), Islam (Pakistan, Bangladesh) |
 | Asie du Sud-Est | Bouddhisme theravada (continent), Islam (Indonésie, Malaisie) |
-| Asie de l'Est | Bouddhisme mahayana, confucianisme, taoïsme, shintoïsme (Japon) |
+| Asie de l'Est | Bouddhisme mahayana, [[Confucianisme\|confucianisme]], [[Taoïsme\|taoïsme]], [[Shintoïsme\|shintoïsme]] (Japon) |
 | Asie centrale | Islam |
 
 ## Dynamiques contemporaines
 
-- **Sécularisation** en Europe et en Asie de l'Est : recul de la pratique religieuse, montée de l'athéisme et de l'agnosticisme
+- **Sécularisation** en Europe et en Asie de l'Est : recul de la pratique religieuse, montée de l'[[Athéisme et Agnosticisme|athéisme]] et de l'agnosticisme
 - **Croissance du pentecôtisme** en Afrique et en Amérique latine : christianisme émotionnel, guérisons, prospérité
 - **Islam en croissance** démographique (taux de natalité élevé, jeunesse de la population)
 - **Hindouisme politique** (*Hindutva*) en Inde sous le BJP
