@@ -55,7 +55,7 @@ Le terme "fondamentalisme", né dans le protestantisme américain du début du X
 
 **La religion civile (Robert Bellah)** : concept forgé pour décrire, notamment dans le cas américain, un ensemble de croyances, symboles et rituels partagés qui investissent la nation elle-même d'une dimension quasi sacrée (serment sur la Bible, référence à Dieu dans les discours présidentiels, mémoriaux nationaux traités comme des lieux de pèlerinage civique) — indépendamment de toute appartenance confessionnelle particulière, prolongeant à sa manière l'intuition durkheimienne que le sacré peut investir des objets profanes.
 
-**La laïcité à la française** : modèle spécifique de séparation entre l'État et les institutions religieuses (loi de 1905), souvent comparé et opposé à d'autres régimes de gestion du pluralisme religieux (le multiculturalisme anglo-saxon, la neutralité religieuse plus souple de nombreux pays européens) — objet de débats sociologiques vifs sur son application contemporaine (port de signes religieux dans l'espace public, financement des lieux de culte, gestion du pluralisme religieux croissant).
+**La [[Laïcité|laïcité]] à la française** : modèle spécifique de séparation entre l'État et les institutions religieuses (loi de 1905), souvent comparé et opposé à d'autres régimes de gestion du pluralisme religieux (le multiculturalisme anglo-saxon, la neutralité religieuse plus souple de nombreux pays européens) — objet de débats sociologiques vifs sur son application contemporaine (port de signes religieux dans l'espace public, financement des lieux de culte, gestion du pluralisme religieux croissant).
 
 ## Auteurs de référence
 

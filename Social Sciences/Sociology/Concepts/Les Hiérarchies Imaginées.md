@@ -68,7 +68,7 @@ En 1950, la Constitution indienne a interdit la discrimination par caste. En pra
 
 ### Les hiérarchies économiques
 
-Les classes sociales sont également des hiérarchies imaginées, bien qu'elles aient une base matérielle plus directe (contrôle des ressources). Ce qui est imaginé, c'est la légitimation de ces inégalités :
+Les [[Stratification et Classes Sociales|classes sociales]] sont également des hiérarchies imaginées, bien qu'elles aient une base matérielle plus directe (contrôle des ressources). Ce qui est imaginé, c'est la légitimation de ces inégalités :
 
 - La "méritocratie" : les riches le sont parce qu'ils le méritent
 - La "volonté divine" : la pauvreté comme épreuve ou punition

@@ -94,7 +94,7 @@ Comparer permet de :
 
 | Type de comparaison | Exemple |
 |---|---|
-| **Historique** | Comparer la France de 1850 et de 2020 (Tocqueville, Elias) |
+| **Historique** | Comparer la France de 1850 et de 2020 ([[Alexis de Tocqueville\|Tocqueville]], Elias) |
 | **Internationale** | Comparer les systèmes éducatifs de différents pays (Dubet, PISA) |
 | **Intersectorielle** | Comparer un hopital, une prison et une caserne comme "institutions totales" (Goffman) |
 
