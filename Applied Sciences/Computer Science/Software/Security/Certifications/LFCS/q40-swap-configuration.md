@@ -1,3 +1,11 @@
+---
+title: "LFCS Q40 — Swap Configuration"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, swap]
+date: "2026-08-09"
+---
+
 # Question 40 — Swap Configuration
 
 ## Notes d'apprentissage

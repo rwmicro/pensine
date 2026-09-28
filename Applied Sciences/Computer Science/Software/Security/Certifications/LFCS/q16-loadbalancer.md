@@ -1,3 +1,11 @@
+---
+title: "LFCS Q16 — LoadBalancer"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, loadbalancer]
+date: "2026-08-09"
+---
+
 # Question 16 — LoadBalancer
 
 ## Notes d'apprentissage

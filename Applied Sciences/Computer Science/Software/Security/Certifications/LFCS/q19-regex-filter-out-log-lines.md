@@ -1,3 +1,11 @@
+---
+title: "LFCS Q19 — Regex, filter out log lines"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, regex, filter, lines]
+date: "2026-08-09"
+---
+
 # Question 19 — Regex, filter out log lines
 
 ## Notes d'apprentissage

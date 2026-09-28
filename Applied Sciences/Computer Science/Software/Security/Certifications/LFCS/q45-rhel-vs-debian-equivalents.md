@@ -1,3 +1,11 @@
+---
+title: "LFCS Q45 — RHEL vs Debian Equivalents"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, rhel, debian, equivalents]
+date: "2026-08-09"
+---
+
 # Question 45 — RHEL vs Debian Equivalents
 
 ## Notes d'apprentissage

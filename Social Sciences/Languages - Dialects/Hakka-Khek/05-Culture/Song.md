@@ -1,4 +1,12 @@
-# **Nyi ti ng ti mo ngai an thung sim**
+---
+title: "Nyi ti ng ti mo ngai an thung sim"
+domain: "Social Sciences"
+subdomain: "Languages - Dialects > Hakka-Khek > Resources"
+tags: [hakka, chanson, culture]
+date: "2026-09-03"
+---
+
+# Nyi ti ng ti mo ngai an thung sim
 https://www.youtube.com/watch?v=w-qXQ4sCfzM
 
 *(Kamu tau tidak kalau saya sakit hati)*

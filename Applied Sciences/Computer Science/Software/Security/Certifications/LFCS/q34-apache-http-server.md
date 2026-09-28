@@ -1,3 +1,11 @@
+---
+title: "LFCS Q34 — Apache HTTP Server"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, apache, http, server]
+date: "2026-08-09"
+---
+
 # Question 34 — Apache HTTP Server
 
 ## Notes d'apprentissage

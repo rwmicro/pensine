@@ -1,3 +1,11 @@
+---
+title: "LFCS Q35 — Database Server"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, database, server]
+date: "2026-08-09"
+---
+
 # Question 35 — Database Server
 
 ## Notes d'apprentissage

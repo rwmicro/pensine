@@ -1,3 +1,11 @@
+---
+title: "LFCS Q15 — Build and install from source"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, build, install, from]
+date: "2026-08-09"
+---
+
 # Question 15 — Build and install from source
 
 ## Notes d'apprentissage

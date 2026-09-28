@@ -1,3 +1,11 @@
+---
+title: "LFCS Q31 — Network Configuration"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, network]
+date: "2026-08-09"
+---
+
 # Question 31 — Network Configuration
 
 ## Notes d'apprentissage

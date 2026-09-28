@@ -1,3 +1,11 @@
+---
+title: "LFCS Q11 — Docker Management"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, docker, management]
+date: "2026-08-09"
+---
+
 # Question 11 — Docker Management
 
 ## Notes d'apprentissage

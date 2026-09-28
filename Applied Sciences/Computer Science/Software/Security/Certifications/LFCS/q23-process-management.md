@@ -1,3 +1,11 @@
+---
+title: "LFCS Q23 — Process Management"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, process, management]
+date: "2026-08-09"
+---
+
 # Question 23 — Process Management
 
 ## Notes d'apprentissage

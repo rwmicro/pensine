@@ -1,3 +1,11 @@
+---
+title: "LFCS Q29 — Links and File Attributes"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, links, file, attributes]
+date: "2026-08-09"
+---
+
 # Question 29 — Links and File Attributes
 
 ## Notes d'apprentissage

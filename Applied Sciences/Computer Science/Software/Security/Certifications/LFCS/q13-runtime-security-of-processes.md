@@ -1,3 +1,11 @@
+---
+title: "LFCS Q13 — Runtime Security of processes"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, runtime, security, processes]
+date: "2026-08-09"
+---
+
 # Question 13 — Runtime Security of processes
 
 ## Notes d'apprentissage

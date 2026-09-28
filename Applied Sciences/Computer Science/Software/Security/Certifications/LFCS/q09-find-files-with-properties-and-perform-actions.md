@@ -1,3 +1,11 @@
+---
+title: "LFCS Q09 — Find files with properties and perform actions"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, find, files]
+date: "2026-08-09"
+---
+
 # Question 9 — Find files with properties and perform actions
 
 ## Notes d'apprentissage

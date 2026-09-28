@@ -1,3 +1,11 @@
+---
+title: "LFCS Q24 — System Logs"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, system, logs]
+date: "2026-08-09"
+---
+
 # Question 24 — System Logs
 
 ## Notes d'apprentissage

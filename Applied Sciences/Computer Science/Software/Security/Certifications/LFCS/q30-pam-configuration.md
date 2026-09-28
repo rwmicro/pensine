@@ -1,3 +1,11 @@
+---
+title: "LFCS Q30 — PAM Configuration"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification]
+date: "2026-08-09"
+---
+
 # Question 30 — PAM Configuration
 
 ## Notes d'apprentissage
