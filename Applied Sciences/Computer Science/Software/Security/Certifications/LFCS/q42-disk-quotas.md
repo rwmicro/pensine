@@ -1,3 +1,11 @@
+---
+title: "LFCS Q42 — Disk Quotas"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, disk, quotas]
+date: "2026-08-09"
+---
+
 # Question 42 — Disk Quotas
 
 ## Notes d'apprentissage

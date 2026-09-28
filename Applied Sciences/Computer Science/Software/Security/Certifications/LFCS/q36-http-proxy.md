@@ -1,3 +1,11 @@
+---
+title: "LFCS Q36 — HTTP Proxy"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, http, proxy]
+date: "2026-08-09"
+---
+
 # Question 36 — HTTP Proxy
 
 ## Notes d'apprentissage

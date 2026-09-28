@@ -1,3 +1,11 @@
+---
+title: "LFCS Q43 — Kernel Modules"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, kernel, modules]
+date: "2026-08-09"
+---
+
 # Question 43 — Kernel Modules
 
 ## Notes d'apprentissage

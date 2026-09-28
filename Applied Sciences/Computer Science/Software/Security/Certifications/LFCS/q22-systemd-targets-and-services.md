@@ -1,3 +1,11 @@
+---
+title: "LFCS Q22 — Systemd Targets and Services"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, systemd, targets, services]
+date: "2026-08-09"
+---
+
 # Question 22 — Systemd Targets and Services
 
 ## Notes d'apprentissage

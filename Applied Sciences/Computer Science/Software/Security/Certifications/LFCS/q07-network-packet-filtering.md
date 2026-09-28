@@ -1,3 +1,11 @@
+---
+title: "LFCS Q07 — Network Packet Filtering"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, network, packet, filtering]
+date: "2026-08-09"
+---
+
 # Question 7 — Network Packet Filtering
 
 ## Notes d'apprentissage

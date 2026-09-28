@@ -1,3 +1,11 @@
+---
+title: "LFCS Q37 — Mail Aliases and Postfix"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, mail, aliases, postfix]
+date: "2026-08-09"
+---
+
 # Question 37 — Mail Aliases and Postfix
 
 ## Notes d'apprentissage

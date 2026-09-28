@@ -1,3 +1,11 @@
+---
+title: "LFCS Q39 — LUKS Encrypted Storage"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, luks, encrypted, storage]
+date: "2026-08-09"
+---
+
 # Question 39 — LUKS Encrypted Storage
 
 ## Notes d'apprentissage

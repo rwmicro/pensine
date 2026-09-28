@@ -1,3 +1,11 @@
+---
+title: "LFCS Q12 — Git Workflow"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, workflow]
+date: "2026-08-09"
+---
+
 # Question 12 — Git Workflow
 
 ## Notes d'apprentissage

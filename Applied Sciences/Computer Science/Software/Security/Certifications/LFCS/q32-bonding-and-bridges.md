@@ -1,3 +1,11 @@
+---
+title: "LFCS Q32 — Bonding and Bridges"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, bonding, bridges]
+date: "2026-08-09"
+---
+
 # Question 32 — Bonding and Bridges
 
 ## Notes d'apprentissage

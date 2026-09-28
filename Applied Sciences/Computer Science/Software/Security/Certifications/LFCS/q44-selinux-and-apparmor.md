@@ -1,3 +1,11 @@
+---
+title: "LFCS Q44 — SELinux and AppArmor (MAC)"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, selinux, apparmor]
+date: "2026-08-09"
+---
+
 # Question 44 — SELinux and AppArmor (MAC)
 
 ## Notes d'apprentissage

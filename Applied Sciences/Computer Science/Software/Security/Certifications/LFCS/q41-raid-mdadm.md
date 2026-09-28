@@ -1,3 +1,11 @@
+---
+title: "LFCS Q41 — Software RAID with mdadm"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, raid, mdadm]
+date: "2026-08-09"
+---
+
 # Question 41 — Software RAID with mdadm
 
 ## Notes d'apprentissage
