@@ -10,6 +10,24 @@ date: "2026-08-08"
 
 Seul courant philosophique majeur né aux États-Unis, le pragmatisme rejette l'idée que la vérité d'une croyance se mesure à sa correspondance abstraite avec une réalité indépendante — il propose de la juger à ses **conséquences pratiques**, à ce qu'elle permet de faire et d'anticiper avec succès dans l'expérience.
 
+## Chronologie
+
+```mermaid
+timeline
+    title Le pragmatisme
+    section Pragmatisme classique
+        1878 : Peirce, Comment rendre nos idées claires
+        1898 : James lance publiquement le mot pragmatisme
+        1902 : James, Les Variétés de l'expérience religieuse
+        1905 : Peirce rebaptise sa doctrine pragmaticisme
+        1907 : James, Pragmatism
+        1916 : Dewey, Democracy and Education
+        1938 : Dewey, Logique, la théorie de l'enquête
+    section Néo-pragmatisme
+        1979 : Rorty, Philosophy and the Mirror of Nature
+        1991 : Boltanski et Thévenot, De la justification
+```
+
 ## Peirce : la maxime pragmatiste
 
 Charles Sanders Peirce fonde le mouvement dans un article fondateur, "Comment rendre nos idées claires" (1878), où il formule la **maxime pragmatiste** : pour clarifier entièrement le sens d'un concept, il suffit de considérer l'ensemble des effets pratiques, concevables, que ce concept implique.

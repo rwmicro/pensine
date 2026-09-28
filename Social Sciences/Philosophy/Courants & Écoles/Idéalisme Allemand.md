@@ -10,6 +10,26 @@ date: "2026-08-08"
 
 Mouvement philosophique le plus systématique de l'histoire européenne, qui part de la révolution critique de Kant pour la radicaliser jusqu'à en tirer des systèmes métaphysiques englobant l'histoire, la nature et l'esprit tout entiers. En cinquante ans à peine (Kant meurt en 1804, Hegel en 1831), l'Allemagne produit la philosophie la plus influente sur tout le XIXe siècle — jusqu'au marxisme, qui en est un héritier direct et critique.
 
+## Chronologie
+
+```mermaid
+timeline
+    title L'idéalisme allemand
+    section Le point de départ kantien
+        1781 : Kant, Critique de la raison pure
+        1788 : Kant, Critique de la raison pratique
+    section Les systèmes
+        1794 : Fichte, Doctrine de la science
+        1800 : Schelling, Système de l'idéalisme transcendantal
+        1804 : Mort de Kant
+        1807 : Hegel, Phénoménologie de l'esprit
+        1812-1816 : Hegel, Science de la logique
+        1831 : Mort de Hegel
+    section Héritiers et critiques
+        1846 : Kierkegaard, Post-scriptum
+        1867 : Marx, Le Capital, livre I
+```
+
 ## Le point de départ : l'héritage problématique de Kant
 
 Kant a établi que nous ne connaissons jamais les choses en soi (les **noumènes**), seulement les phénomènes tels qu'organisés par les structures a priori de notre esprit — voir [[Kant]], [[Épistémologie#Kant : la synthèse critique|Épistémologie]]. Cette limite, censée protéger la connaissance humaine contre la spéculation métaphysique incontrôlée, apparaît vite insatisfaisante à ses successeurs : comment peut-on même *affirmer* l'existence d'une chose en soi inconnaissable, sans déjà la connaître un minimum (au moins comme cause de nos phénomènes) ? L'idéalisme allemand naît de cette tension : il s'agit de dépasser le dualisme kantien phénomène/noumène pour retrouver un savoir absolu, sans reste inconnaissable.

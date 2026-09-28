@@ -10,6 +10,25 @@ date: "2026-08-08"
 
 Mouvement philosophique né autour du **Cercle de Vienne**, qui tente de fonder une philosophie strictement scientifique en éliminant, comme dénuée de sens, toute proposition non vérifiable empiriquement ou logiquement. Malgré son effondrement théorique rapide, il façonne durablement la philosophie des sciences et l'exigence de rigueur de toute la philosophie analytique du XXe siècle.
 
+## Chronologie
+
+```mermaid
+timeline
+    title Le positivisme logique
+    section Racines
+        1830-1842 : Comte, Cours de philosophie positive
+        1879 : Frege, Begriffsschrift
+        1921 : Wittgenstein, Tractatus
+    section Le Cercle de Vienne
+        1922 : Schlick obtient sa chaire à Vienne
+        1929 : Manifeste du Cercle de Vienne
+        1932 : Carnap, Le dépassement de la métaphysique
+        1936 : Ayer, Langage, vérité et logique : Assassinat de Schlick
+    section Critiques et héritiers
+        1951 : Quine, Deux dogmes de l'empirisme
+        1962 : Kuhn, La Structure des révolutions scientifiques
+```
+
 ## Le Cercle de Vienne
 
 Groupe de philosophes, logiciens et scientifiques réunis autour de Moritz Schlick à l'Université de Vienne dans les années 1920 (Rudolf Carnap, Otto Neurath, Herbert Feigl, avec Alfred J. Ayer pour la diffusion britannique). Leur *Manifeste* (1929) affiche un projet explicite : refonder la philosophie sur le modèle des sciences empiriques, en rupture avec toute la tradition métaphysique allemande (l'idéalisme, mais aussi Heidegger, cible désignée de leurs attaques).

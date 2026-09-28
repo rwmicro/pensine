@@ -16,6 +16,26 @@ En philosophie, le marxisme représente une rupture fondamentale : Marx ne cherc
 
 > "Les philosophes n'ont fait qu'interpréter le monde de diverses façons ; or, ce qui importe, c'est de le changer." (*XIe thèse sur Feuerbach*, 1845)
 
+## Chronologie
+
+```mermaid
+timeline
+    title Le marxisme
+    section Marx et Engels
+        1844 : Manuscrits de 1844, l'aliénation
+        1845 : Thèses sur Feuerbach
+        1848 : Manifeste du Parti communiste
+        1864 : Première Internationale
+        1867 : Le Capital, livre I
+        1875 : Critique du programme de Gotha
+        1883 : Mort de Marx
+    section Héritiers
+        1917 : Révolution russe, léninisme
+        1923 : Fondation de l'École de Francfort
+        1965 : Althusser, Pour Marx
+        1978 : Cohen, Karl Marx's Theory of History
+```
+
 ## Contexte Historique
 
 - **Révolution industrielle** : prolétariat urbain, conditions de travail déshumanisantes

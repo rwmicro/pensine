@@ -35,8 +35,6 @@ timeline
         Contemporain : Singer : Nussbaum : Butler : Bostrom : Latour
 ```
 
----
-
 ## Carte des influences majeures
 
 ```mermaid
@@ -66,8 +64,6 @@ graph TD
     Marx --> Foucault
     Nietzsche --> Derrida
 ```
-
----
 
 ## Antiquité — 6e siècle av. J.-C. au 5e siècle ap. J.-C.
 
@@ -108,8 +104,6 @@ Après Alexandre le Grand : la philosophie quitte les académies pour la vie pra
 | **Cynisme** | Antisthène / Diogène (~412–323) | Vie conforme à la nature, rejet des conventions | Mouvements de décroissance, critique de la société de consommation |
 | **Scepticisme** | Pyrrhon (~365–270) | Suspension du jugement (*épochè*), tranquillité | Épistémologie contemporaine, méthode scientifique |
 
----
-
 ## Philosophie Médiévale — 5e au 15e siècle
 
 La philosophie se met au service de la théologie (*philosophia ancilla theologiae*) — mais conserve des tensions productives.
@@ -122,8 +116,6 @@ La philosophie se met au service de la théologie (*philosophia ancilla theologi
 | **Averroès (Ibn Rushd)** | 1126–1198 | Grand commentateur d'Aristote. Distingue raison et foi | L'Europe chrétienne lit Aristote en arabe avant de le lire en grec |
 | **Thomas d'Aquin** | 1225–1274 | Christianisme + aristotélisme. *Somme théologique*. Cinq preuves de l'existence de Dieu | Synthèse la plus ambitieuse du Moyen Âge |
 | **Guillaume d'Occam** | ~1287–1347 | Rasoir d'Occam — ne pas multiplier les entités inutilement. Nominalisme | "Les universaux n'existent que dans l'esprit" — préfigure l'empirisme |
-
----
 
 ## Philosophie Moderne — 15e au 18e siècle
 
@@ -150,8 +142,6 @@ La philosophie se met au service de la théologie (*philosophia ancilla theologi
 | **Rousseau** | 1712–1778 | *Du Contrat Social*, *Émile*, *Discours sur l'inégalité* | Volonté générale, bonté naturelle, éducation |
 | **Voltaire** | 1694–1778 | *Candide*, *Dictionnaire philosophique* | Critique religieuse, tolérance, liberté de pensée |
 | **Kant** | 1724–1804 | *Critique de la raison pure*, *Fondements de la métaphysique des mœurs* | Révolution copernicienne, impératif catégorique, paix perpétuelle |
-
----
 
 ## Philosophie Contemporaine — 19e siècle à aujourd'hui
 
@@ -203,8 +193,6 @@ La philosophie se met au service de la théologie (*philosophia ancilla theologi
 - **Philosophie de l'anthropocène** : Bruno Latour (*Face à Gaïa*), Timothy Morton
 - **Altruisme efficace** : Peter Singer, Will MacAskill
 - **Philosophie féministe et décoloniale** : bell hooks, Achille Mbembe, Judith Butler
-
----
 
 ## Grandes tensions traversant l'histoire
 

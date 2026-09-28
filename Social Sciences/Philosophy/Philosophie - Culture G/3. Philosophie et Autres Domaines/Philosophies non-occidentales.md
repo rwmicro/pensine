@@ -14,7 +14,27 @@ La philosophie telle qu'elle est enseignée en France est presque entièrement e
 
 Ce fichier est une introduction, non une exhaustivité. Il vise à situer ces traditions et à ouvrir des comparaisons fructueuses.
 
----
+## Chronologie
+
+```mermaid
+timeline
+    title Philosophies non-occidentales
+    section Inde
+        Ve-IVe s. av. J.-C. : Bouddha, les Quatre Nobles Vérités
+        IIe s. : Nāgārjuna, philosophie de la vacuité
+        VIIIe s. : Shankaracharya, Advaita Vedanta
+    section Chine et Japon
+        551-479 av. J.-C. : Confucius
+        IVe s. av. J.-C. : Zhuangzi
+        XIIIe s. : Dogen, bouddhisme zen au Japon
+    section Monde islamique
+        980-1037 : Avicenne
+        1126-1198 : Averroès
+    section Afrique
+        1961 : Fanon, Les Damnés de la Terre
+        1995 : Création de la Commission Vérité et Réconciliation
+        2003 : Mbembe, Nécropolitique
+```
 
 ## Philosophie bouddhiste
 
@@ -49,8 +69,6 @@ Le bouddhisme est souvent présenté comme une religion — mais ses fondements 
 - *Dogen* (XIIIe s., Japon) — bouddhisme zen. "Étudier le Bouddhisme, c'est s'étudier soi-même."
 - *Thich Nhat Hanh* (1926–2022) — bouddhisme engagé, pleine conscience (*mindfulness*) comme pratique éthique et politique.
 
----
-
 ## Philosophie taoïste
 
 Le taoïsme (fondé par Laozi, ~VIe–Ve s. av. J.-C.) est une des traditions les plus originales de la philosophie mondiale.
@@ -69,8 +87,6 @@ Le taoïsme (fondé par Laozi, ~VIe–Ve s. av. J.-C.) est une des traditions le
 - La question du Tao ineffable résonne avec l'apophase mystique (Dieu au-delà de tout prédicat) et avec le *noumène* kantien (la chose en soi inaccessible).
 - Zhuangzi et son papillon anticipent Descartes et le doute sur la distinction rêve/réalité.
 
----
-
 ## Philosophie confucéenne
 
 Confucius (551–479 av. J.-C.) est contemporain de Socrate. Sa pensée fonde une éthique sociale et politique qui a structuré la Chine, le Japon, la Corée et le Vietnam pendant 2 500 ans.
@@ -85,8 +101,6 @@ Confucius (551–479 av. J.-C.) est contemporain de Socrate. Sa pensée fonde un
 - L'éthique confucéenne est une *éthique des vertus* — plus proche d'Aristote que de Kant ou des utilitaristes.
 - L'insistance sur les rôles sociaux (fils, père, souverain, ami) rappelle la conception aristotélicienne de l'homme comme animal politique dont l'excellence est relationnelle.
 - Mais Confucius valorise davantage la tradition et les rites que l'autonomie individuelle — contraste fort avec l'autonomie kantienne.
-
----
 
 ## Philosophie africaine — Ubuntu
 
@@ -107,8 +121,6 @@ La pensée africaine est diverse et ne peut pas être réduite à un système un
 - *Frantz Fanon* (*Les Damnés de la Terre*, 1961) — philosophie de la décolonisation, violence et reconnaissance.
 - *Kwame Anthony Appiah* — cosmopolitisme ancré dans la reconnaissance des identités plurielles.
 
----
-
 ## Philosophie indienne — quelques jalons
 
 La philosophie indienne (Darshanas) est une des plus anciennes et des plus sophistiquées au monde. Quelques points d'entrée :
@@ -116,8 +128,6 @@ La philosophie indienne (Darshanas) est une des plus anciennes et des plus sophi
 - **Vedanta non-dualiste** (*Advaita Vedanta*, Shankaracharya, VIIIe s.) : *Brahman* (réalité absolue, conscience pure) et *Atman* (conscience individuelle) sont identiques. Le monde phénoménal est *Maya* (apparence). Convergences avec l'idéalisme de Berkeley et certaines lectures de Spinoza.
 - **Nyaya** (école de logique) : développement d'une logique formelle et d'une épistémologie rigoureuse, indépendamment de la logique grecque.
 - **Philosophie du Yoga** : les *Yoga Sutras* de Patanjali (IIe s. av. J.-C.) — discipline de l'esprit, étapes vers la libération (*moksha*). L'éthique du yoga commence par les *Yamas* (non-violence, vérité, non-appropriation) — convergences avec la philosophie stoïcienne.
-
----
 
 ## Pourquoi philosopher à l'échelle mondiale ?
 

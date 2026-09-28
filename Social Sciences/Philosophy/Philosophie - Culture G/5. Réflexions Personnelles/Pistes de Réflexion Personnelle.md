@@ -19,8 +19,6 @@ Chaque fois qu'une lecture ou un podcast soulève quelque chose, ouvrir une nouv
 - **Application directe** : comment cette idée change concrètement ma façon de décider, de réagir, de travailler ?
 - **Désaccord argumenté** : en quoi je ne suis pas convaincu, et pourquoi.
 
----
-
 ## Thèmes ouverts pour commencer
 
 ### Sur la liberté et les choix quotidiens
@@ -46,8 +44,6 @@ Chaque fois qu'une lecture ou un podcast soulève quelque chose, ouvrir une nouv
 - Face à une injustice que je vois mais ne combats pas — quelle justification est-ce que je donne à mon inaction ? Est-elle honnête ?
 - Derrière le "voile d'ignorance" de Rawls (sans savoir quelle place je vais occuper dans la société) — quelles règles est-ce que je choisirais pour mon pays, mon entreprise, ma famille ?
 - Y a-t-il une tension dans mes positions politiques entre ce que la raison m'indique et ce qui sert mes intérêts ? Comment je navigue cette tension ?
-
----
 
 ## Débats contemporains — entrées philosophiques
 
@@ -76,8 +72,6 @@ Les grands modèles de langage (GPT, Claude) produisent des textes indiscernable
 - Marx définit l'aliénation comme la séparation de l'ouvrier du produit de son travail. Sous quelle forme l'aliénation existe-t-elle dans mon propre travail ?
 - Si je pouvais gagner ma vie sans travailler — est-ce que je le ferais ? Qu'est-ce que cela dit de ma conception du travail comme valeur ou comme contrainte ?
 - Qu'est-ce qui donne du sens à mon travail : la rémunération, l'utilité sociale, la maîtrise, les relations, la création ? Et qu'est-ce qui le détruit ?
-
----
 
 ## Exercices philosophiques pratiques
 
@@ -110,8 +104,6 @@ Face à une décision qui affecte d'autres personnes — une règle à poser, un
 ### Éternel retour de Nietzsche comme boussole
 
 Avant de prendre une décision importante : "Voudrais-je, si cette vie devait se répéter infiniment, avoir fait ce choix ?" Non comme paralysie, mais comme révélateur de ce qu'on valorise vraiment.
-
----
 
 ## Notes personnelles
 

@@ -13,6 +13,27 @@ Le stoïcisme est une école philosophique fondée à Athènes vers 300 av. J.-C
 
 **Objectif:** Atteindre l'**ataraxie** (tranquillité de l'âme) et l'**apatheia** (absence de passions destructrices) par la vertu et la sagesse.
 
+## Chronologie
+
+```mermaid
+timeline
+    title Le stoïcisme
+    section Stoïcisme ancien
+        Vers 300 av. J.-C. : Zénon fonde l'école au Portique
+        IIIe s. av. J.-C. : Cléanthe puis Chrysippe dirigent l'école
+    section Stoïcisme moyen
+        IIe s. av. J.-C. : Panétius introduit le stoïcisme à Rome
+        Ier s. av. J.-C. : Posidonios enseigne à Rhodes
+    section Stoïcisme romain
+        65 : Mort de Sénèque, contraint au suicide par Néron
+        IIe s. : Arrien consigne les Entretiens d'Épictète
+        161 : Marc Aurèle devient empereur
+        180 : Mort de Marc Aurèle
+    section Renouveau moderne
+        1946 : Frankl, Man's Search for Meaning
+        2014 : Holiday, The Obstacle Is the Way
+```
+
 ## Origines et Périodes
 
 ### Stoïcisme Ancien (3e-2e siècle av. J.-C.)
@@ -26,7 +47,7 @@ Le stoïcisme est une école philosophique fondée à Athènes vers 300 av. J.-C
 - Introduction à Rome
 
 ### Stoïcisme Romain/Tardif (1er-2e siècle ap. J.-C.)
-- **Sénèque** (4-65 ap. J.-C.) - Philosophe et dramaturge
+- **Sénèque** (vers 4 av. J.-C. - 65 ap. J.-C.) - Philosophe et dramaturge
 - **Épictète** (50-130 ap. J.-C.) - Ancien esclave, philosophe
 - **[[Marc Aurèle]]** (121-180 ap. J.-C.) - Empereur romain, auteur des *Pensées*
 
@@ -143,7 +164,7 @@ Les stoïciens sont les premiers **cosmopolites**: citoyens du monde, pas seulem
 
 ## Philosophes Stoïciens Majeurs
 
-### Sénèque (4-65 ap. J.-C.)
+### Sénèque (vers 4 av. J.-C. - 65 ap. J.-C.)
 
 **Vie:** Conseiller de Néron, forcé au suicide par l'empereur.
 

@@ -10,6 +10,28 @@ date: "2026-04-18"
 
 La philosophie analytique est la tradition philosophique dominante dans le monde anglophone (Grande-Bretagne, Etats-Unis, Australie, Scandinavie). Elle se caractérise par l'attention à la **clarté logique**, l'analyse du **langage**, la rigueur de l'**argumentation** et la méfiance envers les grands systèmes spéculatifs. Elle s'oppose historiquement à la philosophie *continentale* (phénoménologie, existentialisme, herméneutique).
 
+## Chronologie
+
+```mermaid
+timeline
+    title La philosophie analytique
+    section Fondations
+        1879 : Frege, Begriffsschrift
+        1892 : Frege, Sens et référence
+        1903 : Moore, Réfutation de l'idéalisme
+        1905 : Russell, théorie des descriptions
+        1921 : Wittgenstein, Tractatus
+    section Positivisme et langage ordinaire
+        1929 : Manifeste du Cercle de Vienne
+        1949 : Ryle, The Concept of Mind
+        1951 : Quine, Deux dogmes de l'empirisme
+        1953 : Wittgenstein, Recherches philosophiques
+    section Maturité
+        1963 : Gettier, la croyance vraie justifiée en question
+        1971 : Rawls, Théorie de la justice
+        1974 : Nagel, What Is It Like to Be a Bat
+```
+
 ## Origines
 
 ### La révolte contre l'idéalisme
