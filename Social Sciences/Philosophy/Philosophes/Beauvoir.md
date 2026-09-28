@@ -109,7 +109,7 @@ Beauvoir ouvre la voie à ce qu'on appellera le **féminisme de la deuxième vag
 
 ## Relations Philosophiques
 
-- **Influencé par :** [[Sartre]] (existentialisme, liberté, regard d'autrui), [[Hegel]] (maître/esclave, Autre), phénoménologie de Husserl et Merleau-Ponty
+- **Influencé par :** [[Sartre]] (existentialisme, liberté, regard d'autrui), [[Hegel]] (maître/esclave, Autre), phénoménologie de [[Husserl]] et Merleau-Ponty
 - **A influencé :** Féminisme de la deuxième vague, Butler (performance du genre), études de genre, féminisme intersectionnel, Bourdieu (domination masculine)
 - **Mouvement :** Existentialisme, féminisme philosophique
 

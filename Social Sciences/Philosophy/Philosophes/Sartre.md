@@ -215,7 +215,7 @@ Rupture publique et violente après *L'Homme révolté* de Camus.
 
 ## Relations Philosophiques
 
-- **Influencé par :** [[Nietzsche]], Heidegger, Husserl (phénoménologie), [[Hegel]], [[Marxisme|Marx]]
+- **Influencé par :** [[Nietzsche]], Heidegger, [[Husserl]] (phénoménologie), [[Hegel]], [[Marxisme|Marx]]
 - **A influencé :** Existentialisme français, [[Beauvoir]], Frantz Fanon, féminisme, mouvement de décolonisation
 - **Mouvement :** [[Existentialisme]] athée
 

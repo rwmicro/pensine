@@ -167,7 +167,7 @@ Marx décrit très peu le communisme — il ne veut pas écrire des "recettes po
 - Eurocentrisme (la séquence historique est celle de l'Europe occidentale)
 - Réductionnisme de classe
 
-**De Popper :** Le marxisme est une pseudo-science car ses prédictions ne sont pas falsifiables — il s'adapte toujours aux faits.
+**De [[Popper]] :** Le marxisme est une pseudo-science car ses prédictions ne sont pas falsifiables — il s'adapte toujours aux faits.
 
 ## Relations Philosophiques
 

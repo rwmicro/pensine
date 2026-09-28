@@ -79,7 +79,7 @@ Richard Rorty relance le pragmatisme à la fin du XXe siècle (*Philosophy and t
 
 ## Pragmatisme et sciences sociales françaises
 
-Le pragmatisme américain trouve un écho tardif mais influent dans la **sociologie pragmatique française** (Luc Boltanski, Laurent Thévenot), qui étudie comment les acteurs ordinaires, en situation, mobilisent des capacités critiques et des répertoires de justification pluriels ("cités" : industrielle, marchande, domestique, civique) pour résoudre des désaccords pratiques — voir [[Sociology/Grands Courants Théoriques#Autres Courants|Sociologie pragmatique]].
+Le pragmatisme américain trouve un écho tardif mais influent dans la **sociologie pragmatique française** ([[Luc Boltanski]], Laurent Thévenot), qui étudie comment les acteurs ordinaires, en situation, mobilisent des capacités critiques et des répertoires de justification pluriels ("cités" : industrielle, marchande, domestique, civique) pour résoudre des désaccords pratiques — voir [[Sociology/Grands Courants Théoriques#Autres Courants|Sociologie pragmatique]].
 
 ## Comparaison avec le positivisme logique
 

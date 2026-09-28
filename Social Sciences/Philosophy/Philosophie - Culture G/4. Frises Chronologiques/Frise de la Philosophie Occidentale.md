@@ -100,7 +100,7 @@ Après Alexandre le Grand : la philosophie quitte les académies pour la vie pra
 | École | Fondateur | Idée centrale | Ce qui reste vivant aujourd'hui |
 |---|---|---|---|
 | **Stoïcisme** | Zénon de Citium (~334–262) | Vertu, dichotomie du contrôle, cosmopolitisme | TCC, développement personnel, leadership, résilience |
-| **Épicurisme** | Épicure (341–270) | Plaisir tranquille (*ataraxie*), amitié, simplicité | Psychologie positive, paradoxe du choix, slow life |
+| **Épicurisme** | [[Épicure]] (341–270) | Plaisir tranquille (*ataraxie*), amitié, simplicité | Psychologie positive, paradoxe du choix, slow life |
 | **Cynisme** | Antisthène / Diogène (~412–323) | Vie conforme à la nature, rejet des conventions | Mouvements de décroissance, critique de la société de consommation |
 | **Scepticisme** | Pyrrhon (~365–270) | Suspension du jugement (*épochè*), tranquillité | Épistémologie contemporaine, méthode scientifique |
 

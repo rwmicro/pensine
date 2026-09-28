@@ -71,7 +71,7 @@ Le bouddhisme est souvent présenté comme une religion — mais ses fondements 
 
 ## Philosophie taoïste
 
-Le taoïsme (fondé par Laozi, ~VIe–Ve s. av. J.-C.) est une des traditions les plus originales de la philosophie mondiale.
+Le [[Taoïsme|taoïsme]] (fondé par [[Laozi]], ~VIe–Ve s. av. J.-C.) est une des traditions les plus originales de la philosophie mondiale.
 
 **Concepts centraux :**
 - *Le Tao* ("la Voie") : principe fondamental de l'univers, ineffable, antérieur à toute détermination. "Le Tao qui peut être dit n'est pas le Tao éternel." (*Tao Te Ching*, § 1)
@@ -89,7 +89,7 @@ Le taoïsme (fondé par Laozi, ~VIe–Ve s. av. J.-C.) est une des traditions le
 
 ## Philosophie confucéenne
 
-Confucius (551–479 av. J.-C.) est contemporain de Socrate. Sa pensée fonde une éthique sociale et politique qui a structuré la Chine, le Japon, la Corée et le Vietnam pendant 2 500 ans.
+[[Confucius]] (551–479 av. J.-C.) est contemporain de Socrate. Sa pensée fonde une éthique sociale et politique qui a structuré la Chine, le Japon, la Corée et le Vietnam pendant 2 500 ans.
 
 **Concepts centraux :**
 - *Ren* (仁, humanité, bienveillance) : la vertu fondamentale — traiter les autres avec humanité et compassion. "Ne fais pas aux autres ce que tu ne voudrais pas qu'ils te fassent." Comparable au *harm principle* de Mill ou à l'impératif catégorique de Kant.
@@ -135,7 +135,7 @@ Ces traditions apportent des corrections et des enrichissements à la philosophi
 
 1. **Sur le moi** : le bouddhisme (*anatta*) et certaines philosophies africaines (*Ubuntu*) offrent des alternatives à la conception occidentale d'un sujet individuel, stable et souverain.
 2. **Sur l'action** : le *wu wei* taoïste questionne l'obsession occidentale de l'action délibérée et de la maîtrise. Il y a une sagesse dans le non-forçage.
-3. **Sur l'éthique** : le confucianisme montre qu'une éthique des vertus profondément relationnelle est possible sans référence à un individu autonome.
+3. **Sur l'éthique** : le [[Confucianisme|confucianisme]] montre qu'une éthique des vertus profondément relationnelle est possible sans référence à un individu autonome.
 4. **Sur la vérité** : les traditions négatives (Tao ineffable, Brahman au-delà des prédicats) rappellent que la philosophie occidentale a peut-être été trop confiante dans le langage.
 
 ## Ressources

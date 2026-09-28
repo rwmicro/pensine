@@ -108,12 +108,12 @@ Marx reprend la méthode dialectique hégélienne — le mouvement par contradic
 
 - **Schopenhauer**, contemporain et rival virulent de Hegel, dénonce le système hégélien comme un "charlatanisme" verbal masquant l'absence de vérité rigoureuse, et lui oppose une métaphysique pessimiste centrée sur la Volonté aveugle plutôt que sur la Raison
 - **Kierkegaard** critique la prétention du système hégélien à absorber l'existence individuelle concrète dans un mouvement universel abstrait — l'individu singulier, avec son angoisse et sa liberté, résiste à toute systématisation totale (voir [[Existentialisme]])
-- **La philosophie analytique naissante** (Russell, Moore) se constitue précisément en révolte contre l'idéalisme hégélien alors dominant à Oxford et Cambridge — voir [[Philosophie Analytique]]
+- **La philosophie analytique naissante** ([[Russell]], Moore) se constitue précisément en révolte contre l'idéalisme hégélien alors dominant à Oxford et Cambridge — voir [[Philosophie Analytique]]
 
 ## Héritage
 
 - Fondation directe du marxisme et de toute la tradition dialectique matérialiste
-- Influence décisive sur l'existentialisme (via Kierkegaard, en réaction) et la phénoménologie
+- Influence décisive sur l'existentialisme (via [[Kierkegaard]], en réaction) et la phénoménologie
 - La dialectique du maître et de l'esclave reste l'un des textes les plus commentés du XXe siècle, de Kojève à Fanon
 - Modèle, contesté mais jamais neutralisé, de ce qu'un "système" philosophique total peut prétendre accomplir
 

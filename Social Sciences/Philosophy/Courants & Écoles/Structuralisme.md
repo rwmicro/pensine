@@ -71,7 +71,7 @@ Louis Althusser relit Marx contre toute interprétation humaniste ou historicist
 
 ## Derrida et la déconstruction
 
-Jacques Derrida pousse la logique structuraliste (le sens par différence, jamais par présence positive) jusqu'à en retourner les prémisses contre toute stabilité du système lui-même — d'où le terme **post-structuraliste**.
+[[Derrida|Jacques Derrida]] pousse la logique structuraliste (le sens par différence, jamais par présence positive) jusqu'à en retourner les prémisses contre toute stabilité du système lui-même — d'où le terme **post-structuraliste**.
 
 **La différance** (néologisme fusionnant "différer" au sens spatial et "différer" au sens temporel) : le sens d'un signe n'est jamais pleinement présent ni fixé — il est toujours renvoyé à d'autres signes, dans une chaîne infinie de renvois qui ne se referme jamais sur une signification stable et définitive.
 

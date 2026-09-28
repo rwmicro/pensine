@@ -80,7 +80,7 @@ Science de la connaissance : comment connaissons-nous ? Qu'est-ce que la vérit�
 
 *Problème Induction*
 - Hume : Expériences passées → futur (pas logiquement justifié)
-- Popper : Réfutation possible, pas confirmation
+- [[Popper]] : Réfutation possible, pas confirmation
 
 *Relativisme*
 - Vérité relative culture, individu ?
@@ -381,7 +381,7 @@ Science du raisonnement valide : quelles inférences sont correctes ? Comment ar
   - ∀ (universel) : Pour tout
   - ∃ (existentiel) : Il existe
 - **Exemple** : ∀x (Homme(x) → Mortel(x))
-- **Frege, Russell** : Fondements mathématiques
+- **Frege, [[Russell]]** : Fondements mathématiques
 
 **Logiques Non-Classiques**
 
@@ -481,5 +481,5 @@ Examen rationnel de la croyance religieuse : Dieu existe-t-il ? Comment concilie
 **Questions Centrales**
 - Preuves de l'existence de Dieu (ontologique, cosmologique, téléologique, morale) et leurs critiques
 - Le problème du mal et les théodicées
-- Foi et raison : fidéisme (Pascal, Kierkegaard) vs rationalisme théiste (Thomas d'Aquin)
+- Foi et raison : fidéisme (Pascal, [[Kierkegaard]]) vs rationalisme théiste (Thomas d'Aquin)
 

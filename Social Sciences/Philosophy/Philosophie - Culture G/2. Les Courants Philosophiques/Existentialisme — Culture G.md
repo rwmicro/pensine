@@ -29,7 +29,7 @@ date: "2026-04-12"
 
 | Philosophe | Courant | Œuvre clé | Idée centrale |
 |---|---|---|---|
-| Kierkegaard (1813-1855) | Existentialisme chrétien | *Crainte et Tremblement* | Angoisse du choix, saut de la foi |
+| [[Kierkegaard]] (1813-1855) | Existentialisme chrétien | *Crainte et Tremblement* | Angoisse du choix, saut de la foi |
 | Nietzsche (1844-1900) | Précurseur athée | *Ainsi parlait Zarathoustra* | Créer ses propres valeurs après la mort de Dieu |
 | Heidegger (1889-1976) | Ontologie existentielle | *Être et Temps* | Être-pour-la-mort, authenticité, Dasein |
 | Sartre (1905-1980) | Existentialisme athée humaniste | *L'Être et le Néant* | Existence précède essence, mauvaise foi |
@@ -39,8 +39,8 @@ date: "2026-04-12"
 ## Connexions philosophiques
 
 - **Avec le stoïcisme** : les deux philosophies font de la responsabilité personnelle le centre — mais le stoïcien accepte le cosmos rationnel, l'existentialiste part d'un monde absurde et sans sens donné.
-- **Avec la phénoménologie** (Husserl) : l'existentialisme hérite de la méthode phénoménologique — décrire l'expérience vécue de la conscience plutôt que de construire des systèmes abstraits.
-- **Avec le postmodernisme** : Sartre et Nietzsche ont ouvert la voie à Foucault, Derrida, Deleuze en critiquant les essences, les fondements et les grands récits.
+- **Avec la phénoménologie** ([[Husserl]]) : l'existentialisme hérite de la méthode phénoménologique — décrire l'expérience vécue de la conscience plutôt que de construire des systèmes abstraits.
+- **Avec le postmodernisme** : Sartre et Nietzsche ont ouvert la voie à Foucault, [[Derrida]], Deleuze en critiquant les essences, les fondements et les grands récits.
 - **Avec la psychothérapie existentielle** (Irvin Yalom, Rollo May, Viktor Frankl) : les "conditions ultimes" de l'existence (liberté, mort, solitude, sens) comme matériau thérapeutique.
 
 > [!tip] Méthode

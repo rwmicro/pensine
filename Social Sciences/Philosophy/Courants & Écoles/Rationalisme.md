@@ -380,7 +380,7 @@ Voir [[Spinoza]] pour détails complets.
 - Logique formelle (Leibniz précurseur)
 
 **XXe siècle :**
-- Logicisme (Frege, Russell) : Réduire les mathématiques à la logique
+- Logicisme (Frege, [[Russell]]) : Réduire les mathématiques à la logique
 - Formalisme (Hilbert) : Mathématiques = Manipulation de symboles selon règles
 
 ### Physique

@@ -53,7 +53,7 @@ timeline
 - Calcul prudent des plaisirs et peines
 
 **Différence avec utilitarisme moderne :**
-- Épicure : Bonheur **individuel**
+- [[Épicure]] : Bonheur **individuel**
 - Utilitarisme : Bonheur **collectif**
 
 ### XVIIIe siècle : Précurseurs des Lumières
@@ -266,7 +266,7 @@ Bentham propose de **quantifier** le bonheur selon **7 critères** :
 
 **Principe :** Minimiser la **souffrance** (plutôt que maximiser le bonheur).
 
-**Défenseur :** Karl Popper
+**Défenseur :** [[Popper|Karl Popper]]
 
 **Justification :**
 - La souffrance est plus urgente que le bonheur

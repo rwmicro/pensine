@@ -80,9 +80,9 @@ Le "problème du mal évidentiel" (Rowe) ne prétend pas prouver une contradicti
 
 | Position | Thèse | Figures |
 |---|---|---|
-| **Fidéisme** | La foi ne dépend pas, et n'a pas à dépendre, de preuves rationnelles — elle est un saut, un engagement existentiel | Kierkegaard (le "saut de la foi"), Pascal |
+| **Fidéisme** | La foi ne dépend pas, et n'a pas à dépendre, de preuves rationnelles — elle est un saut, un engagement existentiel | [[Kierkegaard]] (le "saut de la foi"), Pascal |
 | **Rationalisme théiste** | La raison peut et doit démontrer l'existence de Dieu | Thomas d'Aquin, Descartes |
-| **Évidentialisme athée** | Toute croyance devrait être proportionnée aux preuves disponibles ; faute de preuves suffisantes, la croyance en Dieu est irrationnelle | Clifford, Russell |
+| **Évidentialisme athée** | Toute croyance devrait être proportionnée aux preuves disponibles ; faute de preuves suffisantes, la croyance en Dieu est irrationnelle | Clifford, [[Russell]] |
 | **Épistémologie réformée** | La croyance en Dieu peut être "proprement basique" — rationnellement acceptée sans inférence, comme la croyance en l'existence du monde extérieur | Plantinga |
 
 **Le pari de Pascal** — voir [[Pascal]]
@@ -93,7 +93,7 @@ Pascal déplace le débat de la vérité vers la décision pratique en incertitu
 - **Athéisme fort** : affirmation qu'aucun dieu n'existe
 - **Athéisme faible** : simple absence de croyance en un dieu, sans affirmer positivement son inexistence
 - **Agnosticisme** : l'existence de Dieu est indécidable en l'état de nos connaissances ; suspension du jugement (Huxley, qui invente le terme en 1869)
-- **Le rasoir d'Ockham appliqué à Dieu** : à explication égale, préférer l'hypothèse la plus simple — certains y voient un argument pour l'athéisme méthodologique en sciences, sans que cela tranche la question métaphysique
+- **Le rasoir d'Ockham appliqué à Dieu** : à explication égale, préférer l'hypothèse la plus simple — certains y voient un argument pour l'[[Athéisme et Agnosticisme|athéisme]] méthodologique en sciences, sans que cela tranche la question métaphysique
 
 ## Religion comme fait social et existentiel
 

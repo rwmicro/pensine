@@ -315,7 +315,7 @@ timeline
 1. Le principe de vérification lui-même n'est **ni vérifiable ni analytique** → Se réfute lui-même
 2. Trop restrictif : Élimine des énoncés scientifiques légitimes (lois universelles non vérifiables exhaustivement)
 
-**Karl Popper** propose un critère alternatif : **Falsifiabilité** (une théorie est scientifique si elle est réfutable).
+**[[Popper|Karl Popper]]** propose un critère alternatif : **Falsifiabilité** (une théorie est scientifique si elle est réfutable).
 
 > [!tip] Méthode
 > Repérer ce schéma ailleurs : chaque fois qu'une théorie propose un critère universel pour trier le sens du non-sens, demander si le critère lui-même passe son propre test. Le principe de vérification échoue à sa propre épreuve — un problème structurel qui revient dans d'autres tentatives de démarcation (la falsifiabilité de Popper évite cet écueil en se présentant comme une convention méthodologique, pas un critère de sens).

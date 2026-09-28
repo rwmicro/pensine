@@ -70,7 +70,7 @@ Cette distinction annonce, sans s'y réduire tout à fait, la distinction kantie
 
 ## Le calcul infinitésimal et la logique symbolique
 
-Leibniz invente, indépendamment de Newton et selon une notation encore utilisée aujourd'hui (dx, ∫), le calcul différentiel et intégral — source d'une querelle de priorité acrimonieuse entre les deux savants et leurs partisans. Moins connu mais visionnaire : son projet d'une *characteristica universalis*, un langage symbolique universel qui permettrait de réduire tout raisonnement à un calcul mécanique ("Calculemus !" — "calculons !" — pour trancher les disputes philosophiques), anticipant de deux siècles les ambitions de la logique formelle de Frege et Russell — voir [[Logique]].
+Leibniz invente, indépendamment de Newton et selon une notation encore utilisée aujourd'hui (dx, ∫), le calcul différentiel et intégral — source d'une querelle de priorité acrimonieuse entre les deux savants et leurs partisans. Moins connu mais visionnaire : son projet d'une *characteristica universalis*, un langage symbolique universel qui permettrait de réduire tout raisonnement à un calcul mécanique ("Calculemus !" — "calculons !" — pour trancher les disputes philosophiques), anticipant de deux siècles les ambitions de la logique formelle de Frege et [[Russell]] — voir [[Logique]].
 
 ## Grandes œuvres
 

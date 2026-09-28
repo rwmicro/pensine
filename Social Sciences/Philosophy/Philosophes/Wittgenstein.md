@@ -16,7 +16,7 @@ Ludwig Wittgenstein est le philosophe le plus influent de la tradition analytiqu
 |---|---|
 | 1889 | Naissance à Vienne. Famille la plus riche d'Autriche (industrie sidérurgique). Père Karl Wittgenstein, magnat de l'acier |
 | 1906-1908 | Etudes d'ingénierie à Berlin puis Manchester. S'intéresse aux fondements des mathématiques |
-| 1911 | Se rend à Cambridge pour étudier sous Bertrand Russell. Russell le juge immédiatement génial |
+| 1911 | Se rend à Cambridge pour étudier sous [[Russell|Bertrand Russell]]. Russell le juge immédiatement génial |
 | 1914-1918 | S'engage volontairement dans l'armée autrichienne. Rédige le *Tractatus* dans les tranchées et en captivité |
 | 1921 | Publication du *Tractatus Logico-Philosophicus*. Wittgenstein considère avoir résolu tous les problèmes de la philosophie |
 | 1920-1926 | Abandonne la philosophie. Instituteur dans des villages autrichiens, jardinier dans un monastère, architecte (maison pour sa soeur à Vienne) |

@@ -85,7 +85,7 @@ Au-delà de la philosophie stricte, "postmoderne" désigne dès les années 1970
 Le physicien Alan Sokal publie dans la revue *Social Text* un article délibérément absurde ("Transgresser les frontières : vers une herméneutique transformative de la gravitation quantique"), mêlant un jargon pseudo-scientifique à des citations réelles de Lacan, Baudrillard, Deleuze et Irigaray, pour tester si la revue publierait un texte creux dès lors qu'il flattait les présupposés postmodernes du comité de lecture. L'article est accepté et publié — Sokal révèle immédiatement la supercherie, provoquant un scandale international ("Sokal affair") qui alimente durablement l'accusation d'un usage rhétorique, non rigoureux, de concepts scientifiques par une partie de la philosophie postmoderne française.
 
 > [!warning] Piège
-> Ne pas généraliser l'affaire Sokal en « preuve que toute la philosophie postmoderne est vide ». Sokal cible précisément l'usage décoratif et inexact de concepts scientifiques par certains auteurs, dans une revue particulière non relue par des pairs à l'époque — ce n'est pas une réfutation des arguments philosophiques de fond de Lyotard, Baudrillard ou Derrida, qui doivent être discutés sur leur propre terrain.
+> Ne pas généraliser l'affaire Sokal en « preuve que toute la philosophie postmoderne est vide ». Sokal cible précisément l'usage décoratif et inexact de concepts scientifiques par certains auteurs, dans une revue particulière non relue par des pairs à l'époque — ce n'est pas une réfutation des arguments philosophiques de fond de Lyotard, Baudrillard ou [[Derrida]], qui doivent être discutés sur leur propre terrain.
 
 ## Postmodernisme et politique : ambiguïtés
 

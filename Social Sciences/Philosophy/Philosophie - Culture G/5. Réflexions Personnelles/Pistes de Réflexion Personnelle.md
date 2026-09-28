@@ -35,7 +35,7 @@ Chaque fois qu'une lecture ou un podcast soulève quelque chose, ouvrir une nouv
 
 ### Sur la connaissance et les croyances
 
-- Quelles sont mes croyances les plus importantes que je n'ai jamais sérieusement tenté de *réfuter* (au sens de Popper) ?
+- Quelles sont mes croyances les plus importantes que je n'ai jamais sérieusement tenté de *réfuter* (au sens de [[Popper]]) ?
 - Y a-t-il des domaines dans ma vie où je cherche systématiquement à confirmer ce que je crois déjà, plutôt qu'à le tester ? (biais de confirmation)
 - Si je devais expliquer à quelqu'un ce que je *sais* vraiment vs ce que je *crois*, où tracer la ligne ?
 
