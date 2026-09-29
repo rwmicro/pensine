@@ -57,9 +57,9 @@ L'arrivée des premiers Africains en Virginie est documentée en 1619. Au cours 
 
 ### De la crise fiscale à la rupture
 
-La guerre de Sept Ans (1756-1763, dite en Amérique *French and Indian War*) élimine la France du continent mais laisse Londres endettée. Le Parlement britannique entend faire payer les colons : droit du timbre en 1765, taxes sur le thé. Les colons, qui n'élisent aucun député à Westminster, répondent par le principe « pas d'imposition sans représentation ». La *Boston Tea Party* (1773) déclenche la répression, puis les premiers combats à Lexington et Concord en 1775.
+La guerre de Sept Ans (1756-1763 ; en Amérique, la *French and Indian War* commence dès 1754) élimine la France du continent mais laisse Londres endettée. Le Parlement britannique entend faire payer les colons : droit du timbre en 1765, taxes sur le thé. Les colons, qui n'élisent aucun député à Westminster, répondent par le principe « pas d'imposition sans représentation ». La *Boston Tea Party* (1773) déclenche la répression, puis les premiers combats à Lexington et Concord en 1775.
 
-Le **4 juillet 1776**, le Congrès continental adopte la Déclaration d'indépendance, rédigée pour l'essentiel par Thomas Jefferson. Elle affirme que tous les hommes sont créés égaux et dotés de droits inaliénables, parmi lesquels « la vie, la liberté et la recherche du bonheur ». Le vocabulaire vient directement de la philosophie du droit naturel de [[Locke]]. L'alliance avec la France (1778) est décisive : la victoire franco-américaine de Yorktown (1781) conduit au traité de Paris (1783), qui reconnaît l'indépendance.
+Le **4 juillet 1776**, le Congrès continental adopte la Déclaration d'indépendance, rédigée pour l'essentiel par Thomas Jefferson. Elle affirme que tous les hommes sont créés égaux et dotés de droits inaliénables, parmi lesquels « la vie, la liberté et la recherche du bonheur ». Le vocabulaire s'inspire de la philosophie du droit naturel de [[Locke]], qui parlait pour sa part de la vie, de la liberté et de la propriété. L'alliance avec la France (1778) est décisive : la victoire franco-américaine de Yorktown (1781) conduit au traité de Paris (1783), qui reconnaît l'indépendance.
 
 ### La Constitution de 1787
 

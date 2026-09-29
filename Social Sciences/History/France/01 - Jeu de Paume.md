@@ -21,12 +21,13 @@ Le **jeu de paume** est le sport de raquette le plus ancien d'Europe, ancêtre d
 timeline
     title Le jeu de paume, du cloître au serment
     section Un sport
-        XIIe siècle : Jeu à mains nues dans les cours des monastères
-        1527 : François Ier codifie le jeu : Construction des premiers tripots
-        XVIIe-XVIIIe siècle : Apogée, plus de 1 800 tripots à Paris
+        XIIe siècle : Jeu de balle à main nue en France
+        XVIe siècle : François Ier passionné de paume : Raquette, salle fermée, règles stabilisées
+        Fin XVIe siècle : Apogée, 250 salles à Paris
+        1657 : Déclin, 114 salles à Paris
     section Un symbole
         20 juin 1789 : Serment du Jeu de Paume à Versailles
-        1790-1792 : Esquisse du Serment par Jacques-Louis David
+        1791 : Dessin du Serment par David exposé au Salon
 ```
 
 ## Origine et histoire

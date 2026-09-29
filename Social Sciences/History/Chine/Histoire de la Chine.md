@@ -16,7 +16,7 @@ La Chine offre un cas presque unique dans l'histoire mondiale : un État qui, ma
 timeline
     title La Chine, de l'Empire à la République populaire
     section Antiquité
-        vers -1600 : Dynastie Shang, premières inscriptions oraculaires
+        vers -1600 : Dynastie Shang, dont la fin laisse les premières inscriptions oraculaires
         -1046 : Les Zhou et le Mandat du Ciel
         -221 : Unification par Qin Shi Huang
         -206 : Dynastie Han
@@ -39,11 +39,11 @@ timeline
 
 ### Des cultures néolithiques aux Shang
 
-La vallée du fleuve Jaune et celle du Yangzi comptent parmi les foyers indépendants de la [[La Révolution Agricole|révolution agricole]] : millet au nord, riz au sud, dès le VIIe millénaire av. J.-C. Des cultures néolithiques comme celles de Yangshao et de Longshan précèdent l'apparition du premier État bien documenté, la **dynastie Shang** (vers 1600 à 1046 av. J.-C.). Ses devins gravaient des questions aux ancêtres sur des carapaces de tortue et des omoplates de bovins : ces **inscriptions oraculaires** sont la plus ancienne forme attestée de l'écriture chinoise, ancêtre direct des caractères actuels.
+La vallée du fleuve Jaune et celle du Yangzi comptent parmi les foyers indépendants de la [[La Révolution Agricole|révolution agricole]] : millet au nord, riz au sud, dès le VIIe millénaire av. J.-C. Des cultures néolithiques comme celles de Yangshao et de Longshan précèdent l'apparition du premier État bien documenté, la **dynastie Shang** (vers 1600 à 1046 av. J.-C.). À la fin de la période (à partir du XIIIe siècle av. J.-C. environ), ses devins gravaient des questions aux ancêtres sur des carapaces de tortue et des omoplates de bovins : ces **inscriptions oraculaires** sont la plus ancienne forme attestée de l'écriture chinoise, ancêtre direct des caractères actuels.
 
 ### Les Zhou et le Mandat du Ciel
 
-Les **Zhou**, qui renversent les Shang vers 1046 av. J.-C., justifient leur victoire par une idée appelée à un immense avenir : le **Mandat du Ciel** (*tianming*). Le Ciel confie le pouvoir à une lignée vertueuse et le lui retire lorsqu'elle devient tyrannique ; catastrophes naturelles et révoltes en sont les signes. Le pouvoir des Zhou se délite ensuite en principautés rivales. Pendant les périodes des Printemps et Automnes puis des Royaumes combattants (Ve-IIIe siècles av. J.-C.), le chaos politique s'accompagne d'une floraison intellectuelle : [[Confucius]] (traditionnellement 551-479 av. J.-C.) enseigne une éthique de la piété filiale, du rite et du gouvernement par la vertu ; le [[Taoïsme|taoïsme]] et le légisme proposent d'autres voies.
+Les **Zhou**, qui renversent les Shang vers 1046 av. J.-C., justifient leur victoire par une idée appelée à un immense avenir : le **Mandat du Ciel** (*tianming*). Le Ciel confie le pouvoir à une lignée vertueuse et le lui retire lorsqu'elle devient tyrannique ; catastrophes naturelles et révoltes en sont les signes. Le pouvoir des Zhou se délite ensuite en principautés rivales. Pendant les périodes des Printemps et Automnes puis des Royaumes combattants (VIIIe-IIIe siècles av. J.-C.), le chaos politique s'accompagne d'une floraison intellectuelle : [[Confucius]] (traditionnellement 551-479 av. J.-C.) enseigne une éthique de la piété filiale, du rite et du gouvernement par la vertu ; le [[Taoïsme|taoïsme]] et le légisme proposent d'autres voies.
 
 ## Le système impérial (221 av. J.-C. - 1912)
 
@@ -116,7 +116,7 @@ Pour la langue elle-même, dont l'écriture est un fil conducteur de cette histo
 ## Ressources
 
 - Jacques Gernet, *Le Monde chinois* (1972)
-- John K. Fairbank et Merle Goldman, *Histoire de la Chine, des origines à nos jours* (*China: A New History*, 1992)
+- John K. Fairbank et Merle Goldman, *Histoire de la Chine, des origines à nos jours* (*China: A New History*, 1992 par Fairbank seul, édition augmentée avec Merle Goldman en 1998)
 - Jonathan D. Spence, *The Search for Modern China* (1990)
 - Kenneth Pomeranz, *Une grande divergence* (*The Great Divergence*, 2000)
 - Frank Dikötter, *La Grande Famine de Mao* (*Mao's Great Famine*, 2010)

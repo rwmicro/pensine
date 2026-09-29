@@ -22,7 +22,7 @@ timeline
     section Le Cercle de Vienne
         1922 : Schlick obtient sa chaire à Vienne
         1929 : Manifeste du Cercle de Vienne
-        1932 : Carnap, Le dépassement de la métaphysique
+        1931 : Carnap, Le dépassement de la métaphysique
         1936 : Ayer, Langage, vérité et logique : Assassinat de Schlick
     section Critiques et héritiers
         1951 : Quine, Deux dogmes de l'empirisme

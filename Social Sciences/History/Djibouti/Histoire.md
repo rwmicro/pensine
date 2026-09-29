@@ -264,8 +264,8 @@ timeline
         2001 : Accord de paix définitif
     section Hub stratégique
         Juin 2008 : Conflit frontalier de Ras Doumeira
-        2017 : Première base militaire chinoise
-        2018 : Nouveau chemin de fer vers l'Éthiopie
+        2017 : Première base militaire chinoise à l'étranger
+        2018 : Mise en service commerciale du chemin de fer vers l'Éthiopie
 ```
 
 ## Ressources

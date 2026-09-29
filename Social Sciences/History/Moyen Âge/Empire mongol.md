@@ -8,7 +8,7 @@ date: "2026-09-28"
 
 # Empire mongol
 
-Au XIIIe siècle, un peuple de pasteurs nomades de quelques centaines de milliers de personnes, habitant les steppes de l'actuelle Mongolie, conquiert en deux générations le plus vaste empire d'un seul tenant de l'histoire, de la Corée à la Hongrie et de la Sibérie au golfe Persique. L'Empire mongol unifie pour environ un siècle une grande partie de l'Eurasie : il détruit des villes et des États entiers, mais relie aussi la Chine, l'Iran, la Russie et le monde méditerranéen comme jamais auparavant. Il occupe une place à part dans la réflexion sur [[Les Empires]] : sa puissance repose sur une organisation militaire et politique, pas sur une supériorité démographique, économique ou technique.
+Au XIIIe siècle, un peuple de pasteurs nomades dont la population, très incertaine, est estimée entre moins d'un million et deux millions de personnes, habitant les steppes de l'actuelle Mongolie, conquiert en deux générations le plus vaste empire d'un seul tenant de l'histoire, de la Corée à la Hongrie et de la Sibérie au golfe Persique. L'Empire mongol unifie pour environ un siècle une grande partie de l'Eurasie : il détruit des villes et des États entiers, mais relie aussi la Chine, l'Iran, la Russie et le monde méditerranéen comme jamais auparavant. Il occupe une place à part dans la réflexion sur [[Les Empires]] : sa puissance repose sur une organisation militaire et politique, pas sur une supériorité démographique, économique ou technique.
 
 ## Contexte : le monde des steppes
 

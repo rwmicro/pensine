@@ -102,7 +102,7 @@ timeline
     title Religions africaines et diasporas
     section Afrique de l Ouest
         XVIIIe s. : Tabouret d or de la confédération ashanti
-        XVIIe-XIXe s. : Royaumes d Oyo et du Dahomey
+        XVIIe-XIXe s. : Apogée des royaumes d Oyo et du Dahomey
     section Traite et Amériques
         XVIe-XIXe s. : Traite atlantique vers les Amériques
         1791 : Cérémonie du Bois-Caïman à Saint-Domingue

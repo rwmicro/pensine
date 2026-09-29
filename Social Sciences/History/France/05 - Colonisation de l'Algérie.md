@@ -23,7 +23,7 @@ timeline
         5 juillet 1830 : Prise d'Alger
         1832 : Abd el-Kader proclamé émir
         1837 : Traité de la Tafna
-        1840 : Conquête totale, Bugeaud gouverneur
+        1840 : Choix de la conquête totale, Bugeaud gouverneur général
         Juin 1845 : Enfumades des Ouled Riah
         23 décembre 1847 : Reddition d'Abd el-Kader
     section Colonisation de peuplement
@@ -31,7 +31,7 @@ timeline
         Mars 1871 : Révolte de Mokrani
         1881 : Code de l'indigénat
     section Nationalisme
-        1926 : Étoile Nord-Africaine de Messali Hadj
+        1926 : Fondation de l'Étoile Nord-Africaine
         1944 : Abolition du Code de l'indigénat
         8 mai 1945 : Massacre de Sétif
         1er novembre 1954 : Toussaint Rouge

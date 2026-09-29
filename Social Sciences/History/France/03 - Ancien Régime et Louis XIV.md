@@ -22,7 +22,7 @@ timeline
     title L'Ancien Régime, de Richelieu à 1789
     section Avant le règne personnel
         1624-1642 : Richelieu ministre principal
-        1628 : Siège de La Rochelle
+        1627-1628 : Siège de La Rochelle
         1643 : Mort de Louis XIII, régence d'Anne d'Autriche
         1648-1653 : La Fronde
     section Le règne personnel de Louis XIV

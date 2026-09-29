@@ -43,10 +43,10 @@ Le but ultime est de devenir un **immortel** (*xian*), être parvenu à une long
 
 | Voie | Principe | Figures et période |
 |---|---|---|
-| **Alchimie extérieure** (*waidan*) | Fabriquer un élixir à partir de minéraux, cinabre (sulfure de mercure) en tête, dont l'ingestion rendrait immortel | **Ge Hong** (283-343), *Baopuzi*. Apogée sous les Tang |
+| **Alchimie extérieure** (*waidan*) | Fabriquer un élixir à partir de minéraux, cinabre (sulfure de mercure) en tête, dont l'ingestion rendrait immortel | **Ge Hong** (283-343 ou 363), *Baopuzi*. Apogée sous les Tang |
 | **Alchimie intérieure** (*neidan*) | Transposer l'opération dans le corps : raffiner essence, souffle et esprit pour engendrer un « embryon d'immortalité » | Se développe à partir des Tang et domine sous les Song |
 
-Plusieurs empereurs Tang passent pour être morts d'intoxication aux élixirs, ce qui a contribué au déclin de l'alchimie minérale au profit de sa version intérieure et méditative.
+Plusieurs empereurs Tang passent pour être morts d'intoxication aux élixirs (au moins cinq au IXe siècle, de Xianzong, mort en 820, à Xuanzong, mort en 859), ce qui a sans doute contribué au déclin de l'alchimie minérale au profit de sa version intérieure et méditative.
 
 ### Le panthéon
 
@@ -121,20 +121,21 @@ timeline
 
 ## Histoire : un compagnon de l'État impérial
 
-Les rapports entre le taoïsme et le pouvoir ont oscillé entre patronage et méfiance. La dynastie **Tang** (618-907), dont la famille impériale Li revendique Laozi pour ancêtre, lui accorde un statut éminent ; l'empereur Xuanzong commente lui-même le *Daode jing*. Les **Song** favorisent les nouvelles liturgies et l'empereur Huizong (XIIe siècle) se fait proclamer incarnation divine. Sous les **Ming**, l'impression du canon marque un sommet ; sous les **Qing**, l'État mandchou privilégie le bouddhisme tibétain et le confucianisme officiel, et le taoïsme perd son prestige à la cour tout en restant omniprésent dans les villages.
+Les rapports entre le taoïsme et le pouvoir ont oscillé entre patronage et méfiance. La dynastie **Tang** (618-907), dont la famille impériale Li revendique Laozi pour ancêtre, lui accorde un statut éminent ; l'empereur Xuanzong commente lui-même le *Daode jing*. Les **Song** favorisent les nouvelles liturgies et l'empereur Huizong (règne 1100-1126) accepte d'être présenté par son conseiller taoïste Lin Lingsu comme l'incarnation d'une divinité céleste. Sous les **Ming**, l'impression du canon marque un sommet ; sous les **Qing**, l'État mandchou privilégie le bouddhisme tibétain et le confucianisme officiel, et le taoïsme perd son prestige à la cour tout en restant omniprésent dans les villages.
 
 Au XXe siècle, les réformateurs républicains puis communistes le rangent parmi les « superstitions » à éradiquer. La Révolution culturelle (1966-1976), évoquée dans [[Le Communisme au XXe siècle]], détruit temples et statues et disperse le clergé. Depuis les années 1980, le taoïsme fait partie des cinq religions officiellement reconnues en République populaire de Chine, encadrées par l'Association taoïste de Chine (fondée en 1957).
 
 ## Présence aujourd'hui
 
-Compter les taoïstes est presque impossible, et c'est en soi une information. La plupart des Chinois qui fréquentent un temple taoïste ne se définissent pas comme « taoïstes » : ils font appel à des prêtres pour des funérailles, un exorcisme ou une fête, comme on consulte un spécialiste. Le Pew Research Center, dans son panorama mondial de 2012, ne compte pas le taoïsme à part et le range dans les « religions populaires », estimées à environ 400 millions de fidèles, en grande majorité chinois.
+Compter les taoïstes est presque impossible, et c'est en soi une information. La plupart des Chinois qui fréquentent un temple taoïste ne se définissent pas comme « taoïstes » : ils font appel à des prêtres pour des funérailles, un exorcisme ou une fête, comme on consulte un spécialiste. Le Pew Research Center, dans son panorama mondial publié en 2012 (données de 2010), n'estime pas le taoïsme à part : il le range dans la catégorie des « autres religions » (environ 58 millions de personnes au total, avec les baha'is, les jaïns, les sikhs, etc.), distincte des « religions populaires », qui comptent plus de 400 millions de fidèles, en grande majorité chinois. La World Religion Database, citée par Pew, avance plus de 8 millions de taoïstes, chiffre qui ne dit rien des innombrables pratiquants occasionnels.
 
 | Indicateur | Ordre de grandeur |
 |---|---|
-| Religions populaires chinoises (Pew, 2012) | Environ 400 millions, taoïsme inclus |
-| Temples taoïstes officiels en Chine (livre blanc de 2018) | De l'ordre de 9 000 |
-| Clergé taoïste officiel en Chine (même source) | De l'ordre de 40 000 religieux |
-| Taïwan | Les temples enregistrés comme taoïstes y sont les plus nombreux |
+| Religions populaires, surtout chinoises (Pew, données 2010) | Plus de 400 millions, taoïsme compté à part |
+| Taoïstes déclarés (World Religion Database, citée par Pew) | Plus de 8 millions |
+| Temples taoïstes officiels en Chine (livre blanc de 2018) | Environ 9 000 |
+| Clergé taoïste officiel en Chine (même source) | Plus de 40 000 religieux |
+| Taïwan | Environ 78 % des quelque 12 000 temples enregistrés sont taoïstes (ministère de l'Intérieur, 2015) |
 
 Hors du monde chinois, le taoïsme est présent dans les diasporas d'Asie du Sud-Est (Malaisie, Singapour) et, sous une forme très différente, en Occident, où il circule surtout comme philosophie de vie, médecine douce ou art martial.
 

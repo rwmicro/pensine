@@ -48,7 +48,7 @@ S'y ajoute un apport byzantin. Dès la fin du XIVe siècle, des lettrés grecs v
 
 ## L'humanisme : retourner aux sources
 
-Le cœur intellectuel de la Renaissance est l'humanisme, au sens historique du mot : un programme d'étude des *studia humanitatis* (grammaire, rhétorique, poésie, histoire, philosophie morale) fondé sur la lecture directe des auteurs antiques. Pétrarque (1304-1374) en est le précurseur : il traque les manuscrits de Cicéron oubliés dans les bibliothèques monastiques.
+Le cœur intellectuel de la Renaissance est l'humanisme, au sens historique du mot : un programme d'étude des *studia humanitatis* (grammaire, rhétorique, poésie, histoire, philosophie morale) fondé sur la lecture directe des auteurs antiques. Pétrarque (1304-1374) en est le précurseur : il traque les manuscrits de Cicéron oubliés dans les bibliothèques ecclésiastiques, retrouvant par exemple les lettres à Atticus à Vérone en 1345.
 
 Ce retour aux sources s'accompagne d'une nouvelle exigence critique. En 1440, Lorenzo Valla démontre, par l'analyse de la langue, que la « Donation de Constantin », sur laquelle la papauté fondait une partie de ses prétentions temporelles, est un faux médiéval. La philologie devient une arme : on ne lit plus un texte comme une autorité intemporelle, on le replace dans son époque. Cette méthode sera décisive pour la [[Réforme protestante]], qui l'appliquera à la Bible elle-même, dans le sillage de l'édition critique du Nouveau Testament grec publiée par Érasme en 1516.
 
@@ -104,5 +104,5 @@ La vision de Burckhardt, qui faisait de la Renaissance l'aube de la modernité i
 - **Jacob Burckhardt**, *La Civilisation de la Renaissance en Italie* (1860)
 - **Jean Delumeau**, *La Civilisation de la Renaissance* (1967)
 - **Elizabeth L. Eisenstein**, *The Printing Press as an Agent of Change* (1979)
-- **Peter Burke**, *La Renaissance européenne* (1998)
+- **Peter Burke**, *La Renaissance européenne* (2000 ; éd. originale anglaise 1998)
 - **Jacques Le Goff**, *Faut-il vraiment découper l'histoire en tranches ?* (2014)

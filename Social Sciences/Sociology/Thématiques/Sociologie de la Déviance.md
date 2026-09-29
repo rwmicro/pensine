@@ -20,7 +20,7 @@ Le crime est d'abord défini de manière sociologique. Dans *De la division du t
 
 Durkheim ajoute que le crime peut préparer la morale de demain. L'exemple qu'il donne est celui de [[Socrate]], criminel selon le droit athénien, dont l'indépendance de pensée annonçait une morale nouvelle. Une société trop uniforme pour tolérer le moindre écart serait aussi incapable de changer.
 
-Enfin, *Le Suicide* (1897) introduit la notion d'[[Anomie]] : un défaut de régulation sociale, lorsque les normes ne parviennent plus à borner les désirs, par exemple lors de crises économiques ou de brusques enrichissements. Ce concept sera repris et transformé par [[Robert K. Merton|Merton]].
+Enfin, *Le Suicide* (1897) approfondit la notion d'[[Anomie]], déjà employée dans *De la division du travail social* : un défaut de régulation sociale, lorsque les normes ne parviennent plus à borner les désirs, par exemple lors de crises économiques ou de brusques enrichissements. Ce concept sera repris et transformé par [[Robert K. Merton|Merton]].
 
 > [!important] Idée clé
 > Dire que le crime est « normal » n'est pas un jugement moral mais un constat de méthode. Durkheim distingue le normal du pathologique par la fréquence et la généralité du phénomène à un stade donné d'une société. Ce qui serait pathologique, c'est un taux de criminalité anormalement élevé ou anormalement bas. La thèse a une conséquence durable : la déviance cesse d'être une propriété d'individus anormaux pour devenir une propriété du système social.
@@ -41,7 +41,7 @@ La typologie a l'avantage d'expliquer pourquoi la délinquance acquisitive est p
 
 ## L'école de Chicago : la ville et la désorganisation
 
-Au même moment, le département de sociologie de l'université de Chicago fait de la ville son laboratoire. Chicago connaît une croissance explosive et accueille des vagues d'immigrants d'Europe, puis de Noirs du Sud. William Thomas et Florian Znaniecki, avec *The Polish Peasant in Europe and America* (1918-1920), étudient la désorganisation des familles paysannes transplantées. Robert Park et Ernest Burgess proposent une **écologie urbaine** : Burgess modélise la ville en zones concentriques, la « zone de transition » entourant le centre concentrant pauvreté, immigration récente et délinquance.
+Dès les années 1910-1930, le département de sociologie de l'université de Chicago fait de la ville son laboratoire. Chicago connaît une croissance explosive et accueille des vagues d'immigrants d'Europe, puis de Noirs du Sud. William Thomas et Florian Znaniecki, avec *The Polish Peasant in Europe and America* (1918-1920), étudient la désorganisation des familles paysannes transplantées. Robert Park et Ernest Burgess proposent une **écologie urbaine** : Burgess modélise la ville en zones concentriques, la « zone de transition » entourant le centre concentrant pauvreté, immigration récente et délinquance.
 
 Clifford Shaw et Henry McKay montrent ensuite que les taux de délinquance juvénile restent élevés dans ces quartiers même lorsque les groupes qui y vivent se succèdent. La délinquance s'attache donc aux lieux et à leur **désorganisation sociale**, non aux origines ethniques de leurs habitants. Edwin Sutherland formule, à partir de la fin des années 1930, la théorie de l'**association différentielle** : le comportement délinquant s'apprend, comme n'importe quel comportement, au contact de ceux qui le pratiquent. C'est aussi lui qui forge la notion de délinquance en col blanc.
 
@@ -84,7 +84,7 @@ Le stigmatisé trouve des appuis chez « les siens », qui partagent le stigmate
 
 L'approche constructiviste a nourri de nombreuses recherches. Stanley Cohen, dans *Folk Devils and Moral Panics* (1972), montre comment médias, police et entrepreneurs de morale amplifient une menace (les affrontements entre *mods* et *rockers* dans l'Angleterre des années 1960) jusqu'à la **panique morale**. [[Foucault]], dans *Surveiller et punir* (1975), déplace l'analyse vers les dispositifs disciplinaires et la production de la « délinquance » comme catégorie gérable par la prison.
 
-À l'inverse, Travis Hirschi (*Causes of Delinquency*, 1969) renverse la question durkheimienne : ce qu'il faut expliquer n'est pas pourquoi certains transgressent, mais pourquoi la plupart s'en abstiennent. Sa théorie du **contrôle social** met l'accent sur les liens (attachement, engagement, implication, croyance) qui retiennent l'individu.
+À l'inverse, Travis Hirschi (*Causes of Delinquency*, 1969) renverse la question posée par les théories de la tension : ce qu'il faut expliquer n'est pas pourquoi certains transgressent, mais pourquoi la plupart s'en abstiennent. Sa théorie du **contrôle social** met l'accent sur les liens (attachement, engagement, implication, croyance) qui retiennent l'individu.
 
 Ces débats éclairent des questions contemporaines : la dépénalisation de certaines drogues, la psychiatrisation des comportements, les contrôles d'identité ou la manière dont le [[Droit Pénal]] définit et hiérarchise les infractions. Ils rappellent que la frontière entre normal et déviant est historique : elle se déplace, et ce déplacement est lui-même un objet sociologique.
 

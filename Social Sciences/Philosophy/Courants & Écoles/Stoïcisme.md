@@ -30,7 +30,7 @@ timeline
         161 : Marc Aurèle devient empereur
         180 : Mort de Marc Aurèle
     section Renouveau moderne
-        1946 : Frankl, Man's Search for Meaning
+        1946 : Frankl, original allemand de Man's Search for Meaning
         2014 : Holiday, The Obstacle Is the Way
 ```
 
