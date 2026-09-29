@@ -73,7 +73,7 @@ L'empire gouverne une population très diverse : Turcs, Arabes, Grecs, Slaves, A
 
 ## Le recul (1566-1839)
 
-La thèse d'un « déclin » continu après Soliman est aujourd'hui largement révisée : aux XVIIe et XVIIIe siècles, l'empire se transforme plus qu'il ne décline, avec une décentralisation au profit des notables provinciaux et une économie de fermes fiscales. Mais son rapport de force avec l'Europe s'inverse. L'échec du second **siège de Vienne** (1683) ouvre une guerre désastreuse conclue par le **traité de Karlowitz** (1699), première grande perte territoriale : la Hongrie passe aux Habsbourg.
+La thèse d'un « déclin » continu après Soliman est aujourd'hui largement révisée : aux XVIIe et XVIIIe siècles, l'empire se transforme plus qu'il ne décline, avec une décentralisation au profit des notables provinciaux et une économie de fermes fiscales. Mais son rapport de force avec l'Europe s'inverse. L'échec du second **siège de Vienne** (1683) ouvre une guerre désastreuse conclue par le **traité de Karlowitz** (1699), première grande perte territoriale : l'essentiel de la Hongrie passe aux Habsbourg.
 
 Au XVIIIe siècle, l'adversaire principal devient la Russie. Le traité de **Küçük Kaynarca** (1774), qui suit la victoire de Catherine II (voir [[01 - Empire Russe]]), fait perdre aux Ottomans le contrôle de la mer Noire et donne au tsar un droit de regard sur les chrétiens orthodoxes de l'empire. Au XIXe siècle, les nationalismes balkaniques, portés par les idées de la Révolution française, démembrent l'empire par le bas : la Grèce devient indépendante en 1830, et l'Égypte de Méhémet Ali échappe de fait au pouvoir central.
 

@@ -63,7 +63,7 @@ Mathématicien de formation, Husserl fonde la phénoménologie dans les *Recherc
 
 ### Martin Heidegger (1889-1976) — L'Être et le Dasein
 
-Élève et successeur de Husserl (il lui succède à Fribourg en 1928, puis s'en éloigne après son ralliement au nazisme en 1933), Heidegger transforme la phénoménologie en une **ontologie fondamentale**.
+Élève et successeur de Husserl (il lui succède à Fribourg en 1928 ; leurs relations se dégradent dès la fin des années 1920, et la rupture est consommée après son ralliement au nazisme en 1933), Heidegger transforme la phénoménologie en une **ontologie fondamentale**.
 
 *Être et Temps* (1927) : la phénoménologie ne doit pas décrire la conscience mais l'**être** — et l'être se donne uniquement à travers le *Dasein* ("être-là"), l'être humain toujours situé dans un monde.
 

@@ -26,7 +26,7 @@ timeline
         1938 : Sartre, La Nausée
         1942 : Camus, L'Étranger et Le Mythe de Sisyphe
         1943 : Sartre, L'Être et le Néant
-        1945 : Sartre, L'existentialisme est un humanisme
+        1945 : Sartre, conférence L'existentialisme est un humanisme
         1949 : Beauvoir, Le Deuxième Sexe
         1951 : Camus, L'Homme révolté
     section Critiques et déclin

@@ -96,7 +96,7 @@ Byzance lègue au monde orthodoxe, des Balkans à la Russie, sa liturgie, son ar
 
 ## Ressources
 
-- **Georg Ostrogorsky**, *Histoire de l'État byzantin* (1940)
+- **Georg Ostrogorsky**, *Histoire de l'État byzantin* (1940 ; trad. fr. 1956)
 - **Dimitri Obolensky**, *The Byzantine Commonwealth* (1971)
 - **Gilbert Dagron**, *Empereur et prêtre* (1996)
 - **Judith Herrin**, *Byzantium: The Surprising Life of a Medieval Empire* (2007)

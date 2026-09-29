@@ -103,7 +103,7 @@ L'égyptologie moderne naît avec l'expédition de Bonaparte (1798-1801) et le d
 ## Débats historiographiques
 
 > [!question] Débat : une civilisation « hydraulique » et despotique ?
-> Dans *Le Despotisme oriental* (1957), Karl Wittfogel soutient que les grandes civilisations fluviales ont produit des États autoritaires parce que la gestion de l'irrigation exigeait une bureaucratie centrale toute-puissante. L'Égypte en serait un cas d'école. Le géographe Karl Butzer (1976) a montré que l'irrigation égyptienne reposait sur des bassins de crue gérés à l'échelle locale, sans grand réseau planifié par l'État, et que les phases de fragmentation politique ne coïncident pas avec un effondrement de l'agriculture. L'État pharaonique est bien centralisé, mais cette centralisation est d'abord idéologique et fiscale, pas une nécessité technique de l'irrigation.
+> Dans *Le Despotisme oriental* (1957 ; trad. fr. 1964), Karl Wittfogel soutient que les grandes civilisations fluviales ont produit des États autoritaires parce que la gestion de l'irrigation exigeait une bureaucratie centrale toute-puissante. L'Égypte en serait un cas d'école. Le géographe Karl Butzer (1976) a montré que l'irrigation égyptienne reposait sur des bassins de crue gérés à l'échelle locale, sans grand réseau planifié par l'État, et que les phases de fragmentation politique ne coïncident pas avec un effondrement de l'agriculture. L'État pharaonique est bien centralisé, mais cette centralisation est d'abord idéologique et fiscale, pas une nécessité technique de l'irrigation.
 
 > [!question] Débat : l'Égypte, civilisation africaine ?
 > L'historien sénégalais Cheikh Anta Diop (*Nations nègres et culture*, 1954) a soutenu que les anciens Égyptiens étaient des Africains noirs et que l'Égypte devait être replacée dans l'histoire du continent, contre une tradition européenne qui la rattachait au monde méditerranéen ou « oriental ». Ses thèses raciales précises sont rejetées par la plupart des égyptologues, qui décrivent une population diverse, en continuité avec le Sahara oriental, la Nubie et le Proche-Orient, et jugent les catégories raciales modernes inadaptées à l'Antiquité. Mais la question qu'il posait a été largement reprise : l'égyptologie du XIXe siècle a bien détaché l'Égypte de l'Afrique, et les liens avec la Nubie et le Soudan sont aujourd'hui pleinement étudiés, comme en témoigne la place des pharaons koushites de la XXVe dynastie.
@@ -113,5 +113,5 @@ L'égyptologie moderne naît avec l'expédition de Bonaparte (1798-1801) et le d
 - **Nicolas Grimal**, *Histoire de l'Égypte ancienne* (1988)
 - **Barry Kemp**, *Ancient Egypt: Anatomy of a Civilization* (1989)
 - **Ian Shaw** (dir.), *The Oxford History of Ancient Egypt* (2000)
-- **Jan Assmann**, *Moïse l'Égyptien* (1997)
+- **Jan Assmann**, *Moïse l'Égyptien* (1997 ; trad. fr. 2001)
 - **Karl Butzer**, *Early Hydraulic Civilization in Egypt* (1976)

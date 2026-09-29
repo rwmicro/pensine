@@ -65,7 +65,7 @@ Après plusieurs siècles de royaumes régionaux, les **Gupta** unifient le nord
 
 ### Le sultanat de Delhi
 
-L'[[Islam]] arrive dès le VIIIe siècle dans le Sind, puis par les raids de Mahmud de Ghazni au début du XIe siècle. En 1206, un ancien esclave militaire d'origine turque fonde à Delhi un **sultanat** qui domine le nord de l'Inde pendant trois siècles, sous plusieurs dynasties successives. Il repousse les invasions mongoles, mais Delhi est saccagée par Tamerlan en 1398. Au sud, l'empire hindou de **Vijayanagara** (1336-1565) prospère. C'est dans ce contexte de rencontre entre traditions que naissent les courants dévotionnels (*bhakti*) et soufis, et, au Pendjab, la religion sikhe fondée par Guru Nanak (1469-1539).
+L'[[Islam]] arrive dès le VIIIe siècle dans le Sind, puis par les raids de Mahmud de Ghazni au début du XIe siècle. En 1206, un ancien esclave militaire d'origine turque fonde à Delhi un **sultanat** qui domine le nord de l'Inde pendant trois siècles, sous plusieurs dynasties successives. Il repousse les invasions mongoles, mais Delhi est saccagée par Tamerlan en 1398. Au sud, l'empire hindou de **Vijayanagara** (fondé en 1336, à son apogée jusqu'à la défaite de Talikota en 1565) prospère. C'est dans ce contexte de rencontre entre traditions que naissent les courants dévotionnels (*bhakti*) et soufis, et, au Pendjab, la religion sikhe fondée par Guru Nanak (1469-1539).
 
 ### L'Empire moghol
 
@@ -86,7 +86,7 @@ En 1526, **Babur**, descendant de Tamerlan et de Gengis Khan venu de l'actuel Ou
 
 ### De la Compagnie à la Couronne
 
-La **Compagnie anglaise des Indes orientales**, fondée en 1600, n'est d'abord qu'une entreprise commerciale parmi d'autres. Sa victoire à **Plassey** (1757) lui donne le contrôle du Bengale, la province la plus riche, et le droit d'y lever l'impôt. En un siècle, la Compagnie devient la puissance dominante du sous-continent. En 1857, la **grande révolte**, partie des cipayes (soldats indiens de la Compagnie), embrase le nord de l'Inde. Sa répression s'accompagne de la fin officielle de l'Empire moghol et de la dissolution du pouvoir de la Compagnie : à partir de 1858, l'Inde est gouvernée directement par la Couronne britannique, et la reine Victoria prend en 1877 le titre d'impératrice des Indes.
+La **Compagnie anglaise des Indes orientales**, fondée en 1600, n'est d'abord qu'une entreprise commerciale parmi d'autres. Sa victoire à **Plassey** (1757) lui donne le contrôle du Bengale, la province la plus riche, où elle obtient en 1765 le droit de lever l'impôt (*diwani*). En un siècle, la Compagnie devient la puissance dominante du sous-continent. En 1857, la **grande révolte**, partie des cipayes (soldats indiens de la Compagnie), embrase le nord de l'Inde. Sa répression s'accompagne de la fin officielle de l'Empire moghol et de la dissolution du pouvoir de la Compagnie : à partir de 1858, l'Inde est gouvernée directement par la Couronne britannique, et la reine Victoria prend en 1877 le titre d'impératrice des Indes.
 
 Le Raj construit chemins de fer, universités et une administration unifiée, mais l'économie est tournée vers les besoins britanniques. L'artisanat textile indien, concurrencé par les cotonnades de la [[La Révolution Industrielle|révolution industrielle]] anglaise, s'effondre, et des famines meurtrières frappent le pays à la fin du XIXe siècle puis au Bengale en 1943.
 
@@ -99,7 +99,7 @@ Le **Congrès national indien** est fondé en 1885 par une élite anglophone mod
 
 ## Indépendance et partition (1947)
 
-Épuisé par la Seconde Guerre mondiale, le Royaume-Uni accélère son départ. L'indépendance est proclamée le **15 août 1947**, avec la création de deux États : l'Inde, à majorité hindoue mais laïque dans son projet, et le Pakistan, à majorité musulmane, en deux parties séparées par 1 500 kilomètres. Les frontières, tracées en quelques semaines, coupent en deux le Pendjab et le Bengale.
+Épuisé par la Seconde Guerre mondiale, le Royaume-Uni accélère son départ. L'indépendance est proclamée le **15 août 1947**, avec la création de deux États : l'Inde, à majorité hindoue mais laïque dans son projet, et le Pakistan, à majorité musulmane, en deux parties séparées par environ 1 600 kilomètres. Les frontières, tracées en quelques semaines, coupent en deux le Pendjab et le Bengale.
 
 La **partition** provoque l'un des plus grands déplacements de population de l'histoire : de 10 à 20 millions de personnes, selon les estimations, franchissent les nouvelles frontières. Les violences intercommunautaires font un nombre de morts très débattu, estimé entre quelques centaines de milliers et deux millions. Gandhi, qui s'était opposé à la partition, est assassiné le 30 janvier 1948 par un nationaliste hindou. La première guerre pour le Cachemire éclate dès 1947.
 
