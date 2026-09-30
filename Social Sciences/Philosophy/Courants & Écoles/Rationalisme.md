@@ -25,7 +25,7 @@ Le **rationalisme** (du latin *ratio* = raison) est une doctrine philosophique s
 timeline
     title Le rationalisme
     section Antiquité
-        VIe s. av. J.-C. : Pythagore, tout est nombre
+        VIe-Ve s. av. J.-C. : Pythagore et les pythagoriciens, tout est nombre
         IVe s. av. J.-C. : Platon, théorie des Idées et réminiscence
     section Rationalisme classique
         1623 : Galilée, Il Saggiatore
