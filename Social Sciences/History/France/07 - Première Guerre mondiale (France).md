@@ -5,7 +5,8 @@ subdomain: "History > France"
 tags: [sciences-sociales, histoire, france]
 date: "2026-09-16"
 stage: budding
-period: "1914-1918"
+year: 1914
+yearEnd: 1918
 ---
 
 # La France dans la Première Guerre mondiale (1914-1918)

@@ -4,6 +4,8 @@ domain: "Social Sciences"
 subdomain: "History"
 tags: [sciences-sociales, histoire]
 date: "2025-11-06"
+year: 1990
+period: "Depuis 1990"
 ---
 
 # Transnistrie (Pridnestrovie)

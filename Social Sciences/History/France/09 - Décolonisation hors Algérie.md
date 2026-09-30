@@ -5,7 +5,8 @@ subdomain: "History > France"
 tags: [sciences-sociales, histoire, france]
 date: "2026-09-16"
 stage: budding
-period: "1946-1962"
+year: 1946
+yearEnd: 1962
 ---
 
 # La Décolonisation française hors Algérie (Indochine, Afrique)

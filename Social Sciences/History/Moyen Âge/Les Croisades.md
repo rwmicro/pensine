@@ -4,6 +4,8 @@ domain: "Social Sciences"
 subdomain: "History > Moyen Âge"
 tags: [sciences-sociales, histoire, moyen-âge, croisades, guerre-sainte, méditerranée]
 date: "2026-09-28"
+year: 1095
+yearEnd: 1291
 ---
 
 # Les Croisades

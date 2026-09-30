@@ -4,6 +4,8 @@ domain: "Social Sciences"
 subdomain: "History > WW2"
 tags: [sciences-sociales, histoire, seconde-guerre-mondiale]
 date: "2025-12-31"
+year: 1935
+yearEnd: 1945
 ---
 
 # Lebensborn - "Fontaine de Vie"

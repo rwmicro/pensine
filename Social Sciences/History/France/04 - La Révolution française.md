@@ -5,7 +5,8 @@ subdomain: "History > France"
 tags: [sciences-sociales, histoire, france]
 date: "2026-09-16"
 stage: budding
-period: "1789-1799"
+year: 1789
+yearEnd: 1799
 ---
 
 # La Révolution française (1789-1799)

@@ -4,6 +4,8 @@ domain: "Social Sciences"
 subdomain: "History > Époque moderne"
 tags: [sciences-sociales, histoire, époque-moderne, esclavage, traite, colonisation]
 date: "2026-09-28"
+year: 1444
+yearEnd: 1888
 ---
 
 # La traite atlantique

@@ -4,7 +4,7 @@ domain: "Social Sciences"
 subdomain: "History > France"
 tags: [sciences-sociales, histoire, france]
 date: "2025-06-05"
-period: "1871"
+year: 1871
 ---
 
 # La Commune de Paris (18 mars — 28 mai 1871)

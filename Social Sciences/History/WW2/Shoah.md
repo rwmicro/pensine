@@ -4,6 +4,8 @@ domain: "Social Sciences"
 subdomain: "History > WW2"
 tags: [sciences-sociales, histoire, seconde-guerre-mondiale, shoah, génocide, nazisme]
 date: "2026-09-28"
+year: 1933
+yearEnd: 1945
 ---
 
 # La Shoah

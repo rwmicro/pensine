@@ -4,6 +4,8 @@ domain: "Social Sciences"
 subdomain: "History > Antiquité"
 tags: [sciences-sociales, histoire, antiquité, grèce, démocratie, cité]
 date: "2026-09-28"
+year: -1200
+yearEnd: -30
 ---
 
 # Grèce antique

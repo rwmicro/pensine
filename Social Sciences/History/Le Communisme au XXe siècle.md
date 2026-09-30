@@ -4,6 +4,8 @@ domain: "Social Sciences"
 subdomain: "History"
 tags: [sciences-sociales, histoire]
 date: "2026-05-17"
+year: 1917
+yearEnd: 1991
 ---
 
 # Le Communisme au XXe siècle

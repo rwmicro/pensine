@@ -28,6 +28,18 @@ date: "YYYY-MM-DD"
 ---
 ```
 
+### Frise chronologique du site (`year`, `yearEnd`, `period`)
+
+La page `/frise/` de learn-nebula ne liste que les notes qui déclarent `year`, l'année historique dont parle la note (pas la date d'écriture, qui reste `date`). Une note d'histoire qui porte sur un événement ou une période datable doit donc l'avoir :
+
+```yaml
+year: 1789        # nombre, négatif avant J.-C. (year: -753)
+yearEnd: 1799     # optionnel, pour une période
+period: "Depuis 1948"   # optionnel, libellé affiché à côté des années
+```
+
+`period` n'est qu'un libellé : sans `year`, la note n'apparaît pas sur la frise. N'y remets pas les années déjà données par `year`/`yearEnd`, elles s'afficheraient deux fois.
+
 ## Règles de formatage
 
 - `---` autorisé **uniquement** pour le frontmatter — jamais comme séparateur dans le corps

@@ -4,7 +4,8 @@ domain: "Social Sciences"
 subdomain: "History > France"
 tags: [sciences-sociales, histoire, france]
 date: "2025-01-15"
-period: "1527-1789"
+year: 1527
+yearEnd: 1789
 ---
 
 # Jeu de Paume

@@ -5,7 +5,8 @@ subdomain: "History > France"
 tags: [sciences-sociales, histoire, france]
 date: "2026-09-16"
 stage: budding
-period: "1940-1944"
+year: 1940
+yearEnd: 1944
 ---
 
 # Vichy, Occupation et Résistance (1940-1944)

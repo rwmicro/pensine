@@ -4,6 +4,8 @@ domain: "Social Sciences"
 subdomain: "History > XXe siècle"
 tags: [sciences-sociales, histoire, xxe-siècle, proche-orient, israël, palestine]
 date: "2026-09-28"
+year: 1948
+period: "Depuis 1948"
 ---
 
 # Le conflit israélo-palestinien

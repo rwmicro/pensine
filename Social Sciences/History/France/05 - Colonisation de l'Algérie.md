@@ -6,7 +6,8 @@ tags: [sciences-sociales, histoire, france]
 date: "2026-02-04"
 updated: "2026-09-16"
 stage: budding
-period: "1830-1962"
+year: 1830
+yearEnd: 1962
 ---
 
 # La Colonisation de l'Algérie (1830-1962)
