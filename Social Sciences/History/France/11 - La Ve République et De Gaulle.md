@@ -5,7 +5,8 @@ subdomain: "History > France"
 tags: [sciences-sociales, histoire, france]
 date: "2026-09-16"
 stage: budding
-period: "1958-1969"
+year: 1958
+yearEnd: 1969
 ---
 
 # La Ve République et De Gaulle (1958-1969)
@@ -14,6 +15,28 @@ period: "1958-1969"
 *Charles de Gaulle, 20 mai 1961 — photographie. Licence CC BY-SA 3.0 DE, source : Wikimedia Commons.*
 
 La Ve République, qui régit toujours la vie politique française aujourd'hui, naît directement de la crise algérienne (voir [[10 - Guerre d'Algérie]]). Elle est pensée comme une réponse structurelle à l'instabilité chronique de la IVe République, incapable de gérer durablement une crise majeure sans changer de gouvernement.
+
+## Chronologie
+
+```mermaid
+timeline
+    title La République gaullienne, 1958-1969
+    section Fondation
+        13 mai 1958 : Crise d'Alger, appel à De Gaulle
+        Septembre 1958 : Constitution adoptée par référendum
+    section Algérie et grandeur
+        1960 : Premier essai nucléaire français
+        Avril 1961 : Putsch des généraux
+        1962 : Accords d'Évian
+        1962 : Élection du président au suffrage universel
+        1964 : Reconnaissance de la Chine populaire
+        1966 : Retrait du commandement intégré de l'OTAN
+        1967 : Vive le Québec libre
+    section Fin du gaullisme
+        Mai 1968 : Crise de Mai 68
+        Juin 1968 : Victoire gaulliste aux législatives
+        Avril 1969 : Échec du référendum, démission
+```
 
 ## La crise du 13 mai 1958
 
@@ -34,7 +57,7 @@ Rappelé au pouvoir en partie par les partisans de l'Algérie française, De Gau
 
 ## La politique de grandeur
 
-Sur la scène internationale, De Gaulle mène une politique d'indépendance nationale vis-à-vis des deux blocs de la Guerre froide. La France se dote de l'arme nucléaire (premier essai en 1960) pour garantir son autonomie stratégique — la « force de frappe ». En 1966, De Gaulle retire la France du commandement militaire intégré de l'OTAN, tout en restant dans l'Alliance atlantique, pour affirmer une capacité de décision indépendante des États-Unis. Il cultive aussi des relations avec l'URSS et la Chine populaire, qu'il reconnaît officiellement dès 1964, et prend des positions remarquées comme son soutien affiché à l'indépendance du Québec en 1967 (« Vive le Québec libre ! »).
+Sur la scène internationale, De Gaulle mène une politique d'indépendance nationale vis-à-vis des deux blocs de la [[Guerre froide]]. La France se dote de l'arme nucléaire (premier essai en 1960) pour garantir son autonomie stratégique — la « force de frappe ». En 1966, De Gaulle retire la France du commandement militaire intégré de l'OTAN, tout en restant dans l'Alliance atlantique, pour affirmer une capacité de décision indépendante des États-Unis. Il cultive aussi des relations avec l'URSS et la Chine populaire, qu'il reconnaît officiellement dès 1964, et prend des positions remarquées comme son soutien affiché à l'indépendance du Québec en 1967 (« Vive le Québec libre ! »).
 
 ## Mai 68 et la fin du gaullisme
 

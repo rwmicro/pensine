@@ -60,7 +60,7 @@ Goffman pratique une microsociologie empirique fondée sur l'observation minutie
 
 - Vocabulaire devenu courant bien au-delà de la sociologie : "mise en scène de soi", "backstage", "stigmate" sont passés dans le langage courant et le marketing
 - Anticipe, dès les années 1960-1970, des problématiques aujourd'hui centrales sur la gestion de l'identité en ligne (les réseaux sociaux comme scène perpétuelle de gestion des impressions) — voir [[Sociology/Applications et Enjeux#Numérique et société|Applications et Enjeux]]
-- Influence directe sur la sociologie des institutions, de la déviance et de la santé (Foucault dialogue avec Goffman sur les institutions d'enfermement, malgré des méthodes très différentes)
+- Influence directe sur la sociologie des institutions, de la [[Sociologie de la Déviance|déviance]] et de la santé (Foucault dialogue avec Goffman sur les institutions d'enfermement, malgré des méthodes très différentes)
 
 ## Citations
 

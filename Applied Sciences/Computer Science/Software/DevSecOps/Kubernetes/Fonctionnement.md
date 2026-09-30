@@ -97,7 +97,7 @@ Expose les Pods sur le réseau (ils ont des IPs changeantes — le Service donne
 - **Secret** : données sensibles (mots de passe, tokens) — encodées en base64
 
 > [!warning] Piège
-> Base64 est un **encodage**, pas un chiffrement — n'importe qui avec un accès en lecture au Secret peut le décoder en une commande (`base64 -d`). Un Secret Kubernetes natif protège seulement contre une lecture accidentelle, pas contre un accès malveillant à etcd ou à l'API. Voir [[Sécurité Kubernetes]] pour les vraies protections (chiffrement etcd, Vault).
+> Base64 est un **encodage**, pas un chiffrement — n'importe qui avec un accès en lecture au Secret peut le décoder en une commande (`base64 -d`). Un Secret Kubernetes natif protège seulement contre une lecture accidentelle, pas contre un accès malveillant à etcd ou à l'API. Voir [[Kubernetes Security|Sécurité Kubernetes]] pour les vraies protections (chiffrement etcd, Vault).
 
 ### Namespace
 Isolation logique dans le cluster (comme des dossiers pour organiser les ressources).

@@ -124,7 +124,7 @@ Règle à tester: "Si voyelle d'un côté, chiffre pair de l'autre."
 **Leçon:** On cherche à **confirmer** plutôt qu'à **réfuter**.
 
 > [!important] Idée clé
-> Le test de Wason révèle le mécanisme exact du biais : logiquement, une règle "si P alors Q" n'est infirmée que par un cas où P est vrai et Q faux. Retourner "4" ne peut jamais réfuter la règle (rien n'interdit qu'un chiffre pair ait une consonne derrière), seul "7" le peut. Le réflexe majoritaire de vérifier E et 4 montre qu'on cherche spontanément des cas qui confirmeraient la règle, pas ceux qui pourraient la casser — exactement l'inverse de la démarche de falsification de Popper.
+> Le test de Wason révèle le mécanisme exact du biais : logiquement, une règle "si P alors Q" n'est infirmée que par un cas où P est vrai et Q faux. Retourner "4" ne peut jamais réfuter la règle (rien n'interdit qu'un chiffre pair ait une consonne derrière), seul "7" le peut. Le réflexe majoritaire de vérifier E et 4 montre qu'on cherche spontanément des cas qui confirmeraient la règle, pas ceux qui pourraient la casser — exactement l'inverse de la démarche de falsification de [[Popper]].
 
 ### Expérience de Lord, Ross & Lepper (1979)
 

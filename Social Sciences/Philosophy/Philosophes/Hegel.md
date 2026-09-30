@@ -134,7 +134,7 @@ Hegel est ni libéral (l'individu est premier) ni totalitaire (l'État absorbe t
 
 ## Héritage
 
-Hegel est la figure pivot de la philosophie moderne. Presque toute la philosophie continentale du XIXe et XXe siècle se définit par rapport à lui : Marx l'inverse, Kierkegaard le conteste, Nietzsche le raille, Heidegger le critique, Sartre le réinterprète.
+Hegel est la figure pivot de la philosophie moderne. Presque toute la philosophie continentale du XIXe et XXe siècle se définit par rapport à lui : Marx l'inverse, [[Kierkegaard]] le conteste, Nietzsche le raille, Heidegger le critique, Sartre le réinterprète.
 
 Sa *Phénoménologie* reste l'une des œuvres les plus difficiles et les plus fécondes de toute la philosophie.
 

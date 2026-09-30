@@ -1,9 +1,9 @@
 ---
-title: Kerberos Attacks
-domain: sciences-appliquées
-subdomain: informatique / sécurité
+title: "Kerberos Attacks"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Active Directory"
 tags: [kerberos, active-directory, kerberoasting, as-rep, golden-ticket, silver-ticket, pentest, sécurité]
-date: 2026-03-23
+date: "2026-03-23"
 ---
 
 # Kerberos Attacks

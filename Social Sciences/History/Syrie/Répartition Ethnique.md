@@ -10,7 +10,7 @@ date: "2025-12-31"
 
 ## Vue d'Ensemble
 
-La Syrie est un pays profondément fragmenté sur le plan ethno-religieux, héritage de l'Empire ottoman et des frontières artificielles tracées par les puissances coloniales (Accords Sykes-Picot, 1916). Cette mosaïque communautaire est au cœur de la complexité politique du pays et de la guerre civile débutée en 2011.
+La Syrie est un pays profondément fragmenté sur le plan ethno-religieux, héritage de l'[[Empire ottoman]] et des frontières artificielles tracées par les puissances coloniales (Accords Sykes-Picot, 1916). Cette mosaïque communautaire est au cœur de la complexité politique du pays et de la guerre civile débutée en 2011.
 
 **Population totale (avant 2011) : ~22 millions d'habitants**
 **Population actuelle (2023) : ~18 millions** (exode massif dû à la guerre)
@@ -194,7 +194,7 @@ Les Arabes constituent la très large majorité de la population syrienne, mais 
 - **Maalula** et **Saidnaya** (villages araméophones)
 
 **Position politique :**
-- Traditionnellement pro-régime Assad (laïcité du Baas, protection minoritaire)
+- Traditionnellement pro-régime Assad ([[Laïcité|laïcité]] du Baas, protection minoritaire)
 - Peur de l'islamisme sunnite radical
 - Quelques figures de l'opposition (Michel Kilo, Georges Sabra - chrétiens laïques)
 

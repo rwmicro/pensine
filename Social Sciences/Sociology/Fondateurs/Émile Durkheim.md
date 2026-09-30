@@ -262,7 +262,7 @@ Fondateur de la sociologie scientifique française et figure majeure de la disci
 
 **Sociologie:**
 - Talcott Parsons (fonctionnalisme)
-- Robert K. Merton
+- [[Robert K. Merton]]
 - Pierre Bourdieu (fait social, objectivation)
 
 ### Critiques
@@ -284,7 +284,7 @@ Fondateur de la sociologie scientifique française et figure majeure de la disci
 **Pertinence contemporaine:**
 - Anomie (crises, transitions)
 - Lien social (individualisme, solitude)
-- Religion civile, laïcité
+- Religion civile, [[Laïcité|laïcité]]
 - Intégration vs désintégration sociale
 - Statistiques sociales, big data
 

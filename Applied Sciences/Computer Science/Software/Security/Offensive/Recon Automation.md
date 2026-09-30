@@ -1,9 +1,9 @@
 ---
-title: Recon Automation
-domain: sciences-appliquées
-subdomain: informatique / sécurité
+title: "Recon Automation"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Offensive"
 tags: [recon, reconnaissance, automation, bug-bounty, osint, pentest, sécurité]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Recon Automation

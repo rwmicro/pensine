@@ -1,3 +1,11 @@
+---
+title: "LFCS Q03 — Time synchronisation Configuration"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, time, synchronisation]
+date: "2026-08-09"
+---
+
 # Question 3 — Time synchronisation Configuration
 
 ## Notes d'apprentissage

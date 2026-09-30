@@ -1,3 +1,11 @@
+---
+title: "LFCS Q06 — User, Groups and Sudoers"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, user, groups, sudoers]
+date: "2026-08-09"
+---
+
 # Question 6 — User, Groups and Sudoers
 
 ## Notes d'apprentissage

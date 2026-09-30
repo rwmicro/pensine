@@ -1,9 +1,9 @@
 ---
-title: RAG — Retrieval-Augmented Generation
-domain: sciences-appliquées
-subdomain: informatique / machine-learning / llm
+title: "RAG — Retrieval-Augmented Generation"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Data Science > Machine Learning > LLM"
 tags: [rag, llm, retrieval, embeddings, vector-database, prompt-engineering]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 # RAG - Retrieval-Augmented Generation
 

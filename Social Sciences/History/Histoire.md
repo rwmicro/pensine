@@ -20,6 +20,30 @@ L'**histoire** (du grec *historia* = enquête, récit) est la discipline qui ét
 
 ## Grandes Périodes Historiques
 
+```mermaid
+timeline
+    title Les cinq grandes périodes
+    section Préhistoire
+        -3,3 millions : Paléolithique, âge de la pierre taillée
+        -10000 : Néolithique, révolution agricole
+    section Antiquité
+        -3300 : Invention de l'écriture en Mésopotamie
+        476 : Chute de l'Empire romain d'Occident
+    section Moyen Âge
+        622 : Hégire
+        800 : Couronnement de Charlemagne
+        1054 : Schisme d'Orient
+        1347-1353 : Peste noire
+    section Époque moderne
+        1492 : Découverte de l'Amérique
+        1517 : Réforme protestante
+        1789 : Révolution française
+    section Époque contemporaine
+        1914-1918 : Première Guerre mondiale
+        1939-1945 : Seconde Guerre mondiale
+        1947-1991 : Guerre froide
+```
+
 ### 1. Préhistoire (~3 millions d'années - 3300 av. J.-C.)
 **Caractéristique :** Absence d'écriture
 
@@ -48,8 +72,8 @@ L'**histoire** (du grec *historia* = enquête, récit) est la discipline qui ét
 **Caractéristiques :**
 - Féodalité en Europe
 - Expansion de l'Islam (VIIe-VIIIe siècles)
-- Croisades (1095-1291)
-- Grands empires : Byzantin, Califats arabes, Empire mongol
+- [[Les Croisades|Croisades]] (1095-1291)
+- Grands empires : Byzantin, Califats arabes, [[Empire mongol]]
 - Renaissance du XIIe siècle (universités)
 
 **Événements clés :**
@@ -63,7 +87,7 @@ L'**histoire** (du grec *historia* = enquête, récit) est la discipline qui ét
 **Fin :** Révolution française (1789)
 
 **Caractéristiques :**
-- **Renaissance** (XVe-XVIe) : Humanisme, [[1452 - 1519 - Leonard de Vinci]]
+- **Renaissance** (XVe-XVIe) : Humanisme, [[Léonard de Vinci]]
 - **Réforme protestante** (1517) : Luther, Calvin
 - **Grandes découvertes** : Colonisation des Amériques
 - **Monarchies absolues** : Louis XIV (France), absolutisme
@@ -147,11 +171,34 @@ L'**histoire** (du grec *historia* = enquête, récit) est la discipline qui ét
 
 | Événement | Période | Victimes | Lien |
 |-----------|---------|----------|------|
-| **Génocide arménien** | 1915-1923 | 1-1,5 million | Empire ottoman |
+| **Génocide arménien** | 1915-1923 | 1-1,5 million | [[Empire ottoman]] |
 | **Shoah** | 1941-1945 | 6 millions de Juifs | [[WW2/Lebensborn]] (contexte nazi) |
 | **Holodomor** | 1932-1933 | 3-5 millions | Famine organisée Ukraine (Staline) |
 | **Génocide cambodgien** | 1975-1979 | 1,5-2 millions | Khmers rouges (Pol Pot) |
 | **Génocide rwandais** | 1994 | 800 000-1 million | Tutsis et Hutus modérés |
+
+## Notes par période
+
+### Antiquité
+- [[Égypte ancienne]]
+- [[Grèce antique]]
+- [[Rome antique]]
+
+### Moyen Âge
+- [[Empire byzantin]]
+- [[Les Croisades]]
+- [[Empire mongol]]
+
+### Époque moderne
+- [[La Renaissance]]
+- [[Réforme protestante]]
+- [[Traite atlantique]]
+
+### XXe siècle
+- [[Shoah]]
+- [[Guerre froide]]
+- [[Construction européenne]]
+- [[Conflit israélo-palestinien]]
 
 ## Zones Géographiques
 
@@ -169,9 +216,37 @@ L'**histoire** (du grec *historia* = enquête, récit) est la discipline qui ét
 - [[France/11 - La Ve République et De Gaulle]]
 - [[France/12 - Mai 68]]
 
+```mermaid
+timeline
+    title La série France, notes 01 à 12
+    section Époque moderne
+        XVIe siècle : 01 Jeu de Paume
+        1631 : 02 Naissance de la presse
+        1661-1715 : 03 Ancien Régime et Louis XIV
+    section De 1789 à 1871
+        1789-1799 : 04 Révolution française
+        1830 : 05 Colonisation de l'Algérie
+        1871 : 06 La Commune
+    section XXe siècle
+        1914-1918 : 07 Première Guerre mondiale
+        1940-1944 : 08 Vichy, Occupation et Résistance
+        1946-1960 : 09 Décolonisation hors Algérie
+        1954-1962 : 10 Guerre d'Algérie
+        1958-1969 : 11 Ve République et De Gaulle
+        1968 : 12 Mai 68
+```
+
 ### Russie
 - [[Russia/01 - Empire Russe]]
 - [[Russia/02 - Panelki]] : Urbanisme soviétique
+
+### Amériques
+- [[Histoire des États-Unis]]
+
+### Asie
+- [[Histoire de la Chine]]
+- [[Histoire du Japon]]
+- [[Histoire de l'Inde]]
 
 ### Afrique
 - [[Djibouti/Histoire]]
@@ -179,6 +254,8 @@ L'**histoire** (du grec *historia* = enquête, récit) est la discipline qui ét
 ### Moyen-Orient
 - [[Syrie/Répartition Ethnique]] : Contexte conflit syrien
 - [[Kurdes/Histoire]] : Peuple sans État
+- [[Empire ottoman]]
+- [[Conflit israélo-palestinien]]
 
 ### Europe de l'Est
 - [[Pridnestrovie - Transnistrie]] : État non reconnu
@@ -188,12 +265,12 @@ L'**histoire** (du grec *historia* = enquête, récit) est la discipline qui ét
 - [[WW2/Invasion of Poland]]
 - [[WW2/Lebensborn]]
 - [[WW2/Hierarchy in the German Army]]
-- [[WW2/Recommendations]] : Ressources sur la Seconde Guerre mondiale
+- [[Shoah]]
 
 ## Figures Historiques
 
 ### Philosophes et Penseurs
-- [[1452 - 1519 - Leonard de Vinci]] : Renaissance, génie universel
+- [[Léonard de Vinci]] : Renaissance, génie universel
 - [[Philosophy/Socrate]] : Philosophie antique
 - [[Philosophy/Platon]] : Idéalisme
 - [[Philosophy/Aristote]] : Logique, science
@@ -262,7 +339,7 @@ L'**histoire** (du grec *historia* = enquête, récit) est la discipline qui ét
 ### Histoire et Politique
 - Usages politiques de l'histoire (nationalisme, légitimation)
 - Lois mémorielles (loi Gayssot en France)
-- Négationnisme (Shoah, génocides)
+- Négationnisme ([[Shoah]], génocides)
 
 ### Histoire et Identité
 - Construction des identités nationales
@@ -311,12 +388,11 @@ L'**histoire** (du grec *historia* = enquête, récit) est la discipline qui ét
 ## Liens Internes
 
 ### Périodes et Thèmes
-- [[1452 - 1519 - Leonard de Vinci]] - Renaissance
+- [[Léonard de Vinci]] - Renaissance
 - [[WW2/Montée du nazisme]] - Années 1930
 - [[WW2/Invasion of Poland]] - Début WWII
 - [[WW2/Lebensborn]] - Programme nazi
 - [[WW2/Hierarchy in the German Army]] - Structure militaire
-- [[WW2/Recommendations]] - Ressources WWII
 
 ### France
 - [[France/01 - Jeu de Paume]]

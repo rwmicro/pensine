@@ -12,7 +12,7 @@ date: "2026-02-22"
 > Les **statistiques descriptives** analysent des données observées pour en dégager des tendances : position centrale (moyenne, médiane) et dispersion (variance, écart-type).
 
 
-# Partie I : Statistiques descriptives (Seconde)
+## Partie I : Statistiques descriptives (Seconde)
 
 ## 1. Vocabulaire et séries statistiques
 

@@ -1,9 +1,9 @@
 ---
-title: GraphQL Security
-domain: sciences-appliquées
-subdomain: informatique / sécurité / web
+title: "GraphQL Security"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Web Security"
 tags: [graphql, api, introspection, injection, sécurité, web]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # GraphQL Security

@@ -1,9 +1,9 @@
 ---
-title: Responder
-domain: sciences-appliquées
-subdomain: informatique / sécurité / offensive / outils
+title: "Responder"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Offensive > Tools"
 tags: [responder, llmnr, ntlm, active-directory, poisoning, sécurité, pentest]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Responder

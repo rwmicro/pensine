@@ -5,7 +5,8 @@ subdomain: "History > France"
 tags: [sciences-sociales, histoire, france]
 date: "2026-09-16"
 stage: budding
-period: "1789-1799"
+year: 1789
+yearEnd: 1799
 ---
 
 # La Révolution française (1789-1799)
@@ -14,6 +15,29 @@ period: "1789-1799"
 *Prise de la Bastille, 14 juillet 1789 — Jean-Pierre Houël, 1789, Bibliothèque nationale de France (Gallica). Domaine public, source : Wikimedia Commons.*
 
 La Révolution française met fin en dix ans à un système politique et social vieux de plusieurs siècles (voir [[03 - Ancien Régime et Louis XIV]]). Elle ne se joue pas en un seul mouvement : elle traverse des phases très différentes, d'un projet de monarchie constitutionnelle modérée en 1789 à la Terreur en 1793, avant de refluer vers une réaction conservatrice puis le pouvoir personnel de Napoléon Bonaparte.
+
+## Chronologie
+
+```mermaid
+timeline
+    title La Révolution française, 1789-1799
+    section 1789
+        17 juin 1789 : Le tiers état se proclame Assemblée nationale
+        20 juin 1789 : Serment du Jeu de Paume
+        14 juillet 1789 : Prise de la Bastille
+        4 août 1789 : Abolition des privilèges
+        26 août 1789 : Déclaration des droits de l'homme
+    section Monarchie constitutionnelle
+        Juin 1791 : Fuite du roi et arrestation à Varennes
+        Avril 1792 : Guerre contre l'Autriche
+        10 août 1792 : Prise des Tuileries
+        21-22 septembre 1792 : Abolition de la royauté, an I de la République
+    section Terreur et réaction
+        21 janvier 1793 : Exécution de Louis XVI
+        27 juillet 1794 : Chute de Robespierre, 9 thermidor
+        1795 : Début du Directoire
+        9 novembre 1799 : Coup d'État du 18 brumaire
+```
 
 ## La crise financière et la convocation des États généraux (1788-1789)
 

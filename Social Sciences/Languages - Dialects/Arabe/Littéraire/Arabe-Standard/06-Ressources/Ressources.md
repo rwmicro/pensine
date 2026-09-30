@@ -9,7 +9,7 @@ date: "2026-08-08"
 
 ## Positionnement par rapport aux dialectes du vault
 
-Avant de choisir où investir son temps d'apprentissage, il est utile de trancher l'objectif : le fuṣḥā et les dialectes ([[Arabe-Libanais/Arabe-Libanais|Arabe Libanais]], [[Darija/Darija|Darija]]) répondent à des besoins différents et ne s'apprennent pas de la même façon.
+Avant de choisir où investir son temps d'apprentissage, il est utile de trancher l'objectif : le fuṣḥā et les dialectes (Arabe Libanais, Darija) répondent à des besoins différents et ne s'apprennent pas de la même façon.
 
 | Objectif | Variété recommandée |
 |---|---|
@@ -46,6 +46,6 @@ Ce dossier utilise le code de langue `ar` du système TTS du vault (voir `source
 ## Pour aller plus loin dans le vault
 
 - [[Diglossie-et-Histoire|Diglossie et Histoire de la Langue]] — comprendre pourquoi fuṣḥā et dialecte coexistent
-- [[Arabe-Libanais/Arabe-Libanais|Arabe Libanais]] — le dialecte levantin le plus développé du vault
-- [[Darija/Darija|Darija]] — le dialecte maghrébin, dossier en cours de construction
+- Arabe Libanais — le dialecte levantin le plus développé du vault
+- Darija — le dialecte maghrébin, dossier en cours de construction
 - [[Philosophy/Philosophes/Avicenne|Avicenne]], [[Philosophy/Philosophes/Averroès|Averroès]] — pour le fuṣḥā classique comme langue de la philosophie médiévale

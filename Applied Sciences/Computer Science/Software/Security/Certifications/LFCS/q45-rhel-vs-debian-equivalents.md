@@ -1,3 +1,11 @@
+---
+title: "LFCS Q45 — RHEL vs Debian Equivalents"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, rhel, debian, equivalents]
+date: "2026-08-09"
+---
+
 # Question 45 — RHEL vs Debian Equivalents
 
 ## Notes d'apprentissage
@@ -102,8 +110,6 @@ sudo systemctl enable --now nftables
 ```
 
 The `iptables` command on RHEL 8+/Debian 11+ is usually the `iptables-nft` shim that translates to nftables under the hood, so old rules still work.
-
----
 
 ## Cross-distribution cheat sheet
 

@@ -12,6 +12,28 @@ date: "2026-02-22"
 
 L'**existentialisme** est un courant philosophique qui affirme que chaque être humain crée son propre sens de vie par ses actions et ses choix. L'existence précède l'essence: nous existons d'abord, puis nous nous définissons par nos actes.
 
+## Chronologie
+
+```mermaid
+timeline
+    title L'existentialisme
+    section Précurseurs
+        1843 : Kierkegaard, Ou bien ou bien
+        1844 : Kierkegaard, Le Concept d'angoisse
+        1882 : Nietzsche, Le Gai Savoir, Dieu est mort
+        1927 : Heidegger, Être et Temps
+    section Existentialisme français
+        1938 : Sartre, La Nausée
+        1942 : Camus, L'Étranger et Le Mythe de Sisyphe
+        1943 : Sartre, L'Être et le Néant
+        1945 : Sartre, conférence L'existentialisme est un humanisme
+        1949 : Beauvoir, Le Deuxième Sexe
+        1951 : Camus, L'Homme révolté
+    section Critiques et déclin
+        1960 : Sartre, Critique de la raison dialectique
+        1962 : Lévi-Strauss, La Pensée sauvage, contre Sartre
+```
+
 ## Principes Fondamentaux
 
 ### 1. L'existence précède l'essence
@@ -60,7 +82,7 @@ L'**existentialisme** est un courant philosophique qui affirme que chaque être 
 - Saut de la foi irrationnel mais nécessaire
 
 > [!warning] Piège
-> Kierkegaard est souvent cité comme « premier existentialiste » au même titre que Sartre ou Camus, mais son cadre reste théiste : l'angoisse mène au saut de la foi, pas à l'absurde assumé sans Dieu. La « vérité subjective » ne signifie pas « chacun a sa vérité » (relativisme) — elle désigne l'engagement personnel dans une vérité qui existe indépendamment de soi (la foi chrétienne), pas son invention.
+> [[Kierkegaard]] est souvent cité comme « premier existentialiste » au même titre que Sartre ou Camus, mais son cadre reste théiste : l'angoisse mène au saut de la foi, pas à l'absurde assumé sans Dieu. La « vérité subjective » ne signifie pas « chacun a sa vérité » (relativisme) — elle désigne l'engagement personnel dans une vérité qui existe indépendamment de soi (la foi chrétienne), pas son invention.
 
 ### Friedrich [[Nietzsche|Nietzsche]] (1844-1900)
 **Existentialisme athée radical**
@@ -174,7 +196,7 @@ L'existentialisme s'exprime souvent mieux en **littérature** qu'en traités:
 ## Critiques de l'Existentialisme
 
 ### Critique marxiste
-- Trop individualiste, ignore luttes collectives et classes sociales
+- Trop individualiste, ignore luttes collectives et [[Stratification et Classes Sociales|classes sociales]]
 - Sartre tentera synthèse existentialisme/marxisme (échec relatif)
 
 ### Critique religieuse

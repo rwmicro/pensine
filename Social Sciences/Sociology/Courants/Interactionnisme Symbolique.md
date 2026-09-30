@@ -191,7 +191,7 @@ Courant sociologique américain centré sur les interactions sociales et la cons
 **Théorie de l'étiquetage (labeling theory):**
 
 **Thèse centrale:**
-- **"La déviance n'est pas une qualité de l'acte commis, mais la conséquence de l'application par d'autres de règles et de sanctions à un 'transgresseur'"**
+- **"La [[Sociologie de la Déviance|déviance]] n'est pas une qualité de l'acte commis, mais la conséquence de l'application par d'autres de règles et de sanctions à un 'transgresseur'"**
 - Ce n'est pas l'acte intrinsèquement, mais la réaction sociale qui crée la déviance
 
 > [!important] Idée clé
@@ -324,7 +324,7 @@ Courant sociologique américain centré sur les interactions sociales et la cons
 **Thomas:**
 - "If men define situations as real, they are real in their consequences"
 - Réalité = socialement construite
-- Prophétie auto-réalisatrice (Merton reprend)
+- Prophétie auto-réalisatrice ([[Robert K. Merton|Merton]] reprend)
 
 ### Soi Miroir (Looking-Glass Self) - Cooley
 
@@ -393,7 +393,7 @@ Courant sociologique américain centré sur les interactions sociales et la cons
 - Garfinkel radicalise (méthodes profanes)
 
 **Sociologie pragmatique française:**
-- Boltanski, Thévenot
+- [[Luc Boltanski|Boltanski]], Thévenot
 - Capacités critiques des acteurs
 
 **Grounded Theory:**

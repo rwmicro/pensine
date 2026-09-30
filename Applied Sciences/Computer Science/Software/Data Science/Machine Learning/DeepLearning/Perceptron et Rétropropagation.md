@@ -1,9 +1,9 @@
 ---
-title: Perceptron et Rétropropagation
-domain: sciences-appliquées
-subdomain: informatique / machine-learning / deep-learning
+title: "Perceptron et Rétropropagation"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Data Science > Machine Learning > DeepLearning"
 tags: [perceptron, mlp, rétropropagation, backpropagation, réseaux-de-neurones, deep-learning]
-date: 2026-08-24
+date: "2026-08-24"
 ---
 
 # Perceptron et Rétropropagation

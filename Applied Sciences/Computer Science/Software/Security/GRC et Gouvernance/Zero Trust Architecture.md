@@ -1,9 +1,9 @@
 ---
-title: Zero Trust Architecture
-domain: sciences-appliquées
-subdomain: informatique / sécurité / réseau
+title: "Zero Trust Architecture"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > GRC et Gouvernance"
 tags: [zero-trust, iam, micro-segmentation, sécurité, réseau, architecture]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Zero Trust Architecture

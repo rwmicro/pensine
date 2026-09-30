@@ -1,9 +1,9 @@
 ---
-title: XPATH Injection
-domain: sciences-appliquées
-subdomain: informatique / sécurité / web
+title: "XPATH Injection"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Web Security"
 tags: [xpath, injection, xml, authentication-bypass, sécurité, web]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # XPATH Injection

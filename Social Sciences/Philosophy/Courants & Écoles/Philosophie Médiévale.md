@@ -10,6 +10,28 @@ date: "2026-04-18"
 
 La philosophie médiévale couvre un millénaire de pensée (de la chute de Rome en 476 à la Renaissance) et constitue bien plus qu'une parenthèse entre l'Antiquité et la modernité. Elle a produit les premières universités, forgé les concepts de droit naturel, de personne, de conscience, et transmis la philosophie grecque à la modernité — souvent via le monde arabe.
 
+## Chronologie
+
+```mermaid
+timeline
+    title La philosophie médiévale
+    section Patristique
+        386 : Conversion d'Augustin
+        413-426 : Augustin, La Cité de Dieu
+        476 : Chute de l'Empire romain d'Occident
+    section Haut Moyen Âge
+        980-1037 : Avicenne
+    section Scolastique
+        1077-1078 : Anselme, Proslogion, argument ontologique
+        1088 : Fondation de l'université de Bologne
+        1126-1198 : Averroès, le Commentateur
+        1190 : Maimonide, Guide des égarés
+        1274 : Mort de Thomas d'Aquin
+        1277 : Condamnations parisiennes de l'averroïsme
+    section Scolastique tardive
+        1347 : Mort de Guillaume d'Ockham
+```
+
 ## Périodes
 
 | Période | Dates | Caractéristiques |

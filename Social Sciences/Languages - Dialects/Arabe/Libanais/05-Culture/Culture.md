@@ -50,7 +50,7 @@ L'hospitalité est une valeur cardinale. Refuser une offre de café, de nourritu
 
 Les bises sont omniprésentes et font partie intégrante de la salutation physique :
 - **Femme-femme** : 3 bises (joue droite, gauche, droite — ou 2 selon la région)
-- **Homme-femme** : selon la connaissance et le degré de laïcité
+- **Homme-femme** : selon la connaissance et le degré de [[Laïcité|laïcité]]
 - **Homme-homme** : bises entre proches, poignée de main avec inconnus
 - Dans les communautés religieuses conservatrices : les femmes peuvent éviter le contact physique avec les hommes
 

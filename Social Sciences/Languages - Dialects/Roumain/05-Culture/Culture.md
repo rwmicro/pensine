@@ -21,7 +21,7 @@ La Roumanie est une anomalie géographique : seule langue romane entourée de la
 
 ## Orthodoxie et vie quotidienne
 
-L'Église orthodoxe roumaine est l'institution la plus ancienne du pays — elle a survécu à l'Empire ottoman, aux Habsbourg et au communisme.
+L'Église orthodoxe roumaine est l'institution la plus ancienne du pays — elle a survécu à l'[[Empire ottoman]], aux Habsbourg et au communisme.
 
 | Aspect | Impact culturel |
 |--------|----------------|

@@ -1,3 +1,11 @@
+---
+title: "LFCS Q17 — OpenSSH Configuration"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, openssh]
+date: "2026-08-09"
+---
+
 # Question 17 — OpenSSH Configuration
 
 ## Notes d'apprentissage

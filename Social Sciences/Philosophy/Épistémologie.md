@@ -140,7 +140,7 @@ Hume accepte que toute connaissance vient de l'expérience, mais en tire une con
   est circulaire.
 ```
 
-Le problème de l'induction est toujours ouvert. Il a inspiré Karl Popper à proposer une solution radicale : remplacer la confirmation par la *falsification*.
+Le problème de l'induction est toujours ouvert. Il a inspiré [[Popper|Karl Popper]] à proposer une solution radicale : remplacer la confirmation par la *falsification*.
 
 ## Kant : la synthèse critique
 

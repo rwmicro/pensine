@@ -4,6 +4,8 @@ domain: "Social Sciences"
 subdomain: "History"
 tags: [sciences-sociales, histoire]
 date: "2026-02-28"
+year: -10000
+period: "Néolithique"
 ---
 
 # La Révolution Agricole
@@ -21,6 +23,23 @@ La révolution agricole est la transition par laquelle des sociétés de chasseu
 | Afrique subsaharienne | ~3 000 av. J.-C. | Sorgho, mil |
 
 Elle n'est pas un événement soudain mais une **transition sur des millénaires**, parfois réversible : certains groupes ont adopté l'agriculture puis y ont renoncé.
+
+## Chronologie
+
+```mermaid
+timeline
+    title Les foyers de la révolution agricole
+    section Proche-Orient
+        -10000 à -8000 : Blé, orge et lentilles au Croissant fertile
+        -9000 à -8000 : Chèvre, mouton, bœuf et porc domestiqués
+    section Foyers indépendants
+        -7000 : Riz en Chine : Taro en Nouvelle-Guinée
+        -7000 à -4000 : Maïs, courges puis haricots en Mésoamérique
+        -3500 : Chevaux exploités à Botai dans les steppes, domestication débattue
+    section Vers l'État
+        -3200 : Premières tablettes comptables sumériennes
+        -3000 : Sorgho puis mil en Afrique subsaharienne
+```
 
 ## La domestication
 

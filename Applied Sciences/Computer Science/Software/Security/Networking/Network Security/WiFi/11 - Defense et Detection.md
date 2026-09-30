@@ -236,10 +236,3 @@ Si Evil Twin avec captive portal détecté :
 1. Diffuser une notification interne immédiate
 2. Forcer reset des PSK / mdp Wi-Fi compromis si saisis
 3. Si Enterprise : invalider et regénérer les comptes touchés
-
-## Voir aussi
-
-- [[05 - Evil Twin et Phishing]] — ce qu'on contre ici
-- [[06 - Attaques WPA2-Enterprise]] — détails de la validation cert
-- [[07 - DoS et MDK4]] — détection de DoS
-- [[09 - WPA3 et Vulnérabilités Modernes]] — état de l'art

@@ -6,6 +6,8 @@ tags: [sciences-appliquées, informatique, sécurité, réseau]
 date: "2025-02-15"
 ---
 
+# TShark
+
 TShark is a text-based tool, and it is suitable for data carving, in-depth packet analysis, and automation with scripts. This strength and flexibility come out of the nature of the CLI tools, as the produced/processed data can be pipelined to additional tools. The most common tools used in packet analysis are listed below.
 
 > [!important] Idée clé

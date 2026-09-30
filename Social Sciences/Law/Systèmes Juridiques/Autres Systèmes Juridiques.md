@@ -39,7 +39,7 @@ Dans la plupart des pays où il existe, le droit coutumier cohabite avec le droi
 
 ## Le droit socialiste
 
-Le droit socialiste est le système juridique des Etats marxistes-léninistes. Il a constitué un troisième grand système mondial pendant la Guerre froide, avant de s'effondrer avec l'URSS.
+Le droit socialiste est le système juridique des Etats marxistes-léninistes. Il a constitué un troisième grand système mondial pendant la [[Guerre froide]], avant de s'effondrer avec l'URSS.
 
 ### Fondements théoriques
 

@@ -8,7 +8,7 @@ date: "2026-08-08"
 
 # Anomie
 
-Concept forgé par Émile Durkheim (du grec *a-nomos*, "sans loi") pour désigner un état de dérèglement des normes sociales, puis retravaillé par Robert Merton pour expliquer la déviance dans les sociétés modernes. L'un des concepts sociologiques les plus repris hors du champ académique, souvent au prix d'un affadissement de son sens précis.
+Concept forgé par Émile Durkheim (du grec *a-nomos*, "sans loi") pour désigner un état de dérèglement des normes sociales, puis retravaillé par [[Robert K. Merton|Robert Merton]] pour expliquer la [[Sociologie de la Déviance|déviance]] dans les sociétés modernes. L'un des concepts sociologiques les plus repris hors du champ académique, souvent au prix d'un affadissement de son sens précis.
 
 ## Le concept chez Durkheim
 

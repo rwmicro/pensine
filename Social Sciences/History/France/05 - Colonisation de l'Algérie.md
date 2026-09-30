@@ -6,13 +6,37 @@ tags: [sciences-sociales, histoire, france]
 date: "2026-02-04"
 updated: "2026-09-16"
 stage: budding
-period: "1830-1962"
+year: 1830
+yearEnd: 1962
 ---
 
 # La Colonisation de l'Algérie (1830-1962)
 
 ![Portrait de l'émir Abd el-Kader](images/05-abd-el-kader.jpg)
 *Portrait de l'émir Abd el-Kader — photographie d'Émile Tourtin, 1885, Bibliothèque nationale de France. Domaine public, source : Wikimedia Commons.*
+
+## Chronologie
+
+```mermaid
+timeline
+    title La colonisation de l'Algérie, 1830-1954
+    section Conquête
+        5 juillet 1830 : Prise d'Alger
+        1832 : Abd el-Kader proclamé émir
+        1837 : Traité de la Tafna
+        1840 : Choix de la conquête totale, Bugeaud gouverneur général
+        Juin 1845 : Enfumades des Ouled Riah
+        23 décembre 1847 : Reddition d'Abd el-Kader
+    section Colonisation de peuplement
+        1863 : Sénatus-consulte sur la propriété
+        Mars 1871 : Révolte de Mokrani
+        1881 : Code de l'indigénat
+    section Nationalisme
+        1926 : Fondation de l'Étoile Nord-Africaine
+        1944 : Abolition du Code de l'indigénat
+        8 mai 1945 : Massacre de Sétif
+        1er novembre 1954 : Toussaint Rouge
+```
 
 ## Contexte et Début de la Conquête
 
@@ -133,7 +157,7 @@ En mars 1871, Mokrani, bachaga des Medjana, se soulève, bientôt rejoint par le
 
 ### Répression et Conséquences
 
-La répression, particulièrement féroce dans le contexte de l'écrasement simultané de la Commune de Paris en juillet 1871 (voir [[06 - La Commune]]), se solde par la confiscation de 450 000 hectares aux tribus déclarées « rebelles », une amende collective de 36 millions de francs-or, ainsi que des exécutions et des déportations vers la Nouvelle-Calédonie.
+La répression, particulièrement féroce dans le contexte de l'écrasement simultané de la Commune de Paris en mai 1871 (voir [[06 - La Commune]]), se solde par la confiscation de 450 000 hectares aux tribus déclarées « rebelles », une amende collective de 36 millions de francs-or, ainsi que des exécutions et des déportations vers la Nouvelle-Calédonie.
 
 ## La Montée du Nationalisme Algérien
 
@@ -180,7 +204,7 @@ La mémoire de cette violence coloniale — enfumades, massacres, humiliations q
 ## Citations Historiques
 
 > "Je crois […] que le droit de la guerre nous autorise à ravager le pays et que nous devons le faire, soit en détruisant les moissons à l'époque de la récolte, soit dans tous les temps en faisant de ces incursions rapides qu'on nomme razzias et qui ont pour objet de s'emparer des hommes ou des troupeaux."
-> — Alexis de Tocqueville, *Travail sur l'Algérie* (1841)
+> — [[Alexis de Tocqueville]], *Travail sur l'Algérie* (1841)
 
 > "Tous les bons militaires que j'ai l'honneur de commander sont prévenus par moi-même que, s'il leur arrive de m'amener un Arabe vivant, ils recevront une volée de coups de plat de sabre."
 > — Capitaine de Montagnac, *Lettres d'un soldat* (1843)

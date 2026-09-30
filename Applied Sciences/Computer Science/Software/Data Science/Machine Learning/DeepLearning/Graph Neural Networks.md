@@ -1,9 +1,9 @@
 ---
-title: Graph Neural Networks
-domain: sciences-appliquées
-subdomain: informatique / machine-learning / deep-learning
+title: "Graph Neural Networks"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Data Science > Machine Learning > DeepLearning"
 tags: [gnn, gcn, graph, deep-learning, machine-learning, graphe]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Graph Neural Networks (GNN)

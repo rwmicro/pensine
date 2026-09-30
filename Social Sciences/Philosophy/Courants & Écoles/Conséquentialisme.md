@@ -15,6 +15,27 @@ Le **conséquentialisme** est une famille de théories éthiques qui jugent la m
 
 **Principe central:** Ce qui compte moralement, ce n'est pas l'intention, ni la nature de l'acte en soi, mais ses **résultats**.
 
+## Chronologie
+
+```mermaid
+timeline
+    title Le conséquentialisme
+    section Utilitarisme classique
+        1789 : Bentham, Introduction aux principes de morale
+        1863 : Mill, L'Utilitarisme
+        1874 : Sidgwick, Méthodes de l'éthique
+        1903 : Moore, Principia Ethica
+    section Le mot et ses critiques
+        1958 : Anscombe forge le terme conséquentialisme
+        1967 : Foot formule le dilemme du tramway
+        1971 : Rawls, Théorie de la justice
+    section Renouveau contemporain
+        1972 : Singer, La Famine, l'abondance et la morale
+        1981 : Hare, Moral Thinking
+        1984 : Parfit, Reasons and Persons
+        2009 : Singer, The Life You Can Save
+```
+
 ## Variantes du Conséquentialisme
 
 ### 1. Utilitarisme (version la plus connue)
@@ -55,7 +76,7 @@ Le **conséquentialisme** est une famille de théories éthiques qui jugent la m
 
 - **Minimiser la souffrance** plutôt que maximiser le bonheur
 - Éviter le mal est plus important que produire le bien
-- Karl Popper: "Minimiser la souffrance évitable"
+- [[Popper|Karl Popper]]: "Minimiser la souffrance évitable"
 
 ### 4. Conséquentialisme des Préférences
 

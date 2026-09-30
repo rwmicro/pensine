@@ -13,6 +13,26 @@ L'**universalisme moral** est la position éthique selon laquelle il existe des 
 
 **Principe central:** Certaines vérités morales sont **objectives** et **universelles**.
 
+## Chronologie
+
+```mermaid
+timeline
+    title L'universalisme moral
+    section Fondements classiques
+        XIIIe s. : Thomas d'Aquin, la loi naturelle
+        1785 : Kant, Fondements de la métaphysique des mœurs
+        1789 : Déclaration des droits de l'homme : Bentham, Introduction aux principes de morale
+        1863 : Mill, L'Utilitarisme
+    section Après 1945
+        1945-1946 : Procès de Nuremberg
+        1948 : Déclaration universelle des droits de l'homme
+        1971 : Rawls, Théorie de la justice
+        1983 : Habermas, Morale et communication
+        1991 : Brown, Human Universals
+        1993 : Rawls, Libéralisme politique
+        2005 : L'ONU adopte la responsabilité de protéger
+```
+
 ## Opposition: Universalisme vs Relativisme
 
 | Universalisme Moral | Relativisme Moral |
@@ -270,7 +290,7 @@ Sans imposer conception complète du bien.
 - Islam: "Nul n'est croyant s'il ne désire pour son frère ce qu'il désire pour lui-même"
 - Bouddhisme: "Ne blesse pas autrui comme tu ne voudrais pas être blessé"
 - Hindouisme: "Ne fais pas aux autres ce qui te causerait de la peine"
-- Confucianisme: "Ne fais pas à autrui ce que tu ne voudrais pas qu'on te fasse"
+- [[Confucianisme]]: "Ne fais pas à autrui ce que tu ne voudrais pas qu'on te fasse"
 
 **Argument:** Convergence religieuse suggère vérité morale universelle.
 

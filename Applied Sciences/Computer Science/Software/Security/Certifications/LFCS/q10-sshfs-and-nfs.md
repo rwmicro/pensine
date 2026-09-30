@@ -1,3 +1,11 @@
+---
+title: "LFCS Q10 — SSHFS and NFS"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, sshfs]
+date: "2026-08-09"
+---
+
 # Question 10 — SSHFS and NFS
 
 ## Notes d'apprentissage

@@ -9,7 +9,7 @@ date: "2026-04-01"
 
 ## Identité turque : carrefour entre deux mondes
 
-La Turquie occupe une position unique : héritière de l'Empire ottoman, État laïc à majorité musulmane, membre de l'OTAN, candidate (en suspens) à l'UE, pont géographique entre Europe et Asie.
+La Turquie occupe une position unique : héritière de l'[[Empire ottoman]], État laïc à majorité musulmane, membre de l'OTAN, candidate (en suspens) à l'UE, pont géographique entre Europe et Asie.
 
 | Fait | Détail |
 |------|--------|
@@ -17,7 +17,7 @@ La Turquie occupe une position unique : héritière de l'Empire ottoman, État l
 | Locuteurs de turc | ~80 millions en Turquie + 3–4 millions diaspora (Allemagne, France, Pays-Bas) |
 | Langue officielle | Turc (türkçe) — famille altaïque, non indo-européenne |
 | Système politique | République présidentielle (depuis 2018) |
-| Laïcité | Principe fondateur kémaliste — séparation religion/État |
+| [[Laïcité]] | Principe fondateur kémaliste — séparation religion/État |
 
 ## Atatürk et la réforme de la langue
 

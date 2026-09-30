@@ -110,10 +110,3 @@ Résultat mesuré par les chercheurs : MitM bidirectionnel établi en **~2 secon
 ## Outils
 
 Outil de référence : `airsnitch.py` (dépôt `vanhoefm/airsnitch`). Étend MacStealer (USENIX Security '23), qui ne couvrait que le vol de port downlink au sein d'un même BSSID, en ajoutant : abus GTK, gateway bouncing, vol de port cross-BSSID, interception uplink, et broadcast reflection. Intégration prévue dans **RF Swift v0.1.4**.
-
-## Voir aussi
-
-- [[03 - Attaques WPA2-PSK]] — dérivation PTK/PMK exploitée par le MitM classique (technique 3)
-- [[09 - WPA3 et Vulnérabilités Modernes]] — FragAttacks permet déjà un bypass d'isolation sans récupération de clé, même famille de problème
-- [[11 - Defense et Detection]] — segmentation VLAN, PMF, et durcissement complémentaires
-- [[05 - Evil Twin et Phishing]] — vecteur d'accès pour la technique 4 (faux AP sans isolation)

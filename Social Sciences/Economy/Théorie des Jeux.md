@@ -680,7 +680,7 @@ Vaccination : chaque individu a intérêt à ne pas se vacciner si les autres le
 
 **John Harsanyi (1920–2000)** — Formalise les jeux à information incomplète via les types bayésiens : chaque joueur est un "type" tiré par la nature, avec une distribution de probabilité connue de tous. Nobel 1994.
 
-**Thomas Schelling (1921–2016)** — Économiste américain. Théorie des points focaux, de l'engagement, de la menace crédible. Applications à la guerre froide, à la ségrégation, aux négociations. Nobel 2005 avec Aumann.
+**Thomas Schelling (1921–2016)** — Économiste américain. Théorie des points focaux, de l'engagement, de la menace crédible. Applications à la [[Guerre froide|guerre froide]], à la ségrégation, aux négociations. Nobel 2005 avec Aumann.
 
 **Robert Aumann (1930–)** — Développe la théorie des jeux répétés, le concept de connaissance commune, l'équilibre de corrélation. Nobel 2005.
 

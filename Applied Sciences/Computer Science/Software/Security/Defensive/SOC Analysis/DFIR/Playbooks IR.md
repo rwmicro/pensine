@@ -1,9 +1,9 @@
 ---
-title: Playbooks de Réponse à Incident
-domain: sciences-appliquées
-subdomain: informatique / sécurité / dfir
+title: "Playbooks de Réponse à Incident"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Defensive > SOC Analysis > DFIR"
 tags: [incident-response, playbook, ransomware, dfir, soc, forensics]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Playbooks de Réponse à Incident

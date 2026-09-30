@@ -5,7 +5,8 @@ subdomain: "History > France"
 tags: [sciences-sociales, histoire, france]
 date: "2026-09-16"
 stage: budding
-period: "1610-1789"
+year: 1610
+yearEnd: 1789
 ---
 
 # L'Ancien Régime et Louis XIV (XVIIe-XVIIIe siècle)
@@ -14,6 +15,27 @@ period: "1610-1789"
 *Portrait de Louis XIV en habits du sacre — Hyacinthe Rigaud, 1701, musée du Louvre. Domaine public, source : Wikimedia Commons.*
 
 On appelle Ancien Régime la société française telle qu'elle existe avant 1789 : une monarchie de droit divin, où le roi tient son pouvoir de Dieu et n'en répond à aucune assemblée élue, et une société divisée en trois ordres juridiquement inégaux — le clergé, la noblesse et le tiers état, ce dernier regroupant l'immense majorité de la population sans bénéficier d'aucun privilège fiscal. Cette organisation, héritée du Moyen Âge, atteint son expression la plus achevée sous le règne de Louis XIV.
+
+## Chronologie
+
+```mermaid
+timeline
+    title L'Ancien Régime, de Richelieu à 1789
+    section Avant le règne personnel
+        1624-1642 : Richelieu ministre principal
+        1627-1628 : Siège de La Rochelle
+        1643 : Mort de Louis XIII, régence d'Anne d'Autriche
+        1648-1653 : La Fronde
+    section Le règne personnel de Louis XIV
+        1661 : Mort de Mazarin, Louis XIV gouverne seul
+        1682 : La cour s'installe à Versailles
+        1685 : Révocation de l'édit de Nantes
+        1701-1714 : Guerre de Succession d'Espagne
+    section La crise
+        1715 : Avènement de Louis XV
+        1778-1783 : Soutien aux insurgents américains
+        1789 : Convocation des États généraux
+```
 
 ## La centralisation par Richelieu (1624-1642)
 

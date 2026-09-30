@@ -1,9 +1,9 @@
 ---
-title: Red Team et Blue Team — Adversary Simulation
-domain: sciences-appliquées
-subdomain: informatique / sécurité / méthodologie
+title: "Red Team et Blue Team — Adversary Simulation"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Methodologie"
 tags: [red-team, blue-team, purple-team, adversary-simulation, pentest, soc]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Red Team et Blue Team

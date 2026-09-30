@@ -4,6 +4,8 @@ domain: "Social Sciences"
 subdomain: "History > WW2"
 tags: [sciences-sociales, histoire, seconde-guerre-mondiale]
 date: "2025-12-31"
+year: 1935
+yearEnd: 1945
 ---
 
 # Lebensborn - "Fontaine de Vie"
@@ -15,6 +17,21 @@ Le **Lebensborn e.V.** (association "Fontaine de Vie" ou "Source de Vie") était
 **Créé:** 12 décembre 1935
 **Fondateur:** Heinrich Himmler, Reichsführer-SS
 **Dissous:** Mai 1945
+
+## Chronologie
+
+```mermaid
+timeline
+    title Le Lebensborn et ses suites
+    section Le programme
+        12 décembre 1935 : Création par Himmler
+        1936-1945 : Foyers en Allemagne puis en pays occupés
+        1945 : Fin du programme avec la défaite allemande
+    section L'après-guerre
+        1947-1948 : Procès RuSHA à Nuremberg, dirigeants acquittés des crimes principaux
+        2000-2002 : Excuses officielles de l'État norvégien
+        2005 : Régime d'indemnisation voté en Norvège
+```
 
 ## Objectifs Officiels
 

@@ -83,7 +83,7 @@ Geertz compare l'islam au **Maroc** et en **Indonésie** — deux sociétés mus
 |---|---|---|
 | **Style religieux** | Rigoriste, scripturaliste, centré sur le saint homme (*marabout*) guerrier | Syncrétique, mystique, centré sur le saint homme doux et contemplatif |
 | **Rapport au pouvoir** | Le saint est un homme d'action, un fondateur de dynastie | Le saint est un ascète, un médiateur |
-| **Islam populaire** | Pèlerinage aux tombeaux, amulettes, baraka | Mélange avec l'hindouisme, le bouddhisme, l'animisme |
+| **Islam populaire** | Pèlerinage aux tombeaux, amulettes, baraka | Mélange avec l'hindouisme, le bouddhisme, l'[[Animisme et Chamanisme\|animisme]] |
 
 **Conclusion** : il n'y a pas "un" islam mais des islams — la religion est toujours médiatisée par la culture locale. La mème tradition textuelle produit des pratiques, des sensibilités et des institutions radicalement différentes selon le contexte.
 

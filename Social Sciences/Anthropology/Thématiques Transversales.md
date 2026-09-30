@@ -56,7 +56,7 @@ La parenté est le système d'organisation sociale le plus fondamental dans les 
 Pour Lévi-Strauss, la prohibition de l'inceste est le passage fondamental de la nature à la culture. Elle n'est pas d'abord une règle biologique (les animaux pratiquent l'évitement de l'inceste sans règle) mais une **règle d'échange** : interdire de se marier à l'intérieur du groupe oblige à nouer des alliances avec d'autres groupes. L'exogamie crée le tissu social.
 
 > [!warning] Piège
-> Ne pas confondre la thèse de [[Lévi-Strauss]] avec une explication par l'évitement des risques génétiques de la consanguinité — c'est précisément ce qu'il rejette. Son argument est structural : l'inceste est prohibé non parce qu'il serait biologiquement nocif, mais parce qu'un groupe qui garderait ses femmes/hommes pour lui-même ne créerait aucune alliance avec l'extérieur. La prohibition est positive (elle oblige à échanger), pas seulement négative (elle interdit).
+> Ne pas confondre la thèse de [[Claude Lévi-Strauss|Lévi-Strauss]] avec une explication par l'évitement des risques génétiques de la consanguinité — c'est précisément ce qu'il rejette. Son argument est structural : l'inceste est prohibé non parce qu'il serait biologiquement nocif, mais parce qu'un groupe qui garderait ses femmes/hommes pour lui-même ne créerait aucune alliance avec l'extérieur. La prohibition est positive (elle oblige à échanger), pas seulement négative (elle interdit).
 
 ### Systèmes terminologiques
 

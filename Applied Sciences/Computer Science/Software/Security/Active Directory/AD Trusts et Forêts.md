@@ -1,9 +1,9 @@
 ---
-title: AD Trusts et Forêts — Attaques Cross-Domain
-domain: sciences-appliquées
-subdomain: informatique / sécurité
+title: "AD Trusts et Forêts — Attaques Cross-Domain"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Active Directory"
 tags: [active-directory, trusts, forest, cross-domain, sid-history, golden-ticket, pentest, sécurité]
-date: 2026-03-23
+date: "2026-03-23"
 ---
 
 # AD Trusts et Forêts — Attaques Cross-Domain

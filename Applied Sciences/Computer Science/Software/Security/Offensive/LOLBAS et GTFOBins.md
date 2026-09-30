@@ -1,9 +1,9 @@
 ---
-title: LOLBAS et GTFOBins
-domain: sciences-appliquées
-subdomain: informatique / sécurité
+title: "LOLBAS et GTFOBins"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Offensive"
 tags: [lolbas, gtfobins, living-off-the-land, windows, linux, evasion, sécurité]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # LOLBAS et GTFOBins

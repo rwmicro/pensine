@@ -8,7 +8,7 @@ date: "2026-08-08"
 
 # Martin Heidegger (1889-1976)
 
-Philosophe allemand, l'un des penseurs les plus influents et les plus controversés du XXe siècle. Élève de Husserl, il renouvelle la question la plus ancienne de la philosophie — qu'est-ce que l'être ? — en la posant à partir de l'existence humaine concrète. Son adhésion au nazisme en 1933 reste une donnée centrale, non séparable, de l'évaluation de son œuvre.
+Philosophe allemand, l'un des penseurs les plus influents et les plus controversés du XXe siècle. Élève de [[Husserl]], il renouvelle la question la plus ancienne de la philosophie — qu'est-ce que l'être ? — en la posant à partir de l'existence humaine concrète. Son adhésion au nazisme en 1933 reste une donnée centrale, non séparable, de l'évaluation de son œuvre.
 
 ## Le projet : réveiller la question de l'être
 
@@ -69,7 +69,7 @@ Ce fait pose un problème que la philosophie ne peut esquiver : la pensée la pl
 
 - **Existentialisme français** : Sartre reprend (en la transformant profondément, vers un sujet conscient et libre que Heidegger aurait récusé) la question de l'authenticité — voir [[Sartre]], [[Courants & Écoles/Existentialisme|Existentialisme]]
 - **Herméneutique** : Gadamer prolonge la dimension interprétative de l'être-au-monde en une théorie générale de la compréhension
-- **Déconstruction** : Derrida part d'une relecture critique de la "métaphysique de la présence" que Heidegger avait lui-même commencé à interroger
+- **Déconstruction** : [[Derrida]] part d'une relecture critique de la "métaphysique de la présence" que Heidegger avait lui-même commencé à interroger
 - **Écologie philosophique** : sa critique de la technique et de l'arraisonnement de la nature nourrit une partie de la pensée environnementale contemporaine
 
 ## Citations

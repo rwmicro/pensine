@@ -6,6 +6,8 @@ tags: [sciences-appliquées, sport, musculation]
 date: "2025-05-04"
 ---
 
+# Hauts du Corps
+
 **Fréquence** : Faites 3 séries de 8 à 12 répétitions pour chaque exercice, avec 30 à 60 secondes de repos entre les séries.
 
 > [!warning] Piège

@@ -1,9 +1,9 @@
 ---
-title: Web Cache Poisoning et Cache Deception
-domain: sciences-appliquées
-subdomain: informatique / sécurité / web
+title: "Web Cache Poisoning et Cache Deception"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Web Security"
 tags: [cache-poisoning, cache-deception, web, cdn, sécurité, bug-bounty]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Web Cache Poisoning et Cache Deception

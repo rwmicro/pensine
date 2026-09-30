@@ -6,6 +6,8 @@ tags: [sciences-sociales, littérature]
 date: "2026-02-22"
 ---
 
+# Une brève histoire du temps — Stephen Hawking
+
 - Maladie de Lou-Gehrig
 
 Modèle Géocentrique: Aristore / Ptolémé

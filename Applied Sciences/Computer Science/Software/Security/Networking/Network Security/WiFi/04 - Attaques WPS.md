@@ -141,9 +141,3 @@ bully wlan0mon -b AA:BB:CC:DD:EE:FF -c 6 -v 3
 - Vérifier le firmware (patches Pixie Dust pour chipsets vieux)
 - Activer le **lockout permanent** après N tentatives (rare sur boxes grand public)
 - Mieux : forcer **WPA3** qui n'a pas WPS
-
-## Voir aussi
-
-- [[03 - Attaques WPA2-PSK]] — si WPS désactivé, attaquer la PSK directement
-- [[08 - Frameworks Tout-en-Un]] — airgeddon a un menu WPS dédié
-- [[11 - Defense et Detection]] — désactivation et monitoring

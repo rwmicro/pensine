@@ -184,7 +184,7 @@ Aspects **intangibles** : idées, croyances, normes.
 **Diversité des solutions** aux problèmes universels :
 - Organisation familiale : nucléaire, étendue, polygame, polyandre
 - Subsistance : chasse-cueillette, horticulture, pastoralisme, agriculture, industrie
-- Croyances religieuses : animisme, polythéisme, monothéisme, athéisme
+- Croyances religieuses : [[Animisme et Chamanisme|animisme]], polythéisme, monothéisme, [[Athéisme et Agnosticisme|athéisme]]
 - Systèmes politiques : acéphales, chefferies, états
 
 ## Approches Théoriques

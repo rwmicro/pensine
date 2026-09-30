@@ -71,7 +71,7 @@ date: "2026-02-22"
 **Ambiguïté:**
 - **Lexicale:** "Il a pris la mouche" (insecte ou s'est fâché)
 - **Structurale:** "Vieux hommes et femmes"
-  - [Vieux [hommes et femmes]] vs [[Vieux hommes] et [femmes]]
+  - `[Vieux [hommes et femmes]]` vs `[[Vieux hommes] et [femmes]]`
 - **De portée:** "Tous les étudiants ne sont pas venus"
 
 ### Pragmatique

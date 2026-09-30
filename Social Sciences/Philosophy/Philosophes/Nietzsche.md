@@ -80,7 +80,7 @@ Exemples :
 - Même la souffrance volontaire (ascétisme) est volonté de puissance sur soi
 
 > [!tip] Méthode
-> Lire ce concept comme une réponse directe à Schopenhauer plutôt qu'isolément : Schopenhauer voyait dans la Volonté (aveugle, souffrante) la réalité ultime dont il fallait chercher à s'échapper par le renoncement. Nietzsche garde la Volonté comme principe fondamental mais en inverse le signe — au lieu de la fuir, il faut l'affirmer et la déployer.
+> Lire ce concept comme une réponse directe à [[Schopenhauer]] plutôt qu'isolément : Schopenhauer voyait dans la Volonté (aveugle, souffrante) la réalité ultime dont il fallait chercher à s'échapper par le renoncement. Nietzsche garde la Volonté comme principe fondamental mais en inverse le signe — au lieu de la fuir, il faut l'affirmer et la déployer.
 
 ### Éternel Retour (*Ewige Wiederkehr*)
 
@@ -198,8 +198,8 @@ Nietzsche diagnostique le nihilisme mais propose de le **traverser** pour créer
 
 ## Relations Philosophiques
 
-- **Influencé par :** Schopenhauer (volonté), Grecs présocratiques (Héraclite), Wagner
-- **A influencé :** [[Existentialisme]] ([[Sartre]], [[Camus]]), Freud, Heidegger, [[Foucault]], Derrida, postmodernisme
+- **Influencé par :** Schopenhauer (volonté), Grecs [[Présocratiques|présocratiques]] (Héraclite), Wagner
+- **A influencé :** [[Existentialisme]] ([[Sartre]], [[Camus]]), Freud, Heidegger, [[Foucault]], [[Derrida]], postmodernisme
 - **Mouvement :** Souvent classé avec l'existentialisme, bien qu'antérieur
 
 ## Héritage

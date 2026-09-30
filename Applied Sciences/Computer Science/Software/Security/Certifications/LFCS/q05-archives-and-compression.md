@@ -1,3 +1,11 @@
+---
+title: "LFCS Q05 — Archives and Compression"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, archives, compression]
+date: "2026-08-09"
+---
+
 # Question 5 — Archives and Compression
 
 ## Notes d'apprentissage

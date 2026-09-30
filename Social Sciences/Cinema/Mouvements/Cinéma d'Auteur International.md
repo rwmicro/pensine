@@ -28,7 +28,7 @@ date: "2026-02-22"
 - Introspection, symbolisme
 
 > [!warning] Piège
-> L'"existentialisme" de Bergman est souvent cité de façon vague — au sens strict de [[Existentialisme|Sartre]] (l'existence précède l'essence, liberté radicale), ses films portent moins sur ce point que sur le silence de Dieu et l'angoisse de la mort, des thèmes plus proches de Kierkegaard (voir [[Existentialisme]]) que de l'existentialisme athée sartrien.
+> L'"existentialisme" de Bergman est souvent cité de façon vague — au sens strict de [[Existentialisme|Sartre]] (l'existence précède l'essence, liberté radicale), ses films portent moins sur ce point que sur le silence de Dieu et l'angoisse de la mort, des thèmes plus proches de [[Kierkegaard]] (voir [[Existentialisme]]) que de l'existentialisme athée sartrien.
 
 ### Federico Fellini (1920-1993) - Italie
 

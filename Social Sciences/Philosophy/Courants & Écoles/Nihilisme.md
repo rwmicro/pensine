@@ -10,6 +10,24 @@ date: "2026-08-08"
 
 Diagnostic philosophique selon lequel la vie, l'existence et l'univers sont dépourvus de sens, de valeur ou de but objectifs — position la plus radicalement associée à Nietzsche, qui en fait moins une doctrine à défendre qu'une crise historique à traverser et, si possible, à dépasser.
 
+## Chronologie
+
+```mermaid
+timeline
+    title Le nihilisme
+    section Naissance du mot
+        1799 : Jacobi reproche à Fichte son nihilisme
+        1862 : Tourgueniev, Pères et fils
+    section Nietzsche
+        1882 : Le Gai Savoir, la mort de Dieu
+        1883-1885 : Ainsi parlait Zarathoustra
+        1887 : Généalogie de la morale
+    section Réponses existentialistes
+        1942 : Camus, Le Mythe de Sisyphe
+        1943 : Sartre, L'Être et le Néant
+        1951 : Camus, L'Homme révolté
+```
+
 ## Le nihilisme comme diagnostic historique chez Nietzsche
 
 Pour [[Nietzsche]], le nihilisme n'est pas d'abord une thèse philosophique qu'on choisirait librement — c'est un **état de fait historique**, la conséquence logique et inévitable de l'effondrement des valeurs suprêmes (Dieu, la Vérité, le Bien absolu) sur lesquelles la civilisation occidentale avait fondé son sens depuis le platonisme et le christianisme.

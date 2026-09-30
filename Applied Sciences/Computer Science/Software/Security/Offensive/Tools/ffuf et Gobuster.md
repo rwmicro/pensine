@@ -1,9 +1,9 @@
 ---
-title: ffuf et Gobuster
-domain: sciences-appliquées
-subdomain: informatique / sécurité / offensive / outils
+title: "ffuf et Gobuster"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Offensive > Tools"
 tags: [ffuf, gobuster, fuzzing, directory-bruteforce, sécurité, outils, pentest]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 # ffuf et Gobuster
 

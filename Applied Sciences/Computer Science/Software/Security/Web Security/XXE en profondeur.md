@@ -1,9 +1,9 @@
 ---
-title: XXE en profondeur
-domain: sciences-appliquées
-subdomain: informatique / sécurité / web
+title: "XXE en profondeur"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Web Security"
 tags: [xxe, xml, ssrf, lfi, blind-xxe, oob, sécurité, web]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # XXE en profondeur

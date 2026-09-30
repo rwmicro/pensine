@@ -1,3 +1,11 @@
+---
+title: "LFCS Q25 — Sysctl Kernel Parameters"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, sysctl, kernel, parameters]
+date: "2026-08-09"
+---
+
 # Question 25 — Sysctl Kernel Parameters
 
 ## Notes d'apprentissage

@@ -1,13 +1,15 @@
 ---
-title: "Vocabulaire"
+title: "Docker — Fiche technique"
 domain: "Applied Sciences"
 subdomain: "Computer Science > DevSecOps > Docker"
 tags: [sciences-appliquées, informatique, devsecops, docker]
 date: "2025-05-04"
 ---
 
+# Docker — Fiche technique
+
 Docker est un logiciel de virtualisation par conteneur, cela veut dire qu’il virtualise chaque application et non pas un système d’exploitation.
-# Vocabulaire
+## Vocabulaire
 
 ### Démon Docker
 
@@ -51,7 +53,7 @@ Le client Docker est l'outil utilisé par les utilisateurs pour contrôler les c
 > [!warning] Piège
 > Sans `--rm`, chaque `docker run` laisse un conteneur arrêté sur le disque même après usage — `docker ps -a` finit par lister des dizaines de conteneurs morts. Utile de garder `--rm` par défaut pour les conteneurs jetables (tests, débogage ponctuel), et de le retirer seulement quand on veut inspecter les logs/l'état après coup.
 
-# Persistance des données
+## Persistance des données
 
 La persistance des données sert à conserver des données entre les différents conteneurs. Il existe deux moyens de conserver des données sur docker : les **volumes** et les **bind mounts**.
 
@@ -74,7 +76,7 @@ Nous rendons ici disponible un repertoire de la machine hôte vers le conteneur.
 > [!tip] Volume ou bind mount ?
 > Un volume est géré par Docker (portable, indépendant de la structure de l'hôte) — à préférer pour les données persistantes d'une application (base de données, uploads). Un bind mount pointe vers un chemin précis de l'hôte — utile en développement pour monter le code source et voir les changements en direct, mais couple le conteneur à la structure de fichiers de cette machine précise.
 
-# Création d’une image docker
+## Création d’une image docker
 
 Une image docker est un fichier dockerfile utilisé afin d’executer une liste d’action à son execution.
 

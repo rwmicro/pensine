@@ -155,13 +155,13 @@ date: "2026-02-22"
 - Relatif (varie selon contexte, époque)
 
 **Approches:**
-- **Fonctionnaliste (Durkheim, Merton):**
+- **Fonctionnaliste (Durkheim, [[Robert K. Merton|Merton]]):**
   - Déviance = dysfonction mais aussi renforce normes
   - Anomie (Merton): Inadéquation buts culturels/moyens légitimes
     - Innovation (criminalité), ritualisme, retrait, rébellion
 - **Interactionniste (Becker):**
   - Étiquetage (labeling theory)
-  - "Ce n'est pas l'acte mais la réaction sociale qui crée la déviance"
+  - "Ce n'est pas l'acte mais la réaction sociale qui crée la [[Sociologie de la Déviance|déviance]]"
   - Carrière déviante, déviance primaire/secondaire
 - **Conflictualiste:**
   - Normes = domination

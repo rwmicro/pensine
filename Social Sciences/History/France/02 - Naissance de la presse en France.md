@@ -4,7 +4,8 @@ domain: "Social Sciences"
 subdomain: "History > France"
 tags: [sciences-sociales, histoire, france, presse, XVIIe-siècle, médias]
 date: "2026-04-16"
-period: "1611-1881"
+year: 1611
+yearEnd: 1881
 ---
 
 # Naissance de la presse en France (XVIIe siècle)
@@ -13,6 +14,26 @@ period: "1611-1881"
 *Portrait de Théophraste Renaudot — statuette anonyme, XIXe siècle, Musée Carnavalet. Licence CC0, source : Wikimedia Commons / Paris Musées.*
 
 La presse périodique naît en France au début du XVIIe siècle, dans un contexte de centralisation monarchique. Contrairement à l'Angleterre ou aux Pays-Bas où la presse se développe dans une relative liberté, la presse française naît sous le contrôle étroit du pouvoir royal, qui en fait un outil de gouvernement.
+
+## Chronologie
+
+```mermaid
+timeline
+    title De la Gazette à la liberté de la presse
+    section Premiers périodiques européens
+        1605 : Relation à Strasbourg, premier journal imprimé
+        1611 : Mercure François de Jean Richer
+        1618 : Courante uyt Italien à Amsterdam
+    section La presse sous privilège royal
+        30 mai 1631 : Premier numéro de la Gazette de Renaudot
+        1648-1653 : Mazarinades pendant la Fronde
+        1665 : Journal des Savants
+        1672 : Mercure Galant
+    section Vers la liberté
+        1789 : Article 11 de la Déclaration des droits
+        29 juillet 1881 : Loi sur la liberté de la presse
+        1915 : Fin de la Gazette
+```
 
 ## Les premiers périodiques
 
