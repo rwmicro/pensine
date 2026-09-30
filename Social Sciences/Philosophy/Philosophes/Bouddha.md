@@ -10,7 +10,7 @@ date: "2026-09-28"
 
 ## Biographie
 
-**Siddhartha Gautama**, que la tradition appelle le Bouddha, « l'Éveillé », est né dans le clan des Shakya, au pied de l'Himalaya, à Lumbini (dans l'actuel Népal). Ses dates sont **incertaines et débattues**. La chronologie longue, longtemps dominante, le fait vivre vers 563-483 av. J.-C. ; la tradition du Sri Lanka situe même sa mort vers 544. Beaucoup d'historiens penchent aujourd'hui pour une chronologie plus courte, qui place sa mort autour de 400 av. J.-C., dans une fourchette d'environ 420-370. Seul point d'accord : il aurait vécu environ quatre-vingts ans, et son activité se situe au Ve siècle av. J.-C., dans la plaine du Gange.
+**Siddhartha Gautama**, que la tradition appelle le Bouddha, « l'Éveillé », est né dans le clan des Shakya, au pied de l'Himalaya, à Lumbini (dans l'actuel Népal). Ses dates sont **incertaines et débattues**. La chronologie longue, longtemps dominante, le fait vivre vers 563-483 av. J.-C. ; la tradition du Sri Lanka situe même sa mort vers 544. Beaucoup d'historiens penchent aujourd'hui pour une chronologie plus courte, qui place sa mort autour de 400 av. J.-C., dans une fourchette d'environ 420-380. Seul point d'accord : il aurait vécu environ quatre-vingts ans, et son activité se situe au Ve siècle av. J.-C., dans la plaine du Gange.
 
 Le récit traditionnel est connu : un prince élevé dans le luxe découvre la vieillesse, la maladie et la mort, quitte son palais vers vingt-neuf ans, pratique pendant des années un ascétisme extrême qu'il finit par juger stérile, puis atteint l'Éveil sous un arbre, à Bodh-Gaya. Il prononce son premier sermon près de Bénarès, au parc des Gazelles de Sarnath, et enseigne ensuite pendant plusieurs décennies avant de mourir à Kushinagar. Les historiens tiennent pour probables l'origine aristocratique, la rupture avec l'ascétisme et une longue carrière d'enseignant itinérant ; les épisodes merveilleux relèvent de l'hagiographie.
 
@@ -44,7 +44,7 @@ La thèse la plus originale est celle de l'***anatta*** (sanskrit *anatman*), le
 Un texte plus tardif, les *Questions de Milinda* (dialogue entre le moine Nagasena et un roi indo-grec), en donne une image restée classique : un char n'est ni son timon, ni ses roues, ni sa caisse, ni un élément à part ; « char » est une désignation commode pour un assemblage. Il en va de même du nom propre d'une personne.
 
 > [!important] Idée clé
-> Le non-soi n'est pas la négation de la personne au sens ordinaire. Le Bouddha parle, se souvient, enseigne à des individus. Ce qu'il nie, c'est une entité permanente et indépendante qui serait le propriétaire des expériences. La personne existe comme un processus continu, non comme une substance. C'est très proche de la « théorie du faisceau » de [[Hume]], pour qui l'introspection ne trouve jamais un moi mais toujours une perception particulière, et de la position du philosophe Derek Parfit, qui dans *Reasons and Persons* (1984) cite lui-même le Bouddha. La différence tient à l'usage : pour le Bouddha, voir le non-soi n'est pas une curiosité théorique mais le moyen de défaire l'attachement qui cause *dukkha*.
+> Le non-soi n'est pas la négation de la personne au sens ordinaire. Le Bouddha parle, se souvient, enseigne à des individus. Ce qu'il nie, c'est une entité permanente et indépendante qui serait le propriétaire des expériences. La personne existe comme un processus continu, non comme une substance. C'est très proche de la « théorie du faisceau » de [[Hume]], pour qui l'introspection ne trouve jamais un moi mais toujours une perception particulière, et de la position du philosophe Derek Parfit, qui dans *Reasons and Persons* (1984) cite lui-même des textes bouddhiques. La différence tient à l'usage : pour le Bouddha, voir le non-soi n'est pas une curiosité théorique mais le moyen de défaire l'attachement qui cause *dukkha*.
 
 La thèse soulève une objection que la tradition a affrontée dès l'origine : s'il n'y a pas de soi, qui renaît, et qui porte le poids moral de ses actes (*karma*) ? La réponse bouddhique est la continuité causale sans identité substantielle, comme une flamme allumée à une autre n'est ni la même ni une autre. Les débats contemporains sur l'identité personnelle, en [[Philosophie de l'Esprit]], retrouvent exactement ce problème.
 
@@ -66,7 +66,7 @@ flowchart LR
 
 ## Les questions laissées sans réponse
 
-Le Bouddha refuse de répondre à une série de questions : le monde est-il éternel ou non, fini ou infini ? L'âme est-elle identique au corps ? L'Éveillé existe-t-il après la mort ? Dans un dialogue célèbre, il compare celui qui exige ces réponses avant de pratiquer à un homme blessé par une flèche empoisonnée qui refuserait qu'on la retire tant qu'il ne saurait pas qui l'a tirée, de quelle caste il était et de quel bois est l'arc.
+Le Bouddha refuse de répondre à une série de questions : le monde est-il éternel ou non, fini ou infini ? L'âme est-elle identique au corps ? L'Éveillé existe-t-il après la mort ? Dans un dialogue célèbre, il compare celui qui exige ces réponses avant de pratiquer à un homme blessé par une flèche empoisonnée qui refuserait qu'on la retire tant qu'il ne saurait pas qui l'a tirée, de quelle caste il était et avec quelle sorte d'arc.
 
 > [!warning] Piège
 > On fait souvent du Bouddha un empiriste moderne, voire un sceptique rationaliste, en s'appuyant sur ce silence et sur le *Kalama Sutta*, qui invite à ne pas croire sur la seule foi de la tradition. C'est un anachronisme. Le Bouddha admet la renaissance, le *karma* et des états de conscience méditatifs dont il affirme l'expérience ; son refus de la métaphysique spéculative est pragmatique, pas agnostique. Il ne dit pas « on ne peut pas savoir », il dit « cela ne mène pas à la délivrance ».
@@ -79,7 +79,7 @@ Sa thèse : non seulement il n'y a pas de soi, mais aucun phénomène n'a d'**ex
 
 Sa méthode est dialectique : il examine le mouvement, la causalité, le temps, et montre que toute thèse qui leur prête une existence intrinsèque aboutit à une contradiction. Il fait un usage systématique du tétralemme, qui examine quatre options (A, non-A, A et non-A, ni A ni non-A) pour les rejeter toutes. On l'a rapproché de Zénon d'Élée, du scepticisme antique, voire du second [[Wittgenstein]].
 
-Après lui, la philosophie bouddhiste indienne se ramifie : l'école Yogacara d'Asanga et Vasubandhu (IVe siècle environ) centrée sur la conscience, puis la tradition logico-épistémologique de Dignaga et Dharmakirti (Ve-VIIe siècles), d'une grande sophistication.
+Après lui, la philosophie bouddhiste indienne se ramifie : l'école Yogacara d'Asanga et Vasubandhu (IVe-Ve siècle environ) centrée sur la conscience, puis la tradition logico-épistémologique de Dignaga et Dharmakirti (Ve-VIIe siècles), d'une grande sophistication.
 
 ## Chronologie
 
@@ -94,7 +94,7 @@ timeline
         Ier s. av. J.-C. : Mise par écrit du canon pali au Sri Lanka
     section Philosophie
         IIe s. : Nagarjuna et la vacuité
-        IVe s. : Asanga et Vasubandhu, école Yogacara
+        IVe-Ve s. : Asanga et Vasubandhu, école Yogacara
         Ve-VIIe s. : Dignaga et Dharmakirti, logique et connaissance
     section Réception occidentale
         1819 : Schopenhauer publie Le Monde comme volonté et représentation

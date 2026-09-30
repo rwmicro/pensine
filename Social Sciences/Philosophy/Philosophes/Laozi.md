@@ -93,7 +93,7 @@ timeline
         168 av. J.-C. : Tombe de Mawangdui et ses copies sur soie
         Vers 100 av. J.-C. : Biographie de Laozi par Sima Qian
         226-249 : Wang Bi commente le Daodejing
-        Début du IVe s. : Édition du Zhuangzi par Guo Xiang
+        Vers 300 : Édition du Zhuangzi par Guo Xiang
     section Redécouvertes
         1973 : Fouilles de Mawangdui
         1993 : Fouilles de Guodian

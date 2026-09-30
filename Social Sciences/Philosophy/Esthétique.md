@@ -74,7 +74,7 @@ Friedrich Schiller, dans ses *Lettres sur l'éducation esthétique de l'homme* (
 
 [[Schopenhauer|Arthur Schopenhauer]] fait de la contemplation esthétique un répit dans l'esclavage du vouloir, et de la musique, qu'il place au sommet, une expression directe de la volonté elle-même, non une copie des Idées.
 
-**[[Nietzsche]]**, dans *La Naissance de la tragédie* (1872), distingue deux pulsions : l'**apollinien**, puissance de la forme, du rêve, de la mesure, et le **dionysiaque**, ivresse, dissolution de l'individu, fusion avec le tout. La tragédie grecque naît de leur union et meurt, selon lui, avec le rationalisme socratique. Plus tard, il écrira dans un fragment posthume : « Nous avons l'art pour ne pas mourir de la vérité. »
+**[[Nietzsche]]**, dans *La Naissance de la tragédie* (1872), distingue deux pulsions : l'**apollinien**, puissance de la forme, du rêve, de la mesure, et le **dionysiaque**, ivresse, dissolution de l'individu, fusion avec le tout. La tragédie grecque naît de leur union et meurt, selon lui, avec le rationalisme socratique. Plus tard, il écrira dans un fragment posthume de 1888 : « Nous avons l'art pour ne pas mourir de la vérité. »
 
 ## Le XXe siècle : reproduction, industrie, institution
 
