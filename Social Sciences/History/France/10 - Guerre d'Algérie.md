@@ -122,7 +122,7 @@ timeline
         13 mai 1958 : Putsch d'Alger, retour de De Gaulle
         16 septembre 1959 : De Gaulle propose l'autodétermination
         1959-1960 : Plan Challe
-        1960-1961 : Création de l'OAS, attentats
+        1961-1962 : Création de l'OAS et vague d'attentats
     section Sortie de guerre
         18 mars 1962 : Accords d'Évian
         19 mars 1962 : Cessez-le-feu

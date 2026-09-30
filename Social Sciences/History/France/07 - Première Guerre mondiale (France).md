@@ -24,7 +24,7 @@ timeline
     section 1914
         28 juin 1914 : Attentat de Sarajevo
         3 août 1914 : La France entre en guerre
-        6-12 septembre 1914 : Bataille de la Marne
+        Septembre 1914 : Bataille de la Marne
     section Guerre d'usure
         Février-décembre 1916 : Bataille de Verdun
         1917 : Chemin des Dames et mutineries
