@@ -248,10 +248,10 @@ On écrit aussi : $x \equiv \pm a \pmod{2\pi}$.
 ```mermaid
 flowchart TD
     A["Équation trigonométrique"] --> B{"Quel type ?"}
-    B -->|"cos(x) = cos(a)"| C["x = a + 2kπ<br/>ou x = -a + 2kπ"]
-    B -->|"sin(x) = sin(a)"| D["x = a + 2kπ<br/>ou x = π - a + 2kπ"]
+    B -->|"cos(x) = cos(a)"| C["x = a + 2kπ\nou x = -a + 2kπ"]
+    B -->|"sin(x) = sin(a)"| D["x = a + 2kπ\nou x = π - a + 2kπ"]
     B -->|"tan(x) = tan(a)"| E["x = a + kπ"]
-    C --> F["Sélectionner les solutions<br/>dans l'intervalle demandé"]
+    C --> F["Sélectionner les solutions\ndans l'intervalle demandé"]
     D --> F
     E --> F
 

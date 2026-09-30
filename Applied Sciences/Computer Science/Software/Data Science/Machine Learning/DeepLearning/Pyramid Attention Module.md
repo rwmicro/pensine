@@ -22,13 +22,13 @@ Les CNN classiques perdent progressivement les détails fins en empilant les cou
 > Un CNN classique doit choisir un compromis unique entre résolution et contexte à chaque couche. Le PAM évite ce compromis en traitant plusieurs échelles **en parallèle** et en laissant un mécanisme d'attention décider, pour chaque région, quelle échelle est la plus informative — plutôt que de fusionner les échelles à poids fixes.
 
 ```mermaid
-graph TB
+flowchart TB
     subgraph "Le défi de la segmentation sémantique"
-        IMG["Image d'entrée"] --> LOCAL["Détails locaux<br/>(contours, textures)"]
-        IMG --> GLOBAL["Contexte global<br/>(structure de la scène)"]
-        LOCAL --> COMBINE["Comment combiner<br/>les deux ?"]
+        IMG["Image d'entrée"] --> LOCAL["Détails locaux\n(contours, textures)"]
+        IMG --> GLOBAL["Contexte global\n(structure de la scène)"]
+        LOCAL --> COMBINE["Comment combiner\nles deux ?"]
         GLOBAL --> COMBINE
-        COMBINE --> SEG["Segmentation<br/>pixel par pixel"]
+        COMBINE --> SEG["Segmentation\npixel par pixel"]
     end
 
     style IMG fill:#2196F3,color:#fff
@@ -57,18 +57,18 @@ Le mécanisme d'**attention** permet au réseau de se **concentrer** sur les par
 Le PAN combine deux modules principaux :
 
 ```mermaid
-graph TB
-    INPUT["Image d'entrée"] --> ENCODER["Encodeur<br/>(Feature Pyramid)"]
+flowchart TB
+    INPUT["Image d'entrée"] --> ENCODER["Encodeur\n(Feature Pyramid)"]
 
-    ENCODER --> F1["Features haute résolution<br/>(détails fins)"]
+    ENCODER --> F1["Features haute résolution\n(détails fins)"]
     ENCODER --> F2["Features moyenne résolution"]
-    ENCODER --> F3["Features basse résolution<br/>(contexte global)"]
+    ENCODER --> F3["Features basse résolution\n(contexte global)"]
 
-    F1 --> FPA["Feature Pyramid<br/>Attention Module"]
+    F1 --> FPA["Feature Pyramid\nAttention Module"]
     F2 --> FPA
     F3 --> FPA
 
-    F1 --> GAU["Global Attention<br/>Upsample Module"]
+    F1 --> GAU["Global Attention\nUpsample Module"]
     F2 --> GAU
     F3 --> GAU
 

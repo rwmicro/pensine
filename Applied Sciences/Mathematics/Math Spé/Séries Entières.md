@@ -33,7 +33,7 @@ Les séries entières généralisent les polynômes à un nombre infini de terme
 > $$R = \sup \{ r \geq 0 : (a_n r^n) \text{ est bornée} \} \in [0, +\infty]$$
 
 ```mermaid
-graph LR
+flowchart LR
     A["|-R--------0--------R-|"]
 
     subgraph "Convergence absolue"
@@ -215,13 +215,13 @@ $$f(g(x)) = \sum_{n=0}^{+\infty} a_n (g(x))^n$$
 
 ```mermaid
 flowchart TD
-    A["Trouver le DSE de f(x)"] --> B{"f est une fonction usuelle<br/>ou s'y ramène ?"}
-    B -->|Oui| C["Utiliser le tableau<br/>des DSE connus"]
-    B -->|Non| D{"f vérifie une<br/>équation différentielle ?"}
-    D -->|Oui| E["Chercher les coefficients<br/>par identification dans l'EDO"]
-    D -->|Non| F{"On peut dériver ou<br/>intégrer f pour se ramener<br/>à une fonction connue ?"}
-    F -->|Oui| G["Dériver/intégrer<br/>puis reconstituer"]
-    F -->|Non| H["Calculer les coefficients<br/>directement : aₙ = f⁽ⁿ⁾(0)/n!"]
+    A["Trouver le DSE de f(x)"] --> B{"f est une fonction usuelle\nou s'y ramène ?"}
+    B -->|Oui| C["Utiliser le tableau\ndes DSE connus"]
+    B -->|Non| D{"f vérifie une\néquation différentielle ?"}
+    D -->|Oui| E["Chercher les coefficients\npar identification dans l'EDO"]
+    D -->|Non| F{"On peut dériver ou\nintégrer f pour se ramener\nà une fonction connue ?"}
+    F -->|Oui| G["Dériver/intégrer\npuis reconstituer"]
+    F -->|Non| H["Calculer les coefficients\ndirectement : aₙ = f⁽ⁿ⁾(0)/n!"]
 ```
 
 ### Méthode 1 : Utiliser les DSE connus + opérations

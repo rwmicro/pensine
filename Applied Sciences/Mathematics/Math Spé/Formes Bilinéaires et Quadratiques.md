@@ -119,13 +119,13 @@ C'est-à-dire trouver $P$ inversible telle que $P^T M P$ soit diagonale.
 
 ```mermaid
 flowchart TD
-    A["q(x₁, ..., xₙ) = forme quadratique"] --> B{"Existe-t-il un<br/>terme en xᵢ² ?"}
-    B -->|Oui| C["Compléter le carré<br/>en xᵢ"]
-    B -->|Non| D{"Existe-t-il un terme<br/>croisé xᵢxⱼ ?"}
-    D -->|Oui| E["Poser u = xᵢ+xⱼ<br/>et v = xᵢ-xⱼ<br/>pour faire apparaître<br/>des carrés"]
+    A["q(x₁, ..., xₙ) = forme quadratique"] --> B{"Existe-t-il un\nterme en xᵢ² ?"}
+    B -->|Oui| C["Compléter le carré\nen xᵢ"]
+    B -->|Non| D{"Existe-t-il un terme\ncroisé xᵢxⱼ ?"}
+    D -->|Oui| E["Poser u = xᵢ+xⱼ\net v = xᵢ-xⱼ\npour faire apparaître\ndes carrés"]
     D -->|Non| F["q = 0"]
-    C --> G["Éliminer les termes<br/>croisés avec xᵢ"]
-    G --> H["Recommencer avec<br/>les variables restantes"]
+    C --> G["Éliminer les termes\ncroisés avec xᵢ"]
+    G --> H["Recommencer avec\nles variables restantes"]
     E --> H
 
     style C fill:#C8E6C9

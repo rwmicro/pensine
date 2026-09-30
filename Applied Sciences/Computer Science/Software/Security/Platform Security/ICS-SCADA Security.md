@@ -15,7 +15,7 @@ Les systèmes de contrôle industriels (ICS) pilotent les infrastructures critiq
 ### Composants clés
 
 ```mermaid
-graph TD
+flowchart TD
     corp[Réseau d'entreprise\nIT classique]
     corp -->|Passerelle DMZ| hist[Historian\nServeur de données\nde processus]
     hist --> hmi[HMI\nHuman-Machine Interface\nInterface opérateur]

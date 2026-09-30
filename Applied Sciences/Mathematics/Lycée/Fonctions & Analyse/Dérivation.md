@@ -211,7 +211,7 @@ class TangenteLimiteSecantes(Scene):
 ### 4.5 Résumé des formules
 
 ```mermaid
-graph TD
+flowchart TD
     A["Opérations sur les dérivées"] --> B["Somme : (f+g)' = f' + g'"]
     A --> C["Scalaire : (λf)' = λf'"]
     A --> D["Produit : (fg)' = f'g + fg'"]
@@ -318,7 +318,7 @@ graph TD
 ```mermaid
 flowchart TD
     A["f'(c) = 0"] --> B{"f' change-t-elle de signe en c ?"}
-    B -->|Non| C["Pas d'extremum<br/>(ex : point d'inflexion)"]
+    B -->|Non| C["Pas d'extremum\n(ex : point d'inflexion)"]
     B -->|"+ puis -"| D["Maximum local en c"]
     B -->|"- puis +"| E["Minimum local en c"]
 ```

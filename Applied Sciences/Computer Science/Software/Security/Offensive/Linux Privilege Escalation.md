@@ -220,7 +220,7 @@ curl -L https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas
 ## Récapitulatif par ordre de priorité
 
 ```mermaid
-graph TD
+flowchart TD
     enum[Énumération initiale\nid, sudo -l, uname] --> sudo_check
     sudo_check{sudo -l\ncontient NOPASSWD ?} -->|Oui| sudo_exploit[Exploiter sudo\nGTFOBins]
     sudo_check -->|Non| suid[Rechercher SUID\nfind / -perm -u=s]

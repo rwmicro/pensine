@@ -140,13 +140,13 @@ $$\begin{cases} x = x_A + su_1 + tv_1 \\ y = y_A + su_2 + tv_2 \\ z = z_A + su_3
 
 ```mermaid
 flowchart TD
-    A["Deux droites (d₁) et (d₂)"] --> B{"Vecteurs directeurs<br/>colinéaires ?"}
+    A["Deux droites (d₁) et (d₂)"] --> B{"Vecteurs directeurs\ncolinéaires ?"}
     B -->|"Oui"| C{"Point commun ?"}
     B -->|"Non"| D{"Point commun ?"}
-    C -->|"Oui"| E["Droites<br/>CONFONDUES"]
-    C -->|"Non"| F["Droites<br/>PARALLÈLES<br/>strictement"]
-    D -->|"Oui"| G["Droites<br/>SÉCANTES"]
-    D -->|"Non"| H["Droites<br/>NON COPLANAIRES"]
+    C -->|"Oui"| E["Droites\nCONFONDUES"]
+    C -->|"Non"| F["Droites\nPARALLÈLES\nstrictement"]
+    D -->|"Oui"| G["Droites\nSÉCANTES"]
+    D -->|"Non"| H["Droites\nNON COPLANAIRES"]
 
     style E fill:#e6ffe6,stroke:#009900
     style F fill:#ffe6e6,stroke:#cc0000
@@ -161,11 +161,11 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    A["Droite (d) et plan (P)"] --> B{"Le vecteur directeur ū<br/>de (d) est-il orthogonal<br/>au vecteur normal n̄<br/>de (P) ?<br/>ū · n̄ = 0 ?"}
-    B -->|"Non (ū · n̄ ≠ 0)"| C["La droite est<br/>SÉCANTE au plan<br/>(1 point d'intersection)"]
-    B -->|"Oui (ū · n̄ = 0)"| D{"Un point de (d)<br/>appartient-il à (P) ?"}
-    D -->|"Oui"| E["La droite est<br/>INCLUSE dans le plan"]
-    D -->|"Non"| F["La droite est<br/>PARALLÈLE au plan"]
+    A["Droite (d) et plan (P)"] --> B{"Le vecteur directeur ū\nde (d) est-il orthogonal\nau vecteur normal n̄\nde (P) ?\nū · n̄ = 0 ?"}
+    B -->|"Non (ū · n̄ ≠ 0)"| C["La droite est\nSÉCANTE au plan\n(1 point d'intersection)"]
+    B -->|"Oui (ū · n̄ = 0)"| D{"Un point de (d)\nappartient-il à (P) ?"}
+    D -->|"Oui"| E["La droite est\nINCLUSE dans le plan"]
+    D -->|"Non"| F["La droite est\nPARALLÈLE au plan"]
 
     style C fill:#fff2e6,stroke:#cc6600
     style E fill:#e6ffe6,stroke:#009900
@@ -176,11 +176,11 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    A["Deux plans (P₁) et (P₂)"] --> B{"Vecteurs normaux<br/>n̄₁ et n̄₂<br/>colinéaires ?"}
-    B -->|"Non"| C["Plans<br/>SÉCANTS<br/>(intersection = droite)"]
-    B -->|"Oui"| D{"Même plan ?<br/>(un point commun ?)"}
-    D -->|"Oui"| E["Plans<br/>CONFONDUS"]
-    D -->|"Non"| F["Plans<br/>PARALLÈLES<br/>strictement"]
+    A["Deux plans (P₁) et (P₂)"] --> B{"Vecteurs normaux\nn̄₁ et n̄₂\ncolinéaires ?"}
+    B -->|"Non"| C["Plans\nSÉCANTS\n(intersection = droite)"]
+    B -->|"Oui"| D{"Même plan ?\n(un point commun ?)"}
+    D -->|"Oui"| E["Plans\nCONFONDUS"]
+    D -->|"Non"| F["Plans\nPARALLÈLES\nstrictement"]
 
     style C fill:#fff2e6,stroke:#cc6600
     style E fill:#e6ffe6,stroke:#009900

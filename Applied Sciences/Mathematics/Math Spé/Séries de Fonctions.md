@@ -34,9 +34,9 @@ Ce chapitre traite des suites et séries de fonctions, et en particulier des con
 ```mermaid
 flowchart TD
     A["Convergence uniforme sur I"] --> B["Convergence simple sur I"]
-    A -- "La réciproque est FAUSSE" --> C["Exemple : f_n(x) = xⁿ sur [0,1]<br/>CS vers f(x)=0 si x∈[0,1[, f(1)=1<br/>mais pas CU"]
-    B --> D["Pour chaque x fixé,<br/>f_n(x) → f(x)"]
-    A --> E["sup|f_n - f| → 0<br/>Contrôle global"]
+    A -- "La réciproque est FAUSSE" --> C["Exemple : f_n(x) = xⁿ sur [0,1]\nCS vers f(x)=0 si x∈[0,1[, f(1)=1\nmais pas CU"]
+    B --> D["Pour chaque x fixé,\nf_n(x) → f(x)"]
+    A --> E["sup|f_n - f| → 0\nContrôle global"]
 ```
 
 > [!example] Exemple classique
@@ -106,10 +106,10 @@ Soit $(f_n)_{n \geq 0}$ une suite de fonctions de $I$ dans $\mathbb{R}$. On s'in
 
 ```mermaid
 flowchart TD
-    A["Convergence NORMALE<br/>∑ ‖fₙ‖∞ converge"] ==> B["Convergence UNIFORME<br/>sup|Sₙ - S| → 0"]
-    B ==> C["Convergence SIMPLE<br/>∀x, Sₙ(x) → S(x)"]
-    A -. "Réciproque FAUSSE" .-> D["Contre-ex : ∑(-1)ⁿ/n<br/>sur un singleton"]
-    B -. "Réciproque FAUSSE" .-> E["Contre-ex : fₙ = xⁿ/n<br/>sur [0,1]"]
+    A["Convergence NORMALE\n∑ ‖fₙ‖∞ converge"] ==> B["Convergence UNIFORME\nsup|Sₙ - S| → 0"]
+    B ==> C["Convergence SIMPLE\n∀x, Sₙ(x) → S(x)"]
+    A -. "Réciproque FAUSSE" .-> D["Contre-ex : ∑(-1)ⁿ/n\nsur un singleton"]
+    B -. "Réciproque FAUSSE" .-> E["Contre-ex : fₙ = xⁿ/n\nsur [0,1]"]
 ```
 
 > [!important] Convergence normale implique convergence uniforme

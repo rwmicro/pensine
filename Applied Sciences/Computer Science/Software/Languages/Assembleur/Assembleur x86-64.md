@@ -102,8 +102,8 @@ _start:
 
 ```mermaid
 flowchart LR
-    A["hello.asm<br/>source NASM"] -->|"nasm -f elf64"| B["hello.o<br/>fichier objet"]
-    B -->|"ld"| C["hello<br/>exécutable ELF"]
+    A["hello.asm\nsource NASM"] -->|"nasm -f elf64"| B["hello.o\nfichier objet"]
+    B -->|"ld"| C["hello\nexécutable ELF"]
     C -->|"execve"| D["processus en mémoire"]
 ```
 

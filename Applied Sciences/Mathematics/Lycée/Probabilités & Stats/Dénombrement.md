@@ -39,7 +39,7 @@ Le dénombrement consiste à **compter** le nombre d'éléments d'un ensemble fi
 
 ```mermaid
 flowchart LR
-    A["Problème de<br/>dénombrement"] --> B{"Les choix sont..."}
+    A["Problème de\ndénombrement"] --> B{"Les choix sont..."}
     B -->|"alternatifs (OU)"| C["Additionner"]
     B -->|"successifs (ET)"| D["Multiplier"]
 ```
@@ -158,11 +158,11 @@ C'est le **triangle de Pascal**.
 
 ```mermaid
 flowchart TD
-    A["Je veux choisir p objets<br/>parmi n objets distincts"] --> B{"L'ordre<br/>compte-t-il ?"}
-    B -->|Oui| C{"Je prends tous<br/>les objets ?<br/>(p = n)"}
-    C -->|Oui| D["Permutation<br/>n!"]
-    C -->|Non| E["Arrangement<br/>A(n,p) = n!/(n-p)!"]
-    B -->|Non| F["Combinaison<br/>C(n,p) = n!/p!(n-p)!"]
+    A["Je veux choisir p objets\nparmi n objets distincts"] --> B{"L'ordre\ncompte-t-il ?"}
+    B -->|Oui| C{"Je prends tous\nles objets ?\n(p = n)"}
+    C -->|Oui| D["Permutation\nn!"]
+    C -->|Non| E["Arrangement\nA(n,p) = n!/(n-p)!"]
+    B -->|Non| F["Combinaison\nC(n,p) = n!/p!(n-p)!"]
 
     style D fill:#C8E6C9
     style E fill:#BBDEFB

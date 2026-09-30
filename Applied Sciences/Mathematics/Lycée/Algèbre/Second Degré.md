@@ -80,13 +80,13 @@ flowchart TD
     C -->|"Δ = 0"| E["Une racine double"]
     C -->|"Δ < 0"| F["Aucune racine réelle"]
 
-    D --> G["x₁ = (-b - sqrt(Δ)) / 2a<br/>x₂ = (-b + sqrt(Δ)) / 2a"]
+    D --> G["x₁ = (-b - sqrt(Δ)) / 2a\nx₂ = (-b + sqrt(Δ)) / 2a"]
     E --> H["x₀ = -b / 2a"]
     F --> I["S = ensemble vide"]
 
     G --> J["f(x) = a(x - x₁)(x - x₂)"]
     H --> K["f(x) = a(x - x₀)²"]
-    I --> L["f(x) ne se factorise pas<br/>dans R"]
+    I --> L["f(x) ne se factorise pas\ndans R"]
 ```
 
 ### 3.3 Formules des racines
@@ -181,9 +181,9 @@ flowchart TD
     B --> C{"Δ < 0"}
     C -->|Oui| D["Toujours du signe de a"]
     C -->|Non| E{"Δ = 0"}
-    E -->|Oui| F["Signe de a sauf en x₀ = -b/2a<br/>où f(x₀) = 0"]
+    E -->|Oui| F["Signe de a sauf en x₀ = -b/2a\noù f(x₀) = 0"]
     E -->|Non| G["Δ > 0"]
-    G --> H["Signe de a à l'EXTÉRIEUR de x₁, x₂<br/>Signe opposé ENTRE x₁ et x₂"]
+    G --> H["Signe de a à l'EXTÉRIEUR de x₁, x₂\nSigne opposé ENTRE x₁ et x₂"]
 ```
 
 

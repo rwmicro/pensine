@@ -55,7 +55,7 @@ Le coût OSPF = `100 000 000 / Bande passante (bps)`
 OSPF utilise un système hiérarchique d'**aires** pour limiter la propagation des LSA sur les grands réseaux.
 
 ```mermaid
-graph TD
+flowchart TD
     A0["Area 0 — Backbone\n(obligatoire, centrale)"]
     A1["Area 1"]
     A2["Area 2"]

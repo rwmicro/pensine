@@ -18,9 +18,9 @@ Pour convaincre, un orateur dispose de trois moyens, qu'il faut équilibrer. Ari
 
 ```mermaid
 flowchart TB
-    Orateur((Orateur)) --> Ethos[ETHOS<br/>crédibilité<br/>« faites-moi confiance »]
-    Orateur --> Logos[LOGOS<br/>raison<br/>« voici les arguments »]
-    Orateur --> Pathos[PATHOS<br/>émotion<br/>« sentez ce que je sens »]
+    Orateur((Orateur)) --> Ethos[ETHOS\ncrédibilité\n« faites-moi confiance »]
+    Orateur --> Logos[LOGOS\nraison\n« voici les arguments »]
+    Orateur --> Pathos[PATHOS\némotion\n« sentez ce que je sens »]
     Ethos --> Public((Public))
     Logos --> Public
     Pathos --> Public

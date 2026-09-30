@@ -68,20 +68,20 @@ Sur la courbe de $f$, on peut lire :
 ### 3.1 Vue d'ensemble
 
 ```mermaid
-graph TD
-    FR["Fonctions de référence"] --> AFF["Fonction affine<br/>f(x) = mx + p"]
-    FR --> CAR["Fonction carrée<br/>f(x) = x²"]
-    FR --> CUB["Fonction cube<br/>f(x) = x³"]
-    FR --> INV["Fonction inverse<br/>f(x) = 1/x"]
-    FR --> RAC["Fonction racine<br/>f(x) = sqrt(x)"]
-    FR --> ABS["Valeur absolue<br/>f(x) = |x|"]
+flowchart TD
+    FR["Fonctions de référence"] --> AFF["Fonction affine\nf(x) = mx + p"]
+    FR --> CAR["Fonction carrée\nf(x) = x²"]
+    FR --> CUB["Fonction cube\nf(x) = x³"]
+    FR --> INV["Fonction inverse\nf(x) = 1/x"]
+    FR --> RAC["Fonction racine\nf(x) = sqrt(x)"]
+    FR --> ABS["Valeur absolue\nf(x) = |x|"]
 
-    AFF --> |"Droite"| P1["Croissante si m > 0<br/>Décroissante si m < 0"]
-    CAR --> |"Parabole"| P2["Décroissante sur ]-inf, 0]<br/>Croissante sur [0, +inf["]
+    AFF --> |"Droite"| P1["Croissante si m > 0\nDécroissante si m < 0"]
+    CAR --> |"Parabole"| P2["Décroissante sur ]-inf, 0]\nCroissante sur [0, +inf["]
     CUB --> |"Courbe en S"| P3["Croissante sur R"]
-    INV --> |"Hyperbole"| P4["Décroissante sur ]-inf, 0[<br/>Décroissante sur ]0, +inf["]
+    INV --> |"Hyperbole"| P4["Décroissante sur ]-inf, 0[\nDécroissante sur ]0, +inf["]
     RAC --> |"Demi-parabole"| P5["Croissante sur [0, +inf["]
-    ABS --> |"V"| P6["Décroissante sur ]-inf, 0]<br/>Croissante sur [0, +inf["]
+    ABS --> |"V"| P6["Décroissante sur ]-inf, 0]\nCroissante sur [0, +inf["]
 ```
 
 ### 3.2 Fonction affine : $f(x) = mx + p$
@@ -208,14 +208,14 @@ Exemples : $x \mapsto x^3$, $x \mapsto \frac{1}{x}$, $x \mapsto \sin(x)$.
 
 ```mermaid
 flowchart TD
-    A["Étudier la parité de f"] --> B{"D_f est-il symétrique<br/>par rapport à 0 ?"}
-    B -->|Non| C["f n'est ni paire<br/>ni impaire"]
+    A["Étudier la parité de f"] --> B{"D_f est-il symétrique\npar rapport à 0 ?"}
+    B -->|Non| C["f n'est ni paire\nni impaire"]
     B -->|Oui| D["Calculer f(-x)"]
     D --> E{"f(-x) = f(x) ?"}
     E -->|Oui| F["f est paire"]
     E -->|Non| G{"f(-x) = -f(x) ?"}
     G -->|Oui| H["f est impaire"]
-    G -->|Non| I["f n'est ni paire<br/>ni impaire"]
+    G -->|Non| I["f n'est ni paire\nni impaire"]
 ```
 
 > [!example] Exemple : étudier la parité de $f(x) = x^3 + x$

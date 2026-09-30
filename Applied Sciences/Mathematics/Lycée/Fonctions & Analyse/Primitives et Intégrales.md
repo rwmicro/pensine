@@ -122,11 +122,11 @@ Si $f$ change de signe, l'intégrale calcule l'aire **algébrique** (les parties
 
 ```mermaid
 flowchart TD
-    A["Calculer l'aire entre<br/>la courbe et l'axe Ox<br/>sur [a, b]"] --> B{"f garde un signe<br/>constant sur [a,b] ?"}
+    A["Calculer l'aire entre\nla courbe et l'axe Ox\nsur [a, b]"] --> B{"f garde un signe\nconstant sur [a,b] ?"}
     B -->|"Oui, f ≥ 0"| C["Aire = ∫ₐᵇ f(x) dx"]
     B -->|"Oui, f ≤ 0"| D["Aire = -∫ₐᵇ f(x) dx"]
-    B -->|"Non"| E["Trouver les zéros c₁, c₂, ...<br/>de f dans [a, b]"]
-    E --> F["Découper :<br/>Aire = ∫ₐᶜ¹ |f| + ∫ᶜ¹ᶜ² |f| + ..."]
+    B -->|"Non"| E["Trouver les zéros c₁, c₂, ...\nde f dans [a, b]"]
+    E --> F["Découper :\nAire = ∫ₐᶜ¹ |f| + ∫ᶜ¹ᶜ² |f| + ..."]
 
     style C fill:#C8E6C9,stroke:#388E3C,color:#000
     style D fill:#BBDEFB,stroke:#1565C0,color:#000

@@ -81,11 +81,11 @@ L'approche énergétique est un point de vue puissant : au lieu de suivre les fo
 
 ```mermaid
 flowchart TD
-    A["Système en mouvement"] --> B{"Forces non conservatives<br/>(frottements) ?"}
-    B -->|Non| C["Énergie mécanique<br/>CONSERVÉE : Em = cste"]
-    B -->|Oui| D["Énergie mécanique<br/>DIMINUE : ΔEm = W_frot < 0"]
-    C --> E["Ec et Ep s'échangent<br/>sans perte"]
-    D --> F["Énergie dissipée<br/>en chaleur"]
+    A["Système en mouvement"] --> B{"Forces non conservatives\n(frottements) ?"}
+    B -->|Non| C["Énergie mécanique\nCONSERVÉE : Em = cste"]
+    B -->|Oui| D["Énergie mécanique\nDIMINUE : ΔEm = W_frot < 0"]
+    C --> E["Ec et Ep s'échangent\nsans perte"]
+    D --> F["Énergie dissipée\nen chaleur"]
 ```
 
 ### Visualisation animée (Manim)

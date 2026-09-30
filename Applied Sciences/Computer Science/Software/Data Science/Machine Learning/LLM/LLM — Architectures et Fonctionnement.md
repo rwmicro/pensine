@@ -50,7 +50,7 @@ Introduite en 2017 (Vaswani et al., "Attention is All You Need"). Tous les LLM m
 **Composants principaux d'un bloc Transformer :**
 
 ```mermaid
-graph TD
+flowchart TD
     IN["Input\n(embeddings + positional encoding)"]
     ATTN["Multi-Head Self-Attention\n(relations entre tous les tokens)"]
     NORM1["Layer Norm + Residual"]

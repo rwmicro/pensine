@@ -94,10 +94,10 @@ class FentesDeYoung(Scene):
 
 ```mermaid
 flowchart TD
-    A["Onde rencontrant une ouverture"] --> B{"Taille de l'ouverture<br/>vs longueur d'onde λ"}
-    B -->|"ouverture >> λ"| C["Propagation quasi rectiligne<br/>(optique géométrique)"]
-    B -->|"ouverture ~ λ"| D["Forte diffraction<br/>(étalement angulaire)"]
-    D --> E["Limite de résolution<br/>des instruments"]
+    A["Onde rencontrant une ouverture"] --> B{"Taille de l'ouverture\nvs longueur d'onde λ"}
+    B -->|"ouverture >> λ"| C["Propagation quasi rectiligne\n(optique géométrique)"]
+    B -->|"ouverture ~ λ"| D["Forte diffraction\n(étalement angulaire)"]
+    D --> E["Limite de résolution\ndes instruments"]
 ```
 
 ## 4. Réseaux et applications

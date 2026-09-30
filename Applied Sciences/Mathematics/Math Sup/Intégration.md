@@ -267,16 +267,16 @@ flowchart TD
     A["Calculer ∫ f(x) dx"] --> B{"Primitive immédiate ?"}
     B -- Oui --> C["Calculer directement"]
     B -- Non --> D{"Fraction rationnelle P(x)/Q(x) ?"}
-    D -- Oui --> E["Décomposition en<br/>éléments simples"]
-    D -- Non --> F{"Produit de deux fonctions<br/>de natures différentes ?"}
-    F -- Oui --> G["Intégration par parties<br/>(IPP)"]
-    F -- Non --> H{"Présence de √(expression)<br/>ou de substitution naturelle ?"}
+    D -- Oui --> E["Décomposition en\néléments simples"]
+    D -- Non --> F{"Produit de deux fonctions\nde natures différentes ?"}
+    F -- Oui --> G["Intégration par parties\n(IPP)"]
+    F -- Non --> H{"Présence de √(expression)\nou de substitution naturelle ?"}
     H -- Oui --> I["Changement de variable"]
     H -- Non --> J{"Expression trigonométrique ?"}
-    J -- Oui --> K{"Forme R(sin x, cos x)<br/>avec R rationnelle ?"}
-    K -- Oui --> L["Règles de Bioche ou<br/>substitution t = tan(x/2)"]
-    K -- Non --> M["Linéarisation avec<br/>formules d'Euler"]
-    J -- Non --> N["Réécrire / Simplifier<br/>puis réessayer"]
+    J -- Oui --> K{"Forme R(sin x, cos x)\navec R rationnelle ?"}
+    K -- Oui --> L["Règles de Bioche ou\nsubstitution t = tan(x/2)"]
+    K -- Non --> M["Linéarisation avec\nformules d'Euler"]
+    J -- Non --> N["Réécrire / Simplifier\npuis réessayer"]
 
     style A fill:#4a90d9,color:#fff
     style C fill:#27ae60,color:#fff

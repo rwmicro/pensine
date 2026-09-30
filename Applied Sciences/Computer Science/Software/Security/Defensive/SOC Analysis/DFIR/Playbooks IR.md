@@ -13,7 +13,7 @@ Un playbook IR est une procédure tactique step-by-step pour répondre à un typ
 ## Phases générales (NIST SP 800-61)
 
 ```mermaid
-graph LR
+flowchart LR
     prep[Préparation\nOutils, contacts,\nprocédures en place]
     detect[Détection\nAlertes SIEM, signalements\nutilisateurs, partenaires]
     contain[Confinement\nIsoler sans détruire\nles preuves]

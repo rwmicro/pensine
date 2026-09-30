@@ -55,11 +55,11 @@ Depuis Beauchamp et Childress (*Principles of Biomedical Ethics*, 1979), quatre 
 
 ```mermaid
 flowchart TB
-    Ethique((Éthique<br/>médicale))
-    A[Autonomie<br/>respect du choix du patient]
-    B[Bienfaisance<br/>agir pour son bien]
-    NM[Non-maléficence<br/>« primum non nocere »]
-    J[Justice<br/>équité d'accès aux soins]
+    Ethique((Éthique\nmédicale))
+    A[Autonomie\nrespect du choix du patient]
+    B[Bienfaisance\nagir pour son bien]
+    NM[Non-maléficence\n« primum non nocere »]
+    J[Justice\néquité d'accès aux soins]
     Ethique --- A
     Ethique --- B
     Ethique --- NM

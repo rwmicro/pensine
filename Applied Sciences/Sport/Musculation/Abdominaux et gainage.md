@@ -15,10 +15,10 @@ Le **« core »** désigne l'ensemble des muscles profonds et superficiels qui s
 ```mermaid
 flowchart TB
     Core["CORE"]
-    GD[Grand droit<br/>« tablette »]
-    Obl[Obliques<br/>flancs]
-    TA[Transverse<br/>muscle profond<br/>« ceinture interne »]
-    EP[Érecteurs spinaux<br/>bas du dos]
+    GD[Grand droit\n« tablette »]
+    Obl[Obliques\nflancs]
+    TA[Transverse\nmuscle profond\n« ceinture interne »]
+    EP[Érecteurs spinaux\nbas du dos]
     PP[Plancher pelvien]
     Diaph[Diaphragme]
     Core --- GD

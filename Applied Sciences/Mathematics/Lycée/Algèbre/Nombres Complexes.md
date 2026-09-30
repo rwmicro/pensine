@@ -157,19 +157,19 @@ $$\frac{1}{z} = \frac{\bar{z}}{|z|^2}$$
 ## 5. Les différentes formes d'un nombre complexe
 
 ```mermaid
-graph TD
-    A["Nombre complexe z"] --> B["Forme algébrique<br/>z = a + ib"]
-    A --> C["Forme trigonométrique<br/>z = r(cos θ + i sin θ)"]
-    A --> D["Forme exponentielle<br/>z = r·e^(iθ)"]
+flowchart TD
+    A["Nombre complexe z"] --> B["Forme algébrique\nz = a + ib"]
+    A --> C["Forme trigonométrique\nz = r(cos θ + i sin θ)"]
+    A --> D["Forme exponentielle\nz = r·e^(iθ)"]
 
-    B -->|"r = √(a² + b²)<br/>tan θ = b/a"| C
-    C -->|"a = r cos θ<br/>b = r sin θ"| B
+    B -->|"r = √(a² + b²)\ntan θ = b/a"| C
+    C -->|"a = r cos θ\nb = r sin θ"| B
     C -->|"Formule d'Euler"| D
     D -->|"Développement"| C
 
-    B --- E["Calculs algébriques<br/>Addition, soustraction"]
-    C --- F["Calculs géométriques<br/>Module, argument"]
-    D --- G["Puissances, racines<br/>Multiplication rapide"]
+    B --- E["Calculs algébriques\nAddition, soustraction"]
+    C --- F["Calculs géométriques\nModule, argument"]
+    D --- G["Puissances, racines\nMultiplication rapide"]
 
     style A fill:#e6f3ff,stroke:#0066cc
     style B fill:#fff2e6,stroke:#cc6600

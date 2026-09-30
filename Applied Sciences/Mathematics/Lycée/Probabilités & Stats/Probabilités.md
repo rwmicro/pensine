@@ -85,7 +85,7 @@ Les arbres pondérés sont un outil essentiel. Les règles sont :
 - La probabilité d'un événement est la **somme** des probabilités des chemins qui y mènent.
 
 ```mermaid
-graph LR
+flowchart LR
     R((" ")) -->|"P(B)"| B["B"]
     R -->|"P(B̄)"| Bb["B̄"]
     B -->|"P_B(A)"| BA["A"]
@@ -322,22 +322,22 @@ Plus précisément, l'intervalle au seuil de 95% est $[\mu - 1{,}96\sigma\,;\,\m
 
 ```mermaid
 flowchart TD
-    A["Quelle loi utiliser ?"] --> B{"L'expérience a-t-elle<br/>exactement 2 issues ?"}
-    B -->|"Non"| C{"Les issues sont-elles<br/>en nombre fini ?"}
-    B -->|"Oui"| D{"Répète-t-on l'épreuve<br/>n fois de manière<br/>indépendante ?"}
+    A["Quelle loi utiliser ?"] --> B{"L'expérience a-t-elle\nexactement 2 issues ?"}
+    B -->|"Non"| C{"Les issues sont-elles\nen nombre fini ?"}
+    B -->|"Oui"| D{"Répète-t-on l'épreuve\nn fois de manière\nindépendante ?"}
 
-    C -->|"Oui"| E["Variable aléatoire<br/>discrète quelconque<br/>Construire la loi"]
-    C -->|"Non (continu)"| F{"Cherche-t-on à modéliser<br/>une grandeur continue<br/>symétrique ?"}
+    C -->|"Oui"| E["Variable aléatoire\ndiscrète quelconque\nConstruire la loi"]
+    C -->|"Non (continu)"| F{"Cherche-t-on à modéliser\nune grandeur continue\nsymétrique ?"}
 
-    D -->|"Oui"| G["Loi binomiale<br/>X ~ B(n, p)"]
-    D -->|"Non (une seule épreuve)"| H["Loi de Bernoulli<br/>X ~ B(1, p)"]
+    D -->|"Oui"| G["Loi binomiale\nX ~ B(n, p)"]
+    D -->|"Non (une seule épreuve)"| H["Loi de Bernoulli\nX ~ B(1, p)"]
 
-    F -->|"Oui"| I["Loi normale<br/>X ~ N(μ, σ²)"]
-    F -->|"Non"| J["Autre loi continue<br/>(exponentielle, uniforme...)"]
+    F -->|"Oui"| I["Loi normale\nX ~ N(μ, σ²)"]
+    F -->|"Non"| J["Autre loi continue\n(exponentielle, uniforme...)"]
 
-    G --> K{"n grand ?<br/>np ≥ 5 ?<br/>n(1-p) ≥ 5 ?"}
-    K -->|"Oui"| L["Approximation par<br/>la loi normale<br/>N(np, np(1−p))"]
-    K -->|"Non"| M["Rester avec la<br/>loi binomiale"]
+    G --> K{"n grand ?\nnp ≥ 5 ?\nn(1-p) ≥ 5 ?"}
+    K -->|"Oui"| L["Approximation par\nla loi normale\nN(np, np(1−p))"]
+    K -->|"Non"| M["Rester avec la\nloi binomiale"]
 
     style A fill:#e6f3ff,stroke:#0066cc
     style G fill:#ffe6e6,stroke:#cc0000

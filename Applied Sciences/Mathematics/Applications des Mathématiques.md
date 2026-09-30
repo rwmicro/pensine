@@ -18,14 +18,14 @@ Les mathématiques ne sont pas qu'un édifice théorique : la quasi-totalité de
 ```mermaid
 flowchart LR
     Maths((Mathématiques))
-    Maths --> Crypto[Cryptographie<br/>arithmétique, algèbre]
-    Maths --> Signal[Traitement du signal<br/>Fourier, ondelettes]
-    Maths --> ML[Machine Learning<br/>algèbre lin., proba, optim.]
-    Maths --> Finance[Finance quantitative<br/>EDP, processus stochastiques]
-    Maths --> Physique[Physique<br/>EDO/EDP, géométrie diff.]
-    Maths --> Med[Imagerie médicale<br/>tomographie, Radon]
-    Maths --> Clim[Modèles climatiques<br/>EDP, calcul num.]
-    Maths --> Reseaux[Réseaux & internet<br/>graphes, codes correcteurs]
+    Maths --> Crypto[Cryptographie\narithmétique, algèbre]
+    Maths --> Signal[Traitement du signal\nFourier, ondelettes]
+    Maths --> ML[Machine Learning\nalgèbre lin., proba, optim.]
+    Maths --> Finance[Finance quantitative\nEDP, processus stochastiques]
+    Maths --> Physique[Physique\nEDO/EDP, géométrie diff.]
+    Maths --> Med[Imagerie médicale\ntomographie, Radon]
+    Maths --> Clim[Modèles climatiques\nEDP, calcul num.]
+    Maths --> Reseaux[Réseaux & internet\ngraphes, codes correcteurs]
 ```
 
 ## Cryptographie

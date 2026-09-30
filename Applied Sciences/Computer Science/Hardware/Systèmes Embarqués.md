@@ -32,8 +32,8 @@ Un microcontrôleur (MCU) intègre sur une seule puce le processeur, la mémoire
 flowchart TD
     subgraph MCU["Microcontrôleur — tout sur une seule puce"]
         CPU["Cœur CPU"]
-        FLASH["Flash — le code<br/>quelques centaines de Ko"]
-        RAM["RAM — les données<br/>quelques dizaines de Ko"]
+        FLASH["Flash — le code\nquelques centaines de Ko"]
+        RAM["RAM — les données\nquelques dizaines de Ko"]
         BUS{{"Bus interne — AHB / APB"}}
         PERIPH["GPIO · UART · SPI · I2C · Timer · ADC · DMA"]
         CPU --- BUS

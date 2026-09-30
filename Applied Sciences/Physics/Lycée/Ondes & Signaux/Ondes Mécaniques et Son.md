@@ -27,10 +27,10 @@ Une onde transporte de l'**énergie sans transport de matière**. Le son en est 
 
 ```mermaid
 flowchart LR
-    A["Onde mécanique"] --> B["Transversale<br/>oscillation ⊥ propagation"]
-    A --> C["Longitudinale<br/>oscillation ∥ propagation"]
+    A["Onde mécanique"] --> B["Transversale\noscillation ⊥ propagation"]
+    A --> C["Longitudinale\noscillation ∥ propagation"]
     B --> D["corde, vagues"]
-    C --> E["son (compressions<br/>de l'air)"]
+    C --> E["son (compressions\nde l'air)"]
 ```
 
 ## 2. Célérité d'une onde

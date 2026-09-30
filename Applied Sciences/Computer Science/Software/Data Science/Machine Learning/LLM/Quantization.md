@@ -23,13 +23,13 @@ Les grands modèles de langage (LLM) sont énormes :
 La quantification rend possible l'exécution de ces modèles sur du **matériel grand public** (GPU gaming, CPU, appareils mobiles).
 
 ```mermaid
-graph LR
+flowchart LR
     subgraph "Sans quantification"
-        A1["Modèle 70B<br/>FP16 : 140 Go"] --> B1["4x GPU A100 80Go<br/>$$$$"]
+        A1["Modèle 70B\nFP16 : 140 Go"] --> B1["4x GPU A100 80Go\n$$$$"]
     end
 
     subgraph "Avec quantification"
-        A2["Modèle 70B<br/>INT4 : 35 Go"] --> B2["1x GPU RTX 4090 24Go<br/>+ RAM système"]
+        A2["Modèle 70B\nINT4 : 35 Go"] --> B2["1x GPU RTX 4090 24Go\n+ RAM système"]
     end
 
     style A1 fill:#F44336,color:#fff
@@ -50,12 +50,12 @@ graph LR
 | **NF4** (NormalFloat4) | 4 | Optimisé pour distributions normales | QLoRA |
 
 ```mermaid
-graph TB
+flowchart TB
     subgraph "Précision décroissante, efficacité croissante"
         direction LR
-        FP32["FP32<br/>32 bits<br/>Haute précision"] --> FP16["FP16 / BF16<br/>16 bits<br/>Bon compromis"]
-        FP16 --> INT8["INT8<br/>8 bits<br/>Rapide"]
-        INT8 --> INT4["INT4 / NF4<br/>4 bits<br/>Ultra compact"]
+        FP32["FP32\n32 bits\nHaute précision"] --> FP16["FP16 / BF16\n16 bits\nBon compromis"]
+        FP16 --> INT8["INT8\n8 bits\nRapide"]
+        INT8 --> INT4["INT4 / NF4\n4 bits\nUltra compact"]
     end
 
     style FP32 fill:#2196F3,color:#fff
@@ -92,15 +92,15 @@ Simule la quantification **pendant** l'entraînement pour que le modèle s'adapt
 **Inconvénients :** nécessite un ré-entraînement (coûteux pour les LLM)
 
 ```mermaid
-graph LR
+flowchart LR
     subgraph "PTQ (Post-Training)"
         direction LR
-        T1["Modèle entraîné<br/>(FP32)"] --> Q1["Quantification"] --> M1["Modèle quantifié<br/>(INT8/INT4)"]
+        T1["Modèle entraîné\n(FP32)"] --> Q1["Quantification"] --> M1["Modèle quantifié\n(INT8/INT4)"]
     end
 
     subgraph "QAT (Aware Training)"
         direction LR
-        T2["Entraînement avec<br/>simulation de quantification"] --> M2["Modèle déjà adapté<br/>à la quantification"]
+        T2["Entraînement avec\nsimulation de quantification"] --> M2["Modèle déjà adapté\nà la quantification"]
     end
 
     style Q1 fill:#FF9800,color:#fff

@@ -134,15 +134,15 @@ $$e_k = \frac{u_k}{\|u_k\|}$$
 
 ```mermaid
 flowchart TD
-    A["Famille libre (v₁, ..., vₚ)"] --> B["Initialisation :<br/>u₁ = v₁<br/>e₁ = u₁ / ‖u₁‖"]
+    A["Famille libre (v₁, ..., vₚ)"] --> B["Initialisation :\nu₁ = v₁\ne₁ = u₁ / ‖u₁‖"]
     B --> C["Pour k = 2, 3, ..., p"]
-    C --> D["Orthogonalisation :<br/>uₖ = vₖ − Σⱼ₌₁ᵏ⁻¹ ⟨vₖ, eⱼ⟩ eⱼ"]
+    C --> D["Orthogonalisation :\nuₖ = vₖ − Σⱼ₌₁ᵏ⁻¹ ⟨vₖ, eⱼ⟩ eⱼ"]
     D --> E{"uₖ = 0 ?"}
-    E -- "Oui<br/>(impossible si libre)" --> F["Erreur : famille liée"]
-    E -- Non --> G["Normalisation :<br/>eₖ = uₖ / ‖uₖ‖"]
+    E -- "Oui\n(impossible si libre)" --> F["Erreur : famille liée"]
+    E -- Non --> G["Normalisation :\neₖ = uₖ / ‖uₖ‖"]
     G --> H{"k = p ?"}
     H -- Non --> C
-    H -- Oui --> I["Famille orthonormale<br/>(e₁, ..., eₚ) obtenue"]
+    H -- Oui --> I["Famille orthonormale\n(e₁, ..., eₚ) obtenue"]
 
     style A fill:#4a90d9,color:#fff
     style I fill:#27ae60,color:#fff

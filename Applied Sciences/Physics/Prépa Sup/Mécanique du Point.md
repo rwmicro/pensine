@@ -64,9 +64,9 @@ où $R$ est le rayon de courbure. La composante tangentielle change la **norme**
 ```mermaid
 flowchart TD
     A["Position d'équilibre : E_p'(x) = 0"] --> B{"E_p''(x) > 0 ?"}
-    B -->|Oui : minimum| C["Équilibre STABLE<br/>oscillations possibles"]
+    B -->|Oui : minimum| C["Équilibre STABLE\noscillations possibles"]
     B -->|Non : maximum| D["Équilibre INSTABLE"]
-    C --> E["Près du minimum :<br/>oscillateur harmonique"]
+    C --> E["Près du minimum :\noscillateur harmonique"]
 ```
 
 ### Visualisation animée (Manim)

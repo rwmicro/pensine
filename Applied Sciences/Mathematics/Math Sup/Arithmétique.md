@@ -103,11 +103,11 @@ Propriétés :
 
 ```mermaid
 flowchart TD
-    A["Entrée : a, b avec a ≥ b > 0"] --> B["Initialiser :<br/>r₀ = a, r₁ = b<br/>u₀ = 1, u₁ = 0<br/>v₀ = 0, v₁ = 1"]
-    B --> C["Division euclidienne :<br/>rₙ = rₙ₋₁ × qₙ + rₙ₊₁"]
+    A["Entrée : a, b avec a ≥ b > 0"] --> B["Initialiser :\nr₀ = a, r₁ = b\nu₀ = 1, u₁ = 0\nv₀ = 0, v₁ = 1"]
+    B --> C["Division euclidienne :\nrₙ = rₙ₋₁ × qₙ + rₙ₊₁"]
     C --> D{"rₙ₊₁ = 0 ?"}
-    D -->|"Oui"| E["PGCD = rₙ<br/>Coefficients : u = uₙ, v = vₙ<br/>a × u + b × v = PGCD"]
-    D -->|"Non"| F["uₙ₊₁ = uₙ₋₁ − qₙ × uₙ<br/>vₙ₊₁ = vₙ₋₁ − qₙ × vₙ"]
+    D -->|"Oui"| E["PGCD = rₙ\nCoefficients : u = uₙ, v = vₙ\na × u + b × v = PGCD"]
+    D -->|"Non"| F["uₙ₊₁ = uₙ₋₁ − qₙ × uₙ\nvₙ₊₁ = vₙ₋₁ − qₙ × vₙ"]
     F --> G["n ← n + 1"]
     G --> C
 ```

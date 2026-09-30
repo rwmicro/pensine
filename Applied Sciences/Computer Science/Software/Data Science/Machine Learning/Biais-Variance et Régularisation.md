@@ -14,15 +14,15 @@ Un modèle qui obtient un excellent score sur ses données d'entraînement mais 
 ## Sous-apprentissage et sur-apprentissage : rappel
 
 ```mermaid
-graph LR
+flowchart LR
     subgraph "Underfitting"
-        U["Modèle trop simple<br/>Erreur élevée partout"]
+        U["Modèle trop simple\nErreur élevée partout"]
     end
     subgraph "Bon équilibre"
-        G["Modèle adapté<br/>Généralise bien"]
+        G["Modèle adapté\nGénéralise bien"]
     end
     subgraph "Overfitting"
-        O["Modèle trop complexe<br/>Mémorise le bruit du train"]
+        O["Modèle trop complexe\nMémorise le bruit du train"]
     end
 
     U -->|"Augmenter la complexité"| G
@@ -57,11 +57,11 @@ $$\text{Erreur} = \underbrace{\text{Biais}^2}_{\text{modèle trop simple}} + \un
 | **Variance élevée** | Tirs dispersés, centrés en moyenne — sur-apprentissage | Tirs dispersés et loin du centre — pire cas            |
 
 ```mermaid
-graph TD
+flowchart TD
     C{"Complexité du modèle"}
-    C -->|"Faible"| SIMPLE["Biais élevé<br/>Variance faible<br/>→ Underfitting"]
-    C -->|"Élevée"| COMPLEX["Biais faible<br/>Variance élevée<br/>→ Overfitting"]
-    C -->|"Optimale"| SWEET["Point d'équilibre<br/>Erreur de généralisation minimale"]
+    C -->|"Faible"| SIMPLE["Biais élevé\nVariance faible\n→ Underfitting"]
+    C -->|"Élevée"| COMPLEX["Biais faible\nVariance élevée\n→ Overfitting"]
+    C -->|"Optimale"| SWEET["Point d'équilibre\nErreur de généralisation minimale"]
 
     style SIMPLE fill:#2196F3,color:#fff
     style COMPLEX fill:#F44336,color:#fff
@@ -81,7 +81,7 @@ Tracer l'erreur d'entraînement et de validation en fonction de la **taille du d
 | Les deux erreurs convergent vers une valeur faible avec plus de données | Faible | Faible | Faible | **Bon ajustement** |
 
 ```mermaid
-graph LR
+flowchart LR
     subgraph "Underfitting"
         direction TB
         UT["Train: erreur élevée"] -.->|"écart faible"| UV["Val: erreur élevée"]
@@ -130,14 +130,14 @@ $$\mathcal{L}_{\text{lasso}} = \mathcal{L}_{\text{originale}} + \lambda \sum_{i}
 > Intuition géométrique : la région de contrainte de L1 est un losange (des coins pointus sur les axes), celle de L2 est un cercle. Le point optimal de la fonction de perte, projeté sur cette région, tombe plus souvent exactement sur un axe (coefficient nul) avec le losange qu'avec le cercle.
 
 ```mermaid
-graph LR
+flowchart LR
     subgraph "L1 (Lasso)"
         direction TB
-        L1V["Région de contrainte : losange<br/>Coins sur les axes<br/>→ coefficients à zéro"]
+        L1V["Région de contrainte : losange\nCoins sur les axes\n→ coefficients à zéro"]
     end
     subgraph "L2 (Ridge)"
         direction TB
-        L2V["Région de contrainte : cercle<br/>Pas de coin<br/>→ coefficients réduits mais non nuls"]
+        L2V["Région de contrainte : cercle\nPas de coin\n→ coefficients réduits mais non nuls"]
     end
 ```
 
@@ -181,14 +181,14 @@ model.fit(X_train, y_train, validation_data=(X_val, y_val), callbacks=[early_sto
 ## Quand utiliser quelle régularisation ?
 
 ```mermaid
-graph TD
+flowchart TD
     START{"Overfitting détecté"}
-    START --> Q1{"Beaucoup de features,<br/>certaines inutiles ?"}
-    Q1 -->|"Oui"| LASSO["L1 (Lasso)<br/>sélection automatique"]
-    Q1 -->|"Non, toutes contribuent un peu"| RIDGE["L2 (Ridge)<br/>shrinkage régulier"]
+    START --> Q1{"Beaucoup de features,\ncertaines inutiles ?"}
+    Q1 -->|"Oui"| LASSO["L1 (Lasso)\nsélection automatique"]
+    Q1 -->|"Non, toutes contribuent un peu"| RIDGE["L2 (Ridge)\nshrinkage régulier"]
     Q1 -->|"Features corrélées entre elles"| ELASTIC["Elastic Net"]
     START --> Q2{"Réseau de neurones ?"}
-    Q2 -->|"Oui"| DL["Dropout + Early Stopping<br/>+ Data Augmentation"]
+    Q2 -->|"Oui"| DL["Dropout + Early Stopping\n+ Data Augmentation"]
 
     style LASSO fill:#4CAF50,color:#fff
     style RIDGE fill:#2196F3,color:#fff

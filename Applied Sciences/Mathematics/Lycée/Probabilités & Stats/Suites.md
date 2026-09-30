@@ -132,12 +132,12 @@ $$\boxed{S_n = \sum_{k=0}^{n} u_k = u_0 \cdot \frac{1 - q^{n+1}}{1 - q}}$$
 ```mermaid
 flowchart TD
     A["On dispose d'une suite (u_n)"] --> B{"Calculer u_{n+1} - u_n"}
-    B -->|"Résultat = constante r"| C["Suite arithmétique<br/>de raison r"]
-    B -->|"Résultat non constant"| D{"u_0 ≠ 0 ?<br/>Calculer u_{n+1} / u_n"}
-    D -->|"Résultat = constante q"| E["Suite géométrique<br/>de raison q"]
-    D -->|"Résultat non constant"| F{"Poser v_n = f(u_n)<br/>et tester v_n"}
-    F -->|"v_n arithmétique<br/>ou géométrique"| G["Suite arithmético-<br/>géométrique<br/>ou autre transformation"]
-    F -->|"Aucun résultat"| H["Suite quelconque :<br/>étudier directement<br/>monotonie et limites"]
+    B -->|"Résultat = constante r"| C["Suite arithmétique\nde raison r"]
+    B -->|"Résultat non constant"| D{"u_0 ≠ 0 ?\nCalculer u_{n+1} / u_n"}
+    D -->|"Résultat = constante q"| E["Suite géométrique\nde raison q"]
+    D -->|"Résultat non constant"| F{"Poser v_n = f(u_n)\net tester v_n"}
+    F -->|"v_n arithmétique\nou géométrique"| G["Suite arithmético-\ngéométrique\nou autre transformation"]
+    F -->|"Aucun résultat"| H["Suite quelconque :\nétudier directement\nmonotonie et limites"]
 
     style C fill:#C8E6C9,stroke:#388E3C,color:#000
     style E fill:#BBDEFB,stroke:#1565C0,color:#000
@@ -312,8 +312,8 @@ class ConvergenceToileAraignee(Scene):
 
 ```mermaid
 flowchart LR
-    A["Initialisation<br/>Vérifier P(n₀)"] --> B["Hérédité<br/>P(n) ⟹ P(n+1)"]
-    B --> C["Conclusion<br/>P(n) vraie ∀ n ≥ n₀"]
+    A["Initialisation\nVérifier P(n₀)"] --> B["Hérédité\nP(n) ⟹ P(n+1)"]
+    B --> C["Conclusion\nP(n) vraie ∀ n ≥ n₀"]
 
     style A fill:#C8E6C9,stroke:#388E3C,color:#000
     style B fill:#BBDEFB,stroke:#1565C0,color:#000

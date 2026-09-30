@@ -44,7 +44,7 @@ Un graphe G = (V, E) comprend :
 L'idée centrale de la plupart des GNN est le **message passing** : chaque nœud agrège les informations de ses voisins pour mettre à jour sa représentation.
 
 ```mermaid
-graph LR
+flowchart LR
     subgraph "Itération t"
         v[Nœud v\nhᵥᵗ]
         u1[Voisin u₁\nhᵤ₁ᵗ] -->|message| agg

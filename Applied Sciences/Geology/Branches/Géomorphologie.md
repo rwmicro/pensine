@@ -14,11 +14,11 @@ La géomorphologie étudie les formes du relief terrestre et les processus qui l
 
 ```mermaid
 flowchart LR
-    Tectonique[Forces internes<br/>tectonique, volcanisme] -->|crée le relief| Relief[Relief]
-    Relief -->|altération| Meteorisation[Météorisation<br/>fragmentation]
+    Tectonique[Forces internes\ntectonique, volcanisme] -->|crée le relief| Relief[Relief]
+    Relief -->|altération| Meteorisation[Météorisation\nfragmentation]
     Meteorisation -->|transport| Erosion[Érosion]
     Erosion -->|dépôt| Sediment[Sédimentation]
-    Sediment -->|enfouissement<br/>compaction| Roches[Roches sédimentaires]
+    Sediment -->|enfouissement\ncompaction| Roches[Roches sédimentaires]
     Roches -.->|nouveau soulèvement| Relief
 ```
 
@@ -56,10 +56,10 @@ Modification de la composition de la roche par réactions avec l'eau, l'oxygène
 ```mermaid
 flowchart TB
     Pluie[Pluie + CO₂ = acide carbonique] --> Calcaire[Calcaire fissuré]
-    Calcaire --> Lapiez[Lapiez<br/>surface ciselée]
-    Calcaire --> Doline[Doline<br/>dépression]
-    Calcaire --> Grotte[Grottes<br/>rivières souterraines]
-    Grotte --> Stalactites["Stalactites (plafond)<br/>Stalagmites (sol)"]
+    Calcaire --> Lapiez[Lapiez\nsurface ciselée]
+    Calcaire --> Doline[Doline\ndépression]
+    Calcaire --> Grotte[Grottes\nrivières souterraines]
+    Grotte --> Stalactites["Stalactites (plafond)\nStalagmites (sol)"]
     Doline -->|effondrement| Aven[Aven, gouffre]
 ```
 
@@ -99,11 +99,11 @@ Un glacier érode 10 à 100 fois plus vite qu'une rivière. Il rabote la roche a
 ```mermaid
 flowchart LR
     subgraph Glaciaire["Formes d'érosion glaciaire"]
-        VU[Vallée en U<br/>vs V fluviale]
-        Cirque[Cirque<br/>« amphithéâtre » en tête de vallée]
-        Horn[Horn / Pic pyramidal<br/>Cervin, K2]
-        Arete[Arête<br/>crête tranchante]
-        Roche[Roches moutonnées<br/>polies par le passage]
+        VU[Vallée en U\nvs V fluviale]
+        Cirque[Cirque\n« amphithéâtre » en tête de vallée]
+        Horn[Horn / Pic pyramidal\nCervin, K2]
+        Arete[Arête\ncrête tranchante]
+        Roche[Roches moutonnées\npolies par le passage]
     end
 ```
 

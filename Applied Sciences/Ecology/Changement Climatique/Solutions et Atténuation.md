@@ -28,7 +28,7 @@ Face au changement climatique, deux stratégies complémentaires s'imposent : **
 ### Décarbonation des Secteurs Clés
 
 ```mermaid
-graph TD
+flowchart TD
     OBJ["Neutralité carbone\n2050"]
 
     E["Énergie — 34%\ndes émissions"]

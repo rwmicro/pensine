@@ -14,9 +14,9 @@ Comment la chaleur se propage-t-elle ? Cette note décrit les trois modes de tra
 
 ```mermaid
 flowchart TD
-    A["Transfert de chaleur"] --> B["Conduction<br/>de proche en proche<br/>(solides)"]
-    A --> C["Convection<br/>déplacement de fluide<br/>(liquides, gaz)"]
-    A --> D["Rayonnement<br/>ondes EM<br/>(même dans le vide)"]
+    A["Transfert de chaleur"] --> B["Conduction\nde proche en proche\n(solides)"]
+    A --> C["Convection\ndéplacement de fluide\n(liquides, gaz)"]
+    A --> D["Rayonnement\nondes EM\n(même dans le vide)"]
     B --> E["loi de Fourier"]
     C --> F["loi de Newton"]
     D --> G["loi de Stefan-Boltzmann"]

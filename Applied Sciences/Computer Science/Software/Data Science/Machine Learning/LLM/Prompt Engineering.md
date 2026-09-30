@@ -13,7 +13,7 @@ Le prompt engineering est l'art de formuler les instructions données à un LLM 
 ### Anatomie d'un Bon Prompt
 
 ```mermaid
-graph TD
+flowchart TD
     P["Prompt efficace"]
     R["Rôle / Persona\nTu es un expert en..."]
     C["Contexte\nInformations de fond nécessaires"]

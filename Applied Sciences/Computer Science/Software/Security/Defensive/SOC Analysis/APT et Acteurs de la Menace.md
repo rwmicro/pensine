@@ -16,7 +16,7 @@ Les APT (Advanced Persistent Threats) sont des acteurs sophistiqués — génér
 ## Classification des acteurs
 
 ```mermaid
-graph TD
+flowchart TD
     actors[Acteurs de la menace]
     actors --> state[États-nations\nRessources illimitées\nObjectifs stratégiques]
     actors --> crime[Cybercriminels\nRansomware, fraude\nMotivation financière]
@@ -148,7 +148,7 @@ Outils natifs utilisés :
 Concept de David Bianco : plus un IOC est haut dans la pyramide, plus il est difficile à changer pour l'attaquant.
 
 ```mermaid
-graph TD
+flowchart TD
     hash["Hash de fichiers\n(Trivial à changer)"] --> ip
     ip["Adresses IP\n(Facile)"] --> domain
     domain["Noms de domaine\n(Simple)"] --> artifacts
@@ -172,7 +172,7 @@ graph TD
 Les groupes criminels modernes opèrent comme des entreprises.
 
 ```mermaid
-graph LR
+flowchart LR
     dev["Développeurs\n(core team)\ncréent le malware\n+ infrastructure"]
     aff[Affiliés\nconductent les\nattaques]
     vic[Victimes]
