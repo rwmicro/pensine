@@ -41,7 +41,7 @@ Le chamanisme sibérien a traversé une histoire violente : christianisation ort
 
 En Amazonie, les chamanes soignent, protègent de l'agression d'autres chamanes, négocient avec les « maîtres » des animaux et des plantes. Plusieurs traditions utilisent des substances psychotropes, comme l'*ayahuasca*, décoction à base de la liane *Banisteriopsis caapi*, ou des poudres à priser comme le *yopo*. Le chamane yanomami **Davi Kopenawa** a livré, avec l'anthropologue Bruce Albert, un témoignage de cette pensée dans *La Chute du ciel* (2010), qui est aussi un réquisitoire contre la destruction de la forêt.
 
-C'est en Amazonie que l'animisme a été redécouvert par la théorie anthropologique. **Philippe Descola**, qui a vécu chez les Achuar (Jivaros de l'Équateur), a constaté que ceux-ci traitent les plantes cultivées comme des enfants et le gibier comme des beaux-frères : les relations sociales humaines s'étendent aux non-humains. **Eduardo Viveiros de Castro** en a tiré le **perspectivisme** amérindien : tous les êtres se voient eux-mêmes comme des humains, dotés d'une culture ; c'est leur corps qui diffère, et donc le monde qu'ils perçoivent. Le jaguar voit le sang comme de la bière de manioc ; ce que nous prenons pour sa nature est pour lui sa culture.
+C'est en Amazonie que l'animisme a été redécouvert par la théorie anthropologique. **Philippe Descola**, qui a vécu chez les Achuar (Jivaros de l'Équateur), a constaté que ceux-ci traitent les plantes cultivées comme des enfants et le gibier comme des beaux-frères : les relations sociales humaines s'étendent aux non-humains. **Eduardo Viveiros de Castro** en a tiré le **perspectivisme** amérindien (article de 1996 dans la revue *Mana*, version anglaise en 1998) : tous les êtres se voient eux-mêmes comme des humains, dotés d'une culture ; c'est leur corps qui diffère, et donc le monde qu'ils perçoivent. Le jaguar voit le sang comme de la bière de manioc ; ce que nous prenons pour sa nature est pour lui sa culture.
 
 ## Le « nouvel animisme »
 
@@ -92,7 +92,7 @@ timeline
         1980 : Harner lance le néochamanisme
     section Tournant ontologique
         1990 : Hamayon publie La Chasse à l âme
-        1998 : Viveiros de Castro et le perspectivisme
+        1996 : Viveiros de Castro formule le perspectivisme
         1999 : Bird-David revisite l animisme
         2005 : Descola publie Par-delà nature et culture
         2010 : Kopenawa et Albert publient La Chute du ciel

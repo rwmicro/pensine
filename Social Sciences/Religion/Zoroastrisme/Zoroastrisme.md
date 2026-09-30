@@ -20,7 +20,7 @@ Sa datation est l'un des grands débats de l'histoire des religions :
 
 | Hypothèse | Arguments |
 |---|---|
-| **Haute** (vers 1500-1000 av. J.-C.) | La langue des Gathas (avestique ancien) est très proche du sanskrit du *Rig-Veda* ; la société décrite est pastorale, sans trace d'empire ni de ville. Mary Boyce proposait environ 1200 av. J.-C. |
+| **Haute** (vers 1500-1000 av. J.-C.) | La langue des Gathas (avestique ancien) est très proche du sanskrit du *Rig-Veda* ; la société décrite est pastorale, sans trace d'empire ni de ville. Mary Boyce le situait entre 1500 et 1000 av. J.-C. |
 | **Basse** (VIIe-VIe s. av. J.-C.) | Une tradition zoroastrienne tardive le place « 258 ans avant Alexandre ». Elle est aujourd'hui considérée par la plupart des spécialistes comme une reconstruction savante sans valeur historique |
 
 La majorité des chercheurs penche aujourd'hui pour une date haute, sans consensus sur le siècle, et localise le prophète dans l'est du plateau iranien ou en Asie centrale, bien avant les Perses achéménides. Le texte [[Histoire des Religions]] du vault donne une fourchette cohérente avec cette hypothèse.
@@ -72,7 +72,7 @@ L'**Avesta** a d'abord été transmis oralement pendant des siècles. Il n'a ét
 - **L'initiation** (*navjote* chez les Parsis, *sedreh-pushi* en Iran) : vers sept à quinze ans, l'enfant reçoit la chemise sacrée (*sudreh*) et le cordon (*kusti*), qu'il nouera et dénouera chaque jour en priant.
 - **Les prières** : cinq fois par jour, aux cinq « veilles » (*gah*), face à une source de lumière.
 - **La pureté** : préserver les éléments de la souillure, en particulier le feu, l'eau et la terre, d'où les règles strictes sur les cadavres.
-- **Les funérailles** : traditionnellement, les corps sont exposés aux vautours dans des **tours du silence** (*dakhma*), pour ne souiller ni la terre ni le feu. Cette pratique, abandonnée en Iran au XXe siècle au profit de l'inhumation dans des tombes cimentées, se heurte en Inde à la quasi-disparition des vautours, ce qui a conduit à des alternatives (concentrateurs solaires, crémation).
+- **Les funérailles** : traditionnellement, les corps sont exposés aux vautours dans des **tours du silence** (*dakhma*), pour ne souiller ni la terre ni le feu. Cette pratique, abandonnée en Iran au XXe siècle (à Yazd, les tours ont servi jusqu'en 1974) au profit de l'inhumation dans des tombes cimentées, se heurte en Inde à la quasi-disparition des vautours, ce qui a conduit à des alternatives (concentrateurs solaires, crémation).
 - **Les fêtes** : **Norouz**, le nouvel an de l'équinoxe de printemps, d'origine iranienne ancienne et aujourd'hui fêté par toutes les populations iraniennes quelle que soit leur religion ; les six *gahambar* saisonniers ; Sadeh, fête du feu en hiver ; Mehregan, fête de Mithra à l'automne.
 
 > [!important] Idée clé
@@ -126,9 +126,9 @@ Aux XIXe et XXe siècles, les **Parsis** de Bombay jouent un rôle économique e
 
 | Indicateur | Ordre de grandeur |
 |---|---|
-| Zoroastriens dans le monde | Entre 100 000 et 200 000 selon les estimations communautaires |
+| Zoroastriens dans le monde | Environ 110 000 à 120 000 selon l'enquête communautaire FEZANA de 2012 ; d'autres estimations vont plus haut |
 | Parsis en Inde (recensement 2011) | Environ 57 000, en déclin continu depuis 1941 |
-| Zoroastriens en Iran (recensements récents) | Quelques dizaines de milliers, de l'ordre de 20 000 à 25 000 |
+| Zoroastriens en Iran (recensements récents) | 25 271 en 2011, 23 109 en 2016 |
 | Diaspora occidentale | Quelques dizaines de milliers |
 
 Le Pew Research Center, dans ses projections mondiales, ne distingue pas le zoroastrisme et le compte parmi les « autres religions ». Le déclin démographique est au coeur des préoccupations : faible natalité, mariages tardifs, non-reconnaissance des enfants de mères parsies mariées hors de la communauté. On observe à l'inverse, depuis les années 2010, des conversions dans le Kurdistan irakien et parmi des Iraniens de la diaspora, qui voient dans le zoroastrisme une identité iranienne préislamique.

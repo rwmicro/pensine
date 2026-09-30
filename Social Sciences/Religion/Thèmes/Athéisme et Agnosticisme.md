@@ -28,7 +28,7 @@ Le mot « agnostique » a été forgé en 1869 par le naturaliste Thomas Henry H
 
 ## L'Antiquité : critiques des dieux et indifférence divine
 
-Dans la Grèce ancienne, le mot *atheos* désigne celui qui ne reconnaît pas les dieux de la cité : c'est une accusation politique autant que théologique, portée contre [[Socrate]] et, plus tard, par les païens contre les chrétiens eux-mêmes. Quelques penseurs vont plus loin. Protagoras déclare qu'il ne peut savoir si les dieux existent ou non, à cause de l'obscurité du sujet et de la brièveté de la vie ; un fragment attribué à Critias fait des dieux une invention d'un habile législateur pour faire respecter les lois.
+Dans la Grèce ancienne, le mot *atheos* désigne celui qui ne reconnaît pas les dieux de la cité : c'est une accusation politique autant que théologique, portée contre [[Socrate]] et, plus tard, par les païens contre les chrétiens eux-mêmes. Quelques penseurs vont plus loin. Protagoras déclare qu'il ne peut savoir si les dieux existent ou non, à cause de l'obscurité du sujet et de la brièveté de la vie ; un fragment attribué à Critias (ou, selon d'autres philologues, à Euripide) fait de la crainte des dieux l'invention d'un homme habile pour faire respecter les lois.
 
 La tradition la plus féconde est celle d'**Épicure** (341-270 av. J.-C.). Il n'est pas athée : les dieux existent, mais ils vivent dans une béatitude parfaite, indifférents au monde. L'univers est fait d'atomes et de vide, l'âme meurt avec le corps, et la crainte des dieux et de la mort est la principale source du malheur humain. Au Ier siècle av. J.-C., le poète latin **Lucrèce** en donne la version la plus éclatante dans le *De rerum natura*, avec ce vers souvent cité : *Tantum religio potuit suadere malorum*, « tant la religion a pu inspirer de crimes ». Redécouvert en 1417 par l'humaniste Poggio Bracciolini, le poème nourrit toute la pensée libre de la Renaissance.
 
@@ -73,11 +73,11 @@ Les ordres de grandeur les mieux établis sont les suivants, à prendre comme de
 
 | Zone | Ordre de grandeur | Source et remarque |
 |---|---|---|
-| **Monde** | plus d'un milliard de personnes, entre un sixième et un quart de l'humanité selon les méthodes | Pew Research Center, estimations révisées entre 2012 et 2025 |
-| **Chine** | la majorité des sans-religion du monde y vivent | l'affiliation y est mal adaptée aux pratiques populaires, qui mêlent culte des ancêtres, bouddhisme et [[Taoïsme\|taoïsme]] |
-| **États-Unis** | près de 30 % des adultes en 2023-2024 | Pew ; ils étaient moins de 10 % au début des années 1990 |
+| **Monde** | plus d'un milliard de personnes, entre un sixième et un quart de l'humanité selon les méthodes | Pew Research Center : 1,1 milliard (16 %) dans l'estimation de 2012, 1,9 milliard (24 %) pour 2020 dans celle de 2025 |
+| **Chine** | environ les deux tiers des sans-religion du monde y vivent (Pew, 2020) | l'affiliation y est mal adaptée aux pratiques populaires, qui mêlent culte des ancêtres, bouddhisme et [[Taoïsme\|taoïsme]] |
+| **États-Unis** | près de 30 % des adultes en 2023-2024 | Pew (29 %) ; ils étaient 9 % en 1993 selon le General Social Survey |
 | **France** | environ la moitié des 18-59 ans se déclarent sans religion | enquête Trajectoires et Origines de l'Insee et de l'Ined, 2019-2020 |
-| **Pays très sécularisés** | majorités sans religion | République tchèque, Estonie, Japon, pays scandinaves selon les enquêtes |
+| **Pays très sécularisés** | majorités sans religion | République tchèque, Japon, Pays-Bas, Uruguay, Nouvelle-Zélande, entre autres, selon Pew (2020) |
 
 Plusieurs tendances se dégagent. La part des sans-religion progresse dans la plupart des pays occidentaux, d'une génération à l'autre plus que par conversion individuelle. Mais leur poids mondial est freiné par la démographie : les régions les plus religieuses ont aussi la fécondité la plus élevée. Enfin, dans de nombreux pays, se déclarer athée reste risqué : l'apostasie ou le blasphème y sont encore pénalement sanctionnés, parfois très lourdement, ce qui rend les chiffres invérifiables.
 
