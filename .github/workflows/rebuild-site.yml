@@ -1,0 +1,32 @@
+name: Rebuild the site
+
+# Asks learn-nebula to rebuild its Docker image (and so https://4d52.net) as
+# soon as a note lands on main, instead of waiting for its nightly check.
+#
+# Needs one secret here, SITE_DISPATCH_TOKEN: a fine-grained personal access
+# token scoped to rwmicro/learn-nebula with "Contents: read and write" (what
+# the repository_dispatch API requires). Without it this job only prints a
+# notice, and the site still picks the change up overnight.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notify learn-nebula
+        env:
+          TOKEN: ${{ secrets.SITE_DISPATCH_TOKEN }}
+        run: |
+          if [ -z "$TOKEN" ]; then
+            echo "::notice::SITE_DISPATCH_TOKEN not set; the site will rebuild on its nightly check."
+            exit 0
+          fi
+          curl -fsS -X POST \
+            -H "Authorization: Bearer $TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/rwmicro/learn-nebula/dispatches \
+            -d '{"event_type":"pensine-updated","client_payload":{"sha":"${{ github.sha }}"}}'
