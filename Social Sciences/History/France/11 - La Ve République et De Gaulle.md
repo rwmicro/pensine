@@ -5,7 +5,8 @@ subdomain: "History > France"
 tags: [sciences-sociales, histoire, france]
 date: "2026-09-16"
 stage: budding
-period: "1958-1969"
+year: 1958
+yearEnd: 1969
 ---
 
 # La Ve République et De Gaulle (1958-1969)

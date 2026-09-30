@@ -4,6 +4,8 @@ domain: "Social Sciences"
 subdomain: "History"
 tags: [sciences-sociales, histoire]
 date: "2026-02-28"
+year: 1760
+yearEnd: 1840
 ---
 
 # La Révolution Industrielle

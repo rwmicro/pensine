@@ -4,6 +4,8 @@ domain: "Social Sciences"
 subdomain: "History > XXe siècle"
 tags: [sciences-sociales, histoire, xxe-siècle, europe, union-européenne, institutions]
 date: "2026-09-28"
+year: 1950
+period: "Depuis 1950"
 ---
 
 # La construction européenne

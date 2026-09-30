@@ -4,6 +4,9 @@ domain: "Social Sciences"
 subdomain: "History > Époque moderne"
 tags: [sciences-sociales, histoire, époque-moderne, renaissance, humanisme]
 date: "2026-09-28"
+year: 1400
+yearEnd: 1600
+period: "XVe-XVIe siècle"
 ---
 
 # La Renaissance

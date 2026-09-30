@@ -4,6 +4,8 @@ domain: "Social Sciences"
 subdomain: "History > Époque moderne"
 tags: [sciences-sociales, histoire, époque-moderne, religion, christianisme, protestantisme]
 date: "2026-09-28"
+year: 1517
+yearEnd: 1648
 ---
 
 # La Réforme protestante

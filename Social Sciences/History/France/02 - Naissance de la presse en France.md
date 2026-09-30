@@ -4,7 +4,8 @@ domain: "Social Sciences"
 subdomain: "History > France"
 tags: [sciences-sociales, histoire, france, presse, XVIIe-siècle, médias]
 date: "2026-04-16"
-period: "1611-1881"
+year: 1611
+yearEnd: 1881
 ---
 
 # Naissance de la presse en France (XVIIe siècle)

@@ -4,6 +4,8 @@ domain: "Social Sciences"
 subdomain: "History > Moyen Âge"
 tags: [sciences-sociales, histoire, moyen-âge, byzance, constantinople, orthodoxie]
 date: "2026-09-28"
+year: 330
+yearEnd: 1453
 ---
 
 # Empire byzantin

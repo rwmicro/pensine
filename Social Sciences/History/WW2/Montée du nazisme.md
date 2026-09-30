@@ -4,6 +4,8 @@ domain: "Social Sciences"
 subdomain: "History > WW2"
 tags: [sciences-sociales, histoire, seconde-guerre-mondiale]
 date: "2025-12-31"
+year: 1918
+yearEnd: 1933
 ---
 
 # La Montée du Nazisme (1918-1933)

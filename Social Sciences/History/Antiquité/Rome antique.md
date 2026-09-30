@@ -4,6 +4,8 @@ domain: "Social Sciences"
 subdomain: "History > Antiquité"
 tags: [sciences-sociales, histoire, antiquité, rome, empire, république]
 date: "2026-09-28"
+year: -753
+yearEnd: 476
 ---
 
 # Rome antique

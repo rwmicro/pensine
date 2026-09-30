@@ -5,7 +5,8 @@ subdomain: "History > France"
 tags: [sciences-sociales, histoire, france]
 date: "2026-09-16"
 stage: budding
-period: "1610-1789"
+year: 1610
+yearEnd: 1789
 ---
 
 # L'Ancien Régime et Louis XIV (XVIIe-XVIIIe siècle)

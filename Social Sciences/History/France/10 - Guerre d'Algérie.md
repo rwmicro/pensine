@@ -6,7 +6,8 @@ tags: [sciences-sociales, histoire, france]
 date: "2025-12-31"
 updated: "2026-09-16"
 stage: budding
-period: "1954-1962"
+year: 1954
+yearEnd: 1962
 ---
 
 # Guerre d'Algérie (1954-1962)

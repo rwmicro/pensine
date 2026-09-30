@@ -4,6 +4,8 @@ domain: "Social Sciences"
 subdomain: "History > XXe siècle"
 tags: [sciences-sociales, histoire, xxe-siècle, guerre-froide, relations-internationales]
 date: "2026-09-28"
+year: 1947
+yearEnd: 1991
 ---
 
 # La guerre froide (1947-1991)
