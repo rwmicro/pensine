@@ -27,7 +27,7 @@ Le soufisme (*tasawwuf*) est la dimension intérieure de l'islam. L'étymologie 
 
 - **Rabi'a al-Adawiyya** (VIIIe siècle, Bassora) fait de l'**amour désintéressé** de Dieu le cœur de la voie : aimer Dieu ni par crainte de l'enfer ni par désir du paradis, mais pour lui-même.
 - **Al-Hallaj**, exécuté à Bagdad en 922, est resté célèbre pour la phrase *Ana al-Haqq*, « Je suis la Vérité » (l'un des noms de Dieu), comprise par ses juges comme un blasphème et par ses disciples comme l'expression de l'union.
-- **Junayd de Bagdad** (mort en 910) défend au contraire une mystique « sobre », qui revient de l'union pour vivre au milieu des hommes, face à la mystique « ivre » associée à Bistami.
+- **Junayd de Bagdad** (mort vers 910) défend au contraire une mystique « sobre », qui revient de l'union pour vivre au milieu des hommes, face à la mystique « ivre » associée à Bistami.
 - **Al-Ghazali** (1058-1111), grand juriste et théologien, raconte sa crise intellectuelle et sa conversion à la voie soufie ; sa *Revivification des sciences de la religion* réconcilie durablement le soufisme avec l'orthodoxie sunnite.
 - **Ibn Arabi** (1165-1240), né à Murcie, pense un monde où toute chose manifeste l'Être divin ; ses disciples systématiseront cette pensée sous le nom d'unicité de l'être (*wahdat al-wujud*).
 - **Djalal ad-Din Rumi** (1207-1273), poète de langue persane installé à Konya, auteur du *Masnavi*, inspire l'ordre des Mevlevis, les « derviches tourneurs ».

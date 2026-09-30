@@ -14,9 +14,9 @@ Le jaïnisme est une religion indienne de renoncement, organisée autour d'un id
 
 ### Mahavira, dernier des passeurs
 
-Pour les jaïns, leur religion n'a pas de fondateur : elle est éternelle et redécouverte à chaque cycle cosmique par une série de vingt-quatre **Tirthankara**, les « faiseurs de gué » qui montrent le passage à travers l'océan des renaissances. Pour notre époque, le premier est **Rishabha**, figure mythique à qui la tradition prête une vie de millions d'années ; le vingt-troisième, **Parshva**, a peut-être existé, quelques siècles avant le dernier.
+Pour les jaïns, leur religion n'a pas de fondateur : elle est éternelle et redécouverte à chaque cycle cosmique par une série de vingt-quatre **Tirthankara**, les « faiseurs de gué » qui montrent le passage à travers l'océan des renaissances. Pour notre époque, le premier est **Rishabha**, figure mythique à qui la tradition prête une vie de millions d'années ; le vingt-troisième, **Parshva**, a peut-être existé : la tradition le place 273 ans avant le dernier, les historiens entre le VIIIe et le VIe siècle av. J.-C., certains à quelques décennies seulement de Mahavira.
 
-Le vingt-quatrième, **Vardhamana**, appelé **Mahavira** (« Grand Héros »), est une figure historique. Contemporain du Bouddha, il naît dans une famille princière de la plaine du Gange, renonce au monde vers trente ans, mène douze ans d'ascèse sévère, atteint l'omniscience (*kevala jnana*), enseigne pendant une trentaine d'années et meurt à Pava. La tradition Shvetambara date sa mort de 527 av. J.-C. ; la plupart des historiens la placent plus tard, au Ve siècle av. J.-C., en cohérence avec la révision de la chronologie du Bouddha.
+Le vingt-quatrième, **Vardhamana**, appelé **Mahavira** (« Grand Héros »), est une figure historique. Contemporain du Bouddha, il naît dans une famille princière de la plaine du Gange, renonce au monde vers trente ans, mène douze ans et demi d'ascèse sévère, atteint l'omniscience (*kevala jnana*), enseigne pendant une trentaine d'années et meurt à Pava. La tradition Shvetambara date sa mort de 527 av. J.-C. (la tradition Digambara de 510) ; la plupart des historiens la placent plus tard, au Ve siècle av. J.-C., en cohérence avec la révision de la chronologie du Bouddha.
 
 > [!warning] Piège
 > Présenter Mahavira comme le « fondateur » du jaïnisme, à la manière dont le Bouddha fonde le [[Bouddhisme]], contredit la conception jaïne elle-même et probablement l'histoire. Mahavira réforme une communauté d'ascètes préexistante, rattachée à Parshva, dont les textes anciens mentionnent les disciples. Les deux religions naissent du même milieu, celui des *shramana*, ascètes errants qui contestaient l'autorité des Veda et le sacrifice brahmanique ; elles se sont d'ailleurs longtemps décrites l'une l'autre comme rivales.
@@ -78,7 +78,7 @@ Le jaïnisme a développé une théorie de la connaissance d'une grande original
 - **Diwali** : pour les jaïns, commémoration de la libération de Mahavira.
 - **Sallekhana** : jeûne volontaire jusqu'à la mort, admis pour les personnes en fin de vie. En 2015, la haute cour du Rajasthan l'assimile au suicide, mais la Cour suprême de l'Inde suspend cette décision la même année ; la question reste juridiquement ouverte.
 
-Les lieux saints comptent parmi les chefs-d'oeuvre de l'architecture indienne : temples de marbre du mont Abu (XIe-XIIIe siècles) et de Ranakpur (XVe siècle), colline sacrée de Shatrunjaya (Palitana), et la statue monolithe de Bahubali à Shravanabelagola (Xe siècle), haute d'environ dix-sept mètres, ondoyée tous les douze ans environ au cours d'une grande cérémonie.
+Les lieux saints comptent parmi les chefs-d'oeuvre de l'architecture indienne : temples de marbre du mont Abu (XIe-XIIIe siècles pour les plus célèbres) et de Ranakpur (XVe siècle), colline sacrée de Shatrunjaya (Palitana), et la statue monolithe de Bahubali à Shravanabelagola (Xe siècle), haute d'environ dix-sept mètres, ondoyée tous les douze ans environ au cours d'une grande cérémonie.
 
 ## Organisation et courants
 
@@ -89,7 +89,7 @@ La communauté est traditionnellement décrite comme **quadruple** : moines, non
 | **Digambara** (« vêtus d'espace ») | Les moines de plus haut rang vont nus, signe de non-possession absolue. Ils ne possèdent qu'une balayette en plumes de paon et une gourde. Une femme doit renaître homme pour atteindre la libération. Surtout présents au Karnataka et au Maharashtra |
 | **Shvetambara** (« vêtus de blanc ») | Religieux vêtus de blanc. Les femmes peuvent atteindre la libération ; une tradition fait même du 19e Tirthankara, Malli, une femme. Majoritaires, surtout au Gujarat et au Rajasthan |
 
-La séparation, que la tradition place au Ier siècle apr. J.-C., s'est en réalité faite progressivement. Au sein des Shvetambara, les **Sthanakvasi** (XVIIe siècle) et les **Terapanthi** (fondés en 1760) rejettent le culte des statues.
+La séparation, que la tradition shvetambara place au Ier siècle apr. J.-C. (82 ou 83) et que la tradition digambara fait remonter à l'époque de Bhadrabahu, s'est en réalité faite progressivement ; certains chercheurs situent la rupture définitive vers l'époque du concile de Valabhi, au Ve siècle. Au sein des Shvetambara, les **Sthanakvasi** (XVIIe siècle) et les **Terapanthi** (fondés en 1760) rejettent le culte des statues.
 
 ## Chronologie
 
@@ -102,7 +102,7 @@ timeline
         IVe-IIIe s. av. J.-C. : Chandragupta Maurya devenu moine selon la tradition digambara
         IIe-Ier s. av. J.-C. : Kharavela, roi du Kalinga, protecteur des jaïns
     section Âge classique
-        Ier s. : Séparation progressive Digambara et Shvetambara
+        Ier-Ve s. : Séparation progressive Digambara et Shvetambara
         Ve s. : Concile de Valabhi et fixation du canon
         Xe s. : Statue de Bahubali à Shravanabelagola
         XIIe s. : Hemachandra à la cour du Gujarat
