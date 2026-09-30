@@ -18,7 +18,7 @@ Il entre au Trinity College de Cambridge en 1890, où il étudie les mathématiq
 
 En 1901, il découvre le paradoxe qui ruine le système de Frege ; il le lui écrit en 1902. Il consacre ensuite près de dix ans, avec Alfred North Whitehead, aux *Principia Mathematica* (trois volumes, 1910-1913). En 1911, un jeune ingénieur autrichien vient suivre ses cours : [[Wittgenstein]], qu'il juge rapidement génial et dont les objections l'ébranlent profondément.
 
-La Première Guerre mondiale fait de lui un homme public. Pacifiste, il milite contre la conscription, ce qui lui vaut d'être privé de son poste à Trinity en 1916 puis emprisonné six mois en 1918 ; il écrit en prison son *Introduction à la philosophie mathématique*. En 1920, il visite la Russie soviétique, rencontre Lénine et en revient hostile au bolchevisme (voir [[Le Communisme au XXe siècle]]), puis enseigne un an en Chine. Il fonde avec sa deuxième épouse, Dora, une école expérimentale et publie des essais sur le mariage, l'éducation et la religion qui font scandale. En 1940, sa nomination au City College de New York est annulée par un tribunal au motif de son immoralité supposée.
+La Première Guerre mondiale fait de lui un homme public. Pacifiste, il milite contre la conscription, ce qui lui vaut d'être privé de son poste à Trinity en 1916 puis condamné en 1918 à six mois de prison, dont il purge environ cinq ; il écrit en prison son *Introduction à la philosophie mathématique*. En 1920, il visite la Russie soviétique, rencontre Lénine et en revient hostile au bolchevisme (voir [[Le Communisme au XXe siècle]]), puis enseigne un an en Chine. Il fonde avec sa deuxième épouse, Dora, une école expérimentale et publie des essais sur le mariage, l'éducation et la religion qui font scandale. En 1940, sa nomination au City College de New York est annulée par un tribunal au motif de son immoralité supposée.
 
 Après 1945, la célébrité vient : *Histoire de la philosophie occidentale* (1945) est un succès mondial, et il reçoit le prix Nobel de littérature en 1950. Il consacre ses dernières décennies à la lutte contre l'arme nucléaire : manifeste Russell-Einstein en 1955, présidence de la Campaign for Nuclear Disarmament en 1958, brève incarcération en 1961 pour désobéissance civile, puis tribunal Russell contre les crimes de guerre au Vietnam en 1966-1967. Il meurt le 2 février 1970 au pays de Galles, à 97 ans.
 
@@ -110,7 +110,7 @@ timeline
         1910-1913 : Principia Mathematica avec Whitehead
     section Guerre et engagements
         1916 : Renvoi de Trinity pour pacifisme
-        1918 : Six mois de prison
+        1918 : Condamnation à six mois de prison
         1920 : Voyage en Russie soviétique puis en Chine
     section Célébrité
         1945 : Histoire de la philosophie occidentale
@@ -126,4 +126,4 @@ timeline
 - Bertrand Russell, *Histoire de mes idées philosophiques* (*My Philosophical Development*, 1959), trad. française Gallimard.
 - Ray Monk, *Bertrand Russell. The Spirit of Solitude* (1996) et *The Ghost of Madness* (2000).
 - A. C. Grayling, *Russell. A Very Short Introduction*, Oxford University Press, 2002.
-- Apostolos Doxiadis et Christos Papadimitriou, *Logicomix*, bande dessinée, 2009.
+- Apostolos Doxiadis et Christos Papadimitriou, *Logicomix*, roman graphique dessiné par Alecos Papadatos et Annie Di Donna, 2008 (éd. grecque), 2009 (éd. anglaise).

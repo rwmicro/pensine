@@ -52,7 +52,7 @@ L'étape suivante, plus ambitieuse, échoue. La Communauté européenne de défe
 
 La CEE réalise une union douanière achevée en 1968, dix-huit mois avant le calendrier prévu, et met en place en 1962 la politique agricole commune (PAC), longtemps le premier poste du budget communautaire. La Cour de justice joue un rôle décisif en affirmant l'effet direct du droit communautaire (arrêt *Van Gend en Loos*, 1963) et sa primauté sur le droit national (arrêt *Costa contre ENEL*, 1964), faisant d'un traité international un ordre juridique propre (voir [[Droit International Public]] et [[Sources du Droit]]).
 
-Le général de Gaulle, revenu au pouvoir en 1958 (voir [[11 - La Ve République et De Gaulle]]), défend une « Europe des États ». Il signe avec Konrad Adenauer le traité de l'Élysée (1963), mais oppose deux fois son veto à l'adhésion du Royaume-Uni, en 1963 et 1967, et provoque en 1965 la crise de la « chaise vide » pour refuser l'extension du vote à la majorité ; le compromis de Luxembourg (1966) préserve de fait un droit de veto national sur les intérêts jugés vitaux.
+Le général de Gaulle, revenu au pouvoir en 1958 (voir [[11 - La Ve République et De Gaulle]]), défend une « Europe des États ». Il signe avec Konrad Adenauer le traité de l'Élysée (1963), mais oppose deux fois son veto à l'adhésion du Royaume-Uni, en 1963 et 1967, et provoque en 1965 la crise de la « chaise vide », sur le financement de la PAC et le passage prévu au vote à la majorité ; le compromis de Luxembourg (1966) préserve de fait un droit de veto national sur les intérêts jugés vitaux.
 
 Après son départ, la Communauté s'élargit en 1973 au Royaume-Uni, à l'Irlande et au Danemark, puis à la Grèce en 1981, à l'Espagne et au Portugal en 1986, trois démocraties sorties de dictatures. Le Parlement européen est élu au suffrage universel direct à partir de 1979.
 
@@ -71,7 +71,7 @@ La fin de la [[Guerre froide]] et la réunification allemande accélèrent tout.
 | Cour de justice de l'Union | Interprétation et respect du droit de l'Union | Juridictionnelle |
 | Banque centrale européenne | Politique monétaire de la zone euro | Indépendante |
 
-Le grand élargissement de 2004 accueille dix nouveaux membres, dont huit anciens pays du bloc de l'Est, suivis de la Bulgarie et de la Roumanie en 2007 et de la Croatie en 2013. C'est la réunification politique du continent, mais aussi un défi de fonctionnement pour des institutions conçues pour six. Le traité établissant une Constitution pour l'Europe, destiné à y répondre, est rejeté par référendum en France et aux Pays-Bas en 2005 ; l'essentiel de ses dispositions institutionnelles est repris dans le traité de Lisbonne, entré en vigueur en 2009, ce que beaucoup de ses opposants ont vécu comme un contournement du vote populaire.
+Le grand élargissement de 2004 accueille dix nouveaux membres, dont huit anciens pays communistes d'Europe centrale et orientale, suivis de la Bulgarie et de la Roumanie en 2007 et de la Croatie en 2013. C'est la réunification politique du continent, mais aussi un défi de fonctionnement pour des institutions conçues pour six. Le traité établissant une Constitution pour l'Europe, destiné à y répondre, est rejeté par référendum en France et aux Pays-Bas en 2005 ; l'essentiel de ses dispositions institutionnelles est repris dans le traité de Lisbonne, entré en vigueur en 2009, ce que beaucoup de ses opposants ont vécu comme un contournement du vote populaire.
 
 ## L'âge des crises (depuis 2008)
 

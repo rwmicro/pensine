@@ -14,7 +14,7 @@ date: "2026-09-28"
 
 Il naît dans l'État de Lu (l'actuel Shandong), dans une famille de petite noblesse déclassée. La Chine de l'époque, dite des **Printemps et Automnes**, est un ensemble de principautés rivales qui ne reconnaissent plus que nominalement l'autorité de la dynastie Zhou. Confucius y voit une crise morale : les rites se dégradent, les usurpateurs se multiplient, les titres ne correspondent plus aux fonctions.
 
-Il exerce quelques charges administratives à Lu, puis, déçu, voyage pendant une douzaine d'années de cour en cour pour proposer ses conseils à des princes qui ne les suivent guère. Il finit sa vie comme enseignant. La tradition lui prête environ trois mille élèves, dont soixante-douze disciples proches ; le chiffre est symbolique, mais la nouveauté est réelle : Confucius ouvre l'enseignement à des jeunes gens sans naissance, sur le seul critère de leur désir d'apprendre.
+Il exerce quelques charges administratives à Lu, puis, déçu, voyage pendant une douzaine d'années (treize selon la tradition) de cour en cour pour proposer ses conseils à des princes qui ne les suivent guère. Il finit sa vie comme enseignant. La tradition lui prête environ trois mille élèves, dont soixante-douze disciples proches ; le chiffre est symbolique, mais la nouveauté est réelle : Confucius ouvre l'enseignement à des jeunes gens sans naissance, sur le seul critère de leur désir d'apprendre.
 
 Il est contemporain, à quelques décennies près, du [[Bouddha]] en Inde et un peu antérieur à [[Socrate]] en Grèce. Comme Socrate, il n'a rien écrit lui-même.
 
@@ -37,7 +37,7 @@ La tradition lui a aussi attribué la compilation ou l'édition des Cinq Classiq
 
 ### Le *ren* et la règle d'or
 
-À la question de savoir s'il existe un mot qui puisse guider toute une vie, Confucius répond par la réciprocité (*shu*) : « Ce que tu ne veux pas pour toi, ne l'impose pas aux autres » (*Entretiens*, XV, 24). La formulation est négative, comme chez Hillel dans la tradition juive, et vise moins une règle abstraite qu'une disposition à se mettre à la place d'autrui.
+À la question de savoir s'il existe un mot qui puisse guider toute une vie, Confucius répond par la réciprocité (*shu*) : « Ce que tu ne veux pas pour toi, ne l'impose pas aux autres » (*Entretiens*, XV, 24, traduction libre ; XV, 23 dans certaines numérotations). La formulation est négative, comme chez Hillel dans la tradition juive, et vise moins une règle abstraite qu'une disposition à se mettre à la place d'autrui.
 
 ### Les rites comme école de la vertu
 
@@ -52,7 +52,7 @@ La pensée politique de Confucius est inséparable de sa morale. Un souverain go
 
 ### Apprendre
 
-Les *Entretiens* s'ouvrent sur l'étude, et Confucius se présente comme un transmetteur plutôt qu'un créateur. Une de ses formules sur le savoir est restée célèbre : « Savoir qu'on sait ce qu'on sait, et savoir qu'on ne sait pas ce qu'on ne sait pas, c'est vraiment savoir » (*Entretiens*, II, 17). Le rapprochement avec le « je sais que je ne sais rien » prêté à [[Socrate]] est tentant, mais trompeur : Confucius ne prône pas le doute radical, il demande de distinguer honnêtement le connu de l'inconnu.
+Les *Entretiens* s'ouvrent sur l'étude, et Confucius se présente comme un transmetteur plutôt qu'un créateur. Une de ses formules sur le savoir est restée célèbre : « Savoir qu'on sait ce qu'on sait, et savoir qu'on ne sait pas ce qu'on ne sait pas, c'est vraiment savoir » (*Entretiens*, II, 17, traduction libre). Le rapprochement avec le « je sais que je ne sais rien » prêté à [[Socrate]] est tentant, mais trompeur : Confucius ne prône pas le doute radical, il demande de distinguer honnêtement le connu de l'inconnu.
 
 ## Mencius et Xunzi : la querelle de la nature humaine
 
@@ -102,7 +102,7 @@ timeline
         1687 : Traduction latine des jésuites à Paris
         1905 : Abolition des examens impériaux
         1919 : Mouvement du 4 mai contre la tradition
-        1973-1974 : Campagne contre Lin Biao et Confucius
+        1973-1976 : Campagne contre Lin Biao et Confucius
 ```
 
 ## Réception et débats
@@ -116,7 +116,7 @@ Sur le fond, la comparaison la plus féconde reste celle avec l'éthique des ver
 
 ## Ressources
 
-- Confucius, *Entretiens*, traduction d'Anne Cheng, Seuil, coll. « Points Sagesses », 1981.
+- Confucius, *Entretiens*, traduction d'Anne Cheng, Seuil, 1981 (rééd. coll. « Points Sagesses »).
 - Anne Cheng, *Histoire de la pensée chinoise*, Seuil, 1997.
 - Bryan W. Van Norden, *Introduction to Classical Chinese Philosophy*, Hackett, 2011.
 - Herbert Fingarette, *Confucius: The Secular as Sacred*, Harper & Row, 1972.

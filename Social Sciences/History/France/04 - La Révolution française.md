@@ -30,7 +30,7 @@ timeline
         Juin 1791 : Fuite du roi et arrestation à Varennes
         Avril 1792 : Guerre contre l'Autriche
         10 août 1792 : Prise des Tuileries
-        22 septembre 1792 : Proclamation de la République
+        21-22 septembre 1792 : Abolition de la royauté, an I de la République
     section Terreur et réaction
         21 janvier 1793 : Exécution de Louis XVI
         27 juillet 1794 : Chute de Robespierre, 9 thermidor

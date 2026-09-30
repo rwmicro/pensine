@@ -44,7 +44,7 @@ La plupart de ces auteurs auraient écrit un traité en prose, souvent désigné
 | **Anaximène** | v. 585 - v. 525 | Milet | Traité en prose | Quelques lignes |
 | **Pythagore** | v. 570 - v. 495 | Samos puis Crotone | Enseignement oral | Rien de sa main |
 | **Héraclite** | v. 540 - v. 480 | Éphèse | Livre en aphorismes | Une centaine de fragments |
-| **Parménide** | v. 515 - après 450 | Élée | Poème en hexamètres | Environ 150 vers |
+| **Parménide** | v. 515 - après 450 | Élée | Poème en hexamètres | Environ 160 vers |
 | **Zénon** | v. 490 - v. 430 | Élée | Livre d'arguments | Paradoxes rapportés par Aristote |
 | **Empédocle** | v. 490 - v. 430 | Agrigente | Deux poèmes, *De la nature* et *Purifications* | Plusieurs centaines de vers, dont le papyrus de Strasbourg publié en 1999 |
 | **Anaxagore** | v. 500 - v. 428 | Clazomènes puis Athènes | Traité en prose | Une vingtaine de fragments |
@@ -106,7 +106,7 @@ La réponse mathématique (une somme infinie de termes décroissants peut être 
 Après Parménide, il faut expliquer le changement sans admettre que quelque chose naisse du néant.
 
 - **Empédocle** pose **quatre racines** éternelles (terre, eau, air, feu), que deux forces, **l'Amour** et **la Haine**, unissent et séparent selon un cycle cosmique. C'est l'origine lointaine de la théorie des quatre éléments, qui dominera la science jusqu'à l'époque moderne. La légende le fait mourir en se jetant dans l'Etna.
-- **Anaxagore** affirme qu'il y a « une part de tout en tout » et introduit un **Intellect** (*Nous*) qui met en mouvement et ordonne le mélange initial. Installé à Athènes, proche de Périclès, il y est poursuivi pour impiété, notamment pour avoir soutenu que le soleil est une pierre incandescente, et finit sa vie à Lampsaque.
+- **Anaxagore** affirme qu'il y a « une part de tout en tout » et introduit un **Intellect** (*Nous*) qui met en mouvement et ordonne le mélange initial. Installé à Athènes, proche de Périclès, il y est poursuivi pour impiété (à une date débattue, entre 450 et 430 environ), notamment pour avoir soutenu que le soleil est une pierre incandescente, et finit sa vie à Lampsaque.
 - **Leucippe** et **Démocrite** proposent la solution la plus radicale : il n'existe que des **atomes**, corps insécables, pleins et éternels, et le **vide** dans lequel ils se meuvent. Les qualités sensibles (couleur, goût) sont de simple convention ; seuls les atomes et le vide existent réellement. Cette physique sera reprise par [[Épicure]].
 
 > [!note] Débat
@@ -169,7 +169,7 @@ timeline
         v. -450 : Parménide et Zénon à Athènes selon Platon
     section Pluralistes
         v. -450 : Empédocle et les quatre racines
-        v. -435 : Procès d'Anaxagore à Athènes
+        v. -450 à -430 : Procès d'Anaxagore à Athènes, date débattue
         v. -430 : Protagoras enseigne à Athènes
     section Transition
         -399 : Mort de Socrate
