@@ -174,18 +174,18 @@ Le discriminant est $\Delta = b^2 - 4ac$.
 
 ```mermaid
 flowchart TD
-    A["Équation caractéristique<br/>ar² + br + c = 0"] --> B{"Calculer Δ = b² − 4ac"}
+    A["Équation caractéristique\nar² + br + c = 0"] --> B{"Calculer Δ = b² − 4ac"}
     B --> C{"Δ > 0"}
     B --> D{"Δ = 0"}
     B --> E{"Δ < 0"}
 
-    C --> C1["Deux racines réelles distinctes<br/>r₁ = (−b − √Δ) / 2a<br/>r₂ = (−b + √Δ) / 2a"]
+    C --> C1["Deux racines réelles distinctes\nr₁ = (−b − √Δ) / 2a\nr₂ = (−b + √Δ) / 2a"]
     C1 --> C2["y_H = C₁ e^(r₁x) + C₂ e^(r₂x)"]
 
-    D --> D1["Racine double<br/>r₀ = −b / 2a"]
+    D --> D1["Racine double\nr₀ = −b / 2a"]
     D1 --> D2["y_H = (C₁ + C₂ x) e^(r₀x)"]
 
-    E --> E1["Racines complexes conjuguées<br/>r = α ± iω<br/>α = −b/2a, ω = √|Δ|/2a"]
+    E --> E1["Racines complexes conjuguées\nr = α ± iω\nα = −b/2a, ω = √|Δ|/2a"]
     E1 --> E2["y_H = e^(αx)(C₁ cos ωx + C₂ sin ωx)"]
 
     style A fill:#4a90d9,color:#fff
@@ -282,25 +282,25 @@ On passe par les **complexes** : on cherche une solution particulière de l'équ
 ```mermaid
 flowchart TD
     A["EDO donnée"] --> B{"Identifier le type"}
-    B --> C["Ordre 1 linéaire<br/>y' + a(x)y = b(x)"]
-    B --> D["Ordre 1 à variables<br/>séparables y' = f(x)g(y)"]
-    B --> E["Ordre 2 à coefficients<br/>constants ay'' + by' + cy = f(x)"]
+    B --> C["Ordre 1 linéaire\ny' + a(x)y = b(x)"]
+    B --> D["Ordre 1 à variables\nséparables y' = f(x)g(y)"]
+    B --> E["Ordre 2 à coefficients\nconstants ay'' + by' + cy = f(x)"]
 
-    C --> C1["1. Résoudre l'homogène<br/>y_H = Ce^(−A(x))"]
-    C1 --> C2["2. Variation de la constante<br/>→ solution particulière y_P"]
+    C --> C1["1. Résoudre l'homogène\ny_H = Ce^(−A(x))"]
+    C1 --> C2["2. Variation de la constante\n→ solution particulière y_P"]
     C2 --> C3["3. y = y_H + y_P"]
-    C3 --> C4["4. Appliquer les CI<br/>→ déterminer C"]
+    C3 --> C4["4. Appliquer les CI\n→ déterminer C"]
 
-    D --> D1["1. Solutions constantes<br/>g(y₀) = 0"]
+    D --> D1["1. Solutions constantes\ng(y₀) = 0"]
     D1 --> D2["2. Séparer dy/g(y) = f(x)dx"]
     D2 --> D3["3. Primitiver les deux membres"]
     D3 --> D4["4. Appliquer les CI"]
 
-    E --> E1["1. Équation caractéristique<br/>ar² + br + c = 0"]
+    E --> E1["1. Équation caractéristique\nar² + br + c = 0"]
     E1 --> E2["2. y_H selon le discriminant"]
-    E2 --> E3["3. Solution particulière<br/>par coefficients indéterminés"]
+    E2 --> E3["3. Solution particulière\npar coefficients indéterminés"]
     E3 --> E4["4. y = y_H + y_P"]
-    E4 --> E5["5. Appliquer les CI<br/>→ déterminer C₁, C₂"]
+    E4 --> E5["5. Appliquer les CI\n→ déterminer C₁, C₂"]
 
     style A fill:#4a90d9,color:#fff
     style C4 fill:#27ae60,color:#fff

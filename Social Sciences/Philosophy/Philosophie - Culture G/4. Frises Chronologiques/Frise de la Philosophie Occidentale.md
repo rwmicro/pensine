@@ -38,7 +38,7 @@ timeline
 ## Carte des influences majeures
 
 ```mermaid
-graph TD
+flowchart TD
     Socrate --> Platon
     Platon --> Aristote
     Aristote --> Thomas["Thomas d'Aquin"]

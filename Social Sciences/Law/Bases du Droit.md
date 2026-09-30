@@ -16,8 +16,8 @@ La même chose vue sous deux angles différents — distinction fondamentale qui
 ```mermaid
 flowchart TB
     Droit["LE DROIT"]
-    Obj["Droit objectif<br/>les RÈGLES"]
-    Sub["Droits subjectifs<br/>les PRÉROGATIVES"]
+    Obj["Droit objectif\nles RÈGLES"]
+    Sub["Droits subjectifs\nles PRÉROGATIVES"]
     Droit --> Obj
     Droit --> Sub
     Obj -.donne naissance aux.-> Sub

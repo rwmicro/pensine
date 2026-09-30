@@ -13,7 +13,7 @@ Zero Trust est un modèle de sécurité fondé sur le principe "ne jamais faire 
 ## Paradigme traditionnel vs Zero Trust
 
 ```mermaid
-graph LR
+flowchart LR
     subgraph "Modèle traditionnel (Castle and Moat)"
         ext1["Internet\n(non fiable)"] -->|Pare-feu| dmz[DMZ]
         dmz --> internal["Réseau interne\n(tout est fiable)"]
@@ -22,7 +22,7 @@ graph LR
 ```
 
 ```mermaid
-graph LR
+flowchart LR
     subgraph "Zero Trust"
         user[Utilisateur] --> identity[Vérification\nidentité + contexte]
         device[Appareil] --> posture[Vérification\nposture sécurité]
@@ -68,7 +68,7 @@ Authentifier et autoriser systématiquement, en prenant en compte tous les signa
 La micro-segmentation découpe le réseau en zones isolées, limitant les mouvements latéraux même si un segment est compromis.
 
 ```mermaid
-graph TD
+flowchart TD
     subgraph "Réseau plat (vulnérable)"
         server1[Serveur Web] <-->|Accès libre| db1[Base de données]
         server1 <-->|Accès libre| dc1[Domain Controller]
@@ -77,7 +77,7 @@ graph TD
 ```
 
 ```mermaid
-graph TD
+flowchart TD
     subgraph "Micro-segmenté (Zero Trust)"
         server2[Serveur Web] -->|Règle: TCP 5432 seulement| db2[Base de données]
         server2 -.->|BLOQUÉ| dc2[Domain Controller]
@@ -118,7 +118,7 @@ spec:
 L'IAP se place devant les applications et vérifie l'identité et le contexte avant de proxifier la requête. L'application n'est plus accessible directement.
 
 ```mermaid
-graph LR
+flowchart LR
     user[Utilisateur] -->|HTTPS| iap[Identity-Aware Proxy]
     iap -->|Vérif. identité| idp[IdP / SSO]
     iap -->|Vérif. appareil| mdm[MDM / Endpoint Check]
@@ -167,7 +167,7 @@ Vendeurs : Zscaler, Palo Alto Prisma, Cisco Umbrella, Netskope.
 Zero Trust est dynamique : le niveau d'accès est réévalué en continu selon le risque courant.
 
 ```mermaid
-graph LR
+flowchart LR
     access[Accès accordé] --> monitor[Monitoring continu\ncomportement anormal ?]
     monitor -->|Normal| maintain[Accès maintenu]
     monitor -->|Anomalie| reauthenticate[Re-authentification\nstep-up MFA]

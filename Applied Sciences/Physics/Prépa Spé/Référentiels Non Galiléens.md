@@ -52,11 +52,11 @@ Les [[Lois de Newton]] ne valent que dans un référentiel galiléen. Dans un r�
 
 ```mermaid
 flowchart TD
-    A["Objet en mouvement<br/>sur la Terre tournante"] --> B{"Hémisphère"}
+    A["Objet en mouvement\nsur la Terre tournante"] --> B{"Hémisphère"}
     B -->|Nord| C["Déviation vers la DROITE"]
     B -->|Sud| D["Déviation vers la GAUCHE"]
-    C --> E["Cyclones tournent<br/>dans le sens antihoraire"]
-    D --> F["Cyclones tournent<br/>dans le sens horaire"]
+    C --> E["Cyclones tournent\ndans le sens antihoraire"]
+    D --> F["Cyclones tournent\ndans le sens horaire"]
 ```
 
 > [!example] Effets géophysiques de Coriolis

@@ -28,12 +28,12 @@ Les ondes électromagnétiques (lumière, radio, rayons X…) sont la propagatio
 
 ```mermaid
 flowchart LR
-    A["Radio<br/>λ > 1 m"] --> B["Micro-ondes<br/>mm-cm"]
-    B --> C["Infrarouge<br/>µm"]
-    C --> D["Visible<br/>400-800 nm"]
+    A["Radio\nλ > 1 m"] --> B["Micro-ondes\nmm-cm"]
+    B --> C["Infrarouge\nµm"]
+    C --> D["Visible\n400-800 nm"]
     D --> E["Ultraviolet"]
     E --> F["Rayons X"]
-    F --> G["Rayons γ<br/>λ < 1 pm"]
+    F --> G["Rayons γ\nλ < 1 pm"]
 ```
 
 | Domaine | Longueur d'onde | Usage |

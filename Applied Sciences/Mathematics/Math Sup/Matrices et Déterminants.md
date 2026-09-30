@@ -172,19 +172,19 @@ s'écrit $AX = B$ avec $A \in \mathcal{M}_{n,p}(K)$, $X \in \mathcal{M}_{p,1}(K)
 
 ```mermaid
 flowchart TD
-    A["Écrire le système sous<br>forme matricielle augmentée<br>(A | B)"] --> B["Choisir un pivot non nul<br>dans la colonne courante"]
+    A["Écrire le système sous\nforme matricielle augmentée\n(A | B)"] --> B["Choisir un pivot non nul\ndans la colonne courante"]
     B --> C{"Pivot trouvé ?"}
-    C -- Non --> D["Passer à la<br>colonne suivante"]
-    C -- Oui --> E["Échanger les lignes<br>si nécessaire"]
-    E --> F["Éliminer les coefficients<br>sous le pivot par<br>L_i ← L_i - (a_ij/pivot) × L_pivot"]
-    F --> G{"Dernière colonne<br>traitée ?"}
+    C -- Non --> D["Passer à la\ncolonne suivante"]
+    C -- Oui --> E["Échanger les lignes\nsi nécessaire"]
+    E --> F["Éliminer les coefficients\nsous le pivot par\nL_i ← L_i - (a_ij/pivot) × L_pivot"]
+    F --> G{"Dernière colonne\ntraitée ?"}
     G -- Non --> B
     G -- Oui --> H["Système échelonné obtenu"]
-    H --> I{"Vérifier la<br>compatibilité"}
-    I -- "Ligne 0 = c ≠ 0" --> J["Système<br>incompatible<br>∅"]
-    I -- Compatible --> K["Remontée :<br>résolution par<br>substitution arrière"]
-    K --> L["Paramétrer les<br>variables libres"]
-    L --> M["Écrire l'ensemble<br>des solutions"]
+    H --> I{"Vérifier la\ncompatibilité"}
+    I -- "Ligne 0 = c ≠ 0" --> J["Système\nincompatible\n∅"]
+    I -- Compatible --> K["Remontée :\nrésolution par\nsubstitution arrière"]
+    K --> L["Paramétrer les\nvariables libres"]
+    L --> M["Écrire l'ensemble\ndes solutions"]
 
     style A fill:#3498db,stroke:#333,color:#fff
     style J fill:#e74c3c,stroke:#333,color:#fff

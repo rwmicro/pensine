@@ -37,7 +37,7 @@ flowchart TD
     A["Variation de flux dΦ/dt"] --> B["f.é.m. induite e = -dΦ/dt"]
     B --> C["Courant induit"]
     C --> D["Champ magnétique induit"]
-    D --> E["S'oppose à la variation<br/>de flux (loi de Lenz)"]
+    D --> E["S'oppose à la variation\nde flux (loi de Lenz)"]
     E -.->|"modération, pas annulation"| A
 ```
 

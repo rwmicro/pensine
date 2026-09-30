@@ -13,7 +13,7 @@ Le HTTP Request Smuggling exploite des désaccords entre les serveurs front-end 
 ## Contexte architectural
 
 ```mermaid
-graph LR
+flowchart LR
     user[Utilisateur] -->|Requête HTTP| frontend[Front-end\nNginx / CDN\nLoad Balancer]
     frontend -->|Connexion persistante\nHTTP/1.1 keep-alive| backend[Back-end\nApplication Server]
     backend -->|Réponse| frontend --> user

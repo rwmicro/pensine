@@ -57,9 +57,9 @@ En 1905, Einstein révolutionne notre conception de l'espace et du temps. À par
 ```mermaid
 flowchart TD
     A["Événement"] --> B{"Intervalle Δs²"}
-    B -->|"Δs² > 0"| C["Genre temps :<br/>lien causal possible"]
-    B -->|"Δs² = 0"| D["Genre lumière :<br/>relié par un rayon"]
-    B -->|"Δs² < 0"| E["Genre espace :<br/>aucun lien causal"]
+    B -->|"Δs² > 0"| C["Genre temps :\nlien causal possible"]
+    B -->|"Δs² = 0"| D["Genre lumière :\nrelié par un rayon"]
+    B -->|"Δs² < 0"| E["Genre espace :\naucun lien causal"]
 ```
 
 ### Visualisation animée (Manim)

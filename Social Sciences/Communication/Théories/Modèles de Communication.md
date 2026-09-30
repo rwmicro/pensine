@@ -16,10 +16,10 @@ Né chez Bell Laboratories pour optimiser la transmission télégraphique et té
 
 ```mermaid
 flowchart LR
-    Source[Source<br/>de l'information] --> Emetteur[Émetteur<br/>codage]
+    Source[Source\nde l'information] --> Emetteur[Émetteur\ncodage]
     Emetteur --> Canal[Canal]
     Bruit[Bruit] -.perturbe.-> Canal
-    Canal --> Recepteur[Récepteur<br/>décodage]
+    Canal --> Recepteur[Récepteur\ndécodage]
     Recepteur --> Destinataire[Destinataire]
 ```
 

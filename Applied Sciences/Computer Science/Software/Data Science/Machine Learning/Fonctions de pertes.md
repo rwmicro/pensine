@@ -13,22 +13,22 @@ Les fonctions de perte en intelligence artificielle (IA) sont des outils essenti
 ## Comment choisir sa fonction de perte ?
 
 ```mermaid
-graph TD
-    START{"Quel type de<br/>problème ?"}
-    START --> REG["Régression<br/>(valeur continue)"]
-    START --> CLASSIF["Classification<br/>(catégorie)"]
+flowchart TD
+    START{"Quel type de\nproblème ?"}
+    START --> REG["Régression\n(valeur continue)"]
+    START --> CLASSIF["Classification\n(catégorie)"]
 
-    REG --> OUTLIERS{"Outliers dans<br/>les données ?"}
+    REG --> OUTLIERS{"Outliers dans\nles données ?"}
     OUTLIERS --> |"Non"| MSE2["MSE"]
-    OUTLIERS --> |"Oui"| ROBUST{"Robustesse<br/>souhaitée ?"}
+    OUTLIERS --> |"Oui"| ROBUST{"Robustesse\nsouhaitée ?"}
     ROBUST --> |"Maximale"| MAE2["MAE"]
     ROBUST --> |"Équilibrée"| HUBER2["Huber Loss"]
 
-    CLASSIF --> NBCLASS{"Nombre de<br/>classes ?"}
+    CLASSIF --> NBCLASS{"Nombre de\nclasses ?"}
     NBCLASS --> |"2 classes"| MARGIN{"Modèle ?"}
     NBCLASS --> |"N classes"| CE["Cross-Entropy"]
     MARGIN --> |"SVM"| HINGE2["Hinge Loss"]
-    MARGIN --> |"Réseau de neurones /<br/>Régression logistique"| LOGLOSS["Log Loss"]
+    MARGIN --> |"Réseau de neurones /\nRégression logistique"| LOGLOSS["Log Loss"]
 
     style START fill:#673AB7,color:#fff
     style MSE2 fill:#2196F3,color:#fff

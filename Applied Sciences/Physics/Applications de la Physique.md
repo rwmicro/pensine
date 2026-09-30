@@ -14,17 +14,17 @@ Vue panoramique des usages de la physique. Chaque domaine théorique irrigue des
 
 ```mermaid
 flowchart LR
-    MECA[Mécanique] --> ING[Ingénierie<br/>structures, véhicules]
-    MECA --> ESP[Aérospatial<br/>orbites, fusées]
-    THERMO[Thermodynamique] --> ENE[Énergie<br/>moteurs, centrales]
-    THERMO --> CLIM[Climatisation<br/>réfrigération]
-    EM[Électromagnétisme] --> ELEC[Électronique<br/>circuits, télécoms]
-    EM --> IMG[Imagerie<br/>IRM, radar]
-    ONDES[Ondes & Optique] --> COM[Fibre optique<br/>Internet]
-    ONDES[Ondes & Optique] --> MED[Médecine<br/>échographie, laser]
-    QUANT[Quantique] --> SEMI[Semi-conducteurs<br/>transistors, LED]
-    QUANT --> INFO[Informatique<br/>quantique]
-    RELAT[Relativité] --> GPS[GPS<br/>géolocalisation]
+    MECA[Mécanique] --> ING[Ingénierie\nstructures, véhicules]
+    MECA --> ESP[Aérospatial\norbites, fusées]
+    THERMO[Thermodynamique] --> ENE[Énergie\nmoteurs, centrales]
+    THERMO --> CLIM[Climatisation\nréfrigération]
+    EM[Électromagnétisme] --> ELEC[Électronique\ncircuits, télécoms]
+    EM --> IMG[Imagerie\nIRM, radar]
+    ONDES[Ondes & Optique] --> COM[Fibre optique\nInternet]
+    ONDES[Ondes & Optique] --> MED[Médecine\néchographie, laser]
+    QUANT[Quantique] --> SEMI[Semi-conducteurs\ntransistors, LED]
+    QUANT --> INFO[Informatique\nquantique]
+    RELAT[Relativité] --> GPS[GPS\ngéolocalisation]
 ```
 
 ## 2. Énergie

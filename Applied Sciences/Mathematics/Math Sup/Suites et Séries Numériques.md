@@ -271,26 +271,26 @@ Une série convergente mais non absolument convergente est dite **semi-convergen
 ```mermaid
 flowchart TD
     START["Étudier la nature de ∑ uₙ"] --> TG{"u_n → 0 ?"}
-    TG -- Non --> DIV["La série DIVERGE<br>(critère grossier)"]
+    TG -- Non --> DIV["La série DIVERGE\n(critère grossier)"]
     TG -- Oui --> SIGNE{"Signe de uₙ ?"}
 
-    SIGNE -- "uₙ ≥ 0<br>(termes positifs)" --> POS["Séries à termes positifs"]
-    SIGNE -- "Signe alternant<br>uₙ = (-1)ⁿaₙ" --> ALT["Critère de Leibniz :<br>aₙ décroissante → 0 ?"]
-    SIGNE -- "Signe quelconque" --> ABS["Tester la convergence<br>absolue : ∑|uₙ|"]
+    SIGNE -- "uₙ ≥ 0\n(termes positifs)" --> POS["Séries à termes positifs"]
+    SIGNE -- "Signe alternant\nuₙ = (-1)ⁿaₙ" --> ALT["Critère de Leibniz :\naₙ décroissante → 0 ?"]
+    SIGNE -- "Signe quelconque" --> ABS["Tester la convergence\nabsolue : ∑|uₙ|"]
 
-    POS --> EQU["Chercher un<br>équivalent de uₙ"]
-    EQU --> RIEM{"Comparer à une<br>série de référence<br>(Riemann, géométrique)"}
-    RIEM -- Concluant --> RESULT["Convergence ou<br>divergence par<br>comparaison"]
-    RIEM -- "Non concluant" --> DALEM["Critère de d'Alembert<br>uₙ₊₁/uₙ → L ?"]
+    POS --> EQU["Chercher un\néquivalent de uₙ"]
+    EQU --> RIEM{"Comparer à une\nsérie de référence\n(Riemann, géométrique)"}
+    RIEM -- Concluant --> RESULT["Convergence ou\ndivergence par\ncomparaison"]
+    RIEM -- "Non concluant" --> DALEM["Critère de d'Alembert\nuₙ₊₁/uₙ → L ?"]
     DALEM -- "L < 1 ou L > 1" --> RESULT
-    DALEM -- "L = 1" --> CAUCHY["Critère de Cauchy<br>(racine) uₙ^(1/n) → L ?"]
+    DALEM -- "L = 1" --> CAUCHY["Critère de Cauchy\n(racine) uₙ^(1/n) → L ?"]
     CAUCHY --> RESULT
 
     ALT -- Oui --> CONV["La série CONVERGE"]
     ALT -- Non --> ABS
 
-    ABS -- "∑|uₙ| converge" --> ABSCONV["Convergence<br>absolue ⟹ CV"]
-    ABS -- "∑|uₙ| diverge" --> OTHER["Autres méthodes<br>(Abel, regroupement...)"]
+    ABS -- "∑|uₙ| converge" --> ABSCONV["Convergence\nabsolue ⟹ CV"]
+    ABS -- "∑|uₙ| diverge" --> OTHER["Autres méthodes\n(Abel, regroupement...)"]
 
     style DIV fill:#e74c3c,stroke:#333,color:#fff
     style CONV fill:#2ecc71,stroke:#333,color:#fff

@@ -34,7 +34,7 @@ Un LLM seul ne fait que produire du texte : il ne peut ni consulter une base de 
 6. Le modèle continue : il peut appeler un autre outil ou formuler la réponse finale
 
 ```mermaid
-graph TD
+flowchart TD
     U[Requête utilisateur] --> M[LLM + schémas d'outils disponibles]
     M --> D{Le modèle décide}
     D -->|Appel d'outil| CALL[tool_use: nom + arguments JSON]
@@ -74,7 +74,7 @@ L'hôte exécute réellement l'appel API météo, puis renvoie par exemple `{"te
 Déjà introduit dans [[Prompt Engineering]] — approfondi ici car c'est le mécanisme sous-jacent de la plupart des agents. Le modèle alterne explicitement raisonnement et action jusqu'à obtenir une réponse finale :
 
 ```mermaid
-graph LR
+flowchart LR
     T1[Thought : que dois-je faire ?] --> A1[Action : appel d'outil]
     A1 --> O1[Observation : résultat]
     O1 --> T2[Thought : ai-je assez d'info ?]
@@ -109,7 +109,7 @@ Que ce raisonnement soit affiché à l'utilisateur (comme dans un prompt ReAct e
 Protocole ouvert introduit par Anthropic (2024) qui standardise la façon dont une application LLM se connecte à des outils et des sources de données externes. Avant MCP, chaque intégration (Slack, GitHub, une base de données...) devait être recodée pour chaque application LLM. MCP découple l'implémentation d'un outil de l'application qui l'utilise.
 
 ```mermaid
-graph LR
+flowchart LR
     CLIENT[Client MCP\napplication LLM] <-->|protocole MCP| SERVER[Serveur MCP\nexpose outils/ressources]
     SERVER <--> SYS[Système externe\nBDD, fichiers, API]
 ```
@@ -156,7 +156,7 @@ Différent de l'évaluation d'une réponse unique ([[Métriques d'Évaluation]])
 ## Function Calling vs RAG vs Agent — quand utiliser quoi
 
 ```mermaid
-graph TD
+flowchart TD
     Q{Nature de la tâche ?}
     Q -->|Question sur connaissance statique| P[Prompt seul]
     Q -->|Question sur des documents externes| RAG[RAG]

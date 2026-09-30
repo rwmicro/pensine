@@ -16,7 +16,7 @@ Le Secure Software Development Lifecycle (Secure SDLC) intègre la sécurité à
 ## Intégration de la sécurité dans le SDLC
 
 ```mermaid
-graph LR
+flowchart LR
     req[Exigences\nSécurité] --> design[Conception\nThreat Modeling]
     design --> dev[Développement\nSecure Coding\nSAST]
     dev --> test[Tests\nDAST / Pentest]

@@ -235,13 +235,13 @@ Soit $\star$ une LCI sur $E$.
 
 ```mermaid
 flowchart TD
-    A["Ensemble muni d'une LCI"] --> B["Monoïde<br/>(associative + neutre)"]
-    B --> C["Groupe<br/>(+ inversibilité)"]
-    C --> D["Groupe abélien<br/>(+ commutativité)"]
-    D --> E["Anneau<br/>(2e loi : monoïde + distributivité)"]
+    A["Ensemble muni d'une LCI"] --> B["Monoïde\n(associative + neutre)"]
+    B --> C["Groupe\n(+ inversibilité)"]
+    C --> D["Groupe abélien\n(+ commutativité)"]
+    D --> E["Anneau\n(2e loi : monoïde + distributivité)"]
     E --> F["Anneau commutatif"]
-    F --> G["Anneau intègre<br/>(pas de diviseurs de zéro)"]
-    G --> H["Corps<br/>(tout non nul inversible)"]
+    F --> G["Anneau intègre\n(pas de diviseurs de zéro)"]
+    G --> H["Corps\n(tout non nul inversible)"]
 
     style H fill:#2d6a4f,stroke:#1b4332,color:#fff
     style C fill:#264653,stroke:#2a9d8f,color:#fff

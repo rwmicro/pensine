@@ -13,11 +13,11 @@ Un **autoencoder** est un réseau de neurones entraîné à **reconstruire son e
 ## Architecture de base
 
 ```mermaid
-graph LR
-    X["Entrée x<br/>(ex: image 784 px)"] --> ENC["Encodeur"]
-    ENC --> Z["Code latent z<br/>(ex: 32 dimensions)"]
+flowchart LR
+    X["Entrée x\n(ex: image 784 px)"] --> ENC["Encodeur"]
+    ENC --> Z["Code latent z\n(ex: 32 dimensions)"]
     Z --> DEC["Décodeur"]
-    DEC --> XHAT["Reconstruction x̂<br/>(ex: image 784 px)"]
+    DEC --> XHAT["Reconstruction x̂\n(ex: image 784 px)"]
 
     X -.->|"Comparer : Loss = ||x - x̂||²"| XHAT
 
@@ -41,12 +41,12 @@ $$\mathcal{L} = ||x - \hat{x}||^2 = \sum_i (x_i - \hat{x}_i)^2$$
 ## Types d'autoencoders
 
 ```mermaid
-graph TB
-    AE["Autoencoders"] --> UNDER["Undercomplete<br/>(compression)"]
-    AE --> SPARSE["Sparse<br/>(contrainte de parcimonie)"]
-    AE --> DENOISING["Denoising<br/>(résistance au bruit)"]
-    AE --> VAE2["VAE<br/>(génératif)"]
-    AE --> CONV["Convolutional<br/>(pour images)"]
+flowchart TB
+    AE["Autoencoders"] --> UNDER["Undercomplete\n(compression)"]
+    AE --> SPARSE["Sparse\n(contrainte de parcimonie)"]
+    AE --> DENOISING["Denoising\n(résistance au bruit)"]
+    AE --> VAE2["VAE\n(génératif)"]
+    AE --> CONV["Convolutional\n(pour images)"]
 
     style AE fill:#673AB7,color:#fff
     style VAE2 fill:#4CAF50,color:#fff
@@ -74,7 +74,7 @@ $$\mathcal{L} = ||x - \hat{x}||^2 + \lambda \sum_j |z_j|$$
 L'entrée est **corrompue** (bruit ajouté), mais le réseau doit reconstruire l'entrée **originale** propre.
 
 ```mermaid
-graph LR
+flowchart LR
     X["x (original)"] --> NOISE["+ Bruit"]
     NOISE --> XTILDE["x̃ (corrompu)"]
     XTILDE --> ENC2["Encodeur"]
@@ -109,11 +109,11 @@ Le VAE est la variante la plus importante. Contrairement à un autoencoder class
 ### Architecture du VAE
 
 ```mermaid
-graph LR
+flowchart LR
     X3["Entrée x"] --> ENC3["Encodeur"]
     ENC3 --> MU["μ (moyenne)"]
     ENC3 --> SIGMA["σ (écart-type)"]
-    MU --> SAMPLE["Échantillonnage<br/>z = μ + σ × ε<br/>ε ~ N(0,1)"]
+    MU --> SAMPLE["Échantillonnage\nz = μ + σ × ε\nε ~ N(0,1)"]
     SIGMA --> SAMPLE
     SAMPLE --> DEC3["Décodeur"]
     DEC3 --> XHAT3["Reconstruction x̂"]

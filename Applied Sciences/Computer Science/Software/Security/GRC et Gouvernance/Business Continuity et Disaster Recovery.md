@@ -13,7 +13,7 @@ La continuité d'activité (BC) et la reprise après sinistre (DR) sont les deux
 ## Concepts fondamentaux
 
 ```mermaid
-graph LR
+flowchart LR
     incident[Incident\nmajeur]
     incident --> rpo["RPO\nDonnées perdues\n(combien de temps\nd'historique ?)"]
     incident --> rto["RTO\nTemps d'indisponibilité\n(combien de temps\npour reprendre ?)"]
@@ -36,7 +36,7 @@ Temps maximal acceptable pour remettre le système en service.
 > RPO répond à "combien de données peut-on perdre ?" (regarde vers le passé, dimensionne la fréquence de sauvegarde). RTO répond à "combien de temps peut-on être en panne ?" (regarde vers l'avenir, dimensionne l'architecture de reprise). Un RPO court n'implique pas un RTO court : on peut avoir des sauvegardes très fréquentes mais une restauration lente.
 
 ```mermaid
-graph LR
+flowchart LR
     subgraph "Timeline d'un incident"
         last_backup[Dernière\nsauvegarde] -->|"RPO\n(données perdues)"| incident2[Incident]
         incident2 -->|"RTO\n(temps de reprise)"| restored[Système\nrestaré]

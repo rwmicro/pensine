@@ -115,11 +115,11 @@ Toute grandeur physique est un **nombre accompagné d'une unité**. Maîtriser l
 
 ```mermaid
 flowchart TD
-    A["J'ai une formule à utiliser"] --> B{"Les deux membres<br/>ont-ils la même dimension ?"}
-    B -->|Non| C["Erreur : la formule<br/>est fausse, on s'arrête"]
-    B -->|Oui| D{"Les arguments des sin/exp/ln<br/>sont-ils sans dimension ?"}
+    A["J'ai une formule à utiliser"] --> B{"Les deux membres\nont-ils la même dimension ?"}
+    B -->|Non| C["Erreur : la formule\nest fausse, on s'arrête"]
+    B -->|Oui| D{"Les arguments des sin/exp/ln\nsont-ils sans dimension ?"}
     D -->|Non| C
-    D -->|Oui| E["Formule homogène :<br/>on peut l'utiliser"]
+    D -->|Oui| E["Formule homogène :\non peut l'utiliser"]
 ```
 
 ## 5. À retenir

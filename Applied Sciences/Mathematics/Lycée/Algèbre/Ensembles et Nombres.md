@@ -28,7 +28,7 @@ Les nombres que l'on utilise en mathématiques sont organisés en ensembles embo
 ### 1.2 Diagramme d'inclusion
 
 ```mermaid
-graph TB
+flowchart TB
     subgraph R["R - Réels"]
         direction TB
         irr["Irrationnels : sqrt(2), pi, e"]
