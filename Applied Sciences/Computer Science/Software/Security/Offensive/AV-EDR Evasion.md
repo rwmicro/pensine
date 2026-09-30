@@ -142,7 +142,7 @@ CreateRemoteThread(hProcess, NULL, 0, (LPTHREAD_START_ROUTINE)pRemoteAddr, NULL,
 
 ## Bypass des hooks EDR (Syscall directs)
 
-Les EDR hookent les fonctions de ntdll.dll (couche user) pour intercepter les appels. Les syscalls directs contournent ces hooks en appelant le kernel directement.
+Les EDR hookent les fonctions de ntdll.dll (couche user) pour intercepter les appels. Les syscalls directs contournent ces hooks en appelant le kernel directement. Le talon d'appel de ntdll et la raison pour laquelle les numéros d'appels système changent à chaque version de Windows sont expliqués dans [[Windows NT — Architecture interne]].
 
 ```c
 // Les EDR hookent : NtCreateThread, NtAllocateVirtualMemory, NtWriteVirtualMemory...
