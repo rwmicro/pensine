@@ -24,9 +24,9 @@ Les *Recherches logiques* (1900-1901) lui ouvrent un poste à Göttingen (1901-1
 
 ### Les années sombres
 
-L'arrivée au pouvoir des nazis en 1933 (voir [[Montée du nazisme]]) frappe Husserl, d'origine juive : il est mis en congé forcé dès avril 1933, puis, après les lois de Nuremberg, perd son droit d'enseigner ; il est privé de toute possibilité de publier en Allemagne. Heidegger, devenu recteur, adhère au parti nazi ; les relations entre les deux hommes, déjà dégradées par leurs désaccords philosophiques, sont rompues. Isolé, Husserl continue à écrire et prononce en 1935 à Vienne et à Prague les conférences d'où sortira *La Crise des sciences européennes*.
+L'arrivée au pouvoir des nazis en 1933 (voir [[Montée du nazisme]]) frappe Husserl, d'origine juive : il est mis en congé forcé dès avril 1933 (mesure levée quelques semaines plus tard), puis, après les lois de Nuremberg, perd définitivement en 1936 son droit d'enseigner ; il est privé de toute possibilité de publier en Allemagne. Heidegger, devenu recteur, adhère au parti nazi ; les relations entre les deux hommes, déjà dégradées par leurs désaccords philosophiques, sont rompues. Isolé, Husserl continue à écrire et prononce en 1935 à Vienne et à Prague les conférences d'où sortira *La Crise des sciences européennes*.
 
-Après sa mort, le franciscain belge **Herman Leo Van Breda** fait passer clandestinement en Belgique, en 1938, ses manuscrits (environ 40 000 pages en sténographie Gabelsberger) et sa bibliothèque. Les **Archives Husserl de Louvain** les conservent et publient depuis 1950 l'édition critique des *Husserliana*, qui compte aujourd'hui plusieurs dizaines de volumes.
+Après sa mort, le franciscain belge **Herman Leo Van Breda** fait passer clandestinement en Belgique, en 1938, ses manuscrits (environ 40 000 pages en sténographie Gabelsberger) ; sa bibliothèque les rejoint un peu plus tard. Les **Archives Husserl de Louvain** les conservent et publient depuis 1950 l'édition critique des *Husserliana*, qui compte aujourd'hui plusieurs dizaines de volumes.
 
 ## Œuvres majeures
 

@@ -14,17 +14,17 @@ date: "2026-09-28"
 
 ### Le père et la « mélancolie »
 
-Il est le dernier des sept enfants de Michael Pedersen Kierkegaard, un ancien berger du Jutland devenu riche négociant, piétiste austère et tourmenté par le sentiment d'une faute. Cinq des sept enfants meurent avant leur père. Søren hérite de lui une piété sombre, une fortune qui le dispense de tout métier, et ce qu'il appelle sa mélancolie. Vers 1835, une découverte sur le passé paternel, dont il ne dit jamais le contenu et qu'il nomme dans son *Journal* le « grand tremblement de terre », le bouleverse durablement.
+Il est le dernier des sept enfants de Michael Pedersen Kierkegaard, un ancien berger du Jutland devenu riche négociant, piétiste austère et tourmenté par le sentiment d'une faute. Cinq des sept enfants meurent avant leur père. Søren hérite de lui une piété sombre, une fortune qui le dispense de tout métier, et ce qu'il appelle sa mélancolie. Dans la seconde moitié des années 1830 (la datation est débattue), une découverte sur le passé paternel, dont il ne dit jamais le contenu et qu'il nomme dans son *Journal* le « grand tremblement de terre », le bouleverse durablement.
 
 ### Régine Olsen
 
-En 1840, il se fiance avec Regine Olsen, de dix ans sa cadette. Un an plus tard, il rompt, en s'efforçant de passer pour un goujat afin qu'elle puisse l'oublier. Il ne s'en expliquera jamais clairement ; on invoque sa mélancolie, sa vocation religieuse, le secret paternel. Régine épousera un autre homme, mais elle reste présente, sous des figures déguisées, dans presque toute l'œuvre.
+En 1840, il se fiance avec Regine Olsen, de près de neuf ans sa cadette. Un an plus tard, il rompt, en s'efforçant de passer pour un goujat afin qu'elle puisse l'oublier. Il ne s'en expliquera jamais clairement ; on invoque sa mélancolie, sa vocation religieuse, le secret paternel. Régine épousera un autre homme, mais elle reste présente, sous des figures déguisées, dans presque toute l'œuvre.
 
 ### L'écrivain-philosophe
 
 La même année 1841, il soutient une thèse, *Le Concept d'ironie constamment rapporté à Socrate*, puis part à Berlin écouter les leçons de Schelling contre [[Hegel]], dont il revient déçu. S'ouvre alors une production d'une intensité rare : en une dizaine d'années, une trentaine d'ouvrages, dont beaucoup publiés sous **pseudonymes**, et un *Journal* de plusieurs milliers de pages.
 
-En 1846, il provoque une polémique avec *Le Corsaire*, journal satirique qui le caricature ensuite pendant des mois : son pantalon trop court et sa silhouette voûtée font rire tout Copenhague. Cette expérience de l'humiliation par la foule nourrit sa critique du « public ». Ses dernières années sont consacrées à une attaque frontale contre l'Église d'État danoise, qu'il accuse de trahir le christianisme du Nouveau Testament. En octobre 1855, il s'effondre dans la rue et meurt quelques semaines plus tard à l'hôpital, après avoir refusé la communion des mains d'un pasteur.
+Fin 1845, il provoque une polémique avec *Le Corsaire*, journal satirique qui le caricature ensuite pendant des mois de 1846 : son pantalon trop court et sa silhouette voûtée font rire tout Copenhague. Cette expérience de l'humiliation par la foule nourrit sa critique du « public ». Ses dernières années sont consacrées à une attaque frontale contre l'Église d'État danoise, qu'il accuse de trahir le christianisme du Nouveau Testament. À l'automne 1855, il s'effondre dans la rue et meurt quelques semaines plus tard à l'hôpital, après avoir refusé la communion des mains d'un pasteur.
 
 ## Œuvres majeures
 
