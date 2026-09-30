@@ -44,30 +44,24 @@ Séparer les flux pour limiter la propagation latérale en cas de compromission.
 
 ### Architecture type
 
-```
-Internet
-    │
-    ▼
-[ Firewall externe ]
-    │
-    ├── DMZ (zone démilitarisée)
-    │     ├── Serveurs web (80/443)
-    │     ├── Reverse proxy
-    │     └── Serveur mail (25/587)
-    │
-    ├── Réseau interne (utilisateurs)
-    │     ├── VLAN Bureautique
-    │     ├── VLAN Développement
-    │     └── VLAN Invités (isolé)
-    │
-    ├── Réseau serveurs
-    │     ├── Base de données
-    │     └── Serveurs applicatifs
-    │
-    └── Réseau d'administration
-          ├── Switches, routeurs
-          ├── Consoles de management
-          └── Bastion / jump host
+```mermaid
+flowchart TD
+    NET["Internet"] --> FW["Firewall externe"]
+    FW --> DMZ["DMZ (zone démilitarisée)"]
+    FW --> INT["Réseau interne (utilisateurs)"]
+    FW --> SRV["Réseau serveurs"]
+    FW --> ADM["Réseau d'administration"]
+    DMZ --> D1["Serveurs web (80/443)"]
+    DMZ --> D2["Reverse proxy"]
+    DMZ --> D3["Serveur mail (25/587)"]
+    INT --> I1["VLAN Bureautique"]
+    INT --> I2["VLAN Développement"]
+    INT --> I3["VLAN Invités (isolé)"]
+    SRV --> S1["Base de données"]
+    SRV --> S2["Serveurs applicatifs"]
+    ADM --> A1["Switches, routeurs"]
+    ADM --> A2["Consoles de management"]
+    ADM --> A3["Bastion / jump host"]
 ```
 
 ### VLAN (Virtual LAN)

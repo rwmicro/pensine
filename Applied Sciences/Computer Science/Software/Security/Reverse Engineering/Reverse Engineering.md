@@ -14,27 +14,21 @@ Le reverse engineering (rétro-ingénierie) est l'analyse d'un binaire compilé 
 
 ### PE (Portable Executable) — Windows
 
-```
-┌──────────────────────────────────┐
-│  DOS Header (MZ)                 │ ← Magic "MZ" (0x4D5A)
-├──────────────────────────────────┤
-│  DOS Stub                        │ ← "This program cannot be run in DOS mode"
-├──────────────────────────────────┤
-│  PE Header (PE\0\0)              │ ← Magic "PE" (0x5045 0000)
-├──────────────────────────────────┤
-│  COFF File Header                │ ← Machine, nb sections, timestamps
-├──────────────────────────────────┤
-│  Optional Header                 │ ← EntryPoint, ImageBase, taille
-├──────────────────────────────────┤
-│  Section Table                   │
-│  ├── .text (code)                │ ← RX (Read/Execute)
-│  ├── .data (données initialisées)│ ← RW (Read/Write)
-│  ├── .rdata (données en lecture) │ ← R  (imports, strings)
-│  ├── .rsrc (ressources)          │ ← icônes, manifests
-│  └── .reloc (relocations)        │
-├──────────────────────────────────┤
-│  Sections (contenu)              │
-└──────────────────────────────────┘
+```mermaid
+block-beta
+  columns 1
+  A["DOS Header (MZ) — Magic #quot;MZ#quot; (0x4D5A)"]
+  B["DOS Stub — #quot;This program cannot be run in DOS mode#quot;"]
+  C["PE Header (PE\0\0) — Magic #quot;PE#quot; (0x5045 0000)"]
+  D["COFF File Header — Machine, nb sections, timestamps"]
+  E["Optional Header — EntryPoint, ImageBase, taille"]
+  F["Section Table"]
+  F1[".text (code) — RX (Read/Execute)"]
+  F2[".data (données initialisées) — RW (Read/Write)"]
+  F3[".rdata (données en lecture) — R (imports, strings)"]
+  F4[".rsrc (ressources) — icônes, manifests"]
+  F5[".reloc (relocations)"]
+  G["Sections (contenu)"]
 ```
 
 ```bash

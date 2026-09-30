@@ -141,12 +141,13 @@ date: "2026-02-19"
 - Mon esprit = mode de l'attribut Pensée
 
 **Structure ontologique :**
-```
-DIEU/NATURE (Substance unique)
-    ├── Attribut : Étendue
-    │     └── Modes : Corps, objets matériels
-    └── Attribut : Pensée
-          └── Modes : Esprits, idées
+```mermaid
+mindmap
+  root["DIEU/NATURE (Substance unique)"]
+    E["Attribut : Étendue"]
+      E1["Modes : Corps, objets matériels"]
+    P["Attribut : Pensée"]
+      P1["Modes : Esprits, idées"]
 ```
 
 > [!important] Idée clé

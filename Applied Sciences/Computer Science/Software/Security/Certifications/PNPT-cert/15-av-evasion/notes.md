@@ -12,26 +12,13 @@ L'évasion AV/EDR, c'est l'écart entre "j'ai un exploit qui marche en lab" et "
 
 ## Comprendre la défense avant l'évasion
 
-```
-   Défense AV/EDR Windows moderne — où chaque couche intercepte
-
-   ┌──────────────────────────────────────────────────────────┐
-   │ Fichier sur disque                                       │
-   │   ↓                                                      │
-   │   ► Scan signature (statique)        ← Defender + AMSI   │
-   │   ► Analyse heuristique              ← Behavioral        │
-   │   ↓                                                      │
-   │ Exécution / lancement                                    │
-   │   ↓                                                      │
-   │   ► AMSI (PowerShell, VBA, JS)       ← Microsoft Defender│
-   │   ► ETW (Event Tracing for Windows)  ← Telemetry         │
-   │   ► API hooks (ntdll, kernel32)      ← EDR userland      │
-   │   ↓                                                      │
-   │ Comportement                                             │
-   │   ↓                                                      │
-   │   ► Détection comportementale        ← EDR (CrowdStrike, │
-   │   ► Cloud sandbox                       SentinelOne...)  │
-   └──────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TD
+    F["Fichier sur disque"] --> S1["Scan signature (statique) ← Defender + AMSI\nAnalyse heuristique ← Behavioral"]
+    S1 --> E["Exécution / lancement"]
+    E --> S2["AMSI (PowerShell, VBA, JS) ← Microsoft Defender\nETW (Event Tracing for Windows) ← Telemetry\nAPI hooks (ntdll, kernel32) ← EDR userland"]
+    S2 --> C["Comportement"]
+    C --> S3["Détection comportementale ← EDR (CrowdStrike, SentinelOne...)\nCloud sandbox"]
 ```
 
 Chaque technique d'évasion vise une couche précise. Combiner les techniques est obligatoire pour les EDR modernes.
@@ -149,17 +136,11 @@ Outils prêts : **EtwTi-Bypass**, **SharpBlock**.
 
 Les EDR injectent des hooks dans `ntdll.dll` pour observer les appels `Nt*` (NtAllocateVirtualMemory, NtCreateThreadEx, etc.). En appelant les syscalls **directement** (sans passer par ntdll), on contourne ces hooks.
 
-```
-   Appel classique :
-     VirtualAlloc → ntdll!NtAllocateVirtualMemory → syscall
-                          ▲
-                          │ HOOK EDR ICI
-                          │ (l'EDR voit et enregistre)
-
-   Direct syscall :
-     [code custom] → syscall directement (numéro 0x18 sur Win11)
-                     ↑
-                     pas de hook traversé
+```mermaid
+flowchart LR
+    A["Appel classique : VirtualAlloc"] --> B["ntdll!NtAllocateVirtualMemory\nHOOK EDR ICI (l'EDR voit et enregistre)"]
+    B --> C["syscall"]
+    D["Direct syscall : code custom"] --> E["syscall directement\n(numéro 0x18 sur Win11, pas de hook traversé)"]
 ```
 
 Outils :

@@ -15,31 +15,18 @@ Suite de `09-active-directory`. On y trouve les attaques modernes qui distinguen
 
 ## Où chaque technique s'insère
 
-```
-   Chemin classique d'une attaque AD avancée
-
-   Énumération
-        │
-        ▼
-   ┌────────────────────────┬────────────────────┐
-   ▼                        ▼                    ▼
-   ACL abuse           AD CS (ESC1-8)       Coercion + relay
-   (GenericWrite,      (template vuln,      (PetitPotam,
-    GenericAll,        SAN supply,          PrinterBug,
-    WriteDACL...)      web enrollment...)    DFSCoerce)
-        │                        │                    │
-        ▼                        ▼                    ▼
-   Compromis user/      Compromis user/      Compromis DC$
-   groupe ciblé         compte arbitraire    (TGT du DC)
-        │                        │                    │
-        └────────────┬───────────┴────────────────────┘
-                     ▼
-              Delegation abuse
-              (Unconstrained, Constrained, RBCD)
-                     │
-                     ▼
-              DCSync / Golden Ticket
-              (= Domain Admin permanent)
+```mermaid
+flowchart TD
+    E["Énumération"] --> A["ACL abuse\n(GenericWrite, GenericAll, WriteDACL...)"]
+    E --> B["AD CS (ESC1-8)\n(template vuln, SAN supply, web enrollment...)"]
+    E --> C["Coercion + relay\n(PetitPotam, PrinterBug, DFSCoerce)"]
+    A --> A2["Compromis user/groupe ciblé"]
+    B --> B2["Compromis user/compte arbitraire"]
+    C --> C2["Compromis DC$\n(TGT du DC)"]
+    A2 --> D["Delegation abuse\n(Unconstrained, Constrained, RBCD)"]
+    B2 --> D
+    C2 --> D
+    D --> F["DCSync / Golden Ticket\n(= Domain Admin permanent)"]
 ```
 
 ## kerbrute — énumération et spraying silencieux
@@ -235,16 +222,15 @@ Certify.exe request /ca:DC.cible.com\CA-NAME /template:VulnTemplate /altname:Adm
 
 Forcer un compte machine (souvent DC$) à s'authentifier vers nous → on relaie cette auth vers une cible (LDAP, AD CS, SMB).
 
-```
-   Attaquant                    Victime (DC$)              Cible relay
-       │                              │                         │
-       │ PetitPotam (RPC EFS) ───►    │                         │
-       │                              │                         │
-       │ ◄── auth NTLM (DC$) ─────────│                         │
-       │                              │                         │
-       │ ──── relai de l'auth ──────────────────────────────►   │
-       │                                                        │
-       │  ◄────────────── ressource accessible comme DC$ ───────│
+```mermaid
+sequenceDiagram
+    participant A as Attaquant
+    participant V as Victime (DC$)
+    participant C as Cible relay
+    A->>V: PetitPotam (RPC EFS)
+    V-->>A: auth NTLM (DC$)
+    A->>C: relai de l'auth
+    C-->>A: ressource accessible comme DC$
 ```
 
 ### PetitPotam (MS-EFSRPC)

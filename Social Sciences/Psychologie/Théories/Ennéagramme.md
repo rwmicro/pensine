@@ -196,32 +196,12 @@ Personnalités supposées : Barack Obama, Carl Rogers
 
 ## Les trois centres (triades)
 
-```
-  ┌──────────────────────────────────────────────────────────────────┐
-  │   CENTRE INSTINCTIF (Corps)    Types 8 — 9 — 1                  │
-  │   Émotion réprimée : colère                                      │
-  │   Préoccupation : autonomie, contrôle, limites                   │
-  │                                                                  │
-  │   Type 8 : colère exprimée directement                          │
-  │   Type 9 : colère oubliée, endormie                             │
-  │   Type 1 : colère refoulée en ressentiment                      │
-  ├──────────────────────────────────────────────────────────────────┤
-  │   CENTRE ÉMOTIONNEL (Cœur)     Types 2 — 3 — 4                  │
-  │   Émotion réprimée : honte                                       │
-  │   Préoccupation : image de soi, identité, reconnaissance         │
-  │                                                                  │
-  │   Type 2 : honte de ses besoins → aide les autres               │
-  │   Type 3 : honte de son vrai soi → construit une image          │
-  │   Type 4 : honte d'être ordinaire → cultive l'unicité           │
-  ├──────────────────────────────────────────────────────────────────┤
-  │   CENTRE MENTAL (Tête)         Types 5 — 6 — 7                  │
-  │   Émotion réprimée : peur                                        │
-  │   Préoccupation : sécurité, stratégies, anticipation             │
-  │                                                                  │
-  │   Type 5 : peur de l'envahissement → retrait                    │
-  │   Type 6 : peur du danger → anticipation constante              │
-  │   Type 7 : peur de la souffrance → fuite en avant               │
-  └──────────────────────────────────────────────────────────────────┘
+```mermaid
+block-beta
+  columns 1
+  I["CENTRE INSTINCTIF (Corps) — Types 8 — 9 — 1\nÉmotion réprimée : colère\nPréoccupation : autonomie, contrôle, limites\nType 8 : colère exprimée directement\nType 9 : colère oubliée, endormie\nType 1 : colère refoulée en ressentiment"]
+  E["CENTRE ÉMOTIONNEL (Cœur) — Types 2 — 3 — 4\nÉmotion réprimée : honte\nPréoccupation : image de soi, identité, reconnaissance\nType 2 : honte de ses besoins → aide les autres\nType 3 : honte de son vrai soi → construit une image\nType 4 : honte d'être ordinaire → cultive l'unicité"]
+  M["CENTRE MENTAL (Tête) — Types 5 — 6 — 7\nÉmotion réprimée : peur\nPréoccupation : sécurité, stratégies, anticipation\nType 5 : peur de l'envahissement → retrait\nType 6 : peur du danger → anticipation constante\nType 7 : peur de la souffrance → fuite en avant"]
 ```
 
 ## Les ailes

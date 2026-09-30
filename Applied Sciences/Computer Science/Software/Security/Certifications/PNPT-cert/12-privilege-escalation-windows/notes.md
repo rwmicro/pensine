@@ -12,37 +12,15 @@ Le privesc Windows est plus structuré que le Linux : moins de "misconfigs aléa
 
 ## Arbre de décision
 
-```
-   Shell utilisateur Windows obtenu
-                │
-                ▼
-   ┌──────────────────────────┐
-   │ 1. whoami /priv          │ → SeImpersonate / SeBackup / SeDebug ?
-   └─────────────┬────────────┘
-                 ▼
-   ┌──────────────────────────┐
-   │ 2. whoami /groups        │ → Admin local en medium integrity ? UAC bypass
-   └─────────────┬────────────┘
-                 ▼
-   ┌──────────────────────────┐
-   │ 3. Services mal config   │ → binPath writable, unquoted path, DLL hijack
-   └─────────────┬────────────┘
-                 ▼
-   ┌──────────────────────────┐
-   │ 4. AlwaysInstallElevated │ → MSI en SYSTEM si activé
-   └─────────────┬────────────┘
-                 ▼
-   ┌──────────────────────────┐
-   │ 5. Credentials stockées  │ → cmdkey, DPAPI, registry, unattend
-   └─────────────┬────────────┘
-                 ▼
-   ┌──────────────────────────┐
-   │ 6. Tâches planifiées     │ → scripts SYSTEM modifiables
-   └─────────────┬────────────┘
-                 ▼
-   ┌──────────────────────────┐
-   │ 7. Kernel exploit        │ → dernier recours
-   └──────────────────────────┘
+```mermaid
+flowchart TD
+    S["Shell utilisateur Windows obtenu"] --> N1["1. whoami /priv → SeImpersonate / SeBackup / SeDebug ?"]
+    N1 --> N2["2. whoami /groups → Admin local en medium integrity ? UAC bypass"]
+    N2 --> N3["3. Services mal config → binPath writable, unquoted path, DLL hijack"]
+    N3 --> N4["4. AlwaysInstallElevated → MSI en SYSTEM si activé"]
+    N4 --> N5["5. Credentials stockées → cmdkey, DPAPI, registry, unattend"]
+    N5 --> N6["6. Tâches planifiées → scripts SYSTEM modifiables"]
+    N6 --> N7["7. Kernel exploit → dernier recours"]
 ```
 
 ## Énumération automatique

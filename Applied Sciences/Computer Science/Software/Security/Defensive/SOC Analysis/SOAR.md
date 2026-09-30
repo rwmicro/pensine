@@ -31,26 +31,13 @@ En pratique, SIEM et SOAR sont complémentaires et souvent couplés (Splunk SOAR
 
 Un playbook est un workflow décisionnel qui orchestre les actions à effectuer en réponse à un type d'incident.
 
-```
-Alerte SIEM : "Login depuis une IP de réputation faible"
-        ↓
-[Enrichissement automatique]
-  → Vérifier réputation IP (VirusTotal, AbuseIPDB)
-  → Vérifier l'historique de l'utilisateur (AD)
-  → Chercher d'autres alertes liées au même utilisateur (30 dernières minutes)
-        ↓
-[Décision automatique]
-  SI score de réputation IP > 80 ET utilisateur VIP
-    → Bloquer IP (firewall)
-    → Révoquer session (AD)
-    → Créer ticket P1 (ServiceNow)
-    → Notifier RSSI (email/Slack)
-  SINON SI score > 50
-    → Créer ticket P2 pour review analyste
-    → Ajouter IP en watchlist SIEM
-  SINON
-    → Fermer l'alerte (FP probable)
-    → Ajouter à la whitelist
+```mermaid
+flowchart TD
+    A["Alerte SIEM : Login depuis une IP de réputation faible"] --> E["Enrichissement automatique\nVérifier réputation IP (VirusTotal, AbuseIPDB)\nVérifier l'historique de l'utilisateur (AD)\nChercher d'autres alertes liées au même utilisateur (30 dernières minutes)"]
+    E --> D{"Décision automatique"}
+    D -->|"score de réputation IP > 80 ET utilisateur VIP"| B1["Bloquer IP (firewall)\nRévoquer session (AD)\nCréer ticket P1 (ServiceNow)\nNotifier RSSI (email/Slack)"]
+    D -->|"score > 50"| B2["Créer ticket P2 pour review analyste\nAjouter IP en watchlist SIEM"]
+    D -->|"sinon"| B3["Fermer l'alerte (FP probable)\nAjouter à la whitelist"]
 ```
 
 > [!warning] Piège
@@ -145,16 +132,18 @@ Le SOAR centralise la gestion des incidents : timeline des événements, pièces
 
 ## TheHive + Cortex (stack open source)
 
-```
-SIEM/EDR → Alerte → TheHive (case management)
-                         ↓
-                    Cortex (analyseurs)
-                    ├── VirusTotal
-                    ├── Shodan
-                    ├── MISP
-                    └── AbuseIPDB
-                         ↓
-                    Résultats enrichis dans le case
+```mermaid
+flowchart TD
+    S["SIEM/EDR"] --> A["Alerte"] --> T["TheHive (case management)"]
+    T --> C["Cortex (analyseurs)"]
+    C --> V["VirusTotal"]
+    C --> SH["Shodan"]
+    C --> MI["MISP"]
+    C --> AB["AbuseIPDB"]
+    V --> R["Résultats enrichis dans le case"]
+    SH --> R
+    MI --> R
+    AB --> R
 ```
 
 ```python

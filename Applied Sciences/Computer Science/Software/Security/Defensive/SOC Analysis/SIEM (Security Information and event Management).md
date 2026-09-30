@@ -36,17 +36,18 @@ flowchart LR
 
 ## Architecture typique
 
-```
-Endpoints (Sysmon, EDR)   ┐
-Firewalls / IPS           ├── Collecteurs (Beats, NXLog, Fluentd)
-Proxies web               │         ↓
-Authentification (AD)     ├── Message Queue (Kafka, Redis)
-Applications métier       │         ↓
-Cloud (CloudTrail, GCP)   ┘   Indexation (Elasticsearch, Splunk)
-                                      ↓
-                            Corrélation & Règles de détection
-                                      ↓
-                            Dashboard / Alertes / Case Management
+```mermaid
+flowchart TD
+    S1["Endpoints (Sysmon, EDR)"] --> C
+    S2["Firewalls / IPS"] --> C
+    S3["Proxies web"] --> C
+    S4["Authentification (AD)"] --> C
+    S5["Applications métier"] --> C
+    S6["Cloud (CloudTrail, GCP)"] --> C
+    C["Collecteurs (Beats, NXLog, Fluentd)"] --> Q["Message Queue (Kafka, Redis)"]
+    Q --> I["Indexation (Elasticsearch, Splunk)"]
+    I --> R["Corrélation & Règles de détection"]
+    R --> D["Dashboard / Alertes / Case Management"]
 ```
 
 ## Sources de logs prioritaires
@@ -98,12 +99,12 @@ ALORS : Alerte MEDIUM — "Potential brute force on account {user}"
 
 ### Règles multi-étapes (séquences)
 
-```
-RÈGLE : Compromission de compte suivi d'accès inhabituel
-ÉTAPE 1 : Succès d'auth depuis une IP jamais vue (4624)
-ÉTAPE 2 : Dans les 15 minutes, accès à un partage sensible (5140)
-ÉTAPE 3 : Exécution d'un processus inhabituel (4688)
-→ Alerte HIGH — "Potential account takeover"
+```mermaid
+flowchart TD
+    R["RÈGLE : Compromission de compte suivi d'accès inhabituel"] --> E1["ÉTAPE 1 : Succès d'auth depuis une IP jamais vue (4624)"]
+    E1 --> E2["ÉTAPE 2 : Dans les 15 minutes, accès à un partage sensible (5140)"]
+    E2 --> E3["ÉTAPE 3 : Exécution d'un processus inhabituel (4688)"]
+    E3 --> A["Alerte HIGH — Potential account takeover"]
 ```
 
 ### Exemples de règles Splunk (SPL)

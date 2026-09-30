@@ -57,17 +57,17 @@ Formats supportés : `raw` (dump brut), `lime` (format LiME avec en-têtes de se
 
 Chaque processus possède son propre espace d'adressage virtuel. L'OS maintient une structure (EPROCESS sur Windows, task_struct sur Linux) qui décrit chaque processus. Volatility navigue ces structures pour reconstruire l'état du système.
 
-```
-Mémoire physique
-├── Noyau OS (kernel space)
-│   ├── Structures de processus (EPROCESS, task_struct)
-│   ├── Listes chaînées des processus actifs
-│   └── Listes des objets (handles, tokens, connexions)
-└── Espace utilisateur (user space)
-    ├── Code de l'exécutable
-    ├── Bibliothèques (DLL, .so)
-    ├── Heap
-    └── Stack
+```mermaid
+flowchart TD
+    M["Mémoire physique"] --> K["Noyau OS (kernel space)"]
+    M --> U["Espace utilisateur (user space)"]
+    K --> K1["Structures de processus (EPROCESS, task_struct)"]
+    K --> K2["Listes chaînées des processus actifs"]
+    K --> K3["Listes des objets (handles, tokens, connexions)"]
+    U --> U1["Code de l'exécutable"]
+    U --> U2["Bibliothèques (DLL, .so)"]
+    U --> U3["Heap"]
+    U --> U4["Stack"]
 ```
 
 ## Volatility 3
@@ -213,27 +213,11 @@ vol.py -f memdump.raw windows.filescan | grep -i "chrome\|firefox"
 
 ## Workflow typique d'analyse
 
-```
-1. Identifier l'OS et la version
-   → vol.py windows.info
-
-2. Lister les processus et chercher les anomalies
-   → pslist + pstree (hiérarchie) + psscan (processus cachés)
-   → Vérifier : noms inhabituels, parents inattendus (svchost sous explorer.exe), PID 0/4 suspects
-
-3. Analyser les connexions réseau
-   → netstat / netscan
-   → Vérifier : connexions vers des IPs externes inconnues, ports inhabituels
-
-4. Examiner les processus suspects
-   → cmdline (arguments)
-   → dlllist (DLLs chargées)
-   → malfind (injections)
-
-5. Chercher la persistance
-   → registre (RunKeys), services (svcscan), tâches planifiées
-
-6. Extraire et analyser les artefacts
-   → procdump + analyse statique (Ghidra, strings)
-   → dumpfiles pour les fichiers suspects
+```mermaid
+flowchart TD
+    A["1. Identifier l'OS et la version\nvol.py windows.info"] --> B["2. Lister les processus et chercher les anomalies\npslist + pstree (hiérarchie) + psscan (processus cachés)\nVérifier : noms inhabituels, parents inattendus (svchost sous explorer.exe), PID 0/4 suspects"]
+    B --> C["3. Analyser les connexions réseau\nnetstat / netscan\nVérifier : connexions vers des IPs externes inconnues, ports inhabituels"]
+    C --> D["4. Examiner les processus suspects\ncmdline (arguments)\ndlllist (DLLs chargées)\nmalfind (injections)"]
+    D --> E["5. Chercher la persistance\nregistre (RunKeys), services (svcscan), tâches planifiées"]
+    E --> F["6. Extraire et analyser les artefacts\nprocdump + analyse statique (Ghidra, strings)\ndumpfiles pour les fichiers suspects"]
 ```

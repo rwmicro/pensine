@@ -14,25 +14,18 @@ La reconnaissance, c'est l'étape où on transforme "j'ai une cible" en "j'ai un
 
 Deux philosophies, deux niveaux de bruit. Connaître la différence évite de griller son anonymat trop tôt.
 
-```
-                          ┌──────────────────────┐
-                          │   PHASE DE RECON     │
-                          └──────────┬───────────┘
-                                     │
-              ┌──────────────────────┴──────────────────────┐
-              ▼                                             ▼
-        PASSIVE                                         ACTIVE
-   (rien envoyé à la cible)                  (paquets envoyés à la cible)
-              │                                             │
-        ┌─────┴─────┐                                ┌──────┴──────┐
-        ▼           ▼                                ▼             ▼
-   Whois, DNS    Shodan,                       Ping sweep,    Scans Nmap,
-   public,       Censys,                       ARP scan,      enumération
-   crt.sh        archives                      DNS brute      services
-              │                                             │
-              ▼                                             ▼
-    Indétectable côté cible                Détectable, journalisé
-                                            (IDS, WAF, logs)
+```mermaid
+flowchart TD
+    R["PHASE DE RECON"] --> PA["PASSIVE\n(rien envoyé à la cible)"]
+    R --> AC["ACTIVE\n(paquets envoyés à la cible)"]
+    PA --> P1["Whois, DNS public, crt.sh"]
+    PA --> P2["Shodan, Censys, archives"]
+    AC --> A1["Ping sweep, ARP scan, DNS brute"]
+    AC --> A2["Scans Nmap, énumération services"]
+    P1 --> PR["Indétectable côté cible"]
+    P2 --> PR
+    A1 --> AR["Détectable, journalisé\n(IDS, WAF, logs)"]
+    A2 --> AR
 ```
 
 L'OSINT (`04-osint`) est entièrement passif. La reconnaissance active commence ici.

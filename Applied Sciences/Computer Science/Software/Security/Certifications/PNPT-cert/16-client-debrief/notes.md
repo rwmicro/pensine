@@ -14,21 +14,14 @@ Le débrief client est la partie la plus négligée à la préparation, et la pl
 
 Un débrief réussi navigue entre deux registres sans choisir un seul.
 
-```
-   Audience du débrief
-            │
-   ┌────────┴────────┐
-   ▼                 ▼
-   Direction         Équipe technique
-   (DSI, RSSI,       (sysadmin, dev,
-   parfois DG)       sécu)
-   │                 │
-   ▼                 ▼
-   "Quel risque ?"   "Comment c'est arrivé ?"
-   "Coûts ?"         "Comment corriger ?"
-   "Priorités ?"     "Reproductibilité ?"
-   │                 │
-   └─── doivent tous deux comprendre ───┘
+```mermaid
+flowchart TD
+    A["Audience du débrief"] --> D["Direction\n(DSI, RSSI, parfois DG)"]
+    A --> T["Équipe technique\n(sysadmin, dev, sécu)"]
+    D --> DQ["Quel risque ?\nCoûts ?\nPriorités ?"]
+    T --> TQ["Comment c'est arrivé ?\nComment corriger ?\nReproductibilité ?"]
+    DQ --> C["Doivent tous deux comprendre"]
+    TQ --> C
 ```
 
 **Règle d'or** : commencer business, descendre dans la technique progressivement, remonter en business pour les remédiations.
@@ -64,20 +57,12 @@ Après les 5 jours de pentest + 2 jours de rédaction :
 
 C'est le cœur de la présentation. Montrer l'enchaînement complet en 5–6 étapes clés.
 
-```
-   Recon (OSINT)
-        │
-        ▼
-   Premier accès (vuln web ou phishing)
-        │
-        ▼
-   Énumération interne (BloodHound)
-        │
-        ▼
-   Élévation latérale (Kerberoasting)
-        │
-        ▼
-   Domain Admin (DCSync)
+```mermaid
+flowchart TD
+    R["Recon (OSINT)"] --> P["Premier accès (vuln web ou phishing)"]
+    P --> E["Énumération interne (BloodHound)"]
+    E --> L["Élévation latérale (Kerberoasting)"]
+    L --> D["Domain Admin (DCSync)"]
 ```
 
 Pour chaque étape : une slide, un screenshot clé, et l'impact ("à ce stade, l'attaquant pourrait déjà...").

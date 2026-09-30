@@ -12,27 +12,16 @@ Le web est aujourd'hui le premier vecteur d'accès initial — bien avant le phi
 
 ## Le modèle d'une attaque web
 
-```
-   Client (navigateur)              Serveur (application)              Backend
-   ─────────────────                ────────────────────                ───────
-        │                                  │                              │
-        │  GET /page?id=1                  │                              │
-        │ ─────────────────────────►       │                              │
-        │                                  │  SELECT * FROM users         │
-        │                                  │  WHERE id = '1'              │
-        │                                  │ ────────────────────►        │
-        │                                  │                              │
-        │                                  │  ◄────────── résultat        │
-        │  ◄─────────── page rendue        │                              │
-        │                                  │                              │
-        │                                                                 │
-        │  Surfaces d'attaque :                                          │
-        │   - paramètres URL (?id=)                                       │
-        │   - body POST                                                   │
-        │   - cookies, headers                                            │
-        │   - fichiers uploadés                                           │
-        │   - JSON / XML body                                             │
-        └─────────────────────────────────────────────────────────────────┘
+```mermaid
+sequenceDiagram
+    participant C as Client (navigateur)
+    participant S as Serveur (application)
+    participant B as Backend
+    C->>S: GET /page?id=1
+    S->>B: SELECT * FROM users WHERE id = '1'
+    B-->>S: résultat
+    S-->>C: page rendue
+    Note over C,B: Surfaces d'attaque : paramètres URL (?id=), body POST, cookies, headers, fichiers uploadés, JSON / XML body
 ```
 
 À chaque flèche, demander : "que se passe-t-il si je modifie ce qui passe ?". C'est ça, le réflexe pentest web.
