@@ -17,7 +17,7 @@ timeline
     title Le Japon, de l'époque Heian à la reconstruction
     section Japon ancien
         VIe siècle : Introduction du bouddhisme depuis la Corée
-        710 : Nara, première capitale fixe
+        710 : Nara, capitale sur le modèle de Chang an
         794 : Fondation de Heian-kyō, l'actuelle Kyōto
     section Âge des guerriers
         1185 : Shogunat de Kamakura
@@ -40,7 +40,7 @@ timeline
 
 L'archipel est occupé par les chasseurs-cueilleurs de la **culture Jōmon**, qui produisent parmi les plus anciennes poteries du monde. Au cours du Ier millénaire av. J.-C., la **culture Yayoi** introduit depuis le continent la riziculture irriguée et le travail des métaux. Aux IIIe-VIe siècles, de grands tumulus funéraires (*kofun*) témoignent de l'émergence d'une aristocratie guerrière, autour de laquelle se forme la lignée impériale du Yamato.
 
-Au VIe siècle, le bouddhisme arrive par la Corée. Au VIIe siècle, les réformes de l'ère Taika (à partir de 645) tentent de copier le modèle chinois des Tang : terres théoriquement propriété de l'État, impôts, codes de lois, administration centralisée. En 710 est fondée **Nara**, première capitale fixe, tracée en damier sur le modèle de Chang'an. Le culte des *kami*, qui prendra plus tard le nom de shintō, coexiste et se mêle au bouddhisme pendant plus d'un millénaire.
+Au VIe siècle, le bouddhisme arrive par la Corée. Au VIIe siècle, les réformes de l'ère Taika (à partir de 645) tentent de copier le modèle chinois des Tang : terres théoriquement propriété de l'État, impôts, codes de lois, administration centralisée. En 710 est fondée **Nara**, capitale durable (après Fujiwara-kyō, 694-710), tracée en damier sur le modèle de Chang'an. Le culte des *kami*, qui prendra plus tard le nom de shintō, coexiste et se mêle au bouddhisme pendant plus d'un millénaire.
 
 ## L'époque de Heian (794-1185)
 

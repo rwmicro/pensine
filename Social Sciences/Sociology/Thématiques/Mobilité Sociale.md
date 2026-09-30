@@ -84,7 +84,7 @@ Le débat contemporain oppose plusieurs positions. Pour les défenseurs de l'ég
 
 ## L'expérience vécue de la mobilité
 
-La mobilité n'est pas qu'un mouvement statistique : elle se vit, souvent comme un déplacement entre deux mondes. Richard Hoggart, dans *La Culture du pauvre* (1957), décrit déjà le « boursier » tiraillé entre son milieu d'origine et le monde lettré. Didier Eribon (*Retour à Reims*, 2009) ou la philosophe Chantal Jaquet (*Les Transclasses*, 2014) ont analysé ces trajectoires de transfuges, faites de loyautés contradictoires et de gêne sociale, dont l'œuvre d'Annie Ernaux offre une version littéraire. À l'inverse, l'enquête de Benoît Coquard, [[Ceux qui restent]], montre des jeunes qui choisissent de ne pas partir, pour qui l'ancrage local vaut davantage qu'une ascension incertaine en ville.
+La mobilité n'est pas qu'un mouvement statistique : elle se vit, souvent comme un déplacement entre deux mondes. Richard Hoggart, dans *La Culture du pauvre* (*The Uses of Literacy*, 1957, trad. fr. 1970), décrit déjà le « boursier » tiraillé entre son milieu d'origine et le monde lettré. Didier Eribon (*Retour à Reims*, 2009) ou la philosophe Chantal Jaquet (*Les Transclasses*, 2014) ont analysé ces trajectoires de transfuges, faites de loyautés contradictoires et de gêne sociale, dont l'œuvre d'Annie Ernaux offre une version littéraire. À l'inverse, l'enquête de Benoît Coquard, [[Ceux qui restent]], montre des jeunes qui choisissent de ne pas partir, pour qui l'ancrage local vaut davantage qu'une ascension incertaine en ville.
 
 ## Chronologie
 
