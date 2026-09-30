@@ -1,3 +1,10 @@
+---
+title: "sources/tts — Génération audio de prononciation"
+domain: "Méta"
+subdomain: "Configuration > Audio"
+tags: [tts, audio, prononciation, elevenlabs, outils]
+date: "2026-09-25"
+---
 # sources/tts — Génération audio de prononciation
 
 Outils pour ajouter des clips de prononciation aux notes de langues
