@@ -106,18 +106,18 @@ timeline
 
 En 1868, le nouveau gouvernement Meiji décrète la **séparation des kami et des bouddhas** (*shinbutsu bunri*). Elle provoque une vague de violences contre le bouddhisme (destruction de statues, défroquage de moines), avant que l'État ne la freine. Il construit ensuite ce que les historiens appellent le **shintô d'État** : les sanctuaires deviennent des institutions publiques, les prêtres des fonctionnaires, et le culte de l'empereur, descendant d'Amaterasu, est enseigné à l'école, notamment par le Rescrit impérial sur l'éducation de 1890. L'astuce juridique consiste à déclarer que les rites des sanctuaires ne sont **pas une religion** mais un devoir civique, ce qui permet de les imposer à tous tout en proclamant la liberté religieuse. Le sanctuaire Yasukuni, fondé en 1869 pour honorer les morts au service de l'empereur, en devient un pilier.
 
-En décembre 1945, la **directive shintô** des forces d'occupation abolit le soutien de l'État aux sanctuaires. Le 1er janvier 1946, l'empereur Hirohito publie un rescrit dans lequel il nie le caractère divin de sa personne. La constitution de 1947 établit la séparation de l'État et de la religion. Les sanctuaires deviennent des institutions religieuses privées. La question n'est pourtant pas close : les visites de Premiers ministres à Yasukuni, où sont honorés depuis 1978 des criminels de guerre condamnés, provoquent régulièrement des protestations de la Chine et de la Corée du Sud.
+En décembre 1945, la **directive shintô** des forces d'occupation abolit le soutien de l'État aux sanctuaires. Le 1er janvier 1946, l'empereur Hirohito publie un rescrit dans lequel il nie le caractère divin de sa personne. La constitution de 1947 établit la séparation de l'État et de la religion. Les sanctuaires deviennent des institutions religieuses privées. La question n'est pourtant pas close : les visites de Premiers ministres à Yasukuni, où sont honorés depuis 1978 quatorze criminels de guerre de classe A, condamnés ou inculpés par le tribunal de Tokyo, provoquent régulièrement des protestations de la Chine et de la Corée du Sud.
 
 ## Présence aujourd'hui
 
-Les chiffres du shintô illustrent l'inadéquation des catégories d'appartenance religieuse. Les statistiques du gouvernement japonais, fondées sur les déclarations des organisations religieuses, comptent de l'ordre de 80 à 90 millions d'adhérents shintô, et presque autant de bouddhistes, soit bien plus que la population du pays. À l'inverse, dans les enquêtes où l'on interroge les individus, seule une petite minorité se déclare shintô, et le Pew Research Center classe une majorité de Japonais parmi les sans-affiliation religieuse.
+Les chiffres du shintô illustrent l'inadéquation des catégories d'appartenance religieuse. Les statistiques du gouvernement japonais, fondées sur les déclarations des organisations religieuses, comptent de l'ordre de 80 à 90 millions d'adhérents shintô (84,7 millions fin 2016 selon l'Agence des affaires culturelles), et presque autant de bouddhistes (87,7 millions), soit bien plus que la population du pays. À l'inverse, dans les enquêtes où l'on interroge les individus, seule une petite minorité se déclare shintô, et le Pew Research Center classait 57 % des Japonais parmi les sans-affiliation religieuse (estimation pour 2010).
 
 | Indicateur | Ordre de grandeur |
 |---|---|
-| Sanctuaires | Environ 80 000 |
+| Sanctuaires | Environ 80 000 (81 158 en 2016) |
 | Adhérents selon les organisations religieuses | 80 à 90 millions |
-| Japonais se déclarant shintô dans les enquêtes | Quelques pour cent |
-| Visites de sanctuaires ou temples au Nouvel An | Plusieurs dizaines de millions |
+| Japonais se déclarant shintô dans les enquêtes | 2 à 3 % (enquêtes ISSP de 2008 et 2018) |
+| Visites de sanctuaires ou temples au Nouvel An | Plus de 3 millions au seul sanctuaire Meiji de Tokyo, et des millions dans chacun des grands sanctuaires et temples |
 
 La clé du paradoxe tient à ce que *shûkyô*, « religion » en japonais, évoque une adhésion doctrinale et une organisation, que beaucoup rejettent, alors que visiter un sanctuaire relève de la coutume. C'est ce que les chercheurs décrivent comme une religiosité de pratique plutôt que de croyance, à rapprocher du [[Confucianisme]] chinois.
 

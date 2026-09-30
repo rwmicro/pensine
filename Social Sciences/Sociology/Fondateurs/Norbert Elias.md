@@ -12,9 +12,9 @@ Sociologue allemand d'origine juive, exilé en Angleterre, Norbert Elias est l'a
 
 ## Biographie et contexte
 
-Elias naît en 1897 à Breslau (aujourd'hui Wrocław, en Pologne), fils unique d'une famille juive aisée et assimilée. Il sert dans l'armée allemande pendant la Première Guerre mondiale, comme télégraphiste, puis étudie la médecine et la philosophie à Breslau, où il soutient en 1924 une thèse de philosophie. Il se tourne ensuite vers la sociologie à Heidelberg, dans l'entourage d'Alfred Weber (le frère de [[Max Weber]]) et de Karl Mannheim, dont il devient l'assistant à Francfort en 1930.
+Elias naît en 1897 à Breslau (aujourd'hui Wrocław, en Pologne), fils unique d'une famille juive aisée et assimilée. Il sert dans l'armée allemande pendant la Première Guerre mondiale, d'abord comme télégraphiste, puis étudie la médecine et la philosophie à Breslau, où il soutient en 1924 une thèse de philosophie. Il se tourne ensuite vers la sociologie à Heidelberg, dans l'entourage d'Alfred Weber (le frère de [[Max Weber]]) et de Karl Mannheim, dont il devient l'assistant à Francfort en 1930.
 
-Sa thèse d'habilitation, consacrée à la société de cour, est achevée au moment où les nazis prennent le pouvoir en 1933 ; la procédure n'aboutit pas et Elias prend le chemin de l'exil — Paris d'abord, puis Londres à partir de 1935 (voir [[Montée du nazisme]]). C'est là qu'il rédige, en lecteur assidu de la British Library, *Über den Prozess der Zivilisation*, publié en deux volumes à Bâle en 1939. L'ouvrage paraît au pire moment : la guerre éclate, un livre allemand écrit par un juif exilé ne trouve presque aucun lecteur. Son père meurt à Breslau en 1940 ; sa mère, déportée, est assassinée à Auschwitz. Elias lui-même est interné quelques mois comme ressortissant ennemi sur l'île de Man.
+Sa thèse d'habilitation, consacrée à la société de cour, est achevée au moment où les nazis prennent le pouvoir en 1933 ; la procédure n'aboutit pas et Elias prend le chemin de l'exil — Paris d'abord, puis Londres à partir de 1935 (voir [[Montée du nazisme]]). C'est là qu'il rédige, en lecteur assidu de la salle de lecture du British Museum, *Über den Prozess der Zivilisation*, publié en deux volumes à Bâle en 1939. L'ouvrage paraît au pire moment : la guerre éclate, un livre allemand écrit par un juif exilé ne trouve presque aucun lecteur. Son père meurt à Breslau en 1940 ; sa mère, déportée à Theresienstadt en 1942, est assassinée à Treblinka. Elias lui-même est interné quelques mois comme ressortissant ennemi sur l'île de Man.
 
 Après la guerre, il vit de cours pour adultes et participe avec le psychiatre S. H. Foulkes aux débuts de la psychothérapie de groupe. Il n'obtient un poste universitaire stable qu'en 1954, à l'université de Leicester, à 57 ans. Il enseigne ensuite deux ans au Ghana (1962-1964). La reconnaissance vient avec la réédition allemande de 1969, les traductions françaises des années 1970 et le prix Adorno qu'il reçoit en 1977. Il passe ses dernières années à Amsterdam, où il meurt en 1990, en publiant jusqu'au bout.
 
@@ -94,7 +94,7 @@ timeline
     title Norbert Elias
     section Allemagne
         1897 : Naissance à Breslau
-        1915-1918 : Télégraphiste dans l'armée allemande
+        1915-1918 : Soldat de l'armée allemande, d'abord télégraphiste
         1924 : Doctorat de philosophie à Breslau
         1930 : Assistant de Karl Mannheim à Francfort
     section Exil

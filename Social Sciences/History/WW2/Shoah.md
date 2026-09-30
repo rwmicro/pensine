@@ -32,13 +32,13 @@ timeline
 
 ## De l'exclusion à la persécution (1933-1939)
 
-Dès l'arrivée de Hitler au pouvoir, les Juifs d'Allemagne, environ un demi-million de personnes, soit moins de 1 % de la population, sont visés. Le 1er avril 1933, le régime organise un boycott des commerces juifs ; une loi d'avril 1933 exclut les fonctionnaires « non aryens ». Les lois de Nuremberg de septembre 1935 retirent aux Juifs la citoyenneté du Reich et interdisent mariages et relations sexuelles avec des « Allemands de sang ». L'« aryanisation » des entreprises dépouille progressivement les Juifs de leurs biens. Les 9 et 10 novembre 1938, le pogrom de la « Nuit de cristal » voit l'incendie de centaines de synagogues, le saccage de milliers de magasins, des dizaines de meurtres et l'internement d'environ trente mille hommes juifs dans des camps de concentration.
+Dès l'arrivée de Hitler au pouvoir, les Juifs d'Allemagne, environ un demi-million de personnes, soit moins de 1 % de la population, sont visés. Le 1er avril 1933, le régime organise un boycott des commerces juifs ; une loi d'avril 1933 exclut les fonctionnaires « non aryens ». Les lois de Nuremberg de septembre 1935 retirent aux Juifs la citoyenneté du Reich et interdisent mariages et relations sexuelles avec des « Allemands de sang ». L'« aryanisation » des entreprises dépouille progressivement les Juifs de leurs biens. Les 9 et 10 novembre 1938, le pogrom de la « Nuit de cristal » voit l'incendie ou la destruction de plus d'un millier de synagogues, le saccage de milliers de magasins, près d'une centaine de meurtres (des centaines de morts en comptant les suites) et l'internement de vingt-six mille à trente mille hommes juifs dans des camps de concentration.
 
 Pendant cette période, l'objectif nazi est de chasser les Juifs d'Allemagne par l'émigration forcée et la spoliation. Environ la moitié des Juifs allemands émigrent avant la guerre, malgré la fermeture croissante des pays d'accueil, que révèle l'échec de la conférence d'Évian en 1938.
 
 ## La guerre, les ghettos et les premiers massacres (1939-1941)
 
-L'[[Invasion of Poland|invasion de la Pologne]] en septembre 1939 place sous domination allemande près de deux millions de Juifs polonais. Les nazis les concentrent dans des ghettos urbains : celui de Łódź est fermé au printemps 1940, celui de Varsovie en novembre 1940, où plus de quatre cent mille personnes s'entassent sur quelques kilomètres carrés. La faim, le typhus et le travail forcé y tuent en masse : les ghettos sont déjà un instrument de mort, même s'ils ne sont pas encore conçus comme une étape vers l'extermination.
+L'[[Invasion of Poland|invasion de la Pologne]] en septembre 1939 place sous domination allemande environ 1,7 million de Juifs polonais. Les nazis les concentrent dans des ghettos urbains : celui de Łódź est fermé au printemps 1940, celui de Varsovie en novembre 1940, où plus de quatre cent mille personnes s'entassent sur quelques kilomètres carrés. La faim, le typhus et le travail forcé y tuent en masse : les ghettos sont déjà un instrument de mort, même s'ils ne sont pas encore conçus comme une étape vers l'extermination.
 
 Dans le même temps, le programme « T4 » d'assassinat des personnes handicapées, lancé en 1939, met au point le gazage dans des installations camouflées en douches et forme un personnel qui sera ensuite affecté aux centres de mise à mort.
 
@@ -48,7 +48,7 @@ Le tournant survient avec l'invasion de l'Union soviétique le 22 juin 1941. Der
 
 ## Les centres de mise à mort (1942-1944)
 
-À partir de la fin de 1941, les nazis créent des installations dont la seule fonction est de tuer. Chelmno commence à gazer au moyen de camions en décembre 1941. En 1942, l'« opération Reinhard » met en service trois centres dans l'est de la Pologne, Belzec, Sobibor et Treblinka, où environ un million sept cent mille Juifs, principalement polonais, sont assassinés, pour la plupart dans les heures qui suivent leur arrivée. Auschwitz-Birkenau, à la fois camp de concentration et centre de mise à mort, devient le principal lieu de l'extermination des Juifs d'Europe occidentale, centrale et méridionale : environ un million de Juifs y sont tués, ainsi que des Polonais, des Roms et des prisonniers soviétiques.
+À partir de la fin de 1941, les nazis créent des installations dont la seule fonction est de tuer. Chelmno commence à gazer au moyen de camions en décembre 1941. En 1942, l'« opération Reinhard » met en service trois centres dans l'est de la Pologne, Belzec, Sobibor et Treblinka, où environ un million et demi de Juifs, principalement polonais, sont assassinés (environ 1,7 million en comptant les fusillades liées à l'opération), pour la plupart dans les heures qui suivent leur arrivée. Auschwitz-Birkenau, à la fois camp de concentration et centre de mise à mort, devient le principal lieu de l'extermination des Juifs d'Europe occidentale, centrale et méridionale : environ un million de Juifs y sont tués, ainsi que des Polonais, des Roms et des prisonniers soviétiques.
 
 La conférence de Wannsee, réunie le 20 janvier 1942 par Reinhard Heydrich, ne décide pas l'extermination, déjà en cours : elle coordonne sa mise en œuvre entre les administrations et l'étend à l'ensemble des Juifs d'Europe.
 
@@ -56,7 +56,7 @@ La conférence de Wannsee, réunie le 20 janvier 1942 par Reinhard Heydrich, ne 
 |:--|:--|:--|
 | Ghettos et camps de travail | Concentration, exploitation, mort par la faim et les épidémies | environ 800 000 à 1 million |
 | Fusillades mobiles, Einsatzgruppen et unités associées | Massacre sur place, surtout en territoire soviétique | environ 1,5 à 2 millions |
-| Centres de l'opération Reinhard | Mise à mort immédiate par gaz | environ 1,7 million |
+| Centres de l'opération Reinhard | Mise à mort immédiate par gaz | environ 1,5 million |
 | Auschwitz-Birkenau | Concentration et mise à mort | environ 1 million |
 | Chelmno, Majdanek et autres | Mise à mort, concentration | plusieurs centaines de milliers |
 
@@ -67,11 +67,11 @@ Ces chiffres sont des ordres de grandeur issus de la recherche (Hilberg, les mus
 
 ## L'Europe entière
 
-Aucun pays occupé n'est épargné. En France, environ soixante-quinze mille Juifs sont déportés, dont une large majorité vers Auschwitz, et moins de trois mille reviennent ; le régime de Vichy promulgue ses propres statuts des Juifs dès 1940 et sa police participe aux rafles, comme celle du Vel d'Hiv les 16 et 17 juillet 1942 (voir [[08 - Vichy, Occupation et Résistance]]). Au printemps 1944, plus de quatre cent mille Juifs de Hongrie sont déportés vers Auschwitz en quelques semaines. Les attitudes varient selon les pays : le Danemark fait passer la quasi-totalité de ses Juifs en Suède en 1943, tandis que d'autres gouvernements ou polices locales collaborent activement.
+Aucun pays occupé n'est épargné. En France, environ soixante-quinze mille Juifs sont déportés, dont une large majorité vers Auschwitz, et environ quatre mille seulement survivent (les recherches récentes ont relevé ce chiffre, longtemps estimé à 2 500) ; le régime de Vichy promulgue ses propres statuts des Juifs dès 1940 et sa police participe aux rafles, comme celle du Vel d'Hiv les 16 et 17 juillet 1942 (voir [[08 - Vichy, Occupation et Résistance]]). Entre mai et juillet 1944, plus de quatre cent mille Juifs de Hongrie sont déportés vers Auschwitz en quelques semaines. Les attitudes varient selon les pays : la résistance et la population danoises font passer en Suède, à l'automne 1943, environ 7 200 des quelque 8 000 Juifs du pays, tandis que d'autres gouvernements ou polices locales collaborent activement.
 
 Les Juifs ne sont pas restés passifs : révoltes des ghettos, dont celle de Varsovie en avril 1943, soulèvements à Treblinka et Sobibor en 1943, partisans juifs, sauvetage d'enfants, archives clandestines du ghetto de Varsovie constituées par le groupe d'Emanuel Ringelblum. Des milliers de non-Juifs les ont aidés au péril de leur vie ; Yad Vashem les honore du titre de « Juste parmi les nations ».
 
-D'autres groupes ont été persécutés et assassinés par le régime nazi : Roms et Sinti, dont le génocide a fait selon les estimations de deux cent mille à plus de cinq cent mille victimes, personnes handicapées, prisonniers de guerre soviétiques morts par millions, élites polonaises. La politique raciale nazie visait aussi à « régénérer » les Allemands dits aryens, comme le montre l'institution du [[Lebensborn]]. Mais seuls les Juifs ont été visés de manière systématique, à l'échelle du continent, en tant que peuple et jusqu'au dernier enfant ; les Roms ont aussi été persécutés comme groupe, et le degré de systématicité de leur extermination fait l'objet de débats entre historiens.
+D'autres groupes ont été persécutés et assassinés par le régime nazi : Roms et Sinti, dont le génocide a fait selon les estimations au moins deux cent cinquante mille et peut-être cinq cent mille victimes, personnes handicapées, prisonniers de guerre soviétiques morts par millions, élites polonaises. La politique raciale nazie visait aussi à « régénérer » les Allemands dits aryens, comme le montre l'institution du [[Lebensborn]]. Mais seuls les Juifs ont été visés de manière systématique, à l'échelle du continent, en tant que peuple et jusqu'au dernier enfant ; les Roms ont aussi été persécutés comme groupe, et le degré de systématicité de leur extermination fait l'objet de débats entre historiens.
 
 ## Comprendre : le débat intentionnalistes et fonctionnalistes
 
@@ -93,5 +93,5 @@ Le négationnisme, qui conteste l'existence des chambres à gaz, est réfuté pa
 - **Raul Hilberg**, *La Destruction des Juifs d'Europe* (1961)
 - **Primo Levi**, *Si c'est un homme* (1947)
 - **Christopher R. Browning**, *Des hommes ordinaires. Le 101e bataillon de réserve de la police allemande et la Solution finale en Pologne* (1992)
-- **Saul Friedländer**, *L'Allemagne nazie et les Juifs* (1997-2007)
+- **Saul Friedländer**, *L'Allemagne nazie et les Juifs*, 2 vol., *Les Années de persécution* (1997) et *Les Années d'extermination* (2007)
 - **Christopher R. Browning**, *Les Origines de la Solution finale* (2004)

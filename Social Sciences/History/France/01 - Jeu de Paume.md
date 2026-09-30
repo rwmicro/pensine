@@ -23,7 +23,7 @@ timeline
     section Un sport
         XIIe siècle : Jeu de balle à main nue en France
         XVIe siècle : François Ier passionné de paume : Raquette, salle fermée, règles stabilisées
-        Fin XVIe siècle : Apogée, 250 salles à Paris
+        Fin XVIe siècle : Apogée, environ 250 salles à Paris
         1657 : Déclin, 114 salles à Paris
     section Un symbole
         20 juin 1789 : Serment du Jeu de Paume à Versailles

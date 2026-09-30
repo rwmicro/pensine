@@ -113,7 +113,7 @@ timeline
 
 ## Ressources
 
-- Jean Baubérot, *Histoire de la laïcité en France*, collection Que sais-je ?, 2000.
+- Jean Baubérot, *Histoire de la laïcité en France*, collection Que sais-je ?, 2000 (1re édition parue sous le titre *Histoire de la laïcité française*).
 - Jean Baubérot, *Les 7 laïcités françaises*, 2015.
 - Charles Taylor, *A Secular Age*, 2007.
 - Jacqueline Lalouette, *La Séparation des Églises et de l'État. Genèse et développement d'une idée (1789-1905)*, 2005.

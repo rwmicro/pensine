@@ -108,7 +108,7 @@ Rome absorbe la Grèce politiquement mais en adopte la culture, au point que l'�
 ## Débats historiographiques
 
 > [!question] Débat : un « miracle grec » ?
-> Le XIXe siècle européen, avec Ernest Renan, a parlé d'un « miracle grec », une rupture de la raison surgie sans antécédents. Cette idée est aujourd'hui largement abandonnée. Walter Burkert (*The Orientalizing Revolution*, 1992) et Martin West (*The East Face of Helicon*, 1997) ont montré tout ce que la Grèce archaïque doit au Proche-Orient : l'alphabet phénicien, des mythes cosmogoniques proches de textes hittites et babyloniens, des techniques artistiques. Martin Bernal (*Black Athena*, 1987) a poussé la thèse beaucoup plus loin en affirmant une origine égyptienne et phénicienne de la civilisation grecque ; ses conclusions ont été largement contestées, mais le débat a obligé à reconnaître que l'image d'une Grèce isolée devait beaucoup aux présupposés de l'Europe du XIXe siècle.
+> Le XIXe siècle européen, avec Ernest Renan, a parlé d'un « miracle grec », une rupture de la raison surgie sans antécédents. Cette idée est aujourd'hui largement abandonnée. Walter Burkert (*The Orientalizing Revolution*, 1984 ; trad. angl. 1992) et Martin West (*The East Face of Helicon*, 1997) ont montré tout ce que la Grèce archaïque doit au Proche-Orient : l'alphabet phénicien, des mythes cosmogoniques proches de textes hittites et babyloniens, des techniques artistiques. Martin Bernal (*Black Athena*, 1987) a poussé la thèse beaucoup plus loin en affirmant une origine égyptienne et phénicienne de la civilisation grecque ; ses conclusions ont été largement contestées, mais le débat a obligé à reconnaître que l'image d'une Grèce isolée devait beaucoup aux présupposés de l'Europe du XIXe siècle.
 
 > [!question] Débat : le mirage spartiate
 > Presque tout ce que l'on sait de Sparte vient de non-Spartiates, souvent admirateurs (Xénophon, Plutarque, plusieurs siècles plus tard pour ce dernier). François Ollier a nommé en 1933 ce phénomène le « mirage spartiate » : une image idéalisée de cité austère, égalitaire et guerrière, reprise par Rousseau, par les révolutionnaires, puis instrumentalisée par les régimes autoritaires du XXe siècle. Les historiens récents insistent sur les inégalités de richesse entre Spartiates et sur le rôle central de la domination sur les hilotes.
@@ -119,4 +119,4 @@ Rome absorbe la Grèce politiquement mais en adopte la culture, au point que l'�
 - **Jean-Pierre Vernant**, *Les Origines de la pensée grecque* (1962)
 - **Michel Austin et Pierre Vidal-Naquet**, *Économies et sociétés en Grèce ancienne* (1972)
 - **Moses Finley**, *Democracy Ancient and Modern* (1973)
-- **Walter Burkert**, *The Orientalizing Revolution* (1992)
+- **Walter Burkert**, *The Orientalizing Revolution* (1984 ; trad. angl. 1992)

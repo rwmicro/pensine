@@ -54,7 +54,7 @@ C'est la pratique religieuse la plus répandue en Asie orientale, bien au-delà 
 
 | Rite | Description |
 |---|---|
-| **Sacrifice au Ciel** | Célébré par l'empereur seul, au solstice d'hiver, sur l'autel circulaire du Temple du Ciel à Pékin (construit au XVe siècle). Nul autre n'avait le droit de sacrifier au Ciel |
+| **Sacrifice au Ciel** | Célébré par l'empereur seul, au solstice d'hiver, sur l'autel circulaire du Temple du Ciel à Pékin (ensemble construit en 1406-1420, autel circulaire ajouté en 1530). Nul autre n'avait le droit de sacrifier au Ciel |
 | **Sacrifices à la Terre, au Soleil, à la Lune, aux dieux du sol et des moissons** | Répartis entre autels spécialisés, selon un calendrier fixé par le ministère des Rites |
 | **Culte de Confucius** | Offrandes rendues deux fois par an dans les temples de Confucius (*wenmiao*) de chaque chef-lieu, par les fonctionnaires et les étudiants. Le temple de Qufu, sa ville natale, en est le centre |
 | **Culte impérial des ancêtres** | Rendu par la dynastie à ses propres ancêtres, dans le temple ancestral impérial |
@@ -63,13 +63,13 @@ C'est la pratique religieuse la plus répandue en Asie orientale, bien au-delà 
 
 Le confucianisme n'a pas de clergé parce que **l'État en tient lieu**. L'empereur est le grand pontife, les fonctionnaires lettrés sont les officiants, le ministère des Rites fixe la liturgie, et les **examens impériaux**, qui recrutent l'administration sur la maîtrise des Classiques, assurent la reproduction de ce corps. La famille, de son côté, a son propre prêtre : le chef de lignée ou l'aîné.
 
-Sous l'empereur **Han Wudi** (règne 141-87 av. J.-C.), sur les conseils de Dong Zhongshu, les Classiques deviennent la base de l'enseignement officiel et une Académie impériale est créée. On parle souvent d'« adoption du confucianisme comme idéologie d'État » : les historiens nuancent aujourd'hui cette formule, car le légisme et d'autres courants restent influents longtemps après. Le néo-confucianisme de Zhu Xi, sous les Song, réintègre une métaphysique (principe et souffle) en réponse au bouddhisme et au taoïsme, et devient l'orthodoxie de la Chine des Ming et des Qing, de la Corée des **Joseon** (1392-1910), du Vietnam et, dans une moindre mesure, du Japon des Tokugawa.
+Sous l'empereur **Han Wudi** (règne 141-87 av. J.-C.), sur les conseils de Dong Zhongshu, les Classiques deviennent la base de l'enseignement officiel et une Académie impériale est créée. On parle souvent d'« adoption du confucianisme comme idéologie d'État » : les historiens nuancent aujourd'hui cette formule, car le légisme et d'autres courants restent influents longtemps après. Le néo-confucianisme de Zhu Xi, sous les Song, réintègre une métaphysique (principe et souffle) en réponse au bouddhisme et au taoïsme, et devient l'orthodoxie de la Chine des Ming et des Qing, de la Corée des **Joseon** (1392-1897), du Vietnam et, dans une moindre mesure, du Japon des Tokugawa.
 
 ## Le débat : est-ce une religion ?
 
 ### La querelle des Rites
 
-Le débat naît avec les missionnaires jésuites. **Matteo Ricci** (mort en 1610) juge que les honneurs rendus à Confucius et aux ancêtres sont des rites civils et familiaux, compatibles avec le [[Christianisme]] ; les dominicains et les franciscains y voient de l'idolâtrie. La papauté tranche contre les jésuites, notamment par la bulle *Ex illa die* de Clément XI (1715) ; l'empereur Kangxi réagit en restreignant les missions. Rome ne lève l'interdiction qu'en 1939. Ce conflit nourrit en Europe la réflexion sur la « religion naturelle » des Chinois, chez [[Leibniz]] ou Voltaire, qui voient dans la Chine une morale sans révélation.
+Le débat naît avec les missionnaires jésuites. **Matteo Ricci** (mort en 1610) juge que les honneurs rendus à Confucius et aux ancêtres sont des rites civils et familiaux, compatibles avec le [[Christianisme]] ; les dominicains et les franciscains y voient de l'idolâtrie. La papauté tranche contre les jésuites, notamment par la bulle *Ex illa die* de Clément XI (1715) ; l'empereur Kangxi réagit en interdisant la prédication chrétienne (1721). Rome ne lève l'interdiction qu'en 1939. Ce conflit nourrit en Europe la réflexion sur la « religion naturelle » des Chinois, chez [[Leibniz]] ou Voltaire, qui voient dans la Chine une morale sans révélation.
 
 ### Kang Youwei et la « religion confucéenne »
 
@@ -98,7 +98,7 @@ timeline
     section Époque contemporaine
         1905 : Abolition des examens impériaux
         1919 : Mouvement du 4 mai contre Confucius
-        1973-1974 : Campagne contre Lin Biao et Confucius
+        1973-1976 : Campagne contre Lin Biao et Confucius
         2004 : Premier Institut Confucius
 ```
 
@@ -110,7 +110,7 @@ Très peu de personnes se déclarent « confucéennes » dans les enquêtes : le
 |---|---|
 | **Chine** | Réhabilitation officielle depuis les années 2000, cérémonies à Qufu, essor des écoles de classiques, usage politique de l'« harmonie » |
 | **Taïwan** | Cérémonie annuelle pour l'anniversaire de Confucius, qui y est la Journée des enseignants |
-| **Corée du Sud** | Rites royaux du sanctuaire de Jongmyo (inscrits au patrimoine immatériel de l'UNESCO en 2001), rites à Confucius au Sungkyunkwan, rites ancestraux familiaux lors des fêtes |
+| **Corée du Sud** | Rites royaux du sanctuaire de Jongmyo (proclamés chef-d'œuvre du patrimoine immatériel par l'UNESCO en 2001, inscrits sur la liste représentative en 2008), rites à Confucius au Sungkyunkwan, rites ancestraux familiaux lors des fêtes |
 | **Vietnam** | Autels des ancêtres dans presque tous les foyers, Temple de la Littérature à Hanoï |
 
 ## Influence

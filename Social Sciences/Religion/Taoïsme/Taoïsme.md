@@ -43,7 +43,7 @@ Le but ultime est de devenir un **immortel** (*xian*), être parvenu à une long
 
 | Voie | Principe | Figures et période |
 |---|---|---|
-| **Alchimie extérieure** (*waidan*) | Fabriquer un élixir à partir de minéraux, cinabre (sulfure de mercure) en tête, dont l'ingestion rendrait immortel | **Ge Hong** (283-343 ou 363), *Baopuzi*. Apogée sous les Tang |
+| **Alchimie extérieure** (*waidan*) | Fabriquer un élixir à partir de minéraux, cinabre (sulfure de mercure) en tête, dont l'ingestion rendrait immortel | **Ge Hong** (283-343 selon la plupart des historiens), *Baopuzi*. Apogée sous les Tang |
 | **Alchimie intérieure** (*neidan*) | Transposer l'opération dans le corps : raffiner essence, souffle et esprit pour engendrer un « embryon d'immortalité » | Se développe à partir des Tang et domine sous les Song |
 
 Plusieurs empereurs Tang passent pour être morts d'intoxication aux élixirs (au moins cinq au IXe siècle, de Xianzong, mort en 820, à Xuanzong, mort en 859), ce qui a sans doute contribué au déclin de l'alchimie minérale au profit de sa version intérieure et méditative.
