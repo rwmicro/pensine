@@ -10,7 +10,7 @@ date: "2026-09-28"
 
 La métaphysique est la branche de la philosophie qui s'interroge sur ce qui existe et sur la nature ultime de la réalité : qu'est-ce qu'être ? Qu'est-ce qu'une chose, une cause, le temps ? Sommes-nous libres ? Qu'est-ce qui fait que je reste le même au fil des années ? Dieu existe-t-il ? Là où les sciences étudient tel ou tel domaine du réel, la métaphysique porte sur les notions que toutes présupposent sans les examiner.
 
-Le nom est un accident d'éditeur. Au Ier siècle av. J.-C., Andronicos de Rhodes, en classant les écrits d'[[Aristote]], place après la *Physique* un ensemble de traités sans titre : *ta meta ta physika*, « ceux qui viennent après les physiques ». Le sens de « ce qui est au-delà de la nature » ne s'est attaché au mot qu'ensuite. Aristote, lui, parlait de **philosophie première**.
+Le nom est, selon l'explication la plus répandue, un accident d'éditeur. Au Ier siècle av. J.-C., Andronicos de Rhodes, en classant les écrits d'[[Aristote]], place après la *Physique* un ensemble de traités sans titre : *ta meta ta physika*, « ceux qui viennent après les physiques ». Le sens de « ce qui est au-delà de la nature » ne s'est attaché au mot qu'ensuite. Aristote, lui, parlait de **philosophie première**.
 
 ## Questions fondamentales
 
@@ -77,7 +77,7 @@ Après Kant, l'idéalisme allemand ([[Hegel]] en tête, voir [[Idéalisme Allema
 
 ## Le XXe siècle : mort et résurrection
 
-[[Heidegger]], dans *Être et Temps* (1927) puis *Qu'est-ce que la métaphysique ?* (1929), reproche à toute la tradition d'avoir oublié la **différence ontologique** : elle a pensé l'étant (les choses qui sont) en oubliant l'être (le fait qu'elles soient). Sur l'autre rive, le [[Positivisme Logique]] du Cercle de Vienne tient les énoncés métaphysiques pour dépourvus de sens, puisque invérifiables : Rudolf Carnap publie en 1932 un article intitulé *Le Dépassement de la métaphysique par l'analyse logique du langage*.
+[[Heidegger]], dans *Être et Temps* (1927) puis *Qu'est-ce que la métaphysique ?* (1929), reproche à toute la tradition d'avoir oublié la **différence ontologique** : elle a pensé l'étant (les choses qui sont) en oubliant l'être (le fait qu'elles soient). Sur l'autre rive, le [[Positivisme Logique]] du Cercle de Vienne tient les énoncés métaphysiques pour dépourvus de sens, puisque invérifiables : Rudolf Carnap publie en 1931-1932, dans la revue *Erkenntnis*, un article intitulé *Le Dépassement de la métaphysique par l'analyse logique du langage*.
 
 Paradoxalement, c'est dans la [[Philosophie Analytique]], née de cette critique, que la métaphysique a connu sa renaissance la plus vigoureuse.
 
@@ -104,7 +104,7 @@ Si chaque événement est déterminé par les précédents selon des lois, comme
 
 ### L'identité à travers le temps
 
-Le **navire de Thésée**, rapporté par Plutarque : si l'on remplace une à une toutes ses planches, est-ce le même navire ? Et si l'on reconstruit un second navire avec les vieilles planches, lequel est l'original ? Appliquée aux personnes, la question oppose le critère corporel au critère psychologique, que [[Locke]] fonde sur la mémoire et la conscience. Derek Parfit, dans *Reasons and Persons* (1984), soutient que l'identité personnelle n'est pas ce qui compte : seule importe la continuité psychologique, qui admet des degrés. Il retrouve ainsi une intuition du [[Bouddha]].
+Le **navire de Thésée**, rapporté par Plutarque : si l'on remplace une à une toutes ses planches, est-ce le même navire ? Et si, comme l'ajoute Hobbes, l'on reconstruit un second navire avec les vieilles planches, lequel est l'original ? Appliquée aux personnes, la question oppose le critère corporel au critère psychologique, que [[Locke]] fonde sur la mémoire et la conscience. Derek Parfit, dans *Reasons and Persons* (1984), soutient que l'identité personnelle n'est pas ce qui compte : seule importe la continuité psychologique, qui admet des degrés. Il retrouve ainsi une intuition du [[Bouddha]].
 
 ### Dieu
 
@@ -129,7 +129,7 @@ timeline
         1781 : Kant, Critique de la raison pure
     section Époque contemporaine
         1929 : Heidegger, Qu'est-ce que la métaphysique
-        1932 : Carnap contre la métaphysique
+        1931-1932 : Carnap contre la métaphysique
         1948 : Quine, De ce qui est
         1970 : Kripke, La Logique des noms propres
         1986 : Lewis, De la pluralité des mondes
