@@ -62,7 +62,7 @@ Le concept central de la discipline. Les définitions varient selon les écoles 
 | **Lévi-Strauss** | La culture est un système de règles inconscientes (comme la grammaire d'une langue) |
 
 > [!important] Idée clé
-> Tylor et Lévi-Strauss ne donnent pas juste deux définitions différentes du même objet — ils présupposent deux épistémologies incompatibles. Pour Tylor, la culture est une liste de contenus observables qu'on peut inventorier (approche empiriste). Pour [[Lévi-Strauss]], c'est une grammaire invisible qui génère ces contenus (approche structuraliste) : on ne l'observe jamais directement, on la reconstruit à partir de ses effets, comme en linguistique.
+> Tylor et Lévi-Strauss ne donnent pas juste deux définitions différentes du même objet — ils présupposent deux épistémologies incompatibles. Pour Tylor, la culture est une liste de contenus observables qu'on peut inventorier (approche empiriste). Pour [[Claude Lévi-Strauss|Lévi-Strauss]], c'est une grammaire invisible qui génère ces contenus (approche structuraliste) : on ne l'observe jamais directement, on la reconstruit à partir de ses effets, comme en linguistique.
 
 ### Ethnocentrisme et relativisme culturel
 

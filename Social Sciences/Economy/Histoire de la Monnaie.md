@@ -94,4 +94,4 @@ Les crises montrent à nu la nature fictive de la monnaie :
 
 Un phénomène propre aux sociétés modernes : l'argent tend à devenir une **valeur en soi**, non plus seulement un moyen. La richesse n'est plus évaluée en biens concrets (terres, récoltes, troupeaux) mais en unités monétaires abstraites. Un milliardaire n'a pas besoin de la milliardième partie de sa fortune pour vivre : la richesse est devenue un score, un symbole de statut.
 
-Georg Simmel (*Philosophie de l'argent*, 1900) analyse cette transformation : l'argent, en rendant toute chose échangeable, dissout les liens qualitatifs (honneur, loyauté, don) et les remplace par des relations quantitatives. La monnaie est le solvant universel de la modernité.
+[[Georg Simmel]] (*Philosophie de l'argent*, 1900) analyse cette transformation : l'argent, en rendant toute chose échangeable, dissout les liens qualitatifs (honneur, loyauté, don) et les remplace par des relations quantitatives. La monnaie est le solvant universel de la modernité.

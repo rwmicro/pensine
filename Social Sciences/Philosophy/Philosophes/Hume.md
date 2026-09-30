@@ -12,7 +12,7 @@ date: "2026-04-12"
 
 Philosophe et historien écossais, né à Édimbourg en 1711 dans une famille protestante modeste. Considéré comme le plus radical des empiristes britanniques et l'un des penseurs les plus influents des Lumières.
 
-Il passe une grande partie de sa vie à tenter, sans succès, d'obtenir un poste universitaire — ses positions sceptiques sur la religion lui valant d'être régulièrement accusé d'athéisme. Il est néanmoins un homme mondain apprécié, bibliothécaire, diplomate adjoint à Paris (1763-1766) où il côtoie Rousseau et les encyclopédistes.
+Il passe une grande partie de sa vie à tenter, sans succès, d'obtenir un poste universitaire — ses positions sceptiques sur la religion lui valant d'être régulièrement accusé d'[[Athéisme et Agnosticisme|athéisme]]. Il est néanmoins un homme mondain apprécié, bibliothécaire, diplomate adjoint à Paris (1763-1766) où il côtoie Rousseau et les encyclopédistes.
 
 Son œuvre la plus ambitieuse, le *Traité de la nature humaine* (1739), publiée à 28 ans, "est tombée du presse mort-né", dira-t-il — elle sera reconnue capitale un siècle plus tard. Kant lui attribuera le mérite de l'avoir "réveillé de son sommeil dogmatique".
 
@@ -66,7 +66,7 @@ Si la causalité n'est qu'habitude, le raisonnement inductif (du particulier au 
 - Rien ne garantit logiquement que le prochain cygne sera blanc
 - Un seul cygne noir suffit à réfuter la loi
 
-**Conséquence :** On ne peut jamais prouver une loi générale par accumulation d'exemples. Popper reprendra ce problème : c'est pourquoi il propose la *falsifiabilité*.
+**Conséquence :** On ne peut jamais prouver une loi générale par accumulation d'exemples. [[Popper]] reprendra ce problème : c'est pourquoi il propose la *falsifiabilité*.
 
 ### Le Moi — Bundle Theory
 

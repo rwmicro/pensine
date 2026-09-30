@@ -1,9 +1,9 @@
 ---
-title: Impacket
-domain: sciences-appliquées
-subdomain: informatique / sécurité / offensive / outils
+title: "Impacket"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Offensive > Tools"
 tags: [impacket, active-directory, smb, kerberos, ntlm, pentest, sécurité, outils]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Impacket

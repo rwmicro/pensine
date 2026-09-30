@@ -43,7 +43,7 @@ date: "2026-02-22"
   - *Missa Papae Marcelli* (clarté du texte pour la Contre-Réforme)
 
 > [!example] Exemple
-> La légende (probablement enjolivée après coup) veut que cette messe ait convaincu le Concile de Trente de ne pas bannir la polyphonie sacrée, jugée trop complexe pour laisser le texte liturgique intelligible. Vraie ou pas, l'anecdote résume bien l'enjeu réel de l'époque : la polyphonie devait prouver qu'elle ne trahissait pas la primauté du texte, héritée du [[Musique Médiévale (500-1400)|chant grégorien]].
+> La légende (probablement enjolivée après coup) veut que cette messe ait convaincu le Concile de Trente de ne pas bannir la polyphonie sacrée, jugée trop complexe pour laisser le texte liturgique intelligible. Vraie ou pas, l'anecdote résume bien l'enjeu réel de l'époque : la polyphonie devait prouver qu'elle ne trahissait pas la primauté du texte, héritée du [[Musique Médiévale|chant grégorien]].
   - 104 messes, motets
   - Style pur, équilibré
 

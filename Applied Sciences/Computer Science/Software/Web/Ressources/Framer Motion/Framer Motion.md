@@ -485,8 +485,8 @@ function MyApp({ Component, pageProps }) {
    - GPU accelerated
 
 2. **Avoid animating expensive properties**
-   - ❌ width, height, top, left
-   - ✅ transform, opacity
+   - À éviter : width, height, top, left
+   - À privilégier : transform, opacity
 
 > [!important] Pourquoi cette distinction
 > Animer `width`/`height`/`top`/`left` force le navigateur à recalculer le layout de la page à chaque frame (reflow), alors que `transform`/`opacity` s'exécutent sur le compositeur GPU sans toucher au layout — une différence qui devient visible (saccades) dès que l'animation est complexe ou que la page contient beaucoup d'éléments.

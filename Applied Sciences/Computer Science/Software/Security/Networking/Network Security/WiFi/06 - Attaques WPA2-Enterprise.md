@@ -203,9 +203,3 @@ crackmapexec ldap dc.corp.local -u alice -p 'P@ssword123' -d corp.local --users
 - `Connect to these servers` = `radius.corp.local`
 - `Trusted Root Certification Authorities` = uniquement AC interne
 - `Don't prompt user to authorize new servers or trusted certification authorities` = activé
-
-## Voir aussi
-
-- [[05 - Evil Twin et Phishing]] — hostapd-wpe en contexte
-- [[Responder]] — pivot NTLM après crack des credentials
-- [[08 - Frameworks Tout-en-Un]] — airgeddon gère aussi Enterprise

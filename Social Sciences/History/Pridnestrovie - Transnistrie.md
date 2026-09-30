@@ -4,6 +4,8 @@ domain: "Social Sciences"
 subdomain: "History"
 tags: [sciences-sociales, histoire]
 date: "2025-11-06"
+year: 1990
+period: "Depuis 1990"
 ---
 
 # Transnistrie (Pridnestrovie)
@@ -12,6 +14,21 @@ La **Transnistrie** (officiellement *République moldave du Pridnestrovie*) est 
 
 C'est un **État non reconnu** : il se gouverne lui-même depuis 1990, mais aucun membre de l'ONU ne le reconnaît officiellement comme pays indépendant.
 
+
+## Chronologie
+
+```mermaid
+timeline
+    title La Transnistrie, un conflit gelé
+    section Sécession
+        2 septembre 1990 : Proclamation d'une république séparée, qui se gouverne elle-même
+        1991 : Effondrement de l'URSS, indépendance moldave
+        Mars-juillet 1992 : Phase principale de la guerre entre Moldavie et séparatistes
+        21 juillet 1992 : Cessez-le-feu, indépendance de facto
+    section Conflit gelé
+        Depuis 1992 : Présence militaire russe permanente
+        2022 : Invasion russe de l'Ukraine : Explosions en Transnistrie
+```
 
 ## Situation géographique
 

@@ -1,3 +1,11 @@
+---
+title: "LFCS Q08 — Disk Management"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, disk, management]
+date: "2026-08-09"
+---
+
 # Question 8 — Disk Management
 
 ## Notes d'apprentissage

@@ -4,6 +4,8 @@ domain: "Social Sciences"
 subdomain: "History"
 tags: [sciences-sociales, histoire]
 date: "2026-02-28"
+year: 1760
+yearEnd: 1840
 ---
 
 # La Révolution Industrielle
@@ -28,6 +30,25 @@ La rupture fondamentale de la révolution industrielle est une **révolution én
 La chaîne d'implications : charbon → vapeur → machines textiles → filatures → usines → urbanisation → chemins de fer → mondialisation des échanges.
 
 ## Chronologie
+
+```mermaid
+timeline
+    title Les phases de la révolution industrielle
+    section Première industrialisation
+        1760-1840 : Vapeur et métier mécanique : Textile, charbon, fer
+        1769 : Machine à vapeur perfectionnée par Watt
+        1776 : La Richesse des nations d'Adam Smith
+        1811-1816 : Luddisme
+        1833 : Factory Act britannique, premiers inspecteurs d'usine
+    section Deuxième industrialisation
+        1870-1914 : Acier, électricité, chimie, après l'essor du rail
+        1909 : Synthèse de l'ammoniac par Fritz Haber
+    section Industrialisation mondiale
+        1914-1970 : Pétrole, moteur à explosion, électronique
+        1919 : Journée de 8 heures en France
+        1936 : Congés payés en France
+        1945 : Sécurité sociale en France
+```
 
 | Phase | Période | Technologies clés | Secteurs |
 |---|---|---|---|

@@ -1,3 +1,11 @@
+---
+title: "LFCS Q02 — CronJobs"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, cronjobs]
+date: "2026-08-09"
+---
+
 # Question 2 — CronJobs
 
 ## Notes d'apprentissage

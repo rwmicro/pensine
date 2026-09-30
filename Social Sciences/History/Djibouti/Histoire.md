@@ -247,18 +247,26 @@ date: "2025-12-31"
 
 ## Chronologie Clé
 
-- **1862:** France achète Obock
-- **1883:** Protectorat Côte Française des Somalis
-- **1896:** Capitale à Djibouti-Ville
-- **1897:** Inauguration chemin de fer Éthiopie
-- **1946:** Territoire d'Outre-Mer
-- **1967:** Référendum, renommé TFAI
-- **1977:** Indépendance (27 juin)
-- **1991-1994:** Guerre civile
-- **1999:** Guelleh président
-- **2001:** Paix définitive
-- **2017:** Base militaire chinoise
-- **2018:** Nouveau chemin de fer Éthiopie
+```mermaid
+timeline
+    title Djibouti, d'Obock au hub stratégique
+    section Colonisation
+        1862 : La France achète le port d'Obock
+        1896 : Capitale transférée à Djibouti-Ville
+        1940-1942 : Régime de Vichy
+        1946 : Territoire d'Outre-Mer
+        1967 : Référendum, le territoire devient le TFAI
+    section Indépendance
+        8 mai 1977 : Référendum, 99,8 % pour l'indépendance
+        27 juin 1977 : Proclamation de la République de Djibouti
+        1991-1994 : Guerre civile, rébellion du FRUD
+        1999 : Ismaïl Omar Guelleh président
+        2001 : Accord de paix définitif
+    section Hub stratégique
+        Juin 2008 : Conflit frontalier de Ras Doumeira
+        2017 : Première base militaire chinoise à l'étranger
+        2018 : Mise en service commerciale du chemin de fer vers l'Éthiopie
+```
 
 ## Ressources
 

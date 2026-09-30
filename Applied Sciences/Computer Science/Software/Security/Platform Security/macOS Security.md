@@ -1,9 +1,9 @@
 ---
-title: macOS Security
-domain: sciences-appliquées
-subdomain: informatique / sécurité / platform-security
+title: "macOS Security"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Platform Security"
 tags: [macos, osx, pentest, persistence, keychain, sip, launchagent, sécurité]
-date: 2026-03-23
+date: "2026-03-23"
 ---
 
 # macOS Security

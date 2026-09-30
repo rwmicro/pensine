@@ -1,3 +1,11 @@
+---
+title: "LFCS Q38 — KVM Virtualization"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, virtualization]
+date: "2026-08-09"
+---
+
 # Question 38 — KVM Virtualization
 
 ## Notes d'apprentissage

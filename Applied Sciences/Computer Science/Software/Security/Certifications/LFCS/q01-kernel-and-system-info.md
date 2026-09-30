@@ -1,3 +1,11 @@
+---
+title: "LFCS Q01 — Kernel and System Info"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, kernel, system, info]
+date: "2026-08-09"
+---
+
 # Question 1 — Kernel and System Info
 
 ## Notes d'apprentissage

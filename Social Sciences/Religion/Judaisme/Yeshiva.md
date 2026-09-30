@@ -16,7 +16,7 @@ Les yeshivot trouvent leur origine dans l'Antiquité, mais se développent surto
 - À Babylone (3e-11e siècles) avec les grandes académies de Soura et Poumbedita
 - En Europe médiévale et moderne
 - En Lituanie au 19e siècle avec le mouvement des Musar (éthique)
-- Après la Shoah, reconstitution en Israël et aux États-Unis
+- Après la [[Shoah]], reconstitution en Israël et aux États-Unis
 
 ### Organisation et méthode d'étude
 

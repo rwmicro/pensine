@@ -1,9 +1,9 @@
 ---
-title: Burp Suite
-domain: sciences-appliquées
-subdomain: informatique / sécurité / offensive / outils
+title: "Burp Suite"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Offensive > Tools"
 tags: [burp-suite, proxy, web, pentest, sécurité, outils]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Burp Suite

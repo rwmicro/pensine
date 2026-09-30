@@ -98,7 +98,7 @@ L'anatomie est l'étude de la structure du corps humain et de ses parties. Elle 
 - **Système Nerveux Périphérique (SNP)** :
   - Somatique : Contrôle volontaire
   - Autonome : Sympathique (stress), Parasympathique (repos)
-- **Neurones** : Transmission électrique/chimique (voir [[Biology/Biologie#Neurobiologie]])
+- **Neurones** : Transmission électrique/chimique (voir [[Neurobiologie]])
 
 **Système Endocrinien**
 - **Glandes** :

@@ -1,9 +1,9 @@
 ---
-title: Open Redirect
-domain: sciences-appliquées
-subdomain: informatique / sécurité / web
+title: "Open Redirect"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Web Security"
 tags: [open-redirect, web, phishing, ssrf, bug-bounty, sécurité]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Open Redirect

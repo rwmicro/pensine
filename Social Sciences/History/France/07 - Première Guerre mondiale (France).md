@@ -5,7 +5,8 @@ subdomain: "History > France"
 tags: [sciences-sociales, histoire, france]
 date: "2026-09-16"
 stage: budding
-period: "1914-1918"
+year: 1914
+yearEnd: 1918
 ---
 
 # La France dans la Première Guerre mondiale (1914-1918)
@@ -14,6 +15,24 @@ period: "1914-1918"
 *Tranchée, front de Verdun — photographie, Agence Rol, 1916, Bibliothèque nationale de France. Domaine public, source : Wikimedia Commons.*
 
 La Première Guerre mondiale mobilise la France entière pendant plus de quatre ans et transforme durablement sa société. C'est le premier conflit de l'histoire du pays qui engage des millions de soldats dans une guerre industrielle, et le premier dont le bilan humain — près d'1,4 million de morts français — laisse une génération entière traumatisée.
+
+## Chronologie
+
+```mermaid
+timeline
+    title La France dans la Grande Guerre
+    section 1914
+        28 juin 1914 : Attentat de Sarajevo
+        3 août 1914 : La France entre en guerre
+        Septembre 1914 : Bataille de la Marne
+    section Guerre d'usure
+        Février-décembre 1916 : Bataille de Verdun
+        1917 : Chemin des Dames et mutineries
+        1917 : Entrée en guerre des États-Unis
+    section Victoire
+        11 novembre 1918 : Armistice de Rethondes
+        1919 : Traité de Versailles, retour de l'Alsace-Lorraine
+```
 
 ## Le déclenchement : de l'attentat à la guerre générale (juin-août 1914)
 

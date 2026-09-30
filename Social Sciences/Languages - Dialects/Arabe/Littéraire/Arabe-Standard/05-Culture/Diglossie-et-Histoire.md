@@ -43,5 +43,5 @@ Pour l'islam, l'arabe du Coran n'est pas une langue parmi d'autres mais la langu
 ## Débats contemporains
 
 - **Réforme et simplification** : certains linguistes et réformateurs ont, à diverses époques, proposé de simplifier le fuṣḥā (notamment en abandonnant l'i'rab, largement absent de l'oral même formel) ou de promouvoir l'écriture des dialectes eux-mêmes — propositions qui se heurtent à la charge symbolique et religieuse du fuṣḥā classique
-- **Darija et identité marocaine/algérienne** : au Maghreb en particulier, le débat sur le statut de la darija (voir [[Darija/Darija|Darija]]) face au fuṣḥā (et au français, héritage colonial) reste vif et directement lié aux questions d'identité nationale
+- **Darija et identité marocaine/algérienne** : au Maghreb en particulier, le débat sur le statut de la darija (voir Darija) face au fuṣḥā (et au français, héritage colonial) reste vif et directement lié aux questions d'identité nationale
 - **Arabe et numérique** : l'essor des réseaux sociaux et de l'écrit informel en dialecte (souvent en arabizi romanisé) a considérablement accru, en quelques décennies, la visibilité écrite des dialectes — un renversement partiel de la hiérarchie diglossique traditionnelle, où le dialecte restait largement cantonné à l'oral

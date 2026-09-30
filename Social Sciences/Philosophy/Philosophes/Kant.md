@@ -252,7 +252,7 @@ Bien que la raison théorique ne puisse **prouver** ces trois idées, la raison 
 
 | Domaine | Influence |
 |---------|-----------|
-| **Théorie de la connaissance** | Constructivisme, phénoménologie (Husserl) |
+| **Théorie de la connaissance** | Constructivisme, phénoménologie ([[Husserl]]) |
 | **Éthique** | Déontologie moderne, éthique des droits de l'homme |
 | **Philosophie politique** | Libéralisme politique (Rawls), cosmopolitisme |
 | **Esthétique** | Théories du goût, philosophie de l'art |

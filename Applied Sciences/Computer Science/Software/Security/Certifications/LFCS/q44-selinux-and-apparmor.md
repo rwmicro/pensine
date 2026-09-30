@@ -1,3 +1,11 @@
+---
+title: "LFCS Q44 — SELinux and AppArmor (MAC)"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, selinux, apparmor]
+date: "2026-08-09"
+---
+
 # Question 44 — SELinux and AppArmor (MAC)
 
 ## Notes d'apprentissage
@@ -126,8 +134,6 @@ sudo ausearch -m AVC -ts recent     # raw audit denials
 sudo sealert -a /var/log/audit/audit.log   # human-readable, suggests fixes (setroubleshoot)
 ```
 A common exam pattern: a service fails to start *only* when SELinux is enforcing → set it permissive to confirm it's SELinux, then read the AVC and fix the context or boolean.
-
----
 
 ## AppArmor (Debian family)
 

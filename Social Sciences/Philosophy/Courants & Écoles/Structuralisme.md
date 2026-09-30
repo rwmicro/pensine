@@ -10,6 +10,26 @@ date: "2026-08-08"
 
 Le structuralisme domine la pensée française des années 1950 aux années 1970, avant d'être prolongé et critiqué de l'intérieur par le post-structuralisme. Thèse commune de départ : les phénomènes humains (langage, parenté, mythe, inconscient, société) ne s'expliquent pas par les intentions conscientes des individus, mais par des **structures inconscientes** sous-jacentes qui les organisent à leur insu.
 
+## Chronologie
+
+```mermaid
+timeline
+    title Structuralisme et post-structuralisme
+    section Matrice linguistique
+        1916 : Saussure, Cours de linguistique générale
+    section Structuralisme
+        1949 : Lévi-Strauss, Les Structures élémentaires de la parenté
+        1958 : Lévi-Strauss, Anthropologie structurale
+        1962 : Lévi-Strauss, La Pensée sauvage
+        1964-1971 : Lévi-Strauss, Mythologiques
+        1965 : Althusser, Pour Marx
+        1966 : Foucault, Les Mots et les Choses
+    section Post-structuralisme
+        1967 : Derrida, De la grammatologie
+        1970 : Althusser, les appareils idéologiques d'État
+        1975 : Foucault, Surveiller et punir
+```
+
 ## La matrice linguistique : Saussure
 
 Le structuralisme prend sa source dans la linguistique de Ferdinand de Saussure (*Cours de linguistique générale*, 1916, posthume) :
@@ -51,7 +71,7 @@ Louis Althusser relit Marx contre toute interprétation humaniste ou historicist
 
 ## Derrida et la déconstruction
 
-Jacques Derrida pousse la logique structuraliste (le sens par différence, jamais par présence positive) jusqu'à en retourner les prémisses contre toute stabilité du système lui-même — d'où le terme **post-structuraliste**.
+[[Derrida|Jacques Derrida]] pousse la logique structuraliste (le sens par différence, jamais par présence positive) jusqu'à en retourner les prémisses contre toute stabilité du système lui-même — d'où le terme **post-structuraliste**.
 
 **La différance** (néologisme fusionnant "différer" au sens spatial et "différer" au sens temporel) : le sens d'un signe n'est jamais pleinement présent ni fixé — il est toujours renvoyé à d'autres signes, dans une chaîne infinie de renvois qui ne se referme jamais sur une signification stable et définitive.
 

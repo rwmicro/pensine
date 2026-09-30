@@ -4,7 +4,8 @@ domain: "Social Sciences"
 subdomain: "History > France"
 tags: [sciences-sociales, histoire, france]
 date: "2025-01-15"
-period: "1527-1789"
+year: 1527
+yearEnd: 1789
 ---
 
 # Jeu de Paume
@@ -14,6 +15,21 @@ period: "1527-1789"
 
 Le **jeu de paume** est le sport de raquette le plus ancien d'Europe, ancêtre direct du tennis. Né en France au Moyen Âge, il était pratiqué dans les cours royales et les monastères. **François Ier** l'institutionnalise en 1527 en codifiant ses règles et en faisant construire des salles dédiées.
 
+
+## Chronologie
+
+```mermaid
+timeline
+    title Le jeu de paume, du cloître au serment
+    section Un sport
+        XIIe siècle : Jeu de balle à main nue en France
+        XVIe siècle : François Ier passionné de paume : Raquette, salle fermée, règles stabilisées
+        Fin XVIe siècle : Apogée, environ 250 salles à Paris
+        1657 : Déclin, 114 salles à Paris
+    section Un symbole
+        20 juin 1789 : Serment du Jeu de Paume à Versailles
+        1791 : Dessin du Serment par David exposé au Salon
+```
 
 ## Origine et histoire
 

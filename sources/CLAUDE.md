@@ -28,6 +28,18 @@ date: "YYYY-MM-DD"
 ---
 ```
 
+### Frise chronologique du site (`year`, `yearEnd`, `period`)
+
+La page `/frise/` de learn-nebula ne liste que les notes qui déclarent `year`, l'année historique dont parle la note (pas la date d'écriture, qui reste `date`). Une note d'histoire qui porte sur un événement ou une période datable doit donc l'avoir :
+
+```yaml
+year: 1789        # nombre, négatif avant J.-C. (year: -753)
+yearEnd: 1799     # optionnel, pour une période
+period: "Depuis 1948"   # optionnel, libellé affiché à côté des années
+```
+
+`period` n'est qu'un libellé : sans `year`, la note n'apparaît pas sur la frise. N'y remets pas les années déjà données par `year`/`yearEnd`, elles s'afficheraient deux fois.
+
 ## Règles de formatage
 
 - `---` autorisé **uniquement** pour le frontmatter — jamais comme séparateur dans le corps
@@ -51,8 +63,8 @@ pensine/
 
 Les langues suivent une structure standard 01-06 :
 - `01-Phonologie/` — alphabet, prononciation, tons
-- `02-Grammaire/`
-- `03-Communication/` — Phrases-Essentielles, Salutations, Registres, Situations
+- `02-Communication/` — Phrases-Essentielles, Salutations, Registres, Situations
+- `03-Grammaire/`
 - `04-Vocabulaire/`
 - `05-Culture/`
 - `06-Ressources/` — Anki, apps, livres, films
@@ -123,7 +135,7 @@ Le build learn-nebula clone ce repo (les mp3 arrivent avec le clone, sans LFS). 
 
 ### Choisir le type de diagramme
 
-Un `flowchart` est le réflexe par défaut, et c'est un défaut : sur les 297 diagrammes du vault, 282 en sont encore. Un flux ne convient qu'à ce qui *s'enchaîne*. Le reste a son type.
+Un `flowchart` est le réflexe par défaut, et c'est un défaut : sur les 399 diagrammes du vault, 285 en sont encore. Un flux ne convient qu'à ce qui *s'enchaîne*. Le reste a son type.
 
 | Contenu | Type |
 |---|---|

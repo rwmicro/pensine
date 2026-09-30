@@ -1,9 +1,9 @@
 ---
-title: C2 Infrastructure
-domain: sciences-appliquées
-subdomain: informatique / sécurité
+title: "C2 Infrastructure"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Offensive"
 tags: [c2, command-and-control, cobalt-strike, sliver, redirectors, domain-fronting, pentest, red-team]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # C2 Infrastructure

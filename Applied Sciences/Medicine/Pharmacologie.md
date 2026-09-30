@@ -88,7 +88,7 @@ La courbe en dents de scie monte jusqu'à un plateau puis oscille entre un pic e
   - Mécanisme : Inhibition synthèse paroi bactérienne
 - **Macrolides** : Azithromycine, érythromycine
 - **Fluoroquinolones** : Ciprofloxacine (ADN gyrase)
-- **Résistance** : Problème majeur (voir [[Biology/Biologie#Microbiologie]])
+- **Résistance** : Problème majeur (voir [[Microbiologie]])
 
 > [!warning] Piège
 > La résistance bactérienne n'est pas causée par le corps du patient qui « s'habitue » à l'antibiotique (idée reçue fréquente) — c'est une sélection darwinienne au niveau de la population bactérienne : les souches résistantes survivent et se multiplient pendant qu'un traitement mal suivi (dose insuffisante, arrêt précoce) laisse justement le temps aux moins sensibles de proliférer. Cf. [[Enjeux Contemporains]] pour l'ampleur du problème (10M morts/an projetés d'ici 2050).

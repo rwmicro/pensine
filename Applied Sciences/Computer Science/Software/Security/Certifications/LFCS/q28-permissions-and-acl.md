@@ -1,3 +1,11 @@
+---
+title: "LFCS Q28 — Permissions, SUID/SGID and ACL"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, permissions]
+date: "2026-08-09"
+---
+
 # Question 28 — Permissions, SUID/SGID and ACL
 
 ## Notes d'apprentissage

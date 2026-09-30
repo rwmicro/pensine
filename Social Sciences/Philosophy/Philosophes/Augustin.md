@@ -67,7 +67,7 @@ Le temps n'existe que **dans l'âme** (*in anima*). Il y a trois temps, mais tou
 | Le présent | **Attention** (*contuitus*) — présent du présent |
 | Le futur | **Attente** (*expectatio*) — présent du futur |
 
-Le temps est une **distension de l'âme** (*distentio animi*) : l'âme s'étend entre mémoire et attente, et c'est cette extension qui constitue la durée. Husserl, Heidegger et Ricoeur reconnaitront en Augustin le premier phénoménologue du temps.
+Le temps est une **distension de l'âme** (*distentio animi*) : l'âme s'étend entre mémoire et attente, et c'est cette extension qui constitue la durée. [[Husserl]], Heidegger et Ricoeur reconnaitront en Augustin le premier phénoménologue du temps.
 
 > [!tip] Méthode
 > Ce qui rend cette solution si moderne : Augustin ne cherche pas le temps *dans le monde* (comme une propriété du mouvement des astres, à la façon d'Aristote) mais dans la *conscience qui le vit*. Ce déplacement — du temps objectif au temps vécu — est exactement le geste que la phénoménologie du XXe siècle reprendra pour son propre compte.
@@ -98,7 +98,7 @@ Le moine Pélage affirme que l'homme peut se sauver par ses propres efforts mora
 | Le péché originel affecte-t-il la nature humaine ? | Oui — corruption totale | Non — c'est un mauvais exemple, pas une corruption |
 | La grâce est-elle nécessaire ? | Absolument — sans elle, pas de salut | Utile mais non nécessaire |
 
-La doctrine augustinienne de la grâce aura des conséquences immenses : elle influencera Luther, Calvin et toute la Réforme protestante.
+La doctrine augustinienne de la grâce aura des conséquences immenses : elle influencera Luther, Calvin et toute la [[Réforme protestante]].
 
 > [!warning] Piège
 > Ne pas lire ce débat comme "liberté contre déterminisme" au sens moderne. Augustin ne nie jamais que l'homme choisisse librement — le problème est que, depuis le péché originel, cette liberté est *unilatéralement orientée vers le mal* sans la grâce (*non posse non peccare*, "ne pas pouvoir ne pas pécher"). C'est une thèse sur la direction de la volonté corrompue, pas sur l'existence du libre arbitre lui-même.

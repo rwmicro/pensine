@@ -67,7 +67,7 @@ Sociologue, économiste et philosophe allemand, figure majeure de la sociologie 
 **Comparaison:**
 - Catholicisme: Monastères (ascétisme hors du monde)
 - Protestantisme: Sanctification dans le travail quotidien
-- Autres religions (confucianisme, hindouisme, bouddhisme) n'ont pas produit capitalisme rationnel
+- Autres religions ([[Confucianisme|confucianisme]], hindouisme, bouddhisme) n'ont pas produit capitalisme rationnel
 
 **Débats:**
 - Critiques historiques (R.H. Tawney, autres causes)
@@ -216,7 +216,7 @@ Sociologue, économiste et philosophe allemand, figure majeure de la sociologie 
   - Désenchantement
   - Perte de sens, de liberté
   - Rigidité, formalisme
-- **Dérive ritualiste:** Merton (respect des règles comme fin en soi)
+- **Dérive ritualiste:** [[Robert K. Merton|Merton]] (respect des règles comme fin en soi)
 - **Pouvoir des experts:** Bureaucrates détiennent savoir technique
 - **Déshumanisation**
 
@@ -286,7 +286,7 @@ Sociologue, économiste et philosophe allemand, figure majeure de la sociologie 
 **Approche comparative:**
 - *Sociologie des religions* (section d'*Économie et Société*)
 - Études sur:
-  - Confucianisme et taoïsme
+  - Confucianisme et [[Taoïsme|taoïsme]]
   - Hindouisme et bouddhisme
   - Judaïsme antique
   - (Islam et christianisme - projets inachevés)

@@ -1,9 +1,9 @@
 ---
-title: Adressage IP et Subnetting
-domain: sciences-appliquées
-subdomain: informatique / sécurité / réseau / fondamentaux
+title: "Adressage IP et Subnetting"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Networking > Fundamentals"
 tags: [sciences-appliquées, informatique, sécurité, réseau, ipv4, subnetting, cidr]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 # Adressage IP et Subnetting
 

@@ -1,9 +1,9 @@
 ---
-title: Agents LLM et Function Calling
-domain: sciences-appliquées
-subdomain: informatique / machine-learning / llm
+title: "Agents LLM et Function Calling"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Data Science > Machine Learning > LLM"
 tags: [agents, function-calling, tool-use, llm, mcp, react]
-date: 2026-08-24
+date: "2026-08-24"
 ---
 # Agents LLM et Function Calling
 

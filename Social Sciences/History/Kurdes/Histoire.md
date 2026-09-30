@@ -32,7 +32,7 @@ Langue : **kurde**, famille indo-iranienne, principalement deux dialectes : kurm
 
 ## Le tournant manqué : Sèvres et Lausanne (1920–1923)
 
-À la fin de la Première Guerre mondiale, le démantèlement de l'Empire ottoman semble ouvrir la voie à un État kurde.
+À la fin de la Première Guerre mondiale, le démantèlement de l'[[Empire ottoman]] semble ouvrir la voie à un État kurde.
 
 **Traité de Sèvres (10 août 1920)** : signé entre les Alliés et le sultan ottoman, il prévoit explicitement (articles 62 à 64) la création d'un Kurdistan autonome au sud-est de l'Anatolie, avec possibilité d'indépendance si la Société des Nations le constate dans un délai d'un an.
 
@@ -153,6 +153,28 @@ Pour Ankara, les YPG ne sont qu'une extension du PKK, donc une organisation terr
 | Komala / PDKI | Iran | 1969 / 1945 | Opposition kurde iranienne |
 
 ## Tableau récapitulatif chronologique
+
+```mermaid
+timeline
+    title Les Kurdes, un peuple sans État
+    section Frontières imposées
+        1920-1923 : Sèvres prévoit un Kurdistan : Lausanne enterre le projet
+        1925 : Révolte de Cheikh Saïd écrasée
+        1937-1938 : Massacre de Dersim
+        1946 : République de Mahabad, 11 mois
+    section Guérillas et génocide
+        1978-1984 : Fondation du PKK : Début de la guérilla en Turquie
+        1988 : Anfal et Halabja en Irak
+        1991 : Zone d'exclusion aérienne au nord de l'Irak
+        1999 : Capture d'Öcalan
+    section Autonomies
+        2005 : La Constitution irakienne reconnaît le KRG
+        2012 : Les forces kurdes prennent le contrôle du Rojava en Syrie
+        2014-2015 : Bataille de Kobané
+        2017 : Référendum d'indépendance au Kurdistan irakien, oui à 92,7 %, rejeté par Bagdad
+        2018-2019 : Occupation turque d'Afrin : Chute de Baghouz
+        2025 : Annonce de la dissolution du PKK
+```
 
 | Date | Événement |
 |---|---|

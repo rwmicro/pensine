@@ -1,9 +1,9 @@
 ---
-title: WebSocket Security
-domain: sciences-appliquées
-subdomain: informatique / sécurité / web
+title: "WebSocket Security"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Web Security"
 tags: [websocket, web, csrf, injection, sécurité, bug-bounty]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # WebSocket Security

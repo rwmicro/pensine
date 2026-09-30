@@ -1,3 +1,11 @@
+---
+title: "LFCS Q14 — Output redirection"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, output, redirection]
+date: "2026-08-09"
+---
+
 # Question 14 — Output redirection
 
 ## Notes d'apprentissage

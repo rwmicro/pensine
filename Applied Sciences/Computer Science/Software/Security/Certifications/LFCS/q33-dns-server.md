@@ -1,3 +1,11 @@
+---
+title: "LFCS Q33 — DNS Server"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, server]
+date: "2026-08-09"
+---
+
 # Question 33 — DNS Server
 
 ## Notes d'apprentissage

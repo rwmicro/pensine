@@ -1,9 +1,9 @@
 ---
-title: Forensique Réseau
-domain: sciences-appliquées
-subdomain: informatique / sécurité
+title: "Forensique Réseau"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Defensive"
 tags: [forensique, réseau, wireshark, tcpdump, pcap, network-forensics, dfir, sécurité]
-date: 2026-03-23
+date: "2026-03-23"
 ---
 
 # Forensique Réseau

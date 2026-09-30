@@ -10,7 +10,7 @@ date: "2026-04-12"
 
 ## Idées clés
 
-1. **Théorie de la correspondance** (Aristote, Russell) : une proposition est vraie si elle correspond à un état réel du monde. "La neige est blanche" est vrai parce que la neige est effectivement blanche. C'est la conception du sens commun et de la plupart des sciences.
+1. **Théorie de la correspondance** (Aristote, [[Russell]]) : une proposition est vraie si elle correspond à un état réel du monde. "La neige est blanche" est vrai parce que la neige est effectivement blanche. C'est la conception du sens commun et de la plupart des sciences.
 
 2. **Théorie de la cohérence** (idéalisme hégélien) : une proposition est vraie si elle s'intègre sans contradiction à un système de croyances cohérent. La vérité n'est pas atomique mais systémique — une idée isolée n'est ni vraie ni fausse.
 

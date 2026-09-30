@@ -199,7 +199,7 @@ Pour développer un regard critique :
 ## Liens
 
 - [[Principes Fondamentaux]] — fondements de l'écologie (interactions, niches, successions) qui sous-tendent la conception permaculturelle
-- [[Cycles Biogéochimiques]] — comprendre les cycles N, C, P, eau pour concevoir des systèmes auto-fertiles
+- Cycles Biogéochimiques — comprendre les cycles N, C, P, eau pour concevoir des systèmes auto-fertiles
 - [[Biodiversité et Extinction]] — enjeu central du principe n°10 (valoriser la diversité)
 - [[Cascades Trophiques et Espèces Clés]] — base théorique du rôle des auxiliaires dans les guildes
 - [[Écosystèmes Majeurs]] — référentiels naturels imités par la forêt comestible

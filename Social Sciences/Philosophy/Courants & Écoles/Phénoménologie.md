@@ -10,11 +10,31 @@ date: "2026-04-12"
 
 ## Définition
 
-La **phénoménologie** est un courant philosophique fondé par Edmund Husserl au début du XXe siècle. Son objet est l'étude des **phénomènes tels qu'ils apparaissent à la conscience** — non les choses en soi (comme en métaphysique) ni les structures du cerveau (comme en psychologie), mais la structure de l'expérience vécue.
+La **phénoménologie** est un courant philosophique fondé par [[Husserl|Edmund Husserl]] au début du XXe siècle. Son objet est l'étude des **phénomènes tels qu'ils apparaissent à la conscience** — non les choses en soi (comme en métaphysique) ni les structures du cerveau (comme en psychologie), mais la structure de l'expérience vécue.
 
 > "Retourner aux choses elles-mêmes" (*Zu den Sachen selbst*)
 
 Le phénomène n'est pas une apparence trompeuse (comme chez Platon ou Kant) — c'est la **réalité telle qu'elle se donne à la conscience**. La phénoménologie refuse la coupure entre conscience et monde.
+
+## Chronologie
+
+```mermaid
+timeline
+    title La phénoménologie
+    section Fondation
+        1874 : Brentano, Psychologie du point de vue empirique
+        1900-1901 : Husserl, Recherches logiques
+        1913 : Husserl, Idées directrices
+    section Tournant ontologique
+        1927 : Heidegger, Être et Temps
+        1928 : Heidegger succède à Husserl à Fribourg
+        1931 : Husserl, Méditations cartésiennes
+        1936 : Husserl, La Crise des sciences européennes
+    section Phénoménologie française
+        1943 : Sartre, L'Être et le Néant
+        1945 : Merleau-Ponty, Phénoménologie de la perception
+        1961 : Levinas, Totalité et Infini
+```
 
 ## Contexte Historique
 
@@ -43,7 +63,7 @@ Mathématicien de formation, Husserl fonde la phénoménologie dans les *Recherc
 
 ### Martin Heidegger (1889-1976) — L'Être et le Dasein
 
-Élève et successeur de Husserl (dont il trahit la confiance en s'appropriant son poste sous le nazisme), Heidegger transforme la phénoménologie en une **ontologie fondamentale**.
+Élève et successeur de Husserl (il lui succède à Fribourg en 1928 ; leurs relations se dégradent dès la fin des années 1920, et la rupture est consommée après son ralliement au nazisme en 1933), Heidegger transforme la phénoménologie en une **ontologie fondamentale**.
 
 *Être et Temps* (1927) : la phénoménologie ne doit pas décrire la conscience mais l'**être** — et l'être se donne uniquement à travers le *Dasein* ("être-là"), l'être humain toujours situé dans un monde.
 
@@ -67,7 +87,7 @@ Mathématicien de formation, Husserl fonde la phénoménologie dans les *Recherc
 
 **Le corps propre** : le corps n'est pas un objet parmi d'autres — c'est le point zéro de l'expérience, le "véhicule de l'être au monde". Je ne *possède* pas un corps — je *suis* mon corps.
 
-**La chair** (*La Visible et l'invisible*, 1968 posthume) : catégorie ultime qui dépasse la distinction sujet/objet. Le voyant et le visible sont faits de la même "chair" du monde.
+**La chair** (*Le Visible et l'invisible*, 1964, posthume) : catégorie ultime qui dépasse la distinction sujet/objet. Le voyant et le visible sont faits de la même "chair" du monde.
 
 **Contre Sartre :** Merleau-Ponty critique la liberté absolue sartrienne. La liberté est toujours incarnée, située, limitée par le corps et la situation. L'intersubjectivité n'est pas fondamentalement conflictuelle.
 
@@ -108,7 +128,7 @@ La phénoménologie a profondément marqué :
 - **Psychiatrie** : antipsychiatrie (Laing), phénoménologie clinique
 - **Sciences sociales** : Bourdieu (habitus comme corps socialisé), sociologie phénoménologique (Schutz, Berger)
 - **Sciences cognitives** : *enactivisme* (Varela, Thompson) — la cognition est incarnée
-- **Philosophie continentale** : [[Sartre]], [[Beauvoir]], Derrida, Ricœur
+- **Philosophie continentale** : [[Sartre]], [[Beauvoir]], [[Derrida]], Ricœur
 
 ## Comparaison avec la Philosophie Analytique
 
@@ -116,7 +136,7 @@ La phénoménologie a profondément marqué :
 |---------------|----------------------|
 | Description de l'expérience vécue | Analyse logique du langage |
 | Conscience incarnée, située | Sujet rationnel, désincorporé |
-| Heidegger, Merleau-Ponty, Husserl | Russell, Frege, Wittgenstein |
+| Heidegger, Merleau-Ponty, Husserl | [[Russell]], Frege, Wittgenstein |
 | Tradition continentale | Tradition anglo-saxonne |
 
 > [!warning] Piège

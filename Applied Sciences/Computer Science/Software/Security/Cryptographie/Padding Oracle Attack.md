@@ -1,9 +1,9 @@
 ---
-title: Padding Oracle Attack
-domain: sciences-appliquées
-subdomain: informatique / sécurité / cryptographie
+title: "Padding Oracle Attack"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Cryptographie"
 tags: [padding-oracle, cbc, cryptographie, aes, déchiffrement, sécurité]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Padding Oracle Attack

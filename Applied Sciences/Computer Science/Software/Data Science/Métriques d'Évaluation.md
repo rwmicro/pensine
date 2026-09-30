@@ -1,9 +1,9 @@
 ---
-title: Métriques d'Évaluation en Machine Learning
-domain: sciences-appliquées
-subdomain: informatique / machine-learning
+title: "Métriques d'Évaluation en Machine Learning"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Data Science"
 tags: [métriques, évaluation, classification, régression, nlp, auc-roc, f1-score, machine-learning]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Métriques d'Évaluation en Machine Learning

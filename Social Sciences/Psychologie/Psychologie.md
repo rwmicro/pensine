@@ -169,7 +169,7 @@ La **psychologie** (du grec *psyché* = âme/esprit et *logos* = étude) est la 
 - **Principe :** L'inconscient détermine le comportement
 - **Concepts :** Ça/Moi/Surmoi, refoulement, complexe d'Œdipe, [[Désirs]]
 - **Méthode :** Libre association, interprétation des rêves
-- **Critique :** Non falsifiable (Popper), manque de preuves empiriques
+- **Critique :** Non falsifiable ([[Popper]]), manque de preuves empiriques
 - **Héritage :** Psychothérapie, culture populaire
 
 ### 5. Humanisme (Rogers, Maslow)
@@ -199,7 +199,7 @@ La **psychologie** (du grec *psyché* = âme/esprit et *logos* = étude) est la 
 ### Mémoire
 - Modèle d'Atkinson-Shiffrin (mémoire sensorielle, court terme, long terme)
 - Courbe de l'oubli (Ebbinghaus)
-- [[Education/Learning Techniques/Spaced Repetition]] : Révisions espacées
+- Spaced Repetition : Révisions espacées
 
 ### Motivation
 - Pyramide de Maslow
@@ -225,13 +225,13 @@ La **psychologie** (du grec *psyché* = âme/esprit et *logos* = étude) est la 
 
 ### Éducation
 - Pédagogie cognitive
-- [[Education/Learning Techniques/Feynman Technique]]
-- [[Education/Learning Techniques/Memory Palace]]
-- [[Education/Learning Techniques/Méthode d'Adler]]
+- Feynman Technique
+- Memory Palace
+- Méthode d'Adler
 
 ### Travail
 - Gestion du stress
-- [[Education/Working Techniques/Pomodoro]] : Gestion du temps
+- Pomodoro : Gestion du temps
 - Leadership
 - Recrutement
 

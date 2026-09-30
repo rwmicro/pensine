@@ -1,3 +1,11 @@
+---
+title: "LFCS Q20 — User and Group limits"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, user, group, limits]
+date: "2026-08-09"
+---
+
 # Question 20 — User and Group limits
 
 ## Notes d'apprentissage

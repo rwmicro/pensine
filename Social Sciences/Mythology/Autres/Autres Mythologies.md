@@ -42,7 +42,7 @@ date: "2026-02-25"
 - Trouve épée Kusanagi (trésor impérial)
 
 **Kami:**
-- Esprits, divinités shinto
+- Esprits, divinités [[Shintoïsme|shinto]]
 - Innombrables (8 millions métaphoriquement)
 - Nature, ancêtres, objets
 

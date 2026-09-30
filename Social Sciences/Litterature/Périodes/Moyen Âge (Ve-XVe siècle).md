@@ -29,7 +29,7 @@ Epopées en vers qui célèbrent les exploits guerriers des héros chrétiens �
 > [!important] Idée clé
 > La faute de Roland (refuser l'aide par excès d'honneur) n'est pas un simple défaut de caractère : c'est la démesure du héros épique, un motif qu'on retrouve dans l'*hubris* de la tragédie grecque (cf. [[Antiquité Classique]]) — le trait même qui fait la grandeur du héros est ce qui cause sa perte. La geste médiévale hérite de cette logique tragique sans le savoir.
 | **Le Cycle de Guillaume d'Orange** | XIIe s. | Exploits de Guillaume au court nez contre les Sarrasins |
-| **Le Cycle de la Croisade** | XIIe-XIIIe s. | Récits inspirés des croisades |
+| **Le Cycle de la Croisade** | XIIe-XIIIe s. | Récits inspirés des [[Les Croisades\|croisades]] |
 
 ## Le roman courtois (XIIe-XIIIe siècle)
 

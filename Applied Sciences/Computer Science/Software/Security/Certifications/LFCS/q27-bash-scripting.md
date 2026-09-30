@@ -1,3 +1,11 @@
+---
+title: "LFCS Q27 — Bash Scripting"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, bash, scripting]
+date: "2026-08-09"
+---
+
 # Question 27 — Bash Scripting
 
 ## Notes d'apprentissage

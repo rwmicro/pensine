@@ -1,3 +1,11 @@
+---
+title: "LFCS Q21 — GRUB and Bootloader"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, grub, bootloader]
+date: "2026-08-09"
+---
+
 # Question 21 — GRUB and Bootloader
 
 ## Notes d'apprentissage

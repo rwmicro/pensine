@@ -1,9 +1,9 @@
 ---
-title: AV-EDR Evasion
-domain: sciences-appliquées
-subdomain: informatique / sécurité
+title: "AV-EDR Evasion"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Offensive"
 tags: [evasion, av, edr, amsi, obfuscation, pentest, sécurité]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # AV/EDR Evasion

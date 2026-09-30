@@ -5,7 +5,8 @@ subdomain: "History > France"
 tags: [sciences-sociales, histoire, france]
 date: "2026-09-16"
 stage: budding
-period: "1940-1944"
+year: 1940
+yearEnd: 1944
 ---
 
 # Vichy, Occupation et Résistance (1940-1944)
@@ -14,6 +15,28 @@ period: "1940-1944"
 *Charles de Gaulle au micro de la BBC à Londres, vers 1940-1943 — photographie anonyme (Keystone-France). Domaine public, source : Wikimedia Commons.*
 
 En six semaines, au printemps 1940, la France passe du statut de grande puissance victorieuse en 1918 (voir [[07 - Première Guerre mondiale (France)]]) à celui de pays occupé et divisé. Cette période, l'une des plus disputées de la mémoire nationale, mêle un effondrement militaire, un régime français qui choisit délibérément la collaboration, et une résistance qui commence minoritaire avant de devenir un mythe fondateur de l'après-guerre.
+
+## Chronologie
+
+```mermaid
+timeline
+    title Vichy, Occupation et Résistance
+    section 1940
+        10 mai 1940 : Offensive allemande à l'ouest
+        14 juin 1940 : Paris occupé
+        18 juin 1940 : Appel du général de Gaulle
+        22 juin 1940 : Armistice de Rethondes
+        10 juillet 1940 : Pleins pouvoirs à Pétain
+        24 octobre 1940 : Entrevue de Montoire
+    section Collaboration et Résistance
+        16-17 juillet 1942 : Rafle du Vél d'Hiv
+        1943 : Service du travail obligatoire
+        Mai 1943 : Création du CNR
+    section Libération et mémoire
+        6 juin 1944 : Débarquement en Normandie
+        25 août 1944 : Libération de Paris
+        1995 : Discours de Jacques Chirac
+```
 
 ## La débâcle de mai-juin 1940
 

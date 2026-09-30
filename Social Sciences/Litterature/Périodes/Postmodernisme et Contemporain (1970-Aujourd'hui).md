@@ -53,5 +53,5 @@ date: "2026-02-23"
 **Littérature de Témoignage/Mémoire**
 - **Primo Levi** (1919-1987, Italie): *Si c'est un homme* (Auschwitz)
   - [[Litterature/Si c'est un homme - Primo Levi]]
-- **Elie Wiesel** (1928-2016): *La Nuit* (Shoah)
+- **Elie Wiesel** (1928-2016): *La Nuit* ([[Shoah]])
 - **Aleksandr Soljenitsyne** (1918-2008, Russie): *L'Archipel du Goulag*

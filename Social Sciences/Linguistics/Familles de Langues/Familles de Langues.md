@@ -5,6 +5,9 @@ subdomain: "Linguistics > Familles de Langues"
 tags: [sciences-sociales, linguistique]
 date: "2026-02-22"
 ---
+
+# Familles de Langues
+
 ## **Les Grandes Familles de Langues : Un Voyage dans le Temps et l’Espace**
 
 _Comment les langues sont-elles liées ? Pourquoi certaines se ressemblent-elles ?_

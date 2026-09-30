@@ -209,10 +209,3 @@ sae_pwe=2          # 0=hunting-and-pecking, 1=H2E, 2=both
 | Entreprise | WPA3-Enterprise + EAP-TLS, AC interne, validation cert obligatoire |
 | Public | OWE (au minimum), VPN systématique côté client |
 | Critique | WPA3-Enterprise Suite-B 192 bits, certificats clients HSM-backed |
-
-## Voir aussi
-
-- [[01 - Fondamentaux 802.11]] — SAE et PMF en théorie
-- [[05 - Evil Twin et Phishing]] — downgrade transition en pratique
-- [[06 - Attaques WPA2-Enterprise]] — applicable à WPA3-Ent
-- [[11 - Defense et Detection]] — configurations durcies

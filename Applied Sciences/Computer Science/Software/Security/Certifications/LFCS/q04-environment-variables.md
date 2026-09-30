@@ -1,3 +1,11 @@
+---
+title: "LFCS Q04 — Environment Variables"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, environment, variables]
+date: "2026-08-09"
+---
+
 # Question 4 — Environment Variables
 
 ## Notes d'apprentissage

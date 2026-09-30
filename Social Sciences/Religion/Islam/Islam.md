@@ -14,7 +14,7 @@ L'islam est la deuxième religion mondiale (~1,9 milliard de fidèles) et la plu
 
 ### Le contexte
 
-L'Arabie du VIIe siècle est un carrefour commercial entre l'Empire byzantin (chrétien) et l'Empire sassanide (zoroastrien). La Mecque est un centre de pèlerinage polythéiste (la Kaaba abrite 360 idoles) et de commerce caravaner. Des communautés juives et chrétiennes existent dans la péninsule (Médine, Yémen, Najran).
+L'Arabie du VIIe siècle est un carrefour commercial entre l'[[Empire byzantin]] (chrétien) et l'Empire sassanide (zoroastrien). La Mecque est un centre de pèlerinage polythéiste (la Kaaba abrite 360 idoles) et de commerce caravaner. Des communautés juives et chrétiennes existent dans la péninsule (Médine, Yémen, Najran).
 
 ### La vie du Prophète
 

@@ -1,9 +1,9 @@
 ---
-title: Hash Cracking
-domain: sciences-appliquées
-subdomain: informatique / sécurité / cryptographie
+title: "Hash Cracking"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Cryptographie"
 tags: [hashcat, john, hash, cracking, ntlm, bcrypt, sécurité]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Hash Cracking

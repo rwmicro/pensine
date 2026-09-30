@@ -12,7 +12,7 @@ date: "2026-02-22"
 > La géométrie plane couvre les repères, les vecteurs, les équations de droites et le produit scalaire. Ces outils se généralisent ensuite à la troisième dimension en Terminale.
 
 
-# Partie I : Géométrie plane
+## Partie I : Géométrie plane
 
 ## 1. Repère du plan et coordonnées (Seconde)
 

@@ -1,9 +1,9 @@
 ---
-title: Cloud Security
-domain: sciences-appliquées
-subdomain: informatique / sécurité
+title: "Cloud Security"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Cloud"
 tags: [cloud, aws, azure, gcp, iam, sécurité, pentest, misconfiguration]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Cloud Security

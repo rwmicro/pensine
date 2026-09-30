@@ -386,7 +386,7 @@ Mais les linguistes ont depuis longtemps établi que le Tok Pisin est une langue
 
 ### La tension avec l'anglais
 
-Une tension persiste : l'anglais reste la langue de l'enseignement formel, du droit, de la haute administration et de l'accès aux études supérieures. Les familles qui peuvent scolariser leurs enfants en anglais le font, pour des raisons de mobilité sociale. Dans les villes, le Tok Pisin des jeunes générations incorpore massivement des mots anglais, brouillant parfois la frontière entre les deux langues.
+Une tension persiste : l'anglais reste la langue de l'enseignement formel, du droit, de la haute administration et de l'accès aux études supérieures. Les familles qui peuvent scolariser leurs enfants en anglais le font, pour des raisons de [[Mobilité Sociale|mobilité sociale]]. Dans les villes, le Tok Pisin des jeunes générations incorpore massivement des mots anglais, brouillant parfois la frontière entre les deux langues.
 
 Cette tension n'est pas propre à la PNG : dans toutes les sociétés créolophones (Haïti, Jamaïque, Martinique), la même hiérarchie symbolique oppose la langue "basse" (créole) à la langue "haute" (européenne), même quand la première est parlée par la quasi-totalité de la population.
 

@@ -1,3 +1,11 @@
+---
+title: "LFCS — Notes de préparation"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification]
+date: "2026-08-09"
+---
+
 # LFCS — Notes de préparation
 
 > Notes formatées pour réviser la certification **Linux Foundation Certified System Administrator** via le simulateur [killer.sh](https://killer.sh/).

@@ -1,9 +1,9 @@
 ---
-title: Kubernetes Security
-domain: sciences-appliquées
-subdomain: informatique / sécurité / cloud
+title: "Kubernetes Security"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Cloud"
 tags: [kubernetes, k8s, conteneur, rbac, sécurité, cloud, pentest]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Kubernetes Security

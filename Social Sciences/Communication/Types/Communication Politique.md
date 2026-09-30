@@ -48,7 +48,7 @@ date: "2026-02-22"
 **Histoire**
 - Première Guerre mondiale : affiches, films
 - Totalitarismes : Goebbels (nazi), Staline
-- Guerre froide : Voice of America, Radio Free Europe
+- [[Guerre froide]] : Voice of America, Radio Free Europe
 
 **Edward Bernays** (1891-1995)
 - "Père des relations publiques"

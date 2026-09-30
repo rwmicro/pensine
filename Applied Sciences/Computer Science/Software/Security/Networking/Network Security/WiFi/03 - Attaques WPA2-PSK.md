@@ -186,10 +186,3 @@ cowpatty -d pmk_MonReseau -r handshake-01.cap -s MonReseau
 ```
 
 Utile si plusieurs handshakes partagent le même SSID (ex : chaîne de boutiques).
-
-## Voir aussi
-
-- [[02 - Reconnaissance et Sniffing]] — capture en amont
-- [[04 - Attaques WPS]] — si PSK trop longue, essayer le WPS
-- [[09 - WPA3 et Vulnérabilités Modernes]] — SAE résiste aux dictionnaires offline
-- [[08 - Frameworks Tout-en-Un]] — airgeddon/wifite2 automatisent ces étapes

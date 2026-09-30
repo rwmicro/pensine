@@ -1,9 +1,9 @@
 ---
-title: API Security
-domain: sciences-appliquées
-subdomain: informatique / sécurité / web
+title: "API Security"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Web Security"
 tags: [api, rest, graphql, oauth, sécurité, owasp, pentest]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # API Security

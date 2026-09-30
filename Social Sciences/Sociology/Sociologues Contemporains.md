@@ -98,6 +98,8 @@ Sociologue canadien, fondateur de l'**interactionnisme dramaturgique**. Il analy
 
 ## Norbert Elias (1897-1990)
 
+*Voir le développement complet : [[Fondateurs/Norbert Elias|Norbert Elias]]*
+
 Sociologue allemand, auteur de *La Civilisation des moeurs* (1939) et *La Société de cour*. Sa thèse : le "processus de civilisation" est l'intériorisation progressive du contrôle des pulsions (violence, sexualité, fonctions corporelles) sous l'effet de la centralisation du pouvoir étatique.
 
 | Concept | Idée |

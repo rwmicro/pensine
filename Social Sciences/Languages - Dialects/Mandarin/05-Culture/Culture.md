@@ -41,7 +41,7 @@ Ce qu'on appelle "chinois" est en réalité une **famille de langues** mutuellem
 | Période | Dates | Événement clé |
 |---------|-------|--------------|
 | Dynastie Shang | -1600 / -1046 | Premier système d'écriture chinois (oracles) |
-| Confucius | -551 / -479 | Naissance de la pensée confucéenne |
+| [[Confucius]] | -551 / -479 | Naissance de la pensée confucéenne |
 | Dynastie Qin | -221 / -206 | Unification de la Chine, standardisation de l'écriture |
 | Dynastie Han | -206 / 220 | Âge d'or — naissance du concept "Han" (![汉族](audio/zh_male_f88c5b01cd40.mp3)) |
 | Dynastie Tang | 618 / 907 | Apogée poétique et culturel — Li Bai, Du Fu |
@@ -53,7 +53,7 @@ Ce qu'on appelle "chinois" est en réalité une **famille de langues** mutuellem
 
 ## Confucianisme — pilier moral
 
-Le confucianisme n'est pas une religion mais un **système éthique** qui structure encore profondément la société chinoise.
+Le [[Confucianisme|confucianisme]] n'est pas une religion mais un **système éthique** qui structure encore profondément la société chinoise.
 
 | Concept | Caractère | Sens |
 |---------|----------|------|
@@ -198,7 +198,7 @@ La Chine n'a pas une cuisine, mais huit cuisines régionales (八大菜系 *bā 
 | Courant | Fondateur | Influence |
 |---------|----------|-----------|
 | ![儒教](audio/zh_male_ab4707dc5696.mp3) (rújiào) — Confucianisme | Confucius (-551/-479) | Éthique sociale, éducation, hiérarchie |
-| ![道教](audio/zh_male_1dbdf5772eae.mp3) (dàojiào) — Taoïsme | Laozi (-VIe siècle?) | Nature, harmonie, immortalité |
+| ![道教](audio/zh_male_1dbdf5772eae.mp3) (dàojiào) — [[Taoïsme]] | [[Laozi]] (-VIe siècle?) | Nature, harmonie, immortalité |
 | ![佛教](audio/zh_male_b9e0d943fc63.mp3) (fójiào) — Bouddhisme | Bouddha, importé d'Inde IIᵉ siècle | Compassion, détachement, karma |
 
 > En Chine, on dit *les trois enseignements ne font qu'un* — un même Chinois peut être confucianiste pour la famille, taoïste pour la santé, bouddhiste pour la mort.

@@ -4,6 +4,8 @@ domain: "Social Sciences"
 subdomain: "History"
 tags: [sciences-sociales, histoire]
 date: "2026-02-28"
+year: 1543
+yearEnd: 1687
 ---
 
 # La Révolution Scientifique
@@ -13,6 +15,25 @@ date: "2026-02-28"
 La révolution scientifique désigne la transformation profonde de la façon dont les sociétés humaines produisent et valident la connaissance, amorcée en Europe au XVIe siècle. Elle ne se résume pas à une série de découvertes : c'est un changement de **méthode** et d'**attitude épistémologique**.
 
 La date symbolique de départ est 1543 : la publication du *De revolutionibus* de Copernic (héliocentrisme) et du *De humani corporis fabrica* de Vésale (anatomie par dissection). Deux disciplines différentes, une même rupture : **observer le monde réel plutôt que de faire confiance aux autorités héritées**.
+
+## Chronologie
+
+```mermaid
+timeline
+    title Les grandes ruptures scientifiques
+    section XVIe-XVIIe siècle
+        1543 : Copernic, héliocentrisme : Vésale, anatomie par dissection
+        1628 : Circulation sanguine, Harvey
+        1687 : Mécanique universelle, Newton
+    section XVIIIe siècle
+        1753 : Nomenclature binomiale des plantes, Linné
+        1769 : Machine à vapeur de James Watt
+        1789 : Chimie moderne, Lavoisier
+    section XIXe-XXe siècle
+        1859 : Évolution par sélection naturelle, Darwin
+        1905-1916 : Relativité restreinte et générale, Einstein
+        1953 : Structure de l'ADN
+```
 
 ## L'innovation fondamentale : admettre l'ignorance
 
@@ -35,7 +56,7 @@ La méthode scientifique n'est pas née en un jour. Elle s'élabore progressivem
 5. **Conclusion** : confirmer, infirmer ou affiner l'hypothèse
 6. **Réplication** : d'autres chercheurs reproduisent l'expérience
 
-Le philosophe Karl Popper a formalisé au XXe siècle le critère de **réfutabilité** : une théorie scientifique doit pouvoir être mise en défaut par l'observation. Ce qui ne peut pas être réfuté n'est pas de la science.
+Le philosophe [[Popper|Karl Popper]] a formalisé au XXe siècle le critère de **réfutabilité** : une théorie scientifique doit pouvoir être mise en défaut par l'observation. Ce qui ne peut pas être réfuté n'est pas de la science.
 
 > [!tip] Méthode
 > La réfutabilité est le test le plus rapide pour repérer une pseudo-science : demander "quelle observation, si elle se produisait, prouverait cette théorie fausse ?". Si aucune réponse n'est possible — la théorie s'ajuste toujours après coup pour "expliquer" n'importe quel résultat — ce n'est pas de la science au sens de Popper, quel que soit le vocabulaire employé.
@@ -70,7 +91,7 @@ La révolution scientifique n'a pas prospéré dans un vide politique. Elle s'es
 - Accès à de nouveaux spécimens, nouvelles plantes, nouvelles données géographiques
 - Débouchés applicatifs qui justifient l'investissement
 
-Les grandes expéditions scientifiques du XVIIIe siècle (Cook, Humboldt, Darwin avec le Beagle) sont aussi des expéditions d'exploration coloniale. Les naturalistes décrivent et classifient les espèces des colonies ; ils cartographient aussi les ressources exploitables.
+Les grandes expéditions scientifiques des XVIIIe et XIXe siècles (Cook, Humboldt, Darwin avec le Beagle) sont aussi des expéditions d'exploration coloniale. Les naturalistes décrivent et classifient les espèces des colonies ; ils cartographient aussi les ressources exploitables.
 
 > [!warning] Piège
 > Cette alliance historique science-empire ne rend pas la méthode scientifique elle-même impérialiste : c'est une contingence de financement et de logistique (qui payait les expéditions coûteuses ?), pas une conséquence logique de la falsifiabilité ou de l'expérimentation. Confondre l'origine sociale d'une méthode avec sa validité épistémique est une erreur classique — la boussole reste précise même inventée pour naviguer vers des colonies.

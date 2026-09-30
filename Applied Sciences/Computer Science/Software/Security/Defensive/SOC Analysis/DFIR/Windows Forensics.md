@@ -1,9 +1,9 @@
 ---
-title: Windows Forensics
-domain: sciences-appliquées
-subdomain: informatique / sécurité / dfir
+title: "Windows Forensics"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Defensive > SOC Analysis > DFIR"
 tags: [forensics, windows, dfir, investigation, artefacts, sécurité]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Windows Forensics

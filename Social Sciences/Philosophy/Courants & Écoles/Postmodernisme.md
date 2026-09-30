@@ -10,6 +10,23 @@ date: "2026-08-08"
 
 Courant philosophique et culturel qui diagnostique l'épuisement des grands récits de légitimation propres à la modernité (progrès, raison universelle, émancipation) et en tire les conséquences pour la connaissance, l'art et la politique. Terme flou, contesté par plusieurs des auteurs auxquels on l'attribue, mais qui désigne commodément un moment intellectuel précis de la fin du XXe siècle, largement issu du [[Structuralisme|post-structuralisme]] français.
 
+## Chronologie
+
+```mermaid
+timeline
+    title Le postmodernisme
+    section Sources post-structuralistes
+        1966 : Foucault, Les Mots et les Choses
+        1967 : Derrida, De la grammatologie
+    section Le moment postmoderne
+        1979 : Lyotard, La Condition postmoderne : Rorty, Philosophy and the Mirror of Nature
+        1980 : Habermas, La modernité, un projet inachevé
+        1981 : Baudrillard, Simulacres et simulation
+        1991 : Jameson, logique culturelle du capitalisme tardif : Baudrillard, La Guerre du Golfe n'a pas eu lieu
+    section Contrecoup
+        1996 : Affaire Sokal
+```
+
 ## Lyotard : la fin des grands récits
 
 Jean-François Lyotard donne au terme sa formulation philosophique de référence dans *La Condition postmoderne* (1979) : "Je définis le postmoderne comme l'incrédulité à l'égard des métarécits."
@@ -68,7 +85,7 @@ Au-delà de la philosophie stricte, "postmoderne" désigne dès les années 1970
 Le physicien Alan Sokal publie dans la revue *Social Text* un article délibérément absurde ("Transgresser les frontières : vers une herméneutique transformative de la gravitation quantique"), mêlant un jargon pseudo-scientifique à des citations réelles de Lacan, Baudrillard, Deleuze et Irigaray, pour tester si la revue publierait un texte creux dès lors qu'il flattait les présupposés postmodernes du comité de lecture. L'article est accepté et publié — Sokal révèle immédiatement la supercherie, provoquant un scandale international ("Sokal affair") qui alimente durablement l'accusation d'un usage rhétorique, non rigoureux, de concepts scientifiques par une partie de la philosophie postmoderne française.
 
 > [!warning] Piège
-> Ne pas généraliser l'affaire Sokal en « preuve que toute la philosophie postmoderne est vide ». Sokal cible précisément l'usage décoratif et inexact de concepts scientifiques par certains auteurs, dans une revue particulière non relue par des pairs à l'époque — ce n'est pas une réfutation des arguments philosophiques de fond de Lyotard, Baudrillard ou Derrida, qui doivent être discutés sur leur propre terrain.
+> Ne pas généraliser l'affaire Sokal en « preuve que toute la philosophie postmoderne est vide ». Sokal cible précisément l'usage décoratif et inexact de concepts scientifiques par certains auteurs, dans une revue particulière non relue par des pairs à l'époque — ce n'est pas une réfutation des arguments philosophiques de fond de Lyotard, Baudrillard ou [[Derrida]], qui doivent être discutés sur leur propre terrain.
 
 ## Postmodernisme et politique : ambiguïtés
 

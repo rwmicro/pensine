@@ -45,7 +45,7 @@ La morale judéo-chrétienne, selon Nietzsche, est une "révolte des esclaves" :
 
 ## Connexions philosophiques
 
-- **Avec Schopenhauer** (influence principale) : Nietzsche part du pessimisme de Schopenhauer (la Volonté aveugle et souffrante) pour le retourner en affirmation de la vie.
+- **Avec [[Schopenhauer]]** (influence principale) : Nietzsche part du pessimisme de Schopenhauer (la Volonté aveugle et souffrante) pour le retourner en affirmation de la vie.
 - **Avec l'existentialisme** : Sartre, Camus et Heidegger doivent tous quelque chose à Nietzsche — création de sens, authenticité, mort de Dieu comme point de départ de l'existence humaine.
 - **Avec Foucault et le postmodernisme** : le perspectivisme et la généalogie de la morale préfigurent la méthode foucaldienne (archéologie du savoir, critique des régimes de vérité).
 - **Avec le stoïcisme** : l'*amor fati* nietzschéen est proche de l'acceptation stoïcienne — mais le stoïcien accepte le cosmos rationnel, Nietzsche affirme un monde sans sens donné.

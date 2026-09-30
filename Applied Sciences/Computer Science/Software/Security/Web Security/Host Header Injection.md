@@ -1,9 +1,9 @@
 ---
-title: Host Header Injection
-domain: sciences-appliquées
-subdomain: informatique / sécurité / web
+title: "Host Header Injection"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Web Security"
 tags: [host-header, injection, web, password-reset, ssrf, sécurité]
-date: 2026-03-22
+date: "2026-03-22"
 ---
 
 # Host Header Injection

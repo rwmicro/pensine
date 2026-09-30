@@ -41,7 +41,7 @@ date: "2026-02-22"
 - Complexité réduite à oppositions binaires
 
 > [!important] Idée clé
-> La méthode des oppositions binaires n'est pas une invention de [[Lévi-Strauss]] pour l'anthropologie — c'est un import direct de la linguistique structurale de Saussure et Jakobson (cf. [[Histoire de la Discipline]]). Le structuralisme anthropologique traite les mythes et les systèmes de parenté comme des langues : ce qui compte n'est jamais un élément isolé, mais sa position dans un système d'oppositions (cru/cuit, nature/culture).
+> La méthode des oppositions binaires n'est pas une invention de [[Claude Lévi-Strauss|Lévi-Strauss]] pour l'anthropologie — c'est un import direct de la linguistique structurale de Saussure et Jakobson (cf. [[Histoire de la Discipline]]). Le structuralisme anthropologique traite les mythes et les systèmes de parenté comme des langues : ce qui compte n'est jamais un élément isolé, mais sa position dans un système d'oppositions (cru/cuit, nature/culture).
 
 ### Culture et Personnalité
 

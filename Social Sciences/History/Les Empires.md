@@ -16,6 +16,29 @@ Deux caractéristiques définissent l'empire :
 - Une **frontière flexible** : l'empire tend à l'expansion, à l'intégration de nouveaux territoires
 - Une **diversité culturelle gérée** : des peuples différents coexistent sous la même administration
 
+## Chronologie
+
+```mermaid
+timeline
+    title Quelques grands empires
+    section Antiquité
+        Vers -2334 : Empire akkadien de Sargon en Mésopotamie
+        -550 : Empire perse achéménide
+        -336 : Empire d'Alexandre
+        -206 : Empire han
+        -27 : Empire romain
+        476 : Chute de l'Empire romain
+    section Moyen Âge
+        632 : Expansion de l'Empire arabe et islamique
+        1206 : Empire mongol
+        1299 : Naissance de l'Empire ottoman
+    section Empires européens
+        XVIe siècle : Empire espagnol
+        XVIIe siècle : Empire britannique
+        1922 : Fin de l'Empire ottoman
+        1945-1975 : Décolonisation
+```
+
 ## Les grands empires de l'histoire
 
 | Empire | Période | Étendue maximale |
@@ -26,8 +49,8 @@ Deux caractéristiques définissent l'empire :
 | Empire romain | 27 av. J.-C. – 476 apr. J.-C. | Du Maroc à la Mésopotamie |
 | Empire han (Chine) | 206 av. J.-C. – 220 apr. J.-C. | Chine + Asie centrale |
 | Empire arabe/islamique | 632 – 750 apr. J.-C. | Espagne → Inde |
-| Empire mongol | 1206 – 1368 | Plus grand empire contigu |
-| Empire ottoman | 1299 – 1922 | Moyen-Orient, Balkans, Afrique du Nord |
+| [[Empire mongol]] | 1206 – 1368 | Plus grand empire contigu |
+| [[Empire ottoman]] | 1299 – 1922 | Moyen-Orient, Balkans, Afrique du Nord |
 | Empire espagnol | XVIe – XIXe s. | Amériques, Philippines, Europe |
 | Empire britannique | XVIIe – XXe s. | Le plus étendu de l'histoire |
 

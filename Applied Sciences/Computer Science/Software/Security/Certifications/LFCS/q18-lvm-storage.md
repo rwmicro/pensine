@@ -1,3 +1,11 @@
+---
+title: "LFCS Q18 — LVM Storage"
+domain: "Applied Sciences"
+subdomain: "Computer Science > Security > Certifications > LFCS"
+tags: [lfcs, linux, certification, storage]
+date: "2026-08-09"
+---
+
 # Question 18 — LVM Storage
 
 ## Notes d'apprentissage
