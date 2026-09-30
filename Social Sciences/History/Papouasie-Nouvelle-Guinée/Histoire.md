@@ -163,9 +163,9 @@ Des négociations longues, facilitées par la **Nouvelle-Zélande** et plusieurs
 
 **23 novembre – 7 décembre 2019** : référendum d'indépendance.
 
-**98,31 % des votants choisissent l'indépendance** complète, avec un taux de participation de ~85 %. Le résultat est sans ambiguïté, mais le référendum est **non contraignant** : c'est le Parlement de PNG qui doit ratifier la décision.
+**98,31 % des votants choisissent l'indépendance** complète, avec un taux de participation d'environ 87 %. Le résultat est sans ambiguïté, mais le référendum est **non contraignant** : c'est le Parlement de PNG qui doit ratifier la décision.
 
-Les négociations entre Port Moresby et Bougainville se poursuivent. Un accord de 2021 vise une indépendance effective **d'ici 2027**, mais le processus reste incertain. Si elle aboutit, Bougainville sera le premier nouveau pays indépendant d'Océanie depuis le Timor oriental (2002).
+Les négociations entre Port Moresby et Bougainville se poursuivent. L'accord d'Era Kone (2021) visait une indépendance effective entre 2025 et 2027 ; ce calendrier a depuis glissé et le processus reste incertain. Si elle aboutit, Bougainville sera le premier nouveau pays indépendant d'Océanie depuis le Timor oriental (2002).
 
 ## PNG contemporaine
 
