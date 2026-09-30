@@ -176,8 +176,8 @@ Quelques foyers créés pour enfants de soldats allemands et femmes locales.
 - Mères tondues, humiliées publiquement
 - Enfants placés en asiles psychiatriques sans raison médicale
 - Abus systématiques
-- Excuses officielles du gouvernement norvégien seulement en 1998-2005
-- Compensations financières en 2005
+- Excuses officielles tardives : du Premier ministre norvégien Kjell Magne Bondevik en 2000, puis du Storting en 2002
+- Régime d'indemnisation voté par le Storting en 2005
 
 **Pologne et Est:**
 - Beaucoup d'enfants jamais retrouvés par familles biologiques
