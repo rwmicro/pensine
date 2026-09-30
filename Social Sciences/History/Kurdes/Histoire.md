@@ -169,9 +169,9 @@ timeline
         1999 : Capture d'Öcalan
     section Autonomies
         2005 : La Constitution irakienne reconnaît le KRG
-        2012 : Autonomie kurde en Syrie, le Rojava
+        2012 : Les forces kurdes prennent le contrôle du Rojava en Syrie
         2014-2015 : Bataille de Kobané
-        2017 : Référendum d'indépendance kurde irakien rejeté
+        2017 : Référendum d'indépendance au Kurdistan irakien, oui à 92,7 %, rejeté par Bagdad
         2018-2019 : Occupation turque d'Afrin : Chute de Baghouz
         2025 : Annonce de la dissolution du PKK
 ```

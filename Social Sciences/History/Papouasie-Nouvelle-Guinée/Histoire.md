@@ -203,13 +203,13 @@ timeline
     title La Papouasie-Nouvelle-Guinée
     section Peuplement
         -50000 : Premiers humains en Nouvelle-Guinée
-        -8000 : Agriculture à Kuk dans les Hautes Terres
+        -7000 : Agriculture à Kuk dans les Hautes Terres
     section Contact et colonisation
         1526-1545 : Jorge de Menezes aborde l'île : Ortiz de Retes la nomme Nueva Guinea
         1884 : Partition entre Allemagne et Grande-Bretagne
         1906 : Papouasie transférée à l'Australie
         1914-1920 : L'Australie prend la Nouvelle-Guinée allemande : Mandat de la SDN
-        1942 : Campagne de Kokoda : Baie de Milne, première défaite terrestre japonaise
+        1942 : Campagne de Kokoda : Baie de Milne, premier échec terrestre complet des Japonais
     section Indépendance
         1949 : Fusion des deux territoires
         1967 : Fondation du Pangu Pati par Michael Somare
@@ -218,7 +218,7 @@ timeline
     section Bougainville
         1988-1998 : Conflit de Bougainville et blocus de l'île
         2001 : Accord de paix, autonomie de Bougainville
-        2019-2021 : Référendum, 98,31 % pour l'indépendance : Accord visant l'indépendance d'ici 2027
+        2019-2021 : Référendum, 98,31 % pour l'indépendance : Accord Era Kone visant l'indépendance entre 2025 et 2027, échéance depuis repoussée
 ```
 
 | Date | Événement |

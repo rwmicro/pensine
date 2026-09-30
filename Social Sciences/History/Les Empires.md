@@ -22,7 +22,7 @@ Deux caractéristiques définissent l'empire :
 timeline
     title Quelques grands empires
     section Antiquité
-        -2334 : Empire akkadien en Mésopotamie
+        Vers -2334 : Empire akkadien de Sargon en Mésopotamie
         -550 : Empire perse achéménide
         -336 : Empire d'Alexandre
         -206 : Empire han
