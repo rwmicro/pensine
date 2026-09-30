@@ -218,6 +218,7 @@ Les stoïciens sont les premiers **cosmopolites**: citoyens du monde, pas seulem
 **Citations célèbres:**
 
 > "Tu as pouvoir sur ton esprit, pas sur les événements extérieurs. Réalise cela, et tu trouveras la force."
+> (paraphrase moderne souvent attribuée à Marc Aurèle : l'idée est dans les *Pensées*, mais la phrase ne s'y trouve pas telle quelle)
 
 > "La meilleure revanche, c'est de ne pas ressembler à ton ennemi."
 

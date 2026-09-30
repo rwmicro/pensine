@@ -4,7 +4,8 @@ domain: "Social Sciences"
 subdomain: "History > France"
 tags: [sciences-sociales, histoire, france]
 date: "2025-01-15"
-year: 1527
+year: 1500
+period: "Du XVIe siècle à la Révolution"
 yearEnd: 1789
 ---
 
@@ -13,7 +14,7 @@ yearEnd: 1789
 ![Le Serment du Jeu de Paume](images/01-serment-du-jeu-de-paume.jpg)
 *Le Serment du Jeu de Paume, 20 juin 1789 — Jacques-Louis David, esquisse (1790-1792), Musée Carnavalet. Domaine public, source : Wikimedia Commons.*
 
-Le **jeu de paume** est le sport de raquette le plus ancien d'Europe, ancêtre direct du tennis. Né en France au Moyen Âge, il était pratiqué dans les cours royales et les monastères. **François Ier** l'institutionnalise en 1527 en codifiant ses règles et en faisant construire des salles dédiées.
+Le **jeu de paume** est le sport de raquette le plus ancien d'Europe, ancêtre direct du tennis. Né en France au Moyen Âge, il était pratiqué dans les cours royales et les monastères. Au XVIe siècle, **François Ier**, grand amateur, contribue à en faire le jeu favori de la cour ; la raquette, les salles couvertes et des règles plus stables s'imposent à cette époque.
 
 
 ## Chronologie
@@ -34,7 +35,7 @@ timeline
 ## Origine et histoire
 
 - **XIIe siècle** : pratiqué d'abord à mains nues (d'où "paume"), dans les cours des monastères. Puis avec des gants, enfin avec une raquette.
-- **François Ier (1527)** : codifie le sport, fait construire des salles couvertes appelées *tripots*. Le jeu devient le divertissement favori de la noblesse française.
+- **François Ier (XVIe siècle)** : grand amateur, il favorise l'essor du jeu et des salles couvertes appelées *tripots*. Le jeu devient le divertissement favori de la noblesse française.
 - **XVIIe–XVIIIe siècle** : à son apogée, Paris compte plus de 1 800 tripots. Le sport commence à décliner avec l'arrivée du tennis moderne venu d'Angleterre.
 
 
