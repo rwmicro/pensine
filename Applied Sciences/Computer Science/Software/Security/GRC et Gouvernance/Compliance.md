@@ -142,24 +142,19 @@ Le Règlement Général sur la Protection des Données (UE 2016/679) s'applique 
 
 ### Notification de violation (Article 33-34)
 
-```
-Découverte violation
-        ↓
-    72 heures
-        ↓
-Notification à l'autorité de contrôle (CNIL)
+```mermaid
+flowchart TD
+    A["Découverte violation"] --> B["72 heures"]
+    B --> C["Notification à l'autorité de contrôle (CNIL)"]
 ```
 
 > [!warning] Piège fréquent
 > Les 72 heures courent à partir de la **découverte** de la violation, pas de sa survenue réelle — une violation qui a eu lieu il y a 3 mois mais découverte aujourd'hui doit être notifiée sous 72h à partir d'aujourd'hui. Le délai concerne la notification à l'autorité, pas l'analyse complète : une notification initiale incomplète, complétée ensuite, est acceptée par la CNIL.
 
-```
-        ↓
-Risque élevé pour les personnes ?
-  ↓ Oui              ↓ Non
-Notifier les       Documenter
-personnes          en interne
-concernées
+```mermaid
+flowchart TD
+    D{"Risque élevé pour les personnes ?"} -->|Oui| A["Notifier les personnes concernées"]
+    D -->|Non| B["Documenter en interne"]
 ```
 
 Contenu de la notification :
@@ -340,14 +335,14 @@ Non contraignant légalement (contrairement au RGPD ou PCI DSS), mais souvent ex
 
 **Approche intégrée** :
 
-```
-SMSI ISO 27001
-    ├── Contrôles organisationnels
-    ├── Contrôles techniques
-    │       ├── Satisfait PCI DSS req. 2, 6, 7, 8, 10
-    │       └── Satisfait RGPD Art. 32 (mesures techniques)
-    └── Contrôles de monitoring
-            └── Satisfait SOC 2 Security TSC
+```mermaid
+flowchart TD
+    S["SMSI ISO 27001"] --> O["Contrôles organisationnels"]
+    S --> T["Contrôles techniques"]
+    S --> M["Contrôles de monitoring"]
+    T --> T1["Satisfait PCI DSS req. 2, 6, 7, 8, 10"]
+    T --> T2["Satisfait RGPD Art. 32 (mesures techniques)"]
+    M --> M1["Satisfait SOC 2 Security TSC"]
 ```
 
 ## Outils et ressources

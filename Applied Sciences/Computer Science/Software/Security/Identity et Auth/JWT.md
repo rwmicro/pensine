@@ -12,30 +12,17 @@ Un JWT (RFC 7519) est un token auto-porteur : il contient lui-même les informat
 
 ## Flux d'utilisation typique
 
-```
-   Client (navigateur, mobile)        Auth Server                 Resource Server (API)
-   ─────────────────────────          ───────────                  ──────────────────
-            │                              │                              │
-            │  1. login(user, password)    │                              │
-            │ ──────────────────────────►  │                              │
-            │                              │                              │
-            │  2. JWT (header.payload.sig) │                              │
-            │ ◄──────────────────────────  │                              │
-            │                              │                              │
-            │  Stocke le JWT côté client                                  │
-            │  (mémoire, cookie HttpOnly...)                              │
-            │                                                             │
-            │  3. GET /api/resource                                       │
-            │     Authorization: Bearer eyJ...                            │
-            │ ─────────────────────────────────────────────────────────►  │
-            │                                                             │
-            │                                            4. Vérifie       │
-            │                                            la signature     │
-            │                                            (clé pub /       │
-            │                                            secret partagé)  │
-            │                                                             │
-            │  5. Données protégées                                       │
-            │ ◄─────────────────────────────────────────────────────────  │
+```mermaid
+sequenceDiagram
+    participant C as Client (navigateur, mobile)
+    participant A as Auth Server
+    participant R as Resource Server (API)
+    C->>A: 1. login(user, password)
+    A-->>C: 2. JWT (header.payload.sig)
+    Note over C: Stocke le JWT côté client (mémoire, cookie HttpOnly...)
+    C->>R: 3. GET /api/resource — Authorization: Bearer eyJ...
+    Note over R: 4. Vérifie la signature (clé pub / secret partagé)
+    R-->>C: 5. Données protégées
 ```
 
 **Pourquoi c'est stateless** : le Resource Server n'a pas besoin de consulter l'Auth Server à chaque requête. Il vérifie la signature avec la clé publique (RS256) ou le secret partagé (HS256) et fait confiance au contenu du JWT. Avantage : scalabilité. Inconvénient : impossible de révoquer un JWT côté serveur sans infrastructure additionnelle.

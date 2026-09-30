@@ -12,49 +12,16 @@ L'AD est le système nerveux de 95% des entreprises. Le compromettre, c'est comp
 
 ## Le chemin de l'attaque AD
 
-```
-   Branchement réseau interne (zéro credential)
-            │
-            ▼
-   ┌─────────────────────┐
-   │ Responder / mitm6   │  Capter LLMNR, NBT-NS, IPv6 → premier hash
-   └──────────┬──────────┘
-              │
-              ▼
-   ┌─────────────────────┐
-   │ Crack hash OU relay │  Hashcat NetNTLMv2, ou ntlmrelayx direct
-   └──────────┬──────────┘
-              │
-              ▼
-   ┌─────────────────────┐
-   │ User valide         │  Énumération AD (LDAP, BloodHound)
-   └──────────┬──────────┘
-              │
-              ▼
-   ┌─────────────────────┐
-   │ Kerberoasting,      │  Récupérer hashes de comptes de service
-   │ AS-REP Roasting     │
-   └──────────┬──────────┘
-              │
-              ▼
-   ┌─────────────────────┐
-   │ Mouvement latéral   │  PsExec, WinRM, WMI avec creds/hashes
-   └──────────┬──────────┘
-              │
-              ▼
-   ┌─────────────────────┐
-   │ Privilege escalation│  ACL abuse, ADCS, BloodHound paths
-   └──────────┬──────────┘
-              │
-              ▼
-   ┌─────────────────────┐
-   │ DCSync / NTDS.dit   │  Tous les hashes du domaine
-   └──────────┬──────────┘
-              │
-              ▼
-   ┌─────────────────────┐
-   │ Golden Ticket       │  Persistance ultime (krbtgt)
-   └─────────────────────┘
+```mermaid
+flowchart TD
+    A["Branchement réseau interne (zéro credential)"] --> B["Responder / mitm6\nCapter LLMNR, NBT-NS, IPv6 → premier hash"]
+    B --> C["Crack hash OU relay\nHashcat NetNTLMv2, ou ntlmrelayx direct"]
+    C --> D["User valide\nÉnumération AD (LDAP, BloodHound)"]
+    D --> E["Kerberoasting, AS-REP Roasting\nRécupérer hashes de comptes de service"]
+    E --> F["Mouvement latéral\nPsExec, WinRM, WMI avec creds/hashes"]
+    F --> G["Privilege escalation\nACL abuse, ADCS, BloodHound paths"]
+    G --> H["DCSync / NTDS.dit\nTous les hashes du domaine"]
+    H --> I["Golden Ticket\nPersistance ultime (krbtgt)"]
 ```
 
 ## Concepts indispensables
@@ -102,14 +69,13 @@ bloodhound-python -u user -p pass -d cible.com -ns DC_IP -c all
 
 Si une machine demande "où est `\\serveurinexistant\share` ?", Windows broadcast la question via LLMNR puis NBT-NS. Responder répond "c'est moi !" et capte la tentative d'auth → NetNTLMv2 hash, crackable.
 
-```
-   Victime : "Qui est \\fileserver-typo\share ?"
-       │   (LLMNR broadcast)
-       ▼
-   Attaquant (Responder) : "C'est moi !"
-       │
-       ▼
-   Victime envoie auth NTLM → hash NetNTLMv2 capturé
+```mermaid
+sequenceDiagram
+    participant V as Victime
+    participant A as Attaquant (Responder)
+    V->>A: Qui est \\fileserver-typo\share ? (LLMNR broadcast)
+    A->>V: C'est moi !
+    V->>A: Envoie auth NTLM → hash NetNTLMv2 capturé
 ```
 
 ```bash

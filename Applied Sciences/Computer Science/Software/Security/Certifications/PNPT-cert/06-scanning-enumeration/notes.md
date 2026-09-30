@@ -41,21 +41,13 @@ Voir aussi `05-reconnaissance` pour les flags détaillés.
 
 SMB partage des fichiers Windows. Sur un AD, c'est la voie royale : shares mal configurés, null sessions, relay NTLM.
 
-```
-Énumération SMB — l'arbre de décision
-
-         smbclient -L //IP/ -N
-              │
-       ┌──────┴───────┐
-       ▼              ▼
-   ça liste         accès refusé
-       │              │
-       ▼              ▼
- énumérer shares   tester avec creds
-       │           (CrackMapExec)
-       ▼
- chercher fichiers
- sensibles
+```mermaid
+flowchart TD
+    S["smbclient -L //IP/ -N"] --> L["ça liste"]
+    S --> R["accès refusé"]
+    L --> E["énumérer shares"]
+    R --> T["tester avec creds (CrackMapExec)"]
+    E --> F["chercher fichiers sensibles"]
 ```
 
 ```bash

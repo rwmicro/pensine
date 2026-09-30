@@ -15,17 +15,18 @@ Metasploit est le framework de test d'intrusion le plus utilisé au monde. Il ce
 
 ## Architecture
 
-```
-msfconsole (CLI)
-    ├── Exploits          ← Exploite une vulnérabilité
-    ├── Payloads          ← Code exécuté après exploitation
-    │   ├── Singles       (autonomes, ex: add user)
-    │   ├── Stagers       (établit connexion)
-    │   └── Stages        (chargé via stager : Meterpreter, shell)
-    ├── Auxiliary         ← Scanner, bruteforce, sniffers
-    ├── Post              ← Post-exploitation (collecte, persistence)
-    ├── Encoders          ← Obfusquer les payloads
-    └── Evasion           ← Contourner AV/EDR
+```mermaid
+flowchart TD
+  M["msfconsole (CLI)"]
+  M --> E["Exploits\nExploite une vulnérabilité"]
+  M --> P["Payloads\nCode exécuté après exploitation"]
+  P --> Si["Singles (autonomes, ex: add user)"]
+  P --> St["Stagers (établit connexion)"]
+  P --> Sg["Stages (chargé via stager : Meterpreter, shell)"]
+  M --> A["Auxiliary\nScanner, bruteforce, sniffers"]
+  M --> Po["Post\nPost-exploitation (collecte, persistence)"]
+  M --> En["Encoders\nObfusquer les payloads"]
+  M --> Ev["Evasion\nContourner AV/EDR"]
 ```
 
 ## Navigation dans msfconsole

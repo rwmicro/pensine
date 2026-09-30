@@ -70,9 +70,12 @@ Variantes : MVP pour le mobile, MVVM pour les SPA réactives.
 
 Les composants communiquent via des événements asynchrones. Un producteur émet un événement ; des consommateurs y réagissent de façon découplée.
 
-```
-Producteur A → [Bus d'événements] → Consommateur X
-Producteur B →                    → Consommateur Y
+```mermaid
+flowchart LR
+    PA["Producteur A"] --> Bus["Bus d'événements"]
+    PB["Producteur B"] --> Bus
+    Bus --> CX["Consommateur X"]
+    Bus --> CY["Consommateur Y"]
 ```
 
 Avantages : couplage très faible, extensibilité, résilience. Inconvénients : flux difficile à tracer, cohérence éventuelle, gestion des messages perdus.
@@ -81,12 +84,13 @@ Avantages : couplage très faible, extensibilité, résilience. Inconvénients :
 
 La logique métier est au centre, isolée de l'infrastructure. Les "ports" sont des interfaces définies par le domaine ; les "adaptateurs" sont les implémentations concrètes.
 
-```
-[REST] [CLI]
-   │      │
-Port Entrant ── DOMAINE MÉTIER ── Port Sortant
-                                       │      │
-                                     [BDD] [Email]
+```mermaid
+flowchart TD
+    REST["REST"] --> PE["Port Entrant"]
+    CLI["CLI"] --> PE
+    PE --- DM["DOMAINE MÉTIER"] --- PS["Port Sortant"]
+    PS --> BDD["BDD"]
+    PS --> Email["Email"]
 ```
 
 Avantage clé : le domaine ne dépend de rien d'externe. On peut tester toute la logique métier sans base de données ni HTTP.
