@@ -20,7 +20,7 @@ La consécration vient avec son élection au **Collège de France** en 1900. Ses
 
 Le contexte intellectuel éclaire sa démarche. La fin du XIXe siècle est dominée par le positivisme et le scientisme : la psychologie expérimentale prétend mesurer les états de conscience, la biologie darwinienne est souvent lue de façon mécaniste. Bergson ne rejette pas la science ; il en connaît très bien les résultats. Il conteste sa prétention à tout dire du réel, et d'abord du temps.
 
-Les dernières années sont assombries par la maladie (un rhumatisme déformant) et par la montée de l'antisémitisme. Dans son testament de 1937, il explique qu'il se sent proche du catholicisme, mais qu'il renonce à se convertir pour rester parmi ceux qui allaient être persécutés. Il meurt à Paris le 4 janvier 1941, sous l'Occupation, dans le contexte décrit dans [[08 - Vichy, Occupation et Résistance]].
+Les dernières années sont assombries par la maladie (un rhumatisme déformant) et par la montée de l'antisémitisme. Dans son testament de 1937, il explique qu'il se sent proche du catholicisme, mais qu'il renonce à se convertir pour rester parmi ceux qui allaient être persécutés. Il meurt à Paris le 3 ou le 4 janvier 1941 (les sources divergent), sous l'Occupation, dans le contexte décrit dans [[08 - Vichy, Occupation et Résistance]].
 
 ## Œuvres majeures
 
