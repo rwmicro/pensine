@@ -26,7 +26,7 @@ timeline
         1628 : Circulation sanguine, Harvey
         1687 : Mécanique universelle, Newton
     section XVIIIe siècle
-        1753 : Classification du vivant, Linné
+        1753 : Nomenclature binomiale des plantes, Linné
         1769 : Machine à vapeur de James Watt
         1789 : Chimie moderne, Lavoisier
     section XIXe-XXe siècle

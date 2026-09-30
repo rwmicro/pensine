@@ -377,7 +377,7 @@ Hitler insiste: prise pouvoir **légale** (après échec putsch 1923)
 timeline
     title La montée du nazisme, 1918-1933
     section Défaite et crises
-        9 novembre 1918 : Abdication de Guillaume II
+        9 novembre 1918 : Abdication de Guillaume II annoncée
         11 novembre 1918 : Armistice
         28 juin 1919 : Traité de Versailles
         1920 : Putsch de Kapp : Le DAP devient le NSDAP

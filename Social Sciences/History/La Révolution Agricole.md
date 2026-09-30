@@ -30,15 +30,15 @@ Elle n'est pas un événement soudain mais une **transition sur des millénaires
 timeline
     title Les foyers de la révolution agricole
     section Proche-Orient
-        -10000 : Blé, orge et lentilles au Croissant fertile
-        -8000 : Chèvre et mouton domestiqués
+        -10000 à -8000 : Blé, orge et lentilles au Croissant fertile
+        -9000 à -8000 : Chèvre, mouton, bœuf et porc domestiqués
     section Foyers indépendants
-        -7000 : Riz et millet en Chine : Taro et ignames en Nouvelle-Guinée : Porc
-        -6000 : Bœuf
-        -4000 : Cheval dans les steppes eurasiennes
+        -7000 : Riz en Chine : Taro en Nouvelle-Guinée
+        -7000 à -4000 : Maïs, courges puis haricots en Mésoamérique
+        -3500 : Chevaux exploités à Botai dans les steppes, domestication débattue
     section Vers l'État
         -3200 : Premières tablettes comptables sumériennes
-        -3000 : Maïs, haricots et courges en Amérique centrale : Sorgho et mil en Afrique subsaharienne
+        -3000 : Sorgho puis mil en Afrique subsaharienne
 ```
 
 ## La domestication

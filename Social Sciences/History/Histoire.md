@@ -24,7 +24,7 @@ L'**histoire** (du grec *historia* = enquête, récit) est la discipline qui ét
 timeline
     title Les cinq grandes périodes
     section Préhistoire
-        -3 millions : Paléolithique, âge de la pierre taillée
+        -3,3 millions : Paléolithique, âge de la pierre taillée
         -10000 : Néolithique, révolution agricole
     section Antiquité
         -3300 : Invention de l'écriture en Mésopotamie
@@ -220,7 +220,7 @@ timeline
 timeline
     title La série France, notes 01 à 12
     section Époque moderne
-        1527 : 01 Jeu de Paume
+        XVIe siècle : 01 Jeu de Paume
         1631 : 02 Naissance de la presse
         1661-1715 : 03 Ancien Régime et Louis XIV
     section De 1789 à 1871
