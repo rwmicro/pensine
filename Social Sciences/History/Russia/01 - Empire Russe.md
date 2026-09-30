@@ -33,7 +33,7 @@ timeline
         1861 : Abolition du servage
         1881 : Assassinat d'Alexandre II
         1905 : Défaite contre le Japon et révolution
-        Février 1917 : Abdication de Nicolas II
+        Février-mars 1917 : Révolution de Février, abdication de Nicolas II
         Octobre 1917 : Prise du pouvoir bolchevique
 ```
 

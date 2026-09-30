@@ -25,12 +25,12 @@ timeline
     title Le Lebensborn et ses suites
     section Le programme
         12 décembre 1935 : Création par Himmler
-        1935-1945 : Foyers en Allemagne puis en pays occupés
-        Mai 1945 : Dissolution
+        1936-1945 : Foyers en Allemagne puis en pays occupés
+        1945 : Fin du programme avec la défaite allemande
     section L'après-guerre
-        1947-1948 : Procès à Nuremberg, acquittement de la plupart
-        1998-2005 : Excuses officielles du gouvernement norvégien
-        2005 : Compensations financières en Norvège
+        1947-1948 : Procès RuSHA à Nuremberg, dirigeants acquittés des crimes principaux
+        2000-2002 : Excuses officielles de l'État norvégien
+        2005 : Régime d'indemnisation voté en Norvège
 ```
 
 ## Objectifs Officiels
