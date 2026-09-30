@@ -53,7 +53,7 @@ timeline
 | Phase | Période | Technologies clés | Secteurs |
 |---|---|---|---|
 | Première industrialisation | 1760 – 1840 | Machine à vapeur, métier à tisser mécanique | Textile, charbon, fer |
-| Deuxième industrialisation | 1840 – 1914 | Chemin de fer, acier, électricité, chimie | Transport, industrie lourde |
+| Deuxième industrialisation | 1870 – 1914 | Chemin de fer, acier, électricité, chimie | Transport, industrie lourde |
 | Industrialisation mondiale | 1914 – 1970 | Pétrole, moteur à explosion, électronique | Automobile, aviation, chimie |
 
 ## Transformations sociales
@@ -81,7 +81,7 @@ Adam Smith avait théorisé les gains de productivité de la **division du trava
 > [!warning] Piège
 > Ne pas réduire l'aliénation marxiste à "être mal payé" : c'est un concept structurel, pas salarial. Un ouvrier bien payé qui ne contrôle ni le rythme, ni le sens, ni le produit de son travail reste aliéné au sens de Marx — inversement, un artisan pauvre mais maître de son processus ne l'est pas. La confusion entre pauvreté et aliénation est l'erreur de lecture la plus fréquente de ce concept.
 
-Le travail des enfants est massif dans les premières décennies : des enfants de 6-8 ans travaillent dans les mines et les filatures. Les premières lois de protection (en Grande-Bretagne à partir de 1833) résultent de luttes sociales prolongées.
+Le travail des enfants est massif dans les premières décennies : des enfants de 6-8 ans travaillent dans les mines et les filatures. Les premières lois de protection (en Grande-Bretagne dès 1802 et 1819, puis le Factory Act de 1833, le premier doté d'inspecteurs pour le faire appliquer) résultent de luttes sociales prolongées.
 
 ### La classe ouvrière et les luttes sociales
 

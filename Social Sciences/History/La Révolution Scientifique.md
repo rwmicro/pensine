@@ -68,7 +68,7 @@ Le philosophe [[Popper|Karl Popper]] a formalisé au XXe siècle le critère de 
 | 1543 | Héliocentrisme | Copernic, Galilée, Kepler |
 | 1628 | Circulation sanguine | Harvey |
 | 1687 | Mécanique universelle | Newton |
-| 1753 | Classification du vivant | Linné |
+| 1753 | Nomenclature binomiale des plantes (*Species Plantarum*), après la classification du *Systema Naturae* (1735) | Linné |
 | 1789 | Chimie moderne | Lavoisier |
 | 1859 | Évolution par sélection naturelle | Darwin |
 | 1905-1916 | Relativité restreinte et générale | Einstein |

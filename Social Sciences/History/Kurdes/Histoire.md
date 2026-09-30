@@ -121,7 +121,7 @@ Depuis sa cellule, Öcalan a profondément transformé la doctrine du PKK : aban
 
 Les Kurdes de Syrie (~10 % de la population) sont historiquement marginalisés par le régime baasiste : environ **300 000 d'entre eux** ont été privés de citoyenneté à partir de **1962** sur la base d'un recensement orienté.
 
-**2012** : profitant du retrait du régime de Bachar al-Assad des zones kurdes au début de la guerre civile, le **PYD** (Parti de l'Union démocratique, lié au PKK) prend le contrôle du nord-est syrien et proclame une **Administration autonome du nord-est** souvent appelée **Rojava** ("Ouest" en kurde, c'est-à-dire le Kurdistan occidental).
+**2012** : profitant du retrait du régime de Bachar al-Assad des zones kurdes au début de la guerre civile, le **PYD** (Parti de l'Union démocratique, lié au PKK) prend le contrôle du nord-est syrien, puis y proclame en **janvier 2014** une administration autonome, aujourd'hui l'**Administration autonome du nord et de l'est de la Syrie**, souvent appelée **Rojava** ("Ouest" en kurde, c'est-à-dire le Kurdistan occidental).
 
 ### Le YPG, le YPJ et les FDS
 
@@ -190,7 +190,7 @@ timeline
 | 1991 | Zone d'exclusion aérienne au nord de l'Irak |
 | 1999 | Capture d'Öcalan |
 | 2005 | Constitution irakienne reconnaît le KRG |
-| 2012 | Autonomie kurde en Syrie (Rojava) |
+| 2012-2014 | Contrôle kurde puis autonomie proclamée en Syrie (Rojava) |
 | 2014–15 | Bataille de Kobané |
 | 2017 | Référendum d'indépendance kurde irakien (rejeté) |
 | 2018 | Occupation turque d'Afrin |

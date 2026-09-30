@@ -12,13 +12,13 @@ period: "Néolithique"
 
 ## Définition
 
-La révolution agricole est la transition par laquelle des sociétés de chasseurs-cueilleurs sont devenues des sociétés d'agriculteurs-éleveurs. Elle commence au **Proche-Orient** il y a environ **10 000 ans** (croissant fertile : actuels Turquie, Syrie, Irak, Iran), puis se produit de façon indépendante dans plusieurs régions :
+La révolution agricole est la transition par laquelle des sociétés de chasseurs-cueilleurs sont devenues des sociétés d'agriculteurs-éleveurs. Elle commence au **Proche-Orient** vers **10 000 av. J.-C.**, il y a environ 12 000 ans (croissant fertile : actuels Turquie, Syrie, Irak, Iran), puis se produit de façon indépendante dans plusieurs régions :
 
 | Région | Période | Plantes domestiquées |
 |---|---|---|
 | Croissant fertile | ~10 000 av. J.-C. | Blé, orge, lentilles |
 | Chine | ~7 000 av. J.-C. | Riz, millet |
-| Amérique centrale | ~3 000 av. J.-C. | Maïs, haricots, courges |
+| Amérique centrale | ~7 000 à 4 000 av. J.-C. | Courges, maïs, puis haricots |
 | Nouvelle-Guinée | ~7 000 av. J.-C. | Taro, ignames |
 | Afrique subsaharienne | ~3 000 av. J.-C. | Sorgho, mil |
 
@@ -48,11 +48,11 @@ Domestiquer une espèce, c'est la modifier génétiquement par sélection artifi
 **Espèces végétales** : les plantes sauvages ont des défenses (graines dures, toxines, distribution sur l'ensemble de la plante). Les variétés domestiquées ont des graines plus grandes, moins dispersées, plus nutritives, plus faciles à récolter.
 
 **Espèces animales domestiquées** :
-- Chèvre et mouton : ~8 000 av. J.-C. (Proche-Orient)
-- Porc : ~7 000 av. J.-C.
-- Bœuf : ~6 000 av. J.-C.
-- Cheval : ~4 000 av. J.-C. (steppes eurasiennes)
-- Poulet : ~6 000 av. J.-C. (Asie du Sud-Est)
+- Chèvre et mouton : ~9 000-8 000 av. J.-C. (Proche-Orient)
+- Porc : ~9 000-8 000 av. J.-C. (Proche-Orient, puis indépendamment en Chine)
+- Bœuf : ~8 500-8 000 av. J.-C. (Proche-Orient)
+- Cheval : ~3 500 av. J.-C. (Botai, steppes eurasiennes ; datation et nature de la domestication débattues)
+- Poulet : ~1 500 av. J.-C. (Asie du Sud-Est, datation révisée par des études récentes)
 
 Critères pour la domestication animale : herbivore ou omnivore, croissance rapide, reproduction en captivité, hiérarchie sociale adaptable à l'humain comme chef de groupe.
 
