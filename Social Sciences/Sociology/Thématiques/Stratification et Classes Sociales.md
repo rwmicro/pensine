@@ -74,7 +74,7 @@ L'indice porte le nom du statisticien italien Corrado Gini, qui le propose en 19
 
 ### Quelques ordres de grandeur
 
-Pour le **revenu disponible** (après impôts et prestations), l'indice de Gini se situe autour de 0,25 dans les pays nordiques, vers 0,29-0,30 en France, près de 0,40 aux États-Unis et au-dessus de 0,60 en Afrique du Sud. En France, le rapport D9/D1 du niveau de vie tourne autour de 3,5 : les 10 % les plus aisés commencent à un niveau de vie environ trois fois et demie supérieur à celui sous lequel vivent les 10 % les plus modestes. La redistribution réduit fortement ces écarts par rapport aux revenus primaires.
+Pour le **revenu disponible** (après impôts et prestations), l'indice de Gini se situe entre 0,25 et 0,28 environ dans les pays nordiques, vers 0,29-0,30 en France, près de 0,40 aux États-Unis et au-dessus de 0,60 en Afrique du Sud. En France, le rapport D9/D1 du niveau de vie tourne autour de 3,5 : les 10 % les plus aisés commencent à un niveau de vie environ trois fois et demie supérieur à celui sous lequel vivent les 10 % les plus modestes. La redistribution réduit fortement ces écarts par rapport aux revenus primaires.
 
 Le **patrimoine** est beaucoup plus concentré que le revenu. En France, les 10 % les mieux dotés détiennent de l'ordre de la moitié du patrimoine total, et l'indice de Gini du patrimoine dépasse couramment 0,6. La différence tient à la nature des deux grandeurs : le revenu est un flux, en partie tiré du travail et plafonné par lui ; le patrimoine est un stock qui s'accumule, rapporte et se transmet par héritage.
 
