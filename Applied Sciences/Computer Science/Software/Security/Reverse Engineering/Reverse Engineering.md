@@ -14,28 +14,54 @@ Le reverse engineering (rétro-ingénierie) est l'analyse d'un binaire compilé 
 
 ### PE (Portable Executable) — Windows
 
+Le format PE est celui des exécutables (`.exe`), des bibliothèques (`.dll`) et des pilotes (`.sys`) de Windows. Il est décrit par Microsoft dans la page *PE Format* de Microsoft Learn.
+
+```mermaid
+block-beta
+  columns 1
+  dos["En-tête MS-DOS — signature MZ, champ e_lfanew à l'offset 0x3C"]
+  stub["Programme MS-DOS — affiche This program cannot be run in DOS mode"]
+  sig["Signature PE, 4 octets : P E 0 0"]
+  coff["En-tête COFF — Machine, NumberOfSections, TimeDateStamp, Characteristics"]
+  opt["En-tête optionnel — AddressOfEntryPoint, ImageBase, DllCharacteristics, répertoires de données"]
+  sec["Table des sections — nom, adresse, taille, protections de chaque section"]
+  data[".text, .rdata, .data, .rsrc, .reloc…"]
 ```
-┌──────────────────────────────────┐
-│  DOS Header (MZ)                 │ ← Magic "MZ" (0x4D5A)
-├──────────────────────────────────┤
-│  DOS Stub                        │ ← "This program cannot be run in DOS mode"
-├──────────────────────────────────┤
-│  PE Header (PE\0\0)              │ ← Magic "PE" (0x5045 0000)
-├──────────────────────────────────┤
-│  COFF File Header                │ ← Machine, nb sections, timestamps
-├──────────────────────────────────┤
-│  Optional Header                 │ ← EntryPoint, ImageBase, taille
-├──────────────────────────────────┤
-│  Section Table                   │
-│  ├── .text (code)                │ ← RX (Read/Execute)
-│  ├── .data (données initialisées)│ ← RW (Read/Write)
-│  ├── .rdata (données en lecture) │ ← R  (imports, strings)
-│  ├── .rsrc (ressources)          │ ← icônes, manifests
-│  └── .reloc (relocations)        │
-├──────────────────────────────────┤
-│  Sections (contenu)              │
-└──────────────────────────────────┘
-```
+
+- **L'en-tête MS-DOS et son programme** sont un reste de compatibilité : lancé sous MS-DOS, le fichier affiche un message et s'arrête. Le seul champ utile aujourd'hui est `e_lfanew`, à l'offset `0x3C`, qui donne la position de la signature PE.
+- **L'en-tête COFF** indique l'architecture cible (`0x8664` pour x64, `0xAA64` pour ARM64), le nombre de sections et un horodatage de création.
+- **L'en-tête optionnel**, obligatoire pour un exécutable malgré son nom, commence par un nombre magique qui distingue PE32 (`0x10B`) de PE32+ (`0x20B`, le format 64 bits). Il contient l'adresse du point d'entrée, l'adresse de chargement préférée (`ImageBase`), les indicateurs de sécurité (`DllCharacteristics`) et le tableau des **répertoires de données**, qui localisent les tables d'import, d'export, de ressources, de relocations, etc.
+- **La table des sections** décrit chaque section et ses droits : `IMAGE_SCN_MEM_EXECUTE`, `IMAGE_SCN_MEM_READ`, `IMAGE_SCN_MEM_WRITE`.
+
+| Section | Contenu habituel | Protections |
+|---|---|---|
+| `.text` | Code | Lecture, exécution |
+| `.rdata` | Données en lecture seule, souvent les tables d'import et d'export | Lecture |
+| `.data` | Données initialisées modifiables | Lecture, écriture |
+| `.rsrc` | Ressources : icônes, manifeste, boîtes de dialogue | Lecture |
+| `.reloc` | Relocations, pour charger l'image ailleurs qu'à `ImageBase` | Lecture |
+
+Les noms de sections ne sont qu'une convention : c'est la table des sections, pas le nom, qui fixe les droits.
+
+> [!important] Idée clé
+> Presque toutes les adresses d'un PE sont des **RVA** (*relative virtual address*) : la position d'un élément une fois l'image chargée en mémoire, moins l'adresse de base de l'image. Une RVA ne correspond en général pas à la position dans le fichier sur disque, puisque les sections sont alignées différemment en mémoire (`SectionAlignment`) et dans le fichier (`FileAlignment`). Confondre les deux est l'erreur la plus courante quand on lit un PE à la main.
+
+Quelques indicateurs de `DllCharacteristics` à vérifier en analyse, parce qu'ils disent quelles protections le binaire accepte :
+
+| Indicateur | Valeur | Signification |
+|---|---|---|
+| `DYNAMIC_BASE` | `0x0040` | L'image peut être relogée au chargement, donc soumise à l'ASLR |
+| `NX_COMPAT` | `0x0100` | Compatible avec la prévention d'exécution des données |
+| `GUARD_CF` | `0x4000` | Compilé avec Control Flow Guard |
+
+#### Les imports
+
+Un exécutable ne connaît pas à l'avance l'adresse des fonctions qu'il importe. Le répertoire des imports contient une entrée par DLL, qui pointe vers deux tables parallèles :
+
+- la **table de recherche des imports** (*Import Lookup Table*, parfois appelée INT), qui donne pour chaque fonction son nom ou son **ordinal**, un simple numéro d'export ;
+- la **table des adresses d'import** (*Import Address Table*, IAT), identique à la précédente dans le fichier. Au chargement, le chargeur de `ntdll` remplace chacune de ses cases par l'adresse réelle de la fonction.
+
+Le code du programme appelle ses fonctions importées à travers ces cases. La liste des imports d'un binaire est donc une première indication de ce qu'il fait : un programme qui importe `VirtualAllocEx`, `WriteProcessMemory` et `CreateRemoteThread` a de bonnes chances d'injecter du code dans un autre processus. Le déroulement du chargement est décrit dans [[Création d'un processus sous Windows]].
 
 ```bash
 # Inspecter un PE avec pe-bear, CFF Explorer, ou en ligne de commande
