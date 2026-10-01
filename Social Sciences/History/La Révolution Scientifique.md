@@ -6,6 +6,7 @@ tags: [sciences-sociales, histoire]
 date: "2026-02-28"
 year: 1543
 yearEnd: 1687
+prerequis: ["[[La Renaissance]]"]
 ---
 
 # La Révolution Scientifique

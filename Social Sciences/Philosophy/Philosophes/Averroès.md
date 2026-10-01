@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, averroès, philosophie-arabe, médiévale, aristotélisme]
 date: "2026-08-08"
+prerequis: ["[[Avicenne]]"]
 ---
 
 # Averroès — Ibn Rushd (1126-1198)

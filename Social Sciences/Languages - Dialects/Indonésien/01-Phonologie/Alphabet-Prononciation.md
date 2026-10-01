@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Indonésien > 01-Bases"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-10"
+parcours: "Indonésien : de l'alphabet à la culture"
 ---
 # Alphabet et Prononciation (Alfabet dan Pengucapan)
 

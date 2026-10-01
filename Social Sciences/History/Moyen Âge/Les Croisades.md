@@ -6,6 +6,7 @@ tags: [sciences-sociales, histoire, moyen-âge, croisades, guerre-sainte, médit
 date: "2026-09-28"
 year: 1095
 yearEnd: 1291
+prerequis: ["[[Empire byzantin]]"]
 ---
 
 # Les Croisades

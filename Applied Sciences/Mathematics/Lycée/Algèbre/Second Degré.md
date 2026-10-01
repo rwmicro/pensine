@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Mathematics > Lycée > Algèbre"
 tags: [sciences-appliquées, mathématiques]
 date: "2026-02-19"
+prerequis: ["[[Fonctions]]"]
 ---
 
 # Second Degré

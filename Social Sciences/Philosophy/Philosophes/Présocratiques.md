@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, antiquite, grece-antique, cosmologie, metaphysique]
 date: "2026-09-28"
+parcours: "Philosophie : de l'Antiquité aux modernes"
 ---
 
 # Les Présocratiques (VIe-Ve siècles av. J.-C.)

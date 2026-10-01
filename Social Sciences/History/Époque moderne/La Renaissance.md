@@ -7,6 +7,7 @@ date: "2026-09-28"
 year: 1400
 yearEnd: 1600
 period: "XVe-XVIe siècle"
+prerequis: ["[[Empire byzantin]]"]
 ---
 
 # La Renaissance

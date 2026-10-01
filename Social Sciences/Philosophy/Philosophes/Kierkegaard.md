@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, existentialisme, christianisme, subjectivite, angoisse]
 date: "2026-09-28"
+prerequis: ["[[Hegel]]"]
 ---
 
 # Søren Kierkegaard (1813-1855)

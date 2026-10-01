@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Indonésien > 05-Regional"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-10"
+prerequis: ["[[Argot-Slang]]"]
 ---
 
 # Betawi (Dialecte de Jakarta)

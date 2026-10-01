@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie]
 date: "2026-02-19"
+prerequis: ["[[Descartes]]"]
 ---
 
 # Baruch Spinoza (1632-1677)

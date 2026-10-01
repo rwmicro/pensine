@@ -7,6 +7,7 @@ date: "2026-09-16"
 stage: budding
 year: 1610
 yearEnd: 1789
+prerequis: ["[[Réforme protestante]]"]
 ---
 
 # L'Ancien Régime et Louis XIV (XVIIe-XVIIIe siècle)

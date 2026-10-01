@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Mathematics > Lycée > Fonctions & Analyse"
 tags: [sciences-appliquées, mathématiques]
 date: "2026-02-19"
+prerequis: ["[[Second Degré]]"]
 ---
 
 # Dérivation

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Languages > Bash"
 tags: [sciences-appliquées, informatique, bash]
 date: "2026-02-16"
+prerequis: ["[[Fondamentaux]]"]
 ---
 
 # Bash Basics Cheat Sheet

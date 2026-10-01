@@ -6,6 +6,7 @@ tags: [sciences-sociales, histoire, antiquité, égypte, pharaons, afrique]
 date: "2026-09-28"
 year: -3100
 yearEnd: -30
+prerequis: ["[[La Révolution Agricole]]"]
 ---
 
 # Égypte ancienne

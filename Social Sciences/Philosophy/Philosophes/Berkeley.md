@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, berkeley, empirisme, idéalisme]
 date: "2026-08-08"
+prerequis: ["[[Locke]]"]
 ---
 
 # George Berkeley (1685-1753)

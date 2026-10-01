@@ -6,6 +6,7 @@ tags: [sciences-sociales, histoire]
 date: "2026-02-28"
 year: -10000
 period: "Néolithique"
+parcours: "Histoire : de l'Antiquité au XXe siècle"
 ---
 
 # La Révolution Agricole

@@ -6,6 +6,7 @@ tags: [sciences-sociales, histoire, empire-ottoman, turquie, moyen-orient]
 date: "2026-09-28"
 year: 1299
 yearEnd: 1922
+prerequis: ["[[Empire byzantin]]"]
 ---
 
 # Empire ottoman

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Indonésien > 03-Grammaire"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
+prerequis: ["[[Affixes]]"]
 ---
 
 # Reduplication (Kata Ulang)

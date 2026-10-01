@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Indonésien > 04-Vocabulaire"
 tags: [sciences-sociales, langues, indonésien, vocabulaire]
 date: "2026-08-20"
+prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/01-Phonologie/Alphabet-Prononciation]]"]
 ---
 # Mots Essentiels — Indonésien
 

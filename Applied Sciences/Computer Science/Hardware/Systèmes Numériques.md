@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Hardware"
 tags: [sciences-appliquées, informatique, binaire, logique, ieee-754, circuits, booléen]
 date: "2026-02-25"
+parcours: "Informatique : de la machine au système"
 ---
 
 # Systèmes Numériques

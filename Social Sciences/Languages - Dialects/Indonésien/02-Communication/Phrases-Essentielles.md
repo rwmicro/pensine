@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Indonésien > 02-Communication"
 tags: [sciences-sociales, langues, indonésien, survie, communication]
 date: "2026-03-27"
+prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/02-Communication/Salutations]]"]
 ---
 # Phrases Essentielles — Indonésien
 

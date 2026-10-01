@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Hardware"
 tags: [sciences-appliquées, informatique, mémoire, cache, ram, ssd, raid, stockage]
 date: "2026-02-24"
+prerequis: ["[[Architecture des Processeurs]]"]
 ---
 
 # Mémoire et Stockage

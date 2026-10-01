@@ -6,6 +6,7 @@ tags: [sciences-sociales, histoire, seconde-guerre-mondiale, shoah, génocide, n
 date: "2026-09-28"
 year: 1933
 yearEnd: 1945
+prerequis: ["[[Montée du nazisme]]"]
 ---
 
 # La Shoah

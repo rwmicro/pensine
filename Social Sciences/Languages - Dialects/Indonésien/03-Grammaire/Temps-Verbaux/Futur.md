@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Indonésien > 02-Grammaire > Temps-Verbaux"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
+prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/Verbes]]", "[[Structure-Phrase]]"]
 ---
 
 # Future Tense in Indonesian

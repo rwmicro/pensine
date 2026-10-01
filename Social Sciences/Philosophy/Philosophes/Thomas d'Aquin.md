@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, scolastique, théologie, métaphysique, moyen-âge]
 date: "2026-04-18"
+prerequis: ["[[Averroès]]"]
 ---
 
 # Thomas d'Aquin (1225-1274)

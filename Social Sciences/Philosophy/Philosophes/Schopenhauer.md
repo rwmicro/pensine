@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, pessimisme, volonte, esthetique, philosophie-allemande]
 date: "2026-09-28"
+prerequis: ["[[Kant]]"]
 ---
 
 # Arthur Schopenhauer (1788-1860)
