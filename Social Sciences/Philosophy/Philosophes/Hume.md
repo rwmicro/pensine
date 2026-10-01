@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie]
 date: "2026-04-12"
+prerequis: ["[[Berkeley]]"]
 ---
 
 # David Hume (1711-1776)

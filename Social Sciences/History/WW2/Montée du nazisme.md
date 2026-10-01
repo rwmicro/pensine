@@ -6,6 +6,7 @@ tags: [sciences-sociales, histoire, seconde-guerre-mondiale]
 date: "2025-12-31"
 year: 1918
 yearEnd: 1933
+prerequis: ["[[07 - Première Guerre mondiale (France)]]"]
 ---
 
 # La Montée du Nazisme (1918-1933)

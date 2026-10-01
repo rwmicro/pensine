@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Hardware"
 tags: [sciences-appliquées, informatique, processeur, cpu, pipeline, cache, spéculation, gpu]
 date: "2026-02-24"
+prerequis: ["[[Systèmes Numériques]]"]
 ---
 
 # Architecture des Processeurs

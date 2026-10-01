@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, antiquite, epicurisme, ethique, bonheur, atomisme]
 date: "2026-09-28"
+prerequis: ["[[Présocratiques]]"]
 ---
 
 # Épicure (341-270 av. J.-C.)

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Offensive"
 tags: [privilege-escalation, windows, privesc, pentest, ctf, sécurité]
 date: "2026-03-22"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Security/Certifications/PNPT-cert/03-windows-fundamentals/notes]]"]
 ---
 
 # Windows Privilege Escalation

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > PNPT"
 tags: [sciences-appliquées, informatique, sécurité, linux, pentest, pnpt]
 date: "2026-05-18"
+prerequis: ["[[Système de Fichiers]]", "[[Bash Basics]]"]
 ---
 
 # Linux Fundamentals

@@ -6,6 +6,7 @@ tags: [sciences-sociales, histoire]
 date: "2026-05-17"
 year: 1917
 yearEnd: 1991
+prerequis: ["[[07 - Première Guerre mondiale (France)]]"]
 ---
 
 # Le Communisme au XXe siècle

@@ -6,6 +6,7 @@ tags: [sciences-sociales, histoire, moyen-âge, byzance, constantinople, orthodo
 date: "2026-09-28"
 year: 330
 yearEnd: 1453
+prerequis: ["[[Rome antique]]"]
 ---
 
 # Empire byzantin

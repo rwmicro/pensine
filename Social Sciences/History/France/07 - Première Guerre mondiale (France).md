@@ -7,6 +7,7 @@ date: "2026-09-16"
 stage: budding
 year: 1914
 yearEnd: 1918
+prerequis: ["[[La Révolution Industrielle]]"]
 ---
 
 # La France dans la Première Guerre mondiale (1914-1918)

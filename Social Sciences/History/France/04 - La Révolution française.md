@@ -7,6 +7,7 @@ date: "2026-09-16"
 stage: budding
 year: 1789
 yearEnd: 1799
+prerequis: ["[[03 - Ancien Régime et Louis XIV]]"]
 ---
 
 # La Révolution française (1789-1799)

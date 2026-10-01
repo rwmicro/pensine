@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie]
 date: "2026-02-19"
+prerequis: ["[[Hume]]", "[[Leibniz]]"]
 ---
 
 # Emmanuel Kant (1724-1804)

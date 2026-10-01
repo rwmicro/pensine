@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie]
 date: "2026-02-22"
+prerequis: ["[[Socrate]]"]
 ---
 
 # Platon (428-348 av. J.-C.)

@@ -6,6 +6,7 @@ tags: [sciences-sociales, histoire, xxe-siècle, guerre-froide, relations-intern
 date: "2026-09-28"
 year: 1947
 yearEnd: 1991
+prerequis: ["[[Le Communisme au XXe siècle]]"]
 ---
 
 # La guerre froide (1947-1991)

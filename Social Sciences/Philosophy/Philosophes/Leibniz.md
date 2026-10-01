@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, leibniz, rationalisme, métaphysique]
 date: "2026-08-08"
+prerequis: ["[[Descartes]]"]
 ---
 
 # Gottfried Wilhelm Leibniz (1646-1716)

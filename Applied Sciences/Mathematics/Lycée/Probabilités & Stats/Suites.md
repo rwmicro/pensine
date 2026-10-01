@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Mathematics > Lycée > Probabilités & Stats"
 tags: [sciences-appliquées, mathématiques]
 date: "2026-02-22"
+prerequis: ["[[Fonctions]]"]
 ---
 
 # Suites Numériques

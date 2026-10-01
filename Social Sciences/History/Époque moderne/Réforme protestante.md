@@ -6,6 +6,7 @@ tags: [sciences-sociales, histoire, époque-moderne, religion, christianisme, pr
 date: "2026-09-28"
 year: 1517
 yearEnd: 1648
+prerequis: ["[[La Renaissance]]"]
 ---
 
 # La Réforme protestante

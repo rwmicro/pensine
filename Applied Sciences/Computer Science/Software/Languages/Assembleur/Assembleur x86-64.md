@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Languages > Assembleur"
 tags: [sciences-appliquées, informatique, assembleur, x86-64, nasm, bas-niveau, linux]
 date: "2026-09-18"
+prerequis: ["[[Architecture des Processeurs]]"]
 ---
 
 # Assembleur x86-64

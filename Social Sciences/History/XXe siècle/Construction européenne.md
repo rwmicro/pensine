@@ -6,6 +6,7 @@ tags: [sciences-sociales, histoire, xxe-siècle, europe, union-européenne, inst
 date: "2026-09-28"
 year: 1950
 period: "Depuis 1950"
+prerequis: ["[[Guerre froide]]"]
 ---
 
 # La construction européenne

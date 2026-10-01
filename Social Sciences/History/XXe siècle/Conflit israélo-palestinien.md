@@ -6,6 +6,7 @@ tags: [sciences-sociales, histoire, xxe-siècle, proche-orient, israël, palesti
 date: "2026-09-28"
 year: 1948
 period: "Depuis 1948"
+prerequis: ["[[Shoah]]", "[[Empire ottoman]]"]
 ---
 
 # Le conflit israélo-palestinien
