@@ -50,6 +50,7 @@ dans un sous-dossier `audio/` à côté de la note (chemin note-relative).
 ```
 python script_TTS_langues.py "../../Social Sciences/Languages - Dialects/Arabe-Standard"
 python script_TTS_langues.py --list-voices     # lister les voix du compte
+python script_TTS_langues.py --repair "../../Social Sciences/Languages - Dialects"  # régénère les clips vides/manquants
 ```
 
 - Modèle : `eleven_v3`. Voix par langue dans le dict `LANGUAGES` du script.
@@ -64,3 +65,11 @@ mp3 stockés en git **normal** (plus en git-lfs : le budget LFS du compte était
 épuisé et le build ne recevait que des fichiers pointeurs), à committer. Le build
 learn-nebula les récupère avec le clone, donc pousser pensine publie les audios.
 Ne pas remettre `*.mp3` dans `.gitattributes`.
+
+## Réparation automatique (GitHub Actions)
+`.github/workflows/tts-audio.yml` lance `--repair` à chaque push qui touche une
+note de langue : chaque clip cité par une note mais absent ou vide (0 octet) est
+régénéré à partir du mot, de la langue et de la voix lus dans le lien, puis
+commité sur main. Sans clip cassé, aucun appel à l'API. En lancement manuel, le
+mode « surlignages » convertit aussi les nouveaux `==mot::code==`.
+Secret à ajouter dans ce repo : `ELEVENLABS_API_KEY` (sans lui, le job ne fait rien).
