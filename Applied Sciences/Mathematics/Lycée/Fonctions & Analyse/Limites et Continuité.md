@@ -409,3 +409,24 @@ Soit $g(x) = \cos(x) - x$, définie et continue sur $[0, \pi/2]$.
 De plus, $g'(x) = -\sin(x) - 1 < 0$ pour tout $x \in [0, \pi/2]$, donc $g$ est **strictement décroissante**.
 
 Par le corollaire du TVI, il existe un **unique** $c \in ]0, \pi/2[$ tel que $g(c) = 0$, c'est-à-dire $\cos(c) = c$.
+
+
+## Questions de révision
+
+> [!quiz] Quelles sont les quatre formes indéterminées classiques ?
+> $\frac{0}{0}$, $\frac{\infty}{\infty}$, $+\infty - \infty$ et $0 \times \infty$ : on ne peut pas conclure sans calcul supplémentaire.
+
+> [!quiz] Comment lever une forme indéterminée pour une fraction rationnelle en $\pm\infty$ ?
+> On factorise numérateur et dénominateur par leur terme de plus haut degré, puis on simplifie.
+
+> [!quiz] Que dit le théorème des gendarmes ?
+> Si $g(x) \leq f(x) \leq h(x)$ au voisinage d'un point (ou de l'infini) et si $g$ et $h$ ont la même limite $\ell$, alors $f$ a aussi pour limite $\ell$.
+
+> [!quiz] Quand une fonction $f$ est-elle continue en $a$ ?
+> Quand $f$ est définie en $a$ et que $\lim_{x \to a} f(x) = f(a)$.
+
+> [!quiz] Que garantit le théorème des valeurs intermédiaires ?
+> Si $f$ est continue sur $[a, b]$, tout réel $k$ compris entre $f(a)$ et $f(b)$ est atteint : il existe au moins un $c \in [a, b]$ tel que $f(c) = k$.
+
+> [!quiz] Quelle hypothèse ajoute-t-on au TVI pour obtenir l'unicité de la solution ?
+> La stricte monotonie de $f$ sur $[a, b]$ : la solution $c$ de $f(c) = k$ est alors unique.

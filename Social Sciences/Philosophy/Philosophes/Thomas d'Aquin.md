@@ -138,3 +138,23 @@ Thomas refuse l'opposition entre raison et foi. Sa position :
 - Le **droit international** moderne a ses racines dans le thomisme espagnol (Vitoria sur les droits des indigènes américains)
 - L'**éthique des vertus** contemporaine (MacIntyre, *After Virtue*) reprend le cadre aristotélico-thomiste
 - Thomas reste le philosophe le plus enseigné dans les séminaires catholiques du monde entier
+
+## Questions de révision
+
+> [!quiz] Quelle voie Thomas d'Aquin choisit-il face à la redécouverte d'Aristote ?
+> Entre les augustiniens qui veulent interdire Aristote et les averroïstes latins qui l'adoptent quitte à contredire la foi, il choisit d'intégrer Aristote à la théologie chrétienne, en montrant que raison et foi se complètent.
+
+> [!quiz] Quelles sont les cinq voies de Thomas vers l'existence de Dieu ?
+> Le mouvement (premier moteur), la causalité efficiente (cause première), la contingence (être nécessaire), les degrés de perfection (être souverainement parfait) et la finalité (intelligence ordonnatrice). Toutes partent de l'expérience sensible.
+
+> [!quiz] Pourquoi Dieu est-il défini comme *ipsum esse subsistens* ?
+> Parce que dans tout être créé l'essence est distincte de l'existence, alors qu'en Dieu seul l'essence est d'exister. Le reste du monde est contingent, créé librement.
+
+> [!quiz] Que signifie l'analogie de l'être chez Thomas ?
+> Quand on dit que Dieu et une pierre existent, le mot n'a ni exactement le même sens (univocité) ni un sens totalement différent (équivocité), mais un sens proportionnellement semblable. On peut ainsi parler de Dieu sans le réduire aux catégories humaines.
+
+> [!quiz] Quels sont les quatre types de loi chez Thomas ?
+> La loi éternelle (le plan divin), la loi naturelle (participation de la créature rationnelle à la loi éternelle, accessible par la raison), la loi humaine (qui doit être conforme à la loi naturelle pour être juste) et la loi divine (la révélation).
+
+> [!quiz] Comment Thomas articule-t-il raison et foi ?
+> Certaines vérités sont accessibles par la raison seule (existence de Dieu, loi naturelle), d'autres seulement par la foi (Trinité, Incarnation). Elles ne peuvent se contredire puisqu'elles viennent de la même source.

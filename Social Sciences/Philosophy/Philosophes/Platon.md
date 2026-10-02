@@ -173,6 +173,26 @@ Platon est à l'origine de quelques-unes des distinctions les plus durables de l
 
 Son influence sur la théologie (Augustin, Boèce), la Renaissance (Ficino, Pic de la Mirandole) et la philosophie moderne (Kant sur les formes a priori, Hegel sur l'idéalisme) est continue.
 
+## Questions de révision
+
+> [!quiz] Qu'est-ce qui distingue le monde sensible du monde intelligible chez Platon ?
+> Le monde sensible, perçu par les sens, est changeant et imparfait : ses objets sont des copies des Formes. Le monde intelligible est celui des Formes, éternelles et parfaites, qui existent indépendamment des esprits qui les pensent.
+
+> [!quiz] Quels sont les trois sens de l'allégorie de la caverne ?
+> Épistémologique : l'ascension de l'opinion vers le savoir. Ontologique : le sensible n'est qu'ombre de l'intelligible. Politique : le philosophe qui a vu la vérité doit redescendre dans la caverne pour gouverner.
+
+> [!quiz] Qu'est-ce que l'anamnèse et comment le *Ménon* l'illustre-t-il ?
+> Apprendre, c'est se ressouvenir de ce que l'âme immortelle a contemplé avant sa naissance. Dans le *Ménon*, Socrate fait découvrir une vérité géométrique à un esclave par ses seules questions, sans la lui enseigner.
+
+> [!quiz] Quelles sont les trois parties de l'âme, et qu'est-ce que la justice individuelle ?
+> La raison (*logistikon*), l'ardeur (*thumos*) et les désirs (*epithumia*). La justice est l'harmonie de ces parties sous le gouvernement de la raison ; l'injustice est leur désaccord.
+
+> [!quiz] Pourquoi *La République* passe-t-elle de la justice de l'âme à celle de la cité ?
+> Parce que la justice est plus visible en grand : Platon étudie la cité, dont les trois classes (philosophes-rois, gardiens, producteurs) correspondent aux trois parties de l'âme, puis ramène ses conclusions à l'individu.
+
+> [!quiz] Quelles étapes l'échelle de l'amour de Diotime parcourt-elle dans le *Banquet* ?
+> De l'attirance pour un beau corps à la beauté de tous les corps, puis à celle des âmes, puis des lois et des savoirs, jusqu'à la contemplation de la Beauté en soi.
+
 ## Ressources
 
 - *Apologie de Socrate* — 30 pages, première lecture indispensable

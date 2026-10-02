@@ -103,6 +103,26 @@ Il faut cependant nuancer l'image d'une époque de raison triomphante. La Renais
 
 La vision de Burckhardt, qui faisait de la Renaissance l'aube de la modernité individualiste, a été largement nuancée. On insiste aujourd'hui sur les continuités avec le Moyen Âge, sur le caractère élitaire d'un mouvement qui touche une infime partie de la population, et sur la diversité des « Renaissances » européennes, que Peter Burke étudie comme un processus de réception et d'adaptation plutôt que comme une simple exportation italienne. Mais l'idée d'une rupture culturelle réelle, portée par l'imprimé, la philologie critique et une nouvelle représentation de l'espace, demeure solide. La Renaissance prépare ainsi la [[Réforme protestante]], la révolution scientifique et, à plus long terme, les [[Lumières (XVIIIe siècle)]].
 
+## Questions de révision
+
+> [!quiz] Quand la « Renaissance » devient-elle une période historique, et quelle image Burckhardt en donne-t-il ?
+> Au XIXe siècle : Michelet en fait un titre en 1855, et Burckhardt en fixe l'image canonique en 1860, celle d'une Italie où naissent l'individu moderne, l'État conçu comme « œuvre d'art » et la redécouverte du monde et de l'homme.
+
+> [!quiz] Pourquoi la Renaissance n'est-elle pas la sortie d'un Moyen Âge « obscur » ?
+> Il y a eu des renaissances antérieures, carolingienne et surtout celle du XIIe siècle (redécouverte d'Aristote, naissance des universités). Ce que la Renaissance invente, c'est une conscience de rupture et un programme culturel.
+
+> [!quiz] Qu'est-ce que l'humanisme au sens historique ?
+> Un programme d'étude des *studia humanitatis* (grammaire, rhétorique, poésie, histoire, philosophie morale) fondé sur la lecture directe des auteurs antiques.
+
+> [!quiz] Pourquoi la démonstration de Lorenzo Valla sur la « Donation de Constantine » (1440) est-elle importante ?
+> Par l'analyse de la langue, il prouve que ce texte, sur lequel la papauté fondait une partie de ses prétentions temporelles, est un faux médiéval. La philologie devient une arme critique, que la Réforme appliquera à la Bible.
+
+> [!quiz] Qu'apporte la perspective linéaire à la peinture ?
+> Démontrée par Brunelleschi et théorisée par Alberti (*De la peinture*, 1435), elle fait du tableau une « fenêtre » sur un espace mesurable, construit géométriquement à partir d'un point de fuite.
+
+> [!quiz] Selon Elizabeth Eisenstein, quel est l'effet décisif de l'imprimerie ?
+> Elle fixe les textes : des centaines d'exemplaires identiques peuvent être comparés, corrigés et cités à la page près, ce qui rend possible l'accumulation du savoir.
+
 ## Ressources
 
 - **Jacob Burckhardt**, *La Civilisation de la Renaissance en Italie* (1860)

@@ -111,3 +111,20 @@ La particule **sih** colore les énoncés en rendant le ton plus doux, plus hés
 - *Gimana sih?* = "Comment ça au fait ?" (légère impatience)
 - *Bagus sih...* = "C'est bien quand même... " (nuance, réserve)
 - *Nggak tahu sih* = "Je sais pas trop..."
+
+## Questions de révision
+
+> [!quiz] Quels sont les quatre registres de l'indonésien présentés ici ?
+> Le *bahasa baku* (formel), le *bahasa sehari-hari* (courant), le *bahasa gaul* (informel) et le *bahasa daerah* (langues régionales comme le javanais ou le sundanais).
+
+> [!quiz] Pourquoi faut-il éviter d'employer *Anda* dans une conversation ordinaire ?
+> *Anda* est très formel (publicités, formulaires, s'adresser à un client) ; entre personnes ordinaires, on utilise *kamu* ou le prénom.
+
+> [!quiz] Dans quel contexte faut-il éviter *gue* et *lo* ?
+> Dans un contexte professionnel : ces pronoms viennent du dialecte betawi de Jakarta et du gaul urbain.
+
+> [!quiz] Qui appelle-t-on *Bapak/Pak* et *Ibu/Bu* ?
+> Un homme adulte ou un supérieur (*Bapak*), une femme adulte ou une supérieure (*Ibu*), en registre formel.
+
+> [!quiz] Quel est le rôle de la particule *sih* ?
+> Elle adoucit l'énoncé et le rend plus hésitant, ou parfois un peu défensif (*Nggak tahu sih* = « Je sais pas trop… »). Elle est presque intraduisible.

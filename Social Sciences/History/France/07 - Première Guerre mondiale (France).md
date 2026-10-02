@@ -67,6 +67,26 @@ La guerre coûte à la France environ 1,4 million de morts et plusieurs millions
 
 Sur le plan intérieur, le traumatisme du conflit — une génération de jeunes hommes décimée, le pacifisme qui en résulte dans l'opinion française de l'entre-deux-guerres — pèse directement sur la manière dont la France aborde la menace allemande des années 1930, jusqu'à l'effondrement militaire de 1940.
 
+## Questions de révision
+
+> [!quiz] Pourquoi l'attentat de Sarajevo est-il un prétexte plutôt que la cause profonde de la guerre ?
+> Un système d'alliances rigide, la course aux armements et des tensions coloniales et nationalistes rendaient un conflit européen probable ; l'attentat n'a fait qu'en fixer la date et le point de départ.
+
+> [!quiz] Qu'est-ce que l'Union sacrée ?
+> La suspension des oppositions internes entre socialistes, radicaux et conservateurs pour soutenir ensemble l'effort de guerre national.
+
+> [!quiz] Pourquoi la bataille de la Marne (septembre 1914) est-elle un tournant ?
+> Elle arrête l'offensive allemande du plan Schlieffen et sauve Paris, marquant l'échec de la guerre courte : le front se fige et la guerre de tranchées commence.
+
+> [!quiz] Que refusent exactement les mutins de 1917 ?
+> Ils refusent de repartir à l'assaut dans des conditions jugées suicidaires après l'échec du Chemin des Dames, mais continuent de défendre les tranchées : c'est une grève de l'offensive, pas une désertion.
+
+> [!quiz] Comment Pétain rétablit-il l'ordre après les mutineries ?
+> Par un mélange de sanctions ciblées et d'amélioration réelle des conditions de vie des soldats (permissions, ravitaillement).
+
+> [!quiz] Quel est le bilan humain et territorial de la guerre pour la France ?
+> Environ 1,4 million de morts et plusieurs millions de blessés ; l'Alsace-Lorraine, perdue en 1871, est récupérée par le traité de Versailles (1919).
+
 ## Ressources
 
 - **Marc Ferro**, *La Grande Guerre, 1914-1918* (1969)

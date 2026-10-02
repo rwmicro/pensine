@@ -231,3 +231,23 @@ flowchart TD
     cron_check -->|Non| config[Chercher credentials\ndans les configs]
     config --> kernel[Exploits kernel\nen dernier recours]
 ```
+
+## Questions de révision
+
+> [!quiz] En quoi consiste l'escalade de privilèges sous Linux ?
+> Passer d'un utilisateur à faibles droits (www-data, un compte de service, un utilisateur standard) vers root, après avoir obtenu un premier accès.
+
+> [!quiz] Pourquoi un binaire SUID peut-il servir à une escalade de privilèges ?
+> Il s'exécute avec les droits de son propriétaire — souvent root — quelle que soit l'identité de l'appelant.
+
+> [!quiz] Pourquoi les capabilities Linux sont-elles souvent oubliées lors du durcissement, alors qu'elles peuvent être dangereuses ?
+> Conçues comme une alternative plus fine et plus sûre au SUID, elles sont moins auditées par les administrateurs ; or une capability comme `cap_setuid+ep` équivaut à un accès root complet.
+
+> [!quiz] À quoi sert `sudo -l` dans la phase d'énumération ?
+> À lister les commandes que l'utilisateur courant est autorisé à exécuter avec sudo, et avec ou sans mot de passe.
+
+> [!quiz] Pourquoi garder les exploits noyau en dernier recours lors d'un engagement réel ?
+> Un exploit noyau peut planter la machine cible, ce qui compte comme un incident de production ; il vaut mieux épuiser d'abord les mauvaises configurations (sudo, SUID, cron, credentials), par discrétion et sécurité.
+
+> [!quiz] À quoi sert un outil comme `pspy` lors d'une énumération sans droits root ?
+> À surveiller les processus qui s'exécutent, ce qui permet notamment de détecter les tâches cron sans avoir besoin de root.

@@ -490,6 +490,26 @@ Imagination → Raison → Science Intuitive = **Libération progressive**
 - Chercher ce qui **augmente notre puissance d'agir**
 - Éthique affirmative (vs. morale prohibitive)
 
+## Questions de révision
+
+> [!quiz] Que signifie la formule *Deus sive Natura* ?
+> Dieu, c'est-à-dire la Nature : il n'existe qu'une seule substance, infinie et cause de soi. Dieu n'est pas un créateur transcendant mais est immanent au monde et agit par nécessité, sans finalité.
+
+> [!quiz] Quels attributs de la substance connaissons-nous, et que change cela par rapport à Descartes ?
+> La pensée et l'étendue, parmi une infinité d'attributs. Esprit et corps ne sont pas deux substances en interaction mais deux expressions parallèles d'une même réalité.
+
+> [!quiz] Pourquoi les hommes se croient-ils libres selon Spinoza ?
+> Parce qu'ils sont conscients de leurs désirs mais ignorants des causes qui les déterminent. La vraie liberté consiste à comprendre la nécessité et à agir selon sa propre nature, guidé par la raison.
+
+> [!quiz] Quels sont les trois genres de connaissance chez Spinoza ?
+> L'imagination (ouï-dire, expérience vague, inadéquate), la raison (notions communes et déduction, adéquate) et la science intuitive, connaissance des choses à partir de Dieu, source de béatitude.
+
+> [!quiz] Qu'est-ce que le *conatus* ?
+> L'effort par lequel chaque chose, autant qu'il est en elle, s'efforce de persévérer dans son être ; c'est l'essence même de chaque chose. Chez l'homme, le désir est ce conatus conscient de lui-même.
+
+> [!quiz] Quelle différence Spinoza fait-il entre passions et actions ?
+> Les passions sont des affects subis, causés par l'extérieur et liés à une connaissance inadéquate : c'est la servitude. Les actions sont des affects produits par notre nature et une connaissance adéquate : c'est la liberté.
+
 ## Ressources
 
 ### Œuvres Essentielles

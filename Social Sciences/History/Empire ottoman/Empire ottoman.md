@@ -105,6 +105,26 @@ Au Moyen-Orient, les accords secrets Sykes-Picot (1916) prévoient le partage de
 
 Pour la langue et la culture turques héritières de l'empire, voir la note de [[Turc/05-Culture/Culture|culture turque]].
 
+## Questions de révision
+
+> [!quiz] Qu'est-ce que le devchirmé et à quoi servait-il ?
+> Le prélèvement périodique de jeunes garçons chrétiens des Balkans, convertis et formés pour devenir hauts fonctionnaires ou soldats (les janissaires), liés au seul sultan.
+
+> [!quiz] Comment fonctionnait le timar ?
+> Les revenus fiscaux d'une terre étaient concédés à un cavalier en échange de son service militaire, ce qui finançait la cavalerie provinciale sans passer par le trésor.
+
+> [!quiz] Pourquoi la prise de Constantinople en 1453 est-elle, pour les Ottomans, une continuité plutôt qu'une fin ?
+> En s'installant dans la capitale de l'Empire romain d'Orient, ils héritent de sa position et de sa prétention à l'universel ; Mehmed II se présente comme l'héritier des empereurs romains autant que comme un sultan musulman.
+
+> [!quiz] Quel était le statut des non-musulmans dans l'Empire ottoman, et quelle nuance Benjamin Braude apporte-t-il au « système des millets » ?
+> Protégés (*dhimmi*), ils pratiquaient leur religion et s'administraient selon leurs propres règles en échange d'un impôt spécifique et d'un statut inférieur. Braude a montré que le système des millets formalisé est en grande partie une réalité du XIXe siècle ; avant, les arrangements étaient locaux et variables.
+
+> [!quiz] Pourquoi le traité de Karlowitz (1699) marque-t-il un tournant ?
+> C'est la première grande perte territoriale de l'empire : l'essentiel de la Hongrie passe aux Habsbourg, signe que le rapport de force avec l'Europe s'inverse.
+
+> [!quiz] Qu'apportent les Tanzimat ouvertes en 1839, et en quoi l'édit de 1856 est-il révolutionnaire ?
+> Les Tanzimat garantissent la vie et les biens des sujets et modernisent fiscalité, armée, tribunaux et écoles. L'édit de 1856 proclame l'égalité juridique de tous les sujets quelle que soit leur religion, dans un empire fondé sur la hiérarchie confessionnelle.
+
 ## Ressources
 
 - Robert Mantran (dir.), *Histoire de l'Empire ottoman* (1989)

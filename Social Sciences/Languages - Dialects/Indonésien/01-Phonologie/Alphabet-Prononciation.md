@@ -98,3 +98,23 @@ Quand une consonne est doublée, on prononce les deux :
 3. **Le "E" peut être muet** : écoutez des natifs pour les mots courants
 4. **Roulez vos R** : c'est important pour être compris
 5. **NG vs NGG** : *bangun* (ba-ŋun) vs *tinggi* (tiŋ-gi)
+
+## Questions de révision
+
+> [!quiz] Comment se prononce la lettre C en indonésien ?
+> Toujours « tch » : *cinta* (amour) se prononce « tchinta ».
+
+> [!quiz] Quelles sont les deux prononciations possibles du E ?
+> Un e muet ou schwa, souvent à peine prononcé (*Belanda* → « Blanda »), et un é fermé comme dans « éléphant » (*meja* → « méja »).
+
+> [!quiz] Quelle différence entre la diphtongue AI de *pantai* et la suite A_I de *main* ?
+> Dans *pantai* (plage), AI forme une seule syllabe (« aï ») ; dans *main* (jouer), les deux voyelles forment deux syllabes : ma-in.
+
+> [!quiz] Comment distinguer NG et NGG à la prononciation ?
+> NG est une seule nasale, comme dans « singing » (*bangun* : ba-ŋun) ; NGG ajoute un g dur, comme dans « finger » (*tinggi* : tiŋ-gi).
+
+> [!quiz] Sur quelle syllabe tombe généralement l'accent tonique ?
+> Sur l'avant-dernière syllabe : *bahasa* se prononce ba-**HA**-sa.
+
+> [!quiz] Quel son note le digramme NY ?
+> Le son « gn » de « Bretagne », comme dans *nyamuk* (moustique).

@@ -384,4 +384,25 @@ c) Quand retombe-t-il au sol ?
 > - Pour les inéquations du second degré : discriminant, racines, tableau de signes, lecture.
 
 
+## Questions de révision
+
+> [!quiz] Que détermine le signe du discriminant $\Delta = b^2 - 4ac$ ?
+> Le nombre de racines réelles de $ax^2 + bx + c = 0$ : deux si $\Delta > 0$, une racine double si $\Delta = 0$, aucune si $\Delta < 0$.
+
+> [!quiz] Que permet de lire la forme canonique $a(x - \alpha)^2 + \beta$ ?
+> Les coordonnées du sommet $S(\alpha;\, \beta)$ de la parabole, avec $\alpha = -\frac{b}{2a}$ et $\beta = f(\alpha)$.
+
+> [!quiz] Quel est le signe d'un trinôme du second degré lorsque $\Delta > 0$ ?
+> Il est du signe de $a$ à l'extérieur des racines et du signe opposé à $a$ entre les racines.
+
+> [!quiz] Que valent la somme et le produit des racines de $ax^2 + bx + c = 0$ ?
+> $x_1 + x_2 = -\frac{b}{a}$ et $x_1 x_2 = \frac{c}{a}$.
+
+> [!quiz] Le sommet de la parabole est-il un minimum ou un maximum ?
+> Un minimum si $a > 0$ (parabole tournée vers le haut), un maximum si $a < 0$ (tournée vers le bas).
+
+> [!quiz] Que peut-on dire de la factorisation d'un trinôme dont le discriminant est négatif ?
+> Il ne se factorise pas dans $\mathbb{R}$ et garde le signe de $a$ pour tout réel $x$.
+
+
 *Voir aussi* : [[Calcul Algébrique]] | [[Fonctions]] | [[Dérivation]] | [[Ensembles et Nombres]]

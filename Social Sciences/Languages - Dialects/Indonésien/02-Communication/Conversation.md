@@ -150,3 +150,20 @@ B: Sama-sama.
 | Je t'aime | ![Aku cinta kamu](audio/id_male_c3ebd93d9548.mp3) |
 | Pauvre de toi | ![Kasihan](audio/id_male_c4e565e08df0.mp3) |
 | Menteur ! | ![Bohong!](audio/id_male_f1a694ee0868.mp3) |
+
+## Questions de révision
+
+> [!quiz] Quand utilise-t-on *bukan* plutôt que *tidak* pour nier ?
+> *Bukan* nie un nom (« ce n'est pas ») ; *tidak* (informel *gak/nggak*) nie le reste, comme un verbe.
+
+> [!quiz] Que signifient *belum* et *jangan* ?
+> *Belum* = « pas encore » ; *jangan* = « ne fais pas / il ne faut pas ».
+
+> [!quiz] Comment dire « Je m'appelle Martin » en registre formel, puis informel ?
+> Formel : *Nama saya Martin* ; informel : *Namaku Martin* ou *Aku Martin*.
+
+> [!quiz] Quelle différence entre *Senang bertemu Anda* et *Salam kenal* ?
+> Les deux veulent dire « enchanté » : *Senang bertemu Anda* est la forme formelle, *Salam kenal* la forme informelle.
+
+> [!quiz] Comment dire « tu me manques » en informel ?
+> *Aku rindu* ou *aku kangen banget*.

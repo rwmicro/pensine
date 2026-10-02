@@ -123,6 +123,26 @@ La Déclaration d'indépendance américaine (1776) — "vie, liberté et recherc
 
 Son empirisme a structuré toute la tradition philosophique britannique.
 
+## Questions de révision
+
+> [!quiz] Que signifie l'idée que l'esprit est à la naissance une *tabula rasa* ?
+> Il n'y a pas d'idées innées : toute connaissance vient de l'expérience, par la sensation (le monde extérieur) et la réflexion (l'observation des opérations de notre propre esprit).
+
+> [!quiz] Quelle différence Locke fait-il entre qualités premières et qualités secondes ?
+> Les qualités premières (forme, taille, mouvement, nombre) sont réellement dans les objets ; les qualités secondes (couleur, son, goût, odeur) sont produites dans notre esprit par les qualités premières.
+
+> [!quiz] En quoi l'état de nature de Locke diffère-t-il de celui de Hobbes ?
+> Ce n'est pas une guerre de tous contre tous mais un état de liberté régi par la loi naturelle, accessible à la raison, qui interdit de nuire à autrui dans sa vie, sa liberté et ses biens. Son défaut est l'absence de juge impartial.
+
+> [!quiz] Sur quoi Locke fonde-t-il la propriété, et quelles limites lui fixe-t-il ?
+> Sur le travail : ce que l'on mêle à son travail devient sien. Mais on ne peut s'approprier un bien que s'il en reste assez pour les autres et si rien ne se gâte (le *proviso* lockéen).
+
+> [!quiz] Que se passe-t-il, selon Locke, si le gouvernement viole les droits des citoyens ?
+> Le gouvernement n'est qu'un fiduciaire des droits naturels ; s'il les trahit, le peuple reprend sa confiance et a le droit de résister.
+
+> [!quiz] Quelles limites Locke fixe-t-il à la tolérance religieuse ?
+> Il en exclut les catholiques, jugés soumis à une puissance étrangère (le pape), et les athées, dont le serment ne serait pas fiable.
+
 ## Ressources
 
 - *Deux Traités du gouvernement civil*, Livre II — état de nature, propriété, droit de résistance

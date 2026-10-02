@@ -153,3 +153,23 @@ Dans la région de Sulawesi, la tribu des **Toraja** (~650 000 personnes, majori
 - **Cuci mata** = "Se laver les yeux" (regarder de belles choses)
 - **Anak bawang** = "Enfant oignon" (le plus jeune/nouveau)
 - **Buah bibir** = "Fruit des lèvres" (sujet de conversation)
+
+## Questions de révision
+
+> [!quiz] Qu'est-ce que la Pancasila ?
+> La philosophie nationale indonésienne, formée de cinq principes : la croyance en un Dieu unique, une humanité juste et civilisée, l'unité de l'Indonésie, une démocratie guidée par la sagesse, la justice sociale pour tous.
+
+> [!quiz] Que signifie *Bhinneka Tunggal Ika* ?
+> « L'unité dans la diversité » : c'est la devise nationale.
+
+> [!quiz] Combien de religions l'Indonésie reconnaît-elle officiellement ?
+> Six : l'islam (majoritaire), le protestantisme, le catholicisme, l'hindouisme, le bouddhisme et le confucianisme.
+
+> [!quiz] Que désignent *gotong royong* et *musyawarah* ?
+> *Gotong royong* : l'entraide communautaire ; *musyawarah* : la délibération collective, qui vise le consensus (*mufakat*).
+
+> [!quiz] Citez deux règles d'étiquette à respecter en Indonésie.
+> Donner et recevoir de la main droite ; ne pas pointer avec l'index (utiliser le pouce) ; ne pas toucher la tête des gens.
+
+> [!quiz] Que signifie l'expression *jam karet* ?
+> « L'heure élastique » : la souplesse avec les horaires.

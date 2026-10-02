@@ -312,3 +312,23 @@ Ces termes viennent du Betawi mais sont maintenant utilisés dans toute l'Indon�
 | Pas grave | Tidak apa-apa | Kagak ape-ape | Gapapa |
 | Vraiment ? | Benarkah? | Beneran? | Serius? |
 | C'est délicieux | Ini enak | Ini enak bener | Ini enak banget |
+
+## Questions de révision
+
+> [!quiz] Qu'est-ce que le betawi, et quelle est sa base ?
+> Le dialecte originel de Jakarta, formé à Batavia sur une base malaise, avec des apports notamment hokkien, portugais, néerlandais et arabe.
+
+> [!quiz] Quels pronoms personnels betawi sont passés dans le slang national ?
+> *Gue/gua* (je) et *lo/lu* (tu).
+
+> [!quiz] Quel changement de voyelle typique montrent *ape*, *kenape* et *siape* ?
+> Le -a final de l'indonésien standard devient -e : *apa* → *ape*, *kenapa* → *kenape*.
+
+> [!quiz] Que devient le suffixe standard -kan en betawi ?
+> -in : *belikan* → *beliin*, *bukakan* → *bukain*.
+
+> [!quiz] Comment dit-on « oui » et « non » en betawi ?
+> *Iye* (oui) et *kagak* (non).
+
+> [!quiz] Que sont les ondel-ondel et le *roti buaya* ?
+> Les ondel-ondel sont de grandes marionnettes traditionnelles betawi ; le *roti buaya* est un pain en forme de crocodile offert lors des mariages.

@@ -200,6 +200,26 @@ Aristote a dominé la pensée occidentale pendant près de 2000 ans, particuliè
 
 La renaissance de l'éthique des vertus au XXe siècle (Anscombe, MacIntyre, Martha Nussbaum) témoigne de la vitalité persistante de sa pensée éthique.
 
+## Questions de révision
+
+> [!quiz] Quelles sont les quatre causes d'Aristote, illustrées par l'exemple d'une statue ?
+> Matérielle (le bronze), formelle (la forme d'un homme), efficiente (le sculpteur) et finale (honorer un héros). La cause finale est pour Aristote la plus importante : tout être naturel tend vers une fin (*telos*).
+
+> [!quiz] Comment la distinction entre acte et puissance permet-elle de penser le changement ?
+> Le changement est le passage de la puissance (*dynamis*) à l'acte (*energeia*) : la graine, arbre en puissance, réalise une potentialité déjà présente en elle. Le changement devient pensable sans faire naître l'être du non-être, problème que Parménide jugeait insoluble.
+
+> [!quiz] Sur quel point Aristote s'oppose-t-il à Platon à propos de la substance et des Formes ?
+> Pour Aristote, la substance première est l'individu concret (cet homme, ce cheval), non une Forme abstraite séparée. Les formes et les universaux existent dans les choses, non dans un monde séparé.
+
+> [!quiz] Pourquoi le juste milieu aristotélicien n'est-il pas une simple moyenne ?
+> La vertu est un milieu entre un excès et un défaut (le courage entre témérité et lâcheté), mais ce milieu est relatif à la personne et à la situation, non une moyenne arithmétique fixe. Il s'acquiert par l'habitude et se discerne grâce à la *phronèsis*, la sagesse pratique.
+
+> [!quiz] Quelles sont les trois preuves de la rhétorique selon Aristote ?
+> Le *logos* (l'argument rationnel), l'*ethos* (la crédibilité et le caractère moral de l'orateur) et le *pathos* (les émotions suscitées chez l'auditoire).
+
+> [!quiz] En quel sens le Premier Moteur immobile est-il une cause finale plutôt qu'efficiente ?
+> Il ne pousse pas l'univers comme une force mécanique : immobile et éternel, pure pensée qui se pense elle-même, il attire le mouvement du monde par désir, comme un objet aimé attire l'amant.
+
 ## Ressources
 
 - *Éthique à Nicomaque*, Livre I et X — l'eudaimonia comme fin de la vie humaine
