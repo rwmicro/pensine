@@ -357,4 +357,25 @@ b) Combien l'équation $f(x) = 0$ admet-elle de solutions ?
 > - **Même sens** de variation donne composée croissante ; **sens contraires** donne composée décroissante.
 
 
+## Questions de révision
+
+> [!quiz] Quelle différence entre l'image et un antécédent par une fonction $f$ ?
+> L'image de $x$ est le nombre unique $f(x)$ ; un antécédent de $y$ est un $x$ tel que $f(x) = y$. Un $y$ peut avoir plusieurs antécédents ou aucun.
+
+> [!quiz] Quelles valeurs faut-il exclure pour trouver l'ensemble de définition d'une fonction ?
+> Celles qui annulent un dénominateur et celles qui rendent négatif un nombre placé sous une racine carrée.
+
+> [!quiz] Pourquoi ne dit-on pas que $x \mapsto \frac{1}{x}$ est décroissante sur $\mathbb{R}^*$ ?
+> Elle est décroissante sur $]-\infty;\, 0[$ et sur $]0;\, +\infty[$ séparément, mais pas sur leur réunion : $-1 < 1$ alors que $\frac{1}{-1} < \frac{1}{1}$.
+
+> [!quiz] Quelle différence entre une fonction paire et une fonction impaire ?
+> Paire : $f(-x) = f(x)$, courbe symétrique par rapport à l'axe des ordonnées. Impaire : $f(-x) = -f(x)$, courbe symétrique par rapport à l'origine.
+
+> [!quiz] Dans $g \circ f$, quelle fonction applique-t-on en premier ?
+> On applique d'abord $f$, puis $g$ : $(g \circ f)(x) = g(f(x))$. En général $g \circ f \neq f \circ g$.
+
+> [!quiz] Comment déterminer le sens de variation d'une composée $g \circ f$ ?
+> Si $f$ et $g$ ont le même sens de variation, la composée est croissante ; si elles ont des sens contraires, elle est décroissante.
+
+
 *Voir aussi* : [[Ensembles et Nombres]] | [[Calcul Algébrique]] | [[Second Degré]] | [[Dérivation]]

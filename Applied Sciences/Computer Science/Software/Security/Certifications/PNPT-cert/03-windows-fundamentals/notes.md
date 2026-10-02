@@ -132,6 +132,26 @@ Get-ADGroup -Filter *
 
 Pour de l'énumération sérieuse, on utilise **PowerView** ou **BloodHound** — voir `[[Active Directory Security]]`.
 
+## Questions de révision
+
+> [!quiz] Que contient le fichier `SAM` sous Windows, et pourquoi ne peut-on pas le copier simplement pendant que le système tourne ?
+> Il contient les hashes des comptes locaux. Il est verrouillé tant que Windows est en fonctionnement.
+
+> [!quiz] Quelles sont les cinq ruches (hives) principales du registre Windows ?
+> `HKLM` (config système), `HKCU` (utilisateur connecté), `HKU` (tous les utilisateurs), `HKCR` (associations de fichiers) et `HKCC` (profil matériel courant).
+
+> [!quiz] Quelle information centrale `whoami /all` donne-t-il sur une session Windows ?
+> L'identité complète : le SID, les groupes et la liste des privilèges du compte.
+
+> [!quiz] Pourquoi `systeminfo` est-il précieux lors d'une reconnaissance ?
+> Il indique la version de l'OS, les correctifs appliqués et le domaine, ce qui permet d'identifier les CVE correspondantes.
+
+> [!quiz] Qu'est-ce que PowerShell au-delà d'un simple shell ?
+> C'est à la fois un shell, un langage de script et un accès complet à l'API .NET.
+
+> [!quiz] Pourquoi un chemin `C:\Users\...` peut-il ne pas exister tel quel sur un Windows en français ?
+> Le dossier peut s'appeler `Utilisateurs` au lieu de `Users` ; il faut vérifier l'arborescence réelle avec `dir C:\`.
+
 ## Pièges courants
 
 > [!warning] Pièges courants

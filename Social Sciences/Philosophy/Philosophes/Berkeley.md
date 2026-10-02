@@ -70,3 +70,23 @@ Berkeley, évêque anglican, ne développe pas l'immatérialisme par goût de la
 > "Esse est percipi" — "Être, c'est être perçu."
 
 > "Toute cette pompe et cet appareil de l'existence n'a de fondement solide que dans l'esprit d'un être éternel."
+
+## Questions de révision
+
+> [!quiz] Que signifie la formule *esse est percipi* ?
+> Être, c'est être perçu : pour une chose sensible, exister, c'est être perçue par un esprit. Il n'existe que des esprits qui perçoivent et des idées perçues ; un objet n'est qu'une collection régulière d'idées sensibles.
+
+> [!quiz] Comment Berkeley critique-t-il la distinction de Locke entre qualités primaires et secondaires ?
+> On ne perçoit jamais une étendue pure, mais toujours une étendue colorée ou une forme touchée : les qualités primaires sont aussi inséparables de la perception que les secondaires. Toutes sont relatives à un esprit, donc rien ne prouve une matière derrière elles.
+
+> [!quiz] Que répond Berkeley à l'objection de l'arbre que personne ne regarde ?
+> L'arbre continue d'exister car il est perçu continûment par l'esprit infini de Dieu. Cette perception divine garantit aussi la stabilité et la régularité du monde sensible, que nous appelons lois de la nature.
+
+> [!quiz] Pourquoi le coup de pied de Samuel Johnson dans une pierre ne réfute-t-il pas Berkeley ?
+> Berkeley ne nie pas que la pierre soit dure et résistante au pied ; il nie seulement qu'existe, en plus de ces qualités perçues, une substance matérielle imperceptible qui les supporterait.
+
+> [!quiz] Contre quoi Berkeley développe-t-il l'immatérialisme ?
+> Contre le scepticisme (comment être sûr d'une matière jamais perçue ?) et contre le matérialisme athée (un univers de matière fonctionnant sans Dieu). Supprimer la matière inconnaissable doit fermer la porte aux deux.
+
+> [!quiz] Comment Kant se distingue-t-il à la fois de Locke et de Berkeley sur la matière ?
+> Contre Berkeley, il garde une chose en soi inconnaissable ; contre Locke, il fait de l'espace et du temps des formes a priori de notre sensibilité et non des propriétés du monde. Il qualifie la position de Berkeley d'idéalisme dogmatique.

@@ -54,3 +54,17 @@ For habitual actions or general truths, no time marker is needed.
 - **Sedang:** *Saya sedang membaca buku* = "I am reading a book (right now)"
 - **Lagi:** *Aku lagi baca buku* = "I'm reading a book (right now)"  
 - **Simple:** *Saya baca buku setiap malam* = "I read books every night"
+
+## Questions de révision
+
+> [!quiz] Quel marqueur indique une action en cours, en registre formel puis informel ?
+> *Sedang* en formel, *lagi* en informel : *Saya sedang makan* / *Aku lagi kerja*.
+
+> [!quiz] Faut-il un marqueur pour une habitude ou une vérité générale ?
+> Non : *Saya makan nasi setiap hari* (« Je mange du riz tous les jours »).
+
+> [!quiz] Traduisez : « Je suis en train de lire un livre » (formel).
+> *Saya sedang membaca buku*.
+
+> [!quiz] Lequel de *sedang* ou *lagi* entend-on le plus dans la conversation courante ?
+> *Lagi*, la forme familière.

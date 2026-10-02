@@ -422,3 +422,24 @@ flowchart LR
    Donc $u_n = v_n + 2 = \dfrac{1}{2^{n-1}} + 2$.
 
 3. $\lim_{n \to +\infty} \dfrac{1}{2^{n-1}} = 0$, donc $\lim_{n \to +\infty} u_n = 2$.
+
+
+## Questions de révision
+
+> [!quiz] Quelle différence entre une suite arithmétique et une suite géométrique ?
+> Arithmétique : on ajoute une raison constante, $u_{n+1} = u_n + r$. Géométrique : on multiplie par une raison constante, $u_{n+1} = q \cdot u_n$.
+
+> [!quiz] Quel est le terme général d'une suite arithmétique et d'une suite géométrique ?
+> $u_n = u_0 + n r$ pour une suite arithmétique, $u_n = u_0 \cdot q^n$ pour une suite géométrique.
+
+> [!quiz] Comment calcule-t-on la somme de termes consécutifs d'une suite arithmétique ?
+> Nombre de termes multiplié par la moyenne du premier et du dernier terme : $S_n = (n+1) \times \frac{u_0 + u_n}{2}$.
+
+> [!quiz] Une suite bornée est-elle forcément convergente ?
+> Non : toute suite convergente est bornée, mais la réciproque est fausse, par exemple $u_n = (-1)^n$ est bornée sans converger.
+
+> [!quiz] Que dit le théorème de convergence monotone, et que ne donne-t-il pas ?
+> Toute suite croissante et majorée (ou décroissante et minorée) converge. Il prouve l'existence de la limite sans en donner la valeur.
+
+> [!quiz] Quelles sont les étapes d'un raisonnement par récurrence ?
+> Initialisation (vérifier $P(n_0)$), hérédité (montrer que $P(n)$ entraîne $P(n+1)$), puis conclusion : $P(n)$ est vraie pour tout $n \geq n_0$.

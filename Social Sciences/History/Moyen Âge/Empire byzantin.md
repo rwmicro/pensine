@@ -97,6 +97,26 @@ Byzance lègue au monde orthodoxe, des Balkans à la Russie, sa liturgie, son ar
 > [!question] Débat : décadence, césaropapisme et romanité
 > Les Lumières ont fait de Byzance un repoussoir. Montesquieu et Gibbon y voient un empire décadent, bigot et intrigant, et l'adjectif « byzantin » a gardé ce sens péjoratif. Longtemps, on a aussi qualifié son régime de « césaropapisme », un empereur qui dirigerait l'Église. Gilbert Dagron (*Empereur et prêtre*, 1996) a montré que la réalité est plus tendue : l'empereur n'est pas prêtre, et l'Église lui a souvent résisté, notamment pendant l'iconoclasme. Plus récemment, Anthony Kaldellis (*Romanland*, 2019) soutient que Byzance doit être comprise comme ce qu'elle disait être, un État romain doté d'une identité politique romaine partagée par sa population grecque, et non comme un empire multiethnique « oriental ». Cette lecture est discutée, notamment pour les périphéries non grecques de l'Empire.
 
+## Questions de révision
+
+> [!quiz] Comment les « Byzantins » se désignaient-ils eux-mêmes, et d'où vient le terme « byzantin » ?
+> Ils se disaient Romains (*Rhômaioi*) et leur souverain était l'empereur des Romains. Le terme, tiré de l'ancien nom grec de la ville, a été popularisé par des érudits occidentaux à partir du XVIe siècle.
+
+> [!quiz] Pourquoi Constantinople était-elle presque imprenable ?
+> Elle était protégée par la mer sur trois côtés et fermée côté terre, au Ve siècle, par la muraille de Théodose II.
+
+> [!quiz] Quelles sont les conséquences des conquêtes arabes du VIIe siècle pour l'Empire ?
+> Il perd la Syrie, la Palestine, l'Égypte puis l'Afrique du Nord, ses provinces les plus riches, et devient un État essentiellement grec, centré sur l'Anatolie et les Balkans.
+
+> [!quiz] Qu'est-ce que les thèmes byzantins ?
+> Des circonscriptions militaires dirigées par un stratège, qui réorganisent les provinces à partir du VIIe siècle ; leur date et leur mode de création restent discutés.
+
+> [!quiz] Pourquoi le schisme de 1054 n'est-il pas une rupture nette ?
+> Les excommunications de 1054 visent des personnes (le patriarche Michel Cérulaire et les légats pontificaux), pas des Églises entières, et les contacts continuent ; c'est le sac de Constantinople en 1204 qui fixe la séparation dans les mémoires.
+
+> [!quiz] Quel rôle Byzance joue-t-elle dans la Renaissance italienne ?
+> Elle a conservé et recopié l'essentiel de la littérature grecque antique, et des savants byzantins la transmettent à l'Italie avant 1453 : Chrysoloras enseigne le grec à Florence, Pléthon y suscite l'intérêt pour Platon, Bessarion lègue ses manuscrits grecs à Venise.
+
 ## Ressources
 
 - **Georg Ostrogorsky**, *Histoire de l'État byzantin* (1940 ; trad. fr. 1956)

@@ -122,3 +122,20 @@ Les notes ci-dessus utilisent majoritairement l'outillage Debian/Ubuntu (apt, ip
 | # | Sujet |
 |---|---|
 | 45 | [RHEL vs Debian Equivalents](q45-rhel-vs-debian-equivalents.md) |
+
+## Questions de révision
+
+> [!quiz] Dans le simulateur killer.sh, sur quelle machine faut-il créer les fichiers de solution demandés dans `/opt/course/*` ?
+> Toujours sur le `terminal` principal, même si la question porte sur un autre serveur.
+
+> [!quiz] Comment se connecte-t-on aux serveurs du simulateur, et quelle restriction s'applique ?
+> Par ssh (par exemple `ssh web-srv1`), uniquement depuis le `terminal` principal : le ssh imbriqué d'un serveur à l'autre n'est pas possible.
+
+> [!quiz] Pourquoi faut-il réfléchir avant une commande destructive sur un serveur du simulateur ?
+> Un serveur ne peut pas être redémarré individuellement : en cas de casse, la seule solution est de relancer toute la session via *Restart Session*.
+
+> [!quiz] Quels outils fonctionnent à l'identique sur les familles Debian/Ubuntu et RHEL, et sont donc à maîtriser en priorité ?
+> Les outils communs comme `systemctl`, `ip`, `mount` et `timedatectl`.
+
+> [!quiz] Donnez les équivalents RHEL de `apt` et de `systemd-timesyncd` cités dans la note.
+> `dnf` pour la gestion des paquets et `chrony` pour la synchronisation de l'heure.

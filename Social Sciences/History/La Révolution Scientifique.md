@@ -118,3 +118,23 @@ La machine à vapeur de James Watt (1769) illustre ce lien : elle naît d'une co
 Contrairement aux traditions religieuses qui supposent que les vérités essentielles sont déjà connues, la science est par principe **incomplète**. Chaque réponse génère de nouvelles questions. Les frontières de la connaissance ne se referment jamais — elles s'étendent.
 
 Cela crée une dynamique particulière : les sociétés qui ont adopté la méthode scientifique ont développé un appétit structurel pour l'innovation, la croissance et le changement. Une civilisation qui valorise la science est une civilisation qui valorise l'instabilité créatrice.
+
+## Questions de révision
+
+> [!quiz] Pourquoi 1543 est-elle la date symbolique de départ de la révolution scientifique ?
+> C'est l'année de la publication du *De revolutionibus* de Copernic (héliocentrisme) et du *De humani corporis fabrica* de Vésale (anatomie par dissection) : deux disciplines, une même rupture, observer le monde plutôt que se fier aux autorités héritées.
+
+> [!quiz] Quelle est l'innovation fondamentale de la révolution scientifique par rapport aux traditions intellectuelles antérieures ?
+> Admettre l'ignorance : au lieu de supposer que les grandes vérités sont déjà connues et qu'il suffit de les interpréter, elle postule que l'on ne sait pas et que l'on peut apprendre par l'observation, l'expérimentation et le raisonnement mathématique.
+
+> [!quiz] Qu'est-ce que le critère de réfutabilité de Karl Popper ?
+> Une théorie scientifique doit pouvoir être mise en défaut par l'observation ; ce qui ne peut pas être réfuté n'est pas de la science.
+
+> [!quiz] En quoi science et empires européens se sont-ils mutuellement servis ?
+> Les empires avaient besoin de la science pour la navigation, l'armement, la médecine et l'ingénierie ; la science avait besoin des empires pour financer expéditions et instruments et accéder à de nouveaux spécimens et données.
+
+> [!quiz] Pourquoi l'alliance historique entre science et empire ne rend-elle pas la méthode scientifique impérialiste ?
+> C'est une contingence de financement et de logistique, pas une conséquence logique de la méthode : confondre l'origine sociale d'une méthode avec sa validité épistémique est une erreur.
+
+> [!quiz] Qu'est-ce que le social-darwinisme ?
+> L'application abusive de la sélection naturelle aux sociétés humaines pour justifier les inégalités économiques.

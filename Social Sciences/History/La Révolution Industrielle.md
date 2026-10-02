@@ -132,3 +132,23 @@ La révolution industrielle a considérablement augmenté la **richesse matérie
 Elle a aussi produit une exploitation massive du travail humain, des inégalités inédites, une destruction de l'environnement sans précédent, et la mise en place d'une économie dont la **croissance infinie** est le postulat — sur une planète aux ressources finies.
 
 La question que cette contradiction pose reste entière.
+
+## Questions de révision
+
+> [!quiz] Pourquoi la révolution industrielle est-elle d'abord une révolution énergétique ?
+> Pour la première fois, les sociétés convertissent massivement de l'énergie stockée (charbon, puis pétrole) en travail mécanique, au lieu de dépendre des muscles, du vent ou de l'eau courante.
+
+> [!quiz] Pourquoi la machine à vapeur perfectionnée par James Watt (1769) est-elle le pivot de la révolution industrielle ?
+> Elle convertit la chaleur du charbon en mouvement mécanique, peut fonctionner sans interruption ni fatigue, et sa puissance peut être démultipliée ; elle entraîne machines textiles, usines, urbanisation et chemins de fer.
+
+> [!quiz] En quoi le travail de l'ouvrier d'usine diffère-t-il de celui de l'artisan ?
+> L'ouvrier est salarié (il vend son temps, pas son produit), travaille à des horaires imposés et effectue des tâches répétitives et parcellisées, alors que l'artisan maîtrise l'ensemble du processus et son rythme.
+
+> [!quiz] Pourquoi l'aliénation au sens de Marx ne se réduit-elle pas au fait d'être mal payé ?
+> C'est un concept structurel : un ouvrier bien payé qui ne contrôle ni le rythme, ni le sens, ni le produit de son travail reste aliéné ; un artisan pauvre mais maître de son processus ne l'est pas.
+
+> [!quiz] Qu'est-ce que le luddisme ?
+> Un mouvement de résistance ouvrière en Grande-Bretagne (1811-1816) qui consistait à briser les machines, perçues comme responsables du chômage.
+
+> [!quiz] Comment l'industrialisation transforme-t-elle la perception du temps ?
+> L'usine impose une discipline temporelle (pointage, pauses réglementées, journée découpée en unités vendues au patron) à la place des cycles naturels ; le temps devient une ressource à gérer et à ne pas perdre.

@@ -80,6 +80,23 @@ Noyau lexical prioritaire, extrait des fichiers thématiques répartis dans `Lie
 | Tous | ![Semua](audio/id_male_f34c6b58657d.mp3) |
 | Très | ![Sangat](audio/id_male_91298d08b9fa.mp3) / ![Banget](audio/id_male_e50a3de8307e.mp3) |
 
+## Questions de révision
+
+> [!quiz] Comptez de 1 à 10 en indonésien.
+> *Satu, dua, tiga, empat, lima, enam, tujuh, delapan, sembilan, sepuluh.*
+
+> [!quiz] Comment désigne-t-on un frère ou une sœur aîné(e), puis cadet(te) ?
+> *Kakak* pour l'aîné(e) et *adik* pour le cadet ou la cadette ; ces mots ne précisent pas le sexe.
+
+> [!quiz] Quels mots informels remplacent *ingin* (vouloir) et *mempunyai* (avoir) ?
+> *Mau* pour *ingin*, et *punya* pour *mempunyai*.
+
+> [!quiz] Comment dit-on « cher » et « pas cher » ?
+> *Mahal* et *murah*.
+
+> [!quiz] Quelles sont les deux façons de dire « très » ?
+> *Sangat* et *banget* (plus familier).
+
 ## Liens
 
 - [[Nombres]] — nombres complets, classificateurs, argent

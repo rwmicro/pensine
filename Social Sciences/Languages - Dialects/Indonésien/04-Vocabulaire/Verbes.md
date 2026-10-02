@@ -149,3 +149,23 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/M
 | Jouer | Bermain | Main | /main/ |
 | Gagner | Menang | Menang | /mə.ˈnaŋ/ |
 | Perdre | Kalah | Kalah | /ka.ˈlah/ |
+
+## Questions de révision
+
+> [!quiz] Les verbes indonésiens se conjuguent-ils ?
+> Non : le temps est indiqué par des marqueurs comme *sudah*, *akan* ou *sedang*.
+
+> [!quiz] Quelle différence entre *ada* et *punya* ?
+> *Ada* = « il y a » ; *punya* (formel *mempunyai*) = « avoir ».
+
+> [!quiz] Comment passe-t-on souvent d'un verbe formel à sa forme informelle ?
+> En supprimant le préfixe : *mengambil* → *ambil*, *membeli* → *beli*, *menulis* → *nulis*.
+
+> [!quiz] Quelle différence entre *melihat* et *menonton* ?
+> *Melihat* = « voir », *menonton* = « regarder » (un film, un spectacle).
+
+> [!quiz] Traduisez *pulang*, *masuk* et *keluar*.
+> *Pulang* = rentrer, *masuk* = entrer, *keluar* = sortir.
+
+> [!quiz] Quels verbes signifient « emprunter » et « prêter » ?
+> *Meminjam* (emprunter) et *meminjamkan* (prêter).

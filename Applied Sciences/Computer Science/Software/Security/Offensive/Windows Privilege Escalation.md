@@ -258,3 +258,23 @@ Find-AllVulns
 | SAM dump | Accès aux fichiers SAM | impacket-secretsdump |
 | UAC bypass | Niveau UAC 0 ou 2 | fodhelper, eventvwr |
 | Kernel exploit | Version vulnérable | EternalBlue, PrintNightmare |
+
+## Questions de révision
+
+> [!quiz] Quel est l'objectif de l'escalade de privilèges sous Windows ?
+> Passer d'un compte utilisateur ou service standard vers SYSTEM, l'équivalent de root, en exploitant des mauvaises configurations ou des mécanismes mal sécurisés.
+
+> [!quiz] En quoi consiste la faille des « unquoted service paths », et pourquoi n'est-ce pas un problème de permissions ?
+> Quand le chemin d'un service contient des espaces sans guillemets, Windows essaie chaque segment comme exécutable possible avant le chemin complet : c'est un problème d'analyse (parsing) du chemin, pas de permissions.
+
+> [!quiz] Quel principe commun partagent les attaques de type « Potato » (PrintSpoofer, GodPotato, etc.) ?
+> Forcer un service SYSTEM à s'authentifier auprès de l'attaquant, puis usurper le token obtenu grâce au privilège `SeImpersonatePrivilege` ; seul le vecteur déclenchant l'authentification change d'un outil à l'autre.
+
+> [!quiz] Pourquoi Microsoft corrige-t-il rarement les contournements d'UAC comme des CVE ?
+> Parce que Microsoft ne considère pas l'UAC comme une frontière de sécurité : c'est une couche de confort et de consentement, pas une protection contre un attaquant déjà exécuté avec les droits de l'utilisateur.
+
+> [!quiz] Que permet la configuration `AlwaysInstallElevated` quand elle est activée ?
+> D'installer des paquets MSI avec les droits SYSTEM ; si la valeur vaut 1 à la fois dans HKCU et HKLM, elle est exploitable.
+
+> [!quiz] Que contient la base SAM, et quel privilège ou condition permet d'extraire des identifiants de la mémoire de LSASS ?
+> La base SAM contient les hashes NTLM des comptes locaux ; extraire les identifiants de LSASS nécessite les droits administrateur ou le privilège `SeDebugPrivilege`.

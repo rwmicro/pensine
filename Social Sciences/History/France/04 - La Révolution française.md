@@ -78,6 +78,26 @@ Après la chute de Robespierre, une réaction conservatrice s'installe : le Dire
 
 La Révolution abolit juridiquement la société d'ordres et pose les principes — égalité devant la loi, souveraineté nationale, droits individuels — qui structurent encore la vie politique française. Mais elle laisse aussi un répertoire de gestes et de symboles (l'insurrection parisienne, le recours à la violence révolutionnaire, la référence permanente à 1789) qui resurgit à chaque crise politique majeure du XIXe siècle, de 1830 à 1848 jusqu'à [[06 - La Commune]] en 1871.
 
+## Questions de révision
+
+> [!quiz] Pourquoi le tiers état réclame-t-il en 1789 le vote par tête plutôt que par ordre ?
+> Le vote par ordre ne lui donne qu'un tiers des voix alors qu'il représente l'immense majorité de la population ; le vote par tête lui donnerait la majorité, allié à une partie du bas clergé.
+
+> [!quiz] Qu'est-ce que le Serment du Jeu de Paume ?
+> Le 20 juin 1789, les députés du tiers état, trouvant leur salle fermée sur ordre du roi, jurent dans une salle de jeu de paume de ne pas se séparer avant d'avoir donné une constitution à la France.
+
+> [!quiz] Quelle est la portée réelle de la prise de la Bastille ?
+> Surtout symbolique, car la prison ne contient que sept détenus ; mais elle montre que le roi ne contrôle plus la force à Paris.
+
+> [!quiz] Pourquoi l'Assemblée abolit-elle les privilèges dans la nuit du 4 août 1789 ?
+> Pour calmer la Grande Peur, qui provoquait des attaques de châteaux dans les campagnes ; une partie de la noblesse libérale renonce à des privilèges déjà condamnés pour garder l'initiative politique.
+
+> [!quiz] Pourquoi la fuite à Varennes ruine-t-elle la monarchie constitutionnelle ?
+> Un roi qui cherche à fuir son peuple pour rejoindre les armées contre-révolutionnaires ne peut plus prétendre régner en confiance avec la nation.
+
+> [!quiz] Quelle logique politique explique la Terreur, au-delà de la personnalité de Robespierre ?
+> Une République en guerre sur plusieurs fronts (coalition européenne, Vendée, crise économique), convaincue que la clémence envers les ennemis intérieurs serait suicidaire.
+
 ## Ressources
 
 - **François Furet**, *Penser la Révolution française* (1978)

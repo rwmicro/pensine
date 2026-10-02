@@ -275,6 +275,26 @@ L'arrivée au pouvoir de partis nostalgiques (Russie unie en Russie, alliances n
 La question de fond reste : *Le communisme historique est-il une dévoiement du projet marxien (« le socialisme n'a jamais été essayé ») ou son aboutissement logique ?* Les réponses divisent encore aujourd'hui historiens, philosophes et acteurs politiques.
 
 
+## Questions de révision
+
+> [!quiz] Quelle différence fait la note entre marxisme et communisme comme régime ?
+> Le marxisme est le corpus théorique de Marx et Engels ; le communisme comme régime désigne les États gouvernés par un parti communiste à partir de 1917, une réalisation partielle, contestée et déformée de cette théorie.
+
+> [!quiz] Qu'est-ce que le parti d'avant-garde chez Lénine, et en quoi rompt-il avec Marx ?
+> Un parti de révolutionnaires professionnels qui apporte la conscience révolutionnaire « de l'extérieur », car les ouvriers laissés à eux-mêmes n'atteignent qu'une conscience « tradeunioniste » (*Que faire ?*, 1902). Marx attendait au contraire une révolution spontanée du prolétariat conscient de ses intérêts.
+
+> [!quiz] À quoi sert la thèse léniniste du « maillon faible » ?
+> Elle explique que la révolution peut éclater dans un pays agraire comme la Russie plutôt que dans les pays industriels avancés, justifiant après coup l'écart avec les prédictions de Marx.
+
+> [!quiz] Qu'opposent le « socialisme dans un seul pays » de Staline et la critique de Trotsky ?
+> Staline abandonne la révolution mondiale pour construire le socialisme en URSS ; Trotsky défend la révolution permanente mondiale et dénonce la dégénérescence bureaucratique de l'URSS.
+
+> [!quiz] Quelle est la principale innovation du maoïsme par rapport au léninisme ?
+> Faire de la paysannerie la classe révolutionnaire principale, au lieu du prolétariat urbain, avec la guerre populaire prolongée comme stratégie de prise du pouvoir.
+
+> [!quiz] Qu'est-ce que l'eurocommunisme des années 1970 ?
+> La tentative des partis communistes italien, espagnol et français de s'autonomiser de Moscou en acceptant le pluralisme et une voie démocratique au socialisme ; le PCF renonce à la dictature du prolétariat en 1976.
+
 ## Pour aller plus loin
 
 - François Furet, *Le Passé d'une illusion. Essai sur l'idée communiste au XXᵉ siècle* (1995)

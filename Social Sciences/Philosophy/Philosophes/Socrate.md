@@ -216,6 +216,26 @@ L'influence de Socrate perdure:
 
 **Philosophie pratique:** La philosophie comme mode de vie, pas seulement théorie
 
+## Questions de révision
+
+> [!quiz] D'où vient le nom de la maïeutique et en quoi consiste-t-elle ?
+> Du grec *maieutikê*, art de l'accouchement, en référence au métier de sa mère, sage-femme. Socrate ne transmet pas un savoir : par ses questions, il fait accoucher les esprits de ce qu'ils portent déjà.
+
+> [!quiz] Pourquoi l'oracle de Delphes déclare-t-il Socrate le plus sage ?
+> Parce que Socrate est le seul à reconnaître son ignorance, alors que les autres, notamment les sophistes, croient savoir ce qu'ils ne savent pas.
+
+> [!quiz] Que signifie l'intellectualisme moral de Socrate ?
+> Nul n'est méchant volontairement : le vice vient de l'ignorance, et connaître le bien suffit à le faire. Aristote rejettera cette thèse en invoquant la faiblesse de la volonté (*akrasia*).
+
+> [!quiz] De quoi Socrate est-il accusé lors de son procès en 399 av. J.-C. ?
+> D'impiété (ne pas reconnaître les dieux de la cité et introduire de nouvelles divinités) et de corruption de la jeunesse.
+
+> [!quiz] Pourquoi Socrate refuse-t-il de s'évader dans le *Criton* ?
+> Il juge qu'il faut respecter les lois de la cité même injustes, et que fuir reviendrait à reconnaître avoir eu tort. Ce refus prolonge la cohérence entre ses paroles et ses actes déjà manifestée au procès.
+
+> [!quiz] Qu'appelle-t-on le problème socratique ?
+> Socrate n'ayant rien écrit, nous dépendons de sources divergentes : Platon, qui en fait le porte-parole de ses idées, Xénophon, au portrait plus terre-à-terre, et Aristophane, qui le caricature dans *Les Nuées*.
+
 ## Ressources
 
 - **Textes de Platon sur Socrate:**

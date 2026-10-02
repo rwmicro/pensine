@@ -182,6 +182,26 @@ Plutôt que de suivre des références commerciales qui changent chaque année, 
 | ARM à mémoire unifiée | CPU, GPU et accélérateur neuronal partageant une même mémoire, sans copie entre eux | Apple Silicon, mobile haut de gamme |
 | RISC-V | Jeu d'instructions libre de droits, modulaire | Embarqué, IoT, recherche |
 
+## Questions de révision
+
+> [!quiz] Qu'appelle-t-on le « mur de la mémoire » ?
+> Le déséquilibre entre la vitesse des processeurs, qui a crû bien plus vite que celle de la mémoire : un accès à la mémoire principale coûte de l'ordre de cent nanosecondes, soit des centaines de cycles pendant lesquels le cœur peut rester inactif.
+
+> [!quiz] Qu'est-ce que le goulot de von Neumann, et quel compromis les processeurs généralistes ont-ils adopté ?
+> Instructions et données passent par un même bus vers une même mémoire. Les processeurs actuels gardent une mémoire unique mais séparent les caches de premier niveau (L1i pour les instructions, L1d pour les données) : Harvard près du cœur, von Neumann au-delà.
+
+> [!quiz] Quels sont les trois types d'aléas d'un pipeline et leur parade principale ?
+> Aléa de données (forwarding, suspension ou réordonnancement par le compilateur), aléa de contrôle (prédiction de branchement) et aléa structurel (duplication des unités).
+
+> [!quiz] Pourquoi l'exécution spéculative a-t-elle permis les attaques Spectre et Meltdown ?
+> Quand la spéculation est annulée, registres et mémoire sont restaurés, mais l'état du cache garde la trace des lignes chargées ; en mesurant les temps d'accès au cache, on déduit des données qu'on n'avait pas le droit de lire.
+
+> [!quiz] Pourquoi le multithreading simultané (SMT) apporte-t-il un gain, et quand n'en apporte-t-il pas ?
+> Quand un fil attend la mémoire après un défaut de cache, le second fil utilise les unités d'exécution inoccupées. Sur une charge mono-fil qui ne rate presque jamais le cache, il n'apporte rien et peut nuire.
+
+> [!quiz] Quelle différence de stratégie face à la latence distingue le CPU du GPU ?
+> Le CPU cherche à réduire la latence d'un fil (caches, spéculation, exécution hors ordre) ; le GPU l'accepte et la masque en basculant instantanément vers d'autres fils parmi des milliers.
+
 ## À lire ensuite
 
 - [[Mémoire et Stockage]] — la hiérarchie complète, des registres au stockage réseau

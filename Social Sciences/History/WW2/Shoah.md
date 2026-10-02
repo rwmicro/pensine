@@ -91,6 +91,26 @@ Le procès de Nuremberg (1945-1946) juge les principaux dirigeants nazis pour cr
 
 Le négationnisme, qui conteste l'existence des chambres à gaz, est réfuté par l'ensemble des sources, allemandes comprises ; en France, la loi Gayssot de 1990 en réprime l'expression. En Allemagne, la « querelle des historiens » de 1986, où [[Habermas]] s'oppose à Ernst Nolte, porte sur la singularité du génocide nazi face aux crimes du stalinisme (voir [[Le Communisme au XXe siècle]]). La Shoah pèse enfin sur la création de l'État d'Israël en 1948 (voir [[Conflit israélo-palestinien]]).
 
+## Questions de révision
+
+> [!quiz] Quelle différence entre un camp de concentration et un centre de mise à mort ?
+> Dans un camp de concentration (Dachau, Buchenwald, Bergen-Belsen), on meurt massivement de faim, d'épuisement et de maladie. Un centre de mise à mort (Chelmno, Belzec, Sobibor, Treblinka) ne comporte presque pas de détenus : on y tue à l'arrivée.
+
+> [!quiz] Qu'appelle-t-on la « Shoah par balles » ?
+> Les fusillades de masse menées à partir de l'invasion de l'URSS en 1941 par les Einsatzgruppen et des unités associées, qui tuent un million et demi à deux millions de Juifs, souvent près de leur village.
+
+> [!quiz] Quel est le rôle de la conférence de Wannsee (20 janvier 1942) ?
+> Elle ne décide pas l'extermination, déjà en cours : elle coordonne sa mise en œuvre entre les administrations et l'étend à l'ensemble des Juifs d'Europe.
+
+> [!quiz] Qu'opposent intentionnalistes et fonctionnalistes dans l'explication de la Shoah ?
+> Les intentionnalistes insistent sur le rôle de Hitler et un projet exterminateur présent dès les années 1920 ; les fonctionnalistes sur la polycratie chaotique du régime et l'improvisation, l'extermination étant le produit d'une « radicalisation cumulative ».
+
+> [!quiz] Comment Browning et Goldhagen expliquent-ils le comportement des policiers du 101e bataillon de réserve ?
+> Browning souligne le conformisme, la pression du groupe et la déférence envers l'autorité (les refus n'étaient pas gravement sanctionnés) ; Goldhagen y voit un antisémitisme « éliminationniste » propre à la société allemande. Browning a davantage convaincu les historiens.
+
+> [!quiz] Pourquoi les images de la Libération prises à l'Ouest en 1945 ne montrent-elles pas le cœur de l'extermination ?
+> Elles montrent des camps de concentration ; les centres de mise à mort de Belzec, Sobibor et Treblinka avaient été démantelés par les nazis dès 1943, et une grande part des victimes avaient été fusillées près de chez elles.
+
 ## Ressources
 
 - **Raul Hilberg**, *La Destruction des Juifs d'Europe* (1961)

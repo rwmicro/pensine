@@ -60,3 +60,17 @@ Indicates a completed action (can be recent or distant past).
 | **Yang lalu** | Specific time ago | *Seminggu yang lalu* = "A week ago" |
 | **Dulu** | Long ago/used to | *Dulu saya kecil* = "I used to be small" |
 | **Sudah** | Completed action | *Sudah tidur* = "Already sleeping" |
+
+## Questions de révision
+
+> [!quiz] Comment l'indonésien indique-t-il le passé ?
+> Le verbe ne se conjugue pas : on utilise des marqueurs de temps et le contexte.
+
+> [!quiz] Quand utilise-t-on *tadi* ?
+> Pour une action qui a eu lieu plus tôt le même jour (*Tadi pagi* = ce matin) ; *Tadi kamu bilang apa?* = « Qu'est-ce que tu viens de dire ? ».
+
+> [!quiz] Comment dire « il y a deux semaines » ?
+> *Dua minggu yang lalu* : une durée suivie de *yang lalu*.
+
+> [!quiz] Quelle différence entre *dulu* et *sudah* ?
+> *Dulu* renvoie à un passé lointain ou à une habitude passée (*Dulu saya kecil*) ; *sudah* indique qu'une action est accomplie (*Saya sudah makan*).
