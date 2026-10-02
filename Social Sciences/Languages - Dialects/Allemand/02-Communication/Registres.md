@@ -86,20 +86,21 @@ L'allemand a >250 dialectes recensés. Voici les principaux groupes.
 
 ### Hochdeutsch écrit vs dialectes oraux
 
-```
-Allemand
-├── Niederdeutsch (Bas-allemand) — Nord
-│   └── Plattdeutsch — proche du néerlandais
-├── Mitteldeutsch (Allemand central)
-│   ├── Berlinois (Berlinerisch)
-│   ├── Saxon (Sächsisch)
-│   ├── Hessois (Hessisch)
-│   └── Rhénan (Rheinisch)
-└── Oberdeutsch (Haut-allemand) — Sud
-    ├── Bavarois (Bairisch) — Bavière, Autriche
-    ├── Alémanique — Bade-Wurtemberg, Suisse, Alsace
-    │   └── Schwytzertütsch (suisse-allemand)
-    └── Franconien
+```mermaid
+mindmap
+  root["Allemand"]
+    A["Niederdeutsch (Bas-allemand) — Nord"]
+      A1["Plattdeutsch — proche du néerlandais"]
+    B["Mitteldeutsch (Allemand central)"]
+      B1["Berlinois (Berlinerisch)"]
+      B2["Saxon (Sächsisch)"]
+      B3["Hessois (Hessisch)"]
+      B4["Rhénan (Rheinisch)"]
+    C["Oberdeutsch (Haut-allemand) — Sud"]
+      C1["Bavarois (Bairisch) — Bavière, Autriche"]
+      C2["Alémanique — Bade-Wurtemberg, Suisse, Alsace"]
+        C2a["Schwytzertütsch (suisse-allemand)"]
+      C3["Franconien"]
 ```
 
 ### Bavarois (Bairisch)

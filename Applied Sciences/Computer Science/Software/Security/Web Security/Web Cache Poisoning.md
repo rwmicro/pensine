@@ -13,7 +13,7 @@ Deux techniques distinctes exploitant les systèmes de cache web (CDN, proxy, va
 ## Architecture du cache web
 
 ```mermaid
-graph LR
+flowchart LR
     user1[Utilisateur 1] -->|Requête 1| cache[Cache\nCDN / Varnish / Nginx]
     cache -->|MISS → transmet| origin[Serveur origin]
     origin -->|Réponse + headers| cache

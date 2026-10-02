@@ -13,7 +13,7 @@ date: "2026-03-20"
 Un **biome** est un grand ensemble d'écosystèmes défini par son climat et sa végétation dominante. Les biomes déterminent la distribution globale de la biodiversité.
 
 ```mermaid
-graph TD
+flowchart TD
     CLIMAT["Climat\n(T°, précipitations, saisonnalité)"]
     B1["Forêt Tropicale Humide\nAmazonie · Congo · Bornéo\nBiodiversité max · 50%+ espèces"]
     B2["Forêt Tempérée\nEurope · Est USA · Chine\nSaisons marquées"]

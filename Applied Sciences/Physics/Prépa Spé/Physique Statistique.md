@@ -22,9 +22,9 @@ La physique statistique fait le **pont entre le microscopique et le macroscopiqu
 
 ```mermaid
 flowchart LR
-    A["~10²³ particules<br/>(micro-états)"] -->|"moyenne statistique"| B["Grandeurs macroscopiques<br/>P, V, T, S"]
-    B --> C["Lois de la<br/>thermodynamique"]
-    A --> D["Ω micro-états<br/>par macro-état"]
+    A["~10²³ particules\n(micro-états)"] -->|"moyenne statistique"| B["Grandeurs macroscopiques\nP, V, T, S"]
+    B --> C["Lois de la\nthermodynamique"]
+    A --> D["Ω micro-états\npar macro-état"]
     D -->|"S = kB ln Ω"| E["Entropie"]
 ```
 

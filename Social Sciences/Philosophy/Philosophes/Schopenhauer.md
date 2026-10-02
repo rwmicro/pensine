@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, pessimisme, volonte, esthetique, philosophie-allemande]
 date: "2026-09-28"
+prerequis: ["[[Kant]]"]
 ---
 
 # Arthur Schopenhauer (1788-1860)
@@ -124,6 +125,26 @@ timeline
         1859 : Troisième édition du Monde
         1860 : Mort à Francfort
 ```
+
+## Questions de révision
+
+> [!quiz] Comment Schopenhauer prétend-il accéder à la chose en soi que Kant jugeait inconnaissable ?
+> Par notre propre corps : je ne le connais pas seulement de l'extérieur comme un objet, je l'éprouve de l'intérieur comme volonté. Par analogie, il étend cette découverte à toute la nature.
+
+> [!quiz] Quels sont les caractères de la Volonté chez Schopenhauer ?
+> Elle est aveugle, sans but ni raison, une et indivisible sous la multiplicité des phénomènes ; l'intellect n'est qu'un instrument à son service.
+
+> [!quiz] Pourquoi la vie oscille-t-elle, selon Schopenhauer, entre souffrance et ennui ?
+> Vouloir, c'est manquer, donc souffrir ; le désir satisfait ne procure qu'un soulagement bref, remplacé par un nouveau désir ou par l'ennui. Le bonheur n'est que négatif, la cessation d'une douleur.
+
+> [!quiz] Quelles sont les trois voies de délivrance de la Volonté ?
+> L'art (contemplation désintéressée, délivrance fugitive), la morale de la pitié (durable mais partielle) et l'ascèse, négation du vouloir-vivre (délivrance complète mais rare).
+
+> [!quiz] Pourquoi la musique occupe-t-elle une place à part parmi les arts ?
+> Les autres arts représentent les Idées ; la musique est une copie directe de la Volonté elle-même, ce qui explique qu'elle nous touche si profondément.
+
+> [!quiz] Sur quoi Schopenhauer fonde-t-il la morale, contrairement à Kant ?
+> Non sur la raison mais sur un sentiment, la compassion (*Mitleid*) : en souffrant de la souffrance d'autrui, je perce l'illusion de l'individuation qui me sépare de lui. Cette pitié s'étend aux animaux.
 
 ## Ressources
 

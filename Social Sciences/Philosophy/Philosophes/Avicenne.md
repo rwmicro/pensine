@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, avicenne, philosophie-arabe, médiévale, métaphysique]
 date: "2026-08-08"
+prerequis: ["[[Aristote]]"]
 ---
 
 # Avicenne — Ibn Sina (980-1037)
@@ -73,3 +74,23 @@ Cette expérience de pensée, souvent rapprochée du *cogito* cartésien six si�
 > "L'existence n'ajoute rien à l'essence, sinon qu'elle la fait sortir de la puissance à l'acte."
 
 > "Toi qui es suspendu dans le vide, dépourvu de toute sensation, sais-tu pourtant que tu existes ?" (paraphrase de l'argument de l'homme volant)
+
+## Questions de révision
+
+> [!quiz] Quelle différence Avicenne fait-il entre l'être nécessaire par soi et l'être possible par soi ?
+> L'être nécessaire existe par sa propre essence et ne peut pas ne pas être : c'est Dieu seul. L'être possible n'a pas dans son essence de quoi exister et a besoin d'une cause extérieure qui lui confère l'existence : c'est le cas de tout étant créé.
+
+> [!quiz] Que signifie la distinction entre essence et existence chez Avicenne ?
+> Chez tout étant sauf Dieu, ce qu'est une chose (son essence) est distinct du fait qu'elle soit réellement (son existence) ; seul en Dieu les deux coïncident. Cette distinction sera reprise par Thomas d'Aquin et deviendra un pilier de la scolastique.
+
+> [!quiz] Pourquoi l'argument d'Avicenne pour l'existence de Dieu se passe-t-il d'un premier moteur physique ?
+> Parce qu'il est purement conceptuel : penser l'essence d'une chose finie ne dit rien de son existence, donc il faut une cause qui la lui donne, et la régression ne s'arrête que sur un être dont l'essence implique l'existence. Il ne repose sur aucune observation du mouvement.
+
+> [!quiz] Que veut montrer l'expérience de pensée de l'homme volant ?
+> Un homme créé suspendu dans le vide, sans aucune sensation de son corps, aurait pourtant conscience d'exister. Avicenne en conclut que l'âme est distincte du corps et connaissable indépendamment de lui : elle est immatérielle.
+
+> [!quiz] En quoi l'homme volant diffère-t-il du cogito de Descartes ?
+> Descartes cherche une certitude épistémique inébranlable (que puis-je savoir avec certitude ?), alors qu'Avicenne cherche à établir un fait métaphysique sur la nature de l'âme, substance distincte du corps.
+
+> [!quiz] Quel fut le rôle du *Canon de la médecine* en Europe ?
+> Synthèse de Galien, d'Hippocrate et de la médecine gréco-arabe, il est resté un manuel de référence dans les universités européennes jusqu'au XVIIe siècle.

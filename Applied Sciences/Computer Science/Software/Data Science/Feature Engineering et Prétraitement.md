@@ -11,7 +11,7 @@ Le feature engineering est souvent plus déterminant que le choix de l'algorithm
 ## Pipeline de prétraitement
 
 ```mermaid
-graph LR
+flowchart LR
     raw[Données brutes] --> audit[Audit qualité]
     audit --> clean[Nettoyage]
     clean --> enc[Encodage]
@@ -148,7 +148,7 @@ Indispensable pour les algorithmes sensibles à l'échelle : régression, SVM, K
 Non nécessaire pour les arbres de décision et forêts aléatoires.
 
 ```mermaid
-graph TD
+flowchart TD
     dist{Distribution ?}
     dist -->|Gaussienne| std["Standardisation\nz = (x - μ) / σ"]
     dist -->|Non-gaussienne| minmax["Min-Max\nx' = (x - min)/(max - min)"]
@@ -279,7 +279,7 @@ selected = X.columns[lasso.coef_ != 0]
 Problème courant en détection de fraude, maladies rares, etc.
 
 ```mermaid
-graph TD
+flowchart TD
     imbclass{Déséquilibre ?}
     imbclass -->|Léger < 1:10| weights[Pondération\nclass_weight='balanced']
     imbclass -->|Modéré| smote[Oversampling\nSMOTE]

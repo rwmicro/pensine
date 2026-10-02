@@ -35,29 +35,29 @@ Mathematics/
 ```mermaid
 flowchart LR
     subgraph Seconde["Seconde"]
-        S1[Ensembles<br/>et Nombres]
-        S2[Calcul<br/>Algébrique]
+        S1[Ensembles\net Nombres]
+        S2[Calcul\nAlgébrique]
         S3[Fonctions]
-        S4[Géométrie<br/>Plane]
-        S5[Stats<br/>Descriptives]
-        S6[Probabilités<br/>bases]
+        S4[Géométrie\nPlane]
+        S5[Stats\nDescriptives]
+        S6[Probabilités\nbases]
     end
     subgraph Premiere["Première"]
         P1[Second Degré]
         P2[Dérivation]
         P3[Suites]
         P4[Trigonométrie]
-        P5[Probas<br/>conditionnelles]
-        P6[Produit<br/>scalaire]
+        P5[Probas\nconditionnelles]
+        P6[Produit\nscalaire]
     end
     subgraph Terminale["Terminale"]
-        T1[Limites<br/>Continuité]
+        T1[Limites\nContinuité]
         T2[Exp / Log]
-        T3[Primitives<br/>Intégrales]
-        T4[Géométrie<br/>dans l'Espace]
-        T5[Nombres<br/>Complexes]
-        T6[Loi binomiale<br/>normale]
-        T7[Algorithmique<br/>Python]
+        T3[Primitives\nIntégrales]
+        T4[Géométrie\ndans l'Espace]
+        T5[Nombres\nComplexes]
+        T6[Loi binomiale\nnormale]
+        T7[Algorithmique\nPython]
     end
     S2 --> P1
     S3 --> P2
@@ -72,24 +72,24 @@ flowchart LR
 ```mermaid
 flowchart TB
     subgraph Fondations["Fondations"]
-        LR[Logique et<br/>Raisonnement]
-        EA[Ensembles et<br/>Applications]
+        LR[Logique et\nRaisonnement]
+        EA[Ensembles et\nApplications]
         ARI[Arithmétique]
-        SA[Structures<br/>Algébriques]
+        SA[Structures\nAlgébriques]
     end
     subgraph Analyse["Analyse"]
-        SS[Suites et Séries<br/>Numériques]
-        FCT[Fonctions d'une<br/>Variable Réelle]
-        DL[Développements<br/>Limités]
+        SS[Suites et Séries\nNumériques]
+        FCT[Fonctions d'une\nVariable Réelle]
+        DL[Développements\nLimités]
         INT[Intégration]
-        ED[Équations<br/>Différentielles]
+        ED[Équations\nDifférentielles]
     end
     subgraph Algebre["Algèbre"]
         POL[Polynômes]
-        AL[Algèbre<br/>Linéaire]
-        MAT[Matrices et<br/>Déterminants]
-        EE[Espaces<br/>Euclidiens]
-        EVN[Espaces Vectoriels<br/>Normés]
+        AL[Algèbre\nLinéaire]
+        MAT[Matrices et\nDéterminants]
+        EE[Espaces\nEuclidiens]
+        EVN[Espaces Vectoriels\nNormés]
     end
     LR --> EA --> ARI
     EA --> SA --> POL
@@ -103,20 +103,20 @@ flowchart TB
 ```mermaid
 flowchart TB
     subgraph Topo["Topologie & Analyse"]
-        TP[Topologie<br/>Prépa]
-        IG[Intégrales<br/>Généralisées]
-        SF[Séries de<br/>Fonctions]
+        TP[Topologie\nPrépa]
+        IG[Intégrales\nGénéralisées]
+        SF[Séries de\nFonctions]
         SE[Séries Entières]
-        SFO[Séries de<br/>Fourier]
-        FPV[Fonctions<br/>Plusieurs Vars]
+        SFO[Séries de\nFourier]
+        FPV[Fonctions\nPlusieurs Vars]
     end
     subgraph AlgSpe["Algèbre"]
-        RE[Réduction des<br/>Endomorphismes]
-        FBQ[Formes Bilinéaires<br/>et Quadratiques]
-        EP[Espaces<br/>Préhilbertiens]
+        RE[Réduction des\nEndomorphismes]
+        FBQ[Formes Bilinéaires\net Quadratiques]
+        EP[Espaces\nPréhilbertiens]
     end
     subgraph Probas["Probabilités"]
-        PP[Probabilités Prépa<br/>variables discrètes]
+        PP[Probabilités Prépa\nvariables discrètes]
     end
     TP --> SF
     SF --> SE

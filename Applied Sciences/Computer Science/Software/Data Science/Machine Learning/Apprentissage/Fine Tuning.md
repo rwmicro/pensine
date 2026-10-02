@@ -23,13 +23,13 @@ Le fine-tuning permet de **réutiliser les connaissances** déjà acquises par u
 > Transfer learning est le principe général (réutiliser un modèle pré-entraîné) ; fine-tuning en est une forme spécifique où l'on continue réellement l'entraînement (au moins partiellement) plutôt que de figer tout le backbone.
 
 ```mermaid
-graph LR
+flowchart LR
     subgraph "Entraînement classique"
-        A1["Données massives<br/>(millions)"] --> B1["Modèle aléatoire"] --> C1["Entraînement long<br/>(jours/semaines)"] --> D1["Modèle final"]
+        A1["Données massives\n(millions)"] --> B1["Modèle aléatoire"] --> C1["Entraînement long\n(jours/semaines)"] --> D1["Modèle final"]
     end
 
     subgraph "Fine-tuning"
-        A2["Vos données<br/>(centaines/milliers)"] --> B2["Modèle pré-entraîné<br/>(déjà intelligent)"] --> C2["Entraînement court<br/>(heures)"] --> D2["Modèle adapté"]
+        A2["Vos données\n(centaines/milliers)"] --> B2["Modèle pré-entraîné\n(déjà intelligent)"] --> C2["Entraînement court\n(heures)"] --> D2["Modèle adapté"]
     end
 
     style D1 fill:#4CAF50,color:#fff
@@ -50,15 +50,15 @@ Ces deux termes sont liés mais distincts :
 | **Quand l'utiliser** | Tâche très similaire à celle du pré-entraînement | Tâche différente ou données spécifiques |
 
 ```mermaid
-graph TB
+flowchart TB
     subgraph "Feature Extraction (Transfer Learning)"
         direction LR
-        FE1["Couches convolutives<br/>🔒 GELÉES"] --> FE2["Nouvelles couches<br/>🔓 ENTRAÎNÉES"]
+        FE1["Couches convolutives\n🔒 GELÉES"] --> FE2["Nouvelles couches\n🔓 ENTRAÎNÉES"]
     end
 
     subgraph "Fine-Tuning"
         direction LR
-        FT1["Premières couches<br/>🔒 GELÉES"] --> FT2["Dernières couches<br/>🔓 DÉGELÉES"] --> FT3["Nouvelles couches<br/>🔓 ENTRAÎNÉES"]
+        FT1["Premières couches\n🔒 GELÉES"] --> FT2["Dernières couches\n🔓 DÉGELÉES"] --> FT3["Nouvelles couches\n🔓 ENTRAÎNÉES"]
     end
 
     style FE1 fill:#9E9E9E,color:#fff
@@ -107,8 +107,8 @@ Un fine-tuning complet de ces modèles est **hors de portée** pour la plupart d
 Les méthodes PEFT ne modifient qu'une **petite fraction** des paramètres, réduisant drastiquement les besoins en mémoire et en calcul.
 
 ```mermaid
-graph TB
-    PEFT["PEFT<br/>Parameter-Efficient Fine-Tuning"]
+flowchart TB
+    PEFT["PEFT\nParameter-Efficient Fine-Tuning"]
     PEFT --> LORA["LoRA"]
     PEFT --> QLORA["QLoRA"]
     PEFT --> PREFIX["Prefix Tuning"]
@@ -183,14 +183,14 @@ Combine la **quantification** du modèle de base avec LoRA :
 ## Quand choisir quelle méthode ?
 
 ```mermaid
-graph TD
+flowchart TD
     START["Quel type de fine-tuning ?"] --> Q1{"Taille du modèle ?"}
     Q1 --> |"< 1B params"| FULL["Fine-tuning complet"]
     Q1 --> |"> 1B params"| Q2{"Budget GPU ?"}
     Q2 --> |"Multi-GPU / Cloud"| LORA2["LoRA"]
     Q2 --> |"GPU unique"| QLORA2["QLoRA"]
 
-    Q1 --> |"Très similaire à<br/>la tâche originale"| FEAT["Feature Extraction<br/>(geler tout)"]
+    Q1 --> |"Très similaire à\nla tâche originale"| FEAT["Feature Extraction\n(geler tout)"]
 
     style START fill:#673AB7,color:#fff
     style FULL fill:#4CAF50,color:#fff

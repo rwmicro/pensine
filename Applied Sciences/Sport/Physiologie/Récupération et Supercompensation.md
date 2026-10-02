@@ -13,7 +13,7 @@ La progression sportive ne vient pas de l'entraînement lui-même, mais de la r�
 ### Le Cycle Stress-Récupération-Adaptation
 
 ```mermaid
-graph LR
+flowchart LR
     S["Stimulus\nd'entraînement"]
     F["Fatigue\nPerformance ↓"]
     R["Récupération\nRetour baseline"]

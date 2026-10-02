@@ -105,7 +105,7 @@ date: "2026-02-22"
 **Statut UICN (Union Internationale Conservation Nature)**
 
 ```mermaid
-graph TD
+flowchart TD
     EX["EX — Éteint\nDodo · Tigre de Tasmanie"]
     EW["EW — Éteint à l'état sauvage\nSurvie en captivité uniquement"]
     CR["CR — En danger critique\nGorille de montagne · Vaquita"]

@@ -220,19 +220,21 @@ public class Commande {
 
 Représente les interactions entre objets dans le temps. Les participants sont des colonnes, le temps s'écoule vers le bas.
 
-```
-Client      :Contrôleur    :Service      :Dépôt
-  │               │              │           │
-  │─passer()─────►│              │           │
-  │               │─valider()───►│           │
-  │               │              │─trouver()►│
-  │               │              │◄──client──│
-  │               │◄─client──────│           │
-  │               │─sauvegarder()►           │
-  │               │              │─save()───►│
-  │               │              │◄──ok──────│
-  │◄──commande────│              │           │
-  │               │              │           │
+```mermaid
+sequenceDiagram
+    participant Client
+    participant C as :Contrôleur
+    participant S as :Service
+    participant D as :Dépôt
+    Client->>C: passer()
+    C->>S: valider()
+    S->>D: trouver()
+    D-->>S: client
+    S-->>C: client
+    C->>S: sauvegarder()
+    S->>D: save()
+    D-->>S: ok
+    C-->>Client: commande
 ```
 
 **Éléments** :
@@ -264,32 +266,25 @@ Client ──────►│  (Parcourir catalogue)      │
 - `<<include>>` : cas d'utilisation toujours inclus (comme un appel de fonction)
 - `<<extend>>` : cas d'utilisation conditionnel, extension optionnelle
 
-```
-(Passer commande) ─ <<include>> ─► (S'authentifier)
-(Passer commande) ◄ <<extend>> ── (Utiliser bon de réduction)
+```mermaid
+flowchart LR
+    A["(Passer commande)"] -->|"<<include>>"| B["(S'authentifier)"]
+    C["(Utiliser bon de réduction)"] -->|"<<extend>>"| A
 ```
 
 ## Diagramme d'activité
 
 Représente un flux de travail ou un algorithme. Similaire à un organigramme.
 
-```
-    ●  (Début)
-    │
-    ▼
- [Saisir données]
-    │
-    ▼
-  ◇ Données valides ?
-  │ Oui               │ Non
-  ▼                   ▼
- [Traiter]         [Afficher erreur]
-  │                   │
-  └─────────┬─────────┘
-            ▼
-         [Fin]
-            │
-           ◉  (Fin)
+```mermaid
+flowchart TD
+    Debut(("Début")) --> A["Saisir données"]
+    A --> D{"Données valides ?"}
+    D -->|Oui| T["Traiter"]
+    D -->|Non| E["Afficher erreur"]
+    T --> F["Fin"]
+    E --> F
+    F --> Final(("Fin"))
 ```
 
 **Éléments** :

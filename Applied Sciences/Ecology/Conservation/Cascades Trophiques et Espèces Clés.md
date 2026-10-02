@@ -15,7 +15,7 @@ Une **espèce clé de voûte** (keystone species) est une espèce dont l'impact 
 Le cas le plus étudié de cascade trophique : la réintroduction de 31 loups à Yellowstone en 1995.
 
 ```mermaid
-graph TD
+flowchart TD
     LOUP["Loups réintroduits\n(1995 — 31 individus)"]
     CERF["Cerfs wapitis\nPopulation ↓\nComportement modifié\n(évitent les vallées)"]
     VEG["Végétation riveraine\nSaules, peupliers, trembles\nRepoussent dans les vallées"]

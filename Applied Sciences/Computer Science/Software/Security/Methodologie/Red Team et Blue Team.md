@@ -28,7 +28,7 @@ Le Red Team simule des attaquants réels pour tester les défenses d'une organis
 ## Méthodologie Red Team
 
 ```mermaid
-graph LR
+flowchart LR
     plan[Planification\nObjectifs, règles\nd'engagement, périmètre]
     recon[Reconnaissance\nOSINT, infrastructure\nexternes]
     init[Compromission initiale\nPhishing, exploit\napp exposée]
@@ -228,7 +228,7 @@ Règle : "Si une machine non-administrateur fait du SMB vers 5+ machines en 1 he
 Le Purple Team fait travailler Red et Blue ensemble pour améliorer les capacités de détection.
 
 ```mermaid
-graph LR
+flowchart LR
     rt[Red Team\nexécute une technique]
     bt[Blue Team\nessaie de détecter]
     debrief[Débrief commun\nDétecté ? Comment ?\nComment améliorer ?]

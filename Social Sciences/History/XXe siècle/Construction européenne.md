@@ -6,6 +6,7 @@ tags: [sciences-sociales, histoire, xxe-siècle, europe, union-européenne, inst
 date: "2026-09-28"
 year: 1950
 period: "Depuis 1950"
+prerequis: ["[[Guerre froide]]"]
 ---
 
 # La construction européenne
@@ -87,6 +88,26 @@ La crise financière de 2008 devient en 2010 une crise des dettes souveraines da
 Trois visions traversent toute l'histoire de la construction européenne. Les **fédéralistes**, de Spinelli aux défenseurs d'un parlement européen fort, veulent des États-Unis d'Europe. Les **fonctionnalistes**, héritiers de Monnet, avancent par intégration sectorielle et laissent la question politique en suspens. Les **souverainistes** ou partisans d'une Europe des nations, de De Gaulle à une partie des gouvernements actuels, n'acceptent la coopération qu'à condition qu'elle reste contrôlée par les États. Le philosophe [[Habermas]] a plaidé pour un « patriotisme constitutionnel » européen fondé sur des principes démocratiques communs plutôt que sur une identité ethnique ou culturelle.
 
 La construction européenne a obtenu ce qui était son but premier : la guerre entre ses membres est devenue impensable, ce que le prix Nobel de la paix décerné à l'Union en 2012 est venu consacrer. Elle reste en revanche à la recherche d'une légitimité démocratique pleinement reconnue et d'un rôle de puissance dans un monde où elle ne dispose ni d'une armée ni d'une politique étrangère réellement communes.
+
+## Questions de révision
+
+> [!quiz] Quelle méthode la déclaration Schuman du 9 mai 1950 pose-t-elle pour construire l'Europe ?
+> Avancer par des réalisations concrètes qui créent d'abord une solidarité de fait, plutôt que par une construction d'ensemble : mettre en commun le charbon et l'acier franco-allemands sous une Haute Autorité rend la guerre entre la France et l'Allemagne matériellement impossible.
+
+> [!quiz] Pourquoi la Communauté européenne de défense échoue-t-elle en 1954, et quelle leçon en est tirée ?
+> L'Assemblée nationale française la rejette le 30 août 1954 sous l'effet de l'opposition conjointe des gaullistes et des communistes. On revient alors à l'intégration par l'économie, avec les traités de Rome (1957).
+
+> [!quiz] Qu'est-ce que l'« engrenage » (*spillover*) théorisé par Ernst Haas ?
+> L'idée que l'intégration d'un secteur crée des pressions pour intégrer les secteurs voisins : un marché commun appelle des règles communes, une cour pour les faire respecter, puis une monnaie commune.
+
+> [!quiz] Qu'établissent les arrêts *Van Gend en Loos* (1963) et *Costa contre ENEL* (1964) ?
+> Le premier affirme l'effet direct du droit communautaire, le second sa primauté sur le droit national : la Cour de justice fait d'un traité international un ordre juridique propre.
+
+> [!quiz] Quelle thèse Alan Milward défend-il dans *The European Rescue of the Nation-State* (1992) ?
+> L'intégration européenne n'a pas affaibli les États mais les a « sauvés » : après 1945, ils l'ont utilisée pour se reconstruire, garantir prospérité et protection sociale et regagner une capacité d'action.
+
+> [!quiz] Quelles sont les trois grandes visions de la construction européenne ?
+> Les fédéralistes veulent des États-Unis d'Europe ; les fonctionnalistes, héritiers de Monnet, avancent par intégration sectorielle ; les souverainistes n'acceptent qu'une coopération contrôlée par les États (Europe des nations).
 
 ## Ressources
 

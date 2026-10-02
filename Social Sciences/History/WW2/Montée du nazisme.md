@@ -6,6 +6,7 @@ tags: [sciences-sociales, histoire, seconde-guerre-mondiale]
 date: "2025-12-31"
 year: 1918
 yearEnd: 1933
+prerequis: ["[[07 - Première Guerre mondiale (France)]]"]
 ---
 
 # La Montée du Nazisme (1918-1933)
@@ -401,6 +402,26 @@ timeline
 **3. Élites peuvent ouvrir porte au pire**
 **4. Propagande + bouc émissaire = combinaison explosive**
 **5. Légalité formelle peut masquer projet totalitaire**
+
+## Questions de révision
+
+> [!quiz] Qu'est-ce que le mythe du « coup de poignard dans le dos » (*Dolchstoßlegende*) ?
+> L'idée, propagée par des militaires comme Ludendorff et Hindenburg, que l'armée allemande n'avait pas été vaincue sur le terrain en 1918 mais trahie à l'arrière par les socialistes, les juifs et les « criminels de novembre ».
+
+> [!quiz] Quelles faiblesses structurelles fragilisent la République de Weimar ?
+> La proportionnelle intégrale, qui fragmente le Parlement, l'article 48, qui donne au président des pouvoirs d'urgence, et une faible légitimité populaire, la République étant associée à la défaite et à Versailles.
+
+> [!quiz] Quelle leçon Hitler tire-t-il de l'échec du putsch de la Brasserie (1923) ?
+> Qu'il faut prendre le pouvoir légalement, par les élections et la nomination constitutionnelle, plutôt que par un coup d'État : un État affaibli peut être conquis de l'intérieur par ses propres règles.
+
+> [!quiz] Pourquoi la crise de 1929 est-elle le tournant de l'ascension nazie ?
+> Le retrait des capitaux américains provoque faillites et chômage de masse, ce qui radicalise l'électorat : le NSDAP passe de 2,6 % des voix en 1928 à 18,3 % en 1930, puis 37,3 % en juillet 1932, devenant le premier parti.
+
+> [!quiz] Quel calcul les élites conservatrices font-elles en faisant nommer Hitler chancelier le 30 janvier 1933 ?
+> Elles croient pouvoir l'encadrer et l'instrumentaliser contre la gauche (« Nous l'avons embauché », selon von Papen), en sous-estimant qu'un mouvement de masse organisé n'a plus besoin de ses alliés une fois au pouvoir.
+
+> [!quiz] Pourquoi l'hyperinflation de 1923 a-t-elle affaibli la démocratie ?
+> Elle anéantit l'épargne et ruine la classe moyenne, ce qui entraîne une perte de confiance dans la démocratie et la recherche de boucs émissaires.
 
 ## Ressources
 

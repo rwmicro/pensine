@@ -133,20 +133,15 @@ aws ec2 create-route \
 
 ## Architecture 3 tiers typique
 
-```
-Internet
-    │
-    ▼
-[Internet Gateway]
-    │
-    ├── Subnet Public 1a (10.0.1.0/24)       ├── Subnet Public 1b (10.0.2.0/24)
-    │   [ALB]  [NAT GW]  [Bastion]            │   [ALB]  [NAT GW]
-    │
-    ├── Subnet Private 1a (10.0.10.0/24)      ├── Subnet Private 1b (10.0.11.0/24)
-    │   [EC2 App Servers]                      │   [EC2 App Servers]
-    │
-    └── Subnet Isolated 1a (10.0.20.0/24)     └── Subnet Isolated 1b (10.0.21.0/24)
-        [RDS Primary]                              [RDS Standby]
+```mermaid
+flowchart TD
+    Net["Internet"] --> IGW["Internet Gateway"]
+    IGW --> PubA["Subnet Public 1a (10.0.1.0/24)\nALB, NAT GW, Bastion"]
+    IGW --> PubB["Subnet Public 1b (10.0.2.0/24)\nALB, NAT GW"]
+    IGW --> PrivA["Subnet Private 1a (10.0.10.0/24)\nEC2 App Servers"]
+    IGW --> PrivB["Subnet Private 1b (10.0.11.0/24)\nEC2 App Servers"]
+    IGW --> IsoA["Subnet Isolated 1a (10.0.20.0/24)\nRDS Primary"]
+    IGW --> IsoB["Subnet Isolated 1b (10.0.21.0/24)\nRDS Standby"]
 ```
 
 ## NACL vs Security Groups
@@ -203,10 +198,12 @@ aws ec2 create-route \
 
 Solution au problème de transitivité. Un hub central connecte plusieurs VPCs, réseaux on-premise et VPNs.
 
-```
-VPC-A ──┐
-VPC-B ──┤── Transit Gateway ──── VPN Site-to-Site ──── Datacenter
-VPC-C ──┘
+```mermaid
+flowchart LR
+    A["VPC-A"] --> TGW["Transit Gateway"]
+    B["VPC-B"] --> TGW
+    C["VPC-C"] --> TGW
+    TGW --> VPN["VPN Site-to-Site"] --> DC["Datacenter"]
 ```
 
 ## VPN Site-to-Site

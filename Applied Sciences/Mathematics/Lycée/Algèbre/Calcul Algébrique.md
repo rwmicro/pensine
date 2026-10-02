@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Mathematics > Lycée > Algèbre"
 tags: [sciences-appliquées, mathématiques]
 date: "2026-02-19"
+prerequis: ["[[Ensembles et Nombres]]"]
 ---
 
 # Calcul Algébrique
@@ -364,6 +365,27 @@ c) $x^3 - x$
 > - Quand on multiplie/divise une inéquation par un **nombre négatif**, on **inverse** le sens.
 > - Pour les inéquations produit/quotient, on fait un **tableau de signes**.
 > - Les systèmes $2 \times 2$ se résolvent par **substitution** ou **combinaisons linéaires**.
+
+
+## Questions de révision
+
+> [!quiz] Quelle différence entre développer et factoriser ?
+> Développer, c'est transformer un produit en somme ; factoriser, c'est transformer une somme en produit (l'opération inverse).
+
+> [!quiz] Pourquoi $(a + b)^2 \neq a^2 + b^2$ ?
+> Parce qu'on oublie le double produit : $(a + b)^2 = a^2 + 2ab + b^2$.
+
+> [!quiz] Comment factoriser $16x^2 - 9$ ?
+> On reconnaît une différence de deux carrés $a^2 - b^2 = (a+b)(a-b)$ avec $a = 4x$ et $b = 3$ : $16x^2 - 9 = (4x + 3)(4x - 3)$.
+
+> [!quiz] Comment rationaliser un dénominateur de la forme $c + \sqrt{b}$ ?
+> On multiplie numérateur et dénominateur par la quantité conjuguée $c - \sqrt{b}$, ce qui donne au dénominateur $c^2 - b$, sans racine.
+
+> [!quiz] Que se passe-t-il quand on multiplie ou divise les deux membres d'une inéquation par un nombre négatif ?
+> Le sens de l'inégalité s'inverse : par exemple $a < b$ donne $-a > -b$.
+
+> [!quiz] Quelles sont les trois situations possibles pour un système linéaire de deux équations à deux inconnues, vu graphiquement ?
+> Droites sécantes : une unique solution ; droites parallèles distinctes : aucune solution ; droites confondues : une infinité de solutions.
 
 
 *Voir aussi* : [[Ensembles et Nombres]] | [[Fonctions]] | [[Second Degré]] | [[Dérivation]]

@@ -12,29 +12,16 @@ L'accès initial, c'est le moment-charnière d'un pentest externe : on passe de 
 
 ## Les cinq voies d'accès
 
-```
-                  Pentest externe
-                          │
-        ┌─────────────────┼─────────────────┐
-        │                 │                 │
-        ▼                 ▼                 ▼
-   Password         Credentials      Application web
-   spraying         de breach        vulnérable
-   (OWA, O365,      (DeHashed,       (CVE, SQLi,
-   VPN, RDP)        HIBP)             RCE, XXE...)
-        │                 │                 │
-        └─────────────────┼─────────────────┘
-                          │
-                          ▼
-                  Premier accès
-                          │
-        ┌─────────────────┼─────────────────┐
-        │                                   │
-        ▼                                   ▼
-   Phishing                          CVE pre-auth
-   (si dans le                       (Exchange, Citrix,
-   scope — souvent                   Fortinet, Log4j)
-   pas en PNPT)
+```mermaid
+flowchart TD
+    P["Pentest externe"] --> A["Password spraying\n(OWA, O365, VPN, RDP)"]
+    P --> B["Credentials de breach\n(DeHashed, HIBP)"]
+    P --> C["Application web vulnérable\n(CVE, SQLi, RCE, XXE...)"]
+    A --> PA["Premier accès"]
+    B --> PA
+    C --> PA
+    PA --> D["Phishing\n(si dans le scope — souvent pas en PNPT)"]
+    PA --> E["CVE pre-auth\n(Exchange, Citrix, Fortinet, Log4j)"]
 ```
 
 **À retenir** : sur un pentest externe d'entreprise typique, le password spraying et le breach reuse représentent **80% des accès initiaux réels**. Les CVE pre-auth glamour sont plus rares — la plupart des Exchange/Citrix exposés sont patchés.
@@ -230,34 +217,11 @@ Aussi à explorer :
 
 ## Méthodologie complète (PNPT externe)
 
-```
-   Jour 1 — OSINT
-     │
-     ├─ Identifier employés → wordlist users
-     ├─ Identifier services exposés (Shodan, Censys, scan léger)
-     └─ Chercher breaches (DeHashed, HIBP)
-                                │
-                                ▼
-   Jour 1-2 — Recon active légère
-     │
-     ├─ nmap -Pn -sS -p- sur les IPs in-scope
-     ├─ Détection tech sur les sites
-     └─ Énumération de users (kerbrute, o365spray --enum)
-                                │
-                                ▼
-   Jour 2 — Tentatives d'accès en parallèle
-     │
-     ├─ Password spray O365/OWA avec saison/année
-     ├─ Test des credentials de breach
-     ├─ Test des CVE sur services exposés
-     └─ Test des credentials par défaut sur dashboards exposés
-                                │
-                                ▼
-   Premier accès
-     │
-     ├─ VPN/RDP    → énumération interne classique
-     ├─ Webshell   → reverse shell + pivot
-     └─ Mail accès → recherche credentials, OneDrive, SharePoint
+```mermaid
+flowchart TD
+    J1["Jour 1 — OSINT\nIdentifier employés → wordlist users\nIdentifier services exposés (Shodan, Censys, scan léger)\nChercher breaches (DeHashed, HIBP)"] --> J12["Jour 1-2 — Recon active légère\nnmap -Pn -sS -p- sur les IPs in-scope\nDétection tech sur les sites\nÉnumération de users (kerbrute, o365spray --enum)"]
+    J12 --> J2["Jour 2 — Tentatives d'accès en parallèle\nPassword spray O365/OWA avec saison/année\nTest des credentials de breach\nTest des CVE sur services exposés\nTest des credentials par défaut sur dashboards exposés"]
+    J2 --> PA["Premier accès\nVPN/RDP → énumération interne classique\nWebshell → reverse shell + pivot\nMail accès → recherche credentials, OneDrive, SharePoint"]
 ```
 
 ## Pièges courants

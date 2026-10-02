@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, averroès, philosophie-arabe, médiévale, aristotélisme]
 date: "2026-08-08"
+prerequis: ["[[Avicenne]]"]
 ---
 
 # Averroès — Ibn Rushd (1126-1198)
@@ -87,3 +88,23 @@ Ironie de l'histoire intellectuelle : après Averroès, la falsafa décline en t
 > "La vérité ne peut contredire la vérité, elle s'accorde avec elle et témoigne en sa faveur."
 
 > "Celui à qui la démonstration a révélé la vérité d'une chose, s'il ne trouve pas cette chose exprimée dans les Écritures, ou trouve un sens apparent qui la contredit, doit chercher s'il n'y a pas d'interprétation allégorique possible."
+
+## Questions de révision
+
+> [!quiz] Pourquoi les scolastiques latins ont-ils surnommé Averroès le Commentateur ?
+> Pour l'ampleur et la précision de ses commentaires de la quasi-totalité du corpus d'Aristote (courts, moyens et grands), par lesquels il voulait restituer un Aristote purgé des éléments néoplatoniciens.
+
+> [!quiz] Quel ouvrage Averroès oppose-t-il à al-Ghazali, et que défend-il ?
+> *L'Incohérence de l'Incohérence* (*Tahafut al-Tahafut*), réponse point par point à *L'Incohérence des philosophes*. Il y défend la légitimité de la philosophie, et même son caractère d'obligation religieuse pour qui en a la capacité.
+
+> [!quiz] Quels sont les trois publics et les trois méthodes distingués par Averroès dans le *Traité décisif* ?
+> Les démonstratifs (philosophes, preuves rigoureuses), les dialecticiens (théologiens, arguments probables) et les rhétoriciens (la masse, qui accède à la vérité par des images et des récits).
+
+> [!quiz] Pourquoi l'étiquette de double vérité est-elle trompeuse appliquée à Averroès ?
+> Averroès défend l'unité de la vérité, atteinte par des voies de rigueur inégale : un texte révélé qui semble contredire une démonstration doit être interprété allégoriquement, non tenu pour vrai malgré la contradiction. L'étiquette vient de ses adversaires latins.
+
+> [!quiz] Qu'est-ce que le monopsychisme d'Averroès et quelle en est la conséquence ?
+> La thèse selon laquelle l'intellect matériel est unique et séparé, commun à toute l'humanité, au lieu d'être une faculté propre à chaque âme. Conséquence : pas d'immortalité personnelle de l'intellect individuel, ce qui la rend inacceptable pour le christianisme comme pour l'islam.
+
+> [!quiz] Comment Thomas d'Aquin se situe-t-il face à Averroès ?
+> Il l'utilise comme grille de lecture d'Aristote tout en réfutant le monopsychisme dans son traité *De l'unité de l'intellect contre les averroïstes*.

@@ -13,7 +13,7 @@ Une série temporelle est une séquence de valeurs indexées dans le temps. La p
 ## Composantes d'une série temporelle
 
 ```mermaid
-graph TD
+flowchart TD
     ts[Série temporelle Yₜ]
     ts --> trend[Tendance Tₜ\nDirection à long terme]
     ts --> seasonal[Saisonnalité Sₜ\nPatterns périodiques]
@@ -205,7 +205,7 @@ Dilatation : champ réceptif exponentiel avec peu de couches
 ### Split temporel
 
 ```mermaid
-graph LR
+flowchart LR
     data[Données 2020-2025]
     data --> train[Train\n2020-2023]
     data --> val[Validation\n2023-2024]

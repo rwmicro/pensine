@@ -220,15 +220,15 @@ Le quantificateur $\exists !$ désigne l'existence et l'unicité : "$\exists ! x
 ```mermaid
 flowchart TD
     A["Que veut-on montrer ?"] --> B{"Forme de l'énoncé ?"}
-    B -->|"P ⟹ Q"| C{"Peut-on enchaîner<br/>directement P → ... → Q ?"}
+    B -->|"P ⟹ Q"| C{"Peut-on enchaîner\ndirectement P → ... → Q ?"}
     C -->|"Oui"| D["Raisonnement direct"]
-    C -->|"Non"| E{"¬Q donne-t-il<br/>une bonne hypothèse ?"}
+    C -->|"Non"| E{"¬Q donne-t-il\nune bonne hypothèse ?"}
     E -->|"Oui"| F["Contraposée"]
     E -->|"Non"| G["Absurde"]
-    B -->|"∀n ≥ n₀, P(n)"| H{"P(n+1) dépend<br/>seulement de P(n) ?"}
+    B -->|"∀n ≥ n₀, P(n)"| H{"P(n+1) dépend\nseulement de P(n) ?"}
     H -->|"Oui"| I["Récurrence simple"]
     H -->|"Non, de P(k) pour k ≤ n"| J["Récurrence forte"]
-    B -->|"Existence et unicité /<br/>caractérisation"| K["Analyse-synthèse"]
+    B -->|"Existence et unicité /\ncaractérisation"| K["Analyse-synthèse"]
     B -->|"Plusieurs cas naturels"| L["Disjonction de cas"]
     B -->|"Réfuter ∀x, P(x)"| M["Contre-exemple"]
 ```

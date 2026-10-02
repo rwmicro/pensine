@@ -99,14 +99,14 @@ Sélection de ressources pour apprendre et pratiquer le Machine Learning.
 ## Roadmap suggérée
 
 ```mermaid
-graph TD
-    START["Bases Python<br/>+ Maths"] --> ML["Machine Learning<br/>classique (sklearn)"]
-    ML --> DL["Deep Learning<br/>(PyTorch/TF)"]
+flowchart TD
+    START["Bases Python\n+ Maths"] --> ML["Machine Learning\nclassique (sklearn)"]
+    ML --> DL["Deep Learning\n(PyTorch/TF)"]
     DL --> SPEC{"Spécialisation"}
-    SPEC --> NLP["NLP<br/>Transformers, LLM"]
-    SPEC --> CV["Computer Vision<br/>CNN, détection"]
-    SPEC --> RL2["Reinforcement<br/>Learning"]
-    SPEC --> TABULAR["Tabular Data<br/>XGBoost, feature eng."]
+    SPEC --> NLP["NLP\nTransformers, LLM"]
+    SPEC --> CV["Computer Vision\nCNN, détection"]
+    SPEC --> RL2["Reinforcement\nLearning"]
+    SPEC --> TABULAR["Tabular Data\nXGBoost, feature eng."]
 
     style START fill:#9E9E9E,color:#fff
     style ML fill:#2196F3,color:#fff

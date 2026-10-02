@@ -18,7 +18,7 @@ Un réseau de neurones classique (fully connected) ne peut pas traiter efficacem
 > Un même filtre (quelques dizaines de paramètres) glisse sur toute l'image au lieu d'avoir un poids différent par pixel — le partage de poids. Ça part du principe qu'un motif utile (un bord, une texture) est pertinent où qu'il apparaisse dans l'image, ce qui réduit drastiquement le nombre de paramètres par rapport à un réseau dense.
 
 ```mermaid
-graph LR
+flowchart LR
     A[Image d'entrée] --> B[Convolution + ReLU]
     B --> C[Pooling]
     C --> D[Convolution + ReLU]
@@ -66,7 +66,7 @@ $$O = \frac{W - K + 2P}{S} + 1$$
 > Cette formule ne donne un entier que si $(W - K + 2P)$ est divisible par $S$ — sinon la taille de sortie doit être arrondie (généralement vers le bas), ce qui peut désaligner les couches suivantes si elle n'est pas vérifiée à la conception du réseau. C'est une source classique d'erreurs de dimension lors de l'écriture manuelle d'une architecture CNN.
 
 ```mermaid
-graph TB
+flowchart TB
     subgraph "Couche de Convolution"
         direction TB
         I["Image 6x6"] --> |"Filtre 3x3, stride=1"| FM["Feature Map 4x4"]
@@ -74,9 +74,9 @@ graph TB
     end
 
     subgraph "Ce que détectent les filtres"
-        L1["Couches initiales<br/>Contours, bords"]
-        L2["Couches intermédiaires<br/>Textures, motifs"]
-        L3["Couches profondes<br/>Objets, visages"]
+        L1["Couches initiales\nContours, bords"]
+        L2["Couches intermédiaires\nTextures, motifs"]
+        L3["Couches profondes\nObjets, visages"]
     end
 ```
 
@@ -118,12 +118,12 @@ Le pooling réduit la **dimensionnalité spatiale** des feature maps tout en con
 En fin de réseau, les feature maps sont **aplaties** (flatten) en un vecteur 1D, puis passées dans des couches denses classiques pour la **classification finale**.
 
 ```mermaid
-graph LR
+flowchart LR
     subgraph "Fin du CNN"
-        FM["Feature Maps<br/>7x7x512"] --> FL["Flatten<br/>25088"]
-        FL --> D1["Dense 4096<br/>+ ReLU + Dropout"]
-        D1 --> D2["Dense 1000<br/>+ Softmax"]
-        D2 --> OUT["Classe prédite<br/>(ex: chat, chien...)"]
+        FM["Feature Maps\n7x7x512"] --> FL["Flatten\n25088"]
+        FL --> D1["Dense 4096\n+ ReLU + Dropout"]
+        D1 --> D2["Dense 1000\n+ Softmax"]
+        D2 --> OUT["Classe prédite\n(ex: chat, chien...)"]
     end
 ```
 
@@ -211,7 +211,7 @@ Le réseau n'apprend que le **résidu** $F(x)$, ce qui est plus facile à optimi
 > Sans skip connection, un réseau très profond doit apprendre une fonction identité couche par couche si ajouter des couches ne doit pas nuire — ce qui est étonnamment difficile à optimiser. Avec `y = F(x) + x`, il suffit que le réseau apprenne `F(x) ≈ 0` pour repasser en identité : un point de départ beaucoup plus facile à atteindre par la descente de gradient.
 
 ```mermaid
-graph LR
+flowchart LR
     X["x (entrée)"] --> C1["Conv 3x3"]
     C1 --> BN1["BatchNorm + ReLU"]
     BN1 --> C2["Conv 3x3"]
@@ -267,18 +267,18 @@ Désactiver aléatoirement un pourcentage de neurones pendant l'entraînement po
 ## Résumé visuel
 
 ```mermaid
-graph TB
+flowchart TB
     subgraph "Architecture CNN typique"
         direction LR
-        IN["🖼️ Image<br/>224x224x3"] --> CONV1["Conv 3x3<br/>64 filtres"]
+        IN["🖼️ Image\n224x224x3"] --> CONV1["Conv 3x3\n64 filtres"]
         CONV1 --> BN1["BN + ReLU"]
-        BN1 --> POOL1["Max Pool 2x2<br/>112x112x64"]
-        POOL1 --> CONV2["Conv 3x3<br/>128 filtres"]
+        BN1 --> POOL1["Max Pool 2x2\n112x112x64"]
+        POOL1 --> CONV2["Conv 3x3\n128 filtres"]
         CONV2 --> BN2["BN + ReLU"]
-        BN2 --> POOL2["Max Pool 2x2<br/>56x56x128"]
-        POOL2 --> CONV3["Conv 3x3<br/>256 filtres"]
+        BN2 --> POOL2["Max Pool 2x2\n56x56x128"]
+        POOL2 --> CONV3["Conv 3x3\n256 filtres"]
         CONV3 --> BN3["BN + ReLU"]
-        BN3 --> POOL3["Max Pool 2x2<br/>28x28x256"]
+        BN3 --> POOL3["Max Pool 2x2\n28x28x256"]
         POOL3 --> FLAT["Flatten"]
         FLAT --> FC1["Dense 512 + ReLU"]
         FC1 --> DROP["Dropout 0.5"]

@@ -101,7 +101,7 @@ Le dernier nœud pointe vers le premier. Utile pour les buffers circulaires.
 Structure LIFO (Last In, First Out). Seule l'extrémité supérieure est accessible.
 
 ```mermaid
-graph TD
+flowchart TD
     TOP["Sommet (top)\n← push / pop ici"]
     E3["Élément 3"]
     E2["Élément 2"]
@@ -165,7 +165,7 @@ print(heapq.heappop(tas))  # (1, "urgent")
 Chaque nœud a au plus deux enfants (gauche et droite).
 
 ```mermaid
-graph TD
+flowchart TD
     R["Racine : 8"]
     L["4"]
     Ri["12"]

@@ -38,26 +38,13 @@ Les émotions ont évolué parce qu'elles ont de la valeur adaptative. Elles ne 
 
 ## Composantes d'une émotion
 
-```
-  Stimulus (événement externe ou interne)
-       │
-       ▼
-  Évaluation cognitive (Appraisal)
-  "Est-ce pertinent pour moi ? Positif ou négatif ?"
-       │
-       ├──────────────────────────┐
-       ▼                          ▼
-  Réponse physiologique      Expérience subjective
-  • Rythme cardiaque         • Le "ressenti" conscient
-  • Sudation                 • Ce qu'on appelle "l'émotion"
-  • Tension musculaire       • Varie selon la culture et l'individu
-  • Hormones (adrénaline)
-       │
-       ▼
-  Expression comportementale
-  • Expressions faciales
-  • Posture, ton de voix
-  • Actions (fuite, approche, gel)
+```mermaid
+flowchart TD
+  St["Stimulus (événement externe ou interne)"]
+  St --> Ev["Évaluation cognitive (Appraisal)\n#quot;Est-ce pertinent pour moi ? Positif ou négatif ?#quot;"]
+  Ev --> Phys["Réponse physiologique\n• Rythme cardiaque\n• Sudation\n• Tension musculaire\n• Hormones (adrénaline)"]
+  Ev --> Subj["Expérience subjective\n• Le #quot;ressenti#quot; conscient\n• Ce qu'on appelle #quot;l'émotion#quot;\n• Varie selon la culture et l'individu"]
+  Phys --> Comp["Expression comportementale\n• Expressions faciales\n• Posture, ton de voix\n• Actions (fuite, approche, gel)"]
 ```
 
 ## Les émotions de base (Ekman)
@@ -79,33 +66,14 @@ Ekman a lui-même ajouté le **mépris** à la liste. Des chercheurs contemporai
 
 Cinq théories majeures s'affrontent sur la question : qu'est-ce qui cause l'émotion ?
 
-```
-  STIMULUS
-     │
-     │─────────────────────────────────────────────────────────────────┐
-     │                                                                 │
-     ▼                                                                 │
-  [James-Lange]     Réaction physiologique → perception → ÉMOTION     │
-                    "Je tremble, donc j'ai peur"                       │
-     │                                                                 │
-     ▼                                                                 │
-  [Cannon-Bard]     Thalamus active simultanément :                    │
-                    Cortex → ÉMOTION consciente                        │
-                    + Système nerveux autonome → réaction physio       │
-     │                                                                 │
-     ▼                                                                 │
-  [Schachter-       Activation physio (arousal)                        │
-   Singer]          + Étiquetage cognitif du contexte = ÉMOTION        │
-                    Même arousal → émotions différentes selon contexte  │
-     │                                                                 │
-     ▼                                                                 │
-  [Lazarus]         Évaluation cognitive (appraisal) primaire/         │
-                    secondaire → ÉMOTION selon l'interprétation        │
-     │                                                                 │
-     ▼                                                                 │
-  [Barrett]         Le cerveau CONSTRUIT l'émotion à partir de :       │
-                    sensations corporelles + contexte + culture         │
-                    → Les émotions ne sont pas universelles            │
+```mermaid
+flowchart TD
+  St["STIMULUS"]
+  St --> JL["James-Lange\nRéaction physiologique → perception → ÉMOTION\n#quot;Je tremble, donc j'ai peur#quot;"]
+  St --> CB["Cannon-Bard\nThalamus active simultanément : Cortex → ÉMOTION consciente + Système nerveux autonome → réaction physio"]
+  St --> SS["Schachter-Singer\nActivation physio (arousal) + Étiquetage cognitif du contexte = ÉMOTION\nMême arousal → émotions différentes selon contexte"]
+  St --> La["Lazarus\nÉvaluation cognitive (appraisal) primaire/secondaire → ÉMOTION selon l'interprétation"]
+  St --> Ba["Barrett\nLe cerveau CONSTRUIT l'émotion à partir de : sensations corporelles + contexte + culture\n→ Les émotions ne sont pas universelles"]
 ```
 
 **Détail de la théorie de Schachter-Singer (1962) — expérience du pont**
@@ -200,28 +168,16 @@ Les émotions complexes requièrent conscience de soi, normes sociales et cognit
 
 ## Intelligence émotionnelle (Goleman)
 
-```
-  Intelligence émotionnelle = capacité à identifier, comprendre
-                               et gérer ses émotions et celles d'autrui
+Intelligence émotionnelle = capacité à identifier, comprendre et gérer ses émotions et celles d'autrui.
 
-  ┌─────────────────────────────────────────────────────────┐
-  │  5 composantes (Goleman, 1995)                          │
-  │                                                         │
-  │  1. Conscience de soi      Reconnaître ses émotions     │
-  │     (self-awareness)        en temps réel               │
-  │                                                         │
-  │  2. Régulation             Gérer ses émotions,          │
-  │     émotionnelle           ne pas les subir             │
-  │                                                         │
-  │  3. Motivation             Utiliser les émotions        │
-  │                            pour atteindre ses buts      │
-  │                                                         │
-  │  4. Empathie               Comprendre et ressentir      │
-  │                            les émotions d'autrui        │
-  │                                                         │
-  │  5. Compétences sociales   Gérer les relations,         │
-  │                            influencer, collaborer       │
-  └─────────────────────────────────────────────────────────┘
+```mermaid
+mindmap
+  root["5 composantes (Goleman, 1995)"]
+    C1["1. Conscience de soi (self-awareness) — Reconnaître ses émotions en temps réel"]
+    C2["2. Régulation émotionnelle — Gérer ses émotions, ne pas les subir"]
+    C3["3. Motivation — Utiliser les émotions pour atteindre ses buts"]
+    C4["4. Empathie — Comprendre et ressentir les émotions d'autrui"]
+    C5["5. Compétences sociales — Gérer les relations, influencer, collaborer"]
 ```
 
 L'IE est un prédicteur de réussite professionnelle et relationnelle — parfois plus que le QI dans les contextes qui requièrent coopération et leadership.

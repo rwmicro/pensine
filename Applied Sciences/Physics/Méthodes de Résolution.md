@@ -28,7 +28,7 @@ flowchart TD
     C --> D["Bilan : forces / énergie / courants"]
     D --> E["Lois physiques adaptées"]
     E --> F["Projection + résolution mathématique"]
-    F --> G{"Vérifications :<br/>homogène ? ordre de grandeur ?<br/>cas limites ? signe ?"}
+    F --> G{"Vérifications :\nhomogène ? ordre de grandeur ?\ncas limites ? signe ?"}
     G -->|Incohérent| C
     G -->|Cohérent| H["Résultat validé"]
 ```

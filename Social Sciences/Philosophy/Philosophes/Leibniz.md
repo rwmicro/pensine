@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, leibniz, rationalisme, métaphysique]
 date: "2026-08-08"
+prerequis: ["[[Descartes]]"]
 ---
 
 # Gottfried Wilhelm Leibniz (1646-1716)
@@ -86,3 +87,23 @@ Leibniz invente, indépendamment de Newton et selon une notation encore utilisé
 > "Les monades n'ont point de fenêtres, par lesquelles quelque chose y puisse entrer ou sortir."
 
 > "Nous sommes dans le meilleur des mondes possibles."
+
+## Questions de révision
+
+> [!quiz] Que signifie l'idée que les monades n'ont pas de fenêtres ?
+> Aucune monade n'agit causalement sur une autre ni ne reçoit d'influence extérieure : tout ce qui lui arrive se développe depuis son propre intérieur.
+
+> [!quiz] Comment l'harmonie préétablie explique-t-elle l'accord entre l'âme et le corps ?
+> Comme deux horloges réglées à l'avance qui sonnent ensemble sans communiquer, Dieu a réglé dès la création le développement de chaque monade pour qu'il coïncide avec celui de toutes les autres. L'interaction apparente n'est pas une action réelle.
+
+> [!quiz] Pourquoi, selon Leibniz, notre monde est-il le meilleur des mondes possibles malgré le mal ?
+> Dieu, par sa bonté et sa sagesse, choisit parmi une infinité de mondes possibles celui qui contient le plus grand équilibre de perfection et de variété ; un mal local peut être la condition d'un bien plus grand dans l'ensemble, comme une dissonance dans une composition.
+
+> [!quiz] Qu'énonce le principe de raison suffisante ?
+> Rien n'arrive sans qu'il y ait une raison suffisante pour que cela soit ainsi plutôt qu'autrement, y compris l'existence du monde lui-même, d'où la question : pourquoi y a-t-il quelque chose plutôt que rien ?
+
+> [!quiz] Quelle différence entre vérités de raison et vérités de fait ?
+> Les vérités de raison sont nécessaires : leur négation est contradictoire et leur analyse finie (2 + 2 = 4). Les vérités de fait sont contingentes : leur négation est possible et leur analyse infinie, achevée seulement dans l'entendement divin.
+
+> [!quiz] Qu'affirme le principe de l'identité des indiscernables ?
+> Deux substances qui partageraient exactement toutes leurs propriétés seraient une seule et même substance : il ne peut exister deux feuilles rigoureusement identiques, car Dieu n'aurait aucune raison suffisante de les distinguer.

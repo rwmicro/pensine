@@ -66,7 +66,7 @@ roi - homme + femme ≈ reine
 Les RNN traitent les séquences en maintenant un état caché qui propage l'information dans le temps.
 
 ```mermaid
-graph LR
+flowchart LR
     x1[x₁] --> h1[h₁]
     x2[x₂] --> h2[h₂]
     x3[x₃] --> h3[h₃]
@@ -92,7 +92,7 @@ hₜ = tanh(Wₕ · hₜ₋₁ + Wₓ · xₜ + b)
 Le LSTM résout le problème du gradient disparu avec un mécanisme de portes (gates) et une cellule mémoire séparée.
 
 ```mermaid
-graph TD
+flowchart TD
     subgraph LSTM Cell
         ft["Porte d'oubli (fₜ)\nσ(Wf·[hₜ₋₁, xₜ] + bf)"]
         it["Porte d'entrée (iₜ)\nσ(Wi·[hₜ₋₁, xₜ] + bi)"]
@@ -140,7 +140,7 @@ hₜ = (1 - zₜ) ⊙ hₜ₋₁ + zₜ ⊙ h̃ₜ  # État final
 Pour les tâches où l'entrée et la sortie sont toutes deux des séquences de longueurs différentes (traduction, résumé, dialogue).
 
 ```mermaid
-graph LR
+flowchart LR
     subgraph Encoder
         e1[LSTM] --> e2[LSTM] --> e3[LSTM]
         w1[je] --> e1
@@ -177,7 +177,7 @@ Attention(Q, K, V) = softmax(QKᵀ / √dₖ) · V
 - **Score** : similarité Q·K → poids softmax → moyenne pondérée des V
 
 ```mermaid
-graph LR
+flowchart LR
     enc["États encodeur\nh₁ h₂ h₃ h₄"]
     q["Query (décodeur)\nhₜ"]
     scores["Scores\ne₁ e₂ e₃ e₄"]

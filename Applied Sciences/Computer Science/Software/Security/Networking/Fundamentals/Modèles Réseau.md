@@ -16,7 +16,7 @@ Les modèles de référence permettent de comprendre et de décomposer la commun
 ## Modèle OSI (7 couches)
 
 ```mermaid
-graph LR
+flowchart LR
     subgraph "Émetteur"
         a7[7. Application\nDonnées] --> a6[6. Présentation\nDonnées chiffrées/compressées]
         a6 --> a5[5. Session\nDonnées + session]
@@ -215,7 +215,7 @@ Préambule (7) | SFD (1) | MAC dst (6) | MAC src (6) | Ethertype (2) | Payload |
 Modèle pratique sur lequel Internet est réellement construit.
 
 ```mermaid
-graph LR
+flowchart LR
     subgraph "TCP/IP"
         app_tcp[Application\nHTTP, DNS, SMTP, SSH...]
         transport_tcp[Transport\nTCP, UDP]
@@ -256,7 +256,7 @@ Physique     : Bits sur le câble
 ## Où s'applique la sécurité ?
 
 ```mermaid
-graph TD
+flowchart TD
     app_sec[Couche Application\nWAF, DLP, chiffrement applicatif\nAnti-spam, proxy web]
     transport_sec[Couche Transport\nTLS/SSL, pare-feu stateful\nInspection des ports]
     network_sec[Couche Réseau\nIPSec, routage sécurisé\nFiltrage IP / ACL]

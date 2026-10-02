@@ -46,18 +46,16 @@ Structure d'un certificat X.509 v3 :
 
 ### Hiérarchie de confiance
 
+```mermaid
+flowchart TD
+    R["Root CA (auto-signé)"] -->|signe| I["Intermediate CA (CA intermédiaire)"]
+    I -->|signe| E["End-entity certificate (certificat feuille — serveur, client, code signing)"]
 ```
-Root CA (auto-signé)
-  ↓ signe
-Intermediate CA (CA intermédiaire)
-  ↓ signe
-End-entity certificate (certificat feuille — serveur, client, code signing)
 
 Avantages de la chaîne :
 - La Root CA peut rester hors ligne (air-gapped) pour la sécuriser
 - En cas de compromission d'une Intermediate CA → seule elle est révoquée
 - Flexibilité : plusieurs Intermediate CA pour des usages différents
-```
 
 > [!important] Idée clé
 > La chaîne existe pour limiter le rayon d'explosion d'une compromission : la Root CA, gardée hors ligne, ne signe presque jamais rien directement — seulement quelques Intermediate CA. Si une Intermediate est compromise, révoquer *cette seule* CA suffit ; la Root reste intacte et n'a jamais eu besoin d'être exposée en ligne.

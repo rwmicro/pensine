@@ -95,9 +95,9 @@ print(n)  # Affiche 10
 
 ```mermaid
 flowchart TD
-    A["Quelle boucle utiliser ?"] --> B{"Nombre d'itérations<br/>connu à l'avance ?"}
-    B -->|Oui| C["Boucle for<br/>for i in range(n):"]
-    B -->|Non| D["Boucle while<br/>while condition:"]
+    A["Quelle boucle utiliser ?"] --> B{"Nombre d'itérations\nconnu à l'avance ?"}
+    B -->|Oui| C["Boucle for\nfor i in range(n):"]
+    B -->|Non| D["Boucle while\nwhile condition:"]
 
     style C fill:#C8E6C9
     style D fill:#BBDEFB
@@ -188,8 +188,8 @@ flowchart TD
     B --> C{"f(m) = 0 ?"}
     C -->|Oui| D["Trouvé !"]
     C -->|Non| E{"f(a)·f(m) < 0 ?"}
-    E -->|Oui| F["La racine est dans [a, m]<br/>b ← m"]
-    E -->|Non| G["La racine est dans [m, b]<br/>a ← m"]
+    E -->|Oui| F["La racine est dans [a, m]\nb ← m"]
+    E -->|Non| G["La racine est dans [m, b]\na ← m"]
     F --> H{"b - a < ε ?"}
     G --> H
     H -->|Non| B

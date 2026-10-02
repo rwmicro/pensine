@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Indonésien > 02-Communication"
 tags: [sciences-sociales, langues, indonésien, survie, communication]
 date: "2026-03-27"
+prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/02-Communication/Salutations]]"]
 ---
 # Phrases Essentielles — Indonésien
 
@@ -119,3 +120,23 @@ date: "2026-03-27"
 | Déjà | ![Sudah](audio/id_male_5d4070db2a5a.mp3) | C |
 | Attends | ![Tunggu sebentar](audio/id_male_47bb2b310989.mp3) | C |
 | Dépêche-toi | ![Cepat!](audio/id_male_ac34aa1677fc.mp3) | C |
+
+## Questions de révision
+
+> [!quiz] Quelle salutation utiliser selon le moment de la journée ?
+> *Selamat pagi* le matin (avant 11 h), *selamat siang* de 11 h à 15 h, *selamat sore* de 15 h à 18 h, *selamat malam* après 18 h.
+
+> [!quiz] Quelle différence entre *permisi* et *maaf* ?
+> *Permisi* (« excusez-moi ») sert à passer ou à interrompre ; *maaf* veut dire « pardon ».
+
+> [!quiz] Comment répond-on à *terima kasih* ?
+> *Sama-sama* (« de rien », littéralement « de même »).
+
+> [!quiz] Que signifie littéralement *Apa kabar?* ?
+> « Quelles nouvelles ? » : c'est la formule pour « Comment allez-vous ? ».
+
+> [!quiz] Comment demander « On peut négocier ? » au marché ?
+> *Bisa tawar?*
+
+> [!quiz] Quelle question sert couramment de salutation en plus des formules habituelles ?
+> *Sudah makan?* (« T'as mangé ? »).

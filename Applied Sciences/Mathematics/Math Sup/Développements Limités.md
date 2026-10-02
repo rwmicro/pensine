@@ -193,11 +193,11 @@ $$\int_0^x f(t) \, dt = c_0 x + \frac{c_1}{2} x^2 + \cdots + \frac{c_n}{n+1} x^{
 
 ```mermaid
 flowchart TD
-    A["Calculer le DL de f(x) en a à l'ordre n"] --> B{"f est une composée,<br/>un produit, un quotient ?"}
-    B -->|Composée| C["Identifier u = g(x) → 0<br/>Substituer dans le DL de f(u)"]
-    B -->|Produit| D["Multiplier les DL<br/>Tronquer à l'ordre n"]
-    B -->|Quotient| E["Calculer le DL de 1/g(x)<br/>via 1/(1-u), puis multiplier"]
-    B -->|Fonction de base| F["Utiliser le tableau<br/>des DL usuels"]
+    A["Calculer le DL de f(x) en a à l'ordre n"] --> B{"f est une composée,\nun produit, un quotient ?"}
+    B -->|Composée| C["Identifier u = g(x) → 0\nSubstituer dans le DL de f(u)"]
+    B -->|Produit| D["Multiplier les DL\nTronquer à l'ordre n"]
+    B -->|Quotient| E["Calculer le DL de 1/g(x)\nvia 1/(1-u), puis multiplier"]
+    B -->|Fonction de base| F["Utiliser le tableau\ndes DL usuels"]
     C --> G["Ne garder que les termes ≤ n"]
     D --> G
     E --> G

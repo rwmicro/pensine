@@ -51,9 +51,9 @@ Ils construisent une géométrie où le 5e postulat est **remplacé** par : « p
 ```mermaid
 flowchart TB
     Courbure["Courbure de Gauss K"]
-    Courbure --> Neg["K < 0<br/>HYPERBOLIQUE<br/>(Lobatchevski)"]
-    Courbure --> Nul["K = 0<br/>EUCLIDIENNE<br/>(Euclide)"]
-    Courbure --> Pos["K > 0<br/>SPHÉRIQUE<br/>(Riemann)"]
+    Courbure --> Neg["K < 0\nHYPERBOLIQUE\n(Lobatchevski)"]
+    Courbure --> Nul["K = 0\nEUCLIDIENNE\n(Euclide)"]
+    Courbure --> Pos["K > 0\nSPHÉRIQUE\n(Riemann)"]
 ```
 
 | | Euclidienne | Hyperbolique | Sphérique (elliptique) |

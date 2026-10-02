@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Mathematics > Lycée > Fonctions & Analyse"
 tags: [sciences-appliquées, mathématiques]
 date: "2026-02-22"
+prerequis: ["[[Limites et Continuité]]", "[[Dérivation]]"]
 ---
 
 # Exponentielle et Logarithme
@@ -424,3 +425,24 @@ $$\frac{e^x - x^3}{e^x + x^2} = \frac{e^x\left(1 - \dfrac{x^3}{e^x}\right)}{e^x\
 Par les croissances comparées : $\dfrac{x^3}{e^x} \to 0$ et $\dfrac{x^2}{e^x} \to 0$ quand $x \to +\infty$.
 
 Donc la limite vaut $\dfrac{1 - 0}{1 + 0} = 1$.
+
+
+## Questions de révision
+
+> [!quiz] Comment la fonction exponentielle est-elle définie ?
+> C'est l'unique fonction $f$ dérivable sur $\mathbb{R}$ telle que $f' = f$ et $f(0) = 1$.
+
+> [!quiz] Pourquoi l'exponentielle est-elle strictement croissante sur $\mathbb{R}$ ?
+> Sa dérivée est elle-même, $(e^x)' = e^x$, et $e^x > 0$ pour tout réel $x$.
+
+> [!quiz] Quel lien relie les fonctions $\ln$ et $\exp$ ?
+> $\ln$ est la réciproque de $\exp$ : pour $x > 0$, $y = \ln(x) \iff x = e^y$. Leurs courbes sont symétriques par rapport à la droite $y = x$.
+
+> [!quiz] Quelle propriété algébrique fondamentale caractérise le logarithme népérien ?
+> Il transforme les produits en sommes : $\ln(ab) = \ln(a) + \ln(b)$ pour $a, b > 0$. En revanche $\ln(a + b) \neq \ln(a) + \ln(b)$ en général.
+
+> [!quiz] Que disent les croissances comparées en $+\infty$ entre $\ln(x)$, $x^n$ et $e^x$ ?
+> $\frac{e^x}{x^n} \to +\infty$ et $\frac{\ln(x)}{x^n} \to 0$ : le logarithme est dominé par les puissances de $x$, elles-mêmes dominées par l'exponentielle.
+
+> [!quiz] Comment définit-on $a^x$ pour $a > 0$ ?
+> Par $a^x = e^{x \ln a}$ ; sa dérivée est $\ln(a) \cdot a^x$.

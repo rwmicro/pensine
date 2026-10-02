@@ -13,7 +13,7 @@ La sécurité mobile couvre la protection des appareils, systèmes d'exploitatio
 ## Modèles de sécurité comparés
 
 ```mermaid
-graph LR
+flowchart LR
     subgraph Android
         a_kernel[Linux Kernel]
         a_kernel --> a_hal[HAL]

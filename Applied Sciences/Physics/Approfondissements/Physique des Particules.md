@@ -18,14 +18,14 @@ De quoi la matière est-elle faite, au niveau le plus fondamental ? La physique 
 
 ```mermaid
 flowchart TD
-    A["Particules élémentaires"] --> B["Fermions<br/>(matière)"]
-    A --> C["Bosons<br/>(forces)"]
-    B --> D["Quarks<br/>u, d, c, s, t, b"]
-    B --> E["Leptons<br/>e, µ, τ + neutrinos"]
-    C --> F["Photon (γ)<br/>électromagnétisme"]
-    C --> G["Gluons (g)<br/>force forte"]
-    C --> H["W±, Z⁰<br/>force faible"]
-    C --> I["Boson de Higgs<br/>masse"]
+    A["Particules élémentaires"] --> B["Fermions\n(matière)"]
+    A --> C["Bosons\n(forces)"]
+    B --> D["Quarks\nu, d, c, s, t, b"]
+    B --> E["Leptons\ne, µ, τ + neutrinos"]
+    C --> F["Photon (γ)\nélectromagnétisme"]
+    C --> G["Gluons (g)\nforce forte"]
+    C --> H["W±, Z⁰\nforce faible"]
+    C --> I["Boson de Higgs\nmasse"]
 ```
 
 ### 1.1 Les quarks

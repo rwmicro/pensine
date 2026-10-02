@@ -15,10 +15,10 @@ Note de synthèse du domaine Machine Learning : vue d'ensemble, workflow type, e
 Le Machine Learning (apprentissage automatique) est une branche de l'intelligence artificielle qui permet aux systèmes d'apprendre et de s'améliorer à partir de l'expérience sans être explicitement programmés.
 
 ```mermaid
-graph TB
+flowchart TB
     AI["Intelligence Artificielle"] --> ML["Machine Learning"]
     ML --> DL["Deep Learning"]
-    DL --> GEN["IA Générative<br/>(LLM, Diffusion)"]
+    DL --> GEN["IA Générative\n(LLM, Diffusion)"]
 
     style AI fill:#9E9E9E,color:#fff
     style ML fill:#2196F3,color:#fff
@@ -29,10 +29,10 @@ graph TB
 ## Types d'apprentissage
 
 ```mermaid
-graph TB
-    ML2["Machine Learning"] --> SUP["Supervisé<br/>Prédire à partir de données étiquetées"]
-    ML2 --> NSUP["Non Supervisé<br/>Découvrir une structure sans labels"]
-    ML2 --> RL["Renforcement<br/>Apprendre par essai/erreur"]
+flowchart TB
+    ML2["Machine Learning"] --> SUP["Supervisé\nPrédire à partir de données étiquetées"]
+    ML2 --> NSUP["Non Supervisé\nDécouvrir une structure sans labels"]
+    ML2 --> RL["Renforcement\nApprendre par essai/erreur"]
 
     style ML2 fill:#673AB7,color:#fff
     style SUP fill:#2196F3,color:#fff
@@ -49,13 +49,13 @@ graph TB
 ## Workflow Machine Learning
 
 ```mermaid
-graph LR
-    P["1. Définir<br/>le problème"] --> D["2. Collecter<br/>les données"]
-    D --> PP["3. Prétraiter<br/>les données"]
-    PP --> S["4. Split<br/>train/test"]
-    S --> M["5. Entraîner<br/>le modèle"]
+flowchart LR
+    P["1. Définir\nle problème"] --> D["2. Collecter\nles données"]
+    D --> PP["3. Prétraiter\nles données"]
+    PP --> S["4. Split\ntrain/test"]
+    S --> M["5. Entraîner\nle modèle"]
     M --> E["6. Évaluer"]
-    E --> H["7. Tuning<br/>hyperparamètres"]
+    E --> H["7. Tuning\nhyperparamètres"]
     H --> DEP["8. Déployer"]
 
     E --> |"Pas satisfaisant"| PP

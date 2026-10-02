@@ -14,10 +14,10 @@ L'**OSINT** (Open Source Intelligence) consiste à collecter et analyser des inf
 
 ```mermaid
 flowchart LR
-    A[Annuaires<br/>d'outils] --> B[Scan réseau<br/>IP, ports, services]
-    B --> C[Profil serveur<br/>techno, certificats]
-    C --> D[Historique<br/>SSL, sous-domaines]
-    D --> E[Audit<br/>headers, config]
+    A[Annuaires\nd'outils] --> B[Scan réseau\nIP, ports, services]
+    B --> C[Profil serveur\ntechno, certificats]
+    C --> D[Historique\nSSL, sous-domaines]
+    D --> E[Audit\nheaders, config]
 ```
 
 ## Annuaires généralistes — par où commencer

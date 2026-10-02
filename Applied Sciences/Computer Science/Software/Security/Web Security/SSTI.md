@@ -43,7 +43,7 @@ def greet():
 ## Arbre de décision pour identifier le moteur
 
 ```mermaid
-graph TD
+flowchart TD
     test1["Tester : {{7*7}}"]
     test1 -->|"49"| jinja_twig["Jinja2 ou Twig"]
     test1 -->|"{{7*7}}"| test2["Tester : ${7*7}"]

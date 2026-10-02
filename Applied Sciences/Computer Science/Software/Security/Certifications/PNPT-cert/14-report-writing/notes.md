@@ -14,16 +14,12 @@ Le rapport, c'est le livrable réel d'un pentest. Le client ne voit ni ton shell
 
 Un rapport de pentest a deux lectorats distincts qui ne lisent pas les mêmes sections.
 
-```
-   Lecteur                    Section                  Ce qu'il cherche
-   ─────────────────          ───────────────────      ───────────────────────
-   Direction, DSI       ───►  Executive Summary   ───► "On est exposés ou pas ?"
-   (non technique)                                     "Combien ça coûte ?"
-                                                       "Priorités ?"
-
-   Équipe sécu, sysadmin ──►  Findings techniques ───► "Comment exploiter ?"
-   (technique)                                         "Comment corriger ?"
-                                                       "Reproduire ?"
+```mermaid
+flowchart LR
+    D["Direction, DSI\n(non technique)"] --> ES["Executive Summary"]
+    ES --> Q1["On est exposés ou pas ?\nCombien ça coûte ?\nPriorités ?"]
+    T["Équipe sécu, sysadmin\n(technique)"] --> FT["Findings techniques"]
+    FT --> Q2["Comment exploiter ?\nComment corriger ?\nReproduire ?"]
 ```
 
 > [!important] Conséquence pratique

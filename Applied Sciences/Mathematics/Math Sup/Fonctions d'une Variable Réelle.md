@@ -67,10 +67,10 @@ Si $\lim_{x \to a} f(x) = \ell$ existe mais $f$ n'est pas définie en $a$, on pe
 ```mermaid
 flowchart TD
     A["f continue sur un segment [a,b]"] --> B["f(a) et f(b) de signes opposés"]
-    B --> C["Par le TVI :<br/>∃ c ∈ ]a,b[ tel que f(c) = 0"]
+    B --> C["Par le TVI :\n∃ c ∈ ]a,b[ tel que f(c) = 0"]
     C --> D{"f strictement monotone ?"}
-    D -->|Oui| E["c est UNIQUE<br/>(bijection)"]
-    D -->|Non| F["c existe mais<br/>pas forcément unique"]
+    D -->|Oui| E["c est UNIQUE\n(bijection)"]
+    D -->|Non| F["c existe mais\npas forcément unique"]
 ```
 
 > [!abstract] Théorème — Image d'un segment
@@ -109,11 +109,11 @@ La différence avec la continuité simple : $\delta$ ne dépend **pas** du point
 ### Classes de régularité
 
 ```mermaid
-graph LR
-    A["Continue<br/>C⁰"] --> B["Dérivable"]
-    B --> C["Dérivée continue<br/>C¹"]
-    C --> D["k fois dérivable<br/>à dérivées continues<br/>Cᵏ"]
-    D --> E["Indéfiniment<br/>dérivable<br/>C∞"]
+flowchart LR
+    A["Continue\nC⁰"] --> B["Dérivable"]
+    B --> C["Dérivée continue\nC¹"]
+    C --> D["k fois dérivable\nà dérivées continues\nCᵏ"]
+    D --> E["Indéfiniment\ndérivable\nC∞"]
 
     style A fill:#FFCCBC
     style B fill:#FFE0B2
@@ -179,8 +179,8 @@ $$(f^{-1})'(f(a)) = \frac{1}{f'(a)}$$
 > $$\forall (x, y) \in I^2, \quad |f(x) - f(y)| \leq k |x - y|$$
 
 ```mermaid
-graph TD
-    A["Contractante<br/>k < 1"] --> B["Lipschitzienne"]
+flowchart TD
+    A["Contractante\nk < 1"] --> B["Lipschitzienne"]
     B --> C["Uniformément continue"]
     C --> D["Continue"]
 

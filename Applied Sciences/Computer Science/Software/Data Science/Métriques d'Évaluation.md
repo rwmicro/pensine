@@ -76,7 +76,7 @@ Le seuil de décision n'est pas donné par le modèle, il se choisit. Le déplac
 La courbe ROC (Receiver Operating Characteristic) illustre le compromis Rappel / Taux de faux positifs en faisant varier le seuil de décision.
 
 ```mermaid
-graph LR
+flowchart LR
     subgraph "Courbe ROC"
         direction TB
         axe["Axe X : Taux de FP (1-Spécificité)\nAxe Y : Rappel (TPR)\n\nCourbe parfaite → coin supérieur gauche\nDiagonale → modèle aléatoire"]
@@ -232,7 +232,7 @@ Utilise les embeddings de BERT pour mesurer la similarité sémantique entre le 
 ## Validation croisée
 
 ```mermaid
-graph LR
+flowchart LR
     data[Dataset] --> fold1[Fold 1\nTest]
     data --> fold2[Fold 2\nTest]
     data --> fold3[Fold 3\nTest]
@@ -261,7 +261,7 @@ print(f"F1: {scores.mean():.3f} ± {scores.std():.3f}")
 ## Choisir la bonne métrique
 
 ```mermaid
-graph TD
+flowchart TD
     type{Type de tâche ?}
     type -->|Classification| bal{Classes équilibrées ?}
     type -->|Régression| out{Outliers ?}

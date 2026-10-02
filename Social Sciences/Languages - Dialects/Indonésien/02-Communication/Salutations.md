@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Indonésien > 02-Communication"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
+prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/01-Phonologie/Alphabet-Prononciation]]"]
 ---
 
 # Salutations (Salam)
@@ -109,3 +110,23 @@ B: Gak ngapa-ngapain. Mau nongkrong gak?
 A: Oke! Sampai nanti ya!
 B: Dadah!
 ```
+
+## Questions de révision
+
+> [!quiz] Quelle différence entre *selamat jalan* et *selamat tinggal* ?
+> *Selamat jalan* se dit à celui qui part ; *selamat tinggal* se dit à celui qui reste.
+
+> [!quiz] Comment salue-t-on souvent en informel selon le moment de la journée ?
+> On dit simplement le moment de la journée : *Pagi!*, *Siang!*, *Sore!*, *Malam!*
+
+> [!quiz] Comment dit-on « bienvenue » et « bon appétit » ?
+> *Selamat datang* et *selamat makan*.
+
+> [!quiz] Comment dire « merci » de façon informelle ?
+> *Makasih* ou *trims* ; pour « merci beaucoup », *makasih banget*.
+
+> [!quiz] Comment souhaiter un joyeux anniversaire ?
+> *Selamat ulang tahun*.
+
+> [!quiz] Que dit-on pour « fais attention » en prenant congé ?
+> *Hati-hati* (en informel, *Hati-hati ya!*).

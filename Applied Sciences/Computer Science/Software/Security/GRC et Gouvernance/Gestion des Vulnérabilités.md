@@ -12,12 +12,11 @@ La gestion des vulnérabilités est le processus continu d'identification, d'év
 
 ## Cycle de vie d'une vulnérabilité
 
-```
-Découverte → CVE assignée → Publication → Exploitation → Patch disponible → Remédiation
-     ↑                                        ↑
-  Chercheur                              Zero-day (avant patch)
-  Bug bounty
-  Scan interne
+```mermaid
+flowchart LR
+    A["Découverte"] --> B["CVE assignée"] --> C["Publication"] --> D["Exploitation"] --> E["Patch disponible"] --> F["Remédiation"]
+    S["Chercheur\nBug bounty\nScan interne"] --> A
+    Z["Zero-day (avant patch)"] --> D
 ```
 
 **Zero-day** : vulnérabilité exploitée avant qu'un patch soit disponible. Délai médian entre découverte et exploitation dans la wild : quelques jours à quelques semaines pour les vulnérabilités critiques (Log4Shell exploité < 24h après publication).

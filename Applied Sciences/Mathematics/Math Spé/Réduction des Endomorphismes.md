@@ -188,11 +188,11 @@ $$\chi_f(\lambda) = (-1)^n \lambda^n + (-1)^{n-1} \mathrm{tr}(A) \lambda^{n-1} +
 flowchart TD
     A["Calculer le polynôme caractéristique χ_f(λ)"] --> B{"χ_f est-il scindé sur K ?"}
     B -- Non --> C["f n'est pas diagonalisable sur K"]
-    B -- Oui --> D["Factoriser χ_f : trouver les valeurs propres λ₁, ..., λₚ<br/>et leurs multiplicités algébriques m_a(λᵢ)"]
-    D --> E["Pour chaque λᵢ, calculer<br/>E_λᵢ = ker(f - λᵢ Id)"]
-    E --> F{"Pour tout i,<br/>dim E_λᵢ = m_a(λᵢ) ?"}
+    B -- Oui --> D["Factoriser χ_f : trouver les valeurs propres λ₁, ..., λₚ\net leurs multiplicités algébriques m_a(λᵢ)"]
+    D --> E["Pour chaque λᵢ, calculer\nE_λᵢ = ker(f - λᵢ Id)"]
+    E --> F{"Pour tout i,\ndim E_λᵢ = m_a(λᵢ) ?"}
     F -- Non --> G["f n'est pas diagonalisable"]
-    F -- Oui --> H["f est diagonalisable.<br/>Former une base de chaque E_λᵢ.<br/>La réunion donne une base<br/>de diagonalisation P."]
+    F -- Oui --> H["f est diagonalisable.\nFormer une base de chaque E_λᵢ.\nLa réunion donne une base\nde diagonalisation P."]
     H --> I["D = P⁻¹AP est diagonale"]
 ```
 
@@ -312,16 +312,16 @@ Alors $X_n = A^n X_0$, ce qui ramène au calcul de $A^n$.
 
 ```mermaid
 flowchart LR
-    A["Polynôme caractéristique χ_f"] --> B["Valeurs propres<br/>(racines de χ_f)"]
+    A["Polynôme caractéristique χ_f"] --> B["Valeurs propres\n(racines de χ_f)"]
     B --> C["Sous-espaces propres E_λ"]
     A --> D["Polynôme minimal μ_f"]
-    D --> E{"μ_f scindé à<br/>racines simples ?"}
+    D --> E{"μ_f scindé à\nracines simples ?"}
     E -- Oui --> F["f diagonalisable"]
     E -- Non --> G["f non diagonalisable"]
-    B --> H["Sous-espaces<br/>caractéristiques F_λ"]
-    H --> I["Décomposition<br/>de Dunford"]
-    F --> J["Applications :<br/>A^n, syst. diff., suites"]
-    G --> K["Trigonalisation<br/>(sur C)"]
+    B --> H["Sous-espaces\ncaractéristiques F_λ"]
+    H --> I["Décomposition\nde Dunford"]
+    F --> J["Applications :\nA^n, syst. diff., suites"]
+    G --> K["Trigonalisation\n(sur C)"]
     K --> J
 ```
 

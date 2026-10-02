@@ -50,7 +50,7 @@ flowchart TD
     B --> C["Fonction d'onde ψ(x,t)"]
     C --> D["|ψ|² = densité de probabilité"]
     B --> E["Niveaux d'énergie quantifiés En"]
-    E --> F["Spectres, chimie,<br/>semi-conducteurs"]
+    E --> F["Spectres, chimie,\nsemi-conducteurs"]
 ```
 
 ## 5. Quantification et confinement

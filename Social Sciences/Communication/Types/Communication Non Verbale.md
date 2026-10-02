@@ -57,7 +57,7 @@ pie title Impact d'un message (Mehrabian)
 **Proxémie** (Edward T. Hall)
 
 ```mermaid
-graph LR
+flowchart LR
     P["Personne"]
     P -->|"0 – 45 cm"| ZI["Zone Intime\nFamille · Couple\nContact physique"]
     P -->|"45 – 120 cm"| ZPe["Zone Personnelle\nAmis · Connaissances\nConversation privée"]

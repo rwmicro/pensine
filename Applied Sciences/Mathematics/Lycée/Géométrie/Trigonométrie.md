@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Mathematics > Lycée > Géométrie"
 tags: [sciences-appliquées, mathématiques]
 date: "2026-02-22"
+prerequis: ["[[Calcul Algébrique]]"]
 ---
 
 # Trigonométrie
@@ -248,10 +249,10 @@ On écrit aussi : $x \equiv \pm a \pmod{2\pi}$.
 ```mermaid
 flowchart TD
     A["Équation trigonométrique"] --> B{"Quel type ?"}
-    B -->|"cos(x) = cos(a)"| C["x = a + 2kπ<br/>ou x = -a + 2kπ"]
-    B -->|"sin(x) = sin(a)"| D["x = a + 2kπ<br/>ou x = π - a + 2kπ"]
+    B -->|"cos(x) = cos(a)"| C["x = a + 2kπ\nou x = -a + 2kπ"]
+    B -->|"sin(x) = sin(a)"| D["x = a + 2kπ\nou x = π - a + 2kπ"]
     B -->|"tan(x) = tan(a)"| E["x = a + kπ"]
-    C --> F["Sélectionner les solutions<br/>dans l'intervalle demandé"]
+    C --> F["Sélectionner les solutions\ndans l'intervalle demandé"]
     D --> F
     E --> F
 
@@ -371,3 +372,24 @@ Somme :
 $$\cos x + \left(-\frac{1}{2}\cos x - \frac{\sqrt{3}}{2}\sin x\right) + \left(-\frac{1}{2}\cos x + \frac{\sqrt{3}}{2}\sin x\right)$$
 
 $$= \cos x - \frac{1}{2}\cos x - \frac{1}{2}\cos x = 0$$
+
+
+## Questions de révision
+
+> [!quiz] Qu'est-ce que le cercle trigonométrique, et que représentent $\cos\theta$ et $\sin\theta$ ?
+> Le cercle de centre $O$ et de rayon $1$, orienté dans le sens direct ; $\cos\theta$ et $\sin\theta$ sont l'abscisse et l'ordonnée du point $M$ associé à l'angle $\theta$.
+
+> [!quiz] D'où vient la relation $\cos^2\theta + \sin^2\theta = 1$ ?
+> Du théorème de Pythagore appliqué au triangle $OHM$, où $H$ est le projeté de $M$ sur l'axe des abscisses et $OM = 1$.
+
+> [!quiz] Qu'est-ce qu'un radian, et combien de radians valent 180° ?
+> C'est l'angle qui intercepte un arc de longueur $1$ sur le cercle de rayon $1$ ; $\pi$ rad = 180°.
+
+> [!quiz] Que valent $\cos\frac{\pi}{3}$ et $\sin\frac{\pi}{3}$ ?
+> $\cos\frac{\pi}{3} = \frac{1}{2}$ et $\sin\frac{\pi}{3} = \frac{\sqrt{3}}{2}$.
+
+> [!quiz] Quelle est la formule d'addition pour $\cos(a + b)$ ?
+> $\cos(a + b) = \cos a \cos b - \sin a \sin b$.
+
+> [!quiz] Quelles sont les solutions de l'équation $\cos(x) = \cos(a)$ ?
+> $x = a + 2k\pi$ ou $x = -a + 2k\pi$, avec $k \in \mathbb{Z}$.

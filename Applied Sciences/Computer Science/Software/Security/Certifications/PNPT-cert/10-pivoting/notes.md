@@ -12,40 +12,27 @@ Le pivoting, c'est l'art d'utiliser une machine compromise pour atteindre un ré
 
 ## Le scénario type
 
-```
-   ATTAQUANT                                              CIBLE FINALE
-   10.0.0.100                                             10.10.10.5
-       │                                                     ▲
-       │                                                     │
-       ▼                                                     │
-   ┌─────────┐         ┌──────────┐         ┌───────────────┘
-   │ Internet │ ────►  │ DMZ      │ ────►   │  Réseau interne
-   └─────────┘         │ Web app  │         │  (invisible de
-                       │ 1.2.3.4  │         │   l'extérieur)
-                       │ pivot    │         │
-                       └──────────┘         │
-                            │               │
-                            ▲               │
-                            │               │
-                       Shell obtenu via     │
-                       l'exploit web        │
+```mermaid
+flowchart LR
+    A["ATTAQUANT\n10.0.0.100"] --> I["Internet"]
+    I --> D["DMZ\nWeb app 1.2.3.4\n(pivot)"]
+    D --> R["Réseau interne\n(invisible de l'extérieur)"]
+    R --> C["CIBLE FINALE\n10.10.10.5"]
+    S["Shell obtenu via l'exploit web"] --> D
 ```
 
 Sans pivoting, on est bloqué sur le pivot. Avec, ton Kali envoie des paquets dans le réseau interne comme si tu y étais branché.
 
 ## Trois familles de techniques
 
-```
-                  Pivoting / Tunneling
-                          │
-        ┌─────────────────┼─────────────────┐
-        ▼                 ▼                 ▼
-   Port forwarding    SOCKS proxy      VPN-like tunnel
-   (un port à la fois)  (tout port)     (route IP complète)
-        │                 │                 │
-   ssh -L              ssh -D            Ligolo-ng
-   ssh -R              chisel R:socks    sshuttle
-   chisel local-fw     proxychains
+```mermaid
+flowchart TD
+    P["Pivoting / Tunneling"] --> PF["Port forwarding\n(un port à la fois)"]
+    P --> SO["SOCKS proxy\n(tout port)"]
+    P --> VP["VPN-like tunnel\n(route IP complète)"]
+    PF --> PF2["ssh -L\nssh -R\nchisel local-fw"]
+    SO --> SO2["ssh -D\nchisel R:socks\nproxychains"]
+    VP --> VP2["Ligolo-ng\nsshuttle"]
 ```
 
 Le choix dépend du contexte : un seul service à atteindre → port forward. Tout un sous-réseau à scanner → SOCKS ou VPN-like.
@@ -58,13 +45,11 @@ Si SSH est utilisable sur le pivot, c'est l'outil de choix : déjà présent, ch
 
 "Expose un port distant sur ma machine locale."
 
-```
-   Attaquant                                      Pivot          Cible interne
-                                                                  10.10.10.5:80
-   localhost:8080  ──── tunnel SSH ────►  user@pivot  ──────►
-        ▲                                                          │
-        │                                                          │
-        └──────────────────── réponse ─────────────────────────────┘
+```mermaid
+flowchart LR
+    A["Attaquant\nlocalhost:8080"] -->|tunnel SSH| P["user@pivot"]
+    P --> C["Cible interne\n10.10.10.5:80"]
+    C -->|réponse| A
 ```
 
 ```bash

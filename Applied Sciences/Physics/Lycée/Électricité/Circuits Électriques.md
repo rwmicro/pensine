@@ -51,13 +51,13 @@ L'électricité est la base de toute l'électronique. Au lycée, on étudie les 
 
 ```mermaid
 flowchart TD
-    A["Résoudre un circuit"] --> B["Loi des nœuds<br/>ΣI entrant = ΣI sortant"]
-    A --> C["Loi des mailles<br/>ΣU = 0 sur une boucle"]
-    A --> D["Loi d'Ohm<br/>U = RI sur chaque résistance"]
+    A["Résoudre un circuit"] --> B["Loi des nœuds\nΣI entrant = ΣI sortant"]
+    A --> C["Loi des mailles\nΣU = 0 sur une boucle"]
+    A --> D["Loi d'Ohm\nU = RI sur chaque résistance"]
     B --> E["Système d'équations"]
     C --> E
     D --> E
-    E --> F["Courants et tensions<br/>du circuit"]
+    E --> F["Courants et tensions\ndu circuit"]
 ```
 
 ## 4. Associations de résistances

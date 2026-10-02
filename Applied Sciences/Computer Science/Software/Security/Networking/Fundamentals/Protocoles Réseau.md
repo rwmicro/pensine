@@ -26,19 +26,25 @@ Les protocoles réseau définissent les règles de communication entre systèmes
 **Caractéristiques** : orienté connexion, fiable, ordonné, contrôle de flux et de congestion.
 
 **Three-way handshake** :
-```
-Client → Serveur : SYN (seq=x)
-Serveur → Client : SYN-ACK (seq=y, ack=x+1)
-Client → Serveur : ACK (ack=y+1)
+```mermaid
+sequenceDiagram
+    participant C as Client
+    participant S as Serveur
+    C->>S: SYN (seq=x)
+    S->>C: SYN-ACK (seq=y, ack=x+1)
+    C->>S: ACK (ack=y+1)
 ```
 
 **Fermeture** :
-```
-Initiateur → Autre : FIN
-Autre → Initiateur : ACK
-Autre → Initiateur : FIN
-Initiateur → Autre : ACK
-État : TIME_WAIT (2×MSL = ~4 min)
+```mermaid
+sequenceDiagram
+    participant I as Initiateur
+    participant A as Autre
+    I->>A: FIN
+    A->>I: ACK
+    A->>I: FIN
+    I->>A: ACK
+    Note over I: État : TIME_WAIT (2×MSL = ~4 min)
 ```
 
 **Drapeaux TCP** :
@@ -142,19 +148,20 @@ La couche Transport (couche 4 du modèle OSI) assure la communication de bout en
 - TTL : limite le nombre de sauts (décrémenté par chaque routeur) → ICMP Time Exceeded à 0
 
 **En-tête IPv4 (20 bytes minimum)** :
-```
- 0                   1                   2                   3
- 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|Version|  IHL  |Type of Service|          Total Length         |
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|         Identification        |Flags|      Fragment Offset    |
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|  Time to Live |    Protocol   |         Header Checksum       |
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|                       Source Address                          |
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|                    Destination Address                        |
+```mermaid
+packet-beta
+0-3: "Version"
+4-7: "IHL"
+8-15: "Type of Service"
+16-31: "Total Length"
+32-47: "Identification"
+48-50: "Flags"
+51-63: "Fragment Offset"
+64-71: "Time to Live"
+72-79: "Protocol"
+80-95: "Header Checksum"
+96-127: "Source Address"
+128-159: "Destination Address"
 ```
 
 ### IPv6
@@ -208,21 +215,23 @@ La couche Transport (couche 4 du modèle OSI) assure la communication de bout en
 | CAA | Certificate Authority Authorization | Autoriser seulement Let's Encrypt |
 
 **Hiérarchie DNS** :
-```
-. (root)
-├── com
-│   └── example.com (autoritative NS)
-│       ├── www.example.com
-│       └── mail.example.com
-├── org
-└── fr
+```mermaid
+flowchart TD
+    R[". (root)"] --> COM["com"]
+    R --> ORG["org"]
+    R --> FR["fr"]
+    COM --> EX["example.com (autoritative NS)"]
+    EX --> WWW["www.example.com"]
+    EX --> MAIL["mail.example.com"]
 ```
 
 **Résolution récursive** :
-```
-Client → Résolveur récursif (FAI ou 8.8.8.8)
-Résolveur → Root NS → TLD NS (.com) → Autoritative NS
-Autoritative NS → Résolveur → Client
+```mermaid
+flowchart LR
+    C["Client"] -->|requête| R["Résolveur récursif (FAI ou 8.8.8.8)"]
+    R --> ROOT["Root NS"] --> TLD["TLD NS (.com)"] --> A["Autoritative NS"]
+    A -->|réponse| R
+    R -->|réponse| C
 ```
 
 **Sécurité DNS** :
@@ -289,11 +298,14 @@ AllowTcpForwarding no  # si tunneling non requis
 ### TLS (Transport Layer Security)
 
 **TLS 1.3 Handshake** (1.5 RTT) :
-```
-Client → Serveur : ClientHello (key_share, supported_ciphers)
-Serveur → Client : ServerHello + Certificat + CertificateVerify + Finished
-Client → Serveur : Finished
-→ Application data
+```mermaid
+sequenceDiagram
+    participant C as Client
+    participant S as Serveur
+    C->>S: ClientHello (key_share, supported_ciphers)
+    S->>C: ServerHello + Certificat + CertificateVerify + Finished
+    C->>S: Finished
+    Note over C,S: Application data
 ```
 
 **Suites cryptographiques TLS 1.3** :
@@ -361,11 +373,14 @@ nmap --script ftp-anon -p 21 target.com
 **Ports** : UDP/67 (serveur), UDP/68 (client)
 
 **Séquence DORA** :
-```
-Client → Broadcast : DHCP Discover
-Serveur → Client : DHCP Offer (IP proposée, durée bail)
-Client → Broadcast : DHCP Request (acceptation)
-Serveur → Client : DHCP ACK (confirmation)
+```mermaid
+sequenceDiagram
+    participant C as Client
+    participant S as Serveur
+    C->>S: DHCP Discover (broadcast)
+    S->>C: DHCP Offer (IP proposée, durée bail)
+    C->>S: DHCP Request (broadcast, acceptation)
+    S->>C: DHCP ACK (confirmation)
 ```
 
 **Sécurité** :

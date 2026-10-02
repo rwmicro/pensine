@@ -25,18 +25,15 @@ SAE = **Simultaneous Authentication of Equals**. Échange de clé à mot de pass
 
 ### Le handshake SAE simplifié
 
-```
-Client                              AP
-  │                                  │
-  │ ── Commit (scalar, element) ──→  │
-  │                                  │
-  │ ←── Commit (scalar, element) ──  │
-  │                                  │
-  │ ── Confirm (PMK derived) ────→   │
-  │                                  │
-  │ ←── Confirm (PMK derived) ───    │
-  │                                  │
-  │ ────── 4-way handshake ──────→   │  (comme WPA2 ensuite)
+```mermaid
+sequenceDiagram
+    participant C as Client
+    participant AP as AP
+    C->>AP: Commit (scalar, element)
+    AP->>C: Commit (scalar, element)
+    C->>AP: Confirm (PMK derived)
+    AP->>C: Confirm (PMK derived)
+    C->>AP: 4-way handshake (comme WPA2 ensuite)
 ```
 
 Chaque échange dépend d'un secret éphémère → impossible de rejouer ou bruteforcer hors ligne sans nouvelles interactions.

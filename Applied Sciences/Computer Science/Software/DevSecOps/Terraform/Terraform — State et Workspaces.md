@@ -18,7 +18,7 @@ Le **state** est le cœur de Terraform : il mappe les ressources déclarées dan
 - Sans state : Terraform ne sait pas ce qui existe déjà
 
 ```mermaid
-graph LR
+flowchart LR
     CODE["Code .tf\nDesired State"]
     STATE["terraform.tfstate\nKnown State"]
     INFRA["Infrastructure Réelle\nCloud / On-prem"]

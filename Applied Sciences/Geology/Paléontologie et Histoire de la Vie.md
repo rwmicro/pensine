@@ -16,13 +16,13 @@ La plupart des organismes morts disparaissent sans laisser de trace : ils sont m
 
 ```mermaid
 flowchart LR
-    A[Organisme mort] --> B{Enfouissement<br/>rapide ?}
-    B -- non --> X[Décomposition<br/>aucun fossile]
-    B -- oui --> C{Parties dures<br/>ou conditions<br/>exceptionnelles ?}
+    A[Organisme mort] --> B{Enfouissement\nrapide ?}
+    B -- non --> X[Décomposition\naucun fossile]
+    B -- oui --> C{Parties dures\nou conditions\nexceptionnelles ?}
     C -- non --> X
-    C -- oui --> D[Sédimentation<br/>compaction]
-    D --> E[Diagenèse<br/>minéralisation]
-    E --> F[Soulèvement<br/>érosion]
+    C -- oui --> D[Sédimentation\ncompaction]
+    D --> E[Diagenèse\nminéralisation]
+    E --> F[Soulèvement\nérosion]
     F --> G[Découverte]
 ```
 
@@ -78,19 +78,19 @@ Sur l'échelle géologique, la vie a connu cinq épisodes d'effondrement massif 
 ```mermaid
 timeline
     title Grandes étapes de la vie sur Terre
-    -3,8 Ga : Premières traces de vie<br/>(stromatolites)
-    -2,4 Ga : Grande Oxydation<br/>(cyanobactéries)
+    -3,8 Ga : Premières traces de vie\n(stromatolites)
+    -2,4 Ga : Grande Oxydation\n(cyanobactéries)
     -2,1 Ga : Premiers eucaryotes
-    -635 Ma : Faune d'Ediacara<br/>(premiers animaux)
+    -635 Ma : Faune d'Ediacara\n(premiers animaux)
     -541 Ma : Explosion cambrienne
-    -440 Ma : Sortie des eaux<br/>(plantes puis arthropodes)
-    -375 Ma : Premiers tétrapodes<br/>(Tiktaalik)
-    -300 Ma : Forêts du Carbonifère<br/>(origine du charbon)
+    -440 Ma : Sortie des eaux\n(plantes puis arthropodes)
+    -375 Ma : Premiers tétrapodes\n(Tiktaalik)
+    -300 Ma : Forêts du Carbonifère\n(origine du charbon)
     -252 Ma : Extinction Permien-Trias
     -230 Ma : Premiers dinosaures
     -200 Ma : Premiers mammifères
-    -150 Ma : Archaeopteryx<br/>(premiers oiseaux)
-    -66 Ma : Extinction des dinosaures<br/>essor des mammifères
+    -150 Ma : Archaeopteryx\n(premiers oiseaux)
+    -66 Ma : Extinction des dinosaures\nessor des mammifères
     -7 Ma : Lignée humaine se sépare des chimpanzés
     -300 ka : Homo sapiens
 ```

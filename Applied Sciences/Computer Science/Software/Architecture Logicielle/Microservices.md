@@ -119,13 +119,15 @@ for message in consumer:
 
 Point d'entrée unique pour les clients. Gère l'authentification, le rate limiting, le routage, l'agrégation de réponses, la transformation de protocoles.
 
+```mermaid
+flowchart LR
+    Client["Client"] --> GW["API Gateway"]
+    GW --> A["Service A"]
+    GW --> B["Service B"]
+    GW --> C["Service C"]
 ```
-Client → [API Gateway] → Service A
-                      → Service B
-                      → Service C
 
 Outils : Kong, AWS API Gateway, NGINX, Traefik, Envoy
-```
 
 ### Service Discovery
 
@@ -193,14 +195,16 @@ Gère les transactions distribuées sans verrou global. Une saga est une séquen
 
 **Chorégraphie** : chaque service réagit aux événements et publie les suivants. Pas de coordonnateur central.
 
-```
-Commande créée →
-  Service Paiement (débite) → Paiement effectué →
-    Service Inventaire (réserve) → Stock réservé →
-      Service Livraison (planifie)
-
-En cas d'erreur :
-Service Livraison échoue → Stock libéré → Remboursement
+```mermaid
+flowchart TD
+    C["Commande créée"] --> P["Service Paiement (débite)"]
+    P --> PE["Paiement effectué"]
+    PE --> I["Service Inventaire (réserve)"]
+    I --> SR["Stock réservé"]
+    SR --> L["Service Livraison (planifie)"]
+    L -->|"En cas d'erreur"| LE["Service Livraison échoue"]
+    LE --> SL["Stock libéré"]
+    SL --> R["Remboursement"]
 ```
 
 **Orchestration** : un orchestrateur central coordonne les étapes et gère les compensations.
