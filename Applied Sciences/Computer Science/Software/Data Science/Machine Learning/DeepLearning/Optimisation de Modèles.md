@@ -13,7 +13,7 @@ L'optimisation de modèles vise à réduire la taille et le coût computationnel
 ## Pourquoi optimiser ?
 
 ```mermaid
-graph LR
+flowchart LR
     big[Modèle large\nGPT-3 : 175B params\n700GB FP32] --> opt[Optimisation]
     opt --> small[Modèle optimisé\nMoindre latence\nMoins de mémoire\nMoins d'énergie]
     small --> edge[Edge devices\nMobile, IoT]
@@ -39,7 +39,7 @@ Réduire la précision numérique des poids et activations.
 | NF4 | 4 | Non-uniforme | 0.5 GB |
 
 ```mermaid
-graph LR
+flowchart LR
     fp32[FP32\n100% précision\n100% mémoire] --> fp16[FP16/BF16\n~99% précision\n50% mémoire]
     fp16 --> int8[INT8\n~98% précision\n25% mémoire]
     int8 --> int4[INT4\n~95% précision\n12.5% mémoire]
@@ -159,7 +159,7 @@ Procédure :
 Entraîner un petit modèle (étudiant) à imiter un grand modèle (enseignant), en tirant parti de ses distributions de sortie "douces".
 
 ```mermaid
-graph TD
+flowchart TD
     data[Données] --> teacher[Enseignant\nGrand modèle\nperformant]
     data --> student[Étudiant\nPetit modèle\nà entraîner]
     teacher -->|"Logits doux\n(soft targets)"| loss_kd[Loss Distillation\nKL Divergence]

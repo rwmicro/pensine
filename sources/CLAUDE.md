@@ -256,6 +256,26 @@ bits: 32
 
 Ajouter un widget = une entrée dans `WIDGETS` et `WIDGET_FALLBACK` (`lib/markdown.ts`), un constructeur dans `BUILDERS` (`public/js/widgets.js`), et les styles `.w-*` dans `assets/css/main.css`.
 
+## Apprentissage actif (features du site learn-nebula)
+
+### Questions de révision
+```markdown
+> [!quiz] Qu'est-ce qu'une base d'un espace vectoriel ?
+> Une famille à la fois libre et génératrice.
+```
+Le titre est la question, le corps la réponse (masquée sur le site, avec « Afficher la réponse », auto-évaluation et ajout aux révisions espacées de `/cartes/revision/`). `[!quiz]-` et `[!quiz]+` sont acceptés. Une question = un fait vérifié (cf. règle d'exactitude).
+
+### Prérequis et parcours
+```yaml
+prerequis: ["[[Limites et Continuité]]", "[[Dérivation]]"]
+parcours: "Analyse au lycée"   # uniquement sur la note racine du parcours
+```
+- `prerequis` : prérequis **directs** seulement (pas les transitifs). Chemin vault sans `.md` si le nom de fichier est ambigu : `"[[Social Sciences/Languages - Dialects/Indonésien/02-Communication/Registres]]"`.
+- Le site en tire « À lire avant », « Pour aller plus loin » et les arbres de `/parcours/` (composantes de 3 notes ou plus). Pas de cycle : le rapport de santé de l'admin les signale.
+
+### Glossaire
+Une définition devient une entrée de glossaire (survol des termes dans les autres notes de la même discipline) si son callout a un titre explicite : `> [!abstract] Définition — Terme` (ou `> [!definition] Terme`). Un titre nu « Définition » n'est pas repris.
+
 ## Fichiers à ne jamais supprimer
 
 - `Social Sciences/Languages - Dialects/Indonésien/.claude/` — configuration Claude

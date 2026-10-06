@@ -43,7 +43,7 @@ date: "2026-03-05"
 > Les "durées" citées pour chaque système (0-10s, 10s-2min, >2min) ne signifient pas que les autres systèmes sont inactifs en dehors — les trois tournent dès la première seconde d'effort. Ce qui change, c'est lequel domine la production d'énergie à un instant donné. Un sprint de 10 secondes utilise majoritairement l'ATP-CP, mais le système aérobie contribue déjà, en arrière-plan, à la récupération entre les efforts.
 
 ```mermaid
-graph LR
+flowchart LR
     subgraph ATP ["ATP-CP — 0 à 10 s"]
         A1["Sprint · Saut\nHaltérophilie\nPas de déchet"]
     end

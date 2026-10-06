@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Languages > Assembleur"
 tags: [sciences-appliquées, informatique, assembleur, x86-64, nasm, bas-niveau, linux]
 date: "2026-09-18"
+prerequis: ["[[Architecture des Processeurs]]"]
 ---
 
 # Assembleur x86-64
@@ -102,8 +103,8 @@ _start:
 
 ```mermaid
 flowchart LR
-    A["hello.asm<br/>source NASM"] -->|"nasm -f elf64"| B["hello.o<br/>fichier objet"]
-    B -->|"ld"| C["hello<br/>exécutable ELF"]
+    A["hello.asm\nsource NASM"] -->|"nasm -f elf64"| B["hello.o\nfichier objet"]
+    B -->|"ld"| C["hello\nexécutable ELF"]
     C -->|"execve"| D["processus en mémoire"]
 ```
 
@@ -338,6 +339,26 @@ L'assembleur pur est rare. Trois formes d'articulation avec un langage de haut n
 
 > [!tip] Méthode
 > La manière la plus rapide d'apprendre à lire l'assembleur n'est pas de l'écrire : c'est d'écrire du C simple, de le compiler **sans optimisation** (`-O0 -masm=intel`) et de lire ce que le compilateur en fait. Avec les optimisations actives, le compilateur élimine tout ce qui est calculable à la compilation et le rapport entre source et sortie devient illisible.
+
+## Questions de révision
+
+> [!quiz] Que fait `mov eax, 1` aux 32 bits hauts de `rax`, et en quoi est-ce différent de `mov al, 1` ?
+> Une écriture 32 bits remet à zéro les 32 bits hauts : `rax` vaut 1. Les écritures 8 et 16 bits (`mov al, 1`, `mov ax, 1`) préservent le reste du registre.
+
+> [!quiz] Que signifie que x86-64 est petit-boutiste ?
+> L'octet de poids le plus faible occupe l'adresse la plus basse : `0x0A0B0C0D` est rangé `0D 0C 0B 0A`.
+
+> [!quiz] Pourquoi le 4e argument d'un appel système passe-t-il par `r10` et non par `rcx` comme pour une fonction ?
+> L'instruction `syscall` écrase `rcx` (où le processeur range l'adresse de retour) et `r11` (où il sauvegarde `rflags`) ; `rcx` est donc inutilisable comme registre d'argument.
+
+> [!quiz] Dans un cadre de pile, que trouve-t-on en `[rbp+8]` et en `[rbp-8]` ?
+> En `[rbp+8]`, l'adresse de retour empilée par `call` ; en `[rbp-8]`, une variable locale de la fonction courante. Les décalages positifs remontent vers l'appelant, les négatifs descendent dans la fonction.
+
+> [!quiz] Quelle différence entre les sauts `JG`/`JL` et `JA`/`JB` ?
+> `JG`/`JL` interprètent la comparaison comme signée, `JA`/`JB` comme non signée : le processeur ignore ce que représentent les bits, c'est le choix du saut qui tranche.
+
+> [!quiz] Pourquoi faut-il mettre `rdx` à zéro avant une instruction `div` 64 bits ?
+> `div` divise le couple `rdx:rax` vu comme un entier de 128 bits ; sans remise à zéro de `rdx`, le dividende est arbitraire, ce qui provoque le plus souvent une exception matérielle.
 
 ## À lire ensuite
 

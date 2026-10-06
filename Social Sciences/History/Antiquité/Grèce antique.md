@@ -6,6 +6,7 @@ tags: [sciences-sociales, histoire, antiquité, grèce, démocratie, cité]
 date: "2026-09-28"
 year: -1200
 yearEnd: -30
+prerequis: ["[[Égypte ancienne]]"]
 ---
 
 # Grèce antique
@@ -114,6 +115,26 @@ Rome absorbe la Grèce politiquement mais en adopte la culture, au point que l'�
 
 > [!question] Débat : le mirage spartiate
 > Presque tout ce que l'on sait de Sparte vient de non-Spartiates, souvent admirateurs (Xénophon, Plutarque, plusieurs siècles plus tard pour ce dernier). François Ollier a nommé en 1933 ce phénomène le « mirage spartiate » : une image idéalisée de cité austère, égalitaire et guerrière, reprise par Rousseau, par les révolutionnaires, puis instrumentalisée par les régimes autoritaires du XXe siècle. Les historiens récents insistent sur les inégalités de richesse entre Spartiates et sur le rôle central de la domination sur les hilotes.
+
+## Questions de révision
+
+> [!quiz] Pourquoi peut-on dire que la Grèce antique n'a jamais été un État ?
+> C'était un monde de plusieurs centaines de cités indépendantes, souvent rivales, qui partageaient seulement une langue, des dieux, des sanctuaires et des jeux communs. Le relief cloisonné par les montagnes favorise cette fragmentation politique.
+
+> [!quiz] Qu'est-ce que la *polis* apparue aux VIIIe-VIIe siècles av. J.-C. ?
+> Une communauté de citoyens qui se gouverne elle-même, avec une ville, un territoire agricole, des dieux protecteurs et des institutions.
+
+> [!quiz] Pourquoi, à Athènes, le tirage au sort était-il préféré à l'élection ?
+> Le tirage au sort était considéré comme la procédure démocratique par excellence, alors que l'élection passait pour aristocratique. Les stratèges, chefs militaires, faisaient exception et étaient élus.
+
+> [!quiz] En quoi la démocratie athénienne est-elle directe mais pas universelle ?
+> Les citoyens votent eux-mêmes les décisions, mais seuls les hommes adultes nés de parents athéniens sont citoyens : femmes, métèques et esclaves sont exclus. Le temps consacré à la politique repose en partie sur le travail servile et les tributs de l'empire athénien.
+
+> [!quiz] Selon Thucydide, quelle est la cause profonde de la guerre du Péloponnèse ?
+> La peur suscitée à Sparte par la croissance de la puissance athénienne.
+
+> [!quiz] Qu'appelle-t-on le « mirage spartiate » ?
+> L'image idéalisée d'une Sparte austère, égalitaire et guerrière, transmise surtout par des auteurs non spartiates ; François Ollier a nommé ce phénomène en 1933.
 
 ## Ressources
 

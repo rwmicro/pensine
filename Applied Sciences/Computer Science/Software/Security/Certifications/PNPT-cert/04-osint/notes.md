@@ -14,23 +14,17 @@ L'OSINT, c'est tout ce qu'on apprend sur une cible sans jamais lui envoyer un se
 
 L'OSINT n'est pas une checklist plate — c'est un entonnoir qui transforme une cible large en surface d'attaque concrète.
 
-```
-                  [Entreprise cible]
-                         │
-        ┌────────────────┼────────────────┐
-        ▼                ▼                ▼
-   Domaines         Personnes        Infrastructure
-   (DNS, certs)    (LinkedIn,        (IPs, services,
-                    emails, leaks)    technos)
-        │                │                │
-        ▼                ▼                ▼
-  Sous-domaines    Format d'email   Services exposés
-  oubliés          + employés       (Shodan, scans)
-        │                │                │
-        └────────────────┼────────────────┘
-                         ▼
-                  Surface d'attaque
-                  (cibles concrètes)
+```mermaid
+flowchart TD
+    E["Entreprise cible"] --> D["Domaines\n(DNS, certs)"]
+    E --> P["Personnes\n(LinkedIn, emails, leaks)"]
+    E --> I["Infrastructure\n(IPs, services, technos)"]
+    D --> D2["Sous-domaines oubliés"]
+    P --> P2["Format d'email + employés"]
+    I --> I2["Services exposés\n(Shodan, scans)"]
+    D2 --> S["Surface d'attaque\n(cibles concrètes)"]
+    P2 --> S
+    I2 --> S
 ```
 
 À chaque étape, on cherche à corréler : un email trouvé via Hunter doit être recoupé avec HaveIBeenPwned, qui peut donner un mot de passe d'une vieille fuite, qui peut être réutilisé sur le portail VPN identifié par sous-domaine.

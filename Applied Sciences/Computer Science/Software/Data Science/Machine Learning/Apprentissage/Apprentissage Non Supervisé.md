@@ -11,11 +11,11 @@ date: "2026-02-22"
 L'apprentissage **non supervisé** est un type d'apprentissage où l'on ne dispose **d'aucune étiquette** (label). Le modèle doit découvrir par lui-même la **structure cachée** des données.
 
 ```mermaid
-graph TB
-    NSUP["Apprentissage Non Supervisé"] --> CLUST["Clustering<br/>Regrouper les données similaires"]
-    NSUP --> DIM["Réduction de dimensionnalité<br/>Simplifier les données"]
-    NSUP --> ASSOC["Règles d'association<br/>Trouver des relations"]
-    NSUP --> ANOM["Détection d'anomalies<br/>Identifier les outliers"]
+flowchart TB
+    NSUP["Apprentissage Non Supervisé"] --> CLUST["Clustering\nRegrouper les données similaires"]
+    NSUP --> DIM["Réduction de dimensionnalité\nSimplifier les données"]
+    NSUP --> ASSOC["Règles d'association\nTrouver des relations"]
+    NSUP --> ANOM["Détection d'anomalies\nIdentifier les outliers"]
 
     style NSUP fill:#673AB7,color:#fff
     style CLUST fill:#2196F3,color:#fff
@@ -39,9 +39,9 @@ L'algorithme de clustering le plus populaire.
 4. Répéter 2-3 jusqu'à convergence
 
 ```mermaid
-graph LR
-    INIT["1. Initialiser K<br/>centroïdes aléatoires"] --> ASSIGN["2. Assigner chaque<br/>point au plus proche"]
-    ASSIGN --> UPDATE["3. Recalculer<br/>les centroïdes"]
+flowchart LR
+    INIT["1. Initialiser K\ncentroïdes aléatoires"] --> ASSIGN["2. Assigner chaque\npoint au plus proche"]
+    ASSIGN --> UPDATE["3. Recalculer\nles centroïdes"]
     UPDATE --> CONV{"Convergence ?"}
     CONV --> |"Non"| ASSIGN
     CONV --> |"Oui"| DONE["Clusters finaux"]
@@ -117,10 +117,10 @@ Trouve les **axes de variance maximale** dans les données et projette sur ces a
 4. Projeter sur les $k$ premiers vecteurs propres
 
 ```mermaid
-graph LR
-    HD["Données haute dimension<br/>(ex: 100 features)"] --> PCA2["PCA"]
-    PCA2 --> LD["Données réduites<br/>(ex: 2 features)"]
-    LD --> VIZ["Visualisation<br/>possible en 2D/3D"]
+flowchart LR
+    HD["Données haute dimension\n(ex: 100 features)"] --> PCA2["PCA"]
+    PCA2 --> LD["Données réduites\n(ex: 2 features)"]
+    LD --> VIZ["Visualisation\npossible en 2D/3D"]
 
     style HD fill:#F44336,color:#fff
     style PCA2 fill:#FF9800,color:#fff
@@ -180,10 +180,10 @@ L'algorithme fonctionne en deux étapes :
 **Principe clé (propriété anti-monotone) :** si un itemset est rare, tous ses sur-ensembles le sont aussi. Cela permet d'**élaguer** l'espace de recherche massivement.
 
 ```mermaid
-graph TD
-    I1["Items individuels<br/>{pain}, {beurre}, {lait}, {oeufs}"] --> |"Garder si support ≥ seuil"| I2["Paires fréquentes<br/>{pain, beurre}, {pain, lait}"]
-    I2 --> |"Garder si support ≥ seuil"| I3["Triplets fréquents<br/>{pain, beurre, lait}"]
-    I3 --> RULES["Règles d'association<br/>pain ∧ beurre → lait (conf: 0.8)"]
+flowchart TD
+    I1["Items individuels\n{pain}, {beurre}, {lait}, {oeufs}"] --> |"Garder si support ≥ seuil"| I2["Paires fréquentes\n{pain, beurre}, {pain, lait}"]
+    I2 --> |"Garder si support ≥ seuil"| I3["Triplets fréquents\n{pain, beurre, lait}"]
+    I3 --> RULES["Règles d'association\npain ∧ beurre → lait (conf: 0.8)"]
 
     style I1 fill:#2196F3,color:#fff
     style RULES fill:#4CAF50,color:#fff
@@ -201,12 +201,12 @@ Identifier des points de données qui **dévient significativement** du comporte
 Idée : les anomalies sont **faciles à isoler**. L'algorithme construit des arbres de décision aléatoires et mesure combien de splits il faut pour isoler un point. Les anomalies nécessitent **moins de splits**.
 
 ```mermaid
-graph LR
+flowchart LR
     subgraph "Point normal"
-        N["Profondeur élevée<br/>(beaucoup de splits<br/>pour l'isoler)"]
+        N["Profondeur élevée\n(beaucoup de splits\npour l'isoler)"]
     end
     subgraph "Anomalie"
-        A["Profondeur faible<br/>(isolée rapidement)"]
+        A["Profondeur faible\n(isolée rapidement)"]
     end
 
     style N fill:#4CAF50,color:#fff
@@ -226,15 +226,15 @@ graph LR
 ## Quand utiliser quel algorithme ?
 
 ```mermaid
-graph TD
+flowchart TD
     START{"Objectif ?"}
     START --> |"Regrouper"| CLUST2{"Connaît-on K ?"}
-    START --> |"Visualiser"| DIM2{"Besoin de<br/>reproductibilité ?"}
-    START --> |"Trouver des<br/>relations"| APRIORI["Apriori"]
-    START --> |"Détecter des<br/>anomalies"| IF["Isolation Forest"]
+    START --> |"Visualiser"| DIM2{"Besoin de\nreproductibilité ?"}
+    START --> |"Trouver des\nrelations"| APRIORI["Apriori"]
+    START --> |"Détecter des\nanomalies"| IF["Isolation Forest"]
 
     CLUST2 --> |"Oui"| KM["K-Means"]
-    CLUST2 --> |"Non"| SHAPE{"Forme des<br/>clusters ?"}
+    CLUST2 --> |"Non"| SHAPE{"Forme des\nclusters ?"}
     SHAPE --> |"Sphérique"| KM
     SHAPE --> |"Arbitraire"| DBSCAN2["DBSCAN"]
     SHAPE --> |"Hiérarchique"| CAH2["CAH"]

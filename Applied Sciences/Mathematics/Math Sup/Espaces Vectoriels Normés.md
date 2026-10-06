@@ -230,19 +230,19 @@ Elle vérifie : $\|f(x)\| \leq \|\|f\|\| \cdot \|x\|$ pour tout $x$.
 ## Résumé : dimension finie vs infinie
 
 ```mermaid
-graph TD
+flowchart TD
     A["Espace vectoriel normé"] --> B{"Dimension ?"}
-    B -->|Finie| C["Toutes les normes<br/>sont équivalentes"]
-    B -->|Infinie| D["Les normes peuvent<br/>ne pas être équivalentes"]
+    B -->|Finie| C["Toutes les normes\nsont équivalentes"]
+    B -->|Infinie| D["Les normes peuvent\nne pas être équivalentes"]
 
-    C --> E["Toute application<br/>linéaire est continue"]
-    D --> F["Une application linéaire<br/>peut être discontinue"]
+    C --> E["Toute application\nlinéaire est continue"]
+    D --> F["Une application linéaire\npeut être discontinue"]
 
-    C --> G["Fermé + borné<br/>= compact"]
-    D --> H["Fermé + borné<br/>≠ compact en général"]
+    C --> G["Fermé + borné\n= compact"]
+    D --> H["Fermé + borné\n≠ compact en général"]
 
-    C --> I["Cauchy ⟹ convergente<br/>(complet)"]
-    D --> J["Pas toujours complet<br/>(Banach = complet)"]
+    C --> I["Cauchy ⟹ convergente\n(complet)"]
+    D --> J["Pas toujours complet\n(Banach = complet)"]
 
     style C fill:#C8E6C9
     style E fill:#C8E6C9

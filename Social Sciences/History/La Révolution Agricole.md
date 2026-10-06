@@ -6,6 +6,7 @@ tags: [sciences-sociales, histoire]
 date: "2026-02-28"
 year: -10000
 period: "Néolithique"
+parcours: "Histoire : de l'Antiquité au XXe siècle"
 ---
 
 # La Révolution Agricole
@@ -108,3 +109,23 @@ Une fois engagé dans l'agriculture, il est très difficile pour un groupe de fa
 
 > [!tip] Méthode
 > Ce mécanisme d'irréversibilité est un cliquet démographique, pas un choix rationnel répété : dès qu'un groupe voisin adopte l'agriculture, tous les autres sont contraints de suivre ou de disparaître numériquement, indépendamment de leurs préférences individuelles. Utile pour repérer le même type de dynamique ailleurs — une innovation n'a pas besoin d'être meilleure pour la personne pour devenir universelle, il suffit qu'elle avantage la reproduction du groupe qui l'adopte.
+
+## Questions de révision
+
+> [!quiz] Qu'est-ce que la révolution agricole, et où commence-t-elle ?
+> La transition de sociétés de chasseurs-cueilleurs vers des sociétés d'agriculteurs-éleveurs. Elle commence au Proche-Orient (Croissant fertile) vers 10 000 av. J.-C., puis se produit de façon indépendante dans d'autres régions (Chine, Amérique centrale, Nouvelle-Guinée, Afrique subsaharienne).
+
+> [!quiz] Quel paradoxe espèce/individu caractérise la révolution agricole ?
+> Elle a amélioré le sort de l'espèce (populations plus nombreuses et plus denses) mais a souvent dégradé celui de l'individu : alimentation moins variée, travail plus dur, nouvelles maladies, inégalités et squelettes moins robustes.
+
+> [!quiz] Pourquoi l'agriculture et l'élevage ont-ils favorisé de nouvelles maladies infectieuses ?
+> Le contact permanent avec les animaux domestiques a permis à des maladies animales de passer à l'humain, comme la grippe, la variole ou la rougeole.
+
+> [!quiz] Pourquoi l'écriture a-t-elle été inventée, selon la note ?
+> Pour la comptabilité : les premières tablettes sumériennes sont des listes de stocks, de dettes et de rations. C'est d'abord un outil de gestion des surplus.
+
+> [!quiz] Pourquoi la révolution agricole est-elle pratiquement irréversible ?
+> Les populations agricoles croissent plus vite ; en cas de compétition pour les terres, les agriculteurs plus nombreux déplacent les chasseurs-cueilleurs. C'est un cliquet démographique, pas un choix rationnel : l'agriculture avantage la multiplication du groupe, pas forcément l'individu.
+
+> [!quiz] Que veut dire la formule « le blé a domestiqué les humains » ?
+> Du point de vue du blé, l'agriculture est un succès évolutif immense : l'espèce s'est répandue sur toute la planète en amenant des millions d'humains à labourer, irriguer, désherber et protéger ses cultures.

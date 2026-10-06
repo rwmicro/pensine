@@ -18,15 +18,15 @@ Une démonstration mathématique est une chaîne d'arguments rigoureuse qui mèn
 ```mermaid
 flowchart TB
     Methode["Méthodes de démonstration"]
-    Methode --> Direct["Directe<br/>déduction"]
+    Methode --> Direct["Directe\ndéduction"]
     Methode --> Contrap["Contraposée"]
     Methode --> Absurde["Par l'absurde"]
     Methode --> Rec["Récurrence"]
     Methode --> AS["Analyse-synthèse"]
-    Methode --> DI["Double inclusion<br/>ou implication"]
-    Methode --> DC["Disjonction<br/>de cas"]
+    Methode --> DI["Double inclusion\nou implication"]
+    Methode --> DC["Disjonction\nde cas"]
     Methode --> CE["Contre-exemple"]
-    Methode --> Tiroir["Principe<br/>des tiroirs"]
+    Methode --> Tiroir["Principe\ndes tiroirs"]
     Methode --> Equi["Par équivalence"]
 ```
 

@@ -43,9 +43,9 @@ Les quatre équations de Maxwell unifient électricité, magnétisme et optique.
 flowchart LR
     A["Charges ρ"] -->|"Maxwell-Gauss"| B["Champ E"]
     C["Courants j"] -->|"Maxwell-Ampère"| D["Champ B"]
-    B -->|"∂E/∂t<br/>(courant de déplacement)"| D
-    D -->|"∂B/∂t<br/>(Maxwell-Faraday)"| B
-    B --> E["Onde électromagnétique<br/>se propageant à c"]
+    B -->|"∂E/∂t\n(courant de déplacement)"| D
+    D -->|"∂B/∂t\n(Maxwell-Faraday)"| B
+    B --> E["Onde électromagnétique\nse propageant à c"]
     D --> E
 ```
 

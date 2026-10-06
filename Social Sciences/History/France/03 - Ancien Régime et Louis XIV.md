@@ -7,6 +7,7 @@ date: "2026-09-16"
 stage: budding
 year: 1610
 yearEnd: 1789
+prerequis: ["[[Réforme protestante]]"]
 ---
 
 # L'Ancien Régime et Louis XIV (XVIIe-XVIIIe siècle)
@@ -66,6 +67,26 @@ Le règne de Louis XIV est presque continuellement en guerre : guerre de Dévolu
 ## Louis XV et Louis XVI : l'immobilisme face à la crise
 
 Sous Louis XV (1715-1774) puis Louis XVI (1774-1792), la situation financière du royaume se dégrade encore, aggravée par le soutien coûteux apporté aux insurgents américains contre l'Angleterre (1778-1783). Plusieurs ministres — Turgot, puis Necker — tentent des réformes fiscales pour faire contribuer la noblesse et le clergé à l'impôt, mais se heurtent systématiquement à l'opposition des parlements et des privilégiés, qui refusent de renoncer à leurs exemptions. Cet échec répété à réformer un système à bout de souffle prépare directement la convocation des États généraux en 1789 et l'ouverture de la [[04 - La Révolution française]].
+
+## Questions de révision
+
+> [!quiz] Quels sont les deux piliers de l'Ancien Régime ?
+> Une monarchie de droit divin, où le roi tient son pouvoir de Dieu et n'en répond à aucune assemblée élue, et une société divisée en trois ordres juridiquement inégaux : clergé, noblesse et tiers état.
+
+> [!quiz] À quoi servent les intendants développés sous Richelieu ?
+> Ce sont des administrateurs royaux envoyés dans les provinces pour y appliquer la politique du roi en contournant les seigneurs locaux.
+
+> [!quiz] Quelle leçon Louis XIV tire-t-il de la Fronde ?
+> Que la noblesse frondeuse et Paris sont des menaces à neutraliser ; à la mort de Mazarin en 1661, il décide de gouverner sans premier ministre.
+
+> [!quiz] Pourquoi Versailles est-il un outil de gouvernement et pas seulement une vitrine ?
+> En obligeant la haute noblesse à résider à la cour et à s'occuper de rituels, de préséances et d'intrigues, Louis XIV transforme des guerriers politiquement dangereux en courtisans dépendants de ses faveurs.
+
+> [!quiz] Quelles sont les conséquences de la révocation de l'édit de Nantes en 1685 ?
+> Elle supprime la tolérance accordée aux protestants depuis 1598 et provoque l'exil de nombreux huguenots, souvent artisans et commerçants qualifiés, ce qui affaiblit l'économie du royaume au profit des pays d'accueil.
+
+> [!quiz] Pourquoi l'absolutisme n'est-il pas un pouvoir sans limites ?
+> Le roi doit composer avec les coutumes locales, les parlements qui enregistrent les lois et les privilèges des provinces et de l'Église : c'est une concentration du pouvoir dans le cadre de la société d'ordres, pas son abolition.
 
 ## Ressources
 

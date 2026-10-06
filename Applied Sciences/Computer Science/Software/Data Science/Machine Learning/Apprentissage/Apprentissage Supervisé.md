@@ -11,12 +11,12 @@ date: "2026-02-25"
 L'apprentissage supervisé est un type d'apprentissage où l'on connaît déjà le résultat. On fournit au modèle des **données étiquetées** (input + output attendu) et il apprend à prédire la bonne réponse.
 
 ```mermaid
-graph LR
+flowchart LR
     subgraph "Apprentissage Supervisé"
-        D["Données étiquetées<br/>(X, y)"] --> M["Modèle"]
+        D["Données étiquetées\n(X, y)"] --> M["Modèle"]
         M --> P["Prédictions ŷ"]
-        P --> L["Fonction de perte<br/>Compare ŷ vs y"]
-        L --> |"Mise à jour<br/>des poids"| M
+        P --> L["Fonction de perte\nCompare ŷ vs y"]
+        L --> |"Mise à jour\ndes poids"| M
     end
 
     style D fill:#2196F3,color:#fff
@@ -27,9 +27,9 @@ graph LR
 Les deux grands types de problèmes supervisés :
 
 ```mermaid
-graph TB
-    SUP["Apprentissage Supervisé"] --> CLASS["Classification<br/>Prédire une catégorie"]
-    SUP --> REGR["Régression<br/>Prédire une valeur continue"]
+flowchart TB
+    SUP["Apprentissage Supervisé"] --> CLASS["Classification\nPrédire une catégorie"]
+    SUP --> REGR["Régression\nPrédire une valeur continue"]
 
     CLASS --> EX1["Spam / Pas spam"]
     CLASS --> EX2["Chat / Chien"]
@@ -58,12 +58,12 @@ Le résultat $\sigma(z)$ s'interprète comme une **probabilité** $P(y=1 \mid x)
 $$\hat{y} = \begin{cases} 1 & \text{si } \sigma(z) \geq 0.5 \\ 0 & \text{sinon} \end{cases}$$
 
 ```mermaid
-graph LR
-    X["Features x"] --> LIN["Combinaison linéaire<br/>z = wᵀx + b"]
-    LIN --> SIG["Sigmoïde<br/>σ(z) = 1/(1+e⁻ᶻ)"]
-    SIG --> PROB["Probabilité P(y=1|x)<br/>entre 0 et 1"]
+flowchart LR
+    X["Features x"] --> LIN["Combinaison linéaire\nz = wᵀx + b"]
+    LIN --> SIG["Sigmoïde\nσ(z) = 1/(1+e⁻ᶻ)"]
+    SIG --> PROB["Probabilité P(y=1|x)\nentre 0 et 1"]
     PROB --> SEUIL["Seuil (0.5)"]
-    SEUIL --> CLASS["Classe prédite<br/>0 ou 1"]
+    SEUIL --> CLASS["Classe prédite\n0 ou 1"]
 
     style SIG fill:#FF9800,color:#fff
     style CLASS fill:#4CAF50,color:#fff
@@ -107,11 +107,11 @@ L'objectif est de trouver une courbe minimisant au maximum la distance entre les
 	
 
 ```mermaid
-graph LR
+flowchart LR
     subgraph "Régression : minimiser la distance aux points"
         direction TB
-        PTS["Nuage de points<br/>(x, y)"] --> FIT["Trouver la droite/courbe<br/>qui minimise l'erreur totale"]
-        FIT --> PRED["Prédire y pour<br/>un nouveau x"]
+        PTS["Nuage de points\n(x, y)"] --> FIT["Trouver la droite/courbe\nqui minimise l'erreur totale"]
+        FIT --> PRED["Prédire y pour\nun nouveau x"]
     end
 
     style FIT fill:#FF9800,color:#fff
@@ -128,11 +128,11 @@ graph LR
 La **descente de gradient** est un **algorithme d'optimisation** utilisé pour **ajuster les coefficients** (ou poids) dans les modèles de régression linéaire. Son objectif est de **minimiser la fonction de coût** (généralement l'**erreur quadratique moyenne**, MSE) en ajustant progressivement les coefficients dans la direction qui réduit cette erreur.
 
 ```mermaid
-graph TD
+flowchart TD
     subgraph "Principe de la descente de gradient"
-        INIT["Initialisation aléatoire<br/>des poids w"] --> CALC["Calculer le gradient<br/>∂J/∂w"]
-        CALC --> UPDATE["Mettre à jour :<br/>w = w - α × gradient"]
-        UPDATE --> CHECK{"Convergence<br/>atteinte ?"}
+        INIT["Initialisation aléatoire\ndes poids w"] --> CALC["Calculer le gradient\n∂J/∂w"]
+        CALC --> UPDATE["Mettre à jour :\nw = w - α × gradient"]
+        UPDATE --> CHECK{"Convergence\natteinte ?"}
         CHECK --> |"Non"| CALC
         CHECK --> |"Oui"| DONE["Poids optimaux trouvés"]
     end
@@ -169,10 +169,10 @@ Types de descente de gradient
     - **Rapide et stable**.
 
 ```mermaid
-graph LR
+flowchart LR
     subgraph "Comparaison des types de descente"
-        BATCH["Batch GD<br/>Tous les exemples<br/>Stable mais lent"] ---|compromis| MINI["Mini-batch GD<br/>Lots partiels<br/>Rapide et stable"]
-        MINI ---|compromis| SGD2["SGD<br/>1 exemple<br/>Rapide mais bruyant"]
+        BATCH["Batch GD\nTous les exemples\nStable mais lent"] ---|compromis| MINI["Mini-batch GD\nLots partiels\nRapide et stable"]
+        MINI ---|compromis| SGD2["SGD\n1 exemple\nRapide mais bruyant"]
     end
 
     style BATCH fill:#2196F3,color:#fff
@@ -300,12 +300,12 @@ $$P(y \mid x_1, \dots, x_n) \propto P(y) \prod_{i=1}^{n} P(x_i \mid y)$$
 > L'hypothèse d'indépendance est presque toujours fausse en pratique — dans un texte, les mots ne sont pas indépendants entre eux ("New" et "York" apparaissent ensemble bien plus souvent que par hasard). Pourtant l'algorithme reste étonnamment performant, en particulier en classification de texte, car ce qui compte pour classer correctement est souvent l'ordre de grandeur relatif entre classes, pas la probabilité exacte.
 
 ```mermaid
-graph LR
+flowchart LR
     X["Nouvelle donnée x"] --> P1["P(y=spam) × P(x₁|spam) × P(x₂|spam) × ..."]
     X --> P2["P(y=non-spam) × P(x₁|non-spam) × P(x₂|non-spam) × ..."]
     P1 --> COMP{"Comparer"}
     P2 --> COMP
-    COMP --> OUT["Classe avec la<br/>probabilité la plus élevée"]
+    COMP --> OUT["Classe avec la\nprobabilité la plus élevée"]
 
     style OUT fill:#4CAF50,color:#fff
 ```
@@ -356,12 +356,12 @@ $$J(w) = \frac{\text{variance inter-classe}}{\text{variance intra-classe}} = \fr
 | **Usage** | Compression, visualisation générale | Classification, réduction de dimension pour données labellisées |
 
 ```mermaid
-graph LR
+flowchart LR
     subgraph "PCA (non supervisé)"
-        D1["Données"] --> AXE1["Axe de variance<br/>maximale (ignore les classes)"]
+        D1["Données"] --> AXE1["Axe de variance\nmaximale (ignore les classes)"]
     end
     subgraph "LDA (supervisé)"
-        D2["Données + labels"] --> AXE2["Axe qui sépare<br/>le mieux les classes"]
+        D2["Données + labels"] --> AXE2["Axe qui sépare\nle mieux les classes"]
     end
 
     style AXE2 fill:#4CAF50,color:#fff

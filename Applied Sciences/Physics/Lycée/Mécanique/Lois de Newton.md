@@ -124,10 +124,10 @@ class PlanIncline(Scene):
 
 ```mermaid
 flowchart TD
-    A["Bilan des forces sur le système"] --> B{"Somme des forces<br/>= vecteur nul ?"}
-    B -->|Oui| C["1re loi : vitesse constante<br/>(repos ou MRU)"]
-    B -->|Non| D["2e loi : a = ΣF / m<br/>le mouvement change"]
-    A --> E["3e loi : toute force a<br/>une réaction sur l'autre corps"]
+    A["Bilan des forces sur le système"] --> B{"Somme des forces\n= vecteur nul ?"}
+    B -->|Oui| C["1re loi : vitesse constante\n(repos ou MRU)"]
+    B -->|Non| D["2e loi : a = ΣF / m\nle mouvement change"]
+    A --> E["3e loi : toute force a\nune réaction sur l'autre corps"]
 ```
 
 ## 5. Mouvement circulaire et satellites

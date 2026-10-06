@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie]
 date: "2026-02-19"
+prerequis: ["[[Hume]]", "[[Leibniz]]"]
 ---
 
 # Emmanuel Kant (1724-1804)
@@ -324,6 +325,26 @@ Bien que la raison théorique ne puisse **prouver** ces trois idées, la raison 
 ### En Épistémologie
 - **Constructivisme** : La connaissance structure la réalité
 - **Sciences cognitives** : Catégories mentales innées (débat)
+
+## Questions de révision
+
+> [!quiz] En quoi consiste la révolution copernicienne de Kant ?
+> Au lieu de supposer que l'esprit se règle sur les objets, Kant suppose que les objets se règlent sur notre esprit. L'esprit fournit non le contenu de l'expérience mais sa forme (espace, temps, catégories).
+
+> [!quiz] Pourquoi 7 + 5 = 12 est-il pour Kant un jugement synthétique a priori ?
+> Synthétique, car le concept de 12 n'est pas contenu dans celui de la somme de 7 et 5 ; a priori, car il est universel et nécessaire, indépendant de l'expérience.
+
+> [!quiz] Quelle distinction Kant fait-il entre phénomènes et choses en soi ?
+> Nous ne connaissons que les phénomènes, les choses telles qu'elles nous apparaissent à travers les formes de notre esprit ; les choses en soi (noumènes) restent inconnaissables.
+
+> [!quiz] Comment la formule de l'universalité de l'impératif catégorique condamne-t-elle le mensonge ?
+> Elle demande d'agir seulement selon une maxime qu'on peut vouloir voir devenir loi universelle. Si tout le monde mentait, la confiance disparaîtrait et le mensonge se détruirait lui-même : la maxime ne peut être universalisée.
+
+> [!quiz] Quelle différence entre autonomie et hétéronomie de la volonté ?
+> Une volonté autonome se donne à elle-même sa loi morale par la raison ; une volonté hétéronome reçoit sa loi de l'extérieur (autorité, plaisir, Dieu).
+
+> [!quiz] Quels sont les trois postulats de la raison pratique ?
+> La liberté, l'immortalité de l'âme et l'existence de Dieu. La raison théorique ne peut les prouver, mais la morale les exige : tu dois, donc tu peux ; un progrès moral infini ; l'harmonie entre vertu et bonheur.
 
 ## Ressources
 

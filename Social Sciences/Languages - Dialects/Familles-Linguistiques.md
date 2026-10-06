@@ -11,39 +11,35 @@ Les ~7000 langues du monde se regroupent en **~150 familles linguistiques**. Une
 
 ## Vue d'ensemble — les 16 langues du vault
 
-```
-LANGUES INDO-EUROPÉENNES
-├── Germaniques
-│   ├── Anglais
-│   └── Allemand
-├── Romanes
-│   ├── Espagnol
-│   └── Roumain
-└── Indo-iraniennes
-    └── Hindi
-
-LANGUES TURCIQUES
-├── Turc (oghouz occidental)
-└── Azéri (oghouz occidental)
-
-LANGUES SINO-TIBÉTAINES
-├── Mandarin (sinitique)
-└── Hakka-Khek (sinitique)
-
-LANGUES AUSTRONÉSIENNES
-├── Indonésien (malayique)
-├── Malais (malayique)
-└── Sambas (malayique — dialecte)
-
-LANGUES DRAVIDIENNES
-└── Tamoul
-
-LANGUES AFRO-ASIATIQUES
-├── Arabe libanais (sémitique)
-└── Kabyle (berbère)
-
-LANGUES CRÉOLES (à base anglaise)
-└── Tok Pisin
+```mermaid
+mindmap
+  root["16 langues du vault"]
+    IE["Langues indo-européennes"]
+      G["Germaniques"]
+        G1["Anglais"]
+        G2["Allemand"]
+      Ro["Romanes"]
+        Ro1["Espagnol"]
+        Ro2["Roumain"]
+      II["Indo-iraniennes"]
+        II1["Hindi"]
+    Tu["Langues turciques"]
+      Tu1["Turc (oghouz occidental)"]
+      Tu2["Azéri (oghouz occidental)"]
+    ST["Langues sino-tibétaines"]
+      ST1["Mandarin (sinitique)"]
+      ST2["Hakka-Khek (sinitique)"]
+    Au["Langues austronésiennes"]
+      Au1["Indonésien (malayique)"]
+      Au2["Malais (malayique)"]
+      Au3["Sambas (malayique — dialecte)"]
+    Dr["Langues dravidiennes"]
+      Dr1["Tamoul"]
+    AA["Langues afro-asiatiques"]
+      AA1["Arabe libanais (sémitique)"]
+      AA2["Kabyle (berbère)"]
+    Cr["Langues créoles (à base anglaise)"]
+      Cr1["Tok Pisin"]
 ```
 
 ## Indo-européen — la plus grande famille

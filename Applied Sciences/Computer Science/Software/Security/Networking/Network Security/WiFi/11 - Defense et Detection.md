@@ -193,18 +193,15 @@ tshark -i wlan0mon -Y "wlan.fc.type_subtype == 0x0c" \
 
 ## Segmentation réseau
 
-```
-                    [Internet]
-                        |
-                    [Firewall]
-                        |
-        ┌───────────────┼───────────────┐
-        |               |               |
-   [VLAN 10]       [VLAN 20]       [VLAN 30]
-   Employés        Invités         IoT
-   ↕               ↕               ↕
-   Corporate-WiFi  Guest-WiFi      IoT-WiFi
-   (WPA3-Ent)      (WPA3 SAE)      (WPA2 + ACL)
+```mermaid
+flowchart TD
+    NET["Internet"] --> FW["Firewall"]
+    FW --> V10["VLAN 10 — Employés"]
+    FW --> V20["VLAN 20 — Invités"]
+    FW --> V30["VLAN 30 — IoT"]
+    V10 <--> W10["Corporate-WiFi (WPA3-Ent)"]
+    V20 <--> W20["Guest-WiFi (WPA3 SAE)"]
+    V30 <--> W30["IoT-WiFi (WPA2 + ACL)"]
 ```
 
 - Aucun trafic latéral entre VLANs (sauf flux contrôlés via firewall)

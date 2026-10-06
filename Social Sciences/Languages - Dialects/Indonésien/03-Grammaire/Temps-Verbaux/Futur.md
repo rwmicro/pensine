@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Indonésien > 02-Grammaire > Temps-Verbaux"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
+prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/Verbes]]", "[[Structure-Phrase]]"]
 ---
 
 # Future Tense in Indonesian
@@ -60,3 +61,17 @@ Simple way to indicate future without formal markers.
 | **nanti** | Neutral | General future | *Nanti aku datang* = "I'll come later" |
 
 *Note: In casual conversation, Indonesians often omit future markers entirely and rely on context or time indicators like "besok" (tomorrow), "minggu depan" (next week), etc.*
+
+## Questions de révision
+
+> [!quiz] Comment l'indonésien exprime-t-il le futur ?
+> Avec des marqueurs de temps, et non en conjuguant le verbe.
+
+> [!quiz] Quelle différence entre *akan* et *bakal* ?
+> Les deux marquent le futur devant le verbe : *akan* est formel (écrit, officiel), *bakal* est familier et courant à l'oral.
+
+> [!quiz] Que signifie *habis ini* et quel futur exprime-t-il ?
+> « Après ça » : il indique un futur immédiat (*Habis ini kita pergi*).
+
+> [!quiz] Dans la conversation, le futur est-il toujours marqué ?
+> Non : on omet souvent le marqueur et on s'appuie sur le contexte ou sur un mot de temps comme *besok* (demain).

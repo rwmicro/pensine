@@ -14,9 +14,9 @@ La **neurobiologie** (ou neurosciences) étudie le système nerveux — sa struc
 
 Le **neurone** est la cellule spécialisée du système nerveux. Il y en a environ **86 milliards** dans le cerveau humain.
 
-```
-Dendrites → Corps cellulaire (soma) → Axone → Terminaisons synaptiques
-  (reçoit)         (intègre)          (transmet)     (communique)
+```mermaid
+flowchart LR
+    A["Dendrites\n(reçoit)"] --> B["Corps cellulaire (soma)\n(intègre)"] --> C["Axone\n(transmet)"] --> D["Terminaisons synaptiques\n(communique)"]
 ```
 
 | Partie | Rôle |
@@ -67,19 +67,20 @@ La **synapse** est la zone de communication entre deux neurones (ou entre un neu
 
 ## Organisation du système nerveux
 
-```
-Système nerveux
-├── Central (SNC)
-│   ├── Cerveau
-│   │   ├── Cortex (fonctions cognitives)
-│   │   ├── Système limbique (émotions, mémoire)
-│   │   └── Cervelet (coordination motrice)
-│   └── Moelle épinière
-└── Périphérique (SNP)
-    ├── Somatique (volontaire — muscles squelettiques)
-    └── Autonome (involontaire)
-        ├── Sympathique (stress, "fight or flight")
-        └── Parasympathique (repos, "rest and digest")
+```mermaid
+mindmap
+  root("Système nerveux")
+    Central("Central (SNC)")
+      Cerveau("Cerveau")
+        ("Cortex (fonctions cognitives)")
+        ("Système limbique (émotions, mémoire)")
+        ("Cervelet (coordination motrice)")
+      ("Moelle épinière")
+    Peripherique("Périphérique (SNP)")
+      ("Somatique (volontaire — muscles squelettiques)")
+      Autonome("Autonome (involontaire)")
+        ("Sympathique (stress, fight or flight)")
+        ("Parasympathique (repos, rest and digest)")
 ```
 
 

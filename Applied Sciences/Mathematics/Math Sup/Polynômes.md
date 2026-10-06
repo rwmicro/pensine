@@ -50,12 +50,12 @@ $(K[X], +, \times)$ est un anneau commutatif unitaire intègre. Ses inversibles 
 
 ```mermaid
 flowchart TD
-    A["Diviser A par B"] --> B["Poser la division<br/>comme pour les entiers"]
-    B --> C["Diviser le terme de plus haut degré de A<br/>par le terme dominant de B"]
-    C --> D["Multiplier B par le résultat<br/>et soustraire de A"]
+    A["Diviser A par B"] --> B["Poser la division\ncomme pour les entiers"]
+    B --> C["Diviser le terme de plus haut degré de A\npar le terme dominant de B"]
+    C --> D["Multiplier B par le résultat\net soustraire de A"]
     D --> E{"deg(reste) < deg(B) ?"}
-    E -->|Oui| F["Terminé :<br/>Q = quotient, R = reste"]
-    E -->|Non| G["Recommencer avec<br/>le nouveau reste"]
+    E -->|Oui| F["Terminé :\nQ = quotient, R = reste"]
+    E -->|Non| G["Recommencer avec\nle nouveau reste"]
     G --> C
 ```
 
@@ -165,14 +165,14 @@ L'ensemble des fractions rationnelles $K(X)$ est un **corps** (le corps des frac
 ```mermaid
 flowchart TD
     A["F = P/Q"] --> B{"deg P ≥ deg Q ?"}
-    B -->|Oui| C["Division euclidienne<br/>F = E + R/Q avec deg R < deg Q"]
+    B -->|Oui| C["Division euclidienne\nF = E + R/Q avec deg R < deg Q"]
     B -->|Non| D["Factoriser Q"]
     C --> D
-    D --> E["Écrire la décomposition<br/>avec des coefficients indéterminés"]
+    D --> E["Écrire la décomposition\navec des coefficients indéterminés"]
     E --> F["Déterminer les coefficients"]
     F --> G["Méthode 1 : Multiplier et identifier"]
     F --> H["Méthode 2 : Valeurs particulières"]
-    F --> I["Méthode 3 : Limite en ∞<br/>pour le terme de plus haut degré"]
+    F --> I["Méthode 3 : Limite en ∞\npour le terme de plus haut degré"]
 ```
 
 ### Sur $\mathbb{C}$

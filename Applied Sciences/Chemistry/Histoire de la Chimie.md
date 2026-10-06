@@ -16,19 +16,19 @@ La chimie est l'une des sciences les plus tardives à émerger en tant que disci
 timeline
     title De l'alchimie à la chimie quantique
     -300 av. J.-C. : Aristote — les 4 éléments
-    VIIIe siècle : Jabir ibn Hayyan<br/>(distillation, acides)
-    XVIe siècle : Paracelse<br/>(iatrochimie)
-    1661 : Boyle<br/>The Sceptical Chymist
-    1789 : Lavoisier<br/>conservation de la masse
-    1808 : Dalton<br/>théorie atomique
-    1869 : Mendeleïev<br/>tableau périodique
-    1865 : Kekulé<br/>structure du benzène
-    1897 : Thomson<br/>électron
-    1911 : Rutherford<br/>noyau atomique
-    1913 : Bohr<br/>modèle atomique
-    1926 : Schrödinger<br/>mécanique quantique
-    1939 : Pauling<br/>liaison chimique
-    1953 : Watson & Crick<br/>structure ADN
+    VIIIe siècle : Jabir ibn Hayyan\n(distillation, acides)
+    XVIe siècle : Paracelse\n(iatrochimie)
+    1661 : Boyle\nThe Sceptical Chymist
+    1789 : Lavoisier\nconservation de la masse
+    1808 : Dalton\nthéorie atomique
+    1869 : Mendeleïev\ntableau périodique
+    1865 : Kekulé\nstructure du benzène
+    1897 : Thomson\nélectron
+    1911 : Rutherford\nnoyau atomique
+    1913 : Bohr\nmodèle atomique
+    1926 : Schrödinger\nmécanique quantique
+    1939 : Pauling\nliaison chimique
+    1953 : Watson & Crick\nstructure ADN
     XXIe siècle : Chimie verte, nano, computationnelle
 ```
 

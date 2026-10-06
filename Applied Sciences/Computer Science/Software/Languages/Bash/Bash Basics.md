@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Languages > Bash"
 tags: [sciences-appliquées, informatique, bash]
 date: "2026-02-16"
+prerequis: ["[[Fondamentaux]]"]
 ---
 
 # Bash Basics Cheat Sheet
@@ -273,3 +274,23 @@ Here’s a simple script that greets the user with the current date:
 # Greet the user
 echo "Hello, $(whoami)! Today is $(date +"%A, %B %d, %Y")."
 ```
+
+## Questions de révision
+
+> [!quiz] Quelle différence entre `"$@"` et `"$*"` entre guillemets ?
+> `"$@"` développe chaque argument comme un mot séparé, en préservant leurs espaces internes ; `"$*"` les fusionne en une seule chaîne. Dans une boucle sur les arguments, on utilise `"$@"`.
+
+> [!quiz] Que contiennent les variables spéciales `$?`, `$#` et `$$` ?
+> `$?` : le code de retour de la dernière commande ; `$#` : le nombre d'arguments ; `$$` : l'identifiant de processus du shell courant.
+
+> [!quiz] Quelle différence entre `command > file`, `command >> file` et `command 2> file` ?
+> `>` redirige la sortie standard en écrasant le fichier, `>>` l'ajoute à la fin du fichier, `2>` redirige la sortie d'erreur.
+
+> [!quiz] Quel opérateur de test compare deux entiers pour « supérieur ou égal », et lequel compare deux chaînes pour l'égalité ?
+> `-ge` pour les entiers (par exemple `[ $age -ge 18 ]`) ; `=` pour les chaînes (`[ "$str1" = "$str2" ]`).
+
+> [!quiz] Que fait `${str:7:5}` si `str="Hello, World!"` ?
+> Il extrait la sous-chaîne de 5 caractères commençant à la position 7 : `World`.
+
+> [!quiz] Quelles sont les étapes pour rendre un script Bash exécutable directement ?
+> Commencer le fichier par la ligne shebang `#!/bin/bash`, le rendre exécutable avec `chmod +x script.sh`, puis le lancer par `./script.sh`.

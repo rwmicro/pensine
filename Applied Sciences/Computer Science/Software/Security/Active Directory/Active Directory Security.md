@@ -15,51 +15,17 @@ Active Directory (AD) est le service d'annuaire de Microsoft qui centralise l'au
 
 ## Architecture AD — rappels essentiels
 
-```
-   Forest (forêt)
-   ────────────────────────────────────────────────────────
-                          │
-            ┌─────────────┼─────────────┐
-            ▼             ▼             ▼
-       Domain A      Domain B      Domain C
-       (parent)      (child)       (peer via Trust)
-            │
-            │ Trust = relation de confiance entre domaines
-            │ (Forest Trust, External Trust, Parent-Child...)
-            │
-   ┌────────┴──────────────────────────────────────┐
-   │ Domain : contoso.local                        │
-   │                                               │
-   │   ┌─────────────────────┐                     │
-   │   │ Domain Controllers  │ ◄── KDC, LDAP, DNS, │
-   │   │ (DC01, DC02...)     │     SMB, réplication│
-   │   │ stockent NTDS.dit   │                     │
-   │   └─────────────────────┘                     │
-   │                                               │
-   │   ┌─────────────────────┐    ┌──────────────┐ │
-   │   │ OU = Organizational │ ◄──┤ GPO          │ │
-   │   │ Units (conteneurs)  │    │ (Group Policy│ │
-   │   │                     │    │  Objects)    │ │
-   │   │  - OU=Finance       │    │              │ │
-   │   │  - OU=IT            │    │ → appliquées │ │
-   │   │  - OU=Servers       │    │   par OU     │ │
-   │   └─────────────────────┘    └──────────────┘ │
-   │              │                                │
-   │              │ contient                       │
-   │              ▼                                │
-   │   ┌─────────────────────┐                     │
-   │   │ Objets AD :         │                     │
-   │   │  - Users            │                     │
-   │   │  - Computers        │                     │
-   │   │  - Groups           │                     │
-   │   │  - Service Accounts │                     │
-   │   └─────────────────────┘                     │
-   │                                               │
-   │   ┌─────────────────────┐                     │
-   │   │ SYSVOL (partage SMB)│ ◄── scripts, GPO,   │
-   │   │ \\dc\SYSVOL\        │     parfois         │
-   │   └─────────────────────┘     credentials     │
-   └───────────────────────────────────────────────┘
+```mermaid
+flowchart TD
+    Forest["Forest (forêt)"] --> DomA["Domain A (parent)"]
+    Forest --> DomB["Domain B (child)"]
+    Forest --> DomC["Domain C (peer via Trust)"]
+    DomA -->|"Trust = relation de confiance entre domaines (Forest Trust, External Trust, Parent-Child...)"| Dom["Domain : contoso.local"]
+    Dom --> DC["Domain Controllers (DC01, DC02...)\nstockent NTDS.dit\nKDC, LDAP, DNS, SMB, réplication"]
+    Dom --> OU["OU = Organizational Units (conteneurs)\n- OU=Finance\n- OU=IT\n- OU=Servers"]
+    GPO["GPO (Group Policy Objects)\n→ appliquées par OU"] --> OU
+    OU -->|contient| Objets["Objets AD :\n- Users\n- Computers\n- Groups\n- Service Accounts"]
+    Dom --> SYSVOL["SYSVOL (partage SMB)\n\\dc\\SYSVOL\\\nscripts, GPO, parfois credentials"]
 ```
 
 > [!tip] À retenir
@@ -74,12 +40,13 @@ Composants clés pour la sécurité :
 
 ## Authentification Kerberos
 
-```
-1. Client → KDC (AS-REQ) : demande un TGT en envoyant le hash NTLM
-2. KDC → Client (AS-REP) : TGT chiffré avec le hash du compte krbtgt
-3. Client → KDC (TGS-REQ) : présente le TGT pour demander un Service Ticket
-4. KDC → Client (TGS-REP) : Service Ticket chiffré avec le hash du compte de service
-5. Client → Service (AP-REQ) : présente le Service Ticket
+```mermaid
+sequenceDiagram
+    Client->>KDC: AS-REQ : demande un TGT en envoyant le hash NTLM
+    KDC->>Client: AS-REP : TGT chiffré avec le hash du compte krbtgt
+    Client->>KDC: TGS-REQ : présente le TGT pour demander un Service Ticket
+    KDC->>Client: TGS-REP : Service Ticket chiffré avec le hash du compte de service
+    Client->>Service: AP-REQ : présente le Service Ticket
 ```
 
 ## Reconnaissance et énumération

@@ -236,13 +236,13 @@ liste.sort(compose);
 
 ## Collections génériques — interfaces principales
 
-```
-Iterable<T>
-└── Collection<T>
-    ├── List<T>      → ArrayList, LinkedList
-    ├── Set<T>       → HashSet, TreeSet, LinkedHashSet
-    └── Queue<T>     → ArrayDeque, PriorityQueue
-Map<K, V>            → HashMap, TreeMap, LinkedHashMap
+```mermaid
+flowchart TD
+    Iterable["Iterable<T>"] --> Collection["Collection<T>"]
+    Collection --> List["List<T> → ArrayList, LinkedList"]
+    Collection --> Set["Set<T> → HashSet, TreeSet, LinkedHashSet"]
+    Collection --> Queue["Queue<T> → ArrayDeque, PriorityQueue"]
+    Map["Map<K, V> → HashMap, TreeMap, LinkedHashMap"]
 ```
 
 ```java

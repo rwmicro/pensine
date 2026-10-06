@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Hardware"
 tags: [sciences-appliquées, informatique, binaire, logique, ieee-754, circuits, booléen]
 date: "2026-02-25"
+parcours: "Informatique : de la machine au système"
 ---
 
 # Systèmes Numériques
@@ -360,6 +361,26 @@ def toggle_bit(n, i): return n ^ (1 << i)
 # Compter les bits à 1 (popcount)
 bin(42).count('1')   # 3
 ```
+
+## Questions de révision
+
+> [!quiz] Pourquoi peut-on convertir directement l'hexadécimal en binaire chiffre par chiffre ?
+> Parce que 16 = 2⁴ : chaque chiffre hexadécimal correspond exactement à 4 bits.
+
+> [!quiz] Quelle est la plage d'un entier signé sur n bits en complément à 2, et comment obtient-on l'opposé d'un nombre ?
+> De $-2^{n-1}$ à $2^{n-1}-1$. On inverse tous les bits puis on ajoute 1.
+
+> [!quiz] Pourquoi le complément à 2 s'est-il imposé pour représenter les entiers signés ?
+> Il permet d'additionner entiers signés et non signés avec le même circuit, sans logique spéciale pour le signe, contrairement au signe-magnitude ou au complément à 1.
+
+> [!quiz] Pourquoi `0.1 + 0.2 == 0.3` est-il faux en virgule flottante IEEE 754 ?
+> 0,1 et 0,2 n'ont pas de représentation binaire finie : l'erreur d'arrondi est inhérente au format. On compare avec une tolérance (`math.isclose`) ou, pour l'argent, un type décimal exact.
+
+> [!quiz] Énoncez les lois de De Morgan.
+> $\neg(A + B) = \neg A \cdot \neg B$ et $\neg(A \cdot B) = \neg A + \neg B$.
+
+> [!quiz] Quelle différence entre circuit combinatoire et circuit séquentiel ?
+> La sortie d'un circuit combinatoire ne dépend que des entrées présentes ; celle d'un circuit séquentiel dépend aussi d'un état mémorisé (bascules, registres, compteurs).
 
 ## À lire ensuite
 

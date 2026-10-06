@@ -6,6 +6,7 @@ tags: [sciences-sociales, histoire, antiquité, rome, empire, république]
 date: "2026-09-28"
 year: -753
 yearEnd: 476
+prerequis: ["[[Grèce antique]]"]
 ---
 
 # Rome antique
@@ -108,6 +109,26 @@ Le latin, devenu langue de l'Église et des savants, donne naissance aux langues
 
 > [!warning] Piège
 > Parler de « chute de Rome » en 476 est un point de vue occidental. Pour les contemporains, 476 n'est pas un événement spectaculaire : Odoacre renvoie les insignes impériaux à Constantinople et gouverne l'Italie en reconnaissant nominalement l'empereur d'Orient. L'Empire romain continue d'exister, avec Constantinople pour capitale, et Justinien reconquiert l'Italie au VIe siècle. Les Byzantins se sont appelés « Romains » jusqu'en 1453.
+
+## Questions de révision
+
+> [!quiz] Qu'est-ce que le principat instauré par Auguste ?
+> Un pouvoir d'un seul sous une façade républicaine : Auguste se présente comme le premier des citoyens (*princeps*) et respecte les formes républicaines, mais concentre le commandement militaire, les pouvoirs tribuniciens et la direction religieuse.
+
+> [!quiz] Comment Polybe expliquait-il la puissance de la République romaine ?
+> Par une constitution mixte qui combine monarchie (les consuls), aristocratie (le Sénat) et démocratie (le peuple).
+
+> [!quiz] Pourquoi la conquête de la Méditerranée a-t-elle provoqué la crise de la République ?
+> Elle enrichit l'aristocratie sénatoriale, qui constitue de grands domaines exploités par des esclaves, tandis que la petite paysannerie qui fournissait les soldats s'appauvrit. Les armées, attachées à des généraux qui leur promettent des terres, deviennent des instruments politiques.
+
+> [!quiz] Que décide l'édit de Caracalla en 212 ?
+> Il accorde la citoyenneté romaine à presque tous les hommes libres de l'Empire.
+
+> [!quiz] Pourquoi parler de « chute de Rome » en 476 est-il un point de vue occidental ?
+> Odoacre renvoie les insignes impériaux à Constantinople et reconnaît nominalement l'empereur d'Orient ; l'Empire romain continue d'exister avec Constantinople pour capitale.
+
+> [!quiz] Pourquoi le droit est-il souvent considéré comme l'héritage romain le plus durable ?
+> Les catégories des juristes romains (propriété, contrat, obligation, personne, succession), compilées sous Justinien dans le *Corpus juris civilis* puis redécouvertes en Occident, structurent encore les droits d'Europe continentale et d'Amérique latine.
 
 ## Ressources
 

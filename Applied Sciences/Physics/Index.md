@@ -37,15 +37,15 @@ Physics/
 flowchart LR
     subgraph Meca["Mécanique"]
         C1[Cinématique]
-        C2[Lois de<br/>Newton]
-        C3[Énergie<br/>et Travail]
+        C2[Lois de\nNewton]
+        C3[Énergie\net Travail]
     end
     subgraph Ondes["Ondes & Signaux"]
-        O1[Ondes<br/>Mécaniques<br/>et Son]
-        O2[Optique<br/>Géométrique]
+        O1[Ondes\nMécaniques\net Son]
+        O2[Optique\nGéométrique]
     end
     subgraph Elec["Électricité"]
-        E1[Circuits<br/>Électriques]
+        E1[Circuits\nÉlectriques]
     end
     C1 --> C2 --> C3
     C3 --> O1
@@ -58,14 +58,14 @@ flowchart LR
 ```mermaid
 flowchart TB
     subgraph MecaSup["Mécanique"]
-        MP[Mécanique<br/>du Point]
+        MP[Mécanique\ndu Point]
         OSC[Oscillateurs]
-        FLU[Statique<br/>des Fluides]
+        FLU[Statique\ndes Fluides]
     end
     subgraph EM1["Électromagnétisme"]
         ELC[Électrocinétique]
-        ES[Électrostatique et<br/>Magnétostatique]
-        IND[Induction<br/>Électromagnétique]
+        ES[Électrostatique et\nMagnétostatique]
+        IND[Induction\nÉlectromagnétique]
     end
     subgraph Thermo1["Thermodynamique"]
         TH[Thermodynamique]
@@ -82,22 +82,22 @@ flowchart TB
 ```mermaid
 flowchart TB
     subgraph EMSpe["Électromagnétisme"]
-        MAX[Équations de<br/>Maxwell]
-        OEM[Ondes<br/>Électromagnétiques]
-        IF[Interférences et<br/>Diffraction]
+        MAX[Équations de\nMaxwell]
+        OEM[Ondes\nÉlectromagnétiques]
+        IF[Interférences et\nDiffraction]
     end
     subgraph OndesSpe["Physique des Ondes"]
-        PO[Physique<br/>des Ondes]
+        PO[Physique\ndes Ondes]
     end
     subgraph ThermoSpe["Thermodynamique"]
-        TT[Transferts<br/>Thermiques]
-        PS[Physique<br/>Statistique]
+        TT[Transferts\nThermiques]
+        PS[Physique\nStatistique]
     end
     subgraph MecaSpe["Mécanique"]
-        RNG[Référentiels<br/>Non Galiléens]
+        RNG[Référentiels\nNon Galiléens]
     end
     subgraph Quant["Quantique"]
-        MQ[Mécanique<br/>Quantique]
+        MQ[Mécanique\nQuantique]
     end
     MAX --> OEM --> IF
     PO --> IF

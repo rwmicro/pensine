@@ -6,6 +6,7 @@ tags: [sciences-sociales, histoire, antiquité, égypte, pharaons, afrique]
 date: "2026-09-28"
 year: -3100
 yearEnd: -30
+prerequis: ["[[La Révolution Agricole]]"]
 ---
 
 # Égypte ancienne
@@ -109,6 +110,26 @@ L'égyptologie moderne naît avec l'expédition de Bonaparte (1798-1801) et le d
 
 > [!question] Débat : l'Égypte, civilisation africaine ?
 > L'historien sénégalais Cheikh Anta Diop (*Nations nègres et culture*, 1954) a soutenu que les anciens Égyptiens étaient des Africains noirs et que l'Égypte devait être replacée dans l'histoire du continent, contre une tradition européenne qui la rattachait au monde méditerranéen ou « oriental ». Ses thèses raciales précises sont rejetées par la plupart des égyptologues, qui décrivent une population diverse, en continuité avec le Sahara oriental, la Nubie et le Proche-Orient, et jugent les catégories raciales modernes inadaptées à l'Antiquité. Mais la question qu'il posait a été largement reprise : l'égyptologie du XIXe siècle a bien détaché l'Égypte de l'Afrique, et les liens avec la Nubie et le Soudan sont aujourd'hui pleinement étudiés, comme en témoigne la place des pharaons koushites de la XXVe dynastie.
+
+## Questions de révision
+
+> [!quiz] Que désignent *Kemet* et *Deshret* ?
+> *Kemet*, la « terre noire », est la terre cultivable fertilisée par le limon du Nil ; *Deshret*, la « terre rouge », est le désert qui l'entoure.
+
+> [!quiz] Qu'est-ce que la *maât* et quel est le rôle du pharaon à son égard ?
+> La *maât* désigne à la fois l'ordre cosmique, la justice et la vérité. Le pharaon, intermédiaire entre les dieux et les hommes, doit la maintenir contre le chaos par les rites, la guerre et la justice.
+
+> [!quiz] Qui a construit les pyramides, selon l'archéologie ?
+> Des équipes permanentes d'artisans qualifiés, renforcées par des paysans réquisitionnés par rotation au titre de la corvée, et non des foules d'esclaves.
+
+> [!quiz] Pourquoi la réforme religieuse d'Akhénaton n'a-t-elle pas duré ?
+> Imposée d'en haut, sans relais dans les temples ni dans la population, elle est abandonnée par ses successeurs, dont Toutânkhamon, qui restaurent les cultes traditionnels.
+
+> [!quiz] Pourquoi la pierre de Rosette a-t-elle permis à Champollion de déchiffrer les hiéroglyphes en 1822 ?
+> Elle porte un même décret en hiéroglyphes, en démotique et en grec, ce qui permet de comparer un texte inconnu à un texte lisible.
+
+> [!quiz] Quelle objection Karl Butzer oppose-t-il à la thèse « hydraulique » de Wittfogel pour l'Égypte ?
+> L'irrigation égyptienne reposait sur des bassins de crue gérés localement, sans grand réseau planifié par l'État ; la centralisation pharaonique est d'abord idéologique et fiscale, pas une nécessité technique.
 
 ## Ressources
 

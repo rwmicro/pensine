@@ -51,7 +51,7 @@ Définition formelle : T(n) = O(f(n)) s'il existe des constantes c > 0 et n₀ t
 Ordre de croissance : O(1) < O(log n) < O(√n) < O(n) < O(n log n) < O(n²) < O(2^n) < O(n!)
 
 ```mermaid
-graph LR
+flowchart LR
     C1["O(1)\nConstant\nExcellent"]
     LOG["O(log n)\nLogarithmique\nTrès bon"]
     LIN["O(n)\nLinéaire\nBon"]

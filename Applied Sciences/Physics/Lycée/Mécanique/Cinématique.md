@@ -60,8 +60,8 @@ L'accélération traduit toute **variation du vecteur vitesse**, en norme ou en 
 
 ```mermaid
 flowchart LR
-    A["Position<br/>OM(t)"] -->|"dérivée d/dt"| B["Vitesse<br/>v(t)"]
-    B -->|"dérivée d/dt"| C["Accélération<br/>a(t)"]
+    A["Position\nOM(t)"] -->|"dérivée d/dt"| B["Vitesse\nv(t)"]
+    B -->|"dérivée d/dt"| C["Accélération\na(t)"]
     C -->|"intégration"| B
     B -->|"intégration"| A
 ```

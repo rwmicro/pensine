@@ -15,9 +15,9 @@ Contrairement à l'image populaire (le « champignon » = le chapeau sur tige), 
 
 ```mermaid
 flowchart TB
-    Spore[Spore] --> Hyphes[Hyphes<br/>filaments microscopiques]
-    Hyphes --> Mycelium[Mycélium<br/>réseau souterrain]
-    Mycelium --> Carpophore[Carpophore<br/>« champignon » visible]
+    Spore[Spore] --> Hyphes[Hyphes\nfilaments microscopiques]
+    Hyphes --> Mycelium[Mycélium\nréseau souterrain]
+    Mycelium --> Carpophore[Carpophore\n« champignon » visible]
     Carpophore --> Spores2[Libération de spores]
     Spores2 -.dispersion.-> Spore
 ```
@@ -56,8 +56,8 @@ Les champignons saprotrophes sécrètent des enzymes (cellulases, ligninases) qu
 
 ```mermaid
 flowchart LR
-    Plante[Plante] -- sucres<br/>(photosynthèse) --> Champi[Champignon mycorhizien]
-    Champi -- eau + minéraux<br/>(azote, phosphore) --> Plante
+    Plante[Plante] -- sucres\n(photosynthèse) --> Champi[Champignon mycorhizien]
+    Champi -- eau + minéraux\n(azote, phosphore) --> Plante
 ```
 
 Le mycélium étend la surface d'absorption racinaire d'un facteur 100 à 1 000. Cas extrême : la **truffe noire du Périgord** (*Tuber melanosporum*) pousse exclusivement en symbiose avec le chêne ou le noisetier — d'où l'impossibilité de la cultiver hors sol.

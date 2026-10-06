@@ -196,7 +196,6 @@ while True:
 
 ## Fonctions
 
-```python
 > [!warning] Piège
 > Un argument par défaut **mutable** (`def f(items=[])`) est évalué **une seule fois**, à la définition de la fonction — pas à chaque appel. La même liste est alors partagée et modifiée entre tous les appels qui n'en fournissent pas une explicitement, ce qui produit un état qui persiste silencieusement d'un appel à l'autre. Règle : ne jamais utiliser `[]`, `{}` ou une instance mutable comme valeur par défaut — utiliser `None` et créer l'objet à l'intérieur de la fonction.
 

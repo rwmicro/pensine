@@ -13,7 +13,7 @@ Le Privileged Access Management (PAM) est l'ensemble des processus et technologi
 ## Pourquoi PAM ?
 
 ```mermaid
-graph LR
+flowchart LR
     attacker[Attaquant] -->|Objectif| privaccount[Compte privilégié]
     privaccount --> everything[Accès à tout :\nBases de données\nActive Directory\nServeurs critiques\nBackups]
 
@@ -42,7 +42,7 @@ graph LR
 Le coffre-fort est le composant central du PAM : il stocke, génère et fait tourner automatiquement les mots de passe.
 
 ```mermaid
-graph LR
+flowchart LR
     admin[Administrateur] -->|S'authentifie| vault[Vault PAM]
     vault -->|Récupère le mdp| db[(Coffre chiffré)]
     vault -->|Injecte les credentials| target[Serveur cible]
@@ -77,7 +77,7 @@ curl -X GET "https://vault.monentreprise.com/PasswordVault/api/Accounts?search=p
 Le JIT accorde des accès privilégiés à la demande, pour une durée limitée, avec une justification.
 
 ```mermaid
-graph LR
+flowchart LR
     request[Admin demande\naccès domain admin\npour patch critique]
     approval[Approbation\nautomatique ou manager]
     grant[Accès accordé\npour 2 heures]

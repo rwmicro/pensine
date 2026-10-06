@@ -17,11 +17,11 @@ Les **statistiques descriptives** résument des données qu'on a sous les yeux. 
 
 ```mermaid
 flowchart TB
-    Pop["POPULATION<br/>paramètre vrai θ (inconnu)"]
-    Pop -->|échantillonnage<br/>aléatoire| Ech["ÉCHANTILLON<br/>n observations"]
+    Pop["POPULATION\nparamètre vrai θ (inconnu)"]
+    Pop -->|échantillonnage\naléatoire| Ech["ÉCHANTILLON\nn observations"]
     Ech -->|estimation| Theta["estimateur θ̂"]
-    Ech -->|intervalle| IC["IC à 95 %<br/>[a, b]"]
-    Ech -->|test| Test["p-value<br/>rejet/non rejet H₀"]
+    Ech -->|intervalle| IC["IC à 95 %\n[a, b]"]
+    Ech -->|test| Test["p-value\nrejet/non rejet H₀"]
     Theta -.->|tend vers| Pop
     IC -.->|contient θ avec proba 0,95| Pop
 ```
@@ -122,10 +122,10 @@ On calcule une **statistique de test** à partir des données, et on décide de 
 
 ```mermaid
 flowchart LR
-    Donnees[Données] --> Stat[Statistique<br/>de test]
-    Stat --> Cmp{Compare à<br/>valeur critique}
-    Cmp -->|"|T| grand"| Rejet[Rejet H₀<br/>« effet significatif »]
-    Cmp -->|"|T| petit"| NonRejet[Non rejet H₀<br/>« pas de preuve »]
+    Donnees[Données] --> Stat[Statistique\nde test]
+    Stat --> Cmp{Compare à\nvaleur critique}
+    Cmp -->|"|T| grand"| Rejet[Rejet H₀\n« effet significatif »]
+    Cmp -->|"|T| petit"| NonRejet[Non rejet H₀\n« pas de preuve »]
 ```
 
 ### 4.2 Types d'erreur
