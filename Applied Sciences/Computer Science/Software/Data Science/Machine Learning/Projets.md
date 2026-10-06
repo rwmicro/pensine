@@ -49,12 +49,12 @@ Idées de projets classées par domaine et par difficulté pour mettre en pratiq
 ### Natural Language Processing (NLP)
 
 ```mermaid
-graph LR
-    NLP["NLP"] --> CLASS["Classification<br/>de texte"]
-    NLP --> SENT["Analyse de<br/>sentiments"]
-    NLP --> QA["Question-<br/>Answering"]
-    NLP --> SUMM["Résumé<br/>automatique"]
-    NLP --> NER["Reconnaissance<br/>d'entités"]
+flowchart LR
+    NLP["NLP"] --> CLASS["Classification\nde texte"]
+    NLP --> SENT["Analyse de\nsentiments"]
+    NLP --> QA["Question-\nAnswering"]
+    NLP --> SUMM["Résumé\nautomatique"]
+    NLP --> NER["Reconnaissance\nd'entités"]
     NLP --> TRAD["Traduction"]
 
     style NLP fill:#2196F3,color:#fff
@@ -70,13 +70,13 @@ graph LR
 ### Vision par ordinateur
 
 ```mermaid
-graph LR
-    CV["Computer<br/>Vision"] --> CLASSIF["Classification<br/>d'images"]
-    CV --> DET["Détection<br/>d'objets"]
+flowchart LR
+    CV["Computer\nVision"] --> CLASSIF["Classification\nd'images"]
+    CV --> DET["Détection\nd'objets"]
     CV --> SEG["Segmentation"]
-    CV --> GEN["Génération<br/>d'images"]
-    CV --> SR["Super-<br/>résolution"]
-    CV --> FACE["Reconnaissance<br/>faciale"]
+    CV --> GEN["Génération\nd'images"]
+    CV --> SR["Super-\nrésolution"]
+    CV --> FACE["Reconnaissance\nfaciale"]
 
     style CV fill:#4CAF50,color:#fff
 ```

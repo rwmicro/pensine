@@ -12,20 +12,15 @@ La logique est l'étude des formes valides de raisonnement. Elle répond à la q
 
 ## Branches de la logique
 
-```
-  LOGIQUE
-    │
-    ├── Formelle (symbolique)    Étudie la forme des arguments,
-    │                            indépendamment de leur contenu
-    │   ├── Logique des propositions  (connecteurs : ∧, ∨, →, ¬)
-    │   ├── Logique des prédicats     (quantificateurs : ∀, ∃)
-    │   └── Logique modale            (nécessité, possibilité : □, ◇)
-    │
-    ├── Informelle               Étudie les arguments en langage naturel
-    │                            Sophismes, rhétorique, pensée critique
-    │
-    └── Non-classique            Logique intuitionniste, floue,
-                                 paraconsistante...
+```mermaid
+mindmap
+  root["Logique"]
+    F["Formelle (symbolique) — Étudie la forme des arguments, indépendamment de leur contenu"]
+      F1["Logique des propositions (connecteurs : ∧, ∨, →, ¬)"]
+      F2["Logique des prédicats (quantificateurs : ∀, ∃)"]
+      F3["Logique modale (nécessité, possibilité : □, ◇)"]
+    I["Informelle — Étudie les arguments en langage naturel ; sophismes, rhétorique, pensée critique"]
+    N["Non-classique — Logique intuitionniste, floue, paraconsistante..."]
 ```
 
 ## Propositions et valeurs de vérité
@@ -175,31 +170,34 @@ Distinction fondamentale que le langage courant confond souvent.
 > [!important] Idée clé
 > La logique formelle garantit la validité (la forme), jamais la solidité (le contenu) — c'est pourquoi un argument parfaitement logique peut aboutir à une conclusion fausse : il suffit qu'une prémisse le soit. La plupart des désaccords "logiques" entre deux personnes ne portent pas sur la forme de l'argument (souvent valide des deux côtés) mais sur la vérité de ses prémisses — un point qu'aucune logique formelle ne peut trancher seule.
 
+```mermaid
+block-beta
+  columns 1
+  block:tous
+    columns 1
+    L1["Tous les arguments possibles"]
+    block:valides
+      columns 1
+      L2["Arguments valides"]
+      block:solides
+        columns 1
+        L3["Arguments SOLIDES (valides + prémisses vraies)"]
+      end
+    end
+  end
 ```
 
-  ┌─────────────────────────────────────────────────────┐
-  │             Tous les arguments possibles            │
-  │                                                     │
-  │   ┌─────────────────────────────────────────┐       │
-  │   │           Arguments valides             │       │
-  │   │                                         │       │
-  │   │   ┌─────────────────────────────────┐   │       │
-  │   │   │       Arguments SOLIDES         │   │       │
-  │   │   │ (valides + prémisses vraies)    │   │       │
-  │   │   └─────────────────────────────────┘   │       │
-  │   └─────────────────────────────────────────┘       │
-  └─────────────────────────────────────────────────────┘
+```
+Exemple valide mais non solide :
+  "Tous les chats sont des robots.   ← prémisse fausse
+   Mon chat est un chat.
+   Donc mon chat est un robot."
+   Forme valide ✓, mais non solide ✗
 
-  Exemple valide mais non solide :
-    "Tous les chats sont des robots.   ← prémisse fausse
-     Mon chat est un chat.
-     Donc mon chat est un robot."
-     Forme valide ✓, mais non solide ✗
-
-  Exemple ni valide ni solide :
-    "J'ai gagné à la loterie.
-     Donc les licornes existent."
-     Aucun lien logique entre les deux.
+Exemple ni valide ni solide :
+  "J'ai gagné à la loterie.
+   Donc les licornes existent."
+   Aucun lien logique entre les deux.
 ```
 
 ## Raisonnement déductif, inductif et abductif

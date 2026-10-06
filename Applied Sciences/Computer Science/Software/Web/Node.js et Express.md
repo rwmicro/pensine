@@ -16,18 +16,12 @@ Node.js est un environnement d'exécution JavaScript côté serveur, construit s
 
 **Architecture événementielle non-bloquante** : Node.js utilise un modèle d'I/O asynchrone basé sur une boucle d'événements (event loop). Au lieu de créer un thread par connexion, Node.js gère toutes les connexions dans un seul thread, en déléguant les opérations I/O au système d'exploitation.
 
-```
-Requêtes entrantes
-        │
-        ▼
-   Event Loop (single thread)
-        │
-   ┌────┴────┐
-   │         │
-Callbacks  I/O Operations (async)
-(sync)    ─────────────────────────
-          File System, Network, DB
-          (gérés par libuv en C++)
+```mermaid
+flowchart TD
+  R["Requêtes entrantes"]
+  R --> EL["Event Loop (single thread)"]
+  EL --> CB["Callbacks (sync)"]
+  EL --> IO["I/O Operations (async)\nFile System, Network, DB\n(gérés par libuv en C++)"]
 ```
 
 **Adapté pour** : APIs REST, applications temps réel (chat, streaming), microservices, outils CLI.

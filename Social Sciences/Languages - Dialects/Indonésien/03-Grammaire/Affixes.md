@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Indonésien > 03-Grammaire"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
+prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/Verbes]]", "[[Structure-Phrase]]"]
 ---
 # Préfixes et Suffixes (Imbuhan)
 
@@ -405,3 +406,23 @@ date: "2026-02-04"
 | Jakarta | Suffixe -in | *Tolong **bukain** pintunya* |
 
 > **Conseil** : Comprendre les affixes est essentiel pour lire l'indonésien formel (journaux, livres, administration). À l'oral, on peut souvent les omettre.
+
+## Questions de révision
+
+> [!quiz] Que deviennent les consonnes initiales k, p, t et s quand on ajoute le préfixe me- ?
+> Elles disparaissent et sont remplacées par la nasale : *kirim* → *mengirim*, *pukul* → *memukul*, *tulis* → *menulis*, *sapu* → *menyapu*.
+
+> [!quiz] Quelle différence entre les préfixes me- et di- ?
+> *Me-* forme le verbe actif (*Saya menulis surat*) ; *di-* forme le passif, où l'objet devient sujet (*Surat ditulis oleh saya*).
+
+> [!quiz] Quels sont les usages du préfixe ter- ?
+> L'action involontaire (*tertidur*, s'endormir sans le vouloir), l'état résultant (*terbuka*, ouvert), la capacité (*terlihat*, visible) et le superlatif (*terbesar*, le plus grand).
+
+> [!quiz] Que marque le suffixe -kan, et comment se dit-il à Jakarta ?
+> Il indique qu'on fait l'action pour quelqu'un ou qu'on la cause (*belikan*, acheter pour qqn). À Jakarta, il devient -in : *beliin*.
+
+> [!quiz] Que forme le circonfixe ke-...-an ?
+> Des noms abstraits d'état ou de qualité (*sehat* → *kesehatan*, la santé), certains lieux (*raja* → *kerajaan*, le royaume) et des états subis (*kedinginan*, avoir froid).
+
+> [!quiz] Pourquoi dit-on *berenang* et non *berrenang* ?
+> Devant une racine qui commence par r, ber- devient be- : *renang* → *berenang* (nager).

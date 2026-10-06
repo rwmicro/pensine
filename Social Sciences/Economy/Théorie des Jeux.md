@@ -26,20 +26,13 @@ Formalisée par John von Neumann et Oskar Morgenstern dans *Theory of Games and 
 
 **Anatomie d'un jeu**
 
-```
-          ┌─────────────┐
-          │   Joueur A  │  ← a ses propres stratégies
-          └──────┬──────┘
-                 │ choisit une stratégie
-                 ▼
-          ┌─────────────────────────────┐
-          │     Résultat du jeu         │  ← dépend des DEUX choix
-          └─────────────────────────────┘
-                 ▲
-                 │ choisit une stratégie
-          ┌──────┴──────┐
-          │   Joueur B  │  ← a ses propres stratégies
-          └─────────────┘
+```mermaid
+flowchart TD
+  A["Joueur A\na ses propres stratégies"]
+  B["Joueur B\na ses propres stratégies"]
+  R["Résultat du jeu\ndépend des DEUX choix"]
+  A -->|"choisit une stratégie"| R
+  B -->|"choisit une stratégie"| R
 ```
 
 **Stratégie dominante**
@@ -50,20 +43,23 @@ Une stratégie est *dominée* s'il en existe toujours une meilleure, quelle que 
 
 ## Taxonomie des jeux
 
-```
 Les jeux se classifient selon quatre axes indépendants :
 
-  Intérêts   ──┬── Somme nulle       gain A = −gain B        ex : échecs, poker
-               └── Somme non nulle   coopération possible    ex : commerce, DP
-
-  Temporalité ─┬── Simultané         matrice de gains        ex : DP, Chicken
-               └── Séquentiel        arbre de décision       ex : ultimatum
-
-  Information ─┬── Complète / Incomplète   (les gains sont-ils connus de tous ?)
-               └── Parfaite / Imparfaite   (les actions passées sont-elles visibles ?)
-
-  Coordination ┬── Coopératif         coalitions contraignantes possibles
-               └── Non coopératif     décisions indépendantes
+```mermaid
+flowchart TD
+  R["Quatre axes indépendants"]
+  R --> I["Intérêts"]
+  I --> I1["Somme nulle : gain A = −gain B (ex : échecs, poker)"]
+  I --> I2["Somme non nulle : coopération possible (ex : commerce, DP)"]
+  R --> T["Temporalité"]
+  T --> T1["Simultané : matrice de gains (ex : DP, Chicken)"]
+  T --> T2["Séquentiel : arbre de décision (ex : ultimatum)"]
+  R --> N["Information"]
+  N --> N1["Complète / Incomplète : les gains sont-ils connus de tous ?"]
+  N --> N2["Parfaite / Imparfaite : les actions passées sont-elles visibles ?"]
+  R --> C["Coordination"]
+  C --> C1["Coopératif : coalitions contraignantes possibles"]
+  C --> C2["Non coopératif : décisions indépendantes"]
 ```
 
 **Jeux à somme nulle**
@@ -343,21 +339,13 @@ Dans un jeu séquentiel, les joueurs agissent l'un après l'autre en observant l
 
 Un entrant potentiel décide d'entrer sur un marché. Le monopole en place peut alors faire la guerre des prix ou accommoder le nouvel entrant.
 
-```
-                         ┌─────────────────┐
-                         │    ENTRANT      │
-                         └────────┬────────┘
-                    ┌─────────────┴─────────────┐
-                 Entre                     N'entre pas
-                    │                           │
-          ┌─────────┴──────────┐           (0, +100)
-          │     MONOPOLE       │         (entrant, mono)
-          └─────────┬──────────┘
-          ┌─────────┴──────────┐
-       Guerre              Accommode
-     des prix                  │
-          │               (+40, +60)
-      (−10, −10)
+```mermaid
+flowchart TD
+  E["ENTRANT"]
+  E -->|"Entre"| M["MONOPOLE"]
+  E -->|"N'entre pas"| Out["(0, +100)\n(entrant, mono)"]
+  M -->|"Guerre des prix"| W["(−10, −10)"]
+  M -->|"Accommode"| Acc["(+40, +60)"]
 ```
 
 ```
@@ -441,19 +429,12 @@ TfT est simple, robuste, et performante car elle combine trois propriétés : bi
 
 Deux joueurs se partagent une somme fixe (100€). A propose un partage, B accepte ou refuse. Si B refuse, les deux repartent avec rien.
 
-```
-Structure du jeu (arbre de décision) :
-
-                    ┌──────────────────────────┐
-                    │  A propose un partage x% │
-                    └─────────────┬────────────┘
-                                  │
-                        ┌─────────┴─────────┐
-                     Accepte             Refuse
-                        │                   │
-                   (x, 100−x)            (0, 0)
-                        ↑
-                   B décide ici
+```mermaid
+flowchart TD
+  A["A propose un partage x%"]
+  A --> B["B décide"]
+  B -->|"Accepte"| Ok["(x, 100−x)"]
+  B -->|"Refuse"| No["(0, 0)"]
 ```
 
 ```
@@ -479,28 +460,23 @@ Ces expériences ont fondé l'économie comportementale moderne.
 
 Dans de nombreuses situations, un agent possède une information privée sur lui-même (sa compétence, sa qualité) et cherche à la communiquer de manière crédible. Un simple message ne suffit pas — il faut un signal *coûteux*, dont le coût est suffisamment différent entre les types pour que l'imitation ne soit pas rentable.
 
-```
-Structure d'un jeu de signalement :
-
-  Nature (tirage aléatoire)
-       │
-       ├── Type productif (prob. p)        ← l'employeur ne sait pas qui est qui
-       │        │
-       │   Travailleur choisit un signal
-       │        ├── Éducation élevée  ──┐
-       │        └── Éducation basse   ──┤
-       │                                 │
-       └── Type peu productif (prob. 1−p) │
-                │                        │
-           Travailleur choisit un signal  │
-                ├── Éducation élevée  ──┤
-                └── Éducation basse   ──┤
-                                        │
-                              Employeur observe
-                            le signal, mais PAS le type
-                                        │
-                              ┌─────────┴─────────┐
-                         Salaire haut        Salaire bas
+```mermaid
+flowchart TD
+  Nat["Nature (tirage aléatoire)"]
+  Nat -->|"prob. p"| TP["Type productif"]
+  Nat -->|"prob. 1−p"| TN["Type peu productif"]
+  TP --> SP["Travailleur choisit un signal"]
+  TN --> SN["Travailleur choisit un signal"]
+  SP --> EP["Éducation élevée"]
+  SP --> BP["Éducation basse"]
+  SN --> EN["Éducation élevée"]
+  SN --> BN["Éducation basse"]
+  EP --> Emp["Employeur observe le signal, mais PAS le type\n(il ne sait pas qui est qui)"]
+  BP --> Emp
+  EN --> Emp
+  BN --> Emp
+  Emp --> SH["Salaire haut"]
+  Emp --> SB["Salaire bas"]
 ```
 
 **Le modèle de Spence (1973)**
@@ -590,22 +566,15 @@ La théorie classique reste un outil normatif puissant : elle dit ce que des age
 
 Introduit par Robert Aumann (1974), l'équilibre de corrélation est une généralisation de l'équilibre de Nash qui permet d'obtenir de meilleurs résultats collectifs grâce à une corrélation des stratégies.
 
-```
-Mécanisme :
-
-  ┌─────────────────────────────────────────────┐
-  │              ARBITRE EXTERNE                │
-  │   Tire un profil (sA, sB) selon prob. π     │
-  └──────────────────┬──────────────────────────┘
-                     │
-          ┌──────────┴──────────┐
-     Recommande sA         Recommande sB
-     à Joueur A            à Joueur B
-          │                    │
-     A ne voit que sA     B ne voit que sB
-          │                    │
-     A suit sA ?          B suit sB ?
-     (si déviation → perte)    (idem)
+```mermaid
+flowchart TD
+  Arb["ARBITRE EXTERNE\nTire un profil (sA, sB) selon prob. π"]
+  Arb --> RA["Recommande sA à Joueur A"]
+  Arb --> RB["Recommande sB à Joueur B"]
+  RA --> VA["A ne voit que sA"]
+  RB --> VB["B ne voit que sB"]
+  VA --> QA["A suit sA ? (si déviation → perte)"]
+  VB --> QB["B suit sB ? (si déviation → perte)"]
 ```
 
 L'équilibre est atteint quand aucun joueur n'a intérêt à dévier de sa recommandation, sachant que l'autre suit la sienne.

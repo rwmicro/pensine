@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Hardware"
 tags: [sciences-appliquées, informatique, mémoire, cache, ram, ssd, raid, stockage]
 date: "2026-02-24"
+prerequis: ["[[Architecture des Processeurs]]"]
 ---
 
 # Mémoire et Stockage
@@ -206,6 +207,26 @@ Stockage objet :       bucket/rapport-2026-alice.pdf  +  métadonnées
 ```
 
 Voir [[Bucket S3]] pour la mise en œuvre la plus répandue.
+
+## Questions de révision
+
+> [!quiz] Pourquoi existe-t-il une hiérarchie mémoire plutôt qu'une seule mémoire ?
+> Aucune technologie n'est à la fois rapide, vaste et bon marché : chaque niveau compense le fait que le niveau supérieur est trop cher pour tout contenir. C'est un compromis économique autant que technique.
+
+> [!quiz] Quelle différence entre localité temporelle et localité spatiale ?
+> Temporelle : une donnée accédée le sera probablement de nouveau bientôt (le cache garde ce qui a servi récemment). Spatiale : ses voisines seront probablement accédées ensuite (le cache charge une ligne entière, 64 octets sur x86-64).
+
+> [!quiz] Pourquoi parcourir un tableau C bidimensionnel colonne par colonne est-il plus lent que ligne par ligne ?
+> Le tableau est rangé ligne par ligne : en parcours par colonnes, chaque accès tombe dans une ligne de cache différente, d'où un défaut par accès au lieu d'un tous les huit `double`.
+
+> [!quiz] Quelle différence entre écriture immédiate (write-through) et écriture différée (write-back) ?
+> Write-through propage chaque écriture aussitôt au niveau inférieur (cohérence simple, écritures lentes) ; write-back n'écrit que dans le cache et ne met à jour le niveau inférieur qu'à l'éviction de la ligne.
+
+> [!quiz] Pourquoi les caches (SRAM) restent-ils petits par rapport à la RAM (DRAM) ?
+> Une cellule SRAM utilise 6 transistors par bit contre 1 transistor et un condensateur pour la DRAM : elle est bien plus encombrante et chère à capacité égale.
+
+> [!quiz] Pourquoi le RAID n'est-il pas une sauvegarde ?
+> Une suppression accidentelle, une corruption applicative ou un rançongiciel s'écrivent identiquement sur tous les disques de la grappe ; le RAID ne protège que de la panne d'un disque physique.
 
 ## À lire ensuite
 

@@ -106,11 +106,11 @@ Même structure avec $\tau = \dfrac{L}{R}$ : le courant croît en $i(t) = \dfrac
 
 ```mermaid
 flowchart LR
-    A["Signal d'entrée<br/>(plusieurs fréquences)"] --> B["Filtre<br/>H(jω)"]
+    A["Signal d'entrée\n(plusieurs fréquences)"] --> B["Filtre\nH(jω)"]
     B --> C{"Type de filtre"}
-    C -->|Passe-bas| D["Garde basses f<br/>coupe hautes f"]
-    C -->|Passe-haut| E["Garde hautes f<br/>coupe basses f"]
-    C -->|Passe-bande| F["Garde bande<br/>autour de ω0"]
+    C -->|Passe-bas| D["Garde basses f\ncoupe hautes f"]
+    C -->|Passe-haut| E["Garde hautes f\ncoupe basses f"]
+    C -->|Passe-bande| F["Garde bande\nautour de ω0"]
 ```
 
 ## 5. Puissance en régime sinusoïdal

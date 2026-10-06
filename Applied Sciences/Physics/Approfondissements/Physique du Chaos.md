@@ -31,10 +31,10 @@ Certains systèmes parfaitement **déterministes** sont pourtant **imprévisible
 ```mermaid
 flowchart TD
     A["Système dynamique"] --> B{"Équations linéaires ?"}
-    B -->|Oui| C["Comportement prévisible<br/>(périodique, amorti)"]
-    B -->|Non| D{"Sensibilité aux<br/>conditions initiales ?"}
+    B -->|Oui| C["Comportement prévisible\n(périodique, amorti)"]
+    B -->|Non| D{"Sensibilité aux\nconditions initiales ?"}
     D -->|Non| E["Régulier"]
-    D -->|"Oui (λ > 0)"| F["CHAOS :<br/>imprévisible à long terme"]
+    D -->|"Oui (λ > 0)"| F["CHAOS :\nimprévisible à long terme"]
 ```
 
 ## 3. L'attracteur de Lorenz

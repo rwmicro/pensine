@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Mathematics > Lycée > Algèbre"
 tags: [sciences-appliquées, mathématiques]
 date: "2026-02-19"
+parcours: "Analyse au lycée"
 ---
 
 # Ensembles et Nombres
@@ -28,7 +29,7 @@ Les nombres que l'on utilise en mathématiques sont organisés en ensembles embo
 ### 1.2 Diagramme d'inclusion
 
 ```mermaid
-graph TB
+flowchart TB
     subgraph R["R - Réels"]
         direction TB
         irr["Irrationnels : sqrt(2), pi, e"]
@@ -332,6 +333,27 @@ $7$ ; $-3$ ; $\frac{2}{5}$ ; $\sqrt{9}$ ; $\sqrt{5}$ ; $\pi$
 > - $\sqrt{a+b} \neq \sqrt{a} + \sqrt{b}$.
 > - Tout entier $\geq 2$ se décompose de manière unique en produit de facteurs premiers.
 > - L'algorithme d'Euclide permet de calculer le PGCD de deux entiers.
+
+
+## Questions de révision
+
+> [!quiz] Dans quel ordre s'emboîtent les ensembles de nombres $\mathbb{N}$, $\mathbb{Z}$, $\mathbb{Q}$ et $\mathbb{R}$ ?
+> $\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$ : tout entier naturel est relatif, tout relatif est rationnel, tout rationnel est réel.
+
+> [!quiz] À quoi reconnaît-on qu'un nombre est rationnel à partir de son écriture décimale ?
+> Un nombre est rationnel si et seulement si son écriture décimale est finie ou périodique.
+
+> [!quiz] Pourquoi $\sqrt{a^2}$ vaut-il $|a|$ et non $a$ ?
+> Parce qu'une racine carrée est toujours positive alors que $a$ peut être négatif : par exemple $\sqrt{(-3)^2} = 3 = |-3|$.
+
+> [!quiz] Quel intervalle décrit l'ensemble des $x$ tels que $|x - c| \leq a$ ?
+> L'intervalle $[c - a;\, c + a]$, centré en $c$ et de rayon $a$ : la distance entre $x$ et $c$ est au plus $a$.
+
+> [!quiz] Pourquoi $1$ n'est-il pas un nombre premier ?
+> Un nombre premier doit avoir exactement deux diviseurs ($1$ et lui-même) ; $1$ n'en a qu'un seul.
+
+> [!quiz] Que dit le théorème fondamental de l'arithmétique ?
+> Tout entier naturel $n \geq 2$ se décompose de manière unique, à l'ordre près, en un produit de facteurs premiers.
 
 
 *Voir aussi* : [[Calcul Algébrique]] | [[Fonctions]] | [[Second Degré]]

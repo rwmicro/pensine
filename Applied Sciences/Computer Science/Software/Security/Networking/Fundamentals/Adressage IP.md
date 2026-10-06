@@ -181,7 +181,7 @@ Attribution VLSM :
 NAT traduit les adresses privées en adresses publiques, permettant à tout un réseau de partager une seule IP publique.
 
 ```mermaid
-graph LR
+flowchart LR
     pc1[PC 192.168.1.10] -->|src: 192.168.1.10:5000| router[Routeur NAT]
     router -->|src: 203.0.113.5:40001| internet[Internet]
     internet -->|dst: 203.0.113.5:40001| router

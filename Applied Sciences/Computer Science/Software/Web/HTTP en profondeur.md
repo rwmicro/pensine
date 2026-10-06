@@ -220,24 +220,15 @@ HTTPS = HTTP dans un tunnel TLS. TLS (Transport Layer Security) assure la confid
 
 ### Handshake TLS 1.3 (simplifié)
 
-```
-Client                          Serveur
-  |  ClientHello                   |
-  |  (versions, cipher suites,     |
-  |   clé publique ECDHE)          |
-  |-----------------------------→  |
-  |                                |
-  |  ServerHello                   |
-  |  (cipher suite retenu,         |
-  |   clé publique ECDHE,          |
-  |   certificat, Finished)        |
-  |  ←-----------------------------|
-  |                                |
-  |  Finished (chiffré)            |
-  |-----------------------------→  |
-  |                                |
-  |  Données applicatives (HTTP)   |
-  |  ↔ ↔ ↔ ↔ ↔ ↔ ↔ ↔ ↔ ↔ ↔     |
+```mermaid
+sequenceDiagram
+  participant C as Client
+  participant S as Serveur
+  C->>S: ClientHello (versions, cipher suites, clé publique ECDHE)
+  S->>C: ServerHello (cipher suite retenu, clé publique ECDHE, certificat, Finished)
+  C->>S: Finished (chiffré)
+  C-->>S: Données applicatives (HTTP)
+  S-->>C: Données applicatives (HTTP)
 ```
 
 TLS 1.3 réduit le handshake à **1-RTT** (ou 0-RTT pour les reconnexions, avec des risques de replay à gérer).
@@ -254,12 +245,13 @@ Let's Encrypt fournit des certificats gratuits via le protocole ACME (défi DNS 
 
 HTTP/1.1 : une requête à la fois par connexion TCP (ou besoin de plusieurs connexions parallèles, typiquement 6 par domaine). HTTP/2 : de nombreux **flux** (streams) dans une même connexion TCP, chaque flux ayant un identifiant numérique.
 
-```
-Connexion TCP unique
-├── Flux 1 : GET /style.css     → 200 (stream 1 frames)
-├── Flux 3 : GET /script.js     → 200 (stream 3 frames)
-├── Flux 5 : GET /image.png     → 200 (stream 5 frames)
-└── Flux 7 : POST /api/log      → 201 (stream 7 frames)
+```mermaid
+flowchart TD
+  T["Connexion TCP unique"]
+  T --> F1["Flux 1 : GET /style.css → 200 (stream 1 frames)"]
+  T --> F3["Flux 3 : GET /script.js → 200 (stream 3 frames)"]
+  T --> F5["Flux 5 : GET /image.png → 200 (stream 5 frames)"]
+  T --> F7["Flux 7 : POST /api/log → 201 (stream 7 frames)"]
 ```
 
 ### HPACK (compression des en-têtes)

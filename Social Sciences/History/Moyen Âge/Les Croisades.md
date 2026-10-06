@@ -6,6 +6,7 @@ tags: [sciences-sociales, histoire, moyen-âge, croisades, guerre-sainte, médit
 date: "2026-09-28"
 year: 1095
 yearEnd: 1291
+prerequis: ["[[Empire byzantin]]"]
 ---
 
 # Les Croisades
@@ -97,6 +98,26 @@ Les croisades renforcent le rôle des cités marchandes italiennes en Méditerra
 
 > [!question] Débat : un colonialisme médiéval ?
 > Joshua Prawer (*The Latin Kingdom of Jerusalem: European Colonialism in the Middle Ages*, 1972) a présenté les États latins comme une première expérience coloniale européenne : une minorité étrangère dominant une population locale sans s'y mêler. D'autres historiens jugent l'analogie trompeuse, faute de métropole qui dirige et exploite ces territoires, et parce que les Francs d'Orient ont été plus intégrés au paysage local que ne le suggère le modèle. Le débat porte aussi sur ses usages politiques contemporains, des deux côtés.
+
+## Questions de révision
+
+> [!quiz] Que promet le pape Urbain II au concile de Clermont en 1095 ?
+> Il appelle les chevaliers à secourir les chrétiens d'Orient et à libérer Jérusalem, en promettant la rémission de leurs péchés à ceux qui partiront.
+
+> [!quiz] Comment les contemporains appelaient-ils les croisades, et d'où vient le mot « croisé » ?
+> Ils parlaient de pèlerinage, de passage ou de voyage outre-mer ; les participants se disaient « croisés » parce qu'ils cousaient une croix sur leur vêtement.
+
+> [!quiz] Comment le monde musulman reprend-il l'avantage face aux États latins au XIIe siècle ?
+> Par la fin de sa fragmentation politique : Zengi prend Édesse en 1144, Nur al-Din unifie la Syrie et réactive le djihad, puis Saladin réunit l'Égypte et la Syrie, vainc les Francs à Hattin et reprend Jérusalem en 1187.
+
+> [!quiz] Pourquoi est-il faux de dire que les croisades ont transmis les savoirs arabes à l'Europe ?
+> Les principaux lieux de ces transferts sont l'Espagne (traductions de Tolède au XIIe siècle), la Sicile normande et le commerce italien ; les États latins d'Orient étaient des sociétés militaires et marchandes, pas des centres de traduction.
+
+> [!quiz] Quelle différence entre historiens « traditionalistes » et « pluralistes » des croisades ?
+> Les traditionalistes réservent le terme aux expéditions vers Jérusalem ; les pluralistes, dans la lignée de Jonathan Riley-Smith, appellent croisade toute guerre autorisée par le pape avec vœu et indulgence (Espagne, Baltique, hérétiques).
+
+> [!quiz] Qu'ont montré les travaux de Riley-Smith sur les motivations des premiers croisés ?
+> D'après les chartes, partir coûtait très cher et offrait peu d'espoir raisonnable de profit : la conviction religieuse était centrale, contre la lecture qui voyait surtout des cadets sans héritage en quête de terres.
 
 ## Ressources
 

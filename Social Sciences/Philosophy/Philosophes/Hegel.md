@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie]
 date: "2026-04-12"
+prerequis: ["[[Kant]]"]
 ---
 
 # Georg Wilhelm Friedrich Hegel (1770-1831)
@@ -137,6 +138,26 @@ Hegel est ni libéral (l'individu est premier) ni totalitaire (l'État absorbe t
 Hegel est la figure pivot de la philosophie moderne. Presque toute la philosophie continentale du XIXe et XXe siècle se définit par rapport à lui : Marx l'inverse, [[Kierkegaard]] le conteste, Nietzsche le raille, Heidegger le critique, Sartre le réinterprète.
 
 Sa *Phénoménologie* reste l'une des œuvres les plus difficiles et les plus fécondes de toute la philosophie.
+
+## Questions de révision
+
+> [!quiz] Que désigne l'*Aufhebung* chez Hegel ?
+> La relève : un mouvement qui à la fois supprime et conserve un moment, en l'élevant à un niveau supérieur. C'est le vrai cœur technique de la dialectique.
+
+> [!quiz] Pourquoi réduire la dialectique hégélienne au schéma thèse-antithèse-synthèse est-il trompeur ?
+> Hegel ne formule pas lui-même ces trois termes, et la dialectique n'est pas un schéma appliqué de l'extérieur : c'est le mouvement que la chose elle-même accomplit en se révélant contradictoire.
+
+> [!quiz] Quels sont les trois moments de l'Esprit selon Hegel ?
+> L'Esprit subjectif (la conscience individuelle), l'Esprit objectif (droit, morale, famille, État) et l'Esprit absolu (art, religion, philosophie), où l'Esprit se saisit lui-même.
+
+> [!quiz] En quoi consiste le renversement de la dialectique du maître et de l'esclave ?
+> Le maître, qui a risqué sa vie, consomme le produit du travail de l'esclave mais dépend de lui en tout. L'esclave, en transformant la nature par son travail, forme sa conscience et devient plus libre que le maître.
+
+> [!quiz] Comment Hegel décrit-il le progrès de la liberté dans l'histoire ?
+> L'histoire universelle est le progrès dans la conscience de la liberté : en Orient un seul est libre (le despote), en Grèce et à Rome quelques-uns (les citoyens), dans le monde chrétien-germanique tous les hommes le sont en principe.
+
+> [!quiz] Quelles sont les trois sphères de l'Esprit objectif, et quelle conception de la liberté en découle ?
+> La famille (unité immédiate, amour), la société civile (échange et intérêt) et l'État (vie éthique accomplie). La liberté concrète consiste à se réaliser dans des institutions rationnelles et à y être reconnu, non à faire ce qu'on veut.
 
 ## Ressources
 

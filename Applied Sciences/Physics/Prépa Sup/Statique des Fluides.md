@@ -59,7 +59,7 @@ La statique des fluides étudie les fluides **au repos** : répartition de la pr
 flowchart TD
     A["Corps dans un fluide"] --> B["Poids P = ρ_corps V g (bas)"]
     A --> C["Poussée Π = ρ_fluide V_imm g (haut)"]
-    B --> D{"Comparaison<br/>ρ_corps vs ρ_fluide"}
+    B --> D{"Comparaison\nρ_corps vs ρ_fluide"}
     C --> D
     D -->|"ρ_corps < ρ_fluide"| E["Flotte"]
     D -->|"ρ_corps = ρ_fluide"| F["Équilibre indifférent"]

@@ -55,19 +55,15 @@ Le threat modeling est un processus structuré d'identification des menaces pesa
     → Chaque traversée = vecteur d'attaque potentiel
 ```
 
-```
-Exemple — Application web de e-commerce :
-
-  [Navigateur] ──HTTPS──> [Load Balancer] ──HTTP──> [App Server]
-                                                           |
-                                              ┌────────────┼────────────┐
-                                           [Cache]    [DB MySQL]   [API Paiement]
-                                          (Redis)   [Datastore]   [Entité externe]
-
-  Limites de confiance :
-    Internet / DMZ : entre navigateur et load balancer
-    DMZ / Backend   : entre load balancer et app server
-    Backend / DB    : entre app server et base de données
+```mermaid
+flowchart TD
+    subgraph EX["Exemple — Application web de e-commerce"]
+    N["Navigateur"] -->|"HTTPS — Limite Internet / DMZ"| LB["Load Balancer"]
+    LB -->|"HTTP — Limite DMZ / Backend"| APP["App Server"]
+    APP --> CACHE["Cache (Redis)"]
+    APP -->|"Limite Backend / DB"| DB["DB MySQL (Datastore)"]
+    APP --> PAY["API Paiement (Entité externe)"]
+    end
 ```
 
 ## STRIDE

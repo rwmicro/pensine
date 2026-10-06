@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Mathematics > Lycée > Probabilités & Stats"
 tags: [sciences-appliquées, mathématiques]
 date: "2026-02-22"
+prerequis: ["[[Fonctions]]"]
 ---
 
 # Suites Numériques
@@ -132,12 +133,12 @@ $$\boxed{S_n = \sum_{k=0}^{n} u_k = u_0 \cdot \frac{1 - q^{n+1}}{1 - q}}$$
 ```mermaid
 flowchart TD
     A["On dispose d'une suite (u_n)"] --> B{"Calculer u_{n+1} - u_n"}
-    B -->|"Résultat = constante r"| C["Suite arithmétique<br/>de raison r"]
-    B -->|"Résultat non constant"| D{"u_0 ≠ 0 ?<br/>Calculer u_{n+1} / u_n"}
-    D -->|"Résultat = constante q"| E["Suite géométrique<br/>de raison q"]
-    D -->|"Résultat non constant"| F{"Poser v_n = f(u_n)<br/>et tester v_n"}
-    F -->|"v_n arithmétique<br/>ou géométrique"| G["Suite arithmético-<br/>géométrique<br/>ou autre transformation"]
-    F -->|"Aucun résultat"| H["Suite quelconque :<br/>étudier directement<br/>monotonie et limites"]
+    B -->|"Résultat = constante r"| C["Suite arithmétique\nde raison r"]
+    B -->|"Résultat non constant"| D{"u_0 ≠ 0 ?\nCalculer u_{n+1} / u_n"}
+    D -->|"Résultat = constante q"| E["Suite géométrique\nde raison q"]
+    D -->|"Résultat non constant"| F{"Poser v_n = f(u_n)\net tester v_n"}
+    F -->|"v_n arithmétique\nou géométrique"| G["Suite arithmético-\ngéométrique\nou autre transformation"]
+    F -->|"Aucun résultat"| H["Suite quelconque :\nétudier directement\nmonotonie et limites"]
 
     style C fill:#C8E6C9,stroke:#388E3C,color:#000
     style E fill:#BBDEFB,stroke:#1565C0,color:#000
@@ -312,8 +313,8 @@ class ConvergenceToileAraignee(Scene):
 
 ```mermaid
 flowchart LR
-    A["Initialisation<br/>Vérifier P(n₀)"] --> B["Hérédité<br/>P(n) ⟹ P(n+1)"]
-    B --> C["Conclusion<br/>P(n) vraie ∀ n ≥ n₀"]
+    A["Initialisation\nVérifier P(n₀)"] --> B["Hérédité\nP(n) ⟹ P(n+1)"]
+    B --> C["Conclusion\nP(n) vraie ∀ n ≥ n₀"]
 
     style A fill:#C8E6C9,stroke:#388E3C,color:#000
     style B fill:#BBDEFB,stroke:#1565C0,color:#000
@@ -421,3 +422,24 @@ flowchart LR
    Donc $u_n = v_n + 2 = \dfrac{1}{2^{n-1}} + 2$.
 
 3. $\lim_{n \to +\infty} \dfrac{1}{2^{n-1}} = 0$, donc $\lim_{n \to +\infty} u_n = 2$.
+
+
+## Questions de révision
+
+> [!quiz] Quelle différence entre une suite arithmétique et une suite géométrique ?
+> Arithmétique : on ajoute une raison constante, $u_{n+1} = u_n + r$. Géométrique : on multiplie par une raison constante, $u_{n+1} = q \cdot u_n$.
+
+> [!quiz] Quel est le terme général d'une suite arithmétique et d'une suite géométrique ?
+> $u_n = u_0 + n r$ pour une suite arithmétique, $u_n = u_0 \cdot q^n$ pour une suite géométrique.
+
+> [!quiz] Comment calcule-t-on la somme de termes consécutifs d'une suite arithmétique ?
+> Nombre de termes multiplié par la moyenne du premier et du dernier terme : $S_n = (n+1) \times \frac{u_0 + u_n}{2}$.
+
+> [!quiz] Une suite bornée est-elle forcément convergente ?
+> Non : toute suite convergente est bornée, mais la réciproque est fausse, par exemple $u_n = (-1)^n$ est bornée sans converger.
+
+> [!quiz] Que dit le théorème de convergence monotone, et que ne donne-t-il pas ?
+> Toute suite croissante et majorée (ou décroissante et minorée) converge. Il prouve l'existence de la limite sans en donner la valeur.
+
+> [!quiz] Quelles sont les étapes d'un raisonnement par récurrence ?
+> Initialisation (vérifier $P(n_0)$), hérédité (montrer que $P(n)$ entraîne $P(n+1)$), puis conclusion : $P(n)$ est vraie pour tout $n \geq n_0$.

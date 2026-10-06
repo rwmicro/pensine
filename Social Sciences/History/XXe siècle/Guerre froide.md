@@ -6,6 +6,7 @@ tags: [sciences-sociales, histoire, xxe-siècle, guerre-froide, relations-intern
 date: "2026-09-28"
 year: 1947
 yearEnd: 1991
+prerequis: ["[[Le Communisme au XXe siècle]]"]
 ---
 
 # La guerre froide (1947-1991)
@@ -88,6 +89,26 @@ L'arrivée de Mikhaïl Gorbatchev au pouvoir en 1985 change la donne. Face à un
 Qui est responsable de la guerre froide ? L'école dite **orthodoxe**, dominante aux États-Unis dans les années 1950, l'impute à l'expansionnisme soviétique. L'école **révisionniste** des années 1960, dans le contexte de la guerre du Vietnam, avec William Appleman Williams, insiste sur l'impérialisme économique américain et la recherche de marchés ouverts. Les **post-révisionnistes**, autour de John Lewis Gaddis, proposent une responsabilité partagée, faite de malentendus et de dilemmes de sécurité. L'ouverture partielle des archives soviétiques après 1991 a conduit Gaddis à réinsister sur le rôle de l'idéologie et de la personnalité de Staline, tandis que d'autres historiens ont déplacé le regard vers les acteurs du tiers-monde, les sociétés et la culture.
 
 La fin elle-même fait débat : victoire de la fermeté de Reagan, pour les uns ; implosion interne d'un système économique à bout de souffle et choix personnel de Gorbatchev de ne pas recourir à la force, pour les autres. La plupart des historiens combinent ces facteurs, en soulignant le poids décisif du second. Pour la Russie, héritière de l'[[01 - Empire Russe|Empire russe]] puis de l'URSS, la perte de cet espace impérial est devenue un thème politique récurrent de ses dirigeants.
+
+## Questions de révision
+
+> [!quiz] Pourquoi la guerre froide est-elle une guerre sans bataille directe entre les deux grands ?
+> Parce que l'arme nucléaire rend un affrontement direct suicidaire ; la rivalité est totale (militaire, idéologique, économique, technologique, culturelle) mais les combats ont lieu ailleurs, de la Corée à l'Afghanistan.
+
+> [!quiz] Qu'est-ce que la politique d'endiguement (*containment*) théorisée par George Kennan ?
+> Contenir l'expansion soviétique sans guerre, en attendant que le système soviétique s'use de lui-même.
+
+> [!quiz] Comment se dénoue la crise des missiles de Cuba en 1962 ?
+> Khrouchtchev retire les missiles contre l'engagement américain de ne pas envahir Cuba et un retrait discret des missiles américains de Turquie ; la crise débouche sur le « téléphone rouge » et, en 1963, un traité interdisant les essais nucléaires dans l'atmosphère.
+
+> [!quiz] Que résume la formule de Raymond Aron « Paix impossible, guerre improbable » ?
+> La paix est impossible car les deux camps sont idéologiquement inconciliables, mais la guerre est improbable car la dissuasion nucléaire rend toute attaque irrationnelle.
+
+> [!quiz] Pourquoi parler de guerre « froide » est-il un point de vue européen et américain ?
+> L'Europe connaît alors une longue période sans guerre entre grandes puissances, mais les conflits liés à la rivalité des deux grands (Corée, Vietnam, Afghanistan, Angola…) ont fait plusieurs millions de morts ; Odd Arne Westad situe le cœur violent de la guerre froide dans le tiers-monde.
+
+> [!quiz] Quelles grandes écoles s'opposent sur la responsabilité de la guerre froide ?
+> L'école orthodoxe l'impute à l'expansionnisme soviétique ; l'école révisionniste (William Appleman Williams) à l'impérialisme économique américain ; les post-révisionnistes (John Lewis Gaddis) proposent une responsabilité partagée.
 
 ## Ressources
 

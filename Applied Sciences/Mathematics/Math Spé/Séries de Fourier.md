@@ -20,11 +20,11 @@ L'analyse de Fourier décompose une fonction périodique en somme (infinie) de f
 > Toute fonction périodique "raisonnable" peut s'écrire comme une **superposition d'ondes sinusoïdales** de fréquences multiples. La série de Fourier décompose le signal en ses composantes fréquentielles.
 
 ```mermaid
-graph LR
-    A["Signal<br/>périodique f(t)"] --> B["Analyse de<br/>Fourier"]
-    B --> C["Coefficients<br/>aₙ, bₙ"]
-    C --> D["Synthèse :<br/>somme de sin et cos"]
-    D --> E["Reconstruction<br/>de f(t)"]
+flowchart LR
+    A["Signal\npériodique f(t)"] --> B["Analyse de\nFourier"]
+    B --> C["Coefficients\naₙ, bₙ"]
+    C --> D["Synthèse :\nsomme de sin et cos"]
+    D --> E["Reconstruction\nde f(t)"]
 
     style B fill:#BBDEFB
     style C fill:#FFF9C4
@@ -98,10 +98,10 @@ $$S_N f(t) = a_0 + \sum_{n=1}^{N} \left[ a_n \cos(nt) + b_n \sin(nt) \right] = \
 
 ```mermaid
 flowchart TD
-    A["Calculer les coefficients<br/>de Fourier de f"] --> B{"f est paire ?"}
-    B -->|Oui| C["bₙ = 0<br/>Calculer seulement aₙ"]
+    A["Calculer les coefficients\nde Fourier de f"] --> B{"f est paire ?"}
+    B -->|Oui| C["bₙ = 0\nCalculer seulement aₙ"]
     B -->|Non| D{"f est impaire ?"}
-    D -->|Oui| E["aₙ = 0<br/>Calculer seulement bₙ"]
+    D -->|Oui| E["aₙ = 0\nCalculer seulement bₙ"]
     D -->|Non| F["Calculer aₙ et bₙ"]
 
     style C fill:#C8E6C9

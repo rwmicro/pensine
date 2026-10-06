@@ -35,21 +35,23 @@ Depuis *Le Théétète* de Platon, la philosophie a défini la connaissance comm
   1. Vérité       : P est vraie (objectivement)
   2. Croyance     : S croit que P
   3. Justification : S a de bonnes raisons de croire P
+```
 
-  ┌────────────────────────────────────────────────┐
-  │            Toutes les croyances de S           │
-  │                                                │
-  │   ┌──────────────────────────────────────┐     │
-  │   │         Croyances vraies             │     │
-  │   │                                      │     │
-  │   │   ┌──────────────────────────────┐   │     │
-  │   │   │   Croyances vraies           │   │     │
-  │   │   │   ET justifiées              │   │     │
-  │   │   │                              │   │     │
-  │   │   │   → CONNAISSANCE             │   │     │
-  │   │   └──────────────────────────────┘   │     │
-  │   └──────────────────────────────────────┘     │
-  └────────────────────────────────────────────────┘
+```mermaid
+block-beta
+  columns 1
+  block:tous
+    columns 1
+    A1["Toutes les croyances de S"]
+    block:vraies
+      columns 1
+      A2["Croyances vraies"]
+      block:jtb
+        columns 1
+        A3["Croyances vraies ET justifiées → CONNAISSANCE"]
+      end
+    end
+  end
 ```
 
 **Exemples :**
@@ -99,21 +101,14 @@ Le débat central de la philosophie moderne (XVIIe–XVIIIe siècles) oppose deu
 | Figures | Descartes, Spinoza, Leibniz | Locke, Berkeley, Hume |
 | Limite | Comment la raison seule peut-elle atteindre le monde réel ? | Comment justifier les vérités universelles à partir de cas particuliers ? |
 
-```
-  RATIONALISME                         EMPIRISME
-
-  Raison                               Expérience
-     │                                     │
-     ▼                                     ▼
-  Idées claires et distinctes         Impressions sensorielles
-  (Descartes)                         (Hume)
-     │                                     │
-     ▼                                     ▼
-  Déduction logique                   Induction
-     │                                     │
-     ▼                                     ▼
-  Vérités nécessaires                 Régularités observées
-  (mathématiques, logique)            (sciences empiriques)
+```mermaid
+flowchart TD
+  subgraph RAT["RATIONALISME"]
+    R1["Raison"] --> R2["Idées claires et distinctes (Descartes)"] --> R3["Déduction logique"] --> R4["Vérités nécessaires (mathématiques, logique)"]
+  end
+  subgraph EMP["EMPIRISME"]
+    E1["Expérience"] --> E2["Impressions sensorielles (Hume)"] --> E3["Induction"] --> E4["Régularités observées (sciences empiriques)"]
+  end
 ```
 
 **Descartes et le doute méthodique**
@@ -176,27 +171,22 @@ Karl Popper (*La Logique de la Découverte Scientifique*, 1934) propose une solu
 
 **Le critère de démarcation**
 
-```
-  Une théorie est scientifique si et seulement si
-  elle est FALSIFIABLE : elle prédit des observations
-  précises qui pourraient la réfuter.
+Une théorie est scientifique si et seulement si elle est **falsifiable** : elle prédit des observations précises qui pourraient la réfuter.
 
-  ┌────────────────────────────────────────────────────┐
-  │              Toutes les affirmations               │
-  │                                                    │
-  │    ┌──────────────────────────────────────┐        │
-  │    │      AFFIRMATIONS FALSIFIABLES       │        │
-  │    │      = Science                       │        │
-  │    │                                      │        │
-  │    │  Corroborées       Réfutées          │        │
-  │    │  (provisoires,     (abandonnées)     │        │
-  │    │   pas prouvées)                      │        │
-  │    └──────────────────────────────────────┘        │
-  │                                                    │
-  │  Hors du cercle = non-falsifiables :               │
-  │  métaphysique, astrologie, psychanalyse freudienne │
-  │  (pas nécessairement fausses, juste non scientif.) │
-  └────────────────────────────────────────────────────┘
+```mermaid
+block-beta
+  columns 1
+  block:tout
+    columns 1
+    B1["Toutes les affirmations"]
+    block:falsi
+      columns 1
+      B2["AFFIRMATIONS FALSIFIABLES = Science"]
+      B3["Corroborées (provisoires, pas prouvées)"]
+      B4["Réfutées (abandonnées)"]
+    end
+    B5["Hors du cercle = non-falsifiables : métaphysique, astrologie, psychanalyse freudienne (pas nécessairement fausses, juste non scientif.)"]
+  end
 ```
 
 **Exemples**
@@ -206,18 +196,13 @@ Karl Popper (*La Logique de la Découverte Scientifique*, 1934) propose une solu
 
 **Le falsificationnisme en pratique**
 
-```
-  Théorie T
-      │
-      ▼
-  Déduction de prédictions testables
-      │
-      ▼
-  Expérimentation
-      │
-      ├── Prédiction confirmée → T corroborée (provisoirement)
-      │
-      └── Prédiction réfutée  → T falsifiée → abandonner ou modifier T
+```mermaid
+flowchart TD
+  T["Théorie T"]
+  T --> D["Déduction de prédictions testables"]
+  D --> X["Expérimentation"]
+  X -->|"Prédiction confirmée"| C["T corroborée (provisoirement)"]
+  X -->|"Prédiction réfutée"| F["T falsifiée → abandonner ou modifier T"]
 ```
 
 **Limite :** La thèse de Duhem-Quine montre qu'on ne peut jamais falsifier une théorie isolée — toute expérience teste un ensemble d'hypothèses auxiliaires. Une falsification apparente peut toujours être absorbée en révisant une hypothèse périphérique.
@@ -234,30 +219,21 @@ Un paradigme est l'ensemble des croyances, valeurs et techniques partagées par 
 
 **Le cycle de Kuhn**
 
+```mermaid
+flowchart TD
+  SN["Science normale (puzzle-solving dans le cadre du paradigme)"]
+  SN -->|"accumulation d'anomalies"| CR["Crise du paradigme (le paradigme ne peut plus absorber les anomalies)"]
+  CR -->|"émergence d'alternatives"| RS["Révolution scientifique (basculement vers un nouveau paradigme)"]
+  RS -->|"nouveau consensus"| NSN["Nouvelle science normale (le cycle recommence)"]
+  NSN --> SN
 ```
-  Science normale
-  (puzzle-solving dans le cadre du paradigme)
-        │
-        │ accumulation d'anomalies
-        ▼
-  Crise du paradigme
-  (le paradigme ne peut plus absorber les anomalies)
-        │
-        │ émergence d'alternatives
-        ▼
-  Révolution scientifique
-  (basculement vers un nouveau paradigme)
-        │
-        │ nouveau consensus
-        ▼
-  Nouvelle science normale
-  (le cycle recommence)
 
-  Exemples :
-    Géocentrisme → Héliocentrisme (Copernic, Galilée)
-    Physique newtonienne → Relativité (Einstein)
-    Fixisme → Dérive des continents (Wegener)
-    Génération spontanée → Théorie microbienne (Pasteur)
+```
+Exemples :
+  Géocentrisme → Héliocentrisme (Copernic, Galilée)
+  Physique newtonienne → Relativité (Einstein)
+  Fixisme → Dérive des continents (Wegener)
+  Génération spontanée → Théorie microbienne (Pasteur)
 ```
 
 **L'incommensurabilité**

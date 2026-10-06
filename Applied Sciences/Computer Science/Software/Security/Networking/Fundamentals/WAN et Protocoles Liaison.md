@@ -38,22 +38,13 @@ PPP (RFC 1661) est le protocole WAN le plus courant pour les liaisons point-à-p
 
 PPP encapsule plusieurs protocoles dans une même liaison via une architecture en sous-protocoles :
 
-```
-┌──────────────────────────────────┐
-│       Protocoles réseau          │
-│   (IP, IPX, AppleTalk, ...)      │
-├──────────────────────────────────┤
-│     NCP — Network Control        │
-│   Protocol (un par protocole     │
-│       réseau : IPCP, IPXCP...)   │
-├──────────────────────────────────┤
-│     LCP — Link Control Protocol  │
-│  (négociation, authentification, │
-│      compression, multilink)     │
-├──────────────────────────────────┤
-│   Support physique (série, ISDN, │
-│       analogique, Ethernet)      │
-└──────────────────────────────────┘
+```mermaid
+block-beta
+    columns 1
+    A["Protocoles réseau (IP, IPX, AppleTalk, ...)"]
+    B["NCP — Network Control Protocol (un par protocole réseau : IPCP, IPXCP...)"]
+    C["LCP — Link Control Protocol (négociation, authentification, compression, multilink)"]
+    D["Support physique (série, ISDN, analogique, Ethernet)"]
 ```
 
 ### Établissement d'une session PPP
@@ -88,10 +79,13 @@ Router(config)#username RemoteRouter password MotDePasse
 > [!important] Pourquoi CHAP résiste au rejeu là où PAP échoue
 > PAP envoie le mot de passe lui-même — intercepté une fois, il est réutilisable indéfiniment. CHAP envoie un hash calculé à partir d'un challenge **aléatoire à chaque authentification** : même en capturant une réponse, un attaquant ne peut pas la rejouer, puisque le prochain challenge sera différent.
 
-```
-Authenticator → Peer : Challenge (nombre aléatoire)
-Peer → Authenticator : Response = MD5(ID + Secret + Challenge)
-Authenticator → Peer : Success ou Failure
+```mermaid
+sequenceDiagram
+    participant A as Authenticator
+    participant P as Peer
+    A->>P: Challenge (nombre aléatoire)
+    P->>A: Response = MD5(ID + Secret + Challenge)
+    A->>P: Success ou Failure
 ```
 
 ```cisco
@@ -159,20 +153,24 @@ Frame Relay est un protocole WAN de commutation par paquets opérant à la couch
 
 **Frame Relay Switch** : équipement de l'opérateur qui commute les trames entre DLCI.
 
-```
-Site A                    Nuage Frame Relay                Site B
-RouterA ──── DLCI 102 ──── Switch ──── DLCI 201 ──── RouterB
-             (local)                   (local)
+```mermaid
+flowchart LR
+    RA["RouterA (Site A)"] -->|"DLCI 102 (local)"| SW["Switch (Nuage Frame Relay)"]
+    SW -->|"DLCI 201 (local)"| RB["RouterB (Site B)"]
 ```
 
 ### En-tête Frame Relay
 
-```
- 0               1
- 0 1 2 3 4 5 6 7 0 1 2 3 4 5 6 7
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|    DLCI (6)   |C/R|EA|DLCI(4)|FECN|BECN|DE|EA|
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+```mermaid
+packet-beta
+0-5: "DLCI (6)"
+6: "C/R"
+7: "EA"
+8-11: "DLCI (4)"
+12: "FECN"
+13: "BECN"
+14: "DE"
+15: "EA"
 ```
 
 | Champ | Description |
@@ -264,11 +262,10 @@ MPLS (RFC 3031) est le successeur de Frame Relay dans les réseaux opérateurs. 
 
 ### Fonctionnement
 
-```
-Paquet IP → [Label Imposition] → Trame MPLS → [Label Switching] → [Label Disposition] → Paquet IP
-
-CE Router → PE Router ─────── P Router ─────── PE Router → CE Router
-  (client)   (provider edge)   (provider)   (provider edge)   (client)
+```mermaid
+flowchart LR
+    IP1["Paquet IP"] --> LI["Label Imposition"] --> M["Trame MPLS"] --> LS["Label Switching"] --> LD["Label Disposition"] --> IP2["Paquet IP"]
+    CE1["CE Router (client)"] --> PE1["PE Router (provider edge)"] --> P["P Router (provider)"] --> PE2["PE Router (provider edge)"] --> CE2["CE Router (client)"]
 ```
 
 | Composant | Rôle |

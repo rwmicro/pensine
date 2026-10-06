@@ -234,10 +234,10 @@ $$\tilde{e}_k = v_k - \sum_{i=1}^{k-1} \langle v_k, e_i \rangle \, e_i, \quad e_
 ```mermaid
 flowchart TD
     A["Matrice symétrique A = Aᵀ"] --> B["Valeurs propres toutes réelles"]
-    B --> C["Sous-espaces propres<br/>deux à deux orthogonaux"]
-    C --> D["Appliquer Gram-Schmidt<br/>dans chaque sous-espace propre"]
-    D --> E["Obtenir une BON<br/>de diagonalisation"]
-    E --> F["P orthogonale : P⁻¹ = Pᵀ<br/>D = PᵀAP diagonale"]
+    B --> C["Sous-espaces propres\ndeux à deux orthogonaux"]
+    C --> D["Appliquer Gram-Schmidt\ndans chaque sous-espace propre"]
+    D --> E["Obtenir une BON\nde diagonalisation"]
+    E --> F["P orthogonale : P⁻¹ = Pᵀ\nD = PᵀAP diagonale"]
 ```
 
 

@@ -13,7 +13,7 @@ L'**apprentissage par renforcement** (Reinforcement Learning, RL) permet à un *
 ## Concepts fondamentaux
 
 ```mermaid
-graph LR
+flowchart LR
     A["Agent"] -->|"Action a"| E["Environnement"]
     E -->|"État s'"| A
     E -->|"Récompense r"| A
@@ -101,8 +101,8 @@ $$V^\pi(s) = \sum_a \pi(a \mid s) \sum_{s'} P(s' \mid s, a) \left[ R(s, a) + \ga
 ## Les grandes familles d'algorithmes
 
 ```mermaid
-graph TB
-    RL["Apprentissage par<br/>Renforcement"]
+flowchart TB
+    RL["Apprentissage par\nRenforcement"]
     RL --> MF["Model-Free"]
     RL --> MB["Model-Based"]
 
@@ -174,8 +174,8 @@ Quand l'espace d'états est trop grand pour une table Q (ex: pixels d'un jeu), o
 - **Target Network** : un second réseau mis à jour moins fréquemment pour stabiliser l'entraînement
 
 ```mermaid
-graph LR
-    S["État s<br/>(ex: pixels du jeu)"] --> NN["Réseau de neurones<br/>(convolutions + dense)"]
+flowchart LR
+    S["État s\n(ex: pixels du jeu)"] --> NN["Réseau de neurones\n(convolutions + dense)"]
     NN --> Q1["Q(s, gauche)"]
     NN --> Q2["Q(s, droite)"]
     NN --> Q3["Q(s, haut)"]
@@ -207,9 +207,9 @@ Combinent le meilleur des deux mondes :
 - **Critic** (critique) : apprend la fonction de valeur $V(s)$ pour évaluer les actions de l'acteur
 
 ```mermaid
-graph TB
-    S["État s"] --> ACTOR["Actor<br/>π(a|s)"]
-    S --> CRITIC["Critic<br/>V(s)"]
+flowchart TB
+    S["État s"] --> ACTOR["Actor\nπ(a|s)"]
+    S --> CRITIC["Critic\nV(s)"]
     ACTOR --> A["Action a"]
     A --> ENV["Environnement"]
     ENV --> R["Récompense r"]

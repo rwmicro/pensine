@@ -15,31 +15,25 @@ Kerberos est le protocole d'authentification central d'Active Directory. Ses mé
 
 ## Rappel du protocole Kerberos
 
+```mermaid
+sequenceDiagram
+    Client->>KDC: AS-REQ (demande de TGT)
+    Note right of Client: Contient : username, timestamp chiffré avec le hash NTLM du user
+    KDC->>Client: AS-REP (TGT)
+    Note left of KDC: TGT chiffré avec le hash NTLM de krbtgt — Session key chiffrée avec le hash NTLM du user
+    Client->>KDC: TGS-REQ (demande de TGS pour un service)
+    Note right of Client: Contient : TGT + SPN du service cible
+    KDC->>Client: TGS-REP (ticket de service = TGS)
+    Note left of KDC: TGS chiffré avec le hash NTLM du compte de service
+    Client->>Service: AP-REQ (accès au service)
+    Note right of Client: Présente le TGS, le service déchiffre avec son propre hash
 ```
-Flux d'authentification :
-
-Client → KDC (AS) : AS-REQ (demande de TGT)
-  → Contient : username, timestamp chiffré avec le hash NTLM du user
-
-KDC (AS) → Client : AS-REP (TGT)
-  → TGT chiffré avec le hash NTLM de krbtgt
-  → Session key chiffrée avec le hash NTLM du user
-
-Client → KDC (TGS) : TGS-REQ (demande de TGS pour un service)
-  → Contient : TGT + SPN du service cible
-
-KDC (TGS) → Client : TGS-REP (ticket de service = TGS)
-  → TGS chiffré avec le hash NTLM du compte de service
-
-Client → Service : AP-REQ (accès au service)
-  → Présente le TGS → le service déchiffre avec son propre hash
 
 Acteurs :
-  KDC (Key Distribution Center) : généralement le contrôleur de domaine
-  AS  (Authentication Service) : émet les TGT
-  TGS (Ticket Granting Service) : émet les tickets de service
-  krbtgt : compte spécial dont le hash protège tous les TGT
-```
+- KDC (Key Distribution Center) : généralement le contrôleur de domaine
+- AS (Authentication Service) : émet les TGT
+- TGS (Ticket Granting Service) : émet les tickets de service
+- krbtgt : compte spécial dont le hash protège tous les TGT
 
 ## Kerberoasting
 

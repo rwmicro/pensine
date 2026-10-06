@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Languages > Bash"
 tags: [sciences-appliquées, informatique, bash]
 date: "2026-03-20"
+prerequis: ["[[Bash Basics]]"]
 ---
 
 # Bash — Scripts et Automatisation
@@ -211,3 +212,23 @@ done
 | Noms en MAJUSCULES pour constantes | Convention lisibilité |
 | `mktemp` pour fichiers temporaires | Évite les conflits de noms |
 | Commentaires au-dessus des blocs | Documenter l'intention, pas l'évidence |
+
+## Questions de révision
+
+> [!quiz] Que font les trois options de `set -euo pipefail` ?
+> `-e` quitte le script si une commande échoue, `-u` provoque une erreur sur une variable non définie, `-o pipefail` fait échouer un pipeline si l'une de ses commandes échoue.
+
+> [!quiz] Pourquoi ne faut-il pas compter sur `set -e` seul dans un script critique ?
+> Il est ignoré dans la condition d'un `if`/`while` et dans le membre gauche d'un `&&`/`||` : certains échecs passent donc inaperçus. Il faut vérifier explicitement les codes de retour aux points sensibles.
+
+> [!quiz] Pourquoi `local var=$(commande)` masque-t-il l'échec de `commande` ?
+> Le code de sortie de la ligne est celui de `local`, quasi toujours 0, et non celui de la substitution. On sépare déclaration et affectation : `local var; var=$(commande)`.
+
+> [!quiz] Quelle différence entre `trap nettoyer EXIT` et `trap ... ERR` ?
+> `EXIT` se déclenche à toute sortie du script, succès comme échec, ce qui en fait le bon endroit pour un nettoyage garanti ; `ERR` ne réagit qu'aux commandes en échec.
+
+> [!quiz] Que fait `NOM="${1:-Martin}"` ?
+> Il affecte à `NOM` le premier argument, ou la valeur par défaut `Martin` si celui-ci est vide.
+
+> [!quiz] Pourquoi toujours mettre les variables entre guillemets (`"$var"`) ?
+> Pour éviter le découpage en mots (word splitting) et l'expansion des motifs glob sur leur contenu.

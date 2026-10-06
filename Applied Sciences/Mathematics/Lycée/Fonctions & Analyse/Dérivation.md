@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Mathematics > Lycée > Fonctions & Analyse"
 tags: [sciences-appliquées, mathématiques]
 date: "2026-02-19"
+prerequis: ["[[Second Degré]]"]
 ---
 
 # Dérivation
@@ -211,7 +212,7 @@ class TangenteLimiteSecantes(Scene):
 ### 4.5 Résumé des formules
 
 ```mermaid
-graph TD
+flowchart TD
     A["Opérations sur les dérivées"] --> B["Somme : (f+g)' = f' + g'"]
     A --> C["Scalaire : (λf)' = λf'"]
     A --> D["Produit : (fg)' = f'g + fg'"]
@@ -318,7 +319,7 @@ graph TD
 ```mermaid
 flowchart TD
     A["f'(c) = 0"] --> B{"f' change-t-elle de signe en c ?"}
-    B -->|Non| C["Pas d'extremum<br/>(ex : point d'inflexion)"]
+    B -->|Non| C["Pas d'extremum\n(ex : point d'inflexion)"]
     B -->|"+ puis -"| D["Maximum local en c"]
     B -->|"- puis +"| E["Minimum local en c"]
 ```
@@ -490,6 +491,27 @@ c) $h(x) = \frac{2x + 1}{x^2 + 3}$
 > - $f' > 0 \Rightarrow f$ croissante. $f' < 0 \Rightarrow f$ décroissante.
 > - Extremum local en $c$ implique $f'(c) = 0$ (condition nécessaire). Le changement de signe de $f'$ confirme l'extremum (condition suffisante).
 > - Pour l'**optimisation** : modéliser, dériver, résoudre $f'(x) = 0$, vérifier le changement de signe.
+
+
+## Questions de révision
+
+> [!quiz] Comment le nombre dérivé $f'(a)$ est-il défini ?
+> C'est la limite finie, quand $h \to 0$, du taux d'accroissement $\frac{f(a+h) - f(a)}{h}$, si elle existe.
+
+> [!quiz] Quelle est l'interprétation géométrique de $f'(a)$, et l'équation de la tangente en $a$ ?
+> $f'(a)$ est le coefficient directeur de la tangente à la courbe au point d'abscisse $a$ ; la tangente a pour équation $y = f'(a)(x - a) + f(a)$.
+
+> [!quiz] Quelle est la formule de la dérivée d'un quotient $\frac{u}{v}$ ?
+> $\left(\frac{u}{v}\right)' = \frac{u'v - uv'}{v^2}$, là où $v$ ne s'annule pas ; l'ordre des termes au numérateur compte.
+
+> [!quiz] Comment dérive-t-on une composée $g \circ u$ ?
+> $(g \circ u)'(x) = u'(x) \times g'(u(x))$ : on dérive la fonction extérieure appliquée à $u(x)$ et on multiplie par $u'(x)$.
+
+> [!quiz] Pourquoi $f'(c) = 0$ ne suffit-il pas à garantir un extremum en $c$ ?
+> C'est seulement une condition nécessaire : pour $f(x) = x^3$, $f'(0) = 0$ mais $0$ n'est pas un extremum. Il faut que $f'$ change de signe en $c$.
+
+> [!quiz] Quel lien y a-t-il entre le signe de la dérivée et les variations de $f$ sur un intervalle ?
+> Si $f' > 0$ sur l'intervalle, $f$ y est strictement croissante ; si $f' < 0$, strictement décroissante ; si $f' = 0$, constante.
 
 
 *Voir aussi* : [[Fonctions]] | [[Second Degré]] | [[Calcul Algébrique]] | [[Ensembles et Nombres]]

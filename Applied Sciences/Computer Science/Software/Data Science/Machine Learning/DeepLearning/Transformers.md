@@ -19,7 +19,7 @@ Avant les Transformers, les modèles de séquences (RNN, LSTM) avaient deux prob
 Les Transformers résolvent ces deux problèmes grâce au mécanisme d'**attention**.
 
 ```mermaid
-graph LR
+flowchart LR
     subgraph "RNN / LSTM"
         direction LR
         R1["Token 1"] --> R2["Token 2"] --> R3["Token 3"] --> R4["Token 4"]
@@ -71,10 +71,10 @@ $$\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)
 - Multiplication par $V$ : pondérer les valeurs par l'attention
 
 ```mermaid
-graph TB
-    INPUT["Entrée (tokens)"] --> Q["Projection Q<br/>(Query)"]
-    INPUT --> K["Projection K<br/>(Key)"]
-    INPUT --> V["Projection V<br/>(Value)"]
+flowchart TB
+    INPUT["Entrée (tokens)"] --> Q["Projection Q\n(Query)"]
+    INPUT --> K["Projection K\n(Key)"]
+    INPUT --> V["Projection V\n(Value)"]
 
     Q --> MATMUL1["Q × Kᵀ"]
     K --> MATMUL1
@@ -82,7 +82,7 @@ graph TB
     SCALE --> SOFT["Softmax"]
     SOFT --> MATMUL2["× V"]
     V --> MATMUL2
-    MATMUL2 --> OUT["Sortie<br/>(représentation contextualisée)"]
+    MATMUL2 --> OUT["Sortie\n(représentation contextualisée)"]
 
     style INPUT fill:#2196F3,color:#fff
     style SOFT fill:#FF9800,color:#fff
@@ -101,28 +101,28 @@ $$\text{MultiHead}(Q, K, V) = \text{Concat}(\text{head}_1, \dots, \text{head}_h)
 ## Architecture complète
 
 ```mermaid
-graph TB
+flowchart TB
     subgraph "Encodeur (x N)"
         direction TB
-        IN_E["Embeddings<br/>+ Position"] --> MHA_E["Multi-Head<br/>Self-Attention"]
+        IN_E["Embeddings\n+ Position"] --> MHA_E["Multi-Head\nSelf-Attention"]
         MHA_E --> AN1["Add & Norm"]
-        AN1 --> FFN_E["Feed-Forward<br/>Network"]
+        AN1 --> FFN_E["Feed-Forward\nNetwork"]
         FFN_E --> AN2["Add & Norm"]
     end
 
     subgraph "Décodeur (x N)"
         direction TB
-        IN_D["Embeddings<br/>+ Position"] --> MMHA["Masked Multi-Head<br/>Self-Attention"]
+        IN_D["Embeddings\n+ Position"] --> MMHA["Masked Multi-Head\nSelf-Attention"]
         MMHA --> AN3["Add & Norm"]
-        AN3 --> CROSS["Cross-Attention<br/>(attend à l'encodeur)"]
+        AN3 --> CROSS["Cross-Attention\n(attend à l'encodeur)"]
         CROSS --> AN4["Add & Norm"]
-        AN4 --> FFN_D["Feed-Forward<br/>Network"]
+        AN4 --> FFN_D["Feed-Forward\nNetwork"]
         FFN_D --> AN5["Add & Norm"]
     end
 
     AN2 --> CROSS
     AN5 --> LINEAR["Linear + Softmax"]
-    LINEAR --> OUTPUT["Prédiction<br/>du prochain token"]
+    LINEAR --> OUTPUT["Prédiction\ndu prochain token"]
 
     style IN_E fill:#2196F3,color:#fff
     style IN_D fill:#4CAF50,color:#fff
@@ -159,10 +159,10 @@ Les modèles modernes utilisent souvent des **positional embeddings apprenables*
 ## Les trois familles de Transformers
 
 ```mermaid
-graph TB
-    TRANS["Transformer"] --> ENC["Encoder-only<br/>(Compréhension)"]
-    TRANS --> DEC["Decoder-only<br/>(Génération)"]
-    TRANS --> ED["Encoder-Decoder<br/>(Séquence → Séquence)"]
+flowchart TB
+    TRANS["Transformer"] --> ENC["Encoder-only\n(Compréhension)"]
+    TRANS --> DEC["Decoder-only\n(Génération)"]
+    TRANS --> ED["Encoder-Decoder\n(Séquence → Séquence)"]
 
     ENC --> BERT2["BERT"]
     ENC --> ROBERTA["RoBERTa"]

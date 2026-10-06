@@ -17,11 +17,11 @@ Un neurone reçoit plusieurs entrées, les combine linéairement avec des **poid
 $$z = \sum_{i=1}^{n} w_i x_i + b, \qquad a = f(z)$$
 
 ```mermaid
-graph LR
+flowchart LR
     X1["x₁"] -->|"w₁"| SUM["Σ + b"]
     X2["x₂"] -->|"w₂"| SUM
     X3["x₃"] -->|"w₃"| SUM
-    SUM --> ACT["Fonction d'activation<br/>f(z)"]
+    SUM --> ACT["Fonction d'activation\nf(z)"]
     ACT --> OUT["Sortie a"]
 
     style SUM fill:#2196F3,color:#fff
@@ -57,7 +57,7 @@ graph LR
 Un **MLP** (Multi-Layer Perceptron) empile plusieurs couches de neurones : une couche d'entrée, une ou plusieurs couches **cachées**, une couche de sortie.
 
 ```mermaid
-graph LR
+flowchart LR
     subgraph "Couche d'entrée"
         I1((x₁))
         I2((x₂))
@@ -89,7 +89,7 @@ $$\frac{\partial \mathcal{L}}{\partial w^{(l)}} = \frac{\partial \mathcal{L}}{\p
 Chaque terme est une dérivée simple, locale à une couche. Le produit de ces termes donne le gradient exact, sans jamais recalculer la fonction de perte entière pour chaque poids.
 
 ```mermaid
-graph LR
+flowchart LR
     subgraph "Passe avant (forward)"
         direction LR
         X["Entrée x"] --> H1F["Couche 1"] --> H2F["Couche 2"] --> YF["Prédiction ŷ"]
@@ -98,8 +98,8 @@ graph LR
 
     subgraph "Passe arrière (backward)"
         direction RL
-        LOSS2["∂L/∂ŷ"] --> H2B["∂L/∂h₂<br/>puis ∂L/∂W₂"]
-        H2B --> H1B["∂L/∂h₁<br/>puis ∂L/∂W₁"]
+        LOSS2["∂L/∂ŷ"] --> H2B["∂L/∂h₂\npuis ∂L/∂W₂"]
+        H2B --> H1B["∂L/∂h₁\npuis ∂L/∂W₁"]
     end
 
     style LOSS fill:#FF5722,color:#fff

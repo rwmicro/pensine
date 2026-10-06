@@ -13,7 +13,7 @@ La vision par ordinateur (Computer Vision) est le domaine qui permet aux machine
 ## Tâches fondamentales
 
 ```mermaid
-graph TD
+flowchart TD
     image["Image d'entrée"]
     image --> classif["Classification\n'C'est un chat'"]
     image --> detect["Détection d'objets\n'Chat à (x,y,w,h)'"]
@@ -37,7 +37,7 @@ La détection d'objets consiste à localiser (bounding box) et classifier tous l
 **Faster R-CNN (2015)**
 
 ```mermaid
-graph LR
+flowchart LR
     img[Image] --> backbone[Backbone CNN\nFeature Map]
     backbone --> rpn[RPN\nRegion Proposal\nNetwork]
     rpn --> rois[Régions\nproposées]
@@ -64,7 +64,7 @@ Régression directe des boîtes depuis l'image → beaucoup plus rapide.
 YOLO divise l'image en une grille S×S. Chaque cellule prédit B boîtes et C classes simultanément.
 
 ```mermaid
-graph LR
+flowchart LR
     img[Image\n416×416] --> grid[Grille 13×13]
     grid --> cell[Chaque cellule\nprédit B boîtes]
     cell --> pred["[x, y, w, h, conf, classe₁...classeC]"]
@@ -130,7 +130,7 @@ Chaque pixel reçoit une étiquette de classe. Pas de distinction entre instance
 **U-Net** : architecture encodeur-décodeur avec skip connections. Très utilisé en imagerie médicale.
 
 ```mermaid
-graph LR
+flowchart LR
     subgraph Encodeur
         e1[Conv + Pool] --> e2[Conv + Pool] --> e3[Conv + Pool]
     end

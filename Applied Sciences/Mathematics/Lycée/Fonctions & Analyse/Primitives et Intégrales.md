@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Mathematics > Lycée > Fonctions & Analyse"
 tags: [sciences-appliquées, mathématiques]
 date: "2026-02-22"
+prerequis: ["[[Exponentielle et Logarithme]]"]
 ---
 
 # Primitives et Intégrales
@@ -122,11 +123,11 @@ Si $f$ change de signe, l'intégrale calcule l'aire **algébrique** (les parties
 
 ```mermaid
 flowchart TD
-    A["Calculer l'aire entre<br/>la courbe et l'axe Ox<br/>sur [a, b]"] --> B{"f garde un signe<br/>constant sur [a,b] ?"}
+    A["Calculer l'aire entre\nla courbe et l'axe Ox\nsur [a, b]"] --> B{"f garde un signe\nconstant sur [a,b] ?"}
     B -->|"Oui, f ≥ 0"| C["Aire = ∫ₐᵇ f(x) dx"]
     B -->|"Oui, f ≤ 0"| D["Aire = -∫ₐᵇ f(x) dx"]
-    B -->|"Non"| E["Trouver les zéros c₁, c₂, ...<br/>de f dans [a, b]"]
-    E --> F["Découper :<br/>Aire = ∫ₐᶜ¹ |f| + ∫ᶜ¹ᶜ² |f| + ..."]
+    B -->|"Non"| E["Trouver les zéros c₁, c₂, ...\nde f dans [a, b]"]
+    E --> F["Découper :\nAire = ∫ₐᶜ¹ |f| + ∫ᶜ¹ᶜ² |f| + ..."]
 
     style C fill:#C8E6C9,stroke:#388E3C,color:#000
     style D fill:#BBDEFB,stroke:#1565C0,color:#000
@@ -394,3 +395,24 @@ $$\int_1^e x\ln(x)\,dx = \left[\frac{x^2}{2}\ln(x)\right]_1^e - \int_1^e \frac{x
 $$= \left(\frac{e^2}{2} \cdot 1 - \frac{1}{2} \cdot 0\right) - \int_1^e \frac{x}{2}\,dx$$
 
 $$= \frac{e^2}{2} - \left[\frac{x^2}{4}\right]_1^e = \frac{e^2}{2} - \frac{e^2}{4} + \frac{1}{4} = \frac{e^2}{4} + \frac{1}{4} = \frac{e^2 + 1}{4}$$
+
+
+## Questions de révision
+
+> [!quiz] Qu'est-ce qu'une primitive d'une fonction $f$ sur un intervalle $I$ ?
+> Une fonction $F$ telle que $F'(x) = f(x)$ pour tout $x \in I$.
+
+> [!quiz] Pourquoi deux primitives d'une même fonction sur un intervalle diffèrent-elles d'une constante ?
+> Leur différence a une dérivée nulle sur l'intervalle, et une fonction de dérivée nulle sur un intervalle est constante.
+
+> [!quiz] Comment calcule-t-on $\int_a^b f(x)\,dx$ pour $f$ continue, et pourquoi le choix de la primitive n'importe-t-il pas ?
+> On calcule $F(b) - F(a)$ avec $F$ une primitive de $f$ ; si on prend $F + C$, la constante $C$ s'annule dans la différence.
+
+> [!quiz] Quelle différence entre l'intégrale et l'aire géométrique quand $f$ change de signe ?
+> L'intégrale donne une aire algébrique où les parties sous l'axe comptent négativement ; l'aire géométrique est $\int_a^b |f(x)|\,dx$, calculée en découpant aux zéros de $f$.
+
+> [!quiz] Comment définit-on la valeur moyenne de $f$ sur $[a, b]$ ?
+> $\mu = \frac{1}{b - a}\int_a^b f(x)\,dx$ : c'est la hauteur du rectangle de base $[a, b]$ ayant la même aire que la surface sous la courbe.
+
+> [!quiz] Que dit le théorème fondamental de l'analyse ?
+> Si $f$ est continue sur un intervalle $I$ et $a \in I$, $F(x) = \int_a^x f(t)\,dt$ est l'unique primitive de $f$ sur $I$ qui s'annule en $a$.

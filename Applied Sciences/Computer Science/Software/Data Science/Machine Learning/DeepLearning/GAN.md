@@ -13,10 +13,10 @@ Les **GAN** (Réseaux Antagonistes Génératifs) sont une architecture de deep l
 ## Le principe : un jeu à deux joueurs
 
 ```mermaid
-graph LR
-    Z["Bruit aléatoire<br/>z ~ N(0,1)"] --> G["Générateur G<br/>(le faussaire)"]
-    G --> FAKE["Image générée<br/>(fausse)"]
-    REAL["Image réelle<br/>(dataset)"] --> D["Discriminateur D<br/>(le détective)"]
+flowchart LR
+    Z["Bruit aléatoire\nz ~ N(0,1)"] --> G["Générateur G\n(le faussaire)"]
+    G --> FAKE["Image générée\n(fausse)"]
+    REAL["Image réelle\n(dataset)"] --> D["Discriminateur D\n(le détective)"]
     FAKE --> D
     D --> VERDICT["Vrai ou Faux ?"]
 
@@ -49,11 +49,11 @@ $$\min_G \max_D \; V(D, G) = \mathbb{E}_{x \sim p_{data}}[\log D(x)] + \mathbb{E
 ## Le processus d'entraînement
 
 ```mermaid
-graph TD
+flowchart TD
     subgraph "Entraînement alterné"
         direction TB
-        STEP1["1. Entraîner D<br/>sur des vrais et faux exemples"] --> STEP2["2. Geler D<br/>Entraîner G à tromper D"]
-        STEP2 --> STEP3["3. Répéter jusqu'à<br/>équilibre de Nash"]
+        STEP1["1. Entraîner D\nsur des vrais et faux exemples"] --> STEP2["2. Geler D\nEntraîner G à tromper D"]
+        STEP2 --> STEP3["3. Répéter jusqu'à\néquilibre de Nash"]
     end
 
     subgraph "Évolution"
@@ -71,7 +71,7 @@ graph TD
 ## Variantes principales
 
 ```mermaid
-graph TB
+flowchart TB
     GAN["GAN"] --> DCGAN2["DCGAN"]
     GAN --> CGAN["Conditional GAN"]
     GAN --> WGAN["WGAN"]

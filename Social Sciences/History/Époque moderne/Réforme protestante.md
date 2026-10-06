@@ -6,6 +6,7 @@ tags: [sciences-sociales, histoire, époque-moderne, religion, christianisme, pr
 date: "2026-09-28"
 year: 1517
 yearEnd: 1648
+prerequis: ["[[La Renaissance]]"]
 ---
 
 # La Réforme protestante
@@ -94,6 +95,26 @@ Son rapport à la modernité est pourtant débattu. En 1904-1905, [[Max Weber]] 
 
 > [!warning] Piège
 > Faire de la Réforme l'origine directe de la liberté de conscience et de la démocratie est anachronique. Luther et Calvin voulaient restaurer la vraie Église, non séparer l'Église de l'État ni garantir le pluralisme. Luther lui-même, d'abord favorable aux juifs dans l'espoir de leur conversion, publie en 1543 *Des Juifs et de leurs mensonges*, un pamphlet d'une violence extrême que l'antisémitisme allemand exploitera au XXe siècle (voir [[Judaïsme]] et [[Shoah]]). La tolérance moderne est moins un programme protestant qu'une solution imposée par l'impossibilité de s'exterminer mutuellement.
+
+## Questions de révision
+
+> [!quiz] Pourquoi la doctrine du salut par la foi seule conduit-elle Luther à condamner les indulgences ?
+> Si l'homme est justifié par la seule grâce de Dieu reçue dans la foi, et non par ses œuvres, le salut ne s'achète ni ne se mérite : le trafic des indulgences est une imposture.
+
+> [!quiz] Que sait-on vraiment de l'affichage des 95 thèses le 31 octobre 1517 ?
+> Ce qui est attesté, c'est la lettre envoyée ce jour-là à l'archevêque de Mayence. L'image des thèses clouées sur la porte de l'église de Wittenberg n'apparaît qu'après la mort de Luther, sous la plume de Melanchthon.
+
+> [!quiz] Qu'est-ce que le sacerdoce universel ?
+> Le principe protestant selon lequel tout baptisé est prêtre : le pasteur est un ministre, non un intermédiaire sacré, ce qui remet en cause la distinction entre clercs et laïcs.
+
+> [!quiz] Que décide la paix d'Augsbourg (1555), et qui en est exclu ?
+> Chaque prince du Saint-Empire choisit entre luthéranisme et catholicisme pour ses sujets (principe résumé plus tard par *cujus regio, ejus religio*) ; les calvinistes en sont exclus.
+
+> [!quiz] Qu'appellent Heinz Schilling et Wolfgang Reinhard la « confessionnalisation » ?
+> L'évolution parallèle des camps protestant et catholique aux XVIe et XVIIe siècles : chacun définit une orthodoxie écrite, discipline les fidèles, forme un clergé instruit et s'adosse à l'État, ce qui renforce le pouvoir des princes.
+
+> [!quiz] Que soutient Max Weber dans *L'Éthique protestante et l'esprit du capitalisme*, et quelle objection lui oppose-t-on ?
+> Que l'ascétisme séculier des puritains calvinistes, cherchant dans le travail méthodique un signe de leur élection, présente une « affinité élective » avec l'esprit du capitalisme. On lui oppose le capitalisme florissant de l'Italie catholique ou de la Flandre avant la Réforme.
 
 ## Ressources
 

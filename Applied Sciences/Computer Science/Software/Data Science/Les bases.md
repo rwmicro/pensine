@@ -11,11 +11,11 @@ date: "2026-02-12"
 La **Data Science** combine statistiques, informatique et expertise métier pour **extraire des connaissances** à partir de données.
 
 ```mermaid
-graph TB
+flowchart TB
     DS["Data Science"]
-    DS --> STAT["Statistiques<br/>& Mathématiques"]
-    DS --> CS["Informatique<br/>& Programmation"]
-    DS --> DOMAIN["Expertise<br/>Métier"]
+    DS --> STAT["Statistiques\n& Mathématiques"]
+    DS --> CS["Informatique\n& Programmation"]
+    DS --> DOMAIN["Expertise\nMétier"]
 
     style DS fill:#673AB7,color:#fff
     style STAT fill:#2196F3,color:#fff
@@ -26,10 +26,10 @@ graph TB
 ## Types d'apprentissage
 
 ```mermaid
-graph TB
-    ML["Machine Learning"] --> SUP["Supervisé<br/>On connaît la réponse"]
-    ML --> NSUP["Non Supervisé<br/>On ne connaît pas la réponse"]
-    ML --> RL["Renforcement<br/>Apprentissage par essai/erreur"]
+flowchart TB
+    ML["Machine Learning"] --> SUP["Supervisé\nOn connaît la réponse"]
+    ML --> NSUP["Non Supervisé\nOn ne connaît pas la réponse"]
+    ML --> RL["Renforcement\nApprentissage par essai/erreur"]
 
     SUP --> CLASS["Classification"]
     SUP --> REG["Régression"]

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Indonésien > 02-Communication"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
+prerequis: ["[[Pronoms]]"]
 ---
 
 # Argot et Slang Indonésien (Bahasa Gaul)
@@ -225,3 +226,23 @@ B: OK, je suis en route
 A: Fais vite !
 B: Oui oui, patience
 ```
+
+## Questions de révision
+
+> [!quiz] Qu'est-ce que le *bahasa gaul* ?
+> Le langage familier et argotique utilisé surtout par les jeunes urbains indonésiens, qui évolue constamment avec les réseaux sociaux.
+
+> [!quiz] Comment dit-on « je » et « tu » en slang de Jakarta ?
+> *Gue* (ou *gw*) pour « je » et *lo* (ou *lu*) pour « tu », au lieu de *saya/aku* et *kamu*.
+
+> [!quiz] D'où viennent les mots *mager* et *baper* ?
+> Ce sont des acronymes : *mager* = *malas gerak* (la flemme de bouger), *baper* = *bawa perasaan* (être trop émotif, se vexer facilement).
+
+> [!quiz] Comment est formé le mot *sabi* (« ça marche ! ») ?
+> C'est *bisa* (pouvoir) lu à l'envers.
+
+> [!quiz] Quel mot familier remplace *tidak* pour dire « non / ne pas » ?
+> *Gak*, *nggak* ou *ga* ; en betawi, on dit aussi *kagak*.
+
+> [!quiz] Que signifie l'acronyme *PHP* ?
+> *Pemberi harapan palsu* : quelqu'un qui donne de faux espoirs.

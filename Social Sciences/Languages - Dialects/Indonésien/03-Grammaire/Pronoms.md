@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Indonésien > 03-Grammaire"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
+prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/02-Communication/Registres]]"]
 ---
 
 # Pronoms (Kata Ganti)
@@ -122,3 +123,20 @@ En indonésien, on utilise souvent des titres à la place des pronoms, surtout e
 | 1e plur. (incl.) | Kita | ... kita | - |
 | 2e plur. | Kalian | ... kalian | - |
 | 3e plur. | Mereka | ... mereka | - |
+
+## Questions de révision
+
+> [!quiz] Quelle différence entre *kami* et *kita* ?
+> *Kami* est un « nous » exclusif, sans l'interlocuteur ; *kita* est un « nous » inclusif, qui l'inclut.
+
+> [!quiz] Quand emploie-t-on *beliau* ?
+> Pour parler respectueusement d'une tierce personne, en particulier d'un aîné respecté.
+
+> [!quiz] Comment dire « ma maison », « ton livre » et « sa voiture » avec les suffixes possessifs ?
+> *Rumahku*, *bukumu*, *mobilnya* (suffixes -ku, -mu, -nya).
+
+> [!quiz] Comment dit-on « ici », « là » et « là-bas » ?
+> *Di sini* (ici), *di situ* (là), *di sana* (là-bas).
+
+> [!quiz] Pourquoi utilise-t-on souvent des titres comme *Pak* ou *Bu* à la place de « vous » ?
+> En situation formelle, s'adresser à quelqu'un par un titre est plus poli qu'un pronom : *Pak mau minum apa?* = « Que voulez-vous boire, Monsieur ? ».

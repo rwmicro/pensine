@@ -15,11 +15,11 @@ La sécurité Kubernetes se structure selon le modèle des **4C** : Cloud, Clust
 
 ## Modèle des 4C
 
-```
-Cloud (fournisseur, réseau physique, IAM cloud)
-└── Cluster (API server, etcd, nœuds, RBAC)
-    └── Container (image, runtime, isolation)
-        └── Code (application, dépendances, secrets)
+```mermaid
+flowchart TD
+    Cloud["Cloud (fournisseur, réseau physique, IAM cloud)"] --> Cluster["Cluster (API server, etcd, nœuds, RBAC)"]
+    Cluster --> Container["Container (image, runtime, isolation)"]
+    Container --> Code["Code (application, dépendances, secrets)"]
 ```
 
 ## RBAC (Role-Based Access Control)

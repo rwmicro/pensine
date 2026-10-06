@@ -26,15 +26,14 @@ La PNPT (Practical Network Penetration Tester, TCM Security) se distingue des au
 
 Compromettre le **Domain Controller** en partant d'un accès externe limité.
 
-```
-   Internet                                  Active Directory cible
-   (toi)                                         (DC à compromettre)
-     │                                                  ▲
-     │                                                  │
-     ▼                                                  │
-   OSINT ──► Premier accès ──► Énum interne ──► Privesc ──► Domain Admin
-                              (BloodHound)    (Kerberos,
-                                               relay, etc.)
+```mermaid
+flowchart LR
+    I["Internet (toi)"] --> O["OSINT"]
+    O --> P["Premier accès"]
+    P --> E["Énum interne\n(BloodHound)"]
+    E --> PR["Privesc\n(Kerberos, relay, etc.)"]
+    PR --> DA["Domain Admin"]
+    DA --> DC["Active Directory cible\n(DC à compromettre)"]
 ```
 
 Ce n'est pas un CTF — c'est une simulation réaliste d'environnement d'entreprise.
@@ -75,25 +74,12 @@ Ce n'est pas un CTF — c'est une simulation réaliste d'environnement d'entrepr
 
 ## Stratégie pendant le pentest
 
-```
-   Règle 1 : DOCUMENTER en temps réel
-              (commandes, outputs, screenshots — à chaque étape)
-                                │
-                                ▼
-   Règle 2 : Lire le scope AVANT de scanner
-              (sortir du périmètre = échec)
-                                │
-                                ▼
-   Règle 3 : Ne pas s'acharner > 2-3h sur une piste
-              (si c'est bloqué, explorer ailleurs et revenir)
-                                │
-                                ▼
-   Règle 4 : Énumérer, énumérer, énumérer
-              (80% du résultat vient d'une recon profonde)
-                                │
-                                ▼
-   Règle 5 : Tester les payloads AVANT l'envoi
-              (AV evasion validée en local d'abord)
+```mermaid
+flowchart TD
+    R1["Règle 1 : DOCUMENTER en temps réel\n(commandes, outputs, screenshots — à chaque étape)"] --> R2["Règle 2 : Lire le scope AVANT de scanner\n(sortir du périmètre = échec)"]
+    R2 --> R3["Règle 3 : Ne pas s'acharner > 2-3h sur une piste\n(si c'est bloqué, explorer ailleurs et revenir)"]
+    R3 --> R4["Règle 4 : Énumérer, énumérer, énumérer\n(80% du résultat vient d'une recon profonde)"]
+    R4 --> R5["Règle 5 : Tester les payloads AVANT l'envoi\n(AV evasion validée en local d'abord)"]
 ```
 
 > [!tip] Méthode

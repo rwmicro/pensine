@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, antiquite, epicurisme, ethique, bonheur, atomisme]
 date: "2026-09-28"
+prerequis: ["[[Présocratiques]]"]
 ---
 
 # Épicure (341-270 av. J.-C.)
@@ -155,6 +156,26 @@ timeline
         1417 : Redécouverte du manuscrit de Lucrèce
         1888 : Découverte des Sentences vaticanes
 ```
+
+## Questions de révision
+
+> [!quiz] Quel est le quadruple remède (*tetrapharmakos*) épicurien ?
+> Les dieux ne sont pas à craindre, la mort n'est pas à redouter, le bien est facile à obtenir, le mal est facile à supporter.
+
+> [!quiz] Qu'est-ce que le clinamen et à quoi sert-il ?
+> Une déviation minimale et imprévisible des atomes dans leur chute (terme de Lucrèce). Sans lui aucune rencontre d'atomes n'aurait lieu, et tout serait nécessité : il ménage une place à la liberté humaine.
+
+> [!quiz] Pourquoi, selon la *Lettre à Ménécée*, la mort n'est-elle rien pour nous ?
+> Tout bien et tout mal résident dans la sensation, et la mort est privation de sensation : tant que nous sommes, la mort n'est pas là ; quand elle est là, nous ne sommes plus.
+
+> [!quiz] Comment Épicure classe-t-il les désirs ?
+> En désirs naturels et nécessaires (à satisfaire), naturels non nécessaires (à goûter sans en dépendre) et vains, comme la gloire ou la richesse illimitée (à éliminer).
+
+> [!quiz] Que désignent l'aponie et l'ataraxie, et quel plaisir Épicure juge-t-il supérieur ?
+> L'aponie est l'absence de douleur dans le corps, l'ataraxie l'absence de trouble dans l'âme. Le plaisir en repos (catastématique), état stable de qui n'a plus soif, est supérieur au plaisir en mouvement (cinétique).
+
+> [!quiz] Pourquoi le sens courant du mot épicurien est-il un contresens ?
+> Il désigne un amateur de bonne chère, alors qu'Épicure vise l'absence de douleur et de trouble et prône une vie frugale. Le glissement vient en partie des caricatures polémiques de l'école.
 
 ## Ressources
 

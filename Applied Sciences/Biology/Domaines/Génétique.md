@@ -13,11 +13,11 @@ La génétique étudie comment les caractères se transmettent d'une génératio
 
 ```mermaid
 flowchart TB
-    ADN["ADN<br/>(double hélice)"]
-    Brins["2 brins antiparallèles<br/>complémentaires"]
-    Bases["4 bases azotées<br/>A T G C"]
-    Sucre["Sucre + phosphate<br/>(squelette)"]
-    Pairs["Appariement<br/>A-T  /  G-C"]
+    ADN["ADN\n(double hélice)"]
+    Brins["2 brins antiparallèles\ncomplémentaires"]
+    Bases["4 bases azotées\nA T G C"]
+    Sucre["Sucre + phosphate\n(squelette)"]
+    Pairs["Appariement\nA-T  /  G-C"]
     ADN --> Brins
     ADN --> Sucre
     Brins --> Bases

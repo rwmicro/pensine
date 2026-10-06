@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie]
 date: "2026-02-19"
+prerequis: ["[[Aristote]]"]
 ---
 
 # René Descartes (1596-1650)
@@ -450,6 +451,26 @@ Dans *Les Passions de l'âme* (1649), Descartes propose une **physiologie des é
 **Rejet de l'animal-machine :**
 - Reconnaissance légale de la **sensibilité animale**
 - Critique de l'anthropocentrisme cartésien
+
+## Questions de révision
+
+> [!quiz] Quelles sont les trois étapes du doute dans les *Méditations métaphysiques* ?
+> Le doute des sens (ils nous trompent parfois), l'argument du rêve (impossible de distinguer avec certitude veille et rêve) et l'hypothèse du malin génie, qui pourrait nous tromper même sur les vérités mathématiques.
+
+> [!quiz] Pourquoi le cogito résiste-t-il même à l'hypothèse du malin génie ?
+> Parce que douter, c'est déjà penser, et penser, c'est déjà être : même si je suis trompé, je suis certain d'exister comme chose pensante. Ce n'est pas un syllogisme mais une intuition immédiate.
+
+> [!quiz] Qu'est-ce qui distingue la *res cogitans* de la *res extensa* ?
+> La chose pensante a pour essence la pensée : elle est immatérielle et indivisible. La chose étendue a pour essence l'étendue dans l'espace : elle est matérielle, divisible et soumise aux lois physiques.
+
+> [!quiz] Quel problème pose l'union de l'âme et du corps, et pourquoi la glande pinéale ne le résout-elle pas ?
+> Si l'âme est immatérielle et le corps matériel, on ne voit pas comment ils interagissent. Situer l'interaction dans la glande pinéale répond à la question du où, pas à celle du comment l'immatériel agit sur le matériel.
+
+> [!quiz] Quel rôle joue Dieu dans la théorie cartésienne de la connaissance, et quelle objection cela suscite-t-il ?
+> Dieu, parfait donc non trompeur, garantit la vérité de ce que je perçois clairement et distinctement, et donc l'existence du monde extérieur. On objecte un cercle : Descartes prouve Dieu par des idées claires et distinctes dont Dieu est censé garantir la vérité.
+
+> [!quiz] Quelles sont les trois maximes de la morale provisoire du *Discours de la méthode* ?
+> Obéir aux lois et coutumes de son pays en gardant sa religion ; être le plus ferme et résolu possible dans ses actions une fois le parti pris ; chercher à se vaincre soi-même plutôt que la fortune, et à changer ses désirs plutôt que l'ordre du monde.
 
 ## Ressources
 

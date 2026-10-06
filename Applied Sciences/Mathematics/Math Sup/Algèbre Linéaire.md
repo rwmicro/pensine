@@ -338,7 +338,7 @@ Lien projecteur-symétrie : $s = 2p - \text{Id}_E$ et $p = \frac{1}{2}(\text{Id}
 ## 10. Vue d'ensemble : relations entre les concepts
 
 ```mermaid
-graph TD
+flowchart TD
     EV["Espace vectoriel E"] --> SEV["Sous-espace vectoriel F ⊂ E"]
     EV --> FAM["Familles de vecteurs"]
     FAM --> LIB["Famille libre"]
@@ -351,13 +351,13 @@ graph TD
     AL --> KER["Noyau ker(f)"]
     AL --> IM["Image Im(f)"]
     KER --> SEV
-    KER --> RANG["Théorème du rang<br>dim E = dim ker f + rg f"]
+    KER --> RANG["Théorème du rang\ndim E = dim ker f + rg f"]
     IM --> RANG
 
     SEV --> SOMME["Somme F₁ + F₂"]
     SEV --> INTER["Intersection F₁ ∩ F₂"]
     SOMME --> SD["Somme directe F₁ ⊕ F₂"]
-    SD --> SUPP["Supplémentaires<br>E = F₁ ⊕ F₂"]
+    SD --> SUPP["Supplémentaires\nE = F₁ ⊕ F₂"]
     SUPP --> PROJ["Projecteur p² = p"]
     SUPP --> SYM["Symétrie s² = Id"]
 
@@ -365,7 +365,7 @@ graph TD
     INTER --> GRASS
     SOMME --> GRASS
 
-    AL --> ISO["Isomorphisme<br>(bijectif)"]
+    AL --> ISO["Isomorphisme\n(bijectif)"]
     DIM --> ISO
 
     style EV fill:#4a90d9,stroke:#333,color:#fff

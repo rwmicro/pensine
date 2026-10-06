@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie]
 date: "2026-04-12"
+prerequis: ["[[Berkeley]]"]
 ---
 
 # David Hume (1711-1776)
@@ -126,6 +127,26 @@ Les *Dialogues sur la religion naturelle* (posthumes, 1779) constituent la criti
 Hume est peut-être le philosophe le plus honnête sur les limites de la connaissance humaine. Ses problèmes — causalité, induction, moi, morale — restent non résolus et constituent encore l'agenda de la philosophie analytique contemporaine.
 
 Sa critique de la religion, publiée prudemment de façon posthume, reste l'une des plus rigoureuses jamais formulées.
+
+## Questions de révision
+
+> [!quiz] Quelle différence Hume fait-il entre impressions et idées ?
+> Les impressions sont des perceptions directes et vives (sensations, émotions) ; les idées en sont des copies affaiblies dans la mémoire et l'imagination. Toute idée doit pouvoir être rattachée à une impression, sinon elle est vide de sens.
+
+> [!quiz] Pourquoi, selon Hume, ne percevons-nous jamais la causalité comme connexion nécessaire ?
+> Nous ne voyons qu'une conjonction constante (A suivi de B, encore et encore). La nécessité que nous y mettons est une habitude psychologique que l'esprit projette sur le monde, non une chose observée dans les objets.
+
+> [!quiz] Hume nie-t-il que le monde ait des causes ?
+> Non : son scepticisme porte sur notre justification à croire en une connexion nécessaire, pas sur l'existence des causes. C'est une thèse épistémologique, non métaphysique.
+
+> [!quiz] En quoi consiste le problème de l'induction ?
+> Aucune accumulation d'observations particulières ne justifie logiquement une loi générale : rien ne garantit que le prochain cas ressemblera aux précédents. Popper reprendra ce problème avec le critère de falsifiabilité.
+
+> [!quiz] Que signifie la théorie du moi comme faisceau de perceptions ?
+> En s'observant, Hume ne trouve jamais un moi permanent, seulement des perceptions successives. Le moi n'est pas une substance unifiée mais un faisceau de perceptions en flux continu.
+
+> [!quiz] Qu'énonce la guillotine de Hume ?
+> On ne peut pas dériver logiquement un devoir-être d'un simple être : passer d'une description à une prescription exige une prémisse normative qu'on ne peut tirer des seuls faits.
 
 ## Ressources
 

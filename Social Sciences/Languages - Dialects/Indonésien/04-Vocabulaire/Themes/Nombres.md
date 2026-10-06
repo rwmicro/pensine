@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Indonésien > 04-Vocabulaire > Themes"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
+prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/Mots-Essentiels]]"]
 ---
 
 # Nombres (Angka)
@@ -165,3 +166,23 @@ En indonésien, les nombres sont souvent suivis de classificateurs selon le type
 - **Kembaliannya berapa?** = C'est combien la monnaie ?
 - **Diskon berapa persen?** = C'est combien de réduction ?
 - **Nomor telepon saya...** = Mon numéro de téléphone est...
+
+## Questions de révision
+
+> [!quiz] Comment se forment les nombres de 11 à 19 ?
+> Avec *belas* : *sebelas* (11, se + belas), *dua belas* (12), *tiga belas* (13), etc.
+
+> [!quiz] Comment se forment les dizaines ?
+> Avec *puluh* : *dua puluh* (20), *tiga puluh* (30)… et 21 se dit *dua puluh satu*.
+
+> [!quiz] Que signifie le préfixe se- dans *seratus* et *seribu* ?
+> « Un » : *seratus* = 100, *seribu* = 1 000 (de même *sepuluh* = 10, *sebelas* = 11).
+
+> [!quiz] Comment forme-t-on les nombres ordinaux, et quelle est l'exception ?
+> Avec ke- devant le nombre (*kedua*, deuxième ; *ketiga*, troisième), sauf « premier », qui se dit *pertama*.
+
+> [!quiz] Quel classificateur emploie-t-on pour les animaux et pour les personnes ?
+> *Ekor* pour les animaux (*tiga ekor kucing*, 3 chats) et *orang* pour les personnes (*dua orang*, 2 personnes).
+
+> [!quiz] Que valent *goceng* et *ceban* en argot ?
+> *Goceng* = Rp 5 000 ; *ceban* = Rp 10 000.

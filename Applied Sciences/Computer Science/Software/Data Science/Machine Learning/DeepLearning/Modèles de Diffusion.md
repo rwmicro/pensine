@@ -13,15 +13,15 @@ Les **modèles de diffusion** sont une famille de modèles génératifs qui appr
 ## L'idée intuitive
 
 ```mermaid
-graph LR
+flowchart LR
     subgraph "Processus de diffusion (forward)"
         direction LR
-        X0["Image nette<br/>x₀"] --> X1["Légèrement<br/>bruitée"] --> X2["Plus<br/>bruitée"] --> XT["Bruit pur<br/>xₜ ~ N(0,1)"]
+        X0["Image nette\nx₀"] --> X1["Légèrement\nbruitée"] --> X2["Plus\nbruitée"] --> XT["Bruit pur\nxₜ ~ N(0,1)"]
     end
 
     subgraph "Processus de débruitage (reverse)"
         direction LR
-        NT["Bruit pur<br/>xₜ ~ N(0,1)"] --> N2["Un peu<br/>débruitée"] --> N1["Presque<br/>nette"] --> N0["Image générée<br/>x₀"]
+        NT["Bruit pur\nxₜ ~ N(0,1)"] --> N2["Un peu\ndébruitée"] --> N1["Presque\nnette"] --> N0["Image générée\nx₀"]
     end
 
     style X0 fill:#4CAF50,color:#fff
@@ -63,11 +63,11 @@ $$p_\theta(x_{t-1} | x_t) = \mathcal{N}(x_{t-1} ; \mu_\theta(x_t, t),\; \sigma_t
 Un réseau de neurones $\epsilon_\theta$ prédit le bruit $\epsilon$ qui a été ajouté.
 
 ```mermaid
-graph TB
+flowchart TB
     subgraph "Entraînement"
-        IMG["Image x₀"] --> ADD["Ajouter bruit ε<br/>à l'étape t"]
+        IMG["Image x₀"] --> ADD["Ajouter bruit ε\nà l'étape t"]
         ADD --> XT2["Image bruitée xₜ"]
-        XT2 --> UNET["U-Net<br/>ε_θ(xₜ, t)"]
+        XT2 --> UNET["U-Net\nε_θ(xₜ, t)"]
         UNET --> PRED["Bruit prédit ε̂"]
         ADD --> |"Bruit réel ε"| LOSS2["Loss = ||ε - ε̂||²"]
         PRED --> LOSS2
@@ -92,12 +92,12 @@ $$\mathcal{L} = \mathbb{E}_{t, x_0, \epsilon}\left[ ||\epsilon - \epsilon_\theta
 Le coeur des modèles de diffusion est un **U-Net** modifié, qui prend en entrée l'image bruitée et le timestep $t$ :
 
 ```mermaid
-graph TB
+flowchart TB
     subgraph "U-Net pour la diffusion"
-        IN2["Image bruitée xₜ<br/>+ timestep t"] --> D1["Encoder<br/>(downsampling)"]
+        IN2["Image bruitée xₜ\n+ timestep t"] --> D1["Encoder\n(downsampling)"]
         D1 --> D2["..."]
-        D2 --> BOTTOM["Bottleneck<br/>(+ self-attention)"]
-        BOTTOM --> U1["Decoder<br/>(upsampling)"]
+        D2 --> BOTTOM["Bottleneck\n(+ self-attention)"]
+        BOTTOM --> U1["Decoder\n(upsampling)"]
         U1 --> U2["..."]
         U2 --> OUT2["Bruit prédit ε̂"]
 
@@ -120,10 +120,10 @@ graph TB
 Pour générer des images à partir de texte (comme Stable Diffusion), on ajoute du **conditionnement** :
 
 ```mermaid
-graph LR
-    PROMPT["Texte :<br/>'un chat sur la lune'"] --> CLIP["Text Encoder<br/>(CLIP)"]
+flowchart LR
+    PROMPT["Texte :\n'un chat sur la lune'"] --> CLIP["Text Encoder\n(CLIP)"]
     CLIP --> EMBED["Embeddings texte"]
-    NOISE2["Bruit z ~ N(0,1)"] --> UNET2["U-Net<br/>(débruitage guidé)"]
+    NOISE2["Bruit z ~ N(0,1)"] --> UNET2["U-Net\n(débruitage guidé)"]
     EMBED --> |"Cross-attention"| UNET2
     UNET2 --> LATENT["Image latente"]
     LATENT --> VDEC["VAE Decoder"]
@@ -151,13 +151,13 @@ $$\hat{\epsilon} = \epsilon_\theta(x_t, \varnothing) + s \cdot (\epsilon_\theta(
 Innovation majeure : faire la diffusion dans un **espace latent compressé** plutôt que dans l'espace des pixels.
 
 ```mermaid
-graph LR
-    IMG2["Image<br/>512×512×3"] --> VENC["VAE<br/>Encodeur"]
-    VENC --> LAT["Espace latent<br/>64×64×4"]
-    LAT --> DIFF["Diffusion<br/>(dans l'espace latent)"]
+flowchart LR
+    IMG2["Image\n512×512×3"] --> VENC["VAE\nEncodeur"]
+    VENC --> LAT["Espace latent\n64×64×4"]
+    LAT --> DIFF["Diffusion\n(dans l'espace latent)"]
     DIFF --> LAT2["Latent débruité"]
-    LAT2 --> VDEC2["VAE<br/>Décodeur"]
-    VDEC2 --> IMG3["Image générée<br/>512×512×3"]
+    LAT2 --> VDEC2["VAE\nDécodeur"]
+    VDEC2 --> IMG3["Image générée\n512×512×3"]
 
     style IMG2 fill:#2196F3,color:#fff
     style LAT fill:#FF9800,color:#fff

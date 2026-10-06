@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, antiquite, grece-antique, cosmologie, metaphysique]
 date: "2026-09-28"
+parcours: "Philosophie : de l'Antiquité aux modernes"
 ---
 
 # Les Présocratiques (VIe-Ve siècles av. J.-C.)
@@ -175,6 +176,26 @@ timeline
         -399 : Mort de Socrate
         v. -370 : Mort de Démocrite
 ```
+
+## Questions de révision
+
+> [!quiz] Pourquoi Anaximandre refuse-t-il de faire d'un élément visible le principe de toutes choses ?
+> Parce qu'un élément illimité finirait par dominer et détruire les autres. Le principe doit donc être l'*apeiron*, l'illimité ou l'indéterminé.
+
+> [!quiz] Quel mécanisme Anaximène propose-t-il pour expliquer la diversité des choses à partir de l'air ?
+> La condensation et la raréfaction : condensé, l'air devient vent, nuage, eau, terre, pierre ; raréfié, il devient feu. Une différence de quantité produit une différence de qualité.
+
+> [!quiz] Qu'oppose-t-on classiquement entre Héraclite et Parménide ?
+> Pour Héraclite, tout change et le devenir, gouverné par le logos, est la loi des choses. Pour Parménide, l'être est et le non-être n'est pas : l'être est un, immobile, et le changement perçu par les sens est une illusion.
+
+> [!quiz] Quel est le but des paradoxes de Zénon d'Élée ?
+> Défendre Parménide par l'absurde : montrer que si l'on admet la pluralité et le mouvement, on tombe dans des contradictions (la dichotomie, Achille et la tortue, la flèche).
+
+> [!quiz] Que proposent Leucippe et Démocrite pour expliquer le changement après Parménide ?
+> Il n'existe que des atomes, corps insécables, pleins et éternels, et le vide où ils se meuvent. Les qualités sensibles ne sont que convention ; cette physique sera reprise par Épicure.
+
+> [!quiz] Pourquoi l'étiquette de présocratique est-elle chronologiquement inexacte pour Démocrite ?
+> Né vers 460, il est plus jeune que Socrate et lui survit. Le terme désigne en réalité un type de questionnement centré sur la nature (*phusis*), par opposition au tournant éthique attribué à Socrate.
 
 ## Ressources
 

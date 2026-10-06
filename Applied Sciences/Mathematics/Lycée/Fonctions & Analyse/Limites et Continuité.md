@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Mathematics > Lycée > Fonctions & Analyse"
 tags: [sciences-appliquées, mathématiques]
 date: "2026-02-22"
+prerequis: ["[[Suites]]", "[[Trigonométrie]]"]
 ---
 
 # Limites et Continuité
@@ -104,11 +105,11 @@ On distingue :
 flowchart TD
     A["Forme indéterminée détectée"] --> B{"Quel type ?"}
 
-    B -->|"∞ - ∞<br/>(polynômes/racines)"| C["Factoriser par<br/>le terme dominant"]
-    B -->|"0/0<br/>(fractions)"| D["Factoriser et<br/>simplifier"]
-    B -->|"∞/∞<br/>(fractions rationnelles)"| E["Diviser numérateur<br/>et dénominateur<br/>par le terme dominant"]
-    B -->|"0 × ∞"| F["Réécrire comme<br/>un quotient 0/0<br/>ou ∞/∞"]
-    B -->|"Avec racines carrées"| G["Multiplier par<br/>l'expression conjuguée"]
+    B -->|"∞ - ∞\n(polynômes/racines)"| C["Factoriser par\nle terme dominant"]
+    B -->|"0/0\n(fractions)"| D["Factoriser et\nsimplifier"]
+    B -->|"∞/∞\n(fractions rationnelles)"| E["Diviser numérateur\net dénominateur\npar le terme dominant"]
+    B -->|"0 × ∞"| F["Réécrire comme\nun quotient 0/0\nou ∞/∞"]
+    B -->|"Avec racines carrées"| G["Multiplier par\nl'expression conjuguée"]
 
     C --> H["Calculer la limite"]
     D --> H
@@ -224,14 +225,14 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    A["On cherche une solution<br/>de f(x) = k sur [a,b]"] --> B{"f continue sur [a,b] ?"}
-    B -->|Non| Z["Le TVI ne<br/>s'applique pas"]
-    B -->|Oui| C{"k est entre<br/>f(a) et f(b) ?"}
-    C -->|Non| Y["Pas de conclusion<br/>par le TVI"]
-    C -->|Oui| D["Il existe au moins<br/>un c ∈ [a,b]<br/>tel que f(c) = k"]
-    D --> E{"f strictement<br/>monotone sur [a,b] ?"}
+    A["On cherche une solution\nde f(x) = k sur [a,b]"] --> B{"f continue sur [a,b] ?"}
+    B -->|Non| Z["Le TVI ne\ns'applique pas"]
+    B -->|Oui| C{"k est entre\nf(a) et f(b) ?"}
+    C -->|Non| Y["Pas de conclusion\npar le TVI"]
+    C -->|Oui| D["Il existe au moins\nun c ∈ [a,b]\ntel que f(c) = k"]
+    D --> E{"f strictement\nmonotone sur [a,b] ?"}
     E -->|Oui| F["Ce c est UNIQUE"]
-    E -->|Non| G["Il peut y avoir<br/>plusieurs solutions"]
+    E -->|Non| G["Il peut y avoir\nplusieurs solutions"]
 
     style D fill:#C8E6C9,stroke:#388E3C,color:#000
     style F fill:#BBDEFB,stroke:#1565C0,color:#000
@@ -408,3 +409,24 @@ Soit $g(x) = \cos(x) - x$, définie et continue sur $[0, \pi/2]$.
 De plus, $g'(x) = -\sin(x) - 1 < 0$ pour tout $x \in [0, \pi/2]$, donc $g$ est **strictement décroissante**.
 
 Par le corollaire du TVI, il existe un **unique** $c \in ]0, \pi/2[$ tel que $g(c) = 0$, c'est-à-dire $\cos(c) = c$.
+
+
+## Questions de révision
+
+> [!quiz] Quelles sont les quatre formes indéterminées classiques ?
+> $\frac{0}{0}$, $\frac{\infty}{\infty}$, $+\infty - \infty$ et $0 \times \infty$ : on ne peut pas conclure sans calcul supplémentaire.
+
+> [!quiz] Comment lever une forme indéterminée pour une fraction rationnelle en $\pm\infty$ ?
+> On factorise numérateur et dénominateur par leur terme de plus haut degré, puis on simplifie.
+
+> [!quiz] Que dit le théorème des gendarmes ?
+> Si $g(x) \leq f(x) \leq h(x)$ au voisinage d'un point (ou de l'infini) et si $g$ et $h$ ont la même limite $\ell$, alors $f$ a aussi pour limite $\ell$.
+
+> [!quiz] Quand une fonction $f$ est-elle continue en $a$ ?
+> Quand $f$ est définie en $a$ et que $\lim_{x \to a} f(x) = f(a)$.
+
+> [!quiz] Que garantit le théorème des valeurs intermédiaires ?
+> Si $f$ est continue sur $[a, b]$, tout réel $k$ compris entre $f(a)$ et $f(b)$ est atteint : il existe au moins un $c \in [a, b]$ tel que $f(c) = k$.
+
+> [!quiz] Quelle hypothèse ajoute-t-on au TVI pour obtenir l'unicité de la solution ?
+> La stricte monotonie de $f$ sur $[a, b]$ : la solution $c$ de $f(c) = k$ est alors unique.

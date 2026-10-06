@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Indonésien > 03-Grammaire"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
+prerequis: ["[[Affixes]]"]
 ---
 
 # Reduplication (Kata Ulang)
@@ -242,3 +243,23 @@ Dans les textos et l'écriture informelle, on utilise souvent **2** pour la redu
 | Atténuation | *pelan-pelan* | doucement |
 | Jouet/Imitation | *mobil-mobilan* | petite voiture |
 | Sens différent | *mata-mata* | espion |
+
+## Questions de révision
+
+> [!quiz] Quelle est la fonction la plus courante de la reduplication totale, et est-elle obligatoire ?
+> Marquer le pluriel (*anak-anak*, les enfants). Ce n'est pas obligatoire quand le contexte suffit : *banyak buku* = beaucoup de livres.
+
+> [!quiz] Que désignent les formes en -an comme *mobil-mobilan* ou *rumah-rumahan* ?
+> Des jouets ou des imitations : une petite voiture, une maison de poupée.
+
+> [!quiz] Que signifie *mata-mata*, comparé à *mata* ?
+> *Mata* veut dire « œil » ; redoublé, *mata-mata* signifie « espion ». La reduplication peut changer complètement le sens.
+
+> [!quiz] Pourquoi ne trouve-t-on jamais *kupu* seul ?
+> *Kupu-kupu* (papillon) fait partie des mots qui n'existent que sous forme redoublée.
+
+> [!quiz] Qu'est-ce qu'une reduplication avec variation, comme *sayur-mayur* ?
+> Le mot est répété avec un son modifié, souvent pour exprimer la diversité : *sayur-mayur* = des légumes variés.
+
+> [!quiz] Comment note-t-on souvent la reduplication dans les SMS ?
+> Avec le chiffre 2 : *anak2*, *hati2*, *teman2*.

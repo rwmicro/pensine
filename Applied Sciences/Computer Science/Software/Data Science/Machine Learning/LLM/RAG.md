@@ -25,7 +25,7 @@ Le RAG répond à ces problèmes en récupérant les passages pertinents *avant*
 ## Architecture générale
 
 ```mermaid
-graph LR
+flowchart LR
     subgraph "Indexation (offline)"
         docs[Documents\nbruts] --> chunk[Chunking]
         chunk --> embed[Embedding\nModel]
@@ -136,7 +136,7 @@ Réponse :
 ### RAG naïf vs Avancé
 
 ```mermaid
-graph TD
+flowchart TD
     subgraph Naïf
         q1[Question] --> r1[Retrieve top-k] --> g1[Generate]
     end
@@ -166,7 +166,7 @@ Génère token par token et déclenche un retrieval dès que le modèle exprime 
 ## Évaluation d'un système RAG
 
 ```mermaid
-graph LR
+flowchart LR
     q[Question] --> rag[RAG]
     rag --> ctx[Contextes\nrécupérés]
     rag --> rep[Réponse\ngénérée]

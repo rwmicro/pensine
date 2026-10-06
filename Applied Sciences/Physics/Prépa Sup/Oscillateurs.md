@@ -107,11 +107,11 @@ class RegimesAmortissement(Scene):
 
 ```mermaid
 flowchart TD
-    A["Oscillateur soumis à F0 cos(ωt)"] --> B["Régime permanent<br/>à la pulsation ω"]
+    A["Oscillateur soumis à F0 cos(ωt)"] --> B["Régime permanent\nà la pulsation ω"]
     B --> C{"ω proche de ω0 ?"}
-    C -->|Oui, et Q grand| D["RÉSONANCE :<br/>amplitude maximale"]
+    C -->|Oui, et Q grand| D["RÉSONANCE :\namplitude maximale"]
     C -->|Non| E["Amplitude faible"]
-    D --> F["Risque mécanique<br/>(ponts, structures)"]
+    D --> F["Risque mécanique\n(ponts, structures)"]
 ```
 
 > [!warning] La résonance peut être destructrice

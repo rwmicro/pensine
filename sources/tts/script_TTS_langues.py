@@ -223,6 +223,55 @@ def list_voices() -> None:
 # Traitement d'une note
 # ---------------------------------------------------------------------------
 
+# Lien audio déjà converti : ![mot](audio/<lang>_<gender>_<hash>.mp3). Le nom du
+# fichier porte la langue et la voix, l'alt porte le texte : tout ce qu'il faut
+# pour régénérer un clip vide ou manquant (mode --repair).
+CLIP_LINK = re.compile(
+    r"!\[((?:\\.|[^\]\\])*)\]\("
+    + re.escape(AUDIO_SUBFOLDER)
+    + r"/(([a-z]{2,3}(?:-[a-z]{2})?)_(male|female)_([0-9a-f]{12})\.mp3)\)"
+)
+
+
+def unescape_alt(alt: str) -> str:
+    """Inverse de escape_alt."""
+    return re.sub(r"\\(.)", r"\1", alt)
+
+
+def repair_file(md_path: Path, master_dir: Path) -> int:
+    """Régénère les clips liés par la note qui sont absents ou vides (0 octet).
+    Ne touche pas au texte de la note. Renvoie le nombre de clips réparés."""
+    content = md_path.read_text(encoding="utf-8")
+    note_audio_dir = md_path.parent / AUDIO_SUBFOLDER
+    repaired = 0
+    for m in CLIP_LINK.finditer(content):
+        alt, filename, lang, gender, key = m.groups()
+        note_clip = note_audio_dir / filename
+        if note_clip.exists() and note_clip.stat().st_size > 0:
+            continue
+        text = unescape_alt(alt)
+        if cache_key(text, lang, gender) != key:
+            # Le texte a été retouché depuis la génération : on garde le nom de
+            # fichier (c'est lui que la note cite) mais on le signale.
+            print(f"  ⚠ « {text} » ne correspond plus au hash de {filename} — régénéré quand même.")
+        master = master_dir / filename
+        if not (master.exists() and master.stat().st_size > 0):
+            print(f"  🎙 Régénération [{lang}/{gender}] « {text} »")
+            try:
+                audio_bytes = synthesize(text, lang, gender)
+            except Exception as exc:  # réseau, quota, timeout ElevenLabs...
+                print(f"  ✗ Échec pour « {text} » : {exc}")
+                continue
+            if not audio_bytes:
+                print(f"  ✗ Réponse vide pour « {text} », ignoré.")
+                continue
+            master.write_bytes(audio_bytes)
+        note_audio_dir.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(master, note_clip)
+        repaired += 1
+    return repaired
+
+
 def process_file(md_path: Path, master_dir: Path) -> bool:
     content = md_path.read_text(encoding="utf-8")
     note_audio_dir = md_path.parent / AUDIO_SUBFOLDER
@@ -294,8 +343,13 @@ def main():
         list_voices()
         return
 
+    repair = bool(args) and args[0] == "--repair"
+    if repair:
+        args = args[1:]
+
     if len(args) != 1:
         print("Usage: python script_TTS_langues.py /chemin/vers/vault\n"
+              "       python script_TTS_langues.py --repair /chemin/vers/vault\n"
               "       python script_TTS_langues.py --list-voices")
         sys.exit(1)
 
@@ -311,6 +365,17 @@ def main():
         p for p in vault.rglob("*.md")
         if ".obsidian" not in p.parts
     ]
+
+    if repair:
+        total = 0
+        for md_path in md_files:
+            n = repair_file(md_path, master_dir)
+            if n:
+                print(f"✔ {n} clip(s) réparé(s) : {md_path.relative_to(vault)}")
+                total += n
+        print(f"Réparation terminée : {total} clip(s) régénéré(s)." if total
+              else "Rien à réparer : aucun clip vide ou manquant.")
+        return
 
     any_changed = False
     for md_path in md_files:

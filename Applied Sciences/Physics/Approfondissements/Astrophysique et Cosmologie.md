@@ -65,10 +65,10 @@ class OrbiteKeplerienne(Scene):
 
 ```mermaid
 flowchart TD
-    A["Nuage de gaz<br/>(nébuleuse)"] --> B["Étoile<br/>(fusion H → He)"]
+    A["Nuage de gaz\n(nébuleuse)"] --> B["Étoile\n(fusion H → He)"]
     B --> C{"Masse de l'étoile ?"}
-    C -->|"Faible"| D["Géante rouge<br/>→ naine blanche"]
-    C -->|"Élevée"| E["Supergéante<br/>→ supernova"]
+    C -->|"Faible"| D["Géante rouge\n→ naine blanche"]
+    C -->|"Élevée"| E["Supergéante\n→ supernova"]
     E --> F["Étoile à neutrons"]
     E --> G["Trou noir"]
 ```

@@ -15,7 +15,7 @@ Un embedding est une représentation **vectorielle dense** d'un objet (mot, phra
 Une représentation naïve comme le one-hot encoding échoue à capturer le sens : chaque mot est un vecteur creux orthogonal à tous les autres, donc "chat" est aussi "différent" de "félin" que de "voiture". Un embedding compresse le sens dans un vecteur dense de dimension réduite où les concepts proches sont géométriquement proches.
 
 ```mermaid
-graph LR
+flowchart LR
     subgraph "One-hot"
         direction TB
         OH["chat = [0,1,0,0,...]\nfélin = [0,0,0,1,...]\nOrthogonaux : aucune similarité mesurable"]
@@ -68,7 +68,7 @@ Le principe dominant est l'**apprentissage contrastif** : entraîner le modèle 
 | Graphe | Représentation vectorielle de nœuds/graphes entiers | node2vec, embeddings issus de [[Graph Neural Networks]] |
 
 ```mermaid
-graph TB
+flowchart TB
     IMG["Image"] --> ENCI["Encodeur image"]
     TXT["\"un chat sur un mur\""] --> ENCT["Encodeur texte"]
     ENCI --> SPACE["Espace vectoriel partagé"]

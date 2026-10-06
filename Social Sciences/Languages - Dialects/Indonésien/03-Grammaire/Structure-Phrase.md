@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Indonésien > 03-Grammaire"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
+prerequis: ["[[Pronoms]]", "[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/Mots-Essentiels]]"]
 ---
 
 # Structure de Phrase en Indonésien
@@ -92,3 +93,23 @@ L'indonésien n'a pas de forme plurielle grammaticale. On utilise :
 
 ### Contexte
 - **Saya punya kucing** = "J'ai un/des chat(s)" (selon contexte)
+
+## Questions de révision
+
+> [!quiz] Quel est l'ordre de base des mots dans la phrase indonésienne ?
+> Sujet + verbe + objet (SVO), comme en français : *Saya makan nasi*.
+
+> [!quiz] Où se place l'adjectif par rapport au nom ?
+> Après le nom : *rumah besar* = une grande maison (littéralement « maison grande »).
+
+> [!quiz] Quelle différence entre *tidak* et *bukan* ?
+> *Tidak* nie les verbes et les adjectifs (*Saya tidak lapar*) ; *bukan* nie les noms et l'identité (*Dia bukan guru*).
+
+> [!quiz] Comment pose-t-on une question fermée ?
+> On met *apakah* en début de phrase, ou on se contente de l'intonation montante (*Kamu lapar?*).
+
+> [!quiz] Comment exprimer une possession appuyée ?
+> Avec *milik* ou *punya* : *Rumah itu milik saya* = Cette maison m'appartient.
+
+> [!quiz] Comment exprime-t-on le pluriel, puisqu'il n'y a pas de forme grammaticale ?
+> Par la répétition du mot (*buku-buku*), par un quantificateur (*banyak*, *beberapa*, *semua*), ou simplement par le contexte.

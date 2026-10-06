@@ -44,20 +44,25 @@ Chaque couche s'appuie sur celle du dessous et ne sait rien des autres. Quand un
 
 TCP garantit la livraison, UDP non. Cette différence change tout — y compris la manière dont on les scanne.
 
+**TCP : 3-way handshake avant tout transfert**
+
+```mermaid
+sequenceDiagram
+    participant Client
+    participant Serveur
+    Client->>Serveur: SYN — Je veux parler
+    Serveur->>Client: SYN-ACK — OK, je suis prêt
+    Client->>Serveur: ACK — Bien reçu, on commence
+    Note over Client,Serveur: données utiles (échange bidirectionnel)
 ```
-TCP : 3-way handshake avant tout transfert
 
-Client                    Serveur
-  │  ───── SYN ─────►        │     "Je veux parler"
-  │  ◄── SYN-ACK ────         │     "OK, je suis prêt"
-  │  ───── ACK ─────►        │     "Bien reçu, on commence"
-  │                          │
-  │ ◄══ données utiles ══►   │
+**UDP : on envoie, et on espère**
 
-UDP : on envoie, et on espère
-
-Client                    Serveur
-  │  ─── datagramme ──►      │     pas de réponse garantie
+```mermaid
+sequenceDiagram
+    participant Client
+    participant Serveur
+    Client->>Serveur: datagramme (pas de réponse garantie)
 ```
 
 > [!tip] Conséquence pratique

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Indonésien > 02-Communication"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
+prerequis: ["[[Structure-Phrase]]"]
 ---
 
 # Questions (Pertanyaan)
@@ -86,3 +87,20 @@ date: "2026-02-04"
 | Bien sûr | ![Tentu saja](audio/id_male_cd0548c81e06.mp3) / ![Iya dong](audio/id_male_3707b9ae5850.mp3) |
 | Pas encore | ![Belum](audio/id_male_1c1e5e77f39b.mp3) |
 | Déjà | ![Sudah](audio/id_male_5d4070db2a5a.mp3) |
+
+## Questions de révision
+
+> [!quiz] Quels sont les équivalents formel et informel de « pourquoi » et de « comment » ?
+> « Pourquoi » : *mengapa* (formel), *kenapa* (informel). « Comment » : *bagaimana* (formel), *gimana* (informel).
+
+> [!quiz] À quoi sert *apakah* ?
+> C'est l'équivalent de « est-ce que » : il introduit une question fermée en registre formel (*Apakah Anda lapar?*).
+
+> [!quiz] Comment demander le prix de quelque chose ?
+> *Berapa harganya?* (en informel, simplement *Berapa?*).
+
+> [!quiz] Comment demander l'âge de quelqu'un, formellement puis informellement ?
+> *Berapa umur Anda?* (formel) ; *Umurmu berapa?* (informel).
+
+> [!quiz] Comment se forme souvent une question oui/non à l'oral informel ?
+> On ajoute *gak* après l'adjectif ou le verbe : *Jauh gak?* (« C'est loin ? »), *Suka gak?* (« Tu aimes ça ? »).

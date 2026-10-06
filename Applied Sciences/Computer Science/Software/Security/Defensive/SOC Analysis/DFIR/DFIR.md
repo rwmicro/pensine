@@ -17,25 +17,13 @@ Le DFIR regroupe deux disciplines complémentaires : la **réponse à incident**
 
 Le cadre le plus utilisé est celui du NIST (SP 800-61) :
 
-```
-1. Préparation
-   └── Playbooks, outils, sauvegardes, contacts, accès
-
-2. Identification (Detection & Analysis)
-   └── Alertes SIEM, corrélation de logs, triage
-
-3. Confinement
-   ├── Court terme : isoler la machine compromise
-   └── Long terme : patcher, surveiller les mouvements latéraux
-
-4. Éradication
-   └── Supprimer le malware, corriger la vulnérabilité exploitée
-
-5. Rétablissement
-   └── Restaurer les systèmes, monitorer pour s'assurer de l'absence de réinfection
-
-6. Leçons apprises (Post-Incident Activity)
-   └── Rapport, amélioration des défenses, mise à jour des playbooks
+```mermaid
+flowchart TD
+    A["1. Préparation\nPlaybooks, outils, sauvegardes, contacts, accès"] --> B["2. Identification (Detection & Analysis)\nAlertes SIEM, corrélation de logs, triage"]
+    B --> C["3. Confinement\nCourt terme : isoler la machine compromise\nLong terme : patcher, surveiller les mouvements latéraux"]
+    C --> D["4. Éradication\nSupprimer le malware, corriger la vulnérabilité exploitée"]
+    D --> E["5. Rétablissement\nRestaurer les systèmes, monitorer pour s'assurer de l'absence de réinfection"]
+    E --> F["6. Leçons apprises (Post-Incident Activity)\nRapport, amélioration des défenses, mise à jour des playbooks"]
 ```
 
 ## Chaîne de custody (Chain of Custody)

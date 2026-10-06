@@ -48,7 +48,7 @@ La combinatoire compte. Mais elle compte des objets que l'intuition n'attrape pl
 flowchart TB
     A((A)) -.- B((B)) -.- C((C))
     A -.- C
-    Note["|A∪B∪C| = |A|+|B|+|C|<br/>− |A∩B|−|A∩C|−|B∩C|<br/>+ |A∩B∩C|"]
+    Note["|A∪B∪C| = |A|+|B|+|C|\n− |A∩B|−|A∩C|−|B∩C|\n+ |A∩B∩C|"]
 ```
 
 ### Application — dérangements

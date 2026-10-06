@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, existentialisme, christianisme, subjectivite, angoisse]
 date: "2026-09-28"
+prerequis: ["[[Hegel]]"]
 ---
 
 # Søren Kierkegaard (1813-1855)
@@ -123,6 +124,26 @@ timeline
         1854 : Attaque publique contre l'Église établie
         1855 : L'Instant : Mort à Copenhague
 ```
+
+## Questions de révision
+
+> [!quiz] Pourquoi Kierkegaard publie-t-il sous pseudonymes ?
+> Par communication indirecte : une manière d'exister ne se transmet pas comme un savoir, alors chaque pseudonyme incarne un point de vue que le lecteur doit éprouver et juger. Il a lui-même demandé qu'on attribue ces livres à leurs auteurs fictifs.
+
+> [!quiz] Quels sont les trois stades de l'existence, et comment passe-t-on de l'un à l'autre ?
+> Le stade esthétique (vivre dans l'instant), éthique (se choisir et s'engager dans le devoir) et religieux (rapport absolu à l'absolu, la foi). On passe de l'un à l'autre non par un progrès logique comme chez Hegel, mais par un saut, une décision.
+
+> [!quiz] Qu'est-ce que la suspension téléologique de l'éthique dans *Crainte et tremblement* ?
+> Abraham, à qui Dieu ordonne de sacrifier Isaac, est un meurtrier du point de vue éthique universel ; s'il est le père de la foi, c'est que l'individu peut entrer dans un rapport direct avec Dieu qui le place au-dessus de l'universel, rapport qui ne peut se dire ni se justifier.
+
+> [!quiz] Quelle différence Kierkegaard fait-il entre l'angoisse et la peur ?
+> La peur a un objet précis ; l'angoisse n'en a pas : elle naît devant le possible, devant notre propre liberté. Kierkegaard la compare au vertige de celui qui regarde dans l'abîme.
+
+> [!quiz] Quelles sont les deux formes du désespoir dans *La Maladie à la mort* ?
+> Ne pas vouloir être soi, ou vouloir désespérément être soi par ses seules forces. Seule la foi, où le moi se fonde dans la puissance qui l'a posé, en guérit.
+
+> [!quiz] Que signifie la thèse selon laquelle la subjectivité est la vérité ?
+> Ce n'est pas un relativisme : pour les vérités qui concernent l'existence, ce qui compte est la manière passionnée dont on s'y rapporte, non le contenu objectif. Un système de l'existence est impossible car l'existant n'est jamais à la place de Dieu.
 
 ## Ressources
 

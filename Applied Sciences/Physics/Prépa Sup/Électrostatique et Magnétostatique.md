@@ -114,9 +114,9 @@ class LignesDeChampDipole(Scene):
 
 ```mermaid
 flowchart LR
-    A["Charges immobiles<br/>ρ"] -->|"Gauss : div E = ρ/ε0"| B["Champ E<br/>(électrostatique)"]
-    C["Courants permanents<br/>j"] -->|"Ampère : rot B = μ0 j"| D["Champ B<br/>(magnétostatique)"]
-    B --> E["Régimes variables :<br/>Maxwell couple E et B"]
+    A["Charges immobiles\nρ"] -->|"Gauss : div E = ρ/ε0"| B["Champ E\n(électrostatique)"]
+    C["Courants permanents\nj"] -->|"Ampère : rot B = μ0 j"| D["Champ B\n(magnétostatique)"]
+    B --> E["Régimes variables :\nMaxwell couple E et B"]
     D --> E
 ```
 

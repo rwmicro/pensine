@@ -61,9 +61,9 @@ Capacités thermiques : $C_V = \left(\dfrac{\partial U}{\partial T}\right)_V$ et
 ```mermaid
 flowchart TD
     A["Transformation d'un système"] --> B{"S_créée"}
-    B -->|"= 0"| C["Réversible<br/>(idéalisation)"]
-    B -->|"> 0"| D["Irréversible<br/>(réel : frottement,<br/>diffusion, mélange)"]
-    D --> E["Flèche du temps :<br/>l'entropie totale croît"]
+    B -->|"= 0"| C["Réversible\n(idéalisation)"]
+    B -->|"> 0"| D["Irréversible\n(réel : frottement,\ndiffusion, mélange)"]
+    D --> E["Flèche du temps :\nl'entropie totale croît"]
 ```
 
 > [!warning] L'entropie d'un sous-système peut diminuer

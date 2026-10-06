@@ -99,11 +99,11 @@ flowchart LR
     A[Monde ordinaire] -->|Appel| B[Refus de l'appel]
     B -->|Mentor| C[Passage du seuil]
     C --> D[Épreuves & alliés]
-    D --> E[Épreuve suprême<br/>mort symbolique]
+    D --> E[Épreuve suprême\nmort symbolique]
     E --> F[Récompense / élixir]
     F --> G[Chemin du retour]
     G --> H[Résurrection]
-    H --> I[Retour au monde<br/>transformé]
+    H --> I[Retour au monde\ntransformé]
 ```
 
 Cette structure se retrouve dans le voyage d'Ulysse, la Passion du Christ, Bouddha quittant son palais, ou *Star Wars* (George Lucas reconnaît explicitement la dette envers Campbell). C'est aujourd'hui la grammaire dominante des scénarios hollywoodiens.

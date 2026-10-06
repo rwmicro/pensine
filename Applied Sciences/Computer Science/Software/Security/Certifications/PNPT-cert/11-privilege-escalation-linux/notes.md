@@ -12,33 +12,14 @@ Obtenir un shell `www-data` ou `nobody`, c'est une chose. Devenir root, c'est ce
 
 ## Arbre de décision
 
-```
-   Shell utilisateur obtenu
-            │
-            ▼
-   ┌─────────────────────┐
-   │ 1. sudo -l          │ → autorisé sans mdp ? → GTFOBins direct
-   └──────────┬──────────┘
-              ▼
-   ┌─────────────────────┐
-   │ 2. SUID binaries    │ → find / -perm -4000 → GTFOBins
-   └──────────┬──────────┘
-              ▼
-   ┌─────────────────────┐
-   │ 3. Capabilities     │ → getcap -r / → setuid cap = root
-   └──────────┬──────────┘
-              ▼
-   ┌─────────────────────┐
-   │ 4. Cron jobs        │ → script root writable ? → cron en mode root
-   └──────────┬──────────┘
-              ▼
-   ┌─────────────────────┐
-   │ 5. Fichiers / NFS   │ → shadow lisible ? exports vulnérable ?
-   └──────────┬──────────┘
-              ▼
-   ┌─────────────────────┐
-   │ 6. Kernel exploits  │ → dernier recours, risque de crash
-   └─────────────────────┘
+```mermaid
+flowchart TD
+    S["Shell utilisateur obtenu"] --> N1["1. sudo -l → autorisé sans mdp ? → GTFOBins direct"]
+    N1 --> N2["2. SUID binaries → find / -perm -4000 → GTFOBins"]
+    N2 --> N3["3. Capabilities → getcap -r / → setuid cap = root"]
+    N3 --> N4["4. Cron jobs → script root writable ? → cron en mode root"]
+    N4 --> N5["5. Fichiers / NFS → shadow lisible ? exports vulnérable ?"]
+    N5 --> N6["6. Kernel exploits → dernier recours, risque de crash"]
 ```
 
 > [!tip] Règle d'or

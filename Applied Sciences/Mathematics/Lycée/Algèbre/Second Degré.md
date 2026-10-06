@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Mathematics > Lycée > Algèbre"
 tags: [sciences-appliquées, mathématiques]
 date: "2026-02-19"
+prerequis: ["[[Fonctions]]"]
 ---
 
 # Second Degré
@@ -80,13 +81,13 @@ flowchart TD
     C -->|"Δ = 0"| E["Une racine double"]
     C -->|"Δ < 0"| F["Aucune racine réelle"]
 
-    D --> G["x₁ = (-b - sqrt(Δ)) / 2a<br/>x₂ = (-b + sqrt(Δ)) / 2a"]
+    D --> G["x₁ = (-b - sqrt(Δ)) / 2a\nx₂ = (-b + sqrt(Δ)) / 2a"]
     E --> H["x₀ = -b / 2a"]
     F --> I["S = ensemble vide"]
 
     G --> J["f(x) = a(x - x₁)(x - x₂)"]
     H --> K["f(x) = a(x - x₀)²"]
-    I --> L["f(x) ne se factorise pas<br/>dans R"]
+    I --> L["f(x) ne se factorise pas\ndans R"]
 ```
 
 ### 3.3 Formules des racines
@@ -181,9 +182,9 @@ flowchart TD
     B --> C{"Δ < 0"}
     C -->|Oui| D["Toujours du signe de a"]
     C -->|Non| E{"Δ = 0"}
-    E -->|Oui| F["Signe de a sauf en x₀ = -b/2a<br/>où f(x₀) = 0"]
+    E -->|Oui| F["Signe de a sauf en x₀ = -b/2a\noù f(x₀) = 0"]
     E -->|Non| G["Δ > 0"]
-    G --> H["Signe de a à l'EXTÉRIEUR de x₁, x₂<br/>Signe opposé ENTRE x₁ et x₂"]
+    G --> H["Signe de a à l'EXTÉRIEUR de x₁, x₂\nSigne opposé ENTRE x₁ et x₂"]
 ```
 
 
@@ -381,6 +382,27 @@ c) Quand retombe-t-il au sol ?
 > - Signe du trinôme : **signe de $a$ à l'extérieur** des racines.
 > - Le sommet de la parabole est en $x = -\frac{b}{2a}$ : c'est un **minimum** si $a > 0$, un **maximum** si $a < 0$.
 > - Pour les inéquations du second degré : discriminant, racines, tableau de signes, lecture.
+
+
+## Questions de révision
+
+> [!quiz] Que détermine le signe du discriminant $\Delta = b^2 - 4ac$ ?
+> Le nombre de racines réelles de $ax^2 + bx + c = 0$ : deux si $\Delta > 0$, une racine double si $\Delta = 0$, aucune si $\Delta < 0$.
+
+> [!quiz] Que permet de lire la forme canonique $a(x - \alpha)^2 + \beta$ ?
+> Les coordonnées du sommet $S(\alpha;\, \beta)$ de la parabole, avec $\alpha = -\frac{b}{2a}$ et $\beta = f(\alpha)$.
+
+> [!quiz] Quel est le signe d'un trinôme du second degré lorsque $\Delta > 0$ ?
+> Il est du signe de $a$ à l'extérieur des racines et du signe opposé à $a$ entre les racines.
+
+> [!quiz] Que valent la somme et le produit des racines de $ax^2 + bx + c = 0$ ?
+> $x_1 + x_2 = -\frac{b}{a}$ et $x_1 x_2 = \frac{c}{a}$.
+
+> [!quiz] Le sommet de la parabole est-il un minimum ou un maximum ?
+> Un minimum si $a > 0$ (parabole tournée vers le haut), un maximum si $a < 0$ (tournée vers le bas).
+
+> [!quiz] Que peut-on dire de la factorisation d'un trinôme dont le discriminant est négatif ?
+> Il ne se factorise pas dans $\mathbb{R}$ et garde le signe de $a$ pour tout réel $x$.
 
 
 *Voir aussi* : [[Calcul Algébrique]] | [[Fonctions]] | [[Dérivation]] | [[Ensembles et Nombres]]

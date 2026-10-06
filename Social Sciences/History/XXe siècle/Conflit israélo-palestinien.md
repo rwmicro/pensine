@@ -6,6 +6,7 @@ tags: [sciences-sociales, histoire, xxe-siècle, proche-orient, israël, palesti
 date: "2026-09-28"
 year: 1948
 period: "Depuis 1948"
+prerequis: ["[[Shoah]]", "[[Empire ottoman]]"]
 ---
 
 # Le conflit israélo-palestinien
@@ -91,6 +92,26 @@ Le 7 octobre 2023, le Hamas et d'autres groupes armés lancent depuis Gaza une a
 
 > [!warning] Piège
 > Le conflit n'est pas, à l'origine, une guerre de religion millénaire entre juifs et musulmans. C'est un affrontement moderne entre deux nationalismes nés à la fin du XIXe siècle, dans le contexte de l'effondrement ottoman et de l'antisémitisme européen ; les premiers dirigeants sionistes étaient souvent laïcs, et le nationalisme palestinien a longtemps été dominé par des organisations laïques, avec une participation notable de chrétiens. La dimension religieuse, bien réelle autour de Jérusalem et de ses lieux saints (voir [[Islam]] et [[Christianisme]]), s'est surtout renforcée depuis les années 1970-1980, avec l'essor du sionisme religieux dans la colonisation et de l'islamisme du Hamas. La lire comme la cause première, c'est rendre le conflit insoluble par définition, alors qu'il porte d'abord sur la terre, les frontières, les réfugiés et la souveraineté.
+
+## Questions de révision
+
+> [!quiz] Pourquoi le conflit israélo-palestinien n'est-il pas, à l'origine, une guerre de religion ?
+> C'est l'affrontement moderne de deux nationalismes nés à la fin du XIXe siècle, le sionisme et le nationalisme arabe palestinien, qui revendiquent la même terre. La dimension religieuse s'est surtout renforcée depuis les années 1970-1980 ; le conflit porte d'abord sur la terre, les frontières, les réfugiés et la souveraineté.
+
+> [!quiz] Pourquoi parle-t-on des promesses contradictoires de la Grande-Bretagne pendant la Première Guerre mondiale ?
+> Elle laisse espérer un grand royaume arabe au chérif Hussein, négocie secrètement le partage du Proche-Orient avec la France (Sykes-Picot) et promet par la déclaration Balfour (1917) un « foyer national pour le peuple juif » en Palestine.
+
+> [!quiz] Que prévoit la résolution 181 de l'ONU (29 novembre 1947), et comment est-elle reçue ?
+> Un État juif, un État arabe et un statut international pour Jérusalem. Les dirigeants sionistes l'acceptent ; le Haut Comité arabe et les États arabes la rejettent.
+
+> [!quiz] Qu'est-ce que la *Nakba*, et sur quoi porte le débat entre Benny Morris et Ilan Pappé ?
+> La « catastrophe » : la fuite ou l'expulsion de 700 000 à 750 000 Palestiniens en 1948. Morris y voit une combinaison de fuites dues à la guerre et d'expulsions sans plan d'ensemble centralisé ; Pappé soutient qu'il y eut un nettoyage ethnique planifié.
+
+> [!quiz] Quel principe pose la résolution 242 du Conseil de sécurité après la guerre de 1967 ?
+> « La paix contre les territoires » : le retrait israélien de territoires occupés en échange de la paix.
+
+> [!quiz] Que contiennent les accords d'Oslo (1993) et quelles questions laissent-ils en suspens ?
+> La reconnaissance mutuelle d'Israël et de l'OLP et la création d'une Autorité palestinienne à l'autonomie limitée ; frontières, Jérusalem, réfugiés, colonies et sécurité sont reportés à des négociations finales.
 
 ## Ressources
 

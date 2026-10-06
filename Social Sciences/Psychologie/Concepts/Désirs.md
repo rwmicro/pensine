@@ -34,23 +34,14 @@ Le *désir* est une tension passive vers un objet — un état d'âme, une incli
 
 Dans le *Phèdre*, Platon décrit l'âme comme un char attelé à deux chevaux :
 
+```mermaid
+flowchart TD
+  R["Cocher : la RAISON (logistikon)"]
+  R --> B["Cheval blanc\nDésirs nobles (thumos : courage)"]
+  R --> N["Cheval noir\nDésirs vils (epithumia : appétits)"]
 ```
-              ┌───────────────────────────────────────┐
-              │           LE CHAR DE L'ÂME            │
-              │                                       │
-              │         [Cocher : la RAISON]          │
-              │              (logistikon)              │
-              │                  │                    │
-              │        ┌─────────┴──────────┐         │
-              │        │                    │         │
-              │  [Cheval blanc]      [Cheval noir]    │
-              │  Désirs nobles       Désirs vils       │
-              │  (thumos : courage)  (epithumia :      │
-              │                      appétits)        │
-              └───────────────────────────────────────┘
 
-  La raison doit gouverner les désirs pour atteindre la sagesse.
-```
+La raison doit gouverner les désirs pour atteindre la sagesse.
 
 ### Aristote : le juste milieu
 
@@ -58,46 +49,37 @@ Le désir n'est ni bon ni mauvais en soi — c'est l'excès ou le défaut qui po
 
 ### Épicure : hiérarchie des désirs
 
-```
-  Désirs naturels           Désirs vains
-  et nécessaires            (ni naturels, ni nécessaires)
-  ───────────────           ─────────────────────────────
-  Faim, soif, sommeil       Gloire, richesse, pouvoir infini
-  → Satisfaire              → Éviter : source d'insatisfaction
-                            → Ces désirs croissent avec leur satisfaction
-
-  Désirs naturels
-  mais non nécessaires
-  ─────────────────────
-  Gastronomie, confort
-  → Modération
+```mermaid
+mindmap
+  root["Épicure : hiérarchie des désirs"]
+    A["Désirs naturels et nécessaires"]
+      A1["Faim, soif, sommeil"]
+      A2["→ Satisfaire"]
+    B["Désirs naturels mais non nécessaires"]
+      B1["Gastronomie, confort"]
+      B2["→ Modération"]
+    C["Désirs vains (ni naturels, ni nécessaires)"]
+      C1["Gloire, richesse, pouvoir infini"]
+      C2["→ Éviter : source d'insatisfaction"]
+      C3["→ Ces désirs croissent avec leur satisfaction"]
 ```
 
 **Ataraxie** : absence de trouble, tranquillité obtenue en satisfaisant les désirs nécessaires et en renonçant aux désirs vains.
 
 ### Stoïcisme : maîtrise des désirs (Épictète, Marc Aurèle)
 
+```mermaid
+block-beta
+  columns 1
+  T["TOUT CE QUI EXISTE"]
+  block:deux
+    columns 2
+    M["Ce qui dépend de MOI\n• Mes jugements\n• Mes désirs\n• Mes aversions\n• Mes choix\n→ Liberté totale"]
+    P["Ce qui ne dépend PAS de moi\n• Corps, santé\n• Réputation\n• Richesse\n• Opinions d'autrui\n• Événements externes\n→ Ne pas en dépendre"]
+  end
 ```
-  Dichotomie du contrôle
 
-  ┌──────────────────────────────────────────────────────────┐
-  │                  TOUT CE QUI EXISTE                      │
-  │                                                          │
-  │  ┌───────────────────────┐  ┌───────────────────────┐   │
-  │  │  Ce qui dépend de MOI │  │ Ce qui ne dépend      │   │
-  │  │                       │  │ PAS de moi            │   │
-  │  │  • Mes jugements      │  │ • Corps, santé        │   │
-  │  │  • Mes désirs         │  │ • Réputation          │   │
-  │  │  • Mes aversions      │  │ • Richesse            │   │
-  │  │  • Mes choix          │  │ • Opinions d'autrui   │   │
-  │  │                       │  │ • Événements externes │   │
-  │  │  → Liberté totale     │  │ → Ne pas en dépendre  │   │
-  │  └───────────────────────┘  └───────────────────────┘   │
-  └──────────────────────────────────────────────────────────┘
-
-  Principe : ne désirer que ce qui dépend de nous.
-  Accepter ce qui arrive : amor fati.
-```
+Principe : ne désirer que ce qui dépend de nous. Accepter ce qui arrive : amor fati.
 
 ### Spinoza : le désir comme essence
 
@@ -105,22 +87,18 @@ Pour Spinoza, le désir (*conatus*) est l'effort de persévérer dans son être 
 
 ### Schopenhauer : le désir et la souffrance
 
+```mermaid
+flowchart TD
+  D["Désir"] --> T["Tension"] --> S["Souffrance (manque)"]
+  S --> Sat["Satisfaction éphémère"]
+  Sat --> En["Ennui (vide)"]
+  En --> ND["Nouveau désir"]
+  ND --> D
 ```
-  ┌────────────────────────────────────────────────────────────┐
-  │               Le cycle de Schopenhauer                    │
-  │                                                            │
-  │   Désir  ──→  Tension  ──→  Souffrance (manque)           │
-  │     ↑                              │                       │
-  │     │                              ▼                       │
-  │  Nouveau   ←──  Ennui  ←──  Satisfaction éphémère         │
-  │  désir          (vide)                                     │
-  │                                                            │
-  │  "La vie oscille comme un pendule entre la souffrance      │
-  │   et l'ennui."                                             │
-  └────────────────────────────────────────────────────────────┘
 
-  Solution proposée : ascétisme, contemplation esthétique, compassion.
-```
+"La vie oscille comme un pendule entre la souffrance et l'ennui."
+
+Solution proposée : ascétisme, contemplation esthétique, compassion.
 
 ### Nietzsche : désir et volonté de puissance
 
@@ -156,27 +134,17 @@ La *libido* est l'énergie psychique du désir. Le conflit psychique oppose :
 
 ### Maslow : pyramide des besoins
 
+```mermaid
+block-beta
+  columns 1
+  L5["5. Accomplissement de soi — Réalisation du potentiel"]
+  L4["4. Estime — Confiance, respect, reconnaissance"]
+  L3["3. Appartenance — Amour, amitié, sentiment d'appartenir"]
+  L2["2. Sécurité — Protection, stabilité, ordre"]
+  L1["1. Besoins physiologiques — Faim, soif, sommeil, chaleur"]
 ```
-             ╱     ╲
-            ╱  5.   ╲         Accomplissement de soi
-           ╱ Accom-  ╲        Réalisation du potentiel
-          ╱─plissement─╲
-         ╱              ╲
-        ╱   4. Estime    ╲     Confiance, respect, reconnaissance
-       ╱──────────────────╲
-      ╱                    ╲
-     ╱  3. Appartenance    ╲   Amour, amitié, sentiment d'appartenir
-    ╱────────────────────────╲
-   ╱                          ╲
-  ╱     2. Sécurité            ╲  Protection, stabilité, ordre
- ╱──────────────────────────────╲
-╱                                ╲
-╲    1. Besoins physiologiques   ╱  Faim, soif, sommeil, chaleur
- ╲══════════════════════════════╱
 
-Les besoins supérieurs n'émergent significativement
-que si les besoins inférieurs sont suffisamment satisfaits.
-```
+Les besoins supérieurs n'émergent significativement que si les besoins inférieurs sont suffisamment satisfaits.
 
 **Limites de Maslow :** l'ordre strict de la hiérarchie est contesté empiriquement. Des individus en situation de grande insécurité poursuivent des buts d'accomplissement, et vice versa.
 
@@ -198,20 +166,17 @@ Trois besoins psychologiques fondamentaux sont universels :
 
 ### Désir mimétique (René Girard)
 
+```mermaid
+flowchart TD
+  O["Objet (ce qui est désiré)"]
+  S["Sujet (moi)"]
+  M["Médiateur (modèle : l'Autre dont je désire ce qu'il désire)"]
+  S -->|"désir de l'objet"| O
+  M --> O
+  S -->|"imitation du désir du médiateur"| M
 ```
-  Le triangle mimétique de Girard
 
-         Objet (ce qui est désiré)
-           ╱                   ╲
-          ╱  désir de l'objet   ╲
-         ╱                       ╲
-  Sujet ─────────────────────── Médiateur
-  (moi)   imitation du désir     (modèle : l'Autre
-          du médiateur            dont je désire ce qu'il désire)
-
-  "Je ne désire pas l'objet directement.
-   Je désire ce que mon modèle désire."
-```
+"Je ne désire pas l'objet directement. Je désire ce que mon modèle désire."
 
 **Conséquences :** rivalité (quand le même objet est désiré), violence (escalade du conflit), bouc émissaire (transfert de la violence sur un tiers). La publicité construit délibérément des modèles pour déclencher le désir mimétique.
 

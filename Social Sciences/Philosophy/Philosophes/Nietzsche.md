@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie]
 date: "2025-12-31"
+prerequis: ["[[Schopenhauer]]"]
 ---
 
 # Friedrich Nietzsche (1844-1900)
@@ -210,6 +211,26 @@ Nietzsche est l'un des philosophes les plus influents du XXe siècle :
 - Postmodernisme (critique des grands récits)
 - Philosophie continentale
 - Littérature (Thomas Mann, Hermann Hesse)
+
+## Questions de révision
+
+> [!quiz] Que signifie la formule Dieu est mort ?
+> Non pas qu'un Dieu aurait existé puis disparu, mais que la croyance en Dieu et les valeurs chrétiennes ne sont plus tenables : les valeurs absolues s'effondrent, la morale perd son fondement, d'où le nihilisme.
+
+> [!quiz] Qu'est-ce que le surhomme (*Übermensch*) selon Nietzsche ?
+> Un idéal, non une race : l'humain qui, après la mort de Dieu, crée ses propres valeurs, affirme la vie terrestre avec ses souffrances et reste fidèle à la terre.
+
+> [!quiz] Quel test propose la pensée de l'éternel retour ?
+> Imaginer devoir revivre sa vie à l'identique une infinité de fois : vit-on de manière à pouvoir le vouloir ? Elle est liée à l'*amor fati*, aimer sa vie au point de vouloir la revivre éternellement.
+
+> [!quiz] Quelle différence entre morale des maîtres et morale des esclaves ?
+> La morale des maîtres naît de l'affirmation de soi (bon = noble, fort) ; la morale des esclaves naît du ressentiment contre les forts et renverse les valeurs aristocratiques (bon = humble, doux, obéissant).
+
+> [!quiz] Que représentent l'apollinien et le dionysiaque dans *La Naissance de la tragédie* ?
+> Apollon incarne l'ordre, la forme et la mesure ; Dionysos l'ivresse, le chaos et la fusion avec le tout. La tragédie grecque en est la synthèse, et son déclin vient avec le rationalisme socratique.
+
+> [!quiz] Quelle différence entre nihilisme passif et nihilisme actif ?
+> Le nihilisme passif est le désespoir et la paralysie devant l'absence de sens ; le nihilisme actif détruit les anciennes valeurs pour préparer la création de valeurs nouvelles.
 
 ## Ressources
 

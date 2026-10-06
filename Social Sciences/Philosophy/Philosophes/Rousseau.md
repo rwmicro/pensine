@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie]
 date: "2026-04-12"
+prerequis: ["[[Locke]]"]
 ---
 
 # Jean-Jacques Rousseau (1712-1778)
@@ -136,6 +137,26 @@ La religion civile n'est pas optionnelle : qui refuse d'y adhérer peut être ba
 Rousseau est l'une des figures les plus contestées de la philosophie moderne. La Révolution française en a fait son prophète. Les libéraux y voient le précurseur du totalitarisme (Talmon : "La démocratie totalitaire"). Les républicains y voient le fondement de la souveraineté populaire.
 
 Sa critique de l'inégalité et de la propriété reste d'une actualité troublante. Sa pédagogie a transformé l'éducation moderne. Ses *Confessions* ont inventé l'introspection littéraire.
+
+## Questions de révision
+
+> [!quiz] Quelles sont les deux passions de l'homme naturel selon Rousseau ?
+> L'amour de soi, désir de sa propre conservation, et la pitié, répugnance à voir souffrir un être sensible.
+
+> [!quiz] Quelle différence Rousseau fait-il entre amour de soi et amour-propre ?
+> L'amour de soi est un instinct naturel et sain de conservation. L'amour-propre, né en société, est le désir d'être préféré aux autres et de se comparer : il est artificiel et source des vices.
+
+> [!quiz] Quel rôle joue la propriété dans l'origine de l'inégalité selon le second *Discours* ?
+> La propriété privée, née avec l'agriculture et la métallurgie, crée l'inégalité économique ; les riches proposent alors un contrat pour protéger leurs biens, ruse des puissants qui fonde la société civile historique.
+
+> [!quiz] Quelle différence entre la volonté générale et la volonté de tous ?
+> La volonté de tous est la somme des volontés particulières, tournées vers l'intérêt privé. La volonté générale ne regarde que l'intérêt commun : c'est ce que chaque citoyen voudrait en raisonnant pour le bien de tous.
+
+> [!quiz] Rousseau prône-t-il un retour à l'état de nature ?
+> Non : l'état de nature est un point de comparaison définitivement perdu. Le *Contrat social* cherche à reconstruire une légitimité à l'intérieur de la société, non à en sortir.
+
+> [!quiz] Pourquoi la volonté générale est-elle source d'ambiguïté politique ?
+> Rousseau ne dit pas clairement qui l'interprète. Ce silence a permis aux Jacobins de s'en proclamer interprètes pendant la Terreur, et fonde la divergence entre lectures démocratique et totalitaire de Rousseau.
 
 ## Ressources
 

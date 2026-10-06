@@ -21,7 +21,7 @@ Linguiste suisse, père de la **linguistique structurale**. Pour lui, un signe l
 
 ```mermaid
 flowchart LR
-    Signifiant["Signifiant<br/>(sons : /arbr/)"] <-->|signe| Signifie["Signifié<br/>(concept : arbre)"]
+    Signifiant["Signifiant\n(sons : /arbr/)"] <-->|signe| Signifie["Signifié\n(concept : arbre)"]
     Signe[SIGNE] -.-> Signifiant
     Signe -.-> Signifie
 ```
@@ -39,9 +39,9 @@ Philosophe américain, fonde la **sémiotique** (terme plus large que sémiologi
 
 ```mermaid
 flowchart TD
-    Signe["SIGNE (representamen)<br/>la fumée"]
-    Objet["OBJET<br/>le feu (cause réelle)"]
-    Interpretant["INTERPRÉTANT<br/>« il y a un feu »"]
+    Signe["SIGNE (representamen)\nla fumée"]
+    Objet["OBJET\nle feu (cause réelle)"]
+    Interpretant["INTERPRÉTANT\n« il y a un feu »"]
     Signe --> Objet
     Signe --> Interpretant
     Objet -.-> Interpretant
