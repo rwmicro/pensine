@@ -55,7 +55,7 @@ Formats supportés : `raw` (dump brut), `lime` (format LiME avec en-têtes de se
 
 ## Structure de la mémoire virtuelle
 
-Chaque processus possède son propre espace d'adressage virtuel. L'OS maintient une structure (EPROCESS sur Windows, task_struct sur Linux) qui décrit chaque processus. Volatility navigue ces structures pour reconstruire l'état du système.
+Chaque processus possède son propre espace d'adressage virtuel. L'OS maintient une structure (EPROCESS sur Windows, task_struct sur Linux) qui décrit chaque processus. Volatility navigue ces structures pour reconstruire l'état du système. Le rôle de EPROCESS, du PEB et des VAD, et le moment où chacun est créé, sont détaillés dans [[Création d'un processus sous Windows]].
 
 ```
 Mémoire physique
