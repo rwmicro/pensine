@@ -120,7 +120,7 @@ Find-PathDLLHijack
 
 ## Token Impersonation et SeImpersonatePrivilege
 
-Si l'utilisateur possède le privilege `SeImpersonatePrivilege` (comptes de service IIS, SQL Server), il peut usurper l'identité d'un token SYSTEM.
+Si l'utilisateur possède le privilege `SeImpersonatePrivilege` (comptes de service IIS, SQL Server), il peut usurper l'identité d'un token SYSTEM. Ce que contient un jeton d'accès, et la différence entre jeton principal et jeton d'emprunt d'identité, sont décrits dans [[Windows NT — Architecture interne]].
 
 > [!important] Idée clé
 > Tous les "Potato" (PrintSpoofer, GodPotato, JuicyPotato, RoguePotato) exploitent le même principe : forcer un service SYSTEM (via COM/RPC ou un serveur NTLM local) à s'authentifier auprès de l'attaquant, puis usurper le token obtenu grâce à `SeImpersonatePrivilege`. Seul le vecteur pour déclencher l'authentification SYSTEM change d'un outil à l'autre — c'est pour ça qu'il en existe autant de variantes selon la version de Windows.
