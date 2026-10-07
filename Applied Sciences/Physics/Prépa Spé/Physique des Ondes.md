@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Physics > Prépa Spé"
 tags: [sciences-appliquées, physique, ondes, prépa]
 date: "2026-06-21"
+prerequis: ["[[Ondes Mécaniques et Son]]", "[[Oscillateurs]]"]
 ---
 
 # Physique des Ondes

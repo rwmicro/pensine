@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Physics > Prépa Spé"
 tags: [sciences-appliquées, physique, électromagnétisme, maxwell, prépa]
 date: "2026-06-21"
+prerequis: ["[[Induction Électromagnétique]]"]
 ---
 
 # Équations de Maxwell

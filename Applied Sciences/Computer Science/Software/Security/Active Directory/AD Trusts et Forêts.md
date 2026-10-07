@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Active Directory"
 tags: [active-directory, trusts, forest, cross-domain, sid-history, golden-ticket, pentest, sécurité]
 date: "2026-03-23"
+prerequis: ["[[Kerberos Attacks]]"]
 ---
 
 # AD Trusts et Forêts — Attaques Cross-Domain

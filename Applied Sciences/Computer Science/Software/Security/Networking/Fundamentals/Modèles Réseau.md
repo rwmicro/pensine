@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Fundamentals"
 tags: [sciences-appliquées, informatique, sécurité, réseau, osi, tcp-ip, protocoles]
 date: "2026-03-22"
+parcours: "Réseau : des modèles OSI aux attaques"
 ---
 
 # Modèles Réseau — OSI et TCP/IP

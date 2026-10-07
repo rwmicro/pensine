@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Physics > Prépa Sup"
 tags: [sciences-appliquées, physique, thermodynamique, entropie, prépa]
 date: "2026-06-21"
+prerequis: ["[[Énergie et Travail]]"]
 ---
 
 # Thermodynamique

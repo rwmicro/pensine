@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Physics > Lycée > Mécanique"
 tags: [sciences-appliquées, physique, mécanique, dynamique, newton]
 date: "2026-06-21"
+prerequis: ["[[Cinématique]]"]
 ---
 
 # Lois de Newton

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > SOC Analysis > DFIR"
 tags: [sciences-appliquées, informatique, sécurité, soc, dfir]
 date: "2025-02-15"
+parcours: "DFIR : réponse à incident et forensique"
 ---
 
 # DFIR (Digital Forensics and Incident Response)

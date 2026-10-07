@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security"
 tags: [sciences-appliquées, informatique, sécurité]
 date: "2026-02-25"
+parcours: "Active Directory : de l'attaque à la persistance"
 ---
 
 # Active Directory Security

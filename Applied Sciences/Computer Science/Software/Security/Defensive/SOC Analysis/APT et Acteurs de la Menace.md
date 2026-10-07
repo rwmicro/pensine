@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Defensive > SOC Analysis"
 tags: [apt, threat-actor, threat-intelligence, mitre, cyberwarfare, soc]
 date: "2026-03-22"
+prerequis: ["[[Threat Intelligence]]"]
 ---
 
 # APT et Acteurs de la Menace

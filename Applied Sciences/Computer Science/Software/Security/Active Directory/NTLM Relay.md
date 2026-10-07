@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Active Directory"
 tags: [ntlm, relay, smb, ldap, active-directory, impacket, responder, pentest, sécurité]
 date: "2026-03-23"
+prerequis: ["[[Active Directory Security]]"]
 ---
 
 # NTLM Relay

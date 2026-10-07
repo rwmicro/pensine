@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Data Science > Machine Learning"
 tags: [biais-variance, régularisation, overfitting, underfitting, généralisation, machine-learning]
 date: "2026-08-24"
+prerequis: ["[[Machine Learning]]", "[[Métriques d'Évaluation]]"]
 ---
 # Biais-Variance et Régularisation
 Un modèle qui obtient un excellent score sur ses données d'entraînement mais s'effondre sur des données nouvelles n'a rien appris d'utile. Comprendre **pourquoi** un modèle généralise mal — et pas seulement le constater — est la clé pour choisir le bon remède : plus de données, un modèle différent, ou de la régularisation.

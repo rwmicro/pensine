@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Network Security"
 tags: [sciences-appliquées, informatique, sécurité, réseau]
 date: "2026-02-22"
+prerequis: ["[[NAT et ACL]]", "[[Équipements Réseau]]"]
 ---
 
 # Sécurité Réseau

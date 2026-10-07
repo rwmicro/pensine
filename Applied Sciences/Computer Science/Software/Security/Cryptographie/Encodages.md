@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Cryptographie"
 tags: [encodage, base64, hex, ascii, unicode, url-encoding, sécurité]
 date: "2026-03-22"
+parcours: "Cryptographie appliquée"
 ---
 
 # Encodages

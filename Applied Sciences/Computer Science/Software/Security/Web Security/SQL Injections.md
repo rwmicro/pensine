@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Web Security"
 tags: [sciences-appliquées, informatique, sécurité]
 date: "2025-01-15"
+prerequis: ["[[Attack Vectors]]"]
 ---
 
 # Injections SQL (SQLi)

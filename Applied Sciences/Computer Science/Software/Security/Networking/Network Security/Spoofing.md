@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Network Security"
 tags: [sciences-appliquées, informatique, sécurité, réseau]
 date: "2024-09-13"
+prerequis: ["[[Attaques Réseau]]", "[[HTTPS]]"]
 ---
 
 # ARP Poisoning / ARP Spoofing

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Web Security"
 tags: [nosql, mongodb, injection, redis, web, sécurité]
 date: "2026-03-22"
+prerequis: ["[[SQL Injections]]"]
 ---
 
 # NoSQL Injection

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Web Security"
 tags: [prototype-pollution, javascript, nodejs, web, sécurité]
 date: "2026-03-22"
+prerequis: ["[[DOM-based Vulnerabilities]]"]
 ---
 
 # Prototype Pollution

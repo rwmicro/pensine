@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Fundamentals"
 tags: [sciences-appliquées, informatique, sécurité, réseau, ipv4, subnetting, cidr]
 date: "2026-03-22"
+prerequis: ["[[IPv4]]"]
 ---
 # Adressage IP et Subnetting
 

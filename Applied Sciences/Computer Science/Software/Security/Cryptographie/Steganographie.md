@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Cryptographie"
 tags: [steganographie, ctf, stegano, image, audio, sécurité]
 date: "2026-03-22"
+prerequis: ["[[Encodages]]"]
 ---
 
 # Steganographie

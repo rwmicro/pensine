@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Web Security"
 tags: [cache-poisoning, cache-deception, web, cdn, sécurité, bug-bounty]
 date: "2026-03-22"
+prerequis: ["[[Host Header Injection]]"]
 ---
 
 # Web Cache Poisoning et Cache Deception

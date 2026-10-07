@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Active Directory"
 tags: [mimikatz, credentials, lsass, ntlm, kerberos, active-directory, sécurité]
 date: "2026-03-22"
+prerequis: ["[[Kerberos Attacks]]"]
 ---
 
 # Mimikatz

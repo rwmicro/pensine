@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Defensive > SOC Analysis > DFIR"
 tags: [forensics, linux, dfir, investigation, artefacts, sécurité]
 date: "2026-03-22"
+prerequis: ["[[DFIR]]"]
 ---
 
 # Linux Forensics

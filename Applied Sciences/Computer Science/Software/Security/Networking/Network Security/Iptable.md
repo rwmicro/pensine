@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Network Security"
 tags: [sciences-appliquées, informatique, sécurité, réseau]
 date: "2025-03-08"
+prerequis: ["[[NAT et ACL]]"]
 ---
 
 # iptables / nftables

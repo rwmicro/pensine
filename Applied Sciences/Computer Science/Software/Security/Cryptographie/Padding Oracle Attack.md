@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Cryptographie"
 tags: [padding-oracle, cbc, cryptographie, aes, déchiffrement, sécurité]
 date: "2026-03-22"
+prerequis: ["[[Cryptographie]]"]
 ---
 
 # Padding Oracle Attack

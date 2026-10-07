@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Network Security"
 tags: [sciences-appliquées, informatique, sécurité, réseau]
 date: "2026-02-25"
+prerequis: ["[[ARP]]", "[[DNS en profondeur]]"]
 ---
 
 # Attaques Réseau
