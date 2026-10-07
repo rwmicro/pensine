@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Physics > Prépa Spé"
 tags: [sciences-appliquées, physique, thermodynamique, diffusion, prépa]
 date: "2026-06-21"
+prerequis: ["[[Thermodynamique]]"]
 ---
 
 # Transferts Thermiques

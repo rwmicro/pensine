@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Physics > Lycée > Mécanique"
 tags: [sciences-appliquées, physique, mécanique, cinématique]
 date: "2026-06-21"
+parcours: "Physique : du lycée à la prépa"
 ---
 
 # Cinématique

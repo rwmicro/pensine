@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Physics > Prépa Spé"
 tags: [sciences-appliquées, physique, ondes, électromagnétisme, prépa]
 date: "2026-06-21"
+prerequis: ["[[Équations de Maxwell]]", "[[Physique des Ondes]]"]
 ---
 
 # Ondes Électromagnétiques

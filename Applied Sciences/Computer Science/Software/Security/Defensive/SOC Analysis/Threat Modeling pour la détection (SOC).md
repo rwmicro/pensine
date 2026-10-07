@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > SOC Analysis"
 tags: [sciences-appliquées, informatique, sécurité, soc, threat-modeling, detection]
 date: "2026-05-29"
+prerequis: ["[[Detection Engineering]]"]
 ---
 
 # Threat Modeling pour la détection (SOC)

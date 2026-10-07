@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Physics > Lycée > Ondes & Signaux"
 tags: [sciences-appliquées, physique, ondes, son, acoustique]
 date: "2026-06-21"
+prerequis: ["[[Cinématique]]"]
 ---
 
 # Ondes Mécaniques et Son

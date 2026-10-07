@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Data Science > Machine Learning > LLM"
 tags: [rag, llm, retrieval, embeddings, vector-database, prompt-engineering]
 date: "2026-03-22"
+prerequis: ["[[Embeddings]]", "[[LLM — Architectures et Fonctionnement]]"]
 ---
 # RAG - Retrieval-Augmented Generation
 

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > SOC Analysis"
 tags: [sciences-appliquées, informatique, sécurité, soc]
 date: "2026-02-25"
+prerequis: ["[[Vocabulary]]"]
 ---
 
 # Threat Intelligence (Renseignement sur les Menaces)

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Mathematics > Math Sup"
 tags: [sciences-appliquées, mathématiques]
 date: "2026-02-16"
+prerequis: ["[[Fonctions d'une Variable Réelle]]"]
 ---
 
 # Développements Limités

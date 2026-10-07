@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Active Directory"
 tags: [bloodhound, active-directory, graphe, attaque-path, sécurité, pentest]
 date: "2026-03-22"
+prerequis: ["[[Active Directory Security]]"]
 ---
 
 # BloodHound

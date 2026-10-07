@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Web Security"
 tags: [sciences-appliquées, informatique, sécurité]
 date: "2024-11-01"
+parcours: "Sécurité web : des vecteurs d'attaque aux failles avancées"
 ---
 
 # Vecteurs d'attaque Web

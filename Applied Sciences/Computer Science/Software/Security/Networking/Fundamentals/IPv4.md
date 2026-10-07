@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Fundamentals"
 tags: [sciences-appliquées, informatique, sécurité, ipv4, réseau, protocole]
 date: "2026-03-22"
+prerequis: ["[[Protocoles Réseau]]"]
 ---
 
 # IPv4

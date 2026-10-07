@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Defensive > SOC Analysis > DFIR"
 tags: [incident-response, playbook, ransomware, dfir, soc, forensics]
 date: "2026-03-22"
+prerequis: ["[[DFIR]]"]
 ---
 
 # Playbooks de Réponse à Incident

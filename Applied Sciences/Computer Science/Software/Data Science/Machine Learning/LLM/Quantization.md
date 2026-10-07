@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Data Science > Machine Learning > LLM"
 tags: [sciences-appliquées, informatique, data-science, machine-learning, llm]
 date: "2026-02-12"
+prerequis: ["[[LLM — Architectures et Fonctionnement]]"]
 ---
 
 # Quantization (Quantification)

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Physics > Lycée > Mécanique"
 tags: [sciences-appliquées, physique, mécanique, énergie, travail]
 date: "2026-06-21"
+prerequis: ["[[Lois de Newton]]"]
 ---
 
 # Énergie et Travail

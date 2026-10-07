@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Web Security"
 tags: [file-upload, rce, webshell, bypass, web, sécurité]
 date: "2026-03-22"
+prerequis: ["[[Path Traversal]]"]
 ---
 
 # File Upload Vulnerabilities

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Active Directory"
 tags: [crackmapexec, cme, active-directory, smb, winrm, pentest, sécurité]
 date: "2026-03-22"
+prerequis: ["[[Active Directory Security]]"]
 ---
 
 # CrackMapExec

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Cryptographie"
 tags: [hashcat, john, hash, cracking, ntlm, bcrypt, sécurité]
 date: "2026-03-22"
+prerequis: ["[[Cryptographie]]"]
 ---
 
 # Hash Cracking
