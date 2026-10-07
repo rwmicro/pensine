@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Physics > Prépa Sup"
 tags: [sciences-appliquées, physique, fluides, hydrostatique, prépa]
 date: "2026-06-21"
+prerequis: ["[[Lois de Newton]]"]
 ---
 
 # Statique des Fluides

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Data Science"
 tags: [sciences-appliquées, informatique, data-science]
 date: "2026-02-12"
+parcours: "Machine Learning : des bases aux LLM"
 ---
 
 # Les bases de la Data Science

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Network Security"
 tags: [vlan, hopping, réseau, switch, 802.1q, sécurité, pentest]
 date: "2026-03-22"
+prerequis: ["[[Attaques Réseau]]", "[[Équipements Réseau]]"]
 ---
 
 # VLAN Hopping

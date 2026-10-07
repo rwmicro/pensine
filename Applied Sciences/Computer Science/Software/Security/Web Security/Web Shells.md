@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Web Security"
 tags: [webshell, post-exploitation, php, upload, sécurité, web, pentest]
 date: "2026-03-22"
+prerequis: ["[[File Upload Vulnerabilities]]", "[[Command Injection]]"]
 ---
 
 # Web Shells

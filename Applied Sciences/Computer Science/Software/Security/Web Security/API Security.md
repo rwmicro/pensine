@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Web Security"
 tags: [api, rest, graphql, oauth, sécurité, owasp, pentest]
 date: "2026-03-22"
+prerequis: ["[[Attack Vectors]]"]
 ---
 
 # API Security

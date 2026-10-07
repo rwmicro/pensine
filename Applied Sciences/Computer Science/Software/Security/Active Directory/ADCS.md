@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Active Directory"
 tags: [adcs, active-directory, pki, certipy, esc1, esc8, certificates, pentest, sécurité]
 date: "2026-03-22"
+prerequis: ["[[Kerberos Attacks]]"]
 ---
 
 # ADCS — Active Directory Certificate Services

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Web Security"
 tags: [clickjacking, ui-redressing, iframe, csp, sécurité, web]
 date: "2026-03-22"
+prerequis: ["[[Same-Origin Policy et CORS]]"]
 ---
 
 # Clickjacking et UI Redressing

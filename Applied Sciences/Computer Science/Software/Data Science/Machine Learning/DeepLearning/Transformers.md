@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Data Science > Machine Learning > DeepLearning"
 tags: [sciences-appliquées, informatique, data-science, machine-learning, deep-learning]
 date: "2026-02-22"
+prerequis: ["[[Perceptron et Rétropropagation]]"]
 ---
 
 # Transformers

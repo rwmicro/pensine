@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > SOC Analysis"
 tags: [sciences-appliquées, informatique, sécurité, soc]
 date: "2025-11-06"
+prerequis: ["[[Logs]]"]
 ---
 
 # SIEM (Security Information and Event Management)

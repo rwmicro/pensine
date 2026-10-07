@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Data Science"
 tags: [métriques, évaluation, classification, régression, nlp, auc-roc, f1-score, machine-learning]
 date: "2026-03-22"
+prerequis: ["[[Machine Learning]]"]
 ---
 
 # Métriques d'Évaluation en Machine Learning

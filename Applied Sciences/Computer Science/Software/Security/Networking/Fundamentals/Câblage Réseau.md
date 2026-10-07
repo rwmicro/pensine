@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Fundamentals"
 tags: [sciences-appliquées, informatique, réseau, câblage, physique]
 date: "2026-04-07"
+prerequis: ["[[Modèles Réseau]]"]
 ---
 
 # Câblage Réseau

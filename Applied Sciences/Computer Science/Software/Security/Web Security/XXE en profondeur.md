@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Web Security"
 tags: [xxe, xml, ssrf, lfi, blind-xxe, oob, sécurité, web]
 date: "2026-03-22"
+prerequis: ["[[Path Traversal]]"]
 ---
 
 # XXE en profondeur

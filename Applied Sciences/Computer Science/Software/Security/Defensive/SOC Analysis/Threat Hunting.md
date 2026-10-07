@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > SOC Analysis"
 tags: [sciences-appliquées, informatique, sécurité, soc]
 date: "2026-02-25"
+prerequis: ["[[Threat Intelligence]]", "[[SIEM (Security Information and event Management)]]"]
 ---
 
 # Threat Hunting (Chasse aux Menaces)

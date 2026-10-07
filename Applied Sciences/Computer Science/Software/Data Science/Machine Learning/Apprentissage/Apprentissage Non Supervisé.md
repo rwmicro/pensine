@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Data Science > Machine Learning > Apprentissage"
 tags: [sciences-appliquées, informatique, data-science, machine-learning, apprentissage-ml]
 date: "2026-02-22"
+prerequis: ["[[Machine Learning]]", "[[Feature Engineering et Prétraitement]]"]
 ---
 
 # Apprentissage Non Supervisé

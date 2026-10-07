@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Active Directory"
 tags: [active-directory, persistence, skeleton-key, dsrm, adminsdholder, golden-gmsa, pentest, sécurité]
 date: "2026-03-23"
+prerequis: ["[[Mimikatz]]", "[[ACL Abuse]]"]
 ---
 
 # AD Persistence Avancée

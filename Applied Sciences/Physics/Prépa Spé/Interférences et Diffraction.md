@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Physics > Prépa Spé"
 tags: [sciences-appliquées, physique, optique, ondes, interférences, prépa]
 date: "2026-06-21"
+prerequis: ["[[Physique des Ondes]]", "[[Optique Géométrique]]"]
 ---
 
 # Interférences et Diffraction

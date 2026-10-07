@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Physics > Approfondissements"
 tags: [sciences-appliquées, physique, relativité, espace-temps]
 date: "2026-06-21"
+prerequis: ["[[Mécanique du Point]]"]
 ---
 
 # Relativité Restreinte

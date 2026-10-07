@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Fundamentals"
 tags: [dns, dnssec, rebinding, amplification, zone-transfer, sécurité, réseau]
 date: "2026-03-22"
+prerequis: ["[[Protocoles Réseau]]"]
 ---
 # DNS en profondeur
 

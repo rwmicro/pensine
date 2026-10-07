@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Web Security"
 tags: [sop, cors, same-origin, web, sécurité, api]
 date: "2026-03-22"
+prerequis: ["[[Attack Vectors]]"]
 ---
 
 # Same-Origin Policy et CORS

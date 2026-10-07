@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Physics > Prépa Sup"
 tags: [sciences-appliquées, physique, électromagnétisme, induction, prépa]
 date: "2026-06-21"
+prerequis: ["[[Électrostatique et Magnétostatique]]", "[[Électrocinétique]]"]
 ---
 
 # Induction Électromagnétique

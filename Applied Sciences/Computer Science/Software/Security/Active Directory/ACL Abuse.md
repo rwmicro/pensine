@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Active Directory"
 tags: [acl, active-directory, dacl, escalade-de-privilèges, sécurité, pentest]
 date: "2026-03-22"
+prerequis: ["[[BloodHound]]"]
 ---
 
 # ACL Abuse

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Fundamentals"
 tags: [sciences-appliquées, informatique, sécurité, réseau]
 date: "2025-02-15"
+prerequis: ["[[Protocoles Réseau]]"]
 ---
 
 # HTTPS
