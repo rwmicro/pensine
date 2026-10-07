@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Tamoul > 02-Communication"
 tags: [sciences-sociales, langues, tamil, communication, salutations]
 date: "2026-04-01"
+prerequis: ["[[Social Sciences/Languages - Dialects/Tamoul/01-Phonologie/Alphabet-Prononciation]]"]
 ---
 # Salutations — Tamil
 

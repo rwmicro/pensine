@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Ecology"
 tags: [sciences-appliquées, écologie]
 date: "2026-02-22"
+prerequis: ["[[Applied Sciences/Ecology/Changement Climatique/Changement Climatique]]", "[[Applied Sciences/Ecology/Conservation/Conservation et Gestion]]"]
 ---
 
 # Écologie Humaine

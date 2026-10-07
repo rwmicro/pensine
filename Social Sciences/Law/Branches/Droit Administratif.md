@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Law > Branches"
 tags: [sciences-sociales, droit, droit-administratif, administration, état, service-public]
 date: "2026-04-18"
+prerequis: ["[[Social Sciences/Law/Branches/Droit Constitutionnel]]"]
 ---
 # Droit Administratif
 

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Espagnol > 01-Phonologie"
 tags: [sciences-sociales, langues, espagnol, spanish, phonologie, alphabet, prononciation]
 date: "2026-04-23"
+parcours: "Espagnol : des premiers mots à la culture"
 ---
 # Alphabet et Prononciation — Espagnol
 

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Litterature > Périodes"
 tags: [sciences-sociales, littérature]
 date: "2026-02-23"
+prerequis: ["[[Social Sciences/Litterature/Périodes/Lumières (XVIIIe siècle)]]"]
 ---
 
 # Romantisme (fin XVIIIe-XIXe siècle)

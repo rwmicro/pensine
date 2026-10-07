@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Turc > 01-Phonologie"
 tags: [sciences-sociales, langues, turc, phonologie, alphabet]
 date: "2026-03-27"
+parcours: "Turc : des premiers mots à la culture"
 ---
 # Alphabet et Prononciation — Turc
 

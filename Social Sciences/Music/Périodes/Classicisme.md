@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Music > Périodes"
 tags: [sciences-sociales, musique]
 date: "2026-02-22"
+prerequis: ["[[Social Sciences/Music/Périodes/Baroque]]", "[[Social Sciences/Music/Théorie/Composition et Orchestration]]"]
 ---
 
 # Classicisme (1750-1820)

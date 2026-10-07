@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Anthropology > Anthropologues"
 tags: [sciences-sociales, anthropologie]
 date: "2026-02-04"
+prerequis: ["[[Social Sciences/Anthropology/Méthodes - Ethnographie et Terrain]]", "[[Social Sciences/Anthropology/Écoles et Courants]]"]
 ---
 # Bronisław Malinowski (1884-1942)
 

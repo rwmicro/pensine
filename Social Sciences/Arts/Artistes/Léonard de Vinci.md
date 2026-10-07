@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Arts > Artistes"
 tags: [sciences-sociales, arts]
 date: "2026-02-24"
+prerequis: ["[[Social Sciences/Arts/Théorie de l'Art]]"]
 ---
 # Léonard de Vinci (1452 – 1519)
 

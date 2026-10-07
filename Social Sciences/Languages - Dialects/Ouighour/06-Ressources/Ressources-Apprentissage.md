@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Ouighour > 06-Ressources"
 tags: [sciences-sociales, langues, ouighour, ressources]
 date: "2026-07-30"
+prerequis: ["[[Social Sciences/Languages - Dialects/Ouighour/05-Culture/Culture-et-Contexte]]"]
 ---
 # Ressources pour poursuivre l'apprentissage
 

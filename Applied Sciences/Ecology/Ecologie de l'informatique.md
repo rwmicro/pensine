@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Ecology"
 tags: [sciences-appliquées, écologie, informatique, numérique, data-center, empreinte-carbone]
 date: "2026-04-16"
+prerequis: ["[[Applied Sciences/Ecology/Changement Climatique/Solutions et Atténuation]]"]
 ---
 
 # Ecologie de l'informatique

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Ecology > Biodiversité"
 tags: [sciences-appliquées, écologie]
 date: "2026-02-22"
+prerequis: ["[[Applied Sciences/Ecology/Biodiversité/Hotspots et Biomes]]"]
 ---
 
 # Biodiversité et Extinction

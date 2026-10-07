@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Resources"
 tags: [sciences-sociales, langues, hakka, culture, histoire, diaspora]
 date: "2026-09-03"
+prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/02-Communication/Registres]]", "[[Social Sciences/Languages - Dialects/Hakka-Khek/03-Grammaire/Structures-de-Phrase]]"]
 ---
 # Hakka History and Culture
 The Hakka (客家, literally "guest families" or "guests") are a Han Chinese subgroup originating in northern China. Their history is marked by successive migrations south, driven by invasions and political upheaval. Despite centuries of displacement, the Hakka have preserved a strong cultural identity, a distinct language, and specific traditions.

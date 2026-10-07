@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hindi > 05-Culture"
 tags: [sciences-sociales, langues, hindi, culture, inde]
 date: "2026-04-01"
+prerequis: ["[[Social Sciences/Languages - Dialects/Hindi/02-Communication/Registres]]", "[[Social Sciences/Languages - Dialects/Hindi/02-Communication/Situations]]"]
 ---
 # Culture — Inde et Hindi
 

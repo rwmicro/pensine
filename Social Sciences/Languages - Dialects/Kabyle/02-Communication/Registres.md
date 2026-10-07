@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Kabyle > 02-Communication"
 tags: [sciences-sociales, langues, kabyle, registres, sociolinguistique]
 date: "2026-03-27"
+prerequis: ["[[Social Sciences/Languages - Dialects/Kabyle/02-Communication/Salutations]]"]
 ---
 # Registres du Kabyle
 

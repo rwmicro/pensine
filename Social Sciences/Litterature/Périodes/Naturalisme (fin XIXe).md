@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Litterature > Périodes"
 tags: [sciences-sociales, littérature, naturalisme, XIXe-siècle, Zola]
 date: "2026-04-16"
+prerequis: ["[[Social Sciences/Litterature/Périodes/Réalisme (XIXe siècle, ~1830-1890)]]"]
 ---
 
 # Naturalisme (fin XIXe)

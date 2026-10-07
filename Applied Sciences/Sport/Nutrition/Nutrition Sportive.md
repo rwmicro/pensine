@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Sport > Nutrition"
 tags: [sciences-appliquées, sport]
 date: "2026-03-05"
+prerequis: ["[[Applied Sciences/Sport/Physiologie/Physiologie de l'Exercice]]"]
 ---
 
 # Nutrition Sportive

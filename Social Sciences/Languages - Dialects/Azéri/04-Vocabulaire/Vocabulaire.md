@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Azéri > 04-Vocabulaire"
 tags: [sciences-sociales, langues, azeri, azerbaijani, vocabulaire]
 date: "2026-04-22"
+prerequis: ["[[Social Sciences/Languages - Dialects/Azéri/02-Communication/Phrases-Essentielles]]"]
 ---
 # Vocabulaire — Azéri
 

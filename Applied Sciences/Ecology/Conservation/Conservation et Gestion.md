@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Ecology > Conservation"
 tags: [sciences-appliquées, écologie]
 date: "2026-02-22"
+prerequis: ["[[Applied Sciences/Ecology/Biodiversité/Biodiversité et Extinction]]", "[[Applied Sciences/Ecology/Conservation/Cascades Trophiques et Espèces Clés]]"]
 ---
 
 # Conservation et Gestion

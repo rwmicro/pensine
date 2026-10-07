@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Echecs > Tactiques"
 tags: [sciences-appliquées, échecs]
 date: "2026-03-20"
+prerequis: ["[[Applied Sciences/Echecs/Tactiques/Milieu de Partie et Tactiques]]"]
 ---
 
 # Puzzles et Entraînement Tactique

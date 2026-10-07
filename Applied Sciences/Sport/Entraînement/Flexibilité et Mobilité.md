@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Sport > Entraînement"
 tags: [sciences-appliquées, sport]
 date: "2026-03-05"
+prerequis: ["[[Applied Sciences/Sport/Entraînement/Entraînement et Performance]]"]
 ---
 
 # Flexibilité et Mobilité

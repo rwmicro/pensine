@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Grammar"
 tags: [sciences-sociales, langues, hakka]
 date: "2026-08-21"
+parcours: "Hakka : des premiers mots à la culture"
 ---
 # Pronunciation and Tones in Pontianak Hakka
 ## The Importance of Tones

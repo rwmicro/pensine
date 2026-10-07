@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Roumain > 02-Communication"
 tags: [sciences-sociales, langues, roumain, registres, politesse]
 date: "2026-03-27"
+prerequis: ["[[Social Sciences/Languages - Dialects/Roumain/02-Communication/Salutations]]"]
 ---
 # Registres du Roumain — Tu vs Dumneavoastră
 

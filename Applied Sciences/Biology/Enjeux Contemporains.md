@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Biology"
 tags: [sciences-appliquées, biologie, crispr, climat, éthique]
 date: "2026-02-22"
+prerequis: ["[[Applied Sciences/Biology/Domaines/Génétique]]", "[[Applied Sciences/Biology/Domaines/Écologie]]"]
 ---
 # Enjeux Contemporains en Biologie
 

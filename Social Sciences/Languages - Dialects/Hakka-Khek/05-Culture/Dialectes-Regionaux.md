@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Resources"
 tags: [sciences-sociales, langues, hakka]
 date: "2026-09-03"
+prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/02-Communication/Registres]]", "[[Social Sciences/Languages - Dialects/Hakka-Khek/03-Grammaire/Structures-de-Phrase]]"]
 ---
 # Regional Dialects and Variations
 

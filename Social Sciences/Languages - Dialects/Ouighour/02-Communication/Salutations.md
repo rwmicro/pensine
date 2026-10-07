@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Ouighour > 02-Communication"
 tags: [sciences-sociales, langues, ouighour, communication, salutations]
 date: "2026-08-20"
+prerequis: ["[[Social Sciences/Languages - Dialects/Ouighour/01-Phonologie/03-Tons-et-Intonation]]"]
 ---
 # Salutations : rituels d'ouverture et de clôture
 

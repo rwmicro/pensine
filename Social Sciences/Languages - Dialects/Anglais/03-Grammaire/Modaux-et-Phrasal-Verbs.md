@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Anglais > 03-Grammaire"
 tags: [sciences-sociales, langues, anglais, grammaire, modaux, phrasal-verbs]
 date: "2026-04-01"
+prerequis: ["[[Social Sciences/Languages - Dialects/Anglais/02-Communication/Phrases-Essentielles]]"]
 ---
 # Modaux et Phrasal Verbs — Anglais
 

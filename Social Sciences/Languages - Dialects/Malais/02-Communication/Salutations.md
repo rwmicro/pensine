@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Malais > 02-Communication"
 tags: [sciences-sociales, langues, malais, malaisian, communication, salutations]
 date: "2026-04-01"
+prerequis: ["[[Social Sciences/Languages - Dialects/Malais/01-Phonologie/Prononciation]]"]
 ---
 # Salutations — Bahasa Malaysia
 

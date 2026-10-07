@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Ecology > Conservation"
 tags: [sciences-appliquées, écologie]
 date: "2026-03-20"
+prerequis: ["[[Applied Sciences/Ecology/Ecosystèmes/Niveaux d'Organisation]]"]
 ---
 
 # Cascades Trophiques et Espèces Clés

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Medicine"
 tags: [sciences-appliquées, médecine]
 date: "2026-02-22"
+prerequis: ["[[Applied Sciences/Medicine/Physiologie]]"]
 ---
 
 # Examens et Diagnostics

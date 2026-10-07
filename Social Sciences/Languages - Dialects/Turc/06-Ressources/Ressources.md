@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Turc > 06-Ressources"
 tags: [sciences-sociales, langues, turc, turkish, ressources, apprentissage]
 date: "2026-04-01"
+prerequis: ["[[Social Sciences/Languages - Dialects/Turc/05-Culture/Culture]]"]
 ---
 # Ressources — Turc
 

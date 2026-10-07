@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Ouighour > 02-Communication"
 tags: [sciences-sociales, langues, ouighour, communication]
 date: "2026-08-20"
+prerequis: ["[[Social Sciences/Languages - Dialects/Ouighour/02-Communication/Phrases-Essentielles]]", "[[Social Sciences/Languages - Dialects/Ouighour/04-Vocabulaire/Vocabulaire-Thematique]]"]
 ---
 # Situations pratiques
 

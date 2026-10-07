@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Roumain > 05-Culture"
 tags: [sciences-sociales, langues, roumain, culture, roumanie, histoire]
 date: "2026-04-01"
+prerequis: ["[[Social Sciences/Languages - Dialects/Roumain/02-Communication/Registres]]", "[[Social Sciences/Languages - Dialects/Roumain/03-Grammaire/Bases]]"]
 ---
 # Culture — Roumanie et Roumain
 

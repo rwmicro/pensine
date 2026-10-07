@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Malais"
 tags: [sciences-sociales, langues, malaisien]
 date: "2026-02-04"
+prerequis: ["[[Social Sciences/Languages - Dialects/Malais/02-Communication/Phrases-Essentielles]]"]
 ---
 
 # Bahasa Melayu - Vocabulaire

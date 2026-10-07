@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology > Thématiques"
 tags: [sciences-sociales, sociologie, inégalités, classes-sociales, stratification]
 date: "2026-09-28"
+prerequis: ["[[Social Sciences/Sociology/Fondateurs/Karl Marx]]", "[[Social Sciences/Sociology/Fondateurs/Pierre Bourdieu]]"]
 ---
 
 # Stratification et Classes Sociales

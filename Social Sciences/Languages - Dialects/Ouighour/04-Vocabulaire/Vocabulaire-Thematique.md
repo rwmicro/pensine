@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Ouighour > 04-Vocabulaire"
 tags: [sciences-sociales, langues, ouighour, vocabulaire]
 date: "2026-07-30"
+prerequis: ["[[Social Sciences/Languages - Dialects/Ouighour/02-Communication/Phrases-Essentielles]]"]
 ---
 # Vocabulaire thématique
 

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Biology > Human"
 tags: [sciences-appliquées, biologie, biologie-humaine]
 date: "2025-01-15"
+prerequis: ["[[Applied Sciences/Biology/Domaines/Génétique]]", "[[Applied Sciences/Biology/Domaines/Physiologie Humaine]]"]
 ---
 # Hémophilie
 

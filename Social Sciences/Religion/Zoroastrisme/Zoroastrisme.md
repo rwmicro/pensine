@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Religion > Zoroastrisme"
 tags: [sciences-sociales, religion, zoroastrisme, iran, zarathoustra, avesta, parsis]
 date: "2026-09-28"
+prerequis: ["[[Social Sciences/Religion/Histoire des Religions]]"]
 ---
 
 # Zoroastrisme

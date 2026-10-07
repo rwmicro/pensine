@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Tok Pisin > 02-Communication"
 tags: [sciences-sociales, langues, tok-pisin, survie, communication]
 date: "2026-03-27"
+prerequis: ["[[Social Sciences/Languages - Dialects/Tok Pisin/02-Communication/Salutations]]"]
 ---
 # Phrases Essentielles — Tok Pisin
 

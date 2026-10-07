@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Roumain > 01-Phonologie"
 tags: [sciences-sociales, langues, roumain, phonologie, prononciation, alphabet]
 date: "2026-04-01"
+parcours: "Roumain : des premiers mots à la culture"
 ---
 # Prononciation — Roumain
 

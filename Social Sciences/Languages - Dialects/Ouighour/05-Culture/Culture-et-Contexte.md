@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Ouighour > 05-Culture"
 tags: [sciences-sociales, langues, ouighour, culture]
 date: "2026-07-30"
+prerequis: ["[[Social Sciences/Languages - Dialects/Ouighour/02-Communication/Registres]]", "[[Social Sciences/Languages - Dialects/Ouighour/02-Communication/Situations]]"]
 ---
 # Culture et contexte : comprendre le monde ouïghour
 

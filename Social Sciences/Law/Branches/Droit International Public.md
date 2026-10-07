@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Law > Branches"
 tags: [sciences-sociales, droit, droit-international, ONU, traités, droits-de-l-homme]
 date: "2026-04-18"
+prerequis: ["[[Social Sciences/Law/Branches/Droit Constitutionnel]]"]
 ---
 
 # Droit International Public

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Litterature > Périodes"
 tags: [sciences-sociales, littérature, moyen-âge, chanson-de-geste, roman-courtois, dante]
 date: "2026-04-18"
+prerequis: ["[[Social Sciences/Litterature/Périodes/Antiquité Classique]]"]
 ---
 
 # Moyen Âge (Ve-XVe siècle)

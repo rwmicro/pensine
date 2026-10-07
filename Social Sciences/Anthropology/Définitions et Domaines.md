@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Anthropology"
 tags: [sciences-sociales, anthropologie, ethnologie, ethnographie]
 date: "2026-04-18"
+parcours: "Anthropologie : de la discipline au terrain"
 ---
 
 # Définitions et Domaines de l'Anthropologie

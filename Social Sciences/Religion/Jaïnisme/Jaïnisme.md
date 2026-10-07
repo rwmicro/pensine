@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Religion > Jaïnisme"
 tags: [sciences-sociales, religion, jaïnisme, inde, mahavira, ahimsa, non-violence]
 date: "2026-09-28"
+prerequis: ["[[Social Sciences/Religion/Hindouisme/Hindouisme]]"]
 ---
 
 # Jaïnisme

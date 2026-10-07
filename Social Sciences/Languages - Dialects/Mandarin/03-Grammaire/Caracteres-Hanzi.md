@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Mandarin > 03-Grammaire"
 tags: [sciences-sociales, langues, mandarin, chinois, hanzi, caracteres, ecriture, radicaux]
 date: "2026-04-28"
+prerequis: ["[[Social Sciences/Languages - Dialects/Mandarin/03-Grammaire/Grammaire]]"]
 ---
 # Caractères Chinois (Hanzi) — Mandarin
 

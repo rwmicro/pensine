@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Biology > Human"
 tags: [sciences-appliquées, biologie, biologie-humaine]
 date: "2026-02-28"
+prerequis: ["[[Applied Sciences/Biology/Domaines/Évolution]]"]
 ---
 # Évolution Humaine
 

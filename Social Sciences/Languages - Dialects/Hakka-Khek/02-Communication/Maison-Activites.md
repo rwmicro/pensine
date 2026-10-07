@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Daily-Life"
 tags: [sciences-sociales, langues, hakka]
 date: "2025-12-31"
+prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/02-Communication/Phrases-Essentielles]]"]
 ---
 # Home and Daily Activities
 ## Asking Where Someone Is

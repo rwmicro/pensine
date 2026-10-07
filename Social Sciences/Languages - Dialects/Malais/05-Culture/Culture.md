@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Malais > 05-Culture"
 tags: [sciences-sociales, langues, malais, malaisian, culture, malaisie]
 date: "2026-04-01"
+prerequis: ["[[Social Sciences/Languages - Dialects/Malais/02-Communication/Registres]]", "[[Social Sciences/Languages - Dialects/Malais/02-Communication/Situations]]"]
 ---
 # Culture — Malaisie et Bahasa Malaysia
 

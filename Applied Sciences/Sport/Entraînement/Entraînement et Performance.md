@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Sport > Entraînement"
 tags: [sciences-appliquées, sport]
 date: "2026-03-05"
+prerequis: ["[[Applied Sciences/Sport/Physiologie/Physiologie de l'Exercice]]"]
 ---
 
 # Entraînement et Performance

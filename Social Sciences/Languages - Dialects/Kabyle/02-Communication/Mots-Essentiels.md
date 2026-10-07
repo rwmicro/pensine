@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Kabyle"
 tags: [sciences-sociales, langues, kabyle]
 date: "2026-02-04"
+prerequis: ["[[Social Sciences/Languages - Dialects/Kabyle/02-Communication/Phrases-Essentielles]]"]
 ---
 # Mots Utiles en Kabyle
 

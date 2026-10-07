@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Espagnol > 05-Culture"
 tags: [sciences-sociales, langues, espagnol, spanish, culture, espagne, amerique-latine]
 date: "2026-04-23"
+prerequis: ["[[Social Sciences/Languages - Dialects/Espagnol/02-Communication/Registres]]", "[[Social Sciences/Languages - Dialects/Espagnol/02-Communication/Situations]]"]
 ---
 # Culture — Monde Hispanophone
 

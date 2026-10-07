@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Religion > Religions traditionnelles"
 tags: [sciences-sociales, religion, anthropologie, animisme, chamanisme, siberie, amazonie, ontologies]
 date: "2026-09-28"
+prerequis: ["[[Social Sciences/Religion/Histoire des Religions]]"]
 ---
 
 # Animisme et Chamanisme

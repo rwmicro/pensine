@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Kabyle"
 tags: [sciences-sociales, langues, kabyle]
 date: "2025-06-26"
+prerequis: ["[[Social Sciences/Languages - Dialects/Kabyle/02-Communication/Registres]]", "[[Social Sciences/Languages - Dialects/Kabyle/03-Grammaire/Grammaire]]"]
 ---
 
 # Origines et identité

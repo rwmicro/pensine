@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Roumain > 02-Communication"
 tags: [sciences-sociales, langues, roumain, communication, salutations]
 date: "2026-04-01"
+prerequis: ["[[Social Sciences/Languages - Dialects/Roumain/01-Phonologie/Prononciation]]"]
 ---
 # Salutations — Roumain
 

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Allemand > 06-Ressources"
 tags: [sciences-sociales, langues, allemand, deutsch, ressources, apprentissage, goethe]
 date: "2026-04-28"
+prerequis: ["[[Social Sciences/Languages - Dialects/Allemand/05-Culture/Culture]]"]
 ---
 # Ressources — Allemand
 

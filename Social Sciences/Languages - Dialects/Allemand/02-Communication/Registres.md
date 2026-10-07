@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Allemand > 02-Communication"
 tags: [sciences-sociales, langues, allemand, deutsch, communication, registres, dialectes, sociolinguistique]
 date: "2026-04-28"
+prerequis: ["[[Social Sciences/Languages - Dialects/Allemand/02-Communication/Salutations]]"]
 ---
 # Registres de Langue — Allemand
 

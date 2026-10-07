@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Litterature > Périodes"
 tags: [sciences-sociales, littérature, classicisme, molière, racine, corneille, la-fontaine]
 date: "2026-04-18"
+prerequis: ["[[Social Sciences/Litterature/Périodes/Renaissance (XVe-XVIe siècle)]]"]
 ---
 
 # Classicisme (XVIIe siècle)

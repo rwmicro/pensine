@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Litterature > Périodes"
 tags: [sciences-sociales, littérature, renaissance, humanisme, shakespeare, rabelais, montaigne]
 date: "2026-04-18"
+prerequis: ["[[Social Sciences/Litterature/Périodes/Moyen Âge (Ve-XVe siècle)]]"]
 ---
 
 # Renaissance (XVe-XVIe siècle)

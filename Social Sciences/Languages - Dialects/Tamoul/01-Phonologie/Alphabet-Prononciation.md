@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Tamoul"
 tags: [sciences-sociales, langues]
 date: "2026-02-04"
+parcours: "Tamoul : des premiers mots à la culture"
 ---
 
 # Alphabet Tamoul (தமிழ் எழுத்துக்கள்)

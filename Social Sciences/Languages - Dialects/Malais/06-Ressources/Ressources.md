@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Malais > 06-Ressources"
 tags: [sciences-sociales, langues, malais, malaisian, ressources, apprentissage]
 date: "2026-04-01"
+prerequis: ["[[Social Sciences/Languages - Dialects/Malais/05-Culture/Culture]]"]
 ---
 # Ressources — Bahasa Malaysia
 

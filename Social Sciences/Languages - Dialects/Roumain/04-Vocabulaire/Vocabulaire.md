@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Roumain > 04-Vocabulaire"
 tags: [sciences-sociales, langues, roumain, vocabulaire]
 date: "2026-03-27"
+prerequis: ["[[Social Sciences/Languages - Dialects/Roumain/02-Communication/Phrases-Essentielles]]"]
 ---
 # Vocabulaire de Base — Roumain
 
