@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Anthropology > Branches"
 tags: [sciences-sociales, anthropologie]
 date: "2026-02-04"
+prerequis: ["[[Social Sciences/Anthropology/Définitions et Domaines]]"]
 ---
 
 # Anthropologie Physique et Biologique

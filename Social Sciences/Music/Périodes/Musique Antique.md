@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Music > Périodes"
 tags: [sciences-sociales, musique, antiquité, grèce, rome, pythagore, modes]
 date: "2026-04-18"
+prerequis: ["[[Social Sciences/Music/Théorie/Théorie Musicale Fondamentale]]"]
 ---
 
 # Musique Antique

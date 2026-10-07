@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Cinema"
 tags: [sciences-sociales, cinéma]
 date: "2026-02-22"
+prerequis: ["[[Social Sciences/Cinema/Cinéma Muet (1910-1930)]]"]
 ---
 
 # Âge d'Or Hollywoodien (1930-1960)

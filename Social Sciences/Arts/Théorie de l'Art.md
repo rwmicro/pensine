@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Arts"
 tags: [sciences-sociales, arts, esthétique, philosophie, critique-d'art]
 date: "2026-04-17"
+parcours: "Arts : de la Renaissance au surréalisme"
 ---
 
 # Théorie de l'Art

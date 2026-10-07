@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Anthropology"
 tags: [sciences-sociales, anthropologie]
 date: "2026-02-22"
+prerequis: ["[[Social Sciences/Anthropology/Définitions et Domaines]]"]
 ---
 # Histoire de la Discipline
 

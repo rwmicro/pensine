@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Ecology > Ecosystèmes"
 tags: [sciences-appliquées, écologie]
 date: "2026-02-22"
+prerequis: ["[[Applied Sciences/Ecology/Principes Fondamentaux]]"]
 ---
 
 # Niveaux d'Organisation

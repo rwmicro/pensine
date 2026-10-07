@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Mandarin > 04-Vocabulaire"
 tags: [sciences-sociales, langues, mandarin, chinois, classificateurs, mots-mesure, grammaire]
 date: "2026-04-28"
+prerequis: ["[[Social Sciences/Languages - Dialects/Mandarin/04-Vocabulaire/Vocabulaire]]"]
 ---
 # Classificateurs (Mots de Mesure) — Mandarin
 

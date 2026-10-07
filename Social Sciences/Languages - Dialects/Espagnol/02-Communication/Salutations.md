@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Espagnol > 02-Communication"
 tags: [sciences-sociales, langues, espagnol, spanish, communication, salutations]
 date: "2026-04-23"
+prerequis: ["[[Social Sciences/Languages - Dialects/Espagnol/01-Phonologie/Alphabet-Prononciation]]"]
 ---
 # Salutations — Espagnol
 

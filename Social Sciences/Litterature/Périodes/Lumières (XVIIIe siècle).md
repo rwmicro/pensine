@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Litterature > Périodes"
 tags: [sciences-sociales, littérature, lumières, voltaire, rousseau, diderot, encyclopédie]
 date: "2026-04-18"
+prerequis: ["[[Social Sciences/Litterature/Périodes/Classicisme (XVIIe siècle)]]"]
 ---
 
 # Lumières (XVIIIe siècle)

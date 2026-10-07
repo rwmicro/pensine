@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Theatre > Mouvements"
 tags: [sciences-sociales, théâtre]
 date: "2026-02-22"
+prerequis: ["[[Social Sciences/Theatre/Histoire du Théâtre]]"]
 ---
 
 # Grands Mouvements Théâtraux

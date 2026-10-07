@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Theatre"
 tags: [sciences-sociales, théâtre]
 date: "2026-02-22"
+prerequis: ["[[Social Sciences/Theatre/Le Métier d'Acteur]]"]
 ---
 
 # Institutions et Formation

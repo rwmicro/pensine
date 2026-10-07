@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Ouighour > 01-Phonologie"
 tags: [sciences-sociales, langues, ouighour, phonologie]
 date: "2026-07-30"
+prerequis: ["[[Social Sciences/Languages - Dialects/Ouighour/01-Phonologie/02-Prononciation]]"]
 ---
 # Tons et intonation : lever une méprise fréquente
 

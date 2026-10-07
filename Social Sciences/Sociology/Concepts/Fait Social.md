@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology > Concepts"
 tags: [sciences-sociales, sociologie, durkheim, fait-social, méthode]
 date: "2026-08-08"
+prerequis: ["[[Social Sciences/Sociology/Fondateurs/Émile Durkheim]]"]
 ---
 
 # Fait Social

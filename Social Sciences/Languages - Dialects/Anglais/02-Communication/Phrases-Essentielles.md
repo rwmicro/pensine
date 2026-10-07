@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Anglais > 02-Communication"
 tags: [sciences-sociales, langues, anglais, survie, communication]
 date: "2026-03-27"
+prerequis: ["[[Social Sciences/Languages - Dialects/Anglais/01-Phonologie/Prononciation]]"]
 ---
 # Phrases Essentielles — Anglais
 

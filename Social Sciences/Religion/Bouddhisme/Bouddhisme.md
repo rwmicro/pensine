@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Religion > Bouddhisme"
 tags: [sciences-sociales, religion, bouddhisme, bouddha, dharma, méditation]
 date: "2026-04-18"
+prerequis: ["[[Social Sciences/Religion/Hindouisme/Hindouisme]]"]
 ---
 
 # Bouddhisme

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Ecology > Biodiversité"
 tags: [sciences-appliquées, écologie]
 date: "2026-03-20"
+prerequis: ["[[Applied Sciences/Ecology/Ecosystèmes/Écosystèmes Majeurs]]"]
 ---
 
 # Hotspots de Biodiversité et Biomes

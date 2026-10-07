@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Cinema"
 tags: [sciences-sociales, cinéma]
 date: "2026-02-22"
+prerequis: ["[[Social Sciences/Cinema/Invention et Naissance (1895-1910)]]"]
 ---
 
 # Cinéma Muet (1910-1930)

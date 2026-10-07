@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hindi > 02-Communication"
 tags: [sciences-sociales, langues, hindi, registres, politesse]
 date: "2026-03-27"
+prerequis: ["[[Social Sciences/Languages - Dialects/Hindi/02-Communication/Salutations]]"]
 ---
 # Registres du Hindi — तू / तुम / आप
 

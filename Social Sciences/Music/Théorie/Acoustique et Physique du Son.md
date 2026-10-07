@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Music > Théorie"
 tags: [sciences-sociales, musique]
 date: "2026-02-22"
+prerequis: ["[[Social Sciences/Music/Théorie/Théorie Musicale Fondamentale]]"]
 ---
 
 # Acoustique et Physique du Son

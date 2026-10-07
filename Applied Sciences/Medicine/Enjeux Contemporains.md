@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Medicine"
 tags: [sciences-appliquées, médecine, santé-publique, éthique]
 date: "2026-02-22"
+prerequis: ["[[Applied Sciences/Medicine/Recherche Médicale Moderne]]"]
 ---
 
 # Enjeux Contemporains en Médecine

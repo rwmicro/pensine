@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Law > Systèmes Juridiques"
 tags: [sciences-sociales, droit, droit-coutumier, droit-socialiste, systèmes-mixtes, pluralisme-juridique]
 date: "2026-04-18"
+prerequis: ["[[Social Sciences/Law/Systèmes Juridiques/Common Law (Droit Anglo-Saxon)]]", "[[Social Sciences/Law/Systèmes Juridiques/Droit Musulman (Charia)]]"]
 ---
 # Autres Systèmes Juridiques
 

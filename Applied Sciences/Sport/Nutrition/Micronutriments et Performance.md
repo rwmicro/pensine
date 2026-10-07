@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Sport > Nutrition"
 tags: [sciences-appliquées, sport]
 date: "2026-03-20"
+prerequis: ["[[Applied Sciences/Sport/Nutrition/Nutrition Sportive]]"]
 ---
 
 # Micronutriments et Performance Sportive

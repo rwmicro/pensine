@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Music > Théorie"
 tags: [sciences-sociales, musique]
 date: "2026-02-22"
+parcours: "Musique : de la théorie aux grandes périodes"
 ---
 
 # Théorie Musicale Fondamentale

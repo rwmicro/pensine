@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology"
 tags: [sciences-sociales, sociologie, comte, durkheim, weber, méthode]
 date: "2026-04-18"
+parcours: "Sociologie : des fondateurs aux grandes thématiques"
 ---
 
 # Fondements de la Sociologie

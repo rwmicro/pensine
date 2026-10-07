@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Biology > Human"
 tags: [sciences-appliquées, biologie, biologie-humaine]
 date: "2025-05-04"
+prerequis: ["[[Applied Sciences/Biology/Domaines/Neurobiologie]]"]
 ---
 
 # Maladie d'Alzheimer

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Tok Pisin > 06-Ressources"
 tags: [sciences-sociales, langues, tok-pisin, papua-nouvelle-guinee, ressources, apprentissage]
 date: "2026-04-01"
+prerequis: ["[[Social Sciences/Languages - Dialects/Tok Pisin/05-Culture/Culture]]"]
 ---
 # Ressources — Tok Pisin
 

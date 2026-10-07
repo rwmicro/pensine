@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Biology"
 tags: [sciences-appliquées, biologie]
 date: "2024-09-13"
+prerequis: ["[[Applied Sciences/Biology/Domaines/Biochimie]]"]
 ---
 # Les Acides Aminés
 

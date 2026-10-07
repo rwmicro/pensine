@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Echecs > Stratégie"
 tags: [sciences-appliquées, échecs]
 date: "2026-03-20"
+prerequis: ["[[Applied Sciences/Echecs/Stratégie/Stratégie Positionnelle]]", "[[Applied Sciences/Echecs/Tactiques/Puzzles et Entraînement Tactique]]"]
 ---
 
 # Attaque au Roi

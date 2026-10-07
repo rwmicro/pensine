@@ -5,6 +5,7 @@ subdomain: "Religion > Islam"
 tags: [sciences-sociales, religion, islam, sunnisme, chiisme, soufisme, salafisme]
 date: "2025-12-31"
 updated: "2026-09-15"
+prerequis: ["[[Social Sciences/Religion/Islam/Islam]]"]
 ---
 
 # Les Branches de l'Islam

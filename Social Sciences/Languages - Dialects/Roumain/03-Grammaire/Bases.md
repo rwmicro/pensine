@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Roumain"
 tags: [sciences-sociales, langues, roumain]
 date: "2025-12-31"
+prerequis: ["[[Social Sciences/Languages - Dialects/Roumain/02-Communication/Phrases-Essentielles]]"]
 ---
 
 # Les Bases du Roumain

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Kabyle > 06-Ressources"
 tags: [sciences-sociales, langues, kabyle, taqbaylit, ressources, apprentissage, berbère]
 date: "2026-04-01"
+prerequis: ["[[Social Sciences/Languages - Dialects/Kabyle/05-Culture/Culture]]"]
 ---
 # Ressources — Kabyle (Taqbaylit)
 

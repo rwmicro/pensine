@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Biology > Domaines"
 tags: [sciences-appliquées, biologie, génétique, adn, hérédité, crispr]
 date: "2026-02-22"
+prerequis: ["[[Applied Sciences/Biology/Domaines/Biologie Cellulaire]]"]
 ---
 # Génétique
 

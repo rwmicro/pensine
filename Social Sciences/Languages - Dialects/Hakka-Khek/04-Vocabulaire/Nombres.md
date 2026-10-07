@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Essentials"
 tags: [sciences-sociales, langues, hakka]
 date: "2026-09-02"
+prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/04-Vocabulaire/Mots-Essentiels]]"]
 ---
 # Numbers in Hakka
 

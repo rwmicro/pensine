@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Medicine"
 tags: [sciences-appliquées, médecine]
 date: "2026-02-22"
+prerequis: ["[[Applied Sciences/Medicine/Génétique Médicale]]", "[[Applied Sciences/Medicine/Pharmacologie]]", "[[Applied Sciences/Medicine/Immunologie]]"]
 ---
 
 # Recherche Médicale Moderne

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Cinema"
 tags: [sciences-sociales, cinéma]
 date: "2026-02-22"
+parcours: "Cinéma : de l'invention au contemporain"
 ---
 
 # Invention et Naissance (1895-1910)

@@ -5,6 +5,7 @@ subdomain: "Religion > Christianisme"
 tags: [sciences-sociales, religion, christianisme, catholicisme, orthodoxie, protestantisme, oecumenisme]
 date: "2025-12-31"
 updated: "2026-09-15"
+prerequis: ["[[Social Sciences/Religion/Christianisme/Christianisme]]"]
 ---
 
 # Les Branches du Christianisme

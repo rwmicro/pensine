@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Ouighour > 03-Grammaire"
 tags: [sciences-sociales, langues, ouighour, grammaire, syntaxe]
 date: "2026-08-20"
+prerequis: ["[[Social Sciences/Languages - Dialects/Ouighour/03-Grammaire/03-Verbes-et-Conjugaison]]"]
 ---
 # Syntaxe : l'architecture de la phrase ouïghoure
 

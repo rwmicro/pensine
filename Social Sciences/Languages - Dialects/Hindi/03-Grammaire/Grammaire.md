@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hindi"
 tags: [sciences-sociales, langues, hindi]
 date: "2025-12-31"
+prerequis: ["[[Social Sciences/Languages - Dialects/Hindi/02-Communication/Phrases-Essentielles]]"]
 ---
 
 # Grammaire Hindi

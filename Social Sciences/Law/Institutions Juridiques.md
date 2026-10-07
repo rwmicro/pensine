@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Law"
 tags: [sciences-sociales, droit]
 date: "2026-03-05"
+prerequis: ["[[Social Sciences/Law/Bases du Droit]]"]
 ---
 # Institutions Juridiques
 

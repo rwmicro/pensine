@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Essentials"
 tags: [sciences-sociales, langues, hakka]
 date: "2026-09-03"
+prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/02-Communication/Phrases-Essentielles]]"]
 ---
 # How to Introduce Yourself in Hakka
 ## Example Introduction

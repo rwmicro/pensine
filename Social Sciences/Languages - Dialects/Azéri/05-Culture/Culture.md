@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Azéri > 05-Culture"
 tags: [sciences-sociales, langues, azeri, azerbaijani, culture, azerbaidjan, caucase]
 date: "2026-04-22"
+prerequis: ["[[Social Sciences/Languages - Dialects/Azéri/02-Communication/Registres]]", "[[Social Sciences/Languages - Dialects/Azéri/02-Communication/Situations]]"]
 ---
 # Culture — Azerbaïdjan et Langue Azérie
 

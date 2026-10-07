@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Litterature > Périodes"
 tags: [sciences-sociales, littérature, antiquité, grèce, rome, homère, tragédie]
 date: "2026-04-18"
+parcours: "Littérature : les grandes périodes"
 ---
 # Antiquité Classique
 

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology"
 tags: [sciences-sociales, sociologie]
 date: "2026-02-22"
+prerequis: ["[[Social Sciences/Sociology/Fondements de la Sociologie]]"]
 ---
 
 # Les Pères Fondateurs

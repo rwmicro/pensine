@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Religion > Taoïsme"
 tags: [sciences-sociales, religion, taoïsme, chine, maîtres-célestes, alchimie, immortalité]
 date: "2026-09-28"
+prerequis: ["[[Social Sciences/Religion/Confucianisme/Confucianisme]]"]
 ---
 
 # Taoïsme

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Arts > Artistes"
 tags: [sciences-sociales, arts, renaissance, sculpture, peinture, architecture]
 date: "2026-04-17"
+prerequis: ["[[Social Sciences/Arts/Théorie de l'Art]]"]
 ---
 
 # Michel-Ange (1475-1564)

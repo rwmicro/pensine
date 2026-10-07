@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Anthropology > Anthropologues"
 tags: [sciences-sociales, anthropologie]
 date: "2026-02-04"
+prerequis: ["[[Social Sciences/Anthropology/Branches/Anthropologie Sociale]]"]
 ---
 
 # Claude Lévi-Strauss (1908-2009)

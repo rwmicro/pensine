@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Allemand > 01-Phonologie"
 tags: [sciences-sociales, langues, allemand, deutsch, phonologie, alphabet, prononciation]
 date: "2026-04-28"
+parcours: "Allemand : des premiers mots à la culture"
 ---
 # Alphabet et Prononciation — Allemand
 

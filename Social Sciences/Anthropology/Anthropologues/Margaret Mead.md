@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Anthropology > Anthropologues"
 tags: [sciences-sociales, anthropologie, mead, genre, culture-et-personnalité, océanie]
 date: "2026-04-18"
+prerequis: ["[[Social Sciences/Anthropology/Branches/Anthropologie Culturelle]]"]
 ---
 
 # Margaret Mead (1901-1978)

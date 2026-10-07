@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Kabyle > 02-Communication"
 tags: [sciences-sociales, langues, kabyle, taqbaylit, communication, salutations, berbère]
 date: "2026-04-01"
+prerequis: ["[[Social Sciences/Languages - Dialects/Kabyle/01-Phonologie/Alphabet-Prononciation]]"]
 ---
 # Salutations - Kabyle (Taqbaylit)
 

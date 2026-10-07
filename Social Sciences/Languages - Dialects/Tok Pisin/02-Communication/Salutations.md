@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Tok Pisin > 02-Communication"
 tags: [sciences-sociales, langues, tok-pisin, papua-nouvelle-guinee, communication, salutations]
 date: "2026-04-01"
+prerequis: ["[[Social Sciences/Languages - Dialects/Tok Pisin/01-Phonologie/Prononciation]]"]
 ---
 # Salutations — Tok Pisin
 

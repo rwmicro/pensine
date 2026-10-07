@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Grammar"
 tags: [sciences-sociales, langues, hakka]
 date: "2026-09-03"
+prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/02-Communication/Phrases-Essentielles]]"]
 ---
 # Sentence Patterns and Grammar
 ## Basic Sentence Structure

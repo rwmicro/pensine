@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Mandarin > 05-Culture"
 tags: [sciences-sociales, langues, mandarin, chinois, culture, chine, taiwan, philosophie]
 date: "2026-04-28"
+prerequis: ["[[Social Sciences/Languages - Dialects/Mandarin/02-Communication/Registres]]", "[[Social Sciences/Languages - Dialects/Mandarin/02-Communication/Situations]]"]
 ---
 # Culture — Chine et Monde Sinophone
 

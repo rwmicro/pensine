@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Linguistics > Familles de Langues"
 tags: [sciences-sociales, linguistique]
 date: "2026-02-22"
+prerequis: ["[[Social Sciences/Linguistics/Branches/Linguistique Historique]]"]
 ---
 
 # Familles de Langues

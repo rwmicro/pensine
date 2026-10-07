@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Tok Pisin > 05-Culture"
 tags: [sciences-sociales, langues, tok-pisin, papua-nouvelle-guinee, culture, melanesie, creole]
 date: "2026-04-01"
+prerequis: ["[[Social Sciences/Languages - Dialects/Tok Pisin/02-Communication/Registres]]", "[[Social Sciences/Languages - Dialects/Tok Pisin/03-Grammaire/Tok-Pisin-Complet]]"]
 ---
 # Culture — Tok Pisin et Papouasie-Nouvelle-Guinée
 

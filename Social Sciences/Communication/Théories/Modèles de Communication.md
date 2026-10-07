@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Communication > Théories"
 tags: [sciences-sociales, communication, shannon, jakobson, palo-alto]
 date: "2026-02-22"
+parcours: "Communication : des modèles à la rhétorique"
 ---
 
 # Modèles de Communication

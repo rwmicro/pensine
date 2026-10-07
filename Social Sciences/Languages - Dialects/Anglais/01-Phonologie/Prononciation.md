@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Anglais > 01-Phonologie"
 tags: [sciences-sociales, langues, anglais, phonologie, prononciation]
 date: "2026-03-27"
+parcours: "Anglais : des premiers mots à la culture"
 ---
 # Phonologie et Prononciation — Anglais
 

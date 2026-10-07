@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Communication > Types"
 tags: [sciences-sociales, communication]
 date: "2026-02-22"
+prerequis: ["[[Social Sciences/Communication/Types/Communication Interpersonnelle]]"]
 ---
 
 # Communication Organisationnelle

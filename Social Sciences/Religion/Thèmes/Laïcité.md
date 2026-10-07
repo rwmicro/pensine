@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Religion > Thèmes"
 tags: [sciences-sociales, religion, laicite, secularisation, secularisme, loi-1905, droit, france]
 date: "2026-09-28"
+prerequis: ["[[Social Sciences/Religion/Thèmes/Athéisme et Agnosticisme]]"]
 ---
 
 # Laïcité

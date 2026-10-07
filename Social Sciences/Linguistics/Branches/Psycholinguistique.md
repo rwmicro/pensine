@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Linguistics > Branches"
 tags: [sciences-sociales, linguistique]
 date: "2026-02-22"
+prerequis: ["[[Social Sciences/Linguistics/Linguistes/Noam Chomsky]]", "[[Social Sciences/Linguistics/Branches/Sémantique et Pragmatique]]"]
 ---
 
 # Psycholinguistique

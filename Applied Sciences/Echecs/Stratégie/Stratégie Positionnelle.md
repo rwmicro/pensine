@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Echecs > Stratégie"
 tags: [sciences-appliquées, échecs]
 date: "2026-02-22"
+prerequis: ["[[Applied Sciences/Echecs/Tactiques/Milieu de Partie et Tactiques]]"]
 ---
 
 # Stratégie Positionnelle

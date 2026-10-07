@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Malais > 02-Communication"
 tags: [sciences-sociales, langues, malais, survie, communication]
 date: "2026-03-27"
+prerequis: ["[[Social Sciences/Languages - Dialects/Malais/02-Communication/Salutations]]"]
 ---
 # Phrases Essentielles — Malais (Bahasa Melayu)
 

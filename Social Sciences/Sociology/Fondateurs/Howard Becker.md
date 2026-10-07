@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology > Fondateurs"
 tags: [sciences-sociales, sociologie, becker, interactionnisme, etiquetage, mondes-de-l-art, ecole-de-chicago]
 date: "2026-09-28"
+prerequis: ["[[Social Sciences/Sociology/Courants/Interactionnisme Symbolique]]"]
 ---
 
 # Howard Becker (1928-2023)

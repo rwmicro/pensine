@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Law > Systèmes Juridiques"
 tags: [sciences-sociales, droit, civil-law, droit-romain, codification, napoléon]
 date: "2026-04-18"
+prerequis: ["[[Social Sciences/Law/Sources du Droit]]"]
 ---
 # Civil Law (Droit Romano-Germanique)
 

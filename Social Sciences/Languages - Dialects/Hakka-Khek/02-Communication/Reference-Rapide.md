@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Resources"
 tags: [sciences-sociales, langues, hakka]
 date: "2025-12-31"
+prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/02-Communication/Phrases-Essentielles]]"]
 ---
 # Hakka Quick Reference Guide
 

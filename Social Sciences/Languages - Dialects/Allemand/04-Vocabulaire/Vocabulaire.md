@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Allemand > 04-Vocabulaire"
 tags: [sciences-sociales, langues, allemand, deutsch, vocabulaire]
 date: "2026-04-28"
+prerequis: ["[[Social Sciences/Languages - Dialects/Allemand/02-Communication/Phrases-Essentielles]]"]
 ---
 # Vocabulaire — Allemand
 

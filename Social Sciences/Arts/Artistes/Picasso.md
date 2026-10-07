@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Arts > Artistes"
 tags: [sciences-sociales, arts, art-moderne, cubisme, peinture, sculpture]
 date: "2026-04-17"
+prerequis: ["[[Social Sciences/Arts/Mouvements/Impressionnisme]]"]
 ---
 
 # Pablo Picasso (1881-1973)

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Tok Pisin > 02-Communication"
 tags: [sciences-sociales, langues, tok-pisin, registres, sociolinguistique]
 date: "2026-03-27"
+prerequis: ["[[Social Sciences/Languages - Dialects/Tok Pisin/02-Communication/Salutations]]"]
 ---
 # Registres du Tok Pisin
 
