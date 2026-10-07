@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Malais > 01-Phonologie"
 tags: [sciences-sociales, langues, malais, phonologie, prononciation]
 date: "2026-03-27"
+parcours: "Malais : des premiers mots à la culture"
 ---
 # Prononciation — Malais (Bahasa Melayu)
 

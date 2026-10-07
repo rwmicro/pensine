@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Tamoul > 06-Ressources"
 tags: [sciences-sociales, langues, tamil, ressources, apprentissage]
 date: "2026-04-01"
+prerequis: ["[[Social Sciences/Languages - Dialects/Tamoul/05-Culture/Culture]]"]
 ---
 # Ressources — Tamil
 

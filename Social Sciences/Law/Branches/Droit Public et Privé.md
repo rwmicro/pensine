@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Law > Branches"
 tags: [sciences-sociales, droit, droit-public, droit-privé]
 date: "2026-04-16"
+prerequis: ["[[Social Sciences/Law/Sources du Droit]]"]
 ---
 
 # Droit Public vs Droit Privé

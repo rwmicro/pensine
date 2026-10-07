@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology"
 tags: [sciences-sociales, sociologie, méthodes, enquête, terrain, statistiques]
 date: "2026-04-18"
+prerequis: ["[[Social Sciences/Sociology/Fondements de la Sociologie]]"]
 ---
 
 # Méthodes de Recherche en Sociologie

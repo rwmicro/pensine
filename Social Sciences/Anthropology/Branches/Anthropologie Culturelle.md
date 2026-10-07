@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Anthropology > Branches"
 tags: [sciences-sociales, anthropologie]
 date: "2026-02-04"
+prerequis: ["[[Social Sciences/Anthropology/Concepts/Culture]]", "[[Social Sciences/Anthropology/Anthropologues/Franz Boas]]"]
 ---
 
 # Anthropologie Culturelle

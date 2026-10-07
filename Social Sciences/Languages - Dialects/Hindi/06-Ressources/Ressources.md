@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hindi > 06-Ressources"
 tags: [sciences-sociales, langues, hindi, ressources, apprentissage]
 date: "2026-04-01"
+prerequis: ["[[Social Sciences/Languages - Dialects/Hindi/05-Culture/Culture]]"]
 ---
 # Ressources — Hindi
 

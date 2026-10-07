@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Law > Branches"
 tags: [sciences-sociales, droit, droit-du-travail, contrat, salariat, syndicats]
 date: "2026-04-18"
+prerequis: ["[[Social Sciences/Law/Branches/Droit Civil]]"]
 ---
 
 # Droit du Travail

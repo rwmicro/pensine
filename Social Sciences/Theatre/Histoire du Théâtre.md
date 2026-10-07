@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Theatre"
 tags: [sciences-sociales, théâtre]
 date: "2026-03-05"
+parcours: "Théâtre : de l'histoire à la scène"
 ---
 
 # Histoire du Théâtre

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > 02-Communication"
 tags: [sciences-sociales, langues, hakka, survie, communication]
 date: "2026-09-03"
+prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/02-Communication/Salutations]]"]
 ---
 # Essential Phrases — Hakka (West Kalimantan / Pontianak)
 

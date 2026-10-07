@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Religion > Hindouisme"
 tags: [sciences-sociales, religion, hindouisme, inde, dharma, karma, vedas]
 date: "2026-04-18"
+prerequis: ["[[Social Sciences/Religion/Histoire des Religions]]"]
 ---
 
 # Hindouisme

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Anthropology"
 tags: [sciences-sociales, anthropologie]
 date: "2026-02-28"
+prerequis: ["[[Social Sciences/Anthropology/Branches/Anthropologie Physique]]"]
 ---
 # Les Espèces du Genre Homo
 

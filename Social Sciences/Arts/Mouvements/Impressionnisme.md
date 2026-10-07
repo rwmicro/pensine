@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Arts > Mouvements"
 tags: [sciences-sociales, arts, impressionnisme, monet, art-moderne]
 date: "2026-02-04"
+prerequis: ["[[Social Sciences/Arts/Artistes/Rembrandt]]"]
 ---
 
 # Impressionnisme

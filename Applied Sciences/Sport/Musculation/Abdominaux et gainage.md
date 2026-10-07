@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Sport > Musculation"
 tags: [sciences-appliquées, sport, musculation, core, gainage]
 date: "2025-05-04"
+prerequis: ["[[Applied Sciences/Sport/Musculation/Musculation et Force]]"]
 ---
 
 # Abdominaux et gainage

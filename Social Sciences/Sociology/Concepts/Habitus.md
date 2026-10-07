@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology > Concepts"
 tags: [sciences-sociales, sociologie]
 date: "2026-02-04"
+prerequis: ["[[Social Sciences/Sociology/Fondateurs/Pierre Bourdieu]]"]
 ---
 
 # Habitus

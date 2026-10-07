@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Communication > Types"
 tags: [sciences-sociales, communication]
 date: "2026-02-22"
+prerequis: ["[[Social Sciences/Communication/Rhétorique/Rhétorique et Argumentation]]", "[[Social Sciences/Communication/Sémiologie et Analyse de Discours]]"]
 ---
 
 # Communication Politique

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Ouighour > 01-Phonologie"
 tags: [sciences-sociales, langues, ouighour, phonologie, prononciation]
 date: "2026-07-30"
+prerequis: ["[[Social Sciences/Languages - Dialects/Ouighour/01-Phonologie/01-Alphabet]]"]
 ---
 # La prononciation : l'harmonie vocalique au cœur du système
 

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Arts > Mouvements"
 tags: [sciences-sociales, arts, cubisme, art-moderne, picasso, braque]
 date: "2026-04-17"
+prerequis: ["[[Social Sciences/Arts/Artistes/Picasso]]"]
 ---
 
 # Cubisme (1907-1920)

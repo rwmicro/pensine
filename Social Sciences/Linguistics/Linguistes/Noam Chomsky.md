@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Linguistics > Linguistes"
 tags: [sciences-sociales, linguistique]
 date: "2026-02-04"
+prerequis: ["[[Social Sciences/Linguistics/Branches/Syntaxe]]"]
 ---
 
 # Noam Chomsky (1928-)

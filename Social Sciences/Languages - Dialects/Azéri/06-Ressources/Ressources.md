@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Azéri > 06-Ressources"
 tags: [sciences-sociales, langues, azeri, azerbaijani, ressources, apprentissage]
 date: "2026-04-22"
+prerequis: ["[[Social Sciences/Languages - Dialects/Azéri/05-Culture/Culture]]"]
 ---
 # Ressources — Azéri
 

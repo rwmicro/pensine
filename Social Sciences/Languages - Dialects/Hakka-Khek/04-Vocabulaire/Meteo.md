@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Daily-Life"
 tags: [sciences-sociales, langues, hakka]
 date: "2026-08-21"
+prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/04-Vocabulaire/Mots-Essentiels]]"]
 ---
 # Weather and Temperature
 

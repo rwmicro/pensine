@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Roumain > 06-Ressources"
 tags: [sciences-sociales, langues, roumain, ressources, apprentissage]
 date: "2026-04-01"
+prerequis: ["[[Social Sciences/Languages - Dialects/Roumain/05-Culture/Culture]]"]
 ---
 # Ressources — Roumain
 

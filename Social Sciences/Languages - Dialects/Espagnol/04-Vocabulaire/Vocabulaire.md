@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Espagnol > 04-Vocabulaire"
 tags: [sciences-sociales, langues, espagnol, spanish, vocabulaire]
 date: "2026-04-23"
+prerequis: ["[[Social Sciences/Languages - Dialects/Espagnol/02-Communication/Phrases-Essentielles]]"]
 ---
 # Vocabulaire — Espagnol
 

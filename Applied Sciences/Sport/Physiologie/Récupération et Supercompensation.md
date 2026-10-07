@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Sport > Physiologie"
 tags: [sciences-appliquées, sport]
 date: "2026-03-20"
+prerequis: ["[[Applied Sciences/Sport/Entraînement/Entraînement et Performance]]"]
 ---
 
 # Récupération et Supercompensation

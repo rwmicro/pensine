@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Religion > Religions traditionnelles"
 tags: [sciences-sociales, religion, afrique, yoruba, vodun, akan, ancetres, divination, diaspora, candomble, vaudou, santeria]
 date: "2026-09-28"
+prerequis: ["[[Social Sciences/Religion/Religions traditionnelles/Animisme et Chamanisme]]"]
 ---
 
 # Religions traditionnelles africaines

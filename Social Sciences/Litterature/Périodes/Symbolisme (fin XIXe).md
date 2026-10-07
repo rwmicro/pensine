@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Litterature > Périodes"
 tags: [sciences-sociales, littérature, symbolisme, XIXe-siècle, poésie]
 date: "2026-04-16"
+prerequis: ["[[Social Sciences/Litterature/Périodes/Romantisme (fin XVIIIe-XIXe siècle)]]"]
 ---
 
 # Symbolisme (fin XIXe)

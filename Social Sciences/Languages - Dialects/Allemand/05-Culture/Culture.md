@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Allemand > 05-Culture"
 tags: [sciences-sociales, langues, allemand, deutsch, culture, allemagne, autriche, suisse]
 date: "2026-04-28"
+prerequis: ["[[Social Sciences/Languages - Dialects/Allemand/02-Communication/Registres]]", "[[Social Sciences/Languages - Dialects/Allemand/02-Communication/Situations]]"]
 ---
 # Culture — Monde Germanophone
 

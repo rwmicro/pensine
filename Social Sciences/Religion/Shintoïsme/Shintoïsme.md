@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Religion > Shintoïsme"
 tags: [sciences-sociales, religion, shintoïsme, japon, kami, sanctuaires, rites]
 date: "2026-09-28"
+prerequis: ["[[Social Sciences/Religion/Histoire des Religions]]"]
 ---
 
 # Shintoïsme

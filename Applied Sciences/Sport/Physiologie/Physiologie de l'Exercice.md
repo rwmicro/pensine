@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Sport > Physiologie"
 tags: [sciences-appliquées, sport]
 date: "2026-03-05"
+parcours: "Sport : de la physiologie à la musculation"
 ---
 
 # Physiologie de l'Exercice

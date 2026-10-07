@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Law > Systèmes Juridiques"
 tags: [sciences-sociales, droit, charia, fiqh, islam, droit-religieux]
 date: "2026-04-18"
+prerequis: ["[[Social Sciences/Law/Sources du Droit]]"]
 ---
 # Droit Musulman (Charia)
 

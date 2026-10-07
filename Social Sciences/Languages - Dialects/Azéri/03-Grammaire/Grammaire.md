@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Azéri > 03-Grammaire"
 tags: [sciences-sociales, langues, azeri, azerbaijani, grammaire, agglutination]
 date: "2026-04-22"
+prerequis: ["[[Social Sciences/Languages - Dialects/Azéri/02-Communication/Phrases-Essentielles]]"]
 ---
 # Grammaire — Azéri
 

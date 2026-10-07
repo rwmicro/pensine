@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Cinema > Théorie"
 tags: [sciences-sociales, cinéma]
 date: "2026-02-22"
+prerequis: ["[[Social Sciences/Cinema/Invention et Naissance (1895-1910)]]"]
 ---
 
 # Théorie et Langage du Cinéma

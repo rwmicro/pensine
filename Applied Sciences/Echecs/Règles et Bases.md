@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Echecs"
 tags: [sciences-appliquées, échecs]
 date: "2026-02-22"
+parcours: "Échecs : des règles aux finales"
 ---
 # Règles et Bases
 

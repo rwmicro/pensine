@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Resources"
 tags: [hakka, chanson, culture]
 date: "2026-09-03"
+prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/02-Communication/Registres]]", "[[Social Sciences/Languages - Dialects/Hakka-Khek/03-Grammaire/Structures-de-Phrase]]"]
 ---
 
 # Nyi ti ng ti mo ngai an thung sim

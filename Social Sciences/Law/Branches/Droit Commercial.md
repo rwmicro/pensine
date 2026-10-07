@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Law > Branches"
 tags: [sciences-sociales, droit, droit-commercial, droit-des-affaires]
 date: "2026-04-16"
+prerequis: ["[[Social Sciences/Law/Branches/Droit Civil]]"]
 ---
 # Droit Commercial (des Affaires)
 

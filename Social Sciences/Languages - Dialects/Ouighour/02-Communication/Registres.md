@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Ouighour > 02-Communication"
 tags: [sciences-sociales, langues, ouighour, communication, registres]
 date: "2026-08-20"
+prerequis: ["[[Social Sciences/Languages - Dialects/Ouighour/02-Communication/Salutations]]"]
 ---
 # Les registres de langue : nommer, adresser, respecter
 

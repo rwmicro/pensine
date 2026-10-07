@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Allemand > 02-Communication"
 tags: [sciences-sociales, langues, allemand, deutsch, communication, dialogues, situations]
 date: "2026-04-28"
+prerequis: ["[[Social Sciences/Languages - Dialects/Allemand/02-Communication/Phrases-Essentielles]]", "[[Social Sciences/Languages - Dialects/Allemand/04-Vocabulaire/Vocabulaire]]"]
 ---
 # Dialogues en Situation — Allemand
 

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Sport > Musculation"
 tags: [sciences-appliquées, sport, musculation]
 date: "2026-02-04"
+prerequis: ["[[Applied Sciences/Sport/Entraînement/Entraînement et Performance]]"]
 ---
 
 # Musculation

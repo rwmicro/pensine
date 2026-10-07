@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Arts > Mouvements"
 tags: [sciences-sociales, arts, surréalisme, art-moderne, breton, dalí, magritte]
 date: "2026-04-17"
+prerequis: ["[[Social Sciences/Arts/Mouvements/Cubisme]]"]
 ---
 
 # Surréalisme (1924-1966)

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Azéri > 02-Communication"
 tags: [sciences-sociales, langues, azeri, azerbaijani, communication, dialogues, situations]
 date: "2026-04-22"
+prerequis: ["[[Social Sciences/Languages - Dialects/Azéri/02-Communication/Phrases-Essentielles]]", "[[Social Sciences/Languages - Dialects/Azéri/04-Vocabulaire/Vocabulaire]]"]
 ---
 # Dialogues en Situation — Azéri
 

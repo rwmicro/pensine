@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Sport > Musculation"
 tags: [sciences-appliquées, sport, musculation, nutrition, alimentation]
 date: "2026-04-16"
+prerequis: ["[[Applied Sciences/Sport/Nutrition/Nutrition Sportive]]", "[[Applied Sciences/Sport/Musculation/Musculation]]"]
 ---
 
 # Alimentation et musculation

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Ecology"
 tags: [sciences-appliquées, écologie]
 date: "2026-02-22"
+parcours: "Écologie : des écosystèmes au climat"
 ---
 
 # Principes Fondamentaux

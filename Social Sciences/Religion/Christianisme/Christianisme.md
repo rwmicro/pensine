@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Religion > Christianisme"
 tags: [sciences-sociales, religion, christianisme, jésus, bible, trinité]
 date: "2026-04-18"
+prerequis: ["[[Social Sciences/Religion/Judaisme/Judaïsme]]"]
 ---
 
 # Christianisme

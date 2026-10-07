@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Anthropology"
 tags: [sciences-sociales, anthropologie, préhistoire, cognition, langage, sapiens]
 date: "2026-04-18"
+prerequis: ["[[Social Sciences/Anthropology/Les Espèces du Genre Homo]]"]
 ---
 # La Révolution Cognitive (~70 000 ans)
 

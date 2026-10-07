@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Mandarin > 04-Vocabulaire"
 tags: [sciences-sociales, langues, mandarin, chinois, vocabulaire]
 date: "2026-04-28"
+prerequis: ["[[Social Sciences/Languages - Dialects/Mandarin/02-Communication/Phrases-Essentielles]]"]
 ---
 # Vocabulaire — Mandarin
 

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Linguistics > Branches"
 tags: [sciences-sociales, linguistique]
 date: "2026-02-22"
+prerequis: ["[[Social Sciences/Linguistics/Branches/Phonétique et Phonologie]]"]
 ---
 
 # Morphologie

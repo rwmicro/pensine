@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Communication"
 tags: [sciences-sociales, communication, sémiologie, signe, discours]
 date: "2026-02-22"
+prerequis: ["[[Social Sciences/Communication/Théories/Modèles de Communication]]"]
 ---
 
 # Sémiologie et Analyse de Discours

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Anglais > Accents"
 tags: [sciences-sociales, langues, anglais]
 date: "2025-06-26"
+prerequis: ["[[Social Sciences/Languages - Dialects/Anglais/02-Communication/Registres]]", "[[Social Sciences/Languages - Dialects/Anglais/02-Communication/Situations]]"]
 ---
 # Received Pronunciation (RP)
 

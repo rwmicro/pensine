@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Essentials"
 tags: [sciences-sociales, langues, hakka]
 date: "2025-12-31"
+prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/01-Phonologie/Prononciation-Tons]]"]
 ---
 # Greetings and Basic Politeness
 

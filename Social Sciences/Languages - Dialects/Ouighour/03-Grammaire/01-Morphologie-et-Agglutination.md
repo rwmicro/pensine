@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Ouighour > 03-Grammaire"
 tags: [sciences-sociales, langues, ouighour, grammaire, morphologie]
 date: "2026-08-20"
+prerequis: ["[[Social Sciences/Languages - Dialects/Ouighour/02-Communication/Phrases-Essentielles]]"]
 ---
 # Morphologie : le génie agglutinant de l'ouïghour
 

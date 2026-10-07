@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology > Fondateurs"
 tags: [sciences-sociales, sociologie]
 date: "2026-02-04"
+prerequis: ["[[Social Sciences/Sociology/Les Pères Fondateurs]]"]
 ---
 
 # Max Weber (1864-1920)

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Anthropology"
 tags: [sciences-sociales, anthropologie, préhistoire, chasseurs-cueilleurs, paléolithique]
 date: "2026-04-18"
+prerequis: ["[[Social Sciences/Anthropology/La Révolution Cognitive]]"]
 ---
 # Sociétés de Chasseurs-Cueilleurs
 

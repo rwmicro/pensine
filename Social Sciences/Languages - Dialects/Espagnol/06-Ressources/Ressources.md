@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Espagnol > 06-Ressources"
 tags: [sciences-sociales, langues, espagnol, spanish, ressources, apprentissage]
 date: "2026-04-23"
+prerequis: ["[[Social Sciences/Languages - Dialects/Espagnol/05-Culture/Culture]]"]
 ---
 # Ressources — Espagnol
 

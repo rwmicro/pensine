@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Law > Branches"
 tags: [sciences-sociales, droit, droit-constitutionnel, constitution, séparation-des-pouvoirs, régimes-politiques]
 date: "2026-04-18"
+prerequis: ["[[Social Sciences/Law/Branches/Droit Public et Privé]]", "[[Social Sciences/Law/Institutions Juridiques]]"]
 ---
 
 # Droit Constitutionnel

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology > Thématiques"
 tags: [sciences-sociales, sociologie, déviance, normes, étiquetage, stigmate]
 date: "2026-09-28"
+prerequis: ["[[Social Sciences/Sociology/Concepts/Anomie]]", "[[Social Sciences/Sociology/Fondateurs/Howard Becker]]"]
 ---
 
 # Sociologie de la Déviance

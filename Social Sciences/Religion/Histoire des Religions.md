@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Religion"
 tags: [sciences-sociales, religion]
 date: "2026-02-28"
+prerequis: ["[[Social Sciences/Religion/Panorama des Religions Mondiales]]"]
 ---
 
 # Histoire des Religions

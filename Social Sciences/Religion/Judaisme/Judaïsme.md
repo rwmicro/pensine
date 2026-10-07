@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Religion > Judaisme"
 tags: [sciences-sociales, religion]
 date: "2026-02-22"
+prerequis: ["[[Social Sciences/Religion/Histoire des Religions]]"]
 ---
 
 # Judaïsme

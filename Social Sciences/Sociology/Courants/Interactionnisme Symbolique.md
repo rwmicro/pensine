@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology > Courants"
 tags: [sciences-sociales, sociologie]
 date: "2026-02-04"
+prerequis: ["[[Social Sciences/Sociology/Les Pères Fondateurs]]", "[[Social Sciences/Sociology/Méthodes de Recherche]]"]
 ---
 
 # Interactionnisme Symbolique

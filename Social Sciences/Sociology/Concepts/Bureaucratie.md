@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology > Concepts"
 tags: [sciences-sociales, sociologie, weber, bureaucratie, organisation, rationalisation]
 date: "2026-08-08"
+prerequis: ["[[Social Sciences/Sociology/Concepts/Rationalisation]]"]
 ---
 
 # Bureaucratie
