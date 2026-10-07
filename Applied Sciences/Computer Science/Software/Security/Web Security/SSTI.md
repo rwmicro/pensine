@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Web Security"
 tags: [ssti, template-injection, rce, jinja2, twig, web, sécurité]
 date: "2026-03-22"
+prerequis: ["[[Command Injection]]"]
 ---
 # SSTI - Server-Side Template Injection
 

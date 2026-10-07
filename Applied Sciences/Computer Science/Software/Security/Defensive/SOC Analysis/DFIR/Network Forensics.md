@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Defensive > SOC Analysis > DFIR"
 tags: [forensics, réseau, dfir, pcap, wireshark, investigation, sécurité]
 date: "2026-03-22"
+prerequis: ["[[DFIR]]"]
 ---
 
 # Network Forensics

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Mathematics > Math Spé"
 tags: [sciences-appliquées, mathématiques]
 date: "2026-02-16"
+prerequis: ["[[Séries de Fonctions]]"]
 ---
 
 # Séries Entières

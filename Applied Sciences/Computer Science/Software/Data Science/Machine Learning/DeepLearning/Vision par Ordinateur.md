@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Data Science > Machine Learning > DeepLearning"
 tags: [computer-vision, cnn, yolo, object-detection, segmentation, deep-learning]
 date: "2026-03-22"
+prerequis: ["[[CNN]]"]
 ---
 
 # Vision par Ordinateur

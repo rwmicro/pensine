@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Data Science > Machine Learning > DeepLearning"
 tags: [perceptron, mlp, rétropropagation, backpropagation, réseaux-de-neurones, deep-learning]
 date: "2026-08-24"
+prerequis: ["[[Apprentissage Supervisé]]", "[[Fonctions de pertes]]"]
 ---
 
 # Perceptron et Rétropropagation

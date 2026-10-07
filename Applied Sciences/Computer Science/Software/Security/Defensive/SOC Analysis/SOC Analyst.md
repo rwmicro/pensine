@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > SOC Analysis"
 tags: [sciences-appliquées, informatique, sécurité, soc]
 date: "2025-12-31"
+prerequis: ["[[Vocabulary]]"]
 ---
 
 # Analyste SOC

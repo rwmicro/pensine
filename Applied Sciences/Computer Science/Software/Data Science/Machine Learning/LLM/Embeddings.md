@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Data Science > Machine Learning > LLM"
 tags: [embeddings, similarité-vectorielle, nlp, llm, recherche-sémantique]
 date: "2026-08-24"
+prerequis: ["[[Transformers]]"]
 ---
 
 # Embeddings
