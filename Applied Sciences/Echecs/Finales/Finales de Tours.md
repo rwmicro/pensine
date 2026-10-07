@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Echecs > Finales"
 tags: [sciences-appliquées, échecs]
 date: "2026-03-20"
+prerequis: ["[[Applied Sciences/Echecs/Finales/Finales de Pions]]"]
 ---
 
 # Finales de Tours

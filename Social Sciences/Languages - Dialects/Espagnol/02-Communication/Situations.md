@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Espagnol > 02-Communication"
 tags: [sciences-sociales, langues, espagnol, spanish, communication, dialogues, situations]
 date: "2026-04-23"
+prerequis: ["[[Social Sciences/Languages - Dialects/Espagnol/02-Communication/Phrases-Essentielles]]", "[[Social Sciences/Languages - Dialects/Espagnol/04-Vocabulaire/Vocabulaire]]"]
 ---
 # Dialogues en Situation — Espagnol
 

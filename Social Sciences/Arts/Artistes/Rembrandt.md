@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Arts > Artistes"
 tags: [sciences-sociales, arts, baroque, peinture, siècle-d'or, pays-bas]
 date: "2026-04-17"
+prerequis: ["[[Social Sciences/Arts/Artistes/Léonard de Vinci]]", "[[Social Sciences/Arts/Artistes/Michel-Ange]]"]
 ---
 
 # Rembrandt van Rijn (1606-1669)

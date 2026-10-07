@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Theatre"
 tags: [sciences-sociales, théâtre]
 date: "2026-02-22"
+prerequis: ["[[Social Sciences/Theatre/Éléments de la Représentation]]"]
 ---
 
 # Le Métier d'Acteur

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Tamoul"
 tags: [sciences-sociales, langues]
 date: "2025-12-31"
+prerequis: ["[[Social Sciences/Languages - Dialects/Tamoul/02-Communication/Phrases-Essentielles]]"]
 ---
 
 # Grammaire Tamoule (தமிழ் இலக்கணம்)

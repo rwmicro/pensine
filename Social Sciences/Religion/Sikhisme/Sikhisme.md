@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Religion > Sikhisme"
 tags: [sciences-sociales, religion, sikhisme, guru-nanak, pendjab, khalsa]
 date: "2026-04-18"
+prerequis: ["[[Social Sciences/Religion/Hindouisme/Hindouisme]]", "[[Social Sciences/Religion/Islam/Islam]]"]
 ---
 
 # Sikhisme

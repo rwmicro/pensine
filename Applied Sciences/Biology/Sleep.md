@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Biology"
 tags: [sciences-appliquées, biologie]
 date: "2026-02-04"
+prerequis: ["[[Applied Sciences/Biology/Domaines/Neurobiologie]]"]
 ---
 
 # Sleep

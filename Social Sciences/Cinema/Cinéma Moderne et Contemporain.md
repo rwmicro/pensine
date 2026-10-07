@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Cinema"
 tags: [sciences-sociales, cinéma]
 date: "2026-02-22"
+prerequis: ["[[Social Sciences/Cinema/Mouvements/Cinéma d'Auteur International]]"]
 ---
 
 # Cinéma Moderne et Contemporain

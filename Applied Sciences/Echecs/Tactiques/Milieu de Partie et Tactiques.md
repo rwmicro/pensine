@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Echecs > Tactiques"
 tags: [sciences-appliquées, échecs]
 date: "2026-02-22"
+prerequis: ["[[Applied Sciences/Echecs/Ouvertures/Ouvertures]]"]
 ---
 
 # Milieu de Partie et Tactiques

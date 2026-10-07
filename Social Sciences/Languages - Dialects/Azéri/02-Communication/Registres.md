@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Azéri > 02-Communication"
 tags: [sciences-sociales, langues, azeri, azerbaijani, communication, registres, sociolinguistique]
 date: "2026-04-22"
+prerequis: ["[[Social Sciences/Languages - Dialects/Azéri/02-Communication/Salutations]]"]
 ---
 # Registres de Langue — Azéri
 

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Kabyle > 01-Phonologie"
 tags: [sciences-sociales, langues, kabyle, phonologie, alphabet]
 date: "2026-03-27"
+parcours: "Kabyle : des premiers mots à la culture"
 ---
 # Alphabet et Prononciation — Kabyle (Taqbaylit)
 

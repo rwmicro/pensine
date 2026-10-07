@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Mandarin > 03-Grammaire"
 tags: [sciences-sociales, langues, mandarin, chinois, grammaire, syntaxe]
 date: "2026-04-28"
+prerequis: ["[[Social Sciences/Languages - Dialects/Mandarin/02-Communication/Phrases-Essentielles]]"]
 ---
 # Grammaire — Mandarin
 

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Law > Systèmes Juridiques"
 tags: [sciences-sociales, droit, common-law, jurisprudence, précédent, adversarial]
 date: "2026-04-18"
+prerequis: ["[[Social Sciences/Law/Systèmes Juridiques/Civil Law (Droit Romano-Germanique)]]"]
 ---
 
 # Common Law (Droit Anglo-Saxon)

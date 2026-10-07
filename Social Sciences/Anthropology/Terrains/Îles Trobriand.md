@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Anthropology > Terrains"
 tags: [sciences-sociales, anthropologie]
 date: "2026-02-04"
+prerequis: ["[[Social Sciences/Anthropology/Anthropologues/Bronisław Malinowski]]"]
 ---
 # Îles Trobriand
 

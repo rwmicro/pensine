@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Linguistics > Branches"
 tags: [sciences-sociales, linguistique]
 date: "2026-03-02"
+prerequis: ["[[Social Sciences/Linguistics/Branches/Sociolinguistique]]", "[[Social Sciences/Linguistics/Familles de Langues/Familles de Langues]]"]
 ---
 
 # Pidgins et Créoles

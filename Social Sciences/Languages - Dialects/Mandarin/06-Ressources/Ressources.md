@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Mandarin > 06-Ressources"
 tags: [sciences-sociales, langues, mandarin, chinois, ressources, apprentissage, hsk]
 date: "2026-04-28"
+prerequis: ["[[Social Sciences/Languages - Dialects/Mandarin/05-Culture/Culture]]"]
 ---
 # Ressources — Mandarin
 

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Espagnol > 03-Grammaire"
 tags: [sciences-sociales, langues, espagnol, spanish, grammaire, conjugaison]
 date: "2026-04-23"
+prerequis: ["[[Social Sciences/Languages - Dialects/Espagnol/02-Communication/Phrases-Essentielles]]"]
 ---
 # Grammaire — Espagnol
 

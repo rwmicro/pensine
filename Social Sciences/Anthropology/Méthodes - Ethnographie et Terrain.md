@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Anthropology"
 tags: [sciences-sociales, anthropologie, ethnographie, terrain, observation-participante, méthodes]
 date: "2026-04-18"
+prerequis: ["[[Social Sciences/Anthropology/Définitions et Domaines]]"]
 ---
 # Méthodes - Ethnographie et Terrain
 

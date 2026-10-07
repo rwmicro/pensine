@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Turc"
 tags: [sciences-sociales, langues, turc]
 date: "2026-02-04"
+prerequis: ["[[Social Sciences/Languages - Dialects/Turc/02-Communication/Phrases-Essentielles]]"]
 ---
 
 # Les Bases du Turc

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Kabyle > 04-Vocabulaire"
 tags: [sciences-sociales, langues, kabyle, taqbaylit, vocabulaire, berbère]
 date: "2026-04-01"
+prerequis: ["[[Social Sciences/Languages - Dialects/Kabyle/02-Communication/Phrases-Essentielles]]"]
 ---
 # Vocabulaire — Kabyle (Taqbaylit)
 

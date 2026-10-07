@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology > Fondateurs"
 tags: [sciences-sociales, sociologie, bourdieu, habitus, capital, reproduction]
 date: "2026-08-08"
+prerequis: ["[[Social Sciences/Sociology/Fondateurs/Max Weber]]", "[[Social Sciences/Sociology/Fondateurs/Karl Marx]]"]
 ---
 
 # Pierre Bourdieu (1930-2002)

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Theatre > Genres"
 tags: [sciences-sociales, théâtre]
 date: "2026-02-22"
+prerequis: ["[[Social Sciences/Theatre/Histoire du Théâtre]]"]
 ---
 # Genres et Formes Dramatiques
 

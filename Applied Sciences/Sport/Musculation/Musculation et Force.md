@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Sport > Musculation"
 tags: [sciences-appliquées, sport, musculation]
 date: "2026-03-05"
+prerequis: ["[[Applied Sciences/Sport/Musculation/Musculation]]"]
 ---
 
 # Musculation et Force

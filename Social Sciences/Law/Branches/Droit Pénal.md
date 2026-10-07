@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Law > Branches"
 tags: [sciences-sociales, droit, droit-pénal, infractions, sanctions, justice]
 date: "2026-04-18"
+prerequis: ["[[Social Sciences/Law/Branches/Droit Public et Privé]]"]
 ---
 
 # Droit Pénal (Criminel)

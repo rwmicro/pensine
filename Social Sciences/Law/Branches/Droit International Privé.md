@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Law > Branches"
 tags: [sciences-sociales, droit, droit-international-privé, conflits-de-lois]
 date: "2026-04-16"
+prerequis: ["[[Social Sciences/Law/Branches/Droit Civil]]", "[[Social Sciences/Law/Branches/Droit International Public]]"]
 ---
 
 # Droit International Privé

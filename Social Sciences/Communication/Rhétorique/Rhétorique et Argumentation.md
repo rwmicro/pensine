@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Communication > Rhétorique"
 tags: [sciences-sociales, communication, rhétorique, argumentation, aristote, toulmin]
 date: "2026-02-22"
+prerequis: ["[[Social Sciences/Communication/Types/Communication Orale]]"]
 ---
 
 # Rhétorique et Argumentation

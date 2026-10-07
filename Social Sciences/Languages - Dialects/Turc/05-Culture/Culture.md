@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Turc > 05-Culture"
 tags: [sciences-sociales, langues, turc, turkish, culture, turquie, histoire]
 date: "2026-04-01"
+prerequis: ["[[Social Sciences/Languages - Dialects/Turc/02-Communication/Registres]]", "[[Social Sciences/Languages - Dialects/Turc/03-Grammaire/Bases]]"]
 ---
 # Culture — Turquie et Langue Turque
 

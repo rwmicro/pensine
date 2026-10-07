@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Mandarin > 01-Phonologie"
 tags: [sciences-sociales, langues, mandarin, chinois, pinyin, tons, phonologie]
 date: "2026-04-28"
+parcours: "Mandarin : des premiers mots à la culture"
 ---
 # Pinyin et Tons — Mandarin
 

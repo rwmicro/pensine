@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hakka-Khek > Resources"
 tags: [sciences-sociales, langues, hakka]
 date: "2026-09-03"
+prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/05-Culture/Dialectes-Regionaux]]", "[[Social Sciences/Languages - Dialects/Hakka-Khek/05-Culture/Histoire]]", "[[Social Sciences/Languages - Dialects/Hakka-Khek/05-Culture/Song]]"]
 ---
 # Hakka Learning Resources
 

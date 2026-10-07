@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology > Fondateurs"
 tags: [sciences-sociales, sociologie, goffman, interactionnisme, dramaturgie]
 date: "2026-08-08"
+prerequis: ["[[Social Sciences/Sociology/Courants/Interactionnisme Symbolique]]"]
 ---
 
 # Erving Goffman (1922-1982)

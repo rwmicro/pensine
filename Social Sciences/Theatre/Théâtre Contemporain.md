@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Theatre"
 tags: [sciences-sociales, théâtre]
 date: "2026-02-22"
+prerequis: ["[[Social Sciences/Theatre/Théories et Praticiens]]", "[[Social Sciences/Theatre/Théâtre dans le Monde]]"]
 ---
 
 # Théâtre Contemporain

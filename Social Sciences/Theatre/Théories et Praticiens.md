@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Theatre"
 tags: [sciences-sociales, théâtre]
 date: "2026-02-22"
+prerequis: ["[[Social Sciences/Theatre/Mouvements/Grands Mouvements Théâtraux]]", "[[Social Sciences/Theatre/Mise en Scène et Dramaturgie]]"]
 ---
 
 # Théories et Praticiens

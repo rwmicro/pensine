@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology > Concepts"
 tags: [sciences-sociales, sociologie, bourdieu, violence-symbolique, domination]
 date: "2026-08-08"
+prerequis: ["[[Social Sciences/Sociology/Concepts/Habitus]]", "[[Social Sciences/Sociology/Concepts/Domination]]"]
 ---
 
 # Violence Symbolique

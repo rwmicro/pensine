@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Ecology > Changement Climatique"
 tags: [sciences-appliquées, écologie]
 date: "2026-03-20"
+prerequis: ["[[Applied Sciences/Ecology/Changement Climatique/Changement Climatique]]"]
 ---
 
 # Solutions et Atténuation du Changement Climatique

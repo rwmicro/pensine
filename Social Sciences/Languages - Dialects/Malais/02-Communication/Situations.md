@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Malais > 02-Communication"
 tags: [sciences-sociales, langues, malais, malaisian, communication, dialogues, situations]
 date: "2026-04-01"
+prerequis: ["[[Social Sciences/Languages - Dialects/Malais/02-Communication/Phrases-Essentielles]]", "[[Social Sciences/Languages - Dialects/Malais/04-Vocabulaire/Vocabulaire]]"]
 ---
 # Dialogues en Situation — Bahasa Malaysia
 

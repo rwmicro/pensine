@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Sport > Musculation"
 tags: [sciences-appliquées, sport, musculation]
 date: "2025-05-04"
+prerequis: ["[[Applied Sciences/Sport/Musculation/Musculation et Force]]"]
 ---
 
 # Hauts du Corps

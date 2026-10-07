@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Communication > Types"
 tags: [sciences-sociales, communication, interculturel, hofstede, hall, culture]
 date: "2026-04-18"
+prerequis: ["[[Social Sciences/Communication/Types/Communication Non Verbale]]"]
 ---
 
 # Communication Interculturelle

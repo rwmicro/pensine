@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Law"
 tags: [sciences-sociales, droit, fondamentaux]
 date: "2026-03-05"
+parcours: "Droit : des bases aux grands systèmes juridiques"
 ---
 # Le Droit — Bases
 

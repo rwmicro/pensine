@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Religion > Confucianisme"
 tags: [sciences-sociales, religion, confucianisme, chine, culte-des-ancêtres, rites, piété-filiale]
 date: "2026-09-28"
+prerequis: ["[[Social Sciences/Religion/Histoire des Religions]]"]
 ---
 
 # Confucianisme

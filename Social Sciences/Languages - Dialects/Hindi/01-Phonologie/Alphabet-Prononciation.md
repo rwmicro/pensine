@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hindi"
 tags: [sciences-sociales, langues, hindi, devanagari, phonologie]
 date: "2026-04-16"
+parcours: "Hindi : des premiers mots à la culture"
 ---
 
 # Alphabet et prononciation hindi (Devanagari)

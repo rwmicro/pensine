@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Anglais > 04-Vocabulaire"
 tags: [sciences-sociales, langues, anglais, vocabulaire, expressions, idiomes]
 date: "2026-04-01"
+prerequis: ["[[Social Sciences/Languages - Dialects/Anglais/04-Vocabulaire/Vocabulaire]]"]
 ---
 # Expressions Idiomatiques — Anglais
 

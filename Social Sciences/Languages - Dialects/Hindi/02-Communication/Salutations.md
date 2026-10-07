@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Hindi > 02-Communication"
 tags: [sciences-sociales, langues, hindi, communication, salutations]
 date: "2026-04-01"
+prerequis: ["[[Social Sciences/Languages - Dialects/Hindi/01-Phonologie/Alphabet-Prononciation]]"]
 ---
 # Salutations — Hindi
 

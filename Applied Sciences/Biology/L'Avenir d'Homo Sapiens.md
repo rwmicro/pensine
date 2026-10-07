@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Biology"
 tags: [sciences-appliquées, biologie]
 date: "2026-02-28"
+prerequis: ["[[Applied Sciences/Biology/Human/Évolution Humaine]]"]
 ---
 # L'Avenir d'Homo Sapiens
 

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Religion > Islam"
 tags: [sciences-sociales, religion, islam, coran, mahomet, sunna]
 date: "2026-04-18"
+prerequis: ["[[Social Sciences/Religion/Judaisme/Judaïsme]]", "[[Social Sciences/Religion/Christianisme/Christianisme]]"]
 ---
 
 # Islam

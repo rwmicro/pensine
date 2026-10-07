@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Mandarin > 02-Communication"
 tags: [sciences-sociales, langues, mandarin, chinois, communication, dialogues, situations]
 date: "2026-04-28"
+prerequis: ["[[Social Sciences/Languages - Dialects/Mandarin/02-Communication/Phrases-Essentielles]]", "[[Social Sciences/Languages - Dialects/Mandarin/04-Vocabulaire/Vocabulaire]]"]
 ---
 # Dialogues en Situation — Mandarin
 

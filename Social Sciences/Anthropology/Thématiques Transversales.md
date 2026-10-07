@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Anthropology"
 tags: [sciences-sociales, anthropologie, don, parenté, genre, rites-de-passage, globalisation]
 date: "2026-04-18"
+prerequis: ["[[Social Sciences/Anthropology/Branches/Anthropologie Sociale]]", "[[Social Sciences/Anthropology/Terrains/Îles Trobriand]]"]
 ---
 # Thématiques Transversales en Anthropologie
 

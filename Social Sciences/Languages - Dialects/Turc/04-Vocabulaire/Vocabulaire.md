@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Turc > 04-Vocabulaire"
 tags: [sciences-sociales, langues, turc, vocabulaire]
 date: "2026-03-27"
+prerequis: ["[[Social Sciences/Languages - Dialects/Turc/02-Communication/Phrases-Essentielles]]"]
 ---
 # Vocabulaire de Base — Turc
 

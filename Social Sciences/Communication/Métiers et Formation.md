@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Communication"
 tags: [sciences-sociales, communication]
 date: "2026-02-22"
+prerequis: ["[[Social Sciences/Communication/Types/Communication Organisationnelle]]", "[[Social Sciences/Communication/Types/Communication Politique]]"]
 ---
 
 # Métiers et Formation

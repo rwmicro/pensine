@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Cinema > Mouvements"
 tags: [sciences-sociales, cinéma]
 date: "2026-02-22"
+prerequis: ["[[Social Sciences/Cinema/Âge d'Or Hollywoodien (1930-1960)]]", "[[Social Sciences/Cinema/Théorie/Théorie et Langage du Cinéma]]"]
 ---
 
 # Nouvelles Vagues (1950-1970)

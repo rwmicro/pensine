@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Tok Pisin > 04-Vocabulaire"
 tags: [sciences-sociales, langues, tok-pisin, papua-nouvelle-guinee, vocabulaire, creole]
 date: "2026-04-01"
+prerequis: ["[[Social Sciences/Languages - Dialects/Tok Pisin/02-Communication/Phrases-Essentielles]]"]
 ---
 # Vocabulaire — Tok Pisin
 

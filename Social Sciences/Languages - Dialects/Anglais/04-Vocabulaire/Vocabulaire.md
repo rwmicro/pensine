@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Anglais"
 tags: [sciences-sociales, langues, anglais]
 date: "2025-12-31"
+prerequis: ["[[Social Sciences/Languages - Dialects/Anglais/02-Communication/Phrases-Essentielles]]"]
 ---
 
 # Vocabulaire Anglais Avancé

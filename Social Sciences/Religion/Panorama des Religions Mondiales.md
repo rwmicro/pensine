@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Religion"
 tags: [sciences-sociales, religion, christianisme, islam, hindouisme, bouddhisme, judaïsme]
 date: "2026-04-16"
+parcours: "Religions du monde"
 ---
 # Panorama des Religions Mondiales
 

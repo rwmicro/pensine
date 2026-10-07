@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Law > Branches"
 tags: [sciences-sociales, droit]
 date: "2026-02-22"
+prerequis: ["[[Social Sciences/Law/Branches/Droit Public et Privé]]"]
 ---
 # Droit Civil
 

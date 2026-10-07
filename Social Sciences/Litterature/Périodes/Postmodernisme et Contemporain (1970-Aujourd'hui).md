@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Litterature > Périodes"
 tags: [sciences-sociales, littérature]
 date: "2026-02-23"
+prerequis: ["[[Social Sciences/Litterature/Périodes/XXe Siècle - Modernisme]]"]
 ---
 
 # Postmodernisme et Contemporain (1970-Aujourd'hui)

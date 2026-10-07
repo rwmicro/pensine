@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Anthropology > Anthropologues"
 tags: [sciences-sociales, anthropologie, geertz, interprétation, culture, anthropologie-symbolique]
 date: "2026-04-18"
+prerequis: ["[[Social Sciences/Anthropology/Branches/Anthropologie Culturelle]]"]
 ---
 # Clifford Geertz (1926-2006)
 

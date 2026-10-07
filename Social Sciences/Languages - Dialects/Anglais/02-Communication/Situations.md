@@ -5,6 +5,7 @@ subdomain: "Languages - Dialects > Anglais > 02-Communication"
 tags: [sciences-sociales, langues, anglais, communication, dialogues, situations]
 date: "2026-04-01"
 lang: "en"
+prerequis: ["[[Social Sciences/Languages - Dialects/Anglais/02-Communication/Phrases-Essentielles]]", "[[Social Sciences/Languages - Dialects/Anglais/04-Vocabulaire/Vocabulaire]]"]
 ---
 # Dialogues en Situation — Anglais
 

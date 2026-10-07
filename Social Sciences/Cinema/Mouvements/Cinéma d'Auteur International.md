@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Cinema > Mouvements"
 tags: [sciences-sociales, cinéma]
 date: "2026-02-22"
+prerequis: ["[[Social Sciences/Cinema/Mouvements/Nouvelles Vagues (1950-1970)]]"]
 ---
 
 # Cinéma d'Auteur International

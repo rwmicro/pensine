@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology > Thématiques"
 tags: [sciences-sociales, sociologie, mobilité-sociale, inégalités, méritocratie, reproduction]
 date: "2026-09-28"
+prerequis: ["[[Social Sciences/Sociology/Thématiques/Stratification et Classes Sociales]]"]
 ---
 
 # Mobilité Sociale

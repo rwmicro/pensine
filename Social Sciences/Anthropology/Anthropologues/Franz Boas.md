@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Anthropology > Anthropologues"
 tags: [sciences-sociales, anthropologie, boas, relativisme-culturel, anthropologie-américaine]
 date: "2026-04-18"
+prerequis: ["[[Social Sciences/Anthropology/Histoire de la Discipline]]"]
 ---
 
 # Franz Boas (1858-1942)

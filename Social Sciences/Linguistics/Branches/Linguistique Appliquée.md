@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Linguistics > Branches"
 tags: [sciences-sociales, linguistique]
 date: "2026-02-22"
+prerequis: ["[[Social Sciences/Linguistics/Branches/Psycholinguistique]]", "[[Social Sciences/Linguistics/Branches/Sociolinguistique]]"]
 ---
 
 # Linguistique Appliquée

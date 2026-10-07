@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Echecs > Finales"
 tags: [sciences-appliquées, échecs, finales, pions, opposition, zugzwang]
 date: "2026-04-18"
+prerequis: ["[[Applied Sciences/Echecs/Finales/Finales]]"]
 ---
 
 # Finales de Pions
