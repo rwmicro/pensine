@@ -4,10 +4,16 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Arabe-Libanais > 03-Grammaire"
 tags: [sciences-sociales, langues, arabe, arabe-libanais, grammaire, comparatif, superlatif]
 date: "2026-04-14"
+prerequis: ["[[Social Sciences/Languages - Dialects/Arabe/Libanais/03-Grammaire/Prepositions-et-Particules]]"]
 ---
 # Comparatif et Superlatif 
 
 L'arabe libanais forme le comparatif par un schème morphologique **af3al** appliqué à la racine trilitère de l'adjectif. Le même schème sert aussi au superlatif selon la construction.
+
+> [!tip] Dans cette fiche
+> - Comparer deux choses : « plus grand que », « moins cher que ».
+> - Exprimer l'égalité (« comme toi », « aussi grand que moi »).
+> - Dire « le plus… » et « très… ».
 
 ## Formation du comparatif — schème af3al
 
@@ -18,16 +24,19 @@ L'arabe libanais forme le comparatif par un schème morphologique **af3al** appl
 | ![كبير](audio/ar-lb_male_23e55e8c751b.mp3) (kbīr, grand) | k-b-r | ![أكبر](audio/ar-lb_male_9a954c27ae0d.mp3) (akbar) | plus grand |
 | ![صغير](audio/ar-lb_male_b3f78182a77e.mp3) (zghīr, petit) | s-gh-r | ![أصغر](audio/ar-lb_male_6fef57981893.mp3) (asghar) | plus petit |
 | ![طويل](audio/ar-lb_male_3c21a7862b52.mp3) (twīl, long/grand) | t-w-l | ![أطول](audio/ar-lb_male_bb1f765fdc89.mp3) (atwal) | plus long |
-| ![قصير](audio/ar-lb_male_2af5ea9a996a.mp3) (2sīr, court) | q-s-r | ![أقصر](audio/ar-lb_male_9b65323c3519.mp3) (a2Sar) | plus court |
+| ![قصير](audio/ar-lb_male_2af5ea9a996a.mp3) (2sīr, court) | q-s-r | ![أقصر](audio/ar-lb_male_9b65323c3519.mp3) (a2sar) | plus court |
 | ![حلو](audio/ar-lb_male_2ed214a65515.mp3) (7élo, beau) | 7-l-w | ![أحلى](audio/ar-lb_male_6c4bdfde32ec.mp3) (a7la) | plus beau |
 | ![منيح](audio/ar-lb_male_878466cbb887.mp3) (mnī7, bon) | — | ![أحسن](audio/ar-lb_male_d27c4a6ab2b0.mp3) (a7san) — irrégulier | meilleur |
 | ![كتير](audio/ar-lb_male_9886c14fd341.mp3) (ktīr, beaucoup) | k-t-r | ![أكتر](audio/ar-lb_male_98094377596c.mp3) (aktar) | plus |
 | ![قديم](audio/ar-lb_male_45205ddf1dd6.mp3) (2dīm, vieux) | q-d-m | ![أقدم](audio/ar-lb_male_30e82a8a13c6.mp3) (a2dam) | plus ancien |
 | ![جديد](audio/ar-lb_male_e0aacb09c2f9.mp3) (jdīd, nouveau) | j-d-d | ![أجدد](audio/ar-lb_male_bf7716da357b.mp3) (ajadd) | plus nouveau |
-| ![رخيص](audio/ar-lb_male_f50ccd8168ab.mp3) (rkhīS, bon marché) | r-kh-s | ![أرخص](audio/ar-lb_male_ff3266a1fab7.mp3) (arkhas) | moins cher |
+| ![رخيص](audio/ar-lb_male_f50ccd8168ab.mp3) (rkhīs, bon marché) | r-kh-s | ![أرخص](audio/ar-lb_male_ff3266a1fab7.mp3) (arkhas) | moins cher |
 | ![غالي](audio/ar-lb_male_d834fbf2ce22.mp3) (ghāli, cher) | gh-l-w | ![أغلى](audio/ar-lb_male_3bf9f0ba63c0.mp3) (aghla) | plus cher |
 
 > Le comparatif **ne s'accorde pas** en genre ni en nombre, forme unique pour tous.
+
+> [!warning] *Zayy*
+> *Zayy* (comme) est surtout égyptien ; au Liban on dit **metel** (*metlak*, comme toi). Il faut le reconnaître, mais utiliser *metel*.
 
 ## Construction "plus… que…"
 
@@ -36,7 +45,7 @@ On utilise **min** (من) pour introduire le terme de comparaison.
 | Français | Libanais | Translittération |
 |----------|----------|------------------|
 | Plus grand que toi | ![أكبر منّك](audio/ar-lb_male_045ee7f226aa.mp3) | akbar minnak |
-| Mon frère est plus grand que moi | ![أخوي أكبر منّي](audio/ar-lb_male_5923f2e55782.mp3) | akhūyi akbar minni |
+| Mon frère est plus grand que moi | ![خيّي أكبر منّي](audio/ar-lb_male_aac17f9560b6.mp3) | khayye akbar minne |
 | Beyrouth est plus grande que Byblos | ![بيروت أكبر من جبيل](audio/ar-lb_male_1d7d1ea1efef.mp3) | Bayrūt akbar min Jbeil |
 | C'est moins cher que l'autre | ![أرخص من التاني](audio/ar-lb_male_5565cf0c6364.mp3) | arkhas min et-tēni |
 | Elle est plus belle aujourd'hui | ![هي أحلى اليوم](audio/ar-lb_male_8e2a5f283a31.mp3) | hiye a7la el-yōm |
@@ -51,21 +60,21 @@ On utilise **min** (من) pour introduire le terme de comparaison.
 | ![مش قدّ](audio/ar-lb_male_a8303861ac42.mp3) + nom | ![مش قدّو](audio/ar-lb_male_6b25e857396f.mp3) (mish addo) | pas à sa hauteur |
 
 Exemples :
-- البيت زيّ بيتك (el-beit zayy beitak) — La maison est comme la tienne.
+- البيت زيّ بيتك (el-bēt zayy bētak) — La maison est comme la tienne.
 - مش طويل قدّي (mish twīl addi) — Il n'est pas aussi grand que moi.
 
 ## Superlatif — deux constructions
 
-### 1. Comparatif + nom défini
+### 1. Comparatif + nom sans article
 
-Forme la plus courante : le comparatif précède le nom déterminé.
+Forme la plus courante : le comparatif se place **devant** le nom, sans article : *akbar balad* = « le plus grand pays ».
 
 | Français | Libanais | Translittération |
 |----------|----------|------------------|
 | Le plus grand pays | ![أكبر بلد](audio/ar-lb_male_95a63f056663.mp3) | akbar balad |
 | La plus belle fille | ![أحلى بنت](audio/ar-lb_male_cf0559bd48a4.mp3) | a7la bint |
 | Le meilleur restaurant | ![أحسن مطعم](audio/ar-lb_male_4198dd66d6ca.mp3) | a7san mat3am |
-| Le plus vieil ami | ![أقدم صاحب](audio/ar-lb_male_13e949ef670e.mp3) | a2dam Sā7eb |
+| Le plus vieil ami | ![أقدم صاحب](audio/ar-lb_male_13e949ef670e.mp3) | a2dam sā7eb |
 
 ### 2. Comparatif + suffixe possessif ou préposition
 
@@ -86,11 +95,9 @@ Pour intensifier un adjectif sans comparaison, on utilise des adverbes.
 | ![كتير](audio/ar-lb_male_9886c14fd341.mp3) (ktīr) | très | usage universel, place après ou avant l'adjectif |
 | ![كتير كتير](audio/ar-lb_male_0a96635541b3.mp3) (ktīr ktīr) | vraiment très | emphase |
 | ![جداً](audio/ar-lb_male_83800a3732f9.mp3) (jiddan) | très (littéraire) | plus formel |
-| ![مرّة](audio/ar-lb_male_47d591aac5fc.mp3) (marra) | fois / drôlement | informel, jeunes |
-| ![بزاف](audio/ar-lb_male_9ad5ad7f8cad.mp3) / ![كثير](audio/ar-lb_male_4ee84d22d537.mp3) | beaucoup | plus rare |
 
 Exemples :
-- الأكل كتير طيب (el-akl ktīr Tayyib) — La nourriture est très bonne.
+- الأكل كتير طيب (el-akl ktīr tayyeb) — La nourriture est très bonne.
 - حلوة كتير (7élwe ktīr) — Elle est très belle.
 - كتير كتير تعبان (ktīr ktīr ta3bēn) — Vraiment très fatigué.
 
@@ -104,3 +111,32 @@ Exemples :
 | ![آخر شي](audio/ar-lb_male_c0d08ee68f1c.mp3) | ākhir shi | en dernier / dernière chose |
 | ![أحلى من العسل](audio/ar-lb_male_19aa65dc43bb.mp3) | a7la min el-3asal | plus doux que le miel (compliment) |
 | ![أسرع من البرق](audio/ar-lb_male_cf22d9ed6244.mp3) | asra3 min el-bar2 | plus rapide que l'éclair |
+
+## À retenir
+
+- Comparatif = schème **a-C-C-a-C** : *kbīr* → *akbar*, *rkhīs* → *arkhas*, *7elo* → *a7la*.
+- *Mnī7* (bon) a un comparatif irrégulier : *a7san* (meilleur).
+- « Que » = *min* : *akbar minnak* (plus grand que toi).
+- Superlatif = comparatif + nom sans article : *a7san mat3am* (le meilleur restaurant).
+- Égalité : *metel* (comme), *add* (autant que) : *mish twīl addi*.
+- « Très » = *ktīr*, avant ou après l'adjectif.
+
+## Questions de révision
+
+> [!quiz] Quel est le comparatif de *zghīr* (petit) ?
+> *Asghar*.
+
+> [!quiz] Traduis « c'est moins cher que l'autre ».
+> *Arkhas min et-tēni*.
+
+> [!quiz] Comment dit-on « le meilleur restaurant » ?
+> *A7san mat3am*.
+
+> [!quiz] Comment dire « comme moi » en libanais ?
+> *Metli* (*zayyi* est plutôt égyptien).
+
+> [!quiz] Traduis « il n'est pas aussi grand que moi ».
+> *Mish twīl addi*.
+
+> [!quiz] Quel est le comparatif de *7elo* (beau, doux) ?
+> *A7la* : *a7la min el-3asal*, plus doux que le miel.

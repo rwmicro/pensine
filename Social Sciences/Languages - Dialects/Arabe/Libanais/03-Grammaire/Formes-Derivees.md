@@ -4,10 +4,16 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Arabe-Libanais > 03-Grammaire"
 tags: [sciences-sociales, langues, arabe, arabe-libanais, grammaire, verbes, morphologie]
 date: "2026-04-14"
+prerequis: ["[[Social Sciences/Languages - Dialects/Arabe/Libanais/03-Grammaire/Participes-et-Actif-Passif]]"]
 ---
 # Formes Dérivées Verbales — Arabe Libanais
 
 À partir d'une même racine trilitère C₁C₂C₃, l'arabe génère jusqu'à 10 **formes dérivées**, chacune ajoutant une nuance sémantique (intensif, causatif, réfléchi, passif, réciproque…). Connaître les formes permet de deviner le sens de milliers de verbes.
+
+> [!tip] Dans cette fiche
+> - Reconnaître les principales **formes dérivées** d'un verbe et la nuance que chacune ajoute.
+> - Deviner le sens d'un verbe inconnu à partir de sa racine et de sa forme.
+> - Fiche d'approfondissement : à lire quand le présent et le passé des verbes simples sont acquis.
 
 ## Vue d'ensemble — les 10 formes
 
@@ -44,11 +50,11 @@ Double la consonne centrale. Valeur intensive, causative, ou itérative.
 
 | Racine | Forme I | Forme II | Changement de sens |
 |--------|---------|----------|-------------------|
-| ![ع](audio/ar-lb_male_17771ee07751.mp3)-![ل](audio/ar-lb_male_fc35d917c205.mp3)-![م](audio/ar-lb_male_38a765d53907.mp3) | ![عرف](audio/ar-lb_male_cb34eb6b3522.mp3) 3irif (savoir) | ![علّم](audio/ar-lb_male_f4daaf121a36.mp3) 3allam (enseigner) | causatif : faire savoir |
+| ![ع](audio/ar-lb_male_17771ee07751.mp3)-![ل](audio/ar-lb_male_fc35d917c205.mp3)-![م](audio/ar-lb_male_38a765d53907.mp3) | ![علم](audio/ar-lb_male_1515a5fb8fac.mp3) 3ilim (savoir, surtout en standard ; le libanais dit *3irif*) | ![علّم](audio/ar-lb_male_f4daaf121a36.mp3) 3allam (enseigner) | causatif : faire savoir |
 | ![ك](audio/ar-lb_male_98e9e055efa5.mp3)-![س](audio/ar-lb_male_1af01b7c52a9.mp3)-![ر](audio/ar-lb_male_fdaef2c706d3.mp3) | ![كسر](audio/ar-lb_male_66d5fad5bac6.mp3) kasar (casser) | ![كسّر](audio/ar-lb_male_74f0d1217a66.mp3) kassar (briser en mille morceaux) | intensif |
 | ![د](audio/ar-lb_male_63f62e68c42a.mp3)-![ر](audio/ar-lb_male_fdaef2c706d3.mp3)-![س](audio/ar-lb_male_1af01b7c52a9.mp3) | ![درس](audio/ar-lb_male_6576d4bec5bd.mp3) daras (étudier) | ![درّس](audio/ar-lb_male_ef4e76d46e18.mp3) darras (enseigner) | causatif |
 | ![ف](audio/ar-lb_male_1d8d695e93d7.mp3)-![ه](audio/ar-lb_male_06fb873d755d.mp3)-![م](audio/ar-lb_male_38a765d53907.mp3) | ![فهم](audio/ar-lb_male_bc7b4ea80658.mp3) fihim (comprendre) | ![فهّم](audio/ar-lb_male_abd07b28966b.mp3) fahham (faire comprendre) | causatif |
-| ![ن](audio/ar-lb_male_ff954107b615.mp3)-![ظ](audio/ar-lb_male_afe1352e1164.mp3)-![ف](audio/ar-lb_male_1d8d695e93d7.mp3) | — | ![نظّف](audio/ar-lb_male_155cd431b845.mp3) naddaf (nettoyer) | forme dénominative |
+| ![ن](audio/ar-lb_male_ff954107b615.mp3)-![ض](audio/ar-lb_male_d36b4d16e71e.mp3)-![ف](audio/ar-lb_male_1d8d695e93d7.mp3) | — | ![نظّف](audio/ar-lb_male_155cd431b845.mp3) naddaf (nettoyer) | forme dénominative |
 
 ## Forme III — fā3al (allongement)
 
@@ -58,10 +64,10 @@ Voyelle longue `ā` après C₁. Valeur de **réciprocité** ou d'action avec/ve
 |--------|-----------|------|
 | ![ك](audio/ar-lb_male_98e9e055efa5.mp3)-![ت](audio/ar-lb_male_8b9fda98e1fd.mp3)-![ب](audio/ar-lb_male_dc46ac4b3d50.mp3) | ![كاتب](audio/ar-lb_male_afcbe71681d0.mp3) kātab | correspondre avec |
 | ![ق](audio/ar-lb_male_dbe99b2c824d.mp3)-![ت](audio/ar-lb_male_8b9fda98e1fd.mp3)-![ل](audio/ar-lb_male_fc35d917c205.mp3) | ![قاتل](audio/ar-lb_male_01027d4ab0bd.mp3) 2ātal | combattre contre |
-| ![س](audio/ar-lb_male_1af01b7c52a9.mp3)-![ف](audio/ar-lb_male_1d8d695e93d7.mp3)-![ر](audio/ar-lb_male_fdaef2c706d3.mp3) | ![سافر](audio/ar-lb_male_22ec29f8cc61.mp3) sēfar | voyager (avec idée d'accompagnement) |
+| ![س](audio/ar-lb_male_1af01b7c52a9.mp3)-![ف](audio/ar-lb_male_1d8d695e93d7.mp3)-![ر](audio/ar-lb_male_fdaef2c706d3.mp3) | ![سافر](audio/ar-lb_male_22ec29f8cc61.mp3) sēfar | voyager |
 | ![ح](audio/ar-lb_male_d42d03caefad.mp3)-![ك](audio/ar-lb_male_98e9e055efa5.mp3)-![ي](audio/ar-lb_male_43fa4ff801b3.mp3) | ![حاكى](audio/ar-lb_male_21a998ace3d6.mp3) 7āka | parler à (imiter) |
-| ![س](audio/ar-lb_male_1af01b7c52a9.mp3)-![ا](audio/ar-lb_male_bdb55e584963.mp3)-![ع](audio/ar-lb_male_17771ee07751.mp3)-![د](audio/ar-lb_male_63f62e68c42a.mp3) | ![ساعد](audio/ar-lb_male_7b1394d2c23b.mp3) sē3ad | aider |
-| ![ق](audio/ar-lb_male_dbe99b2c824d.mp3)-![ا](audio/ar-lb_male_bdb55e584963.mp3)-![ب](audio/ar-lb_male_dc46ac4b3d50.mp3)-![ل](audio/ar-lb_male_fc35d917c205.mp3) | ![قابل](audio/ar-lb_male_606aeace9216.mp3) 2ābal | rencontrer |
+| ![س](audio/ar-lb_male_1af01b7c52a9.mp3)-![ع](audio/ar-lb_male_17771ee07751.mp3)-![د](audio/ar-lb_male_63f62e68c42a.mp3) | ![ساعد](audio/ar-lb_male_7b1394d2c23b.mp3) sē3ad | aider |
+| ![ق](audio/ar-lb_male_dbe99b2c824d.mp3)-![ب](audio/ar-lb_male_dc46ac4b3d50.mp3)-![ل](audio/ar-lb_male_fc35d917c205.mp3) | ![قابل](audio/ar-lb_male_606aeace9216.mp3) 2ābal | rencontrer |
 
 ## Forme V — tfa33al (réfléchi de II)
 
@@ -130,10 +136,9 @@ Racine **ع-ل-م** (savoir) :
 
 | Forme | Verbe | Sens |
 |-------|-------|------|
-| I | ![عرف](audio/ar-lb_male_cb34eb6b3522.mp3) 3irif | savoir |
+| I | ![علم](audio/ar-lb_male_1515a5fb8fac.mp3) 3ilim | savoir (standard ; en libanais on dit *3irif*, racine 3-r-f) |
 | II | ![علّم](audio/ar-lb_male_f4daaf121a36.mp3) 3allam | enseigner (causatif) |
 | V | ![تعلّم](audio/ar-lb_male_6c55fa7d4bf4.mp3) t3allam | apprendre (réfléchi) |
-| VI | ![تعالمو](audio/ar-lb_male_2f6d14403043.mp3) t3ālamu | se prétendre savants |
 | X | ![استعلم](audio/ar-lb_male_c53f3191a39a.mp3) ista3lam | s'informer |
 
 Racine **ك-ت-ب** (écrire) :
@@ -154,6 +159,31 @@ Racine **ك-ت-ب** (écrire) :
 2. **Identifier la forme** par le schème vocalique et les affixes.
 3. **Appliquer la valeur typique** de la forme au sens de base.
 
-Exemple : `istaqbal` — racine q-b-l (recevoir) + forme X (demander/chercher) → "chercher à recevoir" → accueillir. Vérifié.
+Exemple : `ista2bal` — racine q-b-l (recevoir) + forme X (demander/chercher) → "chercher à recevoir" → accueillir. Vérifié.
 
-Exemple : `tfara2u` — racine f-r-q (séparer) + forme V réciproque → "se séparer mutuellement" → se quitter.
+Exemple : `tfāra2u` — racine f-r-q (séparer) + forme VI (réciproque) → « se séparer l'un de l'autre » → se quitter.
+
+## À retenir
+
+- Forme II (*fa33al*, consonne doublée) : rend causatif ou intensif : *3allam* (enseigner), *darras*.
+- Forme III (*fā3al*) : action avec ou vers quelqu'un : *sē3ad* (aider), *2ābal* (rencontrer).
+- Formes V (*tfa33al*) et VI (*tfā3al*) : réfléchi et réciproque : *t3allam* (apprendre), *t2ābalu* (se rencontrer).
+- Forme VII (*in-*) : passif, « se faire… » : *inkasar* (se casser).
+- Forme X (*ista-*) : demander, considérer : *ista3mal* (utiliser), *istaghrab* (trouver étrange).
+
+## Questions de révision
+
+> [!quiz] Quelle forme et quelle nuance dans *3allam* (enseigner) par rapport à « savoir » ?
+> Forme II, causative : « faire savoir ».
+
+> [!quiz] À quoi sert le préfixe *in-* (*inkasar*, *infata7*) ?
+> À la forme VII, médio-passive : « se casser », « s'ouvrir ».
+
+> [!quiz] Donne le sens de *t2ābalu*.
+> « Ils se sont rencontrés » (forme VI, réciproque de *2ābal*).
+
+> [!quiz] Quelle forme reconnais-tu dans *ista3mal* et que signifie-t-il ?
+> Forme X (*ista-*) : utiliser.
+
+> [!quiz] Comment passe-t-on de *3allam* (enseigner) à « apprendre » ?
+> On ajoute *t-* (forme V) : *t3allam*.

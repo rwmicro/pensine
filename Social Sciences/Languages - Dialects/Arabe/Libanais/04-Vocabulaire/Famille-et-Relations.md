@@ -4,16 +4,22 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Arabe-Libanais > 04-Vocabulaire"
 tags: [sciences-sociales, langues, arabe, arabe-libanais, vocabulaire, famille, relations]
 date: "2026-05-29"
+prerequis: ["[[Social Sciences/Languages - Dialects/Arabe/Libanais/04-Vocabulaire/Vocabulaire]]", "[[Social Sciences/Languages - Dialects/Arabe/Libanais/03-Grammaire/Pronoms-et-Suffixes]]"]
 ---
 # Famille et Relations — Arabe Libanais
 
-La famille (`3eile`) est au cœur de la vie sociale libanaise. Les termes de parenté distinguent souvent les côtés paternel et maternel, et de nombreux mots prennent des **suffixes possessifs** (voir [[Pronoms-et-Suffixes|Pronoms et Suffixes]]). Convention de translittération : voir [[Social Sciences/Languages - Dialects/Turc/01-Phonologie/Alphabet-Prononciation|Alphabet et Prononciation]].
+La famille (`3ēle`) est au cœur de la vie sociale libanaise. Les termes de parenté distinguent souvent les côtés paternel et maternel, et de nombreux mots prennent des **suffixes possessifs** (voir [[Pronoms-et-Suffixes|Pronoms et Suffixes]]). Convention de translittération : voir [[Social Sciences/Languages - Dialects/Arabe/Libanais/01-Phonologie/Alphabet-Prononciation|Alphabet et Prononciation]].
+
+> [!tip] Dans cette fiche
+> - Nommer les membres de la famille, en distinguant côté paternel et maternel.
+> - Dire « mon père », « ta mère », « son frère » avec les suffixes possessifs.
+> - Parler de mariage, d'amis et d'état civil.
 
 ## Famille proche
 
 | Français | Libanais | Translittération |
 |----------|----------|------------------|
-| Famille | ![عيلة](audio/ar-lb_male_2beaa1f3d667.mp3) | 3eile |
+| Famille | ![عيلة](audio/ar-lb_male_2beaa1f3d667.mp3) | 3ēle |
 | Père | ![بيّ](audio/ar-lb_male_211090e81e97.mp3) | bayy |
 | Papa | ![بابا](audio/ar-lb_male_7f125d2c8a1e.mp3) | bāba |
 | Mère | ![إمّ](audio/ar-lb_male_f5ab9779eee4.mp3) | imm |
@@ -61,19 +67,19 @@ Beaucoup de termes apparaissent collés à un suffixe. Exemples avec « mon / to
 |----------|----------|------------------|
 | Beau-père | ![حمو](audio/ar-lb_male_c75e500cb1a5.mp3) | 7amu |
 | Belle-mère | ![حماة](audio/ar-lb_male_c3761099107b.mp3) | 7amēt |
-| Gendre | ![صهر](audio/ar-lb_male_082da02e09e0.mp3) | Sehr |
+| Gendre | ![صهر](audio/ar-lb_male_082da02e09e0.mp3) | sehr |
 | Belle-fille / bru | ![كنّة](audio/ar-lb_male_a00e58585f43.mp3) | kinne |
-| Fiancé(e) | ![خطيب](audio/ar-lb_male_c5f7e5bae6fd.mp3) / ![خطيبة](audio/ar-lb_male_166f41bffb3a.mp3) | khaTīb / khaTībe |
+| Fiancé(e) | ![خطيب](audio/ar-lb_male_c5f7e5bae6fd.mp3) / ![خطيبة](audio/ar-lb_male_166f41bffb3a.mp3) | khatīb / khatībe |
 | Mariage | ![عرس](audio/ar-lb_male_d247b331319b.mp3) | 3eres |
 | Marié / mariée | ![عريس](audio/ar-lb_male_951a1fb3c3fc.mp3) / ![عروس](audio/ar-lb_male_bf9b04200d83.mp3) | 3arīs / 3arūs |
-| Divorcé(e) | ![مطلّق](audio/ar-lb_male_cc3b3f18aa65.mp3) / ![مطلّقة](audio/ar-lb_male_7225f57d5f68.mp3) | mTalla2 / mTal2a |
+| Divorcé(e) | ![مطلّق](audio/ar-lb_male_cc3b3f18aa65.mp3) / ![مطلّقة](audio/ar-lb_male_7225f57d5f68.mp3) | mtalla2 / mtal2a |
 
 ## Amis et relations
 
 | Français | Libanais | Translittération |
 |----------|----------|------------------|
 | Ami(e) | ![رفيق](audio/ar-lb_male_fe9f9daea2cc.mp3) / ![رفيقة](audio/ar-lb_male_a5b0e716af32.mp3) | rfī2 / rfī2a |
-| Ami (copain) | ![صاحب](audio/ar-lb_male_1dbb9970b51e.mp3) / ![صاحبة](audio/ar-lb_male_8e859091a8aa.mp3) | Sā7eb / Sā7be |
+| Ami (copain) | ![صاحب](audio/ar-lb_male_1dbb9970b51e.mp3) / ![صاحبة](audio/ar-lb_male_8e859091a8aa.mp3) | sā7eb / sā7be |
 | Voisin(e) | ![جار](audio/ar-lb_male_8a3ce2f2c35c.mp3) / ![جارة](audio/ar-lb_male_467888506ab7.mp3) | jār / jāra |
 | Petit(e) ami(e) | ![حبيب](audio/ar-lb_male_2cc8af0ee424.mp3) / ![حبيبة](audio/ar-lb_male_4a12d65a38d0.mp3) | 7abīb / 7abībe |
 | Mon amour | ![حبيبي](audio/ar-lb_male_6ce29351880b.mp3) | 7abībe |
@@ -85,11 +91,36 @@ Beaucoup de termes apparaissent collés à un suffixe. Exemples avec « mon / to
 
 | Français | Libanais | Translittération |
 |----------|----------|------------------|
-| Bébé | ![بيبي](audio/ar-lb_male_574565c7d5d9.mp3) / ![رضيع](audio/ar-lb_male_6de58c400a2b.mp3) | bēbe / raDī3 |
+| Bébé | ![بيبي](audio/ar-lb_male_574565c7d5d9.mp3) / ![رضيع](audio/ar-lb_male_6de58c400a2b.mp3) | bēbe / radī3 |
 | Enfant | ![ولد](audio/ar-lb_male_9e78b7d0c95f.mp3) | walad |
-| Jeune | ![شاب](audio/ar-lb_male_f66d7006cc10.mp3) / ![صبي](audio/ar-lb_male_b68779c4fc85.mp3) | shēb / Sabe |
+| Jeune | ![شاب](audio/ar-lb_male_f66d7006cc10.mp3) / ![صبي](audio/ar-lb_male_b68779c4fc85.mp3) | shēb / sabe |
 | Adulte | ![بالغ](audio/ar-lb_male_956fc6d843aa.mp3) | bēligh |
 | Vieux / âgé | ![كبير بالعمر](audio/ar-lb_male_206930d31d73.mp3) | kbīr bil-3omr |
 | Célibataire | ![عازب](audio/ar-lb_male_21e156e408f7.mp3) / ![عزبا](audio/ar-lb_male_619bd2f742ad.mp3) | 3ēzeb / 3azba |
 | Marié(e) | ![متجوّز](audio/ar-lb_male_827b0aed822a.mp3) / ![متجوّزة](audio/ar-lb_male_168fdb540791.mp3) | mejjawwez / mejjawwze |
 | Enceinte | ![حبلى](audio/ar-lb_male_c3103d994bbd.mp3) | 7eble |
+
+## À retenir
+
+- Côté paternel : *3amm*, *3amme* ; côté maternel : *khāl*, *khāle*. Le cousin est « le fils de l'oncle » : *ibn 3amm*.
+- Les mots de parenté s'emploient presque toujours avec un suffixe : *bayye* (mon père), *immak* (ta mère), *khayyo* (son frère).
+- *Akh* (frère) devient *khayy-* devant un suffixe : *khayye*, *khayyak*.
+- *Rfī2* = ami ; *sā7eb* = copain, mais *sā7be* peut aussi vouloir dire « petite amie » selon le contexte.
+- *Ahle* = mes parents, ma famille proche.
+
+## Questions de révision
+
+> [!quiz] Comment dit-on « mon père » et « ma mère » ?
+> *Bayye* et *imme*.
+
+> [!quiz] Quelle différence entre *3amm* et *khāl* ?
+> *3amm* est l'oncle paternel, *khāl* l'oncle maternel.
+
+> [!quiz] Comment dit-on « mon frère » ?
+> *Khayye*.
+
+> [!quiz] Comment désigne-t-on un cousin du côté de l'oncle paternel ?
+> *Ibn 3amm* (litt. « fils de l'oncle paternel »).
+
+> [!quiz] Comment dit-on « marié » et « célibataire » ?
+> *Mejjawwez* et *3ēzeb*.

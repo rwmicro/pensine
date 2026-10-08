@@ -4,24 +4,32 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Arabe-Libanais > 06-Ressources"
 tags: [sciences-sociales, langues, arabe, arabe-libanais, ressources, anki, srs]
 date: "2026-03-31"
+prerequis: ["[[Social Sciences/Languages - Dialects/Arabe/Libanais/05-Culture/Guerre-Civile-et-Memoire]]", "[[Social Sciences/Languages - Dialects/Arabe/Libanais/05-Culture/Proverbes]]", "[[Social Sciences/Languages - Dialects/Arabe/Libanais/05-Culture/Diaspora-et-Varietes]]", "[[Social Sciences/Languages - Dialects/Arabe/Libanais/04-Vocabulaire/Technologie-et-Numerique]]", "[[Social Sciences/Languages - Dialects/Arabe/Libanais/04-Vocabulaire/Verbes]]"]
 ---
 # Anki et Ressources — Arabe Libanais
 
-## Decks Anki gratuits (ankiweb.net)
+> [!tip] Dans cette fiche
+> - Savoir avec quels outils réviser : les decks Anki du jardin, des livres, des chaînes et des podcasts.
+> - Organiser son apprentissage dans le temps, de l'alphabet à la conversation.
 
-Rechercher par nom sur ankiweb.net/shared/decks/arabic. Les IDs ci-dessous sont indicatifs et peuvent avoir été renommés ou retirés — si un ID ne répond pas, chercher par mots-clés ("Lebanese Arabic", "Levantine").
+## Decks Anki du jardin
 
-| Deck | ID AnkiWeb | Contenu | Niveau |
-|------|-----------|---------|--------|
-| Lebanese Arabic Vocabulary | 1336043493 | Vocabulaire dialectal libanais | Débutant-Intermédiaire |
-| Levantine Arabic (Lebanese Focus) | 966731036 | Phrases et vocabulaire levantin | Débutant |
-| Lebanese Arabic Core | 133807911 | Mots fréquents libanais | Débutant |
-| Arabic Lebanese Phrases | 15997591 | Phrases de survie | Débutant |
-| Lebanese Dialect Essentials | 1227104607 | Essentiel du dialecte | Débutant |
-| Levantine Arabic Sentences | 1426585845 | Phrases avec audio | Intermédiaire |
-| Lebanese Arabic with Audio | 97930634 | Vocabulaire avec prononciation | Débutant-Intermédiaire |
+Sept decks sont rangés dans le dossier `Anki/` de cette section et se révisent directement sur la page **Cartes** du site, sans installer Anki.
 
-> Recommandation : commencer par le deck 1336043493 (Lebanese Arabic Vocabulary) ou 97930634 (avec audio). L'audio est essentiel pour l'arabe libanais — la prononciation ne s'apprend pas uniquement à l'écrit.
+| Deck | Contenu | Variété | Par où commencer |
+|------|---------|---------|------------------|
+| Urban Arabic Lebanese — Beginners Book 2 (Saifi Institute) | Vocabulaire et phrases d'un manuel d'école de Beyrouth | Libanais | **Premier deck à ouvrir** |
+| Lebanese Arabic | Vocabulaire dialectal libanais | Libanais | En parallèle du parcours |
+| Lebanese Arabic for LS | Vocabulaire libanais | Libanais | Complément |
+| Levantine Arabic with audio | Mots et phrases avec audio | Levantin | Pour l'oreille |
+| Levantine Arabic Dictionary | Grand dictionnaire levantin | Levantin | Référence, pas à apprendre d'une traite |
+| Levantine Arabic — Syrian, 300 cartes audio (Eidetic) | Phrases courantes avec audio | **Syrien** | Proche du libanais, quelques différences de vocabulaire |
+| Levantine Arabic Conversations | Conversations | **Jordanien / palestinien** | Plus éloigné : à garder pour la compréhension |
+
+> [!warning] Variétés voisines
+> Les decks syrien et jordano-palestinien sont utiles pour l'écoute, mais certains mots et prononciations ne sont pas libanais (*shu hada* au lieu de *shu hayda*, *ēsh* pour « quoi »). En cas de doute, la fiche du parcours fait foi.
+
+Pour chercher d'autres decks sur ankiweb.net, utiliser les mots-clés « Lebanese Arabic » ou « Levantine ».
 
 ## Decks Anki payants — Lingualism
 
@@ -117,3 +125,25 @@ flowchart TD
 | Arabic Language Exchange | Facebook | Échanges avec natifs |
 | Levantine Arabic Learners | Facebook | Groupe dédié au levantin |
 | Discord Arabic Language Servers | Discord | Plusieurs serveurs actifs |
+
+## À retenir
+
+- Commencer par le deck *Urban Arabic Lebanese (Saifi)* sur la page Cartes, en même temps que le parcours.
+- Priorité à l'oral et à l'audio natif : le 3ayn et les emphatiques s'apprennent par imitation.
+- Apprendre directement le dialecte, pas l'arabe standard d'abord (sauf objectif écrit).
+- Manuel de référence : *Levantine Arabic for Non-Natives* (Aldrich) ; chaîne YouTube : Hiba Najem.
+- Les decks syriens et jordano-palestiniens sont proches mais pas identiques : à prendre pour l'écoute.
+
+## Questions de révision
+
+> [!quiz] Quel deck ouvrir en premier pour le libanais ?
+> *Urban Arabic Lebanese — Beginners Book 2* (Saifi Institute), sur la page Cartes.
+
+> [!quiz] Pourquoi éviter de commencer par *Al-Kitaab* pour apprendre le libanais ?
+> Parce qu'il enseigne l'arabe standard, pas le dialecte parlé.
+
+> [!quiz] Pourquoi l'audio natif est-il indispensable ?
+> Certains sons (3ayn, 7a, emphatiques) n'existent pas en français et ne s'apprennent qu'à l'écoute.
+
+> [!quiz] Quelle prudence avec les decks syrien et jordano-palestinien ?
+> Certains mots et prononciations y diffèrent du libanais.

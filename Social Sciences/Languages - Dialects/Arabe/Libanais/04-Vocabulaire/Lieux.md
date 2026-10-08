@@ -4,8 +4,14 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Arabe-Libanais > 04-Vocabulaire"
 tags: [sciences-sociales, langues, arabe, arabe-libanais, vocabulaire, lieux, directions]
 date: "2026-04-01"
+prerequis: ["[[Social Sciences/Languages - Dialects/Arabe/Libanais/04-Vocabulaire/Vocabulaire]]"]
 ---
 # Lieux et Directions — Arabe Libanais
+
+> [!tip] Dans cette fiche
+> - Demander et comprendre un itinéraire : droite, gauche, tout droit, au feu.
+> - Nommer les lieux de la ville et les moyens de transport, dont le *service* (taxi collectif).
+> - Se repérer dans Beyrouth et au Liban.
 
 ## Directions
 
@@ -21,7 +27,7 @@ date: "2026-04-01"
 | À côté de | ![جنب](audio/ar-lb_male_75d7722efca8.mp3) | janb |
 | Près de | ![ريب من](audio/ar-lb_male_365f8fdde17a.mp3) | rīb min |
 | Loin de | ![بعيد عن](audio/ar-lb_male_b5582c441220.mp3) | ba3īd 3an |
-| En haut | ![فوق](audio/ar-lb_male_11c3435db3d4.mp3) | foo2 |
+| En haut | ![فوق](audio/ar-lb_male_11c3435db3d4.mp3) | fō2 |
 | En bas | ![تحت](audio/ar-lb_male_035ff1abeb95.mp3) | ta7t |
 | À l'intérieur | ![جوّا](audio/ar-lb_male_a662ae1b01b3.mp3) | jawwa |
 | À l'extérieur | ![بره](audio/ar-lb_male_84b800d55ac2.mp3) | barra |
@@ -54,7 +60,7 @@ date: "2026-04-01"
 | Quartier | ![حي](audio/ar-lb_male_708bc9cc0918.mp3) / ![منطقة](audio/ar-lb_male_45952af366b5.mp3) | 7ayy / manta2a |
 | Bâtiment / immeuble | ![عمارة](audio/ar-lb_male_d47f30e2a5ff.mp3) | 3ammāra |
 | Appartement | ![شقة](audio/ar-lb_male_6ca7eb5fe888.mp3) | shi22a |
-| Maison | ![بيت](audio/ar-lb_male_3d375788f5cb.mp3) | beit |
+| Maison | ![بيت](audio/ar-lb_male_3d375788f5cb.mp3) | bēt |
 | Étage | ![طابق](audio/ar-lb_male_a1d79ab119c0.mp3) | tābi2 |
 | Rez-de-chaussée | ![أرضية](audio/ar-lb_male_7724aeaabc2c.mp3) | ardiyye |
 | Ascenseur | ![أسانسور](audio/ar-lb_male_e2180879da4a.mp3) | asansōr |
@@ -65,35 +71,35 @@ date: "2026-04-01"
 | Français | Libanais | Translittération |
 |----------|-------|-----------------|
 | Hôpital | ![مستشفى](audio/ar-lb_male_c4f59cf34f50.mp3) | mustashfa |
-| Pharmacie | ![صيدلية](audio/ar-lb_male_fe42f871a5cf.mp3) | Seydaliyye |
+| Pharmacie | ![صيدلية](audio/ar-lb_male_fe42f871a5cf.mp3) | saydaliyye |
 | École | ![مدرسة](audio/ar-lb_male_a3c45a97a67a.mp3) | madrasse |
 | Université | ![جامعة](audio/ar-lb_male_916c53df5231.mp3) | jāmi3a |
 | Église | ![كنيسة](audio/ar-lb_male_fcd857aeea1c.mp3) | knīse |
 | Mosquée | ![جامع](audio/ar-lb_male_4a3da5fad5d0.mp3) | jāmi3 |
-| Supermarché | ![سوبرماركت](audio/ar-lb_male_b922f3ce1de4.mp3) | süpermārket |
+| Supermarché | ![سوبرماركت](audio/ar-lb_male_b922f3ce1de4.mp3) | sūbermarket |
 | Marché | ![سوق](audio/ar-lb_male_2558d17b07d2.mp3) | sū2 |
 | Banque | ![بنك](audio/ar-lb_male_fc3eeb864ee7.mp3) | bank |
-| Bureau de change | ![صراف](audio/ar-lb_male_588cf514395c.mp3) | Sarrāf |
+| Bureau de change | ![صراف](audio/ar-lb_male_588cf514395c.mp3) | sarrāf |
 | Poste | ![بريد](audio/ar-lb_male_4b9c530f2630.mp3) | barīd |
 | Commissariat | ![مخفر](audio/ar-lb_male_2ed2fa1a72cd.mp3) | makhfar |
 | Ambassade | ![سفارة](audio/ar-lb_male_12983996ef8f.mp3) | sifāra |
-| Aéroport | ![مطار](audio/ar-lb_male_e06d91dddf4b.mp3) | maTār |
+| Aéroport | ![مطار](audio/ar-lb_male_e06d91dddf4b.mp3) | matār |
 | Port | ![مرفأ](audio/ar-lb_male_752d288d1d6b.mp3) | marfa |
-| Gare routière | ![محطة](audio/ar-lb_male_3a53cb453b86.mp3) | ma7aTTa |
+| Gare routière | ![محطة](audio/ar-lb_male_3a53cb453b86.mp3) | ma7atta |
 
 ## Restauration et loisirs
 
 | Français | Libanais | Translittération |
 |----------|-------|-----------------|
-| Restaurant | ![مطعم](audio/ar-lb_male_b295e7675aa8.mp3) | maT3am |
+| Restaurant | ![مطعم](audio/ar-lb_male_b295e7675aa8.mp3) | mat3am |
 | Café | ![كافيه](audio/ar-lb_male_4c18c9c58fa2.mp3) | kāfē |
 | Bar | ![بار](audio/ar-lb_male_2d7303453c14.mp3) | bār |
-| Boulangerie | ![فرن](audio/ar-lb_male_7f497e294691.mp3) | furrun |
+| Boulangerie | ![فرن](audio/ar-lb_male_7f497e294691.mp3) | forn |
 | Pâtisserie | ![حلوانية](audio/ar-lb_male_c6fdd0005df0.mp3) | 7alwāniyye |
-| Épicerie | ![دكان](audio/ar-lb_male_31bd5aa5249a.mp3) | dukkān |
+| Épicerie | ![دكان](audio/ar-lb_male_31bd5aa5249a.mp3) | dekkēn |
 | Hôtel | ![فندق](audio/ar-lb_male_18c8e4e3a3e2.mp3) | fundi2 |
-| Plage | ![شاطئ](audio/ar-lb_male_08b92785b50e.mp3) | shāTi |
-| Piscine | ![مسبح](audio/ar-lb_male_c0e6f0795824.mp3) | masbah |
+| Plage | ![شاطئ](audio/ar-lb_male_08b92785b50e.mp3) | shāti |
+| Piscine | ![مسبح](audio/ar-lb_male_c0e6f0795824.mp3) | masba7 |
 | Parc | ![حديقة](audio/ar-lb_male_c0da289c1853.mp3) | 7adī2a |
 | Cinéma | ![سينما](audio/ar-lb_male_211f1ce4db00.mp3) | sīnema |
 | Théâtre | ![مسرح](audio/ar-lb_male_6514cc878202.mp3) | masra7 |
@@ -109,12 +115,12 @@ date: "2026-04-01"
 | Autobus | ![أوتوبيس](audio/ar-lb_male_be3de8da44fb.mp3) | otobus |
 | Voiture | ![سيارة](audio/ar-lb_male_6e55f224b56e.mp3) | sayyāra |
 | Moto | ![موتو](audio/ar-lb_male_be50bfe07377.mp3) | moto |
-| Parking | ![بارسينج](audio/ar-lb_male_d9b89143f06f.mp3) / ![موقف](audio/ar-lb_male_1de7b4b3734b.mp3) | bārking / maw2if |
-| Station-service | ![محطة بنزين](audio/ar-lb_male_5c952968af36.mp3) | ma7aTTit benzīn |
-| Carrefour | ![تقاطع](audio/ar-lb_male_262637e98810.mp3) | ta2āTu3 |
+| Parking | ![باركينغ](audio/ar-lb_male_48fbc9eb68fb.mp3) / ![موقف](audio/ar-lb_male_1de7b4b3734b.mp3) | bārking / maw2if |
+| Station-service | ![محطة بنزين](audio/ar-lb_male_5c952968af36.mp3) | ma7attit benzīn |
+| Carrefour | ![تقاطع](audio/ar-lb_male_262637e98810.mp3) | ta2ātu3 |
 | Feu rouge | ![إشارة](audio/ar-lb_male_a7ad8d150f05.mp3) | ishāra |
 | Pont | ![جسر](audio/ar-lb_male_200328b623b2.mp3) | jisr |
-| Tunnel | ![نفق](audio/ar-lb_male_9ce6a5637f88.mp3) | naffa2 |
+| Tunnel | ![نفق](audio/ar-lb_male_9ce6a5637f88.mp3) | nafa2 |
 
 ## Formules pour demander son chemin
 
@@ -124,9 +130,9 @@ date: "2026-04-01"
 | Comment aller à... ? | ![كيف بروح على](audio/ar-lb_male_1a610f04896d.mp3)... | kīf brū7 3a... |
 | C'est loin ? | ![بعيد كتير؟](audio/ar-lb_male_55200a8a7ce4.mp3) | ba3īd ktīr? |
 | C'est à pied ? | ![فيها تمشي؟](audio/ar-lb_male_622b78e27746.mp3) | fīha tmishi? |
-| Combien de temps ? | ![قديش بياخد؟](audio/ar-lb_male_432db7757c1b.mp3) | addēsh byākhodh? |
+| Combien de temps ? | ![قديش بياخد؟](audio/ar-lb_male_432db7757c1b.mp3) | addēsh byēkhod? |
 | Je suis perdu | ![أنا ضايع](audio/ar-lb_male_abf0e8416460.mp3) | ana dēyi3 |
-| Montre-moi sur la carte | ![وريني عالخريطة](audio/ar-lb_male_f61f742b7397.mp3) | warrīni 3al-kharīTa |
+| Montre-moi sur la carte | ![وريني عالخريطة](audio/ar-lb_male_f61f742b7397.mp3) | warrīni 3al-kharīta |
 
 ## Lieux au Liban à connaître
 
@@ -134,10 +140,35 @@ date: "2026-04-01"
 |------|------------|
 | ![بيروت](audio/ar-lb_male_70d74825dcb4.mp3) (Bayrūt) | Beyrouth — capitale |
 | ![طرابلس](audio/ar-lb_male_457220da15ed.mp3) (Tarāblos) | Tripoli — 2ème ville, nord |
-| ![صيدا](audio/ar-lb_male_5b7256c76648.mp3) (Seida) | Sidon — sud |
+| ![صيدا](audio/ar-lb_male_5b7256c76648.mp3) (Sayda) | Sidon — sud |
 | ![صور](audio/ar-lb_male_9b0eae753562.mp3) (Sūr) | Tyr — extrême sud, site phénicien |
 | ![جبيل](audio/ar-lb_male_5c1ae29d734d.mp3) (Jbeil) | Byblos — site phénicien, l'une des plus vieilles villes du monde |
 | ![بعلبك](audio/ar-lb_male_f9dabd31c6ae.mp3) (Ba3albak) | Baalbek — ruines romaines monumentales |
 | ![الجبل](audio/ar-lb_male_661f8bd66dd5.mp3) (el-Jabal) | La montagne (Mont-Liban) — région maronite |
 | ![البقاع](audio/ar-lb_male_6437c90f8f24.mp3) (el-Be2ā3) | La Bekaa — plaine agricole |
 | ![الجنوب](audio/ar-lb_male_479b3f123c05.mp3) (el-Janūb) | Le Sud — zone frontalière |
+
+## À retenir
+
+- *Yamīn* (droite), *shmēl* (gauche), *doghri* (tout droit), *3al-ishāra* (au feu).
+- *Wēn... ?* (où ?) et *kīf brū7 3a... ?* (comment aller à… ?) suffisent pour demander son chemin.
+- *Sarvis* = taxi collectif à prix fixe, typiquement libanais ; *tāksi* = course privée.
+- *Fō2* / *ta7t* (en haut / en bas), *jawwa* / *barra* (dedans / dehors).
+- Beaucoup de mots de la ville viennent du français : *asansōr*, *kāfē*, *otobus*.
+
+## Questions de révision
+
+> [!quiz] Comment dit-on « droite », « gauche » et « tout droit » ?
+> *Yamīn*, *shmēl*, *doghri*.
+
+> [!quiz] Comment demander « comment aller à Hamra ? »
+> *Kīf brū7 3a l-Hamra ?*
+
+> [!quiz] Quelle différence entre un *sarvis* et un *tāksi* ?
+> Le *sarvis* est un taxi collectif à prix fixe sur un trajet ; le *tāksi* une course privée, plus chère.
+
+> [!quiz] Comment dire « je suis perdu » ?
+> *Ana dēyi3* (une femme : *ana dēy3a*).
+
+> [!quiz] Traduis « c'est loin ? ».
+> *Ba3īd ?* (ou *ba3īd ktīr ?*).

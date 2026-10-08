@@ -4,14 +4,20 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Arabe-Libanais > 03-Grammaire"
 tags: [sciences-sociales, langues, arabe, arabe-libanais, grammaire, imperatif]
 date: "2026-04-14"
+prerequis: ["[[Social Sciences/Languages - Dialects/Arabe/Libanais/02-Communication/Situations]]", "[[Social Sciences/Languages - Dialects/Arabe/Libanais/04-Vocabulaire/Verbes]]"]
 ---
 # Impératif — Arabe Libanais
 
 L'impératif sert aux ordres, invitations et demandes. Il se construit à partir de la racine verbale avec des voyelles et suffixes selon le genre et le nombre de l'interlocuteur.
 
+> [!tip] Dans cette fiche
+> - Donner un ordre ou une invitation à un homme, une femme ou un groupe.
+> - Adoucir une demande pour qu'elle reste polie.
+> - Interdire (« ne pars pas ! ») et ajouter un pronom (« regarde-moi ! »).
+
 ## Formation générale
 
-L'impératif libanais dérive de la forme présente **sans** le préfixe b-, avec parfois une voyelle initiale prothétique.
+L'impératif libanais dérive de la forme présente **sans** le préfixe b- **ni** le préfixe de personne *t-* : *btshūf* → *(t)shūf* → **shūf !** Quand le mot commence alors par deux consonnes, on ajoute un *i-* d'appui : *bte7ki* → **i7ki !** On ajoute ensuite *-i* pour une femme et *-u* pour plusieurs personnes.
 
 | Présent (tu, m.) | Impératif (m.) | Impératif (f.) | Impératif (pl.) |
 |------------------|----------------|----------------|-----------------|
@@ -19,7 +25,7 @@ L'impératif libanais dérive de la forme présente **sans** le préfixe b-, ave
 | btākul (tu manges) | ![كول](audio/ar-lb_male_072423e77c0b.mp3) (kūl) | ![كولي](audio/ar-lb_male_86257bec2060.mp3) (kūli) | ![كولو](audio/ar-lb_male_e6bbea8179fd.mp3) (kūlu) |
 | bte7ki (tu parles) | ![احكي](audio/ar-lb_male_0a3550ba038d.mp3) (i7ki) | ![احكي](audio/ar-lb_male_0a3550ba038d.mp3) (i7ki) | ![احكو](audio/ar-lb_male_a37072e630d7.mp3) (i7ku) |
 | btshūf (tu vois) | ![شوف](audio/ar-lb_male_af086d82e9d0.mp3) (shūf) | ![شوفي](audio/ar-lb_male_97c96a1a8f1c.mp3) (shūfi) | ![شوفو](audio/ar-lb_male_74b3782aa180.mp3) (shūfu) |
-| btijlis (tu t'assois) | ![اقعد](audio/ar-lb_male_12522cf45749.mp3) (i23od) | ![اقعدي](audio/ar-lb_male_717c837342b5.mp3) (i23odi) | ![اقعدو](audio/ar-lb_male_ec9917d8b614.mp3) (i23odu) |
+| bto23od (tu t'assois) | ![اقعد](audio/ar-lb_male_12522cf45749.mp3) (i23od) | ![اقعدي](audio/ar-lb_male_717c837342b5.mp3) (i23odi) | ![اقعدو](audio/ar-lb_male_ec9917d8b614.mp3) (i23odu) |
 
 ## Impératifs très fréquents
 
@@ -32,9 +38,9 @@ L'impératif libanais dérive de la forme présente **sans** le préfixe b-, ave
 | Écoute ! | ![اسمع](audio/ar-lb_male_c832256468c4.mp3) / ![اسمعي](audio/ar-lb_male_d5b5f759c81d.mp3) / ![اسمعو](audio/ar-lb_male_0ddd7359ae57.mp3) | isma3 / isma3i / isma3u |
 | Prends ! | ![خد](audio/ar-lb_male_2e7ad75d7674.mp3) / ![خدي](audio/ar-lb_male_231d6fbe8a3c.mp3) / ![خدو](audio/ar-lb_male_d51ebaf139fe.mp3) | khod / khodi / khodu |
 | Donne-moi ! | ![عطيني](audio/ar-lb_male_12fdbaec5ed0.mp3) / ![عطيني](audio/ar-lb_male_12fdbaec5ed0.mp3) / ![عطوني](audio/ar-lb_male_7154e5e87238.mp3) | 3atīni / 3atīni / 3atūni |
-| Dis-moi ! | ![قللي](audio/ar-lb_male_a3e964887c90.mp3) / ![قليلي](audio/ar-lb_male_4ff12a82b17b.mp3) / ![قلولي](audio/ar-lb_male_8dc739d590d3.mp3) | illi / illīli / illūli |
-| Assieds-toi ! | ![قعود](audio/ar-lb_male_2ad57dbee0fc.mp3) / ![قعدي](audio/ar-lb_male_1a0c90484064.mp3) / ![قعدو](audio/ar-lb_male_828582a53ac9.mp3) | i23od / i23odi / i23odu |
-| Lève-toi ! | ![قوم](audio/ar-lb_male_4b435f753d49.mp3) / ![قومي](audio/ar-lb_male_9aa57761a964.mp3) / ![قومو](audio/ar-lb_male_069514704c66.mp3) | um / ūmi / ūmu |
+| Dis-moi ! | ![قللي](audio/ar-lb_male_a3e964887c90.mp3) / ![قليلي](audio/ar-lb_male_4ff12a82b17b.mp3) / ![قلولي](audio/ar-lb_male_8dc739d590d3.mp3) | illi / ilīli / ilūli |
+| Assieds-toi ! | ![اقعد](audio/ar-lb_male_12522cf45749.mp3) / ![قعدي](audio/ar-lb_male_1a0c90484064.mp3) / ![قعدو](audio/ar-lb_male_828582a53ac9.mp3) | i23od / i23odi / i23odu |
+| Lève-toi ! | ![قوم](audio/ar-lb_male_4b435f753d49.mp3) / ![قومي](audio/ar-lb_male_9aa57761a964.mp3) / ![قومو](audio/ar-lb_male_069514704c66.mp3) | ūm / ūmi / ūmu |
 | Entre ! | ![فوت](audio/ar-lb_male_061bcfdff36f.mp3) / ![فوتي](audio/ar-lb_male_b4d9ab353f53.mp3) / ![فوتو](audio/ar-lb_male_c45b68f863cc.mp3) | fūt / fūti / fūtu |
 | Dépêche-toi ! | ![يلا بسرعة](audio/ar-lb_male_5d5ff0081b9b.mp3) | yalla bsur3a |
 | Laisse tomber ! | ![خلص](audio/ar-lb_male_e25162d95e2b.mp3) / ![خلصي](audio/ar-lb_male_13a86e0b5a3b.mp3) | khalas / khalsi |
@@ -55,7 +61,7 @@ Exemples :
 - فيك تعطيني مي؟ (fīk ta3tīni mayy?) — Tu peux me donner de l'eau ?
 - من فضلك سكر الباب (min fadlak sakker el-bēb) — Ferme la porte s'il te plaît.
 - يلا تعا (yalla ta3a) — Allez, viens.
-- بلا قلّي شو صار (balla illi shu Sār) — Dis-moi ce qui s'est passé, s'il te plaît.
+- بلا قلّي شو صار (balla illi shu sār) — Dis-moi ce qui s'est passé, s'il te plaît.
 
 ## Impératif négatif
 
@@ -78,3 +84,28 @@ L'objet direct s'attache à l'impératif comme aux autres formes verbales.
 | Dis-lui ! | ![قلّو](audio/ar-lb_male_b3794c437b8d.mp3) | illo |
 | Aide-nous ! | ![ساعدنا](audio/ar-lb_male_fa70fc712994.mp3) | sā3idna |
 | Attends-moi ! | ![استناني](audio/ar-lb_male_4e356e3f4107.mp3) | istannēni |
+
+## À retenir
+
+- Impératif = présent sans *b-* ni *t-* : *btshūf* → *shūf !* ; ajouter *i-* si besoin : *i7ki !*
+- Femme : *-i* (*shūfi*) ; pluriel : *-u* (*shūfu*).
+- Irréguliers très fréquents : *ta3a* (viens), *khod* (prends), *kūl* (mange).
+- Pour adoucir : *min fadlak*, *law sama7t*, ou mieux *fīk* + verbe (*fīk tsakker el-bēb ?*).
+- Négatif : *mā* + présent sans b- : *mā trū7 !*
+
+## Questions de révision
+
+> [!quiz] Comment dit-on « viens ! » à un homme, une femme, un groupe ?
+> *Ta3a*, *ta3i*, *ta3u*.
+
+> [!quiz] Forme l'impératif de *btshūf* pour une femme.
+> *Shūfi !*
+
+> [!quiz] Comment dire « assieds-toi » poliment à un invité ?
+> *Tfaddal, i23od* ; ou *fīk ti23od*. (*Tfaddal* seul suffit souvent.)
+
+> [!quiz] Comment dire « ne t'inquiète pas » à un homme ?
+> *Mā tit2ala2 !* (pluriel *mā tit2ala2u*).
+
+> [!quiz] Traduis « donne-le-moi ».
+> *3atīni yē*.

@@ -4,16 +4,22 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Arabe-Libanais > 02-Communication"
 tags: [sciences-sociales, langues, arabe, arabe-libanais, salutations, communication]
 date: "2026-03-31"
+prerequis: ["[[Social Sciences/Languages - Dialects/Arabe/Libanais/01-Phonologie/Alphabet-Prononciation]]"]
 ---
 # Salutations — Arabe Libanais
 
-Les salutations libanaises sont souvent des échanges ritualisés multi-tours — connaître les paires question/réponse est essentiel. Cette fiche couvre les salutations en profondeur ; pour les phrases de survie tout-terrain, voir [[Social Sciences/Languages - Dialects/Arabe/Libanais/03-Communication/Phrases-Essentielles|Phrases Essentielles]].
+Les salutations libanaises sont souvent des échanges ritualisés multi-tours — connaître les paires question/réponse est essentiel. Cette fiche couvre les salutations en profondeur ; pour les phrases de survie tout-terrain, voir [[Social Sciences/Languages - Dialects/Arabe/Libanais/02-Communication/Phrases-Essentielles|Phrases Essentielles]].
+
+> [!tip] Dans cette fiche
+> - Saluer quelqu'un à tout moment de la journée et **donner la bonne réponse** : au Liban, chaque formule appelle sa réplique.
+> - Mener l'échange rituel du « comment ça va ? » sans répondre sèchement.
+> - Utiliser les formules de circonstance : repas, travail, félicitations, condoléances.
 
 ## Salutations principales et leurs réponses
 
 | Salutation | Réponse standard | Contexte |
 |------------|-----------------|---------|
-| ![مرحبا](audio/ar-lb_male_3612a31ad7aa.mp3) (mar7aba) | ![مرحبتين](audio/ar-lb_male_aff8a6c02d85.mp3) (mar7abtein) | Universel, chaleureux |
+| ![مرحبا](audio/ar-lb_male_3612a31ad7aa.mp3) (mar7aba) | ![مرحبتين](audio/ar-lb_male_aff8a6c02d85.mp3) (mar7abtēn) | Universel, chaleureux |
 | ![هلا](audio/ar-lb_male_34e32cc07127.mp3) (hala) | ![هلا فيك](audio/ar-lb_male_940f05096c2c.mp3) (hala fīk) | Informel, jeunes |
 | ![السلام عليكم](audio/ar-lb_male_4ec3b1c49ae5.mp3) (es-salāmu 3alaykum) | ![وعليكم السلام](audio/ar-lb_male_429257b54f3f.mp3) (wa 3alaykum es-salēm) | Islamique / formel |
 | ![صباح الخير](audio/ar-lb_male_b0e8d87781cf.mp3) (sabā7 el-khēr) | ![صباح النور](audio/ar-lb_male_88de292fbdf2.mp3) (sabā7 en-nūr) | Bonjour le matin |
@@ -42,33 +48,61 @@ Le Libanais typique ne répond pas "bien" sèchement — l'échange de salutatio
 
 | Expression | Translittération | Sens / usage |
 |-----------|-----------------|-------------|
-| ![مع السلامة](audio/ar-lb_male_354826c3721f.mp3) | ma3 el-salēme | Au revoir (universel) |
-| ![تصبح على خير](audio/ar-lb_male_5b25a67beb44.mp3) | tSba7 3a khēr | Bonne nuit (à celui qui part) |
-| ![يصبح على خير](audio/ar-lb_male_df5c3fc0fb75.mp3) | yiSba7 3a khēr | Bonne nuit (réponse) |
+| ![مع السلامة](audio/ar-lb_male_354826c3721f.mp3) | ma3 es-salēme | Au revoir (universel) |
+| ![تصبح على خير](audio/ar-lb_male_5b25a67beb44.mp3) | tisba7 3a khēr (m.) / tisba7i (f.) | Bonne nuit (litt. « réveille-toi sur le bien ») |
+| ![وإنت من أهلو](audio/ar-lb_male_fe459fff8200.mp3) | w inta min ahlo | Réponse : « et toi aussi » (litt. « et toi, des siens ») |
 | ![يلا باي](audio/ar-lb_male_0700216c17c5.mp3) | yalla bye | Salut ! (informel, code-switching) |
-| ![تسلم](audio/ar-lb_male_f0eecb32c069.mp3) | tslam (m.) / tsalmi (f.) | Merci / prends soin de toi (chaleureux) |
+| ![تسلم](audio/ar-lb_male_f0eecb32c069.mp3) | tislam (m.) / tislami (f.) | Merci / prends soin de toi (chaleureux) |
 | ![يلا، روح](audio/ar-lb_male_056736effa95.mp3) (m.) / ![روحي](audio/ar-lb_male_d985c77edbed.mp3) (f.) | yalla, rū7 / rū7i | Allez, vas-y (amical) |
 
 ## Habibi — terme d'adresse
 
 **حبيبي** (7abībi, m.) / **حبيبتي** (7abībti, f.) = littéralement "mon amour / mon chéri" mais s'utilise comme terme d'adresse générique et chaleureux entre amis, famille, et même étrangers au Liban.
 
-| Usage | Exemple | Sens |
-|-------|---------|------|
-| Affectif | ![يلا حبيبي](audio/ar-lb_male_4a9f560ec0a6.mp3) | Allez, mon vieux |
-| Emphase | ![حبيبي، شو عم بتعمل؟](audio/ar-lb_male_3c49b1c09ff8.mp3) | Mon ami, mais qu'est-ce que tu fais ? |
-| Sarcasme doux | ![آه حبيبي](audio/ar-lb_male_f83222cd88b8.mp3)... | Ben voyons... |
-| Hospitalité | ![تفضل حبيبي](audio/ar-lb_male_4543e8d01a03.mp3) | Entrez, je vous en prie |
+| Usage | Exemple | Translittération | Sens |
+|-------|---------|------------------|------|
+| Affectif | ![يلا حبيبي](audio/ar-lb_male_4a9f560ec0a6.mp3) | yalla 7abībi | Allez, mon vieux |
+| Emphase | ![حبيبي، شو عم بتعمل؟](audio/ar-lb_male_3c49b1c09ff8.mp3) | 7abībi, shu 3am ta3mol? | Mon ami, mais qu'est-ce que tu fais ? |
+| Sarcasme doux | ![آه حبيبي](audio/ar-lb_male_f83222cd88b8.mp3)... | āh 7abībi... | Ben voyons... |
+| Hospitalité | ![تفضل حبيبي](audio/ar-lb_male_4543e8d01a03.mp3) | tfaddal 7abībi | Entrez, je vous en prie |
 
 ## Salutations dans des contextes spécifiques
 
 | Contexte | Expression | Translittération |
 |---------|-----------|-----------------|
-| Quelqu'un qui mange | ![صحتين](audio/ar-lb_male_4d63406516a5.mp3) | sa77tein (bon appétit) |
-| Réponse à sa77tein | ![الله يعطيك الصحة](audio/ar-lb_male_dcdfd475a7ac.mp3) | allah ya3tīk es-si77a |
+| Quelqu'un qui mange | ![صحتين](audio/ar-lb_male_4d63406516a5.mp3) | sa77tēn (bon appétit) |
+| Réponse à sa77tēn | ![الله يعطيك الصحة](audio/ar-lb_male_dcdfd475a7ac.mp3) | allah ya3tīk es-si77a |
 | Quelqu'un qui travaille | ![الله يعينك](audio/ar-lb_male_a48b74ed6be0.mp3) | allah y3īnak (Dieu t'aide) |
 | Réponse | ![الله يعين الكل](audio/ar-lb_male_368f937229ab.mp3) | allah y3īn el-kill |
 | Après un effort physique | ![يعطيك العافية](audio/ar-lb_male_e07a1eed2538.mp3) | ya3tīk el-3āfye |
 | Félicitations | ![مبروك](audio/ar-lb_male_373d58c588d1.mp3) | mabrūk |
 | Réponse à mabruk | ![الله يبارك فيك](audio/ar-lb_male_258ce81f3be4.mp3) | allah ybārik fīk |
 | Condoléances | ![عظم الله أجرك](audio/ar-lb_male_267592bc167c.mp3) | 3azzam allah ajrak |
+
+## À retenir
+
+- Les salutations vont **par paires** : *mar7aba* → *mar7abtēn*, *sabā7 el-khēr* → *sabā7 en-nūr*, *mabrūk* → *allah ybārik fīk*.
+- On répond au « comment ça va ? » par *mnī7, el-7amdillah* ; un simple « bien » sonne froid.
+- Les formules s'accordent : *kīfak* à un homme, *kīfik* à une femme ; *tislam* / *tislami*.
+- *7abībi* / *7abībti* est un terme d'adresse chaleureux, pas seulement amoureux.
+- *yalla bye* montre le mélange arabe-anglais typique de Beyrouth.
+
+## Questions de révision
+
+> [!quiz] Que répond-on à *mar7aba* ?
+> *Mar7abtēn* (« deux bonjours »), ou *ahlan*.
+
+> [!quiz] Quelle est la réponse à *sabā7 el-khēr* ?
+> *Sabā7 en-nūr* (« matin de lumière »).
+
+> [!quiz] Comment demande-t-on « comment vas-tu ? » à une femme ?
+> *Kīfik ?* (à un homme : *kīfak ?*).
+
+> [!quiz] Que dit-on à quelqu'un qui mange, et que répond-il ?
+> *Sa77tēn !* ; il répond *allah ya3tīk es-sa77a*.
+
+> [!quiz] Que dit-on à quelqu'un qui vient d'annoncer une bonne nouvelle ?
+> *Mabrūk !* ; il répond *allah ybārik fīk*.
+
+> [!quiz] Que signifie *ya3tīk el-3āfye* et quand l'emploie-t-on ?
+> « Que Dieu te donne la force » : à quelqu'un qui travaille ou vient de faire un effort.
