@@ -4,16 +4,22 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Arabe-Libanais > 05-Culture"
 tags: [sciences-sociales, langues, arabe, arabe-libanais, culture, diaspora, sociolinguistique]
 date: "2026-04-14"
+prerequis: ["[[Social Sciences/Languages - Dialects/Arabe/Libanais/05-Culture/Histoire-Langue]]"]
 ---
 # Diaspora et Variétés — Arabe Libanais
 
 Le Liban compte ~4-5 millions d'habitants mais sa diaspora est estimée à 8-14 millions dans le monde. Cette population a développé des variétés linguistiques propres à chaque pays d'implantation, tout en restant en contact linguistique avec le Liban.
 
+> [!tip] Dans cette fiche
+> - Mesurer l'ampleur de la diaspora libanaise et ses grandes vagues de départ.
+> - Reconnaître les variétés de libanais selon la région (Beyrouth, Nord, Sud, Montagne, Bekaa) et le pays d'émigration.
+> - Identifier quelques indices d'origine à l'oreille, notamment la prononciation du qāf.
+
 ## Ampleur de la diaspora
 
 | Pays | Estimation | Période d'émigration majeure |
 |------|-----------|------------------------------|
-| Brésil | 7-10 millions | 1880-1930, 1975-1990 |
+| Brésil | 7-10 millions (estimation large et discutée, descendants inclus) | 1880-1930, 1975-1990 |
 | Argentine | ~1,5 million | 1890-1920 |
 | États-Unis | ~500 000 | 1880-1920, 1975-1990 |
 | Mexique | ~500 000 | 1890-1920 |
@@ -58,7 +64,6 @@ Forte bilinguisme, code-switching intense, libanais vivant.
 | Lexique | Emprunts français directs : `ouais`, `du coup`, `truc`, `genre` — intégrés dans l'arabe libanais |
 | Phonologie | Influence du français sur le /r/ grasseyé, les voyelles nasales |
 | Maintien | Fort chez 2ᵉ génération, s'érode à la 3ᵉ |
-| Particularités | Famille `Maroun`, `Khoury`, `Debbas` conservent souvent les formes urbaines beyrouthines |
 
 ### Américano-libanais / Lebanese-American Arabic
 
@@ -80,7 +85,7 @@ Sydney (Bankstown, Lakemba) — population chiite du sud-Liban majoritaire.
 | Anglais | Intégré mais moins dense que chez les Américains |
 | Identité | Forte conscience identitaire, libanais transmis activement |
 
-### Ouest-africain — "le sirop libanais"
+### Ouest-africain
 
 Sénégal, Côte d'Ivoire, Ghana, Guinée, Nigeria, Sierra Leone. Souvent commerçants, communautés étendues.
 
@@ -124,7 +129,6 @@ La diaspora alimente le Liban en retour :
 | Indice | Probable origine |
 |--------|-----------------|
 | qāf prononcé `q` | Druze de montagne ; parfois rural nordiste |
-| qāf prononcé `k` (plus rare) | Chrétien rural de certaines zones |
 | qāf prononcé `g` | Bédouin ou Bekaa sud |
 | qāf → coup de glotte `ʔ` | Norme urbaine (Beyrouth, Tripoli ville) |
 | Fort code-switching français | Beyrouth, Mont-Liban chrétien, diaspora France |
@@ -139,4 +143,26 @@ La diaspora alimente le Liban en retour :
 | **Transmission diasporique** | En recul général après la 2ᵉ génération, sauf communautés endogames |
 | **Convergence avec l'arabizi** | Les diasporas 3ᵉ génération communiquent surtout par écrit arabizi avec famille au Liban |
 | **Prestige** | Variétés beyrouthines urbaines restent prestigieuses ; dialectes ruraux peuvent être stigmatisés |
-| **Standardisation** | Aucune, même si certaines plateformes (Wikipedia en libanais) tentent de codifier |
+| **Standardisation** | Aucune ; quelques initiatives (dictionnaires, méthodes, conventions d'arabizi) proposent des graphies, sans consensus |
+
+## À retenir
+
+- La diaspora est plus nombreuse que la population du Liban ; les grandes vagues suivent les crises (fin XIXᵉ, guerre civile, 2019).
+- Le qāf trahit l'origine : coup de glotte en ville, *q* chez les Druzes, *g* chez certains Bédouins.
+- Le Sud est plus proche du palestinien, le Nord et la Bekaa du syrien.
+- En diaspora, la langue se mélange à celle du pays (*kārro* au Brésil) et s'érode souvent à la 3ᵉ génération.
+- Aucune orthographe standard : l'arabizi relie la diaspora et le pays.
+
+## Questions de révision
+
+> [!quiz] Comment un Druze de la montagne prononce-t-il souvent le qāf ?
+> Comme un vrai *q* (alors qu'à Beyrouth c'est un coup de glotte).
+
+> [!quiz] Quelles grandes crises ont provoqué des vagues d'émigration ?
+> La fin de l'Empire ottoman (famine), la guerre civile (1975-1990), l'effondrement économique de 2019.
+
+> [!quiz] Dans quel pays vit la plus grande diaspora libanaise ?
+> Au Brésil (estimations de plusieurs millions de descendants).
+
+> [!quiz] De quel dialecte voisin le libanais du Sud est-il proche ?
+> Du palestinien.

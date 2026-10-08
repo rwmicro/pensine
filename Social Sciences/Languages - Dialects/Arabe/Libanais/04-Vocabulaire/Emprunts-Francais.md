@@ -4,10 +4,15 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Arabe-Libanais > 04-Vocabulaire"
 tags: [sciences-sociales, langues, arabe, arabe-libanais, emprunts, français]
 date: "2026-03-31"
+prerequis: ["[[Social Sciences/Languages - Dialects/Arabe/Libanais/02-Communication/Registres]]"]
 ---
 # Emprunts Français — Arabe Libanais
 
 Le Liban a été sous mandat français de 1920 à 1943. Cette période, combinée au prestige culturel du français dans la bourgeoisie levantine, a profondément marqué le vocabulaire libanais. Des centaines de mots français sont intégrés dans l'arabe libanais quotidien, souvent avec des adaptations phonologiques.
+
+> [!tip] Dans cette fiche
+> - Reconnaître les mots français du libanais et comment ils ont été adaptés (*bārking*, *sālōn*, *randevu*).
+> - Comprendre pourquoi le français est si présent (mandat 1920-1943, écoles francophones) et ce que son usage dit socialement.
 
 ## Règles d'adaptation phonologique
 
@@ -52,7 +57,7 @@ Ces mots sont utilisés comme si c'était de l'arabe libanais, sans conscience d
 | Professeur | ![بروفيسور](audio/ar-lb_male_b3dc0f1f6535.mp3) | profēsor | Éducation |
 | École | ![مدرسة](audio/ar-lb_male_a3c45a97a67a.mp3) | (arabe) | Éducation |
 | Classe | ![كلاس](audio/ar-lb_male_6486a3902a7d.mp3) | klās | Éducation |
-| Bureau | ![بيرو](audio/ar-lb_male_db8a35006c05.mp3) | büro | Travail |
+| Bureau | ![بيرو](audio/ar-lb_male_db8a35006c05.mp3) | biro | Travail |
 | Rendez-vous | ![رندي فو](audio/ar-lb_male_11fa34c0b550.mp3) | randevu | Travail / social |
 | Problème | ![بروبليم](audio/ar-lb_male_c1405dc187e7.mp3) | problēm | Général |
 | Chance | ![شانس](audio/ar-lb_male_02b376ad565f.mp3) | shāns | Général |
@@ -103,3 +108,28 @@ L'anglais concurrence de plus en plus le français comme langue de prestige, not
 | Selfie | ![سيلفي](audio/ar-lb_male_2cdbe5226741.mp3) | selfie |
 
 > Le choix entre l'emprunt français et l'emprunt anglais est souvent générationnel et genré : les plus de 40 ans et les femmes tendent vers le français, les moins de 30 ans et les hommes vers l'anglais.
+
+## À retenir
+
+- Le *p* devient souvent *b* (*bārking*), les nasales disparaissent (*restorān*, *balkōn*).
+- *Mersi* est aussi courant que *shukran* ; *bonjour* et *bonsoir* s'entendent partout à Beyrouth.
+- Beaucoup de mots du quotidien viennent du français : *sālōn*, *twālet*, *gātō*, *shufēr*, *randevu*.
+- Ces mots prennent la grammaire libanaise : *fī problēm*, *biddi ākhod randevu*.
+- L'anglais concurrence le français chez les jeunes, surtout dans la tech.
+
+## Questions de révision
+
+> [!quiz] Comment dit-on « parking » en libanais et pourquoi ?
+> *Bārking* : le *p* n'existe pas en arabe et devient *b*.
+
+> [!quiz] Traduis « je veux prendre rendez-vous ».
+> *Biddi ākhod randevu*.
+
+> [!quiz] Que veut dire *fī problēm* ?
+> « Il y a un problème ».
+
+> [!quiz] Pourquoi le français a-t-il autant marqué le libanais ?
+> Le mandat français (1920-1943) et le prestige durable des écoles et de la culture francophones.
+
+> [!quiz] Comment dit-on « gâteau » à Beyrouth ?
+> *Gātō*.

@@ -4,16 +4,21 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Arabe-Libanais > 04-Vocabulaire"
 tags: [sciences-sociales, langues, arabe, arabe-libanais, vocabulaire, expressions, idiomes]
 date: "2026-04-01"
+prerequis: ["[[Social Sciences/Languages - Dialects/Arabe/Libanais/04-Vocabulaire/Faux-Amis-et-Pieges]]"]
 ---
 # Expressions Idiomatiques — Arabe Libanais
 
 Expressions figées dont le sens ne se déduit pas de la traduction littérale. Indispensables pour sonner naturel.
 
+> [!tip] Dans cette fiche
+> - Comprendre et employer une cinquantaine d'expressions figées qui font « sonner » libanais.
+> - Savoir répondre à une demande ou à un service avec les formules de politesse imagées.
+
 ## Corps et santé
 
 | Expression | Translittération | Sens littéral | Sens réel |
 |-----------|----------------|---------------|-----------|
-| ![يسلمو إيديكي](audio/ar-lb_male_5283977eedaa.mp3) | yislamu eydēki | Que tes mains soient saines | Merci (à quelqu'un qui a cuisiné ou fabriqué quelque chose) |
+| ![يسلمو إيديكي](audio/ar-lb_male_5283977eedaa.mp3) | yislamu idēki | Que tes mains soient saines | Merci (à quelqu'un qui a cuisiné ou fabriqué quelque chose) |
 | ![على راسي](audio/ar-lb_male_b3afb5855cae.mp3) | 3a rāsi | Sur ma tête | Avec plaisir / j'accepte avec honneur |
 | ![بعيون](audio/ar-lb_male_d29bc503ecca.mp3) | b3yūn | Avec les yeux | Avec plaisir (réponse à une demande) |
 | ![من عيوني](audio/ar-lb_male_3469987b0cf7.mp3) | min 3yūni | De mes yeux | Bien sûr, avec joie |
@@ -30,7 +35,7 @@ Expressions figées dont le sens ne se déduit pas de la traduction littérale. 
 |-----------|----------------|---------------|-----------|
 | ![مش هلق](audio/ar-lb_male_bb46469b3be6.mp3) | mish halla2 | Pas maintenant | Ce n'est pas le bon moment |
 | ![عالماشي](audio/ar-lb_male_8034452d1c94.mp3) | 3al mēshi | En marchant | En passant / rapidement / sans effort |
-| ![لحظة](audio/ar-lb_male_7ad10887a684.mp3) | la7dhe | Un moment | Attends une seconde |
+| ![لحظة](audio/ar-lb_male_7ad10887a684.mp3) | la7za | Un moment | Attends une seconde |
 | ![شوي شوي](audio/ar-lb_male_02ea22098405.mp3) | shwayy shwayy | Petit à petit | Doucement / lentement |
 | ![بالآخر](audio/ar-lb_male_87d69e273932.mp3) | bil-ākhir | À la fin | Finalement / au bout du compte |
 | ![من أول وجديد](audio/ar-lb_male_5728cab4928b.mp3) | min awwal w jdīd | Depuis le début et nouveau | Recommencer de zéro |
@@ -41,7 +46,7 @@ Expressions figées dont le sens ne se déduit pas de la traduction littérale. 
 
 | Expression | Translittération | Sens littéral | Sens réel |
 |-----------|----------------|---------------|-----------|
-| ![ما في مصاري](audio/ar-lb_male_7bd0ee5f8ebb.mp3) | mā fī maSāri | Il n'y a pas d'argent | Je suis fauché / on n'a pas de budget |
+| ![ما في مصاري](audio/ar-lb_male_7bd0ee5f8ebb.mp3) | mā fī masāri | Il n'y a pas d'argent | Je suis fauché / on n'a pas de budget |
 | ![حساب مفتوح](audio/ar-lb_male_ce8811604408.mp3) | 7sēb maftū7 | Compte ouvert | Tout est aux frais de quelqu'un d'autre |
 | ![على حسابي](audio/ar-lb_male_d2b07437a790.mp3) | 3a 7sēbi | Sur mon compte | C'est ma tournée / j'invite |
 | ![طلع بالفاضي](audio/ar-lb_male_2c4c362dc6fd.mp3) | tili3 bil-fēdi | Il est sorti dans le vide | Ça n'a rien donné / peine perdue |
@@ -53,9 +58,9 @@ Expressions figées dont le sens ne se déduit pas de la traduction littérale. 
 |-----------|----------------|---------------|-----------|
 | ![حبيب](audio/ar-lb_male_2cc8af0ee424.mp3) 2albi | 7abīb 2albi | Amour de mon cœur | Mon très cher ami (très affectif) |
 | ![منّا ومنّكن](audio/ar-lb_male_3cfef6dec2ee.mp3) | minna w minnkon | De nous et de vous | On est pareils / de la même famille / entre nous |
-| ![زيّك زيّي](audio/ar-lb_male_a387c2718e8c.mp3) | zayyak zayyī | Comme toi comme moi | On est dans le même bateau |
+| ![متلك متلي](audio/ar-lb_male_1afdc357f74c.mp3) | metlak metli | Comme toi comme moi | On est dans le même bateau |
 | ![كل واحد ومزاجو](audio/ar-lb_male_79033b085fdc.mp3) | kull wē7id w mazājo | Chacun et son humeur | Chacun fait comme il veut |
-| ![ما علينا](audio/ar-lb_male_91e4ef2e2f08.mp3) | mā 3aleina | Ce n'est pas sur nous | N'en parlons plus / passons |
+| ![ما علينا](audio/ar-lb_male_91e4ef2e2f08.mp3) | mā 3alēna | Ce n'est pas sur nous | N'en parlons plus / passons |
 | ![ما بيهمك](audio/ar-lb_male_b5e6891bea17.mp3) | mā byihimmak | Ça ne te concerne pas | T'inquiète pas / c'est pas ton problème |
 | ![هيك هو](audio/ar-lb_male_f95bda8e1886.mp3) | hēk huwwe | C'est comme ça qu'il est | C'est sa nature / c'est lui tout craché |
 | ![مكان ما بتروح](audio/ar-lb_male_360c9ab66daa.mp3) | makēn mā btrū7 | Partout où tu vas | Peu importe où tu vas |
@@ -79,9 +84,9 @@ Expressions figées dont le sens ne se déduit pas de la traduction littérale. 
 |-----------|----------------|---------------|-----------|
 | ![تفضّل](audio/ar-lb_male_0b03a16a296e.mp3) / ![تفضّلي](audio/ar-lb_male_caa6202d1590.mp3) | tafaddal / tafaddali | Veuillez (entrer/prendre) | Entrez / asseyez-vous / servez-vous |
 | ![أنا عازمك](audio/ar-lb_male_2ee126e6f138.mp3) | ana 3āzmak | Je t'ai invité | C'est ma tournée / j'insiste pour payer |
-| ![على عيني](audio/ar-lb_male_92f734a02a54.mp3) | 3a 3eini | Sur mon œil | Avec plaisir / chez moi tu es le bienvenu |
-| ![بيتي بيتك](audio/ar-lb_male_1bf0dc1192be.mp3) | beiti beitak | Ma maison est ta maison | Tu es chez toi ici |
-| ![مبسوطين فيك](audio/ar-lb_male_0cca30cf950d.mp3) | mabsūTīn fīk | On est contents de toi | On est contents que tu sois là |
+| ![على عيني](audio/ar-lb_male_92f734a02a54.mp3) | 3a 3ēni | Sur mon œil | Avec plaisir / chez moi tu es le bienvenu |
+| ![بيتي بيتك](audio/ar-lb_male_1bf0dc1192be.mp3) | bēti bētak | Ma maison est ta maison | Tu es chez toi ici |
+| ![مبسوطين فيك](audio/ar-lb_male_0cca30cf950d.mp3) | mabsūtīn fīk | On est contents de toi | On est contents que tu sois là |
 
 ## Expressions avec Allah
 
@@ -97,4 +102,32 @@ L'usage du nom de Dieu est socialement neutre et non exclusivement religieux au 
 | ![الله يعينك](audio/ar-lb_male_a48b74ed6be0.mp3) | allah y3īnak | Que Dieu t'aide (quand quelqu'un travaille ou est dans la difficulté) |
 | ![الله يخليلك](audio/ar-lb_male_b3d99cecacb6.mp3) | allah ykhallīlak | Que Dieu te le garde (après un compliment sur un enfant/proche) |
 | ![يعطيك العافية](audio/ar-lb_male_e07a1eed2538.mp3) | ya3tīk el-3āfye | Que Dieu te donne la santé (réponse à un effort) |
-| ![تسلم](audio/ar-lb_male_f0eecb32c069.mp3) | tslam | Que tu restes sain / merci chaleureux |
+| ![تسلم](audio/ar-lb_male_f0eecb32c069.mp3) | tislam | Que tu restes sain / merci chaleureux |
+
+## À retenir
+
+- *3a rāsi*, *b3yūn*, *min 3yūni* = « avec plaisir » en réponse à une demande.
+- *Yislamu idēk* (« bénies soient tes mains ») remercie quelqu'un qui a cuisiné ou fait quelque chose.
+- *Dīr bālak* = fais attention ; *mā 3alēna* = passons.
+- *Wallah*, *inshallah*, *māshallah* sont des interjections de tous les jours, pas seulement religieuses.
+- *Inshallah* peut vouloir dire « oui, si possible »… ou poliment « non ».
+
+## Questions de révision
+
+> [!quiz] Que répondre quand on te demande un service, pour dire « avec plaisir » ?
+> *3a rāsi !* ou *b3yūn !* (ou *min 3yūni*).
+
+> [!quiz] Que dire à quelqu'un qui t'a préparé un repas ?
+> *Yislamu idēk* (à une femme : *idēki*).
+
+> [!quiz] Que signifie *dīr bālak* ?
+> « Fais attention » (litt. « tourne ton esprit »).
+
+> [!quiz] Comment dire « c'est ma tournée » ?
+> *3a 7sēbi* (ou *ana 3āzmak*).
+
+> [!quiz] Que veut dire *bēti bētak* ?
+> « Ma maison est ta maison » : tu es chez toi.
+
+> [!quiz] Que signifie *rāso nēshif* ?
+> « Il est têtu » (litt. « sa tête est sèche »).

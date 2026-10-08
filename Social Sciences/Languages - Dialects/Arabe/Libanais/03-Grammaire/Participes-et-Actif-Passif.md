@@ -4,10 +4,15 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Arabe-Libanais > 03-Grammaire"
 tags: [sciences-sociales, langues, arabe, arabe-libanais, grammaire, participes]
 date: "2026-04-14"
+prerequis: ["[[Social Sciences/Languages - Dialects/Arabe/Libanais/03-Grammaire/Conditionnel-et-Iza]]"]
 ---
 # Participes, Actif et Passif — Arabe Libanais
 
 Le **participe actif** (`fē3il`) est massivement utilisé en libanais là où le français utiliserait un présent simple ou un présent continu. Comprendre sa valeur aspectuelle est l'une des clés pour sonner naturel.
+
+> [!tip] Dans cette fiche
+> - Utiliser le **participe actif** (*rāye7*, *nēyem*, *fēhim*) comme le font les Libanais pour dire « je vais », « il dort », « j'ai compris ».
+> - Reconnaître le participe passif (*maftū7*, ouvert) et les tournures qui remplacent la voix passive.
 
 ## Participe actif — schème fē3il
 
@@ -38,7 +43,7 @@ Le participe actif exprime un **état résultant** d'une action : l'action a eu 
 | Il dort | ![هو نايم](audio/ar-lb_male_483899b26b8c.mp3) (huwe nēyem) | état |
 | On a compris | ![نحنا فاهمين](audio/ar-lb_male_09857afc990b.mp3) (ne7na fēhmīn) | résultat acquis |
 
-> **Distinction clé** : `3am bi7ki` = "il parle" (action ponctuelle en cours), mais `huwe mē7ki` n'existe pas pour "parler" — le participe est réservé aux verbes dont l'état résultant a du sens.
+> **Distinction clé** : `3am be7ki` = "il parle" (action ponctuelle en cours), mais `huwe mē7ki` n'existe pas pour "parler" — le participe est réservé aux verbes dont l'état résultant a du sens.
 
 ### 2. Parfait "j'ai (déjà) fait"
 
@@ -56,7 +61,7 @@ Avec certains verbes, le participe exprime un passé proche avec résultat prés
 | Français | Libanais |
 |----------|----------|
 | Je pars demain | ![أنا مسافر بكرا](audio/ar-lb_male_a345c39e5572.mp3) (ana msēfer bukra) |
-| On rentre ce soir | ![نحنا راجعين الليلة](audio/ar-lb_male_d4419c1dbb39.mp3) (ne7na rāj3īn el-leile) |
+| On rentre ce soir | ![نحنا راجعين الليلة](audio/ar-lb_male_d4419c1dbb39.mp3) (ne7na rāj3īn el-lēle) |
 
 ## Participe passif — schème maf3ūl
 
@@ -74,7 +79,7 @@ Le participe passif exprime "quelque chose sur quoi l'action a été faite". Sch
 Usage courant :
 - الباب مفتوح (el-bēb maftū7) — La porte est ouverte.
 - الرسالة مكتوبة (er-risāle maktūbe) — La lettre est écrite.
-- الطاولة محجوزة (eT-Tāwle ma7jūze) — La table est réservée.
+- الطاولة محجوزة (et-tāwle ma7jūze) — La table est réservée.
 
 ## Voix passive — trois constructions
 
@@ -108,15 +113,40 @@ Souvent le passif est évité par une structure active impersonnelle.
 | Français passif | Libanais actif impersonnel |
 |-----------------|---------------------------|
 | Le livre a été volé | ![سرقولو الكتاب](audio/ar-lb_male_704f3a978de4.mp3) (sara2ūlo el-ktēb) — "ils lui ont volé le livre" |
-| La maison a été vendue | ![باعو البيت](audio/ar-lb_male_9d2060a6bf8e.mp3) (bē3u el-beit) — "ils ont vendu la maison" |
+| La maison a été vendue | ![باعو البيت](audio/ar-lb_male_9d2060a6bf8e.mp3) (bē3u el-bēt) — "ils ont vendu la maison" |
 | On m'a dit que… | ![قالولي إنو](audio/ar-lb_male_9d3153d77069.mp3)… (2ālūli inno…) — "ils m'ont dit que…" |
 
 ## Contrastes aspectuels — tableau récapitulatif
 
 | Forme | Valeur | Exemple |
 |-------|--------|---------|
-| Passé (ktab) | action achevée, ponctuelle | ![كتب رسالة](audio/ar-lb_male_e3c5eb06839c.mp3) (katab risāle) — il a écrit une lettre |
+| Passé (katab) | action achevée, ponctuelle | ![كتب رسالة](audio/ar-lb_male_e3c5eb06839c.mp3) (katab risāle) — il a écrit une lettre |
 | Présent b- (byiktob) | habituel / général | ![بيكتب كل يوم](audio/ar-lb_male_7efd7dc69436.mp3) (byiktob kil yōm) — il écrit tous les jours |
 | 3am + présent | progressif ponctuel | ![عم بيكتب](audio/ar-lb_male_07c30a74f616.mp3) (3am byiktob) — il est en train d'écrire |
 | Participe actif (kētib) | état résultant / en cours | ![هو كاتب](audio/ar-lb_male_b2c06ce8b08a.mp3) (huwe kētib) — il a écrit / il est écrivain |
 | Participe passif (maktūb) | résultat sur l'objet | ![الرسالة مكتوبة](audio/ar-lb_male_449703ec792b.mp3) (er-risāle maktūbe) — la lettre est écrite |
+
+## À retenir
+
+- Participe actif = **fē3il** (*fēhim*, *3ārif*) ; il s'accorde : *rāye7*, *rāy7a*, *rāy7īn*.
+- Avec les verbes de mouvement, il signifie « être en train d'aller » ou un futur proche : *ana rāye7 3as-sū2*, *ana msēfer bukra*.
+- Avec d'autres verbes, il dit un état acquis : *ana fēhim* (j'ai compris), *ana ēkil* (j'ai déjà mangé).
+- Participe passif = **maf3ūl** : *maktūb*, *maftū7*, *ma3rūf*.
+- Pour le passif, on préfère la forme *in-* (*inkasar*, ça s'est cassé) ou un « ils » impersonnel (*sara2ūlo el-ktēb*).
+
+## Questions de révision
+
+> [!quiz] Comment dire « je vais au marché » (je suis en route) ?
+> *Ana rāye7 3as-sū2*.
+
+> [!quiz] Quel est le féminin de *nēyem* (endormi) ?
+> *Nēyme* : *hiye nēyme*, elle dort.
+
+> [!quiz] Traduis « la porte est ouverte ».
+> *El-bēb maftū7*.
+
+> [!quiz] Que signifie *ana fēhim* et pourquoi pas *bifham* ?
+> « J'ai compris, je comprends (maintenant) » : le participe dit l'état acquis ; *bifham* est plutôt habituel (« je comprends en général »).
+
+> [!quiz] Comment dit-on « on m'a dit que… » ?
+> *Ālūli inno…* (« ils m'ont dit que… »).

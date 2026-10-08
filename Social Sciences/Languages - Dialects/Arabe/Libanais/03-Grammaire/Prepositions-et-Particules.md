@@ -4,10 +4,16 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Arabe-Libanais > 03-Grammaire"
 tags: [sciences-sociales, langues, arabe, arabe-libanais, grammaire, prepositions, particules, connecteurs]
 date: "2026-05-29"
+prerequis: ["[[Social Sciences/Languages - Dialects/Arabe/Libanais/03-Grammaire/Imperatif]]"]
 ---
 # Prépositions et Particules — Arabe Libanais
 
-Les prépositions situent dans l'espace, le temps et la relation ; les particules (connecteurs) articulent le discours. La plupart des prépositions reçoivent des **suffixes possessifs** quand elles introduisent un pronom (voir [[Pronoms-et-Suffixes|Pronoms et Suffixes]]). Convention de translittération : voir [[Social Sciences/Languages - Dialects/Turc/01-Phonologie/Alphabet-Prononciation|Alphabet et Prononciation]].
+Les prépositions situent dans l'espace, le temps et la relation ; les particules (connecteurs) articulent le discours. La plupart des prépositions reçoivent des **suffixes possessifs** quand elles introduisent un pronom (voir [[Pronoms-et-Suffixes|Pronoms et Suffixes]]). Convention de translittération : voir [[Social Sciences/Languages - Dialects/Arabe/Libanais/01-Phonologie/Alphabet-Prononciation|Alphabet et Prononciation]].
+
+> [!tip] Dans cette fiche
+> - Situer dans l'espace et le temps : devant, derrière, avant, après, depuis.
+> - Attacher un pronom à une préposition (*ma3e*, *3ande*, *minne*).
+> - Relier des idées : *bass*, *la2anno*, *inno*, *lamma*, *iza*.
 
 ## Prépositions de base
 
@@ -29,7 +35,7 @@ Les prépositions situent dans l'espace, le temps et la relation ; les particule
 
 | Français | Libanais | Translittération |
 |----------|----------|------------------|
-| Devant | ![قدّام](audio/ar-lb_male_0a4613d9edf6.mp3) | 2eddēm |
+| Devant | ![قدّام](audio/ar-lb_male_0a4613d9edf6.mp3) | uddēm |
 | Derrière | ![ورا](audio/ar-lb_male_ec49b8e2ff73.mp3) | wara |
 | Au-dessus / sur | ![فوق](audio/ar-lb_male_11c3435db3d4.mp3) | fō2 |
 | En-dessous / sous | ![تحت](audio/ar-lb_male_035ff1abeb95.mp3) | ta7et |
@@ -38,13 +44,13 @@ Les prépositions situent dans l'espace, le temps et la relation ; les particule
 | En face de | ![قبال](audio/ar-lb_male_95ae918d3a1c.mp3) | 2bēl |
 | À l'intérieur | ![جوّا](audio/ar-lb_male_a662ae1b01b3.mp3) | jowwa |
 | À l'extérieur | ![برّا](audio/ar-lb_male_ffb627aa085a.mp3) | barra |
-| Au milieu de | ![بنصّ](audio/ar-lb_male_de3c3e42ff84.mp3) | bi-noSS |
+| Au milieu de | ![بنصّ](audio/ar-lb_male_de3c3e42ff84.mp3) | bi-noss |
 
 ## Prépositions de temps
 
 | Français | Libanais | Translittération |
 |----------|----------|------------------|
-| Avant | ![قبل](audio/ar-lb_male_03e83afd1cc7.mp3) | 2able |
+| Avant | ![قبل](audio/ar-lb_male_03e83afd1cc7.mp3) | abel |
 | Après | ![بعد](audio/ar-lb_male_38571e6dd151.mp3) | ba3d |
 | Pendant | ![خلال](audio/ar-lb_male_00b3ebe06efc.mp3) | khilēl |
 | Depuis | ![من وقت](audio/ar-lb_male_aff22dbd8750.mp3) | min wa2t |
@@ -66,7 +72,7 @@ Comme les noms, les prépositions se collent aux suffixes possessifs :
 | vous | ![معكن](audio/ar-lb_male_70ae6004dbe4.mp3) | ma3kon | avec vous |
 | eux | ![معن](audio/ar-lb_male_346fb56374e0.mp3) | ma3on | avec eux |
 
-Le même mécanisme vaut pour `3and` (chez : `3ande`, `3andak`…), `min` (de : `minne`, `minnak`…), `la-` (à : `ile`, `ilak`, `ilo`…), `3a-` (`3aleyye`, `3aleik`, `3aleyy`…).
+Le même mécanisme vaut pour `3and` (chez : `3ande`, `3andak`…), `min` (de : `minne`, `minnak`…), `la-` (à : `ile`, `ilak`, `ilo`…), `3a-` (`3aleyye`, `3alēk`, `3aleyy`…).
 
 ## Particules de coordination
 
@@ -91,7 +97,7 @@ Le même mécanisme vaut pour `3and` (chez : `3ande`, `3andak`…), `min` (de : 
 | Quand / lorsque | ![لمّا](audio/ar-lb_male_8813e5c73ad5.mp3) / ![وقت](audio/ar-lb_male_3d860c13378b.mp3) | lamma / wa2t |
 | Bien que / même si | ![مع إنّو](audio/ar-lb_male_13520d3cd5e9.mp3) | ma3 inno |
 | Comme / puisque | ![بما إنّو](audio/ar-lb_male_c2f27fcd7684.mp3) | bima inno |
-| Avant que | ![قبل ما](audio/ar-lb_male_9805403f93ac.mp3) | 2able ma |
+| Avant que | ![قبل ما](audio/ar-lb_male_9805403f93ac.mp3) | abel ma |
 | Après que | ![بعد ما](audio/ar-lb_male_48a4cc604a5b.mp3) | ba3d ma |
 
 Pour les conditionnelles (`iza`, `law`, `in`) en détail, voir [[Conditionnel-et-Iza|Conditionnel et Iza]].
@@ -101,10 +107,35 @@ Pour les conditionnelles (`iza`, `law`, `in`) en détail, voir [[Conditionnel-et
 | Français | Libanais | Translittération |
 |----------|----------|------------------|
 | C'est-à-dire / genre | ![يعني](audio/ar-lb_male_131f711ab69b.mp3) | ya3ne |
-| Bon / alors (transition) | ![طيّب](audio/ar-lb_male_59c471041e7f.mp3) | Tayyeb |
-| Voilà / tiens | ![هيّ](audio/ar-lb_male_b2eaead29a99.mp3) / ![هاك](audio/ar-lb_male_2c7ce954a23f.mp3) | hayy / hēk |
+| Bon / alors (transition) | ![طيّب](audio/ar-lb_male_59c471041e7f.mp3) | tayyeb |
+| Voilà / tiens | ![هيّ](audio/ar-lb_male_b2eaead29a99.mp3) / ![هاك](audio/ar-lb_male_2c7ce954a23f.mp3) | hayy / hāk |
 | Comme ça / ainsi | ![هيك](audio/ar-lb_male_234df8c5d77d.mp3) | hēk |
 | Bien sûr | ![أكيد](audio/ar-lb_male_55e4ba3fe389.mp3) | akīd |
 | Peut-être | ![يمكن](audio/ar-lb_male_226eb0cfd986.mp3) | yemken |
 | En tout cas | ![عالكلّ](audio/ar-lb_male_fe61a9ec626a.mp3) | 3al-kell |
 | Par contre | ![بالعكس](audio/ar-lb_male_3bc776a02ff3.mp3) | bil-3akes |
+
+## À retenir
+
+- *B-* (dans, avec), *3a-* (sur, vers), *min* (de), *la-* (à, pour) s'attachent souvent au mot suivant : *bi-bērūt*, *3al-bēt*.
+- Les prépositions prennent les suffixes : *ma3e* (avec moi), *3ande* (chez moi), *minnak* (de toi).
+- *Inno* = que ; *la2anno* = parce que ; *lamma* = quand ; *iza* = si.
+- *Abel ma* / *ba3d ma* = avant que / après que, suivis d'un verbe.
+- *Ya3ne*, *tayyeb*, *hēk* ponctuent toute conversation.
+
+## Questions de révision
+
+> [!quiz] Comment dit-on « avec moi » et « chez toi » (à un homme) ?
+> *Ma3e* et *3andak*.
+
+> [!quiz] Traduis « parce que je suis fatigué ».
+> *La2anno ana ta3bēn*.
+
+> [!quiz] Quelle différence entre *lamma* et *iza* ?
+> *Lamma* = quand (fait certain) ; *iza* = si (condition).
+
+> [!quiz] Comment dit-on « devant » et « derrière » ?
+> *Uddēm* et *wara*.
+
+> [!quiz] Comment dire « je pense que c'est loin » ?
+> *Bfakker inno ba3īd*.

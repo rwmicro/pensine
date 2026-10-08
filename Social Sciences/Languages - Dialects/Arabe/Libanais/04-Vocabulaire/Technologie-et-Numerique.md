@@ -4,10 +4,15 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Arabe-Libanais > 04-Vocabulaire"
 tags: [sciences-sociales, langues, arabe, arabe-libanais, vocabulaire, technologie, numerique]
 date: "2026-04-14"
+prerequis: ["[[Social Sciences/Languages - Dialects/Arabe/Libanais/02-Communication/Situations]]"]
 ---
 # Technologie et Numérique — Arabe Libanais
 
 Le domaine numérique est massivement dominé par les emprunts anglais, parfois intégrés morphologiquement à l'arabe (verbes dérivés), parfois utilisés tels quels. Ce vocabulaire évolue très vite et varie selon les générations.
+
+> [!tip] Dans cette fiche
+> - Parler d'appareils, d'applications, d'internet et de réseaux sociaux.
+> - Comprendre comment les mots anglais deviennent des verbes libanais (*ykellik*, *yshīr*, *ydelīt*).
 
 ## Appareils et matériel
 
@@ -22,18 +27,18 @@ Le domaine numérique est massivement dominé par les emprunts anglais, parfois 
 | Écran | ![شاشة](audio/ar-lb_male_f6d25ae85364.mp3) | shāshe |
 | Clavier | ![كيبورد](audio/ar-lb_male_3483db8ac4d6.mp3) | keybord |
 | Souris | ![فأرة](audio/ar-lb_male_842c257224a2.mp3) / ![ماوس](audio/ar-lb_male_c843f30cf41f.mp3) | fa2ra / māwes |
-| Imprimante | ![طابعة](audio/ar-lb_male_0aeedce23681.mp3) | Tābi3a |
+| Imprimante | ![طابعة](audio/ar-lb_male_0aeedce23681.mp3) | tābi3a |
 | Casque audio | ![سمّاعات](audio/ar-lb_male_b46319e4249c.mp3) | sammā3āt |
 | Chargeur | ![شاحن](audio/ar-lb_male_ab9eced20c9f.mp3) | shā7en |
-| Batterie | ![بطّارية](audio/ar-lb_male_cdff403883a7.mp3) | baTTāriyye |
-| Câble | ![وصلة](audio/ar-lb_male_17fc568f4616.mp3) / ![كابل](audio/ar-lb_male_b18da4c7b528.mp3) | waSle / kābel |
+| Batterie | ![بطّارية](audio/ar-lb_male_cdff403883a7.mp3) | battāriyye |
+| Câble | ![وصلة](audio/ar-lb_male_17fc568f4616.mp3) / ![كابل](audio/ar-lb_male_b18da4c7b528.mp3) | wasle / kābel |
 | Caméra | ![كاميرا](audio/ar-lb_male_0441b938ac1f.mp3) | kāmīra |
 
 ## Logiciels et applications
 
 | Français | Libanais | Translittération |
 |----------|----------|------------------|
-| Application | ![تطبيق](audio/ar-lb_male_446a947e0ac3.mp3) / ![أبّ](audio/ar-lb_male_465b36b64504.mp3) | taTbī2 / app |
+| Application | ![تطبيق](audio/ar-lb_male_446a947e0ac3.mp3) / ![أبّ](audio/ar-lb_male_465b36b64504.mp3) | tatbī2 / app |
 | Logiciel | ![برنامج](audio/ar-lb_male_1b4941188334.mp3) | barnāmej |
 | Système | ![نظام](audio/ar-lb_male_a6a3a4cbb733.mp3) | nizām |
 | Fichier | ![ملف](audio/ar-lb_male_290b4f52727a.mp3) / ![فايل](audio/ar-lb_male_c723524bf735.mp3) | malaff / fayl |
@@ -45,7 +50,7 @@ Le domaine numérique est massivement dominé par les emprunts anglais, parfois 
 | Mise à jour | ![تحديث](audio/ar-lb_male_ca3246876253.mp3) / ![أبديت](audio/ar-lb_male_3e8e94e3e597.mp3) | ta7dīth / update |
 | Installation | ![تنزيل](audio/ar-lb_male_c1ddea8c9495.mp3) / ![انستول](audio/ar-lb_male_4b2a27bf32c5.mp3) | tanzīl / install |
 | Désinstallation | ![أنينستول](audio/ar-lb_male_9fe3dded7e82.mp3) | uninstall |
-| Navigateur | ![متصفح](audio/ar-lb_male_2e07de598025.mp3) / ![براوزر](audio/ar-lb_male_2346097948b5.mp3) | mutaSaffi7 / browser |
+| Navigateur | ![متصفح](audio/ar-lb_male_2e07de598025.mp3) / ![براوزر](audio/ar-lb_male_2346097948b5.mp3) | mutasaffi7 / browser |
 
 ## Internet et connexion
 
@@ -54,9 +59,9 @@ Le domaine numérique est massivement dominé par les emprunts anglais, parfois 
 | Internet | ![إنترنت](audio/ar-lb_male_d0f83ec852b0.mp3) | internet |
 | WiFi | ![واي فاي](audio/ar-lb_male_2d2c2d780846.mp3) | wāyfāy |
 | 4G / 5G | ![فور جي](audio/ar-lb_male_81692c659d05.mp3) / ![فايف جي](audio/ar-lb_male_419c8a4dda2c.mp3) | for ji / fayv ji |
-| Connexion | ![اتصال](audio/ar-lb_male_db98104ccac4.mp3) | ittiSāl |
+| Connexion | ![اتصال](audio/ar-lb_male_db98104ccac4.mp3) | ittisāl |
 | Site web | ![موقع](audio/ar-lb_male_e6de8e749e10.mp3) | maw2e3 |
-| Lien | ![لينك](audio/ar-lb_male_6e33fb7b77f1.mp3) / ![رابط](audio/ar-lb_male_60116ad2112e.mp3) | link / rābiT |
+| Lien | ![لينك](audio/ar-lb_male_6e33fb7b77f1.mp3) / ![رابط](audio/ar-lb_male_60116ad2112e.mp3) | link / rābit |
 | Téléchargement | ![داونلود](audio/ar-lb_male_86253d5388d9.mp3) / ![تنزيل](audio/ar-lb_male_c1ddea8c9495.mp3) | daw(n)lōd / tanzīl |
 | Upload | ![أبلود](audio/ar-lb_male_72df96d11ddd.mp3) / ![رفع](audio/ar-lb_male_909b0dda4218.mp3) | oploud / raf3 |
 | Cloud | ![كلاود](audio/ar-lb_male_0db073711e77.mp3) | klāwd |
@@ -83,20 +88,20 @@ Verbes anglais intégrés à la morphologie libanaise (forme II fa33al souvent).
 | Verbe | Libanais | Sens |
 |-------|-------|------|
 | Cliquer | ![يكبس](audio/ar-lb_male_74d5556249c6.mp3) / ![يكلّك](audio/ar-lb_male_095cf71b7ab0.mp3) | yikbos / ykellik |
-| Taper | ![يطبع](audio/ar-lb_male_527628b9fd9e.mp3) | yiTba3 |
+| Taper | ![يطبع](audio/ar-lb_male_527628b9fd9e.mp3) | yitba3 |
 | Scroller | ![يسكرول](audio/ar-lb_male_98367bdd8458.mp3) | yiskrol |
 | Swiper | ![يسوايب](audio/ar-lb_male_267872fc926d.mp3) | yiswāyib |
 | Télécharger | ![ينزّل](audio/ar-lb_male_a3af7534d3b4.mp3) / ![يداونلد](audio/ar-lb_male_b93d0aa024b1.mp3) | ynazzel / ydawnled |
 | Uploader | ![يرفع](audio/ar-lb_male_c5415bab0cf4.mp3) / ![يأبلد](audio/ar-lb_male_7584bea44611.mp3) | yirfa3 / y2opled |
 | Partager | ![يشير](audio/ar-lb_male_0c2968703b96.mp3) | yshīr (de "share") |
 | Envoyer | ![يبعت](audio/ar-lb_male_4220345c4e69.mp3) | yib3at |
-| Installer | ![ينصّب](audio/ar-lb_male_ed4d53b23227.mp3) | ynaSSeb |
+| Installer | ![ينصّب](audio/ar-lb_male_ed4d53b23227.mp3) | ynasseb |
 | Supprimer | ![يمحي](audio/ar-lb_male_3b37e896cc11.mp3) / ![يدليت](audio/ar-lb_male_4673116454d5.mp3) | yim7i / ydelīt |
 | Copier | ![ينسخ](audio/ar-lb_male_854e11ed7f92.mp3) / ![يكوبي](audio/ar-lb_male_cf69428a9cd2.mp3) | yinsakh / ykōbi |
-| Coller | ![يلصق](audio/ar-lb_male_19588a03b7a6.mp3) / ![يبيست](audio/ar-lb_male_681090b2fe65.mp3) | yilso2 / ybeist |
+| Coller | ![يلصق](audio/ar-lb_male_19588a03b7a6.mp3) / ![يبيست](audio/ar-lb_male_681090b2fe65.mp3) | yilso2 / ybēst |
 | Redémarrer | ![يعيد تشغيل](audio/ar-lb_male_033840ad4884.mp3) / ![يريستارت](audio/ar-lb_male_98bbc304ba75.mp3) | y3īd tashghīl / yristart |
-| Connecter | ![يتصل](audio/ar-lb_male_505c46b4f673.mp3) / ![يكونيكت](audio/ar-lb_male_d083a3866422.mp3) | yittaSil / ykonīkt |
-| Se déconnecter | ![يطلع](audio/ar-lb_male_a7324637190e.mp3) / ![يلوغ آوت](audio/ar-lb_male_2de193670cad.mp3) | yiTla3 / ylōg āwt |
+| Connecter | ![يتصل](audio/ar-lb_male_505c46b4f673.mp3) / ![يكونيكت](audio/ar-lb_male_d083a3866422.mp3) | yittasil / ykonīkt |
+| Se déconnecter | ![يطلع](audio/ar-lb_male_a7324637190e.mp3) / ![يلوغ آوت](audio/ar-lb_male_2de193670cad.mp3) | yitla3 / ylōg āwt |
 
 ## Réseaux sociaux
 
@@ -136,13 +141,13 @@ Verbes anglais intégrés à la morphologie libanaise (forme II fa33al souvent).
 
 | Français | Libanais | Translittération |
 |----------|----------|------------------|
-| Intelligence artificielle | ![ذكاء اصطناعي](audio/ar-lb_male_053209447660.mp3) | zakā2 iSTinā3i |
+| Intelligence artificielle | ![ذكاء اصطناعي](audio/ar-lb_male_053209447660.mp3) | zakā2 istinā3i |
 | Algorithme | ![خوارزمية](audio/ar-lb_male_73be732f5a84.mp3) | khawārezmiyye |
 | Code / programmation | ![برمجة](audio/ar-lb_male_198e8664c840.mp3) / ![كود](audio/ar-lb_male_1974787c518a.mp3) | barmaje / kōd |
 | Base de données | ![قاعدة بيانات](audio/ar-lb_male_7013794145cf.mp3) | 2ā3det bayanāt |
 | Serveur | ![سيرفر](audio/ar-lb_male_380d20366b3c.mp3) | server |
 | Chatbot | ![شات بوت](audio/ar-lb_male_55c92f1a6572.mp3) | shāt bōt |
-| Prompt | ![بروم](audio/ar-lb_male_b231cdef5cea.mp3) | prompt |
+| Prompt | ![برومبت](audio/ar-lb_male_ba6d5a4ea77d.mp3) | prompt |
 | ChatGPT | ![شات جي بي تي](audio/ar-lb_male_e455e8dedca6.mp3) | shāt jī bī tī |
 
 ## Cybersécurité et problèmes
@@ -152,9 +157,9 @@ Verbes anglais intégrés à la morphologie libanaise (forme II fa33al souvent).
 | Virus | ![فيروس](audio/ar-lb_male_d9f57c62017c.mp3) | vayrus |
 | Piratage | ![اختراق](audio/ar-lb_male_c4ca22ac2536.mp3) / ![هاك](audio/ar-lb_male_2c7ce954a23f.mp3) | ikhtirā2 / hāk |
 | Hacker | ![هاكر](audio/ar-lb_male_49ebe0b4bfdc.mp3) | hāker |
-| Arnaque (phishing) | ![نصب](audio/ar-lb_male_61344efee66b.mp3) | naSeb |
+| Arnaque (phishing) | ![نصب](audio/ar-lb_male_61344efee66b.mp3) | naseb |
 | Spam | ![سبام](audio/ar-lb_male_5c96f39341b4.mp3) | spam |
-| Bug | ![خطأ](audio/ar-lb_male_5bc8f788020a.mp3) / ![باغ](audio/ar-lb_male_336e6c31b8f5.mp3) | khaTa2 / bug |
+| Bug | ![خطأ](audio/ar-lb_male_5bc8f788020a.mp3) / ![باغ](audio/ar-lb_male_336e6c31b8f5.mp3) | khata2 / bug |
 | Planter (crasher) | ![يعلّق](audio/ar-lb_male_61efaf7f7451.mp3) / ![يكراش](audio/ar-lb_male_833a88f1e607.mp3) | y3alli2 / ykrāsh |
 | Redémarrer | ![يريستارت](audio/ar-lb_male_98bbc304ba75.mp3) / ![يعيد تشغيل](audio/ar-lb_male_033840ad4884.mp3) | yristart |
 | Perdu les données | ![راحت المعلومات](audio/ar-lb_male_08c02f234b71.mp3) | rā7et el-ma3lūmāt |
@@ -163,9 +168,9 @@ Verbes anglais intégrés à la morphologie libanaise (forme II fa33al souvent).
 
 | Expression | Translittération | Sens |
 |-----------|------------------|------|
-| ![الإنترنت عم يقطع](audio/ar-lb_male_bf430e441092.mp3) | el-internet 3am yi2Ta3 | Internet coupe |
+| ![الإنترنت عم يقطع](audio/ar-lb_male_bf430e441092.mp3) | el-internet 3am yi2ta3 | Internet coupe |
 | ![ما في شبكة](audio/ar-lb_male_c1f1169c67dc.mp3) | mā fī shabake | Pas de réseau |
-| ![البطارية خلصت](audio/ar-lb_male_61788f3eaf72.mp3) | el-baTTāriyye khilSet | La batterie est morte |
+| ![البطارية خلصت](audio/ar-lb_male_61788f3eaf72.mp3) | el-battāriyye khilset | La batterie est morte |
 | ![الشاشة علّقت](audio/ar-lb_male_a2547bd7484c.mp3) | esh-shāshe 3alla2et | L'écran est figé |
 | ![بعت لي عالواتس](audio/ar-lb_male_675ea51bd9c2.mp3) | bi3t-li 3al-wāts | Envoie-moi sur WhatsApp |
 | ![شير لي اللينك](audio/ar-lb_male_5e07aef6ecaa.mp3) | shīr-li el-link | Envoie-moi le lien |
@@ -179,3 +184,27 @@ Verbes anglais intégrés à la morphologie libanaise (forme II fa33al souvent).
 - **Moins de 30 ans** : anglais dominant, souvent sans même considérer qu'il s'agit d'emprunts (`dī em`, `story`, `post` sont vécus comme des mots libanais à part entière).
 
 Ce vocabulaire se périme vite — une fiche comme celle-ci nécessitera des mises à jour tous les 2-3 ans pour rester à jour des nouveaux usages.
+
+## À retenir
+
+- Le numérique se dit surtout en anglais, adapté à la prononciation libanaise : *laptop*, *password*, *story*.
+- Un mot anglais devient verbe avec les préfixes libanais : *ydelīt* (supprimer), *yiblok* (bloquer), *yshīr* (partager).
+- Expressions de tous les jours : *mā fī shabake* (pas de réseau), *el-battāriyye khilset* (plus de batterie).
+- Les termes arabes (*7sēb*, *tanzīl*) sont plus fréquents chez les plus âgés et à l'écrit.
+
+## Questions de révision
+
+> [!quiz] Comment dire « il n'y a pas de réseau » ?
+> *Mā fī shabake*.
+
+> [!quiz] Traduis « ma batterie est morte ».
+> *El-battāriyye khilset*.
+
+> [!quiz] Comment dit-on « envoie-moi le lien » ?
+> *Shīr-li el-link* (ou *ba3et-li el-link*).
+
+> [!quiz] Comment un mot anglais comme *delete* devient-il un verbe libanais ?
+> Il prend les préfixes verbaux : *ydelīt* (il supprime), *bdelīt* (je supprime).
+
+> [!quiz] Que signifie *3am yeflex* ?
+> « Il frime » (de l'anglais *flex*).

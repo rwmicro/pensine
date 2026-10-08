@@ -4,10 +4,16 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Arabe-Libanais > 05-Culture"
 tags: [sciences-sociales, langues, arabe, arabe-libanais, culture, histoire, guerre-civile, liban]
 date: "2026-04-14"
+prerequis: ["[[Social Sciences/Languages - Dialects/Arabe/Libanais/05-Culture/Culture]]"]
 ---
 # Guerre Civile et Mémoire — Liban
 
 La guerre civile libanaise (1975-1990) structure encore aujourd'hui la géographie mentale, le vocabulaire politique et les codes sociaux du pays. Comprendre les allusions à cette période est indispensable pour naviguer dans une conversation libanaise — surtout avec les générations qui l'ont vécue.
+
+> [!tip] Dans cette fiche
+> - Comprendre les allusions à la guerre civile (1975-1990) dans les conversations, les médias et la ville.
+> - Connaître le vocabulaire de la guerre et les concepts politiques qui en découlent (*za3īm*, *wāsta*, partage confessionnel).
+> - Savoir quels sujets aborder avec prudence.
 
 ## Repères chronologiques
 
@@ -33,15 +39,15 @@ La guerre civile libanaise (1975-1990) structure encore aujourd'hui la géograph
 | ![الأحداث](audio/ar-lb_male_4fa5c80a4047.mp3) | el-a7dāth | "les événements" — périphrase pudique pour la guerre |
 | ![الميليشيا](audio/ar-lb_male_4b4243d2ac5f.mp3) | el-milīshia | la milice |
 | ![الحاجز](audio/ar-lb_male_5990a4045764.mp3) | el-7ājez | le barrage (check-point) |
-| ![القناص](audio/ar-lb_male_3923c8dd9417.mp3) | el-2annāS | le sniper |
-| ![الشارع الأخضر](audio/ar-lb_male_fd46f22dfe28.mp3) | esh-shāri3 el-akhdar | la "ligne verte" — ligne de démarcation Beyrouth Est/Ouest |
+| ![القناص](audio/ar-lb_male_3923c8dd9417.mp3) | el-2annās | le sniper |
+| ![الخط الأخضر](audio/ar-lb_male_8e6c502af294.mp3) | el-khatt el-akhdar | la "ligne verte" — ligne de démarcation Beyrouth Est/Ouest |
 | ![التهجير](audio/ar-lb_male_fff9b068e98c.mp3) | et-tahjīr | le déplacement forcé (populations) |
 | ![المفقود](audio/ar-lb_male_60e5d149fcce.mp3) | el-mafqūd | le disparu — ~17 000 cas non résolus |
-| ![الاختطاف](audio/ar-lb_male_0f23a7f532e0.mp3) | el-ikhtiTāf | enlèvement |
-| ![المخطوف](audio/ar-lb_male_0fa19c22f67b.mp3) | el-makhTūf | personne enlevée |
-| ![القصف](audio/ar-lb_male_d12d53c843e5.mp3) | el-qaSf | bombardement |
+| ![الاختطاف](audio/ar-lb_male_0f23a7f532e0.mp3) | el-ikhtitāf | enlèvement |
+| ![المخطوف](audio/ar-lb_male_0fa19c22f67b.mp3) | el-makhtūf | personne enlevée |
+| ![القصف](audio/ar-lb_male_d12d53c843e5.mp3) | el-2asf | bombardement |
 | ![الملجأ](audio/ar-lb_male_1c4b2ddc0cba.mp3) | el-malja2 | l'abri |
-| ![القذيفة](audio/ar-lb_male_f3db2d647b04.mp3) | el-qazīfe | l'obus |
+| ![القذيفة](audio/ar-lb_male_f3db2d647b04.mp3) | el-2azīfe | l'obus |
 | ![الاغتيال](audio/ar-lb_male_29043cc60a59.mp3) | el-ightiyāl | l'assassinat politique |
 | ![العبور](audio/ar-lb_male_0f3a4ef75c23.mp3) | el-3ubūr | traverser (la ligne verte, au péril de sa vie) |
 
@@ -54,7 +60,7 @@ La guerre civile libanaise (1975-1990) structure encore aujourd'hui la géograph
 | Armée du Liban Sud (ALS) | Supplétifs de l'armée israélienne au sud, Antoine Lahad |
 | PSP | Parti Socialiste Progressiste — druze, Walid Joumblatt |
 | Amal | Milice chiite, Nabih Berri |
-| Hezbollah | Émergence en 1982, Hassan Nasrallah (depuis 1992) |
+| Hezbollah | Émergence en 1982, Hassan Nasrallah (secrétaire général de 1992 à sa mort en 2024) |
 | OLP | Forces palestiniennes, présentes jusqu'en 1982 |
 | Mourabitoun | Milice nassérienne sunnite |
 | Armée syrienne | Présente 1976-2005 |
@@ -86,14 +92,14 @@ Les obsèques deviennent des rassemblements politiques, surtout après un assass
 
 | Lieu | Résonance |
 |------|-----------|
-| **![خط التماس](audio/ar-lb_male_ead490f0fdd6.mp3)** (khaTT et-tamāss) | "Ligne de contact" — frontière Est/Ouest à Beyrouth |
+| **![خط التماس](audio/ar-lb_male_ead490f0fdd6.mp3)** (khatt et-tamāss) | "Ligne de contact" — frontière Est/Ouest à Beyrouth |
 | **![البربير](audio/ar-lb_male_3c2c4daaf2b5.mp3)** (el-Barbīr) | Quartier sur la ligne verte, symbole du conflit |
-| **![دوار السوديكو](audio/ar-lb_male_3d2e4df0b936.mp3)** (Dawwār es-Sōdēkō) | Rond-point stratégique sur la ligne verte |
-| **![تل الزعتر](audio/ar-lb_male_a6d88dcf78e6.mp3)** (Tall ez-Za3tar) | Camp palestinien rasé en 1976 |
+| **![دوار السوديكو](audio/ar-lb_male_3d2e4df0b936.mp3)** (dawwār es-sōdēkō) | Rond-point stratégique sur la ligne verte |
+| **![تل الزعتر](audio/ar-lb_male_a6d88dcf78e6.mp3)** (Tall ez-za3tar) | Camp palestinien rasé en 1976 |
 | **![صبرا وشاتيلا](audio/ar-lb_male_d884c55d8d46.mp3)** (Sabra w Shātīla) | Massacres de septembre 1982 |
 | **![قانا](audio/ar-lb_male_1e6da0c8469b.mp3)** (Qāna) | Massacres de 1996 et 2006 |
 | **![الحدث](audio/ar-lb_male_5325a3572aca.mp3)** (el-7adath) | Banlieue sud de Beyrouth, théâtre de combats |
-| **![ميدان الشهداء](audio/ar-lb_male_306d2f9342a3.mp3)** (Mīdān esh-Shuhadā2) | Place des Martyrs, détruite puis reconstruite |
+| **![ساحة الشهداء](audio/ar-lb_male_55fcedbf9f2d.mp3)** (Sā7it esh-Shuhadā2) | Place des Martyrs, détruite puis reconstruite |
 | **![قصر بيت الدين](audio/ar-lb_male_cc94fb734f7e.mp3)** (Qasr Beit ed-Dīn) | Palais druze, symbole politique |
 
 ## Formules courantes qui datent de la guerre
@@ -103,9 +109,9 @@ Les obsèques deviennent des rassemblements politiques, surtout après un assass
 | ![أيام الحرب](audio/ar-lb_male_9a07c34d1ec5.mp3) | ayyām el-7arb | "les jours de la guerre" — pour évoquer la période |
 | ![من وقت الحرب](audio/ar-lb_male_831d91a3e6de.mp3) | min wa2t el-7arb | depuis la guerre (durable) |
 | ![رجعنا على الأيام السودا](audio/ar-lb_male_f955f25f65b5.mp3) | rji3na 3a l-ayyām es-sōda | "on est revenus aux jours noirs" (signe d'inquiétude) |
-| ![الحمد لله ما قتل حدا](audio/ar-lb_male_c6b059e286be.mp3) | el-7amdillah mā 2atal 7ada | "Dieu merci personne n'est mort" (après un incident) |
-| ![يسلمو راسكم](audio/ar-lb_male_ed93f4c2817f.mp3) | yislamu rāskon | condoléances (litt. "que vos têtes soient saines") |
-| ![كنا عم نسمع القصف](audio/ar-lb_male_5c8cd08de953.mp3) | kinna 3am nisma3 el-qaSf | "on entendait les bombardements" |
+| ![الحمد لله ما مات حدا](audio/ar-lb_male_a72a402fb7dc.mp3) | el-7amdillah mā māt 7ada | "Dieu merci personne n'est mort" (après un incident) |
+| ![يسلم راسكن](audio/ar-lb_male_de863aec06b4.mp3) | yislam rāskon | condoléances (litt. "que vos têtes soient saines") |
+| ![كنا عم نسمع القصف](audio/ar-lb_male_5c8cd08de953.mp3) | kinna 3am nisma3 el-2asf | "on entendait les bombardements" |
 
 ## Tabous conversationnels
 
@@ -125,7 +131,7 @@ Les obsèques deviennent des rassemblements politiques, surtout après un assass
 | **Littérature de la guerre** | Hanan al-Shaykh, Elias Khoury (*La porte du soleil*), Rashid al-Daif |
 | **Cinéma** | *West Beirut* (Doueiri), *Caramel* (Labaki), *Capharnaüm* (Labaki) |
 | **BD et art contemporain** | Zeina Abirached, Mazen Kerbaj (concert live sous les bombes en 2006) |
-| **Musée mémoriel** | Inexistant — absence politique assumée |
+| **Lieux de mémoire** | Pas de musée national de la guerre ; *Beit Beirut* (la « Maison jaune » sur l'ancienne ligne de démarcation, ouverte en 2016) en tient lieu |
 
 ## Crises post-guerre notables
 
@@ -138,3 +144,28 @@ Les obsèques deviennent des rassemblements politiques, surtout après un assass
 | 4 août 2020 | Explosion du port de Beyrouth — 220 morts, vaste zone détruite |
 | 2019-2024 | Crise économique majeure, effondrement de la livre libanaise |
 | 2023-2024 | Guerre au Sud-Liban, flambée avec Israël |
+
+## À retenir
+
+- On dit souvent *el-a7dēs* / *el-a7dāth* (« les événements ») plutôt que « la guerre » : la pudeur fait partie du sujet.
+- La ligne verte (*el-khatt el-akhdar*) coupait Beyrouth en Est et Ouest ; *Sodeco*, *Barbīr* en étaient des points connus.
+- Le *za3īm* (chef communautaire) et la *wāsta* (piston) structurent encore la vie politique.
+- L'amnistie de 1991 a fermé le débat : pas de vérité officielle, ~17 000 disparus.
+- Éviter de demander la confession de quelqu'un ou de juger « qui a commencé ».
+
+## Questions de révision
+
+> [!quiz] Quelle périphrase pudique désigne souvent la guerre civile ?
+> *El-a7dāth*, « les événements ».
+
+> [!quiz] Qu'était la ligne verte ?
+> La ligne de démarcation entre Beyrouth-Est et Beyrouth-Ouest (*el-khatt el-akhdar*).
+
+> [!quiz] Qu'est-ce qu'un *za3īm* ?
+> Un chef communautaire, souvent héritier d'une famille politique, qui distribue services et protection.
+
+> [!quiz] Quel accord a fixé la sortie politique de la guerre, et quand ?
+> Les accords de Taëf, en 1989.
+
+> [!quiz] Pourquoi éviter de demander « de quelle confession es-tu ? »
+> Parce que la question est perçue comme impolie et clivante, à cause de l'histoire du pays.

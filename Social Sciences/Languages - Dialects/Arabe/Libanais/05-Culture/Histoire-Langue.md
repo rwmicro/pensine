@@ -4,8 +4,14 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Arabe-Libanais > 05-Culture"
 tags: [sciences-sociales, langues, arabe, arabe-libanais, culture, histoire, linguistique]
 date: "2026-04-01"
+prerequis: ["[[Social Sciences/Languages - Dialects/Arabe/Libanais/05-Culture/Culture]]"]
 ---
 # Histoire de la Langue — Arabe Libanais
+
+> [!tip] Dans cette fiche
+> - Comprendre d'où vient le libanais : substrat araméen, arabisation, apports turc, français et anglais.
+> - Relier les traits du dialecte (qāf → 2, préfixe b-, *ra7*) à son histoire.
+> - Connaître les variétés régionales et le statut de la langue aujourd'hui.
 
 ## Chronologie des langues du Liban
 
@@ -38,7 +44,7 @@ Le phénicien et l'araméen sont des langues sémitiques étroitement liées à 
 
 | Trait | Description | Exemple |
 |-------|-------------|---------|
-| Vocabulaire local | Certains mots libanais viennent de l'araméen, pas de l'arabe classique | ![شوب](audio/ar-lb_male_95ee8b2284b8.mp3) (shōb, chaleur), ![شب](audio/ar-lb_male_fc3d0bced7ed.mp3) (shabb, jeune homme) — héritage levantin |
+| Vocabulaire local | Quelques mots courants viennent de l'araméen, langue parlée dans la région avant l'arabe | ![ناطور](audio/ar-lb_male_636bb881aa53.mp3) (nātūr, gardien), ![برغش](audio/ar-lb_male_6c9bbb8951b3.mp3) (barghash, moucherons) |
 | Phonologie | Conservation de certains sons araméens |  |
 | Structure syllabique | Tendance à réduire les voyelles comme en araméen | ![كتاب](audio/ar-lb_male_a48d0fa109f5.mp3) (kitāb) → ktēb |
 
@@ -46,9 +52,8 @@ Le phénicien et l'araméen sont des langues sémitiques étroitement liées à 
 
 | Mot libanais | Arabe classique | Origine araméenne | Sens |
 |-------------|----------------|-------------------|------|
-| ![هيدا](audio/ar-lb_male_7b035b489abc.mp3) (hayda) | ![هذا](audio/ar-lb_male_a752770ff9ea.mp3) (hādhā) | Forme araméenne | Celui-ci |
-| ![هيدي](audio/ar-lb_male_485f1690e6be.mp3) (haydi) | ![هذه](audio/ar-lb_male_3ea456941cdb.mp3) (hādhihi) | Forme araméenne | Celle-ci |
-| ![تيتا](audio/ar-lb_male_48d9614184e8.mp3) (tēta) | ![جدة](audio/ar-lb_male_559038513dfb.mp3) (jadda) | Terme affectif | Grand-mère |
+| ![تيتا](audio/ar-lb_male_48d9614184e8.mp3) (tēta) | ![جدة](audio/ar-lb_male_559038513dfb.mp3) (jadda) | Origine discutée (terme affectif) | Grand-mère |
+| ![ناطور](audio/ar-lb_male_636bb881aa53.mp3) (nātūr) | ![حارس](audio/ar-lb_male_c390822fbbdc.mp3) (7āris) | *nāṭōrā* | Gardien (de vigne, d'immeuble) |
 
 ### Influence du turc ottoman (1516-1918)
 
@@ -104,9 +109,9 @@ L'arabe levantin (dont fait partie le libanais) s'est différencié de l'arabe c
 | Innovation | Description | Exemple |
 |-----------|-------------|---------|
 | Préfixe b- | Marque le présent habituel (absent en MSA) | ![بشوف](audio/ar-lb_male_ba7929d1a293.mp3) (bshūf) vs ![يشوف](audio/ar-lb_male_2f76b4feb197.mp3) (yshūf) en MSA |
-| Rah + verbe | Futur (différent de MSA) | ![رح يجي](audio/ar-lb_male_97a41c7ffc5f.mp3) (rah yīji) |
+| Ra7 + verbe | Futur (différent de MSA) | ![رح يجي](audio/ar-lb_male_97a41c7ffc5f.mp3) (ra7 yīji) |
 | 3am + verbe | Progressif | ![عم بيحكي](audio/ar-lb_male_c0a7ea2e3019.mp3) (3am bye7ki) |
-| Hayda / Haydi | Démonstratifs (← araméen) | Au lieu de hādhā/hādhihi |
+| Hayda / Haydi | Démonstratifs issus de *hā* + *dā* ; une origine araméenne est parfois avancée mais discutée | Au lieu de hādhā/hādhihi |
 
 ## Dialectes au sein du libanais
 
@@ -144,3 +149,28 @@ La diaspora a aussi alimenté le Liban en retour — les émigrants reviennent a
 | Presse | Journaux en MSA et français. Presse en ligne de plus en plus en libanais écrit. |
 | Réseaux sociaux | Arabizi (franco-arab) omniprésent. Le libanais écrit en latin est normalisé chez les jeunes. |
 | Identité | Débat sur l'identité arabe vs phénicienne — certains revendiquent le libanais comme langue distincte |
+
+## À retenir
+
+- Avant l'arabe, la région parlait araméen ; il en reste du vocabulaire (*nātūr*) et peut-être des traits de prononciation.
+- L'arabisation commence au VIIᵉ siècle ; l'arabe parlé s'éloigne ensuite de l'arabe classique.
+- Les Ottomans ont laissé des mots (*ōda*, chambre) ; le mandat français, une forte empreinte du français.
+- Traits levantins : qāf → coup de glotte, présent en b-, futur en *ra7*, progressif en *3am*, plus de cas grammaticaux.
+- Le libanais n'a ni statut officiel ni orthographe standard ; l'arabizi domine à l'écrit informel.
+
+## Questions de révision
+
+> [!quiz] Quelle langue parlait-on au Liban avant l'arabe ?
+> L'araméen (et, plus anciennement, le phénicien).
+
+> [!quiz] Donne un mot libanais d'origine turque.
+> *Ōda* (chambre), du turc *oda*.
+
+> [!quiz] Quelles innovations grammaticales distinguent le levantin de l'arabe classique ?
+> Le présent en b-, le futur en *ra7*, le progressif en *3am* et la disparition des cas.
+
+> [!quiz] Quelle est la langue officielle du Liban ?
+> L'arabe (standard) ; le libanais n'a pas de statut officiel.
+
+> [!quiz] Pourquoi le français est-il si présent ?
+> Écoles missionnaires dès le XIXᵉ siècle, puis mandat français (1920-1943).

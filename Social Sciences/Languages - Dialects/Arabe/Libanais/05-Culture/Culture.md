@@ -4,8 +4,14 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Arabe-Libanais > 05-Culture"
 tags: [sciences-sociales, langues, arabe, arabe-libanais, culture, liban]
 date: "2026-03-31"
+prerequis: ["[[Social Sciences/Languages - Dialects/Arabe/Libanais/02-Communication/Argot-et-Jeunes]]"]
 ---
 # Culture — Liban et Arabe Libanais
+
+> [!tip] Dans cette fiche
+> - Situer la langue dans la société libanaise : communautés, classes sociales, langues en contact.
+> - Connaître les codes de l'hospitalité, des salutations physiques et du repas.
+> - Avoir quelques références culturelles partagées : Fairuz, Gibran, Byblos, Baalbek.
 
 ## Le Liban : contexte sociolinguistique
 
@@ -35,7 +41,7 @@ Le Liban est divisé entre 18 communautés confessionnelles reconnues. La langue
 
 ## Codes sociaux et politesse
 
-### L'hospitalité libanaise (تكرم Tkaram)
+### L'hospitalité libanaise (كرم, *karam*)
 
 L'hospitalité est une valeur cardinale. Refuser une offre de café, de nourriture ou d'aide peut être perçu comme un rejet de la personne, pas juste de l'offre.
 
@@ -78,9 +84,9 @@ Repas composé de nombreuses petites assiettes partagées. Le mezze peut inclure
 
 | Formule | Sens | Usage |
 |---------|------|-------|
-| ![صحتين](audio/ar-lb_male_4d63406516a5.mp3) (sa77tein) | Bon appétit (litt. "deux santés") | Avant/pendant le repas |
-| ![الله يعطيك الصحة](audio/ar-lb_male_dcdfd475a7ac.mp3) | Que Dieu te donne la santé | Réponse à sa77tein |
-| ![كتير تيب](audio/ar-lb_male_d9875c6a6539.mp3) (ktīr tayyib) | C'est très bon | Compliment au cuisiner |
+| ![صحتين](audio/ar-lb_male_4d63406516a5.mp3) (sa77tēn) | Bon appétit (litt. "deux santés") | Avant/pendant le repas |
+| ![الله يعطيك الصحة](audio/ar-lb_male_dcdfd475a7ac.mp3) | Que Dieu te donne la santé | Réponse à sa77tēn |
+| ![كتير تيب](audio/ar-lb_male_d9875c6a6539.mp3) (ktīr tayyeb) | C'est très bon | Compliment au cuisinier |
 | ![يسلمو إيديكي](audio/ar-lb_male_5283977eedaa.mp3) | Merci pour tes mains (à une femme) | Compliment au cuisinier |
 | ![تفضل](audio/ar-lb_male_346c6fde4dbd.mp3) / ![تفضلي](audio/ar-lb_male_c29e440167cb.mp3) | Servez-vous / allez-y | Invitation à manger |
 
@@ -112,3 +118,28 @@ Repas composé de nombreuses petites assiettes partagées. Le mezze peut inclure
 | "Inshallah" ambigu | Peut signifier sincèrement "si Dieu le veut" ou poliment "probablement non" selon le ton |
 | Temps élastique | Les horaires sont indicatifs dans les contextes sociaux — prévoir 30-60 min de marge |
 | Bruit et animation | Les conversations libanaises sont souvent animées, avec des interruptions — ce n'est pas de l'impolitesse |
+
+## À retenir
+
+- Quatre langues se partagent les usages : libanais (oral), arabe standard (écrit officiel), français, anglais.
+- Refuser une offre (café, repas) peut vexer ; la bataille pour payer l'addition est un rituel.
+- La *wāsta* (piston, réseau) est une réalité sociale omniprésente.
+- *Fairuz* est la voix commune à toutes les générations et communautés.
+- La classe sociale et l'âge comptent plus que la confession dans la façon de parler en ville.
+
+## Questions de révision
+
+> [!quiz] Quelles langues se partagent l'usage au Liban ?
+> Le libanais à l'oral, l'arabe standard pour l'écrit officiel, le français et l'anglais.
+
+> [!quiz] Qu'est-ce que la *wāsta* ?
+> Le réseau de relations personnelles qui permet d'obtenir services, emplois ou passe-droits.
+
+> [!quiz] Comment réagir à une offre de café chez quelqu'un ?
+> Accepter (au moins une fois) : refuser peut être perçu comme un rejet de la personne.
+
+> [!quiz] Qui est Fairuz ?
+> La chanteuse emblématique du Liban, connue de toutes les générations.
+
+> [!quiz] Que dit-on pour complimenter un plat ?
+> *Ktīr tayyeb !* et *yislamu idēki* à la cuisinière.
