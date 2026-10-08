@@ -4,8 +4,14 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Arabe-Libanais > 03-Grammaire"
 tags: [sciences-sociales, langues, arabe, arabe-libanais, grammaire, pronoms, suffixes]
 date: "2026-04-01"
+prerequis: ["[[Social Sciences/Languages - Dialects/Arabe/Libanais/03-Grammaire/Grammaire]]"]
 ---
 # Pronoms et Suffixes — Arabe Libanais
+
+> [!tip] Dans cette fiche
+> - Dire « je, tu, il… » et surtout utiliser les **suffixes** : *bēti* (ma maison), *ma3i* (avec moi), *shāfni* (il m'a vu).
+> - Exprimer la possession sans verbe « avoir » : *3indi*, *ma3i*.
+> - Désigner (*hayda*, *haydi*) et relier deux propositions (*illi*).
 
 ## Pronoms personnels sujets
 
@@ -16,24 +22,28 @@ date: "2026-04-01"
 | Tu (f.) | ![إنتِ](audio/ar-lb_male_9de8d3240239.mp3) | inti |
 | Il | ![هو](audio/ar-lb_male_31593cfb11e3.mp3) | huwe |
 | Elle | ![هي](audio/ar-lb_male_128c908b5254.mp3) | hiye |
-| Nous | ![نحنا](audio/ar-lb_male_4732d082a188.mp3) | nehna |
+| Nous | ![نحنا](audio/ar-lb_male_4732d082a188.mp3) | ne7na |
 | Vous | ![إنتو](audio/ar-lb_male_9cce374076bb.mp3) | intu |
 | Ils/Elles | ![هنّي](audio/ar-lb_male_7d849e34957b.mp3) | henni |
+
+## Une seule série de suffixes, partout
+
+Le point clé de cette fiche : **la même série de suffixes** sert à dire « mon / ton / son » sur un nom (*bēti*, ma maison), « avec moi / chez moi » sur une préposition (*ma3i*, *3indi*) et « me / te / le » sur un verbe (*shāfni*, il m'a vu). Apprendre la série une fois, c'est l'avoir pour les trois usages. Seule différence : « me » se dit *-ni* sur un verbe et *-i* sur un nom.
 
 ## Suffixes possessifs
 
 Les suffixes possessifs s'attachent directement au nom. La forme du suffixe peut varier légèrement selon que le nom se termine par une consonne ou une voyelle.
 
-| Personne | Suffixe | Exemple avec بيت (beit, maison) | Translittération |
+| Personne | Suffixe | Exemple avec بيت (bēt, maison) | Translittération |
 |----------|---------|--------------------------------|-----------------|
-| Mon / Ma | -i (-ti après ![ة](audio/ar-lb_male_b791da543c34.mp3)) | ![بيتي](audio/ar-lb_male_58c0af45e8fc.mp3) | beiti |
-| Ton / Ta (m.) | -ak | ![بيتك](audio/ar-lb_male_097890300407.mp3) | beitak |
-| Ton / Ta (f.) | -ik | ![بيتك](audio/ar-lb_male_097890300407.mp3) | beitik |
-| Son / Sa (m.) | -o | ![بيتو](audio/ar-lb_male_59aec5297599.mp3) | beito |
-| Son / Sa (f.) | -a | ![بيتا](audio/ar-lb_male_2ba92a84df56.mp3) | beita |
-| Notre | -na | ![بيتنا](audio/ar-lb_male_ccf130a761f3.mp3) | beitna |
-| Votre | -kon | ![بيتكن](audio/ar-lb_male_5d76c67bada7.mp3) | beitkon |
-| Leur | -on | ![بيتن](audio/ar-lb_male_c8635eae76e8.mp3) | beiton |
+| Mon / Ma | -i (-ti après ![ة](audio/ar-lb_male_b791da543c34.mp3)) | ![بيتي](audio/ar-lb_male_58c0af45e8fc.mp3) | bēti |
+| Ton / Ta (m.) | -ak | ![بيتك](audio/ar-lb_male_097890300407.mp3) | bētak |
+| Ton / Ta (f.) | -ik | ![بيتك](audio/ar-lb_male_097890300407.mp3) | bētik |
+| Son / Sa (m.) | -o | ![بيتو](audio/ar-lb_male_59aec5297599.mp3) | bēto |
+| Son / Sa (f.) | -a | ![بيتا](audio/ar-lb_male_2ba92a84df56.mp3) | bēta |
+| Notre | -na | ![بيتنا](audio/ar-lb_male_ccf130a761f3.mp3) | bētna |
+| Votre | -kon | ![بيتكن](audio/ar-lb_male_5d76c67bada7.mp3) | bētkon |
+| Leur | -on | ![بيتن](audio/ar-lb_male_c8635eae76e8.mp3) | bēton |
 
 ### Exemples avec d'autres noms
 
@@ -41,7 +51,7 @@ Les suffixes possessifs s'attachent directement au nom. La forme du suffixe peut
 |-----|-------|-------------|-------------|---------|
 | ![اسم](audio/ar-lb_male_42b1eaf36d59.mp3) (ism, nom) | ![اسمي](audio/ar-lb_male_903435ec9bfe.mp3) (ismi) | ![اسمك](audio/ar-lb_male_b593c61f6545.mp3) (ismak) | ![اسمو](audio/ar-lb_male_4eddd3936908.mp3) (ismo) | ![اسمنا](audio/ar-lb_male_bce2e8011c00.mp3) (ismna) |
 | ![أهل](audio/ar-lb_male_3c78a3a4e2db.mp3) (ahel, famille) | ![أهلي](audio/ar-lb_male_0ef09566f6d5.mp3) (ahli) | ![أهلك](audio/ar-lb_male_1d45a0782d72.mp3) (ahlak) | ![أهلو](audio/ar-lb_male_280d499bb53a.mp3) (ahlo) | ![أهلنا](audio/ar-lb_male_ba6da4f9217d.mp3) (ahlna) |
-| ![صاحب](audio/ar-lb_male_1dbb9970b51e.mp3) (Sā7ib, ami) | ![صاحبي](audio/ar-lb_male_9fecd7355cda.mp3) (Sā7bi) | ![صاحبك](audio/ar-lb_male_9f48f870e9be.mp3) (Sā7bak) | ![صاحبو](audio/ar-lb_male_26a5ec1fbe5a.mp3) (Sā7bo) | ![صاحبنا](audio/ar-lb_male_ccc25aad5b61.mp3) (Sā7ibna) |
+| ![صاحب](audio/ar-lb_male_1dbb9970b51e.mp3) (sā7ib, ami) | ![صاحبي](audio/ar-lb_male_9fecd7355cda.mp3) (sā7bi) | ![صاحبك](audio/ar-lb_male_9f48f870e9be.mp3) (sā7bak) | ![صاحبو](audio/ar-lb_male_26a5ec1fbe5a.mp3) (sā7bo) | ![صاحبنا](audio/ar-lb_male_ccc25aad5b61.mp3) (sā7ibna) |
 
 > Quand le nom se termine par la ta marbuta (ة → -e), la voyelle finale peut s'élider ou se modifier légèrement avant le suffixe : مدرسة (madrasse) → مدرستي (madrassti, mon école).
 
@@ -79,7 +89,7 @@ Les mêmes suffixes s'attachent aux prépositions, ce qui est très fréquent en
 
 Exemples :
 - عندي سيارة (3indi sayyāra) — J'ai une voiture
-- ما عندو فلوس (mā 3indo flūs) — Il n'a pas d'argent
+- ما عندو مصاري (mā 3indo masāri) — Il n'a pas d'argent
 - عندك وقت؟ (3andak wa2et?) — Tu as du temps ?
 
 ### على (3ala, sur / à)
@@ -87,10 +97,10 @@ Exemples :
 | Français | Libanais | Translittération |
 |----------|-------|-----------------|
 | Sur moi / à moi | ![عليّ](audio/ar-lb_male_74b6b491bbcd.mp3) | 3aleyye |
-| Sur toi (m.) | ![عليك](audio/ar-lb_male_34c5ab110e60.mp3) | 3aleik |
+| Sur toi (m.) | ![عليك](audio/ar-lb_male_34c5ab110e60.mp3) | 3alēk |
 | Sur lui | ![عليه](audio/ar-lb_male_e51b41e930b2.mp3) | 3alēh |
 | Sur elle | ![عليها](audio/ar-lb_male_d14c5c8bf5aa.mp3) | 3alēha |
-| Sur nous | ![علينا](audio/ar-lb_male_2d46742d6311.mp3) | 3aleina |
+| Sur nous | ![علينا](audio/ar-lb_male_2d46742d6311.mp3) | 3alēna |
 
 ### في (fi, dans / il y a)
 
@@ -153,3 +163,31 @@ Exemples :
 - الشب اللي شفتو (esh-shabb illi shifto) — le jeune homme que j'ai vu
 - البنت اللي بتحكي معا (el-bint illi bte7ki ma3a) — la fille avec qui tu parles
 - الأكل اللي طيب (el-akl illi tayyib) — la nourriture qui est bonne
+
+## À retenir
+
+- Suffixes : *-i, -ak, -ik, -o, -a, -na, -kon, -on* ; ils s'attachent aux noms, aux prépositions et aux verbes (*-ni* pour « me »).
+- « Avoir » = *3and* + suffixe : *3indi*, *3andak*, *3indo* ; « avoir sur soi » = *ma3* + suffixe.
+- *Fīk* + verbe = « tu peux » : *fīk tsā3idni ?*
+- *Hayda* (m.), *haydi* (f.), *hōdi* (pl.) = ce, cette, ces ; *illi* = qui, que, dont, invariable.
+- Ils/elles se disent *henni* : pas de distinction de genre au pluriel.
+
+## Questions de révision
+
+> [!quiz] Comment dit-on « ma maison », « ta maison » (à une femme) et « notre maison » ?
+> *Bēti*, *bētik*, *bētna*.
+
+> [!quiz] Comment exprime-t-on « j'ai » en libanais ?
+> Avec *3and* + suffixe : *3indi* (litt. « chez moi »).
+
+> [!quiz] Traduis « il n'a pas d'argent ».
+> *Mā 3indo masāri*.
+
+> [!quiz] Quelle différence entre « me » sur un verbe et « mon » sur un nom ?
+> *-ni* sur un verbe (*shāfni*, il m'a vu), *-i* sur un nom (*ismi*, mon nom).
+
+> [!quiz] Comment dire « ce livre » et « cette fille » ?
+> *Hayda l-ktēb* et *haydi l-bint*.
+
+> [!quiz] Comment demander poliment « tu peux m'aider ? »
+> *Fīk tsā3idni ?*

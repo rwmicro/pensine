@@ -4,24 +4,30 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Arabe-Libanais > 04-Vocabulaire"
 tags: [sciences-sociales, langues, arabe, arabe-libanais, vocabulaire, achats, argent, marchandage]
 date: "2026-05-29"
+prerequis: ["[[Social Sciences/Languages - Dialects/Arabe/Libanais/04-Vocabulaire/Vocabulaire]]"]
 ---
 # Achats et Argent — Arabe Libanais
 
-Faire ses courses au souk ou en magasin est l'occasion de pratiquer chiffres, marchandage et formules de politesse. Le Liban utilise la **livre libanaise** (`līra`) mais le dollar (`dōlar`) circule largement. Pour les chiffres, voir [[Social Sciences/Languages - Dialects/Arabe/Libanais/04-Vocabulaire/Vocabulaire|Vocabulaire]]. Convention de translittération : voir [[Social Sciences/Languages - Dialects/Turc/01-Phonologie/Alphabet-Prononciation|Alphabet et Prononciation]].
+Faire ses courses au souk ou en magasin est l'occasion de pratiquer chiffres, marchandage et formules de politesse. Le Liban utilise la **livre libanaise** (`līra`) mais le dollar (`dōlar`) circule largement. Depuis la crise de 2019, la livre a perdu plus de 95 % de sa valeur : beaucoup de prix sont affichés en dollars, et les montants en livres se comptent en centaines de milliers (*miyt alf*, cent mille). Les prix des dialogues anciens (« 5 000 livres le café ») sont donc à prendre comme des exercices de chiffres, pas comme des prix réels. Pour les chiffres, voir [[Social Sciences/Languages - Dialects/Arabe/Libanais/04-Vocabulaire/Vocabulaire|Vocabulaire]]. Convention de translittération : voir [[Social Sciences/Languages - Dialects/Arabe/Libanais/01-Phonologie/Alphabet-Prononciation|Alphabet et Prononciation]].
+
+> [!tip] Dans cette fiche
+> - Demander un prix, marchander et payer.
+> - Nommer les lieux d'achat, l'argent et les quantités.
+> - Comprendre le contexte monétaire libanais (livre et dollar).
 
 ## Argent
 
 | Français | Libanais | Translittération |
 |----------|----------|------------------|
-| Argent | ![مصاري](audio/ar-lb_male_13b577fef96e.mp3) | maSāre |
+| Argent | ![مصاري](audio/ar-lb_male_13b577fef96e.mp3) | masāre |
 | Livre libanaise | ![ليرة](audio/ar-lb_male_8f45aff80fde.mp3) | līra |
 | Dollar | ![دولار](audio/ar-lb_male_52ed03e1207c.mp3) | dōlar |
-| Monnaie (rendue) | ![فراطة](audio/ar-lb_male_e2606107691e.mp3) | frāTa |
+| Monnaie (rendue) | ![فراطة](audio/ar-lb_male_e2606107691e.mp3) | frāta |
 | Billet | ![ورقة](audio/ar-lb_male_aba8ac1e1cbf.mp3) | wara2a |
 | Carte (bancaire) | ![كارت](audio/ar-lb_male_42471fa0a0c5.mp3) | kart |
 | Cash / liquide | ![كاش](audio/ar-lb_male_c2c64009ba17.mp3) | kēsh |
 | Cher | ![غالي](audio/ar-lb_male_d834fbf2ce22.mp3) | ghāle |
-| Bon marché | ![رخيص](audio/ar-lb_male_f50ccd8168ab.mp3) | rkhīS |
+| Bon marché | ![رخيص](audio/ar-lb_male_f50ccd8168ab.mp3) | rkhīs |
 | Gratuit | ![بلاش](audio/ar-lb_male_c7ad96348878.mp3) | balēsh |
 | Prix | ![سعر](audio/ar-lb_male_7951a4cd9b9f.mp3) / ![تمن](audio/ar-lb_male_c0e7bc05ff5b.mp3) | se3er / taman |
 
@@ -45,11 +51,11 @@ Faire ses courses au souk ou en magasin est l'occasion de pratiquer chiffres, ma
 | Combien ça coûte ? | ![قدّيش هيدا ؟](audio/ar-lb_male_c477cb13f832.mp3) | addēsh hayda? |
 | Combien en tout ? | ![قدّيش بالكلّ ؟](audio/ar-lb_male_eca574e11715.mp3) | addēsh bil-kell? |
 | C'est trop cher | ![غالي كتير](audio/ar-lb_male_67ba6b4ae6af.mp3) | ghāle ktīr |
-| Tu peux baisser le prix ? | ![في تنزّل ؟](audio/ar-lb_male_13a91e5475f8.mp3) | fī tnazzel? |
+| Tu peux baisser le prix ? | ![فيك تنزّل ؟](audio/ar-lb_male_1e9b5704660b.mp3) | fīk tnazzel? |
 | Fais-moi un bon prix | ![اعملّي سعر منيح](audio/ar-lb_male_40e77c0ca87d.mp3) | i3melle se3er mnī7 |
 | Je vais réfléchir | ![رح فكّر](audio/ar-lb_male_2ddf86686320.mp3) | ra7 fakker |
-| Je le prends | ![بآخدو](audio/ar-lb_male_03f0044417ee.mp3) | bē5do |
-| Tu as autre chose ? | ![في عندك غيرو ؟](audio/ar-lb_male_9c74f659b2ab.mp3) | fī 3andak gheiro? |
+| Je le prends | ![بآخدو](audio/ar-lb_male_03f0044417ee.mp3) | bēkhdo |
+| Tu as autre chose ? | ![في عندك غيرو ؟](audio/ar-lb_male_9c74f659b2ab.mp3) | fī 3andak ghēro? |
 | Je cherche... | ![عم دوّر عـ](audio/ar-lb_male_3a42b1452673.mp3)... | 3am dawwer 3a... |
 | Juste je regarde | ![بس عم تفرّج](audio/ar-lb_male_8f0c5eb8ed31.mp3) | bass 3am tfarraj |
 
@@ -60,17 +66,17 @@ Faire ses courses au souk ou en magasin est l'occasion de pratiquer chiffres, ma
 | Je paie comment ? | ![كيف بدفع ؟](audio/ar-lb_male_903936de8256.mp3) | kīf bedfa3? |
 | Vous prenez la carte ? | ![بتقبلو كارت ؟](audio/ar-lb_male_499f883622c9.mp3) | bti2balu kart? |
 | Cash seulement | ![كاش بس](audio/ar-lb_male_c02254b15f42.mp3) | kēsh bass |
-| Garde la monnaie | ![خلّي الفراطة](audio/ar-lb_male_96a4cebbc13d.mp3) | khalle el-frāTa |
-| Donne-moi la facture | ![عطيني الفاتورة](audio/ar-lb_male_1b0639f3e9cc.mp3) | 3aTīne el-fatūra |
-| Il manque de la monnaie | ![ناقص فراطة](audio/ar-lb_male_1daba1d1cc86.mp3) | nā2eS frāTa |
+| Garde la monnaie | ![خلّي الفراطة](audio/ar-lb_male_96a4cebbc13d.mp3) | khalle el-frāta |
+| Donne-moi la facture | ![عطيني الفاتورة](audio/ar-lb_male_1b0639f3e9cc.mp3) | 3atīne el-fatūra |
+| Il manque de la monnaie | ![ناقص فراطة](audio/ar-lb_male_1daba1d1cc86.mp3) | nā2es frāta |
 
 ## Quantités et emballage
 
 | Français | Libanais | Translittération |
 |----------|----------|------------------|
 | Un kilo | ![كيلو](audio/ar-lb_male_84c881efbaeb.mp3) | kīlo |
-| Un demi-kilo | ![نصّ كيلو](audio/ar-lb_male_cd26933a3725.mp3) | noSS kīlo |
-| Une livre (poids) | ![رطل](audio/ar-lb_male_a85b6f0baf7e.mp3) | raTel |
+| Un demi-kilo | ![نصّ كيلو](audio/ar-lb_male_cd26933a3725.mp3) | noss kīlo |
+| Un *ratl* (unité traditionnelle, environ 2,5 kg) | ![رطل](audio/ar-lb_male_a85b6f0baf7e.mp3) | ratel |
 | Un peu | ![شويّة](audio/ar-lb_male_a781fa5c61e6.mp3) | shwayye |
 | Beaucoup | ![كتير](audio/ar-lb_male_9886c14fd341.mp3) | ktīr |
 | Une boîte | ![علبة](audio/ar-lb_male_2ddcd6cb966b.mp3) | 3elbe |
@@ -88,3 +94,28 @@ Faire ses courses au souk ou en magasin est l'occasion de pratiquer chiffres, ma
 | Coûter | ![كلّف](audio/ar-lb_male_41cfd8566202.mp3) (kallaf) | ![بيكلّف](audio/ar-lb_male_820e7c32c69d.mp3) (bykallef) |
 | Choisir | ![اختار](audio/ar-lb_male_4bcdcdc8f278.mp3) (ikhtār) | ![بختار](audio/ar-lb_male_c2378494b066.mp3) (bekhtār) |
 | Échanger / rendre | ![بدّل](audio/ar-lb_male_16c1c0005186.mp3) (baddal) | ![ببدّل](audio/ar-lb_male_469569ef5364.mp3) (bbaddel) |
+
+## À retenir
+
+- *Addēsh hayda ?* = combien ça coûte ? ; *ghāle ktīr* = c'est trop cher.
+- Pour marchander : *fīk tnazzel ?* (tu peux baisser ?), *i3melle se3er mnī7* (fais-moi un bon prix).
+- *Masāri* = argent ; *frāta* = monnaie rendue ; *kēsh* / *kart* = espèces / carte.
+- Depuis 2019, on paie souvent en dollars ; les sommes en livres sont très élevées.
+- *Bass 3am tfarraj* = je regarde seulement.
+
+## Questions de révision
+
+> [!quiz] Comment demander « combien en tout ? »
+> *Addēsh bil-kell ?*
+
+> [!quiz] Comment demander au vendeur de baisser le prix ?
+> *Fīk tnazzel ?*
+
+> [!quiz] Comment dire « je regarde seulement » ?
+> *Bass 3am tfarraj*.
+
+> [!quiz] Que veut dire *khalle el-frāta* ?
+> « Garde la monnaie ».
+
+> [!quiz] Pourquoi beaucoup de prix sont-ils affichés en dollars au Liban ?
+> Parce que la livre libanaise a perdu l'essentiel de sa valeur depuis la crise de 2019.

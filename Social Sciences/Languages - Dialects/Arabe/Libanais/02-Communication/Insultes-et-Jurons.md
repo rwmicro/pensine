@@ -7,6 +7,10 @@ date: "2026-04-14"
 ---
 # Insultes et Jurons - Arabe Libanais
 
+> [!tip] Dans cette fiche
+> - **Reconnaître** ce qu'on entend dans la rue, un film ou une dispute, et mesurer sa gravité.
+> - Fiche annexe, hors du parcours principal : rien ici n'est à employer.
+
 > **Avertissement** : cette fiche est documentaire. L'objectif est de comprendre ce qu'on peut entendre dans la rue, un film ou une dispute familiale. **Aucune de ces expressions ne doit être produite par un apprenant non-natif**, le ton, le dosage et le contexte sont tellement codés que même une insulte bien traduite sonnera fausse ou offensera gravement.
 
 ## Échelle de gravité
@@ -41,24 +45,23 @@ date: "2026-04-14"
 | ![حمار](audio/ar-lb_male_c5a0777b3da6.mp3) | 7mār | âne (= crétin) | 2-3 |
 | ![كلب](audio/ar-lb_male_90bc823e1cd3.mp3) | kalb | chien (insulte courante au Levant) | 3 |
 | ![بهيم](audio/ar-lb_male_e1423d074a22.mp3) | bahīm | bestial / stupide | 3 |
-| ![طرش](audio/ar-lb_male_487aea1efb46.mp3) | Trosh | sourd = demeuré | 2 |
+| ![طرش](audio/ar-lb_male_487aea1efb46.mp3) | atrash | sourd = demeuré | 2 |
 | ![لاشي](audio/ar-lb_male_3a6f097d1a7c.mp3) | lā shi | bon à rien | 3 |
 | ![قذر](audio/ar-lb_male_324c2485cc72.mp3) | 2azer | sale | 2-3 |
-| ![بعيد](audio/ar-lb_male_b54ba90b18bf.mp3) | ba3īd | loin = absent, déconnecté | 1-2 |
 
 ## Insultes directes (niveau 3-4)
 
 | Insulte | Libanais | Sens | Gravité |
 |---------|-------|------|---------|
-| ![شرموط](audio/ar-lb_male_651516d305a3.mp3) | sharmūT (m.) | pute (insulte masculine) | 4 |
-| ![شرموطة](audio/ar-lb_male_71e217c7974c.mp3) | sharmūTa (f.) | pute (forme féminine) | 4 |
-| ![عرص](audio/ar-lb_male_6557102b76c9.mp3) | 3arS | proxénète / maquereau | 4 |
+| ![شرموط](audio/ar-lb_male_651516d305a3.mp3) | sharmūt (m.) | pute (insulte masculine) | 4 |
+| ![شرموطة](audio/ar-lb_male_71e217c7974c.mp3) | sharmūta (f.) | pute (forme féminine) | 4 |
+| ![عرص](audio/ar-lb_male_6557102b76c9.mp3) | 3ars | proxénète / maquereau | 4 |
 | ![منيوك](audio/ar-lb_male_6abb645d0730.mp3) | manyūk | "sodomisé" | 4-5 |
 | ![ابن الكلب](audio/ar-lb_male_e52f4b66fa9a.mp3) | ibn el-kalb | fils de chien | 3 |
 | ![ابن الحرام](audio/ar-lb_male_8b3974634525.mp3) | ibn el-7arām | bâtard (litt. "fils du péché") | 3-4 |
 | ![خرا](audio/ar-lb_male_ef5cfc052de1.mp3) | khara | merde | 3 |
 | ![كس أختك](audio/ar-lb_male_9ee76b08789c.mp3) | kis ukhtak | expression sexuelle grave | 4-5 |
-| ![طز](audio/ar-lb_male_8ddf8c852eda.mp3) | Tozz | "merde" (turc ottoman, atténué) | 2 |
+| ![طز](audio/ar-lb_male_8ddf8c852eda.mp3) | tozz | "merde" (turc ottoman, atténué) | 2 |
 
 ## Formules de malédiction
 
@@ -67,8 +70,8 @@ Le libanais possède des tournures élaborées dites `da3wa` (دعوة) — invo
 | Malédiction | Libanais | Sens littéral |
 |-------------|-------|---------------|
 | ![الله يلعنك](audio/ar-lb_male_4079ce5d372b.mp3) | allah yil3anak | Que Dieu te maudisse |
-| ![يخرب بيتك](audio/ar-lb_male_03bdb1a27f03.mp3) | yikhrib beitak | Que ta maison s'effondre |
-| ![يقطع عمرك](audio/ar-lb_male_04c5833ba77e.mp3) | ya2Ta3 3umrak | Que ta vie soit coupée |
+| ![يخرب بيتك](audio/ar-lb_male_03bdb1a27f03.mp3) | yikhrib bētak | Que ta maison s'effondre |
+| ![يقطع عمرك](audio/ar-lb_male_04c5833ba77e.mp3) | ya2ta3 3umrak | Que ta vie soit coupée |
 | ![تنقبر](audio/ar-lb_male_49f9491adaeb.mp3) | tin2aber | Que tu sois enterré |
 | ![روح موت](audio/ar-lb_male_451e14f2a2b5.mp3) | rū7 mūt | Va mourir |
 | ![يحرق قلبك](audio/ar-lb_male_59cdfd9e8cf2.mp3) | yi7ri2 2albak | Que ton cœur brûle |
@@ -88,12 +91,12 @@ Utiles pour exprimer la frustration sans risquer d'offenser.
 |-----------|------------------|------|
 | ![طفشت](audio/ar-lb_male_ec1cd16ccb2c.mp3) | Tafasht | j'en ai marre |
 | ![زهقت](audio/ar-lb_male_de33e5da36ff.mp3) | zihi2t | je m'ennuie / j'en ai assez |
-| ![انهارت أعصابي](audio/ar-lb_male_07beeeac6ae3.mp3) | inhārit a3Sābi | mes nerfs ont lâché |
-| ![رح أجنّ](audio/ar-lb_male_5f2d9b7c1a24.mp3) | rah ajinn | je vais devenir fou |
-| ![بطلت قادر](audio/ar-lb_male_8225ec2ea4fa.mp3) | baTTalt 2āder | je n'en peux plus |
-| ![خلص](audio/ar-lb_male_e25162d95e2b.mp3) | khalaS | stop / ça suffit |
+| ![انهارت أعصابي](audio/ar-lb_male_07beeeac6ae3.mp3) | inhārit a3sābi | mes nerfs ont lâché |
+| ![رح أجنّ](audio/ar-lb_male_5f2d9b7c1a24.mp3) | ra7 ajinn | je vais devenir fou |
+| ![بطلت قادر](audio/ar-lb_male_8225ec2ea4fa.mp3) | battalt 2āder | je n'en peux plus |
+| ![خلص](audio/ar-lb_male_e25162d95e2b.mp3) | khalas | stop / ça suffit |
 | ![عالله](audio/ar-lb_male_52fc015e65db.mp3) | 3alallah | "à Dieu" = je laisse tomber |
-| ![بطل](audio/ar-lb_male_0e163f5f9c40.mp3) | baTTil | arrête |
+| ![بطل](audio/ar-lb_male_0e163f5f9c40.mp3) | battil | arrête |
 | ![انقلع](audio/ar-lb_male_fd71700a3cfd.mp3) | n2ele3 | dégage (niveau 3) |
 
 ## Nuances culturelles
@@ -111,3 +114,21 @@ Utiles pour exprimer la frustration sans risquer d'offenser.
 | `allah ysēm7ak` (que Dieu te pardonne) | réponse très classe, retourne la honte |
 | `mā bridd 3lēk` (je ne te réponds pas) | marque de supériorité calme |
 | Riposter dans le registre | escalade — à éviter sauf entre proches |
+
+## À retenir
+
+- Les jurons « atténués » (*yā rabbi*, *shu hal-balā*) passent entre proches ; le reste est offensant.
+- Toute insulte visant la mère, la sœur ou les morts est la plus grave possible.
+- *Tozz* (de l'ottoman) exprime le mépris sans grossièreté forte.
+- En cas de doute, ne pas répéter : le sens social dépasse souvent le sens littéral.
+
+## Questions de révision
+
+> [!quiz] Quel niveau de gravité pour une insulte visant la mère ou les morts ?
+> Le plus haut (tabou) : c'est une attaque à l'honneur de la famille.
+
+> [!quiz] Que signifie *yā rabbi !* et est-ce grossier ?
+> « Ô mon Dieu », équivalent de « oh là là » ; ce n'est pas grossier.
+
+> [!quiz] D'où vient *tozz* et quelle est sa force ?
+> Du turc ottoman ; il marque le mépris (« je m'en moque »), assez atténué.

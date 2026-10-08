@@ -4,25 +4,31 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Arabe-Libanais > 03-Grammaire"
 tags: [sciences-sociales, langues, arabe, arabe-libanais, grammaire, negation]
 date: "2026-04-14"
+prerequis: ["[[Social Sciences/Languages - Dialects/Arabe/Libanais/03-Grammaire/Verbes]]"]
 ---
 # Négation — Arabe Libanais
 
 Le libanais utilise trois particules principales de négation : **mā**, **mish** et **wala**. Le choix dépend de ce qui est nié (verbe, nom/adjectif, élément d'une liste).
 
+> [!tip] Dans cette fiche
+> - Choisir entre **mā**, **mish** et **wala** selon ce que l'on nie.
+> - Dire « il n'y a pas », « je n'ai pas », « je ne peux pas ».
+> - Donner un ordre négatif : « ne pars pas ! ».
+
 ## mā — négation du verbe
 
-**ما** (mā) précède le verbe conjugué. S'utilise au passé, au présent-habituel (préfixe b-), au progressif (3am) et au futur (rah).
+**ما** (mā) précède le verbe conjugué. S'utilise au passé, au présent-habituel (préfixe b-), au progressif (3am) et au futur (ra7).
 
 | Affirmatif | Négatif | Sens |
 |------------|---------|------|
 | ![بشوف](audio/ar-lb_male_ba7929d1a293.mp3) (bshūf) | ![ما بشوف](audio/ar-lb_male_4125caf2df07.mp3) (mā bshūf) | je ne vois pas |
 | ![شفت](audio/ar-lb_male_89f00d542c8a.mp3) (shift) | ![ما شفت](audio/ar-lb_male_096b712728d1.mp3) (mā shift) | je n'ai pas vu |
 | ![عم بآكل](audio/ar-lb_male_516cf8697709.mp3) (3am bākul) | ![ما عم بآكل](audio/ar-lb_male_077a0f5f9a93.mp3) (mā 3am bākul) | je ne suis pas en train de manger |
-| ![رح روح](audio/ar-lb_male_f53fba09460e.mp3) (rah rū7) | ![ما رح روح](audio/ar-lb_male_b1b7ecbe0bf1.mp3) (mā rah rū7) | je n'irai pas |
+| ![رح روح](audio/ar-lb_male_f53fba09460e.mp3) (ra7 rū7) | ![ما رح روح](audio/ar-lb_male_b1b7ecbe0bf1.mp3) (mā ra7 rū7) | je n'irai pas |
 
 ### Suffixe -sh de renforcement (optionnel)
 
-Un **-ش** (-sh) peut s'ajouter en fin de verbe pour emphase. Moins fréquent à Beyrouth qu'en égyptien, mais courant dans le sud et à la montagne.
+Un **-ش** (-sh) peut s'ajouter en fin de verbe pour emphase. Moins fréquent à Beyrouth qu'en égyptien, mais courant dans le sud et à la montagne. **À ne pas utiliser activement au début** : à Beyrouth, *mā ba3rif* suffit ; il faut seulement le reconnaître à l'écoute.
 
 | Forme | Translittération |
 |-------|------------------|
@@ -42,7 +48,7 @@ Un **-ش** (-sh) peut s'ajouter en fin de verbe pour emphase. Moins fréquent à
 | Ce n'est pas moi | ![مش أنا](audio/ar-lb_male_5d23d0b5e168.mp3) | mish ana |
 | Pas ici | ![مش هون](audio/ar-lb_male_d814a3f65e18.mp3) | mish hōn |
 
-> **mish** peut aussi précéder un verbe pour nier par focalisation contrastive : `mish 3am bi7ki ma3ak` = "ce n'est pas à toi que je parle" (vs `mā 3am bi7ki ma3ak` = "je ne te parle pas").
+> **mish** peut aussi précéder un verbe pour nier par focalisation contrastive : `mish 3am be7ki ma3ak` = "ce n'est pas à toi que je parle" (vs `mā 3am be7ki ma3ak` = "je ne te parle pas").
 
 ## wala — ni / aucun
 
@@ -89,3 +95,31 @@ L'impératif négatif utilise **ما** + présent conjugué à la 2ᵉ personne 
 | ![أبداً](audio/ar-lb_male_8a1e89fd2ba1.mp3) | abadan | jamais / pas du tout |
 | ![مش ضروري](audio/ar-lb_male_a54efd1054b7.mp3) | mish darūri | ce n'est pas nécessaire |
 | ![ولا بالأحلام](audio/ar-lb_male_663cef6d17d9.mp3) | wala bil-a7lām | même pas en rêve |
+
+## À retenir
+
+- **Mā** + verbe (à tous les temps) : *mā bshūf*, *mā shift*, *mā ra7 rū7*.
+- **Mish** + tout le reste : *mish mnī7*, *mish hōn*, *mish ana*.
+- **Wala** = pas un seul : *wala shi* (rien), *wala 7ada* (personne).
+- Les « faux verbes » se nient avec *mā* : *mā fī*, *mā 3indi*, *mā fiyyi*.
+- Impératif négatif = *mā* + présent sans b- : *mā trū7 !*
+
+## Questions de révision
+
+> [!quiz] *Mā* ou *mish* : « je n'ai pas vu » ?
+> *Mā shift* : on nie un verbe.
+
+> [!quiz] Comment dire « ce n'est pas ici » ?
+> *Mish hōn*.
+
+> [!quiz] Comment dit-on « personne » et « rien » ?
+> *Wala 7ada* et *wala shi*.
+
+> [!quiz] Traduis « je n'ai pas d'argent sur moi ».
+> *Mā ma3i masāri*.
+
+> [!quiz] Comment dire « ne pars pas ! » à un homme ?
+> *Mā trū7 !* (*mā* + présent sans b-).
+
+> [!quiz] Quelle nuance entre *mā 3am be7ki ma3ak* et *mish 3am be7ki ma3ak* ?
+> Le premier : « je ne te parle pas » ; le second insiste : « ce n'est pas à toi que je parle ».
