@@ -4,29 +4,35 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Arabe-Libanais > 02-Communication"
 tags: [sciences-sociales, langues, arabe, arabe-libanais, phrases, communication]
 date: "2026-03-31"
+prerequis: ["[[Social Sciences/Languages - Dialects/Arabe/Libanais/02-Communication/Salutations]]"]
 ---
 # Phrases Essentielles — Arabe Libanais
 
 Translittération : `2` = ء/ق (coup de glotte), `3` = ع, `kh` = خ, `7` = ح, `sh` = ش, `gh` = غ. Emphatiques non distinguées en écriture.
 Registres : **F** = formel / **C** = courant / **I** = informel
 
+> [!tip] Dans cette fiche
+> - Disposer d'un kit de survie d'une soixantaine de phrases : saluer, remercier, se présenter, demander de l'aide.
+> - Savoir à quel **registre** appartient chaque formule (formel, courant, informel).
+> - Repérer les mots qui reviennent partout : *biddi*, *fī* / *mā fī*, *ktīr*, *shwayy*, *yalla*.
+
 ## Salutations et formules de base
 
 | Français                  | Libanais                                           | Translittération | Registre |
 | ------------------------- | -------------------------------------------------- | ---------------- | -------- |
 | Bonjour                   | ![مرحبا](audio/ar-lb_male_3612a31ad7aa.mp3)        | mar7aba          | C        |
-| Bonjour (réponse)         | ![مرحبتين](audio/ar-lb_male_aff8a6c02d85.mp3)      | mar7abtein       | C        |
+| Bonjour (réponse)         | ![مرحبتين](audio/ar-lb_male_aff8a6c02d85.mp3)      | mar7abtēn       | C        |
 | Salut                     | ![هلا](audio/ar-lb_male_34e32cc07127.mp3)          | hala             | I        |
 | Bonjour (matin)           | ![صباح الخير](audio/ar-lb_male_b0e8d87781cf.mp3)   | sabā7 el-khēr    | F/C      |
 | Bonne soirée              | ![مساء الخير](audio/ar-lb_male_b0a024cbb0c4.mp3)   | masā el-khēr     | F/C      |
 | Comment vas-tu ? (m.)     | ![كيفك](audio/ar-lb_male_a80e37781f54.mp3)         | kīfak            | C        |
 | Comment vas-tu ? (f.)     | ![كيفك](audio/ar-lb_male_a80e37781f54.mp3)         | kīfik            | C        |
-| Comment vas-tu ? (formel) | ![كيف حالك](audio/ar-lb_male_dd91fabd36a9.mp3)     | kīf 7ālik        | F        |
+| Comment vas-tu ? (formel) | ![كيف حالك](audio/ar-lb_male_dd91fabd36a9.mp3)     | kīf 7ālak (m.) / 7ālik (f.) | F        |
 | Ça va, merci              | ![منيح، شكراً](audio/ar-lb_male_52b4e90b1da9.mp3)  | mnī7, shukran    | C        |
 | Ça va très bien           | ![تمام](audio/ar-lb_male_d51626cdabb2.mp3)         | tamēm            | C/I      |
-| Au revoir                 | ![مع السلامة](audio/ar-lb_male_354826c3721f.mp3)   | ma3 el-salēme    | C        |
+| Au revoir                 | ![مع السلامة](audio/ar-lb_male_354826c3721f.mp3)   | ma3 es-salēme    | C        |
 | À bientôt                 | ![يلا باي](audio/ar-lb_male_0700216c17c5.mp3)      | yalla bye        | I        |
-| Bonne nuit                | ![تصبح على خير](audio/ar-lb_male_5b25a67beb44.mp3) | tSba7 3a khēr    | C        |
+| Bonne nuit                | ![تصبح على خير](audio/ar-lb_male_5b25a67beb44.mp3) | tisba7 3a khēr    | C        |
 
 ## Politesse et remerciements
 
@@ -38,7 +44,7 @@ Registres : **F** = formel / **C** = courant / **I** = informel
 | S'il vous plaît | ![من فضلك](audio/ar-lb_male_4f0461e45d75.mp3) | min fadlak | C |
 | Pardon / Excuse-moi | ![عفواً](audio/ar-lb_male_40fd8507bf25.mp3) / ![آسف](audio/ar-lb_male_330e24848616.mp3) | 3afwan / āsif | C |
 | Ce n'est pas grave | ![ما في شي](audio/ar-lb_male_7ab09994b195.mp3) | mā fī shi | C |
-| Bien sûr | ![طبعاً](audio/ar-lb_male_1e11f660a69c.mp3) | Tab3an | C |
+| Bien sûr | ![طبعاً](audio/ar-lb_male_1e11f660a69c.mp3) | tab3an | C |
 | D'accord | ![تمام](audio/ar-lb_male_d51626cdabb2.mp3) / ![أوك](audio/ar-lb_male_3c0d8fd2a507.mp3) | tamēm / ok | C/I |
 
 ## Présentation
@@ -56,7 +62,7 @@ Registres : **F** = formel / **C** = courant / **I** = informel
 
 | Français | Libanais | Translittération | Registre |
 |----------|----------------|-----------------|----------|
-| Je ne comprends pas | ![ما فهمت](audio/ar-lb_male_4f463a9c3927.mp3) | mā fehimt | C |
+| Je ne comprends pas | ![ما فهمت](audio/ar-lb_male_4f463a9c3927.mp3) | mā fhimt | C |
 | Tu peux répéter ? | ![فيك تعيد](audio/ar-lb_male_0ff735f73abc.mp3) | fīk t3īd | C |
 | Plus lentement s'il te plaît | ![شوي شوي](audio/ar-lb_male_02ea22098405.mp3) | shwayy shwayy | C |
 | Qu'est-ce que ça veut dire ? | ![شو يعني](audio/ar-lb_male_c523faae8028.mp3) | shu ya3ni | C |
@@ -68,7 +74,7 @@ Registres : **F** = formel / **C** = courant / **I** = informel
 
 | Français | Libanais | Translittération | Registre |
 |----------|----------------|-----------------|----------|
-| Où est... ? | ![وين هو](audio/ar-lb_male_3ca0011d8b01.mp3)... | wēn huwwe... | C |
+| Où est... ? | ![وين هو](audio/ar-lb_male_3ca0011d8b01.mp3)... | wēn... | C |
 | Combien ça coûte ? | ![قديش](audio/ar-lb_male_d9c536d91420.mp3) | addēsh | C |
 | C'est trop cher | ![غالي كتير](audio/ar-lb_male_67ba6b4ae6af.mp3) | ghāli ktīr | C |
 | Je veux... | ![بدي](audio/ar-lb_male_7a13e1817809.mp3) | biddi... | C |
@@ -83,7 +89,7 @@ Registres : **F** = formel / **C** = courant / **I** = informel
 | Français | Libanais | Translittération | Registre |
 |----------|----------------|-----------------|----------|
 | Je veux manger | ![بدي آكل](audio/ar-lb_male_259b85a9f73b.mp3) | biddi ākul | C |
-| Bon appétit | ![صحتين](audio/ar-lb_male_4d63406516a5.mp3) | sa77tein | C — litt. "deux santés" |
+| Bon appétit | ![صحتين](audio/ar-lb_male_4d63406516a5.mp3) | sa77tēn | C — litt. "deux santés" |
 | C'est délicieux | ![كتير تيب](audio/ar-lb_male_d9875c6a6539.mp3) | ktīr tayyib | C |
 | L'addition, s'il vous plaît | ![الحساب](audio/ar-lb_male_fd913bbacebf.mp3) | el-7sēb | C |
 | Je t'invite | ![أنا عازمك](audio/ar-lb_male_2ee126e6f138.mp3) | ana 3āzmak | C |
@@ -97,11 +103,39 @@ Registres : **F** = formel / **C** = courant / **I** = informel
 | Mon cher / Mon amie (f.) | ![حبيبتي](audio/ar-lb_male_73f7cc35faa4.mp3) | 7abībti | I — affectif |
 | Inch'Allah (si Dieu le veut) | ![إن شاء الله](audio/ar-lb_male_e2ce2ff30d61.mp3) | inshallah | C — ≈ peut-être |
 | Dieu merci | ![الحمد لله](audio/ar-lb_male_ab1db12ff608.mp3) | el-7amdillah | C |
-| Formule d'hospitalité | ![تكرم](audio/ar-lb_male_fd774a96f742.mp3) / ![تكرمي](audio/ar-lb_male_8cd682d02c98.mp3) | tkaram / tkarami | C — "vous m'honorez" |
-| Vraiment ? | ![صحيح ؟](audio/ar-lb_male_fa113531dfc4.mp3) | sa7? | I |
+| Formule d'hospitalité | ![تكرم](audio/ar-lb_male_fd774a96f742.mp3) / ![تكرمي](audio/ar-lb_male_8cd682d02c98.mp3) | tikram (m.) / tikrami (f.) | C — « avec plaisir », pour accepter une demande |
+| Vraiment ? | ![صحيح ؟](audio/ar-lb_male_fa113531dfc4.mp3) | sa7ī7? | I |
 | C'est sympa / cool | ![كتير حلو](audio/ar-lb_male_003c8c097b62.mp3) | ktīr 7élo | I |
 | Pas de problème | ![ما في مشكل](audio/ar-lb_male_aa97a0b28c6d.mp3) | mā fī mushkil | C |
 | Un peu | ![شوي](audio/ar-lb_male_d74f04b32746.mp3) | shwayy | C |
 | Beaucoup | ![كتير](audio/ar-lb_male_9886c14fd341.mp3) | ktīr | C |
 | Maintenant | ![هلق](audio/ar-lb_male_8dbe6274343c.mp3) | halla2 | C |
 | Après | ![بعدين](audio/ar-lb_male_6d93e4395a61.mp3) | ba3dēn | C |
+
+## À retenir
+
+- *Biddi* (« je veux ») et *mā biddi* couvrent la plupart des demandes : *biddi ahwe*, *mā biddi shi*.
+- *Fī* = « il y a », *mā fī* = « il n'y a pas » ; *mā fī mushkil* = pas de problème.
+- *Ktīr* se place après le mot : *shukran ktīr*, *ghāli ktīr*.
+- Les Libanais disent volontiers *mersi* et *bonjour* : le français fait partie du registre courant.
+- Quand tu ne comprends pas : *mā fhimt*, *fīk t3īd ?*, *shwayy shwayy*.
+
+## Questions de révision
+
+> [!quiz] Comment dit-on « je ne comprends pas » ?
+> *Mā fhimt* (litt. « je n'ai pas compris »).
+
+> [!quiz] Comment demander à quelqu'un de répéter ?
+> *Fīk t3īd ?* (« tu peux répéter ? »).
+
+> [!quiz] Comment dire « je veux » et « je ne veux pas » ?
+> *Biddi* et *mā biddi*.
+
+> [!quiz] Comment demander le prix de quelque chose ?
+> *Addēsh ?* ou *addēsh hayda ?* (« combien ça ? »).
+
+> [!quiz] Comment dire « il n'y a pas de problème » ?
+> *Mā fī mushkil*.
+
+> [!quiz] Comment dit-on « je viens de France » ?
+> *Ana min faransa*.

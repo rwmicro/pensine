@@ -4,8 +4,14 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Arabe-Libanais > 04-Vocabulaire"
 tags: [sciences-sociales, langues, arabe, arabe-libanais, vocabulaire]
 date: "2026-03-31"
+prerequis: ["[[Social Sciences/Languages - Dialects/Arabe/Libanais/03-Grammaire/Negation]]"]
 ---
 # Vocabulaire — Arabe Libanais
+
+> [!tip] Dans cette fiche
+> - Compter de 0 à un million et accorder le nom avec le nombre.
+> - Connaître le vocabulaire de base : jours, famille, couleurs, corps, nourriture, adjectifs, repères de temps et de lieu.
+> - Accorder un adjectif au féminin (*kbīr* → *kbīre*).
 
 ## Chiffres
 
@@ -90,7 +96,7 @@ date: "2026-03-31"
 | Rouge | ![أحمر](audio/ar-lb_male_63dc74f74380.mp3) | ![حمرا](audio/ar-lb_male_0c15369c60ef.mp3) | a7mar / 7amra |
 | Bleu | ![أزرق](audio/ar-lb_male_f227471255e5.mp3) | ![زرقا](audio/ar-lb_male_42f89896bdd7.mp3) | azra2 / zar2a |
 | Vert | ![أخضر](audio/ar-lb_male_8df51ef900e9.mp3) | ![خضرا](audio/ar-lb_male_688322be7b31.mp3) | akhdar / khadra |
-| Jaune | ![أصفر](audio/ar-lb_male_32c21dc41c0f.mp3) | ![صفرا](audio/ar-lb_male_e522026c53e5.mp3) | aSfar / Safra |
+| Jaune | ![أصفر](audio/ar-lb_male_32c21dc41c0f.mp3) | ![صفرا](audio/ar-lb_male_e522026c53e5.mp3) | asfar / safra |
 | Blanc | ![أبيض](audio/ar-lb_male_e10f6fea1326.mp3) | ![بيضا](audio/ar-lb_male_df53c9857d78.mp3) | abyad / bēda |
 | Noir | ![أسود](audio/ar-lb_male_cacbe4f50104.mp3) | ![سودا](audio/ar-lb_male_032871380e9f.mp3) | aswad / sōda |
 | Brun | ![بني](audio/ar-lb_male_5f9075ffdfb3.mp3) | ![بنية](audio/ar-lb_male_97249b5b951a.mp3) | bunni / bunniyye |
@@ -105,7 +111,7 @@ date: "2026-03-31"
 | Oreilles | ![دان](audio/ar-lb_male_77adf595adcf.mp3) | dēn (sing.) / dēnēn (pl.) |
 | Nez | ![مناخير](audio/ar-lb_male_d5320b3719ab.mp3) | mnākhīr |
 | Bouche | ![تم](audio/ar-lb_male_4590d42f556c.mp3) | tumm |
-| Main | ![إيد](audio/ar-lb_male_08f25b44386b.mp3) | eid |
+| Main | ![إيد](audio/ar-lb_male_08f25b44386b.mp3) | īd |
 | Pied | ![رجل](audio/ar-lb_male_baa03ec6e79b.mp3) | rijl |
 | Cœur | ![قلب](audio/ar-lb_male_c11ede2a9d76.mp3) | 2alb |
 | Dos | ![ضهر](audio/ar-lb_male_df85d2c08101.mp3) | dahr |
@@ -115,7 +121,7 @@ date: "2026-03-31"
 | Français | Libanais | Translittération |
 |----------|-------|-----------------|
 | Mezze | ![مزة](audio/ar-lb_male_f5267d1f04e3.mp3) | mazza |
-| Houmous | ![حمص](audio/ar-lb_male_cc7ab6143c6f.mp3) | hummus |
+| Houmous | ![حمص](audio/ar-lb_male_cc7ab6143c6f.mp3) | 7ommos |
 | Taboulé | ![تبولة](audio/ar-lb_male_8d4e07aa8ea2.mp3) | tabbūle |
 | Fattoush | ![فتوش](audio/ar-lb_male_bd9713c315f4.mp3) | fattūsh |
 | Kibbé | ![كبة](audio/ar-lb_male_e70c2bb68829.mp3) | kibbe |
@@ -123,7 +129,7 @@ date: "2026-03-31"
 | Shawarma | ![شاورما](audio/ar-lb_male_a4f505b4d778.mp3) | shāwarma |
 | Manakish | ![مناقيش](audio/ar-lb_male_eb54fd1cf509.mp3) | manā2īsh |
 | Falafel | ![فلافل](audio/ar-lb_male_18bb7265f7d4.mp3) | falēfel |
-| Pain arabe | ![خبز](audio/ar-lb_male_da65ed955fd3.mp3) | khubz / 3aīsh |
+| Pain arabe | ![خبز](audio/ar-lb_male_da65ed955fd3.mp3) | khebez |
 | Eau | ![مي](audio/ar-lb_male_1c37bf86d7cb.mp3) / ![مية](audio/ar-lb_male_bced686573f1.mp3) | mayy / miyye |
 | Café | ![قهوة](audio/ar-lb_male_a441ef7a5f76.mp3) | ahwe |
 | Thé | ![شاي](audio/ar-lb_male_49827c8d0eaa.mp3) | shāy |
@@ -135,7 +141,7 @@ date: "2026-03-31"
 | Être | — | (absent au présent) | — |
 | Avoir | — | ![عندي](audio/ar-lb_male_2cda1b06af3c.mp3) | 3indi |
 | Vouloir | ![بدو](audio/ar-lb_male_94d65dd087db.mp3) | ![بدي](audio/ar-lb_male_7a13e1817809.mp3) | biddi |
-| Aller | ![روح](audio/ar-lb_male_55a916407760.mp3) | ![برو](audio/ar-lb_male_a6146fcdde78.mp3)7 | brū7 |
+| Aller | ![روح](audio/ar-lb_male_55a916407760.mp3) | ![بروح](audio/ar-lb_male_7df9d6076588.mp3) | brū7 |
 | Venir | ![جي](audio/ar-lb_male_d8adea14cf59.mp3) | ![بيجي](audio/ar-lb_male_b9f5928d4892.mp3) | byīji |
 | Manger | ![أكل](audio/ar-lb_male_3dde02a22a7d.mp3) | ![بآكل](audio/ar-lb_male_1e273379da1c.mp3) | bākul |
 | Boire | ![شرب](audio/ar-lb_male_ee029a3cd862.mp3) | ![بشرب](audio/ar-lb_male_ea17ab0ed71c.mp3) | bshrab |
@@ -144,7 +150,7 @@ date: "2026-03-31"
 | Voir | ![شاف](audio/ar-lb_male_0d9ea6dc3908.mp3) | ![بشوف](audio/ar-lb_male_ba7929d1a293.mp3) | bshūf |
 | Faire | ![عمل](audio/ar-lb_male_a7692ae494b3.mp3) | ![بعمل](audio/ar-lb_male_af6a89d66645.mp3) | ba3mol |
 | Aimer | ![حب](audio/ar-lb_male_470a0d18a299.mp3) | ![بحب](audio/ar-lb_male_17bd4fb64d8f.mp3) | b7ibb |
-| Savoir | ![عرف](audio/ar-lb_male_cb34eb6b3522.mp3) | ![بعرف](audio/ar-lb_male_a7cc4b3defea.mp3) | b3erif |
+| Savoir | ![عرف](audio/ar-lb_male_cb34eb6b3522.mp3) | ![بعرف](audio/ar-lb_male_a7cc4b3defea.mp3) | ba3rif |
 | Dormir | ![نام](audio/ar-lb_male_b0641c77d429.mp3) | ![بنام](audio/ar-lb_male_06ebae214dbb.mp3) | bnēm |
 | Travailler | ![شتغل](audio/ar-lb_male_eef7e3ef4ab0.mp3) | ![بشتغل](audio/ar-lb_male_1325c989413b.mp3) | bishtghil |
 
@@ -169,7 +175,7 @@ date: "2026-03-31"
 | Maintenant | ![هلق](audio/ar-lb_male_8dbe6274343c.mp3) | halla2 |
 | Aujourd'hui | ![اليوم](audio/ar-lb_male_ed8433eac388.mp3) | el-yōm |
 | Demain | ![بكرا](audio/ar-lb_male_c9ba477179d8.mp3) | bukra |
-| Hier | ![مبارح](audio/ar-lb_male_05fb3db74007.mp3) | mbāreh |
+| Hier | ![مبارح](audio/ar-lb_male_05fb3db74007.mp3) | mbēre7 |
 | Toujours | ![دايماً](audio/ar-lb_male_15a33d9cb1a1.mp3) | dāyman |
 | Jamais | ![أبداً](audio/ar-lb_male_8a1e89fd2ba1.mp3) | abadan |
 | Ici | ![هون](audio/ar-lb_male_519041b9bef6.mp3) | hōn |
@@ -178,3 +184,31 @@ date: "2026-03-31"
 | Après | ![بعد](audio/ar-lb_male_38571e6dd151.mp3) | ba3ed |
 | Avec | ![مع](audio/ar-lb_male_2390bee8ff88.mp3) | ma3 |
 | Sans | ![بلا](audio/ar-lb_male_755de3c1bd21.mp3) | bala |
+
+## À retenir
+
+- De 3 à 10, le nom est au **pluriel** (*tlēt ktub*) ; à partir de 11, au **singulier** (*3ishrīn ktēb*).
+- Devant un nom, les nombres 3 à 10 perdent leur *-e* final : *tlēte* → *tlēt shhūr*.
+- Le féminin des adjectifs se forme en *-e* (ou *-a*) : *kbīr / kbīre*, *mnī7 / mnī7a*.
+- Couleurs : le masculin est en *a-* (*a7mar*), le féminin change de forme (*7amra*).
+- Mots de temps indispensables : *halla2* (maintenant), *el-yōm*, *bukra*, *mbēre7*.
+
+## Questions de révision
+
+> [!quiz] Comment dit-on 3, 8 et 11 ?
+> *Tlēte*, *tmēniye*, *7da3ash*.
+
+> [!quiz] Traduis « trois livres » puis « vingt livres ».
+> *Tlēt ktub* (pluriel après 3-10), *3ishrīn ktēb* (singulier après 11).
+
+> [!quiz] Comment dit-on « demain » et « hier » ?
+> *Bukra* et *mbēre7*.
+
+> [!quiz] Quel est le féminin de *kbīr* (grand) et de *a7mar* (rouge) ?
+> *Kbīre* et *7amra*.
+
+> [!quiz] Comment distingue-t-on l'oncle paternel de l'oncle maternel ?
+> *3amm* (paternel) et *khāl* (maternel).
+
+> [!quiz] Comment dit-on « ici » et « là-bas » ?
+> *Hōn* et *hawnīk*.

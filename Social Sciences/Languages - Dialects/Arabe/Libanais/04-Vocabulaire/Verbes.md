@@ -4,10 +4,15 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Arabe-Libanais > 04-Vocabulaire"
 tags: [sciences-sociales, langues, arabe, arabe-libanais, vocabulaire, verbes]
 date: "2026-04-01"
+prerequis: ["[[Social Sciences/Languages - Dialects/Arabe/Libanais/03-Grammaire/Verbes]]", "[[Social Sciences/Languages - Dialects/Arabe/Libanais/04-Vocabulaire/Vocabulaire]]"]
 ---
 # Verbes Fréquents — Arabe Libanais
 
-Listes thématiques de verbes utiles, avec forme passée (huwe) et présente (ana) pour mémorisation rapide. Pour le **système de conjugaison** (préfixes, schèmes, tableaux complets), voir [[Social Sciences/Languages - Dialects/Arabe/Libanais/02-Grammaire/Verbes|Verbes (grammaire)]].
+Listes thématiques de verbes utiles, avec forme passée (huwe) et présente (ana) pour mémorisation rapide. Pour le **système de conjugaison** (préfixes, schèmes, tableaux complets), voir [[Social Sciences/Languages - Dialects/Arabe/Libanais/03-Grammaire/Verbes|Verbes (grammaire)]].
+
+> [!tip] Dans cette fiche
+> - Disposer d'environ 120 verbes classés par thème, avec la forme du passé (il) et du présent (je).
+> - Retrouver d'un coup d'œil le présent d'un verbe à partir de son passé.
 
 Format : **Français** | **Passé** (translittération) | **Présent ana** (translittération)
 
@@ -15,10 +20,10 @@ Format : **Français** | **Passé** (translittération) | **Présent ana** (tran
 
 | Français | Passé (huwe) | Présent (ana) |
 |----------|-------------|---------------|
-| Aller | ![را](audio/ar-lb_male_062bcd9b8050.mp3)7 (rā7) | ![برو](audio/ar-lb_male_a6146fcdde78.mp3)7 (brū7) |
+| Aller | ![راح](audio/ar-lb_male_ca86c227ee8b.mp3) (rā7) | ![بروح](audio/ar-lb_male_7df9d6076588.mp3) (brū7) |
 | Venir | ![جا](audio/ar-lb_male_7e6f39fa1ad3.mp3) (ja) | ![بيجي](audio/ar-lb_male_b9f5928d4892.mp3) / ![بجي](audio/ar-lb_male_93570fb2ca1d.mp3) (bji) |
 | Partir / marcher | ![مشى](audio/ar-lb_male_7d676fa080ac.mp3) (mishi) | ![بمشي](audio/ar-lb_male_cbe6a647717a.mp3) (bmishi) |
-| Courir | ![ركض](audio/ar-lb_male_c577522d3ccd.mp3) (rukad) | ![بركض](audio/ar-lb_male_0841e90f5539.mp3) (brkud) |
+| Courir | ![ركض](audio/ar-lb_male_c577522d3ccd.mp3) (rakad) | ![بركض](audio/ar-lb_male_0841e90f5539.mp3) (brkod) |
 | Sauter | ![نط](audio/ar-lb_male_524923f03a39.mp3) (natt) | ![بنط](audio/ar-lb_male_581555c06456.mp3) (bnott) |
 | Nager | ![سبح](audio/ar-lb_male_60345b84d5a0.mp3) (siba7) | ![بسبح](audio/ar-lb_male_f8df0417575b.mp3) (bsba7) |
 | Voler (avion) | ![طار](audio/ar-lb_male_95592c3d61ce.mp3) (tār) | ![بطير](audio/ar-lb_male_ba80acb8779a.mp3) (btīr) |
@@ -43,7 +48,7 @@ Format : **Français** | **Passé** (translittération) | **Présent ana** (tran
 | Appeler (téléphone) | ![اتصل](audio/ar-lb_male_b5972e0814c5.mp3) (ittasal) | ![باتصل](audio/ar-lb_male_b1c38bfbe71d.mp3) (battasil) |
 | Écouter / entendre | ![سمع](audio/ar-lb_male_a0301c4bd62e.mp3) (simi3) | ![بسمع](audio/ar-lb_male_6046c3d3e411.mp3) (bsma3) |
 | Voir | ![شاف](audio/ar-lb_male_0d9ea6dc3908.mp3) (shāf) | ![بشوف](audio/ar-lb_male_ba7929d1a293.mp3) (bshūf) |
-| Regarder | ![حدّق](audio/ar-lb_male_190d4c14e40a.mp3) (7adda2) | ![بحدّق](audio/ar-lb_male_b7c10d9faa7e.mp3) (b7addi2) |
+| Regarder | ![اتطلّع](audio/ar-lb_male_678cd4df0400.mp3) (ittalla3) | ![بتطلّع](audio/ar-lb_male_c302a7547fac.mp3) (bittalla3) |
 | Lire | ![قرا](audio/ar-lb_male_85eb42d2ac7b.mp3) (2ara) | ![بقرا](audio/ar-lb_male_c420ffa0c3f9.mp3) (b2ra) |
 | Écrire | ![كتب](audio/ar-lb_male_e227e412dafb.mp3) (katab) | ![بكتب](audio/ar-lb_male_0f638ffa899b.mp3) (bktub) |
 | Comprendre | ![فهم](audio/ar-lb_male_bc7b4ea80658.mp3) (fihim) | ![بفهم](audio/ar-lb_male_50dcf2323e6c.mp3) (bifham) |
@@ -58,22 +63,22 @@ Format : **Français** | **Passé** (translittération) | **Présent ana** (tran
 |----------|-------------|---------------|
 | Manger | ![أكل](audio/ar-lb_male_3dde02a22a7d.mp3) (akal) | ![بآكل](audio/ar-lb_male_1e273379da1c.mp3) (bākul) |
 | Boire | ![شرب](audio/ar-lb_male_ee029a3cd862.mp3) (shirib) | ![بشرب](audio/ar-lb_male_ea17ab0ed71c.mp3) (bshrab) |
-| Cuisiner | ![طبّخ](audio/ar-lb_male_8e44017cc569.mp3) (tabba5) | ![بطبّخ](audio/ar-lb_male_39f20dfb275f.mp3) (btabbikh) |
+| Cuisiner | ![طبّخ](audio/ar-lb_male_8e44017cc569.mp3) (tabbakh) | ![بطبّخ](audio/ar-lb_male_39f20dfb275f.mp3) (btabbikh) |
 | Nettoyer | ![نضّف](audio/ar-lb_male_c9ccb243bdcf.mp3) (naddaf) | ![بنضّف](audio/ar-lb_male_0843edb07936.mp3) (bnaddif) |
-| Laver | ![غسل](audio/ar-lb_male_814f6b95eebd.mp3) (ghassal) | ![بغسل](audio/ar-lb_male_b6c8ef002b12.mp3) (bghasil) |
+| Laver | ![غسل](audio/ar-lb_male_814f6b95eebd.mp3) (ghassal) | ![بغسل](audio/ar-lb_male_b6c8ef002b12.mp3) (bghassil) |
 | Dormir | ![نام](audio/ar-lb_male_b0641c77d429.mp3) (nēm) | ![بنام](audio/ar-lb_male_06ebae214dbb.mp3) (bnēm) |
-| Se réveiller | ![صحي](audio/ar-lb_male_062d3b5b4181.mp3) (Si7a) | ![بصحى](audio/ar-lb_male_ef9f5d94080f.mp3) (bSa7a) |
+| Se réveiller | ![صحي](audio/ar-lb_male_062d3b5b4181.mp3) (si7a) | ![بصحى](audio/ar-lb_male_ef9f5d94080f.mp3) (bsa7a) |
 | Ouvrir | ![فتح](audio/ar-lb_male_ebfb4a07cf07.mp3) (fata7) | ![بفتح](audio/ar-lb_male_627efe7df64e.mp3) (bfta7) |
 | Fermer | ![سكّر](audio/ar-lb_male_900ecbd88fc6.mp3) (sakkar) | ![بسكّر](audio/ar-lb_male_3d9a60b2859b.mp3) (bsakker) |
 | Ranger | ![رتّب](audio/ar-lb_male_91c59bb3e5e0.mp3) (rattab) | ![برتّب](audio/ar-lb_male_e1e9f7dc796d.mp3) (brattib) |
-| Réparer | ![صلّح](audio/ar-lb_male_1ec311d2ca6d.mp3) (Salla7) | ![بصلّح](audio/ar-lb_male_37325822aa42.mp3) (bSalli7) |
+| Réparer | ![صلّح](audio/ar-lb_male_1ec311d2ca6d.mp3) (salla7) | ![بصلّح](audio/ar-lb_male_37325822aa42.mp3) (bsalli7) |
 | Casser | ![كسر](audio/ar-lb_male_66d5fad5bac6.mp3) (kasar) | ![بكسر](audio/ar-lb_male_7d377e45064b.mp3) (bksar) |
 
 ## Travail et études
 
 | Français | Passé (huwe) | Présent (ana) |
 |----------|-------------|---------------|
-| Travailler | ![شتغل](audio/ar-lb_male_eef7e3ef4ab0.mp3) (shtaGhal) | ![بشتغل](audio/ar-lb_male_1325c989413b.mp3) (bishtghil) |
+| Travailler | ![شتغل](audio/ar-lb_male_eef7e3ef4ab0.mp3) (shtaghal) | ![بشتغل](audio/ar-lb_male_1325c989413b.mp3) (bishtighil) |
 | Étudier | ![درس](audio/ar-lb_male_6576d4bec5bd.mp3) (daras) | ![بدرس](audio/ar-lb_male_c6d11b907470.mp3) (bdros) |
 | Apprendre | ![تعلّم](audio/ar-lb_male_6c55fa7d4bf4.mp3) (ta3allam) | ![بتعلّم](audio/ar-lb_male_bd55b1406423.mp3) (bta3allam) |
 | Enseigner | ![علّم](audio/ar-lb_male_f4daaf121a36.mp3) (3allam) | ![بعلّم](audio/ar-lb_male_50f925ec606d.mp3) (b3allim) |
@@ -98,7 +103,7 @@ Format : **Français** | **Passé** (translittération) | **Présent ana** (tran
 | Payer | ![دفع](audio/ar-lb_male_4b5915d55cb0.mp3) (dafa3) | ![بدفع](audio/ar-lb_male_e34a40e2d90f.mp3) (bdfa3) |
 | Recevoir / prendre | ![أخد](audio/ar-lb_male_3e6094ba28a4.mp3) (akhad) | ![بآخد](audio/ar-lb_male_284db44e746c.mp3) (bēkhod) |
 | Donner | ![عطى](audio/ar-lb_male_efca2cf9b2ed.mp3) (3ata) | ![بعطي](audio/ar-lb_male_678fd497a85f.mp3) (b3atti) |
-| Changer (argent) | ![صرّف](audio/ar-lb_male_d293916c3845.mp3) (Sarraf) | ![بصرّف](audio/ar-lb_male_df625d8db712.mp3) (bSarrif) |
+| Changer (argent) | ![صرّف](audio/ar-lb_male_d293916c3845.mp3) (sarraf) | ![بصرّف](audio/ar-lb_male_df625d8db712.mp3) (bsarrif) |
 | Coûter | ![كلّف](audio/ar-lb_male_41cfd8566202.mp3) (kallaf) | ![بكلّف](audio/ar-lb_male_a95bae587832.mp3) (bkallif) |
 | Économiser | ![وفّر](audio/ar-lb_male_0f3afd9ecbd0.mp3) (waffar) | ![بوفّر](audio/ar-lb_male_7e2eb9a781ad.mp3) (bwaffir) |
 | Chercher | ![دوّر](audio/ar-lb_male_06047bb654f3.mp3) (dawwar) | ![بدوّر](audio/ar-lb_male_7f9a08f73071.mp3) (bdawwir) |
@@ -123,7 +128,7 @@ Format : **Français** | **Passé** (translittération) | **Présent ana** (tran
 | Rire | ![ضحك](audio/ar-lb_male_086d8cde4739.mp3) (di7ik) | ![بضحك](audio/ar-lb_male_18d0ef1c0fa6.mp3) (bid7ak) |
 | Pleurer | ![بكى](audio/ar-lb_male_c18c09f28db3.mp3) (baka) | ![ببكي](audio/ar-lb_male_cf21e1631076.mp3) (bibki) |
 | S'ennuyer | ![زهق](audio/ar-lb_male_73a520ead27d.mp3) (zahaq) | ![بزهق](audio/ar-lb_male_c37680e98756.mp3) (bzhaq) |
-| Se reposer | ![استراح](audio/ar-lb_male_d183058713da.mp3) (istarā7) | ![بستري](audio/ar-lb_male_8fc6ed59a198.mp3)7 (bstra7) |
+| Se reposer | ![استراح](audio/ar-lb_male_d183058713da.mp3) (istarā7) | ![بستريح](audio/ar-lb_male_2406c77f78bb.mp3) (bstra7) |
 | Attendre | ![انتظر](audio/ar-lb_male_389a9c333afb.mp3) (ntazar) | ![بنتظر](audio/ar-lb_male_ea4674547a87.mp3) (bintzir) |
 | Espérer | ![تمنّى](audio/ar-lb_male_5c3a35b6a08b.mp3) (tmanna) | ![بتمنّى](audio/ar-lb_male_e41edf2690d4.mp3) (btmanna) |
 
@@ -136,7 +141,7 @@ Format : **Français** | **Passé** (translittération) | **Présent ana** (tran
 | Visiter | ![زار](audio/ar-lb_male_b1f88c8a7a7c.mp3) (zār) | ![بزور](audio/ar-lb_male_b959c14836de.mp3) (bzūr) |
 | Accompagner | ![رافق](audio/ar-lb_male_3a24cb2b76ff.mp3) (rāfa2) | ![برافق](audio/ar-lb_male_44f87911682b.mp3) (brāfi2) |
 | Se marier | ![تجوّز](audio/ar-lb_male_6a7fee35ae5b.mp3) (tjawwaz) | ![بتجوّز](audio/ar-lb_male_fa807456428a.mp3) (btjawwaz) |
-| Divorcer | ![طلّق](audio/ar-lb_male_556e648c04eb.mp3) (Talla2) | ![بطلّق](audio/ar-lb_male_2bf79fdf9eb2.mp3) (bTalli2) |
+| Divorcer | ![طلّق](audio/ar-lb_male_556e648c04eb.mp3) (talla2) | ![بطلّق](audio/ar-lb_male_2bf79fdf9eb2.mp3) (btalli2) |
 | Féliciter | ![بارك](audio/ar-lb_male_81c7ebf752a5.mp3) (bārak) | ![ببارك](audio/ar-lb_male_20bdc34a94bd.mp3) (bbārik) |
 | Remercier | ![شكر](audio/ar-lb_male_dcdd479bacac.mp3) (shakar) | ![بشكر](audio/ar-lb_male_facff9bf06d8.mp3) (bshkor) |
 | S'excuser | ![اعتذر](audio/ar-lb_male_da073c8fa0b0.mp3) (3tazar) | ![بعتذر](audio/ar-lb_male_c95604614898.mp3) (ba3tzir) |
@@ -151,3 +156,28 @@ Format : **Français** | **Passé** (translittération) | **Présent ana** (tran
 | Aller mieux | ![تحسّن](audio/ar-lb_male_ccd335c40a7b.mp3) (ta7assan) | ![بتحسّن](audio/ar-lb_male_744e443f3b03.mp3) (bta7assan) |
 | Marcher | ![مشى](audio/ar-lb_male_7d676fa080ac.mp3) (mishi) | ![بمشي](audio/ar-lb_male_cbe6a647717a.mp3) (bmishi) |
 | Respirer | ![تنفّس](audio/ar-lb_male_df8dcf6b07d6.mp3) (tanaffas) | ![بتنفّس](audio/ar-lb_male_f6fdd662c0b5.mp3) (btanaffas) |
+
+## À retenir
+
+- Le passé *huwe* est la forme du dictionnaire : c'est celle à apprendre en premier.
+- Le présent *ana* commence par *b-* ; les autres personnes se déduisent avec les préfixes de la fiche Verbes.
+- Verbes à voyelle longue (*rā7, shāf, nēm*) : la voyelle reste au présent (*brū7, bshūf, bnēm*).
+- Verbes doublés (*7abb, dall*) : *b7ibb, bdall*.
+- *Biddi* (vouloir) n'a pas de passé régulier ; on dit *kēn biddi* (je voulais).
+
+## Questions de révision
+
+> [!quiz] Donne le présent *ana* de *rā7* (aller) et de *akal* (manger).
+> *Brū7* et *bākul*.
+
+> [!quiz] Comment dit-on « je comprends » et « je ne comprends pas » ?
+> *Bifham* et *mā bifham*.
+
+> [!quiz] Comment dit-on « je voulais » ?
+> *Kēn biddi*.
+
+> [!quiz] Quel verbe signifie « attendre » et comment dit-on « je t'attends » ?
+> *Ntazar* ; *bintzirak* (ou *3am bintzirak*).
+
+> [!quiz] Traduis « il a acheté » et « j'achète ».
+> *Ishtara* et *bishtri*.

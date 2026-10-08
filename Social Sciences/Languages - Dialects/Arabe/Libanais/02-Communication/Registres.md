@@ -4,10 +4,16 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Arabe-Libanais > 02-Communication"
 tags: [sciences-sociales, langues, arabe, arabe-libanais, registres, diglossie]
 date: "2026-03-31"
+prerequis: ["[[Social Sciences/Languages - Dialects/Arabe/Libanais/03-Grammaire/Formes-Derivees]]"]
 ---
 # Registres — Arabe Libanais
 
 Le Liban présente une situation sociolinguistique unique : **trois langues** coexistent au quotidien — l'arabe libanais, le français et l'anglais — avec des basculements constants entre elles selon le contexte et l'interlocuteur.
+
+> [!tip] Dans cette fiche
+> - Comprendre la **diglossie** : arabe standard à l'écrit, libanais à l'oral, français et anglais en plus.
+> - Savoir quel registre employer selon l'interlocuteur.
+> - Reconnaître et pratiquer le code-switching libanais.
 
 ## Les quatre niveaux de langue
 
@@ -21,7 +27,7 @@ Exemples MSA vs libanais :
 | Je veux | ![أريد](audio/ar-lb_male_40b5664c7ce4.mp3) (urīd) | ![بدي](audio/ar-lb_male_7a13e1817809.mp3) (biddi) |
 | Maintenant | ![الآن](audio/ar-lb_male_30915af39402.mp3) (al-ān) | ![هلق](audio/ar-lb_male_8dbe6274343c.mp3) (halla2) |
 | Comment vas-tu ? | ![كيف حالك](audio/ar-lb_male_dd91fabd36a9.mp3) (kayfa 7āluk) | ![كيفك](audio/ar-lb_male_a80e37781f54.mp3) (kīfak) |
-| Maison | ![منزل](audio/ar-lb_male_416f9f77ec0c.mp3) (manzil) | ![بيت](audio/ar-lb_male_3d375788f5cb.mp3) (beit) |
+| Maison | ![منزل](audio/ar-lb_male_416f9f77ec0c.mp3) (manzil) | ![بيت](audio/ar-lb_male_3d375788f5cb.mp3) (bēt) |
 | Beaucoup | ![كثيراً](audio/ar-lb_male_36846a19b2a0.mp3) (kathīran) | ![كتير](audio/ar-lb_male_9886c14fd341.mp3) (ktīr) |
 | Voir | ![يرى](audio/ar-lb_male_7b3081ac013e.mp3) (yarā) | ![يشوف](audio/ar-lb_male_2f76b4feb197.mp3) (yshūf) |
 
@@ -60,7 +66,7 @@ Le libanais est l'une des langues les plus propices au code-switching. Dans les 
 | "Yalla, on y va !" | Allez, on y va ! |
 | "Habibi, c'est pas grave" | Mon ami, c'est pas grave |
 | "Inshallah it'll work out" | Si Dieu le veut, ça marchera |
-| "Shu hada, c'est quoi ce truc ?" | C'est quoi ça ? |
+| "Shu hayda, c'est quoi ce truc ?" | C'est quoi ça ? |
 | "Je suis tellement 7azin" | Je suis tellement triste |
 | "Text me ba3dēn" | Envoie-moi un SMS après |
 | "Merci ktīr, you're so kind" | Merci beaucoup, t'es tellement sympa |
@@ -90,12 +96,12 @@ Ces formules traversent tous les registres et toutes les communautés confession
 | Hamdillah | ![الحمد لله](audio/ar-lb_male_ab1db12ff608.mp3) | Réponse à "comment ça va" / gratitude |
 | Yalla | ![يلا](audio/ar-lb_male_0820f2b90153.mp3) | Allez / vite / OK (universel) |
 | Mabrook | ![مبروك](audio/ar-lb_male_373d58c588d1.mp3) | Félicitations |
-| Tslam / Tsalmīli | ![تسلم](audio/ar-lb_male_f0eecb32c069.mp3) / ![تسلملي](audio/ar-lb_male_24c31319f826.mp3) | Remerciement chaleureux (litt. "reste sain") |
-| Tkaram | ![تكرم](audio/ar-lb_male_fd774a96f742.mp3) | Hospitalité / "faites donc" / "vous m'honorez" |
+| Tislam / tislamli | ![تسلم](audio/ar-lb_male_f0eecb32c069.mp3) / ![تسلملي](audio/ar-lb_male_24c31319f826.mp3) | Remerciement chaleureux (litt. "reste sain") |
+| Tikram | ![تكرم](audio/ar-lb_male_fd774a96f742.mp3) | « Avec plaisir », pour accepter une demande |
 | Allah yir7amo | ![الله يرحمه](audio/ar-lb_male_812feaa6f37f.mp3) | Condoléances (litt. "Dieu ait son âme") |
-| Bi salamtak | ![بسلامتك](audio/ar-lb_male_bee28c11c5b1.mp3) | "Bon retour" / après une maladie |
-| Sahha | ![صحة](audio/ar-lb_male_e5a8fc5d4221.mp3) | Santé / après un repas ou un effort |
-| Sa77tein | ![صحتين](audio/ar-lb_male_4d63406516a5.mp3) | Bon appétit (litt. "deux santés") |
+| Bi-salāmtak | ![بسلامتك](audio/ar-lb_male_bee28c11c5b1.mp3) | "Bon retour" / après une maladie |
+| Sa77a | ![صحة](audio/ar-lb_male_e5a8fc5d4221.mp3) | Santé / après un repas ou un effort |
+| Sa77tēn | ![صحتين](audio/ar-lb_male_4d63406516a5.mp3) | Bon appétit (litt. "deux santés") |
 
 ## Mots de remplissage (fillers)
 
@@ -111,3 +117,28 @@ Ces mots structurent le discours oral libanais. Les maîtriser donne une fluidit
 | ![هلق](audio/ar-lb_male_8dbe6274343c.mp3) (halla2) | maintenant / alors | "maintenant" / "donc" |
 | ![لأ](audio/ar-lb_male_f5a968fdbc18.mp3) (la2) | non | non |
 | ![آه](audio/ar-lb_male_2105fb0d4170.mp3) (āh) | oui | oui |
+
+## À retenir
+
+- Personne ne parle l'arabe standard (*fus7a*) spontanément : il sert à l'écrit, aux médias et aux discours.
+- Le libanais n'a pas de vouvoiement : la politesse passe par les formules et les titres (*ustāz*, *duktūr*).
+- Mélanger arabe, français et anglais dans une phrase est normal à Beyrouth, pas un manque de culture.
+- Les mots de remplissage (*ya3ni*, *yalla*, *hēk*, *bass*) rendent le discours naturel.
+- Les formules comme *inshallah*, *el-7amdillah*, *mabrūk* traversent toutes les communautés.
+
+## Questions de révision
+
+> [!quiz] Comment dit-on « je veux » en arabe standard et en libanais ?
+> *Urīd* (standard) et *biddi* (libanais).
+
+> [!quiz] Comment être poli sans vouvoiement en libanais ?
+> Avec des formules (*law sama7t*, *min fadlak*), des titres (*ustāz*, *duktūr*) et le ton.
+
+> [!quiz] Que signifie *ya3ni* dans une conversation ?
+> « C'est-à-dire », « genre », ou simple hésitation.
+
+> [!quiz] Le code-switching est-il mal vu au Liban ?
+> Non : il est la norme en milieu urbain et plutôt associé à un milieu éduqué.
+
+> [!quiz] Que répond-on à quelqu'un qui dit *tislam* ?
+> *Allah ysallmak* (« que Dieu te garde »).
