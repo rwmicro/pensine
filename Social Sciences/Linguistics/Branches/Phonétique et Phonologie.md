@@ -5,6 +5,7 @@ subdomain: "Linguistics > Branches"
 tags: [sciences-sociales, linguistique]
 date: "2026-02-22"
 parcours: "Linguistique : des sons au sens"
+parcours-description: "Des sons à l'écriture, à la morphologie et à la syntaxe, puis le sens, l'histoire et les familles de langues, la psycho- et la sociolinguistique."
 ---
 
 # Phonétique et Phonologie

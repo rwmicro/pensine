@@ -5,6 +5,7 @@ subdomain: "Languages - Dialects > Arabe-Libanais > 01-Phonologie"
 tags: [sciences-sociales, langues, arabe, arabe-libanais, phonologie, alphabet]
 date: "2026-03-31"
 parcours: "Arabe libanais : des premiers mots à la culture"
+parcours-description: "Prononcer et saluer, la grammaire de base (pronoms, verbes, négation), le vocabulaire du quotidien, puis les tournures avancées, l'argot et la culture du Liban."
 ---
 # Alphabet et Prononciation 
 

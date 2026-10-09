@@ -5,6 +5,7 @@ subdomain: "Music > Théorie"
 tags: [sciences-sociales, musique]
 date: "2026-02-22"
 parcours: "Musique : de la théorie aux grandes périodes"
+parcours-description: "La théorie musicale, l'acoustique, les instruments et l'orchestration, puis l'histoire de la musique, de l'Antiquité à la musique contemporaine."
 ---
 
 # Théorie Musicale Fondamentale

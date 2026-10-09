@@ -5,6 +5,7 @@ subdomain: "Computer Science > Security > SOC Analysis > DFIR"
 tags: [sciences-appliquées, informatique, sécurité, soc, dfir]
 date: "2025-02-15"
 parcours: "DFIR : réponse à incident et forensique"
+parcours-description: "La réponse à incident et ses playbooks, puis l'analyse forensique Windows, Linux, réseau et mémoire (Volatility 3) et l'analyse de malware."
 ---
 
 # DFIR (Digital Forensics and Incident Response)

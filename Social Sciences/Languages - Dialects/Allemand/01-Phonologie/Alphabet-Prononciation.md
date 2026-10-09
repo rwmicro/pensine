@@ -5,6 +5,7 @@ subdomain: "Languages - Dialects > Allemand > 01-Phonologie"
 tags: [sciences-sociales, langues, allemand, deutsch, phonologie, alphabet, prononciation]
 date: "2026-04-28"
 parcours: "Allemand : des premiers mots à la culture"
+parcours-description: "Prononcer l'allemand, saluer, poser la grammaire et les registres, puis le vocabulaire, les dialogues du quotidien et la culture germanophone."
 ---
 # Alphabet et Prononciation — Allemand
 

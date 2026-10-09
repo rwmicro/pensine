@@ -5,6 +5,7 @@ subdomain: "Cinema"
 tags: [sciences-sociales, cinéma]
 date: "2026-02-22"
 parcours: "Cinéma : de l'invention au contemporain"
+parcours-description: "Des frères Lumière au cinéma contemporain : le muet, l'âge d'or d'Hollywood, les nouvelles vagues, le langage du cinéma et les cinémas nationaux."
 ---
 
 # Invention et Naissance (1895-1910)

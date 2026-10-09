@@ -5,6 +5,7 @@ subdomain: "Biology > Domaines"
 tags: [sciences-appliquées, biologie]
 date: "2026-02-22"
 parcours: "Biologie : de la molécule à l'évolution"
+parcours-description: "De la biochimie et de la cellule à la génétique et à l'évolution, puis l'écologie, la physiologie humaine, l'immunologie et les neurosciences."
 ---
 
 # Biochimie

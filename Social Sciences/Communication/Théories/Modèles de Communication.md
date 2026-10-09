@@ -5,6 +5,7 @@ subdomain: "Communication > Théories"
 tags: [sciences-sociales, communication, shannon, jakobson, palo-alto]
 date: "2026-02-22"
 parcours: "Communication : des modèles à la rhétorique"
+parcours-description: "Les modèles de la communication, puis ses formes (interpersonnelle, non verbale, interculturelle, orale), la rhétorique, l'analyse du discours et la manipulation."
 ---
 
 # Modèles de Communication

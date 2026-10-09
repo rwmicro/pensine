@@ -5,6 +5,7 @@ subdomain: "Mathematics > Math Sup"
 tags: [sciences-appliquées, mathématiques]
 date: "2026-02-16"
 parcours: "Mathématiques en prépa : de Sup à Spé"
+parcours-description: "La logique et les ensembles, l'analyse et l'algèbre linéaire de Sup, puis la réduction, les séries, la topologie et les probabilités de Spé."
 ---
 
 # Logique et Raisonnement

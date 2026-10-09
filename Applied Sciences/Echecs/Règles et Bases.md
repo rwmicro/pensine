@@ -5,6 +5,7 @@ subdomain: "Echecs"
 tags: [sciences-appliquées, échecs]
 date: "2026-02-22"
 parcours: "Échecs : des règles aux finales"
+parcours-description: "Les règles, les ouvertures et la tactique du milieu de partie, puis la stratégie, l'attaque au roi et les finales de pions et de tours."
 ---
 # Règles et Bases
 

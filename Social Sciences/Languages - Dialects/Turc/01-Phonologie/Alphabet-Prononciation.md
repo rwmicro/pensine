@@ -5,6 +5,7 @@ subdomain: "Languages - Dialects > Turc > 01-Phonologie"
 tags: [sciences-sociales, langues, turc, phonologie, alphabet]
 date: "2026-03-27"
 parcours: "Turc : des premiers mots à la culture"
+parcours-description: "L'alphabet et la prononciation du turc, les salutations, les bases de la grammaire et le tutoiement (sen / siz), puis le vocabulaire et la culture."
 ---
 # Alphabet et Prononciation — Turc
 

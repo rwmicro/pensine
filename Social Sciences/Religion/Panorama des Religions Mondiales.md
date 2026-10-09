@@ -5,6 +5,7 @@ subdomain: "Religion"
 tags: [sciences-sociales, religion, christianisme, islam, hindouisme, bouddhisme, judaïsme]
 date: "2026-04-16"
 parcours: "Religions du monde"
+parcours-description: "Un panorama des religions du monde et de leur histoire : hindouisme, bouddhisme, judaïsme, christianisme, islam et leurs branches, puis les traditions d'Asie et d'Afrique."
 ---
 # Panorama des Religions Mondiales
 

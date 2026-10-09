@@ -5,6 +5,7 @@ subdomain: "Sport > Physiologie"
 tags: [sciences-appliquées, sport]
 date: "2026-03-05"
 parcours: "Sport : de la physiologie à la musculation"
+parcours-description: "La physiologie de l'effort et les principes de l'entraînement, puis la musculation par groupe musculaire, la nutrition sportive et la récupération."
 ---
 
 # Physiologie de l'Exercice
