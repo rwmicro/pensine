@@ -4,13 +4,18 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Indonésien > 02-Communication"
 tags: [sciences-sociales, langues, indonésien, registres, sociolinguistique]
 date: "2026-03-27"
-prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/02-Communication/Phrases-Essentielles]]"]
+prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/Personnes/Professions]]"]
 ---
 # Registres de l'Indonésien
 
 L'indonésien distingue quatre niveaux principaux. La maîtrise des registres est cruciale : un niveau trop formel sonne artificiel dans la conversation, trop informel peut être perçu comme irrespectueux.
 
-Voir aussi : [[../02-Grammaire/Formel-Informel]] pour les aspects grammaticaux.
+Ce qui change d'un registre à l'autre, ce sont surtout les **mots** (pronoms, formules, vocabulaire) ; les changements de **grammaire** à l'oral (chute du préfixe me-, -kan devenu -in) sont détaillés dans [[Social Sciences/Languages - Dialects/Indonésien/03-Grammaire/Formel-Informel|Formel et informel : la grammaire de l'oral]].
+
+> [!tip] Dans cette fiche
+> - Reconnaître les quatre registres de l'indonésien et savoir quand employer chacun.
+> - Choisir pronoms, formules et termes d'adresse selon l'interlocuteur.
+> - Comprendre les abréviations des réseaux sociaux.
 
 ## Les quatre registres
 
@@ -26,7 +31,7 @@ Voir aussi : [[../02-Grammaire/Formel-Informel]] pour les aspects grammaticaux.
 | Situation | Formel | Courant | Informel/Gaul |
 |-----------|--------|---------|---------------|
 | Je | Saya | Saya / Aku | Gue / Gw (Jakarta) |
-| Tu | Anda | Kamu / Kamu | Lo / Lu (Jakarta) |
+| Tu | Anda | Kamu | Lo / Lu (Jakarta) |
 | Il/Elle | Beliau (respect) | Dia | Dia / Doi |
 | Nous (inclusif) | Kita | Kita | Kita |
 | Nous (exclusif) | Kami | Kami | Kita (souvent confondu) |
@@ -40,7 +45,7 @@ Voir aussi : [[../02-Grammaire/Formel-Informel]] pour les aspects grammaticaux.
 | Situation | Formel | Courant | Informel/Gaul |
 |-----------|--------|---------|---------------|
 | Bonjour | Selamat pagi/siang/sore | Selamat pagi/siang/sore | Pagi! / Halo! / Hai! |
-| Comment ça va ? | Apa kabar Anda? | Apa kabar? | Gimana kabarnya? / Wkwk |
+| Comment ça va ? | Bagaimana kabar Anda? | Apa kabar? | Gimana kabarnya? / Gimana? |
 | Bien, merci | Baik, terima kasih | Baik, makasih | Baik-baik aja / Oke sih |
 | Au revoir | Selamat tinggal / Sampai jumpa | Sampai jumpa / Dadah | Bye / Dah |
 | Merci | Terima kasih | Terima kasih / Makasih | Makasih / Thanks |
@@ -52,16 +57,15 @@ Voir aussi : [[../02-Grammaire/Formel-Informel]] pour les aspects grammaticaux.
 
 | Français | Formel | Courant | Gaul/Argot |
 |----------|--------|---------|-----------|
-| Manger | Makan (bahasa baku) | Makan | Makan / Nyomot |
-| Boire | Minum | Minum | Minum / Nginum |
+| Manger | Makan | Makan | Makan / Ngemil (grignoter) |
+| Boire | Minum | Minum | Minum / Ngopi (prendre un café) |
 | Dire | Mengatakan | Bilang | Bilang / Ngomong |
 | Faire | Melakukan | Buat / Lakukan | Lakuin / Ngerjain |
-| Aller | Pergi | Pergi / Ke | Ke sana / Cabut |
+| Partir | Pergi / Berangkat | Pergi | Cabut |
 | Ami | Teman / Kawan | Teman | Bestie / Sobat / Gaes |
-| Voiture | Kendaraan bermotor | Mobil | Mobil / Kendaraan |
 | Argent | Uang | Uang | Duit / Cuan |
 | Beau/Jolie | Tampan (m) / Cantik (f) | Ganteng (m) / Cantik (f) | Ganteng / Cakep |
-| Fatigué | Lelah | Capek | Capek / KO |
+| Fatigué | Lelah | Capek | Capek / Tepar (épuisé) |
 | Bien/Super | Bagus / Baik | Bagus | Keren / Mantap / Top |
 
 ## Formules selon le contexte professionnel vs amical
@@ -82,27 +86,27 @@ En indonésien, le choix de comment appeler quelqu'un est très important :
 |-------|------------|
 | **Bapak / Pak** | Homme adulte, supérieur (formel) |
 | **Ibu / Bu** | Femme adulte, supérieure (formel) |
-| **Mas** | Homme plus jeune ou du même âge (Java) |
-| **Mbak** | Femme plus jeune ou du même âge (Java) |
+| **Mas** | Jeune homme du même âge ou un peu plus âgé ; aussi serveur, vendeur, chauffeur (d'origine javanaise) |
+| **Mbak** | Jeune femme du même âge ou un peu plus âgée ; aussi serveuse, vendeuse (d'origine javanaise) |
 | **Bang** | Homme (Betawi, informel) |
-| **Kak** | Aîné proche (familier) |
+| **Kak** | Aîné(e) proche ; très employé aussi envers un inconnu jeune (vendeur, en ligne) |
 | **Adik / Dik** | Cadet (familier) |
 | **[Prénom]** | Entre amis, même rang |
 
-## Abréviations et mots du gaul (réseau sociaux)
+## Abréviations et mots du gaul (réseaux sociaux)
 
 | Abréviation | Signification | Français |
 |-------------|--------------|---------|
 | gw / gue | gue (je - informel) | je |
 | lo / lu | lu (tu - informel) | tu |
 | bgt | banget | très / beaucoup |
-| tq | terima kasih | merci |
+| tq | thank you (anglais) | merci |
 | gpp | tidak apa-apa | pas de problème |
 | btw | by the way | au fait |
 | oot | out of topic | hors sujet |
 | mager | malas gerak | flemme de bouger |
 | baper | bawa perasaan | trop sensible, prendre les choses à cœur |
-| lebay | | exagéré, théâtral |
+| lebay | de *berlebihan* | exagéré, théâtral |
 
 ## Particule "sih" — la nuance informelle
 
@@ -111,6 +115,13 @@ La particule **sih** colore les énoncés en rendant le ton plus doux, plus hés
 - *Gimana sih?* = "Comment ça au fait ?" (légère impatience)
 - *Bagus sih...* = "C'est bien quand même... " (nuance, réserve)
 - *Nggak tahu sih* = "Je sais pas trop..."
+
+## À retenir
+
+- Formel (*baku*), courant, familier (*gaul*) et langues régionales (*bahasa daerah*) coexistent.
+- *Anda* est réservé au très formel ; dans la conversation polie, on utilise un titre (*Pak*, *Bu*) ou le prénom.
+- *Gue/lo* sont du parler de Jakarta : à éviter au travail.
+- Les termes d'adresse (*Pak*, *Bu*, *Mas*, *Mbak*, *Kak*) remplacent souvent « vous ».
 
 ## Questions de révision
 

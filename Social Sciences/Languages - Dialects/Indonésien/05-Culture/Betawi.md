@@ -1,15 +1,20 @@
 ---
 title: "Betawi (Dialecte de Jakarta)"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Indonésien > 05-Regional"
+subdomain: "Languages - Dialects > Indonésien > 05-Culture"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-10"
-prerequis: ["[[Argot-Slang]]"]
+prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/02-Communication/Argot-Slang]]"]
 ---
 
 # Betawi (Dialecte de Jakarta)
 
 > Le **Betawi** est le dialecte originel de Jakarta, parlé par les Orang Betawi (peuple natif de Jakarta). Il a fortement influencé le **bahasa gaul** (argot indonésien) moderne. Beaucoup de termes "slang Jakarta" viennent du Betawi.
+
+> [!tip] Dans cette fiche
+> - Reconnaître le betawi, parler d'origine de Jakarta, et son influence sur l'argot national.
+> - Appliquer les règles de passage du standard au betawi (-a → -e, -kan → -in).
+> - Suivre un dialogue betawi.
 
 ## Origines
 
@@ -28,11 +33,11 @@ Le Betawi s'est formé au XVIIe siècle à Batavia (ancien nom de Jakarta) à pa
 
 |    Français     | Indonésien Standard |         Betawi         | Prononciation |
 | :-------------: | :-----------------: | :--------------------: | :-----------: |
-| Je | ![Saya](audio/id_male_a5915b05d4e9.mp3) / ![Aku](audio/id_male_e0d2a04ecc65.mp3) | **Gue / Gua** | /guˈe/ |
+| Je | ![Saya](audio/id_male_a5915b05d4e9.mp3) / ![Aku](audio/id_male_e0d2a04ecc65.mp3) | **Gue / Gua** | /gue/ |
 | Tu | ![Kamu](audio/id_male_171692f5da5a.mp3) | **Lo / Lu** | /lo/ |
-| Il/Elle | ![Dia](audio/id_male_4621e5271c4f.mp3) | **Die** | /diˈe/ |
-| Nous (exclusif) | ![Kami](audio/id_male_ececed995ffa.mp3) | **Kite** | /kiˈte/ |
-| Nous (inclusif) | ![Kita](audio/id_male_a1e966996394.mp3) | **Kite** | /kiˈte/ |
+| Il/Elle | ![Dia](audio/id_male_4621e5271c4f.mp3) | **Die** | /die/ |
+| Nous (exclusif) | ![Kami](audio/id_male_ececed995ffa.mp3) | **Kite** | /kite/ |
+| Nous (inclusif) | ![Kita](audio/id_male_a1e966996394.mp3) | **Kite** | /kite/ |
 | Vous | ![Kalian](audio/id_male_583d26b490aa.mp3) | **Lo pada / Lo semua** | - |
 | Ils/Elles | ![Mereka](audio/id_male_c0f1b20d9edb.mp3) | **Mereka / Die orang** | - |
 
@@ -44,24 +49,17 @@ Le Betawi s'est formé au XVIIe siècle à Batavia (ancien nom de Jakarta) à pa
 
 ## Phonétique Betawi
 
-### Changements de Voyelles
+Quelques règles régulières font passer de l'indonésien standard au betawi. Elles expliquent la plupart des formes de l'argot de Jakarta.
 
-|  Standard   | Betawi  |      Exemple       |
-| :---------: | :-----: | :----------------: |
-| a final → e | -a → -e | *apa* → **ape** |
-| a final → é | -a → -é | *saya* → **gue** |
-| i → é |  | *ini* → **nih** |
-| au → o |  | *kalau* → **kalo** |
-| ai → e |  | *pakai* → **pake** |
+| Règle | Standard → Betawi | Exemples |
+| :---: | :---------------: | :------: |
+| -a final devient -e | -a → -e | *apa* → **ape**, *kenapa* → **kenape**, *siapa* → **siape**, *ke mana* → **ke mane** |
+| a de la dernière syllabe fermée devient e | -aC → -eC | *benar* → **bener**, *pintar* → **pinter**, *cepat* → **cepet**, *senang* → **seneng** |
+| au final devient o | -au → -o | *kalau* → **kalo**, *pulau* → **pulo** |
+| ai final devient e | -ai → -e | *pakai* → **pake**, *sampai* → **sampe** |
+| h entre voyelles tombe | -h- → ∅ | *tahu* → **tau**, *lihat* → **liat**, *tahun* → **taon** |
 
-### Changements de Consonnes
-
-|       Standard        | Betawi |       Exemple       |
-| :-------------------: | :----: | :-----------------: |
-| r disparu |  | *benar* → **bener** |
-| h disparu |  | *tahun* → **taon** |
-| k final → ʔ (glottal) |  | *tidak* → **nggak** |
-
+Les pronoms *gue* et *lo* ne viennent pas de ces règles : ce sont des mots d'origine hokkien (*goa* « je », *lu* « tu »).
 
 
 ## Vocabulaire Betawi
@@ -93,8 +91,8 @@ Le Betawi s'est formé au XVIIe siècle à Batavia (ancien nom de Jakarta) à pa
 | Français | Standard | Betawi | Exemple |
 | :------: | :------: | :----: | :-----: |
 | Manger | Makan | **Makan** | *Gue mau makan* |
-| Boire | Minum | **Minum / Nginum** |  |
-| Dormir | Tidur | **Bobo** | *Gue mau bobo* |
+| Boire | Minum | **Minum** |  |
+| Dormir | Tidur | **Tidur / Molor** (familier) | *Gue mau molor* |
 | Aller | Pergi | **Pergi / Cabut** |  |
 | Rentrer | Pulang | **Balik** | *Gue balik dulu* |
 | Parler | Berbicara | **Ngomong** |  |
@@ -112,12 +110,12 @@ Le Betawi s'est formé au XVIIe siècle à Batavia (ancien nom de Jakarta) à pa
 
 | Français | Standard | Betawi |
 | :------: | :------: | :----: |
-| Bon | Baik | **Bener / Bae** |
+| Bon | Baik | **Bae** |
 | Mauvais | Buruk / Jelek | **Jelek** |
 | Beau/Belle | Cantik / Tampan | **Cakep / Ganteng** |
 | Laid | Jelek | **Jelek** |
 | Grand | Besar | **Gede** |
-| Petit | Kecil | **Kecil / Cilik** |
+| Petit | Kecil | **Kecil** |
 | Beaucoup | Banyak | **Banyak** |
 | Peu | Sedikit | **Dikit** |
 | Rapide | Cepat | **Cepet** |
@@ -249,26 +247,34 @@ Ces termes viennent du Betawi mais sont maintenant utilisés dans toute l'Indon�
 
 ## Dialogue Exemple
 
-### En Betawi/Jakarta
+**A :** ![Eh, lo lagi ngapain?](audio/id_male_0969e2b65c8a.mp3)
+*Eh, tu fais quoi ?*
 
-> **A:** Eh, lo lagi ngapain?
-> **B:** Kagak ngapa-ngapain. Lagi gabut nih. Lo mau kemane?
-> **A:** Gue mau nyari makan. Lo mau ikut kagak?
-> **B:** Boleh deh. Makan di mane?
-> **A:** Warung deket situ aje. Murah sih, makanannya enak.
-> **B:** Oke, gue ikut. Bentar ye, gue ambil dompet dulu.
-> **A:** Santai aje, gue tungguin.
+**B :** ![Kagak ngapa-ngapain. Lagi gabut nih. Lo mau kemane?](audio/id_male_9cee3c290996.mp3)
+*Rien du tout. Je m'ennuie, là. Tu vas où ?*
 
-### Traduction Française
+**A :** ![Gue mau nyari makan. Lo mau ikut kagak?](audio/id_male_9e8b3139bec9.mp3)
+*Je vais chercher à manger. Tu viens ?*
 
-> **A:** Eh, tu fais quoi ?
-> **B:** Rien du tout. Je m'ennuie là. Tu vas où ?
-> **A:** Je vais chercher à manger. Tu veux venir ?
-> **B:** D'accord. On mange où ?
-> **A:** Au warung près d'ici. C'est pas cher et c'est bon.
-> **B:** Ok, je viens. Attends, je prends mon portefeuille.
-> **A:** Tranquille, je t'attends.
+**B :** ![Boleh deh. Makan di mane?](audio/id_male_46f65f8723ea.mp3)
+*D'accord. On mange où ?*
 
+**A :** ![Warung deket situ aje. Murah, makanannye enak.](audio/id_male_ac3163699226.mp3)
+*Au warung juste là. C'est pas cher et c'est bon.*
+
+**B :** ![Oke, gue ikut. Bentar ye, gue ambil dompet dulu.](audio/id_male_89f4c6ca3373.mp3)
+*OK, je viens. Attends, je prends mon portefeuille.*
+
+**A :** ![Santai aje, gue tungguin.](audio/id_male_9348121f3efa.mp3)
+*Tranquille, je t'attends.*
+
+> [!example] Mots du dialogue
+> - *kagak* : non, ne… pas (betawi)
+> - *kemane*, *di mane* : où (*ke mana*, *di mana* avec -a → -e)
+> - *nyari* : chercher (de *mencari*)
+> - *aje*, *ye* : *saja*, *ya* en betawi
+> - *bentar* : un instant (de *sebentar*)
+> - *tungguin* : attendre quelqu'un (de *tunggu* + -in)
 
 
 ## Culture Betawi
@@ -293,7 +299,7 @@ Ces termes viennent du Betawi mais sont maintenant utilisés dans toute l'Indon�
 | **Nasi uduk** | Riz au lait de coco |
 | **Asinan Betawi** | Légumes marinés épicés |
 | **Gado-gado** | Salade de légumes sauce cacahuète |
-| **Ketoprak** | Nouilles sauce cacahuète |
+| **Ketoprak** | Tofu, galettes de riz et vermicelles, sauce cacahuète |
 | **Es selendang mayang** | Dessert coloré |
 | **Bir pletok** | Boisson épicée (sans alcool) |
 | **Roti buaya** | Pain en forme de crocodile (mariage) |
@@ -312,6 +318,14 @@ Ces termes viennent du Betawi mais sont maintenant utilisés dans toute l'Indon�
 | Pas grave | Tidak apa-apa | Kagak ape-ape | Gapapa |
 | Vraiment ? | Benarkah? | Beneran? | Serius? |
 | C'est délicieux | Ini enak | Ini enak bener | Ini enak banget |
+
+## À retenir
+
+- Le betawi est né à Batavia d'un fond malais mêlé de hokkien, portugais, néerlandais, arabe et langues de Java.
+- *Gue/gua* et *lo/lu* viennent du hokkien et sont passés dans l'argot de tout le pays.
+- Le -a final devient -e : *apa* → *ape*, *kenapa* → *kenape*.
+- -kan devient -in : *beliin*, *bukain*, *benerin*.
+- *Kagak* (non), *iye* (oui), *doang* (seulement) sont typiquement betawi.
 
 ## Questions de révision
 

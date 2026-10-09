@@ -4,9 +4,28 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Indonésien > 06-Ressources"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
+prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/06-Ressources/Fetes-Nationales]]"]
 ---
 
 # Liens et Ressources Utiles
+
+Par où continuer après le parcours : les ressources déjà rangées dans le jardin d'abord, puis des outils, médias et livres pour pratiquer. Les applications et sites changent vite ; les noms ci-dessous ont été choisis parmi les plus établis.
+
+> [!tip] Dans cette fiche
+> - Savoir avec quels outils continuer : les decks Anki du jardin, des dictionnaires, des médias, des livres.
+> - Trouver du contenu authentique pour s'habituer à l'indonésien réel.
+
+## Dans le jardin
+
+Trois decks Anki sont rangés dans le dossier `Anki/` de l'indonésien et se révisent directement sur la page **Cartes** du site, sans installer Anki.
+
+| Deck | Contenu | Par où commencer |
+| :--: | :-----: | :--------------: |
+| Indonesian Vocabulary Core 1k (Ling) | Les 1 000 mots les plus fréquents | **Premier deck à ouvrir** |
+| Indonesian Vocabulary, beginner to intermediate | Vocabulaire thématique | En parallèle des fiches de vocabulaire |
+| Xefjord's Complete Indonesian | Cours complet, phrases et grammaire | Après les fiches de grammaire |
+
+Deux documents PDF accompagnent cette section : [[Learn_Bahasa_Indonesia.pdf|un manuel d'indonésien en anglais]] et [[les_nombres.pdf|une fiche sur les nombres]].
 
 ## Apprentissage en Ligne
 
@@ -22,15 +41,9 @@ date: "2026-02-04"
 
 ### Sites Web
 - **IndonesianPod101** - Cours audio et vidéo
-- **Bahasa Bule** - Ressources pour débutants
 - **Jembatan Bahasa** - École en ligne
 - **Transparent Language** - Vocabulaire et grammaire
 - **Goethe Verlag** - 50 Languages (gratuit)
-
-### Chaînes YouTube
-- **Learn Indonesian with IndoTube** - Cours variés
-- **Indonesian with Cici** - Expressions courantes
-- **Bahasa Indonesia Conversation** - Dialogues
 
 ## Dictionnaires
 
@@ -38,7 +51,6 @@ date: "2026-02-04"
 | Dictionnaire | Type | URL |
 | :----------: | :--: | :-: |
 | **KBBI** | Officiel indonésien | kbbi.kemdikbud.go.id |
-| **Kamus Besar** | Définitions | kamusbesar.com |
 | **Glosbe** | Multilingue | glosbe.com |
 | **Dict.com** | Traduction | dict.com |
 | **Google Translate** | Traduction rapide | translate.google.com |
@@ -77,9 +89,8 @@ date: "2026-02-04"
 
 ### Streaming
 - **Vidio** - Plateforme indonésienne
-- **iflix** - Séries et films
 - **WeTV** - Contenu asiatique
-- **Disney+ Hotstar** - International + local
+- **Netflix** - Films et séries indonésiens (*Gadis Kretek*, films de Joko Anwar)
 
 ## Musique et Culture
 
@@ -103,13 +114,6 @@ date: "2026-02-04"
 
 ## Réseaux Sociaux
 
-### Comptes à Suivre
-- **@kemikirindonesia** - Humour
-- **@indonesian.slang** - Argot moderne
-- **@1cak** - Memes indonésiens
-- **@infobdg** - Info Bandung
-- **@infojkt** - Info Jakarta
-
 ### Hashtags Utiles
 - #BahasaIndonesia
 - #BelajarBahasaIndonesia
@@ -121,9 +125,7 @@ date: "2026-02-04"
 | Podcast | Thème | Langue |
 | :-----: | :---: | :----: |
 | **Podcast Awal Minggu** | Culture | Indonésien |
-| **Thirty Days of Lunch** | Interviews | Indonésien |
 | **Makna Talks** | Société | Indonésien |
-| **Indo-Frog** | Apprentissage | Anglais/Indonésien |
 
 ## Livres Recommandés
 
@@ -131,7 +133,7 @@ date: "2026-02-04"
 - "Indonesian: A Comprehensive Grammar" - Sneddon
 - "Colloquial Indonesian" - Routledge
 - "Lonely Planet Indonesian Phrasebook"
-- "Assimil - L'indonésien sans peine"
+- *L'indonésien*, collection « Sans peine » (Assimil)
 
 ### Littérature Indonésienne
 | Auteur | Œuvre | Thème |
@@ -169,3 +171,27 @@ date: "2026-02-04"
 - **Tandem** - Échange linguistique
 - **HelloTalk** - Conversation avec natifs
 - **iTalki** - Tuteurs professionnels
+
+## À retenir
+
+- Les trois decks Anki du jardin se révisent sur la page Cartes ; commencer par le Core 1k.
+- Le KBBI est le dictionnaire de référence officiel.
+- Kompas, Tempo et Detik pour lire l'actualité ; Tulus, Raisa ou Sheila on 7 pour l'oreille.
+- *Bumi Manusia* (Pramoedya Ananta Toer) et *Laskar Pelangi* (Andrea Hirata) sont deux classiques accessibles en traduction.
+
+## Questions de révision
+
+> [!quiz] Quel est le dictionnaire officiel de l'indonésien ?
+> Le KBBI (*Kamus Besar Bahasa Indonesia*).
+
+> [!quiz] Quel deck Anki du jardin ouvrir en premier ?
+> Indonesian Vocabulary Core 1k : les 1 000 mots les plus fréquents.
+
+> [!quiz] Qui a écrit *Bumi Manusia* ?
+> Pramoedya Ananta Toer, le plus grand romancier indonésien, qui l'a composé en détention à Buru.
+
+> [!quiz] Citez un grand quotidien indonésien.
+> *Kompas* (ou *Tempo*, *Detik*).
+
+> [!quiz] Quelle application permet d'échanger avec des natifs ?
+> HelloTalk ou Tandem.

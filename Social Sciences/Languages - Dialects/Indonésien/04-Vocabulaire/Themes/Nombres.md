@@ -9,21 +9,28 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/M
 
 # Nombres (Angka)
 
+Les nombres indonésiens se construisent de façon régulière : on apprend les unités, puis *belas* (de 11 à 19), *puluh* (dizaines), *ratus* (centaines), *ribu* (milliers). Le préfixe *se-* remplace *satu* (« un ») devant ces mots : *sepuluh*, *seratus*, *seribu*.
+
+> [!tip] Dans cette fiche
+> - Compter, lire un prix et donner un numéro de téléphone.
+> - Former les ordinaux et les fractions.
+> - Utiliser les classificateurs (*orang*, *ekor*, *buah*).
+
 ## Nombres de Base (0-10)
 
 | Nombre | Indonésien | Prononciation |
 | :----: | :--------: | :-----------: |
 | 0 | ![Nol](audio/id_male_dcb91e9a37e5.mp3) / ![Kosong](audio/id_male_20a2ea434493.mp3) | /nol/ |
-| 1 | ![Satu](audio/id_male_2333fce321ab.mp3) | /sa.ˈtu/ |
-| 2 | ![Dua](audio/id_male_4d74d2247ee0.mp3) | /du.ˈa/ |
-| 3 | ![Tiga](audio/id_male_c9975a996a48.mp3) | /ti.ˈga/ |
-| 4 | ![Empat](audio/id_male_f8fdf5690cfa.mp3) | /əm.ˈpat/ |
-| 5 | ![Lima](audio/id_male_1d0038defb3a.mp3) | /li.ˈma/ |
-| 6 | ![Enam](audio/id_male_77617d572045.mp3) | /ə.ˈnam/ |
-| 7 | ![Tujuh](audio/id_male_9e8da740b2e2.mp3) | /tu.ˈdʒuh/ |
-| 8 | ![Delapan](audio/id_male_c8139bfe99bb.mp3) | /də.la.ˈpan/ |
-| 9 | ![Sembilan](audio/id_male_d43a27789022.mp3) | /səm.bi.ˈlan/ |
-| 10 | ![Sepuluh](audio/id_male_52d3b847e2c7.mp3) | /sə.pu.ˈluh/ |
+| 1 | ![Satu](audio/id_male_2333fce321ab.mp3) | /sa.tu/ |
+| 2 | ![Dua](audio/id_male_4d74d2247ee0.mp3) | /du.a/ |
+| 3 | ![Tiga](audio/id_male_c9975a996a48.mp3) | /ti.ga/ |
+| 4 | ![Empat](audio/id_male_f8fdf5690cfa.mp3) | /əm.pat/ |
+| 5 | ![Lima](audio/id_male_1d0038defb3a.mp3) | /li.ma/ |
+| 6 | ![Enam](audio/id_male_77617d572045.mp3) | /ə.nam/ |
+| 7 | ![Tujuh](audio/id_male_9e8da740b2e2.mp3) | /tu.dʒuh/ |
+| 8 | ![Delapan](audio/id_male_c8139bfe99bb.mp3) | /də.la.pan/ |
+| 9 | ![Sembilan](audio/id_male_d43a27789022.mp3) | /səm.bi.lan/ |
+| 10 | ![Sepuluh](audio/id_male_52d3b847e2c7.mp3) | /sə.pu.luh/ |
 
 ## Nombres de 11 à 19
 
@@ -65,15 +72,15 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/M
 
 | Nombre | Indonésien | Prononciation |
 | :----: | :--------: | :-----------: |
-| 100 | ![Seratus](audio/id_male_15a838f9fe8a.mp3) | /sə.ra.ˈtus/ |
-| 200 | ![Dua ratus](audio/id_male_085f469e0d36.mp3) | /du.a ra.ˈtus/ |
-| 500 | ![Lima ratus](audio/id_male_e26f1852b3bc.mp3) | /li.ma ra.ˈtus/ |
-| 1 000 | ![Seribu](audio/id_male_efafe70a6d1c.mp3) | /sə.ri.ˈbu/ |
-| 2 000 | ![Dua ribu](audio/id_male_95536b6a7c9f.mp3) | /du.a ri.ˈbu/ |
-| 10 000 | ![Sepuluh ribu](audio/id_male_2b7c58f7fdba.mp3) | /sə.pu.luh ri.ˈbu/ |
-| 100 000 | ![Seratus ribu](audio/id_male_45e9e995229b.mp3) | /sə.ra.tus ri.ˈbu/ |
-| 1 000 000 | ![Satu juta](audio/id_male_087d05c4a425.mp3) | /sa.tu dʒu.ˈta/ |
-| 1 000 000 000 | ![Satu milyar](audio/id_male_5a505e210423.mp3) | /sa.tu mil.ˈjar/ |
+| 100 | ![Seratus](audio/id_male_15a838f9fe8a.mp3) | /sə.ra.tus/ |
+| 200 | ![Dua ratus](audio/id_male_085f469e0d36.mp3) | /du.a ra.tus/ |
+| 500 | ![Lima ratus](audio/id_male_e26f1852b3bc.mp3) | /li.ma ra.tus/ |
+| 1 000 | ![Seribu](audio/id_male_efafe70a6d1c.mp3) | /sə.ri.bu/ |
+| 2 000 | ![Dua ribu](audio/id_male_95536b6a7c9f.mp3) | /du.a ri.bu/ |
+| 10 000 | ![Sepuluh ribu](audio/id_male_2b7c58f7fdba.mp3) | /sə.pu.luh ri.bu/ |
+| 100 000 | ![Seratus ribu](audio/id_male_45e9e995229b.mp3) | /sə.ra.tus ri.bu/ |
+| 1 000 000 | ![Satu juta](audio/id_male_087d05c4a425.mp3) / ![Sejuta](audio/id_male_91072e64162e.mp3) | /sa.tu dʒu.ta/ |
+| 1 000 000 000 | ![Satu miliar](audio/id_male_df934c5b720f.mp3) | /sa.tu mi.li.ar/ |
 
 ## Exemples de Grands Nombres
 
@@ -103,29 +110,29 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/M
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Demi | ![Setengah](audio/id_male_7d989629d010.mp3) | /sə.tə.ˈŋah/ |
-| Un tiers | ![Sepertiga](audio/id_male_f38b07ad84aa.mp3) | /sə.pər.ti.ˈga/ |
-| Un quart | ![Seperempat](audio/id_male_5ea492e3afa7.mp3) | /sə.pər.əm.ˈpat/ |
-| Trois quarts | ![Tiga perempat](audio/id_male_8cb9c031c7c8.mp3) | /ti.ga pər.əm.ˈpat/ |
-| Virgule | ![Koma](audio/id_male_e9ce9deed78b.mp3) | /ko.ˈma/ |
+| Demi | ![Setengah](audio/id_male_7d989629d010.mp3) | /sə.tə.ŋah/ |
+| Un tiers | ![Sepertiga](audio/id_male_f38b07ad84aa.mp3) | /sə.pər.ti.ga/ |
+| Un quart | ![Seperempat](audio/id_male_5ea492e3afa7.mp3) | /sə.pər.əm.pat/ |
+| Trois quarts | ![Tiga perempat](audio/id_male_8cb9c031c7c8.mp3) | /ti.ga pər.əm.pat/ |
+| Virgule | ![Koma](audio/id_male_e9ce9deed78b.mp3) | /ko.ma/ |
 | 2,5 | ![Dua koma lima](audio/id_male_7f95dfca81d1.mp3) | - |
-| Pourcent | ![Persen](audio/id_male_0eeb069bd511.mp3) | /pɛr.ˈsɛn/ |
+| Pourcent | ![Persen](audio/id_male_0eeb069bd511.mp3) | /pɛr.sɛn/ |
 | 50% | ![Lima puluh persen](audio/id_male_9918619c1e87.mp3) | - |
 
 ## Quantités
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Peu | ![Sedikit](audio/id_male_25bc9b77d2d6.mp3) | /sə.di.ˈkit/ |
-| Beaucoup | ![Banyak](audio/id_male_4b18a7834c32.mp3) | /ba.ˈɲaʔ/ |
-| Plusieurs | ![Beberapa](audio/id_male_e0b6d772d7d8.mp3) | /bə.bə.ra.ˈpa/ |
-| Tous | ![Semua](audio/id_male_f34c6b58657d.mp3) | /sə.mu.ˈa/ |
-| Aucun | ![Tidak ada](audio/id_male_5f19aa338dca.mp3) | /ti.daʔ a.ˈda/ |
-| Assez | ![Cukup](audio/id_male_d34ffd1166af.mp3) | /t͡ʃu.ˈkup/ |
-| Trop | ![Terlalu banyak](audio/id_male_24d73fb712cc.mp3) | /tər.la.lu ba.ˈɲaʔ/ |
-| Environ | ![Kira-kira](audio/id_male_98cbe2dd5378.mp3) | /ki.ra ki.ˈra/ |
-| Plus de | ![Lebih dari](audio/id_male_74366ae8b394.mp3) | /lə.bih da.ˈri/ |
-| Moins de | ![Kurang dari](audio/id_male_0cf7506c770c.mp3) | /ku.raŋ da.ˈri/ |
+| Peu | ![Sedikit](audio/id_male_25bc9b77d2d6.mp3) | /sə.di.kit/ |
+| Beaucoup | ![Banyak](audio/id_male_4b18a7834c32.mp3) | /ba.ɲaʔ/ |
+| Plusieurs | ![Beberapa](audio/id_male_e0b6d772d7d8.mp3) | /bə.bə.ra.pa/ |
+| Tous | ![Semua](audio/id_male_f34c6b58657d.mp3) | /sə.mu.a/ |
+| Aucun | ![Tidak ada](audio/id_male_5f19aa338dca.mp3) | /ti.daʔ a.da/ |
+| Assez | ![Cukup](audio/id_male_d34ffd1166af.mp3) | /t͡ʃu.kup/ |
+| Trop | ![Terlalu banyak](audio/id_male_24d73fb712cc.mp3) | /tər.la.lu ba.ɲaʔ/ |
+| Environ | ![Kira-kira](audio/id_male_98cbe2dd5378.mp3) | /ki.ra ki.ra/ |
+| Plus de | ![Lebih dari](audio/id_male_74366ae8b394.mp3) | /lə.bih da.ri/ |
+| Moins de | ![Kurang dari](audio/id_male_0cf7506c770c.mp3) | /ku.raŋ da.ri/ |
 
 ## Classificateurs (Penggolong)
 
@@ -166,6 +173,13 @@ En indonésien, les nombres sont souvent suivis de classificateurs selon le type
 - **Kembaliannya berapa?** = C'est combien la monnaie ?
 - **Diskon berapa persen?** = C'est combien de réduction ?
 - **Nomor telepon saya...** = Mon numéro de téléphone est...
+
+## À retenir
+
+- 11-19 se forment avec *belas*, les dizaines avec *puluh*, les centaines avec *ratus*, les milliers avec *ribu*.
+- Le préfixe se- veut dire « un » : *sepuluh*, *seratus*, *seribu*.
+- Ordinaux : ke- + nombre (*kedua*), sauf *pertama* (premier).
+- Les prix se comptent en milliers de roupies : *lima puluh ribu* = 50 000.
 
 ## Questions de révision
 
