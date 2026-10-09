@@ -6,6 +6,7 @@ tags: [sciences-appliquées, informatique, sécurité, réseau, osi, tcp-ip, pro
 date: "2026-03-22"
 parcours: "Réseau : des modèles OSI aux attaques"
 parcours-description: "Les modèles OSI et TCP/IP, l'adressage IP, les protocoles et les équipements, puis les attaques réseau et les moyens de s'en défendre."
+parcours-suite: "Sécurité web : des vecteurs d'attaque aux failles avancées"
 ---
 
 # Modèles Réseau — OSI et TCP/IP

@@ -334,6 +334,16 @@ Bien que la raison théorique ne puisse **prouver** ces trois idées, la raison 
 > [!quiz] Pourquoi 7 + 5 = 12 est-il pour Kant un jugement synthétique a priori ?
 > Synthétique, car le concept de 12 n'est pas contenu dans celui de la somme de 7 et 5 ; a priori, car il est universel et nécessaire, indépendant de l'expérience.
 
+> [!quiz] Pour Kant, un jugement synthétique a priori est un jugement qui…
+> - [ ] est vrai par la seule définition de ses termes
+>   Ça, c'est un jugement analytique : « tous les corps sont étendus » n'apprend rien que le concept de corps ne contienne déjà.
+> - [x] étend notre connaissance sans venir de l'expérience
+>   Comme 7 + 5 = 12 : la somme n'est pas contenue dans 7 et 5, et on la sait pourtant de façon universelle et nécessaire.
+> - [ ] est tiré de l'observation du monde
+>   Ça, c'est un jugement a posteriori : « tous les corps sont pesants » s'apprend par l'expérience.
+>
+> Indice : « synthétique » veut dire qu'il ajoute quelque chose au concept ; « a priori », qu'il ne vient pas de l'expérience.
+
 > [!quiz] Quelle distinction Kant fait-il entre phénomènes et choses en soi ?
 > Nous ne connaissons que les phénomènes, les choses telles qu'elles nous apparaissent à travers les formes de notre esprit ; les choses en soi (noumènes) restent inconnaissables.
 
