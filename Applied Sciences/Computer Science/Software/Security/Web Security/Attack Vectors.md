@@ -5,6 +5,7 @@ subdomain: "Computer Science > Security > Web Security"
 tags: [sciences-appliquées, informatique, sécurité]
 date: "2024-11-01"
 parcours: "Sécurité web : des vecteurs d'attaque aux failles avancées"
+parcours-description: "Les vecteurs d'attaque web, puis les grandes failles une par une : injections, désérialisation, SSTI, request smuggling, cache poisoning, CORS, XXE…"
 ---
 
 # Vecteurs d'attaque Web

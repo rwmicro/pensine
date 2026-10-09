@@ -5,6 +5,7 @@ subdomain: "Languages - Dialects > Ouighour > 01-Phonologie"
 tags: [sciences-sociales, langues, ouighour, phonologie, alphabet]
 date: "2026-07-30"
 parcours: "Ouïghour : des premiers mots à la culture"
+parcours-description: "L'alphabet et l'harmonie vocalique, les salutations et les registres, puis l'agglutination, les cas, le verbe et la syntaxe, le vocabulaire et la culture ouïghoure."
 ---
 # L'alphabet ouïghour
 

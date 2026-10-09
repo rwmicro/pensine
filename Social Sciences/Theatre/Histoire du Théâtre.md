@@ -5,6 +5,7 @@ subdomain: "Theatre"
 tags: [sciences-sociales, théâtre]
 date: "2026-03-05"
 parcours: "Théâtre : de l'histoire à la scène"
+parcours-description: "L'histoire du théâtre, ses genres et sa représentation, puis le jeu de l'acteur, la mise en scène, les grands théoriciens et le théâtre contemporain."
 ---
 
 # Histoire du Théâtre

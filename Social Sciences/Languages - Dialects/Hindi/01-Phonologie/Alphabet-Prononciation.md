@@ -5,6 +5,7 @@ subdomain: "Languages - Dialects > Hindi"
 tags: [sciences-sociales, langues, hindi, devanagari, phonologie]
 date: "2026-04-16"
 parcours: "Hindi : des premiers mots à la culture"
+parcours-description: "L'écriture devanagari et la prononciation, les salutations, la grammaire et les registres (tū, tum, āp), puis le vocabulaire, les dialogues et la culture de l'Inde."
 ---
 
 # Alphabet et prononciation hindi (Devanagari)

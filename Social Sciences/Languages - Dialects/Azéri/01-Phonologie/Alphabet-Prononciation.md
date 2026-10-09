@@ -5,6 +5,7 @@ subdomain: "Languages - Dialects > Azéri > 01-Phonologie"
 tags: [sciences-sociales, langues, azeri, azerbaijani, phonologie, alphabet, prononciation, turcique]
 date: "2026-04-22"
 parcours: "Azéri : des premiers mots à la culture"
+parcours-description: "L'alphabet et la prononciation de l'azéri, les salutations, la grammaire et les registres, puis le vocabulaire, les dialogues et la culture de l'Azerbaïdjan."
 ---
 # Alphabet et Prononciation — Azéri
 

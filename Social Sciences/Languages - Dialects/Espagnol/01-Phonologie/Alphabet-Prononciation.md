@@ -5,6 +5,7 @@ subdomain: "Languages - Dialects > Espagnol > 01-Phonologie"
 tags: [sciences-sociales, langues, espagnol, spanish, phonologie, alphabet, prononciation]
 date: "2026-04-23"
 parcours: "Espagnol : des premiers mots à la culture"
+parcours-description: "Prononcer l'espagnol, saluer, poser la grammaire et les registres, puis le vocabulaire, les dialogues du quotidien et la culture hispanophone."
 ---
 # Alphabet et Prononciation — Espagnol
 

@@ -5,6 +5,7 @@ subdomain: "Medicine"
 tags: [sciences-appliquées, médecine]
 date: "2026-02-22"
 parcours: "Médecine : du corps humain à la recherche"
+parcours-description: "L'anatomie et la physiologie, les examens et le diagnostic, la génétique, l'immunologie et la pharmacologie, puis la recherche et les enjeux de la médecine."
 ---
 
 # Anatomie

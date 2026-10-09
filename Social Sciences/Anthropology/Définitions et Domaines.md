@@ -5,6 +5,7 @@ subdomain: "Anthropology"
 tags: [sciences-sociales, anthropologie, ethnologie, ethnographie]
 date: "2026-04-18"
 parcours: "Anthropologie : de la discipline au terrain"
+parcours-description: "Ce qu'est l'anthropologie et son histoire, ses grandes écoles et figures (Boas, Malinowski, Mead, Lévi-Strauss, Geertz), puis le terrain ethnographique et les origines de l'humain."
 ---
 
 # Définitions et Domaines de l'Anthropologie

@@ -5,6 +5,7 @@ subdomain: "Computer Science > Security > Cryptographie"
 tags: [encodage, base64, hex, ascii, unicode, url-encoding, sécurité]
 date: "2026-03-22"
 parcours: "Cryptographie appliquée"
+parcours-description: "Des encodages à la cryptographie moderne, puis ses attaques pratiques : cassage de hash, padding oracle, PKI et stéganographie."
 ---
 
 # Encodages

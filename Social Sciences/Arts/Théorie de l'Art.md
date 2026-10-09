@@ -5,6 +5,7 @@ subdomain: "Arts"
 tags: [sciences-sociales, arts, esthétique, philosophie, critique-d'art]
 date: "2026-04-17"
 parcours: "Arts : de la Renaissance au surréalisme"
+parcours-description: "Les notions pour regarder une œuvre, puis Léonard, Michel-Ange et Rembrandt, et les ruptures modernes : impressionnisme, cubisme, surréalisme."
 ---
 
 # Théorie de l'Art
