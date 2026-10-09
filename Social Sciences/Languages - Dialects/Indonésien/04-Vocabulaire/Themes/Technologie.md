@@ -4,11 +4,17 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Indonésien > 04-Vocabulaire > Themes"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
+prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/Themes/Sports]]"]
 ---
 
 # Technologie et Internet (Teknologi dan Internet)
 
 > Beaucoup de termes tech sont empruntés à l'anglais avec une orthographe indonésianisée.
+
+> [!tip] Dans cette fiche
+> - Nommer les appareils, les actions en ligne et les réseaux sociaux.
+> - Comprendre l'argot d'internet et les abréviations des messages.
+> - Décrire un problème technique.
 
 ## Appareils (Perangkat)
 
@@ -16,56 +22,56 @@ date: "2026-02-04"
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Ordinateur | ![Komputer](audio/id_male_54237ae979ee.mp3) | Kompi | /kom.pu.ˈtər/ |
-| Ordinateur portable | ![Laptop](audio/id_male_9ee3390693c3.mp3) | Leppi | /lap.ˈtop/ |
-| Écran | ![Layar](audio/id_male_d2216d964867.mp3) | - | /la.ˈjar/ |
-| Clavier | ![Keyboard](audio/id_male_7028f94ba925.mp3) | Kibor | /ki.ˈbord/ |
+| Ordinateur | ![Komputer](audio/id_male_54237ae979ee.mp3) | Kompi | /kom.pu.tər/ |
+| Ordinateur portable | ![Laptop](audio/id_male_9ee3390693c3.mp3) | Leppi | /lap.top/ |
+| Écran | ![Layar](audio/id_male_d2216d964867.mp3) | - | /la.jar/ |
+| Clavier | ![Keyboard](audio/id_male_7028f94ba925.mp3) | Kibor | /ki.bord/ |
 | Souris | ![Mouse](audio/id_male_129744c740c3.mp3) | - | /maus/ |
-| Imprimante | ![Printer](audio/id_male_ac1ad8b9c964.mp3) | - | /prin.ˈtər/ |
-| Scanner | ![Scanner](audio/id_male_520c33dc569d.mp3) | - | /skɛ.ˈnər/ |
+| Imprimante | ![Printer](audio/id_male_ac1ad8b9c964.mp3) | - | /prin.tər/ |
+| Scanner | ![Scanner](audio/id_male_520c33dc569d.mp3) | - | /skɛ.nər/ |
 | Disque dur | ![Hard disk](audio/id_male_a698d7e75a9f.mp3) | Hardisk | /hard disk/ |
 | Clé USB | ![Flashdisk](audio/id_male_177d8b919c06.mp3) | FD | /flɛʃ disk/ |
-| Carte mémoire | ![Kartu memori](audio/id_male_af5c716bf070.mp3) | - | /kar.tu mə.mo.ˈri/ |
+| Carte mémoire | ![Kartu memori](audio/id_male_af5c716bf070.mp3) | - | /kar.tu mə.mo.ri/ |
 | Webcam | ![Webcam](audio/id_male_99da660e7991.mp3) | - | /wɛb kɛm/ |
-| Casque audio | ![Headset](audio/id_male_19b37019748a.mp3) | - | /hɛd.ˈsɛt/ |
-| Écouteurs | ![Earphone](audio/id_male_ab1a0d0e831c.mp3) | - | /ir.ˈfon/ |
-| Haut-parleur | ![Speaker](audio/id_male_301bbb9c2e1c.mp3) | - | /spi.ˈkər/ |
-| Chargeur | ![Charger](audio/id_male_88e7cce3f692.mp3) | Cas | /t͡ʃar.ˈdʒər/ |
-| Câble | ![Kabel](audio/id_male_54defeccb534.mp3) | - | /ka.ˈbəl/ |
-| Batterie | ![Baterai](audio/id_male_a0a2aaddf624.mp3) | Batere | /ba.tə.ˈrai/ |
+| Casque audio | ![Headset](audio/id_male_19b37019748a.mp3) | - | /hɛd.sɛt/ |
+| Écouteurs | ![Earphone](audio/id_male_ab1a0d0e831c.mp3) | - | /ir.fon/ |
+| Haut-parleur | ![Speaker](audio/id_male_301bbb9c2e1c.mp3) | - | /spi.kər/ |
+| Chargeur | ![Charger](audio/id_male_88e7cce3f692.mp3) | Cas | /t͡ʃar.dʒər/ |
+| Câble | ![Kabel](audio/id_male_54defeccb534.mp3) | - | /ka.bəl/ |
+| Batterie | ![Baterai](audio/id_male_a0a2aaddf624.mp3) | Batere | /ba.tə.rai/ |
 
 ### Téléphones
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Téléphone | ![Telepon](audio/id_male_ce3642e37596.mp3) | Telpon | /tə.lə.ˈpon/ |
-| Téléphone portable | ![Telepon genggam](audio/id_male_3235538a1245.mp3) | HP (hape) | /ha.ˈpe/ |
-| Smartphone | ![Smartphone](audio/id_male_7042ef8739aa.mp3) | HP | /smart.ˈfon/ |
+| Téléphone | ![Telepon](audio/id_male_ce3642e37596.mp3) | Telpon | /tə.lə.pon/ |
+| Téléphone portable | ![Telepon genggam](audio/id_male_3235538a1245.mp3) | HP (hape) | /ha.pe/ |
+| Smartphone | ![Smartphone](audio/id_male_7042ef8739aa.mp3) | HP | /smart.fon/ |
 | Carte SIM | ![Kartu SIM](audio/id_male_d74b1f7959c9.mp3) | - | /kar.tu sim/ |
-| Numéro de téléphone | ![Nomor telepon](audio/id_male_43175334996a.mp3) | Nomor HP | /no.mor tə.lə.ˈpon/ |
-| Signal | ![Sinyal](audio/id_male_3ec2296f21d1.mp3) | - | /si.ˈɲal/ |
-| Appel | ![Panggilan](audio/id_male_96e178ab67c9.mp3) | - | /paŋ.gi.ˈlan/ |
+| Numéro de téléphone | ![Nomor telepon](audio/id_male_43175334996a.mp3) | Nomor HP | /no.mor tə.lə.pon/ |
+| Signal | ![Sinyal](audio/id_male_3ec2296f21d1.mp3) | - | /si.ɲal/ |
+| Appel | ![Panggilan](audio/id_male_96e178ab67c9.mp3) | - | /paŋ.gi.lan/ |
 | SMS | ![SMS](audio/id_male_b2c48fa87b9f.mp3) | - | /ɛs ɛm ɛs/ |
-| Appel manqué | ![Panggilan tak terjawab](audio/id_male_c7ad566052ea.mp3) | Miscall | /mis.ˈkol/ |
-| Mode silencieux | ![Mode senyap](audio/id_male_101ab8a5a837.mp3) | Silent | /mo.de sə.ˈɲap/ |
-| Fond d'écran | ![Wallpaper](audio/id_male_57cd36f13c1c.mp3) | - | /wol.pɛ.ˈpər/ |
-| Application | ![Aplikasi](audio/id_male_3d46b016184f.mp3) | Apk | /a.pli.ka.ˈsi/ |
-| Notification | ![Notifikasi](audio/id_male_7d3bdfb3ecf5.mp3) | Notif | /no.ti.fi.ka.ˈsi/ |
+| Appel manqué | ![Panggilan tak terjawab](audio/id_male_c7ad566052ea.mp3) | Miscall | /mis.kol/ |
+| Mode silencieux | ![Mode senyap](audio/id_male_101ab8a5a837.mp3) | Silent | /mo.de sə.ɲap/ |
+| Fond d'écran | ![Wallpaper](audio/id_male_57cd36f13c1c.mp3) | - | /wol.pɛ.pər/ |
+| Application | ![Aplikasi](audio/id_male_3d46b016184f.mp3) | Apk | /a.pli.ka.si/ |
+| Notification | ![Notifikasi](audio/id_male_7d3bdfb3ecf5.mp3) | Notif | /no.ti.fi.ka.si/ |
 
 ### Autres Appareils
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Télévision | ![Televisi](audio/id_male_ae8711223554.mp3) | TV (tivi) | /ti.ˈvi/ |
-| Télécommande | ![Remote](audio/id_male_685841e81931.mp3) | Remot | /ri.ˈmot/ |
-| Appareil photo | ![Kamera](audio/id_male_c73a21096ee0.mp3) | - | /ka.mə.ˈra/ |
+| Télévision | ![Televisi](audio/id_male_ae8711223554.mp3) | TV (tivi) | /ti.vi/ |
+| Télécommande | ![Remote](audio/id_male_685841e81931.mp3) | Remot | /ri.mot/ |
+| Appareil photo | ![Kamera](audio/id_male_c73a21096ee0.mp3) | - | /ka.mə.ra/ |
 | Console de jeux | ![Konsol game](audio/id_male_09f4d8be28d7.mp3) | - | /kon.sol gɛm/ |
-| Tablette | ![Tablet](audio/id_male_7b2f50f57dac.mp3) | Tab | /ta.ˈblɛt/ |
-| Montre connectée | ![Smartwatch](audio/id_male_9ea8566d3afb.mp3) | - | /smart.ˈwot͡ʃ/ |
+| Tablette | ![Tablet](audio/id_male_7b2f50f57dac.mp3) | Tab | /ta.blɛt/ |
+| Montre connectée | ![Smartwatch](audio/id_male_9ea8566d3afb.mp3) | - | /smart.wot͡ʃ/ |
 | Drone | ![Drone](audio/id_male_1ca02e9b16bc.mp3) | - | /dron/ |
 | Power bank | ![Power bank](audio/id_male_38960206e5e1.mp3) | Powerbank | /pa.wər bɛŋk/ |
-| Routeur | ![Router](audio/id_male_393df8bb3a78.mp3) | - | /ru.ˈtər/ |
-| Modem | ![Modem](audio/id_male_45cf2818146a.mp3) | - | /mo.ˈdɛm/ |
+| Routeur | ![Router](audio/id_male_393df8bb3a78.mp3) | - | /ru.tər/ |
+| Modem | ![Modem](audio/id_male_45cf2818146a.mp3) | - | /mo.dɛm/ |
 
 
 ## Internet
@@ -74,20 +80,20 @@ date: "2026-02-04"
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Internet | ![Internet](audio/id_male_9f5cde9fac43.mp3) | Inet | /in.tər.ˈnɛt/ |
-| Connexion | ![Koneksi](audio/id_male_da0120a9799e.mp3) | - | /ko.nɛk.ˈsi/ |
-| Wi-Fi | ![Wi-Fi](audio/id_male_790776ce1bd3.mp3) | Wifai | /wai.ˈfai/ |
-| Mot de passe | ![Kata sandi](audio/id_male_62b3f770495f.mp3) | Password | /ka.ta san.ˈdi/ |
+| Internet | ![Internet](audio/id_male_9f5cde9fac43.mp3) | Inet | /in.tər.nɛt/ |
+| Connexion | ![Koneksi](audio/id_male_da0120a9799e.mp3) | - | /ko.nɛk.si/ |
+| Wi-Fi | ![Wi-Fi](audio/id_male_790776ce1bd3.mp3) | Wifai | /wai.fai/ |
+| Mot de passe | ![Kata sandi](audio/id_male_62b3f770495f.mp3) | Password | /ka.ta san.di/ |
 | Site web | ![Situs web](audio/id_male_649ef2dc1443.mp3) | Website | /si.tus wɛb/ |
-| Page | ![Halaman](audio/id_male_eef3d095eb66.mp3) | - | /ha.la.ˈman/ |
-| Lien | ![Tautan](audio/id_male_ffa1695f89e6.mp3) | Link | /ta.u.ˈtan/ |
-| Télécharger | ![Mengunduh](audio/id_male_062fb8add847.mp3) | Download | /daun.ˈlod/ |
-| Uploader | ![Mengunggah](audio/id_male_2308d47ae63e.mp3) | Upload | /ap.ˈlod/ |
-| En ligne | ![Daring](audio/id_male_bf79f726ab3a.mp3) / ![Online](audio/id_male_28384567c3e8.mp3) | Online | /on.ˈlain/ |
-| Hors ligne | ![Luring](audio/id_male_b98c0657990f.mp3) / ![Offline](audio/id_male_f59e311b0c88.mp3) | Offline | /of.ˈlain/ |
-| Navigateur | ![Peramban](audio/id_male_5f842ca56520.mp3) | Browser | /bra.u.ˈsər/ |
-| Moteur de recherche | ![Mesin pencari](audio/id_male_8526ae5e3ce6.mp3) | - | /mə.sin pən.t͡ʃa.ˈri/ |
-| Rechercher | ![Mencari](audio/id_male_b0b366608a8a.mp3) | Googling | /mən.t͡ʃa.ˈri/ |
+| Page | ![Halaman](audio/id_male_eef3d095eb66.mp3) | - | /ha.la.man/ |
+| Lien | ![Tautan](audio/id_male_ffa1695f89e6.mp3) | Link | /ta.u.tan/ |
+| Télécharger | ![Mengunduh](audio/id_male_062fb8add847.mp3) | Download | /daun.lod/ |
+| Uploader | ![Mengunggah](audio/id_male_2308d47ae63e.mp3) | Upload | /ap.lod/ |
+| En ligne | ![Daring](audio/id_male_bf79f726ab3a.mp3) / ![Online](audio/id_male_28384567c3e8.mp3) | Online | /on.lain/ |
+| Hors ligne | ![Luring](audio/id_male_b98c0657990f.mp3) / ![Offline](audio/id_male_f59e311b0c88.mp3) | Offline | /of.lain/ |
+| Navigateur | ![Peramban](audio/id_male_5f842ca56520.mp3) | Browser | /bra.u.sər/ |
+| Moteur de recherche | ![Mesin pencari](audio/id_male_8526ae5e3ce6.mp3) | - | /mə.sin pən.t͡ʃa.ri/ |
+| Rechercher | ![Mencari](audio/id_male_b0b366608a8a.mp3) | Googling | /mən.t͡ʃa.ri/ |
 | Cliquer | ![Mengklik](audio/id_male_68e2226abb50.mp3) | Klik | /klik/ |
 | Faire défiler | ![Menggulir](audio/id_male_8f2d08c922cd.mp3) | Scroll | /skrol/ |
 
@@ -127,24 +133,24 @@ date: "2026-02-04"
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Compte | ![Akun](audio/id_male_63a5ac44b2d1.mp3) | - | /a.ˈkun/ |
-| Profil | ![Profil](audio/id_male_fd7a60d8c5bb.mp3) | - | /pro.ˈfil/ |
-| Photo de profil | ![Foto profil](audio/id_male_60a2b912ce94.mp3) | PP | /fo.to pro.ˈfil/ |
-| Abonné/Follower | ![Pengikut](audio/id_male_630a3f87f571.mp3) | Followers | /pə.ŋi.ˈkut/ |
-| S'abonner | ![Mengikuti](audio/id_male_dd6ec0052ef6.mp3) | Follow | /fo.ˈlo/ |
-| Se désabonner | ![Berhenti mengikuti](audio/id_male_83091c6d4285.mp3) | Unfollow | /an.fo.ˈlo/ |
-| Publication | ![Postingan](audio/id_male_740a8eb3087c.mp3) | Post | /pos.tiŋ.ˈan/ |
-| Story | ![Cerita](audio/id_male_a9b3cd2a6345.mp3) | Story | /sto.ˈri/ |
+| Compte | ![Akun](audio/id_male_63a5ac44b2d1.mp3) | - | /a.kun/ |
+| Profil | ![Profil](audio/id_male_fd7a60d8c5bb.mp3) | - | /pro.fil/ |
+| Photo de profil | ![Foto profil](audio/id_male_60a2b912ce94.mp3) | PP | /fo.to pro.fil/ |
+| Abonné/Follower | ![Pengikut](audio/id_male_630a3f87f571.mp3) | Followers | /pə.ŋi.kut/ |
+| S'abonner | ![Mengikuti](audio/id_male_dd6ec0052ef6.mp3) | Follow | /fo.lo/ |
+| Se désabonner | ![Berhenti mengikuti](audio/id_male_83091c6d4285.mp3) | Unfollow | /an.fo.lo/ |
+| Publication | ![Postingan](audio/id_male_740a8eb3087c.mp3) | Post | /pos.tiŋ.an/ |
+| Story | ![Cerita](audio/id_male_a9b3cd2a6345.mp3) | Story | /sto.ri/ |
 | J'aime | ![Suka](audio/id_male_0f327d906b18.mp3) | Like | /laik/ |
-| Commentaire | ![Komentar](audio/id_male_7e9665cea341.mp3) | Komen | /ko.mən.ˈtar/ |
+| Commentaire | ![Komentar](audio/id_male_7e9665cea341.mp3) | Komen | /ko.mən.tar/ |
 | Partager | ![Membagikan](audio/id_male_eaeba3ce14bf.mp3) | Share | /ʃɛr/ |
-| Republier | ![Membagikan ulang](audio/id_male_d21718edfc7c.mp3) | Repost | /ri.ˈpost/ |
+| Republier | ![Membagikan ulang](audio/id_male_d21718edfc7c.mp3) | Repost | /ri.post/ |
 | Message privé | ![Pesan pribadi](audio/id_male_600e851c2168.mp3) | DM | /di ɛm/ |
-| Hashtag | ![Tagar](audio/id_male_8044e3c85e67.mp3) | Hashtag | /hɛʃ.ˈtɛg/ |
-| Tendance | ![Tren](audio/id_male_6db9c6b0d327.mp3) | Trending | /trɛn.ˈdiŋ/ |
-| Viral | ![Viral](audio/id_male_45c3a0cf7b8a.mp3) | Viral | /vi.ˈral/ |
+| Hashtag | ![Tagar](audio/id_male_8044e3c85e67.mp3) | Hashtag | /hɛʃ.tɛg/ |
+| Tendance | ![Tren](audio/id_male_6db9c6b0d327.mp3) | Trending | /trɛn.diŋ/ |
+| Viral | ![Viral](audio/id_male_45c3a0cf7b8a.mp3) | Viral | /vi.ral/ |
 | En direct | ![Siaran langsung](audio/id_male_78e028346684.mp3) | Live | /laiv/ |
-| Filtre | ![Filter](audio/id_male_badddc4cffe8.mp3) | - | /fil.ˈtər/ |
+| Filtre | ![Filter](audio/id_male_badddc4cffe8.mp3) | - | /fil.tər/ |
 
 ### Argot des Réseaux Sociaux
 
@@ -153,7 +159,7 @@ date: "2026-02-04"
 | **Selebgram** | Célébrité Instagram |
 | **Endorse** | Sponsoring / Publicité payée |
 | **FYP** | For You Page (TikTok) |
-| **Kepo** | Curieux (de l'anglais "kaypoh") |
+| **Kepo** | Curieux (du hokkien *kaypoh*) |
 | **Stalking** | Espionner le profil de quelqu'un |
 | **Ghosting** | Ignorer quelqu'un |
 | **Flexing** | Se vanter / Montrer sa richesse |
@@ -334,3 +340,27 @@ date: "2026-02-04"
 - ***Lowbat** nih* = Plus de batterie
 - *Kena **hack*** = S'être fait pirater
 - ***Update** dulu* = Mets à jour d'abord
+
+## À retenir
+
+- Beaucoup de termes sont anglais, prononcés à l'indonésienne ; l'État promeut des équivalents (*unduh*, *unggah*, *daring*, *luring*).
+- *HP* (« hapé ») = le téléphone portable.
+- *Daring* (*dalam jaringan*) = en ligne ; *luring* (*luar jaringan*) = hors ligne.
+- *Lemot* (lent), *lowbat* (batterie faible), *wkwk* (rire) : l'argot de tous les jours.
+
+## Questions de révision
+
+> [!quiz] Comment appelle-t-on couramment le téléphone portable ?
+> *HP* (prononcé « hapé », de *handphone*).
+
+> [!quiz] Que signifient *daring* et *luring* ?
+> En ligne (*dalam jaringan*) et hors ligne (*luar jaringan*).
+
+> [!quiz] Quels mots officiels remplacent *download* et *upload* ?
+> *Mengunduh* et *mengunggah*.
+
+> [!quiz] Que veut dire *wkwk* dans un message ?
+> C'est un rire, l'équivalent de « mdr » ou « hahaha ».
+
+> [!quiz] Que signifie *HP-ku lemot* ?
+> « Mon téléphone est lent ».

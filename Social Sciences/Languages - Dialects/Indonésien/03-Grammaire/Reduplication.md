@@ -4,12 +4,17 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Indonésien > 03-Grammaire"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
-prerequis: ["[[Affixes]]"]
+prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/03-Grammaire/Affixes]]"]
 ---
 
 # Reduplication (Kata Ulang)
 
 > La reduplication (répétition d'un mot) est une caractéristique importante de l'indonésien. Elle peut modifier le sens de manière subtile.
+
+> [!tip] Dans cette fiche
+> - Comprendre les sens de la reduplication : pluriel, variété, intensité, répétition, manière.
+> - Reconnaître les mots qui n'existent que redoublés et ceux dont le sens change.
+> - Lire la notation abrégée « 2 » des messages.
 
 ## Types de Reduplication
 
@@ -17,7 +22,7 @@ prerequis: ["[[Affixes]]"]
 | :--: | :---------: | :-----: |
 | **Totale** | Mot entier répété | *anak-anak* (enfants) |
 | **Partielle** | Partie du mot répétée | *lelaki* (homme) |
-| **Avec variation** | Changement de voyelle | *sayur-mayur* (légumes variés) |
+| **Avec variation** | Changement d'un son (voyelle ou consonne) | *sayur-mayur* (légumes variés) |
 | **Avec affixe** | Avec préfixe/suffixe | *bermain-main* (jouer sans but) |
 
 
@@ -48,7 +53,7 @@ Indique "toutes sortes de" ou "divers".
 | *buah* | **buah-buahan** | fruits (variés) |
 | *sayur* | **sayur-sayuran** | légumes (variés) |
 | *daun* | **daun-daunan** | feuillages |
-| *binatang* | **binatang-binatangan** | animaux (de toutes sortes) |
+| *biji* | **biji-bijian** | céréales, graines (de toutes sortes) |
 
 ### 3. Intensification / Emphase
 
@@ -83,15 +88,15 @@ Indique une action répétée ou continue.
 - *Aku mau **jalan-jalan*** = Je veux me promener
 - *Jangan **main-main**!* = Ne plaisante pas ! / Sois sérieux !
 
-### 5. Atténuation / Approximation
+### 5. Manière et moment
 
-Adoucit le sens ou indique "à peu près".
+Un adjectif redoublé devient souvent un adverbe de manière ; un moment de la journée redoublé insiste sur « très tôt » ou « très tard ».
 
 | Base | Reduplication | Français |
 | :--: | :-----------: | :------: |
 | *pelan* | **pelan-pelan** | doucement |
 | *lambat* | **lambat-lambat** | lentement |
-| *cepat* | **cepat-cepat** | rapidement |
+| *cepat* | **cepat-cepat** | en vitesse, à la hâte |
 | *sedikit* | **sedikit-sedikit** | petit à petit |
 | *pagi* | **pagi-pagi** | tôt le matin |
 | *malam* | **malam-malam** | tard le soir |
@@ -111,17 +116,16 @@ Seule une partie du mot est répétée, généralement la première syllabe.
 | **lelaki** | *laki* (homme) | homme |
 | **tetamu** | *tamu* (invité) | invités |
 | **sesama** | *sama* (même) | semblable / entre |
-| **tetangga** | *tangga* (escalier/voisin) | voisin |
 | **pepohonan** | *pohon* (arbre) | végétation/arbres |
 
 
-## Reduplication avec Variation Vocalique
+## Reduplication avec Variation
 
-Le mot est répété avec un changement de voyelle, souvent pour indiquer la diversité.
+Le mot est répété en changeant une voyelle ou une consonne, souvent pour indiquer la diversité ou le mouvement de va-et-vient.
 
 | Reduplication | Français | Note |
 | :-----------: | :------: | :--: |
-| **sayur-mayur** | légumes variés | a → a, puis ay |
+| **sayur-mayur** | légumes variés | s → m |
 | **ramah-tamah** | convivialité | r → t |
 | **lauk-pauk** | plats d'accompagnement | l → p |
 | **serba-serbi** | toutes sortes de | a → i |
@@ -179,11 +183,9 @@ Certains mots n'existent qu'en forme redupliquée :
 | **cumi-cumi** | calmar | |
 | **undur-undur** | fourmi-lion | |
 | **sia-sia** | en vain | |
-| **hati-hati** | prudent / attention | |
-| **tiba-tiba** | soudainement | |
-| **kira-kira** | environ | |
-| **rata-rata** | en moyenne | |
 | **cita-cita** | rêve / aspiration | |
+
+D'autres mots redoublés ont une forme simple qui existe mais signifie autre chose : *hati-hati* (attention ; *hati* = foie, cœur), *tiba-tiba* (soudain ; *tiba* = arriver), *kira-kira* (environ ; *kira* = supposer), *rata-rata* (en moyenne ; *rata* = plat).
 
 
 ## Sens Différent avec Reduplication
@@ -196,7 +198,7 @@ Parfois, la reduplication change complètement le sens :
 | *orang* | personne | **orang-orangan** | épouvantail |
 | *langit* | ciel | **langit-langit** | plafond |
 | *kaki* | pied | **kaki-kaki** | pieds (de meuble) |
-| *api* | feu | **api-api** | luciole |
+| *kuda* | cheval | **kuda-kuda** | chevalet ; position de garde (arts martiaux) |
 | *anak* | enfant | **anak-anakan** | poupée |
 
 
@@ -243,6 +245,14 @@ Dans les textos et l'écriture informelle, on utilise souvent **2** pour la redu
 | Atténuation | *pelan-pelan* | doucement |
 | Jouet/Imitation | *mobil-mobilan* | petite voiture |
 | Sens différent | *mata-mata* | espion |
+
+## À retenir
+
+- Le redoublement marque le pluriel (*anak-anak*), mais seulement quand c'est utile.
+- Avec -an, il exprime la variété (*buah-buahan*) ou le jouet (*mobil-mobilan*).
+- Sur un verbe, il indique une action répétée ou sans but précis (*jalan-jalan*).
+- Certains mots n'existent que redoublés (*kupu-kupu*), d'autres changent de sens (*mata-mata* = espion).
+- À l'écrit familier, *anak2* = *anak-anak*.
 
 ## Questions de révision
 

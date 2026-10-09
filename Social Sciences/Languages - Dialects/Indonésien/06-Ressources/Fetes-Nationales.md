@@ -4,18 +4,31 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Indonésien > 06-Ressources"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
+prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/06-Ressources/Histoire]]"]
 ---
 
 # Fêtes et Jours Fériés en Indonésie (Hari Libur Nasional)
+
+L'Indonésie reconnaît six religions officielles : le calendrier des jours fériés en reflète la diversité. Plusieurs dates (fêtes musulmanes, Nyepi, Vesak, Nouvel An chinois) suivent un calendrier lunaire et changent chaque année.
+
+> [!tip] Dans cette fiche
+> - Connaître les jours fériés nationaux et religieux.
+> - Comprendre les grandes traditions : *Lebaran* et le *mudik*, *Nyepi*, *Imlek*.
+> - Formuler les vœux de chaque fête.
 
 ## Fêtes Nationales
 
 | Date | Nom | Indonésien | Description |
 | :--: | :-: | :--------: | :---------: |
 | 1er Janvier | Nouvel An | ![Tahun Baru Masehi](audio/id_male_8fe2e351e8eb.mp3) | Célébration du Nouvel An |
-| 17 Août | Jour de l'Indépendance | ![Hari Kemerdekaan](audio/id_male_94e80b71bfde.mp3) | Indépendance de l'Indonésie (1945) |
-| 1er Juin | Jour du Pancasila | ![Hari Lahir Pancasila](audio/id_male_477978c98640.mp3) | Naissance de l'idéologie nationale |
 | 1er Mai | Fête du Travail | ![Hari Buruh](audio/id_male_06f4528618f6.mp3) | Journée internationale des travailleurs |
+| 1er Juin | Jour du Pancasila | ![Hari Lahir Pancasila](audio/id_male_477978c98640.mp3) | Naissance de l'idéologie nationale |
+| 17 Août | Jour de l'Indépendance | ![Hari Kemerdekaan](audio/id_male_94e80b71bfde.mp3) | Indépendance de l'Indonésie (1945) |
+
+### Journées commémoratives (non chômées)
+
+| Date | Nom | Indonésien | Description |
+| :--: | :-: | :--------: | :---------: |
 | 20 Mai | Jour de l'Éveil National | ![Hari Kebangkitan Nasional](audio/id_male_1abfed614dd9.mp3) | Commémoration du mouvement national |
 | 10 Novembre | Jour des Héros | ![Hari Pahlawan](audio/id_male_9bf4f5a5160a.mp3) | Hommage aux héros indonésiens |
 
@@ -93,14 +106,38 @@ Jour du silence complet :
 
 | Français | Indonésien | Prononciation |
 | :------: | :--------: | :-----------: |
-| Fête | ![Hari raya](audio/id_male_502545740fdc.mp3) | /ha.ri ra.ˈja/ |
-| Jour férié | ![Hari libur](audio/id_male_306d258bf3b7.mp3) | /ha.ri li.ˈbur/ |
-| Vacances | ![Liburan](audio/id_male_f0f72edbbf10.mp3) | /li.bu.ˈran/ |
-| Cérémonie | ![Upacara](audio/id_male_a57eaa9263d8.mp3) | /u.pa.t͡ʃa.ˈra/ |
-| Tradition | ![Tradisi](audio/id_male_86d908f9f8f5.mp3) | /tra.di.ˈsi/ |
-| Prière | ![Doa](audio/id_male_fdca3e258dcf.mp3) / ![Sholat](audio/id_male_26d73c275d10.mp3) | /do.ˈa/ |
-| Jeûne | ![Puasa](audio/id_male_eb1cdd325666.mp3) | /pu.a.ˈsa/ |
-| Ramadan | ![Ramadan](audio/id_male_12591f545834.mp3) / ![Bulan Puasa](audio/id_male_7ff3203a4b56.mp3) | /ra.ma.ˈdan/ |
-| Temple | ![Pura](audio/id_male_09a41bb21114.mp3) / ![Vihara](audio/id_male_039bccb12a98.mp3) | /pu.ˈra/ |
-| Mosquée | ![Masjid](audio/id_male_2f814766dd1b.mp3) | /mas.ˈdʒid/ |
-| Église | ![Gereja](audio/id_male_7d2983c84afe.mp3) | /gə.rə.ˈdʒa/ |
+| Fête | ![Hari raya](audio/id_male_502545740fdc.mp3) | /ha.ri ra.ja/ |
+| Jour férié | ![Hari libur](audio/id_male_306d258bf3b7.mp3) | /ha.ri li.bur/ |
+| Vacances | ![Liburan](audio/id_male_f0f72edbbf10.mp3) | /li.bu.ran/ |
+| Cérémonie | ![Upacara](audio/id_male_a57eaa9263d8.mp3) | /u.pa.t͡ʃa.ra/ |
+| Tradition | ![Tradisi](audio/id_male_86d908f9f8f5.mp3) | /tra.di.si/ |
+| Prière | ![Doa](audio/id_male_fdca3e258dcf.mp3) / ![Sholat](audio/id_male_26d73c275d10.mp3) | /do.a/ |
+| Jeûne | ![Puasa](audio/id_male_eb1cdd325666.mp3) | /pu.a.sa/ |
+| Ramadan | ![Ramadan](audio/id_male_12591f545834.mp3) / ![Bulan Puasa](audio/id_male_7ff3203a4b56.mp3) | /ra.ma.dan/ |
+| Temple | ![Pura](audio/id_male_09a41bb21114.mp3) / ![Vihara](audio/id_male_039bccb12a98.mp3) | /pu.ra/ |
+| Mosquée | ![Masjid](audio/id_male_2f814766dd1b.mp3) | /mas.dʒid/ |
+| Église | ![Gereja](audio/id_male_7d2983c84afe.mp3) | /gə.rə.dʒa/ |
+
+## À retenir
+
+- Les fêtes suivent plusieurs calendriers : grégorien, hégirien (lunaire), balinais, chinois.
+- *Idul Fitri* (*Lebaran*) est la plus grande fête : on rentre au village (*mudik*) et on demande pardon (*mohon maaf lahir dan batin*).
+- *Nyepi*, le Nouvel An balinais, est un jour de silence total : même l'aéroport de Bali ferme.
+- Le 17 août, fête de l'indépendance, on crie *Merdeka!* et on souhaite *Dirgahayu Indonesia!*
+
+## Questions de révision
+
+> [!quiz] Quelle est la plus grande fête d'Indonésie ?
+> *Idul Fitri*, appelée *Lebaran*, à la fin du ramadan.
+
+> [!quiz] Qu'est-ce que le *mudik* ?
+> Le grand retour au village natal pour fêter Lebaran en famille.
+
+> [!quiz] Que dit-on pour demander pardon à Lebaran ?
+> *Mohon maaf lahir dan batin* (« pardon pour mes fautes visibles et cachées »).
+
+> [!quiz] Qu'a de particulier le *Nyepi* à Bali ?
+> C'est un jour de silence complet : ni travail, ni lumière, ni sortie, et l'aéroport est fermé.
+
+> [!quiz] Quand fête-t-on l'indépendance, et depuis quelle année ?
+> Le 17 août, en souvenir de la proclamation de 1945.
