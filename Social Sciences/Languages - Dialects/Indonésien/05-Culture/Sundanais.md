@@ -1,14 +1,19 @@
 ---
 title: "Sundanais (Bahasa Sunda)"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Indonésien > 05-Regional"
+subdomain: "Languages - Dialects > Indonésien > 05-Culture"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
+prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/05-Culture/Javanais]]"]
 ---
 
 # Sundanais (Bahasa Sunda)
 
 > Le sundanais est la deuxième langue régionale la plus parlée en Indonésie avec environ 40 millions de locuteurs, principalement à Java Ouest (Bandung, Bogor, etc.).
+
+> [!tip] Dans cette fiche
+> - Connaître le sundanais, deuxième langue régionale d'Indonésie, parlée à Java Ouest.
+> - Reconnaître les salutations, les mots de base et les particules typiques (*mah*, *téh*, *atuh*).
 
 ## Appellations
 
@@ -28,9 +33,9 @@ Comme le javanais, le sundanais a des niveaux de politesse :
 
 | Niveau | Nom | Usage |
 | :----: | :-: | :---: |
-| **Kasar** | Bas | Entre amis proches |
-| **Sedeng** | Moyen | Usage courant |
-| **Lemes** | Poli/Haut | Avec les aînés, formel |
+| **Kasar** | Grossier | À éviter, sauf entre amis très proches |
+| **Loma** | Familier | Entre égaux, en famille |
+| **Lemes** | Poli | Avec les aînés, les inconnus, en situation formelle |
 
 ## Vocabulaire Courant
 
@@ -129,7 +134,7 @@ Comme le javanais, le sundanais a des niveaux de politesse :
 ## Influence du Sundanais sur l'Indonésien
 
 Certains mots sundanais sont utilisés dans tout l'archipel :
-- **Atuh** (alors/donc) - très courant à Java
+- **Atuh** (alors/donc) - très courant à Java Ouest
 - **Mah** (particule d'emphase)
 - **Téh** (particule)
 
@@ -137,5 +142,29 @@ Certains mots sundanais sont utilisés dans tout l'archipel :
 
 - À Bandung et Java Ouest, on entend souvent un mélange d'indonésien et de sundanais
 - Les Sundanais sont réputés pour leur politesse et l'usage des niveaux de langage
-- La musique **Dangdut Sunda** et le **Jaipong** sont des expressions culturelles importantes
+- La danse **jaipongan** et la musique **degung** sont des expressions culturelles importantes
 - **Angklung** est un instrument de musique traditionnel sundanais (inscrit à l'UNESCO)
+
+## À retenir
+
+- Le sundanais compte environ 40 millions de locuteurs, autour de Bandung et Bogor.
+- Comme le javanais, il a des niveaux de langue : *loma* (familier) et *lemes* (poli).
+- *Punten* (excusez-moi), *hatur nuhun* (merci), *mangga* (je vous en prie) s'entendent partout à Java Ouest.
+- Les particules *mah*, *téh* et *atuh* colorent l'indonésien parlé des Sundanais.
+
+## Questions de révision
+
+> [!quiz] Où parle-t-on sundanais ?
+> À Java Ouest (Bandung, Bogor), par environ 40 millions de personnes.
+
+> [!quiz] Comment dit-on « merci » en sundanais ?
+> *Hatur nuhun* (poli), *nuhun* (courant).
+
+> [!quiz] Que répond-on à la salutation *Sampurasun* ?
+> *Rampes*.
+
+> [!quiz] Que signifie *punten* ?
+> « Excusez-moi », pour passer ou s'annoncer, comme *permisi*.
+
+> [!quiz] Quel instrument sundanais est inscrit à l'UNESCO ?
+> L'*angklung*, fait de tubes de bambou.

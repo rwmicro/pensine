@@ -4,11 +4,17 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Indonésien > 04-Vocabulaire > Themes"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
+prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/Themes/Medical]]"]
 ---
 
 # Émotions et Sentiments (Emosi dan Perasaan)
 
 > Les émotions en indonésien s'expriment souvent de manière indirecte ou atténuée par politesse.
+
+> [!tip] Dans cette fiche
+> - Dire comment on se sent, en standard et en familier.
+> - Consoler, rassurer, encourager.
+> - Comprendre les expressions imagées construites sur *hati* (le cœur).
 
 ## Émotions Positives (Emosi Positif)
 
@@ -16,16 +22,16 @@ date: "2026-02-04"
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Heureux | ![Bahagia](audio/id_male_633f8471cee4.mp3) | Happy | /ba.ha.gi.ˈa/ |
-| Content | ![Senang](audio/id_male_548ed9072fe3.mp3) | Seneng | /sə.ˈnaŋ/ |
-| Joyeux | ![Gembira](audio/id_male_ab8b81a566d2.mp3) | Gembira | /gəm.bi.ˈra/ |
-| Ravi | ![Girang](audio/id_male_793a59e30525.mp3) | - | /gi.ˈraŋ/ |
-| Satisfait | ![Puas](audio/id_male_7fc02f7402ab.mp3) | - | /pu.ˈas/ |
-| Excité | ![Bersemangat](audio/id_male_6ea99de9982a.mp3) | Semangat | /sə.ma.ˈŋat/ |
-| Enthousiaste | ![Antusias](audio/id_male_8d0c32a9740b.mp3) | - | /an.tu.si.ˈas/ |
-| Reconnaissant | ![Bersyukur](audio/id_male_cecbda0b6f70.mp3) | - | /bər.sju.ˈkur/ |
-| Soulagé | ![Lega](audio/id_male_46281f64df67.mp3) | Lega | /lə.ˈga/ |
-| Fier | ![Bangga](audio/id_male_1f9145c8d31c.mp3) | Bangga | /baŋ.ˈga/ |
+| Heureux | ![Bahagia](audio/id_male_633f8471cee4.mp3) | Happy | /ba.ha.gi.a/ |
+| Content | ![Senang](audio/id_male_548ed9072fe3.mp3) | Seneng | /sə.naŋ/ |
+| Joyeux | ![Gembira](audio/id_male_ab8b81a566d2.mp3) | Gembira | /gəm.bi.ra/ |
+| Ravi | ![Girang](audio/id_male_793a59e30525.mp3) | - | /gi.raŋ/ |
+| Satisfait | ![Puas](audio/id_male_7fc02f7402ab.mp3) | - | /pu.as/ |
+| Excité | ![Bersemangat](audio/id_male_6ea99de9982a.mp3) | Semangat | /sə.ma.ŋat/ |
+| Enthousiaste | ![Antusias](audio/id_male_8d0c32a9740b.mp3) | - | /an.tu.si.as/ |
+| Reconnaissant | ![Bersyukur](audio/id_male_cecbda0b6f70.mp3) | - | /bər.sju.kur/ |
+| Soulagé | ![Lega](audio/id_male_46281f64df67.mp3) | Lega | /lə.ga/ |
+| Fier | ![Bangga](audio/id_male_1f9145c8d31c.mp3) | Bangga | /baŋ.ga/ |
 
 **Exemples :**
 - *Aku **senang** ketemu kamu* = Je suis content de te voir
@@ -36,12 +42,12 @@ date: "2026-02-04"
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Aimer (amour) | ![Mencintai](audio/id_male_d7c8f04a7dbc.mp3) | Cinta | /t͡ʃin.ˈta/ |
-| Aimer (affection) | ![Menyayangi](audio/id_male_e02eb4e4764b.mp3) | Sayang | /sa.ˈjaŋ/ |
-| Aimer (apprécier) | ![Menyukai](audio/id_male_eddcaa514c97.mp3) | Suka | /su.ˈka/ |
-| Être amoureux | ![Jatuh cinta](audio/id_male_461dd2e95872.mp3) | - | /dʒa.tuh t͡ʃin.ˈta/ |
-| Manquer (qqn) | ![Merindukan](audio/id_male_a0361512db9b.mp3) | Kangen | /ka.ˈŋən/ |
-| Attaché | ![Sayang](audio/id_male_c2a0cb7b77a1.mp3) | - | /sa.ˈjaŋ/ |
+| Aimer (amour) | ![Mencintai](audio/id_male_d7c8f04a7dbc.mp3) | Cinta | /t͡ʃin.ta/ |
+| Aimer (affection) | ![Menyayangi](audio/id_male_e02eb4e4764b.mp3) | Sayang | /sa.jaŋ/ |
+| Aimer (apprécier) | ![Menyukai](audio/id_male_eddcaa514c97.mp3) | Suka | /su.ka/ |
+| Être amoureux | ![Jatuh cinta](audio/id_male_461dd2e95872.mp3) | - | /dʒa.tuh t͡ʃin.ta/ |
+| Manquer (qqn) | ![Merindukan](audio/id_male_a0361512db9b.mp3) | Kangen | /ka.ŋən/ |
+| Attaché | ![Sayang](audio/id_male_c2a0cb7b77a1.mp3) | - | /sa.jaŋ/ |
 
 **Exemples :**
 - *Aku **cinta** kamu* = Je t'aime
@@ -70,14 +76,14 @@ date: "2026-02-04"
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Triste | ![Sedih](audio/id_male_d65fe4e75d93.mp3) | Sedih | /sə.ˈdih/ |
+| Triste | ![Sedih](audio/id_male_d65fe4e75d93.mp3) | Sedih | /sə.dih/ |
 | Malheureux | ![Tidak bahagia](audio/id_male_7d4674d67706.mp3) | - | - |
-| Déprimé | ![Depresi](audio/id_male_8702c90a3e7d.mp3) | - | /də.prə.ˈsi/ |
-| Désespéré | ![Putus asa](audio/id_male_9113c3898100.mp3) | - | /pu.tus a.ˈsa/ |
-| Seul | ![Kesepian](audio/id_male_9cddb238e57b.mp3) | - | /kə.sə.pi.ˈan/ |
-| Nostalgique | ![Kangen](audio/id_male_95b97b45f4d8.mp3) | - | /ka.ˈŋən/ |
-| Déçu | ![Kecewa](audio/id_male_453c40041634.mp3) | - | /kə.t͡ʃɛ.ˈwa/ |
-| Blessé | ![Terluka](audio/id_male_e99bc28ecb78.mp3) | Sakit hati | /tər.lu.ˈka/ |
+| Déprimé | ![Depresi](audio/id_male_8702c90a3e7d.mp3) | - | /də.prə.si/ |
+| Désespéré | ![Putus asa](audio/id_male_9113c3898100.mp3) | - | /pu.tus a.sa/ |
+| Seul | ![Kesepian](audio/id_male_9cddb238e57b.mp3) | - | /kə.sə.pi.an/ |
+| Nostalgique | ![Kangen](audio/id_male_95b97b45f4d8.mp3) | - | /ka.ŋən/ |
+| Déçu | ![Kecewa](audio/id_male_453c40041634.mp3) | - | /kə.t͡ʃɛ.wa/ |
+| Blessé | ![Terluka](audio/id_male_e99bc28ecb78.mp3) | Sakit hati | /tər.lu.ka/ |
 
 **Exemples :**
 - *Aku **sedih** banget* = Je suis très triste
@@ -88,12 +94,12 @@ date: "2026-02-04"
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| En colère | ![Marah](audio/id_male_a566f01c53ea.mp3) | Ngamuk | /ma.ˈrah/ |
-| Furieux | ![Murka](audio/id_male_8be66a7224fd.mp3) | - | /mur.ˈka/ |
-| Énervé | ![Kesal](audio/id_male_41b9f3077d83.mp3) | Kesel / Sebel | /kə.ˈsal/ |
-| Irrité | ![Jengkel](audio/id_male_071a44d59c7e.mp3) | - | /dʒəŋ.ˈkəl/ |
-| Frustré | ![Frustrasi](audio/id_male_567c7ae4e488.mp3) | - | /frus.tra.ˈsi/ |
-| Agacé | ![Sebal](audio/id_male_eef8f1f0ae3e.mp3) | Sebel | /sə.ˈbal/ |
+| En colère | ![Marah](audio/id_male_a566f01c53ea.mp3) | Ngamuk | /ma.rah/ |
+| Furieux (littéraire) | ![Murka](audio/id_male_8be66a7224fd.mp3) | - | /mur.ka/ |
+| Énervé | ![Kesal](audio/id_male_41b9f3077d83.mp3) | Kesel / Sebel | /kə.sal/ |
+| Irrité | ![Jengkel](audio/id_male_071a44d59c7e.mp3) | - | /dʒəŋ.kəl/ |
+| Frustré | ![Frustrasi](audio/id_male_567c7ae4e488.mp3) | - | /frus.tra.si/ |
+| Agacé | ![Sebal](audio/id_male_eef8f1f0ae3e.mp3) | Sebel | /sə.bal/ |
 
 **Exemples :**
 - *Dia lagi **marah*** = Il/Elle est en colère
@@ -105,10 +111,10 @@ date: "2026-02-04"
 | Terme | Signification |
 | :---: | :-----------: |
 | **Emosi** | Énervé (abrégé de "emosional") |
-| **Bete** | De mauvaise humeur (de "BT" = bad temper) |
+| **Bete** | De mauvaise humeur (de « BT », souvent expliqué par *bad temper*) |
 | **Dongkol** | Très énervé |
 | **Geram** | Furieux |
-| **Gondok** | Frustré/Énervé (vulgaire) |
+| **Gondok** | Frustré, contrarié (familier) |
 | **Ngambek** | Bouder |
 | **Sewot** | Irrité |
 | **Naik darah** | Monter en pression |
@@ -118,14 +124,14 @@ date: "2026-02-04"
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Peur | ![Takut](audio/id_male_3f8556bd33c0.mp3) | Takut | /ta.ˈkut/ |
-| Effrayé | ![Ketakutan](audio/id_male_00b3304c7452.mp3) | - | /kə.ta.ku.ˈtan/ |
+| Peur | ![Takut](audio/id_male_3f8556bd33c0.mp3) | Takut | /ta.kut/ |
+| Effrayé | ![Ketakutan](audio/id_male_00b3304c7452.mp3) | - | /kə.ta.ku.tan/ |
 | Terrifié | ![Sangat takut](audio/id_male_32923315532b.mp3) | Takut banget | - |
-| Anxieux | ![Cemas](audio/id_male_e2640d3098c9.mp3) | Cemas | /t͡ʃə.ˈmas/ |
-| Inquiet | ![Khawatir](audio/id_male_a080a1c7868d.mp3) | Khawatir | /xa.wa.ˈtir/ |
-| Nerveux | ![Gugup](audio/id_male_3b01bc99245d.mp3) | Grogi | /gu.ˈgup/ |
+| Anxieux | ![Cemas](audio/id_male_e2640d3098c9.mp3) | Cemas | /t͡ʃə.mas/ |
+| Inquiet | ![Khawatir](audio/id_male_a080a1c7868d.mp3) | Khawatir | /xa.wa.tir/ |
+| Nerveux | ![Gugup](audio/id_male_3b01bc99245d.mp3) | Grogi | /gu.gup/ |
 | Stressé | ![Stres](audio/id_male_4016516752f9.mp3) | Stres | /strɛs/ |
-| Paniqué | ![Panik](audio/id_male_b173d1a4ef2a.mp3) | Panik | /pa.ˈnik/ |
+| Paniqué | ![Panik](audio/id_male_b173d1a4ef2a.mp3) | Panik | /pa.nik/ |
 
 **Exemples :**
 - *Aku **takut** gelap* = J'ai peur du noir
@@ -150,11 +156,11 @@ date: "2026-02-04"
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Fatigué | ![Lelah](audio/id_male_2b9fb76a4363.mp3) | Capek | /t͡ʃa.ˈpɛk/ |
-| Épuisé | ![Kelelahan](audio/id_male_defbc3742f6d.mp3) | Capek banget | /kə.lə.la.ˈhan/ |
-| Ennuyé | ![Bosan](audio/id_male_668590688201.mp3) | Bosen | /bo.ˈsan/ |
-| Paresseux | ![Malas](audio/id_male_32619814f779.mp3) | Males | /ma.ˈlas/ |
-| Somnolent | ![Mengantuk](audio/id_male_048788cdc686.mp3) | Ngantuk | /ŋan.ˈtuk/ |
+| Fatigué | ![Lelah](audio/id_male_2b9fb76a4363.mp3) | Capek | /t͡ʃa.pɛk/ |
+| Épuisé | ![Kelelahan](audio/id_male_defbc3742f6d.mp3) | Capek banget | /kə.lə.la.han/ |
+| Ennuyé | ![Bosan](audio/id_male_668590688201.mp3) | Bosen | /bo.san/ |
+| Paresseux | ![Malas](audio/id_male_32619814f779.mp3) | Males | /ma.las/ |
+| Somnolent | ![Mengantuk](audio/id_male_048788cdc686.mp3) | Ngantuk | /ŋan.tuk/ |
 
 **Argot :**
 | Terme | Signification |
@@ -170,11 +176,11 @@ date: "2026-02-04"
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Surpris | ![Terkejut](audio/id_male_a1cbadbb926e.mp3) | Kaget | /ka.ˈgət/ |
+| Surpris | ![Terkejut](audio/id_male_a1cbadbb926e.mp3) | Kaget | /ka.gət/ |
 | Choqué | ![Syok](audio/id_male_df38c1bc7661.mp3) | Syok | /ʃok/ |
-| Confus | ![Bingung](audio/id_male_64851be253da.mp3) | Bingung | /bi.ˈŋuŋ/ |
-| Perplexe | ![Heran](audio/id_male_c93d1d32749b.mp3) | Heran | /hɛ.ˈran/ |
-| Étonné | ![Takjub](audio/id_male_658ac0ac0e5f.mp3) | - | /tak.ˈdʒub/ |
+| Confus | ![Bingung](audio/id_male_64851be253da.mp3) | Bingung | /bi.ŋuŋ/ |
+| Perplexe | ![Heran](audio/id_male_c93d1d32749b.mp3) | Heran | /hɛ.ran/ |
+| Étonné | ![Takjub](audio/id_male_658ac0ac0e5f.mp3) | - | /tak.dʒub/ |
 
 **Exemples :**
 - *Aku **kaget** banget!* = J'ai eu trop peur ! / Quelle surprise !
@@ -185,11 +191,11 @@ date: "2026-02-04"
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Honteux | ![Malu](audio/id_male_7153061b1b1a.mp3) | Malu | /ma.ˈlu/ |
-| Gêné | ![Canggung](audio/id_male_af2a6c2d94bb.mp3) | Awkward | /t͡ʃaŋ.ˈguŋ/ |
+| Honteux | ![Malu](audio/id_male_7153061b1b1a.mp3) | Malu | /ma.lu/ |
+| Gêné | ![Canggung](audio/id_male_af2a6c2d94bb.mp3) | Awkward | /t͡ʃaŋ.guŋ/ |
 | Embarrassé | ![Malu-malu](audio/id_male_3a6cb1c46110.mp3) | - | - |
 | Coupable | ![Merasa bersalah](audio/id_male_b87904f9fb01.mp3) | - | - |
-| Regret | ![Menyesal](audio/id_male_d98aef8b302b.mp3) | Nyesel | /ɲə.ˈsəl/ |
+| Regret | ![Menyesal](audio/id_male_d98aef8b302b.mp3) | Nyesel | /ɲə.səl/ |
 
 **Exemples :**
 - *Aku **malu** banget* = J'ai trop honte
@@ -200,9 +206,9 @@ date: "2026-02-04"
 
 | Français | Indonésien | Informel | Prononciation |
 | :------: | :--------: | :------: | :-----------: |
-| Jaloux | ![Cemburu](audio/id_male_e9bf6e4ac274.mp3) | Cembu | /t͡ʃəm.bu.ˈru/ |
-| Envieux | ![Iri](audio/id_male_1e17c5e43a22.mp3) | Iri | /i.ˈri/ |
-| Envie | ![Iri hati](audio/id_male_8a68cffe4f8b.mp3) | - | /i.ri ha.ˈti/ |
+| Jaloux | ![Cemburu](audio/id_male_e9bf6e4ac274.mp3) | - | /t͡ʃəm.bu.ru/ |
+| Envieux | ![Iri](audio/id_male_1e17c5e43a22.mp3) | Iri | /i.ri/ |
+| Envie | ![Iri hati](audio/id_male_8a68cffe4f8b.mp3) | - | /i.ri ha.ti/ |
 
 **Argot :**
 | Terme | Signification |
@@ -257,12 +263,12 @@ date: "2026-02-04"
 | **Sakit hati** | Cœur malade | Être blessé émotionnellement |
 | **Panas hati** | Cœur chaud | Jaloux / Envieux |
 | **Besar hati** | Grand cœur | Fier / Content |
-| **Kecil hati** | Petit cœur | Vexé / Offensé |
+| **Kecil hati** | Petit cœur | Découragé, se sentir rabaissé |
 | **Berat hati** | Cœur lourd | À contrecœur |
 | **Lapang dada** | Poitrine large | Accepter avec sérénité |
 | **Tulus hati** | Cœur sincère | Sincèrement |
-| **Naik pitam** | Monter en colère | S'emporter |
-| **Jatuh hati** | Tomber cœur | Tomber amoureux |
+| **Naik pitam** | Le vertige monte | S'emporter, voir rouge |
+| **Jatuh hati** | Le cœur tombe | Tomber amoureux |
 | **Hati-hati** | Cœur-cœur | Faire attention |
 
 
@@ -274,7 +280,7 @@ date: "2026-02-04"
 | Assez | Cukup | *Cukup senang* = Assez content |
 | Très | Sangat / Banget | *Senang banget* = Très content |
 | Trop | Terlalu | *Terlalu takut* = Trop peur |
-| Extrêmement | Sangat sangat | *Sangat sangat bahagia* |
+| Extrêmement | Amat sangat / Sekali | *Bahagia sekali* = Très heureux |
 
 ### Argot Intensificateurs
 
@@ -285,3 +291,27 @@ date: "2026-02-04"
 | **Pol** | À fond | *Capek pol* |
 | **Abis** | Complètement | *Bingung abis* |
 | **Bener-bener** | Vraiment | *Bener-bener marah* |
+
+## À retenir
+
+- *Senang* (content), *sedih* (triste), *marah* (en colère), *takut* (avoir peur), *capek* (fatigué).
+- *Cinta* est l'amour passion, *sayang* l'affection tendre ; *kangen* = « tu me manques ».
+- *Hati* (cœur) forme beaucoup d'expressions : *patah hati* (cœur brisé), *sakit hati* (blessé), *hati-hati* (attention).
+- *Semangat!* encourage, *Jangan sedih* console, *Gapapa* rassure.
+
+## Questions de révision
+
+> [!quiz] Quelle différence entre *aku cinta kamu* et *aku sayang kamu* ?
+> Les deux disent « je t'aime » : *cinta* est l'amour passion, *sayang* l'affection tendre (aussi pour la famille).
+
+> [!quiz] Comment dire « Tu me manques » de façon familière ?
+> *Aku kangen kamu* (ou *kangen banget* pour « beaucoup »).
+
+> [!quiz] Que signifie *patah hati* ?
+> Avoir le cœur brisé (litt. « cœur cassé »).
+
+> [!quiz] Que crie-t-on pour encourager quelqu'un ?
+> *Semangat!* (« Courage ! », « Allez ! »).
+
+> [!quiz] Que veut dire *kaget* ?
+> Surpris, avoir sursauté (familier ; formel *terkejut*).

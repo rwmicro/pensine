@@ -1,70 +1,84 @@
 ---
-title: "Present Tense in Indonesian"
+title: "Le présent en indonésien"
 domain: "Social Sciences"
-subdomain: "Languages - Dialects > Indonésien > 02-Grammaire > Temps-Verbaux"
-tags: [sciences-sociales, langues, indonésien]
+subdomain: "Languages - Dialects > Indonésien > 03-Grammaire > Temps-Verbaux"
+tags: [sciences-sociales, langues, indonésien, grammaire]
 date: "2026-02-04"
-prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/Verbes]]", "[[Structure-Phrase]]"]
+prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/Verbes]]"]
 ---
 
-# Present Tense in Indonesian
+# Le présent en indonésien
 
-Indonesian uses specific markers to indicate present continuous actions (ongoing actions happening now).
+Le verbe indonésien ne se conjugue pas : *makan* veut dire « manger », « je mange », « il mange », « nous avons mangé »… C'est le contexte, ou un petit mot placé devant le verbe, qui situe l'action dans le temps. Pour le présent, il suffit souvent de ne rien ajouter ; un marqueur sert seulement à insister sur l'action **en cours**.
 
-## 1. **Sedang** - Formal Present Continuous
-Used to describe actions occurring **at this very moment** (formal).
+> [!tip] Dans cette fiche
+> - Dire ce qu'on fait habituellement, sans marqueur.
+> - Dire ce qu'on est en train de faire avec *sedang* (formel) ou *lagi* (familier).
+> - Ne pas confondre *lagi* « en train de » et *lagi* « encore ».
 
-### Structure: Subject + sedang + root verb + object
+## 1. Sans marqueur : habitudes et vérités générales
 
-**Examples:**
-- **Saya sedang makan** = "I am eating"
-- **Dia sedang menonton film** = "He/She is watching a movie"
-- **Mereka sedang belajar** = "They are studying"
+Le verbe seul suffit pour une habitude, un fait général ou quand le contexte est clair.
 
-*Note: Use the root verb (without prefix or suffix) after "sedang"*
+- ![Saya makan nasi setiap hari.](audio/id_male_f59b173f6f64.mp3) = Je mange du riz tous les jours.
+- ![Dia bekerja di kantor.](audio/id_male_e6598ecffd57.mp3) = Il travaille dans un bureau.
+- ![Air mendidih pada suhu seratus derajat.](audio/id_male_1086356e139e.mp3) = L'eau bout à 100 degrés.
 
-## 2. **Lagi** - Informal Present Continuous  
-Similar to "sedang" but more casual. Used for actions happening now or regularly.
+## 2. *Sedang* : l'action en cours (formel)
 
-### Structure: Subject + lagi + root verb + object
+**Structure : sujet + *sedang* + verbe**
 
-**Examples:**
-- **Saya lagi makan** = "I am eating (now)"
-- **Dia lagi belajar bahasa Indonesia** = "He/She is learning Indonesian (now)"
-- **Aku lagi kerja** = "I'm working (right now)"
+*Sedang* équivaut à « être en train de ». Le verbe garde sa forme normale : avec son préfixe en registre formel (*sedang membaca*), sans préfixe à l'oral (*lagi baca*).
 
-*Note: "Lagi" is more commonly used in everyday conversation*
+- ![Saya sedang makan.](audio/id_male_078d1b27d4ae.mp3) = Je suis en train de manger.
+- ![Dia sedang menonton film.](audio/id_male_1acb9b57e264.mp3) = Il regarde un film (en ce moment).
+- ![Mereka sedang belajar.](audio/id_male_1688848522a8.mp3) = Ils sont en train d'étudier.
 
-## 3. Simple Present (No Marker)
-For habitual actions or general truths, no time marker is needed.
+## 3. *Lagi* : l'action en cours (familier)
 
-**Examples:**
-- **Saya makan nasi setiap hari** = "I eat rice every day"
-- **Dia kerja di kantor** = "He/She works at the office"
-- **Air mendidih pada 100 derajat** = "Water boils at 100 degrees"
+**Structure : sujet + *lagi* + verbe**
 
-## Summary Comparison
+*Lagi* a exactement le sens de *sedang*, mais c'est le mot de la conversation. Il s'emploie aussi seul en réponse : *Lagi makan* = « (Je suis) en train de manger. »
 
-| Usage | Formal | Informal | When to Use |
-|-------|--------|----------|-------------|
-| **Ongoing action** | **sedang** | **lagi** | Action happening right now |
-| **Habitual action** | (no marker) | (no marker) | Regular/repeated actions |
+- ![Aku lagi kerja.](audio/id_male_fa07420fc041.mp3) = Je suis au travail, là.
+- ![Dia lagi belajar bahasa Indonesia.](audio/id_male_bbf1dc8fd800.mp3) = Il est en train d'apprendre l'indonésien.
+- ![Lagi ngapain?](audio/id_male_137915255f2e.mp3) = Tu fais quoi, là ?
 
-**Examples:**
-- **Sedang:** *Saya sedang membaca buku* = "I am reading a book (right now)"
-- **Lagi:** *Aku lagi baca buku* = "I'm reading a book (right now)"  
-- **Simple:** *Saya baca buku setiap malam* = "I read books every night"
+> [!warning] *Lagi* après le verbe
+> Placé **après** le verbe ou en fin de phrase, *lagi* veut dire « encore, de nouveau » : ![Makan lagi?](audio/id_male_cf5976408bb2.mp3) = « Tu manges encore ? ». C'est la position qui fait le sens.
+
+## 4. *Masih* : « encore, toujours »
+
+*Masih* indique qu'une action ou un état **continue** : ![Dia masih tidur.](audio/id_male_3b53284c0f4e.mp3) = Il dort encore. Sa négation est *sudah tidak* (« ne… plus ») : ![Saya sudah tidak merokok.](audio/id_male_8849c041adf6.mp3) = Je ne fume plus.
+
+## Résumé
+
+| Usage | Formel | Familier | Exemple |
+| :---: | :----: | :------: | :-----: |
+| Habitude, vérité générale | (rien) | (rien) | *Saya baca buku setiap malam* = Je lis tous les soirs |
+| Action en cours | *sedang* | *lagi* | *Saya sedang membaca* / *Aku lagi baca* = Je suis en train de lire |
+| Continuité | *masih* | *masih* | *Dia masih tidur* = Il dort encore |
+
+## À retenir
+
+- Le verbe ne change jamais de forme ; un verbe seul est souvent un présent.
+- **Sedang** (formel) et **lagi** (familier), placés **avant** le verbe, marquent l'action en cours.
+- *Lagi* **après** le verbe signifie « encore, de nouveau ».
+- **Masih** = « encore, toujours » ; **sudah tidak** = « ne… plus ».
 
 ## Questions de révision
 
-> [!quiz] Quel marqueur indique une action en cours, en registre formel puis informel ?
-> *Sedang* en formel, *lagi* en informel : *Saya sedang makan* / *Aku lagi kerja*.
+> [!quiz] Quel marqueur indique une action en cours, en registre formel puis familier ?
+> *Sedang* en formel, *lagi* en familier : *Saya sedang makan* / *Aku lagi makan*.
 
 > [!quiz] Faut-il un marqueur pour une habitude ou une vérité générale ?
 > Non : *Saya makan nasi setiap hari* (« Je mange du riz tous les jours »).
 
 > [!quiz] Traduisez : « Je suis en train de lire un livre » (formel).
-> *Saya sedang membaca buku*.
+> *Saya sedang membaca buku*. Le verbe garde son préfixe après *sedang*.
 
-> [!quiz] Lequel de *sedang* ou *lagi* entend-on le plus dans la conversation courante ?
-> *Lagi*, la forme familière.
+> [!quiz] Quelle différence entre *Lagi makan* et *Makan lagi* ?
+> *Lagi makan* = « en train de manger » ; *makan lagi* = « manger encore, de nouveau ».
+
+> [!quiz] Comment dire « Il dort encore » et « Je ne fume plus » ?
+> *Dia masih tidur* ; *Saya sudah tidak merokok*.

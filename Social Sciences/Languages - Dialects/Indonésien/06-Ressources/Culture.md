@@ -4,10 +4,17 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Indonésien > 06-Ressources"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
-prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/02-Communication/Registres]]"]
+prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/05-Culture/Pontianak]]"]
 ---
 
 # Culture Indonésienne (Budaya Indonesia)
+
+La langue indonésienne est imprégnée de valeurs sociales : respect de l'âge, recherche de l'harmonie, entraide. Les connaître aide à choisir les bons mots, et surtout à comprendre ce qui n'est pas dit.
+
+> [!tip] Dans cette fiche
+> - Comprendre les valeurs qui organisent la vie sociale : Pancasila, *gotong royong*, *rukun*.
+> - Connaître les grandes religions, arts et textiles de l'archipel.
+> - Éviter les impairs : main gauche, tête, index pointé.
 
 ## Valeurs Fondamentales
 
@@ -83,7 +90,7 @@ L'Indonésie reconnaît officiellement 6 religions :
 
 ## Célébrations Mortuaires - Toraja
 
-Dans la région de Sulawesi, la tribu des **Toraja** (~650 000 personnes, majoritairement chrétiens protestants) pratique des traditions funéraires uniques :
+Dans la région de Sulawesi, le peuple **toraja** (environ un million de personnes, majoritairement chrétiennes) pratique des traditions funéraires uniques :
 
 - **Rambu Solo** : Cérémonie funéraire élaborée
 - Les défunts sont gardés à la maison pendant des mois/années
@@ -97,7 +104,7 @@ Dans la région de Sulawesi, la tribu des **Toraja** (~650 000 personnes, majori
 | :-----: | :----: | :---------: |
 | **Batik** | Java | Tissu teint à la cire (UNESCO) |
 | **Ikat** | Diverses | Tissu aux motifs liés |
-| **Songket** | Sumatra/Bali | Tissu brodé de fils d'or |
+| **Songket** | Sumatra/Bali | Tissu broché de fils d'or ou d'argent |
 | **Tenun** | National | Tissu tissé |
 | **Ulos** | Sumatra Nord | Tissu Batak |
 
@@ -143,7 +150,7 @@ Dans la région de Sulawesi, la tribu des **Toraja** (~650 000 personnes, majori
 ### Styles Régionaux
 - **Padang** : Très épicé, rendang
 - **Java** : Sucré, gudeg
-- **Bali** : Base babi (porc)
+- **Bali** : porc (*babi guling*), rare ailleurs dans ce pays à majorité musulmane
 - **Manado** : Très épicé, rica-rica
 
 ## Expressions Culturelles
@@ -153,6 +160,13 @@ Dans la région de Sulawesi, la tribu des **Toraja** (~650 000 personnes, majori
 - **Cuci mata** = "Se laver les yeux" (regarder de belles choses)
 - **Anak bawang** = "Enfant oignon" (le plus jeune/nouveau)
 - **Buah bibir** = "Fruit des lèvres" (sujet de conversation)
+
+## À retenir
+
+- La Pancasila (cinq principes) et la devise *Bhinneka Tunggal Ika* (« l'unité dans la diversité ») fondent l'État.
+- Six religions sont reconnues ; l'islam est majoritaire (environ 87 %).
+- *Gotong royong* (entraide), *musyawarah* (délibération) et *mufakat* (consensus) guident les décisions collectives.
+- On donne et reçoit de la main droite, on ne touche pas la tête, on montre avec le pouce.
 
 ## Questions de révision
 
