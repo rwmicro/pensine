@@ -5,6 +5,7 @@ subdomain: "Sociology"
 tags: [sciences-sociales, sociologie, comte, durkheim, weber, méthode]
 date: "2026-04-18"
 parcours: "Sociologie : des fondateurs aux grandes thématiques"
+parcours-description: "Les fondateurs (Durkheim, Marx, Weber) et leurs concepts, les méthodes et l'interactionnisme, Bourdieu, puis la déviance, les classes et la mobilité sociales."
 ---
 
 # Fondements de la Sociologie

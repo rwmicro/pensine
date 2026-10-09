@@ -5,6 +5,7 @@ subdomain: "Languages - Dialects > Tamoul"
 tags: [sciences-sociales, langues]
 date: "2026-02-04"
 parcours: "Tamoul : des premiers mots à la culture"
+parcours-description: "L'alphabet tamoul, les salutations, la grammaire et la diglossie, puis le vocabulaire, les dialogues du quotidien et la culture tamoule."
 ---
 
 # Alphabet Tamoul (தமிழ் எழுத்துக்கள்)

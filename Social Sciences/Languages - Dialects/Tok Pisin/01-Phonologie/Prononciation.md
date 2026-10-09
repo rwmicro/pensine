@@ -5,6 +5,7 @@ subdomain: "Languages - Dialects > Tok Pisin > 01-Phonologie"
 tags: [sciences-sociales, langues, tok-pisin, papua-nouvelle-guinee, phonologie, prononciation, creole]
 date: "2026-04-01"
 parcours: "Tok Pisin : des premiers mots à la culture"
+parcours-description: "Prononcer le tok pisin, saluer, les phrases et les registres, la langue elle-même, puis le vocabulaire et la culture de Papouasie-Nouvelle-Guinée."
 ---
 # Prononciation — Tok Pisin
 

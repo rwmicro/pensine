@@ -5,6 +5,7 @@ subdomain: "Languages - Dialects > Roumain > 01-Phonologie"
 tags: [sciences-sociales, langues, roumain, phonologie, prononciation, alphabet]
 date: "2026-04-01"
 parcours: "Roumain : des premiers mots à la culture"
+parcours-description: "Prononcer le roumain, saluer, les bases de la grammaire et le vouvoiement (tu / dumneavoastră), puis le vocabulaire et la culture roumaine."
 ---
 # Prononciation — Roumain
 

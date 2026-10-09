@@ -5,6 +5,7 @@ subdomain: "Languages - Dialects > Hakka-Khek > Grammar"
 tags: [sciences-sociales, langues, hakka]
 date: "2026-08-21"
 parcours: "Hakka : des premiers mots à la culture"
+parcours-description: "Les tons et la prononciation du hakka de Kalimantan-Ouest, les salutations et les phrases de base, puis le vocabulaire par thème, la grammaire et la culture hakka."
 ---
 # Pronunciation and Tones in Pontianak Hakka
 ## The Importance of Tones

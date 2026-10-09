@@ -5,6 +5,7 @@ subdomain: "Physics > Lycée > Mécanique"
 tags: [sciences-appliquées, physique, mécanique, cinématique]
 date: "2026-06-21"
 parcours: "Physique : du lycée à la prépa"
+parcours-description: "La mécanique de Newton, l'électricité et les ondes du lycée, puis l'électromagnétisme, la thermodynamique, l'optique, la relativité et la quantique de prépa."
 ---
 
 # Cinématique

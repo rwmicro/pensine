@@ -4,7 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie]
 date: "2026-02-19"
-prerequis: ["[[Aristote]]"]
+prerequis: ["[[Thomas d'Aquin]]"]
 ---
 
 # René Descartes (1596-1650)
