@@ -92,6 +92,14 @@ flowchart LR
 
 ### 5.1 Chute libre verticale
 
+> [!predict] Dans le vide, on lâche au même instant et de la même hauteur une boule de bowling et une bille. Laquelle touche le sol en premier ?
+> - [ ] La boule de bowling
+>   C'était l'intuition d'Aristote, mais sans air la masse ne change rien à la chute.
+> - [ ] La bille
+>   Plus légère, elle ne tombe pas plus vite pour autant : sans air, rien ne la freine ni ne l'accélère davantage.
+> - [x] Les deux en même temps
+>   Dans le vide, tous les corps ont la même accélération, $\vec{g}$, quelle que soit leur masse.
+
 > [!important] Chute libre
 > Un objet en chute libre n'est soumis qu'à son poids. Son accélération est $\vec{g}$, dirigée vers le bas, de norme $g \approx 9{,}81$ m·s⁻². Sans vitesse initiale :
 > $$v(t) = g\,t, \qquad z(t) = z_0 - \tfrac{1}{2}g\,t^2$$
