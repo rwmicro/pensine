@@ -4,10 +4,17 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Indonésien > 03-Grammaire"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
-prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/02-Communication/Registres]]"]
+prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/Themes/Nombres]]"]
 ---
 
 # Pronoms (Kata Ganti)
+
+L'indonésien a plusieurs mots pour « je » et « tu » : le choix ne dépend pas de la grammaire mais de la relation avec l'interlocuteur (âge, statut, familiarité). Les pronoms ne changent jamais de forme selon leur fonction ; seuls *aku*, *kamu* et *dia* ont des formes courtes collées au mot (*-ku*, *-mu*, *-nya*).
+
+> [!tip] Dans cette fiche
+> - Choisir le bon pronom selon la situation (*saya* ou *aku*, *Anda* ou *kamu*).
+> - Distinguer le « nous » inclusif *kita* et exclusif *kami*.
+> - Exprimer la possession avec un pronom après le nom ou avec -ku, -mu, -nya.
 
 ## Pronoms Personnels Sujets
 
@@ -51,9 +58,11 @@ En indonésien, le possessif se forme en ajoutant le pronom après le nom ou en 
 
 | Suffixe | Signification | Exemple |
 | :-----: | :-----------: | :-----: |
-| **-ku** | Mon/Ma | *rumahku* = ma maison |
-| **-mu** | Ton/Ta | *bukumu* = ton livre |
-| **-nya** | Son/Sa | *mobilnya* = sa voiture |
+| **-ku** | Mon/Ma (de *aku*) | *rumahku* = ma maison |
+| **-mu** | Ton/Ta (de *kamu*) | *bukumu* = ton livre |
+| **-nya** | Son/Sa (de *dia*) | *mobilnya* = sa voiture |
+
+Les suffixes -ku et -mu sont familiers, comme *aku* et *kamu*. Avec *saya* et *Anda*, on garde la forme complète : *rumah saya*, *buku Anda*. Le suffixe -nya s'emploie dans tous les registres, et sert aussi d'article défini (« le », « la ») : *rumahnya besar* peut vouloir dire « sa maison est grande » ou « la maison est grande ».
 
 **Exemples :**
 - *Nama**ku** Martin* = Je m'appelle Martin (mon nom est Martin)
@@ -87,10 +96,10 @@ En indonésien, le possessif se forme en ajoutant le pronom après le nom ou en 
 
 | Français | Indonésien | Exemple |
 | :------: | :--------: | :-----: |
-| Qui / Que / Lequel | ![Yang](audio/id_male_9b313930655c.mp3) | *Orang **yang** tinggi* = La personne qui est grande |
-| Dont | ![Yang](audio/id_male_9b313930655c.mp3) | *Buku **yang** kamu baca* = Le livre que tu lis |
+| Qui (sujet) | ![Yang](audio/id_male_9b313930655c.mp3) | *Orang **yang** tinggi* = La personne qui est grande |
+| Que (complément) | ![Yang](audio/id_male_9b313930655c.mp3) | *Buku **yang** kamu baca* = Le livre que tu lis |
 
-**Note :** *Yang* est un mot très polyvalent en indonésien, utilisé dans de nombreux contextes.
+*Yang* ne varie jamais : il traduit « qui », « que » et, avec *mana*, « lequel » (*yang mana?*). Il sert aussi à choisir un objet parmi d'autres : *yang merah* = « le rouge, celui qui est rouge ».
 
 ## Pronoms Réfléchis
 
@@ -123,6 +132,13 @@ En indonésien, on utilise souvent des titres à la place des pronoms, surtout e
 | 1e plur. (incl.) | Kita | ... kita | - |
 | 2e plur. | Kalian | ... kalian | - |
 | 3e plur. | Mereka | ... mereka | - |
+
+## À retenir
+
+- *Saya* et *Anda* sont polis ; *aku* et *kamu* sont familiers.
+- *Kita* inclut l'interlocuteur, *kami* l'exclut.
+- Le possesseur se place après le nom : *rumah saya*, *rumahku*, *rumahnya*.
+- On s'adresse souvent aux gens par un titre plutôt que par « vous » : *Pak*, *Bu*, *Mas*, *Mbak*.
 
 ## Questions de révision
 

@@ -4,23 +4,33 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Indonésien > 03-Grammaire"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
-prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/Verbes]]", "[[Structure-Phrase]]"]
+prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/Mots-Liaison]]"]
 ---
 # Préfixes et Suffixes (Imbuhan)
 
-> Le système d'affixes est **fondamental** en indonésien. Il transforme les racines (kata dasar) en verbes, noms, adjectifs, etc. C'est ce qui différencie l'indonésien formel de l'indonésien parlé.
+> Le système d'affixes est **fondamental** en indonésien. Il transforme les racines (kata dasar) en verbes, noms, adjectifs, etc. À l'oral, une partie de ces affixes tombe (voir la fin de la fiche), mais l'écrit les emploie partout.
+
+> [!tip] Dans cette fiche
+> - Comprendre comment un même radical produit verbes et noms grâce aux affixes.
+> - Appliquer la règle de nasalisation de me- et reconnaître les verbes en ber-, di- et ter-.
+> - Lire les noms en pe-, -an, ke-…-an et pe(r)-…-an.
 
 ## Vue d'ensemble
 
 | Type | Affixe | Fonction Principale |
 | :--: | :----: | :-----------------: |
-| Préfixe | me-, ber-, di-, ter-, pe-, ke- | Former des verbes |
-| Suffixe | -kan, -i, -an | Modifier le sens du verbe |
-| Circonfixe | ke-...-an, pe-...-an, ber-...-an | Former des noms |
+| Préfixe verbal | me-, ber-, di-, ter- | Former des verbes (actif, intransitif, passif, involontaire) |
+| Préfixe nominal | pe- | Former des noms d'agent ou d'outil |
+| Suffixe | -kan, -i | Modifier la valence du verbe (pour qqn, causer, vers un lieu) |
+| Suffixe | -an | Former des noms |
+| Circonfixe | ke-…-an, pe-…-an / per-…-an | Former des noms abstraits |
+| Circonfixe | ber-…-an | Former des verbes de réciprocité ou de pluralité |
 
 ## Préfixe ME- (Actif Transitif)
 
 > Le préfixe **me-** forme des verbes actifs. Il change de forme selon la première lettre de la racine.
+
+La règle tient en une phrase : **me- prend la nasale prononcée au même endroit que la première consonne de la racine** (m devant b et p, n devant d, t, c, j, ng devant g, k et les voyelles, ny devant s), et **les consonnes sourdes k, p, t, s disparaissent**, absorbées par la nasale. Devant l, m, n, r, w, y, me- reste tel quel.
 
 ### Règles de Transformation
 
@@ -29,7 +39,7 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/V
 | l, m, n, r, w, y | me- | *lihat* → **melihat** (voir) |
 | b, f, v | mem- | *baca* → **membaca** (lire) |
 | c, d, j, z | men- | *cari* → **mencari** (chercher) |
-| g, h, kh, a, i, u, e, o | meng- | *gambar* → **menggambar** (dessiner) |
+| g, h, kh et les voyelles | meng- | *gambar* → **menggambar** (dessiner) |
 | k → ∅ | meng- | *kirim* → **mengirim** (envoyer) |
 | p → ∅ | mem- | *pukul* → **memukul** (frapper) |
 | t → ∅ | men- | *tulis* → **menulis** (écrire) |
@@ -49,7 +59,7 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/V
 
 ### Informel : Suppression du préfixe ME-
 
-À l'oral, **me-** est souvent supprimé :
+À l'oral, **me-** est souvent supprimé. Quand la consonne initiale avait disparu (k, p, t, s), on garde la nasale (*nulis*, *nelpon*, *ngirim*) ; sinon on dit la racine seule (*baca*, *beli*) :
 
 | Formel | Informel | Français |
 | :----: | :------: | :------: |
@@ -57,7 +67,7 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/V
 | Dia **membaca** | Dia **baca** | Il lit |
 | Saya **menelepon** | Aku **nelpon** | J'appelle |
 | Mereka **membeli** | Mereka **beli** | Ils achètent |
-| Dia **mengirim** | Dia **kirim** | Il envoie |
+| Dia **mengirim** | Dia **ngirim** | Il envoie |
 
 ## Préfixe BER- (Intransitif)
 
@@ -69,7 +79,8 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/V
 | :-------: | :---: | :-----: |
 | Standard | ber- | *jalan* → **berjalan** (marcher) |
 | Racine commence par "r" | be- | *renang* → **berenang** (nager) |
-| Racine commence par consonne + "er" | be- | *kerja* → **bekerja** (travailler) |
+| Première syllabe en -er | be- | *kerja* → **bekerja** (travailler), *ternak* → **beternak** (élever du bétail) |
+| Exception | bel- | *ajar* → **belajar** (étudier) |
 
 ### Usages de BER-
 
@@ -81,7 +92,7 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/V
 | kacamata | berkacamata | porter des lunettes |
 | sepatu | bersepatu | porter des chaussures |
 | kumis | berkumis | avoir une moustache |
-| anak | beranak | avoir des enfants |
+| anak | beranak | mettre bas, avoir des petits |
 | istri | beristri | avoir une femme |
 
 *Dia **berkacamata*** = Il/Elle porte des lunettes
@@ -117,7 +128,7 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/V
 
 | Actif | Passif | Français |
 | :---: | :----: | :------: |
-| Saya **menulis** surat | Surat **ditulis** (oleh saya) | La lettre est écrite (par moi) |
+| Andi **menulis** surat | Surat **ditulis** (oleh Andi) | La lettre est écrite (par Andi) |
 | Ibu **memasak** nasi | Nasi **dimasak** (oleh ibu) | Le riz est cuisiné (par maman) |
 | Dia **membeli** buku | Buku **dibeli** (oleh dia) | Le livre est acheté (par lui) |
 | Polisi **menangkap** pencuri | Pencuri **ditangkap** (oleh polisi) | Le voleur est arrêté (par la police) |
@@ -126,14 +137,19 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/V
 
 | Indonésien | Français |
 | :--------: | :------: |
-| ![**Dilarang** merokok](audio/id_male_05088ba6f5f0.mp3) | Interdit de fumer |
-| ![**Dibuat** di Indonesia](audio/id_male_48886cee01e1.mp3) | Fabriqué en Indonésie |
-| ![**Ditulis** dalam bahasa Inggris](audio/id_male_bceee13bf37f.mp3) | Écrit en anglais |
-| ![**Dimakan** semut](audio/id_male_9cd3f085163c.mp3) | Mangé par les fourmis |
-| ![**Dicuri**](audio/id_male_c12fa3fccc49.mp3) | Volé |
-| ![**Dijual**](audio/id_male_3dd942a2c151.mp3) | Vendu |
-| ![**Ditutup**](audio/id_male_04ddb96607ec.mp3) | Fermé |
-| ![**Dibuka**](audio/id_male_7542d34398bd.mp3) | Ouvert |
+| ![Dilarang merokok](audio/id_male_d8f1616ee4b2.mp3) | Interdit de fumer |
+| ![Dibuat di Indonesia](audio/id_male_bb542c5341e8.mp3) | Fabriqué en Indonésie |
+| ![Ditulis dalam bahasa Inggris](audio/id_male_ed450f8be706.mp3) | Écrit en anglais |
+| ![Dimakan semut](audio/id_male_ee24480c5434.mp3) | Mangé par les fourmis |
+| ![Dicuri](audio/id_male_820084e04e0a.mp3) | Volé |
+| ![Dijual](audio/id_male_79977793a44e.mp3) | Vendu |
+| ![Ditutup](audio/id_male_622f5610e8cb.mp3) | Fermé |
+| ![Dibuka](audio/id_male_a58c45a9015b.mp3) | Ouvert |
+
+> [!warning] Passif avec « je » ou « tu »
+> Le passif en di- ne s'emploie qu'avec un agent à la 3ᵉ personne. Avec *saya*, *aku*, *kamu* ou *Anda*, le pronom se place **devant la racine, sans di-** : *Surat itu **saya tulis*** = « Cette lettre, je l'ai écrite ». *Surat ditulis oleh saya* n'est pas correct.
+
+L'indonésien emploie le passif bien plus souvent que le français, surtout à l'écrit : on met en tête ce dont on parle.
 
 ## Préfixe TER- (Résultatif / Superlatif)
 
@@ -146,7 +162,7 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/V
 | jatuh | terjatuh | tomber (par accident) |
 | tidur | tertidur | s'endormir (involontairement) |
 | bangun | terbangun | se réveiller (involontairement) |
-| tawa | tertawa | éclater de rire |
+| tawa | tertawa | rire |
 | ingat | teringat | se souvenir soudainement |
 
 *Saya **tertidur** di kelas* = Je me suis endormi en classe (sans le vouloir)
@@ -182,11 +198,11 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/V
 
 | Indonésien | Français |
 | :--------: | :------: |
-| ![**Terbaca**](audio/id_male_d5b8ce2ae088.mp3) | Lisible |
-| ![**Terlihat**](audio/id_male_2a941cd1fefb.mp3) | Visible |
-| ![**Terdengar**](audio/id_male_529a1765a647.mp3) | Audible |
-| ![Tidak **terlupakan**](audio/id_male_5e509eddcd9a.mp3) | Inoubliable |
-| ![Tidak **tergantikan**](audio/id_male_ad3cdaaa9957.mp3) | Irremplaçable |
+| ![Terbaca](audio/id_male_ec9036f8971e.mp3) | Lisible |
+| ![Terlihat](audio/id_male_b6007dc5afd7.mp3) | Visible |
+| ![Terdengar](audio/id_male_836c7a6af634.mp3) | Audible |
+| ![Tidak terlupakan](audio/id_male_f4fe55c0660c.mp3) | Inoubliable |
+| ![Tidak tergantikan](audio/id_male_2a74a9cf6c62.mp3) | Irremplaçable |
 
 ## Préfixe PE- / PEN- / PEM- / PENG- / PENY- (Nominalisateur)
 
@@ -216,7 +232,7 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/V
 | tutup | **penutup** | couvercle |
 | garis | **penggaris** | règle (instrument) |
 | hapus | **penghapus** | gomme |
-| dingin | **pendingin** | climatiseur |
+| dingin | **pendingin** | refroidisseur (*pendingin ruangan* = climatiseur) |
 
 ## Suffixe -KAN (Causatif / Bénéfactif)
 
@@ -239,8 +255,10 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/V
 
 **Exemples :**
 - *Tolong **bukakan** pintu* = S'il te plaît, ouvre la porte (pour moi)
-- *Ibu **masakkan** nasi goreng* = Maman cuisine du nasi goreng (pour nous)
-- *Dia **ceritakan** pengalamannya* = Il raconte son expérience
+- *Ibu **memasakkan** kami nasi goreng* = Maman nous cuisine du nasi goreng
+- *Dia **menceritakan** pengalamannya* = Il raconte son expérience
+
+Comme ces exemples le montrent, la forme en -kan prend elle aussi me- (ou di-) dans une phrase complète : *membelikan*, *dibukakan*. La racine + -kan nue s'emploie surtout à l'impératif (*Tolong bukakan*).
 
 ### Informel : -IN (Jakarta)
 
@@ -265,19 +283,20 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/V
 
 | Racine | Avec -I | Signification |
 | :----: | :-----: | :-----------: |
-| duduk | duduki | s'asseoir sur |
+| duduk | duduki | occuper (litt. « s'asseoir sur ») |
 | masuk | masuki | entrer dans |
 | tinggal | tinggali | habiter (un lieu) |
 | datang | datangi | venir vers / visiter |
 | ikut | ikuti | suivre |
 | cinta | cintai | aimer |
 | harga | hargai | apprécier |
-| penuhi | penuhi | remplir |
-| temui | temui | rencontrer |
-| hadiri | hadiri | assister à |
+| penuh | penuhi | remplir |
+| temu | temui | rencontrer, aller voir |
+| hadir | hadiri | assister à |
 
 **Exemples :**
-- *Dia **menduduki** kursi* = Il/Elle s'assoit sur la chaise
+- *Belanda **menduduki** Indonesia* = Les Pays-Bas occupaient l'Indonésie
+- *Mereka **memasuki** ruangan* = Ils entrent dans la salle
 - *Saya **mencintai** kamu* = Je t'aime
 - *Mereka **mengikuti** kursus* = Ils suivent un cours
 
@@ -318,7 +337,7 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/V
 | susah | kesusahan | difficulté |
 | senang | kesenangan | plaisir |
 | takut | ketakutan | peur |
-| muda | kemudahan | facilité |
+| mudah | kemudahan | facilité |
 | dingin | kedinginan | avoir froid |
 | panas | kepanasan | avoir chaud |
 | lapar | kelaparan | avoir faim |
@@ -333,12 +352,12 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/V
 | Racine | Avec KE-...-AN | Signification |
 | :----: | :------------: | :-----------: |
 | raja | kerajaan | royaume |
-| duta | kedutaan | ambassade |
-| polisi | kepolisian | commissariat |
+| duta | kedutaan | ambassade (*kedutaan besar*) |
+| polisi | kepolisian | la police (institution) |
 
-## Circonfixe PE-...-AN (Processus / Lieu)
+## Circonfixe PE-...-AN et PER-...-AN (Processus / Lieu)
 
-> **Pe-...-an** forme des noms indiquant un processus ou un lieu.
+> **Pe-…-an** forme des noms de processus à partir des verbes en me- (*mendidik* → *pendidikan*). **Per-…-an** fait de même à partir des verbes en ber- ou des noms (*berubah* → *perubahan*, *toko* → *pertokoan*).
 
 ### Processus
 
@@ -351,19 +370,19 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/V
 | latih | pelatihan | formation |
 | tulis | penulisan | rédaction |
 | pilih | pemilihan | élection |
-| ubah | perubahan | changement |
-| kembang | perkembangan | développement |
-| jalan | perjalanan | voyage |
+| ubah | perubahan (per-) | changement |
+| kembang | perkembangan (per-) | évolution, développement |
+| jalan | perjalanan (per-) | voyage |
 
 ### Lieux
 
-| Racine | Avec PE-...-AN | Signification |
+| Racine | Avec PER-...-AN | Signification |
 | :----: | :------------: | :-----------: |
 | pustaka | perpustakaan | bibliothèque |
 | kantor | perkantoran | zone de bureaux |
 | toko | pertokoan | zone commerciale |
 | rumah | perumahan | lotissement |
-| belanja | perbelanjaan | centre commercial |
+| belanja | perbelanjaan | les achats (*pusat perbelanjaan* = centre commercial) |
 
 ## Circonfixe BER-...-AN (Réciprocité / Pluralité)
 
@@ -374,9 +393,8 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/V
 | peluk | berpelukan | s'enlacer |
 | cium | berciuman | s'embrasser |
 | salam | bersalaman | se serrer la main |
-| temu | bertemuan | se rencontrer |
 | jatuh | berjatuhan | tomber (plusieurs) |
-| terbang | berterbangan | voler (plusieurs) |
+| terbang | beterbangan | voler en tous sens (plusieurs) |
 | lari | berlarian | courir (plusieurs) |
 
 *Mereka **berpelukan*** = Ils s'enlacent
@@ -394,7 +412,7 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/V
 | **-i** | Lieu / Intensif | *masuk* → *masuki* |
 | **-an** | Nom (résultat) | *makan* → *makanan* |
 | **ke-...-an** | État abstrait | *baik* → *kebaikan* |
-| **pe-...-an** | Processus / Lieu | *didik* → *pendidikan* |
+| **pe-/per-...-an** | Processus / Lieu | *didik* → *pendidikan* |
 | **ber-...-an** | Réciprocité | *peluk* → *berpelukan* |
 
 ## Formel vs Informel
@@ -407,13 +425,24 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/V
 
 > **Conseil** : Comprendre les affixes est essentiel pour lire l'indonésien formel (journaux, livres, administration). À l'oral, on peut souvent les omettre.
 
+## À retenir
+
+- **me-** (actif) prend la nasale de la première consonne, et k, p, t, s disparaissent : *tulis* → *menulis*.
+- **ber-** forme des verbes sans objet (*berjalan*) ; **di-** le passif (*ditulis*), à la 3ᵉ personne seulement.
+- **ter-** marque l'involontaire, l'état ou le superlatif (*tertidur*, *terbuka*, *terbesar*).
+- **-kan** et **-i** ajoutent un bénéficiaire, une cause ou un lieu ; **-an**, **ke-…-an**, **pe(r)-…-an** forment des noms.
+- À l'oral, me- tombe et -kan devient -in.
+
 ## Questions de révision
 
 > [!quiz] Que deviennent les consonnes initiales k, p, t et s quand on ajoute le préfixe me- ?
 > Elles disparaissent et sont remplacées par la nasale : *kirim* → *mengirim*, *pukul* → *memukul*, *tulis* → *menulis*, *sapu* → *menyapu*.
 
 > [!quiz] Quelle différence entre les préfixes me- et di- ?
-> *Me-* forme le verbe actif (*Saya menulis surat*) ; *di-* forme le passif, où l'objet devient sujet (*Surat ditulis oleh saya*).
+> *Me-* forme le verbe actif (*Andi menulis surat*) ; *di-* forme le passif, où l'objet devient sujet (*Surat ditulis oleh Andi*).
+
+> [!quiz] Comment dire « Cette lettre, je l'ai écrite » au passif ?
+> *Surat itu saya tulis* : avec *saya*, *aku* ou *kamu*, le pronom se place devant la racine, sans di-.
 
 > [!quiz] Quels sont les usages du préfixe ter- ?
 > L'action involontaire (*tertidur*, s'endormir sans le vouloir), l'état résultant (*terbuka*, ouvert), la capacité (*terlihat*, visible) et le superlatif (*terbesar*, le plus grand).

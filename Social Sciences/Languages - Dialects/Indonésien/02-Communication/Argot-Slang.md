@@ -4,22 +4,27 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Indonésien > 02-Communication"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
-prerequis: ["[[Pronoms]]"]
+prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/02-Communication/Expressions]]"]
 ---
 
 # Argot et Slang Indonésien (Bahasa Gaul)
 
 > Le "bahasa gaul" est le langage familier/argotique utilisé principalement par les jeunes urbains indonésiens. Il évolue constamment avec les réseaux sociaux.
 
+> [!tip] Dans cette fiche
+> - Comprendre les pronoms, mots et acronymes du *bahasa gaul*.
+> - Suivre une conversation familière entre jeunes de Jakarta.
+> - Repérer les mots qui vieillissent vite et ceux qui sont durablement installés.
+
 ## Pronoms Familiers
 
 | Français | Standard | Slang Jakarta | Prononciation |
 | :------: | :------: | :-----------: | :-----------: |
-| Je | Saya / Aku | Gue / Gw | /gu.ˈɛ/ |
+| Je | Saya / Aku | Gue / Gw | /gu.ɛ/ |
 | Tu | Kamu | Lo / Lu | /lo/ |
-| Il/Elle | Dia | Dia | /di.ˈa/ |
-| Nous | Kita | Kita | /ki.ˈta/ |
-| Vous (pluriel) | Kalian | Lo semua | /lo sə.mu.ˈa/ |
+| Il/Elle | Dia | Dia | /di.a/ |
+| Nous | Kita | Kita | /ki.ta/ |
+| Vous (pluriel) | Kalian | Lo semua | /lo sə.mu.a/ |
 
 ## Expressions Populaires (Bahasa Gaul)
 
@@ -29,11 +34,11 @@ prerequis: ["[[Pronoms]]"]
 | :---: | :-----------: | :-----: |
 | **Anjay / Anjir** | Wow! / Putain! | Exclamation de surprise |
 | **Asik!** | Cool ! / Super ! | - |
-| **Kece** | Très cool | "Keren sekali" |
+| **Kece** | Très cool, classe | - |
 | **Gokil** | Fou / Incroyable | - |
 | **Mantap / Mantul** | Excellent ! | "Mantap betul" |
 | **Sabi** | Ça marche ! / OK | "Bisa" inversé |
-| **Cuy / Cui** | Mec / Poto | Sundanais |
+| **Cuy / Cui** | Mec / Poto | Ouest de Java |
 | **Bro / Sis** | Frère / Sœur (ami) | Anglais |
 | **Bestie** | Meilleur(e) ami(e) | Anglais |
 
@@ -45,10 +50,10 @@ prerequis: ["[[Pronoms]]"]
 | **Mager** | Malas gerak | Flemme de bouger |
 | **Gabut** | Gaji buta | S'ennuyer / Rien à faire |
 | **Gaje** | Ga jelas | Pas clair / Bizarre |
-| **Kepo** | Knowing every particular object | Curieux / Fouineur |
+| **Kepo** | Du hokkien *kaypoh* (« fouineur ») ; l'acronyme anglais qu'on cite souvent est une blague | Curieux / Fouineur |
 | **Bucin** | Budak cinta | Esclave de l'amour |
 | **PHP** | Pemberi harapan palsu | Donner de faux espoirs |
-| **Alay** | Anak layangan | Cringe / Excessif |
+| **Alay** | *Anak layangan* (étymologie populaire) | Cringe / Excessif |
 | **Woles** | Slow (inversé) | Relax / Cool |
 | **Santuy** | Santai | Tranquille |
 | **Japri** | Jalur pribadi | Message privé (DM) |
@@ -100,7 +105,7 @@ prerequis: ["[[Pronoms]]"]
 | **Tp** | Tapi (mais) |
 | **Krn** | Karena (parce que) |
 
-### Expressions Virales (2024-2026)
+### Expressions virales récentes
 
 | Slang | Signification | Contexte |
 | :---: | :-----------: | :------: |
@@ -122,48 +127,34 @@ prerequis: ["[[Pronoms]]"]
 | **Spill** | Révéler | Balancer une info |
 | **Tea** | Potins | Gossip |
 
-### Slang TikTok & Gen Z/Alpha (2025-2026)
+### Slang TikTok et génération Z
+
+Beaucoup de ces mots sont des emprunts à l'argot anglais d'internet, prononcés à l'indonésienne. Ils vieillissent vite : à reconnaître plutôt qu'à placer.
 
 | Slang | Signification | Contexte |
 | :---: | :-----------: | :------: |
-| **Stecu** | Stelan cuek | Faire semblant d'être indifférent |
+| **Stecu** | Setelan cuek | Faire semblant d'être indifférent (chanson virale de 2025) |
 | **Pick me** | Chercher l'attention | Vouloir être spécial |
 | **Skena** | Scene | Tren/milieu |
 | **Kalcer** | Culture | Style tendance |
-| **Skibidi** | Keren/Buruk | Dépend du contexte (Gen Alpha) |
 | **Rizz** | Charisme | Capacité à séduire |
 | **Flex** | Pamer | Frimer |
-| **Lit** | Super fun | Ambiance de folie |
-| **Bet** | OK gas! | D'accord ! |
-| **Vibe check** | Checker l'ambiance | Évaluer le mood |
 | **FOMO** | Peur de rater | Fear of missing out |
 | **Sus** | Suspect | Louche |
-| **Clout** | Influence | Popularité en ligne |
-| **No cap** | Sérieux | Pas de mensonge |
-| **GWSL** | Gua well si lu | Je m'en fous de toi |
 | **Bocil** | Bocah kecil | Gamin (KBBI) |
-| **Julid** | Jaloux/méchant | Être amer envers les autres (KBBI) |
-| **Kapitil** | Huruf kecil | Minuscule (KBBI 2026) |
-| **Palum** | Sudah puas minum | Plus soif (KBBI 2025) |
-| **Galgah** | Lega/segar | Rafraîchi après avoir bu |
+| **Julid** | Médisant, envieux | Critiquer méchamment par jalousie |
 | **Kudet** | Kurang update | Pas à jour / Has-been |
-| **Gamon** | Galau monyong | Être triste et boudeur |
+| **Gamon** | Gagal move on | Ne pas arriver à tourner la page après une rupture |
 | **Pansos** | Panjat sosial | Chercher la popularité |
 | **Cepu** | Informateur | Balance / Mouchard |
 | **Ghosting** | Disparaître | Ne plus répondre |
 | **Zonk** | Perdant | Déception |
 | **Salty** | Amer | Vexé |
-| **Cope** | Faire avec | Accepter la situation |
 | **Mid** | Moyen | Pas ouf |
-| **Based** | Authentique | Avoir raison sans compromis |
 | **NPC** | Figurant | Personne sans personnalité |
-| **Main character** | Personnage principal | Centre de l'attention |
 | **Red flag** | Signal d'alarme | Signe négatif |
 | **Green flag** | Bon signe | Signe positif |
-| **Ick** | Dégoût soudain | Quand quelqu'un devient repoussant |
 | **Delulu** | Delusional | Dans le déni |
-| **Era** | Époque/phase | Période de vie |
-| **Slay era** | Période de succès | Quand tout va bien |
 
 ### Verbes Familiers
 
@@ -183,7 +174,7 @@ prerequis: ["[[Pronoms]]"]
 | **Ngobrol** | Berbicara | Discuter |
 | **Nanya** | Bertanya | Demander |
 | **Nyobain** | Mencoba | Essayer |
-| **Tidur** | Bobo | Dormir (enfantin) |
+| **Bobo** | Tidur | Dormir (langage enfantin) |
 
 ### Insultes Légères (entre amis)
 
@@ -203,29 +194,48 @@ prerequis: ["[[Pronoms]]"]
 
 ## Exemples de Conversations
 
-### Conversation Slang
-```
-A: Eh gue gabut nih, lo lg ngapain?
-B: Gue lg mager di kost, kenapa?
-A: Mau nongkrong ga? Gue bosen
-B: Sabi! Ketemuan di mana?
-A: Di cafe deket kampus aja
-B: Oke, gue OTW ya
-A: Gercep dong!
-B: Iye iye, sabar
-```
+### Deux étudiants de Jakarta
 
-### Traduction
-```
-A: Hey je m'ennuie, tu fais quoi ?
-B: J'ai la flemme dans ma chambre, pourquoi ?
-A: Tu veux traîner ? Je m'ennuie
-B: Ça marche ! On se retrouve où ?
-A: Au café près de la fac
-B: OK, je suis en route
-A: Fais vite !
-B: Oui oui, patience
-```
+**A :** ![Eh, gue gabut nih. Lo lagi ngapain?](audio/id_male_75eab16a081d.mp3)
+*Hé, je m'ennuie là. Tu fais quoi ?*
+
+**B :** ![Gue lagi mager di kos. Kenapa?](audio/id_male_2451a51afb4e.mp3)
+*J'ai la flemme, je suis dans ma chambre. Pourquoi ?*
+
+**A :** ![Mau nongkrong nggak? Gue bosen.](audio/id_male_2b5b1a1f7c0c.mp3)
+*Tu veux traîner ? Je m'ennuie.*
+
+**B :** ![Sabi! Ketemuan di mana?](audio/id_male_b857c089cc07.mp3)
+*Ça marche ! On se retrouve où ?*
+
+**A :** ![Di kafe deket kampus aja.](audio/id_male_5c2be85492cc.mp3)
+*Au café près de la fac, tiens.*
+
+**B :** ![Oke, gue otw ya.](audio/id_male_3075b77c5603.mp3)
+*OK, je suis en route.*
+
+**A :** ![Gercep dong!](audio/id_male_43384c4ff920.mp3)
+*Grouille-toi !*
+
+**B :** ![Iye iye, sabar.](audio/id_male_0549940f8515.mp3)
+*Oui oui, patience.*
+
+> [!example] Mots du dialogue
+> - *gue* / *lo* : je / tu (Jakarta)
+> - *gabut* : ne rien avoir à faire ; *bosen* : s'ennuyer (de *bosan*)
+> - *mager* : avoir la flemme (*malas gerak*) ; *kos* : chambre louée (étudiants, jeunes actifs)
+> - *sabi* : ça marche (*bisa* à l'envers) ; *ketemuan* : se retrouver
+> - *deket* : près (de *dekat*) ; *aja* : juste, seulement (de *saja*)
+> - *otw* : en route (*on the way*) ; *gercep* : vite (*gerak cepat*)
+> - *iye* : oui (betawi)
+
+## À retenir
+
+- *Gue* (je) et *lo* (tu) viennent du betawi et du hokkien ; ils signalent le parler de Jakarta.
+- Beaucoup de mots sont des acronymes : *mager* (*malas gerak*), *baper* (*bawa perasaan*), *gercep* (*gerak cepat*).
+- D'autres sont des mots à l'envers : *sabi* (*bisa*), *woles* (*slow*).
+- Les verbes familiers perdent me- et gardent la nasale : *nyari*, *nanya*, *ngobrol*.
+- Les mots TikTok viennent souvent de l'anglais et passent vite de mode.
 
 ## Questions de révision
 

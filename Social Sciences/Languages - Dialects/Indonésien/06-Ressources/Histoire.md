@@ -4,9 +4,17 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Indonésien > 06-Ressources"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
+prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/06-Ressources/Culture]]"]
 ---
 
 # Histoire de l'Indonésie (Sejarah Indonesia)
+
+Cette fiche situe les grandes étapes de l'histoire indonésienne, utiles pour comprendre la langue (emprunts sanskrits, arabes, néerlandais) et l'unité nationale construite autour du *bahasa Indonesia*.
+
+> [!tip] Dans cette fiche
+> - Situer les grandes périodes : royaumes hindou-bouddhistes, colonisation néerlandaise, indépendance, Ordre nouveau, Reformasi.
+> - Connaître les dates et les figures que tout Indonésien cite.
+> - Comprendre le Serment de la Jeunesse, acte de naissance de la langue nationale.
 
 ## Chronologie
 
@@ -129,3 +137,28 @@ Le Serment de la Jeunesse, moment fondateur de l'unité nationale :
 - **Merdeka atau mati** = La liberté ou la mort
 - **Bhinneka Tunggal Ika** = L'unité dans la diversité
 - **Proklamasi** = La Proclamation (17 août 1945)
+
+## À retenir
+
+- Sriwijaya (VIIᵉ-XIVᵉ s.) et Majapahit (XIIIᵉ-XVIᵉ s.) sont les grands empires d'avant l'islam.
+- La VOC (1602) puis l'État néerlandais colonisent l'archipel jusqu'à l'occupation japonaise (1942).
+- Le *Sumpah Pemuda* (28 octobre 1928) proclame une patrie, une nation, une langue : le *bahasa Indonesia*.
+- L'indépendance est proclamée le 17 août 1945 par Sukarno et Hatta, reconnue en 1949.
+- Suharto (Ordre nouveau, 1967-1998) tombe avec la *Reformasi* de 1998.
+
+## Questions de révision
+
+> [!quiz] Que proclame le *Sumpah Pemuda* de 1928 ?
+> Une seule patrie, une seule nation et une langue d'unité : l'indonésien.
+
+> [!quiz] Qui a proclamé l'indépendance, et quand ?
+> Sukarno et Mohammad Hatta, le 17 août 1945.
+
+> [!quiz] Qu'était la VOC ?
+> La Compagnie néerlandaise des Indes orientales, fondée en 1602, appelée *Kompeni* en indonésien.
+
+> [!quiz] Que désigne la *Reformasi* ?
+> La période ouverte en 1998 par la chute de Suharto, avec la démocratisation du pays.
+
+> [!quiz] Quel empire a construit Borobudur ?
+> La dynastie Sailendra, à Java central, aux VIIIᵉ-IXᵉ siècles.
