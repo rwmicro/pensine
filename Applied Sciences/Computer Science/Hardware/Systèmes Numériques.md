@@ -5,6 +5,7 @@ subdomain: "Computer Science > Hardware"
 tags: [sciences-appliquées, informatique, binaire, logique, ieee-754, circuits, booléen]
 date: "2026-02-25"
 parcours: "Informatique : de la machine au système"
+parcours-description: "Du binaire au processeur et à l'assembleur, puis le système d'exploitation (processus, mémoire, fichiers), Linux, Windows et l'élévation de privilèges."
 ---
 
 # Systèmes Numériques

@@ -5,6 +5,7 @@ subdomain: "Mathematics > Lycée > Algèbre"
 tags: [sciences-appliquées, mathématiques]
 date: "2026-02-19"
 parcours: "Analyse au lycée"
+parcours-description: "Les nombres et le calcul algébrique, les fonctions et le second degré, puis la dérivation, les suites, les limites, l'exponentielle et les intégrales."
 ---
 
 # Ensembles et Nombres

@@ -5,6 +5,7 @@ subdomain: "Computer Science > Security"
 tags: [sciences-appliquées, informatique, sécurité]
 date: "2026-02-25"
 parcours: "Active Directory : de l'attaque à la persistance"
+parcours-description: "Cartographier un domaine avec BloodHound, abuser des ACL, de Kerberos, de NTLM et d'ADCS, puis rebondir entre forêts et s'y maintenir."
 ---
 
 # Active Directory Security

@@ -5,6 +5,7 @@ subdomain: "Computer Science > Security > SOC Analysis"
 tags: [sciences-appliquées, informatique, sécurité, soc]
 date: "2025-12-31"
 parcours: "SOC : des logs à la détection"
+parcours-description: "Le métier d'analyste SOC, les logs, le SIEM et Splunk, puis la détection (Sigma, detection engineering), la threat intelligence et la chasse aux menaces."
 ---
 
 # Vocabulaire SOC et réponse à incident

@@ -5,6 +5,7 @@ subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, antiquite, grece-antique, cosmologie, metaphysique]
 date: "2026-09-28"
 parcours: "Philosophie : de l'Antiquité aux modernes"
+parcours-description: "Des présocratiques à Socrate, Platon et Aristote, la philosophie médiévale, puis les rationalistes et les empiristes, Kant, et la pensée du XIXe siècle."
 ---
 
 # Les Présocratiques (VIe-Ve siècles av. J.-C.)

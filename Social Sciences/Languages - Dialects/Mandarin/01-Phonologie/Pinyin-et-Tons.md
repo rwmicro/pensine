@@ -5,6 +5,7 @@ subdomain: "Languages - Dialects > Mandarin > 01-Phonologie"
 tags: [sciences-sociales, langues, mandarin, chinois, pinyin, tons, phonologie]
 date: "2026-04-28"
 parcours: "Mandarin : des premiers mots à la culture"
+parcours-description: "Le pinyin et les tons, les salutations, la grammaire et les caractères, puis les classificateurs, le vocabulaire, les dialogues et la culture chinoise."
 ---
 # Pinyin et Tons — Mandarin
 

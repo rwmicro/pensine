@@ -5,6 +5,7 @@ subdomain: "Ecology"
 tags: [sciences-appliquées, écologie]
 date: "2026-02-22"
 parcours: "Écologie : des écosystèmes au climat"
+parcours-description: "Les principes de l'écologie et les écosystèmes, la biodiversité et ses menaces, puis le changement climatique et les solutions pour l'atténuer."
 ---
 
 # Principes Fondamentaux

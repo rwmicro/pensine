@@ -5,6 +5,7 @@ subdomain: "Languages - Dialects > Anglais > 01-Phonologie"
 tags: [sciences-sociales, langues, anglais, phonologie, prononciation]
 date: "2026-03-27"
 parcours: "Anglais : des premiers mots à la culture"
+parcours-description: "La prononciation et les phrases essentielles, les temps et les modaux, puis les registres, les expressions idiomatiques et les accents (RP, cockney)."
 ---
 # Phonologie et Prononciation — Anglais
 

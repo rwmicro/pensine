@@ -5,6 +5,7 @@ subdomain: "Law"
 tags: [sciences-sociales, droit, fondamentaux]
 date: "2026-03-05"
 parcours: "Droit : des bases aux grands systèmes juridiques"
+parcours-description: "Les bases du droit, ses sources et ses institutions, les grands systèmes juridiques (civil law, common law, charia), puis les branches du droit public et privé."
 ---
 # Le Droit — Bases
 

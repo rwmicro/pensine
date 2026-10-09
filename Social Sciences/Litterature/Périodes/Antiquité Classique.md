@@ -5,6 +5,7 @@ subdomain: "Litterature > Périodes"
 tags: [sciences-sociales, littérature, antiquité, grèce, rome, homère, tragédie]
 date: "2026-04-18"
 parcours: "Littérature : les grandes périodes"
+parcours-description: "Les grandes périodes de la littérature, de l'Antiquité au Moyen Âge et aux Lumières, puis le romantisme, le réalisme et les écritures des XXe et XXIe siècles."
 ---
 # Antiquité Classique
 
