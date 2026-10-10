@@ -101,6 +101,18 @@ class AttracteurDeLorenz(ThreeDScene):
 
 ```widget:logistique
 r: 3.2
+objectif: Réglez r pour que la suite tombe sur un cycle de période 4.
+cible: periode=4
+indice: Un peu au-dessus de r = 3,449.
+erreur: periode=1 → Point fixe : montez r. ;; periode=2 → Période 2 : montez encore un peu r. ;; periode=8 → Période 8 : vous êtes allé un peu trop loin.
+bravo: Chaque doublement de période arrive de plus en plus vite : c'est la cascade de Feigenbaum.
+objectif-2: Trouvez une valeur de r où le régime est chaotique.
+cible-2: periode=0
+indice-2: Au-delà de r ≈ 3,57, hors de quelques fenêtres.
+objectif-3: Au milieu du chaos, trouvez la fenêtre de période 3.
+cible-3: periode=3
+indice-3: Autour de r = 3,83, sur une bande étroite.
+bravo-3: Une période 3 implique des cycles de toutes les périodes : « la période 3 implique le chaos » (Li et Yorke).
 ```
 
 Faire croître *r* montre la cascade de doublements de période : point fixe, puis cycle de 2, de 4, de 8, jusqu'à ce que la période cesse d'exister vers 3,5699. Le diagramme du bas situe la valeur courante dans l'ensemble — et les fenêtres blanches au milieu du chaos, notamment celle de période 3, se voient à l'œil nu.
