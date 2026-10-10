@@ -68,6 +68,14 @@ Spécificité = TN / (TN + FP)
 
 ```widget:seuil
 threshold: 0.5
+objectif: Réglez le seuil pour que la précision atteigne au moins 0,9.
+cible: precision>=0.9
+indice: Montez le seuil : on ne garde que les scores les plus sûrs.
+bravo: Regardez le rappel : on rate maintenant plus de la moitié des positifs.
+objectif-2: Réglez maintenant le seuil pour trouver au moins 95 % des positifs (rappel ≥ 0,95).
+cible-2: rappel>=0.95
+indice-2: Descendez le seuil bien en dessous de 0,5.
+bravo-2: La précision tombe sous 0,45 : plus d'une alerte sur deux est fausse. Le seuil se choisit selon ce qui coûte le plus cher.
 ```
 
 Le seuil de décision n'est pas donné par le modèle, il se choisit. Le déplacer montre l'arbitrage : **on ne peut pas améliorer la précision et le rappel en même temps**, on déplace le curseur entre les deux selon ce que coûte une erreur de chaque type.

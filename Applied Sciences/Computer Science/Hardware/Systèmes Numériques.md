@@ -124,6 +124,15 @@ Vérification : 11111011 = -128 + 64 + 32 + 16 + 8 + 0 + 2 + 1 = -5 ✓
 ```widget:complement2
 value: -5
 bits: 8
+objectif: Affichez −1 sur 8 bits.
+cible: signed=-1
+indice: Partez de 1 (00000001), puis « Inverser puis +1 ».
+bravo: −1 s'écrit avec tous les bits à 1 : 11111111, lu 255 en non signé.
+objectif-2: Affichez le plus petit nombre signé que tiennent 8 bits.
+cible-2: signed=-128
+indice-2: Seul le bit de signe est à 1.
+erreur-2: signed=-127 → Encore un cran : 10000000 vaut −128.
+bravo-2: 10000000 vaut −128, et son opposé ne tient pas sur 8 bits : « inverser puis +1 » le redonne tel quel.
 ```
 
 Le bouton « Inverser puis +1 » déroule la recette pas à pas. La ligne *lu comme non signé* et la ligne *lu comme signé* montrent que les bits ne changent jamais : seule change la convention de lecture, et c'est exactement ce que le processeur ignore.
@@ -186,6 +195,19 @@ math.isclose(0.1 + 0.2, 0.3)  # True (comparaison avec tolérance)
 ```widget:ieee754
 value: 0.1
 bits: 32
+objectif: Rendez la valeur négative en ne changeant qu'un seul bit.
+cible: sign=1
+bravo: Le bit de signe suffit : l'exposant et la mantisse ne bougent pas.
+objectif-2: Tapez une valeur entre 0 et 1 qui soit stockée exactement, sans aucun écart.
+cible-2: value>0, value<1, ecart=0
+indice-2: Pensez aux fractions dont le dénominateur est une puissance de 2.
+erreur-2: ecart>0 → Il reste un écart : cette valeur n'a pas d'écriture finie en base 2.
+bravo-2: 1/2, 1/4, 3/8… tombent juste en binaire ; 0,1 ne le peut pas.
+objectif-3: Obtenez +∞ en cliquant sur les bits.
+cible-3: value=Infinity
+indice-3: Exposant entièrement à 1, mantisse entièrement à 0.
+erreur-3: value=NaN → C'est NaN : l'exposant est bon, mais la mantisse doit être nulle. ;; value=-Infinity → C'est −∞ : remettez le bit de signe à 0.
+bravo-3: Exposant saturé et mantisse nulle : c'est l'infini.
 ```
 
 Le widget ci-dessus décompose un flottant en ses trois champs. Saisir `0.1` montre le point essentiel : la valeur réellement stockée n'est pas 0,1 mais 0,100000001490116119384765625 en simple précision. Cliquer un bit de la mantisse fait apparaître le pas de quantification — l'écart minimal entre deux flottants représentables à cet ordre de grandeur.
