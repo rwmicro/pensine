@@ -106,6 +106,15 @@ Gregor Mendel (1822-1884), moine augustin, croise des pois dans son jardin de Br
 parent1: Aa
 parent2: Aa
 dominant: A
+objectif: Le parent 1 restant Aa, changez le parent 2 pour que tous les enfants portent l'allèle dominant.
+cible: parent1=Aa, dominants=1
+indice: Le parent 2 ne doit transmettre que A.
+bravo: AA × Aa : tous les enfants reçoivent au moins un A.
+objectif-2: Trouvez un croisement où exactement la moitié des enfants porte l'allèle dominant.
+cible-2: dominants=0.5
+indice-2: Un parent hétérozygote, l'autre homozygote récessif.
+erreur-2: dominants=0.75 → 3/4 : c'est Aa × Aa. Il faut un parent qui n'ait que l'allèle récessif. ;; dominants=1 → Tous les enfants ont A : un des parents est AA.
+bravo-2: Aa × aa : c'est le croisement-test, qui révèle si un individu dominant est hétérozygote.
 ```
 
 Le croisement de deux hétérozygotes donne la proportion 1 : 2 : 1 des génotypes, et 3 : 1 des phénotypes si A domine. Modifier les génotypes parentaux suffit à retrouver chacune des lois de Mendel.

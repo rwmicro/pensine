@@ -250,6 +250,44 @@ bits: 32
 | `cadrage` | — | Fait subir l'effet de cadrage au lecteur avant de le nommer |
 | `tcl` | `loi`, `n` | Théorème central limite : distribution des moyennes, erreur-type en 1/√n |
 
+### Objectifs à atteindre
+
+Un widget peut porter des objectifs, à la Brilliant : une consigne, l'état qui la résout, un indice et des messages pour les erreurs courantes. Le site affiche la consigne au-dessus du widget, un bouton « Vérifier » dessous, et un retour vert (juste) ou ambre (erreur), jamais rouge. Rien n'est verrouillé : on peut passer un objectif, et le widget reste libre. Un objectif atteint compte comme une révision dans le calendrier du lecteur.
+
+Les clés restent des lignes `clé: valeur` ; le 2ᵉ, 3ᵉ… objectif prennent un suffixe `-2`, `-3` :
+
+````
+```widget:subnet
+value: 192.168.10.5
+prefix: 24
+objectif: Le service compta a 50 postes. Trouvez le préfixe le plus long qui leur laisse assez d'adresses.
+cible: prefix=26
+indice: Il faut au moins 6 bits d'hôte.
+erreur: prefix=27 → /27 ne laisse que 30 adresses. ;; prefix<26 → On peut serrer davantage.
+bravo: /26 laisse 62 adresses.
+objectif-2: …
+cible-2: …
+```
+````
+
+- `cible` : une ou plusieurs conditions `clé op valeur` séparées par des virgules, avec `=`, `!=`, `<`, `<=`, `>`, `>=`. Les nombres se comparent comme des nombres, le texte à l'identique (majuscules comprises).
+- `erreur` : des paires `conditions → message`, séparées par `;;`. Le premier message dont les conditions sont vraies s'affiche.
+- `indice`, `bravo` : facultatifs.
+
+Seuls certains widgets exposent leur état, sous ces clés :
+
+| Widget | Clés |
+|---|---|
+| `subnet` | `value` (adresse), `prefix`, `hosts`, `mask`, `network`, `broadcast` |
+| `ieee754` | `value`, `sign` (0/1), `exponent` (non biaisé), `bits`, `ecart` (valeur stockée − saisie, en absolu) |
+| `complement2` | `signed`, `unsigned`, `bits` |
+| `seuil` | `seuil`, `precision`, `rappel`, `f1`, `vp`, `fp`, `fn`, `vn` |
+| `punnett` | `parent1`, `parent2`, `dominant`, `genotypes` (nombre), `dominants` (part des enfants qui portent l'allèle dominant, 0 à 1) |
+| `matrice-2d` | `a`, `b`, `c`, `d`, `det`, `trace` |
+| `logistique` | `r`, `periode` (0 = chaos) |
+
+Sur un autre widget, les objectifs sont ignorés et le widget s'affiche comme d'habitude.
+
 ### Fonctionnement
 
 `rehypeWidgets` (learn-nebula, `lib/markdown.ts`) transforme le bloc en point de montage, que `public/js/widgets.js` hydrate. Un nom inconnu reste affiché comme un bloc de code — une coquille est donc visible, jamais silencieuse. Sans JavaScript, une ligne de repli remplace le widget.

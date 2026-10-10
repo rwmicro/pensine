@@ -253,6 +253,18 @@ a: 1
 b: 1
 c: 0
 d: 2
+objectif: Écrasez le plan sur une droite : trouvez une matrice de déterminant nul.
+cible: det=0
+indice: Rendez une ligne proportionnelle à l'autre.
+bravo: Déterminant nul : le carré unité devient un segment, la matrice n'est pas inversible.
+objectif-2: Trouvez une transformation qui renverse l'orientation du plan.
+cible-2: det<0
+indice-2: Une symétrie, par exemple : échangez les rôles de x et de y.
+objectif-3: Écrivez la rotation d'un quart de tour dans le sens direct.
+cible-3: a=0, b=-1, c=1, d=0
+indice-3: L'image de (1, 0) est (0, 1), celle de (0, 1) est (−1, 0) : ce sont les colonnes.
+erreur-3: a=0, b=1, c=-1, d=0 → C'est un quart de tour, mais dans le sens horaire : changez les deux signes.
+bravo-3: Déterminant 1, trace 0, valeurs propres complexes : aucune direction n'est préservée.
 ```
 
 Une matrice n'est pas un tableau de nombres, c'est une transformation du plan. Le **déterminant est le facteur par lequel l'aire est multipliée** : le voir passer par zéro, c'est voir le plan s'écraser sur une droite, donc comprendre pourquoi un déterminant nul signifie non inversible. Les tirets orange marquent les directions propres, celles que la transformation laisse sur leur propre droite.

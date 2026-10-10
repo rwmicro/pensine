@@ -64,6 +64,20 @@ Non routables sur Internet — réservées aux réseaux internes :
 ```widget:subnet
 value: 192.168.10.5
 prefix: 24
+objectif: Le service compta a 50 postes. Trouvez le préfixe le plus long qui leur laisse assez d'adresses.
+cible: prefix=26
+indice: Il faut au moins 6 bits d'hôte : 2⁶ − 2 = 62 adresses utilisables.
+erreur: prefix=27 → /27 ne laisse que 30 adresses : il en manque 20. ;; prefix<26 → Assez d'adresses, mais on peut serrer davantage. ;; prefix>27 → Bien trop peu d'adresses pour 50 postes.
+bravo: /26 laisse 62 adresses, /27 n'en laisserait que 30.
+objectif-2: Quel est le préfixe le plus long pour que 192.168.10.5 et 192.168.10.200 soient dans le même réseau ?
+cible-2: prefix=24
+indice-2: En binaire, 5 = 00000101 et 200 = 11001000 : le tout premier bit du dernier octet diffère déjà.
+erreur-2: prefix>24 → Avec ce préfixe, .5 et .200 tombent dans deux sous-réseaux différents. ;; prefix<24 → Ça marche, mais on peut allonger le préfixe.
+bravo-2: Dès /25, le premier bit du dernier octet sépare .5 (moitié basse) de .200 (moitié haute).
+objectif-3: Un lien point à point entre deux routeurs n'a besoin que de 2 adresses. Quel préfixe ?
+cible-3: prefix=30
+erreur-3: prefix=31 → Dans le calcul classique, /31 ne laisse aucune adresse utilisable (le RFC 3021 l'autorise pourtant pour ces liens). ;; prefix<30 → Ça gaspille des adresses : on peut serrer.
+bravo-3: /30 donne 4 adresses : réseau, deux machines, diffusion.
 ```
 
 Bouger le curseur déplace la frontière entre partie réseau et partie hôte. C'est le point que la notation décimale du masque masque : **un préfixe est une position dans les 32 bits**, pas une soustraction.
