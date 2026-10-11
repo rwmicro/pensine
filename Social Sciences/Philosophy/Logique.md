@@ -125,6 +125,11 @@ Le syllogisme est la forme d'argument déductif fondamentale, formalisée par Ar
          → Faux : je pourrais réussir autrement.
 ```
 
+Construis tes propres syllogismes : choisis la forme des prémisses, regarde quelles zones du diagramme de Venn se grisent, et compare Barbara au moyen terme non distribué.
+
+```widget:syllogisme
+```
+
 ## Formes d'arguments valides
 
 Ces formes sont valides : si les prémisses sont vraies, la conclusion l'est nécessairement.

@@ -38,6 +38,11 @@ prerequis: ["[[Applied Sciences/Ecology/Principes Fondamentaux]]"]
 - **Densité-indépendante** : climat, catastrophes
 - **Cycles** : prédateur-proie (Lotka-Volterra)
 
+Joue sur la prédation et la mortalité des prédateurs : leur pic suit toujours celui des proies, et la trajectoire tourne autour du point d'équilibre.
+
+```widget:lotka-volterra
+```
+
 ### Écologie des Communautés
 
 **Structure des Communautés**

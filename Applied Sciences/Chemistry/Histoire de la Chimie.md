@@ -69,6 +69,12 @@ Les alchimistes arabes comme **Jabir ibn Hayyan** (Geber, VIIIe siècle) perfect
 
 **Dmitri Mendeleïev** (1834-1907) révolutionne la chimie en 1869 avec son **tableau périodique**, organisant les éléments par masse atomique croissante et regroupant ceux aux propriétés similaires. Son génie : laisser des cases vides pour des éléments non encore découverts et prédire leurs propriétés. Les découvertes ultérieures du gallium (1875), du scandium (1879) et du germanium (1886) confirment spectaculairement ses prédictions.
 
+Le tableau s'ouvre en 1869, l'année de Mendeleïev : fais glisser l'année pour voir les éléments encore inconnus (en pointillés) apparaître, et touche un élément pour savoir qui l'a découvert.
+
+```widget:tableau-periodique
+annee: 1869
+```
+
 **Friedrich Kekulé** (1829-1896) élucide la structure du benzène (C₆H₆) en 1865, introduisant le concept de cycle aromatique fondamental pour la chimie organique. Selon la légende, la structure lui serait apparue en rêve sous forme d'un serpent se mordant la queue (ouroboros).
 
 **Jacobus van 't Hoff** (1852-1911) et **Joseph Le Bel** (1847-1930) proposent indépendamment en 1874 la chimie stéréochimique : les atomes de carbone sont tétraédriques dans l'espace, expliquant les isomères optiques.
