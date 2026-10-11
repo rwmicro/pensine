@@ -106,6 +106,12 @@ timeline
 | **Otzi** (5 300 ans, Alpes) | Pas un fossile au sens strict, mais une momie naturelle — une mine d'informations sur l'âge du cuivre |
 | **Stromatolites** (jusqu'à 3,5 Ga) | Tapis de cyanobactéries — les plus anciennes traces de vie complexe |
 
+Ces âges viennent de la désintégration radioactive : lance le temps pour voir les atomes disparaître au hasard, puis date un échantillon au carbone 14, au potassium 40 ou à l'uranium 238.
+
+```widget:datation
+isotope: c14
+```
+
 ## Outils du paléontologue moderne
 
 La paléontologie ne se résume plus à creuser :

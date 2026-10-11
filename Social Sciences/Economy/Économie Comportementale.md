@@ -93,6 +93,11 @@ On évalue la probabilité d'appartenance à une catégorie selon la ressemblanc
 
 On s'appuie excessivement sur la première information rencontrée (l'ancre) pour estimer une valeur.
 
+Avant de lire la suite, fais l'expérience : lance la roue, réponds aux deux questions, puis compare ton estimation à la vraie valeur.
+
+```widget:ancrage
+```
+
 - Roue de la fortune truquée → même les experts ajustent trop peu leur estimation d'un pourcentage vers la valeur de la roue.
 - En négociation, la première offre ancre toute la discussion.
 - Les promotions "barré à 100€, prix spécial 60€" exploitent l'ancrage.
