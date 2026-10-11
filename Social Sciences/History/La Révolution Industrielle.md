@@ -125,6 +125,15 @@ Conséquence paradoxale : de moins en moins de personnes produisent de la nourri
 
 Le revers : **dépendance aux hydrocarbures** (engrais, machines, transport), **appauvrissement des sols**, **perte de biodiversité**.
 
+```widget:owid
+graphe: wheat-yields
+pays: Royaume-Uni, France, Inde, Monde
+depuis: 1270
+titre: Un hectare de blé anglais rend 13 fois plus qu'en 1275
+sous-titre: Rendement du blé, en tonnes par hectare
+unite: t/ha
+```
+
 ## Les conséquences environnementales
 
 La révolution industrielle marque le début de l'**Anthropocène** — l'ère géologique où l'activité humaine devient la force principale de transformation de la planète.

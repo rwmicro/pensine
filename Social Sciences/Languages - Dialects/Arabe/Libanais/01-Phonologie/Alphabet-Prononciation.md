@@ -173,6 +173,19 @@ Les consonnes ص ض ط ظ sont pharyngalisées — elles "assombrissent" les voy
 - Le libanais est plus rapide et plus syllabique que l'arabe du Golfe
 - Les consonnes en fin de mot sont souvent adoucies ou omises dans le débit rapide
 
+## Entraîner l'oreille : paires minimales
+
+Deux mots qui ne diffèrent que par un son. Écoute, choisis, puis touche chaque mot pour comparer.
+
+```widget:paires
+titre: Quel mot entends-tu ?
+consigne: Le ق libanais devient un coup de glotte : kalb (chien) contre ʔalb (cœur). Le ح est un h soufflé de la gorge.
+paire1: ../02-Communication/audio/ar-lb_male_90bc823e1cd3.mp3 = كلب kalb (chien) | ../04-Vocabulaire/audio/ar-lb_male_c11ede2a9d76.mp3 = قلب ʔalb (cœur)
+paire2: ../02-Communication/audio/ar-lb_male_90bc823e1cd3.mp3 = كلب kalb (chien) | ../04-Vocabulaire/audio/ar-lb_male_8eed6653a629.mp3 = كعب kaʕb (talon)
+paire3: ../02-Communication/audio/ar-lb_male_c5a0777b3da6.mp3 = حمار ḥmār (âne) | ../04-Vocabulaire/audio/ar-lb_male_fdff18f34148.mp3 = حار ḥārr (piquant)
+paire4: ../02-Communication/audio/ar-lb_male_34e32cc07127.mp3 = هلا hala (salut) | ../02-Communication/audio/ar-lb_male_0820f2b90153.mp3 = يلا yalla (allez)
+```
+
 ## À retenir
 
 - Une dizaine de sons seulement n'existent pas en français : ح (`7`), خ (`kh`), ع (`3`), غ (`gh`), le coup de glotte (`2`) et les emphatiques.

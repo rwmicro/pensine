@@ -54,6 +54,18 @@ L'anglais a emprunté ~30 % de son vocabulaire au français normand (1066-1300).
 
 > **Le piège de "actually" :** la confusion la plus fréquente. *Actually* signifie "en fait", pas "actuellement" qui se dit *currently*.
 
+```widget:faux-amis
+titre: Faux amis : que veut dire ce mot anglais ?
+langue: Anglais
+mot1: actually | en fait | actuellement ; justement | Actuellement se dit currently.
+mot2: eventually | finalement | éventuellement ; souvent | Éventuellement se dit possibly.
+mot3: library | bibliothèque | librairie ; laboratoire | Une librairie est a bookshop.
+mot4: sensible | sensé, raisonnable | sensible ; sensuel | Sensible (émotif) se dit sensitive.
+mot5: to attend | assister à | attendre ; entendre | Attendre se dit to wait.
+mot6: deception | tromperie | déception ; réception | Déception se dit disappointment.
+mot7: to pretend | faire semblant | prétendre ; présenter | Prétendre se dit to claim.
+```
+
 ## Allemand
 
 L'allemand partage des cognats germaniques avec l'anglais — mais beaucoup ont des sens divergents avec le français.
@@ -92,6 +104,18 @@ L'allemand partage des cognats germaniques avec l'anglais — mais beaucoup ont 
 
 > **Pseudo-anglicismes allemands** (Scheinanglizismen) : *Handy*, *Beamer*, *Public Viewing*, *Smoking*, *Mobbing* — semblent anglais mais ont des sens propres à l'allemand.
 
+```widget:faux-amis
+titre: Faux amis : que veut dire ce mot allemand ?
+langue: Allemand
+mot1: das Gift | le poison | le cadeau ; la gifle | Un cadeau se dit das Geschenk.
+mot2: die Rente | la retraite | la rente ; la location | Rente désigne la pension de retraite.
+mot3: die Mappe | le porte-documents | la nappe ; la carte | Une carte se dit die Karte (ou Landkarte).
+mot4: brav | sage, obéissant | brave ; courageux | Courageux se dit mutig.
+mot5: bald | bientôt | le bal ; chauve | Chauve se dit kahl ; le bal, der Ball.
+mot6: nett | gentil | net, propre ; clair | Net se dit sauber ou klar.
+mot7: das Handy | le téléphone portable | l'objet pratique ; la poignée | Un pseudo-anglicisme : en anglais, on dit mobile ou cell phone.
+```
+
 ## Espagnol
 
 L'espagnol et le français partagent ~75 % de cognats latins, mais avec des divergences.
@@ -123,6 +147,18 @@ L'espagnol et le français partagent ~75 % de cognats latins, mais avec des dive
 
 > **Le piège classique :** "embarazada" — ne **JAMAIS** dire "estoy embarazada" pour "je suis embarrassée". Cela signifie "je suis enceinte". Dire *me da vergüenza* ou *estoy avergonzada*.
 
+```widget:faux-amis
+titre: Faux amis : que veut dire ce mot espagnol ?
+langue: Espagnol
+mot1: embarazada | enceinte | embarrassée ; embrassée | Embarrassée se dit avergonzada.
+mot2: constipado | enrhumé | constipé ; fatigué | Constipé se dit estreñido.
+mot3: largo | long | large ; lent | Large se dit ancho.
+mot4: salir | sortir | salir ; saler | Salir se dit ensuciar.
+mot5: subir | monter | subir ; souffrir | Subir se dit sufrir.
+mot6: débil | faible | débile ; habile | Débile se dit tonto.
+mot7: el burro | l'âne | le beurre ; le bureau | Le beurre se dit la mantequilla.
+```
+
 ## Roumain
 
 Le roumain est **proche du français** (tous deux romans), mais avec des emprunts slaves et turcs qui dévient le sens.
@@ -145,6 +181,17 @@ Le roumain est **proche du français** (tous deux romans), mais avec des emprunt
 | sală | sale | salle |
 | tare | tard | fort, dur |
 | bun | bon | (correct) |
+
+```widget:faux-amis
+titre: Faux amis : que veut dire ce mot roumain ?
+langue: Roumain
+mot1: concurs | l'examen, l'audition | le concours de circonstances ; la course | Concurs désigne surtout un examen d'entrée.
+mot2: serviciu | le travail, l'emploi | le service à table ; le serveur | Merg la serviciu : je vais au travail.
+mot3: frumos | beau, joli | le fromage ; la fourmi | Le fromage se dit brânză.
+mot4: tare | fort, dur | tard ; la tare | Tard se dit târziu.
+mot5: ger | le grand froid | le gel léger ; la guerre | La guerre se dit război.
+mot6: bărbat | l'homme | le barbu ; le barbier | Barbu se dit bărbos.
+```
 
 ## Italien (par contraste — utile pour francophones)
 

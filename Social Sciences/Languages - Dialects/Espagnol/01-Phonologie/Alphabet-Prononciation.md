@@ -153,6 +153,21 @@ La lettre **H** ne se prononce **jamais** en espagnol. Elle est là pour l'ortho
 | oi | /oj/ | h**oy** (aujourd'hui) |
 | au | /aw/ | c**au**sa (cause) |
 
+## Entraîner l'oreille : paires minimales
+
+Deux mots qui ne diffèrent que par un son. Écoute, choisis, puis touche chaque mot pour comparer.
+
+```widget:paires
+titre: Quel mot entends-tu ?
+consigne: Un seul son change : n/l, y/l, la jota, la b et la v qui se prononcent pareil.
+paire1: ../04-Vocabulaire/audio/es_male_7496f50669d2.mp3 = junio (juin) | ../04-Vocabulaire/audio/es_male_116c8df30018.mp3 = julio (juillet)
+paire2: ../04-Vocabulaire/audio/es_male_5b08a259bc31.mp3 = mayo (mai) | ../04-Vocabulaire/audio/es_male_4eb7ecd38a4e.mp3 = malo (mauvais)
+paire3: ../04-Vocabulaire/audio/es_male_f09bfde6d51d.mp3 = cero (zéro) | ../04-Vocabulaire/audio/es_male_01861ddf1453.mp3 = pero (mais)
+paire4: ../04-Vocabulaire/audio/es_male_6a97f4e1f728.mp3 = nueve (neuf) | ../04-Vocabulaire/audio/es_male_218b42cf65c3.mp3 = nuevo (nouveau)
+paire5: ../02-Communication/audio/es_male_1e62a438caa0.mp3 = claro (clair) | ../04-Vocabulaire/audio/es_male_5df42fb286f4.mp3 = caro (cher)
+paire6: ../04-Vocabulaire/audio/es_male_53cb8fb81b78.mp3 = ser (être) | ../04-Vocabulaire/audio/es_male_3d3df0f9f66d.mp3 = ver (voir)
+```
+
 ## Erreurs fréquentes des francophones
 
 | Erreur | Correct | Note |

@@ -101,6 +101,21 @@ unite: t
 echelle: log
 ```
 
+```widget:owid
+graphe: co2-emissions-per-capita
+pays: Chine, France
+depuis: 1950
+onglet: Par habitant
+titre: Depuis 2010, un Chinois émet plus de CO₂ qu'un Français
+sous-titre: Émissions de CO₂ par habitant, en tonnes (8,7 t contre 4,0 t en 2024)
+unite: t
+graphe2: annual-co2-emissions-per-country
+onglet2: Total
+titre2: Au total, la Chine émet 46 fois plus que la France
+sous-titre2: Émissions annuelles de CO₂, en tonnes
+unite2: t
+```
+
 ```widget:vrai-faux
 affirmation: Les émissions de CO₂ par habitant de la France baissent depuis les années 1970.
 reponse: vrai

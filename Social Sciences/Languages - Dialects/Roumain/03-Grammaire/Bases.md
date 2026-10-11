@@ -105,6 +105,12 @@ L'alphabet roumain utilise l'alphabet latin avec des caractères spéciaux:
 | Vouloir | a vrea | vreau |
 | Pouvoir | a putea | pot |
 
+Le présent des verbes de base, à toutes les personnes.
+
+```widget:conjugaison
+langue: Roumain
+```
+
 ## Phrases Essentielles
 
 | Français | Roumain |

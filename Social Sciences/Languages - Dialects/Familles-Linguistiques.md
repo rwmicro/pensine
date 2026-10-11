@@ -48,6 +48,10 @@ Un même mot dans les langues du jardin, rangées par famille : choisis un mot, 
 concept: eau
 ```
 
+```widget:arbre-langues
+titre: Les langues du jardin dans leurs familles
+```
+
 ## Indo-européen — la plus grande famille
 
 Avec ~3,2 milliards de locuteurs, c'est la famille la plus parlée au monde. Origine commune : ~6000-4000 av. J.-C., proto-indo-européen probablement parlé dans les steppes pontiques.

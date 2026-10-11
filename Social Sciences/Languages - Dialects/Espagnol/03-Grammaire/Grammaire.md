@@ -150,6 +150,12 @@ L'espagnol classe ses verbes selon la terminaison de l'infinitif.
 | vosotros | habláis | coméis | vivís |
 | ellos/ellas | hablan | comen | viven |
 
+Les trois groupes côte à côte, puis tener et ser : compare les terminaisons.
+
+```widget:conjugaison
+langue: Espagnol
+```
+
 ## Verbes irréguliers fréquents au présent
 
 | Verbe | Sens | yo | tú | él | nosotros | vosotros | ellos |

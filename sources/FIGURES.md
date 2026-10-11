@@ -63,6 +63,45 @@ etape1: 1700-1800 | Royaume-Uni | Avant 1800, le niveau de vie progresse à pein
 etape2: 1800-1913 | Royaume-Uni | Le Royaume-Uni décolle le premier.
 ```
 
+### Bulles (`owid`, `type: bulles`)
+
+Le nuage de Gapminder : un point par pays, PIB par habitant en abscisse (échelle log), espérance de vie en ordonnée, taille selon la population, couleur selon le continent. Un bouton anime les années.
+
+```
+type: bulles
+pays: France, Chine, Inde, Nigeria, États-Unis
+depuis: 1900
+pas: 10
+trace: Chine
+```
+
+- `x:`, `y:`, `taille:` d'autres graphiques OWID que les trois par défaut, avec `x-titre:`, `y-titre:`, `x-unite:`, `y-unite:`, `x-echelle: lineaire`.
+- `trace:` laisse la piste d'un pays derrière sa bulle.
+
+### Pente (`owid`, `type: pente`)
+
+Deux années face à face, une ligne par pays : qui monte, qui descend, qui double qui. `annees: 1990, 2023`, `mettre-en-avant: Inde, France` (les autres restent en gris).
+
+### Petits multiples (`owid`, `type: multiples`)
+
+Un petit graphique par pays sur la même échelle, `reference: Monde` en gris dans chacun. Ou plusieurs graphiques pour un seul pays, avec `panneaux:` (survoler un panneau montre la même année dans les autres) :
+
+```
+type: multiples
+panneaux: life-expectancy | Espérance de vie | ans ; annual-working-hours-per-worker | Heures travaillées par an | heures
+pays: France
+```
+
+### Deux mesures d'un même sujet (`graphe2`)
+
+Sur une courbe, `graphe2:` ajoute un bouton pour basculer vers un second graphique (total contre par habitant), avec `onglet:` / `onglet2:` pour les libellés des boutons et `titre2:`, `sous-titre2:`, `unite2:` pour le second.
+
+### Variantes, doublement, projections
+
+- `vue:` choisit une variante d'un graphique qui en a plusieurs, comme dans l'adresse OWID : `graphe: incomes-of-the-richest` + `vue: quantile=_10&welfare_type=before_tax` (part des 10 % les plus riches).
+- `doublement: 2` trace en pointillés la courbe qui doublerait tous les 2 ans (loi de Moore), à lire avec `echelle: log`.
+- `projection: oui` sur une pyramide ajoute la part des 65 ans et plus jusqu'en 2100, projection moyenne de l'ONU en pointillés.
+
 ### Autres figures de données
 
 | Bloc | Clés | Usage |
@@ -74,6 +113,12 @@ etape2: 1800-1913 | Royaume-Uni | Le Royaume-Uni décolle le premier.
 | `interets` | `capital`, `taux`, `duree` | Placement contre inflation |
 | `ouverture` | `coups` (UCI, comme `moves:` de l'échiquier) | Résultats Lichess de l'ouverture par niveau |
 | `fiche-langue` | `wikidata` (ex. `Q9240`) | Locuteurs, écriture, famille, code ISO |
+| `durees` | `ligne1: Empire romain \| -27 \| 476 \| note`, …, `mettre-en-avant`, `source` | Durées comparées (empires, dynasties) ; années négatives avant J.-C. ; tri par date ou par durée |
+| `partie` | `coups` (UCI), `san` (notation française), `commentaire12:` (affiché après le 12ᵉ demi-coup), `fin`, `titre` | Une partie d'échecs rejouée coup par coup |
+| `paires` | `paire1: audio/a.mp3 = mot (sens) \| audio/b.mp3 = mot (sens)`, `consigne` | Paires minimales : le lecteur entend un des deux mots et choisit |
+| `conjugaison` | `langue` (Allemand, Espagnol, Turc, Roumain, Indonésien), `verbe` | Tableau de conjugaison, terminaisons en couleur |
+| `faux-amis` | `langue`, `mot1: mot \| bon sens \| piège ; autre piège \| explication` | Quiz de faux amis |
+| `arbre-langues` | aucune | Arbre des familles de langues, les langues du jardin cliquables |
 
 ## Dans le texte
 

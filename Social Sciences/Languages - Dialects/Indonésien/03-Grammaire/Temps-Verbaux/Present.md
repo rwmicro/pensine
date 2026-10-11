@@ -51,6 +51,12 @@ Le verbe seul suffit pour une habitude, un fait général ou quand le contexte e
 
 *Masih* indique qu'une action ou un état **continue** : ![Dia masih tidur.](audio/id_male_3b53284c0f4e.mp3) = Il dort encore. Sa négation est *sudah tidak* (« ne… plus ») : ![Saya sudah tidak merokok.](audio/id_male_8849c041adf6.mp3) = Je ne fume plus.
 
+Pour mesurer la différence avec le français : la même forme à toutes les personnes.
+
+```widget:conjugaison
+langue: Indonésien
+```
+
 ## Résumé
 
 | Usage | Formel | Familier | Exemple |

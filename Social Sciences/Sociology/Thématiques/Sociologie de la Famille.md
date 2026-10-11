@@ -42,6 +42,7 @@ type: pyramide
 graphe: population-by-five-year-age-group
 pays: France
 comparer: 1950
+projection: oui
 titre: France : le baby-boom avance d'année en année
 ```
 
@@ -53,6 +54,17 @@ titre: La baisse de la fécondité, partout
 sous-titre: Nombre moyen d'enfants par femme
 unite: enfants
 zero: non
+```
+
+```widget:owid
+type: multiples
+graphe: children-per-woman-un
+pays: Corée du Sud, Iran, Brésil, Bangladesh, Italie, Niger
+reference: Monde
+depuis: 1950
+titre: Six pays, la même chute, à des rythmes différents
+sous-titre: Nombre moyen d'enfants par femme ; en gris, le monde
+unite: enfants
 ```
 
 ## La division sexuelle du travail domestique

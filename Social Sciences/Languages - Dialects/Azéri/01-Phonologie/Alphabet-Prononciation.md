@@ -123,6 +123,18 @@ Pour choisir un suffixe, regarder la **dernière voyelle de la racine** :
 
 > Un locuteur azéri comprend un Turc sans grande difficulté, mais l'inverse est plus ardu à cause du vocabulaire persan/russe et des sons /æ/, /x/, /ɣ/ absents en turc.
 
+## Entraîner l'oreille : paires minimales
+
+Deux mots qui ne diffèrent que par un son. Écoute, choisis, puis touche chaque mot pour comparer.
+
+```widget:paires
+titre: Quel mot entends-tu ?
+consigne: s contre ş, c contre ç, z contre y.
+paire1: ../02-Communication/audio/az_male_0bca02756654.mp3 = səhər (matin) | ../04-Vocabulaire/audio/az_male_51c296003e71.mp3 = şəhər (ville)
+paire2: ../03-Grammaire/audio/az_male_ca164637c5e0.mp3 = necə (comment) | ../03-Grammaire/audio/az_male_41880f83f29d.mp3 = neçə (combien)
+paire3: ../04-Vocabulaire/audio/az_male_6a80d6b46697.mp3 = göz (œil) | ../04-Vocabulaire/audio/az_male_e3ae81b18f50.mp3 = göy (ciel, bleu)
+```
+
 ## Erreurs fréquentes des francophones
 
 | Erreur | Correct | Note |

@@ -88,6 +88,17 @@ En 1955, l'économiste Simon Kuznets avait suggéré que les inégalités croiss
 
 Au cœur de l'argument, l'inégalité r > g : lorsque le rendement du capital dépasse durablement le taux de croissance de l'économie, les patrimoines hérités croissent plus vite que les revenus du travail et la société tend vers un « capitalisme patrimonial ». La compression des inégalités du XXe siècle apparaît alors comme une parenthèse historique plus que comme une loi du développement. Le livre a suscité un vaste débat, portant notamment sur la mesure du capital, le rôle du logement dans la hausse du rapport patrimoine/revenu et le caractère réellement durable de r > g. Les prolongements économiques sont abordés dans [[Sociologie Économique]].
 
+```widget:owid
+graphe: incomes-of-the-richest
+vue: quantile=_10&welfare_type=before_tax
+pays: France, États-Unis, Suède, Inde
+depuis: 1900
+titre: En France, les 10 % les plus riches touchaient près de la moitié des revenus avant 1940, un tiers aujourd'hui
+sous-titre: Part du revenu national avant impôts touchée par les 10 % les plus riches, en %
+unite: %
+zero: non
+```
+
 ## Débats contemporains
 
 **La fin des classes ?** Dans les années 1980, Henri Mendras décrit dans *La Seconde Révolution française* (1988) une société en « toupie », dominée par une vaste constellation centrale où les clivages de classe s'estompent. Louis Chauvel, dans *Les Classes moyennes à la dérive* (2006), conteste cette moyennisation en montrant le déclassement des générations nées après les années 1950 et le retour d'écarts de patrimoine.

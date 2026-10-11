@@ -46,6 +46,29 @@ unite: ans
 zero: non
 ```
 
+```widget:owid
+type: bulles
+pays: France, Royaume-Uni, États-Unis, Allemagne, Japon, Corée du Sud, Chine, Inde, Indonésie, Brésil, Mexique, Russie, Égypte, Nigeria, Éthiopie, Afrique du Sud
+depuis: 1900
+pas: 10
+trace: Chine
+titre: Plus un pays s'enrichit, plus on y vit longtemps
+sous-titre: Chaque bulle est un pays, sa taille sa population. Lance l'animation.
+x-titre: PIB par habitant
+y-titre: Espérance de vie
+```
+
+```widget:owid
+type: pente
+graphe: life-expectancy
+pays: Inde, Chine, Nigeria, Brésil, Russie, États-Unis, Japon, France, Monde
+annees: 1990, 2023
+mettre-en-avant: Inde, France
+titre: Depuis 1990, l'Inde a gagné 13 ans d'espérance de vie, la France 6
+sous-titre: Espérance de vie à la naissance, en années
+unite: ans
+```
+
 ```widget:classer
 consigne: Classe ces pays par espérance de vie
 graphe: life-expectancy
