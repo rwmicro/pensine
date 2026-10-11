@@ -189,6 +189,11 @@ Cette fiche assemble les phrases vues jusqu'ici en conversations complètes : se
 > - *tunggu sebentar* : attendez un instant
 > - *Mas* : pour interpeller un jeune serveur ; *Mbak* pour une serveuse
 
+Fais glisser le curseur : combien des mots de ces trois dialogues reconnaîtrais-tu en ne connaissant que leurs N mots les plus fréquents ?
+
+```widget:couverture-mots
+```
+
 ## Réactions et Émotions
 
 | Français | Indonésien | Contexte |

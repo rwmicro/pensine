@@ -47,6 +47,12 @@ Toutes consonnes : les voyelles courtes sont des signes diacritiques (*ḥarakā
 
 **Convention de translittération utilisée dans ce dossier** : identique à celle d'[[Social Sciences/Languages - Dialects/Arabe/Libanais/01-Phonologie/Alphabet-Prononciation|Arabe Libanais]] (`2 3 5/kh 7`, majuscules pour les emphatiques), avec une différence essentielle : en fuṣḥā, **toutes les distinctions sont conservées** — on ne fusionne jamais ث/ت, ذ/د, ظ/ز comme le font plusieurs dialectes, ni le ق en coup de glotte (il reste uvulaire /q/).
 
+Tape un mot (ou compose-le avec le clavier à l'écran) pour voir chaque lettre prendre la forme de sa position, et où ا د ذ ر ز و coupent le mot.
+
+```widget:lettres-arabes
+mot: مدرسة
+```
+
 ## Les voyelles courtes (ḥarakāt) : la marque distinctive du fuṣḥā
 
 C'est le trait qui distingue le plus nettement l'écrit standard de l'écrit dialectal : le fuṣḥā possède un système complet de voyelles courtes notées par des signes diacritiques, essentielles à la grammaire (elles portent les marques de cas — voir [[Social Sciences/Languages - Dialects/Azéri/02-Grammaire/Grammaire#L'i'rab|i'rab]]).

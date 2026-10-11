@@ -91,6 +91,14 @@ Les cas indiquent la **fonction** du nom dans la phrase. C'est ce qui permet l'o
 | Dat.   | einem | einer | einem | — |
 | Gén.   | eines | einer | eines | — |
 
+Choisis un article, un genre et un cas : la forme s'allume dans le tableau, avec une phrase d'exemple ; coche l'adjectif pour voir les déclinaisons faible, mixte et forte.
+
+```widget:cas-allemands
+article: defini
+genre: m
+cas: acc
+```
+
 ## Quel cas après quel verbe / préposition ?
 
 ### Verbes communs et leur cas
