@@ -99,6 +99,21 @@ Les transcriptions API des fiches de vocabulaire ne marquent donc pas l'accent.
 4. **NG et NGG** : *bangun* (ba-ngoun, sans g) contre *tinggi* (ting-gi, avec g).
 5. **Roulez les R** : ils aident à être compris.
 
+## Entraîner l'oreille : paires minimales
+
+Deux mots qui ne diffèrent que par un son. Écoute, choisis, puis touche chaque mot pour comparer.
+
+```widget:paires
+titre: Quel mot entends-tu ?
+consigne: Le c indonésien se dit « tch », pas « s » ; une consonne suffit à changer de mot.
+paire1: ../02-Communication/audio/id_male_368d39561dfa.mp3 = pacar (petit ami) | ../04-Vocabulaire/Lieux/audio/id_male_b0d4dce64155.mp3 = pasar (marché)
+paire2: audio/id_male_6d3ca2c7cc6e.mp3 = hujan (pluie) | ../04-Vocabulaire/Lieux/audio/id_male_190337b7b247.mp3 = hutan (forêt)
+paire3: audio/id_male_3ea4979249c2.mp3 = kelapa (noix de coco) | ../02-Communication/audio/id_male_677f15d098d1.mp3 = kenapa (pourquoi)
+paire4: ../02-Communication/audio/id_male_19a4756b6c97.mp3 = mohon (prier, demander) | ../04-Vocabulaire/Lieux/audio/id_male_9f84e38995fe.mp3 = pohon (arbre)
+paire5: ../02-Communication/audio/id_male_d2cfa1594a4a.mp3 = lurus (droit) | ../04-Vocabulaire/audio/id_male_07b9945169af.mp3 = kurus (maigre)
+paire6: audio/id_male_2ce8de94f665.mp3 = besar (grand) | ../04-Vocabulaire/audio/id_male_80cae2b8b855.mp3 = benar (vrai)
+```
+
 ## À retenir
 
 - L'orthographe est phonétique : une lettre = un son, sauf le **E** qui en note deux (e muet ou é/è).

@@ -10,6 +10,10 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Tok Pisin/02-Communication/R
 
 ## Diversité linguistique : le pays le plus complexe du monde
 
+```widget:fiche-langue
+wikidata: Q34159
+```
+
 La Papouasie-Nouvelle-Guinée (PNG) est unique au monde : environ **840 langues vernaculaires** parlées sur un territoire de 8 millions d'habitants. C'est la densité linguistique la plus élevée de la planète.
 
 | Fait | Détail |
@@ -25,7 +29,7 @@ La Papouasie-Nouvelle-Guinée (PNG) est unique au monde : environ **840 langues 
 | Période | Développement |
 |---------|---------------|
 | XIXe siècle | Pidgin du Pacifique — plantations de canne à sucre, Queensland |
-| 1884–1914 | Colonisation allemande — emprunts allemands (*raus, baimbai, musik*) |
+| 1884–1914 | Colonisation allemande — emprunts allemands (*raus, gumi, musik*) |
 | 1914–1975 | Administration australienne — standardisation anglophone |
 | 1975 | Indépendance — Tok Pisin devient langue officielle |
 | Aujourd'hui | Premier journal, radio, parlement, prédication religieuse en Tok Pisin |

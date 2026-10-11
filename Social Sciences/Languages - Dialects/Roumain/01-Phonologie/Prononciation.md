@@ -100,6 +100,20 @@ C'est le son le plus difficile pour les francophones. Il n'existe pas en frança
 | ua | /wa/ | l**ua** (prendre) |
 | ău | /əw/ | r**ău** (mauvais) |
 
+## Entraîner l'oreille : paires minimales
+
+Deux mots qui ne diffèrent que par un son. Écoute, choisis, puis touche chaque mot pour comparer.
+
+```widget:paires
+titre: Quel mot entends-tu ?
+consigne: Une seule consonne change ; écoute aussi le â /ɨ/ et le ă final.
+paire1: ../03-Grammaire/audio/ro_male_cc238e3a3811.mp3 = pâine (pain) | ../03-Grammaire/audio/ro_male_3fa22bf1a818.mp3 = mâine (demain)
+paire2: ../03-Grammaire/audio/ro_male_6938dc80887c.mp3 = casă (maison) | ../06-Ressources/audio/ro_male_9eb0ca0e97dc.mp3 = masă (table)
+paire3: ../03-Grammaire/audio/ro_male_d0f7767672ee.mp3 = zece (dix) | ../04-Vocabulaire/audio/ro_male_879674c955cf.mp3 = rece (froid)
+paire4: ../04-Vocabulaire/audio/ro_male_ac7a52283a86.mp3 = sare (sel) | ../04-Vocabulaire/audio/ro_male_ebd321092a70.mp3 = mare (mer, grand)
+paire5: ../03-Grammaire/audio/ro_male_028079fe3437.mp3 = două (deux) | ../03-Grammaire/audio/ro_male_1c25b6c63ee5.mp3 = nouă (neuf)
+```
+
 ## Erreurs fréquentes des francophones
 
 | Erreur | Correct | Note |

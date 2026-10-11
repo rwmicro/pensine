@@ -112,6 +112,18 @@ Ce qu'il faut en retenir ici : les caches `L1` et `L2` sont privés à chaque c�
 > [!warning] Piège
 > « Annuler les résultats » n'efface pas tous les effets. Les registres et la mémoire sont restaurés, mais **l'état du cache, lui, garde la trace** des lignes chargées pendant l'exécution spéculative. Spectre et Meltdown (2018) exploitent exactement cette asymétrie : en mesurant les temps d'accès au cache, on déduit indirectement des données qu'on n'avait pas le droit de lire. L'atténuation KPTI, décrite dans [[Appels Système]], est l'une des conséquences durables de cette classe d'attaques — et l'une des rares où une optimisation de performance a dû être partiellement défaite.
 
+La fréquence plafonne vers 2005, mais le nombre de transistors continue de doubler à peu près tous les deux ans : c'est ce surplus qu'on dépense en cœurs.
+
+```widget:owid
+graphe: transistors-per-microprocessor
+pays: Monde
+echelle: log
+doublement: 2
+titre: De 2 300 transistors en 1971 à 58 milliards en 2021 : la loi de Moore
+sous-titre: Nombre de transistors du plus gros microprocesseur de l'année
+unite: transistors
+```
+
 ## Réponse 4 — plusieurs cœurs, plusieurs fils
 
 **Le multicœur** place plusieurs cœurs complets sur la même puce, chacun avec ses registres et ses caches privés, partageant le `L3` et l'accès à la mémoire. C'est une réponse à la limite de fréquence : la chaleur dissipée croît bien plus vite que la fréquence, ce qui a arrêté la course au gigahertz vers 2005.

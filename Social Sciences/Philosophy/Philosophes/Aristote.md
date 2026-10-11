@@ -5,6 +5,7 @@ subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie]
 date: "2026-02-22"
 prerequis: ["[[Platon]]"]
+wikidata: Q868
 ---
 
 # Aristote (384-322 av. J.-C.)

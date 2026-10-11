@@ -99,6 +99,19 @@ Empiler les suffixes montre ce que les deux tableaux ci-dessous décrivent : **l
 - **kız** (fille) → **kızın** (de la fille)
 - **göz** (œil) → **gözün** (de l'œil)
 
+## Entraîner l'oreille : paires minimales
+
+Deux mots qui ne diffèrent que par un son. Écoute, choisis, puis touche chaque mot pour comparer.
+
+```widget:paires
+titre: Quel mot entends-tu ?
+consigne: r roulé contre l, d contre n, o contre a.
+paire1: ../04-Vocabulaire/audio/tr_male_63625c52835a.mp3 = sarı (jaune) | ../04-Vocabulaire/audio/tr_male_5e395045d489.mp3 = salı (mardi)
+paire2: ../03-Grammaire/audio/tr_male_e96604ddcef6.mp3 = yedi (sept) | ../04-Vocabulaire/audio/tr_male_d9fa8a3b6b18.mp3 = yeni (nouveau)
+paire3: ../03-Grammaire/audio/tr_male_f77e89b05188.mp3 = olmak (être) | ../04-Vocabulaire/audio/tr_male_295564d8e046.mp3 = almak (prendre)
+paire4: ../03-Grammaire/audio/tr_male_c6f791b77f5a.mp3 = ben (je) | ../03-Grammaire/audio/tr_male_a4adee892313.mp3 = sen (tu)
+```
+
 ## Accent
 
 L'accent turc est généralement sur la **dernière syllabe** du radical, mais avec de nombreuses exceptions pour les noms propres et les emprunts.

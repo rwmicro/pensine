@@ -10,6 +10,10 @@ date: "2026-09-28"
 
 Le sous-continent indien, qui comprend aujourd'hui l'Inde, le Pakistan, le Bangladesh, le Népal et le Sri Lanka, n'a été réuni sous une seule autorité politique qu'à de rares moments de son histoire. Il possède pourtant une profonde unité de civilisation, faite de langues apparentées, de textes partagés et d'une organisation sociale marquée par la caste. C'est aussi le berceau de quatre religions majeures, l'[[Hindouisme]], le [[Bouddhisme]], le [[Jaïnisme|jaïnisme]] et le [[Sikhisme]], et la terre d'accueil de l'une des plus grandes populations musulmanes du monde. Cette pluralité a produit des synthèses remarquables, mais aussi la fracture de 1947, lorsque l'indépendance s'est accompagnée d'une partition sanglante.
 
+```widget:fiche-pays
+pays: IND
+```
+
 ## Chronologie
 
 ```mermaid

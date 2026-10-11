@@ -93,6 +93,15 @@ date: "2026-02-04"
 - Valorisation morale du travail
 - Ascétisme intramondain → Accumulation capitaliste
 
+```widget:owid
+type: multiples
+panneaux: life-expectancy | Espérance de vie | ans ; annual-working-hours-per-worker | Heures travaillées par an | heures
+pays: France
+depuis: 1850
+titre: Depuis 1870, les Français vivent 2,3 fois plus longtemps et travaillent deux fois moins d'heures par an
+sous-titre: France, de 1850 à aujourd'hui
+```
+
 ## Taylorisme et Organisation Scientifique du Travail (OST)
 
 ### Frederick W. Taylor (1856-1915)

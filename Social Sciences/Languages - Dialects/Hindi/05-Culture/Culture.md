@@ -10,6 +10,10 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Hindi/02-Communication/Regis
 
 ## Le hindi dans le paysage linguistique indien
 
+```widget:fiche-langue
+wikidata: Q1568
+```
+
 L'Inde compte 22 langues officielles et plus de 1 600 langues recensées. Le hindi est la langue la plus parlée (600 millions de locuteurs), mais il n'est pas compris de tous — les États du sud (Tamil Nadu, Kerala, Karnataka) résistent souvent à l'usage du hindi.
 
 | Langue | Locuteurs | Région principale |

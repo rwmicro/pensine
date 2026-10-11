@@ -92,6 +92,12 @@ Associations végétales mutualistes. La guilde mime la **niche écologique** : 
 
 **Guilde du pommier** (climat tempéré) : pommier + consoude (mobilisation potassium) + capucine (répulsif puceron) + ail (anti-fongique) + trèfle (azote) + bourrache (pollinisateurs).
 
+Les associations jouent aussi dans le temps : plante une famille par parcelle et par an, et observe l'azote du sol et les retours trop rapides d'une même famille (modèle illustratif).
+
+```widget:rotation-cultures
+annees: 4
+```
+
 ### Forêt comestible (forest gardening)
 
 Mimétisme d'une lisière forestière sur 7 strates étagées verticalement : auto-fertilité, biodiversité, résilience.

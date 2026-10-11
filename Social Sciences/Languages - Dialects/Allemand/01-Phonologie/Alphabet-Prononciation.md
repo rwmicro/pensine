@@ -144,6 +144,21 @@ L'accent allemand est généralement sur la **première syllabe** du radical, pa
 
 > **Préfixes séparables vs inséparables** influencent l'accent (voir 02-Grammaire). *Auf*hören vs be*zah*len.
 
+## Entraîner l'oreille : paires minimales
+
+Deux mots qui ne diffèrent que par un son. Écoute, choisis, puis touche chaque mot pour comparer.
+
+```widget:paires
+titre: Quel mot entends-tu ?
+consigne: ei contre eu, r contre l, e contre a, et le h qui se souffle.
+paire1: ../02-Communication/audio/de_male_ed255bf5079a.mp3 = nein (non) | ../04-Vocabulaire/audio/de_male_4ade4696400a.mp3 = neun (neuf)
+paire2: ../04-Vocabulaire/audio/de_male_d3b9b481a164.mp3 = vier (quatre) | ../04-Vocabulaire/audio/de_male_170f9da15b5f.mp3 = viel (beaucoup)
+paire3: ../02-Communication/audio/de_male_ddc9009f05fc.mp3 = echt (vrai) | ../04-Vocabulaire/audio/de_male_2b751675b6de.mp3 = acht (huit)
+paire4: ../04-Vocabulaire/audio/de_male_59c617d1aa00.mp3 = weiß (blanc) | ../04-Vocabulaire/audio/de_male_af6a55c35fe0.mp3 = heiß (chaud)
+paire5: ../04-Vocabulaire/audio/de_male_a6a1aca4d8c4.mp3 = juni (juin) | ../04-Vocabulaire/audio/de_male_dd2775c24540.mp3 = juli (juillet)
+paire6: ../04-Vocabulaire/audio/de_male_f0e0766e6575.mp3 = warm (chaud) | ../04-Vocabulaire/audio/de_male_bd3381b31ded.mp3 = arm (pauvre)
+```
+
 ## Erreurs fréquentes des francophones
 
 | Erreur | Correct | Note |

@@ -67,6 +67,14 @@ Une révolution souvent ignorée : la majeure partie de la monnaie moderne **n'e
 
 Le système repose sur la **création monétaire ex nihilo** par les banques commerciales, encadrée par les banques centrales (taux directeurs, réserves obligatoires). Cela signifie que le système monétaire moderne repose sur un **pari sur l'avenir** : la conviction que les emprunts seront remboursés, que la croissance économique permettra d'honorer les dettes.
 
+Ce que vaut une somme dépend de l'année où on la dépense. Le convertisseur ci-dessous ramène un prix en francs (anciens jusqu'en 1959, nouveaux ensuite) à des euros d'aujourd'hui, avec l'indice des prix de l'Insee.
+
+```widget:convertisseur
+montant: 1000
+monnaie: AF
+annee: 1958
+```
+
 ## La monnaie et le pouvoir
 
 La monnaie n'est jamais politiquement neutre :
@@ -89,6 +97,14 @@ Les crises montrent à nu la nature fictive de la monnaie :
 | **Crise de 2008** | Des titres financiers adossés à des crédits immobiliers (subprimes) se révèlent sans valeur. La confiance interbancaire s'effondre. Les banques centrales créent des milliers de milliards de monnaie (*quantitative easing*) pour éviter l'effondrement |
 | **Zimbabwe (2008)** | Inflation de 79,6 milliards de % par mois. Le billet de 100 000 milliards de dollars zimbabwéens ne vaut rien |
 | **Bitcoin (2009-présent)** | Expérience grandeur nature : une monnaie sans Etat, sans banque centrale, fondée sur la cryptographie et le consensus distribué. Montre que la confiance peut s'ancrer dans un algorithme — mais aussi que la volatilité est extrême sans institution stabilisatrice |
+
+L'inflation ronge l'épargne qui dort et ne laisse au placement que ce qui la dépasse :
+
+```widget:interets
+capital: 1000
+taux: 3
+duree: 30
+```
 
 ## L'argent comme valeur ultime
 

@@ -10,6 +10,10 @@ date: "2026-09-28"
 
 L'histoire du Japon est celle d'un archipel qui a longtemps choisi ce qu'il empruntait au monde extérieur. De la Chine, il reçoit l'écriture, le [[Bouddhisme]] et le modèle d'un État bureaucratique, qu'il transforme profondément. Pendant sept siècles, le pouvoir effectif appartient non à l'empereur mais à des guerriers, les shoguns. Au XIXe siècle, menacé par les puissances occidentales, le pays accomplit en une génération la modernisation la plus rapide de son temps, puis se lance dans une expansion impériale qui s'achève dans la catastrophe de 1945. La reconstruction pacifique qui suit en fait la deuxième économie du monde pendant plusieurs décennies.
 
+```widget:fiche-pays
+pays: JPN
+```
+
 ## Chronologie
 
 ```mermaid

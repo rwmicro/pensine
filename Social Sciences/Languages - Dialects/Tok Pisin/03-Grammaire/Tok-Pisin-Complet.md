@@ -270,6 +270,11 @@ L'une des stratégies les plus remarquables du Tok Pisin est la **composition de
 
 *Pikinini* (enfant) est l'un des mots les plus diffusés dans les créoles du Pacifique et des Caraïbes, tous hérités du commerce portugais.
 
+Filtre les mots par langue d'origine pour voir d'où vient le vocabulaire, et quelle part chaque source prend dans la liste.
+
+```widget:etymologie-tok-pisin
+```
+
 ## Sociolinguistique
 
 ### Variétés

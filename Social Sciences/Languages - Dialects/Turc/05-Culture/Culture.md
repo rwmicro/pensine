@@ -10,6 +10,10 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Turc/02-Communication/Regist
 
 ## Identité turque : carrefour entre deux mondes
 
+```widget:fiche-langue
+wikidata: Q256
+```
+
 La Turquie occupe une position unique : héritière de l'[[Empire ottoman]], État laïc à majorité musulmane, membre de l'OTAN, candidate (en suspens) à l'UE, pont géographique entre Europe et Asie.
 
 | Fait | Détail |

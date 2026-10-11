@@ -9,6 +9,10 @@ date: "2026-07-30"
 
 Dossier d'initiation à l'ouïghour (uyghurchä / ئۇيغۇرچە), langue turcique karlouke parlée au Xinjiang et dans sa diaspora.
 
+```widget:fiche-langue
+wikidata: Q13263
+```
+
 ## Structure du dossier
 
 - **01-Phonologie/** — alphabet (trois écritures), prononciation, harmonie vocalique, clarification sur l'absence de tons

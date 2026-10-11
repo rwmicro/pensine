@@ -93,6 +93,12 @@ L'alphabet turc utilise 29 lettres latines avec des caractères spéciaux:
 | Vouloir | ![istemek](audio/tr_male_d387360c5936.mp3) | istiyorum |
 | Aimer | ![sevmek](audio/tr_male_c260fb371517.mp3) | seviyorum |
 
+Le verbe turc s'empile : radical, marque du temps, personne. L'harmonie vocalique choisit les voyelles des suffixes.
+
+```widget:conjugaison
+langue: Turc
+```
+
 ## Phrases Essentielles
 
 | Français | Turc |
@@ -137,6 +143,14 @@ Exemple avec "ev" (maison):
 - evimiz = notre maison
 - eviniz = votre maison
 - evleri = leur maison
+
+Empile les suffixes sur une racine pour voir chaque voyelle s'accorder, jusqu'à *ev-ler-im-de-ki*.
+
+```widget:agglutination
+langue: turc
+racine: ev
+suffixes: pluriel, mon, locatif, ki
+```
 
 ### Ordre des Mots
 **SOV (Sujet-Objet-Verbe)** au lieu de SVO en français

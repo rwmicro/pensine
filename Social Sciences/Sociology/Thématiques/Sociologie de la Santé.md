@@ -34,6 +34,49 @@ Constat le plus robuste et le plus constant de ce champ, vérifié dans la quasi
 
 **Les mécanismes explicatifs** sont multiples et cumulatifs : accès inégal aux soins (même dans les systèmes à couverture universelle, à cause de la distance, du renoncement aux soins pour raisons financières indirectes, de la moindre familiarité avec les codes du système de santé), conditions de travail plus pénibles et plus exposées aux risques physiques dans les catégories populaires, habitudes de vie elles-mêmes socialement déterminées (alimentation, tabac, activité physique — dont la distribution sociale n'est pas un pur choix individuel mais reflète des contraintes économiques et culturelles), et **stress chronique** lié à l'insécurité économique et au manque de contrôle sur ses conditions de vie et de travail (thèse centrale des études de Marmot sur le gradient social).
 
+Les écarts entre pays sont du même ordre que les écarts entre classes sociales, et ils se sont resserrés depuis 1950 sans disparaître.
+
+```widget:owid
+graphe: life-expectancy
+pays: France, Inde, Nigeria, Monde
+depuis: 1950
+titre: Entre pays aussi, l'espérance de vie suit la richesse
+sous-titre: Espérance de vie à la naissance, en années
+unite: ans
+zero: non
+```
+
+```widget:owid
+type: bulles
+pays: France, Royaume-Uni, États-Unis, Allemagne, Japon, Corée du Sud, Chine, Inde, Indonésie, Brésil, Mexique, Russie, Égypte, Nigeria, Éthiopie, Afrique du Sud
+depuis: 1900
+pas: 10
+trace: France
+titre: Plus riche, on vit plus vieux, mais le gain s'aplatit vite
+sous-titre: PIB par habitant (dollars de 2011, échelle log) et espérance de vie. Taille des bulles : population.
+x-titre: PIB par habitant
+y-titre: Espérance de vie
+```
+
+```widget:owid
+type: pente
+graphe: life-expectancy
+pays: Inde, Chine, Nigeria, Brésil, Russie, États-Unis, Japon, France, Monde
+annees: 1990, 2023
+mettre-en-avant: France, Inde
+titre: Depuis 1990, l'Inde a gagné 13 ans d'espérance de vie, la France 6
+sous-titre: Espérance de vie à la naissance, en années
+unite: ans
+```
+
+```widget:classer
+consigne: Classe ces pays par espérance de vie
+graphe: life-expectancy
+pays: France, Japon, Inde, Nigeria, Brésil
+annee: 2023
+unite: ans
+```
+
 ## La médicalisation de la société
 
 Concept central développé notamment par Irving Zola et Peter Conrad : la **médicalisation** désigne le processus par lequel des comportements, des états ou des expériences auparavant considérés comme relevant du domaine moral, social ou simplement de la variation humaine ordinaire deviennent progressivement définis et pris en charge comme des problèmes médicaux, relevant de l'expertise et de l'intervention des professionnels de santé.

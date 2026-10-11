@@ -5,6 +5,7 @@ subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie]
 date: "2026-02-19"
 prerequis: ["[[Hume]]", "[[Leibniz]]"]
+wikidata: Q9312
 ---
 
 # Emmanuel Kant (1724-1804)
