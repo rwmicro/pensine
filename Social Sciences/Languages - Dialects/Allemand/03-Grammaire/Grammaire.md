@@ -176,6 +176,12 @@ Auxiliaire **haben** ou **sein** + participe passé. Le parfait est **dominant �
 | haben | Verbes transitifs et la majorité | Ich **habe** gemacht |
 | sein | Verbes de mouvement, changement d'état | Ich **bin** gegangen / gewesen |
 
+Choisis un verbe : la terminaison est en couleur, le radical qui change (fahren → fährst) ressort en gras.
+
+```widget:conjugaison
+langue: Allemand
+```
+
 ## Verbes irréguliers (forts) — top 30
 
 Verbes "forts" = changement de voyelle au radical au prétérit / participe passé.

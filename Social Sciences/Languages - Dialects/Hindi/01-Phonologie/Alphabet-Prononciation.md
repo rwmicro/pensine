@@ -100,6 +100,20 @@ Pour les sons empruntés à l'arabe, au persan et à l'anglais, le hindi ajoute 
 
 Dans la pratique courante, beaucoup de locuteurs hindi prononcent ces sons comme leurs équivalents non-nuqta (क pour क़, etc.).
 
+## Entraîner l'oreille : paires minimales
+
+Deux mots qui ne diffèrent que par un son. Écoute, choisis, puis touche chaque mot pour comparer.
+
+```widget:paires
+titre: Quel mot entends-tu ?
+consigne: i court contre ī long, k aspiré, et des mots qui ne diffèrent que d'une consonne.
+paire1: ../04-Vocabulaire/audio/hi_male_a9b7ccd6b402.mp3 = पिता pitā (père) | ../04-Vocabulaire/audio/hi_male_d1e936a2232f.mp3 = पीता pītā (il boit)
+paire2: ../04-Vocabulaire/audio/hi_male_bb3ffa496280.mp3 = नीला nīlā (bleu) | ../04-Vocabulaire/audio/hi_male_a057d159a1e4.mp3 = पीला pīlā (jaune)
+paire3: ../04-Vocabulaire/audio/hi_male_8cf1cb7b705c.mp3 = दादी dādī (grand-mère) | ../05-Culture/audio/hi_male_dfc6bc8ffb69.mp3 = दीदी dīdī (grande sœur)
+paire4: ../03-Grammaire/audio/hi_male_0c118b8f9302.mp3 = होना honā (être) | ../03-Grammaire/audio/hi_male_89a465b84352.mp3 = सोना sonā (dormir)
+paire5: ../02-Communication/audio/hi_male_7b2e9973da1f.mp3 = खाना khānā (manger) | ../03-Grammaire/audio/hi_male_5cac413e5dde.mp3 = जाना jānā (aller)
+```
+
 ## Règles de lecture
 
 - Chaque consonne porte la voyelle inhérente /a/ sauf si un **halant** (्) la supprime ou qu'une autre voyelle est attachée

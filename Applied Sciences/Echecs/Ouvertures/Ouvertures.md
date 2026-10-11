@@ -26,6 +26,21 @@ L'ouverture occupe la dizaine de premiers coups. Son but n'est pas de gagner, ma
 > [!important] Idée clé
 > Classer les ouvertures par couleur masque le vrai critère de choix : le type de position qui en résulte, ouverte et tactique ou fermée et positionnelle. La Sicilienne et la Française sont deux réponses des Noirs à 1.e4, mais elles mènent à des univers stratégiques opposés. Le choix dépend du style du joueur, pas de sa couleur.
 
+La partie de l'Opéra montre ces principes poussés à l'extrême : développement rapide, colonnes ouvertes, roi adverse pris au centre. Rejoue-la coup par coup (flèches du clavier sur l'échiquier).
+
+```widget:partie
+titre: Morphy contre le duc de Brunswick et le comte Isouard, Opéra de Paris, 1858
+coups: e2e4 e7e5 g1f3 d7d6 d2d4 c8g4 d4e5 g4f3 d1f3 d6e5 f1c4 g8f6 f3b3 d8e7 b1c3 c7c6 c1g5 b7b5 c3b5 c6b5 c4b5 b8d7 e1c1 a8d8 d1d7 d8d7 h1d1 e7e6 b5d7 f6d7 b3b8 d7b8 d1d8
+san: e4 e5 Cf3 d6 d4 Fg4 dxe5 Fxf3 Dxf3 dxe5 Fc4 Cf6 Db3 De7 Cc3 c6 Fg5 b5 Cxb5 cxb5 Fxb5+ Cbd7 O-O-O Td8 Txd7 Txd7 Td1 De6 Fxd7+ Cxd7 Db8+ Cxb8 Td8#
+commentaire6: 3…Fg4 cloue le cavalier, mais les Noirs vont donner leur fou contre un cavalier sans rien gagner.
+commentaire9: Après 5.Dxf3, les Blancs ont déjà deux pièces développées et une dame active ; les Noirs, aucune.
+commentaire13: 7.Db3 attaque à la fois f7 et b7 : le principe des menaces doubles.
+commentaire19: 10.Cxb5 ! Morphy sacrifie un cavalier pour ouvrir des lignes vers le roi resté au centre.
+commentaire23: 12.O-O-O met le roi à l'abri et amène la tour sur la colonne d, d'un seul coup.
+commentaire31: 16.Db8+ ! La dame se sacrifie pour dévier le cavalier qui gardait d8.
+fin: 17.Td8# : mat avec les deux dernières pièces. Les Noirs n'ont jamais roqué ni développé leur fou f8.
+```
+
 ## Ouvertures des Blancs après 1.e4 e5 (parties ouvertes)
 
 ### Partie italienne

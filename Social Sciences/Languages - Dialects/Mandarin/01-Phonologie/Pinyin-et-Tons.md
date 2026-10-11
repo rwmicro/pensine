@@ -169,6 +169,20 @@ Le contour dessine la hauteur dans le temps, ce qu'une description verbale peine
 
 > Les 5 syllabes "ma" sont entièrement différentes en mandarin. C'est pourquoi le ton est aussi crucial que la consonne.
 
+## Entraîner l'oreille : paires minimales
+
+Deux mots qui ne diffèrent que par un son. Écoute, choisis, puis touche chaque mot pour comparer.
+
+```widget:paires
+titre: Quel mot entends-tu ?
+consigne: Même syllabe, autre ton (ou s contre sh) : un autre mot.
+paire1: ../04-Vocabulaire/audio/zh_male_bf70fe057a9f.mp3 = 买 mǎi (acheter) | ../04-Vocabulaire/audio/zh_male_f3d4d804b4e3.mp3 = 卖 mài (vendre)
+paire2: ../03-Grammaire/audio/zh_male_b906af8d9fcd.mp3 = 妈 mā (maman) | ../03-Grammaire/audio/zh_male_a8f302eed216.mp3 = 马 mǎ (cheval)
+paire3: ../04-Vocabulaire/audio/zh_male_d95e3b76b067.mp3 = 书 shū (livre) | ../03-Grammaire/audio/zh_male_24f973946296.mp3 = 树 shù (arbre)
+paire4: ../03-Grammaire/audio/zh_male_82453a9047d8.mp3 = 是 shì (être) | ../03-Grammaire/audio/zh_male_b95729171890.mp3 = 十 shí (dix)
+paire5: ../05-Culture/audio/zh_male_a4e4ddc9fad3.mp3 = 四 sì (quatre) | ../03-Grammaire/audio/zh_male_b95729171890.mp3 = 十 shí (dix)
+```
+
 ## Le sandhi tonal — règles d'altération
 
 Les tons s'influencent mutuellement à l'oral. Trois règles principales :
