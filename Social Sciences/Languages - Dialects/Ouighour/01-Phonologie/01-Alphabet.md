@@ -56,6 +56,13 @@ L'ouïghour appartient à la branche karlouke des langues turciques — la même
 | ۋ | w | /v~w/ | entre « v » et « w » |
 | ي | y | /j/ | « y » de « yaourt » |
 
+Écris un mot dans l'une des trois écritures : les deux autres suivent, avec le tableau des lettres employées.
+
+```widget:ecritures
+langue: ouighour
+mot: alma
+```
+
 ## Remarque sur la vocalisation initiale
 
 En début de mot, chaque voyelle est portée par la lettre support *ئ* (hamza sur alif), purement graphique et dénuée de valeur consonantique propre — un dispositif hérité de l'arabe qui permet simplement d'ancrer visuellement la voyelle. Ainsi, *ئالما* (alma, « pomme ») s'ouvre par ce support suivi de la voyelle *a*.
