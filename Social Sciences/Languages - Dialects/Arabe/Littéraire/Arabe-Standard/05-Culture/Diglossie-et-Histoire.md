@@ -32,6 +32,11 @@ Le linguiste Charles Ferguson forge en 1959 le terme **diglossie** précisément
 
 Un locuteur arabophone cultivé navigue en permanence entre ces deux pôles selon la situation — s'exprimer uniquement en fuṣḥā dans une conversation informelle sonnerait aussi étrange, socialement, que réciter du latin classique dans une conversation de café en France. Voir [[Social Sciences/Languages - Dialects/Arabe/Libanais/03-Communication/Registres|Registres — Arabe Libanais]] pour la description de cette diglossie vécue depuis le dialecte, et [[Registres-Media|Registres et Arabe Médiatique]] pour le continuum observable dans les médias contemporains.
 
+La même phrase dans les deux pôles, et dans deux dialectes : passe d'une phrase à l'autre et regarde ce qui change (négation, « vouloir », « maintenant »).
+
+```widget:trois-arabes
+```
+
 ## Le fuṣḥā comme ciment politique et identitaire
 
 Au-delà de sa fonction linguistique, le fuṣḥā joue un rôle symbolique central dans l'idée d'une **nation arabe** unifiée par-delà les frontières des États modernes (panarabisme) : c'est la seule variété linguistique mutuellement comprise, à l'écrit et dans les médias formels, entre un Marocain, un Égyptien, un Irakien et un Yéménite — dont les dialectes parlés respectifs peuvent être largement inintelligibles entre eux à l'oral spontané. Cette fonction unificatrice explique l'investissement politique et symbolique considérable, dans de nombreux pays arabes, dans l'enseignement et la promotion du fuṣḥā face à la fragmentation dialectale.
