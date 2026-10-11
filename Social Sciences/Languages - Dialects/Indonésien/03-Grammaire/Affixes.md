@@ -45,6 +45,13 @@ La règle tient en une phrase : **me- prend la nasale prononcée au même endroi
 | t → ∅ | men- | *tulis* → **menulis** (écrire) |
 | s → ∅ | meny- | *sapu* → **menyapu** (balayer) |
 
+Choisis une racine et un affixe : le mot se construit avec la nasale de la règle, et la consonne qui tombe reste visible.
+
+```widget:affixes-indonesiens
+racine: tulis
+affixe: meN
+```
+
 ### Exemples Détaillés
 
 | Racine | Sens | Avec ME- | Exemple |

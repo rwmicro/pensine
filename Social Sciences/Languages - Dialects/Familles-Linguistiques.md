@@ -42,6 +42,12 @@ mindmap
       Cr1["Tok Pisin"]
 ```
 
+Un même mot dans les langues du jardin, rangées par famille : choisis un mot, puis clique une forme pour sa translittération.
+
+```widget:meme-mot
+concept: eau
+```
+
 ## Indo-européen — la plus grande famille
 
 Avec ~3,2 milliards de locuteurs, c'est la famille la plus parlée au monde. Origine commune : ~6000-4000 av. J.-C., proto-indo-européen probablement parlé dans les steppes pontiques.

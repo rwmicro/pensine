@@ -89,6 +89,13 @@ La voyelle **e** en kabyle est un schwa /ə/ — très bref, parfois à peine pr
 | M     | ⵎ        | Y     | ⵢ        |
 |       |          | Z     | ⵣ        |
 
+Écris un mot en latin ou en tifinagh pour le voir dans l'autre écriture, lettre par lettre.
+
+```widget:ecritures
+langue: kabyle
+mot: azul
+```
+
 ## Accent et rythme
 Le kabyle est une langue à **accent de mot** plutôt qu'une langue tonale. L'accent est généralement prévisible.
 
