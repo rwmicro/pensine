@@ -55,22 +55,22 @@ timeline
 | Empire britannique | XVIIe – XXe s. | Le plus étendu de l'histoire |
 
 ```widget:durees
-titre: Le Saint-Empire a duré 844 ans, l'empire d'Alexandre 13
-sous-titre: Durée de quelques empires, de leur fondation à leur fin (dates conventionnelles)
-mettre-en-avant: Empire romain, Empire mongol
-ligne1: Empire perse achéménide | -550 | -330 | de Cyrus le Grand à la conquête d'Alexandre
-ligne2: Empire d'Alexandre | -336 | -323 | il se fragmente à sa mort
-ligne3: Empire han | -206 | 220 | contemporain de Rome
-ligne4: Empire romain | -27 | 476 | d'Auguste à la chute de l'Occident
-ligne5: Empire byzantin | 395 | 1453 | l'Orient romain, jusqu'à la prise de Constantinople
+titre: L'Empire byzantin a duré plus de mille ans, l'Empire aztèque moins d'un siècle
+sous-titre: Durée de quelques empires, de leur fondation à leur fin (dates usuelles, arrondies)
+mettre-en-avant: Empire byzantin, Empire aztèque
+ligne1: Achéménide | -550 | -330 | de Cyrus le Grand à la conquête d'Alexandre
+ligne2: Han | -202 | 220 | contemporain de Rome
+ligne3: Empire romain | -27 | 476 | d'Auguste à la chute de l'Occident
+ligne4: Empire byzantin | 395 | 1453 | l'Orient romain, jusqu'à la prise de Constantinople
+ligne5: Califat abbasside | 750 | 1258 | de la révolution abbasside au sac de Bagdad par les Mongols
 ligne6: Empire carolingien | 800 | 888 | du couronnement de Charlemagne à la dernière réunion
-ligne7: Saint-Empire romain germanique | 962 | 1806 | d'Otton Ier à Napoléon
+ligne7: Saint-Empire | 962 | 1806 | d'Otton Ier à Napoléon
 ligne8: Empire mongol | 1206 | 1368 | le plus vaste empire d'un seul tenant, éclaté en khanats dès 1260
 ligne9: Empire ottoman | 1299 | 1922
-ligne10: Empire aztèque | 1428 | 1521
+ligne10: Empire aztèque | 1428 | 1521 | de la Triple Alliance à la chute de Tenochtitlan
 ligne11: Empire inca | 1438 | 1533
 ligne12: Empire moghol | 1526 | 1857
-ligne13: Empire britannique | 1607 | 1997 | de Jamestown à la rétrocession de Hong Kong
+ligne13: Qing | 1644 | 1912 | dernière dynastie impériale chinoise
 ligne14: Empire russe | 1721 | 1917
 ```
 
