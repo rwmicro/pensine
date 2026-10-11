@@ -37,6 +37,24 @@ La famille est l'institution la plus universellement présente dans les sociét�
 
 Cette diversification n'efface pas les inégalités entre ces formes : les familles monoparentales (très majoritairement dirigées par des femmes) restent statistiquement les plus exposées à la précarité économique dans la plupart des sociétés occidentales, ce qui interroge la neutralité du terme même de "diversification" — toutes les formes familiales ne sont pas socialement et économiquement équivalentes.
 
+```widget:owid
+type: pyramide
+graphe: population-by-five-year-age-group
+pays: France
+comparer: 1950
+titre: France : le baby-boom avance d'année en année
+```
+
+```widget:owid
+graphe: children-per-woman-un
+pays: France, Japon, Inde, Nigeria, Monde
+depuis: 1950
+titre: La baisse de la fécondité, partout
+sous-titre: Nombre moyen d'enfants par femme
+unite: enfants
+zero: non
+```
+
 ## La division sexuelle du travail domestique
 
 Malgré l'entrée massive des femmes sur le marché du travail salarié au cours du XXe siècle, les enquêtes sur l'emploi du temps montrent une remarquable **persistance de l'inégalité** dans la répartition des tâches domestiques et parentales au sein du couple.

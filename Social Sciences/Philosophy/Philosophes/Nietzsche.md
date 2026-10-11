@@ -5,6 +5,7 @@ subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie]
 date: "2025-12-31"
 prerequis: ["[[Schopenhauer]]"]
+wikidata: Q9358
 ---
 
 # Friedrich Nietzsche (1844-1900)

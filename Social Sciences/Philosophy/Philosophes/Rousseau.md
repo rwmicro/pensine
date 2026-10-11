@@ -5,6 +5,7 @@ subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie]
 date: "2026-04-12"
 prerequis: ["[[Locke]]"]
+wikidata: Q6527
 ---
 
 # Jean-Jacques Rousseau (1712-1778)

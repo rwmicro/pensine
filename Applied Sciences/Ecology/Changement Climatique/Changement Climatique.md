@@ -81,6 +81,37 @@ pie title Émissions mondiales de GES (équivalent CO₂)
   - Sécheresses : régions méditerranéennes, Afrique
   - Cyclones : intensité ↑ (pas nécessairement fréquence)
 
+```widget:owid
+type: devine
+graphe: annual-co2-emissions-per-country
+pays: Monde
+depuis: 1900
+devine: 1970
+titre: À ton avis : comment les émissions mondiales de CO₂ ont-elles évolué après 1970 ?
+unite: tonnes de CO₂
+```
+
+```widget:owid
+graphe: co2-emissions-per-capita
+pays: États-Unis, Chine, France, Inde, Monde
+depuis: 1950
+titre: Un Américain émet encore 1,6 fois plus qu'un Chinois, et six fois plus qu'un Indien
+sous-titre: Émissions de CO₂ par habitant, en tonnes
+unite: t
+echelle: log
+```
+
+```widget:vrai-faux
+affirmation: Les émissions de CO₂ par habitant de la France baissent depuis les années 1970.
+reponse: vrai
+explication: Elles sont passées de plus de 10 tonnes en 1973 à moins de 4 en 2024, grâce au nucléaire puis à la désindustrialisation (les émissions importées ne sont pas comptées ici).
+graphe: co2-emissions-per-capita
+pays: France
+depuis: 1950
+titre: France : émissions de CO₂ par habitant
+unite: t
+```
+
 ### Impacts
 
 **Écosystèmes**

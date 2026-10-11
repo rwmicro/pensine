@@ -10,6 +10,10 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Mandarin/02-Communication/Re
 
 ## Le monde sinophone
 
+```widget:fiche-langue
+wikidata: Q9192
+```
+
 Le mandarin n'est pas seulement la langue de la Chine continentale. C'est la langue commune d'un vaste monde culturel.
 
 | Pays / région | Population sinophone | Statut |

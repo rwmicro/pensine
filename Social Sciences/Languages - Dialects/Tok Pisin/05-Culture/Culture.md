@@ -10,6 +10,10 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Tok Pisin/02-Communication/R
 
 ## Diversité linguistique : le pays le plus complexe du monde
 
+```widget:fiche-langue
+wikidata: Q34159
+```
+
 La Papouasie-Nouvelle-Guinée (PNG) est unique au monde : environ **840 langues vernaculaires** parlées sur un territoire de 8 millions d'habitants. C'est la densité linguistique la plus élevée de la planète.
 
 | Fait | Détail |

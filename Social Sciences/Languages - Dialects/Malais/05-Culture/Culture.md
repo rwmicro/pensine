@@ -10,6 +10,10 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Malais/02-Communication/Regi
 
 ## La Malaisie multiraciale
 
+```widget:fiche-langue
+wikidata: Q9237
+```
+
 La Malaisie est officiellement une société multiraciale composée de trois grandes communautés :
 
 | Communauté | % Population | Langue maternelle | Religion dominante |

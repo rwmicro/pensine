@@ -10,6 +10,10 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Espagnol/02-Communication/Re
 
 ## Une langue, vingt-et-un pays
 
+```widget:fiche-langue
+wikidata: Q1321
+```
+
 L'espagnol n'est pas la culture d'un seul pays mais un archipel culturel s'étendant sur trois continents. Malgré une langue commune, les identités nationales sont fortement marquées.
 
 | Fait | Détail |

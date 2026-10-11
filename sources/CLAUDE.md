@@ -256,6 +256,10 @@ bits: 32
 
 Ajouter un widget = une entrée dans `WIDGETS` et `WIDGET_FALLBACK` (`lib/markdown.ts`), un constructeur dans `BUILDERS` (`public/js/widgets.js`), et les styles `.w-*` dans `assets/css/main.css`.
 
+### Figures de données
+
+Courbes Our World in Data, pyramides, récits, fiches pays et langue, convertisseur franc-euro, prix d'époque en ligne (`` `prix: 300 francs 1950` ``), encadré `[!chiffres]`, en-têtes `pays:`, `wikidata:` et `format: graphique` : syntaxe et règles de style dans **`sources/FIGURES.md`**. Ces données sont lues à la construction du site ; un titre chiffré se vérifie dans la figure avant d'être écrit.
+
 ## Apprentissage actif (features du site learn-nebula)
 
 ### Questions de révision

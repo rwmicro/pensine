@@ -5,6 +5,7 @@ subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie]
 date: "2026-02-19"
 prerequis: ["[[Présocratiques]]"]
+wikidata: Q913
 ---
 
 # Socrate (470-399 av. J.-C.)

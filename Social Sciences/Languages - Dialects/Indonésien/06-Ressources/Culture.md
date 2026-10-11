@@ -11,6 +11,10 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/05-Culture/Ponti
 
 La langue indonésienne est imprégnée de valeurs sociales : respect de l'âge, recherche de l'harmonie, entraide. Les connaître aide à choisir les bons mots, et surtout à comprendre ce qui n'est pas dit.
 
+```widget:fiche-langue
+wikidata: Q9240
+```
+
 > [!tip] Dans cette fiche
 > - Comprendre les valeurs qui organisent la vie sociale : Pancasila, *gotong royong*, *rukun*.
 > - Connaître les grandes religions, arts et textiles de l'archipel.
