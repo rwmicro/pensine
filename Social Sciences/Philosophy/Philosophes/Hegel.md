@@ -5,6 +5,7 @@ subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie]
 date: "2026-04-12"
 prerequis: ["[[Kant]]"]
+wikidata: Q9235
 ---
 
 # Georg Wilhelm Friedrich Hegel (1770-1831)

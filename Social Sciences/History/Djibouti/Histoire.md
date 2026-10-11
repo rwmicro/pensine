@@ -10,6 +10,10 @@ date: "2025-12-31"
 
 ## Période Précoloniale
 
+```widget:fiche-pays
+pays: DJI
+```
+
 **Position stratégique:** Carrefour commercial entre Afrique, Arabie et Asie.
 
 **Populations:**

@@ -37,6 +37,10 @@ fen: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
 moves: e2e4 e7e5 g1f3 b8c6 f1c4
 ```
 
+```widget:ouverture
+coups: e2e4 e7e5 g1f3 b8c6 f1c4
+```
+
 ### Partie espagnole (Ruy Lopez)
 
 1.e4 e5 2.Cf3 Cc6 3.Fb5. Le fou attaque le cavalier c6, défenseur du pion e5 : une pression indirecte qui dure toute la partie. C'est l'une des ouvertures les plus étudiées. Les principales réponses noires sont 3...a6 (variante Morphy), 3...Cf6 (défense berlinoise) et, après 3...a6, le gambit Marshall, où les Noirs sacrifient un pion pour l'attaque.
@@ -44,6 +48,10 @@ moves: e2e4 e7e5 g1f3 b8c6 f1c4
 ```widget:echiquier
 fen: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
 moves: e2e4 e7e5 g1f3 b8c6 f1b5
+```
+
+```widget:ouverture
+coups: e2e4 e7e5 g1f3 b8c6 f1b5
 ```
 
 ### Autres parties ouvertes
@@ -61,6 +69,10 @@ moves: e2e4 e7e5 g1f3 b8c6 f1b5
 ```widget:echiquier
 fen: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
 moves: d2d4 d7d5 c2c4
+```
+
+```widget:ouverture
+coups: d2d4 d7d5 c2c4
 ```
 
 > [!warning] Piège
@@ -82,6 +94,10 @@ fen: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
 moves: e2e4 c7c5
 ```
 
+```widget:ouverture
+coups: e2e4 c7c5
+```
+
 ### Défense française
 
 1.e4 e6 2.d4 d5. Une défense solide mais un peu passive. Après e5, les Noirs attaquent la chaîne de pions blanche à sa base par ...c5 et jouent surtout à l'aile dame. Leur problème chronique est le fou c8, enfermé derrière le pion e6.
@@ -91,6 +107,10 @@ fen: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
 moves: e2e4 e7e6 d2d4 d7d5
 ```
 
+```widget:ouverture
+coups: e2e4 e7e6 d2d4 d7d5
+```
+
 ### Défense Caro-Kann
 
 1.e4 c6 2.d4 d5. Comme dans la Française, les Noirs contestent e4 par ...d5, mais ils préparent la sortie du fou c8 avant de jouer ...e6. La structure est très solide, au prix d'un jeu moins actif.
@@ -98,6 +118,10 @@ moves: e2e4 e7e6 d2d4 d7d5
 ```widget:echiquier
 fen: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
 moves: e2e4 c7c6 d2d4 d7d5
+```
+
+```widget:ouverture
+coups: e2e4 c7c6 d2d4 d7d5
 ```
 
 ### Autres défenses contre 1.e4
@@ -117,6 +141,10 @@ fen: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
 moves: d2d4 g8f6 c2c4 e7e6 b1c3 f8b4
 ```
 
+```widget:ouverture
+coups: d2d4 g8f6 c2c4 e7e6 b1c3 f8b4
+```
+
 ### Défense Grünfeld
 
 1.d4 Cf6 2.c4 g6 3.Cc3 d5. Les Noirs laissent les Blancs bâtir un grand centre après cxd5 et e4, puis l'attaquent par le fou g7 et la poussée ...c5.
@@ -126,6 +154,10 @@ fen: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
 moves: d2d4 g8f6 c2c4 g7g6 b1c3 d7d5
 ```
 
+```widget:ouverture
+coups: d2d4 g8f6 c2c4 g7g6 b1c3 d7d5
+```
+
 ### Défense est-indienne
 
 1.d4 Cf6 2.c4 g6 3.Cc3 Fg7 4.e4 d6. Les Noirs cèdent le centre, roquent, puis le contestent par ...e5 ou ...c5. Les positions fermées qui en sortent donnent souvent des attaques de pions sur les deux ailes.
@@ -133,6 +165,10 @@ moves: d2d4 g8f6 c2c4 g7g6 b1c3 d7d5
 ```widget:echiquier
 fen: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
 moves: d2d4 g8f6 c2c4 g7g6 b1c3 f8g7 e2e4 d7d6
+```
+
+```widget:ouverture
+coups: d2d4 g8f6 c2c4 g7g6 b1c3 f8g7 e2e4 d7d6
 ```
 
 ### Autres défenses contre 1.d4

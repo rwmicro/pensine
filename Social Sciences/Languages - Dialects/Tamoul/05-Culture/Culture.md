@@ -10,6 +10,10 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Tamoul/02-Communication/Regi
 
 ## Le tamoul : une civilisation de 2000 ans
 
+```widget:fiche-langue
+wikidata: Q5885
+```
+
 Le tamoul est l'une des plus anciennes langues classiques encore vivantes. La littérature tamoule (poésie Sangam) remonte au IIIe siècle avant J.-C. Cette ancienneté est une source de fierté nationale et culturelle intense.
 
 | Fait | Description |

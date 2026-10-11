@@ -10,6 +10,10 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Roumain/02-Communication/Reg
 
 ## Identité latine en Europe de l'Est
 
+```widget:fiche-langue
+wikidata: Q7913
+```
+
 La Roumanie est une anomalie géographique : seule langue romane entourée de langues slaves (bulgare, serbe, ukrainien) et de langue altaïque (hongrois). Cette identité latine est un pilier de l'orgueil national.
 
 | Fait | Détail |

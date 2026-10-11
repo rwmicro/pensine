@@ -17,6 +17,12 @@ La révolution industrielle est la transformation des économies fondées sur l'
 
 Ce n'est pas simplement une révolution technologique : c'est une transformation de l'organisation du travail, de la structure sociale, de la vie quotidienne, de l'environnement et des représentations du temps.
 
+> [!chiffres]
+> - **×2,8** : le PIB par habitant du Royaume-Uni entre 1760 et 1913, quand il n'avait gagné que 20 % entre 1700 et 1760 (Maddison Project)
+> - **20 %** environ de la population anglaise vit en ville vers 1750, près de **80 %** en 1900
+> - **1 milliard** d'humains vers 1800, **2** en 1927
+> - **+1,1 °C** : le réchauffement depuis 1850-1900, dont la combustion du charbon puis du pétrole est la cause première
+
 ## La transition énergétique
 
 La rupture fondamentale de la révolution industrielle est une **révolution énergétique** : pour la première fois, les sociétés humaines apprennent à convertir massivement de l'énergie stockée (charbon, puis pétrole) en travail mécanique.
@@ -29,6 +35,21 @@ La rupture fondamentale de la révolution industrielle est une **révolution én
 **La machine à vapeur** (perfectionnée par James Watt, 1769) est le pivot : elle convertit la chaleur du charbon en mouvement mécanique. Une machine à vapeur peut travailler 24 heures sur 24, ne se fatigue pas, ne demande pas à manger, et sa puissance peut être démultipliée à volonté.
 
 La chaîne d'implications : charbon → vapeur → machines textiles → filatures → usines → urbanisation → chemins de fer → mondialisation des échanges.
+
+```widget:owid
+type: recit
+graphe: gdp-per-capita-maddison-project-database
+pays: Royaume-Uni, France, Inde, Monde
+depuis: 1700
+jusqua: 2022
+titre: La grande divergence
+unite: $ de 2011
+echelle: log
+etape1: 1700-1800 | Royaume-Uni | Avant 1800, le niveau de vie progresse à peine, partout.
+etape2: 1800-1913 | Royaume-Uni | Le Royaume-Uni décolle le premier, la France suit : c'est la révolution industrielle.
+etape3: 1913-1950 | Inde | L'Inde coloniale stagne : l'écart avec l'Europe devient un gouffre.
+etape4: 1950-2022 | Monde | Depuis 1950, l'industrialisation gagne le reste du monde.
+```
 
 ## Chronologie
 

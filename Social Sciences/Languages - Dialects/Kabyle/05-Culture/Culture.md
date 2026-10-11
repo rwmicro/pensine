@@ -12,6 +12,10 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Kabyle/02-Communication/Regi
 La langues kabyle est issue de l'alphabet Tifinagh 
 La langue **kabyle** (ou **tamaziɣt taqvaylit**, en kabyle) est une **langue berbère** appartenant à la famille afro-asiatique. Elle est parlée principalement en **Kabylie**, une région montagneuse du nord de l’Algérie, mais aussi par une importante diaspora kabyle à travers le monde, notamment en France.
 
+```widget:fiche-langue
+wikidata: Q35853
+```
+
 ### **Origine et classification**
 - Elle fait partie du **groupe des langues berbères du Nord**.
 - Elle est proche du chleuh, du rifain ou du chaoui, mais avec des différences marquées.

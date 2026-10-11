@@ -10,6 +10,10 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Azéri/02-Communication/Regi
 
 ## Identité azérie : carrefour entre trois mondes
 
+```widget:fiche-langue
+wikidata: Q9292
+```
+
 L'Azerbaïdjan se situe au croisement du monde turcique, persan et russe — héritage culturel composite, unique dans le Caucase du Sud.
 
 | Fait | Détail |

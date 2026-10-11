@@ -5,6 +5,7 @@ subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie]
 date: "2026-02-19"
 prerequis: ["[[Thomas d'Aquin]]"]
+wikidata: Q9191
 ---
 
 # René Descartes (1596-1650)
