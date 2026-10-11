@@ -10,6 +10,10 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Allemand/02-Communication/Re
 
 ## Le monde germanophone — diversité et identité
 
+```widget:fiche-langue
+wikidata: Q188
+```
+
 L'allemand n'est pas la culture d'un seul pays mais de **plusieurs nations distinctes** qui partagent une langue tout en cultivant leurs spécificités.
 
 | Pays | Population | Capitale | Statut linguistique |

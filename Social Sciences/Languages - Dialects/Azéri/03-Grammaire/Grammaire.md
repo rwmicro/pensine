@@ -20,6 +20,14 @@ L'azéri est une langue **agglutinante** : on empile les suffixes sur une racine
 | Agglutination | Suffixes empilés : **ev-lər-im-də** = *ev* (maison) + *lər* (pluriel) + *im* (mon) + *də* (à/dans) |
 | Harmonie vocalique | Voyelles des suffixes accordées avec la racine |
 
+Reconstruis *ev-lər-im-də* suffixe par suffixe, puis essaie d'autres racines et d'autres cas.
+
+```widget:agglutination
+langue: azeri
+racine: ev
+suffixes: pluriel, mon, locatif
+```
+
 ## Pronoms personnels
 
 | Français | Azéri | Note |

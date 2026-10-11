@@ -10,6 +10,10 @@ date: "2026-09-28"
 
 La Chine offre un cas presque unique dans l'histoire mondiale : un État qui, malgré des siècles de division, d'invasions et de guerres civiles, s'est reconstitué à plusieurs reprises dans des frontières comparables, autour d'une même écriture, d'une même bureaucratie lettrée et d'une même idée du pouvoir. Pendant plus de deux millénaires, de 221 av. J.-C. à 1912, le système impérial se transmet de dynastie en dynastie. Son effondrement face aux puissances industrielles au XIXe siècle, puis la reconstruction par le Parti communiste, dominent l'histoire contemporaine du pays et expliquent en grande partie le regard que la Chine d'aujourd'hui porte sur le monde.
 
+```widget:fiche-pays
+pays: CHN
+```
+
 ## Chronologie
 
 ```mermaid

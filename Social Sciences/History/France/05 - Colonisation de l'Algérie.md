@@ -135,7 +135,7 @@ L'écart se lit aussi à l'échelle individuelle : un colon exploite en moyenne 
 
 ### Inégalités Économiques
 
-Ces écarts se retrouvent dans les salaires et les revenus. En 1950, un ouvrier agricole européen touche 300 francs par jour contre 150 francs pour un ouvrier algérien — un écart de 100% pour un travail identique. En 1954, le revenu moyen annuel s'élève à 1 380 000 francs pour un Européen contre 77 000 francs pour un musulman algérien, soit un rapport de 1 à 18.
+Ces écarts se retrouvent dans les salaires et les revenus. En 1950, un ouvrier agricole européen touche `prix: 300 francs 1950` par jour contre `prix: 150 francs 1950` pour un ouvrier algérien — un écart de 100% pour un travail identique. En 1954, le revenu moyen annuel s'élève à `prix: 1 380 000 francs 1954` pour un Européen contre `prix: 77 000 francs 1954` pour un musulman algérien, soit un rapport de 1 à 18.
 
 ### Inégalités Éducatives (1954)
 

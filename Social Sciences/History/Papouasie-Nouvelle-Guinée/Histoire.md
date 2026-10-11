@@ -10,6 +10,10 @@ date: "2026-03-02"
 
 La Papouasie-Nouvelle-Guinée (PNG) est l'un des pays les plus anciennement peuplés et les plus complexes du monde. Occupée par l'homme depuis au moins 50 000 ans, colonisée par deux puissances européennes au XIXe siècle, libérée à travers une des campagnes militaires les plus dures du Pacifique, puis indépendante depuis 1975, son histoire condense en un seul territoire presque toutes les grandes forces qui ont façonné l'humanité.
 
+```widget:fiche-pays
+pays: PNG
+```
+
 ## Préhistoire et peuplement initial
 
 ### Les premiers habitants (~50 000 ans)

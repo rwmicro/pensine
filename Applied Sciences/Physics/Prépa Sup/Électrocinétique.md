@@ -36,6 +36,14 @@ L'électrocinétique de prépa étend les [[Circuits Électriques]] du lycée au
 > [!tip] Le temps caractéristique $\tau$
 > $\tau = RC$ donne l'échelle de temps : après $\tau$, on a parcouru $63\%$ de l'évolution ; après $5\tau$, le régime permanent est quasi atteint ($> 99\%$).
 
+Fais varier R et C et repère le point à 63 % : la durée de la charge ne dépend que de τ = RC, jamais de E.
+
+```widget:circuit-rc
+r: 10000
+c: 100
+e: 5
+```
+
 ### Visualisation animée (Manim)
 
 > [!note] Ce que montre l'animation

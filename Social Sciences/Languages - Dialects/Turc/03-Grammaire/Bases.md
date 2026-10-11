@@ -138,6 +138,14 @@ Exemple avec "ev" (maison):
 - eviniz = votre maison
 - evleri = leur maison
 
+Empile les suffixes sur une racine pour voir chaque voyelle s'accorder, jusqu'à *ev-ler-im-de-ki*.
+
+```widget:agglutination
+langue: turc
+racine: ev
+suffixes: pluriel, mon, locatif, ki
+```
+
 ### Ordre des Mots
 **SOV (Sujet-Objet-Verbe)** au lieu de SVO en français
 - Français: Je mange une pomme

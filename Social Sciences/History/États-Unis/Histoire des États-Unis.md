@@ -10,6 +10,10 @@ date: "2026-09-28"
 
 Les États-Unis sont un pays jeune bâti sur une terre très anciennement habitée. En moins de deux siècles et demi, treize colonies britanniques de la façade atlantique sont devenues une république continentale, puis la première puissance mondiale. Cette trajectoire est traversée par une tension fondatrice : une nation qui proclame l'égalité des hommes s'est construite sur l'esclavage des Africains et la dépossession des peuples autochtones. Presque toute l'histoire américaine peut se lire comme la négociation, souvent violente, de cet écart entre les principes et les pratiques.
 
+```widget:fiche-pays
+pays: USA
+```
+
 ## Chronologie
 
 ```mermaid
