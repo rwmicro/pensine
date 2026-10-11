@@ -66,6 +66,11 @@ $('#container').html(input);  // Même vulnérabilité qu'innerHTML
 $('a').attr('href', input);   // Vulnérable si javascript: est accepté
 ```
 
+Tape une charge dans la fausse barre de recherche (ou prends un exemple) : le widget montre côte à côte ce qu'afficherait textContent et le DOM qu'innerHTML construirait, sans jamais l'exécuter.
+
+```widget:xss-dom
+```
+
 ### DOM XSS via postMessage
 
 ```javascript

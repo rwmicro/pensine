@@ -30,6 +30,14 @@ flowchart LR
 - Trop tard (après retour baseline) → désentraînement, progression nulle
 - Au bon moment (pic de supercompensation) → progression optimale
 
+Place des séances sur le calendrier et compare « Bien espacées » et « Tous les jours » : la courbe montre la fatigue, puis la surcompensation ou la fatigue qui s'accumule.
+
+```widget:supercompensation
+jours: 21
+seances: 1,5,9,13
+intensite: intense
+```
+
 > [!tip] Méthode
 > La VFC (variabilité de la fréquence cardiaque) est un indicateur avancé de récupération — elle bouge avant que la fatigue devienne visible en performance. La fréquence cardiaque de repos, elle, est un indicateur retardé : quand elle grimpe, le déficit de récupération est souvent déjà installé depuis plusieurs jours. Suivre la VFC permet d'ajuster le timing du prochain stimulus avant que la baisse de performance ne soit mesurable.
 
