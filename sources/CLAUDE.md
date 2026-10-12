@@ -298,6 +298,29 @@ Ajouter un widget = une entrée dans `WIDGETS` et `WIDGET_FALLBACK` (`lib/markdo
 
 Courbes Our World in Data, pyramides, récits, fiches pays et langue, convertisseur franc-euro, prix d'époque en ligne (`` `prix: 300 francs 1950` ``), encadré `[!chiffres]`, en-têtes `pays:`, `wikidata:` et `format: graphique` : syntaxe et règles de style dans **`sources/FIGURES.md`**. Ces données sont lues à la construction du site ; un titre chiffré se vérifie dans la figure avant d'être écrit.
 
+### Figures isométriques
+
+Une figure « machine » interactive (une voûte et son arc-boutant, une machine à vapeur, une nappe captive) s'insère avec un bloc vide dont le langage est `iso:<nom>` :
+
+````
+```iso:voute-gothique
+```
+````
+
+Les figures ne s'écrivent pas dans la note : chacune est un petit programme dans le dépôt learn-nebula, `figures/<nom>/` (contrat et vérifications dans `figures/README.md`). Le site met le dessin dans la page à la construction et l'anime ensuite ; un nom inconnu affiche « Figure interactive indisponible ». Dans Obsidian, le bloc reste un bloc vide.
+
+| Nom | Note | Ce qu'elle montre |
+|---|---|---|
+| `voute-gothique` | Architecture Gothique | Retirer l'arc-boutant : la résultante sort du mur, qui bascule |
+| `nappe-artesienne` | Hydrogéologie | Nappe captive sous une couche imperméable, puits artésien jaillissant |
+| `machine-watt` | La Révolution Industrielle | Machine de Watt à condenseur séparé, cycle du piston |
+| `moteur-piston` | Thermodynamique | Moteur à quatre temps et son cycle sur le diagramme P-V |
+| `alternateur` | Induction Électromagnétique | Rotor qui tourne, flux et tension induite |
+| `disque-dur` | Mémoire et Stockage | Disque dur et SSD côte à côte, temps d'accès |
+| `netfilter` | Iptable | Les chaînes Netfilter vues comme un centre de tri postal |
+
+Le texte autour de la figure dit quoi faire (survol, touche) et ce qu'on doit voir changer ; les chiffres cités dans la note sont ceux que la figure affiche.
+
 ## Apprentissage actif (features du site learn-nebula)
 
 ### Questions de révision
