@@ -36,6 +36,13 @@ La rupture fondamentale de la révolution industrielle est une **révolution én
 
 La chaîne d'implications : charbon → vapeur → machines textiles → filatures → usines → urbanisation → chemins de fer → mondialisation des échanges.
 
+Ce que Watt change tient en trois pièces. Le **condenseur séparé** (brevet de 1769) refroidit la vapeur hors du cylindre, qui reste chaud : la machine de Newcomen, qui refroidissait le cylindre à chaque coup, gaspillait l'essentiel de son charbon à le réchauffer. L'**engrenage planétaire** (1781) transforme le va-et-vient du balancier en rotation, si bien que la machine ne sert plus seulement à pomper l'eau des mines mais peut entraîner les arbres de transmission d'une filature. Le **régulateur à boules** (vers 1788) garde la vitesse à peu près constante quand la charge de l'atelier change, ce qu'exige un métier à tisser.
+
+La figure monte une machine rotative de ce type. Survolez-la de gauche à droite (ou touchez-la, ou utilisez ← →) pour changer la charge de l'atelier : quand elle baisse, le volant accélère, les boules du régulateur s'écartent et montent, et la tringle referme la vanne de vapeur. À pleine charge la lecture donne « 41,9 tr/min · vanne 80 % · 10,0 ch » ; à 20 % de charge, « 45,5 tr/min · vanne 20 % · 2,2 ch » : la vitesse ne gagne qu'environ 9 % pendant que la vanne se ferme des trois quarts.
+
+```iso:machine-watt
+```
+
 ```widget:owid
 type: recit
 graphe: gdp-per-capita-maddison-project-database

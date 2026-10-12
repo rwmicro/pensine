@@ -85,6 +85,11 @@ flowchart TD
 > $$e = -\frac{\mathrm{d}\Phi}{\mathrm{d}t} = BS\omega\sin(\omega t)$$
 > C'est une tension **sinusoïdale** : principe de l'alternateur (courant alternatif).
 
+Dans un alternateur réel, c'est souvent l'aimant qui tourne et les bobines qui restent fixes : le flux à travers elles varie de la même façon. La figure en montre un de démonstration, avec deux bobines de 250 spires en série ($N = 500$), $B = 0{,}1$ T et $S = 10$ cm², d'où une crête $e_{max} = NBS\omega$. Survolez-la de gauche à droite (ou touchez-la, ou utilisez ← →) pour changer la vitesse de l'aimant : à 240 tr/min la lecture donne « 4,0 Hz · crête 1,26 V », à 480 tr/min « 8,0 Hz · crête 2,51 V ». Doubler la vitesse double à la fois la fréquence et la tension, puisque $\omega$ apparaît dans les deux.
+
+```iso:alternateur
+```
+
 ### Exercice 2 : loi de Lenz qualitative
 
 **Énoncé** : On laisse tomber un aimant dans un tube de cuivre vertical. Pourquoi tombe-t-il beaucoup plus lentement que dans un tube en plastique ?

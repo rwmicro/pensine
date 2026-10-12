@@ -146,6 +146,17 @@ class CycleDeCarnot(Scene):
         self.wait(2)
 ```
 
+### Un vrai moteur : le cycle d'Otto
+
+Un moteur à essence à quatre temps (admission, compression, détente, échappement) ne suit pas un cycle de Carnot. Son modèle idéal, le **cycle d'Otto**, enchaîne une compression adiabatique, une combustion instantanée à volume constant, une détente adiabatique et un refroidissement à volume constant. Son rendement ne dépend que du rapport volumétrique $r = V_{max}/V_{min}$ :
+
+$$\eta_{\text{Otto}} = 1 - r^{1-\gamma}$$
+
+La figure ouvre un moteur monocylindre d'essai (les cotes du moteur CFR, 612 cm³). Glissez horizontalement pour tourner le vilebrequin à la main, touchez pour le lancer ou l'arrêter, et changez $r$ avec ↑ ↓ : toute la culasse monte ou descend. À $r = 10$ la lecture donne « Otto 60 % < Carnot 89 % » ; à $r = 6$ le rendement tombe à 51 %, à $r = 14$ il monte à 65 %. La limite de Carnot reste loin devant, calculée entre l'air d'admission à 300 K et la température de fin de combustion du même modèle.
+
+```iso:moteur-piston
+```
+
 ## 5. Changements d'état (transitions de phase)
 
 > [!important] Corps pur sous plusieurs phases

@@ -16,8 +16,8 @@ iptables est l'interface traditionnelle pour configurer le pare-feu Netfilter du
 ```
 Paquet entrant → PREROUTING → Routage → INPUT → Processus local
                                   ↓
-                              FORWARD → Sortie
-                                  ↓
+                              FORWARD ─────────┐
+                                               ↓
                  Processus local → OUTPUT → POSTROUTING → Sortie réseau
 ```
 
@@ -26,7 +26,7 @@ Paquet entrant → PREROUTING → Routage → INPUT → Processus local
 | Table | Chaînes | Usage |
 |-------|---------|-------|
 | **filter** (défaut) | INPUT, OUTPUT, FORWARD | Filtrage des paquets |
-| **nat** | PREROUTING, OUTPUT, POSTROUTING | Translation d'adresses |
+| **nat** | PREROUTING, INPUT, OUTPUT, POSTROUTING | Translation d'adresses (INPUT depuis Linux 2.6.36) |
 | **mangle** | Toutes | Modification des paquets (TTL, TOS) |
 | **raw** | PREROUTING, OUTPUT | Contournement du suivi de connexion |
 | **security** | INPUT, OUTPUT, FORWARD | Marquage SELinux |
@@ -38,6 +38,11 @@ Paquet entrant → PREROUTING → Routage → INPUT → Processus local
 - **FORWARD** : paquets traversant la machine (routage)
 - **PREROUTING** : avant le routage (modification de destination)
 - **POSTROUTING** : après le routage (modification de source)
+
+La figure dessine ce parcours comme un centre de tri postal : le colis est le paquet, les stations à tampon sont les chaînes de la table nat (PREROUTING tamponne la destination, POSTROUTING la source), les barrières sont les chaînes de filter, et l'aiguillage au milieu est la décision de routage. Choisissez un colis avec les touches 1 à 4 (ou un clic) : un colis « redirection de port » est réécrit vers 192.168.1.20 dès PREROUTING, avant le routage, et prend donc FORWARD au lieu d'INPUT, ce que la lecture résume en « PREROUTING → FORWARD → POSTROUTING · ACCEPT ». La touche D pose une règle DROP sur INPUT, FORWARD ou OUTPUT : la barrière reste baissée et le colis part au rebut.
+
+```iso:netfilter
+```
 
 ## iptables — Syntaxe de base
 

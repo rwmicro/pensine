@@ -171,10 +171,15 @@ Stockage magnétique sur plateaux tournant entre 5400 et 15000 tours par minute,
 | Composante | Nature | Ordre de grandeur |
 |---|---|---|
 | Temps de recherche | Déplacer la tête jusqu'à la piste | 3 à 10 ms |
-| Latence rotationnelle | Attendre que le secteur passe sous la tête | 0 à 4 ms à 7200 tr/min |
-| Temps de transfert | Lire effectivement les données | ~0,1 ms pour 1 Mo |
+| Latence rotationnelle | Attendre que le secteur passe sous la tête | 0 à 8,3 ms à 7200 tr/min, 4,2 ms en moyenne |
+| Temps de transfert | Lire effectivement les données | ~0,02 ms pour 4 Kio, ~5 ms pour 1 Mio à 200 Mo/s |
 
 Les deux premières sont purement mécaniques et n'ont pas progressé depuis trente ans. C'est pourquoi un disque dur s'effondre sur les accès aléatoires tout en restant honorable en lecture séquentielle, et pourquoi la **fragmentation** le pénalise — chaque fragment impose un nouveau déplacement de tête. Un SSD, sans pièce mobile, y est indifférent.
+
+La figure ouvre un disque de 7200 tr/min à côté d'un SSD. Touchez-la (ou appuyez sur A) pour une lecture aléatoire de 4 Kio : le bras pivote jusqu'à une piste au hasard, puis attend que le secteur gris passe sous la tête, et la règle compte les millisecondes des deux appareils. La première lecture affiche « rech. 11,6 · rot. 4,1 · total 15,7 ms · SSD 0,11 » : plus de cent fois plus lent que le SSD. Appuyez sur S pour une lecture séquentielle de 1 Mio : la tête ne bouge plus, et le disque n'est plus qu'à 5,2 ms contre 2,0 ms.
+
+```iso:disque-dur
+```
 
 ## RAID
 
