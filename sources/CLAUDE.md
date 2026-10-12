@@ -312,12 +312,12 @@ Les figures ne s'écrivent pas dans la note : chacune est un petit programme dan
 | Nom | Note | Ce qu'elle montre |
 |---|---|---|
 | `voute-gothique` | Architecture Gothique | Retirer l'arc-boutant : la résultante sort du mur, qui bascule |
-| `nappe-artesienne` | Hydrogéologie | Nappe captive sous une couche imperméable, puits artésien jaillissant |
-| `machine-watt` | La Révolution Industrielle | Machine de Watt à condenseur séparé, cycle du piston |
-| `moteur-piston` | Thermodynamique | Moteur à quatre temps et son cycle sur le diagramme P-V |
-| `alternateur` | Induction Électromagnétique | Rotor qui tourne, flux et tension induite |
-| `disque-dur` | Mémoire et Stockage | Disque dur et SSD côte à côte, temps d'accès |
-| `netfilter` | Iptable | Les chaînes Netfilter vues comme un centre de tri postal |
+| `nappe-artesienne` | Hydrogéologie | Niveau de recharge d'une nappe captive : le forage jaillit ou non, débit |
+| `machine-watt` | La Révolution Industrielle | Machine rotative de Watt : la charge change, le régulateur à boules referme la vanne |
+| `moteur-piston` | Thermodynamique | Moteur à quatre temps en coupe, rapport volumétrique, rendement d'Otto et de Carnot |
+| `alternateur` | Induction Électromagnétique | Aimant tournant entre deux bobines : fréquence et tension crête selon la vitesse |
+| `disque-dur` | Mémoire et Stockage | Disque dur et SSD côte à côte : recherche, rotation, lecture aléatoire ou séquentielle |
+| `netfilter` | Iptable | Les chaînes Netfilter en centre de tri postal : nat, routage, filter, DROP |
 
 Le texte autour de la figure dit quoi faire (survol, touche) et ce qu'on doit voir changer ; les chiffres cités dans la note sont ceux que la figure affiche.
 
