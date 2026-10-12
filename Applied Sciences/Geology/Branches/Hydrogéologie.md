@@ -34,6 +34,13 @@ Un aquifère est une formation géologique capable de stocker et de transmettre 
 | **Nappe captive (confinée)** | Coincée entre deux couches imperméables (aquitards). L'eau est sous pression         | Protégée de la pollution de surface, mais recharge lente. Peut jaillir spontanément (puits artésien) si la pression est suffisante |
 | **Nappe semi-captive**       | Limitée par une couche semi-perméable (aquitard) qui permet une circulation lente    | Intermédiaire entre libre et captive                                                                                               |
 
+Ce qui fait jaillir un puits artésien, c'est le **niveau piézométrique** : la hauteur à laquelle l'eau de la nappe captive monterait dans un tube ouvert. Il part de la zone de recharge, là où la couche aquifère affleure, et baisse lentement le long de la nappe à cause du frottement de l'eau dans la roche. Si, à l'endroit du forage, ce niveau est plus haut que le sol, l'eau sort seule.
+
+La figure coupe une nappe captive dans un grès, sous une couche d'argile, avec trois puits : un piézomètre, un forage profond jusqu'au grès et un puits ordinaire dans la nappe libre du dessus. Survolez-la de haut en bas (ou touchez-la, ou utilisez ↑ ↓) pour changer le niveau de recharge. À 132 m d'altitude, le forage jaillit : « puits profond +4,8 m / sol · jaillit 5,3 L/s ». Le jaillissement s'arrête vers 124,4 m, et à 120 m l'eau reste à 2,7 m sous le sol. Le puits ordinaire, lui, ne bouge pas : il puise dans une autre nappe.
+
+```iso:nappe-artesienne
+```
+
 ### Propriétés hydrauliques
 
 | Propriété | Définition | Importance |
