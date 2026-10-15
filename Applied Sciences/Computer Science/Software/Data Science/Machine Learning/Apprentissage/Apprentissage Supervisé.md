@@ -85,6 +85,29 @@ pred = model.predict(X_test)         # classe (seuil 0.5 par défaut)
 
 **Frontière de décision** : la régression logistique trace une frontière **linéaire** entre les classes. Pour des données non linéairement séparables, il faut ajouter des features polynomiales ou passer à un modèle non linéaire (SVM à noyau, arbres, réseaux de neurones).
 
+Ci-dessous, la régression logistique apprend sur des points des deux classes qui se chevauchent. Le fond donne la probabilité de la classe orange, plus foncé là où le modèle est sûr de lui ; la ligne noire est la frontière, là où la probabilité vaut le seuil. Touchez le plan pour ajouter des points, et chargez le XOR pour voir une droite échouer.
+
+```widget:frontiere
+modele: logistique
+jeu: melange
+objectif: Entraînez le modèle, puis réglez le seuil pour qu'aucun point orange ne soit classé bleu.
+cible: modele=logistique, converge=1, fn=0
+indice: Un point orange est classé bleu quand sa probabilité est sous le seuil. Baissez le seuil.
+erreur: converge=0 → Entraînez d'abord le modèle jusqu'au bout. ;; fn>0 → Il reste des points orange du côté bleu : baissez encore le seuil.
+bravo: Plus aucun orange n'est manqué, mais des points bleus passent maintenant en orange. C'est l'arbitrage entre rappel et précision.
+```
+
+> [!quiz] Pourquoi entraîne-t-on la régression logistique avec la log loss plutôt qu'avec l'erreur quadratique ?
+> - [ ] Parce que l'erreur quadratique ne se calcule pas sur des probabilités
+>   Elle se calcule très bien : (y − σ(z))² a un sens. Le problème est ailleurs, dans la forme de la fonction de coût.
+> - [x] Parce que sigmoïde et erreur quadratique donnent un coût non convexe, difficile à optimiser
+>   Avec la log loss, le coût est convexe : la descente de gradient ne peut pas rester coincée dans un mauvais minimum local.
+> - [ ] Parce que la log loss est plus rapide à calculer
+>   Les deux coûtent à peu près autant ; le choix tient à la forme du coût, pas au temps de calcul.
+
+> [!quiz] Que trace la régression logistique entre deux classes, sans variable ajoutée ?
+> Une frontière **linéaire** (une droite en deux dimensions). Pour des classes non linéairement séparables, il faut ajouter des features (polynomiales, produits) ou passer à un modèle non linéaire.
+
 ### Exemples
 
 Toute classification pouvant donner un résultat booléen :
@@ -154,9 +177,45 @@ $$w_j := w_j - \alpha \frac{\partial J(w)}{\partial w_j}$$
 - $\alpha$ : **Taux d'apprentissage** (step size).
 - $\frac{\partial J(w)}{\partial w_j}$ : Dérivée partielle de la fonction de coût par rapport à $w_j$.
 
+> [!predict] Une descente de gradient avance bien mais lentement. On multiplie son taux d'apprentissage $\alpha$ par 10. Que se passe-t-il ?
+> - [ ] Elle arrive toujours 10 fois plus vite au minimum
+>   Seulement tant que les pas restent assez petits pour ne pas sauter par-dessus le creux de la fonction de coût.
+> - [x] Elle peut aller plus vite, ou se mettre à diverger
+>   Au-delà d'un certain taux, chaque pas dépasse le minimum et atterrit plus haut qu'au départ : la perte explose au lieu de baisser.
+> - [ ] Elle converge vers un autre minimum
+>   Pour une régression linéaire, l'erreur quadratique n'a qu'un minimum ; le taux change le chemin, pas l'arrivée (quand elle arrive).
+
 Choix du taux d'apprentissage ($\alpha$)
 - **Petit $\alpha$** : Convergence **lente** mais sûre.
 - **Grand $\alpha$** : Convergence **rapide** mais risque de **divergence**.
+
+Le widget ajuste une droite $y = wx + b$ à vingt points. À gauche, la droite et les écarts aux points ; à droite, la perte vue d'en haut, en courbes de niveau dans le plan $(w, b)$, avec le trajet de la descente. Touchez le plan de droite pour partir d'ailleurs.
+
+```widget:descente-gradient
+taux: 0.02
+objectif: Atteignez le minimum en 60 pas ou moins.
+cible: atteint=1, pas<=60
+indice: Au taux de départ, il faut 360 pas. Montez η jusqu'à ce que le trajet se mette à rebondir d'un bord à l'autre de la vallée.
+erreur: diverge=1 → Trop grand : la descente diverge. Redescendez d'un cran. ;; atteint=0 → Lancez la descente jusqu'au bout avant de vérifier. ;; pas>60 → Atteint, mais en plus de 60 pas : un taux un peu plus grand irait plus vite.
+bravo: Vers η = 0,15, une cinquantaine de pas suffisent : le trajet zigzague, mais il avance vite au fond de la vallée.
+objectif-2: Trouvez le plus petit taux qui fait diverger la descente.
+cible-2: diverge=1, taux<=0.17
+erreur-2: diverge=0 → Pas encore de divergence : montez η, puis lancez. ;; taux>0.17 → Ça diverge, mais un taux plus petit diverge déjà.
+bravo-2: Le seuil vaut ici environ 0,163 (le tableau l'affiche maintenant). Il dépend de la forme de la vallée, pas du point de départ : plus la perte monte vite dans une direction, plus le taux doit être petit.
+```
+
+Ce que montre le widget : les courbes de niveau sont des ellipses très allongées, parce que la perte réagit beaucoup plus à la pente qu'à l'ordonnée. C'est la direction la plus raide qui fixe le taux maximal, et la direction la plus plate qui fixe la durée. C'est pour ces vallées étroites qu'existent le momentum et Adam (voir [[Perceptron et Rétropropagation]]), et c'est aussi pourquoi on **normalise les features** avant l'entraînement : des variables à la même échelle donnent des courbes de niveau plus rondes.
+
+> [!quiz] Pendant l'entraînement, la perte augmente à chaque itération et finit par exploser. Quelle est la cause la plus probable ?
+> - [x] Un taux d'apprentissage trop grand
+>   Chaque pas dépasse le minimum et remonte plus haut de l'autre côté : il faut diviser le taux.
+> - [ ] Un taux d'apprentissage trop petit
+>   Un taux trop petit rend la descente lente, mais la perte baisse quand même à chaque pas.
+> - [ ] Trop d'itérations
+>   Plus d'itérations ne font pas remonter la perte d'entraînement d'une descente qui converge.
+
+> [!quiz] Quelle différence entre descente de gradient par lot (batch) et stochastique (SGD) ?
+> Le batch utilise **tous les exemples** à chaque mise à jour (stable mais lent sur de grosses bases) ; la SGD met à jour les coefficients **exemple par exemple** (rapide mais bruyante). Le mini-batch est le compromis entre les deux.
 
 Types de descente de gradient
 1. **Descente de gradient par lot (Batch Gradient Descent)** :

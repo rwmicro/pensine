@@ -35,6 +35,35 @@ flowchart LR
 - $b$ : biais — décale le seuil d'activation
 - $f$ : fonction d'activation — introduit la **non-linéarité**, sans laquelle empiler des couches reviendrait à une simple combinaison linéaire, quel que soit le nombre de couches
 
+### Apprendre une frontière
+
+Rosenblatt entraîne le perceptron sans aucune dérivée : un point est classé selon le signe de $w_1 x_1 + w_2 x_2 + b$, et chaque fois que le perceptron se trompe sur un point, il **ajoute ce point à ses poids** (ou le retranche, selon sa classe). La droite pivote vers le point mal classé, et on recommence. Si une droite peut séparer les deux classes, cette règle finit toujours par en trouver une (théorème de convergence du perceptron).
+
+> [!predict] Quatre groupes de points : en bas à gauche et en haut à droite la classe A, en haut à gauche et en bas à droite la classe B (c'est le XOR). Un perceptron seul peut-il apprendre à les séparer ?
+> - [ ] Oui, s'il s'entraîne assez longtemps
+>   Le temps n'y change rien : aucune droite ne laisse les deux groupes A d'un côté et les deux groupes B de l'autre.
+> - [x] Non, aucune droite ne sépare ces points
+>   Le perceptron corrige sans fin, sans jamais converger. C'est la limite pointée par Minsky et Papert en 1969.
+> - [ ] Oui, avec un meilleur taux d'apprentissage
+>   Pour le perceptron, le taux ne fait que changer l'échelle des poids, pas la droite qu'il peut tracer.
+
+```widget:frontiere
+modele: perceptron
+jeu: separables
+objectif: Entraînez le perceptron jusqu'à ce qu'il converge sur les points séparables.
+cible: modele=perceptron, jeu=separables, converge=1
+erreur: modele=logistique → Repassez sur le perceptron. ;; converge=0 → Pas encore : lancez l'entraînement jusqu'au bout.
+bravo: Chaque correction a fait pivoter la droite vers le point cerclé, jusqu'à ce qu'aucun point ne reste du mauvais côté.
+objectif-2: Chargez le XOR et lancez le perceptron. Attendez qu'il abandonne.
+cible-2: modele=perceptron, jeu=xor, produit=0, abandon=1
+erreur-2: produit=1 → Décochez la variable x₁·x₂ pour cet objectif. ;; jeu!=xor → Choisissez les points XOR. ;; abandon=0 → Laissez-le tourner : il corrige sans fin.
+bravo-2: Quatre cents corrections, et toujours des points du mauvais côté : aucune droite ne sépare le XOR.
+objectif-3: Ajoutez la variable x₁·x₂ et faites converger le perceptron sur le XOR.
+cible-3: modele=perceptron, jeu=xor, produit=1, converge=1
+indice-3: Cochez « Ajouter la variable x₁·x₂ », puis entraînez.
+bravo-3: Avec une variable de plus, la frontière se courbe et le XOR devient séparable. Une couche cachée fait la même chose, mais apprend elle-même les variables utiles.
+```
+
 ## Repères historiques
 
 - **1958 — Perceptron (Rosenblatt)** : un seul neurone, capable d'apprendre des frontières linéaires
@@ -178,6 +207,25 @@ loss.backward()      # rétropropagation : calcule tous les gradients
 optimizer.step()     # met à jour les poids avec les gradients calculés
 optimizer.zero_grad()
 ```
+
+## Questions
+
+> [!quiz] Que fait le perceptron de Rosenblatt quand il classe mal un point ?
+> Il ajoute ce point à ses poids s'il est de la classe positive, ou le retranche s'il est de la classe négative (et ajuste le biais de ±1). La frontière pivote vers le point mal classé.
+
+> [!quiz] Pourquoi ne pas initialiser tous les poids d'un réseau à zéro ?
+> - [ ] Parce que le réseau ne pourrait rien prédire du tout
+>   Il prédit quelque chose, mais le problème est l'apprentissage, pas la première prédiction.
+> - [x] Parce que tous les neurones d'une couche recevraient le même gradient et resteraient identiques
+>   La symétrie n'est jamais brisée : une couche de cent neurones apprend comme un seul. D'où l'initialisation aléatoire (Xavier, He).
+> - [ ] Parce que la rétropropagation divise par les poids
+>   La rétropropagation multiplie des dérivées locales ; aucune division par les poids.
+
+> [!quiz] Que calcule la rétropropagation, et que fait-elle de ce calcul ?
+> Elle calcule le **gradient** de la perte par rapport à chaque poids, en appliquant la règle de dérivation en chaîne de la sortie vers l'entrée. Elle ne met pas à jour les poids : c'est l'optimiseur (descente de gradient, Adam…) qui s'en sert.
+
+> [!quiz] Pourquoi ReLU a-t-elle remplacé la sigmoïde dans les couches cachées ?
+> Son gradient vaut exactement 1 pour $z > 0$ : pas de saturation, donc le gradient ne s'éteint pas en remontant les couches (vanishing gradient), et l'entraînement des réseaux profonds est bien plus rapide.
 
 ## Liens
 

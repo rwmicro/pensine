@@ -202,6 +202,22 @@ loss.backward()
 optimizer.step()
 ```
 
+## Questions
+
+> [!quiz] Un jeu de données contient une valeur aberrante, avec une erreur de 10 alors que les autres sont autour de 1. Quelle perte en est la plus affectée ?
+> - [x] La MSE
+>   L'erreur est élevée au carré : la valeur aberrante pèse 100 dans la somme, contre 1 pour une erreur normale.
+> - [ ] La MAE
+>   La MAE prend la valeur absolue : la valeur aberrante pèse 10, pas 100. C'est pour ça qu'elle est dite robuste.
+> - [ ] Les deux autant
+>   Le carré de la MSE fait toute la différence entre les deux.
+
+> [!quiz] Quelle perte utiliser pour une classification binaire dont la sortie est une probabilité ?
+> La **log loss** (entropie croisée binaire) : $-\frac{1}{n}\sum [y_i \log \hat{y}_i + (1-y_i)\log(1-\hat{y}_i)]$. Elle punit très fort une prédiction sûre d'elle et fausse.
+
+> [!quiz] Que fait la Huber Loss ?
+> Elle se comporte comme la MSE pour les petites erreurs et comme la MAE pour les grandes : dérivable partout, mais moins sensible aux valeurs aberrantes que la MSE.
+
 ## Résumé comparatif
 
 | Fonction | Type de problème | Sensible aux outliers | Quand l'utiliser |
