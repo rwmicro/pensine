@@ -1,0 +1,77 @@
+name: Contrôle des notes
+
+# Avant la fusion d'une PR : lance le contrôle de santé du site
+# (learn-nebula, scripts/vault-health.ts, celui qui alimente /admin) sur la
+# base et sur la PR, et échoue seulement sur ce que la PR ajoute : lien cassé,
+# champ de frontmatter manquant, clip audio cassé, cycle de prérequis. Les
+# notes presque vides ou surtout en anglais sortent en avertissement.
+# L'existant ne bloque jamais.
+#
+# Pas de LFS (lfs: false) : les decks Anki ne servent pas au contrôle et le
+# quota de bande passante LFS du compte est partagé.
+
+on:
+  pull_request:
+    paths: ["**/*.md", ".github/workflows/check-notes.yml", ".github/scripts/vault-health-diff.mjs"]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: check-notes-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  vault-health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: PR
+        uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5
+        with:
+          path: head
+          lfs: false
+          persist-credentials: false
+
+      - name: Base
+        uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          path: base
+          lfs: false
+          persist-credentials: false
+
+      - name: Site (learn-nebula)
+        uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5
+        with:
+          repository: rwmicro/learn-nebula
+          path: site
+          lfs: false
+          persist-credentials: false
+
+      - uses: pnpm/action-setup@a8198c4bff370c8506180b035930dea56dbd5288 # v5
+        with:
+          package_json_file: site/package.json
+
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: site/pnpm-lock.yaml
+
+      - name: Install
+        working-directory: site
+        run: pnpm install --frozen-lockfile --ignore-scripts
+
+      - name: Vault health (base, then PR)
+        working-directory: site
+        run: |
+          mkdir -p content data
+          for side in base head; do
+            ln -sfn "$GITHUB_WORKSPACE/$side" content/posts
+            pnpm exec tsx scripts/vault-health.ts
+            cp data/vault-health.json "$RUNNER_TEMP/$side.json"
+          done
+
+      - name: Ce que la PR ajoute
+        run: node head/.github/scripts/vault-health-diff.mjs "$RUNNER_TEMP/base.json" "$RUNNER_TEMP/head.json"
