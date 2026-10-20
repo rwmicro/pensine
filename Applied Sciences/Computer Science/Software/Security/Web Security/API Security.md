@@ -339,3 +339,5 @@ def handle_error(e):
         "error_id": error_id  # Pour corrélation avec les logs
     }, 500
 ```
+
+Les principes de cette note s'appliquent à toute API. Le secteur bancaire ajoute un cadre réglementaire, des flux de consentement, FAPI et des contraintes de fraude qui sont détaillés dans [[Sécurité des API bancaires]].

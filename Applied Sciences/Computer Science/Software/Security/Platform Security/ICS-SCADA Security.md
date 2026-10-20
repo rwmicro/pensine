@@ -236,6 +236,8 @@ SL3 : Protection contre attaquants sophistiqués avec ressources étendues
 SL4 : Protection contre les États-nations (ex: Stuxnet)
 ```
 
+Cette note pose les fondations. L'ingénierie des zones et conduits, la lecture des trames industrielles, l'inventaire sans arrêt de production, la détection des commandes illégitimes et la réponse à incident sont approfondis dans [[OT Security avancé]].
+
 ## Ressources et outils
 
 | Outil | Usage |

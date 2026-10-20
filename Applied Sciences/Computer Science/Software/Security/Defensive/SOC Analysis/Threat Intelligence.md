@@ -206,3 +206,5 @@ Plateforme open source de partage d'IOCs. Les événements MISP contiennent des 
 
 > [!tip] Méthode
 > L'étape Feedback est celle qui saute le plus souvent en pratique — une fois le rapport diffusé, personne ne revient vérifier si l'intelligence a réellement servi à quelque chose (détection déclenchée, décision prise). Sans ce retour, le cycle dérive vers la production de rapports pour le volume plutôt que pour l'impact, ce qui est le symptôme classique d'une fonction TI qui perd sa valeur avec le temps.
+
+Cette note couvre le renseignement tactique et opérationnel : indicateurs, acteurs, formats d'échange et cycle de production. Le niveau stratégique — questions du conseil, scénarios, attribution, produits et intégration à la gestion des risques — est traité dans [[Threat Intelligence stratégique]].

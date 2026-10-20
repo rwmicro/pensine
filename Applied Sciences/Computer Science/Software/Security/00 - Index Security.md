@@ -17,6 +17,7 @@ Carte du domaine sécurité du vault. Organisation par discipline, du concept à
 - [[Purple Teaming]] — collaboration red/blue, validation de la détection
 - [[MITRE ATT&CK]] — vocabulaire des TTP, cartographie et limites
 - [[Adversary Emulation]] — construction et mesure d'un scénario d'émulation
+- [[Threat Intelligence stratégique]] — analyse stratégique, produits, attribution et aide à la décision
 
 ## Offensive
 
@@ -47,13 +48,15 @@ Carte du domaine sécurité du vault. Organisation par discipline, du concept à
 
 ## Web Security
 
-`Web Security/` — OWASP et au-delà : [[SQL Injections]], [[Command Injection]], [[Path Traversal]], [[SSTI]], [[XXE en profondeur]], [[Insecure Deserialization]], [[File Upload Vulnerabilities]], [[HTTP Request Smuggling]], [[Web Cache Poisoning]], [[API Security]], [[GraphQL Security]], [[Business Logic Vulnerabilities]], [[Race Conditions]]… (28 notes)
+`Web Security/` — OWASP et au-delà : [[SQL Injections]], [[Command Injection]], [[Path Traversal]], [[SSTI]], [[XXE en profondeur]], [[Insecure Deserialization]], [[File Upload Vulnerabilities]], [[HTTP Request Smuggling]], [[Web Cache Poisoning]], [[API Security]], [[Sécurité des API bancaires]], [[GraphQL Security]], [[Business Logic Vulnerabilities]], [[Race Conditions]]… (29 notes)
 
 ## Networking
 
 `Networking/Fundamentals/` — réseau pur : [[IPv4]], [[IPv6]], [[Adressage IP]], [[ARP]], [[Modèles Réseau]], [[Protocoles Réseau]], [[DNS en profondeur]], [[HTTPS]], [[NAT et ACL]], [[SNMP]], [[QoS]], routage ([[OSPF]], [[RIP]], [[EIGRP]]), [[VPN Protocols]], [[Outils Réseau]]…
 
 `Networking/Network Security/` — sécurité réseau : [[Sécurité Réseau]], [[Attaques Réseau]], [[Spoofing]], [[VLAN Hopping]], [[BGP Hijacking]], [[IDS-IPS-WAF]], [[Scanning]], [[Iptable]], et le WiFi ([[00 - Index WiFi]]).
+
+`Networking/` — télécoms et 5G : [[Télécom et 5G Security]].
 
 ## Defensive — SOC, détection, forensique
 
@@ -80,7 +83,7 @@ Carte du domaine sécurité du vault. Organisation par discipline, du concept à
 - `Application Security/` — [[Sécurité CI-CD et chaîne d'approvisionnement]], [[SAST, DAST et SCA]]
 - `Identity et Auth/` — [[JWT]], [[OAuth et OIDC]], [[PAM - Privileged Access Management]]
 - `Reverse Engineering/` — [[Reverse Engineering]], [[Binary Exploitation]], [[Exploit Development]], [[Firmware Analysis]], [[fuzzing]]
-- `Platform Security/` — [[ICS-SCADA Security]], [[macOS Security]], [[Sécurité Mobile]], [[Physical Security]], [[Hardware Hacking]]
+- `Platform Security/` — [[ICS-SCADA Security]], [[OT Security avancé]], [[Sécurité SAP et ERP]], [[Mainframe Security]], [[macOS Security]], [[Sécurité Mobile]], [[Physical Security]], [[Hardware Hacking]]
 - `AI Security/` — [[Prompt Injection]], [[LLM et RAG Security]]
 
 ## Parcours de lecture
@@ -96,6 +99,9 @@ Des chemins possibles pour aborder le domaine sans se disperser. Chaque étape s
 | Cloud et identité | [[Cloud Security]] → [[AWS Security]] / [[Azure Security]] → [[Entra ID et Microsoft 365 Security]] → [[Cloud Forensics et IR]] |
 | Sécurité applicative et données | [[Secure SDLC]] → [[SAST, DAST et SCA]] → [[Sécurité CI-CD et chaîne d'approvisionnement]] → [[Sécurité des données]] → [[DLP et protection des données]] |
 | Sécurité de l'IA | [[Prompt Injection]] → [[LLM et RAG Security]] → [[Threat Modeling]] |
+| Systèmes critiques | [[ICS-SCADA Security]] → [[OT Security avancé]] → [[Sécurité SAP et ERP]] → [[Mainframe Security]] |
+| Télécom et finance | [[Sécurité Réseau]] → [[Télécom et 5G Security]] → [[API Security]] → [[Sécurité des API bancaires]] → [[NIS2 et DORA]] |
+| Renseignement stratégique | [[Threat Intelligence]] → [[MITRE ATT&CK]] → [[APT et Acteurs de la Menace]] → [[Threat Intelligence stratégique]] → [[Adversary Emulation]] |
 | Émulation et mesure | [[MITRE ATT&CK]] → [[Threat Intelligence]] → [[Adversary Emulation]] → [[Purple Teaming]] |
 | Cryptographie appliquée | [[Cryptographie]] → [[TLS 1.3]] → [[PKI en profondeur]] → [[Gestion des clés et HSM]] → [[Cryptographie post-quantique]] |
 | Gouvernance | [[Threat Modeling]] → [[Compliance]] → [[EBIOS RM]] → [[NIS2 et DORA]] → [[Privacy Engineering]] → [[Sécurité des données]] → [[Business Continuity et Disaster Recovery]] |

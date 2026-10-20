@@ -139,6 +139,8 @@ La gestion des tiers doit être contractuelle et vérifiable. Les clauses minima
 
 La continuité doit être testée, pas seulement documentée. Les exercices couvrent la perte d'un fournisseur critique, la compromission d'un compte à privilèges, le chiffrement par rançongiciel et l'indisponibilité d'un site. Les résultats alimentent le plan de traitement et la revue de direction.
 
+Selon le secteur, les contrôles techniques à prouver diffèrent : [[OT Security avancé]] pour les opérateurs industriels, [[Télécom et 5G Security]] pour les opérateurs mobiles et [[Sécurité des API bancaires]] pour les établissements financiers. NIS2 et DORA fixent le cadre et la preuve ; les notes sectorielles fournissent les mécanismes.
+
 ## Preuves et conformité continue
 
 Les preuves doivent être datées, versionnées, accessibles et cohérentes avec les journaux.
