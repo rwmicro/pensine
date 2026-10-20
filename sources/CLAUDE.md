@@ -251,6 +251,12 @@ bits: 32
 | `tcl` | `loi`, `n` | Théorème central limite : distribution des moyennes, erreur-type en 1/√n |
 | `descente-gradient` | `taux`, `w`, `b` (départ) | Descente de gradient sur une droite : la droite qui s'ajuste et le trajet sur les courbes de niveau de la perte, divergence au-delà du taux critique |
 | `frontiere` | `modele` (`perceptron` ou `logistique`), `jeu` (`separables`, `melange`, `xor`, `vide`), `produit` (`oui`), `seuil` | Frontière de décision apprise sur des points qu'on pose : perceptron, régression logistique, XOR et variable x₁·x₂ |
+| `tri` | `algo` (`bulles`, `insertion`, `selection`, `fusion`, `rapide`), `n` (taille), `ordre` (`aleatoire`, `trie`, `inverse`) | Un tableau trié pas à pas : barres comparées et écrites, compteurs de comparaisons et d'écritures |
+| `graphe-parcours` | `algo` (`largeur`, `profondeur`, `dijkstra`), `depart`, `cible` (A à H) | BFS, DFS et Dijkstra sur un même graphe pondéré : file, pile ou priorités, arbre de parcours, plus court chemin |
+| `jointures-sql` | `type` (`inner`, `left`, `right`, `full`) | Deux petites tables, la requête et son résultat, lignes gardées et colonnes à NULL |
+| `cercle-trigo` | `angle` (degrés) | Point déplaçable sur le cercle unité : cos, sin, tangente, courbes et valeurs exactes des angles remarquables |
+| `ordonner` | `elements` (`texte = détail \| …`, dans le bon ordre), `consigne`, `haut`, `bas` | Liste mélangée à remettre en ordre (dates, périodes, étapes) ; le détail apparaît une fois l'élément bien placé |
+| `associer` | `paires` (`A = B \| C = D`), `consigne` | Associer chaque élément de gauche à un élément de droite mélangé (dieu grec ↔ romain, concept ↔ auteur) |
 
 ### Objectifs à atteindre
 
@@ -289,6 +295,12 @@ Seuls certains widgets exposent leur état, sous ces clés :
 | `logistique` | `r`, `periode` (0 = chaos) |
 | `descente-gradient` | `pas`, `perte`, `ecart` (perte − minimum), `taux`, `atteint` (0/1), `diverge` (0/1) |
 | `frontiere` | `modele`, `jeu`, `produit` (0/1), `points`, `erreurs`, `fn` (orange classés bleu), `fp`, `precision` (%), `corrections`, `pas`, `converge` (0/1), `abandon` (0/1), `seuil` |
+| `tri` | `comparaisons`, `ecritures`, `trie` (0/1), `n`, `algo` |
+| `graphe-parcours` | `visites`, `fini` (0/1), `distance` (jusqu'à la cible, −1 si inconnue), `algo`, `depart` |
+| `jointures-sql` | `lignes`, `type` |
+| `cercle-trigo` | `angle`, `cos`, `sin` |
+| `ordonner` | `bien` (éléments bien placés), `total`, `juste` (0/1, après Vérifier), `essais` |
+| `associer` | `bien`, `total`, `juste` (0/1, après Vérifier), `essais` |
 
 Sur un autre widget, les objectifs sont ignorés et le widget s'affiche comme d'habitude.
 

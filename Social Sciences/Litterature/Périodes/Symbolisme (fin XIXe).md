@@ -132,6 +132,15 @@ Le symbolisme comme mouvement organisé s'éteint vers 1900, mais son influence 
 - La **poésie moderne** tout entière descend du symbolisme : le vers libre, l'image comme mode de connaissance, le refus de la description plate
 - **T.S. Eliot** et **Ezra Pound** reconnaissent explicitement leur dette envers les symbolistes français
 
+Situez le symbolisme parmi les mouvements qui l'ont précédé :
+
+```widget:ordonner
+consigne: Classez ces mouvements littéraires dans l'ordre chronologique.
+haut: XVIIe siècle
+bas: fin XIXe siècle
+elements: Classicisme = XVIIe siècle | Lumières = XVIIIe siècle | Romantisme = 1820-1850 | Réalisme = 1850-1880 | Naturalisme = 1870-1890 | Symbolisme = 1886-1900
+```
+
 ## Questions de révision
 
 > [!quiz] Qui publie le manifeste du symbolisme en 1886 ?

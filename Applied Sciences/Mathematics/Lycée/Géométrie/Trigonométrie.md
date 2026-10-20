@@ -128,6 +128,11 @@ class CercleTrigonometrique(Scene):
         self.wait()
 ```
 
+Faites tourner le point sur le cercle pour lire cosinus, sinus et tangente, et voir les courbes se tracer :
+
+```widget:cercle-trigo
+angle: 30
+```
 
 ## 4. Valeurs remarquables
 

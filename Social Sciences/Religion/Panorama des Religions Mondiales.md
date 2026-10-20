@@ -27,6 +27,13 @@ Les religions structurent la vie de plus de 80 % de la population mondiale. Cett
 | **Sikhisme** | Guru Nanak | XVe siècle (1469) | ~30 millions | 0,4 % | Guru Granth Sahib |
 | **Judaïsme** | Abraham / Moïse | ~1800 av. J.-C. | ~15 millions | 0,2 % | Torah (Pentateuque), Talmud |
 
+Retrouvez le texte sacré principal de chaque religion :
+
+```widget:associer
+consigne: Associez chaque religion à son texte sacré principal.
+paires: Christianisme = Bible | Islam = Coran | Hindouisme = Védas | Bouddhisme = Tripitaka | Sikhisme = Guru Granth Sahib | Judaïsme = Torah
+```
+
 ## Les religions abrahamiques
 
 Judaïsme, christianisme et islam partagent un socle commun : le monothéisme, la figure d'Abraham, la révélation divine, et une vision linéaire de l'histoire (création, prophètes, fin des temps).

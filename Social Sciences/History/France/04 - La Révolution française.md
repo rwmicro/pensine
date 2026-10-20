@@ -78,6 +78,15 @@ Après la chute de Robespierre, une réaction conservatrice s'installe : le Dire
 
 La Révolution abolit juridiquement la société d'ordres et pose les principes — égalité devant la loi, souveraineté nationale, droits individuels — qui structurent encore la vie politique française. Mais elle laisse aussi un répertoire de gestes et de symboles (l'insurrection parisienne, le recours à la violence révolutionnaire, la référence permanente à 1789) qui resurgit à chaque crise politique majeure du XIXe siècle, de 1830 à 1848 jusqu'à [[06 - La Commune]] en 1871.
 
+Remettez les grandes étapes de la Révolution dans l'ordre :
+
+```widget:ordonner
+consigne: Classez ces événements du plus ancien au plus récent.
+haut: 1789
+bas: 1799
+elements: États généraux = 5 mai 1789 | Serment du Jeu de paume = 20 juin 1789 | Prise de la Bastille = 14 juillet 1789 | Fuite à Varennes = juin 1791 | Proclamation de la République = 21 septembre 1792 | Exécution de Louis XVI = 21 janvier 1793 | Chute de Robespierre = 27 juillet 1794 | Coup d'État du 18 brumaire = 9 novembre 1799
+```
+
 ## Questions de révision
 
 > [!quiz] Pourquoi le tiers état réclame-t-il en 1789 le vote par tête plutôt que par ordre ?

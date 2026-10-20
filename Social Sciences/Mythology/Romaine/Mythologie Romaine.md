@@ -63,6 +63,13 @@ date: "2026-02-22"
 > [!tip] Méthode
 > Ce mythe fondateur n'est pas un simple récit d'origine : c'est une charte politique au sens de Malinowski (voir [[Fonctions et Interprétations]]) qui légitime des institutions bien réelles — le fratricide fondateur justifie l'autorité absolue et sans partage du pouvoir romain, l'enlèvement des Sabines "explique" et normalise l'intégration forcée de peuples voisins dans la cité.
 
+Retrouvez l'équivalent romain de chaque dieu grec :
+
+```widget:associer
+consigne: Associez chaque dieu grec à son équivalent romain.
+paires: Zeus = Jupiter | Héra = Junon | Poséidon = Neptune | Arès = Mars | Aphrodite = Vénus | Athéna = Minerve | Artémis = Diane | Héphaïstos = Vulcain | Hermès = Mercure | Déméter = Cérès | Dionysos = Bacchus | Hadès = Pluton
+```
+
 ## Questions de révision
 
 > [!quiz] Quels sont les fondateurs légendaires de Rome ?

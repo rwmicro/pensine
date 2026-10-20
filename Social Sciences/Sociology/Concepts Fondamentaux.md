@@ -199,6 +199,13 @@ date: "2026-02-22"
 - "Nous" vs "Eux"
 - Stéréotypes, préjugés
 
+Retrouvez le sociologue associé à chaque concept :
+
+```widget:associer
+consigne: Associez chaque concept à son auteur.
+paires: Fait social = Durkheim | Habitus = Bourdieu | Désenchantement du monde = Weber | Lutte des classes = Marx | Stigmate = Goffman | Étiquetage = Becker
+```
+
 ## Questions de révision
 
 > [!quiz] Quelle différence entre socialisation primaire et socialisation secondaire ?
