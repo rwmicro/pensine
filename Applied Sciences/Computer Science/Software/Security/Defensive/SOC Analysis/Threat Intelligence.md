@@ -100,6 +100,8 @@ Structure :
    → Caldera : simulation d'adversaires automatisée
 ```
 
+La méthode de cartographie, les calques Navigator et les limites des scores de couverture sont détaillés dans [[MITRE ATT&CK]]. La construction d'un scénario d'émulation à partir des TTP est traitée dans [[Adversary Emulation]].
+
 ## Sources de Threat Intelligence
 
 ### Open Source (OSINT-TI)

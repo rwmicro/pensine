@@ -1,12 +1,12 @@
 ---
-title: "LFCS Q17 — OpenSSH Configuration"
+title: "LFCS Q17 — Configuration OpenSSH"
 domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Certifications > LFCS"
 tags: [lfcs, linux, certification, openssh]
 date: "2026-08-09"
 ---
 
-# Question 17 — OpenSSH Configuration
+# Question 17 — Configuration OpenSSH
 
 ## Notes d'apprentissage
 
@@ -56,21 +56,21 @@ systemctl reload ssh           # appliquer
 
 ## Énoncé
 
-Solve this question on: `data-002`
+Résolvez cette question sur : `data-002`
 
-You need to perform OpenSSH server configuration changes on `data-002`. Users `marta` and `cilla` exist on that server and can be used for testing. Passwords are their username and shouldn't be changed. Please go ahead and:
-1. Disable `X11Forwarding`
-2. Disable `PasswordAuthentication` for everyone but user `marta`
-3. Enable `Banner` with file `/etc/ssh/sshd-banner` for users `marta` and `cilla`
+Vous devez effectuer des modifications de configuration du serveur OpenSSH sur `data-002`. Les utilisateurs `marta` et `cilla` existent sur ce serveur et peuvent servir aux tests. Leur mot de passe est leur nom d'utilisateur et ne doit pas être changé. Veuillez donc :
+1. Désactiver `X11Forwarding`
+2. Désactiver `PasswordAuthentication` pour tout le monde sauf pour l'utilisateur `marta`
+3. Activer `Banner` avec le fichier `/etc/ssh/sshd-banner` pour les utilisateurs `marta` et `cilla`
 
-> In case of misconfiguration you can still access the instance using `sudo lxc exec data-002 bash`
+> En cas de mauvaise configuration, vous pouvez toujours accéder à l'instance avec `sudo lxc exec data-002 bash`
 
 ## Solution
 
-### Step 1
-We are required to perform ssh server config changes, always fun because nothing can ever go wrong!
+### Étape 1
+Nous devons effectuer des changements de configuration du serveur ssh, toujours amusant car rien ne peut jamais mal se passer !
 
-We're doing a simple one first:
+Nous commençons par le cas simple :
 ```bash
 ssh data-002
 root@data-002:~# sshd -T | grep -i X11Forwarding
@@ -79,20 +79,20 @@ root@data-002:~$ vim /etc/ssh/sshd_config.d/custom.conf
 X11Forwarding no
 ```
 
-We could also edit `/etc/ssh/sshd_config` directly, but it is probably cleaner to override via drop-in config files. We can verify if the config change is accepted before restart:
+Nous pourrions aussi éditer directement `/etc/ssh/sshd_config`, mais il est probablement plus propre de surcharger via des fichiers de configuration drop-in. Nous pouvons vérifier que le changement de configuration est accepté avant de redémarrer :
 ```bash
 root@data-002:~# sshd -T | grep -i X11Forwarding
 x11forwarding no
 ```
 
-Now we can restart the ssh service:
+Nous pouvons maintenant redémarrer le service ssh :
 ```bash
 root@data-002:~$ service ssh restart # no error output means good
 ```
 
-**Step 2+3**
+**Étapes 2 et 3**
 
-We now need to first disable `PasswordAuthentication` globally and then enable it for user `marta`. Then we also add the `Banner` settings for users `marta` and `cilla`:
+Nous devons maintenant d'abord désactiver `PasswordAuthentication` globalement, puis l'activer pour l'utilisateur `marta`. Ensuite, nous ajoutons également les réglages `Banner` pour les utilisateurs `marta` et `cilla` :
 ```bash
 root@data-002:~$ vim /etc/ssh/sshd_config.d/custom.conf
 X11Forwarding no
@@ -104,15 +104,15 @@ Match User cilla
   Banner /etc/ssh/sshd-banner
 ```
 
-Using `Match User` or `Match Group` we can override global settings for specific users and groups.
+Avec `Match User` ou `Match Group`, nous pouvons surcharger les réglages globaux pour des utilisateurs et des groupes précis.
 
-It's **very important** to add any `Match` lines at the very bottom of the `/etc/ssh/sshd_config` config file because all following lines are considered part of that block until another `Match` or the end of the file.
+Il est **très important** de placer toutes les lignes `Match` tout en bas du fichier de configuration `/etc/ssh/sshd_config`, car toutes les lignes suivantes sont considérées comme faisant partie de ce bloc jusqu'à un autre `Match` ou la fin du fichier.
 
-If drop-in configuration files are used, such as in `/etc/ssh/sshd_config.d/`, this rule still applies because all files are loaded in lexical (alphabetical) order.
+Si des fichiers de configuration drop-in sont utilisés, comme dans `/etc/ssh/sshd_config.d/`, cette règle s'applique toujours, car tous les fichiers sont chargés dans l'ordre lexical (alphabétique).
 
-Therefore, if you have multiple drop-in files and want to include `Match` directives safely, one reliable approach is to create a file named something like `sshd_config.d/99-match-users.conf` to ensure it will be read last.
+Par conséquent, si vous avez plusieurs fichiers drop-in et que vous voulez inclure des directives `Match` sans risque, une approche fiable consiste à créer un fichier nommé par exemple `sshd_config.d/99-match-users.conf` pour garantir qu'il sera lu en dernier.
 
-We can verify our settings:
+Nous pouvons vérifier nos réglages :
 ```bash
 root@data-002:~# sshd -T | grep banner
 debianbanner yes
@@ -128,7 +128,7 @@ debianbanner yes
 banner none
 ```
 
-This looks great. Let's test if it works:
+Cela semble parfait. Testons si cela fonctionne :
 ```bash
 root@data-002:~$ service ssh restart
 root@data-002:~$ exit
@@ -138,18 +138,18 @@ marta@data-002's password:
 Last login: Tue Nov  4 13:27:24 2025 from 192.168.10.1
 ```
 
-User `marta` sees the banner message and can log in using password.
+L'utilisateur `marta` voit le message de bannière et peut se connecter avec un mot de passe.
 ```bash
 ssh cilla@data-002
 Hello our favorite user!
 cilla@data-002: Permission denied (publickey).
 ```
 
-User `cilla` sees the banner message but cannot log in using password.
+L'utilisateur `cilla` voit le message de bannière mais ne peut pas se connecter avec un mot de passe.
 ```bash
 ssh root@data-002
 Last login: Tue Nov  4 13:38:00 2025 from 192.168.10.1
 ```
 
-User `root` can still log in and does not see the banner message.
+L'utilisateur `root` peut toujours se connecter et ne voit pas le message de bannière.
 

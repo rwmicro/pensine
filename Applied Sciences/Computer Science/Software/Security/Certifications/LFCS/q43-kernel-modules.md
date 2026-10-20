@@ -1,12 +1,12 @@
 ---
-title: "LFCS Q43 — Kernel Modules"
+title: "LFCS Q43 — Modules du noyau"
 domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Certifications > LFCS"
 tags: [lfcs, linux, certification, kernel, modules]
 date: "2026-08-09"
 ---
 
-# Question 43 — Kernel Modules
+# Question 43 — Modules du noyau
 
 ## Notes d'apprentissage
 
@@ -44,19 +44,19 @@ modprobe -r NAME      # décharger (si non utilisé)
 
 ## Énoncé
 
-Solve this question on: `terminal`
+Résolvez cette question sur : `terminal`
 
-1. List all currently loaded kernel modules and write the count into `/opt/course/43/count`.
-2. Show detailed information about the `vfat` module and write its `description` line into `/opt/course/43/vfat-desc`.
-3. Load the `dummy` module now, then unload it.
-4. Ensure the `dummy` module is **loaded automatically at boot**.
-5. **Blacklist** the `pcspkr` module so it is never loaded automatically.
+1. Listez tous les modules du noyau actuellement chargés et écrivez leur nombre dans `/opt/course/43/count`.
+2. Affichez les informations détaillées sur le module `vfat` et écrivez sa ligne `description` dans `/opt/course/43/vfat-desc`.
+3. Chargez le module `dummy` maintenant, puis déchargez-le.
+4. Assurez-vous que le module `dummy` est **chargé automatiquement au démarrage**.
+5. **Blacklistez** le module `pcspkr` afin qu'il ne soit jamais chargé automatiquement.
 
 ## Solution
 
-Kernel modules are pieces of code (drivers, filesystems, network protocols) that can be loaded into and removed from the running kernel on demand. Modules live under `/lib/modules/$(uname -r)/` and have the `.ko` extension.
+Les modules du noyau sont des morceaux de code (pilotes, systèmes de fichiers, protocoles réseau) qui peuvent être chargés dans le noyau en cours d'exécution et en retirés à la demande. Les modules résident sous `/lib/modules/$(uname -r)/` et portent l'extension `.ko`.
 
-### Step 1 — List loaded modules
+### Étape 1 — Lister les modules chargés
 
 ```bash
 lsmod                               # name, size, used-by count, dependents
@@ -65,9 +65,9 @@ lsmod | wc -l                       # includes the header line
 echo $(($(lsmod | wc -l) - 1)) > /opt/course/43/count
 ```
 
-`lsmod` is just a formatted view of `/proc/modules`.
+`lsmod` n'est qu'une vue formatée de `/proc/modules`.
 
-### Step 2 — Inspect a module
+### Étape 2 — Inspecter un module
 
 ```bash
 modinfo vfat                        # full metadata
@@ -78,9 +78,9 @@ modinfo -F depends vfat             # dependencies
 modinfo -F description vfat > /opt/course/43/vfat-desc
 ```
 
-`modinfo` works on a module name **or** a `.ko` path, even if the module is not loaded.
+`modinfo` fonctionne avec un nom de module **ou** un chemin de fichier `.ko`, même si le module n'est pas chargé.
 
-### Step 3 — Load and unload now
+### Étape 3 — Charger et décharger maintenant
 
 ```bash
 sudo modprobe dummy                 # load (resolves dependencies)
@@ -88,63 +88,63 @@ lsmod | grep dummy                  # verify
 sudo modprobe -r dummy              # unload (and unused deps)
 ```
 
-- `modprobe` resolves dependencies via `/lib/modules/$(uname -r)/modules.dep`. Always prefer it.
-- `insmod /path/to.ko` / `rmmod name` are the low-level tools — they do **not** resolve dependencies. Rarely the right choice.
-- `modprobe -r` refuses to unload a module that is still in use (`used by` count > 0 in `lsmod`).
+- `modprobe` résout les dépendances via `/lib/modules/$(uname -r)/modules.dep`. Préférez-le toujours.
+- `insmod /path/to.ko` / `rmmod name` sont les outils bas niveau — ils ne résolvent **pas** les dépendances. Rarement le bon choix.
+- `modprobe -r` refuse de décharger un module encore utilisé (compteur `used by` > 0 dans `lsmod`).
 
-Pass parameters when loading:
+Passer des paramètres au chargement :
 ```bash
 sudo modprobe dummy numdummies=2
 modinfo -p dummy                    # list accepted parameters
 ```
 
-### Step 4 — Load automatically at boot
+### Étape 4 — Charger automatiquement au démarrage
 
-Create a file under `/etc/modules-load.d/` (one module name per line):
+Créez un fichier sous `/etc/modules-load.d/` (un nom de module par ligne) :
 ```bash
 echo dummy | sudo tee /etc/modules-load.d/dummy.conf
 ```
 
-`systemd-modules-load.service` reads every `*.conf` in `/etc/modules-load.d/` at boot and `modprobe`s each listed module.
+`systemd-modules-load.service` lit chaque `*.conf` de `/etc/modules-load.d/` au démarrage et exécute `modprobe` pour chaque module listé.
 
-To also pass **parameters** at every load, add a file under `/etc/modprobe.d/`:
+Pour passer aussi des **paramètres** à chaque chargement, ajoutez un fichier sous `/etc/modprobe.d/` :
 ```bash
 echo "options dummy numdummies=2" | sudo tee /etc/modprobe.d/dummy.conf
 ```
 
-> Debian also reads the legacy `/etc/modules` file for boot-time loading; `/etc/modules-load.d/` is the systemd-native, distro-agnostic way.
+> Debian lit aussi le fichier historique `/etc/modules` pour le chargement au démarrage ; `/etc/modules-load.d/` est la méthode native systemd, indépendante de la distribution.
 
-### Step 5 — Blacklist a module
+### Étape 5 — Blacklister un module
 
 ```bash
 echo "blacklist pcspkr" | sudo tee /etc/modprobe.d/blacklist-pcspkr.conf
 ```
 
-`blacklist` prevents **automatic** loading (by udev/hardware detection or as a dependency-by-alias). It does **not** stop a manual `modprobe pcspkr`. To block even manual loading, redirect the install command:
+`blacklist` empêche le chargement **automatique** (par udev, détection matérielle ou via un alias de dépendance). Cela n'empêche **pas** un `modprobe pcspkr` manuel. Pour bloquer même le chargement manuel, redirigez la commande d'installation :
 ```bash
 echo "install pcspkr /bin/false" | sudo tee -a /etc/modprobe.d/blacklist-pcspkr.conf
 ```
 
-A module already loaded into the running kernel must be removed manually (`modprobe -r pcspkr`) or after a reboot. If it is built into the initramfs, regenerate it:
+Un module déjà chargé dans le noyau en cours d'exécution doit être retiré à la main (`modprobe -r pcspkr`) ou après un redémarrage. S'il est intégré à l'initramfs, régénérez celui-ci :
 ```bash
 sudo update-initramfs -u              # Debian/Ubuntu
 sudo dracut -f                        # RHEL/Fedora
 ```
 
-### Reference
+### Référence
 
-| Command | Purpose |
+| Commande | Rôle |
 |---|---|
-| `lsmod` | list loaded modules |
-| `modinfo NAME` | show module metadata / parameters |
-| `modprobe NAME` | load (with dependency resolution) |
-| `modprobe -r NAME` | unload |
-| `insmod` / `rmmod` | low-level load/unload (no deps) |
-| `depmod` | rebuild `modules.dep` after adding a `.ko` |
+| `lsmod` | lister les modules chargés |
+| `modinfo NAME` | afficher les métadonnées et paramètres du module |
+| `modprobe NAME` | charger (avec résolution des dépendances) |
+| `modprobe -r NAME` | décharger |
+| `insmod` / `rmmod` | chargement/déchargement bas niveau (sans dépendances) |
+| `depmod` | reconstruire `modules.dep` après l'ajout d'un `.ko` |
 
-| File / directory | Role |
+| Fichier / répertoire | Rôle |
 |---|---|
-| `/etc/modules-load.d/*.conf` | modules to load at boot |
-| `/etc/modprobe.d/*.conf` | options, aliases, blacklist, install rules |
-| `/lib/modules/$(uname -r)/` | the modules themselves |
-| `/proc/modules` | raw loaded-module table (source of `lsmod`) |
+| `/etc/modules-load.d/*.conf` | modules à charger au démarrage |
+| `/etc/modprobe.d/*.conf` | options, alias, blacklist, règles d'installation |
+| `/lib/modules/$(uname -r)/` | les modules eux-mêmes |
+| `/proc/modules` | table brute des modules chargés (source de `lsmod`) |

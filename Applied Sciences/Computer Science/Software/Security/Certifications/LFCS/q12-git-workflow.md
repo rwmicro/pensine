@@ -1,12 +1,12 @@
 ---
-title: "LFCS Q12 — Git Workflow"
+title: "LFCS Q12 — Flux de travail Git"
 domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Certifications > LFCS"
 tags: [lfcs, linux, certification, workflow]
 date: "2026-08-09"
 ---
 
-# Question 12 — Git Workflow
+# Question 12 — Flux de travail Git
 
 ## Notes d'apprentissage
 
@@ -55,19 +55,19 @@ git commit -m "added log directory"
 
 ## Énoncé
 
-Solve this question on: `terminal`
+Résolvez cette question sur : `terminal`
 
-You're asked to perform changes in the Git repository of the Auto-Verifier app:
-1. Clone repository `/repositories/auto-verifier` to `/home/candidate/repositories/auto-verifier`.
-    _Perform the following steps in the newly cloned directory_
-2. Find the one of the branches `dev4`, `dev5` and `dev6` in which file `config.yaml` contains `user_registration_level: open`. Merge only that branch into branch `main`
-3. In branch `main` create a new directory `logs` on top repository level. To ensure the directory will be committed create hidden empty file `.keep` in it
-4. Commit your change with message `added log directory`
+Il vous est demandé d'effectuer des modifications dans le dépôt Git de l'application Auto-Verifier :
+1. Clonez le dépôt `/repositories/auto-verifier` vers `/home/candidate/repositories/auto-verifier`.
+    _Effectuez les étapes suivantes dans le répertoire fraîchement cloné_
+2. Trouvez, parmi les branches `dev4`, `dev5` et `dev6`, celle dans laquelle le fichier `config.yaml` contient `user_registration_level: open`. Fusionnez uniquement cette branche dans la branche `main`
+3. Dans la branche `main`, créez un nouveau répertoire `logs` à la racine du dépôt. Pour garantir que le répertoire sera committé, créez-y un fichier vide caché `.keep`
+4. Committez votre changement avec le message `added log directory`
 
 ## Solution
 
-### Step 1 — Clone Repository
-Git is most often used to clone from and work with remote repositories on like Github or Gitlab. But most of Git functionality can also be used locally. We go ahead and clone the local directory:
+### Étape 1 — Cloner le dépôt
+Git est le plus souvent utilisé pour cloner et manipuler des dépôts distants comme sur Github ou Gitlab. Mais l'essentiel des fonctionnalités de Git peut aussi être utilisé en local. Nous clonons donc le répertoire local :
 ```bash
 git clone /repositories/auto-verifier ~/repositories/auto-verifier
 Cloning into '/home/candidate/repositories/auto-verifier'...
@@ -82,8 +82,8 @@ Your branch is up to date with 'origin/main'.
 
 nothing to commit, working tree clean
 
-### Step 2 — Find the correct branch
-First we list all branches:
+### Étape 2 — Trouver la bonne branche
+Nous listons d'abord toutes les branches :
 ```bash
 ~/repositories/auto-verifier$ git branch
 ```
@@ -104,7 +104,7 @@ First we list all branches:
 
   remotes/origin/main
 
-We can simply move through all branches and check the file content:
+Nous pouvons simplement parcourir toutes les branches et vérifier le contenu du fichier :
 ```bash
 ~/repositories/auto-verifier$ git checkout dev4
 ```
@@ -136,7 +136,7 @@ Switched to a new branch 'dev6'
 user_registration_level: closed
 ```
 
-We could also check the commit that actually performed the change:
+Nous pourrions aussi examiner le commit qui a réellement effectué le changement :
 ```bash
 ~/repositories/auto-verifier$ git checkout dev5
 ```
@@ -174,7 +174,7 @@ index bbbfb9b..5d1ccb4 100755
  user_email_verify_enabled: true
 ```
 
-Another way could also be to compare from branch `main` without actually switching into another:
+Une autre méthode consiste à comparer depuis la branche `main` sans réellement basculer sur une autre :
 ```bash
 ~/repositories/auto-verifier$ git branch -a
 ```
@@ -206,7 +206,7 @@ index 5d1ccb4..bbbfb9b 100755
  user_email_verify_enabled: true
 ```
 
-Now we simply have to merge branch `dev5` into `main`:
+Il ne nous reste plus qu'à fusionner la branche `dev5` dans `main` :
 ```bash
 ~/repositories/auto-verifier$git checkout main
 Switched to branch 'main'
@@ -237,8 +237,8 @@ Fast-forward
 user_registration_level: open
 ```
 
-### Step 3 — Create new directory
-We're asked to create new directory, let's see what happens if we try to commit it just like that:
+### Étape 3 — Créer un nouveau répertoire
+Il nous est demandé de créer un nouveau répertoire ; voyons ce qui se passe si nous essayons de le committer tel quel :
 ```bash
 ~/repositories/auto-verifier$ mkdir logs
 ~/repositories/auto-verifier$ ls -l
@@ -259,7 +259,7 @@ Your branch is ahead of 'origin/main' by 1 commit.
 
 nothing to commit, working tree clean
 
-Above we see that `git status` doesn't list the directory at all because it's empty. This means that it wouldn't be included in commits too. Now we add the requested file and see if things change:
+Ci-dessus, nous voyons que `git status` ne liste pas du tout le répertoire parce qu'il est vide. Cela signifie qu'il ne serait pas non plus inclus dans les commits. Nous ajoutons maintenant le fichier demandé et voyons si les choses changent :
 ```bash
 ~/repositories/auto-verifier$ touch logs/.keep
 ~/repositories/auto-verifier$ git status
@@ -279,10 +279,10 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 
-That looks better!
+C'est mieux !
 
-### Step 4 — Commit
-Always best to confirm what's going to be committed:
+### Étape 4 — Commiter
+Il est toujours préférable de confirmer ce qui va être commité :
 ```bash
 ~/repositories/auto-verifier$ git status
 ```

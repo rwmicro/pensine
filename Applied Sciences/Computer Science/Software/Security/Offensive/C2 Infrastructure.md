@@ -272,6 +272,8 @@ Contre-détection :
   ✓ Désactiver les ports et services inutiles sur les redirecteurs
 ```
 
+Les profils malleables, la sémantique du beacon, les canaux alternatifs (DNS, DoH, SMB, SaaS) et le durcissement du teamserver sont approfondis dans [[C2 avancé]]. La posture OPSEC de l'opérateur, la séparation des identités et le burn control sont traités dans [[OPSEC Red Team]].
+
 ## Détection côté défenseur
 
 ```

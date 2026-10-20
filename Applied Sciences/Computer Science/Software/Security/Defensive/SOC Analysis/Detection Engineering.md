@@ -89,6 +89,8 @@ Atomic Red Team  → tester une technique spécifique
 ATT&CK Evaluations → benchmarker les outils EDR
 ```
 
+La méthode de cartographie, les pièges et les limites des scores de couverture sont détaillés dans [[MITRE ATT&CK]]. Pour les règles portables, voir [[Sigma]] ; pour l'analyse de fichiers et de capacités, voir [[YARA et CAPA]]. La télémétrie disponible côté agent est décrite dans [[EDR internals]], et les artefacts d'injection en mémoire dans [[Détection mémoire des injections]].
+
 ### Cyber Kill Chain (Lockheed Martin)
 
 | Phase | Description | Détections types |

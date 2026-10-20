@@ -51,6 +51,8 @@ $b='AmsiUtils'
 Set-ExecutionPolicy Bypass -Scope Process
 ```
 
+Les variantes mémoire, les contournements .NET et les limites d'ETW-TI sont détaillés dans [[AMSI et ETW bypass]].
+
 ## Obfuscation de scripts PowerShell
 
 ```powershell
@@ -139,6 +141,8 @@ CreateRemoteThread(hProcess, NULL, 0, (LPTHREAD_START_ROUTINE)pRemoteAddr, NULL,
 // 2. CreateRemoteThread → appeler LoadLibraryA avec le chemin
 // → La DLL légitime est chargée dans le processus cible
 ```
+
+Le hollowing, l'injection réflexive et leurs variantes (ghosting, herpaderping, doppelgänging) sont détaillés dans [[Process hollowing]] et [[Reflective DLL injection]]. Les techniques de dissimulation pendant l'attente et de falsification de pile sont traitées dans [[Obscurcissement du sommeil]] et [[Spoofing de pile d'appels]].
 
 ## Bypass des hooks EDR (Syscall directs)
 

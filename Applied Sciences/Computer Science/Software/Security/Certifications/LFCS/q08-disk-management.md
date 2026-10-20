@@ -1,12 +1,12 @@
 ---
-title: "LFCS Q08 — Disk Management"
+title: "LFCS Q08 — Gestion des disques"
 domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Certifications > LFCS"
 tags: [lfcs, linux, certification, disk, management]
 date: "2026-08-09"
 ---
 
-# Question 8 — Disk Management
+# Question 8 — Gestion des disques
 
 ## Notes d'apprentissage
 
@@ -63,20 +63,20 @@ On ne peut **démonter** (`umount`) un disque que si aucun fichier ouvert ne s'y
 
 ## Énoncé
 
-Solve this question on: `terminal`
+Résolvez cette question sur : `terminal`
 
-Your team selected you for this task because of your deep filesystem and disk/devices expertise. Solve the following steps to not let your team down:
-1. Format `/dev/vdb` with `ext4`, mount it to `/mnt/backup-black` and create empty file `/mnt/backup-black/completed`.
-2. Find which of the two disks, `/dev/vdc` or `/dev/vdd`, has higher storage usage.
-    Then empty the `.trash` folder on it.
-3. There are two processes running: `dark-matter-v1` and `dark-matter-v2`.
-    Find the one that consumes more memory or virtual memory.
+Votre équipe vous a choisi pour cette tâche en raison de votre expertise approfondie des systèmes de fichiers et des disques/périphériques. Réalisez les étapes suivantes pour ne pas décevoir votre équipe :
+1. Formatez `/dev/vdb` en `ext4`, montez-le sur `/mnt/backup-black` et créez le fichier vide `/mnt/backup-black/completed`.
+2. Trouvez lequel des deux disques, `/dev/vdc` ou `/dev/vdd`, a l'occupation de stockage la plus élevée.
+    Videz ensuite le dossier `.trash` de celui-ci.
+3. Deux processus sont en cours d'exécution : `dark-matter-v1` et `dark-matter-v2`.
+    Trouvez celui qui consomme le plus de mémoire ou de mémoire virtuelle.
 
-    Then unmount the disk where the process executable is located on.
+    Démontez ensuite le disque sur lequel se trouve l'exécutable du processus.
 
 ## Solution
 
-A good way to start is probably to list existing disks:
+Un bon point de départ est probablement de lister les disques existants :
 ```bash
 sudo fdisk -l
 
@@ -122,7 +122,7 @@ Sector size (logical/physical): 512 bytes / 512 bytes
 
 I/O size (minimum/optimal): 512 bytes / 512 bytes
 
-Another way with good list style and information:
+Une autre méthode, avec une belle présentation et de bonnes informations :
 ```bash
 lsblk -f
 NAME                      FSTYPE      FSVER    LABEL ...  FSAVAIL FSUSE% MOUNTPOINTS
@@ -135,7 +135,7 @@ vdf                       ext4        1.0            ...    
 ...
 ```
 
-Or even another way:
+Ou encore une autre :
 ```bash
 df -h
 Filesystem                         Size  Used Avail Use% Mounted on
@@ -151,8 +151,8 @@ tmpfs                              198M  4.0K  198M   1% /run/use
 /dev/vdf                            90M   44K   83M   1% /mnt/app-4e9d7e1e
 ```
 
-### Step 1
-We go right ahead and format the disk:
+### Étape 1
+Nous formatons directement le disque :
 ```bash
 sudo mkfs -t ext4 /dev/vdb
 mke2fs 1.46.5 (30-Dec-2021)
@@ -168,7 +168,7 @@ Creating journal (1024 blocks): done
 
 Writing superblocks and filesystem accounting information: done
 
-Then we mount it at the required location and create the file:
+Nous le montons ensuite à l'emplacement demandé et créons le fichier :
 ```bash
 sudo mkdir /mnt/backup-black
 sudo mount /dev/vdb /mnt/backup-black
@@ -190,8 +190,8 @@ tmpfs                              1.0M     0  1.0M   0% /var/s
 tmpfs                              198M  4.0K  198M   1% /run/user/0
 ```
 
-### Step 2
-Now we need to check the used disk space of two disks:
+### Étape 2
+Nous devons maintenant vérifier l'espace disque utilisé sur deux disques :
 ```bash
 df -h
 Filesystem                         Size  Used Avail Use% Mounted on
@@ -209,12 +209,12 @@ tmpfs                              1.0M     0  1.0M   0% /var/s
 /dev/vdb                            90M   24K   83M   1% /mnt/backup-black
 ```
 
-We see that we need to clear up disk space on `/mnt/backup001`:
+Nous constatons qu'il faut libérer de l'espace disque sur `/mnt/backup001` :
 ```bash
 sudo rm -rf /mnt/backup001/.trash/*
 ```
 
-The results should be shown:
+Le résultat devrait s'afficher :
 ```bash
 df -h
 ...
@@ -222,8 +222,8 @@ df -h
 /dev/vdd                            90M  5.1M   78M   7% /mnt/backup002
 ```
 
-### Step 3
-For the final step we need to check the memory of two processes and then find out on which disk the largest consumer runs:
+### Étape 3
+Pour la dernière étape, nous devons vérifier la mémoire de deux processus puis déterminer sur quel disque tourne le plus gros consommateur :
 ```bash
 ps aux | head -n 1
 USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
@@ -232,9 +232,9 @@ root       51658  0.0  0.1   7380  3584 ?        S    14:57   0:00 /mnt
 root       51659  0.0  0.1  16596  3456 ?        S    14:57   0:00 /mnt/app-4e9d7e1e/dark-matter-v2
 ```
 
-It would also be possible to use `top -b | grep dark` for example.
+Il serait également possible d'utiliser `top -b | grep dark` par exemple.
 
-We see the MEM and VSZ usage and the full paths at the very end. This means process `dark-matter-v2` is the offender and the executable is to be found at `/mnt/app-4e9d7e1e/dark-matter-v2`. So we need to do:
+Nous voyons l'utilisation MEM et VSZ ainsi que les chemins complets tout à la fin. Cela signifie que le processus `dark-matter-v2` est le coupable et que son exécutable se trouve dans `/mnt/app-4e9d7e1e/dark-matter-v2`. Nous devons donc faire :
 ```bash
 df -h | grep /mnt/app-4e9d7e1e
 /dev/vdf            90M   44K   83M   1% /mnt/app-4e9d7e1e     # to see the disk and mount point
@@ -243,13 +243,13 @@ sudo umount /mnt/app-4e9d7e1e
 
 umount: /mnt/app-4e9d7e1e: target is busy.
 
-The disk is busy, probably because of that one process! But we can check for any other processes blocking this:
+Le disque est occupé, probablement à cause de ce processus ! Mais nous pouvons vérifier si d'autres processus le bloquent :
 ```bash
 sudo lsof | grep /mnt/app-4e9d7e1e
 dark-matt 6204    root  txt       REG             252,80    16488         12 /mnt/app-4e9d7e1e/dark-matter-v2
 ```
 
-Well, only that one bad process! Hence we can finish this question with:
+Eh bien, seulement ce mauvais processus ! Nous pouvons donc terminer cette question avec :
 ```bash
 sudo kill 6204 # your PID will be different
 sudo umount /mnt/app-4e9d7e1e

@@ -187,6 +187,8 @@ profiles list
 profiles show -all
 ```
 
+La mécanique complète du malware macOS — Mach-O, codesign, Gatekeeper, TCC, launchd, dylib hijacking, XPC et détection par EndpointSecurity — est traitée dans [[Malware macOS]].
+
 ## SIP — Vérification et contournement
 
 ```bash

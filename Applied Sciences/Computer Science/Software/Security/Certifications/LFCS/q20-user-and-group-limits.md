@@ -1,12 +1,12 @@
 ---
-title: "LFCS Q20 — User and Group limits"
+title: "LFCS Q20 — Limites utilisateurs et groupes"
 domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Certifications > LFCS"
 tags: [lfcs, linux, certification, user, group, limits]
 date: "2026-08-09"
 ---
 
-# Question 20 — User and Group limits
+# Question 20 — Limites utilisateurs et groupes
 
 ## Notes d'apprentissage
 
@@ -53,22 +53,22 @@ jackie      hard     nproc       1024
 
 ## Énoncé
 
-Solve this question on: `web-srv1`
+Résolvez cette question sur : `web-srv1`
 
-User Jackie caused an issue with her account on server `web-srv1`. She did run a program which created too many subprocesses for the server to handle. A coworker of yours already solved it temporarily and limited the number of processes user `jackie` can run.
+L'utilisatrice Jackie a causé un incident avec son compte sur le serveur `web-srv1`. Elle a lancé un programme qui a créé trop de sous-processus pour que le serveur puisse les gérer. Un collègue a déjà résolu le problème temporairement et a limité le nombre de processus que l'utilisateur `jackie` peut lancer.
 
-For this the coworker added a command into `.bashrc` in the home directory of `jackie`. But the command just sets the soft limit and not the hard limit. Jackie's password is `brown` in case needed.
+Pour cela, le collègue a ajouté une commande dans `.bashrc`, dans le répertoire personnel de `jackie`. Mais cette commande ne définit que la limite douce (soft) et pas la limite dure (hard). Le mot de passe de Jackie est `brown` au cas où.
 
-Configure the number-of-processes limitation as a hard limit for user `jackie`. Use the same number currently set as a soft limit for that user. Do it in the proper way, not via `.bashrc`.
+Configurez la limitation du nombre de processus comme limite dure (hard) pour l'utilisateur `jackie`. Utilisez le même nombre que celui actuellement défini comme limite douce pour cet utilisateur. Faites-le de la bonne manière, pas via `.bashrc`.
 
-On the same server you should enforce that group `operators` can only ever log in once at the same time, use `maxlogins` for this.
+Sur le même serveur, vous devez garantir que le groupe `operators` ne peut se connecter qu'une seule fois à la fois ; utilisez `maxlogins` pour cela.
 
-> It's not possible to test/verify the `maxlogins` after configuration due to how the server has been configured
+> Il n'est pas possible de tester ou vérifier `maxlogins` après la configuration, en raison de la façon dont le serveur a été configuré
 
 ## Solution
 
-### Step 1
-Well, that's a lot. We check out that user and its limits first:
+### Étape 1
+Eh bien, cela fait beaucoup. Nous examinons d'abord cet utilisateur et ses limites :
 ```bash
 ssh web-srv1
 root@web-srv1:~$ su jackie
@@ -93,14 +93,14 @@ virtual memory          (kbytes, -v) unlimited
 file locks                      (-x) unlimited
 ```
 
-Using `ulimit` we can see all configured limits, and there is `max user processes` set to 1024. We should check how it has been set in `.bashrc`:
+Avec `ulimit`, nous pouvons voir toutes les limites configurées, et `max user processes` vaut 1024. Nous devons vérifier comment cela a été défini dans `.bashrc` :
 ```bash
 jackie@web-srv1:~$ if ! shopt -oq posix; then
 ...
 ulimit -S -u 1024 # current implementation
 ```
 
-This works, but user `jackie` could change it herself like this:
+Cela fonctionne, mais l'utilisatrice `jackie` pourrait le modifier elle-même comme ceci :
 ```bash
 jackie@web-srv1:~$ ulimit -u # list current
 1024
@@ -109,19 +109,19 @@ jackie@web-srv1:~$ ulimit -u
 1100
 ```
 
-First we remove that line that was added as a temporary fix
+Nous supprimons d'abord la ligne qui avait été ajoutée comme correctif temporaire
 ```bash
 root@web-srv1:~$ vim /home/jackie/.bashrc # remove the ulimit setting
 ```
 
-Next we go ahead and configure it via `/etc/security/limits.conf` (we need to be root for this). In that file there are already some useful examples on the bottom. We add a new line
+Ensuite, nous la configurons via `/etc/security/limits.conf` (nous devons être root pour cela). Ce fichier contient déjà quelques exemples utiles en bas. Nous ajoutons une nouvelle ligne
 ```bash
 root@web-srv1:~$ vim /etc/security/limits.conf
 ...
 jackie         hard    nproc           1024     # add a new line
 ```
 
-Now we can confirm our change:
+Nous pouvons maintenant confirmer notre changement :
 ```bash
 jackie@web-srv1:~$ ulimit -u
 1024
@@ -129,10 +129,10 @@ jackie@web-srv1:~$ ulimit -S -u 1100
 bash: ulimit: max user processes: cannot modify limit: Invalid argument
 ```
 
-User `jackie` is not able any longer to change that limit herself.
+L'utilisatrice `jackie` n'est plus capable de modifier cette limite elle-même.
 
-### Step 2
-The other ticket was about implementing a limitation for group `operators`, so we add it to the file as well:
+### Étape 2
+L'autre ticket concernait la mise en place d'une limitation pour le groupe `operators`, nous l'ajoutons donc également au fichier :
 ```bash
 root@web-srv1:~$ vim /etc/security/limits.conf
 ...
@@ -140,5 +140,5 @@ jackie          hard    nproc           1024
 @operators      hard    maxlogins       1 # add this line
 ```
 
-We might not be able to test this setting due to how the server has been configured.
+Nous ne pourrons peut-être pas tester ce réglage en raison de la façon dont le serveur a été configuré.
 

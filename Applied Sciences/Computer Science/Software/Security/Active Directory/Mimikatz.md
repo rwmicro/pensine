@@ -195,6 +195,8 @@ nxc smb 192.168.1.10 -u admin -p password --sam
 # SharpKatz / SafetyKatz — variantes .NET de Mimikatz pour l'évasion AV
 ```
 
+La vue d'ensemble des techniques de vol d'identifiants (LSASS, SAM/NTDS, DCSync, DPAPI, Kerberos, jetons, navigateurs) et leur détection sont traitées dans [[Credential Access]].
+
 ## Contre-mesures
 
 ```

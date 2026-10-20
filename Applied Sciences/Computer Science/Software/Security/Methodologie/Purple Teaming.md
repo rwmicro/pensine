@@ -229,6 +229,112 @@ Le Purple Teaming est plus efficace en **continu** qu'en exercice ponctuel :
 - **Après chaque incident** : les techniques utilisées par l'attaquant réel deviennent prioritaires
 - **BAS continu** : les plateformes comme SafeBreach ou AttackIQ exécutent des simulations en permanence et alertent si une détection régresse
 
+## Atelier de validation
+
+Un **atelier de validation** est le format opérationnel du Purple Teaming : une session courte, préparée, pendant laquelle une liste finie de techniques est exécutée, observée et instrumentée, technique par technique. Il se distingue de l'exercice ponctuel par sa répétabilité : mêmes prérequis, même grille de résultat, mêmes métriques, pour pouvoir comparer deux sessions. Il s'inscrit en aval d'un plan structuré comme celui décrit dans [[Adversary Emulation]], qui définit l'acteur émulé, les TTPs prioritaires et les règles d'engagement ; l'atelier n'est que la phase d'exécution contrôlée de ce plan.
+
+L'objectif n'est jamais de « voir si l'équipe bleue se fait avoir ». Chaque technique est annoncée à l'équipe bleue, exécutée avec des paramètres connus, et le résultat attendu est une preuve de détection ou une preuve d'absence de visibilité. Un atelier qui ne produit aucune règle créée ou corrigée est un atelier raté, quelle que soit la qualité des attaques.
+
+### Préparation
+
+| Prérequis | Détail | Responsable |
+|---|---|---|
+| Périmètre écrit | Hôtes, comptes, segments réseau concernés et exclus | Animateur |
+| Règles d'engagement | Techniques autorisées, horaires, procédure d'arrêt | Direction et animateur |
+| Fenêtre horaire | Créneau où la charge de tests ne perturbe pas la production | SOC |
+| Environnement de test | Réplique de la production, snapshots, restauration testée | Équipe infrastructure |
+| Télémétrie vérifiée | Chaque source attendue émet réellement avant l'atelier | Blue Team |
+| Payloads préparés | Artefacts catalogués, hashés, nettoyage documenté | Red Team |
+| Canal hors bande | Communication vocale ou messagerie hors de l'infrastructure testée | Tous |
+
+La vérification préalable de la télémétrie est le point le plus souvent négligé. Tester une technique sur une source de logs éteinte produit une conclusion fausse : « non détecté » alors que la vraie conclusion est « non observé ». La baseline doit être établie avant l'exécution, avec une technique bénigne témoin.
+
+### Déroulé
+
+```mermaid
+sequenceDiagram
+    participant RED as "Red Team"
+    participant WK as "Animateur Purple"
+    participant BLUE as "Blue Team (SOC)"
+    participant SIEM as "SIEM / EDR"
+
+    WK->>RED: "Cadrage : technique, scope, fenetre horaire"
+    WK->>BLUE: "Verification de la telemetrie et de la baseline"
+    RED->>SIEM: "Execution de la technique (T1055, T1003, T1003.006)"
+    SIEM-->>BLUE: "Alerte, evenement brut ou silence"
+    BLUE->>WK: "Verdict : detecte, partiellement detecte, aveugle"
+    WK->>RED: "Re-execution apres correction de la regle"
+    RED->>SIEM: "Meme technique, memes parametres"
+    SIEM-->>BLUE: "Confirmation de la nouvelle detection"
+```
+
+| Phase | Contenu | Sortie attendue |
+|---|---|---|
+| 0 — Cadrage | Choix des techniques, ordre, critères de succès | Liste ordonnée et chronométrée |
+| 1 — Baseline | Technique témoin, vérification des sources | Preuve que chaque capteur fonctionne |
+| 2 — Exécution | Technique réelle avec paramètres documentés | Horodatage précis de chaque action |
+| 3 — Observation | Lecture en temps réel par le SOC, sans indice | Verdict initial et délai de détection |
+| 4 — Analyse | Cause de l'échec : pas de log, pas de règle, règle inefficace | Diagnostic écrit |
+| 5 — Correction | Écriture ou ajustement de la règle | Règle versionnée, testée |
+| 6 — Re-test | Réexécution à l'identique | Détection confirmée et horodatée |
+| 7 — Restitution | Fiche technique, métriques, backlog | Rapport et tickets de remédiation |
+
+### Mapping ATT&CK et couverture par capteur
+
+Le choix des techniques ne doit pas se limiter à celles qui sont faciles à détecter. Un bon atelier couvre au moins une technique par famille de capteur, pour éprouver chaque couche séparément.
+
+| Famille | Technique type | Capteur sollicité | Détail dans le vault |
+|---|---|---|---|
+| Injection mémoire | T1055, T1055.012 | Télémétrie mémoire, scan de régions | [[Détection mémoire des injections]] |
+| Évasion EDR | T1562.001, T1014 | Intégrité de l'agent, pilotes | [[EDR internals]] |
+| Exécution de fichiers | T1204.002, T1059.001 | Motifs statiques, capacités | [[YARA et CAPA]] |
+| Accès aux identifiants | T1003.001, T1003.006 | Handles, journaux annuaire | [[Mimikatz]], [[Kerberos Attacks]] |
+| Persistance | T1547.001, T1053.005 | Registre, tâches planifiées | [[Detection Engineering]] |
+| Mouvement latéral | T1021.002, T1047 | Journaux d'authentification, services | [[Lateral Movement]] |
+| Exécution détournée | T1218, T1105 | Lignée de processus, ligne de commande | [[LOLBAS et GTFOBins]] |
+
+Deux techniques méritent un traitement particulier parce qu'elles attaquent la capacité d'observation elle-même. T1562.001 (désactivation d'outils de sécurité) doit être testée avec un pilote ou une tentative d'arrêt de service, et la conclusion attendue est une alerte de tampering, pas une alerte d'exécution. T1014 (rootkit) doit être testée en vérifiant que l'agent détecte encore quelque chose après l'installation d'un pilote noyau.
+
+### Métriques
+
+| Métrique | Définition | Lecture |
+|---|---|---|
+| Taux de détection initial | Techniques détectées avant toute correction | Mesure l'état réel, pas l'intention |
+| Taux de détection final | Techniques détectées après correction | Mesure la capacité de progression |
+| MTTD | Délai entre exécution et alerte | Mesure l'exploitabilité de la détection |
+| Faux positifs induits | Alertes générées sur le parc pendant la fenêtre | Mesure le coût opérationnel |
+| Règles créées ou corrigées | Nombre de règles versionnées en sortie | Mesure la productivité de l'atelier |
+| Techniques aveugles | Techniques sans aucune source de log | Mesure la dette de collecte |
+| Temps par technique | Durée moyenne d'un cycle complet | Mesure la scalabilité du format |
+
+Ces métriques complètent celles de la section « Mesurer la couverture ». La distinction essentielle est entre une détection existante mais jamais éprouvée et une détection validée par un test horodaté : seule la seconde compte comme couverture réelle.
+
+> [!abstract] Définition — Atelier de validation
+> Session planifiée et chronométrée au cours de laquelle une liste finie de techniques ATT&CK est exécutée par une équipe offensive avec l'accord de l'équipe défensive, celle-ci observant en temps réel pour produire un verdict de détection, puis corriger les règles et re-tester. La sortie mesurable est un ensemble de règles créées ou corrigées et un délai de détection, pas un score d'attaque.
+
+### Sécurité de l'atelier
+
+Un atelier de validation exécute du code offensif réel : les précautions ne sont pas optionnelles.
+
+- **Isolation par défaut.** Les techniques destructrices (chiffrement, suppression de comptes, altération de l'annuaire) s'exécutent sur un environnement dédié ou une réplique, jamais sur la production sans validation explicite.
+- **Point d'arrêt explicite.** Une personne désignée, extérieure à l'exécution, peut ordonner l'arrêt immédiat ; le mot de passe d'arrêt est connu de tous les participants avant la première technique.
+- **Nettoyage documenté.** Chaque artefact — fichier déposé, clé de registre, compte créé, service installé, tâche planifiée — fait l'objet d'une commande de suppression vérifiée.
+- **Pas de secrets réels.** Les techniques d'accès aux identifiants utilisent des comptes de test ; aucun mot de passe de production n'est manipulé ni capturé.
+- **Journalisation conservée.** Les preuves produites pendant l'atelier sont conservées pour la non-régression ; elles servent de corpus de test pour [[YARA et CAPA]] et pour les règles Sigma.
+- **Exclusions cadrées.** Si l'agent de sécurité doit être partiellement mis en retrait pour tester une technique, l'exclusion est limitée dans le temps, documentée, et retirée à la fin de la fenêtre.
+
+> [!quiz] Pourquoi un atelier de validation commence-t-il par une technique témoin bénigne ?
+> Pour prouver que la télémétrie fonctionne avant de conclure sur une technique offensive. Sans cette baseline, un résultat « non détecté » ne distingue pas une absence de règle d'une absence de collecte. La technique témoin transforme un silence ambigu en information exploitable.
+
+> [!quiz] Quelle est la différence entre le taux de détection initial et le taux de détection final ?
+> Le taux initial mesure les techniques détectées avant toute correction : c'est l'état réel des défenses au moment du test. Le taux final mesure celles détectées après ajustement des règles. Un grand écart entre les deux indique une capacité de réaction défensive forte mais un niveau de départ faible — souvent le signe d'une couverture non validée.
+
+> [!quiz] Pourquoi une technique qui « ne produit rien » dans le SIEM n'est-elle pas nécessairement une technique mal choisie ?
+> Parce que l'absence de résultat peut venir d'une source de logs non collectée, d'une rétention trop courte, d'un filtre d'ingestion ou d'un agent sain mais aveugle sur cette couche. Le diagnostic doit distinguer l'absence de visibilité de l'absence de règle : ce sont deux dettes différentes, avec deux remédiations différentes.
+
+> [!quiz] En quoi T1562.001 change-t-elle la nature de la validation par rapport à une technique d'exécution classique ?
+> Elle ne cherche pas à produire un effet métier mais à supprimer la capacité d'observation de la défense. Le critère de succès de l'atelier s'inverse : une alerte d'exécution est peu informative, l'absence d'alerte de tampering est un échec critique.
+
 ## Références
 
 - **MITRE ATT&CK** (`attack.mitre.org`) — matrice des techniques adverses

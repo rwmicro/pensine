@@ -1,12 +1,12 @@
 ---
-title: "LFCS Q44 — SELinux and AppArmor (MAC)"
+title: "LFCS Q44 — SELinux et AppArmor (MAC)"
 domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Certifications > LFCS"
 tags: [lfcs, linux, certification, selinux, apparmor]
 date: "2026-08-09"
 ---
 
-# Question 44 — SELinux and AppArmor (MAC)
+# Question 44 — SELinux et AppArmor (MAC)
 
 ## Notes d'apprentissage
 
@@ -51,28 +51,28 @@ Méthode type : un service ne démarre qu'en permissive → c'est SELinux ; lire
 
 ## Énoncé
 
-Solve this question on: `terminal`
+Résolvez cette question sur : `terminal`
 
-RHEL family (`data-001`, SELinux) — tasks 1 to 5.
-Debian family (`web-srv1`, AppArmor) — tasks 6 to 7.
+Famille RHEL (`data-001`, SELinux) — tâches 1 à 5.
+Famille Debian (`web-srv1`, AppArmor) — tâches 6 et 7.
 
-1. Report the current SELinux mode and write it into `/opt/course/44/mode`.
-2. Switch SELinux to **permissive** for the current session without rebooting.
-3. Configure SELinux to be **enforcing** persistently after reboot.
-4. The web root has moved to `/srv/www`. Set the correct SELinux file context so Apache (`httpd`) can serve it.
-5. Allow the `httpd` service to make outbound network connections by setting the right SELinux boolean persistently.
-6. (AppArmor) List all loaded profiles and their mode.
-7. (AppArmor) Put the `usr.sbin.tcpdump` profile into **complain** mode.
+1. Relevez le mode SELinux actuel et écrivez-le dans `/opt/course/44/mode`.
+2. Passez SELinux en mode **permissive** pour la session courante sans redémarrer.
+3. Configurez SELinux pour être en mode **enforcing** de façon persistante après redémarrage.
+4. La racine web a été déplacée vers `/srv/www`. Définissez le contexte de fichier SELinux correct pour qu'Apache (`httpd`) puisse la servir.
+5. Autorisez le service `httpd` à établir des connexions réseau sortantes en définissant le bon booléen SELinux de façon persistante.
+6. (AppArmor) Listez tous les profils chargés et leur mode.
+7. (AppArmor) Passez le profil `usr.sbin.tcpdump` en mode **complain**.
 
 ## Solution
 
-Mandatory Access Control (MAC) adds a policy layer **on top of** standard Unix permissions: even root is constrained by the policy. RHEL/Fedora use **SELinux**; Debian/Ubuntu/SUSE use **AppArmor**. The two are mutually exclusive in practice — know whichever matches your exam distro.
+Le Mandatory Access Control (MAC) ajoute une couche de politique **au-dessus** des permissions Unix standard : même root est contraint par la politique. RHEL/Fedora utilisent **SELinux** ; Debian/Ubuntu/SUSE utilisent **AppArmor**. Les deux sont mutuellement exclusifs en pratique — connaissez celui qui correspond à votre distribution d'examen.
 
-## SELinux (RHEL family)
+## SELinux (famille RHEL)
 
-SELinux labels every process and file with a context `user:role:type:level`. The **type** is what matters most (type enforcement): a process running in domain `httpd_t` may only touch files labelled `httpd_sys_content_t`, etc.
+SELinux étiquette chaque processus et chaque fichier avec un contexte `user:role:type:level`. Le **type** est ce qui compte le plus (type enforcement) : un processus s'exécutant dans le domaine `httpd_t` ne peut toucher que des fichiers étiquetés `httpd_sys_content_t`, etc.
 
-### Step 1 — Current mode
+### Étape 1 — Mode actuel
 
 ```bash
 getenforce                          # Enforcing | Permissive | Disabled
@@ -80,30 +80,30 @@ sestatus                            # detailed: current + config-file mode
 getenforce > /opt/course/44/mode
 ```
 
-- **Enforcing** — policy denials are blocked and logged.
-- **Permissive** — denials are only logged (great for debugging).
-- **Disabled** — SELinux off entirely (requires reboot to change to/from).
+- **Enforcing** — les refus de la politique sont bloqués et journalisés.
+- **Permissive** — les refus sont seulement journalisés (idéal pour le débogage).
+- **Disabled** — SELinux complètement désactivé (un redémarrage est nécessaire pour en sortir ou y revenir).
 
-### Step 2 — Change mode for the current session
+### Étape 2 — Changer de mode pour la session courante
 
 ```bash
 sudo setenforce 0                   # → Permissive
 sudo setenforce 1                   # → Enforcing
 ```
 
-This is **not** persistent and cannot move to/from `Disabled`.
+Ce changement n'est **pas** persistant et ne permet pas de passer à `Disabled` ni d'en revenir.
 
-### Step 3 — Persistent mode
+### Étape 3 — Mode persistant
 
-Edit `/etc/selinux/config`:
+Éditez `/etc/selinux/config` :
 ```bash
 SELINUX=enforcing                   # enforcing | permissive | disabled
 ```
-Takes effect on next boot. Going from `disabled` to `enforcing` triggers a full filesystem relabel on reboot (or force it with `sudo fixfiles -F onboot`).
+Prend effet au prochain démarrage. Passer de `disabled` à `enforcing` déclenche un relabel complet du système de fichiers au redémarrage (ou forcez-le avec `sudo fixfiles -F onboot`).
 
-### Step 4 — Fix a file context
+### Étape 4 — Corriger un contexte de fichier
 
-The right type for web content served by Apache is `httpd_sys_content_t`. Add a persistent rule, then apply it:
+Le bon type pour le contenu web servi par Apache est `httpd_sys_content_t`. Ajoutez une règle persistante, puis appliquez-la :
 ```bash
 # add the rule to the local policy (persists across relabels)
 sudo semanage fcontext -a -t httpd_sys_content_t '/srv/www(/.*)?'
@@ -111,61 +111,61 @@ sudo semanage fcontext -a -t httpd_sys_content_t '/srv/www(/.*)?'
 sudo restorecon -Rv /srv/www
 ```
 
-- `semanage fcontext -a` records the mapping permanently.
-- `restorecon` resets a file's context to what policy says it should be.
-- `chcon -t httpd_sys_content_t -R /srv/www` changes it **temporarily** — a relabel will revert it. Prefer `semanage` + `restorecon` for anything persistent.
-- Inspect contexts with `ls -Z`, processes with `ps -eZ`.
+- `semanage fcontext -a` enregistre le mapping de façon permanente.
+- `restorecon` réinitialise le contexte d'un fichier selon ce que la politique prévoit.
+- `chcon -t httpd_sys_content_t -R /srv/www` le change **temporairement** — un relabel l'annulera. Préférez `semanage` + `restorecon` pour tout ce qui doit être persistant.
+- Inspectez les contextes avec `ls -Z`, les processus avec `ps -eZ`.
 
-If `semanage` is missing: `sudo dnf install policycoreutils-python-utils`.
+Si `semanage` est absent : `sudo dnf install policycoreutils-python-utils`.
 
-### Step 5 — SELinux booleans
+### Étape 5 — Booléens SELinux
 
-Booleans toggle predefined policy behaviours without writing custom policy.
+Les booléens activent ou désactivent des comportements de politique prédéfinis sans écrire de politique personnalisée.
 ```bash
 getsebool -a | grep httpd           # list httpd-related booleans
 sudo setsebool -P httpd_can_network_connect on
 ```
-`-P` makes it persistent across reboots (writes to policy). Without `-P` it reverts on reboot.
+`-P` le rend persistant au fil des redémarrages (écriture dans la politique). Sans `-P`, il revient à sa valeur précédente au redémarrage.
 
-### Troubleshooting denials
+### Diagnostiquer les refus
 
 ```bash
 sudo ausearch -m AVC -ts recent     # raw audit denials
 sudo sealert -a /var/log/audit/audit.log   # human-readable, suggests fixes (setroubleshoot)
 ```
-A common exam pattern: a service fails to start *only* when SELinux is enforcing → set it permissive to confirm it's SELinux, then read the AVC and fix the context or boolean.
+Un schéma classique en examen : un service ne démarre *que* lorsque SELinux est en enforcing → passez-le en permissive pour confirmer que c'est bien SELinux, puis lisez l'AVC et corrigez le contexte ou le booléen.
 
-## AppArmor (Debian family)
+## AppArmor (famille Debian)
 
-AppArmor is **path-based** (not label-based): each profile (under `/etc/apparmor.d/`) lists the files and capabilities a specific binary may use. Modes are **enforce** (block + log) or **complain** (log only).
+AppArmor est **basé sur les chemins** (et non sur les étiquettes) : chaque profil (sous `/etc/apparmor.d/`) liste les fichiers et capacités qu'un binaire précis peut utiliser. Les modes sont **enforce** (bloquer + journaliser) ou **complain** (journaliser seulement).
 
-### Step 6 — List profiles
+### Étape 6 — Lister les profils
 
 ```bash
 sudo aa-status                      # or: sudo apparmor_status
 ```
-Shows how many profiles are loaded, and which are in enforce vs complain mode and which processes they apply to.
+Affiche combien de profils sont chargés, lesquels sont en mode enforce ou complain et à quels processus ils s'appliquent.
 
-### Step 7 — Put a profile in complain mode
+### Étape 7 — Passer un profil en mode complain
 
 ```bash
 sudo aa-complain /usr/sbin/tcpdump          # complain (log only)
 sudo aa-enforce /usr/sbin/tcpdump           # back to enforce
 sudo aa-disable /usr/sbin/tcpdump           # unload + disable the profile
 ```
-The helpers live in the `apparmor-utils` package. Profiles are named after the binary path with `/` → `.` (e.g. `usr.sbin.tcpdump`). After editing a profile file, reload it:
+Les assistants se trouvent dans le paquet `apparmor-utils`. Les profils sont nommés d'après le chemin du binaire avec `/` → `.` (par exemple `usr.sbin.tcpdump`). Après avoir modifié un fichier de profil, rechargez-le :
 ```bash
 sudo apparmor_parser -r /etc/apparmor.d/usr.sbin.tcpdump
 ```
 
-### Reference
+### Référence
 
-| SELinux | AppArmor | Purpose |
+| SELinux | AppArmor | Rôle |
 |---|---|---|
-| `getenforce` / `sestatus` | `aa-status` | show current state |
-| `setenforce 0/1` | `aa-complain` / `aa-enforce` | switch mode (per object) |
-| `/etc/selinux/config` | enable/disable per profile | persistent mode |
-| `ls -Z`, `ps -eZ` | profile path lists files | inspect access |
-| `semanage` + `restorecon` | edit `/etc/apparmor.d/` + `apparmor_parser -r` | adjust policy |
-| `setsebool -P` | (n/a — edit profile) | toggle behaviour |
-| `ausearch` / `sealert` | `dmesg` / `journalctl` | read denials |
+| `getenforce` / `sestatus` | `aa-status` | afficher l'état actuel |
+| `setenforce 0/1` | `aa-complain` / `aa-enforce` | changer de mode (par objet) |
+| `/etc/selinux/config` | activer/désactiver par profil | mode persistant |
+| `ls -Z`, `ps -eZ` | les profils listent les chemins de fichiers | inspecter les accès |
+| `semanage` + `restorecon` | éditer `/etc/apparmor.d/` + `apparmor_parser -r` | ajuster la politique |
+| `setsebool -P` | (n/a — éditer le profil) | activer/désactiver un comportement |
+| `ausearch` / `sealert` | `dmesg` / `journalctl` | lire les refus |

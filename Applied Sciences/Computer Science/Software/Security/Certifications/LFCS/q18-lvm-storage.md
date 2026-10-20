@@ -1,12 +1,12 @@
 ---
-title: "LFCS Q18 — LVM Storage"
+title: "LFCS Q18 — Stockage LVM"
 domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Certifications > LFCS"
 tags: [lfcs, linux, certification, storage]
 date: "2026-08-09"
 ---
 
-# Question 18 — LVM Storage
+# Question 18 — Stockage LVM
 
 ## Notes d'apprentissage
 
@@ -61,17 +61,17 @@ resize2fs /dev/vol2/p1        # ext4 ; xfs_growfs pour XFS
 
 ## Énoncé
 
-Solve this question on: `terminal`
+Résolvez cette question sur : `terminal`
 
-You're required to perform changes on LVM volumes:
-1. Reduce the volume group `vol1` by removing disk `/dev/vdh` from it
-2. Create a new volume group named `vol2` which uses disk `/dev/vdh`
-3. Create a `50M` logical volume named `p1` for volume group `vol2`
-4. Format that new logical volume with `ext4`
+Vous devez effectuer des modifications sur des volumes LVM :
+1. Réduisez le groupe de volumes `vol1` en en retirant le disque `/dev/vdh`
+2. Créez un nouveau groupe de volumes nommé `vol2` qui utilise le disque `/dev/vdh`
+3. Créez un volume logique de `50M` nommé `p1` pour le groupe de volumes `vol2`
+4. Formatez ce nouveau volume logique en `ext4`
 
 ## Solution
 
-Some helpful abbreviations when working with LVM, because command names usually start with those:
+Quelques abréviations utiles pour travailler avec LVM, car les noms de commandes commencent généralement par celles-ci :
 
 PV = Physical Volume
 
@@ -79,7 +79,7 @@ VG = Volume Group
 
 LV = Logical Volume
 
-Start by having a look at PVs:
+Commencez par jeter un œil aux PV :
 ```bash
 sudo pvs
   PV         VG        Fmt  Attr PSize    PFree
@@ -88,7 +88,7 @@ sudo pvs
   /dev/vdh   vol1      lvm2 a--    96.00m 96.00m
 ```
 
-In the output above we can see that the VG `vol1` uses two disks `/dev/vdg` and `/dev/vdh`. We can also get an overview over all system disks and their LVM usage:
+Dans la sortie ci-dessus, nous voyons que le VG `vol1` utilise deux disques, `/dev/vdg` et `/dev/vdh`. Nous pouvons aussi obtenir une vue d'ensemble de tous les disques système et de leur usage LVM :
 ```bash
 sudo lvmdiskscan
   /dev/loop0 [     <49.84 MiB]
@@ -111,10 +111,10 @@ sudo lvmdiskscan
   1 LVM physical volume
 ```
 
-The existing PV `/dev/vda3` with VG `ubuntu-vg` is created by the main operating system and shouldn't be touched.
+Le PV existant `/dev/vda3` avec le VG `ubuntu-vg` est créé par le système d'exploitation principal et ne doit pas être touché.
 
-### Step 1
-We want to remove disk `/dev/vdh` from the existing VG `vol1`:
+### Étape 1
+Nous voulons retirer le disque `/dev/vdh` du VG existant `vol1` :
 ```bash
 sudo vgs # list all VGs
   VG         PV  LV  SN Attr   VSize    VFree
@@ -128,7 +128,7 @@ sudo vgs
   vol1        1   1   0 wz--n-   96.00m 84.00m  # one PV
 ```
 
-That should do it. We can also verify this by listing all PVs:
+Cela devrait suffire. Nous pouvons aussi le vérifier en listant tous les PV :
 ```bash
 sudo pvs
   PV         VG        Fmt  Attr PSize    PFree
@@ -137,8 +137,8 @@ sudo pvs
   /dev/vdh             lvm2 ---   100.00m 100.00m # not assigned to a VG any longer
 ```
 
-### Step 2
-Now we're going to create a new `PV` using that now free disk:
+### Étape 2
+Nous allons maintenant créer un nouveau `PV` à partir de ce disque désormais libre :
 ```bash
 sudo vgcreate vol2 /dev/vdh
   Volume group "vol2" successfully created
@@ -149,8 +149,8 @@ sudo pvs
   /dev/vdh   vol2      lvm2 a--    96.00m 96.00m # assigned to the VG
 ```
 
-### Step 3
-We continue by creating a LV for our new VG:
+### Étape 3
+Nous continuons en créant un LV pour notre nouveau VG :
 ```bash
 sudo lvs # no LV yet for vol2
   LV        VG        Attr       LSize   Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert
@@ -166,8 +166,8 @@ sudo lvs
   p1        vol2      -wi-a-----  52.00m  # there we go
 ```
 
-### Step 4
-We can access LVM partitions or LVs in the usual way once we know the path:
+### Étape 4
+Nous pouvons accéder aux partitions LVM ou aux LV de la manière habituelle une fois le chemin connu :
 ```bash
 sudo mkfs -t ext4 /dev/vol2/p1
 mke2fs 1.46.5 (30-Dec-2021)
@@ -183,11 +183,11 @@ Creating journal (1024 blocks): done
 
 Writing superblocks and filesystem accounting information: done
 
-We could now go ahead and mount and use `/dev/vol2/p1` as we're used to.
+Nous pourrions maintenant monter et utiliser `/dev/vol2/p1` comme à notre habitude.
 
-**Extending a LV**
+**Agrandir un LV**
 
-Also interesting and could also be part of the exam is extending a mounted LV:
+Également intéressant et pouvant aussi faire partie de l'examen : agrandir un LV monté :
 ```bash
 sudo mkdir /mnt/vol2_p1
 sudo mount /dev/vol2/p1 /mnt/vol2_p1

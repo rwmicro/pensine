@@ -1,12 +1,12 @@
 ---
-title: "LFCS Q05 — Archives and Compression"
+title: "LFCS Q05 — Archives et compression"
 domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Certifications > LFCS"
 tags: [lfcs, linux, certification, archives, compression]
 date: "2026-08-09"
 ---
 
-# Question 5 — Archives and Compression
+# Question 5 — Archives et compression
 
 ## Notes d'apprentissage
 
@@ -58,19 +58,19 @@ diff liste_bz2 liste_gz       # aucune différence = même contenu
 
 ## Énoncé
 
-Solve this question on: `data-001`
+Résolvez cette question sur : `data-001`
 
-There is archive `/imports/import001.tar.bz2` on server `data-001`. You're asked to create a new gzip compressed archive with its raw contents.
+Le serveur `data-001` héberge l'archive `/imports/import001.tar.bz2`. Il vous est demandé de créer une nouvelle archive compressée avec gzip à partir de son contenu brut.
 
-Store the new archive under `/imports/import001.tar.gz`. Compression should be the best possible, using gzip.
+Stockez la nouvelle archive sous `/imports/import001.tar.gz`. La compression doit être la meilleure possible, avec gzip.
 
-To make sure both archives contain the same files, write a list of their sorted contents into `/imports/import001.tar.bz2_list` and `/imports/import001.tar.gz_list`.
+Pour vous assurer que les deux archives contiennent les mêmes fichiers, écrivez la liste triée de leur contenu dans `/imports/import001.tar.bz2_list` et `/imports/import001.tar.gz_list`.
 
-> Do not modify or delete the original archive `import001.tar.bz2`
+> Ne modifiez pas et ne supprimez pas l'archive d'origine `import001.tar.bz2`
 
 ## Solution
 
-We connect to `data-001` and have a look at the folder:
+Nous nous connectons à `data-001` et jetons un œil au dossier :
 ```bash
 ssh data-001
 root@data-001:~$ cd /imports
@@ -79,10 +79,10 @@ total 1.5K
 -rw-r--r-- 1 root root 560 Jul 16 13:49 import001.tar.bz2
 ```
 
-### Possibility 1 — (use the tar layer)
-We extract the `bzip2` archive and receive an uncompressed `tar` archive:
+### Possibilité 1 — (utiliser la couche tar)
+Nous décompressons l'archive `bzip2` et obtenons une archive `tar` non compressée :
 
-> We can install `bzip2` via the package manager if not available
+> Nous pouvons installer `bzip2` via le gestionnaire de paquets s'il n'est pas disponible
 ```bash
 root@data-001:/imports$ bunzip2 -k import001.tar.bz2
 root@data-001:/imports$ ls -lh
@@ -91,7 +91,7 @@ total 3.0K
 -rw-r--r-- 1 root root 550 Jul 16 14:20 import001.tar.bz2
 ```
 
-Every tar archive contains a "tar" data layer. This can then be further compressed with various compression algorithms. Here we can now go ahead and create a new gzip compression from the tar layer:
+Toute archive tar contient une couche de données « tar ». Celle-ci peut ensuite être compressée avec différents algorithmes de compression. Ici, nous pouvons maintenant créer une nouvelle compression gzip à partir de la couche tar :
 ```bash
 root@data-001:/imports$ gzip --best import001.tar
 root@data-001:/imports$ ls -lh
@@ -100,8 +100,8 @@ total 2.0K
 -rw-r--r-- 1 root root 544 Jul 16 14:20 import001.tar.gz
 ```
 
-### Possibility 2 — (completely extract and pack again)
-We extract the files into a new subfolder:
+### Possibilité 2 — (tout extraire puis tout recompresser)
+Nous extrayons les fichiers dans un nouveau sous-dossier :
 ```bash
 root@data-001:/imports$ mkdir import001
 root@data-001:/imports$ tar xf import001.tar.bz2 -C import001
@@ -116,17 +116,17 @@ import001/5d517b37-efd3-4872-b107-502aa4b58b4c
 ...
 ```
 
-Now we create the new required archive
+Nous créons maintenant la nouvelle archive demandée
 ```bash
 root@data-001:/imports$ GZIP=-9 tar czf import001.tar.gz -C import001 .
 ```
 
-Using the GZIP env variable is deprecated, instead we could use:
+L'utilisation de la variable d'environnement GZIP est dépréciée ; nous pourrions plutôt utiliser :
 ```bash
 root@data-001:/imports$ tar -I 'gzip -9' -cf import001.tar.gz -C import001 .
 ```
 
-We should see:
+Nous devrions voir :
 ```bash
 root@data-001:/imports$ ls -lh
 total 4.5K
@@ -135,21 +135,21 @@ drwxr-xr-x 7 ubuntu ubuntu   7 Jul 16 13:32 import001
 -rw-r--r-- 1 root   root   531 Jul 16 14:00 import001.tar.gz
 ```
 
-### Finally
-We ensure that both archives contain the same files and structure:
+### Pour finir
+Nous vérifions que les deux archives contiennent bien les mêmes fichiers et la même structure :
 ```bash
 root@data-001:/imports$ tar tf import001.tar.bz2 | sort > import001.tar.bz2_list
 root@data-001:/imports$ tar tf import001.tar.gz | sort > import001.tar.gz_list
 ```
 
-To compare further we could use `cat import001.tar.bz2_list | sha512sum` and compare the hashes.
+Pour pousser la comparaison, nous pourrions utiliser `cat import001.tar.bz2_list | sha512sum` et comparer les empreintes.
 
-To see some info about the compression ratio we can run
+Pour obtenir quelques informations sur le taux de compression, nous pouvons lancer
 ```bash
 root@data-001:/imports$ gzip -l import001.tar.gz
 ```
 
-Finally we should have these files:
+Enfin, nous devrions obtenir ces fichiers :
 ```bash
 root@data-001:/imports$ rm -rf import001
 root@data-001:/imports$ ls -lha

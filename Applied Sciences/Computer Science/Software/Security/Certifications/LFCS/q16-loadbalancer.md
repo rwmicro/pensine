@@ -1,12 +1,12 @@
 ---
-title: "LFCS Q16 — LoadBalancer"
+title: "LFCS Q16 — Répartiteur de charge (LoadBalancer)"
 domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Certifications > LFCS"
 tags: [lfcs, linux, certification, loadbalancer]
 date: "2026-08-09"
 ---
 
-# Question 16 — LoadBalancer
+# Question 16 — Répartiteur de charge (LoadBalancer)
 
 ## Notes d'apprentissage
 
@@ -66,18 +66,18 @@ systemctl reload nginx   # recharger sans coupure
 
 ## Énoncé
 
-Solve this question on: `web-srv1`
+Résolvez cette question sur : `web-srv1`
 
-Server `web-srv1` is hosting two applications, one accessible on port `1111` and one on `2222`. These are served using Nginx and it's **not** allowed to change their config. The ip of `web-srv1` is `192.168.10.60`.
+Le serveur `web-srv1` héberge deux applications, l'une accessible sur le port `1111` et l'autre sur `2222`. Elles sont servies par Nginx et il n'est **pas** permis de modifier leur configuration. L'IP de `web-srv1` est `192.168.10.60`.
 
-Create a new HTTP LoadBalancer on that server which:
-- Listens on port `8001` and redirects all traffic to `192.168.10.60:2222/special`
-- Listens on port `8000` and balances traffic between `192.168.10.60:1111` and `192.168.10.60:2222` in a Random or Round Robin fashion
-Nginx is already preinstalled and is recommended to be used for the implementation. Though it's also possible to use any other technologies (like Apache or HAProxy) because only the end result will be verified.
+Créez un nouveau répartiteur de charge HTTP sur ce serveur qui :
+- écoute sur le port `8001` et redirige tout le trafic vers `192.168.10.60:2222/special`
+- écoute sur le port `8000` et répartit le trafic entre `192.168.10.60:1111` et `192.168.10.60:2222` de façon aléatoire (Random) ou en Round Robin
+Nginx est déjà préinstallé et il est recommandé de l'utiliser pour l'implémentation. Il reste toutefois possible d'utiliser d'autres technologies (comme Apache ou HAProxy), car seul le résultat final sera vérifié.
 
 ## Solution
 
-First we check if everything works as claimed:
+Nous vérifions d'abord que tout fonctionne comme annoncé :
 ```bash
 curl web-srv1:1111
 app1
@@ -87,7 +87,7 @@ curl web-srv1:2222/special
 app2 special
 ```
 
-Cool, we can work with that! Here we're now going to create an Nginx LoadBalancer, but it would also be possible to use any other technology if you're more familiar with it.
+Parfait, nous pouvons travailler là-dessus ! Nous allons maintenant créer un répartiteur de charge Nginx, mais il serait également possible d'utiliser une autre technologie si vous la maîtrisez mieux.
 ```bash
 candidate@terminal:~$ ssh web-srv1
 root@web-srv1:~$ cd /etc/nginx/sites-available
@@ -106,7 +106,7 @@ server {
 }
 ```
 
-There we see the two existing applications `app1` and `app2` which we aren't allowed to be changed. But we sure can use one as template for our new LoadBalancer:
+Nous y voyons les deux applications existantes `app1` et `app2`, que nous n'avons pas le droit de modifier. Mais nous pouvons bien sûr en utiliser une comme modèle pour notre nouveau répartiteur de charge :
 ```bash
 root@web-srv1:/etc/nginx/sites-available$ cp app1 lb
 root@web-srv1:/etc/nginx/sites-available$ vim lb
@@ -120,7 +120,7 @@ server {
 }
 ```
 
-We start slowly with the easier one on port `8001` where we simply use a `proxy_pass` option. Save the file and:
+Nous commençons doucement avec le cas le plus simple sur le port `8001`, où nous utilisons simplement une option `proxy_pass`. Enregistrez le fichier puis :
 ```bash
 root@web-srv1:/etc/nginx/sites-available$ cd ../sites-enabled
 root@web-srv1:/etc/nginx/sites-enabled$ ln -s ../sites-available/lb . # this is the nginx way for enabling
@@ -129,7 +129,7 @@ root@web-srv1:/etc/nginx/sites-enabled$ curl localhost:8001           # our
 app2 special
 ```
 
-Working! Now we go ahead and copy the first part, make some additions and use it as the second part:
+Ça fonctionne ! Nous copions maintenant la première partie, y ajoutons quelques éléments et l'utilisons comme seconde partie :
 ```bash
 root@web-srv1:/etc/nginx/sites-enabled$ vim lb
 ### FIRST PART
@@ -157,7 +157,7 @@ server {
 }
 ```
 
-The second part is mostly the same as before. It's possible to create multiple servers which listen on different ports within the same file. Here we simply created an `upstream backend` that contains the provided urls and we use it in the `proxy_pass` directive. Pretty nice right! But does it work?
+La seconde partie est globalement identique à la précédente. Il est possible de créer plusieurs serveurs qui écoutent sur des ports différents dans un même fichier. Ici, nous avons simplement créé un `upstream backend` contenant les URL fournies et nous l'utilisons dans la directive `proxy_pass`. Plutôt pratique, non ! Mais est-ce que cela fonctionne ?
 ```bash
 root@web-srv1:/etc/nginx/sites-enabled$ service nginx restart
 root@web-srv1:/etc/nginx/sites-enabled$ exit
@@ -179,5 +179,5 @@ curl web-srv1:8001/anything/even/not/special
 app2 special
 ```
 
-Above we see that requests to `web-srv1:8000` are sent to both `app1` and `app2`. And requests on `web-srv1:8001` are only sent to `app2` and path `/special`.
+Ci-dessus, nous voyons que les requêtes vers `web-srv1:8000` sont envoyées à la fois à `app1` et à `app2`. Et les requêtes sur `web-srv1:8001` ne sont envoyées qu'à `app2` et au chemin `/special`.
 

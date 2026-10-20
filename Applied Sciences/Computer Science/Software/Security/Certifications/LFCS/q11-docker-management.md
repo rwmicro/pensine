@@ -1,12 +1,12 @@
 ---
-title: "LFCS Q11 — Docker Management"
+title: "LFCS Q11 — Gestion de Docker"
 domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Certifications > LFCS"
 tags: [lfcs, linux, certification, docker, management]
 date: "2026-08-09"
 ---
 
-# Question 11 — Docker Management
+# Question 11 — Gestion de Docker
 
 ## Notes d'apprentissage
 
@@ -59,30 +59,30 @@ docker run -d --name frontend_v3 --memory 30m -p 1234:80 nginx:alpine
 
 ## Énoncé
 
-Solve this question on: `terminal`
+Résolvez cette question sur : `terminal`
 
-Someone overheard that you're a Containerisation Specialist, so the following should be easy for you! Please:
-1. Stop the Docker container named `frontend_v1`
-2. Gather information from Docker container named `frontend_v2`:
-    - Write its assigned ip address into `/opt/course/11/ip-address`
-    - It has one volume mount. Write the volume mount destination directory into `/opt/course/11/mount-destination`
-3. Start a new detached Docker container:
-    - Name: `frontend_v3`
-    - Image: `nginx:alpine`
-    - Memory limit: `30m` (30 Megabytes)
-    - TCP Port map: `1234/host` => `80/container`
+Quelqu'un a entendu dire que vous êtes spécialiste de la conteneurisation, ce qui suit devrait donc être facile pour vous ! Veuillez :
+1. Arrêter le conteneur Docker nommé `frontend_v1`
+2. Rassembler les informations du conteneur Docker nommé `frontend_v2` :
+    - Écrire l'adresse IP qui lui est attribuée dans `/opt/course/11/ip-address`
+    - Il possède un montage de volume. Écrire le répertoire de destination de ce montage dans `/opt/course/11/mount-destination`
+3. Démarrer un nouveau conteneur Docker détaché :
+    - Nom : `frontend_v3`
+    - Image : `nginx:alpine`
+    - Limite de mémoire : `30m` (30 mégaoctets)
+    - Mappage de port TCP : `1234/host` => `80/container`
 
 ## Solution
 
-_Dockerfile_: list of commands from which an _Image_ can be build
+_Dockerfile_ : liste de commandes à partir desquelles une _Image_ peut être construite
 
-_Image_: binary file which includes all data/requirements to be run as a _Container_
+_Image_ : fichier binaire qui contient toutes les données et prérequis nécessaires pour être exécuté en tant que _Container_
 
-_Container_: running instance of an _Image_
+_Container_ : instance en cours d'exécution d'une _Image_
 
-_Registry_: place where we can push/pull _Images_ to/from
+_Registry_ : endroit où l'on peut pousser ou récupérer des _Images_
 
-We first list all Docker containers:
+Nous listons d'abord tous les conteneurs Docker :
 ```bash
 sudo docker ps
 CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS          PORTS     NAMES
@@ -90,8 +90,8 @@ a9b334cfaae0   nginx:alpine   "/docker-entrypoint.…"   11 minutes ago   Up
 e68fa28f231d   nginx:alpine   "/docker-entrypoint.…"   7 minutes ago    Up 7 minutes    80/tcp    frontend_v2
 ```
 
-### Step 1
-For the first step we stop the container:
+### Étape 1
+Pour la première étape, nous arrêtons le conteneur :
 ```bash
 sudo docker stop frontend_v1
 frontend_v1
@@ -101,8 +101,8 @@ e68fa28f231d   nginx:alpine   ...  8 minutes ago    Up 8 minutes         
 a9b334cfaae0   nginx:alpine   ...  13 minutes ago   Exited (0) 45 seconds ago             frontend_v1
 ```
 
-### Step 2
-Docker inspect provides the container configuration in JSON format which contains all information asked for in this task:
+### Étape 2
+`docker inspect` fournit la configuration du conteneur au format JSON, qui contient toutes les informations demandées dans cette tâche :
 ```bash
 sudo docker inspect frontend_v2
         "Mounts": [
@@ -141,18 +141,18 @@ sudo docker inspect frontend_v2
         }
 ```
 
-It's probably a good idea to search in the inspect output for specific values. For this we could open the output directly in vim:
+C'est probablement une bonne idée de rechercher des valeurs précises dans la sortie de `inspect`. Pour cela, nous pouvons ouvrir directement la sortie dans vim :
 ```bash
 sudo docker inspect frontend_v2 | vim -
 ```
 
-Now we only have to create the required files with their correct content (your container ip address might differ):
+Il ne nous reste plus qu'à créer les fichiers demandés avec leur contenu correct (l'adresse IP de votre conteneur peut différer) :
 ```bash
 echo "172.17.0.3" > /opt/course/11/ip-address
 echo "/srv" > /opt/course/11/mount-destination
 ```
 
-Which results in:
+Ce qui donne :
 ```bash
 # /opt/course/11/ip-address
 172.17.0.3
@@ -160,10 +160,10 @@ Which results in:
 /srv
 ```
 
-### Step 3
-Finally we can start our own container! Unfortunately with very strict conditions to follow... so let's obey!
+### Étape 3
+Nous pouvons enfin démarrer notre propre conteneur ! Malheureusement avec des conditions très strictes à respecter... alors obéissons !
 
-The help output for `docker run` usually provides all that's needed:
+La sortie de l'aide de `docker run` fournit généralement tout ce qui est nécessaire :
 ```bash
 sudo docker run --help
 Usage:  docker run [OPTIONS] IMAGE [COMMAND] [ARG...]      # the order of arguments is important
@@ -215,19 +215,19 @@ Options:
 
 ...
 
-Using this we can build the necessary run command:
+Avec cela, nous pouvons construire la commande de lancement nécessaire :
 ```bash
 sudo docker run -d --name frontend_v3 --memory 30m -p 1234:80 nginx:alpine
 1e7d4612df4aff82c96d2c65102966561038ebfb94a996c86afebf6e3cb1432a
 ```
 
-In case the above command throws iptables errors we can restart the docker service:
+Si la commande ci-dessus renvoie des erreurs iptables, nous pouvons redémarrer le service docker :
 ```bash
 sudo docker rm --force frontend_v3 # delete existing container
 sudo service docker restart        # restart docker servier
 ```
 
-Because of the port mapping we should now be able to do:
+Grâce au mappage de port, nous devrions maintenant pouvoir faire :
 ```bash
 curl localhost:1234
 <!DOCTYPE html>

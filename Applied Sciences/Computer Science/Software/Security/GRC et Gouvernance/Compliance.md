@@ -186,6 +186,8 @@ Structure d'une DPIA :
 
 Exemples : Meta (1,2 Md€, 2023), Amazon (746 M€, 2021), WhatsApp (225 M€, 2021).
 
+La mise en œuvre technique du RGPD — minimisation, pseudonymisation, anonymisation, PETs, DPIA et audit des flux — est détaillée dans [[Privacy Engineering]].
+
 ## PCI DSS v4.0
 
 ### Présentation

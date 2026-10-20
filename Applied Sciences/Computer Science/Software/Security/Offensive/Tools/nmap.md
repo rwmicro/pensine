@@ -2,108 +2,118 @@
 title: "nmap"
 domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Offensive > Tools"
-tags: [sciences-appliquées, informatique, sécurité, réseau]
+tags: [sciences-appliquées, informatique, sécurité, réseau, nmap, scan]
 date: "2025-02-15"
 ---
 
 # nmap
 
-nmap is a command line interface port scanner. 
+Nmap (Network Mapper) est un scanner de ports en ligne de commande. Il permet de découvrir des hôtes, d'identifier les ports ouverts, de détecter les services et leurs versions, et d'exécuter des scripts de reconnaissance ou de vulnérabilité.
 
-> A ttl of 128 means that the operating system is probably Windows
+> Une TTL de 128 indique généralement un système Windows ; une TTL de 64, un système Linux ou Unix.
 
-## Why nmap choose to scan these ports ?
-By default, nmap creates a map of the most frequently used ports. If the user performs a simple `nmap IP` scan. The command will scan the 1000 most used ports. You can find this map in the `/usr/share/nmap/nmap-services` file.
+## Pourquoi nmap scanne certains ports par défaut
 
-> [!warning] Piège
-> Un scan par défaut (top 1000) rate systématiquement les services déplacés sur un port non-standard — une pratique courante en pentest réel pour échapper justement aux scans rapides. Pour un audit exhaustif, `-p-` (tous les ports) est nécessaire, quitte à accepter le temps de scan supplémentaire.
-
-## Scanning Options
-
-| **Nmap Option**      | **Description**                                                        |
-| -------------------- | ---------------------------------------------------------------------- |
-| `-sn`                | Disables port scanning.                                                |
-| `-Pn`                | Disables ICMP Echo Requests                                            |
-| `-n`                 | Disables DNS Resolution.                                               |
-| `-PE`                | Performs the ping scan by using ICMP Echo Requests against the target. |
-| `--packet-trace`     | Shows all packets sent and received.                                   |
-| `--reason`           | Displays the reason for a specific result.                             |
-| `--disable-arp-ping` | Disables ARP Ping Requests.                                            |
-| `--top-ports=<num>`  | Scans the specified top ports that have been defined as most frequent. |
-| `-p-`                | Scan all ports.                                                        |
-| `-p22-110`           | Scan all ports between 22 and 110.                                     |
-| `-p22,25`            | Scans only the specified ports 22 and 25.                              |
-| `-F`                 | Scans top 100 ports.                                                   |
-| `-sS`                | Performs an TCP SYN-Scan.                                              |
-| `-sA`                | Performs an TCP ACK-Scan.                                              |
-| `-sU`                | Performs an UDP Scan.                                                  |
-| `-sV`                | Scans the discovered services for their versions.                      |
-| `-sC`                | Perform a Script Scan with scripts that are categorized as "default".  |
-| `--script <script>`  | Performs a Script Scan by using the specified scripts.                 |
-| `-O`                 | Performs an OS Detection Scan to determine the OS of the target.       |
-| `-A`                 | Performs OS Detection, Service Detection, and traceroute scans.        |
-| `-D RND:5`           | Sets the number of random Decoys that will be used to scan the target. |
-| `-e`                 | Specifies the network interface that is used for the scan.             |
-| `-S 10.10.10.200`    | Specifies the source IP address for the scan.                          |
-| `-g`                 | Specifies the source port for the scan.                                |
-| `--dns-server <ns>`  | DNS resolution is performed by using a specified name server.          |
-
-## Output Options
-
-|**Nmap Option**|**Description**|
-|---|---|
-|`-oA filename`|Stores the results in all available formats starting with the name of "filename".|
-|`-oN filename`|Stores the results in normal format with the name "filename".|
-|`-oG filename`|Stores the results in "grepable" format with the name of "filename".|
-|`-oX filename`|Stores the results in XML format with the name of "filename".|
-
-## Performance Options
-
-|**Nmap Option**|**Description**|
-|---|---|
-|`--max-retries <num>`|Sets the number of retries for scans of specific ports.|
-|`--stats-every=5s`|Displays scan's status every 5 seconds.|
-|`-v/-vv`|Displays verbose output during the scan.|
-|`--initial-rtt-timeout 50ms`|Sets the specified time value as initial RTT timeout.|
-|`--max-rtt-timeout 100ms`|Sets the specified time value as maximum RTT timeout.|
-|`--min-rate 300`|Sets the number of packets that will be sent simultaneously.|
-|`-T <0-5>`|Specifies the specific timing template.|
-
-
-## Available scirpts
-Nmap proposes a lot of script for specific usage each.
+Nmap construit une carte des ports les plus fréquemment utilisés. Une commande `nmap IP` sans option scanne les 1 000 ports les plus courants. Cette liste se trouve dans `/usr/share/nmap/nmap-services`.
 
 > [!warning] Piège
-> Les catégories `Intrusive`, `Exploit` et `Dos` peuvent activement perturber ou faire planter un service (voire un système industriel fragile). En engagement client, ne les lancer que si les règles d'engagement l'autorisent explicitement — `-sC`/`--script=default` reste `safe` par construction.
+> Un scan par défaut (top 1000) rate systématiquement les services déplacés sur un port non standard — une pratique courante en pentest réel pour échapper aux scans rapides. Pour un audit exhaustif, `-p-` (tous les ports) est nécessaire, quitte à accepter le temps de scan supplémentaire.
 
-|**Category**|**Description**|**Example Scripts**|
+## Options de scan
+
+| Option | Description |
+|---|---|
+| `-sn` | Désactive le scan de ports ; effectue uniquement la découverte d'hôtes. |
+| `-Pn` | Désactive la découverte d'hôtes et considère toutes les cibles comme actives. |
+| `-n` | Désactive la résolution DNS. |
+| `-PE` | Découverte d'hôtes par requêtes ICMP Echo. |
+| `--packet-trace` | Affiche tous les paquets envoyés et reçus. |
+| `--reason` | Affiche la raison d'un résultat (type de réponse reçue). |
+| `--disable-arp-ping` | Désactive les requêtes ARP de découverte. |
+| `--top-ports=<num>` | Scanne les `<num>` ports les plus fréquents. |
+| `-p-` | Scanne les 65 535 ports TCP. |
+| `-p22-110` | Scanne la plage de ports 22 à 110. |
+| `-p22,25` | Scanne uniquement les ports 22 et 25. |
+| `-F` | Scanne les 100 ports les plus fréquents. |
+| `-sS` | Scan TCP SYN (half-open), rapide et discret. |
+| `-sA` | Scan TCP ACK, utile pour cartographier les règles de filtrage. |
+| `-sU` | Scan UDP. |
+| `-sV` | Détecte la version des services découverts. |
+| `-sC` | Exécute les scripts NSE de catégorie `default`. |
+| `--script <script>` | Exécute un ou plusieurs scripts NSE nommés. |
+| `-O` | Détection du système d'exploitation. |
+| `-A` | Active la détection OS, la détection de version, le traceroute et les scripts `default`. |
+| `-D RND:5` | Utilise cinq leurres (decoys) aléatoires pour brouiller la source du scan. |
+| `-e` | Spécifie l'interface réseau utilisée pour le scan. |
+| `-S 10.10.10.200` | Spécifie l'adresse IP source du scan. |
+| `-g` | Spécifie le port source du scan. |
+| `--dns-server <ns>` | Utilise un serveur DNS spécifique pour la résolution. |
+
+## Options de sortie
+
+| Option | Description |
+|---|---|
+| `-oA filename` | Enregistre les résultats dans tous les formats disponibles, avec `filename` comme base. |
+| `-oN filename` | Enregistre les résultats au format normal. |
+| `-oG filename` | Enregistre les résultats au format « grepable ». |
+| `-oX filename` | Enregistre les résultats au format XML. |
+
+## Options de performance
+
+| Option | Description |
+|---|---|
+| `--max-retries <num>` | Nombre maximal de retransmissions pour un port. |
+| `--stats-every=5s` | Affiche l'état d'avancement toutes les 5 secondes. |
+| `-v` / `-vv` | Augmente la verbosité de la sortie. |
+| `--initial-rtt-timeout 50ms` | Timeout RTT initial. |
+| `--max-rtt-timeout 100ms` | Timeout RTT maximal. |
+| `--min-rate 300` | Envoie au moins 300 paquets par seconde. |
+| `-T <0-5>` | Choisit un modèle de temporisation, de `paranoid` (0) à `insane` (5). |
+
+## Scripts NSE disponibles
+
+Nmap propose de nombreux scripts pour des usages spécifiques.
+
+> [!warning] Piège
+> Les catégories `Intrusive`, `Exploit` et `Dos` peuvent activement perturber ou faire planter un service (voire un système industriel fragile). En engagement client, ne les lancer que si les règles d'engagement l'autorisent explicitement — `-sC` / `--script=default` reste `safe` par construction.
+
+| Catégorie | Description | Exemples de scripts |
 |---|---|---|
-|**Auth**|Scripts for authentication bypass or testing.|`http-auth`, `ssh-auth-methods`, `smb-brute`|
-|**Broadcast**|Discovers hosts on a network using broadcast and multicast.|`broadcast-dhcp-discover`, `broadcast-ping`|
-|**Brute**|Performs brute-force password attacks.|`ftp-brute`, `http-brute`, `smtp-brute`|
-|**Default**|Default scripts run with `-sC` or `--script=default`.|`ssl-cert`, `dns-service-discovery`, `http-title`|
-|**Discovery**|Finds hosts, services, or information about the target.|`dns-zone-transfer`, `snmp-brute`, `ssh-hostkey`|
-|**Dos**|Tests or executes Denial of Service (DoS) attacks.|`syn-flood`, `http-slowloris`|
-|**Exploit**|Exploits vulnerabilities on the target system.|`http-shellshock`, `ms08-067`, `cve-2020-0796`|
-|**External**|Uses external web services to gather information.|`ip-geolocation`, `whois`|
-|**Fuzzer**|Fuzzes services to find potential vulnerabilities.|`ftp-fuzz`, `http-fuzz`|
-|**Intrusive**|Performs intrusive or potentially harmful checks.|`http-sql-injection`, `smb-vuln-ms17-010`|
-|**Malware**|Detects malware or backdoors.|`http-malware-host`, `irc-botnet-channels`|
-|**Safe**|Scripts considered non-intrusive and safe for production systems.|`banner`, `http-headers`|
-|**Version**|Enhances version detection for services.|`ssl-enum-ciphers`, `http-server-header`|
-|**Vuln**|Detects known vulnerabilities in software.|`http-vuln-cve2017-5638`, `smb-vuln-ms08-067`|
+| **Auth** | Contournement ou test d'authentification. | `http-auth`, `ssh-auth-methods`, `smb-brute` |
+| **Broadcast** | Découverte d'hôtes par broadcast et multicast. | `broadcast-dhcp-discover`, `broadcast-ping` |
+| **Brute** | Attaques par force brute de mots de passe. | `ftp-brute`, `http-brute`, `smtp-brute` |
+| **Default** | Scripts exécutés avec `-sC` ou `--script=default`. | `ssl-cert`, `dns-service-discovery`, `http-title` |
+| **Discovery** | Découverte d'hôtes, de services et d'informations. | `dns-zone-transfer`, `snmp-brute`, `ssh-hostkey` |
+| **Dos** | Tests ou attaques par déni de service. | `syn-flood`, `http-slowloris` |
+| **Exploit** | Exploitation de vulnérabilités connues. | `http-shellshock`, `ms08-067`, `cve-2020-0796` |
+| **External** | Utilisation de services web externes pour l'information. | `ip-geolocation`, `whois` |
+| **Fuzzer** | Fuzzing de services pour trouver des vulnérabilités. | `ftp-fuzz`, `http-fuzz` |
+| **Intrusive** | Vérifications intrusives ou potentiellement dangereuses. | `http-sql-injection`, `smb-vuln-ms17-010` |
+| **Malware** | Détection de malware ou de portes dérobées. | `http-malware-host`, `irc-botnet-channels` |
+| **Safe** | Scripts non intrusifs, utilisables en production. | `banner`, `http-headers` |
+| **Version** | Améliore la détection de version des services. | `ssl-enum-ciphers`, `http-server-header` |
+| **Vuln** | Détection de vulnérabilités connues. | `http-vuln-cve2017-5638`, `smb-vuln-ms08-067` |
 
-To explore all available scripts on your system, you can use the following command:
+Pour explorer les scripts disponibles sur le système :
+
 ```bash
 ls /usr/share/nmap/scripts
 ```
 
-You can count them via the command: 
+Pour les compter :
+
 ```bash
 ls /usr/share/nmap/scripts | wc -l
 ```
 
-Or use `nmap` directly to list them:
+Ou pour obtenir l'aide directement depuis nmap :
+
 ```bash
 nmap --script-help all
 ```
+
+> [!quiz] À quoi sert l'option `-Pn` et dans quel cas est-elle indispensable ?
+> Elle désactive la découverte d'hôtes et considère la cible comme active. Elle est indispensable quand un pare-feu ou un équipement filtre les requêtes ICMP/ARP et que nmap conclurait à tort que l'hôte est hors ligne.
+
+> [!abstract] Définition — Scan SYN
+> Un scan SYN (`-sS`) envoie un paquet SYN sans terminer la poignée de main TCP. Si la cible répond SYN-ACK, le port est ouvert ; si elle répond RST, il est fermé. Le scan est plus rapide et moins visible qu'un scan connecté complet.

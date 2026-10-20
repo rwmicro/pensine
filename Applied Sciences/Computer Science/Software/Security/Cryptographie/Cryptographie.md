@@ -195,6 +195,8 @@ hash_mdp = bcrypt.hashpw(b"motdepasse", sel)
 bcrypt.checkpw(b"motdepasse", hash_mdp)   # True
 ```
 
+Le choix des paramètres, la migration des hashes et les attaques par GPU ou par pulvérisation sont détaillés dans [[Hachage de mots de passe]].
+
 ## Signatures numériques
 
 Une signature numérique garantit authenticité et non-répudiation : seul le propriétaire de la clé privée peut signer, n'importe qui avec la clé publique peut vérifier.
@@ -277,6 +279,8 @@ openssl verify -CAfile ca-chain.pem cert.pem
 openssl s_client -connect exemple.fr:443 -brief
 ```
 
+Le handshake TLS 1.3, la gestion des certificats et l'interception sont détaillés dans [[TLS 1.3]]. Le cycle de vie des clés, les KMS et les HSM sont traités dans [[Gestion des clés et HSM]].
+
 ## Protocoles de sécurité
 
 ### TLS (Transport Layer Security)
@@ -347,6 +351,8 @@ Algorithmes supportés : RSA, DSA.
 | Side-channel | Implémentations matérielles | Consommation électrique, rayonnement EM, cache CPU |
 | MITM | Échange de clés sans PKI | Intercepter et remplacer les clés publiques |
 
+Les attaques par canal auxiliaire (timing, cache, consommation, fautes) et leurs contre-mesures sont approfondies dans [[Attaques par canal auxiliaire]].
+
 ## Cryptographie Post-Quantique
 
 Les ordinateurs quantiques, via l'algorithme de Shor, pourraient factoriser les grands entiers en temps polynomial — cassant RSA, DSA et ECDSA. L'algorithme de Grover réduit de moitié la sécurité des algorithmes symétriques (AES-128 → sécurité équivalente à ~64 bits).
@@ -375,6 +381,8 @@ TLS 1.3 hybride : X25519 (ECDH classique) + Kyber768 (post-quantique)
 → L'attaquant doit casser les deux simultanément
 → Google, Cloudflare, Signal ont déjà déployé des variantes hybrides
 ```
+
+La migration, l'hybridation, la crypto-agilité et l'inventaire cryptographique sont détaillés dans [[Cryptographie post-quantique]].
 
 ```python
 # Kyber768 avec la librairie pqcrypto (exemple)

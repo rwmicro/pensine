@@ -269,6 +269,8 @@ TA0010 Exfiltration      : DNS, HTTPS, Cloud Storage
 TA0011 C2               : HTTPS, DNS Tunneling, Covert Channels
 ```
 
+La version détaillée du référentiel, les sous-techniques et les calques Navigator sont dans [[MITRE ATT&CK]]. Pour passer de la cartographie à une exécution contrôlée et mesurée, voir [[Adversary Emulation]].
+
 ## Déception — Honeypots et Honeytokens
 
 Placer des leurres pour détecter les attaquants qui ont contourné les défenses périmétriques.

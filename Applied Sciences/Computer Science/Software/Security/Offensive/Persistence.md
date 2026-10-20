@@ -271,3 +271,5 @@ Linux :
   Services systemd récents : systemctl list-units --type=service --state=active
   Fichiers cachés : find / -name ".*" -not -path "/proc/*" 2>/dev/null | head
 ```
+
+Les mécanismes de persistance Linux (systemd, cron, profils shell, PAM) sont détaillés dans [[Malware Linux]] ; ceux de macOS (launchd, login items, profils de configuration) dans [[Malware macOS]]. La persistance par matériel d'authentification (tickets, jetons, secrets) est traitée dans [[Credential Access]].

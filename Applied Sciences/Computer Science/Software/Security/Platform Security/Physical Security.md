@@ -252,3 +252,5 @@ Procédures :
   ✓ Exercices réguliers (simulation d'intrusion physique, formation)
   ✓ Caméras IP avec enregistrement 30 jours minimum
 ```
+
+L'accès physique mène souvent à l'accès au matériel lui-même : ports de debug, flash SPI, bus I2C, secure boot. Ces techniques et leurs contre-mesures sont détaillées dans [[Hardware Hacking]].
