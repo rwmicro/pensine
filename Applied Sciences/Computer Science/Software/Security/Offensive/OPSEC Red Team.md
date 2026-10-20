@@ -11,6 +11,8 @@ prerequis: ["[[Red Team et Blue Team]]", "[[C2 Infrastructure]]", "[[Compliance]
 
 L'OPSEC (operational security) d'un red team n'est pas une collection d'astuces pour rester invisible. C'est une discipline de gestion du risque : identifier ce que l'opérateur révèle, à qui, à quel coût, et décider consciemment ce qui peut être sacrifié. Une opération peut être techniquement réussie et stratégiquement ratée si elle attribue l'équipe, expose le client, ou contamine l'infrastructure d'un autre engagement.
 
+Pour l'anonymat personnel, le pseudonymat et la non-attribution en dehors d'un engagement, voir [[OPSEC et anonymat]]. Les deux notes partagent la même logique de modèle de menace, mais les actifs, les adversaires et les contraintes juridiques diffèrent.
+
 Le modèle de menace de l'opérateur est plus large que celui du défenseur. Le blue team cherche l'intrusion ; l'équipe forensique cherche l'origine ; l'éditeur EDR cherche une signature ; le régulateur cherche une faute ; le journaliste cherche une histoire ; l'attaquant tiers cherche une infrastructure à réutiliser. Chacun observe des artefacts différents, et l'OPSEC consiste à réduire l'intersection de ces observations, pas à disparaître.
 
 > [!abstract] Définition — OPSEC

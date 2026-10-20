@@ -13,10 +13,12 @@ Carte du domaine sécurité du vault. Organisation par discipline, du concept à
 ## Méthodologie et concepts transverses
 
 - [[Pentest Methodology]] — démarche générale d'un pentest
+- [[Test d'intrusion web — cadre et ROE]] — cadrage, périmètre, gates techniques et règles d'engagement
 - [[Red Team et Blue Team]] — adversary simulation, rôles offensif/défensif
 - [[Purple Teaming]] — collaboration red/blue, validation de la détection
 - [[MITRE ATT&CK]] — vocabulaire des TTP, cartographie et limites
 - [[Adversary Emulation]] — construction et mesure d'un scénario d'émulation
+- [[OPSEC et anonymat]] — modèle de menace, pseudonymat et non-attribution
 - [[Threat Intelligence stratégique]] — analyse stratégique, produits, attribution et aide à la décision
 
 ## Offensive
@@ -29,6 +31,7 @@ Carte du domaine sécurité du vault. Organisation par discipline, du concept à
 - Identifiants : [[Credential Access]] — LSASS, SAM/NTDS, DCSync, DPAPI, Kerberos, jetons
 - Infrastructure et discrétion : [[C2 Infrastructure]], [[C2 avancé]], [[AV-EDR Evasion]], [[OPSEC Red Team]], [[Data Exfiltration]]
 - Vivre de la terre : [[LOLBAS et GTFOBins]], [[Recon Automation]], [[Bug Bounty Methodology]]
+- Web et front-end : [[Audit Nginx et front-end — plan actif]] — Nginx, Alpine.js, Tailwind, CSP/SRI, annexe WAF Apache
 - **Outils** (`Offensive/Tools/`) : [[nmap]], [[Burp Suite]], [[ffuf et Gobuster]], [[Nuclei]], [[Impacket]], [[Responder]], [[Tshark]]
 
 ## Malware Development
@@ -93,6 +96,8 @@ Des chemins possibles pour aborder le domaine sans se disperser. Chaque étape s
 | Parcours | Progression |
 |---|---|
 | Fondations offensives | [[Pentest Methodology]] → [[Recon Automation]] → [[Initial Access]] → [[Windows Privilege Escalation]] / [[Linux Privilege Escalation]] → [[Lateral Movement]] → [[Credential Access]] |
+| Test web autorisé | [[Test d'intrusion web — cadre et ROE]] → [[Audit Nginx et front-end — plan actif]] → [[Rapport de Pentest]] |
+| OPSEC et anonymat | [[Threat Modeling]] → [[OPSEC et anonymat]] → [[OPSEC Red Team]] |
 | Infrastructure red team | [[C2 Infrastructure]] → [[C2 avancé]] → [[Pivoting et Tunneling]] → [[OPSEC Red Team]] → [[Data Exfiltration]] |
 | Malware Development | [[00 - Index Malware Development]] → fondations Windows → payload → injection → évasion → [[Obscurcissement du sommeil]] / [[Spoofing de pile d'appels]] → [[Malware Linux]] / [[Malware macOS]] |
 | Détection et réponse | [[Logs]] → [[SIEM (Security Information and event Management)]] → [[Detection Engineering]] → [[Sigma]] → [[YARA et CAPA]] → [[EDR internals]] → [[Détection mémoire des injections]] → [[Purple Teaming]] |

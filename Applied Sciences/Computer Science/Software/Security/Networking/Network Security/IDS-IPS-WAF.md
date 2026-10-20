@@ -175,6 +175,8 @@ filebeat modules enable suricata
 
 ## WAF (Web Application Firewall)
 
+Pour un plan de test complet, la vérification de l'architecture, les tests Nginx et front-end et l'annexe Apache/ModSecurity sont dans [[Audit Nginx et front-end — plan actif]]. Le cadre d'autorisation et les gates techniques sont dans [[Test d'intrusion web — cadre et ROE]].
+
 ### Modes de déploiement
 
 ```
