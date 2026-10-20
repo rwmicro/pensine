@@ -240,3 +240,14 @@ Les plateformes numériques sont conçues pour créer le désir de revenir — p
 
 **Publicité et désir mimétique**
 La publicité crée le désir en montrant des modèles désirables qui possèdent ou désirent le produit — mécanisme girardien à l'échelle industrielle.
+
+## Questions de révision
+
+> [!quiz] Comment Épicure classe-t-il les désirs ?
+> En désirs naturels et nécessaires, naturels et non nécessaires, et ni naturels ni nécessaires (vains).
+
+> [!quiz] Que dit Spinoza du désir ?
+> Que « le désir est l'essence même de l'homme » : l'effort de chaque être pour persévérer dans son être.
+
+> [!quiz] Pourquoi Schopenhauer lie-t-il désir et souffrance ?
+> Parce que le désir naît d'un manque ; satisfait, il laisse place à l'ennui, si bien que la vie oscille entre souffrance et ennui.

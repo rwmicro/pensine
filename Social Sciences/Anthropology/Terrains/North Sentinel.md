@@ -113,6 +113,17 @@ Trois arguments soutiennent cette position :
 
 L'île n'en est pas moins exposée : braconnage de langoustes, d'holothuries et de tortues dans ses eaux, et curiosité des missionnaires et des influenceurs.
 
+## Questions de révision
+
+> [!quiz] Où se trouve l'île de North Sentinel ?
+> Dans l'archipel indien des Andaman, dans le golfe du Bengale.
+
+> [!quiz] Pourquoi un contact avec les Sentinelles serait-il dangereux pour eux ?
+> Parce que, sans immunité contre des maladies comme la grippe ou la rougeole, un seul contact pourrait décimer le groupe.
+
+> [!quiz] Combien de Sentinelles y a-t-il ?
+> Personne ne le sait : les estimations, faites à distance, vont d'une quinzaine à plusieurs centaines de personnes.
+
 ## Sources
 
 - Survival International, « The Sentinelese », [lien](https://www.survivalinternational.org/tribes/sentinelese)

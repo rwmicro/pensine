@@ -89,3 +89,14 @@ La common law s'est diffusée par l'Empire britannique :
 ## Evolution contemporaine
 
 La distinction entre common law et civil law s'estompe progressivement. Les pays de common law légifèrent de plus en plus par lois écrites (*statutes*, *Acts of Parliament*), notamment dans les domaines modernes (protection des données, environnement, droit du travail). Inversement, la jurisprudence joue un rôle croissant dans les pays de civil law. L'Union européenne, avec ses directives et règlements, impose un cadre commun aux deux traditions.
+
+## Questions de révision
+
+> [!quiz] Que signifie la règle du *stare decisis* ?
+> Le juge doit suivre les précédents établis par les juridictions supérieures dans des affaires semblables.
+
+> [!quiz] Qu'est-ce que l'*equity* ?
+> Un ensemble de règles développées par la Cour de la chancellerie anglaise pour corriger la rigidité de la common law.
+
+> [!quiz] Qu'est-ce que le système accusatoire ?
+> Une procédure où les parties mènent le procès et produisent les preuves, le juge arbitrant entre elles.

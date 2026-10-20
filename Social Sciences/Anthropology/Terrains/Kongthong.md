@@ -70,6 +70,17 @@ La coutume n'est pas propre à Kongthong seul : quelques villages voisins la pra
 
 Le tourisme apporte des revenus (des maisons d'hôtes communautaires, la proximité des ponts de racines vivantes de la région), mais il pose la question classique du terrain anthropologique : une pratique intime, faite pour la famille et la forêt, devient un spectacle pour visiteurs.
 
+## Questions de révision
+
+> [!quiz] Quelle coutume rend célèbre le village de Kongthong ?
+> Chaque habitant reçoit à la naissance une mélodie personnelle, composée par sa mère, qui lui sert de nom d'appel toute sa vie : le *jingrwai iawbei*.
+
+> [!quiz] Pourquoi le nom-mélodie a-t-il une version longue ?
+> Pour appeler quelqu'un à distance dans la forêt et les vallées encaissées, où une voix parlée se perd.
+
+> [!quiz] Pourquoi est-ce la mère qui compose le nom ?
+> Parce que la société khasi est matrilinéaire : la filiation et le nom de clan passent par la mère.
+
 ## Sources
 
 - Piyashi Dutta et Kedilezo Kikhi, « Folk Practices of the Khasi Tribe: A Description of Jingrwai Iawbei in Kongthong Village », *Sociological Bulletin*, vol. 65, n° 2, 2016, p. 237-252, [doi:10.1177/0038022920160205](https://doi.org/10.1177/0038022920160205)

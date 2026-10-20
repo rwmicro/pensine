@@ -68,3 +68,10 @@ date: "2026-02-25"
 - Galloise: *Mabinogion*
 - Bretonne, gauloise (peu de sources)
 
+## Questions de révision
+
+> [!quiz] Qui est Amaterasu dans la mythologie japonaise ?
+> La déesse du soleil, ancêtre mythique de la lignée impériale.
+
+> [!quiz] Que sont les druides chez les Celtes ?
+> Les prêtres et savants, gardiens d'une tradition transmise oralement.

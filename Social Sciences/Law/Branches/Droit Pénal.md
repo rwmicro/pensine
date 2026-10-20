@@ -116,3 +116,14 @@ Abolie en France en 1981 (loi Badinter). Abolie dans 142 pays dans le monde. Mai
 
 > [!tip] Méthode
 > Piège classique : "inquisitoire" ne veut pas dire "présomption de culpabilité". La distinction porte sur qui mène l'enquête (un juge d'instruction actif vs deux parties qui s'affrontent devant un arbitre), pas sur qui doit prouver quoi. Dans les deux systèmes, c'est l'accusation qui porte la charge de la preuve — le terme "inquisitoire" trompe parce qu'il évoque à tort l'Inquisition.
+
+## Questions de révision
+
+> [!quiz] Que dit le principe de légalité des délits et des peines ?
+> Nul ne peut être puni pour un fait que la loi ne définit pas comme infraction, ni d'une peine qu'elle ne prévoit pas.
+
+> [!quiz] Quels sont les éléments constitutifs d'une infraction ?
+> L'élément légal (un texte), l'élément matériel (un acte) et l'élément moral (l'intention ou la faute).
+
+> [!quiz] Quelles sont les trois catégories d'infractions en droit français ?
+> Les contraventions, les délits et les crimes, jugés respectivement par le tribunal de police, le tribunal correctionnel et la cour d'assises (ou cour criminelle).

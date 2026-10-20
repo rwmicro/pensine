@@ -104,3 +104,14 @@ Limite : les grandes puissances (Etats-Unis, Russie, Chine) ne reconnaissent pas
 ## Limites du droit international
 
 Le DIP est souvent accusé d'être un droit faible : pas de sanction automatique, exécution dépendant de la volonté des Etats, veto au Conseil de sécurité paralysant l'ONU. Mais il structure les relations internationales, fournit un cadre de négociation et, malgré ses failles, les Etats le respectent dans l'immense majorité des cas — ne serait-ce que par intérêt.
+
+## Questions de révision
+
+> [!quiz] Quelles sont les sources du droit international selon l'article 38 du statut de la Cour internationale de justice ?
+> Les traités, la coutume internationale et les principes généraux du droit, avec la jurisprudence et la doctrine comme moyens auxiliaires.
+
+> [!quiz] Qu'est-ce que le droit international humanitaire ?
+> Le droit des conflits armés, qui protège les personnes qui ne combattent pas et limite les moyens de guerre (conventions de Genève).
+
+> [!quiz] Que dit le principe *pacta sunt servanda* ?
+> Les traités en vigueur lient les parties et doivent être exécutés de bonne foi.

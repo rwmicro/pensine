@@ -70,3 +70,14 @@ En pratique, les deux systèmes convergent : les pays de civil law accordent de 
 
 > [!tip] Méthode
 > Pour comparer deux systèmes juridiques sans se perdre dans les étiquettes, une seule question compte vraiment : où se situe, en dernier ressort, le pouvoir de trancher un cas non prévu par le texte ? En civil law, en théorie chez le législateur (le juge "applique") ; en common law, explicitement chez le juge (il "crée" le droit cas par cas). La convergence pratique ne change pas cette différence de légitimité affichée.
+
+## Questions de révision
+
+> [!quiz] Sur quelle source principale repose la tradition civiliste ?
+> Sur la loi écrite et codifiée, héritée du droit romain.
+
+> [!quiz] Quels sont les deux grands codes modèles de la tradition civiliste ?
+> Le Code civil français de 1804 et le BGB allemand de 1900.
+
+> [!quiz] Quel est le rôle du juge dans la civil law par rapport à la common law ?
+> Il applique et interprète la loi écrite ; en common law, ses décisions font elles-mêmes la règle par le précédent.

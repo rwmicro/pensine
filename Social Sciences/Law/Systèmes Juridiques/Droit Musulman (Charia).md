@@ -94,3 +94,14 @@ La finance islamique représente environ 4 000 milliards de dollars d'actifs dan
 | **Hudud** | Les peines corporelles (amputation, flagellation, lapidation) sont défendues par les littéralistes comme prescriptions divines et rejetées par les réformistes comme anachroniques |
 | **Ijtihad** | L'interprétation doit-elle être figée (imitation des anciens, *taqlid*) ou ouverte à de nouvelles lectures adaptées au contexte ? |
 | **Compatibilité avec les droits de l'homme** | Tension entre la DUDH (1948) et la Déclaration du Caire sur les droits de l'homme en Islam (1990), qui soumet les droits à la charia |
+
+## Questions de révision
+
+> [!quiz] Quelles sont les quatre sources classiques du droit musulman sunnite ?
+> Le Coran, la Sunna, le consensus (*ijma*) et le raisonnement par analogie (*qiyas*).
+
+> [!quiz] Qu'est-ce que le *fiqh* ?
+> La jurisprudence islamique : l'effort humain d'interprétation pour tirer des règles des sources.
+
+> [!quiz] Quel principe interdit la finance islamique ?
+> L'intérêt (*riba*), ainsi que la spéculation excessive (*gharar*).

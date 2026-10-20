@@ -153,3 +153,14 @@ Les étapes alchimiques (nigredo, albedo, rubedo) correspondent aux étapes du p
 - La psychologie analytique reste pratiquée (Instituts Jung dans le monde entier)
 - Joseph Campbell (*Le Héros aux mille visages*) applique les archétypes jungiens à la mythologie comparée — son travail influence George Lucas (*Star Wars*)
 - L'art-thérapie et la thérapie par le jeu de sable (*sandplay*) sont des héritiers directs de Jung
+
+## Questions de révision
+
+> [!quiz] Qu'est-ce que l'inconscient collectif chez Jung ?
+> Une couche de l'inconscient commune à toute l'humanité, peuplée d'archétypes, distincte de l'inconscient personnel.
+
+> [!quiz] Qu'est-ce que l'Ombre ?
+> L'archétype qui regroupe les aspects de soi que l'on refuse de reconnaître.
+
+> [!quiz] Qu'est-ce que l'individuation ?
+> Le processus par lequel une personne intègre les parties inconscientes de sa psyché pour devenir pleinement elle-même.

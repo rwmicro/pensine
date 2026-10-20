@@ -90,3 +90,14 @@ Les deux disent ce qu'on « doit » faire, mais ne se confondent pas.
 
 > [!warning] Piège
 > Confondre légalité et légitimité morale est une erreur de raisonnement classique — dans les deux sens. « C'est légal » ne veut pas dire « c'est juste » (l'esclavage fut légal), et « c'est immoral pour moi » ne fonde pas à lui seul une interdiction (l'adultère). Le droit pénal (voir [[Droit du Travail]] pour un cas où la loi protège justement contre un rapport de force inégal) tranche par la contrainte publique, pas par la conscience individuelle.
+
+## Questions de révision
+
+> [!quiz] Quelle différence entre droit objectif et droits subjectifs ?
+> Le droit objectif est l'ensemble des règles qui régissent la société ; les droits subjectifs sont les prérogatives qu'une personne tire de ces règles (droit de propriété, par exemple).
+
+> [!quiz] Quelles sont les trois fonctions du droit selon la note ?
+> Ordonner la société, protéger et sanctionner.
+
+> [!quiz] Qu'est-ce qui distingue une règle de droit d'une règle morale ?
+> La règle de droit est assortie d'une sanction organisée par l'État ; la règle morale relève de la conscience.

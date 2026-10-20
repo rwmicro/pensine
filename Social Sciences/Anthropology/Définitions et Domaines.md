@@ -88,3 +88,11 @@ L'anthropologie est la science de l'**altérité** — la rencontre avec ce qui 
 | **Psychologie** | Etudie l'individu. L'anthropologie étudie l'individu-en-société, la culture comme cadre de la psyché |
 | **Biologie** | L'anthropologie physique est une branche de la biologie appliquée à l'humain |
 | **Philosophie** | L'anthropologie apporte des données empiriques aux questions philosophiques (la nature humaine, l'universel, la morale) |
+
+## Questions de révision
+
+> [!quiz] Qu'est-ce que l'ethnocentrisme ?
+> La tendance à juger les autres cultures à partir des normes et valeurs de la sienne, tenue pour la référence.
+
+> [!quiz] Que désigne l'altérité en anthropologie ?
+> Le caractère de ce qui est autre ; l'anthropologie se construit sur la rencontre et la compréhension de l'autre.

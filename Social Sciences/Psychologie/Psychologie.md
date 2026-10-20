@@ -305,6 +305,17 @@ La **psychologie** (du grec *psyché* = âme/esprit et *logos* = étude) est la 
 | **Informatique** | IA, sciences cognitives |
 | **Médecine** | Psychiatrie, psychosomatique |
 
+## Questions de révision
+
+> [!quiz] Qu'étudie la psychologie cognitive ?
+> Les processus mentaux : perception, attention, mémoire, langage, raisonnement.
+
+> [!quiz] Quel est le principe du behaviorisme ?
+> N'étudier que les comportements observables et leurs liens avec l'environnement, sans recourir à l'introspection (Watson, Skinner).
+
+> [!quiz] Quel est l'objet de la psychologie du développement ?
+> Les changements psychologiques au cours de la vie, de l'enfance à la vieillesse (Piaget, par exemple, pour l'enfant).
+
 ## Ressources
 
 ### Manuels de Référence

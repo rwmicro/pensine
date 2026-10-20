@@ -307,3 +307,14 @@ Ces oppositions ne sont pas universelles en contenu, mais le **processus** d'opp
 > "Le barbare, c'est d'abord celui qui croit à la barbarie."
 
 > "Les espèces naturelles ne sont pas choisies parce que 'bonnes à manger' mais parce que 'bonnes à penser'."
+
+## Questions de révision
+
+> [!quiz] Quel est le principe du structuralisme de Lévi-Strauss ?
+> Chercher, derrière la diversité des faits culturels (parenté, mythes), des structures inconscientes faites de relations et d'oppositions, sur le modèle de la linguistique.
+
+> [!quiz] Pourquoi la prohibition de l'inceste est-elle centrale dans *Les Structures élémentaires de la parenté* (1949) ?
+> Parce qu'en obligeant à chercher un conjoint hors du groupe, elle fonde l'échange entre groupes et marque le passage de la nature à la culture.
+
+> [!quiz] Que désigne « la pensée sauvage » (1962) ?
+> Une pensée concrète et classificatrice, aussi rigoureuse que la pensée scientifique, qui travaille avec des qualités sensibles, à la manière d'un bricoleur.

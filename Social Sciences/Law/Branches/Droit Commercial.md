@@ -10,6 +10,17 @@ prerequis: ["[[Social Sciences/Law/Branches/Droit Civil]]"]
 
 Le droit commercial régit les rapports entre commerçants, les actes de commerce et les entreprises. C'est une branche du droit privé qui déroge au droit civil par des règles plus souples et plus rapides, adaptées aux besoins du monde des affaires.
 
+## Questions de révision
+
+> [!quiz] Qui est commerçant selon le Code de commerce ?
+> Celui qui accomplit des actes de commerce et en fait sa profession habituelle.
+
+> [!quiz] Quelle différence entre SARL et SA sur la responsabilité des associés ?
+> Dans les deux cas, les associés ne répondent des dettes qu'à hauteur de leurs apports.
+
+> [!quiz] Quel est l'objet du droit de la concurrence ?
+> Interdire les pratiques qui faussent le marché : ententes, abus de position dominante, concentrations non autorisées.
+
 ## Sources du droit commercial
 
 | Source | Contenu |

@@ -74,3 +74,14 @@ Pendant presque toute son histoire, sapiens a vécu entouré d'autres espèces h
 
 > [!important] Idée clé
 > Être seuls aujourd'hui n'explique pas pourquoi sapiens a survécu (c'est une conséquence, pas une cause) — ne pas confondre l'état actuel avec le mécanisme qui y a mené. Voir [[La Révolution Cognitive]] pour l'hypothèse la plus solide sur ce qui a réellement fait la différence (langage et fictions collectives).
+
+## Questions de révision
+
+> [!quiz] Quelles sont les deux grandes hypothèses sur la disparition des autres humains ?
+> Le remplacement (sapiens a supplanté les autres espèces) et l'hybridation (ils se sont mélangés) ; la génétique montre qu'il y a eu au moins un peu des deux.
+
+> [!quiz] Qu'est-ce qu'*Homo floresiensis* ?
+> Une petite espèce humaine (environ un mètre) découverte sur l'île de Florès, en Indonésie, surnommée « Hobbit ».
+
+> [!quiz] Depuis quand *Homo sapiens* est-il la seule espèce humaine ?
+> Depuis environ 40 000 ans, voire un peu moins selon le statut d'*Homo floresiensis*.

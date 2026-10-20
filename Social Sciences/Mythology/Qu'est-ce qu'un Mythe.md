@@ -105,3 +105,14 @@ Son oeuvre majeure, les *Mythologiques* (4 volumes, 1964-1971), analyse des cent
 Le mythe n'a pas disparu avec la modernité — il a changé de forme. Roland Barthes (*Mythologies*, 1957) montre que la société contemporaine produit ses propres mythes : la voiture, le steak-frites, le Tour de France, la publicité transforment des faits historiques en "nature" — exactement comme les mythes anciens naturalisaient l'ordre social.
 
 Les récits de fiction modernes (Star Wars, Le Seigneur des Anneaux, Marvel) reprennent les structures mythiques universelles identifiées par Campbell et Jung — preuve que le besoin de mythes est constitutif de l'esprit humain.
+
+## Questions de révision
+
+> [!quiz] Quelle différence entre mythe et légende ?
+> Le mythe raconte des origines et met en scène des dieux, dans un temps primordial ; la légende part d'un fond historique (un lieu, un personnage) qu'elle embellit.
+
+> [!quiz] Qu'est-ce que le « monomythe » de Joseph Campbell ?
+> Le schéma du voyage du héros, commun selon lui à de nombreux mythes : départ, épreuves initiatiques, retour transformé.
+
+> [!quiz] Que désigne Mircea Eliade par le temps du mythe ?
+> Un temps sacré des origines (*in illo tempore*), que les rites permettent de revivre.

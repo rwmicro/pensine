@@ -97,3 +97,10 @@ prerequis: ["[[Social Sciences/Anthropology/Définitions et Domaines]]"]
 - Mondialisation, transnationalisme
 - Numérique (ethnographie en ligne)
 
+## Questions de révision
+
+> [!quiz] Qu'a changé la « révolution du terrain » au début du XXe siècle ?
+> L'anthropologue va lui-même sur place, longuement, au lieu de travailler à partir des récits de voyageurs et de missionnaires.
+
+> [!quiz] Qu'est-ce que le tournant réflexif des années 1980 ?
+> Une critique de l'écriture ethnographique (*Writing Culture*, 1986) qui interroge l'autorité de l'anthropologue et sa place dans ce qu'il décrit.

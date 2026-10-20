@@ -107,3 +107,14 @@ Ces chiffres, remarquablement proches de l'âge réel de la Terre (~4,5 milliard
 
 > [!warning] Piège
 > Résister à la tentation d'y voir une "science ancienne avant l'heure" : ces durées ne sortent pas d'une observation empirique mais d'une combinaison numérologique de cycles cosmiques théoriques (yugas, kalpas) — la proximité avec l'âge réel de l'univers est une coïncidence frappante, pas une preuve de connaissance astronomique avancée.
+
+## Questions de révision
+
+> [!quiz] Que sont les avatars de Vishnou ?
+> Ses incarnations sur terre pour rétablir l'ordre cosmique (dharma) ; les plus célèbres sont Rama et Krishna.
+
+> [!quiz] Quel rôle tient chaque dieu de la Trimurti ?
+> Brahma crée, Vishnou préserve, Shiva détruit et transforme.
+
+> [!quiz] Quelles sont les deux grandes épopées indiennes ?
+> Le *Mahabharata* (dont fait partie la *Bhagavad-Gita*) et le *Ramayana*.

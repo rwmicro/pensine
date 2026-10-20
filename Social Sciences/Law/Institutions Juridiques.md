@@ -52,3 +52,10 @@ prerequis: ["[[Social Sciences/Law/Bases du Droit]]"]
 
 **Juristes d'entreprise, universitaires**
 
+## Questions de révision
+
+> [!quiz] Quelle juridiction se trouve au sommet de l'ordre judiciaire français ?
+> La Cour de cassation, qui juge en droit et non sur les faits.
+
+> [!quiz] Quel est le rôle d'une cour d'appel ?
+> Rejuger une affaire déjà tranchée en première instance, en fait et en droit.

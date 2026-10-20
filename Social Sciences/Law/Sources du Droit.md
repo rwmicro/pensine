@@ -64,3 +64,13 @@ prerequis: ["[[Social Sciences/Law/Bases du Droit]]"]
 - Droit international (coutume internationale)
 - Droit commercial (usages)
 
+## Questions de révision
+
+> [!quiz] Qu'est-ce que la pyramide des normes de Kelsen ?
+> Une hiérarchie où chaque norme doit respecter celles qui lui sont supérieures : constitution, traités, lois, règlements.
+
+> [!quiz] Qu'est-ce que la jurisprudence ?
+> L'ensemble des décisions des tribunaux, qui précisent et interprètent la loi.
+
+> [!quiz] Quel rôle joue la coutume en droit français ?
+> Un rôle secondaire, quand la loi y renvoie ou se tait.

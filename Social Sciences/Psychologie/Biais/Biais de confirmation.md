@@ -264,6 +264,17 @@ Même apprendre l'existence du biais de confirmation peut être sujet au biais d
 > [!warning] Piège
 > Ne pas confondre biais de confirmation et [[Biais de cadrage]] : le cadrage déforme la perception d'une information déjà reçue (même donnée, présentation différente), tandis que la confirmation agit en amont, sur le *choix* des informations qu'on va chercher, retenir ou accepter. Un même événement peut être la victime des deux biais successivement — d'abord un tri sélectif de ce qu'on regarde, puis un cadrage de ce qu'on a retenu.
 
+## Questions de révision
+
+> [!quiz] Qu'est-ce que le biais de confirmation ?
+> La tendance à rechercher, interpréter et retenir les informations qui confirment ce que l'on croit déjà.
+
+> [!quiz] Quelles sont les trois formes du biais de confirmation ?
+> La recherche sélective d'informations, l'interprétation biaisée et la mémorisation sélective.
+
+> [!quiz] Quel lien la note fait-elle avec la dissonance cognitive de Festinger ?
+> Les informations contraires à nos croyances créent un inconfort psychologique ; les éviter ou les écarter réduit cette dissonance.
+
 ## Ressources
 
 ### Livres

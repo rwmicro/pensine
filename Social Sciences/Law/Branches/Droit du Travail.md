@@ -95,3 +95,14 @@ Le licenciement sans cause réelle et sérieuse est sanctionné par les prud'hom
 | **Etats-Unis** | *Employment at will* : l'employeur peut licencier librement sauf discrimination. Protection minimale, pas de congés payés fédéraux obligatoires |
 | **Allemagne** | Cogestion (*Mitbestimmung*) : les salariés siègent au conseil de surveillance des grandes entreprises |
 | **Danemark** | Flexisécurité : licenciement facile + indemnisation chômage généreuse + formation active |
+
+## Questions de révision
+
+> [!quiz] Quel est le critère du contrat de travail ?
+> Le lien de subordination : le salarié travaille sous l'autorité d'un employeur qui peut lui donner des ordres, en contrôler l'exécution et sanctionner ses manquements.
+
+> [!quiz] Quel est le contrat de travail de droit commun en France ?
+> Le contrat à durée indéterminée (CDI).
+
+> [!quiz] Que faut-il pour qu'un licenciement soit valable ?
+> Une cause réelle et sérieuse, et le respect de la procédure (entretien préalable, notification).

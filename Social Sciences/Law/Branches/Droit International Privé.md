@@ -108,6 +108,17 @@ Les litiges commerciaux internationaux sont souvent résolus par **arbitrage** p
 
 La sentence arbitrale est exécutoire dans 172 pays grâce à la **Convention de New York** (1958), ce qui la rend plus facilement exécutable qu'un jugement étatique.
 
+## Questions de révision
+
+> [!quiz] Quelles sont les trois questions du droit international privé ?
+> Quel juge est compétent, quelle loi s'applique, et comment faire reconnaître et exécuter un jugement étranger.
+
+> [!quiz] Qu'est-ce que l'exception d'ordre public international ?
+> La possibilité pour un juge d'écarter une loi étrangère normalement applicable quand elle heurte des principes essentiels de son propre ordre juridique.
+
+> [!quiz] Que règle le règlement Bruxelles I bis ?
+> La compétence des juridictions et la reconnaissance des jugements en matière civile et commerciale dans l'Union européenne.
+
 ## Sources principales
 
 | Source | Domaine |

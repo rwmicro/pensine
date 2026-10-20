@@ -63,3 +63,10 @@ date: "2026-02-22"
 > [!tip] Méthode
 > Ce mythe fondateur n'est pas un simple récit d'origine : c'est une charte politique au sens de Malinowski (voir [[Fonctions et Interprétations]]) qui légitime des institutions bien réelles — le fratricide fondateur justifie l'autorité absolue et sans partage du pouvoir romain, l'enlèvement des Sabines "explique" et normalise l'intégration forcée de peuples voisins dans la cité.
 
+## Questions de révision
+
+> [!quiz] Quels sont les fondateurs légendaires de Rome ?
+> Romulus et Rémus, jumeaux allaités par une louve ; Romulus fonde la ville en 753 av. J.-C. selon la tradition.
+
+> [!quiz] Quels équivalents romains ont Zeus, Héra et Arès ?
+> Jupiter, Junon et Mars.
