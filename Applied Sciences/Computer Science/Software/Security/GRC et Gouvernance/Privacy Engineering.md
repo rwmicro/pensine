@@ -11,7 +11,7 @@ prerequis: ["[[Compliance]]", "[[Threat Modeling]]"]
 
 La conformité à la protection des données n'est pas un exercice de rédaction juridique : c'est un ensemble de propriétés que le système doit garantir à l'exécution. Une politique de confidentialité peut décrire une minimisation parfaite alors que l'application journalise des identifiants en clair, conserve des exports indéfiniment et transmet des événements à quinze partenaires. Le privacy engineering consiste à traduire les principes du RGPD en choix d'architecture, en contrôles techniques et en preuves vérifiables.
 
-Cette note complète [[Compliance]], qui couvre le cadre réglementaire, et [[Threat Modeling]], qui fournit la méthode d'analyse des flux. Elle se concentre sur les mécanismes techniques et l'audit continu.
+Cette note complète [[Compliance]], qui couvre le cadre réglementaire, et [[Threat Modeling]], qui fournit la méthode d'analyse des flux. Elle se concentre sur les mécanismes techniques et l'audit continu. La mise en œuvre opérationnelle côté stockage, accès et chiffrement est détaillée dans [[Sécurité des données]] ; la prévention des fuites par les canaux utilisateur dans [[DLP et protection des données]].
 
 > [!abstract] Définition — Privacy Engineering
 > Le privacy engineering est l'application systématique de principes de protection des données dès la conception, puis tout au long du cycle de vie : spécifier les finalités, limiter les données collectées, choisir des techniques de protection proportionnées, implémenter les droits des personnes et démontrer la conformité par des preuves techniques.

@@ -28,6 +28,8 @@ Les Large Language Models (LLMs) introduisent de nouvelles surfaces d'attaque. L
 | LLM09 | Overreliance | Dépendance excessive aux outputs LLM |
 | LLM10 | Model Theft | Extraction du modèle ou de ses paramètres |
 
+La déclinaison complète — RAG, agents, MCP, empoisonnement des données, exfiltration par outils, chaîne d'approvisionnement des modèles et défenses — est traitée dans [[LLM et RAG Security]].
+
 ## Injection de Prompt Directe
 
 L'utilisateur injecte des instructions dans l'input pour court-circuiter le system prompt.

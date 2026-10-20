@@ -39,6 +39,8 @@ roadrecon gui  # Interface web d'analyse
 
 ## Entra ID (Azure Active Directory)
 
+La surface complète de l'identité cloud — Conditional Access, PIM, vol de jetons, consentement OAuth, identité hybride et Microsoft 365 — est traitée dans [[Entra ID et Microsoft 365 Security]].
+
 ### Authentification et token
 
 ```bash

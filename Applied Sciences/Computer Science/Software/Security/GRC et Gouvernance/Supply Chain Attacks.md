@@ -174,6 +174,8 @@ cat /proc/1/environ    # Variables d'environnement du processus init
 # (pull_request_target avec checkout du code du PR)
 ```
 
+La sécurisation complète des pipelines — épinglage par SHA, permissions minimales, OIDC, runners éphémères, SLSA, SBOM et signatures — est détaillée dans [[Sécurité CI-CD et chaîne d'approvisionnement]].
+
 ## Exemple SolarWinds (2020)
 
 ```

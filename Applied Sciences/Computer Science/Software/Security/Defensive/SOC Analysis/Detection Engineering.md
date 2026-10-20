@@ -126,6 +126,8 @@ Contre-partie défensive d'ATT&CK : catalogue de techniques de défense mappées
 | Cloud trail (AWS/Azure/GCP) | API calls, IAM changes | Cloud-specific tactics |
 | Firewall / IDS | Connexions bloquées, signatures | Network-based attacks |
 
+Trois familles de signaux complètent ces sources : les leurres et canaris ([[Deception et honeypots]]), l'exposition externe et les actifs inconnus ([[Attack Surface Management]]), et les fuites de données ([[DLP et protection des données]]).
+
 ### Event IDs Windows critiques
 
 | Event ID | Description | Tactique ATT&CK |

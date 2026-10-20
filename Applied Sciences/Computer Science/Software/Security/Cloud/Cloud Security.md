@@ -179,6 +179,8 @@ python3 pacu.py
 > run s3__bucket_finder
 ```
 
+L'audit AWS mérite une note à part : IAM, chemins d'escalade, S3, IMDS et télémétrie sont détaillés dans [[AWS Security]]. Côté incident, l'acquisition des preuves et l'endiguement cloud sont traités dans [[Cloud Forensics et IR]].
+
 ## Container Security (Docker + Kubernetes)
 
 ### Images Docker

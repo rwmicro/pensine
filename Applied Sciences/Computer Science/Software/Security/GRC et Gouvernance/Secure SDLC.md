@@ -339,6 +339,8 @@ jobs:
           exit-code: 1  # Fail si vulnérabilité critique
 ```
 
+Le détail des analyseurs, de leurs limites et de leur intégration est traité dans [[SAST, DAST et SCA]]. La sécurisation du pipeline lui-même — épinglage, permissions, OIDC, provenance et signatures — est traitée dans [[Sécurité CI-CD et chaîne d'approvisionnement]].
+
 ## Standards et références
 
 | Standard | Description |

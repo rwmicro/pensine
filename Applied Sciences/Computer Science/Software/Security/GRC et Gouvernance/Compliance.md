@@ -347,6 +347,8 @@ flowchart TD
     M --> M1["Satisfait SOC 2 Security TSC"]
 ```
 
+Deux cadres européens récents s'ajoutent à cette base : [[NIS2 et DORA]] pour la cybersécurité des entités essentielles et la résilience opérationnelle du secteur financier. Leur mise en œuvre technique repose largement sur la [[Sécurité des données]] et la [[Gestion des clés et HSM]].
+
 ## Outils et ressources
 
 | Outil | Usage |

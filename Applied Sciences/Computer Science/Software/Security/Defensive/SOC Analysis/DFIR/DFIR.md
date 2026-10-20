@@ -134,6 +134,8 @@ Artefacts clés dans le registre :
 | **FTK Imager** | Windows | Acquisition d'images disque |
 | **Wireshark / tshark** | Multi | Analyse de captures réseau |
 
+Le DFIR cloud a ses propres contraintes — pas d'accès physique, preuves API, journaux éphémères. Les sources, l'acquisition et l'endiguement sont détaillés dans [[Cloud Forensics et IR]].
+
 ## Timeline forensique
 
 La super-timeline consolide tous les horodatages en un seul fichier CSV pour analyser la chronologie d'un incident.
