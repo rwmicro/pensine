@@ -59,6 +59,22 @@ Le niveau de protection doit être proportionné. Utiliser Tails, Qubes et Moner
 
 L'attribution combine des indices techniques et non techniques. Les indices techniques sont l'IP, le DNS, le SNI, les en-têtes, les certificats, les domaines, les ASN, les outils, les binaires, les horaires et les artefacts. Les indices non techniques sont le pseudonyme, l'email, le téléphone, le paiement, le style d'écriture, la langue, le fuseau horaire, les relations sociales, les déplacements et les témoins.
 
+La carte suivante résume les couches à examiner et les points où une fuite peut relier deux identités.
+
+```mermaid
+flowchart LR
+    P["Persona\npseudo, email, style"] --> D["Appareil\nOS, navigateur, fichiers"]
+    D --> N["Réseau\nIP, DNS, SNI, Tor/VPN"]
+    N --> S["Service\ncompte, logs, WAF"]
+    S --> Pay["Paiement\ncarte, crypto, facture"]
+    P -.->|"style, relations, réutilisation"| L{"Points de corrélation"}
+    D -.->|"EXIF, cache, presse-papiers"| L
+    N -.->|"IPv6, WebRTC, DNS, horaires"| L
+    S -.->|"compte, empreinte, comportement"| L
+    Pay -.->|"KYC, adresse, wallet"| L
+    L -.-> R["Réidentification"]
+```
+
 ### Couche réseau
 
 - **Adresse IP** : logs serveur, WebRTC, fuite DNS, IPv6, requêtes hors proxy, SMTP, P2P, mises à jour, téléchargements d'applications, notifications push.

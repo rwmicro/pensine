@@ -16,6 +16,27 @@ Cette note décrit le cadre générique d'un test web et les règles d'engagemen
 > [!abstract] Définition — Rules of Engagement
 > Document signé qui définit qui autorise le test, ce qui est dans le périmètre, ce qui est interdit, quand et comment les tests peuvent être menés, quelles données peuvent être manipulées, qui contacter en cas d'incident et ce qui doit être livré. Le ROE n'est pas une annexe contractuelle : c'est la condition d'existence légale et opérationnelle de l'engagement.
 
+Le flux de décision suivant place les deux gates qui ne doivent jamais être sautés : le ROE signé et l'arrêt sur impact ou découverte hors périmètre.
+
+```mermaid
+flowchart TD
+    A["Demande client"] --> B["Cadrage\nactifs, objectifs, juridiction"]
+    B --> C{"ROE signé et périmètre clair ?"}
+    C -->|"Non"| D["Aucun test\ncompléter le cadre"]
+    C -->|"Oui"| E["Préparation\nmachine, comptes, preuves"]
+    E --> F["Reconnaissance\npassive et active"]
+    F --> G["Cartographie\nrôles, flux, API"]
+    G --> H["Tests\nOWASP, WAF, applicatif"]
+    H --> I{"Impact, incident ou hors périmètre ?"}
+    I -->|"Oui"| J["Stop\npréserver, notifier"]
+    I -->|"Non"| K["Exploitation minimale\npreuve"]
+    K --> L["Nettoyage\ncomptes, fichiers, règles"]
+    J --> M["Décision client\nreprise ou arrêt"]
+    M --> L
+    L --> N["Rapport\nfindings, remédiation"]
+    N --> O["Retest"]
+```
+
 ## Pentest, audit, red team, bug bounty
 
 Les activités sont souvent confondues parce qu'elles utilisent des outils similaires. Leur cadre et leur profondeur diffèrent.

@@ -66,6 +66,26 @@ wafw00f https://cible.example/
 
 Nginx concentre trois risques : la configuration, la normalisation des URI et le comportement du proxy. Une erreur de `location` ou d'`alias` peut exposer des fichiers ; une confiance excessive dans `X-Forwarded-*` peut fausser l'audit ; une mauvaise normalisation peut permettre de contourner un contrôle applicatif.
 
+Le chemin de requête suivant montre les frontières de confiance à tester séparément.
+
+```mermaid
+flowchart LR
+    subgraph Internet["Zone non fiable"]
+        C["Client\nnavigateur"]
+    end
+    subgraph Edge["Bordure"]
+        CDN["CDN / WAF\nTLS, règles, cache"]
+    end
+    subgraph Serveur["Zone serveur"]
+        N["Nginx\nlocation, alias, proxy_pass"]
+        A["Application\nAlpine, API, sessions"]
+        DB[("Données\nDB, fichiers, secrets")]
+    end
+    C --> CDN --> N --> A --> DB
+    CDN -.->|"Host, cache, encodage"| N
+    N -.->|"X-Forwarded-*, URI normalisée"| A
+```
+
 ### Revue de configuration
 
 | Point | À vérifier | Risque |
@@ -343,9 +363,27 @@ Cette annexe ne s'applique que si un WAF Apache/ModSecurity est présent, ou si 
 
 Outils : `curl`, `nikto`, `wafw00f`, `nmap --script http-waf-detect`, `ffuf`, `wfuzz`, Burp Suite ou ZAP, avec débit limité et autorisation. Les payloads doivent être choisis pour tester une règle, pas pour saturer le service.
 
+### Matrice de couverture
+
+Cette matrice est un modèle à remplir pendant le test. Les IDs de règles sont indicatifs : ils varient selon la version du CRS et les personnalisations locales.
+
+| Classe | Test de référence | Règles CRS à vérifier | Résultat observé | Faux positifs | Décision |
+|---|---|---|---|---|---|
+| SQLi | `' OR 1=1--`, `UNION SELECT`, `SLEEP(5)` | `942100`, `942110`, `942120`, `942160` | Bloqué / détecté / ignoré | Recherche, apostrophes, formulaires | À remplir |
+| XSS | `<script>alert(1)</script>`, `"><img src=x onerror=alert(1)>`, SVG | `941100`, `941110`, `941120`, `941160` | Bloqué / détecté / ignoré | Commentaires, éditeurs, HTML légitime | À remplir |
+| LFI/RFI, traversal | `../../etc/passwd`, `php://filter`, URL distante | `930100`, `930110`, `931100`, `931110` | Bloqué / détecté / ignoré | Noms de fichiers, templates | À remplir |
+| RCE, command injection | `; id`, `$(id)`, backticks, `whoami` | `932100`, `932110`, `932160` | Bloqué / détecté / ignoré | Champs de formulaire, noms | À remplir |
+| PHP injection | `<?php ... ?>`, `php://input` | `933100`, `933110`, `933160` | Bloqué / détecté / ignoré | Uploads, code affiché | À remplir |
+| Protocol violation | méthode invalide, `Content-Length` incohérent, double `Content-Type` | `920100`, `920270`, `920300` | Bloqué / détecté / ignoré | Clients mobiles, proxies | À remplir |
+| Scanner, brute force | `nikto`, `ffuf`, user-agents, rafale de 404 | `913100`, `913110`, `913120` | Bloqué / détecté / ignoré | Monitoring, crawlers | À remplir |
+| JSON, XML, multipart | corps profond, entités, boundary, champs massifs | `920xxx`, limites `SecRequestBody*` | Bloqué / détecté / ignoré | Uploads, API | À remplir |
+| HTTP/2, smuggling | `Transfer-Encoding`, `Content-Length`, `TE: trailers` | `920xxx` et architecture proxy | Bloqué / détecté / ignoré | Proxies, load balancers | À remplir |
+
+Une ligne n'est validée que si la requête a été tracée, le code HTTP et l'ID de règle relevés, et les logs vérifiés. « Bloqué » sans ID de règle n'est pas une preuve.
+
 ### Rapport WAF
 
-Pour chaque test, documenter : règle attendue, requête, réponse, code HTTP, ID de règle, faux positif éventuel, recommandation. Une matrice de couverture est plus utile qu'une liste de payloads : elle montre quelles classes d'attaques sont bloquées, détectées ou ignorées, et à quel coût pour les utilisateurs légitimes.
+Pour chaque test, documenter : règle attendue, requête, réponse, code HTTP, ID de règle, faux positif éventuel, recommandation. La matrice ci-dessus sert de synthèse : elle montre quelles classes d'attaques sont bloquées, détectées ou ignorées, et à quel coût pour les utilisateurs légitimes.
 
 ## Questions de révision
 
