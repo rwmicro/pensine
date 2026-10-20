@@ -68,3 +68,14 @@ Weber ne célèbre pas la bureaucratie sans réserve — il en pointe le versant
 > "L'administration bureaucratique signifie : exercice de la domination en vertu du savoir." (Weber)
 
 > "Une fois pleinement instaurée, la bureaucratie compte parmi les structures sociales les plus difficiles à détruire." (Weber)
+
+## Questions de révision
+
+> [!quiz] Que signifie « type idéal » quand Weber décrit la bureaucratie ?
+> Un modèle conceptuel épuré qui sert d'outil d'analyse, pas un modèle à atteindre : « idéal » renvoie à l'idée, pas à un jugement moral.
+
+> [!quiz] Citez trois caractéristiques du type idéal bureaucratique.
+> Par exemple : hiérarchie des fonctions, règles écrites et impersonnelles, compétences délimitées, recrutement sur critères techniques, séparation de la fonction et de la personne, archivage écrit, salaire fixe.
+
+> [!quiz] À quel type de domination la bureaucratie correspond-elle chez Weber ?
+> À la domination légale-rationnelle, dont elle est la forme institutionnelle la plus achevée.

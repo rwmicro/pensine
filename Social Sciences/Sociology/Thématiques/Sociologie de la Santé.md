@@ -149,3 +149,14 @@ Les représentations profanes de la maladie — comment les malades eux-mêmes e
 - **Santé mentale et société** : la hausse documentée des diagnostics de troubles anxieux et dépressifs, notamment chez les jeunes, fait débat entre explications purement épidémiologiques, effet d'une meilleure détection, et hypothèses sociologiques sur l'évolution des conditions de vie contemporaines (précarité, pression scolaire et professionnelle, usage des réseaux sociaux)
 - **Pandémies et inégalités** : la pandémie de Covid-19 a rendu particulièrement visibles les inégalités sociales de santé préexistantes (surmortalité plus marquée dans les catégories populaires, exposition différenciée au télétravail protecteur)
 - **Vieillissement et dépendance** : l'allongement de l'espérance de vie pose des questions sociologiques nouvelles sur l'organisation du "grand âge" et de la dépendance, dans un contexte de tension sur le financement des systèmes de protection sociale
+
+## Questions de révision
+
+> [!quiz] Qu'est-ce que la médicalisation de la société ?
+> Le processus par lequel des comportements ou des états relevant de la morale ou de la variation ordinaire deviennent définis et pris en charge comme des problèmes médicaux (Zola, Conrad).
+
+> [!quiz] Que décrit le « rôle de malade » chez Talcott Parsons ?
+> Un rôle social qui dispense le malade de ses obligations ordinaires, à condition qu'il veuille guérir et recoure à un médecin compétent.
+
+> [!quiz] Que désignent les inégalités sociales de santé ?
+> Les écarts d'espérance de vie et d'état de santé entre groupes sociaux ; en France, les hommes cadres vivent environ six ans de plus que les ouvriers.

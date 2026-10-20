@@ -68,3 +68,14 @@ Goffman pratique une microsociologie empirique fondée sur l'observation minutie
 > "Toute interaction sociale peut être considérée comme une représentation théâtrale, dans laquelle chacun joue un rôle devant un public."
 
 > "Un stigmate est [...] un langage de relations, non d'attributs."
+
+## Questions de révision
+
+> [!quiz] Quelle métaphore Goffman développe-t-il dans *La Mise en scène de la vie quotidienne* (1959) ?
+> La métaphore théâtrale : chacun joue un rôle devant un public et gère l'impression qu'il produit.
+
+> [!quiz] Quelle est la différence entre scène et coulisses chez Goffman ?
+> Sur scène, l'individu se conforme aux attentes du rôle devant un public ; en coulisses, à l'abri de ce public, il se relâche et prépare sa représentation.
+
+> [!quiz] Les coulisses révèlent-elles le « vrai moi » selon Goffman ?
+> Non : ce sont une autre scène avec un autre public ; le moi n'existe que comme produit des interactions.

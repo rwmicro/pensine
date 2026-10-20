@@ -117,3 +117,14 @@ Bourdieu formalise une méthode en trois temps, héritée de Bachelard (épisté
 > "La violence symbolique est cette violence qui arrache les soumissions [...] par des voies purement symboliques de la communication et de la connaissance."
 
 > "Le champ littéraire (ou artistique, etc.) est un champ de forces agissant sur tous ceux qui y entrent [...] et un champ de luttes de concurrence."
+
+## Questions de révision
+
+> [!quiz] Quels sont les deux écueils que Bourdieu cherche à dépasser ?
+> L'objectivisme structuraliste, où les structures déterminent mécaniquement les conduites, et le subjectivisme, où les individus construiraient librement leur monde social.
+
+> [!quiz] Que désigne l'hexis corporelle ?
+> L'inscription de l'habitus dans le corps : postures, gestes, manières de parler et de se tenir.
+
+> [!quiz] Pourquoi Bourdieu compare-t-il l'habitus à une grammaire ?
+> Parce qu'il engendre des pratiques nouvelles et adaptées à chaque situation, comme une grammaire permet de produire des phrases jamais entendues, sans déterminisme mécanique.

@@ -102,3 +102,14 @@ Ce concept, né dans le contexte juridique et militant afro-féministe américai
 - **Violences de genre** : la sociologie documente l'ampleur des violences conjugales, sexuelles et sexistes et leurs déterminants sociaux, dans un contexte de libération croissante de la parole publique (mouvement #MeToo à partir de 2017)
 - **Théories queer et débats sur la binarité de genre** : les études de genre contemporaines interrogent de plus en plus la binarité homme/femme elle-même comme catégorie sociale contraignante, débat qui traverse aussi bien le monde académique que l'espace public
 - **Masculinités en crise ?** : certains courants sociologiques et médiatiques diagnostiquent une "crise de la masculinité" contemporaine face à la remise en cause des rôles traditionnels — diagnostic discuté, certains y voyant plutôt une adaptation nécessaire à l'égalisation progressive des rapports de genre qu'une crise au sens propre
+
+## Questions de révision
+
+> [!quiz] Quelle distinction la sociologie fait-elle entre sexe et genre ?
+> Le sexe renvoie aux différences biologiques ; le genre désigne les rôles, normes et hiérarchies sociales construites à partir de ces différences.
+
+> [!quiz] Que signifie la performativité du genre chez Judith Butler ?
+> Que le genre n'est pas une essence mais se produit par la répétition d'actes, de gestes et de normes.
+
+> [!quiz] Qu'est-ce que l'intersectionnalité selon Kimberlé Crenshaw ?
+> L'analyse de la façon dont plusieurs rapports de domination (genre, race, classe) se combinent et produisent des discriminations spécifiques.

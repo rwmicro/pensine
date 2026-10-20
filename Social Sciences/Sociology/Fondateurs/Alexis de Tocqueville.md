@@ -102,6 +102,17 @@ timeline
         1859 : Mort à Cannes
 ```
 
+## Questions de révision
+
+> [!quiz] Comment Tocqueville conçoit-il la démocratie ?
+> Comme un état social, une manière nouvelle d'organiser les rapports entre les hommes, et pas seulement comme un régime politique.
+
+> [!quiz] Quelle était la mission officielle du voyage de Tocqueville aux États-Unis en 1831 ?
+> Étudier le système pénitentiaire américain, avec Gustave de Beaumont.
+
+> [!quiz] Quand paraissent les deux volumes de *De la démocratie en Amérique* ?
+> En 1835 et en 1840.
+
 ## Ressources
 
 - Alexis de Tocqueville, *De la démocratie en Amérique*, 1835-1840.

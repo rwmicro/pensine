@@ -94,3 +94,14 @@ La réponse de l'éthique moderne est non : les différences biologiques justifi
 
 > [!important] Idée clé
 > C'est exactement le raisonnement que critique Bourdieu sous le nom de [[Violence Symbolique|violence symbolique]] : une hiérarchie devient la plus difficile à contester quand les dominés eux-mêmes en intériorisent les catégories de perception au point de la percevoir comme naturelle. Les deux concepts décrivent le même mécanisme de naturalisation, à deux échelles différentes — celle des grandes hiérarchies historiques ici, celle du quotidien (école, langage, goût) chez Bourdieu.
+
+## Questions de révision
+
+> [!quiz] Qu'est-ce qu'une hiérarchie imaginée ?
+> Un ordre social inégal fondé sur des distinctions construites collectivement mais présentées comme naturelles ou divines.
+
+> [!quiz] Décrivez le cercle de la naturalisation.
+> On déclare un groupe inférieur, on le prive d'éducation et de droits, l'inégalité produit des résultats moindres, et ces résultats sont lus comme la preuve de son infériorité naturelle.
+
+> [!quiz] D'où vient le racisme biologique moderne selon la note ?
+> De la traite et de la colonisation : il a servi à justifier l'esclavage d'êtres humains en les plaçant hors du champ de l'égalité.

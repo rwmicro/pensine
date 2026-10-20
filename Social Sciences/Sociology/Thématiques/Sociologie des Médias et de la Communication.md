@@ -65,3 +65,14 @@ Pierre Bourdieu (*Sur la télévision*, 1996) applique son cadre théorique — 
 - **Intelligence artificielle générative et information** : la production automatisée de contenus textuels et visuels (deepfakes, textes générés) pose des défis inédits à la distinction entre information vérifiée et contenu fabriqué
 - **Plateformisation** : la concentration du trafic informationnel mondial sur un petit nombre de plateformes privées (transformant leur modération de contenu en un pouvoir quasi-éditorial à l'échelle globale) déplace des questions autrefois publiques (liberté d'expression, pluralisme) vers des acteurs privés peu régulés démocratiquement
 - **Fragmentation vs concentration** : la multiplication apparente des sources d'information coexiste avec une forte concentration de la propriété des groupes de médias traditionnels — tension qui structure les débats contemporains sur le pluralisme de l'information
+
+## Questions de révision
+
+> [!quiz] Que critiquent Adorno et Horkheimer sous le nom d'« industrie culturelle » ?
+> La production standardisée de biens culturels comme des marchandises, qui uniformise les goûts et désamorce la critique.
+
+> [!quiz] Qu'est-ce que l'espace public selon Habermas ?
+> L'espace où des personnes privées discutent publiquement et rationnellement des affaires communes, né dans les cafés, salons et journaux du XVIIIe siècle.
+
+> [!quiz] Que montre la théorie du « two-step flow » de Lazarsfeld et Katz ?
+> Que l'influence des médias passe surtout par des leaders d'opinion, qui relaient et filtrent les messages dans leur entourage.

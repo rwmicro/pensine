@@ -113,3 +113,14 @@ Exemple : Bourdieu dans *La Distinction* combine des données statistiques sur l
 | **Anonymat** | Les personnes et les lieux doivent être anonymisés — mais dans les petites communautés, l'anonymat est difficile à garantir |
 | **Restitution** | Que doit le chercheur à ceux qu'il a étudiés ? La publication peut avoir des effets sur leur vie |
 | **Objectivation** | Le sociologue transforme des êtres humains en "objets" d'étude — tension constitutive de la discipline |
+
+## Questions de révision
+
+> [!quiz] Quelle différence entre échantillonnage aléatoire et par quotas ?
+> L'aléatoire tire les enquêtés au sort ; les quotas reproduisent la structure de la population (âge, sexe, profession…) dans l'échantillon.
+
+> [!quiz] À quoi sert une analyse multivariée en sociologie ?
+> À isoler l'effet d'une variable en contrôlant les autres, « toutes choses égales par ailleurs ».
+
+> [!quiz] Quelle limite majeure a l'enquête par questionnaire ?
+> Les questions imposent un cadre de pensée au répondant et ne captent pas le sens que les acteurs donnent à leurs pratiques.

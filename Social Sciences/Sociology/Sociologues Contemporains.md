@@ -120,3 +120,14 @@ Sociologue français, héritier critique de Bourdieu. Il pousse la sociologie à
 
 > [!tip] Méthode
 > Lahire n'est pas un disciple qui prolonge Bourdieu — il le critique de l'intérieur. Là où l'habitus bourdieusien tend à produire des comportements cohérents et stables (le "sens du jeu" d'une classe sociale), Lahire montre par l'enquête empirique que les dispositions d'un même individu varient selon les contextes, parfois jusqu'à la contradiction. Utile pour ne pas traiter "l'habitus" comme un concept figé dans toute réponse de dissertation.
+
+## Questions de révision
+
+> [!quiz] Que désigne la « modernité liquide » chez Zygmunt Bauman ?
+> Une société où les liens, les identités et les institutions deviennent fluides et précaires, au lieu des cadres stables de la modernité « solide ».
+
+> [!quiz] Quelle est la thèse d'Ulrich Beck dans *La Société du risque* (1986) ?
+> Les sociétés modernes produisent elles-mêmes des risques (nucléaires, écologiques, technologiques) qui deviennent un principe central de leur organisation.
+
+> [!quiz] Que reproche Bernard Lahire à la notion d'habitus unifié ?
+> Que les individus sont pluriels : ils portent des dispositions parfois contradictoires, acquises dans des contextes de socialisation différents, et activées selon les situations.

@@ -45,10 +45,11 @@ date: "2025-12-31"
 
 ### Japon
 
-**Chiffres officiels (2019, Cabinet Office):**
-- **1,55 million** de hikikomori au Japon
-  - 15-39 ans: 613 000
-  - 40-64 ans: 613 000
+**Chiffres officiels (Cabinet Office, 2019):**
+- **1,15 million** de hikikomori au Japon
+  - 15-39 ans: 541 000 (enquête de 2015)
+  - 40-64 ans: 613 000 (enquête de 2018, publiée en 2019)
+- L'enquête suivante (2023) en estime environ **1,46 million** de 15 à 64 ans
 - **Tendance:** Augmentation et vieillissement du phénomène
 
 **Profil:**
@@ -327,6 +328,17 @@ ionnels
 - Plus seulement jeunes
 - "Hikikomori âgés" (40-60 ans)
 - Problème: que deviennent-ils après mort parents?
+
+## Questions de révision
+
+> [!quiz] Quels critères définissent le hikikomori selon le ministère japonais de la Santé ?
+> Rester chez soi en évitant les situations sociales pendant au moins six mois, sans activité scolaire ni professionnelle, sans trouble psychiatrique majeur qui l'explique, et de façon volontaire.
+
+> [!quiz] Pourquoi l'exclusion des troubles psychiatriques majeurs est-elle importante dans cette définition ?
+> Elle fait du hikikomori un phénomène social et non individuel, comme Durkheim cherchait les causes sociales du suicide.
+
+> [!quiz] Combien de hikikomori le Cabinet Office japonais recensait-il en 2019 ?
+> Environ 1,15 million : 541 000 de 15 à 39 ans et 613 000 de 40 à 64 ans. Plus de la moitié ont donc plus de 40 ans.
 
 ## Ressources
 

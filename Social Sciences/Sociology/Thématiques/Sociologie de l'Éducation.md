@@ -413,3 +413,14 @@ Branche de la sociologie étudiant les systèmes éducatifs, les pratiques scola
 - Souvent privées, coûteuses
 - Public socialement sélectionné
 - Généralisation difficile
+
+## Questions de révision
+
+> [!quiz] Quelle thèse Bourdieu et Passeron défendent-ils dans *La Reproduction* (1970) ?
+> L'école impose comme légitime la culture des classes dominantes et convertit des inégalités sociales en inégalités de mérite, ce qui contribue à reproduire la structure sociale.
+
+> [!quiz] Comment Raymond Boudon explique-t-il les inégalités scolaires ?
+> Par des choix rationnels d'orientation : à résultats égaux, les familles populaires visent moins haut, parce que coûts, risques et bénéfices d'une longue scolarité diffèrent selon la position sociale.
+
+> [!quiz] Quelle différence entre massification et démocratisation scolaire ?
+> La massification est l'augmentation du nombre d'élèves scolarisés plus longtemps ; la démocratisation suppose en plus que les chances de réussite deviennent moins inégales selon l'origine sociale.

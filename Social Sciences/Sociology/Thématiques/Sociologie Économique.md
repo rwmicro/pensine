@@ -86,3 +86,14 @@ La sociologie économique recoupe largement la sociologie du travail sur les que
 - **Économie de plateforme** : l'essor des plateformes numériques (livraison, VTC, économie collaborative) relance directement les questions d'encastrement social du travail et de la valeur du lien faible dans la mise en relation offre/demande, désormais largement automatisée par algorithme
 - **Financiarisation** : la sociologie économique étudie comment la logique financière (rentabilité actionnariale à court terme) s'est progressivement diffusée bien au-delà du seul secteur bancaire, jusque dans la gestion des entreprises non-financières et des services publics
 - **Économie sociale et solidaire, décroissance** : en réaction aux critiques du capitalisme contemporain, la sociologie économique étudie aussi les tentatives de construction d'alternatives économiques (coopératives, monnaies locales, mouvements de décroissance) et leurs conditions concrètes de viabilité
+
+## Questions de révision
+
+> [!quiz] Que signifie l'« encastrement » chez Polanyi et Granovetter ?
+> Que l'économie n'est pas une sphère autonome : les échanges marchands sont pris dans des relations sociales, des institutions et des réseaux.
+
+> [!quiz] Que montre Granovetter avec « la force des liens faibles » ?
+> Que les relations lointaines apportent plus d'informations nouvelles, par exemple pour trouver un emploi, que les liens forts d'un cercle proche.
+
+> [!quiz] Que désignent les « cités » de Boltanski et Thévenot ?
+> Des grammaires de justification (inspirée, domestique, de l'opinion, civique, marchande, industrielle) auxquelles les personnes se réfèrent pour dire ce qui est juste.

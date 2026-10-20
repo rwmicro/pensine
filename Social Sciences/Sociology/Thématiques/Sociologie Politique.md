@@ -69,3 +69,14 @@ Chantal Mouffe et Ernesto Laclau développent une théorie du **populisme** qui 
 - **Défiance institutionnelle** : la chute mesurée de la confiance envers les partis, les médias et les experts dans de nombreuses démocraties occidentales nourrit des analyses sur la crise de la représentation politique traditionnelle
 - **Mouvements sociaux numériques** : les mobilisations récentes (Gilets jaunes, printemps arabes, mouvements climatiques) interrogent la pertinence des cadres théoriques classiques de l'action collective, conçus avant l'ère des réseaux sociaux et de l'organisation décentralisée sans leadership formel unique
 - **Radicalisation** : la sociologie politique contemporaine étudie les trajectoires de radicalisation politique et religieuse en croisant facteurs individuels (biographie, réseaux relationnels) et facteurs structurels (contexte géopolitique, discrimination perçue, offre idéologique disponible)
+
+## Questions de révision
+
+> [!quiz] Quels grands modèles explicatifs du vote distingue la sociologie électorale ?
+> Le modèle écologique (le territoire), le modèle sociologique de Columbia (l'appartenance sociale), le modèle psychosociologique de Michigan (l'identification partisane) et le modèle de l'électeur rationnel (le vote sur enjeux).
+
+> [!quiz] Que décrit le paradoxe de l'action collective de Mancur Olson ?
+> Un individu rationnel a intérêt à laisser les autres se mobiliser et à profiter du résultat sans en payer le coût (le « passager clandestin »), si bien qu'un groupe peut ne pas agir malgré un intérêt commun.
+
+> [!quiz] Comment Benedict Anderson définit-il la nation ?
+> Comme une « communauté imaginée » : ses membres ne se connaîtront jamais tous, mais partagent l'image de leur communion.

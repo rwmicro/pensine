@@ -87,3 +87,14 @@ Image la plus pessimiste de Weber pour décrire l'aboutissement du processus de 
 > "Le destin de notre époque, avec la rationalisation et l'intellectualisation qui la caractérisent [...], c'est que les valeurs suprêmes et les plus sublimes se sont retirées de la vie publique."
 
 > "Nul ne sait encore qui, à l'avenir, vivra dans cette cage [de fer]."
+
+## Questions de révision
+
+> [!quiz] Que désigne le « désenchantement du monde » chez Weber ?
+> Le processus par lequel institutions, économie, droit et science fonctionnent de moins en moins par des justifications magiques ou religieuses, et de plus en plus selon des procédures rationnelles.
+
+> [!quiz] La rationalisation au sens de Weber est-elle synonyme de progrès ?
+> Non, c'est un terme descriptif : une procédure peut être calculable, prévisible et impersonnelle et produire des résultats absurdes, d'où l'image de la « cage de fer ».
+
+> [!quiz] Quelle différence entre rationalité en finalité et rationalité en valeur ?
+> La première calcule les moyens les plus efficaces pour un but donné ; la seconde agit en cohérence avec des principes, sans calculer les conséquences.

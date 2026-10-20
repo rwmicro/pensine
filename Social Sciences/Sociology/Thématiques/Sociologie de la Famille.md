@@ -108,3 +108,14 @@ La famille est le principal **agent de socialisation primaire** (voir [[Sociolog
 - **Homoparentalité et pluriparentalité** : l'ouverture du mariage et de l'adoption aux couples de même sexe dans de nombreux pays relance le débat sur ce qui définit sociologiquement une "famille" — la filiation biologique, l'intention parentale, ou le lien vécu au quotidien ?
 - **Procréation médicalement assistée et gestation pour autrui** : ces techniques dissocient de plus en plus filiation biologique, gestationnelle et sociale, posant des questions inédites au droit et à la sociologie de la parenté
 - **Vieillissement et solidarités intergénérationnelles** : l'allongement de l'espérance de vie transforme la structure familiale (familles à quatre générations coexistantes) et redéfinit les solidarités de care entre générations, dans un contexte de recul relatif des systèmes de protection sociale publics dans certains pays
+
+## Questions de révision
+
+> [!quiz] Quelle évolution des formes familiales accompagne l'industrialisation selon la sociologie classique ?
+> Le passage de la famille élargie à la famille nucléaire, plus centrée sur le couple et les enfants.
+
+> [!quiz] Qu'entend François de Singly par individualisation de la famille ?
+> La famille devient un lieu au service de l'épanouissement de chacun de ses membres, plutôt qu'une institution qui impose ses règles.
+
+> [!quiz] Que mesure-t-on quand on parle de division sexuelle du travail domestique ?
+> La répartition inégale des tâches ménagères et parentales entre femmes et hommes, mesurée notamment par les enquêtes Emploi du temps.

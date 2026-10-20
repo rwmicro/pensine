@@ -68,3 +68,14 @@ Jane Jacobs (*Déclin et survie des grandes villes américaines*, 1961), urbanis
 - **Métropolisation et fracture territoriale** : la concentration croissante de la richesse et de l'emploi qualifié dans les grandes métropoles, au détriment des villes moyennes et des territoires ruraux, nourrit des analyses sur une "France périphérique" (Christophe Guilluy) ou des dynamiques comparables dans d'autres pays occidentaux — thèse discutée, certains lui reprochant de sous-estimer les inégalités internes aux métropoles elles-mêmes
 - **Ville durable et anthropocène** : l'urbanisme contemporain doit désormais intégrer les contraintes environnementales (îlots de chaleur, artificialisation des sols, mobilité décarbonée), reconfigurant les priorités de l'aménagement urbain
 - **Villes intelligentes (smart cities)** : le déploiement de capteurs et de données massives dans la gestion urbaine soulève des questions de surveillance, de vie privée et de gouvernance technocratique de la ville
+
+## Questions de révision
+
+> [!quiz] Quel effet de la grande ville Simmel décrit-il dans *Les Grandes Villes et la vie de l'esprit* (1903) ?
+> L'attitude blasée et la réserve : face à l'excès de stimulations, le citadin se protège par l'intellectualisation et la distance envers autrui.
+
+> [!quiz] Que revendique Henri Lefebvre avec le « droit à la ville » (1968) ?
+> Le droit des habitants à participer à la production et à l'usage de la ville, contre une ville façonnée par la marchandise et l'urbanisme technocratique.
+
+> [!quiz] Que reproche Jane Jacobs à l'urbanisme fonctionnaliste ?
+> De séparer les fonctions et de détruire la mixité des rues ; la vie et la sécurité d'un quartier tiennent à la densité, à la diversité des usages et aux « yeux sur la rue ».

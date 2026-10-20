@@ -214,3 +214,14 @@ L'habitus, c'est l'ensemble des habitudes, réflexes et manières d'être qu'on 
 - Individualisation, diversification des parcours
 - Habitus moins unifié?
 - Mais: permanence des inégalités
+
+## Questions de révision
+
+> [!quiz] Qu'est-ce que l'habitus chez Bourdieu ?
+> Un système de dispositions durables et transposables, acquises au cours de la socialisation, qui oriente perceptions, goûts et pratiques sans calcul conscient.
+
+> [!quiz] Que veut dire « structures structurées prédisposées à fonctionner comme structures structurantes » ?
+> Que l'habitus est produit par les structures sociales (classe, famille, école) et qu'il produit à son tour des pratiques et des jugements.
+
+> [!quiz] En quoi l'habitus se distingue-t-il d'une simple habitude ?
+> Une habitude est une routine consciente qu'on peut décrire et changer ; l'habitus est structurel, largement inconscient, et continue à produire goûts et malaises même quand on veut s'en défaire.

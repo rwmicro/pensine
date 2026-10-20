@@ -67,3 +67,14 @@ Les régimes juridiques et politiques de gestion des migrations varient considé
 - **Crises de l'asile et route migratoires** : les déplacements liés aux conflits armés et, de plus en plus, au changement climatique posent des défis nouveaux aux catégories juridiques existantes (distinction réfugié/migrant économique de plus en plus contestée empiriquement)
 - **Frontières et politiques de contrôle** : la sociologie des frontières étudie la matérialité et les effets sociaux concrets des dispositifs de contrôle migratoire (murs, surveillance biométrique, externalisation des contrôles vers des pays tiers)
 - **Diversité et cohésion sociale** : débat récurrent, empiriquement disputé, sur la relation entre diversité ethnique d'un territoire et niveau de confiance sociale ou de solidarité collective — les résultats des études empiriques restent hétérogènes et dépendants du contexte institutionnel étudié
+
+## Questions de révision
+
+> [!quiz] Que désigne la « double absence » chez Abdelmalek Sayad ?
+> La situation de l'émigré-immigré, absent du pays qu'il a quitté et jamais pleinement présent dans celui où il vit.
+
+> [!quiz] Quels sont les trois modèles d'intégration souvent opposés ?
+> L'assimilation, l'intégration et le multiculturalisme.
+
+> [!quiz] Qu'est-ce que le transnationalisme en sociologie des migrations ?
+> Le maintien par les migrants de liens durables (familiaux, économiques, politiques) entre pays d'origine et pays d'installation.

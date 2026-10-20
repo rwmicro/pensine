@@ -305,3 +305,14 @@ Fondateur de la sociologie scientifique française et figure majeure de la disci
 > "Une société est composée d'individus, mais la sociologie n'est pas de la psychologie."
 
 > "Si l'on peut dire en un sens que les représentations collectives sont extérieures aux consciences individuelles, c'est qu'elles ne dérivent pas des individus pris isolément, mais de leur concours."
+
+## Questions de révision
+
+> [!quiz] Où et quand Durkheim devient-il le premier professeur de sociologie en France ?
+> À Bordeaux, en 1887.
+
+> [!quiz] Comment Durkheim définit-il le fait social dans *Les Règles de la méthode sociologique* (1895) ?
+> Comme des manières d'agir, de penser et de sentir, extérieures à l'individu et douées d'un pouvoir de coercition qui les impose à lui.
+
+> [!quiz] Quel principe d'explication Durkheim impose-t-il à la sociologie ?
+> Un fait social s'explique par un autre fait social, et non par la psychologie individuelle.

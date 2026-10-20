@@ -374,3 +374,14 @@ INFRASTRUCTURE (forces productives + rapports de production)
 > "De chacun selon ses capacités, à chacun selon ses besoins." (Programme de Gotha)
 
 > "Prolétaires de tous les pays, unissez-vous!"
+
+## Questions de révision
+
+> [!quiz] Quelles sont les quatre formes d'aliénation décrites dans les *Manuscrits de 1844* ?
+> L'aliénation du produit, de l'activité de travail, de l'être générique (la nature humaine) et des autres hommes.
+
+> [!quiz] Que signifie « ce n'est pas la conscience qui détermine la vie, mais la vie qui détermine la conscience » ?
+> C'est la thèse du matérialisme historique : l'infrastructure économique détermine la superstructure idéologique.
+
+> [!quiz] Quelle est la première phrase du chapitre I du *Manifeste* (1848) sur l'histoire ?
+> « L'histoire de toute société jusqu'à nos jours n'a été que l'histoire de luttes de classes. »
