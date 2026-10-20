@@ -128,6 +128,17 @@ Le shintô a façonné l'esthétique japonaise : l'architecture en bois brut, le
 
 Enfin, le shintô est un laboratoire pour penser la relation entre religion et nation, abordée plus largement dans [[Histoire des Religions]] : il montre comment un État moderne peut réinventer une tradition, la déclarer non religieuse pour l'imposer, puis la rendre au privé sans qu'elle disparaisse. Pour une vue d'ensemble des autres traditions d'Asie, voir [[Panorama des Religions Mondiales]] et [[Autres Mythologies]].
 
+## Questions de révision
+
+> [!quiz] Que sont les *kami* ?
+> Les divinités ou puissances sacrées du shintô, présentes dans les forces de la nature, les lieux, les ancêtres.
+
+> [!quiz] Quels sont les deux textes anciens qui rapportent les mythes shintô ?
+> Le *Kojiki* (712) et le *Nihon shoki* (720).
+
+> [!quiz] Quelle opposition est centrale dans les rites shintô ?
+> Celle entre la pureté et la souillure, d'où les rites de purification.
+
 ## Ressources
 
 - John Breen et Mark Teeuwen, *A New History of Shinto*, 2010.

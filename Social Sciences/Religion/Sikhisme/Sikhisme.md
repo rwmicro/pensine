@@ -154,3 +154,14 @@ Les sikhs forment l'une des diasporas les plus dynamiques au monde :
 - **Australie** : ~200 000
 
 La diaspora sikh est souvent confondue avec les musulmans en Occident (à cause du turban), ce qui les expose à des discriminations par erreur, notamment après le 11 septembre 2001.
+
+## Questions de révision
+
+> [!quiz] Qui fonde le sikhisme ?
+> Guru Nanak (1469-1539), au Pendjab.
+
+> [!quiz] Qu'est-ce que le Guru Granth Sahib ?
+> Le livre saint des sikhs, considéré depuis la mort du dixième guru comme le guru éternel.
+
+> [!quiz] Qu'est-ce que le langar ?
+> La cuisine communautaire du gurdwara, où tous mangent ensemble gratuitement, sans distinction de caste ni de religion.

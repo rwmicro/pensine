@@ -170,3 +170,14 @@ Le bouddhisme connait depuis les années 1960 un essor considérable en Occident
 - Le **bouddhisme engagé** : Thich Nhat Hanh, mouvement pour la paix, écologie, justice sociale
 
 Le **mindfulness** (pleine conscience) est devenu un phénomène mondial, utilisé en psychothérapie (MBSR de Jon Kabat-Zinn), en entreprise et en éducation — souvent détaché de son contexte bouddhique, ce qui suscite un débat sur la "McMindfulness".
+
+## Questions de révision
+
+> [!quiz] Quelles sont les Quatre Nobles Vérités ?
+> La vérité de la souffrance (*dukkha*), de son origine (la soif, *tanha*), de sa cessation (le nirvana) et du chemin qui y mène (le Noble Sentier octuple).
+
+> [!quiz] Quelles sont les trois caractéristiques de l'existence ?
+> L'impermanence (*anicca*), la souffrance ou insatisfaction (*dukkha*) et l'absence de soi permanent (*anatta*).
+
+> [!quiz] Quels sont les trois grands véhicules du bouddhisme ?
+> Le Theravada (« voie des Anciens »), le Mahayana (« Grand Véhicule ») et le Vajrayana (« Véhicule de diamant »).

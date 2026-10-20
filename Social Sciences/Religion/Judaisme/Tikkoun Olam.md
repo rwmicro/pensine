@@ -55,3 +55,14 @@ C'est pourquoi beaucoup de Juifs laïcs ou progressistes utilisent ce concept po
 
 > *"Vous n'êtes pas obligé de terminer le travail, mais vous n'êtes pas libre de vous en abstenir."*
 > — Pirkei Avot (Éthique des Pères), Rabbi Tarfon
+
+## Questions de révision
+
+> [!quiz] Que signifie *tikkoun olam* ?
+> « Réparation du monde » en hébreu.
+
+> [!quiz] Que représente le *tikkoun olam* chez Isaac Louria au XVIe siècle ?
+> Une opération mystique : le monde a été brisé à la création (la brisure des vases) et l'humain rassemble les étincelles divines dispersées par ses bonnes actions.
+
+> [!quiz] Le sens de « justice sociale » est-il le sens originel de *tikkoun olam* ?
+> Non, c'est une réinterprétation du XXe siècle ; dans la Mishna, l'expression désigne des ajustements légaux pour la stabilité sociale.

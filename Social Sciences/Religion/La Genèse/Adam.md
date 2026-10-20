@@ -99,3 +99,14 @@ Le mythe d'Adam a profondément influencé:
 - La littérature (Milton's "Paradise Lost", etc.)
 - La philosophie (débats sur la nature humaine)
 - Les concepts de genre et de relations homme-femme
+
+## Questions de révision
+
+> [!quiz] Que mange Adam qui provoque la Chute ?
+> Le fruit de l'arbre de la connaissance du bien et du mal, que Dieu avait interdit.
+
+> [!quiz] Qu'est-ce que le péché originel dans la théologie chrétienne ?
+> L'idée, développée par Augustin, que la faute d'Adam se transmet à toute l'humanité.
+
+> [!quiz] Que signifie le nom « Adam » en hébreu ?
+> Il est lié à *adamah*, la terre : l'homme tiré du sol.

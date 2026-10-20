@@ -121,3 +121,14 @@ Hérité du judaïsme. 39 livres (canon protestant) à 46 (canon catholique, ave
 ## Le christianisme aujourd'hui
 
 Le centre de gravité du christianisme se déplace : l'Europe se sécularise tandis que l'Afrique subsaharienne, l'Amérique latine et l'Asie connaissent une croissance rapide, notamment du **pentecotisme** (mouvement centré sur l'expérience directe du Saint-Esprit, la guérison et les dons charismatiques). Le pentecotisme est passé de zéro à ~600 millions de fidèles en un siècle.
+
+## Questions de révision
+
+> [!quiz] Quel rôle joue Paul de Tarse dans l'histoire du christianisme ?
+> Par ses voyages et ses lettres, il ouvre le message de Jésus aux non-juifs et lui donne une grande partie de sa théologie.
+
+> [!quiz] Que désigne le dogme de la Trinité ?
+> Un seul Dieu en trois personnes : le Père, le Fils et le Saint-Esprit.
+
+> [!quiz] Quelles sont les trois grandes branches du christianisme ?
+> Le catholicisme, l'orthodoxie et le protestantisme.

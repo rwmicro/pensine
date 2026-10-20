@@ -110,6 +110,17 @@ timeline
         1941 : Scholem publie Les Grands Courants de la mystique juive
 ```
 
+## Questions de révision
+
+> [!quiz] Qu'est-ce que le soufisme ?
+> La voie mystique de l'islam, qui cherche une expérience intérieure de Dieu, souvent au sein de confréries guidées par un maître.
+
+> [!quiz] Qu'est-ce que le Zohar ?
+> Le texte majeur de la kabbale, écrit en araméen et apparu en Espagne à la fin du XIIIe siècle.
+
+> [!quiz] Quels mystiques espagnols du XVIe siècle réforment le Carmel ?
+> Thérèse d'Avila et Jean de la Croix.
+
 ## Ressources
 
 - Gershom Scholem, *Les Grands Courants de la mystique juive*, 1941.

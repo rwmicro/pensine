@@ -146,6 +146,17 @@ Le taoïsme a imprégné en profondeur la civilisation chinoise : la **médecine
 
 En Occident, l'image du taoïsme passe surtout par le *Daode jing*, l'un des textes les plus traduits au monde, et par la contre-culture des années 1960-1970. Cette réception retient le non-agir et l'harmonie avec la nature, et ignore presque entièrement la religion liturgique qui en a été, pendant deux millénaires, la forme vivante. Elle illustre bien ce que [[Sociologie des Religions]] et [[Histoire des Religions]] décrivent comme la recomposition des traditions religieuses lorsqu'elles circulent hors de leur cadre d'origine.
 
+## Questions de révision
+
+> [!quiz] Qui fonde le taoïsme religieux organisé ?
+> Zhang Daoling, au IIe siècle, avec la Voie des Maîtres célestes.
+
+> [!quiz] Quelle différence entre alchimie extérieure et alchimie intérieure ?
+> L'extérieure cherche l'immortalité par des élixirs fabriqués ; l'intérieure, par la transformation des souffles et des énergies du corps (méditation, respiration).
+
+> [!quiz] Pourquoi faut-il manier avec prudence la distinction entre taoïsme philosophique et religieux ?
+> Parce que les deux se mêlent historiquement : les textes de Laozi et Zhuangzi sont aussi des écritures religieuses pour les taoïstes.
+
 ## Ressources
 
 - Kristofer Schipper, *Le Corps taoïste*, 1982.

@@ -136,6 +136,17 @@ L'influence la plus célèbre du jaïnisme passe par **Gandhi**. Né au Gujarat,
 
 Plus largement, le jaïnisme a contribué à diffuser le végétarisme dans une grande partie de l'Inde, et ses exigences éthiques rencontrent aujourd'hui les débats occidentaux sur le véganisme, l'écologie et le droit des animaux. Sa théorie des points de vue multiples intéresse la [[Philosophie de la Religion]] comme modèle de pluralisme, et son organisation en communauté d'ascètes et de laïcs le rapproche structurellement du [[Bouddhisme]] et du [[Sikhisme]], dans le vaste paysage décrit par le [[Panorama des Religions Mondiales]].
 
+## Questions de révision
+
+> [!quiz] Qui est Mahavira dans le jaïnisme ?
+> Le vingt-quatrième et dernier *tirthankara* (« passeur »), contemporain du Bouddha.
+
+> [!quiz] Quelle est la particularité de la conception jaïne du karma ?
+> Le karma y est une matière subtile qui colle à l'âme et l'alourdit ; la libération consiste à s'en défaire.
+
+> [!quiz] Qu'est-ce que l'*anekantavada* ?
+> La doctrine de la pluralité des points de vue : aucune affirmation ne saisit toute la réalité, chacune n'en exprime qu'un aspect.
+
 ## Ressources
 
 - Padmanabh S. Jaini, *The Jaina Path of Purification*, 1979.

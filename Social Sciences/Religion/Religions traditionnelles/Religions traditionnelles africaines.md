@@ -122,6 +122,17 @@ timeline
 
 Du point de vue de la [[Sociologie des Religions]], ces traditions ont servi de terrain à des théories générales : Durkheim s'appuyait sur l'Australie plutôt que sur l'Afrique, mais c'est en Afrique que l'anthropologie britannique a élaboré ses analyses de la sorcellerie, du rituel et de l'ordre politique. Face au [[Panorama des Religions Mondiales]], elles rappellent qu'une religion peut être sans livre, sans clergé centralisé et sans prétention à l'exclusivité tout en portant une pensée théologique et éthique élaborée ; les mythes qui les accompagnent relèvent des questions posées dans [[Qu'est-ce qu'un Mythe]].
 
+## Questions de révision
+
+> [!quiz] Que sont les orisha chez les Yoruba ?
+> Des divinités intermédiaires entre le dieu suprême, Olodumare, et les humains, chacune associée à des forces et des domaines.
+
+> [!quiz] Qu'est-ce qu'Ifá ?
+> Un système divinatoire yoruba, fondé sur un vaste corpus de récits et de vers que le devin (*babalawo*) interprète.
+
+> [!quiz] Comment ces religions ont-elles traversé l'Atlantique ?
+> Avec les esclaves déportés vers les Amériques, où elles donnent naissance au candomblé, à la santería ou au vaudou haïtien.
+
 ## Ressources
 
 - John S. Mbiti, *African Religions and Philosophy*, 1969.

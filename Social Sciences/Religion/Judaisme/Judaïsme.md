@@ -141,3 +141,13 @@ prerequis: ["[[Social Sciences/Religion/Histoire des Religions]]"]
 - Séfarades : Espagne, Afrique Nord, Ladino
 - Mizrahim : Moyen-Orient
 
+## Questions de révision
+
+> [!quiz] Que désigne la Torah au sens strict ?
+> Les cinq livres de Moïse : la Genèse, l'Exode, le Lévitique, les Nombres et le Deutéronome.
+
+> [!quiz] Qu'est-ce que le shabbat ?
+> Le jour de repos hebdomadaire, du vendredi soir au samedi soir.
+
+> [!quiz] Quel est le lieu saint le plus important du judaïsme aujourd'hui ?
+> Le Mur occidental (mur des Lamentations) à Jérusalem, vestige de l'enceinte du Second Temple.

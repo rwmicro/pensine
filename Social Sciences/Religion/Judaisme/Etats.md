@@ -67,3 +67,14 @@ Le gouvernement britannique propose un territoire en Afrique de l'Est (actuel Ke
 
 #### Projet en Argentine
 Le Baron de Hirsch finance dans les années 1890 l'installation de colonies agricoles juives en Argentine (notamment en Entre Ríos). Quelques milliers de familles s'y installent mais le projet de créer un État n'aboutit pas.
+
+## Questions de révision
+
+> [!quiz] Qu'est-ce que le Birobidjan ?
+> Une région autonome juive créée par l'URSS en 1934 en Extrême-Orient russe.
+
+> [!quiz] Qu'était le projet ougandais (1903-1905) ?
+> Une proposition britannique d'offrir un territoire en Afrique de l'Est au mouvement sioniste, finalement rejetée par le Congrès sioniste.
+
+> [!quiz] En quelle année l'État d'Israël est-il proclamé ?
+> En 1948.

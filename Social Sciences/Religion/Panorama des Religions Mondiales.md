@@ -176,3 +176,14 @@ Les religions traditionnelles (africaines, amérindiennes, océaniennes, sibéri
 - **Hindouisme politique** (*Hindutva*) en Inde sous le BJP
 - **Bouddhisme engagé** : Thich Nhat Hanh, Dalaï-Lama — application des principes bouddhistes à la justice sociale et à l'écologie
 - **Spiritualités sans religion** (*spiritual but not religious*) : méditation, yoga, pleine conscience détachés de leur cadre religieux d'origine
+
+## Questions de révision
+
+> [!quiz] Quelles sont les religions dites abrahamiques ?
+> Le judaïsme, le christianisme et l'islam, qui se réclament toutes d'Abraham.
+
+> [!quiz] Quelles sont les grandes religions nées en Inde ?
+> L'hindouisme, le bouddhisme, le jaïnisme et le sikhisme.
+
+> [!quiz] Quelles sont les deux religions qui comptent le plus de fidèles dans le monde ?
+> Le christianisme puis l'islam.
