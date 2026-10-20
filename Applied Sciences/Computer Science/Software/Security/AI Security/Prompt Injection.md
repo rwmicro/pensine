@@ -13,6 +13,9 @@ Les Large Language Models (LLMs) introduisent de nouvelles surfaces d'attaque. L
 > [!important] Idée clé
 > Un LLM ne distingue pas structurellement "instructions" et "données" — tout est du texte dans le même contexte. Contrairement à une injection SQL qui exploite un bug de parsing, l'injection de prompt exploite une limite fondamentale de l'architecture actuelle des LLMs : c'est pour ça qu'il n'existe pas de correctif définitif, seulement des atténuations en profondeur.
 
+> [!abstract] Définition — Injection de prompt
+> Manipulation d'un LLM par du texte placé dans son contexte, qui lui fait traiter des données comme des instructions. Elle exploite l'absence de séparation structurelle entre system prompt, entrée utilisateur et contenu externe. On distingue l'injection directe, fournie par l'utilisateur, de l'injection indirecte, véhiculée par un document ou une page web que l'agent lit.
+
 ## OWASP LLM Top 10
 
 | # | Vulnérabilité | Description |
@@ -247,24 +250,27 @@ def validate_llm_output(output, context):
 Recommandations architecturales :
 
 Défense en profondeur :
-  ✓ Considérer toutes les données externes comme non fiables
-  ✓ Ne jamais traiter l'output d'un LLM comme du code exécutable sans validation
-  ✓ Approuver les actions critiques par un humain (human-in-the-loop)
-  ✓ Limiter les permissions des agents LLM (moindre privilège)
+  - Considérer toutes les données externes comme non fiables
+  - Ne jamais traiter l'output d'un LLM comme du code exécutable sans validation
+  - Approuver les actions critiques par un humain (human-in-the-loop)
+  - Limiter les permissions des agents LLM (moindre privilège)
 
 Input :
-  ✓ Délimiter clairement le contenu utilisateur des instructions système
-  ✓ Filtrer les patterns d'injection connus (heuristiques + ML)
-  ✓ Sandboxer les contenus externes avant de les fournir au LLM
+  - Délimiter clairement le contenu utilisateur des instructions système
+  - Filtrer les patterns d'injection connus (heuristiques + ML)
+  - Sandboxer les contenus externes avant de les fournir au LLM
 
 Output :
-  ✓ Valider et sanitiser les outputs avant de les utiliser dans d'autres systèmes
-  ✓ Ne pas rendre de markdown/HTML non filtré dans l'UI
-  ✓ Logger tous les inputs/outputs pour audit
+  - Valider et sanitiser les outputs avant de les utiliser dans d'autres systèmes
+  - Ne pas rendre de markdown/HTML non filtré dans l'UI
+  - Logger tous les inputs/outputs pour audit
 
 Monitoring :
-  ✓ Détecter les tentatives d'injection (longueur anormale, patterns connus)
-  ✓ Rate limiting sur les API LLM
-  ✓ Alerter sur les outputs contenant des URLs externes inattendues
-  ✓ Red teaming régulier des applications LLM
+  - Détecter les tentatives d'injection (longueur anormale, patterns connus)
+  - Rate limiting sur les API LLM
+  - Alerter sur les outputs contenant des URLs externes inattendues
+  - Red teaming régulier des applications LLM
 ```
+
+> [!quiz] Pourquoi l'injection indirecte est-elle plus dangereuse que l'injection directe ?
+> Parce que la victime est l'utilisateur légitime : il déclenche l'attaque en demandant au modèle de résumer un document ou une page compromise, sans avoir lui-même fourni la charge. L'attaquant n'a pas besoin d'accéder au chat, seulement de contrôler une source que l'agent lira, ce qui étend la surface à toutes les données non fiables du pipeline.

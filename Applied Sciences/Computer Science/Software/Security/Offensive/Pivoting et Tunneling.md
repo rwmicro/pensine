@@ -10,6 +10,9 @@ date: "2026-03-23"
 
 Le pivoting consiste à utiliser une machine compromise comme relais pour accéder à des réseaux internes autrement inaccessibles depuis la machine de l'attaquant. Le tunneling encapsule du trafic dans des protocoles autorisés (HTTP, DNS, SSH) pour contourner les pare-feux.
 
+> [!abstract] Définition — Pivoting
+> Technique consistant à utiliser une machine compromise comme relais pour atteindre des réseaux ou services inaccessibles depuis la position initiale de l'attaquant. Le tunnel associé transporte le trafic dans un protocole autorisé — SSH, HTTP, DNS, ICMP — afin de franchir les filtrages réseau.
+
 ## Concepts fondamentaux
 
 ```
@@ -275,14 +278,17 @@ Détection du pivoting :
   → Fichiers binaires inhabituels (chisel, ligolo, dnscat) sur le système
 
 Défenses réseau :
-  ✓ Segmentation stricte avec firewalls entre zones (pas de routing direct inter-segments)
-  ✓ Filtrage des connexions sortantes des serveurs (whitelist des destinations)
-  ✓ Inspection TLS (HTTPS) sur les proxies sortants
-  ✓ Filtrage DNS : bloquer les requêtes DNS vers des serveurs non autorisés
-  ✓ IDS/IPS : signatures pour Chisel, ligolo, dnscat
-  ✓ Surveiller les connexions ICMP volumineuses (anomalie)
-  ✓ Désactiver SSH depuis les serveurs DMZ vers internet
+  - Segmentation stricte avec firewalls entre zones (pas de routing direct inter-segments)
+  - Filtrage des connexions sortantes des serveurs (whitelist des destinations)
+  - Inspection TLS (HTTPS) sur les proxies sortants
+  - Filtrage DNS : bloquer les requêtes DNS vers des serveurs non autorisés
+  - IDS/IPS : signatures pour Chisel, ligolo, dnscat
+  - Surveiller les connexions ICMP volumineuses (anomalie)
+  - Désactiver SSH depuis les serveurs DMZ vers internet
 ```
 
 > [!warning] Piège
 > Aucun de ces outils n'est détectable par sa seule présence sur le disque — Chisel, ligolo, dnscat2 ne sont pas malveillants par nature, ce sont des binaires légitimes de tunneling. Ce qui trahit le pivoting, c'est l'anomalie comportementale (un serveur qui initie du SSH sortant qu'il n'a jamais fait, un volume DNS incohérent avec son rôle) — la détection doit chercher l'usage inhabituel, pas une signature de fichier.
+
+> [!quiz] Pourquoi proxychains ne permet-il pas de scanner un réseau en UDP ou de lancer un ping à travers un pivot SOCKS ?
+> proxychains intercepte les connexions TCP et les redirige vers un proxy SOCKS, qui ne transporte que du TCP dans le cas de SSH ou Chisel. UDP et ICMP nécessitent un tunnel IP complet — ligolo-ng avec interface TUN, iodine ou hans — ou une conversion dédiée comme udp2tcp.

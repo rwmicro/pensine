@@ -10,6 +10,9 @@ date: "2026-03-23"
 
 macOS intègre plusieurs couches de sécurité spécifiques (SIP, Gatekeeper, TCC, Keychain). Un pentest macOS nécessite de comprendre ces mécanismes pour les contourner ou les exploiter. Les vecteurs d'entrée courants sont le phishing, les apps malveillantes, et les exploits applicatifs.
 
+> [!abstract] Définition — SIP
+> System Integrity Protection est la couche macOS qui interdit toute modification des fichiers et répertoires système, y compris à un processus root, et restreint l'injection de code dans les binaires protégés. Active par défaut depuis macOS 10.11, elle ne se désactive qu'en Recovery Mode.
+
 ## Architecture de sécurité macOS
 
 ```
@@ -303,27 +306,30 @@ class-dump /Applications/App.app    # Classes Objective-C
 
 ```
 Hardening macOS :
-  ✓ Activer FileVault (chiffrement du disque) — protection des données au repos
-  ✓ SIP activé — ne jamais désactiver en production
-  ✓ Gatekeeper : mode "App Store uniquement" pour les utilisateurs standard
-  ✓ Firmware password — empêche le boot en Recovery Mode par des tiers
-  ✓ Désactiver le partage de bureau à distance si non utilisé
+  - Activer FileVault (chiffrement du disque) — protection des données au repos
+  - SIP activé — ne jamais désactiver en production
+  - Gatekeeper : mode "App Store uniquement" pour les utilisateurs standard
+  - Firmware password — empêche le boot en Recovery Mode par des tiers
+  - Désactiver le partage de bureau à distance si non utilisé
 
 TCC :
-  ✓ Revue régulière des apps ayant Full Disk Access, Contacts, etc.
-  ✓ Révoquer les accès inutiles : Préférences Système → Confidentialité & Sécurité
-  ✓ MDM : politiques TCC centralisées (PPPC — Privacy Preferences Policy Control)
+  - Revue régulière des apps ayant Full Disk Access, Contacts, etc.
+  - Révoquer les accès inutiles : Préférences Système → Confidentialité & Sécurité
+  - MDM : politiques TCC centralisées (PPPC — Privacy Preferences Policy Control)
 
 Monitoring :
-  ✓ KnockKnock (Objective-See) — scanner les points de persistance
-  ✓ Oversight (Objective-See) — surveiller l'accès à la webcam et au micro
-  ✓ RansomWhere (Objective-See) — détecter le chiffrement de masse de fichiers
-  ✓ LuLu — pare-feu open-source macOS (contrôle des connexions sortantes par app)
-  ✓ Logs : ~/Library/Logs/, /var/log/, Console.app
-  ✓ Unified Logging : log stream --predicate 'process == "suspicious_app"'
+  - KnockKnock (Objective-See) — scanner les points de persistance
+  - Oversight (Objective-See) — surveiller l'accès à la webcam et au micro
+  - RansomWhere (Objective-See) — détecter le chiffrement de masse de fichiers
+  - LuLu — pare-feu open-source macOS (contrôle des connexions sortantes par app)
+  - Logs : ~/Library/Logs/, /var/log/, Console.app
+  - Unified Logging : log stream --predicate 'process == "suspicious_app"'
 
 MDM (Mobile Device Management) :
-  ✓ Déployer MDM (Jamf, Mosyle, Kandji) pour la gestion centralisée
-  ✓ Interdire l'installation d'apps non signées via MDM
-  ✓ Chiffrement forcé, mot de passe complexe, timeout de session
+  - Déployer MDM (Jamf, Mosyle, Kandji) pour la gestion centralisée
+  - Interdire l'installation d'apps non signées via MDM
+  - Chiffrement forcé, mot de passe complexe, timeout de session
 ```
+
+> [!quiz] Pourquoi SIP ne constitue-t-il pas une protection contre la compromission initiale d'un Mac ?
+> SIP s'applique après l'exécution : il empêche un attaquant déjà root de modifier les binaires système pour y installer une persistance durable. Le filtrage de l'entrée relève de Gatekeeper, de la notarisation et de TCC, qui interviennent en amont dans la chaîne.

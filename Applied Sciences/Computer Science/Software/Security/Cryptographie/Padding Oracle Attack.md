@@ -9,6 +9,9 @@ prerequis: ["[[Cryptographie]]"]
 
 # Padding Oracle Attack
 
+> [!abstract] Définition — Oracle de padding
+> Canal auxiliaire par lequel un serveur laisse deviner si le padding PKCS#7 d'un message déchiffré est valide, via un message d'erreur, un code HTTP ou un temps de réponse distincts. En mode CBC, chaque réponse oui/non renseigne un octet du texte intermédiaire `AES_Dec(C)`, ce qui permet de reconstituer le clair puis de forger un chiffré arbitraire sans la clé. Seule l'absence d'authentification d'intégrité rend l'attaque possible.
+
 ## Contexte — chiffrement par bloc en mode CBC
 
 AES opère sur des blocs de 16 octets. En mode CBC (Cipher Block Chaining), chaque bloc de texte clair est XORé avec le bloc chiffré précédent avant d'être chiffré.
@@ -212,9 +215,12 @@ plaintext = decrypt(ciphertext)  # Déchiffrer seulement si MAC valide
 
 ```
 Règles :
-✓ Utiliser AES-GCM ou ChaCha20-Poly1305 (AEAD) — plus de problème de padding
-✓ Si CBC obligatoire : Encrypt-then-MAC (MAC sur le chiffré, pas le clair)
-✓ Messages d'erreur identiques pour toutes les erreurs de déchiffrement
-✓ Temps de réponse constant (pas de timing oracle)
-✓ Jamais CBC sans authentification de l'intégrité
+- Utiliser AES-GCM ou ChaCha20-Poly1305 (AEAD) — plus de problème de padding
+- Si CBC obligatoire : Encrypt-then-MAC (MAC sur le chiffré, pas le clair)
+- Messages d'erreur identiques pour toutes les erreurs de déchiffrement
+- Temps de réponse constant (pas de timing oracle)
+- Jamais CBC sans authentification de l'intégrité
 ```
+
+> [!quiz] Comment l'attaquant déduit-il un octet du texte clair à partir d'une simple réponse « padding invalide » ?
+> Il fixe un bloc chiffré `C2` et fait varier l'octet correspondant du bloc précédent `C1'` jusqu'à ce que le serveur accepte le padding. Quand la valeur `0x01` est obtenue, il en déduit `AES_Dec(C2)[16] = 0x01 XOR C1'[16]`, puis recalcule `P2[16]` avec le `C1` d'origine. En répétant octet par octet, avec au plus 256 essais par octet, il reconstitue tout le bloc sans jamais connaître la clé.

@@ -10,6 +10,9 @@ date: "2026-03-22"
 
 La sécurité GCP repose principalement sur IAM (Identity and Access Management) et les Service Accounts. Les mauvaises configurations d'IAM, l'accès au metadata server depuis une VM compromise, et les clés de service account exposées constituent les vecteurs d'attaque les plus courants.
 
+> [!abstract] Définition — Service Account
+> Identité machine GCP (`SA@PROJECT.iam.gserviceaccount.com`) utilisée par les VMs, Cloud Functions et pipelines pour appeler les APIs sans intervention humaine. Elle n'a pas de mot de passe : on l'endosse via `actAs`, une clé JSON, ou le metadata server de la ressource à laquelle elle est attachée. Ses clés et ses droits d'impersonation sont donc les principaux vecteurs d'escalade sur GCP.
+
 ## Concepts fondamentaux GCP IAM
 
 ```
@@ -279,28 +282,31 @@ checkov -d ./terraform/gcp/ --framework terraform
 
 ```
 IAM :
-  ✓ Principe du moindre privilège — éviter Editor/Owner
-  ✓ Désactiver les rôles primitifs (Owner, Editor) sur les projets de production
-  ✓ Ne jamais utiliser allUsers ou allAuthenticatedUsers dans les bindings
-  ✓ Rotation régulière des clés de Service Account
-  ✓ Préférer Workload Identity Federation aux clés de SA pour les workloads externes
-  ✓ Activer Workload Identity sur GKE (pas de metadata server accessible aux pods)
+  - Principe du moindre privilège — éviter Editor/Owner
+  - Désactiver les rôles primitifs (Owner, Editor) sur les projets de production
+  - Ne jamais utiliser allUsers ou allAuthenticatedUsers dans les bindings
+  - Rotation régulière des clés de Service Account
+  - Préférer Workload Identity Federation aux clés de SA pour les workloads externes
+  - Activer Workload Identity sur GKE (pas de metadata server accessible aux pods)
 
 Service Accounts :
-  ✓ Un SA par workload (pas de SA partagé)
-  ✓ Désactiver la création de clés SA si non nécessaire (Organization Policy)
-  ✓ Surveiller l'utilisation des clés SA (Cloud Audit Logs)
-  ✓ Auditer régulièrement les SA inutilisés
+  - Un SA par workload (pas de SA partagé)
+  - Désactiver la création de clés SA si non nécessaire (Organization Policy)
+  - Surveiller l'utilisation des clés SA (Cloud Audit Logs)
+  - Auditer régulièrement les SA inutilisés
 
 Réseau et accès :
-  ✓ VPC Service Controls : périmètre autour des APIs GCP (empêche l'exfiltration)
-  ✓ Private Google Access : éviter l'exposition des VMs sur internet
-  ✓ OS Login : authentification SSH basée sur les comptes IAM
-  ✓ Shielded VMs : protection contre les rootkits au niveau firmware
+  - VPC Service Controls : périmètre autour des APIs GCP (empêche l'exfiltration)
+  - Private Google Access : éviter l'exposition des VMs sur internet
+  - OS Login : authentification SSH basée sur les comptes IAM
+  - Shielded VMs : protection contre les rootkits au niveau firmware
 
 Détection :
-  ✓ Cloud Audit Logs : activer Data Access Logs pour toutes les APIs sensibles
-  ✓ Cloud Security Command Center (SCC) : détection des mauvaises configurations
-  ✓ Security Health Analytics : audit continu des configurations IAM
-  ✓ Alertes sur les créations de clés SA et les modifications de bindings IAM
+  - Cloud Audit Logs : activer Data Access Logs pour toutes les APIs sensibles
+  - Cloud Security Command Center (SCC) : détection des mauvaises configurations
+  - Security Health Analytics : audit continu des configurations IAM
+  - Alertes sur les créations de clés SA et les modifications de bindings IAM
 ```
+
+> [!quiz] Pourquoi `iam.serviceAccounts.actAs` est-elle une permission d'escalade alors qu'elle n'accorde aucun droit direct ?
+> Elle permet d'agir *en tant que* un Service Account, donc d'hériter de tous les rôles IAM de celui-ci sans modifier le moindre binding. Un attaquant qui la détient peut impersonner un SA admin via `gcloud config set auth/impersonate_service_account` ou créer une clé pour ce SA. Un audit qui ne filtre que les rôles « admin » visibles rate ce chemin, car le droit utile reste porté par le SA cible et non par l'attaquant.

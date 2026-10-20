@@ -12,6 +12,9 @@ parcours-description: "Des encodages à la cryptographie moderne, puis ses attaq
 
 La maîtrise des encodages est indispensable en sécurité : les payloads sont souvent encodés pour contourner des filtres, les données binaires transitent encodées, et la confusion entre encodage et chiffrement est une source fréquente de vulnérabilités.
 
+> [!abstract] Définition — Encodage
+> Transformation réversible d'une donnée d'une représentation vers une autre (Base64, hexadécimal, percent-encoding, UTF-8) selon une règle publique, sans clé ni secret. Il sert à transporter ou stocker des octets dans un format accepté par un canal donné, jamais à protéger l'information. Confondre encodage et chiffrement conduit à exposer des secrets stockés en Base64 et à sous-estimer les bypass de filtres par double encodage.
+
 ## ASCII et représentations de base
 
 ASCII code 128 caractères sur 7 bits (0–127). La table étendue (Latin-1, ISO-8859-1) ajoute 128 caractères de 128 à 255.
@@ -163,7 +166,7 @@ Exemples :
 'A'  → 0x41          (1 octet)
 'é'  → 0xC3 0xA9     (2 octets, U+00E9)
 '€'  → 0xE2 0x82 0xAC (3 octets, U+20AC)
-'😀' → 0xF0 0x9F 0x98 0x80 (4 octets, U+1F600)
+'U+1F600' → 0xF0 0x9F 0x98 0x80 (4 octets, U+1F600)
 ```
 
 ### Confusions Unicode en sécurité
@@ -283,3 +286,6 @@ Double encodage pour bypasser des filtres
 → Si le serveur décode une fois puis le WAF une fois → race condition d'encodage
 → Toujours décoder complètement avant de filtrer
 ```
+
+> [!quiz] Pourquoi le double encodage contourne-t-il un filtre qui bloque `%3C` ?
+> Le filtre ne décode qu'une fois : `%253C` devient `%3C`, qu'il ne reconnaît pas comme la balise `<`. La couche applicative en aval décode à son tour et obtient `<`, qui est alors interprété. La parade consiste à normaliser et décoder complètement l'entrée avant de filtrer, plutôt qu'à comparer des chaînes brutes.

@@ -12,6 +12,8 @@ date: "2025-12-31"
 
 Elle remplace l'ancienne EBIOS 2010 et s'aligne sur les normes internationales **ISO 27001/27005**.
 
+> [!abstract] Définition — EBIOS RM
+> Méthode d'analyse de risque cyber publiée par l'ANSSI en 2018, alignée sur ISO 27001/27005, qui part des sources de risque et de leurs objectifs pour construire des scénarios d'attaque. Elle est structurée en cinq ateliers, du cadrage au plan de traitement, et évalue le risque résiduel par le couple vraisemblance × gravité. Elle est exigée ou recommandée pour les OIV, les OSE, SecNumCloud et les projets soumis à l'ANSSI.
 
 ## Philosophie
 
@@ -106,11 +108,11 @@ Biens essentiels :
   BE4 — Disponibilité du service (CA en temps réel)
 
 Socle de sécurité appliqué :
-  ✓ HTTPS partout (TLS 1.2+)
-  ✓ Authentification admin avec MFA
-  ✗ Pas de WAF (écart identifié)
-  ✗ Logs insuffisants (écart identifié)
-  ✗ Dépendances npm non auditées (écart identifié)
+  - HTTPS partout (TLS 1.2+)
+  - Authentification admin avec MFA
+  - Pas de WAF (écart identifié)
+  - Logs insuffisants (écart identifié)
+  - Dépendances npm non auditées (écart identifié)
 ```
 
 ### Atelier 2 : Sources de risque
@@ -253,3 +255,6 @@ Normes complémentaires :
 → ISO 31000 : management du risque (générique)
 → NIST SP 800-30 : guide d'évaluation des risques (US)
 ```
+
+> [!quiz] En quoi EBIOS RM diffère-t-elle d'une analyse par checklist de vulnérabilités ?
+> Elle commence par identifier les sources de risque et leurs objectifs visés (atelier 2), puis ne construit des scénarios que pour les couples source/objectif jugés pertinents. L'analyse est donc moins exhaustive, mais ciblée sur des adversaires réels et sur les chemins d'attaque qu'ils emprunteraient effectivement. Le résultat est un plan de traitement priorisé, avec un risque résiduel évalué en vraisemblance × gravité.

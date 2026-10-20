@@ -9,6 +9,9 @@ prerequis: ["[[Attack Vectors]]"]
 
 # Same-Origin Policy et CORS
 
+> [!abstract] Définition — Same-Origin Policy
+> La Same-Origin Policy est la règle par défaut du navigateur qui interdit à un script de lire les ressources d'une origine différente, une origine étant le triplet schéma, domaine et port. Elle bloque la lecture des réponses cross-origin mais laisse charger scripts, images, styles et formulaires. CORS en est l'assouplissement explicite : le serveur déclare via des en-têtes `Access-Control-Allow-*` quelles origines peuvent lire ses réponses.
+
 ## Same-Origin Policy (SOP)
 
 La Same-Origin Policy est le mécanisme de sécurité fondamental des navigateurs. Elle empêche un script d'une origine d'accéder aux ressources d'une autre origine.
@@ -302,11 +305,14 @@ server {
 
 ```
 Checklist CORS :
-✓ Maintenir une whitelist explicite d'origines autorisées
-✓ Ajouter Vary: Origin pour éviter que les caches servent une réponse à la mauvaise origine
-✓ Ne jamais utiliser * avec Access-Control-Allow-Credentials: true
-✓ Ne jamais autoriser l'origine null en production
-✓ Valider l'Origin complète (pas seulement un préfixe/suffixe)
-✓ Restreindre les méthodes et headers aux seuls nécessaires
-✓ Tester régulièrement les sous-domaines (surface d'attaque via XSS)
+- Maintenir une whitelist explicite d'origines autorisées
+- Ajouter Vary: Origin pour éviter que les caches servent une réponse à la mauvaise origine
+- Ne jamais utiliser * avec Access-Control-Allow-Credentials: true
+- Ne jamais autoriser l'origine null en production
+- Valider l'Origin complète (pas seulement un préfixe/suffixe)
+- Restreindre les méthodes et headers aux seuls nécessaires
+- Tester régulièrement les sous-domaines (surface d'attaque via XSS)
 ```
+
+> [!quiz] Que révèle exactement une réponse qui renvoie dans `Access-Control-Allow-Origin` la valeur d'`Origin` reçue ?
+> Cela signifie que le serveur ne valide pas l'origine et autorise donc n'importe quel domaine. Combiné à `Access-Control-Allow-Credentials: true`, tout site attaquant peut lire les réponses authentifiées de la victime, ce qui équivaut à un wildcard avec cookies. La correction est une whitelist stricte comparée en égalité, plus `Vary: Origin`.

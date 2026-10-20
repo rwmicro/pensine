@@ -14,6 +14,9 @@ Au-delà du Golden Ticket, Active Directory offre de nombreux mécanismes de per
 > [!important] Idée clé
 > Chaque technique ci-dessous exploite un mécanisme qui existe pour une raison légitime (restauration, réplication, compatibilité) mais qui, une fois détourné, contourne la logique normale de "changer le mot de passe = couper l'accès". Comme le résume la dernière section : aucune persistance n'est parfaitement invisible, seulement plus ou moins bruyante.
 
+> [!abstract] Définition — Persistance AD
+> Ensemble des mécanismes qui maintiennent un accès privilégié à un domaine après la compromission initiale, en survivant aux rotations de mots de passe et aux remédiations. Les techniques ciblent des composants internes (LSASS, DSRM, AdminSDHolder, KDS Root Key, ACL de réplication) plutôt que des comptes. Aucune n'est totalement invisible : le choix se fait sur le compromis entre discrétion et durée.
+
 ## Skeleton Key
 
 Backdoor du processus LSASS du DC : un mot de passe maître unique fonctionne pour tous les comptes.
@@ -207,32 +210,32 @@ ATTENTION : les modifications de schéma sont irréversibles dans beaucoup de ca
 
 ```
 AdminSDHolder :
-  ✓ Auditer les ACLs de AdminSDHolder régulièrement
+  - Auditer les ACLs de AdminSDHolder régulièrement
     Get-DomainObjectAcl -Identity AdminSDHolder | Where-Object { ... }
-  ✓ Event ID 4662 : accès à l'objet AdminSDHolder
-  ✓ Alerter sur toute modification de ACL sur AdminSDHolder
+  - Event ID 4662 : accès à l'objet AdminSDHolder
+  - Alerter sur toute modification de ACL sur AdminSDHolder
 
 DSRM :
-  ✓ Auditer la clé de registre DsrmAdminLogonBehavior (doit être 0)
-  ✓ Surveiller les authentifications locales sur les DCs (Event ID 4624 Logon Type 3 avec compte local)
-  ✓ Rotation régulière du mot de passe DSRM
+  - Auditer la clé de registre DsrmAdminLogonBehavior (doit être 0)
+  - Surveiller les authentifications locales sur les DCs (Event ID 4624 Logon Type 3 avec compte local)
+  - Rotation régulière du mot de passe DSRM
     ntdsutil → set DSRM password → reset password on server DC01
 
 Skeleton Key :
-  ✓ LSASS protected process (PPL) → empêche le patch mémoire
-  ✓ Credential Guard (VBS) → isole LSASS
-  ✓ Détecter via : Event ID 4673, 4611 (droits de débogage)
-  ✓ Sysmon Event ID 10 : OpenProcess avec GrantedAccess=0x1010 sur lsass.exe
+  - LSASS protected process (PPL) → empêche le patch mémoire
+  - Credential Guard (VBS) → isole LSASS
+  - Détecter via : Event ID 4673, 4611 (droits de débogage)
+  - Sysmon Event ID 10 : OpenProcess avec GrantedAccess=0x1010 sur lsass.exe
 
 Droits de réplication (DCSync) :
-  ✓ Surveiller qui a les droits DS-Replication-Get-Changes-All (hors DCs et comptes légitimes)
-  ✓ Event ID 4662 avec GUID {1131f6ad-9c07-11d1-f79f-00c04fc2dcd2} = DCSync
+  - Surveiller qui a les droits DS-Replication-Get-Changes-All (hors DCs et comptes légitimes)
+  - Event ID 4662 avec GUID {1131f6ad-9c07-11d1-f79f-00c04fc2dcd2} = DCSync
 
 Général :
-  ✓ Tier Model : séparer les comptes admin par niveau (T0 = DC, T1 = serveurs, T2 = postes)
-  ✓ PAW (Privileged Access Workstations) : stations dédiées pour les admins T0
-  ✓ Privileged Identity Management (PIM) : accès admin à la demande, temporaire
-  ✓ Audits AD réguliers : BloodHound, Purple Knight, PingCastle
+  - Tier Model : séparer les comptes admin par niveau (T0 = DC, T1 = serveurs, T2 = postes)
+  - PAW (Privileged Access Workstations) : stations dédiées pour les admins T0
+  - Privileged Identity Management (PIM) : accès admin à la demande, temporaire
+  - Audits AD réguliers : BloodHound, Purple Knight, PingCastle
 ```
 
 ## Pièges courants
@@ -248,3 +251,6 @@ Général :
 > - **Persistance via GPO** : créer une scheduled task dans une GPO appliquée aux DCs = exécution récurrente en SYSTEM. Détectable via audit GPO changes.
 > - **Certificate persistence sans validation IdP** : un cert valide émis par AD CS reste exploitable jusqu'à expiration même si le user est désactivé. Toujours révoquer les certs lors d'un offboarding.
 > - **Mécanismes "discrets" qui marquent les logs** : presque toutes les techniques de persistance laissent au moins UNE trace (event log, modification AD, ACL changée). La "persistance furtive" parfaite n'existe pas — on choisit le moins détecté pour la durée voulue.
+
+> [!quiz] Pourquoi les droits ajoutés sur AdminSDHolder réapparaissent-ils après leur suppression manuelle ?
+> Parce que le processus SDProp recopie le descripteur de sécurité d'AdminSDHolder sur tous les objets protégés (adminCount=1) toutes les 60 minutes. Tant que l'ACL source n'est pas nettoyée, les droits accordés à un compte non privilégié sont réappliqués au cycle suivant.

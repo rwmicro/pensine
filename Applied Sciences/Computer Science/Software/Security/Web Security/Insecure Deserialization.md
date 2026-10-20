@@ -11,6 +11,9 @@ prerequis: ["[[Attack Vectors]]"]
 
 La désérialisation non sécurisée se produit quand une application reconstruit des objets à partir de données contrôlées par l'utilisateur sans validation. Elle peut mener à l'exécution de code arbitraire (RCE), l'escalade de privilèges, ou le contournement d'authentification.
 
+> [!abstract] Définition — Désérialisation non sécurisée
+> La désérialisation non sécurisée consiste à reconstruire des objets à partir d'un flux contrôlé par l'utilisateur, sans vérifier la classe attendue ni l'intégrité des données. L'attaquant n'injecte pas de code : il enchaîne des méthodes légitimes déjà présentes dans les bibliothèques chargées, ce qu'on appelle une gadget chain. L'impact va de la simple modification d'attributs jusqu'à l'exécution de code arbitraire.
+
 ## Concepts fondamentaux
 
 ```
@@ -257,11 +260,14 @@ def deserialize(payload):
 
 ```
 Checklist défensive :
-✓ Ne jamais désérialiser des données non fiables avec des formats natifs (pickle, Marshal, BinaryFormatter)
-✓ Utiliser des formats sans exécution de code (JSON + validation de schéma)
-✓ Implémenter une whitelist de classes autorisées à la désérialisation
-✓ Signer cryptographiquement les données sérialisées avant de les envoyer au client
-✓ Exécuter la désérialisation dans un sandbox sans accès réseau/filesystem
-✓ Surveiller les bibliothèques : Commons Collections, Spring, Groovy (gadget chains connues)
-✓ Mettre à jour les dépendances — la plupart des gadget chains exploitent des versions obsolètes
+- Ne jamais désérialiser des données non fiables avec des formats natifs (pickle, Marshal, BinaryFormatter)
+- Utiliser des formats sans exécution de code (JSON + validation de schéma)
+- Implémenter une whitelist de classes autorisées à la désérialisation
+- Signer cryptographiquement les données sérialisées avant de les envoyer au client
+- Exécuter la désérialisation dans un sandbox sans accès réseau/filesystem
+- Surveiller les bibliothèques : Commons Collections, Spring, Groovy (gadget chains connues)
+- Mettre à jour les dépendances — la plupart des gadget chains exploitent des versions obsolètes
 ```
+
+> [!quiz] Pourquoi une liste noire de classes dangereuses ne suffit-elle pas à corriger une désérialisation Java ?
+> Une gadget chain peut être assemblée à partir de n'importe quelle classe présente dans le classpath, y compris des bibliothèques dont le caractère exploitable n'est pas encore public. Une liste noire est donc dépassée dès la publication d'une nouvelle chaîne. Seule une liste blanche des classes explicitement attendues, ou l'abandon des formats natifs, supprime la classe de vulnérabilité.

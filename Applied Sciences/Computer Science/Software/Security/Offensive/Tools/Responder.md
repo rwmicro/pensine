@@ -10,6 +10,9 @@ date: "2026-03-22"
 
 Responder est un outil de poisoning réseau qui exploite les protocoles de résolution de noms LLMNR, NBT-NS et mDNS pour capturer des hashes NTLM sur un réseau local. C'est souvent le premier vecteur d'attaque en pentest interne.
 
+> [!abstract] Définition — Poisoning de résolution de noms
+> Attaque consistant à répondre aux requêtes de résolution de noms diffusées en broadcast — LLMNR, NBT-NS, mDNS, WPAD — pour se faire passer pour la ressource demandée. La victime s'authentifie alors auprès de l'attaquant, qui capture un hash NTLM ou relaie l'authentification.
+
 ## Protocoles ciblés
 
 ```
@@ -164,13 +167,16 @@ Détection :
   - Wireshark : filtrer llmnr || nbns pour voir les requêtes et répondants
 
 Contre-mesures :
-  ✓ Désactiver LLMNR via GPO :
+  - Désactiver LLMNR via GPO :
     Computer Config → Admin Templates → Network → DNS Client → Turn off multicast name resolution → Enabled
-  ✓ Désactiver NBT-NS :
+  - Désactiver NBT-NS :
     Propriétés TCP/IP → Avancé → WINS → Disable NetBIOS over TCP/IP
-  ✓ Activer SMB signing (requis) → empêche le relais NTLM
-  ✓ Activer LDAP signing et channel binding → empêche le relais LDAP
-  ✓ Désactiver WPAD si non utilisé
-  ✓ Utiliser des mots de passe complexes (résistants au craquage)
-  ✓ Privileged Access Workstations (PAW) — les admins ne naviguent pas depuis leurs postes
+  - Activer SMB signing (requis) → empêche le relais NTLM
+  - Activer LDAP signing et channel binding → empêche le relais LDAP
+  - Désactiver WPAD si non utilisé
+  - Utiliser des mots de passe complexes (résistants au craquage)
+  - Privileged Access Workstations (PAW) — les admins ne naviguent pas depuis leurs postes
 ```
+
+> [!quiz] Pourquoi le relais NTLM rend-il la robustesse du mot de passe de la victime indifférente, et quelle configuration l'autorise sur la cible ?
+> Le hash capturé est rejoué tel quel vers une autre machine : il n'est jamais inversé, donc la longueur ou la complexité du mot de passe n'intervient pas. Le relais n'aboutit que si la signature SMB est désactivée sur la cible, ou si le service visé (LDAP, HTTP) n'exige ni signing ni channel binding.

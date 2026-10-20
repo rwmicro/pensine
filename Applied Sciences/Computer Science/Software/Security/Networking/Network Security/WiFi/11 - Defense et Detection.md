@@ -10,6 +10,9 @@ date: "2026-05-17"
 
 Tout ce qui rend les attaques [[03 - Attaques WPA2-PSK]], [[05 - Evil Twin et Phishing]], [[07 - DoS et MDK4]] inopérantes ou détectables.
 
+> [!abstract] Définition — PMF (802.11w)
+> Protection qui ajoute un code d'intégrité (MIC) aux trames management — deauth, disassoc, action — afin que le client vérifie leur authenticité avant de les appliquer. Elle authentifie ces trames sans les chiffrer : leur existence reste observable, mais plus leur falsification sans la clé de session. WPA3 l'impose en mode `Required`.
+
 ## Hardening — configuration AP
 
 ### Choix du protocole
@@ -25,27 +28,27 @@ WPA2-Enterprise + EAP-TLS      ← Entreprise legacy
 
 ### Checklist AP domestique
 
-- ✓ WPA3-Personal (ou WPA2 + WPA3 transition si parc mixte)
-- ✓ PSK ≥ 20 caractères aléatoires (gestionnaire de mdp)
-- ✓ **WPS désactivé** (souvent activé d'usine sur les box ISP)
-- ✓ Réseau invité isolé (VLAN ou SSID séparé)
-- ✓ Bande 5 GHz privilégiée (portée plus courte → moins de surface)
-- ✓ Firmware AP à jour (patches KRACK / FragAttacks)
-- ✓ Admin web : mot de passe modifié, accès LAN uniquement
-- ✓ UPnP désactivé
-- ✓ SSID modifié (pas `Livebox-XXXX` par défaut → moins prédictible)
+- WPA3-Personal (ou WPA2 + WPA3 transition si parc mixte)
+- PSK ≥ 20 caractères aléatoires (gestionnaire de mdp)
+- **WPS désactivé** (souvent activé d'usine sur les box ISP)
+- Réseau invité isolé (VLAN ou SSID séparé)
+- Bande 5 GHz privilégiée (portée plus courte → moins de surface)
+- Firmware AP à jour (patches KRACK / FragAttacks)
+- Admin web : mot de passe modifié, accès LAN uniquement
+- UPnP désactivé
+- SSID modifié (pas `Livebox-XXXX` par défaut → moins prédictible)
 
 ### Checklist AP entreprise
 
-- ✓ WPA3-Enterprise ou WPA2-Enterprise + **PMF obligatoire**
-- ✓ **EAP-TLS** avec certificats clients (AC interne)
-- ✓ Désactiver PEAP / EAP-TTLS / EAP-FAST si possible
-- ✓ Si PEAP nécessaire : validation cert serveur **obligatoire côté client** (GPO)
-- ✓ SSID Enterprise différent du SSID guest
-- ✓ RADIUS sur réseau d'admin isolé
-- ✓ Logs RADIUS centralisés (SIEM) — détection brute-force
-- ✓ Rotation régulière des certificats serveur
-- ✓ Segmentation : VLAN par groupe d'utilisateurs
+- WPA3-Enterprise ou WPA2-Enterprise + **PMF obligatoire**
+- **EAP-TLS** avec certificats clients (AC interne)
+- Désactiver PEAP / EAP-TTLS / EAP-FAST si possible
+- Si PEAP nécessaire : validation cert serveur **obligatoire côté client** (GPO)
+- SSID Enterprise différent du SSID guest
+- RADIUS sur réseau d'admin isolé
+- Logs RADIUS centralisés (SIEM) — détection brute-force
+- Rotation régulière des certificats serveur
+- Segmentation : VLAN par groupe d'utilisateurs
 
 ## Management Frame Protection (PMF / 802.11w)
 
@@ -95,10 +98,10 @@ WPA3 exige `ieee80211w=2` par défaut.
 Computer Configuration → Policies → Windows Settings
 → Security Settings → Wireless Network (IEEE 802.11) Policies
 → New Policy → Properties → Security
-   ☑ Validate server certificate
-   ☑ Connect to these servers : "radius.corp.local"
-   ☑ Trusted Root Certification Authorities : [AC interne uniquement]
-   ☑ Don't prompt user to authorize new servers
+   [x] Validate server certificate
+   [x] Connect to these servers : "radius.corp.local"
+   [x] Trusted Root Certification Authorities : [AC interne uniquement]
+   [x] Don't prompt user to authorize new servers
 ```
 
 ### Android
@@ -233,3 +236,6 @@ Si Evil Twin avec captive portal détecté :
 1. Diffuser une notification interne immédiate
 2. Forcer reset des PSK / mdp Wi-Fi compromis si saisis
 3. Si Enterprise : invalider et regénérer les comptes touchés
+
+> [!quiz] Pourquoi PMF ne bloque-t-il pas un Evil Twin diffusant un ESSID différent ?
+> PMF signe les trames d'une session déjà établie : le client rejette une deauth forgée parce que le MIC ne correspond pas à sa clé de session. Un AP rogue portant un autre SSID ne détourne pas cette session, il en propose une nouvelle que le client peut rejoindre volontairement. S'y ajoutent les beacons non protégées et l'authentification initiale non couverte, qui laissent le auth flood possible.

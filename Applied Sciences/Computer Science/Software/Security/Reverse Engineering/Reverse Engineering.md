@@ -10,6 +10,9 @@ date: "2026-02-25"
 
 Le reverse engineering (rétro-ingénierie) est l'analyse d'un binaire compilé pour comprendre son fonctionnement sans accès au code source. En sécurité, il sert à analyser des malwares, trouver des vulnérabilités, casser des protections, et valider le comportement d'un logiciel.
 
+> [!abstract] Définition — Rétro-ingénierie
+> Analyse d'un binaire compilé — PE, ELF, Mach-O — destinée à reconstruire son fonctionnement sans disposer du code source. Elle combine inspection statique (en-têtes, imports, chaînes, désassemblage, décompilation) et observation dynamique (sandbox, débogueur, trace d'API) pour analyser un malware ou une protection.
+
 ## Format des exécutables
 
 ### PE (Portable Executable) — Windows
@@ -387,8 +390,8 @@ NTSTATUS status = NtQueryInformationProcess(
 **Contournement dans x64dbg :**
 ```
 Options → Preferences → Engine :
-✓ Skip "IsDebuggerPresent"
-✓ Skip "CheckRemoteDebuggerPresent"
+- Skip "IsDebuggerPresent"
+- Skip "CheckRemoteDebuggerPresent"
 
 Plugin ScyllaHide → patch transparent de toutes les vérifications
 ```
@@ -573,3 +576,6 @@ def dga_example(seed, date):
 # Décrypter les communications : poser un BP sur les fonctions de déchiffrement
 # intercepter les paramètres → obtenir le plaintext avant le chiffrement
 ```
+
+> [!quiz] Pourquoi une RVA ne correspond-elle généralement pas à l'offset du même octet dans le fichier sur disque ?
+> Les sections sont alignées selon `SectionAlignment` en mémoire et `FileAlignment` sur disque, avec des tailles de remplissage différentes. Il faut donc passer par la table des sections pour convertir une RVA en offset fichier, en soustrayant la `VirtualAddress` de la section puis en ajoutant sa `PointerToRawData`.

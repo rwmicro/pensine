@@ -14,6 +14,9 @@ Les relations d'approbation (trusts) entre domaines et forêts Active Directory 
 > [!important] Idée clé
 > Un trust n'est pas symétrique en confiance ni forcément transitif — compromettre un domaine enfant peu sécurisé peut suffire à remonter jusqu'au domaine parent via la clé de trust ou le SID History, même si le parent lui-même est bien protégé.
 
+> [!abstract] Définition — Trust AD
+> Relation d'approbation entre deux domaines ou forêts qui permet aux identités de l'un d'être reconnues dans l'autre. Un trust se caractérise par sa direction, sa transitivité et ses réglages de filtrage (SID Filtering, Selective Authentication), qui déterminent sa portée réelle. En pentest, il forme un chemin d'escalade depuis un domaine compromis vers son parent ou sa forêt.
+
 ## Concepts — Trusts AD
 
 ```
@@ -217,20 +220,20 @@ Get-DomainForeignGroupMember -Domain foret2.com   # PowerView
 
 ```
 Isolation des domaines :
-  ✓ SID Filtering : toujours activé sur les external trusts et forest trusts
+  - SID Filtering : toujours activé sur les external trusts et forest trusts
     netdom trust DOMAIN1 /domain:DOMAIN2 /enablesidhistory:no /quarantine:yes
-  ✓ Selective Authentication sur les forest trusts (plus restrictif que l'auth ouverte)
-  ✓ Auditer régulièrement les trusts existants (supprimer les trusts inutiles)
-  ✓ Ne pas créer de trusts bidirectionnels si unidirectionnel suffit
+  - Selective Authentication sur les forest trusts (plus restrictif que l'auth ouverte)
+  - Auditer régulièrement les trusts existants (supprimer les trusts inutiles)
+  - Ne pas créer de trusts bidirectionnels si unidirectionnel suffit
 
 Protection krbtgt :
-  ✓ Rotation régulière du krbtgt (deux fois pour invalider les tickets existants)
-  ✓ Surveiller les DCSync sur krbtgt (Event ID 4662 + ObjectType: krbtgt)
+  - Rotation régulière du krbtgt (deux fois pour invalider les tickets existants)
+  - Surveiller les DCSync sur krbtgt (Event ID 4662 + ObjectType: krbtgt)
 
 SID History :
-  ✓ Ne pas utiliser SID History en dehors des migrations
-  ✓ Nettoyer les SID History après les migrations
-  ✓ Surveiller l'attribut sIDHistory sur les comptes (modifications inhabituelles)
+  - Ne pas utiliser SID History en dehors des migrations
+  - Nettoyer les SID History après les migrations
+  - Surveiller l'attribut sIDHistory sur les comptes (modifications inhabituelles)
 
 Détection :
   Event ID 4768 : TGT avec Extra SIDs (Golden Ticket cross-domain)
@@ -250,3 +253,6 @@ Détection :
 > - **Domain Trust transitivity** : si A trusts B, et B trusts C, alors A ne trusts PAS forcément C. Sauf cas spécifiques (Forest Trust within forest = transitive, External = non-transitive).
 > - **Compte krbtgt de chaque domaine** : compromis un krbtgt dans un domaine = Golden Ticket UNIQUEMENT pour ce domaine. Pas cross-domain. Pour pivoter, il faut le krbtgt de chaque cible.
 > - **Trust account** : entre deux domaines, il existe un compte de service caché (`DOMAIN$`). Son hash crackable permet de forger des TGT inter-domaines. Vu rarement, mais possible avec DCSync sur les deux DCs.
+
+> [!quiz] Comment un Golden Ticket forgé dans un domaine enfant donne-t-il les droits Enterprise Admin sur le parent ?
+> Le ticket est signé avec le hash krbtgt de l'enfant et porte le SID du groupe Enterprise Admins du parent dans son champ ExtraSid. Les domaines d'une même forêt partagent la clé de trust et n'appliquent pas le SID Filtering entre parent et enfant : le KDC parent valide donc le ticket et accorde les privilèges du SID injecté.

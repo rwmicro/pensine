@@ -10,6 +10,9 @@ date: "2026-03-22"
 
 Azure (Microsoft Cloud) est omniprésent en entreprise, notamment via Entra ID (ex-Azure AD) qui gère l'identité. Les attaques Azure ciblent les identités, les permissions IAM, et les services mal configurés.
 
+> [!abstract] Définition — PRT (Primary Refresh Token)
+> Jeton d'actualisation de longue durée émis par Entra ID à un appareil enregistré, utilisé pour obtenir silencieusement des tokens d'accès aux ressources Microsoft. Il réside dans `lsass.exe`, protégé par DPAPI, et s'extrait avec `sekurlsa::cloudap` ou AADInternals. Son vol équivaut à la compromission persistante de l'identité de l'utilisateur sur tout l'écosystème Microsoft.
+
 ## Reconnaissance Azure
 
 ```bash
@@ -256,15 +259,18 @@ Monitoring :
   Risky Sign-Ins dans Entra ID → connexions depuis des IPs suspectes ou anomalies
 
 Hardening :
-✓ Conditional Access Policies :
+- Conditional Access Policies :
     → Exiger MFA pour tous les accès (y compris les Service Principals)
     → Bloquer les connexions depuis des pays non autorisés
     → Exiger des devices conformes (Intune compliance)
-✓ Privileged Identity Management (PIM) — activation JIT des rôles Admin
-✓ Désactiver le Device Code Flow si non nécessaire
-✓ Number Matching dans Microsoft Authenticator (anti-MFA fatigue)
-✓ Audit régulier des App Registrations et de leurs permissions
-✓ Supprimer les Run As Accounts Automation (remplacés par Managed Identity)
-✓ Storage Accounts : désactiver l'accès anonyme aux blobs
-✓ Entra ID Protection : politique de risque utilisateur et de connexion
+- Privileged Identity Management (PIM) — activation JIT des rôles Admin
+- Désactiver le Device Code Flow si non nécessaire
+- Number Matching dans Microsoft Authenticator (anti-MFA fatigue)
+- Audit régulier des App Registrations et de leurs permissions
+- Supprimer les Run As Accounts Automation (remplacés par Managed Identity)
+- Storage Accounts : désactiver l'accès anonyme aux blobs
+- Entra ID Protection : politique de risque utilisateur et de connexion
 ```
+
+> [!quiz] Pourquoi le Device Code Flow échappe-t-il aux filtres anti-phishing basés sur l'URL ?
+> Parce que la victime s'authentifie sur le véritable domaine `microsoft.com/devicelogin`, avec le certificat légitime de Microsoft : l'URL ne présente aucun indicateur d'usurpation. L'attaquant génère un code, le transmet à la victime, puis polle l'endpoint de token pour récupérer l'access token dès que l'authentification est faite. Seul le contexte de la demande permet de détecter l'attaque, d'où la contre-mesure consistant à désactiver ce flux s'il n'est pas nécessaire.

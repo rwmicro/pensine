@@ -10,6 +10,9 @@ date: "2026-03-22"
 
 La sécurité physique est la dimension souvent sous-estimée des engagements red team. L'accès physique à un bâtiment ou un équipement contourne la plupart des contrôles logiques. Un attaquant avec un accès physique de quelques minutes peut compromettre un réseau entier.
 
+> [!abstract] Définition — Sécurité physique
+> Ensemble des contrôles qui empêchent ou détectent l'accès non autorisé aux locaux, au matériel et aux supports d'information. En red team, elle constitue un contournement direct des contrôles logiques : quelques minutes d'accès à un poste, un switch ou un badge peuvent compromettre un réseau entier.
+
 ## Vecteurs d'accès physique
 
 ### Ingénierie sociale — Accès humain
@@ -217,40 +220,43 @@ Counter-surveillance :
 
 ```
 Contrôle d'accès physique :
-  ✓ Tourniquets + validation agent humain (pas seulement badge)
-  ✓ Badges avec photo visible côté gardien
-  ✓ Zones d'accès graduelles (visiteurs ne vont jamais seuls en zone sensible)
-  ✓ Politique d'escorte systématique des non-employés
-  ✓ Formation anti-tailgating (sensibilisation des employés)
+  - Tourniquets + validation agent humain (pas seulement badge)
+  - Badges avec photo visible côté gardien
+  - Zones d'accès graduelles (visiteurs ne vont jamais seuls en zone sensible)
+  - Politique d'escorte systématique des non-employés
+  - Formation anti-tailgating (sensibilisation des employés)
 
 Badges RFID :
-  ✓ Migrer vers MIFARE DESFire EV3 ou iCLASS SE (algorithmes modernes)
-  ✓ Utiliser des protections RFID (étuis blindés, porte-badges bloquants)
-  ✓ Déployer des lecteurs multi-facteurs (badge + PIN ou badge + biométrie)
-  ✓ Surveiller les lectures de badge inhabituelles (heures, lieux)
+  - Migrer vers MIFARE DESFire EV3 ou iCLASS SE (algorithmes modernes)
+  - Utiliser des protections RFID (étuis blindés, porte-badges bloquants)
+  - Déployer des lecteurs multi-facteurs (badge + PIN ou badge + biométrie)
+  - Surveiller les lectures de badge inhabituelles (heures, lieux)
 
 USB et matériel :
-  ✓ Désactiver les ports USB en BIOS et via GPO
-  ✓ Coller les ports USB inutilisés (résine, colle)
-  ✓ Whitelist des périphériques USB autorisés (Windows Defender Device Control)
-  ✓ Câbles de sécurité sur les équipements mobiles
+  - Désactiver les ports USB en BIOS et via GPO
+  - Coller les ports USB inutilisés (résine, colle)
+  - Whitelist des périphériques USB autorisés (Windows Defender Device Control)
+  - Câbles de sécurité sur les équipements mobiles
 
 Infrastructure réseau :
-  ✓ Verrouillerles armoires réseau (racks fermés à clé)
-  ✓ Désactiver les ports switch non utilisés (VLAN de quarantaine)
-  ✓ 802.1X : authentification des équipements avant accès réseau
-  ✓ Protéger les ports consoles des équipements réseau (mot de passe, chiffrement)
+  - Verrouillerles armoires réseau (racks fermés à clé)
+  - Désactiver les ports switch non utilisés (VLAN de quarantaine)
+  - 802.1X : authentification des équipements avant accès réseau
+  - Protéger les ports consoles des équipements réseau (mot de passe, chiffrement)
 
 Destruction de documents :
-  ✓ Déchiqueter les documents sensibles (niveau P-4 minimum)
-  ✓ Politique de bureau vide (clear desk policy)
-  ✓ Effacement sécurisé des disques avant mise au rebut
+  - Déchiqueter les documents sensibles (niveau P-4 minimum)
+  - Politique de bureau vide (clear desk policy)
+  - Effacement sécurisé des disques avant mise au rebut
 
 Procédures :
-  ✓ Vérifier l'identité des prestataires (appel du prestataire officiel)
-  ✓ Enregistrer les visiteurs, les escorter en permanence
-  ✓ Exercices réguliers (simulation d'intrusion physique, formation)
-  ✓ Caméras IP avec enregistrement 30 jours minimum
+  - Vérifier l'identité des prestataires (appel du prestataire officiel)
+  - Enregistrer les visiteurs, les escorter en permanence
+  - Exercices réguliers (simulation d'intrusion physique, formation)
+  - Caméras IP avec enregistrement 30 jours minimum
 ```
 
 L'accès physique mène souvent à l'accès au matériel lui-même : ports de debug, flash SPI, bus I2C, secure boot. Ces techniques et leurs contre-mesures sont détaillées dans [[Hardware Hacking]].
+
+> [!quiz] Pourquoi un badge 125 kHz de type HID ProxCard ou EM4100 est-il clonable sans cryptanalyse ?
+> Ces badges diffusent en clair un identifiant statique, sans authentification mutuelle ni chiffrement entre la carte et le lecteur. Le Proxmark3 lit cet identifiant et le réécrit sur une carte vierge, ce qui suffit à reproduire l'accès.

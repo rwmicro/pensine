@@ -11,6 +11,9 @@ prerequis: ["[[Path Traversal]]"]
 
 XXE (XML External Entity) exploite le traitement des entités externes XML pour lire des fichiers locaux, effectuer des SSRF, ou exfiltrer des données.
 
+> [!abstract] Définition — XML External Entity
+> XXE est une vulnérabilité de parseur XML : une entité déclarée avec `SYSTEM` force le parseur à résoudre une ressource externe, fichier local (`file://`) ou URL (`http://`). Selon le contexte, cela donne une lecture de fichiers, un SSRF vers le réseau interne, voire une exécution de commandes via `expect://`. La contre-mesure est de désactiver la résolution des DTD et des entités externes (générales et de paramètre) au niveau du parseur.
+
 ## Rappel XML
 
 ```xml
@@ -257,10 +260,13 @@ libxml_disable_entity_loader(true);  # PHP < 8.0
 
 ```
 Checklist XXE :
-✓ Désactiver le chargement des DTD externes
-✓ Désactiver les entités externes (general + parameter)
-✓ Utiliser des parseurs XML sûrs par défaut (JAXB avec restrictions)
-✓ Valider et sanitiser les fichiers uploadés (SVG, DOCX, RSS...)
-✓ Pas de résolution réseau depuis le parseur XML (no_network=True)
-✓ Mettre à jour les bibliothèques XML régulièrement
+- Désactiver le chargement des DTD externes
+- Désactiver les entités externes (general + parameter)
+- Utiliser des parseurs XML sûrs par défaut (JAXB avec restrictions)
+- Valider et sanitiser les fichiers uploadés (SVG, DOCX, RSS...)
+- Pas de résolution réseau depuis le parseur XML (no_network=True)
+- Mettre à jour les bibliothèques XML régulièrement
 ```
+
+> [!quiz] Pourquoi l'exfiltration blind XXE passe-t-elle par des entités de paramètre `%file` et `%send` plutôt que par une entité générale ?
+> La spécification XML interdit à une entité générale d'en référencer une autre dans le sous-ensemble interne de la DTD. Les entités de paramètre peuvent en revanche se combiner entre elles, ce qui permet de construire dynamiquement une URL contenant le contenu du fichier lu. C'est cette contrainte de la spec qui impose le détour par une DTD externe.

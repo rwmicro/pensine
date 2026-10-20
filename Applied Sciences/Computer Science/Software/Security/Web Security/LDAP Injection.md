@@ -10,6 +10,9 @@ date: "2026-03-22"
 
 L'injection LDAP exploite des requêtes LDAP (Lightweight Directory Access Protocol) construites dynamiquement à partir d'entrées utilisateur non filtrées. Elle permet de contourner l'authentification, énumérer des objets d'annuaire ou extraire des attributs sensibles.
 
+> [!abstract] Définition — Injection LDAP
+> L'injection LDAP consiste à manipuler la syntaxe d'un filtre LDAP construit par concaténation à partir d'entrées utilisateur. En fermant prématurément les parenthèses et en ajoutant une condition toujours vraie, l'attaquant modifie la logique du filtre d'origine. Les conséquences typiques sont le contournement d'authentification, l'énumération d'objets et l'extraction d'attributs sensibles de l'annuaire.
+
 ## Rappel LDAP
 
 ```
@@ -228,10 +231,13 @@ $filter = "(&(uid=$safe)(objectClass=person))";
 
 ```
 Règles générales :
-✓ Échapper les métacaractères LDAP : ( ) * \ NUL | & = !
-✓ Valider le type des entrées (username = uniquement alphanumérique)
-✓ Utiliser des requêtes paramétrées (si la bibliothèque LDAP le supporte)
-✓ Principe du moindre privilège pour le compte LDAP de l'application
-✓ Ne pas afficher les erreurs LDAP verboses en production
-✓ Logs : monitorer les filtres LDAP anormalement complexes
+- Échapper les métacaractères LDAP : ( ) * \ NUL | & = !
+- Valider le type des entrées (username = uniquement alphanumérique)
+- Utiliser des requêtes paramétrées (si la bibliothèque LDAP le supporte)
+- Principe du moindre privilège pour le compte LDAP de l'application
+- Ne pas afficher les erreurs LDAP verboses en production
+- Logs : monitorer les filtres LDAP anormalement complexes
 ```
+
+> [!quiz] Comment le payload `admin)(|(uid=*` transforme-t-il le filtre `(&(uid=...)(password=...))` en authentification réussie ?
+> Le `)` ferme la condition `uid`, puis `(|(uid=*` ouvre un OU toujours vrai qui absorbe la fin du filtre. L'expression se réduit à `(uid=admin)`, satisfaite quel que soit le mot de passe saisi. Le succès dépend du comptage exact des parenthèses ouvrantes du filtre cible, qui détermine combien il faut en fermer.

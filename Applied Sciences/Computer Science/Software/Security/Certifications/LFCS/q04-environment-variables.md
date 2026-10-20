@@ -65,7 +65,7 @@ There is an existing env variable for user `candidate@terminal`: `VARIABLE1=ra
 3. Defines a new env variable `VARIABLE3` with content `${VARIABLE1}-extended`, available in the script itself and all child processes of the shell as well
 4. Outputs the content of the env variable `VARIABLE3`
 
-> ℹ️ Do not alter the `.bashrc` file, everything needs to be done in the script itself
+>  Do not alter the `.bashrc` file, everything needs to be done in the script itself
 
 ## Solution
 

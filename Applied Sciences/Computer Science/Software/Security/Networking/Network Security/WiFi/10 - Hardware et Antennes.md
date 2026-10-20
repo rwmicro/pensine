@@ -13,6 +13,9 @@ Le hardware conditionne tout : monitor mode, injection, bandes supportées, sens
 > [!important] Idée clé
 > Le critère qui prime sur toutes les specs marketing (puissance, MIMO, prix) est l'ouverture du pilote. Un chipset Broadcom FullMAC très performant sur le papier est souvent inutilisable en pentest parce que le firmware propriétaire bride le mode monitor et l'injection — mieux vaut un vieux Atheros AR9271 avec `ath9k_htc` en open-source qu'un chipset récent mal supporté sous Linux.
 
+> [!abstract] Définition — Mode monitor
+> Mode où la carte Wi-Fi n'est associée à aucun réseau et livre au système toutes les trames 802.11 du canal, y compris celles qui ne lui sont pas destinées. Il conditionne la capture passive, le scan et l'analyse des échanges d'authentification. L'injection de paquets est une capacité distincte, nécessaire pour forger deauth, fake auth ou fragments.
+
 ## Critères de sélection
 
 | Critère | Pourquoi |
@@ -29,13 +32,13 @@ Le hardware conditionne tout : monitor mode, injection, bandes supportées, sens
 
 | Chipset | Carte représentative | Bandes | Monitor | Injection | Notes |
 |---------|---------------------|--------|---------|-----------|-------|
-| **Atheros AR9271** | Alfa AWUS036NHA, TP-Link TL-WN722N v1 | 2.4 GHz | ✓ | ✓ | Référence historique, pilote `ath9k_htc` |
-| **Realtek RTL8812AU** | Alfa AWUS036ACH, Alfa AWUS036AC | 2.4 + 5 | ✓ | ✓ | Pilote `rtl8812au` (DKMS), bidouille parfois |
-| **Realtek RTL8811AU** | Alfa AWUS036ACS | 2.4 + 5 | ✓ | ✓ | Compact, moins puissant |
-| **Realtek RTL8814AU** | Alfa AWUS1900 | 2.4 + 5 (AC1900) | ✓ | ✓ | 4 antennes, MIMO 4x4 |
-| **Mediatek MT7612U** | Alfa AWUS036ACM | 2.4 + 5 | ✓ | ✓ | Pilote mainline `mt76`, très propre |
-| **Mediatek MT7921AU** | Alfa AWUS036AXML | 2.4 + 5 + 6 (Wi-Fi 6E) | ✓ | partiel | Wi-Fi 6E, support en cours |
-| **Ralink RT3070** | Alfa AWUS036NH | 2.4 GHz | ✓ | ✓ | Ancien, `rt2800usb`, fiable |
+| **Atheros AR9271** | Alfa AWUS036NHA, TP-Link TL-WN722N v1 | 2.4 GHz | Oui | Oui | Référence historique, pilote `ath9k_htc` |
+| **Realtek RTL8812AU** | Alfa AWUS036ACH, Alfa AWUS036AC | 2.4 + 5 | Oui | Oui | Pilote `rtl8812au` (DKMS), bidouille parfois |
+| **Realtek RTL8811AU** | Alfa AWUS036ACS | 2.4 + 5 | Oui | Oui | Compact, moins puissant |
+| **Realtek RTL8814AU** | Alfa AWUS1900 | 2.4 + 5 (AC1900) | Oui | Oui | 4 antennes, MIMO 4x4 |
+| **Mediatek MT7612U** | Alfa AWUS036ACM | 2.4 + 5 | Oui | Oui | Pilote mainline `mt76`, très propre |
+| **Mediatek MT7921AU** | Alfa AWUS036AXML | 2.4 + 5 + 6 (Wi-Fi 6E) | Oui | partiel | Wi-Fi 6E, support en cours |
+| **Ralink RT3070** | Alfa AWUS036NH | 2.4 GHz | Oui | Oui | Ancien, `rt2800usb`, fiable |
 
 ### Cartes à éviter
 
@@ -169,3 +172,6 @@ sudo iw reg set US
 ```
 
 **Note** : forcer un domaine plus permissif que le sien est illégal en émission. Restez en `FR`/`EU` hors lab isolé.
+
+> [!quiz] Pourquoi la portée calculée par le budget de liaison doit-elle être divisée par 5 à 10 en pratique ?
+> La formule `40 + 20 log10(d)` décrit une propagation en espace libre, donc une ligne de vue parfaite sans aucun obstacle. Elle ignore l'atténuation des murs et du feuillage, le multipath et le bruit ambiant qui dégradent le rapport signal/bruit. Le résultat n'est qu'une borne haute théorique, inutilisable pour positionner du matériel lors d'un audit.

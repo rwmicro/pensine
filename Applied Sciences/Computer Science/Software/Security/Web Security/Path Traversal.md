@@ -14,6 +14,9 @@ Le path traversal (traversée de répertoire) exploite l'utilisation de chemins 
 > [!important] Path traversal vs LFI
 > Le path traversal permet de **lire** n'importe quel fichier accessible. Le LFI (Local File Inclusion) va plus loin : le fichier lu est ensuite **exécuté comme du code** par l'application (`include` en PHP). C'est cette différence qui transforme une simple fuite d'information en RCE potentiel.
 
+> [!abstract] Définition — Path Traversal
+> Le path traversal désigne l'exploitation d'un chemin de fichier contrôlé par l'utilisateur pour sortir du répertoire prévu, au moyen de séquences `../` ou de leurs encodages. Il aboutit à la lecture de fichiers arbitraires accessibles au processus serveur. Couplé à une inclusion de fichier, il peut conduire à l'exécution de code.
+
 ## Principe
 
 ```
@@ -256,10 +259,13 @@ if (!resolved.startsWith(base)) {
 
 ```
 Bonnes pratiques :
-✓ Résoudre le chemin absolu (realpath) avant toute vérification
-✓ Comparer le chemin résolu au répertoire de base autorisé
-✓ Ne jamais concaténer directement des entrées utilisateur dans des chemins
-✓ Utiliser une whitelist de noms de fichiers autorisés si possible
-✓ Sur Linux : chroot ou namespaces pour limiter l'accès au filesystem
-✓ PHP : désactiver allow_url_include et allow_url_fopen si pas nécessaire
+- Résoudre le chemin absolu (realpath) avant toute vérification
+- Comparer le chemin résolu au répertoire de base autorisé
+- Ne jamais concaténer directement des entrées utilisateur dans des chemins
+- Utiliser une whitelist de noms de fichiers autorisés si possible
+- Sur Linux : chroot ou namespaces pour limiter l'accès au filesystem
+- PHP : désactiver allow_url_include et allow_url_fopen si pas nécessaire
 ```
+
+> [!quiz] Pourquoi valider le chemin après `realpath` est-il plus fiable que filtrer la chaîne `../` ?
+> Un filtrage de chaîne en une passe est contournable par imbrication (`....//`), double encodage ou variantes Unicode, car la suppression laisse un `../` résiduel. `realpath` ramène toutes ces écritures vers un chemin canonique unique. Comparer ce chemin résolu au préfixe du répertoire de base tranche alors sur la seule valeur réellement utilisée par le système.

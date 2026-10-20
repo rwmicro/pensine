@@ -11,6 +11,9 @@ prerequis: ["[[File Upload Vulnerabilities]]", "[[Command Injection]]"]
 
 Un web shell est un script malveillant déposé sur un serveur web permettant l'exécution de commandes à distance via HTTP. Il constitue un mécanisme de persistance et de contrôle post-exploitation après une vulnérabilité d'upload, une RCE, ou un accès en écriture sur le serveur.
 
+> [!abstract] Définition — Web Shell
+> Un web shell est un script serveur (PHP, ASPX, JSP, Python) qui expose l'exécution de commandes système ou la manipulation de fichiers à travers des paramètres HTTP. Il sert de point d'accès persistant et interactif après une compromission, sans nécessiter de listener sortant. Sa détection repose sur la recherche de motifs d'exécution dynamique (`eval`, `system`, `base64_decode`) et sur la surveillance des fichiers créés dans le document root.
+
 ## Types de web shells par langage
 
 ### PHP
@@ -264,13 +267,13 @@ aide --check
 
 ```
 Côté serveur web :
-  ✓ Désactiver les fonctions PHP dangereuses (disable_functions dans php.ini)
+  - Désactiver les fonctions PHP dangereuses (disable_functions dans php.ini)
     disable_functions = system,exec,shell_exec,passthru,proc_open,popen
-  ✓ Stocker les uploads hors du document root (non accessible par HTTP)
-  ✓ Valider le type MIME côté serveur (pas seulement Content-Type du client)
-  ✓ Renommer les fichiers uploadés avec un nom aléatoire + extension forcée
-  ✓ Ne pas exécuter de code dans les dossiers d'upload (noexec mount option)
-  ✓ Nginx/Apache : désactiver l'interprétation PHP dans les dossiers d'upload
+  - Stocker les uploads hors du document root (non accessible par HTTP)
+  - Valider le type MIME côté serveur (pas seulement Content-Type du client)
+  - Renommer les fichiers uploadés avec un nom aléatoire + extension forcée
+  - Ne pas exécuter de code dans les dossiers d'upload (noexec mount option)
+  - Nginx/Apache : désactiver l'interprétation PHP dans les dossiers d'upload
 
   Nginx :
   location /uploads/ {
@@ -284,9 +287,12 @@ Côté serveur web :
   </Directory>
 
 Monitoring :
-  ✓ Surveiller les fichiers créés dans le document root (auditd, inotify)
-  ✓ HIDS (OSSEC, Wazuh) : alerte sur les nouveaux fichiers PHP
-  ✓ WAF : bloquer les requêtes suspectes vers des fichiers inhabituels
-  ✓ Analyse des logs : accès aux fichiers avec des paramètres cmd, exec, etc.
-  ✓ Chkrootkit, rkhunter : audit régulier du système
+  - Surveiller les fichiers créés dans le document root (auditd, inotify)
+  - HIDS (OSSEC, Wazuh) : alerte sur les nouveaux fichiers PHP
+  - WAF : bloquer les requêtes suspectes vers des fichiers inhabituels
+  - Analyse des logs : accès aux fichiers avec des paramètres cmd, exec, etc.
+  - Chkrootkit, rkhunter : audit régulier du système
 ```
+
+> [!quiz] Pourquoi stocker les uploads hors du document root ferme-t-il la classe de vulnérabilité, alors que `disable_functions` ne le fait pas ?
+> Un fichier non servable par le serveur web ne peut jamais être interprété, quel que soit son contenu ou son extension. `disable_functions` ne bloque que les fonctions explicitement listées et se contourne via d'autres fonctions, des extensions ou `LD_PRELOAD`. La mesure structurelle supprime l'exécution, le filtrage ne fait que réduire la probabilité.

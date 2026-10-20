@@ -8,6 +8,9 @@ date: "2026-03-22"
 
 # SMTP et Email Attacks
 
+> [!abstract] Définition — DMARC
+> DMARC est la politique publiée dans le DNS qui indique au serveur récepteur quoi faire lorsque SPF et DKIM ne donnent pas un résultat aligné avec le domaine affiché dans l'en-tête `From`. Elle fixe le mode d'application (`none`, `quarantine`, `reject`), le taux de couverture et les adresses de rapport.
+
 ## Protocoles d'authentification email
 
 ### SPF (Sender Policy Framework)
@@ -222,20 +225,23 @@ swaks --to test@gmail.com --from spoofed@target.com --server localhost
 
 ```
 Configuration d'un domaine sécurisé :
-✓ SPF : "v=spf1 include:authorized-servers.com -all" (HardFail)
-✓ DKIM : clés RSA 2048 bits minimum, rotation annuelle
-✓ DMARC : commencer par p=none → surveiller → migrer vers p=reject
+- SPF : "v=spf1 include:authorized-servers.com -all" (HardFail)
+- DKIM : clés RSA 2048 bits minimum, rotation annuelle
+- DMARC : commencer par p=none → surveiller → migrer vers p=reject
    "v=DMARC1; p=reject; rua=mailto:dmarc@domain.com; pct=100; aspf=s; adkim=s"
    aspf=s et adkim=s → alignement strict (le sous-domaine doit correspondre exactement)
-✓ MTA-STS : forcer TLS pour les connexions SMTP entrants
-✓ BIMI : logo de marque dans les clients email (requiert DMARC p=quarantine/reject)
+- MTA-STS : forcer TLS pour les connexions SMTP entrants
+- BIMI : logo de marque dans les clients email (requiert DMARC p=quarantine/reject)
 
 Anti-phishing :
-✓ Filtrage des emails entrants (SPF/DKIM/DMARC + réputation IP)
-✓ Sandboxing des pièces jointes
-✓ Formation des utilisateurs (simulations de phishing avec Gophish)
-✓ Signalement facile des emails suspects (bouton dans le client email)
+- Filtrage des emails entrants (SPF/DKIM/DMARC + réputation IP)
+- Sandboxing des pièces jointes
+- Formation des utilisateurs (simulations de phishing avec Gophish)
+- Signalement facile des emails suspects (bouton dans le client email)
 
 Désactiver VRFY et EXPN sur les serveurs SMTP (Postfix) :
   disable_vrfy_command = yes
 ```
+
+> [!quiz] Pourquoi un open relay reste-t-il exploitable même si le domaine cible publie SPF, DKIM et DMARC en `reject` ?
+> L'email est émis par le serveur SMTP légitime de la cible, dont l'adresse figure dans son SPF : le contrôle d'origine passe donc sans anomalie. Le problème est une erreur de configuration du relais, qui accepte du courrier pour des domaines qu'il n'héberge pas, et non une faiblesse des mécanismes d'authentification.

@@ -10,6 +10,9 @@ date: "2026-05-17"
 
 WPA3 (2018) corrige plusieurs faiblesses de WPA2 : brute-force offline, absence de forward secrecy, hotspots non chiffrés. Mais le standard a lui-même connu des CVE majeures (Dragonblood, FragAttacks).
 
+> [!abstract] Définition — SAE (Simultaneous Authentication of Equals)
+> Échange de clé authentifié par mot de passe utilisé par WPA3-Personal, fondé sur le `password element` dérivé du PSK et sur le framework Dragonfly. Chaque session produit un secret éphémère, ce qui interdit de rejouer un échange capturé ou de le vérifier hors ligne. Il remplace le 4-way handshake PSK de WPA2 comme source de la PMK.
+
 ## WPA3-Personal — SAE (Dragonfly handshake)
 
 SAE = **Simultaneous Authentication of Equals**. Échange de clé à mot de passe authentifié, basé sur l'élément `password element` dérivé du PSK.
@@ -52,9 +55,9 @@ Chaque échange dépend d'un secret éphémère → impossible de rejouer ou bru
 
 Remplace les hotspots "Open" non chiffrés. Diffie-Hellman entre client et AP pour chiffrer la session **sans authentification**.
 
-- ✓ Protège contre le sniff passif
-- ✗ Vulnérable au MITM (Evil Twin avec OWE possible)
-- ✗ Pas d'authentification mutuelle
+- Protège contre le sniff passif
+- Vulnérable au MITM (Evil Twin avec OWE possible)
+- Pas d'authentification mutuelle
 
 ## CVE majeures
 
@@ -206,3 +209,6 @@ sae_pwe=2          # 0=hunting-and-pecking, 1=H2E, 2=both
 | Entreprise | WPA3-Enterprise + EAP-TLS, AC interne, validation cert obligatoire |
 | Public | OWE (au minimum), VPN systématique côté client |
 | Critique | WPA3-Enterprise Suite-B 192 bits, certificats clients HSM-backed |
+
+> [!quiz] Comment le mode transition WPA3 permet-il de récupérer un handshake crackable hors ligne ?
+> Un client configuré en WPA3 accepte encore, en mode transition, de s'associer à un AP n'annonçant que WPA2. Un Evil Twin WPA2-only diffusant le même SSID le fait donc se rabattre sur le 4-way handshake WPA2, dont la capture suffit à un brute-force offline. D'où la mitigation : passer en WPA3-only dès que le parc le permet.

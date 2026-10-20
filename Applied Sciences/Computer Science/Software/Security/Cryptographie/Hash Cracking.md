@@ -11,6 +11,9 @@ prerequis: ["[[Cryptographie]]"]
 
 Le cassage de hash consiste à retrouver une valeur en clair à partir d'un hash, en testant des candidats jusqu'à trouver celui qui produit le même hash. C'est une étape centrale en pentest (mots de passe, hashes NTLM, tickets Kerberos).
 
+> [!abstract] Définition — Hash (empreinte cryptographique)
+> Résultat de longueur fixe produit par une fonction à sens unique (MD5, SHA-1, NTLM, bcrypt) à partir d'une entrée arbitraire. Le cassage ne remonte jamais le hash : il teste des candidats et compare leurs empreintes, ce qui rend la vitesse de la fonction et la taille de l'espace des mots de passe décisives. Un salt unique par utilisateur empêche de mutualiser ce travail entre comptes.
+
 ## Identifier un hash
 
 ```bash
@@ -253,10 +256,13 @@ rcrack . -h NTLM_HASH        # Chercher dans les tables
 
 ```
 Pour résister au cassage :
-✓ bcrypt (coût 12+), Argon2id, ou scrypt — fonctions de hachage à coût paramétrable
-✓ JAMAIS MD5, SHA-1, SHA-256 seuls pour les mots de passe (trop rapides)
-✓ Salt unique par utilisateur (généré aléatoirement, min 16 octets)
-✓ Politique de mots de passe forts (min 12 chars, complexité)
-✓ Vérifier les mots de passe contre des listes de compromis (HaveIBeenPwned API)
-✓ MFA pour limiter l'impact d'un mot de passe compromis
+- bcrypt (coût 12+), Argon2id, ou scrypt — fonctions de hachage à coût paramétrable
+- JAMAIS MD5, SHA-1, SHA-256 seuls pour les mots de passe (trop rapides)
+- Salt unique par utilisateur (généré aléatoirement, min 16 octets)
+- Politique de mots de passe forts (min 12 chars, complexité)
+- Vérifier les mots de passe contre des listes de compromis (HaveIBeenPwned API)
+- MFA pour limiter l'impact d'un mot de passe compromis
 ```
+
+> [!quiz] Pourquoi bcrypt résiste-t-il bien mieux que NTLM au cassage, même pour un mot de passe faible ?
+> Parce que bcrypt est volontairement lent et à coût paramétrable : un facteur 12 impose des milliers d'itérations, d'où un débit de l'ordre de 184 kH/s sur GPU contre 200 GH/s pour NTLM. Ce rapport de plusieurs millions rend une recherche exhaustive impraticable sur le même matériel. Le salt intégré empêche en plus toute réutilisation de rainbow tables ou de résultats entre comptes.

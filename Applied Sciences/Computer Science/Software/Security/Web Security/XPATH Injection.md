@@ -10,6 +10,9 @@ date: "2026-03-22"
 
 L'injection XPath exploite des requêtes XPath construites dynamiquement à partir d'entrées non filtrées. XPath est utilisé pour naviguer dans des documents XML, notamment dans les applications utilisant des fichiers XML comme base de données ou pour l'authentification.
 
+> [!abstract] Définition — Injection XPath
+> L'injection XPath consiste à introduire des métacaractères dans une expression XPath concaténée avec des entrées utilisateur, afin d'en modifier la sémantique. Elle permet de contourner une authentification en rendant le prédicat toujours vrai, ou d'extraire des noeuds et attributs arbitraires du document XML. Contrairement au SQL, XPath 1.0 n'offre pas de commentaire : le payload doit rester syntaxiquement valide jusqu'à la fin de l'expression.
+
 ## Rappel XPath
 
 ```
@@ -302,10 +305,13 @@ def escape_xpath(s):
 
 ```
 Règles générales :
-✓ Utiliser des requêtes XPath paramétrées (variables, pas de concaténation)
-✓ Valider les entrées en whitelist (alphanumérique uniquement si possible)
-✓ Principe du moindre privilège — limiter l'accès au document XML
-✓ Ne pas exposer les erreurs XPath en production (révèle la structure)
-✓ Utiliser une base de données relationnelle plutôt que XML pour les credentials
-✓ Logs : monitorer les requêtes XPath anormalement longues
+- Utiliser des requêtes XPath paramétrées (variables, pas de concaténation)
+- Valider les entrées en whitelist (alphanumérique uniquement si possible)
+- Principe du moindre privilège — limiter l'accès au document XML
+- Ne pas exposer les erreurs XPath en production (révèle la structure)
+- Utiliser une base de données relationnelle plutôt que XML pour les credentials
+- Logs : monitorer les requêtes XPath anormalement longues
 ```
+
+> [!quiz] Pourquoi les payloads d'injection XPath ne peuvent-ils pas utiliser `--` comme en SQL, et quelle construction le remplace ?
+> XPath 1.0 ne possède aucun jeton de commentaire : tout ce qui suit doit rester une expression valide, sinon le parseur renvoie une erreur. Les payloads utilisent donc l'union `|` pour ajouter un noeud sélectionné, puis une tautologie (`'a'='b`) pour refermer proprement la syntaxe. La paramétrisation par variables XPath reste la seule correction complète.

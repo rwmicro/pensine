@@ -14,6 +14,9 @@ Mimikatz est l'outil de référence pour l'extraction de credentials depuis la m
 > [!important] Idée clé
 > Mimikatz ne casse aucun chiffrement — il lit des secrets que LSASS garde nécessairement en mémoire (en clair ou sous une forme réversible) pour authentifier l'utilisateur sans lui redemander son mot de passe à chaque action. C'est pour ça que Credential Guard (isoler LSASS dans une enclave inaccessible) le neutralise complètement, alors que patcher LSASS ou l'obfusquer non.
 
+> [!abstract] Définition — Mimikatz
+> Outil de post-exploitation Windows qui extrait les secrets d'authentification depuis la mémoire et les bases locales : hashes NTLM, mots de passe en clair, tickets Kerberos, secrets LSA et DPAPI. Il ne casse aucun chiffrement, il lit les secrets que LSASS conserve pour authentifier l'utilisateur sans lui redemander son mot de passe. Ses modules sekurlsa, lsadump, kerberos et dpapi couvrent le vol, le dump et la forge de tickets.
+
 ## Prérequis et lancement
 
 ```powershell
@@ -201,11 +204,11 @@ La vue d'ensemble des techniques de vol d'identifiants (LSASS, SAM/NTDS, DCSync,
 
 ```
 Protection de LSASS :
-  ✓ Windows Credential Guard — les hashes NTLM et TGT sont dans une enclave VBS isolée
+  - Windows Credential Guard — les hashes NTLM et TGT sont dans une enclave VBS isolée
     → sekurlsa::logonpasswords ne fonctionne plus
-  ✓ Protected Process Light (PPL) pour LSASS
+  - Protected Process Light (PPL) pour LSASS
     → Mimikatz ne peut pas accéder à LSASS sans driver signé
-  ✓ Désactiver WDigest (Windows 10/2016+ : désactivé par défaut)
+  - Désactiver WDigest (Windows 10/2016+ : désactivé par défaut)
     HKLM\SYSTEM\CurrentControlSet\Control\SecurityProviders\WDigest → UseLogonCredential = 0
 
 Détection :
@@ -228,3 +231,6 @@ Détection :
 > - **`kerberos::ptt` accepte les .kirbi et .ccache** : selon la version, certains tickets refusent d'être injectés en raison de validation PAC. Vérifier ensuite avec `klist`.
 > - **Credential Guard activé = LSASS isolé** : Windows 10/11 Enterprise + Credential Guard chiffre LSASS dans un VTL. Mimikatz ne peut plus lire les secrets. Détectable avec `DeviceGuardSmartStatus` PowerShell.
 > - **Mimikatz 32-bit vs 64-bit** : sur un Windows x64, utiliser `mimikatz.exe` (x64). La version x86 ne peut pas dumper LSASS x64.
+
+> [!quiz] Pourquoi Credential Guard neutralise-t-il Mimikatz ?
+> Il place les secrets dérivés (hashes NTLM, TGT) dans une enclave VBS isolée du processus LSASS classique, inaccessible même avec SeDebugPrivilege. Obfusquer Mimikatz ne change que sa signature face à l'antivirus, pas le fait que les secrets visés ne sont plus dans la mémoire lisible.

@@ -13,6 +13,9 @@ Un VPN (Virtual Private Network) crée un tunnel chiffré entre deux points sur 
 > [!warning] Piège fréquent
 > PPTP reste parfois proposé par défaut sur du vieux matériel ou des configurations héritées pour sa simplicité et sa vitesse — mais son chiffrement MPPE/RC4 est cassé depuis longtemps. "Ça marche et c'est rapide" n'est pas un signal de sécurité ; un VPN dont le protocole est obsolète n'apporte quasiment aucune protection réelle.
 
+> [!abstract] Définition — Perfect Forward Secrecy (PFS)
+> Propriété par laquelle la compromission d'une clé de longue durée ne permet pas de déchiffrer les sessions déjà enregistrées. Chaque session négocie des clés éphémères via Diffie-Hellman, détruites à la fin de la connexion. WireGuard l'obtient par conception, IKEv2 par le renouvellement `CREATE_CHILD_SA`.
+
 ## Comparaison générale
 
 | Protocole | Couche OSI | Chiffrement | Performance | Complexité | Usage principal |
@@ -277,13 +280,13 @@ iptables -A OUTPUT -p udp --dport 53 -j ACCEPT     # DNS initial (résolution du
 
 ```
 Points à vérifier :
-✓ Algorithmes : AES-256-GCM, ChaCha20-Poly1305 (pas AES-CBC, pas RC4)
-✓ DH : groupes ≥ 3072 bits ou Curve25519 (pas groupe 1/2/5 Oakley)
-✓ Perfect Forward Secrecy activé
-✓ Certificats : SHA-256+, clés RSA ≥ 2048 bits ou ECDSA P-256+
-✓ TLS minimum 1.2 (si TLS utilisé)
-✓ Authentification mutuelle (pas seulement clé pré-partagée en entreprise)
-✓ Logs : sans connexion (no-log policy vérifiable pour VPN commerciaux)
+- Algorithmes : AES-256-GCM, ChaCha20-Poly1305 (pas AES-CBC, pas RC4)
+- DH : groupes ≥ 3072 bits ou Curve25519 (pas groupe 1/2/5 Oakley)
+- Perfect Forward Secrecy activé
+- Certificats : SHA-256+, clés RSA ≥ 2048 bits ou ECDSA P-256+
+- TLS minimum 1.2 (si TLS utilisé)
+- Authentification mutuelle (pas seulement clé pré-partagée en entreprise)
+- Logs : sans connexion (no-log policy vérifiable pour VPN commerciaux)
 ```
 
 ## GRE Tunnel
@@ -359,3 +362,6 @@ interface GigabitEthernet0/0
 # WireGuard over TCP via udp2raw
 # Convertit les paquets UDP WireGuard en paquets TCP (voire ICMP)
 ```
+
+> [!quiz] Pourquoi le mode tunnel IPSec est-il indispensable à un VPN site-à-site alors que le mode transport suffit en host-to-host ?
+> Le mode transport ne chiffre que le payload IP : l'en-tête original, donc les adresses réelles, reste visible, ce qui convient quand les deux extrémités parlent elles-mêmes IPSec. Le mode tunnel encapsule le paquet IP entier dans un nouveau paquet, masquant les adresses source et destination d'origine. C'est ce masquage qui est requis lorsque des passerelles chiffrent le trafic pour des machines qui n'ont aucune notion d'IPSec.

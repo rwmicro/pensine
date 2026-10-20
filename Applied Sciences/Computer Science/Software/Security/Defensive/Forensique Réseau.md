@@ -13,6 +13,9 @@ La forensique réseau consiste à capturer, enregistrer et analyser le trafic r�
 > [!important] Idée clé
 > Contrairement à la forensique disque/mémoire, le trafic réseau n'existe que pendant qu'il transite — sans capture active (PCAP, NetFlow, logs Zeek) au moment de l'incident, la preuve est perdue pour toujours. D'où l'intérêt de capturer en continu plutôt que d'essayer de reconstituer après coup.
 
+> [!abstract] Définition — PCAP
+> Format de fichier (pcap puis pcapng) qui enregistre les paquets capturés avec leur horodatage, leurs en-têtes protocolaires et leur charge utile. Il constitue la matière première de Wireshark, tshark et Zeek, et permet de rejouer une analyse plusieurs fois sans recapturer. Sa valeur probante dépend de l'intégrité du fichier et de la traçabilité de la capture.
+
 ## Capture de trafic
 
 ### tcpdump — Capture en ligne de commande
@@ -264,19 +267,22 @@ cat dns.log | zeek-cut query | grep -E "cloudflare-dns|dns.google|1.1.1.1"
 
 ```
 Déploiement de la capture réseau :
-  ✓ Full packet capture sur les liens critiques (TAP ou SPAN port)
-  ✓ NetFlow/IPFIX pour une vue légère sur tout le réseau (moins de détail, plus de volume)
-  ✓ Rétention : 7 à 30 jours pour les PCAPs, 90+ jours pour les métadonnées (NetFlow)
+  - Full packet capture sur les liens critiques (TAP ou SPAN port)
+  - NetFlow/IPFIX pour une vue légère sur tout le réseau (moins de détail, plus de volume)
+  - Rétention : 7 à 30 jours pour les PCAPs, 90+ jours pour les métadonnées (NetFlow)
 
 Outils de détection temps réel :
-  ✓ Suricata / Snort : IDS/IPS avec règles Emerging Threats
-  ✓ Zeek : analyse comportementale
-  ✓ RITA : beaconing, long connections, DNS anomalies
-  ✓ Arkime (Moloch) : full packet capture + interface de recherche
+  - Suricata / Snort : IDS/IPS avec règles Emerging Threats
+  - Zeek : analyse comportementale
+  - RITA : beaconing, long connections, DNS anomalies
+  - Arkime (Moloch) : full packet capture + interface de recherche
 
 Chiffrement et détection :
-  ✓ TLS inspection (SSL bumping) sur les proxies sortants
-  ✓ Analyse des métadonnées TLS (JA3, SNI, certificat) même sans déchiffrement
-  ✓ DNS : déployer un resolver interne loggé, bloquer le DNS direct vers internet
-  ✓ DNS over HTTPS : forcer le passage par le resolver interne (bloquer DoH externe)
+  - TLS inspection (SSL bumping) sur les proxies sortants
+  - Analyse des métadonnées TLS (JA3, SNI, certificat) même sans déchiffrement
+  - DNS : déployer un resolver interne loggé, bloquer le DNS direct vers internet
+  - DNS over HTTPS : forcer le passage par le resolver interne (bloquer DoH externe)
 ```
+
+> [!quiz] Pourquoi le beaconing C2 se détecte-t-il par la régularité des intervalles plutôt que par le contenu des requêtes ?
+> Le contenu est souvent chiffré en HTTPS ou noyé dans du trafic banal, alors que la périodicité reste une signature mesurable : mêmes intervalles à jitter près, tailles de requête similaires, destination récurrente. RITA et Zeek exploitent cette régularité statistique sur les logs de connexion, là où une inspection à l'œil sur des logs bruts ne la verrait pas.

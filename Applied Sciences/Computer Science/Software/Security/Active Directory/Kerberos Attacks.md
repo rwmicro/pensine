@@ -14,6 +14,9 @@ Kerberos est le protocole d'authentification central d'Active Directory. Ses mé
 > [!important] Distinction clé
 > Ces attaques se répartissent en deux familles très différentes : celles qui **craquent un secret hors ligne** (Kerberoasting, AS-REP Roasting — pas de lockout, silencieuses) et celles qui **forgent directement un ticket** à partir d'un hash déjà obtenu (Golden/Silver Ticket — accès immédiat, pas de cracking). Confondre les deux fait perdre du temps sur la mauvaise approche.
 
+> [!abstract] Définition — Kerberos
+> Protocole d'authentification à tickets utilisé par Active Directory, dans lequel le KDC délivre un TGT puis des TGS pour chaque service. La sécurité repose sur les hashes des comptes : celui de krbtgt signe les TGT, celui d'un compte de service chiffre ses TGS. Les attaques consistent soit à cracker ces tickets hors ligne, soit à en forger directement à partir d'un hash déjà obtenu.
+
 ## Rappel du protocole Kerberos
 
 ```mermaid
@@ -306,25 +309,25 @@ python3 getST.py -spn cifs/TARGET.domaine.local \
 
 ```
 Contre le Kerberoasting :
-  ✓ Mots de passe longs (25+ caractères) pour les comptes de service
-  ✓ Utiliser des Managed Service Accounts (MSA/gMSA) — mots de passe auto-générés 120 chars
-  ✓ AES only — désactiver RC4 pour les comptes de service (RC4 = plus rapide à cracker)
-  ✓ Surveiller les demandes massives de TGS (Event ID 4769)
+  - Mots de passe longs (25+ caractères) pour les comptes de service
+  - Utiliser des Managed Service Accounts (MSA/gMSA) — mots de passe auto-générés 120 chars
+  - AES only — désactiver RC4 pour les comptes de service (RC4 = plus rapide à cracker)
+  - Surveiller les demandes massives de TGS (Event ID 4769)
 
 Contre l'AS-REP Roasting :
-  ✓ Ne jamais désactiver la pré-authentification Kerberos sans raison légitime
-  ✓ Auditer régulièrement (DONT_REQUIRE_PREAUTH) : Get-DomainUser -UACFilter DONT_REQ_PREAUTH
+  - Ne jamais désactiver la pré-authentification Kerberos sans raison légitime
+  - Auditer régulièrement (DONT_REQUIRE_PREAUTH) : Get-DomainUser -UACFilter DONT_REQ_PREAUTH
 
 Contre les Golden/Silver Tickets :
-  ✓ Changer le mot de passe de krbtgt deux fois (invalide tous les TGTs existants)
-  ✓ Rotation régulière du mot de passe krbtgt (tous les 180 jours minimum)
-  ✓ Protected Users Security Group : empêche la délégation, force Kerberos AES
-  ✓ Credential Guard : protège les tickets en mémoire
+  - Changer le mot de passe de krbtgt deux fois (invalide tous les TGTs existants)
+  - Rotation régulière du mot de passe krbtgt (tous les 180 jours minimum)
+  - Protected Users Security Group : empêche la délégation, force Kerberos AES
+  - Credential Guard : protège les tickets en mémoire
 
 Contre la délégation non contrainte :
-  ✓ Auditer les comptes avec délégation non contrainte (hors DC)
-  ✓ Préférer la délégation contrainte ou RBCD aux déploiements légitimes
-  ✓ Activer "Account is sensitive and cannot be delegated" sur les comptes admin
+  - Auditer les comptes avec délégation non contrainte (hors DC)
+  - Préférer la délégation contrainte ou RBCD aux déploiements légitimes
+  - Activer "Account is sensitive and cannot be delegated" sur les comptes admin
 
 Détection :
   Event ID 4768 : demande de TGT (AS-REQ)
@@ -346,3 +349,6 @@ Détection :
 > - **PAC validation et signature** : depuis les CVE 2022 (CVE-2022-37967), Microsoft a renforcé les signatures PAC. Certains Golden/Silver Tickets old-school échouent maintenant. Toujours forger avec les signatures correctes (`/sids` et `/groups` cohérents avec le domaine).
 > - **`klist` montre les tickets mais ne les valide pas** : un ticket peut apparaître valide dans `klist` mais être rejeté par le service à l'usage. Tester avec un service réel (`dir \\target\C$`).
 > - **AES tickets requièrent la salt correcte** : pour forger un ticket AES, il faut la salt Kerberos exacte du compte (`USERNAMEdomain.com` pour user, `host/COMPUTERNAME.domain.comDOMAIN.COM` pour machine). Une salt incorrecte = signature invalide.
+
+> [!quiz] Pourquoi un Silver Ticket est-il plus discret qu'un Golden Ticket ?
+> Le Silver Ticket est un TGS forgé avec le hash du compte de service et présenté directement au service ciblé : le KDC n'est jamais contacté, donc aucun événement 4768/4769 n'apparaît côté domaine. Le Golden Ticket est un TGT qui doit être échangé auprès du KDC pour obtenir des TGS, ce qui laisse une trace côté DC.

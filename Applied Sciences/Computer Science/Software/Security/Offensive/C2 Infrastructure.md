@@ -10,6 +10,9 @@ date: "2026-03-22"
 
 L'infrastructure de Command & Control (C2) permet aux red teams et attaquants de maintenir la communication avec les agents déployés sur des systèmes compromis. Une infrastructure robuste protège l'opérateur, assure la persistance des communications, et contourne les défenses réseau.
 
+> [!abstract] Définition — Infrastructure C2
+> Ensemble des composants qui permettent à un opérateur de piloter des agents déployés sur des systèmes compromis : team server, redirecteurs, domaines et canaux de communication. Elle est architecturée pour qu'un élément exposé puisse être sacrifié sans entraîner la perte du team server ni de la campagne.
+
 ## Architecture C2 — Principes
 
 ```
@@ -249,27 +252,27 @@ Catégories de domaines pour C2 :
 OPSEC C2 — minimiser les traces détectables :
 
 Séparation des rôles :
-  ✓ Un redirecteur par campagne (rotation si brûlé)
-  ✓ Team server jamais exposé directement
-  ✓ Infrastructure différente pour chaque client/engagement
+  - Un redirecteur par campagne (rotation si brûlé)
+  - Team server jamais exposé directement
+  - Infrastructure différente pour chaque client/engagement
 
 Trafic :
-  ✓ Malleable profiles imitant du trafic légitime réel (analyser pcap d'applications cibles)
-  ✓ Jitter + sleep time réalistes (pas de beacon toutes les 60s exactement)
-  ✓ Pas de communication aux heures creuses (adapter aux horaires bureau cibles)
-  ✓ Chiffrement de bout en bout (TLS avec certificat valide)
+  - Malleable profiles imitant du trafic légitime réel (analyser pcap d'applications cibles)
+  - Jitter + sleep time réalistes (pas de beacon toutes les 60s exactement)
+  - Pas de communication aux heures creuses (adapter aux horaires bureau cibles)
+  - Chiffrement de bout en bout (TLS avec certificat valide)
 
 Infrastructure :
-  ✓ Payer les serveurs avec de la crypto (traçabilité réduite)
-  ✓ VPS dans des juridictions favorables
-  ✓ Compartimenter : phishing infra ≠ C2 infra ≠ exfil infra
-  ✓ Détruire l'infrastructure à la fin de l'engagement
+  - Payer les serveurs avec de la crypto (traçabilité réduite)
+  - VPS dans des juridictions favorables
+  - Compartimenter : phishing infra ≠ C2 infra ≠ exfil infra
+  - Détruire l'infrastructure à la fin de l'engagement
 
 Contre-détection :
-  ✓ Analyser son propre trafic C2 avec Wireshark avant déploiement
-  ✓ Scanner son redirecteur avec des outils de threat intel (Shodan, Censys)
-  ✓ Vérifier que les headers HTTP du redirecteur ne révèlent pas le framework
-  ✓ Désactiver les ports et services inutiles sur les redirecteurs
+  - Analyser son propre trafic C2 avec Wireshark avant déploiement
+  - Scanner son redirecteur avec des outils de threat intel (Shodan, Censys)
+  - Vérifier que les headers HTTP du redirecteur ne révèlent pas le framework
+  - Désactiver les ports et services inutiles sur les redirecteurs
 ```
 
 Les profils malleables, la sémantique du beacon, les canaux alternatifs (DNS, DoH, SMB, SaaS) et le durcissement du teamserver sont approfondis dans [[C2 avancé]]. La posture OPSEC de l'opérateur, la séparation des identités et le burn control sont traités dans [[OPSEC Red Team]].
@@ -298,3 +301,6 @@ Indicateurs de C2 :
 Règles Sigma pour la détection de C2 courants :
   → Sigma rules disponibles dans le repo SigmaHQ pour Cobalt Strike, Sliver, etc.
 ```
+
+> [!quiz] Dans le domain fronting, quels deux champs de la requête divergent, et lequel sert au routage ?
+> Le SNI de la poignée de main TLS porte le domaine légitime hébergé par le CDN, tandis que l'en-tête HTTP `Host` désigne le domaine C2. Le CDN route sur le `Host` et transmet donc le trafic vers l'infrastructure de l'attaquant, alors que l'observateur réseau ne voit que le domaine légitime dans le TLS.

@@ -10,6 +10,9 @@ date: "2026-03-22"
 
 Kubernetes (K8s) orchestre des conteneurs à grande échelle. Sa complexité et ses configurations par défaut peu sécurisées en font une cible de choix.
 
+> [!abstract] Définition — RBAC Kubernetes
+> Mécanisme d'autorisation de l'API server qui accorde des verbes (`get`, `list`, `create`, `exec`) sur des ressources (`pods`, `secrets`) à des sujets (utilisateurs, groupes, ServiceAccounts). Les `Role` et `RoleBinding` s'appliquent à un namespace, les `ClusterRole` et `ClusterRoleBinding` à tout le cluster. Les règles sont purement additives et sans deny : un wildcard ou la permission de créer des pods suffit souvent à obtenir un accès root sur le nœud.
+
 ## Architecture et surface d'attaque
 
 ```
@@ -289,14 +292,17 @@ rules:
 
 ```
 Checklist Kubernetes :
-✓ RBAC avec least privilege — pas de wildcards
-✓ Pas de ServiceAccount token auto-monté si non nécessaire
-✓ Network Policies pour isoler les namespaces
-✓ Pod Security Standards (Restricted) sur les namespaces production
-✓ Secrets chiffrés dans etcd (EncryptionConfiguration)
-✓ Audit logs de l'API server activés
-✓ Images scannées avant déploiement (Trivy, Snyk)
-✓ Falco pour la détection comportementale à l'exécution
-✓ Pas d'accès anonyme au kubelet (--anonymous-auth=false)
-✓ API server non exposé sur Internet
+- RBAC avec least privilege — pas de wildcards
+- Pas de ServiceAccount token auto-monté si non nécessaire
+- Network Policies pour isoler les namespaces
+- Pod Security Standards (Restricted) sur les namespaces production
+- Secrets chiffrés dans etcd (EncryptionConfiguration)
+- Audit logs de l'API server activés
+- Images scannées avant déploiement (Trivy, Snyk)
+- Falco pour la détection comportementale à l'exécution
+- Pas d'accès anonyme au kubelet (--anonymous-auth=false)
+- API server non exposé sur Internet
 ```
+
+> [!quiz] Pourquoi la permission de créer des pods équivaut-elle presque à un accès root sur le nœud ?
+> Un pod créé peut déclarer `hostPID`, `hostNetwork`, un `hostPath` sur `/` et `securityContext.privileged: true`, ce qui monte le système de fichiers du nœud dans le conteneur. Un simple `chroot /host /bin/bash` depuis ce pod donne un shell root sur le nœud, puis l'accès aux autres pods et à etcd. La permission `create pods` doit donc être traitée avec la même criticité que `cluster-admin`.

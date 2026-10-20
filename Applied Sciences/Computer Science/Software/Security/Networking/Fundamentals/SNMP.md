@@ -10,6 +10,9 @@ date: "2026-03-22"
 
 SNMP (Simple Network Management Protocol) est utilisé pour surveiller et gérer des équipements réseau (routeurs, switches, imprimantes, serveurs). Ses versions v1 et v2c utilisent des "community strings" en clair, souvent laissées à leurs valeurs par défaut, ce qui en fait un vecteur d'énumération important.
 
+> [!abstract] Définition — Community string
+> Chaîne de caractères servant d'unique secret d'authentification en SNMPv1 et v2c, transmise en clair dans chaque datagramme. Elle porte en pratique les droits de lecture (`public` par défaut) ou d'écriture (`private`), sans identification par utilisateur ni chiffrement du transport.
+
 ## Versions et sécurité
 
 | Version | Auth | Chiffrement | Problème |
@@ -171,12 +174,15 @@ nmap -sU -p 161 --open 192.168.1.0/24
 ## Contre-mesures
 
 ```
-✓ Désactiver SNMP si non utilisé
-✓ Utiliser SNMPv3 avec auth + chiffrement (authPriv)
-✓ Changer les community strings par défaut (public/private)
-✓ Utiliser des community strings longues et aléatoires
-✓ Restreindre SNMP aux seuls hôtes de supervision (ACL réseau)
-✓ Filtrer UDP 161/162 au niveau du firewall (accès depuis management VLAN uniquement)
-✓ Community "private" (écriture) : accessible seulement depuis le serveur NMS
-✓ Surveiller les requêtes SNMP anormales (volume, sources)
+- Désactiver SNMP si non utilisé
+- Utiliser SNMPv3 avec auth + chiffrement (authPriv)
+- Changer les community strings par défaut (public/private)
+- Utiliser des community strings longues et aléatoires
+- Restreindre SNMP aux seuls hôtes de supervision (ACL réseau)
+- Filtrer UDP 161/162 au niveau du firewall (accès depuis management VLAN uniquement)
+- Community "private" (écriture) : accessible seulement depuis le serveur NMS
+- Surveiller les requêtes SNMP anormales (volume, sources)
 ```
+
+> [!quiz] Pourquoi une community string `public` en lecture seule constitue-t-elle déjà une compromission sérieuse ?
+> Parce que la lecture expose bien plus que l'état de l'équipement : `sysDescr` donne l'OS et la version, et les branches MIB-II livrent table de routage, interfaces, ARP, connexions TCP et processus. Sur Windows, les MIB propriétaires `1.3.6.1.4.1.77.1.2.25` et `.3` ajoutent utilisateurs et partages réseau. Ces informations suffisent à cartographier la cible et à préparer une attaque sans jamais obtenir l'accès en écriture.

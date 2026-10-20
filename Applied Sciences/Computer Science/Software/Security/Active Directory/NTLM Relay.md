@@ -14,6 +14,9 @@ Le NTLM relay consiste à relayer une authentification NTLM capturée vers un au
 > [!important] Distinction clé
 > Le relay NTLM ne casse rien et ne vole aucun hash à cracker — l'attaquant se contente de se placer au milieu d'une authentification en cours et de la retransmettre en temps réel vers une cible différente de celle prévue par la victime. C'est le SMB Signing (ou l'EPA côté HTTP/LDAP) qui empêche ce détournement, pas la force du mot de passe.
 
+> [!abstract] Définition — NTLM Relay
+> Attaque d'homme du milieu qui intercepte une authentification NTLM et la retransmet en temps réel vers un autre serveur que celui visé par la victime. L'attaquant n'obtient ni hash ni mot de passe : il réutilise la session authentifiée tant que le service cible n'exige pas de signature. Le SMB Signing, la signature LDAP et l'EPA sont les protections qui bloquent ce détournement.
+
 ## Rappel du protocole NTLM
 
 ```
@@ -212,29 +215,29 @@ WebDAV → SMB :
 
 ```
 SMB Signing :
-  ✓ Activer SMB Signing requis (Required) sur TOUTES les machines (pas seulement les DCs)
+  - Activer SMB Signing requis (Required) sur TOUTES les machines (pas seulement les DCs)
     GPO : Computer Configuration → Windows Settings → Security Settings →
           Local Policies → Security Options →
           "Microsoft network server: Digitally sign communications (always)" = Enabled
-  ✓ Coût : légère augmentation de CPU, impact réseau minimal
+  - Coût : légère augmentation de CPU, impact réseau minimal
 
 LDAP Signing + Channel Binding :
-  ✓ Activer LDAP Signing = Required sur les DCs (depuis KB4520412)
-  ✓ Activer LDAP Channel Binding = Always
+  - Activer LDAP Signing = Required sur les DCs (depuis KB4520412)
+  - Activer LDAP Channel Binding = Always
     GPO : Domain Controller → LDAP server channel binding token requirements
 
 Désactiver LLMNR et NBT-NS (tarit les authentifications spontanées) :
-  ✓ GPO : désactiver LLMNR (Turn off multicast name resolution)
-  ✓ Désactiver NetBIOS over TCP/IP sur les interfaces réseau
-  ✓ Déployer WPAD via DNS (évite que les clients cherchent via LLMNR)
+  - GPO : désactiver LLMNR (Turn off multicast name resolution)
+  - Désactiver NetBIOS over TCP/IP sur les interfaces réseau
+  - Déployer WPAD via DNS (évite que les clients cherchent via LLMNR)
 
 IPv6 :
-  ✓ Désactiver IPv6 si non utilisé (mitm6 l'exploite)
-  ✓ Ou déployer des protections DHCPv6 (DHCPv6 snooping sur les switches)
+  - Désactiver IPv6 si non utilisé (mitm6 l'exploite)
+  - Ou déployer des protections DHCPv6 (DHCPv6 snooping sur les switches)
 
 EPA (Extended Protection for Authentication) :
-  ✓ Activer EPA sur IIS, Exchange, ADCS
-  ✓ Lie l'authentification au canal TLS → relay HTTPS → LDAP impossible
+  - Activer EPA sur IIS, Exchange, ADCS
+  - Lie l'authentification au canal TLS → relay HTTPS → LDAP impossible
 
 Détection :
   Event ID 4624 : authentifications NTLM depuis des sources inattendues
@@ -257,3 +260,6 @@ Détection :
 > - **ntlmrelayx `--target-port` pour les services non-standards** : si l'auth tombe sur un AD CS sur port 8443 au lieu de 443, sans `--target-port 8443`, ça échoue silencieusement. Bien spécifier.
 > - **`-c` pour exécution de commande, `-e` pour script** : confusion classique des options. `-c "powershell ..."` exécute une commande shell. `-e payload.exe` exécute un binaire local sur la cible relayée. Lire la sortie.
 > - **Drop the MIC (CVE-2019-1040)** : permet de bypass le MIC (Message Integrity Check) NTLM, donc relay même sur des services protégés. À tester systématiquement avec `--remove-mic`.
+
+> [!quiz] Pourquoi désactiver SMB et HTTP dans Responder.conf lors d'un relay avec ntlmrelayx ?
+> Parce que les deux outils ne peuvent pas écouter sur les mêmes ports : si Responder garde SMB et HTTP actifs, il termine lui-même les authentifications au lieu de les transmettre. ntlmrelayx ne reçoit alors aucune connexion à relayer.

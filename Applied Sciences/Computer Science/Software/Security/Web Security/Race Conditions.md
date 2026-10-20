@@ -13,6 +13,9 @@ Une race condition (ou TOCTOU — Time Of Check / Time Of Use) survient quand un
 > [!important] Idée clé
 > Le code n'a **aucun bug visible en lecture** — chaque étape prise isolément est correcte. La faille n'existe que dans la fenêtre temporelle entre la vérification et l'action, invisible sauf en pensant explicitement en termes de concurrence.
 
+> [!abstract] Définition — Race Condition
+> Une race condition est une situation où le résultat dépend de l'ordre d'exécution d'opérations concurrentes, alors que le code les suppose séquentielles. La variante TOCTOU exploite précisément la fenêtre entre une vérification et l'action qui en dépend. En contexte web, elle permet surtout de franchir plusieurs fois une limite censée n'être utilisable qu'une seule.
+
 ## Principe fondamental
 
 ```
@@ -20,8 +23,8 @@ Opération normale (séquentielle) :
 [Vérifier solde] → [Débiter] → [Transférer]
 
 Attaque (parallèle) :
-Thread 1 : [Vérifier solde ✓] → ... → [Débiter]
-Thread 2 : [Vérifier solde ✓] → ... → [Débiter]
+Thread 1 : [Vérifier solde OK] → ... → [Débiter]
+Thread 2 : [Vérifier solde OK] → ... → [Débiter]
                      ↑
               Les deux lisent le solde avant que l'un des deux débite
               → Double débit possible
@@ -259,3 +262,6 @@ ADD CONSTRAINT unique_user_promo UNIQUE (user_id, promo_code);
 -- Si deux transactions insèrent simultanément → l'une obtiendra une erreur de contrainte
 -- Capturer l'exception et retourner "Déjà utilisé"
 ```
+
+> [!quiz] Pourquoi la technique single-packet augmente-t-elle le taux de succès d'une race condition ?
+> Avec des threads classiques, le jitter réseau et l'ordonnancement du système font arriver les requêtes à quelques millisecondes d'intervalle, ce qui peut laisser la fenêtre se refermer entre deux envois. Le single-packet place toutes les requêtes HTTP/2 dans un seul paquet TCP, de sorte que le serveur les traite dans le même cycle. La simultanéité devient structurelle au lieu de dépendre du timing.

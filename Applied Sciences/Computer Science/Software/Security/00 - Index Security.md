@@ -80,7 +80,7 @@ Carte du domaine sécurité du vault. Organisation par discipline, du concept à
 
 - `Cryptographie/` — [[Cryptographie]], [[TLS 1.3]], [[Cryptographie post-quantique]], [[Gestion des clés et HSM]], [[Hachage de mots de passe]], [[Attaques par canal auxiliaire]], [[Hash Cracking]], [[Padding Oracle Attack]], [[PKI en profondeur]], [[Encodages]], [[Steganographie]]
 - `Cloud/` — [[Cloud Security]], [[AWS Security]], [[Azure Security]], [[Entra ID et Microsoft 365 Security]], [[GCP Security]], [[Kubernetes Security]]
-- `Application Security/` — [[Sécurité CI-CD et chaîne d'approvisionnement]], [[SAST, DAST et SCA]]
+- `Application Security/` — index : [[00 - Index Application Security]] ; [[Sécurité CI-CD et chaîne d'approvisionnement]], [[SAST, DAST et SCA]]
 - `Identity et Auth/` — [[JWT]], [[OAuth et OIDC]], [[PAM - Privileged Access Management]]
 - `Reverse Engineering/` — [[Reverse Engineering]], [[Binary Exploitation]], [[Exploit Development]], [[Firmware Analysis]], [[fuzzing]]
 - `Platform Security/` — [[ICS-SCADA Security]], [[OT Security avancé]], [[Sécurité SAP et ERP]], [[Mainframe Security]], [[macOS Security]], [[Sécurité Mobile]], [[Physical Security]], [[Hardware Hacking]]

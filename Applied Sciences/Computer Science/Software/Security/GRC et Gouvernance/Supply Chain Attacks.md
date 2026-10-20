@@ -10,6 +10,9 @@ date: "2026-03-23"
 
 Les attaques de supply chain ciblent la chaîne d'approvisionnement logicielle plutôt que la cible finale directement : dépendances tierces, pipelines CI/CD, mises à jour logicielles, ou fournisseurs de services. La compromission d'un maillon de cette chaîne peut affecter des milliers de victimes en aval.
 
+> [!abstract] Définition — Attaque de la chaîne d'approvisionnement
+> Compromission d'un maillon dont dépend la cible — package public, build system CI/CD, artefact signé ou fournisseur SaaS — afin d'atteindre ses clients en aval par rebond. L'attaquant n'attaque pas le produit final mais le processus qui le produit, ce qui offre un fort effet de levier et une grande furtivité. Dependency confusion, typosquatting et empoisonnement de pipeline en sont les variantes les plus courantes.
+
 ## Anatomie d'une attaque supply chain
 
 ```
@@ -207,32 +210,35 @@ Lessons apprises :
 
 ```
 Gestion des dépendances :
-  ✓ Épingler les versions exactes (pinning) : pas de "^1.2.0", utiliser "1.2.3"
-  ✓ Utiliser des lock files (package-lock.json, Pipfile.lock, poetry.lock)
-  ✓ Vérifier les checksums/hashes des packages téléchargés
-  ✓ Utiliser un registre privé miroir (Artifactory, Nexus) avec contrôle des sources
-  ✓ Scanner les dépendances : npm audit, pip-audit, Dependabot, Snyk, OWASP Dependency-Check
+  - Épingler les versions exactes (pinning) : pas de "^1.2.0", utiliser "1.2.3"
+  - Utiliser des lock files (package-lock.json, Pipfile.lock, poetry.lock)
+  - Vérifier les checksums/hashes des packages téléchargés
+  - Utiliser un registre privé miroir (Artifactory, Nexus) avec contrôle des sources
+  - Scanner les dépendances : npm audit, pip-audit, Dependabot, Snyk, OWASP Dependency-Check
 
 Contre la Dependency Confusion :
-  ✓ Configurer le gestionnaire pour chercher d'abord le registre privé
-  ✓ Enregistrer les noms de packages internes sur les registres publics (squatter le nom)
-  ✓ Utiliser des scopes privés (@company/ en npm, index-url forcé en pip)
+  - Configurer le gestionnaire pour chercher d'abord le registre privé
+  - Enregistrer les noms de packages internes sur les registres publics (squatter le nom)
+  - Utiliser des scopes privés (@company/ en npm, index-url forcé en pip)
 
 CI/CD :
-  ✓ Secrèts : utiliser un gestionnaire (HashiCorp Vault, AWS Secrets Manager)
-  ✓ Ne jamais coder des secrets dans le code source ou les logs
-  ✓ GitHub Actions : épingler les actions tierces par SHA de commit (pas par tag)
-  ✓ Permissions minimales pour GITHUB_TOKEN (read-only sauf si nécessaire)
-  ✓ Build environment isolé, éphémère, et reproductible
-  ✓ Code signing : signer les artefacts de build et vérifier avant déploiement
+  - Secrèts : utiliser un gestionnaire (HashiCorp Vault, AWS Secrets Manager)
+  - Ne jamais coder des secrets dans le code source ou les logs
+  - GitHub Actions : épingler les actions tierces par SHA de commit (pas par tag)
+  - Permissions minimales pour GITHUB_TOKEN (read-only sauf si nécessaire)
+  - Build environment isolé, éphémère, et reproductible
+  - Code signing : signer les artefacts de build et vérifier avant déploiement
 
 SBOM (Software Bill of Materials) :
-  ✓ Générer un SBOM pour chaque build (SPDX, CycloneDX)
-  ✓ Scanner le SBOM contre les CVE connues
-  ✓ Partager le SBOM avec les clients (transparence)
+  - Générer un SBOM pour chaque build (SPDX, CycloneDX)
+  - Scanner le SBOM contre les CVE connues
+  - Partager le SBOM avec les clients (transparence)
 
 Monitoring :
-  ✓ Surveiller les nouveaux packages publiés avec des noms similaires aux packages internes
-  ✓ Alerter sur les modifications inattendues des artefacts de build
-  ✓ Auditer les packages installés en production vs lock file
+  - Surveiller les nouveaux packages publiés avec des noms similaires aux packages internes
+  - Alerter sur les modifications inattendues des artefacts de build
+  - Auditer les packages installés en production vs lock file
 ```
+
+> [!quiz] Pourquoi la signature d'un binaire ne suffit-elle pas à garantir l'intégrité de la chaîne d'approvisionnement ?
+> Parce que la signature atteste seulement que l'artefact provient du pipeline de build légitime et n'a pas été altéré après sa production. Dans SolarWinds, SUNBURST était signé par le vrai certificat SolarWinds, l'attaquant ayant compromis le build system avant l'étape de signature. Il faut donc aussi isoler et rendre reproductible l'environnement de build, puis vérifier l'artefact contre une source de confiance (SBOM, build reproductible).

@@ -10,6 +10,9 @@ date: "2026-03-22"
 
 Les WebSockets permettent une communication bidirectionnelle et persistante entre le navigateur et le serveur. Contrairement à HTTP, la connexion reste ouverte. Cela introduit des risques spécifiques différents du HTTP classique.
 
+> [!abstract] Définition — Cross-Site WebSocket Hijacking
+> Le CSWSH est l'équivalent WebSocket du CSRF : une page attaquante ouvre une connexion `wss://` vers la cible et le navigateur y joint automatiquement les cookies de session de la victime. La Same-Origin Policy ne couvre pas l'établissement du handshake, donc seule une vérification serveur de l'en-tête `Origin` bloque l'attaque. Les conditions sont une authentification par cookies et l'absence de contrôle d'origine côté serveur.
+
 ## Handshake WebSocket
 
 La connexion commence par un upgrade HTTP puis bascule vers le protocole WebSocket.
@@ -225,12 +228,15 @@ wss.on('connection', (ws, req) => {
 
 ```
 Checklist sécurité WebSocket :
-✓ Vérifier l'en-tête Origin lors du handshake
-✓ Authentifier chaque message (token dans le payload)
-✓ Vérifier les permissions à chaque action
-✓ Valider et encoder les données reçues (protection injection)
-✓ Implémenter un rate limiting par connexion
-✓ Utiliser WSS (WebSocket Secure = WebSocket sur TLS)
-✓ Limiter la taille des messages
-✓ Logger les connexions et les actions sensibles
+- Vérifier l'en-tête Origin lors du handshake
+- Authentifier chaque message (token dans le payload)
+- Vérifier les permissions à chaque action
+- Valider et encoder les données reçues (protection injection)
+- Implémenter un rate limiting par connexion
+- Utiliser WSS (WebSocket Secure = WebSocket sur TLS)
+- Limiter la taille des messages
+- Logger les connexions et les actions sensibles
 ```
+
+> [!quiz] Pourquoi un rate limiting HTTP classique ne protège-t-il pas une application WebSocket ?
+> La connexion est établie une seule fois et reste ouverte : du point de vue du WAF ou du proxy, les milliers de messages échangés appartiennent à une seule requête longue. Les règles par requête ou par route ne voient donc pas les messages individuels. Le comptage doit être implémenté dans le handler `onmessage`, avec une fenêtre temporelle et une fermeture de connexion au dépassement.

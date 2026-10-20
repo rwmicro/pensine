@@ -14,6 +14,9 @@ ADCS est l'infrastructure PKI intégrée à Active Directory. Des mauvaises conf
 > [!important] Idée clé
 > Toutes les variantes ESC1-ESC8 reviennent à la même question : **qui contrôle l'identité inscrite dans le certificat, et qui peut approuver la requête ?** Un certificat avec Client Authentication vaut un mot de passe — quiconque peut en obtenir un au nom d'un compte cible obtient l'équivalent d'un TGT pour ce compte.
 
+> [!abstract] Définition — ADCS
+> Infrastructure à clé publique intégrée à Active Directory, qui émet et gère les certificats servant notamment à l'authentification Kerberos via PKINIT. Sa sécurité repose sur les Certificate Templates, qui définissent qui peut s'enrôler et pour quelle identité, ainsi que sur les permissions de la CA. Une mauvaise configuration ESC1-ESC8 permet d'obtenir un certificat au nom d'un autre compte, donc un accès équivalent à son TGT.
+
 ## Concepts fondamentaux
 
 ```
@@ -295,24 +298,24 @@ certipy shadow auto -u alice@domaine.local -p 'Password123' \
 
 ```
 Protection des templates :
-  ✓ Désactiver CT_FLAG_ENROLLEE_SUPPLIES_SUBJECT sur toutes les templates (sauf cas légitimes)
-  ✓ Exiger l'approbation manager pour les templates sensibles
-  ✓ Auditer les ACLs des templates (bloquer l'écriture par les utilisateurs normaux)
-  ✓ Supprimer les templates par défaut non utilisées (User, Computer, SubCA)
-  ✓ EKU : ne pas utiliser "Any Purpose" — spécifier l'usage exact
+  - Désactiver CT_FLAG_ENROLLEE_SUPPLIES_SUBJECT sur toutes les templates (sauf cas légitimes)
+  - Exiger l'approbation manager pour les templates sensibles
+  - Auditer les ACLs des templates (bloquer l'écriture par les utilisateurs normaux)
+  - Supprimer les templates par défaut non utilisées (User, Computer, SubCA)
+  - EKU : ne pas utiliser "Any Purpose" — spécifier l'usage exact
 
 Protection de la CA :
-  ✓ Désactiver EDITF_ATTRIBUTESUBJECTALTNAME2 si non nécessaire
-  ✓ Restreindre ManageCA et ManageCertificates aux seuls admins ADCS
-  ✓ Endpoint HTTP (certsrv) : activer EPA (Extended Protection for Authentication)
-  ✓ Activer le HTTPS sur certsrv — rejeter HTTP
+  - Désactiver EDITF_ATTRIBUTESUBJECTALTNAME2 si non nécessaire
+  - Restreindre ManageCA et ManageCertificates aux seuls admins ADCS
+  - Endpoint HTTP (certsrv) : activer EPA (Extended Protection for Authentication)
+  - Activer le HTTPS sur certsrv — rejeter HTTP
 
 Détection :
-  ✓ Surveiller les requêtes de certificats avec SAN ≠ identité de l'enrolleur
-  ✓ Surveiller les modifications de templates (Event ID 4899, 4900)
-  ✓ Surveiller l'utilisation de PKINIT pour des comptes inhabituels
-  ✓ Certipy find -vulnerable en mode audit régulier
-  ✓ Purple Knight / PingCastle : audit ADCS intégré
+  - Surveiller les requêtes de certificats avec SAN ≠ identité de l'enrolleur
+  - Surveiller les modifications de templates (Event ID 4899, 4900)
+  - Surveiller l'utilisation de PKINIT pour des comptes inhabituels
+  - Certipy find -vulnerable en mode audit régulier
+  - Purple Knight / PingCastle : audit ADCS intégré
 ```
 
 ## Pièges courants
@@ -327,3 +330,6 @@ Détection :
 > - **Certipy nécessite des heures synchronisées** : Kerberos exige une fenêtre de 5 minutes max d'écart. Si le Kali a une horloge décalée par rapport au DC, `certipy auth` échoue. `ntpdate dc.cible.com`.
 > - **CRL et CT logs** : certains environnements monitoring loggent les certificats émis (Certificate Transparency interne). Émettre un cert "admin" = trace dans le CRL. Préférer Shadow Credentials qui ne passe pas par AD CS.
 > - **DC Authentication template** : récupérer un cert via `DomainController` template = peut s'authentifier comme le DC$ → DCSync immédiat. Mais aussi très repérable (qui demande un cert DC ?).
+
+> [!quiz] Quelle différence entre ESC1 et ESC6 ?
+> ESC1 vient du template : le flag ENROLLEE_SUPPLIES_SUBJECT autorise le demandeur à choisir le SAN, mais seulement sur ce template. ESC6 vient de la CA : le flag EDITF_ATTRIBUTESUBJECTALTNAME2 accepte un SAN fourni par le demandeur dans toutes les requêtes, y compris sur des templates qui ne l'autorisent pas.

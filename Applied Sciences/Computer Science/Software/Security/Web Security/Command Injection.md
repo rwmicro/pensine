@@ -14,6 +14,9 @@ L'injection de commandes OS (Command Injection) permet à un attaquant d'exécut
 > [!important] Différence avec l'injection SQL
 > L'injection SQL exploite la syntaxe d'un langage de requête ; la command injection exploite directement l'**interpréteur shell du système d'exploitation**. C'est pour ça que l'impact va typiquement jusqu'au contrôle total du serveur (reverse shell), pas seulement à la base de données.
 
+> [!abstract] Définition — Command Injection
+> L'injection de commandes OS désigne le détournement d'un appel à un interpréteur shell par insertion de métacaractères dans un paramètre applicatif. Elle se distingue des autres injections par son impact direct sur le système d'exploitation, jusqu'à l'exécution de code arbitraire. Quand aucune sortie n'est visible, sa détection repose sur des mesures de délai ou sur des interactions out-of-band.
+
 ## Principe
 
 ```python
@@ -247,11 +250,14 @@ system("ping -c 1 " . $host);
 
 ```
 Checklist défensive :
-✓ Ne jamais passer des entrées utilisateur à des fonctions d'exécution de commandes
-✓ Si inévitable : valider via whitelist stricte (IP, nom de fichier)
-✓ Utiliser subprocess sans shell=True (liste d'arguments)
-✓ escapeshellarg() / escapeshellcmd() en PHP si vraiment nécessaire
-✓ Exécuter avec un utilisateur à faibles privilèges (pas root/www-data avec sudo)
-✓ Chroot / namespaces pour limiter les dommages en cas d'exploitation
-✓ WAF pour bloquer les métacaractères courants (;|&`$() dans les paramètres)
+- Ne jamais passer des entrées utilisateur à des fonctions d'exécution de commandes
+- Si inévitable : valider via whitelist stricte (IP, nom de fichier)
+- Utiliser subprocess sans shell=True (liste d'arguments)
+- escapeshellarg() / escapeshellcmd() en PHP si vraiment nécessaire
+- Exécuter avec un utilisateur à faibles privilèges (pas root/www-data avec sudo)
+- Chroot / namespaces pour limiter les dommages en cas d'exploitation
+- WAF pour bloquer les métacaractères courants (;|&`$() dans les paramètres)
 ```
+
+> [!quiz] Pourquoi `subprocess.run(["ping", "-c", "1", host])` sans `shell=True` réduit-il fortement le risque d'injection de commandes ?
+> Sans `shell=True`, aucun interpréteur n'est invoqué : le tableau d'arguments est transmis directement au binaire, donc `;`, `|` ou `$()` restent des caractères littéraux. Le risque résiduel provient des programmes qui ré-interprètent eux-mêmes leurs arguments, ou d'une validation métier absente — d'où la whitelist de format en complément.

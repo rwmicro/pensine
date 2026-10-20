@@ -11,6 +11,9 @@ prerequis: ["[[Attaques Réseau]]", "[[Équipements Réseau]]"]
 
 Le VLAN hopping permet à un attaquant de sortir de son VLAN d'origine pour accéder au trafic d'autres VLANs, contournant ainsi la segmentation réseau. Deux techniques principales existent : le Double Tagging et le Switch Spoofing.
 
+> [!abstract] Définition — Native VLAN
+> VLAN dont les trames circulent sur un trunk sans étiquette 802.1Q, contrairement aux autres VLANs tagués. Il vaut VLAN 1 par défaut sur la plupart des équipements, ce qui le place souvent sur le même segment que les postes utilisateurs. Cette absence de tag est précisément le mécanisme détourné par le Double Tagging.
+
 ## Rappel VLAN et 802.1Q
 
 ```
@@ -148,9 +151,9 @@ yersinia vtp -attack 2         # Adding a VLAN
 
 ```
 Protection contre le Double Tagging :
-  ✓ Changer le native VLAN vers un VLAN dédié (ex: VLAN 999) sans hôtes
-  ✓ Les hôtes utilisateurs ne doivent JAMAIS être sur le native VLAN
-  ✓ Activer le "dot1q tag native" (force le tagging du native VLAN sur les trunks)
+  - Changer le native VLAN vers un VLAN dédié (ex: VLAN 999) sans hôtes
+  - Les hôtes utilisateurs ne doivent JAMAIS être sur le native VLAN
+  - Activer le "dot1q tag native" (force le tagging du native VLAN sur les trunks)
 
   Cisco IOS :
   vlan 999                              ! VLAN dédié pour native
@@ -158,7 +161,7 @@ Protection contre le Double Tagging :
     switchport trunk native vlan 999   ! Trunk : native VLAN = 999
 
 Protection contre le Switch Spoofing (DTP) :
-  ✓ Désactiver DTP sur tous les ports access (mode static)
+  - Désactiver DTP sur tous les ports access (mode static)
 
   Cisco IOS :
   interface GigabitEthernet0/1
@@ -167,20 +170,23 @@ Protection contre le Switch Spoofing (DTP) :
     switchport access vlan 10
 
 Protection STP :
-  ✓ PortFast + BPDU Guard sur les ports access
-  ✓ Root Guard sur les ports vers des switches non fiables
+  - PortFast + BPDU Guard sur les ports access
+  - Root Guard sur les ports vers des switches non fiables
 
   interface GigabitEthernet0/1
     spanning-tree portfast
     spanning-tree bpduguard enable
 
 Protection VTP :
-  ✓ VTP mode transparent ou off sur les switches d'accès
-  ✓ Mot de passe VTP
-  ✓ Migrer vers VTP v3 (support d'authentification)
+  - VTP mode transparent ou off sur les switches d'accès
+  - Mot de passe VTP
+  - Migrer vers VTP v3 (support d'authentification)
 
 Général :
-  ✓ Segmenter les VLANs sensibles avec des firewalls (pas seulement des ACL)
-  ✓ Désactiver les ports inutilisés et les mettre dans un VLAN "black hole"
-  ✓ 802.1X (authentification des ports) → seuls les équipements authentifiés accèdent au réseau
+  - Segmenter les VLANs sensibles avec des firewalls (pas seulement des ACL)
+  - Désactiver les ports inutilisés et les mettre dans un VLAN "black hole"
+  - 802.1X (authentification des ports) → seuls les équipements authentifiés accèdent au réseau
 ```
+
+> [!quiz] Pourquoi le Double Tagging est-il unidirectionnel, et quelles en sont les conséquences pratiques ?
+> Le premier switch voit le tag outer égal au native VLAN, le retire, puis n'achemine que le tag inner vers le VLAN cible : la trame atteint bien la victime. En revanche, la réponse de celle-ci suit le routage normal et ne repasse pas par l'attaquant. Il ne s'agit donc pas d'un MitM classique, mais d'une injection aveugle (DoS, UDP spoofing) ou d'un moyen d'atteindre un implant déjà présent dans le VLAN visé.
