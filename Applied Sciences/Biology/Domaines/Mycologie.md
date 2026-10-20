@@ -132,3 +132,14 @@ Production industrielle d'enzymes (lessives, alimentaire), de biocarburants, de 
 
 > [!warning] Piège
 > Les tests populaires (une cuillère en argent qui noircit, un champignon rongé par les limaces donc « sûr », la peau qui pèle facilement) n'ont aucune valeur scientifique et ont causé des morts. L'amanite phalloïde est mangée avec appétit par les limaces et les tests chimiques improvisés ne détectent pas les amatoxines. Seule une identification botanique fiable (espèce par espèce) protège réellement.
+
+## Questions de révision
+
+> [!quiz] Les champignons sont-ils des plantes ?
+> Non : ils forment un règne à part, plus proche des animaux ; ils ne font pas de photosynthèse et ont une paroi de chitine.
+
+> [!quiz] Qu'est-ce qu'une mycorhize ?
+> Une association symbiotique entre un champignon et les racines d'une plante : le champignon apporte eau et minéraux, la plante lui fournit des sucres.
+
+> [!quiz] Qu'est-ce qu'un lichen ?
+> Une association symbiotique entre un champignon et une algue ou une cyanobactérie.

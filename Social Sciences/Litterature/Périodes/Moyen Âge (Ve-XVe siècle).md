@@ -97,3 +97,14 @@ Pendant que l'Europe occidentale traverse le haut Moyen Âge, le monde islamique
 |---|---|---|
 | **Beowulf** | ~VIIIe-Xe s. | Epopée anglo-saxonne en vieil anglais. Le héros Beowulf combat le monstre Grendel, puis sa mère, puis un dragon. Le plus ancien poème épique en langue germanique |
 | **Geoffrey Chaucer**, *Les Contes de Canterbury* | ~1387 | Vingt-quatre contes racontés par des pèlerins en route vers Canterbury. Panorama de la société anglaise : chevalier, meunier, prioresse, marchand. Le père de la littérature anglaise |
+
+## Questions de révision
+
+> [!quiz] Quelle est la plus célèbre chanson de geste française ?
+> *La Chanson de Roland*, de la fin du XIe siècle.
+
+> [!quiz] Qui est l'auteur des premiers grands romans arthuriens en français ?
+> Chrétien de Troyes, au XIIe siècle.
+
+> [!quiz] Quelle œuvre Dante écrit-il, et en quelle langue ?
+> La *Divine Comédie*, en toscan (italien vulgaire) plutôt qu'en latin.

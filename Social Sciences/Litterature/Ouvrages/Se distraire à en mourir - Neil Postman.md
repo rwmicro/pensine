@@ -63,6 +63,17 @@ Postman parlait de la TV en 1985. Remplace TV par **TikTok, Instagram, Twitter**
 - Désinformation virale parce qu'elle est émotionnellement satisfaisante
 
 
+## Questions de révision
+
+> [!quiz] Quelle est la thèse de Neil Postman dans *Se distraire à en mourir* (1985) ?
+> La télévision transforme tout discours public (politique, éducation, religion) en divertissement, ce qui appauvrit le débat rationnel propre à l'ère de l'imprimé.
+
+> [!quiz] Pourquoi Postman juge-t-il Huxley plus prophétique qu'Orwell ?
+> Parce que la menace n'est pas la censure qui nous prive d'informations, mais l'abondance de divertissement qui nous rend indifférents à l'information.
+
+> [!quiz] Que critique Postman à travers la formule « Now... this » ?
+> L'enchaînement télévisé de sujets sans lien, qui ôte à chaque information son contexte et son importance.
+
 ## À lire avec
 
 - *1984* — George Orwell

@@ -84,3 +84,14 @@ C'est pourquoi on l'a longtemps appelée **"la maladie royale"**.
 
 > [!warning] Piège
 > Aucun ancêtre connu de la reine Victoria n'était porteur ou atteint — son cas est presque certainement une **mutation de novo** (mutation spontanée dans un de ses gamètes, pas héritée). C'est un rappel utile : une maladie génétique récessive n'implique pas forcément une lignée porteuse antérieure, elle peut apparaître de zéro à chaque génération par mutation aléatoire.
+
+## Questions de révision
+
+> [!quiz] Quelle est la cause de l'hémophilie ?
+> Un déficit en facteur de coagulation : le facteur VIII pour l'hémophilie A, le facteur IX pour l'hémophilie B.
+
+> [!quiz] Pourquoi l'hémophilie touche-t-elle presque uniquement les hommes ?
+> Parce que le gène est porté par le chromosome X et que la transmission est récessive : un homme n'a qu'un X, une femme porteuse a en général un second X normal.
+
+> [!quiz] Pourquoi l'appelle-t-on la « maladie royale » ?
+> Parce que la reine Victoria était porteuse et l'a transmise à plusieurs familles royales d'Europe, dont celle des Romanov.

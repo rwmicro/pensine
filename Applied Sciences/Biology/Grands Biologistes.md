@@ -63,3 +63,14 @@ L'histoire de la biologie est celle d'une succession de révolutions conceptuell
 | **Jennifer Doudna & Emmanuelle Charpentier** | 1964- / 1968- | Développent **CRISPR-Cas9** (2012) : un outil qui permet de modifier l'ADN avec une précision sans précédent — couper, coller, remplacer des gènes comme on édite un texte. Révolution en médecine, agriculture, biologie fondamentale. Nobel 2020 |
 | **Shinya Yamanaka** | 1962- | Découvre comment reprogrammer des cellules adultes en **cellules souches pluripotentes induites** (iPSC, 2006) — quatre gènes suffisent pour "rajeunir" une cellule. Ouvre la voie à la médecine régénérative sans les problèmes éthiques des cellules souches embryonnaires. Nobel 2012 |
 | **Katalin Karikó** | 1955- | Ses travaux sur l'**ARN messager modifié** (pendant des décennies, sans financement ni reconnaissance) rendent possibles les vaccins ARNm contre le COVID-19 (Pfizer-BioNTech, Moderna). Nobel 2023 |
+
+## Questions de révision
+
+> [!quiz] Quel a été l'apport de Gregor Mendel ?
+> Ses croisements de pois ont établi les lois de l'hérédité, publiées en 1866 et redécouvertes en 1900.
+
+> [!quiz] Qui décrit la structure en double hélice de l'ADN en 1953 ?
+> James Watson et Francis Crick, à partir notamment des clichés de diffraction de Rosalind Franklin.
+
+> [!quiz] Quel est l'apport de Louis Pasteur à la biologie ?
+> Il réfute la génération spontanée, montre le rôle des micro-organismes dans les fermentations et les maladies, et développe des vaccins (dont celui contre la rage).

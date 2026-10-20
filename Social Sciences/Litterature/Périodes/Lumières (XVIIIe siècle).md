@@ -100,3 +100,14 @@ Les Lumières ne sont pas seulement un mouvement littéraire — elles préparen
 
 > [!warning] Piège
 > Les Lumières ne débouchent pas mécaniquement sur la démocratie libérale. La **volonté générale** de Rousseau — fondement du *Contrat social* — sera invoquée aussi bien pour légitimer le suffrage universel que la Terreur jacobine (au nom du peuple contre les "ennemis de la volonté générale"). Un même corpus philosophique peut nourrir des lectures politiques opposées.
+
+## Questions de révision
+
+> [!quiz] Quelle grande œuvre collective Diderot dirige-t-il avec d'Alembert ?
+> L'*Encyclopédie*, publiée de 1751 à 1772.
+
+> [!quiz] Quelle théorie politique Montesquieu expose-t-il dans *De l'esprit des lois* (1748) ?
+> La séparation des pouvoirs législatif, exécutif et judiciaire.
+
+> [!quiz] Que défend Rousseau dans *Du contrat social* (1762) ?
+> Que la seule autorité légitime est celle qui repose sur la volonté générale du peuple souverain.

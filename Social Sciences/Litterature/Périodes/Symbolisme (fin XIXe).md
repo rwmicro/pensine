@@ -131,3 +131,14 @@ Le symbolisme comme mouvement organisé s'éteint vers 1900, mais son influence 
 > Le surréalisme ne reprend qu'une moitié de l'héritage symboliste : le dérèglement des sens et l'exploration de l'inconscient, oui — mais il abandonne la croyance en une réalité spirituelle cachée derrière le symbole. Pour Breton, l'inconscient n'est pas le voile d'un au-delà mystique (comme chez Mallarmé) mais une structure psychique immanente — la rupture avec la religiosité implicite du symbolisme est nette.
 - La **poésie moderne** tout entière descend du symbolisme : le vers libre, l'image comme mode de connaissance, le refus de la description plate
 - **T.S. Eliot** et **Ezra Pound** reconnaissent explicitement leur dette envers les symbolistes français
+
+## Questions de révision
+
+> [!quiz] Qui publie le manifeste du symbolisme en 1886 ?
+> Jean Moréas, dans *Le Figaro*.
+
+> [!quiz] Quel recueil fait de Baudelaire le précurseur du symbolisme ?
+> *Les Fleurs du mal* (1857), avec notamment le poème « Correspondances ».
+
+> [!quiz] Que vise la poésie symboliste ?
+> Suggérer plutôt que décrire : évoquer par des symboles et la musique du vers une réalité cachée derrière les apparences.

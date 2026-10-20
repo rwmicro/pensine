@@ -81,3 +81,10 @@ A complete sleep cycle progresses through these stages:
 - Children: 9-12 hours
 - Infants: 12-16 hours
 
+## Questions de révision
+
+> [!quiz] Combien dure environ un cycle de sommeil ?
+> Environ 90 minutes, et une nuit en compte quatre à six.
+
+> [!quiz] Pendant quelle phase du sommeil fait-on les rêves les plus vifs ?
+> Pendant le sommeil paradoxal (REM), où le cerveau est très actif et les muscles relâchés.

@@ -67,3 +67,8 @@ Quelques méthodes pour lire de façon active et retenir vraiment ce qu'on lit.
 - Lire intro + conclusion + premier et dernier paragraphe de chaque chapitre
 - Lire les titres et sous-titres en entier
 - Ralentir uniquement sur les passages clés identifiés
+
+## Questions de révision
+
+> [!quiz] Pourquoi se tester sur un livre vaut-il mieux que le relire ?
+> Parce que l'effort de rappel consolide la mémoire bien mieux qu'une relecture passive.

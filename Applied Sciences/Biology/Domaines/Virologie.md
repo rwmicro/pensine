@@ -62,3 +62,11 @@ L'étude des virus et des maladies virales.
 **Virus Émergents**
 - Zoonoses (transmission animal → humain)
 - Facteurs : Déforestation, mondialisation, changement climatique
+
+## Questions de révision
+
+> [!quiz] Pourquoi un virus ne peut-il se reproduire seul ?
+> Parce qu'il n'a pas de métabolisme propre : il doit utiliser la machinerie d'une cellule hôte.
+
+> [!quiz] De quoi se compose un virus ?
+> D'un génome (ADN ou ARN) protégé par une capside protéique, parfois entourée d'une enveloppe.

@@ -79,6 +79,17 @@ Une petite société partageant les mêmes idées (communautarisme) risque de pe
 - **Désengagement civique** : l'individualisme qu'il craignait
 
 
+## Questions de révision
+
+> [!quiz] Qu'est-ce que la « tyrannie de la majorité » chez Tocqueville ?
+> Le risque que, en démocratie, l'opinion majoritaire écrase les minorités et la pensée indépendante, sans même recourir à la force.
+
+> [!quiz] Que désigne le « despotisme doux » ?
+> Un pouvoir tutélaire qui ne tyrannise pas mais infantilise, en prenant en charge le bonheur de citoyens repliés sur leur vie privée.
+
+> [!quiz] Quels contrepoids Tocqueville admire-t-il aux États-Unis ?
+> Les associations, la liberté de la presse, la décentralisation communale et le rôle des mœurs et de la religion.
+
 ## À lire avec
 
 - *L'Ancien Régime et la Révolution* — Tocqueville (1856)

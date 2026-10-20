@@ -91,3 +91,14 @@ Tradition typiquement française : des auteurs qui observent les comportements h
 
 > [!warning] Piège
 > Ne pas confondre les moralistes classiques avec des philosophes moraux au sens strict — ils ne construisent pas de système éthique, ils observent et décrivent les comportements humains avec une lucidité désabusée. « Moraliste » signifie ici « qui observe les mœurs », pas « qui prescrit une morale ».
+
+## Questions de révision
+
+> [!quiz] Qu'est-ce que la règle des trois unités ?
+> L'unité de temps (une journée), de lieu (un seul lieu) et d'action (une seule intrigue), résumées par Boileau : « Qu'en un lieu, qu'en un jour, un seul fait accompli tienne jusqu'à la fin le théâtre rempli. »
+
+> [!quiz] Quels sont les trois grands dramaturges du classicisme français ?
+> Corneille, Racine et Molière.
+
+> [!quiz] Que signifie l'idéal de la bienséance ?
+> Ne rien montrer sur scène qui choque le goût ou la morale du public, comme la violence ou la mort.

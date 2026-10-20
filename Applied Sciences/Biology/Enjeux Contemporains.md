@@ -95,3 +95,11 @@ Les biotechnologies posent des questions que ni les scientifiques seuls ni les p
 | **Données génétiques personnelles** | Tests grand public (23andMe, MyHeritage) — qui possède l'info ? | Faille 23andMe 2023 : 6,9 millions de comptes piratés |
 
 Le point commun de ces enjeux : la biologie n'est plus seulement une science *descriptive* de la nature, elle devient une science *prescriptive* qui doit décider quel vivant nous voulons. Le biologiste est désormais aussi un citoyen.
+
+## Questions de révision
+
+> [!quiz] Qu'est-ce que CRISPR-Cas9 ?
+> Un outil d'édition du génome qui permet de couper l'ADN à un endroit précis pour modifier un gène.
+
+> [!quiz] Pourquoi la résistance aux antibiotiques progresse-t-elle ?
+> Parce que leur usage massif sélectionne les bactéries résistantes, qui survivent et se multiplient.

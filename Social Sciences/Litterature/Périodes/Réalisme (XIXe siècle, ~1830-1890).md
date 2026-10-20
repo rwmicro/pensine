@@ -46,3 +46,11 @@ prerequis: ["[[Social Sciences/Litterature/Périodes/Romantisme (fin XVIIIe-XIXe
 - **Léon Tolstoï** (1828-1910): *Guerre et Paix*, *Anna Karénine*
   - Fresques historiques, questionnement moral
 - **Anton Tchekhov** (1860-1904): Nouvelles, théâtre (*La Cerisaie*, *Les Trois Sœurs*)
+
+## Questions de révision
+
+> [!quiz] Quelle ambition le réalisme se donne-t-il ?
+> Représenter fidèlement la réalité sociale contemporaine, y compris dans ses aspects ordinaires ou laids.
+
+> [!quiz] Quel ensemble romanesque Balzac consacre-t-il à la société de son temps ?
+> *La Comédie humaine*.

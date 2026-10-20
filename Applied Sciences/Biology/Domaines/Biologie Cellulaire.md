@@ -105,3 +105,14 @@ Les **mitochondries** et les **chloroplastes** seraient d'anciens procaryotes "a
 
 > [!important] Idée clé
 > La théorie endosymbiotique n'est pas juste une anecdote sur l'origine des organites — elle implique que la cellule eucaryote elle-même est le produit d'une fusion entre organismes autrefois indépendants, pas d'une évolution graduelle depuis une cellule procaryote unique. Voir [[Évolution]] : c'est un des rares cas bien documentés où l'évolution procède par symbiose plutôt que par accumulation lente de mutations.
+
+## Questions de révision
+
+> [!quiz] Quelle différence fondamentale entre une cellule procaryote et une cellule eucaryote ?
+> La cellule eucaryote a un noyau délimité par une membrane et des organites ; la procaryote (bactéries, archées) n'en a pas.
+
+> [!quiz] Quelle différence entre mitose et méiose ?
+> La mitose produit deux cellules identiques à la cellule mère ; la méiose produit quatre gamètes avec deux fois moins de chromosomes, génétiquement différents.
+
+> [!quiz] Que propose la théorie endosymbiotique ?
+> Que les mitochondries et les chloroplastes descendent de bactéries englobées par une cellule ancestrale ; ils ont d'ailleurs leur propre ADN.

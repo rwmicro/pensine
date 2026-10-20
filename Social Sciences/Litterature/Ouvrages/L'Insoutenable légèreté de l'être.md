@@ -50,3 +50,11 @@ Le récit n'est pas strictement linéaire. Kundera mélange les pensées philoso
 Le livre est considéré comme un chef-d'œuvre de la littérature contemporaine. Il est salué pour sa profondeur philosophique et son exploration nuancée des émotions humaines. En 1988, le roman a été adapté au cinéma par Philip Kaufman, avec Daniel Day-Lewis et Juliette Binoche dans les rôles principaux.
 
 **L'Insoutenable légèreté de l'être** invite le lecteur à méditer sur le sens de la vie et le poids de nos choix dans un monde où chaque instant est unique et éphémère.
+
+## Questions de révision
+
+> [!quiz] Qui a écrit *L'Insoutenable Légèreté de l'être*, et dans quel contexte historique se déroule le roman ?
+> Milan Kundera (1984) ; le roman se déroule autour du Printemps de Prague et de l'invasion soviétique de 1968.
+
+> [!quiz] Quelle opposition philosophique traverse le roman ?
+> Celle entre la légèreté et la pesanteur : une vie qui n'a lieu qu'une fois est-elle légère, sans poids ni sens, ou pèse-t-elle de tout son poids ?

@@ -130,3 +130,14 @@ On estime que le taux d'extinction actuel est **100 à 1 000 fois** supérieur a
 
 > [!tip] Méthode
 > Une espèce clé de voûte n'est pas forcément l'espèce la plus nombreuse ou la plus grande de l'écosystème — c'est le critère le plus trompeur pour l'identifier. À Yellowstone, les loups représentaient une biomasse minime comparée aux wapitis, mais leur réintroduction en 1995 a déclenché une cascade trophique complète (moins de surpâturage → régénération des arbres → retour des castors → changement du cours des rivières). L'effet d'une espèce sur l'écosystème se mesure à son rôle fonctionnel, pas à son abondance.
+
+## Questions de révision
+
+> [!quiz] Quels sont les trois rôles dans une chaîne alimentaire ?
+> Les producteurs (végétaux), les consommateurs (animaux) et les décomposeurs (champignons, bactéries).
+
+> [!quiz] Quelles sont les deux grandes étapes du cycle de l'azote assurées par les bactéries ?
+> La fixation de l'azote de l'air sous forme utilisable par les plantes, et la dénitrification qui le renvoie dans l'atmosphère (avec, entre les deux, la nitrification).
+
+> [!quiz] Pourquoi parle-t-on d'une sixième extinction de masse ?
+> Parce que le rythme actuel de disparition des espèces, dû aux activités humaines, est très supérieur au rythme naturel, comparable aux cinq grandes extinctions passées.

@@ -95,3 +95,14 @@ Sa force tient à la **profondeur psychologique** de ses personnages : Hamlet n'
 Miguel de Cervantes écrit *Don Quichotte* (1605-1615), considéré comme le **premier roman moderne**. Un hidalgo espagnol, rendu fou par les romans de chevalerie, part en quête d'aventures avec son écuyer Sancho Pança. Il prend des moulins à vent pour des géants, des auberges pour des châteaux, des paysannes pour des princesses.
 
 Don Quichotte est à la fois comique et tragique : il incarne la tension entre l'idéal et le réel, entre l'imagination et la banalité du monde. Cervantes invente le roman comme genre critique — un roman qui se moque des romans, un texte qui interroge la fiction elle-même.
+
+## Questions de révision
+
+> [!quiz] Qu'est-ce que l'humanisme de la Renaissance ?
+> Un mouvement de retour aux textes antiques grecs et latins, qui place l'homme et son éducation au centre de la réflexion.
+
+> [!quiz] Quel genre littéraire Montaigne invente-t-il ?
+> L'essai, avec ses *Essais* (1580-1595).
+
+> [!quiz] Qui forment la Pléiade ?
+> Un groupe de poètes autour de Ronsard et Du Bellay, qui veulent enrichir la langue et la poésie françaises sur le modèle antique.

@@ -81,3 +81,14 @@ Des recherches ont mis en évidence de nouveaux facteurs de risque, tels que l'h
 
 #### **Lien avec le diabète**
 Des études suggèrent que certains antidiabétiques, comme les analogues du GLP-1 (ex. sémaglutide), pourraient avoir un effet protecteur contre le déclin cognitif, ouvrant de nouvelles perspectives thérapeutiques.
+
+## Questions de révision
+
+> [!quiz] Quelles sont les deux lésions caractéristiques de la maladie d'Alzheimer ?
+> Les plaques amyloïdes (dépôts de peptide bêta-amyloïde entre les neurones) et les dégénérescences neurofibrillaires (protéine tau anormale dans les neurones).
+
+> [!quiz] Quelles enzymes découpent la protéine APP pour produire le peptide bêta-amyloïde ?
+> La bêta-sécrétase puis la gamma-sécrétase.
+
+> [!quiz] Quel est généralement le premier symptôme de la maladie d'Alzheimer ?
+> Les troubles de la mémoire récente.

@@ -76,3 +76,11 @@ L'évolution biologique d'Homo sapiens ne s'est pas arrêtée. Des adaptations r
 > L'hémoglobine S illustre un piège classique de génétique : elle ne protège du paludisme que chez les *hétérozygotes* (une seule copie du gène) ; les *homozygotes* développent la drépanocytose, maladie grave. C'est un avantage hétérozygote typique — le gène persiste dans la population parce que son bénéfice collectif (protection du plus grand nombre) dépasse son coût individuel (maladie chez une minorité d'homozygotes).
 
 Cependant, depuis la révolution industrielle et surtout depuis la médecine moderne, la sélection naturelle sur l'espèce humaine est profondément perturbée : des traits autrefois létaux deviennent compatibles avec la survie et la reproduction.
+
+## Questions de révision
+
+> [!quiz] Quels autres humains vivaient en même temps qu'*Homo sapiens* ?
+> Notamment Néandertal, Dénisova et *Homo floresiensis*.
+
+> [!quiz] *Homo sapiens* descend-il de Néandertal ?
+> Non : ce sont deux espèces cousines, mais elles se sont croisées, et les populations non africaines actuelles portent environ 2 % d'ADN néandertalien.
