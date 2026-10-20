@@ -83,7 +83,7 @@ Carte du domaine sécurité du vault. Organisation par discipline, du concept à
 - `Application Security/` — index : [[00 - Index Application Security]] ; [[Sécurité CI-CD et chaîne d'approvisionnement]], [[SAST, DAST et SCA]]
 - `Identity et Auth/` — [[JWT]], [[OAuth et OIDC]], [[PAM - Privileged Access Management]]
 - `Reverse Engineering/` — [[Reverse Engineering]], [[Binary Exploitation]], [[Exploit Development]], [[Firmware Analysis]], [[fuzzing]]
-- `Platform Security/` — [[ICS-SCADA Security]], [[OT Security avancé]], [[Sécurité SAP et ERP]], [[Mainframe Security]], [[macOS Security]], [[Sécurité Mobile]], [[Physical Security]], [[Hardware Hacking]]
+- `Platform Security/` — [[ICS-SCADA Security]], [[OT Security avancé]], [[Sécurité SAP et ERP]], [[Mainframe Security]], [[Sécurité automobile]], [[Sécurité aéronautique]], [[Sécurité maritime et portuaire]], [[Sécurité spatiale]], [[Sécurité des dispositifs médicaux]], [[Sécurité de l'IoT]], [[Sécurité Mobile]], [[macOS Security]], [[Physical Security]], [[Hardware Hacking]]
 - `AI Security/` — [[Prompt Injection]], [[LLM et RAG Security]]
 
 ## Parcours de lecture
@@ -100,6 +100,8 @@ Des chemins possibles pour aborder le domaine sans se disperser. Chaque étape s
 | Sécurité applicative et données | [[Secure SDLC]] → [[SAST, DAST et SCA]] → [[Sécurité CI-CD et chaîne d'approvisionnement]] → [[Sécurité des données]] → [[DLP et protection des données]] |
 | Sécurité de l'IA | [[Prompt Injection]] → [[LLM et RAG Security]] → [[Threat Modeling]] |
 | Systèmes critiques | [[ICS-SCADA Security]] → [[OT Security avancé]] → [[Sécurité SAP et ERP]] → [[Mainframe Security]] |
+| Systèmes cyber-physiques | [[Sécurité automobile]] → [[Sécurité aéronautique]] → [[Sécurité maritime et portuaire]] → [[Sécurité de l'IoT]] |
+| Santé, espace et régulation | [[Sécurité des dispositifs médicaux]] → [[Sécurité spatiale]] → [[NIS2 et DORA]] |
 | Télécom et finance | [[Sécurité Réseau]] → [[Télécom et 5G Security]] → [[API Security]] → [[Sécurité des API bancaires]] → [[NIS2 et DORA]] |
 | Renseignement stratégique | [[Threat Intelligence]] → [[MITRE ATT&CK]] → [[APT et Acteurs de la Menace]] → [[Threat Intelligence stratégique]] → [[Adversary Emulation]] |
 | Émulation et mesure | [[MITRE ATT&CK]] → [[Threat Intelligence]] → [[Adversary Emulation]] → [[Purple Teaming]] |

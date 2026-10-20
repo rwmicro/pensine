@@ -4,11 +4,17 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Platform Security"
 tags: [mobile, ios, android, sécurité, owasp, pentest, applications]
 date: "2026-03-22"
+prerequis: ["[[Sécurité Réseau]]", "[[Cryptographie]]"]
 ---
 
 # Sécurité Mobile — iOS et Android
 
 La sécurité mobile couvre la protection des appareils, systèmes d'exploitation et applications mobiles. Avec plus de 6 milliards de smartphones dans le monde, la surface d'attaque est considérable.
+
+Les mêmes contraintes d'identité, de mise à jour et de confiance dans l'application se retrouvent dans [[Sécurité automobile]] et [[Sécurité de l'IoT]], où le téléphone sert souvent de poste de commande ou de passerelle.
+
+> [!abstract] Définition — Sécurité mobile
+> Protection des appareils, systèmes d'exploitation et applications mobiles contre l'accès non autorisé, l'exfiltration et la manipulation. Elle combine la sécurité de la plateforme (sandbox, Keystore/Keychain, intégrité), la sécurité des communications (TLS, certificate pinning) et la sécurité du code (stockage, authentification, obfuscation).
 
 ## Modèles de sécurité comparés
 
@@ -293,3 +299,6 @@ webView.getSettings().setAllowContentAccess(false);
 | Sauvegardes | Exclure les données sensibles des sauvegardes cloud |
 | Intégrité | Détection root/jailbreak, Play Integrity API, SafetyNet |
 | Secrets | Variables d'environnement CI, jamais dans le code source |
+
+> [!quiz] Pourquoi le certificate pinning ne protège-t-il pas une application compromise sur un appareil rooté ?
+> Parce que l'attaquant peut instrumenter le processus, hooker la vérification du certificat ou extraire les secrets embarqués. Le pinning protège contre une autorité de certification compromise ou un proxy légitime, pas contre du code malveillant qui s'exécute avec les mêmes privilèges que l'application.

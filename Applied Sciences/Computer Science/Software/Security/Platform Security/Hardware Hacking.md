@@ -218,7 +218,7 @@ La chaîne d'approvisionnement est un vecteur à part entière. Les composants c
 
 Le hardware hacking est limité par l'irréversibilité : une puce dessoudée, un fusible gravé ne se remettent pas en état. Le temps de laboratoire et la compétence créent une barrière qui protège surtout contre les attaquants opportunistes ; un adversaire déterminé contourne souvent une protection en quelques heures si elle n'a pas été conçue en profondeur.
 
-La détection repose sur trois piliers : l'attestation, la surveillance physique (scellés, mésh) et la comparaison hors ligne (hash de firmware, golden samples). Aucun ne fonctionne seul : une attestation dont la clé est lue par UART ne prouve rien, et un hash calculé par un firmware compromis ne prouve rien. La sécurité matérielle reste indissociable des autres couches — un secure boot solide avec une mise à jour en HTTP laisse entrer un firmware malveillant. Voir [[Physical Security]], [[Firmware Analysis]] et [[Binary Exploitation]].
+La détection repose sur trois piliers : l'attestation, la surveillance physique (scellés, mésh) et la comparaison hors ligne (hash de firmware, golden samples). Aucun ne fonctionne seul : une attestation dont la clé est lue par UART ne prouve rien, et un hash calculé par un firmware compromis ne prouve rien. La sécurité matérielle reste indissociable des autres couches — un secure boot solide avec une mise à jour en HTTP laisse entrer un firmware malveillant. Voir [[Physical Security]], [[Firmware Analysis]], [[Binary Exploitation]] et [[Sécurité de l'IoT]].
 
 ## Questions de révision
 

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > GRC et Gouvernance"
 tags: [supply-chain, dependency-confusion, typosquatting, solarwinds, ci-cd, sécurité]
 date: "2026-03-23"
+prerequis: ["[[Compliance]]", "[[Threat Modeling]]"]
 ---
 
 # Supply Chain Attacks
@@ -205,6 +206,8 @@ Lessons apprises :
 
 > [!warning] Piège
 > Un binaire signé avec un certificat légitime n'est pas synonyme de code sain — SUNBURST était signé par le vrai certificat SolarWinds parce que l'attaquant avait compromis le build system *avant* la signature, pas le certificat lui-même. La signature garantit "ce binaire vient bien de ce build pipeline", pas "ce build pipeline n'a pas été compromis". C'est pourquoi l'isolation du build environment compte autant que la signature.
+
+La chaîne logicielle n'est qu'une partie du problème : les composants matériels, le firmware et les mises à jour OTA relèvent de [[Sécurité de l'IoT]] et [[Hardware Hacking]].
 
 ## Défenses et bonnes pratiques
 

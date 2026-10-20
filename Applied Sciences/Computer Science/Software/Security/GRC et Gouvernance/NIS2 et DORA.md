@@ -13,6 +13,8 @@ Deux textes européens structurent désormais la cybersécurité réglementaire 
 
 Cette note présente le périmètre et les obligations des deux textes, leurs recoupements avec le RGPD, ISO 27001, le NIST CSF et [[EBIOS RM]], puis une méthode de mise en œuvre et les preuves attendues. Elle s'appuie sur [[Compliance]], [[Gestion des Vulnérabilités]] et [[Business Continuity et Disaster Recovery]].
 
+Le périmètre sectoriel de NIS2 couvre notamment la santé, les transports, l'espace et les infrastructures numériques, ce qui relie ce texte à [[Sécurité des dispositifs médicaux]], [[Sécurité maritime et portuaire]] et [[Sécurité spatiale]].
+
 > [!abstract] Définition — Résilience opérationnelle
 > Capacité d'une organisation à prévenir les perturbations, à limiter leur impact, à poursuivre ses activités critiques et à restaurer ses services dans des délais acceptables. Elle ne se confond pas avec la sécurité de l'information : elle inclut la continuité, la dépendance aux tiers, la capacité de test et la gouvernance de crise.
 

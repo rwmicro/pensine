@@ -336,6 +336,8 @@ Un programme OT crédible tient en six boucles : gouvernance et propriétaires d
 
 La conformité ne doit pas devenir le but. Une certification IEC 62443 ou ISO 27001 atteste d'un processus, pas de la résistance d'une usine. Les audits les plus utiles sont ceux qui testent un scénario : un fournisseur compromis, une clé USB dans l'atelier, un poste d'ingénierie perdu, un accès VPN volé. Un exercice qui oblige l'exploitation et la sécurité à décider ensemble vaut plus qu'un classeur de politiques.
 
+Ces principes se transposent aux systèmes cyber-physiques voisins : [[Sécurité maritime et portuaire]], [[Sécurité automobile]] et [[Sécurité aéronautique]] partagent la contrainte de disponibilité, la durée de vie longue et la difficulté du patch.
+
 ## Questions de révision
 
 > [!quiz] Pourquoi une écriture dans une bibliothèque APF est-elle plus grave qu'une simple modification de fichier ?
