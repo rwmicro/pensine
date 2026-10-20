@@ -161,3 +161,14 @@ class OndeElectromagnetique(ThreeDScene):
 > - Conséquences : conservation de la charge, et **propagation d'ondes à $c = 1/\sqrt{\varepsilon_0\mu_0}$** → la lumière est électromagnétique.
 
 *Voir aussi* : [[Ondes Électromagnétiques]] | [[Électrostatique et Magnétostatique]] | [[Induction Électromagnétique]] | [[Fonctions de Plusieurs Variables]]
+
+## Questions de révision
+
+> [!quiz] Que traduit l'équation $\operatorname{div} \vec B = 0$ ?
+> L'absence de monopôle magnétique : les lignes de champ magnétique sont fermées.
+
+> [!quiz] Qu'est-ce que le courant de déplacement introduit par Maxwell ?
+> Le terme $\varepsilon_0 \, \partial \vec E / \partial t$ ajouté à l'équation de Maxwell-Ampère, qui la rend compatible avec la conservation de la charge et permet la propagation des ondes.
+
+> [!quiz] Quelle relation lie $c$, $\varepsilon_0$ et $\mu_0$ ?
+> $c = 1/\sqrt{\varepsilon_0 \mu_0}$.

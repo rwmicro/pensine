@@ -107,3 +107,14 @@ flowchart LR
 > - À basse $T$ / haute densité : statistiques quantiques (Fermi-Dirac, Bose-Einstein).
 
 *Voir aussi* : [[Thermodynamique]] | [[Transferts Thermiques]] | [[Mécanique Quantique]] | [[Probabilités]] | [[Probabilités Prépa]]
+
+## Questions de révision
+
+> [!quiz] Quelle est la formule de Boltzmann pour l'entropie ?
+> $S = k_B \ln \Omega$, où $\Omega$ est le nombre de micro-états compatibles avec l'état macroscopique.
+
+> [!quiz] Que donne le facteur de Boltzmann ?
+> La probabilité d'un état d'énergie $E$ à l'équilibre à la température $T$ est proportionnelle à $e^{-E/k_B T}$.
+
+> [!quiz] Quelle est l'énergie interne d'un gaz parfait monoatomique ?
+> $U = \frac{3}{2} n R T$.

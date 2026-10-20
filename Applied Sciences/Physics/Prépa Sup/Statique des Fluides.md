@@ -119,3 +119,14 @@ Lorsque le fluide est **en mouvement**, la statique ne suffit plus. Pour un flui
 > - **Bernoulli** (fluide en mouvement) : $P + \tfrac12\rho v^2 + \rho g z = \text{cste}$ ; vitesse ↑ ⟹ pression ↓ (Venturi, portance).
 
 *Voir aussi* : [[Énergie et Travail]] | [[Lois de Newton]] | [[Constantes et Unités]] | [[Thermodynamique]]
+
+## Questions de révision
+
+> [!quiz] Quelle est la relation fondamentale de l'hydrostatique pour un liquide incompressible ?
+> $P_B - P_A = \rho g (z_A - z_B)$ : la pression augmente avec la profondeur.
+
+> [!quiz] Qu'énonce le théorème d'Archimède ?
+> Un corps immergé subit une poussée verticale vers le haut égale au poids du fluide déplacé.
+
+> [!quiz] Quelle fraction d'un glaçon dépasse de l'eau ?
+> Environ 8 % : le rapport des masses volumiques glace/eau vaut 917/1000, donc 92 % du glaçon est immergé.

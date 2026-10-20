@@ -172,3 +172,14 @@ class PortraitDePhase(Scene):
 > - **Kepler** : ellipses, aires égales, $T^2/a^3 = 4\pi^2/GM$. Vitesse de libération $v_{\text{lib}} = \sqrt{2GM/R}$.
 
 *Voir aussi* : [[Lois de Newton]] | [[Oscillateurs]] | [[Référentiels Non Galiléens]] | [[Équations Différentielles]] | [[Astrophysique et Cosmologie]]
+
+## Questions de révision
+
+> [!quiz] Quand le moment cinétique d'un point se conserve-t-il ?
+> Quand le moment des forces est nul par rapport au point considéré, par exemple pour une force centrale.
+
+> [!quiz] Quelle conséquence géométrique a la conservation du moment cinétique dans un champ de force central ?
+> Le mouvement est plan et obéit à la loi des aires (deuxième loi de Kepler).
+
+> [!quiz] Quelle est la vitesse d'un satellite en orbite circulaire de rayon $r$ ?
+> $v = \sqrt{GM/r}$.

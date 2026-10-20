@@ -245,3 +245,14 @@ class LentilleConvergente(Scene):
 > - **Dualité** : la lumière est onde (diffraction, interférences) et flux de **photons** d'énergie $E = h\nu = hc/\lambda$ ; transitions atomiques quantifiées $\Delta E = h\nu$ (spectres de raies).
 
 *Voir aussi* : [[Ondes Mécaniques et Son]] | [[Interférences et Diffraction]] | [[Géométrie Plane]] | [[Trigonométrie]]
+
+## Questions de révision
+
+> [!quiz] Qu'énonce la loi de Snell-Descartes pour la réfraction ?
+> $n_1 \sin i_1 = n_2 \sin i_2$.
+
+> [!quiz] À quelle condition se produit la réflexion totale ?
+> Quand la lumière passe d'un milieu plus réfringent à un milieu moins réfringent avec un angle d'incidence supérieur à l'angle limite, $\sin i_\ell = n_2/n_1$.
+
+> [!quiz] Que devient un rayon qui passe par le centre optique d'une lentille mince ?
+> Il n'est pas dévié.

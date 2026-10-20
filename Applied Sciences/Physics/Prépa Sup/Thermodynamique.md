@@ -223,3 +223,14 @@ flowchart LR
 > - L'irréversibilité ($S_{\text{créée}} > 0$) donne la **flèche du temps**.
 
 *Voir aussi* : [[Énergie et Travail]] | [[Transferts Thermiques]] | [[Physique Statistique]] | [[Erreurs Classiques]]
+
+## Questions de révision
+
+> [!quiz] Qu'énonce le premier principe ?
+> La variation de l'énergie interne d'un système fermé est égale à la somme du travail et de la chaleur reçus : $\Delta U = W + Q$.
+
+> [!quiz] Quel est le rendement maximal d'un moteur entre deux sources de températures $T_c$ et $T_f$ ?
+> Le rendement de Carnot, $\eta = 1 - T_f/T_c$, avec des températures en kelvins.
+
+> [!quiz] Que dit le second principe pour un système isolé ?
+> Son entropie ne peut qu'augmenter ou rester constante ; elle est constante seulement pour une transformation réversible.

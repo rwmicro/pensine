@@ -140,3 +140,14 @@ flowchart TD
 > - **$95\%$** de l'univers est matière noire + énergie noire : grande énigme ouverte.
 
 *Voir aussi* : [[Mécanique du Point]] | [[Relativité Restreinte]] | [[Physique des Particules]] | [[Physique des Ondes]] | [[Thermodynamique]]
+
+## Questions de révision
+
+> [!quiz] Que dit la troisième loi de Kepler ?
+> Pour des corps en orbite autour d'un même astre, le carré de la période est proportionnel au cube du demi-grand axe : $T^2/a^3$ est constant.
+
+> [!quiz] Que dit la loi de Hubble-Lemaître ?
+> Les galaxies lointaines s'éloignent à une vitesse proportionnelle à leur distance, $v = H_0 d$ : c'est la signature de l'expansion de l'Univers.
+
+> [!quiz] Quel ordre de grandeur donne $1/H_0$, et pour quoi ?
+> Environ 14 milliards d'années : c'est une estimation de l'âge de l'Univers (13,8 milliards d'années d'après les mesures actuelles).

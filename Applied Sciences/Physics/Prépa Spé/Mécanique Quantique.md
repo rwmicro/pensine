@@ -161,3 +161,14 @@ class PuitsDePotentiel(Scene):
 > - **Effets** : tunnel, superposition, intrication, émission stimulée (**laser**) — base des technologies quantiques.
 
 *Voir aussi* : [[Physique des Ondes]] | [[Ondes Électromagnétiques]] | [[Physique Statistique]] | [[Physique des Particules]] | [[Probabilités]]
+
+## Questions de révision
+
+> [!quiz] Quelle est la longueur d'onde de de Broglie d'une particule ?
+> $\lambda = h/p$, où $p$ est sa quantité de mouvement.
+
+> [!quiz] Qu'énonce le principe d'incertitude de Heisenberg ?
+> $\Delta x \, \Delta p \geq \hbar/2$ : position et quantité de mouvement ne peuvent pas être connues simultanément avec une précision arbitraire.
+
+> [!quiz] Que représente le carré du module de la fonction d'onde ?
+> La densité de probabilité de présence de la particule.

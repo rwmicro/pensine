@@ -86,3 +86,14 @@ flowchart LR
 > - Comprendre les **principes** permet d'innover ; appliquer des recettes ne suffit pas.
 
 *Voir aussi* : [[Index]] | [[Formulaire]] | [[Applications des Mathématiques]]
+
+## Questions de révision
+
+> [!quiz] Pourquoi le GPS doit-il tenir compte de la relativité ?
+> Les horloges des satellites avancent d'environ 38 microsecondes par jour par rapport au sol (effet gravitationnel moins effet de vitesse) ; sans correction, la position dériverait d'une dizaine de kilomètres par jour.
+
+> [!quiz] Sur quel phénomène physique repose l'IRM ?
+> Sur la résonance magnétique nucléaire : les protons des noyaux d'hydrogène, placés dans un champ magnétique intense, absorbent puis réémettent une onde radio à une fréquence caractéristique.
+
+> [!quiz] Quel principe physique fait fonctionner un alternateur de centrale électrique ?
+> L'induction électromagnétique : un aimant (ou électroaimant) en rotation fait varier le flux magnétique dans des bobines, ce qui y crée une tension.

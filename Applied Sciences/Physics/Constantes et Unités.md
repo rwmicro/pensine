@@ -132,3 +132,14 @@ flowchart TD
 > - Les arguments de $\sin$, $\cos$, $\exp$, $\ln$ sont **sans dimension**.
 
 *Voir aussi* : [[Formulaire]] | [[Méthodes de Résolution]] | [[Erreurs Classiques]]
+
+## Questions de révision
+
+> [!quiz] Quelles sont les sept unités de base du Système international ?
+> Le mètre, le kilogramme, la seconde, l'ampère, le kelvin, la mole et la candela.
+
+> [!quiz] Quelle est la règle d'homogénéité ?
+> Les deux membres d'une égalité, et tous les termes d'une somme, doivent avoir la même dimension.
+
+> [!quiz] Que vaut la vitesse de la lumière dans le vide, et pourquoi sa valeur est-elle exacte ?
+> $c = 299\,792\,458$ m/s exactement, parce que depuis 1983 c'est elle qui définit le mètre.

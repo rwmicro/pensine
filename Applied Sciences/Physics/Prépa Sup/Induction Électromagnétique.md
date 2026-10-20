@@ -114,3 +114,14 @@ Dans un alternateur réel, c'est souvent l'aimant qui tourne et les bobines qui 
 > - Induction + force de Laplace = **conversion électromécanique** (alternateurs, moteurs, transformateurs, freins de Foucault).
 
 *Voir aussi* : [[Électrostatique et Magnétostatique]] | [[Électrocinétique]] | [[Équations de Maxwell]] | [[Oscillateurs]]
+
+## Questions de révision
+
+> [!quiz] Qu'énonce la loi de Faraday ?
+> Une variation du flux magnétique à travers un circuit y crée une force électromotrice $e = -\dfrac{d\Phi}{dt}$.
+
+> [!quiz] Que dit la loi de Lenz ?
+> Les effets de l'induction s'opposent à la cause qui leur a donné naissance (d'où le signe moins de la loi de Faraday).
+
+> [!quiz] Quelle énergie est stockée dans une bobine d'inductance $L$ parcourue par un courant $i$ ?
+> $E = \frac{1}{2} L i^2$.

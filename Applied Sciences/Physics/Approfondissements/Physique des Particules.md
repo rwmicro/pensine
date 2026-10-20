@@ -112,3 +112,14 @@ Les six leptons : électron, muon, tau, et leurs trois **neutrinos** associés (
 > - Le **Modèle Standard** est très précis mais incomplet (gravité, matière/énergie noires).
 
 *Voir aussi* : [[Mécanique Quantique]] | [[Relativité Restreinte]] | [[Astrophysique et Cosmologie]] | [[Applications de la Physique]]
+
+## Questions de révision
+
+> [!quiz] De quels quarks un proton est-il composé ?
+> De deux quarks *up* et d'un quark *down* (uud), de charges $+2/3$, $+2/3$ et $-1/3$, soit une charge totale $+1$.
+
+> [!quiz] Quelles sont les quatre interactions fondamentales ?
+> La gravitation, l'électromagnétisme, l'interaction faible et l'interaction forte.
+
+> [!quiz] Quel est le rôle du boson de Higgs, et quand a-t-il été découvert ?
+> Il est la manifestation du champ de Higgs, qui donne leur masse aux particules élémentaires ; il a été découvert au LHC du CERN en 2012.

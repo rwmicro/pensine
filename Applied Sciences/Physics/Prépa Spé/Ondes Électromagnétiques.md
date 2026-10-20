@@ -114,3 +114,14 @@ flowchart LR
 > - L'onde transporte énergie (Poynting, $I = \tfrac12\varepsilon_0 c E_0^2$) et quantité de mouvement (pression de radiation).
 
 *Voir aussi* : [[Équations de Maxwell]] | [[Physique des Ondes]] | [[Interférences et Diffraction]] | [[Optique Géométrique]] | [[Mécanique Quantique]]
+
+## Questions de révision
+
+> [!quiz] Dans une onde plane progressive dans le vide, comment sont orientés $\vec E$, $\vec B$ et la direction de propagation ?
+> Ils sont perpendiculaires deux à deux et forment un trièdre direct, avec $\|\vec B\| = \|\vec E\|/c$.
+
+> [!quiz] Qu'énonce la loi de Malus ?
+> L'intensité transmise par un analyseur vaut $I = I_0 \cos^2\theta$, où $\theta$ est l'angle avec la direction de polarisation.
+
+> [!quiz] Entre quelles longueurs d'onde se situe la lumière visible ?
+> Environ 400 nm (violet) à 800 nm (rouge).

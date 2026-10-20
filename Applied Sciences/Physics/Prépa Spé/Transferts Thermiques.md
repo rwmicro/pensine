@@ -155,3 +155,14 @@ class DiffusionThermique(Scene):
 > - Métaux : grand $\lambda$ ; isolants : petit $\lambda$. Rayonnement dominant à haute $T$ (loi en $T^4$, Wien).
 
 *Voir aussi* : [[Thermodynamique]] | [[Physique Statistique]] | [[Physique des Ondes]] | [[Ondes Électromagnétiques]]
+
+## Questions de révision
+
+> [!quiz] Quels sont les trois modes de transfert thermique ?
+> La conduction, la convection et le rayonnement.
+
+> [!quiz] Qu'énonce la loi de Fourier ?
+> Le flux thermique surfacique est proportionnel au gradient de température et dirigé vers les températures décroissantes : $\vec j = -\lambda \, \overrightarrow{\text{grad}}\, T$.
+
+> [!quiz] Comment le temps de diffusion thermique dépend-il de la distance ?
+> Il croît comme le carré de la distance : $\tau \sim L^2 / D$.

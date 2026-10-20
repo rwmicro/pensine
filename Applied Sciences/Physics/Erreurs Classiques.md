@@ -85,3 +85,14 @@ Recensement des pièges les plus fréquents, du lycée à la prépa. Les connaî
 > - À grande vitesse : relativité. À l'échelle atomique : quantique.
 
 *Voir aussi* : [[Méthodes de Résolution]] | [[Constantes et Unités]] | [[Index]]
+
+## Questions de révision
+
+> [!quiz] Le poids et la masse sont-ils la même grandeur ?
+> Non : la masse (en kg) est une quantité de matière, le poids est une force (en N), $P = mg$, qui dépend du champ de pesanteur.
+
+> [!quiz] Un objet en mouvement rectiligne uniforme subit-il forcément une force dans le sens du mouvement ?
+> Non : d'après le principe d'inertie, la somme des forces est nulle ; aucune force n'est nécessaire pour maintenir une vitesse constante.
+
+> [!quiz] Chaleur et température désignent-elles la même chose ?
+> Non : la température est une variable d'état ; la chaleur est un transfert d'énergie entre systèmes.

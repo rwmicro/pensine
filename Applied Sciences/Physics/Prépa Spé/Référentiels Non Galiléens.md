@@ -157,3 +157,14 @@ class ForceDeCoriolis(Scene):
 > - La Terre est **quasi galiléenne**, sauf aux grandes échelles (météo, balistique).
 
 *Voir aussi* : [[Mécanique du Point]] | [[Lois de Newton]] | [[Astrophysique et Cosmologie]] | [[Relativité Restreinte]]
+
+## Questions de révision
+
+> [!quiz] Pourquoi introduit-on des forces d'inertie ?
+> Pour pouvoir écrire le principe fondamental de la dynamique dans un référentiel non galiléen, en accélération ou en rotation.
+
+> [!quiz] Quelle est l'expression de la force de Coriolis ?
+> $\vec F_c = -2m\,\vec\Omega \wedge \vec v_r$, où $\vec v_r$ est la vitesse relative.
+
+> [!quiz] Pourquoi les cyclones tournent-ils dans le sens inverse des aiguilles d'une montre dans l'hémisphère nord ?
+> Parce que la force de Coriolis dévie vers la droite l'air qui converge vers la dépression.

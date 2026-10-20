@@ -141,3 +141,14 @@ class OndeStationnaire(Scene):
 > - **Doppler** : la fréquence perçue dépend du mouvement relatif.
 
 *Voir aussi* : [[Ondes Mécaniques et Son]] | [[Ondes Électromagnétiques]] | [[Mécanique Quantique]] | [[Séries de Fourier]] | [[Oscillateurs]]
+
+## Questions de révision
+
+> [!quiz] Quelle est l'équation de d'Alembert à une dimension ?
+> $\dfrac{\partial^2 y}{\partial t^2} = c^2 \dfrac{\partial^2 y}{\partial x^2}$.
+
+> [!quiz] Quelles fréquences propres a une corde fixée à ses deux extrémités ?
+> $f_n = n\,\dfrac{c}{2L}$, avec $n$ entier : le fondamental et ses harmoniques.
+
+> [!quiz] Quelle différence entre vitesse de phase et vitesse de groupe ?
+> La vitesse de phase est celle des crêtes d'une onde harmonique ; la vitesse de groupe est celle de l'enveloppe d'un paquet d'ondes, qui transporte l'énergie. Elles diffèrent dans un milieu dispersif.

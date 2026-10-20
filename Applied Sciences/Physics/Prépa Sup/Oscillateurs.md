@@ -167,3 +167,14 @@ Voir [[Électrocinétique]] pour le traitement par les impédances complexes.
 > - L'oscillateur harmonique modélise **tout** équilibre stable au premier ordre.
 
 *Voir aussi* : [[Mécanique du Point]] | [[Électrocinétique]] | [[Équations Différentielles]] | [[Physique des Ondes]]
+
+## Questions de révision
+
+> [!quiz] Quelle est la pulsation propre d'un oscillateur masse-ressort ?
+> $\omega_0 = \sqrt{k/m}$.
+
+> [!quiz] Que mesure le facteur de qualité $Q$ ?
+> La finesse de la résonance et la faiblesse de l'amortissement : un grand $Q$ donne une résonance aiguë et de nombreuses oscillations avant arrêt.
+
+> [!quiz] Quelle analogie relie un oscillateur mécanique et un circuit RLC ?
+> La masse correspond à l'inductance, la raideur à l'inverse de la capacité, le frottement à la résistance, la position à la charge.
