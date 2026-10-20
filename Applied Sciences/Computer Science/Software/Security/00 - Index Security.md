@@ -26,6 +26,16 @@ Carte du domaine sécurité du vault. Organisation par discipline, du concept à
 - Vivre de la terre : [[LOLBAS et GTFOBins]], [[Recon Automation]], [[Bug Bounty Methodology]]
 - **Outils** (`Offensive/Tools/`) : [[nmap]], [[Burp Suite]], [[ffuf et Gobuster]], [[Nuclei]], [[Impacket]], [[Responder]], [[Tshark]]
 
+## Malware Development
+
+`Malware Development/` — développement de malware Windows, du format PE aux syscalls. Voir l'index détaillé : [[00 - Index Malware Development]].
+
+- Fondations : [[Architecture Windows]], [[Gestion de la mémoire Windows]], [[Windows API]], [[Format PE]]
+- Payload : [[Placement du payload]], [[Chiffrement du payload]], [[Obfuscation du payload]]
+- Injection : [[Injection de DLL]], [[Injection de shellcode]], [[Détournement de threads]], [[Injection APC et Early Bird]], [[Injection par mapping]]
+- Évasion : [[Dissimulation de l'IAT]], [[API hooking]], [[Introduction aux syscalls]], [[Unhooking de NTDLL]]
+- Anti-analyse : [[Anti-debugging]], [[Anti-VM et évasion d'environnement]]
+
 ## Active Directory
 
 `Active Directory/` — [[Active Directory Security]], [[Kerberos Attacks]], [[NTLM Relay]], [[ACL Abuse]], [[ADCS]], [[AD Trusts et Forêts]], [[AD Persistence Avancée]], [[BloodHound]], [[Mimikatz]], [[CrackMapExec]], [[PowerShell Pentest]]
