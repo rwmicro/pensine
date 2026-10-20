@@ -29,13 +29,17 @@ Glossaire de référence des acronymes et termes rencontrés dans le quotidien d
 
 ## Outils et technologies
 
-**SIEM** (*Security Information and Event Management*) — plateforme qui centralise, corrèle et alerte sur les logs de sécurité. Exemples : Splunk, Elastic Security, QRadar, Sentinel.
+> [!abstract] Définition — SIEM
+> Plateforme (*Security Information and Event Management*) qui centralise, normalise et corrèle les logs de sécurité pour détecter les menaces, puis alerte sur les correspondances. Exemples : Splunk, Elastic Security, QRadar, Sentinel.
 
-**SOAR** (*Security Orchestration, Automation and Response*) — automatise les réponses aux alertes via des playbooks. Exemples : Cortex XSOAR, Splunk SOAR, Tines.
+> [!abstract] Définition — SOAR
+> Plateforme (*Security Orchestration, Automation and Response*) qui automatise les réponses aux alertes via des playbooks orchestrant les outils. Exemples : Cortex XSOAR, Splunk SOAR, Tines.
 
-**EDR** (*Endpoint Detection and Response*) — agent sur les postes et serveurs qui collecte la télémétrie (processus, réseau, fichiers) et permet la détection comportementale. Exemples : CrowdStrike Falcon, SentinelOne, Microsoft Defender for Endpoint.
+> [!abstract] Définition — EDR
+> Agent (*Endpoint Detection and Response*) installé sur les postes et serveurs qui collecte la télémétrie (processus, réseau, fichiers) et permet la détection comportementale au-delà de la simple signature. Exemples : CrowdStrike Falcon, SentinelOne, Microsoft Defender for Endpoint.
 
-**XDR** (*Extended Detection and Response*) — généralisation de l'EDR à plusieurs sources (endpoint + réseau + cloud + identité) avec corrélation unifiée.
+> [!abstract] Définition — XDR
+> Solution (*Extended Detection and Response*) qui généralise l'EDR à plusieurs sources — endpoint, réseau, cloud, identité — avec une corrélation unifiée des alertes.
 
 **NDR** (*Network Detection and Response*) — détection centrée sur le trafic réseau (analyse NetFlow, PCAP, DNS).
 
@@ -47,9 +51,11 @@ Glossaire de référence des acronymes et termes rencontrés dans le quotidien d
 
 **TTPs** (*Tactics, Techniques, and Procedures*) — vocabulaire du framework **MITRE ATT&CK** pour décrire le comportement d'un attaquant. Tactique = objectif, technique = moyen, procédure = implémentation spécifique.
 
-**IOC** (*Indicator of Compromise*) — donnée observable indiquant une compromission : hash de fichier, IP, domaine, clé de registre. Périssable : l'attaquant peut changer d'infrastructure rapidement.
+> [!abstract] Définition — IOC
+> Donnée observable (*Indicator of Compromise*) indiquant une compromission : hash de fichier, IP, domaine, clé de registre. Périssable, car l'attaquant peut changer d'infrastructure en heures.
 
-**IOA** (*Indicator of Attack*) — indicateur comportemental plus résilient qu'un IOC (ex. "processus Word qui lance PowerShell avec encoded command"). Reste pertinent même si les binaires changent.
+> [!abstract] Définition — IOA
+> Indicateur comportemental (*Indicator of Attack*), plus résilient qu'un IOC (ex. « processus Word qui lance PowerShell avec encoded command »), qui reste pertinent même si les binaires changent.
 
 > [!important] Idée clé
 > La distinction IOC/IOA n'est pas que terminologique : elle correspond directement à la **Pyramid of Pain** (voir plus bas). Bâtir sa détection sur des IOCs (hash, IP) offre une protection qui expire en heures — l'attaquant change trivialement d'infrastructure. Détecter des IOA/TTPs vise le sommet de la pyramide : coûteux à contourner, parce que ça oblige l'attaquant à changer de méthode, pas juste d'outil.
@@ -63,7 +69,8 @@ Glossaire de référence des acronymes et termes rencontrés dans le quotidien d
 
 ## Types de menaces
 
-**APT** (*Advanced Persistent Threat*) — groupe d'attaquants sophistiqué, souvent étatique, qui vise une persistance longue sur une cible précise. Exemples : APT28 (Russie, GRU), APT29 (Russie, SVR), Lazarus (Corée du Nord), APT41 (Chine).
+> [!abstract] Définition — APT
+> Groupe d'attaquants (*Advanced Persistent Threat*) sophistiqué, souvent étatique, qui vise une persistance longue sur une cible précise. Exemples : APT28 (Russie, GRU), APT29 (Russie, SVR), Lazarus (Corée du Nord), APT41 (Chine).
 
 **Ransomware** — chiffrement malveillant des données avec demande de rançon. Variantes modernes ajoutent la **double extorsion** (exfiltration + publication).
 
@@ -73,7 +80,8 @@ Glossaire de référence des acronymes et termes rencontrés dans le quotidien d
 
 **LOLBins / LOLBAS** (*Living Off the Land Binaries*) — usage de binaires légitimes du système (PowerShell, certutil, rundll32, wmic) pour des actions malveillantes, sans déployer de nouveau binaire. Base de référence : `lolbas-project.github.io`.
 
-**C2** (*Command and Control*) — serveur de contrôle d'un attaquant qui pilote ses implants. Canaux fréquents : HTTPS, DNS tunneling, services cloud légitimes (Slack, Telegram, GitHub).
+> [!abstract] Définition — C2
+> Serveur de contrôle (*Command and Control*) d'un attaquant qui pilote ses implants compromis. Canaux fréquents : HTTPS, DNS tunneling, services cloud légitimes (Slack, Telegram, GitHub).
 
 ## Analyse technique
 

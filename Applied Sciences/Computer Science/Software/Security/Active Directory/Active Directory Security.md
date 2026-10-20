@@ -15,6 +15,9 @@ Active Directory (AD) est le service d'annuaire de Microsoft qui centralise l'au
 > [!important] Idée clé
 > AD n'a pas de périmètre unique à défendre — c'est un graphe de relations (utilisateurs, groupes, ACL, trusts) où n'importe quel chemin menant à Domain Admin compte. D'où l'intérêt d'outils comme BloodHound qui raisonnent en chemins d'attaque plutôt qu'en vulnérabilités isolées.
 
+> [!abstract] Définition — Domain Admin
+> Groupe du domaine (RID 512) dont les membres sont administrateurs de tous les objets du domaine ; n'importe quel chemin d'attaque qui mène à ce groupe équivaut à prendre le contrôle du domaine, ce qui en fait le point terminal des chemins de BloodHound.
+
 ## Architecture AD — rappels essentiels
 
 ```mermaid
@@ -143,6 +146,9 @@ hashcat -m 13100 tgs_hashes.txt wordlist.txt
 ```
 
 ## Attaques sur les hashes NTLM
+
+> [!abstract] Définition — NTLM
+> Protocole d'authentification hérité de Windows, à défi-réponse, fondé sur le hash NT (MD4) du mot de passe ; coexistant encore avec Kerberos, il sert d'équivalent mot de passe aux attaques Pass-the-Hash et NTLM Relay.
 
 ### Pass-the-Hash (PtH)
 

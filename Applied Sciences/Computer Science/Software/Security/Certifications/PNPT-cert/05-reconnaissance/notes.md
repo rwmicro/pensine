@@ -156,3 +156,11 @@ Documenter au fur et à mesure est non négociable. Sur un engagement avec 50 h�
 > - **Le rate-limiting nmap** : `-T4` est ok sur réseau interne, `-T5` peut perdre des paquets et créer des faux négatifs.
 > - **Trop scanner = se faire bloquer** : sur des cibles externes, un scan agressif déclenche le WAF/IDS et bannit ton IP. Adapter `-T` et `--max-rate`.
 > - **Ne jamais oublier IPv6** : `nmap -6 ...`. Beaucoup de cibles ont des services IPv6 non filtrés alors que l'IPv4 est verrouillée.
+
+## Révision
+
+> [!quiz] Pourquoi la découverte d'hôtes par ARP est-elle plus fiable qu'un ping ICMP sur un réseau local ?
+> Parce qu'un firewall hôte peut bloquer ICMP mais pas l'ARP sans se couper du réseau : ARP est obligatoire sur Ethernet.
+
+> [!quiz] Quelle est la bonne séquence de scan Nmap, et pourquoi ?
+> D'abord `nmap -T4 -p-` pour lister les ports ouverts, puis `nmap -sC -sV` ciblé sur ces ports. Lancer `-sC -sV -p-` d'emblée est inutilement lent.

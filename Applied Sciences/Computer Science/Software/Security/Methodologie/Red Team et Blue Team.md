@@ -10,6 +10,9 @@ date: "2026-03-22"
 
 Le Red Team simule des attaquants réels pour tester les défenses d'une organisation. Le Blue Team défend, détecte et répond. La Purple Team fait le lien entre les deux pour maximiser l'apprentissage.
 
+> [!tip] Côté détection
+> La partie défensive de cette note (logs 4624/4625 et Sysmon, règles Sigma, détection du mouvement latéral) relève de l'ingénierie de la détection : écrire les règles, valider la collecte, puis les éprouver avec les techniques du Red Team. Le cycle complet est traité dans [[Detection Engineering]], le vocabulaire des règles dans [[Sigma]], et le croisement offensif-défensif exercice par exercice dans [[Purple Teaming]].
+
 ## Différences Red Team vs Pentest
 
 | Critère | Pentest | Red Team |
@@ -225,7 +228,7 @@ Règle : "Si une machine non-administrateur fait du SMB vers 5+ machines en 1 he
 
 ## Purple Team — Collaboration offensive/défensive
 
-Le Purple Team fait travailler Red et Blue ensemble pour améliorer les capacités de détection.
+Le Purple Team fait travailler Red et Blue ensemble pour améliorer les capacités de détection. Cette section pose le cadre ; l'exercice structuré technique par technique — planification, exécution, verdict, correction de règle, re-test — est détaillé dans [[Purple Teaming]].
 
 ```mermaid
 flowchart LR

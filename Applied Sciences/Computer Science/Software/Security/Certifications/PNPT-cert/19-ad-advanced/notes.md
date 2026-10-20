@@ -382,3 +382,11 @@ Get-DomainObject -Identity 'CN=PC01,...' -Properties ms-Mcs-AdmPwd
 - **Coercion + relay sur LDAPS nécessite SSL** : ntlmrelayx `--no-smb-server` + `--no-http-server` selon le service utilisé pour la coercion.
 - **Unconstrained delegation est rare aujourd'hui** : par défaut désactivé sur les comptes machines depuis Server 2012. Mais on en trouve sur des comptes historiques.
 - **LAPS retourne base64 selon la version** : LAPSv2 (Windows LAPS) stocke chiffré et nécessite des droits spécifiques. Vérifier l'attribut `msLAPS-Password` (v2) vs `ms-Mcs-AdmPwd` (v1).
+
+## Révision
+
+> [!quiz] Quel problème de fond relie ACL abuse, ESC1-8, coercion et delegation ?
+> L'AD accorde du pouvoir via des chaînes de délégation que personne n'audite dans leur ensemble : chaque permission isolée semble anodine, c'est leur composition qui mène à Domain Admin.
+
+> [!quiz] Comment classer les attaques ADCS (ESC) sans les confondre ?
+> Par l'emplacement de la faiblesse : ESC1/2/3 = le template autorise trop ; ESC4 = l'ACL du template est trop permissive ; ESC6/7 = la CA est mal durcie ; ESC8 = le protocole d'enrollment (HTTP non signé) est relayable.

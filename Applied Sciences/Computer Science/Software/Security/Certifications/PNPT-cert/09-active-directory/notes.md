@@ -247,3 +247,11 @@ secretsdump.py -ntds ntds.dit -system system.hive LOCAL
 > - **Golden Ticket avec mauvais SID** : le SID du domaine doit être correct. `whoami /user` sur un compte du domaine donne le SID, garder les 21-X-Y-Z (le RID final change).
 > - **DCSync depuis un compte non-DA** : possible si ACL `Replicating Directory Changes` accordée. BloodHound le révèle. C'est une privesc en soi.
 > - **Le compte krbtgt a deux historiques** : changer le mot de passe une fois ne suffit pas, car les Golden Tickets utilisent l'ancien hash encore valide. Il faut le changer deux fois rapidement.
+
+## Révision
+
+> [!quiz] À quelle question répond BloodHound dans une attaque AD ?
+> « Quel est le chemin d'attaque ? » : il modélise l'AD en graphe et calcule le plus court chemin d'un principal compromis jusqu'à Domain Admins.
+
+> [!quiz] Quelle condition rend un NTLM relay possible ?
+> Que le SMB signing ne soit pas requis sur la cible relayée : requis par défaut sur les clients Windows 10/11, souvent absent sur les serveurs.

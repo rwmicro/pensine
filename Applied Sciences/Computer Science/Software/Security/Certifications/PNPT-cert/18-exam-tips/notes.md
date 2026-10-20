@@ -173,3 +173,11 @@ flowchart TD
 - **AV evasion bâclée** : un payload msfvenom brut + encoder ne passe plus Defender. Préparer un loader custom **avant** l'examen.
 - **Documentation tardive** : "je documenterai à la fin" → screenshots oubliés, étapes floues. La rédaction est infernale si la doc n'est pas faite en temps réel.
 - **Sous-estimer le débrief** : la technique passe, mais l'oral plante. Préparer ses slides au plus tard le matin du débrief.
+
+## Révision
+
+> [!quiz] Contre quel risque unique protègent les règles d'or (documenter en temps réel, lire le scope avant de scanner, valider un payload en local) ?
+> Le risque de découvrir un problème trop tard pour le corriger : perdre une preuve, lancer un scan hors scope irréversible, ou griller sa fenêtre d'action.
+
+> [!quiz] Quelle erreur de posture la PNPT sanctionne-t-elle le plus ?
+> Traiter l'examen comme un CTF (vitesse, exploitation pure) plutôt que comme un engagement réel où scope, documentation et communication client comptent autant.

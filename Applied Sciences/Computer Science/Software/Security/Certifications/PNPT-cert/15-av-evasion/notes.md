@@ -239,3 +239,11 @@ Set-MpPreference -DisableRealtimeMonitoring $true
 - **Direct syscalls sans randomization** : les numéros de syscall changent entre versions Windows. Utiliser HellsGate (résolution dynamique) plutôt que des numéros hardcodés.
 - **Loader compilé sur Linux pour cible Windows** : peut introduire des artefacts détectables. Préférer compiler dans un environnement Windows propre.
 - **Defender exclusions visibles** : ajouter des exclusions trigge l'event ID 5007. Un admin sécurité peut détecter immédiatement. Préférer la furtivité quand possible.
+
+## Révision
+
+> [!quiz] Quelles grandes familles de détection un AV/EDR combine-t-il ?
+> La détection par signatures (motifs connus), l'analyse heuristique/statique et la détection comportementale à l'exécution.
+
+> [!quiz] Pourquoi chiffrer le shellcode et le déchiffrer en mémoire aide-t-il à l'évasion ?
+> Parce que le payload chiffré ne présente plus de signature statique sur disque ; il n'est déchiffré qu'en mémoire au moment de l'exécution.

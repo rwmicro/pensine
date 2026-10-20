@@ -15,6 +15,9 @@ Les vecteurs d'attaque web sont les chemins empruntés par un attaquant pour com
 > [!important] Le point commun
 > Presque toutes ces failles partagent la même cause racine : une donnée qui vient de l'utilisateur (URL, formulaire, en-tête, cookie) est traitée comme si elle était de confiance — interprétée comme du code (SQL, shell, HTML/JS) au lieu d'être traitée comme une simple valeur. Identifier "où l'entrée finit-elle par être interprétée" est la première question à se poser face à n'importe laquelle de ces catégories.
 
+> [!tip] Côté détection
+> Une WAF (ModSecurity, Cloudflare) bloque en amont une partie de ces vecteurs, un IDS réseau (Suricata) en signale d'autres ; ces couches ont leurs limites face aux variantes et encodages, d'où l'importance des logs applicatifs et des règles Sigma. Le choix et le fonctionnement des filtres sont traités dans [[IDS-IPS-WAF]], la construction des règles dans [[Detection Engineering]].
+
 ## Injections
 
 ### SQL Injection
@@ -157,6 +160,8 @@ POST /api/fetch
 
 **Contre-mesures :** liste blanche des domaines autorisés, bloquer les IPs privées et metadata endpoints, désactiver les schémas non-HTTP.
 
+Depuis le Top 10 2025, le SSRF est classé sous A01 (Broken Access Control) : l'ancienne catégorie dédiée de l'édition 2021 a été fusionnée dans celle-ci.
+
 ## Path Traversal / LFI / RFI
 
 ### Path Traversal
@@ -240,20 +245,22 @@ Server: Apache
 
 **Contre-mesures :** désactiver les fonctionnalités inutilisées, configurer les en-têtes de sécurité (CSP, HSTS, X-Content-Type-Options), supprimer les pages d'erreur détaillées, scanner régulièrement avec des outils comme Nikto ou OWASP ZAP.
 
-## Résumé OWASP Top 10 (2021)
+## Résumé OWASP Top 10 (2025)
+
+Édition publiée sur owasp.org et devenue l'édition de référence ; elle succède au Top 10 2021. Les changements notables : SSRF n'est plus une catégorie autonome (fusionné dans A01), « Vulnerable Components » s'élargit à toute la chaîne d'approvisionnement (A03), Security Misconfiguration remonte en deuxième position, et une nouvelle catégorie traite la gestion des conditions exceptionnelles (A10).
 
 | Rang | Catégorie | Exemples |
 |---|---|---|
-| A01 | Broken Access Control | IDOR, path traversal, privilege escalation |
-| A02 | Cryptographic Failures | Données sensibles en clair, algorithmes faibles |
-| A03 | Injection | SQLi, Command injection, XXE |
-| A04 | Insecure Design | Absence de modèles de menaces dès la conception |
-| A05 | Security Misconfiguration | Permissions, credentials par défaut, headers |
-| A06 | Vulnerable Components | Dépendances obsolètes avec CVEs connues |
-| A07 | Auth & Session Failures | Gestion de sessions, mots de passe faibles |
-| A08 | Software Integrity Failures | Pipelines CI/CD non sécurisés, supply chain |
-| A09 | Logging & Monitoring Failures | Absence de détection d'incidents |
-| A10 | SSRF | Requêtes vers ressources internes |
+| A01 | Broken Access Control | IDOR, path traversal, privilege escalation, SSRF (fusionné dans cette catégorie en 2025) |
+| A02 | Security Misconfiguration | Permissions, credentials par défaut, en-têtes manquants |
+| A03 | Software Supply Chain Failures | Dépendances compromises, registres et artefacts de build, distribution |
+| A04 | Cryptographic Failures | Données sensibles en clair, algorithmes faibles |
+| A05 | Injection | SQLi, injection de commande, XXE, XSS |
+| A06 | Insecure Design | Absence de modèles de menaces dès la conception |
+| A07 | Authentication Failures | Gestion de sessions, mots de passe faibles, MFA insuffisant |
+| A08 | Software or Data Integrity Failures | Pipelines CI/CD non sécurisés, désérialisation, artefacts non vérifiés |
+| A09 | Security Logging and Alerting Failures | Absence de journalisation, d'alerte ou de réaction |
+| A10 | Mishandling of Exceptional Conditions | Gestion d'erreurs défaillante, fail-open, défauts logiques sur conditions anormales |
 
 ## Outils de test
 

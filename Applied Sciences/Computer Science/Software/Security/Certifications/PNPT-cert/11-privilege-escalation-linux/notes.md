@@ -225,3 +225,11 @@ cat /etc/os-release
 > - **Kernel exploits + binaire mal compilé** = panic kernel. Compiler sur une VM avec exactement la même version de glibc que la cible.
 > - **Capabilities affichées par `getcap` peuvent ignorer les ambient/inheritable** : utiliser `getpcaps <PID>` sur un processus en cours pour les vraies capabilities effectives.
 > - **`/bin/sh` n'est pas toujours bash** sur Linux moderne (souvent `dash`). Certains payloads bash-spécifiques échouent — utiliser `bash -c` explicitement.
+
+## Révision
+
+> [!quiz] Par quoi commencer une escalade Linux avant un kernel exploit ?
+> Par `sudo -l` : une entrée correspondant à GTFOBins donne une élévation immédiate et fait gagner des heures.
+
+> [!quiz] Qu'est-ce qu'un binaire SUID et pourquoi est-ce un vecteur d'escalade ?
+> Un binaire qui s'exécute avec les droits de son propriétaire (souvent root) ; s'il permet d'exécuter des commandes (cf. GTFOBins), on obtient root.

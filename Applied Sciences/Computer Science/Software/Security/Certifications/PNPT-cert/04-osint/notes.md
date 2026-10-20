@@ -144,3 +144,11 @@ Voir `[[Shodan]]` pour les requêtes avancées.
 > - **LinkedIn applique du rate-limiting et bannit les profils suspects** — utiliser un compte dédié, jamais le pro réel du pentester.
 > - **Les fuites HIBP sont des hashes ou des plaintexts ?** Vérifier la nature de la fuite. Un hash bcrypt non cracké n'est pas immédiatement exploitable.
 > - **L'OSINT n'est pas un pré-requis seulement initial** : pendant l'engagement, revenir à l'OSINT (par exemple LinkedIn pour comprendre la hiérarchie sociale après accès aux emails) reste utile.
+
+## Révision
+
+> [!quiz] Pourquoi les Certificate Transparency logs sont-ils une mine pour l'énumération de sous-domaines ?
+> Parce que depuis 2018 tout certificat SSL doit y être publié : tout sous-domaine ayant eu un certificat (même expiré) y est trouvable.
+
+> [!quiz] Pourquoi croiser les emails récoltés avec les bases de fuites ?
+> Parce que la réutilisation de mots de passe est une constante humaine : un mot de passe fuité il y a des années peut encore ouvrir un compte.
