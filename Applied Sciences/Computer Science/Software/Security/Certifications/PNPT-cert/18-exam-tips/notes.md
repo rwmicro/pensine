@@ -174,7 +174,7 @@ flowchart TD
 - **Documentation tardive** : "je documenterai à la fin" → screenshots oubliés, étapes floues. La rédaction est infernale si la doc n'est pas faite en temps réel.
 - **Sous-estimer le débrief** : la technique passe, mais l'oral plante. Préparer ses slides au plus tard le matin du débrief.
 
-## Révision
+## Questions de révision
 
 > [!quiz] Contre quel risque unique protègent les règles d'or (documenter en temps réel, lire le scope avant de scanner, valider un payload en local) ?
 > Le risque de découvrir un problème trop tard pour le corriger : perdre une preuve, lancer un scan hors scope irréversible, ou griller sa fenêtre d'action.

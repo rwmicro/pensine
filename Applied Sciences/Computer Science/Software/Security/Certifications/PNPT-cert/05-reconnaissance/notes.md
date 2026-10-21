@@ -157,7 +157,7 @@ Documenter au fur et à mesure est non négociable. Sur un engagement avec 50 h�
 > - **Trop scanner = se faire bloquer** : sur des cibles externes, un scan agressif déclenche le WAF/IDS et bannit ton IP. Adapter `-T` et `--max-rate`.
 > - **Ne jamais oublier IPv6** : `nmap -6 ...`. Beaucoup de cibles ont des services IPv6 non filtrés alors que l'IPv4 est verrouillée.
 
-## Révision
+## Questions de révision
 
 > [!quiz] Pourquoi la découverte d'hôtes par ARP est-elle plus fiable qu'un ping ICMP sur un réseau local ?
 > Parce qu'un firewall hôte peut bloquer ICMP mais pas l'ARP sans se couper du réseau : ARP est obligatoire sur Ethernet.

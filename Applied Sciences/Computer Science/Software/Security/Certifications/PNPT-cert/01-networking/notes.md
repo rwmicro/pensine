@@ -132,7 +132,7 @@ Ces plages ne sont pas routées sur Internet. Si tu vois ces IPs sur ton scan ex
 > - **NAT ne sécurise pas** : c'est de la traduction d'adresses, pas un pare-feu. Beaucoup confondent.
 > - **Le routeur par défaut est .1 par convention, pas par règle** — sur des réseaux mal configurés, la passerelle peut être .254 ou autre.
 
-## Révision
+## Questions de révision
 
 > [!quiz] Pourquoi une attaque sur une couche OSI basse est-elle invisible aux couches supérieures ?
 > Parce que chaque couche ignore ce qui se passe en dessous : un ARP poisoning (couche 2) intercepte tout le HTTP non chiffré sans que l'application (couche 7) ne s'en aperçoive.

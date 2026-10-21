@@ -240,7 +240,7 @@ Set-MpPreference -DisableRealtimeMonitoring $true
 - **Loader compilé sur Linux pour cible Windows** : peut introduire des artefacts détectables. Préférer compiler dans un environnement Windows propre.
 - **Defender exclusions visibles** : ajouter des exclusions trigge l'event ID 5007. Un admin sécurité peut détecter immédiatement. Préférer la furtivité quand possible.
 
-## Révision
+## Questions de révision
 
 > [!quiz] Quelles grandes familles de détection un AV/EDR combine-t-il ?
 > La détection par signatures (motifs connus), l'analyse heuristique/statique et la détection comportementale à l'exécution.

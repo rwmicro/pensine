@@ -172,7 +172,7 @@ ssh user@10.10.10.5
 > - **Tunnel qui meurt sans warning** : si le pivot perd la connexion, tes outils plantent silencieusement. Toujours vérifier le tunnel avant un long scan (`ss -tn | grep <port>`).
 > - **Pivot oublié** : à la fin de l'engagement, tuer le tunnel et nettoyer les fichiers déposés sur le pivot — sinon c'est une backdoor laissée en place.
 
-## Révision
+## Questions de révision
 
 > [!quiz] Pourquoi scanner avec `-sT -Pn` à travers proxychains ?
 > Parce que les proxies SOCKS ne transmettent pas l'ICMP : pas de ping ni de `-sn`. `-Pn` saute la découverte par ping et `-sT` fait un full-connect compatible proxy.

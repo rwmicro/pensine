@@ -383,7 +383,7 @@ Get-DomainObject -Identity 'CN=PC01,...' -Properties ms-Mcs-AdmPwd
 - **Unconstrained delegation est rare aujourd'hui** : par défaut désactivé sur les comptes machines depuis Server 2012. Mais on en trouve sur des comptes historiques.
 - **LAPS retourne base64 selon la version** : LAPSv2 (Windows LAPS) stocke chiffré et nécessite des droits spécifiques. Vérifier l'attribut `msLAPS-Password` (v2) vs `ms-Mcs-AdmPwd` (v1).
 
-## Révision
+## Questions de révision
 
 > [!quiz] Quel problème de fond relie ACL abuse, ESC1-8, coercion et delegation ?
 > L'AD accorde du pouvoir via des chaînes de délégation que personne n'audite dans leur ensemble : chaque permission isolée semble anodine, c'est leur composition qui mène à Domain Admin.

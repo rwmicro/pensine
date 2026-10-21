@@ -234,7 +234,7 @@ flowchart TD
 - **Mailbox accès = pas la fin** : trouver des credentials dans les mails est souvent l'étape qui mène au foothold interne réel. Toujours fouiller.
 - **OAuth abuse** : sur O365, l'auth illicite (illicit consent grant) peut permettre l'accès sans même connaître le mot de passe. Voir Office 365 Attack Toolkit.
 
-## Révision
+## Questions de révision
 
 > [!quiz] En quoi le password spraying inverse-t-il la logique du brute force ?
 > Au lieu d'essayer beaucoup de mots de passe sur un compte (lockout rapide), on essaie un seul mot de passe sur tous les comptes : chaque compte ne voit qu'une tentative isolée.

@@ -16,7 +16,7 @@ Les vecteurs d'attaque web sont les chemins empruntés par un attaquant pour com
 > Presque toutes ces failles partagent la même cause racine : une donnée qui vient de l'utilisateur (URL, formulaire, en-tête, cookie) est traitée comme si elle était de confiance — interprétée comme du code (SQL, shell, HTML/JS) au lieu d'être traitée comme une simple valeur. Identifier "où l'entrée finit-elle par être interprétée" est la première question à se poser face à n'importe laquelle de ces catégories.
 
 > [!tip] Côté détection
-> Une WAF (ModSecurity, Cloudflare) bloque en amont une partie de ces vecteurs, un IDS réseau (Suricata) en signale d'autres ; ces couches ont leurs limites face aux variantes et encodages, d'où l'importance des logs applicatifs et des règles Sigma. Le choix et le fonctionnement des filtres sont traités dans [[IDS-IPS-WAF]], la construction des règles dans [[Detection Engineering]].
+> Un WAF (ModSecurity, Cloudflare) bloque en amont une partie de ces vecteurs, un IDS réseau (Suricata) en signale d'autres ; ces couches ont leurs limites face aux variantes et encodages, d'où l'importance des logs applicatifs et des règles Sigma. Le choix et le fonctionnement des filtres sont traités dans [[IDS-IPS-WAF]], la construction des règles dans [[Detection Engineering]].
 
 ## Injections
 

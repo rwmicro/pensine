@@ -226,7 +226,7 @@ cat /etc/os-release
 > - **Capabilities affichées par `getcap` peuvent ignorer les ambient/inheritable** : utiliser `getpcaps <PID>` sur un processus en cours pour les vraies capabilities effectives.
 > - **`/bin/sh` n'est pas toujours bash** sur Linux moderne (souvent `dash`). Certains payloads bash-spécifiques échouent — utiliser `bash -c` explicitement.
 
-## Révision
+## Questions de révision
 
 > [!quiz] Par quoi commencer une escalade Linux avant un kernel exploit ?
 > Par `sudo -l` : une entrée correspondant à GTFOBins donne une élévation immédiate et fait gagner des heures.

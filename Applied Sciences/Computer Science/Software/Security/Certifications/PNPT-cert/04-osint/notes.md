@@ -145,7 +145,7 @@ Voir `[[Shodan]]` pour les requêtes avancées.
 > - **Les fuites HIBP sont des hashes ou des plaintexts ?** Vérifier la nature de la fuite. Un hash bcrypt non cracké n'est pas immédiatement exploitable.
 > - **L'OSINT n'est pas un pré-requis seulement initial** : pendant l'engagement, revenir à l'OSINT (par exemple LinkedIn pour comprendre la hiérarchie sociale après accès aux emails) reste utile.
 
-## Révision
+## Questions de révision
 
 > [!quiz] Pourquoi les Certificate Transparency logs sont-ils une mine pour l'énumération de sous-domaines ?
 > Parce que depuis 2018 tout certificat SSL doit y être publié : tout sous-domaine ayant eu un certificat (même expiré) y est trouvable.

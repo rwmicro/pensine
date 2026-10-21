@@ -176,7 +176,7 @@ Le cœur du rapport. Une fiche par vulnérabilité significative.
 > - **Oublier l'annexe Chaîne d'attaque** : c'est la section que les pentesters apprécient le plus dans les rapports qu'ils lisent. Souvent omise par flemme.
 > - **Rapport rendu sans relecture** : 24 heures de pause avant de relire change tout. À l'examen PNPT, le délai post-test est court mais existe — l'utiliser.
 
-## Révision
+## Questions de révision
 
 > [!quiz] Pourquoi l'Executive Summary ne doit-il contenir aucun jargon technique ?
 > Parce qu'il s'adresse à la direction : un acronyme dès la première phrase et le dirigeant ferme le rapport. Les findings techniques, eux, restent précis.
