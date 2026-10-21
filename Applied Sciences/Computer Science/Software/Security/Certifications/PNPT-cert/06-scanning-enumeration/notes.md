@@ -248,3 +248,11 @@ nmap -sU -p 623 --script=ipmi-version,ipmi-cipher-zero IP
 > - **null sessions** sont désactivées sur Windows récents (>= Server 2008 par défaut). Mais on les voit encore sur du legacy.
 > - **SNMP v3** est chiffré et nécessite auth — `snmpwalk -v2c` échoue alors. Tester `v3` séparément.
 > - **Toujours noter les versions exactes** : "Apache 2.4.41" ≠ "Apache 2.4.49". Une seule version a Path Traversal critique (CVE-2021-41773). Sans la version exacte on rate les CVE.
+
+## Questions de révision
+
+> [!quiz] Pourquoi le port SMB (445) est-il souvent « le jackpot » en interne ?
+> Parce qu'une session nulle sur un Windows non patché peut révéler utilisateurs, groupes et politique de mots de passe.
+
+> [!quiz] Quels chemins web vérifier en priorité, et pourquoi ?
+> `/robots.txt`, `/.git/`, `/.env`, `/backup/`, `/admin/`… ; un `.git` exposé donne tout le code source.

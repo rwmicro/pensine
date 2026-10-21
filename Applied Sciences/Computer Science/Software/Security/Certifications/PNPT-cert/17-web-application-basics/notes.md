@@ -418,3 +418,11 @@ ffuf -u http://IP -H "Host: FUZZ.cible.com" -w hostnames.txt -fs SIZE_BASELINE
 - **SSRF cloud metadata** : très spécifique au provider (AWS vs Azure vs GCP), avec parfois des protections (IMDSv2 sur AWS nécessite un token).
 - **Burp Community vs Pro** : la Community version n'a pas Intruder à pleine vitesse. Pour du fuzzing rapide, préférer ffuf en ligne de commande.
 - **Tester `OPTIONS` avant les méthodes HTTP exotiques** : certains endpoints n'acceptent que GET, mais d'autres acceptent PUT/DELETE/PATCH sans contrôle d'accès → IDOR direct.
+
+## Questions de révision
+
+> [!quiz] À quelle question unique se ramènent presque toutes les vulnérabilités web ?
+> « Où l'application fait-elle confiance à une donnée du client qu'elle devrait revalider côté serveur ? » SQLi, XSS, IDOR, SSRF en sont des variations.
+
+> [!quiz] Sous quelle catégorie OWASP classer un IDOR, et pourquoi ?
+> Sous Broken Access Control (#1 du Top 10) : l'IDOR en est le symptôme le plus courant ; classer la faille sous sa cause montre qu'on la comprend.

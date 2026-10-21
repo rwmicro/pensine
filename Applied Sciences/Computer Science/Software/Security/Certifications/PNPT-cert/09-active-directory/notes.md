@@ -107,7 +107,7 @@ sudo ntlmrelayx.py -tf targets.txt -smb2support --dump
 ```
 
 > [!warning] Condition
-> `SMB signing` non requis sur la cible relayée. Sur Windows 10/11 client, signing requis par défaut. Sur Servers, souvent non.
+> `SMB signing` non requis sur la cible relayée. Requis par défaut sur les contrôleurs de domaine ; sur les autres machines, seulement depuis Windows 11 24H2 et Windows Server 2025. Sur les serveurs membres et les postes plus anciens, souvent non.
 
 ### mitm6 — IPv6 DNS Takeover
 
@@ -247,3 +247,11 @@ secretsdump.py -ntds ntds.dit -system system.hive LOCAL
 > - **Golden Ticket avec mauvais SID** : le SID du domaine doit être correct. `whoami /user` sur un compte du domaine donne le SID, garder les 21-X-Y-Z (le RID final change).
 > - **DCSync depuis un compte non-DA** : possible si ACL `Replicating Directory Changes` accordée. BloodHound le révèle. C'est une privesc en soi.
 > - **Le compte krbtgt a deux historiques** : changer le mot de passe une fois ne suffit pas, car les Golden Tickets utilisent l'ancien hash encore valide. Il faut le changer deux fois rapidement.
+
+## Questions de révision
+
+> [!quiz] À quelle question répond BloodHound dans une attaque AD ?
+> « Quel est le chemin d'attaque ? » : il modélise l'AD en graphe et calcule le plus court chemin d'un principal compromis jusqu'à Domain Admins.
+
+> [!quiz] Quelle condition rend un NTLM relay possible ?
+> Que le SMB signing ne soit pas requis sur la cible relayée : il l'est par défaut sur les contrôleurs de domaine, et partout seulement depuis Windows 11 24H2 et Server 2025 ; sur les serveurs membres et les postes Windows 10, il manque souvent.

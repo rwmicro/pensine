@@ -139,3 +139,11 @@ Montrer que tu comprends les **contraintes business** : on ne demande pas à une
 - **Ne pas avoir de remédiations** : un débrief sans recommandations = livrable incomplet.
 - **Mauvaise gestion des questions** : si tu ne sais pas, dis-le. "Je n'ai pas testé ce vecteur faute de temps" est mieux que de bluffer.
 - **Setup technique défaillant** : tester son micro, sa webcam, sa connexion AVANT le débrief. Avoir une slide PDF en backup au cas où.
+
+## Questions de révision
+
+> [!quiz] Pourquoi suivre la règle « business d'abord » dans un débrief ?
+> Parce que dès qu'un décideur décroche sur du jargon il n'écoute plus les remédiations ; commencer par le business sécurise l'attention avant de la dépenser en technique.
+
+> [!quiz] Comment vulgariser une technique sans perdre en rigueur ?
+> Remplacer le nom de la technique par son effet concret, jamais par une approximation floue : la phrase reste vraie et vérifiable.

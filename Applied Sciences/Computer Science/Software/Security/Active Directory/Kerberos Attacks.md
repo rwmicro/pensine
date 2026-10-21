@@ -39,7 +39,16 @@ Acteurs :
 - TGS (Ticket Granting Service) : émet les tickets de service
 - krbtgt : compte spécial dont le hash protège tous les TGT
 
+> [!abstract] Définition — TGT
+> Ticket délivré par le KDC en réponse à un AS-REQ, chiffré avec le hash de krbtgt : le client le présente ensuite pour obtenir des tickets de service (TGS) sans re-présenter son mot de passe.
+
+> [!abstract] Définition — SPN
+> ServicePrincipalName, attribut AD qui lie un compte à un service (ex. `cifs/SERVER01.contoso.local`) ; tout compte disposant d'un SPN se voit demander un TGS par n'importe quel utilisateur authentifié — la matière première du Kerberoasting.
+
 ## Kerberoasting
+
+> [!abstract] Définition — Kerberoasting
+> Attaque hors ligne consistant à demander un TGS pour un compte avec SPN puis à cracker le hash qui le chiffre : le mot de passe du compte de service peut être retrouvé sans verrouillage de compte, puisque l'attaque force les hash hors ligne au lieu de les deviner en ligne.
 
 Demander des TGS pour des comptes avec SPN, puis cracker les hashes hors ligne.
 
@@ -81,6 +90,9 @@ hashcat -m 13100 kerberoast_hashes.txt /usr/share/wordlists/rockyou.txt -r rules
 # AES hashes (mode 19600 = AES128, 19700 = AES256)
 hashcat -m 19700 kerberoast_hashes.txt /usr/share/wordlists/rockyou.txt
 ```
+
+> [!tip] Côté détection
+> Le Kerberoasting laisse une trace mesurable côté DC : une rafale d'événements 4769 (demandes de TGS) émise par un unique compte, d'autant plus suspecte que le type de chiffrement est RC4-HMAC (0x17), rapide à cracker. Écrire la règle Sigma, vérifier la collecte et éprouver la détection en atelier offensif-défensif est l'objet de [[Detection Engineering]] et [[Purple Teaming]].
 
 ## AS-REP Roasting
 
@@ -180,6 +192,9 @@ Rubeus.exe klist
 ```
 
 ## Golden Ticket
+
+> [!abstract] Définition — Golden Ticket
+> TGT forgé par l'attaquant à partir du hash de krbtgt (obtenu via DCSync ou dump NTDS), valable par défaut 10 ans sous Mimikatz et invalidable uniquement par une double rotation du mot de passe krbtgt.
 
 Forger un TGT arbitraire avec le hash de krbtgt → persistance totale sur le domaine.
 

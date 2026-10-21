@@ -131,3 +131,11 @@ Ces plages ne sont pas routées sur Internet. Si tu vois ces IPs sur ton scan ex
 > - **HTTPS ne protège que la couche 7** : un attaquant en MITM ARP voit toujours les destinations (SNI dans le ClientHello, IPs, tailles de paquets).
 > - **NAT ne sécurise pas** : c'est de la traduction d'adresses, pas un pare-feu. Beaucoup confondent.
 > - **Le routeur par défaut est .1 par convention, pas par règle** — sur des réseaux mal configurés, la passerelle peut être .254 ou autre.
+
+## Questions de révision
+
+> [!quiz] Pourquoi une attaque sur une couche OSI basse est-elle invisible aux couches supérieures ?
+> Parce que chaque couche ignore ce qui se passe en dessous : un ARP poisoning (couche 2) intercepte tout le HTTP non chiffré sans que l'application (couche 7) ne s'en aperçoive.
+
+> [!quiz] Pourquoi un scan de ports UDP est-il plus lent et ambigu qu'un scan TCP ?
+> Parce que TCP répond par un SYN-ACK clair sur un port ouvert, tandis qu'en UDP l'absence de réponse signifie « ouvert OU filtré » : on ne peut pas trancher.

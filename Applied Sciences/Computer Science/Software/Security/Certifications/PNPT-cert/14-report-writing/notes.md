@@ -175,3 +175,11 @@ Le cœur du rapport. Une fiche par vulnérabilité significative.
 > - **Mélanger les langues** : si le rapport est en français, garder le français partout (sauf termes techniques sans équivalent comme "Pass-the-Hash").
 > - **Oublier l'annexe Chaîne d'attaque** : c'est la section que les pentesters apprécient le plus dans les rapports qu'ils lisent. Souvent omise par flemme.
 > - **Rapport rendu sans relecture** : 24 heures de pause avant de relire change tout. À l'examen PNPT, le délai post-test est court mais existe — l'utiliser.
+
+## Questions de révision
+
+> [!quiz] Pourquoi l'Executive Summary ne doit-il contenir aucun jargon technique ?
+> Parce qu'il s'adresse à la direction : un acronyme dès la première phrase et le dirigeant ferme le rapport. Les findings techniques, eux, restent précis.
+
+> [!quiz] À quelles deux audiences un rapport de pentest s'adresse-t-il ?
+> La direction (Executive Summary, impact business, sans jargon) et les équipes techniques (findings détaillés et reproductibles).

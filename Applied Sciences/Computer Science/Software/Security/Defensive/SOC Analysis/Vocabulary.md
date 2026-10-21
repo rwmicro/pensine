@@ -15,41 +15,57 @@ Glossaire de référence des acronymes et termes rencontrés dans le quotidien d
 
 ## Structures et acteurs
 
-**SOC** (*Security Operations Center*) — équipe dédiée à la détection, l'analyse et la réponse aux incidents de sécurité, 24/7 dans les grandes organisations.
+> [!abstract] Définition — SOC
+> *Security Operations Center* : équipe dédiée à la détection, l'analyse et la réponse aux incidents de sécurité, 24/7 dans les grandes organisations.
 
-**CERT** (*Computer Emergency Response Team*) — équipe de réponse aux urgences informatiques. Terme historique (CERT/CC créé à Carnegie Mellon en 1988 après le ver Morris).
+> [!abstract] Définition — CERT
+> *Computer Emergency Response Team* : équipe de réponse aux urgences informatiques. Terme historique (CERT/CC créé à Carnegie Mellon en 1988 après le ver Morris).
 
-**CSIRT** (*Computer Security Incident Response Team*) — synonyme pratique de CERT, plus utilisé en Europe. La différence est largement sémantique.
+> [!abstract] Définition — CSIRT
+> *Computer Security Incident Response Team* : synonyme pratique de CERT, plus utilisé en Europe. La différence est largement sémantique.
 
-**DFIR** (*Digital Forensics and Incident Response*) — discipline et équipe combinant l'analyse forensique numérique et la réponse à incident. Intervient typiquement après qu'un incident a été confirmé.
+> [!abstract] Définition — DFIR
+> *Digital Forensics and Incident Response* : discipline et équipe combinant l'analyse forensique numérique et la réponse à incident. Intervient typiquement après qu'un incident a été confirmé.
 
-**MSSP** (*Managed Security Service Provider*) — prestataire externe qui opère tout ou partie du SOC d'un client.
+> [!abstract] Définition — MSSP
+> *Managed Security Service Provider* : prestataire externe qui opère tout ou partie du SOC d'un client.
 
-**MDR** (*Managed Detection and Response*) — service externalisé de détection et réponse, plus actif qu'un MSSP classique (chasse proactive, réponse déléguée).
+> [!abstract] Définition — MDR
+> *Managed Detection and Response* : service externalisé de détection et réponse, plus actif qu'un MSSP classique (chasse proactive, réponse déléguée).
 
 ## Outils et technologies
 
-**SIEM** (*Security Information and Event Management*) — plateforme qui centralise, corrèle et alerte sur les logs de sécurité. Exemples : Splunk, Elastic Security, QRadar, Sentinel.
+> [!abstract] Définition — SIEM
+> Plateforme (*Security Information and Event Management*) qui centralise, normalise et corrèle les logs de sécurité pour détecter les menaces, puis alerte sur les correspondances. Exemples : Splunk, Elastic Security, QRadar, Sentinel.
 
-**SOAR** (*Security Orchestration, Automation and Response*) — automatise les réponses aux alertes via des playbooks. Exemples : Cortex XSOAR, Splunk SOAR, Tines.
+> [!abstract] Définition — SOAR
+> Plateforme (*Security Orchestration, Automation and Response*) qui automatise les réponses aux alertes via des playbooks orchestrant les outils. Exemples : Cortex XSOAR, Splunk SOAR, Tines.
 
-**EDR** (*Endpoint Detection and Response*) — agent sur les postes et serveurs qui collecte la télémétrie (processus, réseau, fichiers) et permet la détection comportementale. Exemples : CrowdStrike Falcon, SentinelOne, Microsoft Defender for Endpoint.
+> [!abstract] Définition — EDR
+> Agent (*Endpoint Detection and Response*) installé sur les postes et serveurs qui collecte la télémétrie (processus, réseau, fichiers) et permet la détection comportementale au-delà de la simple signature. Exemples : CrowdStrike Falcon, SentinelOne, Microsoft Defender for Endpoint.
 
-**XDR** (*Extended Detection and Response*) — généralisation de l'EDR à plusieurs sources (endpoint + réseau + cloud + identité) avec corrélation unifiée.
+> [!abstract] Définition — XDR
+> Solution (*Extended Detection and Response*) qui généralise l'EDR à plusieurs sources — endpoint, réseau, cloud, identité — avec une corrélation unifiée des alertes.
 
-**NDR** (*Network Detection and Response*) — détection centrée sur le trafic réseau (analyse NetFlow, PCAP, DNS).
+> [!abstract] Définition — NDR
+> *Network Detection and Response* : détection centrée sur le trafic réseau (analyse NetFlow, PCAP, DNS).
 
-**IDS / IPS** (*Intrusion Detection / Prevention System*) — détecte (IDS) ou bloque (IPS) des signatures d'attaque dans le trafic. Exemples : Suricata, Snort, Zeek.
+> [!abstract] Définition — IDS / IPS
+> *Intrusion Detection / Prevention System* : détecte (IDS) ou bloque (IPS) des signatures d'attaque dans le trafic. Exemples : Suricata, Snort, Zeek.
 
-**WAF** (*Web Application Firewall*) — filtre HTTP applicatif qui bloque les attaques web (injections SQL, XSS, path traversal). Exemples : ModSecurity, Cloudflare, AWS WAF.
+> [!abstract] Définition — WAF
+> *Web Application Firewall* : filtre HTTP applicatif qui bloque les attaques web (injections SQL, XSS, path traversal). Exemples : ModSecurity, Cloudflare, AWS WAF.
 
 ## Renseignement et méthode
 
-**TTPs** (*Tactics, Techniques, and Procedures*) — vocabulaire du framework **MITRE ATT&CK** pour décrire le comportement d'un attaquant. Tactique = objectif, technique = moyen, procédure = implémentation spécifique.
+> [!abstract] Définition — TTPs
+> *Tactics, Techniques, and Procedures* : vocabulaire du framework **MITRE ATT&CK** pour décrire le comportement d'un attaquant. Tactique = objectif, technique = moyen, procédure = implémentation spécifique.
 
-**IOC** (*Indicator of Compromise*) — donnée observable indiquant une compromission : hash de fichier, IP, domaine, clé de registre. Périssable : l'attaquant peut changer d'infrastructure rapidement.
+> [!abstract] Définition — IOC
+> Donnée observable (*Indicator of Compromise*) indiquant une compromission : hash de fichier, IP, domaine, clé de registre. Périssable, car l'attaquant peut changer d'infrastructure en heures.
 
-**IOA** (*Indicator of Attack*) — indicateur comportemental plus résilient qu'un IOC (ex. "processus Word qui lance PowerShell avec encoded command"). Reste pertinent même si les binaires changent.
+> [!abstract] Définition — IOA
+> Indicateur comportemental (*Indicator of Attack*), plus résilient qu'un IOC (ex. « processus Word qui lance PowerShell avec encoded command »), qui reste pertinent même si les binaires changent.
 
 > [!important] Idée clé
 > La distinction IOC/IOA n'est pas que terminologique : elle correspond directement à la **Pyramid of Pain** (voir plus bas). Bâtir sa détection sur des IOCs (hash, IP) offre une protection qui expire en heures — l'attaquant change trivialement d'infrastructure. Détecter des IOA/TTPs vise le sommet de la pyramide : coûteux à contourner, parce que ça oblige l'attaquant à changer de méthode, pas juste d'outil.
@@ -59,35 +75,48 @@ Glossaire de référence des acronymes et termes rencontrés dans le quotidien d
 - **Tactique** : TTPs, campagnes (pour SOC et chasse)
 - **Opérationnel / technique** : IOCs, signatures (pour outils)
 
-**TI sharing** — partage de renseignement via **STIX** (format) et **TAXII** (protocole), ou plateformes comme MISP.
+> [!abstract] Définition — TI sharing
+> Partage de renseignement via **STIX** (format) et **TAXII** (protocole), ou plateformes comme MISP.
 
 ## Types de menaces
 
-**APT** (*Advanced Persistent Threat*) — groupe d'attaquants sophistiqué, souvent étatique, qui vise une persistance longue sur une cible précise. Exemples : APT28 (Russie, GRU), APT29 (Russie, SVR), Lazarus (Corée du Nord), APT41 (Chine).
+> [!abstract] Définition — APT
+> Groupe d'attaquants (*Advanced Persistent Threat*) sophistiqué, souvent étatique, qui vise une persistance longue sur une cible précise. Exemples : APT28 (Russie, GRU), APT29 (Russie, SVR), Lazarus (Corée du Nord), APT41 (Chine).
 
-**Ransomware** — chiffrement malveillant des données avec demande de rançon. Variantes modernes ajoutent la **double extorsion** (exfiltration + publication).
+> [!abstract] Définition — Ransomware
+> Chiffrement malveillant des données avec demande de rançon. Variantes modernes ajoutent la **double extorsion** (exfiltration + publication).
 
-**Malware** — terme générique. Sous-types : virus, ver, trojan, rootkit, dropper, loader, stealer, wiper.
+> [!abstract] Définition — Malware
+> Terme générique. Sous-types : virus, ver, trojan, rootkit, dropper, loader, stealer, wiper.
 
-**Webshell** — script malveillant (PHP, ASP, JSP, ASPX) déposé sur un serveur web compromis. Permet à l'attaquant de conserver un accès et d'exécuter des commandes sans backdoor classique. Sa ressemblance avec du code légitime complique la détection.
+> [!abstract] Définition — Webshell
+> Script malveillant (PHP, ASP, JSP, ASPX) déposé sur un serveur web compromis. Permet à l'attaquant de conserver un accès et d'exécuter des commandes sans backdoor classique. Sa ressemblance avec du code légitime complique la détection.
 
-**LOLBins / LOLBAS** (*Living Off the Land Binaries*) — usage de binaires légitimes du système (PowerShell, certutil, rundll32, wmic) pour des actions malveillantes, sans déployer de nouveau binaire. Base de référence : `lolbas-project.github.io`.
+> [!abstract] Définition — LOLBins / LOLBAS
+> *Living Off the Land Binaries* : usage de binaires légitimes du système (PowerShell, certutil, rundll32, wmic) pour des actions malveillantes, sans déployer de nouveau binaire. Base de référence : `lolbas-project.github.io`.
 
-**C2** (*Command and Control*) — serveur de contrôle d'un attaquant qui pilote ses implants. Canaux fréquents : HTTPS, DNS tunneling, services cloud légitimes (Slack, Telegram, GitHub).
+> [!abstract] Définition — C2
+> Serveur de contrôle (*Command and Control*) d'un attaquant qui pilote ses implants compromis. Canaux fréquents : HTTPS, DNS tunneling, services cloud légitimes (Slack, Telegram, GitHub).
 
 ## Analyse technique
 
-**Hash** — empreinte cryptographique (MD5, SHA-1, SHA-256) d'un fichier. Identifiant unique pour IOC.
+> [!abstract] Définition — Hash
+> Empreinte cryptographique (MD5, SHA-1, SHA-256) d'un fichier. Identifiant unique pour IOC.
 
-**Fuzzy hashing** — hachage qui mesure la **similarité** entre deux fichiers au lieu de l'identité. Utile pour détecter des variantes d'un même malware. Algorithmes courants : **ssdeep**, **TLSH**, **imphash** (spécifique aux imports PE).
+> [!abstract] Définition — Fuzzy hashing
+> Hachage qui mesure la **similarité** entre deux fichiers au lieu de l'identité. Utile pour détecter des variantes d'un même malware. Algorithmes courants : **ssdeep**, **TLSH**, **imphash** (spécifique aux imports PE).
 
-**YARA** — langage de règles pour identifier des familles de malwares par patterns (chaînes, octets, conditions). Standard de fait pour la détection statique.
+> [!abstract] Définition — YARA
+> Langage de règles pour identifier des familles de malwares par patterns (chaînes, octets, conditions). Standard de fait pour la détection statique.
 
-**Sigma** — équivalent de YARA pour les logs : règles de détection portables entre SIEM.
+> [!abstract] Définition — Sigma
+> Équivalent de YARA pour les logs : règles de détection portables entre SIEM.
 
-**PCAP** (*Packet Capture*) — fichier de capture réseau (Wireshark, tcpdump) utilisé pour l'analyse forensique réseau.
+> [!abstract] Définition — PCAP
+> *Packet Capture* : fichier de capture réseau (Wireshark, tcpdump) utilisé pour l'analyse forensique réseau.
 
-**Triage** — première analyse rapide d'une alerte pour décider si c'est un vrai incident ou un faux positif.
+> [!abstract] Définition — Triage
+> Première analyse rapide d'une alerte pour décider si c'est un vrai incident ou un faux positif.
 
 ## Cycle de vie d'un incident
 
@@ -97,20 +126,28 @@ Glossaire de référence des acronymes et termes rencontrés dans le quotidien d
 3. **Containment, Eradication & Recovery** — confinement, éradication, restauration
 4. **Post-Incident Activity** — retour d'expérience, leçons apprises
 
-**MTTD** (*Mean Time To Detect*) — délai moyen entre le début d'une attaque et sa détection.
+> [!abstract] Définition — MTTD
+> *Mean Time To Detect* : délai moyen entre le début d'une attaque et sa détection.
 
-**MTTR** (*Mean Time To Respond* / *Recover*) — délai moyen entre la détection et la résolution / restauration.
+> [!abstract] Définition — MTTR
+> *Mean Time To Respond* / *Recover* : délai moyen entre la détection et la résolution / restauration.
 
-**Dwell time** — temps passé par l'attaquant dans le système avant détection. Benchmark Mandiant 2023 : 10 jours en moyenne.
+> [!abstract] Définition — Dwell time
+> Temps passé par l'attaquant dans le système avant détection. Benchmark Mandiant 2023 : 10 jours en moyenne.
 
 ## Normes et cadres
 
-**ISO/IEC 27035** — norme internationale pour la gestion des incidents de sécurité de l'information. Fournit un cadre processus en plusieurs parties (planification, détection, réponse, leçons apprises).
+> [!abstract] Définition — ISO/IEC 27035
+> Norme internationale pour la gestion des incidents de sécurité de l'information. Fournit un cadre processus en plusieurs parties (planification, détection, réponse, leçons apprises).
 
-**ISO/IEC 27001** — norme de management de la sécurité de l'information (SMSI).
+> [!abstract] Définition — ISO/IEC 27001
+> Norme de management de la sécurité de l'information (SMSI).
 
-**MITRE ATT&CK** — base de connaissance des TTPs d'attaquants, structurée par tactiques (Initial Access, Execution, Persistence, Lateral Movement, Exfiltration…).
+> [!abstract] Définition — MITRE ATT&CK
+> Base de connaissance des TTPs d'attaquants, structurée par tactiques (Initial Access, Execution, Persistence, Lateral Movement, Exfiltration…).
 
-**Kill Chain (Lockheed Martin)** — modèle en 7 étapes : Reconnaissance → Weaponization → Delivery → Exploitation → Installation → C2 → Actions on Objectives.
+> [!abstract] Définition — Kill Chain
+> Modèle de Lockheed Martin en 7 étapes : Reconnaissance → Weaponization → Delivery → Exploitation → Installation → C2 → Actions on Objectives.
 
-**Pyramid of Pain (David Bianco)** — hiérarchie des IOCs selon le coût pour l'attaquant de les changer : hash (trivial) < IP < domaine < artefact réseau/hôte < outils < **TTPs** (très coûteux).
+> [!abstract] Définition — Pyramid of Pain
+> Hiérarchie, proposée par David Bianco, des IOCs selon le coût pour l'attaquant de les changer : hash (trivial) < IP < domaine < artefact réseau/hôte < outils < **TTPs** (très coûteux).

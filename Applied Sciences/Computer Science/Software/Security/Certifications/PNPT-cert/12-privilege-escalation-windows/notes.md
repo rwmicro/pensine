@@ -307,3 +307,11 @@ Référence : loldrivers.io — catalogue de drivers vulnérables signés.
 > - **WiFi en clair** marche aussi sans admin → check rapide en early enum.
 > - **UAC bypass via registre peut être journalisé** par les EDR modernes : Defender ATP, CrowdStrike détectent les modifs `ms-settings` suspectes. UACME a des techniques plus furtives.
 > - **Le bit High Integrity ne suffit pas pour DCSync** : il faut être Domain Admin (ou avoir l'ACL spécifique). High Integrity local ≠ Domain Admin.
+
+## Questions de révision
+
+> [!quiz] Pourquoi `whoami /priv` ne dit-il pas tout ?
+> Parce qu'un privilège listé peut être « Disabled » : `SeImpersonate` désactivé est inutile en l'état, mais il suffit souvent de l'activer par code.
+
+> [!quiz] Comment des binaires comme `fodhelper.exe` servent-ils à un UAC bypass ?
+> Ils s'auto-élèvent sans prompt et lisent une clé `HKCU\...\ms-settings\Shell\Open\command` : y injecter une commande la fait exécuter en High Integrity.

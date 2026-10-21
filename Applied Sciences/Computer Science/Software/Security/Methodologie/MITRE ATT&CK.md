@@ -13,6 +13,9 @@ MITRE ATT&CK (Adversarial Tactics, Techniques and Common Knowledge) est une base
 
 ATT&CK est souvent confondu avec une checklist de sécurité. C'est une erreur de cadrage. La base décrit des **procédures observées**, pas des exigences de conformité, et sa couverture n'est pas une mesure directe de la sécurité. Bien utilisée, elle sert de colonne vertébrale entre le renseignement, la détection, la chasse et l'évaluation.
 
+> [!abstract] Définition — MITRE ATT&CK
+> Base de connaissances publique qui décrit les comportements observés d'attaquants réels, organisée en tactiques (objectifs), techniques (moyens) et sous-techniques (14 tactiques, ~210 techniques et ~470 sous-techniques pour la matrice Enterprise) ; c'est le vocabulaire commun pour cartographier une couverture de détection et construire des scénarios d'émulation.
+
 ## Le modèle : tactiques, techniques, procédures
 
 ATT&CK organise les comportements sur trois niveaux.

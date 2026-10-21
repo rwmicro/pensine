@@ -56,6 +56,9 @@ Les **modes d'opération** déterminent comment AES est appliqué à des message
 
 GCM (Galois/Counter Mode) est le mode recommandé car il fournit **AEAD** (Authenticated Encryption with Associated Data) : chiffrement + MAC en une seule opération.
 
+> [!abstract] Définition — AEAD
+> Primitive (AES-GCM, ChaCha20-Poly1305) qui chiffre le message et authentifie son intégrité — éventuellement avec des données associées non chiffrées — en une seule opération : le déchiffrement n'aboutit que si le tag est valide.
+
 > [!important] Idée clé
 > Avant l'AEAD, chiffrer et authentifier étaient deux étapes séparées (chiffrer puis calculer un HMAC à part) — une source classique d'erreurs d'implémentation (voir [[Padding Oracle Attack]]). GCM fusionne les deux en une seule primitive : impossible d'oublier de vérifier l'intégrité avant de faire confiance au déchiffré.
 
@@ -118,6 +121,9 @@ clair = cle_privee.decrypt(chiffre, padding.OAEP(...))
 ```
 
 En pratique, RSA ne chiffre pas directement les données (trop lent) — il chiffre une **clé symétrique** AES. C'est le principe des enveloppes chiffrées.
+
+> [!abstract] Définition — Chiffrement hybride
+> Schéma combinant asymétrique et symétrique : l'asymétrique (RSA, DH, ECDH) sert uniquement à s'échanger une clé de session courte, le symétrique (AES) chiffre les données. Patron de TLS, PGP et SSH.
 
 > [!tip] Méthode
 > C'est le schéma general de tout chiffrement "hybride" en cryptographie appliquée : l'asymétrique (RSA, DH, ECDH) sert uniquement à s'échanger une clé courte, le symétrique (AES) fait le travail lourd sur les données. TLS, PGP, SSH suivent tous ce même patron pour la même raison — l'asymétrique est des ordres de grandeur plus lent.
@@ -249,6 +255,9 @@ hmac.compare_digest(mac, mac_recu)
 ```
 
 ## Infrastructure à Clé Publique (PKI)
+
+> [!abstract] Définition — PKI
+> Hiérarchie de confiance qui attache une identité à une clé publique par des certificats X.509 signés par des Autorités de Certification, remontant jusqu'à une root CA auto-signée et maintenue hors ligne.
 
 La PKI résout le problème de distribution des clés publiques : comment savoir que la clé publique d'Alice appartient vraiment à Alice ?
 
