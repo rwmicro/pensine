@@ -125,3 +125,14 @@ Geertz compare l'islam au **Maroc** et en **Indonésie** — deux sociétés mus
 - Le concept de **thick description** a été adopté bien au-delà de l'anthropologie (sociologie, histoire, études littéraires, sciences politiques)
 - L'insistance sur le **savoir local** a nourri les études postcoloniales et la critique de l'universalisme occidental
 - Son écriture a haussé le standard littéraire de l'anthropologie — les anthropologues après Geertz écrivent mieux
+
+## Questions de révision
+
+> [!quiz] Comment Geertz conçoit-il la culture ?
+> Comme un texte, une toile de significations que l'anthropologue doit interpréter.
+
+> [!quiz] Qu'est-ce que la « description dense » (*thick description*) ?
+> Une description qui ne se contente pas de rapporter un geste, mais restitue les couches de sens qu'il a pour les acteurs (l'exemple du clin d'œil chez Ryle).
+
+> [!quiz] Que montre son analyse du combat de coqs balinais ?
+> Que ce jeu est un « jeu profond » où les Balinais mettent en scène leur hiérarchie sociale et leur statut, bien au-delà de l'argent parié.

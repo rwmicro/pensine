@@ -120,3 +120,14 @@ Malgré les controverses, l'apport de Mead reste considérable :
 - Elle a démontré le rôle de la **culture dans la construction du genre** — fondement du féminisme et des études de genre
 - Elle a popularisé l'idée que les **problèmes sociaux** (éducation, sexualité, violence) ont des causes culturelles, donc modifiables
 - Sa citation la plus célèbre résume sa vision : *"Never doubt that a small group of thoughtful, committed citizens can change the world; indeed, it's the only thing that ever has."*
+
+## Questions de révision
+
+> [!quiz] Quelle question Margaret Mead pose-t-elle dans *Coming of Age in Samoa* (1928) ?
+> Si les crises de l'adolescence sont universelles et biologiques, ou dépendent de la culture ; elle conclut qu'à Samoa l'adolescence est peu conflictuelle.
+
+> [!quiz] Quelle controverse a suivi l'œuvre de Mead ?
+> Derek Freeman a contesté en 1983 ses conclusions sur Samoa, l'accusant d'avoir été trompée par ses informatrices ; le débat reste vif.
+
+> [!quiz] À quelle école anthropologique Mead appartient-elle ?
+> À l'école « Culture et personnalité », qui étudie comment chaque culture façonne la personnalité de ses membres.

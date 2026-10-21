@@ -343,3 +343,14 @@ Les Trobriand sont **emblématiques** :
 - Tourisme (limité)
 - Auto-représentation (publications locales)
 - Négociation de l'héritage colonial anthropologique
+
+## Questions de révision
+
+> [!quiz] Quel est le principe de la kula ?
+> Des colliers circulent dans un sens et des bracelets dans l'autre, entre partenaires d'îles différentes ; les objets ne sont jamais gardés, ils confèrent du prestige à qui les fait circuler.
+
+> [!quiz] Quelle est la règle de filiation aux îles Trobriand ?
+> Elle est matrilinéaire : on appartient au clan de sa mère, et l'oncle maternel a un rôle central.
+
+> [!quiz] Pourquoi les îles Trobriand sont-elles importantes dans l'histoire de l'anthropologie ?
+> Parce que c'est là que Malinowski a mis au point l'observation participante, pendant la Première Guerre mondiale.

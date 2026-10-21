@@ -80,3 +80,11 @@ Tolle puise dans plusieurs traditions sans se revendiquer d'aucune :
 - *A New Earth* (2005), second livre majeur de Tolle, approfondit la question de l'ego
 - Le livre a contribué à populariser la pleine conscience (*mindfulness*) dans le grand public occidental, avant même l'explosion des applications de méditation (Headspace, Calm)
 - Influence revendiquée par des figures comme Oprah Winfrey, Jim Carrey et Russell Brand
+
+## Questions de révision
+
+> [!quiz] Quelle est la thèse centrale du *Pouvoir du moment présent* ?
+> La souffrance vient de l'identification au mental et au temps psychologique ; on s'en libère en habitant pleinement le moment présent.
+
+> [!quiz] Quelle critique principale adresse-t-on au livre ?
+> Il présente des affirmations spirituelles sans fondement vérifiable et simplifie les traditions qu'il reprend.

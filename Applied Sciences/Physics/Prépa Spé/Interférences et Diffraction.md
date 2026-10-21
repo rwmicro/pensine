@@ -149,3 +149,14 @@ flowchart TD
 > - Ces phénomènes prouvent la **nature ondulatoire** de la lumière et ouvrent vers la quantique.
 
 *Voir aussi* : [[Optique Géométrique]] | [[Ondes Électromagnétiques]] | [[Ondes Mécaniques et Son]] | [[Mécanique Quantique]]
+
+## Questions de révision
+
+> [!quiz] Quelle est l'interfrange des fentes de Young ?
+> $i = \lambda D / a$, avec $D$ la distance à l'écran et $a$ l'écart entre les fentes.
+
+> [!quiz] Quelle condition donne une interférence constructive ?
+> Une différence de marche égale à un nombre entier de longueurs d'onde, $\delta = k\lambda$.
+
+> [!quiz] Que vaut l'ordre de grandeur de l'angle de diffraction par une fente de largeur $a$ ?
+> $\theta \approx \lambda / a$ : la diffraction est d'autant plus marquée que l'ouverture est petite devant la longueur d'onde.

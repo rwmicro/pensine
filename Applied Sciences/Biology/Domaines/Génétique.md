@@ -182,3 +182,14 @@ Séquencer non plus un gène, mais des génomes entiers.
 - **Éthique** : modifications embryonnaires (affaire He Jiankui, 2018), brevets sur le vivant, discrimination génétique
 
 La génétique est passée en un siècle d'une discipline théorique à un outil de transformation du vivant. Voir [[Enjeux Contemporains]] pour les débats éthiques actuels.
+
+## Questions de révision
+
+> [!quiz] Que dit le dogme central de la biologie moléculaire ?
+> L'information va de l'ADN à l'ARN (transcription), puis de l'ARN à la protéine (traduction).
+
+> [!quiz] Quelle différence entre génotype et phénotype ?
+> Le génotype est l'ensemble des allèles d'un individu ; le phénotype est l'ensemble de ses caractères observables.
+
+> [!quiz] Qu'est-ce que l'épigénétique ?
+> L'étude des modifications de l'expression des gènes (méthylation de l'ADN, histones) qui ne changent pas la séquence d'ADN.

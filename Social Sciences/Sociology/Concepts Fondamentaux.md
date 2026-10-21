@@ -199,3 +199,20 @@ date: "2026-02-22"
 - "Nous" vs "Eux"
 - Stéréotypes, préjugés
 
+Retrouvez le sociologue associé à chaque concept :
+
+```widget:associer
+consigne: Associez chaque concept à son auteur.
+paires: Fait social = Durkheim | Habitus = Bourdieu | Désenchantement du monde = Weber | Lutte des classes = Marx | Stigmate = Goffman | Étiquetage = Becker
+```
+
+## Questions de révision
+
+> [!quiz] Quelle différence entre socialisation primaire et socialisation secondaire ?
+> La primaire a lieu dans l'enfance, surtout dans la famille, et construit l'identité fondamentale ; la secondaire passe par des institutions spécialisées (école, travail) et apprend des rôles particuliers.
+
+> [!quiz] Quels sont les trois ordres de stratification distingués par Weber ?
+> La classe (situation économique), le statut (prestige, honneur social) et le parti (pouvoir politique).
+
+> [!quiz] Quelles sont les quatre formes de capital chez Bourdieu ?
+> Économique, culturel, social et symbolique.

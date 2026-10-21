@@ -112,6 +112,17 @@ timeline
         2021 : Loi confortant le respect des principes de la République
 ```
 
+## Questions de révision
+
+> [!quiz] Que dit l'article 2 de la loi du 9 décembre 1905 ?
+> « La République ne reconnaît, ne salarie ni ne subventionne aucun culte. »
+
+> [!quiz] Quel régime la loi de 1905 abolit-elle ?
+> Le Concordat de 1801, conclu par Bonaparte avec le pape.
+
+> [!quiz] Pourquoi l'Alsace-Moselle a-t-elle un régime particulier ?
+> Parce qu'elle était allemande en 1905 ; elle a conservé le Concordat en revenant à la France en 1918.
+
 ## Ressources
 
 - Jean Baubérot, *Histoire de la laïcité en France*, collection Que sais-je ?, 2000 (1re édition parue sous le titre *Histoire de la laïcité française*).

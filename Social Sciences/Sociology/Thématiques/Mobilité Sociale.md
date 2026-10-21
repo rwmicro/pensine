@@ -109,6 +109,17 @@ timeline
         2020 : Sandel, The Tyranny of Merit
 ```
 
+## Questions de révision
+
+> [!quiz] Quelle différence entre mobilité absolue et mobilité relative ?
+> La mobilité absolue (ou observée) mesure la part d'individus dont la position diffère de celle de leurs parents ; la mobilité relative (ou fluidité) compare les chances d'accès selon l'origine, indépendamment des changements de structure des emplois.
+
+> [!quiz] Qu'est-ce qu'une table de mobilité ?
+> Un tableau croisant la catégorie sociale des individus et celle de leur père (ou de leurs parents), d'où l'on tire tables de destinée et tables de recrutement.
+
+> [!quiz] Qu'énonce le paradoxe d'Anderson ?
+> Qu'un fils peut avoir un diplôme plus élevé que son père sans accéder à une position sociale plus haute, parce que la valeur des diplômes baisse quand ils se diffusent.
+
 ## Ressources
 
 - Raymond Boudon, *L'Inégalité des chances*, Armand Colin, 1973.

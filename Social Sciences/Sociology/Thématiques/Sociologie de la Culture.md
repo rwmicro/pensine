@@ -59,3 +59,14 @@ Débat récurrent en sociologie française de la culture, notamment depuis les e
 - **Culture numérique et streaming** : la multiplication et la personnalisation algorithmique de l'offre culturelle (plateformes de streaming musical et vidéo) transforment les pratiques de consommation culturelle et interrogent la pertinence actuelle des hiérarchies de légitimité classiques
 - **Patrimonialisation** : l'extension continue de ce qui est reconnu comme "patrimoine culturel" (y compris immatériel — gastronomie, savoir-faire artisanaux) pose la question de qui a le pouvoir social de décider ce qui mérite d'être préservé et valorisé collectivement
 - **Culture et identité** : les débats contemporains sur l'appropriation culturelle et la représentation dans les productions culturelles (cinéma, littérature, musique) renouvellent, sous un angle nouveau, la question bourdieusienne de qui a le pouvoir de définir et de légitimer une pratique culturelle donnée
+
+## Questions de révision
+
+> [!quiz] Que montre Bourdieu dans *La Distinction* (1979) ?
+> Que les goûts culturels sont socialement hiérarchisés et servent à se distinguer : la légitimité culturelle est liée à la position dans l'espace social.
+
+> [!quiz] Qu'est-ce que l'omnivorisme culturel selon Richard Peterson ?
+> Le fait que les classes supérieures se distinguent moins par l'exclusivité de goûts savants que par l'éclectisme, en consommant aussi des genres populaires.
+
+> [!quiz] Que montre Howard Becker dans *Les Mondes de l'art* (1982) ?
+> Qu'une œuvre est le produit d'une activité collective et de conventions partagées par tout un réseau de participants, pas d'un génie isolé.

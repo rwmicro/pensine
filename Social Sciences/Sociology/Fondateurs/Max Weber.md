@@ -367,3 +367,14 @@ Sociologue, économiste et philosophe allemand, figure majeure de la sociologie 
 > "L'État revendique avec succès pour son propre compte le monopole de la violence physique légitime."
 
 > "Toute science de la culture vise à comprendre et à interpréter."
+
+## Questions de révision
+
+> [!quiz] Pourquoi Weber parle-t-il d'« affinités électives » entre éthique protestante et capitalisme ?
+> Pour éviter un schéma causal simple : il montre une convergence culturelle, pas que le protestantisme aurait causé le capitalisme.
+
+> [!quiz] Comment la doctrine de la prédestination favorise-t-elle le travail méthodique ?
+> L'angoisse de savoir si l'on est élu pousse à chercher des signes d'élection dans la réussite terrestre, par un travail acharné vécu comme vocation, sans jouir des richesses.
+
+> [!quiz] De quoi Weber meurt-il en 1920 ?
+> De la grippe espagnole.

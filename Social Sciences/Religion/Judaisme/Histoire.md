@@ -98,3 +98,14 @@ Les principaux courants sont:
 - **Conservateur/Masorti**: équilibre entre tradition et modernité
 - **Réformé/Libéral**: adaptation de la tradition au monde moderne
 - **Reconstructionniste**: approche progressive et évolutive
+
+## Questions de révision
+
+> [!quiz] Quand le Premier Temple de Jérusalem est-il détruit, et par qui ?
+> En 586 av. J.-C., par les Babyloniens de Nabuchodonosor II.
+
+> [!quiz] Quel événement ouvre la période rabbinique ?
+> La destruction du Second Temple par les Romains en 70 apr. J.-C.
+
+> [!quiz] Quelle différence entre Juifs ashkénazes et séfarades ?
+> Les ashkénazes sont issus des communautés d'Europe centrale et orientale ; les séfarades, de la péninsule Ibérique, puis du bassin méditerranéen après l'expulsion de 1492.

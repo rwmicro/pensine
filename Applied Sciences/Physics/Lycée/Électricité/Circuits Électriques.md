@@ -131,3 +131,14 @@ flowchart TD
 > - **Condensateur** : $q = Cu_C$ ; régimes variables étudiés en prépa.
 
 *Voir aussi* : [[Électrocinétique]] | [[Électrostatique et Magnétostatique]] | [[Énergie et Travail]] | [[Constantes et Unités]]
+
+## Questions de révision
+
+> [!quiz] Qu'énonce la loi d'Ohm ?
+> La tension aux bornes d'un conducteur ohmique est proportionnelle à l'intensité qui le traverse : $U = RI$.
+
+> [!quiz] Que disent les lois de Kirchhoff ?
+> Loi des nœuds : la somme des intensités qui arrivent à un nœud égale celle des intensités qui en partent. Loi des mailles : la somme algébrique des tensions le long d'une maille est nulle.
+
+> [!quiz] Quelle est la résistance équivalente de deux résistances en parallèle ?
+> $R = \dfrac{R_1 R_2}{R_1 + R_2}$, toujours inférieure à chacune.

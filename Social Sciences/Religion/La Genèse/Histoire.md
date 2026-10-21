@@ -134,3 +134,14 @@ La Genèse a profondément marqué:
 - Les concepts juridiques et moraux
 - Les débats science-religion (création vs évolution)
 - Les questions écologiques (domination sur la nature)
+
+## Questions de révision
+
+> [!quiz] Quels grands récits contient le livre de la Genèse ?
+> La Création, Adam et Ève, Caïn et Abel, le Déluge, la tour de Babel, puis l'histoire des patriarches : Abraham, Isaac, Jacob et Joseph.
+
+> [!quiz] Que raconte le récit de la tour de Babel ?
+> Les hommes veulent bâtir une tour jusqu'au ciel ; Dieu confond leurs langues et les disperse sur la terre.
+
+> [!quiz] Que dit l'hypothèse documentaire sur la composition de la Genèse ?
+> Que le texte assemble plusieurs sources d'époques différentes plutôt qu'un auteur unique.

@@ -106,6 +106,17 @@ timeline
         2023-2024 : Près de 30 pour cent de sans religion aux États-Unis
 ```
 
+## Questions de révision
+
+> [!quiz] Quelle différence entre athéisme et agnosticisme ?
+> L'athée ne croit pas en l'existence de Dieu ; l'agnostique estime qu'on ne peut pas savoir si Dieu existe.
+
+> [!quiz] Qui forge le mot « agnostique » ?
+> Le biologiste Thomas Henry Huxley, en 1869.
+
+> [!quiz] Qui sont les « maîtres du soupçon » ?
+> Marx, Nietzsche et Freud, selon l'expression de Paul Ricœur.
+
 ## Ressources
 
 - Georges Minois, *Histoire de l'athéisme*, 1998.

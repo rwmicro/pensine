@@ -164,3 +164,14 @@ Faire croître *r* montre la cascade de doublements de période : point fixe, pu
 > - Présent partout (météo, pendule double, cœur, turbulence) ; imprévisibilité locale, ordre global.
 
 *Voir aussi* : [[Équations Différentielles]] | [[Oscillateurs]] | [[Mécanique du Point]] | [[Physique Statistique]] | [[Théorie des Graphes]]
+
+## Questions de révision
+
+> [!quiz] Un système chaotique est-il aléatoire ?
+> Non : il est déterministe, mais sa sensibilité extrême aux conditions initiales rend sa prédiction impossible au-delà d'un certain horizon.
+
+> [!quiz] Quel ingrédient mathématique est nécessaire au chaos ?
+> La non-linéarité ; un système linéaire ne peut pas être chaotique.
+
+> [!quiz] Pourquoi l'erreur de prévision d'un système chaotique explose-t-elle si vite ?
+> Parce que deux trajectoires proches s'écartent exponentiellement ; améliorer la précision initiale d'un facteur 10 ne fait gagner qu'un temps de prévision additif.

@@ -66,3 +66,11 @@ prerequis: ["[[Social Sciences/Litterature/Périodes/Lumières (XVIIIe siècle)]
 - **Nathaniel Hawthorne** (1804-1864): *La Lettre Écarlate*
 - **Herman Melville** (1819-1891): *Moby Dick* (1851)
 - **Walt Whitman** (1819-1892): *Feuilles d'Herbe* (poésie libre)
+
+## Questions de révision
+
+> [!quiz] Quelles valeurs le romantisme oppose-t-il au classicisme ?
+> Le sentiment, l'individu, la nature et la liberté de création, contre la raison et les règles.
+
+> [!quiz] Quelle pièce et quelle « bataille » marquent le triomphe du romantisme au théâtre en France ?
+> *Hernani* de Victor Hugo, en 1830.

@@ -254,3 +254,14 @@ Synthèse théorique du fonctionnalisme malinowskien.
 > "La culture est essentiellement un appareil instrumental par lequel l'homme est mis en position de mieux affronter les problèmes concrets et spécifiques qui se présentent à lui dans son environnement dans le cadre de la satisfaction de ses besoins."
 
 > "Le but de l'ethnographie est de saisir le point de vue de l'indigène, sa relation à la vie, de réaliser sa vision de son monde."
+
+## Questions de révision
+
+> [!quiz] Quelle méthode Malinowski fonde-t-il lors de son terrain aux îles Trobriand (1915-1918) ?
+> L'observation participante : vivre longtemps dans la société étudiée, en parler la langue et participer à la vie quotidienne.
+
+> [!quiz] Quel est le sujet des *Argonautes du Pacifique occidental* (1922) ?
+> La kula, un circuit d'échanges cérémoniels de colliers et de bracelets entre les îles de Mélanésie.
+
+> [!quiz] Que soutient le fonctionnalisme de Malinowski ?
+> Que chaque institution d'une culture répond à des besoins, biologiques puis dérivés, et doit être comprise par sa fonction dans l'ensemble.

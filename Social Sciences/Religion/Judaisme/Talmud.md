@@ -327,3 +327,14 @@ Le Talmud (תלמוד, "étude" ou "enseignement") est l'un des textes les plus 
 - **Temps de lecture**: environ 7,5 ans à raison d'une page par jour
 - **Mots**: environ 1,8 million de mots en araméen/hébreu
 - **Traités**: 37 complets + fragments
+
+## Questions de révision
+
+> [!quiz] De quelles deux parties se compose le Talmud ?
+> De la Mishna, mise par écrit vers 200, et de la Guemara, qui la commente.
+
+> [!quiz] Quels sont les deux Talmuds, et lequel fait autorité ?
+> Le Talmud de Jérusalem et le Talmud de Babylone ; c'est le second, plus complet, qui fait autorité.
+
+> [!quiz] Quelle différence entre halakha et aggada ?
+> La halakha est la partie juridique, la loi ; l'aggada regroupe récits, légendes et enseignements moraux.

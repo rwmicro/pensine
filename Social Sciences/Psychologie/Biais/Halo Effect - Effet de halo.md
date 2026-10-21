@@ -239,6 +239,17 @@ JFK perçu plus compétent après débat TV vs Nixon (apparence).
 
 **Solution:** Structures réduisant biais (processus anonymes, critères objectifs).
 
+## Questions de révision
+
+> [!quiz] Qu'est-ce que l'effet de halo ?
+> Le fait qu'une caractéristique positive d'une personne (beauté, prestige) influence le jugement porté sur ses autres qualités.
+
+> [!quiz] Qui a décrit l'effet de halo, et dans quel contexte ?
+> Edward Thorndike, en 1920, à partir des évaluations de soldats par leurs officiers.
+
+> [!quiz] Comment appelle-t-on l'effet inverse ?
+> L'effet de diable (*horn effect*) : un trait négatif dégrade le jugement d'ensemble.
+
 ## Ressources
 
 ### Études Classiques

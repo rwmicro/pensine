@@ -60,3 +60,14 @@ L'abolition de l'esclavage, l'émancipation des femmes, la naissance des démocr
 Les ordres imaginés sont-ils tous équivalents ? Non. Une distinction éthique est nécessaire entre les ordres imaginés qui réduisent la souffrance et ceux qui la produisent. L'esclavage et l'égalité juridique sont tous deux des ordres imaginés — mais l'un mérite d'être maintenu, l'autre aboli.
 
 Reconnaître qu'une valeur est une construction humaine ne signifie pas qu'elle ne vaut rien. Cela signifie que nous en sommes responsables.
+
+## Questions de révision
+
+> [!quiz] Qu'est-ce qu'une réalité intersubjective ?
+> Une réalité qui existe dans le réseau de croyances partagées d'un groupe, comme l'argent, la nation ou une entreprise : ni objective comme la Lune, ni purement subjective comme une douleur.
+
+> [!quiz] Un ordre imaginé est-il « faux » ?
+> Non. Ce qui est construit, c'est la croyance qui le fait tenir ; ses effets sont bien réels (on peut mourir pour une nation ou être ruiné par une hyperinflation).
+
+> [!quiz] Pourquoi l'argent est-il l'exemple type d'un ordre imaginé ?
+> Parce que la valeur d'un billet ne tient pas à sa matière mais à la confiance collective qu'on lui accorde ; si cette confiance s'effondre, il redevient du papier.

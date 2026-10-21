@@ -203,3 +203,14 @@ class EchangeEnergie(Scene):
 > - **Puissance** : $P = W/\Delta t = \vec{F}\cdot\vec{v}$.
 
 *Voir aussi* : [[Cinématique]] | [[Lois de Newton]] | [[Primitives et Intégrales]] | [[Thermodynamique]]
+
+## Questions de révision
+
+> [!quiz] Comment s'exprime le travail d'une force constante ?
+> $W = \vec F \cdot \vec{AB} = F \, AB \cos\alpha$, où $\alpha$ est l'angle entre la force et le déplacement.
+
+> [!quiz] Que dit le théorème de l'énergie cinétique ?
+> La variation de l'énergie cinétique entre deux points est égale à la somme des travaux des forces appliquées.
+
+> [!quiz] Quand l'énergie mécanique se conserve-t-elle ?
+> Quand seules des forces conservatives (poids, force élastique) travaillent ; les frottements la font diminuer.

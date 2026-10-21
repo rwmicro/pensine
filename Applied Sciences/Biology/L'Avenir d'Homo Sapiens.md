@@ -109,3 +109,11 @@ Au-delà des risques techniques, ces transformations posent une question philoso
 Les valeurs humaines, les droits humains, les religions et les éthiques ont toutes été construites autour d'une nature humaine supposée stable. Si cette nature devient malléable, sur quoi fonder la morale ? Si la mort devient optionnelle, si la mémoire est stockée sur des serveurs, si les émotions sont modulables par des neurochimiques — qu'est-ce que signifie encore "être humain" ?
 
 Ces questions ne sont pas rhétoriques. Elles dessinent l'enjeu politique et philosophique central du siècle à venir.
+
+## Questions de révision
+
+> [!quiz] Quelles voies technologiques pourraient transformer l'espèce humaine selon la note ?
+> Le génie génétique, les interfaces cerveau-machine et l'intelligence artificielle générale.
+
+> [!quiz] Qu'est-ce qu'un risque existentiel ?
+> Un risque qui menacerait la survie de l'humanité ou détruirait durablement son potentiel.

@@ -97,3 +97,14 @@ La sociologie environnementale est un champ en pleine expansion :
 | **Post-vérité** | Bronner (*La Démocratie des crédules*, 2013) : le marché cognitif (Internet) favorise les croyances qui procurent du plaisir sur celles qui sont vraies |
 | **Défiance institutionnelle** | Chute de la confiance envers les partis, les médias, les experts. Sociologie de la "France périphérique" (Guilluy) |
 | **Mouvements sociaux** | Gilets jaunes, climate strikes, Black Lives Matter : nouvelles formes de mobilisation, sans organisation centrale, amplifiées par les réseaux |
+
+## Questions de révision
+
+> [!quiz] Que montrent Bourdieu et Passeron dans *Les Héritiers* (1964) ?
+> Que l'école, loin de corriger les inégalités sociales, tend à les reproduire, en récompensant comme des « dons » des aptitudes héritées du milieu familial.
+
+> [!quiz] Qu'est-ce que la neutralité axiologique chez Weber ?
+> L'exigence que le sociologue décrive ce qui est sans dire ce qui devrait être : la démarche scientifique et les jugements de valeur sont tenus séparés.
+
+> [!quiz] Quels sont les quatre types de sociologie distingués par Michael Burawoy ?
+> Professionnelle et critique (tournées vers les pairs), politique (vers les décideurs) et publique (vers les citoyens et la société civile).

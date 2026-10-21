@@ -131,3 +131,14 @@ L'anthropologie quitte le cadre académique pour intervenir dans :
 - La **santé publique** : ethnomédecine, pratiques de soin culturellement ancrées
 - Le **design** et l'industrie : ethnographie d'usage (comment les gens utilisent réellement les objets)
 - La **justice** : expertise anthropologique dans les procès impliquant des questions culturelles
+
+## Questions de révision
+
+> [!quiz] Quelles sont les trois obligations du don selon Marcel Mauss ?
+> Donner, recevoir et rendre.
+
+> [!quiz] Quelles sont les trois phases d'un rite de passage selon Van Gennep (1909) ?
+> La séparation, la marge (ou liminalité) et l'agrégation.
+
+> [!quiz] Que désigne la liminalité chez Victor Turner ?
+> L'état intermédiaire d'un rite de passage, où l'initié n'a plus son ancien statut et pas encore le nouveau.

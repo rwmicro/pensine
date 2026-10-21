@@ -113,3 +113,14 @@ Ce tableau suggère que les sociétés modernes ont massivement investi dans ce 
 ## Une question sans réponse définitive
 
 La question "sommes-nous plus heureux ?" reste ouverte. Ce qui est certain, c'est qu'elle mérite d'être posée — et que les sociétés qui ne se la posent pas risquent de continuer à optimiser les mauvais indicateurs.
+
+## Questions de révision
+
+> [!quiz] Qu'est-ce que l'adaptation hédonique ?
+> Le fait que l'on revient assez vite à un niveau de bonheur habituel après un événement heureux ou malheureux.
+
+> [!quiz] Qu'énonce le paradoxe d'Easterlin ?
+> Au-delà d'un certain seuil, la hausse du revenu moyen d'un pays ne s'accompagne pas d'une hausse durable du bonheur déclaré.
+
+> [!quiz] Pourquoi les attentes comptent-elles autant pour le bonheur ?
+> Parce que la satisfaction dépend de l'écart entre ce qu'on vit et ce qu'on attend ; quand les conditions s'améliorent, les attentes montent aussi.

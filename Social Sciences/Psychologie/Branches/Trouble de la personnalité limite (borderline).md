@@ -111,3 +111,14 @@ Contrairement aux idées reçues, le TPL **s'améliore significativement** avec 
 | **PTSD** | Lié à un traumatisme spécifique ; chevauchement fréquent |
 | **TDAH** | Impulsivité sans instabilité émotionnelle identitaire |
 | **Narcissisme** | Moins de peur d'abandon, moins d'automutilation |
+
+## Questions de révision
+
+> [!quiz] Quel est le mécanisme central du trouble borderline ?
+> La dysrégulation émotionnelle : des émotions intenses, rapides et difficiles à apaiser.
+
+> [!quiz] Qu'est-ce que le *splitting* ?
+> Une pensée en tout ou rien, où une personne passe brutalement d'idéalisée à dévalorisée.
+
+> [!quiz] Quelle thérapie est le traitement de première ligne ?
+> La thérapie comportementale dialectique (DBT), mise au point par Marsha Linehan.

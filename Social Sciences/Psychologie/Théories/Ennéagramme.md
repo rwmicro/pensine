@@ -302,6 +302,14 @@ Exemple pour le Type 4 :
 
 **Réponse des praticiens :** l'Ennéagramme est un outil de développement, pas une science exacte. L'important est la dynamique (ailes, flèches, niveaux), pas le type fixe. Nécessite un accompagnement qualifié.
 
+## Questions de révision
+
+> [!quiz] Combien de types de personnalité l'ennéagramme distingue-t-il ?
+> Neuf.
+
+> [!quiz] L'ennéagramme est-il un outil validé scientifiquement ?
+> Non : sa fiabilité et sa validité n'ont pas été établies par la recherche en psychologie, contrairement au modèle des Big Five.
+
 ## Ressources
 
 - Don Richard Riso & Russ Hudson, *La Sagesse de l'Ennéagramme*

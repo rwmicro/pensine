@@ -308,6 +308,17 @@ Ces populations ne demandent pas que des aides économiques, mais aussi:
 
 **Apport de Coquard:** Donner chair et complexité aux analyses de Christophe Guilluy (*La France périphérique*).
 
+## Questions de révision
+
+> [!quiz] Quel terrain Benoît Coquard étudie-t-il dans *Ceux qui restent* (2019) ?
+> Les classes populaires des campagnes en déclin du Grand Est, entre Champagne et Lorraine, suivies par une enquête ethnographique d'une dizaine d'années.
+
+> [!quiz] Qu'est-ce que le capital d'autochtonie ?
+> Les ressources tirées de l'appartenance locale et de l'ancienneté sur un territoire (réputation, réseau familial et amical, accès à l'emploi par relations). C'est une variante locale du capital social, qui ne vaut rien hors du territoire.
+
+> [!quiz] Pourquoi le capital d'autochtonie devient-il central pour « ceux qui restent » ?
+> Parce que, faute de capital économique et scolaire, c'est la principale ressource dont ils disposent pour « faire leur vie » sur place.
+
 ## Ressources
 
 **Livre:**

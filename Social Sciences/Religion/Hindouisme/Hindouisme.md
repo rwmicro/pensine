@@ -173,3 +173,14 @@ L'hindouisme possède une tradition philosophique d'une grande richesse, organis
 **Fêtes** : Diwali (fête des lumières, victoire du bien sur le mal), Holi (fête des couleurs, printemps), Navratri (neuf nuits de la Déesse), Maha Shivaratri (nuit de Shiva).
 
 **Samskaras** : 16 sacrements qui marquent les étapes de la vie, de la conception à la crémation.
+
+## Questions de révision
+
+> [!quiz] Que désignent Brahman et Atman ?
+> Brahman est la réalité absolue de l'univers ; Atman est le soi profond de chaque être. Pour le Vedanta, ils sont ultimement identiques.
+
+> [!quiz] Quelles divinités composent la Trimurti ?
+> Brahma le créateur, Vishnou le préservateur et Shiva le destructeur.
+
+> [!quiz] Quelle différence entre *shruti* et *smriti* ?
+> La *shruti* (« ce qui est entendu ») est la révélation : Védas et Upanishads. La *smriti* (« ce qui est mémorisé ») est la tradition : épopées, lois, Puranas.

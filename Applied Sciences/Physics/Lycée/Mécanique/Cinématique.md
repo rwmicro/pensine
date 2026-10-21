@@ -225,3 +225,14 @@ class MouvementProjectile(Scene):
 > - Toujours **préciser le référentiel** : le mouvement est relatif.
 
 *Voir aussi* : [[Lois de Newton]] | [[Énergie et Travail]] | [[Dérivation]] | [[Mécanique du Point]]
+
+## Questions de révision
+
+> [!quiz] Quelle relation lie vitesse et position en mouvement rectiligne uniformément accéléré ?
+> $v^2 - v_0^2 = 2a(x - x_0)$.
+
+> [!quiz] Quelle est la forme de la trajectoire d'un projectile sans frottement ?
+> Une parabole : le mouvement horizontal est uniforme, le mouvement vertical uniformément accéléré.
+
+> [!quiz] Sans frottement, quel angle de tir donne la portée maximale sur un sol horizontal ?
+> 45°.

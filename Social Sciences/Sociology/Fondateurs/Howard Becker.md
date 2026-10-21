@@ -114,6 +114,17 @@ timeline
         2023 : Mort à 95 ans
 ```
 
+## Questions de révision
+
+> [!quiz] Quelle thèse Howard Becker défend-il dans *Outsiders* (1963) ?
+> La déviance n'est pas une qualité de l'acte mais le produit d'un étiquetage, porté notamment par des « entrepreneurs de morale ».
+
+> [!quiz] Que montre l'article « Becoming a Marihuana User » (1953) ?
+> Qu'on apprend à fumer, à percevoir les effets et à les trouver agréables : l'expérience elle-même est socialement apprise.
+
+> [!quiz] À quel courant Becker appartient-il ?
+> À la seconde École de Chicago et à l'interactionnisme symbolique, qui opposent l'observation directe au fonctionnalisme et aux grandes enquêtes par questionnaire.
+
 ## Ressources
 
 - Howard S. Becker, *Outsiders. Études de sociologie de la déviance*, Métailié, 1985.

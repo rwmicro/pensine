@@ -41,3 +41,11 @@ Le livre est devenu, avec *L'Espèce humaine* de Robert Antelme (1947) et plus t
 Levi a poursuivi cette réflexion dans deux ouvrages :
 - *La Trêve* (1963) — son retour vers l'Italie à travers l'Europe en ruines
 - *Les Naufragés et les Rescapés* (1986) — quarante ans après, retour analytique sur l'expérience et la mémoire
+
+## Questions de révision
+
+> [!quiz] De quoi témoigne *Si c'est un homme* ?
+> De la détention de Primo Levi à Auschwitz (Monowitz), de 1944 à la libération du camp en janvier 1945.
+
+> [!quiz] Pourquoi Primo Levi est-il déporté ?
+> Arrêté comme résistant en Italie, il est déporté parce que juif.

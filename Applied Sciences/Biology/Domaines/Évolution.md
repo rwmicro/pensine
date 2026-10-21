@@ -119,3 +119,14 @@ L'évolution n'est pas qu'une reconstitution du passé. On l'observe :
 ## Évolution humaine
 
 L'évolution de la lignée humaine — australopithèques, genre *Homo*, sortie d'Afrique, métissages avec Néandertaliens et Denisoviens, coévolution biologique-culturelle — est traitée dans la note dédiée *Évolution Humaine* du dossier *Biology/Human*.
+
+## Questions de révision
+
+> [!quiz] Qui propose la théorie de l'évolution par sélection naturelle, et quand ?
+> Charles Darwin et Alfred Russel Wallace, en 1858 ; Darwin publie *L'Origine des espèces* en 1859.
+
+> [!quiz] Que dit la sélection naturelle ?
+> Les individus porteurs de variations héréditaires favorables dans leur milieu survivent et se reproduisent davantage, si bien que ces variations se répandent.
+
+> [!quiz] Qu'est-ce que la spéciation allopatrique ?
+> La formation de nouvelles espèces à partir de populations séparées géographiquement, qui évoluent chacune de leur côté.

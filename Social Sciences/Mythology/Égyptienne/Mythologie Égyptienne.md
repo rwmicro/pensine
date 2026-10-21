@@ -104,3 +104,14 @@ date: "2026-02-25"
 - Textes funéraires, formules magiques
 - Papyrus dans tombe
 - Guide pour naviguer Douat
+
+## Questions de révision
+
+> [!quiz] Que raconte le mythe d'Osiris ?
+> Osiris est tué et démembré par son frère Seth ; Isis rassemble son corps et le ramène à la vie, et il devient le dieu des morts.
+
+> [!quiz] Que se passe-t-il lors de la pesée du cœur ?
+> Le cœur du défunt est pesé contre la plume de Maât ; s'il est plus lourd, il est dévoré par Ammit.
+
+> [!quiz] Qui est Rê ?
+> Le dieu du soleil, qui traverse le ciel le jour et le monde souterrain la nuit.

@@ -110,6 +110,17 @@ timeline
         1990 : Mort à Amsterdam
 ```
 
+## Questions de révision
+
+> [!quiz] Quel est le grand livre de Norbert Elias, et que relie-t-il ?
+> *Sur le processus de civilisation* (1939). Il relie la formation des États modernes aux transformations intimes de la sensibilité : manières de table, honte, dégoût.
+
+> [!quiz] Pourquoi l'œuvre d'Elias n'est-elle reconnue que tardivement ?
+> Elle paraît en 1939, au début de la guerre, écrite en allemand par un juif exilé ; elle ne trouve son public qu'avec la réédition de 1969 et les traductions des années 1970.
+
+> [!quiz] Où Elias obtient-il son premier poste universitaire stable ?
+> À l'université de Leicester, en 1954, à 57 ans.
+
 ## Ressources
 
 - Norbert Elias, *La Civilisation des mœurs*, Calmann-Lévy, 1973.

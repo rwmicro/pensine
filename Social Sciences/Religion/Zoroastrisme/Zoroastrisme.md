@@ -140,6 +140,17 @@ L'hypothèse d'une influence zoroastrienne sur le [[Judaïsme]] du Second Temple
 
 Dans la culture européenne, Zoroastre est devenu une figure de sage oriental, du Sarastro de *La Flûte enchantée* de Mozart au Zarathoustra de [[Nietzsche]], choisi précisément parce que le prophète iranien passait pour l'inventeur de la morale du bien et du mal que Nietzsche voulait dépasser. Pour situer le zoroastrisme parmi les autres traditions, voir le [[Panorama des Religions Mondiales]].
 
+## Questions de révision
+
+> [!quiz] Qui est Ahura Mazda ?
+> Le dieu suprême et sage du zoroastrisme, source du bien.
+
+> [!quiz] Quel est le livre sacré du zoroastrisme ?
+> L'Avesta, dont les Gathas sont attribuées à Zarathoustra lui-même.
+
+> [!quiz] Qui sont les Parsis ?
+> Les descendants des zoroastriens partis d'Iran vers l'Inde après la conquête musulmane, installés surtout autour de Bombay.
+
 ## Ressources
 
 - Mary Boyce, *Zoroastrians: Their Religious Beliefs and Practices*, 1979.

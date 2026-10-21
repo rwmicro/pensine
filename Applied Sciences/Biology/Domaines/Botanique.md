@@ -53,3 +53,10 @@ L'étude des plantes et de leur biologie.
 - Industrie (bois, fibres textiles, biocarburants)
 - Conservation (biodiversité, forêts)
 
+## Questions de révision
+
+> [!quiz] Qu'étudie la botanique ?
+> Les plantes : leur structure, leur fonctionnement, leur classification et leur évolution.
+
+> [!quiz] Quel pigment permet aux plantes de capter la lumière pour la photosynthèse ?
+> La chlorophylle, dans les chloroplastes.

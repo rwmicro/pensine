@@ -113,3 +113,14 @@ Les plantes, algues et cyanobactéries convertissent l'énergie lumineuse en én
 **Deux phases :**
 1. **Phase lumineuse** (thylakoïdes) : capture de la lumière, production d'ATP, NADPH et O₂
 2. **Cycle de Calvin** (stroma) : fixation du CO₂ en glucose grâce à l'ATP et NADPH
+
+## Questions de révision
+
+> [!quiz] Quelles sont les quatre grandes familles de macromolécules du vivant ?
+> Les protéines, les glucides, les lipides et les acides nucléiques.
+
+> [!quiz] Quelles sont les trois étapes de la respiration cellulaire, et où ont-elles lieu ?
+> La glycolyse dans le cytoplasme, puis le cycle de Krebs et la chaîne respiratoire dans la mitochondrie.
+
+> [!quiz] Quel est le bilan de la photosynthèse ?
+> 6 CO₂ + 6 H₂O + lumière → C₆H₁₂O₆ + 6 O₂ : le dioxyde de carbone et l'eau donnent du glucose et du dioxygène.

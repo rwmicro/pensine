@@ -110,3 +110,14 @@ Les Néandertaliens (~30 000 ans), les Dénisoviens et d'autres espèces du genr
 La révolution cognitive telle que décrite (notamment par Harari) repose en partie sur une inférence à partir du registre archéologique. La frontière entre "fiction" et "réalité" est elle-même culturellement construite. Ce cadre analytique est stimulant mais doit être traité comme une **hypothèse forte**, pas comme un fait établi.
 
 Des découvertes récentes (Blombos, ~75 000 ans ; Maastricht-Belvédère, comportements complexes chez Néandertal) suggèrent que la transition a pu être plus graduelle que le modèle de la "révolution" ne le laisse entendre.
+
+## Questions de révision
+
+> [!quiz] Qu'appelle-t-on la révolution cognitive dans le récit de Harari ?
+> L'apparition, il y a environ 70 000 ans, de nouvelles capacités de pensée et de langage chez *Homo sapiens*.
+
+> [!quiz] Qu'est-ce que la fiction permet aux humains selon cette thèse ?
+> De coopérer en très grand nombre avec des inconnus, autour de croyances partagées en des choses qui n'existent pas physiquement (dieux, nations, argent).
+
+> [!quiz] Quelles conséquences la note attribue-t-elle à cette révolution ?
+> La colonisation du monde, l'extinction de la mégafaune, l'explosion de la diversité culturelle et la disparition des autres espèces humaines.

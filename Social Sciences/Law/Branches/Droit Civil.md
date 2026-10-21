@@ -47,3 +47,11 @@ prerequis: ["[[Social Sciences/Law/Branches/Droit Public et Privé]]"]
 
 > [!warning] Piège
 > « Responsabilité civile » ≠ « droit civil » au sens large : c'est un mécanisme de réparation qui existe aussi hors droit civil pur (ex. responsabilité administrative, voir [[Droit Administratif]]). Ne pas confondre la logique de réparation (indemniser une victime) avec la logique pénale de sanction (punir un coupable) — un même fait peut déclencher les deux, jugés par des voies séparées.
+
+## Questions de révision
+
+> [!quiz] Quel texte fonde le droit civil français moderne ?
+> Le Code civil de 1804, dit Code Napoléon.
+
+> [!quiz] Quels domaines couvre le droit civil ?
+> Les personnes, la famille, les biens, les contrats, la responsabilité et les successions.

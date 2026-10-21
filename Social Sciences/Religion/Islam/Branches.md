@@ -226,6 +226,17 @@ La séquence contemporaine s'est durcie pour des raisons datables. La révolutio
 
 Deux précautions de lecture s'imposent. D'abord, ces chiffres sont des ordres de grandeur : plusieurs États ne recensent pas l'appartenance confessionnelle, précisément parce que le résultat aurait des conséquences politiques — le Liban n'a pas fait de recensement depuis 1932. Ensuite, les catégories se recoupent : un soufi est aussi sunnite ou chiite, un salafiste est un sunnite de méthode hanbalite, un déobandi est un sunnite hanafite. Additionner ces étiquettes comme si elles s'excluaient produit des totaux dépourvus de sens.
 
+## Questions de révision
+
+> [!quiz] D'où vient la division entre sunnites et chiites ?
+> De la succession du Prophète en 632 : les sunnites acceptent les califes choisis par la communauté, les chiites estiment que le pouvoir revenait à Ali et à ses descendants.
+
+> [!quiz] Pourquoi Karbala (680) est-il un événement fondateur pour le chiisme ?
+> Parce que Hussein, fils d'Ali et petit-fils du Prophète, y est tué par l'armée omeyyade ; sa mort est commémorée chaque année à l'Achoura.
+
+> [!quiz] Quelles sont les quatre écoles juridiques sunnites ?
+> Hanafite, malikite, chafiite et hanbalite.
+
 ## À lire ensuite
 
 - [[Islam]] — les fondements communs : Muhammad, le Coran, les piliers, la charia

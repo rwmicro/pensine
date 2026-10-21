@@ -86,3 +86,11 @@ En Israël, les yeshivot suscitent des débats sur:
 > Ce débat n'est pas anecdotique : il oppose deux légitimités difficiles à concilier dans un État qui se veut à la fois juif et démocratique — le service militaire universel comme fondement de la citoyenneté égalitaire, et l'étude de la Torah comme activité que la tradition orthodoxe considère elle-même essentielle à la survie spirituelle du peuple (parfois formulée comme équivalente à une défense, non militaire, de la nation).
 
 ![Yeshiva](https://static.timesofisrael.com/fr/uploads/2023/10/F230919ALA08.jpeg)
+
+## Questions de révision
+
+> [!quiz] Qu'est-ce qu'une yeshiva ?
+> Un établissement d'étude des textes religieux juifs, surtout du Talmud.
+
+> [!quiz] Comment étudie-t-on traditionnellement dans une yeshiva ?
+> En binôme (*havruta*) : deux étudiants lisent, discutent et argumentent ensemble sur le texte.

@@ -73,3 +73,14 @@ La violence symbolique se distingue de la simple manipulation idéologique en ce
 > "La violence symbolique s'accomplit à travers un acte de connaissance et de méconnaissance qui échappe au contrôle de la conscience et de la volonté." (Bourdieu)
 
 > "C'est en cela que la domination masculine [...] réunit les conditions de son plein exercice : c'est-à-dire une reconnaissance qui ne se donne pas comme telle." (Bourdieu, *La Domination masculine*)
+
+## Questions de révision
+
+> [!quiz] Qu'est-ce que la violence symbolique chez Bourdieu ?
+> Une domination qui s'exerce sans contrainte physique, parce que les dominés intériorisent les catégories de perception des dominants et les tiennent pour naturelles.
+
+> [!quiz] En quoi la violence symbolique diffère-t-elle de la « fausse conscience » marxiste ?
+> Elle ne repose pas sur une illusion qu'une prise de conscience suffirait à dissiper, mais sur une incorporation profonde, corporelle et cognitive, de schèmes de perception.
+
+> [!quiz] Comment la violence symbolique opère-t-elle à l'école ?
+> L'école présente comme neutre la culture des classes dominantes ; l'échec des enfants de milieux populaires est alors vécu comme un manque de don personnel plutôt que comme un arbitraire culturel.

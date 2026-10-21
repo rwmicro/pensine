@@ -92,3 +92,14 @@ Dans le langage courant, "anomie" est parfois employé, de façon imprécise, co
 > "L'homme ne peut être heureux [...] que si ses besoins sont suffisamment proportionnés à ses moyens. [...] C'est la société seule [...] qui peut jouer ce rôle modérateur." (Durkheim)
 
 > "Une structure sociale anomique engendre une pression vers la déviance." (paraphrase de la thèse centrale de Merton)
+
+## Questions de révision
+
+> [!quiz] Que désigne l'anomie chez Durkheim ?
+> Un état où les normes qui règlent les désirs et les conduites s'affaiblissent ou deviennent incohérentes : non pas l'absence de toute règle, mais de règles assez claires et partagées pour orienter l'action.
+
+> [!quiz] Pourquoi une période de prospérité soudaine peut-elle produire de l'anomie selon Durkheim ?
+> Parce que tout changement brutal, même favorable, désorganise les repères normatifs avant que de nouvelles règles aient pu s'installer.
+
+> [!quiz] Comment Merton reformule-t-il l'anomie ?
+> Comme un décalage structurel entre les buts culturels valorisés par une société et les moyens légitimes réellement accessibles pour les atteindre, source de déviance.

@@ -202,3 +202,14 @@ flowchart TD
 > - **Mouvement circulaire** : force centripète $F = mv^2/R$. **Satellite** : $v = \sqrt{GM/r}$ ; lois de Kepler.
 
 *Voir aussi* : [[Cinématique]] | [[Énergie et Travail]] | [[Mécanique du Point]] | [[Méthodes de Résolution]]
+
+## Questions de révision
+
+> [!quiz] Qu'énonce le principe d'inertie ?
+> Dans un référentiel galiléen, un corps soumis à des forces qui se compensent est immobile ou en mouvement rectiligne uniforme.
+
+> [!quiz] Qu'énonce la deuxième loi de Newton ?
+> Dans un référentiel galiléen, la somme des forces est égale à la masse fois l'accélération : $\sum \vec F = m \vec a$.
+
+> [!quiz] Que dit la troisième loi de Newton ?
+> Si A exerce une force sur B, B exerce sur A une force de même intensité et de sens opposé ; ces deux forces s'appliquent à des corps différents.

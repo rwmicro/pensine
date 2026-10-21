@@ -206,6 +206,12 @@ WHERE co.statut = 'livree'
 ORDER BY c.nom, co.id;
 ```
 
+Les quatre jointures sur deux petites tables, avec les lignes que chacune garde et les NULL qu'elle ajoute :
+
+```widget:jointures-sql
+type: inner
+```
+
 ## Sous-requêtes
 
 ```sql

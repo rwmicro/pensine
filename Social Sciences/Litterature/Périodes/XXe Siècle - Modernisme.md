@@ -95,3 +95,11 @@ prerequis: ["[[Social Sciences/Litterature/Périodes/Naturalisme (fin XIXe)]]", 
 - **Jack Kerouac** (1922-1969): *Sur la Route*
 - **Allen Ginsberg** (1926-1997): *Howl*
 - Contre-culture, spontanéité
+
+## Questions de révision
+
+> [!quiz] Quels grands romanciers bouleversent le roman au début du XXe siècle ?
+> Notamment Proust, Joyce, Kafka et Virginia Woolf.
+
+> [!quiz] Qu'est-ce que le Nouveau Roman ?
+> Un courant français des années 1950-1960 (Robbe-Grillet, Sarraute, Butor, Simon) qui rejette personnage, intrigue et psychologie traditionnels.

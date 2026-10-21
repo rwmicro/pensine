@@ -56,3 +56,14 @@ Ces formes anormales expliquent pourquoi, pour Durkheim, la modernisation ne pro
 > "La division du travail ne nous produit ces effets que parce qu'elle est une source de solidarité."
 
 > "Ce qui constitue la solidarité [organique], ce n'est pas [...] un attachement de l'homme à son groupe, c'est un système d'organes différents dont chacun a un rôle spécial."
+
+## Questions de révision
+
+> [!quiz] Sur quoi repose la solidarité mécanique selon Durkheim ?
+> Sur la ressemblance entre individus qui partagent croyances, activités et valeurs, avec une conscience collective forte, dans des sociétés peu différenciées.
+
+> [!quiz] Sur quoi repose la solidarité organique ?
+> Sur la complémentarité d'individus rendus interdépendants par la division du travail, dans les sociétés modernes.
+
+> [!quiz] Quel indicateur Durkheim utilise-t-il pour distinguer les deux solidarités ?
+> Le type de droit dominant : répressif (pénal, qui punit) pour la solidarité mécanique, restitutif (civil, commercial, qui répare) pour la solidarité organique.

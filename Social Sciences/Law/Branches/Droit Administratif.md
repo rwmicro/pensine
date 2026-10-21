@@ -76,3 +76,14 @@ Cette dualité vient de la Révolution française : les révolutionnaires, méfi
 | **Allemagne** | Juridictions administratives séparées aussi, mais organisation fédérale |
 | **Royaume-Uni** | Pas de juridiction administrative distincte — le *judicial review* est exercé par les tribunaux ordinaires |
 | **Etats-Unis** | Contrôle juridictionnel ordinaire, mais existence d'*administrative agencies* puissantes (FDA, EPA, SEC) |
+
+## Questions de révision
+
+> [!quiz] Qu'est-ce que le principe de légalité ?
+> L'obligation pour l'administration de respecter l'ensemble des règles de droit qui lui sont supérieures.
+
+> [!quiz] Qu'est-ce que le recours pour excès de pouvoir ?
+> Le recours qui permet de demander au juge administratif l'annulation d'un acte administratif illégal.
+
+> [!quiz] Qu'est-ce que le dualisme juridictionnel français ?
+> L'existence de deux ordres de juridictions : l'ordre judiciaire (Cour de cassation au sommet) et l'ordre administratif (Conseil d'État au sommet).

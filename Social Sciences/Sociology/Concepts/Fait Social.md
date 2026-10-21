@@ -70,3 +70,14 @@ Le fait social le mieux illustré chez Durkheim est le suicide, en apparence l'a
 > "Est fait social toute manière de faire, fixée ou non, susceptible d'exercer sur l'individu une contrainte extérieure."
 
 > "Le premier et le plus fondamental des préceptes est de considérer les faits sociaux comme des choses."
+
+## Questions de révision
+
+> [!quiz] Quels sont les trois caractères du fait social selon Durkheim ?
+> L'extériorité (il préexiste à l'individu et lui survit), la généralité (il est collectif) et la contrainte (il s'impose sous peine de sanctions).
+
+> [!quiz] Que signifie la règle « traiter les faits sociaux comme des choses » ?
+> Étudier les phénomènes sociaux de l'extérieur, par l'observation empirique, sans les expliquer par les intentions des individus ; cela ne veut pas dire qu'ils seraient matériels.
+
+> [!quiz] Pourquoi une mode vestimentaire est-elle un fait social faible ?
+> Parce qu'elle est générale mais peu contraignante : ne pas la suivre n'entraîne pas de vraie sanction, alors que la force d'un fait social se mesure à la sanction encourue.

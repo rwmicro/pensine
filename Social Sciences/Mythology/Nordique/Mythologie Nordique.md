@@ -142,3 +142,13 @@ date: "2026-02-22"
 - Tue monstre Grendel, puis mère de Grendel
 - Vieux, combat dragon (meurt)
 
+## Questions de révision
+
+> [!quiz] Qu'est-ce qu'Yggdrasil ?
+> L'arbre cosmique, un frêne, qui relie les neuf mondes.
+
+> [!quiz] Qu'est-ce que le Ragnarök ?
+> La bataille de la fin du monde, où les dieux affrontent les géants et les monstres, suivie d'une renaissance du monde.
+
+> [!quiz] Qui est Loki ?
+> Un dieu rusé et ambigu, à la fois allié et ennemi des dieux, qui combat contre eux au Ragnarök.

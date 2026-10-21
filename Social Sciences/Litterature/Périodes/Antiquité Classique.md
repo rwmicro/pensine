@@ -91,3 +91,14 @@ Les Romains admirent et imitent les Grecs, mais créent aussi des formes propres
 ## Héritage
 
 La littérature antique n'est pas un objet de musée : elle est le socle sur lequel tout l'édifice littéraire occidental est construit. Les tragiques grecs sont rejoués dans tous les théâtres du monde. Homère est traduit chaque année. Les catégories d'Aristote (tragédie, comédie, catharsis, *deus ex machina*) sont encore les outils avec lesquels on analyse la fiction. Et les questions qu'Antigone pose au roi Créon — la conscience individuelle contre la loi de l'Etat — n'ont rien perdu de leur force.
+
+## Questions de révision
+
+> [!quiz] Quelles sont les deux épopées attribuées à Homère ?
+> L'*Iliade* et l'*Odyssée*.
+
+> [!quiz] Quels sont les trois grands tragiques grecs ?
+> Eschyle, Sophocle et Euripide.
+
+> [!quiz] Quelle épopée Virgile écrit-il pour Rome ?
+> L'*Énéide*, qui raconte la fuite d'Énée après la chute de Troie jusqu'en Italie.

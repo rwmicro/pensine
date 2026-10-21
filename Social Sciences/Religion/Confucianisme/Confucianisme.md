@@ -120,6 +120,17 @@ L'empreinte du confucianisme ne se mesure pas au nombre de fidèles déclarés m
 
 Il faut enfin rappeler que le confucianisme n'a jamais existé seul. Il a coexisté en Chine avec le [[Taoïsme]] et le [[Bouddhisme]], dans la formule des « trois enseignements », et au Japon avec le [[Shintoïsme]]. Une même famille pouvait honorer ses ancêtres selon les rites confucéens, appeler un prêtre taoïste pour un exorcisme et des moines bouddhistes pour les funérailles, sans y voir de contradiction.
 
+## Questions de révision
+
+> [!quiz] Pourquoi Confucius se présentait-il comme un « transmetteur » ?
+> Parce qu'il disait transmettre la sagesse et les rites des anciens rois plutôt que d'inventer une doctrine nouvelle.
+
+> [!quiz] Qu'est-ce que la querelle des Rites ?
+> Le conflit, aux XVIIe et XVIIIe siècles, entre missionnaires catholiques sur la compatibilité des rites chinois (culte des ancêtres, honneurs à Confucius) avec le christianisme ; Rome finit par les interdire.
+
+> [!quiz] Pourquoi se demande-t-on si le confucianisme est une religion ?
+> Parce qu'il est surtout une morale et un ordre social et politique, sans clergé ni dogme sur l'au-delà, tout en comportant des rites, un culte des ancêtres et un culte d'État.
+
 ## Ressources
 
 - Anne Cheng, *Histoire de la pensée chinoise*, 1997.

@@ -168,3 +168,14 @@ flowchart LR
 > - **Filtres** : $H(j\omega)$, gain en dB, pulsation de coupure à $-3$ dB. Puissance moyenne $\propto \cos\varphi$.
 
 *Voir aussi* : [[Circuits Électriques]] | [[Oscillateurs]] | [[Nombres Complexes]] | [[Équations Différentielles]] | [[Induction Électromagnétique]]
+
+## Questions de révision
+
+> [!quiz] Quelle est la constante de temps d'un circuit RC ?
+> $\tau = RC$ ; au bout de $5\tau$, le régime transitoire est pratiquement terminé.
+
+> [!quiz] Quelle est l'impédance complexe d'un condensateur ?
+> $Z_C = \dfrac{1}{jC\omega}$.
+
+> [!quiz] Quelle est la fréquence de coupure d'un filtre passe-bas RC ?
+> $f_c = \dfrac{1}{2\pi RC}$.

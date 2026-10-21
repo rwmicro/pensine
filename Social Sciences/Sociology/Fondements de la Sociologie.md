@@ -103,3 +103,14 @@ Les sociologues contemporains dépassent souvent cette opposition :
 | **Economie** | Postule un *homo economicus* rationnel. La sociologie montre que les choix économiques sont socialement situés |
 | **Philosophie** | Dit ce qui devrait être. La sociologie décrit ce qui est — et pourquoi |
 | **Anthropologie** | Méthode similaire (terrain) mais traditionnellement tournée vers les sociétés non-occidentales. La frontière s'estompe |
+
+## Questions de révision
+
+> [!quiz] Quels sont les trois bouleversements dont naît la sociologie ?
+> La Révolution française, la révolution industrielle et la sécularisation.
+
+> [!quiz] Qui invente le mot « sociologie », et quand ?
+> Auguste Comte, en 1838.
+
+> [!quiz] Quels sont les trois états de la loi de Comte ?
+> Théologique (explication par des dieux), métaphysique (par des entités abstraites) et positif (par des lois empiriques vérifiables).

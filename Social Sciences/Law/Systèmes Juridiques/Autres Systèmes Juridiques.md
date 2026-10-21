@@ -89,3 +89,14 @@ De nombreux pays combinent des éléments de plusieurs traditions juridiques. Ce
 > [!example] Exemple
 > Israël est un contre-exemple utile à l'idée que sécularisation du droit de la famille = condition d'une démocratie moderne : c'est une démocratie parlementaire avec élections, presse libre et contrôle judiciaire, mais sans mariage civil interne — les couples qui veulent l'éviter se marient à l'étranger (souvent à Chypre) pour que l'Etat reconnaisse ensuite l'union.
 | **Droit hindou** | Basé sur le *dharma* (devoir). Textes : *Dharmashastra*, *Manusmriti*. Régit le mariage, l'adoption, l'héritage selon la caste | Inde : le *Hindu Marriage Act* (1955) a modernisé le droit hindou. Le système des castes est officiellement aboli mais socialement présent |
+
+## Questions de révision
+
+> [!quiz] Qu'est-ce que le droit coutumier ?
+> Un droit fondé sur des usages répétés et reconnus comme obligatoires par une communauté, souvent oral.
+
+> [!quiz] Qu'est-ce que le pluralisme juridique ?
+> La coexistence de plusieurs ordres juridiques sur un même territoire, par exemple un droit étatique et un droit coutumier ou religieux.
+
+> [!quiz] Qu'est-ce qu'un système juridique mixte ?
+> Un système qui combine plusieurs traditions, comme le Québec ou la Louisiane (civil law et common law).

@@ -49,3 +49,11 @@ L'étude des micro-organismes invisibles à l'œil nu.
 - Fermentation (yaourt, fromage, bière)
 - Traitement des eaux usées
 - Bioremédiation
+
+## Questions de révision
+
+> [!quiz] Qu'étudie la microbiologie ?
+> Les micro-organismes : bactéries, archées, virus, champignons microscopiques et protistes.
+
+> [!quiz] Pourquoi les antibiotiques n'agissent-ils pas contre les virus ?
+> Parce qu'ils ciblent des structures propres aux bactéries (paroi, ribosomes bactériens), que les virus n'ont pas.

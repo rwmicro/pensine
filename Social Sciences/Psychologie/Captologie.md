@@ -354,6 +354,17 @@ Pour qu'un comportement se produise, il faut **simultanément**:
 - Transparence
 - Autonomie préservée
 
+## Questions de révision
+
+> [!quiz] Qu'est-ce que la captologie ?
+> L'étude des technologies conçues pour changer les attitudes ou les comportements des utilisateurs, fondée par B. J. Fogg à Stanford.
+
+> [!quiz] Que dit le modèle de Fogg B = MAT ?
+> Un comportement se produit quand la motivation, la capacité (*ability*) et un déclencheur (*trigger*) sont réunis au même moment.
+
+> [!quiz] Qu'est-ce que la stratégie du *tunneling* ?
+> Guider l'utilisateur pas à pas dans un parcours fermé, pour qu'il aille jusqu'au bout de l'action voulue.
+
 ## Ressources
 
 ### Livres

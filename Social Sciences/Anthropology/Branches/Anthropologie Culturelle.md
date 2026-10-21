@@ -284,3 +284,14 @@ L'approche **holiste** considère la culture comme un système intégré où cha
 - **Claude Lévi-Strauss** (1908-2009) : Structuralisme, anthropologie structurale
 - **Clifford Geertz** (1926-2006) : Anthropologie interprétative, description dense
 - **Mary Douglas** (1921-2007) : Pureté et danger, classifications symboliques
+
+## Questions de révision
+
+> [!quiz] Quelle différence entre point de vue *emic* et *etic* ?
+> L'*emic* décrit une culture avec les catégories de ses membres ; l'*etic* avec les catégories de l'observateur.
+
+> [!quiz] Qu'est-ce que le relativisme culturel ?
+> Le principe méthodologique qui consiste à comprendre chaque culture selon ses propres valeurs, sans la juger depuis celles de l'observateur.
+
+> [!quiz] Quelle différence entre ethnographie et ethnologie ?
+> L'ethnographie est la description d'un groupe à partir du terrain ; l'ethnologie compare et interprète ces descriptions.

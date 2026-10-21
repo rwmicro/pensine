@@ -163,6 +163,13 @@ Stable : non. En place : oui (O(log n) pile d'appels). Usage : le plus rapide en
 > [!warning] Piège fréquent
 > L'implémentation ci-dessus choisit toujours le dernier élément comme pivot. Sur un tableau **déjà trié** (ou trié à l'envers), ce choix dégénère systématiquement en O(n²) — le pire cas n'est pas un cas rare, c'est un cas très commun en pratique (logs, données déjà partiellement ordonnées). D'où l'importance d'un pivot aléatoire ou de la médiane de trois.
 
+Pour comparer les cinq tris vus jusqu'ici sur le même tableau, lancez-les pas à pas et regardez le compteur de comparaisons :
+
+```widget:tri
+algo: bulles
+n: 12
+```
+
 ## Tri par tas (Heap Sort)
 
 Principe : construire un tas-max, extraire successivement le maximum.

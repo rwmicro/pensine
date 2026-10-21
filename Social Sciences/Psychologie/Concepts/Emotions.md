@@ -251,3 +251,14 @@ Les cultures définissent quelles émotions exprimer, à quelle intensité, deva
 
 **Dans les organisations**
 L'IE est centrale dans le leadership, la gestion des conflits et la communication. Les managers à haute IE obtiennent de meilleurs résultats d'équipe et génèrent moins d'absentéisme.
+
+## Questions de révision
+
+> [!quiz] Quelles sont les six émotions de base selon Paul Ekman ?
+> La joie, la tristesse, la peur, la colère, la surprise et le dégoût.
+
+> [!quiz] Que propose la théorie de James-Lange ?
+> Que l'émotion est la perception de réactions corporelles : on a peur parce qu'on tremble, et non l'inverse.
+
+> [!quiz] Quelle structure cérébrale est centrale dans la peur ?
+> L'amygdale.

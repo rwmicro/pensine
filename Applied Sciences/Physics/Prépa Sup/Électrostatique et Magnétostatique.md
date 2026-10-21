@@ -167,3 +167,14 @@ flowchart LR
 > - Rayon d'une trajectoire dans $\vec B$ : $R = \dfrac{mv}{qB}$.
 
 *Voir aussi* : [[Circuits Électriques]] | [[Induction Électromagnétique]] | [[Équations de Maxwell]] | [[Fonctions de Plusieurs Variables]]
+
+## Questions de révision
+
+> [!quiz] Qu'énonce le théorème de Gauss ?
+> Le flux du champ électrique à travers une surface fermée est égal à la charge intérieure divisée par $\varepsilon_0$.
+
+> [!quiz] Quel est le rayon de la trajectoire d'une particule chargée dans un champ magnétique uniforme perpendiculaire à sa vitesse ?
+> $R = \dfrac{mv}{|q|B}$ ; le mouvement est circulaire uniforme.
+
+> [!quiz] Que vaut le champ électrique créé par une charge ponctuelle ?
+> $E = \dfrac{q}{4\pi\varepsilon_0 r^2}$, radial.

@@ -111,3 +111,14 @@ Cette structure se retrouve dans le voyage d'Ulysse, la Passion du Christ, Boudd
 ## Tension entre les écoles
 
 Aucune lecture n'épuise le mythe. Lévi-Strauss reproche à Jung son universalisme trop facile ; Jung reproche à Freud son réductionnisme sexuel ; les anthropologues contemporains se méfient des grands schémas comparatistes (qui gomment les particularités locales). Lire un mythe, c'est souvent *choisir* l'outil — voire en combiner plusieurs.
+
+## Questions de révision
+
+> [!quiz] Que désigne la fonction tripartite de Georges Dumézil ?
+> L'organisation des mythes et sociétés indo-européens en trois fonctions : la souveraineté (magique et juridique), la guerre et la fécondité (production).
+
+> [!quiz] Comment Lévi-Strauss analyse-t-il les mythes ?
+> En cherchant les oppositions binaires et les structures communes à leurs variantes, plutôt que leur sens littéral.
+
+> [!quiz] Quel rôle Malinowski donne-t-il au mythe ?
+> Celui d'une « charte » qui justifie et fonde les institutions et pratiques sociales.

@@ -126,3 +126,14 @@ Les **reins** filtrent environ 180 L de sang par jour. Ils produisent ~1,5 L d'u
 
 > [!important] Idée clé
 > Filtrer 180 L/jour pour n'en excréter que 1,5 L semble un gaspillage énorme (99% réabsorbé), mais c'est le prix du contrôle fin : filtrer sans discernement puis réabsorber sélectivement permet au rein d'ajuster précisément chaque substance indépendamment (garder tout le glucose, ajuster le sodium selon l'apport, etc.), ce qu'une filtration "économe" en amont ne permettrait pas.
+
+## Questions de révision
+
+> [!quiz] Qu'est-ce que l'homéostasie ?
+> Le maintien de l'équilibre du milieu intérieur (température, glycémie, pH) malgré les variations extérieures.
+
+> [!quiz] Quelle est la différence entre circulation pulmonaire et circulation générale ?
+> La circulation pulmonaire (cœur droit) envoie le sang s'oxygéner aux poumons ; la circulation générale (cœur gauche) distribue le sang oxygéné à tout l'organisme.
+
+> [!quiz] Quel est le rôle principal des reins ?
+> Filtrer le sang pour en éliminer les déchets dans l'urine et réguler l'eau et les sels de l'organisme.

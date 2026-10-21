@@ -56,3 +56,11 @@ prerequis: ["[[Social Sciences/Litterature/Périodes/XXe Siècle - Modernisme]]"
   - [[Litterature/Si c'est un homme - Primo Levi]]
 - **Elie Wiesel** (1928-2016): *La Nuit* ([[Shoah]])
 - **Aleksandr Soljenitsyne** (1918-2008, Russie): *L'Archipel du Goulag*
+
+## Questions de révision
+
+> [!quiz] Quels traits caractérisent la littérature postmoderne ?
+> La méfiance envers les grands récits, l'ironie, l'intertextualité, le mélange des genres et le jeu avec la fiction elle-même.
+
+> [!quiz] Qui définit la condition postmoderne comme l'« incrédulité à l'égard des métarécits » ?
+> Jean-François Lyotard, dans *La Condition postmoderne* (1979).

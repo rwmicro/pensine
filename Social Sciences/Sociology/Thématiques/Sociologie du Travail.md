@@ -498,3 +498,14 @@ sous-titre: France, de 1850 à aujourd'hui
 - Marginal
 - Difficultés économiques
 - Reproduction hiérarchies?
+
+## Questions de révision
+
+> [!quiz] Quels sont les principes de l'organisation scientifique du travail de Taylor ?
+> Décomposer le travail en tâches simples chronométrées, séparer conception et exécution, et rémunérer au rendement.
+
+> [!quiz] Que montrent les expériences de Hawthorne d'Elton Mayo ?
+> Que la productivité dépend aussi de facteurs humains : l'attention portée aux ouvriers et les relations dans le groupe de travail.
+
+> [!quiz] Qu'est-ce que le fordisme ajoute au taylorisme ?
+> Le travail à la chaîne et la production de masse, avec des salaires élevés qui permettent la consommation de masse.

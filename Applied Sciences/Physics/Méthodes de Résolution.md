@@ -100,3 +100,14 @@ flowchart TD
 > - Connaître les **hypothèses du modèle** employé : une formule hors de son domaine est fausse.
 
 *Voir aussi* : [[Constantes et Unités]] | [[Formulaire]] | [[Erreurs Classiques]]
+
+## Questions de révision
+
+> [!quiz] À quoi sert l'analyse dimensionnelle ?
+> À vérifier l'homogénéité d'une formule, et à retrouver la forme d'une loi à une constante sans dimension près.
+
+> [!quiz] Pourquoi étudier les cas limites d'un résultat ?
+> Pour vérifier qu'il redonne un comportement connu quand un paramètre tend vers 0 ou l'infini, ce qui détecte beaucoup d'erreurs.
+
+> [!quiz] Pourquoi estimer un ordre de grandeur avant de calculer ?
+> Pour savoir à quoi s'attendre et repérer tout de suite un résultat absurde (erreur d'unité, de puissance de dix).

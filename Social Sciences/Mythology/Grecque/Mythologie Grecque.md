@@ -185,3 +185,13 @@ date: "2026-02-22"
 - Ulysse: 10 ans d'errance (Odyssée - Cyclope, Circé, Sirènes, Calypso)
 - Agamemnon: Tué par Clytemnestre et Égisthe (vengé par Oreste)
 
+## Questions de révision
+
+> [!quiz] Qui règne sur l'Olympe, et comment a-t-il pris le pouvoir ?
+> Zeus, après avoir renversé son père Cronos et les Titans.
+
+> [!quiz] Qui sont les trois frères qui se partagent le monde ?
+> Zeus (le ciel), Poséidon (la mer) et Hadès (le monde souterrain).
+
+> [!quiz] Quelle est la cause mythique de la guerre de Troie ?
+> L'enlèvement d'Hélène, épouse de Ménélas, par le Troyen Pâris.

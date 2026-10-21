@@ -48,3 +48,11 @@ Le coranisme est considéré comme hétérodoxe par la majorité des écoles isl
 ### Diffusion
 
 Le mouvement reste minoritaire mais connaît une certaine diffusion via internet et les réseaux sociaux, attirant notamment des musulmans cherchant une approche réformiste de l'islam.
+
+## Questions de révision
+
+> [!quiz] Quel est le principe fondamental du coranisme ?
+> Ne reconnaître que le Coran comme source d'autorité religieuse, en rejetant l'autorité des hadiths.
+
+> [!quiz] Pourquoi le coranisme est-il controversé ?
+> Parce qu'une grande partie de la pratique (détails de la prière, par exemple) repose sur la Sunna et les hadiths ; le sunnisme et le chiisme majoritaires le jugent donc hétérodoxe.

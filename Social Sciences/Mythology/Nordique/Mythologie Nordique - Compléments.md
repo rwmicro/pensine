@@ -106,3 +106,14 @@ Le destin des morts dans la mythologie nordique dépend de la manière dont ils 
 | **Fólkvangr** | L'autre moitié des guerriers tombés | Domaine de Freyja. Moins connu que le Valhalla |
 | **Helheim** | Tous les autres morts (maladie, vieillesse, accident) | Royaume de Hel (fille de Loki, moitié vivante moitié cadavre). Pas un enfer de souffrance — plutôt un lieu morne et gris |
 | **Noyés** | Ceux qui meurent en mer | Recueillis par la déesse Rán dans son filet |
+
+## Questions de révision
+
+> [!quiz] Quelles sont les deux sources principales de la mythologie nordique ?
+> L'*Edda poétique* et l'*Edda en prose* de Snorri Sturluson, toutes deux écrites en Islande au XIIIe siècle.
+
+> [!quiz] Qu'est-ce que Mjöllnir ?
+> Le marteau de Thor.
+
+> [!quiz] Qu'est-ce que le Valhalla ?
+> La halle d'Odin où les guerriers morts au combat, choisis par les Valkyries, attendent le Ragnarök.

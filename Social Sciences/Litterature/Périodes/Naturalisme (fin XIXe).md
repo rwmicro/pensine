@@ -96,3 +96,14 @@ Le naturalisme est attaqué de toutes parts dès les années 1880 :
 - **Le symbolisme** (Mallarmé, Verlaine) rejette le matérialisme naturaliste au profit du mystère, du symbole et de la musicalité
 
 Le naturalisme en tant qu'école s'éteint vers 1893 (fin des Rougon-Macquart), mais son influence persiste : le réalisme social du XXe siècle, le roman noir américain et le néoréalisme italien lui doivent beaucoup.
+
+## Questions de révision
+
+> [!quiz] Comment s'appelle le cycle romanesque de Zola ?
+> *Les Rougon-Macquart*, « histoire naturelle et sociale d'une famille sous le Second Empire », en vingt romans.
+
+> [!quiz] Quelle idée scientifique fonde le naturalisme de Zola ?
+> L'influence de l'hérédité et du milieu sur les individus, étudiée comme dans une expérience (*Le Roman expérimental*).
+
+> [!quiz] Quel texte de Zola intervient dans l'affaire Dreyfus ?
+> « J'accuse… ! », publié dans *L'Aurore* en janvier 1898.

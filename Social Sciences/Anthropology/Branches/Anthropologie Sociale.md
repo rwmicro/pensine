@@ -323,3 +323,14 @@ La **parenté** est centrale en anthropologie sociale, organisant les relations 
 - **Victor Turner** (1920-1983) : Rituel, liminalité, drame social
 - **Jack Goody** (1919-2015) : Famille, littératie, développement
 - **Maurice Godelier** (1934-) : Anthropologie marxiste, don, parenté
+
+## Questions de révision
+
+> [!quiz] Quelle différence classique entre anthropologie sociale et anthropologie culturelle ?
+> L'anthropologie sociale, de tradition britannique, étudie surtout les structures et institutions sociales ; l'anthropologie culturelle, de tradition américaine, étudie surtout la culture et les significations.
+
+> [!quiz] Quel anthropologue britannique est associé au structuro-fonctionnalisme ?
+> Alfred Radcliffe-Brown.
+
+> [!quiz] Qu'est-ce qu'une société lignagère ?
+> Une société organisée en groupes de parenté qui descendent d'un ancêtre commun.

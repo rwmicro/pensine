@@ -129,3 +129,14 @@ Schrödinger : $i\hbar\dfrac{\partial \psi}{\partial t} = \hat{H}\psi$. Énergie
 > Une formule n'a de sens que si l'on connaît **son domaine de validité** (gaz parfait, régime permanent, forces conservatives, faibles vitesses…). Vérifier systématiquement l'**homogénéité** (voir [[Constantes et Unités]]) avant d'appliquer.
 
 *Voir aussi* : [[Constantes et Unités]] | [[Méthodes de Résolution]] | [[Index]]
+
+## Questions de révision
+
+> [!quiz] Quelle est l'expression de l'énergie cinétique d'un point matériel ?
+> $E_c = \frac{1}{2} m v^2$.
+
+> [!quiz] Que vaut la période propre d'un pendule simple aux petites oscillations ?
+> $T_0 = 2\pi\sqrt{\ell/g}$, indépendante de la masse.
+
+> [!quiz] Quelle est la loi des gaz parfaits ?
+> $PV = nRT$, avec $R \approx 8{,}314$ J·mol⁻¹·K⁻¹.

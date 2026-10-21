@@ -233,3 +233,14 @@ date: "2026-02-25"
 - Granovetter: "Force des liens faibles" (1973)
 - Centralité, trous structuraux (Burt)
 - Capital social (Coleman, Putnam)
+
+## Questions de révision
+
+> [!quiz] Que désignent les quatre lettres du schéma AGIL de Parsons ?
+> Adaptation (économie), *Goal attainment* (politique), Intégration (communauté sociétale) et *Latency* (maintien des modèles : culture, famille).
+
+> [!quiz] Quelle différence entre fonction manifeste et fonction latente chez Merton ?
+> La fonction manifeste est l'effet voulu et reconnu d'une pratique ; la fonction latente est un effet réel mais non intentionnel et non reconnu par les acteurs.
+
+> [!quiz] Quels reproches adresse-t-on classiquement au fonctionnalisme ?
+> Son conservatisme, la sous-estimation des conflits et du changement, et une circularité téléologique (expliquer une pratique par sa fonction).

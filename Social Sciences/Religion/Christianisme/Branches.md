@@ -146,6 +146,17 @@ Les dynamiques régionales se résument ainsi : croissance rapide en Afrique sub
 
 Quatre lignes de tension traversent aujourd'hui toutes les branches. La **sécularisation occidentale** vide les Églises historiques sans toucher également les communautés immigrées ou évangéliques. Les **questions éthiques** — avortement, homosexualité, place des femmes, fin de vie — fracturent chaque confession selon un axe libéral/conservateur qui recoupe de moins en moins les frontières confessionnelles, au point qu'un évangélique et un catholique conservateurs se retrouvent souvent plus proches entre eux que de leurs coreligionnaires libéraux. Les **scandales d'abus sexuels** et leur dissimulation institutionnelle, révélés à partir des années 2000 dans le catholicisme puis dans plusieurs Églises protestantes et orthodoxes, ont entamé durablement la crédibilité morale des institutions. Enfin, les **persécutions** frappent les chrétiens d'Orient, du Nigeria, du Pakistan et de Corée du Nord, dans un contraste saisissant avec une Europe où la question religieuse se pose en termes d'indifférence plus que de danger.
 
+## Questions de révision
+
+> [!quiz] Quelles sont les quatre ruptures fondatrices des branches du christianisme ?
+> Les conciles d'Éphèse (431) et de Chalcédoine (451), le Grand Schisme de 1054 et la Réforme de 1517.
+
+> [!quiz] Entre qui le Grand Schisme de 1054 sépare-t-il les chrétiens ?
+> Entre l'Église d'Occident, latine (catholique), et l'Église d'Orient, grecque (orthodoxe).
+
+> [!quiz] Qu'est-ce que l'œcuménisme ?
+> Le mouvement qui cherche le rapprochement et l'unité entre les Églises chrétiennes séparées.
+
 ## À lire ensuite
 
 - [[Christianisme]] — origines, dogmes, Bible, histoire générale

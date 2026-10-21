@@ -213,6 +213,17 @@ Déni total de responsabilité (trouble personnalité).
 
 **Mais:** Excès empêche croissance.
 
+## Questions de révision
+
+> [!quiz] Qu'est-ce que le biais d'autocomplaisance ?
+> Attribuer ses réussites à ses qualités personnelles et ses échecs à des causes extérieures.
+
+> [!quiz] Quelle fonction psychologique ce biais remplit-il ?
+> Protéger l'estime de soi.
+
+> [!quiz] Sur quelle théorie repose l'analyse de ce biais ?
+> La théorie de l'attribution (Heider, Weiner), qui distingue causes internes et externes, stables et instables.
+
 ## Ressources
 
 ### Études Classiques

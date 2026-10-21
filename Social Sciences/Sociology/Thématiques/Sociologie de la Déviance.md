@@ -113,6 +113,17 @@ timeline
         1975 : Surveiller et punir
 ```
 
+## Questions de révision
+
+> [!quiz] Pourquoi Durkheim parle-t-il de la normalité du crime ?
+> Parce qu'on le trouve dans toutes les sociétés et qu'il a une fonction : en réaffirmant les normes par la sanction, il renforce la conscience collective.
+
+> [!quiz] Quels sont les cinq modes d'adaptation de Merton ?
+> Conformisme, innovation, ritualisme, évasion (retrait) et rébellion.
+
+> [!quiz] Que désigne le stigmate chez Goffman ?
+> Un attribut qui discrédite profondément une personne dans les interactions et réduit son identité sociale à cette marque.
+
 ## Ressources
 
 - Émile Durkheim, *Les Règles de la méthode sociologique*, 1895.

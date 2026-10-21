@@ -138,6 +138,14 @@ Complexité : O((V + E) log V) avec un tas binaire.
 > [!warning] Piège
 > Dijkstra suppose que le chemin le plus court trouvé jusqu'à un sommet ne peut plus être amélioré une fois ce sommet extrait du tas — une hypothèse qui s'effondre dès qu'un poids négatif existe. Sur un tel graphe, l'algorithme termine sans erreur mais peut renvoyer une distance trop grande. Utiliser Bellman-Ford dans ce cas.
 
+Les trois parcours ci-dessus sur un même graphe pondéré : changez d'algorithme pour voir la file, la pile ou la liste de priorité évoluer.
+
+```widget:graphe-parcours
+algo: largeur
+depart: A
+cible: H
+```
+
 ## Algorithme de Bellman-Ford
 
 Gère les poids négatifs. Détecte les cycles négatifs.

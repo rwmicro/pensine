@@ -137,6 +137,17 @@ timeline
         2003 : Mort à New York
 ```
 
+## Questions de révision
+
+> [!quiz] Citez trois expressions passées dans le langage courant que l'on doit à Merton.
+> Par exemple : prophétie autoréalisatrice, effet Matthieu, modèle de rôle, groupe de référence, conséquences inattendues.
+
+> [!quiz] Quel est le sujet de la thèse de Merton (1938) ?
+> Les conditions sociales de l'essor de la science dans l'Angleterre du XVIIe siècle, en lien avec le puritanisme.
+
+> [!quiz] Quelle distinction Merton obtient-il en 1994, une première pour un sociologue ?
+> La National Medal of Science.
+
 ## Ressources
 
 - Robert K. Merton, *Éléments de théorie et de méthode sociologique*, trad. Henri Mendras, Plon, 1965.

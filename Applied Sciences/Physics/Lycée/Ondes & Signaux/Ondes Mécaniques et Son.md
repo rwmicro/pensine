@@ -183,3 +183,14 @@ Applications : radar de vitesse, mesure de la vitesse des étoiles (décalage ve
 > - Niveau sonore en **dB** (échelle log) : $+3$ dB = intensité doublée.
 
 *Voir aussi* : [[Optique Géométrique]] | [[Physique des Ondes]] | [[Interférences et Diffraction]] | [[Trigonométrie]]
+
+## Questions de révision
+
+> [!quiz] Quelle différence entre onde transversale et onde longitudinale ?
+> Dans une onde transversale, la perturbation est perpendiculaire à la propagation (corde) ; dans une onde longitudinale, elle lui est parallèle (son).
+
+> [!quiz] Quelle relation lie longueur d'onde, célérité et fréquence ?
+> $\lambda = v / f = v T$.
+
+> [!quiz] Que se passe-t-il pour le niveau sonore quand l'intensité est multipliée par 10 ?
+> Il augmente de 10 dB, puisque $L = 10 \log(I/I_0)$.

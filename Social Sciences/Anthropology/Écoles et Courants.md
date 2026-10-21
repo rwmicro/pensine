@@ -95,3 +95,10 @@ prerequis: ["[[Social Sciences/Anthropology/Histoire de la Discipline]]"]
 - Histoire, colonialisme, capitalisme mondial
 - *Europe and the People Without History*
 
+## Questions de révision
+
+> [!quiz] Quels anthropologues associe-t-on au fonctionnalisme et au structuralisme ?
+> Malinowski et Radcliffe-Brown au fonctionnalisme ; Lévi-Strauss au structuralisme.
+
+> [!quiz] Qu'étudie l'écologie culturelle ?
+> Comment une culture s'adapte à son environnement (Julian Steward).

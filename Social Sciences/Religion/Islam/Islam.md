@@ -150,3 +150,14 @@ La civilisation islamique produit l'une des plus grandes floraisons intellectuel
 | Europe | ~6 % |
 
 Le pays comptant le plus de musulmans au monde est l'**Indonésie** (~230 millions), pas un pays arabe. Les Arabes ne représentent qu'environ 20 % des musulmans mondiaux.
+
+## Questions de révision
+
+> [!quiz] Quels sont les cinq piliers de l'islam ?
+> La profession de foi (*chahada*), la prière (*salat*), l'aumône (*zakat*), le jeûne du ramadan (*sawm*) et le pèlerinage à La Mecque (*hajj*).
+
+> [!quiz] Que désigne l'Hégire ?
+> L'émigration de Muhammad de La Mecque à Médine en 622, qui marque le début du calendrier musulman.
+
+> [!quiz] Que sont la Sunna et les hadiths ?
+> La Sunna est la tradition du Prophète, ses paroles et ses actes ; les hadiths sont les récits qui la rapportent.

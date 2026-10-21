@@ -104,6 +104,17 @@ timeline
         1918 : Mort à Strasbourg
 ```
 
+## Questions de révision
+
+> [!quiz] Quelle est l'idée centrale de la sociologie de Simmel ?
+> La société n'est pas une substance mais un tissu d'interactions ; la sociologie doit étudier les formes que prennent ces interactions.
+
+> [!quiz] Pourquoi la carrière universitaire de Simmel a-t-elle été entravée ?
+> Par la méfiance envers un style jugé trop brillant et peu systématique, et par l'antisémitisme universitaire de l'époque ; il n'obtient une chaire qu'en 1914, à Strasbourg.
+
+> [!quiz] Quelle société savante Simmel fonde-t-il en 1909 avec Weber et Tönnies ?
+> La Société allemande de sociologie.
+
 ## Ressources
 
 - Georg Simmel, *Philosophie de l'argent*, 1900 (trad. fr. PUF, 1987).

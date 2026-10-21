@@ -94,6 +94,17 @@ Répondre aux deux questions avant de lire la section suivante, qui en donne la 
 > [!warning] Piège
 > Ne pas confondre cadrage et mensonge : dans l'expérience de la maladie asiatique, les deux formulations sont rigoureusement vraies et mathématiquement identiques. Le biais de cadrage opère même sans aucune déformation factuelle — c'est ce qui le rend redoutable en marketing/politique : on peut manipuler sans jamais mentir.
 
+## Questions de révision
+
+> [!quiz] Qu'est-ce que le biais de cadrage ?
+> Le fait qu'une même information conduit à des décisions différentes selon la façon dont elle est présentée, par exemple en gains ou en pertes.
+
+> [!quiz] Que montre le « problème de la maladie asiatique » de Kahneman et Tversky (1981) ?
+> Présentés en vies sauvées, les sujets préfèrent l'option sûre ; présentés en morts, ils préfèrent l'option risquée, alors que les options sont identiques.
+
+> [!quiz] Pourquoi « 90 % de survie » et « 10 % de mortalité » ne produisent-ils pas le même effet ?
+> Parce que le cadrage positif rend l'option plus attirante, même si l'information est strictement la même.
+
 ## Ressources
 
 ### Livres

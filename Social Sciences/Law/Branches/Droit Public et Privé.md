@@ -107,3 +107,14 @@ La frontière entre public et privé s'estompe progressivement :
 
 > [!tip] Méthode
 > Le droit de l'UE qui "ignore" la distinction n'est pas une anomalie à expliquer — c'est le signe que public/privé n'est pas une catégorie logique nécessaire du droit, mais un outil pédagogique et institutionnel hérité de l'histoire française (justifier l'existence d'un juge administratif séparé). Un système juridique cohérent peut parfaitement s'en passer.
+
+## Questions de révision
+
+> [!quiz] Sur quoi repose la distinction entre droit public et droit privé ?
+> Le droit public régit l'État, les personnes publiques et leurs rapports avec les particuliers ; le droit privé régit les rapports entre particuliers.
+
+> [!quiz] Citez deux branches du droit public et deux du droit privé.
+> Public : droit constitutionnel, droit administratif, droit fiscal. Privé : droit civil, droit commercial.
+
+> [!quiz] Pourquoi parle-t-on de branches mixtes ?
+> Parce que certaines matières, comme le droit pénal ou le droit du travail, mêlent règles d'intérêt général et rapports entre particuliers.

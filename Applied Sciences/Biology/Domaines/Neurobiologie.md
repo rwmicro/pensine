@@ -105,3 +105,14 @@ Le cerveau est **plastique** : les connexions synaptiques se renforcent ou s'aff
 | **Dépression** | Dysrégulation de la sérotonine, dopamine, noradrénaline |
 | **Schizophrénie** | Hyperactivité dopaminergique (voie mésolimbique) |
 | **Sclérose en plaques** | Attaque auto-immune de la gaine de myéline |
+
+## Questions de révision
+
+> [!quiz] Comment se propage le message nerveux le long d'un neurone ?
+> Sous forme de potentiels d'action, des inversions brèves et en tout-ou-rien de la polarisation de la membrane.
+
+> [!quiz] Que se passe-t-il au niveau d'une synapse chimique ?
+> Le neurone libère des neurotransmetteurs qui se fixent sur des récepteurs du neurone suivant.
+
+> [!quiz] Qu'est-ce que la plasticité synaptique ?
+> La capacité des synapses à se renforcer ou s'affaiblir selon leur activité, base de l'apprentissage et de la mémoire.

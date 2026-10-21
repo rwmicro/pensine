@@ -69,6 +69,14 @@ La liaison entre deux acides aminés s'appelle une **liaison peptidique**.
 > Toute la diversité fonctionnelle des protéines (enzyme, hormone, structure) vient de cette seule chaîne latérale R qui varie d'un acide aminé à l'autre — le squelette NH₂-C-COOH est strictement identique pour les 20. Un seul changement d'acide aminé dans une séquence de centaines peut donc suffire à casser une fonction entière (c'est le mécanisme derrière de nombreuses maladies génétiques, ex. la drépanocytose vient d'un seul acide aminé substitué dans l'hémoglobine).
 
 
+## Questions de révision
+
+> [!quiz] Combien d'acides aminés entrent dans les protéines humaines, et combien sont essentiels ?
+> Vingt, dont neuf essentiels, que le corps ne sait pas fabriquer et qui doivent venir de l'alimentation.
+
+> [!quiz] Quelle est la structure commune d'un acide aminé ?
+> Un carbone central portant un groupe amine, un groupe carboxyle, un atome d'hydrogène et une chaîne latérale propre à chaque acide aminé.
+
 ## Sources alimentaires
 
 | Source                  | Acides aminés fournis                     |

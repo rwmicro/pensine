@@ -168,3 +168,14 @@ class DiagrammeMinkowski(Scene):
 > - **Addition** des vitesses bornée par $c$ ; **équivalence** $E = \gamma mc^2$, énergie de masse $E_0 = mc^2$.
 
 *Voir aussi* : [[Référentiels Non Galiléens]] | [[Mécanique du Point]] | [[Physique des Particules]] | [[Astrophysique et Cosmologie]] | [[Géométrie Non-Euclidienne]]
+
+## Questions de révision
+
+> [!quiz] Quels sont les deux postulats de la relativité restreinte ?
+> Les lois de la physique sont les mêmes dans tous les référentiels galiléens, et la vitesse de la lumière dans le vide y est la même, quelle que soit la vitesse de la source.
+
+> [!quiz] Quelle est l'expression du facteur de Lorentz ?
+> $\gamma = 1/\sqrt{1 - v^2/c^2}$, toujours supérieur ou égal à 1.
+
+> [!quiz] Qu'est-ce que la dilatation du temps ?
+> Une horloge en mouvement bat plus lentement vu d'un référentiel où elle bouge : $\Delta t = \gamma \, \Delta t_0$, où $\Delta t_0$ est le temps propre.

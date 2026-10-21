@@ -182,6 +182,17 @@ date: "2025-12-31"
 - Mais adapter aux spécificités contemporaines
 - Ni fatalisme, ni amnésie
 
+## Questions de révision
+
+> [!quiz] Que sont les cycles de Kondratiev ?
+> Des cycles économiques longs d'environ 50 à 60 ans, alternant croissance, apogée, déclin et crise.
+
+> [!quiz] Quelles sont les quatre phases de la théorie des générations de Strauss et Howe ?
+> *High* (apogée), *Awakening* (éveil), *Unraveling* (dénouement) et *Crisis* (crise), sur un cycle d'environ 80 ans.
+
+> [!quiz] Quel risque méthodologique guette les « patterns » historiques à trois éléments ?
+> Ils se retrouvent facilement a posteriori dans presque toute période trouble ; un schéma qui explique tout n'est pas falsifiable et perd sa valeur explicative.
+
 ## Ressources
 
 - Jared Diamond - *Effondrement*

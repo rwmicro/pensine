@@ -329,3 +329,14 @@ La **primatologie** étudie nos plus proches parents, les primates non-humains, 
 - **Jane Goodall** : Éthologie des chimpanzés
 - **Dian Fossey** : Conservation des gorilles
 - **Svante Pääbo** : ADN ancien, génome néandertalien (Prix Nobel 2022)
+
+## Questions de révision
+
+> [!quiz] Qu'étudie la paléoanthropologie ?
+> L'évolution humaine à partir des fossiles d'hominines.
+
+> [!quiz] Qu'étudie la primatologie, et pourquoi intéresse-t-elle l'anthropologie ?
+> Le comportement et la biologie des primates, qui éclairent par comparaison l'évolution humaine.
+
+> [!quiz] Qu'est-ce que la bioarchéologie ?
+> L'étude des restes humains de sites archéologiques pour reconstituer la santé, l'alimentation et le mode de vie des populations passées.

@@ -73,3 +73,14 @@ Le terme "fondamentalisme", né dans le protestantisme américain du début du X
 - **Islam et sécularisation** : la sociologie des religions débat de la spécificité (ou non) du rapport de l'islam à la sécularisation, entre thèses culturalistes contestées et analyses insistant sur la diversité interne considérable du monde musulman contemporain
 - **Religion et politique identitaire** : la religion redevient, dans plusieurs contextes contemporains, un marqueur identitaire et politique majeur (nationalisme religieux, populisme à coloration religieuse), au-delà de la seule question de la croyance individuelle
 - **Spiritualités numériques** : l'essor de communautés religieuses ou spirituelles en ligne, largement détachées des institutions territoriales traditionnelles, pose de nouvelles questions à une discipline longtemps construite autour de la paroisse ou de la communauté locale
+
+## Questions de révision
+
+> [!quiz] Comment Durkheim définit-il la religion dans *Les Formes élémentaires de la vie religieuse* (1912) ?
+> Comme un système solidaire de croyances et de pratiques relatives à des choses sacrées, qui unissent en une même communauté morale tous ceux qui y adhèrent.
+
+> [!quiz] Que soutient la thèse de la sécularisation, et pourquoi est-elle discutée ?
+> Que la modernité ferait reculer la religion ; elle est discutée parce que la religion se recompose (individualisation du croire, renouveaux religieux) plutôt qu'elle ne disparaît partout.
+
+> [!quiz] Quelle différence entre Église et secte chez Weber et Troeltsch ?
+> L'Église est une institution à laquelle on appartient par la naissance et qui accueille tous ; la secte est un groupe d'adhésion volontaire, réservé aux « qualifiés ».

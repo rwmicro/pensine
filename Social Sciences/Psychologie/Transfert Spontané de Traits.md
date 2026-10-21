@@ -257,6 +257,17 @@ Le **transfert spontané de traits** est un phénomène psychologique par lequel
 
 **PRINCIPE:** "Sois le changement que tu veux voir" - La perception sociale est contagieuse.
 
+## Questions de révision
+
+> [!quiz] Qu'est-ce que le transfert spontané de traits ?
+> Le fait d'attribuer à une personne les traits qu'elle décrit chez autrui : qui dit d'un autre qu'il est malhonnête est lui-même perçu comme moins honnête.
+
+> [!quiz] Qui a mis en évidence ce phénomène, et quand ?
+> John Skowronski et ses collègues, en 1998.
+
+> [!quiz] Pourquoi le transfert spontané de traits est-il dit automatique ?
+> Parce qu'il se produit sans intention ni conscience, même quand on sait que le locuteur parle de quelqu'un d'autre.
+
 ## Ressources
 
 ### Études Fondatrices

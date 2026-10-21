@@ -110,6 +110,17 @@ timeline
         2017 : Enrichissement avec Arnaud Esquerre
 ```
 
+## Questions de révision
+
+> [!quiz] Quelle sociologie Luc Boltanski fonde-t-il après avoir quitté Bourdieu ?
+> La sociologie pragmatique, ou sociologie de la critique, qui prend au sérieux la capacité des personnes ordinaires à critiquer et à se justifier.
+
+> [!quiz] Quels sont les deux grands livres de Boltanski cités dans la note, et avec qui ?
+> *De la justification* (1991), avec Laurent Thévenot, et *Le Nouvel Esprit du capitalisme* (1999), avec Ève Chiapello.
+
+> [!quiz] Que montre *Les Cadres* (1982) ?
+> Comment le groupe des « cadres » a été construit historiquement, par des mobilisations, des nomenclatures et des représentations, au lieu d'être supposé exister d'avance.
+
 ## Ressources
 
 - Luc Boltanski et Laurent Thévenot, *De la justification. Les économies de la grandeur*, Gallimard, 1991.

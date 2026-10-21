@@ -112,3 +112,14 @@ Au-delà des croyances, les religions remplissent des fonctions sociales identif
 **Régulation morale** : les codes moraux religieux précèdent les codes juridiques dans la plupart des civilisations. Ils fixent ce qui est permis et interdit, souvent avec une sanction supra-humaine (jugement divin, réincarnation défavorable).
 
 **Sens face à la mort** : la plupart des religions offrent une réponse à la mort — résurrection, réincarnation, paradis, dissolution dans le cosmos. Cette fonction existentielle est peut-être la plus irremplaçable.
+
+## Questions de révision
+
+> [!quiz] Qu'est-ce que l'animisme ?
+> La croyance que les lieux, les animaux, les plantes et les phénomènes naturels ont une conscience et peuvent communiquer avec les humains.
+
+> [!quiz] Qu'est-ce que le dualisme religieux ?
+> La croyance en deux puissances opposées, le bien et le mal, qui s'affrontent dans l'univers, comme dans le zoroastrisme ou le manichéisme.
+
+> [!quiz] Pourquoi peut-on parler de « religions séculières » à propos d'idéologies modernes ?
+> Parce que, comme les religions, elles proposent un système de normes et de valeurs fondé sur la croyance en un ordre surhumain (des lois de l'histoire ou de la nature), sans dieux.

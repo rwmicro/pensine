@@ -116,3 +116,14 @@ L'influence de Boas sur l'anthropologie américaine est sans équivalent. Ses é
 - La critique des **races biologiques** est confirmée par la génétique moderne (la variation intra-groupe dépasse la variation inter-groupes)
 - L'exigence du **terrain prolongé** et de la **maitrise linguistique** reste le standard méthodologique
 - La structure en **quatre champs** organise toujours l'anthropologie américaine
+
+## Questions de révision
+
+> [!quiz] Que reproche Boas à l'évolutionnisme du XIXe siècle ?
+> De classer les sociétés sur une échelle unique du « sauvage » au « civilisé » ; il défend que chaque culture a sa propre histoire (particularisme historique).
+
+> [!quiz] Que montre l'étude de Boas sur les immigrés (1912) ?
+> Que la forme du crâne des enfants d'immigrés change par rapport à celle de leurs parents, ce qui réfute l'idée de caractères raciaux fixes.
+
+> [!quiz] Quels sont les quatre champs de l'anthropologie américaine hérités de Boas ?
+> L'anthropologie culturelle, l'anthropologie physique (biologique), l'archéologie et l'anthropologie linguistique.

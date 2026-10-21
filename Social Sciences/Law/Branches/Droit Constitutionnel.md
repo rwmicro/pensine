@@ -105,3 +105,14 @@ Les Constitutions modernes garantissent des droits que le législateur ne peut p
 | **Etat unitaire** | Un seul centre de pouvoir. Les collectivités locales n'ont que des compétences déléguées | France, Japon, Portugal |
 | **Etat fédéral** | Deux niveaux de gouvernement (fédéral + Etats fédérés) avec une répartition constitutionnelle des compétences | Etats-Unis, Allemagne, Suisse, Brésil, Inde |
 | **Etat régional** | Intermédiaire : autonomie forte des régions mais pas de souveraineté | Espagne (communautés autonomes), Italie |
+
+## Questions de révision
+
+> [!quiz] Qu'est-ce que le pouvoir constituant ?
+> Le pouvoir d'établir une constitution (originaire) ou de la réviser (dérivé).
+
+> [!quiz] Quelle différence entre régime parlementaire et régime présidentiel ?
+> En régime parlementaire, le gouvernement est responsable devant le Parlement, qui peut le renverser ; en régime présidentiel, les pouvoirs sont strictement séparés et aucun ne peut renverser l'autre.
+
+> [!quiz] Qu'est-ce que la QPC introduite en 2008 ?
+> La question prioritaire de constitutionnalité, qui permet à un justiciable de contester devant le Conseil constitutionnel une loi déjà en vigueur qui porterait atteinte à ses droits.

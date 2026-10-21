@@ -99,6 +99,17 @@ timeline
         2010 : Kopenawa et Albert publient La Chute du ciel
 ```
 
+## Questions de révision
+
+> [!quiz] Comment Edward Tylor définit-il l'animisme ?
+> Comme la croyance en des êtres spirituels, qu'il tenait pour la forme première de toute religion.
+
+> [!quiz] D'où vient le mot « chamane » ?
+> D'une langue toungouse (evenki) de Sibérie, avant d'être étendu à des pratiques du monde entier.
+
+> [!quiz] Que désigne le « nouvel animisme » en anthropologie ?
+> Une approche (Descola, Viveiros de Castro, Harvey) qui voit l'animisme non comme une erreur primitive, mais comme une façon de concevoir des relations avec des personnes non humaines.
+
 ## Ressources
 
 - Philippe Descola, *Par-delà nature et culture*, 2005.

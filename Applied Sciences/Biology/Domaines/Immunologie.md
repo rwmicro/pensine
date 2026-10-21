@@ -84,3 +84,14 @@ Parfois, le système immunitaire attaque par erreur des cellules du corps lui-m�
 ## Allergies
 
 Une **allergie** est une réponse immunitaire exacerbée à un antigène normalement inoffensif (pollen, arachide, acariens). Le système immunitaire produit des IgE contre ces antigènes, déclenchant une libération d'histamine responsable des symptômes.
+
+## Questions de révision
+
+> [!quiz] Quelles sont les deux branches de l'immunité ?
+> L'immunité innée, rapide et non spécifique, et l'immunité adaptative, plus lente, spécifique et dotée de mémoire.
+
+> [!quiz] Quel est le principe de la vaccination ?
+> Exposer l'organisme à un antigène inoffensif pour qu'il forme des cellules mémoire, qui permettront une réponse rapide lors d'une vraie infection.
+
+> [!quiz] Qu'est-ce qu'une maladie auto-immune ?
+> Une maladie où le système immunitaire attaque les propres tissus de l'organisme.

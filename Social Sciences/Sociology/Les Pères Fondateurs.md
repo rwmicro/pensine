@@ -222,3 +222,13 @@ prerequis: ["[[Social Sciences/Sociology/Fondements de la Sociologie]]"]
 > [!tip] Méthode
 > Simmel est le moins "canonique" des quatre ici mais c'est lui qui inaugure l'échelle d'analyse opposée à Durkheim et Marx : plutôt que d'étudier la société comme totalité (fait social, mode de production), il étudie les formes récurrentes de relation (conflit, échange, subordination) indépendamment de leur contenu concret. C'est cette bascule vers le micro-niveau, plus que ses concepts précis, qui fait de lui l'ancêtre direct de l'École de Chicago et de [[Fondateurs/Erving Goffman|Goffman]].
 
+## Questions de révision
+
+> [!quiz] Quelle différence Comte fait-il entre statique et dynamique sociale ?
+> La statique étudie l'ordre et les structures stables ; la dynamique étudie le progrès et le changement social.
+
+> [!quiz] Pourquoi la Religion de l'Humanité découle-t-elle logiquement du projet de Comte ?
+> Si le stade positif remplace la religion comme explication du monde, il faut encore quelque chose pour remplir la fonction unificatrice que la religion assurait.
+
+> [!quiz] Quels sont les quatre grands livres de Durkheim et leurs dates ?
+> *De la division du travail social* (1893), *Les Règles de la méthode sociologique* (1895), *Le Suicide* (1897) et *Les Formes élémentaires de la vie religieuse* (1912).

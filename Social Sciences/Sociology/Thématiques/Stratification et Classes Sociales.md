@@ -130,6 +130,17 @@ timeline
         2013 : Le Capital au XXIe siècle de Piketty
 ```
 
+## Questions de révision
+
+> [!quiz] Sur quoi repose la classe sociale chez Marx ?
+> Sur la place dans les rapports de production : la propriété ou non des moyens de production.
+
+> [!quiz] Comment Bourdieu représente-t-il l'espace social ?
+> Selon deux dimensions : le volume global de capital et sa structure (part relative du capital économique et du capital culturel).
+
+> [!quiz] Que montre Thomas Piketty sur le temps long ?
+> Que lorsque le rendement du capital dépasse la croissance (r > g), les patrimoines se concentrent et les inégalités tendent à se creuser.
+
 ## Ressources
 
 - Karl Marx et Friedrich Engels, *Manifeste du parti communiste*, 1848.

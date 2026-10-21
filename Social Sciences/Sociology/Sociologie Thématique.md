@@ -278,3 +278,14 @@ Mesure du passage d'une position sociale à une autre d'une génération à l'au
 *Voir le développement complet : [[Thématiques/Sociologie de la Déviance]]*
 
 Comment une société définit, produit et sanctionne la transgression des normes, de l'anomie de Durkheim et Merton à l'étiquetage de Howard Becker.
+
+## Questions de révision
+
+> [!quiz] Quel modèle urbain l'École de Chicago (Park, Burgess) propose-t-elle ?
+> L'écologie urbaine, avec le modèle des zones concentriques.
+
+> [!quiz] Que désigne l'« individualisation du croire » chez Danièle Hervieu-Léger ?
+> Le fait que les individus composent eux-mêmes leurs croyances, hors du contrôle des institutions religieuses.
+
+> [!quiz] Qui a écrit *L'Inégalité des chances* ?
+> Raymond Boudon.

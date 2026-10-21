@@ -51,3 +51,14 @@ Le cadre wébérien de la domination légitime s'applique bien au-delà de l'Ét
 > "La domination [...] est la probabilité de trouver obéissance à un ordre de contenu donné auprès de personnes données."
 
 > "Il existe trois fondements internes qui légitiment une domination : l'autorité de l''éternel hier' [...], l'autorité du don de grâce personnel et extraordinaire [...], et enfin la domination en vertu de la 'légalité'."
+
+## Questions de révision
+
+> [!quiz] Comment Weber définit-il la domination (*Herrschaft*) ?
+> Comme la probabilité que des ordres spécifiques trouvent obéissance de la part d'un groupe donné d'individus.
+
+> [!quiz] Pourquoi toute domination durable cherche-t-elle à paraître légitime ?
+> Parce qu'une domination fondée sur la seule force est instable et coûteuse ; si les dominés croient juste d'obéir, l'obéissance s'obtient sans contrainte permanente.
+
+> [!quiz] Quels sont les trois types de domination légitime selon Weber ?
+> Traditionnelle (le caractère sacré des traditions), charismatique (les qualités exceptionnelles prêtées à un chef) et légale-rationnelle (la croyance en la légalité de règles impersonnelles).

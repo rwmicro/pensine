@@ -321,3 +321,14 @@ Aspects **intangibles** : idées, croyances, normes.
 - Qui définit "la culture" ?
 - Culture dominante vs subalternes
 - Hégémonie culturelle (Gramsci)
+
+## Questions de révision
+
+> [!quiz] Quelle est la définition classique de la culture par Edward Tylor (1871) ?
+> « Ce tout complexe qui comprend les connaissances, les croyances, l'art, la morale, le droit, les coutumes et toutes les autres aptitudes et habitudes acquises par l'homme en tant que membre de la société. »
+
+> [!quiz] Quelles sont les caractéristiques fondamentales de la culture ?
+> Elle est apprise, partagée, symbolique, intégrée et dynamique.
+
+> [!quiz] Quelle différence entre culture matérielle et immatérielle ?
+> La culture matérielle regroupe les objets et techniques ; la culture immatérielle, les croyances, valeurs, langues et savoirs.

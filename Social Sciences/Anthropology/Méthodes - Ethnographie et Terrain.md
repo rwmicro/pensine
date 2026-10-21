@@ -127,3 +127,14 @@ L'ethnographie classique (un chercheur seul dans un village isolé pendant deux 
 | **Ethnographie numérique** | Etudier des communautés en ligne, des réseaux sociaux, des jeux vidéo |
 | **Auto-ethnographie** | L'anthropologue étudie sa propre expérience comme donnée |
 | **Terrain court** | Séjours multiples et brefs plutôt qu'immersion longue unique (controversé) |
+
+## Questions de révision
+
+> [!quiz] Qu'est-ce que l'observation participante ?
+> Une méthode où l'enquêteur s'immerge longuement dans le groupe étudié, en participant à sa vie quotidienne pour l'observer de l'intérieur.
+
+> [!quiz] À quoi sert le journal de terrain ?
+> À consigner au jour le jour observations, conversations et impressions, y compris celles de l'enquêteur lui-même.
+
+> [!quiz] Qu'est-ce que la réflexivité en ethnographie ?
+> L'attention portée par l'anthropologue à sa propre position et à son influence sur ce qu'il observe.

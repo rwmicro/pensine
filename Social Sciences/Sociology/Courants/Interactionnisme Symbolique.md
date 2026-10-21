@@ -412,3 +412,14 @@ Courant sociologique américain centré sur les interactions sociales et la cons
 - Monde globalisé: macro-structures plus visibles?
 - Inégalités massives
 - Besoin d'articuler micro/macro
+
+## Questions de révision
+
+> [!quiz] Que désignent le *I* et le *Me* chez George Herbert Mead ?
+> Le *I* est la part spontanée et imprévisible de l'individu ; le *Me* est l'ensemble des attitudes d'autrui qu'il a intériorisées.
+
+> [!quiz] Quelles sont les étapes de la prise de rôle chez Mead ?
+> Le jeu libre (*play*), où l'enfant joue un rôle ; le jeu organisé (*game*), où il coordonne plusieurs rôles ; puis l'autrui généralisé, les attitudes de la communauté entière.
+
+> [!quiz] Qui a nommé l'interactionnisme symbolique, et quelle est sa première prémisse ?
+> Herbert Blumer, en 1937. Les humains agissent envers les choses en fonction du sens que ces choses ont pour eux.

@@ -12,6 +12,17 @@ Les chasseurs-cueilleurs sont les groupes humains dont la subsistance repose sur
 
 Comprendre les chasseurs-cueilleurs, c'est comprendre ce pour quoi notre biologie et notre psychologie ont été sélectionnées.
 
+## Questions de révision
+
+> [!quiz] Qu'entend Marshall Sahlins par « société d'abondance originelle » ?
+> Que les chasseurs-cueilleurs satisfont leurs besoins avec relativement peu d'heures de travail, parce qu'ils ont peu de besoins.
+
+> [!quiz] Pourquoi les premiers agriculteurs étaient-ils souvent en moins bonne santé que les chasseurs-cueilleurs ?
+> Alimentation moins variée, travail plus pénible, et maladies favorisées par la sédentarité et la proximité des animaux.
+
+> [!quiz] Quelle organisation sociale est typique des chasseurs-cueilleurs nomades ?
+> De petites bandes mobiles, assez égalitaires, avec un fort partage de la nourriture.
+
 ## Sources de connaissance
 
 Les sources sont de trois ordres, chacune avec ses limites :
