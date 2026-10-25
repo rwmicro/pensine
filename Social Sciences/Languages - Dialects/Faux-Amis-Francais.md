@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects"
 tags: [sciences-sociales, langues, faux-amis, vocabulaire, pieges, francais]
 date: "2026-04-28"
+prerequis: ["[[Comparaison-Typologique]]"]
 ---
 # Faux Amis avec le Français — Inter-langues
 

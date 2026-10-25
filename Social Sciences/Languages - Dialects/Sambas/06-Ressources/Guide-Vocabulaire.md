@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Sambas > 06-Ressources"
 tags: [sciences-sociales, langues, sambas, ressources, navigation]
 date: "2026-04-28"
+prerequis: ["[[17 - Proverbes et Expressions]]"]
 ---
 # Guide de Navigation — Vocabulaire Sambas
 

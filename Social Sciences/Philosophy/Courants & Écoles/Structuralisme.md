@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Courants & Écoles"
 tags: [sciences-sociales, philosophie, structuralisme, foucault, derrida, lévi-strauss]
 date: "2026-08-08"
+prerequis: ["[[Existentialisme]]"]
 ---
 
 # Structuralisme et Post-structuralisme (1950-1980)

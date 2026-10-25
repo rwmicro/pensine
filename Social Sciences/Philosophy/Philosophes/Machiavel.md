@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, machiavel, politique, réalisme]
 date: "2026-08-08"
+prerequis: ["[[Thomas d'Aquin]]"]
 ---
 
 # Nicolas Machiavel (1469-1527)

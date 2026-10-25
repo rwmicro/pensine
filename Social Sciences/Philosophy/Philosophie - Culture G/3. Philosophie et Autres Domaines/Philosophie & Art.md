@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Culture G > Domaines croisés"
 tags: [philosophie, art, esthétique, Kant, Hegel, culture-générale]
 date: "2026-04-12"
+prerequis: ["[[Nietzsche — Culture G]]"]
 ---
 
 # Philosophie & Art

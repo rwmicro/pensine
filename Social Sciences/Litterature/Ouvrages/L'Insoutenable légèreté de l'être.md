@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Litterature > Ouvrages"
 tags: [sciences-sociales, littérature]
 date: "2026-02-22"
+prerequis: ["[[Postmodernisme et Contemporain (1970-Aujourd'hui)]]"]
 ---
 
 # L'Insoutenable légèreté de l'être — Milan Kundera

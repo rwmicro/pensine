@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Culture G > Domaines croisés"
 tags: [philosophie, science, épistémologie, Popper, Kuhn, culture-générale]
 date: "2026-04-12"
+prerequis: ["[[Qu'est-ce que la vérité]]"]
 ---
 
 # Philosophie & Science

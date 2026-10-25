@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Courants & Écoles"
 tags: [sciences-sociales, philosophie, scolastique, moyen-âge, théologie, augustin, aquin]
 date: "2026-04-18"
+prerequis: ["[[Stoïcisme]]"]
 ---
 
 # Philosophie Médiévale (Ve-XVe siècle)

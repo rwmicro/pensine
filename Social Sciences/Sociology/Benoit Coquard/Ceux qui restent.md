@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology > Benoit Coquard"
 tags: [sciences-sociales, sociologie]
 date: "2025-12-31"
+prerequis: ["[[Pierre Bourdieu]]"]
 ---
 # Ceux qui restent - Benoît Coquard (2019)
 

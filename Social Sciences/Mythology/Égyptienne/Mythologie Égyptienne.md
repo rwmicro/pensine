@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Mythology > Égyptienne"
 tags: [sciences-sociales, mythologie]
 date: "2026-02-25"
+prerequis: ["[[Fonctions et Interprétations]]"]
 ---
 
 # Mythologie Égyptienne

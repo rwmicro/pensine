@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Culture G > Domaines croisés"
 tags: [philosophie, politique, justice, démocratie, contrat social, culture-générale]
 date: "2026-04-12"
+prerequis: ["[[Qu'est-ce que la justice]]"]
 ---
 
 # Philosophie & Politique

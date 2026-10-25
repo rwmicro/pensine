@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "History > Syrie"
 tags: [sciences-sociales, histoire]
 date: "2025-12-31"
+prerequis: ["[[Kurdes/Histoire]]"]
 ---
 
 # Répartition Ethnique et Religieuse en Syrie

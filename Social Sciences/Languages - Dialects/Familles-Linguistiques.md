@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects"
 tags: [sciences-sociales, langues, linguistique, taxonomie, familles]
 date: "2026-04-28"
+prerequis: ["[[Concepts-Linguistiques]]"]
 ---
 # Familles Linguistiques — Classification des Langues du Vault
 

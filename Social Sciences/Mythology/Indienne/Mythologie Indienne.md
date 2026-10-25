@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Mythology > Indienne"
 tags: [sciences-sociales, mythologie, inde, hindouisme, vishnou, shiva, brahma, épopées]
 date: "2026-04-18"
+prerequis: ["[[Fonctions et Interprétations]]"]
 ---
 
 # Mythologie Indienne (Hindoue)

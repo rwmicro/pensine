@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, hobbes, contrat-social, politique]
 date: "2026-08-08"
+prerequis: ["[[Machiavel]]", "[[Descartes]]"]
 ---
 
 # Thomas Hobbes (1588-1679)

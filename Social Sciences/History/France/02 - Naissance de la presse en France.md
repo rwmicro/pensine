@@ -6,6 +6,7 @@ tags: [sciences-sociales, histoire, france, presse, XVIIe-siècle, médias]
 date: "2026-04-16"
 year: 1611
 yearEnd: 1881
+prerequis: ["[[La Renaissance]]"]
 ---
 
 # Naissance de la presse en France (XVIIe siècle)

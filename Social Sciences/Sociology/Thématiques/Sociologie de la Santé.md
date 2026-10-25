@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology > Thématiques"
 tags: [sciences-sociales, sociologie, santé, médicalisation, maladie]
 date: "2026-08-08"
+prerequis: ["[[Erving Goffman]]"]
 ---
 # Sociologie de la Santé
 

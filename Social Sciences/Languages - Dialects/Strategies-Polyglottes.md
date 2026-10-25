@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects"
 tags: [sciences-sociales, langues, polyglottisme, strategies, apprentissage, methodologie]
 date: "2026-04-28"
+prerequis: ["[[Concepts-Linguistiques]]"]
 ---
 # Stratégies Polyglottes - Apprendre et Maintenir Plusieurs Langues
 

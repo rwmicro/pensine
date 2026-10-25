@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Mythology"
 tags: [sciences-sociales, mythologie, jung, lévi-strauss, campbell, dumézil]
 date: "2026-02-25"
+prerequis: ["[[Qu'est-ce qu'un Mythe]]"]
 ---
 
 # Fonctions et Interprétations

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Religion > La Genèse"
 tags: [sciences-sociales, religion]
 date: "2025-12-31"
+prerequis: ["[[La Genèse/Histoire]]"]
 ---
 
 # Adam dans la Genèse

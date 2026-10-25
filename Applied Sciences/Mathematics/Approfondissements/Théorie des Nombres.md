@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Mathematics > Approfondissements"
 tags: [sciences-appliquées, mathématiques, théorie-des-nombres, premiers, rsa, fermat, riemann]
 date: "2026-05-20"
+prerequis: ["[[Algorithmique]]"]
 ---
 
 # Théorie des Nombres

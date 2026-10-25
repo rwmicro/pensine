@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, philosophie-chinoise, chine, daodejing, zhuangzi]
 date: "2026-09-28"
+prerequis: ["[[Confucius]]"]
 ---
 
 # Laozi

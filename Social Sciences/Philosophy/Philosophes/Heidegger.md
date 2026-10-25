@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, heidegger, phénoménologie, ontologie]
 date: "2026-08-08"
+prerequis: ["[[Husserl]]"]
 ---
 
 # Martin Heidegger (1889-1976)

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects"
 tags: [sciences-sociales, langues, typologie, comparaison, grammaire]
 date: "2026-04-28"
+prerequis: ["[[Familles-Linguistiques]]"]
 ---
 # Comparaison Typologique - Les 16 Langues du Vault
 

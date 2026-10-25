@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology"
 tags: [sciences-sociales, sociologie]
 date: "2026-02-25"
+prerequis: ["[[Les Pères Fondateurs]]"]
 ---
 
 # Grands Courants Théoriques

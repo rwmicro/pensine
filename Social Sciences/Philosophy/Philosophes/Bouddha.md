@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, bouddhisme, inde, philosophie-indienne, non-soi]
 date: "2026-09-28"
+prerequis: ["[[Philosophies non-occidentales]]"]
 ---
 
 # Bouddha

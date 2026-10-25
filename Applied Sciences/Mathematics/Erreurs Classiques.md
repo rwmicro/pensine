@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Mathematics"
 tags: [sciences-appliquées, mathématiques, erreurs, pièges, méthodologie]
 date: "2026-05-20"
+prerequis: ["[[Comment Montrer Que]]"]
 ---
 
 # Erreurs Classiques en Mathématiques

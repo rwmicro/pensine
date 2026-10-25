@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology > Concepts"
 tags: [sciences-sociales, sociologie]
 date: "2026-02-28"
+prerequis: ["[[L'Ordre Imaginé]]", "[[Stratification et Classes Sociales]]"]
 ---
 
 # Les Hiérarchies Imaginées

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "History > Inde"
 tags: [sciences-sociales, histoire, inde, asie-du-sud]
 date: "2026-09-28"
+prerequis: ["[[Les Empires]]"]
 ---
 
 # Histoire de l'Inde

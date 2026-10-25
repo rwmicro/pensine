@@ -4,6 +4,8 @@ domain: "Applied Sciences"
 subdomain: "Chemistry"
 tags: [sciences-appliquées, chimie, atome, molécule, réactions, tableau-périodique]
 date: "2026-04-18"
+parcours: "Chimie : premiers pas et histoire"
+parcours-description: "Ce qu'étudie la chimie, son histoire de l'alchimie à la chimie moderne, et les grands chimistes."
 ---
 # Introduction à la Chimie
 

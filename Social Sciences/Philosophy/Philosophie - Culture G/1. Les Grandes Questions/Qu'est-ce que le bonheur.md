@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Culture G > Les Grandes Questions"
 tags: [philosophie, bonheur, éthique, stoïcisme, culture-générale]
 date: "2026-04-12"
+prerequis: ["[[Éthique — Utilitarisme, Déontologie, Vertus]]"]
 ---
 
 # Qu'est-ce que le bonheur ?

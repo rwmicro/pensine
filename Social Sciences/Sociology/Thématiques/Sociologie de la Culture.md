@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology > Thématiques"
 tags: [sciences-sociales, sociologie, culture, goût, légitimité-culturelle]
 date: "2026-08-08"
+prerequis: ["[[Habitus]]"]
 ---
 # Sociologie de la Culture
 

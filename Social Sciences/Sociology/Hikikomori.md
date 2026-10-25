@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology"
 tags: [sciences-sociales, sociologie]
 date: "2025-12-31"
+prerequis: ["[[Sociologie de la Famille]]"]
 ---
 
 # Hikikomori

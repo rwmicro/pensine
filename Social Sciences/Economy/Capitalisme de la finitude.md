@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Economy"
 tags: [sciences-sociales, économie, écologie, capitalisme, décroissance, transition, limites-planétaires]
 date: "2026-04-18"
+prerequis: ["[[Histoire de la Monnaie]]"]
 ---
 
 # Capitalisme de la finitude

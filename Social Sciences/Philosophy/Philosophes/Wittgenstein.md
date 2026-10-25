@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, analytique, langage, logique, wittgenstein]
 date: "2026-04-18"
+prerequis: ["[[Russell]]"]
 ---
 
 # Ludwig Wittgenstein (1889-1951)

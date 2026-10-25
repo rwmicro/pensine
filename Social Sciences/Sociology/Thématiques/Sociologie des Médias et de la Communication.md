@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology > Thématiques"
 tags: [sciences-sociales, sociologie, médias, communication, espace-public]
 date: "2026-08-08"
+prerequis: ["[[Sociologie de la Culture]]"]
 ---
 # Sociologie des Médias et de la Communication
 

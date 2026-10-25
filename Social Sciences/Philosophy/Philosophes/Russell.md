@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, russell, logique, analytique, logicisme, pacifisme]
 date: "2026-09-28"
+prerequis: ["[[Bergson]]"]
 ---
 
 # Bertrand Russell (1872-1970)

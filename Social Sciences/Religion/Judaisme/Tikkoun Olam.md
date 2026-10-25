@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Religion > Judaisme"
 tags: [sciences-sociales, religion]
 date: "2026-02-04"
+prerequis: ["[[Judaïsme]]"]
 ---
 
 # Tikkoun Olam (תיקון עולם)

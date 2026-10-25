@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie]
 date: "2026-05-17"
+prerequis: ["[[Hegel]]"]
 ---
 
 # Friedrich Engels (1820-1895)

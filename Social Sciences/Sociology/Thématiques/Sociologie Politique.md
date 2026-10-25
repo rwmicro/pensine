@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology > Thématiques"
 tags: [sciences-sociales, sociologie, politique, pouvoir, mouvements-sociaux]
 date: "2026-08-08"
+prerequis: ["[[Domination]]"]
 ---
 # Sociologie Politique
 

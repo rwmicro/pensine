@@ -7,7 +7,7 @@ date: "2026-09-16"
 stage: budding
 year: 1610
 yearEnd: 1789
-prerequis: ["[[Réforme protestante]]"]
+prerequis: ["[[Réforme protestante]]", "[[02 - Naissance de la presse en France]]"]
 ---
 
 # L'Ancien Régime et Louis XIV (XVIIe-XVIIIe siècle)

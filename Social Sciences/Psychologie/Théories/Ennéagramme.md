@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Psychologie > Théories"
 tags: [sciences-sociales, psychologie]
 date: "2026-02-27"
+prerequis: ["[[Carl Gustave Jung]]"]
 ---
 
 # L'Ennéagramme

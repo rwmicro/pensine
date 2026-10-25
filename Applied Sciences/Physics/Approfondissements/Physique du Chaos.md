@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Physics > Approfondissements"
 tags: [sciences-appliquées, physique, chaos, systèmes-dynamiques, non-linéaire]
 date: "2026-06-21"
+prerequis: ["[[Oscillateurs]]"]
 ---
 
 # Physique du Chaos

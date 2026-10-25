@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, montaigne, scepticisme, renaissance]
 date: "2026-08-08"
+prerequis: ["[[Marc Aurèle]]"]
 ---
 
 # Michel de Montaigne (1533-1592)

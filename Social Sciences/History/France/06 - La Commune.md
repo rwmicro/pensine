@@ -5,6 +5,7 @@ subdomain: "History > France"
 tags: [sciences-sociales, histoire, france]
 date: "2025-06-05"
 year: 1871
+prerequis: ["[[04 - La Révolution française]]"]
 ---
 
 # La Commune de Paris (18 mars — 28 mai 1871)

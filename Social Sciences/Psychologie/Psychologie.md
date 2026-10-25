@@ -4,6 +4,9 @@ domain: "Social Sciences"
 subdomain: "Psychologie"
 tags: [sciences-sociales, psychologie]
 date: "2025-12-31"
+parcours: "Psychologie : biais, émotions et personnalité"
+parcours-description: "Ce qu'étudie la psychologie, les biais cognitifs (cadrage, confirmation, halo, autocomplaisance), les émotions et les désirs, puis la personnalité, de Jung à l'ennéagramme."
+parcours-suite: "Économie : de la monnaie aux comportements"
 ---
 
 # Psychologie - Carte Conceptuelle

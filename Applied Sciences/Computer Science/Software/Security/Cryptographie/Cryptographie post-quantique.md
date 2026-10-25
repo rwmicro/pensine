@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Cryptographie"
 tags: [post-quantique, pqc, ml-kem, ml-dsa, slh-dsa, lattices, migration, cryptographie]
 date: "2026-10-20"
-prerequis: ["[[Cryptographie]]", "[[Mécanique Quantique]]", "[[PKI en profondeur]]"]
+prerequis: ["[[Cryptographie]]", "[[PKI en profondeur]]"]
 ---
 
 # Cryptographie post-quantique

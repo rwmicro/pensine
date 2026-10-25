@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Courants & Écoles"
 tags: [sciences-sociales, philosophie, idéalisme, hegel, kant, dialectique]
 date: "2026-08-08"
+prerequis: ["[[Rationalisme]]", "[[Empirisme]]"]
 ---
 
 # Idéalisme Allemand (1780-1830)

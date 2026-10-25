@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects"
 tags: [sciences-sociales, langues, methodes, apprentissage, SLA]
 date: "2026-03-27"
+prerequis: ["[[Strategies-Polyglottes]]"]
 ---
 # Méthodes et Ressources pour Apprendre les Langues
 

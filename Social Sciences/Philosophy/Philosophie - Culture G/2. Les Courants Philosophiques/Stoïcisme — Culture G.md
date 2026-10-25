@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Culture G > Courants"
 tags: [philosophie, stoïcisme, éthique, culture-générale]
 date: "2026-04-12"
+prerequis: ["[[Frise de la Philosophie Occidentale]]"]
 ---
 
 # Stoïcisme — Synthèse Culture G

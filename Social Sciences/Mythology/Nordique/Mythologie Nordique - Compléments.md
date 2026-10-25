@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Mythology > Nordique"
 tags: [sciences-sociales, mythologie, nordique, eddas, sagas, objets-magiques, créatures]
 date: "2026-04-18"
+prerequis: ["[[Mythologie Nordique]]"]
 ---
 
 # Mythologie Nordique - Compléments

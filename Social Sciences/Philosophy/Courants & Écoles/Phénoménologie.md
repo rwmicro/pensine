@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Courants & Écoles"
 tags: [sciences-sociales, philosophie]
 date: "2026-04-12"
+prerequis: ["[[Idéalisme Allemand]]"]
 ---
 
 # Phénoménologie

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Culture G > Courants"
 tags: [philosophie, éthique, utilitarisme, Kant, vertus, culture-générale]
 date: "2026-04-12"
+prerequis: ["[[Frise de la Philosophie Occidentale]]"]
 ---
 
 # Éthique — Les trois grandes traditions morales

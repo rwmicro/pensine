@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Mathematics > Approfondissements"
 tags: [sciences-appliquées, mathématiques, graphes, algorithmique, combinatoire]
 date: "2026-05-20"
+prerequis: ["[[Combinatoire Avancée]]"]
 ---
 
 # Théorie des Graphes

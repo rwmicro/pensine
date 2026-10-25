@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy"
 tags: [sciences-sociales, philosophie]
 date: "2026-02-27"
+prerequis: ["[[Logique]]"]
 ---
 # Épistémologie
 

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Mythology > Autres"
 tags: [sciences-sociales, mythologie]
 date: "2026-02-25"
+prerequis: ["[[Fonctions et Interprétations]]"]
 ---
 
 # Autres Mythologies

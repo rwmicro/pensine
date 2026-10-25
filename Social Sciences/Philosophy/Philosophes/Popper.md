@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, popper, epistemologie, falsifiabilite, societe-ouverte, rationalisme-critique]
 date: "2026-09-28"
+prerequis: ["[[Wittgenstein]]"]
 ---
 
 # Karl Popper (1902-1994)

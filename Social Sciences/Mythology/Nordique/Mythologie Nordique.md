@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Mythology > Nordique"
 tags: [sciences-sociales, mythologie]
 date: "2026-02-22"
+prerequis: ["[[Fonctions et Interprétations]]"]
 ---
 
 # Mythologie Nordique

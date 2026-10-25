@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Arabe-Standard > 06-Ressources"
 tags: [sciences-sociales, langues, arabe, arabe-standard, fusha, ressources]
 date: "2026-08-08"
+prerequis: ["[[Diglossie-et-Histoire]]"]
 ---
 # Ressources — Arabe Standard
 

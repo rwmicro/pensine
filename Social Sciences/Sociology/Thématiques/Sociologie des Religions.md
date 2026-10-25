@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology > Thématiques"
 tags: [sciences-sociales, sociologie, religion, sécularisation, laïcité]
 date: "2026-08-08"
+prerequis: ["[[Émile Durkheim]]", "[[Max Weber]]"]
 ---
 # Sociologie des Religions
 

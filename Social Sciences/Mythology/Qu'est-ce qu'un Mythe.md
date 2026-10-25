@@ -4,6 +4,8 @@ domain: "Social Sciences"
 subdomain: "Mythology"
 tags: [sciences-sociales, mythologie, mythe, légende, eliade, lévi-strauss, campbell]
 date: "2026-04-18"
+parcours: "Mythologies du monde"
+parcours-description: "Ce qu'est un mythe et à quoi il sert, puis les mythologies grecque, romaine, égyptienne, nordique, indienne et d'autres traditions."
 ---
 
 # Qu'est-ce qu'un Mythe ?

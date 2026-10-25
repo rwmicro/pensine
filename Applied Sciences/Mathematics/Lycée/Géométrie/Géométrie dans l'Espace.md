@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Mathematics > Lycée > Géométrie"
 tags: [sciences-appliquées, mathématiques]
 date: "2026-02-22"
+prerequis: ["[[Géométrie Plane]]"]
 ---
 
 # Partie II : Géométrie dans l'espace (Terminale)

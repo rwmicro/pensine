@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Culture G > Domaines croisés"
 tags: [philosophie, technologie, IA, transhumanisme, éthique, culture-générale]
 date: "2026-04-12"
+prerequis: ["[[Philosophie & Science]]"]
 ---
 
 # Philosophie & Technologie

@@ -6,6 +6,7 @@ tags: [sciences-sociales, histoire, époque-moderne, esclavage, traite, colonisa
 date: "2026-09-28"
 year: 1444
 yearEnd: 1888
+prerequis: ["[[Les Empires]]"]
 ---
 
 # La traite atlantique

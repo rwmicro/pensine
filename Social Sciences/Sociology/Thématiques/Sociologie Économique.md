@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology > Thématiques"
 tags: [sciences-sociales, sociologie, économie, marché, encastrement]
 date: "2026-08-08"
+prerequis: ["[[Sociologie du Travail]]"]
 ---
 # Sociologie Économique
 

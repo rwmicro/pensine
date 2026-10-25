@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Psychologie > Biais"
 tags: [sciences-sociales, psychologie]
 date: "2025-12-31"
+prerequis: ["[[Psychologie]]"]
 ---
 
 # Biais d'Autocomplaisance (Self-Serving Bias)

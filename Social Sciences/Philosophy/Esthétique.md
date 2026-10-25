@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy"
 tags: [sciences-sociales, philosophie, esthétique, art, beauté, goût]
 date: "2026-09-28"
+prerequis: ["[[Branches de la Philosophie (Approfondissement)]]"]
 ---
 
 # Esthétique

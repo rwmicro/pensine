@@ -4,6 +4,8 @@ domain: "Applied Sciences"
 subdomain: "Mathematics > Lycée > Géométrie"
 tags: [sciences-appliquées, mathématiques]
 date: "2026-02-22"
+parcours: "Géométrie au lycée"
+parcours-description: "La géométrie plane, les nombres complexes, la géométrie dans l'espace et ses formules, puis un premier pas hors d'Euclide."
 ---
 
 # Géométrie Plane (Seconde – Première)

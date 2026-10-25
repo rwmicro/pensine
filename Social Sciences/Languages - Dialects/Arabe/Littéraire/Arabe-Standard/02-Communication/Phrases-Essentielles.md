@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Arabe-Standard > 02-Communication"
 tags: [sciences-sociales, langues, arabe, arabe-standard, fusha, communication]
 date: "2026-08-08"
+prerequis: ["[[Arabe-Standard/01-Phonologie/Alphabet-Prononciation]]"]
 ---
 # Phrases Essentielles — Arabe Standard
 

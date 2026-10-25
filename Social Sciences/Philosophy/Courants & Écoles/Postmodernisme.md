@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Courants & Écoles"
 tags: [sciences-sociales, philosophie, postmodernisme, lyotard, baudrillard]
 date: "2026-08-08"
+prerequis: ["[[Structuralisme]]", "[[Nihilisme]]"]
 ---
 
 # Postmodernisme (1979-2000)

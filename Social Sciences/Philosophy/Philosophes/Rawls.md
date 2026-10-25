@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, rawls, justice, politique, analytique]
 date: "2026-08-08"
+prerequis: ["[[Arendt]]"]
 ---
 
 # John Rawls (1921-2002)

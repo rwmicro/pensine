@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "History > Papouasie-Nouvelle-Guinée"
 tags: [sciences-sociales, histoire]
 date: "2026-03-02"
+prerequis: ["[[Les Empires]]"]
 ---
 
 # Histoire de la Papouasie-Nouvelle-Guinée

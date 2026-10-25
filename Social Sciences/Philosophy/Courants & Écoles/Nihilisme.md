@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Courants & Écoles"
 tags: [sciences-sociales, philosophie, nihilisme, nietzsche, mort-de-dieu]
 date: "2026-08-08"
+prerequis: ["[[Idéalisme Allemand]]"]
 ---
 
 # Nihilisme

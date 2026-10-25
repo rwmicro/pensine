@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology > Fondateurs"
 tags: [sciences-sociales, sociologie, sociologie-formelle, modernité, interactions]
 date: "2026-09-28"
+prerequis: ["[[Les Pères Fondateurs]]"]
 ---
 
 # Georg Simmel (1858-1918)

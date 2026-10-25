@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Psychologie"
 tags: [sciences-sociales, psychologie]
 date: "2026-02-28"
+prerequis: ["[[Désirs]]"]
 ---
 
 # Le Bonheur dans l'Histoire

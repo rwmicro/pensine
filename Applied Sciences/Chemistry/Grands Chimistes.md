@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Chemistry"
 tags: [sciences-appliquées, chimie]
 date: "2026-02-22"
+prerequis: ["[[Histoire de la Chimie]]"]
 ---
 # Grands Chimistes
 

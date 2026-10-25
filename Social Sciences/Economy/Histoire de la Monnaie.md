@@ -4,6 +4,8 @@ domain: "Social Sciences"
 subdomain: "Economy"
 tags: [sciences-sociales, économie, monnaie, argent, banque, crédit, cryptomonnaie]
 date: "2026-04-18"
+parcours: "Économie : de la monnaie aux comportements"
+parcours-description: "L'histoire de la monnaie, le capitalisme face aux limites de la planète, puis l'économie comportementale et la théorie des jeux."
 ---
 
 # Histoire de la Monnaie

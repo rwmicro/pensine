@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Culture G > Les Grandes Questions"
 tags: [philosophie, liberté, existentialisme, politique, culture-générale]
 date: "2026-04-12"
+prerequis: ["[[Stoïcisme — Culture G]]"]
 ---
 # Qu'est-ce que la liberté ?
 

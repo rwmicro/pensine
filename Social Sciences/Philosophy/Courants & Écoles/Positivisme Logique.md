@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Courants & Écoles"
 tags: [sciences-sociales, philosophie, positivisme, cercle-de-vienne, science]
 date: "2026-08-08"
+prerequis: ["[[Philosophie Analytique]]"]
 ---
 
 # Positivisme Logique (1920-1940)

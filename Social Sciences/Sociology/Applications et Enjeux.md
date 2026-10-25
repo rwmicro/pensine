@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology"
 tags: [sciences-sociales, sociologie, inégalités, numérique, mondialisation, enjeux]
 date: "2026-04-18"
+prerequis: ["[[Sociologie Thématique]]"]
 ---
 
 # Applications et Enjeux Contemporains de la Sociologie

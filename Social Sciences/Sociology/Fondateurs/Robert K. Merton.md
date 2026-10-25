@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology > Fondateurs"
 tags: [sciences-sociales, sociologie, merton, fonctionnalisme, sociologie-des-sciences, prophetie-autorealisatrice]
 date: "2026-09-28"
+prerequis: ["[[Émile Durkheim]]"]
 ---
 
 # Robert K. Merton (1910-2003)

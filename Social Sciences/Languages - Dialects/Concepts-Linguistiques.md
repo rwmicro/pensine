@@ -4,6 +4,8 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects"
 tags: [sciences-sociales, langues, linguistique, glossaire, terminologie, concepts]
 date: "2026-04-28"
+parcours: "Apprendre les langues : la boîte à outils"
+parcours-description: "Les notions de linguistique utiles à l'apprenant, l'alphabet phonétique international, les familles de langues et leur typologie, les faux amis du français, puis les stratégies des polyglottes."
 ---
 # Concepts Linguistiques — Glossaire de Référence
 

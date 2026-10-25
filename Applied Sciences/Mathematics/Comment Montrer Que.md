@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Mathematics"
 tags: [sciences-appliquées, mathématiques, méthodologie, exercices, recettes]
 date: "2026-05-20"
+prerequis: ["[[Méthodes de Démonstration]]"]
 ---
 # Comment Montrer Que…
 

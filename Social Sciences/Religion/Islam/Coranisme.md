@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Religion > Islam"
 tags: [sciences-sociales, religion]
 date: "2025-12-31"
+prerequis: ["[[Islam/Branches]]"]
 ---
 
 # Le Coranisme

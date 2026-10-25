@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, confucianisme, chine, éthique, philosophie-chinoise]
 date: "2026-09-28"
+prerequis: ["[[Philosophies non-occidentales]]"]
 ---
 
 # Confucius

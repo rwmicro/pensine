@@ -5,6 +5,7 @@ subdomain: "Anthropology > Terrains"
 tags: [sciences-sociales, anthropologie, inde, meghalaya, khasi, nom, musique]
 date: "2026-10-15"
 pays: IND
+prerequis: ["[[Îles Trobriand]]"]
 ---
 # Kongthong
 

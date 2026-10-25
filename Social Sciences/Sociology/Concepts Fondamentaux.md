@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology"
 tags: [sciences-sociales, sociologie]
 date: "2026-02-22"
+prerequis: ["[[Fondements de la Sociologie]]"]
 ---
 
 # Concepts Fondamentaux

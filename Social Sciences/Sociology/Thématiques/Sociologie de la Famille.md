@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology > Thématiques"
 tags: [sciences-sociales, sociologie, famille, socialisation, genre]
 date: "2026-08-08"
+prerequis: ["[[Sociologie Thématique]]"]
 ---
 # Sociologie de la Famille
 

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, habermas, théorie-critique, politique]
 date: "2026-08-08"
+prerequis: ["[[Popper]]", "[[Foucault]]", "[[Rawls]]"]
 ---
 
 # Jürgen Habermas (1929-)
