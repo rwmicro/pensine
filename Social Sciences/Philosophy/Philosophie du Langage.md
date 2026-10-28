@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy"
 tags: [sciences-sociales, philosophie, langage, sens, référence]
 date: "2026-08-08"
+prerequis: ["[[Logique]]"]
 ---
 
 # Philosophie du Langage

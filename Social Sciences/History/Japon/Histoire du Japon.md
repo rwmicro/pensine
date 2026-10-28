@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "History > Japon"
 tags: [sciences-sociales, histoire, japon, asie-orientale]
 date: "2026-09-28"
+prerequis: ["[[Histoire de la Chine]]"]
 ---
 
 # Histoire du Japon

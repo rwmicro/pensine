@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Culture G > Courants"
 tags: [philosophie, postmodernisme, Foucault, Derrida, culture-générale]
 date: "2026-04-12"
+prerequis: ["[[Nietzsche — Culture G]]"]
 ---
 
 # Postmodernisme — Synthèse Culture G

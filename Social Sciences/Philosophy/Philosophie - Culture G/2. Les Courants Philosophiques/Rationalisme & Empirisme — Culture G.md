@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Culture G > Courants"
 tags: [philosophie, rationalisme, empirisme, connaissance, culture-générale]
 date: "2026-04-12"
+prerequis: ["[[Qu'est-ce que la connaissance]]"]
 ---
 
 # Rationalisme & Empirisme — Synthèse Culture G

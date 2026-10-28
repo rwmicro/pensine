@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Sambas"
 tags: [sciences-sociales, langues, sambas]
 date: "2026-02-04"
+prerequis: ["[[Guide-Vocabulaire]]"]
 ---
 
 # Dictionnaire Complet Bahasa Melayu Sambas

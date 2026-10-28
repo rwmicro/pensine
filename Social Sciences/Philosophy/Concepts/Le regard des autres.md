@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Concepts"
 tags: [sciences-sociales, philosophie]
 date: "2025-12-31"
+prerequis: ["[[Sartre]]"]
 ---
 
 # Le Regard des Autres (Sartre)

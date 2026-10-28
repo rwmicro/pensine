@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Religion > Thèmes"
 tags: [sciences-sociales, religion, mystique, soufisme, kabbale, mystique-chretienne, experience-religieuse]
 date: "2026-09-28"
+prerequis: ["[[Histoire des Religions]]"]
 ---
 
 # Mystiques

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology > Fondateurs"
 tags: [sciences-sociales, sociologie, elias, processus-de-civilisation, configuration, sociologie-historique]
 date: "2026-09-28"
+prerequis: ["[[Max Weber]]"]
 ---
 
 # Norbert Elias (1897-1990)

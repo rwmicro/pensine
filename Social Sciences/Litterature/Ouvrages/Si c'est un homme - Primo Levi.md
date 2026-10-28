@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Litterature > Ouvrages"
 tags: [sciences-sociales, littérature]
 date: "2026-02-22"
+prerequis: ["[[XXe Siècle - Modernisme]]"]
 ---
 
 # Si c'est un homme — Primo Levi

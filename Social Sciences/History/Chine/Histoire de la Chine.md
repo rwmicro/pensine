@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "History > Chine"
 tags: [sciences-sociales, histoire, chine, asie-orientale]
 date: "2026-09-28"
+prerequis: ["[[Les Empires]]"]
 ---
 
 # Histoire de la Chine

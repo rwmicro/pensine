@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Courants & Écoles"
 tags: [sciences-sociales, philosophie, pragmatisme, james, dewey, peirce]
 date: "2026-08-08"
+prerequis: ["[[Empirisme]]"]
 ---
 
 # Pragmatisme (1870-aujourd'hui)

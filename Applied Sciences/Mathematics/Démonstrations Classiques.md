@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Mathematics"
 tags: [sciences-appliquées, mathématiques, démonstrations, preuves, classiques]
 date: "2026-05-20"
+prerequis: ["[[Comment Montrer Que]]"]
 ---
 
 # Démonstrations Classiques

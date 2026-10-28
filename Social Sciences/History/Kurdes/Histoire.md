@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "History > Kurdes"
 tags: [sciences-sociales, histoire, kurdes, moyen-orient]
 date: "2025-11-06"
+prerequis: ["[[Les Empires]]"]
 ---
 
 # Histoire des Kurdes

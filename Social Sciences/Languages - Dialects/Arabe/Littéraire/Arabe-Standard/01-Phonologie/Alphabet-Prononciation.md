@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Arabe-Standard > 01-Phonologie"
 tags: [sciences-sociales, langues, arabe, arabe-standard, fusha, phonologie, alphabet]
 date: "2026-08-08"
+prerequis: ["[[Arabe-Standard]]"]
 ---
 # Alphabet et Prononciation — Arabe Standard
 

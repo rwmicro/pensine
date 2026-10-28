@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Sambas > 03-Grammaire"
 tags: [sciences-sociales, langues, sambas, grammaire, pronoms]
 date: "2026-02-04"
+prerequis: ["[[Sambas/04-Vocabulaire/Mots-Essentiels]]", "[[Sambas/02-Communication/Registres]]"]
 ---
 
 # Pronoms et Caractéristiques — Sambas (Melayu Sambas)

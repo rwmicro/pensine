@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, derrida, deconstruction, differance, post-structuralisme, philosophie-francaise]
 date: "2026-09-28"
+prerequis: ["[[Husserl]]", "[[Heidegger]]"]
 ---
 
 # Jacques Derrida (1930-2004)

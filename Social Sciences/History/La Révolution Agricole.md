@@ -8,6 +8,7 @@ year: -10000
 period: "Néolithique"
 parcours: "Histoire : de l'Antiquité au XXe siècle"
 parcours-description: "De la révolution agricole et des civilisations antiques à la Renaissance et à la Révolution française, puis les guerres et les idéologies du XXe siècle."
+parcours-suite: "Histoire du monde : empires et nations"
 ---
 
 # La Révolution Agricole

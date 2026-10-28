@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Economy"
 tags: [sciences-sociales, économie]
 date: "2026-02-27"
+prerequis: ["[[Économie Comportementale]]"]
 ---
 
 # Théorie des Jeux

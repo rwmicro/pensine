@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Psychologie > Branches"
 tags: [sciences-sociales, psychologie]
 date: "2026-02-22"
+prerequis: ["[[Concepts/Emotions]]"]
 ---
 
 # Trouble de la Personnalité Limite (TPL / Borderline)

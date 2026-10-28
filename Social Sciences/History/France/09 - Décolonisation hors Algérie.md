@@ -7,6 +7,7 @@ date: "2026-09-16"
 stage: budding
 year: 1946
 yearEnd: 1962
+prerequis: ["[[05 - Colonisation de l'Algérie]]"]
 ---
 
 # La Décolonisation française hors Algérie (Indochine, Afrique)

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy"
 tags: [sciences-sociales, philosophie, politique, contrat-social, justice]
 date: "2026-08-08"
+prerequis: ["[[Branches de la Philosophie (Approfondissement)]]"]
 ---
 
 # Philosophie Politique

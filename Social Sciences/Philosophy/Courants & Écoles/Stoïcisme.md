@@ -4,6 +4,9 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Courants & Écoles"
 tags: [sciences-sociales, philosophie]
 date: "2026-02-19"
+parcours: "Philosophie : courants et écoles"
+parcours-description: "Les grandes écoles de pensée dans l'ordre où elles se répondent : stoïcisme, philosophie médiévale, rationalisme et empirisme, idéalisme allemand, marxisme, éthiques utilitariste et universaliste, phénoménologie, existentialisme, philosophie analytique, structuralisme et postmodernisme."
+parcours-suite: "Philosophie : les grandes branches"
 ---
 # Stoïcisme
 

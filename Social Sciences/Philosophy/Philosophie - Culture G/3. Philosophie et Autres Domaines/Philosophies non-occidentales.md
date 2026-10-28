@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Culture G > Domaines croisés"
 tags: [philosophie, bouddhisme, taoïsme, confucianisme, ubuntu, culture-générale]
 date: "2026-04-12"
+prerequis: ["[[Stoïcisme — Culture G]]"]
 ---
 
 # Philosophies non-occidentales

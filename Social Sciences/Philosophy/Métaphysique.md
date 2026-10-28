@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy"
 tags: [sciences-sociales, philosophie, métaphysique, ontologie, libre-arbitre, identité]
 date: "2026-09-28"
+prerequis: ["[[Branches de la Philosophie (Approfondissement)]]"]
 ---
 
 # Métaphysique

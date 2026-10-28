@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Mythology > Romaine"
 tags: [sciences-sociales, mythologie]
 date: "2026-02-22"
+prerequis: ["[[Mythologie Grecque]]"]
 ---
 
 # Mythologie Romaine

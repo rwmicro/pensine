@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "History"
 tags: [sciences-sociales, histoire]
 date: "2026-02-28"
+prerequis: ["[[History/Histoire]]"]
 ---
 
 # Les Empires

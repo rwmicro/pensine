@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy"
 tags: [sciences-sociales, philosophie, esprit, conscience, dualisme]
 date: "2026-08-08"
+prerequis: ["[[Métaphysique]]"]
 ---
 
 # Philosophie de l'Esprit

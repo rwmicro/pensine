@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Sambas > 04-Vocabulaire"
 tags: [sciences-sociales, langues, sambas, vocabulaire]
 date: "2026-08-20"
+prerequis: ["[[Sambas/02-Communication/Phrases-Essentielles]]"]
 ---
 # Mots Essentiels — Sambas
 

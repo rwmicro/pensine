@@ -4,6 +4,8 @@ domain: "Applied Sciences"
 subdomain: "Mathematics"
 tags: [sciences-appliquées, mathématiques, démonstration, raisonnement, méthodologie]
 date: "2026-05-20"
+parcours: "Savoir démontrer en mathématiques"
+parcours-description: "Les méthodes de démonstration, comment montrer qu'une propriété est vraie, les démonstrations classiques à connaître et les erreurs qui reviennent."
 ---
 
 # Méthodes de Démonstration

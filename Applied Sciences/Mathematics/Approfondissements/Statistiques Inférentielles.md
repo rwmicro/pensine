@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Mathematics > Approfondissements"
 tags: [sciences-appliquées, mathématiques, statistiques, inférence, tests]
 date: "2026-05-20"
+prerequis: ["[[Probabilités]]"]
 ---
 
 # Statistiques Inférentielles

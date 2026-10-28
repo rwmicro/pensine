@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, patristique, théologie, néoplatonisme, moyen-âge]
 date: "2026-04-18"
+prerequis: ["[[Platon]]"]
 ---
 
 # Augustin d'Hippone (354-430)

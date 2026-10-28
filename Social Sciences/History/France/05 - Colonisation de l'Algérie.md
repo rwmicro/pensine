@@ -8,6 +8,7 @@ updated: "2026-09-16"
 stage: budding
 year: 1830
 yearEnd: 1962
+prerequis: ["[[04 - La Révolution française]]"]
 ---
 
 # La Colonisation de l'Algérie (1830-1962)

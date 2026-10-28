@@ -4,6 +4,8 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Concepts"
 tags: [sciences-sociales, philosophie]
 date: "2026-03-05"
+parcours: "Philosophie : les grandes branches"
+parcours-description: "Une vue d'ensemble des branches de la philosophie, puis chacune en détail : logique, épistémologie, métaphysique, philosophie de l'esprit, du langage, de la religion, philosophie politique et esthétique."
 ---
 # Branches de la Philosophie (Approfondissement)
 

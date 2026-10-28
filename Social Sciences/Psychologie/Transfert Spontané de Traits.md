@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Psychologie"
 tags: [sciences-sociales, psychologie]
 date: "2025-12-31"
+prerequis: ["[[Halo Effect - Effet de halo]]", "[[Biais de confirmation]]"]
 ---
 
 # Transfert Spontané de Traits (Spontaneous Trait Transference)

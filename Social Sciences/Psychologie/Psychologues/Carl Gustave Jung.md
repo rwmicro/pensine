@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Psychologie > Psychologues"
 tags: [sciences-sociales, psychologie, jung, psychanalyse, inconscient-collectif, archétypes]
 date: "2026-04-18"
+prerequis: ["[[Psychologie]]"]
 ---
 
 # Carl Gustav Jung (1875-1961)

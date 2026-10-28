@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, simone-weil, travail, mystique, enracinement, philosophie-politique]
 date: "2026-09-28"
+prerequis: ["[[Bergson]]"]
 ---
 
 # Simone Weil (1909-1943)

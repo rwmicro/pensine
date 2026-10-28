@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology > Thématiques"
 tags: [sciences-sociales, sociologie, genre, féminisme, intersectionnalité]
 date: "2026-08-08"
+prerequis: ["[[Sociologie de la Famille]]"]
 ---
 # Sociologie du Genre
 

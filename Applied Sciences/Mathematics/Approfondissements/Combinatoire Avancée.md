@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Mathematics > Approfondissements"
 tags: [sciences-appliquées, mathématiques, combinatoire, dénombrement, séries-génératrices]
 date: "2026-05-20"
+prerequis: ["[[Dénombrement]]"]
 ---
 
 # Combinatoire Avancée

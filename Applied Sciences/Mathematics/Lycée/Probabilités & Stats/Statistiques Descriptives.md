@@ -4,6 +4,8 @@ domain: "Applied Sciences"
 subdomain: "Mathematics > Lycée > Probabilités & Stats"
 tags: [sciences-appliquées, mathématiques]
 date: "2026-02-22"
+parcours: "Probabilités et statistiques au lycée"
+parcours-description: "Statistiques descriptives, dénombrement et probabilités, l'algorithmique pour simuler, puis la combinatoire, la théorie des graphes, la théorie des nombres et les statistiques inférentielles."
 ---
 
 # Statistiques Descriptives (Seconde)

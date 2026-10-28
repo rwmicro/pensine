@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "History > Djibouti"
 tags: [sciences-sociales, histoire]
 date: "2025-12-31"
+prerequis: ["[[Les Empires]]"]
 ---
 
 # Histoire de Djibouti

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Culture G > Réflexions Personnelles"
 tags: [philosophie, réflexion, questions, culture-générale]
 date: "2026-04-12"
+prerequis: ["[[Qu'est-ce que la liberté]]", "[[Qu'est-ce que le bonheur]]"]
 ---
 
 # Pistes de Réflexion Personnelle

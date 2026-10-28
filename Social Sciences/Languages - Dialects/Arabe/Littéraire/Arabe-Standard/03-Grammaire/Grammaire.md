@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Arabe-Standard > 03-Grammaire"
 tags: [sciences-sociales, langues, arabe, arabe-standard, fusha, grammaire]
 date: "2026-08-08"
+prerequis: ["[[Arabe-Standard/02-Communication/Phrases-Essentielles]]"]
 ---
 # Grammaire — Arabe Standard
 

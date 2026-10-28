@@ -6,6 +6,7 @@ tags: [sciences-sociales, histoire, moyen-âge, mongols, steppes, eurasie]
 date: "2026-09-28"
 year: 1206
 yearEnd: 1368
+prerequis: ["[[Les Empires]]"]
 ---
 
 # Empire mongol

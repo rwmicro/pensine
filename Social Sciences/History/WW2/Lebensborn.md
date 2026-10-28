@@ -6,6 +6,7 @@ tags: [sciences-sociales, histoire, seconde-guerre-mondiale]
 date: "2025-12-31"
 year: 1935
 yearEnd: 1945
+prerequis: ["[[Montée du nazisme]]"]
 ---
 
 # Lebensborn - "Fontaine de Vie"

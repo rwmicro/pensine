@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Sambas > Vocabulaire Thématique"
 tags: [sciences-sociales, langues, sambas]
 date: "2026-02-19"
+prerequis: ["[[16 - Phrases et Conversations]]"]
 ---
 
 # Proverbes et Expressions - Sambas

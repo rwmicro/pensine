@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Sambas > 02-Communication"
 tags: [sciences-sociales, langues, sambas, survie, communication]
 date: "2026-03-27"
+prerequis: ["[[Sambas/05-Culture/Histoire]]"]
 ---
 # Phrases Essentielles — Sambas (Bahasa Sambas)
 

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Religion > La Genèse"
 tags: [sciences-sociales, religion]
 date: "2025-12-31"
+prerequis: ["[[Judaïsme]]"]
 ---
 
 # Le Livre de la Genèse

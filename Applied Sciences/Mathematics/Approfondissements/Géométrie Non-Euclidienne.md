@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Mathematics > Approfondissements"
 tags: [sciences-appliquées, mathématiques, géométrie, hyperbolique, sphérique, relativité]
 date: "2026-05-20"
+prerequis: ["[[Géométrie dans l'Espace]]"]
 ---
 
 # Géométrie Non-Euclidienne

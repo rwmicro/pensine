@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology > Thématiques"
 tags: [sciences-sociales, sociologie, migrations, intégration, diaspora]
 date: "2026-08-08"
+prerequis: ["[[Sociologie Urbaine]]"]
 ---
 # Sociologie des Migrations
 

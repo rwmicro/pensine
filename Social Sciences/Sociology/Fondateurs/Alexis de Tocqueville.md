@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology > Fondateurs"
 tags: [sciences-sociales, sociologie, démocratie, sociologie-politique, xixe-siècle]
 date: "2026-09-28"
+prerequis: ["[[Les Pères Fondateurs]]"]
 ---
 
 # Alexis de Tocqueville (1805-1859)

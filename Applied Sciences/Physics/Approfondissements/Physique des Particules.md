@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Physics > Approfondissements"
 tags: [sciences-appliquées, physique, particules, modèle-standard]
 date: "2026-06-21"
+prerequis: ["[[Mécanique Quantique]]"]
 ---
 
 # Physique des Particules

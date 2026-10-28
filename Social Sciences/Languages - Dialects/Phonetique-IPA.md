@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects"
 tags: [sciences-sociales, langues, phonetique, IPA, API, sons]
 date: "2026-04-28"
+prerequis: ["[[Concepts-Linguistiques]]"]
 ---
 # Phonétique et API — Référence Inter-langues
 

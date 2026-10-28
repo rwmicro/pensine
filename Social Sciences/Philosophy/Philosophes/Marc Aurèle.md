@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie]
 date: "2026-02-22"
+prerequis: ["[[Diogêne]]"]
 ---
 
 # Marc Aurèle (121-180 ap. J.-C.)

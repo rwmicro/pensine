@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "History > États-Unis"
 tags: [sciences-sociales, histoire, états-unis, amérique-du-nord]
 date: "2026-09-28"
+prerequis: ["[[Traite atlantique]]"]
 ---
 
 # Histoire des États-Unis

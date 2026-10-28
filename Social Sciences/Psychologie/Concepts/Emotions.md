@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Psychologie > Concepts"
 tags: [sciences-sociales, psychologie]
 date: "2026-02-27"
+prerequis: ["[[Psychologie]]"]
 ---
 
 # Les Émotions

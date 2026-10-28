@@ -4,6 +4,8 @@ domain: "Social Sciences"
 subdomain: "History"
 tags: [sciences-sociales, histoire]
 date: "2026-02-04"
+parcours: "Histoire du monde : empires et nations"
+parcours-description: "Ce qu'est l'histoire et ce qu'est un empire, puis l'Empire mongol et la Russie, la Chine, le Japon et l'Inde, la traite atlantique et les États-Unis, les Kurdes et la Syrie, Djibouti, la Papouasie-Nouvelle-Guinée et la Transnistrie."
 ---
 
 # Histoire - Index

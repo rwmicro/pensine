@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Arabe-Standard > 02-Communication"
 tags: [sciences-sociales, langues, arabe, arabe-standard, fusha, médias, registres]
 date: "2026-08-08"
+prerequis: ["[[Arabe-Standard/03-Grammaire/Grammaire]]", "[[Arabe-Standard/04-Vocabulaire/Vocabulaire]]"]
 ---
 # Registres et Arabe Médiatique — Arabe Standard
 

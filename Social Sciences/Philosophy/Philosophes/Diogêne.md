@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie]
 date: "2026-02-22"
+prerequis: ["[[Socrate]]"]
 ---
 
 # Diogène de Sinope (413-323 av. J.-C.)

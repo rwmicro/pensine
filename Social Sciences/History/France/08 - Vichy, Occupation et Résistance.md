@@ -7,6 +7,7 @@ date: "2026-09-16"
 stage: budding
 year: 1940
 yearEnd: 1944
+prerequis: ["[[Montée du nazisme]]"]
 ---
 
 # Vichy, Occupation et Résistance (1940-1944)

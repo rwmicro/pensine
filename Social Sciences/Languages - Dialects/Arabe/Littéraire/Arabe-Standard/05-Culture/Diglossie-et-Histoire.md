@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Arabe-Standard > 05-Culture"
 tags: [sciences-sociales, langues, arabe, arabe-standard, fusha, diglossie, histoire]
 date: "2026-08-08"
+prerequis: ["[[Registres-Media]]"]
 ---
 # Diglossie et Histoire de la Langue — Arabe Standard
 

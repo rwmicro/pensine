@@ -4,6 +4,9 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Culture G > Frises Chronologiques"
 tags: [philosophie, histoire, chronologie, culture-générale]
 date: "2026-04-12"
+parcours: "Philosophie en culture générale"
+parcours-description: "La frise de la philosophie occidentale, cinq grandes questions (connaissance, vérité, liberté, bonheur, justice), les courants à connaître, la philosophie face à l'art, la science, la politique et la technique, et les sagesses d'Asie (Bouddha, Confucius, Laozi)."
+parcours-suite: "Philosophie : de l'Antiquité aux modernes"
 ---
 
 # Frise de la Philosophie Occidentale

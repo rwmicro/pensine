@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology > Fondateurs"
 tags: [sciences-sociales, sociologie, boltanski, sociologie-pragmatique, justification, critique, capitalisme]
 date: "2026-09-28"
+prerequis: ["[[Pierre Bourdieu]]"]
 ---
 
 # Luc Boltanski (né en 1940)

@@ -4,6 +4,8 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Sambas"
 tags: [sciences-sociales, langues, sambas]
 date: "2025-06-26"
+parcours: "Sambas : des premiers mots à la culture"
+parcours-description: "D'où vient le malais de Sambas, les phrases essentielles et les registres, le noyau de vocabulaire, les pronoms, les dix-sept lexiques thématiques jusqu'aux proverbes, et le dictionnaire."
 ---
 # Histoire du Sambas
 

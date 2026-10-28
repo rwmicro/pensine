@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Sambas > Vocabulaire Thématique"
 tags: [sciences-sociales, langues, sambas]
 date: "2026-02-19"
+prerequis: ["[[Sambas/04-Vocabulaire/Mots-Essentiels]]"]
 ---
 
 # Famille et Relations - Sambas

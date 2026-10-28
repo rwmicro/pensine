@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie]
 date: "2025-12-31"
+prerequis: ["[[Heidegger]]", "[[Bergson]]"]
 ---
 
 # Jean-Paul Sartre (1905-1980)

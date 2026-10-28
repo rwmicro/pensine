@@ -8,6 +8,7 @@ updated: "2026-09-16"
 stage: budding
 year: 1954
 yearEnd: 1962
+prerequis: ["[[05 - Colonisation de l'Algérie]]"]
 ---
 
 # Guerre d'Algérie (1954-1962)

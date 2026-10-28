@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Chemistry"
 tags: [sciences-appliquées, chimie]
 date: "2026-02-22"
+prerequis: ["[[Introduction]]"]
 ---
 
 # Histoire de la Chimie

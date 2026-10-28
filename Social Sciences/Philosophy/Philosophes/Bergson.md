@@ -4,6 +4,9 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, bergson, duree, intuition, memoire, philosophie-francaise]
 date: "2026-09-28"
+parcours: "Philosophie contemporaine : de Bergson à Habermas"
+parcours-description: "Bergson et la phénoménologie de Husserl et Heidegger, l'existentialisme (Sartre, Beauvoir, Camus), la philosophie analytique de Russell à Popper, puis Arendt, Simone Weil, Foucault, Derrida, Rawls et Habermas."
+parcours-suite: "Philosophie : courants et écoles"
 ---
 
 # Henri Bergson (1859-1941)

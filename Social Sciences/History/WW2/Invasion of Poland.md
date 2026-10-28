@@ -5,6 +5,7 @@ subdomain: "History > WW2"
 tags: [sciences-sociales, histoire, seconde-guerre-mondiale]
 date: "2025-02-15"
 year: 1939
+prerequis: ["[[Montée du nazisme]]"]
 ---
 
 # Invasion de la Pologne — 1er septembre 1939

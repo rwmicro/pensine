@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology"
 tags: [sciences-sociales, sociologie, giddens, bauman, bourdieu, beck, castells]
 date: "2026-04-18"
+prerequis: ["[[Pierre Bourdieu]]"]
 ---
 
 # Sociologues Contemporains

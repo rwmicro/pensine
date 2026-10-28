@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Physics > Approfondissements"
 tags: [sciences-appliquées, physique, astrophysique, cosmologie, espace]
 date: "2026-06-21"
+prerequis: ["[[Relativité Restreinte]]"]
 ---
 
 # Astrophysique et Cosmologie

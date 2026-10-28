@@ -4,6 +4,9 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Arabe-Standard"
 tags: [sciences-sociales, langues, arabe, arabe-standard, fusha, msa, index, moc]
 date: "2026-08-08"
+parcours: "Arabe standard : de l'alphabet aux médias"
+parcours-description: "L'arabe littéral moderne : l'alphabet et la prononciation, les phrases essentielles, la grammaire et le vocabulaire, le registre des médias, puis la diglossie et son histoire."
+parcours-suite: "Arabe libanais : des premiers mots à la culture"
 ---
 # Arabe Standard — Index
 

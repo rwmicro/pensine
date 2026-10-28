@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Sociology > Thématiques"
 tags: [sciences-sociales, sociologie]
 date: "2026-02-04"
+prerequis: ["[[Karl Marx]]", "[[Solidarité]]"]
 ---
 
 # Sociologie du Travail

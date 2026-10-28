@@ -6,6 +6,7 @@ tags: [sciences-sociales, langues, malais, phonologie, prononciation]
 date: "2026-03-27"
 parcours: "Malais : des premiers mots à la culture"
 parcours-description: "Prononcer le malais, saluer, le vocabulaire et les dialogues, puis la grammaire, les registres (anda, awak, kamu) et la culture de la Malaisie."
+parcours-suite: "Sambas : des premiers mots à la culture"
 ---
 # Prononciation — Malais (Bahasa Melayu)
 

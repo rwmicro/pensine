@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Culture G > Les Grandes Questions"
 tags: [philosophie, vérité, épistémologie, culture-générale]
 date: "2026-04-12"
+prerequis: ["[[Qu'est-ce que la connaissance]]"]
 ---
 
 # Qu'est-ce que la vérité ?

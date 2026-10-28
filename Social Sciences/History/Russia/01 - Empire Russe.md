@@ -6,6 +6,7 @@ tags: [sciences-sociales, histoire, russie]
 date: "2025-06-05"
 year: 1682
 yearEnd: 1917
+prerequis: ["[[Empire mongol]]"]
 ---
 
 # L'Empire Russe (XVIIIe–XIXe siècle)

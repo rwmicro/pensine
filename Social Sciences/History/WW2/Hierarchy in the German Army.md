@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "History > WW2"
 tags: [sciences-sociales, histoire, seconde-guerre-mondiale]
 date: "2024-11-01"
+prerequis: ["[[Invasion of Poland]]"]
 ---
 
 # Hiérarchie de l'Armée Allemande (Wehrmacht) — WW2

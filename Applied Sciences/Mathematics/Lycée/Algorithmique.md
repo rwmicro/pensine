@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Mathematics > Lycée"
 tags: [sciences-appliquées, mathématiques]
 date: "2026-02-16"
+prerequis: ["[[Probabilités]]"]
 ---
 
 # Algorithmique et Python

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, arendt, totalitarisme, politique]
 date: "2026-08-08"
+prerequis: ["[[Heidegger]]"]
 ---
 
 # Hannah Arendt (1906-1975)

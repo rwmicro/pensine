@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Culture G > Les Grandes Questions"
 tags: [philosophie, connaissance, épistémologie, culture-générale]
 date: "2026-04-12"
+prerequis: ["[[Frise de la Philosophie Occidentale]]"]
 ---
 
 # Qu'est-ce que la connaissance ?

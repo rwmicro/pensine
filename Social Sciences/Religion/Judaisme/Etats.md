@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Religion > Judaisme"
 tags: [sciences-sociales, religion]
 date: "2025-12-31"
+prerequis: ["[[Judaïsme]]"]
 ---
 
 # États et territoires juifs dans l'histoire

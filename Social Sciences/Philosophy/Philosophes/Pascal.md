@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Philosophes"
 tags: [sciences-sociales, philosophie, pascal, religion, existentialisme]
 date: "2026-08-08"
+prerequis: ["[[Descartes]]", "[[Montaigne]]"]
 ---
 
 # Blaise Pascal (1623-1662)

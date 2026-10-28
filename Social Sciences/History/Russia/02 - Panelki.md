@@ -6,6 +6,7 @@ tags: [sciences-sociales, histoire, russie]
 date: "2025-01-15"
 year: 1950
 yearEnd: 1991
+prerequis: ["[[01 - Empire Russe]]"]
 ---
 
 # Les Panelki — Immeubles soviétiques préfabriqués

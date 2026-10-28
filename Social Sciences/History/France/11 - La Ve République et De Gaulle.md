@@ -7,6 +7,7 @@ date: "2026-09-16"
 stage: budding
 year: 1958
 yearEnd: 1969
+prerequis: ["[[10 - Guerre d'Algérie]]", "[[08 - Vichy, Occupation et Résistance]]"]
 ---
 
 # La Ve République et De Gaulle (1958-1969)

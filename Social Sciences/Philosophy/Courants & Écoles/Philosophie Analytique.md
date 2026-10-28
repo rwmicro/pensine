@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Courants & Écoles"
 tags: [sciences-sociales, philosophie, analytique, langage, logique, wittgenstein, russell]
 date: "2026-04-18"
+prerequis: ["[[Empirisme]]"]
 ---
 
 # Philosophie Analytique (1900-aujourd'hui)
