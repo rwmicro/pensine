@@ -5,6 +5,8 @@ subdomain: "Echecs > Finales"
 tags: [sciences-appliquées, échecs]
 date: "2026-02-22"
 prerequis: ["[[Applied Sciences/Echecs/Tactiques/Milieu de Partie et Tactiques]]"]
+niveau: "Confirmé"
+cible: "Elo 1600"
 ---
 # Finales
 
