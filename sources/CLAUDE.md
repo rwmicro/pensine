@@ -353,6 +353,7 @@ parcours: "Analyse au lycée"   # uniquement sur la note racine du parcours
 ```
 - `prerequis` : prérequis **directs** seulement (pas les transitifs). Chemin vault sans `.md` si le nom de fichier est ambigu : `"[[Social Sciences/Languages - Dialects/Indonésien/02-Communication/Registres]]"`.
 - Le site en tire « À lire avant », « Pour aller plus loin » et les arbres de `/parcours/` (composantes de 3 notes ou plus). Pas de cycle : le rapport de santé de l'admin les signale.
+- Niveaux nommés : `niveau: "Joueur de club"` (et `cible: "Elo 1200"`, ce que le niveau vise) sur la première note d'un niveau. Dès qu'une note du parcours en porte un, le parcours est découpé à la main : une note sans `niveau` rejoint le niveau le plus haut de ses prérequis, et les niveaux suivent l'ordre où leur nom apparaît. Sans `niveau`, le site découpe les longs parcours par taille.
 
 ### Glossaire
 Une définition devient une entrée de glossaire (survol des termes dans les autres notes de la même discipline) si son callout a un titre explicite : `> [!abstract] Définition — Terme` (ou `> [!definition] Terme`). Un titre nu « Définition » n'est pas repris.

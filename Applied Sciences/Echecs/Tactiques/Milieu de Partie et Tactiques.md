@@ -5,6 +5,8 @@ subdomain: "Echecs > Tactiques"
 tags: [sciences-appliquées, échecs]
 date: "2026-02-22"
 prerequis: ["[[Applied Sciences/Echecs/Ouvertures/Ouvertures]]"]
+niveau: "Joueur de club"
+cible: "Elo 1200"
 ---
 
 # Milieu de Partie et Tactiques

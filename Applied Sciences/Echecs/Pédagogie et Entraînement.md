@@ -4,7 +4,8 @@ domain: "Applied Sciences"
 subdomain: "Echecs"
 tags: [sciences-appliquées, échecs]
 date: "2026-02-22"
-prerequis: ["[[Applied Sciences/Echecs/Tactiques/Puzzles et Entraînement Tactique]]", "[[Applied Sciences/Echecs/Finales/Finales]]"]
+prerequis: ["[[Applied Sciences/Echecs/Tactiques/Puzzles et Entraînement Tactique]]", "[[Applied Sciences/Echecs/Finales/Finales]]", "[[Applied Sciences/Echecs/Stratégie/Attaque au Roi]]"]
+niveau: "Fort joueur"
 ---
 
 # Pédagogie et Entraînement

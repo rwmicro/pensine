@@ -5,7 +5,9 @@ subdomain: "Echecs"
 tags: [sciences-appliquées, échecs]
 date: "2026-02-22"
 parcours: "Échecs : des règles aux finales"
-parcours-description: "Les règles, les ouvertures et la tactique du milieu de partie, puis la stratégie, l'attaque au roi et les finales de pions et de tours."
+parcours-description: "Quatre paliers de classement Elo : les règles et les ouvertures, la tactique du milieu de partie, les finales de pions et de tours, puis la stratégie et l'attaque au roi."
+niveau: "Débutant"
+cible: "Elo 800"
 ---
 # Règles et Bases
 
