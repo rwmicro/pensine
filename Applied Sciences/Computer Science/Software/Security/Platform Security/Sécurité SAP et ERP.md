@@ -4,7 +4,6 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Platform Security"
 tags: [sap, erp, netweaver, abap, hana, saprouter, sod, durcissement, détection]
 date: "2026-10-20"
-prerequis: ["[[Active Directory Security]]", "[[Sécurité des données]]", "[[Sécurité Réseau]]"]
 ---
 
 # Sécurité SAP et ERP
