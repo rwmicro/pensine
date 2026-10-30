@@ -4,6 +4,8 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Languages > Java"
 tags: [sciences-appliquées, informatique, java]
 date: "2026-02-25"
+niveau: "Generics"
+prerequis: ["[[Java]]"]
 ---
 
 # Generics

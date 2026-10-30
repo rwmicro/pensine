@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Languages > Java"
 tags: [sciences-appliquées, informatique, java]
 date: "2026-02-25"
+prerequis: ["[[Lambdas]]"]
 ---
 
 # Streams API
