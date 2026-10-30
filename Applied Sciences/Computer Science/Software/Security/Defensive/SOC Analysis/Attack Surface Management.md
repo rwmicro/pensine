@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > SOC Analysis"
 tags: [sciences-appliquées, informatique, sécurité, soc, asm, easm, exposition]
 date: "2026-10-20"
-prerequis: ["[[Gestion des Vulnérabilités]]", "[[Recon Automation]]", "[[Threat Intelligence]]"]
+prerequis: ["[[Threat Intelligence]]"]
 ---
 
 # Attack Surface Management

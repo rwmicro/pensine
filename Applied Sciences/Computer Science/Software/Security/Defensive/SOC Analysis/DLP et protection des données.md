@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > SOC Analysis"
 tags: [sciences-appliquées, informatique, sécurité, soc, dlp, protection-des-données]
 date: "2026-10-20"
-prerequis: ["[[Privacy Engineering]]", "[[Data Exfiltration]]", "[[Detection Engineering]]"]
+prerequis: ["[[Detection Engineering]]"]
 ---
 
 # DLP et protection des données
