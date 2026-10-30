@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Platform Security"
 tags: [automobile, can, autosar, iso-21434, un-r155, secoc, ota, véhicule, détection]
 date: "2026-10-20"
-prerequis: ["[[Sécurité Mobile]]", "[[Sécurité Réseau]]", "[[Cryptographie]]"]
+prerequis: ["[[Sécurité Mobile]]"]
 ---
 
 # Sécurité automobile

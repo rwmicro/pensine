@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Platform Security"
 tags: [ot, ics, iec-62443, purdue, segmentation, scada, détection, sécurité]
 date: "2026-10-20"
-prerequis: ["[[ICS-SCADA Security]]", "[[Sécurité Réseau]]", "[[NIS2 et DORA]]"]
+prerequis: ["[[ICS-SCADA Security]]"]
 ---
 
 # OT Security avancé

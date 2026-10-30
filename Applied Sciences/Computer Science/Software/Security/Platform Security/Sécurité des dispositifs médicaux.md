@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Platform Security"
 tags: [dispositifs-médicaux, iomt, dicom, hl7-fhir, iec-62304, iso-14971, segmentation, réponse-à-incident, santé]
 date: "2026-10-20"
-prerequis: ["[[Sécurité Réseau]]", "[[Sécurité des données]]", "[[NIS2 et DORA]]"]
+prerequis: ["[[Sécurité de l'IoT]]"]
 ---
 
 # Sécurité des dispositifs médicaux
