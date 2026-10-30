@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > OSINT"
 tags: [sciences-appliquées, informatique, sécurité, osint, reconnaissance, attack-surface, shodan]
 date: "2026-05-29"
+prerequis: ["[[Outils OSINT]]"]
 ---
 
 # Shodan — moteur de recherche pour objets connectés

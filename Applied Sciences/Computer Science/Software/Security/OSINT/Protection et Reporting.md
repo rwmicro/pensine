@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > OSINT"
 tags: [sciences-appliquées, informatique, sécurité, osint]
 date: "2026-02-22"
+prerequis: ["[[Techniques et Use Cases]]", "[[Sources OSINT]]"]
 ---
 
 # Protection contre l'OSINT et Reporting
