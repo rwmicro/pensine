@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > DevSecOps > CI-CD"
 tags: [sciences-appliquées, informatique, devsecops]
 date: "2026-02-25"
+prerequis: ["[[GitLab-CI]]", "[[DevSecOps/Docker/Security]]", "[[DevSecOps/Kubernetes/Security]]"]
 ---
 
 # DevSecOps Pipeline (CI/CD Security)

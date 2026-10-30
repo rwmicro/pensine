@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > DevSecOps > Kubernetes"
 tags: [sciences-appliquées, informatique, devsecops, kubernetes]
 date: "2025-05-04"
+prerequis: ["[[Kubernetes]]"]
 ---
 
 # Kubernetes — Fonctionnement

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > DevSecOps > Kubernetes"
 tags: [sciences-appliquées, informatique, devsecops, kubernetes]
 date: "2026-02-04"
+prerequis: ["[[Docker]]"]
 ---
 
 # Kubernetes (K8s)
