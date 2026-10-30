@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Fundamentals"
 tags: [sciences-appliquées, informatique, sécurité, réseau, email]
 date: "2025-03-14"
+prerequis: ["[[Protocoles Réseau]]", "[[DNS en profondeur]]"]
 ---
 
 # Sécurité des e-mails

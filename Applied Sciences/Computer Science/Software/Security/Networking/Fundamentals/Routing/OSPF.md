@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Fundamentals > Routing"
 tags: [sciences-appliquées, informatique, sécurité, réseau]
 date: "2026-03-20"
+prerequis: ["[[Protocoles Réseau]]"]
 ---
 
 # OSPF — Open Shortest Path First

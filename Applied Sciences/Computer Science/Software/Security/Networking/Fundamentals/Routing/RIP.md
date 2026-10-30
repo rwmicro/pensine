@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Fundamentals > Routing"
 tags: [sciences-appliquées, informatique, sécurité, réseau]
 date: "2025-05-04"
+prerequis: ["[[Protocoles Réseau]]"]
 ---
 
 # RIP — Routing Information Protocol

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Fundamentals"
 tags: [sciences-appliquées, informatique, réseau, virtualisation, automatisation, sdn]
 date: "2026-04-07"
+prerequis: ["[[Protocoles Réseau]]", "[[Équipements Réseau]]"]
 ---
 
 # Virtualisation et Automatisation Réseau

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Fundamentals"
 tags: [sciences-appliquées, informatique, réseau, wan, ppp, frame-relay]
 date: "2026-04-07"
+prerequis: ["[[Protocoles Réseau]]"]
 ---
 
 # WAN et Protocoles de Liaison

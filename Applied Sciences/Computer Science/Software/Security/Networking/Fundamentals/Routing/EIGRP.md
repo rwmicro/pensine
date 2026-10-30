@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Fundamentals > Routing"
 tags: [sciences-appliquées, informatique, sécurité, réseau, routage]
 date: "2026-04-07"
+prerequis: ["[[RIP]]"]
 ---
 
 # EIGRP — Enhanced Interior Gateway Routing Protocol
