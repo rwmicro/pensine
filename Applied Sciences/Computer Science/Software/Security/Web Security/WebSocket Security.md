@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Web Security"
 tags: [websocket, web, csrf, injection, sécurité, bug-bounty]
 date: "2026-03-22"
+prerequis: ["[[Attack Vectors]]", "[[Same-Origin Policy et CORS]]"]
 ---
 
 # WebSocket Security

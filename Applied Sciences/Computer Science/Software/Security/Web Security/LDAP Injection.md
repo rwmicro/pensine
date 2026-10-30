@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Web Security"
 tags: [ldap, injection, active-directory, authentication-bypass, sécurité, web]
 date: "2026-03-22"
+prerequis: ["[[Attack Vectors]]"]
 ---
 
 # LDAP Injection
