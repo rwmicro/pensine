@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Architecture Logicielle"
 tags: [sciences-appliquées, informatique, uml, architecture, modélisation]
 date: "2026-04-07"
+prerequis: ["[[Principes SOLID]]"]
 ---
 
 # UML — Unified Modeling Language

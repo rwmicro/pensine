@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Architecture Logicielle"
 tags: [sciences-appliquées, informatique]
 date: "2026-02-25"
+prerequis: ["[[Principes SOLID]]"]
 ---
 
 # Design Patterns
