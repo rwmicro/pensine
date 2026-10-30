@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security"
 tags: [sciences-appliquées, informatique, sécurité, ransomware, incident-response]
 date: "2026-04-16"
+prerequis: ["[[Detection Engineering]]"]
 ---
 
 # Ransomware — analyse et réponse
