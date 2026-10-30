@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Cloud"
 tags: [aws, cloud-security, iam, s3, imds, kms, cloudtrail, durcissement]
 date: "2026-10-20"
-prerequis: ["[[Cloud Security]]", "[[Zero Trust Architecture]]", "[[Sécurité Réseau]]"]
+prerequis: ["[[Cloud Security]]", "[[Zero Trust Architecture]]"]
 ---
 
 # AWS Security

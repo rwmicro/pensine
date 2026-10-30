@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Cloud"
 tags: [kubernetes, k8s, conteneur, rbac, sécurité, cloud, pentest]
 date: "2026-03-22"
+prerequis: ["[[Cloud Security]]"]
 ---
 
 # Kubernetes Security
