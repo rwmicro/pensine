@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Network Security > WiFi"
 tags: [sciences-appliquées, informatique, sécurité, réseau, wifi, wpa3, sae, krack, dragonblood, fragattacks, owe, kr00k, ocv, twt]
 date: "2026-05-17"
+prerequis: ["[[03 - Attaques WPA2-PSK]]"]
 ---
 
 # WPA3 et Vulnérabilités Modernes

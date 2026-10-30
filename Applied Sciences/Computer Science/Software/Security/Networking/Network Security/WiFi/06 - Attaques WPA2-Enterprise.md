@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Network Security > WiFi"
 tags: [sciences-appliquées, informatique, sécurité, réseau, wifi, wpa2, enterprise, eaphammer, peap, mschapv2, karma]
 date: "2026-05-17"
+prerequis: ["[[03 - Attaques WPA2-PSK]]"]
 ---
 
 # Attaques WPA2-Enterprise

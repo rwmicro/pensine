@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Network Security > WiFi"
 tags: [sciences-appliquées, informatique, sécurité, réseau, wifi, hardware, alfa, chipset, antenne]
 date: "2026-05-17"
+prerequis: ["[[01 - Fondamentaux 802.11]]"]
 ---
 
 # Hardware et Antennes WiFi
