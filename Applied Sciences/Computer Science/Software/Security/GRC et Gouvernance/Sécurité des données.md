@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > GRC et Gouvernance"
 tags: [sécurité-des-données, classification, chiffrement, contrôle-daccès, bases-de-données, sauvegardes, rétention, gouvernance]
 date: "2026-10-20"
-prerequis: ["[[Privacy Engineering]]", "[[Gestion des clés et HSM]]", "[[Compliance]]", "[[Business Continuity et Disaster Recovery]]"]
+prerequis: ["[[Privacy Engineering]]", "[[Compliance]]", "[[Business Continuity et Disaster Recovery]]"]
 ---
 
 # Sécurité des données
