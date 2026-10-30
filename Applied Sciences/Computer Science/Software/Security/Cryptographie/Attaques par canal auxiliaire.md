@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Cryptographie"
 tags: [cryptographie, side-channel, timing, cache, spectre, constant-time, microarchitecture]
 date: "2026-10-20"
-prerequis: ["[[Cryptographie]]", "[[Binary Exploitation]]"]
+prerequis: ["[[Cryptographie]]"]
 ---
 
 # Attaques par canal auxiliaire

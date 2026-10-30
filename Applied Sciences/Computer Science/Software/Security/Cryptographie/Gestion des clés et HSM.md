@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Cryptographie"
 tags: [gestion-des-clés, hsm, kms, pkcs11, tpm, secrets, rotation, cryptographie]
 date: "2026-10-20"
-prerequis: ["[[Cryptographie]]", "[[PKI en profondeur]]", "[[Cloud Security]]"]
+prerequis: ["[[Cryptographie]]", "[[PKI en profondeur]]"]
 ---
 
 # Gestion des clés et HSM
