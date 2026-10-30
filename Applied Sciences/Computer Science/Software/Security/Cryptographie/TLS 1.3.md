@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Cryptographie"
 tags: [tls, tls1-3, cryptographie, réseau, pki, aead, handshake, sécurité]
 date: "2026-10-20"
-prerequis: ["[[Cryptographie]]", "[[PKI en profondeur]]", "[[HTTPS]]"]
+prerequis: ["[[HTTPS]]"]
 ---
 
 # TLS 1.3
