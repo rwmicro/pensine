@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Offensive > Tools"
 tags: [burp-suite, proxy, web, pentest, sécurité, outils]
 date: "2026-03-22"
+prerequis: ["[[Test d'intrusion web — cadre et ROE]]"]
 ---
 
 # Burp Suite

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Offensive > Tools"
 tags: [ffuf, gobuster, fuzzing, directory-bruteforce, sécurité, outils, pentest]
 date: "2026-03-22"
+prerequis: ["[[Recon Automation]]"]
 ---
 # ffuf et Gobuster
 

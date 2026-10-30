@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Offensive > Tools"
 tags: [impacket, active-directory, smb, kerberos, ntlm, pentest, sécurité, outils]
 date: "2026-03-22"
+prerequis: ["[[Lateral Movement]]"]
 ---
 
 # Impacket

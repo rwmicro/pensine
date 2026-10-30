@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security"
 tags: [sciences-appliquées, informatique, sécurité, email, dns]
 date: "2026-04-16"
+prerequis: ["[[SMTP et Email Attacks]]"]
 ---
 
 # Email Security (SPF, DKIM, DMARC)

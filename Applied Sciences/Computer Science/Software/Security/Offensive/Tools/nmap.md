@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Offensive > Tools"
 tags: [sciences-appliquées, informatique, sécurité, réseau, nmap, scan]
 date: "2025-02-15"
+prerequis: ["[[Recon Automation]]"]
 ---
 
 # nmap

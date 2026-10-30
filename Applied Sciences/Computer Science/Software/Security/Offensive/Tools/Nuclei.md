@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Offensive > Tools"
 tags: [nuclei, scanner, templates, pentest, sécurité, outils, bug-bounty]
 date: "2026-03-22"
+prerequis: ["[[Recon Automation]]"]
 ---
 
 # Nuclei
