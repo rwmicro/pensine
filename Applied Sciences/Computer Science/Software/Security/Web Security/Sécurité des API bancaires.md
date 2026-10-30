@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Web Security"
 tags: [open-banking, psd2, fapi, oauth, api, fraude, banque, conformité]
 date: "2026-10-20"
-prerequis: ["[[API Security]]", "[[OAuth et OIDC]]", "[[NIS2 et DORA]]"]
+prerequis: ["[[API Security]]"]
 ---
 
 # Sécurité des API bancaires
