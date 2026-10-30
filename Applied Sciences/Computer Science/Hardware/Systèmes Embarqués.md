@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Hardware"
 tags: [sciences-appliquées, informatique, embarqué, microcontrôleur, rtos, arm, iot, temps-réel]
 date: "2026-02-25"
+prerequis: ["[[Architecture des Processeurs]]", "[[Composants et Bus]]"]
 ---
 
 # Systèmes Embarqués

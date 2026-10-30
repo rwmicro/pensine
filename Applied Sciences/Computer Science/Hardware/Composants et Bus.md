@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Hardware"
 tags: [sciences-appliquées, informatique, matériel, bus, pcie, carte-mère, asic, fpga]
 date: "2026-02-25"
+prerequis: ["[[Systèmes Numériques]]", "[[Mémoire et Stockage]]"]
 ---
 
 # Composants et Bus
