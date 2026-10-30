@@ -4,6 +4,8 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > AWS"
 tags: [sciences-appliquées, informatique, aws]
 date: "2026-02-16"
+parcours: "AWS : fondations, réseau, calcul et serverless"
+parcours-description: "De la vue d'ensemble AWS à IAM, S3 et VPC, puis EC2 et Lambda."
 ---
 
 # AWS (Amazon Web Services)

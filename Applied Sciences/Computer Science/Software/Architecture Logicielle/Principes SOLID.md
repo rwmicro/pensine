@@ -4,6 +4,8 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Architecture Logicielle"
 tags: [sciences-appliquées, informatique]
 date: "2026-02-25"
+parcours: "Architecture logicielle : des principes aux microservices"
+parcours-description: "Des principes SOLID à UML et aux design patterns, puis les styles architecturaux et les microservices."
 ---
 
 # Principes SOLID

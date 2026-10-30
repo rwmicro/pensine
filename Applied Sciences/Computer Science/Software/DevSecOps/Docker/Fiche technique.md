@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > DevSecOps > Docker"
 tags: [sciences-appliquées, informatique, devsecops, docker]
 date: "2025-05-04"
+prerequis: ["[[Docker]]"]
 ---
 
 # Docker — Fiche technique

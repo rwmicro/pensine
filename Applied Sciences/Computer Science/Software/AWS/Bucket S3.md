@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > AWS"
 tags: [sciences-appliquées, informatique, aws]
 date: "2024-09-13"
+prerequis: ["[[IAM]]"]
 ---
 
 # AWS S3 — Buckets

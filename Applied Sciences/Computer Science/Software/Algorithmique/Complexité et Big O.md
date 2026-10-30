@@ -4,6 +4,8 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Algorithmique"
 tags: [sciences-appliquées, informatique]
 date: "2026-02-24"
+parcours: "Algorithmique : complexité, structures et graphes"
+parcours-description: "De la mesure de complexité aux structures de données, puis le tri, la programmation dynamique et les algorithmes de graphes."
 ---
 
 # Complexité et Big O

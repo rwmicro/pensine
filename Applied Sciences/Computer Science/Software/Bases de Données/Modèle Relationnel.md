@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Bases de Données"
 tags: [sciences-appliquées, informatique]
 date: "2026-02-25"
+prerequis: ["[[Bases de Données]]"]
 ---
 
 # Modèle Relationnel

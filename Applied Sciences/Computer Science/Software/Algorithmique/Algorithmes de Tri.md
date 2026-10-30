@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Algorithmique"
 tags: [sciences-appliquées, informatique]
 date: "2026-02-24"
+prerequis: ["[[Structures de Données]]"]
 ---
 
 # Algorithmes de Tri

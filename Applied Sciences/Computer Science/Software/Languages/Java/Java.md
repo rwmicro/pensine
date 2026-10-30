@@ -4,6 +4,9 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Languages > Java"
 tags: [sciences-appliquées, informatique, java]
 date: "2026-02-16"
+parcours: "Java : du langage à Spring Boot"
+parcours-description: "Le langage et ses bases, puis les génériques et les lambdas, et enfin JDBC et Spring Boot."
+niveau: "Java"
 ---
 
 # Java

@@ -4,6 +4,8 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Bases de Données"
 tags: [sciences-appliquées, informatique]
 date: "2026-02-24"
+parcours: "Bases de données : du relationnel à l'optimisation"
+parcours-description: "Du modèle relationnel à SQL, l'optimisation et l'indexation, puis les bases NoSQL."
 ---
 
 # Bases de Données

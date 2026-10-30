@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > DevSecOps > CI-CD > Gitlab"
 tags: [sciences-appliquées, informatique, devsecops]
 date: "2025-05-04"
+prerequis: ["[[GitLab-CI]]"]
 ---
 
 # GitLab Runners

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > AWS"
 tags: [sciences-appliquées, informatique, aws]
 date: "2026-02-25"
+prerequis: ["[[AWS]]"]
 ---
 
 # IAM — Identity and Access Management

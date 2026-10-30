@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Languages > Java"
 tags: [sciences-appliquées, informatique, java, spring, backend, api]
 date: "2026-04-07"
+prerequis: ["[[JavaDataBaseConnectivity]]"]
 ---
 
 # Spring Boot

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > DevSecOps > Terraform"
 tags: [sciences-appliquées, informatique, devsecops, terraform]
 date: "2026-03-20"
+prerequis: ["[[DevSecOps/Terraform/Fiche technique]]"]
 ---
 
 # Terraform — State et Workspaces

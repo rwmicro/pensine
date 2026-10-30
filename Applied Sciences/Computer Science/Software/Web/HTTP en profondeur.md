@@ -4,6 +4,8 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Web"
 tags: [sciences-appliquées, informatique, web]
 date: "2026-02-25"
+parcours: "Web : HTTP, API et front-end"
+parcours-description: "De HTTP aux API REST, puis Node.js/Express et React, avec les certificats TLS de bout en bout."
 ---
 
 # HTTP en profondeur

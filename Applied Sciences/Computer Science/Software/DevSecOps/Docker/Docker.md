@@ -4,6 +4,8 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > DevSecOps > Docker"
 tags: [sciences-appliquées, informatique, devsecops, docker]
 date: "2026-02-04"
+parcours: "DevSecOps : conteneurs, CI/CD et sécurité"
+parcours-description: "De Docker à Kubernetes et à leur sécurisation, puis GitLab CI/CD et le pipeline DevSecOps."
 ---
 
 # Docker

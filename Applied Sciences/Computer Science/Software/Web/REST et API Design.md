@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Web"
 tags: [sciences-appliquées, informatique, web]
 date: "2026-02-25"
+prerequis: ["[[HTTP en profondeur]]"]
 ---
 
 # REST et API Design
