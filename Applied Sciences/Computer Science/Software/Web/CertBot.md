@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Web"
 tags: [sciences-appliquées, informatique, web, tls]
 date: "2024-11-01"
+prerequis: ["[[HTTP en profondeur]]"]
 ---
 
 # Certbot — certificats TLS Let's Encrypt

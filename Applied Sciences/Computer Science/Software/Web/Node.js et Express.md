@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Web"
 tags: [sciences-appliquées, informatique, web, nodejs, express, backend, javascript]
 date: "2026-04-07"
+prerequis: ["[[REST et API Design]]"]
 ---
 
 # Node.js et Express
