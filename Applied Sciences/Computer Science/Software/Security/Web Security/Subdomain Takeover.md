@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Web Security"
 tags: [subdomain-takeover, dns, cname, reconnaissance, sécurité, web, bug-bounty]
 date: "2026-03-22"
+prerequis: ["[[Attack Vectors]]"]
 ---
 
 # Subdomain Takeover

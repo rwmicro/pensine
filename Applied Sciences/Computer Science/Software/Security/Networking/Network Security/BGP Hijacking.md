@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Network Security"
 tags: [bgp, hijacking, routage, as, réseau, sécurité]
 date: "2026-03-22"
+prerequis: ["[[OSPF]]", "[[Sécurité Réseau]]"]
 ---
 
 # BGP Hijacking

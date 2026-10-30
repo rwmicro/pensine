@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security"
 tags: [sciences-appliquées, informatique, sécurité]
 date: "2025-11-06"
+prerequis: ["[[Reverse Engineering]]"]
 ---
 
 # Fuzzing

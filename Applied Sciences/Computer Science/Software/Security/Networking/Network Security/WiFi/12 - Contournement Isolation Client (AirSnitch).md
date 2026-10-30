@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Network Security > WiFi"
 tags: [sciences-appliquées, informatique, sécurité, réseau, wifi, isolation-client, airsnitch, gtk, mitm]
 date: "2026-09-10"
+prerequis: ["[[02 - Reconnaissance et Sniffing]]", "[[11 - Defense et Detection]]"]
 ---
 
 # Contournement Isolation Client (AirSnitch)

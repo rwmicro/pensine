@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Offensive > Tools"
 tags: [responder, llmnr, ntlm, active-directory, poisoning, sécurité, pentest]
 date: "2026-03-22"
+prerequis: ["[[Initial Access]]"]
 ---
 
 # Responder

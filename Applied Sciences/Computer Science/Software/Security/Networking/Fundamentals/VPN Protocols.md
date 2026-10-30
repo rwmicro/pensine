@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Fundamentals"
 tags: [vpn, wireguard, openvpn, ipsec, ikev2, sécurité, réseau]
 date: "2026-03-22"
+prerequis: ["[[WAN et Protocoles Liaison]]"]
 ---
 
 # VPN Protocols

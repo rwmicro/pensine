@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Network Security > WiFi"
 tags: [sciences-appliquées, informatique, sécurité, réseau, wifi, dos, deauth, mdk4, mdk3, csa]
 date: "2026-05-17"
+prerequis: ["[[02 - Reconnaissance et Sniffing]]"]
 ---
 
 # DoS WiFi et MDK4

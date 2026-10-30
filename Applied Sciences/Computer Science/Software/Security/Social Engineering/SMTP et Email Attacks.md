@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Social Engineering"
 tags: [smtp, email, spf, dkim, dmarc, spoofing, phishing, sécurité]
 date: "2026-03-22"
+prerequis: ["[[Ingénierie Sociale]]"]
 ---
 
 # SMTP et Email Attacks

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security"
 tags: [sciences-appliquées, informatique, sécurité, soc, phishing, email]
 date: "2026-04-16"
+prerequis: ["[[Email Security]]"]
 ---
 
 # Phishing Analysis

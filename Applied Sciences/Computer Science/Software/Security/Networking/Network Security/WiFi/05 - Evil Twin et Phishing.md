@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Network Security > WiFi"
 tags: [sciences-appliquées, informatique, sécurité, réseau, wifi, evil-twin, fluxion, wifiphisher, mitm, tunnelcrack, captive-portal]
 date: "2026-05-17"
+prerequis: ["[[02 - Reconnaissance et Sniffing]]"]
 ---
 
 # Evil Twin et Phishing WiFi

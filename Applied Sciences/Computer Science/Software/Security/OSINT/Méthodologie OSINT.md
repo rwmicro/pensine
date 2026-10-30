@@ -4,6 +4,8 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > OSINT"
 tags: [sciences-appliquées, informatique, sécurité, osint]
 date: "2026-02-25"
+parcours: "OSINT : de la méthode au rapport"
+parcours-description: "Cycle du renseignement, sources et outils, techniques et cas d'usage, puis protection et reporting."
 ---
 
 # Méthodologie OSINT

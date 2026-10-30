@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Network Security > WiFi"
 tags: [sciences-appliquées, informatique, sécurité, réseau, wifi, recon, kismet, airodump, wardriving]
 date: "2026-05-17"
+prerequis: ["[[01 - Fondamentaux 802.11]]"]
 ---
 # Reconnaissance et Sniffing WiFi
 Préalable à toute attaque : passer la carte en mode monitor, scanner les APs et clients, identifier les protocoles.

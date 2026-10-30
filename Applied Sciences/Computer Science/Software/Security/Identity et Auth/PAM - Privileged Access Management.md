@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Identity et Auth"
 tags: [pam, iam, privileged-access, zero-trust, active-directory, sécurité]
 date: "2026-03-22"
+prerequis: ["[[Active Directory Security]]", "[[Credential Access]]"]
 ---
 
 # PAM — Privileged Access Management

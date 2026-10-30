@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Fundamentals"
 tags: [sciences-appliquées, informatique, réseau, qos]
 date: "2026-04-07"
+prerequis: ["[[Protocoles Réseau]]"]
 ---
 
 # QoS — Quality of Service

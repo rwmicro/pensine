@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Network Security > WiFi"
 tags: [sciences-appliquées, informatique, sécurité, réseau, wifi, defense, wids, mfp, hardening]
 date: "2026-05-17"
+prerequis: ["[[03 - Attaques WPA2-PSK]]", "[[05 - Evil Twin et Phishing]]", "[[06 - Attaques WPA2-Enterprise]]", "[[07 - DoS et MDK4]]", "[[09 - WPA3 et Vulnérabilités Modernes]]"]
 ---
 
 # Defense WiFi et Détection

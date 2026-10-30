@@ -4,6 +4,8 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Network Security > WiFi"
 tags: [sciences-appliquées, informatique, sécurité, réseau, wifi, 802.11]
 date: "2026-05-17"
+parcours: "Sécurité WiFi : de la reconnaissance au WPA3"
+parcours-description: "Fondamentaux 802.11, reconnaissance et sniffing, attaques WPA2/WPS/WPA3 et evil twin, puis détection et défense."
 ---
 
 # Fondamentaux 802.11

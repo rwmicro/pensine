@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Fundamentals"
 tags: [snmp, réseau, énumération, community-string, sécurité, pentest]
 date: "2026-03-22"
+prerequis: ["[[Protocoles Réseau]]"]
 ---
 
 # SNMP

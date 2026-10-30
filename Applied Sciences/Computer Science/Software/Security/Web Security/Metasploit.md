@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Web Security"
 tags: [sciences-appliquées, informatique, sécurité]
 date: "2025-02-15"
+prerequis: ["[[Recon Automation]]"]
 ---
 
 # Metasploit Framework

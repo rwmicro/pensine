@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > OSINT"
 tags: [sciences-appliquées, informatique, sécurité, osint]
 date: "2026-02-22"
+prerequis: ["[[Méthodologie OSINT]]"]
 ---
 
 # Sources OSINT

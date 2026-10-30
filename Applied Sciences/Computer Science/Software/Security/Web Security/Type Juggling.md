@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Web Security"
 tags: [type-juggling, php, javascript, python, web, sécurité, authentication-bypass]
 date: "2026-03-22"
+prerequis: ["[[Attack Vectors]]"]
 ---
 
 # Type Juggling

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Network Security > WiFi"
 tags: [sciences-appliquées, informatique, sécurité, réseau, wifi, airgeddon, wifite, bettercap, automation]
 date: "2026-05-17"
+prerequis: ["[[03 - Attaques WPA2-PSK]]", "[[04 - Attaques WPS]]", "[[05 - Evil Twin et Phishing]]"]
 ---
 
 # Frameworks WiFi Tout-en-Un

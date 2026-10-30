@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Defensive"
 tags: [forensique, réseau, wireshark, tcpdump, pcap, network-forensics, dfir, sécurité]
 date: "2026-03-23"
+prerequis: ["[[Network Forensics]]"]
 ---
 
 # Forensique Réseau
