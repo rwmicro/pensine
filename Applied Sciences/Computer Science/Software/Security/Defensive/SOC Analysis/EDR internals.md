@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > SOC Analysis"
 tags: [sciences-appliquées, informatique, sécurité, soc, edr, windows, noyau]
 date: "2026-10-20"
-prerequis: ["[[Introduction aux EDR]]", "[[API hooking]]", "[[Mécanismes de détection]]"]
+prerequis: ["[[Detection Engineering]]"]
 ---
 
 # EDR internals

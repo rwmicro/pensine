@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Methodologie"
 tags: [mitre, attack, ttp, threat-intelligence, detection, purple-team, adversary-emulation]
 date: "2026-10-20"
-prerequis: ["[[Threat Intelligence]]", "[[Adversary Emulation]]"]
+prerequis: ["[[Adversary Emulation]]"]
 ---
 
 # MITRE ATT&CK

@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Methodology"
 tags: [sciences-appliquées, informatique, sécurité, purple-team, red-team, blue-team, detection-engineering]
 date: "2026-04-16"
-prerequis: ["[[Red Team et Blue Team]]", "[[Detection Engineering]]"]
+prerequis: ["[[Red Team et Blue Team]]"]
 ---
 
 # Purple Teaming

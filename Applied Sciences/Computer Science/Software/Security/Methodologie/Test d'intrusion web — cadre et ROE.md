@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Methodology"
 tags: [pentest, web, roe, scope, autorisation, owasp, waf, methodologie]
 date: "2026-10-20"
-prerequis: ["[[Pentest Methodology]]", "[[Threat Modeling]]", "[[Compliance]]"]
+prerequis: ["[[Pentest Methodology]]"]
 ---
 
 # Test d'intrusion web — cadre et ROE

@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > SOC Analysis > DFIR"
 tags: [cloud, forensics, dfir, aws, azure, gcp, incident-response, sécurité]
 date: "2026-10-20"
-prerequis: ["[[DFIR]]", "[[Cloud Security]]", "[[AWS Security]]"]
+prerequis: ["[[DFIR]]"]
 ---
 
 # Cloud Forensics et IR

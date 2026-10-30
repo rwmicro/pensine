@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Platform Security"
 tags: [spatial, satellite, ccsds, tt-c, gnss, space-isac, détection, sécurité]
 date: "2026-10-20"
-prerequis: ["[[Sécurité Réseau]]", "[[Cryptographie]]", "[[Gestion des clés et HSM]]", "[[Supply Chain Attacks]]"]
+prerequis: ["[[Sécurité aéronautique]]"]
 ---
 
 # Sécurité spatiale

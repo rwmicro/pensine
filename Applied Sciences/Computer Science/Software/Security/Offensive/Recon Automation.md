@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Offensive"
 tags: [recon, reconnaissance, automation, bug-bounty, osint, pentest, sécurité]
 date: "2026-03-22"
+prerequis: ["[[Pentest Methodology]]"]
 ---
 
 # Recon Automation

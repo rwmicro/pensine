@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Risk Analysis"
 tags: [sciences-appliquées, informatique, sécurité]
 date: "2025-12-31"
+prerequis: ["[[Threat Modeling]]"]
 ---
 
 # EBIOS Risk Manager (EBIOS RM)

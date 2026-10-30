@@ -4,6 +4,9 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Cloud"
 tags: [cloud, aws, azure, gcp, iam, sécurité, pentest, misconfiguration]
 date: "2026-03-22"
+parcours: "Cloud : sécuriser AWS, Azure et GCP"
+parcours-description: "Modèles de responsabilité, identité, réseau et Kubernetes dans les trois grands clouds."
+parcours-suite: "SOC : des logs à la détection"
 ---
 
 # Cloud Security

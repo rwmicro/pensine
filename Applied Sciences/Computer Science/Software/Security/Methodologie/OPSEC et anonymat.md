@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Methodology"
 tags: [opsec, anonymat, threat-model, tor, vpn, fingerprinting, vie-privee, attribution]
 date: "2026-10-20"
-prerequis: ["[[Threat Modeling]]", "[[Sécurité Réseau]]", "[[Cryptographie]]"]
+prerequis: ["[[Red Team et Blue Team]]"]
 ---
 
 # OPSEC et anonymat — modèle de menace

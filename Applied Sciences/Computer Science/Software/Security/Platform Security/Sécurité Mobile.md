@@ -4,7 +4,6 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Platform Security"
 tags: [mobile, ios, android, sécurité, owasp, pentest, applications]
 date: "2026-03-22"
-prerequis: ["[[Sécurité Réseau]]", "[[Cryptographie]]"]
 ---
 
 # Sécurité Mobile — iOS et Android

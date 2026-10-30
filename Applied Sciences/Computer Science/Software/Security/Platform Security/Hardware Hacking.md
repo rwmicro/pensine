@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Platform Security"
 tags: [hardware, uart, jtag, spi, emmc, rfid, sdr, glitching, side-channel, secure-boot, tpm, sécurité]
 date: "2026-10-20"
-prerequis: ["[[Physical Security]]", "[[Firmware Analysis]]", "[[Reverse Engineering]]"]
+prerequis: ["[[Physical Security]]", "[[Firmware Analysis]]"]
 ---
 
 # Hardware Hacking

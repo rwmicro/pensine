@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Offensive"
 tags: [opsec, red-team, attribution, infrastructure, juridique, sécurité]
 date: "2026-10-20"
-prerequis: ["[[Red Team et Blue Team]]", "[[C2 Infrastructure]]", "[[Compliance]]"]
+prerequis: ["[[Red Team et Blue Team]]", "[[C2 Infrastructure]]"]
 ---
 
 # OPSEC Red Team

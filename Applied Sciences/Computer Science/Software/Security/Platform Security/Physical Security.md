@@ -4,6 +4,8 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Platform Security"
 tags: [physical-security, rfid, lock-picking, tailgating, usb-drop, red-team, sécurité]
 date: "2026-03-22"
+parcours: "Sécurité des plateformes : OT, embarqué et mobile"
+parcours-description: "De l'accès physique au firmware, puis les systèmes industriels, l'embarqué, l'automobile, le médical et le spatial."
 ---
 
 # Physical Security

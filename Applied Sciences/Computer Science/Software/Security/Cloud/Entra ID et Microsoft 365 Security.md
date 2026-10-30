@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Cloud"
 tags: [entra-id, microsoft-365, identité, cloud, conditional-access, detection, pim]
 date: "2026-10-20"
-prerequis: ["[[Azure Security]]", "[[Active Directory Security]]", "[[OAuth et OIDC]]"]
+prerequis: ["[[Active Directory Security]]", "[[OAuth et OIDC]]"]
 ---
 
 # Entra ID et Microsoft 365 Security

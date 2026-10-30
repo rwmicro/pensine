@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Platform Security"
 tags: [aéronautique, avionique, arinc-664, do-326a, ads-b, acars, détection, sécurité]
 date: "2026-10-20"
-prerequis: ["[[Sécurité Réseau]]", "[[OT Security avancé]]", "[[Cryptographie]]", "[[Detection Engineering]]"]
+prerequis: ["[[OT Security avancé]]"]
 ---
 
 # Sécurité aéronautique

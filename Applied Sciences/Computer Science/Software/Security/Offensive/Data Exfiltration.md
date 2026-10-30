@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Offensive"
 tags: [exfiltration, data, dns, http, icmp, steganographie, sécurité, red-team]
 date: "2026-03-22"
+prerequis: ["[[Lateral Movement]]"]
 ---
 
 # Data Exfiltration

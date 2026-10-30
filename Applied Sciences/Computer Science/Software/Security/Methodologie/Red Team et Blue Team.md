@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Methodologie"
 tags: [red-team, blue-team, purple-team, adversary-simulation, pentest, soc]
 date: "2026-03-22"
+prerequis: ["[[Pentest Methodology]]"]
 ---
 
 # Red Team et Blue Team

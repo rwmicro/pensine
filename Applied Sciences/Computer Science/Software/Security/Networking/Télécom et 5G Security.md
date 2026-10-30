@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking"
 tags: [télécom, 5g, ss7, diameter, gtp, oran, roaming, nis2]
 date: "2026-10-20"
-prerequis: ["[[Sécurité Réseau]]", "[[Attaques Réseau]]", "[[Cryptographie]]"]
+prerequis: ["[[Sécurité Réseau]]", "[[Attaques Réseau]]"]
 ---
 
 # Télécom et 5G Security

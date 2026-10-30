@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Platform Security"
 tags: [iot, mqtt, coap, zigbee, lorawan, matter, firmware, ota, botnet, sécurité]
 date: "2026-10-20"
-prerequis: ["[[Hardware Hacking]]", "[[Sécurité Réseau]]", "[[Sécurité Mobile]]"]
+prerequis: ["[[Hardware Hacking]]", "[[Sécurité Mobile]]"]
 ---
 
 # Sécurité de l'IoT

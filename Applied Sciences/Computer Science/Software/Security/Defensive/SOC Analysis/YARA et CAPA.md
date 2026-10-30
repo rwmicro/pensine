@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > SOC Analysis"
 tags: [sciences-appliquées, informatique, sécurité, soc, yara, capa, malware]
 date: "2026-10-20"
-prerequis: ["[[Malware Analysis]]", "[[Detection Engineering]]", "[[Volatility 3]]"]
+prerequis: ["[[Detection Engineering]]"]
 ---
 
 # YARA et CAPA

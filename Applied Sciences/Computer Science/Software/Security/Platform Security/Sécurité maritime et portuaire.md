@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Platform Security"
 tags: [maritime, portuaire, ot, gnss, ais, isps, nis2, sécurité]
 date: "2026-10-20"
-prerequis: ["[[OT Security avancé]]", "[[Sécurité Réseau]]", "[[NIS2 et DORA]]", "[[Physical Security]]"]
+prerequis: ["[[OT Security avancé]]", "[[Physical Security]]"]
 ---
 
 # Sécurité maritime et portuaire

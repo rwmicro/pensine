@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Cloud"
 tags: [azure, entra-id, cloud, pentest, sécurité, active-directory]
 date: "2026-03-22"
+prerequis: ["[[Cloud Security]]"]
 ---
 
 # Azure Security

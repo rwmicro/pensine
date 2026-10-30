@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Application Security"
 tags: [ci-cd, supply-chain, slsa, sbom, sigstore, github-actions, oidc, sécurité]
 date: "2026-10-20"
-prerequis: ["[[Supply Chain Attacks]]", "[[Secure SDLC]]", "[[Gestion des clés et HSM]]"]
+prerequis: ["[[Supply Chain Attacks]]", "[[Secure SDLC]]"]
 ---
 
 # Sécurité CI-CD et chaîne d'approvisionnement

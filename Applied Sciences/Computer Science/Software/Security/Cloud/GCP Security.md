@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Cloud"
 tags: [gcp, google-cloud, iam, cloud-security, metadata-server, pentest, sécurité]
 date: "2026-03-22"
+prerequis: ["[[Cloud Security]]"]
 ---
 
 # GCP Security

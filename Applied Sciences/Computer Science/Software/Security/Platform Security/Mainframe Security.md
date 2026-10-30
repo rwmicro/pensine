@@ -4,7 +4,6 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Platform Security"
 tags: [mainframe, z-os, racf, cics, db2, jcl, smf, durcissement]
 date: "2026-10-20"
-prerequis: ["[[Active Directory Security]]", "[[Sécurité des données]]", "[[Logs]]"]
 ---
 
 # Mainframe Security

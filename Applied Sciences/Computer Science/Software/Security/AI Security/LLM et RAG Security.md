@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > AI Security"
 tags: [llm, rag, prompt-injection, owasp, mitre-atlas, agents, mcp, sécurité, ia]
 date: "2026-10-20"
-prerequis: ["[[Prompt Injection]]", "[[Threat Modeling]]", "[[API Security]]", "[[RAG]]"]
+prerequis: ["[[Prompt Injection]]", "[[RAG]]"]
 ---
 
 # LLM et RAG Security

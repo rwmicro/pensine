@@ -5,7 +5,7 @@ subdomain: "Computer Science > Data Science"
 tags: [sciences-appliquées, informatique, data-science]
 date: "2026-02-12"
 parcours: "Machine Learning : des bases aux LLM"
-parcours-description: "Les bases de la data science et du machine learning, les réseaux de neurones, puis les transformers, les LLM, le fine-tuning, le RAG et les agents."
+parcours-description: "Les bases du machine learning, de l'apprentissage supervisé aux transformers, aux LLM et à leur sécurité."
 ---
 
 # Les bases de la Data Science

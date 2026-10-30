@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Methodologie"
 tags: [sciences-appliquées, informatique, sécurité, adversary-emulation, red-team, mitre-attack, purple-team, tibre]
 date: "2026-10-20"
-prerequis: ["[[Red Team et Blue Team]]", "[[Purple Teaming]]", "[[Threat Intelligence]]"]
+prerequis: ["[[Red Team et Blue Team]]", "[[Purple Teaming]]"]
 ---
 
 # Émulation d'adversaire

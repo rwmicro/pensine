@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Platform Security"
 tags: [macos, osx, pentest, persistence, keychain, sip, launchagent, sécurité]
 date: "2026-03-23"
+prerequis: ["[[Systèmes Numériques]]"]
 ---
 
 # macOS Security

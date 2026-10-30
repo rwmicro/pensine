@@ -4,6 +4,8 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security"
 tags: [sciences-appliquées, informatique, sécurité]
 date: "2026-02-25"
+parcours: "Gouvernance : conformité, risques et menaces"
+parcours-description: "Conformité et NIS2, modélisation des menaces, EBIOS RM, secure SDLC et sécurité de la chaîne d'approvisionnement."
 ---
 
 # Compliance et Réglementations en Sécurité

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Reverse Engineering"
 tags: [firmware, iot, binwalk, ghidra, analyse-binaire, sécurité, reverse-engineering]
 date: "2026-03-22"
+prerequis: ["[[Physical Security]]"]
 ---
 
 # Firmware Analysis

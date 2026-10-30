@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Methodologie"
 tags: [threat-intelligence, cti, stratégie, gestion-des-risques, attribution]
 date: "2026-10-20"
-prerequis: ["[[Threat Intelligence]]", "[[APT et Acteurs de la Menace]]", "[[EBIOS RM]]"]
+prerequis: ["[[Threat Intelligence]]", "[[APT et Acteurs de la Menace]]"]
 ---
 
 # Threat Intelligence stratégique

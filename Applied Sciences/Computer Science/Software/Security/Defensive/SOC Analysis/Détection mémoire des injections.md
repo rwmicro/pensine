@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > SOC Analysis"
 tags: [sciences-appliquées, informatique, sécurité, soc, dfir, detection, memoire]
 date: "2026-10-20"
-prerequis: ["[[Memory Analysis]]", "[[Injection de shellcode]]", "[[Gestion de la mémoire Windows]]"]
+prerequis: ["[[Detection Engineering]]"]
 ---
 
 # Détection mémoire des injections
