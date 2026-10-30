@@ -6,7 +6,7 @@ tags: [sciences-appliquées, informatique, sécurité, soc, dfir]
 date: "2025-02-15"
 parcours: "DFIR : réponse à incident et forensique"
 parcours-description: "Réponse à incident, forensique disque et mémoire, analyse réseau et playbooks."
-parcours-suite: "Malware Development : du processus Windows à l'évasion"
+parcours-suite: "Malware Development : des fondations Windows à l'évasion"
 ---
 
 # DFIR (Digital Forensics and Incident Response)
