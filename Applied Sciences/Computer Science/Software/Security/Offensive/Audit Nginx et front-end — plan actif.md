@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Offensive"
 tags: [nginx, alpinejs, tailwind, jsdelivr, google-fonts, lucide, waf, audit, web, csp]
 date: "2026-10-20"
-prerequis: ["[[Test d'intrusion web — cadre et ROE]]", "[[IDS-IPS-WAF]]", "[[API Security]]"]
+prerequis: ["[[Test d'intrusion web — cadre et ROE]]"]
 ---
 
 # Audit Nginx et front-end — plan actif

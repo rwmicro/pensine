@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Offensive"
 tags: [privilege-escalation, linux, privesc, pentest, ctf, sécurité]
 date: "2026-03-22"
-prerequis: ["[[Applied Sciences/Computer Science/Software/Security/Certifications/PNPT-cert/02-linux-fundamentals/notes]]"]
+prerequis: ["[[Applied Sciences/Computer Science/Software/Security/Certifications/PNPT-cert/02-linux-fundamentals/notes]]", "[[Initial Access]]"]
 ---
 # Linux Privilege Escalation
 

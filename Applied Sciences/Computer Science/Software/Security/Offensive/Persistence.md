@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Offensive"
 tags: [persistence, windows, linux, backdoor, sécurité, pentest, red-team]
 date: "2026-03-22"
+prerequis: ["[[Initial Access]]"]
 ---
 
 # Persistence

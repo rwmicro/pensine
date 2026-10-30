@@ -4,7 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Offensive"
 tags: [initial-access, phishing, red-team, mitre-attack, exploitation, sécurité]
 date: "2026-10-20"
-prerequis: ["[[Red Team et Blue Team]]", "[[C2 Infrastructure]]", "[[Phishing Analysis]]", "[[Supply Chain Attacks]]"]
+prerequis: ["[[Red Team et Blue Team]]", "[[C2 Infrastructure]]", "[[Phishing Analysis]]"]
 ---
 
 # Initial Access
