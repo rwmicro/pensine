@@ -28,6 +28,31 @@ Face au changement climatique, deux stratégies complémentaires s'imposent : **
 
 ### Décarbonation des Secteurs Clés
 
+À gauche, les gaz qui composent les émissions ; à droite, les secteurs qui les produisent. Chaque flux est une part des émissions mondiales en équivalent CO₂.
+
+```mermaid
+---
+config:
+  sankey:
+    suffix: " %"
+---
+sankey-beta
+
+CO₂,Émissions mondiales,76
+Méthane CH₄,Émissions mondiales,16
+Protoxyde d'azote N₂O,Émissions mondiales,6
+Gaz fluorés,Émissions mondiales,2
+Émissions mondiales,Énergie,34
+Émissions mondiales,Industrie,24
+Émissions mondiales,Agriculture et forêts,18
+Émissions mondiales,Transport,16
+Émissions mondiales,Bâtiments,6
+Émissions mondiales,Autres,2
+```
+
+*Parts des émissions mondiales de GES en équivalent CO₂. Gaz : GIEC AR5 ; secteurs : GIEC AR6 (2019), arrondis.*
+
+
 ```mermaid
 flowchart TD
     OBJ["Neutralité carbone\n2050"]

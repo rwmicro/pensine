@@ -22,6 +22,22 @@ L'impact environnemental du numérique se répartit entre trois postes principau
 | **Data centers** | ~15-20 % | Serveurs, stockage, refroidissement |
 | **Réseaux** | ~15-20 % | Antennes (4G/5G), routeurs, câbles sous-marins, fibre optique |
 
+```mermaid
+---
+config:
+  sankey:
+    suffix: " %"
+---
+sankey-beta
+
+Empreinte du numérique,Fabrication des terminaux,45
+Empreinte du numérique,Usage des terminaux,20
+Empreinte du numérique,Data centers,17.5
+Empreinte du numérique,Réseaux,17.5
+```
+
+*Parts des émissions du numérique. Data centers et réseaux : milieu de la fourchette 15-20 %.*
+
 Le constat essentiel : **la fabrication pèse plus que l'usage**. Un smartphone neuf a déjà généré 80 % de son empreinte carbone totale avant même d'être allumé.
 
 > [!important] Idée clé
@@ -36,6 +52,21 @@ Les data centers consomment environ **1 à 1,5 % de l'électricité mondiale** (
 | **Serveurs** (calcul + stockage) | ~50 % |
 | **Refroidissement** | ~30-40 % |
 | **Infrastructure** (éclairage, sécurité, réseau) | ~10-15 % |
+
+```mermaid
+---
+config:
+  sankey:
+    suffix: " %"
+---
+sankey-beta
+
+Électricité d'un data center,Serveurs,50
+Électricité d'un data center,Refroidissement,35
+Électricité d'un data center,Infrastructure,15
+```
+
+*Ordres de grandeur, milieu des fourchettes du tableau. Seule la branche « Serveurs » fait le travail utile, ce que mesure le PUE ci-dessous.*
 
 ### PUE (Power Usage Effectiveness)
 

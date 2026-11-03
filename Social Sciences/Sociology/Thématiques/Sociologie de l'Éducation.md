@@ -254,6 +254,36 @@ Branche de la sociologie étudiant les systèmes éducatifs, les pratiques scola
 
 **Persistance:**
 - Origine sociale détermine toujours fortement trajectoire
+
+Pour 100 élèves de chaque milieu entrés en sixième en 2007, le diplôme obtenu dix ans plus tard. Les filières reproduisent la hiérarchie sociale : le bac professionnel et la sortie sans diplôme sont alimentés surtout par les enfants d'employés et d'ouvriers.
+
+```mermaid
+---
+config:
+  sankey:
+    showValues: false
+---
+sankey-beta
+
+Enfants de cadres,Bac général ou technologique,84
+Enfants de cadres,Bac professionnel,9
+Enfants de cadres,CAP ou BEP,3
+Enfants de cadres,Sans diplôme du secondaire,4
+Enfants de professions intermédiaires,Bac général ou technologique,65
+Enfants de professions intermédiaires,Bac professionnel,19
+Enfants de professions intermédiaires,CAP ou BEP,8
+Enfants de professions intermédiaires,Sans diplôme du secondaire,8
+Enfants d'employés,Bac général ou technologique,51
+Enfants d'employés,Bac professionnel,24
+Enfants d'employés,CAP ou BEP,12
+Enfants d'employés,Sans diplôme du secondaire,13
+Enfants d'ouvriers non qualifiés,Bac général ou technologique,34
+Enfants d'ouvriers non qualifiés,Bac professionnel,28
+Enfants d'ouvriers non qualifiés,CAP ou BEP,19
+Enfants d'ouvriers non qualifiés,Sans diplôme du secondaire,19
+```
+
+*Pour 100 enfants de chaque milieu (les blocs de gauche ont donc la même taille, quel que soit le poids réel de chaque milieu). Panel d'élèves entrés en sixième en 2007, MENJS-Depp, dans INSEE, France portrait social 2020, figure 3.*
 - Inégalités précoces (dès maternelle)
 - Concentration dans certains établissements (ségrégation)
 

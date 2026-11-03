@@ -185,6 +185,20 @@ class EchangeEnergie(Scene):
 > $$\Delta E_m = 21\,875 - 34\,335 = -12\,460 \text{ J} \approx -12{,}5 \text{ kJ}$$
 > Environ $12{,}5$ kJ ont été dissipés en chaleur par frottement.
 
+Le bilan du skieur, en kJ : sur les 34,34 kJ d'énergie potentielle du départ, un peu plus d'un tiers part en chaleur.
+
+```mermaid
+---
+config:
+  sankey:
+    suffix: " kJ"
+---
+sankey-beta
+
+Énergie potentielle en haut,Énergie cinétique en bas,21.88
+Énergie potentielle en haut,Chaleur (frottements),12.46
+```
+
 ### Exercice 3 : ressort
 
 **Énoncé** : Un ressort de raideur $k = 200$ N·m⁻¹ est comprimé de $x = 10$ cm puis relâché, propulsant une bille de $m = 50$ g. Vitesse de la bille au décollage ? (pas de frottement)

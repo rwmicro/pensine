@@ -29,6 +29,51 @@ La **diagonale** du tableau regroupe les individus immobiles, restés dans la ca
 > [!warning] Piège
 > Les deux lectures donnent des images opposées et on les confond souvent. Le recrutement des cadres peut s'ouvrir aux enfants d'ouvriers simplement parce que le nombre de cadres a explosé, sans que les chances relatives d'un enfant d'ouvrier aient changé. Inversement, les agriculteurs ont un autorecrutement très fort, mais la plupart des enfants d'agriculteurs ont quitté l'agriculture, faute de place. Avant d'interpréter un pourcentage, il faut toujours se demander s'il est calculé en ligne ou en colonne.
 
+Un diagramme de Sankey montre les deux lectures à la fois. À gauche, la catégorie du père ; à droite, celle du fils ; chaque flux est une part de l'ensemble des hommes. Suivre les flux qui partent d'un bloc de gauche, c'est lire la table de destinée ; suivre ceux qui arrivent à un bloc de droite, c'est lire la table de recrutement. Le gros flux « ouvriers → ouvriers » et le rétrécissement du bloc des agriculteurs, de 8,5 % des pères à 2,6 % des fils, sautent aux yeux.
+
+```mermaid
+---
+config:
+  sankey:
+    suffix: " %"
+---
+sankey-beta
+
+Agriculteurs (père),Agriculteurs (fils),2.1
+Agriculteurs (père),Artisans et commerçants (fils),0.7
+Agriculteurs (père),Cadres (fils),0.7
+Agriculteurs (père),Professions intermédiaires (fils),1.6
+Agriculteurs (père),Employés (fils),0.6
+Agriculteurs (père),Ouvriers (fils),2.8
+Artisans et commerçants (père),Artisans et commerçants (fils),2.7
+Artisans et commerçants (père),Cadres (fils),2.9
+Artisans et commerçants (père),Professions intermédiaires (fils),3.0
+Artisans et commerçants (père),Employés (fils),1.2
+Artisans et commerçants (père),Ouvriers (fils),3.2
+Cadres (père),Artisans et commerçants (fils),1.1
+Cadres (père),Cadres (fils),6.5
+Cadres (père),Professions intermédiaires (fils),3.6
+Cadres (père),Employés (fils),1.3
+Cadres (père),Ouvriers (fils),1.4
+Professions intermédiaires (père),Artisans et commerçants (fils),1.2
+Professions intermédiaires (père),Cadres (fils),3.9
+Professions intermédiaires (père),Professions intermédiaires (fils),4.8
+Professions intermédiaires (père),Employés (fils),1.7
+Professions intermédiaires (père),Ouvriers (fils),3.5
+Employés (père),Artisans et commerçants (fils),0.6
+Employés (père),Cadres (fils),1.5
+Employés (père),Professions intermédiaires (fils),2.5
+Employés (père),Employés (fils),1.6
+Employés (père),Ouvriers (fils),3.2
+Ouvriers (père),Artisans et commerçants (fils),2.9
+Ouvriers (père),Cadres (fils),3.7
+Ouvriers (père),Professions intermédiaires (fils),9.1
+Ouvriers (père),Employés (fils),4.9
+Ouvriers (père),Ouvriers (fils),18.9
+```
+
+*Hommes de 35 à 59 ans, enquête FQP 2014-2015 (INSEE). Part de l'ensemble des hommes, calculée à partir des tables de destinée et de recrutement ; flux de moins de 0,2 % omis.*
+
 ## Mobilité absolue et mobilité relative
 
 ### La mobilité observée
