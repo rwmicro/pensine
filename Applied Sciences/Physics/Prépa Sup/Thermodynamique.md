@@ -157,6 +157,23 @@ La figure ouvre un moteur monocylindre d'essai (les cotes du moteur CFR, 612 cm�
 ```iso:moteur-piston
 ```
 
+Le même moteur à $r = 10$, pour 100 J de chaleur reçue : 60 J deviennent du travail. Même un moteur de Carnot entre les mêmes températures devrait rejeter 11 J à la source froide ; les 29 J restants sont ce que le cycle d'Otto perd en plus.
+
+```mermaid
+---
+config:
+  sankey:
+    suffix: " J"
+---
+sankey-beta
+
+Chaleur reçue (source chaude),Travail fourni W,60
+Chaleur reçue (source chaude),Rejet minimal imposé par Carnot,11
+Chaleur reçue (source chaude),Rejet supplémentaire du cycle d'Otto,29
+```
+
+*Pour 100 J reçus de la source chaude : Otto 60 %, Carnot 89 %.*
+
 ## 5. Changements d'état (transitions de phase)
 
 > [!important] Corps pur sous plusieurs phases

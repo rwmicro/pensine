@@ -103,6 +103,26 @@ parcours-description: "Les principes de l'écologie et les écosystèmes, la bio
 - Pyramides : nombres, biomasse, énergie
 - Explique pourquoi peu de super-prédateurs
 
+Sur 10 000 kJ fixés par les producteurs, la règle des 10 % n'en laisse que 10 aux super-prédateurs. Le flux qui les atteint est à peine visible :
+
+```mermaid
+---
+config:
+  sankey:
+    suffix: " kJ"
+---
+sankey-beta
+
+Producteurs,Herbivores,1000
+Producteurs,Pertes (respiration et chaleur),9000
+Herbivores,Carnivores,100
+Herbivores,Pertes (respiration et chaleur),900
+Carnivores,Super-prédateurs,10
+Carnivores,Pertes (respiration et chaleur),90
+```
+
+*Exemple pédagogique avec un rendement de 10 % à chaque niveau.*
+
 > [!warning] Piège
 > La "règle des 10%" est une moyenne pédagogique, pas une constante physique : le rendement réel varie de 2% à plus de 40% selon les écosystèmes (les milieux aquatiques, où les proies sont presque entièrement digestibles, transfèrent souvent plus d'énergie que les milieux terrestres, où beaucoup de biomasse végétale — bois, cellulose — reste indigeste). C'est cette perte cumulative, quel que soit le taux exact, qui explique structurellement pourquoi les chaînes trophiques dépassent rarement 4-5 niveaux : trop peu d'énergie subsiste au-delà.
 

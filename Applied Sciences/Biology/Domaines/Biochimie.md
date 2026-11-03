@@ -90,6 +90,27 @@ Elle se déroule en 3 étapes :
 | **Cycle de Krebs** | Matrice mitochondriale | 2 ATP |
 | **Chaîne respiratoire** | Membrane interne mitochondriale | ~28 ATP |
 
+Où part l'énergie d'une mole de glucose (environ 2 870 kJ) ? Avec 32 ATP à environ 30,5 kJ chacun, un tiers seulement est stocké sous forme d'ATP ; le reste est dissipé en chaleur, celle qui maintient la température du corps.
+
+```mermaid
+---
+config:
+  sankey:
+    suffix: " kJ"
+---
+sankey-beta
+
+Glucose,Glycolyse,61
+Glucose,Cycle de Krebs,61
+Glucose,Chaîne respiratoire,854
+Glucose,Chaleur,1894
+Glycolyse,ATP,61
+Cycle de Krebs,ATP,61
+Chaîne respiratoire,ATP,854
+```
+
+*kJ par mole de glucose, ordres de grandeur (ΔG°' d'oxydation du glucose ≈ 2 870 kJ/mol, hydrolyse de l'ATP ≈ 30,5 kJ/mol).*
+
 ### Glycolyse
 Dégradation du glucose (6C) en 2 pyruvates (3C) ; produit 2 ATP et 2 NADH.
 

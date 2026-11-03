@@ -38,6 +38,25 @@ pie title Émissions mondiales de GES (équivalent CO₂)
 - **Fluorés (2%)** : réfrigération, industrie
   - PRG : milliers de fois CO₂
 
+**Où va le CO₂ émis ?** Un peu plus de la moitié est absorbé par l'océan et la végétation ; le reste s'accumule dans l'atmosphère.
+
+```mermaid
+---
+config:
+  sankey:
+    suffix: " GtC"
+---
+sankey-beta
+
+Combustibles fossiles et ciment,CO₂ émis,10.1
+Changement d'usage des sols,CO₂ émis,1.0
+CO₂ émis,Reste dans l'atmosphère,5.9
+CO₂ émis,Absorbé par l'océan,2.9
+CO₂ émis,Absorbé par les sols et forêts,2.3
+```
+
+*Milliards de tonnes de carbone, année 2023. Global Carbon Budget 2024 (Friedlingstein et al., 2025).*
+
 **Feedbacks (Rétroactions)**
 - **Positifs (amplification)** :
   - Fonte glace → ↓ albédo (réflexivité) → + absorption chaleur

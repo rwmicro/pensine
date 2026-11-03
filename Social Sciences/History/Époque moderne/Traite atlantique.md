@@ -49,6 +49,36 @@ L'histoire quantitative de la traite a été profondément renouvelée par la ba
 | Principale destination | le Brésil, près de la moitié des arrivées |
 | Amérique du Nord continentale | moins de 5 % des arrivées |
 
+Le diagramme suit ces 12,5 millions de personnes, de leur région d'embarquement à leur lieu d'arrivée. La largeur de chaque flux est proportionnelle au nombre de captifs.
+
+```mermaid
+---
+config:
+  sankey:
+    suffix: " M"
+---
+sankey-beta
+
+Sénégambie,Traversée,0.76
+Sierra Leone,Traversée,0.39
+Côte du Vent,Traversée,0.34
+Côte de l'Or,Traversée,1.21
+Golfe du Bénin,Traversée,2.00
+Golfe du Biafra,Traversée,1.59
+Afrique centrale (Congo-Angola),Traversée,5.69
+Afrique du Sud-Est,Traversée,0.54
+Traversée,Brésil,4.86
+Traversée,Caraïbes britanniques,2.32
+Traversée,Amérique espagnole,1.29
+Traversée,Caraïbes françaises,1.12
+Traversée,Amériques néerlandaises,0.44
+Traversée,Amérique du Nord,0.39
+Traversée,Autres (Antilles danoises et retours),0.27
+Traversée,Morts en mer,1.82
+```
+
+*Millions de personnes, 1501-1866. Estimations Slave Voyages (Eltis et Richardson), arrondies.*
+
 Les pavillons les plus impliqués sont, dans l'ordre, le Portugal et le Brésil, puis la Grande-Bretagne, la France, l'Espagne, les Provinces-Unies. En France, Nantes est de loin le premier port négrier, devant La Rochelle, Le Havre et Bordeaux.
 
 Ces chiffres ne comptent que les personnes qui ont embarqué. Ils n'incluent ni les morts lors des guerres et razzias qui produisent les captifs, ni ceux qui périssent pendant les marches vers la côte et l'attente dans les forts et les baraquements, dont l'ampleur est beaucoup plus difficile à estimer.
