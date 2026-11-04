@@ -10,7 +10,7 @@ prerequis: ["[[Sociologie des Migrations]]", "[[Sociologie de la Déviance]]"]
 
 # Arguments contre l'extrême droite
 
-Le Rassemblement national (RN) et Reconquête, le parti d'Éric Zemmour, bâtissent l'essentiel de leur discours sur trois affirmations : l'immigration « submerge » la France, elle fait exploser la délinquance, et la justice est trop laxiste pour y répondre. Leurs programmes de 2022 en tirent des mesures : référendum sur l'immigration, « priorité nationale » inscrite dans la Constitution pour le logement social, l'emploi et les aides, suppression de l'aide médicale d'État (AME), retour des peines planchers, et pour Reconquête un « ministère de la Remigration ».
+Le Rassemblement national (RN) et Reconquête, le parti d'Éric Zemmour, bâtissent l'essentiel de leur discours sur trois affirmations : l'immigration « submerge » la France, elle fait exploser la délinquance, et la justice est trop laxiste pour y répondre. Leurs programmes de 2022 en tirent des mesures : référendum sur l'immigration, « priorité nationale » inscrite dans la Constitution pour le logement social, l'emploi et les aides, suppression de l'aide médicale d'État (AME), retour des peines planchers, et pour Reconquête un « ministère de la Remigration ». Le RN y ajoute un volet social : abrogation de la réforme des retraites, baisse de la TVA sur l'énergie, exonérations de cotisations pour les hausses de salaire.
 
 Cette note confronte chacune de ces affirmations aux chiffres de la statistique publique (Insee, ministère de l'Intérieur, ministère de la Justice, Conseil de l'Europe, OCDE). Elle ne nie pas ce que les chiffres montrent quand ils vont dans le sens de l'adversaire : un argument qui cache une donnée gênante se fait démonter au premier débat. La force des contre-arguments vient de leur précision.
 
@@ -171,6 +171,31 @@ Réserver le logement social, l'emploi ou certaines aides aux Français se heurt
 
 L'argument de fond est économique autant que juridique. Les étrangers en situation régulière paient les mêmes cotisations et les mêmes impôts que les Français : les exclure des prestations, c'est leur faire payer une assurance qui ne les couvre pas.
 
+L'Institut Montaigne a chiffré ces mesures pour les législatives de 2024 : réserver les allocations familiales aux foyers dont un parent est français économiserait environ 3,3 milliards d'euros par an, et réserver le RSA aux étrangers ayant travaillé cinq ans en France entre 0,6 et 2,6 milliards. Il relève dans les deux cas une « grande complexité juridique, politique et diplomatique »[^montaigne].
+
+## « Le RN est le parti du pouvoir d'achat »
+
+Le RN se présente comme le défenseur des classes populaires ; Reconquête, lui, assume un programme libéral (retraite à 64 ans, baisse des impôts des entreprises). La critique porte donc d'abord sur le RN, et elle tient en trois points : ses promesses sociales ne sont pas financées, il en reporte une partie dès qu'il approche du pouvoir, et il vote contre les hausses de salaire directes.
+
+**Les salaires.** Le 20 juillet 2022, l'Assemblée a examiné des amendements portant le SMIC à 1 500 euros net. Les 69 députés RN présents ont voté contre, un s'est abstenu, aucun n'a voté pour[^smic]. À la place, le RN propose d'exonérer de cotisations patronales les hausses de salaire de 10 % jusqu'à trois SMIC. L'Institut Montaigne chiffre la mesure à 0,8 milliard d'euros en 2025 et 12 milliards en 2029, et y voit de forts effets d'aubaine : les entreprises seraient payées pour des hausses qu'elles auraient accordées de toute façon. Une hausse financée par moins de cotisations est payée par la Sécurité sociale ou par l'État qui la compense, donc par le contribuable, et non par l'employeur.
+
+**Les retraites.** En 2022, Marine Le Pen promettait la retraite à 60 ans pour ceux qui ont commencé à travailler avant 20 ans, et le retour à 62 ans pour les autres. En juin 2024, Jordan Bardella a gardé la première mesure mais renvoyé la seconde à « après » l'audit des comptes publics. L'Institut Montaigne chiffre l'abrogation complète, telle qu'annoncée, à 34,7 milliards d'euros par an (entre 31,5 et 44,7)[^montaigne].
+
+**Le budget.** Toujours selon l'Institut Montaigne, le programme du RN aux législatives de 2024 aurait creusé le déficit public de 71 milliards d'euros par an. Les économies affichées reposent surtout sur l'immigration (8 milliards) et la privatisation de l'audiovisuel public (1,6 milliard), deux mesures dont la faisabilité juridique est incertaine. Celui d'Éric Zemmour en 2022 l'aurait creusé de 145,8 milliards par an, quand le candidat annonçait un excédent de 20 milliards.
+
+```widget:classer
+consigne: Classe ces mesures du programme du RN aux législatives de 2024 selon leur montant annuel estimé, coût ou économie (du plus gros au plus petit)
+elements: Retraites : abroger la réforme = 34.7; TVA sur l'énergie : baisse = 11.3; Immigration : économies attendues = 8; Audiovisuel public : privatisation = 1.6
+unite: milliards d'euros par an
+```
+
+Source : Institut Montaigne, chiffrage des programmes des législatives de 2024[^montaigne-global]. Les deux plus grosses lignes sont des dépenses, les deux plus petites sont les économies censées les financer.
+
+**La santé.** On entend parfois que le RN voudrait privatiser le système de santé : ce n'est pas dans son programme. En 2024, il promettait au contraire de supprimer les agences régionales de santé, de plafonner à 10 % les postes administratifs à l'hôpital et de mettre fin aux fermetures de lits. La critique sérieuse est ailleurs : dans les effectifs hospitaliers, les « administratifs » comprennent des métiers indispensables aux soins (secrétaires médicales, brancardiers, psychologues), que le plafond de 10 % menacerait, et la suppression de l'AME reporte sur l'hôpital public des soins plus tardifs et plus chers. La privatisation que le RN propose vraiment, c'est celle de l'audiovisuel public (France Télévisions, Radio France), pour une économie que l'Institut Montaigne estime à environ 2 milliards d'euros par an au mieux, au bout de trois à cinq ans.
+
+> [!tip] Réponse courte
+> « Le RN a voté contre le SMIC à 1 500 euros. Il promettait d'abroger la réforme des retraites, puis a renvoyé le retour à 62 ans à "après l'audit" dès qu'il a cru gouverner. Et son programme creusait le déficit de 71 milliards par an, avec des économies sur l'immigration que le Conseil constitutionnel a déjà censurées sous d'autres formes. »
+
 ## Les pièges à éviter
 
 Un contre-argument faux affaiblit tous les autres. Quelques formulations courantes à corriger :
@@ -181,6 +206,7 @@ Un contre-argument faux affaiblit tous les autres. Quelques formulations courant
 | « Les étrangers sont 14 % des délinquants » | 14 % des auteurs traités par les parquets en 2019, mais 18 % des mis en cause par la police la même année |
 | « Les étrangers ne commettent que des petits délits » | Les vols dominent, mais ils sont aussi surreprésentés dans les vols avec violence (28 %) |
 | « La criminalité baisse depuis 40 ans » | Vrai pour les homicides et les cambriolages ; faux pour les violences enregistrées, qui augmentent |
+| « Le RN veut privatiser la santé » | Ce n'est pas dans son programme ; il veut privatiser l'audiovisuel public. Attaquer plutôt le plafond de 10 % d'administratifs à l'hôpital et la suppression de l'AME |
 | « Il n'y a pas de lien entre immigration et délinquance » | Il y a une corrélation ; ce qui manque, c'est la preuve d'une causalité par la nationalité |
 
 ## Questions de révision
@@ -200,6 +226,12 @@ Un contre-argument faux affaiblit tous les autres. Quelques formulations courant
 > [!quiz] Quelle était la densité carcérale en France au 1er août 2026 ?
 > 141,6 % : 89 668 détenus pour 63 303 places.
 
+> [!quiz] Combien le programme du RN aux législatives de 2024 aurait-il ajouté au déficit public chaque année, selon l'Institut Montaigne ?
+> 71 milliards d'euros, dont environ 35 milliards pour l'abrogation de la réforme des retraites.
+
+> [!quiz] Comment les députés RN ont-ils voté sur le SMIC à 1 500 euros net, le 20 juillet 2022 ?
+> Contre (69 voix contre, une abstention, aucune pour). Le RN préfère exonérer de cotisations les hausses de salaire.
+
 > [!quiz] Que concluait le rapport Évin-Stefanini de décembre 2023 sur l'AME ?
 > Que c'est un dispositif sanitaire utile et globalement maîtrisé, à adapter mais pas à réduire aux urgences.
 
@@ -214,4 +246,7 @@ Un contre-argument faux affaiblit tous les autres. Quelques formulations courant
 [^bracelet]: Anaïs Henneguelle, Benjamin Monnery et Annie Kensey, « Better at Home than in Prison? The Effects of Electronic Monitoring on Recidivism in France », *Journal of Law and Economics*, vol. 59, n° 3, 2016.
 [^ocde]: OCDE, *Perspectives des migrations internationales 2021*, chapitre 4, « L'impact budgétaire de l'immigration dans les pays de l'OCDE depuis le milieu des années 2000 ». https://www.oecd.org/fr/publications/2021/10/international-migration-outlook-2021_ea4f9277/full-report/component-8.html
 [^ame]: Claude Évin et Patrick Stefanini, rapport sur l'aide médicale d'État, décembre 2023, présenté par LCP. https://lcp.fr/actualites/aide-medicale-d-etat-un-dispositif-utile-et-globalement-maitrise-qui-merite-d-etre
+[^montaigne]: Institut Montaigne, chiffrage des mesures du Rassemblement national pour les législatives de 2024. https://www.institutmontaigne.org/legislatives-2024/rassemblement-national
+[^montaigne-global]: Institut Montaigne, « Législatives 2024 : chiffrage global des programmes », juillet 2024 ; pour Éric Zemmour, synthèse des chiffrages de la présidentielle 2022. https://institutmontaigne.org/communiques-de-presse/legislatives-2024-chiffrage-global-des-programmes
+[^smic]: Assemblée nationale, scrutin du 20 juillet 2022 sur les amendements portant le SMIC à 1 500 euros net (projet de loi pouvoir d'achat), détail par groupe sur Datan. https://datan.fr/votes/legislature-16/vote_44
 [^cc]: Conseil constitutionnel, décision n° 89-269 DC du 22 janvier 1990 et décision n° 2024-6 RIP du 11 avril 2024.
