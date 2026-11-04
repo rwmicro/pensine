@@ -3,11 +3,12 @@ title: "Pourquoi la classe dominante soutient l'extrême droite plutôt que la g
 domain: "Social Sciences"
 subdomain: "Sociology > Débats"
 tags: [sociologie, politique, classe dominante, extrême droite, marxisme, gramsci, fascisme, histoire, bourgeoisie, privilèges]
-date: "2025-11-06"
+date: "2026-11-04"
+pays: France
 prerequis: ["[[Montée du nazisme]]", "[[Arguments contre l'extrême droite]]", "[[Sociologie Politique]]"]
 ---
 
-# Pourquoi la classe dominante soutient l'extrême droite plutôt que la gauche
+# Pourquoi la classe dominante soutient l'extrême droite plutôt que la gauche ?
 
 Cette note explique un **mécanisme historique et structurel** : la tendance des élites économiques et politiques à **soutenir des mouvements de droite ou d'extrême droite** plutôt qu'à accepter des réformes progressistes ou une révolution sociale qui menaceraient leurs privilèges. Ce phénomène s'observe dans de nombreux contextes, de l'Allemagne nazie à la France de Vichy, en passant par les dictatures sud-américaines et les démocraties contemporaines.
 
