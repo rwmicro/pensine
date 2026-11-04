@@ -31,14 +31,29 @@ Le mot « submersion » (Jordan Bardella) et la thèse du « grand remplacement 
 
 Deux mécanismes expliquent la remontée récente, et l'Insee les cite ensemble : l'immigration augmente, mais la population née en France croît moins vite, parce que la fécondité baisse. Une part qui monte ne veut pas dire un flux qui explose.
 
-La comparaison européenne remet aussi les choses à leur place. En comptant toutes les personnes nées à l'étranger (y compris les Français nés hors de France, d'où un chiffre plus élevé que celui des immigrés), la France est en dessous de ses grands voisins.
+Avant de lire la suite, dessine la courbe telle que tu l'imagines. Dans l'enquête *Perils of Perception* d'Ipsos publiée en 2018, les Français estimaient en moyenne à 27 % la part des immigrés, pour 12 % en réalité.
 
 ```widget:owid
 graphe: migrant-stock-share
-pays: France, Allemagne, Espagne, Royaume-Uni, Suède
+type: devine
+devine: 2000
+pays: France
 depuis: 1990
-titre: La France compte moins de personnes nées à l'étranger que ses grands voisins
-sous-titre: Personnes nées dans un autre pays, en % de la population (ONU, via Our World in Data)
+titre: Quelle part des habitants de la France est née à l'étranger ?
+sous-titre: Personnes nées dans un autre pays, Français nés hors de France compris, en % de la population (ONU, via Our World in Data)
+unite: %
+```
+
+Ce chiffre de l'ONU compte toutes les personnes nées à l'étranger, y compris les Français nés hors de France, d'où un résultat plus élevé que la part des immigrés. Avec la même mesure pour tous, la comparaison européenne remet les choses à leur place : la France est en dessous de ses grands voisins.
+
+```widget:owid
+graphe: migrant-stock-share
+type: pente
+annees: 1990, 2024
+pays: France, Allemagne, Espagne, Royaume-Uni, Suède
+mettre-en-avant: France
+titre: La France est le pays où la part des personnes nées à l'étranger a le moins augmenté
+sous-titre: Personnes nées dans un autre pays, en % de la population, 1990 et 2024 (ONU, via Our World in Data)
 unite: %
 ```
 
@@ -80,6 +95,30 @@ Source : SSMSI, base des mis en cause 2019, publiée par l'Insee[^insee-nat]. Le
 ### La « surincarcération » des étrangers
 
 Les étrangers pèsent 14 % des auteurs traités par la justice mais un quart des détenus. Cet écart entre 14 % et 25 % ne vient pas d'une délinquance plus grave : il vient du fonctionnement de la justice[^insee-nat].
+
+Jusqu'au procès, pourtant, les parquets traitent Français et étrangers presque de la même façon. Le diagramme suit les auteurs dont une affaire a été traitée en 2019 : environ 40 % des Français comme des étrangers finissent poursuivis devant un tribunal, et les bandes gardent les mêmes proportions à chaque sortie.
+
+```mermaid
+---
+config:
+  sankey:
+    suffix: " 000"
+---
+sankey-beta
+
+Auteurs français,Affaire non poursuivable,366
+Auteurs français,Classement sans suite,72
+Auteurs français,Alternative aux poursuites,432
+Auteurs français,Poursuites devant un tribunal,572
+Auteurs étrangers,Affaire non poursuivable,60
+Auteurs étrangers,Classement sans suite,16
+Auteurs étrangers,Alternative aux poursuites,89
+Auteurs étrangers,Poursuites devant un tribunal,108
+```
+
+*Auteurs traités par les parquets en 2019, en milliers (ministère de la Justice, fichier Cassiopée, publié par l'Insee). Les 212 000 auteurs de nationalité inconnue ne sont pas représentés. Les alternatives comprennent la composition pénale.*
+
+L'écart se creuse après, à deux moments :
 
 - **La détention provisoire.** Pour laisser un prévenu libre en attendant son procès, le juge exige des « garanties de représentation » : un domicile, un emploi, de la famille en France (article 144 du code de procédure pénale). Un étranger sans adresse stable ne les a pas. Au 1er janvier 2020, 35 % des étrangers écroués étaient en détention provisoire, contre 26 % des Français.
 - **Les peines.** Les tribunaux prononcent plus souvent une amende contre un Français (34 % des condamnés) que contre un étranger (29 %), et plus souvent de la prison ferme contre un étranger (31 % contre 23 %). Les aménagements de peine (bracelet électronique, semi-liberté) supposent eux aussi un domicile et un travail.
@@ -146,15 +185,22 @@ Source : Conseil de l'Europe, SPACE I 2024. La France est donc au-dessus de la m
 affirmation: L'Allemagne est plus sévère que la France : elle enferme davantage.
 reponse: faux
 explication: En janvier 2024, l'Allemagne comptait 71 détenus pour 100 000 habitants, contre 111,5 en France, pour un taux d'homicide plus bas (0,9 contre 1,3 pour 100 000 en 2023). Plus de prison ne garantit pas moins de violence.
-graphe: homicide-rate-unodc
-pays: France, Allemagne
-depuis: 1990
-titre: L'Allemagne enferme moins que la France et compte moins d'homicides
-sous-titre: Homicides volontaires pour 100 000 habitants (ONUDC, via Our World in Data)
-unite: pour 100 000
 ```
 
 **Les peines planchers ont déjà été essayées.** La loi du 10 août 2007 imposait une peine minimale aux récidivistes. Entre 2007 et 2011, 35 000 peines planchers ont été prononcées[^planchers]. Le ministère de la Justice les a jugées « non pertinentes en matière de sécurité », contraires à l'individualisation des peines et dotées d'un « effet certain sur la surpopulation carcérale » ; elles ont été abrogées par la loi du 15 août 2014. À l'inverse, l'économie du crime montre que le bracelet électronique, à profil de condamné comparable, réduit la récidive par rapport à la prison ferme[^bracelet] : la prison surpeuplée fabrique de la récidive.
+
+La frise met côte à côte les peines planchers et le nombre de détenus. Les peines minimales ne sont pas la seule cause de la hausse, mais elles y ont contribué, et leur abrogation n'a pas vidé les prisons : le nombre de détenus a continué de monter depuis.
+
+```mermaid
+timeline
+    title Peines planchers et nombre de détenus
+    2007 : 1er janvier, 58 402 détenus : 10 août, loi instaurant les peines planchers
+    2007-2011 : 35 000 peines planchers prononcées
+    2014 : 1er janvier, 67 075 détenus, soit 15 % de plus qu'en 2007 : 15 août, abrogation des peines planchers
+    2026 : 1er août, 89 668 détenus pour 63 303 places
+```
+
+*Sources : ministère de la Justice, statistiques de la population carcérale au 1er janvier 2007 et au 1er janvier 2014, mesure mensuelle au 1er août 2026 ; réponse à la question écrite n° 831.*
 
 > [!tip] Réponse courte
 > « Laxiste ? La France bat chaque mois son record de détenus, 141 % de taux d'occupation, 8 000 matelas au sol. Elle enferme plus que l'Italie et une fois et demie plus que l'Allemagne. Les peines planchers, on les a eues de 2007 à 2014 : elles ont rempli les prisons sans faire baisser la récidive. »
@@ -209,6 +255,15 @@ Un contre-argument faux affaiblit tous les autres. Quelques formulations courant
 | « Le RN veut privatiser la santé » | Ce n'est pas dans son programme ; il veut privatiser l'audiovisuel public. Attaquer plutôt le plafond de 10 % d'administratifs à l'hôpital et la suppression de l'AME |
 | « Il n'y a pas de lien entre immigration et délinquance » | Il y a une corrélation ; ce qui manque, c'est la preuve d'une causalité par la nationalité |
 
+## S'entraîner à répondre
+
+Chaque slogan a son chiffre. Associe-les avant un débat.
+
+```widget:associer
+consigne: Associe chaque slogan au chiffre qui lui répond.
+paires: « Submersion migratoire » = 13,8 % de personnes nées à l'étranger, moins qu'en Allemagne (19,8 %) | « Ensauvagement » = Taux d'homicide en baisse de 43 % depuis 1990 | « Laxisme judiciaire » = 141,6 % de densité carcérale, un record | « Les étrangers, c'est la délinquance » = Surreprésentés, mais d'abord parce que plus jeunes, plus souvent des hommes et plus pauvres | « L'AME coûte une fortune » = Moins de 0,5 % des dépenses de l'assurance maladie | « Le parti du pouvoir d'achat » = Contre le SMIC à 1 500 euros net en 2022
+```
+
 ## Questions de révision
 
 > [!quiz] Quelle est la différence entre un immigré et un étranger ?
@@ -235,18 +290,18 @@ Un contre-argument faux affaiblit tous les autres. Quelques formulations courant
 > [!quiz] Que concluait le rapport Évin-Stefanini de décembre 2023 sur l'AME ?
 > Que c'est un dispositif sanitaire utile et globalement maîtrisé, à adapter mais pas à réduire aux urgences.
 
-[^insee-pop]: Insee, « L'essentiel sur les immigrés et les étrangers », juin 2026 (données provisoires pour 2024 et 2025, rupture de série en 2024). https://www.insee.fr/fr/statistiques/3633212
-[^insee-nat]: Insee, « Auteurs selon la nationalité », *Sécurité et société*, Insee Références, édition 2021 (données SSMSI et ministère de la Justice 2019). https://www.insee.fr/fr/statistiques/5763585
-[^ssmsi]: SSMSI, bilan annuel *Insécurité et délinquance*, ministère de l'Intérieur ; chiffres rapportés par Sud Radio. https://www.sudradio.fr/faits-divers/38-des-cambriolages-causes-par-des-delinquants-etrangers
-[^kuhn]: André Kuhn, « La criminalité des étrangers », *Bulletin d'information infoPrisons* n° 7. https://infoprisons.ch/wp-content/uploads/2020/11/bulletin_7_criminalite-etrangers-vivre_ensemble2012-09-no139.pdf
-[^cesdip]: CESDIP, « Observer dans la durée les cambriolages », janvier 2026 (enquêtes CESDIP 1984-1985, EPCV, CVS). https://oscj2.cesdip.fr/wp-content/uploads/2026/01/Observer-dans-la-duree-les-cambriolages.pdf
-[^justice]: Ministère de la Justice, mesure mensuelle de l'incarcération au 1er août 2026. https://www.justice.gouv.fr/sites/default/files/2026-08/mesure_mensuelle_01082026.pdf
-[^space]: Conseil de l'Europe et université de Lausanne, SPACE I 2024, statistiques pénales annuelles (situation au 31 janvier 2024). https://wp.unil.ch/space/files/2025/09/250924_rapport-space-i-2024.pdf
-[^planchers]: Réponse du ministère de la Justice à la question écrite n° 831, Assemblée nationale, 2013. https://www.assemblee-nationale.fr/dyn/14/questions/QANR5L14QE831
+[^insee-pop]: Insee, « L'essentiel sur les immigrés et les étrangers », juin 2026 (données provisoires pour 2024 et 2025, rupture de série en 2024). [insee.fr](https://www.insee.fr/fr/statistiques/3633212)
+[^insee-nat]: Insee, « Auteurs selon la nationalité », *Sécurité et société*, Insee Références, édition 2021 (données SSMSI et ministère de la Justice 2019). [insee.fr](https://www.insee.fr/fr/statistiques/5763585)
+[^ssmsi]: SSMSI, bilan annuel *Insécurité et délinquance*, ministère de l'Intérieur ; chiffres rapportés par Sud Radio. [sudradio.fr](https://www.sudradio.fr/faits-divers/38-des-cambriolages-causes-par-des-delinquants-etrangers)
+[^kuhn]: André Kuhn, « La criminalité des étrangers », *Bulletin d'information infoPrisons* n° 7. [infoprisons.ch](https://infoprisons.ch/wp-content/uploads/2020/11/bulletin_7_criminalite-etrangers-vivre_ensemble2012-09-no139.pdf)
+[^cesdip]: CESDIP, « Observer dans la durée les cambriolages », janvier 2026 (enquêtes CESDIP 1984-1985, EPCV, CVS). [oscj2.cesdip.fr](https://oscj2.cesdip.fr/wp-content/uploads/2026/01/Observer-dans-la-duree-les-cambriolages.pdf)
+[^justice]: Ministère de la Justice, mesure mensuelle de l'incarcération au 1er août 2026. [justice.gouv.fr](https://www.justice.gouv.fr/sites/default/files/2026-08/mesure_mensuelle_01082026.pdf)
+[^space]: Conseil de l'Europe et université de Lausanne, SPACE I 2024, statistiques pénales annuelles (situation au 31 janvier 2024). [wp.unil.ch](https://wp.unil.ch/space/files/2025/09/250924_rapport-space-i-2024.pdf)
+[^planchers]: Réponse du ministère de la Justice à la question écrite n° 831, Assemblée nationale, 2013. [assemblee-nationale.fr](https://www.assemblee-nationale.fr/dyn/14/questions/QANR5L14QE831)
 [^bracelet]: Anaïs Henneguelle, Benjamin Monnery et Annie Kensey, « Better at Home than in Prison? The Effects of Electronic Monitoring on Recidivism in France », *Journal of Law and Economics*, vol. 59, n° 3, 2016.
-[^ocde]: OCDE, *Perspectives des migrations internationales 2021*, chapitre 4, « L'impact budgétaire de l'immigration dans les pays de l'OCDE depuis le milieu des années 2000 ». https://www.oecd.org/fr/publications/2021/10/international-migration-outlook-2021_ea4f9277/full-report/component-8.html
-[^ame]: Claude Évin et Patrick Stefanini, rapport sur l'aide médicale d'État, décembre 2023, présenté par LCP. https://lcp.fr/actualites/aide-medicale-d-etat-un-dispositif-utile-et-globalement-maitrise-qui-merite-d-etre
-[^montaigne]: Institut Montaigne, chiffrage des mesures du Rassemblement national pour les législatives de 2024. https://www.institutmontaigne.org/legislatives-2024/rassemblement-national
-[^montaigne-global]: Institut Montaigne, « Législatives 2024 : chiffrage global des programmes », juillet 2024 ; pour Éric Zemmour, synthèse des chiffrages de la présidentielle 2022. https://institutmontaigne.org/communiques-de-presse/legislatives-2024-chiffrage-global-des-programmes
-[^smic]: Assemblée nationale, scrutin du 20 juillet 2022 sur les amendements portant le SMIC à 1 500 euros net (projet de loi pouvoir d'achat), détail par groupe sur Datan. https://datan.fr/votes/legislature-16/vote_44
+[^ocde]: OCDE, *Perspectives des migrations internationales 2021*, chapitre 4, « L'impact budgétaire de l'immigration dans les pays de l'OCDE depuis le milieu des années 2000 ». [oecd.org](https://www.oecd.org/fr/publications/2021/10/international-migration-outlook-2021_ea4f9277/full-report/component-8.html)
+[^ame]: Claude Évin et Patrick Stefanini, rapport sur l'aide médicale d'État, décembre 2023, présenté par LCP. [lcp.fr](https://lcp.fr/actualites/aide-medicale-d-etat-un-dispositif-utile-et-globalement-maitrise-qui-merite-d-etre)
+[^montaigne]: Institut Montaigne, chiffrage des mesures du Rassemblement national pour les législatives de 2024. [institutmontaigne.org](https://www.institutmontaigne.org/legislatives-2024/rassemblement-national)
+[^montaigne-global]: Institut Montaigne, « Législatives 2024 : chiffrage global des programmes », juillet 2024 ; pour Éric Zemmour, synthèse des chiffrages de la présidentielle 2022. [institutmontaigne.org](https://institutmontaigne.org/communiques-de-presse/legislatives-2024-chiffrage-global-des-programmes)
+[^smic]: Assemblée nationale, scrutin du 20 juillet 2022 sur les amendements portant le SMIC à 1 500 euros net (projet de loi pouvoir d'achat), détail par groupe sur Datan. [datan.fr](https://datan.fr/votes/legislature-16/vote_44)
 [^cc]: Conseil constitutionnel, décision n° 89-269 DC du 22 janvier 1990 et décision n° 2024-6 RIP du 11 avril 2024.
