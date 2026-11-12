@@ -10,79 +10,55 @@ parcours-description: "La théorie musicale, l'acoustique, les instruments et l'
 
 # Théorie Musicale Fondamentale
 
+La théorie musicale n'est pas un règlement qui dirait comment la musique doit sonner. C'est une grammaire qui décrit comment elle fonctionne : pourquoi certaines notes semblent aller ensemble, pourquoi un accord paraît appeler une suite, pourquoi une chanson nous donne l'impression d'être finie. Cette note part du son lui-même, puis monte pas à pas : écrire les notes, mesurer leurs distances, les ranger en gammes, les empiler en accords, enfin organiser une œuvre entière.
 
-### Le Son et ses Propriétés
+## Le son et ses quatre paramètres
 
-**Quatre paramètres du son:**
-- **Hauteur (pitch):** Fréquence en Hertz (Hz)
-  - La 440 Hz = référence internationale (diapason)
-  - Doublement de fréquence = octave
-- **Intensité (volume):** Amplitude, mesurée en décibels (dB)
-- **Timbre:** Couleur sonore, harmoniques
-- **Durée:** Longueur temporelle du son
+Tout son musical se décrit par quatre qualités. La **hauteur** dit s'il est grave ou aigu ; elle dépend de la fréquence de la vibration, mesurée en hertz (Hz). Le *la* qui sert de référence pour accorder les orchestres, le diapason, vibre à 440 Hz. Quand on double une fréquence, on obtient la même note une **octave** plus haut : le *la* suivant vibre à 880 Hz. L'**intensité** dit si le son est fort ou faible, la **durée** combien de temps il dure. Le **timbre**, enfin, est ce qui distingue un *la* de violon d'un *la* de flûte à hauteur égale. Il vient des **harmoniques** : un son réel n'est jamais une fréquence pure, mais une fondamentale accompagnée de fréquences multiples (deux fois, trois fois, quatre fois plus élevées) dont le dosage varie selon l'instrument. Ces harmoniques expliquent aussi en partie pourquoi certaines notes sonnent bien ensemble (voir [[Acoustique et Physique du Son]]).
 
-**Harmoniques:**
-- Série harmonique: fondamentale + multiples entiers
-- Détermine le timbre d'un instrument
-- Base de la consonance/dissonance
+## Écrire la musique
 
-### Notation Musicale
+Les notes s'écrivent sur une **portée** de cinq lignes. Plus une note est haute sur la portée, plus elle est aiguë ; quand elle sort du cadre, on ajoute de petites lignes supplémentaires. Le signe placé au début, la **clé**, indique quelle note correspond à quelle ligne : la clé de sol sert aux instruments aigus, la clé de fa aux graves, les clés d'ut aux registres intermédiaires comme l'alto.
 
-**Portée:**
-- 5 lignes, 4 interlignes
-- Clés: Sol (treble), Fa (bass), Ut (C clefs)
-- Lignes supplémentaires pour notes extrêmes
+Les sept notes portent des noms différents selon les pays. Le monde latin dit *do ré mi fa sol la si*, le monde anglo-saxon les désigne par des lettres, *C D E F G A B*, en commençant par le *do*. L'allemand ajoute une subtilité : son *B* désigne le *si* bémol, et le *si* naturel s'appelle *H*, ce qui a permis à Bach de signer en notes, *B-A-C-H*.
 
-**Notes:**
-- Systèmes:
-  - Anglo-saxon: C D E F G A B
-  - Latin: Do Ré Mi Fa Sol La Si
-  - Allemand: C D E F G A H (Si♭ = B)
-- Altérations: ♯ (dièse, +1/2 ton), ♭ (bémol, -1/2 ton), ♮ (bécarre, annule)
-- Enharmonie: Do♯ = Ré♭ (même son, noms différents)
+Entre certaines notes voisines, il existe une note intermédiaire. Le **dièse** (♯) élève une note d'un demi-ton, le **bémol** (♭) l'abaisse, le **bécarre** (♮) annule l'altération. *Do*♯ et *ré*♭ tombent ainsi sur la même touche du piano : on parle d'**enharmonie**.
 
 > [!warning] Piège
 > "Même son, noms différents" n'est vrai qu'en tempérament égal (le compromis moderne, cf. [[Baroque]]). En intonation juste — accordage basé sur les ratios purs de [[Musique Antique|Pythagore]] — Do♯ et Ré♭ sont deux fréquences légèrement différentes. L'enharmonie est une commodité de notation devenue réalité acoustique seulement parce qu'on a uniformisé l'accordage.
 
-**Rythme:**
-- **Valeurs de notes:**
-  - Ronde (whole note) = 4 temps
-  - Blanche (half note) = 2 temps
-  - Noire (quarter note) = 1 temps
-  - Croche (eighth note) = 1/2 temps
-  - Double croche (sixteenth) = 1/4 temps
-  - Point: ajoute la moitié de la valeur
-  - Triolet: 3 notes dans l'espace de 2
+## Le rythme : durées, mesure, tempo
 
-- **Mesure (time signature):**
-  - 4/4 (common time) - 4 noires par mesure
-  - 3/4 (valse)
-  - 6/8 (binaire composé)
-  - 5/4, 7/8 (mesures irrégulières)
+La forme d'une note indique sa durée relative. Chaque figure vaut la moitié de la précédente :
 
-- **Tempo:**
-  - Largo (lent), Adagio, Andante, Moderato, Allegro, Presto (rapide)
-  - BPM (battements par minute)
+| Figure | Nom anglais | Durée (en temps, mesure à 4/4) |
+|---|---|---|
+| Ronde | whole note | 4 |
+| Blanche | half note | 2 |
+| Noire | quarter note | 1 |
+| Croche | eighth note | 1/2 |
+| Double croche | sixteenth note | 1/4 |
 
-### Intervalles
+Un point placé après une note l'allonge de la moitié de sa valeur : une blanche pointée vaut trois temps. Un **triolet** loge trois notes dans la durée de deux.
 
-**Distance entre deux notes:**
-- **Unisson** (0 demi-ton)
-- **Seconde** (majeure 2, mineure 1)
-- **Tierce** (majeure 4, mineure 3)
-- **Quarte juste** (5)
-- **Quinte juste** (7)
-- **Sixte** (majeure 9, mineure 8)
-- **Septième** (majeure 11, mineure 10)
-- **Octave** (12)
+Ces durées se groupent en **mesures**, indiquées par une fraction en début de morceau. En 4/4, la plus courante, chaque mesure contient quatre noires ; en 3/4, trois, avec l'élan tournoyant de la valse. En 6/8, les six croches se groupent par trois, en deux grands temps balancés. Les mesures irrégulières comme 5/4 ou 7/8 donnent une sensation boiteuse, qu'on retrouve dans les musiques des Balkans. Le **tempo**, enfin, fixe la vitesse : on l'indique en battements par minute (BPM) ou par des termes italiens, du très lent *largo* au très rapide *presto*, en passant par *adagio*, *andante*, *moderato* et *allegro*.
 
-**Qualités:**
-- Consonants: unisson, octave, quinte, quarte
-- Dissonants: secondes, septièmes, triton (4e augmentée)
+## Les intervalles : mesurer la distance entre deux notes
 
-**Inversions:**
-- Renverser un intervalle: 9 - intervalle original
-- Tierce majeure → Sixte mineure
+L'**intervalle** est la distance entre deux notes. On le nomme en comptant les notes de la gamme, la première incluse : de *do* à *mi*, on compte *do*, *ré*, *mi*, soit une tierce. Comme il y a des tierces plus ou moins grandes, on précise en demi-tons :
+
+| Intervalle | Demi-tons | Exemple depuis do |
+|---|---|---|
+| Seconde mineure / majeure | 1 / 2 | ré♭ / ré |
+| Tierce mineure / majeure | 3 / 4 | mi♭ / mi |
+| Quarte juste | 5 | fa |
+| Triton (quarte augmentée) | 6 | fa♯ |
+| Quinte juste | 7 | sol |
+| Sixte mineure / majeure | 8 / 9 | la♭ / la |
+| Septième mineure / majeure | 10 / 11 | si♭ / si |
+| Octave | 12 | do |
+
+Certains intervalles sonnent stables et fondus, ce sont les **consonances** : octave, quinte, quarte, tierces et sixtes. D'autres sonnent tendus et réclament une suite, ce sont les **dissonances** : secondes, septièmes et surtout le triton, longtemps surnommé « le diable en musique ». Si l'on renverse un intervalle en passant la note grave à l'octave supérieure, les deux chiffres font toujours neuf : une tierce majeure devient une sixte mineure.
 
 ```widget:intervalle
 interval: Quinte juste
@@ -90,133 +66,42 @@ interval: Quinte juste
 
 La quinte tempérée n'est pas la quinte juste : elle en diffère de deux cents, ce qui paraît négligeable jusqu'à ce qu'on les superpose. Les deux fréquences produisent alors une pulsation lente, environ un demi-battement par seconde — **c'est exactement ce qu'écoute un accordeur**. Sur la tierce majeure, l'écart atteint quatorze cents et devient franchement audible : c'est le prix payé pour pouvoir jouer dans toutes les tonalités avec douze notes.
 
-### Gammes et Modes
+## Gammes et modes
 
-**Gamme majeure:**
-- Structure: Ton - Ton - 1/2ton - Ton - Ton - Ton - 1/2ton
-- Do majeur: Do Ré Mi Fa Sol La Si Do
-- Caractère: joyeux, lumineux
+Une **gamme** est une suite de notes rangées dans un ordre précis de tons et de demi-tons. Ce n'est pas le choix des notes de départ qui lui donne son caractère, mais cet ordre. La **gamme majeure** suit le schéma ton, ton, demi-ton, ton, ton, ton, demi-ton : en partant de *do*, cela donne les seules touches blanches du piano. Elle sonne lumineuse et affirmée.
 
-**Gamme mineure:**
-- **Naturelle:** La Si Do Ré Mi Fa Sol La
-- **Harmonique:** + 7e degré élevé (Sol♯)
-- **Mélodique:** + 6e et 7e élevés en montant, naturelle en descendant
-- Caractère: triste, sombre, dramatique
+La **gamme mineure** naturelle part du *la* sur les mêmes touches blanches, mais l'ordre des demi-tons change, et avec lui la couleur, plus sombre ou mélancolique. Elle a un défaut : sa septième note est trop éloignée de la tonique pour l'« attirer ». On élève donc souvent cette note d'un demi-ton (*sol*♯ en *la* mineur), ce qui donne la gamme mineure **harmonique** ; la gamme mineure **mélodique** élève aussi la sixième en montant pour adoucir le saut ainsi créé.
 
-**Modes grecs (médiévaux):**
-- **Ionien** = majeur (Do)
-- **Dorien** (Ré) - mineur avec 6e majeure
-- **Phrygien** (Mi) - mineur avec 2e mineure (flamenco)
-- **Lydien** (Fa) - majeur avec 4e augmentée
-- **Mixolydien** (Sol) - majeur avec 7e mineure (rock, blues)
-- **Éolien** (La) = mineur naturel
-- **Locrien** (Si) - instable, rarement utilisé
+Si l'on joue les touches blanches en partant de chacune des sept notes, on obtient sept **modes**, hérités du chant médiéval et nommés d'après des noms grecs. Le mode de *do* (ionien) est notre majeur et celui de *la* (éolien) notre mineur. Les autres ont chacun leur saveur : le **dorien** (de *ré*), mineur à la sixte lumineuse, est cher au jazz modal ; le **phrygien** (de *mi*), avec son demi-ton initial, évoque le flamenco ; le **lydien** (de *fa*), majeur à la quarte augmentée, sonne rêveur ; le **mixolydien** (de *sol*), majeur à la septième abaissée, est partout dans le rock et le blues ; le **locrien** (de *si*), trop instable, reste rare.
 
-**Autres gammes:**
-- **Pentatonique majeure:** 5 notes (Do Ré Mi Sol La)
-- **Pentatonique mineure:** La Do Ré Mi Sol (blues, rock)
-- **Blues:** Pentatonique mineure + blue notes (♭3, ♭5, ♭7)
-- **Chromatique:** 12 demi-tons
-- **Gamme par tons:** Debussy, impressionnisme
-- **Gammes exotiques:** Hongroise, Espagnole, etc.
+D'autres échelles complètent la palette. Les gammes **pentatoniques**, à cinq notes sans demi-ton (*do ré mi sol la*), se retrouvent dans les musiques du monde entier ; la pentatonique mineure, enrichie de **blue notes** abaissées, fonde la gamme de blues. La gamme **chromatique** contient les douze demi-tons, et la gamme **par tons**, sans demi-ton du tout, donne à Debussy ses atmosphères flottantes.
 
-### Harmonie
+## L'harmonie : empiler et enchaîner les notes
 
-**Accords:**
-- **Triade majeure:** Fondamentale + tierce majeure + quinte juste (Do Mi Sol)
-- **Triade mineure:** Fondamentale + tierce mineure + quinte juste (Do Mi♭ Sol)
-- **Accord diminué:** Tierces mineures (Do Mi♭ Sol♭)
-- **Accord augmenté:** Tierces majeures (Do Mi Sol♯)
+Un **accord** est un ensemble de notes jouées ensemble. Le plus simple, la **triade**, superpose deux tierces sur une note fondamentale. Selon la taille de ces tierces, on obtient quatre couleurs : l'accord **majeur** (*do mi sol*, tierce majeure puis mineure), l'accord **mineur** (*do mi*♭ *sol*), l'accord **diminué**, fait de deux tierces mineures (*do mi*♭ *sol*♭), et l'accord **augmenté**, fait de deux tierces majeures (*do mi sol*♯).
 
-**Accords de septième:**
-- **Dominant 7** (V7): Do Mi Sol Si♭ - tension vers résolution
-- **Majeur 7** (Δ7): Do Mi Sol Si - jazz, doux
-- **Mineur 7** (m7): Do Mi♭ Sol Si♭
-- **Demi-diminué** (ø7): Do Mi♭ Sol♭ Si♭
-- **Diminué 7** (°7): Do Mi♭ Sol♭ La (Si♭♭)
+En ajoutant une tierce de plus, on obtient les accords de **septième**. Le plus important est la **septième de dominante** (*sol si ré fa* en *do* majeur), dont la tension appelle irrésistiblement l'accord de tonique. Le jazz affectionne la septième majeure, plus douce, et pousse l'empilement jusqu'aux neuvièmes, onzièmes et treizièmes.
 
-**Extensions:**
-- 9e, 11e, 13e - jazz, musique contemporaine
-- Altérations: ♭9, ♯9, ♯11, ♭13
-
-**Fonctions harmoniques:**
-- **Tonique (I):** Repos, stabilité
-- **Dominante (V):** Tension, appel à résolution
-- **Sous-dominante (IV):** Préparation
-- Cadences:
-  - Parfaite: V → I (conclusive)
-  - Plagale: IV → I ("Amen")
-  - Rompue: V → vi (surprise)
-  - Évitée: V → autre que I
+Ce qui fait avancer la musique tonale, c'est la **fonction** de chaque accord. L'accord bâti sur la première note de la gamme, la **tonique** (noté I), est le point de repos. Celui de la cinquième note, la **dominante** (V), crée une tension qui demande à revenir à la tonique. Celui de la quatrième, la **sous-dominante** (IV), prépare cette tension. Une phrase musicale se termine sur une **cadence** : la cadence **parfaite** (V puis I) conclut fermement, la cadence **plagale** (IV puis I) est l'« Amen » des fins de cantiques, la cadence **rompue** (V puis vi) trompe l'oreille qui attendait le repos.
 
 > [!important] Idée clé
 > Toute la syntaxe tonale (tension puis résolution) repose sur la relation dominante→tonique — et c'est justement ce que les modes grecs (Dorien, Phrygien, Mixolydien, décrits plus haut à propos de la [[Musique Antique]]) n'ont pas de la même façon : sans sensible qui "tire" fortement vers la tonique, ils ne créent pas cet appel à la résolution. C'est pour ça que le blues ou le rock en mode mixolydien "flotte" différemment d'une progression tonale classique.
 
-**Progressions harmoniques courantes:**
-- **I - IV - V - I** (blues, rock)
-- **I - V - vi - IV** ("progression pop" - Pachelbel, Axis of Awesome)
-- **ii - V - I** (jazz standard)
-- **I - vi - IV - V** (années 1950-60)
-- **Circle of fifths progression**
+Quelques enchaînements d'accords reviennent sans cesse. I-IV-V-I est l'ossature du blues et du rock'n'roll ; I-V-vi-IV, la « progression pop », porte des centaines de chansons, comme l'a montré un célèbre sketch du groupe Axis of Awesome ; ii-V-I est la cellule de base du jazz. Pour changer de tonalité en cours de route, la **modulation**, on passe souvent par un accord commun aux deux tonalités, qui sert de pivot.
 
-**Modulation:**
-- Changement de tonalité
-- Par note commune (pivot)
-- Par dominante secondaire
-- Enharmonique
+## Le contrepoint : faire chanter plusieurs lignes
 
-### Contrepoint
+L'harmonie pense la musique verticalement, accord par accord. Le **contrepoint** la pense horizontalement : comme plusieurs mélodies indépendantes qui se superposent et doivent rester belles chacune pour son compte. Ses règles classiques, fixées d'après le style de Palestrina, visent cette indépendance. On évite que deux voix avancent en quintes ou en octaves parallèles, car elles se fondraient en une seule ; on privilégie le mouvement contraire ; on prépare et on résout les dissonances. Les élèves l'apprennent par **espèces** de difficulté croissante : note contre note, puis deux notes contre une, quatre contre une, syncopes, et enfin style fleuri libre.
 
-**Définition:**
-- Combinaison de lignes mélodiques indépendantes
-- Polyphonie
-
-**Règles (strictes - XVIe siècle):**
-- Interdiction de quintes/octaves parallèles
-- Mouvement contraire privilégié
-- Résolution des dissonances
-- Indépendance rythmique et mélodique
-
-**Espèces:**
-- 1ère espèce: Note contre note
-- 2e: 2 notes contre 1
-- 3e: 4 notes contre 1
-- 4e: Syncopes
-- 5e: Style fleuri (libre)
-
-**Formes contrapuntiques:**
-- **Canon:** Imitation stricte décalée
-- **Fugue:** Forme complexe avec sujet, réponse, contre-sujet
-  - Exposition, développement, strette
+Deux formes en sont nées. Le **canon** fait reprendre exactement la même mélodie par chaque voix, avec un décalage, comme dans *Frère Jacques*. La **fugue**, sommet de l'art de Bach, part d'un thème, le sujet, que chaque voix expose tour à tour, puis le développe librement.
 
 > [!tip] Méthode
 > Ne pas confondre canon et fugue malgré leur air de famille (les deux font entrer les voix en imitation décalée) : le canon reprend le même matériau à l'identique du début à la fin (comme *Frère Jacques*), tandis que la fugue développe librement son sujet après l'exposition — épisodes, contre-sujets, modulations — la fugue est une forme, le canon une technique stricte.
 
-### Forme Musicale
+## La forme : organiser une œuvre entière
 
-**Formes binaires et ternaires:**
-- **Forme binaire:** AB (baroque, danses)
-- **Forme ternaire:** ABA (da capo aria, menuet-trio)
-- **Rondo:** ABACA
+Une œuvre se construit, comme un récit, avec des retours et des contrastes. Les formes les plus simples se notent par des lettres. La forme **binaire** (AB) fait se succéder deux parties, comme dans les danses baroques ; la forme **ternaire** (ABA) fait revenir la première après un contraste, comme le menuet et son trio ; le **rondo** (ABACA) fait revenir un refrain entre des couplets.
 
-**Forme sonate:**
-- Structure fondamentale de la musique classique
-- **Exposition:** Thème 1 (tonique) - Transition - Thème 2 (dominante)
-- **Développement:** Manipulation des thèmes, modulations
-- **Réexposition:** Thème 1 et 2 en tonique
-- Utilisée dans: mouvements de symphonie, sonate, concerto
+La plus élaborée est la **forme sonate**, cœur de la musique classique. Elle expose deux thèmes contrastés dans deux tonalités, les développe en les faisant voyager, puis les réexpose tous deux dans la tonalité principale, ce qui résout la tension créée au départ (voir [[Classicisme]]). On la trouve dans le premier mouvement de la plupart des symphonies, sonates, quatuors et concertos.
 
-**Variations:**
-- Thème et variations
-- Passacaille, chaconne (baroque)
-
-**Suite:**
-- Succession de danses (baroque)
-- Allemande, Courante, Sarabande, Gigue
-- + Menuet, Gavotte, Bourrée, etc.
-
-**Autres formes:**
-- Fantaisie, Prélude, Toccata
-- Étude (technique)
-- Nocturne, Ballade, Impromptu (romantisme)
-
+D'autres principes organisent la musique. Les **variations** transforment un thème de multiples façons ; la passacaille et la chaconne baroques varient sans fin une même basse. La **suite** baroque enchaîne des danses de caractères différents, allemande, courante, sarabande et gigue. Le XIXe siècle préfère des formes libres aux titres évocateurs, nocturne, ballade, impromptu, où la forme naît de l'expression plutôt que l'inverse.
