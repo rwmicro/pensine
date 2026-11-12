@@ -146,3 +146,42 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Azéri/02-Communication/Salu
 | ![Günorta](audio/az_male_ac34eb850796.mp3) | Midi |
 | ![Axşam](audio/az_male_bd6aad4739e2.mp3) | Soir |
 | ![Gecə](audio/az_male_484f7cd56758.mp3) | Nuit |
+
+## Exercices
+
+> [!traduire] Je ne comprends pas.
+> Başa düşmürəm.
+> piège: düşürəm, yox
+> vers: azéri
+>
+> Sans *-mə-*, *başa düşürəm* veut dire « je comprends ».
+
+> [!traduire] Où sont les toilettes ?
+> Tualet haradadır?
+> piège: nədir, nə
+> vers: azéri
+
+> [!traduire] Çox bahadır.
+> C'est trop cher.
+> piège: loin, délicieux
+> vers: français
+
+> [!associer] Relie chaque mot à son sens.
+> | Azéri | Français |
+> |---|---|
+> | Bu gün | Aujourd'hui |
+> | Dünən | Hier |
+> | Sabah | Demain |
+> | İndi | Maintenant |
+> | Sonra | Plus tard |
+> | Səhər | Matin |
+> | Axşam | Soir |
+> | Gecə | Nuit |
+
+> [!quiz] Entre amis, comment dit-on « non » ?
+> - [ ] *Xeyr*
+>   Le « non » formel.
+> - [ ] *Hə*
+>   C'est « oui ».
+> - [x] *Yox*
+>   Le « non » courant.

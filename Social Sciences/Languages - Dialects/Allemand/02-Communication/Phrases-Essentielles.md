@@ -204,3 +204,42 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Allemand/02-Communication/Sa
 | ![Wo ist ein Geldautomat?](audio/de_male_6245e0ebf9d1.mp3) | Où est le distributeur ? |
 | ![Kann ich hier fotografieren?](audio/de_male_0b13fedc74e8.mp3) | Puis-je prendre une photo ici ? |
 | ![Können Sie ein Foto von mir machen?](audio/de_male_657ee43dcfcc.mp3) | Pouvez-vous me prendre en photo ? |
+
+## Exercices
+
+> [!traduire] Je ne comprends pas.
+> Ich verstehe nicht.
+> piège: kein, bitte
+> vers: allemand
+
+> [!traduire] Où sont les toilettes ?
+> Wo sind die Toiletten?
+> piège: ist, wer
+> vers: allemand
+>
+> Au pluriel, *sind* et non *ist*.
+
+> [!traduire] Die Rechnung, bitte.
+> L'addition, s'il vous plaît.
+> piège: carte, café
+> vers: français
+
+> [!associer] Relie chaque mot à son sens.
+> | Allemand | Français |
+> |---|---|
+> | Rechts | À droite |
+> | Links | À gauche |
+> | Geradeaus | Tout droit |
+> | Heute | Aujourd'hui |
+> | Gestern | Hier |
+> | Morgen | Demain |
+> | Übermorgen | Après-demain |
+> | Jetzt | Maintenant |
+
+> [!quiz] « Tu ne viens pas ? — Si ! » : quel mot répond « si » à une question négative ?
+> - [x] *Doch*
+>   *Doch* contredit une négation.
+> - [ ] *Ja*
+>   *Ja* répond oui à une question affirmative.
+> - [ ] *Genau*
+>   *Genau* veut dire « exactement ».

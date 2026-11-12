@@ -346,6 +346,41 @@ Le texte autour de la figure dit quoi faire (survol, touche) et ce qu'on doit vo
 ```
 Le titre est la question, le corps la réponse (masquée sur le site, avec « Afficher la réponse », auto-évaluation et ajout aux révisions espacées de `/cartes/revision/`). `[!quiz]-` et `[!quiz]+` sont acceptés. Une question = un fait vérifié (cf. règle d'exactitude).
 
+### QCM
+Une question dont le corps commence par une liste de cases à cocher devient un QCM : `- [x]` marque la bonne réponse, et la ligne en retrait sous chaque choix explique pourquoi il est juste ou faux. Deux QCM ou plus dans une note activent le duel à deux.
+```markdown
+> [!quiz] Comment dit-on « il n'y a pas de chien » en teochew ?
+> - [x] *Bo kau.*
+>   *Bo* nie l'existence ou la possession.
+> - [ ] *Bue kau.*
+>   *Bue* veut dire « pas encore ».
+```
+
+### Exercices (traduire, associer, ordre)
+Pour les notes de langues surtout, trois exercices à manipuler, à côté des `[!quiz]` :
+```markdown
+> [!traduire] Où veux-tu aller ?
+> Le ai khe tiko?
+> piège: lai, mekkai
+> vers: teochew
+>
+> Explication affichée une fois la réponse donnée.
+
+> [!associer] Relie l'indonésien au sambas.
+> | Indonésien | Sambas |
+> |---|---|
+> | tidak | daan |
+> | besok | isok |
+
+> [!ordre] Les jours, du lundi au dimanche
+> 1. pai it
+> 2. pai ji
+```
+- `[!traduire]` : le titre est la phrase à traduire, la ligne suivante la réponse ; le lecteur la reconstruit avec des étiquettes de mots, comme sur Duolingo. `aussi:` ajoute une autre réponse acceptée, `piège:` des intrus dans la banque de mots, `vers:` la langue visée (« Traduis en teochew »). Les deux sens marchent : vers la langue apprise, ou vers le français (`vers: français`). `mots:` donne la glose mot à mot montrée sous la correction (`mots: wa = je, em = ne… pas, cai = savoir`).
+- `[!associer]` : un tableau à deux colonnes (8 paires au plus), ou une liste `- gauche :: droite`.
+- `[!ordre]` : une liste dans le bon ordre, `piège:` pour des éléments qui n'en font pas partie.
+- Les pièges doivent être de vraies confusions (une autre négation, le mot familier au lieu du poli), et la réponse une phrase déjà donnée et traduite dans la note.
+
 ### Prérequis et parcours
 ```yaml
 prerequis: ["[[Limites et Continuité]]", "[[Dérivation]]"]

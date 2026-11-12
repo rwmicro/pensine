@@ -52,3 +52,38 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Ouighour/02-Communication/Sa
 ## Conseil de méthode
 
 Ces formules gagnent à être apprises non isolément, mais en contexte : associez chacune d'elles à une situation vécue ou imaginée (arriver dans une échoppe, demander son chemin, engager la conversation avec un voisin de table) plutôt que de les mémoriser comme une liste abstraite. La partie *06-Ressources* propose des outils de répétition espacée particulièrement adaptés à cet exercice.
+
+## Exercices
+
+> [!traduire] Combien ça coûte ?
+> Bu qanchä pul?
+> piège: nemä, qeyärdä
+> vers: ouïghour
+
+> [!traduire] Où sont les toilettes ?
+> Hajetxana qeyärdä?
+> piège: qanchä, bu
+> vers: ouïghour
+
+> [!traduire] Köp räxmät.
+> Merci beaucoup.
+> piège: pardon, rien
+> vers: français
+
+> [!associer] Relie chaque mot à son sens.
+> | Ouïghour | Français |
+> |---|---|
+> | Räxmät | Merci |
+> | Yaq | Non |
+> | Bolidu | D'accord |
+> | Bilmäymän | Je ne sais pas |
+> | Kächürüng | Excusez-moi |
+> | Chüshänmidim | Je n'ai pas compris |
+
+> [!quiz] Dans *Hajetxana qeyärdä?*, que veut dire *qeyärdä* ?
+> - [x] « Où ? »
+>   *Qeyärdä?* demande le lieu.
+> - [ ] « Combien ? »
+>   « Combien » se dit *qanchä*.
+> - [ ] « Quoi ? »
+>   « Quoi » se dit *nemä*.

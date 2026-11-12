@@ -104,3 +104,40 @@ Phrases de survie en hindi courant (parlé). Translittération simplifiée.
 | C'est bon / délicieux | ![बहुत अच्छा](audio/hi_male_0b2cb109e041.mp3) / ![स्वादिष्ट](audio/hi_male_260827803ccf.mp3) | Bahut acchā / Svādiṣṭ |
 | Je ne sais pas | ![मुझे नहीं पता](audio/hi_male_2a7b8b544dbd.mp3) | Mujhe nahīṁ patā |
 | Attendez un moment | ![एक मिनट रुकिए](audio/hi_male_d3c56c430c73.mp3) | Ek minaṭ rukiye |
+
+## Exercices
+
+> [!traduire] Je ne comprends pas.
+> Mujhe samajh nahīṁ āyā.
+> piège: main, hai
+> vers: hindi (translittéré)
+
+> [!traduire] Je suis végétarien.
+> Main shākāhārī hūṁ.
+> piège: hai, mujhe
+> vers: hindi (translittéré)
+>
+> Avec *main* (je), le verbe être est *hūṁ* ; *hai* va avec « il, elle ».
+
+> [!traduire] Mujhe nahīṁ patā.
+> Je ne sais pas.
+> piège: comprends, veux
+> vers: français
+
+> [!associer] Relie chaque mot à son sens.
+> | Hindi | Français |
+> |---|---|
+> | Namaste | Bonjour |
+> | Shukriyā | Merci |
+> | Hāṁ | Oui |
+> | Nahīṁ | Non |
+> | Kripayā | S'il vous plaît |
+> | Māf kījie | Excusez-moi |
+> | Sīdhe | Tout droit |
+> | Bacāo! | Au secours ! |
+
+> [!quiz] Vous demandez « Comment allez-vous ? » à une personne âgée que vous ne connaissez pas :
+> - [ ] *Tum kaise ho?*
+>   *Tum* est familier, pour un proche.
+> - [x] *Āp kaise haĩ?*
+>   *Āp* est le « vous » de respect.

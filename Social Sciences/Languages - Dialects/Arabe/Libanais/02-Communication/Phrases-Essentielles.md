@@ -120,6 +120,45 @@ Registres : **F** = formel / **C** = courant / **I** = informel
 - Les Libanais disent volontiers *mersi* et *bonjour* : le français fait partie du registre courant.
 - Quand tu ne comprends pas : *mā fhimt*, *fīk t3īd ?*, *shwayy shwayy*.
 
+## Exercices
+
+> [!traduire] Je ne parle pas bien arabe.
+> Mā be7ki 3arabi mnī7.
+> piège: biddi, ktīr
+> vers: libanais (translittéré)
+
+> [!traduire] Je veux manger.
+> Biddi ākul.
+> piège: mā, fī
+> vers: libanais (translittéré)
+>
+> *Mā biddi*, c'est « je ne veux pas ».
+
+> [!traduire] Ghāli ktīr.
+> C'est trop cher.
+> piège: délicieux, combien
+> vers: français
+
+> [!associer] Relie chaque mot à son sens.
+> | Libanais | Français |
+> |---|---|
+> | mar7aba | Bonjour |
+> | shukran | Merci |
+> | tab3an | Bien sûr |
+> | addēsh | Combien ? |
+> | ēmta | Quand ? |
+> | halla2 | Maintenant |
+> | ba3dēn | Après |
+> | shwayy | Un peu |
+
+> [!quiz] On vous dit *mar7aba*. Que répondez-vous ?
+> - [ ] *sa77tēn*
+>   C'est « bon appétit ».
+> - [ ] *ma3 es-salēme*
+>   C'est « au revoir ».
+> - [x] *mar7abtēn*
+>   La réponse d'usage à *mar7aba*.
+
 ## Questions de révision
 
 > [!quiz] Comment dit-on « je ne comprends pas » ?

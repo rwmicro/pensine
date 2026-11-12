@@ -138,6 +138,51 @@ Certains mots sundanais sont utilisés dans tout l'archipel :
 - **Mah** (particule d'emphase)
 - **Téh** (particule)
 
+## Phrases en sundanais poli
+
+Des phrases de tous les jours en registre *lemes*, celui qu'on emploie avec un aîné ou un inconnu. Repérez les mots polis (*abdi*, *neda*, *mios*, *atos*) : le tableau qui suit donne leur équivalent familier.
+
+| Sundanais | Français |
+|---|---|
+| Cuaca poe ieu panas pisan. | Il fait très chaud aujourd'hui. |
+| Hate kuring gumbira pisan poe ieu. | J'ai le cœur très joyeux aujourd'hui. |
+| Abdi atos terang naon anu lumangsung. | Je sais déjà ce qui s'est passé. |
+| Lina meser beas di toko. | Lina achète du riz au magasin. |
+| Anjeunna saleresna neda ngagunakeun panangan, henteu ngagunakeun sendok. | En fait, il mange avec la main, pas avec une cuillère. |
+| Ulah mios lamun wangsul tanpa ngabantun naon-naon. | Ne pars pas si c'est pour revenir les mains vides. |
+| Cai atos ngagolak. | L'eau bout déjà. |
+| Kumaha carana motong kai? | Comment on coupe le bois ? |
+| Ulin bal nyenangkeun pisan. | Jouer au ballon, c'est très amusant. |
+| Anjeun kedah tanggel balukarna. | Vous devez en assumer les conséquences. |
+| Ulah sangeunahna wae. | Ne faites pas n'importe quoi. |
+| Janten urang tenang wae tiheula. | Alors restons d'abord calmes. |
+
+Le vocabulaire *lemes* s'y repère facilement :
+
+| Français | Loma (familier) | Lemes (poli) |
+|---|---|---|
+| je | kuring, aing | abdi |
+| il, elle | manéhna | anjeunna |
+| manger | dahar | neda |
+| partir | indit | mios |
+| rentrer | balik | wangsul |
+| acheter | meuli | meser |
+| savoir | nyaho | terang |
+| déjà | geus | atos |
+| main | leungeun | panangan |
+| argent | duit | artos |
+
+*Kuring* reste neutre (on le trouve dans *hate kuring*), *aing* est franchement familier, voire grossier hors des amis proches.
+
+> [!quiz] Comment dit-on « je » en sundanais poli ?
+> *Abdi* (familier : *kuring*, très familier : *aing*).
+
+> [!quiz] Que veut dire *pisan* dans *panas pisan* ?
+> « Très » : *panas pisan*, « très chaud ».
+
+> [!quiz] Quel est l'équivalent poli de *dahar* (manger) ?
+> *Neda*.
+
 ## Notes Culturelles
 
 - À Bandung et Java Ouest, on entend souvent un mélange d'indonésien et de sundanais
@@ -151,6 +196,43 @@ Certains mots sundanais sont utilisés dans tout l'archipel :
 - Comme le javanais, il a des niveaux de langue : *loma* (familier) et *lemes* (poli).
 - *Punten* (excusez-moi), *hatur nuhun* (merci), *mangga* (je vous en prie) s'entendent partout à Java Ouest.
 - Les particules *mah*, *téh* et *atuh* colorent l'indonésien parlé des Sundanais.
+
+## Exercices
+
+> [!traduire] Je sais déjà ce qui s'est passé.
+> Abdi atos terang naon anu lumangsung.
+> piège: geus, nyaho
+> vers: sundanais (lemes)
+>
+> *Geus* et *nyaho* disent la même chose en registre familier (*loma*).
+
+> [!traduire] Il fait très chaud aujourd'hui.
+> Cuaca poe ieu panas pisan.
+> piège: wae, ulah
+> vers: sundanais
+
+> [!traduire] Ulah sangeunahna wae.
+> Ne faites pas n'importe quoi.
+> piège: très, déjà
+> vers: français
+
+> [!associer] Relie chaque mot familier (loma) à son équivalent poli (lemes).
+> | Loma | Lemes |
+> |---|---|
+> | kuring | abdi |
+> | manéhna | anjeunna |
+> | dahar | neda |
+> | indit | mios |
+> | balik | wangsul |
+> | meuli | meser |
+> | nyaho | terang |
+> | geus | atos |
+
+> [!quiz] À qui dit-on « j'ai déjà mangé » sous la forme *abdi atos neda* plutôt que *kuring geus dahar* ?
+> - [x] À un aîné ou à un inconnu.
+>   *Abdi*, *atos* et *neda* sont du registre poli (*lemes*).
+> - [ ] À un ami proche.
+>   Entre amis, *kuring geus dahar* suffit.
 
 ## Questions de révision
 

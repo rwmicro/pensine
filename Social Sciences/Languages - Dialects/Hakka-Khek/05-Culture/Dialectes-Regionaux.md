@@ -60,7 +60,7 @@ Contrary to what the generic "West Kalimantan Hakka" label suggests, Pontianak H
 | Area | Pontianak, Mempawah, Kubu Raya, Sekadau, Sintang, Sanggau | Singkawang, Sambas, Pemangkat, Bengkayang |
 
 **Distinguishing features (both varieties):**
-- Uses **jit** and **yit** interchangeably for "one"
+- Uses **jit** for "one" (*yit* belongs to other varieties)
 - Common use of **nyi** for "you" (vs. ngi in some regions)
 - Place names adapted to Hakka phonetics (Pontianak = khun-thien)
 - Heavy Indonesian loanwords (especially for modern items)
@@ -79,12 +79,14 @@ Contrary to what the generic "West Kalimantan Hakka" label suggests, Pontianak H
 
 | Meaning | West Kalimantan | Alternative/Other Regions | Notes |
 |---------|-----------------|---------------------------|-------|
-| **One** | jit | yit | Both used in WK; yit common in compounds |
-| **You** | nyi | ngi | Both acceptable in WK |
-| **Four** | si | shi | shi appears in some contexts |
-| **Five** | ng | eng | Both used; ng more common |
+| **One** | jit | yit | Pontianak uses *jit* everywhere, compounds included: *jit chien* (1,000) |
+| **You** | nyi | ngi | *nyi* is the Pontianak form; *ngi* belongs to other varieties |
+| **Four** | si | shi | Two spellings of the same word |
+| **Five** | eng | ng | *eng* in Pontianak; *ng* in other varieties |
 | **Ten thousand** | ban | wan | wan closer to Mandarin |
-| **Two** | nyi | liong | liong used in some contexts |
+
+**Two is not a regional variant.** *Nyi* is the digit used in counting and in compound numbers (*nyi sip* = 20), while *liong* comes before a classifier or a unit (*liong cak* = two [items], *liong dolar* = two dollars, *liong chien* = two thousand). It is the same split as Mandarin 二 *èr* / 兩 *liǎng*.
+
 
 ### Isolated Cultural Vocabulary
 

@@ -102,3 +102,40 @@ Le roumain est une langue romane — un francophone avec de l'espagnol ou de l'i
 | Bravo | ![Bravo](audio/ro_male_f3d9d723bc7c.mp3) / ![Felicitări](audio/ro_male_eba58ea5c87c.mp3) |
 | C'est dommage | ![Păcat](audio/ro_male_d5e146f6ecaa.mp3) |
 | Tant mieux | ![Cu atât mai bine](audio/ro_male_a42273a3411a.mp3) |
+
+## Exercices
+
+> [!traduire] Je ne comprends pas.
+> Nu înțeleg.
+> piège: știu, da
+> vers: roumain
+
+> [!traduire] Où sont les toilettes ?
+> Unde e toaleta?
+> piège: cât, ce
+> vers: roumain
+
+> [!traduire] E prea scump.
+> C'est trop cher.
+> piège: loin, bon
+> vers: français
+
+> [!associer] Relie chaque mot à son sens.
+> | Roumain | Français |
+> |---|---|
+> | Da | Oui |
+> | Nu | Non |
+> | Mulțumesc | Merci |
+> | La stânga | À gauche |
+> | La dreapta | À droite |
+> | Ajutor! | Au secours ! |
+> | Poate | Peut-être |
+> | Păcat | C'est dommage |
+
+> [!quiz] Pour dire « s'il vous plaît » à un inconnu :
+> - [ ] *Pa!*
+>   C'est « salut » pour prendre congé.
+> - [x] *Vă rog*
+>   La forme de politesse.
+> - [ ] *Te rog*
+>   C'est « s'il te plaît », pour un proche.

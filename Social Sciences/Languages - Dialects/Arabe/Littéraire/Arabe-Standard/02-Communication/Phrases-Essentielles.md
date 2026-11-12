@@ -62,3 +62,40 @@ Phrases typiques de l'arabe médiatique et administratif, très éloignées du p
 | ![وَفْقاً لِ...](audio/ar_male_3c06f2d13d10.mp3) | *wafqan li...* | Conformément à... |
 | ![مِن جِهَةٍ أُخْرى](audio/ar_male_c2caf0156d46.mp3) | *min jihatin ukhrā* | D'autre part |
 | ![وَفي هَذا السِّياق](audio/ar_male_483f0aee55d8.mp3) | *wa fī hādhā s-siyāq* | Et dans ce contexte |
+
+## Exercices
+
+> [!traduire] Je ne comprends pas.
+> Lā afham.
+> piège: naʿam, anā
+> vers: arabe (translittéré)
+
+> [!traduire] Je suis de France.
+> Anā min faransā.
+> piège: ayna, ismī
+> vers: arabe (translittéré)
+
+> [!traduire] Bi-kam hādhā?
+> Combien coûte ceci ?
+> piège: où, quelle
+> vers: français
+
+> [!associer] Relie chaque expression à son sens.
+> | Arabe | Français |
+> |---|---|
+> | naʿam | Oui |
+> | lā | Non |
+> | shukran jazīlan | Merci beaucoup |
+> | min faḍlik | S'il te plaît |
+> | āsif | Désolé |
+> | maʿa s-salāma | Au revoir |
+> | ṣabāḥu l-khayr | Bonjour |
+> | masāʾu l-khayr | Bonsoir |
+
+> [!quiz] On vous salue d'un *as-salāmu ʿalaykum*. Vous répondez :
+> - [ ] *ṣabāḥu l-khayr*
+>   C'est « bonjour » le matin, pas la réponse.
+> - [x] *wa ʿalaykumu s-salām*
+>   « Et sur vous la paix ».
+> - [ ] *maʿa s-salāma*
+>   C'est « au revoir ».

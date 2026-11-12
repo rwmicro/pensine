@@ -98,3 +98,42 @@ Le Tok Pisin est un créole anglais (lingua franca de Papouasie-Nouvelle-Guinée
 | Maintenant                          | Nau            | "Now"               |
 | Plus tard                           | Bihain         | "Behind/Later"      |
 | Nom en papouasie pour les blancs​​​ | Wali           |                     |
+
+## Exercices
+
+> [!traduire] Je ne sais pas.
+> Mi no save.
+> piège: nogat, yu
+> vers: tok pisin
+
+> [!traduire] Où sont les toilettes ?
+> Haus pekpek i stap we?
+> piège: wanem, long
+> vers: tok pisin
+
+> [!traduire] Tenkyu tumas.
+> Merci beaucoup.
+> piège: pardon, rien
+> vers: français
+>
+> *Tumas* vient de l'anglais *too much*.
+
+> [!associer] Relie chaque mot à son sens.
+> | Tok Pisin | Français |
+> |---|---|
+> | Gude | Bonjour |
+> | Lukim yu | Au revoir |
+> | Nogat | Non |
+> | Tenkyu | Merci |
+> | Plis | S'il vous plaît |
+> | Sori | Pardon |
+> | Stret | Tout droit |
+> | Bihain | Plus tard |
+
+> [!quiz] Que veut dire *Mi no save* ?
+> - [ ] « Je ne viens pas »
+>   « Venir » se dit *kam*.
+> - [x] « Je ne sais pas », ou « je ne comprends pas »
+>   *Save* vient de l'anglais *savvy*.
+> - [ ] « Je n'en ai pas »
+>   « Non » se dit *nogat*.

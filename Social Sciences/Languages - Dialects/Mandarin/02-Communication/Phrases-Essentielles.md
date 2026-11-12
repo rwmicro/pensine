@@ -188,3 +188,42 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Mandarin/02-Communication/Sa
 | ![取款机在哪](audio/zh_male_0e5a7a40e7aa.mp3)? | qǔkuǎnjī zài nǎ? | Où est le distributeur ? |
 | ![这可以拍照吗](audio/zh_male_61afd4e9c95b.mp3)? | zhè kěyǐ pāizhào ma? | Puis-je prendre une photo ? |
 | ![你能帮我拍照吗](audio/zh_male_cc7dada33782.mp3)? | nǐ néng bāng wǒ pāizhào ma? | Peux-tu me prendre en photo ? |
+
+## Exercices
+
+> [!traduire] Je ne comprends pas.
+> Wǒ bù dǒng.
+> piège: méiyǒu, shì
+> vers: mandarin (pinyin)
+
+> [!traduire] Où sont les toilettes ?
+> Cèsuǒ zài nǎr?
+> piège: shénme, duōshao
+> vers: mandarin (pinyin)
+>
+> *Zài nǎr?* (在哪儿) demande « où est… ? ».
+
+> [!traduire] Tài guì le.
+> C'est trop cher.
+> piège: loin, délicieux
+> vers: français
+
+> [!associer] Relie chaque mot à son sens.
+> | Pinyin | Français |
+> |---|---|
+> | jīntiān | Aujourd'hui |
+> | zuótiān | Hier |
+> | míngtiān | Demain |
+> | hòutiān | Après-demain |
+> | xiànzài | Maintenant |
+> | zǎoshang | Matin |
+> | xiàwǔ | Après-midi |
+> | wǎnshang | Soir |
+
+> [!quiz] On vous dit *nǐ de Zhōngwén hěn hǎo* (ton chinois est très bon). La réponse modeste :
+> - [ ] *dāngrán*
+>   « Bien sûr » : tout le contraire de la modestie.
+> - [ ] *bú duì*
+>   « Faux » : trop sec.
+> - [x] *nǎli nǎli*
+>   « Vous me flattez » : on ne prend pas le compliment pour soi.

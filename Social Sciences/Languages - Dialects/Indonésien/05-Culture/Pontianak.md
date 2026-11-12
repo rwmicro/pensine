@@ -94,6 +94,49 @@ Pontianak a une importante communauté chinoise (Teochew et Hakka) :
 | **Selamat pagi** | Bonjour (matin) - standard |
 | **Nak gi mane tu?** | Tu vas où ? (salutation informelle) |
 
+## Le malais de Pontianak en phrases
+
+Au-delà du -a final qui devient -e, ce sont une dizaine de petits mots qui font sonner une phrase « Pontianak ». Les apprendre, c'est déjà comprendre la moitié d'une conversation.
+
+| Indonésien | Pontianak | Remarque |
+|---|---|---|
+| tidak | **tadak** / tak / ndak | *Tadak* est la forme pleine, *tak* et *ndak* les formes courtes |
+| saya | **saye** / aku | *Aku* entre amis |
+| ingin, mau | **maok** / nak | *Maok* est le plus courant |
+| lagi, sedang | **agik** | « encore » et « en train de » : *aku agik nyarek* (je suis en train de chercher) |
+| sudah | **udah** / dah | |
+| belum | **belom** | |
+| pergi | **pegi** | |
+| saja, hanya | **jak** | *babat jak*, « avale-le donc » |
+| kecil | **kecik** | |
+| ini, itu | **ni**, **tu** | Formes courtes, à côté de *ini* et *itu* |
+
+Trois tournures reviennent sans cesse :
+- **Bise ndak…?** ou **bisekeh…?** pour une demande polie : *bise ndak kau bantu carikan bagasi saye?* (pouvez-vous m'aider à trouver mon bagage ?). *-keh* est la particule interrogative : *apekeh*, *adekeh*.
+- **Bah**, particule d'insistance : *ngape bah kau tak cayak ngan aku?* (mais pourquoi tu ne me crois pas ?).
+- **-e** pour « son, sa » : *pengirim-e* (son expéditeur), *sejuk-e* (le froid qu'il faisait).
+
+| Pontianak | Français |
+|---|---|
+| Kau maok ape? | Qu'est-ce que vous voulez ? |
+| Ape yang nak kau beli? | Qu'est-ce que tu vas acheter ? |
+| Saye maok pegi. | Je veux partir. |
+| Tadak, saye cuman maok mampir sekejap. | Non, je voulais juste passer un instant. |
+| Tolong ulang pelan-pelan. | Répétez lentement, s'il vous plaît. |
+| Bise ndak kau bantu carikan bagasi saye? | Pouvez-vous m'aider à trouver mon bagage ? |
+| Gimane saye bise nyampe ke tempat ini? | Comment est-ce que j'arrive à cet endroit ? |
+| Berape blok dari sinek? | C'est à combien de rues d'ici ? |
+| Jam berape kau nak balek agik? | À quelle heure tu reviens ? |
+| Adekeh ketere api yang pegi ke kote? | Y a-t-il un train qui va en ville ? |
+| Saye tak bise tidok nyenyak. | Je n'arrive pas à bien dormir. |
+| Lampunye rosak. | La lampe est cassée. |
+| Suah nonton pelam Alice in Wonderland ndak? | Tu as déjà vu le film *Alice au pays des merveilles* ? |
+| Kawan aku ngambek dompet. | Mon ami a pris le portefeuille. |
+| Ngape bah kau tak cayak ngan aku? | Mais pourquoi tu ne me crois pas ? |
+| Kalok dah macam itu, mane pulak aku nak menang. | Si c'est comme ça, comment veux-tu que je gagne ? |
+
+*Ngan* est la forme courte de *dengan* (avec), *cayak* celle de *percaya* (croire), *sinek* celle de *sini* (ici).
+
 ## Notes Culturelles
 
 - Pontianak est située exactement sur l'équateur (Monument Khatulistiwa)
@@ -107,6 +150,46 @@ Pontianak a une importante communauté chinoise (Teochew et Hakka) :
 - *Nak* (vouloir), *tak* (non), *dah* (déjà), *bile* (quand) rappellent le malais de Malaisie.
 - La forte communauté chinoise a laissé *angpau*, *tauke*, *kuetiau*, *Cap Go Meh*.
 - La ville est traversée par l'équateur et par le Kapuas, plus long fleuve d'Indonésie.
+
+## Exercices
+
+> [!traduire] Je veux partir.
+> Saye maok pegi.
+> aussi: Saye nak pegi.
+> aussi: Aku maok pegi.
+> aussi: Aku nak pegi.
+> piège: tadak, agik
+> vers: malais de Pontianak
+
+> [!traduire] Répétez lentement, s'il vous plaît.
+> Tolong ulang pelan-pelan.
+> piège: bah, jak
+> vers: malais de Pontianak
+
+> [!traduire] Ngape bah kau tak cayak ngan aku?
+> Mais pourquoi tu ne me crois pas ?
+> piège: veux, ici
+> vers: français
+>
+> *Bah* insiste, *cayak* est *percaya* (croire), *ngan* est *dengan* (avec).
+
+> [!associer] Relie l'indonésien au malais de Pontianak.
+> | Indonésien | Pontianak |
+> |---|---|
+> | tidak | tadak |
+> | mau | maok |
+> | sedang | agik |
+> | sudah | udah |
+> | belum | belom |
+> | pergi | pegi |
+> | saja | jak |
+> | kecil | kecik |
+
+> [!quiz] Dans *adekeh ketere api yang pegi ke kote?*, à quoi sert *-keh* ?
+> - [ ] Il veut dire « son, sa », comme *-e*.
+> - [x] Il pose la question : « y a-t-il… ? »
+>   *-keh* est la particule interrogative (*apekeh*, *bisekeh*).
+> - [ ] Il insiste, comme *bah*.
 
 ## Questions de révision
 
@@ -124,3 +207,12 @@ Pontianak a une importante communauté chinoise (Teochew et Hakka) :
 
 > [!quiz] Que devient le -a final de *apa* ou *siapa* à Pontianak ?
 > -e : *ape*, *sape*.
+
+> [!quiz] Comment demander poliment « pouvez-vous m'aider ? » à Pontianak ?
+> *Bise ndak kau bantu saye?* (ou *bisekeh…?*)
+
+> [!quiz] Que veut dire *agik* dans *aku agik nyarek* ?
+> « En train de » : « je suis en train de chercher » (indonésien *sedang*, *lagi*).
+
+> [!quiz] Quelles sont les trois formes de « ne… pas » à Pontianak ?
+> *Tadak* (forme pleine), *tak* et *ndak*.

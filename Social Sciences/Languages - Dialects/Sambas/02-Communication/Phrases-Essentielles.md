@@ -16,11 +16,11 @@ Phrases de base en dialecte Sambas, parlé dans le sultanat de Sambas (Kalimanta
 |----------|--------|-----------------|-------|
 | Bonjour | ![Assalamualaikum](audio/ms_male_d7544ec1245a.mp3) | Assalamualaikum | Salutation islamique universelle |
 | Réponse | ![Wa'alaikumsalam](audio/ms_male_f83ef236335a.mp3) | Wa'alaikumsalam |  |
-| Comment vas-tu ? | ![Kemane kau?](audio/ms_male_f5ebb9bd4e27.mp3) / ![Apa khabar?](audio/ms_male_7bc9af7b262c.mp3) | Apa khabar? | Kemane = comment ça va |
+| Comment vas-tu ? | ![Kemane kau?](audio/ms_male_f5ebb9bd4e27.mp3) / ![Apa khabar?](audio/ms_male_7bc9af7b262c.mp3) | Apa khabar? | *Kemane kau?* veut dire « où vas-tu ? » (*kemane* = vers où), salutation courante en passant |
 | Bien | ![Baik](audio/ms_male_3265fb2dbbb9.mp3) / ![Alhamdulillah](audio/ms_male_2bfd0c23bec5.mp3) | Baik, terima kasih |  |
 | Au revoir | ![Assalamualaikum](audio/ms_male_d7544ec1245a.mp3) | Selamat tinggal | Même formule pour partir |
 | Oui | ![Iyo](audio/ms_male_982c601ecfa1.mp3) | Ya |  |
-| Non | ![Indak](audio/ms_male_e004eb9cfb5f.mp3) / ![Dak](audio/ms_male_ee9fabfb4f88.mp3) | Tidak | Dak = forme contractée |
+| Non | Daan / ![Indak](audio/ms_male_e004eb9cfb5f.mp3) / ![Dak](audio/ms_male_ee9fabfb4f88.mp3) | Tidak | *Daan* est la négation typique du sambas ; dak = forme contractée |
 | Merci | ![Terima kasih](audio/ms_male_f90acbf236ee.mp3) | Terima kasih |  |
 | S'il te plaît | ![Tolong](audio/ms_male_216c10c27efc.mp3) | Tolong |  |
 | Pardon | ![Maaf](audio/ms_male_9fe554474e28.mp3) | Maaf |  |
@@ -52,7 +52,7 @@ Phrases de base en dialecte Sambas, parlé dans le sultanat de Sambas (Kalimanta
 | J'ai mangé | ![Aku dah makan](audio/ms_male_79aa3d6091f8.mp3) |
 | J'ai faim | ![Aku lapar](audio/ms_male_00205f4fd009.mp3) |
 | J'ai soif | ![Aku haus](audio/ms_male_ab92f1672489.mp3) |
-| C'est délicieux | ![Sedap betul!](audio/ms_male_08ba95b20303.mp3) |
+| C'est délicieux | Nyaman! / ![Sedap betul!](audio/ms_male_08ba95b20303.mp3) |
 | Où est... ? | ![Di mane ...?](audio/ms_male_8e671aba0935.mp3) |
 | Combien ça coûte ? | ![Berape harge-nye?](audio/ms_male_5c6d1c8e3f5b.mp3) |
 

@@ -91,3 +91,40 @@ Le malais standard (Bahasa Melayu) est très proche de l'indonésien — un locu
 | Attends | ![Tunggu sekejap](audio/ms_male_e8fbc8a3bbe9.mp3) |
 | Vite ! | ![Cepat!](audio/ms_male_38af5910d259.mp3) |
 | C'est bon | ![Bagus](audio/ms_male_88462d789e1d.mp3) / ![Best](audio/ms_male_be7d4709fef7.mp3) |
+
+## Exercices
+
+> [!traduire] Je ne comprends pas.
+> Saya tidak faham.
+> piège: mengerti, tahu
+> vers: malais
+>
+> *Faham* est le mot malais ; l'indonésien dirait plutôt *mengerti*.
+
+> [!traduire] Où sont les toilettes ?
+> Di mana tandas?
+> piège: berapa, apa
+> vers: malais
+
+> [!traduire] Berapa harganya?
+> Combien ça coûte ?
+> piège: où, cher
+> vers: français
+
+> [!associer] Relie chaque expression à son sens.
+> | Malais | Français |
+> |---|---|
+> | Terima kasih | Merci |
+> | Maaf | Pardon |
+> | Ke kiri | À gauche |
+> | Ke kanan | À droite |
+> | Terus je | Tout droit |
+> | Mungkin | Peut-être |
+> | Sedap sangat! | Délicieux |
+> | Tolong! | Au secours ! |
+
+> [!quiz] Laquelle de ces deux graphies de « Comment allez-vous ? » est malaise ?
+> - [x] *Apa khabar?*
+>   Le malais écrit *khabar*, avec *kh*.
+> - [ ] *Apa kabar?*
+>   C'est la graphie indonésienne.

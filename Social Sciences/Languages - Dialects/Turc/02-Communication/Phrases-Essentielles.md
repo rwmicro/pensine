@@ -103,3 +103,42 @@ Le turc est agglutinant : les suffixes s'accumulent sur les racines. Les phrases
 | Attends | ![Bir dakika](audio/tr_male_068abadc2057.mp3) |
 | Inchallah (si Dieu veut) | ![İnşallah](audio/tr_male_4295a2b36795.mp3) |
 | Vallah (jure) | ![Vallahi](audio/tr_male_999e94dfa3be.mp3) |
+
+## Exercices
+
+> [!traduire] Je ne comprends pas.
+> Anlamıyorum.
+> piège: bilmiyorum, evet
+> vers: turc
+>
+> *Bilmiyorum*, c'est « je ne sais pas ».
+
+> [!traduire] Où sont les toilettes ?
+> Tuvalet nerede?
+> piège: ne, kadar
+> vers: turc
+
+> [!traduire] Afiyet olsun!
+> Bon appétit !
+> piège: santé, merci
+> vers: français
+
+> [!associer] Relie chaque mot à son sens.
+> | Turc | Français |
+> |---|---|
+> | Evet | Oui |
+> | Hayır | Non |
+> | Lütfen | S'il vous plaît |
+> | Sola | À gauche |
+> | Sağa | À droite |
+> | Belki | Peut-être |
+> | İmdat! | Au secours ! |
+> | Şerefe! | Santé ! |
+
+> [!quiz] Vous quittez des amis turcs. Que leur dites-vous ?
+> - [ ] *Güle güle*
+>   C'est ce que répond celui qui reste.
+> - [ ] *Günaydın*
+>   C'est le bonjour du matin.
+> - [x] *Hoşça kalın*
+>   C'est l'au revoir de celui qui part.

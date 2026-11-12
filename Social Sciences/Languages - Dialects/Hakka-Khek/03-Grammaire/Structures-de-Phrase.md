@@ -183,12 +183,13 @@ As in Mandarin, a number + classifier precedes the counted noun; the classifier 
 | Pattern | Example | Meaning |
 |---|---|---|
 | jit cak + [round object/animal] | jit cak pat · jit cak tiaw · jit cak kui · jit cak pui | a guava · a bird · a turtle · a cup |
-| jit cak + [person: family] | jit cak lo pho · jit cak lo kung · jit cak se fo | a wife · a husband · a child |
+| jit cak + [person: family] | jit cak lo pho · jit cak lo kung · jit cak se fo · jit cak lai · jit cak moi · jit cak sun | a wife · a husband · a child · a son · a daughter · a grandchild |
 | jit cak + [abstract notion] | jit cak li pai · jit cak nyiat · jit cak nyian · jit cak muk phiau · jit cak thon thi · jit cak kok thu · jit cak ket ka · jit cak muk tit / mung · jit cak hok thong · jit cak si | a week · a month · a year · a goal · a group · a point of view · a country · a dream · a school · a word |
 | [number] thew + [animal] | liong thew shu · sam thew cu · ng thew sha · shi thew ng | two trees · three pigs · five snakes · four fish |
 | [number] ki + [elongated object] | pat ki pit · liong ki shu/thiat | eight pencils · two pieces of wood/worked metal |
 | jit sung + [pair] | jit sung hai · jit sung khai | a pair of shoes · a pair of chopsticks |
 | jit pun + [book] | jit pun phu · jit pun shu | a notebook · a school book |
+| tan + [one of a pair] | tan ngan · tan mun · tan siu · tan kiok | one eye · one door leaf · one hand · one foot |
 
 **Classifiers with no variable complement** (the word is already complete on its own):
 
@@ -211,3 +212,12 @@ As in Mandarin, a number + classifier precedes the counted noun; the classifier 
 - Time expressions often come first or early in the sentence
 - Modifiers (like "an" for "very") come before the word they modify
 - Context is important - subjects and objects can be omitted when clear
+
+> [!quiz] Which classifier counts people and animals: *jit cak*, *jit ki* or *jit sung*?
+> *Jit cak* (*jit cak se fo*, a child; *jit cak tiaw*, a bird). *Ki* is for elongated objects, *sung* for pairs.
+
+> [!quiz] How do you say "one hand", when the hand is one of a pair?
+> *Tan siu*: *tan* (單, single) picks out one element of a pair, as in *tan ngan* (one eye).
+
+> [!quiz] How do you say "a pair of shoes"?
+> *Jit sung hai*.

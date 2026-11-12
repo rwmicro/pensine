@@ -179,3 +179,44 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Espagnol/02-Communication/Sa
 | ![¿Se puede pagar con euros?](audio/es_male_46d6a31877e4.mp3) | On peut payer en euros ? |
 | ![¿Cómo se llama este plato?](audio/es_male_f959eb009d57.mp3) | Comment s'appelle ce plat ? |
 | ![Me gusta su país](audio/es_male_6235b8735e65.mp3) | J'aime votre pays |
+
+## Exercices
+
+> [!traduire] Où sont les toilettes ?
+> ¿Dónde están los baños?
+> piège: está, qué
+> vers: espagnol
+>
+> Au pluriel, *están* et non *está*.
+
+> [!traduire] J'ai mal à la tête.
+> Me duele la cabeza.
+> piège: mi, estómago
+> vers: espagnol
+>
+> Avec *doler*, on dit *la cabeza* : l'article suffit, sans possessif.
+
+> [!traduire] ¿Cuántos años tienes?
+> Quel âge as-tu ?
+> piège: où, viens
+> vers: français
+
+> [!associer] Relie chaque mot à son sens.
+> | Espagnol | Français |
+> |---|---|
+> | Hoy | Aujourd'hui |
+> | Ayer | Hier |
+> | Mañana | Demain |
+> | Siempre | Toujours |
+> | Nunca | Jamais |
+> | A veces | Parfois |
+> | Ahora | Maintenant |
+> | Antes | Avant |
+
+> [!quiz] Comment dit-on « demain » en espagnol ?
+> - [x] *mañana*
+>   Avec l'article, *la mañana* est « le matin ».
+> - [ ] *ayer*
+>   *Ayer*, c'est « hier ».
+> - [ ] *ahora*
+>   *Ahora*, c'est « maintenant ».
