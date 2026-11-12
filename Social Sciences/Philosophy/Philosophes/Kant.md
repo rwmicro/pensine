@@ -10,25 +10,13 @@ wikidata: Q9312
 
 # Emmanuel Kant (1724-1804)
 
-## Biographie
+La légende veut que les habitants de Königsberg aient réglé leurs montres sur la promenade quotidienne du professeur Kant, toujours à la même heure, toujours sur le même chemin, et qu'il ne l'ait manquée qu'une fois, le jour où il reçut l'*Émile* de Rousseau et ne put s'en détacher. L'anecdote est sans doute embellie, mais elle dit quelque chose de vrai : Kant a mené la vie la plus réglée qui soit, sans voyage ni aventure, dans une ville de Prusse orientale qu'il n'a presque jamais quittée. Cette vie immobile a pourtant produit une révolution. Après Kant, on ne peut plus poser les questions de la connaissance, de la morale ou de la beauté comme avant lui. Il les résumait en trois questions : que puis-je savoir ? que dois-je faire ? que m'est-il permis d'espérer ?
 
-**Emmanuel Kant** est né le 22 avril 1724 à Königsberg (aujourd'hui Kaliningrad, Russie) et y est mort le 12 février 1804 sans jamais avoir quitté sa ville natale.
+## Une vie consacrée à l'université
 
-### Vie et Personnalité
-- Quatrième de onze enfants d'une famille modeste
-- Éducation stricte piétiste (protestantisme rigoureux)
-- Célibataire toute sa vie, routine méthodique légendaire
-- **Anecdote célèbre :** Les habitants de Königsberg réglaient leurs montres sur ses promenades quotidiennes (14h précises)
-- Professeur à l'Université de Königsberg pendant 41 ans
-- Petite taille (1m57), physique frêle mais longévité (80 ans)
+Kant naît en 1724 à Königsberg, l'actuelle Kaliningrad, quatrième des onze enfants d'un sellier. Sa mère l'élève dans le piétisme, un protestantisme austère qui valorise la droiture intérieure plus que les rites ; il en gardera le sens du devoir, sinon la foi. Après des études à l'université de sa ville et quelques années comme précepteur, il y enseigne pendant plus de quarante ans, d'abord comme *Privatdozent* payé par ses étudiants, puis comme professeur de logique et de métaphysique à partir de 1770. Ses cours, très suivis, portent sur tout : physique, géographie, anthropologie. Célibataire, d'une santé fragile qu'il ménage par une hygiène minutieuse, il meurt en 1804, à près de quatre-vingts ans.
 
-### Contexte Intellectuel
-- **Siècle des Lumières** : Raison, progrès, autonomie
-- Influencé par la **révolution scientifique** (Newton)
-- Conflit entre **rationalisme** (Leibniz) et **empirisme** (Hume)
-- Devise des Lumières selon Kant : *"Sapere aude"* — "Ose penser par toi-même"
-
-## Œuvres Majeures
+Son œuvre majeure est tardive. Pendant une décennie, après 1770, il ne publie presque rien : il élabore la *Critique de la raison pure*, qui paraît en 1781, quand il a cinquante-sept ans. Les grands livres s'enchaînent alors.
 
 | Œuvre | Année | Thème principal |
 |-------|-------|----------------|
@@ -39,38 +27,24 @@ wikidata: Q9312
 | **La Religion dans les limites de la simple raison** | 1793 | Philosophie de la religion |
 | **Vers la paix perpétuelle** | 1795 | Philosophie politique |
 
-## Révolution Copernicienne en Philosophie
+C'est aussi un homme des **Lumières**. Dans *Qu'est-ce que les Lumières ?* (1784), il en donne la définition restée classique : la sortie de l'homme hors de l'état de minorité dont il est lui-même responsable, c'est-à-dire de l'incapacité de se servir de son entendement sans la direction d'autrui. « *Sapere aude !* Aie le courage de te servir de ton propre entendement ! Voilà la devise des Lumières. »
 
-### Le Problème de la Connaissance
-Avant Kant, deux écoles s'opposaient :
-- **Rationalisme** (Descartes, Leibniz) : La connaissance vient de la raison pure, indépendamment de l'expérience
-- **Empirisme** (Locke, Hume) : Toute connaissance vient de l'expérience sensorielle
+## La révolution copernicienne
 
-### Solution Kantienne : Synthèse
-> "La colombe légère, lorsque, dans son libre vol, elle fend l'air dont elle sent la résistance, pourrait s'imaginer qu'elle volerait bien mieux encore dans le vide."
-> — **Critique de la raison pure**
+Au XVIIIe siècle, deux traditions s'affrontent sur l'origine de la connaissance. Les rationalistes, comme [[Descartes]] et [[Leibniz]], pensent que la raison peut connaître par elle-même, avec des idées innées, jusqu'à Dieu et l'âme. Les empiristes, comme Locke et [[Hume]], tiennent que tout vient de l'expérience. Hume a tiré de l'empirisme une conclusion ravageuse : la causalité, que nous croyons voir dans les choses, n'est qu'une habitude de notre esprit, et rien ne garantit que le soleil se lèvera demain. Kant écrit que Hume l'a « réveillé de son sommeil dogmatique ». Mais il refuse d'abandonner la science newtonienne au scepticisme.
 
-**Idée centrale :** Ni la raison seule, ni l'expérience seule ne suffisent.
-
-**Révolution copernicienne :**
-- **Avant Kant :** On pensait que l'esprit se conforme aux objets (passivité)
-- **Avec Kant :** Les objets se conforment à notre esprit (activité)
+Sa solution consiste à renverser la question, comme Copernic avait renversé le rapport entre le Soleil et la Terre. Jusqu'ici, on supposait que notre connaissance se règle sur les objets. Supposons au contraire que les objets se règlent sur notre manière de les connaître. L'esprit n'est pas une cire passive qui reçoit des empreintes : il organise ce qu'il reçoit.
 
 > [!important] Idée clé
 > Mal comprise, cette formule fait croire que Kant réduit le monde à une invention de l'esprit. Ce n'est pas la *matière* de l'expérience (le contenu sensoriel brut) que l'esprit produit, mais sa *forme* — l'espace, le temps, la causalité sont les conditions structurantes sans lesquelles aucune expérience cohérente ne serait possible, pas des contenus qu'on invente librement.
 
-**Formule célèbre :**
-> "Les pensées sans contenu sont vides, les intuitions sans concepts sont aveugles."
+Pour Kant, la connaissance naît de la rencontre de deux facultés. La **sensibilité** reçoit des intuitions, et elle les reçoit toujours dans deux formes qu'elle impose elle-même, l'**espace** et le **temps**. L'**entendement** les ordonne par des concepts, dont les plus fondamentaux sont les **catégories**, comme la causalité ou la substance. Aucune des deux ne suffit seule : « Des pensées sans contenu sont vides, des intuitions sans concepts sont aveugles. »
 
-**Conséquence :**
-- Nous ne connaissons **pas les choses en soi** (*noumènes*), mais seulement **les phénomènes** (choses telles qu'elles nous apparaissent)
-- Notre esprit structure l'expérience à travers des **catégories a priori** (espace, temps, causalité)
+Il en découle une limite décisive. Nous ne connaissons les choses que telles qu'elles nous apparaissent à travers ces formes, comme **phénomènes**, jamais telles qu'elles sont en elles-mêmes, comme **choses en soi**. La raison qui veut dépasser l'expérience pour connaître Dieu, l'âme ou l'univers comme totalité s'égare dans des contradictions. Kant l'illustre par une image : « La colombe légère, lorsque, dans son libre vol, elle fend l'air dont elle sent la résistance, pourrait s'imaginer qu'elle volerait bien mieux encore dans le vide. » C'est ce que fit Platon, dit-il, en abandonnant le monde sensible pour s'aventurer sur les ailes des Idées. La résistance de l'air, l'expérience, est justement ce qui permet de voler.
 
-## Théorie de la Connaissance
+## Les jugements synthétiques a priori
 
-### Les Jugements
-
-Kant distingue deux types de jugements :
+Kant reformule le problème à l'aide de deux distinctions.
 
 | Type | Définition | Exemple |
 |------|-----------|---------|
@@ -84,21 +58,9 @@ Et deux sources de connaissance :
 | **A priori** | Indépendant de l'expérience, universel et nécessaire | Mathématiques : 7+5=12 |
 | **A posteriori** | Dépend de l'expérience, contingent | "Le ciel est bleu" |
 
-### L'Innovation : Les Jugements Synthétiques A Priori
+Les jugements analytiques sont certains mais n'apprennent rien ; les jugements a posteriori apprennent quelque chose mais ne sont jamais nécessaires. Or les mathématiques et la physique contiennent des jugements à la fois **synthétiques**, qui étendent notre connaissance, et **a priori**, universels et nécessaires. Que 7 + 5 = 12 n'est pas contenu dans le concept de « sept plus cinq », il faut construire la somme ; et pourtant nous le savons sans avoir à vérifier. De même, « tout ce qui arrive a une cause » n'est pas une généralisation tirée de l'observation. La question centrale de la *Critique de la raison pure* devient : comment de tels jugements sont-ils possibles ?
 
-**Question centrale de Kant :**
-> "Comment des jugements synthétiques a priori sont-ils possibles ?"
-
-**Exemples :**
-- **Mathématiques :** 7 + 5 = 12 (synthétique, car "12" n'est pas contenu dans "7+5", mais a priori, car universellement vrai)
-- **Physique :** "Tout événement a une cause" (synthétique + a priori)
-
-**Réponse de Kant :**
-Ces jugements sont possibles grâce aux **formes pures de la sensibilité** (espace et temps) et aux **catégories de l'entendement** (causalité, substance, etc.) qui structurent notre expérience.
-
-### Les Catégories de l'Entendement
-
-Kant identifie **12 catégories** regroupées en 4 classes :
+La réponse découle de la révolution copernicienne. Ils sont possibles parce qu'ils expriment les conditions mêmes de toute expérience : les formes de l'espace et du temps, qui fondent la géométrie et l'arithmétique, et les douze catégories de l'entendement, que Kant classe en quatre groupes.
 
 | Classe | Catégories | Fonction |
 |--------|-----------|----------|
@@ -107,135 +69,40 @@ Kant identifie **12 catégories** regroupées en 4 classes :
 | **Relation** | Substance, Causalité, Réciprocité | Relier les phénomènes |
 | **Modalité** | Possibilité, Existence, Nécessité | Statut de réalité |
 
-**Conséquence :**
-- Ces catégories ne décrivent **pas le monde en soi**, mais **notre façon de connaître le monde**
-- Elles sont universelles pour tous les êtres humains (intersubjectivité)
+Ces catégories ne décrivent pas le monde en soi mais la manière dont tout esprit humain doit penser un monde pour en faire l'expérience. Elles valent pour tous, ce qui garantit l'objectivité de la science, mais seulement dans les limites de l'expérience possible.
 
-## Philosophie Morale : L'Impératif Catégorique
+## La morale du devoir
 
-### Critique de la Morale Empirique
-- Kant rejette les morales basées sur le bonheur, l'utilité ou les conséquences
-- Une action n'est morale que si elle est faite **par devoir**, non par inclination
+La morale kantienne refuse de fonder le bien sur le bonheur, l'utilité ou les conséquences, qui varient selon les personnes et les circonstances. « De tout ce qu'il est possible de concevoir dans le monde, et même en général hors du monde, il n'est rien qui puisse sans restriction être tenu pour bon, si ce n'est seulement une **bonne volonté**. » Une action n'a de valeur morale que si elle est faite **par devoir**, par respect pour la loi morale, et non simplement conformément au devoir. Le commerçant qui ne trompe pas ses clients parce que l'honnêteté est bonne pour les affaires agit conformément au devoir ; seul celui qui serait honnête même contre son intérêt agit par devoir.
 
-### L'Autonomie de la Volonté
-> "Agis de telle sorte que tu traites l'humanité aussi bien dans ta personne que dans la personne de tout autre toujours en même temps comme une fin, et jamais simplement comme un moyen."
-> — **Fondements de la métaphysique des mœurs**
+La loi morale prend la forme d'un **impératif catégorique**, un commandement inconditionnel, par opposition aux impératifs hypothétiques du type « si tu veux être en bonne santé, fais du sport ». Kant en donne plusieurs formules. La première est celle de l'universalité : « Agis uniquement d'après la maxime qui fait que tu peux vouloir en même temps qu'elle devienne une loi universelle. » Son exemple est celui d'un homme à court d'argent qui envisage d'emprunter en promettant de rembourser, tout en sachant qu'il ne le pourra pas. S'il universalise sa maxime, la promesse elle-même disparaît, puisque personne ne croirait plus aucune promesse : la maxime se détruit en devenant universelle. Le même raisonnement condamne le mensonge.
 
-**Principe fondamental :**
-- L'être humain est **autonome** : il se donne sa propre loi morale (raison pratique)
-- Opposé à l'**hétéronomie** : recevoir la loi de l'extérieur (autorité, plaisir, Dieu)
+La deuxième formule est celle de l'humanité : « Agis de telle sorte que tu traites l'humanité aussi bien dans ta personne que dans la personne de tout autre toujours en même temps comme une fin, et jamais simplement comme un moyen. » Les choses ont un prix, et peuvent être remplacées par un équivalent ; les personnes ont une **dignité**, une valeur qui n'a pas d'équivalent. Nous nous servons sans cesse les uns des autres, du boulanger ou du chauffeur de bus, mais nous ne devons jamais réduire quelqu'un à un simple instrument. La troisième formule invite à agir comme membre législateur d'un **règne des fins**, une communauté idéale où chacun serait à la fois auteur et sujet de la loi morale.
 
-### Les Trois Formulations de l'Impératif Catégorique
+Ces formules reposent sur l'**autonomie** de la volonté : l'être raisonnable se donne à lui-même sa loi, au lieu de la recevoir du dehors, de l'autorité, du désir ou même de Dieu, ce que Kant appelle l'hétéronomie. Obéir à la loi qu'on s'est prescrite, c'est la liberté même.
 
-#### 1. Formule de l'Universalité
-> "Agis uniquement d'après la maxime qui fait que tu peux vouloir en même temps qu'elle devienne une loi universelle."
-
-**Test de moralité :**
-- Peux-je vouloir que tout le monde agisse selon cette maxime ?
-- **Exemple :** Puis-je mentir ?
-  - Si tout le monde mentait toujours, la confiance disparaîtrait
-  - Le mensonge se détruit lui-même → **Immoral**
-
-#### 2. Formule de l'Humanité
-> "Agis de façon telle que tu traites l'humanité, aussi bien dans ta personne que dans tout autre, toujours en même temps comme fin, et jamais simplement comme moyen."
-
-**Conséquence :**
-- Respecter la dignité humaine (concept kantien fondamental)
-- Ne jamais instrumentaliser autrui
-- **Application moderne :** Droits de l'homme, prohibition de l'esclavage
-
-#### 3. Formule du Règne des Fins
-> "Agis comme si tu étais législateur dans un règne des fins."
-
-**Vision :**
-- Imagine une société où tous sont à la fois législateurs et sujets
-- Chacun se donne et respecte la loi morale
-- **Idéal régulateur** : Jamais réalisé, mais guide de l'action
-
-### Conséquences de l'Éthique Kantienne
-
-| Concept | Explication |
-|---------|-------------|
-| **Devoir** | Une action est morale si faite par respect pour la loi, non par inclination |
-| **Bonne volonté** | Seule chose bonne sans restriction : volonté d'agir par devoir |
-| **Dignité** | L'être humain a une valeur absolue, pas de prix |
-| **Rigorisme moral** | Pas d'exceptions, pas de circonstances atténuantes |
-
-**Critique :**
-- Trop abstrait, ignore les émotions et les circonstances
-- Rigorisme excessif (ex: doit-on dire la vérité à un assassin cherchant sa victime ?)
+Cette morale a sa rigueur. En 1797, répondant à Benjamin Constant, Kant soutient qu'il ne faut pas mentir même à un assassin qui demande où s'est caché notre ami, car le devoir de véracité ne souffre pas d'exception.
 
 > [!tip] Méthode
 > Le cas de l'assassin est un bon test pour vérifier qu'on a compris l'impératif catégorique : la question n'est pas "cette règle produit-elle un bon résultat ici ?" (raisonnement conséquentialiste) mais "puis-je vouloir universellement la maxime que je suis en train de suivre ?". Kant assume la conclusion rigoriste précisément parce que sa morale ne raisonne jamais cas par cas.
 
-## Philosophie Politique
+## Ce que la morale permet d'espérer
 
-### Vers la Paix Perpétuelle (1795)
+La *Critique de la raison pure* avait montré que la raison ne peut démontrer ni l'existence de Dieu, ni l'immortalité de l'âme, ni la liberté ; Kant y réfute les preuves ontologique, cosmologique et physico-théologique. « Je dus donc abolir le savoir afin d'obtenir une place pour la croyance. » La raison pratique rétablit ces idées comme **postulats**, des hypothèses que la morale nous oblige à admettre sans pouvoir les prouver. La **liberté** d'abord, car le devoir suppose que nous puissions l'accomplir : tu dois, donc tu peux. L'**immortalité de l'âme** ensuite, car la sainteté, l'accord parfait de la volonté avec la loi, n'est concevable que dans un progrès à l'infini. L'**existence de Dieu**, enfin, comme garant du souverain bien, l'accord entre la vertu et le bonheur que le monde ne réalise pas : l'homme vertueux doit pouvoir espérer être heureux dans la mesure où il s'en est rendu digne.
 
-**Contexte :** Guerres révolutionnaires françaises
+## La paix perpétuelle
 
-**Idée centrale :**
-- La **paix perpétuelle** entre nations est possible et nécessaire moralement
-- Nécessite une **fédération d'États libres**
+En 1795, en pleines guerres de la Révolution, Kant publie un petit traité en forme de projet de paix. *Vers la paix perpétuelle* soutient que la paix entre les nations n'est pas un rêve mais un devoir, et pose trois conditions. La constitution de chaque État doit être républicaine, c'est-à-dire fondée sur la liberté et l'égalité des citoyens et la séparation des pouvoirs : des citoyens qui doivent eux-mêmes payer la guerre de leur sang et de leurs biens y regarderont à deux fois. Les États doivent former une fédération d'États libres. Enfin, un droit cosmopolitique garantit à tout étranger l'hospitalité, le droit de ne pas être traité en ennemi, que Kant oppose explicitement à la conquête coloniale. Ce texte a inspiré la Société des Nations puis l'ONU, et la théorie contemporaine de la « paix démocratique ».
 
-**Conditions de la paix :**
-1. Régimes républicains (séparation des pouvoirs, respect des droits)
-2. Fédéralisme international (ancêtre de l'ONU)
-3. Hospitalité universelle (droit de visite, pas de colonialisme)
+Plus largement, Kant définit le droit comme l'ensemble des conditions qui permettent à la liberté de chacun de coexister avec celle de tous selon une loi universelle. L'État, qui sort l'humanité de l'insécurité de l'état de nature, se justifie par l'idée rationnelle d'un contrat originaire, non par un pacte historique.
 
-**Influence :**
-- Inspiration de la Société des Nations (1920)
-- Inspiration de l'ONU (1945)
-- Théorie de la paix démocratique (démocraties ne se font pas la guerre)
+## Le beau et le sublime
 
-### Droit et État
+La troisième *Critique* part d'une énigme. Quand je dis « cette rose est belle », je ne décris pas une propriété de la rose comme sa couleur ; j'exprime un plaisir. Et pourtant je ne dis pas seulement « elle me plaît », comme je dirais d'un vin ; je prétends que tout le monde devrait la trouver belle. Le jugement de goût est subjectif et prétend néanmoins à l'universalité.
 
-| Concept | Définition kantienne |
-|---------|---------------------|
-| **État de nature** | État sans loi, insécurité |
-| **Contrat social** | Fondement rationnel de l'État |
-| **Droit** | Conditions de coexistence des libertés |
-| **République** | Séparation des pouvoirs, représentation |
+Kant décrit le beau par quatre traits. Il plaît de manière **désintéressée**, sans désir de posséder l'objet. Il plaît **universellement sans concept**, sans qu'on puisse prouver sa beauté par une règle. Il présente une **finalité sans fin** : la fleur semble faite pour quelque chose sans que nous sachions pour quoi. Enfin il est l'objet d'une satisfaction **nécessaire**, que nous attendons de chacun. Ce plaisir vient du libre jeu de l'imagination et de l'entendement, que nous supposons commun à tous.
 
-## Les Trois Postulats de la Raison Pratique
-
-Bien que la raison théorique ne puisse **prouver** ces trois idées, la raison pratique (morale) les **exige** :
-
-### 1. La Liberté
-- Condition de possibilité de la morale
-- Si nous devons agir moralement, nous **devons** être libres
-- "Tu dois, donc tu peux"
-
-### 2. L'Immortalité de l'Âme
-- Nécessaire pour atteindre la **sainteté** (perfection morale)
-- Progrès moral infini
-
-### 3. L'Existence de Dieu
-- Garantie de l'harmonie entre **vertu et bonheur**
-- Le **souverain bien** : Être heureux **parce qu'on est vertueux**
-
-**Conséquence :**
-- Kant rejette les **preuves rationnelles** de Dieu (ontologique, cosmologique, téléologique)
-- Mais maintient Dieu comme **postulat moral**
-
-## Esthétique : Critique de la Faculté de Juger
-
-### Le Jugement de Goût
-
-**Question :** Pourquoi disons-nous "c'est beau" comme si c'était universel, alors que c'est subjectif ?
-
-**Réponse kantienne :**
-- Le beau n'est **ni purement subjectif, ni purement objectif**
-- Il repose sur un **jugement réfléchissant** (pas déterminant)
-- **Universalité subjective** : "Je sens que tous devraient ressentir la même chose"
-
-**Caractéristiques du beau selon Kant :**
-1. **Désintéressement** : Plaisir sans désir de posséder l'objet
-2. **Universalité sans concept** : "Beau pour tous", mais sans règle précise
-3. **Finalité sans fin** : L'objet semble avoir un but, mais lequel ?
-4. **Nécessité** : Sentiment que tous doivent approuver
-
-### Sublime vs. Beau
+Le **sublime** est d'une autre nature.
 
 | Beau | Sublime |
 |------|---------|
@@ -244,88 +111,15 @@ Bien que la raison théorique ne puisse **prouver** ces trois idées, la raison 
 | Nature aimable | Nature terrible (océan déchaîné, montagne) |
 | Limité | Illimité |
 
-**Sublime :**
-- Révèle notre **supériorité morale** face à la nature écrasante
-- Nous sentons notre petitesse physique, mais notre grandeur morale
+Devant l'océan déchaîné ou la montagne écrasante, l'imagination échoue à embrasser ce qu'elle voit, et nous éprouvons notre petitesse physique. Mais ce sentiment s'inverse : nous découvrons en nous une raison capable de penser l'infini et une dignité morale qu'aucune force naturelle ne peut écraser.
 
-## Influence et Héritage
+## Postérité et critiques
 
-### Sur la Philosophie
+Kant a ouvert presque toutes les voies de la philosophie qui suit. Fichte, Schelling et [[Hegel]] construisent l'idéalisme allemand en voulant dépasser la chose en soi ; Schopenhauer y voit la Volonté ; [[Husserl]] reprend l'analyse des structures de la conscience. En morale, il fonde la déontologie moderne et inspire *Théorie de la justice* de Rawls ; en politique, le cosmopolitisme et les droits de l'homme ; la bioéthique lui doit les principes de respect de la personne et de consentement éclairé.
 
-| Domaine | Influence |
-|---------|-----------|
-| **Théorie de la connaissance** | Constructivisme, phénoménologie ([[Husserl]]) |
-| **Éthique** | Déontologie moderne, éthique des droits de l'homme |
-| **Philosophie politique** | Libéralisme politique (Rawls), cosmopolitisme |
-| **Esthétique** | Théories du goût, philosophie de l'art |
+Les objections sont à la mesure de l'influence. Hegel reproche à l'impératif catégorique d'être une forme vide, incapable de dire ce qu'il faut concrètement faire. Mill objecte, dans *L'Utilitarisme*, que l'épreuve de l'universalisation revient en réalité à examiner les conséquences d'une règle si tout le monde la suivait. Nietzsche voit dans le devoir kantien une morale ascétique, hostile à la vie, et dans la chose en soi une fiction métaphysique. Du côté de la connaissance, les empiristes après lui jugent que les prétendues formes a priori pourraient n'être que des habitudes acquises, et l'apparition des géométries non euclidiennes au XIXe siècle, puis de la relativité, a ébranlé l'idée que l'espace euclidien est une forme nécessaire de toute expérience.
 
-**Philosophes influencés :**
-- **Fichte, Schelling, Hegel** : Idéalisme allemand
-- **Schopenhauer** : Critique de Kant, reprend le noumène comme Volonté
-- **Nietzsche** : Critique radicale de la morale kantienne
-- **Husserl** : Phénoménologie (structure de la conscience)
-- **Rawls** : *Théorie de la justice* (inspiration kantienne)
-
-### Sur la Société
-
-- **Droits de l'homme** : Dignité humaine, inviolabilité
-- **Démocratie libérale** : Autonomie, État de droit
-- **Relations internationales** : Paix perpétuelle, ONU
-- **Bioéthique** : Respect de la personne, consentement éclairé
-
-## Critiques Principales
-
-### Critiques de l'Éthique
-**Hegel :**
-- Trop abstraite, ignore les circonstances concrètes
-- Morale vide de contenu ("impératif catégorique ne dit rien")
-
-**Nietzsche :**
-- Morale ascétique, négation de la vie
-- Invention du "devoir" pour contrôler les instincts
-
-**Utilitarisme (Mill) :**
-- Ignore les conséquences des actions
-- Rigorisme excessif (mentir pour sauver une vie ?)
-
-### Critiques de la Métaphysique
-**Hume :**
-- Les catégories a priori sont peut-être des habitudes empiriques généralisées
-
-**Phénoménologie :**
-- La conscience est plus riche que les catégories kantiennes
-
-**Nietzsche :**
-- La distinction phénomène/noumène est une fiction métaphysique
-
-## Citations Célèbres
-
-> "Deux choses remplissent le cœur d'une admiration et d'une vénération toujours nouvelles et toujours croissantes, à mesure que la réflexion s'y attache et s'y applique : le ciel étoilé au-dessus de moi et la loi morale en moi."
-> — **Critique de la raison pratique**
-
-> "Agis de telle sorte que tu traites l'humanité aussi bien dans ta personne que dans la personne de tout autre toujours en même temps comme une fin, et jamais simplement comme un moyen."
-
-> "Sapere aude ! Aie le courage de te servir de ton propre entendement ! Voilà la devise des Lumières."
-> — **Qu'est-ce que les Lumières ?** (1784)
-
-> "Je dus donc abolir le savoir afin d'obtenir une place pour la croyance."
-> — **Critique de la raison pure**
-
-## Actualité de Kant
-
-### En Éthique
-- **Bioéthique** : Consentement éclairé, respect de la dignité
-- **IA et robotique** : Ne pas instrumentaliser l'humain
-- **Environnement** : Respect de la nature (téléologie)
-
-### En Politique
-- **Cosmopolitisme** : Citoyenneté mondiale, droits humains universels
-- **Union Européenne** : Fédéralisme kantien
-- **Droit international** : Cour Pénale Internationale, ingérence humanitaire
-
-### En Épistémologie
-- **Constructivisme** : La connaissance structure la réalité
-- **Sciences cognitives** : Catégories mentales innées (débat)
+Une phrase de la *Critique de la raison pratique* est gravée sur une plaque près de sa tombe, contre la cathédrale de Königsberg : « Deux choses remplissent le cœur d'une admiration et d'une vénération toujours nouvelles et toujours croissantes, à mesure que la réflexion s'y attache et s'y applique : le ciel étoilé au-dessus de moi et la loi morale en moi. » Elle résume une œuvre qui a voulu rendre justice à la fois à la science de la nature et à la liberté humaine (voir [[Universalisme Moral]]).
 
 ## Questions de révision
 
@@ -359,19 +153,10 @@ Bien que la raison théorique ne puisse **prouver** ces trois idées, la raison 
 
 ## Ressources
 
-### Œuvres Essentielles
-- **Critique de la raison pure** (difficile, commencer par la préface de la 2e édition)
-- **Fondements de la métaphysique des mœurs** (accessible, court)
-- **Vers la paix perpétuelle** (accessible)
-
-### Études et Commentaires
-- **Alexis Philonenko**, *L'Œuvre de Kant* (2 tomes)
-- **Luc Ferry**, *Kant : Une lecture des trois Critiques*
-- **Christine Korsgaard**, *Creating the Kingdom of Ends* (en anglais)
-- **Otfried Höffe**, *Immanuel Kant*
-
-### Liens
-- [[Descartes]] - Rationalisme pré-kantien
-- [[Philosophy/Stoïcisme]] - Éthique du devoir (comparaison)
-- [[Universalisme Moral]] - Application de l'impératif catégorique
-- [[Platon]] - Distinction phénomène/noumène vs. monde sensible/intelligible
+- *Fondements de la métaphysique des mœurs* (1785) : court et accessible, la meilleure entrée.
+- *Qu'est-ce que les Lumières ?* (1784) et *Vers la paix perpétuelle* (1795) : deux textes brefs et clairs.
+- *Critique de la raison pure* (1781) : difficile, commencer par la préface de la seconde édition.
+- Alexis Philonenko, *L'Œuvre de Kant* (2 tomes).
+- Luc Ferry, *Kant. Une lecture des trois Critiques* (2006).
+- Otfried Höffe, *Introduction à la philosophie de Kant*.
+- Christine Korsgaard, *Creating the Kingdom of Ends* (1996, en anglais).

@@ -9,13 +9,7 @@ prerequis: ["[[Stoïcisme — Culture G]]"]
 
 # Philosophies non-occidentales
 
-## Pourquoi ce dossier est nécessaire
-
-La philosophie telle qu'elle est enseignée en France est presque entièrement européenne — des Grecs jusqu'à Foucault. Cette limitation est récente et historiquement contingente : pendant des siècles, les philosophes arabes (Avicenne, Averroès) ont transmis et développé les idées grecques pendant que l'Europe les avait perdues ; des traditions indiennes et chinoises ont posé des questions comparables, souvent avec des réponses différentes et complémentaires.
-
-Ce fichier est une introduction, non une exhaustivité. Il vise à situer ces traditions et à ouvrir des comparaisons fructueuses.
-
-## Chronologie
+Vers le Ve siècle avant notre ère, en quelques générations, trois civilisations sans contact entre elles voient naître des sages qui vont marquer des milliards de personnes : Socrate à Athènes, le Bouddha dans la plaine du Gange, Confucius dans la principauté de Lu, en Chine. Le philosophe allemand Karl Jaspers a appelé cette époque l'« âge axial ». La philosophie enseignée en France, des Grecs à Foucault, est pourtant presque entièrement européenne. Cette limite a quelque chose d'arbitraire : pendant des siècles, ce sont des penseurs de langue arabe, comme Avicenne et Averroès, qui ont conservé et prolongé l'œuvre d'Aristote, alors que l'Europe latine l'avait en grande partie perdue ; et l'Inde comme la Chine ont posé les grandes questions de la philosophie, sur le moi, l'action, la vérité, avec des réponses souvent différentes. Ce panorama ne prétend pas en faire le tour, seulement situer ces traditions et ouvrir des comparaisons.
 
 ```mermaid
 timeline
@@ -37,22 +31,13 @@ timeline
         2003 : Mbembe, Nécropolitique
 ```
 
-## Philosophie bouddhiste
+## La philosophie bouddhiste
 
-Le bouddhisme est souvent présenté comme une religion — mais ses fondements sont philosophiques, et plusieurs de ses thèses peuvent être étudiées indépendamment de toute adhésion religieuse.
+Le bouddhisme est souvent présenté comme une religion, mais plusieurs de ses thèses sont philosophiques et peuvent s'étudier sans adhésion religieuse. Selon la tradition, le prince Siddhartha Gautama, élevé dans le luxe, découvre un jour la vieillesse, la maladie et la mort, et quitte son palais pour comprendre la souffrance. Devenu le Bouddha, « l'Éveillé », il formule ce qu'il a compris en **quatre nobles vérités**, à la manière d'un diagnostic médical : la souffrance (*dukkha*) est inhérente à l'existence ordinaire ; elle a une cause, le désir et l'attachement ; elle peut cesser ; et un chemin y mène, le **noble sentier octuple**, qui associe sagesse, conduite éthique et méditation.
 
-**Quatre Nobles Vérités (Bouddha, Ve–IVe s. av. J.-C.) :**
-1. La souffrance (*dukkha*) est constitutive de l'existence ordinaire.
-2. La souffrance a une cause : le désir, l'attachement, l'aversion.
-3. La cessation du désir est possible.
-4. Il existe un chemin pour y parvenir (Noble Octuple Sentier).
+Pourquoi le désir fait-il souffrir ? Parce que tout est **impermanent** (*anicca*) : ce à quoi l'on s'attache finit toujours par changer ou disparaître, si bien que même les plaisirs laissent un manque. Et parce qu'il n'y a pas de **soi** permanent (*anatta*) : ce que j'appelle « moi » n'est qu'un flux de sensations, de pensées et d'émotions, sans noyau fixe. Au IIe siècle, le philosophe indien Nāgārjuna radicalise cette idée avec la **vacuité** (*śūnyatā*) : rien n'existe par soi-même, tout dépend de conditions. Au Japon, au XIIIe siècle, le moine Dōgen fonde l'école zen Sōtō : « Étudier la Voie du Bouddha, c'est s'étudier soi-même. » Au XXe siècle, le moine vietnamien Thich Nhat Hanh (1926-2022) popularise en Occident la **pleine conscience** et un bouddhisme engagé dans les combats politiques.
 
-**Trois marques de l'existence :**
-- *Anicca* (impermanence) : tout ce qui existe change et disparaît. S'y accrocher produit la souffrance.
-- *Dukkha* (insatisfaction) : même les plaisirs sont transitoires et produisent un manque latent.
-- *Anatta* (non-soi) : il n'existe pas de "moi" permanent et fixe — l'identité est un processus, une construction.
-
-**Comparaisons avec la philosophie occidentale :**
+Ces thèses rencontrent étonnamment certaines idées occidentales.
 
 | Bouddhisme | Philosophie occidentale |
 |---|---|
@@ -65,93 +50,47 @@ Le bouddhisme est souvent présenté comme une religion — mais ses fondements 
 > [!important] Idée clé
 > Cette convergence entre traditions sans contact historique direct (Hume n'a pas lu de bouddhisme) n'est probablement pas un hasard : plusieurs traditions arrivent indépendamment à une conception anti-substantialiste du moi parce que l'introspection elle-même, poussée assez loin, ne trouve jamais de noyau stable — seulement des perceptions qui se succèdent. C'est un argument phénoménologique convergent, pas un emprunt culturel.
 
-**Figures importantes :**
-- *Nāgārjuna* (IIe s. ap. J.-C.) — philosophie de la vacuité (*śūnyatā*) : rien n'existe par soi-même, tout dépend de conditions.
-- *Dogen* (XIIIe s., Japon) — bouddhisme zen. "Étudier le Bouddhisme, c'est s'étudier soi-même."
-- *Thich Nhat Hanh* (1926–2022) — bouddhisme engagé, pleine conscience (*mindfulness*) comme pratique éthique et politique.
+## Le taoïsme
 
-## Philosophie taoïste
+Le [[Taoïsme|taoïsme]] est traditionnellement attribué à [[Laozi]], un sage du VIe siècle avant notre ère dont l'existence historique reste incertaine, auteur supposé du *Tao Te King*. Son principe est le **Tao**, la « Voie », source de toutes choses, antérieure à toute distinction et impossible à enfermer dans des mots : « Le Tao qui peut être dit n'est pas le Tao éternel », dit le premier chapitre. Le sage ne cherche pas à imposer sa volonté au monde ; il pratique le ***wu wei***, le « non-agir », qui n'est pas l'inaction, mais une action sans effort inutile, qui épouse le cours des choses au lieu de le forcer, comme l'eau qui contourne les rochers et finit par les user. La valeur suprême est le ***ziran***, ce qui est spontanément soi-même, sans artifice.
 
-Le [[Taoïsme|taoïsme]] (fondé par [[Laozi]], ~VIe–Ve s. av. J.-C.) est une des traditions les plus originales de la philosophie mondiale.
+Zhuangzi, au IVe siècle avant notre ère, donne au taoïsme ses plus belles paraboles. Un cuisinier découpe un bœuf sans jamais émousser sa lame, parce qu'il suit les jointures naturelles de l'animal au lieu de trancher : voilà le *wu wei* parfait. Une nuit, Zhuangzi rêve qu'il est un papillon ; à son réveil, il ne sait plus s'il est Zhuangzi qui a rêvé être un papillon, ou un papillon qui rêve à présent qu'il est Zhuangzi. Deux mille ans avant Descartes, le doute sur la frontière entre rêve et réalité est posé. Le Tao indicible, lui, fait penser à la théologie négative des mystiques chrétiens, qui refusent d'attribuer à Dieu aucun prédicat, ou à la chose en soi de Kant, que nous ne pouvons pas connaître.
 
-**Concepts centraux :**
-- *Le Tao* ("la Voie") : principe fondamental de l'univers, ineffable, antérieur à toute détermination. "Le Tao qui peut être dit n'est pas le Tao éternel." (*Tao Te Ching*, § 1)
-- *Wu wei* (non-agir) : agir en accord avec le flux naturel des choses plutôt que de les forcer. Ce n'est pas l'inaction, mais une action sans résistance inutile, sans ego.
-- *Zi ran* (naturel, spontané) : la valeur suprême est ce qui est de soi-même, sans artifice. Retour à la simplicité contre la complexité institutionnelle.
+## Le confucianisme
 
-**Zhuangzi** (~IVe s. av. J.-C.) — philosophe taoïste plus tardif et plus radical. Connu pour ses paraboles :
-- Le cuisinier qui découpe le bœuf sans effort en suivant ses jointures naturelles — illustration du wu wei parfait.
-- Zhuangzi rêve qu'il est un papillon, puis se réveille et se demande : est-il un homme qui rêvait d'être papillon, ou un papillon qui rêve maintenant d'être un homme ?
+[[Confucius]] (551-479 av. J.-C.) vit un siècle avant Socrate, dans une Chine déchirée par les guerres entre principautés. Sa pensée, recueillie par ses disciples dans les *Entretiens*, fonde une éthique sociale et politique qui a structuré la Chine, la Corée, le Japon et le Vietnam pendant deux millénaires et demi. Sa vertu centrale est le ***ren***, l'humanité ou la bienveillance, résumée par une version de la règle d'or : « Ce que tu ne voudrais pas que l'on te fasse, ne le fais pas aux autres. » Le ***yi***, la droiture, consiste à agir selon ce qui est juste et non selon son intérêt. Les ***li***, les rites, ne sont pas des formalités vides : les gestes de politesse, les cérémonies familiales et les usages sociaux transmettent et entretiennent les valeurs. L'idéal est le ***junzi***, « l'homme de bien », qui incarne ces vertus dans sa conduite quotidienne.
 
-**Comparaisons avec la philosophie occidentale :**
-- Le wu wei rappelle l'*amor fati* stoïcien (accepter ce qui est) et le détachement épicurien.
-- La question du Tao ineffable résonne avec l'apophase mystique (Dieu au-delà de tout prédicat) et avec le *noumène* kantien (la chose en soi inaccessible).
-- Zhuangzi et son papillon anticipent Descartes et le doute sur la distinction rêve/réalité.
+Le confucianisme est ainsi une **éthique des vertus**, plus proche d'Aristote que de Kant (voir [[Éthique — Utilitarisme, Déontologie, Vertus]]). Comme Aristote, il pense l'excellence humaine dans les relations, celles du fils et du père, du sujet et du souverain, des amis entre eux. Mais il accorde à la tradition et aux rites un poids que la philosophie moderne, attachée à l'autonomie de l'individu, leur refuse.
 
-## Philosophie confucéenne
+## La pensée africaine : Ubuntu
 
-[[Confucius]] (551–479 av. J.-C.) précède de peu Socrate, né vers 470 av. J.-C. Sa pensée fonde une éthique sociale et politique qui a structuré la Chine, le Japon, la Corée et le Vietnam pendant 2 500 ans.
-
-**Concepts centraux :**
-- *Ren* (仁, humanité, bienveillance) : la vertu fondamentale — traiter les autres avec humanité et compassion. "Ne fais pas aux autres ce que tu ne voudrais pas qu'ils te fassent." Comparable au *harm principle* de Mill ou à l'impératif catégorique de Kant.
-- *Li* (禮, rites, étiquette) : les formes sociales ne sont pas vides — elles incarnent et transmettent les valeurs. L'éthique passe par des pratiques ritualisées partagées.
-- *Yi* (義, rectitude, justice) : agir selon ce qui est juste, non selon l'intérêt personnel.
-- *Junzi* (君子, l'homme exemplaire) : idéal moral confucéen — celui qui incarne les vertus dans sa conduite quotidienne. Comparable au *phronimos* aristotélicien (l'homme prudent).
-
-**Comparaisons :**
-- L'éthique confucéenne est une *éthique des vertus* — plus proche d'Aristote que de Kant ou des utilitaristes.
-- L'insistance sur les rôles sociaux (fils, père, souverain, ami) rappelle la conception aristotélicienne de l'homme comme animal politique dont l'excellence est relationnelle.
-- Mais Confucius valorise davantage la tradition et les rites que l'autonomie individuelle — contraste fort avec l'autonomie kantienne.
-
-## Philosophie africaine — Ubuntu
-
-La pensée africaine est diverse et ne peut pas être réduite à un système unique. *Ubuntu* est un concept issu des cultures bantoues d'Afrique australe qui a été philosophiquement développé.
-
-**Ubuntu :** *Umuntu ngumuntu ngabantu* (zulu), littéralement « une personne est une personne par les autres », souvent rendu par la formule de John Mbiti « Je suis parce que nous sommes ». L'identité personnelle n'est pas donnée isolément mais constituée par les relations. L'être humain est fondamentalement relationnel, communautaire.
+La pensée africaine est trop diverse pour se ramener à un système. Un concept a pourtant reçu une élaboration philosophique particulière : ***ubuntu***, issu des langues bantoues d'Afrique australe. Le proverbe zoulou *umuntu ngumuntu ngabantu* signifie « une personne est une personne par les autres » ; le philosophe kényan John Mbiti l'a résumé par la formule « je suis parce que nous sommes ». L'identité n'est pas donnée à un individu isolé : elle est constituée par ses relations.
 
 > [!warning] Piège
 > Réduire Ubuntu à "collectivisme contre individualisme" en fait une simple préférence politique parmi d'autres — et manque le point. La thèse est ontologique, pas seulement politique : elle affirme que la relation précède l'individu dans l'ordre de l'être (je n'existe pas d'abord comme atome qui *ensuite* choisit d'entrer en relation), pas seulement qu'il faudrait privilégier le groupe par choix de valeurs.
 
-**Implications philosophiques :**
-- Contre l'individualisme libéral occidental (Locke, Rawls) : je ne suis pas d'abord un individu qui *ensuite* entre en relation. Les relations me constituent.
-- Une éthique de la réciprocité et de la solidarité communautaire plutôt que de droits individuels.
-- Le pardon et la réconciliation comme vertus politiques (Commission Vérité et Réconciliation en Afrique du Sud — Desmond Tutu l'a explicitement fondée sur Ubuntu).
+Cette idée conteste le point de départ de l'individualisme libéral de Locke ou de Rawls, et fonde une éthique de la réciprocité et de la solidarité plutôt que des droits individuels. Elle a trouvé une traduction politique spectaculaire : l'archevêque Desmond Tutu l'invoque explicitement pour justifier la Commission vérité et réconciliation, créée en 1995 en Afrique du Sud, qui privilégie l'aveu et le pardon sur la punition. D'autres penseurs africains et de la diaspora ont marqué la philosophie contemporaine : Frantz Fanon, avec *Les Damnés de la terre* (1961), sur la décolonisation et la violence ; le Camerounais Achille Mbembe, avec la **nécropolitique**, ce pouvoir de décider qui peut vivre et qui doit mourir, qui prolonge et critique le biopouvoir de Foucault ; le Ghanéen Kwame Anthony Appiah, avec un cosmopolitisme attentif aux identités multiples.
 
-**Philosophes africains contemporains :**
-- *Achille Mbembe* — concept de *nécropolitique* (qui a le droit de laisser mourir ou de tuer ?), critique postcoloniale du biopouvoir foucaldien.
-- *Frantz Fanon* (*Les Damnés de la Terre*, 1961) — philosophie de la décolonisation, violence et reconnaissance.
-- *Kwame Anthony Appiah* — cosmopolitisme ancré dans la reconnaissance des identités plurielles.
+## La philosophie indienne
 
-## Philosophie indienne — quelques jalons
+La philosophie indienne s'organise en plusieurs écoles, les *darshanas*, parmi les plus anciennes et les plus subtiles du monde. L'**Advaita Vedanta**, la non-dualité, systématisée par Shankara au VIIIe siècle, enseigne que l'âme individuelle (*atman*) et la réalité absolue (*brahman*) ne font qu'un, et que la multiplicité du monde n'est qu'apparence (*maya*), une thèse qu'on a rapprochée de l'idéalisme de Berkeley ou de certaines lectures de Spinoza. L'école **Nyaya** développe une logique et une théorie de la connaissance rigoureuses, indépendamment de la logique grecque. Les *Yoga Sutras* de Patanjali, dont la datation est discutée, mais que beaucoup de chercheurs placent vers 400 de notre ère, décrivent une discipline de l'esprit menant à la libération (*moksha*), qui commence par des règles éthiques comme la non-violence et la véracité.
 
-La philosophie indienne (Darshanas) est une des plus anciennes et des plus sophistiquées au monde. Quelques points d'entrée :
+## Ce que ces traditions apportent
 
-- **Vedanta non-dualiste** (*Advaita Vedanta*, Shankaracharya, VIIIe s.) : *Brahman* (réalité absolue, conscience pure) et *Atman* (conscience individuelle) sont identiques. Le monde phénoménal est *Maya* (apparence). Convergences avec l'idéalisme de Berkeley et certaines lectures de Spinoza.
-- **Nyaya** (école de logique) : développement d'une logique formelle et d'une épistémologie rigoureuse, indépendamment de la logique grecque.
-- **Philosophie du Yoga** : les *Yoga Sutras* de Patanjali (datation débattue, entre le IIe s. av. J.-C. et le Ve s. apr. J.-C. ; beaucoup de chercheurs retiennent aujourd'hui les environs de 400) — discipline de l'esprit, étapes vers la libération (*moksha*). L'éthique du yoga commence par les *Yamas* (non-violence, vérité, non-appropriation) — convergences avec la philosophie stoïcienne.
-
-## Pourquoi philosopher à l'échelle mondiale ?
-
-Ces traditions apportent des corrections et des enrichissements à la philosophie occidentale :
-
-1. **Sur le moi** : le bouddhisme (*anatta*) et certaines philosophies africaines (*Ubuntu*) offrent des alternatives à la conception occidentale d'un sujet individuel, stable et souverain.
-2. **Sur l'action** : le *wu wei* taoïste questionne l'obsession occidentale de l'action délibérée et de la maîtrise. Il y a une sagesse dans le non-forçage.
-3. **Sur l'éthique** : le [[Confucianisme|confucianisme]] montre qu'une éthique des vertus profondément relationnelle est possible sans référence à un individu autonome.
-4. **Sur la vérité** : les traditions négatives (Tao ineffable, Brahman au-delà des prédicats) rappellent que la philosophie occidentale a peut-être été trop confiante dans le langage.
+Elles offrent d'abord d'autres conceptions du **moi** : le non-soi bouddhiste et l'*ubuntu* contestent l'idée occidentale d'un sujet individuel, stable et souverain. Elles interrogent notre rapport à l'**action** : le *wu wei* rappelle qu'il y a une sagesse à ne pas tout forcer. Le [[Confucianisme|confucianisme]] montre qu'une **éthique** profondément relationnelle est possible sans partir de l'individu autonome. Et les traditions de l'indicible, du Tao au *brahman*, suggèrent que la philosophie occidentale a peut-être trop fait confiance au langage pour dire la **vérité**.
 
 ## Ressources
 
 **Introductions accessibles :**
-- Bryan Van Norden, *Introduction to Classical Chinese Philosophy* (2011) — excellente entrée au confucianisme et au taoïsme.
-- Mark Siderits, *Buddhism as Philosophy* (2007) — approche philosophique analytique du bouddhisme.
-- Thich Nhat Hanh, *Le Cœur des enseignements du Bouddha* — introduction accessible au bouddhisme vivant.
-- Kwame Anthony Appiah, *Le Code d'honneur* (2011) — philosophie morale enracinée dans des traditions non-occidentales.
+- Bryan Van Norden, *Introduction to Classical Chinese Philosophy* (2011) : une excellente entrée au confucianisme et au taoïsme, en anglais.
+- Mark Siderits, *Buddhism as Philosophy* (2007) : le bouddhisme lu avec les outils de la philosophie analytique, en anglais.
+- Thich Nhat Hanh, *Le Cœur de l'enseignement du Bouddha* : une introduction accessible au bouddhisme vivant.
+- Kwame Anthony Appiah, *Le Code d'honneur* (2011) : comment les révolutions morales se produisent.
 
 **Podcasts et vidéos :**
-- *Philosophize This!* — épisodes sur le bouddhisme, le taoïsme, Confucius et la philosophie indienne.
-- France Culture, *Les Chemins de la Philosophie* — épisodes ponctuels sur les philosophies non-occidentales.
-- Chaîne YouTube **Einzelgänger** — vidéos sur le stoïcisme, le bouddhisme et le taoïsme en comparaison.
-- Stanford Encyclopedia of Philosophy : entrées **Buddhist Philosophy**, **Confucius**, **Daoism**.
+- *Philosophize This!* (Stephen West) : épisodes sur le bouddhisme, le taoïsme, Confucius et la philosophie indienne.
+- France Culture, *Les Chemins de la philosophie* : épisodes consacrés aux philosophies non occidentales.
+- Stanford Encyclopedia of Philosophy : entrées **Buddhism**, **Confucius** et **Daoism** (plato.stanford.edu).
 
 ## Questions ouvertes
 

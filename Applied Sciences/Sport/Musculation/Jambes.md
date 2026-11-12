@@ -9,181 +9,77 @@ prerequis: ["[[Applied Sciences/Sport/Musculation/Musculation et Force]]"]
 
 # Musculation des Jambes
 
+Les jambes portent le corps toute la journée, le propulsent quand on court ou saute, et rassemblent les plus gros muscles du corps. Les négliger au profit des bras et des pectoraux donne la silhouette moquée dans les salles, un buste massif sur des jambes grêles, mais surtout prive de l'essentiel de la force utile au quotidien et dans le sport. Pour bien les entraîner, il faut d'abord savoir ce que fait chaque groupe de muscles.
+
 [![Anatomie des cuisses](https://www.gladiatorfit.ch/wp-content/uploads/2023/03/muscles-jambes-1000x864.jpg)](https://fr.wikipedia.org/wiki/Cuisse)
 
 ## Anatomie de la cuisse
 
-Pour comprendre l’importance des exercices pour muscler ses jambes, il est essentiel d’avoir une connaissance de base de l’anatomie de la cuisse. Cette région du corps est composée de trois principaux groupes musculaires, chacun ayant un rôle spécifique dans le mouvement et la stabilité. Découvrons ensemble ces muscles clés :
+Les **quadriceps**, à l'avant de la cuisse, réunissent quatre muscles : le vaste externe, le vaste intermédiaire, le vaste interne et le droit fémoral. Ensemble, ils tendent le genou, un geste présent dans la marche, la course, le saut ou la montée d'escaliers, et ils stabilisent la rotule. Le droit fémoral, seul des quatre à franchir aussi la hanche, aide en plus à lever la cuisse.
 
-### Les quadriceps
-
-Les quadriceps sont situés sur la partie antérieure de ta cuisse et jouent un rôle crucial dans ta locomotion. Ce groupe musculaire est composé de quatre muscles : **le vaste externe, le vaste intermédiaire, le vaste interne et le droit fémoral**. Lorsque tu effectues des mouvements tels que la marche, la course ou le [saut](https://www.gladiatorfit.ch/produit/plyobox-box-de-saut-en-mousse-empilable/), tes quadriceps sont sollicités pour l’extension de ton genou et la flexion de ta hanche. De plus, ces muscles agissent comme des stabilisateurs importants de ta rotule, contribuant ainsi à la santé et à la mobilité de ton articulation du genou.
-
-### Les adducteurs
-
-Les adducteurs sont situés sur **la partie médiale de la cuisse, entre le bassin et le fémur**. Ce groupe musculaire est composé de plusieurs muscles, dont les principaux sont l’adducteur long, l’adducteur court, l’adducteur moyen, le gracile et le grand adducteur. L’action principale des adducteurs est d’effectuer l’adduction de la cuisse, c’est-à-dire de rapprocher la cuisse du centre du corps. Ces muscles sont essentiels pour les mouvements tels que la marche, la course latérale et les activités impliquant un écartement des jambes.
-
-### Les ischio-jambiers
-
-Les ischio-jambiers se situent sur la partie postérieure de la cuisse et sont également composés de plusieurs muscles, dont les principaux sont le **biceps fémoral, le semi-tendineux et le semi-membraneux**. Ces muscles ont comme action principale la flexion de la jambe au niveau du genou et l’extension de la cuisse. Ils jouent un rôle essentiel dans la **stabilité du genou et sont particulièrement sollicités lors des activités de saut, de sprint et de flexion du buste**.
+Les **ischio-jambiers**, à l'arrière de la cuisse, comprennent le biceps fémoral, le semi-tendineux et le semi-membraneux. Ils fléchissent le genou et tendent la hanche, c'est-à-dire ramènent la cuisse vers l'arrière. Ils stabilisent le genou et travaillent fort lors des sprints, des sauts et chaque fois qu'on se penche en avant en gardant le dos droit.
 
 > [!warning] Piège
 > Les ischio-jambiers sont bi-articulaires (ils traversent la hanche ET le genou), contrairement aux quadriceps qui n'agissent principalement qu'au genou. C'est cette double action qui les rend particulièrement sujets aux claquages en sprint : ils sont étirés en flexion de hanche pendant que le genou s'étend, un allongement combiné qu'aucun exercice mono-articulaire (leg curl) ne reproduit complètement — d'où l'intérêt d'exercices comme le soulevé de terre jambes tendues pour les préparer à ce stress spécifique.
 
-## Séance de musculation pour muscler ses jambes
+Les **adducteurs**, à l'intérieur de la cuisse, s'étendent du bassin au fémur. Les principaux sont le long adducteur, le court adducteur, le grand adducteur et le gracile. Ils rapprochent la cuisse de l'axe du corps et interviennent dans les changements de direction et les déplacements latéraux. Leurs opposés, les **abducteurs**, écartent la cuisse vers l'extérieur ; ce rôle revient surtout au moyen fessier, sur le côté de la hanche.
 
-Voici une séance de musculation spécialement conçue pour muscler tes jambes en ciblant les quadriceps, les adducteurs et les ischio-jambiers.
+Les **fessiers**, enfin, sont les muscles les plus puissants du corps. Le grand fessier tend la hanche, pour se relever d'un squat, monter une pente ou sprinter, tandis que le moyen et le petit fessier stabilisent le bassin à chaque pas.
 
-- Leg curl – 3 séries de 12 répétitions
-- Soulevé de terre jambes tendues avec [haltères](https://www.gladiatorfit.ch/categorie-produit/musculation-et-fitness/musculation/halteres/) – 3 séries de 10 répétitions
-- Squat sumo – 4 séries de 8 répétitions
-- Abduction à la machine – 3 séries de 15 répétitions
-- Leg extension – 3 séries de 12 répétitions
-- Presse – 4 séries de 10 répétitions
+## Une séance pour les jambes
 
-N’oublie pas de t’échauffer avant de commencer la séance avec quelques étirements légers et des exercices d’activation musculaire. Assure-toi également de maintenir une bonne technique et une bonne posture tout au long de chaque exercice pour éviter les blessures. Bon entraînement !
+La séance proposée ici combine des exercices sur machine et avec haltères pour couvrir chacun de ces groupes musculaires :
 
+| Exercice | Séries × répétitions | Muscles visés |
+|---|---|---|
+| Leg curl | 3 × 12 | ischio-jambiers |
+| Soulevé de terre jambes tendues aux haltères | 3 × 10 | ischio-jambiers, fessiers |
+| Squat sumo | 4 × 8 | adducteurs, quadriceps, fessiers |
+| Abduction à la machine | 3 × 15 | moyen fessier |
+| Leg extension | 3 × 12 | quadriceps |
+| Presse | 4 × 10 | quadriceps, fessiers |
+
+On commence par un échauffement de quelques minutes, avec des mouvements dynamiques et des séries légères du premier exercice, plutôt que de longs étirements statiques qui diminuent la force (voir [[Flexibilité et Mobilité]]). Tout au long de la séance, la technique prime sur la charge.
 
 ![Exercice musculation pour les jambes : Leg curl](https://www.gladiatorfit.ch/wp-content/uploads/2023/03/Exercice-jambes-Leg-curl-1000x562.jpg)
 
 ### Leg curl
 
-Le leg curl est un exercice d’isolation spécifique pour les ischio-jambiers. Il peut être effectué sur différentes machines, que ce soit en position couchée, debout ou assise.  
-Pour le réaliser :
-
-- Allonge-toi sur la machine de leg curl et place tes chevilles sous le coussin de la machine.
-- En utilisant la force de tes ischio-jambiers, plie tes jambes en amenant tes talons vers tes fesses, puis redescends lentement à la position de départ.
-- Contrôle le mouvement pendant toute la durée de l’exercice pour optimiser le travail sur tes ischio-jambiers.
+Le leg curl isole les ischio-jambiers. Il se pratique sur une machine, allongé, assis ou debout. Allongé, chevilles calées sous le boudin, on fléchit les genoux pour ramener les talons vers les fesses, puis on redescend lentement. Contrôler la descente fait travailler le muscle pendant tout le mouvement au lieu de laisser la machine retomber.
 
 ![Exercice musculation pour les jambes : Soulevé de terre avec haltères](https://www.gladiatorfit.ch/wp-content/uploads/2023/03/Exercice-jambes-Souleve-de-terre-avec-halteres-1000x562.jpg)
 
-### Soulevé de terre jambes tendues avec haltères
+### Soulevé de terre jambes tendues
 
-Le soulevé de terre jambes tendues avec [haltères](https://www.gladiatorfit.ch/produit/haltere-hexagonal-hex-dumbbell-en-caoutchouc/) est un exercice qui met l’accent sur le travail des ischio-jambiers tout en engageant également d’autres muscles du bas du dos et des fessiers.  
-Pour le réaliser :
-
-- Tiens-toi debout, saisis un haltère dans chaque main en pronation et place tes pieds à la largeur de tes épaules.
-- Penche ton buste vers l’avant en fléchissant tes hanches à 90 degrés tout en gardant ton dos bien droit et les épaules en arrière.
-- Remonte à la position verticale en contractant tes ischio-jambiers pour ramener ton buste en position debout.
-
-Ce mouvement sollicite intensément les ischio-jambiers et contribue à améliorer leur force et leur flexibilité.
+Le soulevé de terre jambes tendues, ou soulevé de terre roumain, travaille les ischio-jambiers en allongement, ainsi que les fessiers et le bas du dos. Debout, pieds à la largeur des épaules, une haltère dans chaque main devant les cuisses, on bascule le buste vers l'avant en poussant les hanches vers l'arrière, genoux légèrement fléchis et dos bien droit, jusqu'à sentir l'étirement à l'arrière des cuisses. On remonte ensuite en contractant les fessiers et les ischio-jambiers. Le dos ne doit jamais s'arrondir : l'amplitude s'arrête là où il commencerait à le faire.
 
 ![Exercice jambes Squat sumo](https://www.gladiatorfit.ch/wp-content/uploads/2023/03/Exercice-jambes-Squat-sumo-1000x562.jpg)
 
 ### Squat sumo
 
-Le squat sumo est un excellent exercice pour cibler tes adducteurs tout en travaillant également d’autres muscles importants des jambes.  
-Pour le réaliser :
-
-- Place tes pieds bien plus larges que tes épaules, tourne légèrement les pointes de tes pieds vers l’extérieur, garde ton dos bien droit et descends ton bassin entre tes abducteurs en regardant droit devant toi.
-- Pousse ensuite sur tes talons pour revenir à la position debout.
-
-Ce mouvement mettra l’accent sur le travail des adducteurs tout en stimulant tes quadriceps et tes fessiers.
+Le squat sumo met l'accent sur les adducteurs tout en sollicitant les quadriceps et les fessiers. Les pieds sont placés bien plus larges que les épaules, pointes tournées vers l'extérieur. Dos droit et regard devant soi, on descend le bassin entre les jambes en ouvrant les genoux dans l'axe des pieds, puis on remonte en poussant sur les talons.
 
 ![Exercice musculation pour les jambes : Abduction a la machine](https://www.gladiatorfit.ch/wp-content/uploads/2023/03/Exercice-jambes-Abduction-a-la-machine-1000x562.jpg)
 
 ### Abduction à la machine
 
-L’abduction à la machine te permet d’**isoler spécifiquement les muscles adducteurs**.
-
-Pour réaliser cet exercice :
-
-- Installe-toi sur une machine d’abduction, place l’intérieur de tes cuisses contre les coussinets et écarte tes jambes vers l’extérieur.
-- Marque un léger temps d’arrêt en contraction maximale, puis contrôle bien la phase excentrique en revenant lentement à la position initiale.
-- Veille à garder une bonne posture pendant l’exercice et à ne pas utiliser d’élan pour obtenir une meilleure efficacité.
+L'abduction écarte les cuisses vers l'extérieur et fait donc travailler les abducteurs, surtout le moyen fessier, et non les adducteurs. Assis sur la machine, l'extérieur des cuisses contre les coussinets, on écarte les jambes, on marque un temps d'arrêt en contraction, puis on revient lentement. La machine voisine, où l'on serre les cuisses l'une contre l'autre, est celle des adducteurs ; on peut l'ajouter pour les isoler.
 
 ![Exercice musculation pour les jambes : Leg extension](https://www.gladiatorfit.ch/wp-content/uploads/2023/03/Exercice-jambes-Presse-Leg-extension-1000x562.jpg)
 
 ### Leg extension
 
-La leg extension est un exercice qui cible spécifiquement tes quadriceps.  
-Pour réaliser cet exercice:
-
-- Assieds-toi sur une machine de leg extension, place tes jambes sous le coussin de la machine et agrippe les poignées latérales pour plus de stabilité.
-- En utilisant la force de tes quadriceps, pousse le coussin vers l’avant en tendant complètement tes jambes.
-- Contrôle le mouvement en ramenant lentement le coussin à la position de départ sans relâcher complètement la tension sur tes quadriceps.
-- Assure-toi de placer tes genoux à la hauteur de l’articulation de la machine pour éviter de mettre une pression excessive sur tes genoux.
+Le leg extension isole les quadriceps. Assis, les chevilles sous le boudin et les mains sur les poignées, on tend complètement les jambes, puis on redescend lentement sans relâcher toute la tension. Le genou doit être aligné avec l'axe de rotation de la machine, sans quoi l'articulation encaisse des contraintes inutiles.
 
 ![Exercice musculation pour les jambes : Presse](https://www.gladiatorfit.ch/wp-content/uploads/2023/03/Exercice-jambes-Presse-1000x562.jpg)
 
 ### Presse
 
-La presse est un exercice polyvalent qui te permet de **travailler tes quadriceps avec des charges lourdes tout en minimisant la pression sur ton dos**.  
-Pour réaliser cet exercice :
-
-- Installe-toi sur une [machine de presse](https://www.gladiatorfit.ch/produit/presse-de-musculation-a-cuisses-et-mollets-reglable-en-acier/), place tes pieds à la largeur de tes épaules sur la plateforme et repousse-la en tendant tes jambes.
-- Veille à garder ton dos et tes fessiers plaqués contre le siège pour maintenir une bonne posture.
-- Contrôle le mouvement en descendant lentement la plateforme vers toi et repousse-la à la position de départ en contractant tes quadriceps.
-
-La presse est particulièrement efficace pour développer la force et l’endurance de tes quadriceps.
+La presse permet de charger lourd les quadriceps et les fessiers en ménageant le dos. Installé sur la machine, pieds à la largeur des épaules sur la plateforme, on la repousse en tendant les jambes, puis on la laisse redescendre lentement vers soi. Le dos et les fesses restent plaqués contre le siège : si le bassin se décolle en bas du mouvement, c'est que l'on descend trop bas. Placer les pieds plus haut sur la plateforme sollicite davantage les fessiers, plus bas davantage les quadriceps.
 
 > [!tip] Méthode
 > La presse permet de charger lourd avec moins de stress lombaire que le squat, mais ce confort a un coût : le dos étant calé contre le dossier, le core ne travaille plus comme stabilisateur du tronc — un rôle central du squat libre. La presse est un bon complément pour surcharger les quadriceps sans fatigue systémique, pas un remplaçant complet du squat pour qui cherche aussi le transfert fonctionnel.
-## Musculation
 
+## Variante sans machine
 
-Pecs :
-
-Machine convergente
-
-Dips
-
-Developpé légerement décliné
-
-Developpé couché
-
-Biceps:
-
-curl poulis dos à la machine
-
-Traction supination
-
-Triceps :
-
-Dips
-
-Haltères au front
-
-Extension des coudes avec un haltère
-
-Trapèzes
-
-Tirage à la barre T
-
-Tirage menton
-
-Dorsaux
-
-Traction
-
-Tirage vertical à la poulie haute
-
-Grand fessier
-
-Presse à cuisses
-
-
-
-**A. Squats avec haltères**
-
-- Muscles ciblés : quadriceps, fessiers, ischio-jambiers.
-- Instructions :
-    1. Tenez une haltère dans chaque main à hauteur des épaules ou le long du corps.
-    2. Descendez en position de squat en poussant les hanches vers l'arrière.
-    3. Remontez en gardant le dos droit.
-
-**B. Fentes (Lunges)**
-
-- Muscles ciblés : quadriceps, fessiers, mollets.
-- Instructions :
-    1. Tenez une haltère dans chaque main, bras le long du corps.
-    2. Avancez une jambe et descendez jusqu'à ce que vos genoux forment des angles de 90°.
-    3. Revenez à la position de départ et alternez les jambes.
-
-**C. Soulevé de terre jambes tendues (Romanian Deadlift)**
-
-- Muscles ciblés : ischio-jambiers, fessiers, bas du dos.
-- Instructions :
-    1. Tenez une haltère dans chaque main devant vos cuisses.
-    2. Inclinez-vous vers l’avant en gardant le dos droit et les jambes légèrement fléchies.
-    3. Revenez à la position debout.
+Avec une simple paire d'haltères, trois exercices suffisent à construire une séance complète. Le **squat aux haltères**, charges tenues à hauteur des épaules ou le long du corps, fait travailler les quadriceps, les fessiers et les ischio-jambiers : on descend en poussant les hanches vers l'arrière, puis on remonte en gardant le dos droit. Les **fentes** sollicitent les quadriceps, les fessiers et l'équilibre : on avance une jambe et l'on descend jusqu'à ce que les deux genoux forment un angle droit, avant de revenir et d'alterner. Le **soulevé de terre jambes tendues**, décrit plus haut, complète le travail de l'arrière de la cuisse.

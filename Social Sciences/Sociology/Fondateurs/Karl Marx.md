@@ -9,371 +9,76 @@ prerequis: ["[[Social Sciences/Sociology/Les Pères Fondateurs]]"]
 
 # Karl Marx (1818-1883)
 
-Philosophe, économiste, sociologue et révolutionnaire allemand. Figure fondamentale de la pensée sociale et politique moderne.
+En mars 1883, une dizaine de personnes seulement assistent à l'enterrement de Karl Marx au cimetière de Highgate, à Londres. Engels y prononce un court discours : de même que Darwin a découvert la loi du développement de la nature organique, Marx a découvert la loi du développement de l'histoire humaine, ce fait simple que les hommes doivent d'abord manger, boire, se loger et se vêtir avant de pouvoir faire de la politique, de la science, de l'art ou de la religion. « Son nom vivra à travers les siècles, et son œuvre aussi », conclut-il. Le pronostic, alors bien audacieux pour un exilé presque inconnu, s'est réalisé au-delà de tout ce qu'il imaginait : un siècle plus tard, un tiers de l'humanité vivait sous des régimes qui se réclamaient de lui. Philosophe, économiste, journaliste et militant, Marx est aussi l'un des fondateurs de la sociologie, celui qui a placé le conflit et la domination au cœur de l'analyse des sociétés.
 
-## Biographie
+## Une vie d'exil
 
-**Parcours:**
-- Né à Trèves (Rhénanie prussienne), famille juive convertie au protestantisme
-- Études de droit puis philosophie (Université de Berlin)
-- Thèse sur Démocrite et [[Épicure]] (1841)
-- Journaliste (*Rheinische Zeitung*, *Neue Rheinische Zeitung*)
-- Exils successifs: Paris (1843), Bruxelles (1845), Londres (1849-1883)
-- Pauvreté, soutien de Friedrich Engels
-- Fondation de l'Association Internationale des Travailleurs (Première Internationale, 1864)
-- Décès à Londres en 1883
+Marx naît en 1818 à Trèves, en Rhénanie, dans une famille juive dont le père, avocat, s'est converti au protestantisme pour pouvoir exercer. Étudiant à Bonn puis à Berlin, il fréquente les Jeunes hégéliens, qui retournent la philosophie de Hegel contre la religion et l'État prussien, et soutient en 1841 à l'université d'Iéna une thèse sur la différence entre les philosophies de la nature de Démocrite et d'[[Épicure]]. Faute de pouvoir enseigner, il devient journaliste ; la *Gazette rhénane* qu'il dirige est interdite en 1843. Commence alors une vie d'exil : Paris, où il rencontre durablement Engels en 1844, Bruxelles en 1845, l'Allemagne en révolution en 1848, puis Londres à partir de 1849, jusqu'à sa mort.
 
-**Contexte:**
-- Révolutions de 1848
-- Industrialisation brutale, condition ouvrière
-- Répression politique (exils)
-- Expansion du capitalisme
+À Londres, la famille vit dans une grande pauvreté ; plusieurs de ses enfants meurent en bas âge. Marx passe ses journées dans la salle de lecture du British Museum, écrit pour le *New York Daily Tribune* et survit grâce à l'aide constante de Friedrich Engels, son ami et collaborateur de quarante ans. Il rédige en 1864 l'adresse inaugurale de l'Association internationale des travailleurs, la Première Internationale, dont il devient la tête pensante, en lutte avec les anarchistes de Bakounine. Il meurt en 1883, laissant inachevé *Le Capital*, l'œuvre de sa vie.
 
-**Collaboration avec Engels:**
-- Friedrich Engels (1820-1895): Ami, collaborateur, soutien financier
-- Co-auteur du *Manifeste*, contributions théoriques
+## Le jeune Marx et l'aliénation
 
-## Œuvres Principales
+Les *Manuscrits économico-philosophiques de 1844*, publiés seulement en 1932, montrent un Marx encore proche de Hegel et de Feuerbach, qui pense le capitalisme en termes d'**aliénation**, une dépossession par laquelle ce que l'homme produit lui devient étranger et le domine. L'ouvrier est d'abord séparé du produit de son travail, qui appartient à un autre et se dresse contre lui comme une puissance hostile. Il est séparé de son activité elle-même : le travail n'est plus l'expression de soi mais un moyen de survivre, de sorte que l'homme ne se sent libre que dans ses fonctions animales, manger, boire, procréer, et se sent une bête dans son travail. Il est séparé de son « être générique », de ce qui fait de lui un homme, cette capacité de transformer librement la nature. Il est enfin séparé des autres hommes, avec qui il n'a plus que des rapports de concurrence. Le communisme est alors pensé comme la réappropriation par l'homme de sa propre essence, dans un travail libre et créateur.
 
-### Manuscrits de 1844 (Manuscrits économico-philosophiques)
+## Le matérialisme historique
 
-**Jeunesse de Marx:**
-- Publiés seulement au XXe siècle
-- Influence hégélienne, feuerbachienne
-- Humanisme
+Avec Engels, dans *L'Idéologie allemande* (1845-1846), puis dans la célèbre préface de la *Contribution à la critique de l'économie politique* (1859), Marx formule une conception de l'histoire qu'on appellera le **matérialisme historique**. Pour vivre, les hommes doivent produire leurs moyens d'existence, et ils le font avec des **forces productives**, outils, machines, terres, savoir-faire, force de travail, dans le cadre de **rapports de production** déterminés, qui fixent qui possède les moyens de production et qui travaille pour qui. Cet ensemble forme l'**infrastructure** de la société, sur laquelle s'élève une **superstructure** juridique, politique et idéologique : l'État, le droit, la religion, la philosophie. « Ce n'est pas la conscience des hommes qui détermine leur être ; c'est inversement leur être social qui détermine leur conscience. »
 
-**Concept d'aliénation:**
-- Travailleur aliéné dans le capitalisme:
-  1. **Du produit:** Ne lui appartient pas
-  2. **De l'activité:** Travail contraint, non épanouissant
-  3. **De l'être générique:** Nature humaine (homo faber) niée
-  4. **Des autres hommes:** Rapports de concurrence, exploitation
-
-**Critique de l'économie politique:**
-- Propriété privée, argent, salariat
-
-### L'Idéologie Allemande (1845-1846, avec Engels)
-
-**Rupture avec idéalisme:**
-- Critique de Feuerbach, jeunes hégéliens
-- Matérialisme historique formulé
-
-**Thèses:**
-- Ce n'est pas la conscience qui détermine la vie, mais la vie qui détermine la conscience
-- Infrastructure économique détermine superstructure idéologique
-- "Les philosophes n'ont fait qu'interpréter le monde de différentes manières, ce qui importe, c'est de le transformer" (Thèses sur Feuerbach, 1845)
-
-### Manifeste du Parti Communiste (1848, avec Engels)
-
-**Texte révolutionnaire:**
-- Commande de la Ligue des Communistes
-- Programme politique et analyse historique
-
-**Ouverture célèbre:**
-- "Un spectre hante l'Europe: le spectre du communisme"
-- "L'histoire de toute société jusqu'à nos jours n'a été que l'histoire de luttes de classes"
-
-**Analyse du capitalisme:**
-- Bourgeoisie = classe révolutionnaire (vs féodalité)
-- Mais créatrice de son propre fossoyeur: le prolétariat
-- Accumulation, crises, concentration du capital
-- Paupérisation relative et absolue
-
-**Appel révolutionnaire:**
-- Renversement du capitalisme
-- Dictature du prolétariat (transition)
-- Abolition de la propriété privée des moyens de production
-- Société communiste (sans classes)
-
-**Conclusion:**
-- "Prolétaires de tous les pays, unissez-vous!"
-
-### Le Capital (Das Kapital)
-
-**Œuvre économique majeure:**
-- Critique de l'économie politique
-- Analyse scientifique du capitalisme
-
-**Tome I (1867):**
-- Seul publié du vivant de Marx
-- Marchandise, valeur, plus-value
-- Accumulation du capital
-- Tendances du capitalisme
-
-**Tomes II et III:**
-- Édités par Engels après la mort de Marx (1885, 1894)
-- Circulation du capital, reproduction
-- Baisse tendancielle du taux de profit
-
-**Concepts clés:**
-
-1. **Valeur-travail:**
-   - Valeur d'une marchandise = quantité de travail socialement nécessaire
-   - Fétichisme de la marchandise (rapports sociaux apparaissent comme rapports entre choses)
-
-2. **Plus-value (Mehrwert):**
-   - Source du profit capitaliste
-   - Travailleur produit plus de valeur que son salaire
-   - Capital variable (salaires) vs capital constant (machines, matières)
-   - Taux de plus-value = plus-value / capital variable
-
-3. **Accumulation:**
-   - "Accumulez, accumulez! C'est la loi et les prophètes!"
-   - Concurrence force accumulation
-   - Concentration, centralisation du capital
-
-4. **Armée industrielle de réserve:**
-   - Chômage structurel
-   - Pression sur salaires
-
-5. **Contradictions du capitalisme:**
-   - Tendance à la baisse du taux de profit
-   - Crises de surproduction
-   - Socialisation de la production vs appropriation privée
-
-## Concepts Fondamentaux
-
-### Matérialisme Historique
-
-**Principe:**
-- Infrastructure économique (base, modes de production) détermine superstructure (idéologies, institutions, culture)
-
-**Schéma:**
 ```
 SUPERSTRUCTURE (État, droit, idéologies, religion, philosophie)
         ↑ déterminé par
 INFRASTRUCTURE (forces productives + rapports de production)
 ```
 
-**Forces productives:**
-- Moyens de production (outils, machines, terres)
-- Force de travail (travailleurs)
-- Connaissances techniques
-
-**Rapports de production:**
-- Relations sociales de production (propriété, exploitation)
-- Définissent les [[Stratification et Classes Sociales|classes sociales]]
-
-**Modes de production (succession historique):**
-1. Communisme primitif
-2. Esclavagisme (Antiquité)
-3. Féodalisme (Moyen Âge)
-4. Capitalisme (Moderne)
-5. Socialisme / Communisme (futur)
-
-**Moteur de l'histoire:**
-- Contradiction entre forces productives et rapports de production
-- Lutte des classes
-
 > [!warning] Piège
 > Le schéma infrastructure → superstructure est souvent lu comme un déterminisme économique strict ("tout se réduit à l'économie"), objection reprise plus loin dans les Critiques. Marx lui-même est plus nuancé dans ses textes tardifs : la superstructure a une autonomie relative et peut rétroagir sur l'infrastructure (le droit, l'État peuvent freiner ou accélérer des transformations économiques). C'est surtout le marxisme vulgaire de la Seconde Internationale qui a figé le schéma en causalité mécanique à sens unique.
 
-### Lutte des Classes
+L'histoire avance par les contradictions entre les forces productives, qui se développent, et les rapports de production, qui finissent par les entraver ; s'ouvre alors une époque de révolution sociale. Marx distingue ainsi plusieurs modes de production, communauté primitive, mode de production asiatique, esclavage antique, féodalité, capitalisme, auxquels doit succéder le communisme. Le schéma rigide en cinq stades obligés, que l'on récite parfois, doit plus aux manuels soviétiques qu'à Marx, qui précisait dans ses dernières lettres n'avoir pas voulu écrire une philosophie de l'histoire valable pour tous les peuples.
 
-**Principe:**
-- "L'histoire de toute société jusqu'à nos jours n'a été que l'histoire de luttes de classes"
-- Maîtres/esclaves, seigneurs/serfs, bourgeois/prolétaires
+En 1845, dans les *Thèses sur Feuerbach*, il avait résumé l'esprit de cette démarche : « Les philosophes n'ont fait qu'interpréter le monde de différentes manières, ce qui importe, c'est de le transformer. »
 
-**Dans le capitalisme:**
-- **Bourgeoisie:** Propriétaires des moyens de production
-- **Prolétariat:** Ne possèdent que leur force de travail, contraints de la vendre
+## La lutte des classes
 
-**Conscience de classe:**
-- **Classe en soi:** Position objective dans rapports de production
-- **Classe pour soi:** Conscience de ses intérêts, organisation politique
-- Prolétariat doit devenir classe pour soi pour faire la révolution
+Le *Manifeste du parti communiste*, rédigé avec Engels à la demande de la Ligue des communistes et publié en février 1848, quelques jours avant la révolution parisienne, s'ouvre sur une phrase restée fameuse : « Un spectre hante l'Europe : le spectre du communisme. » Le premier chapitre commence par une autre : « L'histoire de toute société jusqu'à nos jours n'a été que l'histoire de luttes de classes. » Hommes libres et esclaves, patriciens et plébéiens, seigneurs et serfs, maîtres et compagnons se sont toujours affrontés.
+
+Dans le capitalisme, l'opposition se simplifie entre deux grandes classes (voir [[Stratification et Classes Sociales|classes sociales]]) : la **bourgeoisie**, qui possède les moyens de production, et le **prolétariat**, qui ne possède que sa force de travail et doit la vendre pour vivre. Le *Manifeste* rend un hommage étonnant à la bourgeoisie, classe révolutionnaire qui a balayé la féodalité, unifié le marché mondial et développé les forces productives plus qu'aucune classe avant elle. Mais elle a produit ses propres fossoyeurs : en concentrant les ouvriers dans les usines, elle les rassemble et les organise. Le texte appelle au renversement du capitalisme, à l'abolition de la propriété privée des moyens de production et à une société sans classes, après une phase de transition que Marx appellera plus tard la dictature du prolétariat. Il se clôt par l'appel : « Prolétaires de tous les pays, unissez-vous ! »
+
+Une classe n'est pas seulement une position dans la production. Dans *Misère de la philosophie* (1847), Marx distingue la **classe en soi**, l'ensemble de ceux qui occupent objectivement la même place, et la **classe pour soi**, qui a pris conscience de ses intérêts communs et s'organise pour les défendre. Le prolétariat, classe universelle, ne peut se libérer sans abolir toutes les classes et libérer ainsi l'humanité entière.
 
 > [!tip] Méthode
 > La distinction en soi/pour soi est réutilisable au-delà du marxisme : elle sépare la position structurelle objective (qui partage les mêmes contraintes) de la conscience collective de cette position (qui s'organise autour). [[Fondateurs/Pierre Bourdieu|Bourdieu]] retrouve une tension proche entre classe objective (définie par le volume/structure du capital) et mobilisation effective des groupes sociaux — sans reprendre le schéma révolutionnaire de Marx.
 
-**Mission historique du prolétariat:**
-- Classe universelle
-- En se libérant, libère toute l'humanité
-- Abolition des classes
+## L'idéologie
 
-### Idéologie
-
-**Définition (sens marxiste):**
-- Système de représentations, idées de la classe dominante
-- "Les pensées de la classe dominante sont aussi, à toutes les époques, les pensées dominantes"
-
-**Fonction:**
-- Légitimer l'ordre social existant
-- Masquer les rapports d'exploitation
-- Fausse conscience
-
-**Exemples:**
-- Religion ("opium du peuple")
-- Droit bourgeois (égalité formelle masque inégalité réelle)
-- Économie politique classique (naturalise le capitalisme)
-
-**Critique:**
-- Idéologie ne tombe pas du ciel
-- Correspond aux intérêts matériels de la classe dominante
+« Les pensées de la classe dominante sont aussi, à toutes les époques, les pensées dominantes » : la classe qui dispose des moyens de production matérielle dispose aussi des moyens de production intellectuelle. L'**idéologie** désigne chez Marx l'ensemble des représentations qui légitiment l'ordre social en le faisant passer pour naturel et éternel. Le droit bourgeois proclame l'égalité des contractants, mais l'égalité formelle entre l'ouvrier et le patron masque leur inégalité réelle ; l'économie politique classique présente les lois du marché comme des lois naturelles. La religion, « soupir de la créature opprimée, âme d'un monde sans cœur », est « l'opium du peuple » : elle console d'une misère réelle tout en détournant d'y remédier. Ces idées ne tombent pas du ciel ; elles correspondent aux intérêts matériels de ceux qui dominent.
 
 > [!important] Idée clé
 > Ne pas confondre avec le sens courant du mot ("un système d'idées", neutre). Chez Marx, "idéologie" désigne spécifiquement une représentation qui masque son origine sociale et se présente comme naturelle, universelle ou évidente — c'est le mécanisme de dissimulation qui définit le terme, pas le simple fait d'avoir des idées politiques.
 
-### Aliénation (concept jeune Marx)
+## Le Capital
 
-**Repris de Hegel, Feuerbach:**
-- Dépossession, extériorisation qui devient étrangère
+*Le Capital*, dont seul le premier livre paraît du vivant de Marx (1867), les deux suivants étant édités par Engels en 1885 et 1894, est une « critique de l'économie politique ». Marx part de la marchandise. Reprenant la théorie de Ricardo, il soutient que la **valeur** d'une marchandise est déterminée par la quantité de travail socialement nécessaire à sa production. Mais dans une société marchande, les rapports entre les hommes apparaissent comme des rapports entre des choses, comme si les marchandises avaient une valeur par elles-mêmes : c'est le **fétichisme de la marchandise**.
 
-**Dans le travail capitaliste:**
-- Voir [[#Manuscrits de 1844]]
-- Travailleur ne se réalise pas, mais se nie dans le travail
+D'où vient alors le profit, si l'échange se fait à valeur égale ? D'une marchandise singulière, la force de travail. Le capitaliste l'achète à sa valeur, ce qu'il faut pour entretenir l'ouvrier, mais l'ouvrier travaille plus longtemps qu'il n'est nécessaire pour produire l'équivalent de son salaire. La différence est la **plus-value**, source du profit. Marx distingue le capital constant, les machines et les matières, qui ne fait que transmettre sa valeur, du capital variable, les salaires, seul à en créer de nouvelle ; le taux de plus-value rapporte la plus-value au capital variable.
 
-**Dépassement:**
-- Communisme = réappropriation de l'essence humaine
-- Travail libre, créatif
+La concurrence oblige chaque capitaliste à accumuler, à réinvestir sans cesse : « Accumulez, accumulez ! C'est la loi et les prophètes ! » Le capital se concentre et se centralise, les machines remplacent les hommes et entretiennent une **armée industrielle de réserve** de chômeurs qui pèse sur les salaires. Le système porte en lui des contradictions : une baisse tendancielle du taux de profit, à mesure que la part des machines augmente, des crises de surproduction, et l'opposition entre une production de plus en plus sociale et une appropriation qui reste privée.
 
-### Dialectique
+## La dialectique
 
-**Héritage de Hegel:**
-- Marx: "J'ai remis Hegel sur ses pieds" (matérialisme vs idéalisme)
+Marx hérite de Hegel la **dialectique**, une pensée du mouvement par les contradictions, mais il la retourne. Chez Hegel, écrit-il, elle marche sur la tête, puisque c'est l'Esprit qui produit le réel ; il suffit de la remettre sur ses pieds en partant des conditions matérielles. Le schéma « thèse, antithèse, synthèse », souvent associé à Marx, n'est ni de lui ni de Hegel ; l'idée est plutôt que chaque forme sociale engendre les forces qui la dépasseront, comme la bourgeoisie engendre le prolétariat.
 
-**Méthode:**
-- Contradictions, négation, dépassement
-- Thèse → Antithèse → Synthèse (schématisation)
+## Postérité
 
-**Application:**
-- Contradictions du capitalisme mènent à son dépassement
-- Bourgeoisie crée son propre fossoyeur
+L'influence politique de Marx est sans équivalent. Ses idées inspirent les partis socialistes et sociaux-démocrates, puis les révolutions russe (1917), chinoise (1949) ou cubaine (1959), et se divisent en courants rivaux, léninisme, trotskisme, stalinisme, maoïsme, réformisme social-démocrate. La chute du mur de Berlin en 1989 et l'effondrement de l'URSS en 1991 semblent clore cette histoire, au point que Francis Fukuyama annonce la « fin de l'histoire » ; la crise financière de 2008 a pourtant suscité un regain d'intérêt pour sa critique du capitalisme.
 
-## Influence et Postérité
+En sociologie, Marx est la source de toute une tradition critique, attentive aux conflits et à la domination plutôt qu'au consensus. Gramsci y ajoute la notion d'hégémonie culturelle, Althusser celle d'appareils idéologiques d'État, l'École de Francfort, avec Horkheimer, Adorno et Marcuse, une critique de la culture de masse. Bourdieu, sans être marxiste, reprend la question de la reproduction des inégalités en élargissant la notion de capital au capital culturel et social. C. Wright Mills, Harry Braverman ou Immanuel Wallerstein, les historiens E. P. Thompson et Eric Hobsbawm, qui écrivent l'histoire « par en bas », et jusqu'à l'économiste Thomas Piketty, dont *Le Capital au XXIe siècle* (2013) reprend le titre sinon la théorie, lui doivent beaucoup.
 
-### Mouvements Politiques
+## Critiques et défenses
 
-**Marxisme:**
-- Partis socialistes, communistes
-- Révolutions: Russe (1917), Chinoise (1949), Cubaine (1959)
-- URSS, bloc soviétique
-- Débats: Léninisme, stalinisme, trotskisme, maoïsme
-- Social-démocratie (réformisme)
+Dès son vivant, Marx est contesté par Proudhon, qui défend un socialisme mutualiste, et par Bakounine, qui dénonce l'autoritarisme de la dictature du prolétariat et prédit qu'elle engendrera une nouvelle bureaucratie. Sur le plan théorique, on lui reproche un déterminisme économique qui sous-estimerait le rôle de la culture, des idées et de l'autonomie du politique, et une philosophie de l'histoire finaliste qui ferait du communisme son terme nécessaire. Ses prédictions ne se sont pas réalisées comme il l'annonçait : les ouvriers des pays industriels ne se sont pas appauvris en termes absolus, les classes moyennes n'ont pas disparu, et les révolutions ont éclaté dans des pays agraires plutôt que dans les plus avancés. Les économistes néoclassiques ont abandonné la valeur-travail pour l'utilité marginale.
 
-**Fin du XXe siècle:**
-- Chute du mur de Berlin (1989)
-- Effondrement de l'URSS (1991)
-- "Fin de l'histoire"? (Fukuyama)
-- Mais: Regain d'intérêt post-2008 (crise financière)
-
-### Sociologie
-
-**Sociologie critique:**
-- Accent sur conflits, domination, exploitation
-- Vs fonctionnalisme (consensus, intégration)
-
-**Bourdieu:**
-- Concepts de capital (économique, culturel, social)
-- Reproduction des inégalités
-- Violence symbolique
-
-**Wright Mills, Braverman, Wallerstein**
-
-**École de Francfort:**
-- Horkheimer, Adorno, Marcuse
-- Marxisme occidental, critique de la culture
-
-**Gramsci:**
-- Hégémonie culturelle
-
-**Althusser:**
-- Structuralisme marxiste
-- Appareils idéologiques d'État
-
-### Histoire, Économie
-
-**Histoire sociale:**
-- E.P. Thompson, Hobsbawm
-- Histoire "par en bas"
-
-**Économie:**
-- Débats sur valeur-travail
-- Économie politique radicale
-- Piketty (*Le Capital au XXIe siècle*)
-
-## Critiques
-
-### Du Vivant de Marx
-
-**Bakounine (anarchiste):**
-- Critique de l'autoritarisme, de l'État
-
-**Proudhon:**
-- Socialisme mutualiste vs communisme
-
-### Critiques Théoriques
-
-**Déterminisme économique:**
-- Réduction de tout à l'économie?
-- Sous-estime culture, idées, autonomie du politique
-
-**Prédictions non réalisées:**
-- Paupérisation absolue du prolétariat (nuancée)
-- Révolution dans pays avancés (a eu lieu dans pays arriérés)
-- Disparition des classes moyennes
-
-**Valeur-travail:**
-- Critiques économiques (utilité marginale, etc.)
-
-**Téléologie:**
-- Finalisme (sens de l'histoire vers communisme)
-- Déterminisme historique
-
-### Critiques Politiques
-
-**Totalitarisme:**
-- URSS, Chine, Cambodge (Khmers rouges)
-- Dictature, goulags, famines
-- Responsabilité de Marx? Trahison de Marx?
-
-**Dictature du prolétariat:**
-- Risque autoritaire
-
-**Échec économique:**
-- Économies planifiées inefficaces
-
-### Défenses
-
-**Distinguer Marx et marxismes:**
-- Marx n'est pas Staline
-- Pluralité d'interprétations
-
-**Actualité de la critique du capitalisme:**
-- Inégalités, crises, aliénation
-- Critique de l'idéologie
-
-**Méthode historique et dialectique:**
-- Apport méthodologique indépendant de conclusions politiques
-
-## Actualité de Marx
-
-**XXIe siècle:**
-- Crise de 2008: Regain d'intérêt
-- Inégalités croissantes (Piketty)
-- Précarisation, ubérisation
-- Critique du néolibéralisme
-- Écologie (écomarxisme, métabolisme social)
-
-**Limites contemporaines:**
-- Prolétariat industriel en déclin (Occident)
-- Tertiarisation
-- Nouvelles formes d'exploitation (numérique)
-- Intersectionnalité (genre, race)
-
-## Citations
-
-> "Les philosophes n'ont fait qu'interpréter le monde de différentes manières, ce qui importe, c'est de le transformer."
-
-> "L'histoire de toute société jusqu'à nos jours n'a été que l'histoire de luttes de classes."
-
-> "Ce n'est pas la conscience des hommes qui détermine leur être; c'est inversement leur être social qui détermine leur conscience."
-
-> "La religion est le soupir de la créature opprimée, l'âme d'un monde sans cœur, comme elle est l'esprit de conditions sociales d'où l'esprit est exclu. Elle est l'opium du peuple."
-
-> "De chacun selon ses capacités, à chacun selon ses besoins." (Programme de Gotha)
-
-> "Prolétaires de tous les pays, unissez-vous!"
+Sur le plan politique, les régimes communistes, de l'URSS à la Chine de Mao et au Cambodge des Khmers rouges, ont produit dictatures, camps et famines. La part de responsabilité de Marx dans ces désastres reste débattue : ses défenseurs rappellent que Marx n'est pas Staline, que ses textes ont reçu des interprétations très diverses, et que sa méthode d'analyse historique peut être séparée de ses conclusions politiques. Ses questions restent d'actualité dans un monde marqué par la montée des inégalités, la précarisation du travail et l'ubérisation, et l'écomarxisme relit sa notion de « métabolisme » entre la société et la nature. Mais le déclin du prolétariat industriel en Occident, la tertiarisation et l'attention aux dominations de genre et de race obligent à repenser une analyse centrée sur la seule classe ouvrière. Dans la *Critique du programme de Gotha* (1875), Marx résumait la société future par une formule : « De chacun selon ses capacités, à chacun selon ses besoins. »
 
 ## Questions de révision
 
@@ -385,3 +90,11 @@ INFRASTRUCTURE (forces productives + rapports de production)
 
 > [!quiz] Quelle est la première phrase du chapitre I du *Manifeste* (1848) sur l'histoire ?
 > « L'histoire de toute société jusqu'à nos jours n'a été que l'histoire de luttes de classes. »
+
+## Ressources
+
+- Karl Marx et Friedrich Engels, *Manifeste du parti communiste* (1848) : court et accessible.
+- Karl Marx, *Manuscrits de 1844*.
+- Karl Marx, *Le Capital*, livre I (1867) : le chapitre sur la journée de travail est une bonne porte d'entrée.
+- Raymond Aron, *Les Étapes de la pensée sociologique* (1967) : le chapitre sur Marx.
+- Jonathan Sperber, *Karl Marx, homme du XIXe siècle* (2013) : une biographie qui le replace dans son temps.

@@ -9,66 +9,63 @@ prerequis: ["[[Frise de la Philosophie Occidentale]]"]
 
 # Qu'est-ce que la connaissance ?
 
-## Idées clés
+Smith regarde l'horloge de la gare : elle indique midi. Il en conclut qu'il est midi, et il a raison, car il est bien midi. Mais l'horloge est arrêtée depuis la veille, et elle indique midi par hasard. Smith croyait une chose vraie, il avait une bonne raison de la croire, et pourtant on hésite à dire qu'il *savait* l'heure. Cet exemple, imaginé par Bertrand Russell, montre que savoir n'est pas seulement avoir raison. Mais alors, qu'ajoute la connaissance à la croyance vraie ? Et d'où vient-elle : de nos sens, de notre raison, ou de la manière dont la science la construit ?
 
-1. **Connaissance comme croyance vraie justifiée** (Platon, *Théétète*) : savoir que P exige (a) que P soit vraie, (b) qu'on croie que P, (c) qu'on ait de bonnes raisons de croire P. C'est la définition classique, dite JTB (*Justified True Belief*), qui a structuré l'épistémologie pendant deux millénaires.
+## Croire, avoir raison, savoir
 
-2. **Le problème de Gettier** (Edmund Gettier, 1963) : en trois pages, un article bouleverse la définition JTB. Il montre qu'on peut avoir une croyance vraie et justifiée *par accident* — sans que ce soit de la connaissance. La définition classique est insuffisante, et aucune solution ne fait consensus à ce jour.
+Dans le *Théétète*, Platon fait examiner à Socrate plusieurs définitions du savoir. L'une d'elles a traversé les siècles : savoir, ce serait avoir une **croyance vraie justifiée**. Pour que je sache qu'une chose est vraie, il faudrait trois conditions : qu'elle soit effectivement vraie, que je la croie, et que j'aie de bonnes raisons de la croire. Une croyance fausse n'est pas un savoir, une vérité que je ne crois pas non plus, et une croyance vraie sans raison n'est qu'un coup de chance, comme le pari gagné de celui qui devine. Platon lui-même finit par juger cette définition insuffisante, mais elle est devenue la référence de la théorie de la connaissance, sous le nom anglais de JTB (*Justified True Belief*).
 
-3. **Rationalisme vs Empirisme** : le débat central de la philosophie moderne. Pour les rationalistes (Descartes, Leibniz, Spinoza), la connaissance fiable vient de la raison et de l'intuition intellectuelle — des idées claires et distinctes, indépendantes de l'expérience. Pour les empiristes (Locke, Hume, Berkeley), tout commence par l'expérience sensible ; l'esprit est une *tabula rasa*.
-
-4. **La synthèse kantienne** : Kant "réveillé par Hume de son sommeil dogmatique" propose la révolution copernicienne. Ce ne sont pas nos représentations qui s'adaptent aux objets, mais les objets qui s'adaptent à notre esprit. Les catégories a priori (espace, temps, causalité) structurent toute expérience possible. Nous ne connaissons que les phénomènes, jamais les choses en soi.
-
-5. **Science et paradigmes** ([[Popper|Karl Popper]], Thomas Kuhn) : Popper propose la *falsifiabilité* comme critère de démarcation scientifique — une théorie est scientifique si elle peut être réfutée. Kuhn nuance : la science avance non par réfutations rationnelles mais par *révolutions* où un paradigme entier est abandonné pour un autre.
+En 1963, un philosophe américain encore inconnu, Edmund Gettier, publie un article de trois pages qui la fait vaciller. Il y construit des cas où quelqu'un a une croyance vraie, solidement justifiée, mais vraie *par accident*, exactement comme Smith devant son horloge arrêtée. La justification et la vérité sont toutes deux là, mais elles ne sont pas reliées comme il faudrait. Depuis, des dizaines de philosophes ont proposé d'ajouter une quatrième condition, et chacune a été mise en défaut par de nouveaux contre-exemples.
 
 > [!warning] Piège
 > Le problème de Gettier n'est pas un détail technique : depuis 1963, aucune rustine (ajouter une 4e condition à JTB) n'a résisté à de nouveaux contre-exemples. Retenir que "croyance vraie justifiée" reste la définition de référence pour un devoir, mais qu'elle est officiellement insuffisante — un point souvent ignoré par les non-spécialistes.
 
-## Repères historiques
+Le premier pas vers le savoir est d'ailleurs de reconnaître ce qu'on ignore. Socrate, que l'oracle de Delphes avait désigné comme le plus sage des hommes, l'expliquait en disant qu'il savait au moins qu'il ne savait pas, alors que les autres croyaient savoir. Plutôt que d'enseigner des réponses, il interrogeait ses interlocuteurs jusqu'à leur faire découvrir les contradictions de leurs opinions : c'est la **maïeutique**, l'art « d'accoucher les esprits ». Platon, son élève, va plus loin : pour lui, apprendre, c'est se souvenir. L'âme aurait contemplé les **Idées**, les modèles parfaits des choses, avant d'être enfermée dans un corps, et le monde sensible n'en offre que des copies imparfaites qui réveillent ce souvenir. C'est la théorie de la **réminiscence**.
 
-- **Socrate** : "Je sais que je ne sais rien" — la conscience de son ignorance est le début de la vraie connaissance. La maïeutique (art d'accoucher les esprits) plutôt que d'enseigner.
-- **Platon** : réminiscence (*anamnèse*) — apprendre, c'est se souvenir. L'âme a contemplé les Idées avant la naissance ; le monde sensible n'est que copies imparfaites.
-- **Descartes** (*Méditations Métaphysiques*, 1641) : doute hyperbolique → cogito → existence de Dieu → monde extérieur. Fondation d'une connaissance certaine sur la raison.
-- **Hume** : scepticisme empiriste radical. Toute causalité est une *habitude psychologique*, non une nécessité logique. On ne voit jamais la cause, on ne voit que la succession.
-- **Kant** (*Critique de la Raison Pure*, 1781) : synthèse du rationalisme et de l'empirisme. Jugements synthétiques a priori — les mathématiques sont vrais universellement mais informatives.
-- **Popper** (*La Logique de la découverte scientifique*, 1934) : falsifiabilité. La science progresse en éliminant les théories réfutées, non en les confirmant.
-- **Kuhn** (*La Structure des révolutions scientifiques*, 1962) : paradigmes, science normale, crises, révolutions. La science est sociale et historique.
+## La raison ou l'expérience ?
+
+À l'époque moderne, la question de l'origine de la connaissance divise les philosophes en deux camps. Les **rationalistes**, René [[Descartes]], [[Spinoza]] et Leibniz, pensent que la connaissance la plus sûre vient de la raison seule. Les sens nous trompent : un bâton plongé dans l'eau paraît brisé. La raison, elle, peut saisir des vérités claires et distinctes, comme celles des mathématiques, sans rien devoir à l'expérience. Dans ses *Méditations métaphysiques* (1641), Descartes décide de douter de tout ce dont on peut douter, jusqu'à imaginer qu'un malin génie le trompe en permanence. Une seule chose résiste : pendant qu'il doute, il pense, et s'il pense, il existe. Le **cogito**, « je pense, donc je suis », devient le socle sur lequel il reconstruit tout l'édifice du savoir, en passant par l'existence de Dieu, garant de la vérité de nos idées claires, pour retrouver enfin le monde extérieur.
+
+Les **empiristes**, John Locke, George Berkeley et David [[Hume]], répondent que tout commence par l'expérience. L'esprit est à la naissance une « table rase » (*tabula rasa*), sur laquelle les sensations viennent écrire. Hume pousse cette logique jusqu'au scepticisme. Quand une boule de billard en frappe une autre et la met en mouvement, nous ne voyons jamais la cause elle-même, seulement deux événements qui se suivent. À force de voir cette succession se répéter, nous prenons l'**habitude** d'attendre le second quand survient le premier. La causalité, fondement de toutes les sciences, ne serait donc qu'une attente psychologique, et rien ne garantit que demain ressemblera à hier.
+
+## La révolution de Kant
+
+[[Kant]] raconte que la lecture de Hume l'a « réveillé de son sommeil dogmatique ». Dans la *Critique de la raison pure* (1781), il propose une synthèse des deux camps. Toute connaissance commence avec l'expérience, accorde-t-il aux empiristes, mais elle ne dérive pas tout entière de l'expérience. Notre esprit apporte ses propres structures : les **formes de la sensibilité**, l'espace et le temps, à travers lesquelles nous percevons tout ce qui nous apparaît, et les **catégories** de l'entendement, comme la causalité, par lesquelles nous l'organisons. Kant compare ce renversement à celui de Copernic : ce ne sont plus nos connaissances qui se règlent sur les objets, ce sont les objets qui se règlent sur notre manière de connaître. C'est la **révolution copernicienne** de la philosophie.
+
+Cette solution explique comment des jugements à la fois universels et informatifs sont possibles, ce que Kant appelle les **jugements synthétiques a priori** : « 7 + 5 = 12 » nous apprend quelque chose, et pourtant aucune expérience ne pourrait le démentir. Mais elle a un prix. Nous ne connaissons les choses que telles qu'elles nous apparaissent, les **phénomènes**, et jamais telles qu'elles sont en elles-mêmes, les **choses en soi**.
+
+## Comment la science progresse
+
+Au XXe siècle, la question se déplace vers la science, devenue le modèle de la connaissance. Karl [[Popper|Popper]] (*La Logique de la découverte scientifique*, 1934) part du problème soulevé par Hume : aucune accumulation d'observations ne peut prouver une loi générale. On aura beau voir des milliers de cygnes blancs, on ne pourra jamais prouver que tous les cygnes sont blancs, alors qu'un seul cygne noir suffit à prouver le contraire. Popper en conclut que la science ne vérifie pas ses théories, elle les met à l'épreuve. Une théorie est scientifique si elle est **réfutable** : si l'on peut concevoir une observation qui la démentirait. L'astrologie ou la psychanalyse, qui peuvent tout expliquer après coup, ne le sont pas selon lui.
+
+Thomas Kuhn (*La Structure des révolutions scientifiques*, 1962) objecte que les scientifiques ne travaillent pas ainsi. La plupart du temps, ils font de la **science normale** à l'intérieur d'un **paradigme**, un cadre de théories, de méthodes et d'exemples partagés, qu'ils ne remettent pas en cause. Les anomalies s'accumulent jusqu'à une crise, puis une **révolution** remplace le paradigme par un autre. Le passage du système de Ptolémée, où la Terre est au centre, à celui de Copernic et de Galilée n'a pas été une simple accumulation de preuves, mais une manière entièrement nouvelle de voir le ciel. La science devient ainsi une aventure historique et sociale, et non plus seulement logique.
 
 > [!tip] Méthode
 > Pour situer un auteur rapidement : rationalisme et empirisme répondent tous deux à "d'où vient la connaissance ?", Popper et Kuhn répondent à "comment la connaissance scientifique progresse-t-elle ?" — deux questions différentes qu'on confond facilement en dissertation.
 
+## Exemples à mobiliser
+
+- *The Matrix* (Wachowski, 1999) : si toutes nos perceptions étaient simulées, comment saurions-nous que quoi que ce soit est vrai ? Une version hollywoodienne du malin génie de Descartes et du « cerveau dans une cuve » de Hilary Putnam.
+- *Doute* (John Patrick Shanley, 2008) : une directrice d'école accuse un prêtre sans preuve directe. Qu'est-ce qui justifie une conviction, et jusqu'où peut-on agir sur une croyance non prouvée ?
+- *Le Nom de la rose* (Umberto Eco, 1980) : Guillaume de Baskerville enquête en remontant des indices à la meilleure explication possible, ce que les logiciens appellent l'abduction.
+- La physique quantique, où une particule peut se trouver dans une superposition d'états, met à l'épreuve nos catégories les plus ordinaires d'objet, d'espace et de temps.
+- Le biais de confirmation, étudié par la psychologie cognitive : nous cherchons spontanément ce qui confirme nos croyances, exactement l'inverse de ce que recommandait Popper.
+
 ## Ressources
 
 **Podcasts :**
-- France Culture, *Les Chemins de la Philosophie* — séries sur Descartes, Hume, Kant, Popper. Intégralité disponible en réécoute.
-- *Philosophize This!* — épisodes sur Platon, Descartes, Hume et Kant (épisodes 1-40, en anglais).
+- France Culture, *Les Chemins de la philosophie* : séries sur Descartes, Hume, Kant et Popper.
+- *Philosophize This!* (Stephen West) : épisodes sur Platon, Descartes, Hume et Kant, en anglais.
 
 **Lectures :**
-- Descartes, *Méditations Métaphysiques*, Méditations I et II — 20 pages, le chemin du doute jusqu'au cogito. Lecture indispensable.
-- Karl Popper, *Conjectures et réfutations* (1963) — version accessible du falsificationnisme.
-- Thomas Kuhn, *La Structure des révolutions scientifiques* (1962) — l'un des livres les plus cités du XXe siècle. Chapitres 1-5 suffisent.
-- Stanford Encyclopedia of Philosophy : entrées **Epistemology**, **Rationalism vs Empiricism**, **Karl Popper**.
+- Descartes, *Méditations métaphysiques*, Méditations I et II : une vingtaine de pages, le chemin du doute jusqu'au cogito.
+- Karl Popper, *Conjectures et réfutations* (1963) : la version la plus accessible de sa théorie.
+- Thomas Kuhn, *La Structure des révolutions scientifiques* (1962) : l'un des livres les plus cités du XXe siècle ; les cinq premiers chapitres suffisent.
+- Stanford Encyclopedia of Philosophy : entrées **Epistemology**, **Rationalism vs. Empiricism** et **Karl Popper** (plato.stanford.edu).
 
 **Vidéos :**
-- Chaîne YouTube **Monsieur Phi** — vidéos sur le cogito, Hume, l'épistémologie des sciences.
-- Crash Course Philosophy — épisodes "Rationalism vs Empiricism" et "Karl Popper" (en anglais).
-- **Arte** — documentaires sur la révolution scientifique et l'histoire des idées.
-
-## Exemples concrets
-
-**Sciences :**
-- Le passage du *géocentrisme* à l'*héliocentrisme* (Copernic, Galilée) : révolution paradigmatique kuhnienne. Ce n'est pas une simple accumulation de preuves mais une rupture complète de la façon de voir le monde.
-- La *physique quantique* remet en cause l'intuition la plus fondamentale : un objet peut être dans deux états simultanément. Nos catégories ordinaires (espace, temps, objet) tiennent-elles encore ?
-- Le *cygne noir* (Nassim Taleb, Popper) : on ne peut jamais prouver "tous les cygnes sont blancs" — un seul cygne noir suffit à réfuter. L'induction n'est jamais conclusive.
-
-**Cinéma et littérature :**
-- *The Matrix* (1999) — si toutes vos perceptions sont simulées, comment savez-vous que quelque chose est vrai ? Scénario hollywoodien du cerveau dans la cuve de Putnam.
-- *Doute* (Shanley, 2008) — une directrice d'école accuse un prêtre sans preuve directe. Qu'est-ce qui justifie une conviction ? Jusqu'où peut-on agir sur une croyance non prouvée ?
-- *Le Nom de la rose* (Eco, 1980) — Guillaume de Baskerville enquête par abduction (raisonnement vers la meilleure explication). L'épistémologie policière comme philosophie appliquée.
-
-**Quotidien :**
-- La distinction entre *savoir* et *croire* : je *crois* qu'il pleuvra demain (probable) mais je *sais* que 2+2=4 (nécessaire). Cette distinction structure le droit, la science et la morale.
-- Le phénomène du *biais de confirmation* (psychologie cognitive) : nous cherchons instinctivement à confirmer nos croyances plutôt qu'à les réfuter. Popper recommandait exactement l'inverse.
+- Chaîne YouTube **Monsieur Phi** : vidéos sur le cogito, Hume et l'épistémologie des sciences.
+- Crash Course Philosophy : épisodes sur le rationalisme, l'empirisme et Popper, en anglais.
 
 ## Questions ouvertes
 

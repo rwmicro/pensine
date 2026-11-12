@@ -10,221 +10,65 @@ parcours-description: "L'histoire du théâtre, ses genres et sa représentation
 
 # Histoire du Théâtre
 
-### Origines et Théâtre Antique
+Le théâtre repose sur un pacte très ancien : des gens se rassemblent pour regarder d'autres gens faire semblant d'être quelqu'un d'autre, et tous acceptent d'y croire le temps du spectacle. Ce pacte a pris des formes très diverses, rite religieux à Athènes, fête de la ville au Moyen Âge, divertissement de cour au XVIIe siècle, arme politique au XXe. Suivre son histoire, c'est voir comment chaque époque a utilisé la scène pour se regarder elle-même.
 
-**Grèce Antique (Ve siècle av. J.-C.)**
-- **Origines rituelles** : culte de Dionysos, dithyrambe (chant choral)
-- **Naissance de la tragédie** : Thespis (~534 av. J.-C.) introduit le premier acteur
-- **Structure** : orchestra (chœur), skênê (bâtiment scène), theatron (gradins)
-- **Concours dramatiques** : Grandes Dionysies d'Athènes
-- **Masques** : amplification voix, identification personnage
-- **Unités classiques** : action, temps, lieu (formalisées plus tard)
+## La Grèce : du rite à la tragédie
 
-**Tragédiens Grecs**
-- **Eschyle** (525-456 av. J.-C.)
-  - "Père de la tragédie", introduit le deuxième acteur
-  - *Orestie* (trilogie) : *Agamemnon*, *Les Choéphores*, *Les Euménides*
-  - *Prométhée enchaîné*
-  - Thèmes : destin, justice divine, hubris
-- **Sophocle** (496-406 av. J.-C.)
-  - Introduit le troisième acteur, décors peints
-  - *Œdipe Roi* : chef-d'œuvre absolu, modèle aristotélicien
-  - *Antigone*, *Électre*, *Ajax*
-  - Psychologie humaine, dilemmes moraux
-- **Euripide** (480-406 av. J.-C.)
-  - "Le plus tragique des poètes" (Aristote)
-  - *Médée*, *Les Bacchantes*, *Hippolyte*, *Les Troyennes*
-  - Critique sociale, psychologie féminine, anti-héros
+Le théâtre occidental naît à Athènes au VIe siècle avant notre ère, dans le culte de Dionysos, dieu du vin et de l'ivresse. Lors de ses fêtes, un chœur chantait et dansait des hymnes, les **dithyrambes**. La tradition raconte que vers 534 av. J.-C., un certain **Thespis** détacha un homme du chœur pour lui donner la réplique : le premier acteur était né, et avec lui le dialogue. Le théâtre restera longtemps un acte civique et religieux. Pendant les **Grandes Dionysies**, des milliers de citoyens assistaient pendant plusieurs jours à un concours entre poètes, dans un vaste théâtre en plein air. Les gradins (le *theatron*, « lieu d'où l'on regarde ») entouraient l'*orchestra*, piste circulaire où évoluait le chœur, devant la *skênê*, un bâtiment qui servait de coulisse et de décor. Les acteurs, tous des hommes, portaient des masques qui permettaient de jouer plusieurs rôles et d'être reconnus de loin.
 
-**Comédie Grecque**
-- **Aristophane** (450-385 av. J.-C.)
-  - Comédie ancienne, satire politique virulente
-  - *Les Nuées* (Socrate), *Lysistrata*, *Les Grenouilles*, *Les Guêpes*
-  - Farce, obscénité, parabasis (adresse directe au public)
+Trois tragiques dominent le Ve siècle, et chacun fait avancer le genre. **Eschyle** (525-456 av. J.-C.) ajoute un deuxième acteur, ce qui rend possible le conflit sur scène. Son *Orestie*, trilogie sur la malédiction des Atrides, montre comment la vengeance sans fin cède la place à la justice d'un tribunal. **Sophocle** (496-406 av. J.-C.) introduit un troisième acteur et des décors peints, et centre le drame sur l'individu face à son destin : dans *Œdipe roi*, le héros mène l'enquête sur le meurtre d'un roi et découvre qu'il en est lui-même le coupable ; dans *Antigone*, une jeune femme brave la loi de la cité pour obéir à une loi plus haute. **Euripide** (480-406 av. J.-C.), le plus inquiet des trois, fait parler les passions et les femmes : sa *Médée* tue ses propres enfants pour se venger de l'homme qui l'a trahie.
 
-**Rome Antique**
-- Emprunte à la Grèce, développe la comédie
-- **Plaute** (254-184 av. J.-C.) : *Amphitryon*, *La Marmite* - farce, quiproquos
-- **Térence** (190-159 av. J.-C.) : comédie plus raffinée, psychologique
-- **Sénèque** (4 av. J.-C. - 65 ap. J.-C.) : tragédies sanglantes, rhétoriques (influence Renaissance)
+La comédie a son maître avec **Aristophane** (vers 450-385 av. J.-C.), qui se moque ouvertement des hommes politiques et des intellectuels de son temps. Dans *Les Nuées*, il caricature Socrate ; dans *Lysistrata*, les femmes font la grève du sexe pour forcer les hommes à cesser la guerre. Rome hérite de ces modèles : **Plaute** et **Térence** adaptent la comédie grecque, tandis que **Sénèque** écrit des tragédies sanglantes qui seront redécouvertes à la Renaissance.
 
-**La Poétique d'Aristote**
-- Traité fondamental (335 av. J.-C.)
-- **Définition tragédie** : imitation d'action noble, catharsis (purification émotions)
-- **Éléments** : fable (mythos), caractères, pensée, élocution, spectacle, mélopée
-- **Structure** : péripétie, reconnaissance, pathos
-- Influence théorie dramatique pendant 2000 ans
+Vers 335 av. J.-C., **Aristote** analyse ce répertoire dans sa *Poétique*. Il définit la tragédie comme l'imitation d'une action noble qui, en suscitant la pitié et la crainte, produit une **catharsis**, une purification de ces émotions chez le spectateur. Il décrit aussi ses ressorts : le retournement de situation (*péripétie*) et le moment où le héros découvre la vérité (*reconnaissance*). Ce petit traité gouvernera la réflexion sur le théâtre pendant deux mille ans.
 
 > [!important] Idée clé
 > La Poétique n'est pas un manuel normatif écrit pour dicter comment écrire une tragédie — c'est une analyse a posteriori de ce qui, chez les tragédiens déjà célèbres (surtout Sophocle), produit l'effet catharsis. Les "règles" qu'on en a tirées plus tard (notamment les trois unités classiques françaises) sont des extrapolations postérieures, pas des prescriptions d'Aristote lui-même — il ne mentionne explicitement que l'unité d'action.
 
-### Moyen Âge (Ve-XVe siècles)
+## Le Moyen Âge : le théâtre de toute la ville
 
-**Théâtre Religieux**
-- **Mystères** : vie du Christ, Passion, saints
-  - *Mystère de la Passion* d'Arnoul Gréban (25 000 vers, 4 jours)
-  - Représentations devant cathédrales, décors simultanés
-- **Miracles** : intervention divine, Vierge Marie
-  - *Miracles de Notre-Dame*
-- **Moralités** : allégories, enseignement moral
-  - Personnages : Vices et Vertus personnifiés
+Après la chute de Rome, l'Église condamne les spectacles, puis réinvente le théâtre pour enseigner la foi. Aux XIVe et XVe siècles, les villes organisent des **mystères**, des représentations gigantesques de la vie du Christ ou des saints. La *Passion* d'Arnoul Gréban compte près de 35 000 vers et se joue sur quatre jours. Des centaines d'habitants y participent, sur le parvis des cathédrales ou sur la place publique, devant des **décors simultanés** alignés côte à côte, du Paradis à l'Enfer, entre lesquels les acteurs se déplacent. Les **miracles** racontent l'intervention de la Vierge ou d'un saint, les **moralités** font dialoguer des Vices et des Vertus personnifiés.
 
-**Théâtre Profane**
-- **Farces** : comique populaire, obscénité, satire
-  - *La Farce de Maître Pathelin* (chef-d'œuvre anonyme, ~1460)
-- **Soties** : satire politique et sociale
+Le rire a aussi sa place. La **farce**, courte et grossière, met en scène maris trompés et filous : *La Farce de Maître Pathelin* (vers 1460), où un avocat escroc se fait berner par plus rusé que lui, est encore jouée. La **sotie** se moque des puissants par la bouche de fous. Ce théâtre parle la langue du peuple et non plus le latin, mêle sans gêne le sacré et le grotesque, et ne sépare guère la scène de la foule.
 
-**Caractéristiques**
-- Langue vernaculaire (pas latin)
-- Participation communautaire
-- Mélange sacré/profane, tragique/comique
-- Pas de séparation nette scène/public
+## La Renaissance et l'âge baroque : quatre foyers
 
-### Renaissance (XVe-XVIIe siècles)
-
-**Italie : Commedia dell'Arte**
-- Théâtre improvisé sur canevas
-- **Types fixes** : Arlequin, Pantalon, Colombine, Polichinelle, Dottore...
-- Masques, lazzi (gags physiques)
-- Influence européenne considérable
+En Italie naît au XVIe siècle la **commedia dell'arte**. Ses troupes professionnelles, qui sillonnent l'Europe, ne jouent pas un texte écrit mais improvisent sur un **canevas**, un simple résumé de l'intrigue. Chaque acteur incarne toute sa vie le même **type**, reconnaissable à son masque et à son costume : Arlequin, le valet balourd et agile, Pantalon, le vieux marchand avare, le Docteur pédant, les jeunes amoureux. Les numéros comiques préparés, les **lazzi**, ponctuent le spectacle.
 
 > [!tip] Méthode
 > Les types fixes de la Commedia dell'Arte (le vieillard avare, le valet rusé, les jeunes amoureux) sont l'ancêtre direct des archétypes de la sitcom moderne — même logique de personnages reconnaissables d'un canevas à l'autre, permettant l'improvisation sur une structure connue du public.
 
-**Angleterre Élisabéthaine et Jacobéenne**
-- **William Shakespeare** (1564-1616) : génie absolu
-  - **Tragédies** : *Hamlet*, *Macbeth*, *Othello*, *Le Roi Lear*, *Roméo et Juliette*
-  - **Comédies** : *Le Songe d'une nuit d'été*, *Beaucoup de bruit pour rien*, *La Nuit des rois*
-  - **Drames historiques** : *Richard III*, *Henry V*
-  - **Dernières pièces** : *La Tempête*
-  - Psychologie profonde, langue sublime, universalité
-- **Christopher Marlowe** (1564-1593) : *Docteur Faustus*, vers blanc
-- **Ben Jonson** (1572-1637) : *Volpone*, comédie d'humeurs
-- **Théâtres** : Globe Theatre (reconstructible), public diversifié
-- **Conventions** : rôles féminins joués par garçons, peu de décors, jeu diurne
+En Angleterre, sous Élisabeth Ire puis Jacques Ier, le théâtre devient un divertissement populaire et commercial. Des salles comme le **Globe** de Londres accueillent tous les publics, des apprentis debout au parterre aux nobles dans les galeries. On joue en plein jour, presque sans décor, et les rôles féminins sont tenus par de jeunes garçons. **William Shakespeare** (1564-1616) y écrit trente-sept pièces qui embrassent tous les genres : les tragédies d'*Hamlet*, de *Macbeth*, d'*Othello* et du *Roi Lear*, les comédies du *Songe d'une nuit d'été* et de *La Nuit des rois*, les drames historiques comme *Richard III*, enfin *La Tempête*. Il mêle le sublime et le trivial, le roi et le fossoyeur, et donne à ses personnages une profondeur psychologique qui fascine encore. Ses contemporains **Christopher Marlowe** (*Docteur Faustus*) et **Ben Jonson** (*Volpone*) sont eux aussi de premier plan.
 
-**Espagne : Siècle d'Or**
-- **Lope de Vega** (1562-1635) : 1500+ pièces (!), *Fuenteovejuna*
-- **Calderón de la Barca** (1600-1681) : *La vie est un songe*, baroque, métaphysique
-- **Tirso de Molina** : *Don Juan* (El Burlador de Sevilla)
+L'Espagne connaît au même moment son **Siècle d'or**. **Lope de Vega** (1562-1635) aurait écrit plus de mille cinq cents pièces, dont *Fuenteovejuna*, où tout un village se soulève contre un seigneur tyrannique. **Calderón** (1600-1681) pose dans *La vie est un songe* la question baroque par excellence : comment distinguer le rêve de la réalité ? **Tirso de Molina** crée le personnage de **Don Juan**, séducteur sans foi ni loi.
 
-**France Classique (XVIIe siècle)**
-- **Pierre Corneille** (1606-1684)
-  - *Le Cid* (1637) : scandale (querelle du Cid), triomphe
-  - *Horace*, *Cinna*, *Polyeucte*
-  - Dilemme cornélien : devoir vs passion
-  - Héros grandioses, alexandrins
-- **Jean Racine** (1639-1699)
-  - *Phèdre*, *Andromaque*, *Britannicus*, *Bérénice*
-  - Tragédie passionnelle, fatalité, pureté classique
-  - Jansenisme, vision pessimiste
-- **Molière** (1622-1673) : génie de la comédie
-  - *Tartuffe* (hypocrisie religieuse), *Dom Juan*, *Le Misanthrope*
-  - *L'Avare*, *Le Bourgeois gentilhomme*, *Les Femmes savantes*
-  - *Le Malade imaginaire* (mort en scène)
-  - Satire sociale, types universels, farce + profondeur
-  - Acteur-auteur-directeur de troupe
-- **Règles classiques** : 3 unités (action, temps, lieu), bienséance, vraisemblance
+## Le classicisme français : la règle et la passion
 
-### XVIIIe Siècle : Lumières et Réforme
+La France du XVIIe siècle prend le chemin inverse de Shakespeare. Les théoriciens, s'appuyant sur une lecture d'Aristote, imposent des **règles** : la règle des **trois unités** (une seule intrigue, en un seul lieu, en vingt-quatre heures au plus), la **vraisemblance** et la **bienséance**, qui interdit de montrer la violence sur scène. Ces contraintes produisent une tragédie concentrée, où tout se joue dans la parole, en alexandrins.
 
-**France**
-- **Marivaux** (1688-1763)
-  - *Le Jeu de l'amour et du hasard*, *La Double Inconstance*
-  - Marivaudage : jeu amoureux, langage précieux, déguisements
-- **Beaumarchais** (1732-1799)
-  - *Le Barbier de Séville*, *Le Mariage de Figaro* (censure, révolutionnaire)
-  - Critique sociale, Figaro = voix du peuple
+**Pierre Corneille** (1606-1684) fait triompher *Le Cid* en 1637, au prix d'une vive querelle sur le respect des règles. Rodrigue doit choisir entre son amour pour Chimène et l'honneur de sa famille, qui l'oblige à tuer le père de celle qu'il aime : c'est le **dilemme cornélien**, que ses héros surmontent par la volonté. Chez **Jean Racine** (1639-1699), formé par les jansénistes, la passion l'emporte au contraire sur la raison et mène à la destruction. *Phèdre* brûle d'un amour coupable pour son beau-fils, qu'elle sait condamné d'avance.
 
-**Angleterre**
-- Comédie de mœurs : Sheridan (*L'École de la médisance*)
+**Molière** (1622-1673), acteur, auteur et chef de troupe, fait de la comédie un genre aussi noble que la tragédie. Sous le rire, il démonte les travers de son temps : l'hypocrisie religieuse dans *Tartuffe*, qui sera interdit cinq ans, l'avarice, la prétention sociale du *Bourgeois gentilhomme*, la misanthropie. En 1673, il est pris d'un malaise sur scène pendant la quatrième représentation du *Malade imaginaire*, où il joue un hypocondriaque, et meurt quelques heures plus tard.
 
-**Allemagne**
-- **Gotthold Ephraim Lessing** (1729-1781) : théorie dramatique, *Nathan le Sage*
-- **Sturm und Drang** (Tempête et Passion) : pré-romantisme
+## Le XVIIIe siècle : le théâtre des Lumières
 
-### XIXe Siècle : Romantisme et Réalisme
+Au siècle suivant, la comédie s'affine et se politise. **Marivaux** (1688-1763) analyse avec une précision délicate la naissance du sentiment amoureux. Dans *Le Jeu de l'amour et du hasard*, maîtres et valets échangent leurs rôles pour s'observer, et le langage subtil de l'aveu qui se dérobe a donné un mot, le **marivaudage**. **Beaumarchais** (1732-1799) fait de Figaro, valet plus intelligent que son maître, le porte-parole d'une société qui conteste les privilèges : *Le Mariage de Figaro*, longtemps censuré, est joué en 1784, cinq ans avant la Révolution. En Allemagne, **Lessing** théorise un théâtre bourgeois et plaide pour la tolérance dans *Nathan le Sage*, tandis que le mouvement **Sturm und Drang** annonce le romantisme.
 
-**Romantisme**
-- **Victor Hugo** (1802-1885)
-  - Préface de *Cromwell* (1827) : manifeste romantique, rejet unités classiques
-  - *Hernani* (1830) : bataille d'Hernani, scandale
-  - *Ruy Blas*, *Le Roi s'amuse* (inspirera Verdi)
-  - Mélange genres, grotesque et sublime, couleur locale
-- **Alfred de Musset** (1810-1857) : *Lorenzaccio*, *On ne badine pas avec l'amour*
-- **Allemagne** : Goethe (*Faust*), Schiller (*Guillaume Tell*, *Les Brigands*)
+## Le XIXe siècle : de la bataille d'*Hernani* au drame moderne
 
-**Réalisme et Naturalisme**
-- **Henrik Ibsen** (Norvège, 1828-1906)
-  - *Maison de poupée* (1879) : féminisme, Nora claque la porte
-  - *Les Revenants*, *Un ennemi du peuple*, *Hedda Gabler*
-  - Drame bourgeois, critique sociale, psychologie
-  - "Père du théâtre moderne"
-- **August Strindberg** (Suède, 1849-1912)
-  - *Mademoiselle Julie*, *Le Père*, *La Danse de mort*
-  - Naturalisme, misogynie, psychologie torturée
-- **Anton Tchekhov** (Russie, 1860-1904)
-  - *La Mouette*, *Oncle Vania*, *Les Trois Sœurs*, *La Cerisaie*
-  - Anti-drame : pas d'action dramatique forte, quotidien, mélancolie
-  - Sous-texte, pauses, atmosphère
-  - Collaboration avec Stanislavski
-- **Émile Zola** (France) : théorie naturaliste, *Thérèse Raquin*
+Les romantiques font exploser les règles classiques. Dans la préface de *Cromwell* (1827), **Victor Hugo** réclame un drame qui mêle le grotesque et le sublime, comme la vie. Le 25 février 1830, la première d'*Hernani* tourne à l'affrontement entre jeunes romantiques et partisans de la tradition : c'est la **bataille d'Hernani**. Hugo écrit ensuite *Ruy Blas* et *Le roi s'amuse*, dont Verdi tirera *Rigoletto*. **Alfred de Musset**, de son côté, signe avec *Lorenzaccio* un drame si vaste qu'il le destinait à la lecture.
 
-**Vaudeville et Boulevard**
-- **Eugène Labiche** : *Un chapeau de paille d'Italie*, *Le Voyage de Monsieur Perrichon*
-- Georges Feydeau : *La Dame de chez Maxim*, farces mécaniques
+À la fin du siècle, le théâtre se rapproche du réel. Le Norvégien **Henrik Ibsen** (1828-1906) porte sur scène les mensonges de la famille bourgeoise. À la fin de *Maison de poupée* (1879), Nora quitte mari et enfants en claquant la porte, un geste qui fait scandale dans toute l'Europe ; on l'appelle depuis le père du théâtre moderne. Le Suédois **August Strindberg** explore la guerre des sexes avec une violence psychologique inédite (*Mademoiselle Julie*). En Russie, **Anton Tchekhov** (1860-1904) invente une dramaturgie presque sans action : dans *La Mouette*, *Les Trois Sœurs* ou *La Cerisaie*, les personnages parlent de tout sauf de l'essentiel, et le drame se joue dans les silences, le **sous-texte**. Pour le monter, il fallait de nouveaux acteurs : c'est **Stanislavski**, au Théâtre d'art de Moscou, qui les formera. À l'opposé, le **vaudeville** de Labiche et de Feydeau fait rire le public parisien par des mécanismes d'intrigue d'une précision d'horloge.
 
-### XXe Siècle : Modernité et Avant-Gardes
+## Le XXe siècle : la scène remise en question
 
-**Symbolisme**
-- **Maurice Maeterlinck** (Belgique) : *Pelléas et Mélisande*, atmosphère, suggestion
-- **Paul Claudel** : *L'Annonce faite à Marie*, *Le Soulier de satin*, catholicisme
+Le XXe siècle multiplie les ruptures. Les **symbolistes**, comme Maeterlinck (*Pelléas et Mélisande*) ou Paul Claudel (*Le Soulier de satin*), veulent suggérer l'invisible plutôt que copier le réel. L'Italien **Luigi Pirandello**, avec *Six personnages en quête d'auteur* (1921), fait irruption sur scène des personnages abandonnés par leur auteur, et brouille la frontière entre l'illusion et la réalité.
 
-**Expressionnisme**
-- **Allemagne** : distorsion réalité, subjectivité
-- **Georg Kaiser**, **Ernst Toller**
+L'Allemand **Bertolt Brecht** (1898-1956) rompt avec l'idée que le spectateur doit s'identifier aux personnages. Son **théâtre épique** cherche au contraire à le tenir à distance pour qu'il réfléchisse : des chansons interrompent l'action, des pancartes annoncent ce qui va se passer, les acteurs s'adressent au public. Cet **effet de distanciation** doit faire voir comme étrange, donc comme modifiable, une réalité sociale qu'on croyait naturelle. *Mère Courage*, cantinière qui perd ses enfants en voulant profiter de la guerre, en est l'exemple le plus célèbre.
 
-**Théâtre Épique - Bertolt Brecht**
-- **Bertolt Brecht** (Allemagne, 1898-1956)
-  - *L'Opéra de quat'sous*, *Mère Courage*, *La Vie de Galilée*, *Le Cercle de craie caucasien*
-  - **Distanciation (Verfremdungseffekt)** : empêcher identification émotionnelle
-  - Chansons, narration, pancartes, bris du 4e mur
-  - Théâtre didactique, marxiste, critique sociale
-  - Influence majeure XXe siècle
-
-**Théâtre de l'Absurde (années 1950-60)**
-- Après-guerre, crise sens, existentialisme
-- **Samuel Beckett** (Irlande, 1906-1989)
-  - *En attendant Godot* (1953) : rien ne se passe, deux fois
-  - *Fin de partie*, *Oh les beaux jours*
-  - Minimalisme, répétition, vide, condition humaine
-- **Eugène Ionesco** (Roumanie-France, 1909-1994)
-  - *La Cantatrice chauve*, *Rhinocéros*, *Le Roi se meurt*
-  - Langage absurde, prolifération objets, métamorphose
-- **Jean Genet** (France, 1910-1986)
-  - *Les Bonnes*, *Le Balcon*, *Les Paravents*
-  - Cérémonial, travestissement, violence poétique
-- **Harold Pinter** (Angleterre, 1930-2008)
-  - *L'Anniversaire*, *Le Gardien*
-  - Menace, pauses, non-dit, "pintéresque"
-- **Caractéristiques** : situations absurdes, langage décomposé, pas d'action causale, humour noir
+Après 1945, le **théâtre de l'absurde** traduit le désarroi d'un monde sorti de la guerre et des camps. Dans *En attendant Godot* (1953) de **Samuel Beckett**, deux vagabonds attendent un certain Godot qui ne viendra jamais ; l'acte II recommence presque à l'identique l'acte I. **Eugène Ionesco** fait dérailler le langage dans *La Cantatrice chauve* et montre, dans *Rhinocéros*, une ville entière gagnée par une métamorphose qui figure la contagion totalitaire. **Jean Genet** (*Les Bonnes*) et **Harold Pinter** (*Le Gardien*), aux silences menaçants, prolongent cette veine.
 
 > [!warning] Piège
 > "Absurde" ici ne veut pas dire "n'importe quoi" mais désigne une position philosophique précise : l'absence de sens objectif de l'existence, théorisée par Camus dans *Le Mythe de Sisyphe* (voir [[Camus]]) — Godot qui n'arrive jamais n'est pas un gag, c'est la mise en scène littérale de l'attente sans objet final. Ionesco et Beckett dramatisent une thèse philosophique, ils ne se contentent pas d'être fantaisistes.
 
-**Autres Grands Dramaturges XXe**
-- **Luigi Pirandello** (Italie, 1867-1936)
-  - *Six personnages en quête d'auteur*, *Henri IV*
-  - Illusion/réalité, théâtre dans le théâtre
-- **Federico García Lorca** (Espagne, 1898-1936)
-  - *Noces de sang*, *Yerma*, *La Maison de Bernarda Alba*
-  - Poésie, tragédie rurale, femmes opprimées
-- **Tennessee Williams** (USA, 1911-1983)
-  - *Un tramway nommé Désir*, *La Ménagerie de verre*, *La Chatte sur un toit brûlant*
-  - Sud américain, personnages fragiles, poésie
-- **Arthur Miller** (USA, 1915-2005)
-  - *Mort d'un commis voyageur*, *Les Sorcières de Salem*
-  - Tragédie de l'homme ordinaire, critique sociale
-- **Edward Albee** (USA, 1928-2016)
-  - *Qui a peur de Virginia Woolf?*, cruauté couples
-
+Le siècle a aussi ses grands auteurs de tradition plus réaliste. **Federico García Lorca** écrit des tragédies rurales où les femmes étouffent sous la loi des hommes (*La Maison de Bernarda Alba*), avant d'être assassiné par les franquistes en 1936. Aux États-Unis, **Tennessee Williams** peint des êtres fragiles dans le Sud américain (*Un tramway nommé Désir*), **Arthur Miller** fait d'un représentant de commerce usé un héros tragique (*Mort d'un commis voyageur*) et dénonce le maccarthysme à travers les procès de sorcières de Salem (*Les Sorcières de Salem*), et **Edward Albee** dissèque la cruauté d'un couple dans *Qui a peur de Virginia Woolf ?*. La suite de cette histoire se lit dans [[Théâtre Contemporain]].

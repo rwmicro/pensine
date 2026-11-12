@@ -9,81 +9,60 @@ prerequis: ["[[Philosophie & Science]]"]
 
 # Philosophie & Technologie
 
-## Idées clés
+En mars 2016, à Séoul, le programme AlphaGo bat Lee Sedol, l'un des meilleurs joueurs de go du monde, quatre parties à une. Lors de la deuxième partie, il joue un coup, le célèbre « coup 37 », qu'aucun expert humain n'aurait envisagé et que les commentateurs prennent d'abord pour une erreur. Une machine avait-elle eu une idée ? Savait-elle seulement qu'elle jouait au go ? Ce genre de question, longtemps réservé à la science-fiction, est devenu concret. La philosophie de la technique interroge ce que les machines font de nous, autant que ce qu'elles sont.
 
-1. **La technique comme destin** (Heidegger) : dans *La Question de la technique* (1954), Heidegger soutient que la technique moderne n'est pas un outil neutre que l'homme contrôle. Elle est un mode de "dévoilement" (*Entbergen*) du monde — elle transforme tout en "fonds disponible" (*Gestell*), en ressources à exploiter. La nature, le temps, les humains eux-mêmes deviennent calculables et optimisables.
+## La technique n'est pas un simple outil
 
-2. **La conscience comme computation** (IA et philosophie de l'esprit) : si le cerveau est un ordinateur biologique, une machine suffisamment complexe pourrait-elle être consciente ? Le *test de Turing* (1950) propose une définition comportementale. La *chambre chinoise* de Searle (1980) réfute cette définition : la syntaxe n'est pas la sémantique — simuler la compréhension n'est pas comprendre.
+On pense spontanément la technique comme un ensemble d'outils neutres, que l'homme utilise pour ses fins. Aristote la définissait déjà comme un savoir-faire, la *technè*, qui produit des objets selon un plan. Au XIXe siècle, Karl Marx montre que la machine industrielle change le rapport du travailleur à son travail : l'artisan maîtrisait son ouvrage, l'ouvrier devient l'appendice d'une machine qui lui impose son rythme. C'est l'**aliénation**.
 
-3. **Transhumanisme et condition humaine** : l'augmentation technologique de l'humain (implants, édition génétique, téléchargement de la conscience) pose la question de ce qui constitue l'humanité. Si on remplace progressivement toutes les parties du navire de Thésée, reste-t-il le même navire ?
+Martin Heidegger va plus loin dans *La Question de la technique* (1954). L'essence de la technique, écrit-il, « n'est rien de technique ». La technique moderne est une manière de faire apparaître le monde, de le « dévoiler », qui le réduit à un **fonds** de ressources disponibles, prêtes à être exploitées. Le Rhin n'est plus le fleuve chanté par les poètes, mais un débit d'eau pour une centrale électrique ; une forêt devient un stock de bois. Heidegger appelle ce mode de dévoilement l'**arraisonnement** (*Gestell*). Le danger n'est pas qu'une machine nous échappe, mais que nous ne sachions plus voir le monde, et nous-mêmes, autrement que comme des ressources à optimiser.
 
-4. **Surveillance et biopouvoir** (Foucault, Zuboff) : les plateformes numériques ne se contentent pas de surveiller — elles modifient les comportements, en temps réel, à la demande de clients commerciaux. Shoshana Zuboff nomme ce phénomène *capitalisme de surveillance* : l'expérience humaine est la matière première d'un nouveau type de capitalisme.
+## Une machine peut-elle penser ?
 
-5. **Responsabilité et algorithmes** : quand un algorithme décide (crédit bancaire, récidive pénale, tri CV), qui est responsable ? La décision algorithmique est opaque, non contestable, non éthique au sens classique — elle ne délibère pas. Cela pose un problème fondamental pour l'éthique kantienne et la justice démocratique.
+En 1950, le mathématicien britannique Alan Turing, pionnier de l'informatique, remplace cette question trop vague par un test : si un juge humain, conversant par écrit, ne parvient pas à distinguer la machine d'un humain, il faut la dire intelligente. Le **test de Turing** définit l'intelligence par le comportement.
 
-> [!warning] Piège
-> L'opacité d'un algorithme n'implique pas automatiquement une absence de responsabilité humaine — la vraie question philosophique n'est pas "l'algorithme est-il conscient de décider" (il ne l'est pas) mais si la transparence procédurale (pouvoir expliquer *comment* une décision a été prise) peut remplacer la délibération individuelle comme fondement de légitimité. Confondre les deux fait perdre de vue où se loge réellement le problème.
-
-## La philosophie de l'esprit et l'IA
-
-**Le test de Turing :**
-Une machine qui répond de façon indiscernable d'un humain lors d'une conversation textuelle doit être considérée comme intelligente. Problème : c'est une définition comportementale — elle teste la *performance*, non la *compréhension*.
-
-**La chambre chinoise (Searle, 1980) :**
-Imaginez quelqu'un enfermé dans une pièce qui reçoit des symboles chinois, applique des règles de manipulation formelle et renvoie des symboles chinois. De l'extérieur, il semble comprendre le chinois — mais il ne comprend rien. Un programme informatique est dans la même position.
-
-**Réponses possibles :**
-- La chambre chinoise est trop simpliste : la conscience émerge du *système entier*, pas d'un élément.
-- La conscience nécessite une *intégration de l'information* (théorie IIT de Tononi).
-- La conscience est liée à une *architecture biologique* spécifique — le substrat compte.
+En 1980, le philosophe américain John Searle lui oppose l'expérience de la **chambre chinoise**. Imaginez quelqu'un qui ne parle pas chinois, enfermé dans une pièce avec un énorme manuel de règles. On lui glisse des questions en chinois ; il cherche les symboles dans son manuel et renvoie les réponses indiquées. De l'extérieur, la pièce semble parler parfaitement chinois. Pourtant, personne à l'intérieur ne comprend un mot. Un ordinateur, conclut Searle, est dans la même situation : il manipule des symboles selon des règles, une **syntaxe**, sans accéder à leur sens, la **sémantique**. Simuler la compréhension n'est pas comprendre.
 
 > [!important] Idée clé
 > Cette expérience de pensée n'est pas propre à l'IA : c'est le même argument que Searle et Chalmers utilisent en philosophie de l'esprit contre le fonctionnalisme (voir [[Philosophie de l'Esprit]]) — appliquer un raisonnement de simulation vs compréhension à un domaine concret (l'IA) permet de tester si l'argument tient au-delà de l'expérience de pensée abstraite.
 
-**La question difficile** (Chalmers) : même si on explique tous les processus computationnels du cerveau, il reste inexpliqué *pourquoi* cela produit une expérience subjective — la "rougeur" du rouge, la douleur de la douleur. C'est le *hard problem of consciousness*.
+L'argument a suscité des réponses. Pour certains, la compréhension n'est pas dans l'homme mais dans le **système** entier, l'homme, le manuel et la pièce. D'autres, comme le neuroscientifique Giulio Tononi, pensent que la conscience dépend de la manière dont l'information est intégrée dans un système, quel qu'en soit le support. D'autres encore jugent que le **substrat** biologique compte et qu'un cerveau ne se réduit pas à un programme. Le philosophe australien David Chalmers rappelle enfin que même une explication complète des calculs du cerveau laisserait entière une question : pourquoi ces calculs s'accompagnent-ils d'une expérience vécue, la rougeur du rouge, le mal de la douleur ? C'est le **problème difficile de la conscience**.
 
-## Repères philosophiques
+## Augmenter l'humain
 
-- **Aristote** : distinction entre l'outil (prolongement de la main) et la technique (rationalisation de la production). L'homme est défini par sa *techné*.
-- **Marx** : la machine industrielle aliène le travailleur en lui ôtant la maîtrise du processus de production.
-- **Heidegger** (*La Question de la technique*, 1954) : l'essence de la technique n'est pas technique — c'est un dévoilement particulier du monde qui transforme tout en "fonds".
-- **Turing** (*Computing Machinery and Intelligence*, 1950) : test de Turing, machines pensantes.
-- **Searle** (*Minds, Brains, and Programs*, 1980) : chambre chinoise, contre le fonctionnalisme fort.
-- **Chalmers** (*The Conscious Mind*, 1996) : hard problem, arguments en faveur du dualisme des propriétés.
-- **Zuboff** (*L'Âge du capitalisme de surveillance*, 2019) : analyse systématique des plateformes numériques comme capitalisme extractif de l'expérience humaine.
-- **Nick Bostrom** (*Superintelligence*, 2014) : risques existentiels liés à une IA générale supérieure à l'humain.
+Le **transhumanisme** veut utiliser la technique pour dépasser les limites biologiques de l'espèce : implants, édition du génome, interfaces entre le cerveau et la machine, voire, un jour, transfert de l'esprit dans un ordinateur. Il ravive une vieille énigme grecque, celle du **navire de Thésée** : si l'on remplace une à une toutes les planches d'un navire, est-ce encore le même navire ? Et un humain dont on aurait remplacé, pièce après pièce, les organes et les neurones, serait-il encore le même, et encore humain ? Le philosophe suédois Nick Bostrom, dans *Superintelligence* (2014), s'inquiète de l'autre versant : une intelligence artificielle qui dépasserait l'homme dans tous les domaines pourrait poursuivre des buts incompatibles avec sa survie.
+
+## Surveiller et décider
+
+Les plateformes numériques ont donné une actualité nouvelle aux analyses de Michel Foucault sur la surveillance. La sociologue américaine Shoshana Zuboff parle de **capitalisme de surveillance** (*L'Âge du capitalisme de surveillance*, 2019) : nos comportements en ligne sont devenus la matière première d'une industrie qui ne se contente pas de les observer, mais cherche à les prédire et à les orienter au profit de ses clients. Les réseaux sociaux optimisent le temps passé à l'écran plutôt que notre bien-être ; notre attention elle-même devient un fonds disponible, au sens de Heidegger.
+
+Quand un algorithme décide qui obtient un crédit, quel CV est retenu ou quel accusé risque de récidiver, une autre question se pose : qui est responsable ? L'algorithme ne délibère pas, ses raisons sont souvent opaques, même pour ses concepteurs, et la personne concernée ne peut pas les contester.
+
+> [!warning] Piège
+> L'opacité d'un algorithme n'implique pas automatiquement une absence de responsabilité humaine — la vraie question philosophique n'est pas "l'algorithme est-il conscient de décider" (il ne l'est pas) mais si la transparence procédurale (pouvoir expliquer *comment* une décision a été prise) peut remplacer la délibération individuelle comme fondement de légitimité. Confondre les deux fait perdre de vue où se loge réellement le problème.
+
+## Exemples à mobiliser
+
+- Les grands modèles de langage, qui produisent des réponses apparemment compréhensives et réussissent souvent le test de Turing. Searle dirait que cela ne prouve aucune compréhension.
+- AlphaGo (2016) : une intelligence spécialisée, capable de coups inédits, sans savoir ce qu'est le go.
+- Le crédit social chinois : des systèmes de notation des citoyens et des entreprises, plus disparates que le « score unique » souvent décrit, mais qui illustrent le rêve d'un panoptique numérique.
+- L'affaire Cambridge Analytica (2018) : des profils psychologiques tirés de données Facebook pour cibler des électeurs.
+- Les « bébés CRISPR » : en 2018, le chercheur chinois He Jiankui annonce avoir modifié le génome d'embryons pour les rendre résistants au VIH, provoquant un tollé mondial et une condamnation à la prison. Où s'arrête le soin, où commence l'amélioration ?
+- Neuralink : le premier patient implanté en 2024 contrôle un curseur par la pensée. Prothèse médicale ou première étape d'une augmentation ?
 
 ## Ressources
 
 **Lectures :**
-- Heidegger, *La Question de la technique* (1954) — essai de 30 pages, dense mais fondamental. Disponible en traduction française.
-- Shoshana Zuboff, *L'Âge du capitalisme de surveillance* (2019) — analyse sociologique et philosophique des plateformes. Les deux premiers chapitres suffisent.
-- Nick Bostrom, *Superintelligence* (2014) — sur les risques existentiels de l'IA. Stimulant même si controversé.
-- Alan Turing, *Computing Machinery and Intelligence* (1950) — article original sur le test de Turing. 30 pages, lisible sans formation technique.
-- Stanford Encyclopedia of Philosophy : entrées **Artificial Intelligence**, **Consciousness**, **Philosophy of Technology**.
+- Heidegger, *La Question de la technique* (1954) : une trentaine de pages denses mais fondamentales, dans *Essais et conférences*.
+- Alan Turing, « Les ordinateurs et l'intelligence » (1950) : l'article original, lisible sans formation technique.
+- Shoshana Zuboff, *L'Âge du capitalisme de surveillance* (2019) : les deux premiers chapitres suffisent.
+- Nick Bostrom, *Superintelligence* (2014) : stimulant, même si discuté.
+- Stanford Encyclopedia of Philosophy : entrées **The Chinese Room Argument**, **Consciousness** et **Philosophy of Technology** (plato.stanford.edu).
 
 **Podcasts et vidéos :**
-- France Culture, *La Méthode scientifique* — épisodes sur l'IA et la conscience.
-- France Culture, *Les Chemins de la Philosophie* — épisodes sur Heidegger et la technique, transhumanisme.
-- *Lex Fridman Podcast* — entretiens avec des chercheurs en IA, philosophes de l'esprit (en anglais).
-- Chaîne YouTube **Hygiène Mentale** — épisodes sur les biais cognitifs et les algorithmes.
-- Arte — documentaires sur la surveillance numérique, l'IA et le transhumanisme.
-
-## Exemples concrets
-
-**IA et conscience :**
-- *GPT-4, Claude, Gemini* : ces modèles produisent des réponses qui semblent comprendre le contexte, expriment quelque chose comme des préférences. Passent-ils le test de Turing ? Oui, dans certains contextes. Cela prouve-t-il la conscience ? Searle dirait non.
-- *AlphaGo* (2016) bat le champion mondial de Go. Mais ne "sait" pas qu'il joue au Go, ni ce qu'est le Go. Intelligence sans compréhension — exactement la chambre chinoise.
-- *ChatGPT et la créativité* : si une IA compose une symphonie, écrit un roman, est-ce de la création artistique ? Ou une imitation statistique ultra-sophistiquée ?
-
-**Surveillance :**
-- *China Social Credit System* : score de comportement citoyen intégré dans l'accès aux services, transports, éducation. Panoptique numérique — Foucault l'avait anticipé conceptuellement.
-- *Cambridge Analytica* (2018) : profils psychographiques issus de données Facebook, ciblage politique à l'échelle de millions d'électeurs. La volonté de l'électeur manipulée par des algorithmes.
-- *GAFA et l'attention* : les réseaux sociaux optimisent l'engagement (qui produit de la dopamine) plutôt que le bien-être. Le cerveau humain transformé en "fonds disponible" au sens heideggérien.
-
-**Transhumanisme :**
-- *CRISPR-Cas9* : édition génétique permettant de modifier le génome humain. Les "bébés CRISPR" (He Jiankui, 2018) — modification de l'ADN d'embryons humains pour les rendre résistants au VIH. Soulèvement mondial. Où s'arrête le soin, où commence l'amélioration ?
-- *Neuralink* (Elon Musk) : interface cerveau-machine. Premier patient humain implanté en 2024. Quelle est la limite entre prothèse médicale et augmentation cognitive ?
+- France Culture, *La Méthode scientifique* : épisodes sur l'IA et la conscience.
+- France Culture, *Les Chemins de la philosophie* : épisodes sur Heidegger, la technique et le transhumanisme.
+- Chaîne YouTube **Monsieur Phi** : vidéos sur la chambre chinoise et la conscience des machines.
 
 ## Questions ouvertes
 

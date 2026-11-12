@@ -9,60 +9,34 @@ prerequis: ["[[Frise de la Philosophie Occidentale]]"]
 
 # Éthique — Les trois grandes traditions morales
 
-## Vue d'ensemble
-
-L'éthique philosophique répond à la question "Comment doit-on agir ?" Trois traditions majeures proposent des réponses radicalement différentes — et leurs tensions structurent encore tous les débats moraux contemporains.
-
-```
-  Comment évaluer une action ?
-
-  UTILITARISME     → par ses CONSÉQUENCES (maximiser le bien-être collectif)
-  DÉONTOLOGIE      → par le DEVOIR et la règle (indépendamment des conséquences)
-  ÉTHIQUE DES VERTUS → par le caractère de l'AGENT (quelle personne suis-je ?)
-```
+Un ami traqué se cache chez vous. Un homme armé frappe à la porte et vous demande s'il est là. Faut-il mentir ? La plupart d'entre nous répondent oui sans hésiter, parce que mentir sauvera une vie. Emmanuel Kant, lui, répondait non : mentir est un mal, quelles qu'en soient les conséquences. Un disciple d'Aristote, enfin, se demanderait plutôt ce que ferait, dans cette situation, une personne courageuse et sage. Trois réponses, qui correspondent aux trois grandes traditions de l'éthique occidentale : l'**utilitarisme**, qui juge une action à ses conséquences ; la **déontologie**, qui la juge au devoir qu'elle respecte ou viole ; l'**éthique des vertus**, qui s'intéresse moins à l'action qu'au caractère de celui qui agit.
 
 > [!important] Idée clé
 > Ces trois traditions ne répondent pas exactement à la même question — l'utilitarisme et la déontologie demandent "que dois-je faire ?" (une action à juger), l'éthique des vertus demande "qui dois-je être ?" (un caractère à cultiver). C'est pourquoi le tableau de conflits plus bas peut donner trois réponses différentes à un même cas sans qu'aucune ne soit simplement "fausse".
 
-## Utilitarisme — 4 idées clés
+## L'utilitarisme : compter les conséquences
 
-1. **Principe d'utilité** (Bentham) : la bonne action est celle qui produit le plus grand bonheur pour le plus grand nombre. Le bonheur (plaisir moins douleur) est le seul critère moral objectif. La souffrance et le plaisir peuvent en principe être calculés (*calcul hédonique*).
+À la fin du XVIIIe siècle, le juriste anglais Jeremy Bentham (1748-1832) veut réformer les lois de son pays sur une base rationnelle. Il pose un seul critère, le **principe d'utilité** : la bonne action est celle qui produit le plus grand bonheur pour le plus grand nombre. Le bonheur se ramène au plaisir moins la douleur, et l'on peut en principe le mesurer en tenant compte de l'intensité, de la durée ou de la certitude de chaque plaisir : c'est le **calcul hédoniste**. L'idée est révolutionnaire par son égalitarisme : le bonheur d'un mendiant pèse autant que celui d'un lord, et Bentham y inclut même la souffrance des animaux.
 
-2. **Mill et la qualité des plaisirs** : John Stuart Mill raffine Bentham — tous les plaisirs ne se valent pas. Les plaisirs intellectuels et moraux sont supérieurs aux plaisirs physiques. "Mieux vaut être Socrate insatisfait qu'un idiot satisfait."
+Son disciple John Stuart Mill (1806-1873) corrige un point qui choquait ses lecteurs : si seuls comptent les plaisirs, un porc repu serait plus heureux qu'un penseur tourmenté. Mill distingue donc des plaisirs supérieurs, intellectuels et moraux, et des plaisirs inférieurs, et tranche : « Il vaut mieux être Socrate insatisfait qu'un imbécile satisfait. » Les utilitaristes ultérieurs distingueront aussi deux versions de la doctrine. L'**utilitarisme de l'acte** évalue chaque action selon ses conséquences particulières ; l'**utilitarisme de la règle** recommande de suivre les règles générales, comme ne pas mentir ou ne pas tuer, dont le respect par tous produit le meilleur résultat d'ensemble.
 
-3. **Utilitarisme des actes vs utilitarisme des règles** :
-   - *Utilitarisme des actes* : chaque action doit être évaluée selon ses conséquences particulières.
-   - *Utilitarisme des règles* : on suit des règles générales (ne pas mentir, ne pas tuer) dont le respect systématique maximise l'utilité collective.
+La force de l'utilitarisme est de prendre au sérieux le bien-être réel des gens. Sa faiblesse est qu'il peut justifier l'injustifiable : sacrifier un innocent si cela en sauve cinq, ou torturer un suspect pour sauver mille personnes. Le philosophe australien Peter Singer, né en 1946, en tire aujourd'hui des conclusions très exigeantes sur nos devoirs envers les plus pauvres et envers les animaux.
 
-4. **Le problème du sacrifice de l'individu** : l'utilitarisme peut justifier de sacrifier une personne pour en sauver cinq (trolley problem). Ou de torturer un suspect si cela sauve mille innocents. Ces conclusions font de l'utilitarisme une théorie puissante mais moralement inconfortable.
+## La déontologie : respecter le devoir
 
-**Figures :** Jeremy Bentham (1748-1832) · John Stuart Mill (1806-1873) · Peter Singer (né 1946)
+Pour [[Kant]] (1724-1804), la valeur morale d'une action ne dépend pas de ses résultats, que nous ne maîtrisons jamais complètement, mais de l'intention qui l'anime. Un commerçant qui rend la monnaie exacte par peur de perdre ses clients agit conformément au devoir, mais pas **par devoir**. Seule une action accomplie par respect de la loi morale a une valeur morale, et la **bonne volonté** est la seule chose bonne sans restriction.
 
-## Éthique déontologique (Kant) — 4 idées clés
+Pour savoir ce que commande la loi morale, Kant propose un test, l'**impératif catégorique** : « Agis uniquement d'après la maxime qui fait que tu peux vouloir en même temps qu'elle devienne une loi universelle. » Puis-je vouloir que tout le monde agisse comme moi ? Si chacun mentait dès que cela l'arrange, plus personne ne croirait personne, et le mensonge lui-même deviendrait impossible. Kant en donne une seconde formulation, qui fonde l'idée moderne de dignité humaine : « Agis de telle sorte que tu traites l'humanité, aussi bien dans ta personne que dans la personne de tout autre, toujours en même temps comme une fin, et jamais simplement comme un moyen. »
 
-1. **Agir par devoir** : une action n'a de valeur morale que si elle est accomplie par respect de la loi morale, non par inclination, intérêt ou peur des conséquences. La "bonne volonté" est la seule chose bonne sans restriction.
+Cette morale est d'une rigueur extrême : Kant refuse le mensonge même pour sauver un ami poursuivi par un assassin, car admettre une exception, c'est ruiner la règle. Ses successeurs, comme le Britannique W. D. Ross, ont tenté de l'assouplir en admettant plusieurs devoirs qui peuvent entrer en conflit et entre lesquels il faut arbitrer.
 
-2. **L'impératif catégorique** (formule de l'universalité) : "Agis uniquement selon la maxime qui fait que tu peux vouloir en même temps qu'elle devienne une loi universelle." Test de cohérence logique : puis-je vouloir que tout le monde fasse comme moi ? Si le mensonge était universel, le concept même de vérité s'effondrerait.
+## L'éthique des vertus : devenir quelqu'un de bien
 
-3. **Respecter la personne comme fin** (formule de l'humanité) : "Traite l'humanité, dans ta personne comme dans celle d'autrui, toujours en même temps comme une fin, et jamais seulement comme un moyen." Fondement philosophique des droits de l'homme.
+La plus ancienne des trois traditions remonte à [[Aristote]] (384-322 av. J.-C.) et pose une autre question : non pas « que dois-je faire ? », mais « quelle sorte de personne dois-je être ? ». La morale n'est pas un code à appliquer, mais un caractère à former. Une **vertu**, comme le courage, la tempérance, la justice ou la générosité, est une disposition stable à agir et à ressentir comme il faut, au bon moment, envers les bonnes personnes. Elle s'acquiert par l'habitude, comme un savoir-faire : on devient courageux en accomplissant des actes courageux, comme on devient cithariste en jouant de la cithare.
 
-4. **Rigueur vs flexibilité** : Kant refuse toute exception — mentir reste immoral même pour sauver une vie. Cette rigueur est souvent critiquée comme impossible à tenir en pratique, mais elle reflète une logique : dès qu'on autorise une exception, la règle s'effondre.
+Chaque vertu se tient au **juste milieu** entre deux vices, l'un par excès, l'autre par défaut. Le courage se situe entre la lâcheté et la témérité, la générosité entre l'avarice et la prodigalité. Ce milieu n'est pas une moyenne arithmétique : il dépend de la situation, et seule la **prudence** (*phronèsis*), la sagesse pratique, permet de le discerner. Le modèle n'est donc pas une règle, mais une personne : l'homme prudent, dont on se demande ce qu'il ferait à notre place. Longtemps éclipsée, cette tradition a été relancée au XXe siècle par Philippa Foot, Alasdair MacIntyre et Martha Nussbaum.
 
-**Figures :** Emmanuel Kant (1724-1804) · W.D. Ross (droits prima facie) · Christine Korsgaard
-
-## Éthique des Vertus (Aristote) — 4 idées clés
-
-1. **La question centrale est différente** : pas "que dois-je faire ?" mais "quelle sorte de personne dois-je être ?" La morale n'est pas un ensemble de règles à suivre mais un caractère à cultiver.
-
-2. **Les vertus comme dispositions habituelles** : une vertu (courage, tempérance, justice, prudence) est une disposition stable à agir et ressentir de la bonne manière, au bon moment, à l'égard des bonnes personnes. Elle s'acquiert par la pratique — on devient courageux en faisant des actes courageux.
-
-3. **Le juste milieu** (*médiété*) : chaque vertu est le juste milieu entre deux vices extrêmes (excès et défaut). Le courage est le milieu entre la lâcheté (défaut) et la témérité (excès). La générosité entre l'avarice et la prodigalité.
-
-4. **La *phronesis* (prudence pratique)** : la vertu clé n'est pas une règle abstraite mais la sagesse pratique — savoir discerner ce qu'il convient de faire dans chaque situation concrète. L'homme prudent (*phronimos*) est le modèle de référence.
-
-**Figures :** Aristote (384-322 av. J.-C.) · Alasdair MacIntyre · Martha Nussbaum · Philippa Foot
-
-## Les conflits entre les trois traditions
+## Quand les traditions s'opposent
 
 | Situation | Utilitarisme | Déontologie | Éthique des vertus |
 |---|---|---|---|
@@ -70,41 +44,34 @@ L'éthique philosophique répond à la question "Comment doit-on agir ?" Trois t
 | Torturer pour sauver des milliers | Oui (calcul d'utilité) | Jamais (dignité de la personne) | Non (corrompt le caractère de celui qui torture) |
 | Promettre et tenir, même à coût élevé | Oui si cela maximise l'utilité | Oui par devoir de fidélité | Oui : la fidélité est une vertu |
 
-## Ressources
-
-**Textes fondateurs (accessibles) :**
-- Kant, *Fondements de la métaphysique des mœurs* (1785) — 80 pages, lisibles seules, c'est la clé de l'éthique kantienne.
-- Mill, *L'Utilitarisme* (1863) — court essai, 60 pages. Premier chapitre très accessible.
-- Aristote, *Éthique à Nicomaque*, Livres I et II — introduction à l'eudémonisme et aux vertus.
-
-**Livres d'introduction :**
-- Michael Sandel, *Justice : What's the Right Thing to Do?* (2009) — chapitres 1-5 couvrent les trois traditions avec des cas concrets vivants.
-- Peter Singer, *La Libération animale* (1975) — application radicale de l'utilitarisme à la condition animale.
-- Alasdair MacIntyre, *Après la vertu* (1981) — critique des éthiques modernes, retour aux vertus.
-
-**Podcasts et vidéos :**
-- *Justice with Michael Sandel* (Harvard/YouTube) — cours complet en 12 épisodes avec débats sur le trolley problem, l'utilitarisme, Kant. Parmi les plus vus au monde.
-- France Culture, *Les Chemins de la Philosophie* — séries sur Kant, l'utilitarisme et l'éthique des vertus.
-- Chaîne YouTube **Monsieur Phi** — vidéos sur le trolley problem et l'éthique.
-
-## Exemples concrets
-
-**Le trolley problem et ses variantes :**
-- Version 1 (Foot, 1967) : actionner un aiguillage pour dévier un tramway d'une voie à cinq vers une voie à une personne. La plupart disent *oui*.
-- Version 2 (Thomson, 1985) : pousser un homme corpulent du haut d'un pont pour que son corps arrête le tramway. La plupart disent *non*. Pourtant le calcul utilitaire est identique (1 mort vs 5).
-- Ce n'est pas incohérence : la déontologie explique la différence. Dans le cas 2, on utilise la personne comme *moyen*, ce que Kant interdit.
+Le cas le plus célèbre est le **dilemme du tramway**. Dans sa version initiale, imaginée par Philippa Foot en 1967, on peut actionner un aiguillage pour dévier un tramway fou d'une voie où se trouvent cinq personnes vers une voie où il n'y en a qu'une. La plupart des gens acceptent. Dans la variante de Judith Jarvis Thomson, il faudrait pousser un homme corpulent du haut d'une passerelle pour que son corps arrête le tramway. Presque tout le monde refuse, alors que le bilan est le même : un mort contre cinq. Ce n'est pas forcément de l'incohérence. Dans le second cas, on se sert de l'homme comme d'un simple moyen, ce que l'impératif kantien interdit.
 
 > [!warning] Piège
 > Ce contraste entre les deux versions du trolley est l'exemple classique pour montrer qu'un jugement moral intuitif n'est pas toujours incohérent malgré un calcul identique — retenir l'explication kantienne (utiliser une personne comme moyen) plutôt que de conclure simplement "les gens sont irrationnels", erreur fréquente en copie.
 
-**Actualité :**
-- *Voitures autonomes* : si un accident est inévitable, l'IA doit-elle sacrifier le passager pour épargner cinq piétons ? Qui programme ce choix ? Utilitarisme intégré dans le code — mais aucune société ne l'accepte explicitement.
-- *Éthique de l'IA* (biais algorithmiques, vie privée, manipulation) : quelle tradition s'applique ? Déontologie (droits absolus des utilisateurs) ou utilitarisme (optimisation du bien-être global) ?
-- *Peter Singer et l'altruisme efficace* : si tu peux sauver une vie en faisant un don de 3 000 €, ne pas le faire est moralement équivalent à laisser mourir. L'utilitarisme pousse à des conclusions très exigeantes.
+## Exemples à mobiliser
 
-**Cinéma :**
-- *Sophie's Choice* (Pakula, 1982) — choisir lequel de ses deux enfants mourra. L'agonie morale au-delà de tout calcul et de toute règle.
-- *I, Robot* (Proyas, 2004) — une IA utilitariste interprète sa directive ("protéger les humains") et décide de contrôler l'humanité pour son propre bien. Utilitarisme mal calibré.
+- Les voitures autonomes : si un accident est inévitable, le véhicule doit-il sacrifier son passager pour épargner cinq piétons ? Programmer ce choix, c'est inscrire une morale dans du code.
+- L'altruisme efficace, inspiré de Peter Singer : si un don de quelques milliers d'euros à une association bien choisie peut sauver une vie, ne pas le faire revient-il à laisser mourir quelqu'un ?
+- *Le Choix de Sophie* (Alan J. Pakula, 1982) : une mère contrainte de choisir lequel de ses deux enfants mourra, une situation qui échappe à tout calcul et à toute règle.
+- *I, Robot* (Alex Proyas, 2004) : une intelligence artificielle chargée de protéger les humains décide de les contrôler pour leur propre bien, un utilitarisme devenu tyrannique.
+
+## Ressources
+
+**Textes fondateurs :**
+- Kant, *Fondements de la métaphysique des mœurs* (1785) : environ quatre-vingts pages, la clé de l'éthique kantienne.
+- Mill, *L'Utilitarisme* (1863) : un court essai, dont les premiers chapitres sont très accessibles.
+- Aristote, *Éthique à Nicomaque*, livres I et II : le bonheur et les vertus.
+
+**Livres d'introduction :**
+- Michael Sandel, *Justice* (2009) : les premiers chapitres présentent les trois traditions à partir de cas concrets.
+- Peter Singer, *La Libération animale* (1975) : l'utilitarisme appliqué à la condition animale.
+- Alasdair MacIntyre, *Après la vertu* (1981) : une critique des morales modernes et un plaidoyer pour le retour aux vertus.
+
+**Podcasts et vidéos :**
+- *Justice with Michael Sandel* (Harvard, sur YouTube) : douze cours filmés sur le tramway, l'utilitarisme et Kant.
+- France Culture, *Les Chemins de la philosophie* : séries sur Kant, l'utilitarisme et l'éthique des vertus.
+- Chaîne YouTube **Monsieur Phi** : vidéos sur le dilemme du tramway et l'éthique.
 
 ## Questions ouvertes
 

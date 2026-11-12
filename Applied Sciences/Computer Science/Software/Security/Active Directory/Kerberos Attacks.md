@@ -33,11 +33,7 @@ sequenceDiagram
     Note right of Client: Présente le TGS, le service déchiffre avec son propre hash
 ```
 
-Acteurs :
-- KDC (Key Distribution Center) : généralement le contrôleur de domaine
-- AS (Authentication Service) : émet les TGT
-- TGS (Ticket Granting Service) : émet les tickets de service
-- krbtgt : compte spécial dont le hash protège tous les TGT
+Quatre acteurs interviennent. Le **KDC** (*Key Distribution Center*), hébergé par le contrôleur de domaine, est l'autorité centrale ; il se compose du service d'authentification (**AS**), qui délivre les TGT, et du service de tickets (**TGS**), qui délivre les tickets de service. Le compte spécial **krbtgt**, enfin, est la clé de voûte : son hash chiffre et signe tous les TGT, si bien que quiconque le connaît peut forger des tickets indétectables. C'est pourquoi la plupart des attaques Kerberos tournent autour de ces hashes, soit pour les cracker, soit pour les voler.
 
 > [!abstract] Définition — TGT
 > Ticket délivré par le KDC en réponse à un AS-REQ, chiffré avec le hash de krbtgt : le client le présente ensuite pour obtenir des tickets de service (TGS) sans re-présenter son mot de passe.
@@ -50,20 +46,9 @@ Acteurs :
 > [!abstract] Définition — Kerberoasting
 > Attaque hors ligne consistant à demander un TGS pour un compte avec SPN puis à cracker le hash qui le chiffre : le mot de passe du compte de service peut être retrouvé sans verrouillage de compte, puisque l'attaque force les hash hors ligne au lieu de les deviner en ligne.
 
-Demander des TGS pour des comptes avec SPN, puis cracker les hashes hors ligne.
+Le Kerberoasting consiste à demander des tickets de service pour des comptes qui portent un SPN, puis à cracker hors ligne le hash qui les chiffre. Le principe tient à une propriété du protocole : tout utilisateur authentifié peut demander un TGS pour n'importe quel SPN, et ce TGS est chiffré avec le hash du compte de service associé. L'attaquant récupère donc ce ticket, en extrait la partie chiffrée et la soumet à un outil de cassage sur sa propre machine. Comme le cassage se fait hors ligne, il ne déclenche aucun verrouillage de compte et ne laisse aucune trace côté serveur. Si le mot de passe du compte de service est faible, il finit par tomber.
 
-```
-Principe :
-  1. Tout utilisateur authentifié peut demander un TGS pour n'importe quel SPN
-  2. Le TGS est chiffré avec le hash du compte de service (RC4-HMAC ou AES)
-  3. L'attaquant extrait le hash et le cracke hors ligne (pas de lockout)
-  4. Si le mot de passe du compte de service est faible → compromission
-
-Cibles idéales :
-  → Comptes de service avec SPN (servicePrincipalName non vide)
-  → Pas des comptes machine (mots de passe 120 caractères aléatoires)
-  → Comptes humains utilisés comme comptes de service (mots de passe souvent faibles)
-```
+Les cibles idéales sont les comptes de service tenus par un humain : un administrateur a créé un compte `svc_sql` avec un mot de passe qu'il a choisi lui-même, souvent trop court. À l'inverse, les comptes machine ont un mot de passe de 120 caractères aléatoires, incassable en pratique : les viser ne sert à rien.
 
 ```bash
 # Impacket — GetUserSPNs.py
@@ -96,19 +81,7 @@ hashcat -m 19700 kerberoast_hashes.txt /usr/share/wordlists/rockyou.txt
 
 ## AS-REP Roasting
 
-Attaque ciblant les comptes avec la pré-authentification Kerberos désactivée.
-
-```
-Principe :
-  La pré-authentification Kerberos oblige le client à chiffrer un timestamp
-  avec son mot de passe → prouve qu'il connaît le mot de passe AVANT d'obtenir un TGT
-
-  Si DONT_REQUIRE_PREAUTH est activé sur un compte :
-  → N'importe qui peut demander un AS-REP pour ce compte SANS connaître le mot de passe
-  → L'AS-REP contient une partie chiffrée avec le hash du compte → crackable hors ligne
-
-Attribut Active Directory : userAccountControl & 4194304 (DONT_REQUIRE_PREAUTH)
-```
+L'AS-REP Roasting cible les comptes dont la pré-authentification Kerberos est désactivée. Normalement, la pré-authentification oblige le client à chiffrer un horodatage avec son mot de passe avant que le KDC ne lui délivre quoi que ce soit : c'est la preuve qu'il connaît bien le secret. Mais certains comptes, souvent anciens ou liés à des applications qui ne la gèrent pas, ont l'option `DONT_REQUIRE_PREAUTH` activée. Pour eux, n'importe qui peut demander un AS-REP sans connaître le mot de passe, et cet AS-REP contient une partie chiffrée avec le hash du compte, donc cassable hors ligne, exactement comme pour le Kerberoasting. L'attribut concerné est un bit de `userAccountControl` (la valeur 4194304).
 
 ```bash
 # Impacket — GetNPUsers.py (pas de credentials nécessaires si pré-auth désactivée)
@@ -132,15 +105,7 @@ john --format=krb5asrep asrep_hashes.txt --wordlist=/usr/share/wordlists/rockyou
 
 ## Overpass-the-Hash (Pass-the-Key)
 
-Convertir un hash NTLM en ticket Kerberos (TGT).
-
-```
-Différence avec Pass-the-Hash :
-  PtH → authentification NTLM (SMB, WMI...)
-  OPtH → authentification Kerberos → obtenir un TGT complet
-
-Avantage : le trafic Kerberos est moins suspect que NTLM dans beaucoup d'environnements
-```
+L'Overpass-the-Hash convertit un hash NTLM en un véritable ticket Kerberos (un TGT). La différence avec le Pass-the-Hash classique est le protocole employé : le Pass-the-Hash rejoue le hash via une authentification NTLM (vers SMB, WMI…), alors que l'Overpass-the-Hash s'en sert pour obtenir un TGT complet et poursuivre en Kerberos. L'intérêt est surtout de discrétion : dans beaucoup d'environnements, le trafic Kerberos est la norme et attire moins l'attention que le NTLM, souvent surveillé de près.
 
 ```bash
 # Impacket — getTGT.py avec hash NTLM
@@ -242,20 +207,9 @@ python3 psexec.py domaine.local/Administrator@DC01 -k -no-pass
 
 ## Silver Ticket
 
-Forger un TGS pour un service spécifique avec le hash du compte de service.
+Le Silver Ticket forge un ticket de service pour un service précis, à partir du hash du compte de ce service. La différence avec le Golden Ticket tient à la portée et à la furtivité. Le Golden forge un TGT et donne accès à tout, mais il doit passer par le KDC pour obtenir chaque ticket de service, ce qui laisse des traces côté contrôleur de domaine. Le Silver forge directement un TGS pour un seul service, qu'il présente sans jamais contacter le KDC : l'accès est limité, mais invisible côté domaine.
 
-```
-Différence Golden / Silver :
-  Golden → TGT → accès à tout (mais passe par le KDC → loggable)
-  Silver → TGS → accès à un service spécifique (SANS contacter le KDC → plus furtif)
-
-Cibles courantes :
-  cifs/SERVER01   → accès fichiers SMB
-  http/SERVER01   → accès web (IIS avec auth Kerberos)
-  mssql/SERVER01  → accès SQL Server
-  host/SERVER01   → tâches planifiées, services
-  wsman/SERVER01  → WinRM / PowerShell remoting
-```
+Le service visé est désigné par son SPN. Les plus courants sont `cifs/SERVER01` pour les partages de fichiers SMB, `http/SERVER01` pour un site IIS en authentification Kerberos, `mssql/SERVER01` pour SQL Server, `host/SERVER01` pour les tâches planifiées et les services, et `wsman/SERVER01` pour WinRM et le PowerShell à distance.
 
 ```bash
 # Mimikatz — Silver Ticket
@@ -280,22 +234,13 @@ python3 smbclient.py -k domaine.local/Administrator@SERVER01
 
 ## Délégation Kerberos — Attaques
 
-```
-Délégation non contrainte (Unconstrained Delegation) :
-  → Le serveur peut s'authentifier EN TANT QUE l'utilisateur vers N'IMPORTE quel service
-  → Le TGT de l'utilisateur est stocké dans la mémoire du serveur délégant
-  → Si on compromet un serveur avec délégation non contrainte → voler les TGTs des admin
+La délégation Kerberos permet à un service d'agir au nom d'un utilisateur auprès d'un autre service, par exemple à un serveur web d'interroger une base de données sous l'identité du visiteur. Pratique, mais dangereuse dès qu'elle est mal cadrée. Elle existe sous trois formes, de la plus à la moins risquée.
 
-Délégation contrainte (Constrained Delegation) :
-  → Le serveur ne peut déléguer que vers des services spécifiés (msDS-AllowedToDelegateTo)
-  → S4U2Self + S4U2Proxy : le serveur peut s'authentifier en tant que n'importe quel user
-  → vers les services autorisés → accès à ces services sous l'identité de l'admin
+La **délégation non contrainte** (*unconstrained*) est la plus permissive : le serveur peut se faire passer pour l'utilisateur auprès de n'importe quel service, parce que le TGT complet de l'utilisateur est déposé dans la mémoire du serveur. Compromettre un tel serveur revient donc à récolter les TGT de tous ceux qui s'y connectent, administrateurs compris. En forçant un contrôleur de domaine à s'authentifier vers ce serveur (avec le PrinterBug ou PetitPotam), on capture le TGT du DC lui-même.
 
-RBCD (Resource-Based Constrained Delegation) :
-  → La ressource cible contrôle qui peut déléguer vers elle (msDS-AllowedToActOnBehalfOfOtherIdentity)
-  → Si on a WriteProperty sur ce champ → configurer notre machine comme pouvant déléguer
-  → S4U2Self/S4U2Proxy → TGS au nom d'Administrator pour la machine cible
-```
+La **délégation contrainte** (*constrained*) limite la délégation à une liste de services déclarés dans l'attribut `msDS-AllowedToDelegateTo`. Mais les extensions S4U2Self et S4U2Proxy permettent au serveur de se faire passer pour n'importe quel utilisateur auprès de ces services autorisés, y compris un administrateur.
+
+La **délégation contrainte basée sur la ressource** (RBCD) inverse le point de contrôle : c'est la ressource cible qui déclare, dans son attribut `msDS-AllowedToActOnBehalfOfOtherIdentity`, qui a le droit de déléguer vers elle. Si l'on obtient un droit d'écriture sur cet attribut, on y inscrit une machine que l'on contrôle, puis on utilise S4U2Self et S4U2Proxy pour obtenir un ticket au nom de l'administrateur vers la cible.
 
 ```bash
 # Trouver les serveurs avec délégation non contrainte
@@ -322,34 +267,15 @@ python3 getST.py -spn cifs/TARGET.domaine.local \
 
 ## Contre-mesures
 
-```
-Contre le Kerberoasting :
-  - Mots de passe longs (25+ caractères) pour les comptes de service
-  - Utiliser des Managed Service Accounts (MSA/gMSA) — mots de passe auto-générés 120 chars
-  - AES only — désactiver RC4 pour les comptes de service (RC4 = plus rapide à cracker)
-  - Surveiller les demandes massives de TGS (Event ID 4769)
+Contre le **Kerberoasting**, tout se joue sur le mot de passe des comptes de service : il faut qu'il soit long (au moins 25 caractères) ou, mieux, qu'il soit géré automatiquement par un compte de service managé (MSA ou gMSA), dont le mot de passe de 120 caractères est renouvelé par le système. Désactiver le chiffrement RC4 au profit d'AES retire aux attaquants le format le plus rapide à casser, et une alerte sur les rafales de demandes de TGS (événement 4769) permet de repérer l'attaque.
 
-Contre l'AS-REP Roasting :
-  - Ne jamais désactiver la pré-authentification Kerberos sans raison légitime
-  - Auditer régulièrement (DONT_REQUIRE_PREAUTH) : Get-DomainUser -UACFilter DONT_REQ_PREAUTH
+Contre l'**AS-REP Roasting**, la règle est simple : ne jamais désactiver la pré-authentification sans raison impérieuse, et auditer régulièrement les comptes où elle l'est (`Get-DomainUser -UACFilter DONT_REQ_PREAUTH`).
 
-Contre les Golden/Silver Tickets :
-  - Changer le mot de passe de krbtgt deux fois (invalide tous les TGTs existants)
-  - Rotation régulière du mot de passe krbtgt (tous les 180 jours minimum)
-  - Protected Users Security Group : empêche la délégation, force Kerberos AES
-  - Credential Guard : protège les tickets en mémoire
+Contre les **Golden et Silver Tickets**, la mesure clé est la rotation du mot de passe de krbtgt, qu'il faut changer deux fois de suite pour invalider les TGT existants, et au moins tous les six mois. Le groupe *Protected Users* empêche la délégation et force le chiffrement AES, tandis que Credential Guard protège les tickets en mémoire contre leur vol.
 
-Contre la délégation non contrainte :
-  - Auditer les comptes avec délégation non contrainte (hors DC)
-  - Préférer la délégation contrainte ou RBCD aux déploiements légitimes
-  - Activer "Account is sensitive and cannot be delegated" sur les comptes admin
+Contre la **délégation non contrainte**, il faut l'auditer et la supprimer partout où elle n'est pas indispensable, lui préférer la délégation contrainte ou RBCD, et marquer les comptes sensibles comme « ne pouvant pas être délégués ».
 
-Détection :
-  Event ID 4768 : demande de TGT (AS-REQ)
-  Event ID 4769 : demande de TGS (Kerberoasting si RC4 + volume)
-  Event ID 4771 : échec pré-authentification
-  Event ID 4624 / 4672 : authentification avec privileges élevés
-```
+Côté **détection**, quelques événements Windows sont à surveiller : 4768 (demande de TGT), 4769 (demande de TGS, signe de Kerberoasting en cas de chiffrement RC4 et de volume anormal), 4771 (échec de pré-authentification) et 4624/4672 (authentification avec privilèges élevés).
 
 ## Pièges courants
 

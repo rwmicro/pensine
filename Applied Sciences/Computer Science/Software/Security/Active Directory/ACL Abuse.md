@@ -9,26 +9,22 @@ prerequis: ["[[BloodHound]]"]
 
 # ACL Abuse
 
-Les ACL (Access Control Lists) d'Active Directory définissent qui peut faire quoi sur chaque objet. Des ACL mal configurées permettent à un utilisateur faiblement privilégié de prendre le contrôle d'objets sensibles (comptes admin, groupes, DC).
+Dans un grand domaine Active Directory, personne ne sait vraiment qui a le droit de faire quoi. Au fil des années, un administrateur a délégué à un collègue le droit de réinitialiser les mots de passe d'une unité d'organisation, un script a accordé un droit d'écriture « temporaire » jamais retiré, un groupe imbriqué dans un autre a hérité de permissions oubliées. Chacune de ces délégations était raisonnable isolément ; leur accumulation dessine, sans que personne l'ait voulu, un chemin qui mène d'un compte sans privilège jusqu'à l'administrateur du domaine. L'**abus d'ACL** consiste à suivre ce chemin.
+
+Les ACL (*Access Control Lists*) d'Active Directory définissent qui peut faire quoi sur chaque objet. Des ACL mal configurées permettent à un utilisateur faiblement privilégié de prendre le contrôle d'objets sensibles (comptes admin, groupes, contrôleurs de domaine).
 
 > [!important] Idée clé
 > L'abus d'ACL n'exploite aucune faille logicielle — c'est une mauvaise configuration de permissions, souvent le chemin le plus court vers Domain Admin car il n'y a rien à patcher. C'est pour ça que BloodHound (qui cartographie ces droits) est souvent plus rentable qu'un scan de vulnérabilités classique.
 
-## Concepts fondamentaux
+## Comment une permission est décrite
 
-```
-DACL (Discretionary ACL) : liste des permissions d'accès à un objet
-SACL (System ACL)         : liste d'audit (qui accède à l'objet)
-ACE (Access Control Entry): une règle individuelle dans une DACL
+Chaque objet d'Active Directory porte une liste de contrôle d'accès. On en distingue deux : la **DACL** (*Discretionary ACL*) dit qui a le droit d'accéder à l'objet et comment, tandis que la **SACL** (*System ACL*) sert à l'audit, c'est-à-dire à décider quels accès sont journalisés. C'est la DACL qui intéresse l'attaquant.
 
-Structure d'un ACE :
-  Trustee (qui) : SID de l'utilisateur/groupe
-  Type          : Allow / Deny
-  Rights        : GenericAll, ReadProperty, WriteProperty...
-  Inheritance   : héritage vers les objets enfants
-```
+Une DACL est une suite d'**ACE** (*Access Control Entry*), chaque ACE étant une règle élémentaire. Une ACE précise quatre choses : le **bénéficiaire** (le SID de l'utilisateur ou du groupe concerné), le **type** (autoriser ou refuser), les **droits** accordés (`GenericAll`, `ReadProperty`, `WriteProperty`…) et l'**héritage**, qui détermine si la règle se propage aux objets enfants. Toute la suite consiste à repérer les ACE qui donnent, à un compte qu'on contrôle, un droit dangereux sur un objet qu'on convoite.
 
 ## Droits exploitables
+
+Tous les droits ne se valent pas. Certains donnent le contrôle total d'un objet, d'autres ne permettent qu'une action précise, mais presque tous peuvent, par un enchaînement, mener au même résultat. Les sections qui suivent les présentent du plus puissant au plus spécifique, avec pour chacun la commande qui l'exploite, le plus souvent avec le module PowerShell PowerView côté Windows.
 
 ### GenericAll — contrôle total
 
@@ -192,23 +188,11 @@ Add-DomainObjectAcl -TargetIdentity "CN=AdminSDHolder,CN=System,DC=domaine,DC=lo
 
 ## Contre-mesures
 
-```
-Nettoyage des ACL :
-  - Auditer régulièrement avec BloodHound, PingCastle, ou Purple Knight
-  - Supprimer les ACL héritées excessives sur les comptes sensibles
-  - Utiliser AdminSDHolder pour protéger les comptes privilégiés
+La défense commence par le **nettoyage des ACL**. Comme l'attaque n'exploite aucune faille logicielle, il n'y a rien à corriger par un correctif : il faut auditer régulièrement les permissions, avec les mêmes outils que les attaquants (BloodHound, PingCastle, Purple Knight), supprimer les droits hérités excessifs accumulés sur les comptes sensibles, et s'appuyer sur le mécanisme AdminSDHolder, qui réécrit périodiquement les ACL des comptes privilégiés pour les ramener à un état de référence.
 
-Monitoring :
-  - Événement 4662 : accès à un attribut d'objet AD (GenericAll, WriteDACL...)
-  - Événement 5136 : modification d'un attribut d'objet AD
-  - Alerter sur la modification de msDS-AllowedToActOnBehalfOfOtherIdentity
+La **surveillance** repose ensuite sur quelques événements Windows. L'événement 4662 trace l'accès à un attribut d'objet (c'est lui qui révèle un DCSync), et l'événement 5136 trace la modification d'un attribut. Une alerte particulière mérite d'être posée sur toute écriture de l'attribut `msDS-AllowedToActOnBehalfOfOtherIdentity`, qui signale une tentative de délégation RBCD malveillante.
 
-Hardening :
-  - Protected Users Security Group (désactive NTLM, délégation, RC4)
-  - Tier Model : séparer les comptes admin Tier 0 des autres
-  - PAM (Privileged Access Management) pour les comptes sensibles
-  - Microsoft LAPS pour les mots de passe des comptes locaux
-```
+Le **durcissement**, enfin, limite la portée d'un abus réussi. Le groupe *Protected Users* désactive pour ses membres NTLM, la délégation et le chiffrement RC4. Le modèle en couches (*Tier Model*) sépare strictement les comptes d'administration du domaine (Tier 0) des autres. Une solution de gestion des accès privilégiés (PAM) encadre l'usage des comptes sensibles, et LAPS attribue à chaque machine un mot de passe d'administrateur local unique, ce qui casse les chaînes de pass-the-hash.
 
 ## Pièges courants
 

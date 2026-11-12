@@ -6,7 +6,10 @@ tags: [agents, function-calling, tool-use, llm, mcp, react]
 date: "2026-08-24"
 prerequis: ["[[Prompt Engineering]]"]
 ---
+
 # Agents LLM et Function Calling
+
+Demandez à un modèle de langage, seul, quel temps il fait à Lyon : il ne peut que deviner, ou avouer qu'il n'en sait rien, puisqu'il ne connaît que son corpus d'entraînement, figé à une date passée. Donnez-lui maintenant la possibilité d'écrire « appelle le service météo pour Lyon », laissez un programme exécuter cette demande et renvoyez-lui le résultat : il répond juste. Ce simple aller-retour, popularisé par OpenAI en juin 2023 sous le nom de *function calling*, a ouvert la voie aux agents, ces programmes qui enchaînent des dizaines d'actions pour accomplir une tâche, corriger un bug dans un dépôt de code ou préparer un dossier de recherche.
 
 Un LLM seul ne fait que produire du texte : il ne peut ni consulter une base de données, ni naviguer sur le web, ni exécuter du code, ni envoyer un email. Le **function calling** (tool use) lui donne la capacité de déclencher des actions déterministes. Un **agent** est un LLM placé dans une boucle : il raisonne, appelle des outils, observe les résultats, et décide de l'étape suivante jusqu'à résoudre la tâche.
 
@@ -25,14 +28,9 @@ Un LLM seul ne fait que produire du texte : il ne peut ni consulter une base de 
 > [!important] Idée reçue à corriger
 > Le LLM **n'exécute jamais rien lui-même**. Il décide *quoi* appeler et *avec quels arguments* ; l'exécution, la sécurité et les effets de bord restent entièrement sous la responsabilité de l'application hôte.
 
-**Déroulement :**
+Le déroulement est toujours le même. Le développeur décrit les outils disponibles dans un schéma : un nom, une description en langage naturel et la liste des paramètres attendus. Ce schéma est envoyé au modèle avec la conversation. Quand le modèle juge qu'un outil l'aiderait, il ne répond pas en texte libre mais produit un **appel structuré**, le nom d'une fonction et ses arguments au format JSON. L'application hôte lit cet appel, **exécute réellement** la fonction, puis renvoie le résultat au modèle sous la forme d'un nouveau message. Le modèle reprend alors la main : il peut appeler un autre outil ou formuler sa réponse finale.
 
-1. Le développeur déclare les outils disponibles sous forme de schéma (nom, description, paramètres attendus)
-2. Ce schéma est envoyé au modèle en même temps que le prompt
-3. Au lieu de (ou en plus de) répondre en texte libre, le modèle produit un **appel structuré** : nom de fonction + arguments au format JSON
-4. L'application hôte parse cet appel et **exécute réellement** la fonction correspondante
-5. Le résultat est réinjecté dans la conversation comme un nouveau message
-6. Le modèle continue : il peut appeler un autre outil ou formuler la réponse finale
+La description de chaque outil compte autant que son code : c'est elle que le modèle lit pour décider quand et comment l'utiliser. Une description vague produit des appels mal choisis ou des arguments mal remplis.
 
 ```mermaid
 flowchart TD
@@ -72,7 +70,7 @@ L'hôte exécute réellement l'appel API météo, puis renvoie par exemple `{"te
 
 ## Le pattern ReAct (Reason + Act)
 
-Déjà introduit dans [[Prompt Engineering]] — approfondi ici car c'est le mécanisme sous-jacent de la plupart des agents. Le modèle alterne explicitement raisonnement et action jusqu'à obtenir une réponse finale :
+Le schéma ReAct, proposé en 2022 par Shunyu Yao et ses collègues et déjà présenté dans [[Prompt Engineering]], est le mécanisme sous-jacent de la plupart des agents. Le modèle alterne explicitement raisonnement et action jusqu'à obtenir une réponse finale :
 
 ```mermaid
 flowchart LR
@@ -87,6 +85,8 @@ Que ce raisonnement soit affiché à l'utilisateur (comme dans un prompt ReAct e
 
 ## Appel d'outil unique vs boucle d'agent
 
+La différence entre un simple appel d'outil et un agent tient à qui décide de l'enchaînement. Dans le premier cas, le modèle choisit un outil, l'utilise et répond. Dans le second, il replanifie après chaque observation, et le nombre d'étapes n'est pas connu à l'avance.
+
 | | Appel d'outil unique | Boucle d'agent |
 |---|---|---|
 | **Exemple** | "Quelle est la météo à Lyon ?" | "Compare les vols Paris-Tokyo cette semaine et réserve le moins cher" |
@@ -95,6 +95,8 @@ Que ce raisonnement soit affiché à l'utilisateur (comme dans un prompt ReAct e
 | **Coût / latence** | Faible | Élevé (un tour = un appel LLM complet) |
 
 ## Types d'outils courants
+
+Presque tout ce qu'un programme sait faire peut devenir un outil. Les plus répandus donnent accès à l'information récente, à des données privées, à un calcul exact ou à une action dans le monde.
 
 | Outil | Rôle | Exemple |
 |---|---|---|
@@ -115,15 +117,13 @@ flowchart LR
     SERVER <--> SYS[Système externe\nBDD, fichiers, API]
 ```
 
-- **Serveur MCP** : expose des outils, des ressources (données) et des prompts réutilisables selon un format standard
-- **Client MCP** : n'importe quelle application LLM compatible peut s'y connecter sans code spécifique
-- Un même serveur MCP (ex. serveur GitHub) fonctionne avec n'importe quel client compatible, contrairement au function calling qui reste un mécanisme propre à chaque API de modèle
+Un **serveur MCP** expose, dans un format standard, des outils, des ressources (des données à lire) et des modèles de prompts. Un **client MCP**, c'est-à-dire n'importe quelle application LLM compatible, peut s'y connecter sans code spécifique. Un même serveur, par exemple celui qui donne accès à GitHub, fonctionne ainsi avec tous les clients compatibles, alors que le function calling reste propre à l'API de chaque modèle. Le protocole joue pour les outils le rôle qu'a joué le *Language Server Protocol* pour les éditeurs de code : écrire l'intégration une fois, l'utiliser partout.
 
 **Function calling vs MCP** : le function calling est le mécanisme bas niveau par lequel *un* modèle appelle *un* outil pendant *une* conversation. MCP standardise la couche de découverte et de connexion à ces outils, indépendamment du modèle utilisé.
 
 ## Orchestration multi-agents
 
-Pour des tâches complexes, un agent orchestrateur peut déléguer des sous-tâches à des agents spécialisés plutôt que de tout gérer dans une seule boucle.
+Pour des tâches complexes, plutôt que de tout gérer dans une seule boucle de plus en plus longue, un agent orchestrateur peut déléguer des sous-tâches à des agents spécialisés, chacun avec ses propres instructions, ses outils et un contexte plus court.
 
 | Pattern | Principe | Quand l'utiliser |
 |---|---|---|
@@ -145,16 +145,13 @@ Coût à garder en tête : chaque agent supplémentaire multiplie le nombre d'ap
 
 ## Évaluer un agent
 
-Différent de l'évaluation d'une réponse unique ([[Métriques d'Évaluation]]) :
+Évaluer un agent est plus difficile qu'évaluer une réponse unique ([[Métriques d'Évaluation]]), parce que le chemin compte autant que le résultat. Le premier critère est le **taux de réussite** : la tâche est-elle accomplie correctement ? Viennent ensuite l'**efficacité**, c'est-à-dire le nombre d'étapes et d'appels nécessaires, la **précision des appels d'outils** (le bon outil, avec les bons arguments) et la **capacité de récupération** : face à une erreur ou à un résultat inattendu, l'agent corrige-t-il sa trajectoire ou s'obstine-t-il ? Comme les agents ne sont pas déterministes, on mesure ces critères sur de nombreuses exécutions plutôt qu'une seule.
 
-- **Taux de réussite de la tâche** (task completion) : le résultat final est-il correct ?
-- **Efficacité** : nombre d'étapes/appels nécessaires pour y arriver
-- **Précision des appels d'outils** : bon outil, bons arguments
-- **Capacité de récupération** : l'agent corrige-t-il ses erreurs après une observation d'échec ?
-
-**Benchmarks connus** : AgentBench, ToolBench (usage d'outils), SWE-bench (agents de code), GAIA (raisonnement multi-outils).
+Plusieurs bancs d'essai publics servent de référence : AgentBench et ToolBench pour l'usage d'outils, SWE-bench pour les agents qui corrigent de vrais bugs dans des dépôts GitHub, GAIA pour les questions qui demandent de combiner recherche, lecture et calcul.
 
 ## Function Calling vs RAG vs Agent — quand utiliser quoi
+
+Le bon outil est le plus simple qui suffit. Une question sur des connaissances générales se traite avec un prompt ; une question sur des documents précis, avec le [[RAG]] ; une action ponctuelle, avec un appel de fonction ; seule une suite d'étapes dépendantes justifie un agent.
 
 ```mermaid
 flowchart TD
@@ -166,3 +163,8 @@ flowchart TD
     Q -->|Recherche + action combinées| ARAG[Agentic RAG]
 ```
 
+## Ressources
+
+- Shunyu Yao et al., [*ReAct: Synergizing Reasoning and Acting in Language Models*](https://arxiv.org/abs/2210.03629) (2022).
+- La [spécification du Model Context Protocol](https://modelcontextprotocol.io).
+- Anthropic, *Building effective agents* (2024), un guide pratique sur les schémas d'agents et le choix de la solution la plus simple.

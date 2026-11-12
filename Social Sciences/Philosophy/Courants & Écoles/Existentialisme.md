@@ -9,11 +9,7 @@ prerequis: ["[[Phénoménologie]]", "[[Nihilisme]]"]
 
 # Existentialisme
 
-## Définition
-
-L'**existentialisme** est un courant philosophique qui affirme que chaque être humain crée son propre sens de vie par ses actions et ses choix. L'existence précède l'essence: nous existons d'abord, puis nous nous définissons par nos actes.
-
-## Chronologie
+En 1940, un jeune homme vient trouver Sartre pour lui demander conseil. Son frère a été tué par les Allemands, et il hésite : rejoindre les Forces françaises libres en Angleterre pour le venger, ou rester auprès de sa mère, qui n'a plus que lui ? Aucune morale toute faite ne tranche. Le christianisme commande d'aimer son prochain, mais lequel ? Kant demande de traiter l'autre comme une fin, mais partir, c'est traiter sa mère comme un moyen, et rester, c'est sacrifier les combattants. Sartre lui répond : « Vous êtes libre, choisissez, c'est-à-dire inventez. » Cette scène, racontée dans *L'existentialisme est un humanisme* (1946), résume le courant : l'être humain n'a ni nature ni morale données d'avance, il se fait par ses choix, et il en porte seul la responsabilité.
 
 ```mermaid
 timeline
@@ -35,211 +31,60 @@ timeline
         1962 : Lévi-Strauss, La Pensée sauvage, contre Sartre
 ```
 
-## Principes Fondamentaux
+## L'existence précède l'essence
 
-### 1. L'existence précède l'essence
-
-- Nous naissons sans nature prédéfinie, sans essence
-- Nous nous créons par nos choix et actions
-- Pas de "plan divin" ou de "nature humaine" universelle
-- Chaque individu est responsable de ce qu'il devient
+La formule de [[Sartre]] condense toute la doctrine. Un objet fabriqué, comme un coupe-papier, a été conçu avant d'exister : son essence, sa définition et sa fonction, précède son existence. La tradition pensait l'homme de la même façon, comme la réalisation d'une nature humaine voulue par Dieu ou inscrite dans la nature. Si Dieu n'existe pas, il n'y a plus de plan préalable. L'homme surgit d'abord dans le monde, puis se définit par ce qu'il fait. Il n'est rien d'autre que la somme de ses actes.
 
 > [!important] Idée clé
 > « L'existence précède l'essence » n'est pas juste une manière optimiste de dire « on peut changer » — c'est un renversement métaphysique précis. Pour la tradition classique, l'essence (ce qu'est une chose) précède et détermine son existence : un couteau existe pour trancher, une « nature humaine » existerait avant l'individu. Sartre inverse ce rapport — rien ne précède l'existence humaine, donc rien ne la détermine par avance. L'essence (qui je suis) est un résultat, jamais un point de départ.
 
-### 2. Liberté radicale
+Il en découle une **liberté radicale**. L'homme est, selon le mot de Sartre, « condamné à être libre » : il ne s'est pas créé lui-même, mais une fois jeté dans le monde, il est responsable de tout ce qu'il fait. Même ne pas choisir est un choix, et même dans les pires conditions, il reste libre de la manière dont il y répond. Cette liberté entraîne une **responsabilité absolue** : ni Dieu, ni la nature, ni la société, ni le destin ne peuvent servir d'excuse. D'où l'**angoisse**, qui n'est pas la peur d'un danger précis, mais le vertige devant une liberté sans appui.
 
-- L'être humain est **fondamentalement libre**
-- Même dans les pires conditions, on conserve liberté intérieure
-- "Condamnés à être libres" ([[Sartre]])
-- Ne pas choisir est déjà un choix
+## Angoisse, absurde et mauvaise foi
 
-### 3. Responsabilité absolue
+Les existentialistes ont donné à l'angoisse un sens philosophique. Pour Kierkegaard, elle est « le vertige de la liberté », l'émotion de celui qui se tient devant le possible. Pour Heidegger, elle révèle que nous sommes « jetés » dans une existence que nous n'avons pas choisie, face au néant. Pour Sartre, elle naît de notre totale responsabilité. Le monde lui-même n'offre aucune réponse : il n'a pas de sens intrinsèque, aucune raison objective ne justifie que nous existions.
 
-- Nous sommes entièrement responsables de nos choix
-- Pas d'excuses (Dieu, nature, société, destin)
-- Cette responsabilité génère **angoisse** et **désespoir**
+Albert Camus fait de ce silence le point de départ de sa pensée. L'**absurde** naît de la confrontation entre l'appel humain au sens et le silence déraisonnable du monde. Face à lui, trois réponses sont possibles. Le **suicide** fuit le problème en supprimant l'un de ses termes. Le **saut de la foi** le fuit aussi, en inventant un sens transcendant. Reste la **révolte** : vivre pleinement, lucidement, sans espoir et sans résignation. C'est pourquoi « il faut imaginer Sisyphe heureux ».
 
-### 4. Absurdité de l'existence
+La plupart du temps, pourtant, nous fuyons notre liberté. Sartre appelle cette fuite la **mauvaise foi** : se mentir à soi-même en se cachant derrière des déterminismes (« c'est ma nature », « je n'avais pas le choix ») ou en s'identifiant entièrement à un rôle. Son exemple célèbre est celui du garçon de café, dont les gestes sont un peu trop vifs, un peu trop précis, comme s'il jouait à être garçon de café pour oublier qu'il pourrait être autre chose. À l'opposé, la vie **authentique** assume sa liberté et crée ses valeurs en connaissance de cause.
 
-- Le monde n'a pas de sens intrinsèque
-- Aucune raison objective pour laquelle nous existons
-- Confrontation avec le **néant** et l'absurde
-- À nous de créer du sens
+## Les figures du courant
 
-### 5. Authenticité vs Inauthenticité
-
-- **Vie authentique:** Assumer sa liberté, créer ses valeurs consciemment
-- **Vie inauthentique:** Mauvaise foi, se cacher derrière déterminismes, suivre la masse
-
-## Principaux Philosophes Existentialistes
-
-### Søren Kierkegaard (1813-1855)
-**Père de l'existentialisme**
-- Existentialisme **chrétien**
-- Angoisse face au choix de la foi
-- Trois stades de vie: esthétique, éthique, religieux
-- "La vérité est subjective"
-- Saut de la foi irrationnel mais nécessaire
+Le Danois Søren [[Kierkegaard]] (1813-1855) est souvent considéré comme le père de l'existentialisme. Contre les grands systèmes de Hegel, il défend l'individu concret, seul devant ses choix. Il distingue trois stades de l'existence : le stade **esthétique**, celui du séducteur qui vit dans l'instant ; le stade **éthique**, celui de l'homme qui s'engage et assume ses devoirs ; le stade **religieux**, auquel on n'accède que par un **saut de la foi** que la raison ne peut justifier. « La vérité est la subjectivité », écrit-il.
 
 > [!warning] Piège
 > [[Kierkegaard]] est souvent cité comme « premier existentialiste » au même titre que Sartre ou Camus, mais son cadre reste théiste : l'angoisse mène au saut de la foi, pas à l'absurde assumé sans Dieu. La « vérité subjective » ne signifie pas « chacun a sa vérité » (relativisme) — elle désigne l'engagement personnel dans une vérité qui existe indépendamment de soi (la foi chrétienne), pas son invention.
 
-### Friedrich [[Nietzsche|Nietzsche]] (1844-1900)
-**Existentialisme athée radical**
-- "Dieu est mort" → nécessité de créer nouvelles valeurs
-- [[Nietzsche|Übermensch]] (Surhomme): créateur de ses propres valeurs
-- Volonté de puissance
-- Amor fati: aimer son destin
-- Éternel retour comme test éthique
+Friedrich [[Nietzsche|Nietzsche]] (1844-1900) fournit l'autre point de départ, athée celui-là : Dieu est mort, il faut donc créer de nouvelles valeurs. Son [[Nietzsche|surhomme]] est celui qui y parvient, mû par la volonté de puissance, capable d'aimer son destin (*amor fati*) au point de vouloir son éternel retour.
 
-### Martin Heidegger (1889-1976)
-**Existentialisme phénoménologique**
-- Question de l'**Être** (Sein)
-- Dasein: l'être-là, existence humaine
-- **Être-pour-la-mort:** Authenticité vient de l'acceptation de notre mortalité
-- Angoisse révèle le néant
-- Déchéance (Verfallen): se perdre dans le "On" (das Man)
+L'Allemand Martin Heidegger (1889-1976), dans *Être et Temps* (1927), cherche à reposer la question du sens de l'**être**. Il appelle l'existence humaine le ***Dasein***, l'« être-là », et montre que, la plupart du temps, nous vivons dans la **déchéance**, perdus dans l'anonymat du « on » (*das Man*) : on pense ce qu'on pense, on fait ce qui se fait. Seule l'assomption de notre **être-pour-la-mort**, de notre finitude, nous rend à nous-mêmes. Heidegger refusait d'ailleurs d'être qualifié d'existentialiste. Son compatriote Karl Jaspers (1883-1969) décrit quant à lui les **situations-limites**, la mort, la souffrance, le combat, la culpabilité, où l'homme se heurte à ses bornes et s'ouvre à la transcendance.
 
-### Jean-Paul [[Sartre]] (1905-1980)
-**Existentialisme athée humaniste**
-- "L'existence précède l'essence"
-- Liberté absolue et responsabilité totale
-- Mauvaise foi: se mentir sur sa liberté
-- Pour-soi vs En-soi
-- "L'enfer, c'est [[Le regard des autres]]"
-- Engagement politique nécessaire
+Jean-Paul Sartre (1905-1980) systématise le courant dans *L'Être et le Néant* (1943). Il y oppose l'**en-soi**, l'être massif et plein des choses, qui est ce qu'il est, et le **pour-soi**, la conscience, qui n'est jamais ce qu'elle est et toujours en projet. Il montre aussi que le regard d'autrui me fige en objet (voir [[Le regard des autres]]) : « L'enfer, c'est les autres », dit un personnage de *Huis clos*. Après la guerre, il défend l'**engagement** politique de l'écrivain.
 
-### Simone de Beauvoir (1908-1986)
-**Existentialisme féministe**
-- Application de l'existentialisme à la condition féminine
-- "On ne naît pas femme, on le devient"
-- Critique de l'essence féminine imposée
-- Liberté et émancipation
-- *Le Deuxième Sexe* (1949)
+Simone de Beauvoir (1908-1986) applique la méthode existentialiste à la condition des femmes dans *Le Deuxième Sexe* (1949). « On ne naît pas femme, on le devient » : la prétendue « nature féminine » est une essence imposée, dont les femmes peuvent s'affranchir. Albert Camus (1913-1960), enfin, proche du courant mais refusant l'étiquette, fait du suicide « le seul problème philosophique vraiment sérieux » et répond par la révolte, refusant à la fois le nihilisme et les consolations.
 
-### Albert Camus (1913-1960)
-**Absurdisme** (proche existentialisme)
-- Confrontation avec l'**absurde**
-- Le suicide comme question philosophique centrale
-- Sisyphe comme héros absurde
-- Révolte sans espoir métaphysique
-- "Il faut imaginer Sisyphe heureux"
-- Refus du nihilisme ET des illusions
+## La mort
 
-### Karl Jaspers (1883-1969)
-**Existentialisme allemand**
-- Situations-limites (mort, souffrance, lutte, culpabilité)
-- Chiffres de la transcendance
-- Communication existentielle
-- Liberté comme possibilité de transcendance
+Les existentialistes ne s'accordent pas sur le sens de la mort. Pour Heidegger, l'être-pour-la-mort donne son sérieux à la vie : c'est parce que nous mourrons que nos choix comptent. Pour Sartre, au contraire, la mort ne donne aucun sens ; elle vient de l'extérieur interrompre arbitrairement nos projets et nous livre au jugement des autres. Pour Camus, elle est la manifestation la plus éclatante de l'absurde.
 
-## Thèmes Centraux
+## Une philosophie qui passe par la littérature
 
-### L'Angoisse (Angst)
+L'existentialisme s'exprime souvent mieux dans les romans et au théâtre que dans les traités. Sartre fait éprouver la contingence de l'existence dans *La Nausée* (1938), le face-à-face avec la mort dans la nouvelle *Le Mur* (1939), la liberté et l'engagement dans la trilogie des *Chemins de la liberté*, les dilemmes de l'action politique dans *Les Mains sales* (1948). Camus incarne l'absurde dans *L'Étranger* (1942) et *Caligula* (1944), puis la solidarité face au mal dans le roman *La Peste* (1947).
 
-- Différente de la peur (qui a un objet précis)
-- Angoisse face au **néant**, à la **liberté**, à la **mort**
-- Révèle notre condition existentielle
-- Heidegger: angoisse révèle que nous sommes "jetés" dans l'existence
-- Sartre: angoisse face à notre totale responsabilité
-- Kierkegaard: angoisse devant le choix et la possibilité
+## Les critiques
 
-### L'Absurde
+Les **marxistes** reprochent à l'existentialisme son individualisme : il oublie les luttes collectives et le poids des [[Stratification et Classes Sociales|classes sociales]] sur la liberté réelle. Sartre tentera lui-même une synthèse avec le marxisme dans la *Critique de la raison dialectique* (1960), avec un succès mitigé. Les critiques **religieux** y voient un nihilisme déguisé, un désespoir sans transcendance. Les **rationalistes** lui reprochent son pathos, son absence de critères objectifs et une complaisance pour l'angoisse.
 
-- Décalage entre besoin humain de sens et silence du monde
-- Camus: "Le monde est absurde, mais l'homme est un être raisonnable"
-- Trois réponses possibles:
-  1. **Suicide** (échappatoire - Camus rejette)
-  2. **Saut de foi** (illusion - Camus rejette)
-  3. **Révolte** (accepter l'absurde et vivre pleinement - Camus accepte)
-
-### La Mauvaise Foi
-
-Concept sartrien: **se mentir à soi-même**
-- Nier sa liberté
-- Se cacher derrière déterminismes ("c'est ma nature")
-- S'identifier totalement à un rôle social
-- Exemple du **garçon de café** qui joue trop son rôle
-
-### L'Authenticité
-
-- Vie assumant pleinement sa liberté et sa responsabilité
-- Heidegger: être-pour-la-mort, acceptation de la finitude
-- Sartre: créer ses valeurs consciemment
-- Camus: révolte lucide sans illusions
-- Kierkegaard: choix radical, engagement subjectif
-
-### La Mort
-
-- **Heidegger:** Être-pour-la-mort, la mort donne sens à la vie
-- **Sartre:** La mort absurdifie la vie (coupe nos projets arbitrairement)
-- **Camus:** Absurdité de la mort révèle absurdité de la vie
-
-## Existentialisme et Littérature
-
-L'existentialisme s'exprime souvent mieux en **littérature** qu'en traités:
-
-**Romans:**
-- *La Nausée* (Sartre) - Expérience de la contingence
-- *L'Étranger* (Camus) - Absurde et indifférence
-- *Les Chemins de la liberté* (Sartre) - Trilogie sur liberté et engagement
-
-**Théâtre:**
-- *Huis clos* (Sartre) - "L'enfer, c'est les autres"
-- *Les Mains sales* (Sartre) - Engagement politique
-- *Caligula* (Camus) - Absurde et tyrannie
-
-**Nouvelles:**
-- *Le Mur* (Sartre) - Face à la mort
-- *La Peste* (Camus) - Solidarité face à l'absurde
-
-## Critiques de l'Existentialisme
-
-### Critique marxiste
-- Trop individualiste, ignore luttes collectives et [[Stratification et Classes Sociales|classes sociales]]
-- Sartre tentera synthèse existentialisme/marxisme (échec relatif)
-
-### Critique religieuse
-- Nihilisme déguisé
-- Désespoir sans transcendance
-
-### Critique rationaliste
-- Trop subjectif, pas de critères objectifs
-- Pathos et dramatisation excessive
-- Angoisse et désespoir comme postures
-
-### Critique structuraliste
-- "L'homme n'existe pas" (Lévi-Strauss, Foucault)
-- Structures sociales, linguistiques déterminent l'individu
-- Illusion de la liberté absolue
+La critique la plus redoutable vient du **structuralisme** des années 1960. Lévi-Strauss, puis Foucault, montrent que le langage, l'inconscient et les structures sociales façonnent l'individu bien avant qu'il ne choisisse quoi que ce soit.
 
 > [!important] Idée clé
 > Cette critique est la plus dangereuse pour l'existentialisme car elle ne dit pas « vous avez tort sur un point » mais « votre prémisse de départ est fausse » : la liberté radicale suppose un sujet transparent à lui-même, choisissant en pleine conscience. Foucault et Lévi-Strauss répondent que ce sujet est lui-même un effet de structures (langage, inconscient, rapports de pouvoir) antérieures à tout choix — on ne choisit pas depuis nulle part.
 
-## Héritage et Influence
+## Héritage
 
-### Psychologie et Psychiatrie
-- **Psychothérapie existentialiste** (Rollo May, Irvin Yalom, Viktor Frankl)
-- Logothérapie (Frankl): recherche de sens
-- Confrontation avec liberté, mort, solitude, sens
+L'existentialisme a pourtant laissé une empreinte profonde. En psychologie, il inspire la **psychothérapie existentielle** de Rollo May et d'Irvin Yalom, et la **logothérapie** de Viktor Frankl, centrée sur la recherche du sens, qui font de la liberté, de la mort, de la solitude et du sens les matériaux du travail thérapeutique. En littérature, il prépare le théâtre de l'absurde d'Ionesco et de Beckett. En politique, il accompagne les luttes de décolonisation et la contre-culture de Mai 68. En philosophie, sa critique des essences ouvre la voie au postmodernisme, tout en prolongeant la phénoménologie et l'herméneutique.
 
-### Littérature et Arts
-- Théâtre de l'absurde (Ionesco, Beckett)
-- Cinéma existentialiste
-- Beat Generation américaine
-
-### Politique
-- Mouvements de libération (décolonisation)
-- Mai 68 et contre-culture
-- Anarchisme individualiste
-
-### Philosophie Contemporaine
-- Postmodernisme (critique des essences)
-- Phénoménologie
-- Herméneutique
-
-## Existentialisme vs Essentialisme
+Le contraste avec la pensée qu'il combat se résume ainsi :
 
 | Existentialisme | Essentialisme |
 |:--|:--|
@@ -250,49 +95,17 @@ L'existentialisme s'exprime souvent mieux en **littérature** qu'en traités:
 | Devenir | Être |
 | Authenticité subjective | Vérité objective universelle |
 
-## Concepts Clés Récapitulatifs
-
-- **Existence précède essence** - Pas de nature humaine prédéfinie
-- **Liberté** - Fondement de l'existence humaine
-- **Responsabilité** - Conséquence de la liberté
-- **Angoisse** - Face à liberté, mort, néant
-- **Absurde** - Monde sans sens intrinsèque
-- **Authenticité** - Assumer pleinement sa condition
-- **Mauvaise foi** - Fuite devant sa liberté
-- **Engagement** - Donner sens par l'action
-- **Néant** - Absence de fondement, source de liberté
-- **Projet** - L'humain est ce qu'il se projette d'être
-
-## Maximes Existentialistes
-
-> "L'existence précède l'essence." - Sartre
-
-> "Deviens ce que tu es." - Nietzsche
-
-> "La vie n'a pas de sens a priori. C'est à vous de lui donner un sens." - Sartre
-
-> "Il faut imaginer Sisyphe heureux." - Camus
-
-> "L'angoisse est le vertige de la liberté." - Kierkegaard
-
-> "Ce qui ne me tue pas me rend plus fort." - Nietzsche
-
 ## Ressources
 
-**Livres d'introduction:**
-- *L'existentialisme est un humanisme* - Sartre (court, accessible)
-- *Le Mythe de Sisyphe* - Camus
-- *Qu'est-ce que l'existentialisme?* - William Barrett
+**Livres d'introduction :**
+- Sartre, *L'existentialisme est un humanisme* (1946) : court et accessible.
+- Camus, *Le Mythe de Sisyphe* (1942).
+- William Barrett, *Irrational Man* (1958) : une introduction classique au courant, en anglais.
 
-**Œuvres littéraires:**
-- *La Nausée* - Sartre
-- *L'Étranger* - Camus
-- *Huis clos* - Sartre
+**Œuvres littéraires :** *La Nausée* et *Huis clos* de Sartre, *L'Étranger* de Camus.
 
-**Traités philosophiques:**
-- *L'Être et le Néant* - Sartre (difficile)
-- *Être et Temps* - Heidegger (très difficile)
+**Traités philosophiques :** *L'Être et le Néant* de Sartre (difficile) et *Être et Temps* de Heidegger (très difficile).
 
-**YouTube:**
+**Vidéos :**
 - [Existentialisme en 8 minutes](https://www.youtube.com/watch?v=YaDvRdLMkHs)
-- Crash Course Philosophy - Existentialism
+- Crash Course Philosophy, épisode sur l'existentialisme, en anglais.

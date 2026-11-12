@@ -9,70 +9,52 @@ prerequis: ["[[Qu'est-ce que la vérité]]"]
 
 # Philosophie & Science
 
-## Pourquoi ce croisement ?
+En 1919, deux expéditions britanniques photographient une éclipse totale de soleil, l'une au Brésil, l'autre sur l'île de Principe, au large de l'Afrique. Elles veulent savoir si la lumière des étoiles est déviée en passant près du Soleil, et de combien. La théorie de la relativité d'Einstein prédit une valeur précise, deux fois plus grande que celle tirée de la physique de Newton. Les mesures donnent raison à Einstein, qui devient du jour au lendemain une célébrité mondiale. Un jeune Viennois de dix-sept ans, Karl Popper, en tire une leçon qui marquera toute la philosophie des sciences : Einstein avait pris un risque. Si les étoiles n'avaient pas bougé, sa théorie aurait été réfutée. C'est ce risque, pense Popper, qui fait la science. La philosophie des sciences pose ainsi des questions que la science seule ne peut trancher : qu'est-ce qui distingue une science d'une pseudo-science, la science progresse-t-elle vers la vérité, et décrit-elle le monde tel qu'il est ?
 
-La philosophie des sciences pose des questions que la science seule ne peut pas résoudre : qu'est-ce qui distingue une théorie scientifique d'une pseudo-science ? La science progresse-t-elle vers la vérité ou simplement vers des modèles plus efficaces ? La réalité que la science décrit est-elle indépendante de nos théories ?
+## Où passe la frontière ?
 
-## 5 questions centrales
+Pour [[Popper]] (*La Logique de la découverte scientifique*, 1934), une théorie est scientifique si elle est **réfutable** : si l'on peut imaginer une observation qui la démentirait. La relativité l'est, puisqu'elle annonçait une déviation précise. La psychanalyse et le marxisme, que Popper fréquentait dans sa jeunesse, ne le sont pas selon lui : ils parviennent toujours à réinterpréter les faits qui semblent les contredire, et cette capacité à tout expliquer est leur faiblesse, non leur force.
 
-1. **Démarcation** : qu'est-ce qui sépare la science de la non-science ? [[Popper]] : la *falsifiabilité*. Kuhn : l'appartenance à une communauté qui partage un paradigme. Feyerabend : rien — il n'existe pas de méthode universelle.
+Thomas Kuhn (*La Structure des révolutions scientifiques*, 1962), physicien devenu historien des sciences, objecte que les savants ne cherchent pas à réfuter leurs théories. Ils travaillent dans un **paradigme**, un ensemble de théories, de méthodes et d'exemples que toute la communauté partage, et pratiquent une « science normale » qui résout des énigmes sans remettre le cadre en cause. Quand les anomalies s'accumulent, une crise éclate, puis une **révolution** remplace le paradigme entier : l'astronomie de Copernic ne s'est pas contentée de réfuter celle de Ptolémée, elle a changé la manière même de voir le ciel. Paul Feyerabend (*Contre la méthode*, 1975) va plus loin : l'histoire montre que les grandes découvertes ont souvent violé les règles de leur temps, Galilée ayant gagné autant par la rhétorique que par les preuves. Il n'existe donc pas de méthode universelle, et la seule règle qui tienne serait « tout est bon » (*anything goes*).
 
 > [!important] Idée clé
 > Les trois réponses ne sont pas de simples variantes : elles désaccordent sur l'existence même d'une frontière nette. Popper pense qu'il existe un critère logique tranchant. Kuhn déplace le critère du logique au sociologique (une frontière existe, mais elle est faite de pratiques de communauté, pas de règles formelles). Feyerabend nie qu'il y ait une frontière à tracer. Savoir laquelle de ces trois positions on discute évite de répondre à côté.
 
-2. **Réalisme vs instrumentalisme** : les entités théoriques (électrons, quarks, champs quantiques) *existent-elles vraiment*, ou ne sont-ce que des fictions utiles pour prédire ? Le réaliste dit que la science décrit le monde tel qu'il est. L'instrumentaliste dit qu'elle produit des modèles efficaces, sans engagement sur la réalité.
+Le Hongrois Imre Lakatos cherche une voie entre Popper et Kuhn. Une science, selon lui, n'est pas une théorie isolée mais un **programme de recherche**, avec un noyau dur que les chercheurs refusent de remettre en cause et une ceinture protectrice d'hypothèses auxiliaires qu'ils ajustent face aux anomalies. Un programme est fécond tant qu'il prédit des faits nouveaux, et dégénère quand il ne fait plus que colmater ses brèches.
 
-3. **Induction et confirmation** : comment une accumulation d'observations peut-elle justifier une loi générale ? Hume a montré que l'induction n'est pas logiquement valide (le futur peut différer du passé). Popper répond : la science ne confirme jamais, elle réfute.
+## Les grandes questions
 
-4. **Réductions et émergence** : la biologie est-elle réductible à la chimie, la chimie à la physique ? Ou existent-il des propriétés *émergentes* qui ne peuvent pas être déduites des propriétés des parties ? La conscience est-elle réductible à la neurochimie ?
+La première est celle de l'**induction**. Comment une accumulation d'observations particulières pourrait-elle justifier une loi universelle ? David [[Hume]] a montré que rien ne garantit logiquement que l'avenir ressemblera au passé. Popper répond que la science ne prouve jamais ses théories : elle les met à l'épreuve, et retient provisoirement celles qui ont survécu.
 
-5. **Valeurs dans la science** : la science est-elle "neutre" et "objective" ? Ou ses questions, méthodes et interprétations sont-elles toujours situées dans des contextes sociaux, politiques et culturels ? (Sandra Harding, féminisme des sciences)
+La deuxième oppose le **réalisme** à l'**instrumentalisme**. Les électrons, les quarks ou les champs quantiques existent-ils vraiment, ou ne sont-ils que des fictions commodes pour calculer et prédire ? Le réaliste pense que la science décrit le monde tel qu'il est ; l'instrumentaliste, qu'elle fournit des modèles efficaces sans rien affirmer sur ce qui se cache derrière. La physique quantique a ravivé ce débat : selon l'interprétation la plus répandue, certaines propriétés d'une particule n'ont pas de valeur définie avant d'être mesurées, et le « problème de la mesure » reste aussi philosophique que physique.
 
-## Les figures majeures
+La troisième porte sur la **réduction**. La biologie se ramène-t-elle à la chimie, et la chimie à la physique ? Ou existe-t-il des propriétés **émergentes**, qui apparaissent au niveau de l'ensemble sans pouvoir se déduire des parties, comme la vie, ou la conscience ? La dernière, enfin, est celle des **valeurs**. La science est-elle neutre ? Des philosophes comme l'Américaine Sandra Harding ont montré que le choix des questions, des méthodes et des interprétations reflète souvent la position sociale de ceux qui font la science, sans que cela condamne pour autant l'idéal d'objectivité.
 
-**Karl Popper** (*La Logique de la découverte scientifique*, 1934) — falsifiabilité comme critère de démarcation. Une théorie est scientifique si elle peut être réfutée. La psychanalyse freudienne et le marxisme ne sont pas scientifiques : elles réinterprètent toujours les contre-exemples. La physique, elle, prédit des observations précises et vérifiables.
+## Exemples à mobiliser
 
-**Thomas Kuhn** (*La Structure des révolutions scientifiques*, 1962) — les paradigmes scientifiques. La science normale travaille dans le cadre d'un paradigme accepté. Les anomalies s'accumulent jusqu'à une crise, puis une révolution scientifique remplace le paradigme entier. L'héliocentrisme ne réfute pas simplement le géocentrisme : il le rend incompréhensible.
+- La théorie des cordes, impossible à tester avec les accélérateurs actuels : Popper la jugerait non scientifique, ce que contestent ses partisans.
+- La théorie de l'évolution de Darwin, une révolution au sens de Kuhn : elle n'a pas simplement accumulé des preuves contre la création divine, elle a proposé un autre cadre pour comprendre le vivant.
+- L'astrologie, qui absorbe chacun de ses échecs par une réinterprétation au lieu de s'abandonner.
 
-**Paul Feyerabend** (*Contre la méthode*, 1975) — "Anything goes" (tout est permis). L'histoire des sciences montre que les grandes découvertes ont souvent violé les règles du moment. Galilée a utilisé la rhétorique autant que les preuves. La méthode scientifique unique est un mythe.
+> [!warning] Piège
+> Ce n'est pas que l'astrologie ne fait *jamais* de prédiction précise en théorie — c'est qu'en pratique, chaque échec est absorbé par une réinterprétation ad hoc plutôt que par un abandon de la théorie. La falsifiabilité de Popper n'est donc pas qu'une propriété logique de l'énoncé : c'est aussi une question de discipline de la communauté qui l'utilise — un critère qui se vérifie autant dans la pratique que dans la forme de l'énoncé.
 
-**Imre Lakatos** — *programmes de recherche scientifique*. Ni Popper (une réfutation suffit) ni Kuhn (révolutions irrationnelles). Les théories s'organisent en programmes avec un noyau dur (protégé par des hypothèses auxiliaires modifiables) et une ceinture protectrice.
+- L'homéopathie, dont les essais sérieux ne montrent pas d'effet supérieur au placebo, et qui survit pourtant socialement, portée par une communauté qui entretient son propre cadre.
+- La climatologie : ses modèles ont fait des prédictions précises, sur les températures ou le niveau des mers, qui auraient pu être démenties et ont été confirmées. La controverse est politique, non scientifique.
 
 ## Ressources
 
 **Lectures :**
-- Karl Popper, *La logique de la découverte scientifique* — les chapitres 1-4 sur la falsifiabilité suffisent pour comprendre l'essentiel.
-- Thomas Kuhn, *La Structure des révolutions scientifiques* — chapitres 1-5 et 9-10 (paradigmes et révolutions).
-- Alan Chalmers, *Qu'est-ce que la science ?* — introduction remarquablement claire à Popper, Kuhn, Lakatos et Feyerabend. Idéal pour commencer.
-- Stanford Encyclopedia of Philosophy : entrées **Karl Popper**, **Philosophy of Science**, **Scientific Revolutions**.
+- Alan Chalmers, *Qu'est-ce que la science ?* : une introduction remarquablement claire à Popper, Kuhn, Lakatos et Feyerabend. Idéale pour commencer.
+- Karl Popper, *La Logique de la découverte scientifique* : les premiers chapitres suffisent pour l'essentiel.
+- Thomas Kuhn, *La Structure des révolutions scientifiques* : les chapitres sur les paradigmes et les révolutions.
+- Stanford Encyclopedia of Philosophy : entrées **Karl Popper**, **Thomas Kuhn** et **Scientific Realism** (plato.stanford.edu).
 
-**Podcasts :**
-- France Culture, *La Méthode scientifique* — émission hebdomadaire sur les sciences et leur philosophie.
-- France Culture, *Les Chemins de la Philosophie* — série "Philosophie des sciences".
-- *Sean Carroll's Mindscape* (en anglais) — physicien théoricien qui discute des implications philosophiques de la physique quantique et de la cosmologie.
-
-**Vidéos :**
-- Chaîne YouTube **Hygiène Mentale** — épisodes sur le rasoir d'Occam, la charge de la preuve, les biais de confirmation. Rigueur épistémique appliquée.
-- Chaîne YouTube **ScienceEtonnante** (David Louapre) — vulgarisation scientifique avec réflexion épistémologique solide.
-- *Arte* — documentaires sur les révolutions scientifiques (Galilée, Darwin, Einstein, mécanique quantique).
-
-## Exemples concrets
-
-**Sciences et philosophie en dialogue :**
-- *Physique quantique* et réalisme : la superposition quantique (un électron est dans deux états simultanément avant la mesure) remet en cause nos intuitions sur la réalité. Le "problème de la mesure" est un problème philosophique autant que physique.
-- *Théorie de l'évolution* (Darwin) : révolution paradigmatique au sens de Kuhn. Ne réfute pas la création divine par accumulation de preuves — remplace un tout autre cadre de compréhension du vivant.
-- *Falsifiabilité* en pratique : la *théorie des cordes* en physique théorique — impossible à tester avec les accélérateurs actuels. Popper la classerait comme non-scientifique. Les physiciens des cordes résistent à cette étiquette. Le débat est vif.
-
-**Pseudo-sciences :**
-- *Astrologie* : fait des prédictions, mais ne peut pas être réfutée (on réinterprète toujours pour maintenir la cohérence). Non falsifiable selon Popper.
-
-> [!warning] Piège
-> Ce n'est pas que l'astrologie ne fait *jamais* de prédiction précise en théorie — c'est qu'en pratique, chaque échec est absorbé par une réinterprétation ad hoc plutôt que par un abandon de la théorie. La falsifiabilité de Popper n'est donc pas qu'une propriété logique de l'énoncé : c'est aussi une question de discipline de la communauté qui l'utilise — un critère qui se vérifie autant dans la pratique que dans la forme de l'énoncé.
-- *Homéopathie* : les études qui la testent sérieusement ne trouvent pas d'effet au-delà du placebo. Elle survit socialement malgré les réfutations scientifiques — Kuhn expliquerait cela par une communauté qui maintient un paradigme concurrent.
-
-**Actualité :**
-- *Climatologie* : le consensus scientifique sur le changement climatique est-il falsifiable ? Oui — des prédictions précises (températures, niveaux des mers) ont été faites et vérifiées. La "controverse" est politique, pas épistémologique.
-- *Médecine fondée sur les preuves* et médecines alternatives : enjeu philosophique sur ce qui constitue une "preuve" valide en médecine.
+**Podcasts et vidéos :**
+- France Culture, *La Méthode scientifique* : l'émission sur les sciences et leurs enjeux.
+- *Sean Carroll's Mindscape* : un physicien discute des implications philosophiques de la physique, en anglais.
+- Chaîne YouTube **Hygiène Mentale** : le rasoir d'Occam, la charge de la preuve, les biais de confirmation.
+- Chaîne YouTube **ScienceEtonnante** (David Louapre) : une vulgarisation scientifique attentive aux questions de méthode.
 
 ## Questions ouvertes
 

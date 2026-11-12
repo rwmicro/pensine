@@ -9,102 +9,46 @@ prerequis: ["[[Social Sciences/Music/Périodes/Baroque]]", "[[Social Sciences/Mu
 
 # Classicisme (1750-1820)
 
-
-**Caractéristiques:**
-- Clarté, équilibre, proportion
-- Forme sonate dominante
-- Dynamiques graduées (crescendo/decrescendo)
-- Mélodie accompagnée (vs polyphonie baroque)
-- Galant style puis Sturm und Drang
+Au milieu du XVIIIe siècle, la musique de Bach paraît soudain trop savante et trop chargée. Le public des Lumières veut des mélodies claires qu'on retient, des phrases qui se répondent comme une question et sa réponse, une musique « naturelle » qui plaise sans fatiguer. En soixante-dix ans, trois compositeurs liés à Vienne, Haydn, Mozart et Beethoven, transforment ce goût de la clarté en un langage d'une richesse inépuisable, et fixent des formes, la symphonie, le quatuor, la sonate, sur lesquelles on composera pendant plus d'un siècle.
 
 > [!warning] Piège
 > "Classicisme" est une étiquette rétrospective (fin XIXe) — Haydn et Mozart ne se pensaient pas "classiques". Ne pas confondre non plus avec le sens courant de "musique classique" (= tout ce qui n'est pas pop/rock) : ici c'est une période précise (1750-1820), aussi étroite que le [[Baroque]] ou le [[Romantisme]].
 
-**Pré-classiques:**
-- Fils de Bach: C.P.E. Bach (1714-1788) - Empfindsamer Stil, fantaisies
-- École de Mannheim: innovations orchestrales
+## Ce qui change après le baroque
 
-**Franz Joseph Haydn (1732-1809):**
-- "Père de la symphonie" et du quatuor à cordes
-- 104 symphonies (Surprise, Horloge, Londres)
-- 68 quatuors à cordes (évolution du genre)
-- Oratorios: *La Création* (1798), *Les Saisons* (1801)
-- Service chez les Esterházy (30 ans)
-- Humour, invention formelle
-- Influence sur Mozart et Beethoven
+La polyphonie serrée du [[Baroque]] laisse place à une **mélodie accompagnée** : un thème chantant au premier plan, des accords simples derrière. Là où une pièce baroque maintenait une seule émotion du début à la fin, une pièce classique fait se succéder des humeurs contrastées et les met en dialogue. Les nuances aussi deviennent progressives : l'orchestre de **Mannheim**, célèbre dans toute l'Europe, invente l'effet du **crescendo**, une montée graduelle du son qui faisait, dit-on, se lever le public.
 
-**Wolfgang Amadeus Mozart (1756-1791):**
-- Enfant prodige
-- Maîtrise de tous les genres
-- 626 œuvres (catalogue Köchel)
-  
-**Symphonies:**
-- 41 symphonies
-- Dernières: 39, 40, 41 "Jupiter" (1788) - perfection classique
+Le cadre qui organise tout cela est la **forme sonate**. Elle oppose deux thèmes de caractères différents dans deux tonalités (l'**exposition**), les fragmente et les fait voyager dans des tonalités lointaines (le **développement**), puis les ramène tous deux dans la tonalité principale (la **réexposition**). C'est un petit drame en trois actes, tension puis résolution, qui structure le premier mouvement de presque toutes les symphonies, sonates et quatuors de l'époque.
 
-**Concertos:**
-- 27 concertos pour piano (dialogue soliste/orchestre)
-- Concertos pour violon, clarinette (K.622 - sublime)
-- Cor, flûte, hautbois
+Entre Bach et Haydn, une génération de transition prépare ce style. Le plus original est **Carl Philipp Emanuel Bach** (1714-1788), fils de Johann Sebastian, dont le « style sensible » (*Empfindsamer Stil*) multiplie les changements d'humeur brusques et les fantaisies libres au clavier.
 
-**Opéras:**
-- *Le Nozze di Figaro* (1786) - avec Da Ponte
-- *Don Giovanni* (1787) - "dramma giocoso"
-- *Così fan tutte* (1790)
-- *Die Zauberflöte* (1791) - opéra allemand, franc-maçonnerie
-- Réforme de l'opera seria et buffa
+## Haydn, l'inventeur des formes
 
-**Musique de chambre:**
-- Quatuors à cordes (dédiés à Haydn)
-- Quintettes (clarinette!)
-- Sonates pour piano et violon
+**Joseph Haydn** (1732-1809) passe près de trente ans au service des princes Esterházy, dans un château isolé de Hongrie. « J'étais coupé du monde, dira-t-il, et je fus forcé de devenir original. » Il y écrit l'essentiel de ses 104 symphonies et de ses quelque 68 quatuors à cordes, deux genres qu'il fait passer du divertissement à l'œuvre d'art : on l'appelle le père de la symphonie et du quatuor.
 
-**Musique sacrée:**
-- *Requiem* (1791) - inachevé, circonstances mystérieuses
-- Messes
+Sa musique est pleine d'esprit. Dans la symphonie *La Surprise*, un mouvement lent tout en douceur est brusquement interrompu par un accord fortissimo ; dans *L'Horloge*, l'accompagnement imite un tic-tac. Devenu célèbre dans toute l'Europe, il triomphe à Londres avec ses dernières symphonies, puis compose à Vienne deux grands oratorios, *La Création* (1798) et *Les Saisons* (1801). Mozart lui dédie six quatuors, et le jeune Beethoven prend des leçons avec lui.
 
-- Perfection formelle, profondeur émotionnelle
-- Équilibre miracle du tragique et du joyeux
-- Mort prématurée à 35 ans dans la pauvreté
+## Mozart, la perfection dans tous les genres
 
-**Ludwig van Beethoven (1770-1827):**
-- Pont classicisme-romantisme
-- Révolution de la musique occidentale
-- Surdité progressive (dès 1798, totale vers 1818)
-  
-**Trois périodes:**
+**Wolfgang Amadeus Mozart** (1756-1791) parcourt l'Europe enfant pour se produire devant les cours, et absorbe au passage tous les styles. En trente-cinq ans de vie, il laisse plus de six cents œuvres, recensées au XIXe siècle par le catalogue Köchel (d'où les numéros « K. »), et excelle dans tous les genres.
 
-**Première (jusqu'à 1802):**
-- Influence de Haydn et Mozart
-- Symphonies 1-2
-- Premières sonates pour piano
-- Quatuors op. 18
+L'opéra est peut-être son domaine le plus personnel. Avec le librettiste Lorenzo Da Ponte, il écrit *Les Noces de Figaro* (1786), *Don Giovanni* (1787) et *Così fan tutte* (1790), où la musique peint les personnages avec une finesse psychologique jamais atteinte : dans les grands ensembles, chacun chante ses propres sentiments en même temps que les autres, et l'on comprend tout. *La Flûte enchantée* (1791), en allemand, mêle conte populaire et symbolique maçonnique.
 
-**Moyenne (1802-1814):**
-- Style héroïque
-- **Symphonies:**
-  - 3 "Eroica" (1803) - révolution (dédiée puis retirée à Napoléon)
-  - 5 (1808) - "destin frappe à la porte", ut mineur → ut majeur
+Ses 27 concertos pour piano font du soliste et de l'orchestre de véritables partenaires de dialogue. Ses trois dernières symphonies, écrites en un seul été de 1788, culminent avec la *Jupiter*, dont le finale combine cinq thèmes en contrepoint. Son *Concerto pour clarinette* et son *Quintette avec clarinette* ont fait de cet instrument encore neuf une voix d'une tendresse unique. Il meurt à 35 ans en laissant inachevé son *Requiem*, commandé par un mystérieux inconnu ; la légende d'un Mozart mort dans la misère est exagérée, car il gagnait bien sa vie, même s'il dépensait plus encore.
+
+## Beethoven, le classique qui fait éclater le classicisme
+
+**Ludwig van Beethoven** (1770-1827) arrive à Vienne en 1792 pour, selon le mot d'un protecteur, « recevoir l'esprit de Mozart des mains de Haydn ». Il en hérite les formes, puis les pousse jusqu'à leur limite. On distingue traditionnellement trois périodes dans son œuvre.
+
+La première, jusque vers 1802, prolonge Haydn et Mozart : les deux premières symphonies, les quatuors op. 18, les premières sonates pour piano, dont la *Pathétique*. Mais sa surdité progresse depuis 1798. En 1802, dans une lettre jamais envoyée, le **testament de Heiligenstadt**, il avoue avoir songé au suicide et décide de vivre pour son art.
+
+S'ouvre alors la période **héroïque**. La *Troisième Symphonie*, *Eroica* (1803), deux fois plus longue qu'une symphonie de Haydn, devait être dédiée à Napoléon ; Beethoven raye la dédicace quand celui-ci se proclame empereur. La *Cinquième* (1808) part du célèbre motif de quatre notes, « le destin qui frappe à la porte », et mène de l'ut mineur sombre à un finale triomphal en ut majeur.
 
 > [!important] Idée clé
 > L'arc mineur→majeur de la 5e n'est pas qu'un effet dramatique isolé : c'est un changement de logique narrative. Le [[Baroque]] traite une pièce entière dans une seule "affect" stable (théorie des affects) ; Beethoven fait de la symphonie un récit qui se transforme d'un mouvement à l'autre. Cette bascule est un des marqueurs qui annoncent le [[Romantisme]].
-  - 6 "Pastorale" (1808) - programme, nature
-  - 7 (1812) - "apothéose de la danse" (Wagner)
-- Concerto pour piano n°5 "Empereur" (1811)
-- Concerto pour violon (1806)
-- Opéra: *Fidelio* (1805, révisé 1814) - seul opéra
-- Sonates: *Pathétique*, *Clair de lune*, *Appassionata*, *Waldstein*
-- Testament de Heiligenstadt (1802) - crise suicidaire
 
-**Tardive (1815-1827):**
-- Introspection, transcendance
-- **Symphonie 9** (1824) - choral, "Ode à la joie" (Schiller)
-- Derniers quatuors (op. 127, 130-133) - mystérieux, avant-gardistes
-- Dernières sonates pour piano (op. 109-111) - fugues
-- *Missa Solemnis* (1823) - monumentale
-- *Grosse Fuge* (1826) - incomprise à l'époque
+La même période voit naître la *Pastorale* (1808), qui évoque la campagne, la *Septième* (1812), que Wagner appellera « l'apothéose de la danse », le *Concerto pour violon* (1806), le *Concerto « L'Empereur »* (1811), les sonates *Appassionata* et *Waldstein*, et son unique opéra, *Fidelio*, hymne à la liberté.
 
-- Individualisme, subjectivité
-- Expansion des formes
-- Intensité émotionnelle
-- Influence sur tout le XIXe siècle
+Dans la dernière période, à partir de 1815, Beethoven est totalement sourd et se replie sur lui-même. Il écrit une musique d'une profondeur et d'une étrangeté qui déconcertent ses contemporains : les dernières sonates pour piano (op. 109 à 111), la *Missa solemnis* (1823), les derniers quatuors et la *Grande Fugue*, longtemps jugée injouable. La *Neuvième Symphonie* (1824) fait entrer, chose presque inédite, un chœur et des solistes dans une symphonie, avec l'« Ode à la joie » de Schiller.
+
+En affirmant que la musique exprime la personnalité de son auteur et en faisant éclater les proportions classiques, Beethoven ouvre la voie au [[Romantisme]], qui fera de lui son modèle absolu.

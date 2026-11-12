@@ -9,479 +9,81 @@ parcours-description: "Une vue d'ensemble des branches de la philosophie, puis c
 ---
 # Branches de la Philosophie (Approfondissement)
 
-### Épistémologie
+Au début des *Principes de la philosophie*, Descartes compare la philosophie à un arbre : les racines sont la métaphysique, le tronc la physique, et les branches les autres sciences, dont les plus hautes sont la médecine, la mécanique et la morale. L'image a vieilli, puisque la physique et la médecine sont devenues des sciences autonomes, mais l'idée demeure : la philosophie n'est pas un bloc, c'est un ensemble de questions reliées entre elles. Que puis-je savoir ? Qu'est-ce qui existe ? Que dois-je faire ? Qu'est-ce que le beau ? Comment raisonner correctement ? Chacune de ces questions a donné naissance à une branche, avec ses problèmes, ses positions classiques et ses débats. Cette note les parcourt l'une après l'autre ; chacune renvoie à une note plus complète.
+
+## L'épistémologie : que pouvons-nous savoir ?
 
 *Voir le développement complet : [[Épistémologie]]*
 
-**Définition**
-Science de la connaissance : comment connaissons-nous ? Qu'est-ce que la vérité ? Quelles sont les limites du savoir ?
-
-**Questions Centrales**
-- Qu'est-ce que la connaissance ? (croyance vraie justifiée ?)
-- Comment distinguer connaissance et opinion ?
-- Existe-t-il des vérités absolues ?
-- Peut-on connaître la réalité objective ?
-
-**Théories de la Connaissance**
-
-*Rationalisme* (voir [[Rationalisme]])
-- **Principe** : Raison source principale connaissance
-- **Innéisme** : Idées innées (Descartes, Leibniz)
-- **Déduction** : Vérités dérivées logiquement
-- **Exemple** : Mathématiques (vérités a priori)
-- **Philosophes** : [[Descartes]], [[Spinoza]], Leibniz, [[Platon]]
-
-*Empirisme* (voir [[Empirisme]])
-- **Principe** : Expérience sensible source connaissance
-- **Tabula Rasa** : Esprit vierge à la naissance (Locke)
-- **Induction** : Généralisation à partir observations
-- **Critique** : Problème induction (Hume - pas certitude logique)
-- **Philosophes** : Locke, Berkeley, Hume, [[Aristote]]
-
-*Criticisme* (Kant)
-- **Synthèse** : Raison + expérience
-- **A Priori** : Structures mentales (espace, temps, causalité)
-- **Phénomène vs Noumène** : Apparences vs chose en soi (inconnaissable)
-- **Révolution Copernicienne** : Objet se conforme à esprit, pas inverse
-- Voir [[Kant]]
-
-> [!important] Idée clé
-> Le criticisme kantien n'est pas un compromis entre rationalisme et empirisme (« un peu de raison, un peu d'expérience »). C'est un déplacement de la question elle-même : au lieu de demander si l'esprit se conforme à l'objet, Kant demande si l'objet se conforme aux structures de l'esprit — la « révolution copernicienne ». Les deux camps cherchaient où se trouve la vérité ; Kant cherche comment la connaissance est possible.
-
-**Théories de la Vérité**
-
-*Correspondance*
-- Vérité = adéquation proposition/réalité
-- Classique (Aristote)
-
-*Cohérence*
-- Vérité = cohérence avec ensemble croyances
-- Rationalisme, idéalisme
-
-*Pragmatisme*
-- Vérité = ce qui fonctionne utilement
-- William James, John Dewey
-
-*Consensus*
-- Vérité = accord intersubjectif
-- Habermas
-
-**Scepticisme**
-- **Ancien** : Pyrrhon (suspension jugement, ataraxie)
-- **Moderne** : Descartes (doute méthodique), Hume (critique causalité)
-- **Arguments** : Illusions, rêves, régression infinie justifications
-
-**Problèmes Épistémologiques**
-
-*Problème de Gettier*
-- Croyance vraie justifiée ≠ toujours connaissance
-- Cas : Justification par chance
+L'épistémologie, ou théorie de la connaissance, demande ce qu'est connaître, comment distinguer la connaissance de la simple opinion, et jusqu'où va notre savoir. Depuis le *Théétète* de Platon, on définit souvent la connaissance comme une **croyance vraie et justifiée** : pour savoir qu'il pleut, il ne suffit pas de le croire, il faut que ce soit vrai et que j'aie de bonnes raisons de le croire. En 1963, un article de trois pages d'Edmund Gettier a ébranlé cette définition en imaginant des cas où quelqu'un a une croyance vraie et justifiée, mais vraie par chance.
 
 > [!warning] Piège
 > Gettier ne détruit pas la définition « croyance vraie justifiée » (JTB) — il montre seulement qu'elle n'est pas *suffisante*. Une croyance peut être vraie et justifiée tout en tenant à la chance, sans que la justification soit ce qui la rend vraie. Le problème reste ouvert : qu'ajouter à JTB pour exclure ce genre de coïncidence ?
 
-*Problème Induction*
-- Hume : Expériences passées → futur (pas logiquement justifié)
-- [[Popper]] : Réfutation possible, pas confirmation
+La grande querelle des Modernes porte sur l'origine de la connaissance. Le [[Rationalisme]] de [[Descartes]], de [[Spinoza]] ou de Leibniz, héritier de [[Platon]], tient que la raison est la source principale du savoir : certaines idées sont innées, et les vérités les plus sûres, comme celles des mathématiques, se déduisent sans recours à l'expérience. L'[[Empirisme]] de Locke, Berkeley et Hume, qui se réclame plutôt d'[[Aristote]], répond que l'esprit est à la naissance une page blanche, une *tabula rasa*, et que tout lui vient des sens ; la connaissance procède par induction, en généralisant à partir des observations. Hume en tire une conséquence redoutable : rien ne justifie logiquement de conclure du passé à l'avenir, et la causalité n'est qu'une habitude de l'esprit.
 
-*Relativisme*
-- Vérité relative culture, individu ?
-- Débat : Pluralisme vs. Universalisme
+[[Kant]] propose de sortir de l'alternative par sa « révolution copernicienne » : l'esprit ne reçoit pas passivement le monde, il le structure par des formes a priori, l'espace et le temps pour la sensibilité, les catégories comme la causalité pour l'entendement. Nous connaissons les choses telles qu'elles nous apparaissent, les phénomènes, jamais telles qu'elles sont en elles-mêmes.
 
-**Science et Connaissance**
+> [!important] Idée clé
+> Le criticisme kantien n'est pas un compromis entre rationalisme et empirisme (« un peu de raison, un peu d'expérience »). C'est un déplacement de la question elle-même : au lieu de demander si l'esprit se conforme à l'objet, Kant demande si l'objet se conforme aux structures de l'esprit — la « révolution copernicienne ». Les deux camps cherchaient où se trouve la vérité ; Kant cherche comment la connaissance est possible.
 
-*Positivisme Logique*
-- Vérification empirique critère sens
-- Cercle de Vienne (Carnap)
-- Critique : Énoncés métaphysiques dénués sens
+L'épistémologie s'interroge aussi sur la nature de la vérité. La théorie de la **correspondance**, qui remonte à Aristote, définit le vrai comme l'accord entre ce qu'on dit et ce qui est. La théorie de la **cohérence**, chère aux rationalistes et aux idéalistes, juge vraie une croyance qui s'accorde avec l'ensemble de nos autres croyances. Le **pragmatisme** de William James et John Dewey tient pour vrai ce qui réussit à guider l'action et l'enquête, et Habermas fait de la vérité l'objet d'un **consensus** atteint dans une discussion libre. En face, le **scepticisme** doute que nous puissions jamais atteindre la vérité : Pyrrhon recommandait de suspendre son jugement pour atteindre la tranquillité, et les arguments sceptiques, les illusions des sens, le rêve, la régression à l'infini des justifications, ont nourri le doute méthodique de Descartes.
 
-*Falsificationnisme* (Karl Popper)
-- Science : Hypothèses réfutables
-- Démarcation science/pseudo-science
-- Progrès par réfutations
+Appliquée aux sciences, l'épistémologie demande ce qui fait la valeur du savoir scientifique. Le positivisme logique du Cercle de Vienne, autour de Carnap, en fait un critère de sens : un énoncé n'a de sens que s'il est vérifiable par l'expérience, ce qui condamne la métaphysique au non-sens. [[Popper]] répond que les théories scientifiques ne sont jamais vérifiées, mais qu'elles se distinguent des pseudo-sciences en ce qu'elles peuvent être réfutées, et que la science progresse en éliminant ses erreurs. Thomas Kuhn, enfin, montre que l'histoire des sciences alterne des périodes de « science normale », dominées par un [[Épistémologie#Kuhn : les paradigmes scientifiques|paradigme]], et des révolutions scientifiques où le cadre entier est remplacé.
 
-*Paradigmes* (Thomas Kuhn)
-- [[Épistémologie#Kuhn : les paradigmes scientifiques|Paradigme de Kuhn]] : Révolutions scientifiques
-- Science normale vs. crises
-- Incommensurabilité paradigmes
+## L'ontologie : qu'est-ce qui existe ?
 
+L'ontologie, partie centrale de la métaphysique, est la science de l'être en tant qu'être. Elle pose les questions les plus vertigineuses de la philosophie, comme celle de Leibniz : pourquoi y a-t-il quelque chose plutôt que rien ? Elle demande ce que signifie exister et quelles sortes d'êtres il y a.
 
-### Ontologie
+La première grande alternative porte sur le nombre de réalités fondamentales. Le **monisme** n'en admet qu'une : le matérialisme de Démocrite ou de Marx tient que tout est matière, l'idéalisme de Berkeley ou de Hegel que tout est esprit, et Spinoza fait de Dieu, ou la Nature, la substance unique. Le **dualisme** de Descartes en admet deux, la pensée et l'étendue, au prix d'un problème redoutable : comment l'esprit peut-il agir sur le corps ? Le **pluralisme** de Leibniz pose une infinité de substances simples, les monades.
 
-**Définition**
-Science de l'être : qu'est-ce qui existe ? Quelle est la nature de la réalité ?
+Une deuxième alternative oppose le **réalisme**, pour qui le monde existe indépendamment de l'esprit qui le connaît, à l'**idéalisme**, pour qui la réalité est constituée par l'esprit. Berkeley le résume d'une formule : *esse est percipi*, être, c'est être perçu. Le phénoménalisme se contente de dire que la réalité se réduit aux phénomènes perçus, sans substance cachée derrière.
 
-**Questions Fondamentales**
-- Pourquoi y a-t-il quelque chose plutôt que rien ? (Leibniz)
-- Qu'est-ce que l'existence ?
-- Quelles catégories d'êtres existent ?
+Les médiévaux se sont déchirés sur la **querelle des universaux** : les termes généraux comme « homme » ou « rouge » désignent-ils des réalités ? Les réalistes, dans la lignée des Idées de Platon, répondent oui ; les nominalistes comme Guillaume d'Ockham n'y voient que des noms ; les conceptualistes, des concepts de l'esprit. On discute de même de la nature du temps et de l'espace : réalités absolues pour Newton, simples relations entre les choses pour Leibniz, formes a priori de notre sensibilité pour Kant, grandeurs liées à l'observateur dans la relativité d'Einstein.
 
-**Positions Ontologiques**
+La question de l'être traverse toute l'histoire de la philosophie, depuis Parménide, pour qui seul l'être est et le néant ne peut même pas être pensé, et Héraclite, pour qui tout est devenir. Heidegger reproche à la métaphysique d'avoir oublié la différence entre l'être et les étants et repart de l'existence humaine, le *Dasein*. Sartre distingue l'être-en-soi des choses de l'être-pour-soi de la conscience, pour qui l'existence précède l'essence.
 
-*Monisme*
-- **Une seule substance** fondamentale
-- **Matérialisme** : Tout est matière (Démocrite, Marx)
-- **Idéalisme** : Tout est esprit/idées (Berkeley, Hegel)
-- **Spinoza** : Substance unique (Dieu/Nature)
+## L'éthique : comment faut-il agir ?
 
-*Dualisme*
-- **Deux substances** : Esprit + Matière
-- **Descartes** : Res cogitans (pensée) / Res extensa (étendue)
-- **Problème** : Interaction esprit-corps (comment ?)
+L'éthique, ou philosophie morale, porte sur le bien et le mal, le devoir et la vie bonne. Elle se divise en trois niveaux. L'éthique normative cherche des critères pour juger nos actions. La métaéthique s'interroge sur la nature même des jugements moraux. L'éthique appliquée affronte les questions concrètes de notre temps.
 
-*Pluralisme*
-- **Multiples substances**
-- **Leibniz** : Monades infinies
-
-**Réalisme vs. Idéalisme**
-
-*Réalisme*
-- Monde existe indépendamment esprit
-- Objets externes réels
-
-*Idéalisme*
-- Réalité constituée idées/esprit
-- Berkeley : "Esse est percipi" (être = être perçu)
-
-*Phénoménalisme*
-- Réalité = phénomènes perçus (pas substance derrière)
-
-**Problème Universaux**
-- **Réalisme** : Universaux existent réellement ([[Platon]] - Idées)
-- **Nominalisme** : Seulement noms, pas réalité (Ockham)
-- **Conceptualisme** : Concepts esprit, pas réalité externe
-
-**Temps et Espace**
-- **Absolu** : Réalité indépendante (Newton)
-- **Relatif** : Dépend observateur (Einstein, relativité)
-- **Idéal** : Formes a priori esprit (Kant)
-
-**Être et Néant**
-- **Parménide** : Être seul existe, néant impossible
-- **Héraclite** : Devenir, flux permanent
-- **Heidegger** : Être vs. étant, Dasein (être-là)
-- **Sartre** : Existence précède essence, être-pour-soi vs. être-en-soi
-
-
-### Éthique
-
-**Définition**
-Science du bien et du mal, du devoir : comment doit-on agir ? Qu'est-ce qu'une vie bonne ?
-
-**Questions Centrales**
-- Qu'est-ce que le bien ?
-- D'où viennent valeurs morales ?
-- Comment décider actions morales ?
-- Existe-t-il morale universelle ?
-
-**Grandes Théories Éthiques**
-
-*Éthique des Vertus* ([[Aristote]])
-- **Principe** : Cultiver caractère vertueux
-- **Vertu** : Juste milieu entre excès et défaut
-  - Courage (entre lâcheté et témérité)
-  - Tempérance, sagesse pratique (phronesis)
-- **Eudaimonia** : Vie bonne, épanouissement
-- **Agent-centré** : Qui dois-je être ?
-- **Moderne** : Alasdair MacIntyre, Philippa Foot
-
-*Déontologie* ([[Kant]])
-- **Principe** : Devoir moral, intention
-- **Impératif Catégorique** :
-  1. Universalisation : Agis selon maxime pouvant devenir loi universelle
-  2. Humanité comme fin : Traite autrui jamais seulement comme moyen
-- **Autonomie** : Raison détermine morale (pas désirs, conséquences)
-- **Dignité** : Humains ont valeur absolue
-- **Exemple** : Mentir toujours mal (même si conséquences bonnes)
-
-*Conséquentialisme* (voir [[Conséquentialisme]])
-- **Principe** : Moralité = conséquences actions
-- **Utilitarisme** : Maximiser bonheur, minimiser souffrance
-  - **Bentham** : Calcul plaisirs/peines
-  - **Mill** : Qualité plaisirs (intellectuels > sensuels)
-  - Formule : "Plus grand bonheur pour plus grand nombre"
-- **Critiques** :
-  - Sacrifices individus pour collectif ?
-  - Difficultés calcul, prédiction
-- Voir [[Utilitarisme]]
+Trois grandes théories normatives se partagent le terrain. L'**éthique des vertus**, issue d'[[Aristote]], demande moins « que dois-je faire ? » que « quelle personne dois-je être ? ». La vertu est une disposition acquise par l'habitude, un juste milieu entre deux vices, comme le courage entre la lâcheté et la témérité, et la sagesse pratique, la *phronèsis*, permet de discerner ce qui convient dans chaque situation ; elle mène à l'*eudaimonia*, l'épanouissement d'une vie réussie. Alasdair MacIntyre et Philippa Foot l'ont remise à l'honneur au XXe siècle. La **déontologie** de [[Kant]] fonde la morale sur le devoir : est moral ce qui est fait par respect pour une loi que la raison se donne à elle-même, l'impératif catégorique, qui commande d'agir selon des maximes universalisables et de traiter l'humanité jamais simplement comme un moyen, toujours aussi comme une fin. Le mensonge y est interdit même lorsqu'il aurait de bonnes conséquences. Le [[Conséquentialisme]], dont l'[[Utilitarisme]] est la forme classique, juge au contraire les actes à leurs conséquences : Bentham propose de calculer plaisirs et peines, Mill distingue des plaisirs supérieurs, et la règle est de produire le plus grand bonheur du plus grand nombre. On lui objecte qu'elle peut justifier le sacrifice d'un innocent et qu'on ne sait jamais calculer toutes les conséquences.
 
 > [!warning] Piège
 > Confusion fréquente : déontologie ≠ « règles rigides », conséquentialisme ≠ « sans principes ». La vraie ligne de partage porte sur ce qui rend un acte moral — l'intention/la nature de l'acte (Kant) contre le résultat produit (utilitarisme). Le dilemme du tramway l'illustre : la déontologie interdit de pousser quelqu'un même pour sauver cinq vies (tuer reste mal en soi), le conséquentialisme l'autoriserait si le bilan net est positif.
 
-*Éthique du Care*
-- **Principe** : Attention, sollicitude, relations
-- **Contexte** : Situations particulières, vulnérabilité
-- **Critique** : Éthiques traditionnelles masculines (raison, abstraction)
-- **Philosophes** : Carol Gilligan, Nel Noddings
+À ces trois théories s'est ajoutée, depuis les années 1980, l'**éthique du care**, née des travaux de la psychologue Carol Gilligan et de la philosophe Nel Noddings. Elle reproche aux morales traditionnelles de privilégier l'abstraction et l'impartialité, valeurs associées au masculin, et met au centre l'attention aux personnes vulnérables, la sollicitude et les relations concrètes.
 
-**Métaéthique**
+La métaéthique se demande si les jugements moraux peuvent être vrais. Le **réalisme moral** soutient qu'il existe des faits moraux objectifs que nous pouvons découvrir ; G. E. Moore pense que nous les saisissons par une intuition. Les anti-réalistes le nient : pour l'émotivisme d'Ayer, dire « le meurtre est mal » revient à exprimer une émotion, pour le prescriptivisme de Hare à formuler un ordre universel, et pour le relativisme la morale varie selon les cultures. Ce dernier débat, entre relativisme et [[Universalisme Moral|universalisme moral]], se retrouve dans les discussions sur les droits de l'homme : sont-ils universels, ou l'expression d'une culture particulière qui s'imposerait aux autres ?
 
-*Réalisme Moral*
-- Faits moraux existent objectivement
-- Vérités morales découvrables
+L'éthique appliquée, enfin, traite de bioéthique (avortement, euthanasie, recherche sur l'embryon, modification génétique), d'éthique environnementale (la nature et les animaux ont-ils des droits ? faut-il dépasser l'anthropocentrisme ?) et d'éthique économique (justice distributive chez Rawls, responsabilité des entreprises, limites de la croissance, voir [[Economy/Capitalisme de la finitude|Capitalisme de la finitude]]).
 
-*Anti-Réalisme Moral*
-- **Émotivisme** : Jugements moraux = émotions (Ayer)
-- **Prescriptivisme** : Ordres déguisés (Hare)
-- **Relativisme** : Morale relative culture
+## L'esthétique : qu'est-ce que le beau ?
 
-*Intuitionnisme*
-- Vérités morales connues par intuition (Moore)
+L'esthétique est la philosophie du beau et de l'art. Le beau est-il une propriété des choses ou une affaire de goût ? Les objectivistes le cherchent dans des proportions et des harmonies ; les pythagoriciens découvraient dans la musique des rapports numériques simples, et la Renaissance a voulu voir partout le nombre d'or, souvent au prix de mesures complaisantes. Les subjectivistes répètent l'adage scolastique *de gustibus non est disputandum*, des goûts on ne dispute pas. Hume, pourtant, dans *De la norme du goût* (1757), cherche une norme dans le verdict des critiques expérimentés. Kant dépasse l'alternative : le jugement de goût repose sur un sentiment, mais il prétend à l'universalité ; le beau plaît sans intérêt, il présente une « finalité sans fin », et il se distingue du **sublime**, ce sentiment mêlé d'effroi devant ce qui excède notre imagination, la montagne, la tempête, que Burke décrivait déjà comme une « terreur délicieuse ».
 
-**Éthique Appliquée**
+La question « qu'est-ce que l'art ? » a reçu plusieurs réponses. Pour Platon, l'art est **imitation** d'un monde sensible qui n'est lui-même qu'une copie des Idées ; il éloigne de la vérité, et la *République* chasse les poètes de la cité. Aristote voit au contraire dans l'imitation une source naturelle de connaissance et dans la tragédie une **catharsis**, une purification des émotions. Les romantiques font de l'art l'**expression** des émotions d'un génie original. Le formalisme de Clive Bell y voit une « forme signifiante », des lignes et des couleurs qui émeuvent par elles-mêmes. Quand Duchamp expose un urinoir, Arthur Danto répond que c'est le « monde de l'art », une atmosphère de théorie et d'histoire, qui fait d'un objet une œuvre ; George Dickie en tire une théorie **institutionnelle** : est art ce que les institutions du monde de l'art présentent comme tel. John Dewey, dans *L'Art comme expérience* (1934), en fait plutôt une forme intensifiée de l'expérience ordinaire.
 
-*Bioéthique*
-- Avortement, euthanasie, clonage
-- Recherche embryons, modifications génétiques
+On prête à l'art des fonctions diverses : connaître, puisque Heidegger y voit une mise en œuvre de la vérité ; éduquer moralement, comme le voulait Platon pour un art contrôlé ou Tolstoï pour qui l'art communique des sentiments ; émouvoir et purifier ; critiquer la société, servir la propagande ou porter la révolution des avant-gardes. Contre toutes ces fonctions, le XIXe siècle revendique « l'art pour l'art », dans la lignée du désintéressement kantien. L'esthétique s'intéresse aussi aux catégories voisines du beau : le laid, que Baudelaire fait entrer en poésie avec *Les Fleurs du mal*, ou le kitsch, art sentimental et facile qu'Adorno rattache à l'industrie culturelle.
 
-*Éthique Environnementale*
-- Droits nature, animaux ?
-- Anthropocentrisme vs. biocentrisme
-
-*Éthique Économique*
-- Justice distributive (Rawls)
-- Responsabilité entreprises
-- [[Economy/Capitalisme de la finitude|Capitalisme de la finitude]]
-
-**Universalisme vs. Relativisme**
-- **Universalisme** : Principes moraux universels (voir [[Universalisme Moral]])
-- **Relativisme** : Morale varie cultures
-- **Débat** : Droits humains universels ? Impérialisme moral ?
-
-
-### Esthétique
-
-**Définition**
-Philosophie de l'art et du beau : qu'est-ce que la beauté ? Qu'est-ce que l'art ? Quelle est sa fonction ?
-
-**Questions Centrales**
-- Qu'est-ce que le beau ?
-- L'art doit-il être beau ?
-- Beauté objective ou subjective ?
-- Quelle est la valeur de l'art ?
-
-**Théories du Beau**
-
-*Objectivisme*
-- Beauté = propriétés objectives (proportions, harmonie)
-- Pythagore : Nombres, rapports mathématiques
-- Nombre d'or (φ = 1,618...)
-
-*Subjectivisme*
-- Beauté dans œil spectateur
-- Hume : Goût, sentiment
-- "De gustibus non est disputandum" (pas débat goûts)
-
-*Kant*
-- **Jugement Esthétique** : Subjectif mais prétention universalité
-- **Désintéressement** : Plaisir sans intérêt pratique
-- **Finalité sans Fin** : Forme téléologique sans but
-- **Sublime** : Dépassement facultés (montagne, tempête)
-
-**Théories de l'Art**
-
-*Imitation (Mimesis)*
-- **Platon** : Art imite réalité (elle-même imitation Idées)
-  - Danger : Éloigne vérité, corrompt (République - bannir poètes)
-- **Aristote** : Imitation naturelle, cathartique (purge émotions)
-
-*Expression*
-- Art exprime émotions artiste
-- Romantisme (XIXe) : Génie, originalité
-
-*Forme*
-- Beauté = propriétés formelles (lignes, couleurs, sons)
-- Formalisme (Clive Bell) : "Forme significative"
-
-*Institutionnelle*
-- Art = ce que monde art définit comme art
-- Arthur Danto, George Dickie
-
-*Expérience*
-- Art = expérience esthétique distinctive
-- John Dewey : "Art as Experience"
-
-**Fonctions de l'Art**
-
-*Cognitive*
-- Connaissance (Aristote), vérité
-- Heidegger : Art révèle être
-
-*Morale*
-- Éducation morale (Platon - si contrôlé)
-- Tolstoï : Communication morale
-
-*Émotionnelle*
-- Catharsis (Aristote - tragédie)
-- Expression, évocation émotions
-
-*Politique*
-- Critique sociale
-- Propagande (art totalitaire)
-- Avant-gardes (révolution)
-
-*Autonomie*
-- "L'art pour l'art" (XIXe)
-- Kant : Désintéressement
-
-**Concepts Esthétiques**
-
-*Sublime*
-- Kant : Grandeur dépassant imagination
-- Burke : Terreur délicieuse
-- Nature (montagnes), art (tragédie)
-
-*Laid*
-- Négation beau ou catégorie propre ?
-- Art moderne : Intégration laid (Baudelaire)
-
-*Kitsch*
-- Art mauvais goût, sentimental
-- Critique culture masse (Adorno)
-
-**Art et Vérité**
-- Platon : Art = illusion, mensonge
-- Heidegger : Art révèle vérité être
-- Nietzsche : Art > vérité (vie)
-
-
-### Logique
+## La logique : comment raisonner correctement ?
 
 *Voir le développement complet : [[Logique]]*
 
-**Définition**
-Science du raisonnement valide : quelles inférences sont correctes ? Comment argumenter rigoureusement ?
+La logique étudie les raisonnements valides, ceux dont la conclusion découle nécessairement des prémisses quelle que soit leur matière. Aristote en est le fondateur avec la théorie du **syllogisme** : « Tous les hommes sont mortels, or Socrate est un homme, donc Socrate est mortel. » En combinant les figures et les modes, on obtient 256 formes de syllogismes, dont la tradition médiévale retient dix-neuf comme valides. La logique classique repose sur trois principes : l'identité (A est A), la non-contradiction (on ne peut affirmer à la fois A et non-A) et le tiers exclu (A ou non-A, sans troisième possibilité).
 
-**Logique Classique**
+À la fin du XIXe siècle, Frege puis [[Russell]] refondent la logique sur un modèle mathématique pour fonder les mathématiques elles-mêmes. La **logique propositionnelle** combine des propositions par des connecteurs, la négation (¬), la conjonction (∧), la disjonction (∨), l'implication (→) et l'équivalence (↔), dont les tables de vérité permettent de calculer la valeur ; une tautologie comme « A ou non-A » est vraie dans tous les cas. La **logique des prédicats** y ajoute les quantificateurs, « pour tout x » (∀) et « il existe un x » (∃), et peut écrire « tous les hommes sont mortels » sous la forme ∀x (Homme(x) → Mortel(x)).
 
-*Syllogisme* (Aristote)
-- **Structure** : Majeure, Mineure, Conclusion
-- **Exemple** :
-  - Tous les hommes sont mortels (majeure)
-  - Socrate est un homme (mineure)
-  - Donc Socrate est mortel (conclusion)
-- **Figures et Modes** : 256 formes, 19 valides
+Au XXe siècle sont apparues des logiques non classiques. La logique modale traite du nécessaire (□) et du possible (◇). La logique intuitionniste de Brouwer rejette le tiers exclu, parce qu'en mathématiques constructives on n'admet qu'un objet existe que si on sait le construire. Les logiques floues admettent des degrés de vérité entre 0 et 1 et servent en informatique et en automatique. Les logiques paraconsistantes tolèrent des contradictions locales sans que tout devienne démontrable.
 
-*Principes Logiques Fondamentaux*
-- **Identité** : A = A
-- **Non-Contradiction** : ¬(A ∧ ¬A)
-- **Tiers-Exclu** : A ∨ ¬A (pas intermédiaire)
+La logique sert aussi à repérer les erreurs de raisonnement, les **sophismes**. Certains sont formels, comme l'affirmation du conséquent (« s'il pleut, la route est mouillée ; la route est mouillée, donc il a plu ») ou la négation de l'antécédent. D'autres sont informels : l'attaque contre la personne plutôt que contre l'argument (*ad hominem*), l'appel à une autorité non compétente, la pente glissante qui enchaîne des conséquences sans les justifier, le faux dilemme qui ne laisse que deux options, la pétition de principe qui suppose ce qu'il faut prouver, la généralisation hâtive, ou le *post hoc ergo propter hoc*, qui conclut de la succession à la causalité. Les **paradoxes**, enfin, mettent la logique à l'épreuve : le menteur qui dit « cette phrase est fausse », auquel Tarski répond en distinguant des niveaux de langage ; le paradoxe de Russell sur l'ensemble de tous les ensembles qui ne se contiennent pas eux-mêmes, qui provoqua la crise des fondements des mathématiques ; le paradoxe du tas, ou sorite, qui montre la difficulté des termes vagues : si l'on retire un grain à un tas de sable, c'est encore un tas, et pourtant à force de retirer des grains il n'y a plus de tas.
 
-**Logique Propositionnelle**
-- **Variables** : p, q, r (propositions)
-- **Connecteurs** :
-  - ¬ (négation) : NON
-  - ∧ (conjonction) : ET
-  - ∨ (disjonction) : OU
-  - → (implication) : SI...ALORS
-  - ↔ (équivalence) : SI ET SEULEMENT SI
-- **Tables Vérité** : Valuation (vrai/faux)
-- **Tautologies** : Toujours vraies (A ∨ ¬A)
+## Les autres branches
 
-**Logique des Prédicats**
-- **Quantificateurs** :
-  - ∀ (universel) : Pour tout
-  - ∃ (existentiel) : Il existe
-- **Exemple** : ∀x (Homme(x) → Mortel(x))
-- **Frege, [[Russell]]** : Fondements mathématiques
+La **philosophie politique** (*voir [[Philosophie Politique]]*) s'interroge sur les fondements légitimes du pouvoir : pourquoi obéir à l'État, et qu'est-ce qu'une société juste ? Elle va des théories du contrat social de Hobbes, Locke et Rousseau au réalisme de Machiavel, des grandes familles idéologiques, libéralisme, socialisme, anarchisme, communautarisme, au débat contemporain entre le voile d'ignorance de Rawls et l'État minimal de Nozick, en passant par l'analyse du pouvoir chez Foucault.
 
-**Logiques Non-Classiques**
+La **philosophie de l'esprit** (*voir [[Philosophie de l'Esprit]]*) se demande comment un cerveau physique peut produire une expérience subjective. Au dualisme de Descartes s'opposent le physicalisme et le fonctionnalisme ; David Chalmers appelle « problème difficile » celui des qualia, ce que cela fait de voir du rouge, et imagine des « zombies » philosophiques qui se comporteraient comme nous sans rien ressentir. L'expérience de la chambre chinoise de Searle conteste qu'un programme puisse comprendre ce qu'il manipule, question devenue brûlante avec l'intelligence artificielle, et la question de l'identité personnelle à travers le temps, posée par Locke, a été renouvelée par Derek Parfit.
 
-*Logique Modale*
-- **Modalités** : Nécessaire (□), Possible (◇)
-- **Exemple** : □(2+2=4) - nécessairement vrai
-- Applications : Métaphysique, éthique, épistémologie
+La **philosophie du langage** (*voir [[Philosophie du Langage]]*) étudie la manière dont les mots signifient et désignent les choses : la distinction entre le sens et la référence chez Frege, la théorie des descriptions de Russell, les « jeux de langage » du second Wittgenstein, pour qui le sens d'un mot est son usage, les actes de langage d'Austin et de Searle, qui montrent qu'on fait des choses en parlant, ou la théorie des noms propres de Kripke.
 
-*Logique Intuitionniste*
-- Rejet tiers-exclu
-- Brouwer : Mathématiques constructivistes
-
-*Logiques Floues*
-- Degrés vérité (0-1, pas seulement vrai/faux)
-- Applications : IA, contrôle
-
-*Logique Paraconsistante*
-- Tolère contradictions (sans explosion logique)
-
-**Fallacies (Sophismes)**
-
-*Formelles*
-- **Affirmation Conséquent** : Si A→B et B, donc A (invalide)
-- **Négation Antécédent** : Si A→B et ¬A, donc ¬B (invalide)
-
-*Informelles*
-- **Ad Hominem** : Attaque personne, pas argument
-- **Appel Autorité** : X dit donc vrai (si X pas expert pertinent)
-- **Pente Glissante** : A → B → ... → Z (sans justification enchaînement)
-- **Faux Dilemme** : Seulement 2 options (alors qu'il y en a plus)
-- **Pétition de Principe** : Conclusion dans prémisses (circulaire)
-- **Généralisation Hâtive** : Échantillon insuffisant
-- **Post Hoc** : Corrélation ≠ causalité
-
-**Paradoxes**
-
-*Paradoxe du Menteur*
-- "Cette phrase est fausse" (vraie si fausse, fausse si vraie)
-- Tarski : Hiérarchie langages
-
-*Paradoxe de Russell*
-- Ensemble de tous ensembles ne se contenant pas
-- Crise fondements mathématiques
-
-*Paradoxe Sorite*
-- Tas sable : Enlever grain, toujours tas ? (vague)
-
-
-### Philosophie Politique
-
-*Voir le développement complet : [[Philosophie Politique]]*
-
-**Définition**
-Fondements légitimes du pouvoir et de l'organisation collective : pourquoi obéir à l'État ? Qu'est-ce qu'une société juste ?
-
-**Questions Centrales**
-- Contrat social : Hobbes, Locke, Rousseau
-- Justice : Rawls (voile d'ignorance) vs Nozick (État minimal)
-- Grandes familles idéologiques : libéralisme, socialisme, anarchisme, communautarisme
-- Légitimité de la démocratie, pouvoir chez Foucault, réalisme chez Machiavel
-
-
-### Philosophie de l'Esprit
-
-*Voir le développement complet : [[Philosophie de l'Esprit]]*
-
-**Définition**
-Nature de la conscience et rapport esprit-corps : comment un cerveau physique produit-il une expérience subjective ?
-
-**Questions Centrales**
-- Dualisme (Descartes) vs physicalisme vs fonctionnalisme
-- Le problème difficile de la conscience (Chalmers), qualia, zombies philosophiques
-- Chambre chinoise (Searle), intentionnalité, intelligence artificielle
-- Identité personnelle à travers le temps (Locke, Parfit)
-
-
-### Philosophie du Langage
-
-*Voir le développement complet : [[Philosophie du Langage]]*
-
-**Définition**
-Comment les mots signifient et réfèrent : rapport entre langage, pensée et monde.
-
-**Questions Centrales**
-- Sens et référence (Frege), théorie des descriptions (Russell)
-- Jeux de langage et usage (second Wittgenstein)
-- Actes de langage (Austin, Searle), noms propres et nécessité (Kripke)
-
-
-### Philosophie de la Religion
-
-*Voir le développement complet : [[Philosophie de la Religion]]*
-
-**Définition**
-Examen rationnel de la croyance religieuse : Dieu existe-t-il ? Comment concilier un Dieu bon et le mal ?
-
-**Questions Centrales**
-- Preuves de l'existence de Dieu (ontologique, cosmologique, téléologique, morale) et leurs critiques
-- Le problème du mal et les théodicées
-- Foi et raison : fidéisme (Pascal, [[Kierkegaard]]) vs rationalisme théiste (Thomas d'Aquin)
-
+La **philosophie de la religion** (*voir [[Philosophie de la Religion]]*) soumet la croyance religieuse à l'examen rationnel. Elle discute les preuves de l'existence de Dieu, ontologique, cosmologique, téléologique ou morale, et leurs réfutations ; elle affronte le problème du mal, qui demande comment concilier un Dieu bon et tout-puissant avec la souffrance du monde ; elle oppose le fidéisme de Pascal et de [[Kierkegaard]], pour qui la foi dépasse la raison, au rationalisme théiste de Thomas d'Aquin, pour qui la raison peut démontrer une partie de ce que la foi enseigne.

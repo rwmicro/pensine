@@ -8,13 +8,7 @@ prerequis: ["[[Stoïcisme]]", "[[Utilitarisme]]"]
 ---
 # Universalisme Moral
 
-## Définition
-
-L'**universalisme moral** est la position éthique selon laquelle il existe des principes moraux **valables universellement**, pour tous les êtres humains, en tout temps et en tout lieu, indépendamment de la culture, de la religion ou des circonstances particulières.
-
-**Principe central:** Certaines vérités morales sont **objectives** et **universelles**.
-
-## Chronologie
+Au procès de Nuremberg, en 1945 et 1946, les dignitaires nazis invoquent pour leur défense qu'ils ont obéi aux lois de leur pays et aux ordres de leurs supérieurs. Le tribunal refuse cet argument : il existe des **crimes contre l'humanité**, condamnables quelles que soient les lois en vigueur dans l'État où ils ont été commis. Ce jugement repose sur une conviction philosophique, l'**universalisme moral** : certains principes moraux valent pour tous les êtres humains, en tout temps et en tout lieu, indépendamment de la culture, de la religion ou des circonstances. Certaines vérités morales seraient objectives et universelles.
 
 ```mermaid
 timeline
@@ -34,7 +28,9 @@ timeline
         2005 : L'ONU adopte la responsabilité de protéger
 ```
 
-## Opposition: Universalisme vs Relativisme
+## Universalisme et relativisme
+
+L'universalisme s'oppose au **relativisme moral**, pour qui chaque culture définit sa propre morale, si bien qu'aucune ne peut légitimement juger les autres.
 
 | Universalisme Moral | Relativisme Moral |
 |:--|:--|
@@ -46,314 +42,57 @@ timeline
 > [!important] Idée clé
 > Le vrai clivage n'est pas "y a-t-il des règles morales partagées entre cultures" (empiriquement, oui — cf. Donald Brown plus bas) mais "ces règles partagées sont-elles vraies indépendamment de nous, ou juste des convergences accidentelles". L'universalisme est une thèse sur le **statut** de la morale (objective vs conventionnelle), pas une thèse sur la **fréquence** de l'accord moral.
 
-## Fondements de l'Universalisme
+## Les fondements possibles
 
-### 1. Universalisme Religieux
+Le fondement le plus ancien est **religieux** : des commandements divins valables pour tous. Le judaïsme connaît ainsi, à côté de la loi de Moïse réservée au peuple juif, sept lois « noachides », données à Noé et censées s'imposer à toute l'humanité. Le christianisme et l'islam se veulent eux aussi des morales universelles. La difficulté est évidente : laquelle choisir, et comment convaincre ceux qui n'ont pas la foi ?
 
-**Base:** Commandements divins valables pour tous
+Au XIIIe siècle, Thomas d'Aquin propose un fondement accessible à tous par la raison : la **loi naturelle**, inscrite dans la nature humaine par le Créateur. Tout homme peut reconnaître par lui-même qu'il est bon de préserver sa vie, de fonder une famille, de vivre en société et de chercher la vérité, et en tirer des règles valables pour tous.
 
-**Exemples:**
-- **Christianisme:** Dix Commandements, Règle d'or ("Aime ton prochain")
-- **Islam:** Loi divine (Sharia) universelle
-- **Judaïsme:** Lois noachides pour non-Juifs (7 commandements universels)
+[[Kant]] (1724-1804) en propose une version purement rationnelle, qui fait de lui la figure centrale de l'universalisme moral. La loi morale ne vient ni de Dieu ni de la nature, mais de la raison elle-même, et elle s'impose à tout être raisonnable. Elle prend la forme d'un **impératif catégorique**, c'est-à-dire inconditionnel : non pas « si tu veux être aimé, sois honnête », mais « sois honnête », sans condition. Kant le formule de plusieurs façons. La première est un test d'universalisation : « Agis uniquement d'après la maxime qui fait que tu peux vouloir en même temps qu'elle devienne une loi universelle. » Si tout le monde mentait dès que cela l'arrange, plus personne ne croirait les promesses, et le mensonge lui-même deviendrait impossible : ne pas mentir est donc un devoir universel. La deuxième exige le respect de la **dignité** de chacun : « Agis de telle sorte que tu traites l'humanité, aussi bien dans ta personne que dans la personne de tout autre, toujours en même temps comme une fin, et jamais simplement comme un moyen. » La troisième fait de chacun un législateur moral : il faut agir comme si l'on était membre d'un « règne des fins », une communauté d'êtres raisonnables qui se donnent à eux-mêmes leurs lois. Cette morale est a priori, connue par la raison avant toute expérience, et ne souffre aucune exception.
 
-**Problème:** Quelle religion? Nécessite foi préalable.
-
-### 2. Universalisme Rationnel (Kant)
-
-**Emmanuel Kant (1724-1804)** - Figure centrale de l'universalisme moral
-
-**Impératif Catégorique** (formulations):
-
-**a) Formule de la loi universelle:**
-> "Agis uniquement d'après la maxime qui fait que tu peux vouloir en même temps qu'elle devienne une loi universelle."
-
-**Test:** Puis-je vouloir que tout le monde agisse selon cette règle?
-- Mentir: Si tout le monde mentait, personne ne se fierait aux promesses → contradiction
-- Donc: Ne pas mentir est un devoir universel
-
-**b) Formule de l'humanité:**
-> "Agis de telle sorte que tu traites l'humanité, aussi bien dans ta personne que dans la personne de tout autre, toujours en même temps comme une fin, jamais simplement comme un moyen."
-
-**Signification:** Respecter la **dignité** de chaque personne
-- Ne pas instrumentaliser autrui
-- Chaque humain a valeur intrinsèque
-
-**c) Formule de l'autonomie:**
-> "Agis comme si tu étais législateur dans un royaume des fins."
-
-**Signification:** Lois morales que nous nous donnons rationnellement à nous-mêmes
-
-**Caractéristiques morales kantiennes:**
-- **A priori** (avant l'expérience, par raison pure)
-- **Catégorique** (inconditionnelle, pas de "si...")
-- **Universelle** (même loi pour tous les êtres rationnels)
-- **Nécessaire** (pas de exceptions)
+L'**utilitarisme** de Jeremy Bentham et de John Stuart Mill est universaliste d'une autre manière. Son principe, « le plus grand bonheur pour le plus grand nombre », est impartial : « chacun compte pour un, et personne pour plus d'un », par-delà les frontières, les classes et même les espèces (voir [[Utilitarisme]]).
 
 > [!warning] Piège
 > Ne pas confondre l'universalisme kantien avec l'universalisme utilitariste (section 4 plus bas) : les deux disent "valable pour tous", mais Kant universalise la **règle d'action** (le devoir), l'utilitarisme universalise le **calcul des conséquences** (le bien-être). Un même acte peut donc être universellement interdit chez Kant et universellement permis chez Bentham — l'universalisme n'est pas une école unique, c'est une exigence formelle que plusieurs théories rivales remplissent chacune à leur façon.
 
-### 3. Universalisme des Droits Humains
+Après la Seconde Guerre mondiale, ces traditions convergent dans les **droits humains**. La Déclaration universelle des droits de l'homme, adoptée par l'ONU en 1948, proclame des droits inaliénables, attachés à la dignité et à l'égalité de tous, indépendamment de la nationalité, de la culture ou de la religion : le droit à la vie, l'interdiction de la torture et de l'esclavage, la liberté de pensée et d'expression, l'égalité devant la loi. Elle hérite directement des Lumières, de Locke, de Rousseau et de Kant.
 
-**Déclaration Universelle des Droits de l'Homme (ONU, 1948)**
+## Les arguments en faveur de l'universalisme
 
-**Principes:**
-- Droits **inaliénables** de tous les êtres humains
-- Dignité et égalité fondamentales
-- Indépendants de la culture, nationalité, religion
+Certaines intuitions semblent partagées par tous : torturer un enfant pour le plaisir est mal, trahir ceux qui nous font confiance est mal, aider ceux qui sont dans le besoin est bien. L'anthropologue américain Donald Brown a dressé en 1991 une liste d'« universaux humains » observés dans toutes les sociétés connues, parmi lesquels l'interdiction du meurtre et de l'inceste, la réciprocité ou un sens de l'équité, ce qui suggère un fondement biologique commun. Kant ajoute un argument de principe : si les mathématiques valent pour tous parce qu'elles sont rationnelles, la morale peut l'être aussi. L'idée de **dignité** humaine, enfin, attachée à l'humanité de chacun et non à sa culture ou à sa religion, exige un respect universel.
 
-**Exemples de droits universels:**
-- Droit à la vie
-- Interdiction torture et esclavage
-- Liberté de pensée et expression
-- Égalité devant la loi
+L'argument le plus fort est peut-être négatif. Sans universalisme, comment condamner l'esclavage, le génocide ou la torture ? Ils ne seraient que des « différences culturelles », et il deviendrait impossible de dire qu'une pratique est objectivement mauvaise.
 
-**Base philosophique:** Tradition des Lumières (Locke, Kant, Rousseau)
+## Les objections
 
-### 4. Universalisme Utilitariste
+Les anthropologues ont d'abord souligné la **diversité** des morales : ce qui est honorable ici est honteux ailleurs, et des sociétés ont admis le cannibalisme rituel, le sacrifice humain ou l'esclavage. Les universalistes répondent que les principes fondamentaux restent les mêmes et que seule leur application varie. La critique **postcoloniale** va plus loin : ce qu'on appelle « universel » serait souvent l'exportation des valeurs occidentales, et les droits individuels, nés des Lumières européennes, nieraient la légitimité de traditions plus communautaires, comme celles que certains gouvernements asiatiques ont invoquées sous le nom de « valeurs asiatiques ». L'universalisme a d'ailleurs servi à justifier la colonisation au nom d'une « mission civilisatrice », en classant les cultures en primitives et civilisées.
 
-**Jeremy Bentham, John Stuart Mill**
+Reste le problème de la **justification**. Comment prouver qu'un principe est vraiment universel ? L'intuition est subjective, la raison kantienne présupposerait une rationalité occidentale, Dieu suppose de choisir une religion, et la nature humaine est un concept contesté. Les désaccords persistent d'ailleurs entre universalistes eux-mêmes, sur l'avortement, l'euthanasie, la peine de mort ou les droits des animaux. Si des vérités morales universelles existaient, ne devrait-on pas s'accorder davantage ?
 
-**Principe:** "Le plus grand bonheur pour le plus grand nombre"
+## Universalisme fort et universalisme faible
 
-**Universel car:**
-- "Chacun compte pour un, personne pour plus d'un" (Bentham)
-- Bonheur/souffrance comptent également pour tous
-- Principe impartial, transcendant les frontières
+Ces objections ont conduit à distinguer plusieurs degrés d'universalisme. L'**universalisme fort**, celui de Kant, défend des règles précises et sans exception : ne jamais torturer, ne jamais mentir, même pour sauver une vie. L'**universalisme faible** se contente de principes généraux, comme le respect de la dignité humaine, dont l'application varie selon les contextes. Il est plus plausible et moins impérialiste, mais guide moins l'action et laisse place à des interprétations contradictoires.
 
-**Différence avec Kant:**
-- Kant: Actes universels en soi (devoir)
-- Utilitarisme: Conséquences universellement mesurables (bien-être)
-
-### 5. Universalisme de la Loi Naturelle
-
-**Thomas d'Aquin, tradition catholique**
-
-**Principe:** Loi morale inscrite dans la **nature humaine** par Dieu/raison
-- Accessible par raison naturelle (pas seulement révélation)
-- Valable pour tous car basée sur nature humaine universelle
-
-**Exemples:**
-- Préserver sa vie
-- Se reproduire (famille)
-- Vivre en société
-- Chercher la vérité
-
-## Arguments Pour l'Universalisme
-
-### 1. Intuitions Morales Communes
-
-Certaines intuitions semblent **universelles**:
-- Torturer des enfants pour le plaisir est mal
-- Trahir ceux qui nous font confiance est mal
-- Aider ceux dans le besoin est bien
-
-**Argument:** Si toutes les cultures convergent, suggère vérité objective.
-
-### 2. Argument de la Raison
-
-**Kant:** Être rationnel = reconnaître lois universelles
-- Mathématiques sont universelles car rationnelles
-- Morale aussi peut être rationnellement universelle
-
-### 3. Dignité Humaine
-
-**Argument:** Tous les humains ont dignité **intrinsèque**
-- Pas basée sur culture, race, religion
-- Simplement par leur humanité
-- Exige respect universel
-
-### 4. Critère de Jugement
-
-Sans universalisme moral:
-- Comment critiquer esclavage, génocide, torture?
-- Seraient juste "différences culturelles"
-- Impossible de dire qu'une pratique est objectivement mauvaise
-
-### 5. Évolution et Convergence
-
-**Études anthropologiques** (Donald Brown, "Human Universals"):
-- Concepts moraux de base présents partout
-- Interdiction meurtre, inceste
-- Réciprocité, équité
-- Suggère fondement biologique/évolutif universel
-
-## Arguments Contre l'Universalisme
-
-### 1. Diversité Culturelle Radicale
-
-**Anthropologie:**
-- Pratiques morales varient énormément
-- Ce qui est honorable ici est honteux ailleurs
-- Cannibalisme rituel, sacrifice humain, esclavage acceptés dans certaines cultures
-
-**Objection universaliste:** Variation dans **application**, pas dans principes fondamentaux.
-
-### 2. Impérialisme Moral
-
-**Critique postcoloniale:**
-- "Universel" = souvent valeurs occidentales imposées
-- Droits humains = exportation Lumières européennes
-- Nie légitimité d'autres traditions morales
-
-**Exemple:** Droits individuels vs valeurs communautaires asiatiques
-
-### 3. Problème de la Justification
-
-**Comment prouver** qu'un principe est vraiment universel?
-- Intuition? Subjective
-- Raison? Kant présuppose rationalité occidentale
-- Dieu? Quelle religion?
-- Nature humaine? Concept contesté
-
-### 4. Désaccords Persistants
-
-**Problèmes moraux** où même philosophes universalistes divergent:
-- Avortement
-- Euthanasie
-- Peine de mort
-- Droits des animaux
-
-Si universalisme était vrai, ne devrait-il pas y avoir consensus?
-
-### 5. Évolutionnisme Moral Dangereux
-
-**Risque:** Classer cultures sur échelle "primitives" vs "civilisées"
-- Justification colonialisme ("mission civilisatrice")
-- Ethnocentrisme déguisé en objectivité
-
-## Universalisme Modéré vs Radical
-
-### Universalisme Radical (Kant)
-
-- Règles **absolues** sans exceptions
-- Même mentir pour sauver une vie est interdit
-- Devoirs stricts, inconditionnels
-
-### Universalisme Modéré (Rawls, Habermas)
-
-- Principes universels **procéduraux** plutôt que substantiels
-- **Consensus par recoupement** entre traditions différentes
-- Dialogue interculturel pour dégager universaux
-
-**Exemple (Rawls):** Tous peuvent s'accorder sur:
-- Liberté de conscience
-- Égalité fondamentale
-- Droits basiques
-
-Sans imposer conception complète du bien.
+Les philosophes contemporains comme John Rawls et Jürgen Habermas défendent un universalisme **procédural**. Dans *Libéralisme politique* (1993), Rawls cherche un **consensus par recoupement** : des traditions religieuses et philosophiques différentes peuvent s'accorder sur quelques principes, la liberté de conscience, l'égalité fondamentale, des droits de base, sans partager la même conception de la vie bonne. Habermas fonde la morale sur une éthique de la discussion : sont valables les normes que tous les intéressés pourraient accepter au terme d'un dialogue libre. La philosophe américaine Martha Nussbaum défend enfin une liste de **capabilités** humaines fondamentales, ce que chacun doit pouvoir être et faire pour mener une vie digne.
 
 > [!tip] Méthode
 > Face à un cas concret (voile, excision, peine de mort...), se demander systématiquement : est-ce que je défends une règle **substantielle** précise (universalisme fort, façon Kant) ou une **procédure** minimale de dialogue (universalisme faible, façon Rawls/Habermas) ? La plupart des désaccords entre universalistes viennent de ce qu'ils ne se situent pas au même niveau — pas d'un vrai désaccord sur le fond.
 
-## Applications Pratiques
+Michael Walzer et Charles Taylor proposent un **universalisme pluraliste** : une morale « mince » de quelques interdits universels, contre la torture ou le génocide, et une large place pour la diversité des morales « épaisses » propres à chaque culture, à affiner par le dialogue. Leurs critiques se demandent si c'est encore de l'universalisme ou un relativisme qui ne dit pas son nom.
 
-### 1. Droit International
+## La règle d'or
 
-**Tribunaux Internationaux:**
-- Tribunal de Nuremberg (crimes contre l'humanité)
-- TPI (Tribunal Pénal International)
-- Présuppose: crimes universellement punissables
+L'argument le plus souvent avancé en faveur de l'universalisme est la présence, dans presque toutes les grandes traditions religieuses et morales, d'une même **règle d'or**. Le christianisme commande : « Aime ton prochain comme toi-même. » Le judaïsme, selon le sage Hillel : « Ce qui t'est haïssable, ne le fais pas à ton prochain. » Un hadith de l'islam affirme : « Nul d'entre vous n'est croyant s'il ne désire pour son frère ce qu'il désire pour lui-même. » Le bouddhisme invite à ne pas blesser autrui de la manière dont on ne voudrait pas être blessé, l'hindouisme à ne pas faire aux autres ce qui nous causerait de la peine, et le [[Confucianisme]] à ne pas faire à autrui ce qu'on ne voudrait pas qu'on nous fasse. Mais ces mêmes religions divergent sur l'avortement, l'homosexualité ou la place des femmes : un même principe de dignité peut conduire à des conclusions opposées.
 
-**Génocide** défini universellement comme crime absolu.
+## Les applications
 
-### 2. Intervention Humanitaire
+L'universalisme moral est au fondement du **droit international pénal**, du tribunal de Nuremberg à la Cour pénale internationale : le génocide et les crimes contre l'humanité y sont punissables partout. Il inspire la **responsabilité de protéger**, adoptée par l'ONU en 2005, qui autorise la communauté internationale à intervenir quand un État commet des atrocités contre sa population ; on lui reproche son application sélective et la question de savoir qui décide. Il traverse les débats de **bioéthique** : faut-il des règles universelles, comme l'interdiction du clonage reproductif humain, ou laisser chaque pays décider ? Il est enfin au cœur des débats sur les **droits des femmes**, où les universalistes défendent partout l'accès à l'éducation, le vote et l'égalité, face à ceux qui invoquent les traditions culturelles, à propos de l'excision, du mariage forcé ou du voile.
 
-**Responsabilité de Protéger (R2P):**
-- Justifie intervention si État commet atrocités
-- Basé sur droits humains universels
-- Controversé: Qui décide? Hypocrisie sélective?
-
-### 3. Questions Bioéthiques
-
-**Clonage, euthanasie, avortement:**
-- Peut-on établir règles universelles?
-- Ou laisser chaque pays décider?
-
-**Universalisme suggère:** Certaines limites universelles (ex: pas de clonage reproductif humain)
-
-### 4. Droits des Femmes
-
-**Débat:**
-- **Universalistes:** Droits des femmes sont universels (éducation, vote, égalité)
-- **Relativistes culturels:** Chaque culture définit rôles de genre
-
-**Tensions:** Voile islamique, excision, mariage arrangé
-- Pratiques culturelles vs droits universels?
-
-## Universalisme et Religion
-
-### Convergence
-
-**Règle d'Or** présente dans toutes les grandes religions:
-- Christianisme: "Aime ton prochain comme toi-même"
-- Judaïsme: "Ce qui t'est haïssable, ne le fais pas à autrui"
-- Islam: "Nul n'est croyant s'il ne désire pour son frère ce qu'il désire pour lui-même"
-- Bouddhisme: "Ne blesse pas autrui comme tu ne voudrais pas être blessé"
-- Hindouisme: "Ne fais pas aux autres ce qui te causerait de la peine"
-- [[Confucianisme]]: "Ne fais pas à autrui ce que tu ne voudrais pas qu'on te fasse"
-
-**Argument:** Convergence religieuse suggère vérité morale universelle.
-
-### Divergence
-
-Religions divergent sur applications:
-- Avortement, homosexualité, rôle des femmes
-- Même principe (dignité humaine) → conclusions différentes
-
-## Universalisme Faible vs Fort
-
-### Universalisme Fort
-
-- Règles **précises** universelles
-- Peu d'exceptions
-- Ex: "Jamais torturer" (Kant)
-
-### Universalisme Faible
-
-- Principes **généraux** universels
-- Application flexible selon contexte
-- Ex: "Respecter dignité humaine" (interprétations variables)
-
-**Avantage faible:** Plus plausible, moins impérialiste
-**Désavantage faible:** Moins guidant, permet trop d'interprétations
-
-## Philosophes Universalistes Majeurs
-
-- **Emmanuel Kant** - Impératif catégorique, devoir universel
-- **John Rawls** - Théorie de la justice, consensus par recoupement
-- **Jürgen Habermas** - Éthique de la discussion, principes procéduraux
-- **Thomas d'Aquin** - Loi naturelle
-- **John Stuart Mill** - Utilitarisme universel
-- **Martha Nussbaum** - Capabilités humaines universelles
-
-## Synthèse Possible?
-
-**Universalisme pluraliste** (Michael Walzer, Charles Taylor):
-- Principes **minimaux** universels (contre torture, génocide)
-- **Espace** pour diversité culturelle dans applications
-- Dialogue interculturel pour affiner universaux
-
-**Critique:** Est-ce encore de l'universalisme ou un relativisme déguisé?
-
-## Conclusion
-
-L'universalisme moral affirme l'existence de vérités morales objectives et universelles. Position puissante pour:
-- Défendre droits humains
-- Critiquer injustices partout
-- Fonder dignité humaine
-
-Mais défis:
-- Diversité culturelle réelle
-- Risque d'impérialisme
-- Difficulté de justification ultime
-
-**Question ouverte:** Peut-on être universaliste sans être dogmatique? Respecter différences culturelles tout en affirmant valeurs universelles?
+Peut-on être universaliste sans être dogmatique, et respecter les différences culturelles tout en affirmant des valeurs valables pour tous ? C'est la question que l'universalisme moral laisse ouverte.
 
 ## Ressources
 
-- **Livre classique:** *Fondements de la métaphysique des mœurs* - Emmanuel Kant
-- **Livre moderne:** *Théorie de la justice* - John Rawls
-- **Débat:** *Universalisme vs Relativisme* - Stanford Encyclopedia
-- **Article:** [Moral Universalism](https://plato.stanford.edu/entries/moral-relativism/)
-- **Auteur:** Martha Nussbaum - *Creating Capabilities*
+- Emmanuel Kant, *Fondements de la métaphysique des mœurs* (1785) : le texte classique.
+- John Rawls, *Théorie de la justice* (1971).
+- Martha Nussbaum, *Creating Capabilities* (2011).
+- Stanford Encyclopedia of Philosophy : [Moral Relativism](https://plato.stanford.edu/entries/moral-relativism/), qui expose le débat entre universalisme et relativisme.

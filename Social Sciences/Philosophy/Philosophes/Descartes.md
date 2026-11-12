@@ -10,34 +10,13 @@ wikidata: Q9191
 
 # René Descartes (1596-1650)
 
-## Biographie
+Le 10 novembre 1619, un jeune gentilhomme français de vingt-trois ans, engagé dans l'armée du duc de Bavière, attend la fin de l'hiver dans un village près d'Ulm. Il passe la journée seul, enfermé dans une pièce chauffée par un poêle, à méditer. La nuit, il fait trois rêves qu'il interprète comme un signe : il doit consacrer sa vie à fonder une science nouvelle, entièrement certaine, sur le modèle des mathématiques. Dix-huit ans plus tard, il publie le *Discours de la méthode*, qui s'ouvre sur une phrase ironique devenue proverbiale : « Le bon sens est la chose du monde la mieux partagée. » Tout le monde a la raison ; ce qui manque, c'est la méthode pour bien la conduire. **René Descartes** passe pour le père de la philosophie moderne, parce qu'il a voulu tout reconstruire à partir de la seule certitude du sujet qui pense.
 
-**René Descartes** est né le 31 mars 1596 à La Haye-en-Touraine (aujourd'hui Descartes, France) et mort le 11 février 1650 à Stockholm, Suède.
+## Une vie de savant voyageur
 
-### Vie
+Descartes naît en 1596 à La Haye, en Touraine, une ville qui porte aujourd'hui son nom. Élève des jésuites au collège de La Flèche, l'un des meilleurs d'Europe, il en sort déçu : de tout ce qu'on lui a enseigné, seules les mathématiques lui semblent certaines, et la philosophie scolastique héritée d'Aristote ne contient, dit-il, rien dont on ne dispute. Après une licence de droit à Poitiers, il décide de chercher la science « dans le grand livre du monde » : il voyage, s'engage dans les armées, rencontre le savant hollandais Isaac Beeckman qui le pousse vers la physique mathématique.
 
-**Formation :**
-- Éducation jésuite au collège royal de La Flèche (1607-1615)
-- Formation exceptionnelle en mathématiques, philosophie scolastique, sciences
-- Études de droit à Poitiers (1616)
-
-**Parcours :**
-- **1618-1628** : Voyages en Europe (Hollande, Allemagne, Italie), engagement militaire
-- **1628-1649** : Installation aux Pays-Bas (liberté intellectuelle, évite censure catholique française)
-- **1649** : Invitation de la reine Christine de Suède à Stockholm
-- **1650** : Mort de pneumonie à Stockholm (leçons de philosophie à 5h du matin en hiver)
-
-**Anecdote légendaire :**
-- **10 novembre 1619** : "Nuit des rêves" - trois rêves révélateurs qui orientent sa philosophie vers la mathématisation du savoir
-
-### Contexte Historique
-
-- **Révolution scientifique** : Galilée (1564-1642), Copernic, Kepler
-- **Guerres de religion** : Guerre de Trente Ans (1618-1648)
-- **Scepticisme philosophique** : Montaigne, remise en question des certitudes
-- **Essor des mathématiques** : Algèbre, géométrie analytique
-
-## Œuvres Majeures
+En 1628, il s'installe aux Pays-Bas, où il vivra plus de vingt ans en changeant souvent d'adresse, pour la tranquillité et la liberté qu'offre ce pays protestant. En 1633, apprenant la condamnation de Galilée, il renonce à publier *Le Monde*, son traité de physique qui défendait le mouvement de la Terre ; il ne paraîtra qu'après sa mort. Sa devise de jeunesse, *larvatus prodeo*, « j'avance masqué », dit cette prudence. En 1649, la reine Christine de Suède l'invite à Stockholm. Elle exige ses leçons de philosophie à cinq heures du matin, en plein hiver nordique ; Descartes y meurt d'une pneumonie en février 1650.
 
 | Œuvre | Année | Langue | Thème principal |
 |-------|-------|--------|----------------|
@@ -48,131 +27,39 @@ wikidata: Q9191
 | **Les Passions de l'âme** | 1649 | Français | Psychologie, émotions |
 | **Le Monde** (censuré) | ~1633 (posthume) | Français | Cosmologie héliocentrique |
 
-**Particularité :** Descartes écrit en **français** (pas seulement en latin) pour toucher un public plus large, révolutionnaire à l'époque.
+Descartes écrit une partie de son œuvre en français, et non dans le latin des savants, pour être lu « de ceux qui ne se servent que de leur raison naturelle toute pure », y compris des femmes qui n'avaient pas étudié le latin. Le choix est alors audacieux.
 
-## Le Projet Cartésien : Fonder une Science Certaine
+## La méthode
 
-### Le Problème du Scepticisme
+Le *Discours* raconte comment Descartes, insatisfait du savoir reçu, a résolu de ne bâtir que « dans un fonds qui est tout à moi ». Il se donne quatre règles, inspirées de la démarche des géomètres. La première est l'**évidence** : « ne recevoir jamais aucune chose pour vraie que je ne la connusse évidemment être telle », c'est-à-dire n'admettre que ce qui se présente à l'esprit si clairement et si distinctement qu'on n'a aucune occasion d'en douter. La deuxième est l'**analyse** : diviser chaque difficulté « en autant de parcelles qu'il se pourrait ». La troisième est la **synthèse** : conduire ses pensées par ordre, des objets les plus simples aux plus composés, « comme par degrés ». La dernière est le **dénombrement** : faire des revues si complètes qu'on soit assuré de ne rien omettre. Ces règles, très simples en apparence, décrivent l'idéal d'une connaissance qui avance pas à pas, sans rien laisser au hasard ni à l'autorité.
 
-**Contexte :** 
-- Découvertes scientifiques bouleversent les certitudes (héliocentrisme vs. géocentrisme)
-- Sceptiques (Montaigne) : "Que sais-je ?" - Doute de toute connaissance
-- Descartes veut **dépasser le scepticisme** en trouvant une certitude absolue
+## Le doute méthodique
 
-**Objectif de Descartes :**
-> "Je veux bâtir sur un fondement qui soit entièrement à moi, et fonder une science certaine et évidente."
+Pour trouver une certitude absolue, Descartes décide, dans les *Méditations métaphysiques* (1641), de rejeter comme faux tout ce qui peut faire l'objet du moindre doute. Ce doute n'est pas celui des sceptiques, qui doutent pour douter : c'est un instrument, que Descartes pousse volontairement jusqu'à l'exagération, d'où le nom de **doute hyperbolique**.
 
-## La Méthode Cartésienne
+Il procède par étapes. Les sens nous trompent parfois, une tour carrée paraît ronde de loin ; or il n'est pas prudent de se fier à qui nous a trompés une fois. On objectera qu'il serait fou de douter que je suis assis près du feu, en robe de chambre, ce papier entre les mains. Mais combien de fois ai-je rêvé que j'étais ainsi, alors que j'étais couché dans mon lit ? Il n'y a pas d'indice sûr pour distinguer la veille du sommeil : le monde extérieur lui-même devient douteux. Restent les vérités mathématiques, car que je veille ou que je dorme, deux et trois font cinq. Descartes imagine alors l'hypothèse la plus radicale : « Je supposerai qu'un certain mauvais génie, non moins rusé et trompeur que puissant, a employé toute son industrie à me tromper. » Même les mathématiques tombent sous le doute.
 
-### Les Quatre Règles du *Discours de la méthode* (1637)
+## Je pense, donc je suis
 
-#### 1. Règle de l'Évidence
-> "Ne recevoir jamais aucune chose pour vraie que je ne la connusse évidemment être telle."
-
-**Principe :** N'accepter que ce qui est **clair et distinct** à l'esprit.
-
-#### 2. Règle de l'Analyse
-> "Diviser chacune des difficultés que j'examinerais en autant de parcelles qu'il se pourrait et qu'il serait requis pour les mieux résoudre."
-
-**Principe :** Décomposer les problèmes complexes en éléments simples.
-
-#### 3. Règle de la Synthèse
-> "Conduire par ordre mes pensées, en commençant par les objets les plus simples et les plus aisés à connaître, pour monter peu à peu, comme par degrés, jusques à la connaissance des plus composés."
-
-**Principe :** Reconstruire la connaissance du simple au complexe.
-
-#### 4. Règle du Dénombrement
-> "Faire partout des dénombrements si entiers et des revues si générales que je fusse assuré de ne rien omettre."
-
-**Principe :** Vérifier qu'on n'a rien oublié.
-
-**Influence :** Ces règles inspirent la **méthode scientifique** moderne.
-
-## Le Doute Méthodique
-
-### Stratégie Philosophique
-
-Descartes utilise le **doute hyperbolique** (exagéré) comme **outil** pour trouver une certitude absolue.
-
-### Les Trois Vagues de Doute (*Méditations métaphysiques*)
-
-#### 1. Doute des Sens
-**Argument :** Nos sens nous trompent parfois (illusions d'optique, mirages, bâton cassé dans l'eau).
-
-**Conséquence :** On ne peut **pas se fier entièrement aux sens**.
-
-**Exemple :**
-- La tour carrée vue de loin paraît ronde
-- Le soleil semble petit, mais est immense
-
-#### 2. Argument du Rêve
-**Argument :** Quand je rêve, je crois que c'est réel. Comment savoir si je ne rêve pas **maintenant** ?
-
-**Conséquence :** Impossible de distinguer avec certitude veille et rêve.
-
-**Remise en question :** Même l'existence du monde extérieur est douteuse.
-
-**Mais :** Même en rêve, **2+2=4** reste vrai → Les mathématiques semblent certaines.
-
-#### 3. Hypothèse du Malin Génie (Dieu Trompeur)
-**Argument :** Et si un **démon malin** me trompait sur **tout**, même sur les mathématiques ?
-
-> "Je supposerai qu'un certain mauvais génie, non moins rusé et trompeur que puissant, a employé toute son industrie à me tromper."
-
-**Conséquence :** **Tout** devient douteux, même les vérités mathématiques.
-
-**Paradoxe :** C'est le doute le plus radical possible.
-
-## Le *Cogito* : La Première Certitude
-
-### Découverte Fondamentale
-
-Face au doute absolu, Descartes trouve **une certitude inébranlable** :
-
-> **"Je pense, donc je suis"**  
-> (Latin : *"Cogito, ergo sum"*)
-
-### Raisonnement
-
-1. Je peux douter de tout (corps, monde, mathématiques)
-2. **Mais pour douter, je dois penser**
-3. **Pour penser, je dois exister**
-4. Donc, même si le malin génie me trompe, **je suis certain que j'existe** en tant que chose pensante
-
-**Formulation complète :**
-> "Je pense, donc je suis, est si ferme et si assurée que toutes les plus extravagantes suppositions des sceptiques ne sont pas capables de l'ébranler."
-
-### Conséquences du *Cogito*
-
-| Aspect | Explication |
-|--------|-------------|
-| **Certitude première** | Fondement de toute connaissance |
-| **Primauté de la pensée** | Je suis d'abord une **chose pensante** (*res cogitans*) |
-| **Existence du sujet** | Preuve de l'existence du moi |
-| **Indépendance du corps** | Je peux douter d'avoir un corps, mais pas de penser |
-
-**Limite :** Le *cogito* prouve seulement que **moi, en tant que pensée, j'existe**. Pas encore le monde extérieur.
+C'est au fond de ce doute que surgit la première certitude. Que le malin génie me trompe tant qu'il voudra : pour être trompé, il faut que je sois. Si je doute, je pense, et si je pense, j'existe. « Je pense, donc je suis » : la formule du *Discours* (traduite en latin *cogito, ergo sum* dans les *Principes*) est, écrit Descartes, « si ferme et si assurée que toutes les plus extravagantes suppositions des sceptiques ne sont pas capables de l'ébranler ». Les *Méditations* disent plus sobrement : « Je suis, j'existe, cela est certain ; mais combien de temps ? Autant de temps que je pense. »
 
 > [!important] Idée clé
 > Le cogito n'est pas un syllogisme ("je pense, or tout ce qui pense existe, donc j'existe") — Descartes insiste que c'est une intuition immédiate : au moment même où je doute, l'acte de douter se donne comme existant, sans inférence nécessaire. C'est ce qui le rend, selon lui, insaisissable même par le doute le plus radical (le malin génie) : douter, c'est déjà penser, donc déjà être.
 
-## Le Dualisme Cartésien
+Cette certitude dit aussi ce que je suis. Je peux douter d'avoir un corps, je ne peux pas douter de penser : je suis donc d'abord « une chose qui pense », c'est-à-dire qui doute, conçoit, affirme, nie, veut, imagine et sent. Mais le cogito ne prouve encore que l'existence de ma pensée. Pour en sortir et retrouver le monde, il faut un garant.
 
-### Deux Substances Distinctes
+## Dieu garant de la vérité
 
-Descartes distingue radicalement **deux types de réalités** :
+Descartes trouve en lui l'idée d'un être infini et parfait. Or une idée doit avoir une cause qui contienne au moins autant de réalité qu'elle en représente ; moi qui doute, je suis imparfait et ne peux en être l'auteur. Il faut donc que Dieu existe et ait mis cette idée en moi, « comme la marque de l'ouvrier empreinte sur son ouvrage ». Une variante montre que je ne pourrais pas me conserver dans l'existence d'un instant à l'autre si un être parfait ne m'y maintenait. Dans la cinquième Méditation, Descartes reprend en outre l'argument ontologique de saint Anselme : l'existence étant une perfection, on ne peut pas plus concevoir un Dieu parfait sans existence qu'une montagne sans vallée. Kant objectera que l'existence n'est pas un prédicat qui s'ajouterait à un concept : cent thalers réels ne contiennent rien de plus que cent thalers pensés.
 
-#### 1. La *Res Cogitans* (Chose Pensante)
-- **Essence :** Pensée, conscience
-- **Propriétés :** Immatérielle, indivisible, libre
-- **Exemples :** Esprit, âme, pensées, volonté
+> [!tip] Méthode
+> Pour ne pas confondre les trois preuves : la première part d'une idée présente en moi et remonte à sa cause (a posteriori, sur le modèle des quatre causes d'[[Philosophy/Aristote|Aristote]]) ; la troisième (ontologique) part de la seule définition de Dieu, sans passer par l'expérience (a priori, la même structure que la critique kantienne visera juste après). Repérer ce critère — part-on d'un fait constaté ou d'une simple définition ? — permet de classer n'importe quelle preuve de l'existence de Dieu rencontrée ailleurs.
 
-#### 2. La *Res Extensa* (Chose Étendue)
-- **Essence :** Étendue dans l'espace (longueur, largeur, hauteur)
-- **Propriétés :** Matérielle, divisible, déterminée par les lois physiques
-- **Exemples :** Corps, matière, objets physiques
+Or un Dieu parfait ne peut être trompeur, puisque la tromperie est une imperfection. Ce que je conçois clairement et distinctement est donc vrai, et je peux me fier à mon inclination naturelle à croire à l'existence des corps. Dès les *Objections* publiées avec les *Méditations*, Mersenne et Arnauld relèvent pourtant ce qu'on appelle le **cercle cartésien** : Descartes prouve Dieu par des idées claires et distinctes, et fonde ensuite la vérité des idées claires et distinctes sur Dieu. Il répond que l'évidence présente n'a pas besoin de garant ; Dieu garantit seulement le souvenir des évidences passées, ce qui permet d'enchaîner de longues démonstrations.
 
-### Tableau Comparatif
+## L'âme et le corps
+
+La démarche aboutit à distinguer deux substances. La **chose pensante** (*res cogitans*) a pour essence la pensée ; la **chose étendue** (*res extensa*) a pour essence l'étendue en longueur, largeur et profondeur, et tout ce qui la concerne s'explique par la figure et le mouvement.
 
 | | Âme (*Res Cogitans*) | Corps (*Res Extensa*) |
 |-|----------------------|----------------------|
@@ -183,275 +70,30 @@ Descartes distingue radicalement **deux types de réalités** :
 | **Certitude** | Certaine (cogito) | Douteuse (reconstituée) |
 | **Immortalité** | Possible (indivisible) | Mortelle (se décompose) |
 
-### Le Problème de l'Union Âme-Corps
+Ce dualisme a une conséquence scientifique majeure : puisque la matière n'est qu'étendue, la nature entière peut être expliquée mécaniquement, comme une horloge. Les corps vivants eux-mêmes sont des machines, et les animaux, qui n'ont pas d'âme pensante, sont des **automates** très perfectionnés. Descartes propose d'ailleurs, dans la cinquième partie du *Discours*, deux critères pour distinguer un homme d'une machine qui lui ressemblerait : la machine ne pourrait jamais arranger des mots pour répondre au sens de tout ce qu'on dit en sa présence, ni agir avec la souplesse que donne la raison dans toutes les circonstances de la vie. Trois siècles avant Alan Turing, c'est déjà la question de savoir si une machine peut penser.
 
-**Problème :** Si l'âme est immatérielle et le corps matériel, **comment interagissent-ils** ?
-
-**Réponse de Descartes :** La **glande pinéale** (au centre du cerveau) est le siège de l'interaction.
-
-**Critique moderne :** 
-- Problème philosophique non résolu (comment le non-matériel agit sur le matériel ?)
-- Base neurologique fausse
+Mais l'homme pose un problème. Il est l'union d'une âme et d'un corps, et je ne suis pas logé dans mon corps « comme un pilote en son navire » : quand mon corps est blessé, je ne constate pas la blessure, je souffre. Comment deux substances aussi différentes peuvent-elles agir l'une sur l'autre ? La princesse Élisabeth de Bohême lui pose la question dès 1643 dans une correspondance célèbre. Descartes répond que l'union se fait par la **glande pinéale**, au centre du cerveau, où les « esprits animaux » qui circulent dans les nerfs viennent agiter l'âme, et reconnaît que l'union se connaît mieux en la vivant qu'en la pensant.
 
 > [!warning] Piège
 > Localiser l'interaction dans la glande pinéale ne résout rien du problème conceptuel — ça ne fait que déplacer la question "comment l'immatériel agit-il sur le matériel ?" à un endroit précis du cerveau, sans expliquer le mécanisme lui-même. C'est une réponse anatomique à une question métaphysique : elle satisfait la curiosité sur le "où" sans toucher au "comment".
 
-## Les Preuves de l'Existence de Dieu
+## La physique
 
-Descartes propose **trois preuves** de l'existence de Dieu dans les *Méditations*.
+Descartes veut une physique entièrement mathématique, sans qualités occultes ni causes finales. Il formule dans les *Principes* trois lois de la nature : chaque chose demeure dans le même état tant que rien ne le change ; tout corps en mouvement tend à continuer en ligne droite ; et des règles de choc, fondées sur la conservation de la quantité de mouvement dans l'univers. Les deux premières contiennent le principe d'inertie que Newton reprendra. Sa cosmologie, en revanche, n'a pas survécu : il n'admet pas le vide et explique le mouvement des planètes par des tourbillons de matière subtile autour du Soleil, une théorie que la gravitation universelle de Newton (1687) a fini par remplacer, malgré la résistance des cartésiens français. En mathématiques, son apport est durable : *La Géométrie* (1637) fonde la géométrie analytique en traduisant les courbes en équations, d'où nos « coordonnées cartésiennes », et *La Dioptrique* énonce la loi de la réfraction, que nous appelons loi de Snell-Descartes.
 
-### 1. Preuve par l'Idée de Perfection
+## La morale provisoire et les passions
 
-**Argument :**
-1. J'ai en moi l'**idée d'un être parfait** (Dieu)
-2. Cette idée ne peut venir de moi (je suis imparfait)
-3. La cause doit contenir au moins autant de réalité que l'effet
-4. Donc, un être parfait (Dieu) doit exister pour avoir mis cette idée en moi
+On ne peut pas suspendre sa vie le temps de reconstruire le savoir. Descartes se donne donc, dans le *Discours*, une **morale par provision**, comme on se loge ailleurs pendant qu'on rebâtit sa maison. Elle tient en trois maximes. Obéir aux lois et aux coutumes de son pays, en gardant la religion de son enfance et en suivant les opinions les plus modérées. Être le plus ferme et le plus résolu possible dans ses actions, une fois le parti pris, comme des voyageurs égarés dans une forêt doivent marcher toujours droit dans la même direction plutôt que tourner en rond. Enfin, « tâcher toujours plutôt à me vaincre que la fortune, et à changer mes désirs que l'ordre du monde », une maxime d'inspiration nettement [[Stoïcisme|stoïcienne]].
 
-**Type :** Preuve **a posteriori** (à partir de l'expérience - l'idée de Dieu en moi)
+Dans *Les Passions de l'âme* (1649), écrit pour Élisabeth, Descartes propose une physiologie des émotions. Il distingue six passions primitives, l'admiration (au sens d'étonnement), l'amour, la haine, le désir, la joie et la tristesse, dont toutes les autres sont des composés. Les passions sont causées dans l'âme par les mouvements des esprits animaux ; elles sont bonnes par nature, et il s'agit seulement d'en apprendre l'usage. La vertu suprême est la **générosité**, la conscience de n'avoir rien qui nous appartienne vraiment sinon la libre disposition de nos volontés, et la résolution d'en bien user.
 
-> [!tip] Méthode
-> Pour ne pas confondre les trois preuves : la première part d'une idée présente en moi et remonte à sa cause (a posteriori, sur le modèle des quatre causes d'[[Philosophy/Aristote|Aristote]]) ; la troisième (ontologique) part de la seule définition de Dieu, sans passer par l'expérience (a priori, la même structure que la critique kantienne visera juste après). Repérer ce critère — part-on d'un fait constaté ou d'une simple définition ? — permet de classer n'importe quelle preuve de l'existence de Dieu rencontrée ailleurs.
+## Critiques et héritage
 
-### 2. Preuve par la Conservation de Mon Existence
+Le dualisme a suscité les principales réponses de la philosophie du XVIIe siècle. Malebranche y oppose l'occasionnalisme, où Dieu produit chaque correspondance entre l'âme et le corps ; [[Leibniz]] l'harmonie préétablie, deux horloges réglées d'avance par Dieu ; [[Spinoza]] le monisme d'une seule substance, Dieu ou la Nature, dont la pensée et l'étendue sont deux attributs. Aujourd'hui, les neurosciences montrent combien la pensée dépend du cerveau, mais le « problème difficile de la conscience » formulé par David Chalmers, comment une activité physique produit-elle une expérience vécue, prolonge la question cartésienne.
 
-**Argument :**
-1. J'existe en cet instant
-2. Je ne peux pas me conserver dans l'existence par moi-même (sinon je me rendrais parfait)
-3. Donc, un être parfait (Dieu) me conserve dans l'existence à chaque instant
+Le cogito lui-même a été contesté. Lichtenberg puis [[Nietzsche]] jugent qu'il présuppose ce qu'il prétend prouver, un « je » substantiel : il faudrait dire « ça pense », comme on dit « il pleut ». [[Heidegger]] reproche à Descartes d'avoir réduit l'être à la représentation d'un sujet. La thèse des animaux-machines, enfin, a servi à justifier chez certains de ses disciples des vivisections pratiquées sans égard pour la souffrance, et le droit reconnaît aujourd'hui les animaux comme des êtres sensibles.
 
-### 3. Preuve Ontologique (inspirée de saint Anselme)
-
-**Argument :**
-1. Dieu est défini comme **l'être parfait**
-2. L'**existence** est une perfection
-3. Donc, Dieu (par définition) **existe nécessairement**
-
-**Analogie de Descartes :**
-> "On ne peut pas concevoir une montagne sans vallée, ni Dieu sans existence."
-
-**Critique célèbre (Kant) :**
-- L'existence n'est **pas un prédicat** (pas une propriété comme "rouge" ou "grand")
-- On ne peut pas déduire l'existence de la simple définition
-
-## Le Rôle de Dieu dans le Système Cartésien
-
-### Dieu Garant de la Vérité
-
-**Problème :** Comment sortir du solipsisme (enfermement dans ma pensée) ?
-
-**Solution de Descartes :**
-1. Dieu existe (preuves ci-dessus)
-2. Dieu est parfait, donc **non trompeur** (la tromperie est une imperfection)
-3. Donc, ce que je perçois **clairement et distinctement** est **vrai**
-4. Donc, le **monde extérieur existe** (car je le perçois clairement)
-
-**Conséquence :** Dieu est le **fondement de la véracité** de nos connaissances.
-
-### Critique : Le Cercle Cartésien
-
-**Objection (Arnauld, Malebranche) :**
-- Descartes prouve Dieu à partir de la clarté et distinction des idées
-- Mais il fonde la clarté et distinction sur l'existence de Dieu
-- **Cercle vicieux** ?
-
-**Défense possible :**
-- Le *cogito* est certain **sans Dieu**
-- Dieu sert seulement à garantir les **autres** vérités claires et distinctes
-
-## Physique et Cosmologie
-
-### Le Mécanisme Cartésien
-
-**Principe :** L'univers matériel fonctionne comme une **machine**, selon des lois mathématiques.
-
-**Conséquences :**
-- Pas de finalité dans la nature (pas de "pourquoi", seulement "comment")
-- Les animaux sont des **automates** (machines sans âme)
-- Le corps humain est aussi une machine (sauf l'âme)
-
-### Les Lois du Mouvement
-
-Descartes formule trois **lois du mouvement** (précurseurs de Newton) :
-
-1. **Inertie :** Un corps en mouvement continue en mouvement rectiligne uniforme
-2. **Conservation du mouvement :** La quantité totale de mouvement est conservée
-3. **Action-réaction :** Collision entraîne transfert de mouvement
-
-### Cosmologie : Théorie des Tourbillons
-
-**Théorie (fausse, mais influente) :**
-- L'univers est rempli de **matière subtile** (pas de vide)
-- Les planètes sont emportées dans des **tourbillons** de matière autour du Soleil
-
-**Abandon :** Remplacée par la gravitation universelle de Newton (1687)
-
-## Morale Provisoire
-
-Dans le *Discours de la méthode*, Descartes propose une **morale provisoire** (en attendant une morale définitive fondée scientifiquement).
-
-### Les Trois Maximes
-
-#### 1. Obéir aux Lois et Coutumes
-> "Obéir aux lois et aux coutumes de mon pays, retenant constamment la religion en laquelle Dieu m'a fait la grâce d'être instruit dès mon enfance."
-
-**Principe :** Conformisme social et religieux prudent.
-
-#### 2. Fermeté et Résolution
-> "Être le plus ferme et le plus résolu en mes actions que je pourrais."
-
-**Principe :** Une fois une décision prise (même incertaine), s'y tenir fermement.
-
-**Analogie :** 
-> "Comme un voyageur perdu dans une forêt : marcher toujours droit dans une direction, plutôt que tourner en rond."
-
-#### 3. Se Changer Soi-Même Plutôt que le Monde
-> "Tâcher toujours plutôt à me vaincre que la fortune, et à changer mes désirs que l'ordre du monde."
-
-**Principe :** Maîtrise de soi, acceptation [[Philosophy/Stoïcisme|stoïcienne]] de ce qu'on ne peut changer.
-
-**Influence stoïcienne évidente** : Épictète, Marc Aurèle.
-
-## Les Passions de l'Âme
-
-### Théorie des Émotions
-
-Dans *Les Passions de l'âme* (1649), Descartes propose une **physiologie des émotions**.
-
-**Six passions primitives :**
-1. **Admiration** (étonnement)
-2. **Amour**
-3. **Haine**
-4. **Désir**
-5. **Joie**
-6. **Tristesse**
-
-**Toutes les autres passions** sont des combinaisons de ces six.
-
-### Mécanisme Physiologique
-
-**Explication mécaniste :**
-1. Un objet extérieur affecte les sens
-2. Les "esprits animaux" (fluide dans les nerfs) transmettent le signal au cerveau
-3. La glande pinéale est affectée
-4. L'âme ressent une passion
-5. Réaction corporelle (rougir, trembler, etc.)
-
-**Modernité :** Précurseur de la neurobiologie des émotions (même si mécanisme faux).
-
-## Influence et Héritage
-
-### Sur la Philosophie
-
-| Domaine | Influence |
-|---------|-----------|
-| **Méthodologie** | Méthode scientifique, rationalisme |
-| **Métaphysique** | Dualisme corps/esprit (débat actuel en philosophie de l'esprit) |
-| **Épistémologie** | Fondationalisme (chercher des certitudes premières) |
-| **Philosophie de l'esprit** | Problème esprit-corps (philosophie analytique actuelle) |
-
-**Philosophes influencés :**
-- **Spinoza** : Critique le dualisme, propose monisme
-- **Malebranche** : Occasionnalisme (Dieu cause les interactions âme-corps)
-- **Leibniz** : Monadologie, harmonie préétablie
-- **[[Kant]]** : Critique le rationalisme dogmatique, mais hérite de l'importance du sujet
-
-### Sur la Science
-
-- **Géométrie analytique** : Fusion algèbre et géométrie (coordonnées cartésiennes)
-- **Optique** : Loi de la réfraction (loi de Snell-Descartes)
-- **Méthode scientifique** : Analyse, décomposition, mathématisation
-
-### Sur la Culture
-
-- **Rationalisme français** : Tradition de confiance dans la raison
-- **Laïcité** : Séparation raison/foi (même si Descartes reste croyant)
-- **Individualisme moderne** : Primat du sujet pensant
-
-## Critiques Principales
-
-### Critique du Dualisme
-
-**Problème :** Comment deux substances radicalement différentes (esprit/matière) peuvent-elles interagir ?
-
-**Réponses historiques :**
-- **Occasionnalisme** (Malebranche) : Dieu intervient à chaque interaction
-- **Harmonie préétablie** (Leibniz) : Synchronisation divine, pas d'interaction réelle
-- **Monisme** (Spinoza) : Une seule substance (Dieu/Nature)
-
-**Critique moderne :**
-- Neurosciences montrent que la pensée dépend du cerveau (matériel)
-- Pas besoin d'âme immatérielle pour expliquer la conscience ?
-
-### Critique du *Cogito*
-
-**Objections :**
-- **Nietzsche :** Le *cogito* suppose déjà un "je" substantiel. Devrait être : "Ça pense" (impersonnel)
-- **Heidegger :** Descartes réduit l'être à la représentation (oubli de l'Être)
-- **Lichtenberg :** "On devrait dire : 'Il pense', comme on dit 'Il pleut'"
-
-### Critique de la Circularité (Cercle Cartésien)
-
-**Problème :** Descartes utilise Dieu pour garantir la raison, et la raison pour prouver Dieu.
-
-### Critique du Mécanisme
-
-**Animaux-machines :**
-- Scandale moral : Traiter les animaux comme insensibles (vivisection sans anesthésie)
-- Faux empiriquement : Les animaux ressentent la douleur
-
-## Citations Célèbres
-
-> "Je pense, donc je suis."  
-> (*Cogito, ergo sum*)
-> — **Discours de la méthode** (1637)
-
-> "Le bon sens est la chose du monde la mieux partagée ; car chacun pense en être si bien pourvu, que ceux même qui sont les plus difficiles à contenter en toute autre chose, n'ont point coutume d'en désirer plus qu'ils en ont."  
-> — **Discours de la méthode** (ouverture ironique)
-
-> "Pour atteindre la vérité, il faut une fois dans sa vie se défaire de toutes les opinions qu'on a reçues, et reconstruire de nouveau tout le système de ses connaissances."  
-> — **Principes de la philosophie**
-
-> "Asinus asinum fricat." (Un âne frotte un âne)  
-> Devise personnelle de Descartes (modestie ironique face aux flatteries)
-
-> "Larvatus prodeo." (J'avance masqué)  
-> Devise de jeunesse (prudence face à la censure)
-
-## Actualité de Descartes
-
-### En Philosophie de l'Esprit
-
-**Problème difficile de la conscience** (Hard Problem - David Chalmers) :
-- Comment l'activité neuronale (matérielle) produit-elle l'expérience subjective (qualia) ?
-- Écho du problème cartésien esprit-corps
-
-**Débats actuels :**
-- Dualisme (minoritaire) : Propriétés mentales non réductibles
-- Matérialisme (majoritaire) : Tout s'explique par le cerveau
-- Fonctionnalisme : L'esprit est un processus, pas une substance
-
-### En Intelligence Artificielle
-
-**Question :** Une IA peut-elle **penser** au sens cartésien ?
-
-**Test de Turing** : Écho du *cogito* (si ça pense, ça existe comme pensant)
-
-**Problème :** 
-- Les IA actuelles sont-elles des **automates sophistiqués** (comme les animaux-machines de Descartes) ?
-- Ou ont-elles une **conscience** ?
-
-### En Neurosciences
-
-**Critique du dualisme :**
-- Lésions cérébrales affectent la pensée → Pas de séparation esprit/cerveau
-- Mais : Le "problème difficile" de la conscience persiste
-
-### En Éthique Animale
-
-**Rejet de l'animal-machine :**
-- Reconnaissance légale de la **sensibilité animale**
-- Critique de l'anthropocentrisme cartésien
+L'héritage reste immense. [[Kant]] critique le rationalisme dogmatique mais garde le primat du sujet ; la philosophie moderne, de Husserl aux débats actuels sur l'esprit, part souvent de la question cartésienne. Descartes a légué l'idéal d'une connaissance fondée sur des certitudes premières, une méthode d'analyse qui a marqué les sciences, et l'image d'une raison qui ne se soumet à aucune autorité sans examen. Il le résumait au début des *Principes* : pour examiner la vérité, il faut, une fois en sa vie, mettre toutes choses en doute, autant qu'il se peut.
 
 ## Questions de révision
 
@@ -475,28 +117,11 @@ Dans *Les Passions de l'âme* (1649), Descartes propose une **physiologie des é
 
 ## Ressources
 
-### Œuvres Essentielles (Par Ordre de Difficulté)
-
-1. **Discours de la méthode** (1637) - Court, accessible, en français
-2. **Méditations métaphysiques** (1641) - Dense mais fondamental
-3. **Les Passions de l'âme** (1649) - Accessible, psychologie
-4. **Principes de la philosophie** (1644) - Système complet, plus technique
-
-### Études et Commentaires
-
-- **Ferdinand Alquié**, *Descartes* (PUF) - Référence académique
-- **Geneviève Rodis-Lewis**, *Descartes : Biographie* - Vie et contexte
-- **Jean-Marie Beyssade**, *La Philosophie première de Descartes* - Métaphysique
-- **Denis Kambouchner**, *Descartes n'a pas dit* - Corrections idées reçues
-
-### Vulgarisation
-
-- **Raphaël Enthoven**, *Descartes en 30 minutes* (vidéo YouTube)
-- **Monique Dixsaut**, *Descartes* (Vrin, collection "Bibliothèque des philosophes")
-
-## Liens
-
-- [[Kant]] - Critique du rationalisme dogmatique
-- [[Philosophy/Stoïcisme]] - Influence sur morale provisoire
-- [[Platon]] - Dualisme âme/corps (précurseur)
-- [[Philosophy/Aristote]] - Rupture avec aristotélisme scolastique
+- *Discours de la méthode* (1637) : court, accessible, en français, l'entrée naturelle.
+- *Méditations métaphysiques* (1641) : dense mais fondamental.
+- *Les Passions de l'âme* (1649) : accessible, sur les émotions.
+- *Principes de la philosophie* (1644) : le système complet, plus technique.
+- Ferdinand Alquié, *Descartes, l'homme et l'œuvre* (1956).
+- Geneviève Rodis-Lewis, *Descartes. Biographie* (1995).
+- Jean-Marie Beyssade, *La Philosophie première de Descartes* (1979).
+- Denis Kambouchner, *Descartes n'a pas dit* (2015) : les idées reçues corrigées.

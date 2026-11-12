@@ -9,54 +9,25 @@ prerequis: ["[[Docker]]"]
 
 # Kubernetes (K8s)
 
-## Vue d'ensemble
+Au début des années 2010, Google fait déjà tourner des milliards de conteneurs par semaine, sur des centaines de milliers de machines, grâce à un système interne nommé Borg. Aucun humain ne décide sur quel serveur tourne tel service : on déclare ce qu'on veut, et Borg se débrouille, relançant ailleurs ce qui tombe en panne. En 2014, des ingénieurs de Google en publient une réécriture ouverte, **Kubernetes** (du grec *kubernêtês*, « timonier », abrégé en K8s pour les huit lettres entre le K et le s), puis la confient en 2015 à une fondation neutre, la CNCF. Dix ans plus tard, c'est la plateforme standard pour orchestrer des conteneurs.
 
-Kubernetes est une plateforme open-source d'orchestration de conteneurs qui automatise le déploiement, la mise à l'échelle et la gestion d'applications conteneurisées.
+Là où [[Docker]] fait tourner des conteneurs sur une machine, Kubernetes les gère sur une flotte de machines : il décide où les placer, les redémarre quand ils tombent, répartit le trafic entre eux, ajuste leur nombre selon la charge et les met à jour sans interruption.
 
-## Architecture
+## Le principe : déclarer un état désiré
 
-### Composants du Control Plane
+Kubernetes ne fonctionne pas par commandes (« lance trois serveurs web ») mais par déclarations (« je veux qu'il y ait en permanence trois serveurs web »). On décrit l'état désiré dans des fichiers YAML, on les soumet au cluster, et des **contrôleurs** comparent sans cesse l'état réel à cet état désiré pour corriger les écarts. Si un nœud tombe et emporte un des trois serveurs, le contrôleur constate qu'il n'en reste que deux et en recrée un ailleurs. Cette boucle de réconciliation est la clé de tout le reste.
 
-**API Server (kube-apiserver)**
-- Point d'entrée du cluster
-- Expose l'API Kubernetes
-- Authentification et autorisation
+## L'architecture d'un cluster
 
-**etcd**
-- Base de données clé-valeur distribuée
-- Stocke l'état du cluster
+Un cluster se compose d'un **plan de contrôle** (*control plane*), qui prend les décisions, et de **nœuds** (*nodes*), qui exécutent les conteneurs.
 
-**Scheduler (kube-scheduler)**
-- Assigne les Pods aux Nodes
-- Prend en compte ressources et contraintes
+Au cœur du plan de contrôle se trouve l'**API Server** (`kube-apiserver`) : c'est le seul point d'entrée, que l'on passe par `kubectl` ou par un autre outil, et il se charge de l'authentification et des autorisations. L'état du cluster est stocké dans **etcd**, une base clé-valeur distribuée et répliquée : perdre etcd, c'est perdre le cluster, d'où l'importance de le sauvegarder. Le **Scheduler** choisit sur quel nœud placer chaque nouveau Pod, en fonction des ressources disponibles et des contraintes déclarées. Le **Controller Manager** fait tourner les contrôleurs qui maintiennent l'état désiré, et le **Cloud Controller Manager** dialogue avec le fournisseur de cloud pour créer des load balancers ou des disques.
 
-**Controller Manager (kube-controller-manager)**
-- Exécute les contrôleurs
-- Maintient l'état désiré
+Sur chaque nœud tourne le **kubelet**, l'agent qui reçoit la liste des Pods à exécuter et veille à ce qu'ils tournent, **kube-proxy**, qui programme les règles réseau permettant de joindre les Services, et un **runtime de conteneurs** conforme à l'interface CRI, comme containerd ou CRI-O. Docker lui-même n'est plus utilisé directement comme runtime depuis la version 1.24 (2022), mais les images construites avec Docker fonctionnent toujours, car elles suivent le même standard OCI.
 
-**Cloud Controller Manager**
-- Interface avec le cloud provider
-- Gestion load balancers, volumes, etc.
+## Les objets de base
 
-### Composants des Nodes
-
-**Kubelet**
-- Agent sur chaque node
-- Gère les Pods et conteneurs
-
-**Kube-proxy**
-- Proxy réseau
-- Maintient les règles réseau
-
-**Container Runtime**
-- Docker, containerd, CRI-O
-- Exécute les conteneurs
-
-## Objets Kubernetes
-
-### Pod
-
-Plus petite unité déployable
+L'unité de base n'est pas le conteneur mais le **Pod** : un ou plusieurs conteneurs qui partagent la même adresse IP et peuvent partager des volumes, et qui sont toujours placés ensemble sur le même nœud. Dans la grande majorité des cas, un Pod contient un seul conteneur. Les Pods sont jetables : on ne les crée presque jamais à la main.
 
 ```yaml
 apiVersion: v1
@@ -73,9 +44,7 @@ spec:
     - containerPort: 80
 ```
 
-### Deployment
-
-Gère les ReplicaSets et Pods
+On crée plutôt un **Deployment**, qui déclare combien de copies (*replicas*) d'un Pod on veut et à partir de quel modèle. Le Deployment gère un ReplicaSet, qui maintient le nombre de Pods, et pilote les mises à jour. Les **labels**, ces étiquettes clé-valeur, servent à relier les objets entre eux : le Deployment retrouve ses Pods grâce à son `selector`.
 
 ```yaml
 apiVersion: apps/v1
@@ -94,14 +63,12 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:1.21
+        image: nginx:1.27
         ports:
         - containerPort: 80
 ```
 
-### Service
-
-Expose des Pods au réseau
+Puisque les Pods naissent et meurent avec des adresses IP changeantes, on ne les contacte jamais directement. Un **Service** offre une adresse stable et un nom DNS devant un groupe de Pods sélectionnés par leurs labels, et répartit le trafic entre eux. Un Service de type `ClusterIP` (par défaut) n'est joignable que depuis le cluster ; `NodePort` l'expose sur un port de chaque nœud ; `LoadBalancer` demande au fournisseur de cloud un équilibreur de charge externe ; `ExternalName` n'est qu'un alias DNS vers un nom extérieur.
 
 ```yaml
 apiVersion: v1
@@ -118,15 +85,13 @@ spec:
   type: LoadBalancer
 ```
 
-**Types de Service:**
-- **ClusterIP** (défaut) - IP interne au cluster
-- **NodePort** - Expose sur port de chaque node
-- **LoadBalancer** - Crée un LB externe
-- **ExternalName** - Mapping DNS
+Les **Namespaces** découpent un cluster en espaces logiques, par équipe ou par environnement ; ils servent de cadre aux droits d'accès et aux quotas, mais n'isolent pas le réseau par défaut.
 
-### ConfigMap
+D'autres contrôleurs couvrent des besoins particuliers : un **StatefulSet** pour les applications qui ont besoin d'une identité et d'un stockage stables (bases de données), un **DaemonSet** pour faire tourner un Pod sur chaque nœud (agents de logs ou de sécurité), des **Jobs** et **CronJobs** pour des tâches ponctuelles ou planifiées.
 
-Configuration découplée
+## Configuration, secrets et stockage
+
+Une même image doit pouvoir tourner en test et en production avec des réglages différents. On sort donc la configuration de l'image : une **ConfigMap** contient des paramètres ordinaires, un **Secret** des données sensibles, et les deux s'injectent dans les Pods sous forme de variables d'environnement ou de fichiers.
 
 ```yaml
 apiVersion: v1
@@ -138,10 +103,6 @@ data:
   log_level: "info"
 ```
 
-### Secret
-
-Données sensibles encodées
-
 ```yaml
 apiVersion: v1
 kind: Secret
@@ -152,24 +113,10 @@ data:
   password: cGFzc3dvcmQxMjM=  # base64
 ```
 
-### PersistentVolume & PersistentVolumeClaim
+Il faut bien comprendre que le base64 d'un Secret est un simple encodage, pas un chiffrement : quiconque peut lire l'objet lit le mot de passe. La protection repose sur les droits d'accès (RBAC), sur le chiffrement d'etcd au repos, et souvent sur un gestionnaire externe, via External Secrets Operator, Sealed Secrets (des secrets chiffrés qu'on peut committer dans Git) ou HashiCorp Vault.
 
-**PersistentVolume (PV)**
-```yaml
-apiVersion: v1
-kind: PersistentVolume
-metadata:
-  name: pv-data
-spec:
-  capacity:
-    storage: 10Gi
-  accessModes:
-    - ReadWriteOnce
-  hostPath:
-    path: "/mnt/data"
-```
+Pour les données persistantes, Kubernetes sépare l'offre et la demande. Un **PersistentVolume** (PV) représente un espace de stockage réel, disque cloud, partage NFS ou répertoire d'un nœud ; un **PersistentVolumeClaim** (PVC) est la demande qu'exprime une application (« 5 Go en lecture-écriture »), que le cluster satisfait avec un PV adapté. En pratique, une **StorageClass** crée les PV automatiquement à la demande.
 
-**PersistentVolumeClaim (PVC)**
 ```yaml
 apiVersion: v1
 kind: PersistentVolumeClaim
@@ -183,162 +130,31 @@ spec:
       storage: 5Gi
 ```
 
-### Namespace
+## Piloter le cluster avec kubectl
 
-Isolation logique
-
-```yaml
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: production
-```
-
-## Commandes kubectl
-
-### Gestion de base
+`kubectl` est le client en ligne de commande de l'API. La commande centrale est `kubectl apply -f`, qui soumet un état désiré ; on la relance après chaque modification du fichier, et Kubernetes calcule lui-même ce qui doit changer.
 
 ```bash
-# Info cluster
-kubectl cluster-info
-
-# Nodes du cluster
-kubectl get nodes
-
-# Tous les objets
-kubectl get all
-
-# Détails d'un objet
-kubectl describe pod nom-pod
-
-# Créer depuis fichier
 kubectl apply -f deployment.yaml
-
-# Supprimer
-kubectl delete -f deployment.yaml
-```
-
-### Pods
-
-```bash
-# Lister pods
-kubectl get pods
-kubectl get pods -n namespace
-
-# Logs d'un pod
-kubectl logs nom-pod
-kubectl logs -f nom-pod  # follow
-
-# Shell dans pod
-kubectl exec -it nom-pod -- /bin/bash
-
-# Port forward
+kubectl get pods -n production
+kubectl get all
+kubectl describe pod nom-pod          # Détails et événements : le premier réflexe en cas de problème
+kubectl logs -f nom-pod
+kubectl exec -it nom-pod -- /bin/sh
 kubectl port-forward pod/nom-pod 8080:80
-```
 
-### Deployments
-
-```bash
-# Créer deployment
-kubectl create deployment nginx --image=nginx
-
-# Scaler
 kubectl scale deployment nginx --replicas=5
-
-# Mise à jour image
-kubectl set image deployment/nginx nginx=nginx:1.22
-
-# Rollout status
+kubectl set image deployment/nginx nginx=nginx:1.27
 kubectl rollout status deployment/nginx
+kubectl rollout undo deployment/nginx  # Revenir à la version précédente
 
-# Rollback
-kubectl rollout undo deployment/nginx
-
-# Historique
-kubectl rollout history deployment/nginx
+kubectl get events --sort-by=.lastTimestamp
+kubectl top pods                       # Nécessite metrics-server
 ```
 
-### Services
+## Exposer et isoler le réseau
 
-```bash
-# Exposer un deployment
-kubectl expose deployment nginx --port=80 --type=LoadBalancer
-
-# Lister services
-kubectl get services
-```
-
-### ConfigMaps & Secrets
-
-```bash
-# Créer ConfigMap
-kubectl create configmap app-config --from-literal=key=value
-
-# Créer Secret
-kubectl create secret generic db-secret --from-literal=password=secret
-
-# Voir contenu
-kubectl get configmap app-config -o yaml
-```
-
-### Debugging
-
-```bash
-# Événements
-kubectl get events
-
-# Top (ressources)
-kubectl top nodes
-kubectl top pods
-
-# Décrire pour debug
-kubectl describe pod nom-pod
-```
-
-## Gestion de configuration
-
-### Helm
-
-Package manager pour Kubernetes
-
-```bash
-# Installer chart
-helm install myapp stable/nginx
-
-# Lister releases
-helm list
-
-# Mettre à jour
-helm upgrade myapp stable/nginx
-
-# Désinstaller
-helm uninstall myapp
-```
-
-### Kustomize
-
-Customisation de YAML sans templates
-
-```yaml
-# kustomization.yaml
-apiVersion: kustomize.config.k8s.io/v1beta1
-kind: Kustomization
-resources:
-  - deployment.yaml
-  - service.yaml
-patchesStrategicMerge:
-  - patch.yaml
-```
-
-```bash
-kubectl apply -k ./
-```
-
-## Networking
-
-### Ingress
-
-Routage HTTP/HTTPS
+Pour publier plusieurs applications web derrière une seule adresse, on utilise un **Ingress**, qui route les requêtes HTTP selon le nom de domaine et le chemin vers différents Services. Il faut pour cela un *Ingress controller* (comme ingress-nginx ou Traefik) installé dans le cluster. L'API Gateway, plus récente, est appelée à lui succéder.
 
 ```yaml
 apiVersion: networking.k8s.io/v1
@@ -359,9 +175,7 @@ spec:
               number: 80
 ```
 
-### Network Policies
-
-Contrôle du trafic réseau
+Par défaut, tous les Pods d'un cluster peuvent se parler. Les **NetworkPolicies** restreignent ce trafic, à condition que le plugin réseau (CNI) les applique, comme le font Calico ou Cilium. L'exemple suivant n'autorise l'accès aux Pods `api` qu'aux Pods `frontend` :
 
 ```yaml
 apiVersion: networking.k8s.io/v1
@@ -379,9 +193,44 @@ spec:
           app: frontend
 ```
 
-## Scaling
+## Ressources, santé et mise à l'échelle
 
-### Horizontal Pod Autoscaler (HPA)
+Chaque conteneur devrait déclarer ses besoins. Les `requests` sont ce que le Scheduler réserve pour placer le Pod ; les `limits` sont le plafond qu'il ne pourra pas dépasser.
+
+```yaml
+resources:
+  requests:
+    memory: "64Mi"
+    cpu: "250m"      # un quart de cœur
+  limits:
+    memory: "128Mi"
+    cpu: "500m"
+```
+
+> [!warning] Piège
+> Sans `limits`, un conteneur peut consommer toute la mémoire du nœud et faire tomber d'autres Pods avec lui (OOMKiller au niveau du nœud, pas seulement du conteneur). Sans `requests`, le Scheduler ne peut pas garantir qu'un nœud a assez de ressources avant d'y placer le Pod. Les deux sont nécessaires, pas seulement l'un ou l'autre.
+
+Kubernetes ne sait pas, par lui-même, si une application fonctionne vraiment : un processus peut tourner tout en étant bloqué. Les **sondes** (*probes*) le lui disent.
+
+```yaml
+livenessProbe:
+  httpGet:
+    path: /health
+    port: 8080
+  initialDelaySeconds: 30
+  periodSeconds: 10
+readinessProbe:
+  httpGet:
+    path: /ready
+    port: 8080
+  initialDelaySeconds: 5
+  periodSeconds: 5
+```
+
+> [!important] Liveness vs Readiness — pas la même question
+> `livenessProbe` répond à « ce conteneur est-il bloqué et doit-il être redémarré ? » — un échec entraîne un restart. `readinessProbe` répond à « ce conteneur peut-il recevoir du trafic maintenant ? » — un échec le retire juste du Service sans le redémarrer. Confondre les deux (ex. mettre la même logique sur les deux) peut provoquer des redémarrages en boucle pour un problème qui ne demandait qu'un retrait temporaire du trafic.
+
+La mise à l'échelle peut ensuite être automatique, à trois niveaux. Le **Horizontal Pod Autoscaler** ajoute ou retire des Pods selon une métrique, ici l'utilisation CPU moyenne ; le **Vertical Pod Autoscaler** ajuste les requêtes de CPU et de mémoire de chaque Pod ; le **Cluster Autoscaler** ajoute ou retire des nœuds quand les Pods ne trouvent plus de place ou que des machines restent vides.
 
 ```yaml
 apiVersion: autoscaling/v2
@@ -404,19 +253,9 @@ spec:
         averageUtilization: 70
 ```
 
-### Vertical Pod Autoscaler (VPA)
+## Déployer sans interruption
 
-Ajuste ressources CPU/mémoire
-
-### Cluster Autoscaler
-
-Ajoute/retire des nodes selon la charge
-
-## Stratégies de déploiement
-
-### Rolling Update (défaut)
-
-Mise à jour progressive
+Par défaut, un Deployment se met à jour en **rolling update** : il remplace les Pods progressivement, en créant les nouveaux avant de supprimer les anciens, dans les limites fixées par `maxSurge` (Pods en trop autorisés) et `maxUnavailable` (Pods manquants tolérés).
 
 ```yaml
 spec:
@@ -427,20 +266,45 @@ spec:
       maxUnavailable: 0
 ```
 
-### Blue-Green
-
-Deux environnements, switch instantané
-
-### Canary
-
-Déploiement progressif à un sous-ensemble
+Deux autres stratégies se construisent par-dessus. En **blue-green**, la nouvelle version tourne entièrement à côté de l'ancienne, puis on bascule tout le trafic d'un coup. En **canary**, on envoie d'abord une petite fraction des utilisateurs vers la nouvelle version, et on élargit si tout va bien ; des outils comme Argo Rollouts ou un service mesh (Istio, Linkerd) automatisent ce dosage.
 
 > [!tip] Comment choisir
 > Rolling Update convient à la majorité des cas (aucune infra supplémentaire). Blue-Green permet un rollback instantané (juste re-basculer le routage) mais double temporairement les ressources. Canary limite le rayon d'impact d'un bug en le testant sur un sous-ensemble réel d'utilisateurs avant généralisation — le plus prudent, mais aussi le plus lent à déployer complètement.
 
+## Gérer les manifestes : Helm et Kustomize
+
+Une application réelle compte des dizaines de fichiers YAML, à décliner par environnement. **Helm**, le gestionnaire de paquets de Kubernetes, regroupe ces fichiers dans un *chart* paramétrable par des valeurs, installable et versionné comme un paquet.
+
+```bash
+helm repo add bitnami https://charts.bitnami.com/bitnami
+helm install myapp bitnami/nginx
+helm upgrade myapp bitnami/nginx --set replicaCount=3
+helm list
+helm uninstall myapp
+```
+
+**Kustomize**, intégré à `kubectl`, prend le parti inverse : pas de gabarits, mais une base de manifestes ordinaires sur laquelle chaque environnement applique des correctifs.
+
+```yaml
+# kustomization.yaml
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - deployment.yaml
+  - service.yaml
+patches:
+  - path: patch.yaml
+```
+
+```bash
+kubectl apply -k ./
+```
+
+Dans une démarche **GitOps**, ces manifestes vivent dans un dépôt Git, et un outil comme Argo CD ou Flux synchronise en permanence le cluster avec le dépôt : on déploie en fusionnant une pull request.
+
 ## Sécurité
 
-### RBAC (Role-Based Access Control)
+L'accès à l'API est contrôlé par **RBAC** : un `Role` définit des droits (verbes sur des ressources) dans un namespace, un `RoleBinding` les attribue à un utilisateur ou à un compte de service. Comme partout, le principe du moindre privilège s'applique, et les comptes de service des Pods ne devraient avoir que les droits dont l'application a besoin.
 
 ```yaml
 apiVersion: rbac.authorization.k8s.io/v1
@@ -453,127 +317,18 @@ rules:
   verbs: ["get", "list"]
 ```
 
-### Pod Security
+Le comportement des Pods eux-mêmes se durcit par le `securityContext` (exécution en utilisateur non root, système de fichiers en lecture seule, suppression des capacités Linux). Les **Pod Security Standards**, appliqués par l'admission controller *Pod Security Admission*, imposent ces règles par namespace selon trois niveaux, `privileged`, `baseline` et `restricted`. Ils ont remplacé les anciennes PodSecurityPolicies, supprimées en version 1.25 (2022).
 
-- Security Context
-- Pod Security Policies
-- Pod Security Standards
+## Observer le cluster
 
-### Secrets Management
+`kubectl top` donne les consommations instantanées, mais la surveillance réelle repose sur une pile dédiée : Prometheus pour collecter les métriques, Alertmanager pour les alertes, Grafana pour les tableaux de bord. Pour les journaux, on utilise soit la pile EFK (Elasticsearch, Fluentd, Kibana), soit Loki, souvent avec Grafana Alloy ou Promtail pour la collecte.
 
-- Kubernetes Secrets
-- External Secrets Operator
-- Sealed Secrets
-- Vault integration
+## Où faire tourner Kubernetes
 
-## Monitoring
-
-### Métriques natives
-
-```bash
-kubectl top nodes
-kubectl top pods
-```
-
-### Stack de monitoring
-
-- **Prometheus** - Métriques
-- **Grafana** - Visualisation
-- **Alertmanager** - Alertes
-
-### Logging
-
-- **EFK Stack** (Elasticsearch, Fluentd, Kibana)
-- **PLG Stack** (Prometheus, Loki, Grafana)
-
-## Distributions Kubernetes
-
-- **Minikube** - Local, développement
-- **K3s** - Léger, Edge/IoT
-- **Kind** - Kubernetes in Docker
-- **EKS** - AWS Elastic Kubernetes Service
-- **GKE** - Google Kubernetes Engine
-- **AKS** - Azure Kubernetes Service
-- **OpenShift** - Red Hat
-
-## Best Practices
-
-### Resource Management
-
-```yaml
-spec:
-  containers:
-  - name: app
-    resources:
-      requests:
-        memory: "64Mi"
-        cpu: "250m"
-      limits:
-        memory: "128Mi"
-        cpu: "500m"
-```
-
-> [!warning] Piège
-> Sans `limits`, un conteneur peut consommer toute la mémoire du nœud et faire tomber d'autres Pods avec lui (OOMKiller au niveau du nœud, pas seulement du conteneur). Sans `requests`, le Scheduler ne peut pas garantir qu'un nœud a assez de ressources avant d'y placer le Pod. Les deux sont nécessaires, pas seulement l'un ou l'autre.
-
-### Health Checks
-
-```yaml
-spec:
-  containers:
-  - name: app
-    livenessProbe:
-      httpGet:
-        path: /health
-        port: 8080
-      initialDelaySeconds: 30
-      periodSeconds: 10
-    readinessProbe:
-      httpGet:
-        path: /ready
-        port: 8080
-      initialDelaySeconds: 5
-      periodSeconds: 5
-```
-
-> [!important] Liveness vs Readiness — pas la même question
-> `livenessProbe` répond à « ce conteneur est-il bloqué et doit-il être redémarré ? » — un échec entraîne un restart. `readinessProbe` répond à « ce conteneur peut-il recevoir du trafic maintenant ? » — un échec le retire juste du Service sans le redémarrer. Confondre les deux (ex. mettre la même logique sur les deux) peut provoquer des redémarrages en boucle pour un problème qui ne demandait qu'un retrait temporaire du trafic.
-
-### Labels et Annotations
-
-```yaml
-metadata:
-  labels:
-    app: nginx
-    env: production
-    version: v1.0
-  annotations:
-    description: "Main web server"
-```
-
-## Outils essentiels
-
-- **kubectl** - CLI officiel
-- **k9s** - Terminal UI
-- **Lens** - Desktop IDE
-- **Stern** - Multi-pod log tailing
-- **kubectx/kubens** - Context/namespace switching
+Pour apprendre et développer, Minikube et Kind (Kubernetes dans des conteneurs Docker) créent un cluster local en quelques minutes ; K3s est une distribution légère adaptée aux petites machines et à l'*edge*. En production, la plupart des entreprises utilisent un service managé, où le fournisseur gère le plan de contrôle : EKS chez AWS, GKE chez Google, AKS chez Azure. OpenShift, de Red Hat, ajoute une couche d'outils d'entreprise. Au quotidien, des interfaces comme k9s (dans le terminal) ou Lens, et des utilitaires comme `kubectx`/`kubens` ou `stern` (logs de plusieurs Pods à la fois), simplifient beaucoup le travail.
 
 ## Ressources
 
-- [Documentation officielle](https://kubernetes.io/docs)
-- Kubernetes Academy
-- CNCF Training
-- KubeCon conférences
-
-## Sujets à approfondir
-
-- [ ] Service Mesh (Istio, Linkerd)
-- [ ] GitOps (ArgoCD, Flux)
-- [ ] Operators
-- [ ] StatefulSets
-- [ ] DaemonSets
-- [ ] Jobs et CronJobs
-
-
-*Dernière mise à jour: 2026-01-01*
+- [Documentation officielle de Kubernetes](https://kubernetes.io/docs), avec ses tutoriels interactifs.
+- Les formations et certifications de la CNCF (CKA, CKAD, CKS) et les conférences KubeCon.
+- Pour aller plus loin : service mesh (Istio, Linkerd), GitOps (Argo CD, Flux), opérateurs.
