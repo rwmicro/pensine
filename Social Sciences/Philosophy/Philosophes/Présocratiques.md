@@ -17,10 +17,7 @@ On appelle **présocratiques** les penseurs grecs qui, entre le début du VIe et
 
 ### Un monde de cités périphériques
 
-La philosophie ne naît pas à Athènes, mais sur les marges du monde grec :
-
-- en **Ionie**, sur la côte de l'actuelle Turquie (Milet, Éphèse, Clazomènes, Samos), carrefour commercial au contact de la Lydie, de la Perse, de l'Égypte et des savoirs mésopotamiens ;
-- en **Grande-Grèce**, dans le sud de l'Italie et en Sicile (Crotone, Élée, Agrigente), où plusieurs penseurs émigrent ou fondent des communautés.
+La philosophie ne naît pas à Athènes, mais sur les marges du monde grec. D'abord en **Ionie**, sur la côte de l'actuelle Turquie, à Milet, Éphèse, Clazomènes ou Samos, carrefour commercial au contact de la Lydie, de la Perse, de l'Égypte et des savoirs mésopotamiens. Puis en **Grande-Grèce**, dans le sud de l'Italie et en Sicile, à Crotone, Élée ou Agrigente, où plusieurs penseurs émigrent ou fondent des communautés.
 
 Ces cités marchandes, souvent en conflit et gouvernées par des assemblées où l'on débat publiquement, offrent un terrain où une explication doit se justifier par des arguments plutôt que par l'autorité d'un poète inspiré.
 
@@ -142,20 +139,15 @@ mindmap
 
 ## Influence et postérité
 
-- **Platon** construit sa théorie des Idées en tentant de concilier le flux héraclitéen du monde sensible et l'immutabilité parménidienne de l'intelligible ; il consacre un dialogue entier, le *Parménide*, à l'Éléate.
-- **Aristote** en fait l'histoire critique et fixe les termes du débat pour deux millénaires.
-- L'**atomisme** traverse l'épicurisme, Lucrèce, Gassendi, puis la chimie moderne, qui lui empruntera son nom.
-- Les **stoïciens** reprennent le logos et le feu d'Héraclite (voir [[Stoïcisme]]).
-- **[[Nietzsche]]**, dans *La Philosophie à l'époque tragique des Grecs* (texte posthume), voit en eux l'âge héroïque de la pensée, avant la « décadence » socratique ; Héraclite est son modèle.
-- **[[Heidegger]]** revient à Anaximandre, Héraclite et Parménide pour retrouver une expérience originelle de l'être qu'aurait recouverte la métaphysique.
-- En science, les paradoxes de Zénon nourrissent la réflexion sur l'infini et le continu, et l'idée pythagoricienne d'un monde écrit en langage mathématique reste le pari de la physique (voir [[Épistémologie]]).
+Les présocratiques ont fixé les questions sur lesquelles leurs successeurs ont travaillé. [[Platon]] construit sa théorie des Idées en tentant de concilier le flux héraclitéen du monde sensible et l'immutabilité parménidienne de l'intelligible, et consacre un dialogue entier, le *Parménide*, à l'Éléate. [[Aristote]] en écrit la première histoire critique et fixe les termes du débat pour deux millénaires. L'atomisme traverse l'épicurisme, Lucrèce et Gassendi avant que la chimie moderne ne lui emprunte son nom ; les stoïciens reprennent le logos et le feu d'Héraclite (voir [[Stoïcisme]]).
+
+Les modernes y sont revenus pour contester la tradition qui en était sortie. [[Nietzsche]], dans *La Philosophie à l'époque tragique des Grecs* (texte posthume), voit en eux l'âge héroïque de la pensée, avant la « décadence » socratique, et fait d'Héraclite son modèle. [[Heidegger]] relit Anaximandre, Héraclite et Parménide pour retrouver une expérience originelle de l'être que la métaphysique aurait recouverte. En science, les paradoxes de Zénon nourrissent toujours la réflexion sur l'infini et le continu, et l'idée pythagoricienne d'un monde écrit en langage mathématique reste le pari de la physique (voir [[Épistémologie]]).
 
 ## Critiques
 
-- **Critique historiographique** : la reconstruction repose sur des citations de seconde ou troisième main, choisies par des auteurs qui avaient leurs propres thèses à défendre. Toute synthèse est hypothétique.
-- **Le récit du « miracle grec »** : présenter les Milésiens comme l'invention absolue de la raison, rompant d'un coup avec le mythe, est aujourd'hui nuancé. Jean-Pierre Vernant a montré le lien entre cette pensée et l'organisation politique de la cité, et d'autres ont souligné la dette envers l'astronomie babylonienne et la géométrie égyptienne. Les cosmologies présocratiques gardent d'ailleurs une structure proche des théogonies.
-- **Critique aristotélicienne** : pour Aristote, les premiers physiciens n'ont perçu que la cause matérielle et ont négligé la cause finale.
-- **Critique platonicienne des sophistes** : le relativisme de Protagoras se réfute lui-même, puisqu'il doit admettre comme vraie l'opinion de ceux qui le jugent faux (argument du *Théétète*).
+La première difficulté est historiographique : toute reconstruction repose sur des citations de seconde ou troisième main, choisies par des auteurs qui avaient leurs propres thèses à défendre, si bien que toute synthèse reste hypothétique. Le récit d'un « miracle grec », où les Milésiens inventeraient d'un coup la raison contre le mythe, est aujourd'hui nuancé. Jean-Pierre Vernant a montré le lien entre cette pensée et l'organisation politique de la cité, d'autres ont souligné la dette envers l'astronomie babylonienne et la géométrie égyptienne, et les cosmologies présocratiques gardent une structure proche des théogonies qu'elles prétendent remplacer.
+
+Les Anciens avaient déjà leurs objections. Pour Aristote, les premiers physiciens n'ont perçu que la cause matérielle et ont négligé la cause finale. Platon, dans le *Théétète*, retourne contre Protagoras son propre relativisme : si l'homme est la mesure de toutes choses, Protagoras doit tenir pour vraie l'opinion de ceux qui le jugent dans l'erreur, et sa thèse se réfute elle-même.
 
 ## Chronologie
 

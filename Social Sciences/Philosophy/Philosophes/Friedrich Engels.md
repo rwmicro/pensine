@@ -9,36 +9,15 @@ prerequis: ["[[Hegel]]"]
 
 # Friedrich Engels (1820-1895)
 
-Philosophe, théoricien politique et industriel allemand, co-auteur de la pensée marxienne avec Karl Marx. Pendant longtemps relégué au rang d'« assistant » de Marx, Engels est aujourd'hui réévalué comme penseur de plein droit — auteur de la première grande enquête sociologique sur la classe ouvrière, et principal artisan de la diffusion du marxisme après 1883.
+En 1842, un jeune Allemand de vingt-deux ans débarque à Manchester pour apprendre le métier dans la filature Ermen & Engels, dont son père est l'associé. Le jour, il tient les comptes ; le soir, guidé par Mary Burns, une ouvrière irlandaise qui deviendra sa compagne, il arpente les quartiers où s'entassent les familles ouvrières, les caves inondées de Little Ireland, les cours sans air, les enfants au travail dès huit ans. De ces promenades naît en 1845 *La Situation de la classe laborieuse en Angleterre*, l'un des premiers grands livres d'enquête sociale. Son auteur, **Friedrich Engels**, est surtout connu comme l'ami et le collaborateur de Marx. Longtemps tenu pour un simple second, il est aujourd'hui relu comme un penseur à part entière, et comme celui sans qui l'œuvre de Marx serait restée inachevée et confidentielle.
 
+## Un fils d'industriel devenu communiste
 
-## Biographie
+Engels naît en 1820 à Barmen, en Rhénanie prussienne, aîné de huit enfants d'une famille de filateurs protestants piétistes. Son père le retire du lycée à dix-sept ans pour le former au commerce. Pendant son service militaire à Berlin, en 1841-1842, il fréquente les Jeunes hégéliens, ces disciples radicaux de [[Hegel]] qui retournent la philosophie de leur maître contre la religion et l'État prussien. Il croise Marx une première fois à Cologne en 1842, sans sympathie. C'est à Paris, en août 1844, que les deux hommes se découvrent d'accord sur presque tout : commence une collaboration de quarante ans.
 
-**Origines et formation**
-- Né à Barmen (Rhénanie prussienne), aîné de huit enfants
-- Famille protestante piétiste, propriétaire d'usines textiles
-- Études interrompues à 17 ans pour entrer dans l'entreprise familiale
-- Service militaire à Berlin (1841-1842) — fréquente les jeunes hégéliens
+Après les révolutions de 1848, auxquelles il participe les armes à la main dans le Palatinat, Engels se résout à rentrer dans l'entreprise familiale à Manchester. Pendant vingt ans, il mène une double vie : associé respecté de la bourse du coton le jour, il consacre ses soirées à la théorie et envoie à Marx, réfugié à Londres dans la misère, l'argent qui le fait vivre. Il appelle son métier le « maudit commerce ». En 1869, il vend sa part, assure à Marx une rente annuelle et s'installe à Londres l'année suivante, à quelques rues de chez lui.
 
-**Manchester et la rencontre avec Marx**
-- Envoyé par son père dans la filature familiale de Manchester (1842)
-- Découvre la condition ouvrière anglaise au cœur de la révolution industrielle
-- Rencontre Marx à Paris en 1844 — début d'une collaboration de quarante ans
-- Liaison avec Mary Burns, ouvrière irlandaise, qui le guide dans les quartiers prolétaires
-
-**Le rôle de bailleur de fonds**
-- Reprend les affaires de Manchester pour subvenir aux besoins de Marx
-- Pendant vingt ans, finance la rédaction du *Capital* tout en méprisant son propre travail commercial (« sale commerce »)
-- Se retire des affaires en 1869 — Marx peut alors écrire à temps plein
-
-**Après Marx**
-- À la mort de Marx (1883), Engels devient gardien et éditeur de l'œuvre
-- Édite et publie les Tomes II (1885) et III (1894) du *Capital* à partir des manuscrits
-- Figure tutélaire de la Deuxième Internationale (1889)
-- Meurt à Londres en 1895 d'un cancer du larynx ; cendres dispersées en mer selon ses vœux
-
-
-## Œuvres principales
+À la mort de Marx, en 1883, Engels devient l'exécuteur de son œuvre et la figure tutélaire du socialisme européen. Il meurt à Londres en 1895 d'un cancer de l'œsophage ; selon ses vœux, ses cendres sont dispersées en mer au large de Beachy Head.
 
 | Œuvre | Année | Apport |
 |-------|-------|--------|
@@ -53,103 +32,51 @@ Philosophe, théoricien politique et industriel allemand, co-auteur de la pensé
 | *Ludwig Feuerbach et la fin de la philosophie classique allemande* | 1886 | Bilan philosophique du marxisme |
 | *Dialectique de la nature* | rédigé 1873-1882, publié 1925 | Tentative d'extension de la dialectique aux sciences naturelles |
 
+## L'enquête avant la théorie
 
-## Apports propres
-
-### La condition ouvrière comme objet scientifique
-
-*La Situation de la classe laborieuse en Angleterre* (1845), écrite à 24 ans, fait d'Engels un précurseur de la sociologie empirique :
-- arpentage des quartiers de Manchester, Liverpool, Glasgow
-- documentation des logements insalubres, des maladies professionnelles, du travail des enfants
-- combinaison d'observation directe, de statistiques officielles et de presse ouvrière
-- thèse centrale : la misère ouvrière n'est pas un accident moral mais une conséquence structurelle du capitalisme industriel
-
-Bien avant Le Play ou Booth, Engels invente une démarche que la sociologie urbaine reprendra à la fin du siècle.
+*La Situation de la classe laborieuse en Angleterre*, écrite à vingt-quatre ans, fait d'Engels un précurseur de la sociologie empirique. Il croise ses observations directes dans les quartiers de Manchester, de Liverpool ou de Glasgow avec les rapports des commissions parlementaires, les statistiques sanitaires et la presse ouvrière. Il décrit les logements insalubres, les maladies professionnelles, l'espérance de vie raccourcie, et remarque que la ville est construite de telle sorte que les bourgeois peuvent la traverser sans jamais voir la misère, les grandes rues bordées de boutiques masquant les taudis. Sa thèse est que cette misère n'est pas un accident moral ni le fruit de l'imprévoyance des pauvres, mais la conséquence structurelle de l'industrie capitaliste. Bien avant Le Play ou Charles Booth, il invente une démarche que la sociologie urbaine reprendra à la fin du siècle.
 
 > [!important] Idée clé
 > Ce texte de 1845, écrit avant même la rencontre théorique complète avec Marx, montre que la méthode empirique d'Engels précède et nourrit la théorie — l'ordre est souvent présenté à l'envers (la théorie marxiste appliquée ensuite à des faits), alors qu'ici l'observation directe du terrain (les quartiers ouvriers de Manchester) vient *avant* la systématisation conceptuelle.
 
-### L'anthropologie matérialiste
+## La famille, la propriété et l'État
 
-*L'Origine de la famille, de la propriété privée et de l'État* (1884) prolonge les travaux de l'ethnologue américain Lewis H. Morgan (*Ancient Society*, 1877). Engels y soutient que :
+Dans *L'Origine de la famille, de la propriété privée et de l'État* (1884), Engels s'appuie sur les notes de Marx et sur l'ethnologue américain Lewis H. Morgan (*Ancient Society*, 1877) pour proposer une histoire matérialiste de la famille. La famille monogamique patriarcale n'est selon lui ni naturelle ni éternelle : elle apparaît avec la propriété privée, quand les hommes veulent transmettre leurs biens à des héritiers dont ils sont sûrs d'être les pères. « La première opposition de classe qui se manifeste dans l'histoire coïncide avec le développement de l'antagonisme entre l'homme et la femme dans le mariage conjugal, et la première oppression de classe avec l'oppression du sexe féminin par le sexe masculin. » L'État, de son côté, « n'est pas une puissance imposée du dehors à la société ; il est un produit de la société à un stade déterminé de son développement » : il naît des antagonismes de classe et sert d'abord la classe dominante.
 
-- la famille monogamique patriarcale n'est ni naturelle ni éternelle
-- elle apparaît avec la **propriété privée** et le besoin de transmettre l'héritage à des descendants identifiés
-- l'asservissement des femmes est la **première forme d'oppression de classe**
-- l'État émerge comme instrument de la classe dominante, non comme expression de l'intérêt général
+Les bases ethnographiques du livre, le schéma de Morgan qui fait passer toutes les sociétés par les mêmes stades, sont aujourd'hui dépassées. Mais l'idée que les rapports entre les sexes ont une histoire liée à l'économie a fait de ce livre une référence du féminisme socialiste, redécouvert dans les années 1970 par Juliet Mitchell, Lise Vogel ou, de manière critique, Christine Delphy.
 
-Le livre fonde le **féminisme socialiste** et reste une référence pour les théories matérialistes du genre (Christine Delphy, Lise Vogel).
+## Étendre la dialectique à la nature
 
-### La dialectique de la nature
+Dans l'*Anti-Dühring* (1878) et les manuscrits inachevés de la *Dialectique de la nature*, publiés seulement en 1925, Engels veut montrer que la dialectique héritée de Hegel ne vaut pas seulement pour l'histoire mais pour la nature elle-même. Il en dégage trois lois. La **transformation de la quantité en qualité** : au-delà d'un seuil, une accumulation produit un changement de nature, comme l'eau qui, chauffée degré après degré, se met soudain à bouillir. L'**interpénétration des contraires** : toute réalité porte en elle des tendances opposées dont la tension fait le mouvement. La **négation de la négation** : le grain d'orge disparaît dans la plante, qui produit à son tour de nombreux grains.
 
-Engels tente, dans des manuscrits laissés inachevés (*Dialectique de la nature*), d'étendre la méthode dialectique aux sciences exactes. Il y formule trois « lois de la dialectique » :
-
-1. **Loi de la transformation de la quantité en qualité** — au-delà d'un certain seuil, l'accumulation produit un changement de nature (ébullition de l'eau)
-2. **Loi de l'interpénétration des contraires** — toute réalité contient ses contradictions internes
-3. **Loi de la négation de la négation** — le développement procède par dépassement (graine → plante → graines)
-
-Cette extension a été vivement contestée :
-- Lukács et l'École de Francfort la rejettent — la dialectique ne vaut que pour l'histoire humaine
-- Althusser parle d'une « régression » par rapport à Marx
-- Les marxistes soviétiques en feront au contraire le canon du *Diamat* (matérialisme dialectique d'État)
+Cette extension a été très contestée. Lukács et l'École de Francfort jugent que la dialectique ne vaut que pour l'histoire humaine, où des sujets conscients agissent ; Althusser y voit une régression par rapport à Marx. Les marxistes soviétiques en font au contraire le cœur du *Diamat*, le matérialisme dialectique enseigné comme doctrine d'État.
 
 > [!warning] Piège
 > Le vrai enjeu de cette querelle n'est pas un détail d'école mais une question de portée : Marx applique la dialectique à l'histoire humaine, un domaine traversé par des contradictions sociales et des acteurs conscients — étendre la même logique à la nature physique (l'eau qui bout) suppose que le monde matériel obéit aussi à des "contradictions", une thèse beaucoup plus forte et contestable que le matérialisme historique lui-même.
 
-### Le travail et l'hominisation
+Dans un texte de 1876 resté inachevé, *Le Rôle du travail dans la transformation du singe en homme*, Engels avance aussi que la station debout a libéré la main, que la main a façonné l'outil et que le travail a fait grandir le cerveau. La séquence est dépassée, mais l'intuition d'une coévolution entre la main, l'outil et le cerveau reste discutée par les paléoanthropologues.
 
-Dans *Le rôle du travail dans la transformation du singe en homme* (1876), Engels propose une thèse anthropologique audacieuse : c'est l'usage des mains pour le travail qui aurait précédé et causé le développement du cerveau humain — la station debout libérant la main, la main façonnant l'outil, l'outil le cerveau. L'anthropologie contemporaine retient l'intuition d'une co-évolution main/cerveau, même si la séquence proposée est dépassée.
+## L'éditeur et le diffuseur
 
+À la mort de Marx, seul le premier livre du *Capital* était paru (1867). Engels passe ses dernières années à déchiffrer les manuscrits de son ami, une écriture presque illisible, des notes en plusieurs langues, des brouillons contradictoires, et publie le livre II en 1885, sur la circulation du capital, puis le livre III en 1894, sur le taux de profit, la rente et les crises. Sans ce travail, l'œuvre économique de Marx serait restée un fragment.
 
-## Le rôle dans la diffusion du marxisme
+Il en est aussi le premier vulgarisateur. L'*Anti-Dühring*, écrit pour réfuter le philosophe Eugen Dühring alors en vogue chez les sociaux-démocrates allemands, devient malgré lui le manuel du marxisme, et son extrait *Socialisme utopique et socialisme scientifique* (1880) est lu par des générations de militants. Engels y donne une forme systématique à ce que Marx avait laissé dispersé. Dans ses dernières années, il conseille les partis socialistes qui fondent la Deuxième Internationale en 1889 et correspond avec Kautsky, Bebel, Bernstein ou Plekhanov, qui le consultent comme un arbitre.
 
-### Édition du Capital
+## Marx contre Engels ?
 
-À la mort de Marx, seul le Tome I était publié (1867). Engels passe les onze dernières années de sa vie à :
-- déchiffrer les manuscrits chaotiques de Marx (notes en plusieurs langues, brouillons inachevés)
-- reconstituer et publier le Tome II en 1885 (circulation du capital)
-- reconstituer et publier le Tome III en 1894 (taux de profit, rente, crises)
-
-Sans ce travail d'édition, l'œuvre économique de Marx serait restée fragmentaire.
-
-### Vulgarisation et codification
-
-L'*Anti-Dühring* (1878) — d'abord polémique contre le philosophe Eugen Dühring — devient malgré lui le **manuel canonique du marxisme**. C'est par ce livre, et son condensé *Socialisme utopique et socialisme scientifique*, que des générations de militants ouvriers découvrent la doctrine. Engels y systématise ce que Marx avait laissé dispersé : philosophie, économie politique, socialisme scientifique.
-
-### La Deuxième Internationale
-
-Engels supervise la fondation de la **Deuxième Internationale** (Paris, 1889) qui fédère les partis socialistes européens jusqu'en 1914. Il correspond avec Kautsky, Bebel, Bernstein, Plekhanov — devient l'arbitre des querelles théoriques du jeune mouvement ouvrier.
-
-
-## La question « Marx contre Engels »
-
-À partir des années 1960, plusieurs lectures contestent la fidélité d'Engels à Marx :
-
-- **George Lichtheim, Norman Levine** soutiennent qu'Engels aurait *naturalisé* la dialectique (extension aux sciences) et *positivé* le marxisme, là où Marx restait centré sur l'histoire humaine
-- **Althusser** reproche à l'*Anti-Dühring* d'avoir figé une *vulgate* déterministe
-- À l'inverse, **Terrell Carver, Tristram Hunt** récusent cette « décharge » et montrent la continuité intellectuelle des deux hommes — Engels lui-même refusait toute originalité revendiquée
-
-Le débat reste ouvert. Il oppose en filigrane un Marx « humaniste, dialectique, ouvert » à un Engels « positiviste, scientiste, fermé » — partage commode mais largement reconstruit *a posteriori*.
+À partir des années 1960, plusieurs auteurs, comme George Lichtheim ou Norman Levine, soutiennent qu'Engels a trahi Marx : il aurait naturalisé la dialectique et fait du marxisme une science positive, déterministe, là où Marx restait un penseur critique de l'histoire humaine. Althusser reproche à l'*Anti-Dühring* d'avoir figé une vulgate. D'autres, comme Terrell Carver ou le biographe Tristram Hunt, nuancent fortement ce partage et soulignent la continuité entre deux hommes qui ont relu et approuvé leurs travaux respectifs pendant quarante ans. Engels lui-même s'effaçait : « Marx était un génie, nous autres tout au plus des talents », écrit-il dans *Ludwig Feuerbach* (1886). L'opposition entre un Marx humaniste et un Engels scientiste est commode, mais elle a été largement reconstruite après coup.
 
 > [!tip] Méthode
 > Face à toute affirmation "le marxisme dit que...", vérifier systématiquement si la source est Marx lui-même, Engels, ou le marxisme soviétique codifié après eux (*Diamat*) — ce sont trois strates différentes, parfois en tension, souvent amalgamées sous une même étiquette "marxisme" alors qu'elles répondent à des projets distincts (théorie critique, vulgarisation militante, doctrine d'État).
 
-
 ## Postérité
 
-- **Mouvement ouvrier** : modèle du théoricien-militant ; la *Deuxième Internationale* puis le marxisme orthodoxe (Kautsky) prolongent sa lecture
-- **Marxisme soviétique** : les « trois lois » de la dialectique deviennent canon scolaire (*Diamat*)
-- **Féminisme matérialiste** : *L'Origine de la famille* est redécouvert dans les années 1970 (Delphy, Mitchell, Vogel)
-- **Histoire sociale et urbaine** : *La Situation de la classe laborieuse* devient une référence pour l'histoire de l'industrialisation
-- **Anthropologie du genre** : malgré ses bases ethnographiques aujourd'hui datées, le livre garde une fécondité méthodologique
+Engels a été le modèle du théoricien-militant pour le mouvement ouvrier, et le marxisme orthodoxe de la Deuxième Internationale, autour de Kautsky, prolonge sa lecture. Le marxisme soviétique a fait de ses trois lois de la dialectique un catéchisme scolaire. *La Situation de la classe laborieuse* est devenue une source classique de l'histoire de l'industrialisation, et *L'Origine de la famille* reste discutée par l'anthropologie et le féminisme matérialiste, malgré ses données vieillies.
 
+## Ressources
 
-## Citations
-
-> « Les rapports juridiques, de même que les formes de l'État, ne peuvent être compris ni par eux-mêmes, ni par la prétendue évolution générale de l'esprit humain, mais ont au contraire leurs racines dans les conditions matérielles d'existence. » (Préface à la *Contribution à la critique de l'économie politique*, 1859)
-
-> « L'État n'est pas une puissance imposée du dehors à la société ; il est un produit de la société à un stade déterminé de son développement. » (*L'Origine de la famille*, 1884)
-
-> « La première opposition de classe qui se manifeste dans l'histoire coïncide avec le développement de l'antagonisme entre l'homme et la femme dans le mariage conjugal, et la première oppression de classe avec l'oppression du sexe féminin par le sexe masculin. » (*L'Origine de la famille*, 1884)
-
-> « Marx était un génie, nous autres tout au plus des talents. » (Engels, *Ludwig Feuerbach*, 1886)
+- Friedrich Engels, *La Situation de la classe laborieuse en Angleterre* (1845).
+- Friedrich Engels, *Socialisme utopique et socialisme scientifique* (1880) : l'exposé le plus court de la doctrine.
+- Friedrich Engels, *L'Origine de la famille, de la propriété privée et de l'État* (1884).
+- Tristram Hunt, *Le Gentleman communiste. La vie révolutionnaire de Friedrich Engels* (2009).
+- Terrell Carver, *Engels: A Very Short Introduction* (2003).
