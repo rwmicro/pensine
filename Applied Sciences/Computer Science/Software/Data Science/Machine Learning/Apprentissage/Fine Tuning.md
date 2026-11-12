@@ -9,19 +9,11 @@ prerequis: ["[[LLM — Architectures et Fonctionnement]]"]
 
 # Fine Tuning
 
-Le **fine-tuning** (ajustement fin) consiste à prendre un modèle **pré-entraîné** sur une grande quantité de données et à l'adapter à une **tâche spécifique** en continuant l'entraînement sur un dataset plus petit et ciblé.
+En 2012, un réseau de neurones nommé AlexNet remporte le concours ImageNet après une semaine d'entraînement sur 1,2 million d'images. Quelques années plus tard, un radiologue veut un modèle qui repère des fractures sur des radiographies : il ne dispose que de quelques milliers d'images annotées, beaucoup trop peu pour entraîner un réseau de cette taille depuis zéro. Pourtant, en partant d'un réseau déjà entraîné sur ImageNet et en le réentraînant quelques heures sur ses radiographies, il obtient un modèle performant. Le réseau n'avait jamais vu de radiographie, mais il savait déjà reconnaître des contours, des textures et des formes. C'est le principe du **fine-tuning** (ajustement fin) : prendre un modèle **pré-entraîné** sur une grande quantité de données et l'adapter à une **tâche spécifique** en continuant son entraînement sur un jeu de données plus petit et ciblé.
 
-## Pourquoi faire du fine-tuning ?
+## Pourquoi ne pas tout réentraîner ?
 
-Entraîner un modèle de deep learning depuis zéro nécessite :
-- Des **millions de données**
-- Des **centaines d'heures de GPU**
-- Un **budget conséquent**
-
-Le fine-tuning permet de **réutiliser les connaissances** déjà acquises par un modèle existant et de les adapter à moindre coût.
-
-> [!important] Distinction clé
-> Transfer learning est le principe général (réutiliser un modèle pré-entraîné) ; fine-tuning en est une forme spécifique où l'on continue réellement l'entraînement (au moins partiellement) plutôt que de figer tout le backbone.
+Entraîner un modèle de deep learning depuis zéro demande des millions d'exemples, des centaines ou des milliers d'heures de GPU et un budget en conséquence. Or une grande partie de ce qu'apprend un modèle est générique : les premières couches d'un réseau de vision détectent des bords et des couleurs, utiles pour n'importe quelle image ; un modèle de langage pré-entraîné connaît déjà la grammaire, le vocabulaire et beaucoup de faits. Le fine-tuning réutilise ce savoir et n'apprend que ce qui est propre à la nouvelle tâche, avec beaucoup moins de données et de calcul.
 
 ```mermaid
 flowchart LR
@@ -38,9 +30,12 @@ flowchart LR
     style B2 fill:#2196F3,color:#fff
 ```
 
-## Transfer Learning vs Fine-Tuning
+## Transfer learning et fine-tuning
 
-Ces deux termes sont liés mais distincts :
+> [!important] Distinction clé
+> Transfer learning est le principe général (réutiliser un modèle pré-entraîné) ; fine-tuning en est une forme spécifique où l'on continue réellement l'entraînement (au moins partiellement) plutôt que de figer tout le backbone.
+
+Dans la forme la plus simple du transfer learning, l'**extraction de caractéristiques** (*feature extraction*), on gèle tout le réseau pré-entraîné, qu'on utilise comme un extracteur fixe, et on n'entraîne qu'une nouvelle tête ajoutée au bout, par exemple une couche de classification pour ses propres catégories. Dans le fine-tuning proprement dit, on dégèle aussi une partie des couches existantes, généralement les dernières, pour qu'elles s'ajustent aux nouvelles données.
 
 | | Transfer Learning | Fine-Tuning |
 |---|---|---|
@@ -54,12 +49,12 @@ Ces deux termes sont liés mais distincts :
 flowchart TB
     subgraph "Feature Extraction (Transfer Learning)"
         direction LR
-        FE1["Couches convolutives\n🔒 GELÉES"] --> FE2["Nouvelles couches\n🔓 ENTRAÎNÉES"]
+        FE1["Couches convolutives\nGELÉES"] --> FE2["Nouvelles couches\nENTRAÎNÉES"]
     end
 
     subgraph "Fine-Tuning"
         direction LR
-        FT1["Premières couches\n🔒 GELÉES"] --> FT2["Dernières couches\n🔓 DÉGELÉES"] --> FT3["Nouvelles couches\n🔓 ENTRAÎNÉES"]
+        FT1["Premières couches\nGELÉES"] --> FT2["Dernières couches\nDÉGELÉES"] --> FT3["Nouvelles couches\nENTRAÎNÉES"]
     end
 
     style FE1 fill:#9E9E9E,color:#fff
@@ -69,31 +64,17 @@ flowchart TB
     style FT3 fill:#4CAF50,color:#fff
 ```
 
-## Stratégies de fine-tuning
+## Les stratégies de fine-tuning
 
-### 1. Fine-tuning complet (Full Fine-Tuning)
-- On ré-entraîne **tous les poids** du modèle
-- Nécessite plus de données et de calcul
-- Risque d'**overfitting** si le dataset est petit
-- Utile quand la tâche cible est très différente
+Le **fine-tuning complet** réentraîne tous les poids du modèle. C'est la méthode la plus puissante quand la tâche cible est très différente de la tâche d'origine, mais elle demande plus de données et de calcul, et un petit jeu de données expose au surapprentissage.
 
-### 2. Fine-tuning partiel (Gradual Unfreezing)
-- On dégèle les couches **progressivement**, de la dernière vers la première
-- Permet un contrôle fin de l'adaptation
-- Les premières couches (features génériques) restent souvent gelées
-- Les dernières couches (features spécifiques) sont ré-entraînées
+Le **dégel progressif** (*gradual unfreezing*) procède par étapes : on n'entraîne d'abord que la nouvelle tête, puis on dégèle les dernières couches, puis les précédentes, en remontant vers l'entrée. Les premières couches, qui portent les caractéristiques les plus génériques, restent souvent gelées jusqu'au bout. Cette progressivité évite de détruire d'un coup ce que le modèle savait.
 
-### 3. Discriminative Learning Rates
-- On applique des **learning rates différents** selon les couches :
-  - Couches profondes (début) : learning rate très faible
-  - Couches superficielles (fin) : learning rate plus élevé
-- Préserve les features génériques tout en adaptant les features spécifiques
+Les **taux d'apprentissage différenciés** (*discriminative learning rates*) poursuivent la même idée autrement : toutes les couches sont entraînées, mais avec un taux d'apprentissage très faible pour les premières couches et plus élevé pour les dernières. Les caractéristiques génériques ne bougent presque pas, tandis que les caractéristiques spécifiques s'adaptent. Ces deux techniques ont été popularisées par la méthode ULMFiT de Jeremy Howard et Sebastian Ruder (2018).
 
-## Fine-tuning des LLM
+## Le cas des grands modèles de langage
 
-Le fine-tuning des grands modèles de langage (LLM) pose des défis spécifiques en raison de leur **taille** (des milliards de paramètres).
-
-### Le problème
+Les LLM posent un problème d'échelle. Rien que pour stocker les poids en demi-précision (FP16, deux octets par paramètre), il faut :
 
 | Modèle | Paramètres | VRAM requise (FP16) |
 |--------|-----------|---------------------|
@@ -101,11 +82,7 @@ Le fine-tuning des grands modèles de langage (LLM) pose des défis spécifiques
 | LLaMA 13B | 13 milliards | ~26 Go |
 | LLaMA 70B | 70 milliards | ~140 Go |
 
-Un fine-tuning complet de ces modèles est **hors de portée** pour la plupart des praticiens.
-
-### Solutions : Parameter-Efficient Fine-Tuning (PEFT)
-
-Les méthodes PEFT ne modifient qu'une **petite fraction** des paramètres, réduisant drastiquement les besoins en mémoire et en calcul.
+Un fine-tuning complet demande bien plus encore, puisqu'il faut aussi garder les gradients et l'état de l'optimiseur, soit trois à quatre fois la taille du modèle. C'est hors de portée de la plupart des praticiens. D'où la famille des méthodes **PEFT** (*Parameter-Efficient Fine-Tuning*), qui gèlent le modèle d'origine et n'entraînent qu'une toute petite fraction de paramètres supplémentaires.
 
 ```mermaid
 flowchart TB
@@ -121,53 +98,31 @@ flowchart TB
     style QLORA fill:#FF5722,color:#fff
 ```
 
-#### LoRA (Low-Rank Adaptation)
+### LoRA
 
-**Idée clé :** au lieu de modifier les poids originaux $W$, on ajoute une modification de **rang faible** :
+La plus utilisée est **LoRA** (*Low-Rank Adaptation*, Hu et al., 2021). Elle part d'une observation : la modification qu'un fine-tuning apporte à une matrice de poids est, en pratique, de faible « rang », c'est-à-dire qu'elle peut se décrire avec beaucoup moins de nombres que la matrice entière. Plutôt que de modifier la matrice originale $W$, de taille $d \times d$, on la gèle et on lui ajoute le produit de deux petites matrices entraînables :
 
 $$W' = W + \Delta W = W + BA$$
 
-- $W$ : matrice de poids originale ($d \times d$) — **gelée**
-- $B$ : matrice ($d \times r$) — **entraînée**
-- $A$ : matrice ($r \times d$) — **entraînée**
-- $r$ : rang, typiquement 4 à 64 (très petit par rapport à $d$)
-
-**Avantages :**
-- Réduit les paramètres entraînables de **~10 000x**
-- Pas de latence supplémentaire en inférence (on fusionne $W + BA$)
-- Facilement interchangeable (on peut stocker plusieurs adaptateurs LoRA)
+où $B$ est de taille $d \times r$, $A$ de taille $r \times d$, et le rang $r$, typiquement entre 4 et 64, est très petit devant $d$. Pour $d = 4096$ et $r = 8$, on entraîne 65 536 paramètres au lieu de près de 17 millions pour cette matrice. Sur GPT-3, les auteurs divisent ainsi le nombre de paramètres entraînables par environ 10 000. Une fois l'entraînement terminé, on peut fusionner $W + BA$ en une seule matrice, si bien que l'inférence n'est pas ralentie. Et comme un adaptateur ne pèse que quelques mégaoctets, on peut en garder plusieurs pour un même modèle de base, un par tâche, et les échanger à volonté.
 
 > [!tip] Choisir le rang r
 > Un rang trop faible (r=1-2) peut manquer de capacité pour des adaptations complexes ; un rang trop élevé se rapproche du fine-tuning complet sans en garder les bénéfices. En pratique, r=8 à 16 suffit pour la plupart des adaptations de style/domaine ; monter à 32-64 seulement pour des tâches qui demandent d'apprendre des connaissances nouvelles substantielles.
 
-#### QLoRA (Quantized LoRA)
+### QLoRA
 
-Combine la **quantification** du modèle de base avec LoRA :
-1. Le modèle de base est quantifié en **4-bit** (NormalFloat4)
-2. Les adaptateurs LoRA restent en **16-bit**
-3. Rétro-propagation à travers le modèle quantifié
+**QLoRA** (Dettmers et al., 2023) pousse l'économie plus loin en combinant LoRA et quantification. Le modèle de base, gelé, est chargé en 4 bits, dans un format adapté à la distribution des poids (NormalFloat4), tandis que les adaptateurs LoRA restent en 16 bits ; les gradients traversent le modèle quantifié pour mettre à jour les seuls adaptateurs. Résultat : on peut fine-tuner un modèle de 65 milliards de paramètres sur un seul GPU de 48 Go.
 
-**Résultat :** fine-tuner un modèle de 65B paramètres sur un **seul GPU de 48 Go**.
+### Les autres méthodes PEFT
 
-#### Prefix Tuning
-- Ajoute des **vecteurs apprenables** au début de chaque couche d'attention
-- Le modèle original reste complètement gelé
-- Très peu de paramètres supplémentaires (~0.1%)
+D'autres méthodes ajoutent des paramètres ailleurs. Le **prefix tuning** ajoute des vecteurs apprenables au début de chaque couche d'attention, en laissant tout le modèle gelé, pour environ 0,1 % de paramètres en plus. Le **prompt tuning** se contente d'ajouter quelques « tokens virtuels » apprenables au début de l'entrée ; il est encore plus léger et devient compétitif sur les très grands modèles, au-delà d'une dizaine de milliards de paramètres. Les **adapters**, enfin, insèrent de petites couches entraînables entre les couches existantes.
 
-#### Prompt Tuning
-- Ajoute des **tokens virtuels apprenables** au début de l'entrée
-- Encore plus simple que le prefix tuning
-- Efficace pour les très grands modèles (>10B paramètres)
+## Bien s'y prendre
 
-## Bonnes pratiques
+La qualité des données compte plus que leur quantité : quelques centaines d'exemples propres et représentatifs valent mieux que des milliers d'exemples bruités. Ils doivent suivre un format cohérent, couvrir la diversité des cas réels attendus, et un jeu de test séparé doit permettre de vérifier que le modèle généralise.
 
-### Préparation des données
-- **Qualité > Quantité** : un petit dataset propre vaut mieux qu'un grand dataset bruité
-- **Format cohérent** : structurer les données de manière uniforme
-- **Diversité** : couvrir les cas d'usage réels attendus
-- **Validation** : toujours garder un jeu de test séparé
+Les hyperparamètres diffèrent de ceux d'un entraînement depuis zéro, surtout le taux d'apprentissage, nettement plus faible pour ne pas détruire ce que le modèle sait déjà. Les valeurs suivantes sont des points de départ habituels pour un fine-tuning complet de transformer ; LoRA tolère des taux plus élevés, de l'ordre de 1e-4 à 2e-4.
 
-### Hyperparamètres recommandés
 | Paramètre | Valeur typique | Notes |
 |-----------|---------------|-------|
 | **Learning rate** | 1e-5 à 5e-5 | Plus faible que l'entraînement from scratch |
@@ -181,7 +136,9 @@ Combine la **quantification** du modèle de base avec LoRA :
 > - **Overfitting** : le modèle mémorise le dataset de fine-tuning → data augmentation, early stopping, dropout.
 > - **Learning rate trop élevé** : détruit les poids pré-entraînés en une ou deux étapes → commencer très bas, utiliser un warmup.
 
-## Quand choisir quelle méthode ?
+## Quelle méthode choisir ?
+
+Le choix dépend surtout de la taille du modèle et du matériel disponible. Pour un petit modèle, de moins d'un milliard de paramètres, le fine-tuning complet reste accessible. Au-delà, LoRA s'impose si l'on dispose de plusieurs GPU ou du cloud, QLoRA si l'on n'a qu'un GPU. Et si la nouvelle tâche ressemble beaucoup à celle d'origine, l'extraction de caractéristiques, avec tout le réseau gelé, peut suffire.
 
 ```mermaid
 flowchart TD
@@ -202,6 +159,6 @@ flowchart TD
 
 ## Ressources
 
-- [Fine-tuning LLaMA 2 — Notebook complet](https://github.com/brevdev/notebooks/blob/main/llama2-finetune-own-data.ipynb)
-- [Hugging Face PEFT](https://huggingface.co/docs/peft) — Librairie officielle pour LoRA, QLoRA, etc.
-- [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685) — Article original
+- [Hugging Face PEFT](https://huggingface.co/docs/peft), la bibliothèque de référence pour LoRA, QLoRA et les autres méthodes.
+- [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685), l'article original (2021), et [QLoRA](https://arxiv.org/abs/2305.14314) (2023).
+- [Fine-tuning LLaMA 2, notebook complet](https://github.com/brevdev/notebooks/blob/main/llama2-finetune-own-data.ipynb).
