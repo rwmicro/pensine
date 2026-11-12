@@ -8,21 +8,23 @@ date: "2026-02-16"
 
 # Git - Système de contrôle de version
 
-## Vue d'ensemble
+En avril 2005, les développeurs du noyau Linux perdent du jour au lendemain l'outil avec lequel ils travaillaient, BitKeeper, dont l'éditeur retire la licence gratuite. Linus Torvalds décide d'écrire son propre outil. En une dizaine de jours, il a un prototype capable de gérer le code du noyau ; il l'appelle **Git**. Vingt ans plus tard, c'est l'outil de gestion de versions de presque tous les projets logiciels du monde.
 
-**Git** est un système de contrôle de version distribué (DVCS) créé par Linus Torvalds en 2005 pour gérer le développement du noyau Linux.
+Git est un système de contrôle de version **distribué** : chaque développeur possède une copie complète du dépôt et de tout son historique, et peut travailler, committer ou créer des branches sans serveur. Les échanges avec les autres ne sont que des synchronisations entre copies. C'est ce qui rend Git rapide, puisque presque tout se passe en local, et robuste, puisque chaque copie est une sauvegarde.
 
-**Avantages** :
-- Décentralisé : chaque développeur a une copie complète de l'historique
-- Rapide et efficace
-- Branches légères
-- Intégrité des données (SHA-1)
-- Open source et gratuit
+## Comprendre le modèle avant les commandes
 
+La plupart des difficultés avec Git viennent d'un modèle mental flou. Trois idées suffisent à en comprendre l'essentiel.
 
-## Configuration initiale
+D'abord, un **commit** n'est pas une liste de modifications mais un instantané complet du projet à un moment donné, accompagné d'un message, d'un auteur et d'un lien vers son ou ses commits parents. Chaque commit est identifié par une empreinte cryptographique (SHA-1 par défaut, SHA-256 en option) calculée à partir de son contenu et de ses parents : modifier un commit ancien change son identifiant, et donc celui de tous ses descendants. C'est ce qui garantit l'intégrité de l'historique, et c'est aussi pourquoi « réécrire l'historique » a des conséquences.
 
-### Configuration de base
+Ensuite, Git distingue trois zones. Le **répertoire de travail** contient les fichiers tels qu'on les édite. L'**index** (ou *staging area*) est une zone de préparation où l'on place, avec `git add`, exactement ce que l'on veut mettre dans le prochain commit. Le **dépôt** (le dossier `.git`) conserve les commits. Cette étape intermédiaire permet de découper un travail désordonné en commits propres, par exemple en n'ajoutant qu'une partie d'un fichier avec `git add -p`.
+
+Enfin, une **branche** n'est qu'une étiquette mobile qui pointe vers un commit, et `HEAD` désigne la branche sur laquelle on se trouve. Créer une branche ne copie rien, ce qui explique qu'elles soient si légères et qu'on en crée pour la moindre fonctionnalité.
+
+## Configurer Git
+
+Avant le premier commit, Git doit savoir qui vous êtes, car chaque commit enregistre un nom et une adresse. La configuration existe à trois niveaux : système (`/etc/gitconfig`, option `--system`), utilisateur (`~/.gitconfig`, option `--global`) et dépôt (`.git/config`, option `--local`, par défaut). Le niveau le plus proche l'emporte : un réglage du dépôt surcharge le réglage global, qui surcharge celui du système.
 
 ```bash
 # Identité (obligatoire)
@@ -33,687 +35,239 @@ git config --global user.email "votre@email.com"
 git config --global core.editor "vim"
 git config --global core.editor "code --wait"  # VS Code
 
-# Couleurs
-git config --global color.ui auto
-
-# Voir toute la configuration
+# Voir toute la configuration, ou un paramètre
 git config --list
-git config --global --list
-
-# Voir un paramètre spécifique
 git config user.name
 ```
 
-### Niveaux de configuration
+## Le cycle de travail quotidien
 
-1. **System** (`/etc/gitconfig`) : `--system`
-2. **Global** (`~/.gitconfig`) : `--global`
-3. **Local** (`.git/config` du dépôt) : `--local` (par défaut)
-
-La configuration locale surcharge la globale qui surcharge la système.
-
-
-## Commandes de base
-
-### Créer un dépôt
+On commence soit en créant un dépôt avec `git init`, soit en copiant un dépôt existant avec `git clone`. Un clone superficiel (`--depth 1`) ne récupère que le dernier état, ce qui est utile pour un gros projet dont on n'a pas besoin de l'historique.
 
 ```bash
-# Nouveau dépôt local
-git init
 git init mon-projet
-
-# Cloner un dépôt existant
 git clone https://github.com/user/repo.git
-git clone https://github.com/user/repo.git nouveau-nom
-git clone --depth 1 https://github.com/user/repo.git  # Clone superficiel (shallow)
+git clone --depth 1 https://github.com/user/repo.git  # Clone superficiel
 ```
 
-### Workflow de base
+Le travail suit ensuite toujours la même boucle : on modifie des fichiers, on regarde où on en est avec `git status`, on prépare le commit avec `git add`, puis on l'enregistre avec `git commit`. `git diff` montre ce qui a changé dans le répertoire de travail par rapport à l'index, et `git diff --staged` ce qui est dans l'index par rapport au dernier commit, c'est-à-dire ce qui partira dans le prochain.
 
 ```bash
-# Voir le statut
 git status
-git status -s  # Version courte
-
-# Ajouter des fichiers à l'index (staging area)
 git add fichier.txt
-git add *.js
-git add .  # Tout ajouter
-git add -p  # Ajouter par morceaux (interactif)
-
-# Créer un commit
+git add -p                  # Choisir les morceaux à ajouter
 git commit -m "Message de commit"
-git commit -am "Message"  # add + commit (fichiers suivis uniquement)
-git commit --amend  # Modifier le dernier commit
+git commit --amend          # Corriger le dernier commit
 
-# Voir l'historique
-git log
-git log --oneline
-git log --graph --oneline --all
-git log --since="2 weeks ago"
-git log --author="Nom"
-git log -- fichier.txt  # Historique d'un fichier
-git log -p  # Avec les diff
-git log -3  # 3 derniers commits
+git diff                    # Répertoire de travail vs index
+git diff --staged           # Index vs dernier commit
 
-# Voir les différences
-git diff  # Working dir vs staging
-git diff --staged  # Staging vs dernier commit
-git diff HEAD  # Working dir vs dernier commit
-git diff branche1..branche2
+git log --oneline --graph --all
+git log -p -- fichier.txt   # Historique détaillé d'un fichier
 ```
 
-### Annuler des modifications
+## Revenir en arrière
+
+Git offre plusieurs façons d'annuler, et le bon choix dépend de l'endroit où se trouve la modification. Pour abandonner une modification non commitée, on utilise `git restore` ; pour retirer un fichier de l'index sans perdre la modification, `git restore --staged`.
+
+Pour annuler des commits, deux philosophies s'opposent. `git reset` déplace la branche vers un commit antérieur, comme si les commits suivants n'avaient jamais existé : avec `--soft`, les changements restent dans l'index ; avec `--mixed` (par défaut), ils restent dans le répertoire de travail ; avec `--hard`, ils sont effacés. `git revert`, au contraire, crée un nouveau commit qui applique l'inverse d'un commit existant, sans toucher à l'historique. La règle pratique est simple : `reset` pour ce qui n'a pas encore été partagé, `revert` pour ce qui l'a déjà été.
 
 ```bash
-# Annuler les modifications (working directory)
-git restore fichier.txt
-git checkout -- fichier.txt  # Ancienne syntaxe
+git restore fichier.txt            # Abandonner les modifications
+git restore --staged fichier.txt   # Retirer de l'index
 
-# Retirer de la staging area
-git restore --staged fichier.txt
-git reset HEAD fichier.txt  # Ancienne syntaxe
+git reset --soft HEAD~1    # Défait le commit, garde les changements dans l'index
+git reset --hard HEAD~1    # DANGER : supprime aussi les changements
 
-# Annuler un commit (3 méthodes)
-git reset --soft HEAD~1  # Garde les changements en staging
-git reset --mixed HEAD~1  # Garde les changements (défaut)
-git reset --hard HEAD~1  # DANGER : Supprime tout
-
-# Créer un commit qui annule un autre
-git revert <commit-hash>
-git revert HEAD  # Annuler le dernier commit
+git revert <commit-hash>   # Nouveau commit qui annule l'ancien
 ```
 
-
-## Branches
-
-### Gestion des branches
+Même après un `reset --hard`, rien n'est vraiment perdu tout de suite : le **reflog** garde la trace de toutes les positions successives de `HEAD`, ce qui permet de retrouver un commit « disparu » et de recréer une branche dessus.
 
 ```bash
-# Lister les branches
-git branch  # Locales
-git branch -a  # Toutes (locales + distantes)
-git branch -r  # Distantes uniquement
-
-# Créer une branche
-git branch nouvelle-branche
-git branch nouvelle-branche <commit>  # À partir d'un commit
-
-# Changer de branche
-git checkout branche
-git switch branche  # Nouvelle syntaxe
-
-# Créer et changer de branche
-git checkout -b nouvelle-branche
-git switch -c nouvelle-branche  # Nouvelle syntaxe
-
-# Renommer une branche
-git branch -m ancien-nom nouveau-nom
-git branch -m nouveau-nom  # Branche actuelle
-
-# Supprimer une branche
-git branch -d branche  # Sécurisé (refuse si non fusionnée)
-git branch -D branche  # Force
+git reflog
+git branch branche-recuperee <commit-hash>
 ```
 
-### Fusion (merge)
+## Branches, fusion et rebase
+
+Puisqu'une branche n'est qu'un pointeur, on en crée une pour chaque sujet de travail, on y committe tranquillement, puis on réintègre le résultat. `git switch` est la commande moderne pour changer de branche ; `git checkout`, plus ancienne, faisait à la fois cela et la restauration de fichiers, ce qui prêtait à confusion.
 
 ```bash
-# Fusionner une branche dans la branche actuelle
+git branch -a                    # Lister toutes les branches
+git switch -c nouvelle-branche   # Créer et basculer
+git switch main
+git branch -m nouveau-nom        # Renommer la branche courante
+git branch -d branche            # Supprimer (refuse si non fusionnée)
+```
+
+Pour réintégrer une branche, il y a deux approches. La **fusion** (`git merge`) relie les deux historiques. Si la branche cible n'a pas bougé entre-temps, Git avance simplement son pointeur (*fast-forward*) ; sinon il crée un commit de fusion à deux parents. L'option `--no-ff` force ce commit même quand il n'est pas nécessaire, pour garder la trace qu'une branche a existé, et `--squash` écrase toute la branche en un seul commit.
+
+Le **rebase** (`git rebase main`) procède autrement : il rejoue un à un les commits de la branche courante au-dessus de `main`, comme si on avait commencé le travail à partir de son état actuel. L'historique devient linéaire et plus lisible, mais les commits rejoués sont de nouveaux commits, avec de nouveaux identifiants. Le rebase interactif (`git rebase -i`) permet en plus de réordonner, renommer, fusionner (`squash`, `fixup`) ou supprimer (`drop`) des commits avant de les partager.
+
+```bash
 git merge branche-source
+git merge --no-ff branche
 
-# Types de merge
-git merge --ff branche  # Fast-forward (défaut si possible)
-git merge --no-ff branche  # Force un commit de merge
-git merge --squash branche  # Écrase tous les commits en un seul
-
-# En cas de conflit
-# 1. Résoudre manuellement les conflits dans les fichiers
-# 2. Marquer comme résolu
-git add fichier-resolu.txt
-# 3. Finaliser le merge
-git commit
-```
-
-### Rebase
-
-```bash
-# Rebaser la branche actuelle sur une autre
 git rebase main
-git rebase --onto nouvelle-base ancienne-base branche
-
-# Rebase interactif (modifier l'historique)
-git rebase -i HEAD~3  # 3 derniers commits
-
-# Options du rebase interactif :
-# pick   : garder le commit
-# reword : modifier le message
-# edit   : modifier le commit
-# squash : fusionner avec le précédent
-# fixup  : comme squash mais jette le message
-# drop   : supprimer le commit
-
-# En cas de conflit
-git rebase --continue  # Après résolution
-git rebase --skip  # Ignorer ce commit
-git rebase --abort  # Annuler le rebase
+git rebase -i HEAD~3       # Retravailler les 3 derniers commits
+git rebase --continue      # Après avoir résolu un conflit
+git rebase --abort         # Tout annuler
 ```
 
 > [!warning] Règle d'or
 > Ne jamais rebaser des commits déjà pushés sur une branche publique ! Le rebase réécrit l'historique (nouveaux hash de commits) — quiconque a déjà basé du travail sur l'ancien historique se retrouve avec des commits divergents impossibles à fusionner proprement.
 
+Quand les deux côtés ont modifié les mêmes lignes, Git s'arrête sur un **conflit** et marque les zones concernées avec `<<<<<<<`, `=======` et `>>>>>>>`. On édite le fichier pour garder la bonne version, on le marque comme résolu avec `git add`, puis on termine avec `git commit` (pour une fusion) ou `git rebase --continue`.
 
-## Travail avec des dépôts distants
+Enfin, `git cherry-pick` applique un commit précis d'une autre branche sur la branche courante, ce qui sert typiquement à reporter un correctif.
 
-### Gestion des remotes
+## Travailler avec des dépôts distants
+
+Un *remote* est une autre copie du dépôt, le plus souvent sur un serveur comme GitHub ou GitLab, à laquelle on donne un nom court : `origin` par convention pour son propre dépôt, `upstream` pour le projet d'origine d'un fork.
+
+`git fetch` récupère les nouveaux commits du distant sans toucher à vos branches : on peut les examiner avant de décider quoi en faire. `git pull` fait un `fetch` suivi d'une fusion, ou d'un rebase avec `--rebase`. `git push` envoie vos commits ; l'option `-u` mémorise la branche distante associée pour que les `push` et `pull` suivants n'aient plus besoin d'arguments.
 
 ```bash
-# Lister les remotes
-git remote
-git remote -v  # Avec les URLs
-
-# Ajouter un remote
-git remote add origin https://github.com/user/repo.git
+git remote -v
 git remote add upstream https://github.com/original/repo.git
 
-# Modifier un remote
-git remote set-url origin https://github.com/user/nouveau-repo.git
-
-# Supprimer un remote
-git remote remove origin
-
-# Voir les détails d'un remote
-git remote show origin
-```
-
-### Push et Pull
-
-```bash
-# Push (envoyer vers le remote)
-git push origin main
-git push -u origin main  # Set upstream (première fois)
-git push  # Si upstream configuré
-git push --all  # Toutes les branches
-git push --tags  # Tous les tags
-git push --force  # DANGER : Force le push (écrase l'historique distant)
-git push --force-with-lease  # Plus sûr : vérifie avant de forcer
+git fetch --prune          # Récupérer et nettoyer les références obsolètes
+git pull --rebase
+git push -u origin main
+git push --force-with-lease
 ```
 
 > [!tip] Pourquoi `--force-with-lease` plutôt que `--force`
 > `--force` écrase le distant même si quelqu'un d'autre a poussé entre-temps — leurs commits disparaissent silencieusement. `--force-with-lease` vérifie d'abord que le distant est dans l'état où on l'a vu la dernière fois, et refuse sinon : ça transforme une perte de données silencieuse en erreur explicite.
 
-```bash
-# Pull (récupérer + fusionner)
-git pull origin main
-git pull  # Si upstream configuré
-git pull --rebase  # Rebase au lieu de merge
-
-# Fetch (récupérer sans fusionner)
-git fetch origin
-git fetch --all  # Tous les remotes
-git fetch --prune  # Nettoie les références obsolètes
-```
-
-### Synchronisation avec upstream
+Pour un fork, le cycle consiste à récupérer régulièrement le projet d'origine et à y rebaser ou fusionner son travail :
 
 ```bash
-# Workflow fork/upstream classique
-git remote add upstream https://github.com/original/repo.git
 git fetch upstream
-git checkout main
-git merge upstream/main
-# ou
+git switch main
 git rebase upstream/main
 git push origin main
 ```
 
+## Tags, stash et autres outils du quotidien
 
-## Tags
+Un **tag** marque un commit précis, en général une version publiée. Il ne bouge pas, contrairement à une branche. On préfère les tags annotés (`-a`), qui enregistrent un auteur, une date et un message. Les tags ne sont pas envoyés par un `push` ordinaire.
 
 ```bash
-# Lister les tags
-git tag
-git tag -l "v1.*"  # Filtre
-
-# Créer un tag léger
-git tag v1.0.0
-
-# Créer un tag annoté (recommandé)
 git tag -a v1.0.0 -m "Version 1.0.0"
-
-# Tagger un commit spécifique
-git tag -a v0.9.0 <commit-hash> -m "Version 0.9.0"
-
-# Voir les détails d'un tag
-git show v1.0.0
-
-# Supprimer un tag
-git tag -d v1.0.0  # Local
-git push origin --delete v1.0.0  # Distant
-
-# Push des tags
-git push origin v1.0.0  # Un tag spécifique
-git push origin --tags  # Tous les tags
+git push origin v1.0.0
+git tag -d v1.0.0 && git push origin --delete v1.0.0
 ```
 
-
-## Stash (remiser)
+Le **stash** met de côté des modifications en cours pour retrouver un répertoire propre, par exemple pour corriger un bug urgent sur une autre branche, puis les réapplique plus tard.
 
 ```bash
-# Mettre de côté les modifications
-git stash
-git stash save "Message descriptif"
-git stash -u  # Inclure les fichiers non suivis
-
-# Lister les stash
+git stash push -m "Message descriptif"
+git stash -u               # Inclure les fichiers non suivis
 git stash list
-
-# Appliquer un stash
-git stash apply  # Le plus récent
-git stash apply stash@{2}  # Stash spécifique
-git stash pop  # Apply + drop
-
-# Supprimer un stash
-git stash drop stash@{0}
-git stash clear  # Tous les stash
-
-# Créer une branche depuis un stash
-git stash branch nouvelle-branche
+git stash pop              # Réappliquer et supprimer de la pile
 ```
 
-
-## Recherche et navigation
-
-### Git grep
+Pour enquêter dans un projet, `git grep` cherche dans les fichiers suivis, `git blame` indique pour chaque ligne le dernier commit qui l'a modifiée, et `git bisect` trouve le commit qui a introduit un bug par recherche dichotomique : on indique un commit « bon » et un « mauvais », Git propose un commit au milieu, on le teste, et en une dizaine d'étapes on isole le coupable parmi un millier de commits.
 
 ```bash
-# Rechercher dans le code
-git grep "fonction"
-git grep -n "fonction"  # Avec numéros de ligne
-git grep -c "fonction"  # Compte les occurrences
-git grep "fonction" -- "*.js"  # Dans les fichiers .js
-```
+git grep -n "fonction" -- "*.js"
+git blame -L 10,20 fichier.txt
 
-### Git blame
-
-```bash
-# Voir qui a modifié chaque ligne
-git blame fichier.txt
-git blame -L 10,20 fichier.txt  # Lignes 10 à 20
-git blame -e fichier.txt  # Montrer les emails
-```
-
-### Git bisect
-
-```bash
-# Trouver le commit qui a introduit un bug (recherche binaire)
 git bisect start
-git bisect bad  # Le commit actuel est mauvais
-git bisect good v1.0.0  # Ce commit était bon
-# Git checkout des commits, vous testez et marquez :
-git bisect good  # ou
-git bisect bad
-# À la fin :
+git bisect bad              # Le commit actuel est mauvais
+git bisect good v1.0.0      # Celui-ci était bon
+# Tester chaque commit proposé, puis marquer good ou bad
 git bisect reset
 ```
 
+`git clean` supprime les fichiers non suivis ; toujours le lancer d'abord avec `-n` pour voir ce qui serait effacé. Les **submodules** permettent d'inclure un dépôt dans un autre en le figeant à un commit donné, au prix d'une gestion plus délicate (il faut penser à `--recurse-submodules` au clonage).
 
-## .gitignore
+## Ignorer des fichiers
 
-### Syntaxe
+Le fichier `.gitignore` liste les fichiers que Git ne doit jamais suivre : dépendances installées, fichiers compilés, secrets, fichiers de l'éditeur ou du système. Les motifs acceptent les jokers, `**` pour n'importe quelle profondeur de dossiers et `!` pour une exception.
 
 ```gitignore
-# Commentaire
-
-# Fichier spécifique
-config.local.json
-
-# Extension
-*.log
-*.tmp
-
-# Dossier
 node_modules/
 build/
+*.log
+.env
 
 # Tous les .txt sauf important.txt
 *.txt
 !important.txt
 
-# Tous les .pdf dans doc/ et sous-dossiers
+# Tous les .pdf dans doc/ et ses sous-dossiers
 doc/**/*.pdf
 
-# Négation
-!important/
-```
-
-### Templates utiles
-
-```gitignore
-# Node.js
-node_modules/
-npm-debug.log
-.env
-
-# Python
-__pycache__/
-*.py[cod]
-venv/
-.pytest_cache/
-
-# Java
-*.class
-target/
-
-# IDEs
+# Éditeurs et systèmes
 .vscode/
 .idea/
-*.swp
-
-# OS
 .DS_Store
-Thumbs.db
 ```
 
-### Ignorer après commit
+Un fichier déjà suivi n'est pas concerné par `.gitignore` : il faut d'abord le retirer du suivi avec `git rm --cached fichier`, puis committer.
+
+## Organiser le travail en équipe
+
+Plusieurs modèles d'organisation des branches coexistent. **Git Flow** utilise une branche `main` pour la production et une branche `develop` pour l'intégration, plus des branches temporaires `feature/*`, `release/*` et `hotfix/*`. Il convient à des logiciels publiés en versions numérotées, mais il est lourd pour un service déployé en continu.
 
 ```bash
-# Fichier déjà commité qu'on veut ignorer
-git rm --cached fichier.txt
-git rm --cached -r dossier/
-# Puis ajouter à .gitignore et commit
-```
-
-
-## Workflow avancés
-
-### Git Flow
-
-Branches principales :
-- **main** : Production
-- **develop** : Développement
-
-Branches de support :
-- **feature/*** : Nouvelles fonctionnalités
-- **release/*** : Préparation release
-- **hotfix/*** : Corrections urgentes
-
-```bash
-# Feature
-git checkout -b feature/nouvelle-fonction develop
+# Une fonctionnalité dans Git Flow
+git switch -c feature/nouvelle-fonction develop
 # ... travail ...
-git checkout develop
+git switch develop
 git merge --no-ff feature/nouvelle-fonction
 git branch -d feature/nouvelle-fonction
-git push origin develop
-
-# Release
-git checkout -b release/1.2.0 develop
-# ... préparation (version, changelog) ...
-git checkout main
-git merge --no-ff release/1.2.0
-git tag -a v1.2.0 -m "Version 1.2.0"
-git checkout develop
-git merge --no-ff release/1.2.0
-git branch -d release/1.2.0
-
-# Hotfix
-git checkout -b hotfix/1.2.1 main
-# ... fix ...
-git checkout main
-git merge --no-ff hotfix/1.2.1
-git tag -a v1.2.1 -m "Hotfix 1.2.1"
-git checkout develop
-git merge --no-ff hotfix/1.2.1
-git branch -d hotfix/1.2.1
 ```
 
-### GitHub Flow (simplifié)
+Le **GitHub Flow** est plus simple : tout part de `main`, chaque changement se fait sur une branche courte, passe par une *pull request* avec revue, puis est fusionné et déployé. Le **trunk-based development** va plus loin : tout le monde committe très fréquemment sur une seule branche principale, les fonctionnalités inachevées sont masquées par des *feature flags*, et une intégration continue solide garantit que la branche reste toujours déployable.
 
-1. Tout part de `main`
-2. Créer une branche descriptive : `fix/bug-login`
-3. Commit réguliers
-4. Ouvrir une Pull Request
-5. Discussion et review
-6. Merge dans `main`
-7. Deploy immédiat
+Quel que soit le modèle, quelques habitudes rendent l'historique utile. Un commit doit correspondre à une seule modification logique, ce qui facilite la relecture et permet d'annuler proprement. Les messages gagnent à suivre une convention, comme les *Conventional Commits* (`type(portée): sujet`, avec des types comme `feat`, `fix`, `docs`, `refactor`, `test` ou `chore`), qui permet aussi de générer automatiquement des changelogs.
 
-### Trunk-Based Development
-
-- Une seule branche principale (`main` ou `trunk`)
-- Feature flags pour les fonctionnalités en cours
-- CI/CD très forte
-- Commits fréquents
-
-## Commandes utiles
-
-### Alias
-
-```bash
-# Créer des alias
-git config --global alias.co checkout
-git config --global alias.br branch
-git config --global alias.ci commit
-git config --global alias.st status
-git config --global alias.unstage 'reset HEAD --'
-git config --global alias.last 'log -1 HEAD'
-git config --global alias.lg "log --graph --oneline --all"
-
-# Utilisation
-git co main
-git lg
-```
-
-### Cherry-pick
-
-```bash
-# Appliquer un commit spécifique sur la branche actuelle
-git cherry-pick <commit-hash>
-git cherry-pick <hash1> <hash2>
-git cherry-pick <hash1>..<hash3>  # Range
-```
-
-### Reflog
-
-```bash
-# Historique de toutes les références (y compris les commits "perdus")
-git reflog
-git reflog show HEAD
-git reflog show branche
-
-# Récupérer un commit perdu
-git reflog  # Trouver le SHA
-git checkout <commit-hash>
-git branch branche-recuperee  # Créer une branche
-```
-
-### Clean
-
-```bash
-# Supprimer les fichiers non suivis
-git clean -n  # Dry run (voir ce qui serait supprimé)
-git clean -f  # Force
-git clean -fd  # Fichiers et dossiers
-git clean -fx  # Inclure les ignorés
-```
-
-### Submodules
-
-```bash
-# Ajouter un submodule
-git submodule add https://github.com/user/lib.git lib/
-
-# Cloner un repo avec submodules
-git clone --recurse-submodules https://github.com/user/repo.git
-
-# Mettre à jour les submodules
-git submodule update --init --recursive
-git submodule update --remote
-
-# Supprimer un submodule
-git submodule deinit lib/
-git rm lib/
-```
-
-## Astuces et bonnes pratiques
-
-### Messages de commit
-
-**Format conventionnel** :
-```
-type(scope): sujet
-
-Corps du message (optionnel)
-
-Footer (optionnel)
-```
-
-**Types** :
-- `feat`: Nouvelle fonctionnalité
-- `fix`: Correction de bug
-- `docs`: Documentation
-- `style`: Formatage (pas de changement de code)
-- `refactor`: Refactoring
-- `test`: Ajout/modification de tests
-- `chore`: Maintenance (build, dépendances)
-
-**Exemples** :
 ```
 feat(auth): add password reset functionality
 
 fix(api): correct user validation logic
-
-docs: update installation instructions
 ```
 
-### Commits atomiques
-
-- Un commit = une modification logique
-- Facilite la revue de code
-- Facilite les reverts
-- Meilleur historique
-
-### Branches
-
-- Noms descriptifs : `feature/user-login`, `fix/header-bug`
-- Branches courtes (merge rapidement)
-- Supprimer les branches mergées
-
-### Pull/Rebase
+Avant de pousser, il est prudent de vérifier ce qui va partir :
 
 ```bash
-# Garder un historique propre
-git config --global pull.rebase true
-
-# Ou explicitement
-git pull --rebase
+git log origin/main..HEAD    # Commits à pousser
+git diff origin/main..HEAD   # Différences à pousser
 ```
 
-### Vérifier avant de push
+## Récupérer un fichier ou un seul dossier
+
+Pour retrouver un fichier supprimé dans un commit passé, on cherche le commit qui l'a supprimé, puis on restaure la version de son parent :
 
 ```bash
-git log origin/main..HEAD  # Commits à push
-git diff origin/main..HEAD  # Différences à push
-```
-
-## Dépannage
-
-### Annuler un push
-
-```bash
-# SI personne n'a pull
-git push --force-with-lease
-
-# SI quelqu'un a pull : créer un revert
-git revert <commit-hash>
-git push
-```
-
-### Récupérer un fichier supprimé
-
-```bash
-# Fichier supprimé mais pas commité
-git restore fichier.txt
-
-# Fichier supprimé et commité
-git log -- fichier.txt  # Trouver le commit avant suppression
+git log -- fichier.txt
 git checkout <commit>^ -- fichier.txt
 ```
 
-### Changer l'auteur du dernier commit
+Pour ne télécharger qu'un dossier d'un gros dépôt, on combinait autrefois GitHub et Subversion, mais GitHub a cessé de prendre en charge Subversion en janvier 2024. La méthode actuelle est le clonage partiel avec *sparse checkout* :
 
 ```bash
-git commit --amend --author="Nom <email@example.com>"
+git clone --filter=blob:none --sparse https://github.com/exemple/exemple.git
+cd exemple
+git sparse-checkout set test
 ```
 
-### Résoudre les conflits de merge
-
-```bash
-# 1. Voir les fichiers en conflit
-git status
-
-# 2. Éditer les fichiers (chercher <<<<<<<, =======, >>>>>>>)
-
-# 3. Marquer comme résolu
-git add fichier-resolu.txt
-
-# 4. Finaliser
-git commit
-# ou si en cours de rebase
-git rebase --continue
-```
-
-## Outils et ressources
-
-### Interfaces graphiques
-
-- **GitKraken** : Multi-plateforme, puissant
-- **SourceTree** : Gratuit, Windows/Mac
-- **GitHub Desktop** : Simple, intégré GitHub
-- **Git GUI** : Livré avec Git
-- **Gitk** : Visualiseur d'historique livré avec Git
-
-### Extensions VSCode
-
-- GitLens
-- Git Graph
-- Git History
-
-### Hosting
-
-- **GitHub** : Le plus populaire
-- **GitLab** : CI/CD intégré
-- **Bitbucket** : Intégration Atlassian
-- **Gitea** : Auto-hébergé léger
-
-## Astuce : Télécharger un dossier d'un repo (SVN)
-
-### Prérequis
-- Package `subversion` sur votre distribution
-
-### Méthode
-1. Remplacer `tree/master` par `trunk` dans l'URL :
-   
-   `https://github.com/exemple/exemple/tree/master/test` ➜ `https://github.com/exemple/exemple/trunk/test`
-
-2. Télécharger avec `svn checkout` :
-```bash
-svn checkout https://github.com/exemple/exemple/trunk/test
-```
-
-
-## Commandes de référence rapide
+## Aide-mémoire
 
 ```bash
 # Configuration
 git config --global user.name "Nom"
 git config --global user.email "email@example.com"
 
-# Initialisation
+# Démarrer
 git init
 git clone <url>
 
-# Changements
+# Cycle de travail
 git status
 git add <fichier>
 git commit -m "message"
@@ -721,18 +275,16 @@ git diff
 
 # Branches
 git branch
-git branch <branche>
-git checkout <branche>
+git switch -c <branche>
 git merge <branche>
 
-# Remote
+# Distant
 git remote add origin <url>
 git push -u origin main
 git pull
 git fetch
 
 # Historique
-git log
 git log --oneline --graph
 git reflog
 
@@ -741,7 +293,13 @@ git restore <fichier>
 git reset --soft HEAD~1
 git revert <commit>
 
-# Stash
+# Mettre de côté
 git stash
 git stash pop
 ```
+
+## Ressources
+
+- Scott Chacon et Ben Straub, [*Pro Git*](https://git-scm.com/book/fr/v2), le livre de référence, gratuit et traduit en français.
+- Interfaces graphiques : GitKraken, SourceTree, GitHub Desktop, ou `gitk`, livré avec Git ; dans VS Code, les extensions GitLens et Git Graph.
+- Hébergement : GitHub, GitLab (intégration continue intégrée), Bitbucket, ou Gitea pour un hébergement personnel léger.
