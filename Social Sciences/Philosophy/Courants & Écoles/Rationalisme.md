@@ -9,18 +9,7 @@ prerequis: ["[[Philosophie Médiévale]]"]
 
 # Rationalisme
 
-## Définition
-
-Le **rationalisme** (du latin *ratio* = raison) est une doctrine philosophique selon laquelle **la raison est la source principale et la garantie de la connaissance vraie**.
-
-**Thèse centrale :**
-> La raison, indépendamment de l'expérience sensorielle, peut découvrir des vérités nécessaires et universelles.
-
-**Opposition à l'[[Empirisme]] :**
-- **Rationalisme** : Certaines connaissances sont **innées** ou dérivées de la **raison pure**
-- **Empirisme** : Toute connaissance provient de l'**expérience sensorielle**
-
-## Chronologie
+Dans le *Ménon* de Platon, Socrate appelle un jeune esclave qui n'a jamais appris la géométrie et lui trace un carré dans le sable. Comment construire un carré d'une surface double ? Le garçon répond d'abord qu'il suffit de doubler le côté, et se trompe. Mais Socrate, sans rien lui apprendre, se contente de lui poser des questions, et l'esclave finit par trouver lui-même la solution : il faut construire le carré sur la diagonale. D'où lui vient ce savoir, puisque personne ne le lui a enseigné ? Cette question est au cœur du **rationalisme** (du latin *ratio*, la raison), la doctrine selon laquelle la raison, indépendamment de l'expérience des sens, peut découvrir des vérités nécessaires et universelles. Il s'oppose à l'[[Empirisme]], pour qui toute connaissance vient de l'expérience.
 
 ```mermaid
 timeline
@@ -41,192 +30,41 @@ timeline
         1957 : Chomsky, Structures syntaxiques
 ```
 
-## Origines Historiques
+## Les sources antiques
 
-### Antiquité : Platon et Pythagore
+Les pythagoriciens, au VIe siècle avant notre ère, avaient découvert que les intervalles musicaux correspondent à des rapports simples de longueurs de corde : l'octave à un rapport de 2 à 1, la quinte à 3 à 2. Ils en tirent une conviction : « tout est nombre », l'univers est structuré par des rapports mathématiques que la raison peut saisir.
 
-#### Platon (428-348 av. J.-C.)
-
-**Père du rationalisme occidental**
-
-**Théorie des Idées (Formes) :**
-- Le **monde sensible** (perçu par les sens) est **changeant, imparfait, illusoire**
-- Le **monde intelligible** (connu par la raison) est **éternel, parfait, réel**
-- **Exemple :** Les cercles dessinés sont imparfaits, mais l'**Idée** du Cercle parfait existe dans le monde intelligible
-
-**Réminiscence (Anamnèse) :**
-> "Apprendre, c'est se souvenir."
-
-- L'âme a contemplé les Idées avant de s'incarner
-- Connaître = **se souvenir** de ce que l'âme savait déjà
-- **Preuve** : L'esclave du *Ménon* "découvre" des vérités géométriques par questionnement (sans enseignement empirique)
+[[Platon]] (428-348 av. J.-C.) en fait une philosophie complète. Le monde que nous percevons par les sens est changeant et imparfait ; aucun cercle tracé n'est parfaitement rond. Mais la raison conçoit le Cercle parfait, et plus largement les **Idées**, modèles éternels des choses, qui forment un monde intelligible plus réel que le monde sensible. Dans l'allégorie de la caverne, les prisonniers prennent des ombres pour la réalité, et seul le philosophe, sorti au grand jour, contemple le soleil, image de l'Idée du Bien. Si nous connaissons les Idées, c'est que notre âme les a contemplées avant de naître : apprendre, c'est se souvenir. C'est la **réminiscence**, que l'épisode de l'esclave du *Ménon* est censé démontrer.
 
 > [!important] Idée clé
 > Ne pas prendre l'anamnèse au pied de la lettre (une vie antérieure de l'âme) pour rejeter tout l'argument. Le point philosophique survit à la mythologie : l'esclave du *Ménon* montre qu'on peut faire émerger, par questionnement pur, des vérités géométriques nécessaires sans qu'on les lui ait enseignées empiriquement — un argument sérieux en faveur de structures cognitives a priori, indépendamment de la théorie de la réincarnation qui l'habille chez Platon.
 
-**Allégorie de la Caverne :**
-- Les prisonniers voient des ombres (monde sensible)
-- Le philosophe sort de la caverne et voit le soleil (Idée du Bien, connaissance rationnelle)
+## Le XVIIe siècle : fonder le savoir sur la raison
 
-**Influence :** Fondation du rationalisme, idéalisme, innéisme.
+Le rationalisme moderne naît dans un double contexte. La **révolution scientifique** de Copernic, Galilée et Kepler montre que la nature obéit à des lois mathématiques : l'univers, écrit Galilée en 1623, est un livre « écrit en langue mathématique ». Dans le même temps, les guerres de religion et le retour du scepticisme ébranlent toutes les certitudes. Il faut refonder le savoir sur une base indiscutable. Le mouvement est surtout continental, en France, aux Pays-Bas et en Allemagne, face à l'empirisme britannique de Locke et de Hume.
 
-#### Pythagore (VIe siècle av. J.-C.)
+### Descartes
 
-**Thèse :**
-> "Tout est nombre."
+René [[Descartes]] (1596-1650), mathématicien, inventeur de la géométrie analytique, veut donner à la philosophie la certitude des mathématiques. Son *Discours de la méthode* (1637) fixe quatre règles : n'accepter pour vrai que ce qui est évident, c'est-à-dire clair et distinct ; diviser chaque difficulté en autant de parties qu'il faut ; conduire ses pensées du plus simple au plus complexe ; tout vérifier pour ne rien omettre.
 
-- L'univers est structuré selon des **rapports mathématiques**
-- Les mathématiques révèlent la **nature profonde de la réalité**
-- **Exemple :** Harmonie musicale = rapports numériques (octave = rapport 2:1)
+Dans les *Méditations métaphysiques* (1641), il pousse le doute aussi loin que possible. Les sens nous trompent parfois, et « il est de la prudence de ne se fier jamais entièrement à ceux qui nous ont une fois trompés ». Peut-être même rêvons-nous, ou un malin génie nous abuse-t-il en permanence. Une seule chose résiste : pendant que je doute, je pense, donc je suis. Le **cogito** n'est pas une observation, mais une intuition de la raison.
 
-**Influence :** Mathématisation du réel (précurseur de la science moderne).
+Descartes distingue trois sortes d'idées : les idées **adventices**, qui semblent venir des sens, comme une couleur ou un son ; les idées **factices**, forgées par l'imagination, comme une chimère ; et les idées **innées**, présentes en nous par nature, comme celles de Dieu, de l'étendue ou du nombre. L'idée d'un être parfait, par exemple, ne peut venir de moi, qui suis imparfait : elle a été placée en moi par Dieu, qui garantit à son tour la vérité de nos idées claires et distinctes. Le monde se divise alors en deux substances : la **chose pensante** (*res cogitans*), l'esprit, et la **chose étendue** (*res extensa*), la matière, dont l'essence est l'étendue géométrique. L'exemple du morceau de cire le montre : approché du feu, il change de couleur, d'odeur, de forme et de consistance, et pourtant nous savons que c'est la même cire. Ce n'est pas par les sens, qui n'en perçoivent que des qualités changeantes, mais par l'entendement que nous la connaissons.
 
+### Spinoza
 
-## Rationalisme Moderne (XVIIe siècle)
+Baruch [[Spinoza]] (1632-1677) pousse l'ambition rationaliste à son terme. Son *Éthique*, publiée après sa mort, est « démontrée selon l'ordre géométrique » : définitions, axiomes, propositions et démonstrations s'enchaînent comme dans les *Éléments* d'Euclide. La métaphysique peut, selon lui, atteindre la même rigueur que les mathématiques.
 
-### Contexte Historique
-
-**Révolution scientifique :**
-- Copernic, Galilée, Kepler : Mathématisation de la physique
-- Confiance dans la raison pour découvrir les lois de la nature
-
-**Crise sceptique :**
-- Guerres de religion → Doute sur les certitudes dogmatiques
-- Besoin de **fonder** la connaissance sur des bases certaines
-
-**Géographie :**
-- Principalement **continental** (France, Pays-Bas, Allemagne)
-- Opposition à l'[[Empirisme]] **britannique** (Locke, Hume)
-
-
-### 1. René Descartes (1596-1650)
-
-**Père du rationalisme moderne**
-
-Voir [[Descartes]] pour détails complets.
-
-#### Méthode Cartésienne
-
-**Quatre règles** (*Discours de la méthode*, 1637) :
-1. **Évidence** : N'accepter que le clair et distinct
-2. **Analyse** : Diviser les difficultés
-3. **Synthèse** : Reconstruire du simple au complexe
-4. **Énumération** : Vérifier qu'on n'a rien omis
-
-**Inspiration mathématique** : Raisonnement déductif rigoureux.
-
-#### Le Doute Méthodique et le *Cogito*
-
-**Doute hyperbolique :**
-- Remettre en question **tout** (sens, rêve, malin génie)
-- Chercher une **certitude absolue**
-
-**Première certitude :**
-> **"Je pense, donc je suis"** (*Cogito, ergo sum*)
-
-**Fondation rationnelle :** Le *cogito* est une **intuition rationnelle**, pas une expérience empirique.
-
-#### Idées Innées
-
-**Trois types d'idées :**
-1. **Adventices** : Viennent de l'expérience (couleur, son)
-2. **Factices** : Créées par l'imagination (chimère)
-3. **Innées** : Présentes naturellement dans l'esprit (**Dieu, perfection, étendue, nombre**)
-
-**Argument :**
-- L'idée d'un être **parfait** (Dieu) ne peut venir de moi (imparfait)
-- Elle doit être **innée**, placée par Dieu
-
-**Rôle de Dieu :**
-- Garantit la **véracité** de nos connaissances claires et distinctes
-- Fondement ultime de la science
-
-#### Dualisme Substance
-
-**Deux substances :**
-- ***Res cogitans*** (chose pensante) : Esprit, âme, immatériel
-- ***Res extensa*** (chose étendue) : Corps, matière, spatial
-
-**Connaissance de l'étendue :**
-- L'essence des corps est l'**étendue géométrique** (longueur, largeur, hauteur)
-- Connaissable par la **raison** (géométrie), pas les sens (trompeurs)
-
-**Exemple du morceau de cire** (*Méditations*, II) :
-- La cire change d'apparence (chaleur la fait fondre)
-- Mais nous savons que c'est **la même cire**
-- Cette identité est saisie par l'**entendement**, pas les sens
-
-
-### 2. Baruch Spinoza (1632-1677)
-
-**Rationalisme moniste radical**
-
-Voir [[Spinoza]] pour détails complets.
-
-#### Méthode Géométrique
-
-**Œuvre maîtresse :** *Éthique démontrée selon l'ordre géométrique* (*Ethica ordine geometrico demonstrata*)
-
-**Structure :**
-- **Définitions** (ex: "Par substance, j'entends...")
-- **Axiomes** (évidences rationnelles)
-- **Propositions** (théorèmes)
-- **Démonstrations** (déductions rigoureuses)
-
-**Modèle :** Géométrie d'Euclide.
-
-**Thèse :** La métaphysique peut être traitée avec la **même rigueur** que les mathématiques.
-
-#### Monisme : Dieu = Nature
-
-**Thèse centrale :**
-> *"Deus sive Natura"* (Dieu, c'est-à-dire la Nature)
-
-- Une seule **substance** : Dieu/Nature
-- Tout découle **nécessairement** de la nature de Dieu
-- **Pas de libre arbitre**, pas de finalité
-
-**Déterminisme rationnel :**
-- Comprendre l'univers = Déduire toutes choses de la nature de Dieu
-- Connaissance du 3e genre (**science intuitive**) = Saisir les choses *sub specie aeternitatis* (sous l'aspect de l'éternité)
+Il n'existe pour Spinoza qu'une seule substance, infinie, qu'il appelle « Dieu, c'est-à-dire la Nature » (*Deus sive Natura*). Tout ce qui existe en découle nécessairement, comme les propriétés d'un triangle découlent de sa définition. Il n'y a ni finalité dans la nature, ni libre arbitre en l'homme. Connaître, c'est comprendre cette nécessité, et la forme la plus haute de connaissance, la **science intuitive**, saisit les choses « sous l'aspect de l'éternité ». Quant à l'expérience vague des sens, elle ne nous apprend rien de certain sur l'essence des choses.
 
 > [!warning] Piège
 > « Pas de libre arbitre » chez Spinoza ne veut pas dire résignation passive. La liberté spinoziste consiste à comprendre les causes nécessaires de nos affects et actions plutôt qu'à y échapper — un homme libre n'est pas un homme sans causes, c'est un homme qui agit à partir d'idées adéquates (compréhension rationnelle) plutôt que d'affects subis passivement. Comprendre la nécessité est déjà, pour Spinoza, une forme d'émancipation.
 
-#### Critique de l'Empirisme
+### Leibniz
 
-> "L'expérience vague ne nous enseigne rien de certain sur l'essence des choses."
+Gottfried Wilhelm Leibniz (1646-1716), mathématicien qui invente le calcul infinitésimal en même temps que Newton, répond point par point à Locke dans les *Nouveaux Essais sur l'entendement humain*, écrits vers 1704 et publiés en 1765. À l'adage empiriste « rien n'est dans l'intellect qui n'ait d'abord été dans les sens », il ajoute : « sauf l'intellect lui-même ». Les sens fournissent la matière de la connaissance, mais l'esprit en fournit la forme : les principes d'identité, de non-contradiction et du tiers exclu, et le **principe de raison suffisante**, selon lequel rien n'arrive sans raison. Les idées innées ne sont pas des connaissances toutes faites présentes chez le nourrisson, mais des dispositions, comme les veines d'un bloc de marbre qui dessinent à l'avance la statue que le sculpteur en dégagera.
 
-**Seule la raison** peut nous donner des **vérités nécessaires**.
-
-
-### 3. Gottfried Wilhelm Leibniz (1646-1716)
-
-**Rationalisme systématique**
-
-**Œuvres principales :**
-- *Nouveaux Essais sur l'entendement humain* (1704, publié posthume 1765) - Réponse à Locke
-- *Monadologie* (1714)
-- *Théodicée* (1710)
-
-#### Contre Locke : Innéisme
-
-**Formule célèbre :**
-> "Nihil est in intellectu quod non prius fuerit in sensu, **nisi ipse intellectus**."  
-> (Rien n'est dans l'intellect qui n'ait d'abord été dans les sens, **sauf l'intellect lui-même**.)
-
-**Argument :**
-- Les sens fournissent la **matière** de la connaissance
-- Mais l'**esprit** fournit la **forme** (principes logiques, mathématiques)
-- **Idées innées** = Dispositions de l'esprit (comme veines dans le marbre)
-
-**Principes innés :**
-1. **Principe d'identité** : A = A
-2. **Principe de non-contradiction** : ¬(A ∧ ¬A)
-3. **Principe du tiers exclu** : A ∨ ¬A
-4. **Principe de raison suffisante** : Rien n'arrive sans raison
-
-#### Vérités de Raison vs. Vérités de Fait
+Leibniz distingue deux sortes de vérités :
 
 | Vérités de Raison | Vérités de Fait |
 |-------------------|-----------------|
@@ -236,125 +74,13 @@ Voir [[Spinoza]] pour détails complets.
 | Principe : Non-contradiction | Principe : Raison suffisante |
 | Exemples : Mathématiques, logique | Exemples : "César a franchi le Rubicon" |
 
-**Exemple :**
-- "2+2=4" est une **vérité de raison** (nécessaire, connaissable a priori)
-- "Il pleut" est une **vérité de fait** (contingente, connaissable a posteriori)
+« 2 + 2 = 4 » ne pourrait pas être faux sans contradiction ; « César a franchi le Rubicon » aurait pu ne pas arriver, et l'on ne le sait que par l'histoire.
 
-#### Monadologie
+Sa *Monadologie* (1714) déduit, par le seul raisonnement, que l'univers est fait de **monades**, des substances simples et sans parties. Chacune perçoit l'univers entier depuis son point de vue, mais elles n'agissent pas les unes sur les autres : elles sont « sans fenêtres ». Si elles semblent s'accorder, c'est que Dieu les a réglées d'avance comme des horloges synchronisées, selon une **harmonie préétablie**. Leibniz en tire un optimisme célèbre : Dieu, parfait, a choisi de créer le meilleur des mondes possibles. Après le tremblement de terre de Lisbonne de 1755, Voltaire en fera la satire dans *Candide*, à travers le personnage de Pangloss.
 
-**Thèse :** L'univers est composé de **monades** (substances simples, indivisibles, sans parties).
+## Les traits du rationalisme
 
-**Propriétés des monades :**
-- **Perceptions** internes (représentations de l'univers)
-- **Sans fenêtres** : N'interagissent pas causalement
-- **Harmonie préétablie** : Dieu synchronise toutes les monades
-
-**Déduction rationnelle :**
-- Leibniz **déduit** l'existence des monades par raisonnement métaphysique
-- Pas d'observation empirique
-
-#### Optimisme Rationaliste
-
-**Thèse :**
-> "Notre monde est le **meilleur des mondes possibles**."
-
-**Argument :**
-1. Dieu est parfait (omniscient, omnipotent, bon)
-2. Dieu choisit le meilleur parmi tous les mondes possibles
-3. Donc, ce monde est le meilleur possible
-
-**Critique (Voltaire, *Candide*) :** Satire de l'optimisme leibnizien (tremblement de terre de Lisbonne 1755).
-
-
-## Rationalisme Critique : Kant
-
-**[[Kant]]** (*Critique de la raison pure*, 1781) propose une **synthèse** empirisme/rationalisme.
-
-**Thèse centrale :**
-> "Si toute notre connaissance commence **avec** l'expérience, elle ne dérive pas toute **de** l'expérience."
-
-**Solution kantienne :**
-- **Matière** de la connaissance : Expérience (empirisme)
-- **Forme** de la connaissance : Structures a priori (rationalisme)
-
-**Catégories a priori :**
-- Espace, temps (formes de la sensibilité)
-- Causalité, substance, etc. (catégories de l'entendement)
-
-**Jugements synthétiques a priori :**
-- **Nouveaux** (synthétiques) + **Nécessaires** (a priori)
-- **Exemple :** "7+5=12" (arithmétique), "La ligne droite est le plus court chemin" (géométrie)
-
-**Révolution copernicienne :**
-- Ce n'est pas l'esprit qui se conforme aux objets
-- Ce sont les **objets qui se conforment à l'esprit**
-
-**Limite :** Nous ne connaissons que les **phénomènes** (choses telles qu'elles nous apparaissent), pas les **noumènes** (choses en soi).
-
-
-## Caractéristiques du Rationalisme
-
-### 1. Primauté de la Raison
-
-**Thèse :** La raison est **supérieure** aux sens pour atteindre la vérité.
-
-**Justification :**
-- Les sens sont trompeurs (illusions d'optique, rêves)
-- La raison découvre des vérités **nécessaires** et **universelles**
-
-### 2. Idées Innées
-
-**Thèse :** Certaines idées/principes sont **présents naturellement** dans l'esprit.
-
-**Exemples :**
-- Principes logiques (non-contradiction)
-- Concepts mathématiques (nombre, étendue)
-- Idée de Dieu (Descartes)
-
-**Métaphore (Leibniz) :**
-> "L'esprit est comme un bloc de marbre veiné : les veines indiquent la statue qui en sortira."
-
-### 3. Méthode Déductive
-
-**Démarche :**
-1. Partir de **principes évidents** (axiomes, intuitions rationnelles)
-2. **Déduire** rigoureusement les conséquences
-
-**Modèle :** Mathématiques (géométrie euclidienne).
-
-**Exemple :** 
-- Spinoza déduit toute sa métaphysique de définitions et axiomes
-- Descartes reconstruit le savoir à partir du *cogito*
-
-### 4. Méfiance envers les Sens
-
-**Argument :**
-- Les sens nous trompent (bâton cassé dans l'eau, rêves, mirages)
-- Seule la **raison** est fiable
-
-**Exemple (Descartes) :**
-> "Mes sens m'ont parfois trompé, et il est prudent de ne jamais se fier entièrement à ceux qui nous ont trompés une fois."
-
-### 5. Mathématisation du Réel
-
-**Thèse :** L'essence de la réalité est **mathématique**.
-
-**Descartes :** L'essence des corps est l'**étendue géométrique**.
-
-**Spinoza :** L'univers fonctionne selon des **lois nécessaires** (comme les mathématiques).
-
-**Leibniz :** Caractéristique universelle (langue logique parfaite).
-
-### 6. Optimisme Épistémologique
-
-**Confiance :** La raison humaine peut **découvrir la vérité** sur l'univers.
-
-**Leibniz :** "Pourquoi y a-t-il quelque chose plutôt que rien ?" → Question rationnelle, réponse possible.
-
-**Descartes :** Reconstruire toute la science sur des bases certaines.
-
-
-## Rationalisme vs. Empirisme : Tableau Comparatif
+Au-delà de leurs différences, ces philosophes partagent une même attitude. Ils accordent la **primauté à la raison** sur les sens, jugés trompeurs : le bâton plongé dans l'eau paraît brisé, les rêves semblent réels. Ils admettent des **idées innées**, principes logiques, notions mathématiques, idée de Dieu. Ils privilégient la **méthode déductive**, qui part de principes évidents pour en tirer rigoureusement les conséquences, sur le modèle de la géométrie. Ils pensent que l'essence du réel est **mathématique**, l'étendue géométrique pour Descartes, les lois nécessaires de la Nature pour Spinoza, et Leibniz rêve même d'une « caractéristique universelle », une langue logique parfaite où l'on calculerait au lieu de disputer. Ils partagent enfin un **optimisme épistémologique** : la raison peut découvrir la vérité sur l'univers et répondre à des questions comme celle de Leibniz, « pourquoi y a-t-il quelque chose plutôt que rien ? ».
 
 | Aspect | Rationalisme | Empirisme |
 |--------|--------------|-----------|
@@ -367,174 +93,32 @@ Voir [[Spinoza]] pour détails complets.
 | **Figures** | Descartes, Spinoza, Leibniz | Locke, Berkeley, Hume |
 | **Géographie** | Continental (France, Allemagne, Pays-Bas) | Britannique |
 
+## La synthèse critique de Kant
+
+[[Kant]], dans la *Critique de la raison pure* (1781), cherche à dépasser l'opposition. « Si toute notre connaissance commence avec l'expérience, il n'en résulte pas qu'elle dérive toute de l'expérience. » L'expérience fournit la matière de la connaissance ; l'esprit en fournit la forme, avec l'espace et le temps, formes de la sensibilité, et les catégories de l'entendement, comme la causalité et la substance. C'est ce qui rend possibles des **jugements synthétiques a priori**, à la fois instructifs et nécessaires, comme « 7 + 5 = 12 » ou « la ligne droite est le plus court chemin d'un point à un autre ». Mais cette révolution, qui fait tourner les objets autour de l'esprit plutôt que l'inverse, impose une limite : nous ne connaissons que les **phénomènes**, jamais les **choses en soi**. Dieu, l'âme et le monde comme totalité échappent à la connaissance, et c'en est fini des grandes métaphysiques rationalistes.
+
+## Les critiques
+
+Les **empiristes** contestent d'abord les idées innées : un nouveau-né n'a aucune idée de Dieu ni du nombre. Les rationalistes répondent, avec Leibniz, que ces idées sont des dispositions et non des connaissances explicites, et que l'expérience, toujours particulière, ne peut à elle seule expliquer des vérités nécessaires comme celles des mathématiques. On a aussi reproché à Descartes un **cercle** : il prouve l'existence de Dieu par la raison, puis fonde la fiabilité de la raison sur Dieu. Nietzsche et Heidegger accusent enfin le rationalisme d'imposer au réel des catégories rigides, et la phénoménologie lui reproche d'appauvrir le monde vécu en ne retenant que ce qui se mesure. Descartes tenait les couleurs et les saveurs pour des « qualités secondes », subjectives, et seule l'étendue pour une « qualité première », objective.
+
+## Les héritages
+
+Le rationalisme a profondément marqué les sciences. Il a donné la géométrie analytique, le calcul infinitésimal, et, au XXe siècle, les projets de Frege et de [[Russell]] pour fonder les mathématiques sur la logique. Einstein s'étonnait encore que les mathématiques, « produit de la pensée humaine indépendant de l'expérience », s'appliquent si parfaitement aux objets de la réalité. En politique, les théories du contrat social de Hobbes, Rousseau ou Kant prétendent déduire rationnellement les principes de l'État juste.
+
 > [!important] Idée clé
 > Ce clivage historique se prolonge directement dans le débat contemporain inné/acquis en sciences cognitives (voir plus bas la section sur Chomsky) — la question « d'où viennent nos concepts fondamentaux » n'a jamais quitté la philosophie, elle a juste changé de vocabulaire (idées innées → dispositions génétiques, raison pure → architecture cognitive).
 
-
-## Applications et Influences
-
-### Mathématiques et Logique
-
-**Développements :**
-- Géométrie analytique (Descartes)
-- Calcul infinitésimal (Leibniz, Newton)
-- Logique formelle (Leibniz précurseur)
-
-**XXe siècle :**
-- Logicisme (Frege, [[Russell]]) : Réduire les mathématiques à la logique
-- Formalisme (Hilbert) : Mathématiques = Manipulation de symboles selon règles
-
-### Physique
-
-**Science classique (XVIIe-XIXe) :**
-- Mathématisation de la nature (Galilée, Newton)
-- Lois universelles dérivées rationnellement
-
-**Einstein :**
-> "Comment se fait-il que les mathématiques, qui sont un produit de la pensée humaine indépendant de l'expérience, s'appliquent si parfaitement aux objets de la réalité ?"
-
-**Réponse rationaliste :** La structure de la raison correspond à la structure du réel.
-
-### Philosophie Politique
-
-**Théorie du contrat social :**
-- Hobbes, Rousseau, Kant : Déduction **rationnelle** des principes de l'État juste
-- Droits naturels dérivés de la raison
-
-**Kant :** Impératif catégorique (morale rationnelle universelle).
-
-### Religion
-
-**Déisme :**
-- Dieu connaissable par la **raison seule** (pas besoin de révélation)
-- Preuves rationnelles de l'existence de Dieu (Descartes, Leibniz)
-
-**Critique (Lumières) :**
-- Kant réfute les preuves rationnelles de Dieu
-- Hume critique les miracles
-
-
-## Critiques du Rationalisme
-
-### 1. Critique Empiriste (Hume, Locke)
-
-**Objection :**
-- **Pas d'idées innées** : Les enfants n'ont pas l'idée de Dieu/nombre dès la naissance
-- L'expérience suffit pour tout expliquer
-
-**Réponse rationaliste :**
-- Les idées innées sont des **dispositions**, pas des connaissances explicites dès la naissance
-- L'expérience ne peut expliquer les vérités **nécessaires** (mathématiques)
-
-### 2. Problème du Critère de Vérité
-
-**Objection (Cercle cartésien) :**
-- Descartes prouve Dieu par la raison
-- Puis fonde la raison sur Dieu (garant de la véracité)
-- **Cercle vicieux**
-
-### 3. Accès au Réel (Kant)
-
-**Critique :**
-- La raison pure ne peut connaître les **choses en soi** (noumènes)
-- Elle ne connaît que les **phénomènes** (structurés par nos catégories a priori)
-
-**Conséquence :** Limites de la métaphysique rationaliste (Dieu, âme, monde comme totalité).
-
-### 4. Dogmatisme
-
-**Nietzsche, Heidegger :**
-- Le rationalisme est une **métaphysique dogmatique**
-- Impose des catégories rigides sur la réalité (logique, identité, non-contradiction)
-- **Oubli de l'Être** (Heidegger)
-
-### 5. Réductionnisme Mathématique
-
-**Objection :**
-- Tout n'est pas réductible aux mathématiques
-- Qualités sensibles (couleur, goût) ne sont pas quantifiables
-
-**Descartes :**
-- Qualités secondes (couleur) sont subjectives
-- Seules les qualités premières (étendue) sont objectives
-
-**Critique phénoménologique :**
-- Privilégier les mathématiques appauvrit notre rapport au monde vécu
-
-
-## Rationalisme Contemporain
-
-### Chomsky : Grammaire Universelle
-
-**Linguistique générative :**
-- Les enfants acquièrent le langage trop rapidement pour que ce soit purement empirique
-- **Grammaire universelle** innée (structures syntaxiques communes à toutes les langues)
-
-**Rationalisme linguistique :**
-- Capacité langagière = Disposition innée de l'esprit
-- L'expérience (input linguistique) déclenche l'actualisation
-
-### Platonisme Mathématique
-
-**Thèse :**
-- Les objets mathématiques (nombres, ensembles) **existent** indépendamment de l'esprit humain
-- Découverts, pas inventés
-
-**Défenseurs :** Gödel, Penrose
-
-**Argument :**
-- L'efficacité des mathématiques en physique suggère qu'elles décrivent une réalité objective
-
-### Rationalisme Critique (Popper)
-
-**Falsificationisme :**
-- La science progresse par **conjectures** (hypothèses hardies) et **réfutations**
-- Pas d'induction empiriste, mais **créativité rationnelle**
-
-**Influence rationaliste :**
-- Les théories scientifiques sont des **constructions rationnelles** testées par l'expérience
-- La raison invente, l'expérience teste
-
-
-## Citations Célèbres
-
-> "Je pense, donc je suis."  
-> (*Cogito, ergo sum*)  
-> — René Descartes
-
-> "Deus sive Natura."  
-> (Dieu, c'est-à-dire la Nature)  
-> — Baruch Spinoza
-
-> "Rien n'est dans l'intellect qui n'ait d'abord été dans les sens, sauf l'intellect lui-même."  
-> — Gottfried Wilhelm Leibniz
-
-> "La philosophie est écrite dans ce vaste livre constamment ouvert devant nos yeux (je veux dire l'Univers), mais on ne peut le comprendre si on n'apprend pas d'abord à connaître la langue et les caractères dans lesquels il est écrit. Or il est écrit en langue mathématique."  
-> — Galilée (*Il Saggiatore*, 1623) - Précurseur rationalisme moderne
-
-> "Deux choses remplissent le cœur d'une admiration et d'une vénération toujours nouvelles : le ciel étoilé au-dessus de moi et la loi morale en moi."  
-> — [[Kant]] (synthèse rationalisme/empirisme)
-
+Le linguiste Noam Chomsky en est l'héritier le plus direct. Les enfants, observe-t-il, apprennent leur langue maternelle bien trop vite, et à partir de données bien trop pauvres, pour que cet apprentissage repose uniquement sur l'expérience : ils doivent disposer d'une **grammaire universelle** innée, que l'environnement linguistique se contente d'activer. D'autres prolongements existent : le **platonisme mathématique** de Kurt Gödel ou de Roger Penrose, pour qui les objets mathématiques existent indépendamment de nous et sont découverts plutôt qu'inventés, et le **rationalisme critique** de Karl Popper, pour qui la science progresse non par induction mais par des conjectures audacieuses, inventées par la raison et mises à l'épreuve par l'expérience.
 
 ## Ressources
 
-### Œuvres Classiques
+**Œuvres classiques :**
+- René Descartes, *Discours de la méthode* (1637) : accessible.
+- Baruch Spinoza, *Éthique* (1677) : difficile, à cause de sa méthode géométrique.
+- Gottfried Wilhelm Leibniz, *Nouveaux Essais sur l'entendement humain*.
+- Platon, *Ménon*, et *La République*, livre VII, pour l'allégorie de la caverne.
 
-- **René Descartes**, *Discours de la méthode* (1637) - Accessible
-- **Baruch Spinoza**, *Éthique* (1677) - Difficile, méthode géométrique
-- **Gottfried Wilhelm Leibniz**, *Nouveaux Essais sur l'entendement humain* (1704)
-- **Platon**, *Ménon*, *République* (Livre VII - Allégorie de la Caverne)
-
-### Études
-
-- **Martial Gueroult**, *Descartes selon l'ordre des raisons* - Commentaire rigoureux
-- **Ferdinand Alquié**, *Le Rationalisme de Spinoza* - Introduction accessible
-- **Bertrand Russell**, *Histoire de la philosophie occidentale* (chapitres sur rationalistes)
-
-## Liens
-
-- [[Descartes]] - Père du rationalisme moderne
-- [[Spinoza]] - Rationalisme moniste
-- [[Kant]] - Synthèse rationalisme/empirisme
-- [[Empirisme]] - Courant opposé
-- [[Platon]] - Précurseur antique du rationalisme
+**Études :**
+- Martial Gueroult, *Descartes selon l'ordre des raisons* : un commentaire rigoureux.
+- Ferdinand Alquié, *Le Rationalisme de Spinoza*.
+- Bertrand Russell, *Histoire de la philosophie occidentale* : les chapitres sur les rationalistes.

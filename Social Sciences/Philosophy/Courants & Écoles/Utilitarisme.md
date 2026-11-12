@@ -9,20 +9,9 @@ prerequis: ["[[Empirisme]]"]
 
 # Utilitarisme
 
-## Définition
+Dans le hall de l'University College de Londres, une vitrine abrite un étrange occupant : le squelette de Jeremy Bentham, habillé de ses propres vêtements, surmonté d'une tête de cire. Le philosophe avait demandé que son corps serve à la science, puis soit exposé, pour être utile jusque dans la mort. Ce geste excentrique résume la doctrine qu'il a fondée. Pour l'**utilitarisme**, une action est bonne si elle produit le plus grand bonheur pour le plus grand nombre. Rien d'autre ne compte, ni l'intention, ni la règle, ni la tradition : seulement les conséquences pour le bien-être de tous.
 
-L'**utilitarisme** est une théorie morale **conséquentialiste** selon laquelle une action est moralement bonne si elle **maximise le bonheur** (ou l'utilité) du **plus grand nombre**.
-
-**Principe fondamental :**
-> "Le plus grand bonheur pour le plus grand nombre."
-
-**Caractéristiques :**
-- **Conséquentialisme** : Seules les conséquences comptent (pas les intentions, ni les règles en soi)
-- **Welfarisme** : Le bien-être (bonheur, plaisir) est la seule chose de valeur intrinsèque
-- **Agrégation** : Le bonheur de chacun compte également (égalitarisme moral)
-- **Maximisation** : Vise le **maximum** de bonheur total
-
-## Chronologie
+Quatre traits définissent cette morale. Elle est **conséquentialiste** : seules les conséquences d'une action comptent pour la juger. Elle est **welfariste** : le bien-être, le bonheur ou le plaisir, est la seule chose qui ait de la valeur en elle-même. Elle est **égalitaire** : le bonheur de chacun pèse autant que celui de n'importe qui. Elle est enfin **maximisatrice** : il ne suffit pas de faire du bien, il faut faire le plus de bien possible.
 
 ```mermaid
 timeline
@@ -44,55 +33,15 @@ timeline
         2015 : MacAskill, Doing Good Better
 ```
 
-## Origines et Précurseurs
+## Les précurseurs
 
-### Antiquité : Épicure (341-270 av. J.-C.)
+L'idée que le plaisir est le bien remonte à [[Épicure]] (341-270 av. J.-C.), pour qui le plaisir, compris comme absence de douleur et de trouble, est le souverain bien, à condition de calculer prudemment plaisirs et peines. Mais Épicure visait le bonheur du sage, non celui de la collectivité. C'est au XVIIIe siècle que la formule moderne apparaît. Le philosophe écossais Francis Hutcheson écrit en 1725 que « la meilleure action est celle qui procure le plus grand bonheur au plus grand nombre ». En France, Helvétius fonde la morale sur l'utilité publique dans *De l'esprit* (1758), qui marque Bentham. En Italie, Cesare Beccaria applique ce critère à la justice pénale dans *Des délits et des peines* (1764) : une peine n'est légitime que si elle prévient plus de mal qu'elle n'en cause, ce qui le conduit à condamner la torture et la peine de mort.
 
-**Hédonisme épicurien :**
-- Le **plaisir** est le souverain bien (*summum bonum*)
-- Mais plaisir = **absence de douleur** (ataraxie), pas débauche
-- Calcul prudent des plaisirs et peines
+## Bentham : la morale comme science
 
-**Différence avec utilitarisme moderne :**
-- [[Épicure]] : Bonheur **individuel**
-- Utilitarisme : Bonheur **collectif**
+Jeremy Bentham (1748-1832) systématise la doctrine dans son *Introduction aux principes de la morale et de la législation* (1789). Le **principe d'utilité** approuve ou désapprouve toute action selon qu'elle tend à augmenter ou à diminuer le bonheur des personnes concernées. Et dans ce calcul, « chacun compte pour un, et personne pour plus d'un ». Le bonheur d'un ouvrier vaut celui d'un lord.
 
-### XVIIIe siècle : Précurseurs des Lumières
-
-**Francis Hutcheson (1694-1746) :**
-- Formule : *"That action is best which procures the greatest happiness for the greatest numbers."*
-- "La meilleure action est celle qui procure le plus grand bonheur pour le plus grand nombre."
-
-**Claude-Adrien Helvétius (1715-1771) :**
-- *De l'esprit* (1758) : Morale basée sur l'utilité publique
-- Influencé Bentham
-
-**Cesare Beccaria (1738-1794) :**
-- *Des délits et des peines* (1764) : Justice pénale basée sur l'utilité sociale
-- Critique de la torture et de la peine de mort
-
-
-## Fondateurs : Bentham et Mill
-
-### Jeremy Bentham (1748-1832)
-
-**Père de l'utilitarisme classique**
-
-**Œuvre principale :** *Introduction aux principes de morale et de législation* (1789)
-
-#### Le Principe d'Utilité
-
-**Définition :**
-> "Par principe d'utilité, on entend ce principe qui approuve ou désapprouve toute action, selon qu'elle tend à augmenter ou à diminuer le bonheur de la partie dont l'intérêt est en jeu."
-
-**Universalité :**
-> "Chacun compte pour un, personne pour plus d'un."
-
-**Application :** Individus, communautés, législateurs.
-
-#### Calcul Hédoniste (Felicific Calculus)
-
-Bentham propose de **quantifier** le bonheur selon **7 critères** :
+Bentham veut faire de la morale une science exacte. Il propose donc de mesurer plaisirs et peines selon sept critères : c'est le **calcul hédoniste** (*felicific calculus*).
 
 | Critère | Description |
 |---------|-------------|
@@ -104,356 +53,58 @@ Bentham propose de **quantifier** le bonheur selon **7 critères** :
 | **Pureté** | Mélangé à des peines ? |
 | **Étendue** | Combien de personnes affectées ? |
 
-**Exemple :**
-- Faut-il construire un parc public ou une prison ?
-- Calculer le bonheur/malheur total généré par chaque option
-- Choisir l'option qui **maximise l'utilité totale**
+Faut-il construire un parc public ou une prison ? Il suffirait, en principe, d'estimer le bonheur et le malheur que produirait chaque option, et de retenir celle qui donne le meilleur total. Pour Bentham, il n'y a d'ailleurs pas de hiérarchie entre les plaisirs : seule compte leur quantité. Selon une formule que Mill lui attribue, à plaisir égal, le *push-pin*, un jeu d'enfant, vaut la poésie.
 
-**Ambition :** Transformer la morale en **science exacte**.
+Bentham est avant tout un réformateur. Il critique la *common law* anglaise, qu'il juge archaïque et cruelle, et propose des codes rationnels. Il dessine les plans du **panoptique**, une prison circulaire où un surveillant unique peut observer tous les détenus depuis une tour centrale. Il défend l'extension du droit de vote, la liberté des échanges, la dépénalisation de l'homosexualité. Il est aussi l'un des premiers à inclure les animaux dans la morale : « La question n'est pas : peuvent-ils raisonner ? ni : peuvent-ils parler ? mais : peuvent-ils souffrir ? »
 
-#### Hédonisme Quantitatif
+## Mill : un utilitarisme raffiné
 
-**Thèse :** 
-> "Pushpin is as good as poetry."  
-> (Un jeu de billard vaut la poésie - si le plaisir est égal)
+John Stuart Mill (1806-1873), filleul spirituel de Bentham, élevé par son père pour devenir le continuateur de la doctrine, en corrige les aspects les plus choquants dans *L'Utilitarisme* (1863). Si seule compte la quantité de plaisir, objectaient les critiques, la morale utilitariste est une « morale de porcs ». Mill répond que certains plaisirs sont **qualitativement supérieurs** : les plaisirs de l'intelligence, de la sensibilité et de la morale l'emportent sur ceux du corps. « Il vaut mieux être un être humain insatisfait qu'un porc satisfait ; il vaut mieux être Socrate insatisfait qu'un imbécile satisfait. »
 
-**Conséquence :** 
-- Pas de hiérarchie qualitative entre plaisirs
-- Seule compte la **quantité** de plaisir
-- Plaisir intellectuel ≈ Plaisir sensuel (si même intensité/durée)
-
-**Critique (Mill) :** Ignorer les qualités différentes des plaisirs réduit l'humain à l'animal.
+Comment savoir quel plaisir est supérieur ? Mill propose de s'en remettre à ceux qui ont connu les deux : celui que tous, ou presque tous, préfèrent est le plus désirable. Ceux qui ont goûté à la fois à la philosophie et aux plaisirs du corps choisiraient la philosophie. Le critère a été accusé de circularité, puisqu'il présuppose une élite de juges compétents. Mill distingue au passage le **bonheur**, une vie épanouie qui peut inclure luttes et sacrifices, et le simple **contentement**, une satisfaction tranquille qui peut être médiocre.
 
 > [!important] Idée clé
 > La différence Bentham/Mill n'est pas un détail historique : c'est le clivage qui structure tout l'utilitarisme depuis 200 ans. Bentham est cohérent mais choquant (un plaisir simple et intense "vaut" autant qu'un plaisir raffiné) ; Mill est intuitif mais fragile (son critère de "supériorité" — ce que préfèrent ceux qui ont connu les deux — présuppose déjà la conclusion qu'il veut démontrer, cf. le "Problème" noté plus bas).
 
-#### Applications Pratiques
+Mill est aussi le grand défenseur de la liberté. Dans *De la liberté* (1859), il formule le **principe de non-nuisance** : « la seule raison légitime que puisse avoir une communauté pour user de la force contre un de ses membres est de l'empêcher de nuire aux autres ». Pour tout ce qui ne concerne que lui, l'individu est souverain. Il défend une liberté d'expression très large, qui ne s'arrête qu'à l'incitation directe à la violence, et l'intérêt des « expériences de vie » variées, par lesquelles une société découvre ce qui rend heureux. La liberté se justifie ainsi par l'utilité : à long terme, elle favorise la créativité, le progrès et l'épanouissement. Dans *L'Assujettissement des femmes* (1869), écrit en dialogue avec sa femme Harriet Taylor, Mill montre enfin que l'oppression des femmes gaspille la moitié des talents de l'humanité et diminue le bonheur de tous. Élu député, il dépose en 1867 le premier amendement en faveur du vote des femmes au Parlement britannique.
 
-**Réforme juridique :**
-- Critique de la Common Law anglaise (archaïque, cruelle)
-- Proposition de codes légaux rationnels basés sur l'utilité
+## Les variantes
 
-**Réforme pénale :**
-- Punition justifiée **seulement** si elle prévient plus de mal qu'elle n'en cause
-- Invention du **Panopticon** (prison où tous les prisonniers sont observables depuis un point central)
+Les utilitaristes du XXe siècle ont distingué plusieurs versions de la doctrine, dont on trouve déjà des germes chez Mill. L'**utilitarisme de l'acte** évalue chaque action selon ses conséquences dans la situation particulière. Il conduit à des conclusions troublantes : un chirurgien devrait tuer un patient en bonne santé pour prélever ses organes et sauver cinq malades, si cela maximise le bonheur total. L'**utilitarisme de la règle** recommande plutôt de suivre les règles générales, comme « ne jamais tuer un innocent », dont le respect par tous maximise l'utilité à long terme, en préservant la confiance et la stabilité. Il est plus proche de nos intuitions, mais se rapproche dangereusement de la déontologie de [[Kant]].
 
-**Réforme politique :**
-- Démocratie représentative (maximise le bonheur du plus grand nombre)
-- Suffrage universel (chacun compte pour un)
+L'**utilitarisme des préférences**, défendu par R. M. Hare et Peter Singer, cherche à satisfaire les préférences des personnes plutôt qu'à maximiser leur plaisir : il évite de définir le bonheur à leur place et respecte leur autonomie, par exemple le choix de mourir dignement plutôt que de vivre diminué. L'**utilitarisme négatif**, suggéré par Karl [[Popper|Popper]], vise enfin à réduire la souffrance plutôt qu'à augmenter le bonheur, parce que la souffrance est plus urgente et plus facile à reconnaître.
 
-**Bien-être animal :**
-> "La question n'est pas : peuvent-ils raisonner ? Ni : peuvent-ils parler ? Mais : **peuvent-ils souffrir** ?"
+## Les applications contemporaines
 
-**Précurseur de l'éthique animale moderne.**
+L'utilitarisme est sans doute la théorie morale la plus influente dans la vie publique. Peter Singer, dans *La Libération animale* (1975), en tire une conséquence radicale : puisque les animaux peuvent souffrir, leur souffrance compte autant que la nôtre, et le **spécisme**, la discrimination selon l'espèce, est aussi injustifiable que le racisme. Ce livre a fondé le mouvement animaliste moderne.
 
+L'économie du bien-être et l'**analyse coûts-bénéfices** évaluent les politiques publiques selon leur effet sur le bien-être total. En santé publique, on compare les traitements en « années de vie ajustées sur la qualité » (QALY). L'utilitarisme justifie aussi la redistribution : en vertu de l'**utilité marginale décroissante**, un euro apporte bien plus de bonheur à un pauvre qu'à un riche. La pandémie de Covid-19 a mis ces raisonnements au premier plan : faut-il confiner, quelles populations vacciner d'abord, qui soigner quand les lits de réanimation manquent ?
 
-### John Stuart Mill (1806-1873)
+Le mouvement de l'**altruisme efficace**, porté par Peter Singer et William MacAskill, applique ce raisonnement à la générosité individuelle : donner aux causes qui font le plus de bien par euro dépensé, d'après les données disponibles, comme le recommande l'organisation GiveWell, voire choisir un métier très rémunérateur pour pouvoir donner davantage. Certains de ses membres, comme Nick Bostrom ou Toby Ord, s'intéressent aux **risques existentiels**, intelligence artificielle, pandémies, qui menacent l'avenir de l'humanité tout entière.
 
-**Utilitarisme raffiné**
+## Les critiques
 
-**Œuvre principale :** *L'Utilitarisme* (*Utilitarianism*, 1863)
+La première objection est celle des **droits individuels**. L'utilitarisme peut justifier le sacrifice d'innocents : tuer un patient pour ses organes, condamner un innocent pour calmer une foule prête à l'émeute, voire tolérer l'esclavage si le bonheur des maîtres l'emportait sur la souffrance des esclaves. Les utilitaristes répondent que de telles pratiques détruiraient la confiance et produiraient à long terme plus de malheur que de bonheur, ou qu'il faut suivre les règles qui protègent les innocents. Mais pour leurs critiques, cette protection reste contingente : elle dépend d'un calcul, et non de la valeur de la personne.
 
-#### Hédonisme Qualitatif
+La deuxième est la **mesure du bonheur**. Comment comparer le bonheur de deux personnes, ou quantifier l'amour, la dignité, l'émotion esthétique ? Le calcul de Bentham paraît bien simpliste, le critère qualitatif de Mill bien subjectif, et les indicateurs économiques ne donnent que des approximations.
 
-**Critique de Bentham :**
-> "Il vaut mieux être un être humain insatisfait qu'un porc satisfait ; il vaut mieux être Socrate insatisfait qu'un imbécile satisfait."
+La troisième est l'**exigence excessive**. En 1972, Singer écrit que « si nous pouvons empêcher quelque chose de mauvais d'arriver sans sacrifier quoi que ce soit d'une importance morale comparable, nous devons le faire ». Il faudrait alors donner tout ce qui dépasse le nécessaire, renoncer aux loisirs et aux luxes. Les critiques jugent cette morale impossible à vivre et destructrice de la vie privée et des projets personnels. Certains utilitaristes répondent qu'une sphère personnelle protégée maximise l'utilité à long terme ; d'autres assument que la morale soit exigeante.
 
-**Thèse :** Certains plaisirs sont **qualitativement supérieurs** à d'autres.
-
-**Hiérarchie des plaisirs :**
-1. **Plaisirs intellectuels, moraux, esthétiques** (supérieurs)
-2. **Plaisirs corporels, sensuels** (inférieurs)
-
-**Critère de supériorité :**
-> "De deux plaisirs, celui que tous ou presque tous ceux qui ont expérimenté les deux préfèrent, indépendamment de toute obligation morale, est le plaisir le plus désirable."
-
-**Exemple :**
-- Ceux qui ont connu la philosophie ET les plaisirs corporels préfèrent généralement la philosophie
-- Donc, la philosophie est un plaisir **supérieur**
-
-**Problème :** Circularité ? Comment mesurer objectivement ?
-
-#### Distinction Bonheur / Contentement
-
-**Bonheur (**happiness**) :**
-- Vie épanouie, noble, digne
-- Inclut luttes, sacrifices, aspirations
-
-**Contentement (**contentment**) :**
-- Satisfaction immédiate, tranquillité
-- Peut être médiocre
-
-**Citation célèbre :**
-> "Il vaut mieux être un être humain insatisfait qu'un porc satisfait."
-
-#### Règle vs. Acte
-
-**Mill introduit distinction (implicite) :**
-
-**Utilitarisme de l'acte :**
-- Évaluer **chaque action** individuellement
-- Choisir l'action qui maximise l'utilité dans **cette situation**
-
-**Utilitarisme de la règle :**
-- Suivre des **règles générales** qui, si appliquées universellement, maximisent l'utilité
-- Exemple : "Ne pas mentir" (même si mentir pourrait être utile ponctuellement)
-
-**Mill penche vers utilitarisme de la règle** (pour éviter calculs constants, promouvoir confiance sociale).
-
-#### Défense de la Liberté
-
-**Œuvre :** *De la liberté* (*On Liberty*, 1859)
-
-**Principe du tort (*Harm Principle*) :**
-> "Le seul but pour lequel le pouvoir peut être exercé de plein droit sur un membre d'une communauté civilisée, contre sa volonté, est d'empêcher du tort aux autres."
-
-**Conséquences :**
-- **Liberté d'expression** absolue (sauf incitation à la violence)
-- **Liberté individuelle** (sauf si nuisance à autrui)
-- **Pluralisme** : Expérimentations de vie diverses → Découvrir ce qui maximise le bonheur
-
-**Lien avec utilitarisme :**
-- La liberté **maximise le bonheur à long terme** (créativité, progrès, épanouissement)
-
-#### Émancipation des Femmes
-
-**Œuvre :** *L'Assujettissement des femmes* (*The Subjection of Women*, 1869)
-
-**Argument utilitariste :**
-- L'oppression des femmes **diminue** le bonheur total (gâchis de talents, souffrances)
-- L'égalité **augmente** le bonheur (double de personnes épanouies, meilleure éducation des enfants)
-
-**Précurseur du féminisme.**
-
-
-## Variantes de l'Utilitarisme
-
-### 1. Utilitarisme de l'Acte
-
-**Principe :** Chaque action doit maximiser l'utilité **dans cette situation**.
-
-**Exemple :**
-- Un médecin peut tuer un patient sain pour sauver 5 malades (prélèvement d'organes) **si** cela maximise l'utilité totale
-
-**Problème :** Contre-intuitif, viole droits individuels.
-
-### 2. Utilitarisme de la Règle
-
-**Principe :** Suivre des règles qui, **si universellement appliquées**, maximisent l'utilité.
-
-**Exemple :**
-- Règle : "Ne jamais tuer un innocent"
-- Suivre cette règle même si, ponctuellement, tuer pourrait maximiser l'utilité
-- Raison : La règle maximise l'utilité **à long terme** (confiance sociale, stabilité)
-
-**Avantage :** Plus proche de l'intuition morale, protège les droits.
-
-**Problème :** Se rapproche du déontologisme ([[Kant]]).
-
-### 3. Utilitarisme de la Préférence (Preference Utilitarianism)
-
-**Principe :** Maximiser la **satisfaction des préférences** (plutôt que bonheur/plaisir).
-
-**Défenseur :** R.M. Hare, Peter Singer
-
-**Avantage :**
-- Évite de définir le "bonheur" (subjectif)
-- Respecte l'autonomie (chacun sait ce qu'il préfère)
-
-**Exemple :**
-- Si quelqu'un préfère mourir dignement plutôt que vivre diminué, respecter sa préférence
-
-### 4. Utilitarisme Négatif
-
-**Principe :** Minimiser la **souffrance** (plutôt que maximiser le bonheur).
-
-**Défenseur :** [[Popper|Karl Popper]]
-
-**Justification :**
-- La souffrance est plus urgente que le bonheur
-- Critère plus objectif (la souffrance est évidente)
-
-**Application :** Priorité aux plus démunis.
-
-
-## Applications Contemporaines
-
-### 1. Éthique Animale (Peter Singer)
-
-**Œuvre :** *La Libération animale* (*Animal Liberation*, 1975)
-
-**Argument :**
-- Les animaux peuvent **souffrir**
-- Donc, leur souffrance **compte moralement** (comme celle des humains)
-- Le **spécisme** (discrimination selon l'espèce) est injustifié (comme le racisme)
-
-**Conséquence :**
-- Végétarisme/Véganisme (si souffrance animale > plaisir gustatif humain)
-- Abolition expérimentation animale (sauf si bénéfice énorme)
-
-**Influence :** Mouvement animaliste moderne.
-
-### 2. Éthique Environnementale
-
-**Argument utilitariste :**
-- Destruction de l'environnement → Souffrance des générations futures
-- Préserver la nature **maximise l'utilité à long terme**
-
-**Problème :** 
-- La nature a-t-elle une valeur **intrinsèque** (au-delà de l'utilité humaine) ?
-- Utilitarisme = Anthropocentrique ?
-
-### 3. Économie du Bien-Être
-
-**Application :**
-- Politiques publiques évaluées selon leur impact sur le **bien-être total**
-- **Analyse coûts-bénéfices** : Comparer utilité générée vs. coûts
-
-**Exemples :**
-- Systèmes de santé publique (vaccinations → Maximise santé collective)
-- Redistribution fiscale (taxer riches → Aider pauvres = Utilité totale augmente)
-
-**Problème :** Peut-on **quantifier** le bonheur ? (Economie du bonheur - Kahneman)
-
-### 4. Altruisme Efficace (Effective Altruism)
-
-**Mouvement contemporain** (Peter Singer, William MacAskill)
-
-**Principe :** Faire le **maximum de bien** avec ses ressources.
-
-**Méthodes :**
-- Donner aux **causes les plus efficaces** (selon données empiriques)
-- **Carrières à impact** : Choisir métier qui maximise impact positif
-- Exemple : Gagner beaucoup d'argent pour donner plus (earning to give)
-
-**Organisations :** GiveWell, 80,000 Hours
-
-**Critiques :**
-- Utilitarisme calculateur, froid ?
-- Néglige la justice, les droits ?
-
-### 5. Transhumanisme
-
-**Argument :**
-- Technologies (IA, biotech) peuvent **augmenter le bonheur** (santé, longévité, capacités cognitives)
-- Donc, moralement obligatoire de les développer (si bénéfices > risques)
-
-**Défenseurs :** Nick Bostrom, Toby Ord (utilitaristes conséquentialistes)
-
-
-## Critiques de l'Utilitarisme
-
-### 1. Violation des Droits Individuels
-
-**Objection :**
-- L'utilitarisme peut **sacrifier des innocents** si cela maximise l'utilité totale
-
-**Exemples :**
-- **Transplantation forcée** : Tuer 1 personne saine pour sauver 5 malades (organes)
-- **Bouc émissaire** : Punir un innocent pour calmer la foule (éviter émeutes)
-- **Esclavage** : Si bonheur des maîtres > souffrance des esclaves
-
-**Réponse utilitariste :**
-- **Utilitarisme de la règle** : La règle "ne pas tuer d'innocents" maximise l'utilité à long terme
-- **Conséquences indirectes** : Perte de confiance, instabilité sociale → Diminue utilité totale
-
-**Contre-réponse :** Insuffisant, ne protège pas absolument les droits.
-
-### 2. Impossibilité de Mesurer le Bonheur
-
-**Objection :**
-- Comment **comparer** le bonheur de différentes personnes ?
-- Comment **quantifier** le plaisir esthétique, l'amour, la dignité ?
-
-**Bentham** : Calcul hédoniste (7 critères) → Trop simpliste
-
-**Mill** : Qualité des plaisirs → Mais critère subjectif
-
-**Économie moderne :** Tentatives de mesurer (PIB, indices de bonheur) → Approximations
-
-### 3. Demande Morale Excessive
-
-**Objection :**
-- L'utilitarisme exige de **toujours maximiser l'utilité**
-- Conséquence : Donner jusqu'à vivre au minimum, pas de loisirs "égoïstes"
-
-**Exemple (Peter Singer) :**
-> "Si je peux empêcher quelque chose de mal d'arriver sans sacrifier quelque chose de comparable importance morale, je dois le faire."
-
-**Conséquence :**
-- Donner aux pauvres du monde plutôt qu'acheter des luxes
-- Obligation permanente d'aider
-
-**Critique :** 
-- Trop exigeant, impossible à suivre
-- Élimine la vie privée, les projets personnels
-
-**Réponse utilitariste :**
-- Utilitarisme de la règle : Permettre une sphère personnelle **maximise l'utilité à long terme**
-- Ou : Accepter que l'utilitarisme soit exigeant (c'est cohérent)
-
-### 4. Problème de la Justice Distributive
-
-**Objection :**
-- L'utilitarisme vise le **total**, pas la **distribution**
-- Peut justifier des inégalités massives si le total est maximisé
-
-**Exemple :**
-- Société A : 10 personnes avec bonheur 50 chacune → Total : 500
-- Société B : 1 personne avec bonheur 400, 9 personnes avec bonheur 20 → Total : 580
-
-**Utilitarisme** préfère B (total plus élevé), mais B est **très inégalitaire**.
-
-**Réponse utilitariste :**
-- **Utilité marginale décroissante** : 1€ donne plus de bonheur à un pauvre qu'à un riche
-- Donc, égalisation des revenus **maximise** souvent l'utilité totale
-
-**Critique (Rawls) :**
-- La justice ne se réduit pas à l'utilité totale
-- Principe de différence : Inégalités justifiées seulement si elles profitent aux plus démunis
+La quatrième porte sur la **répartition**. L'utilitarisme vise un total, sans se soucier de sa distribution. Une société de dix personnes heureuses à 50 chacune totalise 500 ; une société où une personne est heureuse à 400 et neuf à 20 totalise 580. L'utilitarisme préférerait la seconde, pourtant profondément inégalitaire. L'utilité marginale décroissante corrige en partie ce défaut, mais John Rawls objecte que la justice ne se réduit pas à un total : les inégalités ne sont justes que si elles profitent aux plus défavorisés.
 
 > [!tip] Méthode
 > Pour situer rapidement une critique de l'utilitarisme, se demander ce qu'elle reproche exactement : (1) qu'on ne puisse pas mesurer le bonheur (problème épistémique), (2) qu'il sacrifie des individus au nom du total (problème des droits), ou (3) qu'il ignore comment ce total est réparti (problème distributif, ici). Ce sont trois objections indépendantes — une réponse à l'une ne répond pas aux deux autres.
 
-### 5. Repugnant Conclusion (Conclusion Répugnante)
-
-**Paradoxe de Derek Parfit :**
-
-**Scénario :**
-- Société A : 10 milliards de personnes, vie très heureuse (bonheur 100 chacun) → Total : 1 000 milliards
-- Société Z : 1 trillion de personnes, vie à peine supportable (bonheur 2 chacun) → Total : 2 000 milliards
-
-**Conclusion utilitariste :** Z est **meilleure** que A (total plus élevé).
-
-**Problème :** Contre-intuitif, "répugnant" (Parfit).
+La cinquième est la **conclusion répugnante** du philosophe britannique Derek Parfit (*Reasons and Persons*, 1984). Comparons un monde de dix milliards de personnes très heureuses, à 100 chacune, soit un total de mille milliards, et un monde de mille milliards de personnes dont la vie vaut à peine d'être vécue, à 2 chacune, soit deux mille milliards. L'utilitarisme du total doit préférer le second, conclusion que Parfit lui-même trouvait « répugnante ».
 
 > [!warning] Piège
 > Ce paradoxe révèle une ambiguïté cachée dans "maximiser le bonheur" : maximiser le **total** (additionner) et maximiser la **moyenne** (diviser par le nombre de personnes) donnent des réponses opposées dès qu'on fait varier la population elle-même — pas seulement sa répartition. Vérifier systématiquement, face à un argument utilitariste, lequel des deux critères est mobilisé : beaucoup de désaccords "sur l'utilitarisme" sont en réalité des désaccords entre ces deux versions.
 
-**Réponses :**
-- Rejeter l'utilitarisme total
-- Utilitarisme de la personne moyenne (moyenne du bonheur, pas total)
-- Accepter la conclusion (cohérence théorique)
+On peut rejeter l'utilitarisme du total, passer à l'utilitarisme de la moyenne, qui a ses propres paradoxes, ou accepter la conclusion par souci de cohérence.
 
-### 6. Néglige les Intentions
+La dernière objection, kantienne, concerne les **intentions**. Celui qui donne cent euros par charité et celui qui les donne pour soigner son image sauvent la même vie : pour l'utilitarisme, leurs actions se valent. Pour [[Kant]], seule la première a une valeur morale. Les utilitaristes répondent que les bonnes intentions comptent indirectement, parce qu'elles forment des dispositions qui produisent de bonnes conséquences à l'avenir.
 
-**Objection (Kant) :**
-- Seules les **conséquences** comptent, pas les **intentions**
-- Mais l'intention morale a une valeur
-
-**Exemple :**
-- A donne 100€ par charité (bonne intention) → Sauve 1 vie
-- B donne 100€ pour améliorer son image (mauvaise intention) → Sauve 1 vie
-
-**Utilitarisme :** Les deux actions sont **également bonnes** (même conséquence).
-
-**Kant :** Seule l'action A est **moralement bonne** (bonne volonté).
-
-**Réponse utilitariste :**
-- Les intentions comptent **indirectement** (cultivent dispositions vertueuses → Bonnes conséquences futures)
-
-
-## Utilitarisme et Autres Théories Morales
+## L'utilitarisme parmi les morales
 
 | Théorie | Critère Moral | Exemple |
 |---------|--------------|---------|
@@ -463,81 +114,20 @@ Bentham propose de **quantifier** le bonheur selon **7 critères** :
 | **Éthique du care** | Relations, sollicitude | Prendre soin des proches |
 | **Contractualisme (Rawls)** | Justice comme équité | Principes choisis sous voile d'ignorance |
 
-
-## Citations Célèbres
-
-> "Le plus grand bonheur du plus grand nombre est la mesure du juste et de l'injuste."  
-> — Jeremy Bentham
-
-> "Il vaut mieux être un être humain insatisfait qu'un porc satisfait ; il vaut mieux être Socrate insatisfait qu'un imbécile satisfait."  
-> — John Stuart Mill, *L'Utilitarisme*
-
-> "Chacun compte pour un, personne pour plus d'un."  
-> — Jeremy Bentham (égalitarisme moral)
-
-> "La question n'est pas : peuvent-ils raisonner ? Ni : peuvent-ils parler ? Mais : peuvent-ils souffrir ?"  
-> — Jeremy Bentham (précurseur éthique animale)
-
-> "Si je peux empêcher quelque chose de mal d'arriver sans sacrifier quelque chose de comparable importance morale, je dois le faire."  
-> — Peter Singer, *La Famine, l'abondance et la morale*
-
-
-## Actualité de l'Utilitarisme
-
-### Politiques Publiques
-
-**Analyse coûts-bénéfices :**
-- Évaluation des projets d'infrastructure, régulations
-- Calcul QALY (Quality-Adjusted Life Years) en santé publique
-
-### Intelligence Artificielle et Éthique
-
-**Dilemmes des voitures autonomes :**
-- En cas d'accident inévitable, qui sauver ? (passagers vs. piétons)
-- Approche utilitariste : Minimiser les morts totaux
-
-**Problème :**
-- Programmation morale dans les IA
-- Utilitarisme = Algorithme ?
-
-### Pandémies (COVID-19)
-
-**Questions utilitaristes :**
-- Confinement (liberté individuelle vs. santé publique)
-- Priorisation des vaccins (âge, professions essentielles)
-- Triage médical (qui sauver si ressources limitées ?)
-
-### Cause Prioritization (80,000 Hours)
-
-**Carrières à impact :**
-- Recherche sur risques existentiels (IA, pandémies, climat)
-- Médecine dans pays pauvres (sauver plus de vies)
-- Gagnent beaucoup → Donner beaucoup
-
+Face à l'utilitarisme, l'éthique des vertus d'[[Aristote]] demande moins ce qu'il faut faire que ce qu'il faut être, et l'éthique antique, épicurienne ou [[Courants & Écoles/Stoïcisme|stoïcienne]], pensait le bonheur du sage plutôt que celui de la collectivité. La prétention de l'utilitarisme à valoir pour tous les êtres sensibles en fait l'une des grandes formes de l'[[Universalisme Moral]].
 
 ## Ressources
 
-### Œuvres Classiques
+**Œuvres classiques :**
+- Jeremy Bentham, *Introduction aux principes de la morale et de la législation* (1789).
+- John Stuart Mill, *L'Utilitarisme* (1863) : court et accessible.
+- John Stuart Mill, *De la liberté* (1859).
 
-- **Jeremy Bentham**, *Introduction aux principes de morale et de législation* (1789)
-- **John Stuart Mill**, *L'Utilitarisme* (*Utilitarianism*, 1863) - Court, accessible
-- **John Stuart Mill**, *De la liberté* (*On Liberty*, 1859)
+**Auteurs contemporains :**
+- Peter Singer, *La Libération animale* (1975) et *Sauver une vie* (2009).
+- William MacAskill, *Doing Good Better* (2015) : l'altruisme efficace.
+- Derek Parfit, *Reasons and Persons* (1984) : de la philosophie morale avancée.
 
-### Contemporains
-
-- **Peter Singer**, *La Libération animale* (1975)
-- **Peter Singer**, *Sauver une vie* (*The Life You Can Save*, 2009)
-- **William MacAskill**, *Doing Good Better* (2015) - Altruisme efficace
-- **Derek Parfit**, *Reasons and Persons* (1984) - Philosophie morale avancée
-
-### Études
-
-- **J.J.C. Smart & Bernard Williams**, *Utilitarianism: For and Against* (1973) - Débat classique
-- **Roger Crisp**, *Routledge Philosophy Guidebook to Mill on Utilitarianism* (1997)
-
-## Liens
-
-- [[Kant]] - Critique déontologique de l'utilitarisme
-- [[Philosophy/Aristote]] - Éthique des vertus (alternative)
-- [[Universalisme Moral]] - Portée universelle de l'utilitarisme
-- [[Philosophy/Stoïcisme]] - Comparaison bonheur individuel vs. collectif
+**Études :**
+- J. J. C. Smart et Bernard Williams, *Utilitarianism: For and Against* (1973) : le débat classique, pour et contre.
+- Roger Crisp, *Mill on Utilitarianism* (1997).

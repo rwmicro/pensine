@@ -8,15 +8,7 @@ prerequis: ["[[Utilitarisme]]"]
 ---
 # Conséquentialisme
 
-## Définition
-
-Le **conséquentialisme** est une famille de théories éthiques qui jugent la moralité d'une action uniquement par ses **conséquences**. Une action est bonne si elle produit de bonnes conséquences, mauvaise si elle produit de mauvaises conséquences.
-
-> "La fin justifie les moyens."
-
-**Principe central:** Ce qui compte moralement, ce n'est pas l'intention, ni la nature de l'acte en soi, mais ses **résultats**.
-
-## Chronologie
+En 1958, la philosophe britannique Elizabeth Anscombe publie un article retentissant, « La philosophie morale moderne ». Elle y forge un mot pour désigner ce qu'elle reproche à presque tous les moralistes anglais depuis Henry Sidgwick : le **conséquentialisme**, l'idée qu'une action se juge uniquement à ses conséquences. Le mot devait être une critique ; il est devenu le nom d'une famille entière de théories morales, dont l'[[Utilitarisme]] est la plus connue. Pour toutes, ce qui rend une action bonne ou mauvaise n'est ni l'intention de celui qui agit, ni la nature de l'acte, mais ce qu'il produit dans le monde. On résume souvent cette position par l'adage « la fin justifie les moyens », à condition de préciser qu'il s'agit d'une fin évaluée impartialement, pour tous ceux que l'action affecte.
 
 ```mermaid
 timeline
@@ -37,207 +29,48 @@ timeline
         2009 : Singer, The Life You Can Save
 ```
 
-## Variantes du Conséquentialisme
+## Une famille de théories
 
-### 1. Utilitarisme (version la plus connue)
+Toutes les théories conséquentialistes partagent la même structure : elles définissent ce qui est bon, puis demandent de le promouvoir. Elles diffèrent par la réponse à la première question. L'**utilitarisme** classique de Jeremy Bentham et de John Stuart Mill tient que le seul bien est le bonheur, entendu comme plaisir et absence de douleur. Bentham proposait de mesurer plaisirs et peines selon leur intensité, leur durée, leur certitude, leur proximité, leur fécondité, leur pureté et leur étendue ; Mill ajoutait que certains plaisirs, ceux de l'esprit, sont supérieurs à d'autres. Pour savoir comment agir, l'utilitarisme de l'**acte** évalue chaque action dans sa situation, tandis que l'utilitarisme de la **règle** recommande de suivre les règles dont le respect général produit les meilleurs résultats (voir [[Utilitarisme]]).
 
-**Principe:** Maximiser le **bonheur** (plaisir, bien-être) et minimiser la souffrance pour le plus grand nombre.
+D'autres versions élargissent ou déplacent la notion de bien. Le **conséquentialisme des préférences** de R. M. Hare et de Peter Singer cherche à satisfaire ce que les gens veulent réellement, plutôt qu'à maximiser leur plaisir. Le **conséquentialisme idéal** du philosophe de Cambridge G. E. Moore (*Principia Ethica*, 1903) compte d'autres biens que le plaisir, comme l'amitié et la contemplation de la beauté. Le **conséquentialisme négatif**, dont Karl [[Popper|Popper]] a esquissé l'idée, vise à réduire la souffrance évitable plutôt qu'à augmenter le bonheur. Quant à l'**égoïsme éthique**, défendu par la romancière Ayn Rand sous le nom d'« égoïsme rationnel », il ne retient que les conséquences pour soi ; la plupart des philosophes refusent d'y voir une morale, puisqu'il abandonne l'impartialité qui fait le cœur du conséquentialisme.
 
-**Fondateurs:**
-- **Jeremy Bentham (1748-1832):** Utilitarisme hédoniste
-  - "Le plus grand bonheur pour le plus grand nombre"
-  - Calcul hédoniste: mesurer plaisirs et peines
-  - Tous les plaisirs se valent (quantitatif)
+Une position nuancée s'est imposée chez beaucoup de conséquentialistes contemporains, la théorie **à deux niveaux** de R. M. Hare (*Moral Thinking*, 1981). Au quotidien, nous suivons des règles morales simples et intériorisées, ne pas tuer, ne pas mentir, tenir ses promesses, parce que calculer à chaque instant serait impossible et dangereux. Mais à un niveau critique, dans le calme de la réflexion, ces règles se justifient et se révisent par leurs conséquences à long terme.
 
-- **John Stuart Mill (1806-1873):** Utilitarisme qualitatif
-  - Distingue plaisirs **supérieurs** (intellectuels) et **inférieurs** (corporels)
-  - "Mieux vaut être Socrate insatisfait qu'un imbécile satisfait"
-  - Liberté individuelle compatible avec utilitarisme
+## La difficulté du calcul
 
-**Deux formes d'utilitarisme:**
-
-**a) Utilitarisme de l'acte:**
-- Évaluer chaque action individuellement
-- Quelle action produit le plus de bonheur dans cette situation?
-- Flexible mais impraticable (calcul constant)
-
-**b) Utilitarisme de la règle:**
-- Suivre des règles générales qui, en moyenne, maximisent le bonheur
-- Ex: "Ne pas mentir" est généralement bénéfique
-- Plus praticable mais moins flexible
-
-### 2. Conséquentialisme Égoïste
-
-- Seules comptent les conséquences **pour moi**
-- Maximiser son propre bien-être
-- Ayn Rand: "L'égoïsme rationnel"
-- Critiqué comme non-moral (pourquoi privilégier soi?)
-
-### 3. Conséquentialisme Négatif
-
-- **Minimiser la souffrance** plutôt que maximiser le bonheur
-- Éviter le mal est plus important que produire le bien
-- [[Popper|Karl Popper]]: "Minimiser la souffrance évitable"
-
-### 4. Conséquentialisme des Préférences
-
-- Satisfaire les **préférences** des gens (pas seulement plaisir/douleur)
-- Peter Singer: tenir compte de ce que les gens veulent réellement
-- Plus sophistiqué que simple hédonisme
-
-## Calcul Utilitariste Classique
-
-**Bentham propose de mesurer:**
-1. **Intensité** du plaisir/peine
-2. **Durée**
-3. **Certitude** (probabilité)
-4. **Proximité** (quand?)
-5. **Fécondité** (produit d'autres plaisirs?)
-6. **Pureté** (mêlé de peine?)
-7. **Étendue** (combien de personnes affectées?)
-
-**Problème:** Impossible en pratique de calculer tout cela précisément.
+Le conséquentialisme suppose que l'on puisse comparer et additionner les biens et les maux de personnes différentes. Or comment comparer le bonheur d'une personne avec la souffrance d'une autre, ou prévoir les effets lointains d'une décision ? Le bombardement d'Hiroshima en août 1945 a été justifié par les vies qu'il aurait épargnées en évitant un débarquement au Japon ; mais combien de vies, et comment les mettre en balance avec les civils tués ? Le calcul est impossible à mener avec précision.
 
 > [!warning] Piège
 > Le problème n'est pas seulement « difficile à calculer en pratique » — c'est une objection structurelle. Le calcul suppose que le bonheur soit une grandeur unique, commensurable entre individus. Rien ne garantit que l'intensité de plaisir d'une personne soit comparable à celle d'une autre. Les critiques suivantes (Rawls, valeur intrinsèque) dérivent toutes de cette faille initiale.
 
-## Exemples d'Application
+## Les cas qui divisent
 
-### Exemple 1: Le Tramway (Trolley Problem)
-
-Un tramway fou va tuer 5 personnes sur la voie. Vous pouvez actionner un levier pour le dévier, mais il tuera 1 personne sur l'autre voie.
-
-**Réponse conséquentialiste:** Actionner le levier
-- Conséquence: 1 mort au lieu de 5
-- 1 < 5 donc c'est le choix moral
-
-**Objection déontologique ([[Universalisme Moral|Kant]]):** Tuer activement une personne innocente est toujours mal, peu importe les conséquences.
+Les philosophes ont imaginé des cas pour mettre le conséquentialisme à l'épreuve. Dans le **dilemme du tramway**, formulé par Philippa Foot en 1967, un tramway fou va écraser cinq personnes, à moins que vous n'actionniez un aiguillage qui le dévie vers une voie où se trouve une seule personne. Le conséquentialiste actionne le levier : un mort vaut mieux que cinq. Mais la plupart des gens refusent de pousser un homme d'une passerelle pour arrêter le tramway avec son corps, alors que le bilan est le même. Le déontologue kantien explique ce refus : tuer activement un innocent, en se servant de lui comme d'un moyen, est mal quelles qu'en soient les conséquences.
 
 > [!tip] Méthode
 > Le dilemme ne cherche pas à savoir « quel choix est le bon » — il isole la distinction entre tuer activement et laisser mourir (act/omission distinction). Le même bilan chiffré (1 mort contre 5) donne des réponses opposées selon qu'on agit ou qu'on s'abstient : c'est cet écart d'intuition, pas le nombre de morts, que le dilemme est fait pour révéler.
 
-### Exemple 2: Mentir pour Sauver des Vies
+D'autres cas sont plus favorables au conséquentialisme. Si des soldats nazis cherchent des Juifs cachés chez vous, presque tout le monde juge qu'il faut mentir pour les sauver, alors que [[Kant]] maintenait un devoir absolu de vérité. Le cas de la « bombe à retardement », où un terroriste capturé saurait où est cachée une bombe sur le point d'exploser, est plus troublant : le calcul semble justifier la torture si elle peut sauver des millions de vies. On objecte que la dignité humaine est inviolable, que la torture dégrade celui qui la pratique et la société qui la tolère, et que son efficacité est douteuse, puisqu'un homme torturé dit ce qu'on veut entendre.
 
-Des nazis cherchent des Juifs cachés dans votre maison. Devez-vous mentir?
+## Les forces du conséquentialisme
 
-**Réponse conséquentialiste:** Oui, mentir
-- Conséquence: Sauver des vies innocentes
-- Bien > mal de mentir
+Le conséquentialisme part d'une intuition difficile à contester : les conséquences de nos actes comptent moralement, et éviter la souffrance, favoriser le bien-être, sont au cœur de la morale. Il est **impartial** : selon la formule de Bentham, chacun compte pour un, personne pour plus d'un, sans privilège de naissance, de nation ou d'espèce. Il fournit un guide clair et adaptable aux situations nouvelles. C'est enfin la théorie morale qui inspire le plus les décisions publiques : analyses coûts-bénéfices, économie de la santé qui compare les traitements en « années de vie ajustées sur la qualité » (QALY), politiques climatiques qui mettent en balance les coûts présents et les dommages futurs, arbitrages des confinements pendant la pandémie. Le mouvement de l'**altruisme efficace**, autour de Peter Singer et William MacAskill, en applique la logique à la générosité privée, en orientant les dons vers les causes qui sauvent le plus de vies par euro.
 
-**Réponse kantienne:** Non, jamais mentir (devoir absolu de vérité)
+## Les critiques
 
-### Exemple 3: Torture pour Information
+La critique la plus connue porte sur les **droits individuels**. Un chirurgien qui a cinq patients mourants, chacun en attente d'un organe différent, devrait-il tuer un visiteur en bonne santé pour les sauver tous ? Le calcul dit oui ; l'intuition morale crie non. Le conséquentialisme semble pouvoir justifier n'importe quelle horreur, sacrifier un innocent, voler, trahir, rompre une promesse, pourvu que le bilan soit positif.
 
-Capturer un terroriste qui sait où est une bombe nucléaire. Torture justifiée?
-
-**Réponse conséquentialiste:** Possiblement oui
-- Si très probable d'obtenir info → sauver millions de vies
-- Souffrance d'un < mort de millions
-- Calcul utilitaire peut justifier
-
-**Objections:** Dignité humaine inviolable, torture dégrade tortionnaire et société, efficacité douteuse
-
-## Avantages du Conséquentialisme
-
-### 1. Intuitivement Plausible
-- Les conséquences comptent moralement
-- Sens commun: éviter souffrance, promouvoir bien-être
-
-### 2. Impartialité
-- Compte le bien-être de **tous** également
-- "Chacun compte pour un, personne pour plus d'un" (Bentham)
-- Pas de privilèges arbitraires
-
-### 3. Flexible et Pratique
-- S'adapte à différentes situations
-- Guide clair: maximiser bien-être
-
-### 4. Base pour Politiques Publiques
-- Analyse coût-bénéfice
-- Économie du bien-être
-- Santé publique (nombre de vies sauvées)
-
-## Critiques Majeures
-
-### 1. Calcul Impossible
-
-**Problème:** Comment mesurer et comparer:
-- Bonheur vs souffrance?
-- Bonheurs de différentes personnes?
-- Conséquences à long terme imprévisibles?
-
-**Exemple:** Hiroshima - Combien de vies américaines sauvées justifient combien de civils japonais tués? Impossible à calculer.
-
-### 2. Violation des Droits Individuels
-
-**Objection:** Le conséquentialisme peut justifier des horreurs:
-- Tuer un innocent pour sauver cinq?
-- Voler un riche pour nourrir des pauvres?
-- Sacrifier minorité pour majorité?
-
-**Exemple du chirurgien:**
-Un médecin a 5 patients mourants (chacun besoin d'un organe). Un homme en bonne santé entre. Devrait-il le tuer pour prélever ses organes et sauver les 5?
-
-**Réponse utilitariste:** Oui (5 > 1)
-**Intuition morale commune:** NON - violation horrible du droit à la vie
-
-### 3. Demandes Excessives
-
-**Peter Singer:** Si vous pouvez sauver un enfant qui se noie sans grand sacrifice, vous devez le faire.
-
-**Extension:** Vous pourriez toujours donner plus d'argent à des organisations caritatives efficaces pour sauver des vies. Donc vous devez donner jusqu'au point où donner davantage vous ferait plus de mal que de bien aux bénéficiaires.
-
-**Conséquence:** Morale héroïque, pas de vie personnelle permise. Trop exigeant.
-
-### 4. Séparation des Personnes
-
-**John Rawls:** Le conséquentialisme traite les personnes comme des **récipients** de bonheur/souffrance interchangeables. Il ignore que ce sont des **individus séparés** avec leurs propres vies.
-
-Sacrifier un innocent pour le bien collectif = traiter cet individu comme simple moyen.
+John Rawls a donné à cette objection sa forme la plus profonde dans *Théorie de la justice* (1971). En additionnant les bonheurs comme s'ils formaient une seule masse, l'utilitarisme « ne prend pas au sérieux la distinction entre les personnes ». Il traite les individus comme de simples réceptacles interchangeables de plaisir et de peine, alors que chacun a sa propre vie.
 
 > [!important] Idée clé
 > Cette critique de Rawls est la plus profonde de toutes car elle n'attaque pas la difficulté pratique du calcul, mais sa logique même : additionner le bonheur de plusieurs personnes comme si c'était une seule masse ignore qu'aucune personne ne vit la somme — chacune ne vit que sa propre part. C'est un problème de principe, pas de précision.
 
-### 5. Problème de la Valeur Intrinsèque
+Le philosophe Bernard Williams ajoute une critique de l'**intégrité** : en exigeant que chacun se fasse l'agent impartial du meilleur état du monde, le conséquentialisme nous aliène de nos propres projets et engagements, ceux qui donnent un sens à notre vie. D'autres objectent que certaines choses ont une **valeur intrinsèque**, la justice, la vérité, l'amitié, la beauté, qui ne se réduit pas à leurs effets sur le bien-être : détruirait-on une œuvre d'art unique pour épargner à quelqu'un une légère souffrance ?
 
-**Objection:** Certaines choses ont une valeur **intrinsèque**, pas seulement instrumentale:
-- Justice
-- Beauté
-- Amitié
-- Vérité
+Reste l'**exigence excessive**. Singer a proposé une expérience devenue célèbre : si vous passez devant un étang où un enfant se noie, vous devez le sauver, même si cela abîme vos vêtements. Or nous pourrions sauver des enfants à l'autre bout du monde pour le prix de ces vêtements, en donnant à des organisations efficaces. Le conséquentialisme semble alors exiger de donner jusqu'au point où donner davantage nous coûterait autant que cela rapporte aux autres, une morale héroïque qui ne laisse presque plus de place à la vie personnelle.
 
-**Exemple:** Détruire une œuvre d'art unique pour éviter une légère souffrance à quelqu'un?
-
-### 6. Paradoxe de la Répugnance
-
-Le conséquentialisme peut **exiger** des actes moralement répugnants:
-- Tuer des innocents
-- Torturer
-- Trahir ses proches
-- Violer des promesses
-
-Quand l'intuition morale et le calcul utilitaire divergent, que faire?
-
-## Conséquentialisme dans le Monde Réel
-
-### Politique Publique
-- **Analyses coût-bénéfice** dans décisions gouvernementales
-- **Économie de la santé:** Combien payer pour sauver une vie (QALYs - Quality-Adjusted Life Years)?
-- **Environnement:** Coût de réduction CO2 vs bénéfices futurs
-
-### Effective Altruism (Altruisme Efficace)
-Mouvement moderne basé sur conséquentialisme:
-- **Peter Singer, William MacAskill**
-- Maximiser impact positif de ses actions charitables
-- Choisir causes par calcul d'efficacité
-- "Earning to give": Gagner beaucoup pour donner beaucoup
-
-### Problèmes Contemporains
-- **Intelligence Artificielle:** Comment programmer éthique dans IA? Souvent approche conséquentialiste
-- **Changement climatique:** Calcul intergénérationnel
-- **Pandémies:** Confinement vs liberté - calcul vies sauvées
-
-## Conséquentialisme vs Déontologie
+## Conséquentialisme et déontologie
 
 | Conséquentialisme | [[Universalisme Moral|Déontologie (Kant)]] |
 |:--|:--|
@@ -248,37 +81,13 @@ Mouvement moderne basé sur conséquentialisme:
 | Maximiser le bien | Respecter les droits |
 | "Que produit cette action?" | "Puis-je universaliser cette maxime?" |
 
-## Philosophes Conséquentialistes Majeurs
-
-- **Jeremy Bentham** (1748-1832) - Fondateur utilitarisme
-- **John Stuart Mill** (1806-1873) - Utilitarisme raffiné
-- **Henry Sidgwick** (1838-1900) - Méthodes de l'éthique
-- **G.E. Moore** (1873-1958) - Conséquentialisme idéal
-- **R.M. Hare** (1919-2002) - Préférentialisme
-- **Peter Singer** (1946-) - Utilitarisme préférences, altruisme efficace
-- **Derek Parfit** (1942-2017) - Conséquentialisme sophistiqué
-
-## Position Nuancée Moderne
-
-**Conséquentialisme de règles** (R.M. Hare):
-- Niveau intuitif: suivre règles morales simples (ne pas tuer, ne pas mentir)
-- Niveau critique: évaluer ces règles par leurs conséquences à long terme
-- Évite calculs constants tout en restant conséquentialiste
+Les grands représentants du conséquentialisme, Bentham, Mill, Henry Sidgwick, G. E. Moore, R. M. Hare, Peter Singer ou Derek Parfit, ont chacun cherché à répondre à ces objections sans renoncer à l'idée centrale. Beaucoup de philosophes jugent aujourd'hui qu'une éthique équilibrée doit tenir ensemble ce que chaque tradition voit le mieux : que les conséquences comptent, que certains principes ne se négocient pas, et que le caractère de celui qui agit importe aussi.
 
 ## Ressources
 
-- **Livre classique:** *Utilitarianism* - John Stuart Mill (court, accessible)
-- **Livre moderne:** *The Life You Can Save* - Peter Singer
-- **Débat:** *The Trolley Problem* - Judith Jarvis Thomson
-- **Stanford Encyclopedia:** [Consequentialism](https://plato.stanford.edu/entries/consequentialism/)
-- **YouTube:** [Utilitarisme expliqué](https://www.youtube.com/watch?v=uvmz5E75ZIA)
-- **Site:** [Effective Altruism](https://www.effectivealtruism.org)
-
-## Conclusion
-
-Le conséquentialisme offre une éthique claire et impartiale, mais soulève des questions profondes:
-- Peut-on vraiment calculer les conséquences?
-- Certains actes sont-ils intrinsèquement mauvais?
-- Les droits individuels sont-ils absolus?
-
-Probablement, une **éthique équilibrée** combine conséquentialisme (les conséquences comptent) avec déontologie (certains principes sont inviolables) et éthique de la vertu (le caractère moral compte).
+- John Stuart Mill, *L'Utilitarisme* (1863) : le classique, court et accessible.
+- Peter Singer, *Sauver une vie* (*The Life You Can Save*, 2009).
+- Judith Jarvis Thomson, « The Trolley Problem » (1985) : l'article qui a donné son nom au dilemme.
+- Stanford Encyclopedia of Philosophy : [Consequentialism](https://plato.stanford.edu/entries/consequentialism/).
+- YouTube : [Utilitarisme expliqué](https://www.youtube.com/watch?v=uvmz5E75ZIA).
+- Site du mouvement : [Effective Altruism](https://www.effectivealtruism.org).
