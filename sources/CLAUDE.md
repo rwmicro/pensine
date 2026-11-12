@@ -50,6 +50,18 @@ period: "Depuis 1948"   # optionnel, libellé affiché à côté des années
 - Diagrammes mermaid pour les sujets visuels — voir « Diagrammes et animations » pour le choix du type
 - **Pas de section "Voir aussi"** — ces sections ont été supprimées en masse
 
+## Rédaction : expliquer, pas énumérer
+
+Une note est un cours, pas une fiche de révision. Le modèle est `Social Sciences/Arts/Mouvements/Impressionnisme.md`.
+
+- **Ouvrir sur l'enjeu** : deux ou trois phrases qui disent pourquoi le sujet compte, ou la question à laquelle la note répond. Jamais un `###` ou une liste juste sous le titre.
+- **Progresser** : contexte, idée, exemple, conséquence. Chaque section s'appuie sur la précédente, et les paragraphes sont reliés par des transitions.
+- **Expliquer chaque notion à sa première apparition**, avec un exemple concret (une œuvre à écouter, un mot à découper, un cas chiffré). Un terme technique seul dans une puce (« chromatisme accru ») n'apprend rien.
+- **Phrases complètes**, avec verbes et articles. Pas de style télégraphique.
+- **Puces seulement pour des éléments vraiment parallèles** (une liste d'œuvres, des étapes, des ressources), tableaux pour les comparaisons. Une suite de penseurs ou de notions qui se répondent s'écrit en prose, en les faisant dialoguer.
+- **Encadrés avec parcimonie** : un `[!warning] Piège` ou `[!important] Idée clé` doit apporter ce que le texte ne dit pas déjà, jamais le répéter.
+- Index, listes de ressources, aide-mémoire d'examen et tableaux de vocabulaire restent des listes : on vient y chercher une information, pas apprendre.
+
 ## Structure du vault
 
 ```
