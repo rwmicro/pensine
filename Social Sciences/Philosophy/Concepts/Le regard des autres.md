@@ -9,193 +9,62 @@ prerequis: ["[[Sartre]]"]
 
 # Le Regard des Autres (Sartre)
 
-## Concept Central
+Imaginez que, poussé par la jalousie ou la curiosité, vous ayez collé l'œil au trou d'une serrure. Vous êtes tout entier à ce qui se passe derrière la porte ; vous ne pensez pas à vous, vous n'êtes qu'un regard tendu vers la scène. Soudain, des pas dans le couloir. Quelqu'un vous voit. En un instant, tout bascule : vous vous découvrez tel que l'autre vous voit, un homme penché sur une serrure, un voyeur, et le rouge vous monte au visage. C'est par cette scène que [[Sartre]], dans *L'Être et le Néant* (1943), décrit ce qu'il appelle le **regard d'autrui** : l'expérience par laquelle la simple présence d'un autre transforme radicalement la manière dont j'existe pour moi-même.
 
-Le **regard d'autrui** (*the gaze*) est un concept clé de [[Sartre]] développé dans *L'Être et le Néant* (1943). Il explique comment la présence des autres transforme radicalement notre expérience de nous-mêmes.
+## De sujet à objet
 
-## Transformation par le Regard
+Avant les pas dans le couloir, je n'ai pas de distance à moi-même. Je ne me juge pas, je ne me vois pas ; le monde s'organise autour de mon projet, la porte est à ouvrir, la scène à voir. Je suis sujet, centre de mon monde, conscience qui vise les choses. Le regard d'autrui inverse cette situation. Je deviens un objet dans le monde de l'autre, un être qu'il voit, qu'il juge, qu'il qualifie, et ce que je suis pour lui m'échappe entièrement. Il me décentre : le monde ne s'ordonne plus seulement autour de moi, il s'écoule vers un autre centre que je ne maîtrise pas.
 
-### Quand je suis seul
-- Je suis **sujet** pur, conscience libre
-- Le monde est mon terrain de jeu
-- Je suis le centre de mon univers
-- Pas de jugement, pas de honte
-
-### Sous le regard d'autrui
-- Je deviens **objet** pour l'autre
-- Je me découvre vulnérable, jugeable
-- Je perds ma souveraineté sur le monde
-- Surgissement de la **honte**
-
-## L'Exemple du Voyeur (Trou de serrure)
-
-**Situation :** Je regarde par le trou d'une serrure (acte de voyeurisme).
-
-**Phase 1 — Seul :**
-- Je suis conscience pure, absorbé dans mon acte
-- Pas de distance réflexive
-- Je ne me juge pas
-- Je suis simplement "regard voyant"
-
-**Phase 2 — Des pas dans le couloir :**
-- Soudain, conscience qu'**on pourrait me voir**
-- Je me vois comme l'autre me verrait : **un voyeur**
-- Surgissement immédiat de la **honte**
-- Je me découvre objet de jugement moral
-
-**Révélation :** Ma honte ne vient pas de ma conscience morale interne, mais du **regard virtuel de l'autre**. C'est autrui qui révèle ma dimension d'objet.
+L'affect qui révèle ce basculement est la **honte**. Elle n'est pas d'abord une affaire de conscience morale intérieure : « la honte est honte de soi devant autrui ». J'ai honte de ce que je suis en tant qu'autrui me voit, et je reconnais que je suis bien cet être-là, ce voyeur que je n'étais pas pour moi l'instant d'avant. Même seul, la honte suppose ce regard, comme un témoin intériorisé. La **fierté** a la même structure, inversée : je me saisis à travers la valeur que l'autre m'accorde, mais elle me rend tout aussi dépendant de lui.
 
 > [!important] Idée clé
 > Ce n'est pas le fait d'être effectivement vu qui compte, mais la simple possibilité de l'être. Le bruit de pas ne prouve rien — la honte surgit avant toute vérification. Autrui n'est donc pas d'abord perçu comme un objet du monde parmi d'autres, mais comme un sujet dont le regard menace ma propre position de sujet : c'est une inversion, pas une simple addition d'un observateur.
 
-## Phénomènes Associés
+## L'être-pour-autrui
 
-### La Honte
+Sartre distinguait deux manières d'être, l'en-soi des choses, qui sont ce qu'elles sont, et le pour-soi de la conscience, toujours en projet. Le regard en fait apparaître une troisième, l'**être-pour-autrui**. J'ai une dimension de mon existence qui n'existe que par l'autre et que je ne peux jamais saisir moi-même : je suis lâche, méchant, élégant ou ridicule à ses yeux, et je ne peux pas vérifier ce qu'il voit. Le regard me fige dans une essence, « voyeur », « lâche », « héros », alors que, pour moi, je suis toujours en train de me faire. Une part de moi m'est volée ; Sartre parle d'**aliénation**. Mais j'ai aussi besoin de l'autre pour me connaître, puisque lui seul peut me voir du dehors. Je dépends de celui qui me dépossède.
 
-- **Honte = reconnaissance de soi comme objet** jugé par autrui
-- Je me vois à travers les yeux de l'autre
-- La honte est toujours **honte devant quelqu'un**
-- Même seul, la honte suppose un regard intériorisé
+## Le conflit des consciences
 
-### La Fierté
+De là vient la thèse la plus sombre de Sartre : « le conflit est le sens originel de l'être-pour-autrui ». Face au regard, je n'ai que deux attitudes possibles, et elles échouent toutes deux. Je peux chercher à me faire objet, à me laisser absorber par la liberté de l'autre, à n'être plus que ce qu'il fait de moi : c'est la pente du **masochisme**. Ou bien je peux retourner la situation et chercher à faire de l'autre un objet, à nier sa liberté en le regardant, en le dominant, en le possédant : c'est celle du **sadisme**. Aucune n'aboutit. Je ne peux pas devenir une pure chose, puisque je reste une conscience qui choisit de se soumettre ; et je ne peux pas réduire l'autre à une chose, puisqu'il reste libre et qu'un seul de ses regards suffit à me renvoyer au rang d'objet.
 
-- Même structure que la honte, mais positive
-- Je me vois valorisé par le regard d'autrui
-- Reconnaissance de ma valeur par l'autre
-
-### L'Objectification
-
-Sous le regard :
-- Je deviens **chose** dans le monde de l'autre
-- Je perds ma transcendance (ma liberté)
-- Je suis figé dans une essence : "voyeur", "lâche", "héros"
-- **Aliénation** : une partie de moi m'échappe, possédée par l'autre
-
-## "L'Enfer, c'est les Autres" (*Huis Clos*)
-
-> "L'enfer, c'est les autres." — *Huis clos* (1944)
-
-### Ce que ça ne veut pas dire
-- Les autres sont méchants
-- Il faut vivre en ermite
-- Pessimisme misanthrope
-
-### Ce que ça veut vraiment dire
-
-Les autres sont un "enfer" car :
-1. **Ils me transforment en objet** malgré moi
-2. **Je ne peux contrôler** l'image qu'ils ont de moi
-3. **Je dépends d'eux** pour mon identité sociale
-4. **Impossible de leur échapper** (même mort, dans la pièce)
-
-Dans *Huis clos*, trois personnages enfermés ensemble après leur mort :
-- Pas de miroirs → chacun dépend du regard des autres pour se voir
-- Pas de tortionnaires → ils se torturent mutuellement par leurs regards
-- Pas d'échappatoire → condamnés à être jugés éternellement
-- Chacun a besoin de l'approbation qu'il ne peut obtenir
-
-## L'Être-pour-autrui
-
-Sartre distingue trois modes d'être :
-
-1. **Être-en-soi** — Mode d'être des choses (pierre, table)
-2. **Être-pour-soi** — Mode d'être de la conscience (l'humain seul)
-3. **Être-pour-autrui** — Mode d'être de l'humain sous le regard
-
-**L'être-pour-autrui** est une dimension inéluctable de l'existence humaine :
-- Je ne peux me connaître entièrement que par autrui
-- Une part de moi existe **dans** et **par** le regard de l'autre
-- **Conflit fondamental :** J'ai besoin de l'autre pour exister, mais il m'aliène
-
-## Conflit Intersubjectif
-
-Les relations humaines sont fondamentalement **conflictuelles** selon Sartre :
-
-### Deux stratégies face au regard
-
-**1. Stratégie de l'objet (masochisme) :**
-- Accepter d'être objet pour l'autre
-- Se soumettre totalement à son jugement
-- Exemple : amour servile, fascination
-
-**2. Stratégie du sujet (sadisme) :**
-- Tenter de réduire l'autre en objet
-- Nier sa liberté
-- Exemple : domination, violence, séduction comme manipulation
-
-**Échec des deux stratégies :**
-- Impossible de figer définitivement l'autre en objet (il reste libre)
-- Impossible de devenir pur objet (je reste conscience)
-
-### L'Amour selon Sartre
-
-**L'amour** est une tentative vouée à l'échec :
-- Je veux être aimé **librement** par l'autre
-- Mais un amour libre peut cesser à tout moment
-- **Paradoxe :** Je veux que l'autre me choisisse librement mais définitivement
-- Impossible : soit libre, soit définitif
-
-> "Aimer, c'est vouloir être aimé."
-
-Chaque amant veut **posséder** la liberté de l'autre, ce qui est contradictoire.
+L'**amour** n'échappe pas à cette logique. Aimer, pour Sartre, c'est vouloir être aimé : vouloir que l'autre fasse de moi le centre de son monde, la limite de sa liberté. Mais je ne veux pas être aimé par contrainte, ce qui serait l'amour d'un automate ; je veux que l'autre me choisisse librement. Or une liberté qui choisit peut toujours se reprendre. Je veux à la fois que son amour soit libre et qu'il soit assuré pour toujours, ce qui est contradictoire.
 
 > [!warning] Piège
 > Ne pas réduire ce paradoxe à un simple constat psychologique du type « l'amour est compliqué ». Chez Sartre, c'est une impossibilité structurelle : vouloir la liberté de l'autre tout en voulant se l'approprier est contradictoire par nature, indépendamment du couple ou des circonstances — aucun « bon choix de partenaire » ne peut la résoudre.
 
-## Regard et Mauvaise Foi
+## L'enfer, c'est les autres
 
-Le regard d'autrui peut être un prétexte pour la **mauvaise foi** :
+La pièce *Huis clos* (1944) met cette analyse en scène. Trois morts, Garcin, Inès et Estelle, sont conduits dans un salon Second Empire. Ils s'attendaient à des bourreaux, à des flammes ; il n'y a rien, pas même de miroir. Ils comprennent peu à peu que chacun sera le bourreau des deux autres. Estelle ne peut plus se voir que dans les yeux d'Inès, Garcin a besoin que l'un d'eux lui dise qu'il n'est pas un lâche, et chacun refuse à l'autre l'approbation qu'il attend. Rien ne viendra rompre ce face-à-face éternel. D'où la réplique de Garcin : « L'enfer, c'est les autres. »
 
-**Exemple :**
-- "Je suis timide parce que les autres me jugent"
-- Faux — c'est moi qui **choisis** d'être affecté par leur regard
-- Le regard ne me détermine que si je l'accepte
+La formule a souvent été comprise comme une profession de misanthropie, comme si les autres étaient méchants et qu'il fallait vivre en ermite. Sartre a protesté contre ce contresens. Les autres sont un enfer parce qu'ils me transforment en objet malgré moi, parce que je ne contrôle pas l'image qu'ils ont de moi, parce que je dépends d'eux pour savoir qui je suis, et parce qu'on ne peut leur échapper. Si mes rapports avec autrui sont viciés, si je me fige dans leur jugement au lieu d'agir pour le changer, alors autrui devient l'enfer.
 
-**Responsabilité :** Même sous le regard, je reste libre de choisir comment y réagir.
+## Le regard n'excuse rien
 
-## Regard Objectivant dans la Société
+On pourrait tirer de cette analyse une excuse commode : « je suis timide parce que les autres me jugent ». Ce serait, pour Sartre, de la **mauvaise foi**. Je ne choisis pas d'être vu, et la honte me saisit sans que je la décide ; mais je reste libre du sens que je donne à ce regard et de ce que je fais sous lui. On peut se laisser figer par l'image qu'on nous renvoie, ou agir pour la démentir. Le regard ne supprime pas la responsabilité, il en est l'occasion.
 
-Au-delà des interactions personnelles, le regard s'institutionnalise :
-- **Racisme :** Regard qui fige l'autre dans son appartenance raciale
-- **Sexisme :** Regard qui réduit la femme à son corps (analysé par [[Beauvoir]])
-- **Classisme :** Regard qui enferme dans une classe sociale
+## Le regard qui opprime
 
-Frantz Fanon appliquera cette analyse au regard colonial dans *Peau noire, masques blancs* (1952).
+Ce qui vaut entre deux personnes vaut aussi à l'échelle d'une société. Le regard peut enfermer quelqu'un dans son appartenance raciale, dans son sexe, dans sa classe sociale. [[Beauvoir]], dans *Le Deuxième Sexe* (1949), montre comment la femme a été constituée en « Autre » par le regard masculin, définie par rapport à l'homme et non par elle-même. Frantz Fanon, dans *Peau noire, masques blancs* (1952), décrit l'expérience de l'homme noir figé par le regard du colonisateur, qui lui assigne d'avance un corps et une identité : un enfant dans un train qui dit « Tiens, un nègre ! », et c'est tout son être qui se trouve réduit à une couleur. En 1975, la critique de cinéma Laura Mulvey forge la notion de *male gaze* pour désigner la manière dont le cinéma classique filme le corps féminin comme objet à regarder pour un spectateur supposé masculin.
 
-## Critique de la Théorie
+## Les limites de l'analyse
 
-**Limites :**
-1. **Pessimisme excessif ?** Toute relation est-elle conflit ?
-2. **Amour réciproque impossible ?** Sartre ignore peut-être la possibilité d'intersubjectivité authentique
-3. **Reconnaissance mutuelle** ([[Hegel]]) : Le regard peut aussi être reconnaissance égalitaire, pas seulement objectification
+Toute relation est-elle conflit ? Beaucoup de lecteurs ont jugé cette vision trop sombre. [[Hegel]], avec la dialectique du maître et de l'esclave, avait déjà décrit la lutte des consciences pour la reconnaissance, mais il pensait qu'elle pouvait déboucher sur une reconnaissance mutuelle.
 
 > [!important] Idée clé
 > La différence avec Hegel n'est pas cosmétique. Chez Hegel, la dialectique du maître et de l'esclave peut se dépasser vers une reconnaissance mutuelle égalitaire. Chez Sartre, le conflit est une structure ontologique permanente du rapport à autrui — il n'y a pas de synthèse qui le résorbe, d'où son pessimisme relationnel assumé.
 
-**Philosophes critiques :**
-- **Merleau-Ponty :** Propose une intersubjectivité plus positive
-- **Levinas :** Le visage d'autrui appelle à la responsabilité éthique, pas au conflit
+Merleau-Ponty objecte que le regard d'autrui ne me fige que si nous nous retranchons chacun dans notre nature pensante ; dans le dialogue, dans le geste partagé, se noue une intersubjectivité où chacun se reconnaît sans s'objectiver. Levinas renverse la perspective : le visage d'autrui ne me menace pas, il m'oblige, il m'appelle à la responsabilité. Beauvoir elle-même, dans *Pour une morale de l'ambiguïté* (1947), insiste sur le fait que ma liberté a besoin de celle des autres pour se réaliser.
 
-## Applications Modernes
+## Le regard aujourd'hui
 
-**Réseaux sociaux :**
-- Regard permanent de milliers d'yeux
-- Quantification du jugement (likes, followers)
-- Aliénation accrue par l'image publique
-
-**Surveillance :**
-- Caméras, État panoptique
-- Intériorisation du regard surveillant
-- Modification du comportement par le regard virtuel
-
-**Performance de genre :**
-- *Male gaze* féministe (Laura Mulvey)
-- Regard masculin objectifiant le corps féminin
+L'analyse de Sartre trouve un écho dans nos sociétés. Les réseaux sociaux exposent chacun au regard de milliers d'inconnus et le chiffrent en likes et en abonnés : l'être-pour-autrui y devient une image à gérer en permanence. La surveillance, des caméras aux traces numériques, repose sur ce que Michel Foucault, dans *Surveiller et punir* (1975), a analysé à partir du panoptique de Bentham : il suffit de se savoir peut-être observé pour modifier sa conduite, exactement comme les pas dans le couloir suffisaient à faire naître la honte.
 
 ## Ressources
 
-- *L'Être et le Néant* (1943), Troisième partie, chapitre I, section IV — texte source
-- *Huis clos* (1944) — pièce de théâtre
-- Simone de Beauvoir, *Le Deuxième Sexe* (1949) — application au regard masculin
-- Frantz Fanon, *Peau noire, masques blancs* (1952) — application au regard colonial
-- Stanford Encyclopedia of Philosophy : entrée **Jean-Paul Sartre**
+- Sartre, *L'Être et le Néant* (1943), troisième partie, chapitre I, section IV, « Le regard » : le texte source.
+- Sartre, *Huis clos* (1944).
+- Simone de Beauvoir, *Le Deuxième Sexe* (1949).
+- Frantz Fanon, *Peau noire, masques blancs* (1952).
+- Laura Mulvey, « Visual Pleasure and Narrative Cinema » (1975).
+- Stanford Encyclopedia of Philosophy : entrée [Jean-Paul Sartre](https://plato.stanford.edu/entries/sartre/).

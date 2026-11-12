@@ -10,53 +10,13 @@ wikidata: Q35802
 
 # Baruch Spinoza (1632-1677)
 
-## Biographie
+Le 27 juillet 1656, dans la synagogue portugaise d'Amsterdam, on lit devant la communauté un texte d'une violence inouïe : « Par le décret des anges et le jugement des saints, nous excommunions, chassons, maudissons et exécrons Baruch de Spinoza [...] Maudit soit-il le jour, maudit soit-il la nuit ; maudit soit-il quand il se couche et maudit soit-il quand il se lève. » Il est interdit à quiconque de lui parler, de lui écrire, de demeurer sous le même toit que lui ou de lire ce qu'il écrira. Le jeune homme a vingt-trois ans ; il n'a encore rien publié. Il ne cherchera jamais à revenir. Il gagnera sa vie en polissant des lentilles et écrira, en secret, l'un des livres les plus audacieux de l'histoire de la philosophie, l'*Éthique*, où Dieu n'est rien d'autre que la Nature.
 
-**Baruch Spinoza** (Bento de Espinosa en portugais, Benedictus de Spinoza en latin) est né le 24 novembre 1632 à Amsterdam et mort le 21 février 1677 à La Haye, Pays-Bas.
+## Une vie libre et retirée
 
-### Origines et Jeunesse
+Spinoza naît à Amsterdam en 1632 dans une famille de marchands juifs séfarades venus du Portugal, d'anciens convertis forcés qui avaient fui l'Inquisition pour retrouver aux Pays-Bas la liberté de pratiquer le judaïsme. Il reçoit l'éducation de la communauté, l'hébreu, la Torah, les commentateurs, puis apprend le latin auprès d'un ancien jésuite, Franciscus van den Enden, et découvre Descartes et la science nouvelle. Les motifs exacts du *herem* ne sont pas connus ; les témoignages évoquent des propos niant l'immortalité de l'âme, faisant de Dieu un être corporel et réduisant la Loi à une institution humaine.
 
-**Famille :**
-- Famille de marchands juifs séfarades (Portugal)
-- Réfugiés aux Pays-Bas pour fuir l'Inquisition espagnole
-- Communauté juive prospère d'Amsterdam
-
-**Formation :**
-- Éducation juive traditionnelle (Talmud, Torah, hébreu)
-- Études à la yeshiva (école rabbinique)
-- Ensuite : latin, philosophie, sciences (Descartes, Hobbes)
-
-### Le Herem (Excommunication) - 1656
-
-**27 juillet 1656** : Spinoza est **excommuniqué** de la communauté juive d'Amsterdam à 23 ans.
-
-**Texte du herem (en partie) :**
-> "Par le décret des anges et le jugement des saints, nous excommunions, chassons, maudissons et exécrons Baruch de Spinoza [...] Maudit soit-il le jour, maudit soit-il la nuit ; maudit soit-il quand il se couche et maudit soit-il quand il se lève."
-
-**Raisons (supposées) :**
-- Remise en question de l'immortalité de l'âme
-- Critique de la Révélation divine
-- Conception panthéiste de Dieu (Dieu = Nature)
-- Refus de se rétracter
-
-**Conséquence :** Rupture totale avec la communauté juive, isolement social.
-
-### Vie Modeste et Indépendante
-
-**Métier :** Polisseur de lentilles optiques (pour vivre, refuse pensions et chaires universitaires)
-
-**Mode de vie :**
-- Vie frugale, austère
-- Refus des honneurs (rejette chaire de philosophie à Heidelberg pour rester libre)
-- Correspondance philosophique intense (Leibniz, Oldenburg, etc.)
-
-**Santé :** Tuberculose (aggravée par poussière de verre du polissage), meurt à 44 ans.
-
-**Publication :**
-- Œuvres publiées **anonymement** ou **posthumes** (censure)
-- *Éthique* publiée après sa mort (1677)
-
-## Œuvres Principales
+Après l'exclusion, il vit modestement à Rijnsburg, Voorburg puis La Haye, polisseur de lentilles réputé, entouré d'un petit cercle d'amis collégiants et cartésiens qui lisent et discutent ses manuscrits. Il correspond avec Henry Oldenburg, secrétaire de la Royal Society, reçoit la visite de [[Leibniz]] en 1676, refuse en 1673 une chaire à l'université de Heidelberg pour garder sa liberté de philosopher. Il meurt en 1677, à quarante-quatre ans, d'une maladie pulmonaire que la poussière de verre a peut-être aggravée. Le seul livre qu'il ait signé de son vivant est un exposé de Descartes ; le *Traité théologico-politique* parut sans nom d'auteur, et l'*Éthique* ne fut publiée par ses amis qu'après sa mort.
 
 | Œuvre | Année | Publication | Thème |
 |-------|-------|-------------|-------|
@@ -67,18 +27,13 @@ wikidata: Q35802
 | **Éthique** (*Ethica ordine geometrico demonstrata*) | 1661-1675 | Posthume (1677) | Métaphysique, morale, Dieu/Nature |
 | **Traité politique** | 1677 | Posthume (inachevé) | Philosophie politique |
 
-**Méthode :** *Ordine geometrico demonstrata* - Démonstration à la manière géométrique (comme Euclide : axiomes, définitions, propositions, démonstrations).
+## Une philosophie démontrée comme la géométrie
 
-## Métaphysique : Le Monisme Spinoziste
+L'*Éthique* se présente comme un traité d'Euclide : définitions, axiomes, propositions, démonstrations, corollaires et scolies, en cinq parties qui vont de Dieu à la liberté humaine. Cette forme, *ordine geometrico*, n'est pas un ornement. Spinoza veut considérer les actions et les désirs humains « comme s'il était question de lignes, de plans et de corps », sans les maudire ni les tourner en dérision. Le *Traité politique* le dit en une formule célèbre : « Ne pas rire, ne pas pleurer, ne pas détester, mais comprendre. »
 
-### Dieu ou la Nature (*Deus sive Natura*)
+## Dieu, c'est-à-dire la Nature
 
-**Thèse centrale :** Il n'existe qu'**une seule substance** : **Dieu = Nature**.
-
-**Formule célèbre :**
-> *"Deus sive Natura"* (Dieu, c'est-à-dire la Nature)
-
-**Conséquences radicales :**
+Tout part de la définition de la **substance** : « ce qui est en soi et se conçoit par soi », c'est-à-dire ce qui n'a besoin de rien d'autre pour exister ni pour être pensé. Une telle substance ne peut être produite par une autre ; elle est donc cause de soi, infinie, éternelle, et il ne peut y en avoir qu'une. Cette substance unique, Spinoza l'appelle Dieu, ou la Nature : *Deus sive Natura*. Dieu n'est pas un créateur extérieur au monde qui l'aurait fait par un libre décret ; il est le monde lui-même considéré dans sa puissance productive, ce que Spinoza nomme la « nature naturante », par opposition à la « nature naturée », l'ensemble des choses produites.
 
 | Spinoza | Théisme Traditionnel | Différence |
 |---------|---------------------|------------|
@@ -87,62 +42,10 @@ wikidata: Q35802
 | Dieu agit par **nécessité** (lois naturelles) | Dieu agit par **volonté** et **liberté** | Déterminisme vs. Providence |
 | Pas de finalité (pas de "pour quoi") | Création a un but (salut, gloire de Dieu) | Pas de téléologie |
 
-**Scandale :** Accusé d'**athéisme** (bien qu'il parle constamment de "Dieu").
+Ce Dieu ne veut rien, ne poursuit aucun but, ne récompense ni ne punit. L'appendice de la première partie démonte l'illusion **finaliste** : les hommes, qui agissent toujours en vue d'une fin, imaginent que la nature fait de même et qu'elle a tout disposé pour eux, puis, quand survient une tempête ou une épidémie, ils l'attribuent à la colère des dieux. La volonté de Dieu devient alors « l'asile de l'ignorance ». On comprend que le spinozisme ait été dénoncé comme un athéisme, alors même que le mot de Dieu revient à chaque page.
 
-### La Substance Unique
+Cette substance s'exprime dans une infinité d'**attributs**, dont nous ne connaissons que deux, la **pensée** et l'**étendue**. Les choses particulières, les corps, les esprits, nous-mêmes, sont des **modes**, des manières d'être de la substance, qui existent en elle et se conçoivent par elle. Mon corps est un mode de l'étendue, mon esprit un mode de la pensée, l'idée de ce corps.
 
-**Définition :**
-> "Par substance, j'entends ce qui est en soi et se conçoit par soi, c'est-à-dire ce dont le concept n'a pas besoin du concept d'une autre chose duquel il doive être formé."
-> — *Éthique*, I, Définition 3
-
-**Propriétés de la Substance :**
-- **Unique** : Une seule substance (Dieu/Nature)
-- **Infinie** : Pas de limite
-- **Cause de soi** (*causa sui*) : Se cause elle-même
-- **Éternelle** : Hors du temps
-- **Nécessaire** : Ne peut pas ne pas exister
-
-**Démonstration (simplifié) :**
-1. Une substance ne peut être produite par une autre (définition)
-2. Donc, si une substance existe, elle est cause de soi
-3. Dieu est substance infinie
-4. Donc, Dieu existe nécessairement
-
-### Les Attributs de Dieu
-
-**Définition :**
-> "Par attribut, j'entends ce que l'entendement perçoit d'une substance comme constituant son essence."
-> — *Éthique*, I, Définition 4
-
-**Dieu a une infinité d'attributs**, mais nous n'en connaissons que **deux** :
-
-#### 1. **Étendue** (*Extensio*)
-- L'espace, la matière, le corps
-- Tout ce qui a des dimensions
-
-#### 2. **Pensée** (*Cogitatio*)
-- Les idées, la conscience, l'esprit
-- Tout ce qui pense
-
-**Conséquence :**
-- **Pas de dualisme** comme chez [[Descartes]]
-- Esprit et corps sont **deux aspects de la même réalité** (Dieu/Nature)
-
-### Les Modes
-
-**Définition :**
-> "Par mode, j'entends les affections d'une substance, autrement dit ce qui est en autre chose, par quoi il est aussi conçu."
-> — *Éthique*, I, Définition 5
-
-**Explication :**
-- Les **modes** sont les manifestations particulières de la Substance
-- **Nous** (humains) sommes des **modes** de Dieu
-
-**Exemples :**
-- Mon corps = mode de l'attribut Étendue
-- Mon esprit = mode de l'attribut Pensée
-
-**Structure ontologique :**
 ```mermaid
 mindmap
   root["DIEU/NATURE (Substance unique)"]
@@ -155,91 +58,26 @@ mindmap
 > [!important] Idée clé
 > Cette structure explique pourquoi, chez Spinoza, il n'y a pas d'âme séparée du corps qui pourrait survivre ou interagir causalement avec lui (contra [[Descartes]]) : esprit et corps sont deux expressions parallèles de la même chose, jamais deux substances en interaction.
 
-## Déterminisme Absolu
+Le problème cartésien de l'union de l'âme et du corps disparaît ainsi : « L'ordre et la connexion des idées sont les mêmes que l'ordre et la connexion des choses. » L'esprit ne commande pas au corps, ni le corps à l'esprit ; ce sont une seule et même chose exprimée de deux manières.
 
-### Tout est Nécessaire
+## La nécessité et l'illusion du libre arbitre
 
-**Thèse centrale :**
-> "Dans la Nature, il n'y a rien de contingent, mais tout est déterminé par la nécessité de la nature divine à exister et à produire un effet d'une certaine manière."
-> — *Éthique*, I, Proposition 29
-
-**Conséquence :**
-- **Pas de libre arbitre** (au sens traditionnel)
-- Tout événement est **nécessaire** (découle des lois de la Nature/Dieu)
-- Même nos pensées et désirs sont déterminés
-
-**Illusion de la liberté :**
-> "Les hommes se croient libres parce qu'ils sont conscients de leurs désirs, mais ignorants des causes qui les déterminent."
-> — *Éthique*, I, Appendice
-
-**Analogie célèbre :**
-> "Une pierre qui tombe, si elle était consciente, croirait qu'elle tombe librement."
+« Dans la nature, il n'y a rien de contingent, mais tout y est déterminé par la nécessité de la nature divine à exister et à produire quelque effet d'une certaine manière » (I, 29). Tout ce qui arrive arrive nécessairement, nos pensées et nos désirs compris. Pourquoi alors nous croyons-nous libres ? Parce que nous sommes conscients de nos désirs et ignorants des causes qui nous déterminent. Dans une lettre de 1674, Spinoza imagine une pierre lancée qui, si elle pensait, croirait se mouvoir par sa propre volonté. Ainsi l'enfant croit désirer librement le lait, l'homme en colère vouloir librement la vengeance, et l'ivrogne dire de son plein gré ce qu'il regrettera une fois dégrisé.
 
 > [!warning] Piège
 > Ne pas confondre ce déterminisme avec un fatalisme résigné : Spinoza ne dit pas "rien ne sert d'agir", il dit que la liberté consiste justement à comprendre les causes qui nous déterminent — plus on comprend, plus on agit "depuis sa propre nature" plutôt que d'être ballotté par des causes extérieures incomprises.
 
-### Liberté Véritable
+La liberté n'est donc pas l'absence de causes, c'est le fait d'être cause de ses propres actes. Est libre ce qui existe et agit par la seule nécessité de sa nature ; est contraint ce qui est déterminé par autre chose. Dieu seul est absolument libre en ce sens. L'homme ne l'est que dans la mesure où il comprend, car comprendre, c'est agir à partir de soi au lieu de subir.
 
-**Paradoxe :** Spinoza parle de **liberté**, mais dans un univers déterministe.
+## Les trois genres de connaissance
 
-**Solution :**
-- **Liberté = Comprendre la nécessité**
-- Être libre, c'est **agir selon sa nature propre**, guidé par la raison
-- Opposé à **l'esclavage** : être soumis aux passions (causes externes)
+Spinoza distingue trois manières de connaître. Le premier genre est l'**imagination** : la connaissance par ouï-dire et par expérience vague, à partir des affections de notre corps. Le soleil nous paraît à deux cents pieds ; même quand nous savons sa vraie distance, nous continuons à le voir ainsi. Cette connaissance est inadéquate, c'est la seule source de l'erreur. Le deuxième genre est la **raison**, qui procède par « notions communes », ce qui est commun à toutes choses, et en déduit des propriétés universelles, comme en mathématiques ou en physique. Le troisième genre est la **science intuitive**, qui saisit l'essence des choses singulières en voyant comment elles découlent de Dieu. C'est elle qui procure la joie la plus haute. Le chemin de l'*Éthique* mène de l'un à l'autre : passer de l'imagination à la raison, puis à l'intuition, c'est se libérer.
 
-**Formule :**
-- **Libre** : Agir par connaissance adéquate (raison)
-- **Esclave** : Agir par passions (causes externes incomprises)
+## Le conatus et les affects
 
-## Théorie de la Connaissance
+« Chaque chose, autant qu'il est en elle, s'efforce de persévérer dans son être » (III, 6). Cet effort, le **conatus**, est l'essence même de chaque chose. Chez l'homme, quand il est conscient de lui-même, il s'appelle **désir**, et Spinoza renverse une idée reçue : nous ne désirons pas une chose parce que nous la jugeons bonne, nous la jugeons bonne parce que nous la désirons.
 
-### Trois Genres de Connaissance
-
-#### 1. **Imagination** (*Imaginatio*) - Connaissance du 1er Genre
-- Connaissance par ouï-dire, expérience vague
-- **Inadéquate**, source d'erreur
-- Exemple : "Le soleil est petit" (perception sensorielle trompeuse)
-
-#### 2. **Raison** (*Ratio*) - Connaissance du 2e Genre
-- Connaissance par notions communes, déduction
-- **Adéquate**, vraie
-- Exemple : Mathématiques, lois de la physique
-
-#### 3. **Science Intuitive** (*Scientia Intuitiva*) - Connaissance du 3e Genre
-- Connaissance immédiate de l'essence des choses **à partir de Dieu**
-- **La plus haute**, source de béatitude
-- Exemple : Comprendre comment toute chose découle nécessairement de Dieu
-
-**Progression :**
-Imagination → Raison → Science Intuitive = **Libération progressive**
-
-## Psychologie : Conatus et Passions
-
-### Le *Conatus*
-
-**Définition :**
-> "Chaque chose, autant qu'il est en elle, s'efforce de persévérer dans son être."
-> — *Éthique*, III, Proposition 6
-
-**Principe fondamental :**
-- Tout être vivant cherche à **persévérer dans l'existence**
-- C'est l'**essence** même de chaque chose
-- Base de la psychologie et de la morale spinozistes
-
-**Chez l'homme :**
-- **Désir** (*Cupiditas*) = Conatus conscient de lui-même
-- "L'homme est un être désirant"
-
-### Les Affects (Passions et Actions)
-
-**Affects de base :**
-1. **Joie** (*Laetitia*) : Passage à une plus grande perfection (augmentation du *conatus*)
-2. **Tristesse** (*Tristitia*) : Passage à une moindre perfection (diminution du *conatus*)
-3. **Désir** (*Cupiditas*) : Conatus conscient
-
-**Tous les autres affects** (amour, haine, envie, espoir, crainte...) dérivent de ces trois.
-
-### Passions vs. Actions
+Le désir se module en deux affects fondamentaux. La **joie** est le passage à une perfection plus grande, une augmentation de notre puissance d'agir ; la **tristesse** est le passage à une perfection moindre. Tous les autres affects en dérivent : l'amour est une joie accompagnée de l'idée de sa cause, la haine une tristesse accompagnée de l'idée de sa cause, l'espoir une joie inconstante liée à une chose dont l'issue est douteuse, la crainte une tristesse inconstante, et « il n'y a pas d'espoir sans crainte ni de crainte sans espoir ». La troisième partie de l'*Éthique* déroule cette géométrie des passions avec une finesse qui fait penser aux moralistes.
 
 | Passions | Actions |
 |----------|---------|
@@ -247,90 +85,26 @@ Imagination → Raison → Science Intuitive = **Libération progressive**
 | Connaissance **inadéquate** | Connaissance **adéquate** |
 | **Servitude** | **Liberté** |
 
-**Objectif moral :** Passer des passions aux actions (par la connaissance).
-
 > [!tip] Méthode
 > Cette distinction passions/actions est la clé pour comprendre toute l'*Éthique* : le programme spinoziste entier consiste à transformer des affects subis (passions, servitude) en affects compris (actions, liberté) — pas à supprimer les émotions, mais à les rendre adéquates.
 
-## Éthique : La Béatitude
+## Bien, mal et vertu
 
-### Critiquer la Morale Traditionnelle
+Bien et mal ne désignent rien de positif dans les choses ; ce sont des manières de penser, relatives à notre nature. « Une même chose peut être en même temps bonne, mauvaise et aussi indifférente. Par exemple, la musique est bonne pour le mélancolique, mauvaise pour l'affligé ; pour le sourd, elle n'est ni bonne ni mauvaise » (IV, préface). Est bon ce qui nous est utile, c'est-à-dire ce qui augmente notre puissance d'agir ; est mauvais ce qui la diminue.
 
-**Spinoza rejette :**
-- **Bien/Mal absolus** : Ce sont des notions relatives, projections humaines
-- **Libre arbitre** : Illusion
-- **Finalisme** : La Nature n'a pas de but
+La **vertu** se confond alors avec la puissance : agir par vertu, c'est agir selon les lois de sa propre nature, sous la conduite de la raison, et chercher ce qui nous est réellement utile. Cette morale de l'utile n'est pas égoïste au sens étroit, car rien n'est plus utile à l'homme qu'un autre homme qui vit sous la conduite de la raison : « l'homme est un dieu pour l'homme » (IV, 35, scolie). Elle se méfie en revanche des passions tristes, la haine, l'envie, la honte, le remords, et de ceux qui les cultivent, les tyrans et les prêtres qui ont besoin de la crainte pour gouverner. « L'homme libre ne pense à rien moins qu'à la mort, et sa sagesse est une méditation non de la mort, mais de la vie » (IV, 67).
 
-**Relativisme moral :**
-> "Bien et mal ne sont rien en soi dans les choses, mais seulement relativement à notre nature."
+## La béatitude
 
-**Exemples :**
-- Le poison est "mal" pour l'homme, mais pas en soi
-- La musique est "bien" pour celui qui aime, "mal" pour celui qui a mal à la tête
+La cinquième partie décrit le terme du chemin. Plus nous comprenons nos affects, moins nous les subissons, et plus nous connaissons les choses par le troisième genre, plus nous les rapportons à Dieu. Naît alors l'**amour intellectuel de Dieu**, une joie accompagnée de l'idée de Dieu comme cause, qui n'est autre que « l'amour même dont Dieu s'aime lui-même » à travers nous (V, 36). On a souvent rapproché cette acceptation joyeuse de la nécessité de l'*amor fati* de [[Nietzsche]], qui saluait en Spinoza son « précurseur ».
 
-### La Vertu = Puissance
+Spinoza va jusqu'à affirmer que « l'esprit humain ne peut être absolument détruit avec le corps, mais il en reste quelque chose qui est éternel » (V, 23). La thèse divise les commentateurs. La plupart y voient non une immortalité personnelle, un souvenir qui survivrait après la mort, mais l'éternité, hors du temps, de ce que l'esprit comprend adéquatement. « Nous sentons et nous expérimentons que nous sommes éternels », écrit-il. La béatitude n'est pas la récompense de la vertu, elle est la vertu même. Et l'*Éthique* se clôt sur une phrase modeste : « Tout ce qui est remarquable est aussi difficile que rare. »
 
-**Définition :**
-> "Agir par vertu, c'est agir selon les lois de sa propre nature, sous la conduite de la raison."
+## La liberté de penser et la démocratie
 
-**Équation spinoziste :**
-- **Vertu = Puissance (d'agir) = Raison = Joie = Liberté**
+Le *Traité théologico-politique* (1670) est un livre de combat, écrit alors que les pasteurs calvinistes réclament la censure et que la république néerlandaise des frères de Witt est menacée. Spinoza y lit la Bible comme un texte historique, écrit par des hommes, en des temps et des langues qu'il faut étudier comme on étudie la nature ; il soutient que les prophètes avaient une imagination vive plutôt qu'une connaissance supérieure, que les miracles sont impossibles puisque rien ne peut déroger aux lois de la nature, et que l'enseignement de l'Écriture se réduit à une morale pratique, la justice et la charité. La conclusion est politique : l'État doit laisser à chacun la liberté de penser et de dire ce qu'il pense, car cette liberté, loin de menacer la paix, en est la condition. Le livre est interdit aux Pays-Bas en 1674 et mis à l'Index.
 
-**Conséquence :**
-- Être vertueux, c'est **augmenter sa puissance d'agir**
-- Le vice, c'est **diminuer sa puissance** (passions tristes)
-
-### L'*Amor Dei Intellectualis* (Amour Intellectuel de Dieu)
-
-**Sommet de l'Éthique :**
-
-**Définition :**
-> "L'amour intellectuel de l'esprit envers Dieu est l'amour même de Dieu par lequel Dieu s'aime lui-même."
-> — *Éthique*, V, Proposition 36
-
-**Explication :**
-1. Comprendre que tout découle nécessairement de Dieu/Nature
-2. Aimer cette nécessité (amor fati - amour du destin)
-3. Identifier notre esprit à l'entendement infini de Dieu
-4. **Béatitude** : Joie éternelle et immuable
-
-**Paradoxe :**
-- En aimant Dieu, c'est **Dieu qui s'aime lui-même à travers nous**
-- Nous sommes des modes de Dieu
-
-### Éternité de l'Esprit
-
-**Thèse controversée :**
-> "L'esprit humain ne peut être absolument détruit avec le corps, mais il en reste quelque chose qui est éternel."
-> — *Éthique*, V, Proposition 23
-
-**Interprétations :**
-1. **Immortalité personnelle** : L'esprit survit après la mort (minoritaire)
-2. **Éternité impersonnelle** : La partie rationnelle de l'esprit participe à l'éternité de Dieu (majorité des commentateurs)
-
-**Nuance :**
-- Pas de paradis/enfer personnels
-- Éternité = Hors du temps (pas "survie après")
-- Seule la connaissance adéquate est éternelle
-
-## Philosophie Politique
-
-### Critique de la Religion Organisée
-
-**Dans le *Traité théologico-politique* (1670) :**
-
-**Thèses scandaleuses :**
-1. Les miracles sont **impossibles** (violeraient les lois de la Nature/Dieu)
-2. Les prophètes avaient une **imagination vive**, pas une connaissance vraie
-3. La Bible est un texte **historique**, pas révélation divine littérale
-4. La religion doit se limiter à la **morale pratique** (justice, charité)
-5. L'État doit garantir la **liberté de pensée**
-
-**Conséquence :** Livre interdit, mise à l'Index.
-
-### Théorie de l'État
-
-**Influencé par Hobbes, mais s'en distingue :**
+Spinoza partage avec Hobbes l'idée que le droit naturel de chacun s'étend aussi loin que sa puissance, mais il en tire d'autres conséquences.
 
 | Hobbes | Spinoza |
 |--------|---------|
@@ -338,158 +112,17 @@ Imagination → Raison → Science Intuitive = **Libération progressive**
 | Monarchie absolue | Préférence pour **démocratie** |
 | Contrat irrévocable | Droit naturel inaliénable |
 
-**Droit naturel :**
-> "Le droit naturel de chaque homme se mesure non par la saine raison, mais par le désir et la puissance."
+Personne ne peut transférer entièrement son droit et sa puissance à un autre ; un pouvoir qui voudrait régner sur les esprits se condamne à la révolte. La fin de l'État, écrit-il, n'est pas de dominer les hommes par la crainte, mais de les libérer de la crainte : « la fin de l'État est en réalité la liberté ». Le *Traité politique*, interrompu par la mort, devait culminer dans l'étude de la démocratie, qu'il tient pour le régime le plus naturel.
 
-**Conséquence :**
-- Chacun a **droit à tout ce qu'il peut**
-- Mais il est **rationnel** de s'associer (État) pour augmenter sa puissance
+## Réception et héritage
 
-**Liberté d'expression :**
-> "Dans un État libre, il est permis à chacun de penser ce qu'il veut et de dire ce qu'il pense."
-> — *Traité théologico-politique*
+Pendant un siècle, « spinoziste » a été synonyme d'athée. Bayle le réfute dans son *Dictionnaire*, Leibniz s'en démarque, mais ses idées circulent sous le manteau et nourrissent ce que l'historien Jonathan Israel a appelé les « Lumières radicales ». En 1785, la « querelle du panthéisme », déclenchée par Jacobi qui révèle le spinozisme de Lessing, le remet au centre de la philosophie allemande. Goethe, les romantiques, [[Hegel]], pour qui « on est spinoziste ou on n'est pas philosophe », s'en inspirent.
 
-**Précurseur des Lumières.**
+Au XXe siècle, Gilles Deleuze fait de lui le philosophe de l'immanence et de la joie, Martial Gueroult et Pierre Macherey en donnent des commentaires monumentaux, Étienne Balibar et Antonio Negri relisent sa politique. Le neurologue Antonio Damasio, dans *Spinoza avait raison* (2003), voit dans sa théorie des affects une anticipation de ce que la neurobiologie découvre sur le rôle des émotions dans la pensée. Le philosophe norvégien Arne Næss, fondateur de l'écologie profonde, se réclame de son refus de l'anthropocentrisme, et l'économiste Frédéric Lordon analyse le salariat comme une capture du conatus des travailleurs dans *Capitalisme, désir et servitude* (2010).
 
-## Influence et Héritage
+## Les objections
 
-### Réception Historique
-
-**XVIIe-XVIIIe siècles :**
-- **Spinozisme** = Synonyme d'**athéisme**
-- Attaques violentes (Bayle, Leibniz, etc.)
-- Influence souterraine (Lumières radicales)
-
-**XIXe siècle :**
-- **Redécouverte** : Goethe, romantiques allemands
-- **Hegel** : Spinoza comme moment de l'Esprit absolu
-- **Nietzsche** : Admiration ("mon précurseur")
-
-**XXe-XXIe siècles :**
-- **Deleuze** : *Spinoza et le problème de l'expression* (1968) - Renouveau spinoziste
-- **Psychanalyse** : Freud cite Spinoza (conatus = pulsions)
-- **Neurosciences** : Damasio (*Spinoza avait raison*, 2003) - Emotions et raison
-
-### Sur la Philosophie
-
-| Domaine | Influence |
-|---------|-----------|
-| **Métaphysique** | Monisme, panthéisme |
-| **Déterminisme** | Compatibilisme (liberté dans la nécessité) |
-| **Psychologie** | Théorie des affects, conatus (précurseur pulsions freudiennes) |
-| **Politique** | Liberté de pensée, démocratie, séparation État/religion |
-| **Éthique** | Relativisme, éthique de la joie (vs. morale du devoir) |
-
-**Oppositions :**
-- Anti-dualisme (vs. [[Descartes]])
-- Anti-finalisme (vs. Aristote, théologie)
-- Anti-libre arbitre (vs. tradition judéo-chrétienne)
-
-### Spinozisme Contemporain
-
-**Philosophie :**
-- **Gilles Deleuze** : Spinoza comme philosophe de l'immanence
-- **Antonio Negri** : Spinoza politique (démocratie absolue)
-- **Étienne Balibar** : Spinoza et politique moderne
-
-**Sciences cognitives :**
-- **Antonio Damasio** : Émotions et raison (confirme intuitions spinozistes)
-- Critique du dualisme (corps/esprit indissociables)
-
-**Écologie :**
-- Panthéisme (Dieu = Nature) inspire deep ecology
-- Critique anthropocentrisme
-
-## Critiques Principales
-
-### Critique du Panthéisme
-
-**Objection théologique :**
-- Dieu = Nature → Pas de Dieu personnel (prière inutile, pas de providence)
-- **Réponse :** Spinoza assume, rejette le Dieu anthropomorphique
-
-### Critique du Déterminisme
-
-**Objection morale :**
-- Pas de libre arbitre → Pas de responsabilité morale
-- **Réponse :** Liberté = Comprendre la nécessité (compatibilisme)
-
-**Objection psychologique :**
-- Sentiment de liberté est universel
-- **Réponse :** Illusion (conscience des désirs, ignorance des causes)
-
-### Critique de la Méthode Géométrique
-
-**Objection :**
-- La réalité n'est pas réductible à des axiomes mathématiques
-- Descartes, Leibniz : Méthode trop rigide pour la métaphysique
-
-**Défense :**
-- Clarté, rigueur, nécessité des démonstrations
-
-### Ambiguïtés
-
-**Éternité de l'esprit :**
-- Qu'est-ce qui est éternel exactement ?
-- Immortalité ou simple participation à l'éternité de Dieu ?
-
-**Bien/Mal :**
-- Si tout est relatif, comment fonder une morale ?
-- Spinoza répond : L'utile propre (augmenter sa puissance)
-
-## Citations Célèbres
-
-> "Deus sive Natura."  
-> (Dieu, c'est-à-dire la Nature)
-> — *Éthique*
-
-> "L'homme est un dieu pour l'homme."  
-> (*Homo homini deus*)
-> — *Éthique*, IV, Scolie de la Proposition 35
-
-> "Ne pas rire, ne pas pleurer, ne pas détester, mais comprendre."  
-> (*Non ridere, non lugere, neque detestari, sed intelligere*)
-> — *Traité politique*, I, §4
-
-> "Tout ce qui est excellent est aussi difficile que rare."  
-> (*Omnia praeclara tam difficilia quam rara sunt*)
-> — *Éthique*, V, Dernière phrase
-
-> "L'homme libre ne pense à rien moins qu'à la mort, et sa sagesse est une méditation non de la mort, mais de la vie."  
-> — *Éthique*, IV, Proposition 67
-
-> "La crainte ne peut être sans espoir, ni l'espoir sans crainte."  
-> — *Éthique*, III, Définitions des affects
-
-## Actualité de Spinoza
-
-### Neurosciences et Émotions
-
-**Antonio Damasio** (*Spinoza avait raison*, 2003) :
-- Les émotions ne sont **pas opposées** à la raison
-- Elles sont **nécessaires** au raisonnement
-- Confirmation empirique de Spinoza (vs. rationalisme pur)
-
-### Écologie
-
-**Deep Ecology :**
-- Critique de l'anthropocentrisme
-- Nature a une valeur intrinsèque (Dieu = Nature)
-- Arne Næss cite Spinoza
-
-### Critique du Capitalisme
-
-**Frédéric Lordon** (économiste spinoziste) :
-- Exploitation = Capter le *conatus* des travailleurs
-- Désirs manipulés par le capitalisme
-- **Capitalisme des affects**
-
-### Éthique de la Joie
-
-**Alternative à la morale du devoir :**
-- Pas de culpabilité (pas de libre arbitre)
-- Chercher ce qui **augmente notre puissance d'agir**
-- Éthique affirmative (vs. morale prohibitive)
+Pour la théologie, identifier Dieu à la nature revient à supprimer le Dieu personnel, la providence et la prière ; Spinoza l'assume, il ne veut pas d'un Dieu fait à l'image de l'homme. Le déterminisme semble supprimer la responsabilité : comment blâmer qui ne pouvait agir autrement ? Spinoza répond que l'on peut encore se protéger des méchants comme on se protège des chiens enragés, sans leur supposer un libre arbitre, et que la vraie liberté, celle qui naît de la compréhension, reste à conquérir. Certains jugent que la méthode géométrique impose à la réalité une rigidité qui ne lui convient pas et que ses démonstrations sont moins contraignantes qu'elles le paraissent. Enfin, la doctrine de l'éternité de l'esprit reste obscure, et le relativisme du bien et du mal laisse ouverte la question de savoir comment fonder une morale commune, à laquelle Spinoza répond par l'utilité bien comprise et l'accord des hommes raisonnables.
 
 ## Questions de révision
 
@@ -513,29 +146,12 @@ Imagination → Raison → Science Intuitive = **Libération progressive**
 
 ## Ressources
 
-### Œuvres Essentielles
-
-1. **Éthique** (*Ethica ordine geometrico demonstrata*) - Œuvre maîtresse (difficile)
-2. **Traité théologico-politique** - Accessible, critique de la religion
-3. **Traité de la réforme de l'entendement** - Méthode, introduction
-4. **Court traité** - Esquisse de l'Éthique, plus simple
-
-### Études et Commentaires
-
-- **Gilles Deleuze**, *Spinoza : Philosophie pratique* (accessible)
-- **Martial Gueroult**, *Spinoza* (2 tomes) - Commentaire académique rigoureux
-- **Pierre Macherey**, *Introduction à l'Éthique de Spinoza* (5 tomes)
-- **Antonio Damasio**, *Spinoza avait raison* - Neurosciences
-
-### Vulgarisation
-
-- **Cours de Deleuze sur Spinoza** (audio/transcription en ligne)
-- **Frédéric Lenoir**, *Le miracle Spinoza* - Biographie romanesque
-- **Raphaël Enthoven**, *Spinoza en 30 minutes* (vidéo)
-
-## Liens
-
-- [[Descartes]] - Critique du dualisme cartésien
-- [[Kant]] - Déterminisme vs. Liberté transcendantale
-- [[Nietzsche]] - Filiation (affirmation de la vie, critique morale)
-- [[Philosophy/Stoïcisme]] - Amor fati, acceptation de la nécessité
+- *Éthique* (posthume, 1677) : l'œuvre maîtresse, difficile ; commencer par l'appendice de la partie I et la préface de la partie III.
+- *Traité théologico-politique* (1670) : plus accessible, sur la religion et la liberté de penser.
+- *Traité de la réforme de l'entendement* : une introduction à la méthode.
+- Gilles Deleuze, *Spinoza. Philosophie pratique* (1981) : l'introduction la plus vivante.
+- Martial Gueroult, *Spinoza* (2 tomes, 1968-1974) : le commentaire académique de référence.
+- Pierre Macherey, *Introduction à l'Éthique de Spinoza* (5 tomes).
+- Antonio Damasio, *Spinoza avait raison* (2003).
+- Frédéric Lenoir, *Le Miracle Spinoza* (2017) : une présentation grand public.
+- Les cours de Deleuze sur Spinoza (enregistrements et transcriptions en ligne).
