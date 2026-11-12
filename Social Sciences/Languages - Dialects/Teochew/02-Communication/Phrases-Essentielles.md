@@ -186,12 +186,12 @@ Les jours de la semaine se comptent : *pai it* (lundi), *pai ji* (mardi), *pai s
 > 7. loipai
 
 > [!quiz] Comment dit-on « il n'y a pas de chien » ?
-> - [x] *Bo kau.*
->   *Bo* nie l'existence ou la possession.
 > - [ ] *M kau.*
 >   *M* nie la volonté ou un fait (*wa em cai*), pas l'existence.
 > - [ ] *Bue kau.*
 >   *Bue* veut dire « pas encore ».
+> - [x] *Bo kau.*
+>   *Bo* nie l'existence ou la possession.
 
 > [!quiz] *Mai co khak thiam* : quel sens porte *mai* ?
 > - [x] Une défense : « ne travaille pas trop dur ».

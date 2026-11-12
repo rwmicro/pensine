@@ -156,12 +156,12 @@ In *nyi mai gi thet kui*, *mai* means "to sell", whereas in *ngai oi mai* it mea
 > | kui | Expensive |
 
 > [!quiz] Which sentence asks "Can I buy a ticket here?"
+> - [ ] *Ngai mang jiu phiau.*
+>   That says "I don't have a ticket yet."
 > - [x] *Ngai hiau mai phiau khiun liak bie mo?*
 >   *Ngai hiau … mo?* is "Can I …?"
 > - [ ] *Nyi jiu con phiau mo?*
 >   That asks "Do you have a return ticket?"
-> - [ ] *Ngai mang jiu phiau.*
->   That says "I don't have a ticket yet."
 
 > [!quiz] How do you ask "Do you have a free room tonight?"
 > *Nyi jiu khung kien mo kin pu am?*

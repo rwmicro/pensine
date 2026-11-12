@@ -94,3 +94,40 @@ Phrases de survie en tamoul **parlé** (koccai tamiḻ), plus utile que le tamou
 | Attendez | Koñcam iru | ![கொஞ்சம் இரு](audio/ta_male_6e4c7cb154af.mp3) |
 | Vite ! | Vegamā! | ![வேகமா](audio/ta_male_c989a054bad8.mp3)! |
 | Bonne chance | Vaḷttukkaḷ | ![வாழ்த்துக்கள்](audio/ta_male_6fc199c963b0.mp3) |
+
+## Exercices
+
+> [!traduire] Je ne comprends pas.
+> Eṉakku puriyavillai.
+> piège: teriyātu, illai
+> vers: tamoul
+>
+> *Eṉakku teriyātu*, c'est « je ne sais pas ».
+
+> [!traduire] Où sont les toilettes ?
+> Kaḻivaṟai eṅkē?
+> piège: evvaḷavu, eṉṉa
+> vers: tamoul
+
+> [!traduire] Itu evvaḷavu?
+> Combien ça coûte ?
+> piège: où, quoi
+> vers: français
+
+> [!associer] Relie chaque mot à son sens.
+> | Tamoul | Français |
+> |---|---|
+> | Vaṇakkam | Bonjour |
+> | Naṉṟi | Merci |
+> | Ām | Oui |
+> | Illai | Non |
+> | Paravāyillai | De rien |
+> | Maṉṉikkavum | Excusez-moi |
+> | Nērē pōṅkaḷ | Tout droit |
+> | Vaḷttukkaḷ | Bonne chance |
+
+> [!quiz] Vous demandez « Comment allez-vous ? » à un aîné que vous ne connaissez pas :
+> - [x] *Eppaṭi irukkīrkaḷ?*
+>   La forme polie.
+> - [ ] *Eppaṭi irukka?*
+>   Familier : pour un proche.

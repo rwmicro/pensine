@@ -98,3 +98,40 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Anglais/01-Phonologie/Pronon
 | Je comprends un peu | ![I understand a little](audio/en_male_30549de6748d.mp3) | C |
 | C'est important | ![It's important](audio/en_male_f30b3f5a0f5a.mp3) | C |
 | C'est une urgence | ![It's an emergency](audio/en_male_658eaa3da61d.mp3) | C |
+
+## Exercices
+
+> [!traduire] Je ne comprends pas.
+> I don't understand.
+> piège: not, know
+> vers: anglais
+
+> [!traduire] C'est loin ?
+> Is it far?
+> piège: where, near
+> vers: anglais
+
+> [!traduire] I've lost my passport.
+> J'ai perdu mon passeport.
+> piège: volé, billet
+> vers: français
+
+> [!associer] Relie chaque expression à son sens.
+> | Anglais | Français |
+> |---|---|
+> | Hi | Salut |
+> | Goodbye | Au revoir |
+> | Please | S'il vous plaît |
+> | Thanks | Merci |
+> | Sorry | Pardon |
+> | Maybe | Peut-être |
+> | Help! | Au secours ! |
+> | Straight ahead | Tout droit |
+
+> [!quiz] Pour interpeller un inconnu dans la rue, on commence par :
+> - [ ] *Hey*
+>   Trop familier : il se dit entre amis.
+> - [x] *Excuse me*
+>   C'est la formule pour interrompre ou interpeller.
+> - [ ] *Sorry*
+>   *Sorry* s'excuse d'une gêne, il ne sert pas à interpeller.

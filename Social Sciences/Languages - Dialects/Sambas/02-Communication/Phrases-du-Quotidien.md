@@ -170,12 +170,12 @@ Les contes populaires donnent le sambas des dialogues familiers, avec ses exclam
 > | sawah | umme |
 
 > [!quiz] Quelle est la négation typique du sambas ?
-> - [x] *daan*
->   C'est elle qu'on entend dès qu'on passe de Pontianak à Sambas.
 > - [ ] *tadak*
 >   C'est la forme du malais de Pontianak.
 > - [ ] *tidak*
 >   C'est l'indonésien standard.
+> - [x] *daan*
+>   C'est elle qu'on entend dès qu'on passe de Pontianak à Sambas.
 
 > [!quiz] Dans *rupenye iye kau* (« alors c'était toi »), que veut dire *iye* ?
 > - [x] « ça », « c' »

@@ -102,3 +102,46 @@ Phrases de base en kabyle (écriture latine). Le tifinagh équivalent est indiqu
 | Inchallah (si Dieu veut)     | Akken yebɣa Rebbi |
 | Rien                         | Ulach             |
 | on laisse faire on verra<br> | Kima jat jat      |
+
+## Exercices
+
+> [!traduire] Je ne comprends pas.
+> Ur fhimeɣ ara.
+> piège: ssineɣ, ih
+> vers: kabyle
+>
+> *Ur … ara* encadre le verbe : *ur ssineɣ ara*, « je ne sais pas ».
+
+> [!traduire] C'est vrai.
+> D tidett.
+> piège: mačči, ulach
+> vers: kabyle
+>
+> *Mačči d tidett*, c'est « ce n'est pas vrai ».
+
+> [!traduire] Ar tufat.
+> Au revoir.
+> piège: merci, bonjour
+> vers: français
+>
+> Littéralement « à la prochaine clarté ».
+
+> [!associer] Relie chaque mot à son sens.
+> | Kabyle | Français |
+> |---|---|
+> | Azul | Bonjour |
+> | Tanemmirt | Merci |
+> | Ih | Oui |
+> | Ala | Non |
+> | Yimken | Peut-être |
+> | S azelmad | À gauche |
+> | S ayeffus | À droite |
+> | Ulach | Rien |
+
+> [!quiz] Comment dit-on « c'est faux » ?
+> - [x] *Mačči d tidett*
+>   *Mačči* nie : « ce n'est pas vrai ».
+> - [ ] *D tidett*
+>   C'est « c'est vrai ».
+> - [ ] *Ur ssineɣ ara*
+>   C'est « je ne sais pas ».

@@ -186,10 +186,10 @@ Trois tournures reviennent sans cesse :
 > | kecil | kecik |
 
 > [!quiz] Dans *adekeh ketere api yang pegi ke kote?*, à quoi sert *-keh* ?
+> - [ ] Il veut dire « son, sa », comme *-e*.
 > - [x] Il pose la question : « y a-t-il… ? »
 >   *-keh* est la particule interrogative (*apekeh*, *bisekeh*).
 > - [ ] Il insiste, comme *bah*.
-> - [ ] Il veut dire « son, sa », comme *-e*.
 
 ## Questions de révision
 
