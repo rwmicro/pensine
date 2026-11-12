@@ -376,7 +376,7 @@ Pour les notes de langues surtout, trois exercices à manipuler, à côté des `
 > 1. pai it
 > 2. pai ji
 ```
-- `[!traduire]` : le titre est la phrase à traduire, la ligne suivante la réponse ; le lecteur la reconstruit avec des étiquettes de mots, comme sur Duolingo. `aussi:` ajoute une autre réponse acceptée, `piège:` des intrus dans la banque de mots, `vers:` la langue visée (« Traduis en teochew »). Les deux sens marchent : vers la langue apprise, ou vers le français (`vers: français`).
+- `[!traduire]` : le titre est la phrase à traduire, la ligne suivante la réponse ; le lecteur la reconstruit avec des étiquettes de mots, comme sur Duolingo. `aussi:` ajoute une autre réponse acceptée, `piège:` des intrus dans la banque de mots, `vers:` la langue visée (« Traduis en teochew »). Les deux sens marchent : vers la langue apprise, ou vers le français (`vers: français`). `mots:` donne la glose mot à mot montrée sous la correction (`mots: wa = je, em = ne… pas, cai = savoir`).
 - `[!associer]` : un tableau à deux colonnes (8 paires au plus), ou une liste `- gauche :: droite`.
 - `[!ordre]` : une liste dans le bon ordre, `piège:` pour des éléments qui n'en font pas partie.
 - Les pièges doivent être de vraies confusions (une autre négation, le mot familier au lieu du poli), et la réponse une phrase déjà donnée et traduite dans la note.

@@ -141,6 +141,7 @@ Les jours de la semaine se comptent : *pai it* (lundi), *pai ji* (mardi), *pai s
 > aussi: Wa m cai.
 > piège: bo, bue
 > vers: teochew
+> mots: wa = je, em = ne… pas, cai = savoir
 >
 > *M* (*em*) nie un fait ou la volonté ; *bo* nierait l'existence, *bue* voudrait dire « pas encore ».
 
@@ -148,6 +149,7 @@ Les jours de la semaine se comptent : *pai it* (lundi), *pai ji* (mardi), *pai s
 > Le ai khe tiko?
 > piège: lai, mekkai
 > vers: teochew
+> mots: le = tu, ai = vouloir, khe = aller, tiko = où
 >
 > *Khe* (aller) s'oppose à *lai* (venir) ; *tiko* est « où », *mekkai* « quoi ».
 
@@ -155,6 +157,7 @@ Les jours de la semaine se comptent : *pai it* (lundi), *pai ji* (mardi), *pai s
 > Tu as mangé ?
 > piège: quoi, demain
 > vers: français
+> mots: ciak = manger, pa = à satiété, bue = pas encore
 >
 > La salutation de tous les jours : « mangé à satiété, pas encore ? ».
 
@@ -163,6 +166,7 @@ Les jours de la semaine se comptent : *pai it* (lundi), *pai ji* (mardi), *pai s
 > aussi: Hiokcoi lui?
 > piège: tiko, cui
 > vers: teochew
+> mots: jiokcoi = combien, lui = argent
 
 > [!associer] Associe chaque mot teochew à son sens.
 > | Teochew | Français |
