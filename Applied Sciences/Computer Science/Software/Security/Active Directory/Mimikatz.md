@@ -38,9 +38,7 @@ Invoke-Mimikatz -Command '"privilege::debug" "sekurlsa::logonpasswords"'
 
 ## Module sekurlsa — extraction depuis LSASS
 
-```
-sekurlsa — interagit directement avec le processus LSASS en mémoire
-```
+Le module `sekurlsa` est le plus utilisé : il lit directement la mémoire du processus LSASS, où Windows conserve les secrets des sessions ouvertes pour ne pas redemander le mot de passe à chaque action. C'est là que se trouvent les hashes NTLM, les clés Kerberos et, sur les systèmes anciens ou mal configurés, les mots de passe en clair.
 
 ```powershell
 # Dump de TOUS les credentials (mots de passe en clair, hashes NTLM, tickets Kerberos)
@@ -202,21 +200,9 @@ La vue d'ensemble des techniques de vol d'identifiants (LSASS, SAM/NTDS, DCSync,
 
 ## Contre-mesures
 
-```
-Protection de LSASS :
-  - Windows Credential Guard — les hashes NTLM et TGT sont dans une enclave VBS isolée
-    → sekurlsa::logonpasswords ne fonctionne plus
-  - Protected Process Light (PPL) pour LSASS
-    → Mimikatz ne peut pas accéder à LSASS sans driver signé
-  - Désactiver WDigest (Windows 10/2016+ : désactivé par défaut)
-    HKLM\SYSTEM\CurrentControlSet\Control\SecurityProviders\WDigest → UseLogonCredential = 0
+La **protection de LSASS** est la défense de fond. Credential Guard place les secrets dérivés (hashes NTLM, TGT) dans une enclave isolée par virtualisation, inaccessible même avec SeDebugPrivilege : `sekurlsa::logonpasswords` ne ramène plus rien. Le mode *Protected Process Light* (PPL) empêche un processus ordinaire d'ouvrir LSASS sans pilote signé. Enfin, désactiver WDigest (par défaut depuis Windows 10 et Server 2016, via la clé de registre `UseLogonCredential = 0`) supprime le stockage des mots de passe en clair.
 
-Détection :
-  Événement 4656 / 4663 : accès à lsass.exe
-  Sysmon Event ID 10 : OpenProcess sur lsass
-  Créer une règle Sysmon : ProcessAccess targetImage=lsass.exe GrantedAccess=0x1010
-  Microsoft Defender : détecte Mimikatz nativement → obfuscation ou utilisation d'alternatives nécessaire
-```
+Côté **détection**, l'accès à LSASS se repère par les événements 4656 et 4663, et surtout par l'événement Sysmon 10 (`ProcessAccess` ciblant `lsass.exe` avec un droit d'accès du type `0x1010`), qui est le signal classique d'un vol de secrets. Microsoft Defender détecte nativement Mimikatz par signature, ce qui oblige les attaquants à l'obfusquer ou à passer par des alternatives comme pypykatz.
 
 ## Pièges courants
 

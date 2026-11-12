@@ -9,7 +9,9 @@ prerequis: ["[[Kerberos Attacks]]"]
 
 # ADCS — Active Directory Certificate Services
 
-ADCS est l'infrastructure PKI intégrée à Active Directory. Des mauvaises configurations des Certificate Templates permettent d'obtenir des certificats au nom d'autres utilisateurs ou d'usurper des identités jusqu'au Domain Admin. Les vulnérabilités ESC1-ESC8 ont été documentées par Will Schroeder et Lee Christensen (SpectreOps, 2021).
+En juin 2021, deux chercheurs de SpectreOps, Will Schroeder et Lee Christensen, publient un rapport de 140 pages au titre explicite : « Certified Pre-Owned ». Ils y montrent qu'un composant discret d'Active Directory, le service de certificats, est dans d'innombrables entreprises une voie directe et oubliée vers l'administrateur du domaine. Leur rapport nomme huit mauvaises configurations, ESC1 à ESC8, qui sont depuis devenues un passage obligé des tests d'intrusion. L'idée centrale est simple : dans un domaine, un certificat d'authentification vaut un mot de passe, et obtenir un certificat au nom d'un autre compte revient à obtenir un accès à ce compte.
+
+ADCS (*Active Directory Certificate Services*) est l'infrastructure à clé publique intégrée à Active Directory. Des défauts de configuration des modèles de certificats (*Certificate Templates*) permettent d'obtenir des certificats au nom d'autres utilisateurs et d'usurper leur identité jusqu'à l'administrateur du domaine.
 
 > [!important] Idée clé
 > Toutes les variantes ESC1-ESC8 reviennent à la même question : **qui contrôle l'identité inscrite dans le certificat, et qui peut approuver la requête ?** Un certificat avec Client Authentication vaut un mot de passe — quiconque peut en obtenir un au nom d'un compte cible obtient l'équivalent d'un TGT pour ce compte.
@@ -19,25 +21,11 @@ ADCS est l'infrastructure PKI intégrée à Active Directory. Des mauvaises conf
 
 ## Concepts fondamentaux
 
-```
-Certificate Authority (CA) : émetteur de certificats
-  → Enterprise CA : intégrée à AD, utilisée pour l'authentification Kerberos (PKINIT)
+Cinq notions suffisent à comprendre toutes les attaques qui suivent. L'**autorité de certification** (*Certificate Authority*, CA) émet les certificats ; dans un domaine, une *Enterprise CA* intégrée à Active Directory sert notamment à l'authentification Kerberos. Un **modèle de certificat** (*Certificate Template*) décrit ce qu'un certificat permet de faire et qui peut en demander : il définit les droits d'enrôlement, les usages autorisés et le mode de renseignement de l'identité.
 
-Certificate Template : modèle définissant ce que le certificat peut faire
-  → Contrôle : qui peut demander, quels EKU, si SAN est autorisé
+Ces usages sont désignés par l'**EKU** (*Extended Key Usage*). Les deux qui comptent pour un attaquant sont *Client Authentication* et *Smart Card Logon*, qui permettent de s'authentifier dans l'annuaire ; *Any Purpose* autorise tout, et *SubCA* permet de signer d'autres certificats. L'identité portée par le certificat est, elle, inscrite dans le **SAN** (*Subject Alternative Name*) : si celui qui demande le certificat contrôle son SAN, il peut en réclamer un au nom de n'importe qui, administrateur compris. C'est la faille centrale.
 
-EKU (Extended Key Usage) — usages autorisés du certificat :
-  Client Authentication  (1.3.6.1.5.5.7.3.2)  → authentification AD
-  Smart Card Logon       (1.3.6.1.4.1.311.20.2.2)  → idem
-  Any Purpose            (2.5.29.37.0)         → tous usages
-  SubCA                  → signer d'autres certificats
-
-SAN (Subject Alternative Name) : permet de spécifier l'identité dans le certificat
-  → Si l'enrolleur contrôle le SAN → il peut demander un cert au nom de n'importe qui
-
-PKINIT : extension Kerberos permettant l'authentification par certificat
-  → Un certificat valide avec Client Authentication → TGT Kerberos
-```
+Le lien avec l'authentification est assuré par **PKINIT**, l'extension de Kerberos qui accepte un certificat à la place d'un mot de passe : un certificat valide portant *Client Authentication* se convertit en un TGT Kerberos, et donc en un accès au compte visé.
 
 ## Reconnaissance avec Certipy
 
@@ -296,27 +284,11 @@ certipy shadow auto -u alice@domaine.local -p 'Password123' \
 
 ## Contre-mesures
 
-```
-Protection des templates :
-  - Désactiver CT_FLAG_ENROLLEE_SUPPLIES_SUBJECT sur toutes les templates (sauf cas légitimes)
-  - Exiger l'approbation manager pour les templates sensibles
-  - Auditer les ACLs des templates (bloquer l'écriture par les utilisateurs normaux)
-  - Supprimer les templates par défaut non utilisées (User, Computer, SubCA)
-  - EKU : ne pas utiliser "Any Purpose" — spécifier l'usage exact
+La **protection des modèles** est la première ligne de défense, puisque c'est leur configuration qui ouvre la plupart des attaques. Il faut retirer le droit pour le demandeur de fixer lui-même l'identité du certificat (le drapeau `CT_FLAG_ENROLLEE_SUPPLIES_SUBJECT`) sauf cas légitime, exiger l'approbation d'un responsable pour les modèles sensibles, auditer les ACL des modèles pour empêcher les utilisateurs ordinaires de les modifier, supprimer les modèles par défaut inutilisés et proscrire l'usage *Any Purpose* au profit d'un usage précis.
 
-Protection de la CA :
-  - Désactiver EDITF_ATTRIBUTESUBJECTALTNAME2 si non nécessaire
-  - Restreindre ManageCA et ManageCertificates aux seuls admins ADCS
-  - Endpoint HTTP (certsrv) : activer EPA (Extended Protection for Authentication)
-  - Activer le HTTPS sur certsrv — rejeter HTTP
+La **protection de la CA** vient ensuite : désactiver le drapeau `EDITF_ATTRIBUTESUBJECTALTNAME2` s'il n'est pas nécessaire (c'est lui qui rend possible ESC6), réserver les droits `ManageCA` et `ManageCertificates` aux seuls administrateurs de l'autorité, et surtout sécuriser le point d'enrôlement web en activant HTTPS et l'EPA, ce qui ferme la voie du relais NTLM (ESC8).
 
-Détection :
-  - Surveiller les requêtes de certificats avec SAN ≠ identité de l'enrolleur
-  - Surveiller les modifications de templates (Event ID 4899, 4900)
-  - Surveiller l'utilisation de PKINIT pour des comptes inhabituels
-  - Certipy find -vulnerable en mode audit régulier
-  - Purple Knight / PingCastle : audit ADCS intégré
-```
+Côté **détection**, les signaux les plus parlants sont les demandes de certificat dont le SAN diffère de l'identité du demandeur, les modifications de modèles (événements 4899 et 4900) et l'usage de PKINIT par des comptes inhabituels. Un audit régulier avec `certipy find -vulnerable`, ou avec PingCastle et Purple Knight, permet de repérer les mauvaises configurations avant les attaquants.
 
 ## Pièges courants
 

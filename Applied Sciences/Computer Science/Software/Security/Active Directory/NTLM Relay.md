@@ -19,44 +19,15 @@ Le NTLM relay consiste à relayer une authentification NTLM capturée vers un au
 
 ## Rappel du protocole NTLM
 
-```
-Flux NTLM (challenge-response) :
+NTLM authentifie par défi-réponse, en trois messages. Le client annonce qu'il veut s'authentifier (`NEGOTIATE_MESSAGE`), le serveur lui renvoie un défi, c'est-à-dire huit octets aléatoires (`CHALLENGE_MESSAGE`), et le client répond en chiffrant ce défi avec le hash de son mot de passe (`AUTHENTICATE_MESSAGE`). Le serveur, qui connaît le hash, vérifie la réponse. La version NTLMv1 calcule cette réponse avec du DES et se casse en quelques minutes ; NTLMv2, plus robuste, ajoute un horodatage et un HMAC-MD5.
 
-Client → Serveur : NEGOTIATE_MESSAGE (initiation)
-Serveur → Client : CHALLENGE_MESSAGE (nonce 8 octets aléatoires)
-Client → Serveur : AUTHENTICATE_MESSAGE (réponse = HMAC-MD5 du hash NT + challenge)
-
-Versions :
-  NTLMv1 : réponse = DES(hash NT, challenge) — très faible, crackable en minutes
-  NTLMv2 : réponse = HMAC-MD5(hash NT, challenge + timestamp + ...) — plus robuste
-
-Le relay exploite le fait que :
-  → L'attaquant reçoit un NEGOTIATE → transmet au serveur cible → reçoit un CHALLENGE
-  → Renvoie ce CHALLENGE au client → reçoit l'AUTHENTICATE → le transmet au serveur cible
-  → Le serveur cible accepte l'authentification → l'attaquant est authentifié
-```
+La faille exploitée par le relais est que rien, dans ce protocole, ne lie l'authentification au serveur auquel elle était destinée. L'attaquant se place au milieu : il reçoit le NEGOTIATE du client, le transmet au serveur cible, récupère le défi de celui-ci, le renvoie au client, reçoit la réponse du client et la transmet enfin à la cible. Celle-ci valide la réponse et considère l'attaquant comme authentifié, sans que ni le client ni le serveur n'aient rien remarqué.
 
 ## Prérequis et conditions
 
-```
-Conditions nécessaires pour le relay :
+Le relais ne réussit que si le service cible n'exige pas de **signature**, car c'est la signature qui lie une session à l'authentification qui l'a ouverte. Trois conditions ouvrent la voie. D'abord, la signature SMB doit être désactivée ou simplement « activée mais non requise » sur la cible : c'est le cas par défaut des serveurs, moins des contrôleurs de domaine et des postes récents, et on le vérifie avec `nmap --script smb2-security-mode`. Ensuite, la signature LDAP et le *channel binding* ne doivent pas être imposés sur les contrôleurs de domaine ; depuis 2020 ils sont activés mais rarement en mode strict, donc souvent exploitables. Enfin, l'EPA (*Extended Protection for Authentication*), qui lie l'authentification au canal TLS, doit être absente des services web comme IIS, Exchange ou ADCS pour autoriser un relais vers eux.
 
-1. SMB Signing désactivé (ou non requis) sur la cible
-   → Par défaut : désactivé sur les workstations, activé sur les DCs
-   → Vérifier : nmap --script smb2-security-mode -p 445 RÉSEAU/24
-
-2. LDAP Signing / Channel Binding pas enforced
-   → Par défaut depuis 2020 : LDAP channel binding activé mais pas en mode "Required"
-   → Souvent encore exploitable
-
-3. EPA (Extended Protection for Authentication) désactivée sur IIS/Exchange
-   → Permet le relay HTTP → LDAP, HTTP → SMB
-
-Le relay NE fonctionne PAS :
-  → SMB vers SMB si SMB Signing requis
-  → NTLM vers Kerberos directement (différents protocoles)
-  → Cross-protocol si EPA activé (HTTPS → LDAP si EPA)
-```
+À l'inverse, le relais échoue dans trois cas : d'un service SMB vers un autre si la signature SMB est requise, d'un relais NTLM vers du Kerberos (ce sont deux protocoles distincts), et vers un service web où l'EPA est activée.
 
 ## Découverte des cibles relay
 
@@ -190,61 +161,17 @@ proxychains mssqlclient.py DOMAINE/ALICE@192.168.1.10 -windows-auth -no-pass
 
 ## Cross-protocol relay
 
-```
-HTTP → SMB :
-  → WPAD (Web Proxy Auto-Discovery) : les machines Windows cherchent wpad.domaine.local
-  → Si l'attaquant répond au nom WPAD → authentification HTTP → relay vers SMB
+Le relais devient particulièrement puissant quand il change de protocole en chemin, car les protections diffèrent d'un service à l'autre. Le relais **HTTP vers SMB** exploite WPAD : les machines Windows cherchent un fichier de configuration de proxy sur `wpad.domaine.local`, et si l'attaquant répond à ce nom, il récupère une authentification HTTP qu'il relaie vers SMB. Le relais **HTTP vers LDAP**, très courant avec mitm6 ou WPAD, est redoutable parce que les opérations LDAP sensibles, comme ajouter un administrateur ou configurer une délégation RBCD, n'exigent pas la même signature que SMB.
 
-HTTP → LDAP :
-  → Très courant avec mitm6 ou WPAD
-  → Les opérations LDAP (ajouter un admin, configurer RBCD) ne nécessitent pas
-    le même niveau de signature que SMB
-
-Exchange → LDAP (PrivExchange) :
-  → Exchange a des permissions étendues sur LDAP par défaut
-  → Forcer Exchange à s'authentifier → relay vers LDAP → DCSync rights
-  → Moins courant depuis les patches de 2019
-
-WebDAV → SMB :
-  → Forcer l'authentification HTTP via WebDAV (XACT-search)
-  → Relay vers SMB sur les machines sans SMB signing
-  → Contourne les restrictions sur les flux SMB directs
-```
+Deux variantes historiques méritent d'être connues. **PrivExchange** force un serveur Exchange, qui dispose par défaut de droits étendus sur l'annuaire, à s'authentifier vers l'attaquant, qui relaie alors vers LDAP pour obtenir des droits de DCSync ; l'attaque est devenue moins courante depuis les correctifs de 2019. **WebDAV vers SMB**, enfin, déclenche une authentification HTTP via WebDAV pour la relayer vers des machines SMB non signées, ce qui contourne les restrictions sur les flux SMB directs.
 
 ## Contre-mesures
 
-```
-SMB Signing :
-  - Activer SMB Signing requis (Required) sur TOUTES les machines (pas seulement les DCs)
-    GPO : Computer Configuration → Windows Settings → Security Settings →
-          Local Policies → Security Options →
-          "Microsoft network server: Digitally sign communications (always)" = Enabled
-  - Coût : légère augmentation de CPU, impact réseau minimal
+La contre-mesure fondamentale est la **signature SMB**, à exiger (mode *Required*) sur toutes les machines et pas seulement sur les contrôleurs de domaine, par GPO. Son coût est négligeable, un peu de CPU et un impact réseau minime, et elle rend tout relais vers SMB impossible. De même, il faut imposer la **signature LDAP** et le **channel binding** sur les contrôleurs de domaine (depuis le correctif KB4520412), ce qui ferme la voie du relais vers l'annuaire.
 
-LDAP Signing + Channel Binding :
-  - Activer LDAP Signing = Required sur les DCs (depuis KB4520412)
-  - Activer LDAP Channel Binding = Always
-    GPO : Domain Controller → LDAP server channel binding token requirements
+Il faut ensuite **tarir la source des authentifications spontanées**. Désactiver LLMNR et NetBIOS over TCP/IP empêche l'empoisonnement de résolution de noms qui permet à Responder de capturer des authentifications, et déployer WPAD par une entrée DNS légitime évite que les clients ne le cherchent par diffusion. Si IPv6 n'est pas utilisé, le désactiver, ou protéger le réseau par du *DHCPv6 snooping*, neutralise l'attaque mitm6. Enfin, activer l'**EPA** sur IIS, Exchange et ADCS lie l'authentification au canal TLS et rend le relais vers ces services web inopérant.
 
-Désactiver LLMNR et NBT-NS (tarit les authentifications spontanées) :
-  - GPO : désactiver LLMNR (Turn off multicast name resolution)
-  - Désactiver NetBIOS over TCP/IP sur les interfaces réseau
-  - Déployer WPAD via DNS (évite que les clients cherchent via LLMNR)
-
-IPv6 :
-  - Désactiver IPv6 si non utilisé (mitm6 l'exploite)
-  - Ou déployer des protections DHCPv6 (DHCPv6 snooping sur les switches)
-
-EPA (Extended Protection for Authentication) :
-  - Activer EPA sur IIS, Exchange, ADCS
-  - Lie l'authentification au canal TLS → relay HTTPS → LDAP impossible
-
-Détection :
-  Event ID 4624 : authentifications NTLM depuis des sources inattendues
-  Event ID 4776 : validation de credentials NTLM (depuis machines inhabituelles)
-  Surveiller les comptes modifiés dans les groupes admin (Event ID 4728, 4732)
-  LDAP : surveiller les modifications de msDS-AllowedToActOnBehalfOfOtherIdentity
-```
+Côté **détection**, on surveille les authentifications NTLM venant de sources inattendues (événements 4624 et 4776), les ajouts de comptes dans les groupes d'administration (4728 et 4732) et, dans LDAP, toute modification de l'attribut `msDS-AllowedToActOnBehalfOfOtherIdentity`, signe d'une configuration de délégation malveillante.
 
 ## Pièges courants
 

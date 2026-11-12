@@ -9,22 +9,16 @@ prerequis: ["[[Active Directory Security]]"]
 
 # BloodHound
 
-BloodHound est un outil d'analyse graphique des environnements Active Directory. Il modélise les relations entre objets AD (utilisateurs, groupes, ordinateurs, GPO) et identifie automatiquement les chemins d'attaque vers des cibles à hauts privilèges (Domain Admins, DC).
+En 2016, trois chercheurs en sécurité, Andy Robbins, Will Schroeder et Rohan Vazarkar, présentent à la conférence DEF CON un outil qui change la façon d'attaquer et de défendre Active Directory. Jusque-là, auditer un domaine revenait à passer en revue les objets un par un, à la recherche d'une mauvaise configuration isolée. Leur idée est de voir le domaine autrement : comme un graphe où chaque flèche est une relation (« est membre de », « est administrateur de », « peut réinitialiser le mot de passe de »). Dès lors, trouver un chemin d'attaque n'est plus une inspection manuelle mais un calcul de plus court chemin, celui qu'un GPS fait entre deux adresses. Cet outil, c'est **BloodHound**.
+
+BloodHound modélise les relations entre objets Active Directory (utilisateurs, groupes, ordinateurs, GPO) et identifie automatiquement les chemins qui mènent à des cibles à hauts privilèges, comme les administrateurs du domaine ou les contrôleurs de domaine.
 
 > [!important] Idée clé
 > BloodHound ne cherche pas des vulnérabilités — il modélise AD comme un graphe de relations (`MemberOf`, `AdminTo`, `GenericAll`...) et calcule le plus court chemin entre "où je suis" et "Domain Admin". C'est un changement de paradigme : au lieu d'auditer chaque objet isolément, on cherche des chemins d'attaque à travers leurs relations combinées.
 
 ## Architecture
 
-```
-SharpHound / BloodHound.py  →  Collecte des données AD
-            ↓
-        Données JSON
-            ↓
-    Neo4j (base de graphes)  ←  BloodHound GUI (React)
-            ↓
-    Requêtes Cypher → Chemins d'attaque visualisés
-```
+BloodHound se compose de trois maillons. Un **collecteur** parcourt l'annuaire et en extrait les objets et leurs relations : SharpHound en C# sur une machine Windows du domaine, ou BloodHound.py depuis Linux. Il produit des fichiers JSON, qui sont importés dans une **base de graphes Neo4j**, le moteur qui stocke les nœuds et les relations. Enfin, une **interface graphique** interroge cette base avec le langage Cypher, propre à Neo4j, et dessine les chemins d'attaque. Les requêtes sont donc des requêtes de graphe, et c'est ce qui donne à l'outil sa puissance.
 
 ## Collecte avec SharpHound
 
@@ -81,32 +75,7 @@ bloodhound
 
 ## Requêtes pré-construites (GUI)
 
-BloodHound propose des requêtes prêtes à l'emploi :
-
-```
-Analysis → Pre-Built Analytics Queries :
-
-"Find all Domain Admins"
-  → Liste tous les Domain Admins
-
-"Find Shortest Paths to Domain Admins"
-  → Chemin d'attaque le plus court depuis n'importe quel utilisateur
-
-"Find Principals with DCSync Rights"
-  → Qui peut effectuer un DCSync ?
-
-"Find Computers where Domain Users are Local Admin"
-  → Tous les postes où les utilisateurs du domaine ont admin local
-
-"Shortest Paths to Unconstrained Delegation Systems"
-  → Délégation Kerberos non contrainte (vecteur d'escalade)
-
-"Find AS-REP Roastable Users"
-  → Comptes sans pré-authentification Kerberos
-
-"Find Kerberoastable Users"
-  → Comptes avec SPN (cibles du Kerberoasting)
-```
+Sans écrire la moindre requête, l'onglet d'analyse propose des recherches prêtes à l'emploi qui couvrent les questions les plus fréquentes. « Find all Domain Admins » liste les administrateurs du domaine ; « Find Shortest Paths to Domain Admins » calcule le chemin d'attaque le plus court depuis n'importe quel utilisateur ; « Find Principals with DCSync Rights » révèle qui peut répliquer les secrets du domaine. D'autres repèrent les postes où les utilisateurs du domaine sont administrateurs locaux, les systèmes en délégation Kerberos non contrainte, ou encore les comptes vulnérables à l'AS-REP Roasting (sans pré-authentification) et au Kerberoasting (porteurs d'un SPN). Chacune pointe directement vers un vecteur d'attaque documenté dans les notes voisines.
 
 ## Requêtes Cypher personnalisées
 
@@ -173,39 +142,15 @@ RETURN p
 
 ## Marquer les assets et construire une stratégie
 
-```
-Dans l'interface :
-1. Clic droit sur un utilisateur/ordinateur → "Mark as Owned" (objectif compromis)
-2. Clic droit sur un groupe → "Mark as High Value" (cible)
+Le vrai usage de BloodHound passe par deux marqueurs. On marque comme **Owned** (par un clic droit) tout objet déjà compromis, et comme **High Value** les cibles visées ; BloodHound affiche alors automatiquement les chemins qui relient les uns aux autres.
 
-→ BloodHound montre automatiquement les chemins depuis les "Owned" vers les "High Value"
-
-Workflow typique :
-1. Importer les données
-2. Marquer le compte compromis initial comme "Owned"
-3. "Find Shortest Paths to Domain Admins" → voir le chemin graphique
-4. Identifier la relation exploitable suivante (GenericAll, AdminTo, etc.)
-5. Exploiter cette relation → marquer le prochain objet comme Owned
-6. Répéter jusqu'à Domain Admin
-```
+Le déroulement d'une intrusion suit ce fil. On importe les données, on marque comme *Owned* le premier compte obtenu, puis on demande le plus court chemin vers les administrateurs du domaine. BloodHound dessine ce chemin comme une suite de relations ; on exploite la première (un GenericAll, un AdminTo…), ce qui donne le contrôle de l'objet suivant, qu'on marque à son tour *Owned*, et on recommence jusqu'à l'administrateur du domaine. Le graphe transforme ainsi une intrusion en une série d'étapes lisibles, ce qui en fait autant un outil d'attaque qu'un outil d'audit défensif.
 
 ## Contre-mesures (détection et hardening)
 
-```
-Détection de la collecte BloodHound :
-  - Volume anormal de requêtes LDAP (SharpHound → beaucoup de requêtes)
-  - Requêtes LDAP avec de nombreux attributs (objectClass, adminCount, etc.)
-  - Connexions SMB anormales (pour la collecte des sessions)
-  - Outil : Purple Knight, PingCastle (audit AD)
+La **détection** vise d'abord la phase de collecte. SharpHound émet un volume anormal de requêtes LDAP, souvent lourdes (nombreux attributs comme `objectClass` ou `adminCount`), et ouvre de multiples connexions SMB pour recenser les sessions actives. Ce profil se repère dans les journaux, et des outils d'audit comme PingCastle ou Purple Knight signalent par ailleurs les mêmes faiblesses que BloodHound révélerait.
 
-Hardening des chemins d'attaque :
-  - Réduire le nombre d'AdminTo (pas d'admin local pour les utilisateurs normaux)
-  - Tier Model (Admin Tier 0/1/2 — séparation des comptes par criticité)
-  - Nettoyer les ACL excessives (GenericAll, WriteDACL sur des objets sensibles)
-  - Activer la pré-authentification Kerberos sur tous les comptes
-  - Supprimer les SPN inutiles
-  - Protected Users Security Group pour les comptes sensibles
-```
+Le **durcissement**, surtout, consiste à casser les chemins eux-mêmes plutôt qu'à empêcher la collecte. Réduire le nombre de machines où les utilisateurs ordinaires sont administrateurs locaux supprime d'un coup beaucoup d'arêtes `AdminTo`. Le modèle en couches (*Tier Model*) sépare les comptes selon leur criticité, le nettoyage des ACL excessives élimine les raccourcis de type GenericAll ou WriteDACL, l'activation de la pré-authentification Kerberos et la suppression des SPN inutiles ferment les attaques de cassage de tickets, et le groupe *Protected Users* durcit les comptes sensibles. Chaque chemin supprimé rend le graphe moins traversable.
 
 ## Pièges courants
 

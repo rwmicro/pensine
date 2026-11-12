@@ -9,7 +9,9 @@ prerequis: ["[[Kerberos Attacks]]"]
 
 # AD Trusts et Forêts — Attaques Cross-Domain
 
-Les relations d'approbation (trusts) entre domaines et forêts Active Directory permettent à des utilisateurs d'un domaine d'accéder aux ressources d'un autre. Ces relations créent des vecteurs d'escalade latérale permettant de passer d'un domaine compromis à un domaine parent ou à une forêt entière.
+Quand deux entreprises fusionnent, ou qu'un grand groupe sépare ses filiales en domaines distincts, il faut bien que les employés de l'un accèdent aux ressources de l'autre. Active Directory le permet par des **relations d'approbation** (*trusts*) : un domaine accepte de reconnaître les identités d'un autre. C'est pratique, mais c'est aussi un angle mort de sécurité. Un attaquant qui compromet un petit domaine mal protégé, une filiale, un ancien domaine de test, peut souvent remonter le long de ces relations jusqu'au domaine central, pourtant bien défendu. La frontière que l'on croyait étanche entre deux domaines ne l'est pas.
+
+Les relations d'approbation entre domaines et forêts Active Directory permettent à des utilisateurs d'un domaine d'accéder aux ressources d'un autre. Elles créent des vecteurs d'escalade latérale qui permettent de passer d'un domaine compromis à un domaine parent, voire à une forêt entière.
 
 > [!important] Idée clé
 > Un trust n'est pas symétrique en confiance ni forcément transitif — compromettre un domaine enfant peu sécurisé peut suffire à remonter jusqu'au domaine parent via la clé de trust ou le SID History, même si le parent lui-même est bien protégé.
@@ -19,35 +21,11 @@ Les relations d'approbation (trusts) entre domaines et forêts Active Directory 
 
 ## Concepts — Trusts AD
 
-```
-Trust (relation d'approbation) :
-  Permet à des utilisateurs du domaine A d'être reconnus dans le domaine B
+Un trust est une relation qui fait reconnaître les utilisateurs d'un domaine A dans un domaine B. Trois propriétés le définissent : sa **direction** (à sens unique ou dans les deux sens), sa **transitivité** (se propage-t-il aux domaines de proche en proche ?) et son **filtrage**, qui limite ce qu'il laisse réellement passer.
 
-Types de trusts :
+Plusieurs types coexistent. Les trusts **parent-enfant** et **tree-root** sont créés automatiquement à l'intérieur d'une forêt, bidirectionnels et transitifs ; c'est eux qui relient `enfant.domaine.local` à `domaine.local`, et ils partagent une clé de confiance avec le parent. Le **forest trust** relie manuellement deux forêts distinctes ; il est transitif à l'intérieur de chaque forêt et protégé par défaut par le filtrage de SID. L'**external trust** relie un domaine à un domaine hors de sa forêt ; il n'est pas transitif et, lui aussi, filtré par défaut.
 
-  Parent-Child (automatique à la création d'un domaine enfant) :
-    → Bidirectionnel, transitif
-    → domaine.local ↔ enfant.domaine.local
-    → Partage la clé de trust avec le domaine parent
-
-  Tree-Root (automatique à la création d'un arbre) :
-    → Bidirectionnel, transitif
-    → Relie deux arbres d'une même forêt
-
-  Forest Trust (manuel, entre deux forêts) :
-    → Bidirectionnel ou unidirectionnel, transitif dans les forêts
-    → foret1.com ↔ foret2.com
-    → SID Filtering activé par défaut (bloque les SID d'une forêt vers l'autre)
-
-  External Trust (manuel, vers un domaine hors forêt) :
-    → Unidirectionnel ou bidirectionnel, NON transitif
-    → SID Filtering activé par défaut
-
-Sensibilité des trusts :
-  SID Filtering = OFF → SID History exploitable → escalade vers domaine de confiance
-  SID Filtering = ON  → bloque les SID étrangers dans les tickets Kerberos
-  Selective Authentication → seuls les utilisateurs autorisés peuvent accéder
-```
+La sécurité réelle d'un trust tient surtout à deux réglages. Le **filtrage de SID** (*SID Filtering*), quand il est désactivé, laisse passer les SID étrangers glissés dans un ticket Kerberos, ce qui rend exploitable l'abus de SID History et ouvre l'escalade vers le domaine de confiance ; activé, il les bloque. L'**authentification sélective** (*Selective Authentication*) va plus loin en n'autorisant que des utilisateurs explicitement désignés à accéder aux ressources de l'autre côté.
 
 ## Énumération des trusts
 
@@ -218,29 +196,11 @@ Get-DomainForeignGroupMember -Domain foret2.com   # PowerView
 
 ## Contre-mesures
 
-```
-Isolation des domaines :
-  - SID Filtering : toujours activé sur les external trusts et forest trusts
-    netdom trust DOMAIN1 /domain:DOMAIN2 /enablesidhistory:no /quarantine:yes
-  - Selective Authentication sur les forest trusts (plus restrictif que l'auth ouverte)
-  - Auditer régulièrement les trusts existants (supprimer les trusts inutiles)
-  - Ne pas créer de trusts bidirectionnels si unidirectionnel suffit
+L'**isolation des domaines** est le socle. Le filtrage de SID doit rester activé sur tous les trusts externes et de forêt (`netdom trust … /enablesidhistory:no /quarantine:yes`), car c'est lui qui bloque l'injection de SID d'un domaine à l'autre. L'authentification sélective durcit encore les forest trusts en n'ouvrant l'accès qu'aux comptes désignés. Enfin, il faut auditer régulièrement les trusts existants pour supprimer ceux qui ne servent plus, et préférer un trust à sens unique quand un trust bidirectionnel n'est pas justifié.
 
-Protection krbtgt :
-  - Rotation régulière du krbtgt (deux fois pour invalider les tickets existants)
-  - Surveiller les DCSync sur krbtgt (Event ID 4662 + ObjectType: krbtgt)
+La **protection du compte krbtgt** limite la durée de vie des Golden Tickets inter-domaines : on en change le mot de passe deux fois de suite, régulièrement, et on surveille toute réplication de ses secrets (événement 4662 ciblant krbtgt). En parallèle, l'attribut **SID History** ne devrait servir qu'aux migrations, être nettoyé une fois celles-ci terminées, et toute modification inattendue de cet attribut doit déclencher une alerte.
 
-SID History :
-  - Ne pas utiliser SID History en dehors des migrations
-  - Nettoyer les SID History après les migrations
-  - Surveiller l'attribut sIDHistory sur les comptes (modifications inhabituelles)
-
-Détection :
-  Event ID 4768 : TGT avec Extra SIDs (Golden Ticket cross-domain)
-  Event ID 4769 : TGS avec des SID cross-domain inattendus
-  Event ID 4672 : connexion avec privilèges spéciaux depuis un domaine externe
-  Surveiller les accès aux ressources sensibles depuis des domaines tiers
-```
+Côté **détection**, on surveille les TGT porteurs de SID supplémentaires (événement 4768), les TGS avec des SID inter-domaines inattendus (4769) et les connexions à privilèges élevés venant d'un domaine externe (4672), ainsi que tout accès à des ressources sensibles depuis un domaine tiers.
 
 ## Pièges courants
 

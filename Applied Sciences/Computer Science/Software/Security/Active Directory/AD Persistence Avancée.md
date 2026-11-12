@@ -9,7 +9,9 @@ prerequis: ["[[Mimikatz]]", "[[ACL Abuse]]"]
 
 # AD Persistence Avancée
 
-Au-delà du Golden Ticket, Active Directory offre de nombreux mécanismes de persistance qui survivent aux rotations de mots de passe, aux réinitialisations de comptes, et parfois même à la restauration de sauvegardes. Ces techniques ciblent les mécanismes internes d'AD.
+Une entreprise découvre une intrusion, réinitialise les mots de passe, reconstruit les serveurs touchés et croit l'incident clos. Quelques semaines plus tard, l'attaquant est toujours là. C'est le problème de la **persistance** : une fois le domaine compromis, un attaquant expérimenté ne se contente pas d'un accès qui disparaîtra au prochain changement de mot de passe. Il détourne les mécanismes internes d'Active Directory, conçus pour la restauration, la réplication ou la compatibilité, afin de se ménager des portes dérobées qui survivent aux remédiations ordinaires. Ces techniques visent le fonctionnement même de l'annuaire plutôt que des comptes, et c'est ce qui les rend si difficiles à déloger.
+
+Au-delà du Golden Ticket, Active Directory offre ainsi de nombreux mécanismes de persistance qui survivent aux rotations de mots de passe, aux réinitialisations de comptes et parfois même à la restauration de sauvegardes.
 
 > [!important] Idée clé
 > Chaque technique ci-dessous exploite un mécanisme qui existe pour une raison légitime (restauration, réplication, compatibilité) mais qui, une fois détourné, contourne la logique normale de "changer le mot de passe = couper l'accès". Comme le résume la dernière section : aucune persistance n'est parfaitement invisible, seulement plus ou moins bruyante.
@@ -206,37 +208,11 @@ ATTENTION : les modifications de schéma sont irréversibles dans beaucoup de ca
 → À n'utiliser qu'avec accord explicite du client et dans un cadre très contrôlé
 ```
 
-## Détection et contre-mesures
+Chaque technique laisse une trace à qui sait où regarder. Pour l'**AdminSDHolder**, il faut auditer régulièrement les ACL de cet objet, alerter sur toute modification et surveiller les accès qui le ciblent (événement 4662). Pour le **DSRM**, on vérifie que la clé de registre `DsrmAdminLogonBehavior` vaut bien 0, on surveille les connexions locales aux contrôleurs de domaine (événement 4624) et on renouvelle régulièrement le mot de passe DSRM avec `ntdsutil`. Contre la **Skeleton Key**, les protections de LSASS, PPL et Credential Guard, empêchent le patch mémoire qui l'installe, et l'accès à LSASS se détecte par les événements 4673 et 4611 ou l'événement Sysmon 10.
 
-```
-AdminSDHolder :
-  - Auditer les ACLs de AdminSDHolder régulièrement
-    Get-DomainObjectAcl -Identity AdminSDHolder | Where-Object { ... }
-  - Event ID 4662 : accès à l'objet AdminSDHolder
-  - Alerter sur toute modification de ACL sur AdminSDHolder
+Les **droits de réplication** détournés pour un DCSync persistant se repèrent en recensant qui possède `DS-Replication-Get-Changes-All` en dehors des contrôleurs de domaine, et par l'événement 4662 portant le GUID de la réplication (`1131f6ad-9c07-11d1-f79f-00c04fc2dcd2`).
 
-DSRM :
-  - Auditer la clé de registre DsrmAdminLogonBehavior (doit être 0)
-  - Surveiller les authentifications locales sur les DCs (Event ID 4624 Logon Type 3 avec compte local)
-  - Rotation régulière du mot de passe DSRM
-    ntdsutil → set DSRM password → reset password on server DC01
-
-Skeleton Key :
-  - LSASS protected process (PPL) → empêche le patch mémoire
-  - Credential Guard (VBS) → isole LSASS
-  - Détecter via : Event ID 4673, 4611 (droits de débogage)
-  - Sysmon Event ID 10 : OpenProcess avec GrantedAccess=0x1010 sur lsass.exe
-
-Droits de réplication (DCSync) :
-  - Surveiller qui a les droits DS-Replication-Get-Changes-All (hors DCs et comptes légitimes)
-  - Event ID 4662 avec GUID {1131f6ad-9c07-11d1-f79f-00c04fc2dcd2} = DCSync
-
-Général :
-  - Tier Model : séparer les comptes admin par niveau (T0 = DC, T1 = serveurs, T2 = postes)
-  - PAW (Privileged Access Workstations) : stations dédiées pour les admins T0
-  - Privileged Identity Management (PIM) : accès admin à la demande, temporaire
-  - Audits AD réguliers : BloodHound, Purple Knight, PingCastle
-```
+Au-delà de ces mesures ciblées, les bonnes pratiques générales valent contre toute persistance : le modèle en couches (Tier 0 pour les DC, Tier 1 pour les serveurs, Tier 2 pour les postes), des stations d'administration dédiées (PAW) pour les comptes les plus sensibles, une gestion des accès privilégiés à la demande (PIM) et des audits réguliers avec BloodHound, PingCastle ou Purple Knight. Aucune persistance n'étant parfaitement invisible, la surveillance finit toujours par payer.
 
 ## Pièges courants
 
