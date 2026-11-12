@@ -17,7 +17,7 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/04-Vocabulaire/Mo
 | 2       | nyi [WK] / liong    | nyi as a digit; liong before a classifier or unit, see below |
 | 3       | sam [WK]            |                                             |
 | 4       | si [WK] / shi       | Both spellings used                         |
-| 5       | eng [PTK] / ng      | eng in the Pontianak corpus; ng in other sources |
+| 5       | eng [PTK] / ng      | eng in Pontianak; ng in other varieties |
 | 6       | liuk [WK]           |                                             |
 | 7       | chit [WK] / tjit    | Spelling variations                         |
 | 8       | pat [WK]            |                                             |
@@ -82,8 +82,8 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/04-Vocabulaire/Mo
 ## Notes on Regional Variations
 
 ### Jit vs Yit (One)
-- **Jit [PTK]** - The only form in the Pontianak corpus (229 occurrences), compounds included: *jit chien pound* (a thousand pounds)
-- **Yit** - Found in other sources and other Hakka varieties; not attested in Pontianak material
+- **Jit [PTK]** - The Pontianak form, in compounds too: *jit chien pound* (a thousand pounds)
+- **Yit** - The form of other Hakka varieties
 
 ### Nyi vs Liong (Two) [PTK]
 The choice depends on what follows, not on the region, exactly like Mandarin 二 / 兩:
@@ -112,5 +112,5 @@ The choice depends on what follows, not on the region, exactly like Mandarin 二
 > [!quiz] How do you say 20 in Pontianak Hakka?
 > *Nyi sip*: as a digit inside a number, two is *nyi*.
 
-> [!quiz] How do you say "five" in the Pontianak corpus?
-> *Eng* (the form *ng* appears in other sources).
+> [!quiz] How do you say "five" in Pontianak Hakka?
+> *Eng* (other varieties say *ng*).

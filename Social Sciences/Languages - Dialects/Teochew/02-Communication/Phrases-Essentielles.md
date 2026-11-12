@@ -2,51 +2,51 @@
 title: "Phrases essentielles — Teochew de Pontianak"
 domain: "Social Sciences"
 subdomain: "Languages - Dialects > Teochew > 02-Communication"
-tags: [sciences-sociales, langues, teochew, communication, corpus]
+tags: [sciences-sociales, langues, teochew, communication]
 date: "2026-11-12"
 ---
 # Phrases essentielles — Teochew de Pontianak
 
-Le teochew (潮州話, *tiochiu ue* dans le corpus) est une langue min du Sud, venue de la région de Chaozhou et Shantou, dans l'est du Guangdong. Il est proche du hokkien et très éloigné du mandarin. À Pontianak, c'est l'une des deux grandes langues chinoises de la ville avec le hakka, et il a laissé au malais local des mots comme *kuetiau* ou *chai kue*, qu'on retrouve d'ailleurs tels quels dans le corpus (*u cien chaikue*, « il y a des chai kue frits »).
+Le teochew (潮州話, *tiochiu ue* à Pontianak) est une langue min du Sud, venue de la région de Chaozhou et Shantou, dans l'est du Guangdong. Il est proche du hokkien et très éloigné du mandarin. À Pontianak, c'est l'une des deux grandes langues chinoises de la ville avec le hakka, et il a laissé au malais local des mots comme *kuetiau* ou *chai kue* (*u cien chaikue*, « il y a des chai kue frits »).
 
-Les phrases viennent de l'onglet « Tiociu Pontianak » du *Korpus Nusantara* (Universitas Tanjungpura), 5 000 phrases indonésiennes courtes traduites par des étudiants. L'orthographe suit les habitudes indonésiennes (*c* se lit « tch », *j* « dj ») et ne note pas les tons : les sinogrammes ne sont donnés que lorsque le mot est sûr. Certaines traductions du corpus sont fausses ou grossières ; elles ont été écartées.
+L'orthographe utilisée ici suit les habitudes indonésiennes (*c* se lit « tch », *j* « dj ») et ne note pas les tons, qui sont pourtant huit en teochew : écoutez un locuteur dès que possible. Les sinogrammes ne sont donnés que lorsque le mot est sûr.
 
 ## Les mots de base
 
-| Français | Teochew | Sinogrammes | Fréquence dans le corpus |
-|---|---|---|---|
-| je, moi | wa | 我 | 999 phrases sur 1 005 avec *aku* |
-| tu, toi | le | 汝 | 425 sur 431 avec *kamu* |
-| il, elle | i | 伊 | 808 sur 829 avec *dia* |
-| nous (exclusif) | wanang | 我儂 | 132 sur 148 avec *kami* |
-| nous (inclusif) | nang | 俺 | 116 sur 124 avec *kita* |
-| ils, elles | inang | 伊儂 | 78 sur 79 avec *mereka* |
-| ceci · cela | cia · hia | | 251 et 266 |
-| quoi | mekkai | 乜個 | 195 sur 382 avec *apa* |
-| qui | tintiang | | |
-| où | tiko | | |
-| combien | jiokcoi / hiokcoi | 若濟 | |
-| manger, boire | ciak | 食 | 96 sur 100 avec *makan* |
-| aller · venir | khe · lai | 去 · 來 | 112 et 48 |
-| vouloir, aimer | ai | 愛 | 78 sur 96 avec *mau* |
-| aimer (bien) | ngien | | 65 sur 80 avec *suka* |
-| avoir, il y a | u | 有 | 277 sur 349 avec *ada* |
-| savoir | cai | 知 | 100 sur 112 avec *tahu* |
-| savoir faire, pouvoir | hiau | 曉 | 149 sur 172 avec *bisa* |
-| ne pas avoir, ne pas | bo | 無 | 188 sur 528 avec *tidak* |
-| ne pas (vouloir) | m / em | 唔 | |
-| ne… pas encore | bue | 未 | 27 sur 39 avec *belum* |
-| ne… pas (défense) | mai | 莫 | 88 sur 105 avec *jangan* |
-| très | hiok | | 110 sur 146 avec *sangat* |
-| trop | khak | | 21 sur 30 avec *terlalu* |
-| maison | chu | 厝 | 36 sur 47 avec *rumah* |
-| personne | nang | 儂 | 82 sur 88 avec *orang* |
-| ami | pheng iu | 朋友 | |
-| argent | lui | 鐳 | 37 sur 38 avec *uang* |
-| eau | cui | 水 | |
-| aujourd'hui · demain · hier | kinjit · maca · caujit | 今日 · · 昨日 | |
-| merci | kamsia | 感謝 | |
-| pardon | tiumcu | 對唔住 | |
+| Français | Teochew | Sinogrammes |
+|---|---|---|
+| je, moi | wa | 我 |
+| tu, toi | le | 汝 |
+| il, elle | i | 伊 |
+| nous (exclusif) | wanang | 我儂 |
+| nous (inclusif) | nang | 俺 |
+| ils, elles | inang | 伊儂 |
+| ceci · cela | cia · hia | |
+| quoi | mekkai | 乜個 |
+| qui | tintiang | |
+| où | tiko | |
+| combien | jiokcoi / hiokcoi | 若濟 |
+| manger, boire | ciak | 食 |
+| aller · venir | khe · lai | 去 · 來 |
+| vouloir, aimer | ai | 愛 |
+| aimer (bien) | ngien | |
+| avoir, il y a | u | 有 |
+| savoir | cai | 知 |
+| savoir faire, pouvoir | hiau | 曉 |
+| ne pas avoir, ne pas | bo | 無 |
+| ne pas (vouloir) | m / em | 唔 |
+| ne… pas encore | bue | 未 |
+| ne… pas (défense) | mai | 莫 |
+| très | hiok | |
+| trop | khak | |
+| maison | chu | 厝 |
+| personne | nang | 儂 |
+| ami | pheng iu | 朋友 |
+| argent | lui | 鐳 |
+| eau | cui | 水 |
+| aujourd'hui · demain · hier | kinjit · maca · caujit | 今日 · · 昨日 |
+| merci | kamsia | 感謝 |
+| pardon | tiumcu | 對唔住 |
 
 Le teochew a plusieurs négations, chacune avec son sens : *bo* nie l'existence ou la possession (*bo kau*, « il n'y a pas de chien »), *m* nie la volonté ou un fait (*wa em cai*, « je ne sais pas »), *bue* veut dire « pas encore » et *mai* interdit (*mai co khak thiam*, « ne travaille pas trop dur »).
 

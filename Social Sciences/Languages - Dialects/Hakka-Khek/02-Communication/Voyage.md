@@ -8,7 +8,7 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/02-Communication/
 ---
 # Travelling: Hotel, Transport, Money and Health
 
-The sentences below come from the "Khek Pontianak" sheet of the *Korpus Nusantara* (Universitas Tanjungpura), where Informatics students translated about 2,000 Indonesian travel sentences into Pontianak Hakka. Only sentences translated entirely into Hakka were kept, without Indonesian words left as they were. The corpus spelling is not standardised (*phiau* and *phiu*, *ki* and *gi*). It has been harmonised a little here, but no tones are marked: treat these sentences as attested examples, not as a reference transcription.
+Useful sentences for getting by in Pontianak: booking a room, finding your way, paying, ordering and seeing a doctor. They are built on a handful of patterns (see the last section), so once you know *ngai hiau … mo?* and *nyi jiu … mo?* you can make your own. The romanisation follows Indonesian spelling (*c* sounds like "ch", *j* like "j" in *jam*) and marks no tones: listen to a speaker whenever you can, as one syllable can carry several meanings.
 
 ## Key Words [PTK]
 
@@ -120,7 +120,7 @@ In *nyi mai gi thet kui*, *mai* means "to sell", whereas in *ngai oi mai* it mea
 
 ## Structures to Reuse
 
-- **Ngai hiau … mo?** "Can I …?": *hiau* (曉, to know how, to be able) is by far the most frequent modal verb in the corpus (nearly 300 times).
+- **Ngai hiau … mo?** "Can I …?": *hiau* (曉, to know how, to be able) is the everyday way to say "can".
 - **Nyi jiu … mo?** "Do you have …?": *jiu* (有) + noun + *mo* at the end of a question.
 - **Jit to lui …?** "How much is …?": literally "how much money".
 - **Ko + adjective** "more …": *ko phien nyin*, cheaper; *ko thai*, bigger.

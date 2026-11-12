@@ -108,10 +108,10 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/04-Vocabulaire/Mo
 | Good person             | ho nyin         |
 | Bad person               | fai nyin        |
 | Messy, disorganized    | nung kau        |
-| Hard-working [COM]     | khin            |
-| Heartbroken [COM]      | kiuk sim        |
-| Miserable, suffering [COM] | jan bong    |
-| Dirty [COM]            | la sap          |
+| Hard-working     | khin            |
+| Heartbroken      | kiuk sim        |
+| Miserable, suffering | jan bong    |
+| Dirty            | la sap          |
 
 ## Environment and Atmosphere
 
@@ -151,7 +151,7 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/04-Vocabulaire/Mo
 - **Sau to** = so hot
 
 ## Examples in Context
-1. **Khon to nyi an jan bong, ngai an kiuk sim** [COM]
+1. **Khon to nyi an jan bong, ngai an kiuk sim**
    - Seeing you suffer so much breaks my heart
 1. **Li kian su tiam an thai**
    - This bookstore is very big

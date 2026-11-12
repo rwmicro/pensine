@@ -2,42 +2,42 @@
 title: "Phrases du quotidien — Sambas"
 domain: "Social Sciences"
 subdomain: "Languages - Dialects > Sambas > 02-Communication"
-tags: [sciences-sociales, langues, sambas, communication, corpus]
+tags: [sciences-sociales, langues, sambas, communication]
 date: "2026-11-12"
 prerequis: ["[[Social Sciences/Languages - Dialects/Sambas/02-Communication/Phrases-Essentielles]]"]
 ---
 # Phrases du quotidien — Sambas
 
-Ces phrases viennent de l'onglet « melayu sambas » du *Korpus Nusantara* (Universitas Tanjungpura), où des étudiants en informatique ont traduit environ 9 100 phrases indonésiennes en malais de Sambas : des phrases de voyage, des contes (Kabayan, Jaka Kendhil) et des articles de presse. Seules des phrases courtes, entièrement traduites, ont été retenues. L'orthographe des étudiants varie (*tulong* et *tolong*, *bile* et *bille*) et a été très légèrement harmonisée.
+Des phrases courtes pour parler sambas au quotidien : poser des questions, demander un service, se débrouiller en ville, et quelques répliques tirées des contes populaires. Commencez par les mots outils du premier tableau : ce sont eux qui distinguent le sambas de l'indonésien.
 
 ## Les mots qui trahissent le sambas
 
-Ce qui distingue le sambas de l'indonésien tient pour beaucoup à une poignée de mots outils. Le tableau donne la forme la plus fréquente du corpus, avec le nombre de phrases où elle traduit le mot indonésien.
+Ce qui distingue le sambas de l'indonésien tient pour beaucoup à une poignée de mots outils.
 
-| Indonésien | Sambas | Fréquence dans le corpus | Français |
-|---|---|---|---|
-| tidak | **daan** (ndaan) | 755 sur 1 030 | ne… pas |
-| ini | **itok** | 916 sur 1 076 | ce, ceci |
-| itu | **iye** | 739 sur 1 085 | ça, cela |
-| sini | **sitok** | 74 sur 122 | ici |
-| lagi / sedang | **agek** | 173 sur 245 | encore / en train de |
-| kapan | **bile** | 42 sur 47 | quand |
-| pernah | **suah** | 47 sur 57 | déjà (avoir fait) |
-| besok | **isok** | 22 sur 30 | demain |
-| tadi | **tadek** | 43 sur 63 | tout à l'heure |
-| apa | **ape** | 254 sur 307 | quoi |
-| siapa | **sape** | 38 sur 55 | qui |
-| orang | **urang** | 292 sur 423 | personne, gens |
-| kecil | **kacik** | 48 sur 89 | petit |
-| pergi | **paggi** / pegi | 94 sur 180 | aller |
-| ingin, mau | **nak** / maok | 241 sur 275 | vouloir |
-| belum | **balom** | 78 sur 128 | pas encore |
-| kamu | **kau** | 224 sur 252 | tu |
-| kami | **kamek** | 125 sur 215 | nous (exclusif) |
-| enak | **nyaman** | 16 sur 18 | bon (au goût) |
-| uang | **duit** | 36 sur 64 | argent |
+| Indonésien | Sambas | Français |
+|---|---|---|
+| tidak | **daan** (ndaan) | ne… pas |
+| ini | **itok** | ce, ceci |
+| itu | **iye** | ça, cela |
+| sini | **sitok** | ici |
+| lagi / sedang | **agek** | encore / en train de |
+| kapan | **bile** | quand |
+| pernah | **suah** | déjà (avoir fait) |
+| besok | **isok** | demain |
+| tadi | **tadek** | tout à l'heure |
+| apa | **ape** | quoi |
+| siapa | **sape** | qui |
+| orang | **urang** | personne, gens |
+| kecil | **kacik** | petit |
+| pergi | **paggi** / pegi | aller |
+| ingin, mau | **nak** / maok | vouloir |
+| belum | **balom** | pas encore |
+| kamu | **kau** | tu |
+| kami | **kamek** | nous (exclusif) |
+| enak | **nyaman** | bon (au goût) |
+| uang | **duit** | argent |
 
-Deux remarques. *Daan* est la négation emblématique du sambas, celle qu'on entend dès qu'on passe de Pontianak à Sambas ; *dak* et *indak* existent mais restent rares (moins de 30 occurrences à elles deux). Et *iye* sert à la fois de démonstratif (« ça ») et de pronom (« lui, elle »), comme dans *rupenye iye kau* (« alors c'était toi »).
+Deux remarques. *Daan* est la négation emblématique du sambas, celle qu'on entend dès qu'on passe de Pontianak à Sambas ; *dak* et *indak* existent mais sont bien plus rares. Et *iye* sert à la fois de démonstratif (« ça ») et de pronom (« lui, elle »), comme dans *rupenye iye kau* (« alors c'était toi »).
 
 > [!quiz] Comment dit-on « ne… pas » en sambas ?
 > *Daan* (ou *ndaan*) : *saye daan parlu ape-ape*, « je n'ai besoin de rien ».
@@ -98,7 +98,7 @@ Deux remarques. *Daan* est la négation emblématique du sambas, celle qu'on ent
 
 ## Dans les contes
 
-Les contes du corpus donnent le sambas des dialogues familiers, avec ses exclamations et ses ordres.
+Les contes populaires donnent le sambas des dialogues familiers, avec ses exclamations et ses ordres.
 
 | Sambas | Français |
 |---|---|

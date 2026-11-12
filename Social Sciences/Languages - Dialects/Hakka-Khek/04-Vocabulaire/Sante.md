@@ -15,13 +15,13 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/04-Vocabulaire/Mo
 | Stomach ache         | tu si thung      |
 | Heartache / Chest pain | sim khon thung |
 | Shortness of breath  | ship hi          |
-| Cough                | khet / chuk [COM] |
-| Dizzy, light-headed [COM] | teu na fon  |
-| I feel unwell [COM]  | ngai ng chi jan  |
+| Cough                | khet / chuk |
+| Dizzy, light-headed | teu na fon  |
+| I feel unwell  | ngai ng chi jan  |
 | Fever [PTK]          | fat sau          |
 | Food poisoning [PTK] | sit thuk         |
 | Vomit                | eu               |
-| Diarrhea             | o si cip [COM] / bo si cip |
+| Diarrhea             | o si cip / bo si cip |
 | Tingling / Pins and needles | pi pi     |
 | Flatulence           | ta pi            |
 | Blurry vision        | mung mung        |
@@ -49,7 +49,7 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/04-Vocabulaire/Mo
 | Hospital [PTK]      | ji jan                                 |
 | Pharmacy [PTK]      | jok tiam                               |
 
-## Bodily Needs [COM]
+## Bodily Needs
 
 | English               | Hakka            |
 | --------------------- | ---------------- |
@@ -61,7 +61,7 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/04-Vocabulaire/Mo
 | Bathroom, washroom    | sui kien         |
 | Dirty                 | la sap           |
 
-*Tu si* is the belly (*tu si thung*, stomach ache): "the belly is hungry". *O* is the verb for relieving oneself, followed by *nyiau* (urine) or *si* (stool). In the Pontianak corpus *sui kien* also stands for the toilet.
+*Tu si* is the belly (*tu si thung*, stomach ache): "the belly is hungry". *O* is the verb for relieving oneself, followed by *nyiau* (urine) or *si* (stool). In Pontianak, *sui kien* is also used for the toilet.
 
 **Example:** *Ngai oi o si, to mai lia si kong an la sap?* (I need the toilet, why is this toilet so dirty?)
 
@@ -69,7 +69,7 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/04-Vocabulaire/Mo
 > *Ngai tu si ki* (often shortened to *tuki*: *ngai an tuki*, I'm very hungry).
 
 > [!quiz] What is the difference between *si kong* and *sui kien*?
-> *Si kong* is the toilet itself, *sui kien* the bathroom (the Pontianak corpus also uses it for the toilet).
+> *Si kong* is the toilet itself, *sui kien* the bathroom (in Pontianak it is also used for the toilet).
 
 > [!quiz] How do you say "I'm not feeling well, my head is spinning"?
 > *Ngai ng chi jan, teu na fon*.

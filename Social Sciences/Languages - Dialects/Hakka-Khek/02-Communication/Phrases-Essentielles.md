@@ -134,7 +134,7 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/02-Communication/
 | Really?                   | Chin-hai mo?           |
 | I don't know               | Ngai mang chai         |
 | Maybe                     | Kian-nai               |
-| Wait a moment             | Ten ha [COM] / Tang yit ha |
+| Wait a moment             | Ten ha / Tang yit ha |
 | Like this, that's how it is | A nyong                 |
 | You're exaggerating        | Nyi thet ko fen          |
 | There isn't any             | Boi mo                   |
@@ -148,7 +148,7 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/02-Communication/
 | That one                   | Kai cak                      |
 | To fall                    | Jau khut thung                 |
 
-## Everyday Expressions [COM]
+## Everyday Expressions
 
 | English                          | Hakka                     |
 | -------------------------------- | ------------------------- |

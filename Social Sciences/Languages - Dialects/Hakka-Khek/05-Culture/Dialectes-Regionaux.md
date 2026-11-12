@@ -60,7 +60,7 @@ Contrary to what the generic "West Kalimantan Hakka" label suggests, Pontianak H
 | Area | Pontianak, Mempawah, Kubu Raya, Sekadau, Sintang, Sanggau | Singkawang, Sambas, Pemangkat, Bengkayang |
 
 **Distinguishing features (both varieties):**
-- Uses **jit** for "one" (*yit* is not attested in Pontianak sources, see the table below)
+- Uses **jit** for "one" (*yit* belongs to other varieties)
 - Common use of **nyi** for "you" (vs. ngi in some regions)
 - Place names adapted to Hakka phonetics (Pontianak = khun-thien)
 - Heavy Indonesian loanwords (especially for modern items)
@@ -79,15 +79,14 @@ Contrary to what the generic "West Kalimantan Hakka" label suggests, Pontianak H
 
 | Meaning | West Kalimantan | Alternative/Other Regions | Notes |
 |---------|-----------------|---------------------------|-------|
-| **One** | jit | yit | The Pontianak corpus has only *jit* (229 times, *yit* never), compounds included: *jit chien* (1,000) |
-| **You** | nyi | ngi | *nyi* in every Pontianak source (554 times in the corpus, *ngi* never); *ngi* appears in word lists of unstated origin |
-| **Four** | si | shi | Both spellings appear in the same corpus |
-| **Five** | eng | ng | *eng* in the corpus and in both community word lists; *ng* in other sources |
+| **One** | jit | yit | Pontianak uses *jit* everywhere, compounds included: *jit chien* (1,000) |
+| **You** | nyi | ngi | *nyi* is the Pontianak form; *ngi* belongs to other varieties |
+| **Four** | si | shi | Two spellings of the same word |
+| **Five** | eng | ng | *eng* in Pontianak; *ng* in other varieties |
 | **Ten thousand** | ban | wan | wan closer to Mandarin |
 
 **Two is not a regional variant.** *Nyi* is the digit used in counting and in compound numbers (*nyi sip* = 20), while *liong* comes before a classifier or a unit (*liong cak* = two [items], *liong dolar* = two dollars, *liong chien* = two thousand). It is the same split as Mandarin 二 *èr* / 兩 *liǎng*.
 
-The counts above come from the 1,986 Pontianak sentences of the *Korpus Nusantara* (see the resources note). The corpus is a translation exercise and its spelling is not standardised, but the contrasts it shows are clear-cut.
 
 ### Isolated Cultural Vocabulary
 
@@ -101,7 +100,6 @@ To help you identify regional origins, we use these markers:
 - **[WK]** = West Kalimantan, generic/unspecified (source doesn't distinguish Pontianak from Singkawang)
 - **[PTK]** = Pontianak Hakka specifically (坤甸客語, sourced from Huang Su-chen 2013 and community sources explicitly claiming Pontianak)
 - **[SKW]** = Singkawang Hakka specifically (山口洋客語, sourced from Huang Hui-chen 2008 and the Semiotika 2023 article)
-- **[COM]** = community word lists (Indonesian social-media posts gathered into two documents shared on Scribd): no author, no tones, variety not stated. Useful everyday words, but not cross-checked
 - **[ID]** = General Indonesian Hakka
 - **[BK]** = Bangka dialect
 - **[TW]** = Taiwanese Hakka

@@ -140,7 +140,7 @@ Certains mots sundanais sont utilisés dans tout l'archipel :
 
 ## Phrases en sundanais poli
 
-L'onglet « sunda » du *Korpus Nusantara* (Universitas Tanjungpura) traduit environ 1 700 phrases indonésiennes, presque toutes en registre *lemes*. Une bonne partie porte la marque d'une traduction automatique (*barobah kaayaan*, « changer d'état », mis partout pour *menjadi*, ou le *tak* indonésien laissé tel quel) : seules des phrases sans ces défauts ont été gardées.
+Des phrases de tous les jours en registre *lemes*, celui qu'on emploie avec un aîné ou un inconnu. Repérez les mots polis (*abdi*, *neda*, *mios*, *atos*) : le tableau qui suit donne leur équivalent familier.
 
 | Sundanais | Français |
 |---|---|

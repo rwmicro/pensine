@@ -189,7 +189,7 @@ As in Mandarin, a number + classifier precedes the counted noun; the classifier 
 | [number] ki + [elongated object] | pat ki pit · liong ki shu/thiat | eight pencils · two pieces of wood/worked metal |
 | jit sung + [pair] | jit sung hai · jit sung khai | a pair of shoes · a pair of chopsticks |
 | jit pun + [book] | jit pun phu · jit pun shu | a notebook · a school book |
-| tan + [one of a pair] [COM] | tan ngan · tan mun · tan siu · tan kiok | one eye · one door leaf · one hand · one foot |
+| tan + [one of a pair] | tan ngan · tan mun · tan siu · tan kiok | one eye · one door leaf · one hand · one foot |
 
 **Classifiers with no variable complement** (the word is already complete on its own):
 

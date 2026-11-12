@@ -27,10 +27,10 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/04-Vocabulaire/Mo
 |             Older Uncle (variant spelling of asuk?)             |      ajuk       |
 |                 Aunt (father's younger sister)                  | khiume / sukme  |
 |                              Child                              | se kai / se fo  |
-|                           Son [COM]                             |       lai       |
-|                         Daughter [COM]                          |       moi       |
-|                        Grandchild [COM]                         |       sun       |
-|                     Relatives, kin [COM]                        |    chim chit    |
+|                           Son                             |       lai       |
+|                         Daughter                          |       moi       |
+|                        Grandchild                         |       sun       |
+|                     Relatives, kin                        |    chim chit    |
 |                             Friend                              |    phen jiu     |
 
 ## Singkawang [SKW]

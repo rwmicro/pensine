@@ -94,22 +94,22 @@ Pontianak a une importante communauté chinoise (Teochew et Hakka) :
 | **Selamat pagi** | Bonjour (matin) - standard |
 | **Nak gi mane tu?** | Tu vas où ? (salutation informelle) |
 
-## Ce que montrent 3 700 phrases traduites
+## Le malais de Pontianak en phrases
 
-L'onglet « melayu pontianak » du *Korpus Nusantara* (Universitas Tanjungpura) contient environ 3 700 phrases indonésiennes traduites en malais de Pontianak par des étudiants. Sur les mots outils, il confirme le tableau ci-dessus, avec quelques nuances.
+Au-delà du -a final qui devient -e, ce sont une dizaine de petits mots qui font sonner une phrase « Pontianak ». Les apprendre, c'est déjà comprendre la moitié d'une conversation.
 
-| Indonésien | Pontianak | Fréquence dans le corpus | Remarque |
-|---|---|---|---|
-| tidak | **tadak** / tak / ndak | 132 / 116 / 83 sur 378 | *Tadak* est la forme pleine, *tak* et *ndak* les formes courtes |
-| saya | **saye** / aku | 650 / 238 sur 994 | *Aku* entre amis |
-| ingin, mau | **maok** / nak | 124 / 49 sur 192 | *Maok* l'emporte dans le corpus |
-| lagi, sedang | **agik** | 58 sur 94 | « encore » et « en train de » : *aku agik nyarek* (je suis en train de chercher) |
-| sudah | **udah** / dah | 55 / 43 sur 103 | |
-| belum | **belom** | 31 sur 35 | |
-| pergi | **pegi** | 77 sur 99 | |
-| saja, hanya | **jak** | 55 sur 90 | *babat jak*, « avale-le donc » |
-| kecil | **kecik** | 28 sur 29 | |
-| ini, itu | **ni**, **tu** | 220 et 125 | Formes courtes, à côté de *ini* et *itu* |
+| Indonésien | Pontianak | Remarque |
+|---|---|---|
+| tidak | **tadak** / tak / ndak | *Tadak* est la forme pleine, *tak* et *ndak* les formes courtes |
+| saya | **saye** / aku | *Aku* entre amis |
+| ingin, mau | **maok** / nak | *Maok* est le plus courant |
+| lagi, sedang | **agik** | « encore » et « en train de » : *aku agik nyarek* (je suis en train de chercher) |
+| sudah | **udah** / dah | |
+| belum | **belom** | |
+| pergi | **pegi** | |
+| saja, hanya | **jak** | *babat jak*, « avale-le donc » |
+| kecil | **kecik** | |
+| ini, itu | **ni**, **tu** | Formes courtes, à côté de *ini* et *itu* |
 
 Trois tournures reviennent sans cesse :
 - **Bise ndak…?** ou **bisekeh…?** pour une demande polie : *bise ndak kau bantu carikan bagasi saye?* (pouvez-vous m'aider à trouver mon bagage ?). *-keh* est la particule interrogative : *apekeh*, *adekeh*.

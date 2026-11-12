@@ -20,7 +20,7 @@ Phrases de base en dialecte Sambas, parlé dans le sultanat de Sambas (Kalimanta
 | Bien | ![Baik](audio/ms_male_3265fb2dbbb9.mp3) / ![Alhamdulillah](audio/ms_male_2bfd0c23bec5.mp3) | Baik, terima kasih |  |
 | Au revoir | ![Assalamualaikum](audio/ms_male_d7544ec1245a.mp3) | Selamat tinggal | Même formule pour partir |
 | Oui | ![Iyo](audio/ms_male_982c601ecfa1.mp3) | Ya |  |
-| Non | Daan / ![Indak](audio/ms_male_e004eb9cfb5f.mp3) / ![Dak](audio/ms_male_ee9fabfb4f88.mp3) | Tidak | *Daan* est de loin la négation la plus fréquente du corpus de Sambas (755 phrases sur 1 030) ; dak = forme contractée |
+| Non | Daan / ![Indak](audio/ms_male_e004eb9cfb5f.mp3) / ![Dak](audio/ms_male_ee9fabfb4f88.mp3) | Tidak | *Daan* est la négation typique du sambas ; dak = forme contractée |
 | Merci | ![Terima kasih](audio/ms_male_f90acbf236ee.mp3) | Terima kasih |  |
 | S'il te plaît | ![Tolong](audio/ms_male_216c10c27efc.mp3) | Tolong |  |
 | Pardon | ![Maaf](audio/ms_male_9fe554474e28.mp3) | Maaf |  |

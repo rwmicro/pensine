@@ -65,7 +65,7 @@ Le javanais s'écrit avec un a qui se prononce souvent « o » : *teka* se dit �
 
 ### Les registres en situation
 
-Les contes de l'onglet « jawa ngoko » du *Korpus Nusantara* (Universitas Tanjungpura) montrent les deux registres en action. Le narrateur et les personnages entre eux parlent ngoko, mais dès que Kabayan s'adresse à l'infirmier du village (*Pak Mantri*), au chef de quartier ou à une marchande, il passe au krama ; face à une princesse, Jaka Kendhil se désigne même par *dalem*, le « je » le plus humble. L'onglet « jawa kromo » du même corpus, lui, n'est pas exploitable : c'est un extrait du *Serat Centhini* accompagné de traductions indonésiennes incohérentes.
+Rien ne fait mieux sentir les registres que de les voir changer au cours d'une même histoire. Dans les contes populaires de Kabayan ou de Jaka Kendhil, les personnages parlent ngoko entre eux ; mais dès que Kabayan s'adresse à l'infirmier du village (*Pak Mantri*), au chef de quartier ou à une marchande, il passe au krama, et face à une princesse Jaka Kendhil se désigne même par *dalem*, le « je » le plus humble.
 
 **Entre proches (ngoko)**
 
