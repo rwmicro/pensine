@@ -9,9 +9,11 @@ prerequis: ["[[Applied Sciences/Sport/Entraînement/Entraînement et Performance
 
 # Récupération et Supercompensation
 
-La progression sportive ne vient pas de l'entraînement lui-même, mais de la récupération qui le suit. Sans récupération adéquate, l'entraînement mène au surentraînement plutôt qu'à la progression.
+Au sortir d'une séance difficile, on est moins fort qu'en y entrant : les muscles sont fatigués, les réserves d'énergie entamées, quelques fibres abîmées. Ce n'est donc pas pendant l'entraînement que l'on progresse, mais pendant les heures et les jours qui suivent, quand le corps répare les dégâts et se reconstruit un peu plus solide qu'avant, comme pour se préparer à la prochaine agression. La séance n'est que le signal ; la **récupération** est le moment où l'adaptation se produit. Sans elle, l'entraînement ne mène pas au progrès mais à l'épuisement.
 
-### Le Cycle Stress-Récupération-Adaptation
+## Le cycle de la supercompensation
+
+Le modèle classique décrit quatre temps. L'entraînement provoque une **fatigue**, qui fait baisser la capacité de performance. Le corps **récupère** ensuite et revient à son niveau de départ. Puis il le dépasse pendant un temps : c'est la **supercompensation**. Si aucun nouvel entraînement ne vient, ce gain s'efface peu à peu.
 
 ```mermaid
 flowchart LR
@@ -25,10 +27,7 @@ flowchart LR
     N --> S
 ```
 
-**Timing critique** :
-- Trop tôt (avant supercompensation) → accumulation fatigue → surentraînement
-- Trop tard (après retour baseline) → désentraînement, progression nulle
-- Au bon moment (pic de supercompensation) → progression optimale
+Tout l'art de l'entraîneur tient dans le moment où placer la séance suivante. Trop tôt, avant la fin de la récupération, la fatigue s'accumule de séance en séance et l'on glisse vers le surentraînement. Trop tard, une fois le gain dissipé, on revient sans cesse au point de départ et l'on stagne. Au bon moment, au sommet de la supercompensation, chaque séance part d'un niveau un peu plus haut que la précédente. Ce modèle simplifie la réalité, car chaque qualité (force, endurance, réserves de glycogène) récupère à son propre rythme, mais il en donne bien la logique.
 
 Place des séances sur le calendrier et compare « Bien espacées » et « Tous les jours » : la courbe montre la fatigue, puis la surcompensation ou la fatigue qui s'accumule.
 
@@ -41,29 +40,20 @@ intensite: intense
 > [!tip] Méthode
 > La VFC (variabilité de la fréquence cardiaque) est un indicateur avancé de récupération — elle bouge avant que la fatigue devienne visible en performance. La fréquence cardiaque de repos, elle, est un indicateur retardé : quand elle grimpe, le déficit de récupération est souvent déjà installé depuis plusieurs jours. Suivre la VFC permet d'ajuster le timing du prochain stimulus avant que la baisse de performance ne soit mesurable.
 
-### Phases de Récupération
+## Les étapes de la récupération
 
-**Récupération immédiate (0–30 min)**
-- Élimination lactate : retour actif (jogging léger) > repos complet
-- Réhydratation : eau + électrolytes
-- Glucides rapides si effort >60 min (recharge glycogène immédiate)
-- Protéines : 20-40g pour démarrer la synthèse protéique
+Dans la demi-heure qui suit l'effort, le corps commence par rétablir son équilibre : il faut se réhydrater avec de l'eau et des électrolytes, et, après un effort de plus d'une heure, apporter des glucides pour commencer à recharger le glycogène, ainsi que 20 à 40 g de protéines pour lancer la réparation musculaire. Un retour au calme en trottinant élimine le lactate plus vite que le repos complet, mais cela compte peu : le lactate disparaît de toute façon en une heure et n'est pour rien dans la fatigue du lendemain.
 
-**Récupération à court terme (1–24h)**
-- Sommeil : croissance hormonale (GH) sécrétée en phases profondes
-- Alimentation : fenêtre anabolique (glucides + protéines dans 2h)
-- Inflammation contrôlée : processus naturel de réparation — ne pas systématiquement bloquer
-- Stress thermique : froid (récupération active) vs chaud (relaxation, circulation)
+Dans les vingt-quatre heures qui suivent, l'essentiel se joue pendant le sommeil et à table (voir [[Nutrition Sportive]]). Une **inflammation** locale se développe autour des fibres abîmées. Elle fait mal, mais elle fait partie du processus de réparation : c'est elle qui attire les cellules chargées de nettoyer et de reconstruire.
 
 > [!warning] Piège
 > Prendre des anti-inflammatoires (AINS) systématiquement après chaque séance pour "récupérer plus vite" peut jouer contre l'objectif recherché : l'inflammation post-effort n'est pas qu'un dommage à supprimer, c'est en partie le signal qui déclenche la réparation et l'adaptation musculaire. La bloquer chroniquement peut émousser les gains d'entraînement à long terme, même si elle soulage la douleur à court terme.
 
-**Récupération à long terme (24h–7j)**
-- Adaptation structurelle : hypertrophie, renforcement tendons/os
-- Reprogrammation neuromusculaire
-- Semaine de décharge (deload) toutes les 4-6 semaines
+Sur plusieurs jours, enfin, viennent les adaptations profondes : les fibres musculaires grossissent, les tendons et les os se renforcent, le système nerveux affine sa commande. C'est pour leur laisser le temps de s'installer qu'on programme, toutes les quatre à six semaines, une **semaine de décharge** où l'on réduit nettement le volume.
 
-### Le Sommeil — Premier Outil de Récupération
+## Le sommeil, premier outil de récupération
+
+Aucune méthode de récupération n'égale le sommeil. C'est pendant le sommeil profond que l'organisme sécrète l'essentiel de l'hormone de croissance, répare les tissus et renforce l'immunité, tandis que les autres phases consolident les gestes appris à l'entraînement.
 
 | Phase | Processus de récupération |
 |---|---|
@@ -71,46 +61,21 @@ intensite: intense
 | NREM 3-4 (sommeil profond) | Sécrétion GH, réparation tissulaire, immunité |
 | REM | Consolidation apprentissages, régulation émotionnelle |
 
-**Recommandations** :
-- Durée : 7-9h (athlètes de haut niveau souvent 9-10h)
-- Régularité : heure de coucher et lever fixes
-- Environnement : noir complet, 17-19°C, silence
-- Éviter écrans et entraînement intense dans les 2h avant coucher
+Un adulte a besoin de sept à neuf heures par nuit, et beaucoup d'athlètes de haut niveau dorment neuf à dix heures. La régularité des horaires compte autant que la durée. Une chambre sombre, silencieuse et fraîche, autour de 17 à 19 °C, aide à s'endormir, tandis que les écrans et les entraînements intenses dans les deux heures qui précèdent le coucher le retardent.
 
-### Marqueurs de Récupération Insuffisante
+## Reconnaître une récupération insuffisante
 
-**Biologiques** :
-- Fréquence cardiaque de repos augmentée (+5-7 bpm)
-- VFC (Variabilité de la Fréquence Cardiaque) diminuée
-- Cortisol élevé le matin, testostérone basse
-- Ferritine et fer bas (fatigue chronique)
+Les signes d'alerte sont de trois ordres. Les plus fiables sont les **performances** : une baisse de force, d'endurance ou de vitesse sur plusieurs séances de suite, l'incapacité à tenir les allures habituelles. Les signes **subjectifs** les accompagnent souvent : une fatigue qui ne passe pas malgré le repos, de l'irritabilité, une humeur en berne, une motivation qui s'effrite, des courbatures qui durent. Certains signes **biologiques** peuvent aussi alerter, comme une fréquence cardiaque de repos qui grimpe de cinq à sept battements ou une variabilité cardiaque qui chute. Les dosages hormonaux comme le cortisol et la testostérone varient beaucoup d'une personne à l'autre et ne permettent pas de poser un diagnostic à eux seuls. Un bilan sanguin permet aussi d'écarter une carence en fer, dont les symptômes se confondent avec ceux de la fatigue d'entraînement (voir [[Micronutriments et Performance]]).
 
-**Performance** :
-- Baisse de force, endurance, vitesse sur plusieurs séances
-- Incapacité à maintenir l'intensité habituelle
+## Le surentraînement
 
-**Subjectifs** :
-- Fatigue persistante malgré repos
-- Irritabilité, humeur basse
-- Motivation réduite à l'entraînement
-- Douleurs musculaires persistantes (DOMS prolongés)
+Quand la charge dépasse durablement la capacité de récupération, on glisse par étapes vers le **surentraînement**. Le premier stade, le **surmenage fonctionnel**, est normal et même recherché : après un bloc d'entraînement chargé, la performance baisse quelques jours, puis remonte au-dessus de son niveau initial. Si l'on insiste, on passe au **surmenage non fonctionnel**, où il faut des semaines, voire des mois, pour retrouver son niveau, sans gain à la clé. Le **syndrome de surentraînement** proprement dit, plus rare, est un état d'épuisement qui peut durer des mois et demande un suivi médical.
 
-### Surentraînement (Overtraining Syndrome)
+La prévention repose sur la **périodisation** de l'entraînement, qui fait alterner phases de charge et phases de décharge, avec une réduction du volume de 40 à 60 % lors des semaines allégées. Suivre chaque matin sa variabilité cardiaque ou sa fréquence de repos aide à repérer les dérives. On conseille souvent de ne pas augmenter la charge totale de plus de 10 % par semaine ; cette règle n'a rien d'une loi, mais elle rappelle que les tissus ont besoin de temps pour suivre.
 
-**Syndrome de surentraînement** : déséquilibre chronique entre stress et récupération.
+## Les méthodes de récupération active
 
-**Stades** :
-1. **Surmenage fonctionnel** : baisse performance à court terme, récupérable en jours/semaines
-2. **Surmenage non fonctionnel** : semaines-mois pour récupérer
-3. **Surentraînement** (OTS) : mois-années, intervention médicale nécessaire
-
-**Prévention** :
-- Périodisation de l'entraînement (alternance charge/décharge)
-- Semaines de décharge toutes les 4-6 semaines (volume -40-60%)
-- Suivi VFC ou FC repos quotidien
-- Ne pas augmenter charge totale de plus de 10% par semaine
-
-### Outils de Récupération Active
+Une foule de techniques promettent d'accélérer la récupération, avec des preuves très inégales.
 
 | Méthode | Mécanisme | Efficacité |
 |---|---|---|
@@ -121,3 +86,5 @@ intensite: intense
 | Électrostimulation (TENS/EMS) | Contraction passive, circulation | Modérée |
 | Caisson hyperbare | Oxygénation accrue | Coûteux, faible preuve |
 | Compression (manchons) | Réduction œdème, retour veineux | Modérée |
+
+Ces méthodes soulagent surtout la sensation de fatigue et les courbatures, ce qui est précieux en compétition quand il faut enchaîner les épreuves. Mais le bain froid illustre la même limite que les anti-inflammatoires : pris systématiquement après la musculation, il freine la prise de muscle et de force, parce qu'il atténue les signaux qui déclenchent l'adaptation. Mieux vaut le réserver aux périodes où la récupération rapide compte plus que la progression.
