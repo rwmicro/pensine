@@ -13,11 +13,11 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/04-Vocabulaire/Mo
 | English | Hakka/Khek          | Dialect Notes                               |
 | ------- | ------------------- | ------------------------------------------- |
 | 0       | khung [WK] / lang   |                                             |
-| 1       | jit [WK] / yit      | jit in counting; yit in compounds (yit-pak) |
-| 2       | nyi [WK] / liong    | nyi for counting; liong in some contexts    |
+| 1       | jit [WK] / yit      | jit everywhere in Pontianak sources; yit elsewhere |
+| 2       | nyi [WK] / liong    | nyi as a digit; liong before a classifier or unit, see below |
 | 3       | sam [WK]            |                                             |
 | 4       | si [WK] / shi       | Both spellings used                         |
-| 5       | ng [WK] / eng       | ng more common in WK; eng alternative       |
+| 5       | eng [PTK] / ng      | eng in the Pontianak corpus; ng in other sources |
 | 6       | liuk [WK]           |                                             |
 | 7       | chit [WK] / tjit    | Spelling variations                         |
 | 8       | pat [WK]            |                                             |
@@ -32,7 +32,7 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/04-Vocabulaire/Mo
 | 12     | sip nyi    |
 | 13     | sip sam    |
 | 14     | sip si     |
-| 15     | sip ng     |
+| 15     | sip eng / sip ng |
 | 16     | sip liuk   |
 | 17     | sip chit   |
 | 18     | sip pat    |
@@ -48,7 +48,7 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/04-Vocabulaire/Mo
 | 23     | nyi sip sam|
 | 30     | sam sip    |
 | 40     | si sip     |
-| 50     | ng sip     |
+| 50     | eng sip / ng sip |
 | 60     | liuk sip   |
 | 70     | chit sip   |
 | 80     | pat sip    |
@@ -82,9 +82,20 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/04-Vocabulaire/Mo
 ## Notes on Regional Variations
 
 ### Jit vs Yit (One)
-- **Jit [WK]** - Used in counting: jit, nyi, sam...
-- **Yit [Formal]** - Used in compound numbers: yit-pak (100), yit-chien (1000)
-- Both are correct in West Kalimantan dialect
+- **Jit [PTK]** - The only form in the Pontianak corpus (229 occurrences), compounds included: *jit chien pound* (a thousand pounds)
+- **Yit** - Found in other sources and other Hakka varieties; not attested in Pontianak material
+
+### Nyi vs Liong (Two) [PTK]
+The choice depends on what follows, not on the region, exactly like Mandarin 二 / 兩:
+- **Nyi** is the digit: *nyi sip* (20), *nyi sip nyi* (22), *sip nyi nyiet* (December)
+- **Liong** comes before a classifier or a unit: *liong cak* (two [items]), *liong dolar* (two dollars), *liong nyit* (two days), *liong chien* (2,000), *liong tiam* (two o'clock)
+
+| Phrase | Meaning |
+|---|---|
+| Ngai jiu liong cak se fo | I have two children |
+| Liong dolar ka eng sip sen | Two dollars fifty |
+| Pak eng sip dolar | A hundred and fifty dollars |
+| Jit chien pound | A thousand pounds |
 
 ### Ban vs Wan (Ten Thousand)
 - **Ban [ID/WK]** - Indonesian Hakka preference
@@ -93,4 +104,13 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/04-Vocabulaire/Mo
 
 ### Pattern Notes
 - Larger numbers follow additive pattern: e.g., 1,500 = one thousand + five hundred
-- Compound numbers tend to use "yit" instead of "jit"
+- In everyday speech the leading *jit* of a hundred can drop: *pak eng sip* (150)
+
+> [!quiz] *Nyi* or *liong*: how do you say "two dollars"?
+> *Liong dolar*: before a unit or a classifier, two is *liong*.
+
+> [!quiz] How do you say 20 in Pontianak Hakka?
+> *Nyi sip*: as a digit inside a number, two is *nyi*.
+
+> [!quiz] How do you say "five" in the Pontianak corpus?
+> *Eng* (the form *ng* appears in other sources).

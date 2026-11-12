@@ -52,6 +52,8 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/04-Vocabulaire/Mo
 | Evening          | am        |
 | Night            | am-pu     |
 | Midnight         | pan-ja    |
+| Dusk [COM]       | thon am   |
+| Nightfall [COM]  | lim am    |
 
 ## Time Expressions
 
@@ -67,6 +69,7 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/04-Vocabulaire/Mo
 | Return in the evening     | am con                                      |
 | This evening / last night | pu am                                       |
 | Already (completed)       | ho liau / pau / kin to                      |
+| This time (this once) [COM] | li phu                                    |
 | What time?                | kit to tiam                                 |
 | At 3 o'clock              | sam tiam                                    |
 | At 8 pm                   | pat tiam am                                 |

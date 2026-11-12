@@ -30,7 +30,8 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/02-Communication/
 | Yes                      | He / Hai                             |                                                                              |
 | No                        | Ng / Ng boi                          | Ng: short nasal sound                                                        |
 | Thank you                 | Kam shia / Kamchia                   |                                                                              |
-| Please                   | Nyi mang                             |                                                                              |
+| Please (could you…)      | Then siw [PTK]                       | Opens a request: *then siw fan ko, man-man* (please say it again, slowly)    |
+| Please (go ahead)        | Ho ji [PTK]                          | Invites someone to do something: *ho ji hi lobi* (please go to the lobby)    |
 | Sorry / Excuse me         | Tui eng chui / Cia mun / Tui engchuk |                                                                              |
 | You're welcome             | Mang guan xi                         |                                                                              |
 
@@ -70,9 +71,9 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/02-Communication/
 | Where do you work?                     | Nyi cho thew lu abui?        |
 | Where do you want to go?               | Oi hi na bui?                |
 | How do I get to this restaurant?       | Nyiong pen hi ke sitkon?     |
-| Left                                   | Tso phan                     |
-| Right                                  | Yu phan                      |
-| Straight ahead                         | Chiok lok hi                  |
+| Left                                   | Co sak [PTK] / Tso phan      |
+| Right                                  | Cin sak [PTK] / Yu phan      |
+| Straight ahead                         | Chit chit [PTK] / Chiok lok hi |
 | Facing the sea                         | Con hoi                       |
 | Is it far?                             | Far mo?                       |
 
@@ -81,7 +82,7 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/02-Communication/
 | English                                | Hakka                    |
 |--------------------------------------------|----------------------------|
 | I'm hungry                                 | Ngai gi oi / Tu-ki [SKW]    |
-| It's delicious                             | Ngai oi chi                 |
+| It's delicious                             | Ho sit                      |
 | I'd like...                                | Ngai oi ...                 |
 | Water                                      | Shui                        |
 | Rice                                       | Fan                         |
@@ -128,12 +129,12 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/02-Communication/
 
 | English                | Hakka             |
 | ------------------------ | -------------------- |
-| That's good               | Ngai oi               |
+| That's good               | An ho                 |
 | Well done                 | Ho ho                 |
 | Really?                   | Chin-hai mo?           |
 | I don't know               | Ngai mang chai         |
 | Maybe                     | Kian-nai               |
-| Wait                      | Tang yit ha             |
+| Wait a moment             | Ten ha [COM] / Tang yit ha |
 | Like this, that's how it is | A nyong                 |
 | You're exaggerating        | Nyi thet ko fen          |
 | There isn't any             | Boi mo                   |
@@ -146,3 +147,28 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/02-Communication/
 | This one                   | Lia cak                     |
 | That one                   | Kai cak                      |
 | To fall                    | Jau khut thung                 |
+
+## Everyday Expressions [COM]
+
+| English                          | Hakka                     |
+| -------------------------------- | ------------------------- |
+| Congratulations                  | Kiung hi                  |
+| Never mind, it doesn't matter    | Mo siong kon              |
+| Day off, holiday                 | Biong ka                  |
+| Open the door                    | Khoi mun                  |
+| I ate too much                   | Sit thet pao              |
+| I'm just joking                  | Ngai kak nyi kao siao     |
+| Wait a moment (I'm coming)       | En ha loi                 |
+| Go for it! Keep it up!           | Kha yu                    |
+| Come on, I'll treat you to a meal | Hang, ngai chiang nyi sit |
+
+*Kiung hi* is 恭喜, *kha yu* is 加油 and *biong ka* is 放假 (Mandarin *gōngxǐ*, *jiāyóu*, *fàngjià*), pronounced the Hakka way.
+
+> [!quiz] How do you say "congratulations"?
+> *Kiung hi* (恭喜).
+
+> [!quiz] Someone apologises for a small thing. How do you say "never mind, it doesn't matter"?
+> *Mo siong kon*.
+
+> [!quiz] How do you ask someone, politely, to repeat slowly?
+> *Then siw fan ko, man-man*.

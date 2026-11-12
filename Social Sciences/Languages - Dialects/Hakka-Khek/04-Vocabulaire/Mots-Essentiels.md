@@ -14,7 +14,8 @@ prerequis: ["[[Social Sciences/Languages - Dialects/Hakka-Khek/02-Communication/
 | --------------- | --------------------------------------- |
 | I / Me          | ngai                                    |
 | You (singular)  | nyi [WK] / ngi                          |
-| He / She / It   | ki [WK] / khi                           |
+| He / She / It   | ki [WK] / gi [PTK] / khi                |
+| My / Mine       | nga [PTK] (nga kien = my room)          |
 | We              | ngai-tew-sa [WK] / nga ngin / ngai teu  |
 | Us (inclusive)  | tjhi'-ka / jhi ka                       |
 | You (plural)    | nyi-tew-sa [WK]                         |
