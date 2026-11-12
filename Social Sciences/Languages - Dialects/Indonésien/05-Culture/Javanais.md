@@ -63,6 +63,63 @@ Une règle importante : on ne s'applique jamais le krama inggil à soi-même. On
 
 Le javanais s'écrit avec un a qui se prononce souvent « o » : *teka* se dit « teko », *apa* se dit « opo ». Les graphies populaires (*opo*, *ojo*) notent la prononciation.
 
+### Les registres en situation
+
+Les contes de l'onglet « jawa ngoko » du *Korpus Nusantara* (Universitas Tanjungpura) montrent les deux registres en action. Le narrateur et les personnages entre eux parlent ngoko, mais dès que Kabayan s'adresse à l'infirmier du village (*Pak Mantri*), au chef de quartier ou à une marchande, il passe au krama ; face à une princesse, Jaka Kendhil se désigne même par *dalem*, le « je » le plus humble. L'onglet « jawa kromo » du même corpus, lui, n'est pas exploitable : c'est un extrait du *Serat Centhini* accompagné de traductions indonésiennes incohérentes.
+
+**Entre proches (ngoko)**
+
+| Javanais | Français |
+|---|---|
+| Kowe kuwi pancen nekat, ya. | Toi, tu es vraiment téméraire, hein. |
+| Lagi mulih, Kang? Endi Abah? | Tu rentres à peine ? Où est Abah ? |
+| Kepriye karo kowe, Itok? | Et toi, Itok, qu'en dis-tu ? |
+| O iya, aku lali saplengan. | Ah oui, j'ai complètement oublié. |
+| Saiki ayo awake dhewe lunga! | Allez, partons maintenant ! |
+| Sawise tuku balon, awake dhewe kudu mulih. | Après avoir acheté le ballon, il faut qu'on rentre. |
+| Kowe ora usah gumun. | Pas la peine d'être étonné. |
+
+**Avec un aîné ou un inconnu (krama)**
+
+| Javanais | Français |
+|---|---|
+| O, kula boten sakit kok, Pak Mantri. | Oh, mais je ne suis pas malade, monsieur l'infirmier. |
+| Sanes, Pak Mantri, ingkang sakit anak kula. | Non, monsieur, c'est mon enfant qui est malade. |
+| Inggih, matur nuwun, Pak Mantri. | Oui, merci, monsieur l'infirmier. |
+| Inggih, kula nyuwun pamit rumiyin. | Bien, je vous demande la permission de me retirer. |
+| Griya kula Sukamaju, Pak. | J'habite à Sukamaju, monsieur. |
+| Ah, awis nggih, Bu? | Ah, c'est cher, n'est-ce pas, madame ? |
+| Yen ngaten kula nyuwun seprapat kilo mawon, Bu. Niki artane. | Dans ce cas, je vous en prends un quart de kilo, madame. Voici l'argent. |
+| Bu, napa kula pikantuk pitaken? | Madame, puis-je vous poser une question ? |
+| Mas, badhe pesen menapa? | Que désirez-vous commander, monsieur ? (un serveur) |
+| Dalem boten mangertos, Gusti. | Je ne comprends pas, Votre Altesse. |
+
+Les mêmes mots changent d'un tableau à l'autre :
+
+| Français | Ngoko | Krama |
+|---|---|---|
+| je | aku | kula (*dalem* devant un supérieur) |
+| tu, vous | kowe | panjenengan |
+| ne… pas | ora | boten / mboten |
+| oui | iya | inggih / nggih |
+| quoi | apa | menapa / napa |
+| ceci, cela | iki, kuwi | menika (niki), niku |
+| où | endi | pundi |
+| déjà | wis | sampun |
+| pas encore | durung | dereng |
+| aller (futur) | arep | badhe |
+| cher | larang | awis |
+| argent | dhuwit | arta |
+
+> [!quiz] Comment Kabayan dit-il « je ne suis pas malade » à l'infirmier du village ?
+> *Kula boten sakit* (en ngoko ce serait *aku ora lara*).
+
+> [!quiz] Quel est l'équivalent krama de *ora* (ne… pas) et de *iya* (oui) ?
+> *Boten* et *inggih*.
+
+> [!quiz] Pourquoi Jaka Kendhil dit-il *dalem* et non *kula* devant la princesse ?
+> *Dalem* est le « je » le plus humble, réservé à qui parle à quelqu'un de très haut rang.
+
 ## Vocabulaire Javanais Utile
 
 | Javanais | Indonésien |  Français  |

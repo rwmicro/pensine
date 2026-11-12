@@ -94,6 +94,49 @@ Pontianak a une importante communauté chinoise (Teochew et Hakka) :
 | **Selamat pagi** | Bonjour (matin) - standard |
 | **Nak gi mane tu?** | Tu vas où ? (salutation informelle) |
 
+## Ce que montrent 3 700 phrases traduites
+
+L'onglet « melayu pontianak » du *Korpus Nusantara* (Universitas Tanjungpura) contient environ 3 700 phrases indonésiennes traduites en malais de Pontianak par des étudiants. Sur les mots outils, il confirme le tableau ci-dessus, avec quelques nuances.
+
+| Indonésien | Pontianak | Fréquence dans le corpus | Remarque |
+|---|---|---|---|
+| tidak | **tadak** / tak / ndak | 132 / 116 / 83 sur 378 | *Tadak* est la forme pleine, *tak* et *ndak* les formes courtes |
+| saya | **saye** / aku | 650 / 238 sur 994 | *Aku* entre amis |
+| ingin, mau | **maok** / nak | 124 / 49 sur 192 | *Maok* l'emporte dans le corpus |
+| lagi, sedang | **agik** | 58 sur 94 | « encore » et « en train de » : *aku agik nyarek* (je suis en train de chercher) |
+| sudah | **udah** / dah | 55 / 43 sur 103 | |
+| belum | **belom** | 31 sur 35 | |
+| pergi | **pegi** | 77 sur 99 | |
+| saja, hanya | **jak** | 55 sur 90 | *babat jak*, « avale-le donc » |
+| kecil | **kecik** | 28 sur 29 | |
+| ini, itu | **ni**, **tu** | 220 et 125 | Formes courtes, à côté de *ini* et *itu* |
+
+Trois tournures reviennent sans cesse :
+- **Bise ndak…?** ou **bisekeh…?** pour une demande polie : *bise ndak kau bantu carikan bagasi saye?* (pouvez-vous m'aider à trouver mon bagage ?). *-keh* est la particule interrogative : *apekeh*, *adekeh*.
+- **Bah**, particule d'insistance : *ngape bah kau tak cayak ngan aku?* (mais pourquoi tu ne me crois pas ?).
+- **-e** pour « son, sa » : *pengirim-e* (son expéditeur), *sejuk-e* (le froid qu'il faisait).
+
+| Pontianak | Français |
+|---|---|
+| Kau maok ape? | Qu'est-ce que vous voulez ? |
+| Ape yang nak kau beli? | Qu'est-ce que tu vas acheter ? |
+| Saye maok pegi. | Je veux partir. |
+| Tadak, saye cuman maok mampir sekejap. | Non, je voulais juste passer un instant. |
+| Tolong ulang pelan-pelan. | Répétez lentement, s'il vous plaît. |
+| Bise ndak kau bantu carikan bagasi saye? | Pouvez-vous m'aider à trouver mon bagage ? |
+| Gimane saye bise nyampe ke tempat ini? | Comment est-ce que j'arrive à cet endroit ? |
+| Berape blok dari sinek? | C'est à combien de rues d'ici ? |
+| Jam berape kau nak balek agik? | À quelle heure tu reviens ? |
+| Adekeh ketere api yang pegi ke kote? | Y a-t-il un train qui va en ville ? |
+| Saye tak bise tidok nyenyak. | Je n'arrive pas à bien dormir. |
+| Lampunye rosak. | La lampe est cassée. |
+| Suah nonton pelam Alice in Wonderland ndak? | Tu as déjà vu le film *Alice au pays des merveilles* ? |
+| Kawan aku ngambek dompet. | Mon ami a pris le portefeuille. |
+| Ngape bah kau tak cayak ngan aku? | Mais pourquoi tu ne me crois pas ? |
+| Kalok dah macam itu, mane pulak aku nak menang. | Si c'est comme ça, comment veux-tu que je gagne ? |
+
+*Ngan* est la forme courte de *dengan* (avec), *cayak* celle de *percaya* (croire), *sinek* celle de *sini* (ici).
+
 ## Notes Culturelles
 
 - Pontianak est située exactement sur l'équateur (Monument Khatulistiwa)
@@ -124,3 +167,12 @@ Pontianak a une importante communauté chinoise (Teochew et Hakka) :
 
 > [!quiz] Que devient le -a final de *apa* ou *siapa* à Pontianak ?
 > -e : *ape*, *sape*.
+
+> [!quiz] Comment demander poliment « pouvez-vous m'aider ? » à Pontianak ?
+> *Bise ndak kau bantu saye?* (ou *bisekeh…?*)
+
+> [!quiz] Que veut dire *agik* dans *aku agik nyarek* ?
+> « En train de » : « je suis en train de chercher » (indonésien *sedang*, *lagi*).
+
+> [!quiz] Quelles sont les trois formes de « ne… pas » à Pontianak ?
+> *Tadak* (forme pleine), *tak* et *ndak*.
