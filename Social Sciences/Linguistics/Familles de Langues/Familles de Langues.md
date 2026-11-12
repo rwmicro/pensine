@@ -9,164 +9,73 @@ prerequis: ["[[Social Sciences/Linguistics/Branches/Linguistique Historique]]"]
 
 # Familles de Langues
 
-## **Les Grandes Familles de Langues : Un Voyage dans le Temps et l’Espace**
+Le français *nuit*, l'espagnol *noche*, l'italien *notte* et le portugais *noite* se ressemblent parce qu'ils viennent tous du latin *noctem*. Mais l'anglais *night*, l'allemand *Nacht*, le russe *noch'* et le grec *nýchta* se ressemblent aussi, alors qu'ils ne viennent pas du latin. Ces airs de famille ne sont pas un hasard : comme les êtres vivants, les langues descendent d'ancêtres communs, et l'on peut les ranger en **familles**, avec leurs branches et leurs sous-branches. On en compte environ 7 000 dans le monde, réparties en un peu plus d'une centaine de familles, auxquelles s'ajoutent des langues isolées qui n'ont aucune parente connue.
 
-_Comment les langues sont-elles liées ? Pourquoi certaines se ressemblent-elles ?_
+## Comment prouve-t-on une parenté ?
 
-
-### **Pourquoi classer les langues ?**
-Les linguistes regroupent les langues en **familles** selon : 
-- **Leur origine commune** (ex. : le latin pour les langues romanes). 
-- **Des similitudes grammaticales ou lexicales** (ex. : "mère" en français, "mother" en anglais, "mutter" en allemand). 
-- **Des preuves historiques** (textes anciens, reconstructions comme le _proto-indo-européen_).
+Une ressemblance ne suffit pas. Deux langues peuvent partager un mot parce que l'une l'a emprunté à l'autre, comme *café*, présent sous des formes voisines dans des dizaines de langues sans lien entre elles, ou par pure coïncidence. Ce qui prouve une parenté, c'est la régularité : des **correspondances systématiques** de sons sur des centaines de mots du vocabulaire de base (les nombres, les parties du corps, les liens de parenté), qui s'empruntent rarement, et des ressemblances dans la grammaire (voir [[Linguistique Historique]]). À partir de ces correspondances, on peut reconstruire la langue ancêtre, la **proto-langue**, même quand elle n'a laissé aucun texte.
 
 > [!warning] Piège
 > Une ressemblance lexicale isolée ne prouve pas une parenté — elle peut venir d'un emprunt ou d'un hasard (cf. [[Linguistique Historique#Méthode Comparative|la méthode comparative]]). Seule une correspondance systématique et régulière sur de nombreux mots permet de distinguer une vraie famille de langues d'une simple coïncidence ou d'un contact commercial.
 
-## **1. Indo-Européen : La Famille la Plus Étendue**
+## L'indo-européen, la famille la plus parlée
 
-_~440 langues, 3 milliards de locuteurs (la moitié de la population mondiale !)_
+En 1786, à Calcutta, le juge britannique **William Jones** remarque que le sanskrit, langue sacrée de l'Inde, ressemble au grec et au latin de façon si frappante qu'aucun philologue ne pourrait les examiner sans penser qu'ils descendent d'une source commune, « qui peut-être n'existe plus ». Cette source, on l'appellera le **proto-indo-européen**. Ses descendants, environ 450 langues, sont aujourd'hui parlés par près de la moitié de l'humanité.
 
-### **Découverte**
+La famille se divise en une dizaine de branches. Le mot « trois », que les linguistes reconstruisent en indo-européen sous la forme *\*tréyes*, permet de suivre leur air de famille :
 
-- **1786** : Le linguiste **William Jones** remarque des similitudes entre le **sanskrit** (Inde), le **grec** et le **latin**. → Hypothèse : ces langues descendent d’une **langue mère disparue**, le **proto-indo-européen (PIE)**.
-- **Méthode** : Comparaison des mots et grammaires pour reconstruire le PIE (comme un puzzle historique).
-
-### **Branches Principales**
-
-_Chaque branche = une évolution distincte du PIE._
-
-|**Branche**|**Langues Modernes**|**Particularités**|**Exemple de Mot** (PIE → Français)|
+| Branche | Principales langues | « trois » | Remarque |
 |---|---|---|---|
-|**Indo-Iranien**|Hindi, ourdou, persan, kurde|1+ milliard de locuteurs. Le **sanskrit** (1500 av. J.-C.) est la langue IE la plus ancienne _attestée_.|_tréyes_ (3) → "trois"|
-|**Grec**|Grec moderne|Isolé dans la famille IE (pas de "cousins" vivants proches).|_tréyes_ → "tria" (τρία)|
-|**Italique**|**Romanes** : français, espagnol, italien|Issues du **latin vulgaire** (parlé par le peuple, pas le latin classique). ~900M locuteurs.|_lat. "noctem"_ → "nuit"|
-|**Germanique**|Anglais, allemand, suédois, néerlandais|L’**anglais** a ~1.5 milliard de locuteurs (L1 + L2). Le **vieux norrois** = langue des Vikings.|_lat. "noctem"_ → "night" (anglais)|
-|**Celtique**|Gallois, breton, irlandais|Déclin historique, mais **revitalisation** (ex. : l’irlandais en Irlande).|_lat. "noctem"_ → "nos" (gallois)|
-|**Slave**|Russe, polonais, tchèque, serbo-croate|Alphabets **latin** (polonais) ou **cyrillique** (russe).|_lat. "noctem"_ → "ночь" (notch)|
-|**Baltique**|Lituanien, letton|**Très conservatrices** : proches du PIE !|_lat. "avis"_ (oiseau) → "aušra" (aube)|
-|**Albanais**|Albanais|Branche **isolée** dans les Balkans.|—|
-|**Arménien**|Arménien|Alphabet unique (créé en **405 ap. J.-C.**).|—|
-|**Anatolien**|**Hittite** (éteint)|**Plus ancienne langue IE attestée** (tablettes cunéiformes, 1600 av. J.-C.).|—|
+| Indo-iranienne | hindi, ourdou, bengali, persan, kurde | sanskrit *tráyas*, persan *se* | la plus parlée, plus d'un milliard de locuteurs |
+| Italique (romane) | français, espagnol, italien, portugais, roumain | latin *trēs* | les langues romanes descendent du latin parlé, non du latin classique |
+| Germanique | anglais, allemand, néerlandais, langues scandinaves | anglais *three*, allemand *drei* | le *t* devenu *th* ou *d* illustre la loi de Grimm |
+| Slave | russe, polonais, tchèque, serbo-croate | russe *tri* | écrites en alphabet latin ou cyrillique selon les pays |
+| Celtique | irlandais, gallois, breton | gallois *tri* | jadis parlées dans toute l'Europe de l'Ouest |
+| Hellénique | grec | *tría* | une branche à elle seule |
+| Balte | lituanien, letton | lituanien *trys* | le lituanien a conservé beaucoup de traits anciens |
+| Arménienne | arménien | *erek'* | alphabet propre créé vers 405 |
+| Albanaise | albanais | *tre* | une branche à elle seule |
+| Anatolienne (éteinte) | hittite | — | la plus anciennement écrite, dès le XVIIe siècle av. J.-C. |
 
-#### **Expansion de l’Indo-Européen**
+Où et quand vivaient les premiers locuteurs de l'indo-européen ? L'**hypothèse des kourganes**, aujourd'hui la plus soutenue, les situe dans les steppes au nord de la mer Noire et de la Caspienne, vers 4000 avant notre ère : des éleveurs nomades, maîtres du cheval et du char, se seraient dispersés vers l'Europe et l'Asie. Les analyses d'ADN ancien publiées depuis 2015 ont confirmé l'ampleur de ces migrations venues des steppes. L'**hypothèse anatolienne**, qui place l'origine en Anatolie quelques millénaires plus tôt et lie l'expansion à celle de l'agriculture, a perdu du terrain. Bien plus tard, la colonisation a porté l'anglais, l'espagnol, le portugais et le français sur tous les continents.
 
-- **Hypothèse Kourgane** : Origine dans les **steppes d’Asie centrale** (~4000 av. J.-C.), diffusion via les migrations.
-- **Hypothèse anatolienne** : Origine en **Anatolie** (Turquie actuelle), liée à l’agriculture.
-- **Colonisation** : Les langues IE dominent aujourd’hui en **Europe, Amérique, Afrique du Sud, Australie** (via l’anglais/espagnol).
+## Le sino-tibétain
 
-## **2. Sino-Tibétain : L’Héritage de l’Asie de l’Est**
+Avec environ 1,4 milliard de locuteurs, le **sino-tibétain** est la deuxième famille du monde. Sa branche **sinitique** regroupe ce qu'on appelle souvent les « dialectes » chinois, mandarin, cantonais, wu de Shanghai, min de Taïwan et du Fujian, qui sont en réalité des langues aussi différentes entre elles que le français et l'italien. Elles partagent pourtant une même écriture : un Pékinois et un Cantonais ne se comprennent pas à l'oral, mais lisent le même journal. Ces langues sont **tonales**, et **isolantes** : les mots ne se conjuguent ni ne s'accordent. Leur écriture a été adoptée par leurs voisins japonais, coréens et vietnamiens. L'autre branche, **tibéto-birmane**, réunit le tibétain, le birman et des centaines de langues de l'Himalaya.
 
-_~400 langues, 1.4 milliard de locuteurs (20% de la population mondiale)._
+## L'afro-asiatique
 
-### **Deux Grandes Branches**
+La famille **afro-asiatique** s'étend du Moyen-Orient à l'Afrique du Nord et de l'Est. Elle compte les plus anciennes langues écrites du monde après le sumérien. Sa branche **sémitique** comprend l'arabe, l'hébreu, l'araméen et l'amharique d'Éthiopie. Ces langues construisent leurs mots sur des racines de trois consonnes, que l'on complète par des voyelles : en arabe, la racine k-t-b donne *kataba* (il a écrit), *kitāb* (livre) et *maktab* (bureau). L'**égyptien** ancien, la langue des hiéroglyphes, survit dans le copte, encore utilisé dans la liturgie des chrétiens d'Égypte. Le **berbère** (le kabyle, le tachelhit, le touareg) est parlé par des dizaines de millions de personnes en Afrique du Nord, le **couchitique** (somali, oromo) dans la Corne de l'Afrique, et le **tchadique** compte le haoussa, grande langue véhiculaire de l'Afrique de l'Ouest.
 
-1. **Sinitique (Chinois)**
-    
-    - **"Dialectes" = langues à part entière** (mutuellement inintelligibles).
-        - **Mandarin** (70% des sinophones, officiel en Chine).
-        - **Cantonais** (Hong Kong, Guangdong).
-        - **Wu** (Shanghaïen), **Min** (Hokkien, Taïwan).
-    - **Écriture** : **Caractères** (hanzi) communs à toutes les variantes.
-    - **Grammaire** : Langue **tonale** (le sens change avec l’intonation) et **isolante** (pas de conjugaisons).
-    - **Influence** : Le **japonais**, **coréen** et **vietnamien** ont emprunté des caractères chinois.
-2. **Tibéto-Birman**
-    
-    - **Tibétain**, **birman** (Myanmar), **dzongkha** (Bhoutan).
-    - **Centaines de langues** parlées dans l’Himalaya.
+## Le Niger-Congo
 
-## **3. Afro-Asiatique : Le Berceau des Civilisations**
+Avec environ 1 500 langues, le **Niger-Congo** est la plus grande famille du monde par le nombre de langues. Sa branche la plus étendue, le **bantou**, est partie il y a trois ou quatre mille ans de la région située entre le Nigeria et le Cameroun pour couvrir presque toute l'Afrique centrale et australe. Le swahili, langue véhiculaire de l'Afrique de l'Est, le zoulou, le xhosa ou le shona en font partie. Ces langues classent leurs noms en une dizaine de **classes**, marquées par des préfixes : en swahili, *mtu* veut dire « une personne » et *watu* « des personnes », *kitabu* « un livre » et *vitabu* « des livres ». Le préfixe se répercute sur les adjectifs et les verbes qui s'y rapportent. La plupart sont aussi des langues tonales.
 
-_~300 langues, 350 millions de locuteurs. Famille ancienne liée à l’Égypte et au Moyen-Orient._
+## L'austronésien
 
-### **Branches Principales**
+Les langues **austronésiennes**, environ 1 200, couvrent un territoire immense, de Madagascar à l'île de Pâques et de Taïwan à la Nouvelle-Zélande. Leur berceau est Taïwan, où les langues aborigènes formosanes sont les plus diversifiées. Il y a environ 5 000 ans, des navigateurs en sont partis en pirogue vers les Philippines et l'Indonésie, puis à travers tout le Pacifique, où ils n'ont atteint Hawaï et la Nouvelle-Zélande qu'au cours du dernier millénaire. Vers l'ouest, ils ont gagné Madagascar, dont la langue, le malgache, est proche de langues parlées à Bornéo. La famille comprend le malais et l'indonésien, le javanais, le tagalog des Philippines, l'hawaïen, le tahitien et le maori. Beaucoup de ces langues utilisent la **réduplication** : en indonésien, *orang* (personne) devient *orang-orang* (des personnes).
 
-|**Branche**|**Langues**|**Particularités**|
-|---|---|---|
-|**Sémitique**|Arabe, hébreu, araméen, amharique|**Racines trilitères** (ex. : k-t-b = "écrire" en arabe : كتب). L’**hébreu** a été **revitalisé** au XXᵉ siècle.|
-|**Égyptien**|Égyptien ancien (hiéroglyphes), copte|Le **copte** est encore utilisé dans la liturgie chrétienne.|
-|**Berbère**|Kabyle, touareg (tifinagh)|~30M locuteurs en Afrique du Nord.|
-|**Couchitique**|Somali, oromo|Principalement en **Éthiopie** et **Somalie**.|
-|**Tchadique**|Haoussa|~80M locuteurs en **Afrique de l’Ouest** (langue véhiculaire).|
+## Les autres familles
 
-## **4. Niger-Congo : La Diversité Africaine**
-
-_~1500 langues (la plus grande famille d’Afrique !)._
-
-### **Sous-Branche Bantoue**
-
-- **Swahili** : Langue **véhiculaire** en Afrique de l’Est (~100M locuteurs).
-- **Zoulou**, **xhosa** (Afrique du Sud), **shona** (Zimbabwe).
-- **Caractéristiques** :
-    - **Classes nominales** : Préfixes pour indiquer le genre (ex. : _ki-_ pour les objets, _mu-_ pour les personnes).
-    - **Langues tonales** : Le sens dépend de l’intonation.
-    - **Expansion** : Origine au **Nigeria** il y a ~3000 ans.
-
-## **5. Austronésienne : Les Langues des Mers**
-
-_~1200 langues, 380M locuteurs. **Famille la plus étendue géographiquement** (de Taïwan à Madagascar !)._
-
-### **Origine et Expansion**
-
-- **Berceau** : **Taïwan** (langues **formosanes**, très conservatrices).
-- **Migration** : Expansion **maritime** il y a ~4000 ans vers :
-    - **Asie du Sud-Est** : Malais, indonésien, javanais, tagalog (Philippines).
-    - **Océanie** : Hawaïen, maori (Nouvelle-Zélande), tahitien.
-    - **Madagascar** : Malgache (unique en Afrique !).
-
-### **Caractéristiques**
-
-- **Réduplication** : Répétition de mots pour exprimer l’intensité (ex. : _orang_ = personne → _orang-orang_ = personnes).
-- **Alignement austronésien** : Système de **voix** (actif/passif) pour marquer le sujet.
-
-## **6. Autres Familles Majeures**
-
-|**Famille**|**Langues**|**Localisation**|**Particularités**|
+| Famille | Principales langues | Où | Trait marquant |
 |---|---|---|---|
-|**Dravidienne**|Tamil, telugu, kannada, malayalam|**Inde du Sud**|**Pré-indo-européennes**. Agglutinantes, ordre **SOV** (Sujet-Objet-Verbe).|
-|**Japonique**|Japonais, ryūkyūan|**Japon**|**Agglutinant**, ordre **SOV**. Écriture complexe (kanji + hiragana + katakana).|
-|**Coréen**|Coréen|**Corée**|**Hangeul** (alphabet scientifique créé en 1443). Débat : isolat ou altaïque ?|
-|**Turcique**|Turc, azéri, ouzbek, kazakh|**Asie centrale**|**Agglutinantes**, **harmonie vocalique** (les voyelles s’harmonisent dans un mot).|
-|**Ouralienne**|Finnois, estonien, hongrois|**Europe du Nord/Est**|**Agglutinantes**, nombreux **cas grammaticaux**. Le hongrois est un isolat en Europe !|
-|**Austro-Asiatique**|Vietnamien, khmer, môn|**Asie du Sud-Est**|**Isolantes** (pas de conjugaisons), **tonales** (vietnamien).|
-|**Tai-Kadai**|Thaï, lao|**Asie du Sud-Est**|**Tonales**, ordre **SVO**.|
-|**Amérindiennes**|Quechua, guarani, navajo, maya|**Amériques**|**Polysynthèse** : mots très longs combinant plusieurs idées (ex. : "je veux manger" = 1 mot).|
-|**Caucasiennes**|Géorgien, tchétchène, abkhaze|**Caucase**|**Phonologie complexe** (beaucoup de sons). Le géorgien a un alphabet unique.|
+| Dravidienne | tamoul, télougou, kannada, malayalam | Inde du Sud | présente en Inde avant l'indo-européen ; agglutinantes, verbe en fin de phrase |
+| Turcique | turc, azéri, ouzbek, kazakh | de la Turquie à la Sibérie | agglutinantes, harmonie vocalique |
+| Ouralienne | finnois, estonien, hongrois | Europe du Nord et centrale | agglutinantes, nombreux cas grammaticaux |
+| Japonique | japonais, langues ryukyu | Japon | agglutinantes, verbe en fin de phrase |
+| Austro-asiatique | vietnamien, khmer | Asie du Sud-Est, Inde | le vietnamien est devenu tonal par contact |
+| Tai-kadai | thaï, lao | Asie du Sud-Est | tonales |
+| Kartvélienne | géorgien | Caucase | alphabet propre, groupes de consonnes redoutables |
 
-## **7. Cas Particuliers**
+Le coréen, avec son alphabet *hangeul* créé au XVe siècle, est souvent considéré comme un isolat, tout comme le japonais l'a longtemps été. L'hypothèse d'une famille « altaïque » qui réunirait le turc, le mongol, le toungouze, voire le coréen et le japonais, est aujourd'hui rejetée par la plupart des linguistes : leurs ressemblances semblent dues à des siècles de contact plutôt qu'à une origine commune. De même, les « langues caucasiennes » ne forment pas une famille : le Caucase abrite au moins trois familles distinctes. Les Amériques comptent, elles, des dizaines de familles indépendantes, comme l'uto-aztèque (le nahuatl), le maya ou le quechua, dont plusieurs sont **polysynthétiques** : un seul mot peut y exprimer ce que le français dit en une phrase.
 
-### **Créoles et Pidgins**
+## Les cas particuliers
 
-- **Pidgin** : Langue **simplifiée** créée pour le commerce (ex. : pidgin anglais en Papouasie-Nouvelle-Guinée).
-- **Créole** : Un pidgin devenu **langue maternelle** (ex. : **créole haïtien**, à base de français).
-    - **Exemples** :
-        - **Base française** : Haïtien, mauricien.
-        - **Base anglaise** : Jamaïcain, tok pisin (Papouasie).
-        - **Base portugaise** : Capverdien.
-
-### **Langues Construites (Conlangs)**
-
-|**Type**|**Exemples**|**But**|
-|---|---|---|
-|**Auxiliaires**|Espéranto, interlingua|Faciliter la communication internationale. L’**espéranto** (1887) a ~2M locuteurs.|
-|**Artistiques**|Klingon, dothraki, na’vi|Créées pour des **univers fictifs** (Star Trek, Game of Thrones, Avatar).|
-
-### **Isolats : Les Langues Orphelines**
-
-_Langues **sans parenté connue** avec d’autres familles._
-
-- **Basque** (euskara) : Parlé dans les **Pyrénées**, pré-indo-européen.
-- **Burushaski** : Parlé au **Pakistan**.
-- **Sumérien** : **Éteint**, langue de la Mésopotamie ancienne (écriture cunéiforme).
-- **Aïnou** : Langue des **Aïnous** (Japon), quasi éteinte.
+Certaines langues ne se rattachent à aucune famille connue. Ces **isolats** sont des langues « orphelines » : le **basque**, parlé de part et d'autre des Pyrénées et présent en Europe avant l'arrivée de l'indo-européen, le **bourouchaski** du nord du Pakistan, ou le **sumérien**, langue de la première écriture, éteinte depuis plus de trois mille ans.
 
 > [!important] Idée clé
 > "Isolat" ne signifie pas "langue primitive" ou "langue simple" — le basque a une morphologie verbale d'une complexité comparable aux langues polysynthétiques amérindiennes. Un isolat est simplement une langue dont on n'a trouvé aucune parente suffisamment proche pour établir une famille — un fait sur l'état de nos connaissances historiques, pas sur la langue elle-même.
 
-## **Synthèse : Ce qu’il Faut Retenir**
+D'autres langues naissent du contact. Quand des populations sans langue commune doivent commercer ou travailler ensemble, elles improvisent un **pidgin**, une langue d'appoint au vocabulaire et à la grammaire réduits. Si des enfants grandissent en le parlant comme langue maternelle, il s'enrichit et devient une langue complète, un **créole**. C'est ainsi que sont nés, souvent dans le contexte de l'esclavage, le créole haïtien ou mauricien à base de français, le jamaïcain à base d'anglais, ou le capverdien à base de portugais. Le tok pisin de Papouasie-Nouvelle-Guinée, issu d'un pidgin anglais, est aujourd'hui une langue officielle (voir [[Pidgins et Créoles]]).
 
-1. **Les familles de langues** = Arbre généalogique des langues, avec une **origine commune**.
-2. **L’indo-européen** domine en **Europe, Amérique, Asie du Sud**.
-3. **Le sino-tibétain** et **austronésien** montrent comment les langues voyagent (migrations, commerce).
-4. **L’afro-asiatique** et **niger-congo** illustrent la **diversité africaine**.
-5. **Les isolats** (basque, coréen ?) et **créoles** rappellent que les langues évoluent de manière **imprévisible**.
+Il existe enfin des **langues construites**, inventées par une seule personne. Certaines visent à faciliter la communication internationale, comme l'**espéranto**, créé en 1887 par Ludwik Zamenhof, qui compte aujourd'hui quelques centaines de milliers à deux millions de locuteurs selon les estimations. D'autres ont été créées pour des univers de fiction, comme le klingon de *Star Trek* ou le dothraki de *Game of Thrones*.
