@@ -125,3 +125,62 @@ Les contes populaires donnent le sambas des dialogues familiers, avec ses exclam
 
 > [!quiz] Comment dit-on « demain » et « tout à l'heure » en sambas ?
 > *Isok* et *tadek*.
+
+## Exercices
+
+> [!traduire] Qu'est-ce que tu fais ?
+> Agek ngape kau?
+> piège: ape, bile
+> vers: sambas
+>
+> *Agek* marque l'action en cours, *ngape* « que faire ».
+
+> [!traduire] Je n'ai besoin de rien.
+> Saye daan parlu ape-ape.
+> aussi: Aku daan parlu ape-ape.
+> piège: tidak, itok
+> vers: sambas
+>
+> *Daan* est la négation du sambas ; *tidak*, c'est l'indonésien.
+
+> [!traduire] Suah ke kau ke Jakarta?
+> Es-tu déjà allé à Jakarta ?
+> piège: demain, quand
+> vers: français
+>
+> *Suah* = « déjà (avoir fait) », *ke* pose la question.
+
+> [!traduire] Je rappellerai plus tard.
+> Kalak saye telpon agek.
+> piège: isok, tadek
+> vers: sambas
+>
+> *Isok* serait « demain », *tadek* « tout à l'heure » (dans le passé).
+
+> [!associer] Relie l'indonésien au sambas.
+> | Indonésien | Sambas |
+> |---|---|
+> | tidak | daan |
+> | ini | itok |
+> | sini | sitok |
+> | besok | isok |
+> | kapan | bile |
+> | pernah | suah |
+> | kecil | kacik |
+> | sawah | umme |
+
+> [!quiz] Quelle est la négation typique du sambas ?
+> - [x] *daan*
+>   C'est elle qu'on entend dès qu'on passe de Pontianak à Sambas.
+> - [ ] *tadak*
+>   C'est la forme du malais de Pontianak.
+> - [ ] *tidak*
+>   C'est l'indonésien standard.
+
+> [!quiz] Dans *rupenye iye kau* (« alors c'était toi »), que veut dire *iye* ?
+> - [x] « ça », « c' »
+>   *Iye* est le démonstratif « cela », et aussi « lui, elle ».
+> - [ ] « oui »
+>   « Oui » se dit *aok*.
+> - [ ] « ici »
+>   « Ici » se dit *sitok*.

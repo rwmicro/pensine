@@ -170,6 +170,45 @@ Beaucoup de mots indonésiens viennent du javanais :
 - On ne s'applique jamais le krama inggil à soi-même.
 - *Mas*, *Mbak*, *banget*, *gampang* sont des mots javanais passés dans l'indonésien de tous les jours.
 
+## Exercices
+
+> [!traduire] Oui, merci, monsieur l'infirmier.
+> Inggih, matur nuwun, Pak Mantri.
+> piège: iya, aku
+> vers: javanais (krama)
+>
+> Devant l'infirmier, on parle krama : *inggih* et non *iya*.
+
+> [!traduire] Ah oui, j'ai complètement oublié.
+> O iya, aku lali saplengan.
+> piège: inggih, kula
+> vers: javanais (ngoko)
+>
+> Entre proches, *iya* et *aku* ; *inggih* et *kula* sont du krama.
+
+> [!traduire] Kula boten sakit.
+> Je ne suis pas malade.
+> piège: tu, déjà
+> vers: français
+
+> [!associer] Relie chaque mot ngoko à son équivalent krama.
+> | Ngoko | Krama |
+> |---|---|
+> | aku | kula |
+> | kowe | panjenengan |
+> | ora | boten |
+> | iya | inggih |
+> | apa | menapa |
+> | endi | pundi |
+> | wis | sampun |
+> | larang | awis |
+
+> [!quiz] Au marché, Kabayan trouve les prix d'une marchande trop élevés. Que lui dit-il ?
+> - [x] *Ah, awis nggih, Bu?*
+>   Krama : *awis* (cher), *nggih* (oui), comme il convient avec une inconnue.
+> - [ ] *Ah, larang ya, Bu?*
+>   C'est du ngoko : trop familier avec une marchande qu'on ne connaît pas.
+
 ## Questions de révision
 
 > [!quiz] Quels sont les niveaux de langue du javanais ?

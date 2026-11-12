@@ -134,6 +134,73 @@ Le teochew a plusieurs négations, chacune avec son sens : *bo* nie l'existence 
 
 Les jours de la semaine se comptent : *pai it* (lundi), *pai ji* (mardi), *pai sa* (mercredi), *pai si* (jeudi), *pai ngou* (vendredi), *pai lak* (samedi), et le dimanche se dit *loipai* (禮拜). *Aujit* est « après-demain ».
 
+## Exercices
+
+> [!traduire] Je ne sais pas.
+> Wa em cai.
+> aussi: Wa m cai.
+> piège: bo, bue
+> vers: teochew
+>
+> *M* (*em*) nie un fait ou la volonté ; *bo* nierait l'existence, *bue* voudrait dire « pas encore ».
+
+> [!traduire] Où veux-tu aller ?
+> Le ai khe tiko?
+> piège: lai, mekkai
+> vers: teochew
+>
+> *Khe* (aller) s'oppose à *lai* (venir) ; *tiko* est « où », *mekkai* « quoi ».
+
+> [!traduire] Ciak pa bue?
+> Tu as mangé ?
+> piège: quoi, demain
+> vers: français
+>
+> La salutation de tous les jours : « mangé à satiété, pas encore ? ».
+
+> [!traduire] Combien ça coûte ?
+> Jiokcoi lui?
+> aussi: Hiokcoi lui?
+> piège: tiko, cui
+> vers: teochew
+
+> [!associer] Associe chaque mot teochew à son sens.
+> | Teochew | Français |
+> |---|---|
+> | wa | je |
+> | le | tu |
+> | ciak | manger |
+> | khe | aller |
+> | lui | argent |
+> | cui | eau |
+> | chu | maison |
+> | kamsia | merci |
+
+> [!ordre] Les jours, du lundi au dimanche
+> 1. pai it
+> 2. pai ji
+> 3. pai sa
+> 4. pai si
+> 5. pai ngou
+> 6. pai lak
+> 7. loipai
+
+> [!quiz] Comment dit-on « il n'y a pas de chien » ?
+> - [x] *Bo kau.*
+>   *Bo* nie l'existence ou la possession.
+> - [ ] *M kau.*
+>   *M* nie la volonté ou un fait (*wa em cai*), pas l'existence.
+> - [ ] *Bue kau.*
+>   *Bue* veut dire « pas encore ».
+
+> [!quiz] *Mai co khak thiam* : quel sens porte *mai* ?
+> - [x] Une défense : « ne travaille pas trop dur ».
+>   *Mai* (莫) interdit.
+> - [ ] Un refus : « je ne veux pas travailler ».
+>   Le refus se dit avec *m*.
+> - [ ] Un « pas encore » : « je n'ai pas encore travaillé ».
+>   « Pas encore », c'est *bue*.
+
 > [!quiz] Comment demande-t-on à quelqu'un s'il a mangé, en guise de bonjour ?
 > *Ciak pa bue?*
 

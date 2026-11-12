@@ -126,6 +126,43 @@ In *nyi mai gi thet kui*, *mai* means "to sell", whereas in *ngai oi mai* it mea
 - **Ko + adjective** "more …": *ko phien nyin*, cheaper; *ko thai*, bigger.
 - **Nga + noun** "my …": *nga kien*, my room; *nga lui*, my money.
 
+## Practice
+
+> [!traduire] I'm ill.
+> Ngai pot phiang.
+> piège: nyi, mo
+> vers: hakka
+
+> [!traduire] I'd like to change some money.
+> Ngai oi kau lui.
+> piège: mai, phiau
+> vers: hakka
+
+> [!traduire] Nyi jiu con phiau mo?
+> Do you have a return ticket?
+> piège: room, cheap
+> vers: anglais
+
+> [!associer] Match each Hakka word with its meaning.
+> | Hakka | English |
+> |---|---|
+> | likon | Hotel |
+> | so si | Key |
+> | phiau | Ticket |
+> | vikichong | Airport |
+> | focha | Train |
+> | jok tiam | Pharmacy |
+> | ji jan | Hospital |
+> | kui | Expensive |
+
+> [!quiz] Which sentence asks "Can I buy a ticket here?"
+> - [x] *Ngai hiau mai phiau khiun liak bie mo?*
+>   *Ngai hiau … mo?* is "Can I …?"
+> - [ ] *Nyi jiu con phiau mo?*
+>   That asks "Do you have a return ticket?"
+> - [ ] *Ngai mang jiu phiau.*
+>   That says "I don't have a ticket yet."
+
 > [!quiz] How do you ask "Do you have a free room tonight?"
 > *Nyi jiu khung kien mo kin pu am?*
 

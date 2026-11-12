@@ -151,6 +151,46 @@ Trois tournures reviennent sans cesse :
 - La forte communauté chinoise a laissé *angpau*, *tauke*, *kuetiau*, *Cap Go Meh*.
 - La ville est traversée par l'équateur et par le Kapuas, plus long fleuve d'Indonésie.
 
+## Exercices
+
+> [!traduire] Je veux partir.
+> Saye maok pegi.
+> aussi: Saye nak pegi.
+> aussi: Aku maok pegi.
+> aussi: Aku nak pegi.
+> piège: tadak, agik
+> vers: malais de Pontianak
+
+> [!traduire] Répétez lentement, s'il vous plaît.
+> Tolong ulang pelan-pelan.
+> piège: bah, jak
+> vers: malais de Pontianak
+
+> [!traduire] Ngape bah kau tak cayak ngan aku?
+> Mais pourquoi tu ne me crois pas ?
+> piège: veux, ici
+> vers: français
+>
+> *Bah* insiste, *cayak* est *percaya* (croire), *ngan* est *dengan* (avec).
+
+> [!associer] Relie l'indonésien au malais de Pontianak.
+> | Indonésien | Pontianak |
+> |---|---|
+> | tidak | tadak |
+> | mau | maok |
+> | sedang | agik |
+> | sudah | udah |
+> | belum | belom |
+> | pergi | pegi |
+> | saja | jak |
+> | kecil | kecik |
+
+> [!quiz] Dans *adekeh ketere api yang pegi ke kote?*, à quoi sert *-keh* ?
+> - [x] Il pose la question : « y a-t-il… ? »
+>   *-keh* est la particule interrogative (*apekeh*, *bisekeh*).
+> - [ ] Il insiste, comme *bah*.
+> - [ ] Il veut dire « son, sa », comme *-e*.
+
 ## Questions de révision
 
 > [!quiz] Comment dit-on « Tu vas où ? » à Pontianak ?

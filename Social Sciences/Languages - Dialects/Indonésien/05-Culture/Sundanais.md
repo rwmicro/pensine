@@ -197,6 +197,43 @@ Le vocabulaire *lemes* s'y repère facilement :
 - *Punten* (excusez-moi), *hatur nuhun* (merci), *mangga* (je vous en prie) s'entendent partout à Java Ouest.
 - Les particules *mah*, *téh* et *atuh* colorent l'indonésien parlé des Sundanais.
 
+## Exercices
+
+> [!traduire] Je sais déjà ce qui s'est passé.
+> Abdi atos terang naon anu lumangsung.
+> piège: geus, nyaho
+> vers: sundanais (lemes)
+>
+> *Geus* et *nyaho* disent la même chose en registre familier (*loma*).
+
+> [!traduire] Il fait très chaud aujourd'hui.
+> Cuaca poe ieu panas pisan.
+> piège: wae, ulah
+> vers: sundanais
+
+> [!traduire] Ulah sangeunahna wae.
+> Ne faites pas n'importe quoi.
+> piège: très, déjà
+> vers: français
+
+> [!associer] Relie chaque mot familier (loma) à son équivalent poli (lemes).
+> | Loma | Lemes |
+> |---|---|
+> | kuring | abdi |
+> | manéhna | anjeunna |
+> | dahar | neda |
+> | indit | mios |
+> | balik | wangsul |
+> | meuli | meser |
+> | nyaho | terang |
+> | geus | atos |
+
+> [!quiz] À qui dit-on « j'ai déjà mangé » sous la forme *abdi atos neda* plutôt que *kuring geus dahar* ?
+> - [x] À un aîné ou à un inconnu.
+>   *Abdi*, *atos* et *neda* sont du registre poli (*lemes*).
+> - [ ] À un ami proche.
+>   Entre amis, *kuring geus dahar* suffit.
+
 ## Questions de révision
 
 > [!quiz] Où parle-t-on sundanais ?
