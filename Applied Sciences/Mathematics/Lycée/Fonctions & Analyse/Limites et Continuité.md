@@ -11,8 +11,8 @@ prerequis: ["[[Suites]]", "[[Trigonométrie]]"]
 
 L'étude des limites et de la continuité constitue le coeur de l'analyse mathématique en Terminale. Ces notions formalisent l'idée intuitive de "tendre vers" et permettent de décrire le comportement des fonctions aux bornes de leur domaine. Elles s'appuient sur les bases posées en [[Suites]] et en [[Trigonométrie]], et préparent l'étude des fonctions [[Exponentielle et Logarithme|exponentielle et logarithme]] ainsi que des [[Primitives et Intégrales|intégrales]].
 
-> [!quote] Augustin-Louis Cauchy
-> *"On doit donner une base solide et rigoureuse aux notions vagues de limite et d'infiniment petit."*
+> [!quote] Augustin-Louis Cauchy, *Cours d'analyse* (1821), introduction
+> *"Quant aux méthodes, j'ai cherché à leur donner toute la rigueur qu'on exige en géométrie, de manière à ne jamais recourir aux raisons tirées de la généralité de l'algèbre."*
 
 
 ## 1. Limite d'une fonction en un point

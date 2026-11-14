@@ -114,7 +114,7 @@ Sujets du programme officiel non couverts par le simulateur. Énoncés inspirés
 
 ### Distribution differences
 
-Les notes ci-dessus utilisent majoritairement l'outillage Debian/Ubuntu (apt, iptables, systemd-timesyncd). L'examen LFCS laisse choisir la distribution : cette note rassemble les équivalents RHEL (chrony, firewalld, nftables, dnf, SELinux).
+Les notes ci-dessus utilisent majoritairement l'outillage Debian/Ubuntu (apt, iptables, systemd-timesyncd). Depuis sa mise à jour, l'examen LFCS ne fait plus choisir de distribution (il se veut indépendant de la distribution) : connaître les deux familles reste utile au quotidien, et cette note rassemble les équivalents RHEL (chrony, firewalld, nftables, dnf, SELinux).
 
 > [!tip] Méthode
 > Plutôt que d'apprendre deux jeux de commandes en parallèle, repérer d'abord les outils communs aux deux familles (`systemctl`, `ip`, `mount`, `timedatectl`) — ils marchent à l'identique partout et couvrent une bonne partie de l'examen. Ne mémoriser les équivalents spécifiques (table ci-dessous) que pour ce qui reste vraiment distro-dépendant.

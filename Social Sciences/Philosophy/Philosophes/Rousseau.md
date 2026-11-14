@@ -18,7 +18,7 @@ Sa vie est marquée par l'instabilité, la méfiance et la singularité. Il conf
 
 Les *Confessions*, dictées dans ses dernières années, inventent le genre de l'autobiographie moderne — l'examen sans pitié de soi-même.
 
-Il meurt en 1778, deux mois après Voltaire, son ennemi intime. Tous deux sont transférés au Panthéon en 1794 par la Révolution française, qui se revendiquera de lui.
+Il meurt en 1778, deux mois après Voltaire, son ennemi intime. La Révolution française les transfère tous deux au Panthéon, Voltaire en juillet 1791 et Rousseau en octobre 1794, et se revendiquera de lui.
 
 ## Contexte Historique
 

@@ -76,7 +76,7 @@ Leibniz invente, indépendamment de Newton et selon une notation encore utilisé
 ## Grandes œuvres
 
 - *Discours de métaphysique* (1686)
-- *Nouveaux essais sur l'entendement humain* (1704, réponse point par point à Locke)
+- *Nouveaux essais sur l'entendement humain* (écrits en 1704, publiés en 1765, réponse point par point à Locke)
 - *Essais de théodicée* (1710)
 - *La Monadologie* (1714) — synthèse la plus concise de son système
 
@@ -86,7 +86,7 @@ Leibniz invente, indépendamment de Newton et selon une notation encore utilisé
 
 > "Les monades n'ont point de fenêtres, par lesquelles quelque chose y puisse entrer ou sortir."
 
-> "Nous sommes dans le meilleur des mondes possibles."
+> Notre monde est le meilleur des mondes possibles. (thèse, plus que citation, des *Essais de théodicée*, 1710 ; la formule « Tout est au mieux dans le meilleur des mondes possibles » est celle de Pangloss, la caricature qu'en fait Voltaire dans *Candide*)
 
 ## Questions de révision
 

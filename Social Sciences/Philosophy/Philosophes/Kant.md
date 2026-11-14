@@ -14,7 +14,7 @@ La légende veut que les habitants de Königsberg aient réglé leurs montres su
 
 ## Une vie consacrée à l'université
 
-Kant naît en 1724 à Königsberg, l'actuelle Kaliningrad, quatrième des onze enfants d'un sellier. Sa mère l'élève dans le piétisme, un protestantisme austère qui valorise la droiture intérieure plus que les rites ; il en gardera le sens du devoir, sinon la foi. Après des études à l'université de sa ville et quelques années comme précepteur, il y enseigne pendant plus de quarante ans, d'abord comme *Privatdozent* payé par ses étudiants, puis comme professeur de logique et de métaphysique à partir de 1770. Ses cours, très suivis, portent sur tout : physique, géographie, anthropologie. Célibataire, d'une santé fragile qu'il ménage par une hygiène minutieuse, il meurt en 1804, à près de quatre-vingts ans.
+Kant naît en 1724 à Königsberg, l'actuelle Kaliningrad, quatrième des neuf enfants d'un sellier. Sa mère l'élève dans le piétisme, un protestantisme austère qui valorise la droiture intérieure plus que les rites ; il en gardera le sens du devoir, sinon la foi. Après des études à l'université de sa ville et quelques années comme précepteur, il y enseigne pendant plus de quarante ans, d'abord comme *Privatdozent* payé par ses étudiants, puis comme professeur de logique et de métaphysique à partir de 1770. Ses cours, très suivis, portent sur tout : physique, géographie, anthropologie. Célibataire, d'une santé fragile qu'il ménage par une hygiène minutieuse, il meurt en 1804, à près de quatre-vingts ans.
 
 Son œuvre majeure est tardive. Pendant une décennie, après 1770, il ne publie presque rien : il élabore la *Critique de la raison pure*, qui paraît en 1781, quand il a cinquante-sept ans. Les grands livres s'enchaînent alors.
 
@@ -36,7 +36,7 @@ Au XVIIIe siècle, deux traditions s'affrontent sur l'origine de la connaissance
 Sa solution consiste à renverser la question, comme Copernic avait renversé le rapport entre le Soleil et la Terre. Jusqu'ici, on supposait que notre connaissance se règle sur les objets. Supposons au contraire que les objets se règlent sur notre manière de les connaître. L'esprit n'est pas une cire passive qui reçoit des empreintes : il organise ce qu'il reçoit.
 
 > [!important] Idée clé
-> Mal comprise, cette formule fait croire que Kant réduit le monde à une invention de l'esprit. Ce n'est pas la *matière* de l'expérience (le contenu sensoriel brut) que l'esprit produit, mais sa *forme* — l'espace, le temps, la causalité sont les conditions structurantes sans lesquelles aucune expérience cohérente ne serait possible, pas des contenus qu'on invente librement.
+> Mal comprise, cette formule fait croire que Kant réduit le monde à une invention de l'esprit. Ce n'est pas la *matière* de l'expérience (le contenu sensoriel brut) que l'esprit produit, mais sa *forme* — l'espace et le temps (les formes de la sensibilité) et les catégories comme la causalité sont les conditions structurantes sans lesquelles aucune expérience cohérente ne serait possible, pas des contenus qu'on invente librement.
 
 Pour Kant, la connaissance naît de la rencontre de deux facultés. La **sensibilité** reçoit des intuitions, et elle les reçoit toujours dans deux formes qu'elle impose elle-même, l'**espace** et le **temps**. L'**entendement** les ordonne par des concepts, dont les plus fondamentaux sont les **catégories**, comme la causalité ou la substance. Aucune des deux ne suffit seule : « Des pensées sans contenu sont vides, des intuitions sans concepts sont aveugles. »
 

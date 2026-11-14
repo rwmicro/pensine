@@ -109,9 +109,9 @@ Ces usages politiques de la science rappellent qu'une méthode ne garantit pas l
 
 ## La révolution industrielle comme application
 
-La révolution industrielle (XVIIIe-XIXe s.) est la première fois que la science et l'économie forment un couple organisé pour produire de la croissance. Avant, les innovations technologiques étaient empiriques — des artisans découvrant des procédés par tâtonnement. Avec la révolution industrielle, les ingénieurs appliquent délibérément des principes scientifiques (thermodynamique, chimie) à la production.
+La révolution industrielle (XVIIIe-XIXe s.) est la première fois que la science et l'économie forment un couple organisé pour produire de la croissance. Avant, les innovations technologiques étaient empiriques — des artisans découvrant des procédés par tâtonnement. Avec la révolution industrielle, les ingénieurs appliquent de plus en plus délibérément des connaissances scientifiques (chimie, puis thermodynamique au XIXe siècle) à la production.
 
-La machine à vapeur de James Watt (1769) illustre ce lien : elle naît d'une compréhension théorique des propriétés de la vapeur, pas du hasard.
+La machine à vapeur de James Watt (1769) montre comment ce lien commence : Watt trouve empiriquement, en réparant une machine de Newcomen, que l'on perd de la chaleur à refroidir le cylindre, et invente le condenseur séparé ; il échange avec Joseph Black, qui a décrit la chaleur latente. La théorie qui expliquera ces machines, la thermodynamique (Carnot, 1824), vient après elles.
 
 ## La science comme projet indéfini
 
