@@ -261,12 +261,12 @@ Après 1991, les sociétés post-communistes connaissent des trajectoires diverg
 - **Démocraties fragiles** : Roumanie, Bulgarie, Balkans occidentaux
 - **Nostalgie communiste** (*Ostalgie* allemande) — sentiment de perte sociale, retour de figures héroïques du passé (Tito, RDA, URSS) dans la culture pop
 
-L'arrivée au pouvoir de partis nostalgiques (Russie unie en Russie, alliances néo-communistes en Moldavie, en Bulgarie) entretient des controverses récurrentes sur la mémoire de la période.
+La réhabilitation de l'époque soviétique par le pouvoir russe (Russie unie, parti au pouvoir qui n'est pas communiste) et l'arrivée au pouvoir d'anciens communistes rebaptisés (Moldavie, Bulgarie) entretient des controverses récurrentes sur la mémoire de la période.
 
 
 ## Débats historiographiques
 
-- **École totalitaire** (Arendt, Friedrich, Brzezinski, Furet) — communisme et nazisme comme variantes d'un même type, le **totalitarisme** ; controverse autour de la *thèse de l'unicité* (Nolte) ou de la *symétrie* (Furet, *Le Passé d'une illusion*, 1995)
+- **École totalitaire** (Arendt, Friedrich, Brzezinski, Furet) — communisme et nazisme comme variantes d'un même type, le **totalitarisme** ; controverse autour de la *thèse de l'unicité* de la Shoah, contestée par Nolte (le « nexus causal » qu'il voit entre bolchevisme et nazisme, à l'origine de la querelle des historiens de 1986), ou de la *symétrie* (Furet, *Le Passé d'une illusion*, 1995)
 - **École révisionniste** (Fitzpatrick, Getty) — refuser le modèle « totalitaire » qui fait du peuple un pur objet ; étudier la société soviétique « par en bas »
 - **Furet vs. Hobsbawm** — débat français/britannique sur le bilan du XXᵉ siècle : « court XXᵉ siècle » d'âge des extrêmes (Hobsbawm) vs. « siècle des illusions » (Furet)
 - **Livre noir du communisme** (Courtois, 1997) — succès international mais critiques méthodologiques (inflation des chiffres, comparaison contestée avec la [[Shoah]])

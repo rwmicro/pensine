@@ -162,6 +162,7 @@ Cette notion influencera profondément la théologie chrétienne, juive et musul
 > "L'homme est par nature un animal politique."
 
 > "Nous sommes ce que nous faisons de manière répétée. L'excellence n'est donc pas un acte, mais une habitude."
+> — Souvent attribuée à Aristote, cette phrase est en fait un résumé de sa pensée par Will Durant (*The Story of Philosophy*, 1926), d'après l'*Éthique à Nicomaque* (II, 1).
 
 > "La vertu est une disposition à agir d'une façon délibérée, consistant en un juste milieu relatif à nous."
 

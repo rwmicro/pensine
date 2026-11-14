@@ -138,8 +138,6 @@ L'expression "amour platonique" vient de cette idée : l'amour comme mouvement v
 
 > "Nul n'entre ici s'il n'est géomètre." (Inscription de l'Académie)
 
-> "Les hommes politiques sont comme les femmes de mauvaise vie : ils ne peuvent vivre ni avec eux ni sans eux." (*La République*)
-
 > "Le mensonge est détestable pour les dieux et pour les hommes."
 
 > "Le courage, c'est de savoir ce qu'il ne faut pas craindre."
