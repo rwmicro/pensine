@@ -40,7 +40,7 @@ timeline
 
 ## La centralisation par Richelieu (1624-1642)
 
-Avant Louis XIV, c'est le cardinal de Richelieu, ministre principal de Louis XIII, qui pose les bases de l'État centralisé. Il abaisse le pouvoir politique et militaire des grands nobles, écrase les révoltes protestantes après le siège de La Rochelle (1628), et met en place les intendants — des administrateurs royaux envoyés dans les provinces pour contourner les seigneurs locaux. C'est aussi Richelieu qui accorde à Théophraste Renaudot le privilège d'imprimer *La Gazette* (voir [[02 - Naissance de la presse en France]]), preuve que le contrôle de l'information fait déjà partie, dès cette époque, des outils de la centralisation monarchique.
+Avant Louis XIV, c'est le cardinal de Richelieu, ministre principal de Louis XIII, qui pose les bases de l'État centralisé. Il abaisse le pouvoir politique et militaire des grands nobles, écrase les révoltes protestantes après le siège de La Rochelle (1628), et généralise à partir de 1635 les intendants, qui existaient avant lui — des administrateurs royaux envoyés dans les provinces pour contourner les seigneurs locaux. C'est aussi Richelieu qui accorde à Théophraste Renaudot le privilège d'imprimer *La Gazette* (voir [[02 - Naissance de la presse en France]]), preuve que le contrôle de l'information fait déjà partie, dès cette époque, des outils de la centralisation monarchique.
 
 ## La Fronde et la leçon retenue par Louis XIV (1648-1653)
 

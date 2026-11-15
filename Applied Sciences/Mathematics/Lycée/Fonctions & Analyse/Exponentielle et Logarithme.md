@@ -11,8 +11,8 @@ prerequis: ["[[Limites et Continuité]]", "[[Dérivation]]"]
 
 Les fonctions exponentielle et logarithme népérien sont deux des fonctions les plus importantes de l'analyse. Réciproques l'une de l'autre, elles interviennent dans la modélisation de phénomènes naturels (croissance, décroissance radioactive, intérêts composés) et sont omniprésentes en physique, chimie, biologie et économie. Cette fiche s'appuie sur les notions de [[Limites et Continuité]] et prépare l'étude des [[Primitives et Intégrales]].
 
-> [!quote] Richard Feynman
-> *"L'exponentielle est la fonction la plus importante de toutes les mathématiques."*
+> [!quote] Walter Rudin, *Real and Complex Analysis* (prologue)
+> *"C'est sans aucun doute la fonction la plus importante des mathématiques."*
 
 
 ## 1. La fonction exponentielle
@@ -297,11 +297,11 @@ $$(a^x)' = \ln(a) \cdot a^x$$
 
 $$\log(10) = 1 \qquad \log(10^n) = n$$
 
-Le logarithme décimal donne l'**ordre de grandeur** d'un nombre : $\log(x)$ est le nombre de chiffres de $x$ moins $1$ (pour $x$ entier).
+Le logarithme décimal donne l'**ordre de grandeur** d'un nombre : pour un entier $x \geq 1$, la partie entière de $\log(x)$ est le nombre de chiffres de $x$ moins $1$ ($\log 50 \approx 1{,}7$ : 50 a deux chiffres).
 
 ### Applications
 
-- **Échelle de Richter** (séismes) : magnitude = $\log$ de l'énergie
+- **Échelle de Richter** (séismes) : magnitude = $\log$ de l'amplitude des ondes mesurées ; l'énergie libérée suit $\log E \approx 1{,}5\,M + 4{,}8$, soit environ $\times 32$ par degré
 - **Décibels** (son) : $L = 10\log\left(\dfrac{I}{I_0}\right)$
 - **pH** (chimie) : $\text{pH} = -\log[\text{H}^+]$
 

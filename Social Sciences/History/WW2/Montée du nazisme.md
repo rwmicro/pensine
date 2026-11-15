@@ -63,9 +63,9 @@ prerequis: ["[[07 - Première Guerre mondiale (France)]]"]
 - Occupation Ruhr par France (1923) après défaut paiement
 
 **Ampleur catastrophique:**
-- **1918:** 1 USD = 4,2 marks
+- **1914:** 1 USD = 4,2 marks ; **fin 1918 :** environ 7,9
 - **Nov 1923:** 1 USD = 4 200 000 000 000 marks
-- Prix doublent toutes les 49 heures
+- Au pic (octobre 1923), les prix doublent environ tous les 3,7 jours
 - Salaires versés 2x/jour
 
 **Conséquences sociales:**
@@ -370,7 +370,7 @@ Hitler insiste: prise pouvoir **légale** (après échec putsch 1923)
 - **Premier parti** d'Allemagne
 - Mais pas majorité absolue
 
-**Note:** 57% Allemands n'ont **jamais voté** nazi (même mars 1933 après intimidations)
+**Note:** même en mars 1933, malgré les intimidations, 56 % des votants n'ont **pas** voté pour le NSDAP
 
 ## Chronologie Rapide
 

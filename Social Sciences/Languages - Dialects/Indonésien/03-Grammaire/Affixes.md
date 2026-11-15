@@ -234,7 +234,7 @@ L'indonésien emploie le passif bien plus souvent que le français, surtout à l
 
 | Racine | Nom | Signification |
 | :----: | :-: | :-----------: |
-| potong | **pemotong** | coupeur / ciseaux |
+| potong | **pemotong** | coupeur, outil qui coupe (les ciseaux : *gunting*) |
 | buka | **pembuka** | ouvre- (bouteille, etc.) |
 | tutup | **penutup** | couvercle |
 | garis | **penggaris** | règle (instrument) |

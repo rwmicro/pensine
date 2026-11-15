@@ -240,4 +240,4 @@ Nietzsche est l'un des philosophes les plus influents du XXe siècle :
 - *La Généalogie de la morale* (1887) — analyse des valeurs morales
 - *L'existentialisme est un humanisme* de Sartre — pour la réception existentialiste
 - Stanford Encyclopedia of Philosophy : entrée **Friedrich Nietzsche**
-- France Culture, *Philosophize This!* — série Nietzsche
+- *Philosophize This!* (podcast en anglais de Stephen West) — épisodes sur Nietzsche

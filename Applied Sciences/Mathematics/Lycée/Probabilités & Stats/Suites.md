@@ -122,7 +122,6 @@ $$\boxed{S_n = \sum_{k=0}^{n} u_k = u_0 \cdot \frac{1 - q^{n+1}}{1 - q}}$$
 | $q > 1$ | Croissante, diverge vers $+\infty$ |
 | $q = 1$ | Constante |
 | $0 < q < 1$ | Décroissante, converge vers $0$ |
-| $q = 0$ | Non définie (convention) |
 | $-1 < q < 0$ | Alternée, converge vers $0$ |
 | $q = -1$ | Alternée, ne converge pas |
 | $q < -1$ | Alternée, diverge |

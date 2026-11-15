@@ -256,7 +256,7 @@ Ce théorème établit le lien fondamental entre l'opération de dérivation et 
 
 ### Choix de $u'$ et $v$
 
-La règle mnémotechnique **LAET** (Logarithme, Arc-fonction, Exponentielle, Trigonométrique) peut guider le choix de $v$ : on choisit $v$ en priorité parmi les fonctions les plus à gauche dans cette liste (car elles se simplifient en dérivant).
+La règle mnémotechnique **LIATE** (Logarithme, Inverse trigonométrique, Algébrique — les polynômes —, Trigonométrique, Exponentielle) peut guider le choix de $v$ : on choisit $v$ en priorité parmi les fonctions les plus à gauche dans cette liste (car elles se simplifient en dérivant). Dans l'exemple ci-dessous, $x$ (algébrique) passe avant $e^x$ (exponentielle).
 
 > [!example] Exemple 1 : $\int_0^1 x e^x\,dx$
 >

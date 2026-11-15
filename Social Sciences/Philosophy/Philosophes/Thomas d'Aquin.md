@@ -25,7 +25,8 @@ Thomas d'Aquin est le plus grand philosophe du Moyen Age et l'architecte de la s
 | 1268-1272 | Deuxième enseignement parisien. Rédaction de la *Somme théologique* |
 | 1273 | Arrête d'écrire après une expérience mystique : "Tout ce que j'ai écrit me parait comme de la paille" |
 | 1274 | Mort en route vers le Concile de Lyon |
-| 1323 | Canonisé. Déclaré Docteur de l'Eglise |
+| 1323 | Canonisé |
+| 1567 | Déclaré Docteur de l'Église par Pie V |
 
 ## Contexte intellectuel
 
@@ -134,7 +135,7 @@ Thomas refuse l'opposition entre raison et foi. Sa position :
 
 ## Héritage
 
-- La **Déclaration universelle des droits de l'homme** (1948) doit beaucoup au concept thomiste de loi naturelle (via Maritain, qui a participé à sa rédaction)
+- La **Déclaration universelle des droits de l'homme** (1948) doit beaucoup au concept thomiste de loi naturelle (via Maritain, qui n'était pas du comité de rédaction mais dont la réflexion, relayée par l'enquête de l'UNESCO de 1947, a pesé sur les débats)
 - Le **droit international** moderne a ses racines dans le thomisme espagnol (Vitoria sur les droits des indigènes américains)
 - L'**éthique des vertus** contemporaine (MacIntyre, *After Virtue*) reprend le cadre aristotélico-thomiste
 - Thomas reste le philosophe le plus enseigné dans les séminaires catholiques du monde entier
