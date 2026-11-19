@@ -5,6 +5,7 @@ subdomain: "Languages - Dialects > Indonésien > 04-Vocabulaire"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
 prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/03-Grammaire/Temps-Verbaux/Futur]]"]
+niveau: "Le quotidien"
 ---
 
 # Adjectifs (Kata Sifat)

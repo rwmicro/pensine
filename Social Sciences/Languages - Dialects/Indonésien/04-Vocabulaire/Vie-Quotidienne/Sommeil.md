@@ -5,6 +5,7 @@ subdomain: "Languages - Dialects > Indonésien > 04-Vocabulaire > Vie-Quotidienn
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
 prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/Vie-Quotidienne/Maison]]"]
+niveau: "Le quotidien"
 ---
 
 # Sommeil (Tidur)

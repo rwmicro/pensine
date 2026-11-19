@@ -5,6 +5,7 @@ subdomain: "Languages - Dialects > Indonésien > 04-Vocabulaire > Themes"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
 prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/Themes/Emotions]]"]
+niveau: "Former des mots"
 ---
 
 # Sports (Olahraga)

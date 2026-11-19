@@ -5,6 +5,7 @@ subdomain: "Languages - Dialects > Indonésien > 04-Vocabulaire > Personnes"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
 prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/02-Communication/Conversation]]"]
+niveau: "Questions et temps"
 ---
 
 # Famille (Keluarga)

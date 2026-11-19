@@ -5,6 +5,7 @@ subdomain: "Languages - Dialects > Indonésien > 03-Grammaire > Temps-Verbaux"
 tags: [sciences-sociales, langues, indonésien, grammaire]
 date: "2026-02-04"
 prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/03-Grammaire/Temps-Verbaux/Past]]"]
+niveau: "Le quotidien"
 ---
 
 # Le futur en indonésien

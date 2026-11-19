@@ -5,6 +5,7 @@ subdomain: "Languages - Dialects > Indonésien > 02-Communication"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
 prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/02-Communication/Expressions]]"]
+niveau: "Parler comme on parle"
 ---
 
 # Argot et Slang Indonésien (Bahasa Gaul)

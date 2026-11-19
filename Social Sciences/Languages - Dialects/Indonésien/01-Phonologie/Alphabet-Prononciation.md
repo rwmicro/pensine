@@ -6,6 +6,7 @@ tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-10"
 parcours: "Indonésien : de l'alphabet à la culture"
 parcours-description: "Lire, saluer, construire ses premières phrases, puis le vocabulaire du quotidien, les affixes, les registres et la culture indonésienne."
+niveau: "Premiers pas"
 ---
 # Alphabet et Prononciation (Alfabet dan Pengucapan)
 

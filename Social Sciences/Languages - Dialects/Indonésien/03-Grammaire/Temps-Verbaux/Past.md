@@ -5,6 +5,7 @@ subdomain: "Languages - Dialects > Indonésien > 03-Grammaire > Temps-Verbaux"
 tags: [sciences-sociales, langues, indonésien, grammaire]
 date: "2026-02-19"
 prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/03-Grammaire/Temps-Verbaux/Present]]"]
+niveau: "Questions et temps"
 ---
 # Le passé en indonésien
 

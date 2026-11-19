@@ -5,6 +5,7 @@ subdomain: "Languages - Dialects > Indonésien > 03-Grammaire"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
 prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/03-Grammaire/Pronoms]]"]
+niveau: "Premiers pas"
 ---
 
 # Structure de Phrase en Indonésien

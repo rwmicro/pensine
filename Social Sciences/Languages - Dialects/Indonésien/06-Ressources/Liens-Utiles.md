@@ -5,6 +5,7 @@ subdomain: "Languages - Dialects > Indonésien > 06-Ressources"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
 prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/06-Ressources/Fetes-Nationales]]"]
+niveau: "Îles et cultures"
 ---
 
 # Liens et Ressources Utiles

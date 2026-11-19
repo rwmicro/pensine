@@ -5,6 +5,7 @@ subdomain: "Languages - Dialects > Indonésien > 02-Communication"
 tags: [sciences-sociales, langues, indonésien, registres, sociolinguistique]
 date: "2026-03-27"
 prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/Personnes/Professions]]"]
+niveau: "Parler comme on parle"
 ---
 # Registres de l'Indonésien
 

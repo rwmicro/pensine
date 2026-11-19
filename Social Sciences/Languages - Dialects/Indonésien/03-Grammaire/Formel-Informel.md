@@ -5,6 +5,7 @@ subdomain: "Languages - Dialects > Indonésien > 03-Grammaire"
 tags: [sciences-sociales, langues, indonésien, registres, grammaire]
 date: "2026-02-04"
 prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/02-Communication/Registres]]"]
+niveau: "Parler comme on parle"
 ---
 
 # Formel et informel : la grammaire de l'oral

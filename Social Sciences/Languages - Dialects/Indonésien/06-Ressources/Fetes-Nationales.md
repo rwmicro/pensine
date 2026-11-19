@@ -5,6 +5,7 @@ subdomain: "Languages - Dialects > Indonésien > 06-Ressources"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
 prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/06-Ressources/Histoire]]"]
+niveau: "Îles et cultures"
 ---
 
 # Fêtes et Jours Fériés en Indonésie (Hari Libur Nasional)
