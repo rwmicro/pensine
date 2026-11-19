@@ -5,6 +5,7 @@ subdomain: "Languages - Dialects > Indonésien > 02-Communication"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
 prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/01-Phonologie/Alphabet-Prononciation]]"]
+niveau: "Premiers pas"
 ---
 
 # Salutations (Salam)

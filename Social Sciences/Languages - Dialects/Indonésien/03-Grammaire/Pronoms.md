@@ -5,6 +5,7 @@ subdomain: "Languages - Dialects > Indonésien > 03-Grammaire"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
 prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/Themes/Nombres]]"]
+niveau: "Premiers pas"
 ---
 
 # Pronoms (Kata Ganti)

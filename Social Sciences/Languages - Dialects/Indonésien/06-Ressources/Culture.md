@@ -5,6 +5,7 @@ subdomain: "Languages - Dialects > Indonésien > 06-Ressources"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
 prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/05-Culture/Pontianak]]"]
+niveau: "Îles et cultures"
 ---
 
 # Culture Indonésienne (Budaya Indonesia)

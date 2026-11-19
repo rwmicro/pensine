@@ -5,6 +5,7 @@ subdomain: "Languages - Dialects > Indonésien > 04-Vocabulaire > Lieux"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
 prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/04-Vocabulaire/Vie-Quotidienne/Sommeil]]"]
+niveau: "Autour de soi"
 ---
 
 # Bâtiments et Lieux (Tempat)

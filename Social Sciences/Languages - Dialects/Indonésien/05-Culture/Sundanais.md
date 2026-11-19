@@ -5,6 +5,7 @@ subdomain: "Languages - Dialects > Indonésien > 05-Culture"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-04"
 prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/05-Culture/Javanais]]"]
+niveau: "Îles et cultures"
 ---
 
 # Sundanais (Bahasa Sunda)

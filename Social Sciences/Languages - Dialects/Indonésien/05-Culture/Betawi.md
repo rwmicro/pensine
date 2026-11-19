@@ -5,6 +5,7 @@ subdomain: "Languages - Dialects > Indonésien > 05-Culture"
 tags: [sciences-sociales, langues, indonésien]
 date: "2026-02-10"
 prerequis: ["[[Social Sciences/Languages - Dialects/Indonésien/02-Communication/Argot-Slang]]"]
+niveau: "Parler comme on parle"
 ---
 
 # Betawi (Dialecte de Jakarta)
