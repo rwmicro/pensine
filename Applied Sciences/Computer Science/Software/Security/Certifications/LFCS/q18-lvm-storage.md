@@ -62,13 +62,11 @@ resize2fs /dev/vol2/p1        # ext4 ; xfs_growfs pour XFS
 
 ## Énoncé
 
-Résolvez cette question sur : `terminal`
-
-Vous devez effectuer des modifications sur des volumes LVM :
-1. Réduisez le groupe de volumes `vol1` en en retirant le disque `/dev/vdh`
-2. Créez un nouveau groupe de volumes nommé `vol2` qui utilise le disque `/dev/vdh`
-3. Créez un volume logique de `50M` nommé `p1` pour le groupe de volumes `vol2`
-4. Formatez ce nouveau volume logique en `ext4`
+Sur une machine qui utilise LVM :
+1. retirez le disque `/dev/vdh` du groupe de volumes `vol1` ;
+2. créez un groupe de volumes `vol2` sur `/dev/vdh` ;
+3. créez dans `vol2` un volume logique `p1` de `50M` ;
+4. formatez `p1` en `ext4`.
 
 ## Solution
 

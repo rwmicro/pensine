@@ -56,8 +56,6 @@ cryptsetup luksAddKey /dev/vdb /root/secure.key
 
 ## Énoncé
 
-Solve this question on: `terminal`
-
 1. Create a LUKS-encrypted volume on `/dev/vdb` with passphrase `lfcs-pass`.
 2. Open it as `secure-data`, format it with `ext4` and mount it at `/mnt/secure`.
 3. Configure the system to **prompt for the passphrase at boot** and mount the volume automatically.

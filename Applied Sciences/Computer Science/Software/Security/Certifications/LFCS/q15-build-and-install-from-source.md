@@ -57,29 +57,24 @@ links -version
 
 ## Énoncé
 
-Solve this question on: `app-srv1`
-
-Install the text based terminal browser `links2` from source on server `app-srv1`. The source is provided at `/tools/links-2.14.tar.bz2` on that server.
-
-Configure the installation process so that:
-1. The target location of the installed binary will be `/usr/bin/links`
-2. Support for ipv6 will be disabled
+Installez depuis les sources le navigateur en mode texte `links2`, dont l'archive est `/tools/links-2.14.tar.bz2`. Configurez la compilation pour que :
+1. le binaire installé soit `/usr/bin/links` ;
+2. la prise en charge d'IPv6 soit désactivée.
 
 ## Solution
 
 Let's first check out the provided archive and extract it's content:
 ```bash
-ssh app-srv1
-root@app-srv1:~$ cd /tools
-root@app-srv1:/tools$ ls
+root@server:~$ cd /tools
+root@server:/tools$ ls
 links-2.14.tar.bz2
 ```
 
 We'll go ahead and extract the archive:
 ```bash
-root@app-srv1:/tools$ tar xjf links-2.14.tar.bz2
-root@app-srv1:/tools$ cd links-2.14
-root@app-srv1:/tools/links-2.14$ ls -lh
+root@server:/tools$ tar xjf links-2.14.tar.bz2
+root@server:/tools$ cd links-2.14
+root@server:/tools/links-2.14$ ls -lh
 total 6.9M
 -rw-r--r-- 1 ubuntu ubuntu 9.2K Aug 12  2015 AUTHORS
 -rw-r--r-- 1 ubuntu ubuntu 1.2K Jan  2  2005 BRAILLE_HOWTO
@@ -100,7 +95,7 @@ The usual process of installing from source is:
 3. `make install`
 Here the question requires specific configuration parameters. We can list all possible options:
 ```bash
-root@app-srv1:/tools/links-2.14$ ./configure -help
+root@server:/tools/links-2.14$ ./configure -help
 Usage: configure [options] [host]
 Options: [defaults in brackets after descriptions]
 Configuration:
@@ -163,7 +158,7 @@ It's also possible to open the `./configure` file in a text editor to investig
 
 We now use the following configuration:
 ```bash
-root@app-srv1:/tools/links-2.14$ ./configure --prefix /usr --without-ipv6
+root@server:/tools/links-2.14$ ./configure --prefix /usr --without-ipv6
 creating cache ./config.cache
 checking for a BSD compatible install... /usr/bin/install -c
 checking whether build environment is sane... yes
@@ -188,7 +183,7 @@ Graphics enabled:       NO
 
 After the configuration we continue with `make`:
 ```bash
-root@app-srv1:/tools/links-2.14$ make
+root@server:/tools/links-2.14$ make
 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -c af_unix.c
 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -c auth.c
 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -c beos.c
@@ -207,7 +202,7 @@ gcc  -g -O2  -o links  af_unix.o auth.o beos.o bfu.o block.o bookmark.o cache.o 
 
 Followed by the `make install`:
 ```bash
-root@app-srv1:/tools/links-2.14$ make install
+root@server:/tools/links-2.14$ make install
 make[1]: Entering directory '/tools/links-2.14'
 /bin/sh ./mkinstalldirs /usr/bin
   /usr/bin/install -c  links /usr/bin/links
@@ -221,16 +216,16 @@ make[1]: Leaving directory '/tools/links-2.14'
 
 This should result in:
 ```bash
-root@app-srv1:~$ whereis links
+root@server:~$ whereis links
 links: /usr/bin/links /usr/man/man1/links.1
-root@app-srv1:~$ /usr/bin/links -version
+root@server:~$ /usr/bin/links -version
 Links 2.14
 ```
 
 We can verify that ipv6 is disabled:
 ```bash
-root@app-srv1:~$ /usr/bin/links -lookup ip6-localhost
+root@server:~$ /usr/bin/links -lookup ip6-localhost
 error: host not found         # output if ipv6 is disabled
-root@app-srv1:~$ /usr/bin/links -lookup ip6-localhost
+root@server:~$ /usr/bin/links -lookup ip6-localhost
 ::1                           # output if ipv6 is enabled
 ```

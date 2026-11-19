@@ -11,59 +11,45 @@ niveau: "Commandes essentielles"
 
 # LFCS — Notes de préparation
 
-> Notes formatées pour réviser la certification **Linux Foundation Certified System Administrator** via le simulateur [killer.sh](https://killer.sh/).
+> Notes de révision pour la certification **Linux Foundation Certified System Administrator** (LFCS) : pour chaque sujet du programme, les notions à comprendre, un exercice pratique et sa solution commentée.
 
-## Simulateur
+## Comment utiliser ces exercices
 
-### Serveurs disponibles
+Les exercices se font sur des machines de test : des VM ou des conteneurs jetables (Vagrant, LXD, KVM…), jamais sur une machine dont on a besoin. Certains supposent un petit réseau de plusieurs hôtes, aux noms génériques (`client`, `web01`, `app01`, `data01`, `data02`) : il suffit de les déclarer dans `/etc/hosts`.
 
-- `terminal` _(par défaut)_
-- `web-srv1`
-- `app-srv1`
-- `data-001`
-- `data-002`
-
-### Règles du simulateur
-
-1. Le serveur sur lequel résoudre une question est indiqué dans l'énoncé.
-2. Si l'énoncé demande de créer des fichiers de solution dans `/opt/course/*`, **toujours le faire** sur le `terminal` principal.
-3. Connexion à un serveur via ssh, par exemple `ssh web-srv1`.
-4. Toutes les adresses sont configurées dans `/etc/hosts` sur chaque serveur.
-5. Le ssh imbriqué n'est **pas possible** : on ne se connecte aux serveurs que depuis le `terminal` principal.
-6. Impossible de redémarrer un serveur individuellement. En cas de problème, la seule solution est de redémarrer le simulateur complet via le menu *Restart Session*.
-7. Ce simulateur ne couvre pas tous les sujets du programme officiel LFCS — les questions 21+ complètent le curriculum.
+Quand un énoncé demande d'écrire une réponse dans un fichier, il s'agit de `~/lab/<numéro>/…` : créer le dossier avec `mkdir -p` avant de commencer.
 
 > [!warning] Piège
-> Les règles 5 et 6 se combinent mal : pas de ssh imbriqué (on ne peut agir sur un serveur que depuis `terminal`) et pas de redémarrage individuel (une casse force à relancer toute la session). Donc avant toute commande destructive sur `web-srv1`/`app-srv1`/`data-00X` — reboot, modification réseau, service critique — mieux vaut réfléchir depuis `terminal` avant de se connecter, plutôt que de tester en direct sur le serveur.
+> Avant toute commande qui peut couper l'accès à une machine distante (modification du pare-feu, du réseau ou de `sshd`), gardez une session ouverte et un accès console de secours, et validez la configuration (`sshd -t`, `nft -c`, `nginx -t`…) avant de redémarrer le service. Sur une VM, un instantané pris avant l'exercice permet de revenir en arrière.
 
-## Questions — simulateur killer.sh
+## Exercices pratiques
 
-| #   | Sujet                                                                                                   | Serveur    |
-| --- | ------------------------------------------------------------------------------------------------------- | ---------- |
-| 1   | [Kernel and System Info](q01-kernel-and-system-info.md)                                                 | `terminal` |
-| 2   | [CronJobs](q02-cronjobs.md)                                                                             | `data-001` |
-| 3   | [Time synchronisation Configuration](q03-time-synchronisation-configuration.md)                         | `terminal` |
-| 4   | [Environment Variables](q04-environment-variables.md)                                                   | `terminal` |
-| 5   | [Archives and Compression](q05-archives-and-compression.md)                                             | `data-001` |
-| 6   | [User, Groups and Sudoers](q06-user-groups-and-sudoers.md)                                              | `app-srv1` |
-| 7   | [Network Packet Filtering](q07-network-packet-filtering.md)                                             | `data-002` |
-| 8   | [Disk Management](q08-disk-management.md)                                                               | `terminal` |
-| 9   | [Find files with properties and perform actions](q09-find-files-with-properties-and-perform-actions.md) | `data-001` |
-| 10  | [SSHFS and NFS](q10-sshfs-and-nfs.md)                                                                   | `terminal` |
-| 11  | [Docker Management](q11-docker-management.md)                                                           | `terminal` |
-| 12  | [Git Workflow](q12-git-workflow.md)                                                                     | `terminal` |
-| 13  | [Runtime Security of processes](q13-runtime-security-of-processes.md)                                   | `web-srv1` |
-| 14  | [Output redirection](q14-output-redirection.md)                                                         | `app-srv1` |
-| 15  | [Build and install from source](q15-build-and-install-from-source.md)                                   | `app-srv1` |
-| 16  | [LoadBalancer](q16-loadbalancer.md)                                                                     | `web-srv1` |
-| 17  | [OpenSSH Configuration](q17-openssh-configuration.md)                                                   | `data-002` |
-| 18  | [LVM Storage](q18-lvm-storage.md)                                                                       | `terminal` |
-| 19  | [Regex, filter out log lines](q19-regex-filter-out-log-lines.md)                                        | `web-srv1` |
-| 20  | [User and Group limits](q20-user-and-group-limits.md)                                                   | `web-srv1` |
+| #   | Sujet                                                                                                   |
+| --- | ------------------------------------------------------------------------------------------------------- |
+| 1   | [Kernel and System Info](q01-kernel-and-system-info.md)                                                 |
+| 2   | [CronJobs](q02-cronjobs.md)                                                                             |
+| 3   | [Time synchronisation Configuration](q03-time-synchronisation-configuration.md)                         |
+| 4   | [Environment Variables](q04-environment-variables.md)                                                   |
+| 5   | [Archives and Compression](q05-archives-and-compression.md)                                             |
+| 6   | [User, Groups and Sudoers](q06-user-groups-and-sudoers.md)                                              |
+| 7   | [Network Packet Filtering](q07-network-packet-filtering.md)                                             |
+| 8   | [Disk Management](q08-disk-management.md)                                                               |
+| 9   | [Find files with properties and perform actions](q09-find-files-with-properties-and-perform-actions.md) |
+| 10  | [SSHFS and NFS](q10-sshfs-and-nfs.md)                                                                   |
+| 11  | [Docker Management](q11-docker-management.md)                                                           |
+| 12  | [Git Workflow](q12-git-workflow.md)                                                                     |
+| 13  | [Runtime Security of processes](q13-runtime-security-of-processes.md)                                   |
+| 14  | [Output redirection](q14-output-redirection.md)                                                         |
+| 15  | [Build and install from source](q15-build-and-install-from-source.md)                                   |
+| 16  | [LoadBalancer](q16-loadbalancer.md)                                                                     |
+| 17  | [OpenSSH Configuration](q17-openssh-configuration.md)                                                   |
+| 18  | [LVM Storage](q18-lvm-storage.md)                                                                       |
+| 19  | [Regex, filter out log lines](q19-regex-filter-out-log-lines.md)                                        |
+| 20  | [User and Group limits](q20-user-and-group-limits.md)                                                   |
 
-## Questions complémentaires — curriculum officiel LFCS
+## Autres sujets du programme LFCS
 
-Sujets du programme officiel non couverts par le simulateur. Énoncés inspirés de questions plausibles à l'examen.
+Les exercices suivants couvrent le reste du programme officiel, regroupés par domaine.
 
 ### Operation of Running Systems
 
@@ -127,14 +113,11 @@ Les notes ci-dessus utilisent majoritairement l'outillage Debian/Ubuntu (apt, ip
 
 ## Questions de révision
 
-> [!quiz] Dans le simulateur killer.sh, sur quelle machine faut-il créer les fichiers de solution demandés dans `/opt/course/*` ?
-> Toujours sur le `terminal` principal, même si la question porte sur un autre serveur.
+> [!quiz] Quelles précautions prendre avant de modifier le pare-feu ou `sshd` d'une machine distante ?
+> Garder une session ouverte et un accès console de secours, et valider la configuration (`sshd -t`, `nft -c`…) avant de redémarrer le service, pour ne pas se retrouver enfermé dehors.
 
-> [!quiz] Comment se connecte-t-on aux serveurs du simulateur, et quelle restriction s'applique ?
-> Par ssh (par exemple `ssh web-srv1`), uniquement depuis le `terminal` principal : le ssh imbriqué d'un serveur à l'autre n'est pas possible.
-
-> [!quiz] Pourquoi faut-il réfléchir avant une commande destructive sur un serveur du simulateur ?
-> Un serveur ne peut pas être redémarré individuellement : en cas de casse, la seule solution est de relancer toute la session via *Restart Session*.
+> [!quiz] Où réaliser ces exercices, et pourquoi ?
+> Sur des VM ou des conteneurs jetables, idéalement avec un instantané pris avant : plusieurs exercices modifient le réseau, les disques ou le démarrage, et une erreur doit pouvoir s'annuler sans conséquence.
 
 > [!quiz] Quels outils fonctionnent à l'identique sur les familles Debian/Ubuntu et RHEL, et sont donc à maîtriser en priorité ?
 > Les outils communs comme `systemctl`, `ip`, `mount` et `timedatectl`.

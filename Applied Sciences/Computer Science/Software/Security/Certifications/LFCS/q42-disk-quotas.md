@@ -56,12 +56,10 @@ repquota /home          # rapport complet du système de fichiers
 
 ## Énoncé
 
-Solve this question on: `data-001`
-
 1. Enable user and group quotas on the `/home` filesystem.
 2. Set user `alice` a soft limit of `500M` and a hard limit of `1G` for blocks; soft `1000` and hard `2000` files (inodes).
 3. Set the same defaults for any new user via the prototype technique.
-4. Write the current quota report for `/home` into `/opt/course/42/quota-report`.
+4. Write the current quota report for `/home` into `~/lab/42/quota-report`.
 
 ## Solution
 
@@ -144,7 +142,7 @@ A common pattern: set up a template user, then in scripts that create accounts c
 ### Step 4 — Reports
 
 ```bash
-sudo repquota -a > /opt/course/42/quota-report
+sudo repquota -a > ~/lab/42/quota-report
 sudo repquota /home               # one filesystem
 sudo repquota -ug /home           # users + groups
 quota -u alice                    # what alice is using

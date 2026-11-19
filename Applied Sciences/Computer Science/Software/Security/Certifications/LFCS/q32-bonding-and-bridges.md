@@ -46,8 +46,6 @@ Bonding et bridge combinent des interfaces réseau, mais dans des buts **opposé
 
 ## Énoncé
 
-Solve this question on: `data-002`
-
 1. Create a network bond `bond0` aggregating `eth1` and `eth2` in `active-backup` mode.
 2. Assign IP `10.0.0.5/24` to `bond0`.
 3. Create a bridge `br0` containing `eth3`, with IP `10.0.1.1/24`, so virtual machines can attach to it.

@@ -45,10 +45,8 @@ modprobe -r NAME      # décharger (si non utilisé)
 
 ## Énoncé
 
-Résolvez cette question sur : `terminal`
-
-1. Listez tous les modules du noyau actuellement chargés et écrivez leur nombre dans `/opt/course/43/count`.
-2. Affichez les informations détaillées sur le module `vfat` et écrivez sa ligne `description` dans `/opt/course/43/vfat-desc`.
+1. Listez tous les modules du noyau actuellement chargés et écrivez leur nombre dans `~/lab/43/count`.
+2. Affichez les informations détaillées sur le module `vfat` et écrivez sa ligne `description` dans `~/lab/43/vfat-desc`.
 3. Chargez le module `dummy` maintenant, puis déchargez-le.
 4. Assurez-vous que le module `dummy` est **chargé automatiquement au démarrage**.
 5. **Blacklistez** le module `pcspkr` afin qu'il ne soit jamais chargé automatiquement.
@@ -63,7 +61,7 @@ Les modules du noyau sont des morceaux de code (pilotes, systèmes de fichiers, 
 lsmod                               # name, size, used-by count, dependents
 lsmod | wc -l                       # includes the header line
 # count without the header:
-echo $(($(lsmod | wc -l) - 1)) > /opt/course/43/count
+echo $(($(lsmod | wc -l) - 1)) > ~/lab/43/count
 ```
 
 `lsmod` n'est qu'une vue formatée de `/proc/modules`.
@@ -76,7 +74,7 @@ modinfo -F description vfat         # only the description field
 modinfo -n vfat                     # path to the .ko file
 modinfo -F depends vfat             # dependencies
 
-modinfo -F description vfat > /opt/course/43/vfat-desc
+modinfo -F description vfat > ~/lab/43/vfat-desc
 ```
 
 `modinfo` fonctionne avec un nom de module **ou** un chemin de fichier `.ko`, même si le module n'est pas chargé.

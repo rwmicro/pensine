@@ -50,12 +50,10 @@ Puis monter le `/dev/md0` via `/etc/fstab` (formaté en xfs/ext4).
 
 ## Énoncé
 
-Solve this question on: `terminal`
-
 1. Build a RAID-1 array `/dev/md0` from `/dev/vdd` and `/dev/vde`.
 2. Format it with `xfs` and mount it persistently at `/mnt/raid1`.
 3. Simulate a failure of `/dev/vdd`, then replace it with `/dev/vdf`.
-4. Write the contents of `/proc/mdstat` into `/opt/course/41/mdstat`.
+4. Write the contents of `/proc/mdstat` into `~/lab/41/mdstat`.
 
 ## Solution
 
@@ -145,7 +143,7 @@ sudo mdadm --detail --scan | sudo tee -a /etc/mdadm/mdadm.conf
 ### Step 4 — Snapshot of state
 
 ```bash
-cat /proc/mdstat > /opt/course/41/mdstat
+cat /proc/mdstat > ~/lab/41/mdstat
 ```
 
 ### Spare disks and hot spares

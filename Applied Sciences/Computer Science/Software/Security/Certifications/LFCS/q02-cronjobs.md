@@ -47,23 +47,17 @@ C'est toute la subtilité de cet exercice : déplacer un job de `/etc/crontab` v
 
 ## Énoncé
 
-Solve this question on: `data-001`
+Sur un serveur `data01`, l'utilisateur `asset-manager` gère des traitements planifiés.
 
-On server `data-001`, user `asset-manager` is responsible for timed operations on existing data. Some changes and additions are necessary.
-
-Currently there is one system-wide cronjob configured that runs every day at 8:30pm. Convert it from being a system-wide cronjob to one owned and executed by user `asset-manager`. This means that user should see it when running `crontab -l`.
-
-Create a new cronjob owned and executed by user `asset-manager` that runs `bash /home/asset-manager/clean.sh` every week on Monday and Thursday at 11:15am.
-
-> You can connect to servers using ssh, for example `ssh data-001`
+1. Une tâche cron système (dans `/etc/crontab`) lance `bash /home/asset-manager/generate.sh` tous les jours à 20h30. Transformez-la en tâche de la crontab personnelle de `asset-manager`, pour qu'elle apparaisse dans `crontab -l` de cet utilisateur et ne soit plus dans la crontab système.
+2. Ajoutez à la crontab de `asset-manager` une tâche qui exécute `bash /home/asset-manager/clean.sh` chaque lundi et chaque jeudi à 11h15.
 
 ## Solution
 
 ### Step 1
 Here we should move a cronjob from system-wide to user `asset-manager`. First we check out that cronjob:
 ```bash
-ssh data-001
-root@data-001:~$ vim /etc/crontab
+root@server:~$ vim /etc/crontab
 # /etc/crontab: system-wide crontab
 # Unlike any other crontab you don't have to run the `crontab'
 # command to install the new version when you edit this file
@@ -88,13 +82,13 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 
 We go ahead and cut this line from that file, or copy it and remove it later! Next we're going to add it to the users cronjobs:
 ```bash
-root@data-001:~$ su asset-manager
-asset-manager@data-001:/root$ cd
-asset-manager@data-001:~$ pwd
+root@server:~$ su asset-manager
+asset-manager@server:/root$ cd
+asset-manager@server:~$ pwd
 /home/asset-manager
-asset-manager@data-001:~$ crontab -l # list cronjobs
+asset-manager@server:~$ crontab -l # list cronjobs
 no crontab for asset-manager
-asset-manager@data-001:~$ crontab -e # edit cronjobs
+asset-manager@server:~$ crontab -e # edit cronjobs
 # Edit this file to introduce tasks to be run by cron.
 #
 # Each task to run has to be defined through a single line
@@ -126,7 +120,7 @@ The system-wide cronjobs in `/etc/crontab` always specify the user that execut
 
 After saving the file we should be able to:
 ```bash
-asset-manager@data-001:~$ crontab -l
+asset-manager@server:~$ crontab -l
 # Edit this file to introduce tasks to be run by cron.
 #
 # Each task to run has to be defined through a single line
@@ -158,7 +152,7 @@ Now we see that migrated cronjob!
 ### Step 2
 For the next step we should add a new cronjob. We can just copy and then change the existing one to our needs:
 ```bash
-asset-manager@data-001:~$ crontab -e
+asset-manager@server:~$ crontab -e
 # Edit this file to introduce tasks to be run by cron.
 #
 # Each task to run has to be defined through a single line
@@ -188,7 +182,7 @@ asset-manager@data-001:~$ crontab -e
 
 Save and check:
 ```bash
-asset-manager@data-001:~$ crontab -l
+asset-manager@server:~$ crontab -l
 ...
 30 20 * * * bash /home/asset-manager/generate.sh
 15 11 * * 1,4 bash /home/asset-manager/clean.sh

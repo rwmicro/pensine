@@ -55,12 +55,10 @@ Réflexe : toujours `SIGTERM` d'abord (laisse le processus se fermer proprement)
 
 ## Énoncé
 
-Solve this question on: `app-srv1`
-
-1. Find the PID of the process listening on TCP port `8080` and write it into `/opt/course/23/pid`.
+1. Find the PID of the process listening on TCP port `8080` and write it into `~/lab/23/pid`.
 2. Renice the process `stress-ng` to priority `10` without killing it.
 3. Send `SIGTERM` to all `sleep` processes owned by user `bob`.
-4. Identify the top 3 memory-consuming processes and write their command names into `/opt/course/23/top-mem`.
+4. Identify the top 3 memory-consuming processes and write their command names into `~/lab/23/top-mem`.
 
 ## Solution
 
@@ -76,7 +74,7 @@ sudo fuser 8080/tcp
 
 Pull just the PID:
 ```bash
-sudo ss -tlnpH 'sport = :8080' | grep -oP 'pid=\K[0-9]+' > /opt/course/23/pid
+sudo ss -tlnpH 'sport = :8080' | grep -oP 'pid=\K[0-9]+' > ~/lab/23/pid
 ```
 
 ### Step 2 — Change priority
@@ -117,7 +115,7 @@ Signals worth knowing:
 
 ```bash
 ps -eo pid,comm,%mem --sort=-%mem | head -n 4
-ps -eo pid,comm,%mem --sort=-%mem | awk 'NR>1 && NR<=4 {print $2}' > /opt/course/23/top-mem
+ps -eo pid,comm,%mem --sort=-%mem | awk 'NR>1 && NR<=4 {print $2}' > ~/lab/23/top-mem
 ```
 
 ### Live monitoring

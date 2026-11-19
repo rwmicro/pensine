@@ -47,12 +47,10 @@ C'est exactement le tri de l'exercice : `vm.swappiness` « pour cette session »
 
 ## Énoncé
 
-Solve this question on: `terminal`
-
 1. Enable IPv4 packet forwarding **persistently**.
 2. Disable IPv6 on all interfaces persistently.
 3. Set `vm.swappiness` to `10` for the current session only.
-4. Write the value of `kernel.hostname` into `/opt/course/25/hostname`.
+4. Write the value of `kernel.hostname` into `~/lab/25/hostname`.
 
 ## Solution
 
@@ -103,7 +101,7 @@ Non-persistent changes are lost at reboot.
 ### Step 4 — Write a single value
 
 ```bash
-sysctl -n kernel.hostname > /opt/course/25/hostname
+sysctl -n kernel.hostname > ~/lab/25/hostname
 ```
 
 ### Order of evaluation

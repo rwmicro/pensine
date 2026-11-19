@@ -16,8 +16,8 @@ Apache (`httpd`) sert des sites web. L'exercice empile quatre briques classiques
 > [!tip] Modèle mental : le virtual host, plusieurs sites sur une IP
 > Un *vhost* permet à un même serveur de répondre différemment selon le nom de domaine demandé (`Host:` HTTP). C'est ainsi qu'une seule machine héberge plusieurs sites.
 > ```
-> requête "site1.lfcs.lan"  ──► Apache lit l'en-tête Host ──► vhost site1 ──► /var/www/site1
-> requête "site2.lfcs.lan"  ──►                            ──► vhost site2 ──► /var/www/site2
+> requête "site1.example.lan"  ──► Apache lit l'en-tête Host ──► vhost site1 ──► /var/www/site1
+> requête "site2.example.lan"  ──►                            ──► vhost site2 ──► /var/www/site2
 > ```
 
 **Organisation des fichiers (Debian)** — le modèle « available/enabled » :
@@ -50,9 +50,7 @@ systemctl reload apache2  # appliquer sans couper les connexions
 
 ## Énoncé
 
-Solve this question on: `web-srv1`
-
-1. Install Apache and serve a virtual host `site1.lfcs.lan` from `/var/www/site1` on port 80.
+1. Install Apache and serve a virtual host `site1.example.lan` from `/var/www/site1` on port 80.
 2. Protect the URL `/admin` with HTTP Basic auth, user `admin` password `secret`.
 3. Enable HTTPS on the same vhost using a self-signed certificate.
 4. Restrict access to `/private` to clients in `192.168.50.0/24`.
@@ -85,7 +83,7 @@ Key paths:
 Create `/etc/apache2/sites-available/site1.conf`:
 ```
 <VirtualHost *:80>
-    ServerName site1.lfcs.lan
+    ServerName site1.example.lan
     DocumentRoot /var/www/site1
 
     <Directory /var/www/site1>
@@ -136,7 +134,7 @@ Generate a self-signed cert:
 sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
      -keyout /etc/ssl/private/site1.key \
      -out    /etc/ssl/certs/site1.crt \
-     -subj "/CN=site1.lfcs.lan"
+     -subj "/CN=site1.example.lan"
 sudo chmod 600 /etc/ssl/private/site1.key
 ```
 
@@ -148,7 +146,7 @@ sudo a2enmod ssl
 Add a second vhost:
 ```
 <VirtualHost *:443>
-    ServerName site1.lfcs.lan
+    ServerName site1.example.lan
     DocumentRoot /var/www/site1
 
     SSLEngine on
@@ -160,7 +158,7 @@ Add a second vhost:
 Reload + test:
 ```bash
 sudo systemctl reload apache2
-curl -k https://site1.lfcs.lan/
+curl -k https://site1.example.lan/
 ```
 
 ### Step 4 — IP-based restriction
@@ -189,7 +187,7 @@ Combine with auth (need **both**):
 ```nginx
 server {
     listen 80;
-    server_name site1.lfcs.lan;
+    server_name site1.example.lan;
     root /var/www/site1;
 
     location /admin {
@@ -211,7 +209,7 @@ sudo apache2ctl -S                      # list vhosts + binding
 sudo apache2ctl -M                      # loaded modules
 sudo apache2ctl configtest
 ss -tlnp | grep -E ':80|:443'
-curl -I http://site1.lfcs.lan/
+curl -I http://site1.example.lan/
 journalctl -u apache2 -n 50
 tail -f /var/log/apache2/site1-error.log
 ```

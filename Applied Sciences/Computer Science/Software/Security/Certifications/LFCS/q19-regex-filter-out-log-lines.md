@@ -61,11 +61,9 @@ sed -i 's/.../.../g' server.log                                             # -i
 
 ## Énoncé
 
-Solve this question on: `web-srv1`
-
-On server `web-srv1` there are two log files that need to be worked with:
-1. File `/var/log-collector/003/nginx.log`: extract all log lines where URLs start with `/app/user` and that were accessed by browser identity `hacker-bot/1.2`. Write only those lines into `/var/log-collector/003/nginx.log.extracted`
-2. File `/var/log-collector/003/server.log`: replace all lines starting with `container.web`, ending with `24h` and that have the word `Running` anywhere in-between with: `SENSITIVE LINE REMOVED`
+Deux fichiers de logs sont à traiter :
+1. Dans `/var/log-collector/003/nginx.log`, extrayez les lignes dont l'URL commence par `/app/user` et dont l'agent utilisateur est `hacker-bot/1.2`, et écrivez uniquement ces lignes dans `/var/log-collector/003/nginx.log.extracted`.
+2. Dans `/var/log-collector/003/server.log`, remplacez par `SENSITIVE LINE REMOVED` chaque ligne qui commence par `container.web`, se termine par `24h` et contient le mot `Running`.
 
 ```widget:regex
 pattern: ^(\S+) \S+ \S+ \[([^\]]+)\] "(\w+) ([^"]*)" (\d{3})
@@ -77,9 +75,8 @@ flags: gm
 
 First we find the files in the specified location
 ```bash
-ssh web-srv1
-root@web-srv1:~$ cd /var/log-collector/003
-root@web-srv1:/var/log-collector/003$ ls -lha
+root@server:~$ cd /var/log-collector/003
+root@server:/var/log-collector/003$ ls -lha
 total 23K
 drwxr-xr-x 2 root root    4 Jul 19 09:43 .
 drwxr-xr-x 8 root root    8 Jul 19 09:43 ..
@@ -90,7 +87,7 @@ drwxr-xr-x 8 root root    8 Jul 19 09:43 ..
 ### Step 1
 To extract all log lines as required we could try some simple `grep` like:
 ```bash
-root@web-srv1:/var/log-collector/003$ cat nginx.log | grep "/app/user" | grep "hacker-bot/1.2"
+root@server:/var/log-collector/003$ cat nginx.log | grep "/app/user" | grep "hacker-bot/1.2"
 ```
 
 But this would also catch lines like these which are not asked for:
@@ -103,18 +100,18 @@ The lines above shouldn't match because the url is `hacker-bot/1.2` and **NOT
 
 So we better use a simple regex
 ```bash
-root@web-srv1:/var/log-collector/003$ cat nginx.log | grep -E "/app/user.*hacker-bot/1.2"
+root@server:/var/log-collector/003$ cat nginx.log | grep -E "/app/user.*hacker-bot/1.2"
 ```
 
 It should be 27 lines:
 ```bash
-root@web-srv1:/var/log-collector/003$ cat nginx.log | grep -E "/app/user.*hacker-bot/1.2" | wc -l
+root@server:/var/log-collector/003$ cat nginx.log | grep -E "/app/user.*hacker-bot/1.2" | wc -l
 27
 ```
 
 So we write it to the required location:
 ```bash
-root@web-srv1:/var/log-collector/003$ cat nginx.log | grep -E "/app/user.*hacker-bot/1.2" > nginx.log.extracted
+root@server:/var/log-collector/003$ cat nginx.log | grep -E "/app/user.*hacker-bot/1.2" > nginx.log.extracted
 ```
 
 ### Step 2
@@ -128,31 +125,31 @@ In regex this could be:
 
 Let's give this a go:
 ```bash
-root@web-srv1:/var/log-collector/003$ cat server.log | grep -E "^container.web.*Running.*24h$"
+root@server:/var/log-collector/003$ cat server.log | grep -E "^container.web.*Running.*24h$"
 ```
 
 It should be 44 lines:
 ```bash
-root@web-srv1:/var/log-collector/003$ cat server.log | grep -E "^container.web.*Running.*24h$"  | wc -l
+root@server:/var/log-collector/003$ cat server.log | grep -E "^container.web.*Running.*24h$"  | wc -l
 44
 ```
 
 To replace these we can use `sed` using the same regex
 ```bash
-root@web-srv1:/var/log-collector/003$ sed 's/^container.web.*Running.*24h$/SENSITIVE LINE REMOVED/g' server.log
+root@server:/var/log-collector/003$ sed 's/^container.web.*Running.*24h$/SENSITIVE LINE REMOVED/g' server.log
 ```
 
 This will simply output everything to stdout for us to verify. We can even further check by counting the lines:
 ```bash
-root@web-srv1:/var/log-collector/003$ sed 's/^container.web.*Running.*24h$/SENSITIVE LINE REMOVED/g' server.log | grep "SENSITIVE LINE REMOVED" | wc -l
+root@server:/var/log-collector/003$ sed 's/^container.web.*Running.*24h$/SENSITIVE LINE REMOVED/g' server.log | grep "SENSITIVE LINE REMOVED" | wc -l
 44
 ```
 
 Looks fine, 44 lines again. Now we can use `sed` to replace the actual file. Still, always make a backup!
 ```bash
-root@web-srv1:/var/log-collector/003$ cp server.log server.log.bak # backups ftw
-root@web-srv1:/var/log-collector/003$ sed -i 's/^container.web.*Running.*24h$/SENSITIVE LINE REMOVED/g' server.log
-root@web-srv1:/var/log-collector/003$ cat /var/log-collector/003/server.log | grep 'SENSITIVE LINE REMOVED' | wc -l
+root@server:/var/log-collector/003$ cp server.log server.log.bak # backups ftw
+root@server:/var/log-collector/003$ sed -i 's/^container.web.*Running.*24h$/SENSITIVE LINE REMOVED/g' server.log
+root@server:/var/log-collector/003$ cat /var/log-collector/003/server.log | grep 'SENSITIVE LINE REMOVED' | wc -l
 44
 ```
 

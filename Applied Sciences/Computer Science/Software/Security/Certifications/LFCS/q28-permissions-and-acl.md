@@ -57,12 +57,10 @@ Un `+` à la fin du mode dans `ls -l` (`-rw-rw----+`) signale la présence d'ACL
 
 ## Énoncé
 
-Solve this question on: `data-001`
-
 1. On directory `/srv/shared`, set group ownership to `dev` and ensure new files inherit that group.
 2. Make `/srv/shared` writable by `dev`, with files unreadable by `others`.
 3. Grant user `alice` read+write access to `/srv/shared/report.txt` via ACL.
-4. Find all files with the SUID bit set under `/usr/bin` and write them into `/opt/course/28/suid`.
+4. Find all files with the SUID bit set under `/usr/bin` and write them into `~/lab/28/suid`.
 
 ## Solution
 
@@ -135,7 +133,7 @@ sudo setfacl -m m:rx /srv/shared/report.txt
 ### Step 4 — Find files by permission bits
 
 ```bash
-sudo find /usr/bin -perm -4000 -type f > /opt/course/28/suid
+sudo find /usr/bin -perm -4000 -type f > ~/lab/28/suid
 sudo find / -perm -2000 -type f         # SGID
 sudo find /tmp -perm -1000 -type d      # sticky directories
 sudo find / -perm 777 -type f           # world rwx (exact)

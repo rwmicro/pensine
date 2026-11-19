@@ -51,12 +51,10 @@ tail -f /var/log/mail.log   # suivre l'acheminement
 
 ## Énoncé
 
-Solve this question on: `app-srv1`
-
 1. Install Postfix as a **local-only** MTA listening on `127.0.0.1`.
 2. Redirect mail addressed to `root` and `webmaster` to the local user `alice`.
 3. Create a mailing-list alias `devs` that forwards to `alice`, `bob`, and an external `team@example.com`.
-4. Send a test mail to `root` and verify it arrives in alice's mailbox; write the output of `mailq` into `/opt/course/37/queue`.
+4. Send a test mail to `root` and verify it arrives in alice's mailbox; write the output of `mailq` into `~/lab/37/queue`.
 
 ## Solution
 
@@ -80,8 +78,8 @@ Main config: `/etc/postfix/main.cf`. Service map: `/etc/postfix/master.cf`.
 
 In `/etc/postfix/main.cf`:
 ```
-myhostname    = app-srv1.lfcs.lan
-mydomain      = lfcs.lan
+myhostname    = app01.example.lan
+mydomain      = example.lan
 myorigin      = $mydomain
 inet_interfaces = loopback-only
 inet_protocols  = ipv4
@@ -119,7 +117,7 @@ sudo postalias /etc/aliases
 
 ```bash
 echo "test body" | mail -s "test subject" root
-mailq > /opt/course/37/queue                  # mail queue
+mailq > ~/lab/37/queue                  # mail queue
 sudo postqueue -p                              # equivalent
 sudo postqueue -f                              # flush queue (retry now)
 sudo postsuper -d ALL                          # delete all queued msgs

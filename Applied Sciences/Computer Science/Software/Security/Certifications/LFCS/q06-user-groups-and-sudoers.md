@@ -64,25 +64,22 @@ user2  ALL=(root) NOPASSWD: /bin/bash /root/dangerous.sh
 
 ## Énoncé
 
-Solve this question on: `app-srv1`
-
-On server `app-srv1`:
-1. Change the primary group of user `user1` to `dev` and the home directory to `/home/accounts/user1`
-2. Add a new user `user2` with groups `dev` and `op`, home directory `/home/accounts/user2`, terminal `/bin/bash`
-3. User `user2` should be able to execute `sudo bash /root/dangerous.sh` without having to enter the root password
+Sur un serveur `app01` :
+1. donnez à l'utilisateur existant `user1` le groupe principal `dev` et le répertoire personnel `/home/accounts/user1` ;
+2. créez l'utilisateur `user2`, membre des groupes `dev` et `op`, avec le répertoire personnel `/home/accounts/user2` et le shell `/bin/bash` ;
+3. autorisez `user2` à lancer `sudo bash /root/dangerous.sh` sans saisir de mot de passe.
 
 ## Solution
 
 ### Step 1
 We can use different approaches. We could:
 ```bash
-ssh app-srv1
-root@app-srv1:~$ usermod -d /home/accounts/user1 user1
+root@server:~$ usermod -d /home/accounts/user1 user1
 ```
 
 Or we could edit `/etc/passwd` manually:
 ```bash
-root@app-srv1:~$ vim /etc/passwd
+root@server:~$ vim /etc/passwd
 root:x:0:0:root:/root:/bin/bash
 ...
 lxd:x:999:100::/var/snap/lxd/common/lxd:/bin/false
@@ -92,23 +89,23 @@ user1:x:1001:1001::/home/accounts/user1:/bin/bash # change path
 
 No matter what solution, this should be correct:
 ```bash
-root@app-srv1:~$ su user1
-user1@app-srv1:/root$ cd
-user1@app-srv1:~$ pwd
+root@server:~$ su user1
+user1@server:/root$ cd
+user1@server:~$ pwd
 /home/accounts/user1
 ```
 
 And to change the primary group:
 ```bash
-root@app-srv1:~$ usermod -g dev user1
-root@app-srv1:~$ groups user1
+root@server:~$ usermod -g dev user1
+root@server:~$ groups user1
 user1 : dev
 ```
 
 ### Step 2
 First we can check available options:
 ```bash
-root@app-srv1:~$ useradd -h
+root@server:~$ useradd -h
 Usage: useradd [options] LOGIN
        useradd -D
        useradd -D [options]
@@ -150,12 +147,12 @@ Options:
 
 Using the correct arguments we create the required new user:
 ```bash
-root@app-srv1:~$ useradd -s /bin/bash -m -d /home/accounts/user2 -G dev,op user2
+root@server:~$ useradd -s /bin/bash -m -d /home/accounts/user2 -G dev,op user2
 ```
 
 To verify that it was added to the required groups:
 ```bash
-root@app-srv1:~$ cat /etc/group | grep user2
+root@server:~$ cat /etc/group | grep user2
 op:x:1003:user2
 dev:x:1004:user2
 user2:x:1005:
@@ -164,15 +161,15 @@ user2:x:1005:
 ### Step 3
 Now it's getting interesting. We can try to execute the script with current configuration:
 ```bash
-root@app-srv1:~$ su user2
-user2@app-srv1:/root$ cd
-user2@app-srv1:~$ bash /root/dangerous.sh
+root@server:~$ su user2
+user2@server:/root$ cd
+user2@server:~$ bash /root/dangerous.sh
 bash: /root/dangerous.sh: Permission denied # DENIED
 ```
 
 We need to configure sudoers to allow this specific script call. We should always edit the `/etc/sudoers` file using the command `visudo`, because it performs proper syntax validation before saving the file. Any misconfiguration of that file could lock us out of the system for good. So we do as root:
 ```bash
-root@app-srv1:~$ visudo
+root@server:~$ visudo
 ...
 # User privilege specification
 root    ALL=(ALL:ALL) ALL
@@ -189,7 +186,7 @@ You can exit via `Ctrl + X`, then `Y` and then `Enter` to save.
 
 And to verify:
 ```bash
-user2@app-srv1:~$ sudo bash /root/dangerous.sh
+user2@server:~$ sudo bash /root/dangerous.sh
 Sun Jun 11 17:54:20 UTC 2023
 dangerous
 ```

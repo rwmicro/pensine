@@ -50,11 +50,9 @@ Les deux questions « qui possède ce fichier » et « quels fichiers ce paquet 
 
 ## Énoncé
 
-Solve this question on: `app-srv1`
-
-1. Install the package `tree` and write its version into `/opt/course/26/tree-version`.
-2. Find which package owns the file `/usr/bin/vim` and write it into `/opt/course/26/owner`.
-3. List all files installed by the `nginx` package into `/opt/course/26/nginx-files`.
+1. Install the package `tree` and write its version into `~/lab/26/tree-version`.
+2. Find which package owns the file `/usr/bin/vim` and write it into `~/lab/26/owner`.
+3. List all files installed by the `nginx` package into `~/lab/26/nginx-files`.
 4. Put a hold on the `openssh-server` package so it is not upgraded by `apt`.
 
 ## Solution
@@ -80,8 +78,8 @@ Lower-level `dpkg`:
 dpkg -l                                        # all installed
 dpkg -l tree                                   # status of one package
 dpkg -s tree                                   # detailed status
-dpkg -L nginx > /opt/course/26/nginx-files     # files installed by pkg
-dpkg -S /usr/bin/vim > /opt/course/26/owner    # which pkg owns a file
+dpkg -L nginx > ~/lab/26/nginx-files     # files installed by pkg
+dpkg -S /usr/bin/vim > ~/lab/26/owner    # which pkg owns a file
 sudo dpkg -i package.deb                       # install local .deb
 sudo dpkg --configure -a                       # finish broken installs
 ```
@@ -132,9 +130,9 @@ sudo dnf versionlock delete openssh-server
 
 ```bash
 sudo apt install -y tree
-dpkg -s tree | awk '/^Version:/ {print $2}' > /opt/course/26/tree-version
+dpkg -s tree | awk '/^Version:/ {print $2}' > ~/lab/26/tree-version
 # RHEL:
-rpm -q --qf '%{VERSION}-%{RELEASE}\n' tree > /opt/course/26/tree-version
+rpm -q --qf '%{VERSION}-%{RELEASE}\n' tree > ~/lab/26/tree-version
 ```
 
 ### Repositories

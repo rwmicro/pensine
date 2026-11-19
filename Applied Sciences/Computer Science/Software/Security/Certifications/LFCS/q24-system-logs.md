@@ -55,11 +55,9 @@ Ces filtres se combinent (`-k -p err --since ...`).
 
 ## Énoncé
 
-Solve this question on: `web-srv1`
-
-1. Write all `nginx.service` log entries from the last boot into `/opt/course/24/nginx.log`.
+1. Write all `nginx.service` log entries from the last boot into `~/lab/24/nginx.log`.
 2. Configure `systemd-journald` to store logs **persistently** across reboots.
-3. List all kernel error messages since `2024-01-01` into `/opt/course/24/kernel-errors.log`.
+3. List all kernel error messages since `2024-01-01` into `~/lab/24/kernel-errors.log`.
 4. Limit the journal disk usage to a maximum of `200M`.
 
 ## Solution
@@ -67,7 +65,7 @@ Solve this question on: `web-srv1`
 ### Step 1 — Service logs from current boot
 
 ```bash
-journalctl -u nginx.service -b 0 > /opt/course/24/nginx.log
+journalctl -u nginx.service -b 0 > ~/lab/24/nginx.log
 ```
 
 `journalctl` cheat sheet:
@@ -109,7 +107,7 @@ Then `sudo systemctl restart systemd-journald`.
 ### Step 3 — Kernel errors since a date
 
 ```bash
-journalctl -k -p err --since "2024-01-01" > /opt/course/24/kernel-errors.log
+journalctl -k -p err --since "2024-01-01" > ~/lab/24/kernel-errors.log
 ```
 
 ### Step 4 — Disk usage cap

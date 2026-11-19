@@ -67,36 +67,35 @@ systemctl reload nginx   # recharger sans coupure
 
 ## Énoncé
 
-Résolvez cette question sur : `web-srv1`
+Le serveur `web01` (`192.168.10.60`) sert deux applications avec Nginx, sur les ports `1111` et `2222`. Leur configuration ne doit pas être modifiée.
 
-Le serveur `web-srv1` héberge deux applications, l'une accessible sur le port `1111` et l'autre sur `2222`. Elles sont servies par Nginx et il n'est **pas** permis de modifier leur configuration. L'IP de `web-srv1` est `192.168.10.60`.
+Ajoutez sur ce serveur un répartiteur de charge HTTP qui :
+- écoute sur le port `8001` et envoie tout le trafic vers `192.168.10.60:2222/special` ;
+- écoute sur le port `8000` et répartit le trafic entre `192.168.10.60:1111` et `192.168.10.60:2222` (round robin ou aléatoire).
 
-Créez un nouveau répartiteur de charge HTTP sur ce serveur qui :
-- écoute sur le port `8001` et redirige tout le trafic vers `192.168.10.60:2222/special`
-- écoute sur le port `8000` et répartit le trafic entre `192.168.10.60:1111` et `192.168.10.60:2222` de façon aléatoire (Random) ou en Round Robin
-Nginx est déjà préinstallé et il est recommandé de l'utiliser pour l'implémentation. Il reste toutefois possible d'utiliser d'autres technologies (comme Apache ou HAProxy), car seul le résultat final sera vérifié.
+Nginx est le choix le plus direct ici, mais HAProxy ou Apache conviennent aussi.
 
 ## Solution
 
 Nous vérifions d'abord que tout fonctionne comme annoncé :
 ```bash
-curl web-srv1:1111
+curl web01:1111
 app1
-curl web-srv1:2222
+curl web01:2222
 app2
-curl web-srv1:2222/special
+curl web01:2222/special
 app2 special
 ```
 
 Parfait, nous pouvons travailler là-dessus ! Nous allons maintenant créer un répartiteur de charge Nginx, mais il serait également possible d'utiliser une autre technologie si vous la maîtrisez mieux.
 ```bash
-candidate@terminal:~$ ssh web-srv1
-root@web-srv1:~$ cd /etc/nginx/sites-available
-root@web-srv1:/etc/nginx/sites-available$ ls -lh
+student@client:~$ ssh web01
+root@web01:~$ cd /etc/nginx/sites-available
+root@web01:/etc/nginx/sites-available$ ls -lh
 total 2.0K
 -rw-r--r-- 1 root root 329 Jun 14 17:17 app1
 -rw-r--r-- 1 root root 413 Jun 14 17:17 app2
-root@web-srv1:/etc/nginx/sites-available$ cat app1
+root@web01:/etc/nginx/sites-available$ cat app1
 server {
         listen 1111 default_server;
         listen [::]:1111 default_server;
@@ -109,8 +108,8 @@ server {
 
 Nous y voyons les deux applications existantes `app1` et `app2`, que nous n'avons pas le droit de modifier. Mais nous pouvons bien sûr en utiliser une comme modèle pour notre nouveau répartiteur de charge :
 ```bash
-root@web-srv1:/etc/nginx/sites-available$ cp app1 lb
-root@web-srv1:/etc/nginx/sites-available$ vim lb
+root@web01:/etc/nginx/sites-available$ cp app1 lb
+root@web01:/etc/nginx/sites-available$ vim lb
 server {
         listen 8001 default_server;                           # change port
         listen [::]:8001 default_server;                      # change port
@@ -123,16 +122,16 @@ server {
 
 Nous commençons doucement avec le cas le plus simple sur le port `8001`, où nous utilisons simplement une option `proxy_pass`. Enregistrez le fichier puis :
 ```bash
-root@web-srv1:/etc/nginx/sites-available$ cd ../sites-enabled
-root@web-srv1:/etc/nginx/sites-enabled$ ln -s ../sites-available/lb . # this is the nginx way for enabling
-root@web-srv1:/etc/nginx/sites-enabled$ service nginx restart
-root@web-srv1:/etc/nginx/sites-enabled$ curl localhost:8001           # our LB is reachable on port 8001
+root@web01:/etc/nginx/sites-available$ cd ../sites-enabled
+root@web01:/etc/nginx/sites-enabled$ ln -s ../sites-available/lb . # this is the nginx way for enabling
+root@web01:/etc/nginx/sites-enabled$ service nginx restart
+root@web01:/etc/nginx/sites-enabled$ curl localhost:8001           # our LB is reachable on port 8001
 app2 special
 ```
 
 Ça fonctionne ! Nous copions maintenant la première partie, y ajoutons quelques éléments et l'utilisons comme seconde partie :
 ```bash
-root@web-srv1:/etc/nginx/sites-enabled$ vim lb
+root@web01:/etc/nginx/sites-enabled$ vim lb
 ### FIRST PART
 server {
         listen 8001 default_server;
@@ -160,25 +159,25 @@ server {
 
 La seconde partie est globalement identique à la précédente. Il est possible de créer plusieurs serveurs qui écoutent sur des ports différents dans un même fichier. Ici, nous avons simplement créé un `upstream backend` contenant les URL fournies et nous l'utilisons dans la directive `proxy_pass`. Plutôt pratique, non ! Mais est-ce que cela fonctionne ?
 ```bash
-root@web-srv1:/etc/nginx/sites-enabled$ service nginx restart
-root@web-srv1:/etc/nginx/sites-enabled$ exit
-curl web-srv1:8000
+root@web01:/etc/nginx/sites-enabled$ service nginx restart
+root@web01:/etc/nginx/sites-enabled$ exit
+curl web01:8000
 app1
-curl web-srv1:8000
+curl web01:8000
 app2
-curl web-srv1:8000
+curl web01:8000
 app1
-curl web-srv1:8000
+curl web01:8000
 app2
-curl web-srv1:8000
+curl web01:8000
 app1
-curl web-srv1:8001
+curl web01:8001
 app2 special
-curl web-srv1:8001
+curl web01:8001
 app2 special
-curl web-srv1:8001/anything/even/not/special
+curl web01:8001/anything/even/not/special
 app2 special
 ```
 
-Ci-dessus, nous voyons que les requêtes vers `web-srv1:8000` sont envoyées à la fois à `app1` et à `app2`. Et les requêtes sur `web-srv1:8001` ne sont envoyées qu'à `app2` et au chemin `/special`.
+Ci-dessus, nous voyons que les requêtes vers `web01:8000` sont envoyées à la fois à `app1` et à `app2`. Et les requêtes sur `web01:8001` ne sont envoyées qu'à `app2` et au chemin `/special`.
 

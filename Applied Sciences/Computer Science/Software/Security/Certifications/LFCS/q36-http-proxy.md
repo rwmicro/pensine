@@ -47,8 +47,6 @@ http_access deny all                        # tout le reste refusé
 
 ## Énoncé
 
-Solve this question on: `web-srv1`
-
 1. Install Squid as a forward HTTP proxy listening on port `3128`.
 2. Allow only the subnet `192.168.50.0/24` to use the proxy.
 3. Block any access to domain `*.example.com`.
@@ -151,7 +149,7 @@ Quick Nginx reverse proxy:
 ```nginx
 server {
     listen 80;
-    server_name app.lfcs.lan;
+    server_name app.example.lan;
 
     location / {
         proxy_pass http://10.0.0.50:8080;
