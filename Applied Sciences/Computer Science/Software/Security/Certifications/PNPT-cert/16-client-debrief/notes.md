@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > PNPT"
 tags: [sciences-appliquées, informatique, sécurité, debrief, communication, pnpt]
 date: "2026-05-18"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Security/Certifications/PNPT-cert/14-report-writing/notes]]"]
 ---
 
 # Client Debrief / Presentation

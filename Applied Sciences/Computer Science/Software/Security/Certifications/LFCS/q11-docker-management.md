@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Certifications > LFCS"
 tags: [lfcs, linux, certification, docker, management]
 date: "2026-08-09"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Security/Certifications/LFCS/q22-systemd-targets-and-services]]", "[[Applied Sciences/Computer Science/Software/Security/Certifications/LFCS/q26-package-management]]"]
 ---
 
 # Question 11 — Gestion de Docker

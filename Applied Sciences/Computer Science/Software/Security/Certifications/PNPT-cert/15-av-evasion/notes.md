@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > PNPT"
 tags: [sciences-appliquées, informatique, sécurité, av-evasion, edr, pnpt]
 date: "2026-05-18"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Security/Certifications/PNPT-cert/07-exploitation/notes]]", "[[Applied Sciences/Computer Science/Software/Security/Certifications/PNPT-cert/03-windows-fundamentals/notes]]"]
 ---
 
 # AV / EDR Evasion

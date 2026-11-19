@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > PNPT"
 tags: [sciences-appliquées, informatique, sécurité, privesc, windows, pnpt]
 date: "2026-05-18"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Security/Certifications/PNPT-cert/08-post-exploitation/notes]]", "[[Applied Sciences/Computer Science/Software/Security/Certifications/PNPT-cert/03-windows-fundamentals/notes]]"]
 ---
 
 # Privilege Escalation — Windows

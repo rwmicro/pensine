@@ -4,6 +4,8 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Certifications > LFCS"
 tags: [lfcs, linux, certification, kernel, system, info]
 date: "2026-08-09"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Security/Certifications/LFCS/notes]]"]
+niveau: "Exploitation du système"
 ---
 
 # Question 1 — Kernel and System Info

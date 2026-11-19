@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Certifications > LFCS"
 tags: [lfcs, linux, certification, disk, quotas]
 date: "2026-08-09"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Security/Certifications/LFCS/q08-disk-management]]", "[[Applied Sciences/Computer Science/Software/Security/Certifications/LFCS/q06-user-groups-and-sudoers]]"]
 ---
 
 # Question 42 — Disk Quotas

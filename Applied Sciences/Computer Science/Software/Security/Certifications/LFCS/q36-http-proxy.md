@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Certifications > LFCS"
 tags: [lfcs, linux, certification, http, proxy]
 date: "2026-08-09"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Security/Certifications/LFCS/q34-apache-http-server]]"]
 ---
 
 # Question 36 — HTTP Proxy

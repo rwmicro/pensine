@@ -4,6 +4,9 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > PNPT"
 tags: [sciences-appliquées, informatique, sécurité, networking, pentest, pnpt]
 date: "2026-05-18"
+parcours: "PNPT : du réseau au rapport de pentest"
+parcours-description: "Les bases réseau, Linux et Windows, la reconnaissance, l'exploitation et l'élévation de privilèges, Active Directory, puis le pentest externe, le rapport et la restitution au client."
+niveau: "Fondamentaux"
 ---
 # Networking Fundamentals
 

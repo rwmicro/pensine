@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Certifications > LFCS"
 tags: [lfcs, linux, certification, bash, scripting]
 date: "2026-08-09"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Security/Certifications/LFCS/q04-environment-variables]]", "[[Applied Sciences/Computer Science/Software/Security/Certifications/LFCS/q14-output-redirection]]"]
 ---
 
 # Question 27 — Bash Scripting

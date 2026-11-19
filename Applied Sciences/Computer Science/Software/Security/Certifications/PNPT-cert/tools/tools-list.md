@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > PNPT"
 tags: [sciences-appliquées, informatique, sécurité, outils, pnpt]
 date: "2026-05-18"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Security/Certifications/PNPT-cert/18-exam-tips/notes]]"]
 ---
 # Outils pour la PNPT
 

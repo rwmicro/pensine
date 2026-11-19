@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > PNPT"
 tags: [sciences-appliquées, informatique, sécurité, windows, pentest, pnpt]
 date: "2026-05-18"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Security/Certifications/PNPT-cert/01-networking/notes]]"]
 ---
 
 # Windows Fundamentals

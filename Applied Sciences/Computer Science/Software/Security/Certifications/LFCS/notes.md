@@ -4,7 +4,9 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Certifications > LFCS"
 tags: [lfcs, linux, certification]
 date: "2026-08-09"
-prerequis: ["[[Bash — Scripts et Automatisation]]", "[[Démarrage et Bootloader]]", "[[Système de Fichiers]]"]
+parcours: "LFCS : administrer un serveur Linux"
+parcours-description: "Les commandes de base, l'exploitation du système (processus, services, noyau, paquets), le stockage (LVM, RAID, chiffrement), les utilisateurs et la sécurité, puis le réseau et ses services."
+niveau: "Commandes essentielles"
 ---
 
 # LFCS — Notes de préparation
