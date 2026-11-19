@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > PNPT"
 tags: [sciences-appliquées, informatique, sécurité, certification, pnpt]
 date: "2026-05-18"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Security/Certifications/PNPT-cert/16-client-debrief/notes]]", "[[Applied Sciences/Computer Science/Software/Security/Certifications/PNPT-cert/19-ad-advanced/notes]]"]
 ---
 
 # PNPT — Exam Tips & Stratégie

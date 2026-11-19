@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > PNPT"
 tags: [sciences-appliquées, informatique, sécurité, initial-access, password-spray, phishing, pnpt]
 date: "2026-05-18"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Security/Certifications/PNPT-cert/04-osint/notes]]", "[[Applied Sciences/Computer Science/Software/Security/Certifications/PNPT-cert/07-exploitation/notes]]"]
 ---
 
 # Initial Access (Pentest externe)

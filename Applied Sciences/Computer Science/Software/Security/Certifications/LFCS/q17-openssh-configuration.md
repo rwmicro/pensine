@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Certifications > LFCS"
 tags: [lfcs, linux, certification, openssh]
 date: "2026-08-09"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Security/Certifications/LFCS/q31-network-configuration]]", "[[Applied Sciences/Computer Science/Software/Security/Certifications/LFCS/q06-user-groups-and-sudoers]]"]
 ---
 
 # Question 17 — Configuration OpenSSH

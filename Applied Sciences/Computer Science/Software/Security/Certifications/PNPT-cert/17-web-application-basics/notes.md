@@ -4,6 +4,8 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > PNPT"
 tags: [sciences-appliquées, informatique, sécurité, web, owasp, pnpt]
 date: "2026-05-18"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Security/Certifications/PNPT-cert/06-scanning-enumeration/notes]]"]
+niveau: "Exploitation"
 ---
 
 # Web Application Security Basics

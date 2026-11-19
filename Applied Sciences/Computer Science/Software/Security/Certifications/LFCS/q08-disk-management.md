@@ -4,6 +4,8 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Certifications > LFCS"
 tags: [lfcs, linux, certification, disk, management]
 date: "2026-08-09"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Security/Certifications/LFCS/q01-kernel-and-system-info]]"]
+niveau: "Stockage"
 ---
 
 # Question 8 — Gestion des disques

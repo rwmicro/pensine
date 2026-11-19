@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Certifications > LFCS"
 tags: [lfcs, linux, certification, sshfs]
 date: "2026-08-09"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Security/Certifications/LFCS/q17-openssh-configuration]]", "[[Applied Sciences/Computer Science/Software/Security/Certifications/LFCS/q08-disk-management]]"]
 ---
 
 # Question 10 — SSHFS and NFS

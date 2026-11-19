@@ -4,6 +4,8 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Certifications > LFCS"
 tags: [lfcs, linux, certification, rhel, debian, equivalents]
 date: "2026-08-09"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Security/Certifications/LFCS/q26-package-management]]", "[[Applied Sciences/Computer Science/Software/Security/Certifications/LFCS/q44-selinux-and-apparmor]]", "[[Applied Sciences/Computer Science/Software/Security/Certifications/LFCS/q07-network-packet-filtering]]"]
+niveau: "Synthèse"
 ---
 
 # Question 45 — RHEL vs Debian Equivalents

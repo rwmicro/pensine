@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Certifications > LFCS"
 tags: [lfcs, linux, certification, grub, bootloader]
 date: "2026-08-09"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Security/Certifications/LFCS/q22-systemd-targets-and-services]]", "[[Applied Sciences/Computer Science/Software/Security/Certifications/LFCS/q01-kernel-and-system-info]]"]
 ---
 
 # Question 21 — GRUB and Bootloader
