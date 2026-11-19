@@ -57,15 +57,13 @@ printenv VAR          # afficher une variable d'environnement précise
 
 ## Énoncé
 
-Solve this question on: `terminal`
+Le fichier `~/.bashrc` de votre utilisateur définit déjà `VARIABLE1=random-string`. Écrivez un script `~/lab/4/script.sh` qui :
+1. définit `VARIABLE2` avec la valeur `v2`, visible uniquement dans le script lui-même ;
+2. affiche la valeur de `VARIABLE2` ;
+3. définit `VARIABLE3` avec la valeur `${VARIABLE1}-extended`, visible dans le script et dans tous ses processus enfants ;
+4. affiche la valeur de `VARIABLE3`.
 
-There is an existing env variable for user `candidate@terminal`: `VARIABLE1=random-string`, defined in file `.bashrc`. Create a new script under `/opt/course/4/script.sh` which:
-1. Defines a new env variable `VARIABLE2` with content `v2`, only available in the script itself
-2. Outputs the content of the env variable `VARIABLE2`
-3. Defines a new env variable `VARIABLE3` with content `${VARIABLE1}-extended`, available in the script itself and all child processes of the shell as well
-4. Outputs the content of the env variable `VARIABLE3`
-
->  Do not alter the `.bashrc` file, everything needs to be done in the script itself
+> Ne modifiez pas `~/.bashrc` : tout doit se faire dans le script.
 
 ## Solution
 
@@ -85,14 +83,14 @@ export VARIABLE1=random-string
 
 Now let's create a script which will define a new env variable called `VARIABLE2` with content `v2`:
 ```bash
-vim /opt/course/4/script.sh
+vim ~/lab/4/script.sh
 VARIABLE2="v2"
 echo $VARIABLE2
 ```
 
 We give it a try, it should output the variable content, but shouldn't make it available (export) afterwards:
 ```bash
-bash /opt/course/4/script.sh
+bash ~/lab/4/script.sh
 v2
 ```
 
@@ -108,7 +106,7 @@ echo $VARIABLE3                             # add
 
 Run and check the result
 ```bash
-sh /opt/course/4/script.sh
+sh ~/lab/4/script.sh
 v2
 random-string-extended
 ```

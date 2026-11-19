@@ -48,12 +48,10 @@ ip neigh       # table ARP (voisins)
 
 ## Énoncé
 
-Solve this question on: `web-srv1`
-
 1. Assign the static IPv4 address `192.168.50.10/24` to interface `eth1`, with gateway `192.168.50.1` and DNS `1.1.1.1`. Make it persistent.
 2. Add a static route to `10.20.0.0/16` via `192.168.50.254`.
-3. Set the system hostname to `web-srv1.lan` persistently.
-4. Write the MAC address of `eth0` into `/opt/course/31/mac`.
+3. Set the system hostname to `web01.lan` persistently.
+4. Write the MAC address of `eth0` into `~/lab/31/mac`.
 
 ## Solution
 
@@ -155,17 +153,17 @@ nmcli con up eth1-static
 ### Step 3 — Hostname
 
 ```bash
-hostnamectl set-hostname web-srv1.lan
+hostnamectl set-hostname web01.lan
 cat /etc/hostname
-# also update /etc/hosts to map 127.0.1.1 web-srv1.lan web-srv1
+# also update /etc/hosts to map 127.0.1.1 web01.lan web01
 ```
 
 ### Step 4 — MAC address
 
 ```bash
-ip -br link show eth0 | awk '{print $3}' > /opt/course/31/mac
+ip -br link show eth0 | awk '{print $3}' > ~/lab/31/mac
 # or:
-cat /sys/class/net/eth0/address > /opt/course/31/mac
+cat /sys/class/net/eth0/address > ~/lab/31/mac
 ```
 
 ### Diagnostics

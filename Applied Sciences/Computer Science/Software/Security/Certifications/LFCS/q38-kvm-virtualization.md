@@ -53,12 +53,10 @@ virt-install ...          # définir une nouvelle VM
 
 ## Énoncé
 
-Solve this question on: `terminal`
-
 1. Verify that the CPU supports hardware virtualization and that KVM modules are loaded.
 2. Install `libvirt` + `qemu-kvm` and start the daemon.
 3. Create a 10 GiB qcow2 disk and define a VM `lfcs-vm1` with 2 vCPU, 2 GiB RAM, attached to the default NAT network.
-4. List running VMs into `/opt/course/38/vms`.
+4. List running VMs into `~/lab/38/vms`.
 
 ## Solution
 
@@ -141,7 +139,7 @@ virsh console lfcs-vm1                # attach to serial console (Ctrl+] to exit
 virsh edit lfcs-vm1                   # edit XML
 virsh dumpxml lfcs-vm1 > vm1.xml
 
-virsh list --state-running --name > /opt/course/38/vms
+virsh list --state-running --name > ~/lab/38/vms
 ```
 
 ### Networks

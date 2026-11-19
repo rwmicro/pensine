@@ -43,15 +43,10 @@ timedatectl           # vue complète et moderne (systemd) — voir q03
 
 ## Énoncé
 
-Solve this question on: `terminal`
-
-Write the Linux Kernel release into `/opt/course/1/kernel`.
-
-Write the current value of Kernel parameter `ip_forward` into `/opt/course/1/ip_forward`.
-
-Write the system timezone into `/opt/course/1/timezone`.
-
-> If no server is mentioned in the question text, you'll need to create your solution on the default `terminal`
+Relevez trois informations système et écrivez chacune dans un fichier sous `~/lab/1/` :
+1. la version (release) du noyau Linux dans `~/lab/1/kernel` ;
+2. la valeur actuelle du paramètre noyau `ip_forward` dans `~/lab/1/ip_forward` ;
+3. le fuseau horaire du système dans `~/lab/1/timezone`.
 
 ## Solution
 
@@ -67,10 +62,10 @@ cat /etc/timezone # also possible on some distro
 
 The files should look like:
 ```bash
-# /opt/course/1/kernel
+# ~/lab/1/kernel
 5.15.0-69-generic
-# /opt/course/1/ip_forward
+# ~/lab/1/ip_forward
 1
-# /opt/course/1/timezone
+# ~/lab/1/timezone
 UTC
 ```

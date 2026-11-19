@@ -54,12 +54,10 @@ systemctl list-dependencies graphical.target
 
 ## Énoncé
 
-Solve this question on: `web-srv1`
-
 1. Set the default boot target to `multi-user.target`.
 2. Enable and start the `nginx` service so it survives a reboot.
 3. Mask the `bluetooth.service` so it can never be started.
-4. Write the list of currently failed units into `/opt/course/22/failed`.
+4. Write the list of currently failed units into `~/lab/22/failed`.
 
 ## Solution
 
@@ -112,7 +110,7 @@ sudo systemctl unmask bluetooth.service     # to undo
 ### Step 4 — List failed units
 
 ```bash
-systemctl --failed --no-legend | awk '{print $2}' > /opt/course/22/failed
+systemctl --failed --no-legend | awk '{print $2}' > ~/lab/22/failed
 ```
 
 ### Useful day-to-day commands

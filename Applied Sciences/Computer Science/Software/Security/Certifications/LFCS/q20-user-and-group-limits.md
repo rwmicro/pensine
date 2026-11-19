@@ -53,28 +53,22 @@ jackie      hard     nproc       1024
 
 ## Énoncé
 
-Résolvez cette question sur : `web-srv1`
+Sur un serveur `web01`, l'utilisatrice `jackie` a lancé un programme qui a créé tellement de processus que la machine a saturé. Pour parer au plus pressé, une commande `ulimit` a été ajoutée dans son `~/.bashrc`, mais elle ne fixe que la limite douce (soft) du nombre de processus.
 
-L'utilisatrice Jackie a causé un incident avec son compte sur le serveur `web-srv1`. Elle a lancé un programme qui a créé trop de sous-processus pour que le serveur puisse les gérer. Un collègue a déjà résolu le problème temporairement et a limité le nombre de processus que l'utilisateur `jackie` peut lancer.
+1. Fixez une limite dure (hard) du nombre de processus pour `jackie`, avec la même valeur que la limite douce actuelle, au bon endroit (pas dans `.bashrc`).
+2. Limitez les membres du groupe `operators` à une seule session ouverte à la fois, avec `maxlogins`.
 
-Pour cela, le collègue a ajouté une commande dans `.bashrc`, dans le répertoire personnel de `jackie`. Mais cette commande ne définit que la limite douce (soft) et pas la limite dure (hard). Le mot de passe de Jackie est `brown` au cas où.
-
-Configurez la limitation du nombre de processus comme limite dure (hard) pour l'utilisateur `jackie`. Utilisez le même nombre que celui actuellement défini comme limite douce pour cet utilisateur. Faites-le de la bonne manière, pas via `.bashrc`.
-
-Sur le même serveur, vous devez garantir que le groupe `operators` ne peut se connecter qu'une seule fois à la fois ; utilisez `maxlogins` pour cela.
-
-> Il n'est pas possible de tester ou vérifier `maxlogins` après la configuration, en raison de la façon dont le serveur a été configuré
+> `maxlogins` ne se vérifie qu'en ouvrant plusieurs sessions en même temps, par exemple deux connexions SSH.
 
 ## Solution
 
 ### Étape 1
 Eh bien, cela fait beaucoup. Nous examinons d'abord cet utilisateur et ses limites :
 ```bash
-ssh web-srv1
-root@web-srv1:~$ su jackie
-jackie@web-srv1:/root$ cd
-jackie@web-srv1:~$
-jackie@web-srv1:~$ ulimit -a
+root@server:~$ su jackie
+jackie@server:/root$ cd
+jackie@server:~$
+jackie@server:~$ ulimit -a
 core file size          (blocks, -c) 0
 data seg size           (kbytes, -d) unlimited
 scheduling priority             (-e) 0
@@ -95,37 +89,37 @@ file locks                      (-x) unlimited
 
 Avec `ulimit`, nous pouvons voir toutes les limites configurées, et `max user processes` vaut 1024. Nous devons vérifier comment cela a été défini dans `.bashrc` :
 ```bash
-jackie@web-srv1:~$ if ! shopt -oq posix; then
+jackie@server:~$ if ! shopt -oq posix; then
 ...
 ulimit -S -u 1024 # current implementation
 ```
 
 Cela fonctionne, mais l'utilisatrice `jackie` pourrait le modifier elle-même comme ceci :
 ```bash
-jackie@web-srv1:~$ ulimit -u # list current
+jackie@server:~$ ulimit -u # list current
 1024
-jackie@web-srv1:~$ ulimit -S -u 1100
-jackie@web-srv1:~$ ulimit -u
+jackie@server:~$ ulimit -S -u 1100
+jackie@server:~$ ulimit -u
 1100
 ```
 
 Nous supprimons d'abord la ligne qui avait été ajoutée comme correctif temporaire
 ```bash
-root@web-srv1:~$ vim /home/jackie/.bashrc # remove the ulimit setting
+root@server:~$ vim /home/jackie/.bashrc # remove the ulimit setting
 ```
 
 Ensuite, nous la configurons via `/etc/security/limits.conf` (nous devons être root pour cela). Ce fichier contient déjà quelques exemples utiles en bas. Nous ajoutons une nouvelle ligne
 ```bash
-root@web-srv1:~$ vim /etc/security/limits.conf
+root@server:~$ vim /etc/security/limits.conf
 ...
 jackie         hard    nproc           1024     # add a new line
 ```
 
 Nous pouvons maintenant confirmer notre changement :
 ```bash
-jackie@web-srv1:~$ ulimit -u
+jackie@server:~$ ulimit -u
 1024
-jackie@web-srv1:~$ ulimit -S -u 1100
+jackie@server:~$ ulimit -S -u 1100
 bash: ulimit: max user processes: cannot modify limit: Invalid argument
 ```
 
@@ -134,7 +128,7 @@ L'utilisatrice `jackie` n'est plus capable de modifier cette limite elle-même.
 ### Étape 2
 L'autre ticket concernait la mise en place d'une limitation pour le groupe `operators`, nous l'ajoutons donc également au fichier :
 ```bash
-root@web-srv1:~$ vim /etc/security/limits.conf
+root@server:~$ vim /etc/security/limits.conf
 ...
 jackie          hard    nproc           1024
 @operators      hard    maxlogins       1 # add this line

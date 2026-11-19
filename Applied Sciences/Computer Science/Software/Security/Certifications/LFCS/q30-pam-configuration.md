@@ -51,8 +51,6 @@ Chaque ligne appelle un **module** (`.so`) avec un **type** et un **contrôle**.
 
 ## Énoncé
 
-Solve this question on: `app-srv1`
-
 1. Block the user `mallory` from logging in via SSH using PAM (`pam_listfile`).
 2. Enforce a minimum password length of `12` characters with at least one digit and one upper-case letter.
 3. Lock a local account after `5` consecutive failed login attempts for `15` minutes.

@@ -55,14 +55,11 @@ git commit -m "added log directory"
 
 ## Énoncé
 
-Résolvez cette question sur : `terminal`
-
-Il vous est demandé d'effectuer des modifications dans le dépôt Git de l'application Auto-Verifier :
-1. Clonez le dépôt `/repositories/auto-verifier` vers `/home/candidate/repositories/auto-verifier`.
-    _Effectuez les étapes suivantes dans le répertoire fraîchement cloné_
-2. Trouvez, parmi les branches `dev4`, `dev5` et `dev6`, celle dans laquelle le fichier `config.yaml` contient `user_registration_level: open`. Fusionnez uniquement cette branche dans la branche `main`
-3. Dans la branche `main`, créez un nouveau répertoire `logs` à la racine du dépôt. Pour garantir que le répertoire sera committé, créez-y un fichier vide caché `.keep`
-4. Committez votre changement avec le message `added log directory`
+Un dépôt Git local se trouve dans `/repositories/auto-verifier`.
+1. Clonez-le dans `~/repositories/auto-verifier`, puis travaillez dans ce clone.
+2. Parmi les branches `dev4`, `dev5` et `dev6`, une seule contient `user_registration_level: open` dans `config.yaml` : fusionnez uniquement celle-là dans `main`.
+3. Sur `main`, créez un répertoire `logs` à la racine du dépôt, avec un fichier vide caché `.keep` pour que Git le suive.
+4. Committez avec le message `added log directory`.
 
 ## Solution
 
@@ -70,7 +67,7 @@ Il vous est demandé d'effectuer des modifications dans le dépôt Git de l'appl
 Git est le plus souvent utilisé pour cloner et manipuler des dépôts distants comme sur Github ou Gitlab. Mais l'essentiel des fonctionnalités de Git peut aussi être utilisé en local. Nous clonons donc le répertoire local :
 ```bash
 git clone /repositories/auto-verifier ~/repositories/auto-verifier
-Cloning into '/home/candidate/repositories/auto-verifier'...
+Cloning into '/home/student/repositories/auto-verifier'...
 done.
 cd ~/repositories/auto-verifier
 ~/repositories/auto-verifier$ git status
@@ -243,11 +240,11 @@ Il nous est demandé de créer un nouveau répertoire ; voyons ce qui se passe s
 ~/repositories/auto-verifier$ mkdir logs
 ~/repositories/auto-verifier$ ls -l
 total 20
--rwxrwxr-x 1 candidate candidate 2015 Jul 27 14:20 config.yaml
-drwxrwxr-x 2 candidate candidate 4096 Jul 27 14:16 lib
-drwxrwxr-x 2 candidate candidate 4096 Jul 27 14:29 logs
--rwxrwxr-x 1 candidate candidate  205 Jul 27 14:16 main.go
--rwxrwxr-x 1 candidate candidate  133 Jul 27 14:16 README.md
+-rwxrwxr-x 1 student student 2015 Jul 27 14:20 config.yaml
+drwxrwxr-x 2 student student 4096 Jul 27 14:16 lib
+drwxrwxr-x 2 student student 4096 Jul 27 14:29 logs
+-rwxrwxr-x 1 student student  205 Jul 27 14:16 main.go
+-rwxrwxr-x 1 student student  133 Jul 27 14:16 README.md
 ~/repositories/auto-verifier$ git status
 ```
 

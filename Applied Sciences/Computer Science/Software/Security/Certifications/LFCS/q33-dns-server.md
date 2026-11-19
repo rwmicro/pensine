@@ -10,21 +10,21 @@ date: "2026-08-09"
 
 ## Notes d'apprentissage
 
-Le DNS traduit les noms (`web-srv1.lfcs.lan`) en adresses IP. BIND9 est le serveur de référence. Cet exercice combine deux rôles distincts qu'il faut bien séparer dans sa tête.
+Le DNS traduit les noms (`web01.example.lan`) en adresses IP. BIND9 est le serveur de référence. Cet exercice combine deux rôles distincts qu'il faut bien séparer dans sa tête.
 
 > [!tip] Modèle mental : cache vs autorité
 > ```
 > client ──► serveur BIND ┬─► CACHE : interroge l'Internet pour le compte du client,
 >                         │           mémorise les réponses (résolveur récursif)
->                         └─► AUTORITÉ : détient lui-même les zones (lfcs.lan),
+>                         └─► AUTORITÉ : détient lui-même les zones (example.lan),
 >                                        répond pour les noms qu'il possède
 > ```
 
 - **Caching-only** : le serveur ne possède aucune zone, il résout récursivement et met en cache. Accélère et mutualise les requêtes du réseau.
-- **Master zone** : le serveur fait *autorité* sur un domaine — c'est lui la source de vérité pour `lfcs.lan`.
+- **Master zone** : le serveur fait *autorité* sur un domaine — c'est lui la source de vérité pour `example.lan`.
 
 **Résolution directe vs inverse.** Le DNS répond à deux questions opposées :
-- **Directe** (zone normale, enregistrement `A`) : nom → IP (`web-srv1.lfcs.lan` → `192.168.50.10`).
+- **Directe** (zone normale, enregistrement `A`) : nom → IP (`web01.example.lan` → `192.168.50.10`).
 - **Inverse** (zone `in-addr.arpa`, enregistrement `PTR`) : IP → nom. Indispensable pour les logs, le mail, l'authentification.
 
 **Les types d'enregistrements à connaître :**
@@ -44,9 +44,9 @@ Le DNS traduit les noms (`web-srv1.lfcs.lan`) en adresses IP. BIND9 est le serve
 **Valider avant de recharger :**
 ```bash
 named-checkconf                       # vérifier la syntaxe de la conf
-named-checkzone lfcs.lan /chemin/zone # vérifier un fichier de zone
+named-checkzone example.lan /chemin/zone # vérifier un fichier de zone
 systemctl reload named  # ou bind9
-dig @serveur web-srv1.lfcs.lan        # tester depuis un client
+dig @serveur web01.example.lan        # tester depuis un client
 ```
 
 > [!warning] Pièges
@@ -57,12 +57,10 @@ dig @serveur web-srv1.lfcs.lan        # tester depuis un client
 
 ## Énoncé
 
-Solve this question on: `data-001`
-
 1. Configure `BIND9` as a **caching-only** DNS server, listening on port 53 of all interfaces.
-2. Add a master zone for `lfcs.lan` resolving `web-srv1.lfcs.lan` to `192.168.50.10`.
-3. Reverse-resolve `192.168.50.10` to `web-srv1.lfcs.lan`.
-4. Verify with `dig` from a remote client and write the answer into `/opt/course/33/lookup`.
+2. Add a master zone for `example.lan` resolving `web01.example.lan` to `192.168.50.10`.
+3. Reverse-resolve `192.168.50.10` to `web01.example.lan`.
+4. Verify with `dig` from a remote client and write the answer into `~/lab/33/lookup`.
 
 ## Solution
 
@@ -111,31 +109,31 @@ sudo systemctl enable bind9
 
 In `/etc/bind/named.conf.local`:
 ```
-zone "lfcs.lan" IN {
+zone "example.lan" IN {
     type master;
-    file "/etc/bind/db.lfcs.lan";
+    file "/etc/bind/db.example.lan";
     allow-update { none; };
 };
 ```
 
-Create `/etc/bind/db.lfcs.lan`:
+Create `/etc/bind/db.example.lan`:
 ```
 $TTL 3600
-@   IN  SOA  ns1.lfcs.lan. admin.lfcs.lan. (
+@   IN  SOA  ns1.example.lan. admin.example.lan. (
                 2026052401  ; serial (YYYYMMDDNN)
                 3600        ; refresh
                 1800        ; retry
                 604800      ; expire
                 86400 )     ; minimum TTL
-    IN  NS   ns1.lfcs.lan.
+    IN  NS   ns1.example.lan.
 
 ns1      IN  A   192.168.50.1
-web-srv1 IN  A   192.168.50.10
+web01 IN  A   192.168.50.10
 ```
 
 Validate:
 ```bash
-sudo named-checkzone lfcs.lan /etc/bind/db.lfcs.lan
+sudo named-checkzone example.lan /etc/bind/db.example.lan
 ```
 
 ### Step 3 — Reverse zone
@@ -150,10 +148,10 @@ zone "50.168.192.in-addr.arpa" IN {
 `/etc/bind/db.192.168.50`:
 ```
 $TTL 3600
-@   IN  SOA  ns1.lfcs.lan. admin.lfcs.lan. ( 2026052401 3600 1800 604800 86400 )
-    IN  NS   ns1.lfcs.lan.
+@   IN  SOA  ns1.example.lan. admin.example.lan. ( 2026052401 3600 1800 604800 86400 )
+    IN  NS   ns1.example.lan.
 
-10  IN  PTR  web-srv1.lfcs.lan.
+10  IN  PTR  web01.example.lan.
 ```
 
 Reload:
@@ -165,9 +163,9 @@ sudo systemctl reload bind9
 ### Step 4 — Verification
 
 ```bash
-dig @192.168.50.1 web-srv1.lfcs.lan +short
+dig @192.168.50.1 web01.example.lan +short
 dig @192.168.50.1 -x 192.168.50.10 +short
-dig @192.168.50.1 web-srv1.lfcs.lan > /opt/course/33/lookup
+dig @192.168.50.1 web01.example.lan > ~/lab/33/lookup
 ```
 
 ### Common DNS record types
@@ -201,7 +199,7 @@ hosts: files dns
 sudo apt install dnsmasq
 # /etc/dnsmasq.conf
 listen-address=192.168.50.1
-domain=lfcs.lan
+domain=example.lan
 expand-hosts
 server=1.1.1.1
 # /etc/hosts is automatically served

@@ -59,18 +59,16 @@ docker run -d --name frontend_v3 --memory 30m -p 1234:80 nginx:alpine
 
 ## Énoncé
 
-Résolvez cette question sur : `terminal`
-
-Quelqu'un a entendu dire que vous êtes spécialiste de la conteneurisation, ce qui suit devrait donc être facile pour vous ! Veuillez :
-1. Arrêter le conteneur Docker nommé `frontend_v1`
-2. Rassembler les informations du conteneur Docker nommé `frontend_v2` :
-    - Écrire l'adresse IP qui lui est attribuée dans `/opt/course/11/ip-address`
-    - Il possède un montage de volume. Écrire le répertoire de destination de ce montage dans `/opt/course/11/mount-destination`
-3. Démarrer un nouveau conteneur Docker détaché :
-    - Nom : `frontend_v3`
-    - Image : `nginx:alpine`
-    - Limite de mémoire : `30m` (30 mégaoctets)
-    - Mappage de port TCP : `1234/host` => `80/container`
+Sur un hôte Docker :
+1. arrêtez le conteneur `frontend_v1` ;
+2. pour le conteneur `frontend_v2` :
+   - écrivez son adresse IP dans `~/lab/11/ip-address` ;
+   - il a un volume monté : écrivez le répertoire de destination de ce montage dans `~/lab/11/mount-destination` ;
+3. lancez en arrière-plan un nouveau conteneur :
+   - nom : `frontend_v3`
+   - image : `nginx:alpine`
+   - limite de mémoire : `30m` (30 mégaoctets)
+   - port TCP `1234` de l'hôte publié vers le port `80` du conteneur
 
 ## Solution
 
@@ -148,15 +146,15 @@ sudo docker inspect frontend_v2 | vim -
 
 Il ne nous reste plus qu'à créer les fichiers demandés avec leur contenu correct (l'adresse IP de votre conteneur peut différer) :
 ```bash
-echo "172.17.0.3" > /opt/course/11/ip-address
-echo "/srv" > /opt/course/11/mount-destination
+echo "172.17.0.3" > ~/lab/11/ip-address
+echo "/srv" > ~/lab/11/mount-destination
 ```
 
 Ce qui donne :
 ```bash
-# /opt/course/11/ip-address
+# ~/lab/11/ip-address
 172.17.0.3
-# /opt/course/11/mount-destination
+# ~/lab/11/mount-destination
 /srv
 ```
 

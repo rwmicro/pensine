@@ -42,12 +42,10 @@ Oublier la régénération = les changements n'ont aucun effet au prochain déma
 
 ## Énoncé
 
-Solve this question on: `terminal`
-
 1. Set the default GRUB timeout to `3` seconds.
 2. Add the kernel boot parameter `quiet` to all entries.
 3. Regenerate the GRUB configuration file so the changes apply at next boot.
-4. Write the current default kernel command line into `/opt/course/21/cmdline`.
+4. Write the current default kernel command line into `~/lab/21/cmdline`.
 
 ## Solution
 
@@ -92,7 +90,7 @@ sudo grub2-mkconfig -o /boot/efi/EFI/redhat/grub.cfg
 ### Step 3 — Inspect the active kernel cmdline
 
 ```bash
-cat /proc/cmdline > /opt/course/21/cmdline
+cat /proc/cmdline > ~/lab/21/cmdline
 ```
 
 ### Reinstall GRUB on the MBR

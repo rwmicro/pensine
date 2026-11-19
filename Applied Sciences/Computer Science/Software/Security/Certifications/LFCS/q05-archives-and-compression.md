@@ -58,23 +58,19 @@ diff liste_bz2 liste_gz       # aucune différence = même contenu
 
 ## Énoncé
 
-Résolvez cette question sur : `data-001`
+Le dossier `/imports` contient l'archive `import001.tar.bz2`.
 
-Le serveur `data-001` héberge l'archive `/imports/import001.tar.bz2`. Il vous est demandé de créer une nouvelle archive compressée avec gzip à partir de son contenu brut.
+1. Créez à partir de son contenu une nouvelle archive `/imports/import001.tar.gz`, compressée avec gzip au niveau de compression maximal.
+2. Pour vérifier que les deux archives contiennent les mêmes fichiers, écrivez la liste triée du contenu de chacune dans `/imports/import001.tar.bz2_list` et `/imports/import001.tar.gz_list`.
 
-Stockez la nouvelle archive sous `/imports/import001.tar.gz`. La compression doit être la meilleure possible, avec gzip.
-
-Pour vous assurer que les deux archives contiennent les mêmes fichiers, écrivez la liste triée de leur contenu dans `/imports/import001.tar.bz2_list` et `/imports/import001.tar.gz_list`.
-
-> Ne modifiez pas et ne supprimez pas l'archive d'origine `import001.tar.bz2`
+> L'archive d'origine `import001.tar.bz2` doit rester intacte.
 
 ## Solution
 
-Nous nous connectons à `data-001` et jetons un œil au dossier :
+Nous nous connectons à `data01` et jetons un œil au dossier :
 ```bash
-ssh data-001
-root@data-001:~$ cd /imports
-root@data-001:/imports$ ls -lh
+root@server:~$ cd /imports
+root@server:/imports$ ls -lh
 total 1.5K
 -rw-r--r-- 1 root root 560 Jul 16 13:49 import001.tar.bz2
 ```
@@ -84,8 +80,8 @@ Nous décompressons l'archive `bzip2` et obtenons une archive `tar` non compress
 
 > Nous pouvons installer `bzip2` via le gestionnaire de paquets s'il n'est pas disponible
 ```bash
-root@data-001:/imports$ bunzip2 -k import001.tar.bz2
-root@data-001:/imports$ ls -lh
+root@server:/imports$ bunzip2 -k import001.tar.bz2
+root@server:/imports$ ls -lh
 total 3.0K
 -rw-r--r-- 1 root root 20K Jul 16 14:20 import001.tar # combination of all files without compression
 -rw-r--r-- 1 root root 550 Jul 16 14:20 import001.tar.bz2
@@ -93,8 +89,8 @@ total 3.0K
 
 Toute archive tar contient une couche de données « tar ». Celle-ci peut ensuite être compressée avec différents algorithmes de compression. Ici, nous pouvons maintenant créer une nouvelle compression gzip à partir de la couche tar :
 ```bash
-root@data-001:/imports$ gzip --best import001.tar
-root@data-001:/imports$ ls -lh
+root@server:/imports$ gzip --best import001.tar
+root@server:/imports$ ls -lh
 total 2.0K
 -rw-r--r-- 1 root root 550 Jul 16 14:20 import001.tar.bz2
 -rw-r--r-- 1 root root 544 Jul 16 14:20 import001.tar.gz
@@ -103,9 +99,9 @@ total 2.0K
 ### Possibilité 2 — (tout extraire puis tout recompresser)
 Nous extrayons les fichiers dans un nouveau sous-dossier :
 ```bash
-root@data-001:/imports$ mkdir import001
-root@data-001:/imports$ tar xf import001.tar.bz2 -C import001
-root@data-001:/imports$ find import001/
+root@server:/imports$ mkdir import001
+root@server:/imports$ tar xf import001.tar.bz2 -C import001
+root@server:/imports$ find import001/
 import001/
 import001/2ba047d9-a9b3-4261-a4a0-0d23447ebdcd
 import001/2ba047d9-a9b3-4261-a4a0-0d23447ebdcd/e48edbdd
@@ -118,17 +114,17 @@ import001/5d517b37-efd3-4872-b107-502aa4b58b4c
 
 Nous créons maintenant la nouvelle archive demandée
 ```bash
-root@data-001:/imports$ GZIP=-9 tar czf import001.tar.gz -C import001 .
+root@server:/imports$ GZIP=-9 tar czf import001.tar.gz -C import001 .
 ```
 
 L'utilisation de la variable d'environnement GZIP est dépréciée ; nous pourrions plutôt utiliser :
 ```bash
-root@data-001:/imports$ tar -I 'gzip -9' -cf import001.tar.gz -C import001 .
+root@server:/imports$ tar -I 'gzip -9' -cf import001.tar.gz -C import001 .
 ```
 
 Nous devrions voir :
 ```bash
-root@data-001:/imports$ ls -lh
+root@server:/imports$ ls -lh
 total 4.5K
 drwxr-xr-x 7 ubuntu ubuntu   7 Jul 16 13:32 import001
 -rw-r--r-- 1 root   root   550 Jul 16 13:57 import001.tar.bz2
@@ -138,21 +134,21 @@ drwxr-xr-x 7 ubuntu ubuntu   7 Jul 16 13:32 import001
 ### Pour finir
 Nous vérifions que les deux archives contiennent bien les mêmes fichiers et la même structure :
 ```bash
-root@data-001:/imports$ tar tf import001.tar.bz2 | sort > import001.tar.bz2_list
-root@data-001:/imports$ tar tf import001.tar.gz | sort > import001.tar.gz_list
+root@server:/imports$ tar tf import001.tar.bz2 | sort > import001.tar.bz2_list
+root@server:/imports$ tar tf import001.tar.gz | sort > import001.tar.gz_list
 ```
 
 Pour pousser la comparaison, nous pourrions utiliser `cat import001.tar.bz2_list | sha512sum` et comparer les empreintes.
 
 Pour obtenir quelques informations sur le taux de compression, nous pouvons lancer
 ```bash
-root@data-001:/imports$ gzip -l import001.tar.gz
+root@server:/imports$ gzip -l import001.tar.gz
 ```
 
 Enfin, nous devrions obtenir ces fichiers :
 ```bash
-root@data-001:/imports$ rm -rf import001
-root@data-001:/imports$ ls -lha
+root@server:/imports$ rm -rf import001
+root@server:/imports$ ls -lha
 total 6.0K
 drwxr-xr-x 2 root root    6 Jul 16 14:07 .
 drwxr-xr-x 3 root root    3 Jul 16 13:28 ..

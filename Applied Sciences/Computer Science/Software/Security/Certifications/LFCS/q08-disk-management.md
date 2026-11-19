@@ -63,16 +63,10 @@ On ne peut **démonter** (`umount`) un disque que si aucun fichier ouvert ne s'y
 
 ## Énoncé
 
-Résolvez cette question sur : `terminal`
-
-Votre équipe vous a choisi pour cette tâche en raison de votre expertise approfondie des systèmes de fichiers et des disques/périphériques. Réalisez les étapes suivantes pour ne pas décevoir votre équipe :
-1. Formatez `/dev/vdb` en `ext4`, montez-le sur `/mnt/backup-black` et créez le fichier vide `/mnt/backup-black/completed`.
-2. Trouvez lequel des deux disques, `/dev/vdc` ou `/dev/vdd`, a l'occupation de stockage la plus élevée.
-    Videz ensuite le dossier `.trash` de celui-ci.
-3. Deux processus sont en cours d'exécution : `dark-matter-v1` et `dark-matter-v2`.
-    Trouvez celui qui consomme le plus de mémoire ou de mémoire virtuelle.
-
-    Démontez ensuite le disque sur lequel se trouve l'exécutable du processus.
+Sur une machine qui dispose de plusieurs disques virtuels :
+1. formatez `/dev/vdb` en `ext4`, montez-le sur `/mnt/backup-black` et créez-y le fichier vide `completed` ;
+2. déterminez lequel de `/dev/vdc` et `/dev/vdd` est le plus rempli, puis videz son dossier `.trash` ;
+3. deux processus tournent, `dark-matter-v1` et `dark-matter-v2` : trouvez celui qui consomme le plus de mémoire (résidente ou virtuelle), puis démontez le disque qui contient son exécutable.
 
 ## Solution
 
@@ -249,7 +243,7 @@ sudo lsof | grep /mnt/app-4e9d7e1e
 dark-matt 6204    root  txt       REG             252,80    16488         12 /mnt/app-4e9d7e1e/dark-matter-v2
 ```
 
-Eh bien, seulement ce mauvais processus ! Nous pouvons donc terminer cette question avec :
+Eh bien, seulement ce mauvais processus ! Nous pouvons donc terminer l'exercice avec :
 ```bash
 sudo kill 6204 # your PID will be different
 sudo umount /mnt/app-4e9d7e1e

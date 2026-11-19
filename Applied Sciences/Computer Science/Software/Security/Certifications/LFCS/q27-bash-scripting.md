@@ -56,9 +56,7 @@ Le **code de sortie** est le contrat du script : `0` = succès, `≠0` = échec.
 
 ## Énoncé
 
-Solve this question on: `terminal`
-
-Write a bash script `/opt/course/27/backup.sh` that:
+Write a bash script `/usr/local/bin/backup.sh` that:
 1. Takes one argument: the directory to back up.
 2. Creates a `tar.gz` archive named `<basename>-YYYYMMDD.tar.gz` under `/var/backups/`.
 3. Exits with code `1` if the argument is missing or the directory does not exist.
@@ -69,7 +67,7 @@ Make the script executable. Schedule it to run daily at 02:30 via cron for `/etc
 ## Solution
 
 ```bash
-sudo tee /opt/course/27/backup.sh > /dev/null <<'EOF'
+sudo tee /usr/local/bin/backup.sh > /dev/null <<'EOF'
 #!/usr/bin/env bash
 set -euo pipefail
 
@@ -107,12 +105,12 @@ else
 fi
 EOF
 
-sudo chmod +x /opt/course/27/backup.sh
+sudo chmod +x /usr/local/bin/backup.sh
 ```
 
 Add the cron entry:
 ```bash
-echo '30 2 * * * root /opt/course/27/backup.sh /etc' | sudo tee /etc/cron.d/backup-etc
+echo '30 2 * * * root /usr/local/bin/backup.sh /etc' | sudo tee /etc/cron.d/backup-etc
 ```
 
 ### Bash essentials worth recognising

@@ -53,45 +53,43 @@ iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 6000 -j REDIRECT --to-port 
 > - Les règles iptables sont **volatiles** : perdues au reboot. Persister avec `iptables-save`/`netfilter-persistent` ou `iptables-persistent`.
 > - `-A` ajoute en fin de chaîne ; pour placer une règle avant les autres, utiliser `-I`.
 > - Le trafic `localhost` n'est pas filtré par une règle `-i eth0` — d'où le fait que `curl localhost:5000` fonctionne encore après le DROP.
-> - Une mauvaise règle peut vous **verrouiller hors SSH** : garder un accès console de secours (ici `lxc exec`).
+> - Une mauvaise règle peut vous **verrouiller hors SSH** : garder un accès console de secours (console de l'hyperviseur, IPMI, `virsh console`…).
 
 ## Énoncé
 
-Solve this question on: `data-002`
+Le serveur `data02` expose plusieurs API internes. Mettez en place des règles de filtrage sur son interface `eth0` :
+1. le port `5000` doit être fermé ;
+2. tout le trafic arrivant sur le port `6000` est redirigé vers le port local `6001` ;
+3. le port `6002` n'est joignable que depuis `192.168.10.80` (le serveur `data01`) ;
+4. tout le trafic sortant vers `192.168.10.70` (le serveur `app01`) est bloqué.
 
-Server `data-002` is used for big data and provides internally used apis for various data operations. You're asked to implement network packet filters on interface `eth0` on `data-002`:
-1. Port `5000` should be closed
-2. Redirect all traffic on port `6000` to local port `6001`
-3. Port `6002` should only be accessible from IP `192.168.10.80` (server `data-001`)
-4. Block all outgoing traffic to IP `192.168.10.70` (server `app-srv1`)
-
-> In case of misconfiguration you can still access the instance using `sudo lxc exec data-002 bash`
+> Gardez un accès de secours qui ne passe pas par le réseau (console) avant de toucher au pare-feu d'une machine distante.
 
 ## Solution
 
-First we could test the mentioned ports on `data-002` from remote:
+First we could test the mentioned ports on `data02` from remote:
 ```bash
-curl data-002:5000
+curl data02:5000
 app on port 5000
-curl data-002:6000
-curl: (7) Failed to connect to data-002 port 6000 after 4 ms: Connection refused
-curl data-002:6001
+curl data02:6000
+curl: (7) Failed to connect to data02 port 6000 after 4 ms: Connection refused
+curl data02:6001
 app on port 6001
-curl data-002:6002
+curl data02:6002
 app on port 6002
 ```
 
 Further we can check for existing iptables rules and interfaces, because we're asked to implement the filters for `eth0`:
 ```bash
-ssh data-002
-root@data-002:~$ iptables -L
+ssh data02
+root@data02:~$ iptables -L
 Chain INPUT (policy ACCEPT)
 target     prot opt source               destination
 Chain FORWARD (policy ACCEPT)
 target     prot opt source               destination
 Chain OUTPUT (policy ACCEPT)
 target     prot opt source               destination
-root@data-002:~$ iptables -L -t nat
+root@data02:~$ iptables -L -t nat
 Chain PREROUTING (policy ACCEPT)
 target     prot opt source               destination
 Chain INPUT (policy ACCEPT)
@@ -100,7 +98,7 @@ Chain OUTPUT (policy ACCEPT)
 target     prot opt source               destination
 Chain POSTROUTING (policy ACCEPT)
 target     prot opt source               destination
-root@data-002:~$ ip a
+root@data02:~$ ip a
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
     inet 127.0.0.1/8 scope host lo
@@ -122,8 +120,8 @@ Above we can see the `etc0` interface and that there are no existing iptables 
 ### Step 1
 We're asked to close port `5000` and are going to use iptables for it:
 ```bash
-root@data-002:~$ iptables -A INPUT -i eth0 -p tcp --dport 5000 -j DROP
-root@data-002:~$ iptables -L
+root@data02:~$ iptables -A INPUT -i eth0 -p tcp --dport 5000 -j DROP
+root@data02:~$ iptables -L
 Chain INPUT (policy ACCEPT)
 target     prot opt source               destination
 DROP       tcp  --  anywhere             anywhere             tcp dpt:5000 # new rule
@@ -135,19 +133,19 @@ target     prot opt source               destination
 
 Done, let's give it a test:
 ```bash
-root@data-002:~$ curl localhost:5000   # still works on localhost
+root@data02:~$ curl localhost:5000   # still works on localhost
 app on port 5000
-root@data-002:~$ exit
-curl data-001:5000                     # blocked from remote
-curl: (7) Failed to connect to data-001 port 5000 after 0 ms: Connection refused
+root@data02:~$ exit
+curl data01:5000                     # blocked from remote
+curl: (7) Failed to connect to data02 port 5000 after 0 ms: Connection refused
 ```
 
 ### Step 2
 Now we're going to perform some NAT for connections on port `6000`:
 ```bash
-root@data-002:~$ iptables -A PREROUTING -i eth0 -t nat -p tcp --dport 6000 -j REDIRECT --to-port 6001
+root@data02:~$ iptables -A PREROUTING -i eth0 -t nat -p tcp --dport 6000 -j REDIRECT --to-port 6001
 View existing NAT rules:
-root@data-002:~$ iptables -L -t nat
+root@data02:~$ iptables -L -t nat
 Chain PREROUTING (policy ACCEPT)
 target     prot opt source               destination
 REDIRECT   tcp  --  anywhere             anywhere             tcp dpt:x11 redir ports 6001 # new rule
@@ -161,10 +159,10 @@ target     prot opt source               destination
 
 If we would like to clear these we could run `iptables -F -t nat`. Let's test the result:
 ```bash
-root@data-002:~$ curl localhost:6000 # fail
+root@data02:~$ curl localhost:6000 # fail
 curl: (7) Failed to connect to localhost port 6000 after 0 ms: Connection refused
-root@data-002:~$ exit
-curl data-002:6000 # fail
+root@data02:~$ exit
+curl data02:6000 # fail
 app on port 6001
 ```
 
@@ -173,31 +171,31 @@ Above we see the redirect from `6000` to `6001` works.
 ### Step 3
 Now we're asked to open port `6002` only from a specific source IP:
 ```bash
-root@data-002:~$ iptables -A INPUT -i eth0 -p tcp --dport 6002 -s 192.168.10.80 -j ACCEPT
-root@data-002:~$ iptables -A INPUT -i eth0 -p tcp --dport 6002 -j DROP
+root@data02:~$ iptables -A INPUT -i eth0 -p tcp --dport 6002 -s 192.168.10.80 -j ACCEPT
+root@data02:~$ iptables -A INPUT -i eth0 -p tcp --dport 6002 -j DROP
 ```
 
 The idea there is that we first allow that IP and then deny all other traffic on that port. Let's verify it:
 ```bash
-curl data-002:6002
+curl data02:6002
 ^C # timeout
-ssh data-001
-root@data-001:~$ curl data-002:6002
+ssh data01
+root@data01:~$ curl data02:6002
 app on port 6002 # success
 ```
 
 ### Step 4
 In the final step we need to drop outgoing packages:
 ```bash
-root@data-002:~$ nc app-srv1 22
+root@data02:~$ nc app01 22
 SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.1
 ^C  # success
-root@data-002:~$ iptables -A OUTPUT -d 192.168.10.70 -p tcp -j DROP
-root@data-002:~$ nc app-srv1 22
+root@data02:~$ iptables -A OUTPUT -d 192.168.10.70 -p tcp -j DROP
+root@data02:~$ nc app01 22
 ^C  # timeout
-root@data-002:~$ nc data-001 22
+root@data02:~$ nc data01 22
 SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.1
 ^C  # success
 ```
 
-Above we can see that outgoing connections to `app-srv1` no longer work and they time out.
+Above we can see that outgoing connections to `app01` no longer work and they time out.

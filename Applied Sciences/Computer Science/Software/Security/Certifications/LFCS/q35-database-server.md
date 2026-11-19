@@ -32,8 +32,8 @@ Le **principe du moindre privilège** : ne donner que `SELECT/INSERT/UPDATE`, ja
 
 **Sauvegarde logique avec `mysqldump`** : exporte la base en instructions SQL rejouables.
 ```bash
-mysqldump appdb > /opt/course/35/appdb.sql      # sauvegarde
-mysql appdb < /opt/course/35/appdb.sql          # restauration
+mysqldump appdb > ~/lab/35/appdb.sql      # sauvegarde
+mysql appdb < ~/lab/35/appdb.sql          # restauration
 ```
 
 > [!warning] Pièges
@@ -44,13 +44,11 @@ mysql appdb < /opt/course/35/appdb.sql          # restauration
 
 ## Énoncé
 
-Solve this question on: `data-001`
-
 1. Install MariaDB and start it.
 2. Run the secure installation procedure (set a root password, drop anonymous users).
 3. Create a database `appdb` and a user `app@'%'` with password `appsecret`, granting only SELECT/INSERT/UPDATE on `appdb`.
 4. Configure MariaDB to listen on the LAN interface (`192.168.50.10`) so the app server can connect.
-5. Write a backup of `appdb` into `/opt/course/35/appdb.sql`.
+5. Write a backup of `appdb` into `~/lab/35/appdb.sql`.
 
 ## Solution
 
@@ -99,7 +97,7 @@ Host syntax:
 - `'app'@'localhost'` — Unix socket only
 - `'app'@'192.168.50.%'` — subnet
 - `'app'@'%'` — any host
-- `'app'@'app-srv1.lfcs.lan'`
+- `'app'@'app01.example.lan'`
 
 Revoke / drop:
 ```sql
@@ -142,13 +140,13 @@ mysql -h 192.168.50.10 -u app -p appdb -e "SELECT NOW();"
 Logical dump:
 ```bash
 sudo mysqldump --single-transaction --routines --triggers appdb \
-  > /opt/course/35/appdb.sql
+  > ~/lab/35/appdb.sql
 
 # all databases
 sudo mysqldump --all-databases --single-transaction > full.sql
 
 # restore
-sudo mysql appdb < /opt/course/35/appdb.sql
+sudo mysql appdb < ~/lab/35/appdb.sql
 ```
 
 For large or hot databases, prefer `mariabackup` (physical backup):

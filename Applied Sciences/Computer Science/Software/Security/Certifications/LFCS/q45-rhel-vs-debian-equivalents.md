@@ -43,9 +43,7 @@ Bonne nouvelle : tout ce qui repose sur systemd et le noyau est **commun**. Les 
 
 ## Énoncé
 
-Solve this question on: `data-001` (RHEL family)
-
-The killer.sh simulator and most of these notes use Debian/Ubuntu tooling (`apt`, `iptables`, `systemd-timesyncd`). The real LFCS exam lets you pick your distribution, and on the **RHEL family** (Rocky/AlmaLinux/CentOS/Fedora) several core tools differ. This note collects the equivalents so a question phrased for one family can be solved on the other.
+Most of these notes use Debian/Ubuntu tooling (`apt`, `iptables`, `systemd-timesyncd`). On the **RHEL family** (Rocky/AlmaLinux/CentOS/Fedora) several core tools differ. This note collects the equivalents so a question phrased for one family can be solved on the other.
 
 1. Add a persistent NTP server using the RHEL default time daemon.
 2. Open TCP port `8080` permanently in the host firewall using `firewalld`.

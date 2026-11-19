@@ -51,12 +51,10 @@ Méthode type : un service ne démarre qu'en permissive → c'est SELinux ; lire
 
 ## Énoncé
 
-Résolvez cette question sur : `terminal`
+Famille RHEL (`data01`, SELinux) — tâches 1 à 5.
+Famille Debian (`web01`, AppArmor) — tâches 6 et 7.
 
-Famille RHEL (`data-001`, SELinux) — tâches 1 à 5.
-Famille Debian (`web-srv1`, AppArmor) — tâches 6 et 7.
-
-1. Relevez le mode SELinux actuel et écrivez-le dans `/opt/course/44/mode`.
+1. Relevez le mode SELinux actuel et écrivez-le dans `~/lab/44/mode`.
 2. Passez SELinux en mode **permissive** pour la session courante sans redémarrer.
 3. Configurez SELinux pour être en mode **enforcing** de façon persistante après redémarrage.
 4. La racine web a été déplacée vers `/srv/www`. Définissez le contexte de fichier SELinux correct pour qu'Apache (`httpd`) puisse la servir.
@@ -77,7 +75,7 @@ SELinux étiquette chaque processus et chaque fichier avec un contexte `user:rol
 ```bash
 getenforce                          # Enforcing | Permissive | Disabled
 sestatus                            # detailed: current + config-file mode
-getenforce > /opt/course/44/mode
+getenforce > ~/lab/44/mode
 ```
 
 - **Enforcing** — les refus de la politique sont bloqués et journalisés.

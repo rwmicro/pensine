@@ -48,20 +48,18 @@ L'attribut `i` (immuable) protège un fichier critique (`/etc/resolv.conf` rég�
 
 ## Énoncé
 
-Solve this question on: `terminal`
-
-1. Create a hard link `/opt/course/29/hard-passwd` pointing to `/etc/passwd`.
-2. Create a symbolic link `/opt/course/29/soft-passwd` pointing to `/etc/passwd`.
+1. Create a hard link `~/lab/29/hard-passwd` pointing to `/etc/passwd`.
+2. Create a symbolic link `~/lab/29/soft-passwd` pointing to `/etc/passwd`.
 3. Make `/etc/resolv.conf` immutable so even root cannot edit it without removing the attribute.
-4. Write the inode number of `/etc/hostname` into `/opt/course/29/inode`.
+4. Write the inode number of `/etc/hostname` into `~/lab/29/inode`.
 
 ## Solution
 
 ### Step 1 — Hard link
 
 ```bash
-sudo ln /etc/passwd /opt/course/29/hard-passwd
-ls -li /etc/passwd /opt/course/29/hard-passwd
+sudo ln /etc/passwd ~/lab/29/hard-passwd
+ls -li /etc/passwd ~/lab/29/hard-passwd
 # both entries share the same inode and link count goes up
 ```
 
@@ -74,8 +72,8 @@ Hard link properties:
 ### Step 2 — Symbolic link
 
 ```bash
-ln -s /etc/passwd /opt/course/29/soft-passwd
-ls -l /opt/course/29/soft-passwd
+ln -s /etc/passwd ~/lab/29/soft-passwd
+ls -l ~/lab/29/soft-passwd
 # lrwxrwxrwx ... soft-passwd -> /etc/passwd
 ```
 
@@ -117,9 +115,9 @@ Common attributes:
 ### Step 4 — Inode number
 
 ```bash
-stat -c %i /etc/hostname > /opt/course/29/inode
+stat -c %i /etc/hostname > ~/lab/29/inode
 # or:
-ls -i /etc/hostname | awk '{print $1}' > /opt/course/29/inode
+ls -i /etc/hostname | awk '{print $1}' > ~/lab/29/inode
 ```
 
 ### Extended attributes (xattr)

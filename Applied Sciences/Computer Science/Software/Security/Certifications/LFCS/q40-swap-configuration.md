@@ -50,12 +50,10 @@ free -h              # RAM + swap utilisés
 
 ## Énoncé
 
-Solve this question on: `data-002`
-
 1. Add a `1G` swap **file** at `/swapfile`, persistent across reboots.
 2. Add a swap **partition** on `/dev/vdc1` with `priority=10`, also persistent.
 3. Set `vm.swappiness` to `20`.
-4. Write the total amount of swap (in MB) into `/opt/course/40/swap-mb`.
+4. Write the total amount of swap (in MB) into `~/lab/40/swap-mb`.
 
 ## Solution
 
@@ -122,7 +120,7 @@ Companion: `vm.vfs_cache_pressure` (default 100) controls reclaim of inode/dentr
 ### Step 4 — Total swap in MB
 
 ```bash
-free -m | awk '/Swap:/ {print $2}' > /opt/course/40/swap-mb
+free -m | awk '/Swap:/ {print $2}' > ~/lab/40/swap-mb
 # alternative:
 awk '/SwapTotal/ {print $2/1024}' /proc/meminfo
 ```

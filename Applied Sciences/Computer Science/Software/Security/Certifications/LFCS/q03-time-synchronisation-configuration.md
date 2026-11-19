@@ -42,12 +42,10 @@ ntpdate -q 0.pool.ntp.org            # tester un serveur SANS modifier l'horloge
 
 ## Énoncé
 
-Solve this question on: `terminal`
-
-Time synchronisation configuration needs to be updated:
-1. Set `0.pool.ntp.org` and `1.pool.ntp.org` as main NTP servers
-2. Set `ntp.ubuntu.com` and `0.debian.pool.ntp.org` as fallback NTP servers
-3. The maximum poll interval should be `1000` seconds and the connection retry `20` seconds
+Configurez la synchronisation de l'heure avec `systemd-timesyncd` :
+1. serveurs NTP principaux : `0.pool.ntp.org` et `1.pool.ntp.org` ;
+2. serveurs de secours : `ntp.ubuntu.com` et `0.debian.pool.ntp.org` ;
+3. intervalle d'interrogation maximal de `1000` secondes et délai avant nouvelle tentative de connexion de `20` secondes.
 
 ## Solution
 
@@ -150,11 +148,11 @@ sudo service systemd-timesyncd status
 
              └─161213 /lib/systemd/systemd-timesyncd
 
-Jul 27 15:40:11 terminal systemd[1]: Starting Network Time Synchronization...
+Jul 27 15:40:11 server systemd[1]: Starting Network Time Synchronization...
 
-Jul 27 15:40:11 terminal systemd[1]: Started Network Time Synchronization.
+Jul 27 15:40:11 server systemd[1]: Started Network Time Synchronization.
 
-Jul 27 15:40:11 terminal systemd-timesyncd[161213]: Initial synchronization to time server 162.159.200.123:123 (0.pool.ntp.org).
+Jul 27 15:40:11 server systemd-timesyncd[161213]: Initial synchronization to time server 162.159.200.123:123 (0.pool.ntp.org).
 
 Status output looking good. In the logs above we can see which NTP server was used for synchronisation. We could also check the logs with:
 ```bash
