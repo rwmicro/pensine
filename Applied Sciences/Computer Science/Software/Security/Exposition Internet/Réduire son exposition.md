@@ -21,11 +21,11 @@ Toutes les mesures ne se valent pas. On les applique dans cet ordre, en ne desce
 
 ```mermaid
 flowchart TB
-    Q1{"Le service est-il\nencore utile ?"} -->|Non| S["Supprimer\nservice, DNS, certificat"]
-    Q1 -->|Oui| Q2{"Doit-il être\npublic ?"}
-    Q2 -->|Non| R["Restreindre\nVPN, liste d'adresses, accès authentifié en amont"]
-    Q2 -->|Oui| D["Durcir\nmises à jour, authentification forte, WAF"]
-    R --> M["Masquer\nbannières, versions, pages par défaut"]
+    Q1{"Encore utile ?"} -->|Non| S["Supprimer"]
+    Q1 -->|Oui| Q2{"Public ?"}
+    Q2 -->|Non| R["Restreindre\n(VPN, liste d'adresses)"]
+    Q2 -->|Oui| D["Durcir\n(mises à jour, MFA)"]
+    R --> M["Masquer\n(versions, pages par défaut)"]
     D --> M
 ```
 
