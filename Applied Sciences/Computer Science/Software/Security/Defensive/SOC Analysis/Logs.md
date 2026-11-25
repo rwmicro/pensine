@@ -184,23 +184,19 @@ Résumé des flux réseau (pas le contenu) : IP source, IP destination, port, pr
 
 ## Pipeline de traitement des logs
 
+```mermaid
+flowchart LR
+    src["Sources\nserveurs, applis, réseau"] --> col["Collecte\nagent ou forwarder"]
+    col --> tr["Transport\nsyslog, Beats, Kafka"]
+    tr --> par["Analyse\net normalisation"]
+    par --> enr["Enrichissement\nGeoIP, CTI, CMDB"]
+    enr --> idx[("Indexation\nSIEM")]
+    idx --> cor["Corrélation\net alertes"]
+    idx --> vis["Tableaux de bord\net rapports"]
+    cor --> soc["Analyste SOC"]
 ```
-Sources (serveurs, apps, réseau)
-        ↓
-Collection (Forwarder/Agent)
-        ↓
-Transport (Syslog, Kafka, Beats)
-        ↓
-Parsing & Normalisation
-        ↓
-Enrichissement (GeoIP, Threat Intel, CMDB)
-        ↓
-Indexation (SIEM, Elasticsearch)
-        ↓
-Corrélation & Alertes
-        ↓
-Visualisation & Reporting
-```
+
+Chaque étage peut perdre ou abîmer un événement : une horloge mal réglée à la source fausse la corrélation, un champ mal normalisé rend une règle aveugle.
 
 > [!tip] Méthode
 > Le goulot d'étranglement réel d'un pipeline de logs n'est presque jamais la corrélation ou le stockage — c'est le **parsing/normalisation**. Un log mal parsé (champs non extraits, timestamp mal reconnu) devient invisible pour les règles de détection en aval, même si le SIEM l'a bien ingéré : la donnée est présente mais inexploitable.

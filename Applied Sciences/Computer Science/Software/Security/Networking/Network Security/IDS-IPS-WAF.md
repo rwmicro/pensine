@@ -179,18 +179,21 @@ Pour un plan de test complet, la vérification de l'architecture, les tests Ngin
 
 ### Modes de déploiement
 
+```mermaid
+flowchart LR
+    subgraph RP["Reverse proxy, le plus courant"]
+        c1["Client"] --> w1["WAF\nterminaison TLS"] --> s1["Serveur web"]
+    end
+    subgraph TB["Pont transparent"]
+        c2["Client"] --> w2["WAF\ninvisible en couche 3"] --> s2["Serveur web"]
+    end
+    subgraph OOB["Hors bande, détection seule"]
+        c3["Client"] --> s3["Serveur web"]
+        c3 -.->|"copie du trafic"| w3["WAF"]
+    end
 ```
-Reverse Proxy (le plus courant) :
-Client → [WAF] → Serveur Web
 
-Inline Transparent Bridge :
-Client → [WAF transparent] → Serveur Web
-
-Out-of-Band (détection uniquement, pas de blocage) :
-Client ─────────────────→ Serveur Web
-         ↓ (copie)
-         [WAF]
-```
+En ligne (les deux premiers modes), le WAF peut bloquer, mais une panne de sa part coupe le site. Hors bande, il ne voit qu'une copie : il alerte sans jamais rien casser, et sans jamais rien arrêter.
 
 ### ModSecurity
 

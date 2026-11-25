@@ -168,22 +168,19 @@ Collaboration structurée entre Red et Blue pour maximiser l'amélioration :
 
 ### Cycle de vie d'un incident
 
-```
-Détection (SIEM, EDR, utilisateur)
-        ↓
-Qualification / Triage (Tier 1)
-        ↓
-Investigation (Tier 2)
-        ├─ Incident confirmé → Containment
-        └─ Faux positif → Clôture + tuning règle
-        ↓
-Containment (isolation, blocage)
-        ↓
-Eradication (suppression malware, patches)
-        ↓
-Recovery (restauration services)
-        ↓
-Post-Incident Review (lessons learned)
+```mermaid
+flowchart TD
+    det["Détection\nSIEM, EDR, signalement"] --> t1["Triage\nTier 1"]
+    t1 -->|"bruit évident"| clos["Clôture\net réglage de la règle"]
+    t1 -->|"à creuser"| t2["Investigation\nTier 2"]
+    t2 -->|"faux positif"| clos
+    t2 -->|"incident confirmé"| cont["Confinement\nisolement, blocage"]
+    t2 -.->|"cas complexe"| t3["Tier 3\nanalyse avancée"]
+    t3 -.-> cont
+    cont --> erad["Éradication\nmalware, correctifs"]
+    erad --> reco["Restauration\ndes services"]
+    reco --> rex["Retour d'expérience"]
+    rex -.->|"nouvelles détections"| det
 ```
 
 ### Classification des incidents

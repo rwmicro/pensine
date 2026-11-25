@@ -15,6 +15,15 @@ Un mardi matin, la comptable d'une PME reçoit un message de son directeur : il 
 
 Un e-mail emprunte trois protocoles différents. Votre logiciel de messagerie le **soumet** à votre serveur d'envoi avec **SMTP** (*Simple Mail Transfer Protocol*). Ce serveur le **relaie** ensuite, toujours en SMTP, jusqu'au serveur du destinataire, qu'il trouve en interrogeant les enregistrements MX du DNS. Le destinataire, enfin, le **consulte** avec **IMAP** (*Internet Message Access Protocol*), qui laisse les messages sur le serveur et synchronise plusieurs appareils, ou avec **POP3** (*Post Office Protocol*), qui les télécharge, et que l'on n'utilise presque plus.
 
+```mermaid
+flowchart LR
+    mua["Votre messagerie"] -->|"SMTP 587, soumission"| msa["Serveur d'envoi\nexpediteur.fr"]
+    msa -.->|"MX de destinataire.fr ?"| dns[("DNS")]
+    msa -->|"SMTP 25, relais"| mx["Serveur MX\ndestinataire.fr"]
+    mx -->|"vérifie SPF, DKIM, DMARC"| box["Boîte aux lettres"]
+    box -->|"IMAP 993"| mua2["Messagerie\ndu destinataire"]
+```
+
 |**Protocole**|**Rôle**|**Port en clair (ou STARTTLS)**|**Port en TLS direct**|
 |---|---|---|---|
 |SMTP (relais entre serveurs)|Acheminement d'un serveur à l'autre|25|aucun|

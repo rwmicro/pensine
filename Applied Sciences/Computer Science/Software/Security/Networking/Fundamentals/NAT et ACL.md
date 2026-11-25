@@ -74,6 +74,14 @@ Router(config)#ip nat inside source list 1 pool MON_POOL overload
 Router(config)#ip nat inside source list 1 interface GigabitEthernet0/1 overload
 ```
 
+Le routeur tient une table : une ligne par connexion sortante, qui associe l'adresse et le port privés à un port de son adresse publique. Ouvrez des connexions, faites revenir les réponses, puis tentez une connexion entrante :
+
+```widget:nat
+lan: 192.168.1.10, 192.168.1.11, 192.168.1.12
+wan: 203.0.113.5
+serveur: 93.184.216.34:443
+```
+
 ### Vérification NAT
 
 ```cisco

@@ -135,6 +135,18 @@ hashcat -m 1000 -a 6 hashes.txt rockyou.txt ?d?d?d?d  # Mot + 4 chiffres (hybrid
 hashcat -m 1000 -a 7 hashes.txt ?u rockyou.txt         # Majuscule + mot (hybrid)
 ```
 
+Le même mot de passe ne résiste pas du tout de la même façon selon la fonction qui l'a haché :
+
+```widget:cassage
+longueur: 8
+jeux: minuscules, chiffres
+objectif: Trouvez la longueur minimale pour qu'un mot de passe en minuscules, majuscules et chiffres tienne plus d'un siècle face au NTLM.
+cible: jeux=3, longueur=12, dictionnaire=0
+indice: Avec 62 caractères, chaque caractère multiplie le temps par 62.
+erreur: longueur<12 → Encore trop court face à 290 milliards d'essais par seconde. ;; longueur>12 → Ça tient, mais plus court suffit.
+bravo: 12 caractères aléatoires parmi 62, c'est environ 3 × 10²¹ combinaisons : plus de 300 ans même en NTLM. En bcrypt, 8 suffisaient déjà.
+```
+
 ### Kerberoasting
 
 ```bash

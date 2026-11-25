@@ -25,6 +25,25 @@ Un trust est une relation qui fait reconnaître les utilisateurs d'un domaine A 
 
 Plusieurs types coexistent. Les trusts **parent-enfant** et **tree-root** sont créés automatiquement à l'intérieur d'une forêt, bidirectionnels et transitifs ; c'est eux qui relient `enfant.domaine.local` à `domaine.local`, et ils partagent une clé de confiance avec le parent. Le **forest trust** relie manuellement deux forêts distinctes ; il est transitif à l'intérieur de chaque forêt et protégé par défaut par le filtrage de SID. L'**external trust** relie un domaine à un domaine hors de sa forêt ; il n'est pas transitif et, lui aussi, filtré par défaut.
 
+```mermaid
+flowchart LR
+    subgraph F1["Forêt corp.local"]
+        root1["corp.local\nracine de la forêt"]
+        child["paris.corp.local\ndomaine enfant"]
+        tree["corp-eu.net\nautre arbre"]
+        root1 <-->|"parent-enfant, transitif"| child
+        root1 <-->|"tree-root, transitif"| tree
+    end
+    subgraph F2["Forêt partenaire.local"]
+        root2["partenaire.local"]
+    end
+    ext["fournisseur.com\ndomaine hors forêt"]
+    root1 <-->|"forest trust, SID filtrés"| root2
+    child <-->|"external trust, non transitif"| ext
+```
+
+À l'intérieur d'une forêt, tout domaine fait confiance à tous les autres, de proche en proche : c'est pourquoi la forêt, et non le domaine, est la vraie frontière de sécurité.
+
 La sécurité réelle d'un trust tient surtout à deux réglages. Le **filtrage de SID** (*SID Filtering*), quand il est désactivé, laisse passer les SID étrangers glissés dans un ticket Kerberos, ce qui rend exploitable l'abus de SID History et ouvre l'escalade vers le domaine de confiance ; activé, il les bloque. L'**authentification sélective** (*Selective Authentication*) va plus loin en n'autorisant que des utilisateurs explicitement désignés à accéder aux ressources de l'autre côté.
 
 ## Énumération des trusts

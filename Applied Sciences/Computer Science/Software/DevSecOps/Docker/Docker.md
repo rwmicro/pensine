@@ -21,6 +21,27 @@ Une machine virtuelle simule un ordinateur complet : un hyperviseur lui présent
 
 Un conteneur, lui, n'est qu'un processus ordinaire de l'hôte, auquel le noyau Linux donne une vue restreinte du système. Les **namespaces** lui font croire qu'il est seul : il a son propre arbre de processus, son propre réseau, ses propres points de montage, ses propres utilisateurs. Les **cgroups** limitent les ressources qu'il peut consommer, mémoire, CPU, entrées-sorties. Une image ne pèse souvent que quelques dizaines de mégaoctets et le conteneur démarre en une fraction de seconde. En contrepartie, tous les conteneurs partagent le même noyau, et une faille de ce noyau peut permettre de s'échapper d'un conteneur vers l'hôte.
 
+```mermaid
+block-beta
+    columns 2
+    block:vm:1
+        columns 2
+        a1["Appli A"] a2["Appli B"]
+        o1["OS invité"] o2["OS invité"]
+        hv["Hyperviseur"]:2
+        hw1["Matériel"]:2
+    end
+    block:ct:1
+        columns 2
+        c1["Appli A"] c2["Appli B"]
+        r1["Conteneur\nnamespaces, cgroups"] r2["Conteneur\nnamespaces, cgroups"]
+        k["Noyau Linux partagé"]:2
+        hw2["Matériel"]:2
+    end
+```
+
+À gauche, deux machines virtuelles : chacune démarre son propre système. À droite, deux conteneurs : deux processus isolés sur le même noyau, d'où leur légèreté, et d'où le risque qu'une faille du noyau les concerne tous.
+
 ## Images, conteneurs et registres
 
 Trois notions organisent tout Docker. Une **image** est un modèle en lecture seule : un système de fichiers figé, construit par couches (*layers*) empilées, chacune correspondant à une étape de construction. Un **conteneur** est une instance en cours d'exécution d'une image, à laquelle Docker ajoute une fine couche en écriture ; quand on supprime le conteneur, cette couche disparaît avec lui, ce qui rend les conteneurs éphémères par nature. Un **registre** stocke et distribue les images : Docker Hub est le registre public par défaut, et les entreprises utilisent des registres privés comme GHCR, GitLab Registry ou Harbor.

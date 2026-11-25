@@ -18,33 +18,31 @@ Le ransomware est la menace la plus destructrice en cybersécurité actuelle. Un
 
 La plupart des opérations ransomware suivent un schéma prévisible, souvent étalé sur **plusieurs jours à plusieurs semaines** entre l'accès initial et le chiffrement :
 
+```widget:kill-chain
+e1: J0 | Accès initial | phishing, RDP exposé, VPN sans MFA ou faille connue
+e2: J0 | Exécution | loader ou dropper qui lance une balise C2
+e3: J1 | Persistance | tâche planifiée, clé Run, service
+e4: J2 | Reconnaissance interne | BloodHound, net group, énumération LDAP
+e5: J4 | Élévation de privilèges | Kerberoasting, dump de LSASS, DCSync
+e6: J5 | Mouvement latéral | PsExec, WMI, RDP, SMB avec le même mot de passe admin
+e7: J9 | Exfiltration | rclone ou MEGAsync vers un stockage en ligne
+e8: J11 | Désactivation des défenses | arrêt de l'antivirus, suppression des shadow copies
+e9: J12 | Chiffrement | rançongiciel poussé par GPO, note de rançon
+d1: MFA sur le VPN et le RDP | bloque 1
+d2: EDR en mode alerte | détecte 2, 5 | actif
+d3: Règle SIEM sur l'énumération LDAP | détecte 4
+d4: LSASS protégé, comptes de service gMSA | bloque 5
+d5: LAPS, un mot de passe admin par poste | bloque 6
+d6: Filtrage des flux sortants | bloque 7
+d7: Alertes traitées en moins de 24 h | soc
+d8: Sauvegardes hors ligne | sauvegarde
+objectif: L'EDR voit déjà l'attaque dès le premier jour. Ajoutez une seule défense pour qu'elle s'arrête avant le chiffrement.
+cible: arretee=1, defenses=2
+indice: Une alerte ne sert à rien tant que personne ne la lit.
+bravo: Une défense qui bloque une étape suffit. Mais la moins chère est souvent la dernière de la liste : la même alerte EDR, traitée en 24 h, isole le poste dès le jour 1.
 ```
-Accès initial (phishing, RDP, vuln)
-    │
-    ▼
-Exécution de code (loader, dropper)
-    │
-    ▼
-Persistence (tâches planifiées, clés registre, service)
-    │
-    ▼
-Reconnaissance interne (AD, BloodHound, net commands)
-    │
-    ▼
-Mouvement latéral (PsExec, WMI, RDP, SMB)
-    │
-    ▼
-Élévation de privilèges (Kerberoasting, DCSync, exploits)
-    │
-    ▼
-Exfiltration de données (rclone, MEGASync, FTP custom)
-    │
-    ▼
-Désactivation des défenses (kill AV, delete shadow copies)
-    │
-    ▼
-Chiffrement massif + note de rançon
-```
+
+Cochez des défenses : certaines bloquent une étape, d'autres ne font que la voir. Une détection ne sert que si quelqu'un la traite avant l'étape suivante.
 
 ## Vecteurs d'accès initial
 

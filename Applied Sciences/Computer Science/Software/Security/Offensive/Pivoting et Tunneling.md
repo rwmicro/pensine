@@ -15,31 +15,44 @@ Le pivoting consiste à utiliser une machine compromise comme relais pour accéd
 
 ## Concepts fondamentaux
 
+```mermaid
+flowchart LR
+    att["Attaquant\nInternet"] -->|"accès direct"| piv["Machine pivot\nDMZ"]
+    piv -->|"accès que l'attaquant n'a pas"| net["Réseau interne\n192.168.10.0/24"]
+    net --> cible["Cible finale\n192.168.10.50"]
 ```
-Topologie typique :
 
-  Attaquant (Internet)
-       ↕  (accès direct)
-  Machine pivot (DMZ / réseau accessible)
-       ↕  (accès indirect via pivot)
-  Réseau interne (192.168.10.0/24)
-       ↕
-  Cible finale (192.168.10.50)
+Trois familles de tunnels :
 
-Types de tunnels :
-  Port Forwarding  → rediriger un port spécifique
-  SOCKS Proxy      → proxy générique (TCP, UDP) → outil de choix pour la navigation
-  VPN-like         → interface réseau virtuelle (ligolo-ng, WireGuard)
+- **Redirection de port** : un port précis, d'un bout à l'autre.
+- **Proxy SOCKS** : un proxy générique pour TCP, l'outil de choix pour explorer un réseau.
+- **Interface virtuelle** (ligolo-ng, WireGuard) : le réseau interne devient une simple route locale.
 
-Sens des connexions :
-  Forward (Local)  → attaquant ouvre un port, pivot y connecte (nécessite accès entrant vers pivot)
-  Reverse          → pivot initie la connexion vers l'attaquant (passe les firewalls sortants)
-```
+Et deux sens de connexion :
+
+- **Direct (local)** : l'attaquant se connecte au pivot, ce qui suppose un accès entrant vers lui.
+- **Inverse (reverse)** : le pivot se connecte à l'attaquant, ce qui traverse les pare-feu qui ne filtrent que l'entrant.
 
 > [!important] Idée clé
 > Le choix entre forward et reverse — comme celui entre SSH, Chisel (HTTP) ou DNS tunneling — dépend d'une seule question : qu'est-ce que le firewall de la cible laisse sortir ? Les règles sortantes sont presque toujours plus permissives que les règles entrantes, ce qui explique pourquoi la quasi-totalité des techniques de ce fichier reposent sur une connexion initiée depuis le pivot vers l'attaquant, jamais l'inverse.
 
 ## SSH Tunneling
+
+Les trois redirections de SSH se confondent facilement. Le schéma montre, pour chacune, qui tape la commande, qui ouvre la session SSH et où le port écoute.
+
+```widget:tunnel-ssh
+mode: L
+pivot-nom: web01
+pivot: 10.10.10.20
+pivot-interne: 172.16.0.20
+destination-nom: db01
+destination: 172.16.0.50:3306
+objectif: Le pare-feu bloque toute connexion entrante vers web01. Choisissez le tunnel qui reste possible.
+cible: mode=R
+indice: Si personne ne peut entrer chez web01, c'est lui qui doit sortir.
+erreur: mode=L → -L suppose que vous puissiez vous connecter en SSH à web01. ;; mode=D → -D aussi part de votre machine vers web01.
+bravo: Avec -R, c'est web01 qui ouvre la session vers vous : seul le trafic sortant est nécessaire.
+```
 
 SSH est le vecteur de pivoting le plus simple quand un accès SSH est disponible.
 

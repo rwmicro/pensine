@@ -15,27 +15,27 @@ L'infrastructure de Command & Control (C2) permet aux red teams et attaquants de
 
 ## Architecture C2 — Principes
 
+```mermaid
+flowchart LR
+    op["Opérateur"] -->|"VPN ou SSH"| ts["Team server\njamais exposé"]
+    ts <-->|"tunnel privé"| r1["Redirecteur HTTPS\nIP publique jetable"]
+    ts <-->|"tunnel privé"| r2["Redirecteur DNS"]
+    r1 <-->|"HTTPS, profil malléable"| a1["Balise\nposte victime"]
+    r2 <-->|"requêtes DNS"| a2["Balise\nserveur victime"]
+    a1 <-->|"SMB nommé, pivot interne"| a3["Balise\nsans accès Internet"]
 ```
-Architecture de base :
 
-  Opérateur → Team Server C2 → Redirecteur(s) → Agent (victim)
+- **Team server** : le serveur central du framework. Il n'est jamais exposé à Internet, pour protéger son adresse.
+- **Redirecteur** : un proxy entre la victime et le team server. C'est lui dont l'adresse apparaît dans les balises ; s'il est brûlé, on en déploie un autre sans toucher au reste.
+- **Balise (agent)** : le programme installé sur la victime, qui rappelle le redirecteur en HTTP(S), DNS ou SMB.
 
-Composants :
-  Team Server : serveur central exécutant le framework C2
-                → Jamais exposé directement à internet (protéger l'IP)
-  Redirecteur  : proxy entre la victime et le team server
-                → IP publique exposée dans les beacons
-                → Si brûlé, l'opérateur peut en déployer un nouveau
-  Agent/Beacon : payload déployé sur la victime
-                → Communicate via HTTP/HTTPS/DNS/SMB vers le redirecteur
+Les canaux de communication les plus courants :
 
-Protocoles de communication C2 :
-  HTTP/HTTPS   : le plus courant, se fond dans le trafic légitime
-  DNS          : très furtif, difficile à bloquer (tunnel DNS)
-  SMB          : communication inter-agents (lateral movement)
-  ICMP         : passe souvent les firewalls permissifs
-  Slack/Teams  : C2 via APIs SaaS (très difficile à détecter)
-```
+- **HTTP/HTTPS** : le plus courant, il se fond dans le trafic légitime.
+- **DNS** : très discret et difficile à bloquer (tunnel DNS).
+- **SMB** : entre balises, pour atteindre les machines sans accès Internet.
+- **ICMP** : passe souvent les pare-feu permissifs.
+- **Slack, Teams** : C2 par les API d'un service SaaS, très difficile à distinguer du trafic normal.
 
 > [!important] Idée clé
 > Le redirecteur n'est pas qu'un proxy technique : c'est un fusible. Sa seule fonction est d'encaisser la détection à la place du team server — s'il est identifié et bloqué, l'opérateur en déploie un autre en quelques minutes, alors que la compromission du team server ferait tomber toute la campagne (identité de l'opérateur, historique des sessions, accès aux agents). Toute décision d'architecture C2 découle de ce principe : jamais exposer directement ce qui est coûteux à remplacer.
