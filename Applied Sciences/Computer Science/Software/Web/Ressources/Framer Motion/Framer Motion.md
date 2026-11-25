@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Web > Ressources > Framer Motion"
 tags: [sciences-appliquées, informatique, web]
 date: "2026-02-04"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Web/ReactJS]]"]
 ---
 
 # Framer Motion

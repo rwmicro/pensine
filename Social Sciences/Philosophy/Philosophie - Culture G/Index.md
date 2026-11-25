@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Philosophy > Culture G"
 tags: [philosophie, index, culture-générale]
 date: "2026-04-12"
+prerequis: ["[[Social Sciences/Philosophy/Philosophie - Culture G/4. Frises Chronologiques/Frise de la Philosophie Occidentale]]"]
 ---
 
 # Philosophie - Culture G — Index de navigation

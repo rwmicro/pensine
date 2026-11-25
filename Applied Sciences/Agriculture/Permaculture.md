@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Agriculture"
 tags: [sciences-appliquées, agriculture, écologie, design]
 date: "2026-05-25"
+prerequis: ["[[Applied Sciences/Ecology/Principes Fondamentaux]]"]
 ---
 
 # Permaculture

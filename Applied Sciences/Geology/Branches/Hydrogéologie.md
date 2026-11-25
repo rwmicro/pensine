@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Geology > Branches"
 tags: [sciences-appliquées, géologie, hydrogéologie, aquifères, eau-souterraine, pollution]
 date: "2026-04-18"
+prerequis: ["[[Applied Sciences/Geology/Branches/Géomorphologie]]"]
 ---
 
 # Hydrogéologie

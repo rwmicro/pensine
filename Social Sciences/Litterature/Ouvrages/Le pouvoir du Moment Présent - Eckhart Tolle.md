@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Litterature > Ouvrages"
 tags: [sciences-sociales, littérature, philosophie, spiritualité, développement-personnel]
 date: "2026-04-16"
+prerequis: ["[[Social Sciences/Litterature/Périodes/Postmodernisme et Contemporain (1970-Aujourd'hui)]]"]
 ---
 
 # Le Pouvoir du Moment Présent — Eckhart Tolle

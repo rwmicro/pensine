@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Ouighour"
 tags: [sciences-sociales, langues, ouighour, index]
 date: "2026-07-30"
+prerequis: ["[[Social Sciences/Languages - Dialects/Ouighour/01-Phonologie/01-Alphabet]]"]
 ---
 # Bases de la langue ouïghoure
 

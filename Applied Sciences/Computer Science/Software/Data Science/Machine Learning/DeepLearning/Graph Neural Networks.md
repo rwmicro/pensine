@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Data Science > Machine Learning > DeepLearning"
 tags: [gnn, gcn, graph, deep-learning, machine-learning, graphe]
 date: "2026-03-22"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Data Science/Machine Learning/DeepLearning/Perceptron et Rétropropagation]]"]
 ---
 
 # Graph Neural Networks (GNN)

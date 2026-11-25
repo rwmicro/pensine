@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Platform Security"
 tags: [mainframe, z-os, racf, cics, db2, jcl, smf, durcissement]
 date: "2026-10-20"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Security/Platform Security/ICS-SCADA Security]]"]
 ---
 
 # Mainframe Security

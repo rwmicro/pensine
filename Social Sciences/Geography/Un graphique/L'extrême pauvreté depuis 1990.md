@@ -6,6 +6,7 @@ tags: [sciences-sociales, géographie, pauvreté, développement, un-graphique]
 date: "2026-10-11"
 format: graphique
 pays: Chine, Inde, Nigeria
+prerequis: ["[[Social Sciences/Sociology/Thématiques/Stratification et Classes Sociales]]"]
 ---
 # L'extrême pauvreté a été divisée par quatre depuis 1990
 

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Web"
 tags: [sciences-appliquées, informatique, web]
 date: "2026-02-16"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Web/HTTP en profondeur]]"]
 ---
 
 # Web Development

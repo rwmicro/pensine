@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Teochew > 02-Communication"
 tags: [sciences-sociales, langues, teochew, communication]
 date: "2026-11-12"
+prerequis: ["[[Social Sciences/Languages - Dialects/Familles-Linguistiques]]"]
 ---
 # Phrases essentielles — Teochew de Pontianak
 

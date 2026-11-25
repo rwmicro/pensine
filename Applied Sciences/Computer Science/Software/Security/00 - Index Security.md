@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security"
 tags: [sciences-appliquées, informatique, sécurité, index, moc]
 date: "2026-05-29"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Security/Methodologie/Pentest Methodology]]"]
 ---
 
 # Index — Security

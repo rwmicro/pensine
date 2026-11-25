@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Mathematics"
 tags: [sciences-appliquées, mathématiques, applications, cryptographie, signal, machine-learning]
 date: "2026-05-20"
+prerequis: ["[[Applied Sciences/Mathematics/Math Sup/Algèbre Linéaire]]"]
 ---
 
 # Applications des Mathématiques

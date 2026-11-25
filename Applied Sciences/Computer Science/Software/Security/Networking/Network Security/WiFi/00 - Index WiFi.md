@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Network Security > WiFi"
 tags: [sciences-appliquées, informatique, sécurité, réseau, wifi, moc]
 date: "2026-05-17"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Security/Networking/Network Security/WiFi/01 - Fondamentaux 802.11]]"]
 ---
 # Index WiFi
 

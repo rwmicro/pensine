@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Languages - Dialects > Darija"
 tags: [sciences-sociales, langues, arabe, darija, maroc, politique-linguistique, amazigh]
 date: "2026-09-18"
+prerequis: ["[[Social Sciences/Languages - Dialects/Arabe/Littéraire/Arabe-Standard/05-Culture/Diglossie-et-Histoire]]"]
 ---
 # Statut et Politique Linguistique
 

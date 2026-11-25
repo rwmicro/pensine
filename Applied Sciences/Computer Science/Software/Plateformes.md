@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science"
 tags: [sciences-appliquées, informatique]
 date: "2025-01-15"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Algorithmique/Complexité et Big O]]"]
 ---
 
 # Plateformes d'Entraînement

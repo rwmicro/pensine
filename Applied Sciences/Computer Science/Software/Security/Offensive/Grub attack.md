@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security"
 tags: [sciences-appliquées, informatique, sécurité]
 date: "2026-02-04"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Systèmes d'Exploitation/Démarrage et Bootloader]]"]
 ---
 
 # Attaque via GRUB

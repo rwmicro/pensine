@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security"
 tags: [sciences-appliquées, informatique, sécurité, bug-bounty, pentest, web-security, recon]
 date: "2026-04-16"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Security/Methodologie/Pentest Methodology]]"]
 ---
 
 # Bug Bounty — Méthodologie

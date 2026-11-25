@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Physics"
 tags: [sciences-appliquées, physique, erreurs, pièges]
 date: "2026-06-21"
+prerequis: ["[[Applied Sciences/Physics/Lycée/Mécanique/Lois de Newton]]"]
 ---
 
 # Erreurs Classiques en Physique

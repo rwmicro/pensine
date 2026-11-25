@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Geology > Branches"
 tags: [sciences-appliquées, géologie, paléontologie, fossiles, extinctions]
 date: "2026-02-22"
+prerequis: ["[[Applied Sciences/Geology/Branches/Géomorphologie]]"]
 ---
 
 # Paléontologie et Histoire de la Vie

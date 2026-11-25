@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Platform Security"
 tags: [sap, erp, netweaver, abap, hana, saprouter, sod, durcissement, détection]
 date: "2026-10-20"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Security/Platform Security/Mainframe Security]]"]
 ---
 
 # Sécurité SAP et ERP

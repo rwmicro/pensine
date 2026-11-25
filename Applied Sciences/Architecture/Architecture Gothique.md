@@ -7,6 +7,7 @@ date: "2026-10-12"
 year: 1140
 yearEnd: 1520
 period: "Du chevet de Saint-Denis au gothique flamboyant"
+prerequis: ["[[Social Sciences/Arts/Théorie de l'Art]]"]
 ---
 
 # Architecture Gothique

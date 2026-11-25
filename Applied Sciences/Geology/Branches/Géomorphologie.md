@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Geology > Branches"
 tags: [sciences-appliquées, géologie, géomorphologie, érosion, relief]
 date: "2026-02-22"
+parcours: "Géologie : du relief à l'histoire de la vie"
 ---
 
 # Géomorphologie
