@@ -70,6 +70,10 @@ Carte du domaine sécurité du vault. Organisation par discipline, du concept à
 
 `Defensive/SOC Analysis/DFIR/` — [[DFIR]], [[Malware Analysis]], [[Memory Analysis]], [[Volatility 3]], [[Windows Forensics]], [[Linux Forensics]], [[Network Forensics]], [[Cloud Forensics et IR]], [[Playbooks IR]]
 
+## Exposition internet
+
+`Exposition Internet/` — inventorier, repérer et réduire sa surface exposée : [[Exposition internet]], [[Inventaire des actifs]], [[Empreinte externe]], [[Moteurs de recherche d'appareils]], [[Scan à l'échelle d'internet]], [[Identification des services]], [[Expositions et failles connues]], [[Réduire son exposition]], [[Surveillance continue de l'exposition]], et les exercices [[Auditer son propre labo]].
+
 ## GRC et Gouvernance
 
 `GRC et Gouvernance/` — [[Threat Modeling]] (note canonique), [[Compliance]], [[NIS2 et DORA]], [[Gestion des Vulnérabilités]], [[Secure SDLC]], [[Zero Trust Architecture]], [[Business Continuity et Disaster Recovery]], [[Supply Chain Attacks]], [[Privacy Engineering]], [[Sécurité des données]], EBIOS RM (`Risk Analysis/`)
@@ -112,6 +116,7 @@ Des chemins possibles pour aborder le domaine sans se disperser. Chaque étape s
 | Renseignement stratégique | [[Threat Intelligence]] → [[MITRE ATT&CK]] → [[APT et Acteurs de la Menace]] → [[Threat Intelligence stratégique]] → [[Adversary Emulation]] |
 | Émulation et mesure | [[MITRE ATT&CK]] → [[Threat Intelligence]] → [[Adversary Emulation]] → [[Purple Teaming]] |
 | Cryptographie appliquée | [[Cryptographie]] → [[TLS 1.3]] → [[PKI en profondeur]] → [[Gestion des clés et HSM]] → [[Cryptographie post-quantique]] |
+| Exposition internet | [[Exposition internet]] → [[Inventaire des actifs]] → [[Empreinte externe]] → [[Moteurs de recherche d'appareils]] → [[Scan à l'échelle d'internet]] → [[Identification des services]] → [[Expositions et failles connues]] → [[Réduire son exposition]] → [[Surveillance continue de l'exposition]] → [[Auditer son propre labo]] |
 | Gouvernance | [[Threat Modeling]] → [[Compliance]] → [[EBIOS RM]] → [[NIS2 et DORA]] → [[Privacy Engineering]] → [[Sécurité des données]] → [[Business Continuity et Disaster Recovery]] |
 
 ## Certifications
