@@ -2,7 +2,7 @@
 title: "Defense WiFi et Détection"
 domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Network Security > WiFi"
-tags: [sciences-appliquées, informatique, sécurité, réseau, wifi, defense, wids, mfp, hardening]
+tags: [sciences-appliquées, informatique, sécurité, réseau, wifi, defense, wids, mfp, hardening, ppsk, vlan, radius]
 date: "2026-05-17"
 prerequis: ["[[03 - Attaques WPA2-PSK]]", "[[05 - Evil Twin et Phishing]]", "[[06 - Attaques WPA2-Enterprise]]", "[[07 - DoS et MDK4]]", "[[09 - WPA3 et Vulnérabilités Modernes]]"]
 ---
@@ -212,6 +212,55 @@ flowchart TD
 - IoT en VLAN dédié (caméras, ampoules, thermostats) — souvent vulnérables, à isoler
 - DHCP options 43/60 pour push de config sécurité
 - Captive portal sur Guest pour accept des CGU
+
+### Un seul SSID, une clé par groupe : le PPSK
+
+Le schéma ci-dessus multiplie les SSID, et chaque SSID a un coût : une balise de plus émise toutes les ~100 ms sur chaque canal, du temps d'antenne perdu, et une liste de réseaux qui s'allonge pour les utilisateurs. Le **PPSK** (*Private Pre-Shared Key*) obtient la même segmentation avec un seul SSID en WPA2-Personal : au lieu d'une passphrase commune, le réseau en connaît plusieurs, et c'est la passphrase saisie qui décide du VLAN où atterrit l'appareil. Une box de bureau peut ainsi distribuer `Employes-2026` (VLAN 10), `Invites-nov` (VLAN 20) et une clé par caméra (VLAN 30), le tout sous le nom unique `Bureau-WiFi`.
+
+> [!abstract] Définition — PPSK
+> Mode WPA2-Personal où un même SSID accepte plusieurs clés pré-partagées, chacune rattachée à un utilisateur, un groupe ou un appareil, et à un VLAN. Les constructeurs lui donnent chacun leur nom : PPSK chez Extreme (ex-Aerohive), iPSK (*Identity PSK*) chez Cisco et Meraki, DPSK (*Dynamic PSK*) chez Ruckus, MPSK chez Aruba, « Private Pre-Shared Keys » chez Ubiquiti.
+
+Le mécanisme tient dans le handshake 4-way. Le client n'annonce jamais quelle passphrase il utilise : il envoie seulement, au message 2, son SNonce accompagné d'un MIC calculé avec sa PMK. L'AP, qui connaît déjà les deux nonces et les deux adresses MAC, essaie donc ses PMK candidates une à une jusqu'à trouver celle qui reproduit ce MIC ; c'est exactement le calcul qu'un attaquant fait hors ligne, mais sur une liste courte et connue. Pour éviter de tout essayer, les déploiements d'entreprise interrogent plutôt un serveur RADIUS sur l'adresse MAC du client (authentification MAB) : la réponse `Access-Accept` porte la clé attendue pour cet appareil et le VLAN où le placer.
+
+```mermaid
+sequenceDiagram
+    participant C as Client
+    participant AP as AP
+    participant R as RADIUS
+    C->>AP: Association au SSID unique
+    AP->>R: Access-Request (MAC du client)
+    R-->>AP: Access-Accept : clé + Tunnel-Private-Group-ID = 30
+    AP->>C: Message 1 (ANonce)
+    C->>AP: Message 2 (SNonce + MIC)
+    Note over AP: Le MIC valide la clé attendue
+    AP->>C: Messages 3 et 4, client placé dans le VLAN 30
+```
+
+Le VLAN voyage dans trois attributs RADIUS standard (RFC 3580), les mêmes que pour un VLAN dynamique en 802.1X : `Tunnel-Type = VLAN`, `Tunnel-Medium-Type = IEEE-802` et `Tunnel-Private-Group-ID = 30`. Sans RADIUS, hostapd fait la même chose à partir d'un fichier local, une ligne par clé :
+
+```bash
+# hostapd.conf
+wpa_psk_file=/etc/hostapd/hostapd.wpa_psk
+dynamic_vlan=1
+vlan_file=/etc/hostapd/hostapd.vlan
+
+# /etc/hostapd/hostapd.wpa_psk — vlanid, MAC (00:00... = n'importe laquelle), passphrase
+vlanid=10 00:00:00:00:00:00 Employes-2026-correct-horse
+vlanid=20 00:00:00:00:00:00 Invites-novembre-tulipe
+vlanid=30 a4:cf:12:3b:9e:01 camera-entree-7Fq2xL9pW
+```
+
+La dernière ligne lie la clé de la caméra à son adresse MAC : la recopier sur un autre appareil ne suffit pas. Sans liaison, une clé reste partageable comme n'importe quelle PSK.
+
+Le gain le plus concret est la **révocation**. Avec une PSK unique, le départ d'un stagiaire ou le vol d'une ampoule connectée impose de changer la passphrase sur tous les appareils ; en PPSK, on supprime une ligne et les autres clés continuent de fonctionner. Chaque clé laisse aussi une trace propre dans les journaux, ce qui permet de savoir quel appareil était connecté à quel moment.
+
+> [!warning] Piège
+> Le PPSK segmente et permet de révoquer, il ne rend pas la PSK plus solide. Chaque clé reste cassable hors ligne à partir d'un handshake capturé (voir [[03 - Attaques WPA2-PSK]]), et la clé cassée donne directement le VLAN qui lui est associé. Pour des comptes nominatifs avec authentification mutuelle, WPA2/WPA3-Enterprise reste la référence ; le PPSK sert les appareils qui ne savent pas faire de 802.1X (IoT, consoles, imprimantes) et les invités.
+
+Le passage à WPA3 complique les choses. Avec SAE, l'AP doit choisir le mot de passe dès l'échange *Commit*, avant toute preuve qu'il pourrait tester contre plusieurs clés. La norme prévoit pour cela un identifiant de mot de passe que le client envoie avec son Commit (hostapd : `sae_password=...|vlanid=30|id=camera`), mais peu de clients le gèrent encore. La plupart des déploiements PPSK restent donc en WPA2 avec PMF, ou en mode de transition.
+
+> [!quiz] Comment un AP en PPSK sait-il quelle passphrase un client a utilisée, alors que celui-ci ne l'annonce jamais ?
+> Il la retrouve à partir du message 2 du handshake : avec les deux nonces et les deux adresses MAC, il recalcule le MIC pour chacune de ses PMK candidates et garde celle qui correspond. En entreprise, un serveur RADIUS interrogé sur l'adresse MAC du client renvoie directement la clé attendue et le VLAN (`Tunnel-Private-Group-ID`), ce qui évite d'essayer toute la liste.
 
 ## Monitoring continu
 
