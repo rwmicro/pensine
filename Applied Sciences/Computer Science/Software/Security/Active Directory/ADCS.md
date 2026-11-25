@@ -27,6 +27,22 @@ Ces usages sont désignés par l'**EKU** (*Extended Key Usage*). Les deux qui co
 
 Le lien avec l'authentification est assuré par **PKINIT**, l'extension de Kerberos qui accepte un certificat à la place d'un mot de passe : un certificat valide portant *Client Authentication* se convertit en un TGT Kerberos, et donc en un accès au compte visé.
 
+```mermaid
+flowchart LR
+    u["Utilisateur du domaine\nsans privilège"] --> enum["certipy find -vulnerable"]
+    enum --> esc1["ESC1 : le modèle laisse\nchoisir le SAN"]
+    enum --> esc4["ESC4 : droits d'écriture\nsur un modèle"]
+    enum --> esc8["ESC8 : inscription web\nen HTTP sans EPA"]
+    esc4 -->|"rendre le modèle vulnérable"| esc1
+    esc1 -->|"certificat au nom\nd'un administrateur"| cert["Certificat\nd'un Domain Admin"]
+    esc8 -->|"relais NTLM du compte\nmachine d'un DC"| certdc["Certificat\ndu contrôleur de domaine"]
+    cert -->|"PKINIT, certipy auth"| tgt["TGT et hash NT"]
+    certdc -->|"PKINIT puis DCSync"| tgt
+    tgt --> da["Domaine compromis"]
+```
+
+Toutes les voies finissent de la même façon : un certificat accepté pour l'authentification Kerberos (PKINIT) vaut un mot de passe, et il reste valable même si la victime change le sien.
+
 ## Reconnaissance avec Certipy
 
 ```bash

@@ -140,6 +140,28 @@ RETURN p
 | `AddMember` | Ajouter des membres à un groupe | S'ajouter à Domain Admins |
 | `GPLink` | Lien vers une GPO | Si écriture sur GPO → exécution de code sur les objets liés |
 
+Ces relations se combinent en chemins. Voici un petit domaine tel que BloodHound le dessine : le chemin le plus court de l'utilisateur compromis jusqu'au domaine est en rouge.
+
+```widget:chemin-ad
+depart: j.martin
+arrivee: corp.local
+noeuds: j.martin=U, Helpdesk=G, WS042=C, adm.lefevre=U, IT-Admins=G, svc_print=U, SRV-FILE01=C, svc_backup=U, corp.local=D
+e1: j.martin -MemberOf-> Helpdesk | j.martin hérite des droits du groupe Helpdesk.
+e2: Helpdesk -AdminTo-> WS042 | Le Helpdesk est admin local de WS042 : impacket-psexec corp/j.martin@ws042.
+e3: WS042 -HasSession-> adm.lefevre | adm.lefevre a une session ouverte sur WS042 : on vide LSASS et on récupère son hash.
+e4: adm.lefevre -MemberOf-> IT-Admins | adm.lefevre est membre d'IT-Admins.
+e5: IT-Admins -GenericAll-> svc_backup | IT-Admins contrôle totalement svc_backup : on change son mot de passe (net rpc password).
+e6: Helpdesk -ForceChangePassword-> svc_print | Le Helpdesk peut réinitialiser svc_print, mais ce compte ne mène nulle part.
+e7: j.martin -GenericWrite-> SRV-FILE01 | j.martin peut écrire sur l'objet SRV-FILE01 : délégation basée sur la ressource (RBCD) et accès admin à la machine.
+e8: SRV-FILE01 -HasSession-> svc_backup | svc_backup a une session sur SRV-FILE01 : son hash est en mémoire.
+e9: svc_backup -DCSync-> corp.local | svc_backup a les droits de réplication : secretsdump.py -just-dc donne le hash de krbtgt. Domaine compromis.
+objectif: Vous êtes le défenseur. Retirez le moins de relations possible pour que j.martin n'atteigne plus le domaine.
+cible: chemin=0, coupees=1
+indice: Les deux chemins passent par le même compte avant la fin.
+erreur: chemin=0, coupees>1 → C'est coupé, mais une seule relation suffisait. ;; chemin=1 → Il reste un chemin : suivez le rouge.
+bravo: Les deux chemins passent par svc_backup et ses droits DCSync : un compte de service qui n'a pas besoin de répliquer l'annuaire ne doit pas pouvoir le faire.
+```
+
 ## Marquer les assets et construire une stratégie
 
 Le vrai usage de BloodHound passe par deux marqueurs. On marque comme **Owned** (par un clic droit) tout objet déjà compromis, et comme **High Value** les cibles visées ; BloodHound affiche alors automatiquement les chemins qui relient les uns aux autres.

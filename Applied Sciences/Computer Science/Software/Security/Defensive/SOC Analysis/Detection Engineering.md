@@ -52,25 +52,20 @@ Cibler les TTPs offre la meilleure durabilité des détections.
 
 ## Cycle de vie d'une détection
 
+```mermaid
+flowchart LR
+    hyp["Renseignement\nou hypothèse"] --> rech["Exploration\ndes données"]
+    rech --> proto["Prototype\nde règle"]
+    proto --> test["Test sur l'historique\nvrais et faux positifs"]
+    test --> tune["Réglage\nseuils, exclusions"]
+    tune --> rev["Relecture\npar un pair"]
+    rev --> prod["Production\nalerte ou observation"]
+    prod --> mon["Suivi\ntaux de faux positifs"]
+    mon -->|"la règle se dégrade"| tune
+    mon -->|"nouvelle technique"| hyp
 ```
-Threat Intel / Hypothèse
-        ↓
-Recherche (query exploration)
-        ↓
-Prototype de règle
-        ↓
-Test sur données historiques (false positives, true positives)
-        ↓
-Tuning (ajustement seuils, exclusions)
-        ↓
-Review (pair, architecte)
-        ↓
-Déploiement en production (alert ou observe)
-        ↓
-Monitoring (performances, FP rate)
-        ↓
-Maintenance (mise à jour si TP rate chute)
-```
+
+Une règle n'est jamais finie : le suivi en production renvoie soit au réglage, quand les faux positifs montent, soit au début du cycle, quand l'adversaire change de technique.
 
 ## Frameworks de référence
 

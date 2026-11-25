@@ -92,6 +92,23 @@ Si l'en-tête est absent ou ne correspond pas → navigateur bloque la réponse
 
 Les requêtes "non simples" (PUT, DELETE, JSON, headers custom) déclenchent un preflight OPTIONS :
 
+```mermaid
+sequenceDiagram
+    participant JS as JavaScript de app.com
+    participant N as Navigateur
+    participant S as api.app.com
+    JS->>N: fetch DELETE avec Authorization
+    N->>S: OPTIONS, Origin et Access-Control-Request-Method
+    S-->>N: 204 et en-têtes Access-Control-Allow
+    alt origine, méthode et en-têtes autorisés
+        N->>S: DELETE /api/data
+        S-->>N: 200 et Access-Control-Allow-Origin
+        N-->>JS: réponse lisible
+    else refusé
+        N-->>JS: erreur CORS, le DELETE ne part jamais
+    end
+```
+
 ```
 Navigateur → Serveur (preflight) :
 OPTIONS /api/data HTTP/1.1
@@ -142,6 +159,21 @@ Access-Control-Allow-Origin: https://app.com    ← * INTERDIT avec credentials
 ```
 
 ## Mauvaises configurations CORS exploitables
+
+Réglez la page qui appelle et la réponse du serveur : le simulateur écrit les en-têtes échangés et dit ce que le navigateur laisse lire au script.
+
+```widget:cors
+origine: https://evil.example
+methode: GET
+credentials: oui
+allow-origin: list
+allow-credentials: true
+objectif: Trouvez la configuration serveur qui laisse evil.example lire le profil de la victime avec ses cookies.
+cible: faille=1
+indice: Le serveur doit renvoyer exactement l'origine de l'attaquant, avec Allow-Credentials.
+erreur: lisible=0 → Le navigateur bloque encore la lecture : regardez le message sous les en-têtes.
+bravo: Recopier l'Origin reçu, c'est accepter toutes les origines, cookies compris. La correction : une liste blanche comparée à l'identique.
+```
 
 ### 1. Wildcard (*) avec credentials
 

@@ -34,15 +34,18 @@ Hiérarchie DNS :
 
 ### Résolution récursive
 
-```
-Client → Resolver : Qui est www.example.com ?
-Resolver → Root : Qui est www.example.com ?
-Root → Resolver : Je ne sais pas, demande à .com (ns1.verisign.com)
-Resolver → .com NS : Qui est www.example.com ?
-.com NS → Resolver : Je ne sais pas, demande à example.com (ns1.example.com)
-Resolver → ns1.example.com : Qui est www.example.com ?
-ns1.example.com → Resolver : C'est 93.184.216.34 (TTL: 3600)
-Resolver → Client : 93.184.216.34
+Avancez message par message : chaque étage ne connaît que l'étage suivant.
+
+```widget:echange
+acteurs: Client | Résolveur | Racine | .com | example.com
+m1: Client -> Résolveur : www.example.com ? | Le poste ne connaît que son résolveur (la box, le FAI ou 1.1.1.1). Il lui pose une question récursive : « trouve la réponse pour moi ».
+m2: Résolveur -> Racine : www.example.com ? | Rien en cache : le résolveur part des 13 adresses de serveurs racine qu'il connaît par cœur (fichier root hints).
+m3: Racine --> Résolveur : voir .com | La racine ne connaît pas le domaine. Elle répond par une délégation : les serveurs de noms de .com (ns1.verisign.com…).
+m4: Résolveur -> .com : www.example.com ? | Question itérative : la même demande, un étage plus bas.
+m5: .com --> Résolveur : voir ns1.example.com | .com délègue à son tour au serveur autoritaire du domaine, celui qui détient la zone.
+m6: Résolveur -> example.com : www.example.com ? | Dernier étage : on interroge celui qui sait vraiment.
+m7: example.com --> Résolveur : A 93.184.216.34, TTL 3600 | Réponse autoritaire. C'est elle qu'un empoisonnement de cache cherche à devancer avec une réponse forgée.
+m8: Résolveur --> Client : 93.184.216.34 | Le résolveur garde la réponse une heure : les clients suivants l'obtiennent sans un seul aller-retour vers la racine.
 ```
 
 > [!important] Récursif vs itératif
@@ -126,15 +129,15 @@ DNSSEC ajoute une couche de signature cryptographique pour garantir l'authentici
 
 ### Chaîne de confiance
 
+```mermaid
+flowchart TD
+    ancre["Ancre de confiance\nclé KSK de la racine, livrée avec le résolveur"] --> root["Zone racine\nDNSKEY"]
+    root -->|"DS de .com, signé par la racine"| com["Zone .com\nDNSKEY"]
+    com -->|"DS de example.com, signé par .com"| ex["Zone example.com\nDNSKEY"]
+    ex -->|"RRSIG"| rr["www.example.com A 93.184.216.34\nréponse signée"]
 ```
-Root → signé par la clé root (connue et distribuée dans les OS)
-  ↓ DS
-.com → signé par la clé .com
-  ↓ DS
-example.com → signé par la clé example.com
-  ↓ RRSIG
-www.example.com A 93.184.216.34 → réponse signée
-```
+
+Chaque zone publie dans la zone parente l'empreinte de sa clé (enregistrement DS), que le parent signe. Le résolveur remonte ainsi jusqu'à la seule clé qu'il connaît d'avance, celle de la racine : un maillon cassé et la réponse est rejetée (SERVFAIL).
 
 ```bash
 # Vérifier DNSSEC d'un domaine

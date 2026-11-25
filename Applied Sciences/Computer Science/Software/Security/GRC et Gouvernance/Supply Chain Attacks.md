@@ -16,24 +16,29 @@ Les attaques de supply chain ciblent la chaîne d'approvisionnement logicielle p
 
 ## Anatomie d'une attaque supply chain
 
+```mermaid
+flowchart LR
+    dev["Développeur"] --> dep["Dépendances\nnpm, PyPI, Maven"]
+    dep --> build["Build\nCI/CD"]
+    build --> art["Artefacts\nimages, paquets"]
+    art --> upd["Mise à jour\ndistribuée"]
+    upd --> user["Utilisateurs"]
+    v1["Paquet piégé\ntyposquatting, confusion"] -.-> dep
+    v2["Pipeline compromis\nsecret volé, action tierce"] -.-> build
+    v3["Image de base\nempoisonnée"] -.-> art
+    v4["Mise à jour signée\nmais malveillante"] -.-> upd
 ```
-Chaîne d'approvisionnement logicielle :
 
-  Développeur → Dépendances (npm, PyPI, Maven...)
-             → Build system (CI/CD : GitHub Actions, Jenkins...)
-             → Artefacts (Docker images, packages...)
-             → Infrastructure (fournisseurs SaaS, CDN, outils de monitoring...)
-             → Utilisateurs finaux
+Chaque maillon est un point d'injection, et plus il est proche de l'utilisateur, plus l'attaque est large : un paquet piégé touche ceux qui l'installent, une mise à jour signée touche tous les clients d'un éditeur.
 
-Vecteurs d'attaque :
+Les vecteurs, par ordre d'apparition dans la chaîne :
 
-  1. Dépendances compromises     → package malveillant dans npm/PyPI/RubyGems
-  2. Dependency Confusion        → package interne piraté par un package public
-  3. Typosquatting               → package avec un nom très proche du légitime
-  4. Build system compromise     → injecter du code dans le pipeline CI/CD
-  5. Mise à jour logicielle      → SolarWinds, ASUS Live Update
-  6. Preinstalled malware        → hardware ou software avec malware pré-installé
-```
+1. **Dépendance compromise** : un paquet malveillant publié sur npm, PyPI ou RubyGems.
+2. **Confusion de dépendances** : un paquet public qui prend la place d'un paquet interne de même nom.
+3. **Typosquatting** : un nom très proche du paquet légitime.
+4. **Système de build compromis** : du code injecté dans le pipeline CI/CD.
+5. **Mise à jour logicielle** : SolarWinds, ASUS Live Update.
+6. **Logiciel préinstallé** : du matériel ou un logiciel livré avec un malware.
 
 ## Dependency Confusion
 
@@ -182,27 +187,29 @@ La sécurisation complète des pipelines — épinglage par SHA, permissions min
 
 ## Exemple SolarWinds (2020)
 
+```mermaid
+timeline
+    title SolarWinds Orion, de l'intrusion à la découverte
+    Octobre 2019 : APT29 entre dans le système de build
+    Mars 2020 : première mise à jour piégée, SUNBURST
+    Mars à juin 2020 : environ 18 000 clients l'installent
+    Décembre 2020 : FireEye découvre l'attaque en enquêtant sur sa propre compromission
 ```
-Attaque SolarWinds Orion — une des plus sophistiquées documentées :
 
-Chronologie :
-  Oct 2019      : attaquants (Cozy Bear / APT29) obtiennent accès au build system
-  Mars 2020     : première mise à jour malveillante (SUNBURST) distribuée
-  Déc  2020     : découverte par FireEye (après avoir détecté leur propre compromis)
+Le mécanisme de SUNBURST :
 
-Mécanisme SUNBURST :
-  1. Modification du code source d'Orion avant compilation
-  2. Build system intégré génère un DLL signé avec le certificat légitime SolarWinds
-  3. ~18 000 clients installent la mise à jour légitime mais malveillante
-  4. Dormance de 14 jours → exécution → beacon vers avsvmcloud.com
-  5. Seulement ~100 cibles activement exploitées (furtivité)
+1. Le code source d'Orion est modifié juste avant la compilation.
+2. Le build produit une DLL signée avec le vrai certificat de SolarWinds.
+3. Environ 18 000 clients installent cette mise à jour légitime en apparence.
+4. Après 14 jours de dormance, la porte dérobée contacte avsvmcloud.com.
+5. Seule une centaine de cibles est réellement exploitée, ce qui garde l'opération discrète.
 
-Lessons apprises :
-  → Build environment isolé du réseau de production
-  → Integrity checks sur les artefacts de build (reproductible builds)
-  → Signing des binaires + transparence (SBOM)
-  → Détection : monitoring des connexions depuis les serveurs de monitoring eux-mêmes
-```
+Les leçons retenues :
+
+- isoler l'environnement de build du réseau de production ;
+- vérifier l'intégrité des artefacts, idéalement avec des builds reproductibles ;
+- signer les binaires et publier leur composition (SBOM) ;
+- surveiller les connexions sortantes des outils de supervision eux-mêmes.
 
 > [!warning] Piège
 > Un binaire signé avec un certificat légitime n'est pas synonyme de code sain — SUNBURST était signé par le vrai certificat SolarWinds parce que l'attaquant avait compromis le build system *avant* la signature, pas le certificat lui-même. La signature garantit "ce binaire vient bien de ce build pipeline", pas "ce build pipeline n'a pas été compromis". C'est pourquoi l'isolation du build environment compte autant que la signature.

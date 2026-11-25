@@ -23,6 +23,17 @@ NTLM authentifie par défi-réponse, en trois messages. Le client annonce qu'il 
 
 La faille exploitée par le relais est que rien, dans ce protocole, ne lie l'authentification au serveur auquel elle était destinée. L'attaquant se place au milieu : il reçoit le NEGOTIATE du client, le transmet au serveur cible, récupère le défi de celui-ci, le renvoie au client, reçoit la réponse du client et la transmet enfin à la cible. Celle-ci valide la réponse et considère l'attaquant comme authentifié, sans que ni le client ni le serveur n'aient rien remarqué.
 
+```widget:echange
+acteurs: Victime | Attaquant | Serveur cible
+m1: Victime -> Attaquant : NEGOTIATE | Un empoisonnement LLMNR ou NBT-NS (Responder) a fait croire à la victime que l'attaquant est le partage qu'elle cherche. Elle commence à s'authentifier… chez lui.
+m2: !Attaquant -> Serveur cible : NEGOTIATE (relayé) | L'attaquant ne casse rien : il ouvre une session SMB, LDAP ou HTTP vers la vraie cible et lui transmet le message tel quel.
+m3: Serveur cible --> Attaquant : CHALLENGE | La cible envoie son défi de 8 octets. Elle croit parler à la victime.
+m4: !Attaquant --> Victime : CHALLENGE (relayé) | L'attaquant fait suivre à la victime le défi de la cible, pas un défi à lui.
+m5: Victime -> Attaquant : AUTHENTICATE | La victime calcule la réponse avec son hash NT. Cette réponse vaut pour le défi de la cible.
+m6: !Attaquant -> Serveur cible : AUTHENTICATE (relayé) | La cible vérifie la réponse : elle est juste. Rien ne la lie au poste qui l'a produite.
+m7: Serveur cible --> Attaquant : session ouverte | Session ouverte au nom de la victime. Parade : la signature SMB et le channel binding LDAP, qui lient la session à la clé de la victime, que l'attaquant n'a pas.
+```
+
 ## Prérequis et conditions
 
 Le relais ne réussit que si le service cible n'exige pas de **signature**, car c'est la signature qui lie une session à l'authentification qui l'a ouverte. Trois conditions ouvrent la voie. D'abord, la signature SMB doit être désactivée ou simplement « activée mais non requise » sur la cible : c'est le cas par défaut des serveurs, moins des contrôleurs de domaine et des postes récents, et on le vérifie avec `nmap --script smb2-security-mode`. Ensuite, la signature LDAP et le *channel binding* ne doivent pas être imposés sur les contrôleurs de domaine ; depuis 2020 ils sont activés mais rarement en mode strict, donc souvent exploitables. Enfin, l'EPA (*Extended Protection for Authentication*), qui lie l'authentification au canal TLS, doit être absente des services web comme IIS, Exchange ou ADCS pour autoriser un relais vers eux.

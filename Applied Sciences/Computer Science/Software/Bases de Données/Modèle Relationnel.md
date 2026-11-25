@@ -267,12 +267,32 @@ Composants :
 - **Association** : relation entre entités (CLIENT passe COMMANDE)
 - **Cardinalité** : nombre de participations (1:1, 1:N, M:N)
 
+```mermaid
+erDiagram
+    CLIENT ||--o{ COMMANDE : passe
+    COMMANDE ||--|{ LIGNE_COMMANDE : contient
+    PRODUIT ||--o{ LIGNE_COMMANDE : "figure dans"
+    CLIENT {
+        int client_id PK
+        string nom
+    }
+    COMMANDE {
+        int commande_id PK
+        int client_id FK
+        date date_commande
+    }
+    LIGNE_COMMANDE {
+        int commande_id FK
+        int produit_id FK
+        int quantite
+    }
+    PRODUIT {
+        int produit_id PK
+        string libelle
+    }
 ```
-CLIENT ──┤├── passe ──○├── COMMANDE ──┤├── contient ──○├── PRODUIT
 
-1:N (un client passe plusieurs commandes)
-M:N (une commande contient plusieurs produits, un produit est dans plusieurs commandes)
-```
+Un client passe zéro ou plusieurs commandes (1:N). Une commande contient plusieurs produits et un produit figure dans plusieurs commandes (M:N) : le modèle relationnel ne sait pas stocker ce lien directement, il le décompose en une table d'association, ici `LIGNE_COMMANDE`, dont la clé est le couple des deux clés étrangères.
 
 Une association M:N se traduit par une table de jonction :
 

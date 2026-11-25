@@ -203,6 +203,24 @@ def validate_token(token: str) -> Optional[User]:
     return stored_token.user
 ```
 
+### JWT — ce que la signature garantit, et ce qu'elle ne garantit pas
+
+Un JWT n'est pas chiffré : n'importe qui lit sa charge utile. Seule la signature empêche de la modifier, à condition que le serveur impose l'algorithme et que le secret soit vraiment secret.
+
+```widget:jwt
+payload: {"sub": "j.martin", "role": "user", "exp": 1764028800}
+secret: azerty123
+none-accepte: non
+objectif: Obtenez un accès admin sans connaître d'avance le secret du serveur.
+cible: admin=1
+indice: Le secret a été choisi par un humain pressé : il figure sûrement dans rockyou.
+bravo: Un secret HS256 se casse hors ligne, sans aucune requête au serveur. Il faut 256 bits aléatoires, ou une signature asymétrique.
+objectif-2: Le serveur a maintenant une faille de bibliothèque : il accepte alg none. Obtenez l'accès admin sans aucun secret.
+cible-2: admin=1, none=1
+indice-2: Cochez la case du serveur vulnérable, choisissez none et videz la signature.
+bravo-2: Le serveur a lu l'algorithme dans le jeton lui-même. Une bibliothèque correcte impose l'algorithme attendu côté serveur.
+```
+
 ### API Keys — Stockage et rotation
 
 ```bash

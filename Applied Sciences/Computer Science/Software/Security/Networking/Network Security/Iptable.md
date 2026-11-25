@@ -158,6 +158,33 @@ iptables -A INPUT -m conntrack --ctstate INVALID -j DROP
 iptables -A INPUT -m limit --limit 5/min -j LOG --log-prefix "iptables BLOCKED: " --log-level 4
 ```
 
+Faites passer des paquets dans cette chaîne, reprise de la configuration ci-dessus. La première règle qui correspond décide ; décochez une règle pour voir le paquet tomber sur la suivante.
+
+```widget:pare-feu
+chaine: INPUT
+politique: DROP
+r1: -A INPUT -i lo -j ACCEPT
+r2: -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
+r3: -A INPUT -p tcp -s 192.168.1.100 --dport 22 -m conntrack --ctstate NEW -j ACCEPT
+r4: -A INPUT -p tcp --dport 22 -m conntrack --ctstate NEW -j ACCEPT
+r5: -A INPUT -p tcp --dport 80 -m conntrack --ctstate NEW -j ACCEPT
+r6: -A INPUT -p tcp --dport 443 -m conntrack --ctstate NEW -j ACCEPT
+r7: -A INPUT -p udp --dport 53 -j ACCEPT
+r8: -A INPUT -p icmp --icmp-type echo-request -m limit --limit 1/s -j ACCEPT
+r9: -A INPUT -m limit --limit 5/min -j LOG --log-prefix "iptables BLOCKED: "
+paquet: tcp 203.0.113.9 22 NEW
+x1: SSH de l'admin = tcp 192.168.1.100 22 NEW
+x2: SSH d'Internet = tcp 203.0.113.9 22 NEW
+x3: HTTPS = tcp 203.0.113.9 443 NEW
+x4: Réponse à apt = tcp 151.101.2.132 51544 ESTABLISHED
+x5: Base de données = tcp 203.0.113.9 3306 NEW
+objectif: Le SSH venu d'Internet est accepté. Désactivez une seule règle pour qu'il soit jeté, sans couper le SSH de l'administrateur.
+cible: accepte=0, desactivees=1
+indice: Quelle règle laisse entrer SSH « depuis n'importe où » ?
+erreur: desactivees>1 → Une seule règle suffit. ;; accepte=1 → Le paquet trouve encore une règle qui l'accepte.
+bravo: Sans la règle 4, le SSH d'Internet n'est pris par aucune règle et finit dans la politique par défaut, DROP. La règle 3 garde l'administrateur.
+```
+
 ## Spécifications de protocoles et ports
 
 ```bash

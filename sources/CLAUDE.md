@@ -269,12 +269,21 @@ bits: 32
 | `cercle-trigo` | `angle` (degrés) | Point déplaçable sur le cercle unité : cos, sin, tangente, courbes et valeurs exactes des angles remarquables |
 | `ordonner` | `elements` (`texte = détail \| …`, dans le bon ordre), `consigne`, `haut`, `bas` | Liste mélangée à remettre en ordre (dates, périodes, étapes) ; le détail apparaît une fois l'élément bien placé |
 | `associer` | `paires` (`A = B \| C = D`), `consigne` | Associer chaque élément de gauche à un élément de droite mélangé (dieu grec ↔ romain, concept ↔ auteur) |
+| `echange` | `acteurs` (`A \| B \| C`), `m1`, `m2`… (`A -> B : libellé \| explication`) | Un protocole message par message, en diagramme de séquence : `-->` pour une réponse (pointillés), `!` en tête pour un message d'attaquant (rouge) |
+| `pare-feu` | `politique`, `chaine`, `r1`, `r2`… (règles iptables), `paquet` (`tcp 10.8.0.6 22 NEW`), `x1`, `x2`… (`libellé = paquet`) | Un paquet descend la chaîne : chaque règle dit pourquoi elle le laisse passer, la première qui correspond décide ; règles désactivables |
+| `cors` | `origine`, `methode`, `corps` (`json`), `credentials`, `allow-origin` (`none`, `star`, `list`, `reflect`, `null`), `allow-credentials`, `allow-methods` | En-têtes échangés (preflight compris) et ce que le navigateur laisse lire ; signale la configuration qui ouvre une faille |
+| `nat` | `lan` (adresses séparées par des virgules), `wan`, `serveur` | Table PAT d'un routeur : connexions sortantes, réponses retrouvées, connexion entrante jetée |
+| `tunnel-ssh` | `mode` (`L`, `R`, `D`), `toi`, `pivot`, `pivot-nom`, `pivot-interne`, `destination`, `destination-nom`, `port` | Qui tape la commande, qui ouvre la session SSH, où le port écoute, quel tronçon passe en clair |
+| `jwt` | `payload` (JSON), `secret`, `none-accepte`, `liste` (mots séparés par des virgules) | Vrai jeton HS256 signé dans la page : charge utile modifiable, `alg: none`, recherche du secret dans une liste |
+| `chemin-ad` | `depart`, `arrivee`, `noeuds` (`nom=U\|G\|C\|D`, facultatif), `e1`, `e2`… (`A -Relation-> B \| ce que l'attaquant en tire`) | Graphe à la BloodHound, plus court chemin en rouge ; décocher une relation fait basculer sur le chemin suivant |
+| `kill-chain` | `e1`… (`J0 \| étape \| détail`), `d1`… (`défense \| bloque 1` ou `détecte 2, 5` ou `soc` ou `sauvegarde`, `\| actif` pour la cocher) | Une attaque jour par jour : défenses qui bloquent, qui voient, et alertes traitées ou non |
+| `cassage` | `longueur`, `jeux` (`minuscules, majuscules, chiffres, symboles`), `dictionnaire` | Temps pour tout essayer face à NTLM, MD5, SHA-256 et bcrypt (ordres de grandeur, un GPU) |
 
 ### Objectifs à atteindre
 
 Un widget peut porter des objectifs, à la Brilliant : une consigne, l'état qui la résout, un indice et des messages pour les erreurs courantes. Le site affiche la consigne au-dessus du widget, un bouton « Vérifier » dessous, et un retour vert (juste) ou ambre (erreur), jamais rouge. Rien n'est verrouillé : on peut passer un objectif, et le widget reste libre. Un objectif atteint compte comme une révision dans le calendrier du lecteur.
 
-Les clés restent des lignes `clé: valeur` ; le 2ᵉ, 3ᵉ… objectif prennent un suffixe `-2`, `-3` :
+Les clés restent des lignes `clé: valeur` ; le 2ᵉ, 3ᵉ… objectif prennent un suffixe `-2`, `-3`. Une clé répétée écrase la précédente : les listes s'écrivent avec des clés numérotées (`m1`, `m2`… pour `echange`), et aucun paramètre de widget ne s'appelle `cible`, réservé aux objectifs (d'où `destination` et `arrivee`) :
 
 ````
 ```widget:subnet
@@ -313,6 +322,15 @@ Seuls certains widgets exposent leur état, sous ces clés :
 | `cercle-trigo` | `angle`, `cos`, `sin` |
 | `ordonner` | `bien` (éléments bien placés), `total`, `juste` (0/1, après Vérifier), `essais` |
 | `associer` | `bien`, `total`, `juste` (0/1, après Vérifier), `essais` |
+| `echange` | `etape`, `total`, `fini` (0/1 : dernier message atteint) |
+| `pare-feu` | `accepte` (0/1), `regle` (numéro de la règle qui décide, 0 = politique), `desactivees` |
+| `cors` | `lisible` (0/1), `faille` (0/1), `preflight` (0/1), `envoyee` (0/1) |
+| `nat` | `lignes`, `reponses`, `jetes` |
+| `tunnel-ssh` | `mode` (`L`, `R`, `D`), `vus` (modes affichés) |
+| `jwt` | `admin` (0/1), `accepte` (0/1), `none` (0/1) |
+| `chemin-ad` | `sauts`, `chemin` (0/1), `coupees` (relations décochées) |
+| `kill-chain` | `arretee` (0/1, avant la dernière étape), `etape`, `alertes`, `defenses` (cochées) |
+| `cassage` | `longueur`, `jeux`, `dictionnaire` (0/1), `ntlm_s`, `bcrypt_s` (secondes) |
 
 Sur un autre widget, les objectifs sont ignorés et le widget s'affiche comme d'habitude.
 
@@ -321,6 +339,8 @@ Sur un autre widget, les objectifs sont ignorés et le widget s'affiche comme d'
 `rehypeWidgets` (learn-nebula, `lib/markdown.ts`) transforme le bloc en point de montage, que `public/js/widgets.js` hydrate. Un nom inconnu reste affiché comme un bloc de code — une coquille est donc visible, jamais silencieuse. Sans JavaScript, une ligne de repli remplace le widget.
 
 Ajouter un widget = une entrée dans `WIDGETS` et `WIDGET_FALLBACK` (`lib/markdown.ts`), un constructeur dans `BUILDERS` (`public/js/widgets.js`), et les styles `.w-*` dans `assets/css/main.css`.
+
+Les widgets récents vivent dans des packs chargés seulement quand la page en a besoin (`lib/widgets-extra.ts` : `data`, `sci`, `lang`, `cyber`). Les neuf widgets de sécurité (`echange` à `cassage`) forment le pack `cyber` : un module par widget dans `public/js/cyber/`, leurs règles testées dans `lib/cyber.ts`.
 
 ### Figures de données
 

@@ -22,20 +22,14 @@ ARP résout ce problème : il traduit une IP en MAC.
 
 ## Fonctionnement
 
-```
-Machine A (192.168.1.10) veut parler à Machine B (192.168.1.20)
-    ↓
-A envoie une requête ARP en broadcast :
-"Qui a l'IP 192.168.1.20 ? Donnez-moi votre MAC !"
-    ↓
-Toutes les machines du réseau reçoivent la requête
-    ↓
-Machine B répond en unicast :
-"C'est moi ! Ma MAC est AA:BB:CC:DD:EE:FF"
-    ↓
-A stocke cette info dans son cache ARP
-    ↓
-A peut maintenant envoyer les trames directement à B
+```widget:echange
+acteurs: PC A .10 | PC B .20 | Attaquant .66
+m1: PC A .10 -> PC B .20 : Qui a 192.168.1.20 ? (broadcast) | A connaît l'IP de B mais pas sa MAC. Elle diffuse la question à tout le segment (ff:ff:ff:ff:ff:ff) : toutes les machines la reçoivent, l'attaquant compris.
+m2: PC B .20 --> PC A .10 : .20 est aa:bb:cc:dd:ee:ff | B répond en unicast. A range la paire IP–MAC dans son cache ARP (arp -a).
+m3: PC A .10 -> PC B .20 : trame vers aa:bb:cc:dd:ee:ff | A envoie désormais ses trames directement à la MAC de B.
+m4: !Attaquant .66 -> PC A .10 : .20 est 66:66:66:66:66:66 | Une réponse que personne n'a demandée. ARP n'a aucune authentification : A écrase son cache sans rien vérifier. C'est l'empoisonnement.
+m5: PC A .10 -> Attaquant .66 : trame destinée à B | A croit toujours parler à B, mais la trame part vers la MAC de l'attaquant.
+m6: !Attaquant .66 -> PC B .20 : trame relayée | L'attaquant relaie (ip_forward=1) pour que rien ne paraisse anormal : il est au milieu et lit tout.
 ```
 
 ## Cache ARP
