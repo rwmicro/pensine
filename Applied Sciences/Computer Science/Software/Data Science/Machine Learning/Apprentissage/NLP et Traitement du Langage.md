@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Data Science > Machine Learning > Apprentissage"
 tags: [nlp, rnn, lstm, gru, seq2seq, attention, embeddings, machine-learning]
 date: "2026-03-22"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Data Science/Machine Learning/Apprentissage/Apprentissage Supervisé]]"]
 ---
 
 # NLP et Traitement du Langage Naturel

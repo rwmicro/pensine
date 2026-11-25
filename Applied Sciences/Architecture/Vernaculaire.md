@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Architecture"
 tags: [sciences-appliquées, architecture]
 date: "2024-11-01"
+prerequis: ["[[Applied Sciences/Ecology/Écologie Humaine]]"]
 ---
 
 # Architecture Vernaculaire

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Mathematics"
 tags: [sciences-appliquées, mathématiques]
 date: "2026-02-16"
+prerequis: ["[[Applied Sciences/Mathematics/Lycée/Fonctions & Analyse/Primitives et Intégrales]]"]
 ---
 
 # Formulaire de Mathématiques

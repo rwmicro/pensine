@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Offensive"
 tags: [lolbas, gtfobins, living-off-the-land, windows, linux, evasion, sécurité]
 date: "2026-03-22"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Security/Offensive/Linux Privilege Escalation]]", "[[Applied Sciences/Computer Science/Software/Security/Offensive/Windows Privilege Escalation]]"]
 ---
 
 # LOLBAS et GTFOBins

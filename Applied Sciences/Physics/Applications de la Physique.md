@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Physics"
 tags: [sciences-appliquées, physique, applications]
 date: "2026-06-21"
+prerequis: ["[[Applied Sciences/Physics/Lycée/Mécanique/Lois de Newton]]"]
 ---
 
 # Applications de la Physique

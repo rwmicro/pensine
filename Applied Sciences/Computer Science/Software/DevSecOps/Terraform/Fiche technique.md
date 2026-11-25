@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > DevSecOps > Terraform"
 tags: [sciences-appliquées, informatique, devsecops, terraform]
 date: "2025-05-04"
+prerequis: ["[[Applied Sciences/Computer Science/Software/DevSecOps/Docker/Docker]]"]
 ---
 
 # Terraform — Fiche Technique

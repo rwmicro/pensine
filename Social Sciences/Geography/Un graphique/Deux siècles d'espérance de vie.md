@@ -6,6 +6,7 @@ tags: [sciences-sociales, géographie, santé, démographie, un-graphique]
 date: "2026-10-10"
 format: graphique
 pays: France, Nigeria
+prerequis: ["[[Applied Sciences/Medicine/Enjeux Contemporains]]"]
 ---
 # L'espérance de vie mondiale a plus que doublé en deux siècles
 

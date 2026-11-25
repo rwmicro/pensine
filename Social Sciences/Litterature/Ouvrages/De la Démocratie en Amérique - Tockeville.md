@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Litterature > Ouvrages"
 tags: [sciences-sociales, littérature]
 date: "2026-02-22"
+prerequis: ["[[Social Sciences/Sociology/Fondateurs/Alexis de Tocqueville]]"]
 ---
 
 # De la Démocratie en Amérique — Alexis de Tocqueville (1835–1840)

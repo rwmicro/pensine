@@ -6,6 +6,7 @@ tags: [sciences-appliquées, informatique]
 date: "2026-02-24"
 parcours: "Algorithmique : complexité, structures et graphes"
 parcours-description: "De la mesure de complexité aux structures de données, puis le tri, la programmation dynamique et les algorithmes de graphes."
+prerequis: ["[[Applied Sciences/Computer Science/Software/Languages/Python/Python Basics]]"]
 ---
 
 # Complexité et Big O

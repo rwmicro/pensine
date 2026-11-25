@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Litterature"
 tags: [sciences-sociales, littérature]
 date: "2025-11-06"
+prerequis: ["[[Social Sciences/Litterature/Périodes/Antiquité Classique]]"]
 ---
 # Conseils de Lecture
 

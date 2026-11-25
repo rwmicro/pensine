@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > DevSecOps"
 tags: [sciences-appliquées, informatique, devsecops]
 date: "2025-05-04"
+prerequis: ["[[Applied Sciences/Computer Science/Software/DevSecOps/Docker/Docker]]"]
 ---
 
 # Sites d'Apprentissage DevSecOps

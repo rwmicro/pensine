@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Mathematics"
 tags: [sciences-appliquées, mathématiques, glossaire, notation, symboles]
 date: "2026-05-20"
+prerequis: ["[[Applied Sciences/Mathematics/Math Sup/Logique et Raisonnement]]"]
 ---
 
 # Glossaire des Symboles Mathématiques

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Mathematics"
 tags: [sciences-appliquées, mathématiques, index, roadmap]
 date: "2026-05-20"
+prerequis: ["[[Applied Sciences/Mathematics/Lycée/Algèbre/Ensembles et Nombres]]"]
 ---
 
 # Mathématiques — Index et Roadmap

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Data Science > Machine Learning"
 tags: [sciences-appliquées, informatique, data-science, machine-learning]
 date: "2026-02-12"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Data Science/Les bases]]"]
 ---
 
 # Ressources Machine Learning

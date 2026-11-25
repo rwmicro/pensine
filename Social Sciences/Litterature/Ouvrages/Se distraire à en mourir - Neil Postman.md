@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Litterature > Ouvrages"
 tags: [sciences-sociales, littérature]
 date: "2026-02-22"
+prerequis: ["[[Social Sciences/Litterature/Périodes/Postmodernisme et Contemporain (1970-Aujourd'hui)]]"]
 ---
 
 # Se distraire à en mourir — Neil Postman (1985)

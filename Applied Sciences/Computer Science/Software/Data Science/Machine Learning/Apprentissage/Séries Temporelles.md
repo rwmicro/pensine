@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Data Science > Machine Learning > Apprentissage"
 tags: [séries-temporelles, time-series, arima, lstm, prévision, machine-learning]
 date: "2026-03-22"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Data Science/Machine Learning/Apprentissage/Apprentissage Supervisé]]"]
 ---
 
 # Séries Temporelles

@@ -4,6 +4,7 @@ domain: "Applied Sciences"
 subdomain: "Computer Science > Web > Ressources"
 tags: [sciences-appliquées, informatique, web]
 date: "2025-01-15"
+prerequis: ["[[Applied Sciences/Computer Science/Software/Web/ReactJS]]"]
 ---
 
 # Icônes pour le Web

@@ -4,6 +4,7 @@ domain: "Social Sciences"
 subdomain: "Litterature"
 tags: [sciences-sociales, littérature]
 date: "2025-12-31"
+prerequis: ["[[Social Sciences/Litterature/Périodes/XXe Siècle - Modernisme]]"]
 ---
 # Romans russes / Europe de l’Est / Tragique historique
 - Vie et Destin — **Vassili Grossman**
