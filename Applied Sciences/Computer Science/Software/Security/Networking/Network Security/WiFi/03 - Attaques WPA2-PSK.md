@@ -2,7 +2,7 @@
 title: "Attaques WPA2-PSK"
 domain: "Applied Sciences"
 subdomain: "Computer Science > Security > Networking > Network Security > WiFi"
-tags: [sciences-appliquées, informatique, sécurité, réseau, wifi, wpa2, pmkid, hashcat, aircrack]
+tags: [sciences-appliquées, informatique, sécurité, réseau, wifi, wpa2, pmkid, hashcat, aircrack, ppsk]
 date: "2026-05-17"
 prerequis: ["[[02 - Reconnaissance et Sniffing]]"]
 ---
@@ -146,6 +146,19 @@ hashcat -m 22000 hash.hc22000 --show
 - `rockyou.txt` (~14 M, mdp leakés 2009)
 - `seclists/Passwords/WiFi-WPA/`
 - Générées par `crunch` ou `cewl` (depuis un site)
+
+## Réseau en PPSK : ce qui change pour l'attaquant
+
+Certains réseaux WPA2-Personal acceptent plusieurs passphrases sur un même SSID, chacune liée à un VLAN : c'est le PPSK, décrit dans [[11 - Defense et Detection]]. Rien ne le signale dans les balises, qui affichent `PSK` comme n'importe quel réseau domestique. La capture et le cassage ne changent pas : le handshake ou le PMKID d'un client se cassent exactement comme plus haut, puisque chaque passphrase dérive sa propre PMK avec le même PBKDF2. Ce qui change, c'est ce que rapporte la clé trouvée.
+
+D'abord, elle ne vaut que pour son groupe. Le handshake d'une caméra cassé donne la clé de la caméra, et donc l'accès au VLAN IoT, pas à celui des employés. Le choix de la cible compte : un appareil bon marché a souvent une clé courte ou d'usine, mais il ouvre aussi le VLAN le plus restreint.
+
+Ensuite, elle ne déchiffre plus le trafic des autres. Avec une PSK unique, quiconque la connaît peut recalculer la PTK de chaque client dont il a capturé le handshake, et lire tout son trafic unicast. En PPSK, chaque client a sa propre PMK : connaître une clé ne donne que les sessions établies avec cette clé.
+
+Enfin, une clé liée à une adresse MAC ne se réutilise pas telle quelle depuis un autre appareil. L'attaquant doit aussi usurper la MAC du client légitime (`macchanger -m`), ce qui suppose de l'avoir vue dans la capture et provoque un conflit si l'appareil est connecté au même moment.
+
+> [!quiz] Pourquoi casser la passphrase d'un client en PPSK ne permet-il pas de déchiffrer le trafic des autres clients du même SSID ?
+> Parce que chaque passphrase donne sa propre PMK, et que la PTK de chaque session en dérive. Avec une PSK unique, la PMK est commune et il suffit d'un handshake capturé pour recalculer la PTK de n'importe quel client. En PPSK, la clé cassée ne permet de recalculer que les PTK des sessions ouvertes avec cette même clé.
 
 ## WEP — historique (5 min)
 
