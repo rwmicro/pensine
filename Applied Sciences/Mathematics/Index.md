@@ -26,7 +26,8 @@ Mathematics/
 ├── Lycée/                            (Seconde — Terminale)
 ├── Math Sup/                         (MPSI, 1re année prépa)
 ├── Math Spé/                         (MP, 2e année prépa)
-└── Approfondissements/               (sujets hors programme : graphes, etc.)
+├── Approfondissements/               (sujets hors programme : graphes, etc.)
+└── Mathématiques de la cryptographie/ (RSA, logarithme discret, courbes, hachage, AES, réseaux)
 ```
 
 ## Roadmap par niveau
@@ -149,6 +150,17 @@ Pour aller au-delà du curriculum standard :
 - [[Géométrie Non-Euclidienne]] — hyperbolique, sphérique, relativité
 - [[Théorie des Nombres]] — RSA, Fermat, Riemann
 - [[Applications des Mathématiques]] — vue panoramique des usages
+
+## Mathématiques de la cryptographie
+
+Un parcours qui explique pourquoi la cryptographie moderne fonctionne, avec des widgets pour refaire les calculs :
+
+- [[RSA — pourquoi ça marche]] — Euler, exponentiation rapide, bourrage, factorisation
+- [[Logarithme discret et Diffie-Hellman]] — groupes cycliques, échange de clés, pas de bébé pas de géant
+- [[Courbes elliptiques]] — loi de groupe, corps finis, ECDH, ECDSA, Curve25519
+- [[Fonctions de hachage — comment elles sont construites]] — anniversaires, Merkle-Damgård, éponge
+- [[Corps finis et AES]] — GF(2^8), S-box, MixColumns
+- [[Réseaux euclidiens et LWE]] — bases, plus court vecteur, ML-KEM
 
 ## Ressources transversales
 
