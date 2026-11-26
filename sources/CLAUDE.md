@@ -278,6 +278,12 @@ bits: 32
 | `chemin-ad` | `depart`, `arrivee`, `noeuds` (`nom=U\|G\|C\|D`, facultatif), `e1`, `e2`… (`A -Relation-> B \| ce que l'attaquant en tire`) | Graphe à la BloodHound, plus court chemin en rouge ; décocher une relation fait basculer sur le chemin suivant |
 | `kill-chain` | `e1`… (`J0 \| étape \| détail`), `d1`… (`défense \| bloque 1` ou `détecte 2, 5` ou `soc` ou `sauvegarde`, `\| actif` pour la cocher) | Une attaque jour par jour : défenses qui bloquent, qui voient, et alertes traitées ou non |
 | `cassage` | `longueur`, `jeux` (`minuscules, majuscules, chiffres, symboles`), `dictionnaire` | Temps pour tout essayer face à NTLM, MD5, SHA-256 et bcrypt (ordres de grandeur, un GPU) |
+| `puissances-mod` | `n` (3 à 41), `g`, `cherche` | Puissances de g modulo n sur une horloge : ordre, générateur, logarithme discret d'une valeur cherchée |
+| `rsa` | `p`, `q`, `e`, `m` | RSA pas à pas sur de petits premiers : n, φ(n), d par Euclide étendu, exponentiation rapide, déchiffrement, factorisation par Ève |
+| `courbe-elliptique` | `mode` (`reels` ou `fini`), `a`, `b`, `p` (premier ≤ 97), `k` | Addition de points : sécante et tangente sur les réels ; nuage de points sur F_p, P + Q en touchant un point, multiples kP |
+| `anniversaire` | `k` (personnes) ou `bits` (empreinte), `exposant` | Paradoxe des anniversaires et collisions de hachage en 2^(n/2), avec tirages au hasard |
+| `moe-routeur` | `phrase`, `experts`, `k`, `partages`, `equilibrage` (`oui`) | Routage top-k d'un mélange d'experts token par token, charge par expert, équilibrage par biais (DeepSeek-V3) |
+| `memoire-llm` | `modele` (`Llama 2 7B`, `Llama 3.1 8B`, `Llama 3.1 70B`, `DeepSeek-V3`), `methode` (`inference`, `full`, `lora`, `qlora`), `bits`, `contexte`, `gpu` (8, 24, 32, 80, 640) | Mémoire GPU : poids, cache KV (MHA, GQA, MLA), fine-tuning complet, LoRA, QLoRA, face à la carte choisie |
 
 ### Objectifs à atteindre
 
@@ -331,6 +337,12 @@ Seuls certains widgets exposent leur état, sous ces clés :
 | `chemin-ad` | `sauts`, `chemin` (0/1), `coupees` (relations décochées) |
 | `kill-chain` | `arretee` (0/1, avant la dernière étape), `etape`, `alertes`, `defenses` (cochées) |
 | `cassage` | `longueur`, `jeux`, `dictionnaire` (0/1), `ntlm_s`, `bcrypt_s` (secondes) |
+| `puissances-mod` | `n`, `g`, `ordre` (0 si g non inversible), `phi`, `generateur` (0/1), `cherche`, `log` (−1 si introuvable) |
+| `rsa` | `n`, `phi`, `d`, `c`, `e`, `valide` (0/1), `retrouve` (0/1) |
+| `courbe-elliptique` | `mode` ; sur les réels `double` (0/1), `infini` (0/1) ; sur F_p `p`, `a`, `b`, `points` (O compris), `ordre` (de P), `k`, `x`, `y` (de kP, −1 pour O), `somme` (0/1) |
+| `anniversaire` | `mode` (`jours` ou `bits`), `k`, `bits`, `exposant`, `proba` (0 à 1) |
+| `moe-routeur` | `experts`, `k`, `partages`, `actifs_pct`, `desequilibre` (charge max / idéale), `equilibrage` (0/1) |
+| `memoire-llm` | `params` (milliards), `methode`, `total_go`, `gpu`, `tient` (0/1), `kv_kio` (cache par token), `bits`, `contexte` |
 
 Sur un autre widget, les objectifs sont ignorés et le widget s'affiche comme d'habitude.
 
@@ -340,7 +352,7 @@ Sur un autre widget, les objectifs sont ignorés et le widget s'affiche comme d'
 
 Ajouter un widget = une entrée dans `WIDGETS` et `WIDGET_FALLBACK` (`lib/markdown.ts`), un constructeur dans `BUILDERS` (`public/js/widgets.js`), et les styles `.w-*` dans `assets/css/main.css`.
 
-Les widgets récents vivent dans des packs chargés seulement quand la page en a besoin (`lib/widgets-extra.ts` : `data`, `sci`, `lang`, `cyber`). Les neuf widgets de sécurité (`echange` à `cassage`) forment le pack `cyber` : un module par widget dans `public/js/cyber/`, leurs règles testées dans `lib/cyber.ts`.
+Les widgets récents vivent dans des packs chargés seulement quand la page en a besoin (`lib/widgets-extra.ts` : `data`, `sci`, `lang`, `cyber`, `calcul`). Les neuf widgets de sécurité (`echange` à `cassage`) forment le pack `cyber` : un module par widget dans `public/js/cyber/`, leurs règles testées dans `lib/cyber.ts`. Les six widgets de calcul (`puissances-mod` à `memoire-llm`, mathématiques de la cryptographie et LLM) forment le pack `calcul` : `public/js/calcul/`, modèles testés dans `lib/calcul.ts`.
 
 ### Figures de données
 

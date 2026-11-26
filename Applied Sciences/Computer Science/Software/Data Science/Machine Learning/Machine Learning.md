@@ -142,7 +142,7 @@ Le dossier `DeepLearning/` couvre les architectures modernes en profondeur :
 | Graphes | [[Graph Neural Networks]] |
 | Compression de modèles | [[Optimisation de Modèles]] |
 
-Pour les grands modèles de langage spécifiquement, voir le dossier `LLM/` : [[LLM — Architectures et Fonctionnement]], [[Fine Tuning]], [[Quantization]], [[RAG]], [[Embeddings]], [[Agents LLM et Function Calling]], [[Prompt Engineering]].
+Pour les grands modèles de langage spécifiquement, voir le dossier `LLM/` : [[LLM — Architectures et Fonctionnement]], [[Fine Tuning]], [[Quantization]], [[RAG]], [[Embeddings]], [[Agents LLM et Function Calling]], [[Prompt Engineering]]. Pour les architectures récentes et la pratique : [[Mixture of Experts]], [[Attention moderne — KV cache, GQA, MLA]], [[Modèles de raisonnement et apprentissage par renforcement]], [[Panorama des modèles open-weight (2026)]] et [[Fine-tuner un LLM open-weight]].
 
 ## Bibliothèques Python
 
